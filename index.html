@@ -7,10 +7,11 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;700&family=IBM+Plex+Mono:wght@400;600&family=Noto+Sans+KR:wght@400;600&display=swap">
 <style>
-/* Layout: 상단 상황판 바 + 좌측 채널 패널 + 자동 그리드 멀티뷰 */
+/* Layout: 상단 바 / 메인(임베드 멀티뷰) + 오른쪽 의석 상황판 / 하단 창으로 보는 방송사 런처 */
 :root{
-  --bg:#0b0d12; --panel:#12151c; --line:#232837; --fg:#e7e9ee; --dim:#8a90a2;
-  --dem:#3b6fe0; --rep:#d8433b; --live:#ff3b30; --focus:#f2c14e;
+  --bg:#0b0d12; --panel:#12151c; --panel2:#181c25; --line:#232837; --fg:#e7e9ee; --dim:#8a90a2;
+  --dem:#3b6fe0; --dem-soft:#3b6fe055; --rep:#d8433b; --rep-soft:#d8433b55; --oth:#8a7fb8;
+  --live:#ff3b30; --focus:#f2c14e;
   --display:"Barlow Condensed","Arial Narrow",sans-serif;
   --body:"Noto Sans KR",system-ui,sans-serif;
   --mono:"IBM Plex Mono",ui-monospace,monospace;
@@ -18,10 +19,14 @@
 }
 *{box-sizing:border-box}
 html,body{height:100%;margin:0}
-body{background:var(--bg);color:var(--fg);font:14px/1.4 var(--body);display:flex;flex-direction:column;overflow:hidden}
+body{background:var(--bg);color:var(--fg);font:14px/1.4 var(--body);display:flex;flex-direction:column}
 button,input{font:inherit;color:inherit}
 button{cursor:pointer}
 :focus-visible{outline:2px solid var(--focus);outline-offset:2px}
+.btn{background:transparent;border:1px solid var(--line);padding:6px 12px;border-radius:4px;font-size:13px;text-decoration:none;display:inline-flex;align-items:center;gap:6px}
+.btn:hover{border-color:var(--dim)}
+.btn.primary{border-color:var(--focus);color:var(--focus)}
+.lbl{font-family:var(--display);font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:var(--dim)}
 
 header{display:flex;align-items:center;gap:20px;padding:10px 16px;border-bottom:1px solid var(--line);background:var(--panel);flex-wrap:wrap}
 .brand{display:flex;align-items:center;gap:10px;font-family:var(--display);font-weight:700;font-size:22px;letter-spacing:.06em;text-transform:uppercase}
@@ -32,40 +37,58 @@ header{display:flex;align-items:center;gap:20px;padding:10px 16px;border-bottom:
 .clocks{display:flex;gap:18px;font-family:var(--mono);font-variant-numeric:tabular-nums}
 .clock span{display:block;font-size:10px;color:var(--dim);letter-spacing:.12em}
 .clock b{font-size:17px;font-weight:600}
-.tools{margin-left:auto;display:flex;gap:8px;align-items:center}
-.btn{background:transparent;border:1px solid var(--line);padding:6px 12px;border-radius:4px;font-size:13px}
-.btn:hover{border-color:var(--dim)}
-.btn.on{border-color:var(--focus);color:var(--focus)}
+.tools{margin-left:auto;display:flex;gap:8px}
 
-main{flex:1;display:flex;min-height:0}
-aside{width:250px;border-right:1px solid var(--line);background:var(--panel);overflow-y:auto;padding:14px;display:flex;flex-direction:column;gap:14px;flex-shrink:0}
-aside.hidden{display:none}
-.lbl{font-family:var(--display);font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:var(--dim)}
-.ch{display:flex;align-items:center;gap:8px;padding:6px 4px;border-radius:4px}
-.ch:hover{background:#1a1e28}
-.ch input{accent-color:var(--focus)}
-.ch label{flex:1;cursor:pointer}
-.ch .del{border:0;background:none;color:var(--dim);font-size:16px;padding:0 4px}
-.add{display:flex;flex-direction:column;gap:6px}
-.add input{background:var(--bg);border:1px solid var(--line);border-radius:4px;padding:6px 8px;font-size:13px}
-.hint{font-size:12px;color:var(--dim);line-height:1.5}
-kbd{font-family:var(--mono);font-size:11px;border:1px solid var(--line);border-radius:3px;padding:0 4px}
-
-#grid{flex:1;display:grid;gap:4px;padding:4px;min-width:0;background:#05060a}
+main{flex:1;display:grid;grid-template-columns:minmax(0,1fr) 340px;min-height:0}
+#grid{display:grid;gap:4px;padding:4px;min-width:0;min-height:0;background:#05060a}
 .tile{position:relative;background:#000;border:2px solid transparent;min-height:0;min-width:0;display:flex;flex-direction:column}
 .tile.audio{border-color:var(--focus)}
-.tile.big{grid-column:1/-1;grid-row:1/-1;z-index:2}
 .tile iframe{flex:1;width:100%;border:0;min-height:0}
 .cap{display:flex;align-items:center;gap:6px;padding:4px 6px;background:var(--panel);font-size:12px}
 .cap .name{font-family:var(--display);font-weight:700;font-size:15px;letter-spacing:.05em;text-transform:uppercase;flex:1;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.cap .num{font-family:var(--mono);color:var(--dim);font-size:11px}
-.cap button{background:none;border:1px solid var(--line);border-radius:3px;padding:2px 7px;font-size:12px}
+.cap button,.cap a{background:none;border:1px solid var(--line);border-radius:3px;padding:2px 7px;font-size:12px;text-decoration:none}
 .tile.audio .snd{border-color:var(--focus);color:var(--focus)}
 .swap{display:flex;gap:4px;padding:4px 6px;background:var(--panel)}
 .swap input{flex:1;min-width:0;background:var(--bg);border:1px solid var(--line);border-radius:3px;padding:3px 6px;font-size:12px}
-.empty{grid-column:1/-1;display:grid;place-items:center;color:var(--dim)}
 
-@media (max-width:700px){aside{position:absolute;z-index:5;height:calc(100% - 52px)}}
+/* 의석 상황판 */
+#seats{border-left:1px solid var(--line);background:var(--panel);overflow-y:auto;padding:14px 16px;display:flex;flex-direction:column;gap:18px}
+.chamber{display:flex;flex-direction:column;gap:10px}
+.chhead{display:flex;align-items:baseline;justify-content:space-between}
+.chhead h2{margin:0;font-family:var(--display);font-size:24px;letter-spacing:.04em;text-transform:uppercase}
+.chhead small{font-family:var(--mono);color:var(--dim);font-size:11px}
+.meter{position:relative;height:26px;background:var(--panel2);border-radius:3px;overflow:hidden;display:flex}
+.meter i{display:block;height:100%}
+.meter .mid{position:absolute;left:50%;top:-3px;bottom:-3px;width:2px;background:var(--fg);opacity:.7}
+.meterRow{display:flex;flex-direction:column;gap:3px}
+.meterRow span{font-size:11px;color:var(--dim)}
+table{width:100%;border-collapse:collapse;font-variant-numeric:tabular-nums}
+th{font-weight:400;font-size:11px;color:var(--dim);text-align:right;padding:2px 4px}
+th:first-child{text-align:left}
+td{padding:3px 4px;text-align:right;border-top:1px solid var(--line)}
+td:first-child{text-align:left;font-weight:600}
+td input{width:62px;background:var(--bg);border:1px solid var(--line);border-radius:3px;padding:3px 6px;text-align:right;font-family:var(--mono);font-size:14px}
+.sw{display:inline-block;width:9px;height:9px;border-radius:2px;margin-right:6px}
+.status{font-size:12px;color:var(--dim)}
+.status b{color:var(--fg)}
+.src{display:flex;flex-direction:column;gap:6px}
+.src input{background:var(--bg);border:1px solid var(--line);border-radius:4px;padding:6px 8px;font-size:13px}
+.links{display:flex;flex-wrap:wrap;gap:6px}
+.note{font-size:12px;color:var(--dim);line-height:1.6}
+
+/* 하단 런처 */
+footer{border-top:1px solid var(--line);background:var(--panel);padding:8px 16px;display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+footer .btn{padding:5px 10px}
+.add{display:flex;gap:6px;flex-wrap:wrap;margin-left:auto}
+.add input{background:var(--bg);border:1px solid var(--line);border-radius:4px;padding:5px 8px;font-size:12px;width:150px}
+
+#note{padding:8px 16px;background:#3a2a0a;color:var(--focus);font-size:13px}
+@media (max-width:900px){
+  body{height:auto}
+  main{grid-template-columns:1fr}
+  #grid{height:56vw;min-height:220px}
+  #seats{border-left:0;border-top:1px solid var(--line)}
+}
 </style>
 </head>
 <body>
@@ -77,55 +100,94 @@ kbd{font-family:var(--mono);font-size:11px;border:1px solid var(--line);border-r
     <div class="clock"><span>SEOUL (KST)</span><b id="tKST">--:--</b></div>
   </div>
   <div class="tools">
-    <button class="btn" id="winMode" title="임베드가 막힐 때 쓰는 방식">창으로 띄우기</button>
-    <button class="btn" id="togglePanel">채널 패널</button>
     <button class="btn" id="muteAll">전체 음소거</button>
-    <button class="btn" id="reload">새로고침</button>
+    <button class="btn" id="reload">플레이어 새로고침</button>
   </div>
 </header>
+<div id="note" hidden></div>
+
 <main>
-  <aside id="panel">
-    <div>
-      <div class="lbl">방송사</div>
-      <div id="chList"></div>
+  <section id="grid" aria-label="라이브 멀티뷰"></section>
+
+  <aside id="seats" aria-label="의석 상황판">
+    <div class="chamber" data-ch="house">
+      <div class="chhead"><h2>하원 House</h2><small>435석 · 과반 218</small></div>
+      <div class="meterRow"><span>확정</span><div class="meter" data-k="called"></div></div>
+      <div class="meterRow"><span>확정 + 예측</span><div class="meter" data-k="proj"></div></div>
+      <table>
+        <thead><tr><th>정당</th><th>확정</th><th>예측</th></tr></thead>
+        <tbody></tbody>
+      </table>
+      <div class="status"></div>
     </div>
-    <div class="add">
-      <div class="lbl">채널 추가</div>
-      <input id="addName" placeholder="이름 (예: Decision Desk)">
-      <input id="addSrc" placeholder="유튜브 링크 · 영상 ID · 채널 ID">
-      <button class="btn" id="addBtn">추가하기</button>
+
+    <div class="chamber" data-ch="senate">
+      <div class="chhead"><h2>상원 Senate</h2><small>100석 · 과반 51</small></div>
+      <div class="meterRow"><span>확정 (임기 남은 의석 포함)</span><div class="meter" data-k="called"></div></div>
+      <div class="meterRow"><span>확정 + 예측</span><div class="meter" data-k="proj"></div></div>
+      <table>
+        <thead><tr><th>정당</th><th>확정</th><th>예측</th></tr></thead>
+        <tbody></tbody>
+      </table>
+      <div class="status"></div>
     </div>
-    <div class="hint">
-      <kbd>1</kbd>–<kbd>9</kbd> 그 번호 화면 소리 켜기<br>
-      <kbd>F</kbd> 소리 켠 화면 크게 보기<br>
-      <kbd>M</kbd> 전체 음소거<br><br>
-      채널 자동 라이브가 엉뚱한 방송을 잡으면 화면 아래 칸에 라이브 영상 링크를 붙여넣어 바꾸면 돼요. 설정은 이 브라우저에 저장돼요.
+
+    <div class="src">
+      <div class="lbl">숫자 출처</div>
+      <input id="srcCalled" placeholder="확정 출처 (예: AP)">
+      <input id="srcProj" placeholder="예측 출처 (예: NBC 디시전 데스크)">
+      <div class="status" id="stamp">아직 입력 전</div>
     </div>
+
+    <div class="src">
+      <div class="lbl">결과 페이지 바로가기</div>
+      <div class="links">
+        <a class="btn" target="_blank" rel="noopener" href="https://apnews.com/projects/election-results-2026/">AP</a>
+        <a class="btn" target="_blank" rel="noopener" href="https://www.nytimes.com/interactive/2026/11/03/us/elections/results-house.html">NYT 하원</a>
+        <a class="btn" target="_blank" rel="noopener" href="https://www.nytimes.com/interactive/2026/11/03/us/elections/results-senate.html">NYT 상원</a>
+        <a class="btn" target="_blank" rel="noopener" href="https://www.nbcnews.com/politics/2026-elections">NBC</a>
+        <a class="btn" target="_blank" rel="noopener" href="https://www.cnn.com/election/2026">CNN</a>
+      </div>
+    </div>
+    <p class="note">숫자를 고치면 막대가 바로 바뀌고 이 브라우저에 저장돼요. 예측 칸에는 방송사가 아직 콜하지 않은 지역 중 그 매체가 예상하는 의석을 넣으면, 아래 막대에 흐린 색으로 확정 위에 쌓여요. 확정은 콜이 난 의석만 넣어주세요.</p>
   </aside>
-  <section id="grid"></section>
 </main>
 
-<script>
-const DEFAULTS = [
-  {name:"CNN",          src:"UCupvZG-5ko_eiXAupbDfxWw", on:true},
-  {name:"Fox News",     src:"UCXIJgqnII2ZOINb3ZaWlU9g", on:true},
-  {name:"ABC News",     src:"UCBi2mrWuNuyYy4gbM6fU18Q", on:true},
-  {name:"NBC News",     src:"UCeY0bbntWzzVIaj2z3QigXg", on:true},
-  {name:"CBS News",     src:"UC8p1vwvWtl6T73JiExfWzNw", on:true},
-  {name:"MS NOW (MSNBC)",src:"UCaXkIU1QidjPwiAYu6GcHjg", on:true},
-  {name:"PBS NewsHour", src:"UC6ZFN9Tx6xh-skXCuRHCDpQ", on:false},
-  {name:"C-SPAN",       src:"UCb--64Gl51jIEVE-GLDAVTg", on:false},
-  {name:"Reuters",      src:"UChqUTb7kYRX8-EiaN3XFrSQ", on:false},
-  {name:"Bloomberg TV", src:"UCIALMKvObZNtJ6AmdCLP7Lg", on:false},
-  {name:"Sky News",     src:"UCoMdktPbSTixAyNGwb-UYkQ", on:false},
-];
-const KEY = "midterm-war-room-v1";
-let state;
-try { state = JSON.parse(localStorage.getItem(KEY)) } catch(e) {}
-if (!state || !Array.isArray(state.channels)) state = {channels: DEFAULTS.map(c=>({...c})), audio:null, big:null, panel:true};
-const save = () => { try { localStorage.setItem(KEY, JSON.stringify(state)) } catch(e) {} };
+<footer>
+  <span class="lbl">창으로 보는 방송사</span>
+  <span id="launch" style="display:contents"></span>
+  <button class="btn primary" id="openAll">모두 창으로 띄우기</button>
+  <form class="add" id="addForm">
+    <input id="addName" placeholder="이름" aria-label="추가할 방송 이름">
+    <input id="addSrc" placeholder="유튜브 링크 또는 ID" aria-label="추가할 유튜브 링크">
+    <button class="btn">멀티뷰에 추가</button>
+  </form>
+</footer>
 
-// 입력 해석: 채널 ID(UC...) / 영상 링크 / 영상 ID
+<script>
+// ---------- 방송사 ----------
+// embed:true 는 멀티뷰 그리드에, false 는 하단에서 유튜브 창으로 연다 (임베드를 막아둔 채널)
+const DEFAULT_CH = [
+  {name:"Bloomberg TV",  src:"UCIALMKvObZNtJ6AmdCLP7Lg", embed:true},
+  {name:"CNN",           src:"UCupvZG-5ko_eiXAupbDfxWw", embed:false},
+  {name:"Fox News",      src:"UCXIJgqnII2ZOINb3ZaWlU9g", embed:false},
+  {name:"ABC News",      src:"UCBi2mrWuNuyYy4gbM6fU18Q", embed:false},
+  {name:"NBC News",      src:"UCeY0bbntWzzVIaj2z3QigXg", embed:false},
+  {name:"CBS News",      src:"UC8p1vwvWtl6T73JiExfWzNw", embed:false},
+  {name:"MS NOW",        src:"UCaXkIU1QidjPwiAYu6GcHjg", embed:false},
+  {name:"PBS NewsHour",  src:"UC6ZFN9Tx6xh-skXCuRHCDpQ", embed:false},
+  {name:"C-SPAN",        src:"UCb--64Gl51jIEVE-GLDAVTg", embed:false},
+];
+const PARTIES = [{k:"D",name:"민주당",c:"var(--dem)",soft:"var(--dem-soft)"},{k:"R",name:"공화당",c:"var(--rep)",soft:"var(--rep-soft)"},{k:"O",name:"기타·무소속",c:"var(--oth)",soft:"#8a7fb855"}];
+const CHAMBERS = {house:{total:435,maj:218}, senate:{total:100,maj:51}};
+const blankSeats = () => ({D:{called:0,proj:0},R:{called:0,proj:0},O:{called:0,proj:0}});
+
+const KEY = "midterm-war-room-v2";
+let S;
+try { S = JSON.parse(localStorage.getItem(KEY)) } catch(e) {}
+if (!S || !S.channels) S = {channels:DEFAULT_CH.map(c=>({...c})), audio:null, seats:{house:blankSeats(), senate:blankSeats()}, srcCalled:"", srcProj:"", stamp:null};
+const save = () => { try { localStorage.setItem(KEY, JSON.stringify(S)) } catch(e) {} };
+
 function parse(src){
   src = (src||"").trim();
   if (/^UC[\w-]{22}$/.test(src)) return {type:"channel", id:src};
@@ -139,127 +201,136 @@ function parse(src){
 function embedUrl(src, muted){
   const p = parse(src); if (!p) return "about:blank";
   const q = `autoplay=1&mute=${muted?1:0}&enablejsapi=1&playsinline=1&rel=0&origin=${encodeURIComponent(location.origin)}`;
-  return p.type==="channel"
-    ? `https://www.youtube.com/embed/live_stream?channel=${p.id}&${q}`
-    : `https://www.youtube.com/embed/${p.id}?${q}`;
+  return p.type==="channel" ? `https://www.youtube.com/embed/live_stream?channel=${p.id}&${q}` : `https://www.youtube.com/embed/${p.id}?${q}`;
 }
 function watchUrl(src){
   const p = parse(src); if (!p) return "#";
   return p.type==="channel" ? `https://www.youtube.com/channel/${p.id}/live` : `https://www.youtube.com/watch?v=${p.id}`;
 }
-// 임베드가 막힌 채널용: 켜둔 방송사를 바둑판처럼 배치된 별도 창으로 띄우기
-function openWindows(){
-  const live = state.channels.filter(c=>c.on); if (!live.length) return;
-  const W = screen.availWidth, H = screen.availHeight;
-  const cols = Math.ceil(Math.sqrt(live.length)), rows = Math.ceil(live.length/cols);
-  const w = Math.floor(W/cols), h = Math.floor(H/rows);
-  let blocked = 0;
-  live.forEach((c,i)=>{
-    const x = (i%cols)*w + (screen.availLeft||0), y = Math.floor(i/cols)*h + (screen.availTop||0);
-    const win = window.open(watchUrl(c.src), "wr_"+i, `popup=yes,width=${w},height=${h},left=${x},top=${y}`);
-    if (!win) blocked++;
-  });
-  if (blocked) alertBar(`팝업 ${blocked}개가 막혔어요. 주소창 오른쪽 팝업 차단 아이콘에서 '항상 허용' 누르고 다시 눌러주세요.`);
-}
-function alertBar(msg){
-  let b = document.getElementById("note");
-  if (!b){ b = document.createElement("div"); b.id="note";
-    b.style.cssText="padding:8px 16px;background:#3a2a0a;color:var(--focus);font-size:13px";
-    document.querySelector("header").after(b); }
-  b.textContent = msg;
-}
-const cmd = (iframe, func) => iframe?.contentWindow?.postMessage(JSON.stringify({event:"command",func,args:[]}),"*");
+const cmd = (f, func) => f?.contentWindow?.postMessage(JSON.stringify({event:"command",func,args:[]}),"*");
+function note(msg){ const n=document.getElementById("note"); n.textContent=msg; n.hidden=!msg; }
 
 const grid = document.getElementById("grid");
-const chList = document.getElementById("chList");
-
-function renderList(){
-  chList.innerHTML = "";
-  state.channels.forEach((c,i)=>{
-    const row = document.createElement("div"); row.className="ch";
-    row.innerHTML = `<input type="checkbox" id="ch${i}" ${c.on?"checked":""}><label for="ch${i}"></label><button class="del" title="삭제" aria-label="${c.name} 삭제">×</button>`;
-    row.querySelector("label").textContent = c.name;
-    row.querySelector("input").onchange = e => { c.on = e.target.checked; save(); renderGrid(); };
-    row.querySelector(".del").onclick = () => { state.channels.splice(i,1); save(); renderList(); renderGrid(); };
-    chList.appendChild(row);
-  });
-}
-
 function layout(n){
-  const w = grid.clientWidth, h = grid.clientHeight; let best = {c:1,r:n,s:0};
-  for (let c=1;c<=n;c++){ const r=Math.ceil(n/c); const tw=w/c, th=h/r;
-    const s = Math.min(tw, th*16/9); if (s>best.s) best={c,r,s}; }
-  grid.style.gridTemplateColumns = `repeat(${best.c},1fr)`;
-  grid.style.gridTemplateRows = `repeat(${best.r},1fr)`;
+  const w = grid.clientWidth, h = grid.clientHeight; let best={c:1,r:n,s:0};
+  for (let c=1;c<=n;c++){ const r=Math.ceil(n/c), s=Math.min(w/c,(h/r)*16/9); if (s>best.s) best={c,r,s}; }
+  grid.style.gridTemplateColumns=`repeat(${best.c},1fr)`; grid.style.gridTemplateRows=`repeat(${best.r},1fr)`;
 }
-
 function renderGrid(){
-  grid.innerHTML = "";
-  const live = state.channels.filter(c=>c.on);
-  if (!live.length){ grid.innerHTML = `<div class="empty">왼쪽 패널에서 볼 방송사를 켜주세요.</div>`; grid.style.gridTemplateColumns="1fr"; grid.style.gridTemplateRows="1fr"; return; }
-  if (state.audio && !live.some(c=>c.name===state.audio)) state.audio = null;
+  grid.innerHTML="";
+  const live = S.channels.filter(c=>c.embed);
+  if (!live.length){ grid.innerHTML=`<div style="display:grid;place-items:center;color:var(--dim)">멀티뷰에 띄울 방송이 없어요. 하단에서 링크를 추가하세요.</div>`; layout(1); return; }
   live.forEach((c,i)=>{
-    const t = document.createElement("div"); t.className = "tile"; t.dataset.name = c.name;
-    if (state.audio===c.name) t.classList.add("audio");
-    if (state.big===c.name) t.classList.add("big");
-    t.innerHTML = `
-      <div class="cap"><span class="num">${i+1}</span><span class="name"></span>
-        <button class="snd" title="이 화면 소리 켜기">소리</button>
-        <button class="bigb" title="크게 보기">${state.big===c.name?"축소":"확대"}</button>
-        <a class="btn" style="padding:2px 7px;font-size:12px;text-decoration:none" target="_blank" rel="noopener" href="${watchUrl(c.src)}" title="유튜브에서 바로 열기">유튜브↗</a></div>
+    const t=document.createElement("div"); t.className="tile"+(S.audio===c.name?" audio":""); t.dataset.name=c.name;
+    t.innerHTML=`<div class="cap"><span class="name"></span>
+        <button class="snd" title="이 화면 소리 켜기 (${i+1})">소리</button>
+        <a target="_blank" rel="noopener" title="유튜브에서 열기">유튜브↗</a>
+        <button class="toWin" title="재생 제한이 뜨면 창으로 보기로 옮기기">창으로</button></div>
       <iframe allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>
-      <form class="swap"><input placeholder="라이브 영상 링크로 바꾸기" aria-label="${c.name} 영상 바꾸기"><button class="btn" style="padding:2px 8px">적용</button></form>`;
-    t.querySelector(".name").textContent = c.name;
-    t.querySelector("iframe").src = embedUrl(c.src, state.audio!==c.name);
-    t.querySelector(".snd").onclick = () => setAudio(c.name);
-    t.querySelector(".bigb").onclick = () => { state.big = state.big===c.name?null:c.name; save(); renderGrid(); };
-    t.querySelector(".swap").onsubmit = e => { e.preventDefault(); const v=e.target.querySelector("input").value;
-      if (!parse(v)) { e.target.querySelector("input").value=""; e.target.querySelector("input").placeholder="링크를 인식 못 했어요. 유튜브 영상 주소를 넣어주세요"; return; }
-      c.src = v.trim(); save(); renderGrid(); };
+      <form class="swap"><input placeholder="다른 라이브 링크로 바꾸기" aria-label="${c.name} 영상 바꾸기"><button class="btn" style="padding:2px 8px">적용</button></form>`;
+    t.querySelector(".name").textContent=c.name;
+    t.querySelector("a").href=watchUrl(c.src);
+    t.querySelector("iframe").src=embedUrl(c.src, S.audio!==c.name);
+    t.querySelector(".snd").onclick=()=>setAudio(c.name);
+    t.querySelector(".toWin").onclick=()=>{ c.embed=false; save(); renderAll(); };
+    t.querySelector(".swap").onsubmit=e=>{ e.preventDefault(); const inp=e.target.querySelector("input");
+      if (!parse(inp.value)){ inp.value=""; inp.placeholder="유튜브 영상 주소를 넣어주세요"; return; }
+      c.src=inp.value.trim(); save(); renderGrid(); };
     grid.appendChild(t);
   });
   layout(live.length);
 }
-
 function setAudio(name){
-  state.audio = state.audio===name ? null : name; save();
-  grid.querySelectorAll(".tile").forEach(t=>{
-    const on = t.dataset.name===state.audio;
-    t.classList.toggle("audio", on);
-    cmd(t.querySelector("iframe"), on?"unMute":"mute");
-    if (on) cmd(t.querySelector("iframe"), "playVideo");
+  S.audio = S.audio===name?null:name; save();
+  grid.querySelectorAll(".tile").forEach(t=>{ const on=t.dataset.name===S.audio; t.classList.toggle("audio",on);
+    const f=t.querySelector("iframe"); cmd(f,on?"unMute":"mute"); if(on) cmd(f,"playVideo"); });
+}
+function renderLauncher(){
+  const box=document.getElementById("launch"); box.innerHTML="";
+  S.channels.filter(c=>!c.embed).forEach(c=>{
+    const a=document.createElement("a"); a.className="btn"; a.target="_blank"; a.rel="noopener";
+    a.href=watchUrl(c.src); a.textContent=c.name+" ↗"; box.appendChild(a);
   });
 }
-
-document.getElementById("muteAll").onclick = () => { state.audio=null; setAudio(null); };
-document.getElementById("reload").onclick = renderGrid;
-document.getElementById("winMode").onclick = openWindows;
-if (location.protocol==="file:") alertBar("파일을 더블클릭으로 열면 유튜브가 재생을 막아요. 로컬 서버로 열거나, 위의 '창으로 띄우기'를 써주세요.");
-const panel = document.getElementById("panel");
-const pBtn = document.getElementById("togglePanel");
-function applyPanel(){ panel.classList.toggle("hidden", !state.panel); pBtn.classList.toggle("on", state.panel); }
-pBtn.onclick = () => { state.panel=!state.panel; save(); applyPanel(); setTimeout(()=>layout(state.channels.filter(c=>c.on).length),0); };
-document.getElementById("addBtn").onclick = () => {
-  const n = document.getElementById("addName"), s = document.getElementById("addSrc");
-  if (!parse(s.value)) { s.value=""; s.placeholder="유튜브 링크나 ID를 확인해 주세요"; s.focus(); return; }
-  state.channels.push({name:n.value.trim()||"Custom", src:s.value.trim(), on:true});
-  n.value=""; s.value=""; save(); renderList(); renderGrid();
-};
-document.addEventListener("keydown", e=>{
-  if (e.target.tagName==="INPUT") return;
-  const live = state.channels.filter(c=>c.on);
-  if (/^[1-9]$/.test(e.key) && live[+e.key-1]) setAudio(live[+e.key-1].name);
-  if (e.key==="m"||e.key==="M") { state.audio=null; setAudio(null); }
-  if ((e.key==="f"||e.key==="F") && state.audio){ state.big = state.big===state.audio?null:state.audio; save(); renderGrid(); }
-});
-window.addEventListener("resize", ()=>layout(state.channels.filter(c=>c.on).length));
-
-function tick(){
-  const now = new Date(), f = tz => now.toLocaleTimeString("en-GB",{timeZone:tz,hour:"2-digit",minute:"2-digit",second:"2-digit"});
-  tET.textContent=f("America/New_York"); tPT.textContent=f("America/Los_Angeles"); tKST.textContent=f("Asia/Seoul");
+function openAll(){
+  const list=S.channels.filter(c=>!c.embed); if(!list.length) return;
+  const cols=Math.ceil(Math.sqrt(list.length)), rows=Math.ceil(list.length/cols);
+  const w=Math.floor(screen.availWidth/cols), h=Math.floor(screen.availHeight/rows); let blocked=0;
+  list.forEach((c,i)=>{ const x=(i%cols)*w+(screen.availLeft||0), y=Math.floor(i/cols)*h+(screen.availTop||0);
+    if(!window.open(watchUrl(c.src),"wr_"+i,`popup=yes,width=${w},height=${h},left=${x},top=${y}`)) blocked++; });
+  note(blocked?`팝업 ${blocked}개가 막혔어요. 주소창 오른쪽 팝업 차단 아이콘에서 '항상 허용'을 누르고 다시 눌러주세요.`:"");
 }
+
+// ---------- 의석 상황판 ----------
+function renderSeats(){
+  document.querySelectorAll(".chamber").forEach(box=>{
+    const key=box.dataset.ch, conf=CHAMBERS[key], d=S.seats[key];
+    const tb=box.querySelector("tbody");
+    if (!tb.children.length){
+      PARTIES.forEach(p=>{
+        const tr=document.createElement("tr");
+        tr.innerHTML=`<td><i class="sw" style="background:${p.c}"></i>${p.name}</td>
+          <td><input type="number" min="0" max="${conf.total}" id="${key}-${p.k}-called" aria-label="${p.name} 확정"></td>
+          <td><input type="number" min="0" max="${conf.total}" id="${key}-${p.k}-proj" aria-label="${p.name} 예측"></td>`;
+        tr.querySelectorAll("input").forEach(inp=>{
+          const kind=inp.id.split("-")[2]; inp.value=d[p.k][kind]||"";
+          inp.oninput=()=>{ d[p.k][kind]=Math.max(0,parseInt(inp.value)||0); S.stamp=Date.now(); save(); drawMeters(); };
+        });
+        tb.appendChild(tr);
+      });
+    }
+  });
+  drawMeters();
+}
+function drawMeters(){
+  document.querySelectorAll(".chamber").forEach(box=>{
+    const key=box.dataset.ch, conf=CHAMBERS[key], d=S.seats[key], T=conf.total;
+    const pct=n=>Math.max(0,n)/T*100;
+    // 확정 막대: D는 왼쪽, R은 오른쪽부터 채워서 가운데 과반선과 비교
+    const called=box.querySelector('[data-k="called"]');
+    const cD=d.D.called, cR=d.R.called, cO=d.O.called;
+    called.innerHTML=`<i style="width:${pct(cD)}%;background:var(--dem)"></i><i style="width:${pct(cO)}%;background:var(--oth)"></i><i style="flex:1"></i><i style="width:${pct(cR)}%;background:var(--rep)"></i><b class="mid"></b>`;
+    const proj=box.querySelector('[data-k="proj"]');
+    proj.innerHTML=`<i style="width:${pct(cD)}%;background:var(--dem)"></i><i style="width:${pct(d.D.proj)}%;background:var(--dem-soft)"></i><i style="width:${pct(cO+d.O.proj)}%;background:var(--oth)"></i><i style="flex:1"></i><i style="width:${pct(d.R.proj)}%;background:var(--rep-soft)"></i><i style="width:${pct(cR)}%;background:var(--rep)"></i><b class="mid"></b>`;
+    const sum=cD+cR+cO+d.D.proj+d.R.proj+d.O.proj, left=T-cD-cR-cO;
+    const st=box.querySelector(".status");
+    let msg=`미확정 <b>${left}</b>석`;
+    const win=[["민주당",cD],["공화당",cR]].find(([,n])=>n>=conf.maj);
+    if (win) msg=`<b>${win[0]} 확정 의석으로 과반 도달</b> · `+msg;
+    else { const pd=cD+d.D.proj, pr=cR+d.R.proj;
+      msg+=` · 과반까지 민주 <b>${Math.max(0,conf.maj-cD)}</b> / 공화 <b>${Math.max(0,conf.maj-cR)}</b>`;
+      if (pd>=conf.maj) msg+=` · 예측 기준 민주 과반`; else if (pr>=conf.maj) msg+=` · 예측 기준 공화 과반`; }
+    if (sum>T) msg+=` · <span style="color:var(--live)">합계가 ${T}석을 넘어요. 숫자를 확인해주세요</span>`;
+    st.innerHTML=msg;
+  });
+  const s=document.getElementById("stamp");
+  s.textContent = S.stamp ? "마지막 수정 "+new Date(S.stamp).toLocaleString("ko-KR",{timeZone:"Asia/Seoul",hour:"2-digit",minute:"2-digit",month:"numeric",day:"numeric"})+" KST" : "아직 입력 전";
+}
+const srcC=document.getElementById("srcCalled"), srcP=document.getElementById("srcProj");
+srcC.value=S.srcCalled||""; srcP.value=S.srcProj||"";
+srcC.oninput=()=>{S.srcCalled=srcC.value; save();}; srcP.oninput=()=>{S.srcProj=srcP.value; save();};
+
+// ---------- 공통 ----------
+function renderAll(){ renderGrid(); renderLauncher(); }
+document.getElementById("openAll").onclick=openAll;
+document.getElementById("muteAll").onclick=()=>{ S.audio=null; setAudio(null); };
+document.getElementById("reload").onclick=renderGrid;
+document.getElementById("addForm").onsubmit=e=>{ e.preventDefault();
+  const n=document.getElementById("addName"), s=document.getElementById("addSrc");
+  if(!parse(s.value)){ s.value=""; s.placeholder="링크를 확인해주세요"; s.focus(); return; }
+  S.channels.push({name:n.value.trim()||"Custom", src:s.value.trim(), embed:true}); n.value=""; s.value=""; save(); renderAll(); };
+document.addEventListener("keydown",e=>{
+  if (e.target.tagName==="INPUT") return;
+  const live=S.channels.filter(c=>c.embed);
+  if (/^[1-9]$/.test(e.key) && live[+e.key-1]) setAudio(live[+e.key-1].name);
+  if (e.key==="m"||e.key==="M"){ S.audio=null; setAudio(null); }
+});
+window.addEventListener("resize",()=>layout(Math.max(1,S.channels.filter(c=>c.embed).length)));
+if (location.protocol==="file:") note("파일을 더블클릭으로 열면 유튜브가 재생을 막아요. GitHub Pages 주소로 열어주세요.");
+function tick(){ const now=new Date(), f=tz=>now.toLocaleTimeString("en-GB",{timeZone:tz,hour:"2-digit",minute:"2-digit",second:"2-digit"});
+  tET.textContent=f("America/New_York"); tPT.textContent=f("America/Los_Angeles"); tKST.textContent=f("Asia/Seoul"); }
 setInterval(tick,1000); tick();
-applyPanel(); renderList(); renderGrid();
+renderAll(); renderSeats();
 </script>
 </body>
 </html>
