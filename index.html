@@ -48,6 +48,8 @@ main{flex:1;display:grid;grid-template-columns:minmax(0,1fr) 340px;min-height:0}
 .cap .name{font-family:var(--display);font-weight:700;font-size:15px;letter-spacing:.05em;text-transform:uppercase;flex:1;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .cap button,.cap a{background:none;border:1px solid var(--line);border-radius:3px;padding:2px 7px;font-size:12px;text-decoration:none}
 .tile.audio .snd{border-color:var(--focus);color:var(--focus)}
+.tile.pinned{border-color:var(--live)}
+.tile.pinned .pin{border-color:var(--live);color:var(--live)}
 .swap{display:flex;gap:4px;padding:4px 6px;background:var(--panel)}
 .swap input{flex:1;min-width:0;background:var(--bg);border:1px solid var(--line);border-radius:3px;padding:3px 6px;font-size:12px}
 
@@ -161,6 +163,8 @@ footer .btn{padding:5px 10px}
       <div style="display:flex;gap:6px"><input id="ytQ" style="flex:1;min-width:0" value="election results live" aria-label="검색어">
         <button class="btn primary" id="ytGo">찾기</button></div>
       <label class="status"><input type="checkbox" id="ytAuto"> 10분마다 자동으로 다시 찾기</label>
+      <label class="status"><input type="checkbox" id="watch"> 중요한 순간 자동으로 소리 고정</label>
+      <div class="status" id="watchMsg">시청자 수가 갑자기 뛰거나 방송 제목에 연설·승리 선언 같은 말이 새로 붙으면 그 화면 소리로 바꾸고 5분간 고정해요. 1분마다 확인해요.</div>
       <div class="status" id="ytMsg">키는 이 브라우저에만 저장돼요. 지금 라이브 중이고 임베드가 허용된 영상만 보여줘요.</div>
       <div id="ytList" style="display:flex;flex-direction:column;gap:8px"></div>
     </div>
@@ -244,9 +248,10 @@ function renderGrid(){
   const live = S.channels.filter(c=>c.embed);
   if (!live.length){ grid.innerHTML=`<div style="display:grid;place-items:center;color:var(--dim)">멀티뷰에 띄울 방송이 없어요. 하단에서 링크를 추가하세요.</div>`; layout(1); return; }
   live.forEach((c,i)=>{
-    const t=document.createElement("div"); t.className="tile"+(S.audio===c.name?" audio":""); t.dataset.name=c.name;
+    const t=document.createElement("div"); t.className="tile"+(S.audio===c.name?" audio":"")+(S.pin===c.name?" pinned":""); t.dataset.name=c.name;
     t.innerHTML=`<div class="cap"><span class="name"></span>
         <button class="snd" title="이 화면 소리 켜기 (${i+1})">소리</button>
+        <button class="pin" title="이 화면 소리 고정 (자동 전환이 넘어가지 않음)">${S.pin===c.name?"고정 해제":"고정"}</button>
         <a target="_blank" rel="noopener" title="유튜브에서 열기">유튜브↗</a>
         <button class="toWin" title="재생 제한이 뜨면 창으로 보기로 옮기기">창으로</button></div>
       <iframe allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>
@@ -258,6 +263,7 @@ function renderGrid(){
     // 플레이어에 이벤트를 보내달라고 등록해야 onError 를 받을 수 있다
     f.onload=()=>{ for (const ms of [0,800,2500]) setTimeout(()=>f.contentWindow?.postMessage(JSON.stringify({event:"listening",id:c.name,channel:"widget"}),"*"), ms); };
     t.querySelector(".snd").onclick=()=>{ setAudio(c.name); bumpRotate(); };
+    t.querySelector(".pin").onclick=()=>{ if(S.pin===c.name) unpin(); else pinTo(c.name, 0, "직접 고정"); };
     t.querySelector(".toWin").onclick=()=>{ c.embed=false; save(); renderAll(); };
     t.querySelector(".swap").onsubmit=e=>{ e.preventDefault(); const inp=e.target.querySelector("input");
       if (!parse(inp.value)){ inp.value=""; inp.placeholder="유튜브 영상 주소를 넣어주세요"; return; }
@@ -375,6 +381,7 @@ let rotT=null;
 const rotSel=document.getElementById("rotate");
 rotSel.value=String(S.rotate||0);
 function rotateNext(){
+  if (S.pin) return;
   const live=S.channels.filter(c=>c.embed); if(live.length<2) return;
   const i=live.findIndex(c=>c.name===S.audio);
   S.audio=null; setAudio(live[(i+1)%live.length].name);
@@ -431,6 +438,58 @@ async function findLive(){
     msg.textContent=`라이브 ${d.items?.length||0}개 찾았어요 · ${new Date().toLocaleTimeString("ko-KR",{hour:"2-digit",minute:"2-digit"})}`;
   }catch(e){ msg.textContent="네트워크 문제로 검색하지 못했어요. 잠시 뒤 다시 눌러주세요."; }
 }
+
+// ---------- 소리 고정 ----------
+let pinT=null;
+function forceAudio(name){ S.audio=null; setAudio(name); }
+function pinTo(name, minutes, why){
+  S.pin=name; save(); forceAudio(name); clearTimeout(pinT);
+  if (minutes) pinT=setTimeout(unpin, minutes*60000);
+  note(`${name} 소리 고정 · ${why}${minutes?` · ${minutes}분 뒤 자동 해제`:""}`);
+  markPin();
+}
+function unpin(){ S.pin=null; save(); clearTimeout(pinT); note(""); markPin(); bumpRotate(); }
+// 화면을 다시 불러오지 않고 표시만 바꾼다 (라이브가 끊기지 않게)
+function markPin(){ grid.querySelectorAll(".tile").forEach(t=>{ const on=t.dataset.name===S.pin; t.classList.toggle("pinned",on); t.querySelector(".pin").textContent=on?"고정 해제":"고정"; }); }
+if (S.pin && !S.channels.some(c=>c.embed&&c.name===S.pin)) S.pin=null;
+
+// ---------- 중요한 순간 감지 ----------
+// 신호 1: 동시 시청자 수가 최근 기준보다 30% 이상, 2,000명 이상 뛰면
+// 신호 2: 라이브 제목이 바뀌면서 연설·승리·패배 인정·속보 같은 말이 새로 들어가면
+const KW=/speech|speaks|remarks|victory|wins|won|concede|concession|projects|projection|call(s|ed)?\b|breaking|address|연설|승리|당선|속보/i;
+const hist={};  // id -> {base, title}
+let watchT=null;
+const watchBox=document.getElementById("watch"), watchMsg=document.getElementById("watchMsg");
+watchBox.checked=!!S.watch;
+watchBox.onchange=()=>{ S.watch=watchBox.checked; save(); startWatch(); };
+function startWatch(){ clearInterval(watchT); if(S.watch){ checkMoments(); watchT=setInterval(checkMoments,60000); } }
+async function checkMoments(){
+  const key=(document.getElementById("ytKey").value||"").trim();
+  if(!key){ watchMsg.textContent="자동 고정은 유튜브 API 키가 있어야 돌아가요. 위 칸에 키를 넣어주세요."; return; }
+  const tiles=S.channels.filter(c=>c.embed && parse(c.src)?.type==="video");
+  if(!tiles.length){ watchMsg.textContent="영상 링크로 들어간 화면이 없어서 감시할 게 없어요."; return; }
+  const u=new URL("https://www.googleapis.com/youtube/v3/videos");
+  u.searchParams.set("part","snippet,liveStreamingDetails"); u.searchParams.set("id",tiles.map(c=>parse(c.src).id).slice(0,50).join(",")); u.searchParams.set("key",key);
+  let d; try{ const r=await fetch(u); d=await r.json(); if(!r.ok) throw 0; }catch(e){ watchMsg.textContent="시청자 수를 못 가져왔어요. 키를 확인하거나 잠시 뒤 다시 확인할게요."; return; }
+  let best=null;
+  for (const it of d.items||[]){
+    const c=tiles.find(t=>parse(t.src).id===it.id); if(!c) continue;
+    const v=+(it.liveStreamingDetails?.concurrentViewers||0), title=it.snippet?.title||"";
+    const h=hist[it.id];
+    if(!h){ hist[it.id]={base:v,title}; continue; }
+    const jump=h.base? (v-h.base)/h.base : 0;
+    const newKw = title!==h.title && KW.test(title) && !KW.test(h.title);
+    let score=0, why="";
+    if (jump>=0.3 && v-h.base>=2000){ score=jump; why=`시청자 급증 +${Math.round(jump*100)}% (${v.toLocaleString()}명)`; }
+    if (newKw){ score=Math.max(score,1); why=`제목 변경: ${title.slice(0,60)}`; }
+    if (score && (!best||score>best.score)) best={name:c.name,score,why};
+    h.base = h.base*0.8 + v*0.2;  // 천천히 따라가는 기준선
+    h.title = title;
+  }
+  watchMsg.textContent=`마지막 확인 ${new Date().toLocaleTimeString("ko-KR",{hour:"2-digit",minute:"2-digit"})} · 화면 ${d.items?.length||0}개 감시 중`;
+  if (best && S.pin!==best.name) pinTo(best.name, 5, best.why);
+}
+startWatch();
 renderAll(); renderSeats();
 </script>
 </body>
