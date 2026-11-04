@@ -1155,7 +1155,10 @@ setInterval(()=>{ const a=document.getElementById("newsTime"), b=document.getEle
 
 // ---------- 속보: 가운데 카드 + 관련 라이브 ----------
 const brkQ=[]; let brkShowing=false;
-function queueBreaking(it){ brkQ.push(it); if(!brkShowing) nextBreaking(); findRelatedLive(it); }
+let lastBrkVideo=0;
+function queueBreaking(it){ brkQ.push(it); if(!brkShowing) nextBreaking();
+  // 속보가 한꺼번에 여러 개 오면 첫 번째 것만 영상으로 (1분 안에 화면이 계속 바뀌지 않게)
+  if(Date.now()-lastBrkVideo>60000){ lastBrkVideo=Date.now(); findRelatedLive(it); } }
 function nextBreaking(){
   const it=brkQ.shift(); const old=document.getElementById("breakCard"); old?.remove();
   if(!it){ brkShowing=false; return; }
@@ -1180,29 +1183,54 @@ function keyTerms(title){
   if(cur.length>=2) names.push(cur.join(" "));
   return names[0] || title.split(" ").slice(0,6).join(" ");
 }
+// 속보 출처 → 그 방송사 화면 (API 키 없이도 바로 가운데로)
+const SRC_MAP=[[/cbs/i,"CBS"],[/nbc/i,"NBC"],[/abc/i,"ABC"],[/fox/i,"FOX"],[/\bap\b|associated press/i,"AP"],[/bbc/i,"BBC"],[/reuters/i,"Reuters"],[/cnn/i,"CNN"],[/sky/i,"Sky"]];
+function channelFor(source){
+  const embed=S.channels.filter(c=>c.embed);
+  for (const [re,key] of SRC_MAP) if (re.test(source)){ const c=embed.find(c=>c.name.toLowerCase().includes(key.toLowerCase())); if(c) return c; }
+  // 신문·통신사 속보면 당선 확정을 바로 보여주는 AP 레이스 콜, 없으면 첫 화면
+  return embed.find(c=>/AP/.test(c.name)) || visibleCh()[0];
+}
+function bringToStage(ch, why){
+  const vis=visibleCh();
+  if (!vis.includes(ch)){
+    // 대기 화면에 있던 방송이면 순환 칸 자리로 데려온다 (다른 칸은 다시 불러오지 않음)
+    let i=rotSlot(); if(i<0) i=vis.length-1;
+    const out=vis[i];
+    S.channels.splice(S.channels.indexOf(ch),1);
+    S.channels.splice(S.channels.indexOf(out),1,ch);
+    S.channels.push(out); save();
+    const old=[...grid.querySelectorAll(".tile")][i]; const t=buildTile(ch,i);
+    ["left","top","width","height"].forEach(k=>t.style[k]=old.style[k]);
+    old.replaceWith(t); applyBadges(); renderLauncher(); markRot();
+  }
+  pinTo(ch.name, +(S.pinMin||5), why);
+}
 async function findRelatedLive(it){
   if(S.brkLive===false) return;
-  const key=(document.getElementById("ytKey").value||"").trim(); if(!key) return;
-  if(Date.now()-lastLiveSearch<5*60000) return;   // 검색은 하루 한도가 있어서 5분에 한 번만
+  // 1단계: 속보를 낸 방송사 화면을 바로 가운데로
+  const src=channelFor(it.source||"");
+  if (src) bringToStage(src, `속보 · ${it.source}`);
+  // 2단계: API 키가 있으면 속보 속 인물 이름으로 라이브를 찾아서 더 맞는 영상으로 바꾼다
+  const key=(document.getElementById("ytKey").value||"").trim();
+  if(!key){ return; }
+  if(Date.now()-lastLiveSearch<3*60000) return;   // 하루 검색 한도 때문에 3분에 한 번
   lastLiveSearch=Date.now();
-  const q=keyTerms(it.title)+" live";
-  const u=new URL("https://www.googleapis.com/youtube/v3/search");
-  Object.entries({part:"snippet",type:"video",eventType:"live",videoEmbeddable:"true",order:"relevance",maxResults:"5",q,key}).forEach(([k,v])=>u.searchParams.set(k,v));
+  const term=keyTerms(it.title);
+  const search=async q=>{ const u=new URL("https://www.googleapis.com/youtube/v3/search");
+    Object.entries({part:"snippet",type:"video",eventType:"live",videoEmbeddable:"true",order:"relevance",maxResults:"5",q,key}).forEach(([k,v])=>u.searchParams.set(k,v));
+    const r=await fetch(u); const d=await r.json().catch(()=>({}));
+    if(!r.ok){ note(`관련 라이브 검색 실패: ${d?.error?.errors?.[0]?.reason==="quotaExceeded"?"오늘 검색 한도를 다 썼어요":"API 키를 확인해 주세요"}`); return null; }
+    return (d.items||[])[0]||null; };
   try{
-    const r=await fetch(u); if(!r.ok) return; const d=await r.json();
-    const hit=(d.items||[])[0]; if(!hit) return;
+    const hit = await search(term+" live") || await search(term);
+    if(!hit){ return; }   // 못 찾으면 1단계 방송사 화면 그대로 둔다
     const id=hit.id.videoId, name=hit.snippet.channelTitle;
     let ch=S.channels.find(c=>parse(c.src)?.id===id);
-    const vis=visibleCh();
-    if(!ch || !vis.includes(ch)){
-      // 보이는 마지막 칸 자리에 넣고, 원래 방송은 대기 화면으로
-      if(!ch){ ch={name:uniqName(name), src:id, embed:true}; S.channels.push(ch); }
-      const a=S.channels.indexOf(vis[vis.length-1]), b=S.channels.indexOf(ch);
-      [S.channels[a],S.channels[b]]=[S.channels[b],S.channels[a]]; save(); renderAll();
-    }
+    if(!ch){ ch={name:uniqName(name), src:id, embed:true}; S.channels.push(ch); save(); }
     liveState[id]="live";
-    pinTo(ch.name, +(S.pinMin||5), `속보 관련 라이브: ${q.replace(/ live$/,"")}`);
-  }catch(e){}
+    bringToStage(ch, `속보 관련 라이브 · ${term}`);
+  }catch(e){ note("관련 라이브를 찾는 중 네트워크 문제가 생겼어요. 방송사 화면은 그대로 띄워둘게요."); }
 }
 
 // ---------- 지도 화면: 큰 지도 + 경합 목록 ----------
