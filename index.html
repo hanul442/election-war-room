@@ -168,30 +168,31 @@ footer .btn{padding:5px 10px}
 // ---------- 방송사 ----------
 // embed:true 는 멀티뷰 그리드에, false 는 하단에서 유튜브 창으로 연다 (임베드를 막아둔 채널)
 const DEFAULT_CH = [
-  // 일단 전부 멀티뷰에 올려두고, 유튜브가 임베드 거부(101/150)나 라이브 없음(100)을 알려오면 자동으로 아래 줄로 내린다
+  // 2026-11-04 개표 특보 영상 ID (임베드 허용 확인함). 방송이 끝나면 채널 라이브로 바꾸거나 링크를 새로 붙여넣으면 된다
+  {name:"NBC News NOW",     src:"B9i_01yEgt0", embed:true},
+  {name:"ABC News",         src:"wF8X-K_l5kY", embed:true},
+  {name:"CBS News",         src:"zHlI3KJIWMA", embed:true},
+  {name:"CNN 후보 캠프",     src:"P0XeDwPCJs0", embed:true},
+  {name:"LiveNOW from FOX", src:"a_VXB1oT3jw", embed:true},
+  {name:"AP 레이스 콜",      src:"tbAbicAzFU4", embed:true},
+  {name:"BBC News",         src:"SFxxr-rNyNQ", embed:true},
+  {name:"Sky News",         src:"WUTDiO_fXdE", embed:true},
+  {name:"Reuters",          src:"OtSPiTo00Xc", embed:true},
   {name:"Bloomberg TV",     src:"UCIALMKvObZNtJ6AmdCLP7Lg", embed:true},
-  {name:"LiveNOW from FOX", src:"UCJg9wBPyKMNA5sRDnvzmkdg", embed:true},
-  {name:"PBS NewsHour",     src:"UC6ZFN9Tx6xh-skXCuRHCDpQ", embed:true},
-  {name:"Sky News",         src:"UCoMdktPbSTixAyNGwb-UYkQ", embed:true},
-  {name:"Reuters",          src:"UChqUTb7kYRX8-EiaN3XFrSQ", embed:true},
   {name:"Al Jazeera",       src:"UCNye-wNBqNL5ZzHSJj3l8Bg", embed:true},
   {name:"DW News",          src:"UCknLrEdhRCp1aegoMqRaCZg", embed:true},
-  {name:"France 24",        src:"UCQfwfsi5VrQ8yKZ-UWmAEFg", embed:true},
-  {name:"ABC News",         src:"UCBi2mrWuNuyYy4gbM6fU18Q", embed:true},
-  {name:"NBC News",         src:"UCeY0bbntWzzVIaj2z3QigXg", embed:true},
-  {name:"CBS News",         src:"UC8p1vwvWtl6T73JiExfWzNw", embed:true},
-  {name:"C-SPAN",           src:"UCb--64Gl51jIEVE-GLDAVTg", embed:true},
-  {name:"CNN",              src:"UCupvZG-5ko_eiXAupbDfxWw", embed:false},
   {name:"Fox News",         src:"UCXIJgqnII2ZOINb3ZaWlU9g", embed:false},
   {name:"MS NOW",           src:"UCaXkIU1QidjPwiAYu6GcHjg", embed:false},
+  {name:"C-SPAN",           src:"UCb--64Gl51jIEVE-GLDAVTg", embed:false},
+  {name:"PBS NewsHour",     src:"UC6ZFN9Tx6xh-skXCuRHCDpQ", embed:false},
 ];
 const PARTIES = [{k:"D",name:"민주당",c:"var(--dem)",soft:"var(--dem-soft)"},{k:"R",name:"공화당",c:"var(--rep)",soft:"var(--rep-soft)"},{k:"O",name:"기타·무소속",c:"var(--oth)",soft:"#8a7fb855"}];
 const CHAMBERS = {house:{total:435,maj:218}, senate:{total:100,maj:51}};
 const blankSeats = () => ({D:{called:0,proj:0},R:{called:0,proj:0},O:{called:0,proj:0}});
 
-const KEY = "midterm-war-room-v3";
+const KEY = "midterm-war-room-v4";
 let S, old;
-try { S = JSON.parse(localStorage.getItem(KEY)); old = JSON.parse(localStorage.getItem("midterm-war-room-v2")) } catch(e) {}
+try { S = JSON.parse(localStorage.getItem(KEY)); old = JSON.parse(localStorage.getItem("midterm-war-room-v3")||localStorage.getItem("midterm-war-room-v2")) } catch(e) {}
 if (!S || !S.channels) S = {channels:DEFAULT_CH.map(c=>({...c})), audio:null, seats:old?.seats||{house:blankSeats(), senate:blankSeats()}, srcCalled:old?.srcCalled||"", srcProj:old?.srcProj||"", stamp:old?.stamp||null};
 const save = () => { try { localStorage.setItem(KEY, JSON.stringify(S)) } catch(e) {} };
 
