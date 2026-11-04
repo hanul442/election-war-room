@@ -275,6 +275,34 @@ footer{font-size:14px}
 .tile.rot .rotBar{animation:drain2 var(--rt,120s) linear forwards}
 @keyframes drain2{from{width:0}to{width:100%}}
 #bench button.next{border-style:solid;border-color:var(--sel);color:var(--sel)}
+/* ---- 과반 확보 특보 화면 ---- */
+#maj{position:fixed;inset:0;z-index:50;display:grid;place-items:center;background:#05060aee;overflow:hidden;cursor:pointer;animation:majIn .5s ease-out}
+#maj .sweep{position:absolute;inset:-20% -10%;background:repeating-linear-gradient(115deg,var(--mc) 0 90px,transparent 90px 180px);opacity:.14;animation:sweep 6s linear infinite}
+#maj .flash{position:absolute;inset:0;background:var(--mc);animation:flash2 .9s ease-out forwards}
+#maj .bars{position:absolute;left:0;right:0;height:16vh;background:var(--mc);transform-origin:left;animation:bar .8s .35s cubic-bezier(.2,.8,.2,1) backwards}
+#maj .bars.t{top:0;opacity:.9} #maj .bars.b{bottom:0;transform-origin:right;opacity:.9}
+#maj .box{position:relative;width:min(1100px,92vw);display:grid;grid-template-columns:1.1fr 1fr;gap:min(5vw,56px);align-items:center}
+#maj .kick{display:inline-flex;align-items:center;gap:10px;font-family:var(--display);font-weight:700;letter-spacing:.18em;font-size:clamp(14px,1.4vw,20px);background:#fff;color:#000;padding:6px 14px;animation:up .6s .6s backwards}
+#maj .kick i{width:10px;height:10px;border-radius:50%;background:var(--live);animation:pulse 1s infinite}
+#maj h2{margin:14px 0 6px;font-family:var(--display);font-weight:700;text-transform:uppercase;line-height:.95;font-size:clamp(44px,6.6vw,108px);letter-spacing:.01em;text-wrap:balance;animation:up .7s .75s backwards}
+#maj h2 b{color:var(--mc)}
+#maj .ko{font-size:clamp(20px,2.4vw,36px);font-weight:600;animation:up .7s .95s backwards}
+#maj .num{display:flex;align-items:baseline;gap:14px;margin-top:18px;font-family:var(--display);font-weight:700;animation:up .7s 1.1s backwards}
+#maj .num b{font-size:clamp(64px,9vw,150px);line-height:.9;color:var(--mc);font-variant-numeric:tabular-nums}
+#maj .num span{font-size:clamp(16px,1.6vw,24px);color:var(--dim)}
+#maj .src{margin-top:16px;font-family:var(--mono);font-size:13px;color:var(--dim);animation:up .7s 1.3s backwards}
+#maj .hemiBig{animation:up .8s .9s backwards}
+#maj .hemiBig svg{width:100%;height:auto;display:block}
+#maj .hemiBig .cap2{display:none}
+#maj .close{position:absolute;right:max(16px,env(safe-area-inset-right,0px));bottom:calc(16vh + 14px);font-size:13px;color:#fff;opacity:.8}
+#maj.out{animation:majOut .6s ease-in forwards}
+@keyframes majIn{from{opacity:0}} @keyframes majOut{to{opacity:0;transform:scale(1.03)}}
+@keyframes flash2{0%{opacity:.85}100%{opacity:0}}
+@keyframes bar{from{transform:scaleX(0)}}
+@keyframes up{from{opacity:0;transform:translateY(24px)}}
+@keyframes sweep{to{transform:translateX(180px)}}
+@media (max-width:900px){#maj .box{grid-template-columns:1fr;gap:20px}#maj .bars{height:8vh}}
+@media (prefers-reduced-motion:reduce){#maj,#maj *{animation:none!important}}
 #note{padding:8px 16px;background:#3a2a0a;color:var(--focus);font-size:13px}
 @media (max-width:900px){
   body{height:auto}
@@ -435,6 +463,8 @@ footer{font-size:14px}
         <select id="benchSec" style="background:var(--bg);border:1px solid var(--line);border-radius:3px;color:var(--fg)">
           <option value="0">끄기</option><option value="60">1분마다</option><option value="120">2분마다</option><option value="180">3분마다</option><option value="300">5분마다</option>
         </select></label>
+      <label class="status"><input type="checkbox" id="majOn"> 과반 확보되면 특보 화면 크게 띄우기</label>
+      <div style="display:flex;gap:6px;flex-wrap:wrap"><button class="btn" type="button" id="majTestH">하원 특보 다시 보기</button><button class="btn" type="button" id="majTestS">상원 특보 다시 보기</button></div>
       <label class="status"><input type="checkbox" id="catchUp"> 라이브가 30초 넘게 늦어지면 실시간으로 당기기</label>
       <label class="status"><input type="checkbox" id="focusOn"> 고정되면 그 화면을 크게, 나머지는 작게</label>
       <label class="status">원래 화면으로 돌아가기까지
@@ -1392,6 +1422,51 @@ async function loadLive(){
 }
 const waitingRelated=new Map();   // link -> 기다리기 시작한 시각
 loadLive(); setInterval(loadLive, 30000);
+
+// ---------- 과반 확보 특보 화면 ----------
+// 어느 당이든 확정 의석이 과반에 닿으면 한 번 크게 띄운다 (NBC 집계 기준)
+const PARTY={D:{en:"Democrats",ko:"민주당",c:"var(--dem)"},R:{en:"Republicans",ko:"공화당",c:"var(--rep)"},O:{en:"Independents",ko:"무소속·기타",c:"var(--oth)"}};
+const CH={house:{en:"the House",ko:"하원"},senate:{en:"the Senate",ko:"상원"}};
+S.majShown=S.majShown||{};
+const majOn=document.getElementById("majOn"); majOn.checked = S.majOn!==false;
+majOn.onchange=()=>{ S.majOn=majOn.checked; save(); };
+function majorityWinner(d,ch){ const c=d?.[ch]; if(!c) return null;
+  for (const k of ["D","R","O"]) if ((c.parties?.[k]?.called||0) >= c.majority) return k; return null; }
+function showMajority(ch, k, d){
+  document.getElementById("maj")?.remove();
+  const P=PARTY[k], C=CH[ch], src=d[ch], seats=src.parties[k].called;
+  const el=document.createElement("div"); el.id="maj"; el.style.setProperty("--mc",P.c);
+  el.innerHTML=`<div class="sweep"></div><div class="flash"></div><div class="bars t"></div><div class="bars b"></div>
+    <div class="box"><div>
+      <span class="kick"><i></i>PROJECTED · 의회 과반</span>
+      <h2><b>${P.en}</b> win control of ${C.en}</h2>
+      <div class="ko">${P.ko}, ${C.ko} 과반 확보</div>
+      <div class="num"><b data-n="${seats}">0</b><span>석 확정 · 과반 ${src.majority}석</span></div>
+      <div class="src">${d.source} 집계 기준 · ${new Date(d.updated).toLocaleTimeString("ko-KR",{timeZone:"Asia/Seoul",hour:"2-digit",minute:"2-digit"})} KST · 다른 매체의 판정 시점과 다를 수 있어요</div>
+    </div><div class="chamber hemi hemiBig" id="majHemi"><div class="svg"></div><div class="cap2"></div></div></div>
+    <span class="close">눌러서 닫기</span>`;
+  document.body.appendChild(el);
+  const pc=src.parties;
+  hemicycle(document.getElementById("majHemi"), {D:pc.D.called,R:pc.R.called,O:pc.O.called}, src.total, ch==="house"?12:6, src.majority);
+  const hv=document.getElementById("majHemi"); hv.querySelectorAll("circle").forEach((c,i)=>{ c.style.setProperty("--i",i); });
+  hv.classList.add("view","play"); hv.style.overflow="visible";
+  setTimeout(()=>countUp(el.querySelector(".num b")), 1100);
+  const close=()=>{ el.classList.add("out"); setTimeout(()=>el.remove(),600); };
+  el.onclick=close; setTimeout(close, 14000);
+  document.addEventListener("keydown", function esc(e){ if(e.key==="Escape"){ close(); document.removeEventListener("keydown",esc); } });
+}
+function checkMajority(d){
+  if (S.majOn===false || !d) return;
+  for (const ch of ["house","senate"]){ const k=majorityWinner(d,ch);
+    const key=ch+":"+k;
+    if (k && !S.majShown[key]){ S.majShown[key]=Date.now(); save(); showMajority(ch,k,d); break; } }
+}
+const _dv4=drawViews; drawViews=function(){ _dv4(); checkMajority(lastRes); };
+const replay=ch=>{ const d=lastRes; if(!d) return note("결과를 아직 불러오지 못했어요.");
+  const k=majorityWinner(d,ch); if(!k) return note(`${CH[ch].ko}는 아직 어느 당도 과반을 확정하지 않았어요.`);
+  document.getElementById("setBtn").click(); showMajority(ch,k,d); };
+document.getElementById("majTestH").onclick=()=>replay("house");
+document.getElementById("majTestS").onclick=()=>replay("senate");
 renderAll(); renderSeats(); markPin(); drawMeters(); playView(document.getElementById(VIEWS[viewIdx][0]));
 </script>
 </body>
