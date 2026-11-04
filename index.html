@@ -1097,12 +1097,12 @@ let lastRes=null;
   const tabs=document.createElement("div"); tabs.id="viewTabs";
   const prog=document.createElement("div"); prog.id="viewProg"; prog.innerHTML="<i></i>";
   seats.prepend(tabs, prog); seats.append(vMaj,vSeats,vCalls,vHemi,vSen,vGov,vNews);
-  head(vCalls,"당선 확정",'<span class="srcLine"></span>');
   // 각 화면 위에 큰 제목, 의석판에는 큰 숫자판
   const head=(v,t,sub)=>{ const h=document.createElement("div"); h.className="stageHead"; h.innerHTML=`<h1>${t}</h1><small>${sub||""}</small>`; v.prepend(h); };
   [house,senate].forEach(ch=>{ const g=document.createElement("div"); g.className="gain"; ch.querySelector(".status").before(g); });
   [house,senate].forEach(ch=>{ const sc=document.createElement("div"); sc.className="score"; sc.innerHTML=`<div class="d"><b data-n="0">0</b><span>민주 확정</span></div><div class="r" style="text-align:right"><b data-n="0">0</b><span>공화 확정</span></div>`; ch.querySelector(".chhead").after(sc); });
   head(vSeats,"의석 현황",'<span class="srcLine"></span>');
+  head(vCalls,"당선 확정",'<span class="srcLine"></span>');
   head(vHemi,"의회 구성",'<span class="srcLine"></span>');
   head(vSen,"상원 선거 지도",'<span class="srcLine"></span>');
   head(vGov,"주지사 선거 지도",'<span class="srcLine"></span>');
