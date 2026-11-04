@@ -19,7 +19,7 @@ import urllib.request
 from datetime import datetime, timezone, timedelta
 
 KEY = next((os.environ.get(k, "").strip() for k in
-            ("YOUTUBE_API_KEY", "YT_API_KEY", "YOUTUBE_KEY", "GOOGLE_API_KEY", "API_KEY")
+            ("YOUTUBE_DATA_API", "YOUTUBE_API_KEY", "YT_API_KEY", "YOUTUBE_KEY", "GOOGLE_API_KEY", "API_KEY")
             if os.environ.get(k, "").strip()), "")
 API = "https://www.googleapis.com/youtube/v3/"
 POOL_EVERY = timedelta(minutes=30)

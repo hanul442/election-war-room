@@ -27,6 +27,7 @@ jobs:
       - name: Update every 2 minutes
         env:
           # 저장소 Secrets에 넣은 유튜브 키 (이름이 달라도 아래 중 하나면 된다)
+          YOUTUBE_DATA_API: ${{ secrets.YOUTUBE_DATA_API }}
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
           YT_API_KEY: ${{ secrets.YT_API_KEY }}
           YOUTUBE_KEY: ${{ secrets.YOUTUBE_KEY }}
