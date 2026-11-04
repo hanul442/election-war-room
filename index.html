@@ -84,6 +84,20 @@ footer .btn{padding:5px 10px}
 .add{display:flex;gap:6px;flex-wrap:wrap;margin-left:auto}
 .add input{background:var(--bg);border:1px solid var(--line);border-radius:4px;padding:5px 8px;font-size:12px;width:150px}
 
+#ticker{display:flex;align-items:center;gap:12px;background:#140b0b;border-top:1px solid var(--line);overflow:hidden;white-space:nowrap;height:32px}
+#ticker .tag{flex-shrink:0;background:var(--live);color:#fff;font-family:var(--display);font-weight:700;letter-spacing:.1em;padding:0 10px;height:100%;display:flex;align-items:center}
+#ticker .track{display:inline-flex;gap:36px;animation:tick var(--dur,120s) linear infinite;padding-left:100%}
+#ticker:hover .track{animation-play-state:paused}
+#ticker a{color:var(--fg);text-decoration:none}
+#ticker a b{color:var(--focus);font-weight:600;margin-right:6px}
+@keyframes tick{to{transform:translateX(-100%)}}
+@media (prefers-reduced-motion:reduce){#ticker .track{animation:none;padding-left:0;overflow-x:auto}}
+#news{display:flex;flex-direction:column;gap:2px;max-height:320px;overflow-y:auto}
+#news a{display:block;padding:6px 4px;border-top:1px solid var(--line);color:var(--fg);text-decoration:none;font-size:13px;line-height:1.4}
+#news a:hover{background:var(--panel2)}
+#news .meta{display:block;font-size:11px;color:var(--dim);margin-top:2px;font-family:var(--mono)}
+#news .brk{color:#fff;background:var(--live);font-size:10px;padding:0 5px;border-radius:2px;margin-right:6px;font-family:var(--display);letter-spacing:.08em}
+#news a.fresh{background:#2a1414}
 #note{padding:8px 16px;background:#3a2a0a;color:var(--focus);font-size:13px}
 @media (max-width:900px){
   body{height:auto}
@@ -140,6 +154,12 @@ footer .btn{padding:5px 10px}
     </div>
 
     <div class="src">
+      <div class="lbl" style="display:flex;justify-content:space-between"><span>실시간 선거 뉴스</span><span id="newsTime" style="letter-spacing:0;text-transform:none;font-family:var(--mono)"></span></div>
+      <label class="status"><input type="checkbox" id="onlyBrk"> 속보만 보기</label>
+      <div id="news"><div class="status">뉴스를 불러오는 중이에요…</div></div>
+    </div>
+
+    <div class="src">
       <div class="lbl">숫자 출처</div>
       <input id="srcCalled" placeholder="확정 출처 (예: AP)">
       <input id="srcProj" placeholder="예측 출처 (예: NBC 디시전 데스크)">
@@ -172,6 +192,7 @@ footer .btn{padding:5px 10px}
   </aside>
 </main>
 
+<div id="ticker" aria-label="속보 티커"><span class="tag">BREAKING</span><div class="track" id="tickTrack"></div></div>
 <footer>
   <span class="lbl">창으로 보는 방송사</span>
   <span id="launch" style="display:contents"></span>
@@ -280,8 +301,14 @@ window.addEventListener("message", e=>{
   const tile=[...grid.querySelectorAll(".tile")].find(t=>t.querySelector("iframe").contentWindow===e.source);
   const ch=tile && S.channels.find(c=>c.name===tile.dataset.name && c.embed);
   if (!ch) return;
-  ch.embed=false; save(); moved.push(ch.name);
-  note(`${moved.join(", ")}: 임베드가 막혔거나 지금 라이브가 없어서 아래 줄로 옮겼어요.`);
+  const next = takeFromPool();
+  if (next){
+    const was=ch.name; ch.src=next.id; ch.name=uniqName(next.ch); save();
+    note(`${was} 대신 ${ch.name} 선거 라이브로 바꿨어요.`);
+  } else {
+    ch.embed=false; save(); moved.push(ch.name);
+    note(`${moved.join(", ")}: 임베드가 막혔거나 지금 라이브가 없어서 아래 줄로 옮겼어요.`);
+  }
   clearTimeout(window._rg); window._rg=setTimeout(renderAll, 400);
 });
 function setAudio(name){
@@ -490,6 +517,58 @@ async function checkMoments(){
   if (best && S.pin!==best.name) pinTo(best.name, 5, best.why);
 }
 startWatch();
+
+// ---------- 대체 영상 풀 ----------
+// 유튜브 API 키가 있으면 지금 라이브 중이고 임베드 되는 선거 방송을 모아두고, 막힌 화면을 여기서 채운다
+let pool=[];
+function uniqName(n){ let x=n, i=2; while(S.channels.some(c=>c.name===x)) x=`${n} ${i++}`; return x; }
+function takeFromPool(){
+  const have=new Set(S.channels.map(c=>parse(c.src)?.id));
+  const i=pool.findIndex(p=>!have.has(p.id)); if(i<0) return null;
+  return pool.splice(i,1)[0];
+}
+async function refillPool(){
+  const key=(document.getElementById("ytKey").value||"").trim(); if(!key) return;
+  const u=new URL("https://www.googleapis.com/youtube/v3/search");
+  Object.entries({part:"snippet",type:"video",eventType:"live",videoEmbeddable:"true",order:"viewCount",maxResults:"25",q:"election results live",key}).forEach(([k,v])=>u.searchParams.set(k,v));
+  try{ const r=await fetch(u); if(!r.ok) return; const d=await r.json();
+    pool=(d.items||[]).map(it=>({id:it.id.videoId, ch:it.snippet.channelTitle}));
+  }catch(e){}
+}
+refillPool(); setInterval(refillPool, 15*60000);
+
+// ---------- 실시간 뉴스 ----------
+const seenNews=new Set(); let firstNews=true;
+const onlyBrk=document.getElementById("onlyBrk"); onlyBrk.checked=!!S.onlyBrk;
+onlyBrk.onchange=()=>{ S.onlyBrk=onlyBrk.checked; save(); loadNews(); };
+const ago=t=>{ if(!t) return ""; const m=Math.round((Date.now()-new Date(t))/60000);
+  return m<1?"방금":m<60?`${m}분 전`:m<1440?`${Math.floor(m/60)}시간 전`:`${Math.floor(m/1440)}일 전`; };
+async function loadNews(){
+  let d; try{ const r=await fetch("news.json?t="+Date.now(),{cache:"no-store"}); if(!r.ok) throw 0; d=await r.json(); }
+  catch(e){ document.getElementById("news").innerHTML='<div class="status">뉴스 파일을 아직 못 찾았어요. 몇 분 뒤 자동으로 다시 불러와요.</div>'; return; }
+  const items=(d.items||[]).filter(it=>!S.onlyBrk||it.breaking);
+  const box=document.getElementById("news"); box.innerHTML="";
+  const fresh=[];
+  items.forEach(it=>{
+    const a=document.createElement("a"); a.href=it.link; a.target="_blank"; a.rel="noopener";
+    if(it.breaking){ const b=document.createElement("span"); b.className="brk"; b.textContent="속보"; a.appendChild(b); }
+    a.appendChild(document.createTextNode(it.title));
+    const m=document.createElement("span"); m.className="meta"; m.textContent=`${it.source} · ${ago(it.time)}`; a.appendChild(m);
+    if(!seenNews.has(it.link)){ if(!firstNews){ a.classList.add("fresh"); if(it.breaking) fresh.push(it); } seenNews.add(it.link); }
+    box.appendChild(a);
+  });
+  if(!items.length) box.innerHTML='<div class="status">표시할 기사가 없어요.</div>';
+  document.getElementById("newsTime").textContent = d.updated ? "수집 "+ago(d.updated) : "";
+  // 티커: 속보 우선, 없으면 최신 기사
+  const tk=(d.items||[]).filter(i=>i.breaking).slice(0,15); const list=tk.length?tk:(d.items||[]).slice(0,15);
+  const tr=document.getElementById("tickTrack"); tr.innerHTML="";
+  list.forEach(it=>{ const a=document.createElement("a"); a.href=it.link; a.target="_blank"; a.rel="noopener";
+    const b=document.createElement("b"); b.textContent=it.source; a.append(b, it.title); tr.appendChild(a); });
+  tr.style.setProperty("--dur", Math.max(60, list.length*12)+"s");
+  if(fresh.length) note(`속보 · ${fresh[0].source}: ${fresh[0].title}`);
+  firstNews=false;
+}
+loadNews(); setInterval(loadNews, 60000);
 renderAll(); renderSeats();
 </script>
 </body>
