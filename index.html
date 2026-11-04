@@ -1213,7 +1213,7 @@ async function findRelatedLive(it){
   if (src) bringToStage(src, `속보 · ${it.source}`);
   // 2단계: API 키가 있으면 속보 속 인물 이름으로 라이브를 찾아서 더 맞는 영상으로 바꾼다
   const key=(document.getElementById("ytKey").value||"").trim();
-  if(!key){ return; }
+  if(!key){ if(it.link) waitingRelated.set(it.link, Date.now()); if(typeof loadLive==="function") loadLive(); return; }
   if(Date.now()-lastLiveSearch<3*60000) return;   // 하루 검색 한도 때문에 3분에 한 번
   lastLiveSearch=Date.now();
   const term=keyTerms(it.title);
@@ -1338,6 +1338,29 @@ function startBench(){ clearInterval(benchT); if(S.benchSec>0) benchT=setInterva
 benchSel.onchange=()=>{ S.benchSec=+benchSel.value; save(); startBench(); };
 const _ra=renderAll; renderAll=function(){ _ra(); if(typeof markRot==="function") markRot(); };
 startBench();
+
+// ---------- 서버(GitHub Actions)가 찾아둔 유튜브 라이브 ----------
+// 키는 GitHub Secrets에만 있고, 페이지는 live.json만 읽는다
+let serverLive=null;
+async function loadLive(){
+  try{ const r=await fetch("live.json?t="+Date.now(),{cache:"no-store"}); if(!r.ok) return; serverLive=await r.json(); }catch(e){ return; }
+  const L=serverLive;
+  if (Array.isArray(L.pool) && L.pool.length && !(document.getElementById("ytKey").value||"").trim())
+    pool=L.pool.filter(p=>(L.status?.[p.id]||"live")==="live").map(p=>({id:p.id, ch:p.channel}));
+  for (const [id,b] of Object.entries(L.status||{})) liveState[id]= b==="live"?"live":b==="upcoming"?"soon":"vod";
+  applyBadges();
+  // 기다리던 속보 영상이 준비됐으면 가운데로
+  for (const [link,w] of [...waitingRelated]){
+    const rel=L.related?.[link];
+    if (rel){ waitingRelated.delete(link);
+      if (rel.video){ const v=rel.video; let ch=S.channels.find(c=>parse(c.src)?.id===v.id);
+        if(!ch){ ch={name:uniqName(v.channel), src:v.id, embed:true}; S.channels.push(ch); save(); }
+        liveState[v.id]="live"; bringToStage(ch, `속보 관련 라이브 · ${rel.term}`); } }
+    else if (Date.now()-w>8*60000) waitingRelated.delete(link);
+  }
+}
+const waitingRelated=new Map();   // link -> 기다리기 시작한 시각
+loadLive(); setInterval(loadLive, 30000);
 renderAll(); renderSeats(); markPin(); drawMeters(); playView(document.getElementById(VIEWS[viewIdx][0]));
 </script>
 </body>

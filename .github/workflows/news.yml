@@ -25,6 +25,13 @@ jobs:
         with:
           python-version: "3.12"
       - name: Update every 2 minutes
+        env:
+          # 저장소 Secrets에 넣은 유튜브 키 (이름이 달라도 아래 중 하나면 된다)
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+          YT_API_KEY: ${{ secrets.YT_API_KEY }}
+          YOUTUBE_KEY: ${{ secrets.YOUTUBE_KEY }}
+          GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
+          API_KEY: ${{ secrets.API_KEY }}
         run: |
           git config user.name "news-bot"
           git config user.email "news-bot@users.noreply.github.com"
@@ -32,7 +39,8 @@ jobs:
           while [ "$(date +%s)" -lt "$end" ]; do
             python scripts/fetch_news.py || true
             python scripts/fetch_results.py || true
-            git add news.json results.json
+            python scripts/fetch_youtube.py || true
+            git add news.json results.json live.json
             if ! git diff --cached --quiet; then
               git commit -q -m "Update news and results"
               for i in 1 2 3; do
