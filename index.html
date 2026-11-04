@@ -127,6 +127,26 @@ footer .btn{padding:5px 10px}
 #settings{position:fixed;z-index:20;top:calc(env(safe-area-inset-top,0px) + 56px);right:max(16px,env(safe-area-inset-right,0px));width:min(380px,calc(100vw - 32px));max-height:calc(100vh - 80px);overflow-y:auto;background:var(--panel);border:1px solid var(--line);border-radius:6px;box-shadow:0 12px 40px #0009;padding:14px 16px;display:flex;flex-direction:column;gap:16px}
 #settings .add{margin:0;flex-direction:column}
 #settings .add input{width:auto}
+/* 오른쪽 패널을 화면 단위로 돌려 보여준다 */
+#viewTabs{display:flex;gap:4px;flex-wrap:wrap}
+#viewTabs button{background:none;border:1px solid var(--line);border-radius:3px;padding:3px 8px;font-size:12px;color:var(--dim)}
+#viewTabs button.on{border-color:var(--focus);color:var(--focus)}
+#viewProg{height:2px;background:var(--panel2);border-radius:1px;overflow:hidden}
+#viewProg i{display:block;height:100%;width:0;background:var(--focus)}
+.view{display:flex;flex-direction:column;gap:12px;min-height:0}
+.view[hidden]{display:none!important}
+.view.grow{flex:1}
+.hemi svg{width:100%;height:auto;display:block}
+.hemi .cap2{display:flex;justify-content:space-between;font-family:var(--mono);font-size:12px;font-variant-numeric:tabular-nums}
+.tmap{display:grid;grid-template-columns:repeat(12,1fr);gap:2px}
+.tmap span{aspect-ratio:1;display:grid;place-items:center;font-family:var(--mono);font-size:10px;border-radius:2px;background:transparent;color:transparent}
+.tmap span.has{background:var(--panel2);color:var(--dim)}
+.tmap span.none{background:#ffffff08;color:#ffffff30}
+.tmap span.wD{background:var(--dem);color:#fff}.tmap span.wR{background:var(--rep);color:#fff}.tmap span.wO{background:var(--oth);color:#fff}
+.tmap span.lD{background:var(--dem-soft);color:var(--fg);box-shadow:inset 0 0 0 1px var(--dem)}
+.tmap span.lR{background:var(--rep-soft);color:var(--fg);box-shadow:inset 0 0 0 1px var(--rep)}
+.tmap span.lO{box-shadow:inset 0 0 0 1px var(--oth);color:var(--fg)}
+.tmap span.flip{box-shadow:inset 0 -3px 0 var(--focus)}
 #note{padding:8px 16px;background:#3a2a0a;color:var(--focus);font-size:13px}
 @media (max-width:900px){
   body{height:auto}
@@ -695,10 +715,9 @@ async function loadResults(){
     document.querySelectorAll(".chamber[data-ch] tbody input").forEach(inp=>{ const [ch,k,kind]=inp.id.split("-"); inp.value=S.seats[ch][k][kind]||""; });
     drawMeters();
   }
-  if (d.senate?.states){ const box=document.getElementById("senChips"); box.innerHTML=""; d.senate.states.forEach(r=>box.appendChild(chipHtml(r))); }
+  lastRes=d; if (typeof drawViews==="function") drawViews();
   if (d.governor){
-    const g=d.governor, box=document.getElementById("govChips"); box.innerHTML="";
-    g.states.forEach(r=>box.appendChild(chipHtml(r)));
+    const g=d.governor;
     document.getElementById("govSub").textContent=`${g.races}개 주`;
     const left=g.races-g.won.D-g.won.R-g.won.O;
     document.getElementById("govSum").innerHTML=`민주 <b>${g.won.D}</b> · 공화 <b>${g.won.R}</b>${g.won.O?` · 기타 <b>${g.won.O}</b>`:""} · 미확정 <b>${left}</b>`;
@@ -732,6 +751,87 @@ pinMin.onchange=()=>{ S.pinMin=+pinMin.value; save(); };
   const syncAuto=()=>seats.classList.toggle("auto", !!S.autoSeats);
   syncAuto(); document.getElementById("autoSeats").addEventListener("change", syncAuto);
 })();
+
+// ---------- 오른쪽 패널 화면 돌리기 ----------
+const TILE={AK:[0,0],ME:[0,11],WI:[1,6],VT:[1,10],NH:[1,11],WA:[2,1],ID:[2,2],MT:[2,3],ND:[2,4],MN:[2,5],IL:[2,6],MI:[2,7],NY:[2,9],MA:[2,10],
+OR:[3,1],NV:[3,2],WY:[3,3],SD:[3,4],IA:[3,5],IN:[3,6],OH:[3,7],PA:[3,8],NJ:[3,9],CT:[3,10],RI:[3,11],CA:[4,1],UT:[4,2],CO:[4,3],NE:[4,4],MO:[4,5],KY:[4,6],WV:[4,7],VA:[4,8],MD:[4,9],DE:[4,10],
+AZ:[5,2],NM:[5,3],KS:[5,4],AR:[5,5],TN:[5,6],NC:[5,7],SC:[5,8],DC:[5,9],OK:[6,4],LA:[6,5],MS:[6,6],AL:[6,7],GA:[6,8],HI:[7,0],TX:[7,4],FL:[7,9]};
+let lastRes=null;
+(function buildViews(){
+  const seats=document.getElementById("seats");
+  const house=seats.querySelector('.chamber[data-ch="house"]'), senate=seats.querySelector('.chamber[data-ch="senate"]');
+  const gov=document.getElementById("govChips").closest(".chamber"), news=document.getElementById("newsBox");
+  document.getElementById("senChips").remove(); document.getElementById("govChips").remove();
+  gov.querySelector(".legend").textContent="진한 색 = 당선 확정 · 테두리 = 앞서는 중 · 노란 밑줄 = 정당 교체 · 흐린 칸 = 이번에 선거 없음";
+  const mk=(id,cls="")=>{ const v=document.createElement("div"); v.className="view "+cls; v.id=id; return v; };
+  const vSeats=mk("v-seats"); vSeats.append(house, senate);
+  const vHemi=mk("v-hemi"); vHemi.innerHTML=`<div class="chamber hemi" id="hemiH"><div class="chhead"><h2>하원 의석</h2><small>확정 기준 · 435석</small></div><div class="svg"></div><div class="cap2"></div></div>
+    <div class="chamber hemi" id="hemiS"><div class="chhead"><h2>상원 의석</h2><small>확정 + 임기 남은 의석 · 100석</small></div><div class="svg"></div><div class="cap2"></div></div>`;
+  const vSen=mk("v-senmap"); vSen.innerHTML=`<div class="chamber"><div class="chhead"><h2>상원 지도</h2><small id="senSub"></small></div><div class="tmap" id="senMap"></div><div class="legend">진한 색 = 당선 확정 · 테두리 = 앞서는 중 · 노란 밑줄 = 정당 교체 · 흐린 칸 = 이번에 선거 없음</div></div>`;
+  const vGov=mk("v-govmap"); gov.querySelector(".chhead h2").textContent="주지사 지도";
+  const gm=document.createElement("div"); gm.className="tmap"; gm.id="govMap"; gov.querySelector("#govSum").after(gm); vGov.append(gov);
+  const vNews=mk("v-news","grow"); vNews.append(news);
+  const tabs=document.createElement("div"); tabs.id="viewTabs";
+  const prog=document.createElement("div"); prog.id="viewProg"; prog.innerHTML="<i></i>";
+  seats.prepend(tabs, prog); seats.append(vSeats,vHemi,vSen,vGov,vNews);
+})();
+const VIEWS=[["v-seats","의석"],["v-hemi","의회"],["v-senmap","상원 지도"],["v-govmap","주지사 지도"],["v-news","뉴스"]];
+let viewIdx=0, viewT=null, viewStart=0, viewHold=0;
+const VIEW_SEC=15;
+function showView(i){
+  viewIdx=(i+VIEWS.length)%VIEWS.length;
+  VIEWS.forEach(([id],k)=>document.getElementById(id).hidden = k!==viewIdx);
+  document.querySelectorAll("#viewTabs button").forEach((b,k)=>b.classList.toggle("on",k===viewIdx));
+  viewStart=Date.now();
+}
+VIEWS.forEach(([id,label],k)=>{ const b=document.createElement("button"); b.textContent=label;
+  b.onclick=()=>{ showView(k); viewHold=Date.now()+60000; }; document.getElementById("viewTabs").appendChild(b); });
+function viewTick(){
+  const bar=document.querySelector("#viewProg i");
+  if (Date.now()<viewHold){ bar.style.width="100%"; bar.style.opacity=".35"; return; }  // 직접 누르면 1분 동안 멈춤
+  bar.style.opacity="1";
+  const t=(Date.now()-viewStart)/1000; bar.style.width=Math.min(100,t/VIEW_SEC*100)+"%";
+  if (t>=VIEW_SEC) showView(viewIdx+1);
+}
+showView(0); setInterval(viewTick, 250);
+
+function hemicycle(box, counts, total, rows, maj){
+  // 반원 의석도: 줄마다 반지름에 비례해 자리를 나누고 왼쪽부터 각도 순으로 채운다
+  const W=300,H=160,R=150,r0=R*0.38, pts=[];
+  const radii=[...Array(rows)].map((_,i)=>r0+(R-r0)*(i/(rows-1)));
+  const sum=radii.reduce((a,b)=>a+b,0); let left=total;
+  const per=radii.map((r,i)=>{ const n= i===rows-1 ? left : Math.round(total*r/sum); left-=n; return n; });
+  radii.forEach((r,i)=>{ const n=per[i]; for(let k=0;k<n;k++){ const a=Math.PI*(1-(n===1?0.5:k/(n-1))); pts.push({x:W/2+r*Math.cos(a), y:H-6-r*Math.sin(a)*0.98, a}); } });
+  pts.sort((p,q)=>q.a-p.a);
+  const dot=(R-r0)/(rows-1)*0.42;
+  const seq=[...Array(counts.D).fill("var(--dem)"),...Array(Math.max(0,total-counts.D-counts.R-counts.O)).fill("var(--panel2)"),...Array(counts.O).fill("var(--oth)"),...Array(counts.R).fill("var(--rep)")];
+  // 기타는 공화 바로 앞, 미확정은 가운데
+  box.querySelector(".svg").innerHTML=`<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="의석 반원 그래프">${pts.map((p,i)=>`<circle cx="${p.x.toFixed(1)}" cy="${p.y.toFixed(1)}" r="${dot.toFixed(2)}" fill="${seq[i]||"var(--panel2)"}"/>`).join("")}<line x1="${W/2}" y1="${H-6-R-4}" x2="${W/2}" y2="${H-6-r0+8}" stroke="var(--fg)" stroke-opacity=".6" stroke-dasharray="2 2"/></svg>`;
+  box.querySelector(".cap2").innerHTML=`<span style="color:var(--dem)">민주 <b>${counts.D}</b></span><span style="color:var(--dim)">미확정 ${total-counts.D-counts.R-counts.O} · 과반 ${maj}</span><span style="color:var(--rep)">공화 <b>${counts.R}</b>${counts.O?` · 기타 ${counts.O}`:""}</span>`;
+}
+function tileMap(box, rows){
+  const byState={}; (rows||[]).forEach(r=>{ if(!byState[r.st] || r.winner) byState[r.st]=r; });
+  box.innerHTML="";
+  const cells=[...Array(8*12)].map(()=>document.createElement("span"));
+  for (const [st,[y,x]] of Object.entries(TILE)){
+    const el=cells[y*12+x], r=byState[st]; el.textContent=st;
+    if (!r){ el.className="none"; el.title=`${st} · 이번에 선거 없음`; continue; }
+    const lead=r.cands.slice().sort((a,b)=>b.pct-a.pct)[0];
+    const cls = r.winner ? "w"+r.winner : (lead && r.in>0 ? "l"+lead.party : "has");
+    const flip=r.cands.some(c=>c.flip && c.party===r.winner);
+    el.className=cls+(flip?" flip":"");
+    el.title=`${r.name} · 개표 ${r.in}% · `+r.cands.map(c=>`${c.name}(${PN[c.party]}) ${c.pct}%`).join(", ")+(r.winner?` · ${PN[r.winner]} 당선`:" · 미확정");
+  }
+  cells.forEach(c=>box.appendChild(c));
+}
+function drawViews(){
+  const d=lastRes; if(!d) return;
+  if (d.house) hemicycle(document.getElementById("hemiH"), {D:d.house.parties.D.called,R:d.house.parties.R.called,O:d.house.parties.O.called}, d.house.total, 12, d.house.majority);
+  if (d.senate) hemicycle(document.getElementById("hemiS"), {D:d.senate.parties.D.called,R:d.senate.parties.R.called,O:d.senate.parties.O.called}, d.senate.total, 5, d.senate.majority);
+  if (d.senate?.states){ tileMap(document.getElementById("senMap"), d.senate.states);
+    const called=d.senate.states.filter(r=>r.winner).length; document.getElementById("senSub").textContent=`${d.senate.states.length}개 선거 · ${called}곳 확정`; }
+  if (d.governor?.states) tileMap(document.getElementById("govMap"), d.governor.states);
+}
 renderAll(); renderSeats(); markPin();
 </script>
 </body>
