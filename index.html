@@ -835,17 +835,22 @@ function drawViews(){
 }
 
 // ---------- 늦어진 라이브 따라잡기 ----------
-// 플레이어가 보내는 currentTime / duration을 비교해서, 평소보다 많이 밀렸으면 맨 끝(실시간)으로 넘긴다
-const playPos=new Map();  // contentWindow -> {t, dur, at}
+// 재생 위치가 실제 시간보다 얼마나 덜 흘렀는지(버퍼링으로 쌓인 지연)를 재서, 30초 넘게 밀리면 실시간으로 넘긴다.
+// 직접 일시정지한 화면은 건드리지 않는다.
+const playPos=new Map();  // contentWindow -> {base:{wall,t}, t, state, at}
 window.addEventListener("message", e=>{
   if (!/youtube(-nocookie)?\.com$/.test(new URL(e.origin||"http://x").hostname)) return;
   let d; try { d = typeof e.data==="string" ? JSON.parse(e.data) : e.data } catch(_) { return; }
-  const inf=d?.info; if(!inf) return;
+  const inf=d?.info; if(!inf || typeof inf!=="object") return;
   const cur=playPos.get(e.source)||{};
-  if (typeof inf.currentTime==="number") cur.t=inf.currentTime;
-  if (typeof inf.duration==="number") cur.dur=inf.duration;
-  cur.at=Date.now(); playPos.set(e.source,cur);
+  if (typeof inf.playerState==="number") cur.state=inf.playerState;
+  if (typeof inf.currentTime==="number"){
+    cur.t=inf.currentTime; cur.at=Date.now();
+    if (!cur.base && cur.state===1) cur.base={wall:Date.now(), t:inf.currentTime};
+  }
+  playPos.set(e.source,cur);
 });
+function lagOf(p){ return p?.base ? (Date.now()-p.base.wall)/1000 - (p.t-p.base.t) : 0; }
 const catchBox=document.getElementById("catchUp"); catchBox.checked = S.catchUp!==false;
 catchBox.onchange=()=>{ S.catchUp=catchBox.checked; save(); };
 setInterval(()=>{
@@ -854,17 +859,14 @@ setInterval(()=>{
     const st = liveState[t.dataset.vid] || liveState["ch:"+t.dataset.name];
     if (st!=="live") return;
     const f=t.querySelector("iframe"), p=playPos.get(f.contentWindow);
-    if (!p || !(p.dur>0) || typeof p.t!=="number") return;
-    // 채널마다 duration 기준이 달라서(DVR 창 길이 등) 처음 본 가장 작은 차이를 "실시간"으로 잡고, 거기서 30초 넘게 밀리면 당긴다
-    const lag=p.dur-p.t;
-    if (p.min==null || lag<p.min) p.min=lag;
-    if (lag-p.min>30){
-      f.contentWindow.postMessage(JSON.stringify({event:"command",func:"seekTo",args:[p.dur+60,true]}),"*");
-      cmd(f,"playVideo");
+    if (!p || p.state===2) { if(p) p.base=null; return; }   // 일시정지 중이면 기준을 지우고 다시 재생될 때 새로 잡는다
+    if (lagOf(p)>30){
+      f.contentWindow.postMessage(JSON.stringify({event:"command",func:"seekTo",args:[1e9,true]}),"*");
+      cmd(f,"playVideo"); p.base=null;
       const b=t.querySelector(".badge"); if(b){ b.textContent="● 따라잡는 중"; setTimeout(applyBadges,4000); }
     }
   });
-}, 15000);
+}, 10000);
 renderAll(); renderSeats(); markPin();
 </script>
 </body>
