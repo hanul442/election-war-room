@@ -169,7 +169,8 @@ footer .btn{padding:5px 10px}
 #v-hemi{display:grid;grid-template-columns:1.25fr 1fr;gap:28px;align-items:center;flex:1}
 #v-hemi .hemi .cap2{font-size:15px}
 #v-senmap,#v-govmap{flex:1;align-items:center;justify-content:center}
-#v-senmap .chamber,#v-govmap .chamber{width:min(100%,calc((100vh - 330px) * 1.5));}
+#v-senmap .chamber,#v-govmap .chamber{width:100%;flex:1;min-height:0}
+#v-senmap .chamber > .chhead,#v-govmap .chamber > .chhead{display:none}
 #v-news{flex:1}
 #v-news #news a{font-size:clamp(15px,1.35vw,22px);padding:10px 4px;line-height:1.35}
 #v-news #news .meta{font-size:12px}
@@ -233,6 +234,29 @@ footer{font-size:14px}
 @keyframes drain{from{width:100%}to{width:0}}
 #stage.mini #breakCard{display:none}
 @media (prefers-reduced-motion:reduce){#breakCard,#breakCard .bt i{animation:none}#breakCard .bp b{animation:none;width:100%}}
+/* ---- 절대 배치 레이아웃 ---- */
+@media (min-width:901px){
+  #grid{position:relative;display:block!important;padding:0}
+  #grid > .tile,#grid > #stage{position:absolute;transition:left .5s cubic-bezier(.2,.7,.2,1),top .5s cubic-bezier(.2,.7,.2,1),width .5s cubic-bezier(.2,.7,.2,1),height .5s cubic-bezier(.2,.7,.2,1)}
+  #grid.pinnedBg{background:radial-gradient(80% 80% at 40% 40%,#1b0f12,#05060a)}
+}
+@media (prefers-reduced-motion:reduce){#grid > .tile,#grid > #stage{transition:none}}
+.tile{border-radius:3px;overflow:hidden}
+/* ---- 선거 지도 크게 + 옆 목록 ---- */
+.mapWrap{flex:1;min-height:0;display:grid;grid-template-columns:auto minmax(220px,1fr);gap:28px;align-items:stretch}
+.mapWrap .tmap{height:100%;aspect-ratio:12/8;width:auto;max-width:62vw;grid-template-rows:repeat(8,1fr);gap:4px;align-self:center;max-height:100%}
+.mapWrap .tmap span{aspect-ratio:auto;font-size:clamp(11px,1.15vw,20px);border-radius:4px}
+.mapWrap .tmap span.none{background:#ffffff0d;color:#ffffff45}
+.mapWrap .tmap span.has{background:#2b3142;color:var(--fg)}
+.raceList{min-width:0;overflow:hidden;display:flex;flex-direction:column;gap:2px;font-size:clamp(13px,1vw,16px)}
+.raceList .rh{font-family:var(--display);letter-spacing:.12em;text-transform:uppercase;color:var(--dim);font-size:13px;margin:6px 0 2px}
+.raceList .rr{display:grid;grid-template-columns:38px 1fr auto;gap:8px;align-items:center;padding:5px 6px;border-radius:3px;background:var(--panel2)}
+.raceList .rr .st{font-family:var(--mono);font-weight:600;text-align:center;border-radius:2px;padding:1px 0}
+.raceList .rr .nm{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.raceList .rr .pc{font-family:var(--mono);font-variant-numeric:tabular-nums;color:var(--dim);white-space:nowrap}
+.raceList .st.D{background:var(--dem);color:#fff}.raceList .st.R{background:var(--rep);color:#fff}.raceList .st.O{background:var(--oth);color:#fff}
+.raceList .st.lD{box-shadow:inset 0 0 0 1px var(--dem)}.raceList .st.lR{box-shadow:inset 0 0 0 1px var(--rep)}
+.view.play .raceList .rr{animation:viewIn .45s backwards;animation-delay:calc(var(--i) * 45ms)}
 #note{padding:8px 16px;background:#3a2a0a;color:var(--focus);font-size:13px}
 @media (max-width:900px){
   body{height:auto}
@@ -419,16 +443,39 @@ const grid = document.getElementById("grid");
 const SLOTS=["1/4/2/5","2/4/3/5","3/4/4/5","4/1/5/2","4/2/5/3","4/3/5/4","4/4/5/5"];
 const visibleCh=()=>S.channels.filter(c=>c.embed).slice(0,SLOTS.length);
 function layout(){
-  // 스테이지는 가운데 큰 칸, 방송 7개는 오른쪽 3칸과 아래 4칸. 중요한 순간이면 그 방송과 스테이지 자리를 바꾼다
-  if (innerWidth<=900){ grid.querySelectorAll(".tile").forEach(t=>t.style.gridArea=""); return; }
+  // 방송 칸은 모두 16:9로 꽉 차게, 남는 공간은 전부 가운데 인포그래픽에 준다.
+  // 아래 줄 nb개 + 오른쪽 세로줄 ns개 조합 중에서 방송 칸이 가장 크게 나오는 걸 고른다.
   const tiles=[...grid.querySelectorAll(".tile")], stage=document.getElementById("stage");
-  let stageSlot=null;
+  if (innerWidth<=900){ [...tiles,stage].forEach(e=>{ e.style.left=e.style.top=e.style.width=e.style.height=""; }); stage.classList.remove("mini"); return; }
+  const g=6, W=grid.clientWidth-2*g, H=grid.clientHeight-2*g, N=tiles.length;
+  let best=null;
+  for (let nb=0; nb<=N; nb++){
+    const ns=N-nb;
+    const bw = nb ? (W-(nb-1)*g)/nb : 0, bh = nb ? bw*9/16 : 0;
+    const topH = H-(nb?bh+g:0); if (topH<=0) continue;
+    const sh = ns ? (topH-(ns-1)*g)/ns : 0, sw = ns ? sh*16/9 : 0;
+    const stW = W-(ns?sw+g:0), stH=topH;
+    if (stW<=W*0.35 || stH<=H*0.4) continue;
+    const minTile=Math.min(nb?bw*bh:Infinity, ns?sw*sh:Infinity);
+    const score=Math.min(minTile, stW*stH/6);   // 칸들도 크게, 스테이지도 너무 작지 않게
+    if (!best || score>best.score) best={nb,ns,bw,bh,sw,sh,stW,stH,score};
+  }
+  if (!best) best={nb:N,ns:0,bw:(W-(N-1)*g)/N,bh:(W-(N-1)*g)/N*9/16,sw:0,sh:0,stW:W,stH:H-((W-(N-1)*g)/N*9/16)-g};
+  const rects=[];
+  for (let i=0;i<best.ns;i++) rects.push({x:g+best.stW+g, y:g+i*(best.sh+g), w:best.sw, h:best.sh});
+  for (let i=0;i<best.nb;i++) rects.push({x:g+i*(best.bw+g), y:g+best.stH+g, w:best.bw, h:best.bh});
+  let stageRect={x:g,y:g,w:best.stW,h:best.stH}, mini=false;
+  const place=(el,r)=>{ el.style.left=r.x+"px"; el.style.top=r.y+"px"; el.style.width=r.w+"px"; el.style.height=r.h+"px"; };
   tiles.forEach((t,i)=>{
-    if (S.pin===t.dataset.name && S.focus!==false){ t.style.gridArea="1/1/4/4"; stageSlot=SLOTS[i]; }
-    else t.style.gridArea=SLOTS[i];
+    if (S.pin===t.dataset.name && S.focus!==false){
+      // 고정된 방송은 가운데 칸 안에 16:9로 최대한 크게, 인포그래픽은 그 방송 자리로
+      const sr=stageRect, w=Math.min(sr.w, sr.h*16/9), h=w*9/16;
+      place(t,{x:sr.x+(sr.w-w)/2, y:sr.y+(sr.h-h)/2, w, h}); place(stage, rects[i]); mini=true;
+    } else place(t, rects[i]);
   });
-  stage.style.gridArea=stageSlot||"1/1/4/4";
-  stage.classList.toggle("mini", !!stageSlot);
+  if (!mini) place(stage, stageRect);
+  stage.classList.toggle("mini", mini);
+  grid.classList.toggle("pinnedBg", mini);
 }
 function renderGrid(){
   grid.querySelectorAll(".tile").forEach(t=>t.remove());
@@ -1083,6 +1130,35 @@ async function findRelatedLive(it){
     pinTo(ch.name, +(S.pinMin||5), `속보 관련 라이브: ${q.replace(/ live$/,"")}`);
   }catch(e){}
 }
+
+// ---------- 지도 화면: 큰 지도 + 경합 목록 ----------
+(function(){
+  for (const [mapId,listId] of [["senMap","senList"],["govMap","govList"]]){
+    const map=document.getElementById(mapId), wrap=document.createElement("div"); wrap.className="mapWrap";
+    map.before(wrap); const list=document.createElement("div"); list.className="raceList"; list.id=listId; wrap.append(map,list);
+  }
+  // 요약 수치는 제목 옆으로
+  const gs=document.getElementById("govSum"); gs.style.fontSize="17px";
+})();
+function raceList(box, rows){
+  if(!box) return; box.innerHTML="";
+  const lead=r=>r.cands.slice().sort((a,b)=>b.pct-a.pct);
+  const open=rows.filter(r=>!r.winner && r.in>0).map(r=>{ const c=lead(r); return {r,c,m:c.length>1?c[0].pct-c[1].pct:99}; }).sort((a,b)=>a.m-b.m);
+  const done=rows.filter(r=>r.winner).map(r=>({r,c:lead(r)}));
+  const row=(o,i,cls)=>{ const el=document.createElement("div"); el.className="rr"; el.style.setProperty("--i",i);
+    const top=o.c[0]||{}; const sec=o.c[1];
+    el.innerHTML=`<span class="st ${cls}">${o.r.st}</span><span class="nm"></span><span class="pc"></span>`;
+    el.querySelector(".nm").textContent = o.r.winner ? `${top.name} 당선${o.r.cands.some(c=>c.flip&&c.party===o.r.winner)?" · 교체":""}` : `${top.name} 앞섬`;
+    el.querySelector(".pc").textContent = o.r.winner ? `${top.pct}%` : `+${(o.m||0).toFixed(1)}%p · 개표 ${Math.round(o.r.in)}%`;
+    box.appendChild(el); };
+  let i=0;
+  if(open.length){ const h=document.createElement("div"); h.className="rh"; h.textContent="접전 순 · 미확정"; box.appendChild(h); open.forEach(o=>row(o,i++,"l"+(o.c[0]?.party||""))); }
+  if(done.length){ const h=document.createElement("div"); h.className="rh"; h.textContent="확정"; box.appendChild(h); done.forEach(o=>row(o,i++,o.r.winner)); }
+}
+const _dv2=drawViews; drawViews=function(){ _dv2(); const d=lastRes; if(!d) return;
+  raceList(document.getElementById("senList"), d.senate?.states||[]);
+  raceList(document.getElementById("govList"), d.governor?.states||[]);
+};
 renderAll(); renderSeats(); markPin(); drawMeters(); playView(document.getElementById(VIEWS[viewIdx][0]));
 </script>
 </body>
