@@ -973,7 +973,10 @@ function hemicycle(box, counts, total, rows, maj){
   const per=radii.map((r,i)=>{ const n= i===rows-1 ? left : Math.round(total*r/sum); left-=n; return n; });
   radii.forEach((r,i)=>{ const n=per[i]; for(let k=0;k<n;k++){ const a=Math.PI*(1-(n===1?0.5:k/(n-1))); pts.push({x:W/2+r*Math.cos(a), y:H-6-r*Math.sin(a)*0.98, a}); } });
   pts.sort((p,q)=>q.a-p.a);
-  const dot=(R-r0)/(rows-1)*0.42;
+  // 점 크기는 줄 간격과 같은 줄 안 점 간격 중 좁은 쪽에 맞춰서 서로 안 겹치게
+  const rowGap=(R-r0)/(rows-1);
+  const arcGap=Math.min(...radii.map((r,i)=>per[i]>1 ? Math.PI*r/(per[i]-1) : rowGap));
+  const dot=Math.min(rowGap,arcGap)*0.44;
   const seq=[...Array(counts.D).fill("var(--dem)"),...Array(Math.max(0,total-counts.D-counts.R-counts.O)).fill("var(--panel2)"),...Array(counts.O).fill("var(--oth)"),...Array(counts.R).fill("var(--rep)")];
   // 기타는 공화 바로 앞, 미확정은 가운데
   box.querySelector(".svg").innerHTML=`<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="의석 반원 그래프">${pts.map((p,i)=>`<circle cx="${p.x.toFixed(1)}" cy="${p.y.toFixed(1)}" r="${dot.toFixed(2)}" fill="${seq[i]||"var(--panel2)"}"/>`).join("")}<line x1="${W/2}" y1="${H-6-R-4}" x2="${W/2}" y2="${H-6-r0+8}" stroke="var(--fg)" stroke-opacity=".6" stroke-dasharray="2 2"/></svg>`;
@@ -997,7 +1000,7 @@ function tileMap(box, rows){
 function drawViews(){
   const d=lastRes; if(!d) return;
   if (d.house) hemicycle(document.getElementById("hemiH"), {D:d.house.parties.D.called,R:d.house.parties.R.called,O:d.house.parties.O.called}, d.house.total, 12, d.house.majority);
-  if (d.senate) hemicycle(document.getElementById("hemiS"), {D:d.senate.parties.D.called,R:d.senate.parties.R.called,O:d.senate.parties.O.called}, d.senate.total, 5, d.senate.majority);
+  if (d.senate) hemicycle(document.getElementById("hemiS"), {D:d.senate.parties.D.called,R:d.senate.parties.R.called,O:d.senate.parties.O.called}, d.senate.total, 6, d.senate.majority);
   if (d.senate?.states){ tileMap(document.getElementById("senMap"), d.senate.states);
     const called=d.senate.states.filter(r=>r.winner).length; document.getElementById("senSub").textContent=`${d.senate.states.length}개 선거 · ${called}곳 확정`; }
   if (d.governor?.states) tileMap(document.getElementById("govMap"), d.governor.states);
