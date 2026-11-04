@@ -88,7 +88,7 @@ footer .btn{padding:5px 10px}
 .add input{background:var(--bg);border:1px solid var(--line);border-radius:4px;padding:5px 8px;font-size:12px;width:150px}
 
 #ticker{display:flex;align-items:center;gap:12px;background:#140b0b;border-top:1px solid var(--line);overflow:hidden;white-space:nowrap;height:32px}
-#ticker .tag{flex-shrink:0;background:var(--live);color:#fff;font-family:var(--display);font-weight:700;letter-spacing:.1em;padding:0 10px;height:100%;display:flex;align-items:center}
+#ticker .tag{position:relative;z-index:1;flex-shrink:0;background:var(--live);color:#fff;font-family:var(--display);font-weight:700;letter-spacing:.1em;padding:0 10px;height:100%;display:flex;align-items:center}
 #ticker .track{display:inline-flex;gap:36px;animation:tick var(--dur,120s) linear infinite;padding-left:100%}
 #ticker:hover .track{animation-play-state:paused}
 #ticker a{color:var(--fg);text-decoration:none}
@@ -113,10 +113,10 @@ footer .btn{padding:5px 10px}
 .badge.soon{background:#3a2a0a;color:var(--focus)}
 @media (prefers-reduced-motion:reduce){.badge.live{animation:none}}
 /* 한 화면에 다 들어가게: 페이지 스크롤 없음, 설정은 따로 여는 패널로 */
+#seats.auto table{display:none}
 @media (min-width:901px){
   html,body{overflow:hidden}
   #seats{overflow:hidden;gap:12px;padding-block:10px}
-  #seats.auto table{display:none}
   .chhead h2{font-size:20px}
   .meter{height:18px}
   .meterRow{gap:2px}
@@ -291,13 +291,23 @@ footer{font-size:14px}
   .clocks{gap:12px}
   .clocks .clock:nth-child(2){display:none}
   .clock b{font-size:16px}
-  .tools{margin-left:0;width:100%;overflow-x:auto;flex-wrap:nowrap;padding-bottom:2px}
+  .tools{margin-left:0;width:100%;overflow-x:auto;flex-wrap:nowrap;padding-bottom:2px;scrollbar-width:none}
+  .tools::-webkit-scrollbar,#viewTabs::-webkit-scrollbar,footer::-webkit-scrollbar{display:none}
+  #viewTabs,footer{scrollbar-width:none}
+  #note{font-size:14px!important;padding:8px 12px}
+  .score{gap:12px}
+  .chhead{flex-wrap:wrap;gap:4px 10px}
+  .rep .rl{flex-direction:column;gap:2px}
+  #stage .chhead small{font-size:13px}
+  #viewProg{display:none}
   .tools .btn{flex-shrink:0;padding:8px 12px;font-size:14px}
   #ticker{height:40px;font-size:15px}
   main{display:block}
   #grid{display:grid!important;height:auto!important;grid-template-columns:1fr 1fr!important;grid-template-rows:none!important;gap:6px;padding:6px}
   #grid > .tile,#grid > #stage{position:relative!important;left:auto!important;top:auto!important;width:auto!important;height:auto!important}
-  #stage{grid-column:1/-1;grid-area:auto!important;min-height:min(78vh,620px)}
+  #stage{grid-column:1/-1!important;grid-row:auto!important;min-height:0}
+  #grid > .tile.pinned{order:-1}
+  #grid > .tile.audio:not(.pinned){order:0}
   #stage #seats{zoom:1!important;padding:12px 14px;overflow:visible}
   #grid > .tile{aspect-ratio:16/9}
   #grid > .tile.audio,#grid > .tile.pinned{grid-column:1/-1}
