@@ -1,0 +1,265 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Midterm War Room</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;700&family=IBM+Plex+Mono:wght@400;600&family=Noto+Sans+KR:wght@400;600&display=swap">
+<style>
+/* Layout: 상단 상황판 바 + 좌측 채널 패널 + 자동 그리드 멀티뷰 */
+:root{
+  --bg:#0b0d12; --panel:#12151c; --line:#232837; --fg:#e7e9ee; --dim:#8a90a2;
+  --dem:#3b6fe0; --rep:#d8433b; --live:#ff3b30; --focus:#f2c14e;
+  --display:"Barlow Condensed","Arial Narrow",sans-serif;
+  --body:"Noto Sans KR",system-ui,sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,monospace;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+html,body{height:100%;margin:0}
+body{background:var(--bg);color:var(--fg);font:14px/1.4 var(--body);display:flex;flex-direction:column;overflow:hidden}
+button,input{font:inherit;color:inherit}
+button{cursor:pointer}
+:focus-visible{outline:2px solid var(--focus);outline-offset:2px}
+
+header{display:flex;align-items:center;gap:20px;padding:10px 16px;border-bottom:1px solid var(--line);background:var(--panel);flex-wrap:wrap}
+.brand{display:flex;align-items:center;gap:10px;font-family:var(--display);font-weight:700;font-size:22px;letter-spacing:.06em;text-transform:uppercase}
+.brand .bar{width:6px;height:22px;background:linear-gradient(var(--dem) 50%,var(--rep) 50%)}
+.dot{width:8px;height:8px;border-radius:50%;background:var(--live);animation:pulse 1.6s infinite}
+@keyframes pulse{50%{opacity:.25}}
+@media (prefers-reduced-motion:reduce){.dot{animation:none}}
+.clocks{display:flex;gap:18px;font-family:var(--mono);font-variant-numeric:tabular-nums}
+.clock span{display:block;font-size:10px;color:var(--dim);letter-spacing:.12em}
+.clock b{font-size:17px;font-weight:600}
+.tools{margin-left:auto;display:flex;gap:8px;align-items:center}
+.btn{background:transparent;border:1px solid var(--line);padding:6px 12px;border-radius:4px;font-size:13px}
+.btn:hover{border-color:var(--dim)}
+.btn.on{border-color:var(--focus);color:var(--focus)}
+
+main{flex:1;display:flex;min-height:0}
+aside{width:250px;border-right:1px solid var(--line);background:var(--panel);overflow-y:auto;padding:14px;display:flex;flex-direction:column;gap:14px;flex-shrink:0}
+aside.hidden{display:none}
+.lbl{font-family:var(--display);font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:var(--dim)}
+.ch{display:flex;align-items:center;gap:8px;padding:6px 4px;border-radius:4px}
+.ch:hover{background:#1a1e28}
+.ch input{accent-color:var(--focus)}
+.ch label{flex:1;cursor:pointer}
+.ch .del{border:0;background:none;color:var(--dim);font-size:16px;padding:0 4px}
+.add{display:flex;flex-direction:column;gap:6px}
+.add input{background:var(--bg);border:1px solid var(--line);border-radius:4px;padding:6px 8px;font-size:13px}
+.hint{font-size:12px;color:var(--dim);line-height:1.5}
+kbd{font-family:var(--mono);font-size:11px;border:1px solid var(--line);border-radius:3px;padding:0 4px}
+
+#grid{flex:1;display:grid;gap:4px;padding:4px;min-width:0;background:#05060a}
+.tile{position:relative;background:#000;border:2px solid transparent;min-height:0;min-width:0;display:flex;flex-direction:column}
+.tile.audio{border-color:var(--focus)}
+.tile.big{grid-column:1/-1;grid-row:1/-1;z-index:2}
+.tile iframe{flex:1;width:100%;border:0;min-height:0}
+.cap{display:flex;align-items:center;gap:6px;padding:4px 6px;background:var(--panel);font-size:12px}
+.cap .name{font-family:var(--display);font-weight:700;font-size:15px;letter-spacing:.05em;text-transform:uppercase;flex:1;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.cap .num{font-family:var(--mono);color:var(--dim);font-size:11px}
+.cap button{background:none;border:1px solid var(--line);border-radius:3px;padding:2px 7px;font-size:12px}
+.tile.audio .snd{border-color:var(--focus);color:var(--focus)}
+.swap{display:flex;gap:4px;padding:4px 6px;background:var(--panel)}
+.swap input{flex:1;min-width:0;background:var(--bg);border:1px solid var(--line);border-radius:3px;padding:3px 6px;font-size:12px}
+.empty{grid-column:1/-1;display:grid;place-items:center;color:var(--dim)}
+
+@media (max-width:700px){aside{position:absolute;z-index:5;height:calc(100% - 52px)}}
+</style>
+</head>
+<body>
+<header>
+  <div class="brand"><i class="bar"></i>Midterm War Room <i class="dot" title="LIVE"></i></div>
+  <div class="clocks">
+    <div class="clock"><span>EASTERN (ET)</span><b id="tET">--:--</b></div>
+    <div class="clock"><span>PACIFIC (PT)</span><b id="tPT">--:--</b></div>
+    <div class="clock"><span>SEOUL (KST)</span><b id="tKST">--:--</b></div>
+  </div>
+  <div class="tools">
+    <button class="btn" id="winMode" title="임베드가 막힐 때 쓰는 방식">창으로 띄우기</button>
+    <button class="btn" id="togglePanel">채널 패널</button>
+    <button class="btn" id="muteAll">전체 음소거</button>
+    <button class="btn" id="reload">새로고침</button>
+  </div>
+</header>
+<main>
+  <aside id="panel">
+    <div>
+      <div class="lbl">방송사</div>
+      <div id="chList"></div>
+    </div>
+    <div class="add">
+      <div class="lbl">채널 추가</div>
+      <input id="addName" placeholder="이름 (예: Decision Desk)">
+      <input id="addSrc" placeholder="유튜브 링크 · 영상 ID · 채널 ID">
+      <button class="btn" id="addBtn">추가하기</button>
+    </div>
+    <div class="hint">
+      <kbd>1</kbd>–<kbd>9</kbd> 그 번호 화면 소리 켜기<br>
+      <kbd>F</kbd> 소리 켠 화면 크게 보기<br>
+      <kbd>M</kbd> 전체 음소거<br><br>
+      채널 자동 라이브가 엉뚱한 방송을 잡으면 화면 아래 칸에 라이브 영상 링크를 붙여넣어 바꾸면 돼요. 설정은 이 브라우저에 저장돼요.
+    </div>
+  </aside>
+  <section id="grid"></section>
+</main>
+
+<script>
+const DEFAULTS = [
+  {name:"CNN",          src:"UCupvZG-5ko_eiXAupbDfxWw", on:true},
+  {name:"Fox News",     src:"UCXIJgqnII2ZOINb3ZaWlU9g", on:true},
+  {name:"ABC News",     src:"UCBi2mrWuNuyYy4gbM6fU18Q", on:true},
+  {name:"NBC News",     src:"UCeY0bbntWzzVIaj2z3QigXg", on:true},
+  {name:"CBS News",     src:"UC8p1vwvWtl6T73JiExfWzNw", on:true},
+  {name:"MS NOW (MSNBC)",src:"UCaXkIU1QidjPwiAYu6GcHjg", on:true},
+  {name:"PBS NewsHour", src:"UC6ZFN9Tx6xh-skXCuRHCDpQ", on:false},
+  {name:"C-SPAN",       src:"UCb--64Gl51jIEVE-GLDAVTg", on:false},
+  {name:"Reuters",      src:"UChqUTb7kYRX8-EiaN3XFrSQ", on:false},
+  {name:"Bloomberg TV", src:"UCIALMKvObZNtJ6AmdCLP7Lg", on:false},
+  {name:"Sky News",     src:"UCoMdktPbSTixAyNGwb-UYkQ", on:false},
+];
+const KEY = "midterm-war-room-v1";
+let state;
+try { state = JSON.parse(localStorage.getItem(KEY)) } catch(e) {}
+if (!state || !Array.isArray(state.channels)) state = {channels: DEFAULTS.map(c=>({...c})), audio:null, big:null, panel:true};
+const save = () => { try { localStorage.setItem(KEY, JSON.stringify(state)) } catch(e) {} };
+
+// 입력 해석: 채널 ID(UC...) / 영상 링크 / 영상 ID
+function parse(src){
+  src = (src||"").trim();
+  if (/^UC[\w-]{22}$/.test(src)) return {type:"channel", id:src};
+  const m = src.match(/(?:v=|youtu\.be\/|\/live\/|\/embed\/|\/shorts\/)([\w-]{11})/);
+  if (m) return {type:"video", id:m[1]};
+  if (/^[\w-]{11}$/.test(src)) return {type:"video", id:src};
+  const c = src.match(/channel\/(UC[\w-]{22})/);
+  if (c) return {type:"channel", id:c[1]};
+  return null;
+}
+function embedUrl(src, muted){
+  const p = parse(src); if (!p) return "about:blank";
+  const q = `autoplay=1&mute=${muted?1:0}&enablejsapi=1&playsinline=1&rel=0&origin=${encodeURIComponent(location.origin)}`;
+  return p.type==="channel"
+    ? `https://www.youtube.com/embed/live_stream?channel=${p.id}&${q}`
+    : `https://www.youtube.com/embed/${p.id}?${q}`;
+}
+function watchUrl(src){
+  const p = parse(src); if (!p) return "#";
+  return p.type==="channel" ? `https://www.youtube.com/channel/${p.id}/live` : `https://www.youtube.com/watch?v=${p.id}`;
+}
+// 임베드가 막힌 채널용: 켜둔 방송사를 바둑판처럼 배치된 별도 창으로 띄우기
+function openWindows(){
+  const live = state.channels.filter(c=>c.on); if (!live.length) return;
+  const W = screen.availWidth, H = screen.availHeight;
+  const cols = Math.ceil(Math.sqrt(live.length)), rows = Math.ceil(live.length/cols);
+  const w = Math.floor(W/cols), h = Math.floor(H/rows);
+  let blocked = 0;
+  live.forEach((c,i)=>{
+    const x = (i%cols)*w + (screen.availLeft||0), y = Math.floor(i/cols)*h + (screen.availTop||0);
+    const win = window.open(watchUrl(c.src), "wr_"+i, `popup=yes,width=${w},height=${h},left=${x},top=${y}`);
+    if (!win) blocked++;
+  });
+  if (blocked) alertBar(`팝업 ${blocked}개가 막혔어요. 주소창 오른쪽 팝업 차단 아이콘에서 '항상 허용' 누르고 다시 눌러주세요.`);
+}
+function alertBar(msg){
+  let b = document.getElementById("note");
+  if (!b){ b = document.createElement("div"); b.id="note";
+    b.style.cssText="padding:8px 16px;background:#3a2a0a;color:var(--focus);font-size:13px";
+    document.querySelector("header").after(b); }
+  b.textContent = msg;
+}
+const cmd = (iframe, func) => iframe?.contentWindow?.postMessage(JSON.stringify({event:"command",func,args:[]}),"*");
+
+const grid = document.getElementById("grid");
+const chList = document.getElementById("chList");
+
+function renderList(){
+  chList.innerHTML = "";
+  state.channels.forEach((c,i)=>{
+    const row = document.createElement("div"); row.className="ch";
+    row.innerHTML = `<input type="checkbox" id="ch${i}" ${c.on?"checked":""}><label for="ch${i}"></label><button class="del" title="삭제" aria-label="${c.name} 삭제">×</button>`;
+    row.querySelector("label").textContent = c.name;
+    row.querySelector("input").onchange = e => { c.on = e.target.checked; save(); renderGrid(); };
+    row.querySelector(".del").onclick = () => { state.channels.splice(i,1); save(); renderList(); renderGrid(); };
+    chList.appendChild(row);
+  });
+}
+
+function layout(n){
+  const w = grid.clientWidth, h = grid.clientHeight; let best = {c:1,r:n,s:0};
+  for (let c=1;c<=n;c++){ const r=Math.ceil(n/c); const tw=w/c, th=h/r;
+    const s = Math.min(tw, th*16/9); if (s>best.s) best={c,r,s}; }
+  grid.style.gridTemplateColumns = `repeat(${best.c},1fr)`;
+  grid.style.gridTemplateRows = `repeat(${best.r},1fr)`;
+}
+
+function renderGrid(){
+  grid.innerHTML = "";
+  const live = state.channels.filter(c=>c.on);
+  if (!live.length){ grid.innerHTML = `<div class="empty">왼쪽 패널에서 볼 방송사를 켜주세요.</div>`; grid.style.gridTemplateColumns="1fr"; grid.style.gridTemplateRows="1fr"; return; }
+  if (state.audio && !live.some(c=>c.name===state.audio)) state.audio = null;
+  live.forEach((c,i)=>{
+    const t = document.createElement("div"); t.className = "tile"; t.dataset.name = c.name;
+    if (state.audio===c.name) t.classList.add("audio");
+    if (state.big===c.name) t.classList.add("big");
+    t.innerHTML = `
+      <div class="cap"><span class="num">${i+1}</span><span class="name"></span>
+        <button class="snd" title="이 화면 소리 켜기">소리</button>
+        <button class="bigb" title="크게 보기">${state.big===c.name?"축소":"확대"}</button>
+        <a class="btn" style="padding:2px 7px;font-size:12px;text-decoration:none" target="_blank" rel="noopener" href="${watchUrl(c.src)}" title="유튜브에서 바로 열기">유튜브↗</a></div>
+      <iframe allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>
+      <form class="swap"><input placeholder="라이브 영상 링크로 바꾸기" aria-label="${c.name} 영상 바꾸기"><button class="btn" style="padding:2px 8px">적용</button></form>`;
+    t.querySelector(".name").textContent = c.name;
+    t.querySelector("iframe").src = embedUrl(c.src, state.audio!==c.name);
+    t.querySelector(".snd").onclick = () => setAudio(c.name);
+    t.querySelector(".bigb").onclick = () => { state.big = state.big===c.name?null:c.name; save(); renderGrid(); };
+    t.querySelector(".swap").onsubmit = e => { e.preventDefault(); const v=e.target.querySelector("input").value;
+      if (!parse(v)) { e.target.querySelector("input").value=""; e.target.querySelector("input").placeholder="링크를 인식 못 했어요. 유튜브 영상 주소를 넣어주세요"; return; }
+      c.src = v.trim(); save(); renderGrid(); };
+    grid.appendChild(t);
+  });
+  layout(live.length);
+}
+
+function setAudio(name){
+  state.audio = state.audio===name ? null : name; save();
+  grid.querySelectorAll(".tile").forEach(t=>{
+    const on = t.dataset.name===state.audio;
+    t.classList.toggle("audio", on);
+    cmd(t.querySelector("iframe"), on?"unMute":"mute");
+    if (on) cmd(t.querySelector("iframe"), "playVideo");
+  });
+}
+
+document.getElementById("muteAll").onclick = () => { state.audio=null; setAudio(null); };
+document.getElementById("reload").onclick = renderGrid;
+document.getElementById("winMode").onclick = openWindows;
+if (location.protocol==="file:") alertBar("파일을 더블클릭으로 열면 유튜브가 재생을 막아요. 로컬 서버로 열거나, 위의 '창으로 띄우기'를 써주세요.");
+const panel = document.getElementById("panel");
+const pBtn = document.getElementById("togglePanel");
+function applyPanel(){ panel.classList.toggle("hidden", !state.panel); pBtn.classList.toggle("on", state.panel); }
+pBtn.onclick = () => { state.panel=!state.panel; save(); applyPanel(); setTimeout(()=>layout(state.channels.filter(c=>c.on).length),0); };
+document.getElementById("addBtn").onclick = () => {
+  const n = document.getElementById("addName"), s = document.getElementById("addSrc");
+  if (!parse(s.value)) { s.value=""; s.placeholder="유튜브 링크나 ID를 확인해 주세요"; s.focus(); return; }
+  state.channels.push({name:n.value.trim()||"Custom", src:s.value.trim(), on:true});
+  n.value=""; s.value=""; save(); renderList(); renderGrid();
+};
+document.addEventListener("keydown", e=>{
+  if (e.target.tagName==="INPUT") return;
+  const live = state.channels.filter(c=>c.on);
+  if (/^[1-9]$/.test(e.key) && live[+e.key-1]) setAudio(live[+e.key-1].name);
+  if (e.key==="m"||e.key==="M") { state.audio=null; setAudio(null); }
+  if ((e.key==="f"||e.key==="F") && state.audio){ state.big = state.big===state.audio?null:state.audio; save(); renderGrid(); }
+});
+window.addEventListener("resize", ()=>layout(state.channels.filter(c=>c.on).length));
+
+function tick(){
+  const now = new Date(), f = tz => now.toLocaleTimeString("en-GB",{timeZone:tz,hour:"2-digit",minute:"2-digit",second:"2-digit"});
+  tET.textContent=f("America/New_York"); tPT.textContent=f("America/Los_Angeles"); tKST.textContent=f("Asia/Seoul");
+}
+setInterval(tick,1000); tick();
+applyPanel(); renderList(); renderGrid();
+</script>
+</body>
+</html>
