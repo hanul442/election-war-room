@@ -270,6 +270,11 @@ footer{font-size:14px}
 .rep .rb{height:6px;background:var(--panel2);border-radius:3px;overflow:hidden}
 .rep .rb i{display:block;height:100%;background:linear-gradient(90deg,#7d8597,#eef0f4);border-radius:3px;transition:width .9s cubic-bezier(.2,.7,.2,1)}
 .tmap span.has,.tmap span[class*="l"]{background-image:linear-gradient(90deg,#ffffff55 var(--in,0%),transparent var(--in,0%));background-size:100% 3px;background-repeat:no-repeat;background-position:bottom}
+.rotTag{font-family:var(--display);font-weight:700;font-size:11px;letter-spacing:.1em;padding:1px 6px;border-radius:2px;background:#0d2a3d;color:var(--sel);flex-shrink:0}
+.tile .rotBar{position:absolute;left:0;bottom:0;height:3px;background:var(--sel);z-index:3;width:0}
+.tile.rot .rotBar{animation:drain2 var(--rt,120s) linear forwards}
+@keyframes drain2{from{width:0}to{width:100%}}
+#bench button.next{border-style:solid;border-color:var(--sel);color:var(--sel)}
 #note{padding:8px 16px;background:#3a2a0a;color:var(--focus);font-size:13px}
 @media (max-width:900px){
   body{height:auto}
@@ -416,6 +421,10 @@ footer{font-size:14px}
       <label class="status"><input type="checkbox" id="ytAuto"> 10분마다 자동으로 다시 찾기</label>
       <label class="status"><input type="checkbox" id="watch"> 중요한 순간 자동으로 소리 고정</label>
       <label class="status"><input type="checkbox" id="brkLive"> 속보가 뜨면 관련 라이브를 찾아 가운데에 띄우기 (API 키 필요)</label>
+      <label class="status">대기 화면 돌려보기
+        <select id="benchSec" style="background:var(--bg);border:1px solid var(--line);border-radius:3px;color:var(--fg)">
+          <option value="0">끄기</option><option value="60">1분마다</option><option value="120">2분마다</option><option value="180">3분마다</option><option value="300">5분마다</option>
+        </select></label>
       <label class="status"><input type="checkbox" id="catchUp"> 라이브가 30초 넘게 늦어지면 실시간으로 당기기</label>
       <label class="status"><input type="checkbox" id="focusOn"> 고정되면 그 화면을 크게, 나머지는 작게</label>
       <label class="status">원래 화면으로 돌아가기까지
@@ -538,7 +547,11 @@ function layout(){
 function renderGrid(){
   grid.querySelectorAll(".tile").forEach(t=>t.remove());
   const live = visibleCh();
-  live.forEach((c,i)=>{
+  live.forEach((c,i)=>grid.appendChild(buildTile(c,i)));
+  layout(live.length);
+}
+function buildTile(c,i){
+  {
     const t=document.createElement("div"); t.className="tile"+(S.audio===c.name?" audio":"")+(S.pin===c.name?" pinned":""); t.dataset.name=c.name;
     t.innerHTML=`<div class="cap"><span class="badge" hidden></span><span class="name"></span>
         <button class="snd" title="이 화면 소리 켜기 (${i+1})">소리</button>
@@ -565,9 +578,8 @@ function renderGrid(){
     t.querySelector(".name").onclick=()=>{ S.sel = S.sel===c.name?null:c.name; save(); grid.querySelectorAll(".tile").forEach(x=>x.classList.toggle("sel",x.dataset.name===S.sel)); };
     t.querySelector(".name").title="눌러서 선택한 뒤 아래 대기 화면을 누르면 이 자리로 바꿔요";
     t.querySelector(".name").style.cursor="pointer";
-    grid.appendChild(t);
-  });
-  layout(live.length);
+    return t;
+  }
 }
 const moved=[];
 window.addEventListener("message", e=>{
@@ -1261,6 +1273,43 @@ const _dv3=drawViews; drawViews=function(){ _dv3(); const d=lastRes; if(!d) retu
     rows.forEach(r=>{ const el=[...box.children].find(x=>x.textContent===r.st); if(el && !r.winner) el.style.setProperty("--in",Math.round(r.in)+"%"); });
   }
 };
+
+// ---------- 대기 화면 돌려보기 ----------
+// 소리·고정·선택이 안 걸린 마지막 칸 하나를 "순환 칸"으로 쓰고, 대기 화면을 차례로 그 칸에 띄운다. 다른 칸은 다시 불러오지 않는다.
+const benchSel=document.getElementById("benchSec");
+if (S.benchSec===undefined) S.benchSec=120;
+benchSel.value=String(S.benchSec);
+let benchT=null;
+function rotSlot(){
+  const vis=visibleCh();
+  for (let i=vis.length-1;i>=0;i--){ const c=vis[i]; if(c.name!==S.pin && c.name!==S.audio && c.name!==S.sel) return i; }
+  return -1;
+}
+function markRot(){
+  const i=rotSlot(), tiles=[...grid.querySelectorAll(".tile")];
+  tiles.forEach((t,k)=>{ const on = S.benchSec>0 && k===i && S.channels.filter(c=>c.embed).length>SLOTS.length;
+    t.classList.toggle("rot",on); t.querySelector(".rotTag")?.remove(); t.querySelector(".rotBar")?.remove();
+    if(on){ const tag=document.createElement("span"); tag.className="rotTag"; tag.textContent="순환"; t.querySelector(".name").after(tag);
+      const bar=document.createElement("i"); bar.className="rotBar"; t.style.setProperty("--rt",S.benchSec+"s"); t.appendChild(bar); } });
+  const first=document.querySelector("#bench button"); document.querySelectorAll("#bench button").forEach(b=>b.classList.toggle("next",b===first && S.benchSec>0));
+}
+function benchNext(){
+  if(!S.benchSec) return;
+  const embed=S.channels.filter(c=>c.embed); if(embed.length<=SLOTS.length) return;
+  const i=rotSlot(); if(i<0) return;
+  const out=visibleCh()[i], inn=embed[SLOTS.length];   // 대기 맨 앞
+  // 들어오는 방송은 순환 칸 자리로, 나가는 방송은 대기 맨 뒤로
+  S.channels.splice(S.channels.indexOf(inn),1);
+  S.channels.splice(S.channels.indexOf(out),1,inn);
+  S.channels.push(out); save();
+  const old=[...grid.querySelectorAll(".tile")][i]; const t=buildTile(inn,i);
+  ["left","top","width","height","gridArea"].forEach(k=>t.style[k]=old.style[k]);
+  old.replaceWith(t); applyBadges(); renderLauncher(); markRot();
+}
+function startBench(){ clearInterval(benchT); if(S.benchSec>0) benchT=setInterval(benchNext, S.benchSec*1000); markRot(); }
+benchSel.onchange=()=>{ S.benchSec=+benchSel.value; save(); startBench(); };
+const _ra=renderAll; renderAll=function(){ _ra(); if(typeof markRot==="function") markRot(); };
+startBench();
 renderAll(); renderSeats(); markPin(); drawMeters(); playView(document.getElementById(VIEWS[viewIdx][0]));
 </script>
 </body>
