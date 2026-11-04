@@ -206,7 +206,9 @@ footer .btn{padding:5px 10px}
 #stage .status b{font-size:17px}
 #stage .legend{font-size:13px}
 .score span{font-size:15px}
-.stageHead{padding-bottom:4px;border-bottom:1px solid var(--line)}
+.stageHead{padding-bottom:4px;border-bottom:1px solid var(--line);grid-column:1/-1;align-self:start}
+#v-seats,#v-hemi{align-content:start;grid-template-rows:auto 1fr}
+#v-seats > .chamber,#v-hemi > .chamber{align-self:center}
 .stageHead small{font-size:14px}
 .gain{font-family:var(--mono);font-size:15px;color:var(--dim)}
 .gain .up{color:var(--focus)}
