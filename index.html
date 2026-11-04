@@ -835,7 +835,7 @@ function drawViews(){
 }
 
 // ---------- 늦어진 라이브 따라잡기 ----------
-// 플레이어가 보내는 currentTime / duration(라이브는 지금까지 송출된 길이)을 비교해서 많이 밀렸으면 맨 끝으로 넘긴다
+// 플레이어가 보내는 currentTime / duration을 비교해서, 평소보다 많이 밀렸으면 맨 끝(실시간)으로 넘긴다
 const playPos=new Map();  // contentWindow -> {t, dur, at}
 window.addEventListener("message", e=>{
   if (!/youtube(-nocookie)?\.com$/.test(new URL(e.origin||"http://x").hostname)) return;
@@ -855,8 +855,10 @@ setInterval(()=>{
     if (st!=="live") return;
     const f=t.querySelector("iframe"), p=playPos.get(f.contentWindow);
     if (!p || !(p.dur>0) || typeof p.t!=="number") return;
+    // 채널마다 duration 기준이 달라서(DVR 창 길이 등) 처음 본 가장 작은 차이를 "실시간"으로 잡고, 거기서 30초 넘게 밀리면 당긴다
     const lag=p.dur-p.t;
-    if (lag>30){
+    if (p.min==null || lag<p.min) p.min=lag;
+    if (lag-p.min>30){
       f.contentWindow.postMessage(JSON.stringify({event:"command",func:"seekTo",args:[p.dur+60,true]}),"*");
       cmd(f,"playVideo");
       const b=t.querySelector(".badge"); if(b){ b.textContent="● 따라잡는 중"; setTimeout(applyBadges,4000); }
