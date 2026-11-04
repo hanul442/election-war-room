@@ -101,6 +101,10 @@ footer .btn{padding:5px 10px}
   </div>
   <div class="tools">
     <button class="btn" id="muteAll">전체 음소거</button>
+    <label class="btn" for="rotate" style="gap:6px">음성 자동 전환
+      <select id="rotate" style="background:var(--bg);border:1px solid var(--line);border-radius:3px;color:var(--fg)">
+        <option value="0">끄기</option><option value="30">30초</option><option value="60">1분</option><option value="120">2분</option><option value="300">5분</option>
+      </select></label>
     <button class="btn" id="reload">플레이어 새로고침</button>
     <button class="btn" id="resetCh" title="아래로 내려간 채널을 다시 멀티뷰에 올려 재시도">채널 다시 시도</button>
   </div>
@@ -150,6 +154,17 @@ footer .btn{padding:5px 10px}
       </div>
     </div>
     <p class="note">숫자를 고치면 막대가 바로 바뀌고 이 브라우저에 저장돼요. 예측 칸에는 방송사가 아직 콜하지 않은 지역 중 그 매체가 예상하는 의석을 넣으면, 아래 막대에 흐린 색으로 확정 위에 쌓여요. 확정은 콜이 난 의석만 넣어주세요.</p>
+
+    <div class="src" id="finder">
+      <div class="lbl">유튜브 라이브 찾기</div>
+      <input id="ytKey" type="password" placeholder="YouTube Data API 키" aria-label="YouTube Data API 키" autocomplete="off">
+      <div style="display:flex;gap:6px"><input id="ytQ" style="flex:1;min-width:0" value="election results live" aria-label="검색어">
+        <button class="btn primary" id="ytGo">찾기</button></div>
+      <label class="status"><input type="checkbox" id="ytAuto"> 10분마다 자동으로 다시 찾기</label>
+      <div class="status" id="ytMsg">키는 이 브라우저에만 저장돼요. 지금 라이브 중이고 임베드가 허용된 영상만 보여줘요.</div>
+      <div id="ytList" style="display:flex;flex-direction:column;gap:8px"></div>
+    </div>
+    <p class="note">유튜브 탭의 영상 링크나 썸네일을 이 페이지로 끌어다 놓아도 멀티뷰에 바로 추가돼요.</p>
   </aside>
 </main>
 
@@ -242,7 +257,7 @@ function renderGrid(){
     f.src=embedUrl(c.src, S.audio!==c.name);
     // 플레이어에 이벤트를 보내달라고 등록해야 onError 를 받을 수 있다
     f.onload=()=>{ for (const ms of [0,800,2500]) setTimeout(()=>f.contentWindow?.postMessage(JSON.stringify({event:"listening",id:c.name,channel:"widget"}),"*"), ms); };
-    t.querySelector(".snd").onclick=()=>setAudio(c.name);
+    t.querySelector(".snd").onclick=()=>{ setAudio(c.name); bumpRotate(); };
     t.querySelector(".toWin").onclick=()=>{ c.embed=false; save(); renderAll(); };
     t.querySelector(".swap").onsubmit=e=>{ e.preventDefault(); const inp=e.target.querySelector("input");
       if (!parse(inp.value)){ inp.value=""; inp.placeholder="유튜브 영상 주소를 넣어주세요"; return; }
@@ -354,6 +369,68 @@ if (location.protocol==="file:") note("파일을 더블클릭으로 열면 유�
 function tick(){ const now=new Date(), f=tz=>now.toLocaleTimeString("en-GB",{timeZone:tz,hour:"2-digit",minute:"2-digit",second:"2-digit"});
   tET.textContent=f("America/New_York"); tPT.textContent=f("America/Los_Angeles"); tKST.textContent=f("Asia/Seoul"); }
 setInterval(tick,1000); tick();
+
+// ---------- 음성 자동 전환 ----------
+let rotT=null;
+const rotSel=document.getElementById("rotate");
+rotSel.value=String(S.rotate||0);
+function rotateNext(){
+  const live=S.channels.filter(c=>c.embed); if(live.length<2) return;
+  const i=live.findIndex(c=>c.name===S.audio);
+  S.audio=null; setAudio(live[(i+1)%live.length].name);
+}
+function startRotate(){ clearInterval(rotT); const sec=+rotSel.value; if(sec) rotT=setInterval(rotateNext, sec*1000); }
+function bumpRotate(){ if(+rotSel.value) startRotate(); } // 직접 고르면 그 화면에서 타이머를 처음부터 다시 센다
+rotSel.onchange=()=>{ S.rotate=+rotSel.value; save(); startRotate(); if(S.rotate && !S.audio) rotateNext(); };
+startRotate();
+
+// ---------- 끌어다 놓기 ----------
+document.addEventListener("dragover",e=>{ e.preventDefault(); });
+document.addEventListener("drop",e=>{
+  const txt=e.dataTransfer.getData("text/uri-list")||e.dataTransfer.getData("text/plain");
+  if(!txt || e.target.tagName==="INPUT") return;
+  e.preventDefault();
+  const link=txt.split(/\s+/).find(l=>parse(l)); if(!link){ note("유튜브 영상 링크가 아니라서 추가하지 못했어요."); return; }
+  addVideo(parse(link).id, "추가 화면");
+});
+function addVideo(id,name){
+  if(S.channels.some(c=>parse(c.src)?.id===id)){ note(`${name}: 이미 멀티뷰에 있어요.`); return; }
+  S.channels.push({name, src:id, embed:true}); save(); renderAll(); note(`${name} 추가했어요.`);
+}
+
+// ---------- 유튜브 라이브 찾기 (YouTube Data API v3) ----------
+const kIn=document.getElementById("ytKey"), qIn=document.getElementById("ytQ"), msg=document.getElementById("ytMsg"), list=document.getElementById("ytList"), auto=document.getElementById("ytAuto");
+try{ kIn.value=localStorage.getItem("wr-yt-key")||""; }catch(e){}
+kIn.onchange=()=>{ try{ localStorage.setItem("wr-yt-key",kIn.value.trim()); }catch(e){} };
+let autoT=null;
+auto.onchange=()=>{ clearInterval(autoT); if(auto.checked){ findLive(); autoT=setInterval(findLive,600000); } };
+document.getElementById("ytGo").onclick=findLive;
+async function findLive(){
+  const key=kIn.value.trim();
+  if(!key){ msg.textContent="API 키를 먼저 넣어주세요. Google Cloud 콘솔에서 YouTube Data API v3를 켜고 키를 만들면 돼요."; kIn.focus(); return; }
+  msg.textContent="찾는 중이에요…";
+  const u=new URL("https://www.googleapis.com/youtube/v3/search");
+  Object.entries({part:"snippet",type:"video",eventType:"live",videoEmbeddable:"true",order:"viewCount",maxResults:"20",q:qIn.value||"election results live",key}).forEach(([k,v])=>u.searchParams.set(k,v));
+  try{
+    const r=await fetch(u); const d=await r.json();
+    if(!r.ok){ msg.textContent= d?.error?.errors?.[0]?.reason==="quotaExceeded" ? "오늘 검색 한도를 다 썼어요. 내일 다시 쓸 수 있어요." : "검색이 실패했어요. API 키와 YouTube Data API v3 사용 설정을 확인해주세요."; return; }
+    const have=new Set(S.channels.map(c=>parse(c.src)?.id));
+    list.innerHTML="";
+    (d.items||[]).forEach(it=>{
+      const id=it.id.videoId, sn=it.snippet;
+      const row=document.createElement("div"); row.style.cssText="display:grid;grid-template-columns:80px 1fr auto;gap:8px;align-items:center";
+      row.innerHTML=`<img alt="" style="width:80px;aspect-ratio:16/9;object-fit:cover;border-radius:3px"><div style="min-width:0;font-size:12px"><b style="display:block"></b><span style="color:var(--dim)"></span></div><button class="btn" style="padding:3px 8px"></button>`;
+      row.querySelector("img").src=sn.thumbnails?.medium?.url||"";
+      row.querySelector("b").textContent=sn.channelTitle;
+      row.querySelector("span").textContent=sn.title.replace(/&amp;/g,"&").replace(/&quot;/g,'"').replace(/&#39;/g,"'");
+      const b=row.querySelector("button");
+      if(have.has(id)){ b.textContent="추가됨"; b.disabled=true; }
+      else { b.textContent="추가"; b.onclick=()=>{ addVideo(id, sn.channelTitle); b.textContent="추가됨"; b.disabled=true; }; }
+      list.appendChild(row);
+    });
+    msg.textContent=`라이브 ${d.items?.length||0}개 찾았어요 · ${new Date().toLocaleTimeString("ko-KR",{hour:"2-digit",minute:"2-digit"})}`;
+  }catch(e){ msg.textContent="네트워크 문제로 검색하지 못했어요. 잠시 뒤 다시 눌러주세요."; }
+}
 renderAll(); renderSeats();
 </script>
 </body>
