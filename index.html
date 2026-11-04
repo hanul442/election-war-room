@@ -134,7 +134,7 @@ footer .btn{padding:5px 10px}
 #viewTabs button.on{border-color:var(--focus);color:var(--focus)}
 #viewProg{height:2px;background:var(--panel2);border-radius:1px;overflow:hidden}
 #viewProg i{display:block;height:100%;width:0;background:var(--focus)}
-.view{display:flex;flex-direction:column;gap:12px;min-height:0}
+.view{display:flex;flex-direction:column;gap:12px;min-height:0;flex:1;overflow:hidden}
 .view[hidden]{display:none!important}
 .view.grow{flex:1}
 .hemi svg{width:100%;height:auto;display:block}
@@ -150,7 +150,7 @@ footer .btn{padding:5px 10px}
 .tmap span.flip{box-shadow:inset 0 -3px 0 var(--focus)}
 /* ---- 메인 스테이지 ---- */
 :root{--sel:#4fb3ff}
-#stage{position:relative;background:radial-gradient(120% 90% at 0% 0%,#151a26 0%,var(--panel) 55%);border:1px solid var(--line);border-radius:4px;min-width:0;min-height:0;overflow:hidden;display:flex}
+#stage{flex-direction:column;position:relative;background:radial-gradient(120% 90% at 0% 0%,#151a26 0%,var(--panel) 55%);border:1px solid var(--line);border-radius:4px;min-width:0;min-height:0;overflow:hidden;display:flex}
 #stage #seats{all:unset;flex:1;display:flex;flex-direction:column;gap:14px;padding:16px 22px;min-width:0;min-height:0;overflow:hidden}
 #stage.mini #seats{zoom:.36;padding:10px}
 #stage.mini #viewTabs{display:none}
@@ -193,8 +193,9 @@ footer .btn{padding:5px 10px}
 .tile .cap{position:absolute;inset:0 0 auto 0;z-index:2;background:linear-gradient(#000c,#0000);padding:6px 8px 14px;pointer-events:none}
 .tile .cap > *{pointer-events:auto}
 .tile .cap .name{font-size:16px;text-shadow:0 1px 3px #000}
-.tile .cap button,.tile .cap a{opacity:0;transition:opacity .15s;background:#000a}
-.tile:hover .cap button,.tile:hover .cap a,.tile:focus-within .cap button,.tile:focus-within .cap a{opacity:1}
+.tile .cap button,.tile .cap a{display:none;background:#000a}
+.tile:hover .cap button,.tile:hover .cap a,.tile:focus-within .cap button,.tile:focus-within .cap a{display:inline-block}
+.tile:hover .cap .name{max-width:30%}
 .tile .swap{position:absolute;inset:auto 0 0 0;z-index:2;opacity:0;transition:opacity .15s;background:#000c}
 .tile:hover .swap,.tile:focus-within .swap{opacity:1}
 .tile.audio .cap .name::after{content:" 🔊";font-size:13px}
@@ -223,10 +224,10 @@ footer .btn{padding:5px 10px}
 footer{font-size:14px}
 #note{font-size:15px!important}
 /* ---- 속보 카드 (스테이지 위) ---- */
-#breakCard{position:absolute;inset:auto 18px 18px 18px;z-index:5;background:linear-gradient(90deg,#3a0d0d,#1a0b0b 70%);border:1px solid #6b1a1a;border-left:6px solid var(--live);border-radius:4px;padding:16px 20px 14px;display:flex;flex-direction:column;gap:6px;box-shadow:0 18px 50px #000b;cursor:pointer;animation:cardIn .55s cubic-bezier(.2,.8,.2,1)}
+#breakCard{position:relative;flex:none;margin:0 18px 14px;z-index:5;background:linear-gradient(90deg,#3a0d0d,#1a0b0b 70%);border:1px solid #6b1a1a;border-left:6px solid var(--live);border-radius:4px;padding:16px 20px 14px;display:flex;flex-direction:column;gap:6px;box-shadow:0 18px 50px #000b;cursor:pointer;animation:cardIn .55s cubic-bezier(.2,.8,.2,1)}
 #breakCard .bt{display:flex;align-items:center;gap:10px;font-family:var(--display);font-weight:700;letter-spacing:.12em;color:#fff;font-size:15px}
 #breakCard .bt i{width:9px;height:9px;border-radius:50%;background:var(--live);animation:pulse 1s infinite}
-#breakCard h3{margin:0;font-size:clamp(20px,2.1vw,34px);line-height:1.25;text-wrap:balance}
+#breakCard h3{margin:0;font-size:clamp(18px,1.8vw,30px);line-height:1.25;text-wrap:balance}
 #breakCard .bm{font-family:var(--mono);font-size:13px;color:var(--dim)}
 #breakCard .bp{height:3px;background:#ffffff1a;border-radius:2px;overflow:hidden;margin-top:4px}
 #breakCard .bp b{display:block;height:100%;background:var(--live);animation:drain var(--t,20s) linear forwards}
@@ -284,7 +285,7 @@ footer{font-size:14px}
   #grid > .tile{aspect-ratio:16/9}
   #grid > .tile.audio,#grid > .tile.pinned{grid-column:1/-1}
   /* 터치는 마우스 올리기가 없으니 버튼은 늘 보이게, 링크 바꾸기 칸만 숨김 */
-  .tile .cap button,.tile .cap a{opacity:1;padding:4px 8px;font-size:13px}
+  .tile .cap button,.tile .cap a{display:inline-block;padding:4px 8px;font-size:13px}
   .tile .cap .pin,.tile .cap .toWin{display:none}
   .tile .swap{display:none}
   .tile .cap .name{font-size:14px}
@@ -998,6 +999,7 @@ function showView(i){
   document.querySelectorAll("#viewTabs button").forEach((b,k)=>b.classList.toggle("on",k===viewIdx));
   viewStart=Date.now();
   playView(document.getElementById(VIEWS[viewIdx][0]));
+  if (typeof fitView==="function") requestAnimationFrame(fitView);
 }
 VIEWS.forEach(([id,label],k)=>{ const b=document.createElement("button"); b.textContent=label;
   b.onclick=()=>{ showView(k); viewHold=Date.now()+60000; }; document.getElementById("viewTabs").appendChild(b); });
@@ -1207,6 +1209,21 @@ const _dv2=drawViews; drawViews=function(){ _dv2(); const d=lastRes; if(!d) retu
   raceList(document.getElementById("senList"), d.senate?.states||[]);
   raceList(document.getElementById("govList"), d.governor?.states||[]);
 };
+
+// ---------- 인포그래픽이 칸보다 크면 비율 그대로 줄여서 잘리지 않게 ----------
+function fitView(){
+  if (innerWidth<=900) return;
+  const v=document.getElementById(VIEWS[viewIdx][0]); if(!v || v.hidden) return;
+  v.style.zoom=1;
+  for (let k=0;k<3;k++){
+    const z=+v.style.zoom||1;
+    const r=Math.min(v.clientHeight/v.scrollHeight, v.clientWidth/v.scrollWidth);
+    if (r>=0.995) break;
+    v.style.zoom=Math.max(0.35, z*r*0.99);
+  }
+}
+setInterval(fitView, 800);
+window.addEventListener("resize", ()=>{ clearTimeout(window._fv); window._fv=setTimeout(fitView,150); });
 renderAll(); renderSeats(); markPin(); drawMeters(); playView(document.getElementById(VIEWS[viewIdx][0]));
 </script>
 </body>
