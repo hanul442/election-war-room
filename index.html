@@ -49,6 +49,8 @@ main{flex:1;display:grid;grid-template-columns:minmax(0,1fr) 340px;min-height:0}
 .cap button,.cap a{background:none;border:1px solid var(--line);border-radius:3px;padding:2px 7px;font-size:12px;text-decoration:none}
 .tile.audio .snd{border-color:var(--focus);color:var(--focus)}
 .tile.pinned{border-color:var(--live)}
+#grid.focus{grid-auto-flow:dense}
+#grid.focus .tile.pinned{grid-column:1 / span 3;grid-row:1 / span 3;order:-1}
 .tile.pinned .pin{border-color:var(--live);color:var(--live)}
 .swap{display:flex;gap:4px;padding:4px 6px;background:var(--panel)}
 .swap input{flex:1;min-width:0;background:var(--bg);border:1px solid var(--line);border-radius:3px;padding:3px 6px;font-size:12px}
@@ -98,6 +100,17 @@ footer .btn{padding:5px 10px}
 #news .meta{display:block;font-size:11px;color:var(--dim);margin-top:2px;font-family:var(--mono)}
 #news .brk{color:#fff;background:var(--live);font-size:10px;padding:0 5px;border-radius:2px;margin-right:6px;font-family:var(--display);letter-spacing:.08em}
 #news a.fresh{background:#2a1414}
+.chips{display:grid;grid-template-columns:repeat(auto-fill,minmax(34px,1fr));gap:3px}
+.chip{font-family:var(--mono);font-size:11px;text-align:center;padding:3px 0;border-radius:2px;background:var(--panel2);color:var(--dim);border:1px solid transparent;cursor:default}
+.chip.wD{background:var(--dem);color:#fff}.chip.wR{background:var(--rep);color:#fff}.chip.wO{background:var(--oth);color:#fff}
+.chip.lD{border-color:var(--dem);color:var(--fg);background:var(--dem-soft)}.chip.lR{border-color:var(--rep);color:var(--fg);background:var(--rep-soft)}.chip.lO{border-color:var(--oth);color:var(--fg)}
+.chip.flip{box-shadow:inset 0 -3px 0 var(--focus)}
+.legend{font-size:11px;color:var(--dim)}
+.badge{font-family:var(--display);font-weight:700;font-size:11px;letter-spacing:.1em;padding:1px 6px;border-radius:2px;flex-shrink:0}
+.badge.live{background:var(--live);color:#fff;animation:pulse 1.2s infinite}
+.badge.vod{background:var(--panel2);color:var(--dim);border:1px solid var(--line)}
+.badge.soon{background:#3a2a0a;color:var(--focus)}
+@media (prefers-reduced-motion:reduce){.badge.live{animation:none}}
 #note{padding:8px 16px;background:#3a2a0a;color:var(--focus);font-size:13px}
 @media (max-width:900px){
   body{height:auto}
@@ -131,6 +144,10 @@ footer .btn{padding:5px 10px}
   <section id="grid" aria-label="라이브 멀티뷰"></section>
 
   <aside id="seats" aria-label="의석 상황판">
+    <div class="src">
+      <label class="status"><input type="checkbox" id="autoSeats"> NBC 집계로 자동 채우기</label>
+      <div class="status" id="resTime">결과 파일을 불러오는 중이에요…</div>
+    </div>
     <div class="chamber" data-ch="house">
       <div class="chhead"><h2>하원 House</h2><small>435석 · 과반 218</small></div>
       <div class="meterRow"><span>확정</span><div class="meter" data-k="called"></div></div>
@@ -151,6 +168,14 @@ footer .btn{padding:5px 10px}
         <tbody></tbody>
       </table>
       <div class="status"></div>
+      <div class="chips" id="senChips"></div>
+    </div>
+
+    <div class="chamber">
+      <div class="chhead"><h2>주지사 Governor</h2><small id="govSub">36개 주</small></div>
+      <div class="status" id="govSum"></div>
+      <div class="chips" id="govChips"></div>
+      <div class="legend">진한 색 = 당선 확정 · 테두리만 = 앞서는 중 · 노란 밑줄 = 정당 교체</div>
     </div>
 
     <div class="src">
@@ -184,6 +209,11 @@ footer .btn{padding:5px 10px}
         <button class="btn primary" id="ytGo">찾기</button></div>
       <label class="status"><input type="checkbox" id="ytAuto"> 10분마다 자동으로 다시 찾기</label>
       <label class="status"><input type="checkbox" id="watch"> 중요한 순간 자동으로 소리 고정</label>
+      <label class="status"><input type="checkbox" id="focusOn"> 고정되면 그 화면을 크게, 나머지는 작게</label>
+      <label class="status">원래 화면으로 돌아가기까지
+        <select id="pinMin" style="background:var(--bg);border:1px solid var(--line);border-radius:3px;color:var(--fg)">
+          <option value="3">3분</option><option value="5">5분</option><option value="10">10분</option><option value="15">15분</option>
+        </select></label>
       <div class="status" id="watchMsg">시청자 수가 갑자기 뛰거나 방송 제목에 연설·승리 선언 같은 말이 새로 붙으면 그 화면 소리로 바꾸고 5분간 고정해요. 1분마다 확인해요.</div>
       <div class="status" id="ytMsg">키는 이 브라우저에만 저장돼요. 지금 라이브 중이고 임베드가 허용된 영상만 보여줘요.</div>
       <div id="ytList" style="display:flex;flex-direction:column;gap:8px"></div>
@@ -260,6 +290,11 @@ function note(msg){ const n=document.getElementById("note"); n.textContent=msg; 
 
 const grid = document.getElementById("grid");
 function layout(n){
+  if (grid.classList.contains("focus")){
+    // 큰 화면 3x3 + 오른쪽 세로줄 3칸 + 아래로 4칸씩
+    const rest=Math.max(0,n-1-3), rows=3+Math.ceil(rest/4);
+    grid.style.gridTemplateColumns="repeat(4,1fr)"; grid.style.gridTemplateRows=`repeat(${rows},1fr)`; return;
+  }
   const w = grid.clientWidth, h = grid.clientHeight; let best={c:1,r:n,s:0};
   for (let c=1;c<=n;c++){ const r=Math.ceil(n/c), s=Math.min(w/c,(h/r)*16/9); if (s>best.s) best={c,r,s}; }
   grid.style.gridTemplateColumns=`repeat(${best.c},1fr)`; grid.style.gridTemplateRows=`repeat(${best.r},1fr)`;
@@ -270,7 +305,7 @@ function renderGrid(){
   if (!live.length){ grid.innerHTML=`<div style="display:grid;place-items:center;color:var(--dim)">멀티뷰에 띄울 방송이 없어요. 하단에서 링크를 추가하세요.</div>`; layout(1); return; }
   live.forEach((c,i)=>{
     const t=document.createElement("div"); t.className="tile"+(S.audio===c.name?" audio":"")+(S.pin===c.name?" pinned":""); t.dataset.name=c.name;
-    t.innerHTML=`<div class="cap"><span class="name"></span>
+    t.innerHTML=`<div class="cap"><span class="badge" hidden></span><span class="name"></span>
         <button class="snd" title="이 화면 소리 켜기 (${i+1})">소리</button>
         <button class="pin" title="이 화면 소리 고정 (자동 전환이 넘어가지 않음)">${S.pin===c.name?"고정 해제":"고정"}</button>
         <a target="_blank" rel="noopener" title="유튜브에서 열기">유튜브↗</a>
@@ -278,6 +313,8 @@ function renderGrid(){
       <iframe allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>
       <form class="swap"><input placeholder="다른 라이브 링크로 바꾸기" aria-label="${c.name} 영상 바꾸기"><button class="btn" style="padding:2px 8px">적용</button></form>`;
     t.querySelector(".name").textContent=c.name;
+    t.dataset.vid = parse(c.src)?.type==="video" ? parse(c.src).id : "";
+    if (parse(c.src)?.type==="channel") liveState["ch:"+c.name]="live";
     t.querySelector("a").href=watchUrl(c.src);
     const f=t.querySelector("iframe");
     f.src=embedUrl(c.src, S.audio!==c.name);
@@ -345,7 +382,7 @@ function renderSeats(){
           <td><input type="number" min="0" max="${conf.total}" id="${key}-${p.k}-proj" aria-label="${p.name} 예측"></td>`;
         tr.querySelectorAll("input").forEach(inp=>{
           const kind=inp.id.split("-")[2]; inp.value=d[p.k][kind]||"";
-          inp.oninput=()=>{ d[p.k][kind]=Math.max(0,parseInt(inp.value)||0); S.stamp=Date.now(); save(); drawMeters(); };
+          inp.oninput=()=>{ if(S.autoSeats){ S.autoSeats=false; document.getElementById("autoSeats").checked=false; } d[p.k][kind]=Math.max(0,parseInt(inp.value)||0); S.stamp=Date.now(); save(); drawMeters(); };
         });
         tb.appendChild(tr);
       });
@@ -470,15 +507,22 @@ async function findLive(){
 let pinT=null;
 function forceAudio(name){ S.audio=null; setAudio(name); }
 function pinTo(name, minutes, why){
-  S.pin=name; save(); forceAudio(name); clearTimeout(pinT);
+  S.pin=name; S.pinUntil = minutes ? Date.now()+minutes*60000 : null; save(); forceAudio(name); clearTimeout(pinT);
   if (minutes) pinT=setTimeout(unpin, minutes*60000);
   note(`${name} 소리 고정 · ${why}${minutes?` · ${minutes}분 뒤 자동 해제`:""}`);
   markPin();
 }
 function unpin(){ S.pin=null; save(); clearTimeout(pinT); note(""); markPin(); bumpRotate(); }
 // 화면을 다시 불러오지 않고 표시만 바꾼다 (라이브가 끊기지 않게)
-function markPin(){ grid.querySelectorAll(".tile").forEach(t=>{ const on=t.dataset.name===S.pin; t.classList.toggle("pinned",on); t.querySelector(".pin").textContent=on?"고정 해제":"고정"; }); }
+function markPin(){
+  grid.querySelectorAll(".tile").forEach(t=>{ const on=t.dataset.name===S.pin; t.classList.toggle("pinned",on); t.querySelector(".pin").textContent=on?"고정 해제":"고정"; });
+  const live=S.channels.filter(c=>c.embed);
+  grid.classList.toggle("focus", !!S.pin && S.focus!==false && live.length>1);
+  layout(live.length);
+}
 if (S.pin && !S.channels.some(c=>c.embed&&c.name===S.pin)) S.pin=null;
+// 새로고침 후에도 자동 고정 시간이 지났으면 풀고, 남았으면 남은 시간 뒤에 푼다
+if (S.pin && S.pinUntil){ const left=S.pinUntil-Date.now(); if (left<=0) S.pin=null; else pinT=setTimeout(unpin,left); }
 
 // ---------- 중요한 순간 감지 ----------
 // 신호 1: 동시 시청자 수가 최근 기준보다 30% 이상, 2,000명 이상 뛰면
@@ -514,7 +558,7 @@ async function checkMoments(){
     h.title = title;
   }
   watchMsg.textContent=`마지막 확인 ${new Date().toLocaleTimeString("ko-KR",{hour:"2-digit",minute:"2-digit"})} · 화면 ${d.items?.length||0}개 감시 중`;
-  if (best && S.pin!==best.name) pinTo(best.name, 5, best.why);
+  if (best && S.pin!==best.name) pinTo(best.name, +(S.pinMin||5), best.why);
 }
 startWatch();
 
@@ -569,7 +613,87 @@ async function loadNews(){
   firstNews=false;
 }
 loadNews(); setInterval(loadNews, 60000);
-renderAll(); renderSeats();
+
+// ---------- LIVE / 영상 표시 ----------
+const liveState={};  // videoId 또는 "ch:이름" -> live | vod | soon
+function applyBadges(){
+  grid.querySelectorAll(".tile").forEach(t=>{
+    const st = liveState[t.dataset.vid] || liveState["ch:"+t.dataset.name];
+    const b=t.querySelector(".badge"); if(!b) return;
+    b.hidden=!st; b.className="badge "+(st||"");
+    b.textContent = st==="live"?"● LIVE":st==="soon"?"예정":st==="vod"?"영상":"";
+  });
+}
+// 플레이어가 보내는 정보로 1차 판단 (키 없이도 동작)
+window.addEventListener("message", e=>{
+  if (!/youtube(-nocookie)?\.com$/.test(new URL(e.origin||"http://x").hostname)) return;
+  let d; try { d = typeof e.data==="string" ? JSON.parse(e.data) : e.data } catch(_) { return; }
+  const vd = d?.info?.videoData; if (!vd?.video_id) return;
+  if (typeof vd.isLive==="boolean"){ liveState[vd.video_id]= vd.isLive?"live":"vod"; applyBadges(); }
+});
+// 유튜브 API로 확실하게 확인
+async function pollLive(){
+  const key=(document.getElementById("ytKey").value||"").trim(); if(!key) return;
+  const ids=S.channels.filter(c=>c.embed && parse(c.src)?.type==="video").map(c=>parse(c.src).id).slice(0,50);
+  if(!ids.length) return;
+  try{ const r=await fetch(`https://www.googleapis.com/youtube/v3/videos?part=snippet&id=${ids.join(",")}&key=${encodeURIComponent(key)}`); if(!r.ok) return;
+    const d=await r.json();
+    for (const it of d.items||[]){ const b=it.snippet?.liveBroadcastContent; liveState[it.id]= b==="live"?"live":b==="upcoming"?"soon":"vod"; }
+    applyBadges();
+  }catch(e){}
+}
+pollLive(); setInterval(pollLive, 120000);
+const _rg=renderGrid; renderGrid=function(){ _rg(); applyBadges(); if (typeof markPin==="function") markPin(); };
+
+// ---------- NBC 결과 자동 반영 ----------
+const autoBox=document.getElementById("autoSeats");
+if (S.autoSeats===undefined) S.autoSeats=true;
+autoBox.checked=S.autoSeats;
+autoBox.onchange=()=>{ S.autoSeats=autoBox.checked; save(); loadResults(); };
+const PN={D:"민주",R:"공화",O:"기타"};
+function chipHtml(r){
+  const lead = r.cands.slice().sort((a,b)=>b.pct-a.pct)[0];
+  const cls = r.winner ? "w"+r.winner : (lead && r.in>0 ? "l"+lead.party : "");
+  const flip = r.cands.some(c=>c.flip && c.party===r.winner);
+  const tip = `${r.name} · 개표 ${r.in}% · ` + r.cands.map(c=>`${c.name}(${PN[c.party]}) ${c.pct}%`).join(", ") + (r.winner?` · ${PN[r.winner]} 당선`:" · 미확정");
+  const el=document.createElement("span"); el.className=`chip ${cls}${flip?" flip":""}`; el.title=tip; el.textContent=r.st; return el;
+}
+async function loadResults(){
+  let d; try{ const r=await fetch("results.json?t="+Date.now(),{cache:"no-store"}); if(!r.ok) throw 0; d=await r.json(); }
+  catch(e){ document.getElementById("resTime").textContent="결과 파일을 아직 못 찾았어요. 몇 분 뒤 다시 불러와요."; return; }
+  const ago2=t=>{ const m=Math.round((Date.now()-new Date(t))/60000); return m<1?"방금":m<60?`${m}분 전`:`${Math.floor(m/60)}시간 전`; };
+  document.getElementById("resTime").textContent=`${d.source} · ${ago2(d.updated)} 수집`;
+  if (S.autoSeats){
+    for (const ch of ["house","senate"]){
+      const src=d[ch]; if(!src) continue;
+      for (const k of ["D","R","O"]){
+        S.seats[ch][k].called = src.parties[k].called;
+        // 하원은 NBC 예측 모델의 최종 추정치에서 이미 확정된 의석을 뺀 만큼을 예측으로 쌓는다
+        S.seats[ch][k].proj = (ch==="house" && src.model && src.model[k]!=null) ? Math.max(0, src.model[k]-src.parties[k].called) : 0;
+      }
+    }
+    S.srcCalled=d.source; S.srcProj = d.house?.model ? "NBC 하원 예측 모델" : ""; S.stamp=Date.parse(d.updated);
+    srcC.value=S.srcCalled; srcP.value=S.srcProj; save();
+    document.querySelectorAll(".chamber[data-ch] tbody input").forEach(inp=>{ const [ch,k,kind]=inp.id.split("-"); inp.value=S.seats[ch][k][kind]||""; });
+    drawMeters();
+  }
+  if (d.senate?.states){ const box=document.getElementById("senChips"); box.innerHTML=""; d.senate.states.forEach(r=>box.appendChild(chipHtml(r))); }
+  if (d.governor){
+    const g=d.governor, box=document.getElementById("govChips"); box.innerHTML="";
+    g.states.forEach(r=>box.appendChild(chipHtml(r)));
+    document.getElementById("govSub").textContent=`${g.races}개 주`;
+    const left=g.races-g.won.D-g.won.R-g.won.O;
+    document.getElementById("govSum").innerHTML=`민주 <b>${g.won.D}</b> · 공화 <b>${g.won.R}</b>${g.won.O?` · 기타 <b>${g.won.O}</b>`:""} · 미확정 <b>${left}</b>`;
+  }
+}
+loadResults(); setInterval(loadResults, 60000);
+
+// ---------- 크게 보기 설정 ----------
+const focusOn=document.getElementById("focusOn"), pinMin=document.getElementById("pinMin");
+focusOn.checked = S.focus!==false; pinMin.value=String(S.pinMin||5);
+focusOn.onchange=()=>{ S.focus=focusOn.checked; save(); markPin(); };
+pinMin.onchange=()=>{ S.pinMin=+pinMin.value; save(); };
+renderAll(); renderSeats(); markPin();
 </script>
 </body>
 </html>

@@ -1,4 +1,4 @@
-name: Update election news
+name: Update election news and results
 
 on:
   schedule:
@@ -21,9 +21,10 @@ jobs:
         with:
           python-version: "3.12"
       - run: python scripts/fetch_news.py
+      - run: python scripts/fetch_results.py
       - name: Commit if changed
         run: |
           git config user.name "news-bot"
           git config user.email "news-bot@users.noreply.github.com"
-          git add news.json
+          git add news.json results.json
           git diff --cached --quiet || (git commit -m "Update news" && git pull --rebase && git push)
