@@ -371,7 +371,7 @@ function openAll(){
 
 // ---------- 의석 상황판 ----------
 function renderSeats(){
-  document.querySelectorAll(".chamber").forEach(box=>{
+  document.querySelectorAll(".chamber[data-ch]").forEach(box=>{
     const key=box.dataset.ch, conf=CHAMBERS[key], d=S.seats[key];
     const tb=box.querySelector("tbody");
     if (!tb.children.length){
@@ -391,7 +391,7 @@ function renderSeats(){
   drawMeters();
 }
 function drawMeters(){
-  document.querySelectorAll(".chamber").forEach(box=>{
+  document.querySelectorAll(".chamber[data-ch]").forEach(box=>{
     const key=box.dataset.ch, conf=CHAMBERS[key], d=S.seats[key], T=conf.total;
     const pct=n=>Math.max(0,n)/T*100;
     // 확정 막대: D는 왼쪽, R은 오른쪽부터 채워서 가운데 과반선과 비교
