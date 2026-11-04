@@ -264,6 +264,51 @@ footer{font-size:14px}
   #stage{grid-area:1/1/2/3!important}
   #seats{border-left:0;border-top:1px solid var(--line)}
 }
+/* ---- 모바일·폴드 (900px 이하) ---- */
+@media (max-width:900px){
+  html,body{overflow:auto;height:auto}
+  body{font-size:15px}
+  header{gap:10px;padding:8px max(12px,env(safe-area-inset-left,0px)) 8px max(12px,env(safe-area-inset-right,0px))}
+  .brand{font-size:19px}
+  .clocks{gap:12px}
+  .clocks .clock:nth-child(2){display:none}
+  .clock b{font-size:16px}
+  .tools{margin-left:0;width:100%;overflow-x:auto;flex-wrap:nowrap;padding-bottom:2px}
+  .tools .btn{flex-shrink:0;padding:8px 12px;font-size:14px}
+  #ticker{height:40px;font-size:15px}
+  main{display:block}
+  #grid{display:grid!important;height:auto!important;grid-template-columns:1fr 1fr!important;grid-template-rows:none!important;gap:6px;padding:6px}
+  #grid > .tile,#grid > #stage{position:relative!important;left:auto!important;top:auto!important;width:auto!important;height:auto!important}
+  #stage{grid-column:1/-1;grid-area:auto!important;min-height:min(78vh,620px)}
+  #stage #seats{zoom:1!important;padding:12px 14px;overflow:visible}
+  #grid > .tile{aspect-ratio:16/9}
+  #grid > .tile.audio,#grid > .tile.pinned{grid-column:1/-1}
+  /* 터치는 마우스 올리기가 없으니 버튼은 늘 보이게, 링크 바꾸기 칸만 숨김 */
+  .tile .cap button,.tile .cap a{opacity:1;padding:4px 8px;font-size:13px}
+  .tile .cap .pin,.tile .cap .toWin{display:none}
+  .tile .swap{display:none}
+  .tile .cap .name{font-size:14px}
+  #viewTabs{overflow-x:auto;flex-wrap:nowrap}
+  #viewTabs button{flex-shrink:0;font-size:14px;padding:7px 12px}
+  .stageHead{flex-direction:column;align-items:flex-start;gap:2px}
+  .stageHead h1{font-size:26px}
+  #v-seats,#v-hemi{grid-template-columns:1fr!important;gap:22px}
+  .score b{font-size:56px}
+  #stage .status{font-size:15px}
+  .mapWrap{grid-template-columns:1fr;gap:14px}
+  .mapWrap .tmap{width:100%;height:auto;max-width:none;aspect-ratio:12/8}
+  .mapWrap .tmap span{font-size:clamp(9px,2.6vw,14px)}
+  .raceList{max-height:none}
+  .raceList .rr{grid-template-columns:40px 1fr;row-gap:2px}
+  .raceList .rr .pc{grid-column:2;font-size:13px}
+  #v-news #news a{font-size:17px}
+  #breakCard{inset:auto 10px 10px 10px;padding:12px 14px}
+  #breakCard h3{font-size:20px}
+  footer{flex-wrap:nowrap!important;overflow-x:auto;padding:10px 12px}
+  footer > *{flex-shrink:0}
+  #settings{left:max(10px,env(safe-area-inset-left,0px));right:max(10px,env(safe-area-inset-right,0px));width:auto;top:calc(env(safe-area-inset-top,0px) + 10px);max-height:calc(100vh - 20px)}
+  #settings input,#settings select{font-size:16px}
+}
 </style>
 </head>
 <body>
