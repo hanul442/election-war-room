@@ -313,7 +313,7 @@ footer{font-size:14px}
   #grid > .tile.audio,#grid > .tile.pinned{grid-column:1/-1}
   /* 터치는 마우스 올리기가 없으니 버튼은 늘 보이게, 링크 바꾸기 칸만 숨김 */
   .tile .cap button,.tile .cap a{display:inline-block;padding:4px 8px;font-size:13px}
-  .tile .cap .pin,.tile .cap .toWin{display:none}
+  .tile .cap .toWin{display:none}
   .tile .swap{display:none}
   .tile .cap .name{font-size:14px}
   #viewTabs{overflow-x:auto;flex-wrap:nowrap}
@@ -537,7 +537,11 @@ function layout(){
     const score=Math.min(minTile, stW*stH/6);   // 칸들도 크게, 스테이지도 너무 작지 않게
     if (!best || score>best.score) best={nb,ns,bw,bh,sw,sh,stW,stH,score};
   }
-  if (!best) best={nb:N,ns:0,bw:(W-(N-1)*g)/N,bh:(W-(N-1)*g)/N*9/16,sw:0,sh:0,stW:W,stH:H-((W-(N-1)*g)/N*9/16)-g};
+  if (!best){
+    if (!N || W<=0) best={nb:0,ns:0,bw:0,bh:0,sw:0,sh:0,stW:Math.max(0,W),stH:Math.max(0,H)};
+    else best={nb:N,ns:0,bw:(W-(N-1)*g)/N,bh:(W-(N-1)*g)/N*9/16,sw:0,sh:0,stW:W,stH:H-((W-(N-1)*g)/N*9/16)-g};
+  }
+  best.stH=Math.max(0,best.stH);
   const rects=[];
   for (let i=0;i<best.ns;i++) rects.push({x:g+best.stW+g, y:g+i*(best.sh+g), w:best.sw, h:best.sh});
   for (let i=0;i<best.nb;i++) rects.push({x:g+i*(best.bw+g), y:g+best.stH+g, w:best.bw, h:best.bh});
@@ -572,7 +576,6 @@ function buildTile(c,i){
       <form class="swap"><input placeholder="다른 라이브 링크로 바꾸기" aria-label="${c.name} 영상 바꾸기"><button class="btn" style="padding:2px 8px">적용</button></form>`;
     t.querySelector(".name").textContent=c.name;
     t.dataset.vid = parse(c.src)?.type==="video" ? parse(c.src).id : "";
-    if (parse(c.src)?.type==="channel") liveState["ch:"+c.name]="live";
     t.querySelector("a").href=watchUrl(c.src);
     const f=t.querySelector("iframe");
     f.src=embedUrl(c.src, S.audio!==c.name);
@@ -583,7 +586,7 @@ function buildTile(c,i){
     t.querySelector(".toWin").onclick=()=>{ c.embed=false; save(); renderAll(); };
     t.querySelector(".swap").onsubmit=e=>{ e.preventDefault(); const inp=e.target.querySelector("input");
       if (!parse(inp.value)){ inp.value=""; inp.placeholder="유튜브 영상 주소를 넣어주세요"; return; }
-      c.src=inp.value.trim(); save(); renderGrid(); };
+      c.src=inp.value.trim(); save(); renderAll(); };
     if (S.sel===c.name) t.classList.add("sel");
     t.querySelector(".name").onclick=()=>{ S.sel = S.sel===c.name?null:c.name; save(); grid.querySelectorAll(".tile").forEach(x=>x.classList.toggle("sel",x.dataset.name===S.sel)); };
     t.querySelector(".name").title="눌러서 선택한 뒤 아래 대기 화면을 누르면 이 자리로 바꿔요";
@@ -601,13 +604,20 @@ window.addEventListener("message", e=>{
   if (!ch) return;
   const next = takeFromPool();
   if (next){
-    const was=ch.name; ch.src=next.id; ch.name=uniqName(next.ch); save();
+    const was=ch.name; ch.src=next.id; ch.name=uniqName(next.ch);
+    for (const k of ["audio","pin","sel"]) if (S[k]===was) S[k]=ch.name;
+    save();
     note(`${was} 대신 ${ch.name} 선거 라이브로 바꿨어요.`);
   } else {
     ch.embed=false; save(); moved.push(ch.name);
     note(`${moved.join(", ")}: 임베드가 막혔거나 지금 라이브가 없어서 아래 줄로 옮겼어요.`);
   }
-  clearTimeout(window._rg); window._rg=setTimeout(renderAll, 400);
+  if (ch.embed && tile){
+    // 대체 영상으로 바꾼 칸만 다시 만든다 (다른 화면은 끊기지 않게)
+    const i=[...grid.querySelectorAll(".tile")].indexOf(tile); playPos.delete(e.source);
+    const t=buildTile(ch,i); ["left","top","width","height"].forEach(k=>t.style[k]=tile.style[k]);
+    tile.replaceWith(t); applyBadges(); renderLauncher(); markRot(); sanitize();
+  } else { clearTimeout(window._rg); window._rg=setTimeout(renderAll, 400); }
 });
 function setAudio(name){
   S.audio = S.audio===name?null:name; save();
@@ -696,12 +706,12 @@ srcC.oninput=()=>{S.srcCalled=srcC.value; save();}; srcP.oninput=()=>{S.srcProj=
 function renderAll(){ renderGrid(); renderLauncher(); }
 document.getElementById("openAll").onclick=openAll;
 document.getElementById("muteAll").onclick=()=>{ S.audio=null; setAudio(null); };
-document.getElementById("reload").onclick=renderGrid;
+document.getElementById("reload").onclick=()=>renderAll();
 document.getElementById("resetCh").onclick=()=>{ S.channels=DEFAULT_CH.map(c=>({...c})); moved.length=0; note(""); save(); renderAll(); };
 document.getElementById("addForm").onsubmit=e=>{ e.preventDefault();
   const n=document.getElementById("addName"), s=document.getElementById("addSrc");
   if(!parse(s.value)){ s.value=""; s.placeholder="링크를 확인해주세요"; s.focus(); return; }
-  S.channels.push({name:n.value.trim()||"Custom", src:s.value.trim(), embed:true}); n.value=""; s.value=""; save(); renderAll(); };
+  S.channels.push({name:uniqName(n.value.trim()||"Custom"), src:s.value.trim(), embed:true}); n.value=""; s.value=""; save(); renderAll(); };
 document.addEventListener("keydown",e=>{
   if (e.target.tagName==="INPUT") return;
   const live=visibleCh();
@@ -709,6 +719,7 @@ document.addEventListener("keydown",e=>{
   if (e.key==="m"||e.key==="M"){ S.audio=null; setAudio(null); }
 });
 window.addEventListener("resize",layout);
+if (window.ResizeObserver) new ResizeObserver(()=>layout()).observe(grid);
 if (location.protocol==="file:") note("파일을 더블클릭으로 열면 유튜브가 재생을 막아요. GitHub Pages 주소로 열어주세요.");
 function tick(){ const now=new Date(), f=tz=>now.toLocaleTimeString("en-GB",{timeZone:tz,hour:"2-digit",minute:"2-digit",second:"2-digit"});
   tET.textContent=f("America/New_York"); tPT.textContent=f("America/Los_Angeles"); tKST.textContent=f("Asia/Seoul"); }
@@ -740,7 +751,7 @@ document.addEventListener("drop",e=>{
 });
 function addVideo(id,name){
   if(S.channels.some(c=>parse(c.src)?.id===id)){ note(`${name}: 이미 멀티뷰에 있어요.`); return; }
-  S.channels.push({name, src:id, embed:true}); save(); renderAll(); note(`${name} 추가했어요.`);
+  name=uniqName(name); S.channels.push({name, src:id, embed:true}); save(); renderAll(); note(`${name} 추가했어요.`);
 }
 
 // ---------- 유튜브 라이브 찾기 (YouTube Data API v3) ----------
@@ -830,7 +841,7 @@ async function checkMoments(){
     h.title = title;
   }
   watchMsg.textContent=`마지막 확인 ${new Date().toLocaleTimeString("ko-KR",{hour:"2-digit",minute:"2-digit"})} · 화면 ${d.items?.length||0}개 감시 중`;
-  if (best && S.pin!==best.name) pinTo(best.name, +(S.pinMin||5), best.why);
+  if (best && S.pin!==best.name) bringToStage(S.channels.find(c=>c.name===best.name), best.why);
 }
 startWatch();
 
@@ -903,7 +914,10 @@ window.addEventListener("message", e=>{
   if (!/youtube(-nocookie)?\.com$/.test(new URL(e.origin||"http://x").hostname)) return;
   let d; try { d = typeof e.data==="string" ? JSON.parse(e.data) : e.data } catch(_) { return; }
   const vd = d?.info?.videoData; if (!vd?.video_id) return;
-  if (typeof vd.isLive==="boolean"){ liveState[vd.video_id]= vd.isLive?"live":"vod"; applyBadges(); }
+  if (typeof vd.isLive==="boolean"){ liveState[vd.video_id]= vd.isLive?"live":"vod";
+    const t=[...grid.querySelectorAll(".tile")].find(x=>x.querySelector("iframe")?.contentWindow===e.source);
+    if (t && !t.dataset.vid) liveState["ch:"+t.dataset.name]= vd.isLive?"live":"vod";
+    applyBadges(); }
 });
 // 유튜브 API로 확실하게 확인
 async function pollLive(){
@@ -917,7 +931,10 @@ async function pollLive(){
   }catch(e){}
 }
 pollLive(); setInterval(pollLive, 120000);
-const _rg=renderGrid; renderGrid=function(){ _rg(); applyBadges(); if (typeof markPin==="function") markPin(); };
+function sanitize(){ const v=new Set(visibleCh().map(c=>c.name));
+  if(S.pin&&!v.has(S.pin)){ S.pin=null; S.pinUntil=null; clearTimeout(pinT); }
+  if(S.sel&&!v.has(S.sel)) S.sel=null; if(S.audio&&!v.has(S.audio)) S.audio=null; save(); }
+const _rg=renderGrid; renderGrid=function(){ sanitize(); _rg(); applyBadges(); if (typeof markPin==="function") markPin(); };
 
 // ---------- NBC 결과 자동 반영 ----------
 const autoBox=document.getElementById("autoSeats");
@@ -1202,19 +1219,23 @@ function channelFor(source){
   return embed.find(c=>/AP/.test(c.name)) || visibleCh()[0];
 }
 function bringToStage(ch, why){
+  if(!ch) return;
+  ch.embed=true;
   const vis=visibleCh();
-  if (!vis.includes(ch)){
+  if (vis.includes(ch) && !grid.querySelector(`.tile[data-name="${CSS.escape(ch.name)}"]`)) renderAll();
+  else if (!vis.includes(ch)){
     // 대기 화면에 있던 방송이면 순환 칸 자리로 데려온다 (다른 칸은 다시 불러오지 않음)
     let i=rotSlot(); if(i<0) i=vis.length-1;
     const out=vis[i];
     S.channels.splice(S.channels.indexOf(ch),1);
     S.channels.splice(S.channels.indexOf(out),1,ch);
     S.channels.push(out); save();
-    const old=[...grid.querySelectorAll(".tile")][i]; const t=buildTile(ch,i);
-    ["left","top","width","height"].forEach(k=>t.style[k]=old.style[k]);
-    old.replaceWith(t); applyBadges(); renderLauncher(); markRot();
+    const old=[...grid.querySelectorAll(".tile")][i];
+    if(!old) renderAll();
+    else { const t=buildTile(ch,i); ["left","top","width","height"].forEach(k=>t.style[k]=old.style[k]);
+      old.replaceWith(t); applyBadges(); renderLauncher(); markRot(); }
   }
-  pinTo(ch.name, +(S.pinMin||5), why);
+  pinTo(ch.name, +(S.pinMin||5), why); sanitize();
 }
 async function findRelatedLive(it){
   if(S.brkLive===false) return;
@@ -1274,7 +1295,7 @@ const _dv2=drawViews; drawViews=function(){ _dv2(); const d=lastRes; if(!d) retu
 
 // ---------- 인포그래픽이 칸보다 크면 비율 그대로 줄여서 잘리지 않게 ----------
 function fitView(){
-  if (innerWidth<=900) return;
+  if (innerWidth<=900){ document.querySelectorAll(".view").forEach(v=>v.style.zoom=""); return; }
   const v=document.getElementById(VIEWS[viewIdx][0]); if(!v || v.hidden) return;
   v.style.zoom=1;
   for (let k=0;k<3;k++){
@@ -1340,9 +1361,9 @@ function benchNext(){
   S.channels.splice(S.channels.indexOf(inn),1);
   S.channels.splice(S.channels.indexOf(out),1,inn);
   S.channels.push(out); save();
-  const old=[...grid.querySelectorAll(".tile")][i]; const t=buildTile(inn,i);
+  const old=[...grid.querySelectorAll(".tile")][i]; if(!old) return renderAll(); const t=buildTile(inn,i);
   ["left","top","width","height","gridArea"].forEach(k=>t.style[k]=old.style[k]);
-  old.replaceWith(t); applyBadges(); renderLauncher(); markRot();
+  old.replaceWith(t); applyBadges(); renderLauncher(); markRot(); sanitize();
 }
 function startBench(){ clearInterval(benchT); if(S.benchSec>0) benchT=setInterval(benchNext, S.benchSec*1000); markRot(); }
 benchSel.onchange=()=>{ S.benchSec=+benchSel.value; save(); startBench(); };
