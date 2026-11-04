@@ -303,6 +303,44 @@ footer{font-size:14px}
 @keyframes sweep{to{transform:translateX(180px)}}
 @media (max-width:900px){#maj .box{grid-template-columns:1fr;gap:20px}#maj .bars{height:8vh}}
 @media (prefers-reduced-motion:reduce){#maj,#maj *{animation:none!important}}
+/* ---- 과반 화면 (스테이지 기본) ---- */
+.majStage{flex:1;min-height:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:18px;align-content:center}
+.majCard{position:relative;overflow:hidden;border-radius:6px;padding:22px 24px;background:linear-gradient(120deg,var(--mc) -40%,var(--panel2) 55%);border:1px solid var(--line);display:flex;flex-direction:column;gap:8px}
+.majCard::before{content:"";position:absolute;inset:0;background:repeating-linear-gradient(115deg,#ffffff0a 0 40px,transparent 40px 80px);animation:sweep 8s linear infinite}
+.majCard .k{position:relative;align-self:flex-start;font-family:var(--display);font-weight:700;letter-spacing:.16em;font-size:14px;background:#fff;color:#000;padding:3px 10px}
+.majCard h3{position:relative;margin:0;font-family:var(--display);font-weight:700;text-transform:uppercase;font-size:clamp(30px,3.6vw,62px);line-height:.95}
+.majCard h3 b{color:var(--mc);filter:brightness(1.35)}
+.majCard .ko{position:relative;font-size:clamp(17px,1.6vw,26px);font-weight:600}
+.majCard .n{position:relative;font-family:var(--display);font-weight:700;font-size:clamp(44px,5vw,90px);line-height:.9;color:var(--fg)}
+.majCard .n span{font-size:16px;color:var(--dim);font-family:var(--body);font-weight:400;margin-left:8px}
+.majCard.wait{background:var(--panel2)}
+.majCard.wait h3{color:var(--dim)}
+/* ---- 당선 카드 ---- */
+.callStage{flex:1;min-height:0;display:grid;grid-template-columns:minmax(0,2.2fr) minmax(220px,1fr);gap:22px}
+.callCard{position:relative;overflow:hidden;border-radius:6px;background:linear-gradient(135deg,var(--mc) -60%,var(--panel2) 45%);border:1px solid var(--line);display:grid;grid-template-columns:auto 1fr;gap:clamp(16px,2.4vw,36px);align-items:center;padding:clamp(18px,2.6vw,40px)}
+.callCard.in{animation:cardIn .6s cubic-bezier(.2,.8,.2,1)}
+.mono{width:clamp(110px,11vw,190px);aspect-ratio:1;border-radius:50%;display:grid;place-items:center;background:var(--mc);color:#fff;font-family:var(--display);font-weight:700;font-size:clamp(44px,4.6vw,80px);box-shadow:0 0 0 6px #ffffff14,0 18px 40px #0008}
+.callCard .where{font-family:var(--mono);font-size:clamp(13px,1.1vw,17px);color:var(--dim);letter-spacing:.04em}
+.callCard .tags{display:flex;gap:6px;flex-wrap:wrap;margin:6px 0}
+.callCard .tag{font-family:var(--display);font-weight:700;letter-spacing:.12em;font-size:13px;padding:2px 9px;border-radius:2px;background:#fff;color:#000}
+.callCard .tag.flip{background:var(--focus)}
+.callCard .tag.inc{background:transparent;color:var(--fg);border:1px solid var(--line)}
+.callCard h3{margin:0;font-family:var(--display);font-weight:700;font-size:clamp(34px,4.4vw,78px);line-height:.95;text-wrap:balance}
+.callCard .pty{font-size:clamp(16px,1.4vw,22px);color:var(--fg);margin-top:4px}
+.vs{margin-top:16px;display:flex;flex-direction:column;gap:8px}
+.vs .row{display:grid;grid-template-columns:minmax(90px,auto) 1fr auto;gap:10px;align-items:center;font-size:clamp(13px,1.05vw,17px)}
+.vs .bar{height:clamp(12px,1.4vh,20px);border-radius:3px;background:#ffffff10;overflow:hidden}
+.vs .bar i{display:block;height:100%;border-radius:3px;transition:width 1s cubic-bezier(.2,.7,.2,1)}
+.vs b{font-family:var(--mono);font-variant-numeric:tabular-nums}
+.margin{margin-top:10px;font-family:var(--display);font-weight:700;font-size:clamp(22px,2.2vw,38px)}
+.margin span{font-family:var(--body);font-weight:400;font-size:14px;color:var(--dim);margin-left:8px}
+.callNext{display:flex;flex-direction:column;gap:6px;min-height:0;overflow:hidden}
+.callNext .h{font-family:var(--display);letter-spacing:.14em;color:var(--dim);font-size:13px}
+.callNext .it{display:grid;grid-template-columns:10px 1fr;gap:8px;align-items:center;padding:7px 8px;border-radius:3px;background:var(--panel2);font-size:14px}
+.callNext .it i{width:10px;height:10px;border-radius:2px}
+.callNext .it small{display:block;color:var(--dim);font-family:var(--mono);font-size:11px}
+.callNext .it.on{outline:1px solid var(--fg)}
+@media (max-width:900px){.callStage{grid-template-columns:1fr}.callCard{grid-template-columns:1fr;justify-items:start}}
 #note{padding:8px 16px;background:#3a2a0a;color:var(--focus);font-size:13px}
 @media (max-width:900px){
   body{height:auto}
@@ -1054,9 +1092,12 @@ let lastRes=null;
   const vGov=mk("v-govmap"); gov.querySelector(".chhead h2").textContent="주지사 지도";
   const gm=document.createElement("div"); gm.className="tmap"; gm.id="govMap"; gov.querySelector("#govSum").after(gm); vGov.append(gov);
   const vNews=mk("v-news","grow"); vNews.append(news);
+  const vMaj=mk("v-maj","grow"); vMaj.innerHTML='<div class="majStage" id="majStage"></div>';
+  const vCalls=mk("v-calls","grow"); vCalls.innerHTML='<div class="callStage"><div class="callCard" id="callCard"></div><div class="callNext" id="callNext"></div></div>';
   const tabs=document.createElement("div"); tabs.id="viewTabs";
   const prog=document.createElement("div"); prog.id="viewProg"; prog.innerHTML="<i></i>";
-  seats.prepend(tabs, prog); seats.append(vSeats,vHemi,vSen,vGov,vNews);
+  seats.prepend(tabs, prog); seats.append(vMaj,vSeats,vCalls,vHemi,vSen,vGov,vNews);
+  head(vCalls,"당선 확정",'<span class="srcLine"></span>');
   // 각 화면 위에 큰 제목, 의석판에는 큰 숫자판
   const head=(v,t,sub)=>{ const h=document.createElement("div"); h.className="stageHead"; h.innerHTML=`<h1>${t}</h1><small>${sub||""}</small>`; v.prepend(h); };
   [house,senate].forEach(ch=>{ const g=document.createElement("div"); g.className="gain"; ch.querySelector(".status").before(g); });
@@ -1071,11 +1112,18 @@ let lastRes=null;
   vNews.querySelector(".lbl span").textContent="주요 뉴스";
   document.getElementById("stage").appendChild(seats);
 })();
-const VIEWS=[["v-seats","의석"],["v-hemi","의회"],["v-senmap","상원 지도"],["v-govmap","주지사 지도"],["v-news","뉴스"]];
+const VIEWS=[["v-maj","과반"],["v-seats","의석"],["v-calls","당선"],["v-hemi","의회"],["v-senmap","상원 지도"],["v-govmap","주지사 지도"],["v-news","뉴스"]];
 let viewIdx=0, viewT=null, viewStart=0, viewHold=0;
 const VIEW_SEC=15;
-function showView(i){
-  viewIdx=(i+VIEWS.length)%VIEWS.length;
+const VIEW_TIME={"v-calls":40,"v-maj":12};
+const secFor=i=>VIEW_TIME[VIEWS[i][0]]||VIEW_SEC;
+// 아직 과반이 없으면 과반 화면, 확정이 하나도 없으면 당선 화면은 건너뛴다
+function viewReady(id){ if(id==="v-maj") return !!(typeof lastRes!=="undefined" && lastRes && (majorityWinner(lastRes,"house")||majorityWinner(lastRes,"senate")));
+  if(id==="v-calls") return !!(typeof lastRes!=="undefined" && lastRes?.calls?.length); return true; }
+function showView(i, forced){
+  let n=(i+VIEWS.length)%VIEWS.length;
+  if(!forced){ for(let k=0;k<VIEWS.length && !viewReady(VIEWS[n][0]);k++) n=(n+1)%VIEWS.length; }
+  viewIdx=n;
   VIEWS.forEach(([id],k)=>document.getElementById(id).hidden = k!==viewIdx);
   document.querySelectorAll("#viewTabs button").forEach((b,k)=>b.classList.toggle("on",k===viewIdx));
   viewStart=Date.now();
@@ -1083,13 +1131,13 @@ function showView(i){
   if (typeof fitView==="function") requestAnimationFrame(fitView);
 }
 VIEWS.forEach(([id,label],k)=>{ const b=document.createElement("button"); b.textContent=label;
-  b.onclick=()=>{ showView(k); viewHold=Date.now()+60000; }; document.getElementById("viewTabs").appendChild(b); });
+  b.onclick=()=>{ showView(k,true); viewHold=Date.now()+60000; }; document.getElementById("viewTabs").appendChild(b); });
 function viewTick(){
   const bar=document.querySelector("#viewProg i");
   if (Date.now()<viewHold){ bar.style.width="100%"; bar.style.opacity=".35"; return; }  // 직접 누르면 1분 동안 멈춤
   bar.style.opacity="1";
-  const t=(Date.now()-viewStart)/1000; bar.style.width=Math.min(100,t/VIEW_SEC*100)+"%";
-  if (t>=VIEW_SEC) showView(viewIdx+1);
+  const t=(Date.now()-viewStart)/1000; bar.style.width=Math.min(100,t/secFor(viewIdx)*100)+"%";
+  if (t>=secFor(viewIdx)) showView(viewIdx+1);
 }
 showView(0); setInterval(viewTick, 250);
 
@@ -1438,7 +1486,7 @@ function showMajority(ch, k, d){
   const el=document.createElement("div"); el.id="maj"; el.style.setProperty("--mc",P.c);
   el.innerHTML=`<div class="sweep"></div><div class="flash"></div><div class="bars t"></div><div class="bars b"></div>
     <div class="box"><div>
-      <span class="kick"><i></i>PROJECTED · 의회 과반</span>
+      <span class="kick"><i></i>확정 · 의회 과반 확보</span>
       <h2><b>${P.en}</b> win control of ${C.en}</h2>
       <div class="ko">${P.ko}, ${C.ko} 과반 확보</div>
       <div class="num"><b data-n="${seats}">0</b><span>석 확정 · 과반 ${src.majority}석</span></div>
@@ -1467,6 +1515,55 @@ const replay=ch=>{ const d=lastRes; if(!d) return note("결과를 아직 불러�
   document.getElementById("setBtn").click(); showMajority(ch,k,d); };
 document.getElementById("majTestH").onclick=()=>replay("house");
 document.getElementById("majTestS").onclick=()=>replay("senate");
+
+// ---------- 과반 화면 / 당선 카드 ----------
+function drawMajStage(){
+  const d=lastRes, box=document.getElementById("majStage"); if(!d||!box) return;
+  box.innerHTML="";
+  for (const ch of ["house","senate"]){ const src=d[ch]; if(!src) continue;
+    const k=majorityWinner(d,ch), P=k?PARTY[k]:null, C=CH[ch];
+    const c=document.createElement("div"); c.className="majCard"+(k?"":" wait"); if(P) c.style.setProperty("--mc",P.c);
+    c.innerHTML = k
+      ? `<span class="k">확정 · 과반 확보</span><h3><b>${P.en}</b> win ${C.en}</h3><div class="ko">${P.ko}, ${C.ko} 과반 확보</div><div class="n">${src.parties[k].called}<span>석 / 과반 ${src.majority}</span></div>`
+      : `<span class="k">개표 중</span><h3>${C.ko} 아직 과반 미확정</h3><div class="ko">과반 ${src.majority}석</div><div class="n" style="font-size:40px">민주 ${src.parties.D.called} · 공화 ${src.parties.R.called}</div>`;
+    box.appendChild(c); }
+}
+let callIdx=0, callT=null;
+const initials=n=>(n||"?").replace(/\b(Jr|Sr|II|III)\.?\b/g,"").split(/\s+/).filter(Boolean).map(w=>w[0]).filter(ch=>/[A-Z]/i.test(ch)).slice(0,1).concat((n||"").split(/\s+/).filter(Boolean).slice(-1).map(w=>w[0])).join("").toUpperCase().slice(0,2);
+function callList(){
+  // 상원·주지사를 먼저, 하원은 뒤에. 최근 확정 순
+  const c=(lastRes?.calls||[]);
+  const big=c.filter(x=>x.office!=="H"), house=c.filter(x=>x.office==="H");
+  return [...big.slice(0,24), ...house.slice(0,12)];
+}
+function drawCall(){
+  const list=callList(), card=document.getElementById("callCard"), next=document.getElementById("callNext");
+  if(!card||!list.length) return;
+  const x=list[callIdx%list.length], P=PARTY[x.party]||PARTY.O, R=PARTY[x.runnerParty]||PARTY.O;
+  const margin=(x.pct-(x.runnerPct||0));
+  card.style.setProperty("--mc",P.c); card.classList.remove("in"); void card.offsetWidth; card.classList.add("in");
+  card.innerHTML=`<div class="mono">${initials(x.winner)}</div><div style="min-width:0">
+    <div class="where">${x.officeKo} · ${x.race} · 개표 ${Math.round(x.in)}%</div>
+    <div class="tags"><span class="tag">당선 확정</span>${x.flip?'<span class="tag flip">정당 교체</span>':''}${x.incumbent?'<span class="tag inc">현직</span>':''}</div>
+    <h3></h3><div class="pty">${P.ko}</div>
+    <div class="vs">
+      <div class="row"><span class="nm1"></span><div class="bar"><i style="width:0;background:${P.c}"></i></div><b>${x.pct.toFixed(1)}%</b></div>
+      ${x.runner?`<div class="row"><span class="nm2" style="color:var(--dim)"></span><div class="bar"><i style="width:0;background:${R.c};opacity:.7"></i></div><b style="color:var(--dim)">${(x.runnerPct||0).toFixed(1)}%</b></div>`:""}
+    </div>
+    <div class="margin">+${margin.toFixed(1)}%p<span>차이로 당선</span></div></div>`;
+  card.querySelector("h3").textContent=x.winner;
+  card.querySelector(".nm1").textContent=x.winner.split(" ").slice(-1)[0];
+  if(x.runner) card.querySelector(".nm2").textContent=x.runner.split(" ").slice(-1)[0];
+  requestAnimationFrame(()=>requestAnimationFrame(()=>{ const bars=card.querySelectorAll(".bar i"); bars[0].style.width=x.pct+"%"; if(bars[1]) bars[1].style.width=(x.runnerPct||0)+"%"; }));
+  next.innerHTML='<div class="h">다음 확정</div>';
+  for (let k=1;k<=7 && k<list.length;k++){ const y=list[(callIdx+k)%list.length], Q=PARTY[y.party]||PARTY.O;
+    const it=document.createElement("div"); it.className="it"; it.innerHTML=`<i style="background:${Q.c}"></i><div><span></span><small>${y.officeKo} · ${y.race} · +${(y.pct-(y.runnerPct||0)).toFixed(1)}%p</small></div>`;
+    it.querySelector("span").textContent=y.winner; next.appendChild(it); }
+}
+function startCalls(){ clearInterval(callT); callT=setInterval(()=>{ if(VIEWS[viewIdx][0]!=="v-calls") return; callIdx++; drawCall(); }, 6500); }
+const _dv5=drawViews; drawViews=function(){ _dv5(); drawMajStage(); if(VIEWS[viewIdx][0]!=="v-calls") drawCall(); };
+const _pv=playView; playView=function(v){ _pv(v); if(v?.id==="v-calls"){ drawCall(); } if(v?.id==="v-maj") drawMajStage(); };
+startCalls();
 renderAll(); renderSeats(); markPin(); drawMeters(); playView(document.getElementById(VIEWS[viewIdx][0]));
 </script>
 </body>

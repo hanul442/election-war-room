@@ -70,6 +70,33 @@ def map_reporting(pp):
     return reporting_from_rows([t.get("percentIn") for t in tips], [t.get("totalVote") or 0 for t in tips])
 
 
+PARTY = {"Dem": "D", "Rep": "R"}
+OFFICE_KO = {"H": "하원", "S": "상원", "G": "주지사"}
+
+
+def calls_from(pp, office, flips=None):
+    """당선 확정된 선거 목록: 지역, 당선자, 2위와의 차이."""
+    out = []
+    for key, v in (pp.get("mapData") or {}).items():
+        t = (v or {}).get("tooltip") or {}
+        cands = sorted(t.get("candidates") or [], key=lambda c: -(c.get("percentVote") or 0))
+        win = next((c for c in cands if c.get("isWinner")), None)
+        if not win:
+            continue
+        run = next((c for c in cands if c is not win), None)
+        wp = PARTY.get(win.get("party"), "O")
+        out.append({
+            "id": f"{office}:{key}", "office": office, "officeKo": OFFICE_KO[office],
+            "race": t.get("raceName") or key, "in": t.get("percentIn") or 0,
+            "winner": win.get("name") or win.get("lastName"), "party": wp,
+            "pct": win.get("percentVote") or 0, "incumbent": bool(win.get("isIncumbent")),
+            "runner": (run or {}).get("name"), "runnerParty": PARTY.get((run or {}).get("party"), "O") if run else None,
+            "runnerPct": (run or {}).get("percentVote") or 0,
+            "flip": bool(flips and flips.get(key) == wp),
+        })
+    return out
+
+
 def main():
     out = {"source": "NBC News Decision Desk", "updated": datetime.now(timezone.utc).isoformat(), "errors": []}
 
@@ -113,6 +140,25 @@ def main():
                            "reporting": map_reporting(g) or reporting_from_rows([r["in"] for r in rows])}
     except Exception as e:
         out["errors"].append(f"governor: {e}")
+
+    # 당선 확정 목록: 처음 확인한 시각을 기억해서 최근 확정 순으로
+    try:
+        prev = {c["id"]: c.get("calledAt") for c in json.load(open("results.json", encoding="utf-8")).get("calls", [])}
+    except Exception:
+        prev = {}
+    calls = []
+    for office, key in (("H", "house"), ("S", "senate"), ("G", "governor")):
+        try:
+            pp = page_props(key)
+            flips = {r["st"]: r["winner"] for r in states_table(pp) if r["winner"] and any(c["flip"] and c["party"] == r["winner"] for c in r["cands"])}
+            calls += calls_from(pp, office, flips)
+        except Exception as e:
+            out["errors"].append(f"calls {key}: {e}")
+    now = out["updated"]
+    for c in calls:
+        c["calledAt"] = prev.get(c["id"]) or now
+    calls.sort(key=lambda c: (c["calledAt"], {"S": 2, "G": 1, "H": 0}[c["office"]]), reverse=True)
+    out["calls"] = calls
 
     with open("results.json", "w", encoding="utf-8") as f:
         json.dump(out, f, ensure_ascii=False, indent=1)
