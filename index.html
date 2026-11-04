@@ -258,6 +258,18 @@ footer{font-size:14px}
 .raceList .st.D{background:var(--dem);color:#fff}.raceList .st.R{background:var(--rep);color:#fff}.raceList .st.O{background:var(--oth);color:#fff}
 .raceList .st.lD{box-shadow:inset 0 0 0 1px var(--dem)}.raceList .st.lR{box-shadow:inset 0 0 0 1px var(--rep)}
 .view.play .raceList .rr{animation:viewIn .45s backwards;animation-delay:calc(var(--i) * 45ms)}
+/* 의회 반원: 칸 높이에 맞춰 그림이 줄어들게 */
+#v-hemi{grid-template-rows:auto minmax(0,1fr)!important}
+#v-hemi > .hemi{align-self:stretch!important;display:flex;flex-direction:column;min-height:0}
+#v-hemi .hemi .svg{flex:1;min-height:0;display:flex}
+#v-hemi .hemi svg{width:100%;height:100%}
+/* 개표율 */
+.rep{display:flex;flex-direction:column;gap:4px}
+.rep .rl{display:flex;justify-content:space-between;font-size:14px;color:var(--dim);font-variant-numeric:tabular-nums}
+.rep .rl b{color:var(--fg);font-family:var(--mono);font-size:16px}
+.rep .rb{height:6px;background:var(--panel2);border-radius:3px;overflow:hidden}
+.rep .rb i{display:block;height:100%;background:linear-gradient(90deg,#7d8597,#eef0f4);border-radius:3px;transition:width .9s cubic-bezier(.2,.7,.2,1)}
+.tmap span.has,.tmap span[class*="l"]{background-image:linear-gradient(90deg,#ffffff55 var(--in,0%),transparent var(--in,0%));background-size:100% 3px;background-repeat:no-repeat;background-position:bottom}
 #note{padding:8px 16px;background:#3a2a0a;color:var(--focus);font-size:13px}
 @media (max-width:900px){
   body{height:auto}
@@ -1224,6 +1236,31 @@ function fitView(){
 }
 setInterval(fitView, 800);
 window.addEventListener("resize", ()=>{ clearTimeout(window._fv); window._fv=setTimeout(fitView,150); });
+
+// ---------- 개표율 ----------
+function repHtml(r, label){
+  if(!r) return "";
+  const v=r.totalVote?` · ${(r.totalVote/1e6).toFixed(1)}백만 표`:"";
+  return `<div class="rl"><span>${label} 개표율 <b>${r.avgIn.toFixed(1)}%</b></span><span>95% 이상 ${r.nearlyAll}/${r.races}곳${v}</span></div><div class="rb"><i style="width:${Math.min(100,r.avgIn)}%"></i></div>`;
+}
+function putRep(host, id, r, label){
+  if(!host) return; let el=document.getElementById(id);
+  if(!el){ el=document.createElement("div"); el.className="rep"; el.id=id; host.appendChild(el); }
+  el.innerHTML=repHtml(r,label);
+}
+const _dv3=drawViews; drawViews=function(){ _dv3(); const d=lastRes; if(!d) return;
+  putRep(document.querySelector('.chamber[data-ch="house"]'),"repH",d.house?.reporting,"하원 지역구 평균");
+  putRep(document.querySelector('.chamber[data-ch="senate"]'),"repS",d.senate?.reporting,"상원 선거 평균");
+  putRep(document.getElementById("hemiH"),"repH2",d.house?.reporting,"평균");
+  putRep(document.getElementById("hemiS"),"repS2",d.senate?.reporting,"평균");
+  putRep(document.getElementById("senList")?.parentElement?.parentElement,"repS3",d.senate?.reporting,"상원 평균");
+  putRep(document.getElementById("govList")?.parentElement?.parentElement,"repG",d.governor?.reporting,"주지사 평균");
+  // 지도 칸 밑줄로 주별 개표율
+  for (const [mapId,rows] of [["senMap",d.senate?.states],["govMap",d.governor?.states]]){
+    const box=document.getElementById(mapId); if(!box||!rows) continue;
+    rows.forEach(r=>{ const el=[...box.children].find(x=>x.textContent===r.st); if(el && !r.winner) el.style.setProperty("--in",Math.round(r.in)+"%"); });
+  }
+};
 renderAll(); renderSeats(); markPin(); drawMeters(); playView(document.getElementById(VIEWS[viewIdx][0]));
 </script>
 </body>

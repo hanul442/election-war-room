@@ -52,6 +52,24 @@ def states_table(pp):
     return rows
 
 
+def reporting_from_rows(pcts, votes=None):
+    """개표율 요약: 선거구 평균, 거의 다 센(95%+) 곳 수, 센 표 수."""
+    pcts = [float(p or 0) for p in pcts]
+    if not pcts:
+        return None
+    out = {"avgIn": round(sum(pcts) / len(pcts), 1), "races": len(pcts),
+           "started": sum(1 for p in pcts if p > 0), "nearlyAll": sum(1 for p in pcts if p >= 95)}
+    if votes is not None:
+        out["totalVote"] = int(sum(votes))
+    return out
+
+
+def map_reporting(pp):
+    tips = [v.get("tooltip") or {} for v in (pp.get("mapData") or {}).values() if isinstance(v, dict)]
+    tips = [t for t in tips if "percentIn" in t]
+    return reporting_from_rows([t.get("percentIn") for t in tips], [t.get("totalVote") or 0 for t in tips])
+
+
 def main():
     out = {"source": "NBC News Decision Desk", "updated": datetime.now(timezone.utc).isoformat(), "errors": []}
 
@@ -65,6 +83,7 @@ def main():
             "parties": party_totals(bar),
             # NBC 하원 예측 모델: 최종 의석 추정치 (확정 아님)
             "model": {"D": model.get("dem"), "R": model.get("rep")} if model else None,
+            "reporting": map_reporting(h),
         }
     except Exception as e:
         out["errors"].append(f"house: {e}")
@@ -78,6 +97,7 @@ def main():
             "upForElection": bar.get("upForElection"),
             "parties": party_totals(bar),
             "states": states_table(s),
+            "reporting": map_reporting(s) or reporting_from_rows([r["in"] for r in states_table(s)]),
         }
     except Exception as e:
         out["errors"].append(f"senate: {e}")
@@ -89,7 +109,8 @@ def main():
         for r in rows:
             if r["winner"]:
                 won[r["winner"]] += 1
-        out["governor"] = {"races": len(rows), "won": won, "states": rows}
+        out["governor"] = {"races": len(rows), "won": won, "states": rows,
+                           "reporting": map_reporting(g) or reporting_from_rows([r["in"] for r in rows])}
     except Exception as e:
         out["errors"].append(f"governor: {e}")
 
