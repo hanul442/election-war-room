@@ -102,6 +102,7 @@ footer .btn{padding:5px 10px}
   <div class="tools">
     <button class="btn" id="muteAll">전체 음소거</button>
     <button class="btn" id="reload">플레이어 새로고침</button>
+    <button class="btn" id="resetCh" title="아래로 내려간 채널을 다시 멀티뷰에 올려 재시도">채널 다시 시도</button>
   </div>
 </header>
 <div id="note" hidden></div>
@@ -167,24 +168,31 @@ footer .btn{padding:5px 10px}
 // ---------- 방송사 ----------
 // embed:true 는 멀티뷰 그리드에, false 는 하단에서 유튜브 창으로 연다 (임베드를 막아둔 채널)
 const DEFAULT_CH = [
-  {name:"Bloomberg TV",  src:"UCIALMKvObZNtJ6AmdCLP7Lg", embed:true},
-  {name:"CNN",           src:"UCupvZG-5ko_eiXAupbDfxWw", embed:false},
-  {name:"Fox News",      src:"UCXIJgqnII2ZOINb3ZaWlU9g", embed:false},
-  {name:"ABC News",      src:"UCBi2mrWuNuyYy4gbM6fU18Q", embed:false},
-  {name:"NBC News",      src:"UCeY0bbntWzzVIaj2z3QigXg", embed:false},
-  {name:"CBS News",      src:"UC8p1vwvWtl6T73JiExfWzNw", embed:false},
-  {name:"MS NOW",        src:"UCaXkIU1QidjPwiAYu6GcHjg", embed:false},
-  {name:"PBS NewsHour",  src:"UC6ZFN9Tx6xh-skXCuRHCDpQ", embed:false},
-  {name:"C-SPAN",        src:"UCb--64Gl51jIEVE-GLDAVTg", embed:false},
+  // 일단 전부 멀티뷰에 올려두고, 유튜브가 임베드 거부(101/150)나 라이브 없음(100)을 알려오면 자동으로 아래 줄로 내린다
+  {name:"Bloomberg TV",     src:"UCIALMKvObZNtJ6AmdCLP7Lg", embed:true},
+  {name:"LiveNOW from FOX", src:"UCJg9wBPyKMNA5sRDnvzmkdg", embed:true},
+  {name:"PBS NewsHour",     src:"UC6ZFN9Tx6xh-skXCuRHCDpQ", embed:true},
+  {name:"Sky News",         src:"UCoMdktPbSTixAyNGwb-UYkQ", embed:true},
+  {name:"Reuters",          src:"UChqUTb7kYRX8-EiaN3XFrSQ", embed:true},
+  {name:"Al Jazeera",       src:"UCNye-wNBqNL5ZzHSJj3l8Bg", embed:true},
+  {name:"DW News",          src:"UCknLrEdhRCp1aegoMqRaCZg", embed:true},
+  {name:"France 24",        src:"UCQfwfsi5VrQ8yKZ-UWmAEFg", embed:true},
+  {name:"ABC News",         src:"UCBi2mrWuNuyYy4gbM6fU18Q", embed:true},
+  {name:"NBC News",         src:"UCeY0bbntWzzVIaj2z3QigXg", embed:true},
+  {name:"CBS News",         src:"UC8p1vwvWtl6T73JiExfWzNw", embed:true},
+  {name:"C-SPAN",           src:"UCb--64Gl51jIEVE-GLDAVTg", embed:true},
+  {name:"CNN",              src:"UCupvZG-5ko_eiXAupbDfxWw", embed:false},
+  {name:"Fox News",         src:"UCXIJgqnII2ZOINb3ZaWlU9g", embed:false},
+  {name:"MS NOW",           src:"UCaXkIU1QidjPwiAYu6GcHjg", embed:false},
 ];
 const PARTIES = [{k:"D",name:"민주당",c:"var(--dem)",soft:"var(--dem-soft)"},{k:"R",name:"공화당",c:"var(--rep)",soft:"var(--rep-soft)"},{k:"O",name:"기타·무소속",c:"var(--oth)",soft:"#8a7fb855"}];
 const CHAMBERS = {house:{total:435,maj:218}, senate:{total:100,maj:51}};
 const blankSeats = () => ({D:{called:0,proj:0},R:{called:0,proj:0},O:{called:0,proj:0}});
 
-const KEY = "midterm-war-room-v2";
-let S;
-try { S = JSON.parse(localStorage.getItem(KEY)) } catch(e) {}
-if (!S || !S.channels) S = {channels:DEFAULT_CH.map(c=>({...c})), audio:null, seats:{house:blankSeats(), senate:blankSeats()}, srcCalled:"", srcProj:"", stamp:null};
+const KEY = "midterm-war-room-v3";
+let S, old;
+try { S = JSON.parse(localStorage.getItem(KEY)); old = JSON.parse(localStorage.getItem("midterm-war-room-v2")) } catch(e) {}
+if (!S || !S.channels) S = {channels:DEFAULT_CH.map(c=>({...c})), audio:null, seats:old?.seats||{house:blankSeats(), senate:blankSeats()}, srcCalled:old?.srcCalled||"", srcProj:old?.srcProj||"", stamp:old?.stamp||null};
 const save = () => { try { localStorage.setItem(KEY, JSON.stringify(S)) } catch(e) {} };
 
 function parse(src){
@@ -229,7 +237,10 @@ function renderGrid(){
       <form class="swap"><input placeholder="다른 라이브 링크로 바꾸기" aria-label="${c.name} 영상 바꾸기"><button class="btn" style="padding:2px 8px">적용</button></form>`;
     t.querySelector(".name").textContent=c.name;
     t.querySelector("a").href=watchUrl(c.src);
-    t.querySelector("iframe").src=embedUrl(c.src, S.audio!==c.name);
+    const f=t.querySelector("iframe");
+    f.src=embedUrl(c.src, S.audio!==c.name);
+    // 플레이어에 이벤트를 보내달라고 등록해야 onError 를 받을 수 있다
+    f.onload=()=>{ for (const ms of [0,800,2500]) setTimeout(()=>f.contentWindow?.postMessage(JSON.stringify({event:"listening",id:c.name,channel:"widget"}),"*"), ms); };
     t.querySelector(".snd").onclick=()=>setAudio(c.name);
     t.querySelector(".toWin").onclick=()=>{ c.embed=false; save(); renderAll(); };
     t.querySelector(".swap").onsubmit=e=>{ e.preventDefault(); const inp=e.target.querySelector("input");
@@ -239,6 +250,18 @@ function renderGrid(){
   });
   layout(live.length);
 }
+const moved=[];
+window.addEventListener("message", e=>{
+  if (!/youtube(-nocookie)?\.com$/.test(new URL(e.origin||"http://x").hostname)) return;
+  let d; try { d = typeof e.data==="string" ? JSON.parse(e.data) : e.data } catch(_) { return; }
+  if (d?.event!=="onError" || ![100,101,150].includes(+d.info)) return;
+  const tile=[...grid.querySelectorAll(".tile")].find(t=>t.querySelector("iframe").contentWindow===e.source);
+  const ch=tile && S.channels.find(c=>c.name===tile.dataset.name && c.embed);
+  if (!ch) return;
+  ch.embed=false; save(); moved.push(ch.name);
+  note(`${moved.join(", ")}: 임베드가 막혔거나 지금 라이브가 없어서 아래 줄로 옮겼어요.`);
+  clearTimeout(window._rg); window._rg=setTimeout(renderAll, 400);
+});
 function setAudio(name){
   S.audio = S.audio===name?null:name; save();
   grid.querySelectorAll(".tile").forEach(t=>{ const on=t.dataset.name===S.audio; t.classList.toggle("audio",on);
@@ -314,6 +337,7 @@ function renderAll(){ renderGrid(); renderLauncher(); }
 document.getElementById("openAll").onclick=openAll;
 document.getElementById("muteAll").onclick=()=>{ S.audio=null; setAudio(null); };
 document.getElementById("reload").onclick=renderGrid;
+document.getElementById("resetCh").onclick=()=>{ S.channels=DEFAULT_CH.map(c=>({...c})); moved.length=0; note(""); save(); renderAll(); };
 document.getElementById("addForm").onsubmit=e=>{ e.preventDefault();
   const n=document.getElementById("addName"), s=document.getElementById("addSrc");
   if(!parse(s.value)){ s.value=""; s.placeholder="링크를 확인해주세요"; s.focus(); return; }
