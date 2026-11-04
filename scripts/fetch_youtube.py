@@ -30,6 +30,18 @@ STOP = {"Democrat", "Democrats", "Democratic", "Republican", "Republicans", "GOP
         "Watch", "Rep", "Sen", "Gov", "Trump", "President", "In", "On", "After", "As"}
 
 
+# 방송사·통신사 공식 채널만 상황실에 올린다 (개인 방송, 정파 유튜버, 재업로드 채널 제외)
+OUTLETS = re.compile(
+    r"\b(NBC|CBS|ABC|CNN|Fox|LiveNOW|BBC|Sky News|Reuters|Associated Press|AP\b|Bloomberg|PBS|C-SPAN|"
+    r"Al Jazeera|DW News|FRANCE 24|NewsNation|Scripps|USA TODAY|Washington Post|Wall Street Journal|"
+    r"New York Times|Guardian|CBC|CTV|Global News|WION|CNA|KHOU|WFAA|KTLA|WGN|FOX \d+|NBC \d+|ABC \d+|CBS \d+)",
+    re.I)
+
+
+def is_outlet(channel):
+    return bool(OUTLETS.search(channel or ""))
+
+
 def get(path, **params):
     params["key"] = KEY
     url = API + path + "?" + urllib.parse.urlencode(params)
@@ -91,7 +103,7 @@ def main():
     try:
         # 1) 선거 라이브 모음
         if now - ts("poolAt") >= POOL_EVERY:
-            st["pool"] = search("election results live", 25)
+            st["pool"] = [p for p in search("election results live", 25) if is_outlet(p["channel"])]
             st["poolAt"] = now.isoformat()
             q["searches"] += 1
 
@@ -103,7 +115,7 @@ def main():
         if fresh and q["brk"] < BRK_PER_DAY and now - ts("brkAt") >= BRK_EVERY:
             it = fresh[0]
             term = key_term(it["title"])
-            hits = search(term + " live", 5) or search(term, 5)
+            hits = [h for h in (search(term + " live", 5) or search(term, 5)) if is_outlet(h["channel"])]
             q["searches"] += 1
             q["brk"] += 1
             st["brkAt"] = now.isoformat()
