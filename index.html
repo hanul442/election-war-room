@@ -111,6 +111,22 @@ footer .btn{padding:5px 10px}
 .badge.vod{background:var(--panel2);color:var(--dim);border:1px solid var(--line)}
 .badge.soon{background:#3a2a0a;color:var(--focus)}
 @media (prefers-reduced-motion:reduce){.badge.live{animation:none}}
+/* 한 화면에 다 들어가게: 페이지 스크롤 없음, 설정은 따로 여는 패널로 */
+@media (min-width:901px){
+  html,body{overflow:hidden}
+  #seats{overflow:hidden;gap:12px;padding-block:10px}
+  #seats.auto table{display:none}
+  .chhead h2{font-size:20px}
+  .meter{height:18px}
+  .meterRow{gap:2px}
+  .chamber{gap:6px}
+  #newsBox{flex:1;min-height:0;display:flex;flex-direction:column;gap:6px}
+  #news{flex:1;min-height:0;max-height:none;overflow:hidden}
+  footer{flex-wrap:nowrap;overflow:hidden;white-space:nowrap}
+}
+#settings{position:fixed;z-index:20;top:calc(env(safe-area-inset-top,0px) + 56px);right:max(16px,env(safe-area-inset-right,0px));width:min(380px,calc(100vw - 32px));max-height:calc(100vh - 80px);overflow-y:auto;background:var(--panel);border:1px solid var(--line);border-radius:6px;box-shadow:0 12px 40px #0009;padding:14px 16px;display:flex;flex-direction:column;gap:16px}
+#settings .add{margin:0;flex-direction:column}
+#settings .add input{width:auto}
 #note{padding:8px 16px;background:#3a2a0a;color:var(--focus);font-size:13px}
 @media (max-width:900px){
   body{height:auto}
@@ -129,6 +145,7 @@ footer .btn{padding:5px 10px}
     <div class="clock"><span>SEOUL (KST)</span><b id="tKST">--:--</b></div>
   </div>
   <div class="tools">
+    <button class="btn" id="setBtn" aria-expanded="false" aria-controls="settings">설정</button>
     <button class="btn" id="muteAll">전체 음소거</button>
     <label class="btn" for="rotate" style="gap:6px">음성 자동 전환
       <select id="rotate" style="background:var(--bg);border:1px solid var(--line);border-radius:3px;color:var(--fg)">
@@ -222,6 +239,7 @@ footer .btn{padding:5px 10px}
   </aside>
 </main>
 
+<div id="settings" hidden aria-label="설정"><div class="lbl">설정</div></div>
 <div id="ticker" aria-label="속보 티커"><span class="tag">BREAKING</span><div class="track" id="tickTrack"></div></div>
 <footer>
   <span class="lbl">창으로 보는 방송사</span>
@@ -693,6 +711,27 @@ const focusOn=document.getElementById("focusOn"), pinMin=document.getElementById
 focusOn.checked = S.focus!==false; pinMin.value=String(S.pinMin||5);
 focusOn.onchange=()=>{ S.focus=focusOn.checked; save(); markPin(); };
 pinMin.onchange=()=>{ S.pinMin=+pinMin.value; save(); };
+
+// ---------- 한 화면 정리: 설정용 블록은 설정 패널로 옮긴다 ----------
+(function(){
+  const set=document.getElementById("settings");
+  const blocks=[
+    document.getElementById("autoSeats").closest(".src"),
+    document.getElementById("srcCalled").closest(".src"),
+    [...document.querySelectorAll("#seats .src")].find(b=>b.textContent.includes("결과 페이지 바로가기")),
+    document.getElementById("finder"),
+    ...document.querySelectorAll("#seats p.note"),
+    document.getElementById("addForm"),
+  ].filter(Boolean);
+  blocks.forEach(b=>set.appendChild(b));
+  const nb=document.getElementById("news").closest(".src"); nb.id="newsBox";
+  const btn=document.getElementById("setBtn");
+  btn.onclick=()=>{ set.hidden=!set.hidden; btn.setAttribute("aria-expanded",String(!set.hidden)); btn.classList.toggle("primary",!set.hidden); };
+  document.addEventListener("keydown",e=>{ if(e.key==="Escape"&&!set.hidden) btn.click(); });
+  const seats=document.getElementById("seats");
+  const syncAuto=()=>seats.classList.toggle("auto", !!S.autoSeats);
+  syncAuto(); document.getElementById("autoSeats").addEventListener("change", syncAuto);
+})();
 renderAll(); renderSeats(); markPin();
 </script>
 </body>
