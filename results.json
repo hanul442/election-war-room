@@ -1,22 +1,22 @@
 {
  "source": "NBC News Decision Desk",
- "updated": "2026-11-04T04:03:10.214084+00:00",
+ "updated": "2026-11-04T04:35:11.560317+00:00",
  "errors": [],
  "house": {
   "total": 435,
   "majority": 218,
   "parties": {
    "D": {
-    "called": 143,
+    "called": 162,
     "notUp": 0,
-    "flips": 10,
-    "netGain": 10
+    "flips": 14,
+    "netGain": 14
    },
    "R": {
-    "called": 82,
+    "called": 96,
     "notUp": 0,
     "flips": 0,
-    "netGain": -10
+    "netGain": -14
    },
    "O": {
     "called": 0,
@@ -26,8 +26,8 @@
    }
   },
   "model": {
-   "D": 252,
-   "R": 183
+   "D": 255,
+   "R": 180
   }
  },
  "senate": {
@@ -36,16 +36,16 @@
   "upForElection": 35,
   "parties": {
    "D": {
-    "called": 48,
+    "called": 51,
     "notUp": 34,
-    "flips": 3,
-    "netGain": 3
+    "flips": 6,
+    "netGain": 6
    },
    "R": {
     "called": 39,
     "notUp": 31,
     "flips": 0,
-    "netGain": -3
+    "netGain": -6
    },
    "O": {
     "called": 0,
@@ -84,19 +84,19 @@
    {
     "st": "AL",
     "name": "Alabama",
-    "in": 76.9,
+    "in": 81.5,
     "winner": "R",
     "cands": [
      {
       "party": "D",
       "name": "Wess",
-      "pct": 44.7,
+      "pct": 44.2,
       "flip": false
      },
      {
       "party": "R",
       "name": "Moore",
-      "pct": 55.3,
+      "pct": 55.8,
       "flip": false
      }
     ]
@@ -104,13 +104,13 @@
    {
     "st": "AR",
     "name": "Arkansas",
-    "in": 85.2,
+    "in": 91.2,
     "winner": "R",
     "cands": [
      {
       "party": "D",
       "name": "Shoffner",
-      "pct": 42.4,
+      "pct": 42.3,
       "flip": false
      },
      {
@@ -122,7 +122,7 @@
      {
       "party": "O",
       "name": "Wadlin",
-      "pct": 3.1,
+      "pct": 3.2,
       "flip": false
      }
     ]
@@ -130,19 +130,19 @@
    {
     "st": "CO",
     "name": "Colorado",
-    "in": 69.4,
+    "in": 71,
     "winner": "D",
     "cands": [
      {
       "party": "D",
       "name": "Hickenlooper",
-      "pct": 61,
+      "pct": 60.7,
       "flip": false
      },
      {
       "party": "R",
       "name": "Baisley",
-      "pct": 34.9,
+      "pct": 35.2,
       "flip": false
      },
      {
@@ -156,7 +156,7 @@
    {
     "st": "DE",
     "name": "Delaware",
-    "in": 97.9,
+    "in": 98.8,
     "winner": "D",
     "cands": [
      {
@@ -202,19 +202,19 @@
    {
     "st": "GA",
     "name": "Georgia",
-    "in": 88.3,
+    "in": 93.1,
     "winner": "D",
     "cands": [
      {
       "party": "D",
       "name": "Ossoff",
-      "pct": 58.6,
+      "pct": 58.8,
       "flip": false
      },
      {
       "party": "R",
       "name": "Collins",
-      "pct": 41.4,
+      "pct": 41.2,
       "flip": false
      },
      {
@@ -228,25 +228,25 @@
    {
     "st": "IA",
     "name": "Iowa",
-    "in": 69.5,
-    "winner": null,
+    "in": 91.5,
+    "winner": "D",
     "cands": [
      {
       "party": "D",
       "name": "Turek",
-      "pct": 52.4,
-      "flip": false
+      "pct": 50.9,
+      "flip": true
      },
      {
       "party": "R",
       "name": "Hinson",
-      "pct": 44.1,
+      "pct": 46.1,
       "flip": false
      },
      {
       "party": "O",
       "name": "Laehn",
-      "pct": 3.5,
+      "pct": 3.1,
       "flip": false
      }
     ]
@@ -254,19 +254,19 @@
    {
     "st": "ID",
     "name": "Idaho",
-    "in": 0,
+    "in": 24.4,
     "winner": null,
     "cands": [
      {
       "party": "R",
       "name": "Risch",
-      "pct": 0,
+      "pct": 45,
       "flip": false
      },
      {
       "party": "O",
       "name": "Achilles",
-      "pct": 0,
+      "pct": 45.8,
       "flip": false
      }
     ]
@@ -274,19 +274,19 @@
    {
     "st": "IL",
     "name": "Illinois",
-    "in": 73.3,
+    "in": 76.5,
     "winner": "D",
     "cands": [
      {
       "party": "D",
       "name": "Stratton",
-      "pct": 61,
+      "pct": 61.2,
       "flip": false
      },
      {
       "party": "R",
       "name": "Tracy",
-      "pct": 37.5,
+      "pct": 37.3,
       "flip": false
      },
      {
@@ -300,25 +300,25 @@
    {
     "st": "KS",
     "name": "Kansas",
-    "in": 85,
-    "winner": null,
+    "in": 91.3,
+    "winner": "D",
     "cands": [
      {
       "party": "D",
       "name": "Hamilton",
-      "pct": 52.5,
-      "flip": false
+      "pct": 51.7,
+      "flip": true
      },
      {
       "party": "R",
       "name": "Marshall",
-      "pct": 44.5,
+      "pct": 45.3,
       "flip": false
      },
      {
       "party": "O",
       "name": "Graham",
-      "pct": 2.9,
+      "pct": 3,
       "flip": false
      }
     ]
@@ -352,19 +352,19 @@
    {
     "st": "LA",
     "name": "Louisiana",
-    "in": 82.2,
+    "in": 80.5,
     "winner": null,
     "cands": [
      {
       "party": "D",
       "name": "Davis",
-      "pct": 45.3,
+      "pct": 46.7,
       "flip": false
      },
      {
       "party": "R",
       "name": "Letlow",
-      "pct": 54.7,
+      "pct": 53.3,
       "flip": false
      }
     ]
@@ -372,19 +372,19 @@
    {
     "st": "MA",
     "name": "Massachusetts",
-    "in": 35.7,
+    "in": 46.5,
     "winner": "D",
     "cands": [
      {
       "party": "D",
       "name": "Markey",
-      "pct": 65.2,
+      "pct": 65.3,
       "flip": false
      },
      {
       "party": "R",
       "name": "Deaton",
-      "pct": 30.1,
+      "pct": 30,
       "flip": false
      },
      {
@@ -398,19 +398,19 @@
    {
     "st": "ME",
     "name": "Maine",
-    "in": 35.9,
+    "in": 46.1,
     "winner": null,
     "cands": [
      {
       "party": "D",
       "name": "Jackson",
-      "pct": 50.3,
+      "pct": 49.9,
       "flip": false
      },
      {
       "party": "R",
       "name": "Collins",
-      "pct": 49.7,
+      "pct": 50,
       "flip": false
      },
      {
@@ -424,19 +424,19 @@
    {
     "st": "MI",
     "name": "Michigan",
-    "in": 29.6,
+    "in": 35.5,
     "winner": null,
     "cands": [
      {
       "party": "D",
       "name": "El-Sayed",
-      "pct": 51.5,
+      "pct": 50.1,
       "flip": false
      },
      {
       "party": "R",
       "name": "Rogers",
-      "pct": 46.6,
+      "pct": 48.1,
       "flip": false
      },
      {
@@ -450,25 +450,25 @@
    {
     "st": "MN",
     "name": "Minnesota",
-    "in": 25,
+    "in": 38.2,
     "winner": null,
     "cands": [
      {
       "party": "D",
       "name": "Flanagan",
-      "pct": 45.9,
+      "pct": 45.7,
       "flip": false
      },
      {
       "party": "R",
       "name": "Tafoya",
-      "pct": 51.3,
+      "pct": 51.4,
       "flip": false
      },
      {
       "party": "O",
       "name": "Simonetti",
-      "pct": 1.5,
+      "pct": 1.6,
       "flip": false
      }
     ]
@@ -476,19 +476,19 @@
    {
     "st": "MS",
     "name": "Mississippi",
-    "in": 81.3,
+    "in": 87.3,
     "winner": null,
     "cands": [
      {
       "party": "D",
       "name": "Colom",
-      "pct": 46.9,
+      "pct": 48.3,
       "flip": false
      },
      {
       "party": "R",
       "name": "Hyde-Smith",
-      "pct": 50.9,
+      "pct": 49.5,
       "flip": false
      },
      {
@@ -502,25 +502,25 @@
    {
     "st": "MT",
     "name": "Montana",
-    "in": 21.2,
+    "in": 28.4,
     "winner": null,
     "cands": [
      {
       "party": "D",
       "name": "Bankhead",
-      "pct": 11.2,
+      "pct": 12.1,
       "flip": false
      },
      {
       "party": "R",
       "name": "Alme",
-      "pct": 48.1,
+      "pct": 48.4,
       "flip": false
      },
      {
       "party": "O",
       "name": "Bodnar",
-      "pct": 38.9,
+      "pct": 37.7,
       "flip": false
      }
     ]
@@ -528,19 +528,19 @@
    {
     "st": "NC",
     "name": "North Carolina",
-    "in": 96.8,
+    "in": 98.9,
     "winner": "D",
     "cands": [
      {
       "party": "D",
       "name": "Cooper",
-      "pct": 58.5,
+      "pct": 58.6,
       "flip": true
      },
      {
       "party": "R",
       "name": "Whatley",
-      "pct": 39.3,
+      "pct": 39.2,
       "flip": false
      },
      {
@@ -554,19 +554,19 @@
    {
     "st": "NE",
     "name": "Nebraska",
-    "in": 43.2,
+    "in": 48.9,
     "winner": null,
     "cands": [
      {
       "party": "R",
       "name": "Ricketts",
-      "pct": 43.4,
+      "pct": 45.8,
       "flip": false
      },
      {
       "party": "O",
       "name": "Osborn",
-      "pct": 51.1,
+      "pct": 48.7,
       "flip": false
      }
     ]
@@ -574,19 +574,19 @@
    {
     "st": "NH",
     "name": "New Hampshire",
-    "in": 69.7,
+    "in": 76.5,
     "winner": "D",
     "cands": [
      {
       "party": "D",
       "name": "Pappas",
-      "pct": 56.6,
+      "pct": 56.3,
       "flip": false
      },
      {
       "party": "R",
       "name": "Sununu",
-      "pct": 41.6,
+      "pct": 41.8,
       "flip": false
      },
      {
@@ -600,19 +600,19 @@
    {
     "st": "NJ",
     "name": "New Jersey",
-    "in": 85.3,
+    "in": 88.9,
     "winner": "D",
     "cands": [
      {
       "party": "D",
       "name": "Booker",
-      "pct": 62.6,
+      "pct": 62.3,
       "flip": false
      },
      {
       "party": "R",
       "name": "Murphy",
-      "pct": 34.9,
+      "pct": 35.2,
       "flip": false
      },
      {
@@ -626,19 +626,19 @@
    {
     "st": "NM",
     "name": "New Mexico",
-    "in": 41.9,
+    "in": 49.9,
     "winner": "D",
     "cands": [
      {
       "party": "D",
       "name": "Lujan",
-      "pct": 61.9,
+      "pct": 61.6,
       "flip": false
      },
      {
       "party": "R",
       "name": "Marker",
-      "pct": 38.1,
+      "pct": 38.4,
       "flip": false
      }
     ]
@@ -646,19 +646,19 @@
    {
     "st": "OH Special",
     "name": "Ohio Special",
-    "in": 86.5,
-    "winner": null,
+    "in": 87.6,
+    "winner": "D",
     "cands": [
      {
       "party": "D",
       "name": "Brown",
-      "pct": 48.5,
-      "flip": false
+      "pct": 48.6,
+      "flip": true
      },
      {
       "party": "R",
       "name": "Husted",
-      "pct": 46.6,
+      "pct": 46.5,
       "flip": false
      },
      {
@@ -672,24 +672,24 @@
    {
     "st": "OK",
     "name": "Oklahoma",
-    "in": 84.1,
+    "in": 90,
     "winner": "R",
     "cands": [
      {
       "party": "D",
       "name": "Thomas",
-      "pct": 38.7,
+      "pct": 39.2,
       "flip": false
      },
      {
       "party": "R",
       "name": "Hern",
-      "pct": 57.8,
+      "pct": 57.3,
       "flip": false
      },
      {
       "party": "O",
-      "name": "Meinhardt",
+      "name": "Stinnett",
       "pct": 1.3,
       "flip": false
      }
@@ -698,25 +698,25 @@
    {
     "st": "OR",
     "name": "Oregon",
-    "in": 0,
+    "in": 46.7,
     "winner": "D",
     "cands": [
      {
       "party": "D",
       "name": "Merkley",
-      "pct": 0,
+      "pct": 60.2,
       "flip": false
      },
      {
       "party": "R",
       "name": "Smith",
-      "pct": 0,
+      "pct": 37.2,
       "flip": false
      },
      {
       "party": "O",
-      "name": "Dye",
-      "pct": 0,
+      "name": "Henry",
+      "pct": 1.7,
       "flip": false
      }
     ]
@@ -724,7 +724,7 @@
    {
     "st": "RI",
     "name": "Rhode Island",
-    "in": 93.7,
+    "in": 93.6,
     "winner": "D",
     "cands": [
      {
@@ -750,7 +750,7 @@
    {
     "st": "SC",
     "name": "South Carolina",
-    "in": 96.9,
+    "in": 94.6,
     "winner": "D",
     "cands": [
      {
@@ -776,19 +776,19 @@
    {
     "st": "SD",
     "name": "South Dakota",
-    "in": 33.4,
+    "in": 49.3,
     "winner": null,
     "cands": [
      {
       "party": "R",
       "name": "Rounds",
-      "pct": 64.5,
+      "pct": 61.2,
       "flip": false
      },
      {
       "party": "O",
       "name": "Bengs",
-      "pct": 35.5,
+      "pct": 38.8,
       "flip": false
      }
     ]
@@ -796,7 +796,7 @@
    {
     "st": "TN",
     "name": "Tennessee",
-    "in": 85.5,
+    "in": 88.4,
     "winner": "R",
     "cands": [
      {
@@ -822,19 +822,19 @@
    {
     "st": "TX",
     "name": "Texas",
-    "in": 65.9,
+    "in": 68.2,
     "winner": "D",
     "cands": [
      {
       "party": "D",
       "name": "Talarico",
-      "pct": 59.5,
+      "pct": 58.9,
       "flip": true
      },
      {
       "party": "R",
       "name": "Paxton",
-      "pct": 39,
+      "pct": 39.5,
       "flip": false
      },
      {
@@ -848,7 +848,7 @@
    {
     "st": "VA",
     "name": "Virginia",
-    "in": 88.1,
+    "in": 89.6,
     "winner": "D",
     "cands": [
      {
@@ -860,7 +860,7 @@
      {
       "party": "R",
       "name": "Mizusawa",
-      "pct": 39.8,
+      "pct": 39.9,
       "flip": false
      },
      {
@@ -900,19 +900,19 @@
    {
     "st": "WY",
     "name": "Wyoming",
-    "in": 26.5,
+    "in": 50.3,
     "winner": "R",
     "cands": [
      {
       "party": "D",
       "name": "Byrd",
-      "pct": 36,
+      "pct": 33,
       "flip": false
      },
      {
       "party": "R",
       "name": "Hageman",
-      "pct": 64,
+      "pct": 67,
       "flip": false
      }
     ]
@@ -922,8 +922,8 @@
  "governor": {
   "races": 36,
   "won": {
-   "D": 13,
-   "R": 4,
+   "D": 15,
+   "R": 5,
    "O": 0
   },
   "states": [
@@ -950,19 +950,19 @@
    {
     "st": "AL",
     "name": "Alabama",
-    "in": 65.9,
+    "in": 71.8,
     "winner": null,
     "cands": [
      {
       "party": "D",
       "name": "Jones",
-      "pct": 46.9,
+      "pct": 46.4,
       "flip": false
      },
      {
       "party": "R",
       "name": "Tuberville",
-      "pct": 53.1,
+      "pct": 53.6,
       "flip": false
      }
     ]
@@ -970,19 +970,19 @@
    {
     "st": "AR",
     "name": "Arkansas",
-    "in": 85.1,
+    "in": 91,
     "winner": "R",
     "cands": [
      {
       "party": "D",
       "name": "Love",
-      "pct": 38.7,
+      "pct": 38.5,
       "flip": false
      },
      {
       "party": "R",
       "name": "Huckabee Sanders",
-      "pct": 53.8,
+      "pct": 53.9,
       "flip": false
      }
     ]
@@ -990,19 +990,19 @@
    {
     "st": "AZ",
     "name": "Arizona",
-    "in": 66.3,
+    "in": 67.3,
     "winner": null,
     "cands": [
      {
       "party": "D",
       "name": "Hobbs",
-      "pct": 58.5,
+      "pct": 58.3,
       "flip": false
      },
      {
       "party": "R",
       "name": "Biggs",
-      "pct": 40,
+      "pct": 40.2,
       "flip": false
      }
     ]
@@ -1010,19 +1010,19 @@
    {
     "st": "CA",
     "name": "California",
-    "in": 0,
+    "in": 36.3,
     "winner": "D",
     "cands": [
      {
       "party": "D",
       "name": "Becerra",
-      "pct": 0,
+      "pct": 64,
       "flip": false
      },
      {
       "party": "R",
       "name": "Hilton",
-      "pct": 0,
+      "pct": 36,
       "flip": false
      }
     ]
@@ -1030,19 +1030,19 @@
    {
     "st": "CO",
     "name": "Colorado",
-    "in": 69,
+    "in": 70.6,
     "winner": "D",
     "cands": [
      {
       "party": "D",
       "name": "Weiser",
-      "pct": 61.7,
+      "pct": 61.4,
       "flip": false
      },
      {
       "party": "R",
       "name": "Marx",
-      "pct": 33,
+      "pct": 33.2,
       "flip": false
      }
     ]
@@ -1050,19 +1050,19 @@
    {
     "st": "CT",
     "name": "Connecticut",
-    "in": 37.5,
+    "in": 46.8,
     "winner": "D",
     "cands": [
      {
       "party": "D",
       "name": "Lamont",
-      "pct": 58.3,
+      "pct": 57.4,
       "flip": false
      },
      {
       "party": "R",
       "name": "Fazio",
-      "pct": 41.7,
+      "pct": 42.6,
       "flip": false
      }
     ]
@@ -1082,7 +1082,7 @@
      {
       "party": "R",
       "name": "Donalds",
-      "pct": 50.1,
+      "pct": 50,
       "flip": false
      }
     ]
@@ -1090,19 +1090,19 @@
    {
     "st": "GA",
     "name": "Georgia",
-    "in": 88.3,
+    "in": 93.1,
     "winner": "D",
     "cands": [
      {
       "party": "D",
       "name": "Lance Bottoms",
-      "pct": 54.1,
+      "pct": 54.2,
       "flip": true
      },
      {
       "party": "R",
       "name": "Jackson",
-      "pct": 45.9,
+      "pct": 45.8,
       "flip": false
      }
     ]
@@ -1130,19 +1130,19 @@
    {
     "st": "IA",
     "name": "Iowa",
-    "in": 65.2,
-    "winner": null,
+    "in": 87.3,
+    "winner": "D",
     "cands": [
      {
       "party": "D",
       "name": "Sand",
-      "pct": 57.7,
-      "flip": false
+      "pct": 56.7,
+      "flip": true
      },
      {
       "party": "R",
       "name": "Lahn",
-      "pct": 42.3,
+      "pct": 43.3,
       "flip": false
      }
     ]
@@ -1150,19 +1150,25 @@
    {
     "st": "ID",
     "name": "Idaho",
-    "in": 0,
+    "in": 24.5,
     "winner": null,
     "cands": [
      {
       "party": "D",
       "name": "Pickens",
-      "pct": 0,
+      "pct": 42.8,
       "flip": false
      },
      {
       "party": "R",
       "name": "Little",
-      "pct": 0,
+      "pct": 46.2,
+      "flip": false
+     },
+     {
+      "party": "O",
+      "name": "Stegner",
+      "pct": 9,
       "flip": false
      }
     ]
@@ -1170,19 +1176,19 @@
    {
     "st": "IL",
     "name": "Illinois",
-    "in": 73.2,
+    "in": 76.1,
     "winner": "D",
     "cands": [
      {
       "party": "D",
       "name": "Pritzker",
-      "pct": 59.6,
+      "pct": 59.9,
       "flip": false
      },
      {
       "party": "R",
       "name": "Bailey",
-      "pct": 37.1,
+      "pct": 36.8,
       "flip": false
      },
      {
@@ -1196,19 +1202,19 @@
    {
     "st": "KS",
     "name": "Kansas",
-    "in": 84.5,
+    "in": 90.7,
     "winner": null,
     "cands": [
      {
       "party": "D",
       "name": "Holscher",
-      "pct": 51.8,
+      "pct": 51,
       "flip": false
      },
      {
       "party": "R",
       "name": "Masterson",
-      "pct": 48.2,
+      "pct": 49,
       "flip": false
      }
     ]
@@ -1216,13 +1222,13 @@
    {
     "st": "MA",
     "name": "Massachusetts",
-    "in": 35,
+    "in": 46.1,
     "winner": "D",
     "cands": [
      {
       "party": "D",
       "name": "Healey",
-      "pct": 64,
+      "pct": 64.1,
       "flip": false
      },
      {
@@ -1234,7 +1240,7 @@
      {
       "party": "O",
       "name": "James",
-      "pct": 3.5,
+      "pct": 3.4,
       "flip": false
      }
     ]
@@ -1242,19 +1248,19 @@
    {
     "st": "MD",
     "name": "Maryland",
-    "in": 71.3,
+    "in": 76.1,
     "winner": "D",
     "cands": [
      {
       "party": "D",
       "name": "Moore",
-      "pct": 62.8,
+      "pct": 62.6,
       "flip": false
      },
      {
       "party": "R",
       "name": "Cox",
-      "pct": 33.2,
+      "pct": 33.4,
       "flip": false
      }
     ]
@@ -1262,25 +1268,25 @@
    {
     "st": "ME",
     "name": "Maine",
-    "in": 34.6,
+    "in": 45.4,
     "winner": null,
     "cands": [
      {
       "party": "D",
       "name": "Pingree",
-      "pct": 51.2,
+      "pct": 51.1,
       "flip": false
      },
      {
       "party": "R",
       "name": "Charles",
-      "pct": 40.5,
+      "pct": 40.8,
       "flip": false
      },
      {
       "party": "O",
       "name": "Bennett",
-      "pct": 8.2,
+      "pct": 8.1,
       "flip": false
      }
     ]
@@ -1288,19 +1294,19 @@
    {
     "st": "MI",
     "name": "Michigan",
-    "in": 29.8,
+    "in": 34.3,
     "winner": null,
     "cands": [
      {
       "party": "D",
       "name": "Benson",
-      "pct": 53.4,
+      "pct": 52.3,
       "flip": false
      },
      {
       "party": "R",
       "name": "James",
-      "pct": 44.9,
+      "pct": 46,
       "flip": false
      }
     ]
@@ -1308,19 +1314,19 @@
    {
     "st": "MN",
     "name": "Minnesota",
-    "in": 23.2,
+    "in": 36.1,
     "winner": null,
     "cands": [
      {
       "party": "D",
       "name": "Klobuchar",
-      "pct": 48,
+      "pct": 47.8,
       "flip": false
      },
      {
       "party": "R",
       "name": "Demuth",
-      "pct": 50.3,
+      "pct": 50.4,
       "flip": false
      }
     ]
@@ -1328,19 +1334,19 @@
    {
     "st": "NE",
     "name": "Nebraska",
-    "in": 43.4,
+    "in": 49,
     "winner": null,
     "cands": [
      {
       "party": "D",
       "name": "Walz",
-      "pct": 50.6,
+      "pct": 48,
       "flip": false
      },
      {
       "party": "R",
       "name": "Pillen",
-      "pct": 43.2,
+      "pct": 45.7,
       "flip": false
      }
     ]
@@ -1348,19 +1354,19 @@
    {
     "st": "NH",
     "name": "New Hampshire",
-    "in": 69.5,
+    "in": 76.3,
     "winner": null,
     "cands": [
      {
       "party": "D",
       "name": "Warmington",
-      "pct": 47.7,
+      "pct": 47.5,
       "flip": false
      },
      {
       "party": "R",
       "name": "Ayotte",
-      "pct": 50.7,
+      "pct": 50.9,
       "flip": false
      }
     ]
@@ -1368,19 +1374,19 @@
    {
     "st": "NM",
     "name": "New Mexico",
-    "in": 41.9,
+    "in": 49.9,
     "winner": "D",
     "cands": [
      {
       "party": "D",
       "name": "Haaland",
-      "pct": 56.6,
+      "pct": 56,
       "flip": false
      },
      {
       "party": "R",
       "name": "Hull",
-      "pct": 43.4,
+      "pct": 44,
       "flip": false
      }
     ]
@@ -1408,19 +1414,19 @@
    {
     "st": "NY",
     "name": "New York",
-    "in": 74.1,
+    "in": 78.4,
     "winner": "D",
     "cands": [
      {
       "party": "D",
       "name": "Hochul",
-      "pct": 61.6,
+      "pct": 60.9,
       "flip": false
      },
      {
       "party": "R",
       "name": "Blakeman",
-      "pct": 38.2,
+      "pct": 38.9,
       "flip": false
      }
     ]
@@ -1428,19 +1434,19 @@
    {
     "st": "OH",
     "name": "Ohio",
-    "in": 86.5,
+    "in": 87.6,
     "winner": "D",
     "cands": [
      {
       "party": "D",
       "name": "Acton",
-      "pct": 50.8,
+      "pct": 50.9,
       "flip": true
      },
      {
       "party": "R",
       "name": "Ramaswamy",
-      "pct": 45.9,
+      "pct": 45.8,
       "flip": false
      }
     ]
@@ -1448,19 +1454,19 @@
    {
     "st": "OK",
     "name": "Oklahoma",
-    "in": 84.1,
+    "in": 90.1,
     "winner": null,
     "cands": [
      {
       "party": "D",
       "name": "Munson",
-      "pct": 45.4,
+      "pct": 45.9,
       "flip": false
      },
      {
       "party": "R",
       "name": "Mazzei",
-      "pct": 52.4,
+      "pct": 52,
       "flip": false
      },
      {
@@ -1474,19 +1480,19 @@
    {
     "st": "OR",
     "name": "Oregon",
-    "in": 0,
+    "in": 46.3,
     "winner": null,
     "cands": [
      {
       "party": "D",
       "name": "Kotek",
-      "pct": 0,
+      "pct": 55.4,
       "flip": false
      },
      {
       "party": "R",
       "name": "Drazan",
-      "pct": 0,
+      "pct": 42.1,
       "flip": false
      }
     ]
@@ -1494,19 +1500,19 @@
    {
     "st": "PA",
     "name": "Pennsylvania",
-    "in": 84.8,
+    "in": 88.7,
     "winner": "D",
     "cands": [
      {
       "party": "D",
       "name": "Shapiro",
-      "pct": 60.2,
+      "pct": 60.1,
       "flip": false
      },
      {
       "party": "R",
       "name": "Garrity",
-      "pct": 38.5,
+      "pct": 38.6,
       "flip": false
      }
     ]
@@ -1514,7 +1520,7 @@
    {
     "st": "RI",
     "name": "Rhode Island",
-    "in": 93.8,
+    "in": 93.6,
     "winner": "D",
     "cands": [
      {
@@ -1540,8 +1546,8 @@
    {
     "st": "SC",
     "name": "South Carolina",
-    "in": 97.6,
-    "winner": null,
+    "in": 98,
+    "winner": "R",
     "cands": [
      {
       "party": "D",
@@ -1560,19 +1566,19 @@
    {
     "st": "SD",
     "name": "South Dakota",
-    "in": 33.5,
+    "in": 49.1,
     "winner": null,
     "cands": [
      {
       "party": "D",
       "name": "Ahlers",
-      "pct": 32.8,
+      "pct": 36,
       "flip": false
      },
      {
       "party": "R",
       "name": "Rhoden",
-      "pct": 67.2,
+      "pct": 64,
       "flip": false
      }
     ]
@@ -1580,19 +1586,19 @@
    {
     "st": "TN",
     "name": "Tennessee",
-    "in": 86.1,
+    "in": 89,
     "winner": null,
     "cands": [
      {
       "party": "D",
       "name": "Green",
-      "pct": 43.6,
+      "pct": 43.4,
       "flip": false
      },
      {
       "party": "R",
       "name": "Blackburn",
-      "pct": 45,
+      "pct": 45.2,
       "flip": false
      },
      {
@@ -1606,19 +1612,19 @@
    {
     "st": "TX",
     "name": "Texas",
-    "in": 66.1,
-    "winner": null,
+    "in": 68.9,
+    "winner": "D",
     "cands": [
      {
       "party": "D",
       "name": "Hinojosa",
-      "pct": 57.4,
-      "flip": false
+      "pct": 56.7,
+      "flip": true
      },
      {
       "party": "R",
       "name": "Abbott",
-      "pct": 41.3,
+      "pct": 42,
       "flip": false
      }
     ]
@@ -1626,19 +1632,19 @@
    {
     "st": "VT",
     "name": "Vermont",
-    "in": 91.2,
+    "in": 93.5,
     "winner": "R",
     "cands": [
      {
       "party": "D",
       "name": "Janoo",
-      "pct": 46.3,
+      "pct": 46.1,
       "flip": false
      },
      {
       "party": "R",
       "name": "Scott",
-      "pct": 51.9,
+      "pct": 52.2,
       "flip": false
      },
      {
@@ -1652,19 +1658,19 @@
    {
     "st": "WI",
     "name": "Wisconsin",
-    "in": 73.3,
+    "in": 81.8,
     "winner": "D",
     "cands": [
      {
       "party": "D",
       "name": "Crowley",
-      "pct": 53.8,
+      "pct": 53.5,
       "flip": false
      },
      {
       "party": "R",
       "name": "Tiffany",
-      "pct": 46.2,
+      "pct": 46.5,
       "flip": false
      }
     ]
@@ -1672,19 +1678,19 @@
    {
     "st": "WY",
     "name": "Wyoming",
-    "in": 24.3,
+    "in": 50.3,
     "winner": "R",
     "cands": [
      {
       "party": "D",
       "name": "Casner",
-      "pct": 14.9,
+      "pct": 13.5,
       "flip": false
      },
      {
       "party": "R",
       "name": "Barlow",
-      "pct": 68,
+      "pct": 68.1,
       "flip": false
      }
     ]
