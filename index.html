@@ -9,7 +9,7 @@
 <style>
 /* Layout: 상단 바 / 메인(임베드 멀티뷰) + 오른쪽 의석 상황판 / 하단 창으로 보는 방송사 런처 */
 :root{
-  --bg:#0b0d12; --panel:#12151c; --panel2:#181c25; --line:#232837; --fg:#e7e9ee; --dim:#8a90a2;
+  --bg:#0b0d12; --panel:#12151c; --panel2:#181c25; --line:#2a3042; --fg:#eef0f4; --dim:#a4aabb;
   --dem:#3b6fe0; --dem-soft:#3b6fe055; --rep:#d8433b; --rep-soft:#d8433b55; --oth:#8a7fb8;
   --live:#ff3b30; --focus:#f2c14e;
   --display:"Barlow Condensed","Arial Narrow",sans-serif;
@@ -187,6 +187,38 @@ footer .btn{padding:5px 10px}
 #bench{display:contents}
 #bench button{background:none;border:1px dashed var(--line);border-radius:4px;padding:5px 10px;font-size:13px}
 #bench button:hover{border-color:var(--sel);color:var(--sel)}
+/* ---- PC 가독성 ---- */
+/* 방송 칸: 이름과 LIVE는 늘 보이고, 버튼과 링크 바꾸기 칸은 마우스를 올렸을 때만 */
+.tile .cap{position:absolute;inset:0 0 auto 0;z-index:2;background:linear-gradient(#000c,#0000);padding:6px 8px 14px;pointer-events:none}
+.tile .cap > *{pointer-events:auto}
+.tile .cap .name{font-size:16px;text-shadow:0 1px 3px #000}
+.tile .cap button,.tile .cap a{opacity:0;transition:opacity .15s;background:#000a}
+.tile:hover .cap button,.tile:hover .cap a,.tile:focus-within .cap button,.tile:focus-within .cap a{opacity:1}
+.tile .swap{position:absolute;inset:auto 0 0 0;z-index:2;opacity:0;transition:opacity .15s;background:#000c}
+.tile:hover .swap,.tile:focus-within .swap{opacity:1}
+.tile.audio .cap .name::after{content:" 🔊";font-size:13px}
+.badge{font-size:12px;padding:2px 7px}
+/* 스테이지 글자 키우기 */
+#viewTabs button{font-size:14px;padding:5px 12px}
+#stage .chhead small{font-size:14px;color:var(--dim)}
+#stage .meterRow span{font-size:14px}
+#stage .status{font-size:15px;line-height:1.5}
+#stage .status b{font-size:17px}
+#stage .legend{font-size:13px}
+.score span{font-size:15px}
+.stageHead{padding-bottom:4px;border-bottom:1px solid var(--line)}
+.stageHead small{font-size:14px}
+.gain{font-family:var(--mono);font-size:15px;color:var(--dim)}
+.gain .up{color:var(--focus)}
+.tmap span{font-size:clamp(10px,0.9vw,15px);font-weight:600}
+#v-hemi .hemi .cap2{font-size:18px}
+#v-hemi .hemi .cap2 b{font-size:26px}
+#v-news #news .brk{font-size:13px;padding:1px 7px}
+.clock span{font-size:11px}
+.clock b{font-size:19px}
+#ticker{height:38px;font-size:15px}
+footer{font-size:14px}
+#note{font-size:15px!important}
 #note{padding:8px 16px;background:#3a2a0a;color:var(--focus);font-size:13px}
 @media (max-width:900px){
   body{height:auto}
@@ -836,7 +868,14 @@ let lastRes=null;
   seats.prepend(tabs, prog); seats.append(vSeats,vHemi,vSen,vGov,vNews);
   // 각 화면 위에 큰 제목, 의석판에는 큰 숫자판
   const head=(v,t,sub)=>{ const h=document.createElement("div"); h.className="stageHead"; h.innerHTML=`<h1>${t}</h1><small>${sub||""}</small>`; v.prepend(h); };
+  [house,senate].forEach(ch=>{ const g=document.createElement("div"); g.className="gain"; ch.querySelector(".status").before(g); });
   [house,senate].forEach(ch=>{ const sc=document.createElement("div"); sc.className="score"; sc.innerHTML=`<div class="d"><b data-n="0">0</b><span>민주 확정</span></div><div class="r" style="text-align:right"><b data-n="0">0</b><span>공화 확정</span></div>`; ch.querySelector(".chhead").after(sc); });
+  head(vSeats,"의석 현황",'<span class="srcLine"></span>');
+  head(vHemi,"의회 구성",'<span class="srcLine"></span>');
+  head(vSen,"상원 선거 지도",'<span class="srcLine"></span>');
+  head(vGov,"주지사 선거 지도",'<span class="srcLine"></span>');
+  head(vNews,"주요 뉴스",'<span id="newsTime2"></span>');
+  [vSen,vGov].forEach(v=>v.style.justifyContent="flex-start");
   vSeats.style.position="relative";
   vNews.querySelector(".lbl span").textContent="주요 뉴스";
   document.getElementById("stage").appendChild(seats);
@@ -965,6 +1004,16 @@ const _tm=tileMap; tileMap=function(box,rows){ _tm(box,rows);
       const el=[...box.children].find(x=>x.textContent===r.st); el?.classList.add("changed"); }
     prevWin[k]=r.winner||null; });
 };
+
+// 출처·시각 줄과 탈환 수 갱신
+const _dv=drawViews; drawViews=function(){ _dv(); const d=lastRes; if(!d) return;
+  const m=Math.round((Date.now()-new Date(d.updated))/60000);
+  document.querySelectorAll(".srcLine").forEach(x=>x.textContent=`${d.source} · ${m<1?"방금":m+"분 전"} 수집`);
+  for (const ch of ["house","senate"]){ const src=d[ch]; const box=document.querySelector(`.chamber[data-ch="${ch}"] .gain`); if(!src||!box) continue;
+    const f=k=>src.parties[k]; const sgn=n=>n>0?`<span class="up">+${n}</span>`:n;
+    box.innerHTML=`정당 교체 · 민주 ${sgn(f("D").netGain)} / 공화 ${sgn(f("R").netGain)}`+(ch==="senate"?` · 이번 선거 ${src.upForElection||35}석`:""); }
+};
+setInterval(()=>{ const a=document.getElementById("newsTime"), b=document.getElementById("newsTime2"); if(a&&b) b.textContent=a.textContent; }, 5000);
 renderAll(); renderSeats(); markPin(); drawMeters(); playView(document.getElementById(VIEWS[viewIdx][0]));
 </script>
 </body>
