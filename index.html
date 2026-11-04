@@ -219,6 +219,18 @@ footer .btn{padding:5px 10px}
 #ticker{height:38px;font-size:15px}
 footer{font-size:14px}
 #note{font-size:15px!important}
+/* ---- 속보 카드 (스테이지 위) ---- */
+#breakCard{position:absolute;inset:auto 18px 18px 18px;z-index:5;background:linear-gradient(90deg,#3a0d0d,#1a0b0b 70%);border:1px solid #6b1a1a;border-left:6px solid var(--live);border-radius:4px;padding:16px 20px 14px;display:flex;flex-direction:column;gap:6px;box-shadow:0 18px 50px #000b;cursor:pointer;animation:cardIn .55s cubic-bezier(.2,.8,.2,1)}
+#breakCard .bt{display:flex;align-items:center;gap:10px;font-family:var(--display);font-weight:700;letter-spacing:.12em;color:#fff;font-size:15px}
+#breakCard .bt i{width:9px;height:9px;border-radius:50%;background:var(--live);animation:pulse 1s infinite}
+#breakCard h3{margin:0;font-size:clamp(20px,2.1vw,34px);line-height:1.25;text-wrap:balance}
+#breakCard .bm{font-family:var(--mono);font-size:13px;color:var(--dim)}
+#breakCard .bp{height:3px;background:#ffffff1a;border-radius:2px;overflow:hidden;margin-top:4px}
+#breakCard .bp b{display:block;height:100%;background:var(--live);animation:drain var(--t,20s) linear forwards}
+@keyframes cardIn{from{opacity:0;transform:translateY(30px) scale(.98)}}
+@keyframes drain{from{width:100%}to{width:0}}
+#stage.mini #breakCard{display:none}
+@media (prefers-reduced-motion:reduce){#breakCard,#breakCard .bt i{animation:none}#breakCard .bp b{animation:none;width:100%}}
 #note{padding:8px 16px;background:#3a2a0a;color:var(--focus);font-size:13px}
 @media (max-width:900px){
   body{height:auto}
@@ -319,6 +331,7 @@ footer{font-size:14px}
         <button class="btn primary" id="ytGo">찾기</button></div>
       <label class="status"><input type="checkbox" id="ytAuto"> 10분마다 자동으로 다시 찾기</label>
       <label class="status"><input type="checkbox" id="watch"> 중요한 순간 자동으로 소리 고정</label>
+      <label class="status"><input type="checkbox" id="brkLive"> 속보가 뜨면 관련 라이브를 찾아 가운데에 띄우기 (API 키 필요)</label>
       <label class="status"><input type="checkbox" id="catchUp"> 라이브가 30초 넘게 늦어지면 실시간으로 당기기</label>
       <label class="status"><input type="checkbox" id="focusOn"> 고정되면 그 화면을 크게, 나머지는 작게</label>
       <label class="status">원래 화면으로 돌아가기까지
@@ -739,7 +752,9 @@ async function loadNews(){
   list.forEach(it=>{ const a=document.createElement("a"); a.href=it.link; a.target="_blank"; a.rel="noopener";
     const b=document.createElement("b"); b.textContent=it.source; a.append(b, it.title); tr.appendChild(a); });
   tr.style.setProperty("--dur", Math.max(60, list.length*12)+"s");
-  if(fresh.length) note(`속보 · ${fresh[0].source}: ${fresh[0].title}`);
+  if(fresh.length){ note(`속보 · ${fresh[0].source}: ${fresh[0].title}`); fresh.slice(0,3).forEach(queueBreaking); }
+  // 처음 열었을 때도 30분 안에 나온 최신 속보 하나는 가운데에 띄운다
+  if(firstNews){ const top=(d.items||[]).find(i=>i.breaking && i.time && Date.now()-new Date(i.time)<1800000); if(top) queueBreaking(top); }
   firstNews=false;
 }
 loadNews(); setInterval(loadNews, 60000);
@@ -1014,6 +1029,58 @@ const _dv=drawViews; drawViews=function(){ _dv(); const d=lastRes; if(!d) return
     box.innerHTML=`정당 교체 · 민주 ${sgn(f("D").netGain)} / 공화 ${sgn(f("R").netGain)}`+(ch==="senate"?` · 이번 선거 ${src.upForElection||35}석`:""); }
 };
 setInterval(()=>{ const a=document.getElementById("newsTime"), b=document.getElementById("newsTime2"); if(a&&b) b.textContent=a.textContent; }, 5000);
+
+// ---------- 속보: 가운데 카드 + 관련 라이브 ----------
+const brkQ=[]; let brkShowing=false;
+function queueBreaking(it){ brkQ.push(it); if(!brkShowing) nextBreaking(); findRelatedLive(it); }
+function nextBreaking(){
+  const it=brkQ.shift(); const old=document.getElementById("breakCard"); old?.remove();
+  if(!it){ brkShowing=false; return; }
+  brkShowing=true;
+  const c=document.createElement("div"); c.id="breakCard"; c.title="눌러서 기사 열기";
+  c.innerHTML=`<div class="bt"><i></i>BREAKING · 속보</div><h3></h3><div class="bm"></div><div class="bp"><b></b></div>`;
+  c.querySelector("h3").textContent=it.title;
+  c.querySelector(".bm").textContent=`${it.source} · ${it.time?new Date(it.time).toLocaleTimeString("ko-KR",{timeZone:"Asia/Seoul",hour:"2-digit",minute:"2-digit"})+" KST":""}`;
+  c.onclick=()=>window.open(it.link,"_blank","noopener");
+  document.getElementById("stage").appendChild(c);
+  setTimeout(nextBreaking, 20000);
+}
+const brkLive=document.getElementById("brkLive"); brkLive.checked = S.brkLive!==false;
+brkLive.onchange=()=>{ S.brkLive=brkLive.checked; save(); };
+let lastLiveSearch=0;
+const STOP=new Set(["Democrat","Democrats","Democratic","Republican","Republicans","GOP","AP","Election","Midterm","Midterms","Senate","House","Governor","Live","Breaking","The","A","US","U.S.","Watch","Rep","Sen","Gov"]);
+function keyTerms(title){
+  // 헤드라인에서 사람 이름처럼 대문자로 이어지는 말을 뽑는다 (예: "Amy Acton")
+  const words=title.replace(/[’']s\b/g,"").split(/[^A-Za-z.\-]+/).filter(Boolean);
+  const names=[]; let cur=[];
+  for(const w of words){ if(/^[A-Z][a-z.\-]+$/.test(w) && !STOP.has(w)) cur.push(w); else { if(cur.length>=2) names.push(cur.join(" ")); cur=[]; } }
+  if(cur.length>=2) names.push(cur.join(" "));
+  return names[0] || title.split(" ").slice(0,6).join(" ");
+}
+async function findRelatedLive(it){
+  if(S.brkLive===false) return;
+  const key=(document.getElementById("ytKey").value||"").trim(); if(!key) return;
+  if(Date.now()-lastLiveSearch<5*60000) return;   // 검색은 하루 한도가 있어서 5분에 한 번만
+  lastLiveSearch=Date.now();
+  const q=keyTerms(it.title)+" live";
+  const u=new URL("https://www.googleapis.com/youtube/v3/search");
+  Object.entries({part:"snippet",type:"video",eventType:"live",videoEmbeddable:"true",order:"relevance",maxResults:"5",q,key}).forEach(([k,v])=>u.searchParams.set(k,v));
+  try{
+    const r=await fetch(u); if(!r.ok) return; const d=await r.json();
+    const hit=(d.items||[])[0]; if(!hit) return;
+    const id=hit.id.videoId, name=hit.snippet.channelTitle;
+    let ch=S.channels.find(c=>parse(c.src)?.id===id);
+    const vis=visibleCh();
+    if(!ch || !vis.includes(ch)){
+      // 보이는 마지막 칸 자리에 넣고, 원래 방송은 대기 화면으로
+      if(!ch){ ch={name:uniqName(name), src:id, embed:true}; S.channels.push(ch); }
+      const a=S.channels.indexOf(vis[vis.length-1]), b=S.channels.indexOf(ch);
+      [S.channels[a],S.channels[b]]=[S.channels[b],S.channels[a]]; save(); renderAll();
+    }
+    liveState[id]="live";
+    pinTo(ch.name, +(S.pinMin||5), `속보 관련 라이브: ${q.replace(/ live$/,"")}`);
+  }catch(e){}
+}
 renderAll(); renderSeats(); markPin(); drawMeters(); playView(document.getElementById(VIEWS[viewIdx][0]));
 </script>
 </body>
