@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-05T10:12:10.844434+00:00",
+"updated": "2026-11-05T10:14:25.283900+00:00",
 "errors": [],
 "events": [
 {
@@ -59,7 +59,7 @@
 "id": "wNISX20261105_00038565131000",
 "first": "2026-11-05T10:00:07+00:00",
 "last": "2026-11-05T10:07:00+00:00",
-"updated": "2026-11-05T10:12:10.844434+00:00",
+"updated": "2026-11-05T10:14:25.283900+00:00",
 "headline": "윤석열 '내란 우두머리' 재판 2심, 내년 1월 26일 선고",
 "cat": "사회",
 "regions": [],
@@ -69,6 +69,7 @@
 "뉴스1",
 "뉴스핌",
 "뉴시스",
+"대전일보",
 "머니투데이",
 "스페셜타임스",
 "연합뉴스",
@@ -131,6 +132,13 @@
 "source": "KBS 뉴스",
 "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5SQVFsOEw5UzdtNzZpa2xHMkJpYURiWmNtTXFmU1RkTkZGTkhDQVRZMnlFVWpQZzFyMk5QcHhpbW1peC1uRmszQ0I3TDh4Z200M1V5TkNPX1lRTnU3V3lpdU9ZX2FqUQ?oc=5",
 "time": "2026-11-05T10:05:18+00:00",
+"stage": "속보"
+},
+{
+"title": "[속보] '내란 우두머리' 혐의 윤 전 대통령 항소심 내년 1월 26일 선고",
+"source": "대전일보",
+"link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5kRDNKaGVnYlpiNmZsV1FVY1lrWFFmVUZnX3NTZTJZeE5uckZtLVQ5TEc1ZGRXQzVjZGJCMTVQMEo1cHpBdVE0UnhhNkNOVTg5LW92cWsycWtGZ0pwQkRFSXFCdmI4TmlXWHhzT25iVdIBc0FVX3lxTE12UEJsMmhaazYxaFl2aGw4UzdSZFJoV2hpRDU3SHFlLVV4eF9iUnNYUVk5eWRwc1RlNzVYSmRKcy1USVQ1U0d4d0ppVmkyX3RYMDVRd283d0tNempSQU11aFU4NHFNNDNoLUdWS2NpSlRicTg?oc=5",
+"time": "2026-11-05T10:06:00+00:00",
 "stage": "속보"
 },
 {
@@ -4902,7 +4910,7 @@
 },
 "화재": {
 "n30": 1,
-"base": 1.4,
+"base": 1.3,
 "spike": false
 },
 "불났": {
@@ -4916,8 +4924,8 @@
 "spike": false
 },
 "폭발": {
-"n30": 3,
-"base": 0.1,
+"n30": 4,
+"base": 0.2,
 "spike": false
 },
 "붕괴": {
@@ -4937,7 +4945,7 @@
 },
 "속보": {
 "n30": 2,
-"base": 0.1,
+"base": 0.2,
 "spike": false
 },
 "지하철": {
@@ -4947,7 +4955,7 @@
 },
 "사고": {
 "n30": 5,
-"base": 4.1,
+"base": 4.2,
 "spike": false
 },
 "실종": {
@@ -4978,6 +4986,16 @@
 },
 "posts": [
 {
+"text": "되는 일이 없다 ...... 예전에 폭발하던 수준에 비하면 완전 아 짜증나!!! 하고 마는 정도이긴 한데 울컥하는 성질머리 어떡할 거임..... 예전: 전철을 타고 간댔는데 직전에 버스로 바꿨다고 개빡쳐서 말 한 마디도 안하고 부들부들 떨며 눈물 뚝뚝 떨구며 분노에 참",
+"handle": "mudeul.bsky.social",
+"name": "무들",
+"time": "2026-11-05T10:12:21.376Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/mudeul.bsky.social/post/3mzkmxmo4e2zk",
+"term": "폭발"
+},
+{
 "text": "속보: 한국에서 규모 17.8 강진 발생...",
 "handle": "vyron-my-husband.bsky.social",
 "name": "삼화(삼성보다는한화X삼성화이팅O)",
@@ -4992,8 +5010,8 @@
 "handle": "mongmongwal.bsky.social",
 "name": "🐕몽몽",
 "time": "2026-11-05T10:10:50.877Z",
-"likes": 0,
-"reposts": 0,
+"likes": 2,
+"reposts": 1,
 "url": "https://bsky.app/profile/mongmongwal.bsky.social/post/3mzkmuvgo6l2r",
 "term": "사고"
 },
@@ -5249,18 +5267,18 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 0.2,
-"화재": 1.34,
+"지진": 0.18,
+"화재": 1.31,
 "불났": 0.0,
 "정전": 0.0,
-"폭발": 0.24,
+"폭발": 0.42,
 "붕괴": 0.05,
-"대피": 0.34,
+"대피": 0.41,
 "미사일": 0.05,
-"속보": 0.24,
-"지하철": 0.11,
-"사고": 4.19,
-"실종": 0.1,
+"속보": 0.32,
+"지하철": 0.1,
+"사고": 4.27,
+"실종": 0.09,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -5463,7 +5481,7 @@
 "trends": [
 {
 "term": "유네스코",
-"traffic": "200+",
+"traffic": "500+",
 "time": "2026-11-05T09:00:00+00:00",
 "news": [
 {
@@ -5516,6 +5534,24 @@
 "new": false
 },
 {
+"term": "차명석",
+"traffic": "1000+",
+"time": "2026-11-05T08:40:00+00:00",
+"news": [
+{
+"title": "LG 트윈스, 새 외국인 에이스 트리스탄 벡 영입…2027시즌 마운드 재편 시동",
+"source": "제민일보",
+"link": "https://www.jemin.com/news/articleView.html?idxno=846226"
+},
+{
+"title": "\"방출 가능성 높았지만\" LG는 기다리지 않았다…이적료 감수하고 '157km 빅리거' 쟁탈전 승리, 4위 굴욕 씻나",
+"source": "조선일보",
+"link": "https://www.chosun.com/sports/baseball/2026/11/05/GJTGMZLGGFRWKNBUHAZTMNDEME/"
+}
+],
+"new": true
+},
+{
 "term": "fifa u-17 여자 월드컵",
 "traffic": "100+",
 "time": "2026-11-05T08:20:00+00:00",
@@ -5557,9 +5593,9 @@
 "time": "2026-11-05T08:10:00+00:00",
 "news": [
 {
-"title": "정현규, 태도 논란에도 '데블스플랜3' 또 출연…\"지금도 반성 중\" - 머니투데이",
+"title": "레전드 멤버들 모인 '데블스 플랜 : 데드 어게인'",
 "source": "머니투데이",
-"link": "https://www.mt.co.kr/entertainment/2026/11/05/2026110514584552886"
+"link": "https://www.mt.co.kr/photo/202611051403287482"
 },
 {
 "title": "장동민부터 홍진호·하석진까지…'데블스 플랜3', 역대급 두뇌 전쟁 예고",
@@ -5571,18 +5607,18 @@
 },
 {
 "term": "시험",
-"traffic": "500+",
+"traffic": "1000+",
 "time": "2026-11-05T07:50:00+00:00",
 "news": [
-{
-"title": "“안경 잘못 건드렸다 고소당할라”…수능 2주 앞 감독 기피하는 교사들",
-"source": "경기일보",
-"link": "https://www.kyeonggi.com/article/20261104580512"
-},
 {
 "title": "서울시립대, 논술 시험에 스마트안경 쓴 수험생 2명 고소…업무방해 혐의",
 "source": "연합뉴스TV",
 "link": "https://www.yonhapnewstv.co.kr/news/MYH20261105185022VqP"
+},
+{
+"title": "이 대통령 \"수능서 스마트 안경 등 활용한 부정행위 원천 차단해야…종합대책 마련\"",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261105_0003856417"
 }
 ],
 "new": false
@@ -5619,24 +5655,6 @@
 "title": "'갤럭시 쓰는 남자 별루' 프리지아, 기업인과 열애설 부인 \"법적 대응\"",
 "source": "파이낸셜뉴스",
 "link": "https://www.fnnews.com/news/202611051737585672"
-}
-],
-"new": false
-},
-{
-"term": "위험성",
-"traffic": "200+",
-"time": "2026-11-05T07:10:00+00:00",
-"news": [
-{
-"title": "건설현장 수시 위험성평가, 작업 전 실시 의무화",
-"source": "대한경제",
-"link": "https://www.dnews.co.kr/uhtml/view.jsp?idxno=202611042149477910697"
-},
-{
-"title": "위험성평가 안 하면 과태료…노동자 참여 의무도 강화",
-"source": "전기신문",
-"link": "https://www.electimes.com/news/articleView.html?idxno=374340"
 }
 ],
 "new": false
@@ -5703,6 +5721,7 @@
 "젠지 라이언",
 "주식",
 "진쓰레블 사망",
+"차명석",
 "축제",
 "프리지아",
 "필리핀",
