@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-05T03:44:43.601730+00:00",
+"updated": "2026-11-05T03:47:00.326464+00:00",
 "errors": [],
 "events": [
 {
@@ -795,7 +795,7 @@
 "id": "viewAKR202611050895000010245",
 "first": "2026-11-05T02:45:03+00:00",
 "last": "2026-11-05T03:00:05+00:00",
-"updated": "2026-11-05T03:01:42.568057+00:00",
+"updated": "2026-11-05T03:47:00.326464+00:00",
 "headline": "趙의장, 오후 3시 본회의에 조작기소 특별법안 상정키로",
 "cat": "기타",
 "regions": [],
@@ -805,7 +805,8 @@
 "뉴시스",
 "연합뉴스",
 "연합뉴스 한민족센터",
-"연합뉴스TV"
+"연합뉴스TV",
+"한국경제"
 ],
 "updates": [
 {
@@ -820,6 +821,13 @@
 "source": "연합뉴스 한민족센터",
 "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9yM1VYUGh2SFpFY096NEdBUXlpdC1paEdjZzBaTGp3czQ3SlktTmhWM19pR19RQmFCOWFrcVVFbDJHaTdLYUNGbDV1WVhwWEtMZnpBOUxtMmwzRFhCY2w1dU5jMzMzYWQzbm1Fb2FZMG9KaDhH?oc=5",
 "time": "2026-11-05T02:45:03+00:00",
+"stage": "속보"
+},
+{
+"title": "[속보] 趙의장, 오후 3시 본회의에 조작기소 특별법안 상정키로",
+"source": "한국경제",
+"link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9oX0VMSGJzbXc1T0Y0WExsSlk3UVpfNm8zTTRxaUo0OVdvNUpNanZXWi1zWGtDU3NtNk00azZsZVFXLTRKdGJuZl9tU2dKSll6V2JBOWpvclYtUQ?oc=5",
+"time": "2026-11-05T02:47:45+00:00",
 "stage": "속보"
 },
 {
@@ -2290,9 +2298,9 @@
 "spike": false
 },
 "폭발": {
-"n30": 5,
+"n30": 4,
 "base": 0.2,
-"spike": true
+"spike": false
 },
 "붕괴": {
 "n30": 2,
@@ -2305,23 +2313,23 @@
 "spike": false
 },
 "미사일": {
-"n30": 4,
+"n30": 3,
 "base": 0.1,
 "spike": false
 },
 "속보": {
-"n30": 8,
+"n30": 6,
 "base": 0.0,
 "spike": true
 },
 "지하철": {
 "n30": 4,
-"base": 0.4,
+"base": 0.5,
 "spike": false
 },
 "사고": {
 "n30": 3,
-"base": 1.9,
+"base": 2.0,
 "spike": false
 },
 "실종": {
@@ -2377,7 +2385,7 @@
 "name": "正元",
 "time": "2026-11-05T03:39:16.982Z",
 "likes": 0,
-"reposts": 0,
+"reposts": 1,
 "url": "https://bsky.app/profile/lungrizz.bsky.social/post/3mzjwyp7z5k2c",
 "term": "지진"
 },
@@ -2639,32 +2647,25 @@
 ],
 "spikes": [
 {
-"term": "폭발",
-"n30": 5,
-"base": 0.2,
-"spike": true,
-"since": "2026-11-05T03:44:43.601730+00:00"
-},
-{
 "term": "속보",
-"n30": 8,
+"n30": 6,
 "base": 0.0,
 "spike": true,
-"since": "2026-11-05T03:44:43.601730+00:00"
+"since": "2026-11-05T03:47:00.326464+00:00"
 }
 ],
 "baseline": {
-"지진": 0.43,
+"지진": 0.49,
 "화재": 0.0,
 "불났": 0.0,
 "정전": 0.0,
-"폭발": 0.2,
-"붕괴": 0.81,
+"폭발": 0.18,
+"붕괴": 0.83,
 "대피": 0.0,
 "미사일": 0.05,
 "속보": 0.0,
-"지하철": 0.45,
-"사고": 1.99,
+"지하철": 0.51,
+"사고": 2.09,
 "실종": 0.05,
 "단수": 0.0,
 "통신 장애": 0.0,
@@ -2918,7 +2919,7 @@
 "link": "https://www.imaeil.com/page/view/2026110409513676667"
 }
 ],
-"new": true
+"new": false
 },
 {
 "term": "류현진",
