@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-05T10:41:29.796915+00:00",
+"updated": "2026-11-05T10:43:47.434525+00:00",
 "errors": [],
 "events": [
 {
@@ -62,13 +62,14 @@
 "id": "wNISX20261105_00038565131000",
 "first": "2026-11-05T10:00:07+00:00",
 "last": "2026-11-05T10:27:39+00:00",
-"updated": "2026-11-05T10:32:27.934212+00:00",
+"updated": "2026-11-05T10:43:47.434525+00:00",
 "headline": "윤석열 '내란 우두머리' 재판 2심, 내년 1월 26일 선고",
 "cat": "사회",
 "regions": [],
 "sources": [
 "Chosunbiz",
 "KBS 뉴스",
+"MBC 뉴스",
 "SBS",
 "YTN",
 "뉴스1",
@@ -104,6 +105,13 @@
 "link": "https://www.newsis.com/view/NISX20261105_0003856513",
 "time": "2026-11-05T10:00:07+00:00",
 "stage": "얼럿"
+},
+{
+"title": "[속보] '내란 우두머리' 尹 항소심 내년 1월 26일 선고‥최후진술서 혐의 부인",
+"source": "MBC 뉴스",
+"link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE84MjhvUzJYUkV1RjFXd2dOX2hCU254dEVrZ3VjaHNSWTl4enlsZTJHeUd1UGs1OFpkZnZHWVluWXg0UDFQSXlfeVV2dm10MnFqejdJRV9wUU9EcFlfaWdfVnE5Y1pVMFNIWE12RTU5TnZwaG5xUGdF0gF3QVVfeXFMTjFrbTZQaHRzMWl1T2ItV1dURjNNbnNKTXJwZFBpaUJJQVFwcWkyN3JSeXRCaTdZTVpuRWdHWDlhTmZNZVUzMXBfUDZZMkZ3M1RfR3lfVkU2emdHNXV3YVAyTVY4S200Z3hEVXplbDZDOFZVY3BUdFU?oc=5",
+"time": "2026-11-05T10:00:24+00:00",
+"stage": "속보"
 },
 {
 "title": "[속보] '내란우두머리' 윤석열, 내년 1월 26일 2심 선고",
@@ -225,6 +233,7 @@
 "대통령",
 "될수",
 "머니투데",
+"부인",
 "사건",
 "선고",
 "선고일",
@@ -233,6 +242,7 @@
 "윤석열",
 "재판",
 "지정",
+"최후진술서",
 "항소심",
 "혐의"
 ]
@@ -5015,7 +5025,7 @@
 "spike": false
 },
 "폭발": {
-"n30": 4,
+"n30": 3,
 "base": 1.4,
 "spike": false
 },
@@ -5026,7 +5036,7 @@
 },
 "대피": {
 "n30": 0,
-"base": 0.6,
+"base": 0.5,
 "spike": false
 },
 "미사일": {
@@ -5035,9 +5045,9 @@
 "spike": false
 },
 "속보": {
-"n30": 6,
+"n30": 4,
 "base": 0.8,
-"spike": true
+"spike": false
 },
 "지하철": {
 "n30": 1,
@@ -5046,12 +5056,12 @@
 },
 "사고": {
 "n30": 3,
-"base": 4.9,
+"base": 4.7,
 "spike": false
 },
 "실종": {
 "n30": 1,
-"base": 0.5,
+"base": 0.6,
 "spike": false
 },
 "단수": {
@@ -5198,26 +5208,6 @@
 "term": "사고"
 },
 {
-"text": "되는 일이 없다 ...... 예전에 폭발하던 수준에 비하면 완전 아 짜증나!!! 하고 마는 정도이긴 한데 울컥하는 성질머리 어떡할 거임..... 예전: 전철을 타고 간댔는데 직전에 버스로 바꿨다고 개빡쳐서 말 한 마디도 안하고 부들부들 떨며 눈물 뚝뚝 떨구며 분노에 참",
-"handle": "mudeul.bsky.social",
-"name": "무들",
-"time": "2026-11-05T10:12:21.376Z",
-"likes": 1,
-"reposts": 0,
-"url": "https://bsky.app/profile/mudeul.bsky.social/post/3mzkmxmo4e2zk",
-"term": "폭발"
-},
-{
-"text": "속보: 한국에서 규모 17.8 강진 발생...",
-"handle": "vyron-my-husband.bsky.social",
-"name": "삼화(삼성보다는한화X삼성화이팅O)",
-"time": "2026-11-05T10:11:42.273Z",
-"likes": 1,
-"reposts": 0,
-"url": "https://bsky.app/profile/vyron-my-husband.bsky.social/post/3mzkmwfy7322w",
-"term": "속보"
-},
-{
 "platform": "YouTube",
 "text": "[속보] '내란 우두머리 혐의' 윤석열 항소심 내년 1월 26일 선고 / YTN",
 "handle": "UChlgI3UHCOnwUGzWzbJ3H5w",
@@ -5353,28 +5343,20 @@
 "url": "https://www.youtube.com/watch?v=svWer-JfGH0"
 }
 ],
-"spikes": [
-{
-"term": "속보",
-"n30": 6,
-"base": 0.8,
-"spike": true,
-"since": "2026-11-05T10:41:29.796915+00:00"
-}
-],
+"spikes": [],
 "baseline": {
 "지진": 0.05,
-"화재": 0.37,
+"화재": 0.33,
 "불났": 0.0,
 "정전": 0.0,
-"폭발": 1.37,
+"폭발": 1.23,
 "붕괴": 0.05,
-"대피": 0.5,
+"대피": 0.45,
 "미사일": 0.05,
-"속보": 0.81,
+"속보": 0.73,
 "지하철": 0.05,
-"사고": 4.73,
-"실종": 0.56,
+"사고": 4.56,
+"실종": 0.6,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -5603,6 +5585,24 @@
 },
 "trends": [
 {
+"term": "최종면접",
+"traffic": "100+",
+"time": "2026-11-05T09:40:00+00:00",
+"news": [
+{
+"title": "‘최종면접’ 브래드 피트 꺾고 개봉 첫날 1위 [MK박스오피스]",
+"source": "매일경제",
+"link": "https://www.mk.co.kr/news/movies/12197890"
+},
+{
+"title": "조이현·김재원 '최종면접' 개봉일 1위...한국 영화로 22일만에 탈환",
+"source": "YTN",
+"link": "https://www.ytn.co.kr/_ln/0106_202611051000169031"
+}
+],
+"new": true
+},
+{
 "term": "강원도민일보",
 "traffic": "100+",
 "time": "2026-11-05T09:30:00+00:00",
@@ -5763,24 +5763,6 @@
 }
 ],
 "new": false
-},
-{
-"term": "장동민",
-"traffic": "500+",
-"time": "2026-11-05T08:10:00+00:00",
-"news": [
-{
-"title": "넷플릭스 ‘데블스 플랜: 데드 어게인’, 역대 우승자와 전략가 총집결…10일 두뇌 서바이벌 개막",
-"source": "제민일보",
-"link": "https://www.jemin.com/news/articleView.html?idxno=846241"
-},
-{
-"title": "정현규, 태도 논란에도 '데블스플랜3' 또 출연…\"지금도 반성 중\" - 머니투데이",
-"source": "머니투데이",
-"link": "https://www.mt.co.kr/entertainment/2026/11/05/2026110514584552886"
-}
-],
-"new": false
 }
 ],
 "trendSeen": [
@@ -5849,6 +5831,7 @@
 "주식",
 "진쓰레블 사망",
 "차명석",
+"최종면접",
 "축제",
 "프리지아",
 "필리핀",
