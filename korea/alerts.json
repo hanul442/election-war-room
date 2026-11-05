@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-05T21:32:02.959774+00:00",
+"updated": "2026-11-05T21:34:22.906048+00:00",
 "errors": [],
 "events": [
 {
@@ -858,6 +858,37 @@
 "브렌트",
 "전날",
 "폭락"
+]
+},
+{
+"id": "ZWbklaeDhBS0JEWm1URU0oc52105",
+"first": "2026-11-05T21:05:00+00:00",
+"last": "2026-11-05T21:05:00+00:00",
+"updated": "2026-11-05T21:34:22.906048+00:00",
+"headline": "필라델피아 반도체 12.25% 폭락…마이크론 -17%·SK하닉 ADR -14%",
+"cat": "경제",
+"regions": [],
+"sources": [
+"뉴스1"
+],
+"updates": [
+{
+"title": "[속보] 필라델피아 반도체 12.25% 폭락…마이크론 -17%·SK하닉 ADR -14%",
+"source": "뉴스1",
+"link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9IVm1QZ2V3clhfaU02aFRSRnI0YzFta3NvQ3dqckhuOWVhUkZiTmw0aXUzeUJjbk5OWDZaSWI3NHhFbUJjcWdLSkN0NUk5UC1zeXNoczc5LWZWbklaeDhBS0JEWm1URU0?oc=5",
+"time": "2026-11-05T21:05:00+00:00",
+"stage": "얼럿"
+}
+],
+"level": "URGENT",
+"latest": "필라델피아 반도체 12.25% 폭락…마이크론 -17%·SK하닉 ADR -14%",
+"tok": [
+"ADR",
+"SK하닉",
+"마이크론",
+"반도체",
+"폭락",
+"필라델피아"
 ]
 },
 {
@@ -2241,12 +2272,12 @@
 },
 "사고": {
 "n30": 1,
-"base": 0.5,
+"base": 0.6,
 "spike": false
 },
 "실종": {
 "n30": 0,
-"base": 0.2,
+"base": 0.1,
 "spike": false
 },
 "단수": {
@@ -2495,14 +2526,14 @@
 "n30": 9,
 "base": 0.2,
 "spike": true,
-"since": "2026-11-05T21:32:02.959774+00:00"
+"since": "2026-11-05T21:34:22.906048+00:00"
 },
 {
 "term": "속보",
 "n30": 6,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-05T21:32:02.959774+00:00"
+"since": "2026-11-05T21:34:22.906048+00:00"
 }
 ],
 "baseline": {
@@ -2510,14 +2541,14 @@
 "화재": 0.05,
 "불났": 0.0,
 "정전": 0.05,
-"폭발": 0.18,
+"폭발": 0.16,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
 "지하철": 0.05,
-"사고": 0.57,
-"실종": 0.14,
+"사고": 0.61,
+"실종": 0.13,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -2737,8 +2768,80 @@
 },
 "trends": [
 {
-"term": "두산에너 빌리티",
+"term": "주식",
+"traffic": "2000+",
+"time": "2026-11-05T20:30:00+00:00",
+"news": [
+{
+"title": "데이터센터 변동성 속 약세 시 매수할 IT 서비스 주식",
+"source": "Investing.com 한국어",
+"link": "https://kr.investing.com/news/stock-market-news/article-2162087"
+},
+{
+"title": "한국 증시, 지금의 조정은 위기인가 새로운 기회인가?",
+"source": "한국경제",
+"link": "https://www.hankyung.com/article/202611044856i"
+}
+],
+"new": false
+},
+{
+"term": "김혜수",
+"traffic": "1000+",
+"time": "2026-11-05T20:30:00+00:00",
+"news": [
+{
+"title": "[지지대] 초록우산과 초록산타, 그리고 최불암",
+"source": "경기일보",
+"link": "https://www.kyeonggi.com/article/20261105580023"
+},
+{
+"title": "아버지의 빈자리[뉴스와 시각]",
+"source": "문화일보",
+"link": "https://www.munhwa.com/article/11628694"
+}
+],
+"new": true
+},
+{
+"term": "뉴스",
+"traffic": "500+",
+"time": "2026-11-05T20:30:00+00:00",
+"news": [
+{
+"title": "이문섭 전 광주시의장, 경기 광주시자원봉사센터 첫 민간 이사장 선임",
+"source": "경기일보",
+"link": "https://www.kyeonggi.com/article/20261105580320"
+},
+{
+"title": "광주시자원봉사센터, 이사장에 이문섭 전 시의회 의장",
+"source": "광주뉴스",
+"link": "https://www.gjnews.net/news/articleView.html?idxno=50961"
+}
+],
+"new": true
+},
+{
+"term": "1기 신도시",
 "traffic": "200+",
+"time": "2026-11-05T20:30:00+00:00",
+"news": [
+{
+"title": "샛별·양지·더시범 시공사 입찰 채비…분당 선도지구 수주전 초읽기",
+"source": "서울경제",
+"link": "https://www.sedaily.com/article/20110022"
+},
+{
+"title": "재건축 속도 산본 앞섰는데, 분당 집값 더 뛰었다",
+"source": "아이뉴스24",
+"link": "http://www.inews24.com/view/2023039"
+}
+],
+"new": false
+},
+{
+"term": "두산에너 빌리티",
+"traffic": "500+",
 "time": "2026-11-05T20:20:00+00:00",
 "news": [
 {
@@ -2843,78 +2946,6 @@
 }
 ],
 "new": false
-},
-{
-"term": "오타니 쇼헤이",
-"traffic": "100+",
-"time": "2026-11-05T19:50:00+00:00",
-"news": [
-{
-"title": "오타니 이대로 끝인가 → \"결코 일어나서는 안 될 일이 일어났다\"",
-"source": "조선일보",
-"link": "https://www.chosun.com/sports/world-baseball/2026/11/05/MJQWEMZWMQ2WCZJTMY2DSZRVMU/"
-},
-{
-"title": "오타니, 통산 5번째 MLB MVP 도전…'40-40' 크로암스트롱과 경쟁",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261103056400007"
-}
-],
-"new": false
-},
-{
-"term": "유로파리그",
-"traffic": "100+",
-"time": "2026-11-05T19:50:00+00:00",
-"news": [
-{
-"title": "유로파 리그 바이어 레버쿠젠 대 마르세유 축구 예측",
-"source": "Laodong.vn",
-"link": "https://ko.laodong.vn/bong-da-quoc-te/nhan-dinh-bong-da-bayer-leverkusen-vs-marseille-tai-europa-league-1795248.ldo"
-},
-{
-"title": "바이어 레버쿠젠 vs 마르세유 예측: 선두 자리를 노릴 기회",
-"source": "Vietnam.vn",
-"link": "https://www.vietnam.vn/ko/nhan-dinh-bayer-leverkusen-vs-marseille-co-hoi-bam-duoi-ngoi-dau"
-}
-],
-"new": false
-},
-{
-"term": "잠수함",
-"traffic": "2000+",
-"time": "2026-11-05T19:40:00+00:00",
-"news": [
-{
-"title": "파병 아닌 종전 시 '호르무즈 기여' 준비‥범여권은 당장 반발",
-"source": "MBC 뉴스",
-"link": "https://imnews.imbc.com/replay/2026/nwdesk/article/6863497_37004.html"
-},
-{
-"title": "美 ‘호르무즈 기여’ 요구에 호응… 이란엔 ‘위협 아니다’ 설명 방침",
-"source": "동아일보",
-"link": "https://www.donga.com/news/Politics/article/all/20261106/134975645/2"
-}
-],
-"new": false
-},
-{
-"term": "메가프로젝트",
-"traffic": "200+",
-"time": "2026-11-05T19:40:00+00:00",
-"news": [
-{
-"title": "최태원 \"美 중간선거 결과에 증시 요동‥롤러코스터 계속될 것\"",
-"source": "MBC 뉴스",
-"link": "https://imnews.imbc.com/news/2026/econo/article/6863531_36932.html"
-},
-{
-"title": "최태원 \"2100조 투자 발표 때, 이게 정상적 계획인가 싶었지만…\"",
-"source": "조선일보",
-"link": "https://www.chosun.com/economy/industry-company/2026/11/05/7BLYGMHW6NBRNJYXS2YMLSAWFM/"
-}
-],
-"new": false
 }
 ],
 "trendSeen": [
@@ -2948,11 +2979,13 @@
 "김숙",
 "김지선",
 "김태규",
+"김혜수",
 "나스닥",
 "나스닥 지수",
 "남대문 스카프 아저씨",
 "노동조합",
 "농장",
+"뉴스",
 "다니엘기도회 2026",
 "다문화 가정",
 "더현대 크리스마스",
