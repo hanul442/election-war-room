@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-05T19:30:04.846066+00:00",
+"updated": "2026-11-05T19:32:22.690856+00:00",
 "errors": [],
 "events": [
 {
@@ -2145,12 +2145,12 @@
 "spike": false
 },
 "폭발": {
-"n30": 8,
-"base": 0.8,
-"spike": true
+"n30": 3,
+"base": 0.7,
+"spike": false
 },
 "붕괴": {
-"n30": 3,
+"n30": 2,
 "base": 0.1,
 "spike": false
 },
@@ -2165,18 +2165,18 @@
 "spike": false
 },
 "속보": {
-"n30": 8,
+"n30": 3,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "지하철": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
 "사고": {
-"n30": 2,
-"base": 0.7,
+"n30": 3,
+"base": 0.9,
 "spike": false
 },
 "실종": {
@@ -2206,6 +2206,16 @@
 }
 },
 "posts": [
+{
+"text": "최근 30분간의 주제 🧭:\n\n1. 박 🆕\n2. ㅆㅂ 🆕\n3. 너이새끼 🆕\n4. 이렇게까지 🆕\n5. 빠른탈영 🆕\n6. 개에바 🆕\n7. 아니냐 🆕\n8. 남들의 🆕\n9. 호감을 🆕\n10. 사고 🆕",
+"handle": "trending-ko.bsky.social",
+"name": "지금 화제의 토픽 - 한국",
+"time": "2026-11-05T19:30:43.978Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/trending-ko.bsky.social/post/3mzlm63cdit2m",
+"term": "사고"
+},
 {
 "platform": "YouTube",
 "text": "[케이엔알시스템 주가전망]{긴급차트속보}지금당장확인하셔야되는부분!",
@@ -2452,34 +2462,19 @@
 "url": "https://www.youtube.com/watch?v=LD94cE_wZ5c"
 }
 ],
-"spikes": [
-{
-"term": "폭발",
-"n30": 8,
-"base": 0.8,
-"spike": true,
-"since": "2026-11-05T19:30:04.846066+00:00"
-},
-{
-"term": "속보",
-"n30": 8,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-05T19:30:04.846066+00:00"
-}
-],
+"spikes": [],
 "baseline": {
-"지진": 0.08,
+"지진": 0.07,
 "화재": 0.05,
 "불났": 0.0,
 "정전": 0.05,
-"폭발": 0.69,
+"폭발": 0.62,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
 "지하철": 0.05,
-"사고": 0.87,
+"사고": 1.08,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -2831,14 +2826,14 @@
 "time": "2026-11-05T15:40:00+00:00",
 "news": [
 {
-"title": "ProShares UltraPro Short QQQ offers a tactical short-term bet on tech sector declines amid volatility.",
-"source": "Pluang",
-"link": "https://pluang.com/en/news-feed/sqqq-pembelian-taktis-untuk-minggu-volatilitas-tertinggi-nasdaq-sqqq"
+"title": "Volume Surges on Leveraged Nasdaq-100 ETF",
+"source": "WSJ",
+"link": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-05-2026/card/volume-surges-on-leveraged-nasdaq-100-etf-wFiN1sLCspwlAbViEIdq"
 },
 {
-"title": "Options & Income | The Nasdaq triple-leveraged ETF rebounds on increased volume—can TQQQ sustain its rally now that the election suspense has lifted?",
-"source": "富途牛牛",
-"link": "https://news.futunn.com/en/post/1003382400/options-income-the-nasdaq-triple-leveraged-etf-rebounds-on-increased"
+"title": "SQQQ: A Tactical Buy For The Year's Most Volatile Week (NASDAQ:SQQQ)",
+"source": "Seeking Alpha",
+"link": "https://seekingalpha.com/article/4961761-sqqq-a-tactical-buy-for-the-years-most-volatile-week"
 }
 ],
 "new": false
