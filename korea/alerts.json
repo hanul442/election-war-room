@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-05T04:52:36.352666+00:00",
+"updated": "2026-11-05T04:54:53.136817+00:00",
 "errors": [],
 "events": [
 {
@@ -2794,13 +2794,13 @@
 "spike": false
 },
 "폭발": {
-"n30": 5,
+"n30": 4,
 "base": 0.3,
-"spike": true
+"spike": false
 },
 "붕괴": {
 "n30": 1,
-"base": 0.5,
+"base": 0.4,
 "spike": false
 },
 "대피": {
@@ -2810,7 +2810,7 @@
 },
 "미사일": {
 "n30": 2,
-"base": 0.6,
+"base": 0.7,
 "spike": false
 },
 "속보": {
@@ -3124,42 +3124,35 @@
 ],
 "spikes": [
 {
-"term": "폭발",
-"n30": 5,
-"base": 0.3,
-"spike": true,
-"since": "2026-11-05T04:52:36.352666+00:00"
-},
-{
 "term": "속보",
 "n30": 5,
 "base": 0.0,
 "spike": true,
-"since": "2026-11-05T04:52:36.352666+00:00"
+"since": "2026-11-05T04:54:53.136817+00:00"
 },
 {
 "term": "지하철",
 "n30": 5,
 "base": 0.7,
 "spike": true,
-"since": "2026-11-05T04:52:36.352666+00:00"
+"since": "2026-11-05T04:54:53.136817+00:00"
 }
 ],
 "baseline": {
-"지진": 0.11,
-"화재": 0.27,
+"지진": 0.1,
+"화재": 0.24,
 "불났": 0.0,
 "정전": 0.0,
-"폭발": 0.3,
-"붕괴": 0.41,
+"폭발": 0.27,
+"붕괴": 0.37,
 "대피": 0.0,
-"미사일": 0.68,
+"미사일": 0.71,
 "속보": 0.0,
-"지하철": 0.73,
-"사고": 3.08,
+"지하철": 0.76,
+"사고": 3.07,
 "실종": 0.05,
 "단수": 0.0,
-"통신 장애": 0.22,
+"통신 장애": 0.2,
 "먹통": 0.0,
 "산불": 0.0
 },
@@ -3386,6 +3379,24 @@
 },
 "trends": [
 {
+"term": "허가",
+"traffic": "500+",
+"time": "2026-11-05T03:40:00+00:00",
+"news": [
+{
+"title": "거래량 줄었다는데…서울 토지거래허가 두 달 연속 ‘반등’",
+"source": "시사저널",
+"link": "https://www.sisajournal.com/news/articleView.html?idxno=392926"
+},
+{
+"title": "해제 15년 경과지 관리권 이양·우선공급 50%…하남시, 국토부에 건의",
+"source": "인천일보",
+"link": "https://www.incheonilbo.com/news/articleView.html?idxno=1335943"
+}
+],
+"new": true
+},
+{
 "term": "잠수함",
 "traffic": "1000+",
 "time": "2026-11-05T03:40:00+00:00",
@@ -3428,8 +3439,8 @@
 "news": [
 {
 "title": "\"서현진이 성폭력 피해 거짓말\" 거짓말탐지기 결과 눈물..유연석은 고개 푹 ('라이어')",
-"source": "조선일보",
-"link": "https://www.chosun.com/entertainments/broadcast/2026/11/05/MI2TAMDBHBSTCYLBGJSTAMBUGA/"
+"source": "Chosunbiz",
+"link": "https://biz.chosun.com/entertainment/enter_general/2026/11/05/MQ2WMNLEMMYDSZTCHEZGMOBZHA/"
 },
 {
 "title": "데이트 성폭력 공방 ‘라이어’ 가세…시청률도, 화제성도 ‘뜨거운’ 주말극 [방송 뷰]",
@@ -3517,9 +3528,9 @@
 "time": "2026-11-05T03:00:00+00:00",
 "news": [
 {
-"title": "美 중간선거 후폭풍, AI 데이터센터 강타하나",
-"source": "지디넷코리아",
-"link": "https://zdnet.co.kr/view/?no=20261105093759"
+"title": "‘블루 싹쓸이’에 모두가 웃었다, 반도체만 빼고 [트럼프 스톡커]",
+"source": "서울경제",
+"link": "https://www.sedaily.com/article/20110498"
 },
 {
 "title": "美민주당 압승에 월가 \"가장 큰 걱정은 텍사스\"",
@@ -3543,24 +3554,6 @@
 "title": "광안리 불꽃 하루로 끝낼 수 없어… 부산 전역 사계절 관광 추진",
 "source": "아시아경제",
 "link": "https://www.asiae.co.kr/article/2026110511335545285"
-}
-],
-"new": false
-},
-{
-"term": "이범호",
-"traffic": "2000+",
-"time": "2026-11-05T02:50:00+00:00",
-"news": [
-{
-"title": "이범호 쓸 대타도 없었다, 문제는 결국 ‘뎁스’였다… KIA 마지막 날의 분노, 대형 FA 영입으로 이어질까",
-"source": "SPOTV NEWS",
-"link": "https://www.spotvnews.co.kr/news/articleView.html?idxno=1017817"
-},
-{
-"title": "여기서 왜 김호령을…2025년 '김경문급' 실책, '네일 교체+김호령 대타'[PO4]",
-"source": "스포츠한국",
-"link": "https://sports.hankooki.com/news/articleView.html?idxno=6942614"
 }
 ],
 "new": false
@@ -3606,6 +3599,7 @@
 "필리핀",
 "한국대학신문",
 "한남더힐 아파트",
+"허가",
 "허영생"
 ]
 }
