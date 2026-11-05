@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-05T14:10:47.246433+00:00",
+"updated": "2026-11-05T14:13:02.365455+00:00",
 "errors": [],
 "events": [
 {
@@ -4323,12 +4323,12 @@
 },
 "정전": {
 "n30": 1,
-"base": 0.4,
+"base": 0.3,
 "spike": false
 },
 "폭발": {
 "n30": 10,
-"base": 1.6,
+"base": 1.5,
 "spike": true
 },
 "붕괴": {
@@ -4353,12 +4353,12 @@
 },
 "지하철": {
 "n30": 5,
-"base": 0.8,
+"base": 0.9,
 "spike": true
 },
 "사고": {
-"n30": 5,
-"base": 5.6,
+"n30": 3,
+"base": 5.5,
 "spike": false
 },
 "실종": {
@@ -4368,7 +4368,7 @@
 },
 "단수": {
 "n30": 1,
-"base": 0.2,
+"base": 0.3,
 "spike": false
 },
 "통신 장애": {
@@ -4673,55 +4673,45 @@
 "reposts": 0,
 "url": "https://bsky.app/profile/mmuuv00.bsky.social/post/3mzkyubogts2v",
 "term": "지하철"
-},
-{
-"text": "전문팀으로 운용되는 일종의 특수업무분장이 되었는데, 여기가 세워지고 한달 만에 아리셀 사건이 터져요.\n\n사망자중 8할이 외국국적자인 외국인 사고가 되고, 초동ㅈ단체임에도 이걸 빠르게 줄서고 정리하면서 인정을 받습니다.\n\n문젠, 국정감사 올라가는거 확정이란 소리 돌정도로 확실한 국정감사 올라갈 아리엘 사건이 뉴진스 올리는 민주당 행보에 씹혀서 완전 나가리 트리 가버렷단거죠.",
-"handle": "togonine.bsky.social",
-"name": "ฅ^•ﻌ•^ฅ6°⍢°1-Episode 2ฅ^•ﻌ•^ฅ",
-"time": "2026-11-05T13:42:33.372Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/togonine.bsky.social/post/3mzkyphov7c2z",
-"term": "사고"
 }
 ],
 "spikes": [
 {
 "term": "폭발",
 "n30": 10,
-"base": 1.6,
+"base": 1.5,
 "spike": true,
-"since": "2026-11-05T14:10:47.246433+00:00"
+"since": "2026-11-05T14:13:02.365455+00:00"
 },
 {
 "term": "속보",
 "n30": 6,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-05T14:10:47.246433+00:00"
+"since": "2026-11-05T14:13:02.365455+00:00"
 },
 {
 "term": "지하철",
 "n30": 5,
-"base": 0.8,
+"base": 0.9,
 "spike": true,
-"since": "2026-11-05T14:10:47.246433+00:00"
+"since": "2026-11-05T14:13:02.365455+00:00"
 }
 ],
 "baseline": {
 "지진": 0.05,
 "화재": 0.05,
 "불났": 0.0,
-"정전": 0.33,
-"폭발": 1.51,
+"정전": 0.3,
+"폭발": 1.46,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.94,
-"사고": 5.52,
+"지하철": 1.05,
+"사고": 5.27,
 "실종": 0.05,
-"단수": 0.32,
+"단수": 0.39,
 "통신 장애": 0.05,
 "먹통": 0.05,
 "산불": 0.05
@@ -4949,6 +4939,42 @@
 },
 "trends": [
 {
+"term": "상장지수 펀드",
+"traffic": "200+",
+"time": "2026-11-05T13:10:00+00:00",
+"news": [
+{
+"title": "ETF 왕좌 지킨 KODEX200…개미는 TIGER 미국S&P500에 ‘우르르’",
+"source": "쿠키뉴스",
+"link": "https://www.kukinews.com/article/view/kuk202611030175"
+},
+{
+"title": "균열 난 삼성 독주…KODEX·TIGER '1등 자존심' 싸움 재점화",
+"source": "인베스트조선",
+"link": "https://www.investchosun.com/site/data/html_dir/2026/11/02/2026110280076.html"
+}
+],
+"new": true
+},
+{
+"term": "쿠칭시티",
+"traffic": "100+",
+"time": "2026-11-05T13:10:00+00:00",
+"news": [
+{
+"title": "The Cats Look To Secure Points Against Gangwon",
+"source": "Sarawak Tribune",
+"link": "https://www.sarawaktribune.com/the-cats-look-to-secure-points-against-gangwon/"
+},
+{
+"title": "Against the odds, Kuching City hunts maiden Asian Champions League 2 win against S. Korea’s Gangwon",
+"source": "DayakDaily",
+"link": "https://dayakdaily.com/against-the-odds-kuching-city-hunts-maiden-asian-champions-league-2-win-against-s-koreas-gangwon/"
+}
+],
+"new": true
+},
+{
 "term": "서정진",
 "traffic": "100+",
 "time": "2026-11-05T13:00:00+00:00",
@@ -5091,42 +5117,6 @@
 }
 ],
 "new": false
-},
-{
-"term": "표절",
-"traffic": "500+",
-"time": "2026-11-05T11:00:00+00:00",
-"news": [
-{
-"title": "방탄소년단 '스윔' 표절 주장 소송, 원고 측 자진 취하…美 저작권 시비 종결",
-"source": "세계일보",
-"link": "https://www.segye.com/newsView/20261105509138"
-},
-{
-"title": "BTS '스윔' 표절 의혹 美 소송 마무리…4개월 만에 취하",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261105090100005"
-}
-],
-"new": false
-},
-{
-"term": "호날두",
-"traffic": "2000+",
-"time": "2026-11-05T10:40:00+00:00",
-"news": [
-{
-"title": "'대표팀 이탈' 파문 호날두, 결국 포르투갈 축구대표서 은퇴",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261105177200007"
-},
-{
-"title": "“등번호 7번 내려놓을 때 왔다”…호날두, 23년만에 국대 은퇴",
-"source": "동아일보",
-"link": "https://www.donga.com/news/Inter/article/all/20261105/134975213/1"
-}
-],
-"new": false
 }
 ],
 "trendSeen": [
@@ -5169,6 +5159,7 @@
 "사격",
 "삼성전자 주가",
 "삼전 주가",
+"상장지수 펀드",
 "서정진",
 "시험",
 "아이폰",
@@ -5208,6 +5199,7 @@
 "최종면접",
 "축제",
 "커버 드 콜",
+"쿠칭시티",
 "표절",
 "프리지아",
 "필리핀",
