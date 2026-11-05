@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-05T15:58:19.701843+00:00",
+"updated": "2026-11-05T16:00:36.103048+00:00",
 "errors": [],
 "events": [
 {
@@ -3718,9 +3718,9 @@
 "spike": false
 },
 "폭발": {
-"n30": 5,
+"n30": 3,
 "base": 0.9,
-"spike": true
+"spike": false
 },
 "붕괴": {
 "n30": 1,
@@ -3738,13 +3738,13 @@
 "spike": false
 },
 "속보": {
-"n30": 2,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
 "지하철": {
-"n30": 2,
-"base": 0.4,
+"n30": 0,
+"base": 0.3,
 "spike": false
 },
 "사고": {
@@ -3919,16 +3919,6 @@
 "url": "https://www.youtube.com/watch?v=qrmghJLw5tg"
 },
 {
-"text": "그러다 다시 보면 또 그만큼 간절하게 폭발하듯 터져 버릴테니까 그것도 나쁘지 않을꺼야!",
-"handle": "anderson1202.bsky.social",
-"name": "생활의 금욕주의자_Anderson",
-"time": "2026-11-05T15:29:51.879Z",
-"likes": 1,
-"reposts": 0,
-"url": "https://bsky.app/profile/anderson1202.bsky.social/post/3mzl6pekzx22r",
-"term": "폭발"
-},
-{
 "platform": "YouTube",
 "text": "민주당 고성에 결국 못 참고 폭발한 한동훈",
 "handle": "UCUEJFH3d9tDMi4siaEvgtDQ",
@@ -4046,28 +4036,20 @@
 "url": "https://www.youtube.com/watch?v=lXjHKlokXSE"
 }
 ],
-"spikes": [
-{
-"term": "폭발",
-"n30": 5,
-"base": 0.9,
-"spike": true,
-"since": "2026-11-05T15:58:19.701843+00:00"
-}
-],
+"spikes": [],
 "baseline": {
 "지진": 0.05,
 "화재": 0.05,
 "불났": 0.0,
 "정전": 0.05,
-"폭발": 0.93,
+"폭발": 0.84,
 "붕괴": 0.05,
-"대피": 0.6,
+"대피": 0.64,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.33,
-"사고": 2.9,
-"실종": 0.22,
+"지하철": 0.3,
+"사고": 2.91,
+"실종": 0.2,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
