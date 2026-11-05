@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-05T04:34:32.920459+00:00",
+"updated": "2026-11-05T04:36:47.697679+00:00",
 "errors": [],
 "events": [
 {
@@ -2562,12 +2562,12 @@
 "terms": {
 "지진": {
 "n30": 0,
-"base": 0.3,
+"base": 0.2,
 "spike": false
 },
 "화재": {
 "n30": 1,
-"base": 0.7,
+"base": 0.6,
 "spike": false
 },
 "불났": {
@@ -2582,11 +2582,11 @@
 },
 "폭발": {
 "n30": 0,
-"base": 0.8,
+"base": 0.7,
 "spike": false
 },
 "붕괴": {
-"n30": 2,
+"n30": 0,
 "base": 0.9,
 "spike": false
 },
@@ -2597,22 +2597,22 @@
 },
 "미사일": {
 "n30": 1,
-"base": 0.1,
+"base": 0.2,
 "spike": false
 },
 "속보": {
-"n30": 2,
+"n30": 1,
 "base": 0.0,
 "spike": false
 },
 "지하철": {
 "n30": 1,
-"base": 0.3,
+"base": 0.4,
 "spike": false
 },
 "사고": {
-"n30": 2,
-"base": 3.8,
+"n30": 3,
+"base": 3.6,
 "spike": false
 },
 "실종": {
@@ -2627,7 +2627,7 @@
 },
 "통신 장애": {
 "n30": 0,
-"base": 0.6,
+"base": 0.5,
 "spike": false
 },
 "먹통": {
@@ -2642,6 +2642,16 @@
 }
 },
 "posts": [
+{
+"text": "정 안되면 나온애들만 사고 나중에 포케센 갈때를 노려야죠.....() 아니면 재입고나...",
+"handle": "c0ralsnake.bsky.social",
+"name": "산호뱀𓆙",
+"time": "2026-11-05T04:35:27.972Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/c0ralsnake.bsky.social/post/3mzk256y2tk2x",
+"term": "사고"
+},
 {
 "text": "결국 최고 존엄은 미사일보다 석유군.",
 "handle": "kkochu.bsky.social",
@@ -2668,7 +2678,7 @@
 "name": "Subsistence",
 "time": "2026-11-05T04:22:05.783Z",
 "likes": 1,
-"reposts": 1,
+"reposts": 3,
 "url": "https://bsky.app/profile/saemaeulcap.bsky.social/post/3mzjzfd5ye224",
 "term": "사고"
 },
@@ -2699,16 +2709,6 @@
 "time": "2026-11-05T04:06:49Z",
 "term": "화재",
 "url": "https://www.youtube.com/watch?v=9fh5n5rMkvU"
-},
-{
-"text": "붕괴3rd 2부 마지막 챕터 이야기 퀄리티에 감탄하고 극악무도한 유성애 프로파간다에 감탄하기.",
-"handle": "tsuta.bsky.social",
-"name": "츠타蔦_漸龑",
-"time": "2026-11-05T04:06:19.178Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/tsuta.bsky.social/post/3mzjyixbqi22d",
-"term": "붕괴"
 },
 {
 "platform": "YouTube",
@@ -2920,20 +2920,20 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 0.23,
-"화재": 0.61,
+"지진": 0.21,
+"화재": 0.55,
 "불났": 0.0,
 "정전": 0.0,
-"폭발": 0.69,
-"붕괴": 0.95,
+"폭발": 0.62,
+"붕괴": 0.85,
 "대피": 0.0,
-"미사일": 0.24,
+"미사일": 0.32,
 "속보": 0.0,
-"지하철": 0.37,
-"사고": 3.59,
+"지하철": 0.43,
+"사고": 3.53,
 "실종": 0.05,
 "단수": 0.0,
-"통신 장애": 0.5,
+"통신 장애": 0.45,
 "먹통": 0.0,
 "산불": 0.0
 },
@@ -3184,7 +3184,7 @@
 "link": "https://www.housingherald.co.kr/news/articleView.html?idxno=63273"
 }
 ],
-"new": true
+"new": false
 },
 {
 "term": "이효리",
