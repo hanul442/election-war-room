@@ -1,12 +1,12 @@
 {
-"updated": "2026-11-05T21:11:43.088195+00:00",
+"updated": "2026-11-05T21:14:01.441557+00:00",
 "errors": [],
 "events": [
 {
 "id": "viewAKR202611060021000721626",
 "first": "2026-11-05T16:26:07+00:00",
-"last": "2026-11-05T21:08:08+00:00",
-"updated": "2026-11-05T21:11:43.088195+00:00",
+"last": "2026-11-05T21:11:10+00:00",
+"updated": "2026-11-05T21:14:01.441557+00:00",
 "headline": "나스닥 장중 4% 이상 급락…조정장 진입",
 "cat": "기타",
 "regions": [],
@@ -14,6 +14,7 @@
 "뉴스1",
 "뉴스핌",
 "뉴시스",
+"스페셜타임스",
 "아시아경제",
 "연합뉴스",
 "이투데이",
@@ -132,10 +133,17 @@
 "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBiOHpQTFBpZFlTcDlIWE9xb2ZaMUJoanUyUi1oWFg2akl3UEtUSWFMY3NaT2lZYUNRNnhPVExFN0VCVTMtbS1Vc2txOUgtcVkyTmRUTnR1TzhucXpfSkNCLQ?oc=5",
 "time": "2026-11-05T21:08:08+00:00",
 "stage": "속보"
+},
+{
+"title": "[속보] 뉴욕증시 AI 기술주 급락…나스닥 5.5% 하락",
+"source": "스페셜타임스",
+"link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9ma3JQclVFYk03dldrckJISnJvX01Mekp5Z3JHV2RGUkIxdzg1NXpvczYxaXg5MUFxRFlMOW41YXVKMEZZTXF4aTZzd2dBbFZlOHROQTJmNlNsczFqMF95S1E0Vk54bXFDU2dReW9tNXpqdw?oc=5",
+"time": "2026-11-05T21:11:10+00:00",
+"stage": "속보"
 }
 ],
 "level": "BULLETIN",
-"latest": "민주 압승에 AI 규제 우려로 나스닥 5.5% 폭락 마감",
+"latest": "뉴욕증시 AI 기술주 급락…나스닥 5.5% 하락",
 "tok": [
 "10월",
 "5일",
@@ -174,6 +182,38 @@
 "폭락",
 "하락",
 "확산"
+]
+},
+{
+"id": "1Fpd3FMcUVKU1c4VUFHLQoc52109",
+"first": "2026-11-05T21:09:43+00:00",
+"last": "2026-11-05T21:09:43+00:00",
+"updated": "2026-11-05T21:14:01.441557+00:00",
+"headline": "美민주당 의회 장악 후폭풍에 뉴욕증시 급락…나스닥 5.5%↓",
+"cat": "정치",
+"regions": [],
+"sources": [
+"이데일리"
+],
+"updates": [
+{
+"title": "[속보] 美민주당 의회 장악 후폭풍에 뉴욕증시 급락…나스닥 5.5%↓",
+"source": "이데일리",
+"link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNX0xISHRFeU1qelNzd3kyeFBWVTdjNmtyTGxOUVRhWGc5YkM2SUJkcnkyaTJnSm53T1hvV20tbXpBeEhrV0VVcXZ6R3NoVWt1ZGc2ejYwejA5bW5yYnJuUkcwNVBMT2IxVmg4RWlHemd3Y1Fpd3FMcUVKU1c4VUFHLQ?oc=5",
+"time": "2026-11-05T21:09:43+00:00",
+"stage": "얼럿"
+}
+],
+"level": "URGENT",
+"latest": "美민주당 의회 장악 후폭풍에 뉴욕증시 급락…나스닥 5.5%↓",
+"tok": [
+"美민주당",
+"급락",
+"나스닥",
+"뉴욕증시",
+"의회",
+"장악",
+"후폭풍"
 ]
 },
 {
@@ -2117,14 +2157,14 @@
 "n30": 7,
 "base": 0.5,
 "spike": true,
-"since": "2026-11-05T21:11:43.088195+00:00"
+"since": "2026-11-05T21:14:01.441557+00:00"
 },
 {
 "term": "속보",
 "n30": 12,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-05T21:11:43.088195+00:00"
+"since": "2026-11-05T21:14:01.441557+00:00"
 }
 ],
 "baseline": {
@@ -2132,14 +2172,14 @@
 "화재": 0.05,
 "불났": 0.0,
 "정전": 0.05,
-"폭발": 0.45,
+"폭발": 0.41,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
 "지하철": 0.05,
-"사고": 0.58,
-"실종": 0.37,
+"사고": 0.52,
+"실종": 0.33,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -2377,6 +2417,24 @@
 },
 "trends": [
 {
+"term": "lg에너지솔루션",
+"traffic": "200+",
+"time": "2026-11-05T20:10:00+00:00",
+"news": [
+{
+"title": "[단독] LG에너지솔루션, 3차 ESS 중앙계약입찰 불참...‘삼성SDI·SK온’ 2파전 압축",
+"source": "전기신문",
+"link": "https://www.electimes.com/news/articleView.html?idxno=374420"
+},
+{
+"title": "LG엔솔, 3차 중앙계약시장 불참…\"기존 사업 선택과 집중\"",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261105165100003"
+}
+],
+"new": true
+},
+{
 "term": "현대자동차",
 "traffic": "200+",
 "time": "2026-11-05T20:00:00+00:00",
@@ -2413,6 +2471,24 @@
 "new": false
 },
 {
+"term": "장동현",
+"traffic": "100+",
+"time": "2026-11-05T19:50:00+00:00",
+"news": [
+{
+"title": "SK㈜, SK에코플랜트 완전 자회사화 추진… IPO 접고 반도체·AI 사업 통합 속도",
+"source": "제민일보",
+"link": "https://www.jemin.com/news/articleView.html?idxno=846213"
+},
+{
+"title": "장동현 SK 부회장, SK에코플랜트 대표 사임",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261105161900003"
+}
+],
+"new": false
+},
+{
 "term": "오타니 쇼헤이",
 "traffic": "100+",
 "time": "2026-11-05T19:50:00+00:00",
@@ -2426,24 +2502,6 @@
 "title": "오타니, 통산 5번째 MLB MVP 도전…'40-40' 크로암스트롱과 경쟁",
 "source": "연합뉴스",
 "link": "https://www.yna.co.kr/view/AKR20261103056400007"
-}
-],
-"new": false
-},
-{
-"term": "장동현",
-"traffic": "200+",
-"time": "2026-11-05T19:50:00+00:00",
-"news": [
-{
-"title": "SK㈜, SK에코플랜트 완전 자회사화 추진… IPO 접고 반도체·AI 사업 통합 속도",
-"source": "제민일보",
-"link": "https://www.jemin.com/news/articleView.html?idxno=846213"
-},
-{
-"title": "장동현 SK 부회장, SK에코플랜트 대표 사임",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261105161900003"
 }
 ],
 "new": false
@@ -2521,40 +2579,22 @@
 "new": false
 },
 {
-"term": "한국경제",
-"traffic": "10000+",
-"time": "2026-11-05T19:10:00+00:00",
+"term": "중국 휴머노이드 로봇",
+"traffic": "100+",
+"time": "2026-11-05T19:20:00+00:00",
 "news": [
 {
-"title": "‘레임덕 위기 트럼프’ 먼저 때린 2인자 “이란전쟁 시작 말았어야”",
+"title": "로봇 개부터 휴머노이드까지…3000개 돌계단 오르기 도전",
+"source": "지디넷코리아",
+"link": "https://zdnet.co.kr/view/?no=20261105161207"
+},
+{
+"title": "“로봇이 열사병 걸렸다”…中태산 등반 과열로 포기 ‘굴욕’",
 "source": "동아일보",
-"link": "https://www.donga.com/news/Inter/article/all/20261106/134975636/2"
-},
-{
-"title": "'김치데이' 발의에 태권도 수련까지…美의회 요직에 친한파 부상",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261106005300072"
+"link": "https://www.donga.com/news/Inter/article/all/20261105/134971043/2"
 }
 ],
-"new": false
-},
-{
-"term": "kia 타이거즈",
-"traffic": "5000+",
-"time": "2026-11-05T19:10:00+00:00",
-"news": [
-{
-"title": "이런 팬들이 있다는 건 축복…KIA 올러, 시즌 끝나자 남긴 말",
-"source": "아주경제",
-"link": "https://www.ajunews.com/view/20261105164130831"
-},
-{
-"title": "'KIA 팬들 감동' 30억 이 선수의 진심, KIA와 함께여서 행복했다…\"최고의 동료들과 즐거웠다, 멋진 팬 여러분이 계신 건 큰 축복\"",
-"source": "마이데일리",
-"link": "https://mydaily.co.kr/page/view/2026110523082634799"
-}
-],
-"new": false
+"new": true
 }
 ],
 "trendSeen": [
@@ -2564,6 +2604,7 @@
 "jtbc",
 "kia 타이거즈",
 "lg그룹",
+"lg에너지솔루션",
 "nasdaq",
 "nepal premier league",
 "qld",
@@ -2667,6 +2708,7 @@
 "제주 감귤",
 "젠지 라이언",
 "주식",
+"중국 휴머노이드 로봇",
 "진쓰레블 사망",
 "차명석",
 "최종면접",
