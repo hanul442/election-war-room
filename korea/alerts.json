@@ -1,12 +1,12 @@
 {
-"updated": "2026-11-05T10:25:43.437587+00:00",
+"updated": "2026-11-05T10:27:57.252446+00:00",
 "errors": [],
 "events": [
 {
 "id": "wNISX20261105_00038565131000",
 "first": "2026-11-05T10:00:07+00:00",
 "last": "2026-11-05T10:17:24+00:00",
-"updated": "2026-11-05T10:18:54.025098+00:00",
+"updated": "2026-11-05T10:27:57.252446+00:00",
 "headline": "윤석열 '내란 우두머리' 재판 2심, 내년 1월 26일 선고",
 "cat": "사회",
 "regions": [],
@@ -109,6 +109,13 @@
 "title": "[속보] 윤 대통령, ‘내란 우두머리’ 2심 선고일 1월 26일로 지정",
 "source": "스페셜타임스",
 "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBNYTBZYk5LeWR5WEU3a1Y0LUM3OTdncmtZUFNVS0Z6UkQ1OUhwRnVxdURDcnpKaURxeVFqSXNOZDZvRE5qS0oyZWZWT1Z2NEI1VGNQdFdJbW5EY3piRWpRSjVyU3NfSGpObDZqUlgwbzN4UQ?oc=5",
+"time": "2026-11-05T10:06:17+00:00",
+"stage": "속보"
+},
+{
+"title": "[속보] 윤 대통령, ‘내란 우두머리’ 2심 선고일 1월 26일로 지정",
+"source": "스페셜타임스",
+"link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1TS0NnVjVoa1JUYzR5NlBjNExUcnFKNGJPVXltTUJpVENyZE9CMnZkcUZxb1VmdmdhRjdjNjZsTWYtM3R1TjJmZHhRaWo0QWwwYUdrT0IxQW9uZU9tajZHQTVXMktxZzhfTjRQbjc4d2RnSXc?oc=5",
 "time": "2026-11-05T10:06:17+00:00",
 "stage": "속보"
 },
@@ -4963,7 +4970,7 @@
 },
 "폭발": {
 "n30": 6,
-"base": 1.0,
+"base": 1.1,
 "spike": true
 },
 "붕괴": {
@@ -4973,7 +4980,7 @@
 },
 "대피": {
 "n30": 2,
-"base": 0.6,
+"base": 0.7,
 "spike": false
 },
 "미사일": {
@@ -4997,7 +5004,7 @@
 "spike": false
 },
 "실종": {
-"n30": 0,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
@@ -5023,6 +5030,16 @@
 }
 },
 "posts": [
+{
+"text": "<<경찰에 실종신고된 적있는 사람",
+"handle": "passawayplz.rip",
+"name": "퇴마단원 장마",
+"time": "2026-11-05T10:27:05.470Z",
+"likes": 1,
+"reposts": 0,
+"url": "https://bsky.app/profile/passawayplz.rip/post/3mzkntmhq5s2l",
+"term": "실종"
+},
 {
 "text": "#개인돈 #급전 월변 대출 소액대출 비상금대출 직장인대출 사업자대출 자영업자 직장인 프리랜서 알바생 일용직\n\n🔹 01. 비대면 급전\n▪ 한도 : 최대 100만원\n▪ 과거 사고자 진행 가능\n\n🔹 02. 비대면 월변\n▪ 한도 : 최대 300만원\n\n🔹 03. 대면 월변\n▪ 한도 : 최대 150만원\n\n━━━━━━━━━━━━━━━━━━\n\n📲 상담 문의\n\n💬 ㅋr톡 : qwer849\n\n💚 ㄹr인 : b",
 "handle": "banana7080.bsky.social",
@@ -5324,38 +5341,38 @@
 {
 "term": "폭발",
 "n30": 6,
-"base": 1.0,
+"base": 1.1,
 "spike": true,
-"since": "2026-11-05T10:25:43.437587+00:00"
+"since": "2026-11-05T10:27:57.252446+00:00"
 },
 {
 "term": "속보",
 "n30": 11,
 "base": 0.6,
 "spike": true,
-"since": "2026-11-05T10:25:43.437587+00:00"
+"since": "2026-11-05T10:27:57.252446+00:00"
 },
 {
 "term": "지하철",
 "n30": 5,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-05T10:25:43.437587+00:00"
+"since": "2026-11-05T10:27:57.252446+00:00"
 }
 ],
 "baseline": {
-"지진": 0.11,
-"화재": 0.77,
+"지진": 0.1,
+"화재": 0.69,
 "불났": 0.0,
 "정전": 0.0,
-"폭발": 1.07,
+"폭발": 1.16,
 "붕괴": 0.05,
-"대피": 0.65,
+"대피": 0.69,
 "미사일": 0.05,
-"속보": 0.6,
+"속보": 0.64,
 "지하철": 0.05,
 "사고": 5.02,
-"실종": 0.05,
+"실종": 0.15,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
