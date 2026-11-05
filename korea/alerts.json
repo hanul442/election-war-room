@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-05T23:41:27.235212+00:00",
+"updated": "2026-11-05T23:43:41.871632+00:00",
 "errors": [],
 "events": [
 {
@@ -2370,11 +2370,11 @@
 },
 "지하철": {
 "n30": 6,
-"base": 2.6,
+"base": 2.7,
 "spike": false
 },
 "사고": {
-"n30": 2,
+"n30": 3,
 "base": 1.4,
 "spike": false
 },
@@ -2405,6 +2405,16 @@
 }
 },
 "posts": [
+{
+"text": "나 진짜로 새 옷 안 사고 사도 입던 옷 입음(...)\n아 지금 입고 있는 겉옷요? 5년 전에 산 거예요. 속에 껴입은 후드집업이요? 이것도 그쯤 됐어요. ^^",
+"handle": "banchim.bsky.social",
+"name": "반_침",
+"time": "2026-11-05T23:42:21.479Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/banchim.bsky.social/post/3mzm27yrjc22j",
+"term": "사고"
+},
 {
 "platform": "YouTube",
 "text": "OpenAI가 보안 전용 GPT-6 Cyber를 공개했어요 #AI속보 #Shorts",
@@ -2670,7 +2680,7 @@
 "n30": 5,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-05T23:41:27.235212+00:00"
+"since": "2026-11-05T23:43:41.871632+00:00"
 }
 ],
 "baseline": {
@@ -2678,13 +2688,13 @@
 "화재": 0.05,
 "불났": 0.0,
 "정전": 0.05,
-"폭발": 0.18,
+"폭발": 0.16,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 2.71,
-"사고": 1.42,
+"지하철": 2.84,
+"사고": 1.58,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -2896,9 +2906,9 @@
 },
 "trends": [
 {
-"term": "도깨비의세계",
-"traffic": "100+",
-"time": "2026-11-05T22:30:00+00:00",
+"term": "도깨비의 세계",
+"traffic": "200+",
+"time": "2026-11-05T22:40:00+00:00",
 "news": [
 {
 "title": "증권가, 카카오게임즈에 \"3분기 바닥…내년 흑자전환 기대\"",
@@ -2911,7 +2921,25 @@
 "link": "https://www.osen.co.kr/article/G1112904717"
 }
 ],
-"new": false
+"new": true
+},
+{
+"term": "blg",
+"traffic": "100+",
+"time": "2026-11-05T22:40:00+00:00",
+"news": [
+{
+"title": "Worlds 2026: Dplus KIA vs Bilibili Gaming, revenge on the Worlds Stage?",
+"source": "Sheep Esports",
+"link": "https://www.sheepesports.com/en/articles/worlds-2026-dplus-kia-vs-bilibili-gaming-revenge-on-the-worlds-stage/en"
+},
+{
+"title": "Naafiri Dominates the Battlefield... BLG Takes Game 1 Against Dplus KIA",
+"source": "Inven Global",
+"link": "https://www.invenglobal.com/articles/28234/naafiri-dominates-the-battlefield-blg-takes-game-1-against-dplus-kia"
+}
+],
+"new": true
 },
 {
 "term": "강아지",
@@ -3045,28 +3073,11 @@
 }
 ],
 "new": false
-},
-{
-"term": "금시세",
-"traffic": "100+",
-"time": "2026-11-05T22:20:00+00:00",
-"news": [
-{
-"title": "[뉴욕 금가격] 美 AI 규제 우려 기술주 투매 속 1% 상승",
-"source": "연합인포맥스",
-"link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4443337"
-},
-{
-"title": "2주 만에 최고치 찍은 국제 금값…국내 금시세는?",
-"source": "이투데이",
-"link": "https://www.etoday.co.kr/news/view/2644852"
-}
-],
-"new": false
 }
 ],
 "trendSeen": [
 "1기 신도시",
+"blg",
 "dl이앤씨",
 "fear and greed",
 "fifa u-17 여자 월드컵",
@@ -3120,6 +3131,7 @@
 "더현대 크리스마스",
 "데블스플랜3",
 "데이터센터",
+"도깨비의 세계",
 "도깨비의세계",
 "두산에너 빌리티",
 "디트로이트 대 필라데피아",
