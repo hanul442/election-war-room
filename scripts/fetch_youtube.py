@@ -24,7 +24,7 @@ KEY = next((os.environ.get(k, "").strip() for k in
 API = "https://www.googleapis.com/youtube/v3/"
 POOL_EVERY = timedelta(minutes=120)  # 선거가 정리돼서 줄임 (한국 상황실과 하루 한도를 나눠 씀)
 BRK_EVERY = timedelta(minutes=4)
-BRK_PER_DAY = 40
+BRK_PER_DAY = 10  # 한국 상황실과 하루 검색 한도를 나눠 씀
 STOP = {"Democrat", "Democrats", "Democratic", "Republican", "Republicans", "GOP", "AP", "Election",
         "Midterm", "Midterms", "Senate", "House", "Governor", "Live", "Breaking", "The", "A", "US",
         "Watch", "Rep", "Sen", "Gov", "Trump", "President", "In", "On", "After", "As"}

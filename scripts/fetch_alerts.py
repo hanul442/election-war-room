@@ -8,6 +8,7 @@
 상태(이미 본 사건, SNS 평소 수준)는 같은 파일에 같이 저장해서 2분마다 이어서 쓴다.
 """
 import json
+import os
 import re
 import sys
 import urllib.parse
@@ -146,6 +147,31 @@ def bsky(term, since):
     return out
 
 
+# ---------- SNS (유튜브 새 업로드) ----------
+YT_KEY = next((os.environ.get(k, "").strip() for k in ("YOUTUBE_DATA_API", "YOUTUBE_API_KEY", "YT_API_KEY") if os.environ.get(k, "").strip()), "")
+
+
+def youtube_recent(prev):
+    """30분마다 한 번, 최근 1시간 한국 업로드 중 사건 낱말이 든 영상 (검색 1번 = 100 units)."""
+    last = prev.get("ytAt")
+    if not YT_KEY or (last and NOW - datetime.fromisoformat(last) < timedelta(minutes=30)):
+        return prev.get("ytPosts", []), last
+    q = urllib.parse.urlencode({"part": "snippet", "type": "video", "order": "date", "maxResults": "25", "regionCode": "KR",
+                                "relevanceLanguage": "ko", "q": "|".join(WATCH[:10]),
+                                "publishedAfter": (NOW - timedelta(hours=1)).strftime("%Y-%m-%dT%H:%M:%SZ"), "key": YT_KEY})
+    d = json.loads(fetch("https://www.googleapis.com/youtube/v3/search?" + q, 20))
+    import html as _h
+    out = []
+    for it in d.get("items", []):
+        sn = it["snippet"]; title = _h.unescape(sn["title"])
+        term = next((t for t in WATCH if t in title), None)
+        if not term:
+            continue
+        out.append({"platform": "YouTube", "text": title, "handle": sn["channelId"], "name": _h.unescape(sn["channelTitle"]),
+                    "time": sn["publishedAt"], "term": term, "url": f"https://www.youtube.com/watch?v={it['id']['videoId']}"})
+    return out, NOW.isoformat()
+
+
 def sns(prev):
     since = (NOW - timedelta(minutes=30)).strftime("%Y-%m-%dT%H:%M:%SZ")
     base = prev.get("baseline", {})
@@ -172,8 +198,20 @@ def sns(prev):
             continue
         seen.add(p["url"])
         uniq.append(p)
+    try:
+        yt, yt_at = youtube_recent(prev)
+    except Exception as e:
+        yt, yt_at = prev.get("ytPosts", []), prev.get("ytAt")
+        errors.append(f"youtube: {e.__class__.__name__}")
+    # 유튜브 영상도 낱말별 개수에 더한다 (최근 30분 업로드만)
+    for p in yt:
+        if p["time"] and NOW - datetime.fromisoformat(p["time"].replace("Z", "+00:00")) < timedelta(minutes=30) and p["term"] in terms:
+            terms[p["term"]]["n30"] += 1
+    for t, v in terms.items():
+        v["spike"] = v["n30"] >= 5 and v["n30"] >= 3 * max(1.0, v["base"])
+    merged = sorted(uniq + yt, key=lambda p: p["time"] or "", reverse=True)
     spikes = [{"term": t, **v, "since": NOW.isoformat()} for t, v in terms.items() if v["spike"]]
-    return {"terms": terms, "posts": uniq[:40], "spikes": spikes, "baseline": base, "errors": errors}
+    return {"terms": terms, "posts": merged[:40], "spikes": spikes, "baseline": base, "errors": errors, "ytPosts": yt, "ytAt": yt_at}
 
 
 # ---------- 검색 급상승 (구글 트렌드) ----------

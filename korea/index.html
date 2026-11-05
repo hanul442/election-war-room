@@ -188,6 +188,32 @@ main{flex:1;display:flex;min-height:0}
 #flash.out{animation:out .6s ease-in forwards}
 @keyframes out{to{opacity:0;transform:scale(1.03)}}
 
+/* ---- 메인: 얼럿 데스크 고정 + 오른쪽 인포그래픽 순환 ---- */
+.inner{display:grid!important;grid-template-columns:minmax(0,1.35fr) minmax(0,1fr);gap:18px}
+#deskPane,#rotPane{min-width:0;min-height:0;display:flex;flex-direction:column;gap:10px;overflow:hidden}
+#rotPane{border-left:1px solid var(--line);padding-left:18px}
+#rotPane .vhead h1{font-size:clamp(18px,1.5vw,26px)}
+#rotPane .split{grid-template-columns:1fr;grid-template-rows:minmax(0,1.7fr) minmax(0,1fr);gap:10px}
+#rotPane .split > .side:only-child{grid-row:1/-1}
+#rotPane .headList{grid-template-columns:1fr}
+#rotPane .lead h2{font-size:clamp(18px,1.6vw,28px)}
+#rotPane .lead{padding:14px 16px}
+#rotPane .bigNow b{font-size:clamp(36px,3vw,56px)}
+#rotPane .wx .c b{font-size:clamp(20px,1.6vw,28px)}
+#rotPane .row .t{font-size:clamp(13px,.95vw,15px);-webkit-line-clamp:1}
+#rotPane #wxSide .scale,#rotPane #wxSide .legend{display:none}
+#rotPane #catSide{display:none}
+#rotPane .split:has(#catBars){grid-template-rows:1fr}
+#deskPane .vhead h1{font-size:clamp(24px,2.2vw,38px)}
+#deskPane .desk{grid-template-columns:1fr;grid-template-rows:minmax(0,1fr) minmax(130px,30%);gap:12px}
+#deskPane .snsBox{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,1fr);gap:16px;align-content:start;border-top:1px solid var(--line);padding-top:10px;min-height:0;overflow:hidden}
+#deskPane #posts .post:nth-child(n+3){display:none}
+#deskPane #trends .trend:nth-child(n+6){display:none}
+#deskPane #terms span:nth-child(n+9){display:none}
+#rotPane #tabs button{padding:3px 8px;font-size:13px}
+#rotPane #tabs{flex-wrap:nowrap;overflow:hidden}
+#deskPane .wr{grid-template-columns:52px 96px 1fr}
+@media (max-width:900px){.inner{grid-template-columns:1fr!important}#rotPane{border-left:0;padding-left:0;border-top:1px solid var(--line);padding-top:12px}#deskPane .snsBox{grid-template-columns:1fr}#deskPane .snsBox > *{grid-column:1!important;grid-row:auto!important}}
 /* ---- 얼럿 데스크 ---- */
 .lv{display:inline-flex;align-items:center;justify-content:center;min-width:86px;font-family:var(--display);font-weight:700;letter-spacing:.12em;font-size:13px;padding:3px 8px;border-radius:2px}
 .lv.FLASH{background:#ff2d2d;color:#fff;animation:pulse .9s infinite}
@@ -312,22 +338,29 @@ footer .btn{padding:5px 10px}
   <section id="grid" aria-label="방송 멀티뷰">
     <div id="stage" aria-label="인포그래픽">
       <div class="inner">
-        <div id="tabs"></div>
-        <div id="prog"><i></i></div>
-
-        <div class="view" id="v-desk">
+        <div id="deskPane">
+        <div class="view" id="v-desk" style="display:flex">
           <div class="vhead"><h1>뉴스 얼럿 데스크</h1><small id="deskUpd"></small></div>
           <div class="desk">
             <div class="wire" id="wire"></div>
             <div class="snsBox">
-              <div class="lbl">SNS 신호 · 블루스카이 최근 30분 <span style="letter-spacing:0;text-transform:none">(확인되지 않은 글)</span></div>
-              <div class="terms" id="terms"></div>
-              <div id="posts" style="display:flex;flex-direction:column;gap:6px"></div>
-              <div class="lbl" style="margin-top:4px">검색 급상승 · 구글 트렌드</div>
-              <div id="trends" style="display:flex;flex-direction:column;gap:4px"></div>
+              <div class="snsL" style="min-width:0;display:flex;flex-direction:column;gap:6px">
+                <div class="lbl">SNS 신호 · 블루스카이·유튜브 <span style="letter-spacing:0;text-transform:none">(확인되지 않은 글)</span></div>
+                <div class="terms" id="terms"></div>
+                <div id="posts" style="display:flex;flex-direction:column;gap:6px"></div>
+              </div>
+              <div class="snsR" style="min-width:0;display:flex;flex-direction:column;gap:4px">
+                <div class="lbl">검색 급상승 · 구글 트렌드</div>
+                <div id="trends" style="display:flex;flex-direction:column;gap:4px"></div>
+              </div>
             </div>
           </div>
         </div>
+
+        </div>
+        <div id="rotPane">
+        <div id="tabs"></div>
+        <div id="prog"><i></i></div>
 
         <div class="view" id="v-head">
           <div class="vhead"><h1>지금 주요 뉴스</h1><small class="upd"></small></div>
@@ -362,6 +395,7 @@ footer .btn{padding:5px 10px}
         <div class="view" id="v-cats">
           <div class="vhead"><h1>분야별 흐름</h1><small>최근 24시간 수집 기사</small></div>
           <div class="split"><div class="side"><div class="bars" id="catBars"></div></div><div class="side" id="catSide"></div></div>
+        </div>
         </div>
       </div>
     </div>
@@ -615,7 +649,7 @@ function drawHead(){
   const top=list[0]; if(!top) return;
   const L=$("lead"); L.href=top.link;
   L.innerHTML=`<div style="display:flex;gap:8px;flex-wrap:wrap">${catChip(top)}${top.regions.map(r=>`<span class="chip">${esc(r)}</span>`).join("")}</div><h2>${esc(clip(top.title))}</h2><div class="m">${esc(top.source)} · ${ago(top.time)}</div>`;
-  $("headList").innerHTML=rowsHtml(D.news.filter(n=>n!==top),10,true);
+  $("headList").innerHTML=rowsHtml(D.news.filter(n=>n!==top),innerWidth>900?6:10,true);
 }
 let regionCycle=0;
 function drawRegion(){
@@ -673,11 +707,11 @@ function drawTicker(){
   const tr=$("tickTrack"); tr.innerHTML=use.map(n=>`<a href="${esc(n.link)}" target="_blank" rel="noopener"><b>${esc(n.source)}</b>${esc(n.title)}</a>`).join("");
   tr.style.setProperty("--dur",Math.max(70,use.length*13)+"s");
 }
-const DRAW={"v-desk":drawDesk,"v-head":drawHead,"v-region":drawRegion,"v-weather":drawWeather,"v-dust":drawDust,"v-alert":drawAlert,"v-traffic":drawTraffic,"v-cats":drawCats};
+const DRAW={"v-head":drawHead,"v-region":drawRegion,"v-weather":drawWeather,"v-dust":drawDust,"v-alert":drawAlert,"v-traffic":drawTraffic,"v-cats":drawCats};
 function drawAll(){ if(!D||!MAP) return; drawTicker(); for(const [id,f] of Object.entries(DRAW)){ try{ f(); }catch(e){ console.error(id,e); } } fitView(); }
 
 // ===================== 가운데 화면 순환 =====================
-const VIEWS=[["v-desk","얼럿"],["v-head","주요 뉴스"],["v-region","지역"],["v-weather","날씨"],["v-dust","미세먼지"],["v-alert","재난·특보"],["v-traffic","교통"],["v-cats","분야별"]];
+const VIEWS=[["v-head","주요 뉴스"],["v-region","지역"],["v-weather","날씨"],["v-dust","미세먼지"],["v-alert","재난·특보"],["v-traffic","교통"],["v-cats","분야별"]];
 let vIdx=0, vStart=Date.now(), vHold=0; const vSel=$("viewSec"); vSel.value=String(S.viewSec||18);
 vSel.onchange=()=>{ S.viewSec=+vSel.value; save(); };
 VIEWS.forEach(([id,l],k)=>{ const b=document.createElement("button"); b.textContent=l; b.onclick=()=>{ showView(k); vHold=Date.now()+60000; }; $("tabs").appendChild(b); });
@@ -698,12 +732,12 @@ setInterval(()=>{ const bar=$("prog").firstElementChild;
   if(VIEWS[vIdx][0]==="v-region" && Math.floor(t)%6===0 && Math.floor(t)>0 && !showView._r){ showView._r=1; regionCycle++; if(D&&MAP) drawRegion(); setTimeout(()=>showView._r=0,1100); }
   if(t>=sec) showView(vIdx+1);
 },250);
-function fitView(){
-  const v=$(VIEWS[vIdx][0]); if(!v) return;
-  if(innerWidth<=900){ v.style.zoom=""; return; }
+function fitOne(v){
+  if(!v) return; if(innerWidth<=900){ v.style.zoom=""; return; }
   v.style.zoom=1;
   for(let k=0;k<3;k++){ const z=+v.style.zoom||1, r=Math.min(v.clientHeight/v.scrollHeight,v.clientWidth/v.scrollWidth); if(!(r<.995)) break; v.style.zoom=Math.max(.4,z*r*.99); }
 }
+function fitView(){ fitOne($(VIEWS[vIdx][0])); }
 
 // ===================== 속보 =====================
 const seen=new Set(); let firstLoad=true, lastFlash=0, lastCenter=0;
@@ -766,6 +800,7 @@ async function loadAlerts(){
 }
 function drawDesk(){
   if(!A) return;
+  const dv=$("v-desk"); if(freshIds.size||!dv.dataset.drawn){ dv.dataset.drawn=1; dv.classList.remove("play"); void dv.offsetWidth; dv.classList.add("play"); clearTimeout(dv._t); dv._t=setTimeout(()=>dv.classList.remove("play"),2000); }
   $("deskUpd").textContent=`${ago(A.updated)} 갱신 · 사건 ${A.events.length}건`;
   const ev=A.events.slice(0,12);
   $("wire").innerHTML=ev.map((e,i)=>`<a class="wr ${e.level}${freshIds.has(e.id)?" fresh":""}" style="--i:${i}" href="${esc(e.updates[e.updates.length-1].link)}" target="_blank" rel="noopener">
@@ -773,8 +808,8 @@ function drawDesk(){
       <div><div class="h">${esc(e.latest||e.headline)}</div><div class="stg">${stagesHtml(e)}${e.regions?.length?`<span>${esc(e.regions.join("·"))}</span>`:""}</div></div></a>`).join("")
     ||'<div class="empty"><div><b>지금 올라온 얼럿이 없어요</b>속보·재난 기사가 들어오면 통신사 단말기처럼 여기에 쌓여요</div></div>';
   const T=A.sns?.terms||{};
-  $("terms").innerHTML=Object.entries(T).sort((a,b)=>b[1].n30-a[1].n30).map(([k,v])=>`<span class="${v.spike?"spike":""}">${esc(k)}<b>${v.n30}</b></span>`).join("");
-  $("posts").innerHTML=(A.sns?.posts||[]).slice(0,4).map(p=>`<a class="post" href="${esc(p.url)}" target="_blank" rel="noopener"><div class="ph"><em>미확인</em>#${esc(p.term)} · @${esc(p.handle)} · ${ago(p.time)}</div><div class="pt">${esc(p.text)}</div></a>`).join("")||'<div class="status">최근 30분 동안 지켜보는 낱말이 들어간 글이 없어요</div>';
+  $("terms").innerHTML=Object.entries(T).sort((a,b)=>(b[1].spike-a[1].spike)||(b[1].n30-a[1].n30)).map(([k,v])=>`<span class="${v.spike?"spike":""}">${esc(k)}<b>${v.n30}</b></span>`).join("");
+  $("posts").innerHTML=(A.sns?.posts||[]).slice(0,4).map(p=>`<a class="post" href="${esc(p.url)}" target="_blank" rel="noopener"><div class="ph"><em>미확인</em><b style="color:#8cc4ff">${esc(p.platform||"Bluesky")}</b> #${esc(p.term)} · ${esc(p.platform==="YouTube"?p.name:"@"+p.handle)} · ${ago(p.time)}</div><div class="pt">${esc(p.text)}</div></a>`).join("")||'<div class="status">최근 30분 동안 지켜보는 낱말이 들어간 글이 없어요</div>';
   $("trends").innerHTML=(A.trends||[]).slice(0,8).map((t,i)=>`<a class="trend" href="${esc(t.news?.[0]?.link||("https://www.google.com/search?q="+encodeURIComponent(t.term)))}" target="_blank" rel="noopener"><b>${i+1}</b><span class="tn">${esc(t.term)}${t.new?"<em>NEW</em>":""}</span><small>${esc(t.traffic)}</small></a>`).join("");
 }
 function drawTickerAlerts(){
