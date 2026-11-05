@@ -188,6 +188,63 @@ main{flex:1;display:flex;min-height:0}
 #flash.out{animation:out .6s ease-in forwards}
 @keyframes out{to{opacity:0;transform:scale(1.03)}}
 
+/* ---- 얼럿 데스크 ---- */
+.lv{display:inline-flex;align-items:center;justify-content:center;min-width:86px;font-family:var(--display);font-weight:700;letter-spacing:.12em;font-size:13px;padding:3px 8px;border-radius:2px}
+.lv.FLASH{background:#ff2d2d;color:#fff;animation:pulse .9s infinite}
+.lv.BULLETIN{background:#c81e1e;color:#fff}
+.lv.URGENT{background:#e8810c;color:#111}
+.lv.ALERT{background:#2a3444;color:var(--fg)}
+.lv.SNS{background:#1c7cf0;color:#fff}
+.lv.TREND{background:#6d4cff;color:#fff}
+.desk{flex:1;min-height:0;display:grid;grid-template-columns:minmax(0,1.5fr) minmax(0,1fr);gap:20px}
+.wire{min-height:0;overflow:hidden;display:flex;flex-direction:column;gap:6px;font-variant-numeric:tabular-nums}
+.wr{display:grid;grid-template-columns:52px 92px 1fr;gap:10px;align-items:start;padding:8px 10px;border-radius:4px;background:var(--panel2);text-decoration:none;color:var(--fg);border-left:3px solid transparent}
+.wr.FLASH{border-left-color:#ff2d2d;background:linear-gradient(90deg,#3a0f0f,var(--panel2) 40%)}
+.wr.BULLETIN{border-left-color:#c81e1e}
+.wr.URGENT{border-left-color:#e8810c}
+.wr.fresh{box-shadow:inset 0 0 0 1px var(--focus)}
+.wr.fresh time::after{content:"NEW";display:block;font-size:10px;font-weight:700;color:#000;background:var(--focus);border-radius:2px;text-align:center;margin-top:3px}
+.wr time{font-family:var(--mono);font-size:14px;color:var(--dim);padding-top:3px}
+.wr .h{font-size:clamp(15px,1.15vw,19px);font-weight:700;line-height:1.35}
+.wr .stg{display:flex;flex-wrap:wrap;gap:4px;margin-top:5px;align-items:center}
+.stg span{font-size:11px;font-weight:700;padding:1px 6px;border-radius:2px;background:#ffffff12;color:var(--dim)}
+.stg span.얼럿{background:#5a1616;color:#ffb4b4}.stg span.종합{background:#15402f;color:#9ff0c8}.stg span.단독{background:#3d2f70;color:#d4c6ff}
+.stg i{font-style:normal;color:var(--dim);font-size:11px}
+.stg .src{font-family:var(--mono);font-size:11px;color:var(--dim);margin-left:4px}
+.view.play .wr{animation:up .4s backwards;animation-delay:calc(var(--i) * 45ms)}
+.snsBox{min-height:0;overflow:hidden;display:flex;flex-direction:column;gap:8px}
+.terms{display:flex;flex-wrap:wrap;gap:5px}
+.terms span{font-size:13px;padding:3px 8px;border-radius:12px;background:var(--panel2);color:var(--dim);font-variant-numeric:tabular-nums}
+.terms span b{color:var(--fg);margin-left:3px}
+.terms span.spike{background:#1c7cf0;color:#fff;animation:pulse 1.2s infinite}
+.terms span.spike b{color:#fff}
+.post{display:block;padding:7px 10px;border-radius:4px;background:var(--panel2);text-decoration:none;color:var(--fg);font-size:13px;line-height:1.4;border-left:3px solid #1c7cf0}
+.post .ph{display:flex;gap:6px;align-items:center;font-size:11px;color:var(--dim);margin-bottom:2px}
+.post .ph em{font-style:normal;background:#3a2a0a;color:var(--focus);padding:0 5px;border-radius:2px;font-weight:700}
+.post .pt{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.trend{display:grid;grid-template-columns:22px 1fr auto;gap:8px;align-items:center;padding:5px 8px;border-radius:4px;background:var(--panel2);text-decoration:none;color:var(--fg);font-size:14px}
+.trend b{font-family:var(--mono);color:var(--dim);font-size:12px}
+.trend .tn{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.trend em{font-style:normal;font-size:11px;font-weight:700;background:#6d4cff;color:#fff;padding:0 5px;border-radius:2px;margin-left:6px}
+.trend small{font-family:var(--mono);color:var(--dim)}
+/* 불리틴 띠 (헤더 아래로 미끄러져 내려옴) */
+#bulletin{position:fixed;left:0;right:0;top:0;z-index:40;display:flex;align-items:center;gap:16px;padding:12px max(16px,env(safe-area-inset-right,0px)) 12px max(16px,env(safe-area-inset-left,0px));background:linear-gradient(90deg,#b01515,#7a0d0d);color:#fff;box-shadow:0 10px 40px #000a;cursor:pointer;animation:drop .55s cubic-bezier(.2,.8,.2,1)}
+#bulletin .lv{background:#fff;color:#b01515;animation:none}
+#bulletin h3{margin:0;font-size:clamp(18px,1.9vw,30px);font-weight:900;line-height:1.25;flex:1;min-width:0}
+#bulletin small{font-family:var(--mono);opacity:.85;white-space:nowrap}
+#bulletin .bp{position:absolute;left:0;bottom:0;height:3px;background:#fff;animation:drain 40s linear forwards}
+@keyframes drop{from{transform:translateY(-100%)}}
+#bulletin.out{animation:out .5s ease-in forwards}
+/* 카드에 단계 표시 */
+#breakCard .stg span{font-size:12px}
+#breakCard.URGENT{border-left-color:#e8810c;background:linear-gradient(90deg,#3a2408,#1a140b 70%);border-color:#6b4310}
+#breakCard.upd{animation:bump .6s ease}
+@keyframes bump{40%{transform:scale(1.015);box-shadow:0 0 0 3px var(--focus)}}
+#toast{position:fixed;right:max(16px,env(safe-area-inset-right,0px));bottom:calc(64px + env(safe-area-inset-bottom,0px));z-index:30;display:flex;flex-direction:column;gap:8px;max-width:min(420px,calc(100vw - 32px))}
+#toast a{display:block;background:#0e2a4d;border:1px solid #1c7cf0;border-radius:6px;padding:10px 12px;color:var(--fg);text-decoration:none;box-shadow:0 10px 30px #0008;animation:up .4s}
+#toast a b{display:block;font-size:12px;color:#8cc4ff;margin-bottom:2px}
+#soundBtn.on{border-color:var(--live);color:#fff;background:#3a0d0d}
+@media (max-width:900px){.desk{grid-template-columns:1fr}.wr{grid-template-columns:44px 1fr}.wr .lv{grid-column:2;justify-self:start;min-width:0}.wr > div{grid-column:1/-1}}
 footer{border-top:1px solid var(--line);background:var(--panel);padding:8px max(16px,env(safe-area-inset-right,0px)) 8px max(16px,env(safe-area-inset-left,0px));display:flex;align-items:center;gap:8px;overflow:hidden;white-space:nowrap;font-size:14px}
 footer .btn{padding:5px 10px}
 #bench button{background:none;border:1px dashed var(--line);border-radius:4px;padding:5px 10px;font-size:13px;color:var(--fg)}
@@ -242,6 +299,7 @@ footer .btn{padding:5px 10px}
   </div>
   <div class="tools">
     <button class="btn" id="setBtn" aria-expanded="false" aria-controls="settings">설정</button>
+    <button class="btn" id="soundBtn" aria-pressed="false" title="얼럿이 오면 소리로 알려줘요">알림음 켜기</button>
     <button class="btn" id="muteAll">전체 음소거</button>
     <label class="btn" for="rotate">음성 자동 전환
       <select id="rotate"><option value="0">끄기</option><option value="60">1분</option><option value="120">2분</option><option value="300">5분</option></select></label>
@@ -256,6 +314,20 @@ footer .btn{padding:5px 10px}
       <div class="inner">
         <div id="tabs"></div>
         <div id="prog"><i></i></div>
+
+        <div class="view" id="v-desk">
+          <div class="vhead"><h1>뉴스 얼럿 데스크</h1><small id="deskUpd"></small></div>
+          <div class="desk">
+            <div class="wire" id="wire"></div>
+            <div class="snsBox">
+              <div class="lbl">SNS 신호 · 블루스카이 최근 30분 <span style="letter-spacing:0;text-transform:none">(확인되지 않은 글)</span></div>
+              <div class="terms" id="terms"></div>
+              <div id="posts" style="display:flex;flex-direction:column;gap:6px"></div>
+              <div class="lbl" style="margin-top:4px">검색 급상승 · 구글 트렌드</div>
+              <div id="trends" style="display:flex;flex-direction:column;gap:4px"></div>
+            </div>
+          </div>
+        </div>
 
         <div class="view" id="v-head">
           <div class="vhead"><h1>지금 주요 뉴스</h1><small class="upd"></small></div>
@@ -301,9 +373,12 @@ footer .btn{padding:5px 10px}
   <span class="lbl" style="margin-left:12px">대기 화면</span><span id="bench" style="display:contents"></span>
 </footer>
 
+<div id="toast" aria-live="polite"></div>
 <div id="settings" hidden aria-label="설정">
   <div class="lbl">설정</div>
-  <label><input type="checkbox" id="flashOn"> 큰 속보는 전체 화면 특보로 띄우기</label>
+  <label><input type="checkbox" id="flashOn"> FLASH 얼럿은 전체 화면으로 띄우기</label>
+  <label><input type="checkbox" id="bulletinOn"> BULLETIN 얼럿은 화면 맨 위 띠로 띄우기</label>
+  <label><input type="checkbox" id="snsToast"> SNS 급증·검색 급상승을 오른쪽 아래 알림으로</label>
   <label><input type="checkbox" id="brkCenter"> 속보가 뜨면 그 방송사를 가운데로</label>
   <label>가운데 화면 넘기는 간격
     <select id="viewSec"><option value="12">12초</option><option value="18">18초</option><option value="25">25초</option><option value="40">40초</option></select></label>
@@ -318,10 +393,11 @@ footer .btn{padding:5px 10px}
     <button class="btn" type="submit">멀티뷰에 추가</button>
   </form>
   <div style="display:flex;gap:6px;flex-wrap:wrap">
-    <button class="btn" type="button" id="testFlash">특보 화면 미리 보기</button>
+    <button class="btn" type="button" id="testFlash">FLASH 미리 보기</button>
+    <button class="btn" type="button" id="testBulletin">BULLETIN 미리 보기</button>
     <button class="btn" type="button" id="resetCh">방송 기본 배치로</button>
   </div>
-  <p class="status">뉴스·날씨·미세먼지는 2분마다 갱신돼요. 특보와 교통은 뉴스 제목에서 골라낸 것이라 기상청·지자체 공식 발표를 대신하지 않아요. 날씨·미세먼지는 Open-Meteo 모델 값이에요.</p>
+  <p class="status">뉴스·날씨·미세먼지·얼럿은 2분마다 갱신돼요. 얼럿 긴급도는 통신사 방식(FLASH &gt; BULLETIN &gt; URGENT &gt; ALERT)을 본떠 기사 내용과 보도 매체 수로 자동으로 매긴 것이에요. SNS 글은 확인되지 않은 정보예요. 특보와 교통은 뉴스 제목에서 골라낸 것이라 기상청·지자체 공식 발표를 대신하지 않아요. 날씨·미세먼지는 Open-Meteo 모델 값이에요.</p>
 </div>
 
 <script>
@@ -520,7 +596,7 @@ let D=null;
 async function loadData(){
   try{ const r=await fetch("data.json?t="+Date.now(),{cache:"no-store"}); if(!r.ok) throw 0; D=await r.json(); }catch(e){ if(!D) note("상황실 데이터를 아직 못 불러왔어요. 잠시 뒤 자동으로 다시 시도해요."); return; }
   document.querySelectorAll(".upd").forEach(x=>x.textContent=`${ago(D.updated)} 수집 · 기사 ${D.news.length}건`);
-  drawAll(); handleBreaking();
+  drawAll(); if(!A) handleBreaking();
 }
 async function loadLive(){
   try{ const r=await fetch("live.json?t="+Date.now(),{cache:"no-store"}); if(!r.ok) return; const L=await r.json();
@@ -592,15 +668,16 @@ function drawCats(){
   $("catSide").innerHTML=["정치","경제","사회","국제"].map(k=>D.news.find(n=>n.cat===k)).filter(Boolean).map((n,i)=>`<a class="row" style="--i:${i}" href="${esc(n.link)}" target="_blank" rel="noopener">${catChip(n)}<div><span class="t">${esc(n.title)}</span><span class="m">${esc(n.source)} · ${ago(n.time)}</span></div></a>`).join("");
 }
 function drawTicker(){
+  if(typeof A!=="undefined" && A) return drawTickerAlerts();
   const list=D.news.filter(n=>n.breaking).slice(0,15); const use=list.length?list:D.news.slice(0,15);
   const tr=$("tickTrack"); tr.innerHTML=use.map(n=>`<a href="${esc(n.link)}" target="_blank" rel="noopener"><b>${esc(n.source)}</b>${esc(n.title)}</a>`).join("");
   tr.style.setProperty("--dur",Math.max(70,use.length*13)+"s");
 }
-const DRAW={"v-head":drawHead,"v-region":drawRegion,"v-weather":drawWeather,"v-dust":drawDust,"v-alert":drawAlert,"v-traffic":drawTraffic,"v-cats":drawCats};
+const DRAW={"v-desk":drawDesk,"v-head":drawHead,"v-region":drawRegion,"v-weather":drawWeather,"v-dust":drawDust,"v-alert":drawAlert,"v-traffic":drawTraffic,"v-cats":drawCats};
 function drawAll(){ if(!D||!MAP) return; drawTicker(); for(const [id,f] of Object.entries(DRAW)){ try{ f(); }catch(e){ console.error(id,e); } } fitView(); }
 
 // ===================== 가운데 화면 순환 =====================
-const VIEWS=[["v-head","주요 뉴스"],["v-region","지역"],["v-weather","날씨"],["v-dust","미세먼지"],["v-alert","재난·특보"],["v-traffic","교통"],["v-cats","분야별"]];
+const VIEWS=[["v-desk","얼럿"],["v-head","주요 뉴스"],["v-region","지역"],["v-weather","날씨"],["v-dust","미세먼지"],["v-alert","재난·특보"],["v-traffic","교통"],["v-cats","분야별"]];
 let vIdx=0, vStart=Date.now(), vHold=0; const vSel=$("viewSec"); vSel.value=String(S.viewSec||18);
 vSel.onchange=()=>{ S.viewSec=+vSel.value; save(); };
 VIEWS.forEach(([id,l],k)=>{ const b=document.createElement("button"); b.textContent=l; b.onclick=()=>{ showView(k); vHold=Date.now()+60000; }; $("tabs").appendChild(b); });
@@ -667,13 +744,119 @@ const set=$("settings"), setBtn=$("setBtn");
 setBtn.onclick=()=>{ set.hidden=!set.hidden; setBtn.setAttribute("aria-expanded",String(!set.hidden)); setBtn.classList.toggle("on",!set.hidden); };
 [["flashOn","flashOn"],["brkCenter","brkCenter"]].forEach(([id,k])=>{ const b=$(id); b.checked=S[k]!==false; b.onchange=()=>{ S[k]=b.checked; save(); }; });
 const pinSel=$("pinMin"); pinSel.value=String(S.pinMin||5); pinSel.onchange=()=>{ S.pinMin=+pinSel.value; save(); };
-$("testFlash").onclick=()=>{ setBtn.click(); const n=D?.news.find(x=>x.breaking)||D?.news[0]; if(n) showFlash(n); };
+$("testFlash").onclick=()=>{ setBtn.click(); const e=A?.events[0]; if(e) showFlashEvent(e); else { const n=D?.news.find(x=>x.breaking)||D?.news[0]; if(n) showFlash(n); } };
 $("resetCh").onclick=()=>{ S.channels=DEFAULT_CH.map(c=>({...c})); S.pin=S.audio=S.sel=null; save(); renderAll(); note("방송을 기본 배치로 돌렸어요."); };
 $("addForm").onsubmit=e=>{ e.preventDefault(); const n=$("addName"), s=$("addSrc");
   if(!parse(s.value)){ s.value=""; s.placeholder="유튜브 링크나 채널 ID를 확인해 주세요"; s.focus(); return; }
   S.channels.push({name:uniqName(n.value.trim()||"추가 화면"),src:s.value.trim(),embed:true}); n.value=s.value=""; save(); renderAll(); note("추가했어요. 대기 화면에 있으면 아래에서 눌러 띄울 수 있어요."); };
 document.addEventListener("keydown",e=>{ if(e.target.closest("input,select,textarea")) return; const v=visibleCh();
   if(/^[1-7]$/.test(e.key)&&v[+e.key-1]) setAudio(v[+e.key-1].name,true); if(e.key==="m"||e.key==="M") $("muteAll").click(); });
+
+
+// ===================== 뉴스 얼럿 =====================
+let A=null;
+const LV_RANK={FLASH:4,BULLETIN:3,URGENT:2,ALERT:1};
+const hhmm=t=>t?new Date(t).toLocaleTimeString("ko-KR",{timeZone:"Asia/Seoul",hour:"2-digit",minute:"2-digit",hour12:false}):"";
+const stagesHtml=e=>{ const order=[], cnt={}; e.updates.forEach(u=>{ const x=u.stage==="1보"&&order.includes("얼럿")?"속보":u.stage; if(!cnt[x]){ cnt[x]=0; order.push(x); } cnt[x]++; });
+  const short=order.map(x=>[x,cnt[x]]);
+  return short.map(([x,n])=>`<span class="${esc(x)}">${esc(x)}${n>1?` ×${n}`:""}</span>`).join("<i>→</i>")+`<span class="src">매체 ${e.sources.length}</span>`; };
+async function loadAlerts(){
+  let d; try{ const r=await fetch("alerts.json?t="+Date.now(),{cache:"no-store"}); if(!r.ok) return; d=await r.json(); }catch(e){ return; }
+  const first=!A; A=d; drawDesk(); drawTickerAlerts(); processAlerts(first);
+}
+function drawDesk(){
+  if(!A) return;
+  $("deskUpd").textContent=`${ago(A.updated)} 갱신 · 사건 ${A.events.length}건`;
+  const ev=A.events.slice(0,12);
+  $("wire").innerHTML=ev.map((e,i)=>`<a class="wr ${e.level}${freshIds.has(e.id)?" fresh":""}" style="--i:${i}" href="${esc(e.updates[e.updates.length-1].link)}" target="_blank" rel="noopener">
+      <time>${hhmm(e.last)}</time><span class="lv ${e.level}">${e.level}</span>
+      <div><div class="h">${esc(e.latest||e.headline)}</div><div class="stg">${stagesHtml(e)}${e.regions?.length?`<span>${esc(e.regions.join("·"))}</span>`:""}</div></div></a>`).join("")
+    ||'<div class="empty"><div><b>지금 올라온 얼럿이 없어요</b>속보·재난 기사가 들어오면 통신사 단말기처럼 여기에 쌓여요</div></div>';
+  const T=A.sns?.terms||{};
+  $("terms").innerHTML=Object.entries(T).sort((a,b)=>b[1].n30-a[1].n30).map(([k,v])=>`<span class="${v.spike?"spike":""}">${esc(k)}<b>${v.n30}</b></span>`).join("");
+  $("posts").innerHTML=(A.sns?.posts||[]).slice(0,4).map(p=>`<a class="post" href="${esc(p.url)}" target="_blank" rel="noopener"><div class="ph"><em>미확인</em>#${esc(p.term)} · @${esc(p.handle)} · ${ago(p.time)}</div><div class="pt">${esc(p.text)}</div></a>`).join("")||'<div class="status">최근 30분 동안 지켜보는 낱말이 들어간 글이 없어요</div>';
+  $("trends").innerHTML=(A.trends||[]).slice(0,8).map((t,i)=>`<a class="trend" href="${esc(t.news?.[0]?.link||("https://www.google.com/search?q="+encodeURIComponent(t.term)))}" target="_blank" rel="noopener"><b>${i+1}</b><span class="tn">${esc(t.term)}${t.new?"<em>NEW</em>":""}</span><small>${esc(t.traffic)}</small></a>`).join("");
+}
+function drawTickerAlerts(){
+  if(!A) return; const items=[];
+  A.events.slice(0,12).forEach(e=>items.push(`<a href="${esc(e.updates[e.updates.length-1].link)}" target="_blank" rel="noopener"><span class="lv ${e.level}" style="min-width:0;margin-right:8px;font-size:11px">${e.level}</span>${esc(e.latest||e.headline)}</a>`));
+  (A.sns?.spikes||[]).forEach(s=>items.push(`<a><span class="lv SNS" style="min-width:0;margin-right:8px;font-size:11px">SNS</span>'${esc(s.term)}' 언급 급증 · 30분 ${s.n30}건 (평소 ${s.base})</a>`));
+  (A.trends||[]).filter(t=>t.new).slice(0,3).forEach(t=>items.push(`<a><span class="lv TREND" style="min-width:0;margin-right:8px;font-size:11px">검색↑</span>${esc(t.term)} · ${esc(t.traffic)}</a>`));
+  if(!items.length) return;
+  const tr=$("tickTrack"); tr.innerHTML=items.join(""); tr.style.setProperty("--dur",Math.max(70,items.length*13)+"s");
+}
+// 이미 본 사건·업데이트 수를 기억해서 새로 들어온 것만 알린다
+let seenEv={}; try{ seenEv=JSON.parse(localStorage.getItem("korea-alert-seen")||"{}"); }catch(e){}
+const freshIds=new Set(); const seenSpike=new Set(); const seenTrend=new Set();
+function processAlerts(first){
+  const news=[], updates=[];
+  A.events.forEach(e=>{ const k=seenEv[e.id]; if(k===undefined){ if(!first||Date.now()-new Date(e.last)<15*60000) news.push(e); } else if(e.updates.length>k) updates.push(e); seenEv[e.id]=e.updates.length; });
+  try{ const keep={}; A.events.forEach(e=>keep[e.id]=seenEv[e.id]); localStorage.setItem("korea-alert-seen",JSON.stringify(keep)); }catch(e){}
+  freshIds.clear(); [...news,...updates].forEach(e=>freshIds.add(e.id)); if(freshIds.size) drawDesk();
+  // 가장 급한 새 얼럿 하나를 크게
+  const top=news.sort((a,b)=>LV_RANK[b.level]-LV_RANK[a.level]||new Date(b.last)-new Date(a.last))[0];
+  if(top){
+    if(top.level==="FLASH"){ if(S.flashOn!==false) showFlashEvent(top); beep(3); centerFor(top); showEventCard(top); }
+    else if(top.level==="BULLETIN"){ if(S.bulletinOn!==false) showBulletin(top); beep(2); centerFor(top); showEventCard(top); }
+    else if(top.level==="URGENT"){ beep(1); showEventCard(top); }
+  } else if(updates.length){ const u=updates.sort((a,b)=>LV_RANK[b.level]-LV_RANK[a.level])[0]; if(LV_RANK[u.level]>=2) showEventCard(u,true); }
+  // SNS 급증·검색 급상승은 작은 알림
+  if(!first && S.snsToast!==false){
+    (A.sns?.spikes||[]).forEach(s=>{ if(seenSpike.has(s.term)) return; seenSpike.add(s.term); toast("SNS 급증 · 미확인",`'${s.term}' 언급 30분 ${s.n30}건 (평소 ${s.base}건)`,null); beep(1); });
+    (A.trends||[]).filter(t=>t.new&&!seenTrend.has(t.term)).slice(0,2).forEach(t=>{ seenTrend.add(t.term); toast("검색 급상승",`${t.term} · ${t.traffic}`,t.news?.[0]?.link); });
+  } else { (A.sns?.spikes||[]).forEach(s=>seenSpike.add(s.term)); (A.trends||[]).forEach(t=>seenTrend.add(t.term)); }
+}
+function centerFor(e){
+  if(S.brkCenter===false || Date.now()-lastCenter<90000) return; lastCenter=Date.now();
+  const src=e.updates.map(u=>u.source).join(" ");
+  const tv=(SRC_TV.find(([re])=>re.test(src))||[])[1]||"YTN";
+  const ch=S.channels.find(c=>c.name===tv&&c.embed)||S.channels.find(c=>c.name==="YTN"&&c.embed)||S.channels.find(c=>c.name==="연합뉴스TV"&&c.embed);
+  if(ch) bringToStage(ch,`${e.level} · ${e.latest||e.headline}`.slice(0,60));
+}
+function showEventCard(e,isUpdate){
+  let c=$("breakCard");
+  if(!c||c.dataset.id!==e.id){ c?.remove(); c=document.createElement("div"); c.id="breakCard"; stage.appendChild(c); }
+  c.dataset.id=e.id; c.className=e.level==="URGENT"?"URGENT":""; c.title="눌러서 최신 기사 열기";
+  const last=e.updates[e.updates.length-1];
+  c.innerHTML=`<div class="bt"><i></i><span class="lv ${e.level}" style="min-width:0">${e.level}</span>${isUpdate?`<span style="color:var(--focus)">업데이트 · ${esc(last.stage)}</span>`:""}</div><h3></h3><div class="stg">${stagesHtml(e)}</div><div class="bm"></div><div class="bp"><b></b></div>`;
+  c.querySelector("h3").textContent=e.latest||e.headline;
+  c.querySelector(".bm").textContent=`${last.source} · ${hhmm(last.time)} KST${e.regions?.length?" · "+e.regions.join("·"):""}`;
+  c.onclick=()=>window.open(last.link,"_blank","noopener");
+  if(isUpdate){ c.classList.remove("upd"); void c.offsetWidth; c.classList.add("upd"); }
+  clearTimeout(c._t); c._t=setTimeout(()=>c.remove(),20000); requestAnimationFrame(fitView);
+}
+function showBulletin(e){
+  $("bulletin")?.remove(); const b=document.createElement("div"); b.id="bulletin"; b.title="눌러서 기사 열기 · 닫기";
+  const last=e.updates[e.updates.length-1];
+  b.innerHTML=`<span class="lv BULLETIN">BULLETIN</span><h3></h3><small>${esc(last.source)} · ${hhmm(last.time)} KST · 매체 ${e.sources.length}</small><i class="bp"></i>`;
+  b.querySelector("h3").textContent=e.latest||e.headline;
+  const close=()=>{ b.classList.add("out"); setTimeout(()=>b.remove(),500); };
+  b.onclick=()=>{ window.open(last.link,"_blank","noopener"); close(); };
+  document.body.appendChild(b); setTimeout(close,40000);
+}
+function showFlashEvent(e){
+  const last=e.updates[e.updates.length-1];
+  showFlash({title:e.latest||e.headline, source:`${last.source} 외 ${Math.max(0,e.sources.length-1)}곳`, time:last.time, cat:"재난", regions:e.regions, link:last.link});
+  const k=$("flash")?.querySelector(".kick"); if(k) k.innerHTML=`<i></i>FLASH · 최우선 얼럿${e.regions?.length?" · "+esc(e.regions.join("·")):""}`;
+}
+function toast(head,body,link){
+  const a=document.createElement("a"); if(link){ a.href=link; a.target="_blank"; a.rel="noopener"; }
+  a.innerHTML=`<b>${esc(head)}</b>${esc(body)}`; $("toast").appendChild(a); setTimeout(()=>a.remove(),15000);
+}
+// 알림음: 사용자가 한 번 눌러야 브라우저가 소리를 허락한다
+let actx=null;
+const soundBtn=$("soundBtn");
+function setSound(on){ S.sound=on; save(); soundBtn.classList.toggle("on",on); soundBtn.setAttribute("aria-pressed",String(on)); soundBtn.textContent=on?"알림음 켜짐":"알림음 켜기"; }
+soundBtn.onclick=()=>{ try{ actx=actx||new (window.AudioContext||window.webkitAudioContext)(); actx.resume(); }catch(e){} setSound(!S.sound); if(S.sound) beep(1); };
+setSound(false); // 새로 열면 브라우저가 소리를 막으므로 다시 눌러야 한다
+function beep(n){
+  if(!S.sound||!actx) return;
+  for(let i=0;i<n;i++){ const t=actx.currentTime+i*.22, o=actx.createOscillator(), g=actx.createGain();
+    o.type="square"; o.frequency.value=n>=3?1320:n===2?990:740; g.gain.setValueAtTime(.0001,t); g.gain.exponentialRampToValueAtTime(.12,t+.01); g.gain.exponentialRampToValueAtTime(.0001,t+.16);
+    o.connect(g).connect(actx.destination); o.start(t); o.stop(t+.18); }
+}
+[["bulletinOn","bulletinOn"],["snsToast","snsToast"]].forEach(([id,k])=>{ const b=$(id); b.checked=S[k]!==false; b.onchange=()=>{ S[k]=b.checked; save(); }; });
+$("testBulletin").onclick=()=>{ setBtn.click(); const e=A?.events.find(x=>x.level==="BULLETIN")||A?.events[0]; if(e) showBulletin(e); };
 
 // 시계
 function tick(){ const now=new Date(), f=tz=>now.toLocaleTimeString("en-GB",{timeZone:tz,hour:"2-digit",minute:"2-digit",second:"2-digit"});
@@ -684,9 +867,9 @@ setInterval(tick,1000); tick();
 // 시작
 (async()=>{
   renderAll(); startBench(); showView(0);
-  await Promise.all([loadMap(),loadLive()]); await loadData();
+  await Promise.all([loadMap(),loadLive()]); await loadData(); await loadAlerts();
   showView(0);
-  setInterval(loadData,60000); setInterval(loadLive,60000);
+  setInterval(loadData,60000); setInterval(loadLive,60000); setInterval(loadAlerts,45000);
 })();
 </script>
 </body>

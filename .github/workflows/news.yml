@@ -43,7 +43,8 @@ jobs:
             python scripts/fetch_youtube.py || true
             python scripts/fetch_korea.py || true
             python scripts/fetch_korea_youtube.py || true
-            git add news.json results.json live.json korea/data.json korea/live.json
+            python scripts/fetch_alerts.py || true
+            git add news.json results.json live.json korea/data.json korea/live.json korea/alerts.json
             if ! git diff --cached --quiet; then
               git commit -q -m "Update news and results"
               for i in 1 2 3; do
