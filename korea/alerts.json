@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-05T19:05:06.450952+00:00",
+"updated": "2026-11-05T19:07:22.131009+00:00",
 "errors": [],
 "events": [
 {
@@ -2175,79 +2175,13 @@
 "주택서",
 "화재"
 ]
-},
-{
-"id": "ssutm_campaigntotal_news1220",
-"first": "2026-11-05T12:20:00+00:00",
-"last": "2026-11-05T13:07:00+00:00",
-"updated": "2026-11-05T13:50:27.852524+00:00",
-"headline": "이 대통령 “‘알고리즘에 갇혔다’ 주장 있는데, 갇히지 않는다”…첫 유튜브 방송에서 김어준 주장 반박",
-"cat": "정치",
-"regions": [],
-"sources": [
-"경향신문",
-"뉴시스",
-"연합뉴스",
-"연합뉴스TV"
-],
-"updates": [
-{
-"title": "[속보] 이 대통령 “‘알고리즘에 갇혔다’ 주장 있는데, 갇히지 않는다”…첫 유튜브 방송에서 김어준 주장 반박",
-"source": "경향신문",
-"link": "https://www.khan.co.kr/article/202611052120001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
-"time": "2026-11-05T12:20:00+00:00",
-"stage": "얼럿"
-},
-{
-"title": "李대통령 \"알고리즘에 갇히지 않는다…욕도 보고 비난도 봐\"",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261105178700001",
-"time": "2026-11-05T12:34:11+00:00",
-"stage": "후속"
-},
-{
-"title": "이 대통령 \"알고리즘에 갇히지 않는다…욕도 보고 비난도 본다\"(종합)",
-"source": "뉴시스",
-"link": "https://www.newsis.com/view/NISX20261105_0003857075",
-"time": "2026-11-05T12:55:01+00:00",
-"stage": "종합"
-},
-{
-"title": "이 대통령 \"알고리즘에 갇히지 않아…욕도 보고 비난도 봐\"",
-"source": "연합뉴스TV",
-"link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFAyV21TYTVrTG1NaGZjWDI0R1FWd3VTVDc4emltM183UlJwOUNxaUwwOVlfXzg3czRrYS01b3Zfekl3aWRSYl84eWk2MlhtUXVBdkp2eVFPUXB1SDRsemVObUF1SEx4UVk?oc=5",
-"time": "2026-11-05T13:07:00+00:00",
-"stage": "후속"
-}
-],
-"level": "URGENT",
-"latest": "이 대통령 \"알고리즘에 갇히지 않아…욕도 보고 비난도 봐\"",
-"tok": [
-"갇혔다",
-"갇히지",
-"김어준",
-"대통령",
-"반박",
-"방송에서",
-"보고",
-"본다",
-"비난",
-"않는다",
-"않아",
-"알고리즘",
-"욕도",
-"유튜브",
-"있는데",
-"주장",
-"李대통령"
-]
 }
 ],
 "sns": {
 "terms": {
 "지진": {
 "n30": 0,
-"base": 0.3,
+"base": 0.2,
 "spike": false
 },
 "화재": {
@@ -2267,7 +2201,7 @@
 },
 "폭발": {
 "n30": 5,
-"base": 0.2,
+"base": 0.3,
 "spike": true
 },
 "붕괴": {
@@ -2558,17 +2492,17 @@
 {
 "term": "폭발",
 "n30": 5,
-"base": 0.2,
+"base": 0.3,
 "spike": true,
-"since": "2026-11-05T19:05:06.450952+00:00"
+"since": "2026-11-05T19:07:22.131009+00:00"
 }
 ],
 "baseline": {
-"지진": 0.24,
+"지진": 0.22,
 "화재": 0.05,
 "불났": 0.0,
 "정전": 0.05,
-"폭발": 0.32,
+"폭발": 0.39,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
@@ -2819,7 +2753,7 @@
 "link": "https://www.incheonilbo.com/news/articleView.html?idxno=1336098"
 }
 ],
-"new": true
+"new": false
 },
 {
 "term": "알테오젠",
