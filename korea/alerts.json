@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-05T03:08:27.801336+00:00",
+"updated": "2026-11-05T03:10:42.614677+00:00",
 "errors": [],
 "events": [
 {
@@ -297,7 +297,7 @@
 "id": "wNISX20261105_00038561250219",
 "first": "2026-11-05T02:19:45+00:00",
 "last": "2026-11-05T03:01:14+00:00",
-"updated": "2026-11-05T03:06:11.590129+00:00",
+"updated": "2026-11-05T03:10:42.614677+00:00",
 "headline": "여야, '조작기소 특검법' 본회의 상정 관련 협상 결렬…오후 3시 본회의",
 "cat": "기타",
 "regions": [],
@@ -308,6 +308,7 @@
 "이투데이",
 "조선일보",
 "중앙일보",
+"채널A",
 "한국경제"
 ],
 "updates": [
@@ -365,6 +366,13 @@
 "source": "이투데이",
 "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFB1TXJGaGFvRjB3ek8tS2RxeEVMRVhsS1BXYVkxV2Myc20zaTJxMnlzak9xQWRIRmM1YU1MNnNuVHpzVlAxR0hDTUZxMmtIYWNzRHl1M0UxckNna25LM2haNUJJOGY5X0FQcm1iRndfYU5RakUw?oc=5",
 "time": "2026-11-05T02:51:00+00:00",
+"stage": "속보"
+},
+{
+"title": "[속보]‘조작기소 특검법’ 오늘 국회 본회의 상정",
+"source": "채널A",
+"link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1DN1VzN0JuVkJzUkNyUTV6WU5kQzFIdlAxeDdTcTNmQnVuam1DN2RYWWRLM0tRQTdhdmlxWUZBUmdsZGg3bVR4WmJXcFZYVWxiY1UxTGF0V1k0ZHBnUFHSAWNBVV95cUxQUmF3Sk9lT3BuVlFGYWszY1lrUnVlV0VzWGc4T0Y3U29ZT1N3Sm0yaVc1Q3ZZNXRCdzkzUjRJRjVDRkxtOWlCMDVUSGFnemtZekpyZUl5a0o0dkpDbkEtVHNjQTA?oc=5",
+"time": "2026-11-05T02:59:00+00:00",
 "stage": "속보"
 },
 {
@@ -2081,12 +2089,12 @@
 },
 "폭발": {
 "n30": 10,
-"base": 0.6,
+"base": 0.7,
 "spike": true
 },
 "붕괴": {
 "n30": 4,
-"base": 0.2,
+"base": 0.3,
 "spike": false
 },
 "대피": {
@@ -2411,31 +2419,31 @@
 {
 "term": "폭발",
 "n30": 10,
-"base": 0.6,
+"base": 0.7,
 "spike": true,
-"since": "2026-11-05T03:08:27.801336+00:00"
+"since": "2026-11-05T03:10:42.614677+00:00"
 },
 {
 "term": "속보",
 "n30": 6,
 "base": 0.0,
 "spike": true,
-"since": "2026-11-05T03:08:27.801336+00:00"
+"since": "2026-11-05T03:10:42.614677+00:00"
 }
 ],
 "baseline": {
-"지진": 0.72,
+"지진": 0.75,
 "화재": 0.0,
 "불났": 0.0,
 "정전": 0.0,
-"폭발": 0.65,
-"붕괴": 0.27,
+"폭발": 0.69,
+"붕괴": 0.34,
 "대피": 0.0,
-"미사일": 0.27,
+"미사일": 0.24,
 "속보": 0.0,
 "지하철": 0.05,
-"사고": 1.16,
-"실종": 0.11,
+"사고": 1.14,
+"실종": 0.1,
 "단수": 0.0,
 "통신 장애": 0.0,
 "먹통": 0.0,
