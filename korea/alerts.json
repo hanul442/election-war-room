@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-05T10:34:42.336466+00:00",
+"updated": "2026-11-05T10:36:57.171893+00:00",
 "errors": [],
 "events": [
 {
@@ -185,7 +185,7 @@
 "id": "mdJWml3ekJ3WkpGUEdCVQoc50947",
 "first": "2026-11-05T09:47:00+00:00",
 "last": "2026-11-05T10:08:37+00:00",
-"updated": "2026-11-05T10:12:10.844434+00:00",
+"updated": "2026-11-05T10:36:57.171893+00:00",
 "headline": "경찰, ‘세브란스 병원 흉기난동’ 50대에 구속영장 신청",
 "cat": "사회",
 "regions": [],
@@ -201,6 +201,13 @@
 "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9ZdlBWcEZKU1lKbF9pY3Mzb29aV3hfZjhaX0tOdUJKVjJFc2lvWE5iTjBJNFNYMW9xSV9aQXJXTFVzNlRPeV9GaDJoWlVya2FSQ3I2ZURCVHRacHpXbVIyMmltYlV5Rk04ejFFNDhPY0hBckhUY282bE4wYzlDd9IBY0FVX3lxTE9NNzF4Z2NiV1BRRDdKNVFaeUY4d1MtVWtlaDRPU0wzY01DSnAyVmRIb2IwWkZ0Y2picERwelFfZGNOTHNWMWZQS1o1SlRkWGZDVlpjSmdJWml3ekJ3WkpGUEdCVQ?oc=5",
 "time": "2026-11-05T09:47:00+00:00",
 "stage": "얼럿"
+},
+{
+"title": "[속보]경찰, ‘세브란스 병원 흉기난동’ 50대에 구속영장 신청",
+"source": "채널A",
+"link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9NNzF4Z2NiV1BRRDdKNVFaeUY4d1MtVWtlaDRPU0wzY01DSnAyVmRIb2IwWkZ0Y2picERwelFfZGNOTHNWMWZQS1o1SlRkWGZDVlpjSmdJWml3ekJ3WkpGUEdCVdIBY0FVX3lxTE9NNzF4Z2NiV1BRRDdKNVFaeUY4d1MtVWtlaDRPU0wzY01DSnAyVmRIb2IwWkZ0Y2picERwelFfZGNOTHNWMWZQS1o1SlRkWGZDVlpjSmdJWml3ekJ3WkpGUEdCVQ?oc=5",
+"time": "2026-11-05T09:47:00+00:00",
+"stage": "속보"
 },
 {
 "title": "경찰, ‘세브란스 난동’ 50대 女 구속영장 신청",
@@ -4965,7 +4972,7 @@
 },
 "화재": {
 "n30": 0,
-"base": 0.6,
+"base": 0.5,
 "spike": false
 },
 "불났": {
@@ -4980,17 +4987,17 @@
 },
 "폭발": {
 "n30": 5,
-"base": 1.3,
+"base": 1.4,
 "spike": true
 },
 "붕괴": {
-"n30": 2,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
 "대피": {
 "n30": 0,
-"base": 0.8,
+"base": 0.7,
 "spike": false
 },
 "미사일": {
@@ -5015,7 +5022,7 @@
 },
 "실종": {
 "n30": 1,
-"base": 0.3,
+"base": 0.4,
 "spike": false
 },
 "단수": {
@@ -5341,31 +5348,31 @@
 {
 "term": "폭발",
 "n30": 5,
-"base": 1.3,
+"base": 1.4,
 "spike": true,
-"since": "2026-11-05T10:34:42.336466+00:00"
+"since": "2026-11-05T10:36:57.171893+00:00"
 },
 {
 "term": "속보",
 "n30": 8,
 "base": 0.7,
 "spike": true,
-"since": "2026-11-05T10:34:42.336466+00:00"
+"since": "2026-11-05T10:36:57.171893+00:00"
 }
 ],
 "baseline": {
-"지진": 0.07,
-"화재": 0.5,
+"지진": 0.06,
+"화재": 0.45,
 "불났": 0.0,
 "정전": 0.0,
-"폭발": 1.39,
+"폭발": 1.45,
 "붕괴": 0.05,
-"대피": 0.68,
+"대피": 0.61,
 "미사일": 0.05,
-"속보": 0.74,
+"속보": 0.77,
 "지하철": 0.05,
 "사고": 5.02,
-"실종": 0.39,
+"실종": 0.45,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -5609,7 +5616,7 @@
 "link": "https://www.hankyung.com/article/202611058778h"
 }
 ],
-"new": true
+"new": false
 },
 {
 "term": "맘스터치",
@@ -5627,7 +5634,7 @@
 "link": "https://www.lawissue.co.kr/view.php?ud=202611051007334474204ead0791_12"
 }
 ],
-"new": true
+"new": false
 },
 {
 "term": "노동조합",
@@ -5653,14 +5660,14 @@
 "time": "2026-11-05T09:20:00+00:00",
 "news": [
 {
-"title": "‘흙신’ 나달, 레알 마드리드 구단 이사 된다…내친 김에 회장까지?",
-"source": "동아일보",
-"link": "https://www.donga.com/news/Sports/article/all/20261105/134971041/1"
-},
-{
 "title": "'테니스 스타' 나달, 레알 마드리드 이사회 합류…\"제안 수락\"",
 "source": "연합뉴스",
 "link": "https://www.yna.co.kr/view/AKR20261105066500007"
+},
+{
+"title": "‘흙신’ 나달, 레알 마드리드 구단 이사 된다…내친 김에 회장까지?",
+"source": "동아일보",
+"link": "https://www.donga.com/news/Sports/article/all/20261105/134971041/1"
 }
 ],
 "new": false
