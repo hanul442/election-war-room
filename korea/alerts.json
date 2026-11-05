@@ -1,12 +1,12 @@
 {
-"updated": "2026-11-05T09:35:46.875963+00:00",
+"updated": "2026-11-05T09:38:01.568180+00:00",
 "errors": [],
 "events": [
 {
 "id": "viewAKR202611051650000040852",
 "first": "2026-11-05T08:52:38+00:00",
 "last": "2026-11-05T09:32:00+00:00",
-"updated": "2026-11-05T09:35:46.875963+00:00",
+"updated": "2026-11-05T09:38:01.568180+00:00",
 "headline": "법원, '개인정보 유출' 쿠팡 과징금 4천만원 부과효력 유지",
 "cat": "사회",
 "regions": [],
@@ -18,6 +18,7 @@
 "YTN",
 "강원도민일보",
 "경향신문",
+"뉴스1",
 "뉴시스",
 "매일경제",
 "머니투데이",
@@ -50,6 +51,13 @@
 "title": "[속보]법원, 쿠팡 개인정보위원회 과징금 부과 집행정지",
 "source": "뉴시스",
 "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5oQ3ZXMnVpc0pzRDBJV3c3TDBvWDBzUHpHeGI1LXZhT1RmazU1T0tLbmhwWjhxM0czLXh2dGd6WkUtX2VxYjh5d2hDazZ3ZEFKeS16MFkzQW1wSFYxMDlUWNIBeEFVX3lxTFBtaXRzejVOSDRabF9GX3VDb0JuMUhWMU5QckxGMzJLUGROODdSM0JxR0FCUW55RFRfbWNVNEJjaFZPNWR4Z2lMMFdPWDVMMW90czJaYTNZM2FKR18xTFpWMDhrOWItMmJkbnRpRmtrcVBNMWE4OVZBMg?oc=5",
+"time": "2026-11-05T08:52:54+00:00",
+"stage": "속보"
+},
+{
+"title": "[속보]법원, 쿠팡 개인정보위원회 과징금 부과 집행정지",
+"source": "뉴시스",
+"link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBtaXRzejVOSDRabF9GX3VDb0JuMUhWMU5QckxGMzJLUGROODdSM0JxR0FCUW55RFRfbWNVNEJjaFZPNWR4Z2lMMFdPWDVMMW90czJaYTNZM2FKR18xTFpWMDhrOWItMmJkbnRpRmtrcVBNMWE4OVZBMtIBeEFVX3lxTFBtaXRzejVOSDRabF9GX3VDb0JuMUhWMU5QckxGMzJLUGROODdSM0JxR0FCUW55RFRfbWNVNEJjaFZPNWR4Z2lMMFdPWDVMMW90czJaYTNZM2FKR18xTFpWMDhrOWItMmJkbnRpRmtrcVBNMWE4OVZBMg?oc=5",
 "time": "2026-11-05T08:52:54+00:00",
 "stage": "속보"
 },
@@ -138,6 +146,13 @@
 "stage": "속보"
 },
 {
+"title": "[속보] 법원, '개인정보 유출' 쿠팡 과징금 4200억 부과 처분 효력 유지",
+"source": "뉴스1",
+"link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBYbUw1WFdYak9nNUxVdkpCWnJVS1RBaVdhdkN2X2JGdzkwODAzYkZFeFlOcjVpMk82SFZ3OVEzOXBKLXlKQk5lczFrQllJNHdVcFBTYU1vbkpBOWVQNm1palNQc0o?oc=5",
+"time": "2026-11-05T09:05:17+00:00",
+"stage": "속보"
+},
+{
 "title": "법원, 쿠팡 ‘개인정보 유출’ 4235억원 과징금 집행정지 ‘기각’",
 "source": "조선일보",
 "link": "https://www.chosun.com/national/court_law/2026/11/05/G24K2QYUBBBNTGSS7IYENSD7D4/",
@@ -201,6 +216,7 @@
 "4000억",
 "4000억대",
 "4000억원",
+"4200억",
 "4200억원",
 "4235억원",
 "4236억원",
@@ -224,6 +240,7 @@
 "잠정",
 "중단",
 "집행정지",
+"처분",
 "쿠팡",
 "효력",
 "효력유지"
@@ -4735,7 +4752,7 @@
 "terms": {
 "지진": {
 "n30": 1,
-"base": 0.6,
+"base": 0.7,
 "spike": false
 },
 "화재": {
@@ -4754,9 +4771,9 @@
 "spike": false
 },
 "폭발": {
-"n30": 6,
+"n30": 4,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "붕괴": {
 "n30": 1,
@@ -4774,18 +4791,18 @@
 "spike": false
 },
 "속보": {
-"n30": 2,
-"base": 0.8,
+"n30": 1,
+"base": 0.7,
 "spike": false
 },
 "지하철": {
 "n30": 1,
-"base": 0.6,
+"base": 0.5,
 "spike": false
 },
 "사고": {
 "n30": 4,
-"base": 5.4,
+"base": 5.3,
 "spike": false
 },
 "실종": {
@@ -5082,28 +5099,20 @@
 "url": "https://www.youtube.com/watch?v=2je7UqevJQc"
 }
 ],
-"spikes": [
-{
-"term": "폭발",
-"n30": 6,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-05T09:35:46.875963+00:00"
-}
-],
+"spikes": [],
 "baseline": {
-"지진": 0.68,
+"지진": 0.71,
 "화재": 0.05,
 "불났": 0.0,
 "정전": 0.0,
-"폭발": 0.13,
+"폭발": 0.12,
 "붕괴": 0.05,
 "대피": 0.0,
 "미사일": 0.05,
-"속보": 0.72,
-"지하철": 0.53,
-"사고": 5.27,
-"실종": 0.49,
+"속보": 0.65,
+"지하철": 0.48,
+"사고": 5.14,
+"실종": 0.44,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -5347,7 +5356,7 @@
 "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008831671"
 }
 ],
-"new": true
+"new": false
 },
 {
 "term": "장동민",
@@ -5373,14 +5382,14 @@
 "time": "2026-11-05T08:10:00+00:00",
 "news": [
 {
+"title": "고조에서 세피로스까지: 어마어마한 라인업을 자랑하는 '어벤져스: 두무스데이' 일본어 더빙진",
+"source": "Hypebeast.KR",
+"link": "https://hypebeast.kr/2026/11/marvel-avengers-doomsday-japanese-dub-cast-anime-voice-actors-toshiyuki-morikawa-doctor-doom-announcement"
+},
+{
 "title": "‘어벤져스: 둠스데이’ 벌써 뜨겁다…사상 최초 ‘30억 달러’ 돌파 전망",
 "source": "스포츠동아",
 "link": "https://sports.donga.com/ent/article/all/20261102/134948407/1"
-},
-{
-"title": "[해외 캠페인] KFC, '어벤져스: 둠스데이' 메뉴 출시",
-"source": "캠페인 인사이트",
-"link": "https://www.campaigninsight.co.kr/news/articleView.html?idxno=7066"
 }
 ],
 "new": false
