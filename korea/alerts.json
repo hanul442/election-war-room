@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-05T13:18:44.404527+00:00",
+"updated": "2026-11-05T13:21:00.868132+00:00",
 "errors": [],
 "events": [
 {
@@ -4371,7 +4371,7 @@
 },
 "폭발": {
 "n30": 7,
-"base": 0.2,
+"base": 0.3,
 "spike": true
 },
 "붕괴": {
@@ -4385,7 +4385,7 @@
 "spike": false
 },
 "미사일": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -4396,12 +4396,12 @@
 },
 "지하철": {
 "n30": 4,
-"base": 0.4,
+"base": 0.3,
 "spike": false
 },
 "사고": {
-"n30": 2,
-"base": 2.8,
+"n30": 1,
+"base": 2.7,
 "spike": false
 },
 "실종": {
@@ -4632,16 +4632,6 @@
 "url": "https://www.youtube.com/watch?v=OUuPWrEN_l0"
 },
 {
-"text": "- 결국 이러한 조치는 검증 능력이 부족한 학생들이 오류가 잦은 AI 답변에 무비판적으로 의존하게 만들어, 스스로 출처를 찾고 분석하는 비판적 사고 능력을 훼손하는 심각한 교육적 위험을 초래 (🧵2/2)",
-"handle": "lunamoth.bsky.social",
-"name": "lunamoth",
-"time": "2026-11-05T12:50:26.781Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/lunamoth.bsky.social/post/3mzkvsceyu223",
-"term": "사고"
-},
-{
 "platform": "YouTube",
 "text": "[🔴이슈를 켜라] 北, 미사일 도발… 우리군, 정조대왕함 선두로 바둑판 대형 출격 / 채널A",
 "handle": "UCfq4V1DAuaojnr2ryvWNysw",
@@ -4664,35 +4654,35 @@
 {
 "term": "폭발",
 "n30": 7,
-"base": 0.2,
+"base": 0.3,
 "spike": true,
-"since": "2026-11-05T13:18:44.404527+00:00"
+"since": "2026-11-05T13:21:00.868132+00:00"
 },
 {
 "term": "속보",
 "n30": 8,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-05T13:18:44.404527+00:00"
+"since": "2026-11-05T13:21:00.868132+00:00"
 }
 ],
 "baseline": {
 "지진": 0.05,
-"화재": 0.09,
+"화재": 0.08,
 "불났": 0.0,
 "정전": 0.05,
-"폭발": 0.32,
+"폭발": 0.39,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.35,
-"사고": 2.7,
+"지하철": 0.32,
+"사고": 2.53,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
-"산불": 0.3
+"산불": 0.27
 },
 "errors": [],
 "ytPosts": [
@@ -4988,9 +4978,9 @@
 "link": "https://www.yna.co.kr/view/AKR20261105177200007"
 },
 {
-"title": "호날두, 대표팀 무단 이탈하더니…“포르투갈 7번 내려 놓을 때가 됐다” 전격 은퇴",
-"source": "전자신문",
-"link": "https://www.etnews.com/20261105000531"
+"title": "‘대표팀 이탈’ 파문 호날두, 결국 국가대표 은퇴 선언",
+"source": "KBS 뉴스",
+"link": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8705388"
 }
 ],
 "new": false
@@ -5037,14 +5027,14 @@
 "time": "2026-11-05T09:50:00+00:00",
 "news": [
 {
-"title": "삼성, 현대모비스 꺾고 10승 선착",
-"source": "조선일보",
-"link": "https://www.chosun.com/sports/basketball/2026/11/05/JPSKBB5EHZCHFHPZIRHF4G4I6U/"
-},
-{
 "title": "삼성, 현대모비스 꺾고 11경기 만에 10승…KBL 역대 최단 경기 타이",
 "source": "뉴시스",
 "link": "https://www.newsis.com/view/NISX20261105_0003857015"
+},
+{
+"title": "‘이관희 또 4쿼터 지배했다!’ 지난 시즌 16승했던 삼성, 11경기 만에 ‘놀라운 10승’…역대 최소경기 10승 타이",
+"source": "Chosunbiz",
+"link": "https://biz.chosun.com/sports/sports_general/2026/11/05/MIYGKMBQGUZGMYZUGBQTEYZSMM/"
 }
 ],
 "new": false
