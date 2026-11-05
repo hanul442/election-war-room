@@ -1,7 +1,43 @@
 {
-"updated": "2026-11-05T22:28:57.762556+00:00",
+"updated": "2026-11-05T22:31:10.652747+00:00",
 "errors": [],
 "events": [
+{
+"id": "R2c3pkczJxcjZWTlk5NWcoc52228",
+"first": "2026-11-05T22:28:55+00:00",
+"last": "2026-11-05T22:28:55+00:00",
+"updated": "2026-11-05T22:31:10.652747+00:00",
+"headline": "美 AI 규제 공포에 뉴욕증시 폭락...삼전·닉스 등 국내 반도체 파장 주목",
+"cat": "경제",
+"regions": [],
+"sources": [
+"뉴스버스"
+],
+"updates": [
+{
+"title": "[속보] 美 AI 규제 공포에 뉴욕증시 폭락...삼전·닉스 등 국내 반도체 파장 주목",
+"source": "뉴스버스",
+"link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5icUlYaFNuWThPWFBrVzl6S0R4M3NIOEw4eVl4Z0dDM1JPaE1sVWtfMkNPMEx2YVJXRmlKR2xheXZYWVpMdS1CUmtkSi1nLWV4d011blo0YzlTaWR2c3pkczJxcjZWTlk5NWc?oc=5",
+"time": "2026-11-05T22:28:55+00:00",
+"stage": "얼럿"
+}
+],
+"level": "URGENT",
+"latest": "美 AI 규제 공포에 뉴욕증시 폭락...삼전·닉스 등 국내 반도체 파장 주목",
+"tok": [
+"AI",
+"공포",
+"국내",
+"규제",
+"뉴욕증시",
+"닉스",
+"반도체",
+"삼전",
+"주목",
+"파장",
+"폭락"
+]
+},
 {
 "id": "nkRSSLINKcooperRSSREADER1642",
 "first": "2026-11-05T16:42:35+00:00",
@@ -41,6 +77,43 @@
 "인데",
 "주의",
 "참극"
+]
+},
+{
+"id": "ssutm_campaigntotal_news2220",
+"first": "2026-11-05T22:20:01+00:00",
+"last": "2026-11-05T22:20:01+00:00",
+"updated": "2026-11-05T22:31:10.652747+00:00",
+"headline": "입동 하루 전 강풍 타고 온 ‘기습 한파’···낮 기온 최대 10도 뚝, 내일부터 전국 대부분 영하권",
+"cat": "재난",
+"regions": [],
+"sources": [
+"경향신문"
+],
+"updates": [
+{
+"title": "입동 하루 전 강풍 타고 온 ‘기습 한파’···낮 기온 최대 10도 뚝, 내일부터 전국 대부분 영하권",
+"source": "경향신문",
+"link": "https://www.khan.co.kr/article/202611060720011/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
+"time": "2026-11-05T22:20:01+00:00",
+"stage": "1보"
+}
+],
+"level": "ALERT",
+"latest": "입동 하루 전 강풍 타고 온 ‘기습 한파’···낮 기온 최대 10도 뚝, 내일부터 전국 대부분 영하권",
+"tok": [
+"강풍",
+"기습",
+"기온",
+"내일부터",
+"대부분",
+"영하권",
+"입동",
+"전국",
+"최대",
+"타고",
+"하루",
+"한파"
 ]
 },
 {
@@ -1875,7 +1948,7 @@
 "sns": {
 "terms": {
 "지진": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -1895,13 +1968,13 @@
 "spike": false
 },
 "폭발": {
-"n30": 13,
+"n30": 0,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "붕괴": {
-"n30": 4,
-"base": 0.6,
+"n30": 2,
+"base": 0.7,
 "spike": false
 },
 "대피": {
@@ -1910,7 +1983,7 @@
 "spike": false
 },
 "미사일": {
-"n30": 3,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -1920,7 +1993,7 @@
 "spike": false
 },
 "지하철": {
-"n30": 2,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -2183,27 +2256,19 @@
 "url": "https://www.youtube.com/watch?v=G4mWTNVcnNg"
 }
 ],
-"spikes": [
-{
-"term": "폭발",
-"n30": 13,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-05T22:28:57.762556+00:00"
-}
-],
+"spikes": [],
 "baseline": {
 "지진": 0.05,
 "화재": 0.05,
 "불났": 0.0,
 "정전": 0.05,
 "폭발": 0.05,
-"붕괴": 0.68,
+"붕괴": 0.71,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
 "지하철": 0.05,
-"사고": 0.16,
+"사고": 0.14,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
