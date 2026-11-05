@@ -3,6 +3,7 @@
 한 시간에 한 번 "뉴스 라이브"를 검색해서 방송사 공식 채널만 남긴다 (검색 1번 = 100 units, 하루 2,400).
 각 영상이 지금도 라이브인지는 2분마다 videos 조회로 확인한다 (1 unit).
 """
+import html
 import json
 import os
 import re
@@ -22,6 +23,9 @@ OUTLETS = re.compile(
     r"YTN|연합뉴스|Yonhap|KBS|MBC|SBS|JTBC|MBN|채널\s?A|Channel A|TV\s?조선|TVCHOSUN|뉴스TVCHOSUN|OBS|"
     r"아리랑|Arirang|KTV|국민방송|국회방송|NATV|뉴스1|뉴시스|한국경제TV|매일경제TV|서울경제TV|이데일리TV|머니투데이방송|MTN|"
     r"G1|KNN|TBC|TJB|JIBS|kbc|광주방송|CJB|UBC|JTV|부산MBC|대구MBC|대전MBC|전주MBC|제주MBC|안동MBC|포항MBC", re.I)
+
+
+NOT_NEWS = re.compile(r"드라마|Drama|빽드|예능|Classic|클래식|오락|음악|Music|Kids|키즈|사극|무한", re.I)
 
 
 def get(path, **params):
@@ -46,8 +50,11 @@ def main():
             if now - last >= EVERY:
                 d = get("search", part="snippet", type="video", eventType="live", videoEmbeddable="true",
                         regionCode="KR", relevanceLanguage="ko", order="viewCount", maxResults="50", q="뉴스 라이브")
-                pool = [{"id": it["id"]["videoId"], "channel": it["snippet"]["channelTitle"], "title": it["snippet"]["title"]}
-                        for it in d.get("items", []) if OUTLETS.search(it["snippet"]["channelTitle"])]
+                pool = [{"id": it["id"]["videoId"], "channel": html.unescape(it["snippet"]["channelTitle"]),
+                         "title": html.unescape(it["snippet"]["title"])}
+                        for it in d.get("items", [])
+                        if OUTLETS.search(it["snippet"]["channelTitle"])
+                        and not NOT_NEWS.search(it["snippet"]["channelTitle"] + " " + it["snippet"]["title"])]
                 if pool:
                     st["pool"] = pool
                 st["poolAt"] = now.isoformat()
