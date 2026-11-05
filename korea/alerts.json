@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-05T19:32:22.690856+00:00",
+"updated": "2026-11-05T19:34:36.989680+00:00",
 "errors": [],
 "events": [
 {
@@ -2146,7 +2146,7 @@
 },
 "폭발": {
 "n30": 3,
-"base": 0.7,
+"base": 0.6,
 "spike": false
 },
 "붕괴": {
@@ -2176,7 +2176,7 @@
 },
 "사고": {
 "n30": 3,
-"base": 0.9,
+"base": 1.1,
 "spike": false
 },
 "실종": {
@@ -2464,17 +2464,17 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 0.07,
+"지진": 0.06,
 "화재": 0.05,
 "불났": 0.0,
 "정전": 0.05,
-"폭발": 0.62,
+"폭발": 0.56,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
 "지하철": 0.05,
-"사고": 1.08,
+"사고": 1.27,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -2785,6 +2785,24 @@
 "new": false
 },
 {
+"term": "아이렌",
+"traffic": "1000+",
+"time": "2026-11-05T15:50:00+00:00",
+"news": [
+{
+"title": "미 선거에 흔들린 반도체…복잡해진 우리 경제 셈법",
+"source": "KBS 뉴스",
+"link": "https://news.kbs.co.kr/news/view.do?ncd=8705267"
+},
+{
+"title": "JP모건 \"AI 관련주, K자형 양극화 심해질 수도\"",
+"source": "연합인포맥스",
+"link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4443332"
+}
+],
+"new": false
+},
+{
 "term": "비트코인",
 "traffic": "500+",
 "time": "2026-11-05T15:50:00+00:00",
@@ -2839,24 +2857,6 @@
 "new": false
 },
 {
-"term": "nasdaq",
-"traffic": "200+",
-"time": "2026-11-05T15:30:00+00:00",
-"news": [
-{
-"title": "Dow tumbles 1,500 points, erasing its postelection rally; Nasdaq plummets 5%: Live updates",
-"source": "CNBC",
-"link": "https://www.cnbc.com/2026/11/04/stock-market-today-live-updates.html"
-},
-{
-"title": "Stocks plunge as midterm results send AI trade into a tailspin",
-"source": "CNN",
-"link": "https://www.cnn.com/2026/11/05/investing/tech-heavy-nasdaq-plunges"
-}
-],
-"new": false
-},
-{
 "term": "세계 청년 대회",
 "traffic": "100+",
 "time": "2026-11-05T15:30:00+00:00",
@@ -2875,19 +2875,19 @@
 "new": false
 },
 {
-"term": "마이크론 주가",
+"term": "nasdaq",
 "traffic": "200+",
 "time": "2026-11-05T15:30:00+00:00",
 "news": [
 {
-"title": "마이크론, 대만 HBM 공장 건설 중단…삼성·SK하이닉스 수혜 촉각 By EBN",
-"source": "Investing.com 한국어",
-"link": "https://kr.investing.com/news/stock-market-news/article-2161305"
+"title": "Dow tumbles 1,500 points, erasing its postelection rally; Nasdaq plummets 5%: Live updates",
+"source": "CNBC",
+"link": "https://www.cnbc.com/2026/11/04/stock-market-today-live-updates.html"
 },
 {
-"title": "마이크론, 메모리 가격 급등에도 주가 급락…AI 호황 속 커지는 반도체 시장의 역설",
-"source": "제민일보",
-"link": "https://www.jemin.com/news/articleView.html?idxno=846205"
+"title": "Stocks plunge as midterm results send AI trade into a tailspin",
+"source": "CNN",
+"link": "https://www.cnn.com/2026/11/05/investing/tech-heavy-nasdaq-plunges"
 }
 ],
 "new": false
