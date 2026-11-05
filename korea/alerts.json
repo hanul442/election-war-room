@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-05T17:42:31.398023+00:00",
+"updated": "2026-11-05T17:44:48.510272+00:00",
 "errors": [],
 "events": [
 {
@@ -3360,7 +3360,7 @@
 "sns": {
 "terms": {
 "지진": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -3380,8 +3380,8 @@
 "spike": false
 },
 "폭발": {
-"n30": 3,
-"base": 0.5,
+"n30": 2,
+"base": 0.4,
 "spike": false
 },
 "붕괴": {
@@ -3400,7 +3400,7 @@
 "spike": false
 },
 "속보": {
-"n30": 4,
+"n30": 3,
 "base": 0.1,
 "spike": false
 },
@@ -3411,7 +3411,7 @@
 },
 "사고": {
 "n30": 0,
-"base": 0.3,
+"base": 0.2,
 "spike": false
 },
 "실종": {
@@ -3664,14 +3664,14 @@
 "화재": 0.05,
 "불났": 0.0,
 "정전": 0.05,
-"폭발": 0.41,
+"폭발": 0.37,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.3,
-"사고": 0.23,
-"실종": 0.45,
+"지하철": 0.27,
+"사고": 0.21,
+"실종": 0.41,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -3918,6 +3918,24 @@
 "new": false
 },
 {
+"term": "아이렌",
+"traffic": "1000+",
+"time": "2026-11-05T15:50:00+00:00",
+"news": [
+{
+"title": "미 선거에 흔들린 반도체…복잡해진 우리 경제 셈법",
+"source": "KBS 뉴스",
+"link": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8705267"
+},
+{
+"title": "뉴욕증시, AI 인프라 규제 우려에 하락 출발",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261106000700009"
+}
+],
+"new": false
+},
+{
 "term": "미국",
 "traffic": "5000+",
 "time": "2026-11-05T15:50:00+00:00",
@@ -3990,6 +4008,24 @@
 "new": false
 },
 {
+"term": "세계 청년 대회",
+"traffic": "100+",
+"time": "2026-11-05T15:30:00+00:00",
+"news": [
+{
+"title": "내년 '교황 방한' 행사, 광화문 아닌 상암...\"시민 불편 최소화\"",
+"source": "YTN",
+"link": "https://www.ytn.co.kr/_ln/0106_202611060029098602"
+},
+{
+"title": "내년 서울 세계청년대회에 50만명 온다…\"폭염·인파 대비 철저\"(종합)",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261105060451005"
+}
+],
+"new": true
+},
+{
 "term": "마이크론 주가",
 "traffic": "200+",
 "time": "2026-11-05T15:30:00+00:00",
@@ -4039,42 +4075,6 @@
 "title": "Screens to remain in Qld schools amid push for back-to-basics maths classes",
 "source": "The Age",
 "link": "https://www.theage.com.au/national/queensland/screens-to-remain-in-qld-schools-amid-push-for-back-to-basics-maths-classes-20261106-p61bor.html"
-}
-],
-"new": false
-},
-{
-"term": "vix",
-"traffic": "200+",
-"time": "2026-11-05T15:20:00+00:00",
-"news": [
-{
-"title": "Wall Street's Fear Index is doing something strange. Here's what it means for stocks",
-"source": "CNBC",
-"link": "https://www.cnbc.com/2026/11/02/wall-streets-fear-index-is-doing-something-strange-heres-what-it-means-for-stocks.html"
-},
-{
-"title": "VIX spikes to seven-month high, erasing post-midterm relief (VIX:)",
-"source": "Seeking Alpha",
-"link": "https://seekingalpha.com/news/4666745-vix-on-pace-for-biggest-daily-rise-since-february-2018"
-}
-],
-"new": false
-},
-{
-"term": "코인니스",
-"traffic": "1000+",
-"time": "2026-11-05T15:20:00+00:00",
-"news": [
-{
-"title": "'Staking Funds Drained for Ether Crash'? The Ledger Tells a Different Story, Binance Hack Fact-Check",
-"source": "수원일보",
-"link": "https://www.suwonilbo.kr/en/view.html?id=L261031181506e6e3"
-},
-{
-"title": "북한의 가짜 채용 면접이 Binance의 63억 달러 탈취로 이어짐",
-"source": "GeekNews",
-"link": "https://news.hada.io/topic?id=36596"
 }
 ],
 "new": false
@@ -4139,6 +4139,7 @@
 "상장지수펀드",
 "샌디스크 주가",
 "서정진",
+"세계 청년 대회",
 "수술",
 "시험",
 "아이렌",
