@@ -1,12 +1,12 @@
 {
-"updated": "2026-11-05T21:07:10.424244+00:00",
+"updated": "2026-11-05T21:09:25.949584+00:00",
 "errors": [],
 "events": [
 {
 "id": "viewAKR202611060021000721626",
 "first": "2026-11-05T16:26:07+00:00",
-"last": "2026-11-05T21:05:00+00:00",
-"updated": "2026-11-05T21:07:10.424244+00:00",
+"last": "2026-11-05T21:08:08+00:00",
+"updated": "2026-11-05T21:09:25.949584+00:00",
 "headline": "나스닥 장중 4% 이상 급락…조정장 진입",
 "cat": "기타",
 "regions": [],
@@ -14,6 +14,7 @@
 "뉴스1",
 "뉴스핌",
 "뉴시스",
+"아시아경제",
 "연합뉴스",
 "토큰포스트",
 "파이낸셜뉴스"
@@ -83,6 +84,13 @@
 "stage": "후속"
 },
 {
+"title": "[속보]美 민주당 압승에 AI 규제 우려 확산…나스닥 5.5% 추락",
+"source": "뉴스1",
+"link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFAzVEpUdzNzOXRFLVJINV9FZTYxMm85akZYWEttdERMSkN2T1VyLWFDaHJrX3RETGVuT19ha2JnM3BmNlFhTVE2VW12Ni1jS1ZyT191RXpZM3dUaDRiT05TUG5Gc0ZYTzg?oc=5",
+"time": "2026-11-05T21:01:12+00:00",
+"stage": "속보"
+},
+{
 "title": "[속보][뉴욕증시] AI 테마 붕괴에 폭락…'속슬' 39%↓",
 "source": "파이낸셜뉴스",
 "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1QRk15V0hSQWRnbEx5WFVranJJWENxUk1MNUZNdVBtTEhlOTBCdFNJUHVEdl9OQkNKcElHbTdjT01CNTB0bWZ4VHdkNUJPckdOSGhiSWVfM3FIQQ?oc=5",
@@ -102,10 +110,17 @@
 "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE4xVGhwOUJpajc3bFNDd1pLLXJaalpWWmdVSF8xc0FvdGNGZW85TXEyNVZrSGtPREk0LVFVU1hUZ05nNDViWkc3Rk5CMG10NVVIamJLTnVmVENxU3FO?oc=5",
 "time": "2026-11-05T21:05:00+00:00",
 "stage": "속보"
+},
+{
+"title": "[속보]민주 압승에 AI 규제 우려로 나스닥 5.5% 폭락 마감",
+"source": "아시아경제",
+"link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBiOHpQTFBpZFlTcDlIWE9xb2ZaMUJoanUyUi1oWFg2akl3UEtUSWFMY3NaT2lZYUNRNnhPVExFN0VCVTMtbS1Vc2txOUgtcVkyTmRUTnR1TzhucXpfSkNCLQ?oc=5",
+"time": "2026-11-05T21:08:08+00:00",
+"stage": "속보"
 }
 ],
 "level": "BULLETIN",
-"latest": "뉴욕증시 급락 마감...나스닥 5.5%↓",
+"latest": "민주 압승에 AI 규제 우려로 나스닥 5.5% 폭락 마감",
 "tok": [
 "10월",
 "5일",
@@ -119,11 +134,14 @@
 "뉴욕증시",
 "데이터센터주",
 "마감",
+"민주",
+"민주당",
 "밀려",
 "반도체지수",
 "반전",
 "붕괴",
 "속슬",
+"압승",
 "약세",
 "우려",
 "이상",
@@ -132,11 +150,13 @@
 "조정국면",
 "조정장",
 "진입",
+"추락",
 "출발",
 "테마",
 "테슬라",
 "폭락",
-"하락"
+"하락",
+"확산"
 ]
 },
 {
@@ -1806,7 +1826,7 @@
 },
 "사고": {
 "n30": 0,
-"base": 0.8,
+"base": 0.7,
 "spike": false
 },
 "실종": {
@@ -2068,14 +2088,14 @@
 "n30": 7,
 "base": 0.6,
 "spike": true,
-"since": "2026-11-05T21:07:10.424244+00:00"
+"since": "2026-11-05T21:09:25.949584+00:00"
 },
 {
 "term": "속보",
 "n30": 12,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-05T21:07:10.424244+00:00"
+"since": "2026-11-05T21:09:25.949584+00:00"
 }
 ],
 "baseline": {
@@ -2083,14 +2103,14 @@
 "화재": 0.05,
 "불났": 0.0,
 "정전": 0.05,
-"폭발": 0.56,
+"폭발": 0.5,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
 "지하철": 0.05,
-"사고": 0.71,
-"실종": 0.45,
+"사고": 0.64,
+"실종": 0.41,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
