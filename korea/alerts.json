@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-05T13:30:13.571849+00:00",
+"updated": "2026-11-05T13:32:27.836506+00:00",
 "errors": [],
 "events": [
 {
@@ -4366,13 +4366,13 @@
 },
 "정전": {
 "n30": 1,
-"base": 0.2,
+"base": 0.3,
 "spike": false
 },
 "폭발": {
-"n30": 5,
-"base": 0.7,
-"spike": true
+"n30": 3,
+"base": 0.9,
+"spike": false
 },
 "붕괴": {
 "n30": 0,
@@ -4390,18 +4390,18 @@
 "spike": false
 },
 "속보": {
-"n30": 2,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
 "지하철": {
-"n30": 1,
+"n30": 0,
 "base": 0.2,
 "spike": false
 },
 "사고": {
 "n30": 4,
-"base": 2.2,
+"base": 2.4,
 "spike": false
 },
 "실종": {
@@ -4710,32 +4710,24 @@
 "url": "https://www.youtube.com/watch?v=OZ0KV8PGSho"
 }
 ],
-"spikes": [
-{
-"term": "폭발",
-"n30": 5,
-"base": 0.7,
-"spike": true,
-"since": "2026-11-05T13:30:13.571849+00:00"
-}
-],
+"spikes": [],
 "baseline": {
 "지진": 0.05,
 "화재": 0.05,
 "불났": 0.0,
-"정전": 0.32,
-"폭발": 0.89,
+"정전": 0.39,
+"폭발": 1.1,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.21,
-"사고": 2.4,
+"지하철": 0.19,
+"사고": 2.56,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
-"산불": 0.18
+"산불": 0.16
 },
 "errors": [],
 "ytPosts": [
@@ -5049,9 +5041,9 @@
 "link": "https://www.namdonews.com/news/articleView.html?idxno=928359"
 },
 {
-"title": "전라남도 국제사격장서 꿈나무 선수단 합숙훈련 ‘땀방울’",
-"source": "STN SPORTS",
-"link": "https://www.stnsports.co.kr/news/articleView.html?idxno=325148"
+"title": "전남국제사격장서 사격 꿈나무 합숙훈련 실시",
+"source": "LG헬로비전",
+"link": "http://news.lghellovision.net/news/articleView.html?idxno=561213"
 }
 ],
 "new": false
