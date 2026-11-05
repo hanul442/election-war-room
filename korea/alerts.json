@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-05T13:52:42.570360+00:00",
+"updated": "2026-11-05T13:54:59.104473+00:00",
 "errors": [],
 "events": [
 {
@@ -4319,13 +4319,13 @@
 "spike": false
 },
 "정전": {
-"n30": 1,
-"base": 0.7,
+"n30": 0,
+"base": 0.8,
 "spike": false
 },
 "폭발": {
 "n30": 10,
-"base": 1.8,
+"base": 1.9,
 "spike": true
 },
 "붕괴": {
@@ -4339,7 +4339,7 @@
 "spike": false
 },
 "미사일": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -4355,7 +4355,7 @@
 },
 "사고": {
 "n30": 8,
-"base": 4.6,
+"base": 5.0,
 "spike": false
 },
 "실종": {
@@ -4385,6 +4385,16 @@
 }
 },
 "posts": [
+{
+"text": "ⓟⓣⓐ 영화를 웑 ㅂH틀 앺퉈 어나둬로 입문했고 이게 두 번째인데... 이것이 특색인가 싶은게 느껴졌음... 폭발적인 완급조절이라든가 색감 구도 연출 음악(대박임...) 불편한 것을 모으고 잘 벼려서 눈 앞에 걸어두는 뭔가가...",
+"handle": "yzso205.bsky.social",
+"name": "엿장수",
+"time": "2026-11-05T13:53:04.171Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/yzso205.bsky.social/post/3mzkzcbw3w227",
+"term": "폭발"
+},
 {
 "text": "힘의 관계가 압도적으로 약하고 정의가 우리 쪽에 있는 경우는 폭력이 인정된다고, 체 게바라는 《게릴라 교본》에서 주장하고 있는데, 그의 말이 옳다고 생각합니다. 게다가 학교 측은 상상도 할 수 없는 사태를 준비하고 있었습니다. 그래서 선생들을 사고 정지 상태에 빠뜨리려면 폭력밖에 없다고 생각했습니다.\"\n-무라카미 류『희망의 나라로 엑소더스』중에서",
 "handle": "yijuckhangwe.bsky.social",
@@ -4645,16 +4655,6 @@
 "url": "https://www.youtube.com/watch?v=xXSQishT2jU"
 },
 {
-"text": "퇴근하는데 단지 1/4정도가 완전 정전된 모양인데 무슨일인가 모르겠네.. 모든 집 불이 꺼져있고 엘베 못타서 사람들 밑에서 기다리고 있고 엘베 갇힌 사람들 구조한다고 동마다 구급차 하나씩 한 10대는 온것 같고...",
-"handle": "kivol.net",
-"name": "사견의 지평선",
-"time": "2026-11-05T13:23:37.570Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/kivol.net/post/3mzkxnnaoe22r",
-"term": "정전"
-},
-{
 "platform": "YouTube",
 "text": "[🔴속보] \"단 12명만 돌아서면 끝난다\"…'트럼프 탄핵' 표계산 해보니｜5개월 전에도 공화당 상원서 '12명 이탈표' / 연합뉴스TV(YonhapnewsTV)",
 "handle": "UCTHCOPwqNfZ0uiKOvFyhGwg",
@@ -4668,35 +4668,35 @@
 {
 "term": "폭발",
 "n30": 10,
-"base": 1.8,
+"base": 1.9,
 "spike": true,
-"since": "2026-11-05T13:52:42.570360+00:00"
+"since": "2026-11-05T13:54:59.104473+00:00"
 },
 {
 "term": "속보",
 "n30": 7,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-05T13:52:42.570360+00:00"
+"since": "2026-11-05T13:54:59.104473+00:00"
 }
 ],
 "baseline": {
 "지진": 0.05,
 "화재": 0.05,
 "불났": 0.0,
-"정전": 0.77,
-"폭발": 1.85,
+"정전": 0.69,
+"폭발": 1.97,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.42,
-"사고": 4.98,
+"지하철": 0.48,
+"사고": 5.28,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
-"산불": 0.06
+"산불": 0.05
 },
 "errors": [],
 "ytPosts": [
@@ -4903,6 +4903,24 @@
 },
 "trends": [
 {
+"term": "인천 유나이티드 fc",
+"traffic": "100+",
+"time": "2026-11-05T12:50:00+00:00",
+"news": [
+{
+"title": "‘3년 만의 ACL 도전’ 이겨도 웃지 못하는 인천유나이티드…대표 리스크에 흔들리는 2027 시즌",
+"source": "인천일보",
+"link": "https://www.incheonilbo.com/news/articleView.html?idxno=1336054"
+},
+{
+"title": "이청용 품으며 뚝심의 리더십…인천 윤정환 매직, 승격시즌 역대 9번째 파이널A행 반전",
+"source": "Nate News",
+"link": "https://m.news.nate.com/view/20261025n04463?issue_sq=10989"
+}
+],
+"new": true
+},
+{
 "term": "유현주",
 "traffic": "100+",
 "time": "2026-11-05T12:40:00+00:00",
@@ -5063,24 +5081,6 @@
 }
 ],
 "new": false
-},
-{
-"term": "nepal premier league",
-"traffic": "200+",
-"time": "2026-11-05T10:10:00+00:00",
-"news": [
-{
-"title": "Jintimani Kalita batting bowling stats, averages and cricket statistics, 2026",
-"source": "Cricinfo",
-"link": "https://www.cricinfo.com/cricketers/jintimani-kalita-1255387/bowling-batting-stats"
-},
-{
-"title": "Lumbini Lions beat Janakpur Bolts by 16 runs to remain unbeaten in NPL",
-"source": "Nepalnews.com",
-"link": "https://english.nepalnews.com/s/sports/lumbini-lions-beat-janakpur-bolts-by-16-runs-to-remain-unbeaten-in-npl/"
-}
-],
-"new": false
 }
 ],
 "trendSeen": [
@@ -5146,6 +5146,7 @@
 "이호선 상담소",
 "이효리",
 "인천",
+"인천 유나이티드 fc",
 "일기예보",
 "잠수함",
 "장기 기증",
