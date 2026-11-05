@@ -1,16 +1,17 @@
 {
-"updated": "2026-11-05T08:26:43.517055+00:00",
+"updated": "2026-11-05T08:28:58.824903+00:00",
 "errors": [],
 "events": [
 {
 "id": "Ja2NJUk1iTk1UVTRjQjJnoc50823",
 "first": "2026-11-05T08:23:00+00:00",
-"last": "2026-11-05T08:23:00+00:00",
-"updated": "2026-11-05T08:26:43.517055+00:00",
+"last": "2026-11-05T08:27:06+00:00",
+"updated": "2026-11-05T08:28:58.824903+00:00",
 "headline": "삼성전자 D램 3분기 점유율 1위...SK하이닉스 2위",
 "cat": "경제",
 "regions": [],
 "sources": [
+"뉴시스",
 "이코노미스트"
 ],
 "updates": [
@@ -20,18 +21,58 @@
 "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE92UkZ6cmRhN2hBZ0dTV1hCSW9ZaXpsdmhkejhRaWdUeC1iSmRnTnBxUXBMUm5PeVoxWXprNU5DUW1jejhyV2IyVjE3bmRVQW9qYlFJa2NJUk1iTk1UVTRjQjJn?oc=5",
 "time": "2026-11-05T08:23:00+00:00",
 "stage": "얼럿"
+},
+{
+"title": "삼성전자, 올 3분기 D램 매출 점유율 38% 1위…SK하이닉스 29%",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261105_0003856901",
+"time": "2026-11-05T08:27:06+00:00",
+"stage": "후속"
 }
 ],
 "level": "URGENT",
-"latest": "삼성전자 D램 3분기 점유율 1위...SK하이닉스 2위",
+"latest": "삼성전자, 올 3분기 D램 매출 점유율 38% 1위…SK하이닉스 29%",
 "tok": [
 "1위",
 "2위",
 "3분기",
 "D램",
 "SK하이닉스",
+"매출",
 "삼성전자",
 "점유율"
+]
+},
+{
+"id": "viewAKR202611051575000090824",
+"first": "2026-11-05T08:24:06+00:00",
+"last": "2026-11-05T08:24:06+00:00",
+"updated": "2026-11-05T08:28:58.824903+00:00",
+"headline": "日 전동손톱깎이 사고 '주의보'…유아 혀·입술 빨려 들어가기도",
+"cat": "재난",
+"regions": [],
+"sources": [
+"연합뉴스"
+],
+"updates": [
+{
+"title": "日 전동손톱깎이 사고 '주의보'…유아 혀·입술 빨려 들어가기도",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261105157500009",
+"time": "2026-11-05T08:24:06+00:00",
+"stage": "1보"
+}
+],
+"level": "ALERT",
+"latest": "日 전동손톱깎이 사고 '주의보'…유아 혀·입술 빨려 들어가기도",
+"tok": [
+"들어가기",
+"빨려",
+"사고",
+"유아",
+"입술",
+"전동손톱깎",
+"주의보"
 ]
 },
 {
@@ -4551,41 +4592,6 @@
 "허위",
 "협박"
 ]
-},
-{
-"id": "wNISX20261105_00038556900624",
-"first": "2026-11-05T06:24:39+00:00",
-"last": "2026-11-05T06:24:39+00:00",
-"updated": "2026-11-05T06:27:48.847940+00:00",
-"headline": "중수청 보이스피싱 합수과, 경찰 인력 이탈 조짐…수사동력 약화 우려",
-"cat": "사회",
-"regions": [],
-"sources": [
-"뉴시스"
-],
-"updates": [
-{
-"title": "[단독]중수청 보이스피싱 합수과, 경찰 인력 이탈 조짐…수사동력 약화 우려",
-"source": "뉴시스",
-"link": "https://www.newsis.com/view/NISX20261105_0003855690",
-"time": "2026-11-05T06:24:39+00:00",
-"stage": "단독"
-}
-],
-"level": "URGENT",
-"latest": "중수청 보이스피싱 합수과, 경찰 인력 이탈 조짐…수사동력 약화 우려",
-"tok": [
-"경찰",
-"보이스피싱",
-"수사동력",
-"약화",
-"우려",
-"이탈",
-"인력",
-"조짐",
-"중수청",
-"합수"
-]
 }
 ],
 "sns": {
@@ -4611,7 +4617,7 @@
 "spike": false
 },
 "폭발": {
-"n30": 10,
+"n30": 11,
 "base": 0.1,
 "spike": true
 },
@@ -4632,17 +4638,17 @@
 },
 "속보": {
 "n30": 9,
-"base": 0.6,
+"base": 0.7,
 "spike": true
 },
 "지하철": {
 "n30": 2,
-"base": 0.8,
+"base": 0.7,
 "spike": false
 },
 "사고": {
-"n30": 2,
-"base": 3.2,
+"n30": 1,
+"base": 3.1,
 "spike": false
 },
 "실종": {
@@ -4652,7 +4658,7 @@
 },
 "단수": {
 "n30": 0,
-"base": 0.8,
+"base": 0.7,
 "spike": false
 },
 "통신 장애": {
@@ -4672,6 +4678,16 @@
 }
 },
 "posts": [
+{
+"text": "미분 역시 미분 기호(d/dx)나 극한(\\(\\lim \\))을 쓰지 않고 매 순간의 변화율이나 접선을 구하는 새로운 공식과 방법들이 존재하며, 실제로 다양한 분야에서 널리 쓰이고 있다. 대표적인 3가지 방법을 소개\n\n 대수적 접선 공식/자동 미분과 듀얼 넘버 /수치해석적 근사 공식\n\n❌미적분의 탄생 이야기...이거도 가짜일지 모르겠지만\n\n“천체의 움직임을 수학적으로 표현한 게 미분 ➡️  행성",
+"handle": "4dsmsi.bsky.social",
+"name": "좃새끼들 지옥에 봉인하다",
+"time": "2026-11-05T08:26:57.971Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/4dsmsi.bsky.social/post/3mzkh36swwc2j",
+"term": "폭발"
+},
 {
 "text": "[속보]李대통령 20대 지지율 12.7%p 급등 40%-미디어토마토\nn.news.naver.com/article/021/...\n\n하하.",
 "handle": "jejuorange.bsky.social",
@@ -4898,32 +4914,22 @@
 "time": "2026-11-05T08:03:57Z",
 "term": "속보",
 "url": "https://www.youtube.com/watch?v=CavlJ8j0TFs"
-},
-{
-"text": "10시 50분에 만나서\n4시 30분까지\n한시도 쉬지 않고 먹고 마시고 사고 웃고 떠들고 난리.",
-"handle": "wineguitar4.bsky.social",
-"name": "와인기타",
-"time": "2026-11-05T07:58:38.370Z",
-"likes": 7,
-"reposts": 0,
-"url": "https://bsky.app/profile/wineguitar4.bsky.social/post/3mzkfiaqpjc2v",
-"term": "사고"
 }
 ],
 "spikes": [
 {
 "term": "폭발",
-"n30": 10,
+"n30": 11,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-05T08:26:43.517055+00:00"
+"since": "2026-11-05T08:28:58.824903+00:00"
 },
 {
 "term": "속보",
 "n30": 9,
-"base": 0.6,
+"base": 0.7,
 "spike": true,
-"since": "2026-11-05T08:26:43.517055+00:00"
+"since": "2026-11-05T08:28:58.824903+00:00"
 }
 ],
 "baseline": {
@@ -4931,15 +4937,15 @@
 "화재": 0.05,
 "불났": 0.0,
 "정전": 0.0,
-"폭발": 0.05,
+"폭발": 0.15,
 "붕괴": 0.05,
 "대피": 0.0,
-"미사일": 0.3,
-"속보": 0.68,
-"지하철": 0.72,
-"사고": 3.07,
+"미사일": 0.27,
+"속보": 0.71,
+"지하철": 0.65,
+"사고": 2.86,
 "실종": 0.05,
-"단수": 0.68,
+"단수": 0.61,
 "통신 장애": 0.05,
 "먹통": 0.05,
 "산불": 0.0
@@ -5204,9 +5210,9 @@
 "link": "https://www.chosun.com/politics/assembly/2026/11/05/HO37S2NMOFAYRITREBXJKGJU2E/"
 },
 {
-"title": "국힘 김태규 제명 촉구 결의안, 與 주도로 국회 본회의 가결 [영상]",
-"source": "매일신문",
-"link": "https://www.imaeil.com/page/view/2026110515254275285"
+"title": "시작부터 고성…대통령비서실 국정감사, 정회에 파행 거듭",
+"source": "KBS 뉴스",
+"link": "https://news.kbs.co.kr/news/view.do?ncd=8699114"
 }
 ],
 "new": false
@@ -5312,9 +5318,9 @@
 "link": "https://www.news1.kr/society/general-society/6344322"
 },
 {
-"title": "자전거로 세계 누비던 33세 韓 유튜버…볼리비아서 교통사고 사망",
-"source": "경기일보",
-"link": "https://www.kyeonggi.com/article/20261105580442"
+"title": "[자막뉴스] 두 페달에 청춘 싣고 세계 유랑하다가…\"편히 쉬시길\" 애도",
+"source": "SBS 뉴스",
+"link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008832494"
 }
 ],
 "new": false
