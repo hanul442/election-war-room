@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-05T10:43:47.434525+00:00",
+"updated": "2026-11-05T10:46:03.707978+00:00",
 "errors": [],
 "events": [
 {
@@ -5011,7 +5011,7 @@
 },
 "화재": {
 "n30": 0,
-"base": 0.4,
+"base": 0.3,
 "spike": false
 },
 "불났": {
@@ -5020,13 +5020,13 @@
 "spike": false
 },
 "정전": {
-"n30": 0,
+"n30": 1,
 "base": 0.0,
 "spike": false
 },
 "폭발": {
-"n30": 3,
-"base": 1.4,
+"n30": 1,
+"base": 1.2,
 "spike": false
 },
 "붕괴": {
@@ -5045,8 +5045,8 @@
 "spike": false
 },
 "속보": {
-"n30": 4,
-"base": 0.8,
+"n30": 1,
+"base": 0.7,
 "spike": false
 },
 "지하철": {
@@ -5055,8 +5055,8 @@
 "spike": false
 },
 "사고": {
-"n30": 3,
-"base": 4.7,
+"n30": 2,
+"base": 4.6,
 "spike": false
 },
 "실종": {
@@ -5086,6 +5086,16 @@
 }
 },
 "posts": [
+{
+"text": "ㅁㅊ 정전됫엇어",
+"handle": "wengal.bsky.social",
+"name": "웽알",
+"time": "2026-11-05T10:44:38.472Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/wengal.bsky.social/post/3mzkore7vss25",
+"term": "정전"
+},
 {
 "text": "<<경찰에 실종신고된 적있는 사람",
 "handle": "passawayplz.rip",
@@ -5196,16 +5206,6 @@
 "time": "2026-11-05T10:15:04Z",
 "term": "속보",
 "url": "https://www.youtube.com/watch?v=x6lzRA4kqjI"
-},
-{
-"text": "급매로 집 하나 사고 시작하겠네 (?)",
-"handle": "penryn.bsky.social",
-"name": "김펜린",
-"time": "2026-11-05T10:14:56.774Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/penryn.bsky.social/post/3mzkn4adq3c2u",
-"term": "사고"
 },
 {
 "platform": "YouTube",
@@ -5346,17 +5346,17 @@
 "spikes": [],
 "baseline": {
 "지진": 0.05,
-"화재": 0.33,
+"화재": 0.3,
 "불났": 0.0,
-"정전": 0.0,
-"폭발": 1.23,
+"정전": 0.1,
+"폭발": 1.11,
 "붕괴": 0.05,
-"대피": 0.45,
+"대피": 0.41,
 "미사일": 0.05,
-"속보": 0.73,
+"속보": 0.66,
 "지하철": 0.05,
-"사고": 4.56,
-"실종": 0.6,
+"사고": 4.3,
+"실종": 0.64,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -5600,7 +5600,7 @@
 "link": "https://www.ytn.co.kr/_ln/0106_202611051000169031"
 }
 ],
-"new": true
+"new": false
 },
 {
 "term": "강원도민일보",
@@ -5644,14 +5644,14 @@
 "time": "2026-11-05T09:20:00+00:00",
 "news": [
 {
-"title": "삼성전자 DX노조, 수원사업장 앞 집회…'공정한 보상체계' 요구",
+"title": "서울교통공사 노조, 쟁의행위 가결…이달말 지하철 파업 가능성",
 "source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261105168100061"
+"link": "https://www.yna.co.kr/view/AKR20261105167200004"
 },
 {
-"title": "삼성전자 DX노조 또 대규모 집회…노조간 집안싸움 격화",
-"source": "마켓인",
-"link": "https://marketin.edaily.co.kr/News/ReadE?newsId=06812566645642768"
+"title": "철도노조 12월 총파업 가능성…국토부 “고속철 75% 이상 운행 목표”",
+"source": "동아일보",
+"link": "https://www.donga.com/news/Society/article/all/20261105/134974872/1"
 }
 ],
 "new": false
@@ -5688,24 +5688,6 @@
 "title": "‘잊지 않겠다’는 약속…세월호의 기억, 유네스코 기록유산이 되다",
 "source": "경향신문",
 "link": "https://www.khan.co.kr/article/202611051729001"
-}
-],
-"new": false
-},
-{
-"term": "외국인",
-"traffic": "200+",
-"time": "2026-11-05T09:00:00+00:00",
-"news": [
-{
-"title": "40개국 글로벌 청년 하나로… 대전시, ‘2026 외국인 유학생 한마음 대회’ 개최",
-"source": "뉴데일리 충청세종",
-"link": "https://cc.newdaily.co.kr/site/data/html/2026/11/05/2026110500101.html"
-},
-{
-"title": "국적·언어 넘어선 청춘의 열정 한자리에",
-"source": "충청매일",
-"link": "https://www.ccdn.co.kr/news/articleView.html?idxno=1109108"
 }
 ],
 "new": false
@@ -5760,6 +5742,24 @@
 "title": "‘어벤져스: 둠스데이’ 벌써 뜨겁다…사상 최초 ‘30억 달러’ 돌파 전망",
 "source": "스포츠동아",
 "link": "https://sports.donga.com/ent/article/all/20261102/134948407/1"
+}
+],
+"new": false
+},
+{
+"term": "장동민",
+"traffic": "500+",
+"time": "2026-11-05T08:10:00+00:00",
+"news": [
+{
+"title": "넷플릭스 ‘데블스 플랜: 데드 어게인’, 역대 우승자와 전략가 총집결…10일 두뇌 서바이벌 개막",
+"source": "제민일보",
+"link": "https://www.jemin.com/news/articleView.html?idxno=846241"
+},
+{
+"title": "정현규, 태도 논란에도 '데블스플랜3' 또 출연…\"지금도 반성 중\" - 머니투데이",
+"source": "머니투데이",
+"link": "https://www.mt.co.kr/entertainment/2026/11/05/2026110514584552886"
 }
 ],
 "new": false
