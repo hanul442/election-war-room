@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-05T17:33:24.088277+00:00",
+"updated": "2026-11-05T17:35:40.078855+00:00",
 "errors": [],
 "events": [
 {
@@ -3355,41 +3355,6 @@
 "영장",
 "폐암"
 ]
-},
-{
-"id": "wNISX20261105_00038570561133",
-"first": "2026-11-05T11:33:52+00:00",
-"last": "2026-11-05T11:33:52+00:00",
-"updated": "2026-11-05T11:38:45.198288+00:00",
-"headline": "광주 충장로서 간판 폭발로 일대 정전…복구 완료",
-"cat": "재난",
-"regions": [
-"광주"
-],
-"sources": [
-"뉴시스"
-],
-"updates": [
-{
-"title": "광주 충장로서 간판 폭발로 일대 정전…복구 완료",
-"source": "뉴시스",
-"link": "https://www.newsis.com/view/NISX20261105_0003857056",
-"time": "2026-11-05T11:33:52+00:00",
-"stage": "1보"
-}
-],
-"level": "ALERT",
-"latest": "광주 충장로서 간판 폭발로 일대 정전…복구 완료",
-"tok": [
-"간판",
-"광주",
-"복구",
-"완료",
-"일대",
-"정전",
-"충장로서",
-"폭발"
-]
 }
 ],
 "sns": {
@@ -3416,7 +3381,7 @@
 },
 "폭발": {
 "n30": 4,
-"base": 0.7,
+"base": 0.6,
 "spike": false
 },
 "붕괴": {
@@ -3451,7 +3416,7 @@
 },
 "실종": {
 "n30": 0,
-"base": 0.8,
+"base": 0.7,
 "spike": false
 },
 "단수": {
@@ -3699,14 +3664,14 @@
 "화재": 0.05,
 "불났": 0.0,
 "정전": 0.05,
-"폭발": 0.62,
+"폭발": 0.56,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.45,
-"사고": 0.36,
-"실종": 0.69,
+"지하철": 0.41,
+"사고": 0.32,
+"실종": 0.62,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -3963,9 +3928,9 @@
 "link": "https://news.jtbc.co.kr/article/NB12326658"
 },
 {
-"title": "[서울광장] 美 중간선거 후 벨트 더 조여야 할 한미 관계",
+"title": "파란 벨트가 쥔 ‘K공장’… ‘인프라 청구서’ 쌓이나",
 "source": "서울신문",
-"link": "https://www.seoul.co.kr/news/editOpinion/seoul-plaza/2026/11/06/20261106026001"
+"link": "https://www.seoul.co.kr/news/economy/industry/2026/11/06/20261106029002"
 }
 ],
 "new": false
@@ -3992,7 +3957,18 @@
 "term": "샌디스크 주가",
 "traffic": "100+",
 "time": "2026-11-05T15:50:00+00:00",
-"news": [],
+"news": [
+{
+"title": "SanDisk 주가가 급락하는 이유는?",
+"source": "Investing.com 한국어",
+"link": "https://kr.investing.com/news/stock-market-news/article-93CH-2162356"
+},
+{
+"title": "AI 데이터센터가 끌어올린 낸드…샌디스크 호실적에 파두도 기대",
+"source": "아이뉴스24",
+"link": "http://www.inews24.com/view/2021808"
+}
+],
 "new": false
 },
 {
@@ -4050,24 +4026,6 @@
 "new": false
 },
 {
-"term": "soxl stock",
-"traffic": "1000+",
-"time": "2026-11-05T15:20:00+00:00",
-"news": [
-{
-"title": "Stock market today: Nasdaq plunges 5% as chip stocks sell off, Dow and S&P 500 give back post-election rally gains",
-"source": "Yahoo Finance",
-"link": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-5-dow-sp-500-nasdaq-oil-rises-chip-stocks-141439950.html"
-},
-{
-"title": "Here's what the Democratic election rout could mean for the U.S. economy",
-"source": "CNBC",
-"link": "https://www.cnbc.com/2026/11/05/emocratic-midterm-economy.html"
-}
-],
-"new": false
-},
-{
 "term": "qld",
 "traffic": "100+",
 "time": "2026-11-05T15:20:00+00:00",
@@ -4099,6 +4057,24 @@
 "title": "VIX spikes to seven-month high, erasing post-midterm relief (VIX:)",
 "source": "Seeking Alpha",
 "link": "https://seekingalpha.com/news/4666745-vix-on-pace-for-biggest-daily-rise-since-february-2018"
+}
+],
+"new": false
+},
+{
+"term": "코인니스",
+"traffic": "1000+",
+"time": "2026-11-05T15:20:00+00:00",
+"news": [
+{
+"title": "'Staking Funds Drained for Ether Crash'? The Ledger Tells a Different Story, Binance Hack Fact-Check",
+"source": "수원일보",
+"link": "https://www.suwonilbo.kr/en/view.html?id=L261031181506e6e3"
+},
+{
+"title": "북한의 가짜 채용 면접이 Binance의 63억 달러 탈취로 이어짐",
+"source": "GeekNews",
+"link": "https://news.hada.io/topic?id=36596"
 }
 ],
 "new": false
