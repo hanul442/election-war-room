@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-05T16:22:40.255509+00:00",
+"updated": "2026-11-05T16:24:55.463821+00:00",
 "errors": [],
 "events": [
 {
@@ -3696,7 +3696,7 @@
 "spike": false
 },
 "화재": {
-"n30": 2,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
@@ -3711,9 +3711,9 @@
 "spike": false
 },
 "폭발": {
-"n30": 5,
-"base": 0.4,
-"spike": true
+"n30": 4,
+"base": 0.3,
+"spike": false
 },
 "붕괴": {
 "n30": 3,
@@ -3722,7 +3722,7 @@
 },
 "대피": {
 "n30": 0,
-"base": 0.6,
+"base": 0.5,
 "spike": false
 },
 "미사일": {
@@ -3731,7 +3731,7 @@
 "spike": false
 },
 "속보": {
-"n30": 4,
+"n30": 3,
 "base": 0.1,
 "spike": false
 },
@@ -3742,7 +3742,7 @@
 },
 "사고": {
 "n30": 0,
-"base": 1.9,
+"base": 1.8,
 "spike": false
 },
 "실종": {
@@ -3989,28 +3989,20 @@
 "url": "https://www.youtube.com/watch?v=o5CvXVbJCiQ"
 }
 ],
-"spikes": [
-{
-"term": "폭발",
-"n30": 5,
-"base": 0.4,
-"spike": true,
-"since": "2026-11-05T16:22:40.255509+00:00"
-}
-],
+"spikes": [],
 "baseline": {
 "지진": 0.05,
 "화재": 0.05,
 "불났": 0.0,
 "정전": 0.05,
-"폭발": 0.33,
+"폭발": 0.3,
 "붕괴": 0.05,
-"대피": 0.52,
+"대피": 0.47,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.12,
-"사고": 1.75,
-"실종": 0.08,
+"지하철": 0.11,
+"사고": 1.57,
+"실종": 0.07,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -4239,6 +4231,55 @@
 },
 "trends": [
 {
+"term": "vix",
+"traffic": "200+",
+"time": "2026-11-05T15:20:00+00:00",
+"news": [
+{
+"title": "Investor Fear Spikes Ahead Of Midterms. It May Not Be So Bad For Stocks.",
+"source": "Investor's Business Daily",
+"link": "https://www.investors.com/news/vix-stock-market-fear-gauge-sp-500/"
+},
+{
+"title": "CBOE Volatility Index Falls to One-Week Low of 16.97",
+"source": "bloomingbit",
+"link": "https://en.bloomingbit.io/feed/news/123660"
+}
+],
+"new": true
+},
+{
+"term": "어선",
+"traffic": "100+",
+"time": "2026-11-05T15:20:00+00:00",
+"news": [
+{
+"title": "울릉도 공해상 표류 북한 어선 발견…당국 조사中",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261105174600504"
+},
+{
+"title": "울릉도 해상서 北 어선 발견…\"관계기관 조사\"",
+"source": "연합뉴스TV",
+"link": "https://www.yonhapnewstv.co.kr/news/MYH20261106005247arJ"
+}
+],
+"new": true
+},
+{
+"term": "코인니스",
+"traffic": "100+",
+"time": "2026-11-05T15:20:00+00:00",
+"news": [
+{
+"title": "'Staking Funds Drained for Ether Crash'? The Ledger Tells a Different Story, Binance Hack Fact-Check",
+"source": "수원일보",
+"link": "https://www.suwonilbo.kr/en/view.html?id=L261031181506e6e3"
+}
+],
+"new": true
+},
+{
 "term": "토스증권",
 "traffic": "500+",
 "time": "2026-11-05T15:10:00+00:00",
@@ -4316,14 +4357,14 @@
 "time": "2026-11-05T15:00:00+00:00",
 "news": [
 {
-"title": "Nasdaq plummets into correction territory, Dow slides more than 1,000 points as traders dump tech stocks: Live updates",
+"title": "Nasdaq plummets into correction territory, Dow drops more than 1,000 points as traders dump tech stocks: Live updates",
 "source": "CNBC",
 "link": "https://www.cnbc.com/2026/11/04/stock-market-today-live-updates.html"
 },
 {
-"title": "Tech stocks plunge on worries about AI and Democrats’ midterm landslide",
-"source": "NBC News",
-"link": "https://www.nbcnews.com/business/markets/tech-stocks-plunge-ai-midterms-rcna607650"
+"title": "Stock market today: Nasdaq plunges 5% as chip stocks sell off, Dow and S&P 500 give back post-election rally gains",
+"source": "Yahoo Finance",
+"link": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-5-dow-sp-500-nasdaq-oil-rises-chip-stocks-141439950.html"
 }
 ],
 "new": false
@@ -4363,60 +4404,6 @@
 }
 ],
 "new": false
-},
-{
-"term": "퍽즈",
-"traffic": "200+",
-"time": "2026-11-05T14:30:00+00:00",
-"news": [
-{
-"title": "'롤드컵 탈락' G2, 정글러 '스큐몬드' 결별하나",
-"source": "데일리e스포츠",
-"link": "https://www.dailyesports.com/view.php?ud=202611050654018539b91e133c1f_27"
-},
-{
-"title": "월즈 조기 탈락→SNS 논란 ‘2연타’…G2, ‘퍽즈’ 감독과 결별",
-"source": "스포탈코리아",
-"link": "https://www.sportalkorea.com/news/articleView.html?idxno=2025052909553678086"
-}
-],
-"new": false
-},
-{
-"term": "soxx",
-"traffic": "200+",
-"time": "2026-11-05T14:30:00+00:00",
-"news": [
-{
-"title": "Why is Direxion Daily Semiconductor Bear 3X Shares surging today?",
-"source": "Investing.com",
-"link": "https://www.investing.com/news/stock-market-news/why-is-direxion-daily-semiconductor-bear-3x-shares-surging-today-93CH-5005043"
-},
-{
-"title": "Semiconductor Stocks Are Cheaper Than the S&P 500: Is It Time to Buy SOXX and SMH ETFs?",
-"source": "Benzinga",
-"link": "https://www.benzinga.com/etfs/sector-etfs/26/11/62779160/semiconductor-stocks-are-cheaper-than-the-sp-500-is-it-time-to-buy-soxx-and-smh-etfs"
-}
-],
-"new": false
-},
-{
-"term": "제니",
-"traffic": "500+",
-"time": "2026-11-05T14:20:00+00:00",
-"news": [
-{
-"title": "‘분노의 질주’ 속 수키로 변신한 제니, 붉은색 차량 앞 파격적인 레트로 룩",
-"source": "스포츠서울",
-"link": "https://www.sportsseoul.com/news/read/1646060"
-},
-{
-"title": "제니, 할로윈 신부 드레스로 퇴폐미 완성...파격 스타일에 '시선 집중'",
-"source": "스포탈코리아",
-"link": "https://www.sportalkorea.com/news/articleView.html?idxno=2025052909553669459"
-}
-],
-"new": false
 }
 ],
 "trendSeen": [
@@ -4430,6 +4417,7 @@
 "sk텔레콤",
 "soxx",
 "t.o.p",
+"vix",
 "voo",
 "west indies vs bangladesh",
 "강원도민일보",
@@ -4473,6 +4461,7 @@
 "안재욱",
 "양민혁",
 "어벤져스 둠스데이",
+"어선",
 "엔비디아 주가",
 "엔씨",
 "여객선",
@@ -4508,6 +4497,7 @@
 "최종면접",
 "축제",
 "커버 드 콜",
+"코인니스",
 "쿠칭시티",
 "토스증권",
 "퍽즈",
