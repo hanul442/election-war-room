@@ -22,7 +22,7 @@ KEY = next((os.environ.get(k, "").strip() for k in
             ("YOUTUBE_DATA_API", "YOUTUBE_API_KEY", "YT_API_KEY", "YOUTUBE_KEY", "GOOGLE_API_KEY", "API_KEY")
             if os.environ.get(k, "").strip()), "")
 API = "https://www.googleapis.com/youtube/v3/"
-POOL_EVERY = timedelta(minutes=30)
+POOL_EVERY = timedelta(minutes=120)  # 선거가 정리돼서 줄임 (한국 상황실과 하루 한도를 나눠 씀)
 BRK_EVERY = timedelta(minutes=4)
 BRK_PER_DAY = 40
 STOP = {"Democrat", "Democrats", "Democratic", "Republican", "Republicans", "GOP", "AP", "Election",
