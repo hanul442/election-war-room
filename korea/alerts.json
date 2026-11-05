@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-05T13:27:58.254187+00:00",
+"updated": "2026-11-05T13:30:13.571849+00:00",
 "errors": [],
 "events": [
 {
@@ -4355,7 +4355,7 @@
 "spike": false
 },
 "화재": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -4366,16 +4366,16 @@
 },
 "정전": {
 "n30": 1,
-"base": 0.1,
+"base": 0.2,
 "spike": false
 },
 "폭발": {
-"n30": 6,
-"base": 0.5,
+"n30": 5,
+"base": 0.7,
 "spike": true
 },
 "붕괴": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -4390,17 +4390,17 @@
 "spike": false
 },
 "속보": {
-"n30": 5,
+"n30": 2,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "지하철": {
-"n30": 3,
-"base": 0.3,
+"n30": 1,
+"base": 0.2,
 "spike": false
 },
 "사고": {
-"n30": 2,
+"n30": 4,
 "base": 2.2,
 "spike": false
 },
@@ -4431,6 +4431,36 @@
 }
 },
 "posts": [
+{
+"text": "비디오판독 결과 도라군 앞부분 파츠가 먼저 내 진행방향 먼 쪽에 드랍됐고, 2개짜리 뒤쪽 파츠 가진 Y라는 사람이 저 빨갛게 폭발하는 충돌판정에 휘말리면서 파츠드랍했는데 그게 나 있는 쪽으로 정확하게 날아들었다. 체감상 도라군 파츠가 날아가는거같다...정도 까지밖에 캐치못했는데 갑자기 내가 도라군을 완성했다그래서 어리둥절했어 ㅋㅋ\n느린 화면으로 안보면 진짜 왜 만들어진건지 이해가 힘들 정도로",
+"handle": "fie.bsky.social",
+"name": "fie🎀🐾⚓️🎗️",
+"time": "2026-11-05T13:29:21.980Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/fie.bsky.social/post/3mzkxxto3bs2p",
+"term": "폭발"
+},
+{
+"text": "사고 싶다 새 옷 약간 요런 너낌의 \n계급투쟁하는 퍼리 머천다이즈가 끌린다\n\n근데 다 해외샵이네...ㅜㅜ...한쿸에서 요런 거 만들구 파는 업체를 찾읍니다...ㅠㅁㄷ) ",
+"handle": "granmouse.bsky.social",
+"name": "플리즈 통촉 G",
+"time": "2026-11-05T13:28:48.271Z",
+"likes": 0,
+"reposts": 2,
+"url": "https://bsky.app/profile/granmouse.bsky.social/post/3mzkxwvaymcod",
+"term": "사고"
+},
+{
+"text": "대구 갔다가 집갈때 대전 함 찍어서 빵사고 올라갈까... 케이크 시즌 뭔지 함 보고",
+"handle": "loveluvlov3.bsky.social",
+"name": "♡ (쭈천탐라안보기운동 제2탄)",
+"time": "2026-11-05T13:28:44.572Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/loveluvlov3.bsky.social/post/3mzkxwrkyak2c",
+"term": "사고"
+},
 {
 "text": "지출 너무 많아서 다이어리는 따로 안 사고 예전에 받은 만년형 써야겠다... 다음주에는 사촌동생 수능 응원 다과도 사서 보내야만 해....",
 "handle": "baekram.bsky.social",
@@ -4683,36 +4713,29 @@
 "spikes": [
 {
 "term": "폭발",
-"n30": 6,
-"base": 0.5,
-"spike": true,
-"since": "2026-11-05T13:27:58.254187+00:00"
-},
-{
-"term": "속보",
 "n30": 5,
-"base": 0.1,
+"base": 0.7,
 "spike": true,
-"since": "2026-11-05T13:27:58.254187+00:00"
+"since": "2026-11-05T13:30:13.571849+00:00"
 }
 ],
 "baseline": {
 "지진": 0.05,
 "화재": 0.05,
 "불났": 0.0,
-"정전": 0.24,
-"폭발": 0.66,
+"정전": 0.32,
+"폭발": 0.89,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.23,
-"사고": 2.22,
+"지하철": 0.21,
+"사고": 2.4,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
-"산불": 0.2
+"산불": 0.18
 },
 "errors": [],
 "ytPosts": [
@@ -4924,9 +4947,9 @@
 "time": "2026-11-05T11:50:00+00:00",
 "news": [
 {
-"title": "[단독] \"원금 돌려받는 건데 왜 세금 떼가나\"…개미들 뿔났다",
+"title": "[단독] \"원금 돌려받았는데 왜\"…서학개미, 美 커버드콜 '수천억 세금 환급' 집단 반발",
 "source": "한국경제",
-"link": "https://www.hankyung.com/article/2026110591261"
+"link": "https://www.hankyung.com/article/202611056806i"
 },
 {
 "title": "빈틈없는 연말정산… ‘연금저축 600만원 + IRP 300만원’ 조합이 최적",
@@ -5008,9 +5031,9 @@
 "link": "https://www.yna.co.kr/view/AKR20261105177200007"
 },
 {
-"title": "“등번호 7번 내려놓을 때 왔다”…호날두, 23년만에 국대 은퇴",
-"source": "동아일보",
-"link": "https://www.donga.com/news/Inter/article/all/20261105/134975213/1"
+"title": "“호날두 없는 포르투갈 시대”…감독 갈등 끝에 대표팀 은퇴",
+"source": "경기일보",
+"link": "https://www.kyeonggi.com/article/20261105580602"
 }
 ],
 "new": false
@@ -5026,9 +5049,9 @@
 "link": "https://www.namdonews.com/news/articleView.html?idxno=928359"
 },
 {
-"title": "전남국제사격장서 사격 꿈나무 합숙훈련 실시",
-"source": "LG헬로비전",
-"link": "http://news.lghellovision.net/news/articleView.html?idxno=561213"
+"title": "전라남도 국제사격장서 꿈나무 선수단 합숙훈련 ‘땀방울’",
+"source": "STN SPORTS",
+"link": "https://www.stnsports.co.kr/news/articleView.html?idxno=325148"
 }
 ],
 "new": false
