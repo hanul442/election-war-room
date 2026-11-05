@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-05T17:03:49.890175+00:00",
+"updated": "2026-11-05T17:06:04.412866+00:00",
 "errors": [],
 "events": [
 {
@@ -3658,14 +3658,14 @@
 "spike": false
 },
 "정전": {
-"n30": 2,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
 "폭발": {
-"n30": 6,
-"base": 0.1,
-"spike": true
+"n30": 2,
+"base": 0.2,
+"spike": false
 },
 "붕괴": {
 "n30": 0,
@@ -3683,13 +3683,13 @@
 "spike": false
 },
 "속보": {
-"n30": 9,
+"n30": 7,
 "base": 0.1,
 "spike": true
 },
 "지하철": {
 "n30": 1,
-"base": 0.4,
+"base": 0.5,
 "spike": false
 },
 "사고": {
@@ -3749,7 +3749,7 @@
 "handle": "wkqejr0-0.bsky.social",
 "name": "잡덕임",
 "time": "2026-11-05T16:53:34.082Z",
-"likes": 0,
+"likes": 1,
 "reposts": 0,
 "url": "https://bsky.app/profile/wkqejr0-0.bsky.social/post/3mzldezpg4k2a",
 "term": "지하철"
@@ -3983,18 +3983,11 @@
 ],
 "spikes": [
 {
-"term": "폭발",
-"n30": 6,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-05T17:03:49.890175+00:00"
-},
-{
 "term": "속보",
-"n30": 9,
+"n30": 7,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-05T17:03:49.890175+00:00"
+"since": "2026-11-05T17:06:04.412866+00:00"
 }
 ],
 "baseline": {
@@ -4002,14 +3995,14 @@
 "화재": 0.05,
 "불났": 0.0,
 "정전": 0.05,
-"폭발": 0.24,
+"폭발": 0.32,
 "붕괴": 0.05,
-"대피": 0.09,
+"대피": 0.08,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.45,
-"사고": 0.87,
-"실종": 0.15,
+"지하철": 0.51,
+"사고": 0.88,
+"실종": 0.24,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -4238,19 +4231,19 @@
 },
 "trends": [
 {
-"term": "아이렌",
-"traffic": "1000+",
+"term": "미국",
+"traffic": "5000+",
 "time": "2026-11-05T15:50:00+00:00",
 "news": [
 {
-"title": "30조 발전소·36조 수주잔고…대미 AI 인프라, 美 의회 변수 노출",
-"source": "인베스트조선",
-"link": "https://www.investchosun.com/site/data/html_dir/2026/11/05/2026110580127.html"
+"title": "청와대, 미 중간선거 결과에 \"한미동맹, 초당적 지지로 굳건한 관계\"",
+"source": "JTBC",
+"link": "https://news.jtbc.co.kr/article/NB12326658"
 },
 {
-"title": "뉴욕증시, AI 인프라 규제 우려에 하락 출발",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261106000700009"
+"title": "무상의료·부유세 공약 통했다… 민주당 강성 진보, 의회로 진격",
+"source": "조선일보",
+"link": "https://www.chosun.com/international/international_general/2026/11/06/4UCP7J273JATHJWHMAOZGIGTHQ/"
 }
 ],
 "new": false
@@ -4263,37 +4256,19 @@
 "new": false
 },
 {
-"term": "미국",
-"traffic": "5000+",
-"time": "2026-11-05T15:50:00+00:00",
-"news": [
-{
-"title": "[주간 뉴스타파] 미국 중간선거 블루 쓰나미, 트럼프식 '정글의 법칙' 흔들리나",
-"source": "뉴스타파",
-"link": "https://newstapa.org/article/VVdwE"
-},
-{
-"title": "무상의료·부유세 공약 통했다… 민주당 강성 진보, 의회로 진격",
-"source": "조선일보",
-"link": "https://www.chosun.com/international/international_general/2026/11/06/4UCP7J273JATHJWHMAOZGIGTHQ/"
-}
-],
-"new": false
-},
-{
 "term": "비트코인",
 "traffic": "200+",
 "time": "2026-11-05T15:50:00+00:00",
 "news": [
 {
-"title": "기요사키, 비트코인(BTC) 7만 5,000달러 부근 폭락에 추가 매수",
-"source": "코인리더스",
-"link": "https://www.coinreaders.com/267834"
+"title": "비트코인 ETF, 美 중간선거·해킹 악재에 2거래일간 10억 달러 유출 By The Guru",
+"source": "Investing.com 한국어",
+"link": "https://kr.investing.com/news/stock-market-news/article-2157419"
 },
 {
-"title": "글로벌 부채 증가가 진짜 문제라고 로버트 기요사키는 말한다",
-"source": "Traders Union",
-"link": "https://tradersunion.com/ko/news/market-voices/show/4092668-kiyosaki-focuses-debt-concerns/"
+"title": "비트코인 3분기 거래 건수 47%↑, 온체인 이체액은 49%↓",
+"source": "이투데이",
+"link": "https://www.etoday.co.kr/news/view/2643685"
 }
 ],
 "new": false
@@ -4317,7 +4292,7 @@
 "new": false
 },
 {
-"term": "마이크론 주가",
+"term": "마이크론",
 "traffic": "200+",
 "time": "2026-11-05T15:30:00+00:00",
 "news": [
@@ -4332,7 +4307,7 @@
 "link": "https://kr.investing.com/news/stock-market-news/article-93CH-2162458"
 }
 ],
-"new": false
+"new": true
 },
 {
 "term": "어선",
@@ -4348,6 +4323,24 @@
 "title": "울릉도 북방 해상에서 북한 어선 발견‥\"경위 확인 중\"",
 "source": "MBC 뉴스",
 "link": "https://imnews.imbc.com/news/2026/politics/article/6863490_36911.html"
+}
+],
+"new": false
+},
+{
+"term": "qld",
+"traffic": "100+",
+"time": "2026-11-05T15:20:00+00:00",
+"news": [
+{
+"title": "Education ministers agree to biggest school system shake-up in years",
+"source": "ABC News & Headlines – Australian Broadcasting Corporation",
+"link": "https://www.abc.net.au/news/2026-11-05/education-ministers-agree-to-biggest-shake-up-in-years-of-school/107348312"
+},
+{
+"title": "Screens to remain in Qld schools amid push for back-to-basics maths classes",
+"source": "The Age",
+"link": "https://www.theage.com.au/national/queensland/screens-to-remain-in-qld-schools-amid-push-for-back-to-basics-maths-classes-20261106-p61bor.html"
 }
 ],
 "new": false
@@ -4384,19 +4377,19 @@
 "new": false
 },
 {
-"term": "qld",
-"traffic": "100+",
-"time": "2026-11-05T15:20:00+00:00",
+"term": "토스증권",
+"traffic": "1000+",
+"time": "2026-11-05T15:10:00+00:00",
 "news": [
 {
-"title": "Education ministers agree to biggest school system shake-up in years",
-"source": "ABC News & Headlines – Australian Broadcasting Corporation",
-"link": "https://www.abc.net.au/news/2026-11-05/education-ministers-agree-to-biggest-shake-up-in-years-of-school/107348312"
+"title": "[카카오페이] 카카오페이, 영업이익 105% 급증…스테이블코인이 다음 성장동력 될까?(2026년_3Q)",
+"source": "네이버 프리미엄콘텐츠",
+"link": "https://contents.premium.naver.com/bilanxlyc/curiousir/contents/261105162046929ye"
 },
 {
-"title": "Screens to remain in Qld schools amid push for back-to-basics maths classes",
-"source": "The Age",
-"link": "https://www.theage.com.au/national/queensland/screens-to-remain-in-qld-schools-amid-push-for-back-to-basics-maths-classes-20261106-p61bor.html"
+"title": "[모닝 리포트] LS증권, 카카오페이 목표가 5만2000원…\"본업 성장세는 지속\"",
+"source": "뉴스핌",
+"link": "https://www.newspim.com/news/view/20261104000128"
 }
 ],
 "new": false
@@ -4444,6 +4437,7 @@
 "류현진",
 "르브론 제임스",
 "마라톤",
+"마이크론",
 "마이크론 주가",
 "맘스터치",
 "매일경제",
