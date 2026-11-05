@@ -1,16 +1,17 @@
 {
-"updated": "2026-11-05T09:33:31.798973+00:00",
+"updated": "2026-11-05T09:35:46.875963+00:00",
 "errors": [],
 "events": [
 {
 "id": "viewAKR202611051650000040852",
 "first": "2026-11-05T08:52:38+00:00",
-"last": "2026-11-05T09:23:15+00:00",
-"updated": "2026-11-05T09:26:47.655469+00:00",
+"last": "2026-11-05T09:32:00+00:00",
+"updated": "2026-11-05T09:35:46.875963+00:00",
 "headline": "법원, '개인정보 유출' 쿠팡 과징금 4천만원 부과효력 유지",
 "cat": "사회",
 "regions": [],
 "sources": [
+"Chosunbiz",
 "JTBC",
 "SBS",
 "SBS Biz",
@@ -27,6 +28,7 @@
 "중앙일보",
 "채널A",
 "파이낸셜뉴스",
+"한겨레",
 "헤럴드경제"
 ],
 "updates": [
@@ -70,6 +72,13 @@
 "source": "매일경제",
 "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9fMEVBdWtCSkJxRWdZZnlQcGI3dFZBVTZpTHpGUk9ZQThhcFZPYUVtdkllVlg4TUI2LXVRdE9GWnF6NDh0Q1BWUVJteW1zOFNXSWFGdA?oc=5",
 "time": "2026-11-05T08:54:34+00:00",
+"stage": "속보"
+},
+{
+"title": "[속보] 법원, ‘개인정보 유출’ 쿠팡 과징금 4000만원 부과효력 유지",
+"source": "Chosunbiz",
+"link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPM2dmTnJieWY5NHdWa3l5dUFleDFuM2MtVUR2ZzZFNXJkVG4zTEZRQW85MkZkSlJaZHAtZmI5V3dKb3VZZmRaa1FKaS1PMTB6ZVo1ZTE0cWVub0pvUGRuNl9ONWY4NU8xT0V1ZFduNjM5bldTOXBGZGJSbHJQX0w3NFBGONIBlwFBVV95cUxPMEl6X3V1SFFaZEx1b21Uc0UzZTBmS1NINnZ0bUd5YVNtdXUzOXZXSF9Sejd5b1BmYjhaUVk5N1V2YWhjNHMtTzRadFVoXzY4U3lXdktiU2RWLVVDRm9VdGJ2SlRMTnhmVnpTSmZWNWliajBmVFNJb1dkWHFYaENCejRfeUpMWFBiakhRcE43bFlQRnVjbW40?oc=5",
+"time": "2026-11-05T08:55:00+00:00",
 "stage": "속보"
 },
 {
@@ -176,10 +185,17 @@
 "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBoT3JtX3l1V25EYmw2akZHTjBmMnlkR3FYZ00zb3p2NVhmMTNnRFplMHYtR0w1ZVBzLW1aOUxiQm1oQmpKM2ZEc3R4QjZFTG4taC1UYUpnNkJPc2V2SUJwSWlJV1Q1MUU?oc=5",
 "time": "2026-11-05T09:23:15+00:00",
 "stage": "속보"
+},
+{
+"title": "[속보]법원, 쿠팡 ‘개인정보 유출’ 개보위 시정명령 집행정지…과징금 효력은 유지",
+"source": "한겨레",
+"link": "https://news.google.com/rss/articles/CBMickFVX3lxTE10TzF5NVBQZm5BdDZPaEpKdnJKMFZ4b2k4aGVFRVZrSldJemVtcy0tYmJFRmtTWi1jSWkwRXdaT0gtWDdiTDFRQkp3Wmd5S0xmVDlSOWtqYUVvbDVZbUxqR2diS2E4ZWR2NEVzVXFjbE9Odw?oc=5",
+"time": "2026-11-05T09:32:00+00:00",
+"stage": "속보"
 }
 ],
 "level": "URGENT",
-"latest": "법원, ‘고객정보 유출’ 쿠팡 4236억원 과징금 유지…시정명령만 잠정 중단",
+"latest": "법원, 쿠팡 ‘개인정보 유출’ 개보위 시정명령 집행정지…과징금 효력은 유지",
 "tok": [
 "4000만원",
 "4000억",
@@ -191,6 +207,7 @@
 "4천만원",
 "4천억",
 "4천억원",
+"개보위",
 "개인정보",
 "개인정보위원회",
 "결정",
@@ -4737,8 +4754,8 @@
 "spike": false
 },
 "폭발": {
-"n30": 7,
-"base": 0.2,
+"n30": 6,
+"base": 0.1,
 "spike": true
 },
 "붕괴": {
@@ -4752,28 +4769,28 @@
 "spike": false
 },
 "미사일": {
-"n30": 2,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
 "속보": {
 "n30": 2,
-"base": 0.9,
+"base": 0.8,
 "spike": false
 },
 "지하철": {
-"n30": 2,
-"base": 0.7,
+"n30": 1,
+"base": 0.6,
 "spike": false
 },
 "사고": {
-"n30": 5,
-"base": 5.5,
+"n30": 4,
+"base": 5.4,
 "spike": false
 },
 "실종": {
 "n30": 0,
-"base": 0.6,
+"base": 0.5,
 "spike": false
 },
 "단수": {
@@ -5068,25 +5085,25 @@
 "spikes": [
 {
 "term": "폭발",
-"n30": 7,
-"base": 0.2,
+"n30": 6,
+"base": 0.1,
 "spike": true,
-"since": "2026-11-05T09:33:31.798973+00:00"
+"since": "2026-11-05T09:35:46.875963+00:00"
 }
 ],
 "baseline": {
-"지진": 0.64,
+"지진": 0.68,
 "화재": 0.05,
 "불났": 0.0,
 "정전": 0.0,
-"폭발": 0.14,
+"폭발": 0.13,
 "붕괴": 0.05,
 "대피": 0.0,
 "미사일": 0.05,
-"속보": 0.8,
-"지하철": 0.59,
-"사고": 5.41,
-"실종": 0.54,
+"속보": 0.72,
+"지하철": 0.53,
+"사고": 5.27,
+"실종": 0.49,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -5315,6 +5332,24 @@
 },
 "trends": [
 {
+"term": "fifa u-17 여자 월드컵",
+"traffic": "100+",
+"time": "2026-11-05T08:20:00+00:00",
+"news": [
+{
+"title": "북한, U-17 여자 월드컵 준결승서 고배…3연패 도전 무산",
+"source": "동아일보",
+"link": "https://www.donga.com/news/Sports/article/all/20261105/134970487/1"
+},
+{
+"title": "북한, FIFA U-17 여자 월드컵 일본에 승부차기 패배…3연패 좌절",
+"source": "SBS 뉴스",
+"link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008831671"
+}
+],
+"new": true
+},
+{
 "term": "장동민",
 "traffic": "500+",
 "time": "2026-11-05T08:10:00+00:00",
@@ -5446,14 +5481,14 @@
 "time": "2026-11-05T07:00:00+00:00",
 "news": [
 {
-"title": "‘광안대교 보이는 방’ 하루 98만원···부산 불꽃축제 앞두고 숙박료 평균 94.5% 뛰었다",
-"source": "경향신문",
-"link": "https://www.khan.co.kr/article/202611041708001"
+"title": "“군민이 함께 피운 가을 동화”… 진도 보배섬 국화축제 5일 막 올랐다",
+"source": "녹색경제신문",
+"link": "https://www.greened.kr/news/articleView.html?idxno=353949"
 },
 {
-"title": "[통신 View] 품질 관리에 AI·문화예술까지… 일상·인프라 혁신",
-"source": "천지일보",
-"link": "https://www.newscj.com/news/articleView.html?idxno=3446280"
+"title": "진도군, 가을 정취 만끽 보배섬 국화축제 5일 개막",
+"source": "중도일보",
+"link": "https://www.joongdo.co.kr/web/view.php?key=20261108010001877"
 }
 ],
 "new": false
@@ -5475,28 +5510,11 @@
 }
 ],
 "new": false
-},
-{
-"term": "제주 감귤",
-"traffic": "1000+",
-"time": "2026-11-05T06:40:00+00:00",
-"news": [
-{
-"title": "[독자기고] AI가 감귤 관측 현장을 바꾸고 있다",
-"source": "제민일보",
-"link": "https://www.jemin.com/news/articleView.html?idxno=846190"
-},
-{
-"title": "“점심시간에 만난 달콤함”…제주감귤연합회, 정부세종청사서 고당도 제주감귤 특별판매",
-"source": "서울신문",
-"link": "https://www.seoul.co.kr/news/economy/2026/11/05/20261105500202"
-}
-],
-"new": false
 }
 ],
 "trendSeen": [
 "1기 신도시",
+"fifa u-17 여자 월드컵",
 "jtbc",
 "lg그룹",
 "sk텔레콤",
