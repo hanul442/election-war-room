@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-05T17:53:53.529477+00:00",
+"updated": "2026-11-05T17:56:09.166910+00:00",
 "errors": [],
 "events": [
 {
@@ -3406,7 +3406,7 @@
 },
 "폭발": {
 "n30": 5,
-"base": 0.3,
+"base": 0.2,
 "spike": true
 },
 "붕괴": {
@@ -3687,9 +3687,9 @@
 {
 "term": "폭발",
 "n30": 5,
-"base": 0.3,
+"base": 0.2,
 "spike": true,
-"since": "2026-11-05T17:53:53.529477+00:00"
+"since": "2026-11-05T17:56:09.166910+00:00"
 }
 ],
 "baseline": {
@@ -3697,14 +3697,14 @@
 "화재": 0.05,
 "불났": 0.0,
 "정전": 0.05,
-"폭발": 0.24,
+"폭발": 0.22,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.18,
-"사고": 0.14,
-"실종": 0.27,
+"지하철": 0.16,
+"사고": 0.13,
+"실종": 0.24,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -3951,24 +3951,6 @@
 "new": false
 },
 {
-"term": "아이렌",
-"traffic": "1000+",
-"time": "2026-11-05T15:50:00+00:00",
-"news": [
-{
-"title": "미 선거에 흔들린 반도체…복잡해진 우리 경제 셈법",
-"source": "KBS 뉴스",
-"link": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8705267"
-},
-{
-"title": "뉴욕증시, AI 인프라 규제 우려에 하락 출발",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261106000700009"
-}
-],
-"new": false
-},
-{
 "term": "비트코인",
 "traffic": "500+",
 "time": "2026-11-05T15:50:00+00:00",
@@ -4095,19 +4077,37 @@
 "new": false
 },
 {
+"term": "soxl stock",
+"traffic": "100+",
+"time": "2026-11-05T15:20:00+00:00",
+"news": [
+{
+"title": "Why is Direxion Daily Semiconductor Bear 3X Shares surging today?",
+"source": "Investing.com",
+"link": "https://www.investing.com/news/stock-market-news/why-is-direxion-daily-semiconductor-bear-3x-shares-surging-today-93CH-5005043"
+},
+{
+"title": "Semiconductor Stocks Are Cheaper Than the S&P 500: Is It Time to Buy SOXX and SMH ETFs?",
+"source": "Benzinga",
+"link": "https://www.benzinga.com/etfs/sector-etfs/26/11/62779160/semiconductor-stocks-are-cheaper-than-the-sp-500-is-it-time-to-buy-soxx-and-smh-etfs"
+}
+],
+"new": false
+},
+{
 "term": "vix",
 "traffic": "200+",
 "time": "2026-11-05T15:20:00+00:00",
 "news": [
 {
-"title": "Blue Chips Surge Past 2.8% as VIX Drops Below 18 While Oil Sinks Nearly 8%",
-"source": "Yahoo Finance",
-"link": "https://finance.yahoo.com/news/blue-chips-surge-past-2-181600445.html"
+"title": "Midday Need to Know: Chip stocks plunge, VIX surges & more (SPY:NYSEARCA)",
+"source": "Seeking Alpha",
+"link": "https://seekingalpha.com/news/4666899-midday-need-to-know-chip-stocks-plunge-vix-surges-more"
 },
 {
-"title": "Wall Street's fear gauge surges the most since April. Why traders think it should be even higher",
-"source": "CNBC",
-"link": "https://www.cnbc.com/2026/11/05/wall-streets-fear-gauge-surges-the-most-since-april-why-traders-think-it-should-be-even-higher.html"
+"title": "Market Pulse: Key triggers to watch before the November 6 trading session",
+"source": "CNBC TV18",
+"link": "https://www.cnbctv18.com/photos/market/market-pulse-key-triggers-to-watch-before-the-november-6-trading-session-20028394.htm"
 }
 ],
 "new": false
