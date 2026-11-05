@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-05T21:52:59.548194+00:00",
+"updated": "2026-11-05T21:55:14.713494+00:00",
 "errors": [],
 "events": [
 {
@@ -1816,42 +1816,6 @@
 "추가",
 "포인트"
 ]
-},
-{
-"id": "WQk40OFpUSzF4WTBBYnk4oc51555",
-"first": "2026-11-05T15:55:00+00:00",
-"last": "2026-11-05T15:55:00+00:00",
-"updated": "2026-11-05T15:58:19.701843+00:00",
-"headline": "뉴욕증시, 민주 압승 여파 기술주 급락…AMD 10%·테슬라 7%대 하락, 앱러빈 30% 폭등",
-"cat": "경제",
-"regions": [],
-"sources": [
-"CBC뉴스"
-],
-"updates": [
-{
-"title": "[속보] 뉴욕증시, 민주 압승 여파 기술주 급락…AMD 10%·테슬라 7%대 하락, 앱러빈 30% 폭등",
-"source": "CBC뉴스",
-"link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5rMEd2UFk4dTBuYk0tM1VWU1lNSXpSXzRVZXhwREc2anRqaUQ4c2dNdFJmV0pLVUprTXB2X0JsSi1KY1BEOF8tRXJvc3drQWZrNjBDNGU5UFZWQk40OFpUSzF4WTBBYnk4?oc=5",
-"time": "2026-11-05T15:55:00+00:00",
-"stage": "얼럿"
-}
-],
-"level": "URGENT",
-"latest": "뉴욕증시, 민주 압승 여파 기술주 급락…AMD 10%·테슬라 7%대 하락, 앱러빈 30% 폭등",
-"tok": [
-"AMD",
-"급락",
-"기술주",
-"뉴욕증시",
-"민주",
-"압승",
-"앱러빈",
-"여파",
-"테슬라",
-"폭등",
-"하락"
-]
 }
 ],
 "sns": {
@@ -1877,9 +1841,9 @@
 "spike": false
 },
 "폭발": {
-"n30": 5,
+"n30": 4,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "붕괴": {
 "n30": 1,
@@ -1907,7 +1871,7 @@
 "spike": false
 },
 "사고": {
-"n30": 1,
+"n30": 0,
 "base": 0.8,
 "spike": false
 },
@@ -2000,16 +1964,6 @@
 "time": "2026-11-05T21:25:03Z",
 "term": "폭발",
 "url": "https://www.youtube.com/watch?v=cifIS73Z4wU"
-},
-{
-"text": "FSD가 사고를 내면 전방주시 안한 운전자가 문제인데..\n\n레거시 업체들 ADAS가 사고를 내면 기술 문제라 ADAS를 금지해야 하고 FSD를 전면 도입해야 한다는 신기한 논리가 판을 치는데 웃기다",
-"handle": "decalpha.bsky.social",
-"name": "dec_alpha",
-"time": "2026-11-05T21:24:29.280Z",
-"likes": 1,
-"reposts": 1,
-"url": "https://bsky.app/profile/decalpha.bsky.social/post/3mzlsjhnt6s2h",
-"term": "사고"
 },
 {
 "platform": "YouTube",
@@ -2156,27 +2110,19 @@
 "url": "https://www.youtube.com/watch?v=BA2N9xf-l7Q"
 }
 ],
-"spikes": [
-{
-"term": "폭발",
-"n30": 5,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-05T21:52:59.548194+00:00"
-}
-],
+"spikes": [],
 "baseline": {
 "지진": 0.05,
 "화재": 0.05,
 "불났": 0.0,
 "정전": 0.05,
-"폭발": 0.07,
+"폭발": 0.06,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
 "지하철": 0.05,
-"사고": 0.84,
+"사고": 0.76,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -2397,24 +2343,6 @@
 },
 "trends": [
 {
-"term": "배드민턴",
-"traffic": "200+",
-"time": "2026-11-05T20:50:00+00:00",
-"news": [
-{
-"title": "‘남자 안세영’은 프랑스에 있다",
-"source": "조선일보",
-"link": "https://www.chosun.com/sports/sports_general/2026/11/06/XEIFOPBNEBHVBFQ5SKIJHOQJCY/"
-},
-{
-"title": "'배드민턴 여제' 안세영, 코리아오픈 8강 진출…파죽의 52연승",
-"source": "뉴시스",
-"link": "https://www.newsis.com/view/NISX20261105_0003856842"
-}
-],
-"new": true
-},
-{
 "term": "배구",
 "traffic": "100+",
 "time": "2026-11-05T20:50:00+00:00",
@@ -2430,7 +2358,25 @@
 "link": "https://www.newsis.com/view/NISI20261105_0021521174"
 }
 ],
-"new": true
+"new": false
+},
+{
+"term": "배드민턴",
+"traffic": "200+",
+"time": "2026-11-05T20:50:00+00:00",
+"news": [
+{
+"title": "‘남자 안세영’은 프랑스에 있다",
+"source": "조선일보",
+"link": "https://www.chosun.com/sports/sports_general/2026/11/06/XEIFOPBNEBHVBFQ5SKIJHOQJCY/"
+},
+{
+"title": "'배드민턴 여제' 안세영, 코리아오픈 8강 진출…파죽의 52연승",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261105_0003856842"
+}
+],
+"new": false
 },
 {
 "term": "dl이앤씨",
@@ -2448,11 +2394,11 @@
 "link": "https://www.businesspost.co.kr/BP?command=article_view&num=451305"
 }
 ],
-"new": true
+"new": false
 },
 {
 "term": "연금",
-"traffic": "5000+",
+"traffic": "10000+",
 "time": "2026-11-05T20:40:00+00:00",
 "news": [
 {
@@ -2497,9 +2443,9 @@
 "link": "https://kr.investing.com/news/stock-market-news/article-2162087"
 },
 {
-"title": "한국 증시, 지금의 조정은 위기인가 새로운 기회인가?",
-"source": "한국경제",
-"link": "https://www.hankyung.com/article/202611044856i"
+"title": "KT&G 3분기 영업익 13.9% 증가…분기 역대 최대 실적(종합)",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261105130651527"
 }
 ],
 "new": false
