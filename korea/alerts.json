@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-05T14:26:40.510757+00:00",
+"updated": "2026-11-05T14:29:00.299942+00:00",
 "errors": [],
 "events": [
 {
@@ -4345,7 +4345,7 @@
 "spike": false
 },
 "화재": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -4360,8 +4360,8 @@
 "spike": false
 },
 "폭발": {
-"n30": 8,
-"base": 1.2,
+"n30": 7,
+"base": 1.1,
 "spike": true
 },
 "붕괴": {
@@ -4380,17 +4380,17 @@
 "spike": false
 },
 "속보": {
-"n30": 5,
+"n30": 3,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "지하철": {
 "n30": 5,
-"base": 1.1,
+"base": 1.2,
 "spike": true
 },
 "사고": {
-"n30": 4,
+"n30": 3,
 "base": 4.3,
 "spike": false
 },
@@ -4401,7 +4401,7 @@
 },
 "단수": {
 "n30": 1,
-"base": 0.6,
+"base": 0.7,
 "spike": false
 },
 "통신 장애": {
@@ -4530,7 +4530,7 @@
 "handle": "pyeonjeon.bsky.social",
 "name": "편전",
 "time": "2026-11-05T14:02:45.385Z",
-"likes": 2,
+"likes": 3,
 "reposts": 2,
 "url": "https://bsky.app/profile/pyeonjeon.bsky.social/post/3mzkztmoabk2s",
 "term": "사고"
@@ -4635,16 +4635,6 @@
 "url": "https://www.youtube.com/watch?v=nWjva93sWpc"
 },
 {
-"text": "다 읽어보고 좋으면 실물책도 사고 싶다...",
-"handle": "solnam.bsky.social",
-"name": "🏳️‍🌈🌈🌲솔남🌲☂️🏳️‍⚧️",
-"time": "2026-11-05T13:58:03.879Z",
-"likes": 1,
-"reposts": 0,
-"url": "https://bsky.app/profile/solnam.bsky.social/post/3mzkzl6wekc2c",
-"term": "사고"
-},
-{
 "platform": "YouTube",
 "text": "[🔴 속보] 친청계, 정당법 고발에 직무정지 가처분까지 준비…김민석에 총공세 [이슈PLAY]",
 "handle": "UCWlV3Lz_55UaX4JsMj-z__Q",
@@ -4711,40 +4701,33 @@
 "spikes": [
 {
 "term": "폭발",
-"n30": 8,
-"base": 1.2,
+"n30": 7,
+"base": 1.1,
 "spike": true,
-"since": "2026-11-05T14:26:40.510757+00:00"
-},
-{
-"term": "속보",
-"n30": 5,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-05T14:26:40.510757+00:00"
+"since": "2026-11-05T14:29:00.299942+00:00"
 },
 {
 "term": "지하철",
 "n30": 5,
-"base": 1.1,
+"base": 1.2,
 "spike": true,
-"since": "2026-11-05T14:26:40.510757+00:00"
+"since": "2026-11-05T14:29:00.299942+00:00"
 }
 ],
 "baseline": {
 "지진": 0.05,
 "화재": 0.05,
 "불났": 0.0,
-"정전": 0.16,
-"폭발": 1.05,
+"정전": 0.14,
+"폭발": 0.95,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 1.23,
-"사고": 4.31,
+"지하철": 1.31,
+"사고": 4.18,
 "실종": 0.05,
-"단수": 0.68,
+"단수": 0.71,
 "통신 장애": 0.05,
 "먹통": 0.05,
 "산불": 0.05
