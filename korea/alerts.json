@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-05T17:01:34.266472+00:00",
+"updated": "2026-11-05T17:03:49.890175+00:00",
 "errors": [],
 "events": [
 {
@@ -3663,7 +3663,7 @@
 "spike": false
 },
 "폭발": {
-"n30": 9,
+"n30": 6,
 "base": 0.1,
 "spike": true
 },
@@ -3689,16 +3689,16 @@
 },
 "지하철": {
 "n30": 1,
-"base": 0.3,
+"base": 0.4,
 "spike": false
 },
 "사고": {
 "n30": 1,
-"base": 0.8,
+"base": 0.9,
 "spike": false
 },
 "실종": {
-"n30": 0,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
@@ -3724,6 +3724,16 @@
 }
 },
 "posts": [
+{
+"text": "\"실종됐어요\" 숨진 채 발견…전자발찌 풀린 지 2주 만에\n\n주님, 세상을 떠난 이들에게 영원한 안식을 주소서.\n위령기도 전문은 아래 글에서 함께 기도하실 수 있습니다.",
+"handle": "jspenzer14.bsky.social",
+"name": "jspenzer14.bsky.social",
+"time": "2026-11-05T17:02:17.977Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/jspenzer14.bsky.social/post/3mzldumorielp",
+"term": "실종"
+},
 {
 "text": "75\n\n↑ 스1 하는 사람은 이거 보자마자 억하심정 대폭발하는 숫자",
 "handle": "celuli.bsky.social",
@@ -3974,17 +3984,17 @@
 "spikes": [
 {
 "term": "폭발",
-"n30": 9,
+"n30": 6,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-05T17:01:34.266472+00:00"
+"since": "2026-11-05T17:03:49.890175+00:00"
 },
 {
 "term": "속보",
 "n30": 9,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-05T17:01:34.266472+00:00"
+"since": "2026-11-05T17:03:49.890175+00:00"
 }
 ],
 "baseline": {
@@ -3992,14 +4002,14 @@
 "화재": 0.05,
 "불났": 0.0,
 "정전": 0.05,
-"폭발": 0.15,
+"폭발": 0.24,
 "붕괴": 0.05,
-"대피": 0.1,
+"대피": 0.09,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.39,
-"사고": 0.86,
-"실종": 0.05,
+"지하철": 0.45,
+"사고": 0.87,
+"실종": 0.15,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -4312,14 +4322,14 @@
 "time": "2026-11-05T15:30:00+00:00",
 "news": [
 {
-"title": "마이크론, 대만 HBM 공장 건설 중단…삼성·SK하이닉스 수혜 촉각 By EBN",
-"source": "Investing.com 한국어",
-"link": "https://kr.investing.com/news/stock-market-news/article-2161305"
-},
-{
 "title": "마이크론, 메모리 가격 급등에도 주가 급락…AI 호황 속 커지는 반도체 시장의 역설",
 "source": "제민일보",
 "link": "https://www.jemin.com/news/articleView.html?idxno=846205"
+},
+{
+"title": "마이크론 테크놀로지 주가, 오늘 급락한 이유는?",
+"source": "Investing.com 한국어",
+"link": "https://kr.investing.com/news/stock-market-news/article-93CH-2162458"
 }
 ],
 "new": false
