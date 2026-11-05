@@ -1,7 +1,39 @@
 {
-"updated": "2026-11-05T14:01:46.699518+00:00",
+"updated": "2026-11-05T14:04:02.562236+00:00",
 "errors": [],
 "events": [
+{
+"id": "viewAKR202611051842005271358",
+"first": "2026-11-05T13:58:33+00:00",
+"last": "2026-11-05T13:58:33+00:00",
+"updated": "2026-11-05T14:04:02.562236+00:00",
+"headline": "남해 먼바다에 내일 풍랑주의보 해제",
+"cat": "재난",
+"regions": [
+"광주",
+"전남"
+],
+"sources": [
+"연합뉴스"
+],
+"updates": [
+{
+"title": "남해 먼바다에 내일 풍랑주의보 해제",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261105184200527",
+"time": "2026-11-05T13:58:33+00:00",
+"stage": "1보"
+}
+],
+"level": "ALERT",
+"latest": "남해 먼바다에 내일 풍랑주의보 해제",
+"tok": [
+"남해",
+"먼바다",
+"풍랑주의보",
+"해제"
+]
+},
 {
 "id": "aamtqQnBmYm15cjFzWUJToc51343",
 "first": "2026-11-05T13:43:20+00:00",
@@ -4265,40 +4297,6 @@
 "정부지원",
 "항공AI"
 ]
-},
-{
-"id": "wNISX20261105_00038569400847",
-"first": "2026-11-05T08:47:40+00:00",
-"last": "2026-11-05T08:47:40+00:00",
-"updated": "2026-11-05T08:49:11.708126+00:00",
-"headline": "춘천 산불, 주불 진화…잔불·뒷불 감시",
-"cat": "재난",
-"regions": [
-"강원"
-],
-"sources": [
-"뉴시스"
-],
-"updates": [
-{
-"title": "춘천 산불, 주불 진화…잔불·뒷불 감시",
-"source": "뉴시스",
-"link": "https://www.newsis.com/view/NISX20261105_0003856940",
-"time": "2026-11-05T08:47:40+00:00",
-"stage": "1보"
-}
-],
-"level": "ALERT",
-"latest": "춘천 산불, 주불 진화…잔불·뒷불 감시",
-"tok": [
-"감시",
-"뒷불",
-"산불",
-"잔불",
-"주불",
-"진화",
-"춘천"
-]
 }
 ],
 "sns": {
@@ -4320,12 +4318,12 @@
 },
 "정전": {
 "n30": 0,
-"base": 0.6,
+"base": 0.5,
 "spike": false
 },
 "폭발": {
 "n30": 3,
-"base": 1.9,
+"base": 1.8,
 "spike": false
 },
 "붕괴": {
@@ -4355,7 +4353,7 @@
 },
 "사고": {
 "n30": 6,
-"base": 5.5,
+"base": 5.6,
 "spike": false
 },
 "실종": {
@@ -4385,6 +4383,16 @@
 }
 },
 "posts": [
+{
+"text": "이자하는 웹소에서 굉장히 좋아하는 주인공인데 진짜 사고 방식이 \"어른\" 임\n한번 죽어봐서 그런가..",
+"handle": "pyeonjeon.bsky.social",
+"name": "편전",
+"time": "2026-11-05T14:02:45.385Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/pyeonjeon.bsky.social/post/3mzkztmoabk2s",
+"term": "사고"
+},
 {
 "text": "다 읽어보고 좋으면 실물책도 사고 싶다...",
 "handle": "solnam.bsky.social",
@@ -4433,16 +4441,6 @@
 "likes": 0,
 "reposts": 0,
 "url": "https://bsky.app/profile/togonine.bsky.social/post/3mzkyphov7c2z",
-"term": "사고"
-},
-{
-"text": "요즘 개발 전반은 손 대지 않았지만 스스로에 대해서 알아가는 건 항상 즐겁습니다.\n\n관찰에서 즐거움을 느낀다는 걸 점이나 혼자만의 사고를 정리해서 전달하는데 격는 어려움에 큰 아쉬움을 느낀다거나. 뭐 그렇습니다.",
-"handle": "junyeongh.hackers.pub.ap.brid.gy",
-"name": "Junyeong Heo",
-"time": "2026-11-05T13:41:47.970Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/junyeongh.hackers.pub.ap.brid.gy/post/3mzkyo3hycw52",
 "term": "사고"
 },
 {
@@ -4649,14 +4647,14 @@
 "지진": 0.05,
 "화재": 0.05,
 "불났": 0.0,
-"정전": 0.5,
-"폭발": 1.78,
+"정전": 0.45,
+"폭발": 1.7,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.62,
-"사고": 5.56,
+"지하철": 0.66,
+"사고": 5.6,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -4868,6 +4866,24 @@
 },
 "trends": [
 {
+"term": "서정진",
+"traffic": "100+",
+"time": "2026-11-05T13:00:00+00:00",
+"news": [
+{
+"title": "서정진 셀트리온 회장, 인공장기 전망 물었더니 “전공 바꿔라”",
+"source": "비즈한국",
+"link": "https://bizhankook.com/articles/celltrion-chairman-ai-organ-research.html"
+},
+{
+"title": "서정진 \"AI 도입 후 신입 채용 줄였다\"···셀트리온, R&D 방식도 변화",
+"source": "뉴스웨이",
+"link": "https://www.newsway.co.kr/news/view?ud=2026110418150464125"
+}
+],
+"new": true
+},
+{
 "term": "인천 유나이티드 fc",
 "traffic": "100+",
 "time": "2026-11-05T12:50:00+00:00",
@@ -5028,24 +5044,6 @@
 }
 ],
 "new": false
-},
-{
-"term": "사격",
-"traffic": "200+",
-"time": "2026-11-05T10:10:00+00:00",
-"news": [
-{
-"title": "사격훈련서 실탄 3발 훔친 경찰관 송치…\"범죄 목적 확인 안돼\"",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261105058100055"
-},
-{
-"title": "전북경찰, 실탄 반출 경찰관 송치…고창 농업연구사 사망 관련자 입건",
-"source": "연합뉴스TV",
-"link": "https://www.yonhapnewstv.co.kr/news/AKR20261105131716ydW"
-}
-],
-"new": false
 }
 ],
 "trendSeen": [
@@ -5088,6 +5086,7 @@
 "사격",
 "삼성전자 주가",
 "삼전 주가",
+"서정진",
 "시험",
 "아이폰",
 "안재욱",
