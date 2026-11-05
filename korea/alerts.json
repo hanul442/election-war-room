@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-05T19:02:38.661967+00:00",
+"updated": "2026-11-05T19:05:06.450952+00:00",
 "errors": [],
 "events": [
 {
@@ -2266,8 +2266,8 @@
 "spike": false
 },
 "폭발": {
-"n30": 6,
-"base": 0.1,
+"n30": 5,
+"base": 0.2,
 "spike": true
 },
 "붕괴": {
@@ -2291,7 +2291,7 @@
 "spike": false
 },
 "지하철": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -2557,18 +2557,18 @@
 "spikes": [
 {
 "term": "폭발",
-"n30": 6,
-"base": 0.1,
+"n30": 5,
+"base": 0.2,
 "spike": true,
-"since": "2026-11-05T19:02:38.661967+00:00"
+"since": "2026-11-05T19:05:06.450952+00:00"
 }
 ],
 "baseline": {
-"지진": 0.27,
+"지진": 0.24,
 "화재": 0.05,
 "불났": 0.0,
 "정전": 0.05,
-"폭발": 0.24,
+"폭발": 0.32,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
@@ -2804,19 +2804,37 @@
 },
 "trends": [
 {
+"term": "예산",
+"traffic": "100+",
+"time": "2026-11-05T18:00:00+00:00",
+"news": [
+{
+"title": "추미애, 도의회서 전두환 소환 “존경하지 않는 분이지만…”",
+"source": "동아일보",
+"link": "https://www.donga.com/news/Society/article/all/20261105/134974833/1"
+},
+{
+"title": "국힘 경기정책연구원 출범 후 첫 토론회…“경기도 재정 역차별 해소”",
+"source": "인천일보",
+"link": "https://www.incheonilbo.com/news/articleView.html?idxno=1336098"
+}
+],
+"new": true
+},
+{
 "term": "알테오젠",
 "traffic": "100+",
 "time": "2026-11-05T17:40:00+00:00",
 "news": [
 {
-"title": "[BioS]알테오젠, 3Q 매출 1198억·영업익 789억 \"역대최대\"",
-"source": "이투데이",
-"link": "https://www.etoday.co.kr/news/view/2643516"
+"title": "특징주, 알테오젠-바이오시밀러 테마 상승세에 7.48% ↑",
+"source": "매일경제 마켓",
+"link": "https://stock.mk.co.kr/news/view/1190290"
 },
 {
-"title": "[리포트 브리핑]알테오젠, 'Qlex 판매 확대와 신규 계약 효과 확인' 목표가 450,000원 - 대신증권",
-"source": "뉴스핌",
-"link": "https://www.newspim.com/news/view/20261104000712"
+"title": "알테오젠 주가 9,500원 하락 후 장마감",
+"source": "아시아뉴스통신",
+"link": "https://m.anewsa.com/article_sub3.php?number=3214537&type=&mobile="
 }
 ],
 "new": false
@@ -2895,7 +2913,7 @@
 },
 {
 "term": "nasdaq",
-"traffic": "200+",
+"traffic": "500+",
 "time": "2026-11-05T15:30:00+00:00",
 "news": [
 {
@@ -2961,24 +2979,6 @@
 "title": "울릉도 북방 해상에서 북한 어선 발견‥\"경위 확인 중\"",
 "source": "MBC 뉴스",
 "link": "https://imnews.imbc.com/news/2026/politics/article/6863490_36911.html"
-}
-],
-"new": false
-},
-{
-"term": "soxl stock",
-"traffic": "1000+",
-"time": "2026-11-05T15:20:00+00:00",
-"news": [
-{
-"title": "Stock market today: Nasdaq plunges 5% amid chip stock wipeout, Dow and S&P 500 erase post-election rally gains",
-"source": "Yahoo Finance",
-"link": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-5-dow-sp-500-nasdaq-oil-rises-chip-stocks-141439950.html"
-},
-{
-"title": "Here's what the Democratic election rout could mean for the U.S. economy",
-"source": "CNBC",
-"link": "https://www.cnbc.com/2026/11/05/emocratic-midterm-economy.html"
 }
 ],
 "new": false
@@ -3058,6 +3058,7 @@
 "엔씨",
 "여객선",
 "열차",
+"예산",
 "외국인",
 "우주발사체",
 "울산 현대모비스 대 썬더스",
