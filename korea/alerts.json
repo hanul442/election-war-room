@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-05T13:16:28.419338+00:00",
+"updated": "2026-11-05T13:18:44.404527+00:00",
 "errors": [],
 "events": [
 {
@@ -1034,6 +1034,45 @@
 ]
 },
 {
+"id": "GVEQ1RPVGZQODJDR0FxZwoc51221",
+"first": "2026-11-05T12:21:00+00:00",
+"last": "2026-11-05T12:28:41+00:00",
+"updated": "2026-11-05T13:18:44.404527+00:00",
+"headline": "李 대통령 \"논란 나쁜 게 아냐…현안 생기면 입장 얘기해야\"",
+"cat": "정치",
+"regions": [],
+"sources": [
+"대전일보"
+],
+"updates": [
+{
+"title": "[속보] 李 대통령 \"논란 나쁜 게 아냐…현안 생기면 입장 얘기해야\"",
+"source": "대전일보",
+"link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1tQXowM2l5VVdodmt1cDBOSHFQLUluNE5jZTVQd2VFOFM1NWVhbUxUSjVpTi04eFZOMWRPMDVtVUhMVUhnNklxZi10T201ZWJleVlRaUR6OWJBekhPRWlsSGVEQ1RPVGZQODJDR0FxZw?oc=5",
+"time": "2026-11-05T12:21:00+00:00",
+"stage": "얼럿"
+},
+{
+"title": "[속보] 李 대통령 \"논란 나쁜 게 아냐…현안 생기면 입장 얘기해야\" |",
+"source": "대전일보",
+"link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE51S1psZFVmTTN5UFF2QlBCelFrbVRNUnBHZXZDdEdWbWFRMW9SOGY4OHhiR3BFTjVHR0Z4Qmw3TkRxdkxyUDhxazd3MVA5X1JIWU5USjZWMnpnVnNSLU8wWlI2NDYtNzhYT2UxVTktQkFHb1U?oc=5",
+"time": "2026-11-05T12:28:41+00:00",
+"stage": "속보"
+}
+],
+"level": "URGENT",
+"latest": "李 대통령 \"논란 나쁜 게 아냐…현안 생기면 입장 얘기해야\" |",
+"tok": [
+"나쁜",
+"대통령",
+"생기면",
+"아냐",
+"얘기해야",
+"입장",
+"현안"
+]
+},
+{
 "id": "jFJWkdTRTJYdGJublRRVQoc50817",
 "first": "2026-11-05T08:17:43+00:00",
 "last": "2026-11-05T12:28:36+00:00",
@@ -1218,38 +1257,6 @@
 "수도권",
 "외벽",
 "제1순환고속도"
-]
-},
-{
-"id": "GVEQ1RPVGZQODJDR0FxZwoc51221",
-"first": "2026-11-05T12:21:00+00:00",
-"last": "2026-11-05T12:21:00+00:00",
-"updated": "2026-11-05T12:30:45.918067+00:00",
-"headline": "李 대통령 \"논란 나쁜 게 아냐…현안 생기면 입장 얘기해야\"",
-"cat": "정치",
-"regions": [],
-"sources": [
-"대전일보"
-],
-"updates": [
-{
-"title": "[속보] 李 대통령 \"논란 나쁜 게 아냐…현안 생기면 입장 얘기해야\"",
-"source": "대전일보",
-"link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1tQXowM2l5VVdodmt1cDBOSHFQLUluNE5jZTVQd2VFOFM1NWVhbUxUSjVpTi04eFZOMWRPMDVtVUhMVUhnNklxZi10T201ZWJleVlRaUR6OWJBekhPRWlsSGVEQ1RPVGZQODJDR0FxZw?oc=5",
-"time": "2026-11-05T12:21:00+00:00",
-"stage": "얼럿"
-}
-],
-"level": "URGENT",
-"latest": "李 대통령 \"논란 나쁜 게 아냐…현안 생기면 입장 얘기해야\"",
-"tok": [
-"나쁜",
-"대통령",
-"생기면",
-"아냐",
-"얘기해야",
-"입장",
-"현안"
 ]
 },
 {
@@ -4364,7 +4371,7 @@
 },
 "폭발": {
 "n30": 7,
-"base": 0.1,
+"base": 0.2,
 "spike": true
 },
 "붕괴": {
@@ -4394,7 +4401,7 @@
 },
 "사고": {
 "n30": 2,
-"base": 2.9,
+"base": 2.8,
 "spike": false
 },
 "실종": {
@@ -4419,7 +4426,7 @@
 },
 "산불": {
 "n30": 0,
-"base": 0.4,
+"base": 0.3,
 "spike": false
 }
 },
@@ -4657,35 +4664,35 @@
 {
 "term": "폭발",
 "n30": 7,
-"base": 0.1,
+"base": 0.2,
 "spike": true,
-"since": "2026-11-05T13:16:28.419338+00:00"
+"since": "2026-11-05T13:18:44.404527+00:00"
 },
 {
 "term": "속보",
 "n30": 8,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-05T13:16:28.419338+00:00"
+"since": "2026-11-05T13:18:44.404527+00:00"
 }
 ],
 "baseline": {
 "지진": 0.05,
-"화재": 0.1,
+"화재": 0.09,
 "불났": 0.0,
 "정전": 0.05,
-"폭발": 0.24,
+"폭발": 0.32,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.39,
-"사고": 2.78,
+"지하철": 0.35,
+"사고": 2.7,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
-"산불": 0.33
+"산불": 0.3
 },
 "errors": [],
 "ytPosts": [
@@ -4932,7 +4939,7 @@
 "traffic": "100+",
 "time": "2026-11-05T11:20:00+00:00",
 "news": [],
-"new": true
+"new": false
 },
 {
 "term": "이세영",
