@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-05T20:06:16.233465+00:00",
+"updated": "2026-11-05T20:08:32.083699+00:00",
 "errors": [],
 "events": [
 {
@@ -2260,9 +2260,9 @@
 "spike": false
 },
 "폭발": {
-"n30": 5,
+"n30": 4,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "붕괴": {
 "n30": 2,
@@ -2280,7 +2280,7 @@
 "spike": false
 },
 "속보": {
-"n30": 4,
+"n30": 3,
 "base": 0.1,
 "spike": false
 },
@@ -2291,7 +2291,7 @@
 },
 "사고": {
 "n30": 0,
-"base": 1.3,
+"base": 1.2,
 "spike": false
 },
 "실종": {
@@ -2547,27 +2547,19 @@
 "url": "https://www.youtube.com/watch?v=fOFoTckTDKo"
 }
 ],
-"spikes": [
-{
-"term": "폭발",
-"n30": 5,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-05T20:06:16.233465+00:00"
-}
-],
+"spikes": [],
 "baseline": {
 "지진": 0.05,
 "화재": 0.05,
 "불났": 0.0,
 "정전": 0.05,
-"폭발": 0.13,
+"폭발": 0.12,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
 "지하철": 0.05,
-"사고": 1.18,
+"사고": 1.06,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -2860,24 +2852,6 @@
 "new": false
 },
 {
-"term": "예산",
-"traffic": "100+",
-"time": "2026-11-05T18:00:00+00:00",
-"news": [
-{
-"title": "정부 세수 호황인데…팍팍해지는 인천 살림살이",
-"source": "인천일보",
-"link": "https://www.incheonilbo.com/news/articleView.html?idxno=1336131"
-},
-{
-"title": "인천시교육청, 내년 예산 5조 5,811억 편성…학교 신설·교육환경 개선에 중점",
-"source": "에너지경제신문",
-"link": "https://www.ekn.kr/web/view.php?key=20261106027016167"
-}
-],
-"new": false
-},
-{
 "term": "알테오젠",
 "traffic": "200+",
 "time": "2026-11-05T17:40:00+00:00",
@@ -2980,7 +2954,25 @@
 {
 "title": "AI 데이터센터가 끌어올린 낸드…샌디스크 호실적에 파두도 기대",
 "source": "아이뉴스24",
-"link": "http://www.inews24.com/view/2021808"
+"link": "https://m.inews24.com/v/2021808"
+}
+],
+"new": false
+},
+{
+"term": "tqqq",
+"traffic": "200+",
+"time": "2026-11-05T15:40:00+00:00",
+"news": [
+{
+"title": "Volume Surges on Leveraged Nasdaq-100 ETF",
+"source": "WSJ",
+"link": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-05-2026/card/volume-surges-on-leveraged-nasdaq-100-etf-wFiN1sLCspwlAbViEIdq"
+},
+{
+"title": "SQQQ: A Tactical Buy For The Year's Most Volatile Week (NASDAQ:SQQQ)",
+"source": "Seeking Alpha",
+"link": "https://seekingalpha.com/article/4961761-sqqq-a-tactical-buy-for-the-years-most-volatile-week"
 }
 ],
 "new": false
