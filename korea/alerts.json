@@ -1,7 +1,55 @@
 {
-"updated": "2026-11-06T03:44:31.253001+00:00",
+"updated": "2026-11-06T03:46:47.066533+00:00",
 "errors": [],
 "events": [
+{
+"id": "VNeUROMzdZNGlzWE5pWU0oc50233",
+"first": "2026-11-06T02:33:00+00:00",
+"last": "2026-11-06T03:43:35+00:00",
+"updated": "2026-11-06T03:46:47.066533+00:00",
+"headline": "기상청, 강원·영남·전남 일부 한파주의보 발표",
+"cat": "재난",
+"regions": [
+"강원",
+"경기",
+"경북",
+"전남"
+],
+"sources": [
+"뉴시스",
+"연합뉴스TV"
+],
+"updates": [
+{
+"title": "[속보] 기상청, 강원·영남·전남 일부 한파주의보 발표",
+"source": "연합뉴스TV",
+"link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9wXzlLZTVJQ2tTU0Fnd1RrY3lnYmpqcWJ3WWxkLS14VUZxZ3dHT2pOVVFOdXJ4bExMNElXWTZpSzFIWEI3cHZHek95cndtdlVZMGJXaEpaYTVNeUROMzdZNGlzWE5pWU0?oc=5",
+"time": "2026-11-06T02:33:00+00:00",
+"stage": "얼럿"
+},
+{
+"title": "기상청, 경기·강원·경북 등 한파주의보 발효…밤 9시부터",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261106_0003857857",
+"time": "2026-11-06T03:43:35+00:00",
+"stage": "후속"
+}
+],
+"level": "URGENT",
+"latest": "기상청, 경기·강원·경북 등 한파주의보 발효…밤 9시부터",
+"tok": [
+"9시부터",
+"강원",
+"경기",
+"경북",
+"기상청",
+"발효",
+"영남",
+"일부",
+"전남",
+"한파주의보"
+]
+},
 {
 "id": "wNISX20261106_00038578540334",
 "first": "2026-11-06T03:34:58+00:00",
@@ -2104,41 +2152,6 @@
 ]
 },
 {
-"id": "VNeUROMzdZNGlzWE5pWU0oc50233",
-"first": "2026-11-06T02:33:00+00:00",
-"last": "2026-11-06T02:33:00+00:00",
-"updated": "2026-11-06T02:50:30.095922+00:00",
-"headline": "기상청, 강원·영남·전남 일부 한파주의보 발표",
-"cat": "재난",
-"regions": [
-"경기",
-"강원",
-"전남"
-],
-"sources": [
-"연합뉴스TV"
-],
-"updates": [
-{
-"title": "[속보] 기상청, 강원·영남·전남 일부 한파주의보 발표",
-"source": "연합뉴스TV",
-"link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9wXzlLZTVJQ2tTU0Fnd1RrY3lnYmpqcWJ3WWxkLS14VUZxZ3dHT2pOVVFOdXJ4bExMNElXWTZpSzFIWEI3cHZHek95cndtdlVZMGJXaEpaYTVNeUROMzdZNGlzWE5pWU0?oc=5",
-"time": "2026-11-06T02:33:00+00:00",
-"stage": "얼럿"
-}
-],
-"level": "URGENT",
-"latest": "기상청, 강원·영남·전남 일부 한파주의보 발표",
-"tok": [
-"강원",
-"기상청",
-"영남",
-"일부",
-"전남",
-"한파주의보"
-]
-},
-{
 "id": "ZQnZDSmNuXzljN1JjM1Vnoc50105",
 "first": "2026-11-06T01:05:17+00:00",
 "last": "2026-11-06T02:29:17+00:00",
@@ -3782,7 +3795,7 @@
 },
 "화재": {
 "n30": 0,
-"base": 0.4,
+"base": 0.3,
 "spike": false
 },
 "불났": {
@@ -3796,8 +3809,8 @@
 "spike": false
 },
 "폭발": {
-"n30": 3,
-"base": 0.3,
+"n30": 1,
+"base": 0.4,
 "spike": false
 },
 "붕괴": {
@@ -3811,23 +3824,23 @@
 "spike": false
 },
 "미사일": {
-"n30": 2,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
 "속보": {
 "n30": 1,
-"base": 0.8,
+"base": 0.7,
 "spike": false
 },
 "지하철": {
-"n30": 2,
-"base": 0.9,
+"n30": 1,
+"base": 0.8,
 "spike": false
 },
 "사고": {
 "n30": 4,
-"base": 3.3,
+"base": 3.4,
 "spike": false
 },
 "실종": {
@@ -3872,7 +3885,7 @@
 "handle": "bboseidong.bsky.social",
 "name": "맑음💓하늘커플",
 "time": "2026-11-06T03:36:58.477Z",
-"likes": 3,
+"likes": 4,
 "reposts": 0,
 "url": "https://bsky.app/profile/bboseidong.bsky.social/post/3mzmhdfuv7c26",
 "term": "폭발"
@@ -4100,16 +4113,16 @@
 "spikes": [],
 "baseline": {
 "지진": 0.05,
-"화재": 0.35,
+"화재": 0.32,
 "불났": 0.0,
 "정전": 0.05,
-"폭발": 0.4,
+"폭발": 0.46,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.69,
-"지하철": 0.77,
-"사고": 3.4,
+"속보": 0.62,
+"지하철": 0.69,
+"사고": 3.46,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -4327,7 +4340,7 @@
 "link": "https://www.sedaily.com/article/20110643"
 }
 ],
-"new": true
+"new": false
 },
 {
 "term": "김영익",
@@ -4376,9 +4389,9 @@
 "link": "https://www.yahoo.com/news/politics/live/midterms-2026-election-results-and-latest-updates-mississippi-votes-still-being-counted-in-senate-nail-biter-after-democrats-take-control-of-congress-200037541.html"
 },
 {
-"title": "These 5 Midterm Races Tell the Story of the Democrats’ Blue Wave",
+"title": "The Evening: The Blue Wave Swells",
 "source": "The New York Times",
-"link": "https://www.nytimes.com/2026/11/05/us/politics/democrats-blue-wave-elections-districts.html"
+"link": "https://www.nytimes.com/2026/11/05/briefing/elections-newsom-amodei.html"
 }
 ],
 "new": false
