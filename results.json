@@ -1,9 +1,7 @@
 {
  "source": "NBC News Decision Desk",
- "updated": "2026-11-06T14:03:20.687847+00:00",
- "errors": [
-  "governor: The read operation timed out"
- ],
+ "updated": "2026-11-06T14:06:33.988028+00:00",
+ "errors": [],
  "house": {
   "total": 435,
   "majority": 218,
@@ -36,7 +34,7 @@
    "races": 435,
    "started": 434,
    "nearlyAll": 296,
-   "totalVote": 112017978
+   "totalVote": 112018500
   }
  },
  "senate": {
@@ -932,7 +930,792 @@
    "races": 38,
    "started": 37,
    "nearlyAll": 32,
-   "totalVote": 89025725
+   "totalVote": 89026813
+  }
+ },
+ "governor": {
+  "races": 36,
+  "won": {
+   "D": 22,
+   "R": 12,
+   "O": 0
+  },
+  "states": [
+   {
+    "st": "AK",
+    "name": "Alaska",
+    "in": 73.8,
+    "winner": null,
+    "cands": [
+     {
+      "party": "D",
+      "name": "Kreiss-Tomkins",
+      "pct": 49.1,
+      "flip": false
+     },
+     {
+      "party": "R",
+      "name": "Wilson",
+      "pct": 29.2,
+      "flip": false
+     }
+    ]
+   },
+   {
+    "st": "AL",
+    "name": "Alabama",
+    "in": 98.9,
+    "winner": "R",
+    "cands": [
+     {
+      "party": "D",
+      "name": "Jones",
+      "pct": 48,
+      "flip": false
+     },
+     {
+      "party": "R",
+      "name": "Tuberville",
+      "pct": 52,
+      "flip": false
+     }
+    ]
+   },
+   {
+    "st": "AR",
+    "name": "Arkansas",
+    "in": 99,
+    "winner": "R",
+    "cands": [
+     {
+      "party": "D",
+      "name": "Love",
+      "pct": 38.6,
+      "flip": false
+     },
+     {
+      "party": "R",
+      "name": "Huckabee Sanders",
+      "pct": 53.9,
+      "flip": false
+     }
+    ]
+   },
+   {
+    "st": "AZ",
+    "name": "Arizona",
+    "in": 92.1,
+    "winner": "D",
+    "cands": [
+     {
+      "party": "D",
+      "name": "Hobbs",
+      "pct": 55.4,
+      "flip": false
+     },
+     {
+      "party": "R",
+      "name": "Biggs",
+      "pct": 42.8,
+      "flip": false
+     }
+    ]
+   },
+   {
+    "st": "CA",
+    "name": "California",
+    "in": 63.8,
+    "winner": "D",
+    "cands": [
+     {
+      "party": "D",
+      "name": "Becerra",
+      "pct": 64.6,
+      "flip": false
+     },
+     {
+      "party": "R",
+      "name": "Hilton",
+      "pct": 35.4,
+      "flip": false
+     }
+    ]
+   },
+   {
+    "st": "CO",
+    "name": "Colorado",
+    "in": 95.2,
+    "winner": "D",
+    "cands": [
+     {
+      "party": "D",
+      "name": "Weiser",
+      "pct": 60.8,
+      "flip": false
+     },
+     {
+      "party": "R",
+      "name": "Marx",
+      "pct": 33.5,
+      "flip": false
+     }
+    ]
+   },
+   {
+    "st": "CT",
+    "name": "Connecticut",
+    "in": 98,
+    "winner": "D",
+    "cands": [
+     {
+      "party": "D",
+      "name": "Lamont",
+      "pct": 59.4,
+      "flip": false
+     },
+     {
+      "party": "R",
+      "name": "Fazio",
+      "pct": 40.6,
+      "flip": false
+     }
+    ]
+   },
+   {
+    "st": "FL",
+    "name": "Florida",
+    "in": 99,
+    "winner": "R",
+    "cands": [
+     {
+      "party": "D",
+      "name": "Jolly",
+      "pct": 48.7,
+      "flip": false
+     },
+     {
+      "party": "R",
+      "name": "Donalds",
+      "pct": 50,
+      "flip": false
+     }
+    ]
+   },
+   {
+    "st": "GA",
+    "name": "Georgia",
+    "in": 99,
+    "winner": "D",
+    "cands": [
+     {
+      "party": "D",
+      "name": "Lance Bottoms",
+      "pct": 54.3,
+      "flip": true
+     },
+     {
+      "party": "R",
+      "name": "Jackson",
+      "pct": 45.7,
+      "flip": false
+     }
+    ]
+   },
+   {
+    "st": "HI",
+    "name": "Hawaii",
+    "in": 99,
+    "winner": "D",
+    "cands": [
+     {
+      "party": "D",
+      "name": "Green",
+      "pct": 72.6,
+      "flip": false
+     },
+     {
+      "party": "R",
+      "name": "Cordery",
+      "pct": 27.4,
+      "flip": false
+     }
+    ]
+   },
+   {
+    "st": "IA",
+    "name": "Iowa",
+    "in": 99,
+    "winner": "D",
+    "cands": [
+     {
+      "party": "D",
+      "name": "Sand",
+      "pct": 55.5,
+      "flip": true
+     },
+     {
+      "party": "R",
+      "name": "Lahn",
+      "pct": 44.5,
+      "flip": false
+     }
+    ]
+   },
+   {
+    "st": "ID",
+    "name": "Idaho",
+    "in": 99,
+    "winner": "R",
+    "cands": [
+     {
+      "party": "D",
+      "name": "Pickens",
+      "pct": 32.3,
+      "flip": false
+     },
+     {
+      "party": "R",
+      "name": "Little",
+      "pct": 57.1,
+      "flip": false
+     },
+     {
+      "party": "O",
+      "name": "Stegner",
+      "pct": 7.6,
+      "flip": false
+     }
+    ]
+   },
+   {
+    "st": "IL",
+    "name": "Illinois",
+    "in": 93.7,
+    "winner": "D",
+    "cands": [
+     {
+      "party": "D",
+      "name": "Pritzker",
+      "pct": 59.8,
+      "flip": false
+     },
+     {
+      "party": "R",
+      "name": "Bailey",
+      "pct": 36.8,
+      "flip": false
+     },
+     {
+      "party": "O",
+      "name": "Corbett",
+      "pct": 3.4,
+      "flip": false
+     }
+    ]
+   },
+   {
+    "st": "KS",
+    "name": "Kansas",
+    "in": 98.7,
+    "winner": null,
+    "cands": [
+     {
+      "party": "D",
+      "name": "Holscher",
+      "pct": 50.3,
+      "flip": false
+     },
+     {
+      "party": "R",
+      "name": "Masterson",
+      "pct": 49.7,
+      "flip": false
+     }
+    ]
+   },
+   {
+    "st": "MA",
+    "name": "Massachusetts",
+    "in": 99,
+    "winner": "D",
+    "cands": [
+     {
+      "party": "D",
+      "name": "Healey",
+      "pct": 62.2,
+      "flip": false
+     },
+     {
+      "party": "R",
+      "name": "Minogue",
+      "pct": 34.5,
+      "flip": false
+     },
+     {
+      "party": "O",
+      "name": "James",
+      "pct": 3.3,
+      "flip": false
+     }
+    ]
+   },
+   {
+    "st": "MD",
+    "name": "Maryland",
+    "in": 79.2,
+    "winner": "D",
+    "cands": [
+     {
+      "party": "D",
+      "name": "Moore",
+      "pct": 62.8,
+      "flip": false
+     },
+     {
+      "party": "R",
+      "name": "Cox",
+      "pct": 33.2,
+      "flip": false
+     }
+    ]
+   },
+   {
+    "st": "ME",
+    "name": "Maine",
+    "in": 93.3,
+    "winner": "D",
+    "cands": [
+     {
+      "party": "D",
+      "name": "Pingree",
+      "pct": 54.5,
+      "flip": false
+     },
+     {
+      "party": "R",
+      "name": "Charles",
+      "pct": 37.4,
+      "flip": false
+     },
+     {
+      "party": "O",
+      "name": "Bennett",
+      "pct": 8.1,
+      "flip": false
+     }
+    ]
+   },
+   {
+    "st": "MI",
+    "name": "Michigan",
+    "in": 97.7,
+    "winner": "D",
+    "cands": [
+     {
+      "party": "D",
+      "name": "Benson",
+      "pct": 54.5,
+      "flip": false
+     },
+     {
+      "party": "R",
+      "name": "James",
+      "pct": 43.8,
+      "flip": false
+     }
+    ]
+   },
+   {
+    "st": "MN",
+    "name": "Minnesota",
+    "in": 98.8,
+    "winner": "D",
+    "cands": [
+     {
+      "party": "D",
+      "name": "Klobuchar",
+      "pct": 55.5,
+      "flip": false
+     },
+     {
+      "party": "R",
+      "name": "Demuth",
+      "pct": 42.6,
+      "flip": false
+     }
+    ]
+   },
+   {
+    "st": "NE",
+    "name": "Nebraska",
+    "in": 94.2,
+    "winner": "R",
+    "cands": [
+     {
+      "party": "D",
+      "name": "Walz",
+      "pct": 42.2,
+      "flip": false
+     },
+     {
+      "party": "R",
+      "name": "Pillen",
+      "pct": 50.8,
+      "flip": false
+     }
+    ]
+   },
+   {
+    "st": "NH",
+    "name": "New Hampshire",
+    "in": 98,
+    "winner": "R",
+    "cands": [
+     {
+      "party": "D",
+      "name": "Warmington",
+      "pct": 47.1,
+      "flip": false
+     },
+     {
+      "party": "R",
+      "name": "Ayotte",
+      "pct": 51.4,
+      "flip": false
+     }
+    ]
+   },
+   {
+    "st": "NM",
+    "name": "New Mexico",
+    "in": 98.4,
+    "winner": "D",
+    "cands": [
+     {
+      "party": "D",
+      "name": "Haaland",
+      "pct": 57.3,
+      "flip": false
+     },
+     {
+      "party": "R",
+      "name": "Hull",
+      "pct": 42.7,
+      "flip": false
+     }
+    ]
+   },
+   {
+    "st": "NV",
+    "name": "Nevada",
+    "in": 92.4,
+    "winner": "D",
+    "cands": [
+     {
+      "party": "D",
+      "name": "Ford",
+      "pct": 51.5,
+      "flip": true
+     },
+     {
+      "party": "R",
+      "name": "Lombardo",
+      "pct": 44.2,
+      "flip": false
+     }
+    ]
+   },
+   {
+    "st": "NY",
+    "name": "New York",
+    "in": 91.3,
+    "winner": "D",
+    "cands": [
+     {
+      "party": "D",
+      "name": "Hochul",
+      "pct": 59.6,
+      "flip": false
+     },
+     {
+      "party": "R",
+      "name": "Blakeman",
+      "pct": 40.2,
+      "flip": false
+     }
+    ]
+   },
+   {
+    "st": "OH",
+    "name": "Ohio",
+    "in": 97.9,
+    "winner": "D",
+    "cands": [
+     {
+      "party": "D",
+      "name": "Acton",
+      "pct": 52.3,
+      "flip": true
+     },
+     {
+      "party": "R",
+      "name": "Ramaswamy",
+      "pct": 44.4,
+      "flip": false
+     }
+    ]
+   },
+   {
+    "st": "OK",
+    "name": "Oklahoma",
+    "in": 99,
+    "winner": "R",
+    "cands": [
+     {
+      "party": "D",
+      "name": "Munson",
+      "pct": 45.9,
+      "flip": false
+     },
+     {
+      "party": "R",
+      "name": "Mazzei",
+      "pct": 51.9,
+      "flip": false
+     },
+     {
+      "party": "O",
+      "name": "Brooks",
+      "pct": 1,
+      "flip": false
+     }
+    ]
+   },
+   {
+    "st": "OR",
+    "name": "Oregon",
+    "in": 84.1,
+    "winner": "D",
+    "cands": [
+     {
+      "party": "D",
+      "name": "Kotek",
+      "pct": 52.6,
+      "flip": false
+     },
+     {
+      "party": "R",
+      "name": "Drazan",
+      "pct": 44.5,
+      "flip": false
+     }
+    ]
+   },
+   {
+    "st": "PA",
+    "name": "Pennsylvania",
+    "in": 98.7,
+    "winner": "D",
+    "cands": [
+     {
+      "party": "D",
+      "name": "Shapiro",
+      "pct": 60.4,
+      "flip": false
+     },
+     {
+      "party": "R",
+      "name": "Garrity",
+      "pct": 38.3,
+      "flip": false
+     }
+    ]
+   },
+   {
+    "st": "RI",
+    "name": "Rhode Island",
+    "in": 98,
+    "winner": "D",
+    "cands": [
+     {
+      "party": "D",
+      "name": "Foulkes",
+      "pct": 57.7,
+      "flip": false
+     },
+     {
+      "party": "R",
+      "name": "Guckian",
+      "pct": 13.2,
+      "flip": false
+     },
+     {
+      "party": "O",
+      "name": "Block",
+      "pct": 27.8,
+      "flip": false
+     }
+    ]
+   },
+   {
+    "st": "SC",
+    "name": "South Carolina",
+    "in": 99,
+    "winner": "R",
+    "cands": [
+     {
+      "party": "D",
+      "name": "Johnson",
+      "pct": 47.1,
+      "flip": false
+     },
+     {
+      "party": "R",
+      "name": "Wilson",
+      "pct": 51.6,
+      "flip": false
+     }
+    ]
+   },
+   {
+    "st": "SD",
+    "name": "South Dakota",
+    "in": 99,
+    "winner": "R",
+    "cands": [
+     {
+      "party": "D",
+      "name": "Ahlers",
+      "pct": 36.5,
+      "flip": false
+     },
+     {
+      "party": "R",
+      "name": "Rhoden",
+      "pct": 63.5,
+      "flip": false
+     }
+    ]
+   },
+   {
+    "st": "TN",
+    "name": "Tennessee",
+    "in": 98.9,
+    "winner": "R",
+    "cands": [
+     {
+      "party": "D",
+      "name": "Green",
+      "pct": 43,
+      "flip": false
+     },
+     {
+      "party": "R",
+      "name": "Blackburn",
+      "pct": 45.5,
+      "flip": false
+     },
+     {
+      "party": "O",
+      "name": "Hatley",
+      "pct": 9.3,
+      "flip": false
+     }
+    ]
+   },
+   {
+    "st": "TX",
+    "name": "Texas",
+    "in": 99,
+    "winner": "D",
+    "cands": [
+     {
+      "party": "D",
+      "name": "Hinojosa",
+      "pct": 52.8,
+      "flip": true
+     },
+     {
+      "party": "R",
+      "name": "Abbott",
+      "pct": 45.7,
+      "flip": false
+     }
+    ]
+   },
+   {
+    "st": "VT",
+    "name": "Vermont",
+    "in": 99,
+    "winner": "R",
+    "cands": [
+     {
+      "party": "D",
+      "name": "Janoo",
+      "pct": 45.6,
+      "flip": false
+     },
+     {
+      "party": "R",
+      "name": "Scott",
+      "pct": 52.6,
+      "flip": false
+     },
+     {
+      "party": "O",
+      "name": "Judd",
+      "pct": 0.8,
+      "flip": false
+     }
+    ]
+   },
+   {
+    "st": "WI",
+    "name": "Wisconsin",
+    "in": 98.9,
+    "winner": "D",
+    "cands": [
+     {
+      "party": "D",
+      "name": "Crowley",
+      "pct": 54,
+      "flip": false
+     },
+     {
+      "party": "R",
+      "name": "Tiffany",
+      "pct": 46,
+      "flip": false
+     }
+    ]
+   },
+   {
+    "st": "WY",
+    "name": "Wyoming",
+    "in": 97,
+    "winner": "R",
+    "cands": [
+     {
+      "party": "D",
+      "name": "Casner",
+      "pct": 14.7,
+      "flip": false
+     },
+     {
+      "party": "R",
+      "name": "Barlow",
+      "pct": 68.6,
+      "flip": false
+     }
+    ]
+   }
+  ],
+  "reporting": {
+   "avgIn": 95.0,
+   "races": 36,
+   "started": 36,
+   "nearlyAll": 26,
+   "totalVote": 90087337
   }
  },
  "calls": [
@@ -1993,22 +2776,6 @@
    "calledAt": "2026-11-04T09:49:43.899713+00:00"
   },
   {
-   "id": "S:US",
-   "office": "S",
-   "officeKo": "상원",
-   "race": "US",
-   "in": 0,
-   "winner": " Democrat",
-   "party": "D",
-   "pct": 0,
-   "incumbent": false,
-   "runner": " Republican",
-   "runnerParty": "R",
-   "runnerPct": 0,
-   "flip": false,
-   "calledAt": "2026-11-04T09:49:43.899713+00:00"
-  },
-  {
    "id": "S:OH~P",
    "office": "S",
    "officeKo": "상원",
@@ -2021,6 +2788,22 @@
    "runner": "Jon Husted",
    "runnerParty": "R",
    "runnerPct": 45.2,
+   "flip": false,
+   "calledAt": "2026-11-04T09:49:43.899713+00:00"
+  },
+  {
+   "id": "S:US",
+   "office": "S",
+   "officeKo": "상원",
+   "race": "US",
+   "in": 0,
+   "winner": " Democrat",
+   "party": "D",
+   "pct": 0,
+   "incumbent": false,
+   "runner": " Republican",
+   "runnerParty": "R",
+   "runnerPct": 0,
    "flip": false,
    "calledAt": "2026-11-04T09:49:43.899713+00:00"
   },
@@ -7513,6 +8296,150 @@
    "calledAt": "2026-11-04T09:49:43.899713+00:00"
   },
   {
+   "id": "H:0901",
+   "office": "H",
+   "officeKo": "하원",
+   "race": "Connecticut District 1",
+   "in": 98.2,
+   "winner": "Luke Bronin",
+   "party": "D",
+   "pct": 67.3,
+   "incumbent": false,
+   "runner": "Amy Chai",
+   "runnerParty": "R",
+   "runnerPct": 31,
+   "flip": false,
+   "calledAt": "2026-11-04T09:49:43.899713+00:00"
+  },
+  {
+   "id": "H:0902",
+   "office": "H",
+   "officeKo": "하원",
+   "race": "Connecticut District 2",
+   "in": 98.3,
+   "winner": "Joe Courtney",
+   "party": "D",
+   "pct": 62.4,
+   "incumbent": true,
+   "runner": "George Austin",
+   "runnerParty": "R",
+   "runnerPct": 37.6,
+   "flip": false,
+   "calledAt": "2026-11-04T09:49:43.899713+00:00"
+  },
+  {
+   "id": "H:0903",
+   "office": "H",
+   "officeKo": "하원",
+   "race": "Connecticut District 3",
+   "in": 97.5,
+   "winner": "Rosa DeLauro",
+   "party": "D",
+   "pct": 60.6,
+   "incumbent": true,
+   "runner": "Christopher Lancia",
+   "runnerParty": "R",
+   "runnerPct": 36.5,
+   "flip": false,
+   "calledAt": "2026-11-04T09:49:43.899713+00:00"
+  },
+  {
+   "id": "H:0904",
+   "office": "H",
+   "officeKo": "하원",
+   "race": "Connecticut District 4",
+   "in": 98.5,
+   "winner": "Jim Himes",
+   "party": "D",
+   "pct": 65.6,
+   "incumbent": true,
+   "runner": "Michael Goldstein",
+   "runnerParty": "R",
+   "runnerPct": 32.5,
+   "flip": false,
+   "calledAt": "2026-11-04T09:49:43.899713+00:00"
+  },
+  {
+   "id": "H:0905",
+   "office": "H",
+   "officeKo": "하원",
+   "race": "Connecticut District 5",
+   "in": 98.6,
+   "winner": "Jahana Hayes",
+   "party": "D",
+   "pct": 57.8,
+   "incumbent": true,
+   "runner": "Chris Shea",
+   "runnerParty": "R",
+   "runnerPct": 42.2,
+   "flip": false,
+   "calledAt": "2026-11-04T09:49:43.899713+00:00"
+  },
+  {
+   "id": "H:0403",
+   "office": "H",
+   "officeKo": "하원",
+   "race": "Arizona District 3",
+   "in": 93.6,
+   "winner": "Yassamin Ansari",
+   "party": "D",
+   "pct": 87.5,
+   "incumbent": true,
+   "runner": "Alan Aversa",
+   "runnerParty": "O",
+   "runnerPct": 6.1,
+   "flip": false,
+   "calledAt": "2026-11-04T09:49:43.899713+00:00"
+  },
+  {
+   "id": "H:0404",
+   "office": "H",
+   "officeKo": "하원",
+   "race": "Arizona District 4",
+   "in": 93.3,
+   "winner": "Greg Stanton",
+   "party": "D",
+   "pct": 62.2,
+   "incumbent": true,
+   "runner": "Zuhdi Jasser",
+   "runnerParty": "R",
+   "runnerPct": 35.5,
+   "flip": false,
+   "calledAt": "2026-11-04T09:49:43.899713+00:00"
+  },
+  {
+   "id": "H:0407",
+   "office": "H",
+   "officeKo": "하원",
+   "race": "Arizona District 7",
+   "in": 71.6,
+   "winner": "Adelita Grijalva",
+   "party": "D",
+   "pct": 71.6,
+   "incumbent": true,
+   "runner": "Daniel Butierez",
+   "runnerParty": "R",
+   "runnerPct": 28.4,
+   "flip": false,
+   "calledAt": "2026-11-04T09:49:43.899713+00:00"
+  },
+  {
+   "id": "H:0409",
+   "office": "H",
+   "officeKo": "하원",
+   "race": "Arizona District 9",
+   "in": 90.8,
+   "winner": "Paul Gosar",
+   "party": "R",
+   "pct": 57.5,
+   "incumbent": true,
+   "runner": "Danielle Sterbinsky",
+   "runnerParty": "D",
+   "runnerPct": 42.5,
+   "flip": false,
+   "calledAt": "2026-11-04T09:49:43.899713+00:00"
+  },
+  {
    "id": "H:0101",
    "office": "H",
    "officeKo": "하원",
@@ -7621,6 +8548,150 @@
    "runner": "Ammie Akin",
    "runnerParty": "R",
    "runnerPct": 30.6,
+   "flip": false,
+   "calledAt": "2026-11-04T09:49:43.899713+00:00"
+  },
+  {
+   "id": "H:0501",
+   "office": "H",
+   "officeKo": "하원",
+   "race": "Arkansas District 1",
+   "in": 99,
+   "winner": "Rick Crawford",
+   "party": "R",
+   "pct": 65.5,
+   "incumbent": true,
+   "runner": "Terri Yarbrough Green",
+   "runnerParty": "D",
+   "runnerPct": 31,
+   "flip": false,
+   "calledAt": "2026-11-04T09:49:43.899713+00:00"
+  },
+  {
+   "id": "H:0502",
+   "office": "H",
+   "officeKo": "하원",
+   "race": "Arkansas District 2",
+   "in": 99,
+   "winner": "French Hill",
+   "party": "R",
+   "pct": 50.9,
+   "incumbent": true,
+   "runner": "Chris Jones",
+   "runnerParty": "D",
+   "runnerPct": 49.1,
+   "flip": false,
+   "calledAt": "2026-11-04T09:49:43.899713+00:00"
+  },
+  {
+   "id": "H:0504",
+   "office": "H",
+   "officeKo": "하원",
+   "race": "Arkansas District 4",
+   "in": 99,
+   "winner": "Bruce Westerman",
+   "party": "R",
+   "pct": 65.5,
+   "incumbent": true,
+   "runner": "James Russell",
+   "runnerParty": "D",
+   "runnerPct": 34.5,
+   "flip": false,
+   "calledAt": "2026-11-04T09:49:43.899713+00:00"
+  },
+  {
+   "id": "H:0503",
+   "office": "H",
+   "officeKo": "하원",
+   "race": "Arkansas District 3",
+   "in": 99,
+   "winner": "Steve Womack",
+   "party": "R",
+   "pct": 54.9,
+   "incumbent": true,
+   "runner": "Robb Ryerse",
+   "runnerParty": "D",
+   "runnerPct": 41.5,
+   "flip": false,
+   "calledAt": "2026-11-04T09:49:43.899713+00:00"
+  },
+  {
+   "id": "H:0802",
+   "office": "H",
+   "officeKo": "하원",
+   "race": "Colorado District 2",
+   "in": 94.5,
+   "winner": "Joe Neguse",
+   "party": "D",
+   "pct": 74.5,
+   "incumbent": true,
+   "runner": "Kelley Dennison",
+   "runnerParty": "R",
+   "runnerPct": 23.7,
+   "flip": false,
+   "calledAt": "2026-11-04T09:49:43.899713+00:00"
+  },
+  {
+   "id": "H:0806",
+   "office": "H",
+   "officeKo": "하원",
+   "race": "Colorado District 6",
+   "in": 86.8,
+   "winner": "Jason Crow",
+   "party": "D",
+   "pct": 65.5,
+   "incumbent": true,
+   "runner": "Jason Clark",
+   "runnerParty": "R",
+   "runnerPct": 31.6,
+   "flip": false,
+   "calledAt": "2026-11-04T09:49:43.899713+00:00"
+  },
+  {
+   "id": "H:0807",
+   "office": "H",
+   "officeKo": "하원",
+   "race": "Colorado District 7",
+   "in": 98.3,
+   "winner": "Brittany Pettersen",
+   "party": "D",
+   "pct": 60.7,
+   "incumbent": true,
+   "runner": "Tim Bennett",
+   "runnerParty": "R",
+   "runnerPct": 36.2,
+   "flip": false,
+   "calledAt": "2026-11-04T09:49:43.899713+00:00"
+  },
+  {
+   "id": "H:0801",
+   "office": "H",
+   "officeKo": "하원",
+   "race": "Colorado District 1",
+   "in": 93.1,
+   "winner": "Melat Kiros",
+   "party": "D",
+   "pct": 78.3,
+   "incumbent": false,
+   "runner": "Christy Peterson",
+   "runnerParty": "R",
+   "runnerPct": 14.1,
+   "flip": false,
+   "calledAt": "2026-11-04T09:49:43.899713+00:00"
+  },
+  {
+   "id": "H:0808",
+   "office": "H",
+   "officeKo": "하원",
+   "race": "Colorado District 8",
+   "in": 94.8,
+   "winner": "Manny Rutinel",
+   "party": "D",
+   "pct": 54.9,
+   "incumbent": false,
+   "runner": "Gabe Evans",
+   "runnerParty": "R",
+   "runnerPct": 41.2,
    "flip": false,
    "calledAt": "2026-11-04T09:49:43.899713+00:00"
   },
@@ -8277,294 +9348,6 @@
    "runner": "Jeff Frese",
    "runnerParty": "R",
    "runnerPct": 30.9,
-   "flip": false,
-   "calledAt": "2026-11-04T09:49:43.899713+00:00"
-  },
-  {
-   "id": "H:0901",
-   "office": "H",
-   "officeKo": "하원",
-   "race": "Connecticut District 1",
-   "in": 98.2,
-   "winner": "Luke Bronin",
-   "party": "D",
-   "pct": 67.3,
-   "incumbent": false,
-   "runner": "Amy Chai",
-   "runnerParty": "R",
-   "runnerPct": 31,
-   "flip": false,
-   "calledAt": "2026-11-04T09:49:43.899713+00:00"
-  },
-  {
-   "id": "H:0902",
-   "office": "H",
-   "officeKo": "하원",
-   "race": "Connecticut District 2",
-   "in": 98.3,
-   "winner": "Joe Courtney",
-   "party": "D",
-   "pct": 62.4,
-   "incumbent": true,
-   "runner": "George Austin",
-   "runnerParty": "R",
-   "runnerPct": 37.6,
-   "flip": false,
-   "calledAt": "2026-11-04T09:49:43.899713+00:00"
-  },
-  {
-   "id": "H:0903",
-   "office": "H",
-   "officeKo": "하원",
-   "race": "Connecticut District 3",
-   "in": 97.5,
-   "winner": "Rosa DeLauro",
-   "party": "D",
-   "pct": 60.6,
-   "incumbent": true,
-   "runner": "Christopher Lancia",
-   "runnerParty": "R",
-   "runnerPct": 36.5,
-   "flip": false,
-   "calledAt": "2026-11-04T09:49:43.899713+00:00"
-  },
-  {
-   "id": "H:0904",
-   "office": "H",
-   "officeKo": "하원",
-   "race": "Connecticut District 4",
-   "in": 98.5,
-   "winner": "Jim Himes",
-   "party": "D",
-   "pct": 65.6,
-   "incumbent": true,
-   "runner": "Michael Goldstein",
-   "runnerParty": "R",
-   "runnerPct": 32.5,
-   "flip": false,
-   "calledAt": "2026-11-04T09:49:43.899713+00:00"
-  },
-  {
-   "id": "H:0905",
-   "office": "H",
-   "officeKo": "하원",
-   "race": "Connecticut District 5",
-   "in": 98.6,
-   "winner": "Jahana Hayes",
-   "party": "D",
-   "pct": 57.8,
-   "incumbent": true,
-   "runner": "Chris Shea",
-   "runnerParty": "R",
-   "runnerPct": 42.2,
-   "flip": false,
-   "calledAt": "2026-11-04T09:49:43.899713+00:00"
-  },
-  {
-   "id": "H:0802",
-   "office": "H",
-   "officeKo": "하원",
-   "race": "Colorado District 2",
-   "in": 94.5,
-   "winner": "Joe Neguse",
-   "party": "D",
-   "pct": 74.5,
-   "incumbent": true,
-   "runner": "Kelley Dennison",
-   "runnerParty": "R",
-   "runnerPct": 23.7,
-   "flip": false,
-   "calledAt": "2026-11-04T09:49:43.899713+00:00"
-  },
-  {
-   "id": "H:0806",
-   "office": "H",
-   "officeKo": "하원",
-   "race": "Colorado District 6",
-   "in": 86.8,
-   "winner": "Jason Crow",
-   "party": "D",
-   "pct": 65.5,
-   "incumbent": true,
-   "runner": "Jason Clark",
-   "runnerParty": "R",
-   "runnerPct": 31.6,
-   "flip": false,
-   "calledAt": "2026-11-04T09:49:43.899713+00:00"
-  },
-  {
-   "id": "H:0807",
-   "office": "H",
-   "officeKo": "하원",
-   "race": "Colorado District 7",
-   "in": 98.3,
-   "winner": "Brittany Pettersen",
-   "party": "D",
-   "pct": 60.7,
-   "incumbent": true,
-   "runner": "Tim Bennett",
-   "runnerParty": "R",
-   "runnerPct": 36.2,
-   "flip": false,
-   "calledAt": "2026-11-04T09:49:43.899713+00:00"
-  },
-  {
-   "id": "H:0801",
-   "office": "H",
-   "officeKo": "하원",
-   "race": "Colorado District 1",
-   "in": 93.1,
-   "winner": "Melat Kiros",
-   "party": "D",
-   "pct": 78.3,
-   "incumbent": false,
-   "runner": "Christy Peterson",
-   "runnerParty": "R",
-   "runnerPct": 14.1,
-   "flip": false,
-   "calledAt": "2026-11-04T09:49:43.899713+00:00"
-  },
-  {
-   "id": "H:0808",
-   "office": "H",
-   "officeKo": "하원",
-   "race": "Colorado District 8",
-   "in": 94.8,
-   "winner": "Manny Rutinel",
-   "party": "D",
-   "pct": 54.9,
-   "incumbent": false,
-   "runner": "Gabe Evans",
-   "runnerParty": "R",
-   "runnerPct": 41.2,
-   "flip": false,
-   "calledAt": "2026-11-04T09:49:43.899713+00:00"
-  },
-  {
-   "id": "H:0403",
-   "office": "H",
-   "officeKo": "하원",
-   "race": "Arizona District 3",
-   "in": 93.6,
-   "winner": "Yassamin Ansari",
-   "party": "D",
-   "pct": 87.5,
-   "incumbent": true,
-   "runner": "Alan Aversa",
-   "runnerParty": "O",
-   "runnerPct": 6.1,
-   "flip": false,
-   "calledAt": "2026-11-04T09:49:43.899713+00:00"
-  },
-  {
-   "id": "H:0404",
-   "office": "H",
-   "officeKo": "하원",
-   "race": "Arizona District 4",
-   "in": 93.3,
-   "winner": "Greg Stanton",
-   "party": "D",
-   "pct": 62.2,
-   "incumbent": true,
-   "runner": "Zuhdi Jasser",
-   "runnerParty": "R",
-   "runnerPct": 35.5,
-   "flip": false,
-   "calledAt": "2026-11-04T09:49:43.899713+00:00"
-  },
-  {
-   "id": "H:0407",
-   "office": "H",
-   "officeKo": "하원",
-   "race": "Arizona District 7",
-   "in": 71.6,
-   "winner": "Adelita Grijalva",
-   "party": "D",
-   "pct": 71.6,
-   "incumbent": true,
-   "runner": "Daniel Butierez",
-   "runnerParty": "R",
-   "runnerPct": 28.4,
-   "flip": false,
-   "calledAt": "2026-11-04T09:49:43.899713+00:00"
-  },
-  {
-   "id": "H:0409",
-   "office": "H",
-   "officeKo": "하원",
-   "race": "Arizona District 9",
-   "in": 90.8,
-   "winner": "Paul Gosar",
-   "party": "R",
-   "pct": 57.5,
-   "incumbent": true,
-   "runner": "Danielle Sterbinsky",
-   "runnerParty": "D",
-   "runnerPct": 42.5,
-   "flip": false,
-   "calledAt": "2026-11-04T09:49:43.899713+00:00"
-  },
-  {
-   "id": "H:0501",
-   "office": "H",
-   "officeKo": "하원",
-   "race": "Arkansas District 1",
-   "in": 99,
-   "winner": "Rick Crawford",
-   "party": "R",
-   "pct": 65.5,
-   "incumbent": true,
-   "runner": "Terri Yarbrough Green",
-   "runnerParty": "D",
-   "runnerPct": 31,
-   "flip": false,
-   "calledAt": "2026-11-04T09:49:43.899713+00:00"
-  },
-  {
-   "id": "H:0502",
-   "office": "H",
-   "officeKo": "하원",
-   "race": "Arkansas District 2",
-   "in": 99,
-   "winner": "French Hill",
-   "party": "R",
-   "pct": 50.9,
-   "incumbent": true,
-   "runner": "Chris Jones",
-   "runnerParty": "D",
-   "runnerPct": 49.1,
-   "flip": false,
-   "calledAt": "2026-11-04T09:49:43.899713+00:00"
-  },
-  {
-   "id": "H:0504",
-   "office": "H",
-   "officeKo": "하원",
-   "race": "Arkansas District 4",
-   "in": 99,
-   "winner": "Bruce Westerman",
-   "party": "R",
-   "pct": 65.5,
-   "incumbent": true,
-   "runner": "James Russell",
-   "runnerParty": "D",
-   "runnerPct": 34.5,
-   "flip": false,
-   "calledAt": "2026-11-04T09:49:43.899713+00:00"
-  },
-  {
-   "id": "H:0503",
-   "office": "H",
-   "officeKo": "하원",
-   "race": "Arkansas District 3",
-   "in": 99,
-   "winner": "Steve Womack",
-   "party": "R",
-   "pct": 54.9,
-   "incumbent": true,
-   "runner": "Robb Ryerse",
-   "runnerParty": "D",
-   "runnerPct": 41.5,
    "flip": false,
    "calledAt": "2026-11-04T09:49:43.899713+00:00"
   }
