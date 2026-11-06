@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-06T16:11:05.179666+00:00",
+"updated": "2026-11-06T16:13:22.181695+00:00",
 "errors": [],
 "events": [
 {
@@ -3740,7 +3740,7 @@
 },
 "붕괴": {
 "n30": 3,
-"base": 0.2,
+"base": 0.3,
 "spike": false
 },
 "대피": {
@@ -3754,18 +3754,18 @@
 "spike": false
 },
 "속보": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
 "지하철": {
 "n30": 0,
-"base": 0.8,
+"base": 0.7,
 "spike": false
 },
 "사고": {
 "n30": 4,
-"base": 3.0,
+"base": 3.1,
 "spike": false
 },
 "실종": {
@@ -4060,12 +4060,12 @@
 "불났": 0.05,
 "정전": 0.05,
 "폭발": 0.05,
-"붕괴": 0.32,
+"붕괴": 0.39,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.68,
-"사고": 3.09,
+"지하철": 0.61,
+"사고": 3.18,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -4286,6 +4286,24 @@
 },
 "trends": [
 {
+"term": "t1 kc",
+"traffic": "500+",
+"time": "2026-11-06T15:10:00+00:00",
+"news": [
+{
+"title": "BLG 벽 앞에 무너진 디플러스 기아…월즈 8강전서 0-3 패",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261106093800017"
+},
+{
+"title": "[롤드컵]젠지, 4강서 중국 IG와 격돌…한중 자존심 대결",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261105_0003856558"
+}
+],
+"new": true
+},
+{
 "term": "유튜버",
 "traffic": "2000+",
 "time": "2026-11-06T15:00:00+00:00",
@@ -4446,28 +4464,9 @@
 }
 ],
 "new": false
-},
-{
-"term": "장찬희",
-"traffic": "500+",
-"time": "2026-11-06T12:50:00+00:00",
-"news": [
-{
-"title": "대반전! 삼성, 4차전 선발 장찬희 깜짝 예고! → KT는 예상대로 로건 [KS3 현장]",
-"source": "조선일보",
-"link": "https://www.chosun.com/sports/baseball/2026/11/06/MFTGMNJXGBTDSMLDG5SDONRUGM/"
-},
-{
-"title": "삼성 신인 잘하면 韓 야구 역사가 바뀐다…'19살 1개월 2일' 장찬희 하루 차이로 최연소 선발은 무산, 대신 더 큰 것 온다",
-"source": "SPOTV NEWS",
-"link": "https://www.spotvnews.co.kr/news/articleView.html?idxno=1018248"
-}
-],
-"new": false
 }
 ],
 "trendSeen": [
-"a24",
 "amd",
 "blg",
 "dc",
@@ -4497,6 +4496,7 @@
 "soxl stock",
 "soxx",
 "t.o.p",
+"t1 kc",
 "tqqq",
 "tsla",
 "tving",
