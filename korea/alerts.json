@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-06T12:38:56.051284+00:00",
+"updated": "2026-11-06T12:41:12.526781+00:00",
 "errors": [],
 "events": [
 {
@@ -5470,7 +5470,7 @@
 "sns": {
 "terms": {
 "지진": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -5490,12 +5490,12 @@
 "spike": false
 },
 "폭발": {
-"n30": 5,
-"base": 0.3,
-"spike": true
+"n30": 3,
+"base": 0.4,
+"spike": false
 },
 "붕괴": {
-"n30": 3,
+"n30": 1,
 "base": 0.6,
 "spike": false
 },
@@ -5521,7 +5521,7 @@
 },
 "사고": {
 "n30": 7,
-"base": 3.9,
+"base": 4.2,
 "spike": false
 },
 "실종": {
@@ -5552,11 +5552,21 @@
 },
 "posts": [
 {
+"text": "여기서는 차분하게 얘기했는데 트위터 가니까 갑자기 열받아서 어휘폭발",
+"handle": "teabag.bsky.social",
+"name": "teabag",
+"time": "2026-11-06T12:40:21.676Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/teabag.bsky.social/post/3mznfpaifrc2t",
+"term": "폭발"
+},
+{
 "text": "반면: 우리 애들은 한 번씩 지옥을 경험하고 온 애들이라 멘헤라 아니면 컨프 아니면 편협한 사고 보유자 같은 애들이라 할말이 없네 하하\n\n견뎌라",
 "handle": "tx2406.bsky.social",
 "name": "다방고양이",
 "time": "2026-11-06T12:34:45.178Z",
-"likes": 1,
+"likes": 2,
 "reposts": 0,
 "url": "https://bsky.app/profile/tx2406.bsky.social/post/3mznff63wss2v",
 "term": "사고"
@@ -5809,27 +5819,19 @@
 "url": "https://www.youtube.com/watch?v=anZc582q2fk"
 }
 ],
-"spikes": [
-{
-"term": "폭발",
-"n30": 5,
-"base": 0.3,
-"spike": true,
-"since": "2026-11-06T12:38:56.051284+00:00"
-}
-],
+"spikes": [],
 "baseline": {
 "지진": 0.05,
 "화재": 0.05,
 "불났": 0.05,
-"정전": 0.08,
-"폭발": 0.39,
-"붕괴": 0.56,
+"정전": 0.07,
+"폭발": 0.55,
+"붕괴": 0.5,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.75,
-"사고": 4.19,
+"지하철": 0.68,
+"사고": 4.47,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
