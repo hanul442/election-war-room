@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-06T18:06:18.949728+00:00",
+"updated": "2026-11-06T18:08:38.268764+00:00",
 "errors": [],
 "events": [
 {
@@ -2391,46 +2391,12 @@
 "코리아오픈",
 "한일전"
 ]
-},
-{
-"id": "PT1B0SWxHSWV0QXBJNUpzoc51206",
-"first": "2026-11-06T12:06:20+00:00",
-"last": "2026-11-06T12:06:20+00:00",
-"updated": "2026-11-06T12:09:36.239616+00:00",
-"headline": "국경 통행 관련 뉴스 속보, 11월 6일: 수출품을 실은 차량 수가 증가했습니다.",
-"cat": "경제",
-"regions": [],
-"sources": [
-"Vietnam.vn"
-],
-"updates": [
-{
-"title": "국경 통행 관련 뉴스 속보, 11월 6일: 수출품을 실은 차량 수가 증가했습니다.",
-"source": "Vietnam.vn",
-"link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQNFBOTk9sM0p0azg2UVVGaDRoUGNtZ2VTMHFBeG1hY3VDNE9Ld3IwOTJmTUxDT0J2NjVBQ0M3am16MVVYV2JCOGdGRVNLUmtiTG9DZ0hCZnppOElEeHJCanhVcVJYQnk4amlBbHZPWVowT3lKbHN0ak1ubkhNNU5nbDVVeThjRUZ1R3BoMXI3OFV6MUdPT1B0SWxHSWV0QXBJNUpz?oc=5",
-"time": "2026-11-06T12:06:20+00:00",
-"stage": "1보"
-}
-],
-"level": "ALERT",
-"latest": "국경 통행 관련 뉴스 속보, 11월 6일: 수출품을 실은 차량 수가 증가했습니다.",
-"tok": [
-"11월",
-"6일",
-"국경",
-"수가",
-"수출품",
-"실은",
-"증가했습니다",
-"차량",
-"통행"
-]
 }
 ],
 "sns": {
 "terms": {
 "지진": {
-"n30": 0,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
@@ -2511,6 +2477,16 @@
 }
 },
 "posts": [
+{
+"text": "【지진 정보】일본 시간 11월 7일 03:02경\n진원: Northern Wakayama Prefecture (M3.5, 깊이 약 10km)\n최대 진도: 2\n진도 2: 오사카부, 와카야마현\n이 지진으로 인한 쓰나미 걱정은 없습니다.\n(일본 기상청 발표)\n#일본 #지진 #방재",
+"handle": "ko.soramoyou.yk-planning.jp",
+"name": "Soramoyou 한국어",
+"time": "2026-11-06T18:07:35.370Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/ko.soramoyou.yk-planning.jp/post/3mznxydoq6o2s",
+"term": "지진"
+},
 {
 "platform": "YouTube",
 "text": "[붕괴 스타레일] 이벤트 『스타피스 페스티벌: 원 테이크』 4일차: 철기: 창공의 잔불",
@@ -2763,11 +2739,11 @@
 "n30": 7,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-06T18:06:18.949728+00:00"
+"since": "2026-11-06T18:08:38.268764+00:00"
 }
 ],
 "baseline": {
-"지진": 0.05,
+"지진": 0.15,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
@@ -2777,12 +2753,12 @@
 "미사일": 0.05,
 "속보": 0.05,
 "지하철": 0.05,
-"사고": 1.73,
+"사고": 1.76,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
-"산불": 0.16
+"산불": 0.14
 },
 "errors": [],
 "ytPosts": [
@@ -3118,7 +3094,7 @@
 {
 "title": "일렬로 늘어선 中 해상풍력발전기",
 "source": "뉴스1",
-"link": "https://www.news1.kr/photos/8201785"
+"link": "https://www.news1.kr/photos/8201784"
 }
 ],
 "new": false
