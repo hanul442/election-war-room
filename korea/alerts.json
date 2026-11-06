@@ -1,12 +1,12 @@
 {
-"updated": "2026-11-06T16:36:22.539555+00:00",
+"updated": "2026-11-06T16:38:41.120947+00:00",
 "errors": [],
 "events": [
 {
 "id": "43NHU0OE5QSHdxb3pYX2coc50543",
 "first": "2026-11-06T05:43:00+00:00",
 "last": "2026-11-06T15:43:00+00:00",
-"updated": "2026-11-06T15:52:44.533783+00:00",
+"updated": "2026-11-06T16:38:41.120947+00:00",
 "headline": "[날씨] 낮에도 쌀쌀…주말 절기 입동, 곳곳 한파주의보",
 "cat": "재난",
 "regions": [
@@ -16,7 +16,8 @@
 "sources": [
 "SBS",
 "경향신문",
-"연합뉴스TV"
+"연합뉴스TV",
+"조선일보"
 ],
 "updates": [
 {
@@ -62,6 +63,13 @@
 "stage": "후속"
 },
 {
+"title": "입동 하루 앞두고 기온 뚝",
+"source": "조선일보",
+"link": "https://www.chosun.com/national/national_general/2026/11/07/RNLOZ7D6LZBLJAN4OZY2ZITJ44/",
+"time": "2026-11-06T15:36:00+00:00",
+"stage": "후속"
+},
+{
 "title": "오늘 ’입동’ 서울 첫 영하권…내륙 한파특보",
 "source": "연합뉴스TV",
 "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1SeXdtUE9qRGd0TTJmQzR0M3l3dUNhaXV6MmlaZ1RJVDdQY3ZSRGg3X1FlbEpndGxETnRJRGtBTFM1OVo0TjZQbS1ibTh1U1B6cmMwV2MxZnBweFhaUDZxZVlVb2UwTFU?oc=5",
@@ -81,6 +89,7 @@
 "발효",
 "서울",
 "쌀쌀",
+"앞두고",
 "영하권",
 "입동",
 "전국",
@@ -90,6 +99,7 @@
 "중심",
 "추위",
 "칼바람",
+"하루",
 "한파주의보",
 "한파특보"
 ]
@@ -3289,8 +3299,8 @@
 "spike": false
 },
 "붕괴": {
-"n30": 3,
-"base": 0.8,
+"n30": 2,
+"base": 0.7,
 "spike": false
 },
 "대피": {
@@ -3304,7 +3314,7 @@
 "spike": false
 },
 "속보": {
-"n30": 6,
+"n30": 5,
 "base": 0.1,
 "spike": true
 },
@@ -3315,7 +3325,7 @@
 },
 "사고": {
 "n30": 2,
-"base": 3.0,
+"base": 2.9,
 "spike": false
 },
 "실종": {
@@ -3585,10 +3595,10 @@
 "spikes": [
 {
 "term": "속보",
-"n30": 6,
+"n30": 5,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-06T16:36:22.539555+00:00"
+"since": "2026-11-06T16:38:41.120947+00:00"
 }
 ],
 "baseline": {
@@ -3597,12 +3607,12 @@
 "불났": 0.05,
 "정전": 0.05,
 "폭발": 0.05,
-"붕괴": 0.69,
+"붕괴": 0.62,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.22,
-"사고": 2.87,
+"지하철": 0.2,
+"사고": 2.78,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -3932,9 +3942,9 @@
 "link": "https://www.nytimes.com/2026/11/05/us/politics/trump-triumphal-arch-planning-commission.html"
 },
 {
-"title": "Trump’s D.C. arch gets key approval, then blocked by judge",
-"source": "OregonLive.com",
-"link": "https://www.oregonlive.com/nation/2026/11/trumps-dc-arch-gets-key-approval-then-blocked-by-judge.html"
+"title": "Judge temporarily blocks work on Trump arch after panel’s approval",
+"source": "The Hill",
+"link": "https://thehill.com/homenews/administration/6203354-donald-trump-dc-arch-blocked-after-commission-approval/"
 }
 ],
 "new": false
@@ -3999,14 +4009,14 @@
 "time": "2026-11-06T12:50:00+00:00",
 "news": [
 {
-"title": "이혜정, 2년 전 절연한 아들 생각에 눈물…“언젠가는 화해하겠지”",
-"source": "세계일보",
-"link": "https://www.segye.com/newsView/20261106503569"
+"title": "아들과 절연한 이혜정 \"언젠가 화해할 날 있겠지\" 눈물",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261106_0003858051"
 },
 {
-"title": "이혜정, '절연' 아들 생각에 '후회·눈물' \"결혼하고 변해..화해할 날 오길\"[핫피플]",
-"source": "미주중앙일보",
-"link": "https://www.koreadaily.com/article/20261105014133164"
+"title": "이혜정, '남편팔이' 욕먹었는데 \"'외도' 남편 흉 안봤더니 예능 끊겨\" 씁쓸",
+"source": "Chosunbiz",
+"link": "https://biz.chosun.com/entertainment/enter_general/2026/11/05/GYZWCMZUGM2GMOJUMZSDCNTBGM/"
 }
 ],
 "new": false
