@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-06T02:50:30.095922+00:00",
+"updated": "2026-11-06T02:52:45.644961+00:00",
 "errors": [],
 "events": [
 {
@@ -3646,7 +3646,7 @@
 },
 "폭발": {
 "n30": 5,
-"base": 0.7,
+"base": 0.6,
 "spike": true
 },
 "붕괴": {
@@ -3676,7 +3676,7 @@
 },
 "사고": {
 "n30": 2,
-"base": 1.0,
+"base": 1.1,
 "spike": false
 },
 "실종": {
@@ -3957,30 +3957,30 @@
 {
 "term": "폭발",
 "n30": 5,
-"base": 0.7,
+"base": 0.6,
 "spike": true,
-"since": "2026-11-06T02:50:30.095922+00:00"
+"since": "2026-11-06T02:52:45.644961+00:00"
 },
 {
 "term": "속보",
 "n30": 11,
 "base": 0.2,
 "spike": true,
-"since": "2026-11-06T02:50:30.095922+00:00"
+"since": "2026-11-06T02:52:45.644961+00:00"
 }
 ],
 "baseline": {
 "지진": 0.05,
-"화재": 0.36,
+"화재": 0.32,
 "불났": 0.0,
 "정전": 0.05,
-"폭발": 0.62,
+"폭발": 0.56,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.16,
-"지하철": 1.1,
-"사고": 1.06,
+"속보": 0.14,
+"지하철": 1.09,
+"사고": 1.15,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -4210,6 +4210,24 @@
 },
 "trends": [
 {
+"term": "존리",
+"traffic": "20000+",
+"time": "2026-11-06T01:50:00+00:00",
+"news": [
+{
+"title": "또 삼전닉스 폭락…\"반도체株 팔아야 하나\" 존리의 대답은",
+"source": "파이낸셜뉴스",
+"link": "https://www.fnnews.com/news/202611051402200563"
+},
+{
+"title": "“주식 반 토막 났는데 어떡해요?”…존리 찾아가 따지니 답변이",
+"source": "이데일리",
+"link": "https://www.edaily.co.kr/News/Read?newsId=04126246645643096&mediaCodeNo=257"
+}
+],
+"new": true
+},
+{
 "term": "소형모듈원자로",
 "traffic": "500+",
 "time": "2026-11-06T01:40:00+00:00",
@@ -4346,9 +4364,9 @@
 "link": "https://www.chosun.com/international/international_general/2026/11/06/NDVQFW6ZWNC3HLTHBQOYWLX7IA/"
 },
 {
-"title": "유럽 항공기 수십대 '테러 협박'...배후는 러시아? [자막뉴스]",
-"source": "YTN",
-"link": "https://www.ytn.co.kr/_ln/0134_202611060834213454"
+"title": "인천공항경찰, 유럽 곳곳 여객기 폭탄위협에 '상시 대비태세'",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261106083100065"
 }
 ],
 "new": false
@@ -4367,24 +4385,6 @@
 "title": "라이엇게임즈, '와일드 리프트' 글로벌 커뮤니티 행사 21일 개최",
 "source": "지디넷코리아",
 "link": "https://zdnet.co.kr/view/?no=20261105182032"
-}
-],
-"new": false
-},
-{
-"term": "amd",
-"traffic": "500+",
-"time": "2026-11-06T00:40:00+00:00",
-"news": [
-{
-"title": "AMD is a 'data center first' company, says CEO Lisa Su",
-"source": "Yahoo Finance",
-"link": "https://finance.yahoo.com/video/amd-is-a-data-center-first-company-says-ceo-lisa-su-132618996.html"
-},
-{
-"title": "AMD's data center revenue nearly doubles in Q3 and CEO Su expects growth to accelerate",
-"source": "CNBC",
-"link": "https://www.cnbc.com/2026/11/03/amd-amd-q3-earnings-report-2026-.html"
 }
 ],
 "new": false
@@ -4558,6 +4558,7 @@
 "제주 감귤",
 "젠지 라이언",
 "조선민주주의인민공화국",
+"존리",
 "주식",
 "중국 휴머노이드 로봇",
 "진쓰레블 사망",
