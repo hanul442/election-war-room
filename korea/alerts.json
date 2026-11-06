@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-06T02:32:32.741630+00:00",
+"updated": "2026-11-06T02:34:50.329988+00:00",
 "errors": [],
 "events": [
 {
@@ -180,6 +180,39 @@
 "한국갤럽",
 "혼조",
 "李대통령"
+]
+},
+{
+"id": "Mam9sNlVUN0d5WVA3elc4oc50226",
+"first": "2026-11-06T02:26:26+00:00",
+"last": "2026-11-06T02:26:26+00:00",
+"updated": "2026-11-06T02:34:50.329988+00:00",
+"headline": "이 대통령 지지율 소폭 오른 41%… 응답자 절반은 `잘못하고 있다`",
+"cat": "정치",
+"regions": [],
+"sources": [
+"부산일보"
+],
+"updates": [
+{
+"title": "[속보] 이 대통령 지지율 소폭 오른 41%… 응답자 절반은 `잘못하고 있다`",
+"source": "부산일보",
+"link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5HMFItUDFXcTJfaE5oUEdaNjh6VzVJX3R5REpKdWhfZkZBbi1Db2JCbEw0OTdiZ3BTdWEtTkJ1NTJFdTUxZ3FhYlhYVEdzbk5STVRvNGRHYUxDeXIxdXpOdkxQVjBMam9sNlVUN0d5WVA3elc4?oc=5",
+"time": "2026-11-06T02:26:26+00:00",
+"stage": "얼럿"
+}
+],
+"level": "URGENT",
+"latest": "이 대통령 지지율 소폭 오른 41%… 응답자 절반은 `잘못하고 있다`",
+"tok": [
+"대통령",
+"소폭",
+"오른",
+"응답자",
+"있다",
+"잘못하고",
+"절반",
+"지지율"
 ]
 },
 {
@@ -3967,50 +4000,6 @@
 "학생들",
 "해안도시"
 ]
-},
-{
-"id": "GpYZGZCY3gza1dwZEcxeQoc50004",
-"first": "2026-11-06T00:04:00+00:00",
-"last": "2026-11-06T00:23:07+00:00",
-"updated": "2026-11-06T00:33:15.772805+00:00",
-"headline": "공주 대전당진고속도로서 화물차 화재 발생",
-"cat": "재난",
-"regions": [
-"대전",
-"충남"
-],
-"sources": [
-"연합뉴스",
-"이투데이"
-],
-"updates": [
-{
-"title": "[속보] 공주 대전당진고속도로서 화물차 화재 발생",
-"source": "이투데이",
-"link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5pWkpxS2FSOUl4OUFOQXVxc1hsZy1PbDBoLU9ObWR4N0l4YnhPcXBLdWFhOFR0eGJpOXJ1bzhQVERDM1R4eGpYZGZCY3gza1dwZEcxeQ?oc=5",
-"time": "2026-11-06T00:04:00+00:00",
-"stage": "얼럿"
-},
-{
-"title": "공주 대전당진고속도로서 LPG 용기 실은 화물차 화재",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261106042000063",
-"time": "2026-11-06T00:23:07+00:00",
-"stage": "후속"
-}
-],
-"level": "URGENT",
-"latest": "공주 대전당진고속도로서 LPG 용기 실은 화물차 화재",
-"tok": [
-"LPG",
-"공주",
-"대전당진고속도로서",
-"발생",
-"실은",
-"용기",
-"화물차",
-"화재"
-]
 }
 ],
 "sns": {
@@ -4022,7 +4011,7 @@
 },
 "화재": {
 "n30": 0,
-"base": 0.9,
+"base": 0.8,
 "spike": false
 },
 "불났": {
@@ -4037,11 +4026,11 @@
 },
 "폭발": {
 "n30": 5,
-"base": 0.5,
+"base": 0.6,
 "spike": true
 },
 "붕괴": {
-"n30": 4,
+"n30": 3,
 "base": 0.1,
 "spike": false
 },
@@ -4132,7 +4121,7 @@
 "name": "겜스포.일상.빜",
 "time": "2026-11-06T02:16:47.982Z",
 "likes": 4,
-"reposts": 1,
+"reposts": 2,
 "url": "https://bsky.app/profile/kimbiqu.bsky.social/post/3mzmcu6ihkk2h",
 "term": "폭발"
 },
@@ -4339,30 +4328,30 @@
 {
 "term": "폭발",
 "n30": 5,
-"base": 0.5,
+"base": 0.6,
 "spike": true,
-"since": "2026-11-06T02:32:32.741630+00:00"
+"since": "2026-11-06T02:34:50.329988+00:00"
 },
 {
 "term": "속보",
 "n30": 5,
 "base": 0.4,
 "spike": true,
-"since": "2026-11-06T02:32:32.741630+00:00"
+"since": "2026-11-06T02:34:50.329988+00:00"
 }
 ],
 "baseline": {
 "지진": 0.05,
-"화재": 0.82,
+"화재": 0.74,
 "불났": 0.0,
 "정전": 0.05,
-"폭발": 0.56,
+"폭발": 0.6,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.37,
-"지하철": 1.21,
-"사고": 0.7,
+"속보": 0.33,
+"지하철": 1.19,
+"사고": 0.73,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -4583,8 +4572,62 @@
 },
 "trends": [
 {
-"term": "어쌔신 크리드 발할라",
+"term": "노소영",
+"traffic": "200+",
+"time": "2026-11-06T01:30:00+00:00",
+"news": [
+{
+"title": "최태원, SK주식 9440억어치 팔았다…노소영 재산분할금 마련",
+"source": "한국경제",
+"link": "https://www.hankyung.com/article/202611058941H"
+},
+{
+"title": "최태원, SK㈜ 지분 처분…9440억 마련",
+"source": "IT조선",
+"link": "https://it.chosun.com/news/articleView.html?idxno=3000000000400"
+}
+],
+"new": true
+},
+{
+"term": "엘리자베스 홈즈",
+"traffic": "200+",
+"time": "2026-11-06T01:30:00+00:00",
+"news": [
+{
+"title": "월가 흔든 ‘테라노스 악녀’ 그 사진, 손에 든 건 ‘가짜피’였다",
+"source": "동아일보",
+"link": "https://www.donga.com/news/Inter/article/all/20261030/134934778/2"
+},
+{
+"title": "엘리자베스 홈즈 다큐 '유 캔 씨 에브리씽', 12월 9일 국내 개봉 확정",
+"source": "싱글리스트",
+"link": "https://www.slist.kr/news/articleView.html?idxno=779438"
+}
+],
+"new": true
+},
+{
+"term": "a24",
 "traffic": "100+",
+"time": "2026-11-06T01:30:00+00:00",
+"news": [
+{
+"title": "‘Conclave’ Director Edward Berger Teases Upcoming Brad Pitt A24 Film ‘The Riders’: It’s a ‘European Odyssey’",
+"source": "Variety",
+"link": "https://variety.com/2026/film/global/conclave-director-edward-berger-a24-the-riders-brad-pitt-1236938487/"
+},
+{
+"title": "Conclave’ Director Edward Berger Teases Upcoming Brad Pitt A24 Film ‘The Riders’: It’s a ‘European Odyssey’",
+"source": "IMDb",
+"link": "https://www.imdb.com/es/news/ni66096417/?ref_=nwc_art_perm"
+}
+],
+"new": true
+},
+{
+"term": "어쌔신 크리드 발할라",
+"traffic": "200+",
 "time": "2026-11-06T01:20:00+00:00",
 "news": [
 {
@@ -4602,7 +4645,7 @@
 },
 {
 "term": "김장",
-"traffic": "500+",
+"traffic": "1000+",
 "time": "2026-11-06T01:10:00+00:00",
 "news": [
 {
@@ -4678,14 +4721,14 @@
 "time": "2026-11-06T00:40:00+00:00",
 "news": [
 {
+"title": "AI 반도체 밸류체인株도 급락…두산·한솔테크닉스 10%대↓",
+"source": "마켓인",
+"link": "https://marketin.edaily.co.kr/News/ReadE?newsId=04359126645643096"
+},
+{
 "title": "삼성전기, 美 데이터센터 규제·AI 피크아웃 공포에 10%대 급락",
 "source": "Chosunbiz",
 "link": "https://biz.chosun.com/stock/stock_general/2026/11/06/QRRCK5LBIVCXDOLD3AB3NZRGVQ/"
-},
-{
-"title": "[특징주] 삼성전기, 美 AI 투자 둔화 우려에 12%대 급락",
-"source": "브릿지경제",
-"link": "https://www.viva100.com/article/20261106500162"
 }
 ],
 "new": false
@@ -4707,64 +4750,11 @@
 }
 ],
 "new": false
-},
-{
-"term": "창신동",
-"traffic": "1000+",
-"time": "2026-11-06T00:30:00+00:00",
-"news": [
-{
-"title": "\"서울 한복판이 이 지경\"…광화문서 2km, 창신동의 처참한 민낯 [르포]",
-"source": "땅집고",
-"link": "https://realty.chosun.com/site/data/html_dir/2026/11/05/2026110502547.html"
-},
-{
-"title": "[단독] 종로구 “창신9구역, 6일부터 동의서 재징구”…9·10구역 대응 갈린다",
-"source": "에너지경제신문",
-"link": "https://m.ekn.kr/view.php?key=20261105023155908"
-}
-],
-"new": false
-},
-{
-"term": "서초구",
-"traffic": "100+",
-"time": "2026-11-06T00:10:00+00:00",
-"news": [
-{
-"title": "“가구당 평균 2.2억”…서초구, 내주 반포현대 재초환 사전통지",
-"source": "매일경제",
-"link": "https://www.mk.co.kr/news/economy/12200143"
-},
-{
-"title": "서초구, 국토부에 '재초환 폐지' 건의문·주민 탄원서 전달",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261105097200004"
-}
-],
-"new": false
-},
-{
-"term": "삼성전자 주가",
-"traffic": "2000+",
-"time": "2026-11-06T00:00:00+00:00",
-"news": [
-{
-"title": "삼성전자 주가, 왜 급락했나?",
-"source": "Investing.com 한국어",
-"link": "https://kr.investing.com/news/stock-market-news/article-93CH-2163208"
-},
-{
-"title": "폭락한 삼성전자 주가",
-"source": "뉴스1",
-"link": "https://www.news1.kr/photos/8200078"
-}
-],
-"new": false
 }
 ],
 "trendSeen": [
 "1기 신도시",
+"a24",
 "amd",
 "blg",
 "dl이앤씨",
@@ -4820,6 +4810,7 @@
 "나스닥 지수",
 "남대문 스카프 아저씨",
 "노동조합",
+"노소영",
 "농장",
 "뉴스",
 "다니엘기도회 2026",
@@ -4889,6 +4880,7 @@
 "어쌔신 크리드 발할라",
 "엔비디아 주가",
 "엔씨",
+"엘리자베스 홈즈",
 "여객기",
 "여객선",
 "연금",
