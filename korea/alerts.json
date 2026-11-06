@@ -1,21 +1,37 @@
 {
-"updated": "2026-11-06T22:23:20.816373+00:00",
+"updated": "2026-11-06T22:25:40.131121+00:00",
 "errors": [],
 "events": [
 {
 "id": "1xU2x4LVVlUC1GakJUejQoc52215",
 "first": "2026-11-06T22:15:00+00:00",
 "last": "2026-11-06T22:15:00+00:00",
-"updated": "2026-11-06T22:23:20.816373+00:00",
+"updated": "2026-11-06T22:25:40.131121+00:00",
 "headline": "국힘, '조작기소특검법' 강행 규탄 서울 도심서 장외 집회",
 "cat": "기타",
 "regions": [
 "서울"
 ],
 "sources": [
-"대전일보"
+"SBS",
+"대전일보",
+"연합뉴스"
 ],
 "updates": [
+{
+"title": "국힘, 서울 도심서 '조작기소특검법' 규탄 대규모 집회",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261106178400001",
+"time": "2026-11-06T20:00:00+00:00",
+"stage": "후속"
+},
+{
+"title": "국민의힘, 서울 도심서 '조작기소특검법' 규탄 대규모 집회",
+"source": "SBS",
+"link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008834927&plink=RSSLINK&cooper=RSSREADER",
+"time": "2026-11-06T22:01:00+00:00",
+"stage": "후속"
+},
 {
 "title": "[속보] 국힘, '조작기소특검법' 강행 규탄 서울 도심서 장외 집회",
 "source": "대전일보",
@@ -28,8 +44,10 @@
 "latest": "국힘, '조작기소특검법' 강행 규탄 서울 도심서 장외 집회",
 "tok": [
 "강행",
+"국민의힘",
 "국힘",
 "규탄",
+"대규모",
 "도심서",
 "서울",
 "장외",
@@ -1603,11 +1621,11 @@
 "n30": 9,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-06T22:23:20.816373+00:00"
+"since": "2026-11-06T22:25:40.131121+00:00"
 }
 ],
 "baseline": {
-"지진": 0.29,
+"지진": 0.26,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
@@ -1871,7 +1889,7 @@
 "link": "https://www.sedaily.com/article/20111382"
 }
 ],
-"new": true
+"new": false
 },
 {
 "term": "비트코인",
@@ -1928,8 +1946,26 @@
 "new": false
 },
 {
+"term": "테일러 프리츠",
+"traffic": "100+",
+"time": "2026-11-06T21:10:00+00:00",
+"news": [
+{
+"title": "Alcaraz saves 2 MPs, sinks Fritz in Paris late-night thriller",
+"source": "ATP Tour",
+"link": "https://www.atptour.com/en/news/alcaraz-fritz-paris-2026-friday"
+},
+{
+"title": "Where to watch Carlos Alcaraz vs Taylor Fritz tennis for free today",
+"source": "Syracuse.com",
+"link": "https://www.syracuse.com/tv/2026/11/where-to-watch-carlos-alcaraz-vs-taylor-fritz-tennis-for-free-today.html"
+}
+],
+"new": true
+},
+{
 "term": "옥주현",
-"traffic": "1000+",
+"traffic": "2000+",
 "time": "2026-11-06T20:50:00+00:00",
 "news": [
 {
@@ -2016,28 +2052,9 @@
 }
 ],
 "new": false
-},
-{
-"term": "은행",
-"traffic": "100+",
-"time": "2026-11-06T20:40:00+00:00",
-"news": [
-{
-"title": "[은행권 풍향계] KB국민은행, 대부업체 성실상환자 1만명 금융부담 완화 外",
-"source": "에너지경제신문",
-"link": "https://m.ekn.kr/view.php?key=20261104027205455"
-},
-{
-"title": "[이코노 브리핑] 국민銀, 취약차주 100억 규모 이자 지원 외",
-"source": "세계일보",
-"link": "https://m.segye.com/view/20261104517829"
-}
-],
-"new": false
 }
 ],
 "trendSeen": [
-"soxx",
 "t.o.p",
 "t1 kc",
 "tqqq",
@@ -2299,6 +2316,7 @@
 "쿠칭시티",
 "탁구",
 "테슬라 주가",
+"테일러 프리츠",
 "테일즈위버 모바일",
 "텍사스 주지사",
 "토스",
