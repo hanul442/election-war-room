@@ -1,7 +1,38 @@
 {
-"updated": "2026-11-06T00:58:15.310518+00:00",
+"updated": "2026-11-06T01:00:30.037580+00:00",
 "errors": [],
 "events": [
+{
+"id": "viewAKR202611060562000050053",
+"first": "2026-11-06T00:53:32+00:00",
+"last": "2026-11-06T00:53:32+00:00",
+"updated": "2026-11-06T01:00:30.037580+00:00",
+"headline": "금호문화재단, 김재영·문태국·박재홍 '요하네스' 시리즈",
+"cat": "재난",
+"regions": [],
+"sources": [
+"연합뉴스"
+],
+"updates": [
+{
+"title": "금호문화재단, 김재영·문태국·박재홍 '요하네스' 시리즈",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261106056200005",
+"time": "2026-11-06T00:53:32+00:00",
+"stage": "1보"
+}
+],
+"level": "ALERT",
+"latest": "금호문화재단, 김재영·문태국·박재홍 '요하네스' 시리즈",
+"tok": [
+"금호문화재단",
+"김재영",
+"문태국",
+"박재홍",
+"시리즈",
+"요하네스"
+]
+},
 {
 "id": "wNISX20261106_00038574740052",
 "first": "2026-11-06T00:52:19+00:00",
@@ -4177,52 +4208,6 @@
 "최저",
 "충남권"
 ]
-},
-{
-"id": "BCZlBrbHRScmtWMkcwRnYoc51538",
-"first": "2026-11-05T15:38:15+00:00",
-"last": "2026-11-05T20:51:46+00:00",
-"updated": "2026-11-05T21:04:56.193485+00:00",
-"headline": "비트코인 7만7000달러대 하락",
-"cat": "기타",
-"regions": [],
-"sources": [
-"블록미디어",
-"토큰포스트"
-],
-"updates": [
-{
-"title": "[속보] 비트코인 7만7000달러대 하락",
-"source": "블록미디어",
-"link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE15Y2k1YmJJdFlkelFHZUF3aFpYOUpDSUVaLVdnUXV2YVBtUXR1S1dVTUgwZU9mZzRqQmV1aUFWdGRzUER5ckplS1BCZlBrbHRScmtWMkcwRnY?oc=5",
-"time": "2026-11-05T15:38:15+00:00",
-"stage": "얼럿"
-},
-{
-"title": "비트코인(BTC), 4시간 새 3.59% 하락…7만6019달러",
-"source": "토큰포스트",
-"link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE43bjRMdnc1N2tLcDRnLWVpN2lCMVFPcDE4OFdPX0JNYmpZSUlPbnJLQzFvc2Z6cGxkbEVVVDVYZm9mMGw1eVRmdjZTT0ljMzRKMGpKeHF5dms?oc=5",
-"time": "2026-11-05T20:51:46+00:00",
-"stage": "후속"
-},
-{
-"title": "비트코인(BTC), 4시간 새 3.59% 하락…7만6019달러",
-"source": "토큰포스트",
-"link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFB6YUZlaVo1d29CRndhanFpN0FHZnkwbmU0Q2F6QmtKNHZuTVpzcVhLX2pUaFg5T1MtbUZoRV9jS3Naa2Zvcm9WdXBHekN0ZVZjMTlDa3JCN1dPNGZfbVRWSy13VklSTWdvLVptY21mTWhJRlJjM1HSAV5BVV95cUxOLTdHRDR6cVFqYWc4ZkJncjZkTXAxM3E0MGoyOGxlN3lYZkozUUVtMzBIaVpMM3lHQk5jSFg0eG54Tzg5N21kZmZaMDc5dFI2LTJzU192N1kxTnBXRnF3?oc=5",
-"time": "2026-11-05T20:51:46+00:00",
-"stage": "후속"
-}
-],
-"level": "URGENT",
-"latest": "비트코인(BTC), 4시간 새 3.59% 하락…7만6019달러",
-"tok": [
-"4시간",
-"7만6019달러",
-"7만7000달러대",
-"BTC",
-"비트코인",
-"하락"
-]
 }
 ],
 "sns": {
@@ -4244,16 +4229,16 @@
 },
 "정전": {
 "n30": 0,
-"base": 0.5,
+"base": 0.4,
 "spike": false
 },
 "폭발": {
-"n30": 3,
+"n30": 2,
 "base": 0.1,
 "spike": false
 },
 "붕괴": {
-"n30": 8,
+"n30": 6,
 "base": 0.8,
 "spike": true
 },
@@ -4268,13 +4253,13 @@
 "spike": false
 },
 "속보": {
-"n30": 10,
+"n30": 9,
 "base": 0.4,
 "spike": true
 },
 "지하철": {
-"n30": 1,
-"base": 1.3,
+"n30": 0,
+"base": 1.1,
 "spike": false
 },
 "사고": {
@@ -4598,31 +4583,31 @@
 "spikes": [
 {
 "term": "붕괴",
-"n30": 8,
+"n30": 6,
 "base": 0.8,
 "spike": true,
-"since": "2026-11-06T00:58:15.310518+00:00"
+"since": "2026-11-06T01:00:30.037580+00:00"
 },
 {
 "term": "속보",
-"n30": 10,
+"n30": 9,
 "base": 0.4,
 "spike": true,
-"since": "2026-11-06T00:58:15.310518+00:00"
+"since": "2026-11-06T01:00:30.037580+00:00"
 }
 ],
 "baseline": {
-"지진": 0.37,
-"화재": 0.6,
+"지진": 0.33,
+"화재": 0.64,
 "불났": 0.0,
-"정전": 0.41,
+"정전": 0.37,
 "폭발": 0.05,
-"붕괴": 0.78,
+"붕괴": 0.8,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.37,
-"지하철": 1.15,
-"사고": 3.89,
+"속보": 0.33,
+"지하철": 1.03,
+"사고": 3.9,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
