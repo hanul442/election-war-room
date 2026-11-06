@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-06T11:22:00.291910+00:00",
+"updated": "2026-11-06T11:24:15.900365+00:00",
 "errors": [],
 "events": [
 {
@@ -4888,7 +4888,7 @@
 "terms": {
 "지진": {
 "n30": 2,
-"base": 1.7,
+"base": 1.5,
 "spike": false
 },
 "화재": {
@@ -4933,12 +4933,12 @@
 },
 "지하철": {
 "n30": 3,
-"base": 0.8,
+"base": 0.7,
 "spike": false
 },
 "사고": {
 "n30": 4,
-"base": 3.4,
+"base": 3.5,
 "spike": false
 },
 "실종": {
@@ -5233,30 +5233,30 @@
 "n30": 5,
 "base": 0.4,
 "spike": true,
-"since": "2026-11-06T11:22:00.291910+00:00"
+"since": "2026-11-06T11:24:15.900365+00:00"
 },
 {
 "term": "속보",
 "n30": 7,
 "base": 0.7,
 "spike": true,
-"since": "2026-11-06T11:22:00.291910+00:00"
+"since": "2026-11-06T11:24:15.900365+00:00"
 }
 ],
 "baseline": {
-"지진": 1.51,
+"지진": 1.36,
 "화재": 0.05,
 "불났": 0.05,
-"정전": 0.15,
-"폭발": 0.37,
+"정전": 0.24,
+"폭발": 0.33,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.7,
-"지하철": 0.68,
-"사고": 3.46,
+"속보": 0.73,
+"지하철": 0.61,
+"사고": 3.51,
 "실종": 0.05,
-"단수": 0.06,
+"단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
 "산불": 0.05
@@ -5466,6 +5466,42 @@
 },
 "trends": [
 {
+"term": "구자욱",
+"traffic": "200+",
+"time": "2026-11-06T10:20:00+00:00",
+"news": [
+{
+"title": "[사진] 구자욱, 리드폭 늘리고 더그아웃 분위기 업",
+"source": "Chosunbiz",
+"link": "https://biz.chosun.com/sports/sports_photo/2026/11/06/GU3TOYLGG5RDIOBXMQ3WCYRQGQ/"
+},
+{
+"title": "[사진]2타점 적시타 환호하는 구자욱",
+"source": "조선일보",
+"link": "https://www.chosun.com/sports/sports_photo/2026/11/06/HAZDMY3DMQYTGOLEHA3TOOLEGU/"
+}
+],
+"new": true
+},
+{
+"term": "kt 삼성",
+"traffic": "100+",
+"time": "2026-11-06T10:20:00+00:00",
+"news": [
+{
+"title": "KT·삼성전자, AI로 고속철도 통신 끊김 29% 줄였다",
+"source": "전기신문",
+"link": "https://www.electimes.com/news/articleView.html?idxno=374397"
+},
+{
+"title": "“열차 안이라 잘 안들려”…KT, 차내 통신 끊김 막을 기술 개발",
+"source": "서울경제",
+"link": "https://www.sedaily.com/article/20110805"
+}
+],
+"new": true
+},
+{
 "term": "안양 정관장 대 서울 sk",
 "traffic": "500+",
 "time": "2026-11-06T10:00:00+00:00",
@@ -5510,14 +5546,14 @@
 "time": "2026-11-06T09:30:00+00:00",
 "news": [
 {
-"title": "하나증권 \"CJ ENM, 간만의 TV 광고 회복세…목표가 상향\"",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261106026900008"
+"title": "합치겠다던 티빙·웨이브, 3년째 평행선…토종 OTT 연합 ’안갯속’ By EBN",
+"source": "Investing.com 한국어",
+"link": "https://kr.investing.com/news/stock-market-news/article-2163527"
 },
 {
-"title": "티빙, 3분기 영업손실 72억원...\"확실한 손익 개선 흐름\"",
-"source": "지디넷코리아",
-"link": "https://zdnet.co.kr/view/?no=20261105152651"
+"title": "티빙·웨이브 합병 3년째 답보…방미통위 지원도 한계",
+"source": "디지털투데이",
+"link": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=712272"
 }
 ],
 "new": false
@@ -5541,6 +5577,24 @@
 "new": false
 },
 {
+"term": "한국시리즈 3차전",
+"traffic": "100+",
+"time": "2026-11-06T09:10:00+00:00",
+"news": [
+{
+"title": "'국민타자' 이승엽, 삼성라이온즈파크에 뜬다…3차전 시구[KS]",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261106_0003858363"
+},
+{
+"title": "[사진]선취 타점 힐리어드, 시작하자마자 KT가 앞서간다",
+"source": "Chosunbiz",
+"link": "https://biz.chosun.com/sports/sports_photo/2026/11/06/ME3TCMDCMEZDMY3EGM4DMMBZGU/"
+}
+],
+"new": false
+},
+{
 "term": "배트맨",
 "traffic": "200+",
 "time": "2026-11-06T09:00:00+00:00",
@@ -5554,60 +5608,6 @@
 "title": "Scarlett Johansson Says Batman Role Gave Her ‘a Lot of Existential Angst’",
 "source": "Vulture",
 "link": "https://www.vulture.com/article/scarlett-johansson-batman-existential-angst.html"
-}
-],
-"new": false
-},
-{
-"term": "박지후",
-"traffic": "200+",
-"time": "2026-11-06T08:40:00+00:00",
-"news": [
-{
-"title": "‘미스트롯 포유’ 김동현, 이소나와 우승 정조준 “밥그릇 줄어들까 봐 걱정돼”",
-"source": "iMBC 연예",
-"link": "https://enews.imbc.com/News/RetrieveNewsInfo/523752"
-},
-{
-"title": "[TV조선] 허찬미·박지후 달콤한 듀엣",
-"source": "조선일보",
-"link": "https://www.chosun.com/culture-life/culture_general/2026/11/05/EYYKM3NJPVELBLBRQ376YGH7D4/"
-}
-],
-"new": false
-},
-{
-"term": "강민호",
-"traffic": "200+",
-"time": "2026-11-06T08:40:00+00:00",
-"news": [
-{
-"title": "박진만 삼성 감독 \"배찬승이 있어 원태인 선발로 돌린다\"",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261106147200007"
-},
-{
-"title": "[사진]구자욱 2타점 3루타, '이렇게 좋을수가'",
-"source": "Chosunbiz",
-"link": "https://biz.chosun.com/sports/sports_photo/2026/11/06/MQ4WENJWMUYDMZTFGYZWENRZME/"
-}
-],
-"new": false
-},
-{
-"term": "kt 대 삼성",
-"traffic": "50000+",
-"time": "2026-11-06T08:30:00+00:00",
-"news": [
-{
-"title": "한국시리즈 3차전 승리 팀은?...소형준 vs 후라도 선발 대결",
-"source": "YTN",
-"link": "https://www.ytn.co.kr/_ln/0107_202611061727570999"
-},
-{
-"title": "\"우승의 기쁨, 함께 나눠요\" 국민 유격수 향한 특별한 응원…대구CC 우승수 대표의 깜짝 이벤트 [KS3]",
-"source": "조선일보",
-"link": "https://www.chosun.com/sports/baseball/2026/11/06/GQ3WKNLCGUZTEOJUGBRDCYRRMQ/"
 }
 ],
 "new": false
@@ -5628,6 +5628,7 @@
 "kia 타이거즈",
 "kospi",
 "kt 대 삼성",
+"kt 삼성",
 "lg그룹",
 "lg에너지솔루션",
 "lng선",
@@ -5667,6 +5668,7 @@
 "교차로",
 "교통",
 "구급차",
+"구자욱",
 "국제결혼",
 "군함",
 "금값",
