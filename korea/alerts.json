@@ -1,19 +1,27 @@
 {
-"updated": "2026-11-06T22:42:00.846541+00:00",
+"updated": "2026-11-06T22:44:20.322236+00:00",
 "errors": [],
 "events": [
 {
 "id": "ThGSTRoeFVoMmNtWnZhQQoc52239",
 "first": "2026-11-06T22:39:11+00:00",
 "last": "2026-11-06T22:39:11+00:00",
-"updated": "2026-11-06T22:42:00.846541+00:00",
+"updated": "2026-11-06T22:44:20.322236+00:00",
 "headline": "미래에셋증권도 해킹…고객·임직원 정보 일부 유출",
 "cat": "기타",
 "regions": [],
 "sources": [
+"연합뉴스",
 "한국경제"
 ],
 "updates": [
+{
+"title": "[속보] 미래에셋증권도 해킹…고객·임직원 정보 일부 유출",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261107014400008",
+"time": "2026-11-06T22:36:50+00:00",
+"stage": "속보"
+},
 {
 "title": "[속보] 미래에셋증권도 해킹…고객·임직원 정보 일부 유출",
 "source": "한국경제",
@@ -38,7 +46,7 @@
 "id": "EzMUx6SGpNZEkzRk1aVVUoc52230",
 "first": "2026-11-06T22:30:00+00:00",
 "last": "2026-11-06T22:30:00+00:00",
-"updated": "2026-11-06T22:37:12.428960+00:00",
+"updated": "2026-11-06T22:44:20.322236+00:00",
 "headline": "뉴욕증시, AMD 11% 급등·스페이스X 8% 상승…엔비디아·마이크론·샌디스크 동반 강세",
 "cat": "경제",
 "regions": [],
@@ -52,6 +60,13 @@
 "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFA3UzBvN0tMZFB1UkZXdGY1T05WVUotQ2kxUmVKWGhLS0tteW1ncjc5cUM5M1lib3RnVzFFSU85QnU5XzhOV3ZZc05ScnJLeEZIU1ptd21WT1EzMUx6SGpNZEkzRk1aVVU?oc=5",
 "time": "2026-11-06T22:30:00+00:00",
 "stage": "얼럿"
+},
+{
+"title": "[속보]뉴욕증시, AMD 11% 급등·스페이스X 8% 상승…엔비디아·마이크론·샌디스크 동반 강세",
+"source": "CBC뉴스",
+"link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9Gbkt3UUd1VjRuTkpfTDVLWkJuY3VRVU5MQl9VNk42c1d4V25ENVo3dTN5N2U1ZGZiZGVBSXRiWW9KcW1yLTZhajVha0xMNWFZbEliQWxubWoyZ2FWQVg2ZGc0bWxxWnBR?oc=5",
+"time": "2026-11-06T22:30:00+00:00",
+"stage": "속보"
 }
 ],
 "level": "URGENT",
@@ -1388,9 +1403,9 @@
 "spike": false
 },
 "화재": {
-"n30": 5,
+"n30": 4,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "불났": {
 "n30": 0,
@@ -1423,18 +1438,18 @@
 "spike": false
 },
 "속보": {
-"n30": 6,
+"n30": 5,
 "base": 0.1,
 "spike": true
 },
 "지하철": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
 "사고": {
 "n30": 1,
-"base": 0.4,
+"base": 0.5,
 "spike": false
 },
 "실종": {
@@ -1684,22 +1699,15 @@
 ],
 "spikes": [
 {
-"term": "화재",
+"term": "속보",
 "n30": 5,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-06T22:42:00.846541+00:00"
-},
-{
-"term": "속보",
-"n30": 6,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-06T22:42:00.846541+00:00"
+"since": "2026-11-06T22:44:20.322236+00:00"
 }
 ],
 "baseline": {
-"지진": 0.13,
+"지진": 0.12,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
@@ -1709,7 +1717,7 @@
 "미사일": 0.05,
 "속보": 0.05,
 "지하철": 0.05,
-"사고": 0.45,
+"사고": 0.51,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -1930,8 +1938,44 @@
 },
 "trends": [
 {
-"term": "데이터 센터",
+"term": "송해",
 "traffic": "100+",
+"time": "2026-11-06T21:40:00+00:00",
+"news": [
+{
+"title": "송해나 소개팅남 \"너무 예쁘셔서 깜짝 놀라..실물이 훨씬 더\" ('신랑수업2')",
+"source": "Chosunbiz",
+"link": "https://biz.chosun.com/entertainment/enter_general/2026/11/06/MJSDKNTCMJSTONLCMI3WINZYGU/"
+},
+{
+"title": "디테일한 질문을 통해 가까워지는 해나&승우?! 그리고 타로 선생님 국주?!",
+"source": "채널A",
+"link": "https://ichannela.com/program/clip/000000558837.do"
+}
+],
+"new": true
+},
+{
+"term": "옥스퍼드 시티 fc 대 레스터 시티",
+"traffic": "100+",
+"time": "2026-11-06T21:40:00+00:00",
+"news": [
+{
+"title": "Oxford City 2-4 Leicester City: League One side advance in FA Cup",
+"source": "BBC",
+"link": "https://www.bbc.com/sport/football/live/c98rz2612n2nt"
+},
+{
+"title": "Josh Ashby slots in the goal for Oxford City",
+"source": "ESPN",
+"link": "https://www.espn.com/video/clip/_/id/50401800/josh-ashby-slots-goal-oxford-city"
+}
+],
+"new": true
+},
+{
+"term": "데이터 센터",
+"traffic": "200+",
 "time": "2026-11-06T21:30:00+00:00",
 "news": [
 {
@@ -2003,7 +2047,7 @@
 },
 {
 "term": "패션",
-"traffic": "500+",
+"traffic": "1000+",
 "time": "2026-11-06T21:10:00+00:00",
 "news": [
 {
@@ -2072,47 +2116,9 @@
 }
 ],
 "new": false
-},
-{
-"term": "옥주현",
-"traffic": "2000+",
-"time": "2026-11-06T20:50:00+00:00",
-"news": [
-{
-"title": "190억에 산 한남더힐 경매로…\"옥주현 183억 빚\" 자금난 분석한 변호사",
-"source": "뉴스1",
-"link": "https://www.news1.kr/society/general-society/6344223"
-},
-{
-"title": "“옥주현, 180억 대부업체 대출 추정…연이자만 20억 이상” 변호사 분석 [이슈픽]",
-"source": "TWIG",
-"link": "https://www.twig24.com/news/entertainments/celebrity/2026/11/05/20261105500315"
-}
-],
-"new": false
-},
-{
-"term": "빈곤",
-"traffic": "200+",
-"time": "2026-11-06T20:50:00+00:00",
-"news": [
-{
-"title": "하안구는 2026년 '빈곤층 지원 기금'에 2억 8900만 VND 이상의 기부금을 받았습니다.",
-"source": "Vietnam.vn",
-"link": "https://www.vietnam.vn/ko/phuong-ha-an-tiep-nhan-tren-289-trieu-dong-ung-ho-quy-vi-nguoi-ngheo-nam-2026"
-},
-{
-"title": "꽝닌성, 빈곤층 기금 지원을 위해 약 170억 동 모금",
-"source": "Laodong.vn",
-"link": "https://ko.laodong.vn/hoat-dong-mat-tran/quang-ninh-van-dong-gan-17-ti-dong-dang-ky-ung-ho-quy-vi-nguoi-ngheo-1795960.ldo"
-}
-],
-"new": false
 }
 ],
 "trendSeen": [
-"tqqq",
-"tsla",
 "tving",
 "twitch",
 "vix",
@@ -2254,6 +2260,7 @@
 "소형모듈원자로",
 "소형준",
 "송미령",
+"송해",
 "쇼메이커",
 "수능일",
 "수소",
@@ -2295,6 +2302,7 @@
 "예산",
 "오타니 쇼헤이",
 "옥수수",
+"옥스퍼드 시티 fc 대 레스터 시티",
 "옥주현",
 "외국인",
 "우주발사체",
