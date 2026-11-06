@@ -1,7 +1,43 @@
 {
-"updated": "2026-11-06T05:51:33.834113+00:00",
+"updated": "2026-11-06T05:53:47.616516+00:00",
 "errors": [],
 "events": [
+{
+"id": "pBSzgxN2N6MEUwb0lQbTAoc50547",
+"first": "2026-11-06T05:47:37+00:00",
+"last": "2026-11-06T05:47:37+00:00",
+"updated": "2026-11-06T05:53:47.616516+00:00",
+"headline": "‘수원·안양 토허제 묶고 대출 더 조인다?’…국토부 “전혀 사실 무근”",
+"cat": "기타",
+"regions": [
+"경기"
+],
+"sources": [
+"경기일보"
+],
+"updates": [
+{
+"title": "[속보] ‘수원·안양 토허제 묶고 대출 더 조인다?’…국토부 “전혀 사실 무근”",
+"source": "경기일보",
+"link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBtbzRYM1QyTmJwZ1M1cUVHMlh6UGlDZ1BFZ2Y3aXJ0QzYxQkZvd0tLOGc2MFdSbFpHenY3R29OelcwZFpCM20yWlR4RmpBSzgxN2N6MEUwb0lQbTA?oc=5",
+"time": "2026-11-06T05:47:37+00:00",
+"stage": "얼럿"
+}
+],
+"level": "URGENT",
+"latest": "‘수원·안양 토허제 묶고 대출 더 조인다?’…국토부 “전혀 사실 무근”",
+"tok": [
+"국토부",
+"대출",
+"무근",
+"묶고",
+"수원",
+"안양",
+"전혀",
+"조인다",
+"토허제"
+]
+},
 {
 "id": "VqUlJfWFB5LXMwaV8wMjQoc50459",
 "first": "2026-11-06T04:59:44+00:00",
@@ -4237,47 +4273,6 @@
 "주가",
 "피눈물"
 ]
-},
-{
-"id": "96dTkzMFNZRktMMmNHWDgoc50153",
-"first": "2026-11-06T01:53:07+00:00",
-"last": "2026-11-06T01:53:07+00:00",
-"updated": "2026-11-06T02:12:21.551666+00:00",
-"headline": "개인 한 달간 9조원 샀는데…삼전닉스 폭락에 “못 버티겠다, 울고싶어” 패닉",
-"cat": "기타",
-"regions": [],
-"sources": [
-"www.dt.co.kr"
-],
-"updates": [
-{
-"title": "[속보] 개인 한 달간 9조원 샀는데…삼전닉스 폭락에 “못 버티겠다, 울고싶어” 패닉",
-"source": "www.dt.co.kr",
-"link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE94NUV6c1lVZkVBRmROTV9sOWg2NlFyR0pzRnRUOERCUTZlaEZpdnNoSmZBS2RxS3AxbVZCcHpZV3RBYXUyamVkZTYtUk96dTkzMFNZRktMMmNHWDg?oc=5",
-"time": "2026-11-06T01:53:07+00:00",
-"stage": "얼럿"
-},
-{
-"title": "[속보] 개인 한 달간 9조원 샀는데…삼전닉스 폭락에 “못 버티겠다, 울고싶어” 패닉",
-"source": "www.dt.co.kr",
-"link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBlRkpNZnpzMC1VME93bmp0cTRnYVZlY1NhS3lsVXhzby1GMExnc2x6a3VaMTFhQXN3aEZILTF4TWprY2h5WGtCa0h6T29nUQ?oc=5",
-"time": "2026-11-06T01:53:07+00:00",
-"stage": "속보"
-}
-],
-"level": "URGENT",
-"latest": "개인 한 달간 9조원 샀는데…삼전닉스 폭락에 “못 버티겠다, 울고싶어” 패닉",
-"tok": [
-"9조원",
-"개인",
-"달간",
-"버티겠다",
-"삼전닉스",
-"샀는데",
-"울고싶어",
-"패닉",
-"폭락"
-]
 }
 ],
 "sns": {
@@ -4288,8 +4283,8 @@
 "spike": false
 },
 "화재": {
-"n30": 4,
-"base": 0.5,
+"n30": 3,
+"base": 0.6,
 "spike": false
 },
 "불났": {
@@ -4303,7 +4298,7 @@
 "spike": false
 },
 "폭발": {
-"n30": 2,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
@@ -4324,7 +4319,7 @@
 },
 "속보": {
 "n30": 1,
-"base": 0.8,
+"base": 0.7,
 "spike": false
 },
 "지하철": {
@@ -4334,7 +4329,7 @@
 },
 "사고": {
 "n30": 1,
-"base": 2.5,
+"base": 2.3,
 "spike": false
 },
 "실종": {
@@ -4344,7 +4339,7 @@
 },
 "단수": {
 "n30": 0,
-"base": 0.6,
+"base": 0.5,
 "spike": false
 },
 "통신 장애": {
@@ -4623,18 +4618,18 @@
 "spikes": [],
 "baseline": {
 "지진": 0.05,
-"화재": 0.56,
+"화재": 0.6,
 "불났": 0.05,
 "정전": 0.05,
 "폭발": 0.05,
 "붕괴": 0.05,
 "대피": 0.05,
-"미사일": 0.11,
-"속보": 0.71,
-"지하철": 1.27,
-"사고": 2.31,
+"미사일": 0.1,
+"속보": 0.64,
+"지하철": 1.24,
+"사고": 2.18,
 "실종": 0.05,
-"단수": 0.5,
+"단수": 0.45,
 "통신 장애": 0.05,
 "먹통": 0.05,
 "산불": 0.05
@@ -4871,6 +4866,24 @@
 },
 "trends": [
 {
+"term": "논쟁",
+"traffic": "5000+",
+"time": "2026-11-06T04:50:00+00:00",
+"news": [
+{
+"title": "'닥터X', 김지원 정체 들키나…이정은·손현주 살벌 대치 - 머니투데이",
+"source": "머니투데이",
+"link": "https://www.mt.co.kr/entertainment/2026/11/06/2026110613097225840"
+},
+{
+"title": "'닥터X' 김지원, 동료 의사들에게 \"부탁드립니다\" 숙인 사연은…전대미문 체외 수술 도전",
+"source": "SBS 뉴스",
+"link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008833758"
+}
+],
+"new": true
+},
+{
 "term": "엘니뇨",
 "traffic": "1000+",
 "time": "2026-11-06T04:30:00+00:00",
@@ -5031,24 +5044,6 @@
 }
 ],
 "new": false
-},
-{
-"term": "교산",
-"traffic": "100+",
-"time": "2026-11-06T03:30:00+00:00",
-"news": [
-{
-"title": "위례 분담금 1256억 투입 불균형 해소…하남시, 대광위에 교통망 건의",
-"source": "인천일보",
-"link": "http://incheonilbo.com/news/articleView.html?idxno=1336140"
-},
-{
-"title": "하남교산 2029년 첫 입주…송파하남선은 2032년 이후 개통 예상",
-"source": "에너지경제신문",
-"link": "https://m.ekn.kr/view.php?key=20261106023246280"
-}
-],
-"new": false
 }
 ],
 "trendSeen": [
@@ -5119,6 +5114,7 @@
 "남대문 스카프 아저씨",
 "노동조합",
 "노소영",
+"논쟁",
 "농장",
 "뉴스",
 "다니엘기도회 2026",
