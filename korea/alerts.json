@@ -1,18 +1,19 @@
 {
-"updated": "2026-11-06T02:19:07.282489+00:00",
+"updated": "2026-11-06T02:21:19.511185+00:00",
 "errors": [],
 "events": [
 {
 "id": "lJETE82cEZtajRPdWpnSgoc50209",
 "first": "2026-11-06T02:09:25+00:00",
 "last": "2026-11-06T02:17:21+00:00",
-"updated": "2026-11-06T02:19:07.282489+00:00",
+"updated": "2026-11-06T02:21:19.511185+00:00",
 "headline": "신세계, 백화점부문장에 이석구…신세계디에프 대표 겸직",
 "cat": "기타",
 "regions": [],
 "sources": [
 "edaily.co.kr",
-"뉴시스"
+"뉴시스",
+"연합뉴스"
 ],
 "updates": [
 {
@@ -21,6 +22,13 @@
 "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQRUpCZlZ2TXdGcWhMVUpUcVN5b29yUWZQSXowaHZmTGhfSjFOYlBtY1VOVW43VWt0Y0NpYTVUejFBSFNzdzhGMlhUOC1DTkxrZ0hXRndCdC1MNVF0aHliTDZLZU5TNVdDY2FlNVBMR3ZySlJETE82cEZtajRPdWpnSg?oc=5",
 "time": "2026-11-06T02:09:25+00:00",
 "stage": "얼럿"
+},
+{
+"title": "신세계, 백화점부문 부문장에 이석구 사장 선임…감사기능 강화",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261106081700030",
+"time": "2026-11-06T02:15:41+00:00",
+"stage": "후속"
 },
 {
 "title": "이석구 사장, 신세계百 부문장 맡는다…면세점 대표 겸직",
@@ -33,13 +41,17 @@
 "level": "URGENT",
 "latest": "이석구 사장, 신세계百 부문장 맡는다…면세점 대표 겸직",
 "tok": [
+"감사기능",
+"강화",
 "겸직",
 "대표",
 "맡는다",
 "면세점",
+"백화점부문",
 "백화점부문장",
 "부문장",
 "사장",
+"선임",
 "신세계",
 "신세계百",
 "신세계디에프",
@@ -3966,8 +3978,8 @@
 "spike": false
 },
 "화재": {
-"n30": 1,
-"base": 1.6,
+"n30": 0,
+"base": 1.5,
 "spike": false
 },
 "불났": {
@@ -3982,7 +3994,7 @@
 },
 "폭발": {
 "n30": 8,
-"base": 0.1,
+"base": 0.2,
 "spike": true
 },
 "붕괴": {
@@ -4002,7 +4014,7 @@
 },
 "속보": {
 "n30": 5,
-"base": 0.8,
+"base": 0.7,
 "spike": true
 },
 "지하철": {
@@ -4012,7 +4024,7 @@
 },
 "사고": {
 "n30": 0,
-"base": 1.1,
+"base": 1.0,
 "spike": false
 },
 "실종": {
@@ -4056,8 +4068,8 @@
 "handle": "kimbiqu.bsky.social",
 "name": "겜스포.일상.빜",
 "time": "2026-11-06T02:16:47.982Z",
-"likes": 2,
-"reposts": 0,
+"likes": 4,
+"reposts": 1,
 "url": "https://bsky.app/profile/kimbiqu.bsky.social/post/3mzmcu6ihkk2h",
 "term": "폭발"
 },
@@ -4261,16 +4273,6 @@
 "url": "https://www.youtube.com/watch?v=ncEp_EfpWBc"
 },
 {
-"text": "근데동시에 화재경보기 울려서 억쉬발 나때문인가함",
-"handle": "water-magpie.bsky.social",
-"name": "네?",
-"time": "2026-11-06T01:50:18.782Z",
-"likes": 2,
-"reposts": 0,
-"url": "https://bsky.app/profile/water-magpie.bsky.social/post/3mzmbeslock2x",
-"term": "화재"
-},
-{
 "platform": "YouTube",
 "text": "[🔴 속보] 친청계, 정당법 고발에 직무정지 가처분까지 준비…김민석에 총공세 [이슈PLAY]",
 "handle": "UCWlV3Lz_55UaX4JsMj-z__Q",
@@ -4284,37 +4286,37 @@
 {
 "term": "폭발",
 "n30": 8,
-"base": 0.1,
+"base": 0.2,
 "spike": true,
-"since": "2026-11-06T02:19:07.282489+00:00"
+"since": "2026-11-06T02:21:19.511185+00:00"
 },
 {
 "term": "붕괴",
 "n30": 5,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-06T02:19:07.282489+00:00"
+"since": "2026-11-06T02:21:19.511185+00:00"
 },
 {
 "term": "속보",
 "n30": 5,
-"base": 0.8,
+"base": 0.7,
 "spike": true,
-"since": "2026-11-06T02:19:07.282489+00:00"
+"since": "2026-11-06T02:21:19.511185+00:00"
 }
 ],
 "baseline": {
 "지진": 0.05,
-"화재": 1.53,
+"화재": 1.38,
 "불났": 0.0,
 "정전": 0.05,
-"폭발": 0.18,
+"폭발": 0.26,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.69,
-"지하철": 0.79,
-"사고": 0.97,
+"속보": 0.62,
+"지하철": 0.81,
+"사고": 0.87,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -4612,14 +4614,14 @@
 "time": "2026-11-06T00:40:00+00:00",
 "news": [
 {
-"title": "삼성전기, 美 데이터센터 규제·AI 피크아웃 공포에 10%대 급락",
-"source": "Chosunbiz",
-"link": "https://biz.chosun.com/stock/stock_general/2026/11/06/QRRCK5LBIVCXDOLD3AB3NZRGVQ/"
-},
-{
 "title": "[특징주] 삼성전기, 美 AI 투자 둔화 우려에 12%대 급락",
 "source": "브릿지경제",
 "link": "https://www.viva100.com/article/20261106500162"
+},
+{
+"title": "삼성전기, 美 데이터센터 규제·AI 피크아웃 공포에 10%대 급락",
+"source": "Chosunbiz",
+"link": "https://biz.chosun.com/stock/stock_general/2026/11/06/QRRCK5LBIVCXDOLD3AB3NZRGVQ/"
 }
 ],
 "new": false
