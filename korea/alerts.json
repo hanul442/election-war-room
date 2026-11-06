@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-06T07:29:00.735071+00:00",
+"updated": "2026-11-06T07:31:16.243591+00:00",
 "errors": [],
 "events": [
 {
@@ -4588,7 +4588,7 @@
 "spike": false
 },
 "화재": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -4598,22 +4598,22 @@
 "spike": false
 },
 "정전": {
-"n30": 2,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
 "폭발": {
-"n30": 5,
+"n30": 2,
 "base": 0.6,
-"spike": true
+"spike": false
 },
 "붕괴": {
-"n30": 5,
+"n30": 0,
 "base": 0.8,
-"spike": true
+"spike": false
 },
 "대피": {
-"n30": 0,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
@@ -4623,18 +4623,18 @@
 "spike": false
 },
 "속보": {
-"n30": 8,
+"n30": 3,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "지하철": {
-"n30": 2,
-"base": 1.0,
+"n30": 1,
+"base": 0.9,
 "spike": false
 },
 "사고": {
 "n30": 3,
-"base": 1.8,
+"base": 1.9,
 "spike": false
 },
 "실종": {
@@ -4665,12 +4665,22 @@
 },
 "posts": [
 {
+"text": "왜 여기로 대피온사람들이보이지\n언제 왔던 거야 깜짝놀랐네",
+"handle": "koalla447176.bsky.social",
+"name": "코알라",
+"time": "2026-11-06T07:28:40.574Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/koalla447176.bsky.social/post/3mzmubswbsc2y",
+"term": "대피"
+},
+{
 "text": "죄송한데 블스 내 해저기지 재난사고에 유용한 직업 계십니까",
 "handle": "sharksline2.bsky.social",
 "name": "하마 de la mancha",
 "time": "2026-11-06T07:25:08.878Z",
 "likes": 5,
-"reposts": 3,
+"reposts": 4,
 "url": "https://bsky.app/profile/sharksline2.bsky.social/post/3mzmu3kccds2r",
 "term": "사고"
 },
@@ -4804,16 +4814,6 @@
 "url": "https://www.youtube.com/watch?v=mLuey29P1-k"
 },
 {
-"text": "뭔가 TRPG는 겁나 무서운 정신붕괴와 어두침침한 공포 아니면 광기 같은 느낌 위주로 생각했는데 아니었나보다... (뭘 본거임)",
-"handle": "mediumwelldonelife.bsky.social",
-"name": "키말",
-"time": "2026-11-06T07:00:34.157Z",
-"likes": 2,
-"reposts": 0,
-"url": "https://bsky.app/profile/mediumwelldonelife.bsky.social/post/3mzmspktdbk2g",
-"term": "붕괴"
-},
-{
 "platform": "YouTube",
 "text": "보호계전기가 최악의 정전을 막는 방식",
 "handle": "UC5TkDo6w1eEUxa0QZHz_HUQ",
@@ -4922,41 +4922,19 @@
 "url": "https://www.youtube.com/watch?v=lw1z-bg5lJI"
 }
 ],
-"spikes": [
-{
-"term": "폭발",
-"n30": 5,
-"base": 0.6,
-"spike": true,
-"since": "2026-11-06T07:29:00.735071+00:00"
-},
-{
-"term": "붕괴",
-"n30": 5,
-"base": 0.8,
-"spike": true,
-"since": "2026-11-06T07:29:00.735071+00:00"
-},
-{
-"term": "속보",
-"n30": 8,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-06T07:29:00.735071+00:00"
-}
-],
+"spikes": [],
 "baseline": {
 "지진": 0.05,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.6,
-"붕괴": 0.84,
-"대피": 0.05,
-"미사일": 0.1,
+"폭발": 0.64,
+"붕괴": 0.76,
+"대피": 0.15,
+"미사일": 0.09,
 "속보": 0.05,
-"지하철": 0.9,
-"사고": 1.9,
+"지하철": 0.81,
+"사고": 2.01,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
