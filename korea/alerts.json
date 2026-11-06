@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-06T15:55:02.566885+00:00",
+"updated": "2026-11-06T15:57:20.613075+00:00",
 "errors": [],
 "events": [
 {
@@ -3778,38 +3778,6 @@
 "조례",
 "추진"
 ]
-},
-{
-"id": "nkRSSLINKcooperRSSREADER0955",
-"first": "2026-11-06T09:55:53+00:00",
-"last": "2026-11-06T09:55:53+00:00",
-"updated": "2026-11-06T09:58:19.350686+00:00",
-"headline": "겨울 다가오는데…우크라, 발전소 피격으로 곳곳 정전",
-"cat": "재난",
-"regions": [],
-"sources": [
-"SBS"
-],
-"updates": [
-{
-"title": "겨울 다가오는데…우크라, 발전소 피격으로 곳곳 정전",
-"source": "SBS",
-"link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008834672&plink=RSSLINK&cooper=RSSREADER",
-"time": "2026-11-06T09:55:53+00:00",
-"stage": "1보"
-}
-],
-"level": "ALERT",
-"latest": "겨울 다가오는데…우크라, 발전소 피격으로 곳곳 정전",
-"tok": [
-"겨울",
-"곳곳",
-"다가오는데",
-"발전소",
-"우크라",
-"정전",
-"피격으"
-]
 }
 ],
 "sns": {
@@ -3840,9 +3808,9 @@
 "spike": false
 },
 "붕괴": {
-"n30": 5,
+"n30": 4,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "대피": {
 "n30": 0,
@@ -3866,7 +3834,7 @@
 },
 "사고": {
 "n30": 3,
-"base": 1.5,
+"base": 1.6,
 "spike": false
 },
 "실종": {
@@ -4146,18 +4114,11 @@
 ],
 "spikes": [
 {
-"term": "붕괴",
-"n30": 5,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-06T15:55:02.566885+00:00"
-},
-{
 "term": "속보",
 "n30": 6,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-06T15:55:02.566885+00:00"
+"since": "2026-11-06T15:57:20.613075+00:00"
 }
 ],
 "baseline": {
@@ -4170,8 +4131,8 @@
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 1.3,
-"사고": 1.65,
+"지하철": 1.27,
+"사고": 1.78,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -4564,9 +4525,9 @@
 "link": "https://news.sbs.co.kr/english/article.do?news_id=N1008834827"
 },
 {
-"title": "6.2-magnitude quake hits off Honshu coast",
-"source": "Breakingthenews.net",
-"link": "https://breakingthenews.net/Article/6.2-magnitude-quake-hits-off-Honshu-coast/67504737"
+"title": "Magnitude 6.1 quake hits off Tokyo, but no tsunami alert issued",
+"source": "The Japan Times",
+"link": "https://www.japantimes.co.jp/news/2026/11/06/japan/tokyo-shallow-quake/"
 }
 ],
 "new": false
