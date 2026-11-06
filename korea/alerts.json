@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-06T10:43:32.326092+00:00",
+"updated": "2026-11-06T10:45:46.628298+00:00",
 "errors": [],
 "events": [
 {
@@ -4914,13 +4914,13 @@
 "terms": {
 "지진": {
 "n30": 3,
-"base": 0.8,
+"base": 1.0,
 "spike": false
 },
 "화재": {
-"n30": 5,
+"n30": 4,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "불났": {
 "n30": 0,
@@ -4933,13 +4933,13 @@
 "spike": false
 },
 "폭발": {
-"n30": 7,
-"base": 0.3,
+"n30": 6,
+"base": 0.4,
 "spike": true
 },
 "붕괴": {
 "n30": 2,
-"base": 0.3,
+"base": 0.2,
 "spike": false
 },
 "대피": {
@@ -4953,18 +4953,18 @@
 "spike": false
 },
 "속보": {
-"n30": 9,
-"base": 0.6,
+"n30": 5,
+"base": 0.7,
 "spike": true
 },
 "지하철": {
 "n30": 4,
-"base": 2.8,
+"base": 2.9,
 "spike": false
 },
 "사고": {
 "n30": 3,
-"base": 2.0,
+"base": 2.1,
 "spike": false
 },
 "실종": {
@@ -4994,6 +4994,16 @@
 }
 },
 "posts": [
+{
+"text": "【지진 정보】일본 시간 11월 6일 19:39경\n진원: 진원 조사 중\n최대 진도: 3\n진도 3: 이바라키현\n(일본 기상청 발표)\n#일본 #지진 #방재",
+"handle": "ko.soramoyou.yk-planning.jp",
+"name": "Soramoyou 한국어",
+"time": "2026-11-06T10:43:33.270Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/ko.soramoyou.yk-planning.jp/post/3mzn76ds4262m",
+"term": "지진"
+},
 {
 "text": "지진이에요?",
 "handle": "yetnalsaram.bsky.social",
@@ -5302,16 +5312,6 @@
 "url": "https://www.youtube.com/watch?v=5KDUIubuuVs"
 },
 {
-"text": " “그날도 바쁘게 은행원 연수를 하고 있었는데 마이니치신문 기자한테 연락이 왔어요. ‘오늘 이시하라의 발언을 어떻게 생각하냐’고 묻더라고요.” \n\n기사를 본 그는 얼어붙었다. 육상자위대 창설 기념식에서 이시하라 신타로 당시 도쿄도지사가 2차 대전 이후 일본에 사는 한국인과 중국인을 비하했던 표현인 ‘삼국인’을 입에 올린 것이다. 그는 할머니가 평생 악몽을 떨쳐내지 못했던 1923년 간토대지진",
-"handle": "starbitsinkor.bsky.social",
-"name": "우주먼작귀",
-"time": "2026-11-06T10:13:42.172Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/starbitsinkor.bsky.social/post/3mzn5iws2cm2s",
-"term": "지진"
-},
-{
 "platform": "YouTube",
 "text": "예비군 사단이 처음 쏜 미사일 #shorts",
 "handle": "UCxOWO01dIC5XSoWpYLhd6Nw",
@@ -5323,41 +5323,34 @@
 ],
 "spikes": [
 {
-"term": "화재",
-"n30": 5,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-06T10:43:32.326092+00:00"
-},
-{
 "term": "폭발",
-"n30": 7,
-"base": 0.3,
+"n30": 6,
+"base": 0.4,
 "spike": true,
-"since": "2026-11-06T10:43:32.326092+00:00"
+"since": "2026-11-06T10:45:46.628298+00:00"
 },
 {
 "term": "속보",
-"n30": 9,
-"base": 0.6,
+"n30": 5,
+"base": 0.7,
 "spike": true,
-"since": "2026-11-06T10:43:32.326092+00:00"
+"since": "2026-11-06T10:45:46.628298+00:00"
 }
 ],
 "baseline": {
-"지진": 1.02,
+"지진": 1.22,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.37,
-"붕괴": 0.24,
+"폭발": 0.43,
+"붕괴": 0.22,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.68,
-"지하철": 2.85,
-"사고": 2.09,
+"속보": 0.71,
+"지하철": 2.87,
+"사고": 2.18,
 "실종": 0.05,
-"단수": 0.37,
+"단수": 0.33,
 "통신 장애": 0.05,
 "먹통": 0.05,
 "산불": 0.05
@@ -5585,8 +5578,26 @@
 },
 "trends": [
 {
+"term": "소형준",
+"traffic": "500+",
+"time": "2026-11-06T09:40:00+00:00",
+"news": [
+{
+"title": "박진만 삼성 감독 \"배찬승이 있어 원태인 선발로 돌린다\"",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261106147200007"
+},
+{
+"title": "[사진]삼성 박진만 감독, 'KS 3차전 승리로'",
+"source": "Chosunbiz",
+"link": "https://biz.chosun.com/sports/sports_photo/2026/11/06/MM2GGMLDMNRTMNBXGRSGCOBXHA/"
+}
+],
+"new": true
+},
+{
 "term": "퇴직",
-"traffic": "200+",
+"traffic": "20000+",
 "time": "2026-11-06T09:40:00+00:00",
 "news": [
 {
@@ -5600,7 +5611,7 @@
 "link": "https://stock.mk.co.kr/news/view/1192498"
 }
 ],
-"new": true
+"new": false
 },
 {
 "term": "티빙",
@@ -5608,17 +5619,35 @@
 "time": "2026-11-06T09:30:00+00:00",
 "news": [
 {
-"title": "티빙, 3분기 영업손실 72억원...\"확실한 손익 개선 흐름\"",
-"source": "지디넷코리아",
-"link": "https://zdnet.co.kr/view/?no=20261105152651"
-},
-{
 "title": "하나증권 \"CJ ENM, 간만의 TV 광고 회복세…목표가 상향\"",
 "source": "연합뉴스",
 "link": "https://www.yna.co.kr/view/AKR20261106026900008"
+},
+{
+"title": "CJ온스타일 '탈홈쇼핑' 투자 고삐, 이선영 수익성 뒷걸음에도 미래 고객 확보 베팅",
+"source": "비즈니스포스트",
+"link": "https://www.businesspost.co.kr/BP?command=article_view&num=451398"
 }
 ],
 "new": false
+},
+{
+"term": "병사",
+"traffic": "100+",
+"time": "2026-11-06T09:20:00+00:00",
+"news": [
+{
+"title": "‘강제 팔굽혀펴기’ 100회로 근육 녹게 한 軍간부, 재판 넘겨져",
+"source": "동아일보",
+"link": "https://www.donga.com/news/Society/article/all/20261106/134978709/1"
+},
+{
+"title": "'강제 팔굽혀펴기'로 병사 근육 녹인 군 간부 가혹행위죄 기소",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261106074000062"
+}
+],
+"new": true
 },
 {
 "term": "한국시리즈 3차전",
@@ -5626,9 +5655,9 @@
 "time": "2026-11-06T09:10:00+00:00",
 "news": [
 {
-"title": "‘국민타자’ 이승엽, 삼성라이온즈파크에 뜬다…3차전 시구",
-"source": "동아일보",
-"link": "https://www.donga.com/news/Sports/article/all/20261106/134980475/1"
+"title": "한국시리즈 3차전, 전설과 무대가 만난다..... 이승엽 시구·김소현 애국가…야구팬 기대감 고조",
+"source": "제민일보",
+"link": "http://www.jemin.com/news/articleView.html?idxno=846362"
 },
 {
 "title": "[사진]KT 선발 소형준, 반드시 이긴다",
@@ -5670,24 +5699,6 @@
 "title": "진(眞) 저력 입증한 이소나, 변진섭 '그대 내게 다시'부터 김상배 '삼백초'까지",
 "source": "국제뉴스",
 "link": "https://www.gukjenews.com/news/articleView.html?idxno=3743776"
-}
-],
-"new": false
-},
-{
-"term": "강민호",
-"traffic": "200+",
-"time": "2026-11-06T08:40:00+00:00",
-"news": [
-{
-"title": "\"번트? 저 강민호인데요\" 13년 전 CF대사, 올해 강민호에겐 없다",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261106134600007"
-},
-{
-"title": "구자욱은 뛰지도 못하는데..득점 막는 '2개의 핸디캡' 삼성은 무슨 생각으로 '자동아웃' 포수를 라인업에 두고 있을까[KS]",
-"source": "조선일보",
-"link": "https://www.chosun.com/sports/baseball/2026/11/06/HFTGMY3GGJRDSNZYMEYDCMTBGY/"
 }
 ],
 "new": false
@@ -5742,24 +5753,6 @@
 "title": "연애금지에 소속사가 초상권 무기한 사용…뉴진스 비밀계약 공개",
 "source": "연합뉴스",
 "link": "https://www.yna.co.kr/view/AKR20261106094700075"
-}
-],
-"new": false
-},
-{
-"term": "부산 불꽃축제",
-"traffic": "100+",
-"time": "2026-11-06T08:30:00+00:00",
-"news": [
-{
-"title": "카카오맵, ‘제21회 부산불꽃축제’ 축제 전용 지도 제공…혼잡 구역부터 일행 위치 확인까지",
-"source": "카카오",
-"link": "https://www.kakaocorp.com/page/detail/12194"
-},
-{
-"title": "KT, 부산불꽃축제 특별 소통 대책 가동",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/PYH20261106013600013"
 }
 ],
 "new": false
@@ -5893,6 +5886,7 @@
 "배구",
 "배드민턴",
 "배트맨",
+"병사",
 "보디빌더",
 "부산 불꽃축제",
 "비트코인",
@@ -5913,6 +5907,7 @@
 "세종의사당",
 "셀트리온",
 "소형모듈원자로",
+"소형준",
 "쇼메이커",
 "수능일",
 "수소",
