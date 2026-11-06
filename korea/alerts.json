@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-06T16:01:56.734157+00:00",
+"updated": "2026-11-06T16:04:13.598106+00:00",
 "errors": [],
 "events": [
 {
@@ -3795,12 +3795,12 @@
 },
 "지하철": {
 "n30": 0,
-"base": 1.1,
+"base": 1.0,
 "spike": false
 },
 "사고": {
 "n30": 5,
-"base": 2.1,
+"base": 2.4,
 "spike": false
 },
 "실종": {
@@ -4089,8 +4089,8 @@
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 1.03,
-"사고": 2.39,
+"지하철": 0.93,
+"사고": 2.65,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -4311,6 +4311,42 @@
 },
 "trends": [
 {
+"term": "유튜버",
+"traffic": "2000+",
+"time": "2026-11-06T15:00:00+00:00",
+"news": [
+{
+"title": "‘여성 학대 의혹’ 유튜버 카광, 채널 삭제 이어 ‘출국금지’… 경찰 수사 본격화",
+"source": "스포츠경향",
+"link": "https://sports.khan.co.kr/article/202611061749003"
+},
+{
+"title": "인기 유튜버, 女 학대 생중계 논란…16년 전 파묘 (궁금한 이야기Y)",
+"source": "스포츠동아",
+"link": "https://sports.donga.com/ent/article/all/20261106/134981087/1"
+}
+],
+"new": true
+},
+{
+"term": "강남",
+"traffic": "1000+",
+"time": "2026-11-06T15:00:00+00:00",
+"news": [
+{
+"title": "[르포] 강남 은마아파트 가보니 “분담금에 세금 겹쳐 급락했지만… 매수는 현금부자만”",
+"source": "대한경제",
+"link": "https://www.dnews.co.kr/uhtml/view.jsp?idxno=202611041530490450645"
+},
+{
+"title": "\"최근 강남3구서 5% 이상 하락 거래 16건\"",
+"source": "YTN",
+"link": "https://www.ytn.co.kr/_ln/0102_202611062251356141"
+}
+],
+"new": true
+},
+{
 "term": "숲",
 "traffic": "2000+",
 "time": "2026-11-06T14:20:00+00:00",
@@ -4406,14 +4442,14 @@
 "time": "2026-11-06T13:00:00+00:00",
 "news": [
 {
-"title": "‘스코어카드 반대로 썼다’… 장유빈 KPGA 최종전 실격, 상금·대상 2관왕 무산",
-"source": "조선일보",
-"link": "https://www.chosun.com/national/people/2026/11/06/WUGH7AT4N5DH5IDTBW6OFLVDZE/"
+"title": "KPGA 대상·상금왕 노리던 장유빈, 스코어카드 오기로 실격",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261106161900007"
 },
 {
-"title": "황재민, 초속 13ｍ 강풍에도 66타…KPGA 투어챔피언십 2R 선두",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261106162900007"
+"title": "[오늘의 날씨] 2026년 11월 7일",
+"source": "조선일보",
+"link": "https://www.chosun.com/national/national_general/2026/11/07/JGEMM5KM5NGTPJY3DDE6J4SDLU/"
 }
 ],
 "new": false
@@ -4453,47 +4489,9 @@
 }
 ],
 "new": false
-},
-{
-"term": "현장르포 특종세상",
-"traffic": "500+",
-"time": "2026-11-06T12:40:00+00:00",
-"news": [
-{
-"title": "'성형 부작용' 김세레나 근황…\"100억 빌려 주고 못 받아\" - 머니투데이",
-"source": "머니투데이",
-"link": "https://www.mt.co.kr/entertainment/2026/11/06/2026110523315220253"
-},
-{
-"title": "김세레나 \"첫 남편 유부남인 줄 몰랐다\"…굴곡진 인생사 털어놔",
-"source": "세계일보",
-"link": "https://www.segye.com/newsView/20261106501275"
-}
-],
-"new": false
-},
-{
-"term": "sbs",
-"traffic": "500+",
-"time": "2026-11-06T12:40:00+00:00",
-"news": [
-{
-"title": "Magnitude 6.1 Earthquake Hits Waters Off Chiba City, Chiba Prefecture, Japan",
-"source": "news.sbs.co.kr",
-"link": "https://news.sbs.co.kr/english/article.do?news_id=N1008834827"
-},
-{
-"title": "6.2-magnitude quake hits off Honshu coast",
-"source": "Breakingthenews.net",
-"link": "https://breakingthenews.net/Article/6.2-magnitude-quake-hits-off-Honshu-coast/67504737"
-}
-],
-"new": false
 }
 ],
 "trendSeen": [
-"1기 신도시",
-"2026",
 "a24",
 "amd",
 "blg",
@@ -4535,6 +4533,7 @@
 "天氣",
 "가상자산",
 "가즈아법당",
+"강남",
 "강민호",
 "강아지",
 "강원도민일보",
@@ -4703,6 +4702,7 @@
 "유물",
 "유연석",
 "유치원",
+"유튜버",
 "유현주",
 "이동국",
 "이범호",
