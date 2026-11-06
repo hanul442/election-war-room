@@ -1,16 +1,17 @@
 {
-"updated": "2026-11-06T23:12:07.677500+00:00",
+"updated": "2026-11-06T23:14:25.978234+00:00",
 "errors": [],
 "events": [
 {
 "id": "ThGSTRoeFVoMmNtWnZhQQoc52239",
 "first": "2026-11-06T22:39:11+00:00",
-"last": "2026-11-06T23:05:00+00:00",
-"updated": "2026-11-06T23:07:23.512290+00:00",
+"last": "2026-11-06T23:07:01+00:00",
+"updated": "2026-11-06T23:14:25.978234+00:00",
 "headline": "미래에셋증권도 해킹…고객·임직원 정보 일부 유출",
 "cat": "기타",
 "regions": [],
 "sources": [
+"www.dt.co.kr",
 "경기일보",
 "경향신문",
 "뉴시스",
@@ -106,12 +107,20 @@
 "link": "https://www.newsis.com/view/NISX20261107_0003858751",
 "time": "2026-11-06T23:05:00+00:00",
 "stage": "후속"
+},
+{
+"title": "[속보]미래에셋증권도 뚫렸다…고객 3800·임직원 3만5000명 정보 유출",
+"source": "www.dt.co.kr",
+"link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1Ha1JNNTByWUFLaVkza3BVcjVlMFlLV2c0TDY3TlF2WFpfbXQtdkRLdDZWUFdqNjBKM3hReFN6MnByR0ZzdFlIRVdlNXh0dw?oc=5",
+"time": "2026-11-06T23:07:01+00:00",
+"stage": "속보"
 }
 ],
 "level": "URGENT",
-"latest": "미래에셋증권 해킹에 고객 3800명·임직원 3.5만명 정보 유출",
+"latest": "미래에셋증권도 뚫렸다…고객 3800·임직원 3만5000명 정보 유출",
 "tok": [
 "3800명",
+"3만5000명",
 "3만5천여명",
 "3만9000여명",
 "3천800여개",
@@ -1665,7 +1674,7 @@
 },
 "사고": {
 "n30": 2,
-"base": 1.1,
+"base": 1.2,
 "spike": false
 },
 "실종": {
@@ -1700,7 +1709,7 @@
 "handle": "3gg88ang.bsky.social",
 "name": "겨랸뺭🔒",
 "time": "2026-11-06T23:09:48.275Z",
-"likes": 0,
+"likes": 1,
 "reposts": 0,
 "url": "https://bsky.app/profile/3gg88ang.bsky.social/post/3mzoiuqqu2s2t",
 "term": "사고"
@@ -1938,14 +1947,14 @@
 "n30": 6,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-06T23:12:07.677500+00:00"
+"since": "2026-11-06T23:14:25.978234+00:00"
 },
 {
 "term": "속보",
 "n30": 8,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-06T23:12:07.677500+00:00"
+"since": "2026-11-06T23:14:25.978234+00:00"
 }
 ],
 "baseline": {
@@ -1959,7 +1968,7 @@
 "미사일": 0.05,
 "속보": 0.05,
 "지하철": 0.05,
-"사고": 1.23,
+"사고": 1.31,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -2189,6 +2198,60 @@
 },
 "trends": [
 {
+"term": "적금",
+"traffic": "200+",
+"time": "2026-11-06T22:10:00+00:00",
+"news": [
+{
+"title": "부산은행, BNK썸농구단 우승 기원 적금 출시…최고 4.9% 금리",
+"source": "매일경제 마켓",
+"link": "https://stock.mk.co.kr/news/view/1192202"
+},
+{
+"title": "BNK부산은행, BNK썸 농구단 응원 적금 출시…최고 금리 4.90%",
+"source": "뉴스핌",
+"link": "https://www.newspim.com/news/view/20261106000906"
+}
+],
+"new": true
+},
+{
+"term": "하지수",
+"traffic": "200+",
+"time": "2026-11-06T22:10:00+00:00",
+"news": [
+{
+"title": "이찬혁, 열애설 상대 하지수와 예능 포착… 손 꼭 잡고 스윙댄스",
+"source": "한국일보",
+"link": "https://www.hankookilbo.com/news/article/A2026110507590005515"
+},
+{
+"title": "이찬혁, 열애설 하지수와 댄스 파트너…손잡고 스윙 댄스 - 머니투데이",
+"source": "머니투데이",
+"link": "https://www.mt.co.kr/entertainment/2026/11/04/2026110419420737591"
+}
+],
+"new": true
+},
+{
+"term": "스페이스x",
+"traffic": "100+",
+"time": "2026-11-06T22:10:00+00:00",
+"news": [
+{
+"title": "美 민주당 압승 여파에 스페이스X 부도 위험 사상 최고치 By The Guru",
+"source": "Investing.com 한국어",
+"link": "https://kr.investing.com/news/stock-market-news/article-2163176"
+},
+{
+"title": "급락장 벗어난 스페이스X, 하루 만에 8.53% 반등… AI 사업 성장 기대와 규제 부담 교차",
+"source": "제민일보",
+"link": "https://www.jemin.com/news/articleView.html?idxno=846380"
+}
+],
+"new": true
+},
+{
 "term": "치지직",
 "traffic": "2000+",
 "time": "2026-11-06T22:00:00+00:00",
@@ -2302,66 +2365,9 @@
 }
 ],
 "new": false
-},
-{
-"term": "비트코인",
-"traffic": "500+",
-"time": "2026-11-06T21:20:00+00:00",
-"news": [
-{
-"title": "블랙록 IBIT, 5거래일 연속 10억 4,000만 달러 이탈…나스닥 5.5% 급락 여파",
-"source": "위키트리",
-"link": "https://www.wikitree.co.kr/articles/1172576"
-},
-{
-"title": "[ETF 특징주] 비트코인 펀드 이틀간 10억달러 '썰물' 바이낸스·중간선거 파장",
-"source": "뉴스핌",
-"link": "https://www.newspim.com/news/view/20261104001165"
-}
-],
-"new": false
-},
-{
-"term": "패션",
-"traffic": "1000+",
-"time": "2026-11-06T21:10:00+00:00",
-"news": [
-{
-"title": "Fashion Doesn’t Need Kanye West’s Yeezy",
-"source": "The New York Times",
-"link": "https://www.nytimes.com/2026/11/05/style/yeezy-season-01-fashion-show-kanye-west.html"
-},
-{
-"title": "Yeezy Returns with LA Runway Show and JD Sports Partnership",
-"source": "Bloomberg.com",
-"link": "https://www.bloomberg.com/news/articles/2026-11-06/yeezy-returns-with-la-runway-show-and-jd-sports-partnership"
-}
-],
-"new": false
-},
-{
-"term": "임영웅",
-"traffic": "200+",
-"time": "2026-11-06T21:10:00+00:00",
-"news": [
-{
-"title": "임영웅, 공연 실황 영화 예고편 공개… “앞으로 10년도 함께”",
-"source": "Chosunbiz",
-"link": "https://biz.chosun.com/entertainment/enter_general/2026/11/06/P6I7OBIKH5BJFPZCELCE7TOAIA/"
-},
-{
-"title": "“영웅시대와 함께한 10년의 기적”…임영웅, 스타디움 감동 담은 예고편 공개",
-"source": "브릿지경제",
-"link": "https://www.viva100.com/article/20261106500158"
-}
-],
-"new": false
 }
 ],
 "trendSeen": [
-"voo",
-"warriors vs heat",
-"west indies vs bangladesh",
 "xsmb",
 "天氣",
 "가상자산",
@@ -2507,6 +2513,7 @@
 "숲",
 "스노클링",
 "스톡 옵션",
+"스페이스x",
 "시콜 스키 s 92",
 "시험",
 "식이",
@@ -2582,6 +2589,7 @@
 "장윤정",
 "장찬희",
 "저격수",
+"적금",
 "전국금속노동조합",
 "제네시스 g90",
 "제니",
@@ -2638,6 +2646,7 @@
 "필리핀",
 "하이닉스",
 "하이닉스 주가",
+"하지수",
 "하지원",
 "한국경제",
 "한국대학신문",
