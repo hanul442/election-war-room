@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-06T15:27:25.053503+00:00",
+"updated": "2026-11-06T15:29:43.137102+00:00",
 "errors": [],
 "events": [
 {
@@ -4018,11 +4018,11 @@
 },
 "폭발": {
 "n30": 6,
-"base": 0.2,
+"base": 0.1,
 "spike": true
 },
 "붕괴": {
-"n30": 7,
+"n30": 6,
 "base": 0.1,
 "spike": true
 },
@@ -4042,13 +4042,13 @@
 "spike": true
 },
 "지하철": {
-"n30": 4,
+"n30": 5,
 "base": 1.2,
-"spike": false
+"spike": true
 },
 "사고": {
 "n30": 0,
-"base": 2.5,
+"base": 2.3,
 "spike": false
 },
 "실종": {
@@ -4078,6 +4078,16 @@
 }
 },
 "posts": [
+{
+"text": "대전에서 대학원생 트리 하시는거군요.\n\n동편주차전문학교 언저리 월세랑 기타는 봉명동쪽 보셔야 할겁니다- 인데 지하철 생기면서 월세 엄청 올랏을겁니다.\n\n하여간 남향에 바람 잘드는 방 잘 구하십쇼. 자야 회복이 됩니다.",
+"handle": "togonine.bsky.social",
+"name": "ฅ^•ﻌ•^ฅ6°⍢°1-Episode 2ฅ^•ﻌ•^ฅ",
+"time": "2026-11-06T15:28:27.971Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/togonine.bsky.social/post/3mznp3qfo2k2o",
+"term": "지하철"
+},
 {
 "platform": "YouTube",
 "text": "코스피 6% 폭락, 장중 5천 붕괴… 반등할 수 있을까?",
@@ -4309,23 +4319,30 @@
 {
 "term": "폭발",
 "n30": 6,
-"base": 0.2,
+"base": 0.1,
 "spike": true,
-"since": "2026-11-06T15:27:25.053503+00:00"
+"since": "2026-11-06T15:29:43.137102+00:00"
 },
 {
 "term": "붕괴",
-"n30": 7,
+"n30": 6,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-06T15:27:25.053503+00:00"
+"since": "2026-11-06T15:29:43.137102+00:00"
 },
 {
 "term": "속보",
 "n30": 5,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-06T15:27:25.053503+00:00"
+"since": "2026-11-06T15:29:43.137102+00:00"
+},
+{
+"term": "지하철",
+"n30": 5,
+"base": 1.2,
+"spike": true,
+"since": "2026-11-06T15:29:43.137102+00:00"
 }
 ],
 "baseline": {
@@ -4333,13 +4350,13 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.15,
+"폭발": 0.14,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 1.19,
-"사고": 2.27,
+"지하철": 1.27,
+"사고": 2.04,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -4633,9 +4650,9 @@
 "link": "https://www.politico.com/news/2026/11/05/hegseth-expands-d-c-national-guard-presence-01151398"
 },
 {
-"title": "Hegseth allows National Guard to boost DC patrols with military vehicles, boats and patrol cars",
-"source": "NBC4 Washington",
-"link": "https://www.nbcwashington.com/news/local/hegseth-national-guard-boost-dc-patrols-military-vehicles-boats-patrol-cars/4178655/"
+"title": "National Guard to Expand Patrols in Washington With Military Vehicles and Boats",
+"source": "The New York Times",
+"link": "https://www.nytimes.com/2026/11/05/us/politics/washington-dc-national-guard-troops-hegseth-trump.html"
 }
 ],
 "new": false
