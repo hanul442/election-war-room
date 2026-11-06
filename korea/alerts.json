@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-06T10:20:52.038028+00:00",
+"updated": "2026-11-06T10:23:07.932564+00:00",
 "errors": [],
 "events": [
 {
@@ -150,11 +150,12 @@
 "id": "wNISX20261106_00038582270641",
 "first": "2026-11-06T06:41:53+00:00",
 "last": "2026-11-06T09:48:21+00:00",
-"updated": "2026-11-06T10:20:52.038028+00:00",
+"updated": "2026-11-06T10:23:07.932564+00:00",
 "headline": "공소청, '세브란스 교수 흉기 피습' 50대 구속영장 청구",
 "cat": "기타",
 "regions": [],
 "sources": [
+"Chosunbiz",
 "SBS",
 "경향신문",
 "뉴시스",
@@ -254,6 +255,13 @@
 "source": "연합뉴스",
 "link": "https://www.yna.co.kr/view/AKR20261106175600004",
 "time": "2026-11-06T09:28:26+00:00",
+"stage": "속보"
+},
+{
+"title": "[속보] 공소청, 경찰 신청 강호동 농협중앙회장 구속영장 기각",
+"source": "Chosunbiz",
+"link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPVXpmc1hYTDlVRHpBZ1lZclRBV1FrUHNMRjRKUldKTzZJVEk3SkhPRU5KQXRqLXdNODI5bTlnMUJrSHFxci1ZSWtDXzRJaDV4aDNfNzQycUJxaHVQWXFHdEFabXpiXzNpLTVYRy1yZ2pvamJLUFpFM2Q3d1l4cjhEOTdnTdIBlwFBVV95cUxPOHVqcFpmRVA5VzJJUWx4OXZ5MlZkNkZDYi1ySDl3TV85VzA0MXl6VEw3TFRvSEQydXdyTldCcnlDaUtjOHA3cmtIUU1NWlZYM3M0Mmw3cUE3Y2xkQkJWUW1NQXgxNm8wVkNyWlJtUzNHdjFtUG1ldWNENTRoOVVVUzREMWVkSUh2bTluWmlDcllFdHpWbllz?oc=5",
+"time": "2026-11-06T09:31:00+00:00",
 "stage": "속보"
 },
 {
@@ -4921,7 +4929,7 @@
 "terms": {
 "지진": {
 "n30": 3,
-"base": 0.4,
+"base": 0.5,
 "spike": false
 },
 "화재": {
@@ -4946,7 +4954,7 @@
 },
 "붕괴": {
 "n30": 5,
-"base": 0.8,
+"base": 0.7,
 "spike": true
 },
 "대피": {
@@ -4960,18 +4968,18 @@
 "spike": false
 },
 "속보": {
-"n30": 4,
+"n30": 5,
 "base": 0.1,
-"spike": false
+"spike": true
 },
 "지하철": {
-"n30": 9,
-"base": 1.1,
+"n30": 10,
+"base": 1.2,
 "spike": true
 },
 "사고": {
 "n30": 2,
-"base": 1.2,
+"base": 1.3,
 "spike": false
 },
 "실종": {
@@ -4981,7 +4989,7 @@
 },
 "단수": {
 "n30": 1,
-"base": 0.6,
+"base": 0.7,
 "spike": false
 },
 "통신 장애": {
@@ -5001,6 +5009,26 @@
 }
 },
 "posts": [
+{
+"text": "지하철에서 핸드폰 밝기 낮춰놓고 블스 댓글 다는거 왜이렇게 좋지? ㅋㅋㅋㅋ 배덕감이..ㄷㄷㄷ",
+"handle": "tusususu.bsky.social",
+"name": "투스스",
+"time": "2026-11-06T10:22:12.881Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/tusususu.bsky.social/post/3mzn5y6k2ec24",
+"term": "지하철"
+},
+{
+"text": "[속보]판탈로네 전격 금연 선언 #원신",
+"handle": "iryu0428.pointless.chat.ap.brid.gy",
+"name": "이류🐺🦇🖋 :txt_pointless:",
+"time": "2026-11-06T10:21:20.778Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/iryu0428.pointless.chat.ap.brid.gy/post/3mzn5wj4ql2k2",
+"term": "속보"
+},
 {
 "text": "요즘 사고가 너무 많이 나서 맨날 차가 밀려... 10-4 하자고오",
 "handle": "bluemucha.bsky.social",
@@ -5284,37 +5312,44 @@
 "n30": 6,
 "base": 0.3,
 "spike": true,
-"since": "2026-11-06T10:20:52.038028+00:00"
+"since": "2026-11-06T10:23:07.932564+00:00"
 },
 {
 "term": "붕괴",
 "n30": 5,
-"base": 0.8,
+"base": 0.7,
 "spike": true,
-"since": "2026-11-06T10:20:52.038028+00:00"
+"since": "2026-11-06T10:23:07.932564+00:00"
+},
+{
+"term": "속보",
+"n30": 5,
+"base": 0.1,
+"spike": true,
+"since": "2026-11-06T10:23:07.932564+00:00"
 },
 {
 "term": "지하철",
-"n30": 9,
-"base": 1.1,
+"n30": 10,
+"base": 1.2,
 "spike": true,
-"since": "2026-11-06T10:20:52.038028+00:00"
+"since": "2026-11-06T10:23:07.932564+00:00"
 }
 ],
 "baseline": {
-"지진": 0.49,
+"지진": 0.54,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.26,
-"붕괴": 0.69,
+"폭발": 0.23,
+"붕괴": 0.62,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.05,
-"지하철": 1.22,
-"사고": 1.29,
+"속보": 0.15,
+"지하철": 1.4,
+"사고": 1.36,
 "실종": 0.05,
-"단수": 0.68,
+"단수": 0.71,
 "통신 장애": 0.05,
 "먹통": 0.05,
 "산불": 0.05
@@ -5606,9 +5641,9 @@
 "link": "https://www.ytn.co.kr/_ln/0134_202611061433540189"
 },
 {
-"title": "[포토] 박진만 감독 '김지찬 상태 괜찮다' - 머니투데이",
-"source": "머니투데이",
-"link": "https://www.mt.co.kr/sports/2026/11/06/2026110616034073909"
+"title": "\"우승의 기쁨, 함께 나눠요\" 국민 유격수 향한 특별한 응원…대구CC 우승수 대표의 깜짝 이벤트 [KS3]",
+"source": "조선일보",
+"link": "https://www.chosun.com/sports/baseball/2026/11/06/GQ3WKNLCGUZTEOJUGBRDCYRRMQ/"
 }
 ],
 "new": false
@@ -5624,9 +5659,9 @@
 "link": "https://www.korea.kr/news/policyNewsView.do?newsId=148975124"
 },
 {
-"title": "가상자산 과세 또 유예‥\"투자자 눈치보기?\"",
-"source": "MBC 뉴스",
-"link": "https://imnews.imbc.com/replay/2026/nw1400/article/6863714_36974.html"
+"title": "정부 '가상자산 과세' 네 번째 유예, 디지털자산법 입법 지연에 정책 신뢰성·조세형평성 논란",
+"source": "비즈니스포스트",
+"link": "https://www.businesspost.co.kr/BP?command=article_view&num=451394"
 }
 ],
 "new": false
@@ -5637,9 +5672,9 @@
 "time": "2026-11-06T08:30:00+00:00",
 "news": [
 {
-"title": "하이브·어도어, \"뉴진스 계약서에 미성년자 보호 조항 빠졌다\"는 美 언론 보도 반박",
-"source": "YTN",
-"link": "https://www.ytn.co.kr/_ln/0117_202611061140471579"
+"title": "NYT가 입수한 ‘가혹한 뉴진스 계약서’ 파장···하이브 “적법한 계약” 해명",
+"source": "경향신문",
+"link": "https://www.khan.co.kr/article/202611061345001"
 },
 {
 "title": "연애금지에 소속사가 초상권 무기한 사용…뉴진스 비밀계약 공개",
