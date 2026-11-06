@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-06T04:11:54.909430+00:00",
+"updated": "2026-11-06T04:14:09.072590+00:00",
 "errors": [],
 "events": [
 {
@@ -3830,7 +3830,7 @@
 },
 "불났": {
 "n30": 1,
-"base": 0.1,
+"base": 0.2,
 "spike": false
 },
 "정전": {
@@ -3839,14 +3839,14 @@
 "spike": false
 },
 "폭발": {
-"n30": 2,
+"n30": 1,
 "base": 0.6,
 "spike": false
 },
 "붕괴": {
-"n30": 5,
+"n30": 4,
 "base": 0.5,
-"spike": true
+"spike": false
 },
 "대피": {
 "n30": 0,
@@ -4177,27 +4177,19 @@
 "url": "https://www.youtube.com/watch?v=Cg_RhwqXlpY"
 }
 ],
-"spikes": [
-{
-"term": "붕괴",
-"n30": 5,
-"base": 0.5,
-"spike": true,
-"since": "2026-11-06T04:11:54.909430+00:00"
-}
-],
+"spikes": [],
 "baseline": {
 "지진": 0.05,
-"화재": 0.11,
-"불났": 0.19,
+"화재": 0.1,
+"불났": 0.27,
 "정전": 0.05,
-"폭발": 0.56,
-"붕괴": 0.51,
+"폭발": 0.5,
+"붕괴": 0.56,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.2,
-"지하철": 0.22,
-"사고": 3.34,
+"속보": 0.18,
+"지하철": 0.2,
+"사고": 3.41,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -4427,19 +4419,37 @@
 },
 "trends": [
 {
+"term": "국제결혼",
+"traffic": "100+",
+"time": "2026-11-06T03:10:00+00:00",
+"news": [
+{
+"title": "아뜨리앙 클라르하임, `2026 고객신뢰도 1위 프리미엄 브랜드` 침구 부문 대상",
+"source": "마이데일리",
+"link": "https://mydaily.co.kr/page/view/2026110612415592245"
+},
+{
+"title": "효기국제결혼, ‘2026 고객신뢰도 1위 프리미엄 브랜드 대상’ 수상",
+"source": "미주중앙일보",
+"link": "https://www.koreadaily.com/article/20261103232548991"
+}
+],
+"new": true
+},
+{
 "term": "매일경제",
 "traffic": "500+",
 "time": "2026-11-06T03:00:00+00:00",
 "news": [
 {
-"title": "“코스피, 내년 마지막 불꽃…삼전닉스와 이 2종목 사둬라”",
-"source": "중앙일보",
-"link": "https://www.joongang.co.kr/article/25475713"
+"title": "[부고] 홍성윤(매일경제신문 기자)씨 장인상",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261106028100505"
 },
 {
-"title": "\"그래도 만스피 간다\"…노무라가 꼽은 韓증시 상승동력 4가지는?",
-"source": "뉴시스",
-"link": "https://www.newsis.com/view/NISX20261106_0003857779"
+"title": "[부고] 홍성윤씨(매일경제신문 기자) 장인상",
+"source": "퍼블릭타임스",
+"link": "https://www.public25.com/news/articleView.html?idxno=58017"
 }
 ],
 "new": false
@@ -4491,9 +4501,9 @@
 "link": "https://www.yna.co.kr/view/AKR20261106045200062"
 },
 {
-"title": "삼척시, 도계읍 기상 관측 공백 메웠다… 흥전초에 방재 AWS 가동",
-"source": "아주경제",
-"link": "https://www.ajunews.com/view/20261106104910208"
+"title": "[삼척소식]도계읍 흥전초에 방재기상관측장비(AWS) 설치·본격 가동 등",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261106_0003857601"
 }
 ],
 "new": false
@@ -4572,7 +4582,7 @@
 },
 {
 "term": "존리",
-"traffic": "20000+",
+"traffic": "5000+",
 "time": "2026-11-06T01:50:00+00:00",
 "news": [
 {
@@ -4584,24 +4594,6 @@
 "title": "“주식 반 토막 났는데 어떡해요?”…존리 찾아가 따지니 답변이",
 "source": "이데일리",
 "link": "https://www.edaily.co.kr/News/Read?newsId=04126246645643096&mediaCodeNo=257"
-}
-],
-"new": false
-},
-{
-"term": "소형모듈원자로",
-"traffic": "1000+",
-"time": "2026-11-06T01:40:00+00:00",
-"news": [
-{
-"title": "솔트포스, 미국 부유식 원전 인허가 추진…삼성중공업 참여",
-"source": "에너지안전신문",
-"link": "https://www.esnews.kr/news/articleView.html?idxno=7191"
-},
-{
-"title": "솔트포스, 부유식 용융염원자로 美 Part 53 인허가 착수…韓 조선·美 조립 분업 구상",
-"source": "마켓잉크",
-"link": "https://www.market-ink.co.kr/news/articleView.html?idxno=14864"
 }
 ],
 "new": false
@@ -4646,6 +4638,7 @@
 "광주광역시",
 "교차로",
 "교통",
+"국제결혼",
 "군함",
 "금값",
 "금시세",
