@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-06T20:43:54.652833+00:00",
+"updated": "2026-11-06T20:46:14.327007+00:00",
 "errors": [],
 "events": [
 {
@@ -1456,7 +1456,7 @@
 },
 "사고": {
 "n30": 1,
-"base": 0.5,
+"base": 0.6,
 "spike": false
 },
 "실종": {
@@ -1719,14 +1719,14 @@
 "n30": 5,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-06T20:43:54.652833+00:00"
+"since": "2026-11-06T20:46:14.327007+00:00"
 },
 {
 "term": "속보",
 "n30": 6,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-06T20:43:54.652833+00:00"
+"since": "2026-11-06T20:46:14.327007+00:00"
 }
 ],
 "baseline": {
@@ -1740,7 +1740,7 @@
 "미사일": 0.05,
 "속보": 0.05,
 "지하철": 0.05,
-"사고": 0.56,
+"사고": 0.6,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -1985,11 +1985,11 @@
 "link": "https://www.etoday.co.kr/news/view/2644533?trc=right_categori_news"
 }
 ],
-"new": true
+"new": false
 },
 {
 "term": "주가 대폭락",
-"traffic": "20000+",
+"traffic": "100+",
 "time": "2026-11-06T19:10:00+00:00",
 "news": [],
 "new": false
@@ -2005,9 +2005,9 @@
 "link": "https://www.khan.co.kr/article/202611061631011"
 },
 {
-"title": "뉴진스 계약서 공개되자...하이브가 내놓은 답변 [자막뉴스]",
-"source": "YTN",
-"link": "https://www.ytn.co.kr/_ln/0134_202611062336285237"
+"title": "NYT, 뉴진스 계약서 공개… “성형비용 멤버가 부담”",
+"source": "동아일보",
+"link": "https://www.donga.com/news/People/article/all/20261106/134982270/2"
 }
 ],
 "new": false
@@ -2031,6 +2031,24 @@
 "new": false
 },
 {
+"term": "옥수수",
+"traffic": "200+",
+"time": "2026-11-06T17:50:00+00:00",
+"news": [
+{
+"title": "\"주인님, 저 이상해요\"…병 걸리면 SOS 보내는 옥수수 정체",
+"source": "한국경제",
+"link": "https://www.hankyung.com/article/2026110615051"
+},
+{
+"title": "AI로 작물 분석 병해충 감지시스템 개발",
+"source": "농민신문",
+"link": "https://www.nongmin.com/article/20261030500621"
+}
+],
+"new": true
+},
+{
 "term": "이강철",
 "traffic": "500+",
 "time": "2026-11-06T17:50:00+00:00",
@@ -2044,6 +2062,24 @@
 "title": "'이럴수가' 알고보니 가을야구 9G 만에 첫 패전이라니! 이강철도 아쉽다 \"그런 볼넷 안 던지는 투수인데...\" [KS3 현장] - 머니투데이",
 "source": "머니투데이",
 "link": "https://www.mt.co.kr/sports/2026/11/07/2026110620534942569"
+}
+],
+"new": false
+},
+{
+"term": "시콜 스키 s 92",
+"traffic": "1000+",
+"time": "2026-11-06T17:40:00+00:00",
+"news": [
+{
+"title": "South Korea selects Sikorsky S-92A+ for new presidential transport helicopter",
+"source": "FlightGlobal",
+"link": "https://www.flightglobal.com/defence/2026/11/south-korea-selects-sikorsky-s-92a-for-new-presidential-transport-helicopter/"
+},
+{
+"title": "South Korea orders four S-92A+ helicopters to replace presidential fleet",
+"source": "Air Data News",
+"link": "https://www.airdatanews.com/south-korea-orders-four-s-92-a-helicopters-to-replace-presidential-fleet/"
 }
 ],
 "new": false
@@ -2090,46 +2126,20 @@
 "time": "2026-11-06T15:50:00+00:00",
 "news": [
 {
-"title": "머스크, X에 ‘테슬라 태극기’ 공유…한국시장 1위 질주 ‘자축’",
-"source": "경향신문",
-"link": "https://www.khan.co.kr/article/202611062104001"
+"title": "[주간 뉴스타파] 미국 중간선거 블루 쓰나미, 트럼프식 '정글의 법칙' 흔들리나",
+"source": "뉴스타파",
+"link": "https://newstapa.org/article/VVdwE"
 },
 {
-"title": "벤츠코리아, 직판제 안착에 신차 효과…BMW 제치고 독일 3사 ‘선두’",
-"source": "이투데이",
-"link": "https://www.etoday.co.kr/news/view/2644121"
-}
-],
-"new": false
-},
-{
-"term": "t1 kc",
-"traffic": "200+",
-"time": "2026-11-06T15:10:00+00:00",
-"news": [],
-"new": false
-},
-{
-"term": "유튜버",
-"traffic": "500+",
-"time": "2026-11-06T15:00:00+00:00",
-"news": [
-{
-"title": "자전거 여행 중 숨진 유튜버…\"마지막 여정을\" 친형의 글",
-"source": "SBS 뉴스",
-"link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008833712"
-},
-{
-"title": "‘볼리비아 사고 유튜버’ 故 진쓰레블, 마지막 영상 공개",
-"source": "스포츠경향",
-"link": "https://sports.khan.co.kr/article/202611061513013"
+"title": "의회 장악한 美민주, 35년만에 하원 260석 '거대 야당'도 넘본다",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261107002000071"
 }
 ],
 "new": false
 }
 ],
 "trendSeen": [
-"kt 대 삼성",
 "kt 삼성",
 "lg그룹",
 "lg에너지솔루션",
@@ -2323,6 +2333,7 @@
 "열차",
 "예산",
 "오타니 쇼헤이",
+"옥수수",
 "외국인",
 "우주발사체",
 "울산 현대모비스 대 썬더스",
