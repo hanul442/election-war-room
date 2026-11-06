@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-06T21:41:39.042878+00:00",
+"updated": "2026-11-06T21:43:57.147080+00:00",
 "errors": [],
 "events": [
 {
@@ -1059,7 +1059,7 @@
 "terms": {
 "지진": {
 "n30": 1,
-"base": 0.2,
+"base": 0.3,
 "spike": false
 },
 "화재": {
@@ -1078,7 +1078,7 @@
 "spike": false
 },
 "폭발": {
-"n30": 11,
+"n30": 9,
 "base": 0.3,
 "spike": true
 },
@@ -1098,7 +1098,7 @@
 "spike": false
 },
 "속보": {
-"n30": 8,
+"n30": 7,
 "base": 0.1,
 "spike": true
 },
@@ -1378,31 +1378,31 @@
 "spikes": [
 {
 "term": "폭발",
-"n30": 11,
+"n30": 9,
 "base": 0.3,
 "spike": true,
-"since": "2026-11-06T21:41:39.042878+00:00"
+"since": "2026-11-06T21:43:57.147080+00:00"
 },
 {
 "term": "속보",
-"n30": 8,
+"n30": 7,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-06T21:41:39.042878+00:00"
+"since": "2026-11-06T21:43:57.147080+00:00"
 }
 ],
 "baseline": {
-"지진": 0.32,
+"지진": 0.39,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.27,
+"폭발": 0.24,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
 "지하철": 0.05,
-"사고": 0.11,
+"사고": 0.1,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -1641,6 +1641,42 @@
 },
 "trends": [
 {
+"term": "두산에너빌리티",
+"traffic": "500+",
+"time": "2026-11-06T20:40:00+00:00",
+"news": [
+{
+"title": "[리포트 브리핑]두산에너빌리티, '미국 신규 원전 건설 가속화 수혜주' 목표가 120,000원 - KB증권",
+"source": "뉴스핌",
+"link": "https://www.newspim.com/news/view/20261105000927"
+},
+{
+"title": "두산에너빌리티 주가 4,600원 하락 후 마감",
+"source": "아시아뉴스통신",
+"link": "https://m.anewsa.com/article_sub3.php?number=3215388&type=&mobile="
+}
+],
+"new": true
+},
+{
+"term": "염경엽",
+"traffic": "100+",
+"time": "2026-11-06T20:40:00+00:00",
+"news": [
+{
+"title": "“감독 하면서 제일 좋은 투수\" 염경엽 극찬...12승 톨허스트 교체 승부수도 있다 - 머니투데이",
+"source": "머니투데이",
+"link": "https://www.mt.co.kr/sports/2026/11/06/202611042246775040O"
+},
+{
+"title": "LG 트윈스, 새 외국인 에이스 트리스탄 벡 영입…2027시즌 마운드 재편 시동",
+"source": "제민일보",
+"link": "https://www.jemin.com/news/articleView.html?idxno=846226"
+}
+],
+"new": true
+},
+{
 "term": "twitch",
 "traffic": "100+",
 "time": "2026-11-06T20:10:00+00:00",
@@ -1714,7 +1750,7 @@
 },
 {
 "term": "카를로스 알카라스",
-"traffic": "500+",
+"traffic": "1000+",
 "time": "2026-11-06T19:40:00+00:00",
 "news": [
 {
@@ -1772,47 +1808,9 @@
 }
 ],
 "new": false
-},
-{
-"term": "옥수수",
-"traffic": "200+",
-"time": "2026-11-06T17:50:00+00:00",
-"news": [
-{
-"title": "\"주인님, 저 이상해요\"…병 걸리면 SOS 보내는 옥수수 정체",
-"source": "한국경제",
-"link": "https://www.hankyung.com/article/2026110615051"
-},
-{
-"title": "AI로 작물 분석 병해충 감지시스템 개발",
-"source": "농민신문",
-"link": "https://www.nongmin.com/article/20261030500621"
-}
-],
-"new": false
-},
-{
-"term": "시콜 스키 s 92",
-"traffic": "2000+",
-"time": "2026-11-06T17:40:00+00:00",
-"news": [
-{
-"title": "South Korea selects Sikorsky S-92A+ for new presidential transport helicopter",
-"source": "FlightGlobal",
-"link": "https://www.flightglobal.com/defence/2026/11/south-korea-selects-sikorsky-s-92a-for-new-presidential-transport-helicopter/"
-},
-{
-"title": "South Korea orders four S-92A+ helicopters to replace presidential fleet",
-"source": "Air Data News",
-"link": "https://www.airdatanews.com/south-korea-orders-four-s-92-a-helicopters-to-replace-presidential-fleet/"
-}
-],
-"new": false
 }
 ],
 "trendSeen": [
-"mu",
-"nasdaq",
 "nepal premier league",
 "qld",
 "qqq",
@@ -1907,6 +1905,7 @@
 "동티모르",
 "두 번째 시그널",
 "두산에너 빌리티",
+"두산에너빌리티",
 "디씨",
 "디트로이트 대 필라데피아",
 "라파엘 나달",
@@ -2000,6 +1999,7 @@
 "연금",
 "연천군",
 "열차",
+"염경엽",
 "예산",
 "오타니 쇼헤이",
 "옥수수",
