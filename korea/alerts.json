@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-06T05:24:42.873143+00:00",
+"updated": "2026-11-06T05:26:56.901906+00:00",
 "errors": [],
 "events": [
 {
@@ -739,14 +739,22 @@
 "id": "DZ2hVLUhMcWVsZ09ub2NRoc50503",
 "first": "2026-11-06T05:03:36+00:00",
 "last": "2026-11-06T05:03:36+00:00",
-"updated": "2026-11-06T05:24:42.873143+00:00",
+"updated": "2026-11-06T05:26:56.901906+00:00",
 "headline": "트럼프 “美에 공장 안 지으면 최대 300% 관세”",
 "cat": "국제",
 "regions": [],
 "sources": [
+"SBS",
 "서울신문"
 ],
 "updates": [
+{
+"title": "트럼프 \"미국에 공장 안 지으면 300%까지 관세\"",
+"source": "SBS",
+"link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008834047&plink=RSSLINK&cooper=RSSREADER",
+"time": "2026-11-06T04:54:08+00:00",
+"stage": "후속"
+},
 {
 "title": "[속보] 트럼프 “美에 공장 안 지으면 최대 300% 관세”",
 "source": "서울신문",
@@ -761,6 +769,8 @@
 "美에",
 "공장",
 "관세",
+"까지",
+"미국",
 "지으면",
 "최대",
 "트럼프"
@@ -4214,7 +4224,7 @@
 },
 "속보": {
 "n30": 1,
-"base": 0.2,
+"base": 0.3,
 "spike": false
 },
 "지하철": {
@@ -4223,8 +4233,8 @@
 "spike": false
 },
 "사고": {
-"n30": 4,
-"base": 5.5,
+"n30": 3,
+"base": 5.4,
 "spike": false
 },
 "실종": {
@@ -4233,7 +4243,7 @@
 "spike": false
 },
 "단수": {
-"n30": 2,
+"n30": 1,
 "base": 1.4,
 "spike": false
 },
@@ -4323,26 +4333,6 @@
 "reposts": 13,
 "url": "https://bsky.app/profile/jeongsoyeon.kr/post/3mzmlwtlvk226",
 "term": "사고"
-},
-{
-"text": "www.youtube.com/watch?v=x8ct...\n\n이런 아이디어 정말 좋은듯. 시골에서 농작물 때문에 가로등을 잘 안켜다보니 밤에 운전하다 보면 어디서 사람이 튀어나와도 알 길이 없어서 사고가 자주 나는데 ㅇㅇ...",
-"handle": "iryu0428.bsky.social",
-"name": "이류@블루스카이 지점",
-"time": "2026-11-06T04:56:46.679Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/iryu0428.bsky.social/post/3mzmls6wfck2f",
-"term": "사고"
-},
-{
-"text": "뭐야. 오늘. 단수였어? 힘드네",
-"handle": "afteryou.bsky.social",
-"name": "after you",
-"time": "2026-11-06T04:56:08.970Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/afteryou.bsky.social/post/3mzmlr3uyk22k",
-"term": "단수"
 },
 {
 "platform": "YouTube",
@@ -4574,22 +4564,24 @@
 "baseline": {
 "지진": 0.05,
 "화재": 0.05,
-"불났": 0.09,
+"불났": 0.08,
 "정전": 0.05,
 "폭발": 0.05,
 "붕괴": 0.05,
 "대피": 0.05,
-"미사일": 0.37,
-"속보": 0.32,
+"미사일": 0.33,
+"속보": 0.39,
 "지하철": 1.95,
-"사고": 5.38,
+"사고": 5.14,
 "실종": 0.05,
-"단수": 1.42,
+"단수": 1.38,
 "통신 장애": 0.05,
 "먹통": 0.05,
 "산불": 0.05
 },
-"errors": [],
+"errors": [
+"youtube: HTTPError"
+],
 "ytPosts": [
 {
 "platform": "YouTube",
