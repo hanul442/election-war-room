@@ -1,7 +1,39 @@
 {
-"updated": "2026-11-06T13:40:33.398972+00:00",
+"updated": "2026-11-06T13:42:52.911753+00:00",
 "errors": [],
 "events": [
+{
+"id": "MXHMUDSFDLLMOFLRMFPT45YE1338",
+"first": "2026-11-06T13:38:26+00:00",
+"last": "2026-11-06T13:38:26+00:00",
+"updated": "2026-11-06T13:42:52.911753+00:00",
+"headline": "美 10월 일자리 16만5000개 증가…시장 예상의 약 3배",
+"cat": "기타",
+"regions": [],
+"sources": [
+"조선일보"
+],
+"updates": [
+{
+"title": "[속보] 美 10월 일자리 16만5000개 증가…시장 예상의 약 3배",
+"source": "조선일보",
+"link": "https://www.chosun.com/economy/int_economy/2026/11/06/37MXHMUDSFDLLMOFLRMFPT45YE/",
+"time": "2026-11-06T13:38:26+00:00",
+"stage": "얼럿"
+}
+],
+"level": "URGENT",
+"latest": "美 10월 일자리 16만5000개 증가…시장 예상의 약 3배",
+"tok": [
+"10월",
+"16만5000개",
+"3배",
+"시장",
+"예상",
+"일자리",
+"증가"
+]
+},
 {
 "id": "wNISX20261106_00038586851331",
 "first": "2026-11-06T13:31:49+00:00",
@@ -5637,46 +5669,13 @@
 "반도체",
 "발동"
 ]
-},
-{
-"id": "HNzaHpUMW1QRDUxV19MdQoc50804",
-"first": "2026-11-06T08:04:26+00:00",
-"last": "2026-11-06T08:04:26+00:00",
-"updated": "2026-11-06T08:30:08.715035+00:00",
-"headline": "윤호중 \"김종철, 경찰개혁 이끌 안목과 조직관리 능력 갖춰\"",
-"cat": "사회",
-"regions": [],
-"sources": [
-"아시아경제"
-],
-"updates": [
-{
-"title": "[속보]윤호중 \"김종철, 경찰개혁 이끌 안목과 조직관리 능력 갖춰\"",
-"source": "아시아경제",
-"link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1mZ2pVSmh0RENpOFhTckxmY2hCYzIzelMxS0x6VlRURkFGdHd5NFBWSHB6VHBhTDlob0RiWkFQY3VHWGMxclZQSEplLWxYY1ZaNHNzaHpUMW1QRDUxV19MdQ?oc=5",
-"time": "2026-11-06T08:04:26+00:00",
-"stage": "얼럿"
-}
-],
-"level": "URGENT",
-"latest": "윤호중 \"김종철, 경찰개혁 이끌 안목과 조직관리 능력 갖춰\"",
-"tok": [
-"갖춰",
-"경찰개혁",
-"김종철",
-"능력",
-"안목",
-"윤호중",
-"이끌",
-"조직관리"
-]
 }
 ],
 "sns": {
 "terms": {
 "지진": {
-"n30": 1,
-"base": 0.7,
+"n30": 0,
+"base": 0.8,
 "spike": false
 },
 "화재": {
@@ -5695,13 +5694,13 @@
 "spike": false
 },
 "폭발": {
-"n30": 3,
-"base": 1.3,
+"n30": 2,
+"base": 1.2,
 "spike": false
 },
 "붕괴": {
-"n30": 2,
-"base": 1.3,
+"n30": 1,
+"base": 1.2,
 "spike": false
 },
 "대피": {
@@ -5721,12 +5720,12 @@
 },
 "지하철": {
 "n30": 0,
-"base": 1.4,
+"base": 1.3,
 "spike": false
 },
 "사고": {
 "n30": 7,
-"base": 6.3,
+"base": 6.4,
 "spike": false
 },
 "실종": {
@@ -5860,16 +5859,6 @@
 "time": "2026-11-06T13:11:33Z",
 "term": "폭발",
 "url": "https://www.youtube.com/watch?v=ULfkxLgm1Y8"
-},
-{
-"text": "【지진 정보】일본 시간 11월 6일 22:04경\n진원: Off the northwest Coast of Hokkaido (M3.3, 깊이 약 10km)\n최대 진도: 2\n진도 2: 홋카이도\n이 지진으로 인한 쓰나미 걱정은 없습니다.\n(일본 기상청 발표)\n#일본 #지진 #방재",
-"handle": "ko.soramoyou.yk-planning.jp",
-"name": "Soramoyou 한국어",
-"time": "2026-11-06T13:10:35.130Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/ko.soramoyou.yk-planning.jp/post/3mznhfaroub2t",
-"term": "지진"
 },
 {
 "platform": "YouTube",
@@ -6036,21 +6025,21 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 0.77,
+"지진": 0.69,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 1.25,
-"붕괴": 1.23,
+"폭발": 1.23,
+"붕괴": 1.21,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 1.29,
-"사고": 6.36,
+"지하철": 1.16,
+"사고": 6.42,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
-"먹통": 0.56,
+"먹통": 0.5,
 "산불": 0.05
 },
 "errors": [],
@@ -6267,10 +6256,57 @@
 },
 "trends": [
 {
-"term": "류효영",
+"term": "sbs",
 "traffic": "200+",
+"time": "2026-11-06T12:40:00+00:00",
+"news": [
+{
+"title": "\"Koreans Can't Even Last 3 Months, but I Want to Work Here for Over 10 Years\"",
+"source": "SBS 뉴스",
+"link": "https://news.sbs.co.kr/english/article.do?news_id=N1008834204"
+},
+{
+"title": "IES Global eyes expansion of study abroad, internship programs in Korea",
+"source": "The Korea Times",
+"link": "https://www.koreatimes.co.kr/southkorea/education/20261104/ies-global-eyes-expansion-of-study-abroad-internship-programs-in-korea"
+}
+],
+"new": true
+},
+{
+"term": "현장르포 특종세상",
+"traffic": "200+",
+"time": "2026-11-06T12:40:00+00:00",
+"news": [
+{
+"title": "'성형 부작용' 김세레나 근황…\"100억 빌려 주고 못 받아\" - 머니투데이",
+"source": "머니투데이",
+"link": "https://www.mt.co.kr/entertainment/2026/11/06/2026110523315220253"
+},
+{
+"title": "김세레나 \"100억 차용증 없이 빌려줘…사기로 전 재산 잃어\"",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261105_0003857049"
+}
+],
+"new": true
+},
+{
+"term": "류효영",
+"traffic": "500+",
 "time": "2026-11-06T12:30:00+00:00",
-"news": [],
+"news": [
+{
+"title": "이태성, '11살 연하♥' 김요한에 송곳 돌직구 \"안 미안하냐\"",
+"source": "조선일보",
+"link": "https://www.chosun.com/entertainments/broadcast/2026/11/06/MMZTKMTCGI2DKNBZGZRTIMBXMU/"
+},
+{
+"title": "[선공개] “오빠한테 관심 있다고 말하고 싶었어” 태성과 효영은 둘만의 새로운 이야기를 써 내려갈 수 있을까?",
+"source": "채널A",
+"link": "https://ichannela.com/program/clip/000000558568.do"
+}
+],
 "new": false
 },
 {
@@ -6369,14 +6405,14 @@
 "time": "2026-11-06T11:30:00+00:00",
 "news": [
 {
-"title": "최우식 측, '승무원 갑질' 의혹에 법적 대응 예고…\"허위 사실, 선처 없다\"",
-"source": "YTN",
-"link": "https://www.ytn.co.kr/_ln/0117_202611061727265969"
-},
-{
 "title": "최우식 측, '기내 태도 루머' 법적 대응…\"선처 없다\"",
 "source": "뉴시스",
 "link": "https://www.newsis.com/view/NISX20261106_0003858309"
+},
+{
+"title": "최우식 측, '승무원 갑질' 의혹에 법적 대응 예고…\"허위 사실, 선처 없다\"",
+"source": "YTN",
+"link": "https://www.ytn.co.kr/_ln/0117_202611061727265969"
 }
 ],
 "new": false
@@ -6395,42 +6431,6 @@
 "title": "\"라팍에서 우승 한번도 못했는데…나도 12년째 무관, 양보못해\" 한때 삼성 왕조 막내, 발등 통증 딛고 출격! 김상수의 불꽃 다짐 [인터뷰]",
 "source": "조선일보",
 "link": "https://www.chosun.com/sports/baseball/2026/11/06/GU2GKMDDMI2DGYJVGJQTSY3EGQ/"
-}
-],
-"new": false
-},
-{
-"term": "xsmb",
-"traffic": "500+",
-"time": "2026-11-06T11:30:00+00:00",
-"news": [
-{
-"title": "Güney Vietnam Piyango Sonuçları 6 Kasım: Tra Vinh'te birçok kişinin kazanmasına yardımcı olan kazanan numaralar.",
-"source": "Vietnam.vn",
-"link": "https://www.vietnam.vn/tr/xo-so-mien-nam-ngay-6-thang-11-day-so-giup-nhieu-nguoi-trung-dai-tra-vinh"
-},
-{
-"title": "XSBD 6/11 - Kết quả xổ số Bình Dương ngày 6 tháng 11",
-"source": "CafeF",
-"link": "https://cafef.vn/xsbd-6-11-ket-qua-xo-so-binh-duong-ngay-6-thang-11-188261106163154116.chn"
-}
-],
-"new": false
-},
-{
-"term": "이승엽",
-"traffic": "200+",
-"time": "2026-11-06T11:00:00+00:00",
-"news": [
-{
-"title": "'3차전 시구' 이승엽 \"일본서 코치 애환 배워…더 단단해져야\"",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261106180600007"
-},
-{
-"title": "[사진]혼신의 투구 펼치는 김정운",
-"source": "조선일보",
-"link": "https://www.chosun.com/sports/sports_photo/2026/11/06/GE2TCMJZGNRTINLCMM3DIMZUHE/"
 }
 ],
 "new": false
@@ -6463,6 +6463,7 @@
 "qld",
 "qqq",
 "s&p 500",
+"sbs",
 "skhy",
 "sk텔레콤",
 "sk하이닉스 주가",
@@ -6724,6 +6725,7 @@
 "헤이지니",
 "현대자동차",
 "현대차 주가",
+"현장르포 특종세상",
 "호날두",
 "황우석",
 "후라도",
