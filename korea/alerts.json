@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-06T03:33:15.577735+00:00",
+"updated": "2026-11-06T03:35:29.266129+00:00",
 "errors": [],
 "events": [
 {
@@ -176,6 +176,37 @@
 "최고위서",
 "친청계",
 "화합"
+]
+},
+{
+"id": "1pSHVrY0NnMEN3YlB1MVkoc50329",
+"first": "2026-11-06T03:29:50+00:00",
+"last": "2026-11-06T03:29:50+00:00",
+"updated": "2026-11-06T03:35:29.266129+00:00",
+"headline": "‘법원 신뢰한다’ 41%뿐…공수처·중수청·경찰청은 모두 20%대",
+"cat": "사회",
+"regions": [],
+"sources": [
+"www.dt.co.kr"
+],
+"updates": [
+{
+"title": "[속보] ‘법원 신뢰한다’ 41%뿐…공수처·중수청·경찰청은 모두 20%대",
+"source": "www.dt.co.kr",
+"link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE00ZkctZ1hBX0QxWUQtbnQ5Njg1OGNnZ3ZrQlluMXZaTGkxWXRSNWpCRG9SOGJyeGtfREhrdnFCWEh5UHZpUHdnWXExZ01pSHVrY0NnMEN3YlB1MVk?oc=5",
+"time": "2026-11-06T03:29:50+00:00",
+"stage": "얼럿"
+}
+],
+"level": "URGENT",
+"latest": "‘법원 신뢰한다’ 41%뿐…공수처·중수청·경찰청은 모두 20%대",
+"tok": [
+"경찰청",
+"공수처",
+"모두",
+"법원",
+"신뢰한다",
+"중수청"
 ]
 },
 {
@@ -3708,40 +3739,6 @@
 "시리즈",
 "요하네스"
 ]
-},
-{
-"id": "wNISX20261106_00038574740052",
-"first": "2026-11-06T00:52:19+00:00",
-"last": "2026-11-06T00:52:19+00:00",
-"updated": "2026-11-06T00:56:00.729840+00:00",
-"headline": "안동 창고 화재, 2시간30여분만에 진화…인명피해 없어",
-"cat": "재난",
-"regions": [
-"경북"
-],
-"sources": [
-"뉴시스"
-],
-"updates": [
-{
-"title": "안동 창고 화재, 2시간30여분만에 진화…인명피해 없어",
-"source": "뉴시스",
-"link": "https://www.newsis.com/view/NISX20261106_0003857474",
-"time": "2026-11-06T00:52:19+00:00",
-"stage": "1보"
-}
-],
-"level": "ALERT",
-"latest": "안동 창고 화재, 2시간30여분만에 진화…인명피해 없어",
-"tok": [
-"2시간30여분만",
-"안동",
-"없어",
-"인명피해",
-"진화",
-"창고",
-"화재"
-]
 }
 ],
 "sns": {
@@ -3753,7 +3750,7 @@
 },
 "화재": {
 "n30": 0,
-"base": 0.7,
+"base": 0.6,
 "spike": false
 },
 "불났": {
@@ -3767,12 +3764,12 @@
 "spike": false
 },
 "폭발": {
-"n30": 3,
+"n30": 2,
 "base": 0.1,
 "spike": false
 },
 "붕괴": {
-"n30": 10,
+"n30": 8,
 "base": 0.1,
 "spike": true
 },
@@ -3797,8 +3794,8 @@
 "spike": false
 },
 "사고": {
-"n30": 5,
-"base": 2.8,
+"n30": 4,
+"base": 3.0,
 "spike": false
 },
 "실종": {
@@ -4081,24 +4078,24 @@
 "spikes": [
 {
 "term": "붕괴",
-"n30": 10,
+"n30": 8,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-06T03:33:15.577735+00:00"
+"since": "2026-11-06T03:35:29.266129+00:00"
 }
 ],
 "baseline": {
 "지진": 0.05,
-"화재": 0.59,
+"화재": 0.53,
 "불났": 0.0,
 "정전": 0.05,
-"폭발": 0.09,
+"폭발": 0.08,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.64,
-"지하철": 0.78,
-"사고": 2.98,
+"속보": 0.68,
+"지하철": 0.8,
+"사고": 3.08,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -4302,7 +4299,7 @@
 "trends": [
 {
 "term": "김영익",
-"traffic": "500+",
+"traffic": "1000+",
 "time": "2026-11-06T02:30:00+00:00",
 "news": [
 {
@@ -4316,11 +4313,11 @@
 "link": "https://www.sejongyeonhap.co.kr/news/articleView.html?idxno=58730"
 }
 ],
-"new": true
+"new": false
 },
 {
 "term": "기상",
-"traffic": "500+",
+"traffic": "1000+",
 "time": "2026-11-06T02:30:00+00:00",
 "news": [
 {
@@ -4334,7 +4331,7 @@
 "link": "https://www.newsis.com/view/NISX20261106_0003857601"
 }
 ],
-"new": true
+"new": false
 },
 {
 "term": "2026",
@@ -4352,7 +4349,7 @@
 "link": "https://www.nytimes.com/2026/11/05/briefing/elections-newsom-amodei.html"
 }
 ],
-"new": true
+"new": false
 },
 {
 "term": "제주국제공항",
@@ -4360,14 +4357,14 @@
 "time": "2026-11-06T02:20:00+00:00",
 "news": [
 {
-"title": "\"제주 항공권 대책 총리가 나서야\"",
-"source": "제민일보",
-"link": "https://www.jemin.com/news/articleView.html?idxno=846257"
-},
-{
 "title": "예약하려고 했더니 ‘매진’ ‘매진’ ‘매진’…안 가는 게 아니라 못 가는 ‘제주’",
 "source": "서울경제",
 "link": "https://www.sedaily.com/article/20110426"
+},
+{
+"title": "\"제주 항공권 대책 총리가 나서야\"",
+"source": "제민일보",
+"link": "https://www.jemin.com/news/articleView.html?idxno=846257"
 }
 ],
 "new": false
@@ -4450,14 +4447,14 @@
 "time": "2026-11-06T01:40:00+00:00",
 "news": [
 {
-"title": "Kentucky energy forum focuses on electricity bills, rates and local initiatives",
-"source": "WKYT",
-"link": "https://www.wkyt.com/2026/11/06/kentucky-energy-forum-focuses-electricity-bills-rates-local-initiatives/"
+"title": "Trump's energy deals are about to face a wave of investigations by Democrats",
+"source": "CNBC",
+"link": "https://www.cnbc.com/2026/11/05/trump-election-energy-venezuela-critical-mineral-renewable-iran.html"
 },
 {
-"title": "The power we leave behind",
-"source": "Kentucky Living",
-"link": "https://www.kentuckyliving.com/energy/the-power-we-leave-behind"
+"title": "Environmental Ballot Wins",
+"source": "The New York Times",
+"link": "https://www.nytimes.com/2026/11/05/climate/climate-environment-ballot-meaures-midterms.html"
 }
 ],
 "new": false
@@ -4468,14 +4465,14 @@
 "time": "2026-11-06T01:30:00+00:00",
 "news": [
 {
-"title": "‘아트센터 나비’ 노소영 관장, 한중일 융합예술 포럼서 연설",
-"source": "문화일보",
-"link": "https://www.munhwa.com/article/11629337"
+"title": "최태원, SK주식 9440억어치 팔았다…노소영 재산분할금 마련",
+"source": "한국경제",
+"link": "https://www.hankyung.com/article/202611058941H"
 },
 {
-"title": "노소영 \"AI 시대, 사람들 모으고 이어줄 새 탁자 필요\"",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261105135200005"
+"title": "최태원, SK 주식 165만주·9400억원 매각…재산분할 판결 이행 차원 By 알파경제 alphabiz",
+"source": "Investing.com 한국어",
+"link": "https://kr.investing.com/news/stock-market-news/article-2163253"
 }
 ],
 "new": false
