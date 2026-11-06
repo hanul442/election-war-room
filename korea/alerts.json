@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-06T10:16:22.786951+00:00",
+"updated": "2026-11-06T10:18:36.846184+00:00",
 "errors": [],
 "events": [
 {
@@ -111,6 +111,39 @@
 "우크라",
 "정전",
 "피격으"
+]
+},
+{
+"id": "0UwOS1Db2ZFUXhKQ3Bmcwoc50949",
+"first": "2026-11-06T09:49:18+00:00",
+"last": "2026-11-06T09:49:18+00:00",
+"updated": "2026-11-06T10:18:36.846184+00:00",
+"headline": "의료진 상대로 또 흉기난동…만취한 환자, “안 낫는다”며 흉기 위협",
+"cat": "사회",
+"regions": [],
+"sources": [
+"서울신문"
+],
+"updates": [
+{
+"title": "[속보] 의료진 상대로 또 흉기난동…만취한 환자, “안 낫는다”며 흉기 위협",
+"source": "서울신문",
+"link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1vb2xhcTA1VWliTWp1S1VyVmJJWDdkSXljYzZmOTc5OTRGZ2JtbmtnQzZjR0wtQ3FhanQ2TnBiX1JyS1JxLWh2RjViRWlfbkhjLWFWVVU4bHRwRmhDOUFDVDVmU2RHXzZSaXR0M0UwOS1Db2ZFUXhKQ3Bmcw?oc=5",
+"time": "2026-11-06T09:49:18+00:00",
+"stage": "얼럿"
+}
+],
+"level": "URGENT",
+"latest": "의료진 상대로 또 흉기난동…만취한 환자, “안 낫는다”며 흉기 위협",
+"tok": [
+"낫는다",
+"만취한",
+"상대",
+"위협",
+"의료진",
+"환자",
+"흉기",
+"흉기난동"
 ]
 },
 {
@@ -4875,82 +4908,13 @@
 "철원군",
 "취약지역"
 ]
-},
-{
-"id": "WpmSUxoeXFOUjcydFZWcwoc50601",
-"first": "2026-11-06T06:01:14+00:00",
-"last": "2026-11-06T07:05:00+00:00",
-"updated": "2026-11-06T07:06:23.655872+00:00",
-"headline": "\"최태원 동거인은 중국간첩\" 주장한 50대 유튜버, 항소심도 벌금형",
-"cat": "국제",
-"regions": [],
-"sources": [
-"경향신문",
-"뉴시스",
-"아이뉴스24",
-"연합뉴스"
-],
-"updates": [
-{
-"title": "\"최태원 동거인 中간첩\" 발언한 배터리 아저씨, 2심도 벌금형",
-"source": "뉴시스",
-"link": "https://www.newsis.com/view/NISX20261106_0003858043",
-"time": "2026-11-06T05:35:22+00:00",
-"stage": "후속"
-},
-{
-"title": "\"최태원 동거인은 중국간첩\" 주장 유튜버, 2심 벌금 700만원 유지",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261106116100004",
-"time": "2026-11-06T05:45:49+00:00",
-"stage": "후속"
-},
-{
-"title": "[속보] \"최태원 동거인은 중국간첩\" 주장한 50대 유튜버, 항소심도 벌금형",
-"source": "아이뉴스24",
-"link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBzaEhhQXhZb3JVbnhwcHpGZ2V5cEZFOG5jYjFyeWVQTFdyaWxvLXZFUHhvZDBRVy0tbEcxLWpmSUxoeXFOUjcydFZWcw?oc=5",
-"time": "2026-11-06T06:01:14+00:00",
-"stage": "얼럿"
-},
-{
-"title": "“최태원 동거인은 중국 간첩” 주장 ‘배터리 아저씨’, 2심에서도 벌금 700만원",
-"source": "경향신문",
-"link": "https://www.khan.co.kr/article/202611061605001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
-"time": "2026-11-06T07:05:00+00:00",
-"stage": "후속"
-}
-],
-"level": "URGENT",
-"latest": "“최태원 동거인은 중국 간첩” 주장 ‘배터리 아저씨’, 2심에서도 벌금 700만원",
-"tok": [
-"2심",
-"2심에서",
-"50대",
-"700만원",
-"中간첩",
-"간첩",
-"동거인",
-"발언한",
-"배터리",
-"벌금",
-"벌금형",
-"아저씨",
-"유지",
-"유튜버",
-"주장",
-"주장한",
-"중국",
-"중국간첩",
-"최태원",
-"항소심"
-]
 }
 ],
 "sns": {
 "terms": {
 "지진": {
 "n30": 3,
-"base": 0.3,
+"base": 0.4,
 "spike": false
 },
 "화재": {
@@ -4970,7 +4934,7 @@
 },
 "폭발": {
 "n30": 6,
-"base": 0.4,
+"base": 0.3,
 "spike": true
 },
 "붕괴": {
@@ -4994,12 +4958,12 @@
 "spike": false
 },
 "지하철": {
-"n30": 8,
+"n30": 9,
 "base": 1.0,
 "spike": true
 },
 "사고": {
-"n30": 1,
+"n30": 2,
 "base": 1.1,
 "spike": false
 },
@@ -5030,6 +4994,26 @@
 }
 },
 "posts": [
+{
+"text": "요즘 사고가 너무 많이 나서 맨날 차가 밀려... 10-4 하자고오",
+"handle": "bluemucha.bsky.social",
+"name": "뭄챠",
+"time": "2026-11-06T10:16:49.272Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/bluemucha.bsky.social/post/3mzn5oiquok2m",
+"term": "사고"
+},
+{
+"text": "와 지하철탈걸\n도로위에차이만큼이나있다고?",
+"handle": "villivilli5.bsky.social",
+"name": "깅가지",
+"time": "2026-11-06T10:16:25.572Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/villivilli5.bsky.social/post/3mzn5nq4xs22m",
+"term": "지하철"
+},
 {
 "text": " “그날도 바쁘게 은행원 연수를 하고 있었는데 마이니치신문 기자한테 연락이 왔어요. ‘오늘 이시하라의 발언을 어떻게 생각하냐’고 묻더라고요.” \n\n기사를 본 그는 얼어붙었다. 육상자위대 창설 기념식에서 이시하라 신타로 당시 도쿄도지사가 2차 대전 이후 일본에 사는 한국인과 중국인을 비하했던 표현인 ‘삼국인’을 입에 올린 것이다. 그는 할머니가 평생 악몽을 떨쳐내지 못했던 1923년 간토대지진",
 "handle": "starbitsinkor.bsky.social",
@@ -5301,39 +5285,39 @@
 {
 "term": "폭발",
 "n30": 6,
-"base": 0.4,
+"base": 0.3,
 "spike": true,
-"since": "2026-11-06T10:16:22.786951+00:00"
+"since": "2026-11-06T10:18:36.846184+00:00"
 },
 {
 "term": "붕괴",
 "n30": 6,
 "base": 0.7,
 "spike": true,
-"since": "2026-11-06T10:16:22.786951+00:00"
+"since": "2026-11-06T10:18:36.846184+00:00"
 },
 {
 "term": "지하철",
-"n30": 8,
+"n30": 9,
 "base": 1.0,
 "spike": true,
-"since": "2026-11-06T10:16:22.786951+00:00"
+"since": "2026-11-06T10:18:36.846184+00:00"
 }
 ],
 "baseline": {
-"지진": 0.37,
+"지진": 0.43,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.32,
-"붕괴": 0.74,
+"폭발": 0.29,
+"붕괴": 0.77,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 1.03,
-"사고": 1.12,
-"실종": 0.06,
-"단수": 0.6,
+"지하철": 1.13,
+"사고": 1.21,
+"실종": 0.05,
+"단수": 0.64,
 "통신 장애": 0.05,
 "먹통": 0.05,
 "산불": 0.05
