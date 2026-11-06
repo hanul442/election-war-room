@@ -1,12 +1,12 @@
 {
-"updated": "2026-11-06T07:24:28.020870+00:00",
+"updated": "2026-11-06T07:26:43.485557+00:00",
 "errors": [],
 "events": [
 {
 "id": "viewAKR202611061289000010632",
 "first": "2026-11-06T06:32:13+00:00",
 "last": "2026-11-06T07:17:58+00:00",
-"updated": "2026-11-06T07:22:08.810336+00:00",
+"updated": "2026-11-06T07:26:43.485557+00:00",
 "headline": "李대통령, 신임 법무부 장관에 이용철 방사청장 지명",
 "cat": "정치",
 "regions": [
@@ -38,6 +38,7 @@
 "연합뉴스",
 "이데일리",
 "이투데이",
+"전자신문",
 "조선일보",
 "중앙일보",
 "천지일보",
@@ -381,6 +382,13 @@
 "source": "OhmyNews",
 "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE13VUNPZWFxRXVnTTVfTDJaVGE0QUZlWUt2TFdGYjQ1X25wTjRCazBQZktfYWV3Z082eWJhVWt0Q3NzUWRvWG5IWXVEc0x6OHRPUDRBaElRY29MV2NxSGdtYW84MkxUTTBSVmNJRlBCRFpxWkNFVFg0?oc=5",
 "time": "2026-11-06T06:40:00+00:00",
+"stage": "속보"
+},
+{
+"title": "[속보] 李대통령, 법무장관 이용철·국세청장 안덕수 지명…정무수석 최인호",
+"source": "전자신문",
+"link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1vZHl2UnVjNkRpTWYtNGJ5NkdhcEJlbTJfWVdXbHBKUTh4MXhFYm9HSDRhRTRsTGdLd1NWYXFSa1QzNzVISnNqZnY1bTVCZw?oc=5",
+"time": "2026-11-06T06:46:50+00:00",
 "stage": "속보"
 },
 {
@@ -4590,12 +4598,12 @@
 "spike": true
 },
 "지하철": {
-"n30": 3,
+"n30": 2,
 "base": 1.1,
 "spike": false
 },
 "사고": {
-"n30": 2,
+"n30": 3,
 "base": 1.6,
 "spike": false
 },
@@ -4626,6 +4634,16 @@
 }
 },
 "posts": [
+{
+"text": "죄송한데 블스 내 해저기지 재난사고에 유용한 직업 계십니까",
+"handle": "sharksline2.bsky.social",
+"name": "하마 de la mancha",
+"time": "2026-11-06T07:25:08.878Z",
+"likes": 3,
+"reposts": 2,
+"url": "https://bsky.app/profile/sharksline2.bsky.social/post/3mzmu3kccds2r",
+"term": "사고"
+},
 {
 "text": "지금은 \"빌어먹을 사상의학과가 내 먹을 길을 막는다\" 는 일종의 비뚤어진 사고방식으로 우직하게 밀고 나감 + 체질 때문에 막히는 음식 때문에 내가 굶어죽을 수 있음 등등의 이유로\n\n그냥 뭐든 잘 먹었으면 좋겠다는 가족의 의견을 담아 아무거나 먹고 있습니다",
 "handle": "tx2406.bsky.social",
@@ -4865,16 +4883,6 @@
 "url": "https://www.youtube.com/watch?v=r99iIIo5JHE"
 },
 {
-"text": "대구도 지하철 사람이 많은가봐욤",
-"handle": "yoo-82.bsky.social",
-"name": "♡는 배려다.",
-"time": "2026-11-06T06:56:10.175Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/yoo-82.bsky.social/post/3mzmshp2d2k2n",
-"term": "지하철"
-},
-{
 "platform": "YouTube",
 "text": "[속보] \"유럽 여객기 최소 27대 또 폭탄 위협\" 전투기 출격·비상착륙·회항..유럽 '공포'- [MBC뉴스속보] MBC뉴스 2026년 11월 06일",
 "handle": "UCF4Wxdo3inmxP-Y59wXDsFw",
@@ -4890,21 +4898,21 @@
 "n30": 5,
 "base": 0.5,
 "spike": true,
-"since": "2026-11-06T07:24:28.020870+00:00"
+"since": "2026-11-06T07:26:43.485557+00:00"
 },
 {
 "term": "붕괴",
 "n30": 5,
 "base": 0.8,
 "spike": true,
-"since": "2026-11-06T07:24:28.020870+00:00"
+"since": "2026-11-06T07:26:43.485557+00:00"
 },
 {
 "term": "속보",
 "n30": 8,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-06T07:24:28.020870+00:00"
+"since": "2026-11-06T07:26:43.485557+00:00"
 }
 ],
 "baseline": {
@@ -4912,13 +4920,13 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.51,
-"붕괴": 0.8,
+"폭발": 0.56,
+"붕괴": 0.82,
 "대피": 0.05,
-"미사일": 0.12,
+"미사일": 0.11,
 "속보": 0.05,
-"지하철": 1.11,
-"사고": 1.65,
+"지하철": 1.0,
+"사고": 1.78,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -5154,14 +5162,14 @@
 "link": "https://www.ytn.co.kr/_ln/0545_202611061220021270"
 }
 ],
-"new": true
+"new": false
 },
 {
 "term": "경국대",
 "traffic": "100+",
 "time": "2026-11-06T06:20:00+00:00",
 "news": [],
-"new": true
+"new": false
 },
 {
 "term": "짜장면",
@@ -5228,9 +5236,9 @@
 "link": "https://www.khan.co.kr/article/202611061354001"
 },
 {
-"title": "'두번째 시그널', 12월 7일 첫 방송…\"조진웅 문제 옹호 아냐\"",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261106106000005"
+"title": "'두번째 시그널', 12월 7일 tvN 첫 방송…\"출연자 문제 옹호 아냐\"",
+"source": "YTN",
+"link": "https://www.ytn.co.kr/_ln/0117_202611061412267620"
 }
 ],
 "new": false
