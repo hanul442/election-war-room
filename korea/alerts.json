@@ -1,7 +1,50 @@
 {
-"updated": "2026-11-06T11:46:50.200134+00:00",
+"updated": "2026-11-06T11:49:04.628934+00:00",
 "errors": [],
 "events": [
+{
+"id": "kgxTGFfdGRVeTMyR3hldwoc50901",
+"first": "2026-11-06T09:01:00+00:00",
+"last": "2026-11-06T11:45:26+00:00",
+"updated": "2026-11-06T11:49:04.628934+00:00",
+"headline": "내일 ’입동 한파’…서울 -1도 첫 영하권",
+"cat": "재난",
+"regions": [
+"서울"
+],
+"sources": [
+"SBS",
+"연합뉴스TV"
+],
+"updates": [
+{
+"title": "내일 ’입동 한파’…서울 -1도 첫 영하권",
+"source": "연합뉴스TV",
+"link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBzU01waGpIbzZGdXg4em9VT3lWLXJIa2VaZ0Ric21ZLVd0M2JmZXliZlBPWjFzSjh2aVFOSTMwQjBJdkQ4WFpKc0lsOHV5eW1aMU4wVzVjRkgxTGFfdGRVeTMyR3hldw?oc=5",
+"time": "2026-11-06T09:01:00+00:00",
+"stage": "1보"
+},
+{
+"title": "겨울 문턱 '입동' 이름 값…서울 첫 영하권",
+"source": "SBS",
+"link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008834640&plink=RSSLINK&cooper=RSSREADER",
+"time": "2026-11-06T11:45:26+00:00",
+"stage": "후속"
+}
+],
+"level": "ALERT",
+"latest": "겨울 문턱 '입동' 이름 값…서울 첫 영하권",
+"tok": [
+"1도",
+"겨울",
+"문턱",
+"서울",
+"영하권",
+"이름",
+"입동",
+"한파"
+]
+},
 {
 "id": "wNISX20261106_00038586271128",
 "first": "2026-11-06T11:28:03+00:00",
@@ -2688,38 +2731,6 @@
 ]
 },
 {
-"id": "kgxTGFfdGRVeTMyR3hldwoc50901",
-"first": "2026-11-06T09:01:00+00:00",
-"last": "2026-11-06T09:01:00+00:00",
-"updated": "2026-11-06T09:47:02.385394+00:00",
-"headline": "내일 ’입동 한파’…서울 -1도 첫 영하권",
-"cat": "재난",
-"regions": [
-"서울"
-],
-"sources": [
-"연합뉴스TV"
-],
-"updates": [
-{
-"title": "내일 ’입동 한파’…서울 -1도 첫 영하권",
-"source": "연합뉴스TV",
-"link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBzU01waGpIbzZGdXg4em9VT3lWLXJIa2VaZ0Ric21ZLVd0M2JmZXliZlBPWjFzSjh2aVFOSTMwQjBJdkQ4WFpKc0lsOHV5eW1aMU4wVzVjRkgxTGFfdGRVeTMyR3hldw?oc=5",
-"time": "2026-11-06T09:01:00+00:00",
-"stage": "1보"
-}
-],
-"level": "ALERT",
-"latest": "내일 ’입동 한파’…서울 -1도 첫 영하권",
-"tok": [
-"1도",
-"서울",
-"영하권",
-"입동",
-"한파"
-]
-},
-{
 "id": "viewAKR202611060804510080711",
 "first": "2026-11-06T07:11:38+00:00",
 "last": "2026-11-06T09:00:00+00:00",
@@ -4940,7 +4951,7 @@
 "spike": true
 },
 "붕괴": {
-"n30": 3,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
@@ -4955,18 +4966,18 @@
 "spike": false
 },
 "속보": {
-"n30": 5,
-"base": 0.6,
-"spike": true
+"n30": 4,
+"base": 0.5,
+"spike": false
 },
 "지하철": {
-"n30": 6,
+"n30": 5,
 "base": 0.8,
 "spike": true
 },
 "사고": {
 "n30": 1,
-"base": 3.0,
+"base": 2.8,
 "spike": false
 },
 "실종": {
@@ -5240,35 +5251,28 @@
 "n30": 6,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-06T11:46:50.200134+00:00"
-},
-{
-"term": "속보",
-"n30": 5,
-"base": 0.6,
-"spike": true,
-"since": "2026-11-06T11:46:50.200134+00:00"
+"since": "2026-11-06T11:49:04.628934+00:00"
 },
 {
 "term": "지하철",
-"n30": 6,
+"n30": 5,
 "base": 0.8,
 "spike": true,
-"since": "2026-11-06T11:46:50.200134+00:00"
+"since": "2026-11-06T11:49:04.628934+00:00"
 }
 ],
 "baseline": {
-"지진": 0.48,
+"지진": 0.43,
 "화재": 0.05,
 "불났": 0.05,
-"정전": 0.74,
-"폭발": 0.12,
+"정전": 0.77,
+"폭발": 0.11,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.5,
-"지하철": 0.79,
-"사고": 2.77,
+"속보": 0.45,
+"지하철": 0.81,
+"사고": 2.59,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -5566,14 +5570,14 @@
 "time": "2026-11-06T10:20:00+00:00",
 "news": [
 {
-"title": "[사진] 구자욱, 리드폭 늘리고 더그아웃 분위기 업",
-"source": "Chosunbiz",
-"link": "https://biz.chosun.com/sports/sports_photo/2026/11/06/GU3TOYLGG5RDIOBXMQ3WCYRQGQ/"
+"title": "[사진] 구자욱, 동료들과 함께 한 짜릿한 2타점 3루타",
+"source": "조선일보",
+"link": "https://www.chosun.com/sports/sports_photo/2026/11/06/GBTDGYJXMRRTQOJZHA2DOYZTGI/"
 },
 {
-"title": "[사진]2타점 적시타 환호하는 구자욱",
-"source": "조선일보",
-"link": "https://www.chosun.com/sports/sports_photo/2026/11/06/HAZDMY3DMQYTGOLEHA3TOOLEGU/"
+"title": "[포토] 구자욱 '넘어가나' - 머니투데이",
+"source": "머니투데이",
+"link": "https://www.mt.co.kr/sports/2026/11/06/2026110619262337816"
 }
 ],
 "new": false
@@ -5589,9 +5593,9 @@
 "link": "https://www.yna.co.kr/view/AKR20261106180600007"
 },
 {
-"title": "[사진]장비 체크하는 김현수",
+"title": "[사진]선취 타점 힐리어드, 시작하자마자 KT가 앞서간다",
 "source": "Chosunbiz",
-"link": "https://biz.chosun.com/sports/sports_photo/2026/11/06/GY3TMZLDGRRDOMLCGA2DEMRYGU/"
+"link": "https://biz.chosun.com/sports/sports_photo/2026/11/06/ME3TCMDCMEZDMY3EGM4DMMBZGU/"
 }
 ],
 "new": false
