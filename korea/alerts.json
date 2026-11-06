@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-06T20:57:51.026162+00:00",
+"updated": "2026-11-06T21:00:12.899319+00:00",
 "errors": [],
 "events": [
 {
@@ -1329,48 +1329,6 @@
 "조짐",
 "충격"
 ]
-},
-{
-"id": "DNlI4Z2NVNmpYUXdQWEM2oc51500",
-"first": "2026-11-06T15:00:00+00:00",
-"last": "2026-11-06T15:00:00+00:00",
-"updated": "2026-11-06T15:06:31.546814+00:00",
-"headline": "뉴욕증시, 나스닥 1%대 반등에도 다우 468포인트 하락…기술주·우량주 엇갈린 흐름",
-"cat": "경제",
-"regions": [],
-"sources": [
-"CBC뉴스"
-],
-"updates": [
-{
-"title": "[속보]뉴욕증시, 나스닥 1%대 반등에도 다우 468포인트 하락…기술주·우량주 엇갈린 흐름",
-"source": "CBC뉴스",
-"link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5KM0x3Q1pPalh2cHBydHFqTmI1Nks3ZkplZkhlTHVZUmlicHdwMGd5VFJKWGl6cHp1b3NVbVZPU3haMndHaW9JS2hSME1aWjk3YTNFUFRDMHNDNlI4Z2NVNmpYUXdQWEM2?oc=5",
-"time": "2026-11-06T15:00:00+00:00",
-"stage": "얼럿"
-},
-{
-"title": "[속보]뉴욕증시, 나스닥 1%대 반등에도 다우 468포인트 하락…기술주·우량주 엇갈린 흐름",
-"source": "CBC뉴스",
-"link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1uVmZXbm41UzZiaVVEQnhDRHAzeS01MkZiaXFSaF9nVTUxdXNwV3BsY3FONnpXYVhtNUpwNjFKcHBEWjhoZ2xWSVV0bUlUSVRBa1hQNXB3b1UxNzVWdExJaVhwYjBYZ00?oc=5",
-"time": "2026-11-06T15:00:00+00:00",
-"stage": "속보"
-}
-],
-"level": "URGENT",
-"latest": "뉴욕증시, 나스닥 1%대 반등에도 다우 468포인트 하락…기술주·우량주 엇갈린 흐름",
-"tok": [
-"468포인트",
-"기술주",
-"나스닥",
-"뉴욕증시",
-"다우",
-"반등에",
-"엇갈린",
-"우량주",
-"하락",
-"흐름"
-]
 }
 ],
 "sns": {
@@ -1396,8 +1354,8 @@
 "spike": false
 },
 "폭발": {
-"n30": 3,
-"base": 0.3,
+"n30": 2,
+"base": 0.4,
 "spike": false
 },
 "붕괴": {
@@ -1416,9 +1374,9 @@
 "spike": false
 },
 "속보": {
-"n30": 5,
+"n30": 3,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "지하철": {
 "n30": 0,
@@ -1426,8 +1384,8 @@
 "spike": false
 },
 "사고": {
-"n30": 1,
-"base": 0.7,
+"n30": 0,
+"base": 0.8,
 "spike": false
 },
 "실종": {
@@ -1538,16 +1496,6 @@
 "time": "2026-11-06T20:30:01Z",
 "term": "속보",
 "url": "https://www.youtube.com/watch?v=98qVmzI76zw"
-},
-{
-"text": "5개월 할부해서 사고 싶은 반지가 있음 어떡하지 살까 말까",
-"handle": "ariuaena.bsky.social",
-"name": "아리🩷",
-"time": "2026-11-06T20:28:02.088Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/ariuaena.bsky.social/post/3mzo7thxtq22x",
-"term": "사고"
 },
 {
 "platform": "YouTube",
@@ -1694,27 +1642,19 @@
 "url": "https://www.youtube.com/watch?v=axuAN0O6QjA"
 }
 ],
-"spikes": [
-{
-"term": "속보",
-"n30": 5,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-06T20:57:51.026162+00:00"
-}
-],
+"spikes": [],
 "baseline": {
 "지진": 0.05,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.39,
+"폭발": 0.45,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
 "지하철": 0.05,
-"사고": 0.77,
+"사고": 0.69,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
