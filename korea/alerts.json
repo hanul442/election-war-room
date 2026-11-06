@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-06T21:50:53.633006+00:00",
+"updated": "2026-11-06T21:53:11.365812+00:00",
 "errors": [],
 "events": [
 {
@@ -1070,7 +1070,7 @@
 "terms": {
 "지진": {
 "n30": 1,
-"base": 0.5,
+"base": 0.6,
 "spike": false
 },
 "화재": {
@@ -1392,28 +1392,28 @@
 "n30": 6,
 "base": 0.2,
 "spike": true,
-"since": "2026-11-06T21:50:53.633006+00:00"
+"since": "2026-11-06T21:53:11.365812+00:00"
 },
 {
 "term": "속보",
 "n30": 6,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-06T21:50:53.633006+00:00"
+"since": "2026-11-06T21:53:11.365812+00:00"
 }
 ],
 "baseline": {
-"지진": 0.56,
+"지진": 0.6,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.18,
+"폭발": 0.16,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
 "지하철": 0.05,
-"사고": 0.07,
+"사고": 0.06,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -1652,6 +1652,60 @@
 },
 "trends": [
 {
+"term": "옥주현",
+"traffic": "500+",
+"time": "2026-11-06T20:50:00+00:00",
+"news": [
+{
+"title": "190억에 산 한남더힐 경매로…\"옥주현 183억 빚\" 자금난 분석한 변호사",
+"source": "뉴스1",
+"link": "https://www.news1.kr/society/general-society/6344223"
+},
+{
+"title": "“옥주현, 180억 대부업체 대출 추정…연이자만 20억 이상” 변호사 분석 [이슈픽]",
+"source": "TWIG",
+"link": "https://www.twig24.com/news/entertainments/celebrity/2026/11/05/20261105500315"
+}
+],
+"new": true
+},
+{
+"term": "투자",
+"traffic": "2000+",
+"time": "2026-11-06T20:50:00+00:00",
+"news": [
+{
+"title": "AI 규제 공포에 뉴욕 증시 폭락…트럼프 “멍청한 민주당 탓”",
+"source": "KBS 뉴스",
+"link": "https://news.kbs.co.kr/news/view.do?ncd=8706285"
+},
+{
+"title": "[AI 블루쇼크①]데이터센터 규제 우려에 나스닥 급락…AI 거품 터지나",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261106_0003858191"
+}
+],
+"new": true
+},
+{
+"term": "빈곤",
+"traffic": "200+",
+"time": "2026-11-06T20:50:00+00:00",
+"news": [
+{
+"title": "하안구는 2026년 '빈곤층 지원 기금'에 2억 8900만 VND 이상의 기부금을 받았습니다.",
+"source": "Vietnam.vn",
+"link": "https://www.vietnam.vn/ko/phuong-ha-an-tiep-nhan-tren-289-trieu-dong-ung-ho-quy-vi-nguoi-ngheo-nam-2026"
+},
+{
+"title": "꽝닌성, 빈곤층 기금 지원을 위해 약 170억 동 모금",
+"source": "Laodong.vn",
+"link": "https://ko.laodong.vn/hoat-dong-mat-tran/quang-ninh-van-dong-gan-17-ti-dong-dang-ky-ung-ho-quy-vi-nguoi-ngheo-1795960.ldo"
+}
+],
+"new": true
+},
+{
 "term": "두산에너빌리티",
 "traffic": "500+",
 "time": "2026-11-06T20:40:00+00:00",
@@ -1716,9 +1770,9 @@
 "link": "https://247sports.com/college/georgia/longformarticle/georgia-bulldogs-football-injury-report-update-ole-miss-rebels-292240149/"
 },
 {
-"title": "Back Ole Miss to Cover Against Georgia With Trinidad Chambliss Catching the Hook at Home",
+"title": "Georgia vs. Ole Miss prediction: 5 things that decide this SEC game",
 "source": "Yahoo Sports",
-"link": "https://sports.yahoo.com/videos/back-ole-miss-cover-against-194033848.html"
+"link": "https://sports.yahoo.com/articles/georgia-vs-ole-miss-prediction-193616731.html"
 }
 ],
 "new": false
@@ -1776,55 +1830,9 @@
 }
 ],
 "new": false
-},
-{
-"term": "카를로스 알카라스",
-"traffic": "1000+",
-"time": "2026-11-06T19:40:00+00:00",
-"news": [
-{
-"title": "알카라스, 베레티니 부상 기권으로 파리 마스터스 8강…프리츠와 격돌",
-"source": "이투데이",
-"link": "https://www.etoday.co.kr/news/view/2644971?trc=main_list_news"
-},
-{
-"title": "알카라스, 미켈센 2-0 제압…파리 마스터스 16강 진출",
-"source": "이투데이",
-"link": "https://www.etoday.co.kr/news/view/2644533?trc=right_categori_news"
-}
-],
-"new": false
-},
-{
-"term": "주가 대폭락",
-"traffic": "100+",
-"time": "2026-11-06T19:10:00+00:00",
-"news": [],
-"new": false
-},
-{
-"term": "어 도어",
-"traffic": "200+",
-"time": "2026-11-06T18:30:00+00:00",
-"news": [
-{
-"title": "‘뉴진스’ 계약 불공정 논란…“가혹하다” vs “사실아냐”",
-"source": "KBS 뉴스",
-"link": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8706309"
-},
-{
-"title": "“하이브 승인 없이 계약 불가능했다”…민희진, 뉴진스 ‘불공정 계약’ 논란에 하이브 책임전가 비판",
-"source": "경향신문",
-"link": "https://www.khan.co.kr/article/202611061631011"
-}
-],
-"new": false
 }
 ],
 "trendSeen": [
-"qld",
-"qqq",
-"s&p 500",
 "sbs",
 "skhy",
 "sk텔레콤",
@@ -1951,6 +1959,7 @@
 "보디빌더",
 "부산 불꽃축제",
 "비트코인",
+"빈곤",
 "사격",
 "살림하는 남자들",
 "삼성 야구",
@@ -2013,6 +2022,7 @@
 "예산",
 "오타니 쇼헤이",
 "옥수수",
+"옥주현",
 "외국인",
 "우주발사체",
 "울산 현대모비스 대 썬더스",
@@ -2093,6 +2103,7 @@
 "토토 재팬 클래식",
 "퇴장",
 "퇴직",
+"투자",
 "트와이스",
 "티빙",
 "퍽즈",
