@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-06T20:25:22.759762+00:00",
+"updated": "2026-11-06T20:27:40.269125+00:00",
 "errors": [],
 "events": [
 {
@@ -1498,9 +1498,9 @@
 "spike": false
 },
 "폭발": {
-"n30": 6,
+"n30": 4,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "붕괴": {
 "n30": 1,
@@ -1769,22 +1769,15 @@
 ],
 "spikes": [
 {
-"term": "폭발",
-"n30": 6,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-06T20:25:22.759762+00:00"
-},
-{
 "term": "속보",
 "n30": 10,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-06T20:25:22.759762+00:00"
+"since": "2026-11-06T20:27:40.269125+00:00"
 }
 ],
 "baseline": {
-"지진": 0.11,
+"지진": 0.1,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
@@ -2076,24 +2069,6 @@
 "new": false
 },
 {
-"term": "시콜 스키 s 92",
-"traffic": "500+",
-"time": "2026-11-06T17:40:00+00:00",
-"news": [
-{
-"title": "South Korea selects Sikorsky S-92A+ for new presidential transport helicopter",
-"source": "FlightGlobal",
-"link": "https://www.flightglobal.com/defence/2026/11/south-korea-selects-sikorsky-s-92a-for-new-presidential-transport-helicopter/"
-},
-{
-"title": "South Korea orders four S-92A+ helicopters to replace presidential fleet",
-"source": "Air Data News",
-"link": "https://www.airdatanews.com/south-korea-orders-four-s-92-a-helicopters-to-replace-presidential-fleet/"
-}
-],
-"new": false
-},
-{
 "term": "임형주",
 "traffic": "5000+",
 "time": "2026-11-06T16:10:00+00:00",
@@ -2168,6 +2143,24 @@
 "title": "‘볼리비아 사고 유튜버’ 故 진쓰레블, 마지막 영상 공개",
 "source": "스포츠경향",
 "link": "https://sports.khan.co.kr/article/202611061513013"
+}
+],
+"new": false
+},
+{
+"term": "강남",
+"traffic": "1000+",
+"time": "2026-11-06T15:00:00+00:00",
+"news": [
+{
+"title": "[르포] 강남 은마아파트 가보니 “분담금에 세금 겹쳐 급락했지만… 매수는 현금부자만”",
+"source": "대한경제",
+"link": "https://www.dnews.co.kr/uhtml/view.jsp?idxno=202611041530490450645"
+},
+{
+"title": "\"그때 팔 걸\" 매물만 쌓인다…20억 넘게 빠진 압구정 집주인들 '속앓이' - 머니투데이",
+"source": "머니투데이",
+"link": "https://www.mt.co.kr/estate/2026/11/07/2026110612530467580"
 }
 ],
 "new": false
