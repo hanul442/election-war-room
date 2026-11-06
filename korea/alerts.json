@@ -1,7 +1,40 @@
 {
-"updated": "2026-11-06T12:18:39.466145+00:00",
+"updated": "2026-11-06T12:20:52.774393+00:00",
 "errors": [],
 "events": [
+{
+"id": "wNISX20261106_00038585981219",
+"first": "2026-11-06T12:19:22+00:00",
+"last": "2026-11-06T12:19:22+00:00",
+"updated": "2026-11-06T12:20:52.774393+00:00",
+"headline": "삼성, KS 3차전서 KT 5-1로 제압…1패 뒤 2연승",
+"cat": "경제",
+"regions": [],
+"sources": [
+"뉴시스"
+],
+"updates": [
+{
+"title": "[속보]삼성, KS 3차전서 KT 5-1로 제압…1패 뒤 2연승",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261106_0003858598",
+"time": "2026-11-06T12:19:22+00:00",
+"stage": "얼럿"
+}
+],
+"level": "URGENT",
+"latest": "삼성, KS 3차전서 KT 5-1로 제압…1패 뒤 2연승",
+"tok": [
+"1로",
+"1패",
+"2연승",
+"3차전서",
+"KS",
+"KT",
+"삼성",
+"제압"
+]
+},
 {
 "id": "PT1B0SWxHSWV0QXBJNUpzoc51206",
 "first": "2026-11-06T12:06:20+00:00",
@@ -4878,66 +4911,6 @@
 "코리아오픈",
 "한일전서"
 ]
-},
-{
-"id": "ZaTV9wQkZMTmF1b0UtWWMoc50619",
-"first": "2026-11-06T06:19:10+00:00",
-"last": "2026-11-06T07:53:00+00:00",
-"updated": "2026-11-06T08:07:19.873480+00:00",
-"headline": "발리서 스노클링 하던 30대 한국인 여성, 한 달째 실종…가족 현상금 내걸어",
-"cat": "기타",
-"regions": [],
-"sources": [
-"SBS",
-"경기일보",
-"조선일보"
-],
-"updates": [
-{
-"title": "[속보] 발리서 스노클링 하던 30대 한국인 여성, 한 달째 실종…가족 현상금 내걸어",
-"source": "경기일보",
-"link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE04d1Myc3NOVFBzb2NNY1ZaQk8yQUtBWDVaY0dYVjFITHJOS1J2aFBFWXZYbUxya2NnSGw0ajlQVFpxNlYyUU1mV3RETDZaTV9wQkZMTmF1b0UtWWM?oc=5",
-"time": "2026-11-06T06:19:10+00:00",
-"stage": "얼럿"
-},
-{
-"title": "[자막뉴스] \"바다거북 보러 간다더니\"…발리서 스노클링 하던 한국인 실종",
-"source": "SBS",
-"link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008834150&plink=RSSLINK&cooper=RSSREADER",
-"time": "2026-11-06T06:46:42+00:00",
-"stage": "후속"
-},
-{
-"title": "인도네시아서 스노클링 중 실종된 한국인 여성… 한 달째 행방 묘연",
-"source": "조선일보",
-"link": "https://www.chosun.com/international/international_general/2026/11/06/ME3GEZDFG5RGCMRQMRRGGN3CGM/",
-"time": "2026-11-06T07:53:00+00:00",
-"stage": "후속"
-}
-],
-"level": "URGENT",
-"latest": "인도네시아서 스노클링 중 실종된 한국인 여성… 한 달째 행방 묘연",
-"tok": [
-"30대",
-"가족",
-"간다더니",
-"내걸어",
-"달째",
-"묘연",
-"바다거북",
-"발리서",
-"보러",
-"스노클링",
-"실종",
-"실종된",
-"여성",
-"인도네시아서",
-"자막뉴스",
-"하던",
-"한국인",
-"행방",
-"현상금"
-]
 }
 ],
 "sns": {
@@ -4969,7 +4942,7 @@
 },
 "붕괴": {
 "n30": 6,
-"base": 0.5,
+"base": 0.6,
 "spike": true
 },
 "대피": {
@@ -4994,7 +4967,7 @@
 },
 "사고": {
 "n30": 3,
-"base": 1.5,
+"base": 1.7,
 "spike": false
 },
 "실종": {
@@ -5288,28 +5261,28 @@
 "n30": 9,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-06T12:18:39.466145+00:00"
+"since": "2026-11-06T12:20:52.774393+00:00"
 },
 {
 "term": "붕괴",
 "n30": 6,
-"base": 0.5,
+"base": 0.6,
 "spike": true,
-"since": "2026-11-06T12:18:39.466145+00:00"
+"since": "2026-11-06T12:20:52.774393+00:00"
 }
 ],
 "baseline": {
-"지진": 0.12,
+"지진": 0.11,
 "화재": 0.05,
 "불났": 0.05,
-"정전": 0.2,
+"정전": 0.18,
 "폭발": 0.05,
-"붕괴": 0.56,
+"붕괴": 0.6,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.12,
-"지하철": 0.85,
-"사고": 1.67,
+"속보": 0.11,
+"지하철": 0.86,
+"사고": 1.8,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -5594,9 +5567,9 @@
 "link": "https://www.espn.in/cricket/series/23081/scorecard/1558597/karnali-yaks-npl-vs-sudur-paschim-royals-npl-16th-match-nepal-premier-league-2026-27"
 },
 {
-"title": "Sudurpaschim Royals set 177-run target for Karnali Yaks in NPL",
-"source": "Nepalnews.com",
-"link": "https://english.nepalnews.com/s/sports/sudurpaschim-royals-set-177-run-target-for-karnali-yaks-in-npl/"
+"title": "David Miller’s 93 in vain as Sudurpaschim Royals beat Karnali Yaks",
+"source": "Online Khabar",
+"link": "https://english.onlinekhabar.com/sudurpaschim-royals-beat-karnali-yaks.html"
 }
 ],
 "new": false
