@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-06T23:21:21.817345+00:00",
+"updated": "2026-11-06T23:23:39.282294+00:00",
 "errors": [],
 "events": [
 {
@@ -1713,7 +1713,7 @@
 },
 "사고": {
 "n30": 3,
-"base": 1.3,
+"base": 1.5,
 "spike": false
 },
 "실종": {
@@ -1748,7 +1748,7 @@
 "handle": "kimnemo.bsky.social",
 "name": "좀비네모",
 "time": "2026-11-06T23:20:00.990Z",
-"likes": 0,
+"likes": 1,
 "reposts": 0,
 "url": "https://bsky.app/profile/kimnemo.bsky.social/post/3mzojgyro2k2v",
 "term": "사고"
@@ -1758,7 +1758,7 @@
 "handle": "kimnemo.bsky.social",
 "name": "좀비네모",
 "time": "2026-11-06T23:20:00.987Z",
-"likes": 0,
+"likes": 1,
 "reposts": 0,
 "url": "https://bsky.app/profile/kimnemo.bsky.social/post/3mzojgyr5hc2v",
 "term": "사고"
@@ -1996,14 +1996,14 @@
 "n30": 6,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-06T23:21:21.817345+00:00"
+"since": "2026-11-06T23:23:39.282294+00:00"
 },
 {
 "term": "속보",
 "n30": 8,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-06T23:21:21.817345+00:00"
+"since": "2026-11-06T23:23:39.282294+00:00"
 }
 ],
 "baseline": {
@@ -2017,7 +2017,7 @@
 "미사일": 0.05,
 "속보": 0.05,
 "지하철": 0.05,
-"사고": 1.51,
+"사고": 1.66,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -2247,6 +2247,42 @@
 },
 "trends": [
 {
+"term": "vix",
+"traffic": "200+",
+"time": "2026-11-06T22:20:00+00:00",
+"news": [
+{
+"title": "Phones 'explode' on Wall Street as 'steamroller' shows up for the AI trade",
+"source": "Reuters",
+"link": "https://www.reuters.com/business/wall-street-fear-gauge-jumps-most-since-liberation-day-ai-trade-stumbles-2026-11-05/"
+},
+{
+"title": "Investors' fears are at their peak in the U.S. stock market. This is due to the sharp drop in artifi..",
+"source": "매일경제",
+"link": "https://www.mk.co.kr/en/stock/12200729"
+}
+],
+"new": true
+},
+{
+"term": "박민지",
+"traffic": "100+",
+"time": "2026-11-06T22:20:00+00:00",
+"news": [
+{
+"title": "귀국일 미룬 박민지·임진영·강채연, 나란히 합격권…JLPGA 프로테스트 최종일 승부",
+"source": "이데일리",
+"link": "https://www.edaily.co.kr/News/Read?newsId=05854806645643096&mediaCodeNo=257"
+},
+{
+"title": "박민지, 'JLPGA 최종 프로테스트' 첫날 단독 2위…\"새로운 환경에서 도전 기대\"",
+"source": "골프한국",
+"link": "https://golfhankook.hankooki.com/news/articleView.html?idxno=20022539"
+}
+],
+"new": true
+},
+{
 "term": "적금",
 "traffic": "200+",
 "time": "2026-11-06T22:10:00+00:00",
@@ -2318,9 +2354,9 @@
 "link": "https://www.chosun.com/national/court_law/2026/11/07/F3CQ5CKKLVGSNJZNGDMQKZPGTI/"
 },
 {
-"title": "'조작기소 특검법' 통과‥국힘은 장외 투쟁",
-"source": "MBC 뉴스",
-"link": "https://imnews.imbc.com/replay/2026/nwtoday/article/6863860_37012.html"
+"title": "정청래의 ‘조희대 탄핵’ 주장이 대통령 공격인 이유…김웅의 분석",
+"source": "문화일보",
+"link": "https://www.munhwa.com/article/11629487"
 }
 ],
 "new": false
@@ -2378,46 +2414,9 @@
 }
 ],
 "new": false
-},
-{
-"term": "데이터 센터",
-"traffic": "200+",
-"time": "2026-11-06T21:30:00+00:00",
-"news": [
-{
-"title": "백악관 \"데이터센터, 지지하는 주지사 있는 곳으로 이전할 것\"",
-"source": "연합인포맥스",
-"link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4443570"
-},
-{
-"title": "이제 미국엔 데이터센터를 못 짓는 걸까",
-"source": "KBS 뉴스",
-"link": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8706616"
-}
-],
-"new": false
-},
-{
-"term": "은마아파트",
-"traffic": "2000+",
-"time": "2026-11-06T21:20:00+00:00",
-"news": [
-{
-"title": "주택공급 발목잡는 재초환… 가구당 은마 4억, 반포현대 2억 내야",
-"source": "조선일보",
-"link": "https://www.chosun.com/economy/real_estate/2026/11/07/3FFT6HIJ7NG6JEFMGED6OS6BXA/"
-},
-{
-"title": "강남 재건축 덮친 재초환…은마 조합원당 4.6억[집슐랭]",
-"source": "서울경제",
-"link": "https://www.sedaily.com/article/20111382"
-}
-],
-"new": false
 }
 ],
 "trendSeen": [
-"xsmb",
 "天氣",
 "가상자산",
 "가즈아법당",
@@ -2517,6 +2516,7 @@
 "무덤",
 "미국",
 "바이퍼",
+"박민지",
 "박서진",
 "박수홍",
 "박승규",
