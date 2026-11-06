@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-06T21:43:57.147080+00:00",
+"updated": "2026-11-06T21:46:14.779990+00:00",
 "errors": [],
 "events": [
 {
@@ -1059,7 +1059,7 @@
 "terms": {
 "지진": {
 "n30": 1,
-"base": 0.3,
+"base": 0.4,
 "spike": false
 },
 "화재": {
@@ -1078,8 +1078,8 @@
 "spike": false
 },
 "폭발": {
-"n30": 9,
-"base": 0.3,
+"n30": 7,
+"base": 0.2,
 "spike": true
 },
 "붕괴": {
@@ -1093,7 +1093,7 @@
 "spike": false
 },
 "미사일": {
-"n30": 2,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
@@ -1378,31 +1378,31 @@
 "spikes": [
 {
 "term": "폭발",
-"n30": 9,
-"base": 0.3,
+"n30": 7,
+"base": 0.2,
 "spike": true,
-"since": "2026-11-06T21:43:57.147080+00:00"
+"since": "2026-11-06T21:46:14.779990+00:00"
 },
 {
 "term": "속보",
 "n30": 7,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-06T21:43:57.147080+00:00"
+"since": "2026-11-06T21:46:14.779990+00:00"
 }
 ],
 "baseline": {
-"지진": 0.39,
+"지진": 0.45,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.24,
+"폭발": 0.22,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
 "지하철": 0.05,
-"사고": 0.1,
+"사고": 0.09,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -1656,7 +1656,7 @@
 "link": "https://m.anewsa.com/article_sub3.php?number=3215388&type=&mobile="
 }
 ],
-"new": true
+"new": false
 },
 {
 "term": "염경엽",
@@ -1674,6 +1674,24 @@
 "link": "https://www.jemin.com/news/articleView.html?idxno=846226"
 }
 ],
+"new": false
+},
+{
+"term": "하지원",
+"traffic": "200+",
+"time": "2026-11-06T20:10:00+00:00",
+"news": [
+{
+"title": "“잘 먹었다, 강남아” 이서진, 같은 팀도 놀라게 만든 찍신 강림★",
+"source": "programs.sbs.co.kr",
+"link": "https://programs.sbs.co.kr/enter/mygeniesecretary/clip/90105/OC482986026?div=live_end"
+},
+{
+"title": "이서진, 하지원에 선크림 발라주고 보디가드까지…묘한 기류",
+"source": "동아일보",
+"link": "https://www.donga.com/news/Entertainment/article/all/20261106/134977060/1"
+}
+],
 "new": true
 },
 {
@@ -1687,9 +1705,9 @@
 "link": "https://247sports.com/college/georgia/longformarticle/georgia-bulldogs-football-injury-report-update-ole-miss-rebels-292240149/"
 },
 {
-"title": "Back Ole Miss to Cover Against Georgia With Trinidad Chambliss Catching the Hook at Home",
+"title": "Georgia vs. Ole Miss prediction: 5 things that decide this SEC game",
 "source": "Yahoo Sports",
-"link": "https://sports.yahoo.com/videos/back-ole-miss-cover-against-194033848.html"
+"link": "https://sports.yahoo.com/articles/georgia-vs-ole-miss-prediction-193616731.html"
 }
 ],
 "new": false
@@ -1790,28 +1808,9 @@
 }
 ],
 "new": false
-},
-{
-"term": "농성",
-"traffic": "500+",
-"time": "2026-11-06T18:20:00+00:00",
-"news": [
-{
-"title": "한화오션 생산 직·반장들 \"하청노조 고공농성 중단하라\"",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261106056400052"
-},
-{
-"title": "한화오션, 생산 현장 직·반장 \"거제 경제·일터 수호\" 결의",
-"source": "뉴시스",
-"link": "https://www.newsis.com/view/NISX20261106_0003857343"
-}
-],
-"new": false
 }
 ],
 "trendSeen": [
-"nepal premier league",
 "qld",
 "qqq",
 "s&p 500",
@@ -2091,6 +2090,7 @@
 "필리핀",
 "하이닉스",
 "하이닉스 주가",
+"하지원",
 "한국경제",
 "한국대학신문",
 "한국시리즈 3차전",
