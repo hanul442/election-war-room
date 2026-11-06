@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-06T13:04:00.029458+00:00",
+"updated": "2026-11-06T13:06:18.411616+00:00",
 "errors": [],
 "events": [
 {
@@ -5651,7 +5651,7 @@
 },
 "붕괴": {
 "n30": 2,
-"base": 0.7,
+"base": 0.8,
 "spike": false
 },
 "대피": {
@@ -5665,18 +5665,18 @@
 "spike": false
 },
 "속보": {
-"n30": 5,
+"n30": 4,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "지하철": {
-"n30": 4,
-"base": 0.8,
+"n30": 3,
+"base": 1.0,
 "spike": false
 },
 "사고": {
-"n30": 6,
-"base": 5.1,
+"n30": 5,
+"base": 5.2,
 "spike": false
 },
 "실종": {
@@ -5695,7 +5695,7 @@
 "spike": false
 },
 "먹통": {
-"n30": 0,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
@@ -5706,6 +5706,26 @@
 }
 },
 "posts": [
+{
+"text": "[공지] 헬 게이츠, \"AI가 이미 병원, 전력망, 은행을 셧다운시킬 수 있다\" / 제프리 힌튼, \"올해 말이나 내년에 'AI 체르노빌' 보게 될 것..일주일 금융 먹통?\nm.blog.naver.com/newsky144th/...",
+"handle": "newsky144th.bsky.social",
+"name": "하통시대",
+"time": "2026-11-06T13:05:27.184Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/newsky144th.bsky.social/post/3mznh3xluts2a",
+"term": "먹통"
+},
+{
+"text": "머 지하철 탈 줄 알고 수산시장에서 현지친구랑 산낙지 먹고 다녀도 강남스타일이 의미있어보이고 북한이랑 정상회담하면 인스타스토리에 올리고 결국 투표는 캘포에서 하는 게 아메리칸아니겠습니까",
+"handle": "onseamil.bsky.social",
+"name": "온새밀 🆓️🇵🇸",
+"time": "2026-11-06T13:04:03.476Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/onseamil.bsky.social/post/3mzngzl3gb22j",
+"term": "지하철"
+},
 {
 "text": "오늘 지하철 타는데 앞에 외국인 엉덩이 존나 커서 내 자지에 비비는데 풀발되고 쿠퍼액 흘려있네..\n정액이 불알 가득차있다\n#섹트#섹블",
 "handle": "e-oanfwkwl.bsky.social",
@@ -5799,7 +5819,7 @@
 "handle": "hoxymoxy.bsky.social",
 "name": "게뀰빡",
 "time": "2026-11-06T12:43:13.075Z",
-"likes": 2,
+"likes": 3,
 "reposts": 0,
 "url": "https://bsky.app/profile/hoxymoxy.bsky.social/post/3mznfucufas2s",
 "term": "지하철"
@@ -6022,31 +6042,23 @@
 "url": "https://www.youtube.com/watch?v=sbMbghkImFk"
 }
 ],
-"spikes": [
-{
-"term": "속보",
-"n30": 5,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-06T13:04:00.029458+00:00"
-}
-],
+"spikes": [],
 "baseline": {
 "지진": 0.05,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 1.4,
-"붕괴": 0.83,
+"폭발": 1.36,
+"붕괴": 0.95,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.96,
-"사고": 5.23,
+"지하철": 1.16,
+"사고": 5.21,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
-"먹통": 0.05,
+"먹통": 0.15,
 "산불": 0.05
 },
 "errors": [],
@@ -6296,24 +6308,6 @@
 "link": "https://www.osen.co.kr/article/G1112905542"
 }
 ],
-"new": true
-},
-{
-"term": "이승민",
-"traffic": "200+",
-"time": "2026-11-06T11:50:00+00:00",
-"news": [
-{
-"title": "역투하는 이승민",
-"source": "뉴시스",
-"link": "https://mobile.newsis.com/photo/NISI20261106_0021522728"
-},
-{
-"title": "[사진]8회 마운드 오른 삼성 이승민, '리드 지킨다'",
-"source": "OSEN",
-"link": "http://www.osen.co.kr/article/G1112905525"
-}
-],
 "new": false
 },
 {
@@ -6348,6 +6342,24 @@
 "title": "마이클 세일러 \"AI 해커, 디지털자산 산업 새 위협…비트코인 보다 거래소가 취약\"",
 "source": "블록미디어",
 "link": "https://www.blockmedia.co.kr/archives/1162198"
+}
+],
+"new": false
+},
+{
+"term": "이승민",
+"traffic": "200+",
+"time": "2026-11-06T11:50:00+00:00",
+"news": [
+{
+"title": "역투하는 이승민",
+"source": "뉴시스",
+"link": "https://mobile.newsis.com/photo/NISI20261106_0021522728"
+},
+{
+"title": "[사진]이승민 다독이는 강민호",
+"source": "OSEN",
+"link": "http://www.osen.co.kr/article/G1112905528"
 }
 ],
 "new": false
@@ -6394,14 +6406,14 @@
 "time": "2026-11-06T11:30:00+00:00",
 "news": [
 {
-"title": "Güney Vietnam Piyango Sonuçları 6 Kasım: Tra Vinh'te birçok kişinin kazanmasına yardımcı olan kazanan numaralar.",
-"source": "Vietnam.vn",
-"link": "https://www.vietnam.vn/tr/xo-so-mien-nam-ngay-6-thang-11-day-so-giup-nhieu-nguoi-trung-dai-tra-vinh"
-},
-{
 "title": "XSBD 6/11 - Kết quả xổ số Bình Dương ngày 6 tháng 11",
 "source": "CafeF",
 "link": "https://cafef.vn/xsbd-6-11-ket-qua-xo-so-binh-duong-ngay-6-thang-11-188261106163154116.chn"
+},
+{
+"title": "Xổ số miền Nam ngày 6 tháng 11: Dãy số giúp nhiều người trúng đài Trà Vinh",
+"source": "Báo Thanh Niên",
+"link": "https://thanhnien.vn/xo-so-mien-nam-ngay-6-thang-11-day-so-giup-nhieu-nguoi-trung-dai-tra-vinh-185261106083235699.htm"
 }
 ],
 "new": false
