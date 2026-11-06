@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-06T02:21:19.511185+00:00",
+"updated": "2026-11-06T02:23:33.061245+00:00",
 "errors": [],
 "events": [
 {
@@ -3979,7 +3979,7 @@
 },
 "화재": {
 "n30": 0,
-"base": 1.5,
+"base": 1.4,
 "spike": false
 },
 "불났": {
@@ -3994,7 +3994,7 @@
 },
 "폭발": {
 "n30": 8,
-"base": 0.2,
+"base": 0.3,
 "spike": true
 },
 "붕괴": {
@@ -4014,17 +4014,17 @@
 },
 "속보": {
 "n30": 5,
-"base": 0.7,
+"base": 0.6,
 "spike": true
 },
 "지하철": {
-"n30": 2,
+"n30": 3,
 "base": 0.8,
 "spike": false
 },
 "사고": {
 "n30": 0,
-"base": 1.0,
+"base": 0.9,
 "spike": false
 },
 "실종": {
@@ -4054,6 +4054,16 @@
 }
 },
 "posts": [
+{
+"text": "감이 이끄는대로 갔다가 아무리가도 안나와서 지도앱 키고 반대로 간거 알고 다시 되돌아갔는데, 가는동안 버스가 지나가서 다시 되돌아 지하철 타러 가는데 타는곳을 지나쳐가서 다시 되돌아왔어요",
+"handle": "nini-sgms.bsky.social",
+"name": "니니 장르계",
+"time": "2026-11-06T02:22:48.871Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/nini-sgms.bsky.social/post/3mzmd6w7bhs2j",
+"term": "지하철"
+},
 {
 "platform": "YouTube",
 "text": "해운대마티안 지하철 초역세권 28년11월입주 신축 8억대(1천만원으로 내집마련)도보10분 해운대해수욕장 외국사람이 더 많은 이곳 어때요?#해운대마티안방문예약#제니림",
@@ -4286,37 +4296,37 @@
 {
 "term": "폭발",
 "n30": 8,
-"base": 0.2,
+"base": 0.3,
 "spike": true,
-"since": "2026-11-06T02:21:19.511185+00:00"
+"since": "2026-11-06T02:23:33.061245+00:00"
 },
 {
 "term": "붕괴",
 "n30": 5,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-06T02:21:19.511185+00:00"
+"since": "2026-11-06T02:23:33.061245+00:00"
 },
 {
 "term": "속보",
 "n30": 5,
-"base": 0.7,
+"base": 0.6,
 "spike": true,
-"since": "2026-11-06T02:21:19.511185+00:00"
+"since": "2026-11-06T02:23:33.061245+00:00"
 }
 ],
 "baseline": {
 "지진": 0.05,
-"화재": 1.38,
+"화재": 1.24,
 "불났": 0.0,
 "정전": 0.05,
-"폭발": 0.26,
+"폭발": 0.33,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.62,
-"지하철": 0.81,
-"사고": 0.87,
+"속보": 0.56,
+"지하철": 0.93,
+"사고": 0.78,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -4537,6 +4547,24 @@
 },
 "trends": [
 {
+"term": "어쌔신 크리드 발할라",
+"traffic": "100+",
+"time": "2026-11-06T01:20:00+00:00",
+"news": [
+{
+"title": "Assassin's Creed Valhalla Title Update 1.8.0 - The Most Requested Update!",
+"source": "Ubisoft",
+"link": "https://www.ubisoft.com/en-us/game/assassins-creed/news/74wt4upd0nKmJsZDHo933S/assassins-creed-valhalla-title-update-180-the-most-requested-update"
+},
+{
+"title": "Assassin’s Creed Valhalla: new update brings New Game Plus, upgraded PSSR support for PS5 Pro today",
+"source": "PlayStation.Blog",
+"link": "https://blog.playstation.com/2026/11/05/assassins-creed-valhalla-new-update-brings-new-game-upgraded-pssr-support-for-ps5-pro-today/"
+}
+],
+"new": true
+},
+{
 "term": "김장",
 "traffic": "500+",
 "time": "2026-11-06T01:10:00+00:00",
@@ -4614,14 +4642,14 @@
 "time": "2026-11-06T00:40:00+00:00",
 "news": [
 {
-"title": "[특징주] 삼성전기, 美 AI 투자 둔화 우려에 12%대 급락",
-"source": "브릿지경제",
-"link": "https://www.viva100.com/article/20261106500162"
-},
-{
 "title": "삼성전기, 美 데이터센터 규제·AI 피크아웃 공포에 10%대 급락",
 "source": "Chosunbiz",
 "link": "https://biz.chosun.com/stock/stock_general/2026/11/06/QRRCK5LBIVCXDOLD3AB3NZRGVQ/"
+},
+{
+"title": "[특징주] 삼성전기, 美 AI 투자 둔화 우려에 12%대 급락",
+"source": "브릿지경제",
+"link": "https://www.viva100.com/article/20261106500162"
 }
 ],
 "new": false
@@ -4694,24 +4722,6 @@
 "title": "폭락한 삼성전자 주가",
 "source": "뉴스1",
 "link": "https://www.news1.kr/photos/8200078"
-}
-],
-"new": false
-},
-{
-"term": "sk하이닉스 주가",
-"traffic": "200+",
-"time": "2026-11-06T00:00:00+00:00",
-"news": [
-{
-"title": "SK하이닉스 주가가 오늘 급락한 이유는?",
-"source": "Investing.com 한국어",
-"link": "https://kr.investing.com/news/stock-market-news/article-93CH-2160717"
-},
-{
-"title": "10% 폭락한 SK하이닉스",
-"source": "뉴시스",
-"link": "https://www.newsis.com/view/NISI20261106_0021521477"
 }
 ],
 "new": false
@@ -4840,6 +4850,7 @@
 "양민혁",
 "어벤져스 둠스데이",
 "어선",
+"어쌔신 크리드 발할라",
 "엔비디아 주가",
 "엔씨",
 "여객기",
