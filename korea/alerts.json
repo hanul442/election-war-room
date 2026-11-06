@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-06T11:33:19.726332+00:00",
+"updated": "2026-11-06T11:35:36.533382+00:00",
 "errors": [],
 "events": [
 {
@@ -4900,8 +4900,8 @@
 "sns": {
 "terms": {
 "지진": {
-"n30": 1,
-"base": 1.0,
+"n30": 0,
+"base": 0.9,
 "spike": false
 },
 "화재": {
@@ -4925,7 +4925,7 @@
 "spike": false
 },
 "붕괴": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -4935,12 +4935,12 @@
 "spike": false
 },
 "미사일": {
-"n30": 2,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
 "속보": {
-"n30": 4,
+"n30": 3,
 "base": 0.8,
 "spike": false
 },
@@ -4951,7 +4951,7 @@
 },
 "사고": {
 "n30": 3,
-"base": 3.5,
+"base": 3.4,
 "spike": false
 },
 "실종": {
@@ -5242,17 +5242,17 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 0.89,
+"지진": 0.8,
 "화재": 0.05,
 "불났": 0.05,
-"정전": 0.51,
-"폭발": 0.22,
+"정전": 0.56,
+"폭발": 0.2,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.82,
-"지하철": 0.6,
-"사고": 3.41,
+"속보": 0.84,
+"지하철": 0.64,
+"사고": 3.37,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -5479,7 +5479,25 @@
 "link": "https://www.chosun.com/english/sports-en/2026/11/04/YWR7HGDQ5RE2TFDT3VIV2RIVW4/"
 }
 ],
-"new": true
+"new": false
+},
+{
+"term": "kt 삼성",
+"traffic": "200+",
+"time": "2026-11-06T10:20:00+00:00",
+"news": [
+{
+"title": "KT·삼성전자, AI로 고속철도 통신 끊김 29% 줄였다",
+"source": "전기신문",
+"link": "https://www.electimes.com/news/articleView.html?idxno=374397"
+},
+{
+"title": "“열차 안이라 잘 안들려”…KT, 차내 통신 끊김 막을 기술 개발",
+"source": "서울경제",
+"link": "https://www.sedaily.com/article/20110805"
+}
+],
+"new": false
 },
 {
 "term": "구자욱",
@@ -5495,24 +5513,6 @@
 "title": "[사진]2타점 적시타 환호하는 구자욱",
 "source": "조선일보",
 "link": "https://www.chosun.com/sports/sports_photo/2026/11/06/HAZDMY3DMQYTGOLEHA3TOOLEGU/"
-}
-],
-"new": false
-},
-{
-"term": "kt 삼성",
-"traffic": "100+",
-"time": "2026-11-06T10:20:00+00:00",
-"news": [
-{
-"title": "KT·삼성전자, AI로 고속철도 통신 끊김 29% 줄였다",
-"source": "전기신문",
-"link": "https://www.electimes.com/news/articleView.html?idxno=374397"
-},
-{
-"title": "“열차 안이라 잘 안들려”…KT, 차내 통신 끊김 막을 기술 개발",
-"source": "서울경제",
-"link": "https://www.sedaily.com/article/20110805"
 }
 ],
 "new": false
@@ -5557,6 +5557,24 @@
 "new": false
 },
 {
+"term": "두 번째 시그널",
+"traffic": "2000+",
+"time": "2026-11-06T09:40:00+00:00",
+"news": [
+{
+"title": "tvN “조진웅 AI 교체 실패”…‘두번째 시그널’ 12월 7일 방영된다",
+"source": "경향신문",
+"link": "https://www.khan.co.kr/article/202611061354001"
+},
+{
+"title": "'두번째 시그널', 12월 7일 첫 방송…\"조진웅 문제 옹호 아냐\"",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261106106000005"
+}
+],
+"new": true
+},
+{
 "term": "티빙",
 "traffic": "2000+",
 "time": "2026-11-06T09:30:00+00:00",
@@ -5588,24 +5606,6 @@
 "title": "'강제 팔굽혀펴기'로 병사 근육 녹인 군 간부 가혹행위죄 기소",
 "source": "연합뉴스",
 "link": "https://www.yna.co.kr/view/AKR20261106074000062"
-}
-],
-"new": false
-},
-{
-"term": "한국시리즈 3차전",
-"traffic": "100+",
-"time": "2026-11-06T09:10:00+00:00",
-"news": [
-{
-"title": "'국민타자' 이승엽, 삼성라이온즈파크에 뜬다…3차전 시구[KS]",
-"source": "뉴시스",
-"link": "https://www.newsis.com/view/NISX20261106_0003858363"
-},
-{
-"title": "[사진]선취 타점 힐리어드, 시작하자마자 KT가 앞서간다",
-"source": "Chosunbiz",
-"link": "https://biz.chosun.com/sports/sports_photo/2026/11/06/ME3TCMDCMEZDMY3EGM4DMMBZGU/"
 }
 ],
 "new": false
@@ -5715,6 +5715,7 @@
 "도상우",
 "돔 경기장",
 "동티모르",
+"두 번째 시그널",
 "두산에너 빌리티",
 "디트로이트 대 필라데피아",
 "라파엘 나달",
