@@ -1,12 +1,12 @@
 {
-"updated": "2026-11-06T02:28:02.772045+00:00",
+"updated": "2026-11-06T02:30:16.553035+00:00",
 "errors": [],
 "events": [
 {
 "id": "ZQnZDSmNuXzljN1JjM1Vnoc50105",
 "first": "2026-11-06T01:05:17+00:00",
-"last": "2026-11-06T02:26:01+00:00",
-"updated": "2026-11-06T02:28:02.772045+00:00",
+"last": "2026-11-06T02:28:10+00:00",
+"updated": "2026-11-06T02:30:16.553035+00:00",
 "headline": "이 대통령 지지율 41%…민주 36%·국힘 28% [한국갤럽]",
 "cat": "정치",
 "regions": [
@@ -21,6 +21,7 @@
 "뉴시스",
 "대전일보",
 "매일경제",
+"문화일보",
 "세계일보",
 "연합뉴스",
 "이코노미스트",
@@ -124,10 +125,24 @@
 "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5PazlLU2ZiSFZXUVZCV21SYXQ2ZUY3OXpVNWx6N1Rvb0VUQk1EWVRGdkNMLXkzakhmaGJWQjJCM1lOWVVhbmZEcGFrQk94R3p5cXF0WUZoejByT2VnRXlrSG1fZ2hJQQ?oc=5",
 "time": "2026-11-06T02:26:01+00:00",
 "stage": "속보"
+},
+{
+"title": "[속보] 이 대통령 지지율 41%…민주 36%·국힘 28% 오차범위 밖 [한국갤럽]",
+"source": "강원도민일보",
+"link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1XZy1nQUhqVFdjbjBvaVJkVnJKTTJSMzVLZ2ZFSWx0bC1CSjZOMThueW5ocjVSNlBDMEFjaG02anNZOW5qR0ZZZXZCOWtFb3dNNmlPRUp1dFIyajN2QjU3RFdsTUhhcVU?oc=5",
+"time": "2026-11-06T02:26:01+00:00",
+"stage": "속보"
+},
+{
+"title": "[속보]李대통령 지지율 41%, 소폭 반등 …‘부정’은 50% -한국갤럽",
+"source": "문화일보",
+"link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9VbGdoTzg4VDVJNi1sTEdkRThZOVR2Vmx4V01CM3ZhUWVUcHRlNzhWT0c1bEhtWkdQOGRORFBxOHVtLUIyRTJEN2FXX2I1NWJM?oc=5",
+"time": "2026-11-06T02:28:10+00:00",
+"stage": "속보"
 }
 ],
 "level": "URGENT",
-"latest": "이 대통령 지지율 41%…민주 36%·국힘 28% 오차범위 밖 [한국갤럽]",
+"latest": "李대통령 지지율 41%, 소폭 반등 …‘부정’은 50% -한국갤럽",
 "tok": [
 "vs",
 "李대통령",
@@ -144,6 +159,7 @@
 "민주당",
 "반등",
 "반등한",
+"부정",
 "상승",
 "소폭",
 "안팎",
@@ -3998,7 +4014,7 @@
 },
 "화재": {
 "n30": 0,
-"base": 1.1,
+"base": 1.0,
 "spike": false
 },
 "불났": {
@@ -4013,13 +4029,13 @@
 },
 "폭발": {
 "n30": 8,
-"base": 0.4,
+"base": 0.5,
 "spike": true
 },
 "붕괴": {
-"n30": 5,
+"n30": 4,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "대피": {
 "n30": 2,
@@ -4038,12 +4054,12 @@
 },
 "지하철": {
 "n30": 3,
-"base": 1.0,
+"base": 1.1,
 "spike": false
 },
 "사고": {
-"n30": 0,
-"base": 0.7,
+"n30": 1,
+"base": 0.6,
 "spike": false
 },
 "실종": {
@@ -4074,11 +4090,21 @@
 },
 "posts": [
 {
+"text": "저는 지금 양파같은 상태라서 겉 껍데기 치우느라 다른거 못하고 있어요 ㅋㅋㅋ\nㅈㅅ사고얘기써있음",
+"handle": "passawayplz.rip",
+"name": "퇴마단원 장마",
+"time": "2026-11-06T02:28:22.380Z",
+"likes": 2,
+"reposts": 0,
+"url": "https://bsky.app/profile/passawayplz.rip/post/3mzmdkgvra22o",
+"term": "사고"
+},
+{
 "text": "감이 이끄는대로 갔다가 아무리가도 안나와서 지도앱 키고 반대로 간거 알고 다시 되돌아갔는데, 가는동안 버스가 지나가서 다시 되돌아 지하철 타러 가는데 타는곳을 지나쳐가서 다시 되돌아왔어요",
 "handle": "nini-sgms.bsky.social",
 "name": "니니 장르계",
 "time": "2026-11-06T02:22:48.871Z",
-"likes": 0,
+"likes": 1,
 "reposts": 0,
 "url": "https://bsky.app/profile/nini-sgms.bsky.social/post/3mzmd6w7bhs2j",
 "term": "지하철"
@@ -4315,37 +4341,30 @@
 {
 "term": "폭발",
 "n30": 8,
-"base": 0.4,
+"base": 0.5,
 "spike": true,
-"since": "2026-11-06T02:28:02.772045+00:00"
-},
-{
-"term": "붕괴",
-"n30": 5,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-06T02:28:02.772045+00:00"
+"since": "2026-11-06T02:30:16.553035+00:00"
 },
 {
 "term": "속보",
 "n30": 5,
 "base": 0.5,
 "spike": true,
-"since": "2026-11-06T02:28:02.772045+00:00"
+"since": "2026-11-06T02:30:16.553035+00:00"
 }
 ],
 "baseline": {
 "지진": 0.05,
-"화재": 1.01,
+"화재": 0.91,
 "불났": 0.0,
 "정전": 0.05,
-"폭발": 0.46,
+"폭발": 0.51,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.45,
-"지하철": 1.14,
-"사고": 0.63,
+"속보": 0.41,
+"지하철": 1.23,
+"사고": 0.67,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -4720,9 +4739,9 @@
 "link": "https://www.mk.co.kr/news/economy/12200143"
 },
 {
-"title": "[단독] '최대 7억' 고지서 나간다…\"퇴직금 썼는데\" 반발",
-"source": "SBS 뉴스",
-"link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008832894"
+"title": "서초구, 국토부에 '재초환 폐지' 건의문·주민 탄원서 전달",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261105097200004"
 }
 ],
 "new": false
