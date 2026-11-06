@@ -1,12 +1,12 @@
 {
-"updated": "2026-11-06T19:34:29.557278+00:00",
+"updated": "2026-11-06T19:36:48.299635+00:00",
 "errors": [],
 "events": [
 {
 "id": "VrS09VUUZwc2xucXR2WlUoc51902",
 "first": "2026-11-06T19:02:00+00:00",
-"last": "2026-11-06T19:16:14+00:00",
-"updated": "2026-11-06T19:32:11.637643+00:00",
+"last": "2026-11-06T19:35:24+00:00",
+"updated": "2026-11-06T19:36:48.299635+00:00",
 "headline": "트럼프, 수지 와일스 백악관 비서실장 교체…후임 스티븐 밀러",
 "cat": "국제",
 "regions": [],
@@ -52,12 +52,20 @@
 "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE8xWHh5Q3dGRWhJOWJDRzVqY1RBMW9VbnA4X0cwSnlBNE4yZnlfS2hzNkw5UFZRMTVIYlhSTmsxWHJhczhMVEVfVlJIZjF1c2R4emxlbVNXb3I?oc=5",
 "time": "2026-11-06T19:16:14+00:00",
 "stage": "속보"
+},
+{
+"title": "트럼프, 선거 참패에 비서실장 경질…후임엔 강경파 밀러",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261107_0003858715",
+"time": "2026-11-06T19:35:24+00:00",
+"stage": "후속"
 }
 ],
 "level": "URGENT",
-"latest": "트럼프, 백악관 비서실장 교체…후임은 스티븐 밀러 부비서실장",
+"latest": "트럼프, 선거 참패에 비서실장 경질…후임엔 강경파 밀러",
 "tok": [
 "강경파",
+"경질",
 "교체",
 "밀러",
 "백악관",
@@ -1607,7 +1615,7 @@
 "terms": {
 "지진": {
 "n30": 0,
-"base": 1.2,
+"base": 1.1,
 "spike": false
 },
 "화재": {
@@ -1627,7 +1635,7 @@
 },
 "폭발": {
 "n30": 3,
-"base": 0.6,
+"base": 0.5,
 "spike": false
 },
 "붕괴": {
@@ -1646,9 +1654,9 @@
 "spike": false
 },
 "속보": {
-"n30": 5,
+"n30": 4,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "지하철": {
 "n30": 0,
@@ -1904,27 +1912,19 @@
 "url": "https://www.youtube.com/watch?v=xB7sjXvkKiE"
 }
 ],
-"spikes": [
-{
-"term": "속보",
-"n30": 5,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-06T19:34:29.557278+00:00"
-}
-],
+"spikes": [],
 "baseline": {
-"지진": 1.06,
+"지진": 0.95,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.5,
-"붕괴": 0.17,
+"폭발": 0.45,
+"붕괴": 0.15,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
 "지하철": 0.05,
-"사고": 0.13,
+"사고": 0.12,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -2169,6 +2169,24 @@
 "link": "https://www.ytn.co.kr/_ln/0134_202611062336285237"
 }
 ],
+"new": false
+},
+{
+"term": "농성",
+"traffic": "100+",
+"time": "2026-11-06T18:20:00+00:00",
+"news": [
+{
+"title": "한화오션 생산 직·반장들 \"하청노조 고공농성 중단하라\"",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261106056400052"
+},
+{
+"title": "한화오션, 생산 현장 직·반장 \"거제 경제·일터 수호\" 결의",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261106_0003857343"
+}
+],
 "new": true
 },
 {
@@ -2244,6 +2262,24 @@
 "new": false
 },
 {
+"term": "한파",
+"traffic": "2000+",
+"time": "2026-11-06T15:50:00+00:00",
+"news": [
+{
+"title": "갑자기 기온 뚝…내일 ’입동’ 서울 첫 영하권",
+"source": "연합뉴스TV",
+"link": "https://www.yonhapnewstv.co.kr/news/MYH20261106124747vqp"
+},
+{
+"title": "주말 서울 첫 영하권, '강풍·풍랑' 비상...휴일엔 첫눈",
+"source": "YTN",
+"link": "https://www.ytn.co.kr/_ln/0108_202611062145073803"
+}
+],
+"new": true
+},
+{
 "term": "t1 kc",
 "traffic": "200+",
 "time": "2026-11-06T15:10:00+00:00",
@@ -2285,47 +2321,9 @@
 }
 ],
 "new": false
-},
-{
-"term": "숲",
-"traffic": "2000+",
-"time": "2026-11-06T14:20:00+00:00",
-"news": [
-{
-"title": "숲에서 시작하는 여행, '대한민국 구석구석'에서 만나보세요!",
-"source": "대한민국 정책브리핑",
-"link": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156788202&pWise=sub&pWiseSub=C4"
-},
-{
-"title": "\"주변 명품숲 어디지?\"...전국 100대 숲, 여행 플랫폼서 만난다",
-"source": "파이낸셜뉴스",
-"link": "https://www.fnnews.com/news/202611061216148824"
-}
-],
-"new": false
-},
-{
-"term": "삼성증권",
-"traffic": "200+",
-"time": "2026-11-06T14:10:00+00:00",
-"news": [
-{
-"title": "한미약품, 두 번째 'Bio Innovation Day' 개최···신약·AI 헬스케어 교류의 장",
-"source": "녹색경제신문",
-"link": "https://www.greened.kr/news/articleView.html?idxno=354049"
-},
-{
-"title": "한미약품·삼성증권, 유망 바이오벤처 투자 유치 지원 나선다",
-"source": "서울경제",
-"link": "https://www.sedaily.com/article/20111140"
-}
-],
-"new": false
 }
 ],
 "trendSeen": [
-"jtbc",
-"kia 타이거즈",
 "kospi",
 "kt vs samsung",
 "kt wiz",
@@ -2411,6 +2409,7 @@
 "노태문",
 "논쟁",
 "농구",
+"농성",
 "농장",
 "뉴스",
 "다니엘기도회 2026",
@@ -2610,6 +2609,7 @@
 "한국대학신문",
 "한국시리즈 3차전",
 "한남더힐 아파트",
+"한파",
 "한화에어로스페이스",
 "해군사관학교",
 "허가",
