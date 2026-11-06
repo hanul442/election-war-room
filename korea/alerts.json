@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-06T03:26:29.963573+00:00",
+"updated": "2026-11-06T03:28:44.660348+00:00",
 "errors": [],
 "events": [
 {
@@ -3734,7 +3734,7 @@
 "spike": false
 },
 "화재": {
-"n30": 1,
+"n30": 0,
 "base": 0.8,
 "spike": false
 },
@@ -3779,8 +3779,8 @@
 "spike": false
 },
 "사고": {
-"n30": 4,
-"base": 2.0,
+"n30": 5,
+"base": 2.2,
 "spike": false
 },
 "실종": {
@@ -3810,6 +3810,16 @@
 }
 },
 "posts": [
+{
+"text": "사고자하는 마음이 싹 사라짐",
+"handle": "hmmnia1313.bsky.social",
+"name": "해반",
+"time": "2026-11-06T03:26:57.581Z",
+"likes": 1,
+"reposts": 0,
+"url": "https://bsky.app/profile/hmmnia1313.bsky.social/post/3mzmgrnjf7c2g",
+"term": "사고"
+},
 {
 "text": "씨프 더 다크프로젝트 리마스터 일본권에선 안 나오나 ㅡㅡ 사고 싶은 게임들이 분명 스위치로도 나왔는데 한국/일본 이샵에선 발매가 안되서 살 수가 없음 짜증~",
 "handle": "nepu47.bsky.social",
@@ -4023,16 +4033,6 @@
 "url": "https://www.youtube.com/watch?v=BooaEF1nTBc"
 },
 {
-"text": "옷을 좀 사고 싶은데 안 산지 너무 오래돼서 뭘 사야할지 모르겟음;;",
-"handle": "vxo-uxv.bsky.social",
-"name": "원",
-"time": "2026-11-06T03:05:28.783Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/vxo-uxv.bsky.social/post/3mzmfl7zo6k2a",
-"term": "사고"
-},
-{
 "platform": "YouTube",
 "text": "코스피 5,000선 붕괴, 개장 3분 만에 거래 중단",
 "handle": "UCkzajTFXp-6YJkY47fpTEKA",
@@ -4058,16 +4058,6 @@
 "time": "2026-11-06T03:04:40Z",
 "term": "폭발",
 "url": "https://www.youtube.com/watch?v=sqrLNRiWt3g"
-},
-{
-"text": "체르노빌 스위스공장화재 직후에 원자력발전소 책임자된거면 진짜 운이없다",
-"handle": "karm9police.bsky.social",
-"name": "록",
-"time": "2026-11-06T02:57:33.173Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/karm9police.bsky.social/post/3mzmf4zent22z",
-"term": "화재"
 }
 ],
 "spikes": [
@@ -4076,21 +4066,21 @@
 "n30": 10,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-06T03:26:29.963573+00:00"
+"since": "2026-11-06T03:28:44.660348+00:00"
 }
 ],
 "baseline": {
 "지진": 0.05,
-"화재": 0.81,
+"화재": 0.73,
 "불났": 0.0,
 "정전": 0.05,
-"폭발": 0.12,
+"폭발": 0.11,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.51,
-"지하철": 0.69,
-"사고": 2.23,
+"속보": 0.56,
+"지하철": 0.72,
+"사고": 2.51,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
