@@ -1,12 +1,12 @@
 {
-"updated": "2026-11-06T01:52:04.389362+00:00",
+"updated": "2026-11-06T01:54:18.949045+00:00",
 "errors": [],
 "events": [
 {
 "id": "wNISX20261106_00038576450141",
 "first": "2026-11-06T01:41:51+00:00",
-"last": "2026-11-06T01:48:03+00:00",
-"updated": "2026-11-06T01:52:04.389362+00:00",
+"last": "2026-11-06T01:51:58+00:00",
+"updated": "2026-11-06T01:54:18.949045+00:00",
 "headline": "전국법관대표회의, 정기회 이달 30일로 조기 개최",
 "cat": "기타",
 "regions": [],
@@ -14,6 +14,10 @@
 "SBS",
 "뉴스1",
 "뉴시스",
+"더팩트",
+"스페셜타임스",
+"연합뉴스",
+"조선일보",
 "조세일보"
 ],
 "updates": [
@@ -39,20 +43,51 @@
 "stage": "속보"
 },
 {
+"title": "[속보] 법관대표회의, 정기회의 이달 30일로 조기 소집 결정",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261106074700004",
+"time": "2026-11-06T01:46:58+00:00",
+"stage": "속보"
+},
+{
+"title": "[속보]전국법관대표회의 정기회 이달 30일 조기 개최",
+"source": "더팩트",
+"link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE4tanN4LVZxcmNsNUFQYzVUSktTcUZRWDJLR1ZtbERzTGVPOHgwYTl6WUwwQXBtX2k2WXRyTGRVZ0FwUndtbmVMakM2QkVpdW40YTJZRXlR0gFQQVVfeXFMUFVOdFc1VzRWZ2k1Sk5KVUg0TVc1T0tsQlRta3VyS3N6NWxGNjRnODNQbVFCcjROajJ6aVktNDdsb0FuUS1FRW5rTjdOWVBNR0o?oc=5",
+"time": "2026-11-06T01:46:58+00:00",
+"stage": "속보"
+},
+{
 "title": "[속보] 전국법관대표회의, 이달 30일 조기 개최...일주일 앞당겨",
 "source": "조세일보",
 "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFB0T1VodU5CTzNDdnpPQVFGODRScGY1Wnl5SVJSblU5cDhvNW96REN0eTVwVWhqMl9TOG1uQXpZRDcya2s0SW9iUGdWY0tYQjZyRlFXUDlrUklsVXNkNEk1b2JXb1U0emtFZ1M5LXV6Yy1xUjRO?oc=5",
 "time": "2026-11-06T01:48:03+00:00",
 "stage": "속보"
+},
+{
+"title": "[속보] 법관대표회의, 정기회의 이달 30일 조기 소집",
+"source": "조선일보",
+"link": "https://www.chosun.com/national/court_law/2026/11/06/ZFZY6WXT7ZFXLOUXG4NYUYWPQM/",
+"time": "2026-11-06T01:51:09+00:00",
+"stage": "속보"
+},
+{
+"title": "[속보] 법관대표회의, 정기회의 이달 30일로 조기 소집",
+"source": "스페셜타임스",
+"link": "https://news.google.com/rss/articles/CBMickFVX3lxTE04LUZzQklrTmdtUHRTX19aZ3FsRnVVRHNLcXdIOVlaVFVka2ZsUnI4bDRVMVVlN1NUSEhiVXhiWnpJbDlacXVyaTNsVG45a0ZrNjYzMTlDclVPdGxFbmhjNFRlRTk4c01EengyWjhfcE4zQQ?oc=5",
+"time": "2026-11-06T01:51:58+00:00",
+"stage": "속보"
 }
 ],
 "level": "URGENT",
-"latest": "전국법관대표회의, 이달 30일 조기 개최...일주일 앞당겨",
+"latest": "법관대표회의, 정기회의 이달 30일로 조기 소집",
 "tok": [
 "11월",
 "12월",
 "30일",
 "개최",
+"결정",
+"법관대표회",
+"소집",
 "앞당겨",
 "앞당긴다",
 "이달",
@@ -3886,7 +3921,7 @@
 },
 "화재": {
 "n30": 3,
-"base": 0.6,
+"base": 0.7,
 "spike": false
 },
 "불났": {
@@ -3921,17 +3956,17 @@
 },
 "속보": {
 "n30": 12,
-"base": 1.1,
+"base": 1.2,
 "spike": true
 },
 "지하철": {
 "n30": 1,
-"base": 0.7,
+"base": 0.6,
 "spike": false
 },
 "사고": {
-"n30": 4,
-"base": 3.4,
+"n30": 2,
+"base": 3.3,
 "spike": false
 },
 "실종": {
@@ -4226,26 +4261,6 @@
 "time": "2026-11-06T01:25:22Z",
 "term": "붕괴",
 "url": "https://www.youtube.com/watch?v=zcZGIUr7KdY"
-},
-{
-"text": "거래처 또 사고침.\n이번주 내내 사고침.\n한 팀에서 이 정도로 말아먹을 수 있다는 데에 이제 감탄을 느낌.\n이 정도면 행위예술인데 내가 이해를 못해준 수준임.\nmichin~",
-"handle": "yu-gam.bsky.social",
-"name": "YUGAM",
-"time": "2026-11-06T01:24:08.572Z",
-"likes": 2,
-"reposts": 0,
-"url": "https://bsky.app/profile/yu-gam.bsky.social/post/3mzm7w24csc2w",
-"term": "사고"
-},
-{
-"text": "금솔향 좋네. 나눠받은 건데 어디서 파는지 모르겠다. 더 사고 싶은 마음이 드는데.",
-"handle": "sp-alcoholfree.bsky.social",
-"name": "sp-alcoholfree",
-"time": "2026-11-06T01:22:19.874Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/sp-alcoholfree.bsky.social/post/3mzm7svh2ps2y",
-"term": "사고"
 }
 ],
 "spikes": [
@@ -4254,28 +4269,28 @@
 "n30": 7,
 "base": 0.3,
 "spike": true,
-"since": "2026-11-06T01:52:04.389362+00:00"
+"since": "2026-11-06T01:54:18.949045+00:00"
 },
 {
 "term": "속보",
 "n30": 12,
-"base": 1.1,
+"base": 1.2,
 "spike": true,
-"since": "2026-11-06T01:52:04.389362+00:00"
+"since": "2026-11-06T01:54:18.949045+00:00"
 }
 ],
 "baseline": {
 "지진": 0.05,
-"화재": 0.7,
+"화재": 0.83,
 "불났": 0.0,
 "정전": 0.05,
-"폭발": 0.27,
-"붕괴": 0.17,
+"폭발": 0.24,
+"붕괴": 0.15,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 1.23,
-"지하철": 0.63,
-"사고": 3.32,
+"속보": 1.31,
+"지하철": 0.57,
+"사고": 3.09,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -4505,6 +4520,24 @@
 },
 "trends": [
 {
+"term": "쇼메이커",
+"traffic": "100+",
+"time": "2026-11-06T00:50:00+00:00",
+"news": [
+{
+"title": "라이엇게임즈, '와일드 리프트' 글로벌 커뮤니티 행사 21일 개최",
+"source": "지디넷코리아",
+"link": "https://zdnet.co.kr/view/?no=20261105182032"
+},
+{
+"title": "'와일드 리프트' 글로벌 팬들 성수에 모인다…쇼메이커 vs 스매쉬",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261105_0003856841"
+}
+],
+"new": true
+},
+{
 "term": "amd",
 "traffic": "200+",
 "time": "2026-11-06T00:40:00+00:00",
@@ -4560,21 +4593,39 @@
 },
 {
 "term": "창신동",
-"traffic": "500+",
+"traffic": "2000+",
 "time": "2026-11-06T00:30:00+00:00",
 "news": [
 {
-"title": "\"서울 한복판이 이 지경\"…광화문서 2km, 창신동의 처참한 민낯 [르포]",
-"source": "땅집고",
-"link": "https://realty.chosun.com/site/data/html_dir/2026/11/05/2026110502547.html"
+"title": "여의도 목화아파트 416세대로…창신동 정비사업도 통과",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261105162800004"
 },
 {
-"title": "[단독] 종로구 “창신9구역, 6일부터 동의서 재징구”…9·10구역 대응 갈린다",
-"source": "에너지경제신문",
-"link": "https://m.ekn.kr/view.php?key=20261105023155908"
+"title": "동대문역 앞 창신1구역 3지구, 43층·291가구 주거복합시설로 - 머니투데이",
+"source": "머니투데이",
+"link": "https://www.mt.co.kr/estate/2026/11/06/2026110609082394633"
 }
 ],
 "new": false
+},
+{
+"term": "서초구",
+"traffic": "100+",
+"time": "2026-11-06T00:10:00+00:00",
+"news": [
+{
+"title": "“가구당 평균 2.2억”…서초구, 내주 반포현대 재초환 사전통지",
+"source": "매일경제",
+"link": "https://www.mk.co.kr/news/economy/12200143"
+},
+{
+"title": "[단독] '최대 7억' 고지서 나간다…\"퇴직금 썼는데\" 반발",
+"source": "SBS 뉴스",
+"link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008832894"
+}
+],
+"new": true
 },
 {
 "term": "토스",
@@ -4620,24 +4671,6 @@
 "new": false
 },
 {
-"term": "삼전주가",
-"traffic": "2000+",
-"time": "2026-11-05T23:40:00+00:00",
-"news": [
-{
-"title": "삼성전자 주주환원 유보에 증여세 논란…이사회 독립성 시험대",
-"source": "연합인포맥스",
-"link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4443191"
-},
-{
-"title": "삼성전자·하이닉스 주가 흔들…지금 ’줍줍’할까, 좀 더 후에 들어가야? 셈법 복잡 By FinancialPost",
-"source": "Investing.com 한국어",
-"link": "https://kr.investing.com/news/stock-market-news/article-2160533"
-}
-],
-"new": false
-},
-{
 "term": "장윤정",
 "traffic": "5000+",
 "time": "2026-11-05T23:20:00+00:00",
@@ -4651,24 +4684,6 @@
 "title": "장윤정, 가족 위해 차린 특별한 집밥…건강 식단 공개하며 연말 신곡 예고",
 "source": "제민일보",
 "link": "https://www.jemin.com/news/articleView.html?idxno=846288"
-}
-],
-"new": false
-},
-{
-"term": "최원태",
-"traffic": "2000+",
-"time": "2026-11-05T23:20:00+00:00",
-"news": [
-{
-"title": "“한국시리즈만 기다렸다” kt, 뜨거운 방망이로 기선제압",
-"source": "KBS 뉴스",
-"link": "https://news.kbs.co.kr/news/view.do?ncd=8703094"
-},
-{
-"title": "'70억 투자' 이대로 퇴장하나…충격의 선발 박탈, 명예회복 기회 찾아올까 [KS]",
-"source": "조선일보",
-"link": "https://www.chosun.com/sports/baseball/2026/11/06/MU2TGNDDG5TGKYTCHFSGKODEMY/"
 }
 ],
 "new": false
@@ -4775,10 +4790,12 @@
 "상장지수펀드",
 "샌디스크 주가",
 "서정진",
+"서초구",
 "서킷브레이커",
 "성리",
 "세계 청년 대회",
 "셀트리온",
+"쇼메이커",
 "수능일",
 "수소",
 "수술",
