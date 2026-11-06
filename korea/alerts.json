@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-06T11:31:04.386963+00:00",
+"updated": "2026-11-06T11:33:19.726332+00:00",
 "errors": [],
 "events": [
 {
@@ -4901,11 +4901,11 @@
 "terms": {
 "지진": {
 "n30": 1,
-"base": 1.1,
+"base": 1.0,
 "spike": false
 },
 "화재": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -4916,12 +4916,12 @@
 },
 "정전": {
 "n30": 1,
-"base": 0.4,
+"base": 0.5,
 "spike": false
 },
 "폭발": {
 "n30": 1,
-"base": 0.3,
+"base": 0.2,
 "spike": false
 },
 "붕괴": {
@@ -4945,8 +4945,8 @@
 "spike": false
 },
 "지하철": {
-"n30": 2,
-"base": 0.5,
+"n30": 1,
+"base": 0.6,
 "spike": false
 },
 "사고": {
@@ -4986,7 +4986,7 @@
 "handle": "dasokim.bsky.social",
 "name": "다소 (맞짱100%) 🏳️‍🌈🏳️‍⚧️🇵🇸",
 "time": "2026-11-06T11:30:55.571Z",
-"likes": 0,
+"likes": 1,
 "reposts": 0,
 "url": "https://bsky.app/profile/dasokim.bsky.social/post/3mznbszz6ic2j",
 "term": "지하철"
@@ -5242,17 +5242,17 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 0.99,
+"지진": 0.89,
 "화재": 0.05,
 "불났": 0.05,
-"정전": 0.45,
-"폭발": 0.24,
+"정전": 0.51,
+"폭발": 0.22,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.8,
-"지하철": 0.55,
-"사고": 3.45,
+"속보": 0.82,
+"지하철": 0.6,
+"사고": 3.41,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -5464,6 +5464,24 @@
 },
 "trends": [
 {
+"term": "kt vs samsung",
+"traffic": "100+",
+"time": "2026-11-06T10:30:00+00:00",
+"news": [
+{
+"title": "LIVE: KT Wiz vs. Samsung Lions in Korean Series Game 3",
+"source": "Korea JoongAng Daily",
+"link": "https://www.koreajoongangdaily.com/sports/live-kt-wiz-vs-samsung-lions-in-korean-series-game-3/12960263"
+},
+{
+"title": "Kim Jeong-woon's Seventh-Inning Struggle Leads to KT's 8-7 Victory",
+"source": "조선일보",
+"link": "https://www.chosun.com/english/sports-en/2026/11/04/YWR7HGDQ5RE2TFDT3VIV2RIVW4/"
+}
+],
+"new": true
+},
+{
 "term": "구자욱",
 "traffic": "200+",
 "time": "2026-11-06T10:20:00+00:00",
@@ -5591,24 +5609,6 @@
 }
 ],
 "new": false
-},
-{
-"term": "배트맨",
-"traffic": "200+",
-"time": "2026-11-06T09:00:00+00:00",
-"news": [
-{
-"title": "Scarlett Johansson Breaks Silence on ‘The Batman Part II’ Role: “It Was Very Hard to Figure Out”",
-"source": "The Hollywood Reporter",
-"link": "https://www.hollywoodreporter.com/movies/movie-news/scarlett-johansson-on-the-batman-part-ii-role-1236748021/"
-},
-{
-"title": "Scarlett Johansson Says Batman Role Gave Her ‘a Lot of Existential Angst’",
-"source": "Vulture",
-"link": "https://www.vulture.com/article/scarlett-johansson-batman-existential-angst.html"
-}
-],
-"new": false
 }
 ],
 "trendSeen": [
@@ -5625,6 +5625,7 @@
 "jtbc",
 "kia 타이거즈",
 "kospi",
+"kt vs samsung",
 "kt 대 삼성",
 "kt 삼성",
 "lg그룹",
