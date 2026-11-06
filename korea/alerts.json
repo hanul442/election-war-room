@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-06T10:11:52.552243+00:00",
+"updated": "2026-11-06T10:14:07.675034+00:00",
 "errors": [],
 "events": [
 {
@@ -429,7 +429,7 @@
 "id": "wNISX20261106_00038582270641",
 "first": "2026-11-06T06:41:53+00:00",
 "last": "2026-11-06T09:42:00+00:00",
-"updated": "2026-11-06T09:44:47.123539+00:00",
+"updated": "2026-11-06T10:14:07.675034+00:00",
 "headline": "공소청, '세브란스 교수 흉기 피습' 50대 구속영장 청구",
 "cat": "기타",
 "regions": [],
@@ -438,6 +438,7 @@
 "경향신문",
 "뉴시스",
 "연합뉴스",
+"이데일리",
 "조선일보",
 "한국경제"
 ],
@@ -497,6 +498,13 @@
 "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008834617&plink=RSSLINK&cooper=RSSREADER",
 "time": "2026-11-06T09:16:45+00:00",
 "stage": "단독"
+},
+{
+"title": "[속보]공소청, 강호동 농협중앙회장 구속영장 기각",
+"source": "이데일리",
+"link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQUkFSdWUzS1g4TDEyS1Q1T0w3RUo1OEh5cDBZM3ZaaGNNakIyLXpHTmhwMU83VC1WMExIVldXUjVVTmZUZkxxQ2NEa1hQaW5ZX3BfRzVKN3BRbFM4cS14Qk15MU9KNmJKNGVpb2lsM01CU3VlSGowcnJpaUhoMTZFeg?oc=5",
+"time": "2026-11-06T09:26:45+00:00",
+"stage": "속보"
 },
 {
 "title": "[속보]공소청, 강호동 농협중앙회장 구속영장 불청구",
@@ -4918,7 +4926,7 @@
 "sns": {
 "terms": {
 "지진": {
-"n30": 2,
+"n30": 3,
 "base": 0.2,
 "spike": false
 },
@@ -4944,7 +4952,7 @@
 },
 "붕괴": {
 "n30": 6,
-"base": 0.6,
+"base": 0.7,
 "spike": true
 },
 "대피": {
@@ -4963,8 +4971,8 @@
 "spike": false
 },
 "지하철": {
-"n30": 7,
-"base": 1.1,
+"n30": 8,
+"base": 1.0,
 "spike": true
 },
 "사고": {
@@ -4999,6 +5007,26 @@
 }
 },
 "posts": [
+{
+"text": " “그날도 바쁘게 은행원 연수를 하고 있었는데 마이니치신문 기자한테 연락이 왔어요. ‘오늘 이시하라의 발언을 어떻게 생각하냐’고 묻더라고요.” \n\n기사를 본 그는 얼어붙었다. 육상자위대 창설 기념식에서 이시하라 신타로 당시 도쿄도지사가 2차 대전 이후 일본에 사는 한국인과 중국인을 비하했던 표현인 ‘삼국인’을 입에 올린 것이다. 그는 할머니가 평생 악몽을 떨쳐내지 못했던 1923년 간토대지진",
+"handle": "starbitsinkor.bsky.social",
+"name": "우주먼작귀",
+"time": "2026-11-06T10:13:42.172Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/starbitsinkor.bsky.social/post/3mzn5iws2cm2s",
+"term": "지진"
+},
+{
+"text": "지하철에서 키링 뜯어가는 이야기 무섭다…\n아무도 눈독들이지 않는 마이너만 파서 그런지 나한테는 지금까지 그런 일이 일어나지 않았지만.",
+"handle": "abrightserenemay.bsky.social",
+"name": "serene",
+"time": "2026-11-06T10:11:27.874Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/abrightserenemay.bsky.social/post/3mzn5exdvdc2f",
+"term": "지하철"
+},
 {
 "platform": "YouTube",
 "text": "닛케이평균 6만 엔 붕괴, 한때 4천 엔 급락 #Shorts",
@@ -5252,37 +5280,37 @@
 "n30": 6,
 "base": 0.4,
 "spike": true,
-"since": "2026-11-06T10:11:52.552243+00:00"
+"since": "2026-11-06T10:14:07.675034+00:00"
 },
 {
 "term": "붕괴",
 "n30": 6,
-"base": 0.6,
+"base": 0.7,
 "spike": true,
-"since": "2026-11-06T10:11:52.552243+00:00"
+"since": "2026-11-06T10:14:07.675034+00:00"
 },
 {
 "term": "지하철",
-"n30": 7,
-"base": 1.1,
+"n30": 8,
+"base": 1.0,
 "spike": true,
-"since": "2026-11-06T10:11:52.552243+00:00"
+"since": "2026-11-06T10:14:07.675034+00:00"
 }
 ],
 "baseline": {
-"지진": 0.22,
+"지진": 0.3,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.4,
-"붕괴": 0.68,
+"폭발": 0.36,
+"붕괴": 0.71,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
 "지하철": 1.03,
-"사고": 1.14,
-"실종": 0.08,
-"단수": 0.51,
+"사고": 1.13,
+"실종": 0.07,
+"단수": 0.56,
 "통신 장애": 0.05,
 "먹통": 0.05,
 "산불": 0.05
@@ -5600,6 +5628,24 @@
 "new": false
 },
 {
+"term": "어도어",
+"traffic": "1000+",
+"time": "2026-11-06T08:30:00+00:00",
+"news": [
+{
+"title": "NYT가 입수한 ‘가혹한 뉴진스 계약서’ 파장···하이브 “적법한 계약” 해명",
+"source": "경향신문",
+"link": "https://www.khan.co.kr/article/202611061345001"
+},
+{
+"title": "\"뉴진스 계약 불공정\"...뉴욕타임스가 공개한 조항 보니 [이슈톺]",
+"source": "YTN",
+"link": "https://www.ytn.co.kr/_ln/0134_202611061424534673"
+}
+],
+"new": false
+},
+{
 "term": "부산 불꽃축제",
 "traffic": "100+",
 "time": "2026-11-06T08:30:00+00:00",
@@ -5613,24 +5659,6 @@
 "title": "하늘엔 불꽃 터지고 땅엔 쓰레기 넘치고… 100만 인파에 쓰레기통 6개",
 "source": "부산일보",
 "link": "https://www.busan.com/view/busan/view.php?code=2026110518155177295"
-}
-],
-"new": false
-},
-{
-"term": "어도어",
-"traffic": "1000+",
-"time": "2026-11-06T08:30:00+00:00",
-"news": [
-{
-"title": "하이브·어도어, \"뉴진스 계약서에 미성년자 보호 조항 빠졌다\"는 美 언론 보도 반박",
-"source": "YTN",
-"link": "https://www.ytn.co.kr/_ln/0117_202611061140471579"
-},
-{
-"title": "연애금지에 소속사가 초상권 무기한 사용…뉴진스 비밀계약 공개",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261106094700075"
 }
 ],
 "new": false
