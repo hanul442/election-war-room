@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-06T12:52:40.044715+00:00",
+"updated": "2026-11-06T12:54:56.103564+00:00",
 "errors": [],
 "events": [
 {
@@ -5506,7 +5506,7 @@
 },
 "붕괴": {
 "n30": 1,
-"base": 0.3,
+"base": 0.4,
 "spike": false
 },
 "대피": {
@@ -5515,7 +5515,7 @@
 "spike": false
 },
 "미사일": {
-"n30": 2,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
@@ -5526,12 +5526,12 @@
 },
 "지하철": {
 "n30": 3,
-"base": 0.7,
+"base": 0.8,
 "spike": false
 },
 "사고": {
 "n30": 6,
-"base": 4.8,
+"base": 5.0,
 "spike": false
 },
 "실종": {
@@ -5596,7 +5596,7 @@
 "handle": "0x0xox.bsky.social",
 "name": "❒",
 "time": "2026-11-06T12:46:40.470Z",
-"likes": 0,
+"likes": 1,
 "reposts": 0,
 "url": "https://bsky.app/profile/0x0xox.bsky.social/post/3mzng2i7p3s2x",
 "term": "사고"
@@ -5873,14 +5873,14 @@
 "n30": 5,
 "base": 1.1,
 "spike": true,
-"since": "2026-11-06T12:52:40.044715+00:00"
+"since": "2026-11-06T12:54:56.103564+00:00"
 },
 {
 "term": "속보",
 "n30": 6,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-06T12:52:40.044715+00:00"
+"since": "2026-11-06T12:54:56.103564+00:00"
 }
 ],
 "baseline": {
@@ -5888,13 +5888,13 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 1.15,
-"붕괴": 0.4,
+"폭발": 1.23,
+"붕괴": 0.46,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.75,
-"사고": 4.96,
+"지하철": 0.78,
+"사고": 5.06,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -6133,6 +6133,60 @@
 },
 "trends": [
 {
+"term": "이승민",
+"traffic": "200+",
+"time": "2026-11-06T11:50:00+00:00",
+"news": [
+{
+"title": "역투하는 이승민",
+"source": "뉴시스",
+"link": "https://mobile.newsis.com/photo/NISI20261106_0021522728"
+},
+{
+"title": "[사진]8회 마운드 오른 삼성 이승민, '리드 지킨다'",
+"source": "OSEN",
+"link": "http://www.osen.co.kr/article/G1112905525"
+}
+],
+"new": true
+},
+{
+"term": "식이",
+"traffic": "200+",
+"time": "2026-11-06T11:50:00+00:00",
+"news": [
+{
+"title": "풀무원 올가홀푸드, 단백질 5g·식이섬유 3g 담은 '한봉견과'",
+"source": "뉴스핌",
+"link": "https://www.newspim.com/news/view/20261106000055"
+},
+{
+"title": "올가홀푸드, 견과류 7종을 배합한 저온 로스팅 한봉견과 내놓아",
+"source": "로이슈",
+"link": "https://www.lawissue.co.kr/view.php?ud=202611060830144152204ead0791_12"
+}
+],
+"new": true
+},
+{
+"term": "마이클세일러",
+"traffic": "100+",
+"time": "2026-11-06T11:50:00+00:00",
+"news": [
+{
+"title": "AI 해커가 암호화폐 거래소 노린다…바이낸스 63억 달러 해킹 이어 또 보안 위기?",
+"source": "코인리더스",
+"link": "https://www.coinreaders.com/267961"
+},
+{
+"title": "마이클 세일러 \"AI 해커, 디지털자산 산업 새 위협…비트코인 보다 거래소가 취약\"",
+"source": "블록미디어",
+"link": "https://www.blockmedia.co.kr/archives/1162198"
+}
+],
+"new": true
+},
+{
 "term": "최우식",
 "traffic": "200+",
 "time": "2026-11-06T11:30:00+00:00",
@@ -6143,9 +6197,9 @@
 "link": "https://www.ytn.co.kr/_ln/0117_202611061727265969"
 },
 {
-"title": "‘최우식, 승무원에게 짜증’ 주장에…소속사 “허위사실, 법적 대응”",
-"source": "동아일보",
-"link": "https://www.donga.com/news/Culture/article/all/20261106/134981106/1"
+"title": "최우식 측, '기내 태도 루머' 법적 대응…\"선처 없다\"",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261106_0003858309"
 }
 ],
 "new": false
@@ -6161,9 +6215,9 @@
 "link": "https://www.chosun.com/sports/sports_photo/2026/11/06/GE3TKOBUHFRTOOJZME2GIYRSGI/"
 },
 {
-"title": "[사진]안현민-힐리어드, 라팍에는 홈런이 중요해",
-"source": "Chosunbiz",
-"link": "https://biz.chosun.com/sports/sports_photo/2026/11/06/MI4GIM3EGA2DOMBZHA2DSNJUMM/"
+"title": "'우승 반지 4개인데 12년째 무관이라니...' KT로 라팍 돌아온 삼성 왕조 주역 뜻밖의 고백 \"그땐 우승이 당연한 줄 알았다\" [KS3 현장] - 머니투데이",
+"source": "머니투데이",
+"link": "https://www.mt.co.kr/sports/2026/11/06/2026110610474037653"
 }
 ],
 "new": false
@@ -6179,30 +6233,30 @@
 "link": "https://cafef.vn/xsbd-6-11-ket-qua-xo-so-binh-duong-ngay-6-thang-11-188261106163154116.chn"
 },
 {
-"title": "Xổ số miền Nam ngày 6 tháng 11: Dãy số giúp nhiều người trúng đài Trà Vinh",
-"source": "Báo Thanh Niên",
-"link": "https://thanhnien.vn/xo-so-mien-nam-ngay-6-thang-11-day-so-giup-nhieu-nguoi-trung-dai-tra-vinh-185261106083235699.htm"
+"title": "XSHG 7/11. Kết quả xổ số Hậu Giang hôm nay ngày 7/11/2026. SXHG ngày 7/11",
+"source": "Bnews.vn",
+"link": "https://bnews.vn/xshg-7-11-ket-qua-xo-so-hau-giang-hom-nay-ngay-7-11-2026-sxhg-ngay-7-11/443095.html"
 }
 ],
 "new": false
 },
 {
-"term": "kt wiz",
-"traffic": "100+",
-"time": "2026-11-06T10:50:00+00:00",
+"term": "이승엽",
+"traffic": "500+",
+"time": "2026-11-06T11:00:00+00:00",
 "news": [
 {
-"title": "Samsung Lions Lead 2-1, 88.9% Title Chance",
-"source": "조선일보",
-"link": "https://www.chosun.com/english/sports-en/2026/11/06/FVUPAIFGEFGTNJ62YJJDPOMNMU/"
+"title": "'3차전 시구' 이승엽 \"일본서 코치 애환 배워…더 단단해져야\"",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261106180600007"
 },
 {
-"title": "Park Seunggyu's Eighth-Inning Home Run Extends Samsung's Lead to 5-1",
+"title": "\"이제 진정한 라이온즈 리더\" 국민타자 인정, 왕조 막내가 이렇게 컸습니다…절뚝이며 걸어가는 우승의 길 [KS3]",
 "source": "조선일보",
-"link": "https://www.chosun.com/english/sports-en/2026/11/06/4K2KJP3OZJHH5HKD57ZG4YAM24/"
+"link": "https://www.chosun.com/sports/baseball/2026/11/06/GM3WEZRVG4YDGMLDMRSGIMTFME/"
 }
 ],
-"new": false
+"new": true
 },
 {
 "term": "안현민",
@@ -6254,60 +6308,6 @@
 "title": "부상 악재 대반전! 1위팀 1회부터 삼성 에이스 공략 성공…44홈런 외인 거포 선제 2루타 쾅 ‘KT 1-0 리드’ [KS3]",
 "source": "OSEN",
 "link": "https://www.osen.co.kr/article/G1112905305"
-}
-],
-"new": false
-},
-{
-"term": "nepal premier league",
-"traffic": "200+",
-"time": "2026-11-06T10:40:00+00:00",
-"news": [
-{
-"title": "16th Match, Nepal Premier League at Kirtipur, Nov 6 2026",
-"source": "ESPN India",
-"link": "https://www.espn.in/cricket/series/23081/scorecard/1558597/karnali-yaks-npl-vs-sudur-paschim-royals-npl-16th-match-nepal-premier-league-2026-27"
-},
-{
-"title": "Sudurpaschim Royals set 177-run target for Karnali Yaks in NPL",
-"source": "Nepalnews.com",
-"link": "https://english.nepalnews.com/s/sports/sudurpaschim-royals-set-177-run-target-for-karnali-yaks-in-npl/"
-}
-],
-"new": false
-},
-{
-"term": "kt vs samsung",
-"traffic": "200+",
-"time": "2026-11-06T10:30:00+00:00",
-"news": [
-{
-"title": "Samsung Lions beat KT Wiz to lead the Korean Series 2-1 — as it happened",
-"source": "Korea JoongAng Daily",
-"link": "https://www.koreajoongangdaily.com/sports/samsung-lions-beat-kt-wiz-to-lead-the-korean-series-21-as-it-happened/12960263"
-},
-{
-"title": "Díaz Eyes Home Run to Complete Cycling Hit at Home",
-"source": "조선일보",
-"link": "https://www.chosun.com/english/sports-en/2026/11/06/DOBJVOVGMZGLTPZU5EKEU63ZQM/"
-}
-],
-"new": false
-},
-{
-"term": "kt 삼성",
-"traffic": "500+",
-"time": "2026-11-06T10:20:00+00:00",
-"news": [
-{
-"title": "‘4시간 20분의 가을밤 혈투’ 3차전 승부처는?",
-"source": "KBS 뉴스",
-"link": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8705568"
-},
-{
-"title": "장안문 지킴이의 씁쓸한 다짐 \"팀 승리+MVP 가져가면서 샤라웃, 다음 경기땐 내가 하겠다\" KT 고영표가 꿈꾸는 복수 [인터뷰]",
-"source": "조선일보",
-"link": "https://www.chosun.com/sports/baseball/2026/11/06/G44DGOBTGYYDSZDFMRSGEZJSHE/"
 }
 ],
 "new": false
@@ -6435,6 +6435,7 @@
 "마라톤",
 "마이크론",
 "마이크론 주가",
+"마이클세일러",
 "맘스터치",
 "매일경제",
 "매일노동뉴스",
@@ -6481,6 +6482,7 @@
 "스노클링",
 "스톡 옵션",
 "시험",
+"식이",
 "신민아",
 "아이렌",
 "아이폰",
@@ -6521,6 +6523,8 @@
 "이동국",
 "이범호",
 "이세영",
+"이승민",
+"이승엽",
 "이승우",
 "이용철",
 "이현중",
