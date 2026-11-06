@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-06T03:21:59.877300+00:00",
+"updated": "2026-11-06T03:24:14.217633+00:00",
 "errors": [],
 "events": [
 {
@@ -3727,7 +3727,7 @@
 },
 "화재": {
 "n30": 1,
-"base": 0.7,
+"base": 0.8,
 "spike": false
 },
 "불났": {
@@ -3742,7 +3742,7 @@
 },
 "폭발": {
 "n30": 3,
-"base": 0.2,
+"base": 0.1,
 "spike": false
 },
 "붕괴": {
@@ -3762,7 +3762,7 @@
 },
 "속보": {
 "n30": 4,
-"base": 0.3,
+"base": 0.4,
 "spike": false
 },
 "지하철": {
@@ -3771,7 +3771,7 @@
 "spike": false
 },
 "사고": {
-"n30": 2,
+"n30": 3,
 "base": 1.9,
 "spike": false
 },
@@ -3802,6 +3802,16 @@
 }
 },
 "posts": [
+{
+"text": "원래 목 졸리는 거 싫어해서 후드티 폴라 스카프 목도리 안 하고 겨울에만 넥워머 느슨하게 했는데 무슨 변화가 든 건지 요즘 스카프랑 손수건 두르고 있는 게 넘 좋아서 맨날 뭐 두르고 있고… 서너 장 더 사고 싶어잉.",
+"handle": "greathedgehog.bsky.social",
+"name": "가시캐리어",
+"time": "2026-11-06T03:22:28.779Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/greathedgehog.bsky.social/post/3mzmgjmm73c27",
+"term": "사고"
+},
 {
 "platform": "YouTube",
 "text": "지하철 전자파 공개 추진 1~8호선 측정·일부 역사 색상 안내",
@@ -4048,21 +4058,21 @@
 "n30": 10,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-06T03:21:59.877300+00:00"
+"since": "2026-11-06T03:24:14.217633+00:00"
 }
 ],
 "baseline": {
 "지진": 0.05,
-"화재": 0.77,
+"화재": 0.79,
 "불났": 0.0,
 "정전": 0.05,
-"폭발": 0.14,
+"폭발": 0.13,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.39,
-"지하철": 0.62,
-"사고": 1.92,
+"속보": 0.45,
+"지하철": 0.66,
+"사고": 2.03,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -4265,6 +4275,24 @@
 },
 "trends": [
 {
+"term": "제주국제공항",
+"traffic": "100+",
+"time": "2026-11-06T02:20:00+00:00",
+"news": [
+{
+"title": "\"제주 항공권 대책 총리가 나서야\"",
+"source": "제민일보",
+"link": "https://www.jemin.com/news/articleView.html?idxno=846257"
+},
+{
+"title": "예약하려고 했더니 ‘매진’ ‘매진’ ‘매진’…안 가는 게 아니라 못 가는 ‘제주’",
+"source": "서울경제",
+"link": "https://www.sedaily.com/article/20110426"
+}
+],
+"new": true
+},
+{
 "term": "돔 경기장",
 "traffic": "100+",
 "time": "2026-11-06T02:10:00+00:00",
@@ -4284,7 +4312,7 @@
 },
 {
 "term": "토토 재팬 클래식",
-"traffic": "200+",
+"traffic": "500+",
 "time": "2026-11-06T02:00:00+00:00",
 "news": [
 {
@@ -4302,7 +4330,7 @@
 },
 {
 "term": "존리",
-"traffic": "2000+",
+"traffic": "20000+",
 "time": "2026-11-06T01:50:00+00:00",
 "news": [
 {
@@ -4422,24 +4450,6 @@
 "title": "Assassin’s Creed Valhalla: new update brings New Game Plus, upgraded PSSR support for PS5 Pro today",
 "source": "PlayStation.Blog",
 "link": "https://blog.playstation.com/2026/11/05/assassins-creed-valhalla-new-update-brings-new-game-upgraded-pssr-support-for-ps5-pro-today/"
-}
-],
-"new": false
-},
-{
-"term": "김장",
-"traffic": "1000+",
-"time": "2026-11-06T01:10:00+00:00",
-"news": [
-{
-"title": "'차 옆에서 담그고 외국인도 함께'...괴산 김장 축제",
-"source": "YTN",
-"link": "https://www.ytn.co.kr/_ln/0115_202611060438286902"
-},
-{
-"title": "'절임배추' 고장 괴산서 김장축제 개막…8일까지 이어져",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261105034700064"
 }
 ],
 "new": false
@@ -4612,6 +4622,7 @@
 "제네시스 g90",
 "제니",
 "제주 감귤",
+"제주국제공항",
 "젠지 라이언",
 "조선민주주의인민공화국",
 "존리",
