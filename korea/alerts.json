@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-06T04:37:03.990375+00:00",
+"updated": "2026-11-06T04:39:17.277865+00:00",
 "errors": [],
 "events": [
 {
@@ -3789,8 +3789,8 @@
 "spike": false
 },
 "불났": {
-"n30": 1,
-"base": 0.7,
+"n30": 0,
+"base": 0.8,
 "spike": false
 },
 "정전": {
@@ -3805,7 +3805,7 @@
 },
 "붕괴": {
 "n30": 1,
-"base": 0.5,
+"base": 0.4,
 "spike": false
 },
 "대피": {
@@ -3819,18 +3819,18 @@
 "spike": false
 },
 "속보": {
-"n30": 6,
+"n30": 5,
 "base": 0.1,
 "spike": true
 },
 "지하철": {
 "n30": 2,
-"base": 0.6,
+"base": 0.7,
 "spike": false
 },
 "사고": {
-"n30": 3,
-"base": 3.6,
+"n30": 5,
+"base": 3.5,
 "spike": false
 },
 "실종": {
@@ -3861,6 +3861,26 @@
 },
 "posts": [
 {
+"text": "누가 150장 사고 인증하고 그러지 않았나요?🤔",
+"handle": "miluny.bsky.social",
+"name": "Milu_Seo",
+"time": "2026-11-06T04:38:09.272Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/miluny.bsky.social/post/3mzmkqst7vs2q",
+"term": "사고"
+},
+{
+"text": "진짜 무서운 건 제국주의 씹새짓을 해도 어느정도 정당하다고 생각하는 놈들이 있음 왜냐? 한국은 식민지배 역사를 가지고 있으니까.. 그때 우리가 얼마나 힘들었는데 좀 하면 어때라는 사고. 다르게 나타나면 이제\n씹세짓을 해도 식민지 국가 역사성에 매몰되서 자기를 피해자라고만 생각함.\n식민 지배 역사를 씹새짓을 하지 않은 최후라고 생각 (최악)\n뇌가 숫자와 돈에 절어져서 씹새짓을 하는 것이 효율적",
+"handle": "hummingonion.bsky.social",
+"name": "칭찬양파(상태:수능 준비 중)",
+"time": "2026-11-06T04:37:02.176Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/hummingonion.bsky.social/post/3mzmkoxmbac2u",
+"term": "사고"
+},
+{
 "text": "오늘 진짜 기막힌 지하철 도착타이밍으로 \n예상도착시간이 30분 빨라짐",
 "handle": "cyberdog2077.bsky.social",
 "name": "적벽을 싹싹 빌어요",
@@ -3875,7 +3895,7 @@
 "handle": "passawayplz.rip",
 "name": "퇴마단원 장마",
 "time": "2026-11-06T04:32:31.481Z",
-"likes": 3,
+"likes": 4,
 "reposts": 0,
 "url": "https://bsky.app/profile/passawayplz.rip/post/3mzmkijt5m22o",
 "term": "사고"
@@ -3973,16 +3993,6 @@
 "url": "https://www.youtube.com/watch?v=pzoeShiN1mc"
 },
 {
-"text": "사실 겉멋충이라서 계속 이걸 사고 싶었는데 몸 숙이면 빠진다는 후기가 워낙 많아서(...)아직도 안 사고 버티고 있었는데요...",
-"handle": "jork.bsky.social",
-"name": "🍄‍🟫🫛🫜",
-"time": "2026-11-06T04:10:10.271Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/jork.bsky.social/post/3mzmj6tyhvk23",
-"term": "사고"
-},
-{
 "platform": "YouTube",
 "text": "[코리아써키트 주가전망] *7분전 속보* 미 증시 충격 급락에 코스피 5%대 폭락, 우리 코리아써키트 운명 가를 “진짜 이유”",
 "handle": "UCDD7F65-TmhV8BIPe0_yDWg",
@@ -3990,16 +4000,6 @@
 "time": "2026-11-06T04:08:40Z",
 "term": "속보",
 "url": "https://www.youtube.com/watch?v=BcCNrTFtyUg"
-},
-{
-"text": "회사 근처에 불났다고 난리났네😥",
-"handle": "simyes22.bsky.social",
-"name": "트윅스🐻",
-"time": "2026-11-06T04:07:50.280Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/simyes22.bsky.social/post/3mzmj2qdy3s24",
-"term": "불났"
 },
 {
 "platform": "YouTube",
@@ -4122,24 +4122,24 @@
 "spikes": [
 {
 "term": "속보",
-"n30": 6,
+"n30": 5,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-06T04:37:03.990375+00:00"
+"since": "2026-11-06T04:39:17.277865+00:00"
 }
 ],
 "baseline": {
 "지진": 0.05,
 "화재": 0.05,
-"불났": 0.75,
+"불났": 0.68,
 "정전": 0.05,
-"폭발": 0.18,
-"붕괴": 0.44,
+"폭발": 0.16,
+"붕괴": 0.4,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.06,
-"지하철": 0.74,
-"사고": 3.55,
+"속보": 0.05,
+"지하철": 0.87,
+"사고": 3.69,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
