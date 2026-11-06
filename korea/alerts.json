@@ -1,7 +1,39 @@
 {
-"updated": "2026-11-06T10:45:46.628298+00:00",
+"updated": "2026-11-06T10:48:04.822538+00:00",
 "errors": [],
 "events": [
+{
+"id": "wNISX20261106_00038582721044",
+"first": "2026-11-06T10:44:26+00:00",
+"last": "2026-11-06T10:44:26+00:00",
+"updated": "2026-11-06T10:48:04.822538+00:00",
+"headline": "경찰, '은평 전 연인 살해' 60대 구속영장 신청",
+"cat": "사회",
+"regions": [],
+"sources": [
+"뉴시스"
+],
+"updates": [
+{
+"title": "[속보]경찰, '은평 전 연인 살해' 60대 구속영장 신청",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261106_0003858272",
+"time": "2026-11-06T10:44:26+00:00",
+"stage": "얼럿"
+}
+],
+"level": "BULLETIN",
+"latest": "경찰, '은평 전 연인 살해' 60대 구속영장 신청",
+"tok": [
+"60대",
+"경찰",
+"구속영장",
+"살해",
+"신청",
+"연인",
+"은평"
+]
+},
 {
 "id": "YDMOBXGI3WKOBRMVQWENZQG40920",
 "first": "2026-11-06T09:20:49+00:00",
@@ -4848,73 +4880,13 @@
 "전년",
 "증가"
 ]
-},
-{
-"id": "zaFluWFZPcUJ3Wk1MNGJRoc50401",
-"first": "2026-11-06T04:01:07+00:00",
-"last": "2026-11-06T07:14:18+00:00",
-"updated": "2026-11-06T07:19:53.375165+00:00",
-"headline": "김수현, 김세의 명예훼손 재판 증인 출석…11일 비공개 신문 전망",
-"cat": "사회",
-"regions": [],
-"sources": [
-"SBS",
-"강원일보",
-"서울신문",
-"연합뉴스"
-],
-"updates": [
-{
-"title": "김수현, 11일 김세의 명예훼손 재판에 증인 출석…비공개 전망",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261106095400004",
-"time": "2026-11-06T03:53:51+00:00",
-"stage": "후속"
-},
-{
-"title": "[속보] 김수현, 김세의 명예훼손 재판 증인 출석…11일 비공개 신문 전망",
-"source": "강원일보",
-"link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5KTGdCS3BkQ0RGclhnTnRrOE50S2d3S1lxMUlUTzlUZXp3RHZ1X3pocU5pN3RYR1Zyd2NETnBGeUpNQ2doQlMzaFluWFZPcUJ3Wk1MNGJR?oc=5",
-"time": "2026-11-06T04:01:07+00:00",
-"stage": "얼럿"
-},
-{
-"title": "[속보] 배우 김수현, 11일 ‘가세연’ 김세의 명예훼손 재판 증인 출석",
-"source": "서울신문",
-"link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFA1YWcyUVZfajFDZGlRZDJLSHRzNmMxQXc1WlNBMWxScS1DUkNidzlQYnB5dTRqZ1RabWxXVkJtbldNS3VRNEZsT0FJMmFud2U3TncwTEo5U0FWOFZmQlA0SnI3RE5CdWtMU3d3dkhGQQ?oc=5",
-"time": "2026-11-06T06:08:45+00:00",
-"stage": "속보"
-},
-{
-"title": "김수현, 11일 김세의 명예훼손 재판에 증인 출석…비공개 전망",
-"source": "SBS",
-"link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008834361&plink=RSSLINK&cooper=RSSREADER",
-"time": "2026-11-06T07:14:18+00:00",
-"stage": "후속"
-}
-],
-"level": "URGENT",
-"latest": "김수현, 11일 김세의 명예훼손 재판에 증인 출석…비공개 전망",
-"tok": [
-"11일",
-"가세연",
-"김세",
-"김수현",
-"명예훼손",
-"배우",
-"비공개",
-"신문",
-"재판",
-"증인",
-"출석"
-]
 }
 ],
 "sns": {
 "terms": {
 "지진": {
 "n30": 3,
-"base": 1.0,
+"base": 1.2,
 "spike": false
 },
 "화재": {
@@ -4933,9 +4905,9 @@
 "spike": false
 },
 "폭발": {
-"n30": 6,
+"n30": 4,
 "base": 0.4,
-"spike": true
+"spike": false
 },
 "붕괴": {
 "n30": 2,
@@ -4953,18 +4925,18 @@
 "spike": false
 },
 "속보": {
-"n30": 5,
+"n30": 4,
 "base": 0.7,
-"spike": true
+"spike": false
 },
 "지하철": {
-"n30": 4,
+"n30": 3,
 "base": 2.9,
 "spike": false
 },
 "사고": {
-"n30": 3,
-"base": 2.1,
+"n30": 2,
+"base": 2.2,
 "spike": false
 },
 "실종": {
@@ -4974,7 +4946,7 @@
 },
 "단수": {
 "n30": 0,
-"base": 0.4,
+"base": 0.3,
 "spike": false
 },
 "통신 장애": {
@@ -5220,16 +5192,6 @@
 "url": "https://www.youtube.com/watch?v=8AOk-lQ1sMY"
 },
 {
-"text": "요즘 사고가 너무 많이 나서 맨날 차가 밀려... 10-4 하자고오",
-"handle": "bluemucha.bsky.social",
-"name": "뭄챠",
-"time": "2026-11-06T10:16:49.272Z",
-"likes": 1,
-"reposts": 0,
-"url": "https://bsky.app/profile/bluemucha.bsky.social/post/3mzn5oiquok2m",
-"term": "사고"
-},
-{
 "platform": "YouTube",
 "text": "장윤정 · 하영 표정만 봐도 웃음 빵! 귀여움 폭발 💖#장윤정#하영#도경완#연우#내아이의사생활#슈돌#슈퍼맨#미스터 트롯3#미스 트롯4",
 "handle": "UCdy9tvsjv9GzjV-NA5HSaJA",
@@ -5246,16 +5208,6 @@
 "time": "2026-11-06T10:16:35Z",
 "term": "폭발",
 "url": "https://www.youtube.com/watch?v=rqy8sTUfUrs"
-},
-{
-"text": "와 지하철탈걸\n도로위에차이만큼이나있다고?",
-"handle": "villivilli5.bsky.social",
-"name": "깅가지",
-"time": "2026-11-06T10:16:25.572Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/villivilli5.bsky.social/post/3mzn5nq4xs22m",
-"term": "지하철"
 },
 {
 "platform": "YouTube",
@@ -5321,36 +5273,21 @@
 "url": "https://www.youtube.com/watch?v=htezLIHltUY"
 }
 ],
-"spikes": [
-{
-"term": "폭발",
-"n30": 6,
-"base": 0.4,
-"spike": true,
-"since": "2026-11-06T10:45:46.628298+00:00"
-},
-{
-"term": "속보",
-"n30": 5,
-"base": 0.7,
-"spike": true,
-"since": "2026-11-06T10:45:46.628298+00:00"
-}
-],
+"spikes": [],
 "baseline": {
-"지진": 1.22,
+"지진": 1.4,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.43,
-"붕괴": 0.22,
+"폭발": 0.49,
+"붕괴": 0.2,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.71,
-"지하철": 2.87,
-"사고": 2.18,
+"속보": 0.74,
+"지하철": 2.78,
+"사고": 2.16,
 "실종": 0.05,
-"단수": 0.33,
+"단수": 0.3,
 "통신 장애": 0.05,
 "먹통": 0.05,
 "산불": 0.05
@@ -5593,7 +5530,7 @@
 "link": "https://biz.chosun.com/sports/sports_photo/2026/11/06/MM2GGMLDMNRTMNBXGRSGCOBXHA/"
 }
 ],
-"new": true
+"new": false
 },
 {
 "term": "퇴직",
@@ -5619,9 +5556,9 @@
 "time": "2026-11-06T09:30:00+00:00",
 "news": [
 {
-"title": "하나증권 \"CJ ENM, 간만의 TV 광고 회복세…목표가 상향\"",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261106026900008"
+"title": "티빙, 3분기 영업손실 72억원...\"확실한 손익 개선 흐름\"",
+"source": "지디넷코리아",
+"link": "https://zdnet.co.kr/view/?no=20261105152651"
 },
 {
 "title": "CJ온스타일 '탈홈쇼핑' 투자 고삐, 이선영 수익성 뒷걸음에도 미래 고객 확보 베팅",
@@ -5647,7 +5584,7 @@
 "link": "https://www.yna.co.kr/view/AKR20261106074000062"
 }
 ],
-"new": true
+"new": false
 },
 {
 "term": "한국시리즈 3차전",
@@ -5655,9 +5592,9 @@
 "time": "2026-11-06T09:10:00+00:00",
 "news": [
 {
-"title": "한국시리즈 3차전, 전설과 무대가 만난다..... 이승엽 시구·김소현 애국가…야구팬 기대감 고조",
-"source": "제민일보",
-"link": "http://www.jemin.com/news/articleView.html?idxno=846362"
+"title": "‘국민타자’ 이승엽, 삼성라이온즈파크에 뜬다…3차전 시구",
+"source": "동아일보",
+"link": "https://www.donga.com/news/Sports/article/all/20261106/134980475/1"
 },
 {
 "title": "[사진]KT 선발 소형준, 반드시 이긴다",
