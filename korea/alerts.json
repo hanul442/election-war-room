@@ -1,7 +1,49 @@
 {
-"updated": "2026-11-06T11:51:21.504520+00:00",
+"updated": "2026-11-06T11:53:36.739246+00:00",
 "errors": [],
 "events": [
+{
+"id": "nkRSSLINKcooperRSSREADER1058",
+"first": "2026-11-06T10:58:54+00:00",
+"last": "2026-11-06T11:51:01+00:00",
+"updated": "2026-11-06T11:53:36.739246+00:00",
+"headline": "[랭킹뉴스] 주말 '입동 한파'…올겨울 최강 엘니뇨 온다",
+"cat": "재난",
+"regions": [],
+"sources": [
+"SBS"
+],
+"updates": [
+{
+"title": "[랭킹뉴스] 주말 '입동 한파'…올겨울 최강 엘니뇨 온다",
+"source": "SBS",
+"link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008834681&plink=RSSLINK&cooper=RSSREADER",
+"time": "2026-11-06T10:58:54+00:00",
+"stage": "1보"
+},
+{
+"title": "역대 최강 엘니뇨 온다…'눈·비' 많은 올겨울",
+"source": "SBS",
+"link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008834641&plink=RSSLINK&cooper=RSSREADER",
+"time": "2026-11-06T11:51:01+00:00",
+"stage": "후속"
+}
+],
+"level": "ALERT",
+"latest": "역대 최강 엘니뇨 온다…'눈·비' 많은 올겨울",
+"tok": [
+"랭킹뉴스",
+"많은",
+"엘니뇨",
+"역대",
+"온다",
+"올겨울",
+"입동",
+"주말",
+"최강",
+"한파"
+]
+},
 {
 "id": "kgxTGFfdGRVeTMyR3hldwoc50901",
 "first": "2026-11-06T09:01:00+00:00",
@@ -673,39 +715,6 @@
 "이슈빡",
 "장중",
 "코스피"
-]
-},
-{
-"id": "nkRSSLINKcooperRSSREADER1058",
-"first": "2026-11-06T10:58:54+00:00",
-"last": "2026-11-06T10:58:54+00:00",
-"updated": "2026-11-06T11:03:54.220175+00:00",
-"headline": "[랭킹뉴스] 주말 '입동 한파'…올겨울 최강 엘니뇨 온다",
-"cat": "재난",
-"regions": [],
-"sources": [
-"SBS"
-],
-"updates": [
-{
-"title": "[랭킹뉴스] 주말 '입동 한파'…올겨울 최강 엘니뇨 온다",
-"source": "SBS",
-"link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008834681&plink=RSSLINK&cooper=RSSREADER",
-"time": "2026-11-06T10:58:54+00:00",
-"stage": "1보"
-}
-],
-"level": "ALERT",
-"latest": "[랭킹뉴스] 주말 '입동 한파'…올겨울 최강 엘니뇨 온다",
-"tok": [
-"랭킹뉴스",
-"엘니뇨",
-"온다",
-"올겨울",
-"입동",
-"주말",
-"최강",
-"한파"
 ]
 },
 {
@@ -4942,13 +4951,13 @@
 },
 "정전": {
 "n30": 1,
-"base": 0.8,
+"base": 0.7,
 "spike": false
 },
 "폭발": {
-"n30": 5,
+"n30": 4,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "붕괴": {
 "n30": 1,
@@ -4966,8 +4975,8 @@
 "spike": false
 },
 "속보": {
-"n30": 4,
-"base": 0.5,
+"n30": 3,
+"base": 0.4,
 "spike": false
 },
 "지하철": {
@@ -4977,7 +4986,7 @@
 },
 "사고": {
 "n30": 1,
-"base": 2.6,
+"base": 2.4,
 "spike": false
 },
 "실종": {
@@ -5039,7 +5048,7 @@
 "handle": "yuza-cha.bsky.social",
 "name": "유자스무디샷추가(리뉴얼됨)",
 "time": "2026-11-06T11:35:36.176Z",
-"likes": 1,
+"likes": 2,
 "reposts": 0,
 "url": "https://bsky.app/profile/yuza-cha.bsky.social/post/3mznc3fxckk2m",
 "term": "사고"
@@ -5235,27 +5244,19 @@
 "url": "https://www.youtube.com/watch?v=_5DVG7aQJFY"
 }
 ],
-"spikes": [
-{
-"term": "폭발",
-"n30": 5,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-06T11:51:21.504520+00:00"
-}
-],
+"spikes": [],
 "baseline": {
-"지진": 0.39,
+"지진": 0.35,
 "화재": 0.05,
 "불났": 0.05,
-"정전": 0.69,
-"폭발": 0.1,
+"정전": 0.62,
+"폭발": 0.09,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.41,
-"지하철": 0.83,
-"사고": 2.43,
+"속보": 0.37,
+"지하철": 0.85,
+"사고": 2.29,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -5476,6 +5477,42 @@
 },
 "trends": [
 {
+"term": "안현민",
+"traffic": "200+",
+"time": "2026-11-06T10:50:00+00:00",
+"news": [
+{
+"title": "안현민의 투런 홈런으로 격차 벌리는 KT 위즈",
+"source": "뉴스1",
+"link": "https://www.news1.kr/photos/8195289"
+},
+{
+"title": "\"도영아, 보고있니?\" PO 홈런 김도영에 연락했다는 안현민이 KS 홈런 치고 김도영에게 보낸 메시지 [베이스볼S]",
+"source": "programs.sbs.co.kr",
+"link": "https://programs.sbs.co.kr/sports/2026baseballs/clip/89154/22000639319"
+}
+],
+"new": true
+},
+{
+"term": "kt wiz",
+"traffic": "100+",
+"time": "2026-11-06T10:50:00+00:00",
+"news": [
+{
+"title": "KT's Choi Won-jun and Huh Kyung-min Excluded from Game 3 Starting Lineup Due to Hand Contusion and Chest Muscle Spasm",
+"source": "news.sbs.co.kr",
+"link": "https://news.sbs.co.kr/english/article.do?news_id=N1008834687"
+},
+{
+"title": "Lee Reshuffles KT Lineup, Prioritizes Power After Choi's Injury",
+"source": "조선일보",
+"link": "https://www.chosun.com/english/sports-en/2026/11/06/VEGCTLF6BFCE5FDYNAWEC5TSA4/"
+}
+],
+"new": true
+},
+{
 "term": "힐리어드",
 "traffic": "100+",
 "time": "2026-11-06T10:40:00+00:00",
@@ -5596,31 +5633,6 @@
 "time": "2026-11-06T09:50:00+00:00",
 "news": [],
 "new": false
-},
-{
-"term": "tving",
-"traffic": "200+",
-"time": "2026-11-06T09:50:00+00:00",
-"news": [],
-"new": false
-},
-{
-"term": "퇴직",
-"traffic": "20000+",
-"time": "2026-11-06T09:40:00+00:00",
-"news": [
-{
-"title": "정부, 퇴직연금 사업자와 제도 개편 논의…기금형 연금 안착 지원",
-"source": "전기신문",
-"link": "https://www.electimes.com/news/articleView.html?idxno=374453"
-},
-{
-"title": "연봉 7억인데 일 안하는 은행연합회장, 차라리 정치인에게?",
-"source": "인베스트조선",
-"link": "https://www.investchosun.com/site/data/html_dir/2026/11/06/2026110680001.html"
-}
-],
-"new": false
 }
 ],
 "trendSeen": [
@@ -5638,6 +5650,7 @@
 "kia 타이거즈",
 "kospi",
 "kt vs samsung",
+"kt wiz",
 "kt 대 삼성",
 "kt 삼성",
 "lg그룹",
@@ -5793,6 +5806,7 @@
 "안산소방서",
 "안양 정관장 대 서울 sk",
 "안재욱",
+"안현민",
 "알테오젠",
 "야구중계",
 "양민혁",
