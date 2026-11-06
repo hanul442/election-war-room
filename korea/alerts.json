@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-06T18:22:34.490153+00:00",
+"updated": "2026-11-06T18:24:52.737195+00:00",
 "errors": [],
 "events": [
 {
@@ -2397,7 +2397,7 @@
 "terms": {
 "지진": {
 "n30": 1,
-"base": 0.5,
+"base": 0.6,
 "spike": false
 },
 "화재": {
@@ -2416,7 +2416,7 @@
 "spike": false
 },
 "폭발": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -2436,9 +2436,9 @@
 "spike": false
 },
 "속보": {
-"n30": 5,
+"n30": 4,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "지하철": {
 "n30": 0,
@@ -2446,8 +2446,8 @@
 "spike": false
 },
 "사고": {
-"n30": 1,
-"base": 1.8,
+"n30": 0,
+"base": 1.7,
 "spike": false
 },
 "실종": {
@@ -2549,16 +2549,6 @@
 "time": "2026-11-06T17:54:13Z",
 "term": "속보",
 "url": "https://www.youtube.com/watch?v=MXxIbIMlko4"
-},
-{
-"text": "급격히 배우자가 갖고 싶군하\n지금은 솔찌 가족이랑 개가 있으니 괜찮은데 미래를 대비해(ㅈㄴ이기적사고",
-"handle": "demosonnanjya.bsky.social",
-"name": "✨",
-"time": "2026-11-06T17:53:43.781Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/demosonnanjya.bsky.social/post/3mznx7kcsfc2u",
-"term": "사고"
 },
 {
 "platform": "YouTube",
@@ -2723,17 +2713,9 @@
 "url": "https://www.youtube.com/watch?v=6GerpEQmlCw"
 }
 ],
-"spikes": [
-{
-"term": "속보",
-"n30": 5,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-06T18:22:34.490153+00:00"
-}
-],
+"spikes": [],
 "baseline": {
-"지진": 0.56,
+"지진": 0.6,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
@@ -2743,12 +2725,12 @@
 "미사일": 0.05,
 "속보": 0.05,
 "지하철": 0.05,
-"사고": 1.68,
+"사고": 1.51,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
-"산불": 0.08
+"산불": 0.07
 },
 "errors": [],
 "ytPosts": [
