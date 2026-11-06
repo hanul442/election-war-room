@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-06T23:42:19.136966+00:00",
+"updated": "2026-11-06T23:44:32.811596+00:00",
 "errors": [],
 "events": [
 {
@@ -1826,7 +1826,7 @@
 },
 "미사일": {
 "n30": 4,
-"base": 0.1,
+"base": 0.2,
 "spike": false
 },
 "속보": {
@@ -2117,14 +2117,14 @@
 "n30": 7,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-06T23:42:19.136966+00:00"
+"since": "2026-11-06T23:44:32.811596+00:00"
 },
 {
 "term": "속보",
 "n30": 6,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-06T23:42:19.136966+00:00"
+"since": "2026-11-06T23:44:32.811596+00:00"
 }
 ],
 "baseline": {
@@ -2135,10 +2135,10 @@
 "폭발": 0.05,
 "붕괴": 0.05,
 "대피": 0.05,
-"미사일": 0.24,
+"미사일": 0.32,
 "속보": 0.05,
-"지하철": 0.15,
-"사고": 2.7,
+"지하철": 0.24,
+"사고": 2.73,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -2341,6 +2341,78 @@
 },
 "trends": [
 {
+"term": "테슬라 사이버트럭",
+"traffic": "200+",
+"time": "2026-11-06T22:40:00+00:00",
+"news": [
+{
+"title": "테슬라, 사이버트럭 생산 중단키로…머스크 \"한 시대의 끝\"",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261107003800075"
+},
+{
+"title": "테슬라 사이버트럭 단종 예고…머스크 \"한 시대의 끝\" - 머니투데이",
+"source": "머니투데이",
+"link": "https://www.mt.co.kr/world/2026/11/07/2026110707591251436"
+}
+],
+"new": true
+},
+{
+"term": "의약품",
+"traffic": "200+",
+"time": "2026-11-06T22:40:00+00:00",
+"news": [
+{
+"title": "식약처, 의약품 허가·심사 수수료 현실화 추진",
+"source": "BRIC",
+"link": "https://www.ibric.org/bric/trend/results-of-research.do?mode=view&articleNo=10063463&article.offset=0&articleLimit=15"
+},
+{
+"title": "식약처, 의약품 허가 수수료 최대 6배 인상 추진… 제약사 비용 부담 전망",
+"source": "IT조선",
+"link": "https://it.chosun.com/news/articleView.html?idxno=3000000000429"
+}
+],
+"new": true
+},
+{
+"term": "노동자",
+"traffic": "200+",
+"time": "2026-11-06T22:40:00+00:00",
+"news": [
+{
+"title": "제주 노동존중사회 의원연구포럼’ 제주도 공무직 노동자들의 현장 목소리 청취",
+"source": "타임뉴스",
+"link": "https://www.timenews.co.kr/article/1741174"
+},
+{
+"title": "양경호 제주도의원, ‘제주 노동존중사회 의원연구포럼 간담회’ 참석…노동 현장 목소리 청취",
+"source": "뉴스N제주",
+"link": "https://newsnjeju.com/news/articleView.html?idxno=303858"
+}
+],
+"new": true
+},
+{
+"term": "기초 연구",
+"traffic": "100+",
+"time": "2026-11-06T22:30:00+00:00",
+"news": [
+{
+"title": "내년 '기초연구' 2조 9102억 투자…지역·청년 연구 지원 확대",
+"source": "대한민국 정책브리핑",
+"link": "https://www.korea.kr/news/policyNewsView.do?newsId=148975126"
+},
+{
+"title": "2027년도 기초연구사업 2.91조 원 투자 총 과제 수 18,516개로 역대 최대 지원",
+"source": "BRIC",
+"link": "https://www.ibric.org/bric/trend/bio-news.do?mode=view&articleNo=10063428&title=2027%EB%85%84%EB%8F%84+%EA%B8%B0%EC%B4%88%EC%97%B0%EA%B5%AC%EC%82%AC%EC%97%85+2.91%EC%A1%B0+%EC%9B%90+%ED%88%AC%EC%9E%90+%EC%B4%9D+%EA%B3%BC%EC%A0%9C+%EC%88%98+18%2C516%EA%B0%9C%EB%A1%9C+%EC%97%AD%EB%8C%80+%EC%B5%9C%EB%8C%80+%EC%A7%80%EC%9B%90"
+}
+],
+"new": false
+},
+{
 "term": "아프리카",
 "traffic": "100+",
 "time": "2026-11-06T22:30:00+00:00",
@@ -2395,24 +2467,6 @@
 "new": true
 },
 {
-"term": "하지수",
-"traffic": "500+",
-"time": "2026-11-06T22:10:00+00:00",
-"news": [
-{
-"title": "이찬혁, 열애설 상대 하지수와 예능 포착… 손 꼭 잡고 스윙댄스",
-"source": "한국일보",
-"link": "https://www.hankookilbo.com/news/article/A2026110507590005515"
-},
-{
-"title": "이찬혁, 열애설 하지수와 댄스 파트너…손잡고 스윙 댄스 - 머니투데이",
-"source": "머니투데이",
-"link": "https://www.mt.co.kr/entertainment/2026/11/04/2026110419420737591"
-}
-],
-"new": false
-},
-{
 "term": "적금",
 "traffic": "500+",
 "time": "2026-11-06T22:10:00+00:00",
@@ -2431,89 +2485,43 @@
 "new": false
 },
 {
+"term": "하지수",
+"traffic": "500+",
+"time": "2026-11-06T22:10:00+00:00",
+"news": [
+{
+"title": "이찬혁, 열애설 상대 하지수와 예능 포착… 손 꼭 잡고 스윙댄스",
+"source": "한국일보",
+"link": "https://www.hankookilbo.com/news/article/A2026110507590005515"
+},
+{
+"title": "이찬혁, 열애설 하지수와 댄스 파트너…손잡고 스윙 댄스 - 머니투데이",
+"source": "머니투데이",
+"link": "https://www.mt.co.kr/entertainment/2026/11/04/2026110419420737591"
+}
+],
+"new": false
+},
+{
 "term": "스페이스x",
 "traffic": "200+",
 "time": "2026-11-06T22:10:00+00:00",
 "news": [
 {
-"title": "스페이스X 로켓 의존 줄인다…AST, 자체 발사체 개발 추진",
-"source": "지디넷코리아",
-"link": "https://zdnet.co.kr/view/?no=20261107064358"
+"title": "머스크 “스페이스X 정부 매출 비중, 이번 분기 10% 미만”…시간외, 상승 지속",
+"source": "마켓인",
+"link": "https://marketin.edaily.co.kr/News/ReadE?newsId=01912246645643424"
 },
 {
-"title": "Firefly Aerospace 주가, 13억 달러 엔진 계약에 13% 급등",
-"source": "Investing.com 한국어",
-"link": "https://kr.investing.com/news/stock-market-news/article-2164065"
-}
-],
-"new": false
-},
-{
-"term": "치지직",
-"traffic": "2000+",
-"time": "2026-11-06T22:00:00+00:00",
-"news": [],
-"new": false
-},
-{
-"term": "서영교",
-"traffic": "200+",
-"time": "2026-11-06T22:00:00+00:00",
-"news": [
-{
-"title": "李, 본인사건 수사 특검 ‘셀프 임명’ 할 수 있다",
-"source": "조선일보",
-"link": "https://www.chosun.com/national/court_law/2026/11/07/F3CQ5CKKLVGSNJZNGDMQKZPGTI/"
-},
-{
-"title": "정청래의 ‘조희대 탄핵’ 주장이 대통령 공격인 이유…김웅의 분석",
-"source": "문화일보",
-"link": "https://www.munhwa.com/article/11629487"
-}
-],
-"new": false
-},
-{
-"term": "토트넘 홋스퍼 fc",
-"traffic": "500+",
-"time": "2026-11-06T21:50:00+00:00",
-"news": [
-{
-"title": "“손흥민 발롱도르 축하 메시지는?” 묻자···케인, 활짝 웃으며 답했다",
-"source": "경향신문",
-"link": "https://www.khan.co.kr/article/202611062132001"
-},
-{
-"title": "'일주일에 7억 2천만 원' \"단 1유로도 아깝지 않다!\" 바이에른 회네스, 케인 초대형 재계약에 대만족...발롱도르 수상자 향한 무한 신뢰 - 머니투데이",
-"source": "머니투데이",
-"link": "https://www.mt.co.kr/sports/2026/11/06/202611062039777851O"
-}
-],
-"new": false
-},
-{
-"term": "송해",
-"traffic": "200+",
-"time": "2026-11-06T21:40:00+00:00",
-"news": [
-{
-"title": "송해나, '이승철 주선' 소개팅에 \"술 별로 안 좋아했으면\"→이국주 \"네가?\" ('신랑수업2')",
-"source": "조선일보",
-"link": "https://www.chosun.com/entertainments/broadcast/2026/11/07/GYZDCYTFGQ4DMY3BME4TCMRYMY/"
-},
-{
-"title": "디테일한 질문을 통해 가까워지는 해나&승우?! 그리고 타로 선생님 국주?!",
-"source": "채널A",
-"link": "https://ichannela.com/program/clip/000000558837.do"
+"title": "민주당이 휩쓴 美…이제 AI 희망은 우주 뿐? [테크토크]",
+"source": "아시아경제",
+"link": "https://www.asiae.co.kr/article/2026110515434580580"
 }
 ],
 "new": false
 }
 ],
 "trendSeen": [
-"가상자산",
-"가즈아법당",
-"강남",
 "강민호",
 "강아지",
 "강원도민일보",
@@ -2560,6 +2568,7 @@
 "나혜미",
 "남대문 스카프 아저씨",
 "남대문시장",
+"노동자",
 "노동조합",
 "노무라 증권",
 "노소영",
@@ -2705,6 +2714,7 @@
 "유현주",
 "은마아파트",
 "은행",
+"의약품",
 "이강철",
 "이동국",
 "이범호",
@@ -2769,6 +2779,7 @@
 "코인니스",
 "쿠칭시티",
 "탁구",
+"테슬라 사이버트럭",
 "테슬라 주가",
 "테일러 프리츠",
 "테일즈위버 모바일",
