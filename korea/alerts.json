@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-06T14:01:13.990287+00:00",
+"updated": "2026-11-06T14:04:27.258583+00:00",
 "errors": [],
 "events": [
 {
@@ -147,7 +147,7 @@
 "id": "MXHMUDSFDLLMOFLRMFPT45YE1338",
 "first": "2026-11-06T13:38:26+00:00",
 "last": "2026-11-06T13:38:26+00:00",
-"updated": "2026-11-06T13:42:52.911753+00:00",
+"updated": "2026-11-06T14:04:27.258583+00:00",
 "headline": "美 10월 일자리 16만5000개 증가…시장 예상의 약 3배",
 "cat": "기타",
 "regions": [],
@@ -155,6 +155,13 @@
 "조선일보"
 ],
 "updates": [
+{
+"title": "[속보] 美 10월 일자리 16만5000개 증가…시장 예상의 약 3배",
+"source": "조선일보",
+"link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOQ2ZSUS0zdk4xeVBFWFV1b1dPVkJ0dDliWkFOcHdXUnVOVzdzVmc0c0NMWEt1SEFfUnAwUVVjaExELVJGV2YxZ0VCb3BpSjNIeXJNTURrbXJhQVE2cnVRLTdBdC15TGNhNm1nSTVFdGhfaGxKdTBBdTBDQzJ2MThKTUZrTDRUYWpL?oc=5",
+"time": "2026-11-06T13:38:00+00:00",
+"stage": "속보"
+},
 {
 "title": "[속보] 美 10월 일자리 16만5000개 증가…시장 예상의 약 3배",
 "source": "조선일보",
@@ -5722,7 +5729,7 @@
 "terms": {
 "지진": {
 "n30": 1,
-"base": 0.7,
+"base": 0.8,
 "spike": false
 },
 "화재": {
@@ -5741,18 +5748,18 @@
 "spike": false
 },
 "폭발": {
-"n30": 8,
+"n30": 7,
 "base": 1.1,
 "spike": true
 },
 "붕괴": {
-"n30": 5,
-"base": 1.0,
-"spike": true
+"n30": 3,
+"base": 0.9,
+"spike": false
 },
 "대피": {
 "n30": 1,
-"base": 0.1,
+"base": 0.2,
 "spike": false
 },
 "미사일": {
@@ -5761,18 +5768,18 @@
 "spike": false
 },
 "속보": {
-"n30": 6,
+"n30": 5,
 "base": 0.1,
 "spike": true
 },
 "지하철": {
-"n30": 1,
-"base": 0.6,
+"n30": 0,
+"base": 0.5,
 "spike": false
 },
 "사고": {
 "n30": 5,
-"base": 6.2,
+"base": 6.1,
 "spike": false
 },
 "실종": {
@@ -6034,16 +6041,6 @@
 "url": "https://www.youtube.com/watch?v=nDt4palrECY"
 },
 {
-"text": "나는 ㅅㅈㅎ 소음은 별로 신경안쓰이는데 동생집들어와가지고 또 폭발할까봐 그것이무섭다",
-"handle": "mitganmaterial.bsky.social",
-"name": "쌉찰떡(상태: 삿갓 밑줄 삿갓)",
-"time": "2026-11-06T13:31:42.475Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/mitganmaterial.bsky.social/post/3mznikytsuk2p",
-"term": "폭발"
-},
-{
 "platform": "YouTube",
 "text": "[🔴속보] '블루쓰나미'에 빅테크들 데이터센터 해외·사막으로 눈돌려｜\"내년 미국 계획 데이터센터 프로젝트의 최대 35%가 차질 위험\"  / 연합뉴스TV(YonhapnewsTV)",
 "handle": "UCTHCOPwqNfZ0uiKOvFyhGwg",
@@ -6092,42 +6089,35 @@
 "spikes": [
 {
 "term": "폭발",
-"n30": 8,
+"n30": 7,
 "base": 1.1,
 "spike": true,
-"since": "2026-11-06T14:01:13.990287+00:00"
-},
-{
-"term": "붕괴",
-"n30": 5,
-"base": 1.0,
-"spike": true,
-"since": "2026-11-06T14:01:13.990287+00:00"
+"since": "2026-11-06T14:04:27.258583+00:00"
 },
 {
 "term": "속보",
-"n30": 6,
+"n30": 5,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-06T14:01:13.990287+00:00"
+"since": "2026-11-06T14:04:27.258583+00:00"
 }
 ],
 "baseline": {
-"지진": 0.77,
+"지진": 0.79,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 1.11,
-"붕괴": 0.91,
-"대피": 0.24,
+"폭발": 1.0,
+"붕괴": 0.82,
+"대피": 0.32,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.5,
-"사고": 6.07,
+"지하철": 0.45,
+"사고": 5.96,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
-"먹통": 0.22,
+"먹통": 0.2,
 "산불": 0.05
 },
 "errors": [],
@@ -6353,6 +6343,24 @@
 },
 "trends": [
 {
+"term": "장유빈",
+"traffic": "200+",
+"time": "2026-11-06T13:00:00+00:00",
+"news": [
+{
+"title": "‘스코어카드 반대로 썼다’… 장유빈 KPGA 최종전 실격, 상금·대상 2관왕 무산",
+"source": "조선일보",
+"link": "https://www.chosun.com/national/people/2026/11/06/WUGH7AT4N5DH5IDTBW6OFLVDZE/"
+},
+{
+"title": "황재민, 초속 13ｍ 강풍에도 66타…KPGA 투어챔피언십 2R 선두",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261106162900007"
+}
+],
+"new": true
+},
+{
 "term": "이혜정",
 "traffic": "200+",
 "time": "2026-11-06T12:50:00+00:00",
@@ -6376,14 +6384,14 @@
 "time": "2026-11-06T12:50:00+00:00",
 "news": [
 {
-"title": "[승장패장] 박진만 감독, “4차전 선발은 장찬희…1차전 씩씩하게 던져”",
-"source": "한겨레",
-"link": "https://www.hani.co.kr/arti/sports/baseball/1286201.html"
-},
-{
 "title": "kt 좌완 로건, KS 4차전 선발 복귀…\"이기는 데만 집중해\"",
 "source": "연합뉴스",
 "link": "https://www.yna.co.kr/view/AKR20261104138900007"
+},
+{
+"title": "좌타가 지배하는 2026 한국시리즈…디아즈·힐리어드 봉쇄령",
+"source": "데일리안",
+"link": "https://www.dailian.co.kr/news/view/1710953/%EC%A2%8C%ED%83%80-%EC%A7%80%EB%B0%B0%ED%95%98%EB%8A%94-2026-%ED%95%9C%EA%B5%AD%EC%8B%9C%EB%A6%AC%EC%A6%88%EB%94%94%EC%95%84-2026"
 }
 ],
 "new": false
@@ -6510,24 +6518,6 @@
 "title": "올가홀푸드, 견과류 7종을 배합한 저온 로스팅 한봉견과 내놓아",
 "source": "로이슈",
 "link": "https://www.lawissue.co.kr/view.php?ud=202611060830144152204ead0791_12"
-}
-],
-"new": false
-},
-{
-"term": "이승민",
-"traffic": "200+",
-"time": "2026-11-06T11:50:00+00:00",
-"news": [
-{
-"title": "역투하는 이승민",
-"source": "뉴시스",
-"link": "https://mobile.newsis.com/photo/NISI20261106_0021522728"
-},
-{
-"title": "[포토] '8회초는 책임지죠!' 이승민 - 머니투데이",
-"source": "머니투데이",
-"link": "https://www.mt.co.kr/sports/2026/11/06/2026110620524651962"
 }
 ],
 "new": false
@@ -6761,6 +6751,7 @@
 "장기 기증",
 "장동민",
 "장동현",
+"장유빈",
 "장윤정",
 "장찬희",
 "저격수",
