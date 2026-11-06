@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-06T16:29:30.188586+00:00",
+"updated": "2026-11-06T16:31:46.608539+00:00",
 "errors": [],
 "events": [
 {
@@ -3660,55 +3660,6 @@
 "전남",
 "해제"
 ]
-},
-{
-"id": "ssutm_campaigntotal_news0839",
-"first": "2026-11-06T08:39:01+00:00",
-"last": "2026-11-06T10:31:08+00:00",
-"updated": "2026-11-06T10:34:25.332666+00:00",
-"headline": "군산 야미도서 1t 캠핑카 화재···인근 야산 번져 40여 분 만에 주불 진화",
-"cat": "재난",
-"regions": [
-"전북"
-],
-"sources": [
-"경향신문",
-"연합뉴스"
-],
-"updates": [
-{
-"title": "군산 야미도서 1t 캠핑카 화재···인근 야산 번져 40여 분 만에 주불 진화",
-"source": "경향신문",
-"link": "https://www.khan.co.kr/article/202611061739011/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
-"time": "2026-11-06T08:39:01+00:00",
-"stage": "1보"
-},
-{
-"title": "군산 아파트서 불…30분 만에 진화",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261106181400055",
-"time": "2026-11-06T10:31:08+00:00",
-"stage": "후속"
-}
-],
-"level": "ALERT",
-"latest": "군산 아파트서 불…30분 만에 진화",
-"tok": [
-"1t",
-"30분",
-"40여",
-"군산",
-"만에",
-"번져",
-"아파트서",
-"야미도서",
-"야산",
-"인근",
-"주불",
-"진화",
-"캠핑카",
-"화재"
-]
 }
 ],
 "sns": {
@@ -3734,14 +3685,14 @@
 "spike": false
 },
 "폭발": {
-"n30": 4,
+"n30": 2,
 "base": 0.1,
 "spike": false
 },
 "붕괴": {
-"n30": 5,
+"n30": 4,
 "base": 0.7,
-"spike": true
+"spike": false
 },
 "대피": {
 "n30": 0,
@@ -3754,7 +3705,7 @@
 "spike": false
 },
 "속보": {
-"n30": 7,
+"n30": 6,
 "base": 0.1,
 "spike": true
 },
@@ -3765,7 +3716,7 @@
 },
 "사고": {
 "n30": 2,
-"base": 3.3,
+"base": 3.2,
 "spike": false
 },
 "실종": {
@@ -4044,18 +3995,11 @@
 ],
 "spikes": [
 {
-"term": "붕괴",
-"n30": 5,
-"base": 0.7,
-"spike": true,
-"since": "2026-11-06T16:29:30.188586+00:00"
-},
-{
 "term": "속보",
-"n30": 7,
+"n30": 6,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-06T16:29:30.188586+00:00"
+"since": "2026-11-06T16:31:46.608539+00:00"
 }
 ],
 "baseline": {
@@ -4064,12 +4008,12 @@
 "불났": 0.05,
 "정전": 0.05,
 "폭발": 0.05,
-"붕괴": 0.71,
+"붕괴": 0.74,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.3,
-"사고": 3.2,
+"지하철": 0.27,
+"사고": 3.08,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -4399,9 +4343,9 @@
 "link": "https://www.politico.com/news/2026/11/05/hegseth-expands-d-c-national-guard-presence-01151398"
 },
 {
-"title": "National Guard to Expand Patrols in Washington With Military Vehicles and Boats",
-"source": "The New York Times",
-"link": "https://www.nytimes.com/2026/11/05/us/politics/washington-dc-national-guard-troops-hegseth-trump.html"
+"title": "DC councilmember advocates for National Guard withdrawal",
+"source": "NBC4 Washington",
+"link": "https://www.nbcwashington.com/news/local/dc-councilmember-advocates-for-national-guard-withdrawal/4178875/"
 }
 ],
 "new": false
@@ -4453,9 +4397,9 @@
 "link": "https://www.segye.com/newsView/20261106503569"
 },
 {
-"title": "아들과 절연한 이혜정 \"언젠가 화해할 날 있겠지\" 눈물",
-"source": "뉴시스",
-"link": "https://www.newsis.com/view/NISX20261106_0003858051"
+"title": "이혜정, '절연' 아들 생각에 '후회·눈물' \"결혼하고 변해..화해할 날 오길\"[핫피플]",
+"source": "미주중앙일보",
+"link": "https://www.koreadaily.com/article/20261105014133164"
 }
 ],
 "new": false
