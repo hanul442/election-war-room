@@ -1,20 +1,22 @@
 {
-"updated": "2026-11-06T22:58:11.777732+00:00",
+"updated": "2026-11-06T23:00:28.958900+00:00",
 "errors": [],
 "events": [
 {
 "id": "ThGSTRoeFVoMmNtWnZhQQoc52239",
 "first": "2026-11-06T22:39:11+00:00",
 "last": "2026-11-06T22:53:29+00:00",
-"updated": "2026-11-06T22:58:11.777732+00:00",
+"updated": "2026-11-06T23:00:28.958900+00:00",
 "headline": "미래에셋증권도 해킹…고객·임직원 정보 일부 유출",
 "cat": "기타",
 "regions": [],
 "sources": [
+"경기일보",
 "뉴시스",
 "매일경제",
 "매일경제 마켓",
 "연합뉴스",
+"이투데이",
 "파이낸셜뉴스",
 "파이낸셜포스트",
 "한국경제"
@@ -25,6 +27,13 @@
 "source": "연합뉴스",
 "link": "https://www.yna.co.kr/view/AKR20261107014400008",
 "time": "2026-11-06T22:36:50+00:00",
+"stage": "속보"
+},
+{
+"title": "[속보] 미래에셋증권 해킹 피해…고객·임직원 정보 일부 유출",
+"source": "이투데이",
+"link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBaeUh0ZDI5M2t5TkRLeE9xbTh2YjllVi0yQmQtcGZYRHFDNkwxaVkxMGdycDRDNE5wcl90ZVRsbUtMZlpKd3ZOeVh1ZTNiblNuMW5Wdw?oc=5",
+"time": "2026-11-06T22:38:00+00:00",
 "stage": "속보"
 },
 {
@@ -63,6 +72,13 @@
 "stage": "속보"
 },
 {
+"title": "[속보] 미래에셋증권 해킹...고객 계좌 3천800여개·임직원 3만5천여명 정보 유출",
+"source": "경기일보",
+"link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBQS1UybjZsLW41Ukt3OHZDemhYcERydmxJQURsWWdMV1AzczNJYlBFZWp6NUo4QUg4dkNQUEVYbUZaOGg3RFNPR0d6Skh5c0VEbEVfOTJnVGFtd2c?oc=5",
+"time": "2026-11-06T22:51:23+00:00",
+"stage": "속보"
+},
+{
 "title": "[속보] 미래에셋증권도 해킹 피해…고객·임직원 정보 일부 유출",
 "source": "파이낸셜뉴스",
 "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1VSExoWGFuRGxrYUdtLVJNMkFfYUpvUDdtcXVrTXp1c1RjbVAtOUp6LTROekdUWlk4djFlbExZVW42dTJ1dkRUOC11bGtXUFFnZjN5b2RJdkpadw?oc=5",
@@ -73,6 +89,9 @@
 "level": "URGENT",
 "latest": "미래에셋증권도 해킹 피해…고객·임직원 정보 일부 유출",
 "tok": [
+"3만5천여명",
+"3천800여개",
+"계좌",
 "고객",
 "고객ㆍ임직원",
 "당해",
@@ -1442,12 +1461,12 @@
 "sns": {
 "terms": {
 "지진": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
 "화재": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -1472,7 +1491,7 @@
 "spike": false
 },
 "대피": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -1482,7 +1501,7 @@
 "spike": false
 },
 "속보": {
-"n30": 2,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
@@ -1753,7 +1772,7 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 0.06,
+"지진": 0.05,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
@@ -1763,7 +1782,7 @@
 "미사일": 0.05,
 "속보": 0.05,
 "지하철": 0.05,
-"사고": 1.15,
+"사고": 1.23,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -2066,9 +2085,9 @@
 "link": "https://www.chosun.com/national/court_law/2026/11/07/F3CQ5CKKLVGSNJZNGDMQKZPGTI/"
 },
 {
-"title": "'조작기소 특검법' 통과‥국힘은 장외 투쟁",
-"source": "MBC 뉴스",
-"link": "https://imnews.imbc.com/replay/2026/nwtoday/article/6863860_37012.html"
+"title": "국민의힘, 한 달 만에 장외로…‘조작기소특검법’ 규탄",
+"source": "연합뉴스TV",
+"link": "https://www.yonhapnewstv.co.kr/news/AKR20261107053919WLg"
 }
 ],
 "new": false
@@ -2156,9 +2175,9 @@
 "link": "https://www.atptour.com/en/news/alcaraz-fritz-paris-2026-friday"
 },
 {
-"title": "Alcaraz beats Fritz to help Jodar reach ATP finals",
-"source": "BBC",
-"link": "https://www.bbc.com/sport/tennis/articles/c6e9lldl3lpjo"
+"title": "Where to watch Carlos Alcaraz vs Taylor Fritz tennis for free today",
+"source": "Syracuse.com",
+"link": "https://www.syracuse.com/tv/2026/11/where-to-watch-carlos-alcaraz-vs-taylor-fritz-tennis-for-free-today.html"
 }
 ],
 "new": false
