@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-06T23:44:32.811596+00:00",
+"updated": "2026-11-06T23:46:45.815567+00:00",
 "errors": [],
 "events": [
 {
@@ -39,11 +39,12 @@
 "id": "ThGSTRoeFVoMmNtWnZhQQoc52239",
 "first": "2026-11-06T22:39:11+00:00",
 "last": "2026-11-06T23:28:56+00:00",
-"updated": "2026-11-06T23:31:01.909311+00:00",
+"updated": "2026-11-06T23:46:45.815567+00:00",
 "headline": "미래에셋증권도 해킹…고객·임직원 정보 일부 유출",
 "cat": "기타",
 "regions": [],
 "sources": [
+"OBC 뉴스",
 "SBS",
 "www.dt.co.kr",
 "경기일보",
@@ -173,6 +174,13 @@
 "stage": "속보"
 },
 {
+"title": "[속보] 미래에셋생명 해킹…고객 계좌·임직원 정보 유출",
+"source": "OBC 뉴스",
+"link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5lcWNELVNrVHlHTnVSOFJxQ2VRM1oxUmtCeXNmc185OEgxVHd3dEs2cFlONXhYLVhRT1plaDdNU0dlbnJqM1FoTmxXdmx4dDJKX0FYczd0d3VySU85eUIzS2g5MGQ0OHVO?oc=5",
+"time": "2026-11-06T23:26:18+00:00",
+"stage": "속보"
+},
+{
 "title": "미래에셋증권, 고객 3천800여 명·임직원 3만 5천여 명 정보 유출",
 "source": "SBS",
 "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008834969&plink=RSSLINK&cooper=RSSREADER",
@@ -201,6 +209,7 @@
 "고객ㆍ임직원",
 "당해",
 "뚫렸다",
+"미래에셋생명",
 "미래에셋증권",
 "불안감",
 "연락처까지",
@@ -1826,17 +1835,17 @@
 },
 "미사일": {
 "n30": 4,
-"base": 0.2,
+"base": 0.3,
 "spike": false
 },
 "속보": {
-"n30": 6,
+"n30": 5,
 "base": 0.1,
 "spike": true
 },
 "지하철": {
-"n30": 2,
-"base": 0.1,
+"n30": 1,
+"base": 0.2,
 "spike": false
 },
 "사고": {
@@ -2117,14 +2126,14 @@
 "n30": 7,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-06T23:44:32.811596+00:00"
+"since": "2026-11-06T23:46:45.815567+00:00"
 },
 {
 "term": "속보",
-"n30": 6,
+"n30": 5,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-06T23:44:32.811596+00:00"
+"since": "2026-11-06T23:46:45.815567+00:00"
 }
 ],
 "baseline": {
@@ -2135,10 +2144,10 @@
 "폭발": 0.05,
 "붕괴": 0.05,
 "대피": 0.05,
-"미사일": 0.32,
+"미사일": 0.39,
 "속보": 0.05,
-"지하철": 0.24,
-"사고": 2.73,
+"지하철": 0.32,
+"사고": 2.76,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -2356,7 +2365,7 @@
 "link": "https://www.mt.co.kr/world/2026/11/07/2026110707591251436"
 }
 ],
-"new": true
+"new": false
 },
 {
 "term": "의약품",
@@ -2374,7 +2383,7 @@
 "link": "https://it.chosun.com/news/articleView.html?idxno=3000000000429"
 }
 ],
-"new": true
+"new": false
 },
 {
 "term": "노동자",
@@ -2392,7 +2401,7 @@
 "link": "https://newsnjeju.com/news/articleView.html?idxno=303858"
 }
 ],
-"new": true
+"new": false
 },
 {
 "term": "기초 연구",
