@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-06T14:06:44.713887+00:00",
+"updated": "2026-11-06T14:09:02.832685+00:00",
 "errors": [],
 "events": [
 {
@@ -129,16 +129,18 @@
 "id": "BSFNMY1hXNDUwQ1lvTklYoc51331",
 "first": "2026-11-06T13:31:15+00:00",
 "last": "2026-11-06T13:51:00+00:00",
-"updated": "2026-11-06T14:01:13.990287+00:00",
+"updated": "2026-11-06T14:09:02.832685+00:00",
 "headline": "미국 10월 실업률 4.1%·비농업 고용 16만5000명 증가…뉴욕증시 급락 후 고용지표 '촉각'",
 "cat": "경제",
 "regions": [],
 "sources": [
 "CBC뉴스",
+"뉴스1",
 "데일리안",
 "블록미디어",
 "중앙일보",
-"토큰포스트"
+"토큰포스트",
+"헤럴드경제"
 ],
 "updates": [
 {
@@ -153,6 +155,13 @@
 "source": "CBC뉴스",
 "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE4xV09zOGZOM1VhQTBtWHhzOVBSUHJscUZrVzdPa0JvQTFYUElJWFI4VURWbUN6WVdzczNoUHZuSWs5Q0ZtUjdXSjdsc1NaM0RDZVBDY2l3aFlVY2Rzb1pLdTlGMm44UjQ?oc=5",
 "time": "2026-11-06T13:31:15+00:00",
+"stage": "속보"
+},
+{
+"title": "[속보] 美 10월 비농업 고용 16만 5000명↑…시장 예상치 상회",
+"source": "뉴스1",
+"link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5MeXFhUEZta2REQ1Y0bjRrUlBFYTJlR3ZEVDhxeEpPVWU1MTVCa1YyRUk1Mk9MeWdrRU5yb3J4aksxaF9nYmdRUWtkOHZ1a3dYeDF6ZndKejE?oc=5",
+"time": "2026-11-06T13:32:55+00:00",
 "stage": "속보"
 },
 {
@@ -184,6 +193,13 @@
 "stage": "후속"
 },
 {
+"title": "[속보]美 10월 고용 16.5만명 ‘깜짝 증가’…실업률 4.1%로 하락",
+"source": "헤럴드경제",
+"link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE95ZElsRkFrMm84V1VQandET2wyWTBzdG9VbnRXUEZ1d2o5Nk5HbGwtTDBiVnc5TWdPTmZfSktPa1lnSWY5UHc2X3pyUUp5eE11M3c5SF9n?oc=5",
+"time": "2026-11-06T13:50:34+00:00",
+"stage": "속보"
+},
+{
 "title": "[속보] 美, 10월 비농업 고용 16만5000명↑…실업률 4.1%로 하락",
 "source": "데일리안",
 "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFB5OXoxRHhSOFF4bTFGQm92ZFFyOTlRU2U2dlU1bzlaaTZkR2ZYMzdoM1RpWk9nUUVPOG9PaXBFN0NQN1JFMlBCQ0VnOGhXSTFaYjh6aWpUWFRhMUg5RmxvbFlOUQ?oc=5",
@@ -196,6 +212,8 @@
 "tok": [
 "10월",
 "16만5000명",
+"5000명",
+"5만명",
 "5배",
 "p하락",
 "고용",
@@ -208,6 +226,7 @@
 "미국",
 "밑돌아",
 "비농업",
+"상회",
 "시장",
 "실업률",
 "예상",
@@ -5195,23 +5214,23 @@
 "spike": false
 },
 "정전": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
 "폭발": {
 "n30": 6,
-"base": 1.0,
+"base": 0.9,
 "spike": true
 },
 "붕괴": {
-"n30": 2,
-"base": 0.8,
+"n30": 1,
+"base": 0.7,
 "spike": false
 },
 "대피": {
 "n30": 1,
-"base": 0.3,
+"base": 0.4,
 "spike": false
 },
 "미사일": {
@@ -5226,7 +5245,7 @@
 },
 "지하철": {
 "n30": 0,
-"base": 0.5,
+"base": 0.4,
 "spike": false
 },
 "사고": {
@@ -5266,7 +5285,7 @@
 "handle": "tx2406.bsky.social",
 "name": "다방고양이",
 "time": "2026-11-06T14:04:34.375Z",
-"likes": 2,
+"likes": 3,
 "reposts": 0,
 "url": "https://bsky.app/profile/tx2406.bsky.social/post/3mznkfqwe222z",
 "term": "사고"
@@ -5542,27 +5561,27 @@
 {
 "term": "폭발",
 "n30": 6,
-"base": 1.0,
+"base": 0.9,
 "spike": true,
-"since": "2026-11-06T14:06:44.713887+00:00"
+"since": "2026-11-06T14:09:02.832685+00:00"
 }
 ],
 "baseline": {
-"지진": 0.81,
+"지진": 0.83,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.9,
-"붕괴": 0.74,
-"대피": 0.39,
+"폭발": 0.81,
+"붕괴": 0.67,
+"대피": 0.45,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.41,
+"지하철": 0.37,
 "사고": 5.96,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
-"먹통": 0.18,
+"먹통": 0.16,
 "산불": 0.05
 },
 "errors": [],
@@ -5924,9 +5943,9 @@
 "link": "https://www.newsis.com/view/NISI20261106_0021522762"
 },
 {
-"title": "[사진]구자욱, 박승규 'KS 3차전 솔로포에 뜨거운 포옹'",
-"source": "조선일보",
-"link": "https://www.chosun.com/sports/sports_photo/2026/11/06/GBTGKMZRGM4TSMBVMMYWIMBSGM/"
+"title": "'특급 조커' 박승규가 쐐기포 작렬! 삼성 기다리던 추가점 터졌다...5-1, 승리 9부 능선 극복 [KS3]",
+"source": "OSEN",
+"link": "https://www.osen.co.kr/article/G1112905542"
 }
 ],
 "new": false
