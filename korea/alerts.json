@@ -1,16 +1,17 @@
 {
-"updated": "2026-11-06T20:04:32.396768+00:00",
+"updated": "2026-11-06T20:06:53.400189+00:00",
 "errors": [],
 "events": [
 {
 "id": "wNISX20261106_00038586571500",
 "first": "2026-11-06T15:00:00+00:00",
 "last": "2026-11-06T20:01:00+00:00",
-"updated": "2026-11-06T20:04:32.396768+00:00",
+"updated": "2026-11-06T20:06:53.400189+00:00",
 "headline": "입동 아침 최저 -6도…강풍에 체감온도 '뚝'[오늘날씨]",
 "cat": "재난",
 "regions": [
-"인천"
+"인천",
+"제주"
 ],
 "sources": [
 "뉴시스"
@@ -24,6 +25,13 @@
 "stage": "1보"
 },
 {
+"title": "제주, 토요일 아침 최저 9도 쌀쌀…\"체감온도 더 낮아\"",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261106_0003858431",
+"time": "2026-11-06T20:00:00+00:00",
+"stage": "후속"
+},
+{
 "title": "토요일 인천, 입동 아침 영하권…강풍 불어 체감온도↓",
 "source": "뉴시스",
 "link": "https://www.newsis.com/view/NISX20261106_0003858454",
@@ -35,13 +43,17 @@
 "latest": "토요일 인천, 입동 아침 영하권…강풍 불어 체감온도↓",
 "tok": [
 "6도",
+"9도",
 "강풍",
+"낮아",
 "불어",
+"쌀쌀",
 "아침",
 "영하권",
 "오늘날씨",
 "인천",
 "입동",
+"제주",
 "체감온",
 "최저",
 "토요일"
@@ -79,6 +91,47 @@
 "입동",
 "체감",
 "한파"
+]
+},
+{
+"id": "1FPbmo5dF9vRzZrWmt6UQoc52000",
+"first": "2026-11-06T20:00:00+00:00",
+"last": "2026-11-06T20:00:00+00:00",
+"updated": "2026-11-06T20:06:53.400189+00:00",
+"headline": "[기상속보]주말 오늘날씨 입동 맞아 영하권 강추위 서울 낮 9도...8일 수도권 5mm 비등 주간예보",
+"cat": "기타",
+"regions": [
+"서울"
+],
+"sources": [
+"퍼블릭타임스"
+],
+"updates": [
+{
+"title": "[기상속보]주말 오늘날씨 입동 맞아 영하권 강추위 서울 낮 9도...8일 수도권 5mm 비등 주간예보",
+"source": "퍼블릭타임스",
+"link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBUd09sQnN5MWdCQlQ4c1VzOHB6YmNKeGhhNDd6YmhXRDhIMW8xa0lHWWcxV3NkRU5HQmdTeE5ZTHVWX08tcm9HT1R5MUpHNVRBMkN5aXBGR2E3MUh3MnlnMGZfd3FwYnhDNnfSAW5BVV95cUxOR0RzOEV6OUt1bkVpa3RvNDIwNXpYS3ZwTGx2Z1RNWlpfVl9DeWxnaGRHTnRYVTZ3VVZ3LTVaQ25GdE4tVThuYnNjMW85dXVmY2ZFY1lxVGFRQVZGLTRqS1FPbmo5dF9vRzZrWmt6UQ?oc=5",
+"time": "2026-11-06T20:00:00+00:00",
+"stage": "1보"
+}
+],
+"level": "ALERT",
+"latest": "[기상속보]주말 오늘날씨 입동 맞아 영하권 강추위 서울 낮 9도...8일 수도권 5mm 비등 주간예보",
+"tok": [
+"5mm",
+"8일",
+"9도",
+"강추위",
+"기상속보",
+"맞아",
+"비등",
+"서울",
+"수도권",
+"영하권",
+"오늘날씨",
+"입동",
+"주간예보",
+"주말"
 ]
 },
 {
@@ -1851,22 +1904,22 @@
 "n30": 9,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-06T20:04:32.396768+00:00"
+"since": "2026-11-06T20:06:53.400189+00:00"
 },
 {
 "term": "속보",
 "n30": 11,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-06T20:04:32.396768+00:00"
+"since": "2026-11-06T20:06:53.400189+00:00"
 }
 ],
 "baseline": {
-"지진": 0.27,
+"지진": 0.24,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.13,
+"폭발": 0.12,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
@@ -2202,7 +2255,7 @@
 },
 {
 "term": "일론 머스크",
-"traffic": "100+",
+"traffic": "200+",
 "time": "2026-11-06T15:50:00+00:00",
 "news": [
 {
@@ -2227,18 +2280,18 @@
 },
 {
 "term": "유튜버",
-"traffic": "500+",
+"traffic": "2000+",
 "time": "2026-11-06T15:00:00+00:00",
 "news": [
 {
-"title": "자전거 여행 중 숨진 유튜버…\"마지막 여정을\" 친형의 글",
-"source": "SBS 뉴스",
-"link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008833712"
+"title": "인기 유튜버, 女 학대 생중계 논란…16년 전 파묘 (궁금한 이야기Y)",
+"source": "스포츠동아",
+"link": "https://sports.donga.com/ent/article/all/20261106/134981087/1"
 },
 {
-"title": "‘볼리비아 사고 유튜버’ 故 진쓰레블, 마지막 영상 공개",
-"source": "스포츠경향",
-"link": "https://sports.khan.co.kr/article/202611061513013"
+"title": "[다시보기] 궁금한 이야기 Y 802회",
+"source": "programs.sbs.co.kr",
+"link": "https://programs.sbs.co.kr/culture/cube/vod/54887/22000639439"
 }
 ],
 "new": false
