@@ -1,12 +1,12 @@
 {
-"updated": "2026-11-06T02:30:16.553035+00:00",
+"updated": "2026-11-06T02:32:32.741630+00:00",
 "errors": [],
 "events": [
 {
 "id": "ZQnZDSmNuXzljN1JjM1Vnoc50105",
 "first": "2026-11-06T01:05:17+00:00",
-"last": "2026-11-06T02:28:10+00:00",
-"updated": "2026-11-06T02:30:16.553035+00:00",
+"last": "2026-11-06T02:29:17+00:00",
+"updated": "2026-11-06T02:32:32.741630+00:00",
 "headline": "이 대통령 지지율 41%…민주 36%·국힘 28% [한국갤럽]",
 "cat": "정치",
 "regions": [
@@ -14,6 +14,7 @@
 ],
 "sources": [
 "KBC광주방송",
+"SBS",
 "www.dt.co.kr",
 "강원도민일보",
 "경향신문",
@@ -139,10 +140,17 @@
 "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9VbGdoTzg4VDVJNi1sTEdkRThZOVR2Vmx4V01CM3ZhUWVUcHRlNzhWT0c1bEhtWkdQOGRORFBxOHVtLUIyRTJEN2FXX2I1NWJM?oc=5",
 "time": "2026-11-06T02:28:10+00:00",
 "stage": "속보"
+},
+{
+"title": "이 대통령 지지율, 2%p 올라 41%…민주 36%·국힘 28% [한국갤럽]",
+"source": "SBS",
+"link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008833882&plink=RSSLINK&cooper=RSSREADER",
+"time": "2026-11-06T02:29:17+00:00",
+"stage": "후속"
 }
 ],
 "level": "URGENT",
-"latest": "李대통령 지지율 41%, 소폭 반등 …‘부정’은 50% -한국갤럽",
+"latest": "이 대통령 지지율, 2%p 올라 41%…민주 36%·국힘 28% [한국갤럽]",
 "tok": [
 "vs",
 "李대통령",
@@ -4014,7 +4022,7 @@
 },
 "화재": {
 "n30": 0,
-"base": 1.0,
+"base": 0.9,
 "spike": false
 },
 "불났": {
@@ -4028,7 +4036,7 @@
 "spike": false
 },
 "폭발": {
-"n30": 8,
+"n30": 5,
 "base": 0.5,
 "spike": true
 },
@@ -4038,28 +4046,28 @@
 "spike": false
 },
 "대피": {
-"n30": 2,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
 "미사일": {
-"n30": 2,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
 "속보": {
 "n30": 5,
-"base": 0.5,
+"base": 0.4,
 "spike": true
 },
 "지하철": {
-"n30": 3,
-"base": 1.1,
+"n30": 2,
+"base": 1.2,
 "spike": false
 },
 "사고": {
 "n30": 1,
-"base": 0.6,
+"base": 0.7,
 "spike": false
 },
 "실종": {
@@ -4104,7 +4112,7 @@
 "handle": "nini-sgms.bsky.social",
 "name": "니니 장르계",
 "time": "2026-11-06T02:22:48.871Z",
-"likes": 1,
+"likes": 3,
 "reposts": 0,
 "url": "https://bsky.app/profile/nini-sgms.bsky.social/post/3mzmd6w7bhs2j",
 "term": "지하철"
@@ -4291,16 +4299,6 @@
 "url": "https://www.youtube.com/watch?v=GcImGK_rF2o"
 },
 {
-"text": "아 은둔고립 인터뷰영상 질문지 와서 미리 작성하는데 지하철에서 눈물 찔끔났슴",
-"handle": "dasokim.bsky.social",
-"name": "다소 (맞짱100%) 🏳️‍🌈🏳️‍⚧️🇵🇸",
-"time": "2026-11-06T02:00:33.274Z",
-"likes": 4,
-"reposts": 0,
-"url": "https://bsky.app/profile/dasokim.bsky.social/post/3mzmbx3vons2e",
-"term": "지하철"
-},
-{
 "platform": "YouTube",
 "text": "북한, 비행장 타격훈련 공개…전투기가 뜨기도 전에?#북한미사일 #전략순항미사일 #공군기지 #북한군사훈련 #기록의민낯",
 "handle": "UCgb9Qg08QORWbrTfneaGsHA",
@@ -4340,31 +4338,31 @@
 "spikes": [
 {
 "term": "폭발",
-"n30": 8,
+"n30": 5,
 "base": 0.5,
 "spike": true,
-"since": "2026-11-06T02:30:16.553035+00:00"
+"since": "2026-11-06T02:32:32.741630+00:00"
 },
 {
 "term": "속보",
 "n30": 5,
-"base": 0.5,
+"base": 0.4,
 "spike": true,
-"since": "2026-11-06T02:30:16.553035+00:00"
+"since": "2026-11-06T02:32:32.741630+00:00"
 }
 ],
 "baseline": {
 "지진": 0.05,
-"화재": 0.91,
+"화재": 0.82,
 "불났": 0.0,
 "정전": 0.05,
-"폭발": 0.51,
+"폭발": 0.56,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.41,
-"지하철": 1.23,
-"사고": 0.67,
+"속보": 0.37,
+"지하철": 1.21,
+"사고": 0.7,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
