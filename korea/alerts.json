@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-07T15:50:46.812666+00:00",
+"updated": "2026-11-07T15:52:59.322715+00:00",
 "errors": [],
 "events": [
 {
@@ -2499,7 +2499,7 @@
 "terms": {
 "지진": {
 "n30": 1,
-"base": 0.1,
+"base": 0.2,
 "spike": false
 },
 "화재": {
@@ -2518,8 +2518,8 @@
 "spike": false
 },
 "폭발": {
-"n30": 14,
-"base": 0.7,
+"n30": 13,
+"base": 0.6,
 "spike": true
 },
 "붕괴": {
@@ -2534,7 +2534,7 @@
 },
 "미사일": {
 "n30": 0,
-"base": 0.8,
+"base": 0.7,
 "spike": false
 },
 "속보": {
@@ -2544,12 +2544,12 @@
 },
 "지하철": {
 "n30": 3,
-"base": 0.4,
+"base": 0.3,
 "spike": false
 },
 "사고": {
 "n30": 1,
-"base": 1.4,
+"base": 1.3,
 "spike": false
 },
 "실종": {
@@ -2810,24 +2810,24 @@
 "spikes": [
 {
 "term": "폭발",
-"n30": 14,
-"base": 0.7,
+"n30": 13,
+"base": 0.6,
 "spike": true,
-"since": "2026-11-07T15:50:46.812666+00:00"
+"since": "2026-11-07T15:52:59.322715+00:00"
 }
 ],
 "baseline": {
-"지진": 0.24,
+"지진": 0.32,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.63,
+"폭발": 0.57,
 "붕괴": 0.05,
 "대피": 0.05,
-"미사일": 0.69,
+"미사일": 0.62,
 "속보": 0.05,
-"지하철": 0.34,
-"사고": 1.32,
+"지하철": 0.31,
+"사고": 1.29,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -3048,6 +3048,42 @@
 },
 "trends": [
 {
+"term": "김성우",
+"traffic": "200+",
+"time": "2026-11-07T14:50:00+00:00",
+"news": [
+{
+"title": "[이슈5] \"보자마자 흉기 휘둘러\"…장모 살해 김성우 구속기소 外",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/MYH20261106018400038"
+},
+{
+"title": "'장모 살해·아내 납치' 김성우 구속 기소...스토킹 끝에 범행",
+"source": "YTN",
+"link": "https://www.ytn.co.kr/_ln/0103_202611062253499852"
+}
+],
+"new": true
+},
+{
+"term": "nepal premier league",
+"traffic": "100+",
+"time": "2026-11-07T14:50:00+00:00",
+"news": [
+{
+"title": "Live Cricket Score, Schedule, Latest News, Stats & Videos",
+"source": "Cricbuzz",
+"link": "https://www.cricbuzz.com/player-match-performance/match/177730/player/1739/batting"
+},
+{
+"title": "Kathmandu Ghorkaj Defeats Lumbini Lions by 36 Runs in Nepal Premier League",
+"source": "Ratopati",
+"link": "https://english.ratopati.com/story/86002/undefeated-lumbinis-journey-halted-kathmandu-wins-by-36-runs"
+}
+],
+"new": true
+},
+{
 "term": "버밍엄 대 스완지 시티",
 "traffic": "500+",
 "time": "2026-11-07T14:30:00+00:00",
@@ -3190,42 +3226,6 @@
 }
 ],
 "new": false
-},
-{
-"term": "페드로 포로",
-"traffic": "500+",
-"time": "2026-11-07T13:20:00+00:00",
-"news": [
-{
-"title": "버튼 12개뿐…삼성 사장단에 ‘생뚱 키보드’ 선물한 샘 올트먼",
-"source": "미주중앙일보",
-"link": "https://www.koreadaily.com/article/20261106130058361"
-},
-{
-"title": "닥터X 손현주의 수술실 선택 장면 검색 급증",
-"source": "시사매거진",
-"link": "https://www.sisamagazine.co.kr/hot/0e4ffbe1-252c-4926-aea3-9a1c1052d292"
-}
-],
-"new": false
-},
-{
-"term": "ลีดส์ พบ สเปอร์ส",
-"traffic": "100+",
-"time": "2026-11-07T13:20:00+00:00",
-"news": [
-{
-"title": "การคาดการณ์ผลการแข่งขันระหว่างลีดส์กับท็อตแนม: จุดสนใจสำคัญในการลุ้นแย่งตำแหน่งสูงสุด",
-"source": "Vietnam.vn",
-"link": "https://www.vietnam.vn/th/nhan-dinh-leeds-vs-tottenham-diem-nong-cuoc-dua-top-dau"
-},
-{
-"title": "สำรองแผลงฤทธิ์ ! ลีดส์ เปิดบ้านเฉือน สเปอร์ส 1-0 หยุดสถิติ สเปอร์ส ชนะรวดใน พรีเมียร์ ลีก 2026/27",
-"source": "Mainstand",
-"link": "https://mainstand.co.th/index.php/th/news/1/article/27491"
-}
-],
-"new": true
 }
 ],
 "trendSeen": [
