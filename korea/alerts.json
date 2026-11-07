@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-07T07:40:50.355074+00:00",
+"updated": "2026-11-07T07:43:04.439040+00:00",
 "errors": [],
 "events": [
 {
@@ -3205,13 +3205,13 @@
 "spike": false
 },
 "폭발": {
-"n30": 7,
+"n30": 5,
 "base": 0.1,
 "spike": true
 },
 "붕괴": {
 "n30": 4,
-"base": 0.4,
+"base": 0.6,
 "spike": false
 },
 "대피": {
@@ -3225,7 +3225,7 @@
 "spike": false
 },
 "속보": {
-"n30": 4,
+"n30": 3,
 "base": 0.1,
 "spike": false
 },
@@ -3235,8 +3235,8 @@
 "spike": false
 },
 "사고": {
-"n30": 4,
-"base": 4.9,
+"n30": 3,
+"base": 4.8,
 "spike": false
 },
 "실종": {
@@ -3443,16 +3443,6 @@
 "url": "https://www.youtube.com/watch?v=zuhEF3S9-iA"
 },
 {
-"text": "좋아. 그럼 오늘부터 사고 디톡스 요법이다.\n지루하면 몸부터 움직일 수 있도록 기초 체력 키우는 데에도 좀 더 열심일 수 있게 해, 나 자신.",
-"handle": "1pyengjeong.bsky.social",
-"name": "원평정",
-"time": "2026-11-07T07:12:57.672Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/1pyengjeong.bsky.social/post/3mzpduo6jzs2d",
-"term": "사고"
-},
-{
 "platform": "YouTube",
 "text": "\"커피 언제 나와!\" 독촉에 폭발 손님 향해 '커피 가루' 확…충격 / KNN",
 "handle": "UC1ifSsWUG241rRfK0ezYCgA",
@@ -3537,10 +3527,10 @@
 "spikes": [
 {
 "term": "폭발",
-"n30": 7,
+"n30": 5,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-07T07:40:50.355074+00:00"
+"since": "2026-11-07T07:43:04.439040+00:00"
 }
 ],
 "baseline": {
@@ -3549,13 +3539,13 @@
 "불났": 0.05,
 "정전": 0.05,
 "폭발": 0.05,
-"붕괴": 0.58,
+"붕괴": 0.72,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.08,
+"속보": 0.07,
 "지하철": 0.05,
-"사고": 4.79,
-"실종": 0.14,
+"사고": 4.61,
+"실종": 0.13,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -3775,6 +3765,24 @@
 },
 "trends": [
 {
+"term": "최일언",
+"traffic": "500+",
+"time": "2026-11-07T06:40:00+00:00",
+"news": [
+{
+"title": "[포토] 이재희 '언터쳐블 씽씽투' - 머니투데이",
+"source": "머니투데이",
+"link": "https://www.mt.co.kr/sports/2026/11/07/2026110716242082748"
+},
+{
+"title": "[사진]5회 선두타자 안타 뽑아내는 KT 한승택",
+"source": "Chosunbiz",
+"link": "https://biz.chosun.com/sports/sports_photo/2026/11/07/G5SGMMZWGZSDEMLDMZSGMYRXGA/"
+}
+],
+"new": true
+},
+{
 "term": "미야지",
 "traffic": "100+",
 "time": "2026-11-07T06:30:00+00:00",
@@ -3839,9 +3847,9 @@
 "link": "https://www.mt.co.kr/sports/2026/11/06/2026110620061228498"
 },
 {
-"title": "수비 출전 부담됐나…KT 안현민, 타석 침묵에 수비도 아쉬웠다[KS3]",
-"source": "뉴스1",
-"link": "https://www.news1.kr/sports/baseball/6346224"
+"title": "펜스랑 마가 끼었나? MVP급 핵심타자 2명 잇따라 충돌 → 통증 호소, 11월 강추위에 피토하는 KT [KS3 현장]",
+"source": "조선일보",
+"link": "https://www.chosun.com/sports/baseball/2026/11/06/MJTGGNZSGY3GEMRUMUYTCMRRMM/"
 }
 ],
 "new": false
@@ -3913,28 +3921,9 @@
 }
 ],
 "new": true
-},
-{
-"term": "허미미",
-"traffic": "200+",
-"time": "2026-11-07T04:50:00+00:00",
-"news": [
-{
-"title": "한국시리즈 시구한 유도 간판 허미미 \"세계랭킹 회복에 전념\"",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261107034700007"
-},
-{
-"title": "[사진]만루 위기 등판 이재희",
-"source": "조선일보",
-"link": "https://www.chosun.com/sports/sports_photo/2026/11/07/MMZTQZJQMJSWCZDDG5SWMOBWGY/"
-}
-],
-"new": false
 }
 ],
 "trendSeen": [
-"김태규",
 "김현수",
 "김혜수",
 "나나",
@@ -4171,6 +4160,7 @@
 "최우식",
 "최원태",
 "최인호",
+"최일언",
 "최종면접",
 "추성훈",
 "축제",
