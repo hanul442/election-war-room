@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-07T03:49:58.891015+00:00",
+"updated": "2026-11-07T03:52:14.203917+00:00",
 "errors": [],
 "events": [
 {
@@ -798,7 +798,7 @@
 "id": "fLXlsNGhHZkl6TmJXZXJqoc50256",
 "first": "2026-11-07T02:56:13+00:00",
 "last": "2026-11-07T02:56:13+00:00",
-"updated": "2026-11-07T03:07:18.164327+00:00",
+"updated": "2026-11-07T03:52:14.203917+00:00",
 "headline": "민주 “국가유산의 가장 큰 적은 국가유산청이 아니라 오세훈 시장”",
 "cat": "기타",
 "regions": [
@@ -814,6 +814,13 @@
 "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFByV1lkbUI2ZDU1Y2JTQzQtUFgwaW4tZ21uQ2xrVnFxTXFvN1NJVnZaX2ZwRmFCOXVBQkdaYUlsY0VzOWJEejNEWVVJTjN6UXN2R2V2bzk3bllLX2FSYUZUM3dkYjFjdXByTWtF0gFUQVVfeXFMT2NpMWw2TFJFZnFjVFVETnFjU3pXNXlmU3QxUXhocWlxUlpzNlltcW5jS05tNWpCQ2t0dHhIWUFwYm5neVNfLXlsNGhHZkl6TmJXZXJq?oc=5",
 "time": "2026-11-07T02:56:13+00:00",
 "stage": "얼럿"
+},
+{
+"title": "[속보] 민주 “국가유산의 가장 큰 적은 국가유산청이 아니라 오세훈 시장”",
+"source": "세계일보",
+"link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBfSHhrdzZ6cnNZclhNMWNHVHV5bXdCMEZwdEhlSW9HYk03SnRDVHdjelQ4Y3ZHVVhfbU8zeS13c25pQUU5MHEtY25sY3ZtQzhtbHdwaVVBd2MtWGgyNzkydFcxSlRud2NmYnFtQ0tpWEdwQdIBVEFVX3lxTE9jaTFsNkxSRWZxY1RVRE5xY1N6VzV5ZlN0MVF4aHFpcVJaczZZbXFuY0tObTVqQkNrdHR4SFlBcGJuZ3lTXy15bDRoR2ZJek5iV2Vyag?oc=5",
+"time": "2026-11-07T02:56:13+00:00",
+"stage": "속보"
 }
 ],
 "level": "URGENT",
@@ -2599,13 +2606,13 @@
 "terms": {
 "지진": {
 "n30": 1,
-"base": 0.3,
+"base": 0.2,
 "spike": false
 },
 "화재": {
-"n30": 5,
+"n30": 4,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "불났": {
 "n30": 0,
@@ -2623,7 +2630,7 @@
 "spike": false
 },
 "붕괴": {
-"n30": 2,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
@@ -2643,13 +2650,13 @@
 "spike": false
 },
 "지하철": {
-"n30": 1,
-"base": 0.5,
+"n30": 2,
+"base": 0.4,
 "spike": false
 },
 "사고": {
 "n30": 1,
-"base": 2.8,
+"base": 2.6,
 "spike": false
 },
 "실종": {
@@ -2679,6 +2686,16 @@
 }
 },
 "posts": [
+{
+"text": "에 또 이름은 문슬이고요 탈영병입니다(ㅈㄴ \n그냥 전형적인 시오카라부시 듣고 뛰쳐나온 옥토링1인데 이제 하이카라가 아니고 방카라로 가버려서ㅋ 지하철 내리자마자 소매치기 당해서 소매치기범 한 방에 보내버릴 뻔했다가(;) 지금 같이 사는 의형제가 도와주고 그대로 정착햇습죠 \n대충 스샷 자랑하기 파란색은 둘만의 팀 컬러예요",
+"handle": "eewtheotaku.bsky.social",
+"name": "💎☮️🎩지렁이🏳️‍🌈💛💎",
+"time": "2026-11-07T03:50:38.832Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/eewtheotaku.bsky.social/post/3mzoykt4wrc2m",
+"term": "지하철"
+},
 {
 "platform": "YouTube",
 "text": "실업 77연승 삼성화재의 오른쪽 날개, '월드스타' 김세진 #승부의얼굴 #선수소개 #한국스포츠 #스포츠스타 #쇼츠",
@@ -2916,27 +2933,19 @@
 "url": "https://www.youtube.com/watch?v=MzeCYTmqxRM"
 }
 ],
-"spikes": [
-{
-"term": "화재",
-"n30": 5,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-07T03:49:58.891015+00:00"
-}
-],
+"spikes": [],
 "baseline": {
-"지진": 0.23,
+"지진": 0.21,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
 "폭발": 0.05,
 "붕괴": 0.05,
 "대피": 0.05,
-"미사일": 1.23,
+"미사일": 1.21,
 "속보": 0.05,
-"지하철": 0.41,
-"사고": 2.64,
+"지하철": 0.47,
+"사고": 2.48,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -3250,7 +3259,7 @@
 {
 "title": "미래에셋증권, 해킹으로 3만 9천여 명 정보 유출",
 "source": "SBS 뉴스",
-"link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008835139&plink=PLAY&cooper=ATOM&autoplay=Y"
+"link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008835139&plink=TOPHEAD&cooper=SBSNEWSMAIN"
 }
 ],
 "new": false
