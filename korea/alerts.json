@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-07T10:28:00.957131+00:00",
+"updated": "2026-11-07T10:30:14.190850+00:00",
 "errors": [],
 "events": [
 {
@@ -145,6 +145,40 @@
 "출석하",
 "취재진",
 "침묵"
+]
+},
+{
+"id": "TeW44YUwtUmlvMmFyU29noc51015",
+"first": "2026-11-07T10:15:11+00:00",
+"last": "2026-11-07T10:15:11+00:00",
+"updated": "2026-11-07T10:30:14.190850+00:00",
+"headline": "호르무즈 동쪽서 유조선 화재…이란 해군 '규정 위반' 주장",
+"cat": "재난",
+"regions": [],
+"sources": [
+"토큰포스트"
+],
+"updates": [
+{
+"title": "호르무즈 동쪽서 유조선 화재…이란 해군 '규정 위반' 주장",
+"source": "토큰포스트",
+"link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5MeEhpZVUzZ0tlSlJEVHpTcTdSTF9EMXhLTXZJbHZuanJLdHh5aGpLMGdvbGhycHdSdU1yejdRTkJTWU5Gb0l6WDRQbTlWbklBeFBMc3Fpek7SAV5BVV95cUxPWWpjM2NZdU53RU1tSHY0UGtkcXNxY09keGJpTEJDVkwzRktsdzhaLURvRS1NSXZwTEpWRUZnQXVGY1huejdHRjYzNUZFTk9TeW44YUwtUmlvMmFyU29n?oc=5",
+"time": "2026-11-07T10:15:11+00:00",
+"stage": "1보"
+}
+],
+"level": "ALERT",
+"latest": "호르무즈 동쪽서 유조선 화재…이란 해군 '규정 위반' 주장",
+"tok": [
+"규정",
+"동쪽서",
+"위반",
+"유조선",
+"이란",
+"주장",
+"해군",
+"호르무즈",
+"화재"
 ]
 },
 {
@@ -3913,7 +3947,7 @@
 "sns": {
 "terms": {
 "지진": {
-"n30": 3,
+"n30": 2,
 "base": 0.1,
 "spike": false
 },
@@ -3928,14 +3962,14 @@
 "spike": false
 },
 "정전": {
-"n30": 3,
+"n30": 2,
 "base": 0.1,
 "spike": false
 },
 "폭발": {
-"n30": 5,
+"n30": 2,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "붕괴": {
 "n30": 1,
@@ -3953,23 +3987,23 @@
 "spike": false
 },
 "속보": {
-"n30": 5,
+"n30": 3,
 "base": 0.7,
-"spike": true
+"spike": false
 },
 "지하철": {
-"n30": 3,
+"n30": 2,
 "base": 0.1,
 "spike": false
 },
 "사고": {
-"n30": 1,
-"base": 1.8,
+"n30": 2,
+"base": 1.7,
 "spike": false
 },
 "실종": {
 "n30": 1,
-"base": 0.3,
+"base": 0.4,
 "spike": false
 },
 "단수": {
@@ -3994,6 +4028,16 @@
 }
 },
 "posts": [
+{
+"text": "MadaTobi Week Day 7. Law & Order(Organized Crime, Hokage). 역활 반전, 세대 반전 AU. 카카시 위치의 암부로 활동하는 마다라와 오비토처럼 어떤 사고 후 탈주 닌자가 된 토비라마 컨셉.\n\n#나루토 #마다토비 #센쥬토비라마 #우치하마다라 #naruto #madatobi #tobiramasenju #uchihamadara #fanart",
+"handle": "haigidal.bsky.social",
+"name": "하이지달(Haigidal)",
+"time": "2026-11-07T10:28:54.671Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/haigidal.bsky.social/post/3mzposz62uc2g",
+"term": "사고"
+},
 {
 "text": "#광고\n오늘의 뉴스\n발리에서 실종됨 한국인 여성.jpg\n기사 보기: https://dailyissue.net/S2E40X",
 "handle": "todaypicknews.bsky.social",
@@ -4250,22 +4294,7 @@
 "url": "https://www.youtube.com/watch?v=weF0Si85tY8"
 }
 ],
-"spikes": [
-{
-"term": "폭발",
-"n30": 5,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-07T10:28:00.957131+00:00"
-},
-{
-"term": "속보",
-"n30": 5,
-"base": 0.7,
-"spike": true,
-"since": "2026-11-07T10:28:00.957131+00:00"
-}
-],
+"spikes": [],
 "baseline": {
 "지진": 0.05,
 "화재": 0.05,
@@ -4275,10 +4304,10 @@
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.71,
-"지하철": 0.07,
-"사고": 1.73,
-"실종": 0.39,
+"속보": 0.74,
+"지하철": 0.06,
+"사고": 1.76,
+"실종": 0.45,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
