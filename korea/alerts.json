@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-07T01:55:17.783863+00:00",
+"updated": "2026-11-07T01:57:32.708219+00:00",
 "errors": [],
 "events": [
 {
@@ -2487,7 +2487,7 @@
 "sns": {
 "terms": {
 "지진": {
-"n30": 0,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
@@ -2508,12 +2508,12 @@
 },
 "폭발": {
 "n30": 6,
-"base": 0.4,
+"base": 0.5,
 "spike": true
 },
 "붕괴": {
 "n30": 4,
-"base": 0.8,
+"base": 0.7,
 "spike": false
 },
 "대피": {
@@ -2527,7 +2527,7 @@
 "spike": false
 },
 "속보": {
-"n30": 6,
+"n30": 5,
 "base": 0.1,
 "spike": true
 },
@@ -2537,8 +2537,8 @@
 "spike": false
 },
 "사고": {
-"n30": 2,
-"base": 1.7,
+"n30": 1,
+"base": 1.8,
 "spike": false
 },
 "실종": {
@@ -2569,11 +2569,21 @@
 },
 "posts": [
 {
+"text": "원자력발전소있는데 지진 괜찮은건지 아주불안함",
+"handle": "karm9police.bsky.social",
+"name": "록",
+"time": "2026-11-07T01:55:05.786Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/karm9police.bsky.social/post/3mzos4azsjs2v",
+"term": "지진"
+},
+{
 "text": "락스타는 사고로 일찍 요절하거나 개오래살거나 둘 중 하나인 것 같음",
 "handle": "hoxymoxy.bsky.social",
 "name": "게뀰빡",
 "time": "2026-11-07T01:51:59.873Z",
-"likes": 1,
+"likes": 2,
 "reposts": 0,
 "url": "https://bsky.app/profile/hoxymoxy.bsky.social/post/3mzorwr7tbs2d",
 "term": "사고"
@@ -2724,16 +2734,6 @@
 "url": "https://www.youtube.com/watch?v=a0Zdbs3ljPg"
 },
 {
-"text": "차라리 내 언어와 저 언어가 어떻게 다른가를 알아보자고 뛰어들 때는 괜찮다. 그건 흥미로운 일이고 즐겁고 유쾌함. 하지만 그 외의 모든 순간들이 알게모르게 계속 짓눌러 온다. 언어는 사고와 문화에도 영향을 끼치기 때문에, 결국 언어를 사용하지 않을 때도 삶의 매 순간 번역을 하는 것에 힘을 쓰고 있는 것과 같다. 지금 이 포스트를 쓰면서도 비유를 해야만 하는 것처럼...",
-"handle": "baesicle.bsky.social",
-"name": "배시클",
-"time": "2026-11-07T01:27:01.677Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/baesicle.bsky.social/post/3mzoqk4amrk2j",
-"term": "사고"
-},
-{
 "platform": "YouTube",
 "text": "[속보] 국민의힘, 청와대 코 앞 '李 재판취소 악법 강행처리 규탄대회' [뉴스플레이리스트] / 채널A",
 "handle": "UCfq4V1DAuaojnr2ryvWNysw",
@@ -2801,31 +2801,31 @@
 {
 "term": "폭발",
 "n30": 6,
-"base": 0.4,
+"base": 0.5,
 "spike": true,
-"since": "2026-11-07T01:55:17.783863+00:00"
+"since": "2026-11-07T01:57:32.708219+00:00"
 },
 {
 "term": "속보",
-"n30": 6,
+"n30": 5,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-07T01:55:17.783863+00:00"
+"since": "2026-11-07T01:57:32.708219+00:00"
 }
 ],
 "baseline": {
-"지진": 0.06,
+"지진": 0.15,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.45,
-"붕괴": 0.69,
+"폭발": 0.51,
+"붕괴": 0.62,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.19,
-"사고": 1.76,
-"실종": 0.16,
+"지하철": 0.17,
+"사고": 1.68,
+"실종": 0.14,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
