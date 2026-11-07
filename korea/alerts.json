@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-07T11:21:43.609273+00:00",
+"updated": "2026-11-07T11:23:55.533386+00:00",
 "errors": [],
 "events": [
 {
@@ -3814,7 +3814,7 @@
 "terms": {
 "지진": {
 "n30": 3,
-"base": 0.4,
+"base": 0.5,
 "spike": false
 },
 "화재": {
@@ -3859,12 +3859,12 @@
 },
 "지하철": {
 "n30": 4,
-"base": 0.1,
+"base": 0.2,
 "spike": false
 },
 "사고": {
 "n30": 4,
-"base": 2.6,
+"base": 2.7,
 "spike": false
 },
 "실종": {
@@ -4178,22 +4178,22 @@
 "n30": 7,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-07T11:21:43.609273+00:00"
+"since": "2026-11-07T11:23:55.533386+00:00"
 }
 ],
 "baseline": {
-"지진": 0.45,
+"지진": 0.51,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
 "폭발": 0.05,
-"붕괴": 0.64,
+"붕괴": 0.68,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.1,
-"지하철": 0.24,
-"사고": 2.72,
-"실종": 0.16,
+"속보": 0.09,
+"지하철": 0.32,
+"사고": 2.85,
+"실종": 0.14,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -4413,6 +4413,42 @@
 },
 "trends": [
 {
+"term": "장희숙",
+"traffic": "200+",
+"time": "2026-11-07T10:20:00+00:00",
+"news": [
+{
+"title": "‘닥터X’ 김영민, 참 멋없는데… 누구보다 멋진 ‘진짜 의사’였다",
+"source": "스포츠경향",
+"link": "https://sports.khan.co.kr/article/202611070054003"
+},
+{
+"title": "닥터X : 하얀 마피아의 시대 : [10회 예고] “어른이 되게 해 줄 겁니다” 김지원, 끝까지 강행한 수술로 계약 해지 위기",
+"source": "programs.sbs.co.kr",
+"link": "https://programs.sbs.co.kr/drama/doctorx/clip/88586/OC482971815"
+}
+],
+"new": true
+},
+{
+"term": "이재성",
+"traffic": "100+",
+"time": "2026-11-07T10:20:00+00:00",
+"news": [
+{
+"title": "‘멀티골로 뮌헨 울렸고, 직전엔 헤더골까지!’…이재성, 23경기 무패 뮌헨과 재회→김민재와 코리안 더비 성사될까",
+"source": "포포투",
+"link": "https://www.fourfourtwo.co.kr/news/articleView.html?idxno=100397"
+},
+{
+"title": "FSV 마인츠 05 vs 바이에른 뮌헨 프리뷰: 선두 경쟁의 뜨거운 승부",
+"source": "Vietnam.vn",
+"link": "https://www.vietnam.vn/ko/nhan-dinh-fsv-mainz-05-vs-bayern-munchen-diem-nong-cuoc-dua-top-dau"
+}
+],
+"new": true
+},
+{
 "term": "권인하",
 "traffic": "200+",
 "time": "2026-11-07T10:10:00+00:00",
@@ -4533,47 +4569,9 @@
 }
 ],
 "new": false
-},
-{
-"term": "전유성",
-"traffic": "1000+",
-"time": "2026-11-07T09:10:00+00:00",
-"news": [
-{
-"title": "남들이 보지 못한 가능성을 본 사람.. 이은결, 전유성을 추모하며 선보이는 무대 | KBS 261107 방송",
-"source": "대한민국 대표 공영미디어 KBS",
-"link": "https://www.kbs.co.kr/index.html?source=smr&sname=vod&stype=vod&contents_id=K02_PS-2026188856-01-000_MFSC11&program_code=T2011-0781&program_id=PS-2026188856-01-000&section_code=04&broadcast_complete_yn=N&section_id=11099"
-},
-{
-"title": "'불후' 이찬원, 김신영과 '행님아'로 정통 개그 도전 - 머니투데이",
-"source": "머니투데이",
-"link": "https://www.mt.co.kr/entertainment/2026/11/07/2026110717007262146"
-}
-],
-"new": false
-},
-{
-"term": "kgma 2026",
-"traffic": "200+",
-"time": "2026-11-07T09:00:00+00:00",
-"news": [
-{
-"title": "Korean Grand Music Awards 2026 Winners: Full List",
-"source": "InMusic Blog",
-"link": "https://inmusicblog.com/k-pop/kgma-2026-winners-full-list/"
-},
-{
-"title": "Stars Shine On Red Carpet At 2026 Korea Grand Music Awards (KGMA) Day 1",
-"source": "Soompi",
-"link": "https://www.soompi.com/article/1884817wpp/stars-shine-on-red-carpet-at-2026-korea-grand-music-awards-kgma-day-1"
-}
-],
-"new": true
 }
 ],
 "trendSeen": [
-"달러 환율",
-"대치동 은마아파트",
 "대치동은마아파트",
 "대학수학능력시험",
 "대한민국 농림축산식품부 장관",
@@ -4750,6 +4748,7 @@
 "이승엽",
 "이승우",
 "이용철",
+"이재성",
 "이재희",
 "이주승",
 "이현중",
@@ -4771,6 +4770,7 @@
 "장윤정",
 "장진혁",
 "장찬희",
+"장희숙",
 "저격수",
 "적금",
 "전국금속노동조합",
