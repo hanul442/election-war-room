@@ -1,12 +1,12 @@
 {
-"updated": "2026-11-07T15:30:48.333424+00:00",
+"updated": "2026-11-07T15:33:01.219727+00:00",
 "errors": [],
 "events": [
 {
 "id": "viewAKR202611080004000981512",
 "first": "2026-11-07T15:12:32+00:00",
-"last": "2026-11-07T15:12:32+00:00",
-"updated": "2026-11-07T15:19:36.562708+00:00",
+"last": "2026-11-07T15:29:14+00:00",
+"updated": "2026-11-07T15:33:01.219727+00:00",
 "headline": "폴란드 크라쿠프 도심서 총기 난사…\"2명 사망·10명 부상\"",
 "cat": "사회",
 "regions": [],
@@ -20,17 +20,26 @@
 "link": "https://www.yna.co.kr/view/AKR20261108000400098",
 "time": "2026-11-07T15:12:32+00:00",
 "stage": "얼럿"
+},
+{
+"title": "폴란드 크라쿠프 도심서 총기 난사…\"5명 사망·10명 이상 부상\"",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261108001000098",
+"time": "2026-11-07T15:29:14+00:00",
+"stage": "후속"
 }
 ],
 "level": "BULLETIN",
-"latest": "폴란드 크라쿠프 도심서 총기 난사…\"2명 사망·10명 부상\"",
+"latest": "폴란드 크라쿠프 도심서 총기 난사…\"5명 사망·10명 이상 부상\"",
 "tok": [
 "10명",
 "2명",
+"5명",
 "난사",
 "도심서",
 "부상",
 "사망",
+"이상",
 "총기",
 "크라쿠프",
 "폴란드"
@@ -2502,7 +2511,7 @@
 },
 "폭발": {
 "n30": 10,
-"base": 0.7,
+"base": 0.8,
 "spike": true
 },
 "붕괴": {
@@ -2521,13 +2530,13 @@
 "spike": false
 },
 "속보": {
-"n30": 3,
+"n30": 2,
 "base": 0.1,
 "spike": false
 },
 "지하철": {
 "n30": 2,
-"base": 0.7,
+"base": 0.8,
 "spike": false
 },
 "사고": {
@@ -2833,9 +2842,9 @@
 {
 "term": "폭발",
 "n30": 10,
-"base": 0.7,
+"base": 0.8,
 "spike": true,
-"since": "2026-11-07T15:30:48.333424+00:00"
+"since": "2026-11-07T15:33:01.219727+00:00"
 }
 ],
 "baseline": {
@@ -2843,15 +2852,15 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.77,
+"폭발": 0.79,
 "붕괴": 0.05,
 "대피": 0.05,
-"미사일": 0.89,
+"미사일": 0.9,
 "속보": 0.05,
-"지하철": 0.77,
-"사고": 2.58,
+"지하철": 0.79,
+"사고": 2.52,
 "실종": 0.05,
-"단수": 0.14,
+"단수": 0.13,
 "통신 장애": 0.05,
 "먹통": 0.05,
 "산불": 0.05
@@ -3079,6 +3088,24 @@
 },
 "trends": [
 {
+"term": "버밍엄 대 스완지 시티",
+"traffic": "200+",
+"time": "2026-11-07T14:30:00+00:00",
+"news": [
+{
+"title": "Birmingham City v Swansea City: Championship stats & head-to-head",
+"source": "BBC",
+"link": "https://www.bbc.com/sport/football/live/cvlyd97z1k92t"
+},
+{
+"title": "Preview: Birmingham City v Swansea City",
+"source": "Birmingham City Football Club",
+"link": "https://www.bcfc.com/pages/en/media-article/preview-birmingham-city-v-swansea-city"
+}
+],
+"new": true
+},
+{
 "term": "arsenal vs hull",
 "traffic": "200+",
 "time": "2026-11-07T14:20:00+00:00",
@@ -3239,28 +3266,9 @@
 }
 ],
 "new": true
-},
-{
-"term": "hiv",
-"traffic": "200+",
-"time": "2026-11-07T13:00:00+00:00",
-"news": [
-{
-"title": "Real-World Data Show Lenacapavir PrEP Reaching New Users",
-"source": "Contagion Live",
-"link": "https://www.contagionlive.com/view/real-world-data-show-lenacapavir-prep-reaching-new-users"
-},
-{
-"title": "Gilead's PURPOSE 5: 85.6% of lenacapavir users stay on PrEP at one year vs 46.3% on daily pills",
-"source": "Quantisnow",
-"link": "https://www.quantisnow.com/articles/gilead-purpose-5-lenacapavir-persistence-85-6-percent-vs-46-3-percent-daily-oral-prep"
-}
-],
-"new": true
 }
 ],
 "trendSeen": [
-"돔 경기장",
 "동티모르",
 "동행",
 "두 번째 시그널",
@@ -3317,6 +3325,7 @@
 "배찬승",
 "배트맨",
 "백종원",
+"버밍엄 대 스완지 시티",
 "병사",
 "보디빌더",
 "보험",
