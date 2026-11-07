@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-07T00:52:13.190390+00:00",
+"updated": "2026-11-07T00:54:29.416425+00:00",
 "errors": [],
 "events": [
 {
@@ -416,7 +416,7 @@
 "id": "43NHU0OE5QSHdxb3pYX2coc50543",
 "first": "2026-11-06T05:43:00+00:00",
 "last": "2026-11-07T00:27:41+00:00",
-"updated": "2026-11-07T00:40:58.983280+00:00",
+"updated": "2026-11-07T00:54:29.416425+00:00",
 "headline": "[날씨] 낮에도 쌀쌀…주말 절기 입동, 곳곳 한파주의보",
 "cat": "재난",
 "regions": [
@@ -427,6 +427,7 @@
 "충북"
 ],
 "sources": [
+"KBC광주방송",
 "KBS 뉴스",
 "SBS",
 "경향신문",
@@ -528,6 +529,13 @@
 "stage": "후속"
 },
 {
+"title": "입동에 찾아온 영하권 강추위…수도권 올가을 첫얼음",
+"source": "KBC광주방송",
+"link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9TUHFuNEZCOThMcmZUSTk2WFVwTGxYRV96aTV1VEpYNElrMzdOc01IWjFnYmQwMXRYcFN6LU1VazNBRnh5Ni1hczBvbWpYdWI2ZEVnUm9TTVBlejJKRl8tVGVPSmRpZnNhX0xPczFhc190STNIa3duVDZoOA?oc=5",
+"time": "2026-11-07T00:11:41+00:00",
+"stage": "후속"
+},
+{
 "title": "‘입동’ 아침에 영하권 추위... 서울 첫얼음 관측",
 "source": "조선일보",
 "link": "https://www.chosun.com/national/national_general/2026/11/07/WZUGWHVYVBBCHBC4R34KP2QL64/",
@@ -540,6 +548,7 @@
 "tok": [
 "1도",
 "4도",
+"강추위",
 "곳곳",
 "관측",
 "기온",
@@ -550,6 +559,7 @@
 "머물러",
 "발효",
 "서울",
+"수도권",
 "쌀쌀",
 "쌩쌩",
 "아침",
@@ -567,6 +577,7 @@
 "주말",
 "중심",
 "찬바람",
+"찾아온",
 "철원",
 "첫얼음",
 "추위",
@@ -2431,7 +2442,7 @@
 },
 "미사일": {
 "n30": 0,
-"base": 0.5,
+"base": 0.4,
 "spike": false
 },
 "속보": {
@@ -2445,12 +2456,12 @@
 "spike": false
 },
 "사고": {
-"n30": 0,
+"n30": 1,
 "base": 0.2,
 "spike": false
 },
 "실종": {
-"n30": 0,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
@@ -2476,6 +2487,26 @@
 }
 },
 "posts": [
+{
+"text": "털 ㅂㅈ 와이프.\n어제도 하의 실종으로 꿈나라로 간 통통한 와이프.\n이번에도 다른 누군가가 와이프 \nㅂㅈ구경하고 가라고 사람들 있는곳 \n주차 시켜놓고 저는 근처 어슬렁^^어제는 사람들이\n눈치를 못챘는지 아무도 본사람이 없음. 아쉽네ㅜㅜ",
+"handle": "chubbywife1004.bsky.social",
+"name": "통통한 와이프",
+"time": "2026-11-07T00:53:12.281Z",
+"likes": 1,
+"reposts": 0,
+"url": "https://bsky.app/profile/chubbywife1004.bsky.social/post/3mzoonip43s2p",
+"term": "실종"
+},
+{
+"text": "웅! 아니 사고 차량들때문에 차 막혀서 이제 다 와가요-",
+"handle": "deartsuki1.bsky.social",
+"name": "쿠로오 테츠로",
+"time": "2026-11-07T00:52:09.276Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/deartsuki1.bsky.social/post/3mzoolqmkcs2t",
+"term": "사고"
+},
 {
 "platform": "YouTube",
 "text": "#쇼츠추천 #재밌는영상 #바이럴 #웃음폭발",
@@ -2748,29 +2779,29 @@
 "n30": 5,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-07T00:52:13.190390+00:00"
+"since": "2026-11-07T00:54:29.416425+00:00"
 },
 {
 "term": "속보",
 "n30": 7,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-07T00:52:13.190390+00:00"
+"since": "2026-11-07T00:54:29.416425+00:00"
 }
 ],
 "baseline": {
-"지진": 0.64,
+"지진": 0.68,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
 "폭발": 0.05,
 "붕괴": 0.05,
 "대피": 0.05,
-"미사일": 0.41,
+"미사일": 0.37,
 "속보": 0.05,
-"지하철": 2.63,
-"사고": 0.18,
-"실종": 0.05,
+"지하철": 2.67,
+"사고": 0.26,
+"실종": 0.15,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -3008,6 +3039,24 @@
 },
 "trends": [
 {
+"term": "매일경제신문",
+"traffic": "20000+",
+"time": "2026-11-06T23:50:00+00:00",
+"news": [
+{
+"title": "개장 3분만에 서킷브레이커… 이틀간 삼전 13%-하이닉스 17% 빠져",
+"source": "동아일보",
+"link": "https://www.donga.com/news/Economy/article/all/20261107/134982636/2"
+},
+{
+"title": "블루웨이브에 파랗게 질린 AI주…신재생에너지는 날았다[김근희의 증시랩업] - 머니투데이",
+"source": "머니투데이",
+"link": "https://www.mt.co.kr/stock/2026/11/07/2026110616282621049"
+}
+],
+"new": true
+},
+{
 "term": "국민연금",
 "traffic": "2000+",
 "time": "2026-11-06T23:40:00+00:00",
@@ -3105,6 +3154,24 @@
 "new": false
 },
 {
+"term": "대치동은마아파트",
+"traffic": "500+",
+"time": "2026-11-06T22:50:00+00:00",
+"news": [
+{
+"title": "‘폭락’한다는 강남 아파트, 왜 체감되지 않을까[부동산 취재로그]",
+"source": "이데일리",
+"link": "https://www.edaily.co.kr/News/Read?newsId=01892566645643424&mediaCodeNo=257"
+},
+{
+"title": "\"그때 팔 걸\" 매물만 쌓인다…20억 넘게 빠진 압구정 집주인들 '속앓이' - 머니투데이",
+"source": "머니투데이",
+"link": "https://www.mt.co.kr/estate/2026/11/07/2026110612530467580"
+}
+],
+"new": true
+},
+{
 "term": "테슬라 사이버트럭",
 "traffic": "1000+",
 "time": "2026-11-06T22:40:00+00:00",
@@ -3115,16 +3182,16 @@
 "link": "https://www.yna.co.kr/view/AKR20261107003800075"
 },
 {
-"title": "테슬라, Cybertruck 생산 축소…머스크는 로보택시에 집중",
-"source": "Investing.com 한국어",
-"link": "https://kr.investing.com/news/stock-market-news/article-2164179"
+"title": "사이버트럭 결국 단종 수순…연 25만대 꿈꿨는데 고작 2만대",
+"source": "경기일보",
+"link": "https://www.kyeonggi.com/article/20261107580001"
 }
 ],
 "new": false
 },
 {
 "term": "의약품",
-"traffic": "200+",
+"traffic": "500+",
 "time": "2026-11-06T22:40:00+00:00",
 "news": [
 {
@@ -3139,47 +3206,9 @@
 }
 ],
 "new": false
-},
-{
-"term": "노동자",
-"traffic": "200+",
-"time": "2026-11-06T22:40:00+00:00",
-"news": [
-{
-"title": "제주 노동존중사회 의원연구포럼, 공무직 노동자 근무환경 개선 방안 모색 간담회",
-"source": "헤드라인제주",
-"link": "https://www.headlinejeju.co.kr/news/articleView.html?idxno=601745"
-},
-{
-"title": "양경호 제주도의원, ‘제주 노동존중사회 의원연구포럼 간담회’ 참석…노동 현장 목소리 청취",
-"source": "뉴스N제주",
-"link": "https://newsnjeju.com/news/articleView.html?idxno=303858"
-}
-],
-"new": false
-},
-{
-"term": "기초 연구",
-"traffic": "200+",
-"time": "2026-11-06T22:30:00+00:00",
-"news": [
-{
-"title": "내년 '기초연구' 2조 9102억 투자…지역·청년 연구 지원 확대",
-"source": "대한민국 정책브리핑",
-"link": "https://www.korea.kr/news/policyNewsView.do?newsId=148975126"
-},
-{
-"title": "2027년도 기초연구사업 2.91조 원 투자 총 과제 수 18,516개로 역대 최대 지원",
-"source": "BRIC",
-"link": "https://www.ibric.org/bric/trend/bio-news.do?mode=view&articleNo=10063428&title=2027%EB%85%84%EB%8F%84+%EA%B8%B0%EC%B4%88%EC%97%B0%EA%B5%AC%EC%82%AC%EC%97%85+2.91%EC%A1%B0+%EC%9B%90+%ED%88%AC%EC%9E%90+%EC%B4%9D+%EA%B3%BC%EC%A0%9C+%EC%88%98+18%2C516%EA%B0%9C%EB%A1%9C+%EC%97%AD%EB%8C%80+%EC%B5%9C%EB%8C%80+%EC%A7%80%EC%9B%90"
-}
-],
-"new": false
 }
 ],
 "trendSeen": [
-"경제",
-"골드만삭스",
 "공무원",
 "과징금",
 "과태료",
@@ -3233,6 +3262,7 @@
 "다니엘기도회 2026",
 "다문화 가정",
 "달러 환율",
+"대치동은마아파트",
 "대학수학능력시험",
 "대한민국 농림축산식품부 장관",
 "더현대 크리스마스",
@@ -3265,6 +3295,7 @@
 "마이클세일러",
 "맘스터치",
 "매일경제",
+"매일경제신문",
 "매일노동뉴스",
 "메가프로젝트",
 "목동",
