@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-07T23:52:25.383923+00:00",
+"updated": "2026-11-07T23:55:09.572308+00:00",
 "errors": [],
 "events": [
 {
@@ -791,9 +791,9 @@
 "spike": false
 },
 "폭발": {
-"n30": 5,
+"n30": 4,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "붕괴": {
 "n30": 1,
@@ -816,13 +816,13 @@
 "spike": false
 },
 "지하철": {
-"n30": 5,
+"n30": 4,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "사고": {
 "n30": 3,
-"base": 1.3,
+"base": 1.5,
 "spike": false
 },
 "실종": {
@@ -1003,7 +1003,7 @@
 "handle": "faciata0324.bsky.social",
 "name": "짜냥이🌺",
 "time": "2026-11-07T23:30:03.772Z",
-"likes": 9,
+"likes": 10,
 "reposts": 0,
 "url": "https://bsky.app/profile/faciata0324.bsky.social/post/3mzr2hu4gik2f",
 "term": "사고"
@@ -1118,24 +1118,9 @@
 "url": "https://www.youtube.com/watch?v=zO1XtnYRQL8"
 }
 ],
-"spikes": [
-{
-"term": "폭발",
-"n30": 5,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-07T23:52:25.383923+00:00"
-},
-{
-"term": "지하철",
-"n30": 5,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-07T23:52:25.383923+00:00"
-}
-],
+"spikes": [],
 "baseline": {
-"지진": 0.78,
+"지진": 0.8,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
@@ -1145,7 +1130,7 @@
 "미사일": 0.05,
 "속보": 0.05,
 "지하철": 0.05,
-"사고": 1.48,
+"사고": 1.63,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -1384,6 +1369,24 @@
 },
 "trends": [
 {
+"term": "아는 형님",
+"traffic": "100+",
+"time": "2026-11-07T22:50:00+00:00",
+"news": [
+{
+"title": "김현철, 유재석에 축의금 환불 요구?...\"혜택이 없다\" - 머니투데이",
+"source": "머니투데이",
+"link": "https://www.mt.co.kr/entertainment/2026/11/07/2026110722173962019"
+},
+{
+"title": "김현철 \"유재석 결혼 축의금 50만원…환불해줬으면 해\"",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261107_0003859066"
+}
+],
+"new": true
+},
+{
 "term": "valencia cf vs real madrid standings",
 "traffic": "1000+",
 "time": "2026-11-07T22:40:00+00:00",
@@ -1402,19 +1405,37 @@
 "new": true
 },
 {
+"term": "남구",
+"traffic": "100+",
+"time": "2026-11-07T22:40:00+00:00",
+"news": [
+{
+"title": "부산 용호동서 오토바이가 좌회전 승용차와 충돌…1명 부상",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261107028000051"
+},
+{
+"title": "교차로에서 오토바이와 승용차 충돌...2명 다쳐",
+"source": "YTN",
+"link": "https://www.ytn.co.kr/_cs/_ln_0115_202611071301545916_005.html"
+}
+],
+"new": true
+},
+{
 "term": "로마 대 사수올로",
 "traffic": "100+",
 "time": "2026-11-07T22:40:00+00:00",
 "news": [
 {
-"title": "Roma vs Sassuolo: Italian Serie A - watch",
-"source": "BBC",
-"link": "https://www.bbc.com/sport/football/live/ck0e0jz1d907t"
+"title": "Nuggets vs. Pacers (Nov 7, 2026) Live Odds, Player Props, and more",
+"source": "ESPN",
+"link": "https://www.espn.com/nba/odds/_/gameId/401909938"
 },
 {
-"title": "Roma vs. Sassuolo: Lineups & Game Thread",
-"source": "Chiesa Di Totti",
-"link": "https://www.chiesaditotti.com/roma-matchday-coverage/44191/roma-vs-sassuolo-lineups-game-thread"
+"title": "Utah 28-20 BYU (Nov 7, 2026) Game Recap",
+"source": "ESPN",
+"link": "https://www.espn.com/college-football/recap/_/gameId/401856849"
 }
 ],
 "new": true
@@ -1526,35 +1547,9 @@
 }
 ],
 "new": false
-},
-{
-"term": "포스코",
-"traffic": "100+",
-"time": "2026-11-07T22:20:00+00:00",
-"news": [
-{
-"title": "포스코 노조, 임금 잠정합의안 부결…51.7% 반대",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261107046300053"
-},
-{
-"title": "포스코 임단협 잠정합의안, 노조원 투표 '부결'…반대 51.7% - 머니투데이",
-"source": "머니투데이",
-"link": "https://www.mt.co.kr/industry/2026/11/07/2026110719110614930"
-}
-],
-"new": false
-},
-{
-"term": "치지직",
-"traffic": "1000+",
-"time": "2026-11-07T22:10:00+00:00",
-"news": [],
-"new": false
 }
 ],
 "trendSeen": [
-"마라톤",
 "마이크론",
 "마이크론 주가",
 "마이클세일러",
@@ -1646,6 +1641,7 @@
 "신세계백화점",
 "신호등",
 "심폐소생술",
+"아는 형님",
 "아들",
 "아스널 대 헐 시티",
 "아이뉴스24",
