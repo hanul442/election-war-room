@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-07T02:51:34.569154+00:00",
+"updated": "2026-11-07T02:53:50.629462+00:00",
 "errors": [],
 "events": [
 {
@@ -291,13 +291,14 @@
 "id": "wNISX20261106_00038585580923",
 "first": "2026-11-06T09:23:35+00:00",
 "last": "2026-11-07T02:29:56+00:00",
-"updated": "2026-11-07T02:51:34.569154+00:00",
+"updated": "2026-11-07T02:53:50.629462+00:00",
 "headline": "이용철 법무장관 후보자 \"검찰개혁 차질 없이 완수\"",
 "cat": "정치",
 "regions": [
 "경기"
 ],
 "sources": [
+"MBC 뉴스",
 "SBS",
 "YTN",
 "경향신문",
@@ -422,6 +423,13 @@
 "stage": "후속"
 },
 {
+"title": "국힘, 법무장관 후보 이용철 지명에 \"돌고 돌아 '성남 카르텔' 인사\"",
+"source": "MBC 뉴스",
+"link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9maHJfZFBFUENUY3V3dkNVdUFMTTRpT01SVzNDd2RyT2RUcEVnMk1MRUNaNFh2TGtuMW8ybTJLYldTc2FzYnM5Z0JaSEkyZ1J0QWoxS0tmUy03LW5MU09rS2s1UW1zeTRFMXRMSGJyUFZhUEM4VURHSdIBeEFVX3lxTE93NXBFNk1oZmpBbHpyRXQwMjBIZ0JTcVdIa2dNcWpaVXh6SnRDeXdTdGVYcmFxUHRpeV8xN0RFeXBzQ3A4bXAxYktrNTlUNWF5Y1RzcW9jYkpHQVFDZVBBeDJyVzM4Umt2VTdWTWotYXpXNW9sWDZiUA?oc=5",
+"time": "2026-11-07T02:20:32+00:00",
+"stage": "후속"
+},
+{
 "title": "국힘 \"李대통령 인사전횡 막장의 끝…이용철 지명 철회하라\"",
 "source": "연합뉴스",
 "link": "https://www.yna.co.kr/view/AKR20261107028200001",
@@ -439,6 +447,8 @@
 "국힘",
 "깜짝",
 "내정자",
+"돌고",
+"돌아",
 "막장",
 "방사청장",
 "방위사업청장",
@@ -448,6 +458,7 @@
 "법무장관",
 "법무후보",
 "살리겠다",
+"성남",
 "성남라인",
 "수행",
 "술렁",
@@ -468,10 +479,7 @@
 "참여정부서",
 "참여정부시절",
 "철회하라",
-"철회해야",
-"최인호",
-"형사사법",
-"형사체계"
+"철회해야"
 ]
 },
 {
@@ -2775,7 +2783,7 @@
 },
 "폭발": {
 "n30": 10,
-"base": 0.2,
+"base": 0.1,
 "spike": true
 },
 "붕괴": {
@@ -2794,18 +2802,18 @@
 "spike": false
 },
 "속보": {
-"n30": 5,
+"n30": 4,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "지하철": {
-"n30": 4,
-"base": 1.2,
+"n30": 3,
+"base": 1.3,
 "spike": false
 },
 "사고": {
 "n30": 3,
-"base": 1.8,
+"base": 1.9,
 "spike": false
 },
 "실종": {
@@ -3056,16 +3064,6 @@
 "url": "https://www.youtube.com/watch?v=g3h8XBuO1jU"
 },
 {
-"text": "지하철에 슈톨렌이 탄건가 냄새 진짜 역하네",
-"handle": "neulrain.bsky.social",
-"name": "뉼비🍅",
-"time": "2026-11-07T02:22:58.579Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/neulrain.bsky.social/post/3mzoto5eqtc2z",
-"term": "지하철"
-},
-{
 "platform": "YouTube",
 "text": "[🔴 속보] '盧 사위' 곽상언 \"특검법대로면 李 대통령도 수사 대상\" [이슈PLAY]",
 "handle": "UCWlV3Lz_55UaX4JsMj-z__Q",
@@ -3106,30 +3104,23 @@
 {
 "term": "폭발",
 "n30": 10,
-"base": 0.2,
-"spike": true,
-"since": "2026-11-07T02:51:34.569154+00:00"
-},
-{
-"term": "속보",
-"n30": 5,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-07T02:51:34.569154+00:00"
+"since": "2026-11-07T02:53:50.629462+00:00"
 }
 ],
 "baseline": {
-"지진": 0.22,
+"지진": 0.2,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.15,
+"폭발": 0.14,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 1.29,
-"사고": 1.95,
+"지하철": 1.26,
+"사고": 2.05,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -3359,8 +3350,62 @@
 },
 "trends": [
 {
-"term": "기뢰",
+"term": "잠수함",
+"traffic": "2000+",
+"time": "2026-11-07T01:50:00+00:00",
+"news": [
+{
+"title": "한국 원잠 사업 스타트, 암초는 美 민주당",
+"source": "조선일보",
+"link": "https://www.chosun.com/politics/diplomacy-defense/2026/11/07/H3XJMEDRAVFCBEQPI3MPYP4PAQ/"
+},
+{
+"title": "한국형 핵잠, 타당성조사 면제…내년 착수 속도내기",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261106104100504"
+}
+],
+"new": false
+},
+{
+"term": "blg",
 "traffic": "200+",
+"time": "2026-11-07T01:50:00+00:00",
+"news": [
+{
+"title": "Karmine Corp vs T1: Why T1 Will Crush KC at Worlds 2026",
+"source": "The Loadout",
+"link": "https://theloadout.com/karmine-corp-vs-t1"
+},
+{
+"title": "AEW's Claudio Castagnoli Calls League of Legends ‘the Best Sport to Watch’",
+"source": "The Sporting Tribune",
+"link": "https://www.thesportingtribune.com/2026/11/06/claudio-castagnoli-worlds-2026-aew-league-of-legends"
+}
+],
+"new": true
+},
+{
+"term": "new zealand vs india",
+"traffic": "200+",
+"time": "2026-11-07T01:50:00+00:00",
+"news": [
+{
+"title": "NZ vs Ind, 2nd ODI, Live Blog - Windy Wellington is rainy too",
+"source": "Cricinfo",
+"link": "https://www.cricinfo.com/series/india-in-new-zealand-2026-27-1539421/new-zealand-vs-india-2nd-odi-1539438/live-match-blog"
+},
+{
+"title": "Why Wellington's Weather Could Test India's Cricket Superstars",
+"source": "The Times of India",
+"link": "https://timesofindia.indiatimes.com/short-videos/briefs/why-wellingtons-weather-could-test-indias-cricket-superstars/videoshow/135618131.cms"
+}
+],
+"new": true
+},
+{
+"term": "기뢰",
+"traffic": "500+",
 "time": "2026-11-07T01:40:00+00:00",
 "news": [
 {
@@ -3480,60 +3525,6 @@
 "title": "역시는 역시...조명우, 32강 A조 3전 전승으로 16강 진출 (양구 3쿠션 월드컵) [포커스]",
 "source": "www.xportsnews.com",
 "link": "https://www.xportsnews.com/article/2216587"
-}
-],
-"new": false
-},
-{
-"term": "신세계백화점",
-"traffic": "500+",
-"time": "2026-11-07T00:30:00+00:00",
-"news": [
-{
-"title": "11월 초에 크리스마스 경쟁...백화점, 연말 대목 총력전",
-"source": "YTN",
-"link": "https://www.ytn.co.kr/_ln/0102_202611062049127981"
-},
-{
-"title": "명동 신세계 크리스마스 영상 오늘 공개…매일 오후 5시 불 밝힌다",
-"source": "세계일보",
-"link": "https://www.segye.com/newsView/20261106503368"
-}
-],
-"new": false
-},
-{
-"term": "집",
-"traffic": "500+",
-"time": "2026-11-07T00:20:00+00:00",
-"news": [
-{
-"title": "5억짜리 집, 8천만 원에 '내 집'으로...가능하다",
-"source": "이데일리",
-"link": "https://www.edaily.co.kr/News/Read?newsId=04450966645642768&mediaCodeNo=257"
-},
-{
-"title": "다음주 전국 12곳서 5215가구 청약…경기도에 80% 집중",
-"source": "SBS Biz",
-"link": "https://biz.sbs.co.kr/article/20000344909"
-}
-],
-"new": false
-},
-{
-"term": "폭탄",
-"traffic": "100+",
-"time": "2026-11-07T00:20:00+00:00",
-"news": [
-{
-"title": "여객기 다음은 방송국?…연쇄 폭탄 협박에 유럽 언론사까지 대피",
-"source": "KBS 뉴스",
-"link": "https://news.kbs.co.kr/news/view.do?ncd=8706563"
-},
-{
-"title": "유럽 곳곳 폭파 위협…여객기·방송사까지 협박",
-"source": "연합뉴스TV",
-"link": "https://www.yonhapnewstv.co.kr/news/MYH20261107101227KjU"
 }
 ],
 "new": false
