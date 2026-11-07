@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-07T00:54:29.416425+00:00",
+"updated": "2026-11-07T00:56:49.878622+00:00",
 "errors": [],
 "events": [
 {
@@ -2407,7 +2407,7 @@
 "terms": {
 "지진": {
 "n30": 1,
-"base": 0.6,
+"base": 0.7,
 "spike": false
 },
 "화재": {
@@ -2426,9 +2426,9 @@
 "spike": false
 },
 "폭발": {
-"n30": 5,
+"n30": 3,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "붕괴": {
 "n30": 2,
@@ -2446,18 +2446,18 @@
 "spike": false
 },
 "속보": {
-"n30": 7,
+"n30": 5,
 "base": 0.1,
 "spike": true
 },
 "지하철": {
-"n30": 4,
-"base": 2.6,
+"n30": 3,
+"base": 2.7,
 "spike": false
 },
 "사고": {
 "n30": 1,
-"base": 0.2,
+"base": 0.3,
 "spike": false
 },
 "실종": {
@@ -2646,16 +2646,6 @@
 "url": "https://www.youtube.com/watch?v=ir7GnNm-DjE"
 },
 {
-"text": "승강장 제자리반복 나가는 경우엔 운전실 위치변경 하고 기본점검 후 발차인데, 운전실 앞뒤 바꾸는데 2량당 1분 정도씩 잡던가 그렇습니다.  여기에 제동장치 확인하고 기기류 절체하고 비품정리에 1~2분, 그리고 지연회복용 여유시분 2~3분 정도를 끼우죠... 그래서 10량차면 보통 12분쯤. \n\n보통 지하철은 반복선을 2선 내지 3선 정도로 계획하는데, 12분 표준일때 ÷3하면 4분간격, 10",
-"handle": "inspektor.bsky.social",
-"name": "국철진",
-"time": "2026-11-07T00:25:51.780Z",
-"likes": 0,
-"reposts": 1,
-"url": "https://bsky.app/profile/inspektor.bsky.social/post/3mzon4p4hkc27",
-"term": "지하철"
-},
-{
 "platform": "YouTube",
 "text": "참을 수 없는 도파민 폭발! 굴보쌈 & 삼겹살 주말 먹방 🥓🦪 #굴보쌈 #김장김치 #삼겹살 #먹방 #주말메뉴추천 #도파민폭발 #asmr #kfood #Shorts",
 "handle": "UCvTIoQhoWMTcM2yuothG1zg",
@@ -2775,33 +2765,26 @@
 ],
 "spikes": [
 {
-"term": "폭발",
+"term": "속보",
 "n30": 5,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-07T00:54:29.416425+00:00"
-},
-{
-"term": "속보",
-"n30": 7,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-07T00:54:29.416425+00:00"
+"since": "2026-11-07T00:56:49.878622+00:00"
 }
 ],
 "baseline": {
-"지진": 0.68,
+"지진": 0.71,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
 "폭발": 0.05,
 "붕괴": 0.05,
 "대피": 0.05,
-"미사일": 0.37,
+"미사일": 0.33,
 "속보": 0.05,
-"지하철": 2.67,
-"사고": 0.26,
-"실종": 0.15,
+"지하철": 2.6,
+"사고": 0.33,
+"실종": 0.24,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -3054,11 +3037,11 @@
 "link": "https://www.mt.co.kr/stock/2026/11/07/2026110616282621049"
 }
 ],
-"new": true
+"new": false
 },
 {
 "term": "국민연금",
-"traffic": "2000+",
+"traffic": "5000+",
 "time": "2026-11-06T23:40:00+00:00",
 "news": [
 {
@@ -3070,24 +3053,6 @@
 "title": "국민연금에도 세금을 뗀다구요?ㅣ연금 로드맵 360",
 "source": "네이버페이 머니스토리",
 "link": "https://story.pay.naver.com/content/3859"
-}
-],
-"new": false
-},
-{
-"term": "공무원",
-"traffic": "1000+",
-"time": "2026-11-06T23:20:00+00:00",
-"news": [
-{
-"title": "\"왜 쳐다봐\" 호신용 스프레이 분사, 공무원 각막염…집유",
-"source": "뉴시스",
-"link": "https://www.newsis.com/view/NISX20261107_0003858784"
-},
-{
-"title": "“날 쳐다봐서” 공무원 눈에 호신용 스프레이 쏜 40대",
-"source": "경기일보",
-"link": "https://www.kyeonggi.com/article/20261107580005"
 }
 ],
 "new": false
@@ -3106,6 +3071,24 @@
 "title": "디테일한 질문을 통해 가까워지는 해나&승우?! 그리고 타로 선생님 국주?!",
 "source": "채널A",
 "link": "https://ichannela.com/program/clip/000000558837.do"
+}
+],
+"new": false
+},
+{
+"term": "공무원",
+"traffic": "1000+",
+"time": "2026-11-06T23:20:00+00:00",
+"news": [
+{
+"title": "\"왜 쳐다봐\" 호신용 스프레이 분사, 공무원 각막염…집유",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261107_0003858784"
+},
+{
+"title": "“날 쳐다봐서” 공무원 눈에 호신용 스프레이 쏜 40대",
+"source": "경기일보",
+"link": "https://www.kyeonggi.com/article/20261107580005"
 }
 ],
 "new": false
@@ -3169,7 +3152,7 @@
 "link": "https://www.mt.co.kr/estate/2026/11/07/2026110612530467580"
 }
 ],
-"new": true
+"new": false
 },
 {
 "term": "테슬라 사이버트럭",
@@ -3190,19 +3173,19 @@
 "new": false
 },
 {
-"term": "의약품",
+"term": "노동자",
 "traffic": "500+",
 "time": "2026-11-06T22:40:00+00:00",
 "news": [
 {
-"title": "식약처, 의약품 허가·심사 수수료 현실화 추진",
-"source": "BRIC",
-"link": "https://www.ibric.org/bric/trend/results-of-research.do?mode=view&articleNo=10063463&article.offset=0&articleLimit=15"
+"title": "제주 노동존중사회 의원연구포럼, 공무직 노동자 근무환경 개선 방안 모색 간담회",
+"source": "헤드라인제주",
+"link": "https://www.headlinejeju.co.kr/news/articleView.html?idxno=601745"
 },
 {
-"title": "식약처, 의약품 허가 수수료 최대 6배 인상 추진… 제약사 비용 부담 전망",
-"source": "IT조선",
-"link": "https://it.chosun.com/news/articleView.html?idxno=3000000000429"
+"title": "양경호 제주도의원, ‘제주 노동존중사회 의원연구포럼 간담회’ 참석…노동 현장 목소리 청취",
+"source": "뉴스N제주",
+"link": "https://newsnjeju.com/news/articleView.html?idxno=303858"
 }
 ],
 "new": false
