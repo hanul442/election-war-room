@@ -1,7 +1,42 @@
 {
-"updated": "2026-11-07T13:25:02.454301+00:00",
+"updated": "2026-11-07T13:27:16.400921+00:00",
 "errors": [],
 "events": [
+{
+"id": "ssutm_campaigntotal_news1325",
+"first": "2026-11-07T13:25:00+00:00",
+"last": "2026-11-07T13:25:00+00:00",
+"updated": "2026-11-07T13:27:16.400921+00:00",
+"headline": "고양이가 전기레인지 스위치 밟았나···익산 원룸서 화재",
+"cat": "재난",
+"regions": [
+"경기",
+"전북"
+],
+"sources": [
+"경향신문"
+],
+"updates": [
+{
+"title": "고양이가 전기레인지 스위치 밟았나···익산 원룸서 화재",
+"source": "경향신문",
+"link": "https://www.khan.co.kr/article/202611072225001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
+"time": "2026-11-07T13:25:00+00:00",
+"stage": "1보"
+}
+],
+"level": "ALERT",
+"latest": "고양이가 전기레인지 스위치 밟았나···익산 원룸서 화재",
+"tok": [
+"고양이",
+"밟았나",
+"스위치",
+"원룸서",
+"익산",
+"전기레인지",
+"화재"
+]
+},
 {
 "id": "wNISX20261107_00038589860839",
 "first": "2026-11-07T08:39:22+00:00",
@@ -3664,54 +3699,6 @@
 "차량고장으",
 "한때"
 ]
-},
-{
-"id": "1RGNmcjJxMGhSZFVFLVZBoc50725",
-"first": "2026-11-07T07:25:17+00:00",
-"last": "2026-11-07T07:25:17+00:00",
-"updated": "2026-11-07T07:40:50.355074+00:00",
-"headline": "제주 건입동서 차량 3대 잇따라 충돌…식당 돌진해 3명 부상",
-"cat": "사회",
-"regions": [
-"제주"
-],
-"sources": [
-"SBS",
-"강원일보"
-],
-"updates": [
-{
-"title": "SUV, 승용차 충돌 뒤 식당 돌진…3명 부상",
-"source": "SBS",
-"link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008835187&plink=RSSLINK&cooper=RSSREADER",
-"time": "2026-11-07T06:51:46+00:00",
-"stage": "후속"
-},
-{
-"title": "[속보] 제주 건입동서 차량 3대 잇따라 충돌…식당 돌진해 3명 부상",
-"source": "강원일보",
-"link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE4xVDJSbHFCM3NLbXVNa1pNVWdtMG4yS2M1dDZVRVNBR0dqYlBFSmQ5ekpFV053dFh5VjlpV3BWX1NpYVBST0g1RGNmcjJxMGhSZFVFLVZB?oc=5",
-"time": "2026-11-07T07:25:17+00:00",
-"stage": "얼럿"
-}
-],
-"level": "URGENT",
-"latest": "제주 건입동서 차량 3대 잇따라 충돌…식당 돌진해 3명 부상",
-"tok": [
-"3대",
-"3명",
-"SUV",
-"건입동서",
-"돌진",
-"돌진해",
-"부상",
-"승용차",
-"식당",
-"잇따라",
-"제주",
-"차량",
-"충돌"
-]
 }
 ],
 "sns": {
@@ -3737,14 +3724,14 @@
 "spike": false
 },
 "폭발": {
-"n30": 9,
-"base": 0.2,
+"n30": 7,
+"base": 0.1,
 "spike": true
 },
 "붕괴": {
-"n30": 5,
+"n30": 2,
 "base": 0.6,
-"spike": true
+"spike": false
 },
 "대피": {
 "n30": 0,
@@ -3758,7 +3745,7 @@
 },
 "속보": {
 "n30": 1,
-"base": 0.4,
+"base": 0.3,
 "spike": false
 },
 "지하철": {
@@ -3767,8 +3754,8 @@
 "spike": false
 },
 "사고": {
-"n30": 3,
-"base": 2.1,
+"n30": 4,
+"base": 2.2,
 "spike": false
 },
 "실종": {
@@ -3798,6 +3785,16 @@
 }
 },
 "posts": [
+{
+"text": "...\n나 또 소리없이 사고를, (바보로------------!!!!!!!)",
+"handle": "gammmmari.bsky.social",
+"name": "감마",
+"time": "2026-11-07T13:26:07.575Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/gammmmari.bsky.social/post/3mzpypydchs2j",
+"term": "사고"
+},
 {
 "text": "대왕 꽈배기랑 인삼 튀김 사고\n유과 사고\n찹쌀 도나스도 사고\n\n이 동네는 메뉴 통일이더라\n등갈비에 더덕구이 먹고\n\n알밤빵에 군밤까지 먹었더니 2키로 바로 찜\nㄴ 그렇게 잡쉈는데 2kg면 선방 아닙니까",
 "handle": "jvesuet.bsky.social",
@@ -4068,31 +4065,24 @@
 "spikes": [
 {
 "term": "폭발",
-"n30": 9,
-"base": 0.2,
+"n30": 7,
+"base": 0.1,
 "spike": true,
-"since": "2026-11-07T13:25:02.454301+00:00"
-},
-{
-"term": "붕괴",
-"n30": 5,
-"base": 0.6,
-"spike": true,
-"since": "2026-11-07T13:25:02.454301+00:00"
+"since": "2026-11-07T13:27:16.400921+00:00"
 }
 ],
 "baseline": {
-"지진": 0.6,
+"지진": 0.64,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.14,
-"붕괴": 0.62,
+"폭발": 0.13,
+"붕괴": 0.66,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.33,
-"지하철": 0.29,
-"사고": 2.21,
+"속보": 0.3,
+"지하철": 0.26,
+"사고": 2.39,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -4322,24 +4312,6 @@
 },
 "trends": [
 {
-"term": "agf",
-"traffic": "500+",
-"time": "2026-11-07T12:00:00+00:00",
-"news": [
-{
-"title": "The Fed in Uncharted Territory with New Communication Policy",
-"source": "AGF Perspectives",
-"link": "https://perspectives.agf.com/the-fed-in-uncharted-territory-with-new-communication-policy/"
-},
-{
-"title": "AGF Management : The Fed in Uncharted Territory with New Communication Policy",
-"source": "www.marketscreener.com",
-"link": "https://www.marketscreener.com/news/agf-management-the-fed-in-uncharted-territory-with-new-communication-policy-ce785fd2da8cff2c"
-}
-],
-"new": true
-},
-{
 "term": "persija jakarta vs persebaya",
 "traffic": "200+",
 "time": "2026-11-07T12:00:00+00:00",
@@ -4353,6 +4325,24 @@
 "title": "Persija vs Persebaya Tonight, November 7, 2026: Shin Tae-yong Targets Victory, Yuran 100 Percent Ready",
 "source": "Aktualita.co",
 "link": "https://aktualita.co/en/sports/persija-vs-persebaya-tonight-november-7-2026-shin-tae-yong-targets-victory-yuran-100-percent-ready"
+}
+],
+"new": true
+},
+{
+"term": "agf",
+"traffic": "500+",
+"time": "2026-11-07T12:00:00+00:00",
+"news": [
+{
+"title": "The Fed in Uncharted Territory with New Communication Policy",
+"source": "AGF Perspectives",
+"link": "https://perspectives.agf.com/the-fed-in-uncharted-territory-with-new-communication-policy/"
+},
+{
+"title": "The fed’s new approach",
+"source": "thecabin.net",
+"link": "https://www.thecabin.net/opinion/the-fed-s-new-approach/article_d26c91eb-79bb-5078-b8a9-c73cabad0629.html"
 }
 ],
 "new": true
@@ -4413,7 +4403,7 @@
 },
 {
 "term": "유방암",
-"traffic": "1000+",
+"traffic": "2000+",
 "time": "2026-11-07T11:40:00+00:00",
 "news": [
 {
