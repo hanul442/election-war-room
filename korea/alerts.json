@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-07T02:40:16.053990+00:00",
+"updated": "2026-11-07T02:42:29.267174+00:00",
 "errors": [],
 "events": [
 {
@@ -1080,7 +1080,7 @@
 "id": "llLa1F0aUFROGRqV0lhVwoc50044",
 "first": "2026-11-07T00:44:17+00:00",
 "last": "2026-11-07T00:44:17+00:00",
-"updated": "2026-11-07T00:50:01.292713+00:00",
+"updated": "2026-11-07T02:42:29.267174+00:00",
 "headline": "'국장 폭락에 다시 미국으로' 서학개미, 일주일간 3조 매수",
 "cat": "국제",
 "regions": [],
@@ -1094,6 +1094,13 @@
 "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5qbzRBVkphLW5TQnVSUVRQOUxpUnlmNXY1cDlyZ19zMFBpRTliRnhJb2hpeXlrcWVJTTJOZWFlYllBbzRjd0txb3NHOEtfR2pkUllLa1F0aUFROGRqV0lhVw?oc=5",
 "time": "2026-11-07T00:44:17+00:00",
 "stage": "얼럿"
+},
+{
+"title": "[속보]'국장 폭락에 다시 미국으로' 서학개미, 일주일간 3조 매수",
+"source": "KBC광주방송",
+"link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1YWENFMjc4RE5xcEhTNW82SVBvampQRzlob2dhVTRTUzBhLThJTTNhbjlScU1HbFpxcVJKWVZpY2llVU9nQzNIdzhCVC13dTJuUnVoVE1tQmFRV0ZlTTNnTTR3?oc=5",
+"time": "2026-11-07T00:44:17+00:00",
+"stage": "속보"
 }
 ],
 "level": "URGENT",
@@ -2555,8 +2562,8 @@
 "spike": false
 },
 "폭발": {
-"n30": 2,
-"base": 0.3,
+"n30": 1,
+"base": 0.2,
 "spike": false
 },
 "붕괴": {
@@ -2581,12 +2588,12 @@
 },
 "지하철": {
 "n30": 2,
-"base": 0.7,
+"base": 0.8,
 "spike": false
 },
 "사고": {
-"n30": 1,
-"base": 1.7,
+"n30": 2,
+"base": 1.6,
 "spike": false
 },
 "실종": {
@@ -2617,6 +2624,16 @@
 },
 "posts": [
 {
+"text": "밥 먹고 책방 가서 남편아 사고 싶다던 책 한 권 사고 이제 커피 마시러~",
+"handle": "hong10e.bsky.social",
+"name": "홍렬이로소이다",
+"time": "2026-11-07T02:41:59.884Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/hong10e.bsky.social/post/3mzoupycplk2u",
+"term": "사고"
+},
+{
 "text": "지금 지하철인데 로리타 차림은 나 홀로",
 "handle": "zblthepenguin.bsky.social",
 "name": "즈블",
@@ -2631,7 +2648,7 @@
 "handle": "sosom.bsky.social",
 "name": "소솜",
 "time": "2026-11-07T02:33:51.783Z",
-"likes": 6,
+"likes": 8,
 "reposts": 0,
 "url": "https://bsky.app/profile/sosom.bsky.social/post/3mzoubgogyk2i",
 "term": "사고"
@@ -2856,17 +2873,17 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 0.37,
+"지진": 0.33,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.25,
-"붕괴": 0.09,
+"폭발": 0.23,
+"붕괴": 0.08,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.79,
-"사고": 1.59,
+"지하철": 0.91,
+"사고": 1.63,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
