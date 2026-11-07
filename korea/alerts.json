@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-07T22:40:49.081827+00:00",
+"updated": "2026-11-07T22:43:04.204742+00:00",
 "errors": [],
 "events": [
 {
@@ -679,18 +679,18 @@
 "spike": false
 },
 "속보": {
-"n30": 7,
+"n30": 6,
 "base": 0.1,
 "spike": true
 },
 "지하철": {
-"n30": 2,
-"base": 0.4,
+"n30": 1,
+"base": 0.3,
 "spike": false
 },
 "사고": {
 "n30": 0,
-"base": 0.4,
+"base": 0.3,
 "spike": false
 },
 "실종": {
@@ -962,14 +962,14 @@
 "n30": 9,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-07T22:40:49.081827+00:00"
+"since": "2026-11-07T22:43:04.204742+00:00"
 },
 {
 "term": "속보",
-"n30": 7,
+"n30": 6,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-07T22:40:49.081827+00:00"
+"since": "2026-11-07T22:43:04.204742+00:00"
 }
 ],
 "baseline": {
@@ -979,13 +979,13 @@
 "정전": 0.05,
 "폭발": 0.05,
 "붕괴": 0.05,
-"대피": 0.74,
+"대피": 0.77,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.33,
-"사고": 0.33,
+"지하철": 0.3,
+"사고": 0.3,
 "실종": 0.05,
-"단수": 0.06,
+"단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
 "산불": 0.05
@@ -1222,6 +1222,24 @@
 },
 "trends": [
 {
+"term": "天気",
+"traffic": "100+",
+"time": "2026-11-07T21:40:00+00:00",
+"news": [
+{
+"title": "11月8日(日)の洗濯天気予報 関東や西日本は外干しOK 明日は広く雨予想",
+"source": "ウェザーニュース",
+"link": "https://weathernews.jp/news/202611/070111/"
+},
+{
+"title": "11月6日(金)の洗濯天気予報 関東など太平洋側は洗濯日和",
+"source": "Infoseek",
+"link": "https://news.infoseek.co.jp/article/weathernews_202611050071/"
+}
+],
+"new": true
+},
+{
 "term": "валенсия – реал мадрид",
 "traffic": "100+",
 "time": "2026-11-07T21:30:00+00:00",
@@ -1382,24 +1400,6 @@
 }
 ],
 "new": false
-},
-{
-"term": "valencia vs real madrid",
-"traffic": "500+",
-"time": "2026-11-07T20:40:00+00:00",
-"news": [
-{
-"title": "Real Madrid’s seven straight wins set the tone for Valencia Vs Real Madrid at Mestalla",
-"source": "شبكة تواصل الإخبارية",
-"link": "https://twaslnews1.twaslnews.com/7277674/"
-},
-{
-"title": "Guler pounces on rebound to double Real Madrid's lead at Mestalla",
-"source": "BeSoccer Livescore",
-"link": "https://www.besoccer.com/new/guler-pounces-on-rebound-to-double-real-madrids-lead-at-mestalla-1439944"
-}
-],
-"new": true
 }
 ],
 "trendSeen": [
