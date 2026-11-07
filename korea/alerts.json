@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-07T15:12:51.119890+00:00",
+"updated": "2026-11-07T15:15:08.334579+00:00",
 "errors": [],
 "events": [
 {
@@ -2913,28 +2913,28 @@
 "spike": false
 },
 "대피": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
 "미사일": {
 "n30": 1,
-"base": 0.7,
+"base": 0.8,
 "spike": false
 },
 "속보": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
 "지하철": {
 "n30": 1,
-"base": 0.4,
+"base": 0.5,
 "spike": false
 },
 "사고": {
 "n30": 4,
-"base": 2.9,
+"base": 3.0,
 "spike": false
 },
 "실종": {
@@ -2965,6 +2965,16 @@
 },
 "posts": [
 {
+"text": "문에다가 매직미사일이랑 신선한강타도 쓰고 취권도 좀 해보고 적도 던졋는데 안부숴짐..\n물도 부어보고 크리퍼도 터트렸는데",
+"handle": "c0ralsnake.bsky.social",
+"name": "산호뱀𓆙",
+"time": "2026-11-07T15:15:01.879Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/c0ralsnake.bsky.social/post/3mzq6sozb4s2v",
+"term": "미사일"
+},
+{
 "text": "뉴스 보니까 스스로 경계선 넘다가 사고 났네",
 "handle": "joinful.bsky.social",
 "name": "🌟나뭇잎 🌿",
@@ -2979,7 +2989,7 @@
 "handle": "dewdrop102.bsky.social",
 "name": "데이지🌼",
 "time": "2026-11-07T15:03:08.474Z",
-"likes": 1,
+"likes": 2,
 "reposts": 0,
 "url": "https://bsky.app/profile/dewdrop102.bsky.social/post/3mzq65gh4qc2u",
 "term": "지하철"
@@ -3022,16 +3032,6 @@
 "time": "2026-11-07T14:44:55Z",
 "term": "대피",
 "url": "https://www.youtube.com/watch?v=I1GtPPEU5PU"
-},
-{
-"text": "아니 누가 미사일 계속 쏘냐고ㅠㅠ 무치겟네",
-"handle": "bo-ok55.bsky.social",
-"name": "부끼",
-"time": "2026-11-07T14:43:49.583Z",
-"likes": 1,
-"reposts": 0,
-"url": "https://bsky.app/profile/bo-ok55.bsky.social/post/3mzq52uubos2y",
-"term": "미사일"
 },
 {
 "platform": "YouTube",
@@ -3243,19 +3243,19 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 0.09,
+"지진": 0.08,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.55,
+"폭발": 0.5,
 "붕괴": 0.05,
 "대피": 0.05,
-"미사일": 0.77,
-"속보": 0.09,
-"지하철": 0.45,
-"사고": 3.0,
+"미사일": 0.79,
+"속보": 0.08,
+"지하철": 0.51,
+"사고": 3.1,
 "실종": 0.05,
-"단수": 0.31,
+"단수": 0.28,
 "통신 장애": 0.05,
 "먹통": 0.05,
 "산불": 0.05
@@ -3483,6 +3483,60 @@
 },
 "trends": [
 {
+"term": "아스널 대 헐 시티",
+"traffic": "2000+",
+"time": "2026-11-07T14:10:00+00:00",
+"news": [
+{
+"title": "노팅엄 포레스트 vs 맨체스터 시티 예측: 선두 자리를 노릴 기회",
+"source": "Vietnam.vn",
+"link": "https://www.vietnam.vn/ko/nhan-dinh-nottingham-forest-vs-manchester-city-co-hoi-bam-duoi-ngoi-dau"
+},
+{
+"title": "잉글랜드 프리미어 리그 아스날 대 헐 시티 축구 예측",
+"source": "Laodong.vn",
+"link": "https://ko.laodong.vn/the-thao/nhan-dinh-bong-da-arsenal-vs-hull-city-tai-giai-ngoai-hang-anh-1796210.ldo"
+}
+],
+"new": true
+},
+{
+"term": "풀럼 대 뉴캐슬",
+"traffic": "500+",
+"time": "2026-11-07T14:10:00+00:00",
+"news": [
+{
+"title": "프리미어 리그 풀럼 대 뉴캐슬 경기 예측",
+"source": "Laodong.vn",
+"link": "https://ko.laodong.vn/bong-da-quoc-te/nhan-dinh-tran-fulham-vs-newcastle-tai-premier-league-1795650.ldo"
+},
+{
+"title": "경기 프리뷰: 풀럼 vs 뉴캐슬, 11월 7일 22시: 정상 등극을 향한 결의.",
+"source": "Vietnam.vn",
+"link": "https://www.vietnam.vn/ko/nhan-dinh-tran-dau-fulham-vs-newcastle-22h00-ngay-7-11-quyet-chi-vuon-len"
+}
+],
+"new": true
+},
+{
+"term": "라이프치히 대 아우크스부르크",
+"traffic": "200+",
+"time": "2026-11-07T14:00:00+00:00",
+"news": [
+{
+"title": "⚡ Kade shock for Leipzig! Augsburg's fast starters stun RB",
+"source": "Yahoo Sports",
+"link": "https://sports.yahoo.com/articles/kade-shock-leipzig-augsburgs-fast-143900988.html"
+},
+{
+"title": "Licensable picture: The World's Longest Mettbrötchen",
+"source": "Reuters Connect",
+"link": "https://www.reutersconnect.com/item/the-worlds-longest-mettbrotchen/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX0RQQUFQSVMyNjExMDdYOTlYMjAzMDM3"
+}
+],
+"new": false
+},
+{
 "term": "도르트문트 대 엘버스베르크",
 "traffic": "200+",
 "time": "2026-11-07T14:00:00+00:00",
@@ -3496,24 +3550,6 @@
 "title": "Match Preview: BVB Host SV Elversberg",
 "source": "Fear The Wall",
 "link": "https://www.fearthewall.com/general/25389/match-preview-bvb-host-sv-elversberg"
-}
-],
-"new": false
-},
-{
-"term": "라이프치히 대 아우크스부르크",
-"traffic": "200+",
-"time": "2026-11-07T14:00:00+00:00",
-"news": [
-{
-"title": "⚡ Kade shock for Leipzig! Augsburg's fast starters stun RB",
-"source": "Yahoo Sports",
-"link": "https://sports.yahoo.com/articles/kade-shock-leipzig-augsburgs-fast-143900988.html"
-},
-{
-"title": "Licensable picture: Fall Weather in Bad Homburg",
-"source": "Reuters Connect",
-"link": "https://www.reutersconnect.com/item/fall-weather-in-bad-homburg/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX0RQQUFQSVMyNjExMDdYOTlYMjAzNjg2"
 }
 ],
 "new": false
@@ -3625,47 +3661,9 @@
 }
 ],
 "new": true
-},
-{
-"term": "sbs",
-"traffic": "500+",
-"time": "2026-11-07T12:30:00+00:00",
-"news": [
-{
-"title": "Cha Cheong-hwa joins SBS drama 9 to 6 as corporate support head",
-"source": "Chosunbiz",
-"link": "https://biz.chosun.com/en/en-entertainment/2026/11/05/5HE6SVDTEVGWTOJWGZ4ORT5ECI/"
-},
-{
-"title": "Cha Chung-hwa Cast as Political Management Head in 'Nine to Six'",
-"source": "조선일보",
-"link": "https://www.chosun.com/english/kpop-culture-en/2026/11/05/7IKXEKZ3XBDTTETMY6DI6FDFCE/"
-}
-],
-"new": true
-},
-{
-"term": "persija jakarta vs persebaya",
-"traffic": "200+",
-"time": "2026-11-07T12:00:00+00:00",
-"news": [
-{
-"title": "Persija vs Persebaya Final Score 1-0: Macan Kemayoran Win Dramatically at JIS to Reclaim Top of the Table",
-"source": "Aktualita.co",
-"link": "https://aktualita.co/en/sports/persija-vs-persebaya-final-score-1-0-macan-kemayoran-win-dramatically-at-jis-to-reclaim-top-of-the-table"
-},
-{
-"title": "Persija vs Persebaya at JIS, Macan Kemayoran Can Seize Top Spot Without Dony Tri",
-"source": "Aktualita.co",
-"link": "https://aktualita.co/en/football/persija-vs-persebaya-at-jis-macan-kemayoran-can-seize-top-spot-without-dony-tri"
-}
-],
-"new": true
 }
 ],
 "trendSeen": [
-"도르트문트 대 엘버스베르크",
-"도상우",
 "돔 경기장",
 "동티모르",
 "동행",
@@ -3774,6 +3772,7 @@
 "신민아",
 "신세계백화점",
 "아들",
+"아스널 대 헐 시티",
 "아이뉴스24",
 "아이렌",
 "아이폰",
@@ -3933,6 +3932,7 @@
 "페드로 포로",
 "폭탄",
 "표절",
+"풀럼 대 뉴캐슬",
 "프리지아",
 "필리핀",
 "하이닉스",
