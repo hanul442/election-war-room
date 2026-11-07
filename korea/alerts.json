@@ -1,7 +1,88 @@
 {
-"updated": "2026-11-07T11:44:06.653208+00:00",
+"updated": "2026-11-07T11:46:18.621393+00:00",
 "errors": [],
 "events": [
+{
+"id": "NsaGZMd1RhTnJZOWJsVTgoc51139",
+"first": "2026-11-07T11:39:43+00:00",
+"last": "2026-11-07T11:42:14+00:00",
+"updated": "2026-11-07T11:46:18.621393+00:00",
+"headline": "로또 1249회 당첨번호, '2·25·16·34·11·35'...보너스 '14'",
+"cat": "기타",
+"regions": [],
+"sources": [
+"스페셜타임스",
+"연합뉴스",
+"이데일리"
+],
+"updates": [
+{
+"title": "[속보] 로또 1249회 당첨번호, '2·25·16·34·11·35'...보너스 '14'",
+"source": "스페셜타임스",
+"link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE00MEp2LV9ia3RjaEdiNjktX2tfbEk5NGtBeFEtN290a1NRNTlHVHdMbXN1bFZuYllRdVdCRVFmWTkyUTN3YWVVclc1S3ByV0FNeXVBUElmaXA1YjIyaFVqVEp0ekNsaGZMd1RhTnJZOWJsVTg?oc=5",
+"time": "2026-11-07T11:39:43+00:00",
+"stage": "얼럿"
+},
+{
+"title": "1249회 로또 1등 '2, 11, 16, 25, 34, 35'",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261107051500002",
+"time": "2026-11-07T11:40:39+00:00",
+"stage": "후속"
+},
+{
+"title": "[속보]로또 1249회 당첨번호 '2·11·16·25·34·35'…보너스 '14'",
+"source": "이데일리",
+"link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOcjcwS3pGOWZyaTkwSTczOTVYVGlfTDk0WEdVWHRtQ3dsS1JMYVY5enBULXJwWnI2NmtjRm80TndDWklMbUFjUXc0WDBpRlNYZWE2b0ppSExtcXNQZVkzVXlYN0dnYWZzVzgyOHQ1ZlB4eW5wUHB6WF9pazU0dGNzeg?oc=5",
+"time": "2026-11-07T11:42:14+00:00",
+"stage": "속보"
+}
+],
+"level": "URGENT",
+"latest": "로또 1249회 당첨번호 '2·11·16·25·34·35'…보너스 '14'",
+"tok": [
+"1249회",
+"1등",
+"당첨번호",
+"로또",
+"보너스"
+]
+},
+{
+"id": "U9MM3loN2gzY1VNRllmQQoc51140",
+"first": "2026-11-07T11:40:36+00:00",
+"last": "2026-11-07T11:40:36+00:00",
+"updated": "2026-11-07T11:46:18.621393+00:00",
+"headline": "11월 7일 축구 속보: 아스톤 빌라와의 경기가 캐릭의 미래를 결정할 수 있습니다",
+"cat": "기타",
+"regions": [],
+"sources": [
+"Laodong.vn"
+],
+"updates": [
+{
+"title": "11월 7일 축구 속보: 아스톤 빌라와의 경기가 캐릭의 미래를 결정할 수 있습니다",
+"source": "Laodong.vn",
+"link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNaDVvMnRDblNfNmREY0FUdFgxQktZZDdUYVRXWHJnYlNnbld4N2MzanFSVmFiWDduRkVIVjhBTzVJRUJGMHJyTEFFNDJNLVI2WGQ0UEd0c0tZMjVBZ0JaUWFndkRvVE5TbWZ1VW5od01NNHRXUHBlZlFiMVZTZ2FfZHBjQ2pWbmI4Um1TTHoyR2FUWEIzRDRhSDBkeElkekx6LVl4RS1IV1J6MDVTdnBqZEhEVU9MM3loN2gzY1VNRllmQQ?oc=5",
+"time": "2026-11-07T11:40:36+00:00",
+"stage": "1보"
+}
+],
+"level": "ALERT",
+"latest": "11월 7일 축구 속보: 아스톤 빌라와의 경기가 캐릭의 미래를 결정할 수 있습니다",
+"tok": [
+"11월",
+"7일",
+"결정할",
+"경기",
+"미래",
+"빌라와",
+"아스톤",
+"있습니다",
+"축구",
+"캐릭"
+]
+},
 {
 "id": "0hqZTZSWGlIOGEwZksxawoc50506",
 "first": "2026-11-07T05:06:00+00:00",
@@ -3656,7 +3737,7 @@
 "terms": {
 "지진": {
 "n30": 1,
-"base": 0.7,
+"base": 0.6,
 "spike": false
 },
 "화재": {
@@ -3675,13 +3756,13 @@
 "spike": false
 },
 "폭발": {
-"n30": 7,
-"base": 0.4,
-"spike": true
+"n30": 4,
+"base": 0.6,
+"spike": false
 },
 "붕괴": {
 "n30": 4,
-"base": 0.6,
+"base": 0.7,
 "spike": false
 },
 "대피": {
@@ -3701,12 +3782,12 @@
 },
 "지하철": {
 "n30": 5,
-"base": 1.0,
+"base": 1.1,
 "spike": true
 },
 "사고": {
-"n30": 2,
-"base": 3.3,
+"n30": 1,
+"base": 3.1,
 "spike": false
 },
 "실종": {
@@ -3932,16 +4013,6 @@
 "url": "https://www.youtube.com/watch?v=qNJk8QX2ERw"
 },
 {
-"text": "사실 사과 조금사고십엇는데 손질과일가게밖에없음",
-"handle": "mookp.bsky.social",
-"name": "복면요리왕 귀차니즘🐈‍⬛",
-"time": "2026-11-07T11:14:19.270Z",
-"likes": 1,
-"reposts": 0,
-"url": "https://bsky.app/profile/mookp.bsky.social/post/3mzpreaz33s27",
-"term": "사고"
-},
-{
 "platform": "YouTube",
 "text": "왜 이제 샀을까! 후기 폭발 점보 닭가슴살 볶음밥 꿀조합: 40g·350g·흑닭 총정리",
 "handle": "UCGlNrLQ1Tl_w468LC202daQ",
@@ -4007,32 +4078,25 @@
 ],
 "spikes": [
 {
-"term": "폭발",
-"n30": 7,
-"base": 0.4,
-"spike": true,
-"since": "2026-11-07T11:44:06.653208+00:00"
-},
-{
 "term": "지하철",
 "n30": 5,
-"base": 1.0,
+"base": 1.1,
 "spike": true,
-"since": "2026-11-07T11:44:06.653208+00:00"
+"since": "2026-11-07T11:46:18.621393+00:00"
 }
 ],
 "baseline": {
-"지진": 0.62,
+"지진": 0.56,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.59,
-"붕괴": 0.68,
+"폭발": 0.73,
+"붕괴": 0.71,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 1.08,
-"사고": 3.13,
+"지하철": 1.17,
+"사고": 2.92,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -4249,14 +4313,14 @@
 "time": "2026-11-07T10:40:00+00:00",
 "news": [
 {
-"title": "새로운 시대로 나아갈 준비가 되었습니다.",
-"source": "Vietnam.vn",
-"link": "https://www.vietnam.vn/ko/san-sang-cho-buoc-chay-vao-ky-nguyen-moi"
+"title": "“2살 아들 업고 6개월에 100대 명산… 산 달리기보다 쉬워요”[양종구의 100세 시대 건강법]",
+"source": "동아일보",
+"link": "https://www.donga.com/news/It/article/all/20261106/134978366/1"
 },
 {
-"title": "달리기에 대한 열정을 전파합니다.",
-"source": "Vietnam.vn",
-"link": "https://www.vietnam.vn/ko/lan-toa-dam-me-chay-bo"
+"title": "“아내 위해 두살배기 업고 ‘100대 명산’ 다 올랐죠”[양종구의 100세 시대 건강법]",
+"source": "동아일보",
+"link": "https://www.donga.com/news/Opinion/article/all/20261105/134975252/2"
 }
 ],
 "new": true
