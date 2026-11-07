@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-07T13:20:34.427394+00:00",
+"updated": "2026-11-07T13:22:47.055961+00:00",
 "errors": [],
 "events": [
 {
@@ -132,7 +132,7 @@
 "id": "GFZRVhfejlSWDBFV0VXUQoc50625",
 "first": "2026-11-07T06:25:07+00:00",
 "last": "2026-11-07T12:36:00+00:00",
-"updated": "2026-11-07T12:37:46.682931+00:00",
+"updated": "2026-11-07T13:22:47.055961+00:00",
 "headline": "‘신촌 세브란스병원 흉기난동’ 혐의 50대 여성 구속심사",
 "cat": "사회",
 "regions": [],
@@ -145,7 +145,8 @@
 "경향신문",
 "뉴시스",
 "연합뉴스",
-"조선일보"
+"조선일보",
+"한겨레"
 ],
 "updates": [
 {
@@ -226,6 +227,13 @@
 "stage": "후속"
 },
 {
+"title": "세브란스 의사 습격 여성 “병원이 당뇨 만들어” 횡설수설…구속영장 발부",
+"source": "한겨레",
+"link": "https://news.google.com/rss/articles/CBMickFVX3lxTE03Y19jbEpFekhlc3VSb09UdXlOSjJrOEJhZnI4ajlZU2E5MDItdUVIa3ppb1NXbk5GTzB3X1AwVUdzWFJ3VHVPeDZfd19DTGZTQl9jYUk5d1h6cDFvR2tDeUVjbHA4QzhRLWE2TXB4U2FwUQ?oc=5",
+"time": "2026-11-07T10:39:00+00:00",
+"stage": "후속"
+},
+{
 "title": "'세브란스 정신과 칼부림' 50대 여성 구속‥\"도망 염려\"",
 "source": "MBC 뉴스",
 "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9Sd3dnUTFaaXgwS191dm53TnJHMlc2Tk9oM2J4N2w2ckkydjhvMmdMeUdwSlJKNU44cGgtZmhHWm9oUVFiR0twV1lNaTh1Z3Vhb3BBcDdWYUkzTWtpM3VHYmVXYXdpTkRhbDB5aFVGOC01aVNnMFln0gF3QVVfeXFMUHh4YWZNSkJia1V0UGRLaWJEMU45bEwxVzYyLWxwTXF4bjJtTVJpUms5eERCZU1DZGIyNTNZX2xhS1V3c3BaN0xXYmJVamZKaVdYWnptWkpOMVByQkhhUG00NEdjeG8zMlFzSkVHcjhWY08xVWQwaTA?oc=5",
@@ -265,13 +273,16 @@
 "구속영장",
 "구속영장심사",
 "답변",
+"당뇨",
 "도망",
+"만들어",
 "발부",
 "법원",
 "병원",
 "세브란스",
 "세브란스병원",
 "세브란스병원서",
+"습격",
 "신촌",
 "여성",
 "염려",
@@ -3726,7 +3737,7 @@
 "spike": false
 },
 "폭발": {
-"n30": 10,
+"n30": 9,
 "base": 0.2,
 "spike": true
 },
@@ -3747,7 +3758,7 @@
 },
 "속보": {
 "n30": 1,
-"base": 0.5,
+"base": 0.4,
 "spike": false
 },
 "지하철": {
@@ -3811,8 +3822,8 @@
 "handle": "tsuta.bsky.social",
 "name": "츠타蔦_漸龑",
 "time": "2026-11-07T13:11:00.278Z",
-"likes": 0,
-"reposts": 0,
+"likes": 1,
+"reposts": 1,
 "url": "https://bsky.app/profile/tsuta.bsky.social/post/3mzpxuv4g5k2m",
 "term": "붕괴"
 },
@@ -4047,38 +4058,38 @@
 "spikes": [
 {
 "term": "폭발",
-"n30": 10,
+"n30": 9,
 "base": 0.2,
 "spike": true,
-"since": "2026-11-07T13:20:34.427394+00:00"
+"since": "2026-11-07T13:22:47.055961+00:00"
 },
 {
 "term": "붕괴",
 "n30": 5,
 "base": 0.5,
 "spike": true,
-"since": "2026-11-07T13:20:34.427394+00:00"
+"since": "2026-11-07T13:22:47.055961+00:00"
 },
 {
 "term": "지하철",
 "n30": 5,
 "base": 0.4,
 "spike": true,
-"since": "2026-11-07T13:20:34.427394+00:00"
+"since": "2026-11-07T13:22:47.055961+00:00"
 }
 ],
 "baseline": {
-"지진": 0.51,
+"지진": 0.56,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.18,
-"붕괴": 0.53,
+"폭발": 0.16,
+"붕괴": 0.58,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.41,
-"지하철": 0.36,
-"사고": 2.13,
+"속보": 0.37,
+"지하철": 0.32,
+"사고": 2.12,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
