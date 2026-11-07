@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-07T11:37:18.492462+00:00",
+"updated": "2026-11-07T11:39:32.018118+00:00",
 "errors": [],
 "events": [
 {
@@ -3650,39 +3650,6 @@
 "잔다",
 "하루"
 ]
-},
-{
-"id": "2bzhlV2RMa29qSUpqODR3oc50538",
-"first": "2026-11-07T05:38:10+00:00",
-"last": "2026-11-07T05:38:10+00:00",
-"updated": "2026-11-07T05:45:19.897539+00:00",
-"headline": "\"미 공군 박살 내자\" 외친 대진연 대학생들…집행유예에 항소",
-"cat": "기타",
-"regions": [],
-"sources": [
-"매일신문"
-],
-"updates": [
-{
-"title": "[속보] \"미 공군 박살 내자\" 외친 대진연 대학생들…집행유예에 항소",
-"source": "매일신문",
-"link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1jelU2cXNIZlFpLUtZdUZkWXd5YnEtSkNELUd6VlJwZzlORUtpQlNhb0Z3T1EyVHd6MFUxd0RrNURVMFdMaUlpYzZZU2Z4S3p1OVk2bzhlV2RMa29qSUpqODR3?oc=5",
-"time": "2026-11-07T05:38:10+00:00",
-"stage": "얼럿"
-}
-],
-"level": "URGENT",
-"latest": "\"미 공군 박살 내자\" 외친 대진연 대학생들…집행유예에 항소",
-"tok": [
-"공군",
-"내자",
-"대진연",
-"대학생들",
-"박살",
-"외친",
-"집행유예",
-"항소"
-]
 }
 ],
 "sns": {
@@ -3708,12 +3675,12 @@
 "spike": false
 },
 "폭발": {
-"n30": 7,
+"n30": 9,
 "base": 0.1,
 "spike": true
 },
 "붕괴": {
-"n30": 3,
+"n30": 4,
 "base": 0.6,
 "spike": false
 },
@@ -3723,7 +3690,7 @@
 "spike": false
 },
 "미사일": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -3734,12 +3701,12 @@
 },
 "지하철": {
 "n30": 5,
-"base": 0.6,
+"base": 0.7,
 "spike": true
 },
 "사고": {
 "n30": 3,
-"base": 3.5,
+"base": 3.4,
 "spike": false
 },
 "실종": {
@@ -3769,6 +3736,36 @@
 }
 },
 "posts": [
+{
+"text": "대전 와인엑스포~\n부스에서 시음시켜주는 술들은 정말 좋았음...\n다만 테이스팅존에 있는 와인들은 진짜 쓰레기 와인들이 있어서 정말...정말 별로였음. 가장 충격적이었던건 냄새부터 찌린내가 나는 와인이었는데 입에 넣으니까 찌린내 폭발이었단 와인. 그건...와인이라고 불러선 안되는 물건이었다.",
+"handle": "ipsae.bsky.social",
+"name": "Ipsae🌿",
+"time": "2026-11-07T11:38:47.381Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/ipsae.bsky.social/post/3mzpsprgpt22x",
+"term": "폭발"
+},
+{
+"text": "그러니까 이런 관계인데요.\n\n나 진짜 이런 관계 처음 보네.\n\n광전총국 아무튼 심의 통과 고맙고요.\n문자 그대로 붕괴3rd 세계의 태양계 화성 창세 신화 이야기입니다.",
+"handle": "tsuta.bsky.social",
+"name": "츠타蔦_漸龑",
+"time": "2026-11-07T11:38:15.382Z",
+"likes": 0,
+"reposts": 1,
+"url": "https://bsky.app/profile/tsuta.bsky.social/post/3mzpsp2ok2s2s",
+"term": "붕괴"
+},
+{
+"text": "예민 대폭발",
+"handle": "ulwliv.bsky.social",
+"name": "야호",
+"time": "2026-11-07T11:37:12.279Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/ulwliv.bsky.social/post/3mzpsn5bqzc2h",
+"term": "폭발"
+},
 {
 "text": "아 맛아 나랑 사이비공원에서 자던 룸에 요즘 추워가지고 지하철에서 목격됨 옷은 ak벤치에 처박아두고",
 "handle": "superstargimi.bsky.social",
@@ -4031,32 +4028,32 @@
 "spikes": [
 {
 "term": "폭발",
-"n30": 7,
+"n30": 9,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-07T11:37:18.492462+00:00"
+"since": "2026-11-07T11:39:32.018118+00:00"
 },
 {
 "term": "지하철",
 "n30": 5,
-"base": 0.6,
+"base": 0.7,
 "spike": true,
-"since": "2026-11-07T11:37:18.492462+00:00"
+"since": "2026-11-07T11:39:32.018118+00:00"
 }
 ],
 "baseline": {
-"지진": 0.74,
+"지진": 0.77,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.05,
-"붕괴": 0.56,
+"폭발": 0.25,
+"붕괴": 0.6,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.74,
-"사고": 3.44,
-"실종": 0.08,
+"지하철": 0.87,
+"사고": 3.4,
+"실종": 0.07,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -4349,9 +4346,9 @@
 "link": "https://www.slist.kr/news/articleView.html?idxno=779806"
 },
 {
-"title": "'불후의 명곡', 故전유성 특집…애제자 김신영 스페셜 MC",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261106069500005"
+"title": "권인하 - 비처럼 음악처럼 | KBS 261107 방송",
+"source": "대한민국 대표 공영미디어 KBS",
+"link": "https://www.kbs.co.kr/index.html?source=smr&sname=vod&stype=vod&contents_id=K02_PS-2026188856-01-000_MFSC20&program_code=T2011-0781&program_id=PS-2026188856-01-000&section_code=04&broadcast_complete_yn=N&section_id=10739"
 }
 ],
 "new": true
