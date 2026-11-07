@@ -1,19 +1,21 @@
 {
-"updated": "2026-11-07T11:50:44.135292+00:00",
+"updated": "2026-11-07T11:52:58.768973+00:00",
 "errors": [],
 "events": [
 {
 "id": "NsaGZMd1RhTnJZOWJsVTgoc51139",
 "first": "2026-11-07T11:39:43+00:00",
-"last": "2026-11-07T11:42:14+00:00",
-"updated": "2026-11-07T11:46:18.621393+00:00",
+"last": "2026-11-07T11:48:25+00:00",
+"updated": "2026-11-07T11:52:58.768973+00:00",
 "headline": "로또 1249회 당첨번호, '2·25·16·34·11·35'...보너스 '14'",
 "cat": "기타",
 "regions": [],
 "sources": [
+"경기일보",
 "스페셜타임스",
 "연합뉴스",
-"이데일리"
+"이데일리",
+"이데일리TV"
 ],
 "updates": [
 {
@@ -32,17 +34,41 @@
 },
 {
 "title": "[속보]로또 1249회 당첨번호 '2·11·16·25·34·35'…보너스 '14'",
+"source": "이데일리TV",
+"link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5kR1RGX254bEV4ZC1qT2NiQWpINml4YU1TMDRWbk9DLWUyTEtxT3pUY2pONm9IQ0xjVzh0QlpXZ0RxMWFHU0lLTTR2THB6SFMyd0ZrSnV4c1JSeGN1dmlzRW9PSC00a3hMTDFkRjhobHBaRUdaT084WHBBNA?oc=5",
+"time": "2026-11-07T11:42:00+00:00",
+"stage": "속보"
+},
+{
+"title": "[속보]로또 1249회 당첨번호 '2·11·16·25·34·35'…보너스 '14'",
 "source": "이데일리",
 "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOcjcwS3pGOWZyaTkwSTczOTVYVGlfTDk0WEdVWHRtQ3dsS1JMYVY5enBULXJwWnI2NmtjRm80TndDWklMbUFjUXc0WDBpRlNYZWE2b0ppSExtcXNQZVkzVXlYN0dnYWZzVzgyOHQ1ZlB4eW5wUHB6WF9pazU0dGNzeg?oc=5",
 "time": "2026-11-07T11:42:14+00:00",
 "stage": "속보"
+},
+{
+"title": "1249회 로또 1등 14명…당첨금 각 20억3천만원(종합)",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261107051900002",
+"time": "2026-11-07T11:47:11+00:00",
+"stage": "종합"
+},
+{
+"title": "[속보] 1249회 로또 1등 ‘2, 11, 16, 25, 34, 35’...보너스 ‘22’",
+"source": "경기일보",
+"link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBZVTZmdWRzMlNLa2JYTy1KUEdPdDNWRmRGV1h5elNqdndzYWZ3amVfNkM5dE14MnliNUJvVGw0bE1Ed0dsQWFCRXUwTGVXVVhRWGVRTW4tUkdBWkE?oc=5",
+"time": "2026-11-07T11:48:25+00:00",
+"stage": "속보"
 }
 ],
 "level": "URGENT",
-"latest": "로또 1249회 당첨번호 '2·11·16·25·34·35'…보너스 '14'",
+"latest": "1249회 로또 1등 ‘2, 11, 16, 25, 34, 35’...보너스 ‘22’",
 "tok": [
 "1249회",
+"14명",
 "1등",
+"20억3천만원",
+"당첨금",
 "당첨번호",
 "로또",
 "보너스"
@@ -3757,12 +3783,12 @@
 },
 "폭발": {
 "n30": 3,
-"base": 0.9,
+"base": 1.0,
 "spike": false
 },
 "붕괴": {
-"n30": 3,
-"base": 0.7,
+"n30": 2,
+"base": 0.8,
 "spike": false
 },
 "대피": {
@@ -3787,7 +3813,7 @@
 },
 "사고": {
 "n30": 1,
-"base": 2.7,
+"base": 2.6,
 "spike": false
 },
 "실종": {
@@ -4068,17 +4094,17 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 0.45,
+"지진": 0.41,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.97,
-"붕괴": 0.77,
+"폭발": 1.07,
+"붕괴": 0.79,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 1.14,
-"사고": 2.56,
+"지하철": 1.13,
+"사고": 2.4,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -4437,13 +4463,7 @@
 "term": "김천상무 대 fc 안양 순위",
 "traffic": "2000+",
 "time": "2026-11-07T09:40:00+00:00",
-"news": [
-{
-"title": "[포토] 공격하는 한국가스공사 케베 알루마",
-"source": "점프볼",
-"link": "https://jumpball.co.kr/news/newsview.php?ncode=1065566458288985"
-}
-],
+"news": [],
 "new": true
 },
 {
