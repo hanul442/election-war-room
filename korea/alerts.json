@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-07T17:41:43.898499+00:00",
+"updated": "2026-11-07T17:43:59.858298+00:00",
 "errors": [],
 "events": [
 {
@@ -1857,7 +1857,7 @@
 "terms": {
 "지진": {
 "n30": 3,
-"base": 2.0,
+"base": 2.1,
 "spike": false
 },
 "화재": {
@@ -1876,13 +1876,13 @@
 "spike": false
 },
 "폭발": {
-"n30": 7,
-"base": 0.8,
+"n30": 5,
+"base": 0.9,
 "spike": true
 },
 "붕괴": {
 "n30": 0,
-"base": 0.8,
+"base": 0.7,
 "spike": false
 },
 "대피": {
@@ -1896,7 +1896,7 @@
 "spike": false
 },
 "속보": {
-"n30": 3,
+"n30": 2,
 "base": 0.1,
 "spike": false
 },
@@ -2216,25 +2216,25 @@
 "spikes": [
 {
 "term": "폭발",
-"n30": 7,
-"base": 0.8,
+"n30": 5,
+"base": 0.9,
 "spike": true,
-"since": "2026-11-07T17:41:43.898499+00:00"
+"since": "2026-11-07T17:43:59.858298+00:00"
 }
 ],
 "baseline": {
-"지진": 2.14,
+"지진": 2.23,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.91,
-"붕괴": 0.69,
+"폭발": 1.02,
+"붕괴": 0.62,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.13,
+"속보": 0.12,
 "지하철": 0.05,
-"사고": 0.45,
-"실종": 0.07,
+"사고": 0.41,
+"실종": 0.06,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -2472,6 +2472,24 @@
 },
 "trends": [
 {
+"term": "노팅엄 포레스트 대 맨 시티",
+"traffic": "2000+",
+"time": "2026-11-07T16:40:00+00:00",
+"news": [
+{
+"title": "Premier League LIVE: Live text, radio & score updates from across the Premier League",
+"source": "BBC",
+"link": "https://www.bbc.com/sport/football/live/cmj6jdk36975t"
+},
+{
+"title": "Nottingham Forest vs. Man City LIVE: Premier League updates, score and commentary",
+"source": "ESPN",
+"link": "https://www.espn.com/soccer/story/_/id/50408822/nottingham-forest-vs-man-city-live-premier-league-updates-score-commentary-result"
+}
+],
+"new": true
+},
+{
 "term": "일본 지진",
 "traffic": "200+",
 "time": "2026-11-07T16:00:00+00:00",
@@ -2495,14 +2513,14 @@
 "time": "2026-11-07T15:30:00+00:00",
 "news": [
 {
-"title": "“분위기 어쩌다 이렇게 됐나”…이천수, 대표팀 갈등설에 조언",
-"source": "동아일보",
-"link": "https://www.donga.com/news/Sports/article/all/20261107/134983161/1"
+"title": "이천수 “은퇴 번복 창피해 10억 제안 거절”…♥심하은 “말렸어야 했다”",
+"source": "서울경제",
+"link": "https://www.sedaily.com/article/20110260"
 },
 {
-"title": "'손흥민-96라인 불화설'...'前 국가대표' 이천수 작심 발언 \"축구에만 집중하길\"",
-"source": "SPOTV NEWS",
-"link": "https://www.spotvnews.co.kr/news/articleView.html?idxno=1018354"
+"title": "심하은, 이천수♥ '1도 안 닮은' 키즈모델 딸 공개..\"매거진 나오는 날\"",
+"source": "스포츠조선",
+"link": "https://www.sportschosun.com/entertainment/2026-11-07/202611070100051710005164"
 }
 ],
 "new": false
@@ -2567,14 +2585,14 @@
 "time": "2026-11-07T14:50:00+00:00",
 "news": [
 {
-"title": "David Warner's Fielding Gaffe Leads to 5-Run Penalty in Nepal Premier League",
-"source": "Ratopati",
-"link": "https://english.ratopati.com/story/86004/lumbini-was-penalized-5-runs-when-david-warner-used-a-handkerchief-on-the-ball"
-},
-{
 "title": "Live Cricket Score, Schedule, Latest News, Stats & Videos",
 "source": "Cricbuzz",
 "link": "https://www.cricbuzz.com/player-match-performance/match/177730/player/1739/batting"
+},
+{
+"title": "Kathmandu Ghorkaj Defeats Lumbini Lions by 36 Runs in Nepal Premier League",
+"source": "Ratopati",
+"link": "https://english.ratopati.com/story/86002/undefeated-lumbinis-journey-halted-kathmandu-wins-by-36-runs"
 }
 ],
 "new": true
@@ -2621,32 +2639,14 @@
 "time": "2026-11-07T14:10:00+00:00",
 "news": [
 {
-"title": "아스널 0-0 헐 시티 (전반전): 선제골을 넣기 위한 공격에 박차를 가하고 있다.",
+"title": "아스널 0-0 헐 시티 (전반전): 라야가 결정적인 선방을 해냅니다.",
 "source": "Vietnam.vn",
-"link": "https://www.vietnam.vn/ko/truc-tiep-arsenal-0-0-hull-city-h2-tang-toc-tim-ban-mo-ty-so"
+"link": "https://www.vietnam.vn/ko/truc-tiep-arsenal-0-0-hull-city-h1-raya-cuu-thua"
 },
 {
 "title": "리버풀은 빌라, 유벤투스는 나폴리…11월 1~2일 유럽축구 일정 : 스포츠",
 "source": "재경일보",
 "link": "https://news.jkn.co.kr/post/1064325"
-}
-],
-"new": false
-},
-{
-"term": "풀럼 대 뉴캐슬",
-"traffic": "1000+",
-"time": "2026-11-07T14:10:00+00:00",
-"news": [
-{
-"title": "프리미어 리그 풀럼 대 뉴캐슬 경기 예측",
-"source": "Laodong.vn",
-"link": "https://ko.laodong.vn/bong-da-quoc-te/nhan-dinh-tran-fulham-vs-newcastle-tai-premier-league-1795650.ldo"
-},
-{
-"title": "경기 프리뷰: 풀럼 vs 뉴캐슬, 11월 7일 22시: 정상 등극을 향한 결의.",
-"source": "Vietnam.vn",
-"link": "https://www.vietnam.vn/ko/nhan-dinh-tran-dau-fulham-vs-newcastle-22h00-ngay-7-11-quyet-chi-vuon-len"
 }
 ],
 "new": false
