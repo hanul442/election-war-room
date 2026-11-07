@@ -1,7 +1,39 @@
 {
-"updated": "2026-11-06T23:58:00.313645+00:00",
+"updated": "2026-11-07T00:00:25.415294+00:00",
 "errors": [],
 "events": [
+{
+"id": "ssutm_campaigntotal_news0000",
+"first": "2026-11-07T00:00:03+00:00",
+"last": "2026-11-07T00:00:03+00:00",
+"updated": "2026-11-07T00:00:25.415294+00:00",
+"headline": "구룡마을 화재 열흘···이재민 30가구 마을로 돌아갔다",
+"cat": "재난",
+"regions": [],
+"sources": [
+"경향신문"
+],
+"updates": [
+{
+"title": "[단독]구룡마을 화재 열흘···이재민 30가구 마을로 돌아갔다",
+"source": "경향신문",
+"link": "https://www.khan.co.kr/article/202611070900031/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
+"time": "2026-11-07T00:00:03+00:00",
+"stage": "단독"
+}
+],
+"level": "URGENT",
+"latest": "구룡마을 화재 열흘···이재민 30가구 마을로 돌아갔다",
+"tok": [
+"30가구",
+"구룡마",
+"돌아갔다",
+"마을",
+"열흘",
+"이재민",
+"화재"
+]
+},
 {
 "id": "ThGSTRoeFVoMmNtWnZhQQoc52239",
 "first": "2026-11-06T22:39:11+00:00",
@@ -1865,40 +1897,6 @@
 "제인",
 "한인"
 ]
-},
-{
-"id": "PZWIWSV5AGHAW5CXAWSYSTP41800",
-"first": "2026-11-06T18:00:00+00:00",
-"last": "2026-11-06T18:00:00+00:00",
-"updated": "2026-11-06T18:06:18.949728+00:00",
-"headline": "빙하 붕괴 덮쳐도… 셰르파, 무너진 히말라야 산길 다시 잇다",
-"cat": "재난",
-"regions": [],
-"sources": [
-"조선일보"
-],
-"updates": [
-{
-"title": "빙하 붕괴 덮쳐도… 셰르파, 무너진 히말라야 산길 다시 잇다",
-"source": "조선일보",
-"link": "https://www.chosun.com/international/2026/11/07/HRPZWIWSV5AGHAW5CXAWSYSTP4/",
-"time": "2026-11-06T18:00:00+00:00",
-"stage": "1보"
-}
-],
-"level": "ALERT",
-"latest": "빙하 붕괴 덮쳐도… 셰르파, 무너진 히말라야 산길 다시 잇다",
-"tok": [
-"다시",
-"덮쳐",
-"무너진",
-"붕괴",
-"빙하",
-"산길",
-"셰르파",
-"잇다",
-"히말라야"
-]
 }
 ],
 "sns": {
@@ -1924,7 +1922,7 @@
 "spike": false
 },
 "폭발": {
-"n30": 3,
+"n30": 2,
 "base": 0.1,
 "spike": false
 },
@@ -1939,23 +1937,23 @@
 "spike": false
 },
 "미사일": {
-"n30": 3,
+"n30": 2,
 "base": 0.6,
 "spike": false
 },
 "속보": {
-"n30": 3,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
 "지하철": {
 "n30": 2,
-"base": 0.6,
+"base": 0.7,
 "spike": false
 },
 "사고": {
-"n30": 1,
-"base": 2.3,
+"n30": 0,
+"base": 2.2,
 "spike": false
 },
 "실종": {
@@ -2106,16 +2104,6 @@
 "url": "https://www.youtube.com/watch?v=BueIJxZleN0"
 },
 {
-"text": "사고 싶은 오븐 사고싶은 에스프레소머신 사고 싶은 반죽기 결정했다. 하지만 결국 아무것도 멋 사겠지만 ㅋㅋㅋㅋㅋ 비싸기도 너무비싸고 놓을 곳도 없는 trr",
-"handle": "kiring.bsky.social",
-"name": "키링(o´3`o)ﾉ🍊🔆🌿",
-"time": "2026-11-06T23:28:59.984Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/kiring.bsky.social/post/3mzojwztzqs24",
-"term": "사고"
-},
-{
 "platform": "YouTube",
 "text": "[속보] 호르무즈 요충지 케슘섬에 미사일 2발 피격…이란 \"미군 리퍼 격추 성공\"",
 "handle": "UC6dN6Rilzh9KmzymxnZGslg",
@@ -2224,10 +2212,10 @@
 "폭발": 0.05,
 "붕괴": 0.05,
 "대피": 0.05,
-"미사일": 0.64,
+"미사일": 0.68,
 "속보": 0.05,
-"지하철": 0.7,
-"사고": 2.17,
+"지하철": 0.83,
+"사고": 1.95,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
