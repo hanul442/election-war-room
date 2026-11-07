@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-07T22:43:04.204742+00:00",
+"updated": "2026-11-07T22:45:18.645514+00:00",
 "errors": [],
 "events": [
 {
@@ -639,7 +639,7 @@
 "sns": {
 "terms": {
 "지진": {
-"n30": 0,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
@@ -659,7 +659,7 @@
 "spike": false
 },
 "폭발": {
-"n30": 9,
+"n30": 7,
 "base": 0.1,
 "spike": true
 },
@@ -669,8 +669,8 @@
 "spike": false
 },
 "대피": {
-"n30": 1,
-"base": 0.7,
+"n30": 0,
+"base": 0.8,
 "spike": false
 },
 "미사일": {
@@ -720,6 +720,16 @@
 }
 },
 "posts": [
+{
+"text": "【지진 정보】일본 시간 11월 8일 07:38경\n진원: Off the Coast of Fukushima Prefecture (M3.9, 깊이 약 60km)\n최대 진도: 2\n진도 2: 후쿠시마현\n진도 1: 미야기현\n이 지진으로 인한 쓰나미 걱정은 없습니다.\n(일본 기상청 발표)\n#일본 #지진 #방재",
+"handle": "ko.soramoyou.yk-planning.jp",
+"name": "Soramoyou 한국어",
+"time": "2026-11-07T22:43:36.771Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/ko.soramoyou.yk-planning.jp/post/3mzqxutcymb2u",
+"term": "지진"
+},
 {
 "platform": "YouTube",
 "text": "왜 이제 샀을까! 후기 폭발 멀티 핸들 탈부착 냄비 꿀조합: 오방난장·매직핸즈·프라이팬 총정리",
@@ -919,16 +929,6 @@
 "url": "https://www.youtube.com/watch?v=qTpWYn0ZcvM"
 },
 {
-"text": "뒤틀린 에로가 발각되는만큼 부끄러운게 없지만 알고난뒤에도 뒤틀린 취향으로 교류가 되지 않으면 안전을 위해 빠르게 대피하는게 안전에 대한 직감이라니깐",
-"handle": "kuch01.bsky.social",
-"name": "Aku.C",
-"time": "2026-11-07T22:13:28.171Z",
-"likes": 1,
-"reposts": 0,
-"url": "https://bsky.app/profile/kuch01.bsky.social/post/3mzqw6vn4c22g",
-"term": "대피"
-},
-{
 "platform": "YouTube",
 "text": "서울 지하철 2호선으로 가는 가을 명품 여행지 BEST6 #당일치기 #시니어",
 "handle": "UC3BLT9Fd_7yPFKbGLSfx0Fw",
@@ -959,31 +959,31 @@
 "spikes": [
 {
 "term": "폭발",
-"n30": 9,
+"n30": 7,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-07T22:43:04.204742+00:00"
+"since": "2026-11-07T22:45:18.645514+00:00"
 },
 {
 "term": "속보",
 "n30": 6,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-07T22:43:04.204742+00:00"
+"since": "2026-11-07T22:45:18.645514+00:00"
 }
 ],
 "baseline": {
-"지진": 0.05,
+"지진": 0.15,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
 "폭발": 0.05,
 "붕괴": 0.05,
-"대피": 0.77,
+"대피": 0.69,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.3,
-"사고": 0.3,
+"지하철": 0.27,
+"사고": 0.27,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -1250,9 +1250,9 @@
 "link": "https://www.championat.ru/football/news-6689858-valensiya-real-madrid-onlajn-translyaciya-matcha-12-go-tura-la-ligi-2026-2027-nachnetsya-v-23-00-msk-7-noyabrya-2026.html"
 },
 {
-"title": "Матч Валенсия - Реал Мадрид: смотреть онлайн прямую трансляцию матча",
-"source": "fclmnews",
-"link": "https://fclm.news/online/138243-valensiya-real-madrid-video.html"
+"title": "Реал объявил состав на матч с Валенсией – известно решение по Лунину",
+"source": "UA-Football",
+"link": "https://www.ua-football.com/ukrainian/ukrainians/1794078285-real-obyavil-sostav-na-match-s-valensiey-izvestno-reshenie-po-luninu.html"
 }
 ],
 "new": true
@@ -1295,7 +1295,7 @@
 },
 {
 "term": "심폐소생술",
-"traffic": "200+",
+"traffic": "500+",
 "time": "2026-11-07T21:10:00+00:00",
 "news": [
 {
