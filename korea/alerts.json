@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-07T01:12:36.328132+00:00",
+"updated": "2026-11-07T01:14:50.685035+00:00",
 "errors": [],
 "events": [
 {
@@ -2503,12 +2503,12 @@
 },
 "지하철": {
 "n30": 2,
-"base": 1.5,
+"base": 1.4,
 "spike": false
 },
 "사고": {
-"n30": 2,
-"base": 1.0,
+"n30": 3,
+"base": 1.1,
 "spike": false
 },
 "실종": {
@@ -2538,6 +2538,16 @@
 }
 },
 "posts": [
+{
+"text": "근데 다 제가 노력이 부족해서겠죠 뭐든 성실하게 열심히 해내면 성취해낼 수 있다 하면 된다(이런 신자유주의 우파적 사고로 정신병 예방함)",
+"handle": "susukinohollow.bsky.social",
+"name": "한솔",
+"time": "2026-11-07T01:13:46.481Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/susukinohollow.bsky.social/post/3mzopsfj5g225",
+"term": "사고"
+},
 {
 "platform": "YouTube",
 "text": "브래지어 거의 안 하는 여배우 ТОРЗ #뉴스 #시사 #뉴스속보 #이슈",
@@ -2760,7 +2770,7 @@
 "handle": "chubbywife1004.bsky.social",
 "name": "통통한 와이프",
 "time": "2026-11-07T00:53:12.281Z",
-"likes": 19,
+"likes": 20,
 "reposts": 0,
 "url": "https://bsky.app/profile/chubbywife1004.bsky.social/post/3mzoonip43s2p",
 "term": "실종"
@@ -2782,29 +2792,29 @@
 "n30": 8,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-07T01:12:36.328132+00:00"
+"since": "2026-11-07T01:14:50.685035+00:00"
 },
 {
 "term": "속보",
 "n30": 8,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-07T01:12:36.328132+00:00"
+"since": "2026-11-07T01:14:50.685035+00:00"
 }
 ],
 "baseline": {
-"지진": 0.45,
+"지진": 0.41,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
 "폭발": 0.05,
 "붕괴": 0.05,
 "대피": 0.05,
-"미사일": 0.16,
+"미사일": 0.14,
 "속보": 0.05,
-"지하철": 1.35,
-"사고": 1.09,
-"실종": 0.64,
+"지하철": 1.22,
+"사고": 1.28,
+"실종": 0.68,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -3024,6 +3034,24 @@
 },
 "trends": [
 {
+"term": "주차장",
+"traffic": "200+",
+"time": "2026-11-07T00:10:00+00:00",
+"news": [
+{
+"title": "[현장 속 의정활동] 수원 일월호수공영주차장 준공…180면 확보해 주차난 해소 기대",
+"source": "인천일보",
+"link": "https://www.incheonilbo.com/news/articleView.html?idxno=1336154"
+},
+{
+"title": "수원시, 180대 주차할 수 있는 '일월호수공영주차장' 준공…23일부터 시범운영",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/RPR20261106007900353"
+}
+],
+"new": true
+},
+{
 "term": "매일경제신문",
 "traffic": "20000+",
 "time": "2026-11-06T23:50:00+00:00",
@@ -3097,7 +3125,7 @@
 },
 {
 "term": "문화일보",
-"traffic": "200+",
+"traffic": "500+",
 "time": "2026-11-06T23:10:00+00:00",
 "news": [
 {
@@ -3106,9 +3134,9 @@
 "link": "https://www.khan.co.kr/article/202611061742001"
 },
 {
-"title": "“李대통령 정치적 고향, 성남 아니라 베네수엘라” 무슨 뜻?…국힘 정점식 발언",
-"source": "문화일보",
-"link": "https://www.munhwa.com/article/11629492"
+"title": "“이재명 재판취소 악법”…국민의힘 ‘조작기소특검법 규탄’ 대규모 장외집회",
+"source": "경기일보",
+"link": "https://www.kyeonggi.com/article/20261107580021"
 }
 ],
 "new": false
@@ -3133,14 +3161,14 @@
 },
 {
 "term": "대한민국 농림축산식품부 장관",
-"traffic": "200+",
+"traffic": "500+",
 "time": "2026-11-06T23:00:00+00:00",
 "news": [],
 "new": false
 },
 {
 "term": "테슬라 사이버트럭",
-"traffic": "1000+",
+"traffic": "2000+",
 "time": "2026-11-06T22:40:00+00:00",
 "news": [
 {
@@ -3173,28 +3201,9 @@
 }
 ],
 "new": false
-},
-{
-"term": "의약품",
-"traffic": "500+",
-"time": "2026-11-06T22:40:00+00:00",
-"news": [
-{
-"title": "식약처, 의약품 허가·심사 수수료 현실화 추진",
-"source": "BRIC",
-"link": "https://www.ibric.org/bric/trend/results-of-research.do?mode=view&articleNo=10063463&article.offset=0&articleLimit=15"
-},
-{
-"title": "식약처, 의약품 허가 수수료 최대 6배 인상 추진… 제약사 비용 부담 전망",
-"source": "IT조선",
-"link": "https://it.chosun.com/news/articleView.html?idxno=3000000000429"
-}
-],
-"new": false
 }
 ],
 "trendSeen": [
-"공무원",
 "과징금",
 "과태료",
 "광주광역시",
@@ -3427,6 +3436,7 @@
 "존리",
 "주가 대폭락",
 "주식",
+"주차장",
 "죽음",
 "중국 휴머노이드 로봇",
 "진쓰레블 사망",
