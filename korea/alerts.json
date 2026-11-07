@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-07T05:00:16.550972+00:00",
+"updated": "2026-11-07T05:02:29.894709+00:00",
 "errors": [],
 "events": [
 {
@@ -2536,38 +2536,6 @@
 "풍랑주의보",
 "해제"
 ]
-},
-{
-"id": "tTGNFbk03SjNYOVBpSnQ4oc52301",
-"first": "2026-11-06T23:01:00+00:00",
-"last": "2026-11-06T23:01:00+00:00",
-"updated": "2026-11-06T23:12:07.677500+00:00",
-"headline": "＂이제 겨울이 왔다＂…트럼프와 친했던 기업들 ＇술렁＇",
-"cat": "경제",
-"regions": [],
-"sources": [
-"한국경제TV"
-],
-"updates": [
-{
-"title": "[속보] ＂이제 겨울이 왔다＂…트럼프와 친했던 기업들 ＇술렁＇",
-"source": "한국경제TV",
-"link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5CUVJpT0ZzbVhZNXV0SnNaUmRvSzZsb2ozYmxEX21VNDRtaHk3R0piRU5yOHBiSHVURS1UU3RZSlB4VDEtbXlYN3YydWZ2bDJaVG9MaVNUWXNxTGJfVTRXMkdHdzdoUzhtTGNFbk03SjNYOVBpSnQ4?oc=5",
-"time": "2026-11-06T23:01:00+00:00",
-"stage": "얼럿"
-}
-],
-"level": "URGENT",
-"latest": "＂이제 겨울이 왔다＂…트럼프와 친했던 기업들 ＇술렁＇",
-"tok": [
-"겨울",
-"기업들",
-"술렁",
-"왔다",
-"이제",
-"친했던",
-"트럼프"
-]
 }
 ],
 "sns": {
@@ -2593,14 +2561,14 @@
 "spike": false
 },
 "폭발": {
-"n30": 4,
+"n30": 2,
 "base": 0.7,
 "spike": false
 },
 "붕괴": {
-"n30": 5,
+"n30": 4,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "대피": {
 "n30": 0,
@@ -2609,17 +2577,17 @@
 },
 "미사일": {
 "n30": 0,
-"base": 0.3,
+"base": 0.2,
 "spike": false
 },
 "속보": {
-"n30": 6,
+"n30": 5,
 "base": 0.1,
 "spike": true
 },
 "지하철": {
-"n30": 5,
-"base": 2.2,
+"n30": 4,
+"base": 2.1,
 "spike": false
 },
 "사고": {
@@ -2829,16 +2797,6 @@
 "url": "https://www.youtube.com/watch?v=sgbj-hrHSrs"
 },
 {
-"text": "한국판 킹스 크로스역... 마법사만이 숨겨진 지하철(한국판 호그와트, \"김문수의 마법학원\"으로 연결됨) 플랫폼으로 이동할 수 있다",
-"handle": "ravene.bsky.social",
-"name": "LO",
-"time": "2026-11-07T04:31:31.470Z",
-"likes": 3,
-"reposts": 0,
-"url": "https://bsky.app/profile/ravene.bsky.social/post/3mzp2ty3hic26",
-"term": "지하철"
-},
-{
 "platform": "YouTube",
 "text": "긴급! 대법원장 등 탄핵에 폭발! 전국 판사들 현재 투표중! 전국법관대표회의 곧 소집될 듯!",
 "handle": "UCVo5LGkqgZyRKgZxJvNt9rQ",
@@ -2913,18 +2871,11 @@
 ],
 "spikes": [
 {
-"term": "붕괴",
+"term": "속보",
 "n30": 5,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-07T05:00:16.550972+00:00"
-},
-{
-"term": "속보",
-"n30": 6,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-07T05:00:16.550972+00:00"
+"since": "2026-11-07T05:02:29.894709+00:00"
 }
 ],
 "baseline": {
@@ -2932,17 +2883,17 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.74,
+"폭발": 0.77,
 "붕괴": 0.05,
 "대피": 0.05,
-"미사일": 0.24,
+"미사일": 0.22,
 "속보": 0.05,
-"지하철": 2.15,
-"사고": 1.66,
+"지하철": 2.04,
+"사고": 1.59,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
-"먹통": 0.45,
+"먹통": 0.41,
 "산불": 0.05
 },
 "errors": [],
