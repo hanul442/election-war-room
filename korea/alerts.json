@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-07T13:31:47.038573+00:00",
+"updated": "2026-11-07T13:34:00.720897+00:00",
 "errors": [],
 "events": [
 {
@@ -3609,7 +3609,7 @@
 "spike": false
 },
 "화재": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -3645,17 +3645,17 @@
 },
 "속보": {
 "n30": 0,
-"base": 0.3,
+"base": 0.2,
 "spike": false
 },
 "지하철": {
-"n30": 1,
+"n30": 0,
 "base": 0.2,
 "spike": false
 },
 "사고": {
 "n30": 3,
-"base": 2.5,
+"base": 2.6,
 "spike": false
 },
 "실종": {
@@ -3954,17 +3954,17 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 0.71,
+"지진": 0.74,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.11,
-"붕괴": 0.72,
+"폭발": 0.1,
+"붕괴": 0.75,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.24,
-"지하철": 0.21,
-"사고": 2.59,
+"속보": 0.22,
+"지하철": 0.19,
+"사고": 2.63,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -4194,6 +4194,24 @@
 },
 "trends": [
 {
+"term": "sbs",
+"traffic": "500+",
+"time": "2026-11-07T12:30:00+00:00",
+"news": [
+{
+"title": "Cha Cheong-hwa joins SBS drama 9 to 6 as corporate support head",
+"source": "Chosunbiz",
+"link": "https://biz.chosun.com/en/en-entertainment/2026/11/05/5HE6SVDTEVGWTOJWGZ4ORT5ECI/"
+},
+{
+"title": "Cha Chung-hwa Cast as Political Management Head in 'Nine to Six'",
+"source": "조선일보",
+"link": "https://www.chosun.com/english/kpop-culture-en/2026/11/05/7IKXEKZ3XBDTTETMY6DI6FDFCE/"
+}
+],
+"new": true
+},
+{
 "term": "persija jakarta vs persebaya",
 "traffic": "200+",
 "time": "2026-11-07T12:00:00+00:00",
@@ -4343,24 +4361,6 @@
 }
 ],
 "new": true
-},
-{
-"term": "리즈 유나이티드 대 토트넘",
-"traffic": "20000+",
-"time": "2026-11-07T11:30:00+00:00",
-"news": [
-{
-"title": "\"맨유전 3시간 불꽃 난상토론\" 데제르비의 토트넘, '3연승' 대반전 이유가 밝혀졌다! 최하위→9위→오늘밤 리즈 원정 승리시 '톱5' 눈앞",
-"source": "조선일보",
-"link": "https://www.chosun.com/sports/world-football/2026/11/07/GRRDKNZQMM2GMODCMVSDCNDFG4/"
-},
-{
-"title": "‘EPL 20→9위’ 수직 상승! 616일, 손흥민과 이별 후 처음 터진 상승세! 토트넘의 반등 이유 “신뢰 회...",
-"source": "스포츠경향",
-"link": "https://sports.khan.co.kr/article/202611072029003"
-}
-],
-"new": false
 }
 ],
 "trendSeen": [
