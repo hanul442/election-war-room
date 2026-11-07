@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-07T12:42:13.880000+00:00",
+"updated": "2026-11-07T12:44:27.475035+00:00",
 "errors": [],
 "events": [
 {
@@ -3841,13 +3841,13 @@
 "spike": false
 },
 "폭발": {
-"n30": 6,
-"base": 1.2,
+"n30": 5,
+"base": 1.0,
 "spike": true
 },
 "붕괴": {
 "n30": 5,
-"base": 0.8,
+"base": 0.7,
 "spike": true
 },
 "대피": {
@@ -3861,8 +3861,8 @@
 "spike": false
 },
 "속보": {
-"n30": 10,
-"base": 0.1,
+"n30": 9,
+"base": 0.2,
 "spike": true
 },
 "지하철": {
@@ -4171,24 +4171,24 @@
 "spikes": [
 {
 "term": "폭발",
-"n30": 6,
-"base": 1.2,
+"n30": 5,
+"base": 1.0,
 "spike": true,
-"since": "2026-11-07T12:42:13.880000+00:00"
+"since": "2026-11-07T12:44:27.475035+00:00"
 },
 {
 "term": "붕괴",
 "n30": 5,
-"base": 0.8,
+"base": 0.7,
 "spike": true,
-"since": "2026-11-07T12:42:13.880000+00:00"
+"since": "2026-11-07T12:44:27.475035+00:00"
 },
 {
 "term": "속보",
-"n30": 10,
-"base": 0.1,
+"n30": 9,
+"base": 0.2,
 "spike": true,
-"since": "2026-11-07T12:42:13.880000+00:00"
+"since": "2026-11-07T12:44:27.475035+00:00"
 }
 ],
 "baseline": {
@@ -4196,12 +4196,12 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 1.04,
-"붕괴": 0.69,
+"폭발": 0.94,
+"붕괴": 0.62,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.24,
-"지하철": 0.52,
+"속보": 0.32,
+"지하철": 0.57,
 "사고": 1.95,
 "실종": 0.05,
 "단수": 0.05,
@@ -4441,6 +4441,49 @@
 },
 "trends": [
 {
+"term": "weather tomorrow",
+"traffic": "2000+",
+"time": "2026-11-07T11:40:00+00:00",
+"news": [
+{
+"title": "Iowa Football vs. Northwestern Forecast: Perfect Weather Sets the Stage at Ryan Field",
+"source": "Sports Illustrated",
+"link": "https://www.si.com/college/iowa/football/iowa-football-vs-northwestern-forecast-weather-ryan-field"
+},
+{
+"title": "#19 Hawkeyes to battle Northwestern at the new Ryan Field in primetime",
+"source": "OurQuadCities",
+"link": "https://www.ourquadcities.com/sports/hawkeye-headquarters/19-hawkeyes-to-battle-northwestern-at-the-new-ryan-field-in-primetime/"
+}
+],
+"new": true
+},
+{
+"term": "погода завтра",
+"traffic": "500+",
+"time": "2026-11-07T11:40:00+00:00",
+"news": [],
+"new": true
+},
+{
+"term": "thời tiết ngày mai",
+"traffic": "1000+",
+"time": "2026-11-07T11:40:00+00:00",
+"news": [
+{
+"title": "Ngày nào rét nhất trong đợt không khí lạnh ở miền Bắc?",
+"source": "phapluat.suckhoedoisong.vn",
+"link": "https://phapluat.suckhoedoisong.vn/ngay-nao-ret-nhat-trong-dot-khong-khi-lanh-o-mien-bac-287064.html"
+},
+{
+"title": "Ảnh hưởng của không khí lạnh, vùng núi Bắc Bộ rét đậm, miền Trung mưa rất lớn",
+"source": "Báo Lâm Đồng",
+"link": "https://baolamdong.vn/anh-huong-cua-khong-khi-lanh-vung-nui-bac-bo-ret-dam-mien-trung-mua-rat-lon-473265.html"
+}
+],
+"new": true
+},
+{
 "term": "리즈 유나이티드 대 토트넘",
 "traffic": "10000+",
 "time": "2026-11-07T11:30:00+00:00",
@@ -4565,60 +4608,6 @@
 }
 ],
 "new": true
-},
-{
-"term": "권인하",
-"traffic": "200+",
-"time": "2026-11-07T10:10:00+00:00",
-"news": [
-{
-"title": "‘천둥 호랑이’ 권인하, 시원한 고음 뒤 잔잔한 여운…‘비 오는 날의 수채화’",
-"source": "싱글리스트",
-"link": "https://www.slist.kr/news/articleView.html?idxno=779806"
-},
-{
-"title": "‘55년 우정’ 양희은, 故 전유성에 “좀 괴팍했지만 퍼주고 생색내지 않았다”",
-"source": "주간경향",
-"link": "https://weekly.khan.co.kr/article/202611072030001"
-}
-],
-"new": true
-},
-{
-"term": "이선민",
-"traffic": "100+",
-"time": "2026-11-07T10:10:00+00:00",
-"news": [
-{
-"title": "리센느, ‘2026 KGMA‘ 4관왕 기염 “과분한 사랑... 항상 성장하겠다” [2026 KGMA]",
-"source": "일간스포츠",
-"link": "https://isplus.com/article/view/isp202611070397"
-},
-{
-"title": "'그랜드 송'까지 4관왕…트레저 \"뜻 깊은 상…멋진 아티스트 될 것\"[2026 KGMA]",
-"source": "이데일리",
-"link": "https://www.edaily.co.kr/News/Read?newsId=03772006645643424&mediaCodeNo=257"
-}
-],
-"new": false
-},
-{
-"term": "라면",
-"traffic": "2000+",
-"time": "2026-11-07T10:00:00+00:00",
-"news": [
-{
-"title": "\"하루 만에 라면 2만 그릇 팔렸다\"…매출 1억7000만원 초대박",
-"source": "한국경제",
-"link": "https://www.hankyung.com/article/2026110721917"
-},
-{
-"title": "입동 추위 이겨낸 '라면 축제'...국화향기 즐긴 발걸음도 북적",
-"source": "YTN",
-"link": "https://www.ytn.co.kr/_ln/0115_202611072112197320"
-}
-],
-"new": false
 }
 ],
 "trendSeen": [
