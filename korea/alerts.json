@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-07T04:14:44.077678+00:00",
+"updated": "2026-11-07T04:16:58.926116+00:00",
 "errors": [],
 "events": [
 {
@@ -187,11 +187,12 @@
 "id": "ThGSTRoeFVoMmNtWnZhQQoc52239",
 "first": "2026-11-06T22:39:11+00:00",
 "last": "2026-11-07T03:27:06+00:00",
-"updated": "2026-11-07T03:32:02.011901+00:00",
+"updated": "2026-11-07T04:16:58.926116+00:00",
 "headline": "미래에셋증권도 해킹…고객·임직원 정보 일부 유출",
 "cat": "기타",
 "regions": [],
 "sources": [
+"KBS 뉴스",
 "MBC 뉴스",
 "OBC 뉴스",
 "SBS",
@@ -402,6 +403,13 @@
 "stage": "후속"
 },
 {
+"title": "미래에셋증권도 해킹…3만 9천명 정보 유출",
+"source": "KBS 뉴스",
+"link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9iX3ZqQkhLUFpjVE5zX2k5NmRMdEU1R0F5Rm00R0tvNjhFeHoyblRIaGIwQ1F4em5TcWVDVHlDUHBrUzE4UUNXSXZ6QjV2LWFudEVJcnBUMWs1aUU?oc=5",
+"time": "2026-11-07T02:59:00+00:00",
+"stage": "후속"
+},
+{
 "title": "미래에셋증권, 해킹으로 3만 9천여 명 정보 유출",
 "source": "SBS",
 "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008835139&plink=RSSLINK&cooper=RSSREADER",
@@ -429,6 +437,7 @@
 "3천여",
 "5만명",
 "5천여",
+"9천명",
 "9천여",
 "개인정보",
 "계좌",
@@ -2557,59 +2566,6 @@
 "스페이스X",
 "엔비디아"
 ]
-},
-{
-"id": "1xU2x4LVVlUC1GakJUejQoc52215",
-"first": "2026-11-06T22:15:00+00:00",
-"last": "2026-11-06T22:15:00+00:00",
-"updated": "2026-11-06T22:25:40.131121+00:00",
-"headline": "국힘, '조작기소특검법' 강행 규탄 서울 도심서 장외 집회",
-"cat": "기타",
-"regions": [
-"서울"
-],
-"sources": [
-"SBS",
-"대전일보",
-"연합뉴스"
-],
-"updates": [
-{
-"title": "국힘, 서울 도심서 '조작기소특검법' 규탄 대규모 집회",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261106178400001",
-"time": "2026-11-06T20:00:00+00:00",
-"stage": "후속"
-},
-{
-"title": "국민의힘, 서울 도심서 '조작기소특검법' 규탄 대규모 집회",
-"source": "SBS",
-"link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008834927&plink=RSSLINK&cooper=RSSREADER",
-"time": "2026-11-06T22:01:00+00:00",
-"stage": "후속"
-},
-{
-"title": "[속보] 국힘, '조작기소특검법' 강행 규탄 서울 도심서 장외 집회",
-"source": "대전일보",
-"link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9uZGZ3QWRzNzZ5dTRfa1ZrQUEtcXJZdXFwcWtldzFhSXpKRTdaeVZrUkdPaEtGYVBMcS1nU3NEVmphNFhETzdiQXlyZlFBYjB0Tm9DSzZDRjJwdWZpeWMxMHBqem9qNlM4cG9BV1VtNNIBc0FVX3lxTE5hR3g5NEFPb0dsVzkwbF9SdG5RQ1hXLVotWDFWbFU5VmxPOS1CdmhTNmgyRUY4S01ucmdtb2hnTV9mT1pHcGlXUExNNnNJNTFDTGlpNXFBLWtkQ244YW9FNzVseG1xU2x4LVVlUC1GakJUejQ?oc=5",
-"time": "2026-11-06T22:15:00+00:00",
-"stage": "얼럿"
-}
-],
-"level": "URGENT",
-"latest": "국힘, '조작기소특검법' 강행 규탄 서울 도심서 장외 집회",
-"tok": [
-"강행",
-"국민의힘",
-"국힘",
-"규탄",
-"대규모",
-"도심서",
-"서울",
-"장외",
-"조작기소특검법",
-"집회"
-]
 }
 ],
 "sns": {
@@ -2620,7 +2576,7 @@
 "spike": false
 },
 "화재": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -2651,7 +2607,7 @@
 },
 "미사일": {
 "n30": 1,
-"base": 1.3,
+"base": 1.2,
 "spike": false
 },
 "속보": {
@@ -2955,17 +2911,17 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 0.08,
+"지진": 0.07,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
 "폭발": 0.05,
 "붕괴": 0.05,
 "대피": 0.05,
-"미사일": 1.23,
+"미사일": 1.21,
 "속보": 0.05,
-"지하철": 0.82,
-"사고": 1.71,
+"지하철": 0.84,
+"사고": 1.74,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -3210,7 +3166,7 @@
 "link": "https://www.donga.com/news/Inter/article/all/20261106/134982640/2"
 }
 ],
-"new": true
+"new": false
 },
 {
 "term": "kc t1",
@@ -3362,14 +3318,14 @@
 "time": "2026-11-07T01:50:00+00:00",
 "news": [
 {
-"title": "New Zealand vs India Live Score, 2nd ODI: Auqib Nabi, Kamboj strike inside PowerPlay; NZ 29/3 (10) vs IND",
-"source": "Sportstar",
-"link": "https://sportstar.thehindu.com/cricket/india-vs-new-zealand-live-score-wellington-weather-news-ind-nz-2nd-odi/article71675947.ece"
+"title": "NZ vs Ind, 2nd ODI, Live Blog - Quicks all over New Zealand on helpful pitch",
+"source": "Cricinfo",
+"link": "https://www.cricinfo.com/series/india-in-new-zealand-2026-27-1539421/new-zealand-vs-india-2nd-odi-1539438/live-match-blog"
 },
 {
-"title": "IND vs NZ 2nd ODI: Shubman Gill Opts To Bowl, Auqib Nabi Claims Maiden Wicket as India Strikes Early in Rain-Curtailed 47-Over Clash",
-"source": "Pragativadi",
-"link": "https://pragativadi.com/ind-vs-nz-2nd-odi-shubman-gill-opts-to-bowl-auqib-nabi-claims-maiden-wicket-as-india-strikes-early-in-rain-curtailed-47-over-clash/"
+"title": "India vs New Zealand Live Score 2nd ODI: NZ struggle after early wickets; India on top",
+"source": "Rediff",
+"link": "https://www.rediff.com/cricket/commentary/2026/nov/07/liveupdates.htm"
 }
 ],
 "new": true
