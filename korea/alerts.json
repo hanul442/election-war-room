@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-07T10:41:24.329185+00:00",
+"updated": "2026-11-07T10:43:38.388942+00:00",
 "errors": [],
 "events": [
 {
@@ -223,6 +223,37 @@
 "주장",
 "해군",
 "호르무즈",
+"화재"
+]
+},
+{
+"id": "1YVNlNXJDMDJqb3NPWmJnoc51012",
+"first": "2026-11-07T10:12:12+00:00",
+"last": "2026-11-07T10:12:12+00:00",
+"updated": "2026-11-07T10:43:38.388942+00:00",
+"headline": "울주 언양 폐기물중간처리업체서 나흘 만에 또 화재",
+"cat": "재난",
+"regions": [],
+"sources": [
+"투어코리아"
+],
+"updates": [
+{
+"title": "[속보] 울주 언양 폐기물중간처리업체서 나흘 만에 또 화재",
+"source": "투어코리아",
+"link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5TRXZjSUJnZ196aWJhODRDVUU1OUFhV216d3o4UkJpUkhKTEN4aDh3VXh3cnFWUzc2a0JrZzRYaVRJN3J5ZzgxcHZwa0dZQU9HV05tamFjTmRncDk3dWs1YVNlNXJDMDJqb3NPWmJn?oc=5",
+"time": "2026-11-07T10:12:12+00:00",
+"stage": "얼럿"
+}
+],
+"level": "URGENT",
+"latest": "울주 언양 폐기물중간처리업체서 나흘 만에 또 화재",
+"tok": [
+"나흘",
+"만에",
+"언양",
+"울주",
+"폐기물중간처리업체서",
 "화재"
 ]
 },
@@ -4032,9 +4063,9 @@
 "spike": false
 },
 "속보": {
-"n30": 5,
+"n30": 4,
 "base": 0.6,
-"spike": true
+"spike": false
 },
 "지하철": {
 "n30": 3,
@@ -4043,12 +4074,12 @@
 },
 "사고": {
 "n30": 3,
-"base": 1.8,
+"base": 2.0,
 "spike": false
 },
 "실종": {
 "n30": 1,
-"base": 0.6,
+"base": 0.7,
 "spike": false
 },
 "단수": {
@@ -4321,15 +4352,7 @@
 "url": "https://www.youtube.com/watch?v=EG1zg2KXawM"
 }
 ],
-"spikes": [
-{
-"term": "속보",
-"n30": 5,
-"base": 0.6,
-"spike": true,
-"since": "2026-11-07T10:41:24.329185+00:00"
-}
-],
+"spikes": [],
 "baseline": {
 "지진": 0.05,
 "화재": 0.05,
@@ -4339,10 +4362,10 @@
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.58,
+"속보": 0.52,
 "지하철": 0.05,
-"사고": 1.96,
-"실종": 0.68,
+"사고": 2.06,
+"실종": 0.71,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -4562,6 +4585,38 @@
 },
 "trends": [
 {
+"term": "김천상무 대 fc 안양 순위",
+"traffic": "1000+",
+"time": "2026-11-07T09:40:00+00:00",
+"news": [],
+"new": true
+},
+{
+"term": "최예나",
+"traffic": "500+",
+"time": "2026-11-07T09:40:00+00:00",
+"news": [],
+"new": true
+},
+{
+"term": "동행",
+"traffic": "100+",
+"time": "2026-11-07T09:40:00+00:00",
+"news": [
+{
+"title": "[단독] 탈옥 대비해 ‘총 든 군인’…교도소 이송 작전 ‘첫 공개’",
+"source": "JTBC",
+"link": "https://news.jtbc.co.kr/article/NB12326874"
+},
+{
+"title": "원주교도소, 47년 만에 새 보금자리로...새로운 도약 나선다",
+"source": "대한민국 정책브리핑",
+"link": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156788085"
+}
+],
+"new": true
+},
+{
 "term": "전유성",
 "traffic": "1000+",
 "time": "2026-11-07T09:10:00+00:00",
@@ -4686,54 +4741,9 @@
 }
 ],
 "new": true
-},
-{
-"term": "수원 kt 대 대구 한국가스공사",
-"traffic": "500+",
-"time": "2026-11-07T07:30:00+00:00",
-"news": [],
-"new": false
-},
-{
-"term": "불꽃축제 부산",
-"traffic": "1000+",
-"time": "2026-11-07T07:20:00+00:00",
-"news": [
-{
-"title": "밤 하늘과 바다 수놓은 화려한 불꽃...'부산불꽃축제' [현장영상+]",
-"source": "YTN",
-"link": "https://www.ytn.co.kr/_ln/0115_202611071909593781"
-},
-{
-"title": "오늘 밤 부산 광안리서 불꽃축제… 100만 인파에 안전요원 7000명 투입",
-"source": "조선일보",
-"link": "https://www.chosun.com/national/regional/2026/11/07/6PYYMYSQRBGXVKG2P2WXIWLAOM/"
-}
-],
-"new": false
-},
-{
-"term": "젠슨황",
-"traffic": "2000+",
-"time": "2026-11-07T07:20:00+00:00",
-"news": [
-{
-"title": "“젠슨 황 ‘中스파이 의혹’ 여성과 연인관계”…美정부 메모 파장",
-"source": "중앙일보",
-"link": "https://www.joongang.co.kr/article/25476575"
-},
-{
-"title": "\"美 정보기관, 젠슨 황-'스파이 의혹' 사업가 '연인 사이' 판단\"(종합)",
-"source": "뉴스1",
-"link": "https://www.news1.kr/world/usa-canada/6346515"
-}
-],
-"new": false
 }
 ],
 "trendSeen": [
-"농구",
-"농성",
 "농장",
 "뉴스",
 "다니엘기도회 2026",
@@ -4753,6 +4763,7 @@
 "도상우",
 "돔 경기장",
 "동티모르",
+"동행",
 "두 번째 시그널",
 "두산에너 빌리티",
 "두산에너빌리티",
@@ -4963,6 +4974,7 @@
 "차명석",
 "창신동",
 "창원 lg 대 고양 소노",
+"최예나",
 "최우식",
 "최원태",
 "최인호",
