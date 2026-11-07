@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-07T22:02:13.862731+00:00",
+"updated": "2026-11-07T22:04:27.665084+00:00",
 "errors": [],
 "events": [
 {
@@ -472,7 +472,7 @@
 "spike": false
 },
 "폭발": {
-"n30": 3,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
@@ -492,18 +492,18 @@
 "spike": false
 },
 "속보": {
-"n30": 2,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
 "지하철": {
 "n30": 1,
-"base": 0.3,
+"base": 0.4,
 "spike": false
 },
 "사고": {
 "n30": 1,
-"base": 0.3,
+"base": 0.4,
 "spike": false
 },
 "실종": {
@@ -790,10 +790,10 @@
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.39,
-"사고": 0.39,
+"지하철": 0.45,
+"사고": 0.45,
 "실종": 0.05,
-"단수": 0.37,
+"단수": 0.33,
 "통신 장애": 0.05,
 "먹통": 0.05,
 "산불": 0.05
@@ -1030,6 +1030,96 @@
 },
 "trends": [
 {
+"term": "드라마",
+"traffic": "500+",
+"time": "2026-11-07T21:00:00+00:00",
+"news": [
+{
+"title": "\"넷플릭스에선 대박 나는데\"…한국 드라마 업계의 비명 [김예랑의 K컬처인사이드]",
+"source": "한국경제",
+"link": "https://www.hankyung.com/article/202611060276H"
+},
+{
+"title": "드라마 업계 12개 단체 \"제작 감소로 K드라마 생태계 붕괴 위기, 국가가 지원해야\"",
+"source": "조선일보",
+"link": "https://www.chosun.com/culture-life/culture_general/2026/11/04/4V2DMJFDBBGYXAOL73AJ5T4ZU4/"
+}
+],
+"new": true
+},
+{
+"term": "습관",
+"traffic": "100+",
+"time": "2026-11-07T21:00:00+00:00",
+"news": [
+{
+"title": "“아침에 ‘이 습관’ 없으면 신장에 돌 생긴다”…美 의사 경고 나왔다 [헬시타임]",
+"source": "서울경제",
+"link": "https://www.sedaily.com/article/20111484"
+},
+{
+"title": "“콩팥에 돌 생길라”…‘이 음료’ 과다 섭취땐 신장건강 악영향",
+"source": "농민신문",
+"link": "https://www.nongmin.com/article/20261104500125"
+}
+],
+"new": true
+},
+{
+"term": "valencia vs madrid",
+"traffic": "100+",
+"time": "2026-11-07T21:00:00+00:00",
+"news": [
+{
+"title": "Real Madrid legend pokes fun at Valencia star during La Liga clash",
+"source": "Get Spanish Football News",
+"link": "https://getfootballnewsspain.com/real-madrid-legend-pokes-fun-at-valencia-star-during-la-liga-clash/"
+},
+{
+"title": "‘This is pointless, s**t’ – Valencia star explodes in half-time interview vs Real Madrid",
+"source": "Get Spanish Football News",
+"link": "https://getfootballnewsspain.com/this-is-pointless-st-valencia-star-explodes-in-half-time-interview-vs-real-madrid/"
+}
+],
+"new": true
+},
+{
+"term": "이창훈",
+"traffic": "100+",
+"time": "2026-11-07T21:00:00+00:00",
+"news": [
+{
+"title": "\"그때 난리가 났다\"...이창훈, 송혜교와 '열애설' 입 열었다 - 머니투데이",
+"source": "머니투데이",
+"link": "https://www.mt.co.kr/entertainment/2026/11/07/2026110715595549078"
+},
+{
+"title": "이창훈 “송혜교와 열애설? ‘원조교제’ 억지에 욕하기도”",
+"source": "문화일보",
+"link": "https://www.munhwa.com/article/11629502"
+}
+],
+"new": true
+},
+{
+"term": "젠슨 황",
+"traffic": "2000+",
+"time": "2026-11-07T20:50:00+00:00",
+"news": [
+{
+"title": "젠슨 황 장녀 매디슨 황, 방한 하루 앞두고 취소…\"가족 사유\"",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261107050000017"
+},
+{
+"title": "젠슨 황, 중국 스파이 의심 여성과 연인 관계였나···미 정보당국 메모에 드러난 새로운 사실",
+"source": "경향신문",
+"link": "https://www.khan.co.kr/article/202611071346001"
+}
+],
+"new": false
+},
+{
 "term": "잠실주공5단지 아파트",
 "traffic": "200+",
 "time": "2026-11-07T20:50:00+00:00",
@@ -1118,101 +1208,9 @@
 }
 ],
 "new": true
-},
-{
-"term": "이주헌",
-"traffic": "200+",
-"time": "2026-11-07T20:00:00+00:00",
-"news": [
-{
-"title": "“영케이·트레저·리센느가 주인공”…2026 KGMA 개막과 수상자 발표, 첫날 그랜드상 결과는? : 네이버 블로그",
-"source": "Naver Blog",
-"link": "https://blog.naver.com/PostView.naver?blogId=yooju0913&logNo=224468709345&redirect=Dlog"
-},
-{
-"title": "“신곡 2시간 만에 1위, 이번엔 트로피 4개”…2026 KGMA 개최 리센느 수상, 5일 사이 달라진 위상",
-"source": "Naver Blog",
-"link": "https://blog.naver.com/PostView.naver?blogId=yooju0913&logNo=224468701888&redirect=Dlog"
-}
-],
-"new": false
-},
-{
-"term": "넷플릭스",
-"traffic": "1000+",
-"time": "2026-11-07T19:50:00+00:00",
-"news": [
-{
-"title": "‘가능한 사랑’ 넷플릭스 공개…이창동 감독 “안방 관객 반응 어떨지 설렌다”",
-"source": "경향신문",
-"link": "https://www.khan.co.kr/article/202611061859001"
-},
-{
-"title": "[금주OTT신작] '가능한 사랑', '데블스 플랜', '옆자리 프란체스카' 등 공개",
-"source": "뉴스핌",
-"link": "https://www.newspim.com/news/view/20261106000489"
-}
-],
-"new": true
-},
-{
-"term": "2026",
-"traffic": "500+",
-"time": "2026-11-07T19:40:00+00:00",
-"news": [
-{
-"title": "The 2028 Election Map Just Broke Wide Open",
-"source": "WSJ",
-"link": "https://www.wsj.com/politics/elections/2028-election-president-battleground-map-3b8567b9"
-},
-{
-"title": "Nate Silver Reveals His 2028 ‘Slam Dunk’ Favorite for President",
-"source": "The Daily Beast",
-"link": "https://www.thedailybeast.com/nate-silver-reveals-his-2028-slam-dunk-favorite-for-president"
-}
-],
-"new": true
-},
-{
-"term": "psg 대 트루아",
-"traffic": "1000+",
-"time": "2026-11-07T19:30:00+00:00",
-"news": [
-{
-"title": "파리 생제르맹 vs 에스타크 트루아 경기 예측: 홈팀이 연승 행진을 이어갈 수 있을까요?",
-"source": "Vietnam.vn",
-"link": "https://www.vietnam.vn/ko/nhan-dinh-paris-saint-germain-vs-estac-troyes-chu-nha-noi-dai-mach-thang-hoa"
-},
-{
-"title": "2026년 11월 28일 파르크 데 프랭스에서 열리는 PSG-로리앙 경기: 티켓, 가격, 경기장 가는 법과 관람 전 팁",
-"source": "Sortir à Paris",
-"link": "https://www.sortiraparis.com/ko/palieseo-hal-il/seupocheu-welbing/articles/357277-2026nyeon-11wol-28il-paleukeu-de-peulaengseueseo-yeollineun-psg-loliangjeon-tikes-yogeum-ibjang-mich-gyeong-gi-gwanlam-jeon-al-adul-jeom"
-}
-],
-"new": true
-},
-{
-"term": "박수홍",
-"traffic": "2000+",
-"time": "2026-11-07T19:20:00+00:00",
-"news": [
-{
-"title": "박수홍 아내, '딸 돈자랑' 맛들였나..'800만원 신발' 이어 '명품 패딩' 인증 뭇매[Oh!쎈 이슈]",
-"source": "조선일보",
-"link": "https://www.chosun.com/entertainments/broadcast/2026/11/07/MQYWKYJUGMYDIOJQGU2TCY3CHA/"
-},
-{
-"title": "‘박수홍♥’ 김다예, ‘140만 원 명품 패딩’ 딸 사진 올렸다 삭제… 잇따른 ‘돈자랑 논란’ 왜?",
-"source": "스포츠경향",
-"link": "https://sports.khan.co.kr/article/202611071658003"
-}
-],
-"new": false
 }
 ],
 "trendSeen": [
-"래미안 원베일리",
-"래미안원베일리",
 "레인보우로보틱스",
 "로또1249",
 "로보월드",
@@ -1306,6 +1304,7 @@
 "스노클링",
 "스톡 옵션",
 "스페이스x",
+"습관",
 "시콜 스키 s 92",
 "시험",
 "식이",
@@ -1383,6 +1382,7 @@
 "이재희",
 "이주승",
 "이주헌",
+"이창훈",
 "이천수",
 "이현중",
 "이혜정",
