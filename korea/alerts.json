@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-07T17:43:59.858298+00:00",
+"updated": "2026-11-07T17:46:13.797769+00:00",
 "errors": [],
 "events": [
 {
@@ -1857,7 +1857,7 @@
 "terms": {
 "지진": {
 "n30": 3,
-"base": 2.1,
+"base": 2.2,
 "spike": false
 },
 "화재": {
@@ -1876,13 +1876,13 @@
 "spike": false
 },
 "폭발": {
-"n30": 5,
-"base": 0.9,
-"spike": true
+"n30": 3,
+"base": 1.0,
+"spike": false
 },
 "붕괴": {
 "n30": 0,
-"base": 0.7,
+"base": 0.6,
 "spike": false
 },
 "대피": {
@@ -1907,7 +1907,7 @@
 },
 "사고": {
 "n30": 0,
-"base": 0.5,
+"base": 0.4,
 "spike": false
 },
 "실종": {
@@ -2213,28 +2213,20 @@
 "url": "https://www.youtube.com/watch?v=gpzWweZNamU"
 }
 ],
-"spikes": [
-{
-"term": "폭발",
-"n30": 5,
-"base": 0.9,
-"spike": true,
-"since": "2026-11-07T17:43:59.858298+00:00"
-}
-],
+"spikes": [],
 "baseline": {
-"지진": 2.23,
+"지진": 2.31,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 1.02,
-"붕괴": 0.62,
+"폭발": 1.12,
+"붕괴": 0.56,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.12,
+"속보": 0.11,
 "지하철": 0.05,
-"사고": 0.41,
-"실종": 0.06,
+"사고": 0.37,
+"실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -2572,9 +2564,9 @@
 "link": "https://programs.sbs.co.kr/culture/unansweredquestions/vod/55075/22000639438"
 },
 {
-"title": "[이슈5] \"보자마자 흉기 휘둘러\"…장모 살해 김성우 구속기소 外",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/MYH20261106018400038"
+"title": "'장모 살해·아내 납치' 김성우 구속 기소...스토킹 끝에 범행",
+"source": "YTN",
+"link": "https://www.ytn.co.kr/_ln/0103_202611062253499852"
 }
 ],
 "new": true
@@ -2590,9 +2582,9 @@
 "link": "https://www.cricbuzz.com/player-match-performance/match/177730/player/1739/batting"
 },
 {
-"title": "Kathmandu Ghorkaj Defeats Lumbini Lions by 36 Runs in Nepal Premier League",
+"title": "Kathmandu Gurkha Sets Moderate Score Against Lumbini Lions",
 "source": "Ratopati",
-"link": "https://english.ratopati.com/story/86002/undefeated-lumbinis-journey-halted-kathmandu-wins-by-36-runs"
+"link": "https://english.ratopati.com/story/85992/kathmandu-sets-a-moderate-target-for-lumbini"
 }
 ],
 "new": true
@@ -2603,14 +2595,14 @@
 "time": "2026-11-07T14:30:00+00:00",
 "news": [
 {
-"title": "Birmingham City v Swansea City: Championship stats & head-to-head",
-"source": "BBC",
-"link": "https://www.bbc.com/sport/football/live/cvlyd97z1k92t"
+"title": "Joshua Buatsi rejected Floyd Mayweather’s offer as Bristol City F.c. Vs Norwich City Standings backdrop grows",
+"source": "شبكة تواصل الإخبارية",
+"link": "https://twaslnews1.twaslnews.com/7264326/"
 },
 {
-"title": "Preview: Birmingham City v Swansea City",
-"source": "Birmingham City Football Club",
-"link": "https://www.bcfc.com/pages/en/media-article/preview-birmingham-city-v-swansea-city"
+"title": "Watford vs Middlesbrough LIVE: Boro drop more points in goalless draw vs Hornets",
+"source": "The Sun",
+"link": "https://www.thesun.co.uk/sport/40925928/watford-vs-middlesbrough-live-score-result-championship-updates/"
 }
 ],
 "new": false
@@ -2639,9 +2631,9 @@
 "time": "2026-11-07T14:10:00+00:00",
 "news": [
 {
-"title": "아스널 0-0 헐 시티 (전반전): 라야가 결정적인 선방을 해냅니다.",
+"title": "아스널 0-0 헐 시티 (전반전): 선제골을 넣기 위한 공격에 박차를 가하고 있다.",
 "source": "Vietnam.vn",
-"link": "https://www.vietnam.vn/ko/truc-tiep-arsenal-0-0-hull-city-h1-raya-cuu-thua"
+"link": "https://www.vietnam.vn/ko/truc-tiep-arsenal-0-0-hull-city-h2-tang-toc-tim-ban-mo-ty-so"
 },
 {
 "title": "리버풀은 빌라, 유벤투스는 나폴리…11월 1~2일 유럽축구 일정 : 스포츠",
