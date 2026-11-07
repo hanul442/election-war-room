@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-07T02:20:04.194173+00:00",
+"updated": "2026-11-07T02:22:19.621005+00:00",
 "errors": [],
 "events": [
 {
@@ -65,7 +65,7 @@
 "id": "43NHU0OE5QSHdxb3pYX2coc50543",
 "first": "2026-11-06T05:43:00+00:00",
 "last": "2026-11-07T02:11:10+00:00",
-"updated": "2026-11-07T02:13:18.030106+00:00",
+"updated": "2026-11-07T02:22:19.621005+00:00",
 "headline": "[날씨] 낮에도 쌀쌀…주말 절기 입동, 곳곳 한파주의보",
 "cat": "재난",
 "regions": [
@@ -203,6 +203,13 @@
 "source": "뉴시스",
 "link": "https://www.newsis.com/view/NISX20261107_0003858814",
 "time": "2026-11-07T01:35:40+00:00",
+"stage": "후속"
+},
+{
+"title": "[날씨] 입동 추위…서울 올가을 최저 0.4도, 첫얼음 관측",
+"source": "연합뉴스TV",
+"link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE4zakZkQ0MxYWFaV3NPdUNVQ09FWW9HcGV3WWZFTXAzSjdGbmwtYUtxek9HeGctbGZackphVVZMOVZjOWd3NWkyZXVUTi03V3EtREttU1ZJbFpVVEpDWk9hYi1xTFY0bWM?oc=5",
+"time": "2026-11-07T01:45:00+00:00",
 "stage": "후속"
 },
 {
@@ -2480,7 +2487,7 @@
 },
 "폭발": {
 "n30": 6,
-"base": 0.7,
+"base": 0.6,
 "spike": true
 },
 "붕괴": {
@@ -2509,7 +2516,7 @@
 "spike": false
 },
 "사고": {
-"n30": 3,
+"n30": 2,
 "base": 2.5,
 "spike": false
 },
@@ -2776,46 +2783,36 @@
 "reposts": 0,
 "url": "https://bsky.app/profile/karm9police.bsky.social/post/3mzos4azsjs2v",
 "term": "지진"
-},
-{
-"text": "락스타는 사고로 일찍 요절하거나 개오래살거나 둘 중 하나인 것 같음",
-"handle": "hoxymoxy.bsky.social",
-"name": "게뀰빡",
-"time": "2026-11-07T01:51:59.873Z",
-"likes": 2,
-"reposts": 0,
-"url": "https://bsky.app/profile/hoxymoxy.bsky.social/post/3mzorwr7tbs2d",
-"term": "사고"
 }
 ],
 "spikes": [
 {
 "term": "폭발",
 "n30": 6,
-"base": 0.7,
+"base": 0.6,
 "spike": true,
-"since": "2026-11-07T02:20:04.194173+00:00"
+"since": "2026-11-07T02:22:19.621005+00:00"
 },
 {
 "term": "속보",
 "n30": 10,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-07T02:20:04.194173+00:00"
+"since": "2026-11-07T02:22:19.621005+00:00"
 }
 ],
 "baseline": {
-"지진": 0.71,
+"지진": 0.74,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.64,
-"붕괴": 0.22,
+"폭발": 0.58,
+"붕괴": 0.2,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.06,
-"사고": 2.5,
+"지하철": 0.05,
+"사고": 2.45,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -3113,9 +3110,9 @@
 "time": "2026-11-07T00:40:00+00:00",
 "news": [
 {
-"title": "Boston Celtics vs Charlotte Hornets Nov 6, 2026 Box Scores",
+"title": "Washington Wizards vs Atlanta Hawks Nov 6, 2026 Box Scores",
 "source": "NBA.com",
-"link": "https://www.nba.com/game/bos-vs-cha-0022600026/box-score"
+"link": "https://www.nba.com/game/was-vs-atl-0022600025/box-score"
 },
 {
 "title": "Thunder 124-116 Cavaliers (Nov 4, 2026) Game Recap",
