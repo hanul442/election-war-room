@@ -1,48 +1,18 @@
 {
-"updated": "2026-11-07T16:36:22.095220+00:00",
+"updated": "2026-11-07T16:38:39.612590+00:00",
 "errors": [],
 "events": [
 {
-"id": "viewAKR202611080014005301613",
-"first": "2026-11-07T16:13:51+00:00",
-"last": "2026-11-07T16:13:51+00:00",
-"updated": "2026-11-07T16:19:51.515363+00:00",
-"headline": "일본 시즈오카현 하마마쓰시 북쪽서 규모 5.7 지진",
-"cat": "재난",
-"regions": [],
-"sources": [
-"연합뉴스"
-],
-"updates": [
-{
-"title": "일본 시즈오카현 하마마쓰시 북쪽서 규모 5.7 지진",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261108001400530",
-"time": "2026-11-07T16:13:51+00:00",
-"stage": "1보"
-}
-],
-"level": "FLASH",
-"latest": "일본 시즈오카현 하마마쓰시 북쪽서 규모 5.7 지진",
-"tok": [
-"규모",
-"북쪽서",
-"시즈오카현",
-"일본",
-"지진",
-"하마마쓰시"
-]
-},
-{
 "id": "viewAKR202611080004000981512",
 "first": "2026-11-07T15:12:32+00:00",
-"last": "2026-11-07T16:13:12+00:00",
-"updated": "2026-11-07T16:19:51.515363+00:00",
+"last": "2026-11-07T16:34:41+00:00",
+"updated": "2026-11-07T16:38:39.612590+00:00",
 "headline": "폴란드 크라쿠프 도심서 총기 난사…\"2명 사망·10명 부상\"",
 "cat": "사회",
 "regions": [],
 "sources": [
 "SBS",
+"뉴시스",
 "연합뉴스"
 ],
 "updates": [
@@ -73,13 +43,21 @@
 "link": "https://www.yna.co.kr/view/AKR20261108001051098",
 "time": "2026-11-07T16:13:12+00:00",
 "stage": "종합"
+},
+{
+"title": "[속보]폴란드 크라쿠프 도심서 총기 난사…5명 사망·12명 부상",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261108_0003859082",
+"time": "2026-11-07T16:34:41+00:00",
+"stage": "속보"
 }
 ],
 "level": "BULLETIN",
-"latest": "폴란드 크라쿠프 도심서 총기 난사…\"5명 사망·10여명 부상\"",
+"latest": "폴란드 크라쿠프 도심서 총기 난사…5명 사망·12명 부상",
 "tok": [
 "10명",
 "10여명",
+"12명",
 "2명",
 "5명",
 "난사",
@@ -90,6 +68,37 @@
 "총기",
 "크라쿠프",
 "폴란드"
+]
+},
+{
+"id": "viewAKR202611080014005301613",
+"first": "2026-11-07T16:13:51+00:00",
+"last": "2026-11-07T16:13:51+00:00",
+"updated": "2026-11-07T16:19:51.515363+00:00",
+"headline": "일본 시즈오카현 하마마쓰시 북쪽서 규모 5.7 지진",
+"cat": "재난",
+"regions": [],
+"sources": [
+"연합뉴스"
+],
+"updates": [
+{
+"title": "일본 시즈오카현 하마마쓰시 북쪽서 규모 5.7 지진",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261108001400530",
+"time": "2026-11-07T16:13:51+00:00",
+"stage": "1보"
+}
+],
+"level": "FLASH",
+"latest": "일본 시즈오카현 하마마쓰시 북쪽서 규모 5.7 지진",
+"tok": [
+"규모",
+"북쪽서",
+"시즈오카현",
+"일본",
+"지진",
+"하마마쓰시"
 ]
 },
 {
@@ -2163,7 +2172,7 @@
 "sns": {
 "terms": {
 "지진": {
-"n30": 5,
+"n30": 3,
 "base": 3.6,
 "spike": false
 },
@@ -2188,7 +2197,7 @@
 "spike": false
 },
 "붕괴": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -2203,8 +2212,8 @@
 "spike": false
 },
 "속보": {
-"n30": 3,
-"base": 0.2,
+"n30": 2,
+"base": 0.3,
 "spike": false
 },
 "지하철": {
@@ -2219,7 +2228,7 @@
 },
 "실종": {
 "n30": 1,
-"base": 0.5,
+"base": 0.6,
 "spike": false
 },
 "단수": {
@@ -2329,26 +2338,6 @@
 "likes": 0,
 "reposts": 0,
 "url": "https://bsky.app/profile/cocomuse.bsky.social/post/3mzqbwnj3w22f",
-"term": "지진"
-},
-{
-"text": "【지진 정보】일본 시간 11월 8일 01:04경\n진원: 진원 조사 중\n최대 진도: 5강\n진도 5강: 아이치현\n진도 5약: 나가노현, 기후현, 시즈오카현\n진도 4: 미에현\n진도 3: 후쿠이현, 야마나시현, 시가현, 교토부, 오사카부, 나라현\n(일본 기상청 발표)\n#일본 #지진 #방재",
-"handle": "ko.soramoyou.yk-planning.jp",
-"name": "Soramoyou 한국어",
-"time": "2026-11-07T16:08:33.069Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/ko.soramoyou.yk-planning.jp/post/3mzqbsfne572s",
-"term": "지진"
-},
-{
-"text": "잘려고 누웠는데 지진이",
-"handle": "envy1210.bsky.social",
-"name": "En✨️",
-"time": "2026-11-07T16:07:17.077Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/envy1210.bsky.social/post/3mzqbq4x6ic2t",
 "term": "지진"
 },
 {
@@ -2534,18 +2523,18 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 3.62,
+"지진": 3.46,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.08,
+"폭발": 0.07,
 "붕괴": 0.05,
 "대피": 0.05,
-"미사일": 0.09,
-"속보": 0.32,
+"미사일": 0.08,
+"속보": 0.39,
 "지하철": 0.05,
-"사고": 1.61,
-"실종": 0.56,
+"사고": 1.65,
+"실종": 0.6,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -2793,9 +2782,9 @@
 "link": "https://www.faz.net/aktuell/sport/rhein-main-sport/mainz-05/fsv-mainz-05-gegen-den-fc-bayern-muenchen-droht-ein-debakel-accg-201659357.html"
 },
 {
-"title": "Bundesliga: Wer zeigt / überträgt Mainz 05 vs. FC Bayern im TV und LIVE-STREAM?",
-"source": "DAZN",
-"link": "https://www.dazn.com/de-DE/news/fussball/bundesliga-wer-zeigt-uebertraegt-mainz-05-vs-fc-bayern-im-tv-und-live-stream/1cumq1imznl6c14skzqshjj7gr"
+"title": "Der 9. Bundesliga-Spieltag in Bildern!",
+"source": "FC Bayern",
+"link": "https://fcbayern.com/kidsclub/de/bilder/2026/11/bildergalerie-9.-bundesliga-spieltag-1.-fsv-mainz-05---fc-bayern"
 }
 ],
 "new": true
