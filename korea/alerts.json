@@ -1,12 +1,46 @@
 {
-"updated": "2026-11-07T06:38:32.240146+00:00",
+"updated": "2026-11-07T06:40:45.213396+00:00",
 "errors": [],
 "events": [
+{
+"id": "QNnkzdFZmMzNoTGtpRXFnoc50635",
+"first": "2026-11-07T06:35:54+00:00",
+"last": "2026-11-07T06:35:54+00:00",
+"updated": "2026-11-07T06:40:45.213396+00:00",
+"headline": "`헤어지자`는 동거녀 뒷덜미 붙잡아 감금…접근금지도 무시한 50대 `집유`",
+"cat": "기타",
+"regions": [],
+"sources": [
+"매일신문"
+],
+"updates": [
+{
+"title": "[속보] `헤어지자`는 동거녀 뒷덜미 붙잡아 감금…접근금지도 무시한 50대 `집유`",
+"source": "매일신문",
+"link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1NMHVib3A3ekhUdE8xNjhEOG8xSm5yaW5ZOW1fVWZNRXlIRGh4QkFxTnRWR0w1QjFQMTFRT2lUbEM5NUlJSi03cVFRUUVib0pRYWZQNnkzdFZmMzNoTGtpRXFn?oc=5",
+"time": "2026-11-07T06:35:54+00:00",
+"stage": "얼럿"
+}
+],
+"level": "URGENT",
+"latest": "`헤어지자`는 동거녀 뒷덜미 붙잡아 감금…접근금지도 무시한 50대 `집유`",
+"tok": [
+"50대",
+"감금",
+"동거녀",
+"뒷덜미",
+"무시한",
+"붙잡아",
+"접근금지",
+"집유",
+"헤어지자"
+]
+},
 {
 "id": "2ZHBPWldtcVNkakp2RjZzoc50605",
 "first": "2026-11-07T06:05:23+00:00",
 "last": "2026-11-07T06:33:39+00:00",
-"updated": "2026-11-07T06:38:32.240146+00:00",
+"updated": "2026-11-07T06:40:45.213396+00:00",
 "headline": "대구 3호선 지산~범물역 차량 고장…한때 열차 지연 발생",
 "cat": "교통",
 "regions": [
@@ -41,6 +75,13 @@
 "stage": "후속"
 },
 {
+"title": "대구도시철도 3호선 고장으로 운행 지연…30여분만에 정상화(종합)",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261107037051053",
+"time": "2026-11-07T06:31:33+00:00",
+"stage": "종합"
+},
+{
 "title": "대구도시철도 3호선 차량 고장… 전 구간 열차 운행 지연",
 "source": "조선일보",
 "link": "https://www.chosun.com/national/incident/2026/11/07/TME3R72MYBG57LPUSS2SZAVYAI/",
@@ -51,8 +92,10 @@
 "level": "URGENT",
 "latest": "대구도시철도 3호선 차량 고장… 전 구간 열차 운행 지연",
 "tok": [
+"30여분만",
 "3호선",
 "고장",
+"고장으",
 "구간",
 "대구",
 "대구도시철",
@@ -63,6 +106,7 @@
 "열차지연",
 "운행",
 "전구간",
+"정상화",
 "지산",
 "지상철",
 "지연",
@@ -2890,13 +2934,13 @@
 },
 "미사일": {
 "n30": 0,
-"base": 0.2,
+"base": 0.1,
 "spike": false
 },
 "속보": {
-"n30": 5,
+"n30": 4,
 "base": 0.6,
-"spike": true
+"spike": false
 },
 "지하철": {
 "n30": 1,
@@ -2904,13 +2948,13 @@
 "spike": false
 },
 "사고": {
-"n30": 5,
-"base": 3.0,
+"n30": 3,
+"base": 3.2,
 "spike": false
 },
 "실종": {
 "n30": 1,
-"base": 0.2,
+"base": 0.3,
 "spike": false
 },
 "단수": {
@@ -3112,16 +3156,6 @@
 "url": "https://www.youtube.com/watch?v=8LADg4vTAPY"
 },
 {
-"text": "ai땜에 오히려 사고력들이 망가진거같은데..",
-"handle": "mingguuu.bsky.social",
-"name": "케찹도둑",
-"time": "2026-11-07T06:10:18.376Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/mingguuu.bsky.social/post/3mzpaenvakk24",
-"term": "사고"
-},
-{
 "platform": "YouTube",
 "text": "🌋Volcanoes Kilauea national park Hawaii 유명한 화산 폭발 국립공원 킬라우에아",
 "handle": "UCpDcKjxKW7nsD-ElMcNgoKA",
@@ -3203,28 +3237,20 @@
 "url": "https://www.youtube.com/watch?v=gmcKIuiNUo4"
 }
 ],
-"spikes": [
-{
-"term": "속보",
-"n30": 5,
-"base": 0.6,
-"spike": true,
-"since": "2026-11-07T06:38:32.240146+00:00"
-}
-],
+"spikes": [],
 "baseline": {
-"지진": 0.48,
+"지진": 0.43,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
 "폭발": 0.05,
 "붕괴": 0.05,
 "대피": 0.05,
-"미사일": 0.15,
-"속보": 0.64,
+"미사일": 0.14,
+"속보": 0.68,
 "지하철": 0.05,
-"사고": 3.17,
-"실종": 0.32,
+"사고": 3.15,
+"실종": 0.39,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -3497,9 +3523,9 @@
 "link": "https://www.yna.co.kr/view/AKR20261107033200007"
 },
 {
-"title": "[사진]1타점 적시타 박승규, 다시 한점 더",
+"title": "[사진]김도환 번트 병살 만드는 김현수의 3루 송구",
 "source": "Chosunbiz",
-"link": "https://biz.chosun.com/sports/sports_photo/2026/11/07/GYYTOZLBHFQWEN3GGY3DAMBQMU/"
+"link": "https://biz.chosun.com/sports/sports_photo/2026/11/07/GQZTGOBQG4YGIOLBGFRDEOJSMM/"
 }
 ],
 "new": false
