@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-07T21:41:44.305753+00:00",
+"updated": "2026-11-07T21:44:01.061187+00:00",
 "errors": [],
 "events": [
 {
@@ -498,7 +498,7 @@
 "spike": false
 },
 "화재": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -528,7 +528,7 @@
 "spike": false
 },
 "미사일": {
-"n30": 4,
+"n30": 3,
 "base": 0.1,
 "spike": false
 },
@@ -816,14 +816,14 @@
 "n30": 6,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-07T21:41:44.305753+00:00"
+"since": "2026-11-07T21:44:01.061187+00:00"
 },
 {
 "term": "속보",
 "n30": 9,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-07T21:41:44.305753+00:00"
+"since": "2026-11-07T21:44:01.061187+00:00"
 }
 ],
 "baseline": {
@@ -839,7 +839,7 @@
 "지하철": 0.05,
 "사고": 0.05,
 "실종": 0.05,
-"단수": 0.71,
+"단수": 0.74,
 "통신 장애": 0.05,
 "먹통": 0.05,
 "산불": 0.05
@@ -1076,6 +1076,24 @@
 },
 "trends": [
 {
+"term": "valencia vs real madrid",
+"traffic": "200+",
+"time": "2026-11-07T20:40:00+00:00",
+"news": [
+{
+"title": "Valencia vs. Real Madrid: Preview, Predictions and Lineups",
+"source": "Sports Illustrated",
+"link": "https://www.si.com/soccer/valencia-vs-real-madrid-preview-predictions-lineups-11-7-26"
+},
+{
+"title": "Licensable video: Real Madrid's final training session before facing Valencia",
+"source": "Reuters Connect",
+"link": "https://www.reutersconnect.com/item/real-madrids-final-training-session-before-facing-valencia/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX09XRUZWQzU1MDIxOTEwOTc4MDAx"
+}
+],
+"new": true
+},
+{
 "term": "삼성전기",
 "traffic": "200+",
 "time": "2026-11-07T20:30:00+00:00",
@@ -1149,18 +1167,18 @@
 },
 {
 "term": "2026",
-"traffic": "200+",
+"traffic": "500+",
 "time": "2026-11-07T19:40:00+00:00",
 "news": [
 {
-"title": "The 2028 Election Map Just Broke Wide Open",
+"title": "Elon Musk Staked His Empire on Texas. Now State Democrats Want to Rein Him In.",
 "source": "WSJ",
-"link": "https://www.wsj.com/politics/elections/2028-election-president-battleground-map-3b8567b9"
+"link": "https://www.wsj.com/politics/policy/elon-musk-texas-midterm-elections-b993e58d"
 },
 {
-"title": "Nate Silver Reveals His 2028 ‘Slam Dunk’ Favorite for President",
-"source": "The Daily Beast",
-"link": "https://www.thedailybeast.com/nate-silver-reveals-his-2028-slam-dunk-favorite-for-president"
+"title": "How Elon Musk Frittered Away Nearly $500 Million on the Midterm Elections",
+"source": "The New York Times",
+"link": "https://www.nytimes.com/2026/11/06/us/politics/musk-trump-midterm-election-spending.html"
 }
 ],
 "new": true
@@ -1233,24 +1251,6 @@
 "title": "경기 프리뷰: 발렌시아 vs 레알 마드리드, 11월 8일 새벽 3시: 레알 마드리드의 연승 행진을 막기는 어려울 것이다.",
 "source": "Vietnam.vn",
 "link": "https://www.vietnam.vn/ko/nhan-dinh-tran-dau-valencia-vs-real-madrid-3h00-ngay-8-11-kho-can-mach-thang"
-}
-],
-"new": false
-},
-{
-"term": "배드민턴",
-"traffic": "1000+",
-"time": "2026-11-07T19:10:00+00:00",
-"news": [
-{
-"title": "안세영, 54연승으로 코리아오픈 결승행‥시즌 11번째 우승 도전",
-"source": "MBC 뉴스",
-"link": "https://imnews.imbc.com/news/2026/sports/article/6863904_36946.html"
-},
-{
-"title": "日 언론도 '여왕'이라 불렀다 \"상승세 아케치도 안세영 앞에선...\" 결승서 야마구치와 격돌 - 머니투데이",
-"source": "머니투데이",
-"link": "https://www.mt.co.kr/sports/2026/11/08/2026110804390943011"
 }
 ],
 "new": false
