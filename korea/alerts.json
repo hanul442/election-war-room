@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-07T00:20:46.697717+00:00",
+"updated": "2026-11-07T00:23:00.857888+00:00",
 "errors": [],
 "events": [
 {
@@ -495,12 +495,13 @@
 "id": "0RIMllwSWFXVm1IQzV6QQoc52101",
 "first": "2026-11-06T21:01:41+00:00",
 "last": "2026-11-07T00:01:01+00:00",
-"updated": "2026-11-07T00:02:46.139282+00:00",
+"updated": "2026-11-07T00:23:00.857888+00:00",
 "headline": "[뉴욕증시] AI 저가 매수에 기술주 반등…다우지수, 0.5% 하락",
 "cat": "경제",
 "regions": [],
 "sources": [
 "연합뉴스",
+"연합뉴스TV",
 "이데일리",
 "이코노미스트",
 "이투데이",
@@ -558,6 +559,13 @@
 "stage": "후속"
 },
 {
+"title": "뉴욕증시 혼조 마감…AI 기술주 하루 만에 반등",
+"source": "연합뉴스TV",
+"link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBTVnVkMmpuQ1RYRVA1WXJoby1BZDEtSHQ0QUx5blhpSmFtYWxqLTZNM3FTbVJaeXJScENiVmZIbDJZbnZHVFoyNVRwdnRqbWF1NGFTSXJpajcyeGxUTC1hOXQ1SHRkVk0?oc=5",
+"time": "2026-11-06T23:47:00+00:00",
+"stage": "후속"
+},
+{
 "title": "[속보] AI 기술주 저가 매수세 유입, 미국 반도체지수 4.2% 급등",
 "source": "이코노미스트",
 "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9DU3h4clFRX01CTVE4MnV2bmNTcDlFSmduRmhxc244XzVPMWdVUDVTSjF4U2pkZWYxel8xV2thaVBEU3lKUVhObnV1STV1cU1iaFowOVkxX0VzNXVKbHlCUERB?oc=5",
@@ -576,6 +584,8 @@
 "나스닥",
 "뉴욕증시",
 "다우지수",
+"마감",
+"만에",
 "매수",
 "매수세",
 "미국",
@@ -586,6 +596,7 @@
 "저가",
 "폭락",
 "하락",
+"하루",
 "혼조"
 ]
 },
@@ -2275,7 +2286,7 @@
 },
 "지하철": {
 "n30": 3,
-"base": 1.7,
+"base": 1.8,
 "spike": false
 },
 "사고": {
@@ -2315,7 +2326,7 @@
 "handle": "80fcup.bsky.social",
 "name": "육덕아린이80Fcup",
 "time": "2026-11-07T00:05:39.970Z",
-"likes": 4,
+"likes": 5,
 "reposts": 0,
 "url": "https://bsky.app/profile/80fcup.bsky.social/post/3mzolyl3fa224",
 "term": "미사일"
@@ -2572,14 +2583,14 @@
 "n30": 7,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-07T00:20:46.697717+00:00"
+"since": "2026-11-07T00:23:00.857888+00:00"
 },
 {
 "term": "속보",
 "n30": 12,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-07T00:20:46.697717+00:00"
+"since": "2026-11-07T00:23:00.857888+00:00"
 }
 ],
 "baseline": {
@@ -2590,10 +2601,10 @@
 "폭발": 0.05,
 "붕괴": 0.05,
 "대피": 0.05,
-"미사일": 0.93,
+"미사일": 0.94,
 "속보": 0.05,
-"지하철": 1.76,
-"사고": 0.76,
+"지하철": 1.78,
+"사고": 0.68,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -2832,6 +2843,24 @@
 },
 "trends": [
 {
+"term": "공무원",
+"traffic": "1000+",
+"time": "2026-11-06T23:20:00+00:00",
+"news": [
+{
+"title": "“날 쳐다봐서” 공무원 눈에 호신용 스프레이 쏜 40대",
+"source": "경기일보",
+"link": "https://www.kyeonggi.com/article/20261107580005"
+},
+{
+"title": "“왜 쳐다봐” 공무원에 호신용 스프레이 뿌린 40대…법원 판단은",
+"source": "경향신문",
+"link": "https://www.khan.co.kr/article/202611070744001"
+}
+],
+"new": true
+},
+{
 "term": "문화일보",
 "traffic": "100+",
 "time": "2026-11-06T23:10:00+00:00",
@@ -2970,32 +2999,14 @@
 }
 ],
 "new": false
-},
-{
-"term": "박민지",
-"traffic": "200+",
-"time": "2026-11-06T22:20:00+00:00",
-"news": [
-{
-"title": "귀국일 미룬 박민지·임진영·강채연, 나란히 합격권…JLPGA 프로테스트 최종일 승부",
-"source": "이데일리",
-"link": "https://www.edaily.co.kr/News/Read?newsId=05854806645643096&mediaCodeNo=257"
-},
-{
-"title": "박민지, 'JLPGA 최종 프로테스트' 첫날 단독 2위…\"새로운 환경에서 도전 기대\"",
-"source": "골프한국",
-"link": "https://golfhankook.hankooki.com/news/articleView.html?idxno=20022539"
-}
-],
-"new": false
 }
 ],
 "trendSeen": [
-"게이머",
 "겨울",
 "경국대",
 "경제",
 "골드만삭스",
+"공무원",
 "과징금",
 "과태료",
 "광주광역시",
