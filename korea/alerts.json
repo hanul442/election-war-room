@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-07T03:41:01.422210+00:00",
+"updated": "2026-11-07T03:43:15.636847+00:00",
 "errors": [],
 "events": [
 {
@@ -2646,7 +2646,7 @@
 "terms": {
 "지진": {
 "n30": 0,
-"base": 0.4,
+"base": 0.3,
 "spike": false
 },
 "화재": {
@@ -2665,7 +2665,7 @@
 "spike": false
 },
 "폭발": {
-"n30": 3,
+"n30": 2,
 "base": 0.1,
 "spike": false
 },
@@ -2681,7 +2681,7 @@
 },
 "미사일": {
 "n30": 3,
-"base": 0.9,
+"base": 1.0,
 "spike": false
 },
 "속보": {
@@ -2691,12 +2691,12 @@
 },
 "지하철": {
 "n30": 1,
-"base": 0.7,
+"base": 0.6,
 "spike": false
 },
 "사고": {
 "n30": 3,
-"base": 2.7,
+"base": 2.8,
 "spike": false
 },
 "실종": {
@@ -2995,17 +2995,17 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 0.35,
+"지진": 0.32,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
 "폭발": 0.05,
 "붕괴": 0.05,
 "대피": 0.05,
-"미사일": 0.98,
+"미사일": 1.08,
 "속보": 0.05,
-"지하철": 0.61,
-"사고": 2.75,
+"지하철": 0.55,
+"사고": 2.78,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -3235,6 +3235,24 @@
 },
 "trends": [
 {
+"term": "타릭 스쿠발",
+"traffic": "100+",
+"time": "2026-11-07T02:40:00+00:00",
+"news": [
+{
+"title": "\"날 떠나지마\" 최대 4억불 초대어 투수 잔류 원하는 다저스, 스넬까지 나섰다…결말은",
+"source": "조선일보",
+"link": "https://www.chosun.com/sports/world-baseball/2026/11/06/MY2TQMJQGUZDQOBYMNQTSYZRMU/"
+},
+{
+"title": "\"설득 끝냈다\" 스쿠발과 형-동생하더니…양대리그 CY 수상자 핵폭탄급 의미심장 한마디 \"잔류 가능성 있어\"",
+"source": "SPOTV NEWS",
+"link": "https://www.spotvnews.co.kr/news/articleView.html?idxno=1018048"
+}
+],
+"new": true
+},
+{
 "term": "nz vs ind",
 "traffic": "500+",
 "time": "2026-11-07T02:10:00+00:00",
@@ -3245,9 +3263,9 @@
 "link": "https://sports.yahoo.com/articles/hnry-stadium-wellington-pitch-report-140001670.html"
 },
 {
-"title": "NZ vs Ind, 2nd ODI, Live Blog - India bowl first in rain-interrupted game",
-"source": "Cricinfo",
-"link": "https://www.cricinfo.com/series/india-in-new-zealand-2026-27-1539421/new-zealand-vs-india-2nd-odi-1539438/live-match-blog"
+"title": "Why Wellington's Weather Could Test India's Cricket Superstars",
+"source": "The Times of India",
+"link": "https://timesofindia.indiatimes.com/short-videos/briefs/why-wellingtons-weather-could-test-indias-cricket-superstars/videoshow/135618131.cms"
 }
 ],
 "new": true
@@ -3299,9 +3317,9 @@
 "link": "https://imnews.imbc.com/news/2026/econo/article/6863876_36932.html"
 },
 {
-"title": "미래에셋증권도 뚫렸다…고객·임직원 3만9000명 정보 유출",
-"source": "JTBC",
-"link": "https://news.jtbc.co.kr/article/NB12326943"
+"title": "미래에셋증권, 해킹으로 3만 9천여 명 정보 유출",
+"source": "SBS 뉴스",
+"link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008835139&plink=PLAY&cooper=ATOM&autoplay=Y"
 }
 ],
 "new": false
@@ -3366,14 +3384,14 @@
 "time": "2026-11-07T01:40:00+00:00",
 "news": [
 {
+"title": "이란 연계 선박 4척, '공격 위협' 후 해저케이블 주변 포착",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261107023800009"
+},
+{
 "title": "“해저 케이블에 기뢰 심기?” 이란 선박들 ‘수상한 조짐’ 포착 [지금뉴스]",
 "source": "KBS 뉴스",
 "link": "https://news.kbs.co.kr/news/view.do?ncd=8706663"
-},
-{
-"title": "이란 연계 선박들, 호르무즈 오만만 해저 케이블 위 '수상한 배회'",
-"source": "뉴스1",
-"link": "https://www.news1.kr/world/middleeast-africa/6346328"
 }
 ],
 "new": false
@@ -3395,28 +3413,9 @@
 }
 ],
 "new": false
-},
-{
-"term": "지스타",
-"traffic": "500+",
-"time": "2026-11-07T01:00:00+00:00",
-"news": [
-{
-"title": "AGF 2026, 참가사 106곳 역대 최대…전년보다 49% 증가",
-"source": "서울경제",
-"link": "https://www.sedaily.com/article/20110777"
-},
-{
-"title": "\"지스타 대신 AGF로 간다\"…'오타쿠'에 베팅하는 게임사들",
-"source": "한국경제",
-"link": "https://www.hankyung.com/article/2026110614741"
-}
-],
-"new": false
 }
 ],
 "trendSeen": [
-"기뢰",
 "기상",
 "기소",
 "기초 연구",
@@ -3671,6 +3670,7 @@
 "코인니스",
 "쿠칭시티",
 "클리블랜드 대 필라데피아",
+"타릭 스쿠발",
 "탁구",
 "테슬라 사이버트럭",
 "테슬라 주가",
