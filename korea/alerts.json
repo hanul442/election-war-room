@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-07T21:53:02.928351+00:00",
+"updated": "2026-11-07T21:55:17.083802+00:00",
 "errors": [],
 "events": [
 {
@@ -543,17 +543,17 @@
 "spike": false
 },
 "속보": {
-"n30": 7,
+"n30": 6,
 "base": 0.1,
 "spike": true
 },
 "지하철": {
-"n30": 0,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
 "사고": {
-"n30": 0,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
@@ -584,6 +584,26 @@
 }
 },
 "posts": [
+{
+"text": "지하철에서 졸았다가 휴대폰 놓고 내렸는데 주변 분들이 바로 도와주셔서 다행이 금방찾았다 ㅠㅠ",
+"handle": "skyhighkz.bsky.social",
+"name": "카이즈",
+"time": "2026-11-07T21:54:54.287Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/skyhighkz.bsky.social/post/3mzqv5q2thk2w",
+"term": "지하철"
+},
+{
+"text": "사고 싶어....모두가 들어있는 큰 포스터...🥹",
+"handle": "homi2647.bsky.social",
+"name": "homi",
+"time": "2026-11-07T21:53:19.881Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/homi2647.bsky.social/post/3mzqv2vp6b22m",
+"term": "사고"
+},
 {
 "platform": "YouTube",
 "text": "왜 이제 샀을까! 후기 폭발 캠핑 멀티툴 맥가이버칼 꿀조합: 1 포·비브온·in 총정리",
@@ -813,10 +833,10 @@
 "spikes": [
 {
 "term": "속보",
-"n30": 7,
+"n30": 6,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-07T21:53:02.928351+00:00"
+"since": "2026-11-07T21:55:17.083802+00:00"
 }
 ],
 "baseline": {
@@ -829,10 +849,10 @@
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.05,
-"사고": 0.05,
+"지하철": 0.15,
+"사고": 0.15,
 "실종": 0.05,
-"단수": 0.56,
+"단수": 0.5,
 "통신 장애": 0.05,
 "먹통": 0.05,
 "산불": 0.05
@@ -1084,11 +1104,11 @@
 "link": "https://www.mk.co.kr/news/business/12195368"
 }
 ],
-"new": true
+"new": false
 },
 {
 "term": "valencia vs real madrid",
-"traffic": "200+",
+"traffic": "500+",
 "time": "2026-11-07T20:40:00+00:00",
 "news": [
 {
@@ -1100,6 +1120,24 @@
 "title": "Licensable video: Real Madrid's final training session before facing Valencia",
 "source": "Reuters Connect",
 "link": "https://www.reutersconnect.com/item/real-madrids-final-training-session-before-facing-valencia/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX09XRUZWQzU1MDIxOTEwOTc4MDAx"
+}
+],
+"new": true
+},
+{
+"term": "농민",
+"traffic": "100+",
+"time": "2026-11-07T20:40:00+00:00",
+"news": [
+{
+"title": "열린도지사실",
+"source": "경기도청",
+"link": "https://www.gg.go.kr/governor/user/governor/TB00000026/BR00000098"
+},
+{
+"title": "추미애 지사 \"농업은 식량안보이자 환경 지키는 미래 산업...투자 확대할 것\"",
+"source": "뉴스핌",
+"link": "https://www.newspim.com/news/view/20261107000127"
 }
 ],
 "new": true
@@ -1182,14 +1220,14 @@
 "time": "2026-11-07T19:40:00+00:00",
 "news": [
 {
-"title": "Elon Musk Staked His Empire on Texas. Now State Democrats Want to Rein Him In.",
+"title": "The 2028 Election Map Just Broke Wide Open",
 "source": "WSJ",
-"link": "https://www.wsj.com/politics/policy/elon-musk-texas-midterm-elections-b993e58d"
+"link": "https://www.wsj.com/politics/elections/2028-election-president-battleground-map-3b8567b9"
 },
 {
-"title": "How Elon Musk Frittered Away Nearly $500 Million on the Midterm Elections",
-"source": "The New York Times",
-"link": "https://www.nytimes.com/2026/11/06/us/politics/musk-trump-midterm-election-spending.html"
+"title": "Nate Silver Reveals His 2028 ‘Slam Dunk’ Favorite for President",
+"source": "The Daily Beast",
+"link": "https://www.thedailybeast.com/nate-silver-reveals-his-2028-slam-dunk-favorite-for-president"
 }
 ],
 "new": true
@@ -1226,24 +1264,6 @@
 "title": "‘박수홍♥’ 김다예, ‘140만 원 명품 패딩’ 딸 사진 올렸다 삭제… 잇따른 ‘돈자랑 논란’ 왜?",
 "source": "스포츠경향",
 "link": "https://sports.khan.co.kr/article/202611071658003"
-}
-],
-"new": false
-},
-{
-"term": "엔비디아",
-"traffic": "2000+",
-"time": "2026-11-07T19:20:00+00:00",
-"news": [
-{
-"title": "젠슨 황 장녀 매디슨 황, 방한 하루 앞두고 취소…\"가족 사유\"",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261107050000017"
-},
-{
-"title": "FT “美, 젠슨 황·‘中 스파이 의혹' 여성과 연인 관계로 판단”",
-"source": "조선일보",
-"link": "https://www.chosun.com/international/international_general/2026/11/07/76XLX3WJCJDOLELLTYK72DO7BE/"
 }
 ],
 "new": false
