@@ -1,7 +1,38 @@
 {
-"updated": "2026-11-07T22:22:47.015698+00:00",
+"updated": "2026-11-07T22:25:01.362668+00:00",
 "errors": [],
 "events": [
+{
+"id": "4RmZpRjBoRWFaX0FiVk5Roc52218",
+"first": "2026-11-07T22:18:52+00:00",
+"last": "2026-11-07T22:18:52+00:00",
+"updated": "2026-11-07T22:25:01.362668+00:00",
+"headline": "교황, AI로 인한 '인간성 말살' 경고",
+"cat": "기타",
+"regions": [],
+"sources": [
+"국제뉴스"
+],
+"updates": [
+{
+"title": "[속보] 교황, AI로 인한 '인간성 말살' 경고",
+"source": "국제뉴스",
+"link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5JazFSc1RVbXV5LVNMbnZoS1c4aVVBNGhFU25DNjI1ODZWQTcxdXBuOWdmMUZyNEViSHhPSXliSTFuVVlhUi1yQkg5QXAxT2szdHVsbno2alFQYk5vdzJ4RmZpRjBoRWFaX0FiVk5R?oc=5",
+"time": "2026-11-07T22:18:52+00:00",
+"stage": "얼럿"
+}
+],
+"level": "URGENT",
+"latest": "교황, AI로 인한 '인간성 말살' 경고",
+"tok": [
+"AI",
+"경고",
+"교황",
+"말살",
+"인간성",
+"인한"
+]
+},
 {
 "id": "viewAKR202611080031000711846",
 "first": "2026-11-07T18:46:36+00:00",
@@ -535,7 +566,7 @@
 },
 "대피": {
 "n30": 1,
-"base": 0.3,
+"base": 0.4,
 "spike": false
 },
 "미사일": {
@@ -549,13 +580,13 @@
 "spike": true
 },
 "지하철": {
-"n30": 5,
-"base": 0.7,
-"spike": true
+"n30": 4,
+"base": 0.8,
+"spike": false
 },
 "사고": {
-"n30": 1,
-"base": 0.7,
+"n30": 0,
+"base": 0.8,
 "spike": false
 },
 "실종": {
@@ -565,7 +596,7 @@
 },
 "단수": {
 "n30": 0,
-"base": 0.2,
+"base": 0.1,
 "spike": false
 },
 "통신 장애": {
@@ -810,26 +841,6 @@
 "time": "2026-11-07T22:00:02Z",
 "term": "지하철",
 "url": "https://www.youtube.com/watch?v=Si_cbnghJIg"
-},
-{
-"text": "지하철에서 졸았다가 휴대폰 놓고 내렸는데 주변 분들이 바로 도와주셔서 다행이 금방찾았다 ㅠㅠ",
-"handle": "skyhighkz.bsky.social",
-"name": "카이즈",
-"time": "2026-11-07T21:54:54.287Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/skyhighkz.bsky.social/post/3mzqv5q2thk2w",
-"term": "지하철"
-},
-{
-"text": "사고 싶어....모두가 들어있는 큰 포스터...🥹",
-"handle": "homi2647.bsky.social",
-"name": "homi",
-"time": "2026-11-07T21:53:19.881Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/homi2647.bsky.social/post/3mzqv2vp6b22m",
-"term": "사고"
 }
 ],
 "spikes": [
@@ -838,14 +849,7 @@
 "n30": 10,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-07T22:22:47.015698+00:00"
-},
-{
-"term": "지하철",
-"n30": 5,
-"base": 0.7,
-"spike": true,
-"since": "2026-11-07T22:22:47.015698+00:00"
+"since": "2026-11-07T22:25:01.362668+00:00"
 }
 ],
 "baseline": {
@@ -855,13 +859,13 @@
 "정전": 0.05,
 "폭발": 0.05,
 "붕괴": 0.05,
-"대피": 0.39,
+"대피": 0.45,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.77,
-"사고": 0.77,
+"지하철": 0.69,
+"사고": 0.69,
 "실종": 0.05,
-"단수": 0.14,
+"단수": 0.13,
 "통신 장애": 0.05,
 "먹통": 0.05,
 "산불": 0.05
@@ -1089,8 +1093,26 @@
 },
 "trends": [
 {
+"term": "엘레나 리바키나",
+"traffic": "100+",
+"time": "2026-11-07T21:20:00+00:00",
+"news": [
+{
+"title": "WTA 파이널스 D-1. 인디언웰스서 막 올린다…리바키나 2연패 vs 사발렌카 첫 정상 도전",
+"source": "테니스코리아",
+"link": "https://www.tennis.co.kr/news/articleView.html?idxno=54254"
+},
+{
+"title": "WTA 파이널은 안정성 테스트입니다",
+"source": "Laodong.vn",
+"link": "https://ko.laodong.vn/tennis/wta-finals-la-bai-kiem-tra-su-on-dinh-1796232.ldo"
+}
+],
+"new": true
+},
+{
 "term": "인터 마이애미 대 샬럿",
-"traffic": "500+",
+"traffic": "1000+",
 "time": "2026-11-07T21:10:00+00:00",
 "news": [
 {
@@ -1130,9 +1152,9 @@
 "time": "2026-11-07T21:10:00+00:00",
 "news": [
 {
-"title": "Valencia - Real Madrid en directo | El Madrid golea al Valencia en Mestalla y mete presión al Barça y al Atlético",
-"source": "EL PAÍS",
-"link": "https://elpais.com/deportes/futbol/2026-11-07/valencia-real-madrid-en-directo-el-partido-de-la-liga-en-vivo.html"
+"title": "Brilla Güler y Real Madrid golea al Valencia del 'Vasco'",
+"source": "Reforma",
+"link": "https://www.reforma.com/brilla-guler-y-real-madrid-golea-al-valencia-del-vasco/ar3310243"
 },
 {
 "title": "Partidos de hoy de fútbol: horario y dónde ver por TV",
@@ -1179,24 +1201,6 @@
 "new": false
 },
 {
-"term": "valencia vs madrid",
-"traffic": "200+",
-"time": "2026-11-07T21:00:00+00:00",
-"news": [
-{
-"title": "Real Madrid the \"victim\" of three refereeing errors against Valencia",
-"source": "Goal.com",
-"link": "https://www.goal.com/en/news/real-madrid-victim-of-three-refereeing-errors-against-valencia/blta4e58d0e4c3acc62"
-},
-{
-"title": "Real Madrid legend pokes fun at Valencia star during La Liga clash",
-"source": "Get Spanish Football News",
-"link": "https://getfootballnewsspain.com/real-madrid-legend-pokes-fun-at-valencia-star-during-la-liga-clash/"
-}
-],
-"new": true
-},
-{
 "term": "이창훈",
 "traffic": "200+",
 "time": "2026-11-07T21:00:00+00:00",
@@ -1210,6 +1214,24 @@
 "title": "이창훈 “송혜교와 열애설? ‘원조교제’ 억지에 욕하기도”",
 "source": "문화일보",
 "link": "https://www.munhwa.com/article/11629502"
+}
+],
+"new": false
+},
+{
+"term": "젠슨 황",
+"traffic": "2000+",
+"time": "2026-11-07T20:50:00+00:00",
+"news": [
+{
+"title": "젠슨 황 장녀 매디슨 황, 방한 하루 앞두고 취소…\"가족 사유\"",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261107050000017"
+},
+{
+"title": "젠슨 황, 중국 스파이 의심 여성과 연인 관계였나···미 정보당국 메모에 드러난 새로운 사실",
+"source": "경향신문",
+"link": "https://www.khan.co.kr/article/202611071346001"
 }
 ],
 "new": false
@@ -1238,39 +1260,20 @@
 "time": "2026-11-07T20:40:00+00:00",
 "news": [
 {
+"title": "LIVE BLOG: Valencia vs Real Madrid | LaLiga",
+"source": "beIN SPORTS",
+"link": "https://www.beinsports.com/en-us/soccer/la-liga/articles/live-blog-valencia-vs-real-madrid-laliga-2026-11-07"
+},
+{
 "title": "Business as usual: Valverde unleashes trademark strike to make it 0-1",
 "source": "BeSoccer Livescore",
 "link": "https://www.besoccer.com/new/business-as-usual-valverde-unleashes-trademark-strike-to-make-it-0-1-1439937"
-},
-{
-"title": "Valencia and Mestalla’s message to Real Madrid: ‘Sois San Marino, vosotros sois San Marino’",
-"source": "OneFootball",
-"link": "https://onefootball.com/en/news/valencia-and-mestallas-message-to-real-madrid-sois-san-marino-vosotros-sois-san-marino-43742433"
-}
-],
-"new": true
-},
-{
-"term": "농민",
-"traffic": "100+",
-"time": "2026-11-07T20:40:00+00:00",
-"news": [
-{
-"title": "추미애 지사 \"농업은 식량안보이자 환경 지키는 미래 산업...투자 확대할 것\"",
-"source": "뉴스핌",
-"link": "https://www.newspim.com/news/view/20261107000127"
-},
-{
-"title": "제31회 경기도 농업인의 날 기념식‥‘농업인의 날’ 유공자·‘농어민 대상’ 수상자 표창",
-"source": "경기도뉴스포털",
-"link": "https://gnews.gg.go.kr/news/news_detail.do?number=202611061722326191C048&s_code=C048"
 }
 ],
 "new": true
 }
 ],
 "trendSeen": [
-"로보월드",
 "롯데 자이언츠",
 "롯데몰 벨리타운 청량리",
 "루카 돈치치",
@@ -1393,6 +1396,7 @@
 "엔비디아 주가",
 "엔씨",
 "엘니뇨",
+"엘레나 리바키나",
 "엘리자베스 홈즈",
 "여객기",
 "여객선",
