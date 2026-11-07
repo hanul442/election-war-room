@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-07T06:09:40.050124+00:00",
+"updated": "2026-11-07T06:11:56.101195+00:00",
 "errors": [],
 "events": [
 {
@@ -2643,43 +2643,6 @@
 "질주",
 "한일전"
 ]
-},
-{
-"id": "lsQ2RLR3JvU3BKUGFRWGsoc50009",
-"first": "2026-11-07T00:09:52+00:00",
-"last": "2026-11-07T00:09:52+00:00",
-"updated": "2026-11-07T00:14:01.062369+00:00",
-"headline": "서울·인천 올가을 첫얼음 관측…8일 경기북동부 ‘첫눈’ 가능성도",
-"cat": "기타",
-"regions": [
-"서울",
-"인천"
-],
-"sources": [
-"경기일보"
-],
-"updates": [
-{
-"title": "[속보] 서울·인천 올가을 첫얼음 관측…8일 경기북동부 ‘첫눈’ 가능성도",
-"source": "경기일보",
-"link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9yOWtfYXQzMzFWZkNBNXVMYl9DejVXRGZqUnpxRG82ajJWbERtMHBrY19GVG5GOVFla0tja2d3eVp6cVdidHA4T2podHlsQ2RLR3JvU3BKUGFRWGs?oc=5",
-"time": "2026-11-07T00:09:52+00:00",
-"stage": "얼럿"
-}
-],
-"level": "URGENT",
-"latest": "서울·인천 올가을 첫얼음 관측…8일 경기북동부 ‘첫눈’ 가능성도",
-"tok": [
-"8일",
-"가능성",
-"경기북동부",
-"관측",
-"서울",
-"올가",
-"인천",
-"첫눈",
-"첫얼음"
-]
 }
 ],
 "sns": {
@@ -2705,7 +2668,7 @@
 "spike": false
 },
 "폭발": {
-"n30": 6,
+"n30": 5,
 "base": 0.1,
 "spike": true
 },
@@ -2725,7 +2688,7 @@
 "spike": false
 },
 "속보": {
-"n30": 3,
+"n30": 2,
 "base": 0.1,
 "spike": false
 },
@@ -2735,8 +2698,8 @@
 "spike": false
 },
 "사고": {
-"n30": 0,
-"base": 0.7,
+"n30": 2,
+"base": 0.6,
 "spike": false
 },
 "실종": {
@@ -2766,6 +2729,26 @@
 }
 },
 "posts": [
+{
+"text": "ai땜에 오히려 사고력들이 망가진거같은데..",
+"handle": "mingguuu.bsky.social",
+"name": "케찹도둑",
+"time": "2026-11-07T06:10:18.376Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/mingguuu.bsky.social/post/3mzpaenvakk24",
+"term": "사고"
+},
+{
+"text": "그런데 갑자기 든 생각인데\n나처럼 생각하던 트레이너가 공중날기나 파도타기 같은 걸 쓰다가 사고로 죽었다면?\n그래서 라이딩포켓몬이 등장할 수밖에 없었던거라면?\n비전머신을 쓰는 것 대신에 사람을 떨어뜨리지 않을 거라는 훈련과 검증을 거친 포켓몬만이 사람을 태울 수 있게 된 거라면?",
+"handle": "seodiko.bsky.social",
+"name": "【수3b】 🕯서딕호🕯",
+"time": "2026-11-07T06:09:50.575Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/seodiko.bsky.social/post/3mzpadryk5k2m",
+"term": "사고"
+},
 {
 "text": "아니 그럼 애초에 그그때 올라갈때도..? 원작 읽은지 오래돼서 가물가물해서 더 동공지진 오는중",
 "handle": "sewoo.bsky.social",
@@ -2987,24 +2970,24 @@
 "spikes": [
 {
 "term": "폭발",
-"n30": 6,
+"n30": 5,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-07T06:09:40.050124+00:00"
+"since": "2026-11-07T06:11:56.101195+00:00"
 }
 ],
 "baseline": {
-"지진": 0.54,
+"지진": 0.59,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
 "폭발": 0.05,
 "붕괴": 0.05,
 "대피": 0.05,
-"미사일": 0.58,
+"미사일": 0.52,
 "속보": 0.05,
-"지하철": 0.11,
-"사고": 0.61,
+"지하철": 0.1,
+"사고": 0.75,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
