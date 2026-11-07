@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-07T15:21:54.054124+00:00",
+"updated": "2026-11-07T15:24:07.816177+00:00",
 "errors": [],
 "events": [
 {
@@ -68,7 +68,7 @@
 "id": "LdU9XTkxscUotb3JaMXl3oc51429",
 "first": "2026-11-07T14:29:06+00:00",
 "last": "2026-11-07T14:29:06+00:00",
-"updated": "2026-11-07T14:54:27.930070+00:00",
+"updated": "2026-11-07T15:24:07.816177+00:00",
 "headline": "젠슨 황 장녀 매디슨, 방한 돌연 취소…“가족 사유”",
 "cat": "기타",
 "regions": [],
@@ -106,6 +106,13 @@
 "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0ycjg2NF9RbXcyMElFcFNYM0kweTFDeUQ5WWJHU0hRUFZMU3Z1c1hjNG5fbW1WUVkza0ZpVklvVlp0SDlZcF9LdU9XTkxscUotb3JaMXl3?oc=5",
 "time": "2026-11-07T14:29:06+00:00",
 "stage": "얼럿"
+},
+{
+"title": "[속보] 젠슨 황 장녀 매디슨, 방한 돌연 취소…“가족 사유”",
+"source": "헤럴드경제",
+"link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFB5VFdQQUJ6QVNVRU9sNW0tSURmVll2MzNhRkZHVmpRamhiOG40dEFjZ09hdHF1bnBoM1huTVlzbGM5RWNZSHhEUFY3aFc2SXE1SW1FbWdfOA?oc=5",
+"time": "2026-11-07T14:29:06+00:00",
+"stage": "속보"
 }
 ],
 "level": "URGENT",
@@ -2856,7 +2863,7 @@
 },
 "사고": {
 "n30": 2,
-"base": 3.0,
+"base": 2.9,
 "spike": false
 },
 "실종": {
@@ -3159,14 +3166,14 @@
 "n30": 12,
 "base": 0.6,
 "spike": true,
-"since": "2026-11-07T15:21:54.054124+00:00"
+"since": "2026-11-07T15:24:07.816177+00:00"
 },
 {
 "term": "속보",
 "n30": 5,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-07T15:21:54.054124+00:00"
+"since": "2026-11-07T15:24:07.816177+00:00"
 }
 ],
 "baseline": {
@@ -3174,15 +3181,15 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.64,
+"폭발": 0.68,
 "붕괴": 0.05,
 "대피": 0.05,
-"미사일": 0.85,
+"미사일": 0.86,
 "속보": 0.05,
-"지하철": 0.64,
-"사고": 2.88,
+"지하철": 0.68,
+"사고": 2.79,
 "실종": 0.05,
-"단수": 0.21,
+"단수": 0.19,
 "통신 장애": 0.05,
 "먹통": 0.05,
 "산불": 0.05
@@ -3410,6 +3417,24 @@
 },
 "trends": [
 {
+"term": "arsenal vs hull",
+"traffic": "200+",
+"time": "2026-11-07T14:20:00+00:00",
+"news": [
+{
+"title": "Premier League LIVE: Build-up, team news, live text, radio & score updates from across the Premier League",
+"source": "BBC",
+"link": "https://www.bbc.com/sport/football/live/cmj6jdk36975t"
+},
+{
+"title": "Arteta's update on Saka, Saliba and Konsa",
+"source": "Arsenal.com",
+"link": "https://www.arsenal.com/news/artetas-update-on-saka-saliba-and-konsa-aopoW1X0hn87"
+}
+],
+"new": true
+},
+{
 "term": "아스널 대 헐 시티",
 "traffic": "2000+",
 "time": "2026-11-07T14:10:00+00:00",
@@ -3447,7 +3472,7 @@
 },
 {
 "term": "라이프치히 대 아우크스부르크",
-"traffic": "200+",
+"traffic": "500+",
 "time": "2026-11-07T14:00:00+00:00",
 "news": [
 {
@@ -3501,7 +3526,7 @@
 },
 {
 "term": "마인츠 05 대 바이에른",
-"traffic": "5000+",
+"traffic": "10000+",
 "time": "2026-11-07T13:40:00+00:00",
 "news": [
 {
@@ -3567,24 +3592,6 @@
 "title": "검찰범죄 특검을 해야 하는 50가지 이유⑬ '조작기소' 특검법안 마침내 통과",
 "source": "뉴스타파",
 "link": "https://newstapa.org/article/HxPrq"
-}
-],
-"new": true
-},
-{
-"term": "닥터x 하얀 마피아의 시대",
-"traffic": "1000+",
-"time": "2026-11-07T12:30:00+00:00",
-"news": [
-{
-"title": "“이것이 제 선택입니다” 투표장을 등지고 생명을 살리겠다는 일념으로 수술실로 발걸음을 옮긴 손현주의 선택!",
-"source": "programs.sbs.co.kr",
-"link": "https://programs.sbs.co.kr/drama/doctorx/clip/88586/OC483056078"
-},
-{
-"title": "‘닥터X’ 김지원·손현주·이정은, ‘구서대 어벤져스’…8세 소아암 환자 살렸다",
-"source": "스포츠경향",
-"link": "https://sports.khan.co.kr/article/202611072334003"
 }
 ],
 "new": true
