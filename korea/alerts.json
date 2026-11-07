@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-07T09:27:42.625896+00:00",
+"updated": "2026-11-07T09:29:53.977232+00:00",
 "errors": [],
 "events": [
 {
@@ -185,6 +185,41 @@
 "집회",
 "집회서",
 "탄핵만"
+]
+},
+{
+"id": "sbVMtblRlQndiVzkyTmlRoc50919",
+"first": "2026-11-07T09:19:14+00:00",
+"last": "2026-11-07T09:19:14+00:00",
+"updated": "2026-11-07T09:29:53.977232+00:00",
+"headline": "`엄마·외할머니 때린` 패륜 30대男…`접근 금지` 무시하고 창문으로 침입",
+"cat": "기타",
+"regions": [],
+"sources": [
+"매일신문"
+],
+"updates": [
+{
+"title": "[속보] `엄마·외할머니 때린` 패륜 30대男…`접근 금지` 무시하고 창문으로 침입",
+"source": "매일신문",
+"link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE8yZTFWRDRxZmI2YV9OZGpWR0dXYS12bjRXTXZOdU1fdExxQ2NmbkRCLTBDV1k3UDE5ektpU1gzY0NlVzFLV24tbTVZQ3U0dW5wV0ZsbVMtblRlQndiVzkyTmlR?oc=5",
+"time": "2026-11-07T09:19:14+00:00",
+"stage": "얼럿"
+}
+],
+"level": "URGENT",
+"latest": "`엄마·외할머니 때린` 패륜 30대男…`접근 금지` 무시하고 창문으로 침입",
+"tok": [
+"30대男",
+"금지",
+"때린",
+"무시하고",
+"엄마",
+"외할머니",
+"접근",
+"창문으",
+"침입",
+"패륜"
 ]
 },
 {
@@ -3853,9 +3888,9 @@
 "spike": false
 },
 "정전": {
-"n30": 5,
+"n30": 4,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "폭발": {
 "n30": 5,
@@ -3863,9 +3898,9 @@
 "spike": true
 },
 "붕괴": {
-"n30": 5,
+"n30": 4,
 "base": 0.8,
-"spike": true
+"spike": false
 },
 "대피": {
 "n30": 1,
@@ -3889,7 +3924,7 @@
 },
 "사고": {
 "n30": 3,
-"base": 1.8,
+"base": 1.9,
 "spike": false
 },
 "실종": {
@@ -3924,7 +3959,7 @@
 "handle": "grayscavenger.bsky.social",
 "name": "G.스케빈져",
 "time": "2026-11-07T09:27:24.774Z",
-"likes": 0,
+"likes": 1,
 "reposts": 0,
 "url": "https://bsky.app/profile/grayscavenger.bsky.social/post/3mzplf3sub22o",
 "term": "사고"
@@ -3934,8 +3969,8 @@
 "handle": "huoguoparty.bsky.social",
 "name": "🎃🍠훠박고곰아🍎🌽",
 "time": "2026-11-07T09:19:59.678Z",
-"likes": 1,
-"reposts": 0,
+"likes": 2,
+"reposts": 1,
 "url": "https://bsky.app/profile/huoguoparty.bsky.social/post/3mzpkxt4eqs22",
 "term": "사고"
 },
@@ -4176,16 +4211,6 @@
 "url": "https://www.youtube.com/watch?v=vqMKeqHEzAg"
 },
 {
-"text": "blog.naver.com/paxeurasia/2...\n\n이코노미스트지: 우크라 인구 붕괴 위험",
-"handle": "newsky144th.bsky.social",
-"name": "하통시대",
-"time": "2026-11-07T08:59:11.375Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/newsky144th.bsky.social/post/3mzpjskxsts2z",
-"term": "붕괴"
-},
-{
 "platform": "YouTube",
 "text": "정전되면 무슨 순서로 복구할까? | 도시의 숨은 기계 EP.11 #shorts",
 "handle": "UCcMXwN_6b1vBqOZNjeJrQeQ",
@@ -4197,32 +4222,18 @@
 ],
 "spikes": [
 {
-"term": "정전",
-"n30": 5,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-07T09:27:42.625896+00:00"
-},
-{
 "term": "폭발",
 "n30": 5,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-07T09:27:42.625896+00:00"
-},
-{
-"term": "붕괴",
-"n30": 5,
-"base": 0.8,
-"spike": true,
-"since": "2026-11-07T09:27:42.625896+00:00"
+"since": "2026-11-07T09:29:53.977232+00:00"
 },
 {
 "term": "지하철",
 "n30": 5,
 "base": 0.7,
 "spike": true,
-"since": "2026-11-07T09:27:42.625896+00:00"
+"since": "2026-11-07T09:29:53.977232+00:00"
 }
 ],
 "baseline": {
@@ -4231,16 +4242,16 @@
 "불났": 0.05,
 "정전": 0.05,
 "폭발": 0.05,
-"붕괴": 0.83,
+"붕괴": 0.75,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.71,
-"사고": 1.91,
+"지하철": 0.74,
+"사고": 2.02,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
-"먹통": 0.13,
+"먹통": 0.12,
 "산불": 0.05
 },
 "errors": [],
@@ -4602,14 +4613,14 @@
 "time": "2026-11-07T07:20:00+00:00",
 "news": [
 {
-"title": "“젠슨 황 ‘中스파이 의혹’ 여성과 연인관계”…美정부 메모 파장",
-"source": "중앙일보",
-"link": "https://www.joongang.co.kr/article/25476575"
+"title": "젠슨 황, 중국 스파이 의심 여성과 연인 관계였나···미 정보당국 메모에 드러난 새로운 사실",
+"source": "경향신문",
+"link": "https://www.khan.co.kr/article/202611071346001"
 },
 {
-"title": "“젠슨 황 ‘스파이 의혹’ 중국 여성과 연인 관계”···미 정보당국 문서 파장",
-"source": "주간경향",
-"link": "https://weekly.khan.co.kr/article/202611071817001"
+"title": "FT “美, 젠슨 황 ’中스파이’ 여성과 연인 관계 판단“",
+"source": "연합뉴스TV",
+"link": "https://www.yonhapnewstv.co.kr/news/MYH20261107180548Z7u"
 }
 ],
 "new": false
