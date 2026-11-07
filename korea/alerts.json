@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-07T20:33:40.276795+00:00",
+"updated": "2026-11-07T20:35:57.047240+00:00",
 "errors": [],
 "events": [
 {
@@ -439,7 +439,7 @@
 "spike": false
 },
 "폭발": {
-"n30": 8,
+"n30": 7,
 "base": 0.1,
 "spike": true
 },
@@ -729,17 +729,17 @@
 "spikes": [
 {
 "term": "폭발",
-"n30": 8,
+"n30": 7,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-07T20:33:40.276795+00:00"
+"since": "2026-11-07T20:35:57.047240+00:00"
 },
 {
 "term": "속보",
 "n30": 10,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-07T20:33:40.276795+00:00"
+"since": "2026-11-07T20:35:57.047240+00:00"
 }
 ],
 "baseline": {
@@ -753,7 +753,7 @@
 "미사일": 0.05,
 "속보": 0.05,
 "지하철": 0.05,
-"사고": 0.12,
+"사고": 0.11,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -1011,7 +1011,7 @@
 },
 {
 "term": "박수홍",
-"traffic": "500+",
+"traffic": "1000+",
 "time": "2026-11-07T19:20:00+00:00",
 "news": [
 {
@@ -1083,7 +1083,7 @@
 },
 {
 "term": "맨시티",
-"traffic": "200+",
+"traffic": "500+",
 "time": "2026-11-07T18:20:00+00:00",
 "news": [
 {
@@ -1105,14 +1105,14 @@
 "time": "2026-11-07T17:10:00+00:00",
 "news": [
 {
-"title": "An Update On A Possible ‘GTA 6’ PC Release Date Plans, Due To AI",
-"source": "Forbes",
-"link": "https://www.forbes.com/sites/paultassi/2026/11/07/an-update-on-a-possible-gta-6-pc-release-date-plans-due-to-ai/"
+"title": "Grand Theft Auto VI Pre-Load Begins on November 10",
+"source": "Rockstar Games",
+"link": "https://www.rockstargames.com/newswire/article/k4ak9okk485712/grand-theft-auto-vi-pre-load-begins-on-november-10"
 },
 {
-"title": "Could potential AI clones of GTA VI force a quicker official port?",
-"source": "Ars Technica",
-"link": "https://arstechnica.com/gaming/2026/11/could-potential-ai-clones-of-gta-vi-force-a-quicker-official-port/"
+"title": "Grand Theft Auto VI pre-download begins November 10",
+"source": "PlayStation.Blog",
+"link": "https://blog.playstation.com/2026/11/03/grand-theft-auto-vi-pre-download-begins-november-10/"
 }
 ],
 "new": true
@@ -1136,6 +1136,24 @@
 "new": true
 },
 {
+"term": "신호등",
+"traffic": "200+",
+"time": "2026-11-07T16:10:00+00:00",
+"news": [
+{
+"title": "마곡동 도로 온수관 파열로 행인 다쳐 중태…전신 60% 화상(종합)",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261107010451004"
+},
+{
+"title": "단독 귀갓길에 날벼락...온수관 파열 구멍에 빠져 중화상",
+"source": "YTN",
+"link": "https://www.ytn.co.kr/_ln/0103_202611071741252200"
+}
+],
+"new": true
+},
+{
 "term": "일본 지진",
 "traffic": "200+",
 "time": "2026-11-07T16:00:00+00:00",
@@ -1152,28 +1170,9 @@
 }
 ],
 "new": false
-},
-{
-"term": "이천수",
-"traffic": "200+",
-"time": "2026-11-07T15:30:00+00:00",
-"news": [
-{
-"title": "“분위기 어쩌다 이렇게 됐나”…이천수, 대표팀 갈등설에 조언",
-"source": "동아일보",
-"link": "https://www.donga.com/news/Sports/article/all/20261107/134983161/1"
-},
-{
-"title": "'손흥민-96라인 불화설'...'前 국가대표' 이천수 작심 발언 \"축구에만 집중하길\"",
-"source": "SPOTV NEWS",
-"link": "https://www.spotvnews.co.kr/news/articleView.html?idxno=1018354"
-}
-],
-"new": false
 }
 ],
 "trendSeen": [
-"디트로이트 대 필라데피아",
 "라면",
 "라이프치히 대 아우크스부르크",
 "라파엘 나달",
@@ -1276,6 +1275,7 @@
 "식이",
 "신민아",
 "신세계백화점",
+"신호등",
 "아들",
 "아스널 대 헐 시티",
 "아이뉴스24",
