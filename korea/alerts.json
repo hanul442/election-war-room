@@ -1,21 +1,30 @@
 {
-"updated": "2026-11-07T08:23:12.913324+00:00",
+"updated": "2026-11-07T08:25:28.995611+00:00",
 "errors": [],
 "events": [
 {
 "id": "wNISX20261107_00038589750817",
 "first": "2026-11-07T08:17:46+00:00",
-"last": "2026-11-07T08:19:27+00:00",
-"updated": "2026-11-07T08:20:59.438851+00:00",
+"last": "2026-11-07T08:23:58+00:00",
+"updated": "2026-11-07T08:25:28.995611+00:00",
 "headline": "'박승규 맹타' 삼성, KS 4차전서 KT 10-5 제압…1패 뒤 3연승",
 "cat": "경제",
 "regions": [
 "대구"
 ],
 "sources": [
-"뉴시스"
+"뉴스1",
+"뉴시스",
+"연합뉴스"
 ],
 "updates": [
+{
+"title": "[속보] 삼성, KT 10-5 격파 '3승 1패'…한국시리즈 우승까지 '1승'",
+"source": "뉴스1",
+"link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE8zTEVWMGZnUVJhS2EwZTNwUTBfalVqSnFkVURFb1ZGOTJ4elJpaXhZcW9acVYyUUFUZ01TLWhrYkVSenpnRkl1aVdMV1U5MkpUNG45c0ZYSQ?oc=5",
+"time": "2026-11-07T08:17:35+00:00",
+"stage": "속보"
+},
 {
 "title": "[속보]'박승규 맹타' 삼성, KS 4차전서 KT 10-5 제압…1패 뒤 3연승",
 "source": "뉴시스",
@@ -29,34 +38,61 @@
 "link": "https://www.newsis.com/view/NISX20261107_0003858976",
 "time": "2026-11-07T08:19:27+00:00",
 "stage": "후속"
+},
+{
+"title": "'1회 6득점' 삼성, 1패 뒤 3연승…12년 만의 KS 우승 보인다",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261107025600007",
+"time": "2026-11-07T08:19:40+00:00",
+"stage": "후속"
+},
+{
+"title": "'1패 뒤 3연승' 삼성, 12년 만에 우승 '눈앞'…'완벽투' 이재희, 데일리 MVP(종합)[KS]",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261107_0003858977",
+"time": "2026-11-07T08:23:58+00:00",
+"stage": "종합"
 }
 ],
 "level": "URGENT",
-"latest": "'박승규 3안타 3타점' 삼성, 1패 뒤 3연승…12년 만에 우승 '1승 남았다'[KS]",
+"latest": "'1패 뒤 3연승' 삼성, 12년 만에 우승 '눈앞'…'완벽투' 이재희, 데일리 MVP[KS]",
 "tok": [
 "12년",
 "1승",
 "1패",
+"1회",
+"3승",
 "3안타",
 "3연승",
 "3타점",
 "4차전서",
+"6득점",
 "KS",
 "KT",
+"MVP",
+"격파",
 "남았다",
+"눈앞",
+"데일리",
 "만에",
+"만의",
 "맹타",
 "박승규",
+"보인다",
 "삼성",
+"완벽투",
 "우승",
-"제압"
+"우승까지",
+"이재희",
+"제압",
+"한국시리즈"
 ]
 },
 {
 "id": "kpvQXlOR0g0a0cyYXYyZwoc50808",
 "first": "2026-11-07T08:08:58+00:00",
 "last": "2026-11-07T08:08:58+00:00",
-"updated": "2026-11-07T08:20:59.438851+00:00",
+"updated": "2026-11-07T08:25:28.995611+00:00",
 "headline": "부산불꽃축제 관람 인파",
 "cat": "재난",
 "regions": [
@@ -72,6 +108,13 @@
 "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE8xNzMzQUl5M2pNMEVVelN1eVVaRWZoTU9rTm5zSEg4WFRjQ09KN2dZMG8wanctUnRIMXgtRFc3cEdPUndFLXltYUl1SWxYR0YzaklmbG1kQkpvQXlOR0g0a0cyYXYyZw?oc=5",
 "time": "2026-11-07T08:08:58+00:00",
 "stage": "1보"
+},
+{
+"title": "부산불꽃축제 관람 인파",
+"source": "뉴시스",
+"link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1oTnNlRDZSejlFRm4wbEE1LVl1ZDUwamxTZXMtSU84aFZuenMyOFZGdk5VM3IzUEZnWVphd0xWZ3R1bkJYVHcyQ3BCcXhyV2JFMWhiU1htczMwZXQ3WlJXNVBINmVidw?oc=5",
+"time": "2026-11-07T08:08:58+00:00",
+"stage": "후속"
 }
 ],
 "level": "ALERT",
@@ -3280,13 +3323,13 @@
 "spike": false
 },
 "지하철": {
-"n30": 2,
+"n30": 1,
 "base": 1.3,
 "spike": false
 },
 "사고": {
-"n30": 2,
-"base": 2.7,
+"n30": 3,
+"base": 2.6,
 "spike": false
 },
 "실종": {
@@ -3316,6 +3359,16 @@
 }
 },
 "posts": [
+{
+"text": "3. 세이렌의 행동(미필적 고의라고 하죠)은 뺑소니로서 교통사고 특례법에 준하는 중대범죄라고 생각합니다. 그렇다고 사적보복이 사고를 당한 인어섬 주민에게 허용된 것 같은 아니죠.\n\n다만 인어를 사냥하고 마을주민들에게 사건을 전했다면 큰 전투가 벌어졌을 것이라 생각합니다.",
+"handle": "jwseacta.bsky.social",
+"name": "jws",
+"time": "2026-11-07T08:23:55.878Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/jwseacta.bsky.social/post/3mzphtldk2k2n",
+"term": "사고"
+},
 {
 "text": "흑흑 타쿠요 이번 게임도 재밌어 보인다 \n그리고 양갈래 여캐분 다른 소꿉친구 공략캐들은 어떤 일 이후로 소원해졌다고 하는데 유일하게 그 뒤로도 친구로 지낸 소꿉친구라고 하니까 근데 또 주인공의 너무 긍정적인 사고에 지쳐서 거리 둔다고 하니 뭔가 너무너무 있어보인다",
 "handle": "erina333.bsky.social",
@@ -3373,16 +3426,6 @@
 "time": "2026-11-07T07:56:03Z",
 "term": "지하철",
 "url": "https://www.youtube.com/watch?v=0G50jAbhelU"
-},
-{
-"text": "지하철 사람 엄청 많은데 오늘 불꽃 축제 하는구나",
-"handle": "qweefsgjiedg.bsky.social",
-"name": "🥦",
-"time": "2026-11-07T07:54:12.675Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/qweefsgjiedg.bsky.social/post/3mzpg6gii222o",
-"term": "지하철"
 },
 {
 "platform": "YouTube",
@@ -3590,16 +3633,16 @@
 "불났": 0.05,
 "정전": 0.05,
 "폭발": 0.05,
-"붕괴": 1.29,
+"붕괴": 1.26,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 1.26,
-"사고": 2.6,
+"지하철": 1.13,
+"사고": 2.64,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
-"먹통": 0.15,
+"먹통": 0.24,
 "산불": 0.05
 },
 "errors": [],
@@ -3840,7 +3883,7 @@
 "link": "https://www.news1.kr/photos/8202260"
 }
 ],
-"new": true
+"new": false
 },
 {
 "term": "젠슨황",
@@ -3858,7 +3901,7 @@
 "link": "https://www.news1.kr/world/usa-canada/6345644"
 }
 ],
-"new": true
+"new": false
 },
 {
 "term": "맥도날드",
@@ -3981,7 +4024,7 @@
 {
 "title": "반갑다! 밀어내기",
 "source": "뉴스1",
-"link": "https://www.news1.kr/photos/8202157"
+"link": "https://www.news1.kr/photos/8202156"
 }
 ],
 "new": false
