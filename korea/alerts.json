@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-07T17:26:00.215122+00:00",
+"updated": "2026-11-07T17:28:14.642732+00:00",
 "errors": [],
 "events": [
 {
@@ -1941,45 +1941,14 @@
 "뽐내",
 "화려함"
 ]
-},
-{
-"id": "nkRSSLINKcooperRSSREADER1126",
-"first": "2026-11-07T11:26:37+00:00",
-"last": "2026-11-07T11:26:37+00:00",
-"updated": "2026-11-07T11:30:35.746819+00:00",
-"headline": "'마스가' 움직임 포착…미 해군 고위인사 방한",
-"cat": "기타",
-"regions": [],
-"sources": [
-"SBS"
-],
-"updates": [
-{
-"title": "[단독] '마스가' 움직임 포착…미 해군 고위인사 방한",
-"source": "SBS",
-"link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008835384&plink=RSSLINK&cooper=RSSREADER",
-"time": "2026-11-07T11:26:37+00:00",
-"stage": "단독"
-}
-],
-"level": "URGENT",
-"latest": "'마스가' 움직임 포착…미 해군 고위인사 방한",
-"tok": [
-"고위인사",
-"마스",
-"방한",
-"움직임",
-"포착",
-"해군"
-]
 }
 ],
 "sns": {
 "terms": {
 "지진": {
-"n30": 4,
+"n30": 5,
 "base": 1.6,
-"spike": false
+"spike": true
 },
 "화재": {
 "n30": 0,
@@ -2003,7 +1972,7 @@
 },
 "붕괴": {
 "n30": 2,
-"base": 0.5,
+"base": 0.6,
 "spike": false
 },
 "대피": {
@@ -2018,7 +1987,7 @@
 },
 "속보": {
 "n30": 6,
-"base": 0.3,
+"base": 0.2,
 "spike": true
 },
 "지하철": {
@@ -2028,12 +1997,12 @@
 },
 "사고": {
 "n30": 0,
-"base": 1.1,
+"base": 0.9,
 "spike": false
 },
 "실종": {
 "n30": 0,
-"base": 0.2,
+"base": 0.1,
 "spike": false
 },
 "단수": {
@@ -2058,6 +2027,16 @@
 }
 },
 "posts": [
+{
+"text": "일본 아이치현에 지진이 난 모양. 규모 5.7 정도 되는 큰 지진.",
+"handle": "moosubu.bsky.social",
+"name": "페란토",
+"time": "2026-11-07T17:26:39.670Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/moosubu.bsky.social/post/3mzqg63amzs2c",
+"term": "지진"
+},
 {
 "platform": "YouTube",
 "text": "3천 원 아끼려다 지하철에 털린 날",
@@ -2306,33 +2285,40 @@
 ],
 "spikes": [
 {
+"term": "지진",
+"n30": 5,
+"base": 1.6,
+"spike": true,
+"since": "2026-11-07T17:28:14.642732+00:00"
+},
+{
 "term": "폭발",
 "n30": 12,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-07T17:26:00.215122+00:00"
+"since": "2026-11-07T17:28:14.642732+00:00"
 },
 {
 "term": "속보",
 "n30": 6,
-"base": 0.3,
+"base": 0.2,
 "spike": true,
-"since": "2026-11-07T17:26:00.215122+00:00"
+"since": "2026-11-07T17:28:14.642732+00:00"
 }
 ],
 "baseline": {
-"지진": 1.55,
+"지진": 1.59,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
 "폭발": 0.05,
-"붕괴": 0.56,
+"붕괴": 0.6,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.25,
+"속보": 0.23,
 "지하철": 0.05,
-"사고": 0.95,
-"실종": 0.14,
+"사고": 0.85,
+"실종": 0.13,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -2629,7 +2615,7 @@
 "time": "2026-11-07T15:10:00+00:00",
 "news": [
 {
-"title": "Ausgerechnet im Rekordspiel: Neuer verletzt ausgewechselt",
+"title": "Kimmich hat bei Neuer kein gutes Gefühl: \"Wenn er rausgeht, dann ist es wahrscheinlich etwas Ernsthaftes\"",
 "source": "Kicker",
 "link": "https://www.kicker.de/ausgerechnet-im-rekordspiel-neuer-verletzt-ausgewechselt-1269459/artikel"
 },
@@ -2719,9 +2705,9 @@
 "time": "2026-11-07T14:10:00+00:00",
 "news": [
 {
-"title": "아스널 0-0 헐 시티 (전반전): 라야가 결정적인 선방을 해냅니다.",
+"title": "아스널 0-0 헐 시티 (전반전): 선제골을 넣기 위한 공격에 박차를 가하고 있다.",
 "source": "Vietnam.vn",
-"link": "https://www.vietnam.vn/ko/truc-tiep-arsenal-0-0-hull-city-h1-raya-cuu-thua"
+"link": "https://www.vietnam.vn/ko/truc-tiep-arsenal-0-0-hull-city-h2-tang-toc-tim-ban-mo-ty-so"
 },
 {
 "title": "리버풀은 빌라, 유벤투스는 나폴리…11월 1~2일 유럽축구 일정 : 스포츠",
