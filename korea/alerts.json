@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-07T23:27:46.783194+00:00",
+"updated": "2026-11-07T23:30:30.847362+00:00",
 "errors": [],
 "events": [
 {
@@ -750,8 +750,8 @@
 "sns": {
 "terms": {
 "지진": {
-"n30": 1,
-"base": 0.5,
+"n30": 2,
+"base": 0.4,
 "spike": false
 },
 "화재": {
@@ -765,12 +765,12 @@
 "spike": false
 },
 "정전": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
 "폭발": {
-"n30": 9,
+"n30": 7,
 "base": 0.1,
 "spike": true
 },
@@ -790,12 +790,12 @@
 "spike": false
 },
 "속보": {
-"n30": 8,
+"n30": 4,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "지하철": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -831,6 +831,16 @@
 }
 },
 "posts": [
+{
+"text": "【지진 정보】일본 시간 11월 8일 08:23경\n진원: Kumamoto Region, Kumamoto Prefecture (M3.0, 깊이 약 10km)\n최대 진도: 1\n진도 1: 구마모토현\n이 지진으로 인한 쓰나미 걱정은 없습니다.\n(일본 기상청 발표)\n#일본 #지진 #방재",
+"handle": "ko.soramoyou.yk-planning.jp",
+"name": "Soramoyou 한국어",
+"time": "2026-11-07T23:28:35.869Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/ko.soramoyou.yk-planning.jp/post/3mzr2fbc2gw2y",
+"term": "지진"
+},
 {
 "platform": "YouTube",
 "text": "[속보] 버크셔 해서웨이 자사주 매입 급증 | 10초 요약 | 코인뉴스 · 11월 8일 #Shorts",
@@ -1033,27 +1043,20 @@
 "spikes": [
 {
 "term": "폭발",
-"n30": 9,
+"n30": 7,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-07T23:27:46.783194+00:00"
-},
-{
-"term": "속보",
-"n30": 8,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-07T23:27:46.783194+00:00"
+"since": "2026-11-07T23:30:30.847362+00:00"
 }
 ],
 "baseline": {
-"지진": 0.41,
+"지진": 0.47,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
 "폭발": 0.05,
 "붕괴": 0.05,
-"대피": 0.11,
+"대피": 0.1,
 "미사일": 0.05,
 "속보": 0.05,
 "지하철": 0.05,
@@ -1279,9 +1282,9 @@
 "link": "https://kr.investing.com/news/cryptocurrency-news/article-2163490"
 },
 {
-"title": "리플(XRP) 1.16달러 추락…1,000만 달러 청산에 1달러선마저 무너지나?",
-"source": "코인리더스",
-"link": "https://www.coinreaders.com/268325"
+"title": "\"XRP 20달러 부양하라\"…리플 경영진에 전달된 공개 서한 파장",
+"source": "글로벌이코노믹",
+"link": "https://www.g-enews.com/article/Securities/2026/11/202611021108046010e250e8e188_1"
 }
 ],
 "new": true
