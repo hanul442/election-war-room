@@ -1,38 +1,67 @@
 {
-"updated": "2026-11-07T05:25:25.371722+00:00",
+"updated": "2026-11-07T05:27:39.536427+00:00",
 "errors": [],
 "events": [
 {
 "id": "0RlJIWEJ4azFsbzNMQ2xjoc50521",
 "first": "2026-11-07T05:21:40+00:00",
-"last": "2026-11-07T05:21:40+00:00",
-"updated": "2026-11-07T05:25:25.371722+00:00",
+"last": "2026-11-07T05:22:21+00:00",
+"updated": "2026-11-07T05:27:39.536427+00:00",
 "headline": "“美, 젠슨 황 ‘中스파이 의혹’ 여성과 연인 관계였다고 판단”…FT 보도, 中 국가안전부에 포섭돼",
 "cat": "기타",
 "regions": [],
 "sources": [
-"문화일보"
+"SBS",
+"문화일보",
+"연합뉴스",
+"조선일보"
 ],
 "updates": [
+{
+"title": "FT \"美, 젠슨 황 '中스파이 의혹' 여성과 연인 관계였다고 판단\"",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261107031200009",
+"time": "2026-11-07T04:17:39+00:00",
+"stage": "후속"
+},
+{
+"title": "FT “美, 젠슨 황·‘中 스파이 의혹' 여성과 연인 관계로 판단”",
+"source": "조선일보",
+"link": "https://www.chosun.com/international/international_general/2026/11/07/76XLX3WJCJDOLELLTYK72DO7BE/",
+"time": "2026-11-07T05:13:37+00:00",
+"stage": "후속"
+},
 {
 "title": "[속보] “美, 젠슨 황 ‘中스파이 의혹’ 여성과 연인 관계였다고 판단”…FT 보도, 中 국가안전부에 포섭돼",
 "source": "문화일보",
 "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE55VG9RMElvWVd6NkY2T1REWjNqUk9kY004RWs4LWotNFp2alZtSmNhd25QUjRvU2tINkdOZmVJY0h0RlJIWEJ4azFsbzNMQ2xj?oc=5",
 "time": "2026-11-07T05:21:40+00:00",
 "stage": "얼럿"
+},
+{
+"title": "미 당국 \"젠슨 황, 중국 스파이 의심 여성과 연인 관계\"",
+"source": "SBS",
+"link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008835165&plink=RSSLINK&cooper=RSSREADER",
+"time": "2026-11-07T05:22:21+00:00",
+"stage": "후속"
 }
 ],
 "level": "URGENT",
-"latest": "“美, 젠슨 황 ‘中스파이 의혹’ 여성과 연인 관계였다고 판단”…FT 보도, 中 국가안전부에 포섭돼",
+"latest": "미 당국 \"젠슨 황, 중국 스파이 의심 여성과 연인 관계\"",
 "tok": [
 "FT",
 "中스파",
+"관계",
 "관계였다고",
 "국가안전부",
+"당국",
 "보도",
+"스파",
 "여성",
 "연인",
+"의심",
 "젠슨",
+"중국",
 "판단",
 "포섭돼"
 ]
@@ -2630,46 +2659,13 @@
 "이재민",
 "화재"
 ]
-},
-{
-"id": "2ZlBaTzNVMTkwRk5WTmFZoc52326",
-"first": "2026-11-06T23:26:00+00:00",
-"last": "2026-11-06T23:26:00+00:00",
-"updated": "2026-11-06T23:28:34.094136+00:00",
-"headline": "미 애리조나서 60년 만의 민주당 주지사 당선, 상하원까지 다 장악",
-"cat": "정치",
-"regions": [],
-"sources": [
-"국제신문"
-],
-"updates": [
-{
-"title": "[속보]미 애리조나서 60년 만의 민주당 주지사 당선, 상하원까지 다 장악",
-"source": "국제신문",
-"link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNU1hGYUU3MzVseElMcWVVN0ZqRkk0cXc4Ykppa0dPQ2swVEVmZjJqeWhoNUlWYVViUlVfYnNyYS1QcGpsS2FVZzVNNVRuMk5QZU1sTks2ekZlX1h5bE8zd2tva3VqcFB4YktCZWEyZEhvM25feWxvRWdRZFZ2ZlBaTzNVMTkwRk5WTmFZ?oc=5",
-"time": "2026-11-06T23:26:00+00:00",
-"stage": "얼럿"
-}
-],
-"level": "URGENT",
-"latest": "미 애리조나서 60년 만의 민주당 주지사 당선, 상하원까지 다 장악",
-"tok": [
-"60년",
-"당선",
-"만의",
-"민주당",
-"상하원까지",
-"애리조나서",
-"장악",
-"주지사"
-]
 }
 ],
 "sns": {
 "terms": {
 "지진": {
 "n30": 1,
-"base": 0.6,
+"base": 0.7,
 "spike": false
 },
 "화재": {
@@ -2714,12 +2710,12 @@
 },
 "지하철": {
 "n30": 3,
-"base": 0.9,
+"base": 0.8,
 "spike": false
 },
 "사고": {
 "n30": 0,
-"base": 1.0,
+"base": 0.9,
 "spike": false
 },
 "실종": {
@@ -2739,7 +2735,7 @@
 },
 "먹통": {
 "n30": 0,
-"base": 0.2,
+"base": 0.1,
 "spike": false
 },
 "산불": {
@@ -2917,7 +2913,7 @@
 "name": "편전",
 "time": "2026-11-07T05:03:17.770Z",
 "likes": 6,
-"reposts": 8,
+"reposts": 9,
 "url": "https://bsky.app/profile/pyeonjeon.bsky.social/post/3mzp4mrjdak2s",
 "term": "지진"
 },
@@ -2973,25 +2969,25 @@
 "n30": 9,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-07T05:25:25.371722+00:00"
+"since": "2026-11-07T05:27:39.536427+00:00"
 }
 ],
 "baseline": {
-"지진": 0.68,
+"지진": 0.71,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.27,
+"폭발": 0.24,
 "붕괴": 0.05,
 "대피": 0.05,
-"미사일": 0.08,
+"미사일": 0.07,
 "속보": 0.05,
-"지하철": 0.85,
-"사고": 0.94,
+"지하철": 0.77,
+"사고": 0.85,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
-"먹통": 0.14,
+"먹통": 0.13,
 "산불": 0.05
 },
 "errors": [],
@@ -3335,14 +3331,14 @@
 "time": "2026-11-07T03:20:00+00:00",
 "news": [
 {
-"title": "How Did My Chemical Romance Top the Chart With a 20-Year-Old Album?",
-"source": "The New York Times",
-"link": "https://www.nytimes.com/2026/11/05/arts/music/my-chemical-romance-black-parade-no-1-album.html"
-},
-{
 "title": "My Chemical Romance goes to No. 1 on the Billboard albums chart",
 "source": "NPR",
 "link": "https://www.npr.org/2026/11/06/nx-s1-6027352/my-chemical-romance-goes-to-no-1-on-the-billboard-albums-chart"
+},
+{
+"title": "How Big a Deal Is My Chemical Romance Scoring Its First No. 1 Album With a 20-Year-Old LP?",
+"source": "Billboard",
+"link": "https://www.billboard.com/music/chart-beat/my-chemical-romance-black-parade-billboard-200-number-one-1236374049/"
 }
 ],
 "new": true
