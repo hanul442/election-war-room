@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-07T22:11:15.135949+00:00",
+"updated": "2026-11-07T22:13:28.907876+00:00",
 "errors": [],
 "events": [
 {
@@ -596,7 +596,7 @@
 },
 "단수": {
 "n30": 0,
-"base": 0.3,
+"base": 0.2,
 "spike": false
 },
 "통신 장애": {
@@ -859,14 +859,14 @@
 "n30": 10,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-07T22:11:15.135949+00:00"
+"since": "2026-11-07T22:13:28.907876+00:00"
 },
 {
 "term": "지하철",
 "n30": 5,
 "base": 0.6,
 "spike": true,
-"since": "2026-11-07T22:11:15.135949+00:00"
+"since": "2026-11-07T22:13:28.907876+00:00"
 }
 ],
 "baseline": {
@@ -879,10 +879,10 @@
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.6,
-"사고": 0.6,
+"지하철": 0.64,
+"사고": 0.64,
 "실종": 0.05,
-"단수": 0.24,
+"단수": 0.22,
 "통신 장애": 0.05,
 "먹통": 0.05,
 "산불": 0.05
@@ -1110,6 +1110,78 @@
 },
 "trends": [
 {
+"term": "인터 마이애미 대 샬럿",
+"traffic": "500+",
+"time": "2026-11-07T21:10:00+00:00",
+"news": [
+{
+"title": "인터 마이애미 대 샬럿 경기 생중계: VAR 판독 결과 샬럿의 골이 취소되었습니다.",
+"source": "Vietnam.vn",
+"link": "https://www.vietnam.vn/ko/truc-tieptruc-tiep-inter-miami-vs-charlotte-charlotte-bi-var-tu-choi-ban-thang"
+},
+{
+"title": "인터 마이애미 대 샬럿 경기 예측: 손에 땀을 쥐게 하는 접전이 예상됩니다.",
+"source": "Vietnam.vn",
+"link": "https://www.vietnam.vn/ko/nhan-dinh-inter-miami-vs-charlotte-hua-hen-man-doi-cong"
+}
+],
+"new": true
+},
+{
+"term": "심폐소생술",
+"traffic": "200+",
+"time": "2026-11-07T21:10:00+00:00",
+"news": [
+{
+"title": "동두천소방서, 여성단체협의회 심폐소생술 교육",
+"source": "인천일보",
+"link": "https://www.incheonilbo.com/news/articleView.html?idxno=1336165"
+},
+{
+"title": "의왕시, 공무원 대상 심폐소생술 등 응급처치 교육실시",
+"source": "브릿지경제",
+"link": "https://www.viva100.com/article/20261106500631"
+}
+],
+"new": true
+},
+{
+"term": "real madrid",
+"traffic": "100+",
+"time": "2026-11-07T21:10:00+00:00",
+"news": [
+{
+"title": "El jugador del Valencia estalla: ¡todo lo que necesitamos es que el árbitro sea justo!",
+"source": "Goal.com",
+"link": "https://www.goal.com/es-mx/noticias/el-jugador-del-valencia-estalla-todo-lo-que-necesitamos-es-que-el-arbitro-sea-justo/blt0d687c4ab1e1d29b"
+},
+{
+"title": "“Es una mierda y no quiero hacer esta entrevista”: el desplante de Maffeo a DAZN que va a traer cola",
+"source": "Diario AS",
+"link": "https://as.com/futbol/videos/es-una-mierda-y-no-quiero-hacer-esta-entrevista-el-desplante-de-maffeo-al-descanso-a-dazn-que-va-a-traer-cola-f202611-v/"
+}
+],
+"new": true
+},
+{
+"term": "valencia vs madrid",
+"traffic": "200+",
+"time": "2026-11-07T21:00:00+00:00",
+"news": [
+{
+"title": "Real Madrid legend pokes fun at Valencia star during La Liga clash",
+"source": "Get Spanish Football News",
+"link": "https://getfootballnewsspain.com/real-madrid-legend-pokes-fun-at-valencia-star-during-la-liga-clash/"
+},
+{
+"title": "‘This is pointless, s**t’ – Valencia star explodes in half-time interview vs Real Madrid",
+"source": "Get Spanish Football News",
+"link": "https://getfootballnewsspain.com/this-is-pointless-st-valencia-star-explodes-in-half-time-interview-vs-real-madrid/"
+}
+],
+"new": true
+},
+{
 "term": "드라마",
 "traffic": "500+",
 "time": "2026-11-07T21:00:00+00:00",
@@ -1144,24 +1216,6 @@
 }
 ],
 "new": false
-},
-{
-"term": "valencia vs madrid",
-"traffic": "100+",
-"time": "2026-11-07T21:00:00+00:00",
-"news": [
-{
-"title": "Real Madrid legend pokes fun at Valencia star during La Liga clash",
-"source": "Get Spanish Football News",
-"link": "https://getfootballnewsspain.com/real-madrid-legend-pokes-fun-at-valencia-star-during-la-liga-clash/"
-},
-{
-"title": "‘This is pointless, s**t’ – Valencia star explodes in half-time interview vs Real Madrid",
-"source": "Get Spanish Football News",
-"link": "https://getfootballnewsspain.com/this-is-pointless-st-valencia-star-explodes-in-half-time-interview-vs-real-madrid/"
-}
-],
-"new": true
 },
 {
 "term": "이창훈",
@@ -1201,7 +1255,7 @@
 },
 {
 "term": "잠실주공5단지 아파트",
-"traffic": "200+",
+"traffic": "500+",
 "time": "2026-11-07T20:50:00+00:00",
 "news": [
 {
@@ -1234,65 +1288,9 @@
 }
 ],
 "new": true
-},
-{
-"term": "농민",
-"traffic": "100+",
-"time": "2026-11-07T20:40:00+00:00",
-"news": [
-{
-"title": "추미애 지사 \"농업은 식량안보이자 환경 지키는 미래 산업...투자 확대할 것\"",
-"source": "뉴스핌",
-"link": "https://www.newspim.com/news/view/20261107000127"
-},
-{
-"title": "제31회 경기도 농업인의 날 기념식‥‘농업인의 날’ 유공자·‘농어민 대상’ 수상자 표창",
-"source": "경기도뉴스포털",
-"link": "https://gnews.gg.go.kr/news/news_detail.do?number=202611061722326191C048&s_code=C048"
-}
-],
-"new": true
-},
-{
-"term": "삼성전기",
-"traffic": "200+",
-"time": "2026-11-07T20:30:00+00:00",
-"news": [
-{
-"title": "[오늘Who] 삼성전기 일본 유리기판 소재 합작사에 3200억 출자, 장덕현 2028년 유리기판 양산 '속도전'",
-"source": "비즈니스포스트",
-"link": "https://www.businesspost.co.kr/BP?command=article_view&num=451396"
-},
-{
-"title": "삼성전기, 글라셈 출자 납입일 5일로 변경",
-"source": "비건뉴스",
-"link": "https://www.vegannews.co.kr/news/article.html?no=401004"
-}
-],
-"new": false
-},
-{
-"term": "พยากรณ์อากาศ",
-"traffic": "100+",
-"time": "2026-11-07T20:30:00+00:00",
-"news": [
-{
-"title": "เช็คสภาพอากาศวันนี้ เตือนฝนตกหนักภาคใต้ ไทยตอนบนยังแปรปรวน",
-"source": "LINE TODAY",
-"link": "https://today.line.me/th/v3/article/vXL87mE?referral=linetodaytopten"
-},
-{
-"title": "📢 อัปเดตประกาศกรมอุตุนิยมวิทยา ฉ.13 | 7 พ.ย. 2569 เวลา 17.00 น. 🌩️ ไทยตอนบนอากาศยังแปรปรวน โดยเฉพาะภาคเหนือและภาคกลาง ระวังฝนฟ้าคะนอง ลมกระโชกแรง และฝนตกหนักบางแห่ง 🌧️ 7–9 พ.ย. ภาคใต้ฝนเพิ่มขึ้น มีฝนตกหนักหลายพื้นที่และฝนตกหนักมากบางแห่ง โดยเฉพา",
-"source": "Facebook",
-"link": "https://www.facebook.com/tmd.go.th/posts/-%E0%B8%AD%E0%B8%B1%E0%B8%9B%E0%B9%80%E0%B8%94%E0%B8%95%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A8%E0%B8%81%E0%B8%A3%E0%B8%A1%E0%B8%AD%E0%B8%B8%E0%B8%95%E0%B8%B8%E0%B8%99%E0%B8%B4%E0%B8%A2%E0%B8%A1%E0%B8%A7%E0%B8%B4%E0%B8%97%E0%B8%A2%E0%B8%B2-%E0%B8%8913-7-%E0%B8%9E%E0%B8%A2-2569-%E0%B9%80%E0%B8%A7%E0%B8%A5%E0%B8%B2-1700-%E0%B8%99%EF%B8%8F-%E0%B9%84%E0%B8%97%E0%B8%A2%E0%B8%95%E0%B8%AD%E0%B8%99%E0%B8%9A%E0%B8%99%E0%B8%AD%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A8%E0%B8%A2%E0%B8%B1%E0%B8%87%E0%B9%81%E0%B8%9B%E0%B8%A3%E0%B8%9B%E0%B8%A3%E0%B8%A7%E0%B8%99/1604637431708386/"
-}
-],
-"new": true
 }
 ],
 "trendSeen": [
-"레인보우로보틱스",
-"로또1249",
 "로보월드",
 "롯데 자이언츠",
 "롯데몰 벨리타운 청량리",
@@ -1391,6 +1389,7 @@
 "신민아",
 "신세계백화점",
 "신호등",
+"심폐소생술",
 "아들",
 "아스널 대 헐 시티",
 "아이뉴스24",
@@ -1471,6 +1470,7 @@
 "이효리",
 "인천",
 "인천 유나이티드 fc",
+"인터 마이애미 대 샬럿",
 "일기예보",
 "일론 머스크",
 "일본 지진",
