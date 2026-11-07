@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-07T15:01:23.680183+00:00",
+"updated": "2026-11-07T15:03:37.979538+00:00",
 "errors": [],
 "events": [
 {
@@ -2871,83 +2871,17 @@
 "짚와이어",
 "철컹"
 ]
-},
-{
-"id": "viewAKR202611070324005270504",
-"first": "2026-11-07T05:04:27+00:00",
-"last": "2026-11-07T09:01:50+00:00",
-"updated": "2026-11-07T09:07:43.867965+00:00",
-"headline": "남해 동부 먼바다에 풍랑주의보 해제",
-"cat": "재난",
-"regions": [
-"경남",
-"울산",
-"제주"
-],
-"sources": [
-"연합뉴스"
-],
-"updates": [
-{
-"title": "남해 동부 먼바다에 풍랑주의보 해제",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261107032400527",
-"time": "2026-11-07T05:04:27+00:00",
-"stage": "1보"
-},
-{
-"title": "동해 남부 먼바다에 풍랑주의보 해제",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261107032500527",
-"time": "2026-11-07T05:05:34+00:00",
-"stage": "후속"
-},
-{
-"title": "제주 남쪽 먼바다에 풍랑주의보 해제",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261107032900527",
-"time": "2026-11-07T05:06:19+00:00",
-"stage": "후속"
-},
-{
-"title": "동해 남부 먼바다에 풍랑주의보 해제",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261107039700527",
-"time": "2026-11-07T07:04:25+00:00",
-"stage": "후속"
-},
-{
-"title": "남해 동부 먼바다에 풍랑주의보 해제",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261107046900527",
-"time": "2026-11-07T09:01:50+00:00",
-"stage": "후속"
-}
-],
-"level": "ALERT",
-"latest": "남해 동부 먼바다에 풍랑주의보 해제",
-"tok": [
-"남부",
-"남쪽",
-"남해",
-"동부",
-"동해",
-"먼바다",
-"제주",
-"풍랑주의보",
-"해제"
-]
 }
 ],
 "sns": {
 "terms": {
 "지진": {
 "n30": 0,
-"base": 0.2,
+"base": 0.1,
 "spike": false
 },
 "화재": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -2962,7 +2896,7 @@
 "spike": false
 },
 "폭발": {
-"n30": 1,
+"n30": 0,
 "base": 0.9,
 "spike": false
 },
@@ -2987,13 +2921,13 @@
 "spike": false
 },
 "지하철": {
-"n30": 3,
+"n30": 4,
 "base": 0.1,
 "spike": false
 },
 "사고": {
-"n30": 2,
-"base": 2.6,
+"n30": 3,
+"base": 2.5,
 "spike": false
 },
 "실종": {
@@ -3003,7 +2937,7 @@
 },
 "단수": {
 "n30": 0,
-"base": 0.6,
+"base": 0.5,
 "spike": false
 },
 "통신 장애": {
@@ -3023,6 +2957,26 @@
 }
 },
 "posts": [
+{
+"text": "출근 때 지하철 타기 vs 버스 타기 \n지하철-시간이 짧긴 하지만 사람이 많음\n(공황장애 진단 받은 적은 없지만 사람 많은 장소에 오래 있으면 답답하고 불편함)\n버스-시간은 더 걸리지만 앉을 자리가 있음\n버스로 그냥 다닐까",
+"handle": "dewdrop102.bsky.social",
+"name": "데이지🌼",
+"time": "2026-11-07T15:03:08.474Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/dewdrop102.bsky.social/post/3mzq65gh4qc2u",
+"term": "지하철"
+},
+{
+"text": "일차적으로 논리에 하자는 없는데, 타인의 모방 가능성 따지는 순간부터 하자가 심각해지는 사고 방식이죠.",
+"handle": "tsuta.bsky.social",
+"name": "츠타蔦_漸龑",
+"time": "2026-11-07T15:03:05.672Z",
+"likes": 0,
+"reposts": 1,
+"url": "https://bsky.app/profile/tsuta.bsky.social/post/3mzq65dez3k2q",
+"term": "사고"
+},
 {
 "text": "사고가 아니라 기분이었지? 그래, 기분. 한낱 병신같고 내 인생에 도움이라곤 좆도 안되던 그 기분.",
 "handle": "1pyengjeong.bsky.social",
@@ -3133,16 +3087,6 @@
 "time": "2026-11-07T14:33:55Z",
 "term": "지하철",
 "url": "https://www.youtube.com/watch?v=5QO6vd6YPjM"
-},
-{
-"text": "플레이어 캐릭터는 방어 성능에 비해 공격 성능은 상대적으로 낮고, 적들은 프론 게임과는 달리 한놈씩 덤비는 편이라, 일반 난이도라면 보스전 외에는 그리 바쁠 일이 없...는데, 그 와중에 잡기지원 분열 다루마하고 폭발 화살 궁병만 이상하게 협공을 적극적으로 하는 편. 사실 보스보다 이 놈들이 더 강함.",
-"handle": "koreanuse.bsky.social",
-"name": "KOREANUSE ",
-"time": "2026-11-07T14:33:27.884Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/koreanuse.bsky.social/post/3mzq4ie5be22k",
-"term": "폭발"
 },
 {
 "platform": "YouTube",
@@ -3282,19 +3226,19 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 0.14,
+"지진": 0.13,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.93,
+"폭발": 0.84,
 "붕괴": 0.05,
 "대피": 0.05,
-"미사일": 0.6,
-"속보": 0.14,
-"지하철": 0.05,
-"사고": 2.54,
+"미사일": 0.64,
+"속보": 0.13,
+"지하철": 0.15,
+"사고": 2.59,
 "실종": 0.05,
-"단수": 0.52,
+"단수": 0.47,
 "통신 장애": 0.05,
 "먹통": 0.05,
 "산불": 0.05
@@ -3522,6 +3466,60 @@
 },
 "trends": [
 {
+"term": "도르트문트 대 엘버스베르크",
+"traffic": "200+",
+"time": "2026-11-07T14:00:00+00:00",
+"news": [
+{
+"title": "Confirmed lineups: Borussia Dortmund vs. SV Elversberg",
+"source": "Yahoo Sports",
+"link": "https://sports.yahoo.com/articles/confirmed-lineups-borussia-dortmund-vs-132600612.html"
+},
+{
+"title": "Borussia Dortmund - SV 07 Elversberg LIVE. Bundesliga latest updates",
+"source": "MARCA",
+"link": "https://www.marca.com/en/soccer/bundesliga/borussia-dortmund-sv-07-elversberg/2026/11/07/01_0108_20261107_157_4071-live.html"
+}
+],
+"new": true
+},
+{
+"term": "라이프치히 대 아우크스부르크",
+"traffic": "200+",
+"time": "2026-11-07T14:00:00+00:00",
+"news": [
+{
+"title": "⚡ Kade shock for Leipzig! Augsburg's fast starters stun RB",
+"source": "Yahoo Sports",
+"link": "https://sports.yahoo.com/articles/kade-shock-leipzig-augsburgs-fast-143900988.html"
+},
+{
+"title": "Licensable picture: Fall Weather in Bad Homburg",
+"source": "Reuters Connect",
+"link": "https://www.reutersconnect.com/item/fall-weather-in-bad-homburg/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX0RQQUFQSVMyNjExMDdYOTlYMjAzNjg2"
+}
+],
+"new": true
+},
+{
+"term": "리즈 유나이티드 대 토트넘 홋스퍼 fc 라인업",
+"traffic": "100+",
+"time": "2026-11-07T14:00:00+00:00",
+"news": [
+{
+"title": "Roberto De Zerbi reaction: What did Spurs boss say after losing at Leeds?",
+"source": "NBC Sports",
+"link": "https://www.nbcsports.com/soccer/news/roberto-de-zerbi-reaction-what-did-spurs-boss-say-after-losing-at-leeds"
+},
+{
+"title": "Every word De Zerbi said on crunch Tottenham meeting, Williams-Barnett dilemma and injuries",
+"source": "Football London",
+"link": "https://www.football.london/tottenham-hotspur-fc/news/roberto-de-zerbi-transcript-leeds-34874141"
+}
+],
+"new": true
+},
+{
 "term": "마인츠 05 대 바이에른",
 "traffic": "5000+",
 "time": "2026-11-07T13:40:00+00:00",
@@ -3646,66 +3644,10 @@
 }
 ],
 "new": true
-},
-{
-"term": "agf",
-"traffic": "500+",
-"time": "2026-11-07T12:00:00+00:00",
-"news": [
-{
-"title": "The Fed in Uncharted Territory with New Communication Policy",
-"source": "AGF Perspectives",
-"link": "https://perspectives.agf.com/the-fed-in-uncharted-territory-with-new-communication-policy/"
-},
-{
-"title": "The fed’s new approach",
-"source": "thecabin.net",
-"link": "https://www.thecabin.net/opinion/the-fed-s-new-approach/article_d26c91eb-79bb-5078-b8a9-c73cabad0629.html"
-}
-],
-"new": true
-},
-{
-"term": "내일 날씨",
-"traffic": "200000+",
-"time": "2026-11-07T11:50:00+00:00",
-"news": [
-{
-"title": "[날씨] '입동 추위' 서울 첫 얼음...내일 중부 중심 비",
-"source": "YTN",
-"link": "https://www.ytn.co.kr/_ln/0108_202611072259352322"
-},
-{
-"title": "’입동’ 추위 서울 첫얼음…내일 중부 비·강원 눈",
-"source": "연합뉴스TV",
-"link": "https://www.yonhapnewstv.co.kr/news/MYH20261107225235CVg"
-}
-],
-"new": true
-},
-{
-"term": "leeds vs spurs",
-"traffic": "500+",
-"time": "2026-11-07T11:50:00+00:00",
-"news": [
-{
-"title": "Premier League LIVE: Build-up, team news, live text, radio & score updates from across the Premier League",
-"source": "BBC",
-"link": "https://www.bbc.com/sport/football/live/cmj6jdk36975t"
-},
-{
-"title": "Leeds United v Tottenham Hotspur: Premier League – live",
-"source": "The Guardian",
-"link": "https://www.theguardian.com/football/live/2026/nov/07/leeds-united-v-tottenham-hotspur-premier-league-live"
-}
-],
-"new": true
 }
 ],
 "trendSeen": [
-"도깨비의 세계",
-"도깨비의세계",
-"도널드 j. 트럼프",
+"도르트문트 대 엘버스베르크",
 "도상우",
 "돔 경기장",
 "동티모르",
@@ -3717,6 +3659,7 @@
 "디아즈",
 "디트로이트 대 필라데피아",
 "라면",
+"라이프치히 대 아우크스부르크",
 "라파엘 나달",
 "래미안 원베일리",
 "래미안원베일리",
@@ -3731,6 +3674,7 @@
 "류효영",
 "르브론 제임스",
 "리즈 유나이티드 대 토트넘",
+"리즈 유나이티드 대 토트넘 홋스퍼 fc 라인업",
 "마라톤",
 "마이크론",
 "마이크론 주가",
