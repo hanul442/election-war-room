@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-07T20:11:12.233182+00:00",
+"updated": "2026-11-07T20:13:25.289716+00:00",
 "errors": [],
 "events": [
 {
@@ -479,7 +479,7 @@
 "spike": false
 },
 "속보": {
-"n30": 9,
+"n30": 8,
 "base": 0.1,
 "spike": true
 },
@@ -490,7 +490,7 @@
 },
 "사고": {
 "n30": 0,
-"base": 0.4,
+"base": 0.3,
 "spike": false
 },
 "실종": {
@@ -740,10 +740,10 @@
 "spikes": [
 {
 "term": "속보",
-"n30": 9,
+"n30": 8,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-07T20:11:12.233182+00:00"
+"since": "2026-11-07T20:13:25.289716+00:00"
 }
 ],
 "baseline": {
@@ -757,7 +757,7 @@
 "미사일": 0.05,
 "속보": 0.05,
 "지하철": 0.05,
-"사고": 0.33,
+"사고": 0.3,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -987,6 +987,42 @@
 },
 "trends": [
 {
+"term": "발렌시아 대 레알 마드리드",
+"traffic": "1000+",
+"time": "2026-11-07T19:10:00+00:00",
+"news": [
+{
+"title": "라리가 발렌시아 대 레알 마드리드 축구 예측",
+"source": "Laodong.vn",
+"link": "https://ko.laodong.vn/bong-da-quoc-te/nhan-dinh-bong-da-valencia-vs-real-madrid-tai-la-liga-1795640.ldo"
+},
+{
+"title": "경기 프리뷰: 발렌시아 vs 레알 마드리드, 11월 8일 새벽 3시: 레알 마드리드의 연승 행진을 막기는 어려울 것이다.",
+"source": "Vietnam.vn",
+"link": "https://www.vietnam.vn/ko/nhan-dinh-tran-dau-valencia-vs-real-madrid-3h00-ngay-8-11-kho-can-mach-thang"
+}
+],
+"new": true
+},
+{
+"term": "배드민턴",
+"traffic": "200+",
+"time": "2026-11-07T19:10:00+00:00",
+"news": [
+{
+"title": "\"안세영, 작년에도 충분히 강했는데...\" 1년 전 꺾었던 日 야마구치의 솔직 평가...\"모든 면에서 발전, 필승법 없다\"[현장 인터뷰] - 머니투데이",
+"source": "머니투데이",
+"link": "https://www.mt.co.kr/sports/2026/11/08/202611071511774591O"
+},
+{
+"title": "‘배드민턴을 얼굴로 치나?’ 일본이 자랑하는 배드민턴 아이돌, 코리아오픈 결승전 전멸...일본 3개 종목 우승 도전",
+"source": "OSEN",
+"link": "https://www.osen.co.kr/article/G1112906193"
+}
+],
+"new": false
+},
+{
 "term": "맨시티",
 "traffic": "200+",
 "time": "2026-11-07T18:20:00+00:00",
@@ -1129,46 +1165,9 @@
 }
 ],
 "new": true
-},
-{
-"term": "김성우",
-"traffic": "200+",
-"time": "2026-11-07T14:50:00+00:00",
-"news": [
-{
-"title": "'그것이 알고싶다', 장모 살해한 26세 사위의 섬뜩한 계획 - 머니투데이",
-"source": "머니투데이",
-"link": "https://www.mt.co.kr/entertainment/2026/11/07/2026110720007237465"
-},
-{
-"title": "[다시보기] 그것이 알고싶다 1511회",
-"source": "programs.sbs.co.kr",
-"link": "https://programs.sbs.co.kr/culture/unansweredquestions/vod/55075/22000639438"
-}
-],
-"new": true
-},
-{
-"term": "nepal premier league",
-"traffic": "100+",
-"time": "2026-11-07T14:50:00+00:00",
-"news": [
-{
-"title": "Match Predictions: Nepal Premier League 2026 - 18th Match - Kathmandu Gorkhas vs Lumbini Lions - 7th November",
-"source": "Cricket World",
-"link": "https://www.cricketworld.com/match-predictions-nepal-premier-league-2026-18th-match-kathmandu-gorkhas-vs-lumbini-lions-7th-november/114221.htm"
-},
-{
-"title": "Kathmandu Gurkhas Batting Well Against Lumbini, David Warner Scores Half-Century",
-"source": "Ratopati",
-"link": "https://english.ratopati.com/story/85985/warner-completes-half-century-against-lumbini"
-}
-],
-"new": true
 }
 ],
 "trendSeen": [
-"디씨",
 "디아즈",
 "디트로이트 대 필라데피아",
 "라면",
@@ -1215,6 +1214,7 @@
 "박승규",
 "박유천",
 "박지후",
+"발렌시아 대 레알 마드리드",
 "배구",
 "배드민턴",
 "배찬승",
