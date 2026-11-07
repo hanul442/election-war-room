@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-07T13:29:31.199525+00:00",
+"updated": "2026-11-07T13:31:47.038573+00:00",
 "errors": [],
 "events": [
 {
@@ -3599,117 +3599,17 @@
 "펜션",
 "화재"
 ]
-},
-{
-"id": "2ZHBPWldtcVNkakp2RjZzoc50605",
-"first": "2026-11-07T06:05:23+00:00",
-"last": "2026-11-07T07:30:33+00:00",
-"updated": "2026-11-07T07:34:07.808959+00:00",
-"headline": "대구 3호선 지산~범물역 차량 고장…한때 열차 지연 발생",
-"cat": "교통",
-"regions": [
-"대구"
-],
-"sources": [
-"SBS",
-"뉴시스",
-"대구매거진",
-"연합뉴스",
-"영남일보",
-"조선일보"
-],
-"updates": [
-{
-"title": "[속보]오늘 14:24 대구 지상철 3호선 지산~범물역간 차량고장으로 3호선 전구간 열차지연 발생",
-"source": "대구매거진",
-"link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFB4MDhrNUFNTm5TRVBWcU9md3JfR19iQ1JTeGVxcVRjMEItZFZhV0pRVGhCOEFhS2pKRVB1YkRNWmJ1YmY3ZkZ1elMzVVExWnRLbGQ2bC1yVkM1Y1dkM0NHTzZHMmxLZzVyd18xZEt1NNIBckFVX3lxTE5yQUpucWQ1Zk96RnNvT0U2WW1nTVJQbWJxVG95dk16TExqajBSZUszWS14ZmowWVlQT29uZWFJb0NxN1ZZM3JXeS1LRi0wLUwtcUhEU0xDNUhhTlJpUFkxeFc3Qzl0WFluUEV3WTNjTnRuQQ?oc=5",
-"time": "2026-11-07T06:04:58+00:00",
-"stage": "속보"
-},
-{
-"title": "[속보] 대구 3호선 지산~범물역 차량 고장…한때 열차 지연 발생",
-"source": "영남일보",
-"link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5XZkxkWVhHMHdWWHJRMjJPOTFtUlhaX2JsSDJ4MEstSC1VVGF5WHdfMkx2R09tRGstaXB1OUNUZ1FuLVVzQzlBaG1nZVRrcG1HQkdTYkJ6VlEwSFo2ZHBPWldtcVNkakp2RjZz?oc=5",
-"time": "2026-11-07T06:05:23+00:00",
-"stage": "얼럿"
-},
-{
-"title": "대구도시철도 3호선 지산∼범물역 차량 고장…전구간 열차 지연",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261107037000053",
-"time": "2026-11-07T06:07:29+00:00",
-"stage": "후속"
-},
-{
-"title": "대구도시철도 3호선 고장으로 운행 지연…30여분만에 정상화(종합)",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261107037051053",
-"time": "2026-11-07T06:31:33+00:00",
-"stage": "종합"
-},
-{
-"title": "대구도시철도 3호선 차량 고장… 전 구간 열차 운행 지연",
-"source": "조선일보",
-"link": "https://www.chosun.com/national/incident/2026/11/07/TME3R72MYBG57LPUSS2SZAVYAI/",
-"time": "2026-11-07T06:33:39+00:00",
-"stage": "후속"
-},
-{
-"title": "한때 대구도시철도 3호선 고장…약 30분 만에 정상화",
-"source": "SBS",
-"link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008835303&plink=RSSLINK&cooper=RSSREADER",
-"time": "2026-11-07T07:25:25+00:00",
-"stage": "후속"
-},
-{
-"title": "대구도시철도 3호선 고장으로 지연…30분만에 정상 운영",
-"source": "뉴시스",
-"link": "https://www.newsis.com/view/NISX20261107_0003858957",
-"time": "2026-11-07T07:30:33+00:00",
-"stage": "후속"
-}
-],
-"level": "URGENT",
-"latest": "대구도시철도 3호선 고장으로 지연…30분만에 정상 운영",
-"tok": [
-"30분",
-"30분만",
-"30여분만",
-"3호선",
-"고장",
-"고장으",
-"구간",
-"대구",
-"대구도시철",
-"만에",
-"발생",
-"범물역",
-"범물역간",
-"열차",
-"열차지연",
-"운영",
-"운행",
-"전구간",
-"정상",
-"정상화",
-"지산",
-"지상철",
-"지연",
-"차량",
-"차량고장으",
-"한때"
-]
 }
 ],
 "sns": {
 "terms": {
 "지진": {
 "n30": 1,
-"base": 0.6,
+"base": 0.7,
 "spike": false
 },
 "화재": {
-"n30": 2,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
@@ -3724,12 +3624,12 @@
 "spike": false
 },
 "폭발": {
-"n30": 6,
+"n30": 1,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "붕괴": {
-"n30": 2,
+"n30": 1,
 "base": 0.7,
 "spike": false
 },
@@ -3739,7 +3639,7 @@
 "spike": false
 },
 "미사일": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -3749,13 +3649,13 @@
 "spike": false
 },
 "지하철": {
-"n30": 4,
-"base": 0.3,
+"n30": 1,
+"base": 0.2,
 "spike": false
 },
 "사고": {
-"n30": 4,
-"base": 2.4,
+"n30": 3,
+"base": 2.5,
 "spike": false
 },
 "실종": {
@@ -3793,16 +3693,6 @@
 "likes": 0,
 "reposts": 0,
 "url": "https://bsky.app/profile/gammmmari.bsky.social/post/3mzpypydchs2j",
-"term": "사고"
-},
-{
-"text": "대왕 꽈배기랑 인삼 튀김 사고\n유과 사고\n찹쌀 도나스도 사고\n\n이 동네는 메뉴 통일이더라\n등갈비에 더덕구이 먹고\n\n알밤빵에 군밤까지 먹었더니 2키로 바로 찜\nㄴ 그렇게 잡쉈는데 2kg면 선방 아닙니까",
-"handle": "jvesuet.bsky.social",
-"name": "Jve",
-"time": "2026-11-07T13:23:18.876Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/jvesuet.bsky.social/post/3mzpykwgs422w",
 "term": "사고"
 },
 {
@@ -4062,27 +3952,19 @@
 "url": "https://www.youtube.com/watch?v=5xfCiIYaC6g"
 }
 ],
-"spikes": [
-{
-"term": "폭발",
-"n30": 6,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-07T13:29:31.199525+00:00"
-}
-],
+"spikes": [],
 "baseline": {
-"지진": 0.68,
+"지진": 0.71,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.12,
-"붕괴": 0.69,
+"폭발": 0.11,
+"붕괴": 0.72,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.27,
-"지하철": 0.23,
-"사고": 2.55,
+"속보": 0.24,
+"지하철": 0.21,
+"사고": 2.59,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -4340,9 +4222,9 @@
 "link": "https://perspectives.agf.com/the-fed-in-uncharted-territory-with-new-communication-policy/"
 },
 {
-"title": "AGF Management : The Fed in Uncharted Territory with New Communication Policy",
-"source": "www.marketscreener.com",
-"link": "https://www.marketscreener.com/news/agf-management-the-fed-in-uncharted-territory-with-new-communication-policy-ce785fd2da8cff2c"
+"title": "The fed’s new approach",
+"source": "thecabin.net",
+"link": "https://www.thecabin.net/opinion/the-fed-s-new-approach/article_d26c91eb-79bb-5078-b8a9-c73cabad0629.html"
 }
 ],
 "new": true
@@ -4450,14 +4332,14 @@
 "time": "2026-11-07T11:40:00+00:00",
 "news": [
 {
-"title": "[Video] Dự báo thời tiết đêm nay và ngày mai 8/11/2026: Bắc Bộ sắp đón không khí lạnh, Bắc Trung Bộ mưa lớn",
-"source": "Báo Nhân Dân điện tử",
-"link": "https://nhandan.vn/video-du-bao-thoi-tiet-dem-nay-va-ngay-mai-8112026-bac-bo-sap-don-khong-khi-lanh-bac-trung-bo-mua-lon-post1000913.html"
+"title": "Không khí lạnh mạnh sắp gây mưa dông, miền Bắc chuyển rét từ 9.11",
+"source": "Tổng Liên Đoàn Lao Động Việt Nam",
+"link": "https://congdoanvietnam.vn/thoi-su/khong-khi-lanh-manh-sap-gay-mua-dong-mien-bac-chuyen-ret-tu-911-47912.tld"
 },
 {
-"title": "Ngày nào rét nhất trong đợt không khí lạnh ở miền Bắc?",
-"source": "phapluat.suckhoedoisong.vn",
-"link": "https://phapluat.suckhoedoisong.vn/ngay-nao-ret-nhat-trong-dot-khong-khi-lanh-o-mien-bac-287064.html"
+"title": "Dự báo thời tiết đêm 7 và ngày 8/11",
+"source": "Báo Lào Cai điện tử",
+"link": "https://baolaocai.vn/du-bao-thoi-tiet-dem-7-va-ngay-811-post913854.html"
 }
 ],
 "new": true
