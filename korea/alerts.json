@@ -1,7 +1,60 @@
 {
-"updated": "2026-11-07T23:33:17.802286+00:00",
+"updated": "2026-11-07T23:35:58.745240+00:00",
 "errors": [],
 "events": [
+{
+"id": "nkRSSLINKcooperRSSREADER1555",
+"first": "2026-11-07T15:55:48+00:00",
+"last": "2026-11-07T23:33:45+00:00",
+"updated": "2026-11-07T23:35:58.745240+00:00",
+"headline": "충남 태안 복합상업시설서 화재…22명 대피",
+"cat": "재난",
+"regions": [
+"충남"
+],
+"sources": [
+"SBS",
+"뉴시스",
+"연합뉴스"
+],
+"updates": [
+{
+"title": "충남 태안 복합상업시설서 화재…22명 대피",
+"source": "SBS",
+"link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008835500&plink=RSSLINK&cooper=RSSREADER",
+"time": "2026-11-07T15:55:48+00:00",
+"stage": "1보"
+},
+{
+"title": "태안 복합상업시설서 불…20여명 대피",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261108005600063",
+"time": "2026-11-07T21:27:36+00:00",
+"stage": "후속"
+},
+{
+"title": "태안 복합상업시설 화재로 22명 대피…2천여만원 피해",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261108_0003859110",
+"time": "2026-11-07T23:33:45+00:00",
+"stage": "후속"
+}
+],
+"level": "URGENT",
+"latest": "태안 복합상업시설 화재로 22명 대피…2천여만원 피해",
+"tok": [
+"20여명",
+"22명",
+"2천여만원",
+"대피",
+"복합상업시설",
+"복합상업시설서",
+"충남",
+"태안",
+"피해",
+"화재"
+]
+},
 {
 "id": "viewAKR202611080031000711846",
 "first": "2026-11-07T18:46:36+00:00",
@@ -665,48 +718,6 @@
 ]
 },
 {
-"id": "nkRSSLINKcooperRSSREADER1555",
-"first": "2026-11-07T15:55:48+00:00",
-"last": "2026-11-07T21:27:36+00:00",
-"updated": "2026-11-07T21:32:40.446440+00:00",
-"headline": "충남 태안 복합상업시설서 화재…22명 대피",
-"cat": "재난",
-"regions": [
-"충남"
-],
-"sources": [
-"SBS",
-"연합뉴스"
-],
-"updates": [
-{
-"title": "충남 태안 복합상업시설서 화재…22명 대피",
-"source": "SBS",
-"link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008835500&plink=RSSLINK&cooper=RSSREADER",
-"time": "2026-11-07T15:55:48+00:00",
-"stage": "1보"
-},
-{
-"title": "태안 복합상업시설서 불…20여명 대피",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261108005600063",
-"time": "2026-11-07T21:27:36+00:00",
-"stage": "후속"
-}
-],
-"level": "ALERT",
-"latest": "태안 복합상업시설서 불…20여명 대피",
-"tok": [
-"20여명",
-"22명",
-"대피",
-"복합상업시설서",
-"충남",
-"태안",
-"화재"
-]
-},
-{
 "id": "g3b2h0SEMyRi1Zak9fNHMoc52008",
 "first": "2026-11-07T20:08:00+00:00",
 "last": "2026-11-07T20:08:00+00:00",
@@ -770,9 +781,9 @@
 "spike": false
 },
 "폭발": {
-"n30": 5,
+"n30": 3,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "붕괴": {
 "n30": 0,
@@ -790,7 +801,7 @@
 "spike": false
 },
 "속보": {
-"n30": 4,
+"n30": 3,
 "base": 0.1,
 "spike": false
 },
@@ -836,7 +847,7 @@
 "handle": "faciata0324.bsky.social",
 "name": "짜냥이🌺",
 "time": "2026-11-07T23:30:03.772Z",
-"likes": 3,
+"likes": 5,
 "reposts": 0,
 "url": "https://bsky.app/profile/faciata0324.bsky.social/post/3mzr2hu4gik2f",
 "term": "사고"
@@ -1050,27 +1061,19 @@
 "url": "https://www.youtube.com/watch?v=JrakbUTCVrI"
 }
 ],
-"spikes": [
-{
-"term": "폭발",
-"n30": 5,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-07T23:33:17.802286+00:00"
-}
-],
+"spikes": [],
 "baseline": {
-"지진": 0.52,
+"지진": 0.57,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
 "폭발": 0.05,
 "붕괴": 0.05,
-"대피": 0.09,
+"대피": 0.08,
 "미사일": 0.05,
 "속보": 0.05,
 "지하철": 0.05,
-"사고": 0.15,
+"사고": 0.24,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -1282,8 +1285,26 @@
 },
 "trends": [
 {
+"term": "inter miami vs charlotte",
+"traffic": "200+",
+"time": "2026-11-07T22:20:00+00:00",
+"news": [
+{
+"title": "MATCH PREVIEW: Inter Miami CF Closes Out 2026 MLS Regular Season with Home Game Against Charlotte FC",
+"source": "Inter Miami CF",
+"link": "https://www.intermiamicf.com/news/match-preview-inter-miami-cf-closes-out-2026-mls-regular-season-with-home-game-against-charlotte-fc"
+},
+{
+"title": "Full-Time Clip: Three Goal Second Half Propels Charlotte FC to 3-3 Draw versus Inter Miami CF",
+"source": "Charlotte FC",
+"link": "https://www.charlottefootballclub.com/news/full-time-clip-three-goal-second-half-propels-charlotte-fc-to-3-3-draw-versus-inter-miami-cf"
+}
+],
+"new": true
+},
+{
 "term": "xrp 레저",
-"traffic": "500+",
+"traffic": "1000+",
 "time": "2026-11-07T22:20:00+00:00",
 "news": [
 {
@@ -1295,24 +1316,6 @@
 "title": "리플(XRP) 1.16달러 추락…1,000만 달러 청산에 1달러선마저 무너지나?",
 "source": "코인리더스",
 "link": "https://www.coinreaders.com/268325"
-}
-],
-"new": true
-},
-{
-"term": "inter miami vs charlotte",
-"traffic": "200+",
-"time": "2026-11-07T22:20:00+00:00",
-"news": [
-{
-"title": "MATCH PREVIEW: Inter Miami CF Closes Out 2026 MLS Regular Season with Home Game Against Charlotte FC",
-"source": "Inter Miami CF",
-"link": "https://www.intermiamicf.com/news/match-preview-inter-miami-cf-closes-out-2026-mls-regular-season-with-home-game-against-charlotte-fc"
-},
-{
-"title": "Charlotte vs Inter Miami Prediction (Nov 7): Inter Miami 85% — Odds & Live Score",
-"source": "AccuScore",
-"link": "https://www.accuscore.com/game/cmv01ijn4utavmn016tcvtspn"
 }
 ],
 "new": true
@@ -1337,7 +1340,7 @@
 },
 {
 "term": "thứ hạng của nottingham forest gặp man city",
-"traffic": "100+",
+"traffic": "200+",
 "time": "2026-11-07T22:20:00+00:00",
 "news": [
 {
@@ -1354,24 +1357,6 @@
 "new": true
 },
 {
-"term": "포스코",
-"traffic": "100+",
-"time": "2026-11-07T22:20:00+00:00",
-"news": [
-{
-"title": "포스코 노조, 임금 잠정합의안 부결…51.7% 반대",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261107046300053"
-},
-{
-"title": "포스코 임단협 잠정합의안, 노조원 투표 '부결'…반대 51.7% - 머니투데이",
-"source": "머니투데이",
-"link": "https://www.mt.co.kr/industry/2026/11/07/2026110719110614930"
-}
-],
-"new": false
-},
-{
 "term": "토트넘 홋스퍼 fc",
 "traffic": "200+",
 "time": "2026-11-07T22:20:00+00:00",
@@ -1385,6 +1370,24 @@
 "title": "'일주일에 7억 2천만 원' \"단 1유로도 아깝지 않다!\" 바이에른 회네스, 케인 초대형 재계약에 대만족...발롱도르 수상자 향한 무한 신뢰 - 머니투데이",
 "source": "머니투데이",
 "link": "https://www.mt.co.kr/sports/2026/11/06/202611062039777851O"
+}
+],
+"new": false
+},
+{
+"term": "포스코",
+"traffic": "100+",
+"time": "2026-11-07T22:20:00+00:00",
+"news": [
+{
+"title": "포스코 노조, 임금 잠정합의안 부결…51.7% 반대",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261107046300053"
+},
+{
+"title": "포스코 임단협 잠정합의안, 노조원 투표 '부결'…반대 51.7% - 머니투데이",
+"source": "머니투데이",
+"link": "https://www.mt.co.kr/industry/2026/11/07/2026110719110614930"
 }
 ],
 "new": false
@@ -1416,7 +1419,7 @@
 },
 {
 "term": "노시환",
-"traffic": "500+",
+"traffic": "1000+",
 "time": "2026-11-07T22:00:00+00:00",
 "news": [
 {
@@ -1434,7 +1437,7 @@
 },
 {
 "term": "순위",
-"traffic": "200+",
+"traffic": "500+",
 "time": "2026-11-07T22:00:00+00:00",
 "news": [
 {
