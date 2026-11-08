@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-08T22:41:18.136535+00:00",
+"updated": "2026-11-08T22:43:32.585600+00:00",
 "errors": [],
 "events": [
 {
@@ -798,14 +798,14 @@
 "spike": false
 },
 "정전": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
 "폭발": {
-"n30": 5,
+"n30": 4,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "붕괴": {
 "n30": 3,
@@ -828,13 +828,13 @@
 "spike": false
 },
 "지하철": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
 "사고": {
 "n30": 2,
-"base": 0.8,
+"base": 0.9,
 "spike": false
 },
 "실종": {
@@ -1110,15 +1110,7 @@
 "url": "https://www.youtube.com/watch?v=MovQKeW04Yo"
 }
 ],
-"spikes": [
-{
-"term": "폭발",
-"n30": 5,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-08T22:41:18.136535+00:00"
-}
-],
+"spikes": [],
 "baseline": {
 "지진": 0.05,
 "화재": 0.05,
@@ -1130,7 +1122,7 @@
 "미사일": 0.05,
 "속보": 0.05,
 "지하철": 0.05,
-"사고": 0.9,
+"사고": 1.01,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -1369,6 +1361,85 @@
 },
 "trends": [
 {
+"term": "농업",
+"traffic": "200+",
+"time": "2026-11-08T21:40:00+00:00",
+"news": [
+{
+"title": "농정원, 농업법인 100여 명에 세무·노무 교육…유통 대응 강의 신설",
+"source": "한국영농신문",
+"link": "https://www.youngnong.co.kr/news/articleView.html?idxno=71695"
+},
+{
+"title": "농정원, 농업법인 역량강화 교육",
+"source": "보건신문",
+"link": "http://www.bokuennews.com/news/article.html?no=286730"
+}
+],
+"new": true
+},
+{
+"term": "thời tiết",
+"traffic": "1000+",
+"time": "2026-11-08T21:40:00+00:00",
+"news": [
+{
+"title": "Dự báo thời tiết đêm 8 và ngày 9/11",
+"source": "Báo Lào Cai điện tử",
+"link": "https://baolaocai.vn/du-bao-thoi-tiet-dem-8-va-ngay-911-post913945.html"
+},
+{
+"title": "Dự báo thời tiết 9/11/2026: Bắc Bộ rét, Trung Bộ mưa lớn",
+"source": "Báo Nhân Dân điện tử",
+"link": "https://nhandan.vn/video-du-bao-thoi-tiet-dem-nay-va-ngay-mai-9112026-khong-khi-lanh-tran-xuong-bac-bo-va-trung-bo-mua-ret-dien-rong-post1001081.html"
+}
+],
+"new": true
+},
+{
+"term": "สภาพอากาศ",
+"traffic": "1000+",
+"time": "2026-11-08T21:40:00+00:00",
+"news": [
+{
+"title": "อุตุฯ เตือนใต้ฝนตกหนัก 9-13 พ.ย. ส่วนอีสานอุณหภูมิลด 3-5 องศาฯ",
+"source": "Thai PBS",
+"link": "https://www.thaipbs.or.th/news/content/572392"
+},
+{
+"title": "📢 ประกาศกรมอุตุนิยมวิทยา ฉ.1 | 8 พ.ย. 2569 เวลา 17.00 น. 🌧️ 9–13 พ.ย. ภาคใต้ฝนตกหนักถึงหนักมาก ไทยตอนบนอากาศเย็นลง มีลมแรง กรมอุตุฯ เตือนฝนตกหนัก-หนักมากภาคใต้ ช่วง 9–13 พฤศจิกายน 2569 เสี่ยงน้ำท่วมฉับพลันและน้ำป่าไหลหลาก โดยเฉพาะพื้นที่ลาดเชิงเขาใกล้ทาง",
+"source": "Facebook",
+"link": "https://www.facebook.com/tmd.go.th/posts/-%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A8%E0%B8%81%E0%B8%A3%E0%B8%A1%E0%B8%AD%E0%B8%B8%E0%B8%95%E0%B8%B8%E0%B8%99%E0%B8%B4%E0%B8%A2%E0%B8%A1%E0%B8%A7%E0%B8%B4%E0%B8%97%E0%B8%A2%E0%B8%B2-%E0%B8%891-8-%E0%B8%9E%E0%B8%A2-2569-%E0%B9%80%E0%B8%A7%E0%B8%A5%E0%B8%B2-1700-%E0%B8%99%EF%B8%8F-913-%E0%B8%9E%E0%B8%A2-%E0%B8%A0%E0%B8%B2%E0%B8%84%E0%B9%83%E0%B8%95%E0%B9%89%E0%B8%9D%E0%B8%99%E0%B8%95%E0%B8%81%E0%B8%AB%E0%B8%99%E0%B8%B1%E0%B8%81%E0%B8%96%E0%B8%B6%E0%B8%87%E0%B8%AB%E0%B8%99%E0%B8%B1%E0%B8%81%E0%B8%A1%E0%B8%B2/1605830921589037/"
+}
+],
+"new": true
+},
+{
+"term": "한푸",
+"traffic": "100+",
+"time": "2026-11-08T21:40:00+00:00",
+"news": [
+{
+"title": "쿠팡·네이버에 한복이 ‘한푸’로…“중국 한복공정에 빌미”",
+"source": "KBS 뉴스",
+"link": "https://news.kbs.co.kr/news/view.do?ncd=8706982"
+},
+{
+"title": "[스타트픽] 국내 쇼핑몰에서 한복이 '한푸'로...\"관리 소홀\"",
+"source": "YTN",
+"link": "https://www.ytn.co.kr/_ln/0104_202611090633060765"
+}
+],
+"new": true
+},
+{
+"term": "klasemen manchester united f.c. vs aston villa",
+"traffic": "100+",
+"time": "2026-11-08T21:40:00+00:00",
+"news": [],
+"new": true
+},
+{
 "term": "톱스타뉴스",
 "traffic": "500+",
 "time": "2026-11-08T21:30:00+00:00",
@@ -1440,106 +1511,15 @@
 "link": "https://www.munhwa.com/article/11629589"
 },
 {
-"title": "\"107년 만에 처음\" 일본 한밤에 규모 5.7 지진...진원지에 초긴장 - 머니투데이",
-"source": "머니투데이",
-"link": "https://www.mt.co.kr/world/2026/11/09/2026110905135483213"
+"title": "일본 시즈오카현 규모 5.7 지진…“향후 일주일 지진 주의”",
+"source": "KBS 뉴스",
+"link": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8707082"
 }
 ],
 "new": false
-},
-{
-"term": "애틀랜타",
-"traffic": "200+",
-"time": "2026-11-08T21:20:00+00:00",
-"news": [
-{
-"title": "중국이 보낸 판다 두 마리, 美 애틀랜타 동물원서 공개돼",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261108002700009"
-},
-{
-"title": "“내 인생 최고”…中 판다 핑핑·푸솽에 열광하는 美애틀랜타",
-"source": "동아일보",
-"link": "https://www.donga.com/news/Inter/article/all/20261108/134986319/2"
-}
-],
-"new": false
-},
-{
-"term": "atlético madrid đấu với barcelona",
-"traffic": "200+",
-"time": "2026-11-08T21:20:00+00:00",
-"news": [
-{
-"title": "Trực tiếp bóng đá Atletico - Barcelona: Đội khách gỡ hòa cuối hiệp 1 (La Liga)",
-"source": "Tin tức 24h",
-"link": "https://www.24h.com.vn/bong-da/truc-tiep-bong-da-atletico-barcelona-dai-chien-vi-ngoi-dau-la-liga-c48a1809403.html"
-},
-{
-"title": "'Bàn mở tỷ số từ đó bắt đầu với những đường kiến tạo sắc sảo' Lee Kang-in vắng mặt thì tấn công 'lộn xộn'... ATM, 'bàn thắng đôi của Lopes' thua ngược Barcelona 1-2",
-"source": "스타뉴스",
-"link": "https://www.starnewskorea.com/vi/sports/2026/11/09/2026110906143410903"
-}
-],
-"new": true
-},
-{
-"term": "아파트",
-"traffic": "1000+",
-"time": "2026-11-08T21:20:00+00:00",
-"news": [
-{
-"title": "쌓이는 서울 아파트 매물…’집값 하락’ 확산할까",
-"source": "연합뉴스TV",
-"link": "https://www.yonhapnewstv.co.kr/news/MYH20261108093404dc5"
-},
-{
-"title": "'집값 상승률 1위' 성북구 이끈 길음·돈암…1년 새 30% 오른 단지도",
-"source": "뉴스1",
-"link": "https://www.news1.kr/realestate/general/6346843"
-}
-],
-"new": false
-},
-{
-"term": "kbo 리그",
-"traffic": "500+",
-"time": "2026-11-08T21:10:00+00:00",
-"news": [
-{
-"title": "다저스 유니폼 입었던 前 롯데 좌승사자 KBO리그 복귀 추진해보나…美도 \"주목할 만한 마이너 FA\" 조명",
-"source": "SPOTV NEWS",
-"link": "https://www.spotvnews.co.kr/news/articleView.html?idxno=1018099"
-},
-{
-"title": "[오피셜] 다저스산 초대형 매물 韓 리턴? 롯데 자이언츠 前 에이스 반즈, 두산 베어스 前 투수 콜 어빈 모두 FA",
-"source": "스포탈코리아",
-"link": "https://www.sportalkorea.com/news/articleView.html?idxno=2025052909553676712"
-}
-],
-"new": true
-},
-{
-"term": "경제",
-"traffic": "500+",
-"time": "2026-11-08T21:10:00+00:00",
-"news": [
-{
-"title": "반도체 호황은 ‘위장된 저주’였나, 5년 후 한국 경제 거대 위기 올 수도",
-"source": "조선일보",
-"link": "https://www.chosun.com/economy/money/2026/11/02/4ZDQMPX3KRFOFC5DVMJZZ7ZWQE/"
-},
-{
-"title": "[에디터 프리즘] 추격의 끝, 선도의 위기",
-"source": "중앙일보",
-"link": "https://www.joongang.co.kr/article/25476499"
-}
-],
-"new": true
 }
 ],
 "trendSeen": [
-"송하예",
 "송해",
 "송혜교",
 "쇼메이커",
@@ -1816,6 +1796,7 @@
 "한국시리즈 중계",
 "한남더힐 아파트",
 "한파",
+"한푸",
 "한화",
 "한화에어로스페이스",
 "항공기",
