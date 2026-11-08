@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-08T20:50:14.954428+00:00",
+"updated": "2026-11-08T20:52:30.384075+00:00",
 "errors": [],
 "events": [
 {
@@ -859,8 +859,8 @@
 "sns": {
 "terms": {
 "지진": {
-"n30": 1,
-"base": 0.7,
+"n30": 0,
+"base": 0.8,
 "spike": false
 },
 "화재": {
@@ -894,7 +894,7 @@
 "spike": false
 },
 "미사일": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -940,16 +940,6 @@
 }
 },
 "posts": [
-{
-"text": "【지진 정보】일본 시간 11월 9일 05:16경\n진원: 진원 조사 중\n최대 진도: 3\n진도 3: 이와테현, 미야기현\n(일본 기상청 발표)\n#일본 #지진 #방재",
-"handle": "ko.soramoyou.yk-planning.jp",
-"name": "Soramoyou 한국어",
-"time": "2026-11-08T20:20:32.475Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/ko.soramoyou.yk-planning.jp/post/3mztadw7e5d2g",
-"term": "지진"
-},
 {
 "platform": "YouTube",
 "text": "이란 탄도미사일 사거리 제한 해제 공식화, 2000km 제한이 풀린 진짜 이유?",
@@ -1169,7 +1159,7 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 0.77,
+"지진": 0.69,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
