@@ -1,12 +1,12 @@
 {
-"updated": "2026-11-08T05:44:39.598897+00:00",
+"updated": "2026-11-08T05:46:58.070905+00:00",
 "errors": [],
 "events": [
 {
 "id": "HZU1yR3lBQXZPU1QyY1N0oc50521",
 "first": "2026-11-08T05:21:00+00:00",
-"last": "2026-11-08T05:36:22+00:00",
-"updated": "2026-11-08T05:44:39.598897+00:00",
+"last": "2026-11-08T05:46:46+00:00",
+"updated": "2026-11-08T05:46:58.070905+00:00",
 "headline": "안세영, 야마구치 꺾고 코리아오픈 우승⋯시즌 11승 달성",
 "cat": "기타",
 "regions": [
@@ -15,6 +15,7 @@
 "sources": [
 "KBC광주방송",
 "KBS 뉴스",
+"SBS",
 "남도일보",
 "뉴시스",
 "더팩트",
@@ -114,10 +115,17 @@
 "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5MZF9mQXRqendKREp5eEJzU2tST29pbEh5SktBTTZCLVA3M3RvVV9TRlVySVRIc1FjRngzRVN4NnpMRDloODVIaDUwY1ZQYUxXRzBuRDNEaXTSAVNBVV95cUxObGZPR0RuZWZFN2NhZ3J6SGVNQ1BmYmxDNkowNTgtSUZpNVMxeUF0YTREVWxmbGJacE5jWlh5bkFTT2dRVVo0cnNiVDJVYUlDOTdMTQ?oc=5",
 "time": "2026-11-08T05:36:22+00:00",
 "stage": "속보"
+},
+{
+"title": "무적의 안세영, 2시즌 연속 역대 최다 '11승' 달성",
+"source": "SBS",
+"link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008835950&plink=RSSLINK&cooper=RSSREADER",
+"time": "2026-11-08T05:46:46+00:00",
+"stage": "후속"
 }
 ],
 "level": "URGENT",
-"latest": "안세영, 日 야마구치 꺾고 코리아오픈 우승…'2년 연속 시즌 11승'",
+"latest": "무적의 안세영, 2시즌 연속 역대 최다 '11승' 달성",
 "tok": [
 "11번",
 "11번째",
@@ -2957,17 +2965,17 @@
 "spike": false
 },
 "폭발": {
-"n30": 3,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
 "붕괴": {
 "n30": 0,
-"base": 1.0,
+"base": 0.9,
 "spike": false
 },
 "대피": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -2982,13 +2990,13 @@
 "spike": false
 },
 "지하철": {
-"n30": 4,
-"base": 0.9,
+"n30": 2,
+"base": 1.0,
 "spike": false
 },
 "사고": {
-"n30": 7,
-"base": 5.4,
+"n30": 6,
+"base": 5.6,
 "spike": false
 },
 "실종": {
@@ -3018,6 +3026,16 @@
 }
 },
 "posts": [
+{
+"text": "술 안좋아고 회 안좋아하는데 정말 감칠맛 폭발할거 같고 좋네요..",
+"handle": "raventree90.bsky.social",
+"name": "Thumbelina",
+"time": "2026-11-08T05:45:35.077Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/raventree90.bsky.social/post/3mzrphcpqps2v",
+"term": "폭발"
+},
 {
 "text": "지하철 내 앞에 아저씨 스캠소녀와 문자함 아이유와 합성한듯한 그녀의 사진을 확대해서 보는 중",
 "handle": "digifootgj.bsky.social",
@@ -3310,13 +3328,13 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.09,
-"붕괴": 0.94,
+"폭발": 0.18,
+"붕괴": 0.85,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.99,
-"사고": 5.58,
+"지하철": 1.09,
+"사고": 5.62,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
