@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-08T14:23:30.584920+00:00",
+"updated": "2026-11-08T14:25:47.087636+00:00",
 "errors": [],
 "events": [
 {
@@ -5039,38 +5039,6 @@
 "추정",
 "켜고"
 ]
-},
-{
-"id": "RobGRkS2lNS3VEaGNldkEoc50825",
-"first": "2026-11-08T08:25:05+00:00",
-"last": "2026-11-08T08:25:05+00:00",
-"updated": "2026-11-08T08:34:02.741012+00:00",
-"headline": "50대 남성이 몰던 SUV, 버스 정류장으로 돌진",
-"cat": "기타",
-"regions": [],
-"sources": [
-"강원일보"
-],
-"updates": [
-{
-"title": "[속보] 50대 남성이 몰던 SUV, 버스 정류장으로 돌진",
-"source": "강원일보",
-"link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBLZzdRYkJjSE5EMFo4LUIwUHRxdVNQT3ZNZ0ZBZGhvWEJjUkE3UDBuWnUxZ3VjaU00alhsUENvNExOWlp1TDRyakE2UDRobGRkS2lNS3VEaGNldkE?oc=5",
-"time": "2026-11-08T08:25:05+00:00",
-"stage": "얼럿"
-}
-],
-"level": "URGENT",
-"latest": "50대 남성이 몰던 SUV, 버스 정류장으로 돌진",
-"tok": [
-"50대",
-"SUV",
-"남성",
-"돌진",
-"몰던",
-"버스",
-"정류장으"
-]
 }
 ],
 "sns": {
@@ -5096,13 +5064,13 @@
 "spike": false
 },
 "폭발": {
-"n30": 0,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
 "붕괴": {
 "n30": 0,
-"base": 0.8,
+"base": 0.7,
 "spike": false
 },
 "대피": {
@@ -5122,12 +5090,12 @@
 },
 "지하철": {
 "n30": 5,
-"base": 0.4,
+"base": 0.6,
 "spike": true
 },
 "사고": {
-"n30": 3,
-"base": 1.2,
+"n30": 4,
+"base": 1.4,
 "spike": false
 },
 "실종": {
@@ -5158,6 +5126,16 @@
 },
 "posts": [
 {
+"text": "한번씩 관리자가 들여다보겠죠. 지금도 이게 싫어서 ‘유료를 써야 한다’라고 서로 팁으로 공유하는 판국이라서요. 꼴에 대중이 보기 흉한거나 민간에서 눈총 사는 건 잘 아는지 아카라이브에 관련 채널 등이 있는데 구글검색이 됨에도 한국IP로는 직접 접근 못 하게 해놨더라고요. 열심히 음지, 딥웹이라고 믿어의심치 않는듯해서 지켜만 보고 있습니다만.. 뭐 언젠간 알아서 사고치고 폭발해버리겠죠. 심야식",
+"handle": "celuli.bsky.social",
+"name": "변경의 세루리.@흡혈귀 저택",
+"time": "2026-11-08T14:24:15.170Z",
+"likes": 1,
+"reposts": 0,
+"url": "https://bsky.app/profile/celuli.bsky.social/post/3mzsmgrwlek2f",
+"term": "폭발"
+},
+{
 "text": "1n살 위의 남성과 삼촌-조카로 술 한잔 하면서 끊임없이 사모님께 전화받는 삶… ㅅ1ㅂ 저는 다 늙어빠진 당신의 남편에게 1도 관심이 없고요. \n당신께 관심이 있습니다 제발 알아주세요  🤣 (1n살 꽐라된 남성을 지하철 태워보내며)",
 "handle": "lemi9.bsky.social",
 "name": "레미",
@@ -5172,7 +5150,7 @@
 "handle": "k9758898.bsky.social",
 "name": "Bookstoremaster🐰",
 "time": "2026-11-08T14:19:59.575Z",
-"likes": 0,
+"likes": 1,
 "reposts": 0,
 "url": "https://bsky.app/profile/k9758898.bsky.social/post/3mzsm74g45c2q",
 "term": "사고"
@@ -5182,8 +5160,8 @@
 "handle": "hicoraki.bsky.social",
 "name": "코코라비",
 "time": "2026-11-08T14:19:53.469Z",
-"likes": 3,
-"reposts": 1,
+"likes": 5,
+"reposts": 2,
 "url": "https://bsky.app/profile/hicoraki.bsky.social/post/3mzsm6ywa2s2b",
 "term": "사고"
 },
@@ -5437,23 +5415,23 @@
 {
 "term": "지하철",
 "n30": 5,
-"base": 0.4,
+"base": 0.6,
 "spike": true,
-"since": "2026-11-08T14:23:30.584920+00:00"
+"since": "2026-11-08T14:25:47.087636+00:00"
 }
 ],
 "baseline": {
-"지진": 0.3,
+"지진": 0.27,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.13,
-"붕괴": 0.71,
+"폭발": 0.22,
+"붕괴": 0.64,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.55,
-"사고": 1.37,
+"지하철": 0.7,
+"사고": 1.63,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -5702,16 +5680,16 @@
 "link": "https://www.bbc.com/sport/football/live/cqkgkwj1rpl8t"
 },
 {
-"title": "Brentford predicted XI vs Brighton: Bees eye back-to-back wins to gatecrash top four race",
-"source": "Yahoo Sports",
-"link": "https://sports.yahoo.com/articles/brentford-predicted-xi-vs-brighton-000000348.html"
+"title": "Brighton vs Brentford LIVE! Premier League score updates, news, prediction, line-ups and how to watch or stream",
+"source": "Sky Sports",
+"link": "https://www.skysports.com/football/live-blog/13592882/brighton-vs-brentford-live-premier-league-score-updates-news-prediction-line-ups-and-how-to-watch-or-stream"
 }
 ],
 "new": true
 },
 {
 "term": "sbs",
-"traffic": "500+",
+"traffic": "1000+",
 "time": "2026-11-08T13:20:00+00:00",
 "news": [
 {
@@ -5864,9 +5842,9 @@
 "link": "https://www.khan.co.kr/article/202611081813001"
 },
 {
-"title": "서울대 총장 최종 후보에 최해천 공과대학 교수 선출",
+"title": "서울대 총장 최종 후보에 최해천…교내 평가 1위 탈락은 12년만",
 "source": "동아일보",
-"link": "https://www.donga.com/news/Society/article/all/20261108/134987457/2"
+"link": "https://www.donga.com/news/Society/article/all/20261108/134987507/1"
 }
 ],
 "new": false
