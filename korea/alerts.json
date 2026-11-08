@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-08T13:14:54.722567+00:00",
+"updated": "2026-11-08T13:17:14.557461+00:00",
 "errors": [],
 "events": [
 {
@@ -741,7 +741,7 @@
 "id": "tYM0JzTmdLLUI1bV9oN2soc50214",
 "first": "2026-11-08T02:14:20+00:00",
 "last": "2026-11-08T12:08:28+00:00",
-"updated": "2026-11-08T12:10:59.196465+00:00",
+"updated": "2026-11-08T13:17:14.557461+00:00",
 "headline": "서울 종로에서 첫눈 관측…작년보다 26일 빨라",
 "cat": "기타",
 "regions": [
@@ -759,7 +759,8 @@
 "세계일보",
 "연합뉴스",
 "조선일보",
-"채널A"
+"채널A",
+"한겨레"
 ],
 "updates": [
 {
@@ -910,6 +911,13 @@
 "stage": "후속"
 },
 {
+"title": "성급한 추위에 ‘서울 첫눈’ 내렸다…20년 만에 가장 일러",
+"source": "한겨레",
+"link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9IOUExTEkxRktsNTFTZmthZUg0ZERVTkRHQ0F3SVBHdzE3bVVzRHpnU3M5RHRKZHY5TkhNUEpSRE5Ib0I4enoySkJRczZaWjl5TFZzSVB3U2ZyOHpaU1JIZzhGaEYyTUZOVTM2OQ?oc=5",
+"time": "2026-11-08T11:19:00+00:00",
+"stage": "후속"
+},
+{
 "title": "[날씨/XR] 서울 평년보다 12일 빠른 첫눈…당분간 추위",
 "source": "SBS",
 "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008836170&plink=RSSLINK&cooper=RSSREADER",
@@ -921,19 +929,23 @@
 "latest": "[날씨/XR] 서울 평년보다 12일 빠른 첫눈…당분간 추위",
 "tok": [
 "12일",
+"20년",
 "26일",
 "XR",
+"가장",
 "관측",
 "날씨",
 "내려",
 "내렸다",
 "당분간",
+"만에",
 "많이",
 "벌써",
 "빠른",
 "빨라",
 "서울",
 "서울서",
+"성급한",
 "올가",
 "월요일",
 "이른",
@@ -5289,12 +5301,12 @@
 "terms": {
 "지진": {
 "n30": 1,
-"base": 0.6,
+"base": 0.7,
 "spike": false
 },
 "화재": {
 "n30": 0,
-"base": 0.7,
+"base": 0.6,
 "spike": false
 },
 "불났": {
@@ -5308,7 +5320,7 @@
 "spike": false
 },
 "폭발": {
-"n30": 2,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
@@ -5328,18 +5340,18 @@
 "spike": false
 },
 "속보": {
-"n30": 2,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
 "지하철": {
-"n30": 1,
-"base": 1.3,
+"n30": 2,
+"base": 1.2,
 "spike": false
 },
 "사고": {
 "n30": 1,
-"base": 2.8,
+"base": 2.6,
 "spike": false
 },
 "실종": {
@@ -5369,6 +5381,26 @@
 }
 },
 "posts": [
+{
+"text": "나 40대가 연락해도 좋으니까 나랑 연락할 사람\n서울이고 170/54 16살이야 못생겨도 키스라도 해주면 좋으니까 연락줘 경기도까지 지하철 타고 갈 수 있어\n\n#섹스 #섹트 #섹블 #남친 #구인 #서울 #오프",
+"handle": "iwantsexplz.bsky.social",
+"name": "iwantsexplz.bsky.social",
+"time": "2026-11-08T13:16:38.774Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/iwantsexplz.bsky.social/post/3mzsinwb2cc2u",
+"term": "지하철"
+},
+{
+"text": "틔터는 sRGB밖에 지원을 안하는거 같긴 한데\n그리고 폰에서 보니 형광핑크가 폭발하고 있어서 지금 갤러리 열어보고 눈 비비는 중",
+"handle": "ladymayladiez.bsky.social",
+"name": "承[しゅん] 잡담계🔒",
+"time": "2026-11-08T13:15:06.875Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/ladymayladiez.bsky.social/post/3mzsil4do4s2t",
+"term": "폭발"
+},
 {
 "text": "심하면 벽에 금이 가기도 하고 일부 시설이 붕괴 위험 등급까지 갈 정도.... 삼풍백화점의 교훈을 잊어 버린 사람들이 많다.",
 "handle": "joinful.bsky.social",
@@ -5619,21 +5651,21 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 0.68,
-"화재": 0.59,
+"지진": 0.71,
+"화재": 0.53,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.05,
-"붕괴": 0.15,
+"폭발": 0.15,
+"붕괴": 0.24,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 1.21,
-"사고": 2.61,
+"지하철": 1.19,
+"사고": 2.45,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
-"먹통": 0.64,
+"먹통": 0.68,
 "산불": 0.05
 },
 "errors": [],
@@ -6006,14 +6038,14 @@
 "time": "2026-11-08T09:00:00+00:00",
 "news": [
 {
+"title": "서울대 강단 선 최태원…“AI시대 복합 위기, ‘4대 해법’으로 뚫자”",
+"source": "서울경제",
+"link": "https://www.sedaily.com/article/20110913"
+},
+{
 "title": "맏형 최태원의 28년 궤적… SK 행복 씨앗으로 ‘국가 AI’ 설계",
 "source": "아시아투데이",
 "link": "https://www.asiatoday.co.kr/kn/view.php?key=20261109010002998"
-},
-{
-"title": "최태원 “돈이 너무 많이 풀려...롤러코스피 이어질 것”",
-"source": "매일경제",
-"link": "https://www.mk.co.kr/news/business/12200335"
 }
 ],
 "new": false
