@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-08T03:33:36.831620+00:00",
+"updated": "2026-11-08T03:35:52.973433+00:00",
 "errors": [],
 "events": [
 {
@@ -316,6 +316,41 @@
 "제동",
 "취소",
 "회장"
+]
+},
+{
+"id": "UanB4dTJGSkdnWXo3VUhzoc50242",
+"first": "2026-11-08T02:42:48+00:00",
+"last": "2026-11-08T02:42:48+00:00",
+"updated": "2026-11-08T03:35:52.973433+00:00",
+"headline": "양준혁, 김치 사업 500억 매출 목표…박미희 보스와 스카우트 제안",
+"cat": "기타",
+"regions": [],
+"sources": [
+"한국사회복지저널"
+],
+"updates": [
+{
+"title": "[속보] 양준혁, 김치 사업 500억 매출 목표…박미희 보스와 스카우트 제안",
+"source": "한국사회복지저널",
+"link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBQMmZ3aWVXQWlYMGJxYVBwVlp3NzVQQ19aX0x4N1BqX1M5d0RHeWd6R0RFaFpJeHhpajFmUGpTVmROcUpLODl2ZUs1WmdUQjZaUE9DVndXdWpsRVNUanB4dTJGSkdnWXo3VUhz?oc=5",
+"time": "2026-11-08T02:42:48+00:00",
+"stage": "얼럿"
+}
+],
+"level": "URGENT",
+"latest": "양준혁, 김치 사업 500억 매출 목표…박미희 보스와 스카우트 제안",
+"tok": [
+"500억",
+"김치",
+"매출",
+"목표",
+"박미희",
+"보스",
+"사업",
+"스카우트",
+"양준혁",
+"제안"
 ]
 },
 {
@@ -2128,7 +2163,7 @@
 },
 "폭발": {
 "n30": 5,
-"base": 0.2,
+"base": 0.3,
 "spike": true
 },
 "붕괴": {
@@ -2142,7 +2177,7 @@
 "spike": false
 },
 "미사일": {
-"n30": 4,
+"n30": 3,
 "base": 0.1,
 "spike": false
 },
@@ -2152,13 +2187,13 @@
 "spike": false
 },
 "지하철": {
-"n30": 3,
+"n30": 2,
 "base": 0.9,
 "spike": false
 },
 "사고": {
-"n30": 1,
-"base": 0.8,
+"n30": 0,
+"base": 0.9,
 "spike": false
 },
 "실종": {
@@ -2345,16 +2380,6 @@
 "url": "https://www.youtube.com/watch?v=Tjp9U1BT7kc"
 },
 {
-"text": "ㅋㅋㅋㅋㅋㅋ 금방 올린 포스팅에 스위치 사고 싶다는 걸 썼다가 지웠는데 말이죠 #투명",
-"handle": "wineguitar4.bsky.social",
-"name": "와인기타",
-"time": "2026-11-08T03:05:35.153Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/wineguitar4.bsky.social/post/3mzrgj6dpss2o",
-"term": "사고"
-},
-{
 "platform": "YouTube",
 "text": "北 집속탄 미사일로 비행장 타격 훈련 공개… 76년 전 김포비행장 노린 북한기, 이틀 뒤 미 공군 첫 격추 #shorts",
 "handle": "UCAq58By7z6iu7awA-pQshGA",
@@ -2440,23 +2465,23 @@
 {
 "term": "폭발",
 "n30": 5,
-"base": 0.2,
+"base": 0.3,
 "spike": true,
-"since": "2026-11-08T03:33:36.831620+00:00"
+"since": "2026-11-08T03:35:52.973433+00:00"
 }
 ],
 "baseline": {
-"지진": 0.2,
+"지진": 0.18,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.32,
-"붕괴": 0.64,
+"폭발": 0.39,
+"붕괴": 0.68,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.91,
-"사고": 0.86,
+"지하철": 0.92,
+"사고": 0.77,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
