@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-08T22:11:49.335132+00:00",
+"updated": "2026-11-08T22:14:07.796072+00:00",
 "errors": [],
 "events": [
 {
@@ -639,7 +639,7 @@
 "spike": false
 },
 "폭발": {
-"n30": 3,
+"n30": 2,
 "base": 0.1,
 "spike": false
 },
@@ -649,7 +649,7 @@
 "spike": false
 },
 "대피": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -659,12 +659,12 @@
 "spike": false
 },
 "속보": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
 "지하철": {
-"n30": 2,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
@@ -948,7 +948,7 @@
 "미사일": 0.05,
 "속보": 0.05,
 "지하철": 0.05,
-"사고": 0.74,
+"사고": 0.77,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -1187,8 +1187,44 @@
 },
 "trends": [
 {
-"term": "강사",
+"term": "kbo 리그",
 "traffic": "200+",
+"time": "2026-11-08T21:10:00+00:00",
+"news": [
+{
+"title": "다저스 유니폼 입었던 前 롯데 좌승사자 KBO리그 복귀 추진해보나…美도 \"주목할 만한 마이너 FA\" 조명",
+"source": "SPOTV NEWS",
+"link": "https://www.spotvnews.co.kr/news/articleView.html?idxno=1018099"
+},
+{
+"title": "[오피셜] 다저스산 초대형 매물 韓 리턴? 롯데 자이언츠 前 에이스 반즈, 두산 베어스 前 투수 콜 어빈 모두 FA",
+"source": "스포탈코리아",
+"link": "https://www.sportalkorea.com/news/articleView.html?idxno=2025052909553676712"
+}
+],
+"new": true
+},
+{
+"term": "경제",
+"traffic": "200+",
+"time": "2026-11-08T21:10:00+00:00",
+"news": [
+{
+"title": "예결위, 오늘(9일)부터 부처별 내년도 예산안 심사",
+"source": "KBS 뉴스",
+"link": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8707058"
+},
+{
+"title": "[AM-PM] 국회 예결위, 821조 예산안 본격 심사 돌입 外",
+"source": "연합뉴스TV",
+"link": "https://www.yonhapnewstv.co.kr/news/MYH20261109065440F2I"
+}
+],
+"new": true
+},
+{
+"term": "강사",
+"traffic": "500+",
 "time": "2026-11-08T21:00:00+00:00",
 "news": [
 {
@@ -1260,7 +1296,7 @@
 },
 {
 "term": "jensen huang",
-"traffic": "100+",
+"traffic": "200+",
 "time": "2026-11-08T20:40:00+00:00",
 "news": [
 {
@@ -1326,42 +1362,6 @@
 "title": "[단독] 전면 통합 대신… 사관학교 분리·통합 병행 검토",
 "source": "서울신문",
 "link": "https://www.seoul.co.kr/news/politics/diplomacy/2026/11/09/20261109001006"
-}
-],
-"new": true
-},
-{
-"term": "김도영",
-"traffic": "1000+",
-"time": "2026-11-08T20:10:00+00:00",
-"news": [
-{
-"title": "“김도영 파워, MLB에서도 통한다” MLB가 이렇게 낙관한 타자 있었나… 美에서도 커져가는 신드롬",
-"source": "SPOTV NEWS",
-"link": "https://www.spotvnews.co.kr/news/articleView.html?idxno=1018468"
-},
-{
-"title": "'벌써' KIA 슈퍼스타 최소 1400억 꽃길 예고…美 \"곧 대형 계약 가능, 파워 ML도 통한다\"",
-"source": "스포츠조선",
-"link": "https://www.sportschosun.com/baseball/2026-11-08/202611080100053240005256"
-}
-],
-"new": true
-},
-{
-"term": "뉴진스",
-"traffic": "500+",
-"time": "2026-11-08T20:10:00+00:00",
-"news": [
-{
-"title": "330억 소송에도 각별한 뉴진스…하니·다니엘 얼굴 맞댔다",
-"source": "뉴시스",
-"link": "https://www.newsis.com/view/NISX20261108_0003859383"
-},
-{
-"title": "‘뉴진스 퇴출’ 다니엘, 하니와 마라톤 행사서 포착",
-"source": "매일경제",
-"link": "https://www.mk.co.kr/news/hot-issues/12201681"
 }
 ],
 "new": true
