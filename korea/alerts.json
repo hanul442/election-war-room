@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-08T13:01:15.087649+00:00",
+"updated": "2026-11-08T13:03:32.698750+00:00",
 "errors": [],
 "events": [
 {
@@ -433,7 +433,7 @@
 "id": "WJwS29xQ21tNFZjU253Nwoc50939",
 "first": "2026-11-08T09:39:09+00:00",
 "last": "2026-11-08T12:16:00+00:00",
-"updated": "2026-11-08T12:29:14.932158+00:00",
+"updated": "2026-11-08T13:03:32.698750+00:00",
 "headline": "당정 \"소방 필수투자에 2조원 재정지원…지방부담 완화 검토\"",
 "cat": "기타",
 "regions": [],
@@ -630,6 +630,13 @@
 "title": "당정, ‘소방 재정’에 최소 2조원 지원…미래대응기금 활용도 검토",
 "source": "경향신문",
 "link": "https://www.khan.co.kr/article/202611082057001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
+"time": "2026-11-08T11:57:00+00:00",
+"stage": "후속"
+},
+{
+"title": "당정, ‘소방 재정’에 최소 2조원 지원…미래대응기금 활용도 검토",
+"source": "경향신문",
+"link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5VeWlnRXFPUF9TMmw4X0lPb0E3ejY0TmZ1THdXNUFkMHhDWTVWc1FHaG0yN2FJY3Y3UVJqNnVkR2ZzTXRUSURnWnJCVmRkUTVNQTZmYXNGWWJ1d9IBX0FVX3lxTE5DRzRXR08taWU1U3NUdVVwM2FwdC1TR0VDRmNqZDBVV0JWWTI1WTlWVVJET2ctdTh3SFNpV3lYaXRfWkRPbXIxc21jQ2xMMjZ6UUhmWnBUTy1QRW5NdHFJ?oc=5",
 "time": "2026-11-08T11:57:00+00:00",
 "stage": "후속"
 },
@@ -5297,55 +5304,13 @@
 "제동",
 "회장"
 ]
-},
-{
-"id": "viewAKR202611080350005270703",
-"first": "2026-11-08T07:03:02+00:00",
-"last": "2026-11-08T07:03:20+00:00",
-"updated": "2026-11-08T07:11:53.735758+00:00",
-"headline": "강릉평지 등 강원 10곳 건조주의보 해제",
-"cat": "재난",
-"regions": [
-"강원",
-"경북"
-],
-"sources": [
-"연합뉴스"
-],
-"updates": [
-{
-"title": "강릉평지 등 강원 10곳 건조주의보 해제",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261108035000527",
-"time": "2026-11-08T07:03:02+00:00",
-"stage": "1보"
-},
-{
-"title": "경북 울진평지에 건조주의보 해제",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261108035100527",
-"time": "2026-11-08T07:03:20+00:00",
-"stage": "후속"
-}
-],
-"level": "ALERT",
-"latest": "경북 울진평지에 건조주의보 해제",
-"tok": [
-"10곳",
-"강릉평지",
-"강원",
-"건조주의보",
-"경북",
-"울진평지",
-"해제"
-]
 }
 ],
 "sns": {
 "terms": {
 "지진": {
 "n30": 1,
-"base": 0.3,
+"base": 0.4,
 "spike": false
 },
 "화재": {
@@ -5364,7 +5329,7 @@
 "spike": false
 },
 "폭발": {
-"n30": 3,
+"n30": 2,
 "base": 0.1,
 "spike": false
 },
@@ -5415,7 +5380,7 @@
 },
 "먹통": {
 "n30": 1,
-"base": 0.2,
+"base": 0.3,
 "spike": false
 },
 "산불": {
@@ -5440,7 +5405,7 @@
 "handle": "mahapadma770.bsky.social",
 "name": "홍련🪷",
 "time": "2026-11-08T12:55:05.772Z",
-"likes": 1,
+"likes": 2,
 "reposts": 0,
 "url": "https://bsky.app/profile/mahapadma770.bsky.social/post/3mzshhfdmjs2w",
 "term": "먹통"
@@ -5715,21 +5680,21 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 0.39,
-"화재": 0.73,
+"지진": 0.45,
+"화재": 0.76,
 "불났": 0.05,
 "정전": 0.05,
 "폭발": 0.05,
-"붕괴": 0.06,
+"붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 1.51,
-"사고": 2.78,
+"지하철": 1.56,
+"사고": 2.8,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
-"먹통": 0.32,
+"먹통": 0.39,
 "산불": 0.05
 },
 "errors": [],
