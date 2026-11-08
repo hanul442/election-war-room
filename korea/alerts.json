@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-08T09:33:49.547154+00:00",
+"updated": "2026-11-08T09:36:05.087500+00:00",
 "errors": [],
 "events": [
 {
@@ -1809,12 +1809,13 @@
 "id": "5oV1ZpOGppRF83ZXAyYlgoc50807",
 "first": "2026-11-08T08:07:27+00:00",
 "last": "2026-11-08T08:24:00+00:00",
-"updated": "2026-11-08T09:17:46.104869+00:00",
+"updated": "2026-11-08T09:36:05.087500+00:00",
 "headline": "속보 ‘보고 계십니까 들리십니까’ 삼성, 12년 만에 한국시리즈 정상 탈환",
 "cat": "경제",
 "regions": [],
 "sources": [
 "KBS 뉴스",
+"YTN",
 "동아일보",
 "투데이코리아"
 ],
@@ -1825,6 +1826,13 @@
 "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA4djZzeFlWaTJmb1RJbFRFRHBJRlU1SjRPbFBQWXJDWTVSSHloWW80MDdqSG5ZNWdiaXpGOWY1dlUwTndqR1dFMnBCVmtrdHJ5dm9LTjZkaE54S0F5UHFZZ05oV1ZpOGppRF83ZXAyYlg?oc=5",
 "time": "2026-11-08T08:07:27+00:00",
 "stage": "1보"
+},
+{
+"title": "삼성, kt 꺾고 12년 만에 한국시리즈 우승",
+"source": "YTN",
+"link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9QTFc4ZHZJOXRUVVdKeGVrbjBmNVFSLVdwWXdQc0tMdlJwSXA4Z3BXRGF0ZWNiOHVSNFpfNU9yUy04TTBrb0V1d2lwWnlTT2E0bmlQV1BzZGxoVWFoVzBJVHZKcnFfc2hSeUVRendwQQ?oc=5",
+"time": "2026-11-08T08:09:00+00:00",
+"stage": "후속"
 },
 {
 "title": "프로야구 삼성, 12년 만에 한국시리즈 정상 탈환",
@@ -1846,7 +1854,9 @@
 "tok": [
 "12년",
 "9번째",
+"kt",
 "계십니까",
+"꺾고",
 "들리십니까",
 "만에",
 "보고",
@@ -4790,8 +4800,8 @@
 "spike": false
 },
 "미사일": {
-"n30": 2,
-"base": 0.3,
+"n30": 1,
+"base": 0.2,
 "spike": false
 },
 "속보": {
@@ -4800,8 +4810,8 @@
 "spike": false
 },
 "지하철": {
-"n30": 3,
-"base": 0.6,
+"n30": 2,
+"base": 0.5,
 "spike": false
 },
 "사고": {
@@ -5079,13 +5089,13 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.37,
+"폭발": 0.33,
 "붕괴": 0.05,
 "대피": 0.05,
-"미사일": 0.24,
-"속보": 0.56,
-"지하철": 0.5,
-"사고": 2.95,
+"미사일": 0.22,
+"속보": 0.5,
+"지하철": 0.45,
+"사고": 2.86,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -5330,11 +5340,29 @@
 "link": "https://www.newsis.com/view/NISX20261108_0003859443"
 }
 ],
+"new": false
+},
+{
+"term": "스포츠",
+"traffic": "200+",
+"time": "2026-11-08T08:30:00+00:00",
+"news": [
+{
+"title": "충주시 스포츠 교류단, 日 유가와라정과 핑퐁 외교",
+"source": "충청매일",
+"link": "https://www.ccdn.co.kr/news/articleView.html?idxno=1109629"
+},
+{
+"title": "충주시, 日 유가와라정 탁구 스포츠 교류단 출국",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261106_0003857492"
+}
+],
 "new": true
 },
 {
 "term": "서울교통공사 채용",
-"traffic": "100+",
+"traffic": "200+",
 "time": "2026-11-08T08:20:00+00:00",
 "news": [],
 "new": false
@@ -5464,28 +5492,9 @@
 }
 ],
 "new": true
-},
-{
-"term": "박진만",
-"traffic": "1000+",
-"time": "2026-11-08T07:20:00+00:00",
-"news": [
-{
-"title": "선수로 6번·감독으로 첫 정상…'부드러운 승부사' 삼성 박진만",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261108021800007"
-},
-{
-"title": "'2006 KS MVP' 유격수 박진만, 20년 후엔 KS 우승 사령탑으로[삼성 KS 우승]",
-"source": "뉴시스",
-"link": "https://www.newsis.com/view/NISX20261108_0003859388"
-}
-],
-"new": true
 }
 ],
 "trendSeen": [
-"삼전 닉스",
 "삼전 주가",
 "삼전주가",
 "상속세",
@@ -5527,6 +5536,7 @@
 "스테픈 커리",
 "스톡 옵션",
 "스페이스x",
+"스포츠",
 "습관",
 "시애틀 사운더스 대 엘에이 fc",
 "시즈오카현",
