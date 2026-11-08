@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-08T02:36:51.854030+00:00",
+"updated": "2026-11-08T02:39:07.646633+00:00",
 "errors": [],
 "events": [
 {
@@ -75,8 +75,8 @@
 {
 "id": "tYM0JzTmdLLUI1bV9oN2soc50214",
 "first": "2026-11-08T02:14:20+00:00",
-"last": "2026-11-08T02:28:00+00:00",
-"updated": "2026-11-08T02:36:51.854030+00:00",
+"last": "2026-11-08T02:31:55+00:00",
+"updated": "2026-11-08T02:39:07.646633+00:00",
 "headline": "서울 종로에서 첫눈 관측…작년보다 26일 빨라",
 "cat": "기타",
 "regions": [
@@ -86,6 +86,7 @@
 "뉴스웍스",
 "뉴시스",
 "연합뉴스",
+"조선일보",
 "채널A"
 ],
 "updates": [
@@ -116,10 +117,17 @@
 "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5RdWg0a3FJMm5ac1ZjNkFab0xvZHhpeWFYRmtKZGVHVlhIMUd6SVRqZ1pjSDZBLVVCdGJTYkhGdFpSeUJUTTQ4Q2tuc29QWDBadDdyQjdvWmlHQVdpeUHSAWNBVV95cUxNQVV3OXoyYkxoUzBhMlQxUXZCZTJrZ21pSndkLUdrQjUyekdyajNiZFRJZ000dWZGRExFcF80N3M0b091eUJVNGY3VjMwTjhqZHlDUVN0WmsyamtraEJMX2pUd1U?oc=5",
 "time": "2026-11-08T02:28:00+00:00",
 "stage": "속보"
+},
+{
+"title": "서울에 첫 눈, 작년보다 26일 빨라",
+"source": "조선일보",
+"link": "https://www.chosun.com/national/transport-environment/2026/11/08/LXSOZ4JY5JFAHGC7L7ROZHNHAQ/",
+"time": "2026-11-08T02:31:55+00:00",
+"stage": "후속"
 }
 ],
 "level": "URGENT",
-"latest": "서울 올가을 첫눈 관측…지난해보다 26일 빨라",
+"latest": "서울에 첫 눈, 작년보다 26일 빨라",
 "tok": [
 "12일",
 "26일",
@@ -1717,7 +1725,7 @@
 "sns": {
 "terms": {
 "지진": {
-"n30": 4,
+"n30": 3,
 "base": 1.4,
 "spike": false
 },
@@ -1732,17 +1740,17 @@
 "spike": false
 },
 "정전": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
 "폭발": {
-"n30": 4,
+"n30": 3,
 "base": 0.1,
 "spike": false
 },
 "붕괴": {
-"n30": 2,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
@@ -2042,11 +2050,11 @@
 "n30": 5,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-08T02:36:51.854030+00:00"
+"since": "2026-11-08T02:39:07.646633+00:00"
 }
 ],
 "baseline": {
-"지진": 1.41,
+"지진": 1.37,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
@@ -2056,7 +2064,7 @@
 "미사일": 0.05,
 "속보": 0.05,
 "지하철": 1.01,
-"사고": 1.09,
+"사고": 1.08,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
