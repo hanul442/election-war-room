@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-08T16:40:42.471492+00:00",
+"updated": "2026-11-08T16:42:58.518171+00:00",
 "errors": [],
 "events": [
 {
@@ -2746,7 +2746,7 @@
 "spike": false
 },
 "폭발": {
-"n30": 9,
+"n30": 8,
 "base": 0.1,
 "spike": true
 },
@@ -2766,7 +2766,7 @@
 "spike": false
 },
 "속보": {
-"n30": 8,
+"n30": 7,
 "base": 0.1,
 "spike": true
 },
@@ -2777,12 +2777,12 @@
 },
 "사고": {
 "n30": 1,
-"base": 1.6,
+"base": 1.5,
 "spike": false
 },
 "실종": {
 "n30": 0,
-"base": 0.7,
+"base": 0.6,
 "spike": false
 },
 "단수": {
@@ -3047,17 +3047,17 @@
 "spikes": [
 {
 "term": "폭발",
-"n30": 9,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-08T16:40:42.471492+00:00"
-},
-{
-"term": "속보",
 "n30": 8,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-08T16:40:42.471492+00:00"
+"since": "2026-11-08T16:42:58.518171+00:00"
+},
+{
+"term": "속보",
+"n30": 7,
+"base": 0.1,
+"spike": true,
+"since": "2026-11-08T16:42:58.518171+00:00"
 }
 ],
 "baseline": {
@@ -3070,13 +3070,13 @@
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.11,
-"사고": 1.52,
-"실종": 0.62,
+"지하철": 0.1,
+"사고": 1.47,
+"실종": 0.56,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
-"산불": 0.64
+"산불": 0.68
 },
 "errors": [],
 "ytPosts": [
@@ -3301,6 +3301,24 @@
 },
 "trends": [
 {
+"term": "man utd vs aston villa",
+"traffic": "200+",
+"time": "2026-11-08T15:40:00+00:00",
+"news": [
+{
+"title": "Manchester United v Aston Villa: Premier League – live",
+"source": "The Guardian",
+"link": "https://www.theguardian.com/football/live/2026/nov/08/man-utd-v-aston-villa-premier-league-live"
+},
+{
+"title": "bet365 bonus code: Get £30 in Premier League free bets",
+"source": "MyBettingSites.co.uk",
+"link": "https://mybettingsites.co.uk/news/bet365-bonus-code-get-30-in-premier-league-free-bets-8th-november/"
+}
+],
+"new": true
+},
+{
 "term": "맨유 대 애스턴 빌라",
 "traffic": "5000+",
 "time": "2026-11-08T15:30:00+00:00",
@@ -3461,24 +3479,6 @@
 }
 ],
 "new": false
-},
-{
-"term": "sbs",
-"traffic": "5000+",
-"time": "2026-11-08T13:20:00+00:00",
-"news": [
-{
-"title": "Today's SBS 8 News Preview (November 8)",
-"source": "news.sbs.co.kr",
-"link": "https://news.sbs.co.kr/english/article.do?news_id=N1008836221"
-},
-{
-"title": "Jung Jae-hyun Claims First KPGA Tour Title at Season Finale",
-"source": "조선일보",
-"link": "https://www.chosun.com/english/sports-en/2026/11/09/F4IZRCHNPFA6JMUZU3OP4AIRRM/"
-}
-],
-"new": true
 }
 ],
 "trendSeen": [
