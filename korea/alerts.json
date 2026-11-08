@@ -1,16 +1,17 @@
 {
-"updated": "2026-11-08T10:19:29.800646+00:00",
+"updated": "2026-11-08T10:21:45.694000+00:00",
 "errors": [],
 "events": [
 {
 "id": "viewAKR202611080482000011005",
 "first": "2026-11-08T10:05:39+00:00",
 "last": "2026-11-08T10:10:00+00:00",
-"updated": "2026-11-08T10:12:40.387240+00:00",
+"updated": "2026-11-08T10:21:45.694000+00:00",
 "headline": "與 \"정부에 '종부세 14억, 실거주 구분 없이 적용' 강력 요구\"",
 "cat": "정치",
 "regions": [],
 "sources": [
+"뉴스핌",
 "뉴시스",
 "데일리안",
 "연합뉴스"
@@ -36,10 +37,17 @@
 "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPQTJyOUk1MmpUdVV1YjdYb1RrOFRxYUtERHYwQjVJQzhNdmVFS2JWS0kxaWRFMU5tdktreU9rTzRqYTh4WjVRb09LbHZOWVVEWmt0emh0Ukd3UlN3MXZwVERwRVZPNVJfLWpfRGR4alJPczJsNmRRSmZNeEpvQXRNMzZIOGxjTnB1LW14RnVKUTFqS05KVExsZUhnNU1ESllFcjR3V3JTYTdVbmd2Tm85VEJYcnBRY0V6MG05VjBNbzB3M2I0bzVMc29lT25Jd1hkT1BxRUw0dkxsb2pjN2c5MmFiNHE1c0tlbEIxbjQwUWFSdGF4Q05XbjZlcDdUcmVqc3NZ?oc=5",
 "time": "2026-11-08T10:10:00+00:00",
 "stage": "속보"
+},
+{
+"title": "[속보] 민주당 \"정부에 '종부세 14억 실거주 구분 없이 적용' 강력 요구\"",
+"source": "뉴스핌",
+"link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1Ia0hlUnFDNzlNdXlMRWxvczhjaG1scmVrUDJUVkM5bzRLSmdJTE9GOWNfRTAtMVdPMDFYc1pDY3ZxcDJLUnJabHNuM3BNX19sOUFXMnNZVDduRzBu?oc=5",
+"time": "2026-11-08T10:10:00+00:00",
+"stage": "속보"
 }
 ],
 "level": "URGENT",
-"latest": "민주당 \"정부에 '종부세 14억, 실거주 구분 없이 적용' 강력하게 요구\"",
+"latest": "민주당 \"정부에 '종부세 14억 실거주 구분 없이 적용' 강력 요구\"",
 "tok": [
 "14억",
 "강력",
@@ -5503,7 +5511,7 @@
 },
 "사고": {
 "n30": 1,
-"base": 2.8,
+"base": 2.6,
 "spike": false
 },
 "실종": {
@@ -5757,21 +5765,21 @@
 "n30": 5,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-08T10:19:29.800646+00:00"
+"since": "2026-11-08T10:21:45.694000+00:00"
 },
 {
 "term": "붕괴",
 "n30": 5,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-08T10:19:29.800646+00:00"
+"since": "2026-11-08T10:21:45.694000+00:00"
 },
 {
 "term": "속보",
 "n30": 6,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-08T10:19:29.800646+00:00"
+"since": "2026-11-08T10:21:45.694000+00:00"
 }
 ],
 "baseline": {
@@ -5783,9 +5791,9 @@
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.07,
-"지하철": 0.06,
-"사고": 2.63,
+"속보": 0.06,
+"지하철": 0.05,
+"사고": 2.47,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
