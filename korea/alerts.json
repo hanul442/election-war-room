@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-08T09:29:14.499134+00:00",
+"updated": "2026-11-08T09:31:31.964521+00:00",
 "errors": [],
 "events": [
 {
@@ -4734,7 +4734,7 @@
 "sns": {
 "terms": {
 "지진": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -4749,17 +4749,17 @@
 "spike": false
 },
 "정전": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
 "폭발": {
-"n30": 4,
+"n30": 2,
 "base": 0.5,
 "spike": false
 },
 "붕괴": {
-"n30": 3,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -4769,23 +4769,23 @@
 "spike": false
 },
 "미사일": {
-"n30": 4,
+"n30": 2,
 "base": 0.3,
 "spike": false
 },
 "속보": {
-"n30": 4,
-"base": 0.8,
+"n30": 0,
+"base": 0.7,
 "spike": false
 },
 "지하철": {
-"n30": 5,
-"base": 0.7,
-"spike": true
+"n30": 4,
+"base": 0.6,
+"spike": false
 },
 "사고": {
 "n30": 2,
-"base": 3.3,
+"base": 3.2,
 "spike": false
 },
 "실종": {
@@ -4815,6 +4815,16 @@
 }
 },
 "posts": [
+{
+"text": "찐따 라고 저새끼 한번 쳐보자 사고는 학교 졸업하면 좀 버려라",
+"handle": "dyddka.bsky.social",
+"name": "용암🕯️",
+"time": "2026-11-08T09:29:55.873Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/dyddka.bsky.social/post/3mzs3yjd55c2c",
+"term": "사고"
+},
 {
 "platform": "YouTube",
 "text": "북한 신형 미사일, 러시아 S-400을 닮았다…북러 군사협력의 숨은 연결고리",
@@ -4905,16 +4915,6 @@
 "time": "2026-11-08T09:02:00Z",
 "term": "폭발",
 "url": "https://www.youtube.com/watch?v=Zs8y8QYNneY"
-},
-{
-"text": "화장실 ㅈㅇ 영상 사고 싶은 사람 라인yena6974 🥵🖤\n\n영상도 갖고 예나도 보고 !!\n아직 이벤트 진행 중이고 \n경쟁률 0퍼 ㅎ\n\n#보추 #시디 #여장 #암캐 #슬랜더 #야외플 #화장실 #노예 #만남 #오프 #강간플 #페티쉬만남 #얼싸 #입싸 #골든 #애널 #스핏 #스타킹 #살스 #검스 #자영 #자영판매 #갱뱅 #이벤트",
-"handle": "annyena.bsky.social",
-"name": "🖤안예나🖤",
-"time": "2026-11-08T09:01:25.475Z",
-"likes": 5,
-"reposts": 0,
-"url": "https://bsky.app/profile/annyena.bsky.social/post/3mzs2fh4bls24",
-"term": "사고"
 },
 {
 "platform": "YouTube",
@@ -5052,27 +5052,19 @@
 "url": "https://www.youtube.com/watch?v=9B9SYv1TMqI"
 }
 ],
-"spikes": [
-{
-"term": "지하철",
-"n30": 5,
-"base": 0.7,
-"spike": true,
-"since": "2026-11-08T09:29:14.499134+00:00"
-}
-],
+"spikes": [],
 "baseline": {
 "지진": 0.05,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.45,
+"폭발": 0.41,
 "붕괴": 0.05,
 "대피": 0.05,
-"미사일": 0.3,
-"속보": 0.69,
-"지하철": 0.61,
-"사고": 3.17,
+"미사일": 0.27,
+"속보": 0.62,
+"지하철": 0.55,
+"사고": 3.05,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
