@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-08T06:39:54.007348+00:00",
+"updated": "2026-11-08T06:42:11.727045+00:00",
 "errors": [],
 "events": [
 {
@@ -401,13 +401,14 @@
 "id": "ZWCYTBMVTGCMBQMIYGIN3FMU0252",
 "first": "2026-11-08T02:52:11+00:00",
 "last": "2026-11-08T06:06:40+00:00",
-"updated": "2026-11-08T06:14:42.743787+00:00",
+"updated": "2026-11-08T06:42:11.727045+00:00",
 "headline": "FIFA, 대한축구협회 회장 선거 제동…KFA, 12월 18일 선거 연기 불가피, 9일 임시총회·이사회 전격 취소",
 "cat": "정치",
 "regions": [],
 "sources": [
 "강원도민일보",
 "연합뉴스",
+"연합뉴스TV",
 "조선일보"
 ],
 "updates": [
@@ -423,6 +424,13 @@
 "source": "연합뉴스",
 "link": "https://www.yna.co.kr/view/AKR20261108029100007",
 "time": "2026-11-08T05:50:21+00:00",
+"stage": "후속"
+},
+{
+"title": "대한축구협회 ’연내 회장 선거’ 무산…FIFA, 선거 개혁안에 제동",
+"source": "연합뉴스TV",
+"link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE04WlFXYlNyVEJyd0NKZW9Yajc3RE9nbmxpUVJkNURQci1KcDJPb2RIUmxvbmlGbGYyT3hPZERidVNNVXh2S3V4Wm1HWFNXaGJiMnNucWlGdTVBRTB3eko0RnNVWEM4RWs?oc=5",
+"time": "2026-11-08T05:55:00+00:00",
 "stage": "후속"
 },
 {
@@ -3097,7 +3105,7 @@
 "spike": false
 },
 "붕괴": {
-"n30": 2,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
@@ -3107,22 +3115,22 @@
 "spike": false
 },
 "미사일": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
 "속보": {
-"n30": 6,
+"n30": 4,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "지하철": {
 "n30": 6,
-"base": 0.4,
+"base": 0.3,
 "spike": true
 },
 "사고": {
-"n30": 2,
+"n30": 3,
 "base": 1.9,
 "spike": false
 },
@@ -3153,6 +3161,16 @@
 }
 },
 "posts": [
+{
+"text": "애니 캐릭터 피부 짙게 칠하는 거, 애니 좋아하면  그럴 수 있지-라고 생각하기는 하는데, 여기에서 진지하게 representation 찾고 열변을 토하는 거 보고있으면..... 너희들 그거로 괜찮은 거냐 싶어짐. \n\n캐릭터 이름부터 시작해 설정이고 배경이고 서사고 하나도 너희를 대변하고 있지 않잖아.... 다들 '블랙워싱'이라고 부르니까 이거의 본질을 자각하지 못하는 것같은데, 이거 사실 ",
+"handle": "nyanyanyangc.bsky.social",
+"name": "그냥 냥씨",
+"time": "2026-11-08T06:41:56.276Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/nyanyanyangc.bsky.social/post/3mzrsm3mphc2a",
+"term": "사고"
+},
 {
 "platform": "YouTube",
 "text": "※긴급속보※ [리플 XRP] 같은 리플 맞나 상승과 하락이 공존 해외는 이미 반등",
@@ -3384,32 +3402,25 @@
 ],
 "spikes": [
 {
-"term": "속보",
-"n30": 6,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-08T06:39:54.007348+00:00"
-},
-{
 "term": "지하철",
 "n30": 6,
-"base": 0.4,
+"base": 0.3,
 "spike": true,
-"since": "2026-11-08T06:39:54.007348+00:00"
+"since": "2026-11-08T06:42:11.727045+00:00"
 }
 ],
 "baseline": {
-"지진": 0.56,
+"지진": 0.5,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.89,
-"붕괴": 0.08,
+"폭발": 0.9,
+"붕괴": 0.07,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.33,
-"사고": 1.95,
+"지하철": 0.3,
+"사고": 2.05,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -3667,9 +3678,9 @@
 "link": "https://imnews.imbc.com/replay/2026/nw1200/article/6864007_36967.html"
 },
 {
-"title": "[날씨] 서울 첫눈 관측…당분간 추위 이어진다",
-"source": "SBS 뉴스",
-"link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008835946"
+"title": "아니 벌써? 서울에 ‘첫눈’ 내렸다···작년보다 26일 빨라",
+"source": "경향신문",
+"link": "https://www.khan.co.kr/article/202611081323001"
 }
 ],
 "new": false
