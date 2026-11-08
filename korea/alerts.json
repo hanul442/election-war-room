@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-08T03:10:55.534416+00:00",
+"updated": "2026-11-08T03:13:11.492677+00:00",
 "errors": [],
 "events": [
 {
@@ -1992,7 +1992,7 @@
 },
 "지하철": {
 "n30": 3,
-"base": 0.7,
+"base": 0.8,
 "spike": false
 },
 "사고": {
@@ -2257,7 +2257,7 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 0.56,
+"지진": 0.5,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
@@ -2266,8 +2266,8 @@
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.76,
-"사고": 0.6,
+"지하철": 0.78,
+"사고": 0.64,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -2488,6 +2488,24 @@
 },
 "trends": [
 {
+"term": "코리안투어",
+"traffic": "100+",
+"time": "2026-11-08T02:10:00+00:00",
+"news": [
+{
+"title": "Hwang Jae-min Maintains Lead on Day Two of KPGA Tour Championship, Pursuing First Win at Age 40",
+"source": "news.sbs.co.kr",
+"link": "https://news.sbs.co.kr/english/article.do?news_id=N1008835433"
+},
+{
+"title": "Scorecard Error Disqualifies Jang Yu-bin, Ends Prize Money Lead",
+"source": "조선일보",
+"link": "https://www.chosun.com/english/sports-en/2026/11/06/TKN5DK6MHVFVNHJ7C6UVC7VDV4/"
+}
+],
+"new": true
+},
+{
 "term": "미스 베트남",
 "traffic": "500+",
 "time": "2026-11-08T01:50:00+00:00",
@@ -2648,28 +2666,9 @@
 }
 ],
 "new": false
-},
-{
-"term": "이자",
-"traffic": "500+",
-"time": "2026-11-08T00:50:00+00:00",
-"news": [
-{
-"title": "같은 3억 대출인데 이자는 왜 다를까…대출금리 낮추는 5가지 전략",
-"source": "한국경제",
-"link": "https://www.hankyung.com/article/202611045024i"
-},
-{
-"title": "전셋값 39개월째 오르는데⋯5대 은행 전세대출 14개월 연속 감소",
-"source": "아이뉴스24",
-"link": "https://www.inews24.com/view/2022599"
-}
-],
-"new": false
 }
 ],
 "trendSeen": [
-"미스 베트남",
 "미야지",
 "바이퍼",
 "박민지",
@@ -2905,6 +2904,7 @@
 "커버 드 콜",
 "코리아 그랜드 뮤직 어워즈",
 "코리아오픈 배드민턴",
+"코리안투어",
 "코스피",
 "코스피 11% 급락 원인과 정부의 반대매매 완화 조치 내용 알려줘",
 "코인니스",
