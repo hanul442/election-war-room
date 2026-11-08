@@ -1,19 +1,46 @@
 {
-"updated": "2026-11-08T13:35:29.925010+00:00",
+"updated": "2026-11-08T13:37:45.442112+00:00",
 "errors": [],
 "events": [
 {
 "id": "5RbzF5WlIyVU1DVzlzR3coc51327",
 "first": "2026-11-08T13:27:56+00:00",
 "last": "2026-11-08T13:27:56+00:00",
-"updated": "2026-11-08T13:35:29.925010+00:00",
+"updated": "2026-11-08T13:37:45.442112+00:00",
 "headline": "자전거 끌고 무단횡단 하던 50대 보행자 차에 치여 심정지",
 "cat": "기타",
-"regions": [],
+"regions": [
+"광주",
+"전남"
+],
 "sources": [
-"강원일보"
+"SBS",
+"강원일보",
+"뉴시스",
+"연합뉴스"
 ],
 "updates": [
+{
+"title": "광주서 무단횡단하던 50대 보행자, 차에 치여 심정지(종합)",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261108049051054",
+"time": "2026-11-08T11:38:18+00:00",
+"stage": "종합"
+},
+{
+"title": "광주서 자전거 끌고 가던 남성, 승용차에 치여 중상",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261108_0003859540",
+"time": "2026-11-08T11:43:13+00:00",
+"stage": "후속"
+},
+{
+"title": "전남광주서 무단횡단하던 40대 보행자, 차에 치여 중상",
+"source": "SBS",
+"link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008836269&plink=RSSLINK&cooper=RSSREADER",
+"time": "2026-11-08T12:10:10+00:00",
+"stage": "후속"
+},
 {
 "title": "[속보]자전거 끌고 무단횡단 하던 50대 보행자 차에 치여 심정지",
 "source": "강원일보",
@@ -25,12 +52,20 @@
 "level": "URGENT",
 "latest": "자전거 끌고 무단횡단 하던 50대 보행자 차에 치여 심정지",
 "tok": [
+"40대",
 "50대",
+"가던",
+"광주서",
 "끌고",
+"남성",
 "무단횡단",
+"무단횡단하던",
 "보행자",
+"승용차",
 "심정지",
 "자전거",
+"전남광주서",
+"중상",
 "차에",
 "치여",
 "하던"
@@ -5254,7 +5289,7 @@
 },
 "화재": {
 "n30": 1,
-"base": 0.3,
+"base": 0.2,
 "spike": false
 },
 "불났": {
@@ -5274,7 +5309,7 @@
 },
 "붕괴": {
 "n30": 2,
-"base": 0.6,
+"base": 0.7,
 "spike": false
 },
 "대피": {
@@ -5293,13 +5328,13 @@
 "spike": false
 },
 "지하철": {
-"n30": 4,
+"n30": 2,
 "base": 1.1,
 "spike": false
 },
 "사고": {
 "n30": 2,
-"base": 2.2,
+"base": 2.1,
 "spike": false
 },
 "실종": {
@@ -5612,25 +5647,25 @@
 "n30": 6,
 "base": 0.6,
 "spike": true,
-"since": "2026-11-08T13:35:29.925010+00:00"
+"since": "2026-11-08T13:37:45.442112+00:00"
 }
 ],
 "baseline": {
-"지진": 0.87,
-"화재": 0.23,
+"지진": 0.88,
+"화재": 0.21,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.64,
-"붕괴": 0.68,
+"폭발": 0.68,
+"붕괴": 0.71,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 1.09,
-"사고": 2.15,
+"지하철": 1.08,
+"사고": 2.14,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
-"먹통": 0.45,
+"먹통": 0.41,
 "산불": 0.05
 },
 "errors": [],
@@ -5953,24 +5988,6 @@
 "new": true
 },
 {
-"term": "wec",
-"traffic": "200+",
-"time": "2026-11-08T10:00:00+00:00",
-"news": [
-{
-"title": "Fuoco puts Ferrari on pole at Monza",
-"source": "WEC",
-"link": "https://www.fiawec.com/en/news/fuoco-puts-ferrari-on-pole-at-monza/13928"
-},
-{
-"title": "Two Toyotas, three titles to settle: When and where to watch the WEC finale at Monza",
-"source": "Grande Prêmio",
-"link": "https://grandepremio.com/en/endurance/wec/6-hours-of-monza-2026-where-to-watch-the-wec-finale-live-and-when-the-race-starts/"
-}
-],
-"new": true
-},
-{
 "term": "박한이",
 "traffic": "100+",
 "time": "2026-11-08T10:00:00+00:00",
@@ -5984,6 +6001,24 @@
 "title": "[사진]부상으로 실려나가는 권동진",
 "source": "조선일보",
 "link": "https://www.chosun.com/sports/sports_photo/2026/11/08/MEYDONZSMJQTIOLDMIZDIZJTGY/"
+}
+],
+"new": true
+},
+{
+"term": "wec",
+"traffic": "200+",
+"time": "2026-11-08T10:00:00+00:00",
+"news": [
+{
+"title": "Fuoco puts Ferrari on pole at Monza",
+"source": "WEC",
+"link": "https://www.fiawec.com/en/news/fuoco-puts-ferrari-on-pole-at-monza/13928"
+},
+{
+"title": "Two Toyotas, three titles to settle: When and where to watch the WEC finale at Monza",
+"source": "Grande Prêmio",
+"link": "https://grandepremio.com/en/endurance/wec/6-hours-of-monza-2026-where-to-watch-the-wec-finale-live-and-when-the-race-starts/"
 }
 ],
 "new": true
