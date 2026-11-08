@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-08T16:11:13.051133+00:00",
+"updated": "2026-11-08T16:13:30.262156+00:00",
 "errors": [],
 "events": [
 {
@@ -2989,7 +2989,7 @@
 "spike": true
 },
 "붕괴": {
-"n30": 4,
+"n30": 3,
 "base": 0.1,
 "spike": false
 },
@@ -3014,13 +3014,13 @@
 "spike": false
 },
 "사고": {
-"n30": 2,
-"base": 2.7,
+"n30": 1,
+"base": 2.6,
 "spike": false
 },
 "실종": {
 "n30": 1,
-"base": 0.1,
+"base": 0.2,
 "spike": false
 },
 "단수": {
@@ -3059,7 +3059,7 @@
 "handle": "zoe-i.bsky.social",
 "name": "ZoE",
 "time": "2026-11-08T16:07:26.079Z",
-"likes": 5,
+"likes": 6,
 "reposts": 0,
 "url": "https://bsky.app/profile/zoe-i.bsky.social/post/3mzss7672hk2w",
 "term": "실종"
@@ -3201,16 +3201,6 @@
 "url": "https://www.youtube.com/watch?v=Vx7Om9k4zlo"
 },
 {
-"text": "게임 사고 싶다(사고 안한 게임들: 뭐야?",
-"handle": "orgiveme.bsky.social",
-"name": "횽쳘",
-"time": "2026-11-08T15:42:23.082Z",
-"likes": 1,
-"reposts": 0,
-"url": "https://bsky.app/profile/orgiveme.bsky.social/post/3mzsqsgcjms2d",
-"term": "사고"
-},
-{
 "platform": "YouTube",
 "text": "국산 전기차 점유율 첫 50% 붕괴, 기아는 늘고 현대차만 줄었다",
 "handle": "UCh7CpUag1QBxrY3AUtdJk4A",
@@ -3307,7 +3297,7 @@
 "n30": 6,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-08T16:11:13.051133+00:00"
+"since": "2026-11-08T16:13:30.262156+00:00"
 }
 ],
 "baseline": {
@@ -3315,14 +3305,14 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.08,
+"폭발": 0.07,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.4,
-"사고": 2.64,
-"실종": 0.24,
+"지하철": 0.36,
+"사고": 2.48,
+"실종": 0.32,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -3560,19 +3550,37 @@
 },
 "trends": [
 {
+"term": "올리브영",
+"traffic": "500+",
+"time": "2026-11-08T15:10:00+00:00",
+"news": [
+{
+"title": "‘올리브영 쿠폰’으로 고객 잡기 나선 네카오 [정지은의 테크킥]",
+"source": "한국경제",
+"link": "https://www.hankyung.com/article/202611082799i"
+},
+{
+"title": "네이버, 올영 제휴·소상공인 상생 등 ‘플랫폼 동반 성장’ 가속화",
+"source": "천지일보",
+"link": "https://www.newscj.com/news/articleView.html?idxno=3446479"
+}
+],
+"new": true
+},
+{
 "term": "คริสตัลพาเลซ พบ ลิเวอร์พูล",
 "traffic": "200+",
 "time": "2026-11-08T14:20:00+00:00",
 "news": [
 {
-"title": "LIVE ดูบอลสด คริสตัล พาเลซ พบ ลิเวอร์พูล บอลวันนี้ (8 พ.ย. 69) 21.00 น. พรีเมียร์ลีก 2026-27",
-"source": "www.thairath.co.th",
-"link": "https://www.thairath.co.th/sport/eurofootball/premierleague/2969258"
-},
-{
 "title": "การทำนายผลการแข่งขันรอบที่ 10 โดยคอมพิวเตอร์: การล่าแต้มของลิเวอร์พูล แมนเชสเตอร์ ยูไนเต็ด และเชลซี",
 "source": "Vietnam.vn",
 "link": "https://www.vietnam.vn/th/may-tinh-du-doan-vong-10-cuoc-san-diem-so-cua-liverpool-man-united-va-chelsea"
+},
+{
+"title": "เปิดสถิติพบกัน 5 ครั้งหลังสุด คริสตัล พาเลซ VS ลิเวอร์พูล ก่อนดวลเดือดคืนนี้",
+"source": "www.thairath.co.th",
+"link": "https://www.thairath.co.th/sport/eurofootball/premierleague/2971240"
 }
 ],
 "new": true
@@ -3720,28 +3728,9 @@
 }
 ],
 "new": true
-},
-{
-"term": "sunderland vs chelsea",
-"traffic": "1000+",
-"time": "2026-11-08T13:20:00+00:00",
-"news": [
-{
-"title": "Sunderland vs Chelsea: Premier League preview, team news, stats & head-to-head",
-"source": "BBC",
-"link": "https://www.bbc.com/sport/football/live/cwm23qne5pqyt"
-},
-{
-"title": "Sunderland vs Chelsea LIVE! Premier League score updates, news, prediction, line-ups and how to watch or stream",
-"source": "Sky Sports",
-"link": "https://www.skysports.com/football/live-blog/13592893/sunderland-vs-chelsea-live-premier-league-score-updates-news-prediction-line-ups-and-how-to-watch-or-stream"
-}
-],
-"new": true
 }
 ],
 "trendSeen": [
-"서킷브레이커",
 "선덜랜드 대 첼시",
 "성리",
 "세계 청년 대회",
@@ -3827,6 +3816,7 @@
 "옥수수",
 "옥스퍼드 시티 fc 대 레스터 시티",
 "옥주현",
+"올리브영",
 "와이스",
 "외국인",
 "요즘 남자 라이프 - 신랑수업",
