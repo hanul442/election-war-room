@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-08T00:52:47.199941+00:00",
+"updated": "2026-11-08T00:55:33.741188+00:00",
 "errors": [],
 "events": [
 {
@@ -820,7 +820,7 @@
 "spike": false
 },
 "화재": {
-"n30": 2,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
@@ -835,14 +835,14 @@
 "spike": false
 },
 "폭발": {
-"n30": 7,
+"n30": 6,
 "base": 0.1,
 "spike": true
 },
 "붕괴": {
-"n30": 5,
-"base": 0.5,
-"spike": true
+"n30": 4,
+"base": 0.6,
+"spike": false
 },
 "대피": {
 "n30": 0,
@@ -855,9 +855,9 @@
 "spike": false
 },
 "속보": {
-"n30": 5,
+"n30": 4,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "지하철": {
 "n30": 1,
@@ -1138,33 +1138,19 @@
 "spikes": [
 {
 "term": "폭발",
-"n30": 7,
+"n30": 6,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-08T00:52:47.199941+00:00"
-},
-{
-"term": "붕괴",
-"n30": 5,
-"base": 0.5,
-"spike": true,
-"since": "2026-11-08T00:52:47.199941+00:00"
-},
-{
-"term": "속보",
-"n30": 5,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-08T00:52:47.199941+00:00"
+"since": "2026-11-08T00:55:33.741188+00:00"
 }
 ],
 "baseline": {
-"지진": 0.11,
+"지진": 0.1,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
 "폭발": 0.05,
-"붕괴": 0.6,
+"붕괴": 0.74,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
@@ -1381,6 +1367,24 @@
 },
 "trends": [
 {
+"term": "밥",
+"traffic": "1000+",
+"time": "2026-11-07T23:50:00+00:00",
+"news": [
+{
+"title": "“30분 만에 밥이 뚝딱”…1만원 '마카롱 밥솥' 써보니[득템기]",
+"source": "이데일리",
+"link": "https://www.edaily.co.kr/News/Read?newsId=01118486645643752&mediaCodeNo=257"
+},
+{
+"title": "햇반 30주년 ‘갓 지은 AI디어 공모전’… 13일까지 접수",
+"source": "한국영농신문",
+"link": "https://www.youngnong.co.kr/news/articleView.html?idxno=71631"
+}
+],
+"new": true
+},
+{
 "term": "남대문시장",
 "traffic": "200+",
 "time": "2026-11-07T23:50:00+00:00",
@@ -1394,6 +1398,24 @@
 "title": "\"사지 마\" 말리는데도 산다…요즘 SNS 뒤집어놓은 '이 가게' [권용훈의 트렌드워치]",
 "source": "한국경제",
 "link": "https://www.hankyung.com/article/202611069848i"
+}
+],
+"new": true
+},
+{
+"term": "기초 연구",
+"traffic": "100+",
+"time": "2026-11-07T23:40:00+00:00",
+"news": [
+{
+"title": "[김우재의 플라이룸](89) 빈 의자의 R&D…예산은 39.5조원, 사람은 왜 늘지 않나",
+"source": "주간경향",
+"link": "https://weekly.khan.co.kr/article/202611061327001"
+},
+{
+"title": "2027년도 기초연구사업 2.91조 원 투자 총 과제 수 18,516개로 역대 최대 지원",
+"source": "BRIC",
+"link": "https://www.ibric.org/bric/trend/bio-news.do?mode=view&articleNo=10063428&title=2027%EB%85%84%EB%8F%84+%EA%B8%B0%EC%B4%88%EC%97%B0%EA%B5%AC%EC%82%AC%EC%97%85+2.91%EC%A1%B0+%EC%9B%90+%ED%88%AC%EC%9E%90+%EC%B4%9D+%EA%B3%BC%EC%A0%9C+%EC%88%98+18%2C516%EA%B0%9C%EB%A1%9C+%EC%97%AD%EB%8C%80+%EC%B5%9C%EB%8C%80+%EC%A7%80%EC%9B%90"
 }
 ],
 "new": true
@@ -1465,14 +1487,14 @@
 "time": "2026-11-07T23:10:00+00:00",
 "news": [
 {
-"title": "Utah State 90-56 Omaha (Nov 7, 2026) Box Score",
-"source": "ESPN",
-"link": "https://www.espn.com/mens-college-basketball/boxscore/_/gameId/401929293"
+"title": "SEAvLAFC Starting XI: Coach Schmetzer names his lineup for Decision Day clash with LAFC",
+"source": "Seattle Sounders FC",
+"link": "https://www.soundersfc.com/news/seavlafc-starting-xi-coach-schmetzer-names-his-lineup-for-decision-day-clash-with-lafc"
 },
 {
-"title": "Stephen F. Austin Lumberjacks vs. Lamar Cardinals: Full Highlights",
-"source": "ESPN",
-"link": "https://www.espn.com/video/clip/_/id/50414590/full-highlights"
+"title": "Sounders vs. LAFC, livestream: Kickoff, lineups, updates",
+"source": "Sounder at Heart",
+"link": "https://www.sounderatheart.com/2026/11/sounders-vs-lafc-livestream-kickoff-lineups-updates/"
 }
 ],
 "new": false
@@ -1512,35 +1534,9 @@
 }
 ],
 "new": true
-},
-{
-"term": "전공의",
-"traffic": "200+",
-"time": "2026-11-07T23:10:00+00:00",
-"news": [
-{
-"title": "‘전공의 부족 해결·9월 인턴’ 이중 과제",
-"source": "데일리메디",
-"link": "https://www.dailymedi.com/news/news_view.php?wr_id=942351"
-},
-{
-"title": "\"수술할 의사가 사라진다\"…외과 소멸 위기에 의료계 '초비상'",
-"source": "한국경제",
-"link": "https://www.hankyung.com/article/202611058590i"
-}
-],
-"new": false
-},
-{
-"term": "신인감독 김연경",
-"traffic": "200+",
-"time": "2026-11-07T23:10:00+00:00",
-"news": [],
-"new": false
 }
 ],
 "trendSeen": [
-"매일노동뉴스",
 "맥도날드",
 "맨시티",
 "메가프로젝트",
@@ -1561,6 +1557,7 @@
 "박유천",
 "박지후",
 "발렌시아 대 레알 마드리드",
+"밥",
 "배구",
 "배드민턴",
 "배찬승",
