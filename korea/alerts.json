@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-08T02:55:02.830608+00:00",
+"updated": "2026-11-08T02:57:17.204252+00:00",
 "errors": [],
 "events": [
 {
@@ -47,7 +47,7 @@
 "id": "tYM0JzTmdLLUI1bV9oN2soc50214",
 "first": "2026-11-08T02:14:20+00:00",
 "last": "2026-11-08T02:42:00+00:00",
-"updated": "2026-11-08T02:55:02.830608+00:00",
+"updated": "2026-11-08T02:57:17.204252+00:00",
 "headline": "서울 종로에서 첫눈 관측…작년보다 26일 빨라",
 "cat": "기타",
 "regions": [
@@ -58,6 +58,7 @@
 "국제신문",
 "뉴스웍스",
 "뉴시스",
+"세계일보",
 "연합뉴스",
 "조선일보",
 "채널A"
@@ -76,6 +77,13 @@
 "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE94cW9JMmRmZHZWUHR6TlRHMmg0cllMRlJmeDFoY3pSOV9LT3NIVE5GdGhROXJaSWlCS2pPZ1ZFQWYwVUFRNEhCZk9MUDFpU0tSZzViMjY5VHR1cGl5VXR0bFYwYXAzMERjQlJhcF9ha9IBc0FVX3lxTE9qbERScEgzdFBsS3RaeG9aU1dfZ0ZQWFRCV0tlRkhfZndYUEdYd0xfVTRlSDVZOEpocXdKckNBS3pSYXotWG1sTVRFTktxOFlGRkYzb2VNVTRERW5oUUdyQVhYSktYM0JzTmdLLUI1bV9oN2s?oc=5",
 "time": "2026-11-08T02:14:20+00:00",
 "stage": "얼럿"
+},
+{
+"title": "[속보] 서울 올가을 첫눈",
+"source": "세계일보",
+"link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5ORVdlYkhLc2hUbzZkTlB4Z1pCXzJKUnU0Y3JkbGdPajFUdFRfSXEzVzJFdnNscjFGTS1VcG9DSHQ1ZG83UkExT0hILUJubHlKVzh6MjZ2Y2tyWGlSUXV0bGxBYzNZQWVsVGfSAVRBVV95cUxNWk5uWXlMNk1lZTB3Q2ltN3hTX1VBZTRGWlhwLWNhaEVfZXd4d1cxTFBuQ2lFSEtyZ3dKNDM5cjFZSXlab0dYenR6cTBXX1RsRXdsMks?oc=5",
+"time": "2026-11-08T02:16:13+00:00",
+"stage": "속보"
 },
 {
 "title": "오늘 서울 첫눈 관측…작년보다 26일 빨라",
@@ -243,6 +251,39 @@
 "지방선거용",
 "지옥문",
 "李대통령"
+]
+},
+{
+"id": "U5GdjM3bEt2TGVqMFdvawoc50235",
+"first": "2026-11-08T02:35:00+00:00",
+"last": "2026-11-08T02:35:00+00:00",
+"updated": "2026-11-08T02:57:17.204252+00:00",
+"headline": "조갑제, 국힘 지도부 겨냥 \"이런 얼굴로는 민주당 못 이겨\"",
+"cat": "정치",
+"regions": [],
+"sources": [
+"대전일보"
+],
+"updates": [
+{
+"title": "[속보] 조갑제, 국힘 지도부 겨냥 \"이런 얼굴로는 민주당 못 이겨\"",
+"source": "대전일보",
+"link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE4tUVJfWTdNbG5wYUNWMTJpQXF4WnFjd25XRlNjS093YktTWjhYUHJTbkNPUktfRnlpbHU0Q2RFc0d0TXRhTXQ5cm9QVHplSXlfeFhCUVZ6QkV3aDVKel9jcU5GdjM3bEt2TGVqMFdvaw?oc=5",
+"time": "2026-11-08T02:35:00+00:00",
+"stage": "얼럿"
+}
+],
+"level": "URGENT",
+"latest": "조갑제, 국힘 지도부 겨냥 \"이런 얼굴로는 민주당 못 이겨\"",
+"tok": [
+"겨냥",
+"국힘",
+"민주당",
+"얼굴로",
+"이겨",
+"이런",
+"조갑제",
+"지도부"
 ]
 },
 {
@@ -1850,7 +1891,7 @@
 "sns": {
 "terms": {
 "지진": {
-"n30": 1,
+"n30": 0,
 "base": 1.2,
 "spike": false
 },
@@ -1870,7 +1911,7 @@
 "spike": false
 },
 "폭발": {
-"n30": 8,
+"n30": 7,
 "base": 0.1,
 "spike": true
 },
@@ -1890,18 +1931,18 @@
 "spike": false
 },
 "속보": {
-"n30": 5,
+"n30": 4,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "지하철": {
-"n30": 5,
+"n30": 6,
 "base": 0.5,
 "spike": true
 },
 "사고": {
 "n30": 0,
-"base": 0.8,
+"base": 0.7,
 "spike": false
 },
 "실종": {
@@ -1931,6 +1972,16 @@
 }
 },
 "posts": [
+{
+"text": "오늘날씨 ㅈㄴ구데기라 지하철 사람도 ㅂㄹ없고 졸네 (이랫는데 9<선 급행은 또 좆같이 많겟디",
+"handle": "zahalsalrea.bsky.social",
+"name": "쟡피클",
+"time": "2026-11-08T02:56:34.279Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/zahalsalrea.bsky.social/post/3mzrfz4m2i22m",
+"term": "지하철"
+},
 {
 "platform": "YouTube",
 "text": "애플이 만든 Claude Code용 Xcode 플러그인이에요 #AI속보 #Shorts",
@@ -2112,16 +2163,6 @@
 "url": "https://www.youtube.com/watch?v=M__UF9Kdtx4"
 },
 {
-"text": "【지진 정보】일본 시간 11월 8일 11:21경\n진원: Amakusa and Ashikita Region, Kumamoto Prefecture (M2.8, 깊이 약 10km)\n최대 진도: 1\n진도 1: 구마모토현\n이 지진으로 인한 쓰나미 걱정은 없습니다.\n(일본 기상청 발표)\n#일본 #지진 #방재",
-"handle": "ko.soramoyou.yk-planning.jp",
-"name": "Soramoyou 한국어",
-"time": "2026-11-08T02:26:33.883Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/ko.soramoyou.yk-planning.jp/post/3mzredipwzp2w",
-"term": "지진"
-},
-{
 "platform": "YouTube",
 "text": "[금양] 속보! 금양 24만명 지금 6단계 중 1단계입니다, 가처분 신청이 인용 아닙니다 5월21일 신청 아직 판단 중 [진행상황 확인표]",
 "handle": "UCRiu3nOoWb0fZYHNsE-IYpQ",
@@ -2152,28 +2193,21 @@
 "spikes": [
 {
 "term": "폭발",
-"n30": 8,
+"n30": 7,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-08T02:55:02.830608+00:00"
-},
-{
-"term": "속보",
-"n30": 5,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-08T02:55:02.830608+00:00"
+"since": "2026-11-08T02:57:17.204252+00:00"
 },
 {
 "term": "지하철",
-"n30": 5,
+"n30": 6,
 "base": 0.5,
 "spike": true,
-"since": "2026-11-08T02:55:02.830608+00:00"
+"since": "2026-11-08T02:57:17.204252+00:00"
 }
 ],
 "baseline": {
-"지진": 1.18,
+"지진": 1.06,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
@@ -2182,8 +2216,8 @@
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.49,
-"사고": 0.69,
+"지하철": 0.54,
+"사고": 0.62,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
