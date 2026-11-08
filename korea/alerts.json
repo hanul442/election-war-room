@@ -1,41 +1,20 @@
 {
-"updated": "2026-11-08T07:53:05.886404+00:00",
+"updated": "2026-11-08T07:55:24.837388+00:00",
 "errors": [],
 "events": [
 {
-"id": "quake20261108T0153",
-"first": "2026-11-08T01:53:16.193000+00:00",
-"last": "2026-11-08T01:53:16.193000+00:00",
-"updated": "2026-11-08T07:53:05.886404+00:00",
-"headline": "규모 4.5 지진 · 11 km W of Honmachi, Japan",
-"latest": "규모 4.5 지진 · 11 km W of Honmachi, Japan",
-"cat": "재난",
-"regions": [],
-"sources": [
-"USGS"
-],
-"level": "BULLETIN",
-"tok": [],
-"updates": [
-{
-"title": "규모 4.5 지진 · 11 km W of Honmachi, Japan",
-"source": "USGS",
-"link": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twvb",
-"time": "2026-11-08T01:53:16.193000+00:00",
-"stage": "얼럿"
-}
-]
-},
-{
 "id": "wNISX20261108_00038594020746",
 "first": "2026-11-08T07:46:46+00:00",
-"last": "2026-11-08T07:46:46+00:00",
-"updated": "2026-11-08T07:50:49.059162+00:00",
+"last": "2026-11-08T07:50:38+00:00",
+"updated": "2026-11-08T07:55:24.837388+00:00",
 "headline": "배드민턴 김원호-서승재, 코리아오픈 남자 복식 2연패",
 "cat": "기타",
-"regions": [],
+"regions": [
+"전남"
+],
 "sources": [
-"뉴시스"
+"뉴시스",
+"연합뉴스"
 ],
 "updates": [
 {
@@ -44,29 +23,40 @@
 "link": "https://www.newsis.com/view/NISX20261108_0003859402",
 "time": "2026-11-08T07:46:46+00:00",
 "stage": "얼럿"
+},
+{
+"title": "안방서 '부활 스매시' 서승재·김원호, 코리아오픈 2연패",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261108038500007",
+"time": "2026-11-08T07:50:38+00:00",
+"stage": "후속"
 }
 ],
 "level": "URGENT",
-"latest": "배드민턴 김원호-서승재, 코리아오픈 남자 복식 2연패",
+"latest": "안방서 '부활 스매시' 서승재·김원호, 코리아오픈 2연패",
 "tok": [
 "2연패",
 "김원호",
 "남자",
 "배드민턴",
 "복식",
+"부활",
 "서승재",
+"스매시",
+"안방서",
 "코리아오픈"
 ]
 },
 {
 "id": "XSkxRTkpQeE5DXzlJOFBBoc50744",
 "first": "2026-11-08T07:44:00+00:00",
-"last": "2026-11-08T07:45:01+00:00",
-"updated": "2026-11-08T07:53:05.886404+00:00",
+"last": "2026-11-08T07:48:22+00:00",
+"updated": "2026-11-08T07:55:24.837388+00:00",
 "headline": "SM엔터도 털렸다…\"주민·계좌번호 등 개인정보 유출 사과\"",
 "cat": "기타",
 "regions": [],
 "sources": [
+"강원도민일보",
 "경향신문",
 "연합뉴스",
 "이코노미스트"
@@ -92,21 +82,32 @@
 "link": "https://www.khan.co.kr/article/202611081645011/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
 "time": "2026-11-08T07:45:01+00:00",
 "stage": "후속"
+},
+{
+"title": "[속보] SM엔터·계열사 외부 해킹 피해…임직원 개인정보 유출",
+"source": "강원도민일보",
+"link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1yU1NjWlhUUmJHclBXb3VEVGFzMk5TemJmS0ZqR3pQbzJ3UHZqbXNtcGtWY1I1N3NNX0NNd2VScUZ0WG94LThmejMtdnJ2SHNjdldZYmJ0TkRjTEFKY3JIWmpuYzdQMTQ?oc=5",
+"time": "2026-11-08T07:48:22+00:00",
+"stage": "속보"
 }
 ],
 "level": "URGENT",
-"latest": "SM엔터 개인정보 유출…임직원 주민번호·계좌번호 등",
+"latest": "SM엔터·계열사 외부 해킹 피해…임직원 개인정보 유출",
 "tok": [
 "SM엔터",
 "개인정보",
+"계열사",
 "계좌번호",
 "사과",
+"외부",
 "유출",
 "임직원",
 "주민",
 "주민번호",
 "진심으",
-"털렸다"
+"털렸다",
+"피해",
+"해킹"
 ]
 },
 {
@@ -3296,7 +3297,7 @@
 "spike": false
 },
 "폭발": {
-"n30": 3,
+"n30": 2,
 "base": 0.2,
 "spike": false
 },
@@ -3326,8 +3327,8 @@
 "spike": false
 },
 "사고": {
-"n30": 5,
-"base": 3.8,
+"n30": 6,
+"base": 3.9,
 "spike": false
 },
 "실종": {
@@ -3347,7 +3348,7 @@
 },
 "먹통": {
 "n30": 0,
-"base": 0.5,
+"base": 0.4,
 "spike": false
 },
 "산불": {
@@ -3357,6 +3358,16 @@
 }
 },
 "posts": [
+{
+"text": "하지만 내구도는 정말 중요한걸요! \n안전 수칙같은거죠\n리저되는선 , 리저 안되는 선을 알아볼수 있게...\n뇌진탕 사고도 안생기도록....",
+"handle": "kuch01.bsky.social",
+"name": "Aku.C",
+"time": "2026-11-08T07:54:01.673Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/kuch01.bsky.social/post/3mzrwmzpols2t",
+"term": "사고"
+},
 {
 "text": "아니 동영상 찍고 나니까 갑자기 어시스티브 터치 실종돼가지고 당황했잖아 씹",
 "handle": "niteo.bsky.social",
@@ -3459,16 +3470,6 @@
 "likes": 0,
 "reposts": 0,
 "url": "https://bsky.app/profile/fluffystory.trpg-o.xyz.ap.brid.gy/post/3mzrvakcstwu2",
-"term": "사고"
-},
-{
-"text": "옆나라 이야기를 좀 하면, 여기도 만만찮게 총기통제를 하긴 했지만 그래도 한국보단 좀 통제가 부실해서 가끔씩 사고가 나던게 있었죠. 그러다가 좀 전기가 터졌던게 80년대 후반쯤에 헤이싱 권총이라고 TT-33의 중국제 복제품이 대규모로 밀수 풀렸던게 있었습니다. \n\n이건 야쿠자들이 거진 가지고 있어서, 야쿠자 항쟁에서 총기격발로 뉴스를 타면 이게 튀어나오고 아직 좀 남아있다던가 그렇죠. 요즘은",
-"handle": "inspektor.bsky.social",
-"name": "국철진",
-"time": "2026-11-08T07:29:01.869Z",
-"likes": 2,
-"reposts": 0,
-"url": "https://bsky.app/profile/inspektor.bsky.social/post/3mzrvad35zs2t",
 "term": "사고"
 },
 {
@@ -3629,19 +3630,19 @@
 "baseline": {
 "지진": 0.05,
 "화재": 0.05,
-"불났": 0.21,
+"불났": 0.19,
 "정전": 0.05,
-"폭발": 0.22,
+"폭발": 0.2,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.51,
-"사고": 3.9,
-"실종": 0.15,
+"지하철": 0.56,
+"사고": 4.11,
+"실종": 0.24,
 "단수": 0.05,
 "통신 장애": 0.05,
-"먹통": 0.44,
+"먹통": 0.4,
 "산불": 0.05
 },
 "errors": [],
@@ -3877,7 +3878,7 @@
 },
 {
 "term": "강민호",
-"traffic": "2000+",
+"traffic": "1000+",
 "time": "2026-11-08T06:50:00+00:00",
 "news": [
 {
@@ -3904,9 +3905,9 @@
 "link": "https://worldbaseball.com/news/samsung-lions-take-a-commanding-3-1-series-lead-over-the-kt-wiz-mw6u3mcg"
 },
 {
-"title": "Samsung's Park Seung-gyu Aims to Propose With Championship Ring",
-"source": "조선일보",
-"link": "https://www.chosun.com/english/sports-en/2026/11/07/OUTXCKEI6RBWBHD3YCFQQNTTAE/"
+"title": "\"I'm more greedy to win than the series MVP.\"Park Seung-gyu (Samsung Lions), who gave precious victo..",
+"source": "매일경제",
+"link": "https://www.mk.co.kr/en/sports/12201500"
 }
 ],
 "new": true
@@ -3927,7 +3928,7 @@
 "link": "https://news.kbs.co.kr/news/view.do?ncd=8706922"
 }
 ],
-"new": true
+"new": false
 },
 {
 "term": "티비",
@@ -3935,24 +3936,42 @@
 "time": "2026-11-08T06:50:00+00:00",
 "news": [
 {
-"title": "Flight bomb threats live: Multiple planes in Europe diverted for second time in a week",
-"source": "CNN",
-"link": "https://edition.cnn.com/2026/11/05/world/live-news/plane-flights-bomb-threats-europe-intl"
-},
-{
 "title": "New wave of bomb threats hit European airlines",
 "source": "BBC",
 "link": "https://www.bbc.com/news/articles/cq62yy064vjpo"
+},
+{
+"title": "Wave of Hoax Bomb Threats to Flights in Europe Leaves Travelers Frustrated",
+"source": "The New York Times",
+"link": "https://www.nytimes.com/2026/11/06/world/europe/bomb-threats-planes-flights-europe-travel.html"
 }
 ],
-"new": true
+"new": false
 },
 {
 "term": "다시보기",
-"traffic": "100+",
+"traffic": "200+",
 "time": "2026-11-08T06:40:00+00:00",
 "news": [],
 "new": true
+},
+{
+"term": "삼성라이온즈",
+"traffic": "2000+",
+"time": "2026-11-08T06:30:00+00:00",
+"news": [
+{
+"title": "[포토]'사자들이여 환호하라!' 구자욱 - 머니투데이",
+"source": "머니투데이",
+"link": "https://www.mt.co.kr/sports/2026/11/08/2026110815541882583"
+},
+{
+"title": "[사진]타격장인 최형우, '왼무릎 바닥에 닿으며 만들어내는 적시타'",
+"source": "조선일보",
+"link": "https://www.chosun.com/sports/sports_photo/2026/11/08/MUYDKOJRGFSWGYZQMM4WEOBXGA/"
+}
+],
+"new": false
 },
 {
 "term": "송하예",
@@ -4004,24 +4023,6 @@
 "title": "[포토] 구자욱 '민호 형만 믿었어요' - 머니투데이",
 "source": "머니투데이",
 "link": "https://www.mt.co.kr/sports/2026/11/08/2026110815542436505"
-}
-],
-"new": false
-},
-{
-"term": "서울특별시",
-"traffic": "5000+",
-"time": "2026-11-08T06:10:00+00:00",
-"news": [
-{
-"title": "서울 '첫 눈' 관측‥겨울 문턱 쌀쌀",
-"source": "MBC 뉴스",
-"link": "https://imnews.imbc.com/replay/2026/nw1200/article/6864007_36967.html"
-},
-{
-"title": "아니 벌써? 서울에 ‘첫눈’ 내렸다···작년보다 26일 빨라",
-"source": "경향신문",
-"link": "https://www.khan.co.kr/article/202611081323001"
 }
 ],
 "new": false
