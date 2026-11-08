@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-08T23:01:29.813438+00:00",
+"updated": "2026-11-08T23:03:54.075271+00:00",
 "errors": [],
 "events": [
 {
@@ -963,7 +963,7 @@
 },
 "폭발": {
 "n30": 7,
-"base": 0.3,
+"base": 0.4,
 "spike": true
 },
 "붕괴": {
@@ -992,8 +992,8 @@
 "spike": false
 },
 "사고": {
-"n30": 3,
-"base": 1.7,
+"n30": 2,
+"base": 1.9,
 "spike": false
 },
 "실종": {
@@ -1260,32 +1260,22 @@
 "reposts": 0,
 "url": "https://bsky.app/profile/chdnduck.bsky.social/post/3mzti6b4d522v",
 "term": "사고"
-},
-{
-"text": "뒤늦게 확인한 자동차 보험료 변동 조건, 수리비가 적어도 현금 수리가 무조건 유리한 게 아니었네.\n사고...\n\n#자동차보험 #다이렉트",
-"handle": "oduk83.bsky.social",
-"name": "오덕83",
-"time": "2026-11-08T22:32:23.990Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/oduk83.bsky.social/post/3mzthpoeope2j",
-"term": "사고"
 }
 ],
 "spikes": [
 {
 "term": "폭발",
 "n30": 7,
-"base": 0.3,
+"base": 0.4,
 "spike": true,
-"since": "2026-11-08T23:01:29.813438+00:00"
+"since": "2026-11-08T23:03:54.075271+00:00"
 },
 {
 "term": "속보",
 "n30": 7,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-08T23:01:29.813438+00:00"
+"since": "2026-11-08T23:03:54.075271+00:00"
 }
 ],
 "baseline": {
@@ -1293,13 +1283,13 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.39,
+"폭발": 0.45,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.51,
-"사고": 1.85,
+"지하철": 0.56,
+"사고": 1.86,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -1511,19 +1501,91 @@
 },
 "trends": [
 {
+"term": "송중기",
+"traffic": "2000+",
+"time": "2026-11-08T22:00:00+00:00",
+"news": [
+{
+"title": "‘케이티♥’ 송중기, 아이 끌어안고 함박웃음…운동 중에도 자녀와 ‘영통’ 삼매경",
+"source": "스포츠경향",
+"link": "https://sports.khan.co.kr/article/202611081515003"
+},
+{
+"title": "두 아이 아빠 송중기...\"운동 중에도 다정하게 영상통화\" - 머니투데이",
+"source": "머니투데이",
+"link": "https://www.mt.co.kr/entertainment/2026/11/08/2026110819512864087"
+}
+],
+"new": true
+},
+{
+"term": "blg",
+"traffic": "200+",
+"time": "2026-11-08T22:00:00+00:00",
+"news": [
+{
+"title": "BLG Vs T1 Worlds 2026 Semifinals Preview: Can The LPL Get Revenge?",
+"source": "Hotspawn",
+"link": "https://www.hotspawn.com/league-of-legends/news/blg-vs-t1-worlds-2026-preview"
+},
+{
+"title": "Bilibili Gaming vs T1 Prediction & Betting Tip | LoL",
+"source": "EGamersWorld",
+"link": "https://egamersworld.com/lol/tip/q8qUtLA6g/bilibili-gaming-vs-t1-Mo_mM-vhN"
+}
+],
+"new": true
+},
+{
+"term": "숲",
+"traffic": "500+",
+"time": "2026-11-08T22:00:00+00:00",
+"news": [
+{
+"title": "\"심는 것만큼 가꾸는 것도 중요\"…동부산림청 비료 주기 행사",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261106101000062"
+},
+{
+"title": "\"도심 속 녹색 쉼터 더 푸르게 가꾼다\"… 천안시, 노태공원서 숲가꾸기 행사 전개",
+"source": "충청탑뉴스",
+"link": "http://m.ctnews.kr/article.php?aid=1794175178463618021"
+}
+],
+"new": false
+},
+{
+"term": "weather",
+"traffic": "2000+",
+"time": "2026-11-08T22:00:00+00:00",
+"news": [
+{
+"title": "Pennsylvania weather: Seasonal weather in the mid 40s",
+"source": "28/22 News",
+"link": "https://www.2822news.com/weather/pennsylvania-weather-seasonal-weather-in-the-mid-40s/"
+},
+{
+"title": "More rain expected Thursday",
+"source": "AOL.com",
+"link": "https://www.aol.com/articles/more-rain-expected-thursday-234724000.html"
+}
+],
+"new": true
+},
+{
 "term": "농업",
 "traffic": "500+",
 "time": "2026-11-08T21:40:00+00:00",
 "news": [
 {
-"title": "농정원, 농업법인 100여 명에 세무·노무 교육…유통 대응 강의 신설",
-"source": "한국영농신문",
-"link": "https://www.youngnong.co.kr/news/articleView.html?idxno=71695"
+"title": "농식품부, 내년부터 '농업·농촌문제 해결 R&D 사업' 추진",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261106176900030"
 },
 {
-"title": "농정원, 농업법인 역량강화 교육",
-"source": "보건신문",
-"link": "http://www.bokuennews.com/news/article.html?no=286730"
+"title": "농장 방역 누락 알리고 끼임사고 막는다…지역 주도 R&D에 과제당 최대 20억",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261107_0003858745"
 }
 ],
 "new": true
@@ -1601,93 +1663,10 @@
 "new": true
 },
 {
-"term": "송혜교",
-"traffic": "500+",
-"time": "2026-11-08T21:30:00+00:00",
-"news": [
-{
-"title": "\"18살 같아서 와인 못 판다고…\" 송혜교, 동안 미모 자화자찬 - 머니투데이",
-"source": "머니투데이",
-"link": "https://www.mt.co.kr/entertainment/2026/11/08/2026110811150551350"
-},
-{
-"title": "송혜교 \"공유가 나 키 작다고…현장에서 매일 긁는다\"",
-"source": "뉴시스",
-"link": "https://www.newsis.com/view/NISX20261107_0003859065"
-}
-],
-"new": false
-},
-{
-"term": "атлетико мадрид – барселона",
-"traffic": "200+",
-"time": "2026-11-08T21:30:00+00:00",
-"news": [
-{
-"title": "«Барселона» победила «Атлетико» в матче 12-го тура Ла Лиги, Фермин Лопес оформил дубль",
-"source": "https://www.championat.ru/",
-"link": "https://www.championat.ru/football/news-6691594-atletiko-barselona-rezultat-matcha-8-noyabrya-2026-schet-1-2-12-j-tur-la-ligi-2026-2027.html"
-},
-{
-"title": "Ла Лига. Барселона одержала волевую победу над Атлетико",
-"source": "UA-Football",
-"link": "https://www.ua-football.com/foreign/spain/1794174666-la-liga-barselona-oderzhala-volevuyu-pobedu-nad-atletiko.html"
-}
-],
-"new": true
-},
-{
-"term": "일본",
-"traffic": "5000+",
-"time": "2026-11-08T21:20:00+00:00",
-"news": [
-{
-"title": "[속보]日시즈오카현 규모 5.7 강진…놀란 20대 외국인 2층서 뛰어내려 부상",
-"source": "문화일보",
-"link": "https://www.munhwa.com/article/11629589"
-},
-{
-"title": "일본 또 지진 19명 부상…\"2~3일 내 큰 지진 가능성\"",
-"source": "SBS 뉴스",
-"link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008836346"
-}
-],
-"new": false
-},
-{
-"term": "투자",
+"term": "톱스타뉴스",
 "traffic": "2000+",
-"time": "2026-11-08T21:20:00+00:00",
-"news": [
-{
-"title": "중간선거 참패한 트럼프 \"그 어느 때보다 크고 강하게 돌아온다\" 공언...속내는?",
-"source": "YTN",
-"link": "https://www.ytn.co.kr/_ln/0104_202611090717438683"
-},
-{
-"title": "트럼프 \"중간선거 후퇴 두려워말라…더 강하게 돌아올 것\"",
-"source": "연합뉴스TV",
-"link": "https://www.yonhapnewstv.co.kr/news/MYH20261109073554ZNT"
-}
-],
-"new": false
-},
-{
-"term": "애틀랜타",
-"traffic": "200+",
-"time": "2026-11-08T21:20:00+00:00",
-"news": [
-{
-"title": "중국이 보낸 판다 두 마리, 美 애틀랜타 동물원서 공개돼",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261108002700009"
-},
-{
-"title": "“내 인생 최고”…中 판다 핑핑·푸솽에 열광하는 美애틀랜타",
-"source": "동아일보",
-"link": "https://www.donga.com/news/Inter/article/all/20261108/134986319/2"
-}
-],
+"time": "2026-11-08T21:30:00+00:00",
+"news": [],
 "new": false
 }
 ],
