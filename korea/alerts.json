@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-08T23:10:44.233998+00:00",
+"updated": "2026-11-08T23:12:59.234571+00:00",
 "errors": [],
 "events": [
 {
@@ -1086,12 +1086,12 @@
 },
 "지하철": {
 "n30": 2,
-"base": 0.6,
+"base": 0.7,
 "spike": false
 },
 "사고": {
 "n30": 1,
-"base": 1.9,
+"base": 1.8,
 "spike": false
 },
 "실종": {
@@ -1356,14 +1356,14 @@
 "n30": 7,
 "base": 0.6,
 "spike": true,
-"since": "2026-11-08T23:10:44.233998+00:00"
+"since": "2026-11-08T23:12:59.234571+00:00"
 },
 {
 "term": "속보",
 "n30": 7,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-08T23:10:44.233998+00:00"
+"since": "2026-11-08T23:12:59.234571+00:00"
 }
 ],
 "baseline": {
@@ -1371,13 +1371,13 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.6,
+"폭발": 0.64,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.68,
-"사고": 1.79,
+"지하철": 0.71,
+"사고": 1.71,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -1589,6 +1589,42 @@
 },
 "trends": [
 {
+"term": "닥터x: 하얀 마피아의 시대",
+"traffic": "5000+",
+"time": "2026-11-08T22:10:00+00:00",
+"news": [
+{
+"title": "닥터X : 하얀 마피아의 시대 : [11회 예고] “실패해 주시면 안 될까요?” 김우석, 김지원에게 간절한 부탁",
+"source": "programs.sbs.co.kr",
+"link": "https://programs.sbs.co.kr/drama/doctorx/clip/88586/OC483056440"
+},
+{
+"title": "‘닥터X’ 김우석, 전국환 살해 시도… ‘햇살 인턴’ 섬뜩한 반전",
+"source": "이데일리",
+"link": "https://www.edaily.co.kr/News/Read?newsId=01331686645643752&mediaCodeNo=257"
+}
+],
+"new": true
+},
+{
+"term": "blg t1",
+"traffic": "100+",
+"time": "2026-11-08T22:10:00+00:00",
+"news": [
+{
+"title": "Karmine Corp vs T1: Why T1 Will Crush KC at Worlds 2026",
+"source": "The Loadout",
+"link": "https://theloadout.com/karmine-corp-vs-t1"
+},
+{
+"title": "Claudio Castagnoli Calls League of Legends ‘the Best Sport to Watch’",
+"source": "Yahoo Sports",
+"link": "https://sports.yahoo.com/articles/aews-claudio-castagnoli-calls-league-012456063.html"
+}
+],
+"new": true
+},
+{
 "term": "송중기",
 "traffic": "2000+",
 "time": "2026-11-08T22:00:00+00:00",
@@ -1661,6 +1697,24 @@
 "new": true
 },
 {
+"term": "젠슨황 부인",
+"traffic": "200+",
+"time": "2026-11-08T21:50:00+00:00",
+"news": [
+{
+"title": "“아내에 불충실했다”…젠슨황, 첩자 의혹女와 불륜 인정",
+"source": "문화일보",
+"link": "https://www.munhwa.com/article/11629698"
+},
+{
+"title": "루비오 美국무, 젠슨황 불륜 알았다…트럼프 방중 전 경고",
+"source": "마켓인",
+"link": "https://marketin.edaily.co.kr/News/ReadE?newsId=02086086645644080"
+}
+],
+"new": true
+},
+{
 "term": "농업",
 "traffic": "500+",
 "time": "2026-11-08T21:40:00+00:00",
@@ -1713,53 +1767,9 @@
 }
 ],
 "new": true
-},
-{
-"term": "สภาพอากาศ",
-"traffic": "1000+",
-"time": "2026-11-08T21:40:00+00:00",
-"news": [
-{
-"title": "อุตุฯ เตือนใต้ฝนตกหนัก 9-13 พ.ย. ส่วนอีสานอุณหภูมิลด 3-5 องศาฯ",
-"source": "Thai PBS",
-"link": "https://www.thaipbs.or.th/news/content/572392"
-},
-{
-"title": "📢 ประกาศกรมอุตุนิยมวิทยา ฉ.1 | 8 พ.ย. 2569 เวลา 17.00 น. 🌧️ 9–13 พ.ย. ภาคใต้ฝนตกหนักถึงหนักมาก ไทยตอนบนอากาศเย็นลง มีลมแรง กรมอุตุฯ เตือนฝนตกหนัก-หนักมากภาคใต้ ช่วง 9–13 พฤศจิกายน 2569 เสี่ยงน้ำท่วมฉับพลันและน้ำป่าไหลหลาก โดยเฉพาะพื้นที่ลาดเชิงเขาใกล้ทาง",
-"source": "Facebook",
-"link": "https://www.facebook.com/tmd.go.th/posts/-%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A8%E0%B8%81%E0%B8%A3%E0%B8%A1%E0%B8%AD%E0%B8%B8%E0%B8%95%E0%B8%B8%E0%B8%99%E0%B8%B4%E0%B8%A2%E0%B8%A1%E0%B8%A7%E0%B8%B4%E0%B8%97%E0%B8%A2%E0%B8%B2-%E0%B8%891-8-%E0%B8%9E%E0%B8%A2-2569-%E0%B9%80%E0%B8%A7%E0%B8%A5%E0%B8%B2-1700-%E0%B8%99%EF%B8%8F-913-%E0%B8%9E%E0%B8%A2-%E0%B8%A0%E0%B8%B2%E0%B8%84%E0%B9%83%E0%B8%95%E0%B9%89%E0%B8%9D%E0%B8%99%E0%B8%95%E0%B8%81%E0%B8%AB%E0%B8%99%E0%B8%B1%E0%B8%81%E0%B8%96%E0%B8%B6%E0%B8%87%E0%B8%AB%E0%B8%99%E0%B8%B1%E0%B8%81%E0%B8%A1%E0%B8%B2/1605830921589037/"
-}
-],
-"new": true
-},
-{
-"term": "thời tiết",
-"traffic": "1000+",
-"time": "2026-11-08T21:40:00+00:00",
-"news": [
-{
-"title": "Dự báo thời tiết đêm 8 và ngày 9/11",
-"source": "Báo Lào Cai điện tử",
-"link": "https://baolaocai.vn/du-bao-thoi-tiet-dem-8-va-ngay-911-post913945.html"
-},
-{
-"title": "Dự báo thời tiết 9/11/2026: Bắc Bộ rét, Trung Bộ mưa lớn",
-"source": "Báo Nhân Dân điện tử",
-"link": "https://nhandan.vn/video-du-bao-thoi-tiet-dem-nay-va-ngay-mai-9112026-khong-khi-lanh-tran-xuong-bac-bo-va-trung-bo-mua-ret-dien-rong-post1001081.html"
-}
-],
-"new": true
-},
-{
-"term": "톱스타뉴스",
-"traffic": "2000+",
-"time": "2026-11-08T21:30:00+00:00",
-"news": [],
-"new": false
 }
 ],
 "trendSeen": [
-"송해",
 "송혜교",
 "쇼메이커",
 "수능",
@@ -1934,6 +1944,7 @@
 "제주항공",
 "젠슨 황",
 "젠슨황",
+"젠슨황 부인",
 "젠지 라이언",
 "조명우",
 "조선민주주의인민공화국",
