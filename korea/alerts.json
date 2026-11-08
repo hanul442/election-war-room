@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-08T16:52:02.525884+00:00",
+"updated": "2026-11-08T16:54:17.724515+00:00",
 "errors": [],
 "events": [
 {
@@ -2746,9 +2746,9 @@
 "spike": false
 },
 "폭발": {
-"n30": 6,
+"n30": 3,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "붕괴": {
 "n30": 1,
@@ -2802,7 +2802,7 @@
 },
 "산불": {
 "n30": 0,
-"base": 0.8,
+"base": 0.7,
 "spike": false
 }
 },
@@ -3036,18 +3036,11 @@
 ],
 "spikes": [
 {
-"term": "폭발",
-"n30": 6,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-08T16:52:02.525884+00:00"
-},
-{
 "term": "속보",
 "n30": 7,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-08T16:52:02.525884+00:00"
+"since": "2026-11-08T16:54:17.724515+00:00"
 }
 ],
 "baseline": {
@@ -3060,13 +3053,13 @@
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.06,
-"사고": 1.31,
-"실종": 0.37,
+"지하철": 0.05,
+"사고": 1.28,
+"실종": 0.33,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
-"산불": 0.69
+"산불": 0.62
 },
 "errors": [],
 "ytPosts": [
@@ -3310,7 +3303,7 @@
 },
 {
 "term": "맨유 대 애스턴 빌라",
-"traffic": "5000+",
+"traffic": "10000+",
 "time": "2026-11-08T15:30:00+00:00",
 "news": [
 {
@@ -3463,9 +3456,9 @@
 "link": "https://news.sbs.co.kr/english/article.do?news_id=N1008836221"
 },
 {
-"title": "Jung Jae-hyun Claims First KPGA Tour Title at Season Finale",
-"source": "조선일보",
-"link": "https://www.chosun.com/english/sports-en/2026/11/09/F4IZRCHNPFA6JMUZU3OP4AIRRM/"
+"title": "21-Year-Old Jung Jae-hyun Secures First Regular Tour Win at KPGA 2026 Season Finale",
+"source": "news.sbs.co.kr",
+"link": "https://news.sbs.co.kr/english/article.do?news_id=N1008836085"
 }
 ],
 "new": true
