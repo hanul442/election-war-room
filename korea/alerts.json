@@ -1,7 +1,41 @@
 {
-"updated": "2026-11-08T05:07:52.078952+00:00",
+"updated": "2026-11-08T05:10:08.349516+00:00",
 "errors": [],
 "events": [
+{
+"id": "wNISX20261108_00038593380506",
+"first": "2026-11-08T05:06:49+00:00",
+"last": "2026-11-08T05:06:49+00:00",
+"updated": "2026-11-08T05:10:08.349516+00:00",
+"headline": "경찰, 부산불꽃축제 해변 자릿세·암표매매 등 8건 적발",
+"cat": "재난",
+"regions": [
+"부산"
+],
+"sources": [
+"뉴시스"
+],
+"updates": [
+{
+"title": "경찰, 부산불꽃축제 해변 자릿세·암표매매 등 8건 적발",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261108_0003859338",
+"time": "2026-11-08T05:06:49+00:00",
+"stage": "1보"
+}
+],
+"level": "ALERT",
+"latest": "경찰, 부산불꽃축제 해변 자릿세·암표매매 등 8건 적발",
+"tok": [
+"8건",
+"경찰",
+"부산불꽃축제",
+"암표매매",
+"자릿세",
+"적발",
+"해변"
+]
+},
 {
 "id": "HR0d3pJeGV5aExTZ2JHUQoc50131",
 "first": "2026-11-08T01:31:52+00:00",
@@ -2402,7 +2436,7 @@
 },
 "붕괴": {
 "n30": 4,
-"base": 0.1,
+"base": 0.3,
 "spike": false
 },
 "대피": {
@@ -2416,18 +2450,18 @@
 "spike": false
 },
 "속보": {
-"n30": 3,
+"n30": 2,
 "base": 0.1,
 "spike": false
 },
 "지하철": {
 "n30": 3,
-"base": 0.4,
+"base": 0.5,
 "spike": false
 },
 "사고": {
 "n30": 3,
-"base": 2.0,
+"base": 2.1,
 "spike": false
 },
 "실종": {
@@ -2457,6 +2491,16 @@
 }
 },
 "posts": [
+{
+"text": "침투적 사고 그만 왓음 좋겟다\n내 인성의 문제같이 느껴져서 더 싫음",
+"handle": "sfbd553.bsky.social",
+"name": "정인",
+"time": "2026-11-08T05:09:02.672Z",
+"likes": 1,
+"reposts": 0,
+"url": "https://bsky.app/profile/sfbd553.bsky.social/post/3mzrnfzadss2f",
+"term": "사고"
+},
 {
 "text": "Data-Center Pullback May Shield Real Economy From AI Bubble - Bloomberg\n\nwww.bloomberg.com/news/newslet...\n\n- 민주당의 주요 주 선거 승리로 텍사스 등 대규모 데이터센터 신규 건설에 대한 규제와 인프라 비용 부담이 강화되고 있음\n\n- 이러한 투자 둔화는 과도했던 AI 투자 속도를 조절하고 부실 프로젝트를 걸",
 "handle": "lunamothryu.bsky.social",
@@ -2616,16 +2660,6 @@
 "url": "https://www.youtube.com/watch?v=xu6SVl1mIfM"
 },
 {
-"text": "둘다사고거지됨",
-"handle": "h2eon.bsky.social",
-"name": "내일까지공부",
-"time": "2026-11-08T04:38:05.474Z",
-"likes": 2,
-"reposts": 0,
-"url": "https://bsky.app/profile/h2eon.bsky.social/post/3mzrlomfj3s24",
-"term": "사고"
-},
-{
 "platform": "YouTube",
 "text": "[두산에너빌리티 주가전망] 🚨속보🚨 AI 데이터센터 19곳 운영가능한 전기 나온다! 원전 2기 전격 허가! 주주분들 필수시청하세요! #두산에너빌리티 #두산에너빌리티주가전망",
 "handle": "UCWu4ftMm0p1lHKNn8gPIAwA",
@@ -2740,13 +2774,13 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.45,
-"붕괴": 0.34,
+"폭발": 0.41,
+"붕괴": 0.51,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.45,
-"사고": 2.1,
+"지하철": 0.51,
+"사고": 2.19,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
