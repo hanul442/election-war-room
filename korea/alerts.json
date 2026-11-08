@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-08T16:42:58.518171+00:00",
+"updated": "2026-11-08T16:45:14.919985+00:00",
 "errors": [],
 "events": [
 {
@@ -2731,7 +2731,7 @@
 "spike": false
 },
 "화재": {
-"n30": 2,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
@@ -2746,7 +2746,7 @@
 "spike": false
 },
 "폭발": {
-"n30": 8,
+"n30": 7,
 "base": 0.1,
 "spike": true
 },
@@ -2802,7 +2802,7 @@
 },
 "산불": {
 "n30": 1,
-"base": 0.6,
+"base": 0.7,
 "spike": false
 }
 },
@@ -3047,17 +3047,17 @@
 "spikes": [
 {
 "term": "폭발",
-"n30": 8,
+"n30": 7,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-08T16:42:58.518171+00:00"
+"since": "2026-11-08T16:45:14.919985+00:00"
 },
 {
 "term": "속보",
 "n30": 7,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-08T16:42:58.518171+00:00"
+"since": "2026-11-08T16:45:14.919985+00:00"
 }
 ],
 "baseline": {
@@ -3070,13 +3070,13 @@
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.1,
-"사고": 1.47,
-"실종": 0.56,
+"지하철": 0.09,
+"사고": 1.42,
+"실종": 0.5,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
-"산불": 0.68
+"산불": 0.71
 },
 "errors": [],
 "ytPosts": [
@@ -3302,7 +3302,7 @@
 "trends": [
 {
 "term": "man utd vs aston villa",
-"traffic": "200+",
+"traffic": "500+",
 "time": "2026-11-08T15:40:00+00:00",
 "news": [
 {
@@ -3391,24 +3391,6 @@
 "new": true
 },
 {
-"term": "palace vs liverpool",
-"traffic": "500+",
-"time": "2026-11-08T14:00:00+00:00",
-"news": [
-{
-"title": "Crystal Palace vs Liverpool: Premier League preview, team news, stats & head-to-head",
-"source": "BBC",
-"link": "https://www.bbc.com/sport/football/live/c6r7ydrm8xlyt"
-},
-{
-"title": "Crystal Palace v Liverpool: Team news",
-"source": "Liverpool FC",
-"link": "https://www.liverpoolfc.com/news/crystal-palace-liverpool-team-news-premier-league"
-}
-],
-"new": true
-},
-{
 "term": "원더독스",
 "traffic": "1000+",
 "time": "2026-11-08T14:00:00+00:00",
@@ -3432,9 +3414,9 @@
 "time": "2026-11-08T13:40:00+00:00",
 "news": [
 {
-"title": "Elche v Betis (08/11/2026)",
-"source": "Flashscore.com",
-"link": "https://www.flashscore.com/match/football/betis-vJbTeCGP/elche-4jl02tPF/h2h/overall/?mid=S88X9hRp"
+"title": "Elche vs Real Betis: Lineups, Prediction, Odds & Bet Builder Tip",
+"source": "WhoScored.com",
+"link": "https://www.whoscored.com/articles/8QuZRsskSEGTgxuE7av-9g/show/cng111-20261108-elche-vs-real-betis-prediction-1794114324"
 },
 {
 "title": "Team A vs Team B Football Match Stats | Player & Team Statistics in Real-Time",
@@ -3479,6 +3461,24 @@
 }
 ],
 "new": false
+},
+{
+"term": "sbs",
+"traffic": "5000+",
+"time": "2026-11-08T13:20:00+00:00",
+"news": [
+{
+"title": "Today's SBS 8 News Preview (November 8)",
+"source": "news.sbs.co.kr",
+"link": "https://news.sbs.co.kr/english/article.do?news_id=N1008836221"
+},
+{
+"title": "Jung Jae-hyun Claims First KPGA Tour Title at Season Finale",
+"source": "조선일보",
+"link": "https://www.chosun.com/english/sports-en/2026/11/09/F4IZRCHNPFA6JMUZU3OP4AIRRM/"
+}
+],
+"new": true
 }
 ],
 "trendSeen": [
