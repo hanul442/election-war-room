@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-08T21:01:44.448886+00:00",
+"updated": "2026-11-08T21:03:59.864212+00:00",
 "errors": [],
 "events": [
 {
@@ -944,7 +944,7 @@
 "spike": false
 },
 "폭발": {
-"n30": 4,
+"n30": 3,
 "base": 0.1,
 "spike": false
 },
@@ -964,7 +964,7 @@
 "spike": false
 },
 "속보": {
-"n30": 6,
+"n30": 5,
 "base": 0.1,
 "spike": true
 },
@@ -1216,14 +1216,14 @@
 "spikes": [
 {
 "term": "속보",
-"n30": 6,
+"n30": 5,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-08T21:01:44.448886+00:00"
+"since": "2026-11-08T21:03:59.864212+00:00"
 }
 ],
 "baseline": {
-"지진": 0.45,
+"지진": 0.41,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
@@ -1454,19 +1454,73 @@
 },
 "trends": [
 {
+"term": "atlético vs barcelona",
+"traffic": "200+",
+"time": "2026-11-08T20:00:00+00:00",
+"news": [
+{
+"title": "Atlético de Madrid - Barcelona en directo, La Liga en vivo | Los rojiblancos y los azulgrana se juegan el liderato",
+"source": "EL PAÍS",
+"link": "https://elpais.com/deportes/futbol/2026-11-08/atletico-de-madrid-barcelona-en-directo-la-liga-en-vivo.html"
+},
+{
+"title": "Atlético-Barça: cuenta atrás para los ONCES en el Metropolitano",
+"source": "Yahoo",
+"link": "https://es-us.noticias.yahoo.com/deportes/atl%C3%A9tico-bar%C3%A7a-atr%C3%A1s-onces-metropolitano-175000227.html"
+}
+],
+"new": true
+},
+{
+"term": "thứ hạng của man utd gặp aston villa",
+"traffic": "200+",
+"time": "2026-11-08T20:00:00+00:00",
+"news": [
+{
+"title": "'Lại là nhục nhã cho Man Utd' Kỳ tích hòa 4-4 nhưng vẫn ở vị trí xuống hạng 18... 'Mất 2 bàn trong 3 phút 42 giây' Kỷ lục buồn nhất lịch sử EPL của câu lạc bộ",
+"source": "스타뉴스",
+"link": "https://www.starnewskorea.com/vi/sports/2026/11/09/2026110904123635758"
+},
+{
+"title": "Man United 0-0 Aston Villa: Bruno Fernandes và Matheus Cunha đá chính",
+"source": "yeuthethao.net.vn",
+"link": "https://yeuthethao.net.vn/man-united-0-0-aston-villa-bruno-fernandes-va-matheus-cunha-da-chinh-d901731.html"
+}
+],
+"new": true
+},
+{
+"term": "현금",
+"traffic": "100+",
+"time": "2026-11-08T19:50:00+00:00",
+"news": [
+{
+"title": "삼성전자 현금 보유액 200조원 돌파... 하루 2700억원씩 늘어",
+"source": "조선일보",
+"link": "https://www.chosun.com/economy/tech_it/2026/11/08/P6W2K5K3DNEO3MEA4O5EJ7PX3U/"
+},
+{
+"title": "“삼성전자에 돈이 이렇게 많았나”...주주에게 풀 돈도 ‘역대급’",
+"source": "에너지경제신문",
+"link": "https://m.ekn.kr/view.php?key=20261108020146772"
+}
+],
+"new": true
+},
+{
 "term": "잠수함",
 "traffic": "1000+",
 "time": "2026-11-08T19:40:00+00:00",
 "news": [
 {
-"title": "“한국 역대 최강 잠수함”…美 매체가 서희함에 주목한 이유 [밀리터리+]",
-"source": "나우뉴스",
-"link": "https://nownews.seoul.co.kr/news/newsView.php?id=20261106601014"
+"title": "캐나다 잠수함 발주 축소에 독 117조 공약 압박…한화 예비 지위 눈길",
+"source": "글로벌이코노믹",
+"link": "https://www.g-enews.com/article/Global-Biz/2026/11/202611080818311806fbbec65dfb_1"
 },
 {
-"title": "그리스 군 수뇌부, 서희함 진수식 참관… 한화오션 현지 협력망에 쏠린 눈",
-"source": "글로벌이코노믹",
-"link": "https://www.g-enews.com/article/Global-Biz/2026/11/202611080856293454fbbec65dfb_1"
+"title": "\"한국 잠수함 제쳐놓더니\"…캐나다, 독일과 계약에 변수",
+"source": "한국경제",
+"link": "https://www.hankyung.com/article/2026110723987"
 }
 ],
 "new": false
@@ -1578,64 +1632,9 @@
 }
 ],
 "new": false
-},
-{
-"term": "sc 프라이부르크 대 우니온 베를린",
-"traffic": "100+",
-"time": "2026-11-08T17:50:00+00:00",
-"news": [
-{
-"title": "Freiburg vs Union Berlin: German Bundesliga stats & head-to-head",
-"source": "BBC",
-"link": "https://www.bbc.com/sport/football/live/cwdd8v7renyqt"
-},
-{
-"title": "Freiburg third after beating Union, Leverkusen beat Cologne in derby",
-"source": "Yahoo",
-"link": "https://uk.sports.yahoo.com/news/garcia-schick-leverkusen-derby-win-163836266.html"
-}
-],
-"new": true
-},
-{
-"term": "빗썸",
-"traffic": "100+",
-"time": "2026-11-08T17:50:00+00:00",
-"news": [
-{
-"title": "[금주의 빗썸 투자자 픽] 임파서블클라우드네트워크 52.19% 상승",
-"source": "경향게임스",
-"link": "https://www.khgames.co.kr/news/articleView.html?idxno=310132"
-},
-{
-"title": "24시간 거래되는 가상자산 맞춰 연중무휴 상담",
-"source": "조선일보",
-"link": "https://www.chosun.com/economy/industry-company/2026/11/09/IZUSQSGMHJAWJLL7GYJRXC5PZE/"
-}
-],
-"new": true
-},
-{
-"term": "베식타시 대 겐칠레르빌리이",
-"traffic": "1000+",
-"time": "2026-11-08T17:30:00+00:00",
-"news": [
-{
-"title": "Beşiktaş vs Gençlerbirliği: Turkish Süper Lig stats & head-to-head",
-"source": "BBC",
-"link": "https://www.bbc.com/sport/football/live/c674pkj0n28wt"
-},
-{
-"title": "Licensable picture: Ahead of Genclerbirligi v Besiktas - Turkish Super Lig",
-"source": "Reuters Connect",
-"link": "https://www.reutersconnect.com/item/ahead-of-genclerbirligi-v-besiktas-turkish-super-lig/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX01UMUFOQURMMDAwRFJWNjZK"
-}
-],
-"new": true
 }
 ],
 "trendSeen": [
-"세종의사당",
 "셀트리온",
 "소형모듈원자로",
 "소형준",
@@ -1923,6 +1922,7 @@
 "허영생",
 "허태정",
 "헤이지니",
+"현금",
 "현대자동차",
 "현대차 주가",
 "현장르포 특종세상",
