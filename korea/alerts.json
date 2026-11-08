@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-08T14:25:47.087636+00:00",
+"updated": "2026-11-08T14:28:03.157133+00:00",
 "errors": [],
 "events": [
 {
@@ -5059,18 +5059,18 @@
 "spike": false
 },
 "정전": {
-"n30": 2,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
 "폭발": {
-"n30": 1,
-"base": 0.1,
+"n30": 2,
+"base": 0.2,
 "spike": false
 },
 "붕괴": {
 "n30": 0,
-"base": 0.7,
+"base": 0.6,
 "spike": false
 },
 "대피": {
@@ -5084,18 +5084,18 @@
 "spike": false
 },
 "속보": {
-"n30": 2,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
 "지하철": {
-"n30": 5,
-"base": 0.6,
-"spike": true
+"n30": 3,
+"base": 0.7,
+"spike": false
 },
 "사고": {
 "n30": 4,
-"base": 1.4,
+"base": 1.6,
 "spike": false
 },
 "실종": {
@@ -5125,6 +5125,16 @@
 }
 },
 "posts": [
+{
+"text": "해리가 장부로 그 변태 팼던 것처럼 우울이 밖으로 폭발해서 폭력이 터지는 타입이라면 쟝은 반대라서\n수사하다가 깡패랑 시비 걸렸는데 반격도 안 하고 그냥 쳐맞고 하는 일이 빈번해졋으면...\n대체 왜 그러냐고 할말은 하고 최소한 자기방어는 해야지 하고 해리가 속터져하고 있으면 쟝은 엉망인 얼굴로 해리 물끄러미 보다가 그러게 하고 돌아가고",
+"handle": "flattenstream.bsky.social",
+"name": "평면",
+"time": "2026-11-08T14:26:17.274Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/flattenstream.bsky.social/post/3mzsmkgikqk2d",
+"term": "폭발"
+},
 {
 "text": "한번씩 관리자가 들여다보겠죠. 지금도 이게 싫어서 ‘유료를 써야 한다’라고 서로 팁으로 공유하는 판국이라서요. 꼴에 대중이 보기 흉한거나 민간에서 눈총 사는 건 잘 아는지 아카라이브에 관련 채널 등이 있는데 구글검색이 됨에도 한국IP로는 직접 접근 못 하게 해놨더라고요. 열심히 음지, 딥웹이라고 믿어의심치 않는듯해서 지켜만 보고 있습니다만.. 뭐 언젠간 알아서 사고치고 폭발해버리겠죠. 심야식",
 "handle": "celuli.bsky.social",
@@ -5411,27 +5421,19 @@
 "url": "https://www.youtube.com/watch?v=bqZrQo1-RM0"
 }
 ],
-"spikes": [
-{
-"term": "지하철",
-"n30": 5,
-"base": 0.6,
-"spike": true,
-"since": "2026-11-08T14:25:47.087636+00:00"
-}
-],
+"spikes": [],
 "baseline": {
-"지진": 0.27,
+"지진": 0.24,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.22,
-"붕괴": 0.64,
+"폭발": 0.4,
+"붕괴": 0.58,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.7,
-"사고": 1.63,
+"지하철": 0.83,
+"사고": 1.87,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -5680,9 +5682,9 @@
 "link": "https://www.bbc.com/sport/football/live/cqkgkwj1rpl8t"
 },
 {
-"title": "Brighton vs Brentford LIVE! Premier League score updates, news, prediction, line-ups and how to watch or stream",
-"source": "Sky Sports",
-"link": "https://www.skysports.com/football/live-blog/13592882/brighton-vs-brentford-live-premier-league-score-updates-news-prediction-line-ups-and-how-to-watch-or-stream"
+"title": "Brentford predicted XI vs Brighton: Bees eye back-to-back wins to gatecrash top four race",
+"source": "Yahoo Sports",
+"link": "https://sports.yahoo.com/articles/brentford-predicted-xi-vs-brighton-000000348.html"
 }
 ],
 "new": true
