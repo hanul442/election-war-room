@@ -1,12 +1,12 @@
 {
-"updated": "2026-11-08T05:42:21.887031+00:00",
+"updated": "2026-11-08T05:44:39.598897+00:00",
 "errors": [],
 "events": [
 {
 "id": "HZU1yR3lBQXZPU1QyY1N0oc50521",
 "first": "2026-11-08T05:21:00+00:00",
 "last": "2026-11-08T05:36:22+00:00",
-"updated": "2026-11-08T05:42:21.887031+00:00",
+"updated": "2026-11-08T05:44:39.598897+00:00",
 "headline": "안세영, 야마구치 꺾고 코리아오픈 우승⋯시즌 11승 달성",
 "cat": "기타",
 "regions": [
@@ -57,6 +57,13 @@
 "source": "뉴시스",
 "link": "https://www.newsis.com/view/NISX20261108_0003859322",
 "time": "2026-11-08T05:22:35+00:00",
+"stage": "후속"
+},
+{
+"title": "배드민턴 '퀸' 안세영, 안방서 2시즌 연속 역대 최다 11승 달성",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261108027500007",
+"time": "2026-11-08T05:23:43+00:00",
 "stage": "후속"
 },
 {
@@ -127,6 +134,7 @@
 "대업",
 "무적",
 "미쳤다",
+"배드민턴",
 "사상",
 "셔틀콕",
 "승률",
@@ -150,8 +158,7 @@
 "최다승",
 "코리아오픈",
 "코리안오픈",
-"타이",
-"탈환"
+"타이"
 ]
 },
 {
@@ -2930,7 +2937,7 @@
 "sns": {
 "terms": {
 "지진": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -2955,8 +2962,8 @@
 "spike": false
 },
 "붕괴": {
-"n30": 2,
-"base": 1.2,
+"n30": 0,
+"base": 1.0,
 "spike": false
 },
 "대피": {
@@ -2976,12 +2983,12 @@
 },
 "지하철": {
 "n30": 4,
-"base": 0.8,
+"base": 0.9,
 "spike": false
 },
 "사고": {
 "n30": 7,
-"base": 5.2,
+"base": 5.4,
 "spike": false
 },
 "실종": {
@@ -3303,13 +3310,13 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.1,
-"붕괴": 1.04,
+"폭발": 0.09,
+"붕괴": 0.94,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.88,
-"사고": 5.42,
+"지하철": 0.99,
+"사고": 5.58,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -3548,6 +3555,60 @@
 },
 "trends": [
 {
+"term": "경호원",
+"traffic": "1000+",
+"time": "2026-11-08T04:40:00+00:00",
+"news": [
+{
+"title": "몰려드는 인파 '통제불가'…남대문 스카프 아저씨, 경호원까지 고용 [지금이뉴스]",
+"source": "YTN",
+"link": "https://www.ytn.co.kr/_ln/0545_202611061650015146"
+},
+{
+"title": "\"사지 마\" 말리는데도 산다…요즘 SNS 뒤집어놓은 '이 가게' [권용훈의 트렌드워치]",
+"source": "한국경제",
+"link": "https://www.hankyung.com/article/202611069848i"
+}
+],
+"new": true
+},
+{
+"term": "kt vs samsung",
+"traffic": "100+",
+"time": "2026-11-08T04:40:00+00:00",
+"news": [
+{
+"title": "[Photo] Díaz smiles, clinches championship",
+"source": "Chosunbiz",
+"link": "https://biz.chosun.com/en/en-photo-spo/2026/11/08/N3CLKN2R4FGARKRTDVTBMC2Y5U/"
+},
+{
+"title": "Samsung activates strongest lineup to clinch Korean Series title",
+"source": "Chosunbiz",
+"link": "https://biz.chosun.com/en/en-sports/2026/11/08/3RWLBHPK7VEG7HSPNWLWB46F6Q/"
+}
+],
+"new": true
+},
+{
+"term": "다이소",
+"traffic": "2000+",
+"time": "2026-11-08T04:30:00+00:00",
+"news": [
+{
+"title": "‘2000원인데 없어서 못사요’···다이소 매대 싹 털린 대란탬은 무엇?",
+"source": "주간경향",
+"link": "https://weekly.khan.co.kr/article/202611080858001"
+},
+{
+"title": "오로지 목적은 치이카와…‘토벌대’의 일본행 [해시태그]",
+"source": "이투데이",
+"link": "https://www.etoday.co.kr/news/view/2645187"
+}
+],
+"new": true
+},
+{
 "term": "과태료",
 "traffic": "1000+",
 "time": "2026-11-08T04:20:00+00:00",
@@ -3661,60 +3722,6 @@
 }
 ],
 "new": true
-},
-{
-"term": "tesla",
-"traffic": "200+",
-"time": "2026-11-08T04:00:00+00:00",
-"news": [
-{
-"title": "Tesla to Discontinue Production of Electric Pickup Cybertruck",
-"source": "SBS 뉴스",
-"link": "https://news.sbs.co.kr/english/article.do?news_id=N1008835448"
-},
-{
-"title": "Tesla Phases Out Cybertruck Production for Cybercab Expansion",
-"source": "조선일보",
-"link": "https://www.chosun.com/english/industry-en/2026/11/08/RK5VZHVKB5FCPADCTHTZMC6UAQ/"
-}
-],
-"new": true
-},
-{
-"term": "상속세",
-"traffic": "5000+",
-"time": "2026-11-08T03:40:00+00:00",
-"news": [
-{
-"title": "상속세 0원이라던 국세청, 또 세무조사해 “12억 내라”…법원 판결은[세금GO]",
-"source": "이데일리",
-"link": "https://www.edaily.co.kr/News/Read?newsId=01128326645643752&mediaCodeNo=257"
-},
-{
-"title": "장기 투자자가 오래 머무는 증시가 답이다",
-"source": "한국경제",
-"link": "https://www.hankyung.com/article/202611059392i"
-}
-],
-"new": false
-},
-{
-"term": "지수",
-"traffic": "2000+",
-"time": "2026-11-08T03:40:00+00:00",
-"news": [
-{
-"title": "블핑 지수, 맵부심 어느 정도길래..셰프들 시식 포기 \"가장 매운 단계 떡볶이·돈가스 먹어\"(냉부해)",
-"source": "OSEN",
-"link": "https://www.osen.co.kr/article/G1112906244"
-},
-{
-"title": "블랙핑크 지수+에이티즈 산X우영, 첫 만남 공개 (냉부)",
-"source": "스포츠경향",
-"link": "https://sports.khan.co.kr/article/202611080932023"
-}
-],
-"new": false
 }
 ],
 "trendSeen": [
