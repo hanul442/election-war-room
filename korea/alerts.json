@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-08T12:45:15.490918+00:00",
+"updated": "2026-11-08T12:47:32.371482+00:00",
 "errors": [],
 "events": [
 {
@@ -5321,78 +5321,6 @@
 "울진평지",
 "해제"
 ]
-},
-{
-"id": "RLclJQTExiZkZmMU0ydkUoc50339",
-"first": "2026-11-08T03:39:17+00:00",
-"last": "2026-11-08T06:45:53+00:00",
-"updated": "2026-11-08T06:49:05.971001+00:00",
-"headline": "검찰총장 인선 절차 연기... 후보 추천위 이달 중 개최 예정",
-"cat": "사회",
-"regions": [],
-"sources": [
-"SBS",
-"국제신문",
-"문화일보",
-"연합뉴스"
-],
-"updates": [
-{
-"title": "검찰총장 인선 절차 미뤄져…후보추천위 내주 개최 불발",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261108022400004",
-"time": "2026-11-08T02:34:23+00:00",
-"stage": "후속"
-},
-{
-"title": "[속보] 검찰총장 인선 절차 연기... 후보 추천위 이달 중 개최 예정",
-"source": "국제신문",
-"link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNRTdhdEo0RFlmekZ2VjJBaHBvc1F6cnM0ZnV5UGdGQjJpNEZfUUZSVnJaX21McS1wdG9mOEQ4bDlIWEp2TnV1XzczaEVEdEM5SjhUX25QdHRiVnFsR3JsbVlabWR6YzBncWdYUWJ4VlVBa25MSkh6TEpxVjB3R25MaG54WWRLclJQTExiZkZmMU0ydkU?oc=5",
-"time": "2026-11-08T03:39:17+00:00",
-"stage": "얼럿"
-},
-{
-"title": "[속보] 검찰총장 인선 절차 연기... 후보 추천위 이달 중 개최 예정",
-"source": "국제신문",
-"link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQQXhuUkZySExQU3BrMkNfWDJjdmFQS01OUE1uTl9YbGtaSm5TamhSMFhEcVk5dHNyeXVjbTZLaHk4UjAzZy1KQ0RqSmVsVWV2RFZGQUZtellodnp4Rl9rS25tRlhSVXdCQVhsX1FlTUxmaXZ1eWMxTGhMVkdLMWFKV09UcUNDZktWNlJ3Sktn?oc=5",
-"time": "2026-11-08T03:43:00+00:00",
-"stage": "속보"
-},
-{
-"title": "검찰총장 인선 절차 미뤄져…후보추천위 다음 주 개최 불발",
-"source": "SBS",
-"link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008835909&plink=RSSLINK&cooper=RSSREADER",
-"time": "2026-11-08T04:57:15+00:00",
-"stage": "후속"
-},
-{
-"title": "[속보]李 정부 첫 검찰총장 인선 연기…1년 4개월째 공석",
-"source": "문화일보",
-"link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5vWnc4Q3ZMRVA1VnI1YS0tMjljRkR2Z2ZEWHBpYWFTY1FzQ2s0VGJMZVBQTnFYMWhyaXFkYjdCcGhidzdMVVd1dWlJVERrcmZq?oc=5",
-"time": "2026-11-08T06:45:53+00:00",
-"stage": "속보"
-}
-],
-"level": "URGENT",
-"latest": "李 정부 첫 검찰총장 인선 연기…1년 4개월째 공석",
-"tok": [
-"1년",
-"4개월째",
-"개최",
-"검찰총장",
-"공석",
-"내주",
-"다음",
-"미뤄져",
-"불발",
-"연기",
-"이달",
-"인선",
-"절차",
-"추천위",
-"후보",
-"후보추천위"
-]
 }
 ],
 "sns": {
@@ -5418,12 +5346,12 @@
 "spike": false
 },
 "폭발": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
 "붕괴": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -5444,12 +5372,12 @@
 },
 "지하철": {
 "n30": 2,
-"base": 0.9,
+"base": 1.0,
 "spike": false
 },
 "사고": {
 "n30": 4,
-"base": 1.6,
+"base": 1.8,
 "spike": false
 },
 "실종": {
@@ -5759,17 +5687,17 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 0.45,
-"화재": 0.43,
+"지진": 0.41,
+"화재": 0.49,
 "불났": 0.05,
 "정전": 0.05,
 "폭발": 0.05,
-"붕괴": 0.13,
+"붕괴": 0.12,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.99,
-"사고": 1.84,
+"지하철": 1.09,
+"사고": 2.06,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -6092,14 +6020,14 @@
 "time": "2026-11-08T09:00:00+00:00",
 "news": [
 {
+"title": "서울대 강단 선 최태원…“AI시대 복합 위기, ‘4대 해법’으로 뚫자”",
+"source": "서울경제",
+"link": "https://www.sedaily.com/article/20110913"
+},
+{
 "title": "맏형 최태원의 28년 궤적… SK 행복 씨앗으로 ‘국가 AI’ 설계",
 "source": "아시아투데이",
 "link": "https://www.asiatoday.co.kr/kn/view.php?key=20261109010002998"
-},
-{
-"title": "최태원 “돈이 너무 많이 풀려...롤러코스피 이어질 것”",
-"source": "매일경제",
-"link": "https://www.mk.co.kr/news/business/12200335"
 }
 ],
 "new": false
