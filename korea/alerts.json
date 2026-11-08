@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-08T01:33:30.963194+00:00",
+"updated": "2026-11-08T01:35:47.398936+00:00",
 "errors": [],
 "events": [
 {
@@ -1212,13 +1212,13 @@
 "spike": false
 },
 "폭발": {
-"n30": 6,
+"n30": 5,
 "base": 0.1,
 "spike": true
 },
 "붕괴": {
 "n30": 1,
-"base": 0.7,
+"base": 0.6,
 "spike": false
 },
 "대피": {
@@ -1227,7 +1227,7 @@
 "spike": false
 },
 "미사일": {
-"n30": 1,
+"n30": 0,
 "base": 0.7,
 "spike": false
 },
@@ -1243,7 +1243,7 @@
 },
 "사고": {
 "n30": 0,
-"base": 1.2,
+"base": 1.1,
 "spike": false
 },
 "실종": {
@@ -1503,10 +1503,10 @@
 "spikes": [
 {
 "term": "폭발",
-"n30": 6,
+"n30": 5,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-08T01:33:30.963194+00:00"
+"since": "2026-11-08T01:35:47.398936+00:00"
 }
 ],
 "baseline": {
@@ -1515,12 +1515,12 @@
 "불났": 0.05,
 "정전": 0.05,
 "폭발": 0.05,
-"붕괴": 0.59,
+"붕괴": 0.53,
 "대피": 0.05,
-"미사일": 0.67,
+"미사일": 0.6,
 "속보": 0.05,
-"지하철": 0.51,
-"사고": 1.11,
+"지하철": 0.56,
+"사고": 1.0,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -1783,22 +1783,22 @@
 "link": "https://www.yna.co.kr/view/AKR20261107052851099"
 }
 ],
-"new": true
+"new": false
 },
 {
 "term": "메이저 리그 베이스볼",
-"traffic": "100+",
+"traffic": "200+",
 "time": "2026-11-08T00:20:00+00:00",
 "news": [
 {
-"title": "'WBC 한국전 세이브' 대만 투수 쩡쥔웨, MLB 진출 도전",
-"source": "뉴스1",
-"link": "https://www.news1.kr/sports/overseas-baseball/6346604"
+"title": "\"날 떠나지마\" 최대 4억불 초대어 투수 잔류 원하는 다저스, 스넬까지 나섰다…결말은",
+"source": "조선일보",
+"link": "https://www.chosun.com/sports/world-baseball/2026/11/06/MY2TQMJQGUZDQOBYMNQTSYZRMU/"
 },
 {
-"title": "WBC서 한국 울린 대만 마무리, 이제는 MLB 도전장…포스팅 절차 돌입",
-"source": "일간스포츠",
-"link": "https://isplus.com/article/view/isp202611080032"
+"title": "[오늘의 MLB] (11/5) 2026-27 메이저리그 FA 랭킹 TOP 20",
+"source": "네이버 프리미엄콘텐츠",
+"link": "https://contents.premium.naver.com/mlbtoday/mlb/contents/261106173425396jg"
 }
 ],
 "new": false
@@ -1858,6 +1858,24 @@
 "new": true
 },
 {
+"term": "도루묵",
+"traffic": "100+",
+"time": "2026-11-07T23:40:00+00:00",
+"news": [
+{
+"title": "\"돌아온 겨울 별미\" 도루묵 등 동해안 특산어종 어획 '급증'",
+"source": "매일경제 마켓",
+"link": "https://stock.mk.co.kr/news/view/1193088"
+},
+{
+"title": "가을 햇볕 아래 양미리",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/PYH20261106054500062"
+}
+],
+"new": true
+},
+{
 "term": "솔트레이크 대 la 갤럭시",
 "traffic": "5000+",
 "time": "2026-11-07T23:30:00+00:00",
@@ -1898,24 +1916,6 @@
 "traffic": "500+",
 "time": "2026-11-07T23:20:00+00:00",
 "news": [],
-"new": false
-},
-{
-"term": "시애틀 사운더스 대 엘에이 fc",
-"traffic": "20000+",
-"time": "2026-11-07T23:10:00+00:00",
-"news": [
-{
-"title": "시애틀 사운더스 vs 로스앤젤레스 FC 예측: 우승 경쟁의 뜨거운 대결",
-"source": "Vietnam.vn",
-"link": "https://www.vietnam.vn/ko/nhan-dinh-seattle-sounders-vs-los-angeles-fc-diem-nong-cuoc-dua-top-dau"
-},
-{
-"title": "[오피셜]'최종 결정의 날' LA FC 손흥민 선발 낙점, 시애틀 원정 리그 8호골 도전",
-"source": "조선일보",
-"link": "https://www.chosun.com/sports/world-football/2026/11/08/GUZDGNBXHE2WGODEMU3TANRZGU/"
-}
-],
 "new": false
 }
 ],
