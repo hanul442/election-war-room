@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-08T06:26:11.254501+00:00",
+"updated": "2026-11-08T06:28:28.223222+00:00",
 "errors": [],
 "events": [
 {
@@ -238,6 +238,42 @@
 "정상",
 "제패",
 "채우고"
+]
+},
+{
+"id": "neEZNVG16bUtMaTlFVHVpoc50617",
+"first": "2026-11-08T06:17:56+00:00",
+"last": "2026-11-08T06:17:56+00:00",
+"updated": "2026-11-08T06:28:28.223222+00:00",
+"headline": "30만 명도 무너진 초등 입학생…저출생 파고 넘는 이색 만남 `나는 절로`",
+"cat": "기타",
+"regions": [],
+"sources": [
+"부산일보"
+],
+"updates": [
+{
+"title": "[속보] 30만 명도 무너진 초등 입학생…저출생 파고 넘는 이색 만남 `나는 절로`",
+"source": "부산일보",
+"link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBGbURTaGdQelNOZEw1elpmN0lmX2Y2bnRiQWtrc1J6QXUwVFBmZGlRRUwteHk2VXJ5VTZjeE1fQXFlZkExZFRqbnVMYzhZcmQ5QkhmdjBtQl9ySXVuMUt4ZUcwNGNneEZNVG16bUtMaTlFVHVp?oc=5",
+"time": "2026-11-08T06:17:56+00:00",
+"stage": "얼럿"
+}
+],
+"level": "URGENT",
+"latest": "30만 명도 무너진 초등 입학생…저출생 파고 넘는 이색 만남 `나는 절로`",
+"tok": [
+"나는",
+"넘는",
+"만남",
+"명도",
+"무너진",
+"이색",
+"입학생",
+"저출생",
+"절로",
+"초등",
+"파고"
 ]
 },
 {
@@ -3002,48 +3038,13 @@
 "멈췄다",
 "지진"
 ]
-},
-{
-"id": "wNISX20261107_00038588720107",
-"first": "2026-11-08T01:07:05+00:00",
-"last": "2026-11-08T01:07:05+00:00",
-"updated": "2026-11-08T01:09:19.876191+00:00",
-"headline": "\"산불 30분 이내 초동대응\" 전남광주 대책본부 구성",
-"cat": "재난",
-"regions": [
-"광주",
-"전남"
-],
-"sources": [
-"뉴시스"
-],
-"updates": [
-{
-"title": "\"산불 30분 이내 초동대응\" 전남광주 대책본부 구성",
-"source": "뉴시스",
-"link": "https://www.newsis.com/view/NISX20261107_0003858872",
-"time": "2026-11-08T01:07:05+00:00",
-"stage": "1보"
-}
-],
-"level": "ALERT",
-"latest": "\"산불 30분 이내 초동대응\" 전남광주 대책본부 구성",
-"tok": [
-"30분",
-"구성",
-"대책본부",
-"산불",
-"이내",
-"전남광주",
-"초동대응"
-]
 }
 ],
 "sns": {
 "terms": {
 "지진": {
 "n30": 1,
-"base": 0.6,
+"base": 0.7,
 "spike": false
 },
 "화재": {
@@ -3062,13 +3063,13 @@
 "spike": false
 },
 "폭발": {
-"n30": 10,
+"n30": 7,
 "base": 0.8,
 "spike": true
 },
 "붕괴": {
-"n30": 4,
-"base": 0.2,
+"n30": 3,
+"base": 0.1,
 "spike": false
 },
 "대피": {
@@ -3088,7 +3089,7 @@
 },
 "지하철": {
 "n30": 1,
-"base": 0.7,
+"base": 0.6,
 "spike": false
 },
 "사고": {
@@ -3138,7 +3139,7 @@
 "handle": "deathofharibo.bsky.social",
 "name": "진짜로 줫나게 미친듯이 슬픈 햄시장",
 "time": "2026-11-08T06:23:39.076Z",
-"likes": 0,
+"likes": 1,
 "reposts": 0,
 "url": "https://bsky.app/profile/deathofharibo.bsky.social/post/3mzrrlh4des2w",
 "term": "사고"
@@ -3392,31 +3393,31 @@
 "spikes": [
 {
 "term": "폭발",
-"n30": 10,
+"n30": 7,
 "base": 0.8,
 "spike": true,
-"since": "2026-11-08T06:26:11.254501+00:00"
+"since": "2026-11-08T06:28:28.223222+00:00"
 },
 {
 "term": "속보",
 "n30": 7,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-08T06:26:11.254501+00:00"
+"since": "2026-11-08T06:28:28.223222+00:00"
 }
 ],
 "baseline": {
-"지진": 0.68,
+"지진": 0.71,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.8,
-"붕괴": 0.14,
+"폭발": 0.82,
+"붕괴": 0.13,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.63,
-"사고": 1.9,
+"지하철": 0.57,
+"사고": 1.91,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -3788,8 +3789,8 @@
 },
 {
 "title": "‘대구에서 끝날까’ 삼성-KT KS 5차전 2만3550명 만원관중…PS 51G·KS 26G 연속 매진 [KS5]",
-"source": "OSEN",
-"link": "https://www.osen.co.kr/article/G1112906353"
+"source": "조선일보",
+"link": "https://www.chosun.com/sports/baseball/2026/11/08/GNSDOYLGGZSDGNDBGAZGENTEGY/"
 }
 ],
 "new": false
