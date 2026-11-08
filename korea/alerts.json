@@ -1,12 +1,12 @@
 {
-"updated": "2026-11-08T08:56:54.163120+00:00",
+"updated": "2026-11-08T08:59:09.569349+00:00",
 "errors": [],
 "events": [
 {
 "id": "wNISX20261108_00038593420802",
 "first": "2026-11-08T08:02:51+00:00",
 "last": "2026-11-08T08:52:00+00:00",
-"updated": "2026-11-08T08:56:54.163120+00:00",
+"updated": "2026-11-08T08:59:09.569349+00:00",
 "headline": "삼성, KS 5차전서 KT 12-1 완파…통산 9번째 우승",
 "cat": "경제",
 "regions": [
@@ -224,6 +224,13 @@
 "stage": "후속"
 },
 {
+"title": "[사진]이정효 감독,'선제골 주먹 불끈'",
+"source": "조선일보",
+"link": "https://www.chosun.com/sports/sports_photo/2026/11/08/GI3GCYJXGAZGMZJRMZSDQNDFGY/",
+"time": "2026-11-08T08:32:00+00:00",
+"stage": "후속"
+},
+{
 "title": "[사진]르본,'무시무시한 드리블'",
 "source": "조선일보",
 "link": "https://www.chosun.com/sports/sports_photo/2026/11/08/GZRGMYTCGA3DIMRQGRSGMMBWMI/",
@@ -322,6 +329,27 @@
 "stage": "후속"
 },
 {
+"title": "[사진]선수들에게 하트를 그리는 박진만 감독",
+"source": "조선일보",
+"link": "https://www.chosun.com/sports/sports_photo/2026/11/08/MFSGCNJXMEYGGMBXGBSGMNLGGU/",
+"time": "2026-11-08T08:45:00+00:00",
+"stage": "후속"
+},
+{
+"title": "[사진]우승 감독 박진만,격한 샴페인 축하",
+"source": "조선일보",
+"link": "https://www.chosun.com/sports/sports_photo/2026/11/08/GUYTCZJRGE2DEMJTGBQWCNDEGE/",
+"time": "2026-11-08T08:46:00+00:00",
+"stage": "후속"
+},
+{
+"title": "'2006 KS MVP' 유격수 박진만, 20년 후엔 KS 우승 사령탑으로[삼성 KS 우승]",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261108_0003859388",
+"time": "2026-11-08T08:46:39+00:00",
+"stage": "후속"
+},
+{
 "title": "[사진]한국시리즈 우승을 기뻐하는 구자욱과 원태인",
 "source": "조선일보",
 "link": "https://www.chosun.com/sports/sports_photo/2026/11/08/GUZTCYTGGIYTKYTDGM4WIZLGGY/",
@@ -362,6 +390,7 @@
 "tok": [
 "12년",
 "1로",
+"20년",
 "5차전서",
 "9번째",
 "KS",
@@ -373,7 +402,9 @@
 "감격",
 "감독",
 "강민호",
+"격한",
 "구자욱",
+"그리",
 "기뻐하",
 "꺾고",
 "나누",
@@ -393,13 +424,10 @@
 "박진",
 "반지",
 "받는",
+"불끈",
 "빚은",
-"사진",
-"삼성",
-"샴페인",
-"선수들",
-"선제골",
-"성치"
+"사령탑으",
+"사진"
 ]
 },
 {
@@ -4300,11 +4328,11 @@
 },
 "폭발": {
 "n30": 5,
-"base": 0.6,
+"base": 0.7,
 "spike": true
 },
 "붕괴": {
-"n30": 3,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
@@ -4319,9 +4347,9 @@
 "spike": false
 },
 "속보": {
-"n30": 4,
+"n30": 5,
 "base": 0.1,
-"spike": false
+"spike": true
 },
 "지하철": {
 "n30": 2,
@@ -4335,7 +4363,7 @@
 },
 "실종": {
 "n30": 0,
-"base": 0.2,
+"base": 0.1,
 "spike": false
 },
 "단수": {
@@ -4360,6 +4388,16 @@
 }
 },
 "posts": [
+{
+"text": "속보 : 김광철, 임보중인 집에서 할배냥이 사료를 훔쳐먹어",
+"handle": "narakim.bsky.social",
+"name": "Nara🌾🍚",
+"time": "2026-11-08T08:57:32.079Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/narakim.bsky.social/post/3mzs26cd3bk2y",
+"term": "속보"
+},
 {
 "text": "그래도 사고처리 몇번 해봤다고 이번에 아주 침착하게 대처했다. 예전에 일할 때 달리다가 대각선 뒤쪽에서 택시한테 받혀서 경찰서까지 갔었는데, 그때에 비하면 이번엔 아주 경미한 사고지. 그치만 안겪어도 될 일인데 ㅠㅠ",
 "handle": "torykkw.bsky.social",
@@ -4634,9 +4672,16 @@
 {
 "term": "폭발",
 "n30": 5,
-"base": 0.6,
+"base": 0.7,
 "spike": true,
-"since": "2026-11-08T08:56:54.163120+00:00"
+"since": "2026-11-08T08:59:09.569349+00:00"
+},
+{
+"term": "속보",
+"n30": 5,
+"base": 0.1,
+"spike": true,
+"since": "2026-11-08T08:59:09.569349+00:00"
 }
 ],
 "baseline": {
@@ -4644,14 +4689,14 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.66,
+"폭발": 0.69,
 "붕괴": 0.05,
 "대피": 0.05,
-"미사일": 0.6,
-"속보": 0.05,
-"지하철": 1.73,
-"사고": 3.53,
-"실종": 0.14,
+"미사일": 0.64,
+"속보": 0.15,
+"지하철": 1.76,
+"사고": 3.58,
+"실종": 0.13,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -5007,9 +5052,9 @@
 "link": "https://news.kbs.co.kr/news/view.do?ncd=8705274"
 },
 {
-"title": "[EASL] 72-66으로 쫓겼던 KCC? 게임을 터뜨린 루이스 킹!",
-"source": "바스켓코리아",
-"link": "https://m.basketkorea.com/news/newsview.php?ncode=1065614072983284"
+"title": "프로농구 KCC, EASL서 마카오 108-94 격파…2연승 질주",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261105_0003857016"
 }
 ],
 "new": false
