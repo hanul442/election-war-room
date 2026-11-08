@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-08T00:30:53.836936+00:00",
+"updated": "2026-11-08T00:33:39.028641+00:00",
 "errors": [],
 "events": [
 {
@@ -816,7 +816,7 @@
 "terms": {
 "지진": {
 "n30": 0,
-"base": 0.3,
+"base": 0.2,
 "spike": false
 },
 "화재": {
@@ -835,9 +835,9 @@
 "spike": false
 },
 "폭발": {
-"n30": 5,
+"n30": 4,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "붕괴": {
 "n30": 0,
@@ -865,7 +865,7 @@
 "spike": false
 },
 "사고": {
-"n30": 1,
+"n30": 2,
 "base": 1.9,
 "spike": false
 },
@@ -896,6 +896,16 @@
 }
 },
 "posts": [
+{
+"text": "교통사고 후 현장 사진 싹 지웠다가 과실 비율 잡을 때 낭패 본다.\n사고 당시 신호, 차량 방향, 차로...\n\n#자동차보험 #다이렉트",
+"handle": "oduk83.bsky.social",
+"name": "오덕83",
+"time": "2026-11-08T00:32:25.182Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/oduk83.bsky.social/post/3mzr5xev2pb2q",
+"term": "사고"
+},
 {
 "platform": "YouTube",
 "text": "과즙폭발망고ASMR",
@@ -1114,17 +1124,9 @@
 "url": "https://www.youtube.com/watch?v=0B-MRFouewI"
 }
 ],
-"spikes": [
-{
-"term": "폭발",
-"n30": 5,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-08T00:30:53.836936+00:00"
-}
-],
+"spikes": [],
 "baseline": {
-"지진": 0.23,
+"지진": 0.21,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
@@ -1134,7 +1136,7 @@
 "미사일": 0.05,
 "속보": 0.05,
 "지하철": 0.05,
-"사고": 1.85,
+"사고": 1.86,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -1355,6 +1357,42 @@
 },
 "trends": [
 {
+"term": "솔트레이크 대 la 갤럭시",
+"traffic": "2000+",
+"time": "2026-11-07T23:30:00+00:00",
+"news": [
+{
+"title": "How the LA Galaxy can clinch a spot in the Audi 2026 MLS Cup Playoffs",
+"source": "LA Galaxy",
+"link": "https://www.lagalaxy.com/news/how-the-la-galaxy-can-clinch-a-spot-in-the-audi-2026-mls-cup-playoffs"
+},
+{
+"title": "RSL Hosts Must-Win Matchup Against Storied Rival LA Galaxy Saturday in Sandy",
+"source": "Real Salt Lake",
+"link": "https://www.rsl.com/news/rsl-hosts-must-win-matchup-against-storied-rival-la-galaxy-saturday-in-sandy"
+}
+],
+"new": true
+},
+{
+"term": "상호저축은행",
+"traffic": "100+",
+"time": "2026-11-07T23:30:00+00:00",
+"news": [
+{
+"title": "'1000억 족쇄' 못 푼 저축은행… 자산관리회사 설립 해 넘긴다 - 머니투데이",
+"source": "머니투데이",
+"link": "https://www.mt.co.kr/finance/2026/11/08/2026110614230969126"
+},
+{
+"title": "[기획] 신협, 자산관리회사 설립 본격화… 부실자산 관리 전문성 강화:시사앤피플",
+"source": "시사앤피플",
+"link": "https://www.sisanpeople.com/17200"
+}
+],
+"new": true
+},
+{
 "term": "코스피 11% 급락 원인과 정부의 반대매매 완화 조치 내용 알려줘",
 "traffic": "500+",
 "time": "2026-11-07T23:20:00+00:00",
@@ -1475,47 +1513,9 @@
 }
 ],
 "new": false
-},
-{
-"term": "아는 형님",
-"traffic": "200+",
-"time": "2026-11-07T22:50:00+00:00",
-"news": [
-{
-"title": "김현철, 유재석에 축의금 환불 요구?...\"혜택이 없다\" - 머니투데이",
-"source": "머니투데이",
-"link": "https://www.mt.co.kr/entertainment/2026/11/07/2026110722173962019"
-},
-{
-"title": "김현철 \"유재석 결혼 축의금 50만원…환불해줬으면 해\"",
-"source": "뉴시스",
-"link": "https://www.newsis.com/view/NISX20261107_0003859066"
-}
-],
-"new": false
-},
-{
-"term": "valencia cf vs real madrid standings",
-"traffic": "1000+",
-"time": "2026-11-07T22:40:00+00:00",
-"news": [
-{
-"title": "Real Madrid beat Valencia to move level on points with leaders Barcelona",
-"source": "BBC",
-"link": "https://www.bbc.com/sport/football/live/c9y7l4p8v268t"
-},
-{
-"title": "Guler pounces on rebound to double Real Madrid's lead at Mestalla",
-"source": "BeSoccer Livescore",
-"link": "https://www.besoccer.com/new/guler-pounces-on-rebound-to-double-real-madrids-lead-at-mestalla-1439944"
-}
-],
-"new": true
 }
 ],
 "trendSeen": [
-"매일경제",
-"매일경제신문",
 "매일노동뉴스",
 "맥도날드",
 "맨시티",
@@ -1565,6 +1565,7 @@
 "삼전주가",
 "상장지수 펀드",
 "상장지수펀드",
+"상호저축은행",
 "샌디스크 주가",
 "서영교",
 "서정진",
@@ -1577,6 +1578,7 @@
 "셀트리온",
 "소형모듈원자로",
 "소형준",
+"솔트레이크 대 la 갤럭시",
 "송미령",
 "송해",
 "쇼메이커",
