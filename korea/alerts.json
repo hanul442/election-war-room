@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-08T15:23:27.971304+00:00",
+"updated": "2026-11-08T15:25:49.560252+00:00",
 "errors": [],
 "events": [
 {
@@ -4849,7 +4849,7 @@
 },
 "폭발": {
 "n30": 7,
-"base": 0.7,
+"base": 0.6,
 "spike": true
 },
 "붕괴": {
@@ -4874,12 +4874,12 @@
 },
 "지하철": {
 "n30": 3,
-"base": 0.4,
+"base": 0.3,
 "spike": false
 },
 "사고": {
-"n30": 3,
-"base": 5.7,
+"n30": 2,
+"base": 5.5,
 "spike": false
 },
 "실종": {
@@ -5144,32 +5144,22 @@
 "reposts": 0,
 "url": "https://bsky.app/profile/darce.bsky.social/post/3mzsocfw5os2x",
 "term": "사고"
-},
-{
-"text": "발전기 다 돌아간 다음 제프가 한쪽 문 열다가 살인마한테 걸리고 얼마 못 도망친 뒤 지하에 걸렸는데\n라라가 구하러가는 것 같길래 열던 문 마저 열어주려했더니\n바로 제프가 죽은 그 루트 똑같이 밟아서 지하실 옆 갈고리에 나란히 걸림(...) 제프야 그랬구나...  \n다행히 라라가 바로 구해줬고(ㅠㅠ) 다른 문으로 같이 가던 중 치료하기 핑 띄우길래 안전하게 힐 잘 받은 뒤 탈출 \n사고쳤지만 의",
-"handle": "ggsub88.bsky.social",
-"name": "꽃시",
-"time": "2026-11-08T14:56:40.689Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/ggsub88.bsky.social/post/3mzso73ewxk2j",
-"term": "사고"
 }
 ],
 "spikes": [
 {
 "term": "폭발",
 "n30": 7,
-"base": 0.7,
+"base": 0.6,
 "spike": true,
-"since": "2026-11-08T15:23:27.971304+00:00"
+"since": "2026-11-08T15:25:49.560252+00:00"
 },
 {
 "term": "속보",
 "n30": 6,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-08T15:23:27.971304+00:00"
+"since": "2026-11-08T15:25:49.560252+00:00"
 }
 ],
 "baseline": {
@@ -5177,13 +5167,13 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.64,
+"폭발": 0.58,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.33,
-"사고": 5.45,
+"지하철": 0.3,
+"사고": 5.11,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -5423,9 +5413,9 @@
 "link": "https://www.thairath.co.th/sport/eurofootball/premierleague/2969258"
 },
 {
-"title": "การทำนายผลการแข่งขันรอบที่ 10 โดยคอมพิวเตอร์: การล่าแต้มของลิเวอร์พูล แมนเชสเตอร์ ยูไนเต็ด และเชลซี",
+"title": "ตารางการแข่งขันฟุตบอลวันนี้ 8 พฤศจิกายน 2026",
 "source": "Vietnam.vn",
-"link": "https://www.vietnam.vn/th/may-tinh-du-doan-vong-10-cuoc-san-diem-so-cua-liverpool-man-united-va-chelsea"
+"link": "https://www.vietnam.vn/th/lich-thi-dau-bong-da-hom-nay-8-11-2026"
 }
 ],
 "new": true
@@ -5503,24 +5493,6 @@
 "new": true
 },
 {
-"term": "와이스",
-"traffic": "100+",
-"time": "2026-11-08T13:30:00+00:00",
-"news": [
-{
-"title": "[단독] '대전 예수' 와이스, 한화 복귀 무산될 듯…미국 잔류 결정, MLB 구단과 계약 임박",
-"source": "더게이트",
-"link": "http://www.spochoo.com/news/articleView.html?idxno=131892"
-},
-{
-"title": "자유계약 풀린 와이스는 어디로? 시카고 컵스, 신시내티행 예측도...한화 복귀 가능성은?",
-"source": "JTBC",
-"link": "https://news.jtbc.co.kr/video/NB12326053"
-}
-],
-"new": false
-},
-{
 "term": "인도네시아",
 "traffic": "200+",
 "time": "2026-11-08T13:30:00+00:00",
@@ -5534,6 +5506,24 @@
 "title": "KSAD, 중부 칼리만탄에서 헬리콥터 추돌 사고로 사망한 TNI 요원의 장례식을 주도하다",
 "source": "VOI.ID",
 "link": "https://voi.id/kr/berita/601640"
+}
+],
+"new": false
+},
+{
+"term": "와이스",
+"traffic": "100+",
+"time": "2026-11-08T13:30:00+00:00",
+"news": [
+{
+"title": "[단독] '대전 예수' 와이스, 한화 복귀 무산될 듯…미국 잔류 결정, MLB 구단과 계약 임박",
+"source": "더게이트",
+"link": "http://www.spochoo.com/news/articleView.html?idxno=131892"
+},
+{
+"title": "자유계약 풀린 와이스는 어디로? 시카고 컵스, 신시내티행 예측도...한화 복귀 가능성은?",
+"source": "JTBC",
+"link": "https://news.jtbc.co.kr/video/NB12326053"
 }
 ],
 "new": false
