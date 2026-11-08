@@ -1,12 +1,82 @@
 {
-"updated": "2026-11-08T23:44:36.141651+00:00",
+"updated": "2026-11-08T23:47:11.915258+00:00",
 "errors": [],
 "events": [
+{
+"id": "wNISX20261109_00038597282345",
+"first": "2026-11-08T23:45:49+00:00",
+"last": "2026-11-08T23:45:49+00:00",
+"updated": "2026-11-08T23:47:11.915258+00:00",
+"headline": "이용철 법무장관 후보, 공소취소 논란 대응에 \"법과 원칙 따라\"",
+"cat": "정치",
+"regions": [],
+"sources": [
+"뉴시스"
+],
+"updates": [
+{
+"title": "[속보]이용철 법무장관 후보, 공소취소 논란 대응에 \"법과 원칙 따라\"",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261109_0003859728",
+"time": "2026-11-08T23:45:49+00:00",
+"stage": "얼럿"
+}
+],
+"level": "URGENT",
+"latest": "이용철 법무장관 후보, 공소취소 논란 대응에 \"법과 원칙 따라\"",
+"tok": [
+"공소취소",
+"대응",
+"따라",
+"법과",
+"법무장관",
+"원칙",
+"이용철",
+"후보"
+]
+},
+{
+"id": "3TCOJVG44TONJYGFQWIMJVHA2339",
+"first": "2026-11-08T23:39:00+00:00",
+"last": "2026-11-08T23:39:00+00:00",
+"updated": "2026-11-08T23:47:11.915258+00:00",
+"headline": "빅뱅, 강풍·폭우로 태국 콘서트 도중 취소..\"안전이 가장 중요해\"[Oh!쎈 이슈]",
+"cat": "재난",
+"regions": [],
+"sources": [
+"조선일보"
+],
+"updates": [
+{
+"title": "빅뱅, 강풍·폭우로 태국 콘서트 도중 취소..\"안전이 가장 중요해\"[Oh!쎈 이슈]",
+"source": "조선일보",
+"link": "https://www.chosun.com/entertainments/music/2026/11/09/G43TCOJVG44TONJYGFQWIMJVHA/",
+"time": "2026-11-08T23:39:00+00:00",
+"stage": "1보"
+}
+],
+"level": "ALERT",
+"latest": "빅뱅, 강풍·폭우로 태국 콘서트 도중 취소..\"안전이 가장 중요해\"[Oh!쎈 이슈]",
+"tok": [
+"Oh",
+"가장",
+"강풍",
+"도중",
+"빅뱅",
+"안전",
+"이슈",
+"중요해",
+"취소",
+"콘서트",
+"태국",
+"폭우"
+]
+},
 {
 "id": "GeTQ5M3pabjVCaEVabmJ3oc52301",
 "first": "2026-11-08T23:01:10+00:00",
 "last": "2026-11-08T23:38:11+00:00",
-"updated": "2026-11-08T23:44:36.141651+00:00",
+"updated": "2026-11-08T23:47:11.915258+00:00",
 "headline": "이 대통령 지지율 35.9%…국힘 39.7%·민주 36.5% [리얼미터]",
 "cat": "정치",
 "regions": [],
@@ -14,7 +84,8 @@
 "경향신문",
 "국제신문",
 "매일경제",
-"연합뉴스"
+"연합뉴스",
+"조선일보"
 ],
 "updates": [
 {
@@ -36,6 +107,13 @@
 "source": "연합뉴스",
 "link": "https://www.yna.co.kr/view/AKR20261109018800001",
 "time": "2026-11-08T23:32:13+00:00",
+"stage": "후속"
+},
+{
+"title": "李 지지율 1%p 하락한 35.9%…부정 평가 60.6% [리얼미터]",
+"source": "조선일보",
+"link": "https://www.chosun.com/economy/economy_general/2026/11/09/MQZDGZDFME3TQYJVGJRDQZJVGI/",
+"time": "2026-11-08T23:35:59+00:00",
 "stage": "후속"
 },
 {
@@ -62,9 +140,11 @@
 "리얼미터",
 "민주",
 "민주당",
+"부정",
 "소폭",
 "오차범위",
 "지지율",
+"평가",
 "하락한",
 "李대통령"
 ]
@@ -1455,11 +1535,11 @@
 "terms": {
 "지진": {
 "n30": 3,
-"base": 0.3,
+"base": 0.4,
 "spike": false
 },
 "화재": {
-"n30": 2,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
@@ -1479,7 +1559,7 @@
 "spike": false
 },
 "붕괴": {
-"n30": 2,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
@@ -1500,7 +1580,7 @@
 },
 "지하철": {
 "n30": 11,
-"base": 2.4,
+"base": 2.8,
 "spike": true
 },
 "사고": {
@@ -1540,7 +1620,7 @@
 "handle": "dsl-graduateds.bsky.social",
 "name": "심해로저벅저벅 대학원생",
 "time": "2026-11-08T23:43:36.272Z",
-"likes": 1,
+"likes": 2,
 "reposts": 0,
 "url": "https://bsky.app/profile/dsl-graduateds.bsky.social/post/3mztloyxin22e",
 "term": "지하철"
@@ -1816,23 +1896,23 @@
 {
 "term": "지하철",
 "n30": 11,
-"base": 2.4,
+"base": 2.8,
 "spike": true,
-"since": "2026-11-08T23:44:36.141651+00:00"
+"since": "2026-11-08T23:47:11.915258+00:00"
 }
 ],
 "baseline": {
-"지진": 0.39,
+"지진": 0.45,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.27,
+"폭발": 0.24,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 2.78,
-"사고": 1.31,
+"지하철": 3.1,
+"사고": 1.28,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -2077,7 +2157,7 @@
 "link": "https://www.news1.kr/realestate/general/6346045"
 }
 ],
-"new": true
+"new": false
 },
 {
 "term": "의약품",
@@ -2200,14 +2280,14 @@
 "time": "2026-11-08T22:20:00+00:00",
 "news": [
 {
-"title": "Atletico Madrid 1-2 Barcelona: Fermin double sees leaders come from behind to beat Atletico",
-"source": "BBC",
-"link": "https://www.bbc.com/sport/football/live/cm4g1jlw7vqlt"
-},
-{
 "title": "Lee Kang-in Involved in Opening Goal, but Atletico Suffers Comeback Loss to Barcelona",
 "source": "news.sbs.co.kr",
 "link": "https://news.sbs.co.kr/english/article.do?news_id=N1008836486"
+},
+{
+"title": "Lee Kang-in's Assist Can't Save Atlético from Barcelona",
+"source": "조선일보",
+"link": "https://www.chosun.com/english/sports-en/2026/11/09/7JM6ZGHGOBF6PIT3F4IQV7LLTA/"
 }
 ],
 "new": true
