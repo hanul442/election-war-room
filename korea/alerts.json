@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-08T04:12:37.920666+00:00",
+"updated": "2026-11-08T04:14:57.601516+00:00",
 "errors": [],
 "events": [
 {
@@ -2171,7 +2171,7 @@
 "sns": {
 "terms": {
 "지진": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -2217,12 +2217,12 @@
 },
 "지하철": {
 "n30": 1,
-"base": 0.5,
+"base": 0.4,
 "spike": false
 },
 "사고": {
 "n30": 0,
-"base": 0.8,
+"base": 0.7,
 "spike": false
 },
 "실종": {
@@ -2485,13 +2485,13 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.94,
-"붕괴": 0.2,
+"폭발": 0.95,
+"붕괴": 0.18,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.41,
-"사고": 0.69,
+"지하철": 0.37,
+"사고": 0.62,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -2721,8 +2721,26 @@
 },
 "trends": [
 {
+"term": "보이저 1호",
+"traffic": "200+",
+"time": "2026-11-08T03:10:00+00:00",
+"news": [
+{
+"title": "‘외계 생명체’와 접촉은 언제쯤?···보이저 1호, 인공 물체 최초 ‘1광일’ 도달 눈앞",
+"source": "경향신문",
+"link": "https://www.khan.co.kr/article/202611080800041"
+},
+{
+"title": "인간의 속도, 우주의 시간",
+"source": "조선일보",
+"link": "https://www.chosun.com/national/weekend/2026/11/07/LQ4464KXCFBVVFJSNOTCHP3C3A/"
+}
+],
+"new": true
+},
+{
 "term": "자동차",
-"traffic": "5000+",
+"traffic": "10000+",
 "time": "2026-11-08T03:00:00+00:00",
 "news": [
 {
@@ -2794,7 +2812,7 @@
 },
 {
 "term": "이다현",
-"traffic": "500+",
+"traffic": "1000+",
 "time": "2026-11-08T01:40:00+00:00",
 "news": [
 {
@@ -2823,7 +2841,7 @@
 {
 "title": "청도 읍성 예술제 '읍성 밟기' 재현 행사",
 "source": "뉴스1",
-"link": "https://www.news1.kr/photos/8202670"
+"link": "https://www.news1.kr/photos/8202671"
 }
 ],
 "new": false
@@ -2881,28 +2899,9 @@
 }
 ],
 "new": false
-},
-{
-"term": "blg t1",
-"traffic": "100+",
-"time": "2026-11-08T01:20:00+00:00",
-"news": [
-{
-"title": "T1 Doran: “What Makes You A Great Player Is How You Get Through The Pressure”",
-"source": "Hotspawn",
-"link": "https://www.hotspawn.com/league-of-legends/news/t1-doran-worlds-2026-interview"
-},
-{
-"title": "Claudio Castagnoli Calls League of Legends ‘the Best Sport to Watch’",
-"source": "Yahoo Sports",
-"link": "https://sports.yahoo.com/articles/aews-claudio-castagnoli-calls-league-012456063.html"
-}
-],
-"new": true
 }
 ],
 "trendSeen": [
-"박민지",
 "박서진",
 "박수홍",
 "박승규",
@@ -2918,6 +2917,7 @@
 "버밍엄 대 스완지 시티",
 "병사",
 "보디빌더",
+"보이저 1호",
 "보험",
 "복권",
 "부산 불꽃축제",
