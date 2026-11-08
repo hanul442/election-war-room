@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-08T19:51:20.931935+00:00",
+"updated": "2026-11-08T19:53:37.140757+00:00",
 "errors": [],
 "events": [
 {
@@ -1299,7 +1299,7 @@
 },
 "대피": {
 "n30": 0,
-"base": 0.4,
+"base": 0.3,
 "spike": false
 },
 "미사일": {
@@ -1581,14 +1581,14 @@
 "n30": 5,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-08T19:51:20.931935+00:00"
+"since": "2026-11-08T19:53:37.140757+00:00"
 },
 {
 "term": "속보",
 "n30": 6,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-08T19:51:20.931935+00:00"
+"since": "2026-11-08T19:53:37.140757+00:00"
 }
 ],
 "baseline": {
@@ -1598,11 +1598,11 @@
 "정전": 0.05,
 "폭발": 0.05,
 "붕괴": 0.05,
-"대피": 0.33,
+"대피": 0.3,
 "미사일": 0.05,
 "속보": 0.05,
 "지하철": 0.05,
-"사고": 0.77,
+"사고": 0.69,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -1841,6 +1841,60 @@
 },
 "trends": [
 {
+"term": "압구정동",
+"traffic": "200+",
+"time": "2026-11-08T18:50:00+00:00",
+"news": [
+{
+"title": "좀만 참을 걸…김동현 100억에 산 압구정현대, 80억대로",
+"source": "문화일보",
+"link": "https://www.munhwa.com/article/11628648"
+},
+{
+"title": "UFC파이터 김동현도 ‘주인 근저당’ … 100억 압구정아파트 절반 집주인 돈 빌려",
+"source": "매일경제",
+"link": "https://www.mk.co.kr/news/realestate/12196333"
+}
+],
+"new": true
+},
+{
+"term": "f1",
+"traffic": "100+",
+"time": "2026-11-08T18:50:00+00:00",
+"news": [
+{
+"title": "Norris wins Sao Paulo GP thriller as Mercedes claim title",
+"source": "Formula 1",
+"link": "https://www.formula1.com/en/latest/article/norris-beats-verstappen-in-wet-sao-paulo-gp-thriller-as-mercedes-win-constructors-championship.7JN7MXLZf5lk5l0C3gfKGI"
+},
+{
+"title": "Toto Wolff responds to matching F1 icon feat: 'Never thought it possible'",
+"source": "RacingNews365",
+"link": "https://racingnews365.com/toto-wolff-responds-to-matching-f1-icon-feat-never-thought-it-possible"
+}
+],
+"new": true
+},
+{
+"term": "닥터x 10화",
+"traffic": "100+",
+"time": "2026-11-08T18:50:00+00:00",
+"news": [
+{
+"title": "[다시보기] 닥터X : 하얀 마피아의 시대 10회",
+"source": "programs.sbs.co.kr",
+"link": "https://programs.sbs.co.kr/drama/doctorx/vod/88585/22000639451"
+},
+{
+"title": "‘닥터X’ 김지원, 기적의 수술 성공...20.2% 찍었다",
+"source": "매일경제",
+"link": "https://www.mk.co.kr/news/broadcasting-service/12201597"
+}
+],
+"new": true
+},
+{
 "term": "프리미어리그 순위",
 "traffic": "500+",
 "time": "2026-11-08T18:20:00+00:00",
@@ -1959,70 +2013,15 @@
 "link": "https://www.theguardian.com/football/2026/nov/08/manchester-united-aston-villa-premier-league-match-report"
 },
 {
-"title": "Dorgu makes dramatic impact - Man Utd v Aston Villa ratings",
-"source": "BBC",
-"link": "https://www.bbc.com/sport/football/articles/cwj34k7k54veo"
-}
-],
-"new": true
-},
-{
-"term": "맨유 대 애스턴 빌라",
-"traffic": "20000+",
-"time": "2026-11-08T15:30:00+00:00",
-"news": [
-{
-"title": "“최악 성적 기록한 맨유… 캐릭 감독의 전술 실패가 주원인”",
-"source": "주간동아",
-"link": "https://weekly.donga.com/sports/article/all/11/6438610/1"
-},
-{
-"title": "'스승님, 왜 13년째 우승하지 못할까요' 알렉스 퍼거슨 맨유 감독 부임 40주년 자축, 반데사르-비디치-캐릭 레전드 OT에 모였다",
-"source": "조선일보",
-"link": "https://www.chosun.com/sports/world-football/2026/11/08/GVRTQNZUMFQWKOLBMI4DEYLGME/"
-}
-],
-"new": true
-},
-{
-"term": "올리브영",
-"traffic": "500+",
-"time": "2026-11-08T15:10:00+00:00",
-"news": [
-{
-"title": "‘올리브영 쿠폰’으로 고객 잡기 나선 네카오 [정지은의 테크킥]",
-"source": "한국경제",
-"link": "https://www.hankyung.com/article/202611082799i"
-},
-{
-"title": "네이버, 올영 제휴·소상공인 상생 등 ‘플랫폼 동반 성장’ 가속화",
-"source": "천지일보",
-"link": "https://www.newscj.com/news/articleView.html?idxno=3446479"
-}
-],
-"new": false
-},
-{
-"term": "คริสตัลพาเลซ พบ ลิเวอร์พูล",
-"traffic": "200+",
-"time": "2026-11-08T14:20:00+00:00",
-"news": [
-{
-"title": "ชี้ 4 ตัวเต็งบอลน่าเชียร์ 8 พ.ย. 69 : ทีเด็ดบอลวันนี้ ไบรท์ตัน, ลิเวอร์พูล ลุ้นคว้าชัย!",
-"source": "Siamsport",
-"link": "https://www.siamsport.co.th/football-international/premierleague/111795/"
-},
-{
-"title": "การทำนายผลการแข่งขันรอบที่ 10 โดยคอมพิวเตอร์: การล่าแต้มของลิเวอร์พูล แมนเชสเตอร์ ยูไนเต็ด และเชลซี",
-"source": "Vietnam.vn",
-"link": "https://www.vietnam.vn/th/may-tinh-du-doan-vong-10-cuoc-san-diem-so-cua-liverpool-man-united-va-chelsea"
+"title": "Man United earn 4-4 draw against Aston Villa but remain in relegation zone",
+"source": "Al Jazeera",
+"link": "https://www.aljazeera.com/sports/2026/11/8/man-united-earn-4-4-draw-against-aston-villa-but-remain-in-relegation-zone"
 }
 ],
 "new": true
 }
 ],
 "trendSeen": [
-"세계 청년 대회",
 "세균",
 "세종의사당",
 "셀트리온",
@@ -2075,6 +2074,7 @@
 "안현민",
 "알테오젠",
 "암호화폐",
+"압구정동",
 "액화천연가스",
 "야구",
 "야구중계",
