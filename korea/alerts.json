@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-08T00:28:02.284648+00:00",
+"updated": "2026-11-08T00:30:53.836936+00:00",
 "errors": [],
 "events": [
 {
@@ -815,12 +815,12 @@
 "sns": {
 "terms": {
 "지진": {
-"n30": 1,
+"n30": 0,
 "base": 0.3,
 "spike": false
 },
 "화재": {
-"n30": 2,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
@@ -830,12 +830,12 @@
 "spike": false
 },
 "정전": {
-"n30": 2,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
 "폭발": {
-"n30": 7,
+"n30": 5,
 "base": 0.1,
 "spike": true
 },
@@ -850,14 +850,14 @@
 "spike": false
 },
 "미사일": {
-"n30": 3,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
 "속보": {
-"n30": 7,
+"n30": 1,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "지하철": {
 "n30": 1,
@@ -866,7 +866,7 @@
 },
 "사고": {
 "n30": 1,
-"base": 2.0,
+"base": 1.9,
 "spike": false
 },
 "실종": {
@@ -1117,21 +1117,14 @@
 "spikes": [
 {
 "term": "폭발",
-"n30": 7,
+"n30": 5,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-08T00:28:02.284648+00:00"
-},
-{
-"term": "속보",
-"n30": 7,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-08T00:28:02.284648+00:00"
+"since": "2026-11-08T00:30:53.836936+00:00"
 }
 ],
 "baseline": {
-"지진": 0.26,
+"지진": 0.23,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
@@ -1141,7 +1134,7 @@
 "미사일": 0.05,
 "속보": 0.05,
 "지하철": 0.05,
-"사고": 1.94,
+"사고": 1.85,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -1397,9 +1390,9 @@
 "link": "https://www.espn.com/soccer/player-stats/_/gameId/401882808"
 },
 {
-"title": "Alabama trounces LSU 31-13 in Baton Rouge",
+"title": "VMI Keydets vs. UTSA Roadrunners: Game Highlights",
 "source": "ESPN",
-"link": "https://www.espn.com/video/clip/_/id/50414109/alabama-trounces-lsu-31-13-baton-rouge"
+"link": "https://www.espn.com/video/clip/_/id/50414180/game-highlights"
 }
 ],
 "new": false
