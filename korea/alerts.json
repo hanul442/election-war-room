@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-08T12:56:41.370785+00:00",
+"updated": "2026-11-08T12:58:56.580728+00:00",
 "errors": [],
 "events": [
 {
@@ -5340,7 +5340,7 @@
 },
 "화재": {
 "n30": 2,
-"base": 0.6,
+"base": 0.7,
 "spike": false
 },
 "불났": {
@@ -5354,12 +5354,12 @@
 "spike": false
 },
 "폭발": {
-"n30": 5,
+"n30": 4,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "붕괴": {
-"n30": 3,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
@@ -5369,7 +5369,7 @@
 "spike": false
 },
 "미사일": {
-"n30": 2,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
@@ -5380,12 +5380,12 @@
 },
 "지하철": {
 "n30": 4,
-"base": 1.3,
+"base": 1.4,
 "spike": false
 },
 "사고": {
-"n30": 4,
-"base": 2.6,
+"n30": 3,
+"base": 2.7,
 "spike": false
 },
 "실종": {
@@ -5420,7 +5420,7 @@
 "handle": "mahapadma770.bsky.social",
 "name": "홍련🪷",
 "time": "2026-11-08T12:55:05.772Z",
-"likes": 0,
+"likes": 1,
 "reposts": 0,
 "url": "https://bsky.app/profile/mahapadma770.bsky.social/post/3mzshhfdmjs2w",
 "term": "먹통"
@@ -5657,16 +5657,6 @@
 "url": "https://www.youtube.com/watch?v=YIzJCQQSyCk"
 },
 {
-"text": "주말에 놀러나갔을때 오리파オリパ란걸 광고하는 트럭이 시끄럽게 돌아다니길래 오리파가 대체 뭐야 하고 검색해 보니 오리지널 팩, 그러니까 트레이딩 카드 샵에서 공식 팩을 뜯은 다음 자기들 마음대로 재조합해서 만든 커스텀 카드팩을 가리키는 신조어인 모양. 그런거 사고 싶나...? 샵에서 무슨 수작을 부려 놨을 줄 알고?",
-"handle": "rivian.bsky.social",
-"name": "Rivian",
-"time": "2026-11-08T12:27:12.075Z",
-"likes": 0,
-"reposts": 1,
-"url": "https://bsky.app/profile/rivian.bsky.social/post/3mzsfvjcknc2r",
-"term": "사고"
-},
-{
 "platform": "YouTube",
 "text": "이재명 대통령 탄핵 해야 한다? 장동혁 폭탄 발언...민주당 결국 폭발! #장동혁 #이재명 #대통령탄핵 #탄핵발언 #국민의힘 #정치뉴스 #정치이슈 #정치논란 #여야충돌 #특검법",
 "handle": "UCFzQ_BhQ6kQEnQaV_iqQZVQ",
@@ -5703,31 +5693,23 @@
 "url": "https://www.youtube.com/watch?v=LnK39MC44iA"
 }
 ],
-"spikes": [
-{
-"term": "폭발",
-"n30": 5,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-08T12:56:41.370785+00:00"
-}
-],
+"spikes": [],
 "baseline": {
-"지진": 0.36,
-"화재": 0.67,
+"지진": 0.32,
+"화재": 0.7,
 "불났": 0.05,
 "정전": 0.05,
 "폭발": 0.05,
-"붕괴": 0.08,
+"붕괴": 0.07,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 1.4,
-"사고": 2.72,
+"지하철": 1.46,
+"사고": 2.75,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
-"먹통": 0.15,
+"먹통": 0.24,
 "산불": 0.05
 },
 "errors": [],
@@ -6028,14 +6010,14 @@
 "time": "2026-11-08T09:30:00+00:00",
 "news": [
 {
-"title": "내년에 25조 쏟아붓는 기초연금…생계급여 깎여 노인빈곤 개선 '헛바퀴'",
-"source": "이데일리",
-"link": "https://www.edaily.co.kr/News/Read?newsId=01908966645643752&mediaCodeNo=257"
-},
-{
 "title": "“연금 오르면 뭐하나”…생계급여 삭감에 빈곤노인 78만명은 답보 상태",
 "source": "세계일보",
 "link": "https://www.segye.com/newsView/20261108504769"
+},
+{
+"title": "기초연금 3만원 더 받는 저소득층, 생계급여 삭감…인상 효과 미미",
+"source": "동아일보",
+"link": "https://www.donga.com/news/Society/article/all/20261108/134985262/1"
 }
 ],
 "new": true
