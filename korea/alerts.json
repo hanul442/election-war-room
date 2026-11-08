@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-08T02:32:19.443510+00:00",
+"updated": "2026-11-08T02:34:35.497223+00:00",
 "errors": [],
 "events": [
 {
@@ -131,7 +131,7 @@
 "id": "VJYbzctdFgwV1VPY2lmMAoc50147",
 "first": "2026-11-08T01:47:00+00:00",
 "last": "2026-11-08T02:19:33+00:00",
-"updated": "2026-11-08T02:23:17.371324+00:00",
+"updated": "2026-11-08T02:34:35.497223+00:00",
 "headline": "오세훈 \"국민연금으로 주식도박…정부 오만함이 지옥문 열어\"",
 "cat": "정치",
 "regions": [],
@@ -154,6 +154,13 @@
 "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5QeURMN014LXJuaUJkMG03NFZlR2FNV2xsb3NfemxqYTdGemlJcFlxeEJEbWk0UTc2OU53RDlLQ25RN1h4eWNyTlZHelFFLVRXVzFvT1VnYXZvMDB3ZHRfOVJYbzctdFgwV1VPY2lmMA?oc=5",
 "time": "2026-11-08T01:47:00+00:00",
 "stage": "얼럿"
+},
+{
+"title": "[속보] 오세훈 \"국민연금으로 주식도박…정부 오만함이 지옥문 열어\" |",
+"source": "대전일보",
+"link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE05a1pVb0puYmV1T1JSSWViWnlydUpiTVo0SUozZEtNZkJWNmhHY0tPZVhmSEc5ZlJLRmt6ZEUtcFJEa0ZfLWpYQzl6WE12RzJOdFN4R0hHZzR5dkthNDEtRUdlRjJzaHlPM0JwZExkTTR3am8?oc=5",
+"time": "2026-11-08T01:58:31+00:00",
+"stage": "속보"
 },
 {
 "title": "[속보] 오세훈 \"국민연금으로 주식 도박...李정부 오만이 지옥문 열어\"",
@@ -1691,9 +1698,9 @@
 "sns": {
 "terms": {
 "지진": {
-"n30": 5,
-"base": 1.6,
-"spike": true
+"n30": 4,
+"base": 1.5,
+"spike": false
 },
 "화재": {
 "n30": 0,
@@ -1711,9 +1718,9 @@
 "spike": false
 },
 "폭발": {
-"n30": 5,
+"n30": 4,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "붕괴": {
 "n30": 2,
@@ -1736,9 +1743,9 @@
 "spike": true
 },
 "지하철": {
-"n30": 5,
+"n30": 4,
 "base": 1.0,
-"spike": true
+"spike": false
 },
 "사고": {
 "n30": 1,
@@ -2012,36 +2019,15 @@
 ],
 "spikes": [
 {
-"term": "지진",
-"n30": 5,
-"base": 1.6,
-"spike": true,
-"since": "2026-11-08T02:32:19.443510+00:00"
-},
-{
-"term": "폭발",
-"n30": 5,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-08T02:32:19.443510+00:00"
-},
-{
 "term": "속보",
 "n30": 5,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-08T02:32:19.443510+00:00"
-},
-{
-"term": "지하철",
-"n30": 5,
-"base": 1.0,
-"spike": true,
-"since": "2026-11-08T02:32:19.443510+00:00"
+"since": "2026-11-08T02:34:35.497223+00:00"
 }
 ],
 "baseline": {
-"지진": 1.5,
+"지진": 1.45,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
@@ -2051,7 +2037,7 @@
 "미사일": 0.05,
 "속보": 0.05,
 "지하철": 1.01,
-"사고": 1.11,
+"사고": 1.1,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -2385,14 +2371,14 @@
 "time": "2026-11-08T00:50:00+00:00",
 "news": [
 {
-"title": "대기업·중소기업 '양극화' 심화…이자보상비율 격차 '최대'",
-"source": "아시아경제",
-"link": "https://www.asiae.co.kr/article/2026110810553584575"
+"title": "금융위, 햇살론 2천500억원 등 '포용금융' 예산 증액 추진",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261107040900002"
 },
 {
-"title": "기업간 '초양극화'…대·중소기업 이자보상비율 격차 최대",
-"source": "매일경제 마켓",
-"link": "https://stock.mk.co.kr/news/view/1193139"
+"title": "금융위, 햇살론 예산 2455억원 증액 추진…취약계층 이자 부담 낮춘다",
+"source": "Chosunbiz",
+"link": "https://biz.chosun.com/stock/stock_general/2026/11/08/HE3GGMZUGU3TGNJQMVSTSYLBMQ/"
 }
 ],
 "new": false
