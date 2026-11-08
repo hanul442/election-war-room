@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-08T01:22:12.513685+00:00",
+"updated": "2026-11-08T01:24:26.941036+00:00",
 "errors": [],
 "events": [
 {
@@ -265,6 +265,34 @@
 "열폭주",
 "지키",
 "화재"
+]
+},
+{
+"id": "1pkdkxQaUdzZ0R5YlBBYgoc50059",
+"first": "2026-11-08T00:59:00+00:00",
+"last": "2026-11-08T00:59:00+00:00",
+"updated": "2026-11-08T01:24:26.941036+00:00",
+"headline": "저출산 '쇼크' 현실화",
+"cat": "기타",
+"regions": [],
+"sources": [
+"한경매거진"
+],
+"updates": [
+{
+"title": "[속보]저출산 '쇼크' 현실화",
+"source": "한경매거진",
+"link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1YOWRfWW40V2didlBncU1qSlRJbThjM1R3eEl1NHJGR3hOdlhNZGM2b1k1azJvWS1WR0c0SU5oVFZsZm9xTEpwcWZrbjNyM3A2NGdwbkMyLTBpekZHT1pkdkxQaUdzZ0R5YlBBYg?oc=5",
+"time": "2026-11-08T00:59:00+00:00",
+"stage": "얼럿"
+}
+],
+"level": "URGENT",
+"latest": "저출산 '쇼크' 현실화",
+"tok": [
+"쇼크",
+"저출산",
+"현실화"
 ]
 },
 {
@@ -1142,7 +1170,7 @@
 },
 "붕괴": {
 "n30": 3,
-"base": 1.1,
+"base": 1.0,
 "spike": false
 },
 "대피": {
@@ -1167,7 +1195,7 @@
 },
 "사고": {
 "n30": 1,
-"base": 1.6,
+"base": 1.5,
 "spike": false
 },
 "실종": {
@@ -1450,14 +1478,14 @@
 "n30": 7,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-08T01:22:12.513685+00:00"
+"since": "2026-11-08T01:24:26.941036+00:00"
 },
 {
 "term": "속보",
 "n30": 8,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-08T01:22:12.513685+00:00"
+"since": "2026-11-08T01:24:26.941036+00:00"
 }
 ],
 "baseline": {
@@ -1466,12 +1494,12 @@
 "불났": 0.05,
 "정전": 0.05,
 "폭발": 0.05,
-"붕괴": 1.0,
+"붕괴": 0.9,
 "대피": 0.05,
-"미사일": 0.6,
+"미사일": 0.64,
 "속보": 0.05,
-"지하철": 0.15,
-"사고": 1.5,
+"지하철": 0.24,
+"사고": 1.45,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -1701,8 +1729,26 @@
 },
 "trends": [
 {
+"term": "메이저 리그 베이스볼",
+"traffic": "100+",
+"time": "2026-11-08T00:20:00+00:00",
+"news": [
+{
+"title": "'WBC 한국전 세이브' 대만 투수 쩡쥔웨, MLB 진출 도전",
+"source": "뉴스1",
+"link": "https://www.news1.kr/sports/overseas-baseball/6346604"
+},
+{
+"title": "WBC서 한국 울린 대만 마무리, 이제는 MLB 도전장…포스팅 절차 돌입",
+"source": "일간스포츠",
+"link": "https://isplus.com/article/view/isp202611080032"
+}
+],
+"new": true
+},
+{
 "term": "밥",
-"traffic": "1000+",
+"traffic": "2000+",
 "time": "2026-11-07T23:50:00+00:00",
 "news": [
 {
@@ -1821,9 +1867,9 @@
 "time": "2026-11-07T23:10:00+00:00",
 "news": [
 {
-"title": "최대 미스터리! 107억 다승왕까지 대기했는데, 5회 만루 찬스→왜 대타 안 썼나 \"김상수 연습 때는 잘 쳤는데…\" [KS4]",
-"source": "조선일보",
-"link": "https://www.chosun.com/sports/baseball/2026/11/08/MZRTIZRQMU4TSODFGU3TAMZTGI/"
+"title": "장찬희·이재희 호투+박승규 3타점 펄펄…삼성, 12년 만의 KS 정상까지 ‘1승’ 남았다.",
+"source": "문화일보",
+"link": "https://www.munhwa.com/article/11629549"
 },
 {
 "title": "'90승' 1위팀 우승 확률 고작 5.3%라니…승패패패 충격→600승 명장 최후의 총력전 선언 “고영표 소형준까지 대기” [KS] - 머니투데이",
@@ -1850,30 +1896,12 @@
 }
 ],
 "new": true
-},
-{
-"term": "전공의",
-"traffic": "200+",
-"time": "2026-11-07T23:10:00+00:00",
-"news": [
-{
-"title": "‘전공의 부족 해결·9월 인턴’ 이중 과제",
-"source": "데일리메디",
-"link": "https://www.dailymedi.com/news/news_view.php?wr_id=942351"
-},
-{
-"title": "\"수술할 의사가 사라진다\"…외과 소멸 위기에 의료계 '초비상'",
-"source": "한국경제",
-"link": "https://www.hankyung.com/article/202611058590i"
-}
-],
-"new": false
 }
 ],
 "trendSeen": [
-"맥도날드",
 "맨시티",
 "메가프로젝트",
+"메이저 리그 베이스볼",
 "멧 갈라",
 "목동",
 "몽레알 대 화이트캡스",
