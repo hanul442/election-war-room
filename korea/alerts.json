@@ -1,7 +1,37 @@
 {
-"updated": "2026-11-08T23:03:54.075271+00:00",
+"updated": "2026-11-08T23:06:11.177665+00:00",
 "errors": [],
 "events": [
+{
+"id": "GeTQ5M3pabjVCaEVabmJ3oc52301",
+"first": "2026-11-08T23:01:10+00:00",
+"last": "2026-11-08T23:01:10+00:00",
+"updated": "2026-11-08T23:06:11.177665+00:00",
+"headline": "이 대통령 지지율 35.9%…국힘 39.7%·민주 36.5% [리얼미터]",
+"cat": "정치",
+"regions": [],
+"sources": [
+"매일경제"
+],
+"updates": [
+{
+"title": "[속보] 이 대통령 지지율 35.9%…국힘 39.7%·민주 36.5% [리얼미터]",
+"source": "매일경제",
+"link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBveEx2YmJzSEhFd19CUG9UcjJPazJBdkNtbU02WWpuYVlkR3otT0hBYUtGSTdjX0N6Y0o0dFFZMW1zZWYtZTRGeTQ5M3pabjVCaEVabmJ3?oc=5",
+"time": "2026-11-08T23:01:10+00:00",
+"stage": "얼럿"
+}
+],
+"level": "URGENT",
+"latest": "이 대통령 지지율 35.9%…국힘 39.7%·민주 36.5% [리얼미터]",
+"tok": [
+"국힘",
+"대통령",
+"리얼미터",
+"민주",
+"지지율"
+]
+},
 {
 "id": "nkRSSLINKcooperRSSREADER2254",
 "first": "2026-11-08T22:54:23+00:00",
@@ -93,7 +123,7 @@
 "id": "tRdGNFemNNLWl2RExRU0koc52247",
 "first": "2026-11-08T22:47:59+00:00",
 "last": "2026-11-08T22:47:59+00:00",
-"updated": "2026-11-08T22:54:45.274328+00:00",
+"updated": "2026-11-08T23:06:11.177665+00:00",
 "headline": "삼성물산, 목동13단지 재건축 시공사 선정…공사 예정금액 2조3763억원",
 "cat": "경제",
 "regions": [],
@@ -107,6 +137,13 @@
 "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5NaU5ZZjVveTJXbzdzTmswaVd4UXZPMnQwTFIwamoxUE1yUnNSLVc1bWoyZlg5c3ctclVWa09McEd5Y01KdC1ybl9CNnVzemdlYzlBTHpUQ0tRdGNFemNNLWl2RExRU0k?oc=5",
 "time": "2026-11-08T22:47:59+00:00",
 "stage": "얼럿"
+},
+{
+"title": "[속보] 삼성물산, 목동13단지 재건축 시공사 선정…공사 예정금액 2조3763억원",
+"source": "CBC뉴스",
+"link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9QRzlrOTU4ZTRiUTRwWkUtVW1hV3hQdXg0NEpzeVFLNk5sMEtGcDZ0dXdPa29wN1RwTE12bDRVdjFqRl9qM2dacHJvS25OSWt6ajhZU2FfaUlmWk1KZWlUZWQxT2NRR2M1?oc=5",
+"time": "2026-11-08T22:47:59+00:00",
+"stage": "속보"
 }
 ],
 "level": "URGENT",
@@ -963,7 +1000,7 @@
 },
 "폭발": {
 "n30": 7,
-"base": 0.4,
+"base": 0.5,
 "spike": true
 },
 "붕괴": {
@@ -988,7 +1025,7 @@
 },
 "지하철": {
 "n30": 2,
-"base": 0.5,
+"base": 0.6,
 "spike": false
 },
 "사고": {
@@ -1266,16 +1303,16 @@
 {
 "term": "폭발",
 "n30": 7,
-"base": 0.4,
+"base": 0.5,
 "spike": true,
-"since": "2026-11-08T23:03:54.075271+00:00"
+"since": "2026-11-08T23:06:11.177665+00:00"
 },
 {
 "term": "속보",
 "n30": 7,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-08T23:03:54.075271+00:00"
+"since": "2026-11-08T23:06:11.177665+00:00"
 }
 ],
 "baseline": {
@@ -1283,13 +1320,13 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.45,
+"폭발": 0.51,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.56,
-"사고": 1.86,
+"지하철": 0.6,
+"사고": 1.87,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
