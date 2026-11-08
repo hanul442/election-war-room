@@ -1,12 +1,12 @@
 {
-"updated": "2026-11-08T07:27:53.966654+00:00",
+"updated": "2026-11-08T07:30:09.804329+00:00",
 "errors": [],
 "events": [
 {
 "id": "quake20261108T0153",
 "first": "2026-11-08T01:53:16.193000+00:00",
 "last": "2026-11-08T01:53:16.193000+00:00",
-"updated": "2026-11-08T07:27:53.966654+00:00",
+"updated": "2026-11-08T07:30:09.804329+00:00",
 "headline": "규모 4.5 지진 · 11 km W of Honmachi, Japan",
 "latest": "규모 4.5 지진 · 11 km W of Honmachi, Japan",
 "cat": "재난",
@@ -1418,6 +1418,49 @@
 ]
 },
 {
+"id": "0l0aFpYNU5HY1FvdnRlYwoc50500",
+"first": "2026-11-08T05:00:00+00:00",
+"last": "2026-11-08T05:59:24+00:00",
+"updated": "2026-11-08T07:30:09.804329+00:00",
+"headline": "서울 아파트, 매물 '급증'",
+"cat": "경제",
+"regions": [
+"서울"
+],
+"sources": [
+"연합뉴스",
+"한경매거진"
+],
+"updates": [
+{
+"title": "[속보]서울 아파트, 매물 '급증'",
+"source": "한경매거진",
+"link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5ZMU41Vld4NlZ5eXZkanNKSm1EM3FDbldaNUkwMVVjZjRrOXZ2dzI3Qkl3a2FvWVZqX2N4V0R5OTV0S3hSdUR2M2VZNm9EVFBfejBGS25oOTN0X1hDZ0l0aFpYNU5HY1FvdnRlYw?oc=5",
+"time": "2026-11-08T05:00:00+00:00",
+"stage": "얼럿"
+},
+{
+"title": "서울 아파트 매물 석달 새 33%↑…집값 안정으로 이어질까",
+"source": "연합뉴스",
+"link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBmdUVmNFFGVWRMTmJna2gtS0QwTkxfc2o5YnhJeFYwUDRENUNLeTNLb1BYUUhVVFZJWkczOW5CSmstdWNVeERNSXRrWThUa0F4cm1nTGlVS1JHcE3SAWBBVV95cUxOcUxXMGY5alVCRHgyUHMzTXZvX01CemhBQWJUSXJFSlh0RkFLdDVIU3hzeDZ6NXp4T3NkTGJJRmtXSVJsUDVxYlNCRXpMTTVEaHhJRFQ2QVhnSml4RDlmbGc?oc=5",
+"time": "2026-11-08T05:59:24+00:00",
+"stage": "후속"
+}
+],
+"level": "URGENT",
+"latest": "서울 아파트 매물 석달 새 33%↑…집값 안정으로 이어질까",
+"tok": [
+"급증",
+"매물",
+"서울",
+"석달",
+"아파트",
+"안정으",
+"이어질까",
+"집값"
+]
+},
+{
 "id": "4dTNLZ1U4RGNBTndXOFhBoc50543",
 "first": "2026-11-08T05:43:58+00:00",
 "last": "2026-11-08T05:57:35+00:00",
@@ -2076,37 +2119,6 @@
 "여자단식",
 "접전",
 "코리아오픈"
-]
-},
-{
-"id": "0l0aFpYNU5HY1FvdnRlYwoc50500",
-"first": "2026-11-08T05:00:00+00:00",
-"last": "2026-11-08T05:00:00+00:00",
-"updated": "2026-11-08T05:21:34.688100+00:00",
-"headline": "서울 아파트, 매물 '급증'",
-"cat": "경제",
-"regions": [
-"서울"
-],
-"sources": [
-"한경매거진"
-],
-"updates": [
-{
-"title": "[속보]서울 아파트, 매물 '급증'",
-"source": "한경매거진",
-"link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5ZMU41Vld4NlZ5eXZkanNKSm1EM3FDbldaNUkwMVVjZjRrOXZ2dzI3Qkl3a2FvWVZqX2N4V0R5OTV0S3hSdUR2M2VZNm9EVFBfejBGS25oOTN0X1hDZ0l0aFpYNU5HY1FvdnRlYw?oc=5",
-"time": "2026-11-08T05:00:00+00:00",
-"stage": "얼럿"
-}
-],
-"level": "URGENT",
-"latest": "서울 아파트, 매물 '급증'",
-"tok": [
-"급증",
-"매물",
-"서울",
-"아파트"
 ]
 },
 {
@@ -3145,11 +3157,11 @@
 },
 "폭발": {
 "n30": 11,
-"base": 0.8,
+"base": 0.7,
 "spike": true
 },
 "붕괴": {
-"n30": 2,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
@@ -3164,9 +3176,9 @@
 "spike": false
 },
 "속보": {
-"n30": 5,
+"n30": 3,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "지하철": {
 "n30": 1,
@@ -3174,7 +3186,7 @@
 "spike": false
 },
 "사고": {
-"n30": 3,
+"n30": 5,
 "base": 2.3,
 "spike": false
 },
@@ -3206,11 +3218,31 @@
 },
 "posts": [
 {
+"text": "개웃기다 바사고가 어니 영체화 했는데 짐승영역 중 특기 랜뽑했더니 에로스 뜸 기억 잃고도 사심이 가득한 외전아",
+"handle": "fluffystory.trpg-o.xyz.ap.brid.gy",
+"name": "윤슬 :mg_rule_magicalogia:",
+"time": "2026-11-08T07:29:08.976Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/fluffystory.trpg-o.xyz.ap.brid.gy/post/3mzrvakcstwu2",
+"term": "사고"
+},
+{
+"text": "옆나라 이야기를 좀 하면, 여기도 만만찮게 총기통제를 하긴 했지만 그래도 한국보단 좀 통제가 부실해서 가끔씩 사고가 나던게 있었죠. 그러다가 좀 전기가 터졌던게 80년대 후반쯤에 헤이싱 권총이라고 TT-33의 중국제 복제품이 대규모로 밀수 풀렸던게 있었습니다. \n\n이건 야쿠자들이 거진 가지고 있어서, 야쿠자 항쟁에서 총기격발로 뉴스를 타면 이게 튀어나오고 아직 좀 남아있다던가 그렇죠. 요즘은",
+"handle": "inspektor.bsky.social",
+"name": "국철진",
+"time": "2026-11-08T07:29:01.869Z",
+"likes": 1,
+"reposts": 0,
+"url": "https://bsky.app/profile/inspektor.bsky.social/post/3mzrvad35zs2t",
+"term": "사고"
+},
+{
 "text": "사실 총기사고가 간간히 있긴 했는데, 총기라는게 제대로 관리하지 못하면, 또 탄약이 확보가 안되면 결국은 의미가 없어지는 물건이다 보니까 70년대쯤 되면 거의 소모가 되긴 했을겁니다. 뭐 한국의 공권력 상대로 총질했다가는 중정이나 보안사 구경으로는 안끝나는 것도 있고요. \n\n이후에 5.18 때 유실된 총기가 좀 암암리에 민간에 남겨져 있었다고 하는데, 역시 20년 넘게 자진신고나 기계적 고장",
 "handle": "inspektor.bsky.social",
 "name": "국철진",
 "time": "2026-11-08T07:26:32.978Z",
-"likes": 0,
+"likes": 1,
 "reposts": 0,
 "url": "https://bsky.app/profile/inspektor.bsky.social/post/3mzrv3uhrpk2t",
 "term": "사고"
@@ -3234,16 +3266,6 @@
 "reposts": 1,
 "url": "https://bsky.app/profile/maehwa1128.bsky.social/post/3mzrufgpwz22h",
 "term": "먹통"
-},
-{
-"text": "다이소 그래도 적당히만 가는 편이었는데 취직하니까 회사 근처에 4층짜리 다이소 있어서 틈만나면 자꾸 기웃거리고 하나씩 사고 나오고 이래서 클남",
-"handle": "iridde.bsky.social",
-"name": "iridde",
-"time": "2026-11-08T07:03:39.971Z",
-"likes": 3,
-"reposts": 0,
-"url": "https://bsky.app/profile/iridde.bsky.social/post/3mzrtsxtqj226",
-"term": "사고"
 },
 {
 "platform": "YouTube",
@@ -3457,34 +3479,27 @@
 {
 "term": "폭발",
 "n30": 11,
-"base": 0.8,
+"base": 0.7,
 "spike": true,
-"since": "2026-11-08T07:27:53.966654+00:00"
-},
-{
-"term": "속보",
-"n30": 5,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-08T07:27:53.966654+00:00"
+"since": "2026-11-08T07:30:09.804329+00:00"
 }
 ],
 "baseline": {
-"지진": 0.06,
+"지진": 0.05,
 "화재": 0.05,
-"불났": 0.67,
+"불났": 0.6,
 "정전": 0.05,
-"폭발": 0.69,
+"폭발": 0.62,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
 "지하철": 0.05,
-"사고": 2.33,
+"사고": 2.6,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
-"먹통": 0.51,
+"먹통": 0.56,
 "산불": 0.05
 },
 "errors": [],
@@ -3855,9 +3870,9 @@
 "link": "https://biz.chosun.com/en/en-sports/2026/11/08/KVLRAWTYJNBCNECFPZTAQR7OC4/"
 },
 {
-"title": "KT Wiz Lineup Changes Yield Opening Run in Game 5",
-"source": "조선일보",
-"link": "https://www.chosun.com/english/sports-en/2026/11/08/IZZAA37W6FDK3D265VW7N4QKEE/"
+"title": "kt's Jang Jin-hyuk hits opening home run in first Korean Series start, repaying manager Lee Kang-chul's trust",
+"source": "news.sbs.co.kr",
+"link": "https://news.sbs.co.kr/english/article.do?news_id=N1008835185"
 }
 ],
 "new": true
