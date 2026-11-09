@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-09T13:26:24.514885+00:00",
+"updated": "2026-11-09T13:29:00.179455+00:00",
 "errors": [],
 "events": [
 {
@@ -3033,9 +3033,9 @@
 "sns": {
 "terms": {
 "지진": {
-"n30": 5,
-"base": 0.7,
-"spike": true
+"n30": 4,
+"base": 0.8,
+"spike": false
 },
 "화재": {
 "n30": 1,
@@ -3068,24 +3068,24 @@
 "spike": false
 },
 "미사일": {
-"n30": 2,
-"base": 0.2,
+"n30": 1,
+"base": 0.3,
 "spike": false
 },
 "속보": {
-"n30": 10,
-"base": 0.5,
+"n30": 7,
+"base": 0.6,
 "spike": true
 },
 "지하철": {
-"n30": 6,
+"n30": 5,
 "base": 1.8,
-"spike": true
+"spike": false
 },
 "사고": {
 "n30": 7,
-"base": 2.1,
-"spike": true
+"base": 2.6,
+"spike": false
 },
 "실종": {
 "n30": 0,
@@ -3119,7 +3119,7 @@
 "handle": "lyingdownbear.bsky.social",
 "name": "널부렁🎗️",
 "time": "2026-11-09T13:25:25.670Z",
-"likes": 1,
+"likes": 3,
 "reposts": 0,
 "url": "https://bsky.app/profile/lyingdownbear.bsky.social/post/3mzuzmk627c27",
 "term": "사고"
@@ -3139,7 +3139,7 @@
 "handle": "orangecat1199.bsky.social",
 "name": "주고",
 "time": "2026-11-09T13:24:48.883Z",
-"likes": 0,
+"likes": 1,
 "reposts": 0,
 "url": "https://bsky.app/profile/orangecat1199.bsky.social/post/3mzuzlgrmvk2z",
 "term": "사고"
@@ -3385,16 +3385,6 @@
 "url": "https://www.youtube.com/watch?v=rFwWykBuKmY"
 },
 {
-"text": "지하철 표 못 구해서 탄 택시ㅠㅜ...\n뭔가 길이 복잡함",
-"handle": "mmuuv00.bsky.social",
-"name": "뭅",
-"time": "2026-11-09T12:58:46.970Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/mmuuv00.bsky.social/post/3mzuy4r3bzk2n",
-"term": "지하철"
-},
-{
 "platform": "YouTube",
 "text": "[🔴속보] 1주일 새 벌써 세차례나 출국 시스템 장애…인천국제공항 무슨 일 있나 / 연합뉴스TV(YonhapnewsTV)",
 "handle": "UCTHCOPwqNfZ0uiKOvFyhGwg",
@@ -3442,57 +3432,36 @@
 ],
 "spikes": [
 {
-"term": "지진",
-"n30": 5,
-"base": 0.7,
-"spike": true,
-"since": "2026-11-09T13:26:24.514885+00:00"
-},
-{
 "term": "폭발",
 "n30": 5,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-09T13:26:24.514885+00:00"
+"since": "2026-11-09T13:29:00.179455+00:00"
 },
 {
 "term": "속보",
-"n30": 10,
-"base": 0.5,
-"spike": true,
-"since": "2026-11-09T13:26:24.514885+00:00"
-},
-{
-"term": "지하철",
-"n30": 6,
-"base": 1.8,
-"spike": true,
-"since": "2026-11-09T13:26:24.514885+00:00"
-},
-{
-"term": "사고",
 "n30": 7,
-"base": 2.1,
+"base": 0.6,
 "spike": true,
-"since": "2026-11-09T13:26:24.514885+00:00"
+"since": "2026-11-09T13:29:00.179455+00:00"
 }
 ],
 "baseline": {
-"지진": 0.83,
+"지진": 0.95,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
 "폭발": 0.05,
 "붕괴": 0.05,
-"대피": 0.37,
-"미사일": 0.32,
-"속보": 0.56,
-"지하철": 1.83,
-"사고": 2.57,
+"대피": 0.33,
+"미사일": 0.39,
+"속보": 0.6,
+"지하철": 1.75,
+"사고": 3.01,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
-"먹통": 0.64,
+"먹통": 0.68,
 "산불": 0.05
 },
 "errors": [],
@@ -3750,7 +3719,7 @@
 "time": "2026-11-09T11:50:00+00:00",
 "news": [
 {
-"title": "한국 주요 오픈 모델의 프로덕션 배포 가속하는 NVIDIA Dynamo",
+"title": "한국 주요 오픈 모델의 프로덕션 배포 가속하는 NVIDIA Dynamo - NVIDIA Blog Korea",
 "source": "NVIDIA",
 "link": "https://blogs.nvidia.co.kr/blog/nvidia-dynamo-korea-open-models/"
 },
@@ -3881,9 +3850,9 @@
 "link": "https://www.twig24.com/news/2026/11/09/20261109500162"
 },
 {
-"title": "'터미네이터' 슈워제네거 혼외자 보디빌더 데뷔…\"父, 최고 운동 파트너\"",
-"source": "아시아경제",
-"link": "https://view.asiae.co.kr/article/2026110917171140991"
+"title": "'터미네이터' 슈워제네거 29세 혼외자도 부전자전…보디빌딩 5위 - 머니투데이",
+"source": "머니투데이",
+"link": "https://www.mt.co.kr/society/2026/11/09/2026110915000965555"
 }
 ],
 "new": true
