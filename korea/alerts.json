@@ -1,12 +1,12 @@
 {
-"updated": "2026-11-09T02:53:58.920969+00:00",
+"updated": "2026-11-09T02:56:13.284260+00:00",
 "errors": [],
 "events": [
 {
 "id": "2xITjBnd0RleXJTeVhMQQoc50236",
 "first": "2026-11-09T02:36:13+00:00",
 "last": "2026-11-09T02:50:44+00:00",
-"updated": "2026-11-09T02:53:58.920969+00:00",
+"updated": "2026-11-09T02:56:13.284260+00:00",
 "headline": "李대통령 \"소방재원 안정적 확보, 국민 안전 위한 투자도 더욱 확대\"",
 "cat": "정치",
 "regions": [],
@@ -66,6 +66,13 @@
 "title": "이 대통령 “소방 재원 안정적 확보, 안전 투자 확대…정부가 소방의 119 될 것”",
 "source": "KBS 뉴스",
 "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9KUk82T2dvYUI3SUM4T0xNZER2eEx1bHRlZzJmUmdwb2dFa0o2eXVkQjA1Z0Qyak9acDhxZDl2cnZXanJsLUF5M2M0a3hzVEdfMjZkUzQxbm5KX28?oc=5",
+"time": "2026-11-09T02:41:00+00:00",
+"stage": "후속"
+},
+{
+"title": "이 대통령 “소방 재원 안정적 확보, 안전 투자 확대…정부가 소방의 119 될 것”",
+"source": "KBS 뉴스",
+"link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9GTjRTQU51WHphd3U3LUF6dUZReG4yMGZxbnhScEJPWERXQ0JHRTlGbDBzMGo3WV9QbndxcXFEbXVCbVhQUGd2SFA1aWtOSVk4Y2hEVmFDWEI0c19WUFp1YngwVzJzUQ?oc=5",
 "time": "2026-11-09T02:41:00+00:00",
 "stage": "후속"
 },
@@ -397,14 +404,32 @@
 "id": "3ZuWFB0U3RUMWVMbW5Scwoc50235",
 "first": "2026-11-09T02:35:18+00:00",
 "last": "2026-11-09T02:35:18+00:00",
-"updated": "2026-11-09T02:53:58.920969+00:00",
+"updated": "2026-11-09T02:56:13.284260+00:00",
 "headline": "'줄기세포 논문 조작' 황우석, 한국 국적 버렸다…UAE 국적 취득",
 "cat": "기타",
-"regions": [],
+"regions": [
+"서울"
+],
 "sources": [
+"경향신문",
+"조선일보",
 "프레시안"
 ],
 "updates": [
+{
+"title": "‘줄기세포 논문 조작’ 황우석, 한국 국적 상실… UAE 국민 됐다",
+"source": "조선일보",
+"link": "https://www.chosun.com/national/2026/11/09/RTEXMII7DFCHNHJ2JQFHRIFDP4/",
+"time": "2026-11-09T02:25:05+00:00",
+"stage": "후속"
+},
+{
+"title": "황우석 전 서울대 교수, UAE 국적 취득해 한국 국적 상실",
+"source": "경향신문",
+"link": "https://www.khan.co.kr/article/202611091126001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
+"time": "2026-11-09T02:26:00+00:00",
+"stage": "후속"
+},
 {
 "title": "[속보] '줄기세포 논문 조작' 황우석, 한국 국적 버렸다…UAE 국적 취득",
 "source": "프레시안",
@@ -417,12 +442,18 @@
 "latest": "'줄기세포 논문 조작' 황우석, 한국 국적 버렸다…UAE 국적 취득",
 "tok": [
 "UAE",
+"교수",
+"국민",
 "국적",
 "논문",
+"됐다",
 "버렸다",
+"상실",
+"서울대",
 "조작",
 "줄기세포",
 "취득",
+"취득해",
 "한국",
 "황우석"
 ]
@@ -3608,7 +3639,7 @@
 },
 "붕괴": {
 "n30": 3,
-"base": 0.1,
+"base": 0.2,
 "spike": false
 },
 "대피": {
@@ -3633,12 +3664,12 @@
 },
 "사고": {
 "n30": 5,
-"base": 3.7,
+"base": 3.9,
 "spike": false
 },
 "실종": {
 "n30": 2,
-"base": 1.2,
+"base": 1.3,
 "spike": false
 },
 "단수": {
@@ -3948,29 +3979,29 @@
 "n30": 6,
 "base": 0.8,
 "spike": true,
-"since": "2026-11-09T02:53:58.920969+00:00"
+"since": "2026-11-09T02:56:13.284260+00:00"
 },
 {
 "term": "속보",
 "n30": 7,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-09T02:53:58.920969+00:00"
+"since": "2026-11-09T02:56:13.284260+00:00"
 }
 ],
 "baseline": {
 "지진": 0.05,
-"화재": 0.51,
+"화재": 0.56,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.77,
-"붕괴": 0.24,
+"폭발": 0.69,
+"붕괴": 0.32,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
 "지하철": 0.05,
-"사고": 3.85,
-"실종": 1.29,
+"사고": 3.97,
+"실종": 1.36,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -4196,7 +4227,7 @@
 "link": "http://www.ksw-news.com/news/articleView.html?idxno=3058376"
 }
 ],
-"new": true
+"new": false
 },
 {
 "term": "항공 승무원",
@@ -4214,7 +4245,7 @@
 "link": "https://view.asiae.co.kr/article/2026110818283606331"
 }
 ],
-"new": true
+"new": false
 },
 {
 "term": "젠지",
@@ -4348,14 +4379,14 @@
 "time": "2026-11-09T00:00:00+00:00",
 "news": [
 {
+"title": "\"17만원 냈는데 앞사람 머리만 봤다\" 악뮤 콘서트 '혹평'…왜? - 머니투데이",
+"source": "머니투데이",
+"link": "https://www.mt.co.kr/entertainment/2026/11/08/2026110814103286435"
+},
+{
 "title": "악뮤 강릉 콘서트 시야 제한 논란…“17만 원 VIP석도 안 보여”",
 "source": "동아일보",
 "link": "https://www.donga.com/news/Society/article/all/20261109/134989499/1"
-},
-{
-"title": "“17만원 내고 뒤통수만”…악뮤 강릉 공연 관객 불만 속출",
-"source": "강원도민일보",
-"link": "https://www.kado.net/news/articleView.html?idxno=2083331"
 }
 ],
 "new": false
