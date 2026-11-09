@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-09T10:50:15.194376+00:00",
+"updated": "2026-11-09T10:52:31.678410+00:00",
 "errors": [],
 "events": [
 {
@@ -97,6 +97,36 @@
 "정의용",
 "징역",
 "혐의"
+]
+},
+{
+"id": "JSZ0VQTHZPUDcwZXRIMlUoc51035",
+"first": "2026-11-09T10:35:09+00:00",
+"last": "2026-11-09T10:35:09+00:00",
+"updated": "2026-11-09T10:52:31.678410+00:00",
+"headline": "靑 \"'조작기소 특검법' 17일 국무회의 상정 예정\"",
+"cat": "기타",
+"regions": [],
+"sources": [
+"뉴스1"
+],
+"updates": [
+{
+"title": "[속보] 靑 \"'조작기소 특검법' 17일 국무회의 상정 예정\"",
+"source": "뉴스1",
+"link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5aQW1hdEdibi1RSEVsdWVscmwxaHZYYnpWODlTV1FHcmV2WWxHQkotWkxPR0Y1bUpSbkdiejVxRkUwX0JRSXJrYUZOTTJSZ0VQTHZPUDcwZXRIMlU?oc=5",
+"time": "2026-11-09T10:35:09+00:00",
+"stage": "얼럿"
+}
+],
+"level": "URGENT",
+"latest": "靑 \"'조작기소 특검법' 17일 국무회의 상정 예정\"",
+"tok": [
+"17일",
+"국무회",
+"상정",
+"조작기소",
+"특검법"
 ]
 },
 {
@@ -2927,63 +2957,6 @@
 "턱걸",
 "하락"
 ]
-},
-{
-"id": "1pxNHVnTi1SZW9VMGhqQQoc50223",
-"first": "2026-11-09T02:23:00+00:00",
-"last": "2026-11-09T07:07:27+00:00",
-"updated": "2026-11-09T07:11:44.840697+00:00",
-"headline": "익산시, 축사 화재예방 400만 원 지원",
-"cat": "재난",
-"regions": [
-"전북"
-],
-"sources": [
-"서울경제TV",
-"연합뉴스",
-"익산열린신문"
-],
-"updates": [
-{
-"title": "익산시, 축사 화재예방 400만 원 지원",
-"source": "익산열린신문",
-"link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBZeU9zLTk3bG9VS1VxUDBGVkxtX2RvcTVQQy1rMUpuOTNJOTVSME0xdXJsdF9BLUNpMzd6RjlCNjVQM004azB6SkIzQ3RMQkVmdVVzaXFaTXk5NV9haG9BWklld1pxNHVnTi1SZW9VMGhqQQ?oc=5",
-"time": "2026-11-09T02:23:00+00:00",
-"stage": "1보"
-},
-{
-"title": "익산시, 겨울철 축사 화재 예방 총력… ‘축사화재 안전시스템’ 구축 지원",
-"source": "서울경제TV",
-"link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9hc1dickJzdE90d3ppQl9WUlVjaUNUaElfUGhSWm5PTVdpMDY5dGY1NFNSSjhER0tRMkVUV0pmakpWRTJfeE9GOGNJNjhEa2N4QXgtblB0aTFWSXNDMlZHTVdSalg?oc=5",
-"time": "2026-11-09T05:34:08+00:00",
-"stage": "후속"
-},
-{
-"title": "익산시, 축사 화재 안전시스템 구축…농가당 최대 400만원",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261109124400055",
-"time": "2026-11-09T07:07:27+00:00",
-"stage": "후속"
-}
-],
-"level": "URGENT",
-"latest": "익산시, 축사 화재 안전시스템 구축…농가당 최대 400만원",
-"tok": [
-"400만원",
-"겨울철",
-"구축",
-"농가당",
-"안전시스템",
-"예방",
-"익산시",
-"지원",
-"총력",
-"최대",
-"축사",
-"축사화재",
-"화재",
-"화재예방"
-]
 }
 ],
 "sns": {
@@ -3010,7 +2983,7 @@
 },
 "폭발": {
 "n30": 8,
-"base": 0.8,
+"base": 0.9,
 "spike": true
 },
 "붕괴": {
@@ -3035,12 +3008,12 @@
 },
 "지하철": {
 "n30": 4,
-"base": 2.6,
+"base": 2.7,
 "spike": false
 },
 "사고": {
 "n30": 2,
-"base": 2.6,
+"base": 2.5,
 "spike": false
 },
 "실종": {
@@ -3352,23 +3325,23 @@
 {
 "term": "폭발",
 "n30": 8,
-"base": 0.8,
+"base": 0.9,
 "spike": true,
-"since": "2026-11-09T10:50:15.194376+00:00"
+"since": "2026-11-09T10:52:31.678410+00:00"
 }
 ],
 "baseline": {
-"지진": 0.12,
+"지진": 0.11,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.89,
+"폭발": 1.0,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 2.67,
-"사고": 2.53,
+"지하철": 2.7,
+"사고": 2.48,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -3648,9 +3621,9 @@
 "time": "2026-11-09T09:00:00+00:00",
 "news": [
 {
-"title": "Pokhara set 218-run target for Karnali in NPL",
+"title": "Pokhara Avengers beat Karnali Yaks by 63 runs for first NPL win",
 "source": "Nepalnews.com",
-"link": "https://english.nepalnews.com/s/sports/pokhara-set-218-run-target-for-karnali-in-npl/"
+"link": "https://english.nepalnews.com/s/sports/pokhara-avengers-beat-karnali-yaks-by-63-runs-for-first-npl-win/"
 },
 {
 "title": "Yuvraj Samrat Scores First Half-Century in Nepal Premier League",
@@ -3739,8 +3712,8 @@
 "news": [
 {
 "title": "한전 에너지캐시백 가입자 200만호…제주 가정 1년 전력량 절약",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261109094200003"
+"source": "매일경제 마켓",
+"link": "https://stock.mk.co.kr/news/view/1193673"
 },
 {
 "title": "한전, 주택용 에너지캐시백 200만호 돌파…1025GWh 절감",
@@ -3761,9 +3734,9 @@
 "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008836764"
 },
 {
-"title": "“아이 훈육을 귀신에게?”…한국민속촌 ‘귀신 훈육’ 아동학대 논란",
-"source": "경기일보",
-"link": "https://www.kyeonggi.com/article/20261109580335"
+"title": "\"민속촌 참교육 중단해야\" '귀신 훈육' 아동학대 논란 [앵커리포트]",
+"source": "YTN",
+"link": "https://www.ytn.co.kr/_ln/0103_202611091416020041"
 }
 ],
 "new": false
