@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-09T21:53:14.943542+00:00",
+"updated": "2026-11-09T21:55:29.786428+00:00",
 "errors": [],
 "events": [
 {
@@ -62,7 +62,7 @@
 "id": "3pwVG5ZN3lzNkRyZUhIQQoc52139",
 "first": "2026-11-09T21:39:47+00:00",
 "last": "2026-11-09T21:45:00+00:00",
-"updated": "2026-11-09T21:53:14.943542+00:00",
+"updated": "2026-11-09T21:55:29.786428+00:00",
 "headline": "트럼프 \"이란戰 종식 긍정적 모멘텀…공격 재개 가능성 작아\"",
 "cat": "국제",
 "regions": [],
@@ -106,6 +106,13 @@
 "title": "[속보] 트럼프 “이란전 종식에 긍정적 흐름…재공격 가능성 낮아”",
 "source": "이투데이",
 "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5TYzJnZnZ1S210Ri1KaWFlSlBzdVp2bXVVQzBKcTJjS28xbUpXa3JMRDJwbUs1d2dIelBKUmhHTlNVSnJGektKdllHXzNudXgtdzdJcUFVUkROZDJHaHJtY3k1ZWlvUWJMdkxMOENZZnJFS3E1?oc=5",
+"time": "2026-11-09T21:45:00+00:00",
+"stage": "속보"
+},
+{
+"title": "[속보] 트럼프 “이란전 종식에 긍정적 흐름…재공격 가능성 낮아”",
+"source": "이투데이",
+"link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1xbEw0cWpib2Zvc2VNX1dsT3VnRTlOZXY2UWY5WUp3eEN4NEM2UVlSZmRvYWp6b2RDNzl6WEdZWngyS0lSNExUd1pKc3pmNUNPYVRfWQ?oc=5",
 "time": "2026-11-09T21:45:00+00:00",
 "stage": "속보"
 }
@@ -1207,7 +1214,7 @@
 "terms": {
 "지진": {
 "n30": 0,
-"base": 0.8,
+"base": 0.7,
 "spike": false
 },
 "화재": {
@@ -1221,14 +1228,14 @@
 "spike": false
 },
 "정전": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
 "폭발": {
-"n30": 5,
+"n30": 4,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "붕괴": {
 "n30": 1,
@@ -1246,9 +1253,9 @@
 "spike": false
 },
 "속보": {
-"n30": 5,
+"n30": 4,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "지하철": {
 "n30": 3,
@@ -1513,24 +1520,9 @@
 "url": "https://www.youtube.com/watch?v=iazjN22fJJQ"
 }
 ],
-"spikes": [
-{
-"term": "폭발",
-"n30": 5,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-09T21:53:14.943542+00:00"
-},
-{
-"term": "속보",
-"n30": 5,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-09T21:53:14.943542+00:00"
-}
-],
+"spikes": [],
 "baseline": {
-"지진": 0.69,
+"지진": 0.62,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
@@ -1780,7 +1772,7 @@
 "trends": [
 {
 "term": "아들",
-"traffic": "1000+",
+"traffic": "2000+",
 "time": "2026-11-09T20:40:00+00:00",
 "news": [
 {
@@ -1815,8 +1807,26 @@
 "new": true
 },
 {
+"term": "hd현대중공업",
+"traffic": "100+",
+"time": "2026-11-09T20:40:00+00:00",
+"news": [
+{
+"title": "HD한국조선해양, LNG 운반선 2척 6천629억원에 수주",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261109066600003"
+},
+{
+"title": "HD현대, LNG 운반석 2척 추가 수주…年 목표 93% 달성 - 머니투데이",
+"source": "머니투데이",
+"link": "https://www.mt.co.kr/industry/2026/11/09/2026110910492540718"
+}
+],
+"new": true
+},
+{
 "term": "드라마",
-"traffic": "1000+",
+"traffic": "2000+",
 "time": "2026-11-09T20:20:00+00:00",
 "news": [
 {
@@ -1936,24 +1946,6 @@
 "title": "MLB rumors: Why the Dodgers could be Tarik Skubal or bust; Red Sox looking for pitching depth",
 "source": "CBS Sports",
 "link": "https://www.cbssports.com/mlb/news/mlb-rumors-dodgers-tarik-skubal-contract-red-sox-pitching-depth/"
-}
-],
-"new": true
-},
-{
-"term": "신한은행",
-"traffic": "100+",
-"time": "2026-11-09T19:30:00+00:00",
-"news": [
-{
-"title": "[게시판] 신한은행, 최고 연 4% 정기예금 2차 특판",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261109038200002"
-},
-{
-"title": "신한은행, 연 4% 예금 '슈퍼SOL 웰컴 정기예금' 2차 특판",
-"source": "뉴시스",
-"link": "https://www.newsis.com/view/NISX20261109_0003859953"
 }
 ],
 "new": true
