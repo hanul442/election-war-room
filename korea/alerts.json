@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-09T14:56:47.816082+00:00",
+"updated": "2026-11-09T14:59:05.410988+00:00",
 "errors": [],
 "events": [
 {
@@ -2030,47 +2030,6 @@
 "젠슨",
 "캘리포니아"
 ]
-},
-{
-"id": "XNhNkc4VlVSQ2RkNTcwZwoc50843",
-"first": "2026-11-09T08:43:01+00:00",
-"last": "2026-11-09T08:58:09+00:00",
-"updated": "2026-11-09T09:02:46.721122+00:00",
-"headline": "호남고속도로 승용차 단독사고 처리중",
-"cat": "교통",
-"regions": [
-"부산",
-"울산"
-],
-"sources": [
-"스페셜타임스"
-],
-"updates": [
-{
-"title": "[속보] 호남고속도로 승용차 단독사고 처리중",
-"source": "스페셜타임스",
-"link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9jU2NpZHBxNTNXcjVkQW5fOWRXbDFSMTJ3SkZnNWQ4b3ZGTm5ZVTdfRVhQMmJrTk1aNWE0OVpPQUJIbFpiVTdVSzU4WlBVbmZhMDZYM2dZWG1wUUJTTFoxczFXWXNhNkc4VlVSQ2RkNTcwZw?oc=5",
-"time": "2026-11-09T08:43:01+00:00",
-"stage": "얼럿"
-},
-{
-"title": "[속보] 부산울산고속도로 화물차 단독사고 처리중",
-"source": "스페셜타임스",
-"link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1LWEFZR3Q3VnJ0NGw0MmhqcXhBc0xOV1hLcGQ0Rm9iaTdMcmRuQUdUd3VwcVI1R1pPbHpiejdManJlLUFjc2RsVlM0TEtZS1d3aUt5RDdwU1V2N1RRUnRXNnpMYUVoMTcydGFDS3JMalczdw?oc=5",
-"time": "2026-11-09T08:58:09+00:00",
-"stage": "속보"
-}
-],
-"level": "URGENT",
-"latest": "부산울산고속도로 화물차 단독사고 처리중",
-"tok": [
-"단독사고",
-"부산울산고속도",
-"승용차",
-"처리중",
-"호남고속도",
-"화물차"
-]
 }
 ],
 "sns": {
@@ -2096,13 +2055,13 @@
 "spike": false
 },
 "폭발": {
-"n30": 8,
-"base": 2.4,
+"n30": 7,
+"base": 2.3,
 "spike": true
 },
 "붕괴": {
 "n30": 0,
-"base": 0.7,
+"base": 0.6,
 "spike": false
 },
 "대피": {
@@ -2122,12 +2081,12 @@
 },
 "지하철": {
 "n30": 2,
-"base": 0.7,
+"base": 0.8,
 "spike": false
 },
 "사고": {
 "n30": 1,
-"base": 3.5,
+"base": 3.3,
 "spike": false
 },
 "실종": {
@@ -2269,16 +2228,6 @@
 "url": "https://www.youtube.com/watch?v=ndvyg00ucLY"
 },
 {
-"text": "다음주면 볼 수 있는가 예림온천 대폭발",
-"handle": "aplpie274884.bsky.social",
-"name": "앺파",
-"time": "2026-11-09T14:27:09.283Z",
-"likes": 1,
-"reposts": 0,
-"url": "https://bsky.app/profile/aplpie274884.bsky.social/post/3mzv52wqkkk2p",
-"term": "폭발"
-},
-{
 "platform": "YouTube",
 "text": "옹알이 폭발 #아기 #복복이 #baby #옹알이 #사랑해 #귀염둥이",
 "handle": "UClrivmPzw-hrNJsYf_FnpUA",
@@ -2408,24 +2357,24 @@
 "spikes": [
 {
 "term": "폭발",
-"n30": 8,
-"base": 2.4,
+"n30": 7,
+"base": 2.3,
 "spike": true,
-"since": "2026-11-09T14:56:47.816082+00:00"
+"since": "2026-11-09T14:59:05.410988+00:00"
 }
 ],
 "baseline": {
 "지진": 0.05,
-"화재": 0.16,
+"화재": 0.14,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 2.33,
-"붕괴": 0.62,
+"폭발": 2.2,
+"붕괴": 0.56,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.77,
-"사고": 3.29,
+"지하철": 0.79,
+"사고": 3.06,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
