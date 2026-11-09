@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-09T10:22:48.104725+00:00",
+"updated": "2026-11-09T10:25:09.172185+00:00",
 "errors": [],
 "events": [
 {
@@ -446,7 +446,7 @@
 "id": "2phSFJqcG5uMjJ6SGMwQQoc50927",
 "first": "2026-11-09T09:27:25+00:00",
 "last": "2026-11-09T09:27:25+00:00",
-"updated": "2026-11-09T09:32:31.406463+00:00",
+"updated": "2026-11-09T10:25:09.172185+00:00",
 "headline": "호남고속도로 대형화물차관련 사고처리중",
 "cat": "교통",
 "regions": [],
@@ -460,6 +460,13 @@
 "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBXR1RkUW00YzhNN09Sb3pZQVhmdUFWd3JoMjhKVU5yMzRZUEM4MHBwbUtqYXhyS1JKd0xOaTdRSjkzUkZYeENTdnlwR0hfWUJkYjhVTHFsQS1sVmlPTHg1TU82V2phSFJqcG5uMjJ6SGMwQQ?oc=5",
 "time": "2026-11-09T09:27:25+00:00",
 "stage": "얼럿"
+},
+{
+"title": "[속보] 호남고속도로 대형화물차관련 사고처리중",
+"source": "스페셜타임스",
+"link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5Va0FseVNyT2MwV0dLQ3A0X1Z0RUZ5WTBzU3B1RXZCM3EyeU9GemtOSVpKdXZQMWhUdGJ5a1BFYmdHeGhqY0drWGIxeTRyLXc4WHR3bkp2YmhjVlRWYUZfaVdRT3lfUDdFTGtTWnVwVzFjdms?oc=5",
+"time": "2026-11-09T09:27:25+00:00",
+"stage": "속보"
 }
 ],
 "level": "URGENT",
@@ -2978,7 +2985,7 @@
 "terms": {
 "지진": {
 "n30": 1,
-"base": 0.5,
+"base": 0.4,
 "spike": false
 },
 "화재": {
@@ -2997,9 +3004,9 @@
 "spike": false
 },
 "폭발": {
-"n30": 7,
+"n30": 4,
 "base": 0.2,
-"spike": true
+"spike": false
 },
 "붕괴": {
 "n30": 1,
@@ -3023,7 +3030,7 @@
 },
 "지하철": {
 "n30": 8,
-"base": 3.9,
+"base": 3.7,
 "spike": false
 },
 "사고": {
@@ -3058,6 +3065,16 @@
 }
 },
 "posts": [
+{
+"text": "지하철에서 뇌녹았냐 내가보내준 사진보고",
+"handle": "rouip.bsky.social",
+"name": "rouip.bsky.social",
+"time": "2026-11-09T10:22:48.673Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/rouip.bsky.social/post/3mzupfyiggk26",
+"term": "지하철"
+},
 {
 "text": "엔딩크레딧 ㅈㄴ두렵다곤 들엇는데\n솔직히 웃겻다\n패치개상사고 치트 조뺑이 치는게",
 "handle": "gallbitang.bsky.social",
@@ -3245,7 +3262,7 @@
 "handle": "yuza-cha.bsky.social",
 "name": "유자스무디샷추가(리뉴얼됨)",
 "time": "2026-11-09T09:57:16.273Z",
-"likes": 2,
+"likes": 3,
 "reposts": 0,
 "url": "https://bsky.app/profile/yuza-cha.bsky.social/post/3mzunydk6mk2x",
 "term": "지하철"
@@ -3276,39 +3293,21 @@
 "time": "2026-11-09T09:54:01Z",
 "term": "폭발",
 "url": "https://www.youtube.com/watch?v=uFbfz2C-S6s"
-},
-{
-"text": "지하철 갈아탈때마다 악취의 정류가 바뀐다 지금 경의중앙선은 고양이 화장실 냄새가 나네요",
-"handle": "hitowa0806.bsky.social",
-"name": "WA",
-"time": "2026-11-09T09:53:29.473Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/hitowa0806.bsky.social/post/3mzunrkkbk22y",
-"term": "지하철"
 }
 ],
-"spikes": [
-{
-"term": "폭발",
-"n30": 7,
-"base": 0.2,
-"spike": true,
-"since": "2026-11-09T10:22:48.104725+00:00"
-}
-],
+"spikes": [],
 "baseline": {
-"지진": 0.41,
+"지진": 0.37,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.18,
+"폭발": 0.16,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 3.69,
-"사고": 1.42,
+"지하철": 3.52,
+"사고": 1.48,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -3511,6 +3510,24 @@
 },
 "trends": [
 {
+"term": "가상자산",
+"traffic": "200+",
+"time": "2026-11-09T09:20:00+00:00",
+"news": [
+{
+"title": "대법, 가상자산 압류·현금화 절차 마련",
+"source": "매일경제",
+"link": "https://www.mk.co.kr/news/society/12202498"
+},
+{
+"title": "못 받은 돈, 채무자 코인 팔아 회수…대법원, 집행 절차 정비 - 머니투데이",
+"source": "머니투데이",
+"link": "https://www.mt.co.kr/society/2026/11/09/2026110915384474564"
+}
+],
+"new": true
+},
+{
 "term": "김부선",
 "traffic": "2000+",
 "time": "2026-11-09T09:10:00+00:00",
@@ -3530,7 +3547,7 @@
 },
 {
 "term": "nepal premier league",
-"traffic": "100+",
+"traffic": "200+",
 "time": "2026-11-09T09:00:00+00:00",
 "news": [
 {
@@ -3620,7 +3637,7 @@
 },
 {
 "term": "에너지",
-"traffic": "200+",
+"traffic": "500+",
 "time": "2026-11-09T07:50:00+00:00",
 "news": [
 {
@@ -3647,9 +3664,9 @@
 "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008836764"
 },
 {
-"title": "“아이 훈육을 귀신에게?”…한국민속촌 ‘귀신 훈육’ 아동학대 논란",
-"source": "경기일보",
-"link": "https://www.kyeonggi.com/article/20261109580335"
+"title": "\"민속촌 참교육 중단해야\" '귀신 훈육' 아동학대 논란 [앵커리포트]",
+"source": "YTN",
+"link": "https://www.ytn.co.kr/_ln/0103_202611091416020041"
 }
 ],
 "new": false
@@ -3671,24 +3688,6 @@
 }
 ],
 "new": true
-},
-{
-"term": "천무 다연장로켓",
-"traffic": "200+",
-"time": "2026-11-09T06:50:00+00:00",
-"news": [
-{
-"title": "한화에어로, 천무 해상 사격 시험… 무인수상정 탑재 추진",
-"source": "Chosunbiz",
-"link": "https://biz.chosun.com/industry/company/2026/11/09/MFAUDA76S5FGBCLNWX6SX4DZJA/"
-},
-{
-"title": "한화오션 미국 해군 중형상륙함 수주는 '미미' 평가, 블룸버그 \"한국 조선업체 투자 유인할 추가 발주 필요\"",
-"source": "비즈니스포스트",
-"link": "https://www.businesspost.co.kr/BP?command=article_view&num=451483"
-}
-],
-"new": false
 }
 ],
 "trendSeen": [
