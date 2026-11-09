@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-09T10:09:06.716413+00:00",
+"updated": "2026-11-09T10:11:24.758594+00:00",
 "errors": [],
 "events": [
 {
@@ -2954,7 +2954,7 @@
 "sns": {
 "terms": {
 "지진": {
-"n30": 2,
+"n30": 1,
 "base": 0.8,
 "spike": false
 },
@@ -2975,7 +2975,7 @@
 },
 "폭발": {
 "n30": 7,
-"base": 0.4,
+"base": 0.3,
 "spike": true
 },
 "붕괴": {
@@ -2999,13 +2999,13 @@
 "spike": false
 },
 "지하철": {
-"n30": 12,
-"base": 4.0,
-"spike": true
+"n30": 11,
+"base": 4.2,
+"spike": false
 },
 "사고": {
 "n30": 1,
-"base": 1.5,
+"base": 1.4,
 "spike": false
 },
 "실종": {
@@ -3273,46 +3273,29 @@
 "reposts": 0,
 "url": "https://bsky.app/profile/hitowa0806.bsky.social/post/3mzunhkzcd22y",
 "term": "지하철"
-},
-{
-"text": "【지진 정보】일본 시간 11월 9일 18:35경\n진원: Southern Nagano Prefecture (M2.3, 깊이 약 10km)\n최대 진도: 1\n진도 1: 나가노현\n이 지진으로 인한 쓰나미 걱정은 없습니다.\n(일본 기상청 발표)\n#일본 #지진 #방재",
-"handle": "ko.soramoyou.yk-planning.jp",
-"name": "Soramoyou 한국어",
-"time": "2026-11-09T09:40:33.319Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/ko.soramoyou.yk-planning.jp/post/3mzun2hdhnr23",
-"term": "지진"
 }
 ],
 "spikes": [
 {
 "term": "폭발",
 "n30": 7,
-"base": 0.4,
+"base": 0.3,
 "spike": true,
-"since": "2026-11-09T10:09:06.716413+00:00"
-},
-{
-"term": "지하철",
-"n30": 12,
-"base": 4.0,
-"spike": true,
-"since": "2026-11-09T10:09:06.716413+00:00"
+"since": "2026-11-09T10:11:24.758594+00:00"
 }
 ],
 "baseline": {
-"지진": 0.78,
+"지진": 0.7,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.33,
+"폭발": 0.3,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 4.17,
-"사고": 1.43,
+"지하철": 4.25,
+"사고": 1.39,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -3664,9 +3647,9 @@
 "time": "2026-11-09T06:50:00+00:00",
 "news": [
 {
-"title": "한화에어로스페이스, 육상용 ‘천무’ 바다에서 쏜다…美 무인함정 시장 공략",
-"source": "조선일보",
-"link": "https://www.chosun.com/economy/industry-company/2026/11/09/7MFLUFVJQRHAHGO6FKCDX5LWEU/"
+"title": "한화에어로, 천무 해상 사격 시험… 무인수상정 탑재 추진",
+"source": "Chosunbiz",
+"link": "https://biz.chosun.com/industry/company/2026/11/09/MFAUDA76S5FGBCLNWX6SX4DZJA/"
 },
 {
 "title": "한화오션 미국 해군 중형상륙함 수주는 '미미' 평가, 블룸버그 \"한국 조선업체 투자 유인할 추가 발주 필요\"",
