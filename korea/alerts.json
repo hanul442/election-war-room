@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-09T04:37:05.096634+00:00",
+"updated": "2026-11-09T04:39:18.994647+00:00",
 "errors": [],
 "events": [
 {
@@ -3408,7 +3408,7 @@
 },
 "화재": {
 "n30": 1,
-"base": 0.7,
+"base": 0.8,
 "spike": false
 },
 "불났": {
@@ -3423,11 +3423,11 @@
 },
 "폭발": {
 "n30": 1,
-"base": 0.7,
+"base": 0.8,
 "spike": false
 },
 "붕괴": {
-"n30": 2,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
@@ -3442,7 +3442,7 @@
 "spike": false
 },
 "속보": {
-"n30": 3,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
@@ -3453,12 +3453,12 @@
 },
 "사고": {
 "n30": 3,
-"base": 2.2,
+"base": 2.3,
 "spike": false
 },
 "실종": {
-"n30": 0,
-"base": 1.2,
+"n30": 1,
+"base": 1.1,
 "spike": false
 },
 "단수": {
@@ -3483,6 +3483,16 @@
 }
 },
 "posts": [
+{
+"text": "몸의 면역력이 실종된듯",
+"handle": "niniing.bsky.social",
+"name": "니닝",
+"time": "2026-11-09T04:38:52.572Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/niniing.bsky.social/post/3mzu46yygss2u",
+"term": "실종"
+},
 {
 "text": "나두 치이카와 도시락통 사고 싶...ㅜㅜㅋㅋ",
 "handle": "karussell.bsky.social",
@@ -3735,17 +3745,17 @@
 "spikes": [],
 "baseline": {
 "지진": 0.05,
-"화재": 0.77,
+"화재": 0.79,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.77,
-"붕괴": 0.13,
-"대피": 0.22,
+"폭발": 0.79,
+"붕괴": 0.12,
+"대피": 0.2,
 "미사일": 0.05,
 "속보": 0.05,
 "지하철": 0.05,
-"사고": 2.33,
-"실종": 1.09,
+"사고": 2.4,
+"실종": 1.08,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -4058,14 +4068,14 @@
 "time": "2026-11-09T02:20:00+00:00",
 "news": [
 {
-"title": "옥주현 한남더힐 경매 사태…\"50억으로 400억 당겼다가 청산된 것\"",
-"source": "뉴스1",
-"link": "https://www.news1.kr/realestate/general/6346754"
-},
-{
 "title": "‘190억이 경매로’…옥주현 사는 한남동 최고가 아파트는[누구집]",
 "source": "이데일리",
 "link": "https://www.edaily.co.kr/News/Read?newsId=01131606645643752&mediaCodeNo=257"
+},
+{
+"title": "옥주현 한남더힐 경매 사태…\"50억으로 400억 당겼다가 청산된 것\"",
+"source": "뉴스1",
+"link": "https://www.news1.kr/realestate/general/6346754"
 }
 ],
 "new": false
@@ -4099,9 +4109,9 @@
 "link": "https://science.ytn.co.kr/program/program_view.php?s_mcd=0082&key=202611091145519412&s_hcd="
 },
 {
-"title": "방사청, 국방분야 AI 선도연구기관 선정…'기관-기업 협력 촉진'",
-"source": "뉴시스",
-"link": "https://www.newsis.com/view/NISX20261109_0003859756"
+"title": "방사청, KAIST·ETRI·LG와 '국방 AI 거점' 구축…민간 혁신기술로 방산 체질 개선",
+"source": "파이낸셜뉴스",
+"link": "https://www.fnnews.com/news/202611090921395493"
 }
 ],
 "new": false
