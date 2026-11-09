@@ -1,35 +1,97 @@
 {
-"updated": "2026-11-09T23:30:42.573913+00:00",
+"updated": "2026-11-09T23:32:55.520500+00:00",
 "errors": [],
 "events": [
 {
 "id": "wNISX20261110_00038612452327",
 "first": "2026-11-09T23:27:43+00:00",
-"last": "2026-11-09T23:27:43+00:00",
-"updated": "2026-11-09T23:30:42.573913+00:00",
+"last": "2026-11-09T23:29:00+00:00",
+"updated": "2026-11-09T23:32:55.520500+00:00",
 "headline": "NHN, 3분기 영업익 588억…전년比 112.6%↑",
 "cat": "기타",
 "regions": [],
 "sources": [
-"뉴시스"
+"뉴시스",
+"데일리안",
+"연합뉴스"
 ],
 "updates": [
+{
+"title": "NHN KCP, 3분기 매출 3867억…전년比 22%↑",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261110_0003861300",
+"time": "2026-11-09T23:14:57+00:00",
+"stage": "후속"
+},
+{
+"title": "NHN 3분기 영업이익 588억원…112.7%↑",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261110026000527",
+"time": "2026-11-09T23:24:46+00:00",
+"stage": "후속"
+},
 {
 "title": "[속보] NHN, 3분기 영업익 588억…전년比 112.6%↑",
 "source": "뉴시스",
 "link": "https://www.newsis.com/view/NISX20261110_0003861245",
 "time": "2026-11-09T23:27:43+00:00",
 "stage": "얼럿"
+},
+{
+"title": "[속보] NHN, 3분기 영업이익 587억…전년비 112.6%↑",
+"source": "데일리안",
+"link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPT3RMYTFTVUp6WWJYSkdPVF96ZWtDckRxbkRUd0FzeW5ReE9HT0xMUjBIUmFESHFCTzhCS0pLaFdEMG45TUhjbXdFaHNoaHNZemFCenRDMnNaaW41RXF1SUhqZWxlb3g2RFJIa1NWMndOU0dQaFRXYzhsR1J6a3pwTk44Y0pSM0N1M3lkWWZiN0pQVG9IWTRrbnQ2d29hRG84WGJid1dPYnozdHZpS1c4ZV9DRlZBcmtGOGNsUERmdTBwaS1fbFJWaW9LOS1LMGozRkotSTVxMC0?oc=5",
+"time": "2026-11-09T23:29:00+00:00",
+"stage": "속보"
 }
 ],
 "level": "URGENT",
-"latest": "NHN, 3분기 영업익 588억…전년比 112.6%↑",
+"latest": "NHN, 3분기 영업이익 587억…전년비 112.6%↑",
 "tok": [
+"3867억",
 "3분기",
+"587억",
 "588억",
+"588억원",
+"KCP",
 "NHN",
+"매출",
+"영업이익",
 "영업익",
-"전년比"
+"전년比",
+"전년비"
+]
+},
+{
+"id": "xYnJEd1NERVRWeHJ5TDBkoc52329",
+"first": "2026-11-09T23:29:00+00:00",
+"last": "2026-11-09T23:29:00+00:00",
+"updated": "2026-11-09T23:32:55.520500+00:00",
+"headline": "남해고속도로 북창원 부근 사고 발생",
+"cat": "교통",
+"regions": [
+"경남"
+],
+"sources": [
+"이투데이"
+],
+"updates": [
+{
+"title": "[속보] 남해고속도로 북창원 부근 사고 발생",
+"source": "이투데이",
+"link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1GWXZtNktSaEFJWkhZcFBPOFZyMVQ2WE5QNEUzejVHd2NkN0ZmU2FEeUNjanZ5T1I2alBqUmptd3drYUtiWjV4ZUs5R1FBWlFoZHVCNXNVMEVzYk55SG5jMGxuRm9xYnJEd1NERVRWeHJ5TDBk?oc=5",
+"time": "2026-11-09T23:29:00+00:00",
+"stage": "얼럿"
+}
+],
+"level": "URGENT",
+"latest": "남해고속도로 북창원 부근 사고 발생",
+"tok": [
+"남해고속도",
+"발생",
+"부근",
+"북창원",
+"사고"
 ]
 },
 {
@@ -2240,7 +2302,7 @@
 },
 "폭발": {
 "n30": 5,
-"base": 0.5,
+"base": 0.4,
 "spike": true
 },
 "붕괴": {
@@ -2265,17 +2327,17 @@
 },
 "지하철": {
 "n30": 7,
-"base": 3.1,
+"base": 3.0,
 "spike": false
 },
 "사고": {
-"n30": 0,
+"n30": 1,
 "base": 0.5,
 "spike": false
 },
 "실종": {
 "n30": 1,
-"base": 0.1,
+"base": 0.2,
 "spike": false
 },
 "단수": {
@@ -2300,6 +2362,16 @@
 }
 },
 "posts": [
+{
+"text": "예전엔 좋아하면 썰도 풀고 연성 찾아다니고 굿즈도 사고 그랬지만 지금은 귀찮고 웹소 읽는 거로 도파민 충족하면 끝. 귀찮아~",
+"handle": "b-oxomo.bsky.social",
+"name": "해인",
+"time": "2026-11-09T23:31:10.878Z",
+"likes": 2,
+"reposts": 0,
+"url": "https://bsky.app/profile/b-oxomo.bsky.social/post/3mzw3hpwlmk2y",
+"term": "사고"
+},
 {
 "text": "출퇴근길 지하철 인파는 슬프다 나도 슬프고 너도 슬프다 모두가 슬프다 행복하지 않다",
 "handle": "paduck22.bsky.social",
@@ -2561,16 +2633,16 @@
 {
 "term": "폭발",
 "n30": 5,
-"base": 0.5,
+"base": 0.4,
 "spike": true,
-"since": "2026-11-09T23:30:42.573913+00:00"
+"since": "2026-11-09T23:32:55.520500+00:00"
 },
 {
 "term": "속보",
 "n30": 6,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-09T23:30:42.573913+00:00"
+"since": "2026-11-09T23:32:55.520500+00:00"
 }
 ],
 "baseline": {
@@ -2578,14 +2650,14 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.41,
-"붕괴": 0.51,
+"폭발": 0.37,
+"붕괴": 0.56,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 3.0,
-"사고": 0.48,
-"실종": 0.24,
+"지하철": 2.9,
+"사고": 0.53,
+"실종": 0.32,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
