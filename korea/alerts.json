@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-09T22:34:00.784149+00:00",
+"updated": "2026-11-09T22:36:15.306535+00:00",
 "errors": [],
 "events": [
 {
@@ -64,6 +64,39 @@
 "통제력",
 "해명",
 "훈련"
+]
+},
+{
+"id": "viewAKR202611100089000712231",
+"first": "2026-11-09T22:31:15+00:00",
+"last": "2026-11-09T22:31:15+00:00",
+"updated": "2026-11-09T22:36:15.306535+00:00",
+"headline": "美의회 외교안보 상임위 수장에 '한미동맹 강조' 지한파 유력",
+"cat": "재난",
+"regions": [],
+"sources": [
+"연합뉴스"
+],
+"updates": [
+{
+"title": "美의회 외교안보 상임위 수장에 '한미동맹 강조' 지한파 유력",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261110008900071",
+"time": "2026-11-09T22:31:15+00:00",
+"stage": "1보"
+}
+],
+"level": "ALERT",
+"latest": "美의회 외교안보 상임위 수장에 '한미동맹 강조' 지한파 유력",
+"tok": [
+"美의회",
+"강조",
+"상임위",
+"수장",
+"외교안보",
+"유력",
+"지한파",
+"한미동맹"
 ]
 },
 {
@@ -160,7 +193,7 @@
 "id": "3pwVG5ZN3lzNkRyZUhIQQoc52139",
 "first": "2026-11-09T21:39:47+00:00",
 "last": "2026-11-09T22:27:45+00:00",
-"updated": "2026-11-09T22:34:00.784149+00:00",
+"updated": "2026-11-09T22:36:15.306535+00:00",
 "headline": "트럼프 \"이란戰 종식 긍정적 모멘텀…공격 재개 가능성 작아\"",
 "cat": "국제",
 "regions": [],
@@ -180,6 +213,13 @@
 "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE4zSDF6TkxJMVc3R3Q0dFpVOUlpZVlfVjFvb0ZXOW1OUVdHZEg3Vk52OWVqMEUxeV80UGNETmU0Q18zYlJUUTdUay1xX1ZhclBIcllSUzRndkJfcXpKeFRwaUFNYkJpaVZpNm1pbDNLN3hxRFhOTk1LcWNkWdIBgAFBVV95cUxOU0dkXzE3TUF1cmMwUWdmUXQwamcyVWRPQm85eF9MUDdsWWVydjZvRFlfcDI2MUx2WkJkUm5EMHhoZkJNa3JqV3FlM0E5M3VDcHlQSmdmcUhMeng1cTBHS3AyQ2dqRGFhSUlRZ3BBRV9sRFVxV0l6WjUwTi1hTTBObA?oc=5",
 "time": "2026-11-09T21:15:00+00:00",
 "stage": "속보"
+},
+{
+"title": "트럼프, 이란 공격 가능성에 \"우리가 원하면 언제든 준비돼\"",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261110010000071",
+"time": "2026-11-09T21:24:21+00:00",
+"stage": "후속"
 },
 {
 "title": "[속보] 트럼프 \"이란戰 종식 긍정적 모멘텀…공격 재개 가능성 작아\"",
@@ -253,6 +293,9 @@
 "긍정적",
 "낮아",
 "모멘텀",
+"언제든",
+"우리",
+"원하면",
 "이란",
 "이란戰",
 "이란전",
@@ -261,6 +304,7 @@
 "재공격",
 "전쟁",
 "종식",
+"준비돼",
 "트럼프",
 "흐름"
 ]
@@ -1636,7 +1680,7 @@
 "spike": false
 },
 "화재": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -1671,7 +1715,7 @@
 "spike": false
 },
 "속보": {
-"n30": 4,
+"n30": 2,
 "base": 0.1,
 "spike": false
 },
@@ -1682,7 +1726,7 @@
 },
 "사고": {
 "n30": 2,
-"base": 0.8,
+"base": 0.9,
 "spike": false
 },
 "실종": {
@@ -1951,7 +1995,7 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 0.11,
+"지진": 0.1,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
@@ -1961,7 +2005,7 @@
 "미사일": 0.05,
 "속보": 0.05,
 "지하철": 0.05,
-"사고": 0.9,
+"사고": 1.01,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
