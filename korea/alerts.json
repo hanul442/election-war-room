@@ -1,19 +1,21 @@
 {
-"updated": "2026-11-09T22:22:45.497188+00:00",
+"updated": "2026-11-09T22:24:59.908539+00:00",
 "errors": [],
 "events": [
 {
 "id": "viewAKR202611100145000712204",
 "first": "2026-11-09T22:04:53+00:00",
-"last": "2026-11-09T22:10:26+00:00",
-"updated": "2026-11-09T22:18:14.968694+00:00",
+"last": "2026-11-09T22:23:19+00:00",
+"updated": "2026-11-09T22:24:59.908539+00:00",
 "headline": "트럼프 \"젠슨 황과 통화…문제의 인물 스파이인줄 몰랐다 한다\"",
 "cat": "국제",
 "regions": [],
 "sources": [
 "블록미디어",
 "연합뉴스",
-"이투데이"
+"이투데이",
+"조선일보",
+"한국경제"
 ],
 "updates": [
 {
@@ -22,6 +24,13 @@
 "link": "https://www.yna.co.kr/view/AKR20261110014500071",
 "time": "2026-11-09T22:04:53+00:00",
 "stage": "얼럿"
+},
+{
+"title": "[속보] 트럼프 \"젠슨 황과 통화…스파이인줄 몰랐다 한다\"",
+"source": "한국경제",
+"link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBsWkRsaTV0TjB4amxNYlYxaG5yaXhfa2RoVmx0UFNNZ3B2QUxSMGgwOVJreExVX0dmVW45ZkRkR0JwZmdpZFNxSktnMzhWRDNJNjZpakZNXzQ2dw?oc=5",
+"time": "2026-11-09T22:06:10+00:00",
+"stage": "속보"
 },
 {
 "title": "[속보] 트럼프 \"젠슨 황과 통화…스파이인줄 몰랐다 해\"",
@@ -36,14 +45,24 @@
 "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9aTWdxSXFkNHlULUlpTDRlbVk4ay04UEF6cXVNcS1zckdWNmhJeDRhN2M5US1EUmc4NmJxa1V1MXBza2c2MEdyTnNxZGdNMkZkZmpCSm5HZ3o?oc=5",
 "time": "2026-11-09T22:10:26+00:00",
 "stage": "속보"
+},
+{
+"title": "[속보] 트럼프 “젠슨 황, 스파이인줄 몰랐다고 말해… 그를 믿는다”",
+"source": "조선일보",
+"link": "https://www.chosun.com/international/us/2026/11/10/ETYRLGINVFHNTCQBU5KZIAPAQE/",
+"time": "2026-11-09T22:23:19+00:00",
+"stage": "속보"
 }
 ],
 "level": "URGENT",
-"latest": "트럼프 “젠슨 황과 통화…문제의 인물이 스파이인 줄 몰랐다고 해”",
+"latest": "트럼프 “젠슨 황, 스파이인줄 몰랐다고 말해… 그를 믿는다”",
 "tok": [
+"그를",
+"말해",
 "몰랐다",
 "몰랐다고",
 "문제",
+"믿는다",
 "스파이인",
 "스파이인줄",
 "인물",
@@ -52,6 +71,37 @@
 "트럼프",
 "한다",
 "황과"
+]
+},
+{
+"id": "viewAKR202611100158000712219",
+"first": "2026-11-09T22:19:31+00:00",
+"last": "2026-11-09T22:19:31+00:00",
+"updated": "2026-11-09T22:24:59.908539+00:00",
+"headline": "트럼프 \"헤그세스 국방장관 탄핵돼도 계속 지지하겠다\"",
+"cat": "정치",
+"regions": [],
+"sources": [
+"연합뉴스"
+],
+"updates": [
+{
+"title": "[속보] 트럼프 \"헤그세스 국방장관 탄핵돼도 계속 지지하겠다\"",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261110015800071",
+"time": "2026-11-09T22:19:31+00:00",
+"stage": "얼럿"
+}
+],
+"level": "BULLETIN",
+"latest": "트럼프 \"헤그세스 국방장관 탄핵돼도 계속 지지하겠다\"",
+"tok": [
+"계속",
+"국방장관",
+"지지하겠다",
+"탄핵돼",
+"트럼프",
+"헤그세스"
 ]
 },
 {
@@ -1582,7 +1632,7 @@
 },
 "사고": {
 "n30": 1,
-"base": 0.1,
+"base": 0.2,
 "spike": false
 },
 "실종": {
@@ -1845,18 +1895,18 @@
 "n30": 9,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-09T22:22:45.497188+00:00"
+"since": "2026-11-09T22:24:59.908539+00:00"
 },
 {
 "term": "속보",
 "n30": 7,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-09T22:22:45.497188+00:00"
+"since": "2026-11-09T22:24:59.908539+00:00"
 }
 ],
 "baseline": {
-"지진": 0.18,
+"지진": 0.16,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
@@ -1866,7 +1916,7 @@
 "미사일": 0.05,
 "속보": 0.05,
 "지하철": 0.05,
-"사고": 0.24,
+"사고": 0.32,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -2096,8 +2146,44 @@
 },
 "trends": [
 {
+"term": "fable 5.2",
+"traffic": "100+",
+"time": "2026-11-09T21:20:00+00:00",
+"news": [
+{
+"title": "Anthropic Unveils New AI Models Commanding 1,000 Agents",
+"source": "조선일보",
+"link": "https://www.chosun.com/english/industry-en/2026/11/10/JZUGSKIAJNDF5BSQTA5BH3NIMY/"
+},
+{
+"title": "Anthropic's New AI Can Design Hardware, Find Cybersecurity Flaws And Solve Physics Problems",
+"source": "Benzinga",
+"link": "https://www.benzinga.com/markets/private-markets/26/11/63066268/anthropics-new-ai-can-design-hardware-find-cybersecurity-flaws-and-solve-physics-problems"
+}
+],
+"new": true
+},
+{
+"term": "알테오젠",
+"traffic": "1000+",
+"time": "2026-11-09T21:20:00+00:00",
+"news": [
+{
+"title": "[특징주] 알테오젠, 美 약가협상 규정 확정에 15% 급락…SC 전환 수익성 우려",
+"source": "Chosunbiz",
+"link": "https://biz.chosun.com/stock/stock_general/2026/11/09/UZES6NYL4JFW5FOP6QH3QOSVWQ/"
+},
+{
+"title": "알테오젠 키트루다SC, 유럽 위탁제조사도 특허소송 대상",
+"source": "PRESS9",
+"link": "https://www.press9.kr/news/articleView.html?idxno=85795"
+}
+],
+"new": false
+},
+{
 "term": "황성빈",
-"traffic": "200+",
+"traffic": "500+",
 "time": "2026-11-09T21:10:00+00:00",
 "news": [
 {
@@ -2115,7 +2201,7 @@
 },
 {
 "term": "그랜드 테프트 오토 vi",
-"traffic": "200+",
+"traffic": "500+",
 "time": "2026-11-09T21:10:00+00:00",
 "news": [
 {
@@ -2216,50 +2302,14 @@
 "time": "2026-11-09T20:40:00+00:00",
 "news": [
 {
-"title": "“예쁘던데…아들 여자친구야?” 반전의 진실[아하동남아]",
-"source": "문화일보",
-"link": "https://www.munhwa.com/article/11629557"
-},
-{
-"title": "\"여자 친구인 줄 알았는데\"…18세 아들 둔 45세 엄마, 놀라운 동안 미모",
-"source": "뉴스1",
-"link": "https://www.news1.kr/world/global-topic/6347621"
-}
-],
-"new": true
-},
-{
-"term": "xrp 레저",
-"traffic": "1000+",
-"time": "2026-11-09T20:40:00+00:00",
-"news": [
-{
-"title": "XRP 레저가 구닥다리?...리플 \"2027년 판 뒤집을 계획 있다\"",
-"source": "코인리더스",
-"link": "https://www.coinreaders.com/268670"
-},
-{
-"title": "XRP는 리플의 북극성: CEO, ‘XRP에 유익한 일’을 전략의 핵심으로 삼아",
-"source": "Bitcoin News",
-"link": "https://news.bitcoin.com/ko/featured/xrp-neun-rip-peul-ui-bukgeukseong-ceo-xrp-e-yuikhan-il-eul-jeonryag-ui-haegsim-euro-sama/"
-}
-],
-"new": true
-},
-{
-"term": "hd현대중공업",
-"traffic": "100+",
-"time": "2026-11-09T20:40:00+00:00",
-"news": [
-{
-"title": "HD한국조선해양, LNG 운반선 2척 6천629억원에 수주",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261109066600003"
-},
-{
-"title": "HD현대, LNG 운반석 2척 추가 수주…年 목표 93% 달성 - 머니투데이",
+"title": "'34개월 아들 학대' 아내의 충격 과거...\"4명의 엄마에게 가정폭력\" - 머니투데이",
 "source": "머니투데이",
-"link": "https://www.mt.co.kr/industry/2026/11/09/2026110910492540718"
+"link": "https://www.mt.co.kr/entertainment/2026/11/09/2026110908363839853"
+},
+{
+"title": "'결혼 지옥' 아내, 아동학대 피해자였다 \"일주일에 6일은 맞아\"",
+"source": "iMBC 연예",
+"link": "https://enews.imbc.com/News/RetrieveNewsInfo/524198"
 }
 ],
 "new": true
