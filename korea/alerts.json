@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-09T14:59:05.410988+00:00",
+"updated": "2026-11-09T15:01:23.725433+00:00",
 "errors": [],
 "events": [
 {
@@ -2041,7 +2041,7 @@
 },
 "화재": {
 "n30": 1,
-"base": 0.2,
+"base": 0.1,
 "spike": false
 },
 "불났": {
@@ -2055,9 +2055,9 @@
 "spike": false
 },
 "폭발": {
-"n30": 7,
-"base": 2.3,
-"spike": true
+"n30": 6,
+"base": 2.2,
+"spike": false
 },
 "붕괴": {
 "n30": 0,
@@ -2070,7 +2070,7 @@
 "spike": false
 },
 "미사일": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -2080,13 +2080,13 @@
 "spike": false
 },
 "지하철": {
-"n30": 2,
+"n30": 0,
 "base": 0.8,
 "spike": false
 },
 "사고": {
 "n30": 1,
-"base": 3.3,
+"base": 3.1,
 "spike": false
 },
 "실종": {
@@ -2189,16 +2189,6 @@
 "reposts": 0,
 "url": "https://bsky.app/profile/jimin3572.bsky.social/post/3mzv5eeghec2l",
 "term": "폭발"
-},
-{
-"text": "와!!!지굼 지하철 안 술 냄새 장난 아니네!!!!!!!!",
-"handle": "mayonnais.bsky.social",
-"name": "そばパン",
-"time": "2026-11-09T14:30:36.286Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/mayonnais.bsky.social/post/3mzv5b3rgg22y",
-"term": "지하철"
 },
 {
 "platform": "YouTube",
@@ -2354,27 +2344,19 @@
 "url": "https://www.youtube.com/watch?v=DSWi-ruBCAI"
 }
 ],
-"spikes": [
-{
-"term": "폭발",
-"n30": 7,
-"base": 2.3,
-"spike": true,
-"since": "2026-11-09T14:59:05.410988+00:00"
-}
-],
+"spikes": [],
 "baseline": {
 "지진": 0.05,
-"화재": 0.14,
+"화재": 0.13,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 2.2,
-"붕괴": 0.56,
+"폭발": 2.08,
+"붕괴": 0.5,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.79,
-"사고": 3.06,
+"지하철": 0.71,
+"사고": 2.85,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
