@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-09T03:02:53.154184+00:00",
+"updated": "2026-11-09T03:05:08.150823+00:00",
 "errors": [],
 "events": [
 {
@@ -34,6 +34,38 @@
 "역대",
 "최대",
 "쿠팡"
+]
+},
+{
+"id": "wcWVvSVI4S3d4Um9QbEZ3oc50300",
+"first": "2026-11-09T03:00:01+00:00",
+"last": "2026-11-09T03:00:01+00:00",
+"updated": "2026-11-09T03:05:08.150823+00:00",
+"headline": "맨얼굴로 안경 쓴 채…새벽 지진 속보 전한 日아나운서 화제",
+"cat": "재난",
+"regions": [],
+"sources": [
+"중앙일보"
+],
+"updates": [
+{
+"title": "맨얼굴로 안경 쓴 채…새벽 지진 속보 전한 日아나운서 화제",
+"source": "중앙일보",
+"link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1Gb3ZQQ25tOFQ4ZHhGRnlINklKQUI2bWJsTWNpMHRXNDA3VjRNekREcmxzdVBlZXNET2U3S3BaeG5jTXFER0QwcWVvSVI4S3d4Um9QbEZ3?oc=5",
+"time": "2026-11-09T03:00:01+00:00",
+"stage": "1보"
+}
+],
+"level": "ALERT",
+"latest": "맨얼굴로 안경 쓴 채…새벽 지진 속보 전한 日아나운서 화제",
+"tok": [
+"日아나운서",
+"맨얼굴",
+"새벽",
+"안경",
+"전한",
+"지진",
+"화제"
 ]
 },
 {
@@ -3478,39 +3510,6 @@
 "예정금액",
 "재건축"
 ]
-},
-{
-"id": "wNISX20261109_00038598460024",
-"first": "2026-11-09T00:24:42+00:00",
-"last": "2026-11-09T00:24:42+00:00",
-"updated": "2026-11-09T00:28:10.244083+00:00",
-"headline": "강동구, 겨울철 한파·폭설 대비…쉼터 117곳 운영",
-"cat": "재난",
-"regions": [],
-"sources": [
-"뉴시스"
-],
-"updates": [
-{
-"title": "강동구, 겨울철 한파·폭설 대비…쉼터 117곳 운영",
-"source": "뉴시스",
-"link": "https://www.newsis.com/view/NISX20261109_0003859846",
-"time": "2026-11-09T00:24:42+00:00",
-"stage": "1보"
-}
-],
-"level": "ALERT",
-"latest": "강동구, 겨울철 한파·폭설 대비…쉼터 117곳 운영",
-"tok": [
-"117곳",
-"강동구",
-"겨울철",
-"대비",
-"쉼터",
-"운영",
-"폭설",
-"한파"
-]
 }
 ],
 "sns": {
@@ -3522,7 +3521,7 @@
 },
 "화재": {
 "n30": 3,
-"base": 0.6,
+"base": 0.7,
 "spike": false
 },
 "불났": {
@@ -3536,8 +3535,8 @@
 "spike": false
 },
 "폭발": {
-"n30": 2,
-"base": 0.6,
+"n30": 1,
+"base": 0.5,
 "spike": false
 },
 "붕괴": {
@@ -3869,17 +3868,17 @@
 "spikes": [],
 "baseline": {
 "지진": 0.05,
-"화재": 0.68,
+"화재": 0.71,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.5,
-"붕괴": 0.51,
+"폭발": 0.45,
+"붕괴": 0.56,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
 "지하철": 0.05,
-"사고": 4.24,
-"실종": 1.26,
+"사고": 4.32,
+"실종": 1.23,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -4090,8 +4089,44 @@
 },
 "trends": [
 {
+"term": "홍창기",
+"traffic": "2000+",
+"time": "2026-11-09T02:00:00+00:00",
+"news": [
+{
+"title": "롯데서 은퇴선언, FA 영입 1순위로 이 선수 지목했다…\"올해는 시행착오, 내년부터 괜찮아질 것\" 기대",
+"source": "SPOTV NEWS",
+"link": "https://www.spotvnews.co.kr/news/articleView.html?idxno=1018505"
+},
+{
+"title": "‘다년 계약 거절→최악 부진→FA 취득’ 홍창기·박동원, LG 분위기가 달라졌다…차명석 단장 “시장은 움직이니까”",
+"source": "OSEN",
+"link": "https://www.osen.co.kr/article/G1112903112"
+}
+],
+"new": true
+},
+{
+"term": "빈",
+"traffic": "100+",
+"time": "2026-11-09T02:00:00+00:00",
+"news": [
+{
+"title": "청와대 몰려간 국민의힘 \"죄수에게 탈옥 열쇠 쥐어준 꼴\"",
+"source": "MBC 뉴스",
+"link": "https://imnews.imbc.com/news/2026/politics/article/6864201_36911.html"
+},
+{
+"title": "'보이콧' 선언한 국민의힘 법사위",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISI20261109_0021526008"
+}
+],
+"new": true
+},
+{
 "term": "중앙일보",
-"traffic": "5000+",
+"traffic": "10000+",
 "time": "2026-11-09T01:50:00+00:00",
 "news": [
 {
@@ -4109,7 +4144,7 @@
 },
 {
 "term": "항공 승무원",
-"traffic": "100+",
+"traffic": "200+",
 "time": "2026-11-09T01:50:00+00:00",
 "news": [
 {
@@ -4124,42 +4159,6 @@
 }
 ],
 "new": false
-},
-{
-"term": "젠지",
-"traffic": "1000+",
-"time": "2026-11-09T01:30:00+00:00",
-"news": [
-{
-"title": "젠지, 2026 LoL 월드 챔피언십 결승 진출…IG에 3-0 완승",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261108016600017"
-},
-{
-"title": "'쵸비' 정지훈 \"부담감 버리고 찾은 즐거움, 누가 올라오든 직접 꺾고 우승할 것\"",
-"source": "OSEN",
-"link": "https://www.osen.co.kr/article/G1112906954"
-}
-],
-"new": false
-},
-{
-"term": "pistons vs lakers",
-"traffic": "100+",
-"time": "2026-11-09T01:20:00+00:00",
-"news": [
-{
-"title": "(WAY) TO WATCH Pistons vs Lakers LIVE Streams Reddit ON TV CHANNEL",
-"source": "Gold Derby",
-"link": "https://www.goldderby.com/topic/way-to-watch-pistons-vs-lakers-live-streams-reddit-on-tv-channel/"
-},
-{
-"title": "With his 40th point of the night in Detroit, Austin …",
-"source": "HoopsHype",
-"link": "https://www.hoopshype.com/story/sports/nba/rumors/2026/11/08/with-his-40th-point-of-the-night-in-detroit-austin/92685097007/"
-}
-],
-"new": true
 },
 {
 "term": "젠슨 황 부인",
@@ -4190,9 +4189,9 @@
 "link": "https://news.kbs.co.kr/news/view.do?ncd=8705704"
 },
 {
-"title": "확대운영 마산가고파국화축제, 9일간 일정 성황리 폐막",
-"source": "뉴시스",
-"link": "https://www.newsis.com/view/NISX20261109_0003859690"
+"title": "[마산가고파국화축제 결산] 1억5000만 송이 국화, 100만 눈길 사로잡았다",
+"source": "경남신문",
+"link": "https://www.knnews.co.kr/news/articleView.php?idxno=1554591"
 }
 ],
 "new": true
@@ -4271,7 +4270,6 @@
 }
 ],
 "trendSeen": [
-"수익률",
 "순위",
 "숲",
 "스노클링",
@@ -4563,6 +4561,7 @@
 "현장르포 특종세상",
 "혈당",
 "호날두",
+"홍창기",
 "화장실",
 "환자",
 "황우석",
