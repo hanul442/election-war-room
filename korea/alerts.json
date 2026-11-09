@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-09T04:57:17.023997+00:00",
+"updated": "2026-11-09T04:59:30.551726+00:00",
 "errors": [],
 "events": [
 {
@@ -87,6 +87,39 @@
 "특검",
 "포착",
 "혐의"
+]
+},
+{
+"id": "TczA1MkpjODRzaWRKZzdBoc50456",
+"first": "2026-11-09T04:56:00+00:00",
+"last": "2026-11-09T04:56:00+00:00",
+"updated": "2026-11-09T04:59:30.551726+00:00",
+"headline": "충북 음성 대소읍 아파트서 화재 발생",
+"cat": "재난",
+"regions": [
+"충북"
+],
+"sources": [
+"이투데이"
+],
+"updates": [
+{
+"title": "[속보] 충북 음성 대소읍 아파트서 화재 발생",
+"source": "이투데이",
+"link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9TblJOdl8zSW8zMHJEenlGU1NVQWxRQlp2LUpDRmdwbFUzUHBpRDI0dGR1QnhEUUI3dk5QUjZvMXZhaGxpeGNsVmNzYXNrMmc5bEJwUFpyYmdFa1FTeHBTczA1MkpjODRzaWRKZzdB?oc=5",
+"time": "2026-11-09T04:56:00+00:00",
+"stage": "얼럿"
+}
+],
+"level": "URGENT",
+"latest": "충북 음성 대소읍 아파트서 화재 발생",
+"tok": [
+"대소읍",
+"발생",
+"아파트서",
+"음성",
+"충북",
+"화재"
 ]
 },
 {
@@ -3287,50 +3320,18 @@
 "팬클럽",
 "피해"
 ]
-},
-{
-"id": "nkRSSLINKcooperRSSREADER0147",
-"first": "2026-11-09T01:47:47+00:00",
-"last": "2026-11-09T01:47:47+00:00",
-"updated": "2026-11-09T01:50:11.358019+00:00",
-"headline": "\"센스 대박\" 쏟아진 칭찬…경찰관의 화재 진압",
-"cat": "재난",
-"regions": [],
-"sources": [
-"SBS"
-],
-"updates": [
-{
-"title": "\"센스 대박\" 쏟아진 칭찬…경찰관의 화재 진압",
-"source": "SBS",
-"link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008836315&plink=RSSLINK&cooper=RSSREADER",
-"time": "2026-11-09T01:47:47+00:00",
-"stage": "1보"
-}
-],
-"level": "ALERT",
-"latest": "\"센스 대박\" 쏟아진 칭찬…경찰관의 화재 진압",
-"tok": [
-"경찰관",
-"대박",
-"센스",
-"쏟아진",
-"진압",
-"칭찬",
-"화재"
-]
 }
 ],
 "sns": {
 "terms": {
 "지진": {
-"n30": 3,
-"base": 0.1,
+"n30": 4,
+"base": 0.3,
 "spike": false
 },
 "화재": {
 "n30": 0,
-"base": 0.4,
+"base": 0.3,
 "spike": false
 },
 "불났": {
@@ -3345,7 +3346,7 @@
 },
 "폭발": {
 "n30": 1,
-"base": 0.4,
+"base": 0.3,
 "spike": false
 },
 "붕괴": {
@@ -3359,7 +3360,7 @@
 "spike": false
 },
 "미사일": {
-"n30": 2,
+"n30": 3,
 "base": 0.1,
 "spike": false
 },
@@ -3375,7 +3376,7 @@
 },
 "사고": {
 "n30": 1,
-"base": 2.4,
+"base": 2.2,
 "spike": false
 },
 "실종": {
@@ -3405,6 +3406,16 @@
 }
 },
 "posts": [
+{
+"text": "그냥 짧게 \"오 지진\" 하시니까, 왠지 남한사람들 \"또 미사일?\" 느낌의 바이브가...",
+"handle": "masakikun.bsky.social",
+"name": "マサキ君",
+"time": "2026-11-09T04:59:01.273Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/masakikun.bsky.social/post/3mzu5ctr6pk22",
+"term": "지진"
+},
 {
 "text": "【지진 정보】일본 시간 11월 9일 13:52경\n진원: 진원 조사 중\n최대 진도: 3\n진도 3: 후쿠시마현, 이바라키현, 도치기현\n(일본 기상청 발표)\n#일본 #지진 #방재",
 "handle": "ko.soramoyou.yk-planning.jp",
@@ -3655,17 +3666,17 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 0.34,
-"화재": 0.34,
+"지진": 0.61,
+"화재": 0.31,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.34,
+"폭발": 0.31,
 "붕괴": 0.05,
-"대피": 0.09,
-"미사일": 0.05,
+"대피": 0.08,
+"미사일": 0.15,
 "속보": 0.05,
 "지하철": 0.05,
-"사고": 2.23,
+"사고": 2.11,
 "실종": 1.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -3950,9 +3961,9 @@
 "link": "https://www.news1.kr/entertain/celebrity-topic/6347161"
 },
 {
-"title": "'고우림♥' 김연아, 배 가렸더니 통통해진 볼살..뭐만 했다하면 임신설",
-"source": "조선일보",
-"link": "https://www.chosun.com/entertainments/broadcast/2026/11/07/MFRWMNZYGQ4TMNBRGU4DSMRYME/"
+"title": "‘고우림♥’ 김연아, 여전한 청순 미모",
+"source": "매일경제",
+"link": "https://www.mk.co.kr/news/hot-issues/12202061"
 }
 ],
 "new": true
