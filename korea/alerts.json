@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-09T22:43:02.357059+00:00",
+"updated": "2026-11-09T22:45:19.463901+00:00",
 "errors": [],
 "events": [
 {
@@ -49,8 +49,8 @@
 {
 "id": "wNISX20261109_00038611641435",
 "first": "2026-11-09T14:35:11+00:00",
-"last": "2026-11-09T22:38:49+00:00",
-"updated": "2026-11-09T22:40:47.245202+00:00",
+"last": "2026-11-09T22:39:39+00:00",
+"updated": "2026-11-09T22:45:19.463901+00:00",
 "headline": "뉴욕증시 상승 개장…'불륜·간첩 스캔들' 엔비디아, 7% 하락 출발",
 "cat": "경제",
 "regions": [],
@@ -211,12 +211,20 @@
 "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008838039&plink=RSSLINK&cooper=RSSREADER",
 "time": "2026-11-09T22:38:49+00:00",
 "stage": "후속"
+},
+{
+"title": "'젠슨황 리스크' 엔비디아 시총 258조원 증발…나홀로 급락",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261110017900009",
+"time": "2026-11-09T22:39:39+00:00",
+"stage": "후속"
 }
 ],
 "level": "URGENT",
-"latest": "[글로벌 마켓시황] 유가 급락에 3대 지수 반등…엔비디아 '악재'",
+"latest": "'젠슨황 리스크' 엔비디아 시총 258조원 증발…나홀로 급락",
 "tok": [
 "1100포인트",
+"258조원",
 "3대",
 "AI주",
 "中간첩",
@@ -247,27 +255,27 @@
 "상승",
 "스캔들",
 "시간외",
+"시총",
 "악재",
 "앤비디아",
 "엔비디아",
 "역주행",
 "유가",
 "이슈",
-"저가",
-"저가매수",
-"젠슨"
+"저가"
 ]
 },
 {
 "id": "viewAKR202611100145000712204",
 "first": "2026-11-09T22:04:53+00:00",
 "last": "2026-11-09T22:37:23+00:00",
-"updated": "2026-11-09T22:40:47.245202+00:00",
+"updated": "2026-11-09T22:45:19.463901+00:00",
 "headline": "트럼프 \"젠슨 황과 통화…문제의 인물 스파이인줄 몰랐다 한다\"",
 "cat": "국제",
 "regions": [],
 "sources": [
 "KBC광주방송",
+"www.twig24.com",
 "노컷뉴스",
 "뉴시스",
 "블록미디어",
@@ -327,6 +335,13 @@
 "stage": "속보"
 },
 {
+"title": "[속보] 트럼프 “젠슨 황과 통화…스파이인 줄 몰랐다는 말 믿어”",
+"source": "www.twig24.com",
+"link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBOWV9SYnhjVndhM3BfbEZERWFyTV9UZ19tclAzMHllLS1QM19HYVAyZmJOcnRwbG91RkdmM3VRblVfU3FEQVFGMVdXbll6MDlRZXA3NkV3cE1scy1wYkQ4MnpGdw?oc=5",
+"time": "2026-11-09T22:31:53+00:00",
+"stage": "속보"
+},
+{
 "title": "[속보]트럼프 \"젠슨황, 中 여성 스파이인 줄 몰랐다고...무사할 것\"",
 "source": "KBC광주방송",
 "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFAteE1GMEV4b2ZuN041M0x6VmZMS1pJd0RKY3BrSnE1UXVtTmFNM2hzSTlOMFRQeGtGN2VPejZOSHU0Q3BzMDhIdzZTV3pXa2lPZURhZ19XNWo4a0hrR3VzUQ?oc=5",
@@ -344,6 +359,7 @@
 "무사할",
 "문제",
 "믿는다",
+"믿어",
 "스파이인",
 "스파이인줄",
 "스파이인지",
@@ -1773,7 +1789,7 @@
 "spike": false
 },
 "미사일": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -1783,13 +1799,13 @@
 "spike": false
 },
 "지하철": {
-"n30": 5,
-"base": 0.4,
-"spike": true
+"n30": 3,
+"base": 0.7,
+"spike": false
 },
 "사고": {
 "n30": 3,
-"base": 1.4,
+"base": 1.6,
 "spike": false
 },
 "실종": {
@@ -1824,8 +1840,8 @@
 "handle": "nerr.bsky.social",
 "name": "네르",
 "time": "2026-11-09T22:39:58.980Z",
-"likes": 0,
-"reposts": 0,
+"likes": 1,
+"reposts": 2,
 "url": "https://bsky.app/profile/nerr.bsky.social/post/3mzvym5pvgs2x",
 "term": "지하철"
 },
@@ -2096,17 +2112,9 @@
 "url": "https://www.youtube.com/watch?v=qDjWHCES3l0"
 }
 ],
-"spikes": [
-{
-"term": "지하철",
-"n30": 5,
-"base": 0.4,
-"spike": true,
-"since": "2026-11-09T22:43:02.357059+00:00"
-}
-],
+"spikes": [],
 "baseline": {
-"지진": 0.07,
+"지진": 0.06,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
@@ -2115,8 +2123,8 @@
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.7,
-"사고": 1.55,
+"지하철": 0.93,
+"사고": 1.7,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
