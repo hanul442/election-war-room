@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-09T02:58:26.032526+00:00",
+"updated": "2026-11-09T03:00:39.247825+00:00",
 "errors": [],
 "events": [
 {
@@ -861,6 +861,37 @@
 "지진",
 "지진속보",
 "화제"
+]
+},
+{
+"id": "1pxNHVnTi1SZW9VMGhqQQoc50223",
+"first": "2026-11-09T02:23:00+00:00",
+"last": "2026-11-09T02:23:00+00:00",
+"updated": "2026-11-09T03:00:39.247825+00:00",
+"headline": "익산시, 축사 화재예방 400만 원 지원",
+"cat": "재난",
+"regions": [
+"전북"
+],
+"sources": [
+"익산열린신문"
+],
+"updates": [
+{
+"title": "익산시, 축사 화재예방 400만 원 지원",
+"source": "익산열린신문",
+"link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBZeU9zLTk3bG9VS1VxUDBGVkxtX2RvcTVQQy1rMUpuOTNJOTVSME0xdXJsdF9BLUNpMzd6RjlCNjVQM004azB6SkIzQ3RMQkVmdVVzaXFaTXk5NV9haG9BWklld1pxNHVnTi1SZW9VMGhqQQ?oc=5",
+"time": "2026-11-09T02:23:00+00:00",
+"stage": "1보"
+}
+],
+"level": "ALERT",
+"latest": "익산시, 축사 화재예방 400만 원 지원",
+"tok": [
+"익산시",
+"지원",
+"축사",
+"화재예방"
 ]
 },
 {
@@ -3572,38 +3603,6 @@
 "차인표",
 "초청"
 ]
-},
-{
-"id": "6OVc4eG0ySHdzeG9Mb1Rkoc50016",
-"first": "2026-11-09T00:16:29+00:00",
-"last": "2026-11-09T00:16:29+00:00",
-"updated": "2026-11-09T00:25:54.069236+00:00",
-"headline": "알테오젠 VI 발동, 주가 주초장 장초반부터 털썩",
-"cat": "경제",
-"regions": [],
-"sources": [
-"CBC뉴스"
-],
-"updates": [
-{
-"title": "[속보] 알테오젠 VI 발동, 주가 주초장 장초반부터 털썩",
-"source": "CBC뉴스",
-"link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1WNTR2LTAwbTllRG1ucjdxckpCeUgzdk9uS0VKdTFMVmF6ZTdsLVlpb1BuQzhNNjNfWkZGZzhNcTBTNGJhVk5NUXlBQTZac2JBbDlxUWxrRXJ6OVc4eG0ySHdzeG9Mb1Rk?oc=5",
-"time": "2026-11-09T00:16:29+00:00",
-"stage": "얼럿"
-}
-],
-"level": "URGENT",
-"latest": "알테오젠 VI 발동, 주가 주초장 장초반부터 털썩",
-"tok": [
-"VI",
-"발동",
-"알테오젠",
-"장초반부터",
-"주가",
-"주초장",
-"털썩"
-]
 }
 ],
 "sns": {
@@ -3629,13 +3628,13 @@
 "spike": false
 },
 "폭발": {
-"n30": 6,
-"base": 0.7,
-"spike": true
+"n30": 2,
+"base": 0.6,
+"spike": false
 },
 "붕괴": {
-"n30": 3,
-"base": 0.3,
+"n30": 1,
+"base": 0.4,
 "spike": false
 },
 "대피": {
@@ -3644,14 +3643,14 @@
 "spike": false
 },
 "미사일": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
 "속보": {
-"n30": 6,
+"n30": 3,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "지하철": {
 "n30": 1,
@@ -3660,12 +3659,12 @@
 },
 "사고": {
 "n30": 5,
-"base": 4.0,
+"base": 4.1,
 "spike": false
 },
 "실종": {
 "n30": 1,
-"base": 1.4,
+"base": 1.3,
 "spike": false
 },
 "단수": {
@@ -3959,35 +3958,20 @@
 "url": "https://www.youtube.com/watch?v=u0I-ohkmI1k"
 }
 ],
-"spikes": [
-{
-"term": "폭발",
-"n30": 6,
-"base": 0.7,
-"spike": true,
-"since": "2026-11-09T02:58:26.032526+00:00"
-},
-{
-"term": "속보",
-"n30": 6,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-09T02:58:26.032526+00:00"
-}
-],
+"spikes": [],
 "baseline": {
 "지진": 0.05,
-"화재": 0.6,
+"화재": 0.64,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.62,
-"붕괴": 0.39,
+"폭발": 0.56,
+"붕괴": 0.45,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
 "지하철": 0.05,
-"사고": 4.07,
-"실종": 1.32,
+"사고": 4.16,
+"실종": 1.29,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
