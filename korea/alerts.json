@@ -1,12 +1,12 @@
 {
-"updated": "2026-11-09T23:10:19.204161+00:00",
+"updated": "2026-11-09T23:12:33.749861+00:00",
 "errors": [],
 "events": [
 {
 "id": "viewAKR202611100145000712204",
 "first": "2026-11-09T22:04:53+00:00",
-"last": "2026-11-09T23:02:40+00:00",
-"updated": "2026-11-09T23:07:59.952241+00:00",
+"last": "2026-11-09T23:10:09+00:00",
+"updated": "2026-11-09T23:12:33.749861+00:00",
 "headline": "트럼프 \"젠슨 황과 통화…문제의 인물 스파이인줄 몰랐다 한다\"",
 "cat": "국제",
 "regions": [],
@@ -18,8 +18,10 @@
 "경기일보",
 "노컷뉴스",
 "뉴시스",
+"문화일보",
 "부산일보",
 "블록미디어",
+"서울신문",
 "연합뉴스",
 "이투데이",
 "조선일보",
@@ -90,6 +92,13 @@
 "stage": "속보"
 },
 {
+"title": "[속보] 트럼프 “젠슨 황과 통화…스파이인 줄 몰랐다는 말 믿어”",
+"source": "서울신문",
+"link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5tVDdHSmlSNzlYbDFqTzhFaXROaGN1N3FTNktiOGZUdm14RVpRdWhaQ1BJNnp0NlZCZGg2V3dqTUQ0NEVsUFFFR2ZXQmhTajZ6VmlXYm1DbnRHd0JGZWtPbnZ6R0c?oc=5",
+"time": "2026-11-09T22:31:53+00:00",
+"stage": "속보"
+},
+{
 "title": "[속보]트럼프 \"젠슨황, 中 여성 스파이인 줄 몰랐다고...무사할 것\"",
 "source": "KBC광주방송",
 "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFAteE1GMEV4b2ZuN041M0x6VmZMS1pJd0RKY3BrSnE1UXVtTmFNM2hzSTlOMFRQeGtGN2VPejZOSHU0Q3BzMDhIdzZTV3pXa2lPZURhZ19XNWo4a0hrR3VzUQ?oc=5",
@@ -137,12 +146,20 @@
 "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE02LUMtaTNVLXNzVjRqNTdQX09lZTRTNE9WOGZCRF9uN0xfeGM1LWluYnh1ZlpQUFc5SWVDSE1tMmpwb3R6elhTZDNJR0V6YW9UUGZqNHhCVDZ1WnM?oc=5",
 "time": "2026-11-09T23:02:40+00:00",
 "stage": "속보"
+},
+{
+"title": "[속보]트럼프 “젠슨 황 괜찮을 것…문제의 인물 스파이인지 몰랐다고 해”",
+"source": "문화일보",
+"link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBmUnVaWFQwVzJRcUoweWFmZ1dzby1ZM3hmZ3VrMklnN2g0c3NDZTJRVjVGdE40QVNiNU1ZZFZwaE1oM2d2SEJ2ejZwdW9fNUdM?oc=5",
+"time": "2026-11-09T23:10:09+00:00",
+"stage": "속보"
 }
 ],
 "level": "URGENT",
-"latest": "젠슨 황에 전화 건 트럼프…“스파이인 줄 몰랐다더라, 믿는다”",
+"latest": "트럼프 “젠슨 황 괜찮을 것…문제의 인물 스파이인지 몰랐다고 해”",
 "tok": [
 "FBI",
+"괜찮",
 "그를",
 "말해",
 "몰랐다",
@@ -2006,7 +2023,7 @@
 "spike": false
 },
 "화재": {
-"n30": 2,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
@@ -2021,8 +2038,8 @@
 "spike": false
 },
 "폭발": {
-"n30": 2,
-"base": 0.6,
+"n30": 1,
+"base": 0.7,
 "spike": false
 },
 "붕괴": {
@@ -2036,7 +2053,7 @@
 "spike": false
 },
 "미사일": {
-"n30": 2,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
@@ -2046,13 +2063,13 @@
 "spike": false
 },
 "지하철": {
-"n30": 4,
+"n30": 3,
 "base": 3.6,
 "spike": false
 },
 "사고": {
 "n30": 1,
-"base": 1.4,
+"base": 1.2,
 "spike": false
 },
 "실종": {
@@ -2336,13 +2353,13 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.68,
+"폭발": 0.71,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 3.58,
-"사고": 1.22,
+"지하철": 3.52,
+"사고": 1.1,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -2663,9 +2680,9 @@
 "link": "https://www.kyeonggi.com/article/20261109580389"
 },
 {
-"title": "울릉 농협·농주모, 온기 담은 ‘사랑의 밑반찬’ 나눔",
-"source": "경북매일",
-"link": "https://www.kbmaeil.com/article/20261109500451"
+"title": "[생생갤러리] 깊어가는 가을...2026 파주 새마을회 사랑의 김장",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/MYH20261107005900038"
 }
 ],
 "new": true
