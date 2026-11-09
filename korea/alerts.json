@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-09T12:28:46.870024+00:00",
+"updated": "2026-11-09T12:31:04.431513+00:00",
 "errors": [],
 "events": [
 {
@@ -3008,8 +3008,8 @@
 "sns": {
 "terms": {
 "지진": {
-"n30": 1,
-"base": 0.3,
+"n30": 0,
+"base": 0.2,
 "spike": false
 },
 "화재": {
@@ -3028,12 +3028,12 @@
 "spike": false
 },
 "폭발": {
-"n30": 9,
+"n30": 4,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "붕괴": {
-"n30": 4,
+"n30": 1,
 "base": 0.7,
 "spike": false
 },
@@ -3048,18 +3048,18 @@
 "spike": false
 },
 "속보": {
-"n30": 3,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
 "지하철": {
-"n30": 6,
+"n30": 2,
 "base": 0.2,
-"spike": true
+"spike": false
 },
 "사고": {
 "n30": 3,
-"base": 1.8,
+"base": 1.9,
 "spike": false
 },
 "실종": {
@@ -3089,6 +3089,16 @@
 }
 },
 "posts": [
+{
+"text": "어제 약국에서 과격한 언어를 쓰지 않고 말하는 법을 까먹은 사람처럼 굴었다.\n여드름 연고를 사려고 했는데\n약사쌤이 화농성이요, 좁쌀 여드름이요? 물어보길래\n그런 종류 상관없이 듣는 연고를 사고 싶었단 말임.\n화학적으로 '조진다'는 표현 말고 떠오르지 않아서\n화학적으로 저기......\n과산화벤조일 성분 있는거 주세요...라고 말했다.",
+"handle": "dinopachy.bsky.social",
+"name": "파키",
+"time": "2026-11-09T12:30:18.373Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/dinopachy.bsky.social/post/3mzuwjxszes2y",
+"term": "사고"
+},
 {
 "text": "뇌녹은 가축 구인중이니 발정난 암캐들 언제든 환영한다.협박플 수치플 협박플 노예플 뭐든 상관없다 초보자 상관없다.궁금한 것 호기심 언제든 찾아와 다 받아줄테니.☆비밀보장 유출 사고 절대없음☆\n #섹블 #섹트 #일탈 #능욕 #걸레 #박제 #상납 #신상 #오컨 #펨섭 #암캐 #걸레 #유부녀 #미시 #중년 #근친#조교 #조련 #육변기 #네토 #NTR #노예 #변녀 #남존여비 #고민상담 #고해성사 ",
 "handle": "tnsdo8974.bsky.social",
@@ -3299,16 +3309,6 @@
 "url": "https://www.youtube.com/watch?v=knvuJpBVRD4"
 },
 {
-"text": "순수 광기로 조커 정신붕괴시키는 히어로 <이거뭔데ㅠㅠ",
-"handle": "ganadapunch.bsky.social",
-"name": "해삼",
-"time": "2026-11-09T12:00:08.182Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/ganadapunch.bsky.social/post/3mzuut7olwc2p",
-"term": "붕괴"
-},
-{
 "platform": "YouTube",
 "text": "일본 시즈오카 규모 5.7 지진, 20명 넘게 부상 #shorts",
 "handle": "UCGPvq3EJgNCXLbFBdT7TV5g",
@@ -3334,46 +3334,21 @@
 "time": "2026-11-09T12:00:02Z",
 "term": "붕괴",
 "url": "https://www.youtube.com/watch?v=GPJdF-Aopf4"
-},
-{
-"text": "아..이번에 새로 나오는 슬덩 박스판 사고는 싶은데..ㅠㅠㅠ((부동산 이슈))",
-"handle": "gkfa.bsky.social",
-"name": "핢",
-"time": "2026-11-09T11:59:37.179Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/gkfa.bsky.social/post/3mzuutcdsic26",
-"term": "사고"
 }
 ],
-"spikes": [
-{
-"term": "폭발",
-"n30": 9,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-09T12:28:46.870024+00:00"
-},
-{
-"term": "지하철",
-"n30": 6,
-"base": 0.2,
-"spike": true,
-"since": "2026-11-09T12:28:46.870024+00:00"
-}
-],
+"spikes": [],
 "baseline": {
-"지진": 0.24,
+"지진": 0.22,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
 "폭발": 0.05,
-"붕괴": 0.74,
+"붕괴": 0.67,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.18,
-"사고": 1.9,
+"지하철": 0.16,
+"사고": 2.01,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -3770,14 +3745,14 @@
 "time": "2026-11-09T08:00:00+00:00",
 "news": [
 {
-"title": "김장훈, 국민연금 예상액 듣고 깜짝…“그렇게 많이 주냐”",
-"source": "세계일보",
-"link": "https://www.segye.com/newsView/20261109502306"
-},
-{
 "title": "\"이렇게 많이 줘?\" 63세 김장훈, 국민연금 수령액 깜짝...또 기부? - 머니투데이",
 "source": "머니투데이",
 "link": "https://www.mt.co.kr/entertainment/2026/11/09/2026110917220064923"
+},
+{
+"title": "미운 우리 새끼 : 이소라, ‘스타일리스트’ 없는 김장훈 위해 직접 공연 의상 맞춤 코디 시작",
+"source": "programs.sbs.co.kr",
+"link": "https://programs.sbs.co.kr/enter/woori/clip/52019/OC483065713"
 }
 ],
 "new": true
