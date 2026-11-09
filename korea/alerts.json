@@ -1,19 +1,27 @@
 {
-"updated": "2026-11-09T14:38:18.969407+00:00",
+"updated": "2026-11-09T14:40:37.172633+00:00",
 "errors": [],
 "events": [
 {
 "id": "wNISX20261109_00038611641435",
 "first": "2026-11-09T14:35:11+00:00",
 "last": "2026-11-09T14:35:11+00:00",
-"updated": "2026-11-09T14:38:18.969407+00:00",
+"updated": "2026-11-09T14:40:37.172633+00:00",
 "headline": "뉴욕증시 상승 개장…'불륜·간첩 스캔들' 엔비디아, 7% 하락 출발",
 "cat": "경제",
 "regions": [],
 "sources": [
+"국제뉴스",
 "뉴시스"
 ],
 "updates": [
+{
+"title": "[속보] 뉴욕증시 상승 출발...젠슨황 불륜 이슈에 엔비디아 주가는↓",
+"source": "국제뉴스",
+"link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE00LUloQk9LcGdubUtfLVR1R2lDMldaNjMyOWp6ZVZuU3ZEMjZfSjkyRGV4MVplYzlCSjhCU3pHc25Qa1kwSUFxT21qR2hzMlZwc0NjaFhoaHpRamQ1WU9XcFZRZi05VWZDaDhTd0Zn?oc=5",
+"time": "2026-11-09T14:33:02+00:00",
+"stage": "속보"
+},
 {
 "title": "[속보]뉴욕증시 상승 개장…'불륜·간첩 스캔들' 엔비디아, 7% 하락 출발",
 "source": "뉴시스",
@@ -32,6 +40,9 @@
 "상승",
 "스캔들",
 "엔비디아",
+"이슈",
+"젠슨황",
+"주가",
 "출발",
 "하락"
 ]
@@ -2168,38 +2179,6 @@
 "직장인",
 "통장"
 ]
-},
-{
-"id": "taTN6NTBoRm0tbzBQSi14oc50839",
-"first": "2026-11-09T08:39:42+00:00",
-"last": "2026-11-09T08:39:42+00:00",
-"updated": "2026-11-09T08:42:13.042351+00:00",
-"headline": "임광현 “직장인 통장에 돈 오래 머물도록…‘월급방위대TF’ 설치”",
-"cat": "기타",
-"regions": [],
-"sources": [
-"문화일보"
-],
-"updates": [
-{
-"title": "[속보]임광현 “직장인 통장에 돈 오래 머물도록…‘월급방위대TF’ 설치”",
-"source": "문화일보",
-"link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1UdnVLaVBYNzlvWnJTZjM1UGxYa1AwYVFWTHVoUm81elRPcXpMajdjYkRkTmt0OS1zV1lvV01mN2VtaTN6NTBoRm0tbzBQSi14?oc=5",
-"time": "2026-11-09T08:39:42+00:00",
-"stage": "얼럿"
-}
-],
-"level": "URGENT",
-"latest": "임광현 “직장인 통장에 돈 오래 머물도록…‘월급방위대TF’ 설치”",
-"tok": [
-"머물도록",
-"설치",
-"오래",
-"월급방위대TF",
-"임광현",
-"직장인",
-"통장"
-]
 }
 ],
 "sns": {
@@ -2225,13 +2204,13 @@
 "spike": false
 },
 "폭발": {
-"n30": 7,
-"base": 2.3,
-"spike": true
+"n30": 6,
+"base": 2.4,
+"spike": false
 },
 "붕괴": {
 "n30": 3,
-"base": 0.5,
+"base": 0.6,
 "spike": false
 },
 "대피": {
@@ -2245,18 +2224,18 @@
 "spike": false
 },
 "속보": {
-"n30": 2,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
 "지하철": {
-"n30": 4,
+"n30": 3,
 "base": 0.4,
 "spike": false
 },
 "사고": {
 "n30": 3,
-"base": 5.7,
+"base": 5.4,
 "spike": false
 },
 "실종": {
@@ -2574,27 +2553,19 @@
 "url": "https://www.youtube.com/watch?v=389KIrIhqyA"
 }
 ],
-"spikes": [
-{
-"term": "폭발",
-"n30": 7,
-"base": 2.3,
-"spike": true,
-"since": "2026-11-09T14:38:18.969407+00:00"
-}
-],
+"spikes": [],
 "baseline": {
-"지진": 0.13,
-"화재": 0.37,
+"지진": 0.12,
+"화재": 0.33,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 2.39,
-"붕괴": 0.56,
+"폭발": 2.45,
+"붕괴": 0.6,
 "대피": 0.05,
-"미사일": 0.09,
+"미사일": 0.08,
 "속보": 0.05,
-"지하철": 0.44,
-"사고": 5.42,
+"지하철": 0.5,
+"사고": 5.18,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
