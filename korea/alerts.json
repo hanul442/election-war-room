@@ -1,7 +1,39 @@
 {
-"updated": "2026-11-09T15:10:35.853858+00:00",
+"updated": "2026-11-09T15:12:52.279711+00:00",
 "errors": [],
 "events": [
+{
+"id": "6SGVTNHBLbzg3OHNiT3pToc51509",
+"first": "2026-11-09T15:09:33+00:00",
+"last": "2026-11-09T15:09:33+00:00",
+"updated": "2026-11-09T15:12:52.279711+00:00",
+"headline": "음주 고교생, 아빠차로 무면허 운전하다 차량 4대 ‘쾅’",
+"cat": "기타",
+"regions": [],
+"sources": [
+"문화일보"
+],
+"updates": [
+{
+"title": "[속보]음주 고교생, 아빠차로 무면허 운전하다 차량 4대 ‘쾅’",
+"source": "문화일보",
+"link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5OM3lENXEwdFpWeXJwaW9fNGJZcVZIZVlpejZONmx5LTl1aGdxdlZLaUhiTEpaNlJTMFNqN08yNk56SGVTNHBLbzg3OHNiT3pT?oc=5",
+"time": "2026-11-09T15:09:33+00:00",
+"stage": "얼럿"
+}
+],
+"level": "URGENT",
+"latest": "음주 고교생, 아빠차로 무면허 운전하다 차량 4대 ‘쾅’",
+"tok": [
+"4대",
+"고교생",
+"무면허",
+"아빠차",
+"운전하다",
+"음주",
+"차량"
+]
+},
 {
 "id": "NTTJ3TmxSa1UweTdwYko2oc51503",
 "first": "2026-11-09T15:03:00+00:00",
@@ -2068,43 +2100,6 @@
 "사고처리중",
 "호남고속도"
 ]
-},
-{
-"id": "xYVktZFJmQm1nLTJUZmlnoc50911",
-"first": "2026-11-09T09:11:50+00:00",
-"last": "2026-11-09T09:11:50+00:00",
-"updated": "2026-11-09T09:16:31.654712+00:00",
-"headline": "​ 엔비디아 젠슨 황 CEO, 210조 원대 재산 분할 가능성… 캘리포니아 법적 이슈 부각",
-"cat": "기타",
-"regions": [],
-"sources": [
-"뉴스21 통신"
-],
-"updates": [
-{
-"title": "​[속보] 엔비디아 젠슨 황 CEO, 210조 원대 재산 분할 가능성… 캘리포니아 법적 이슈 부각",
-"source": "뉴스21 통신",
-"link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBCUnRqZzVpVGRyQnljRlhYVmpSaTJCZjFxQXZzTWhyTmNoU0RNUmU0ZlBZZkdyYmwzb0VCQ21VTDQ4bWdEdE5xYVktZFJmQm1nLTJUZmln?oc=5",
-"time": "2026-11-09T09:11:50+00:00",
-"stage": "얼럿"
-}
-],
-"level": "URGENT",
-"latest": "​ 엔비디아 젠슨 황 CEO, 210조 원대 재산 분할 가능성… 캘리포니아 법적 이슈 부각",
-"tok": [
-"210조",
-"CEO",
-"가능성",
-"법적",
-"부각",
-"분할",
-"엔비디아",
-"원대",
-"이슈",
-"재산",
-"젠슨",
-"캘리포니아"
-]
 }
 ],
 "sns": {
@@ -2130,13 +2125,13 @@
 "spike": false
 },
 "폭발": {
-"n30": 5,
-"base": 1.5,
-"spike": true
+"n30": 4,
+"base": 1.4,
+"spike": false
 },
 "붕괴": {
 "n30": 0,
-"base": 0.4,
+"base": 0.3,
 "spike": false
 },
 "대피": {
@@ -2161,7 +2156,7 @@
 },
 "사고": {
 "n30": 0,
-"base": 2.2,
+"base": 1.9,
 "spike": false
 },
 "실종": {
@@ -2399,27 +2394,19 @@
 "url": "https://www.youtube.com/watch?v=DSWi-ruBCAI"
 }
 ],
-"spikes": [
-{
-"term": "폭발",
-"n30": 5,
-"base": 1.5,
-"spike": true,
-"since": "2026-11-09T15:10:35.853858+00:00"
-}
-],
+"spikes": [],
 "baseline": {
 "지진": 0.05,
-"화재": 0.09,
+"화재": 0.08,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 1.36,
-"붕괴": 0.33,
+"폭발": 1.22,
+"붕괴": 0.3,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.47,
-"사고": 1.94,
+"지하철": 0.42,
+"사고": 1.75,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -2640,6 +2627,24 @@
 },
 "trends": [
 {
+"term": "ai 데이터 센터",
+"traffic": "100+",
+"time": "2026-11-09T14:10:00+00:00",
+"news": [
+{
+"title": "국힘 \"우상호 AIDC 수사 촉구\"…우 지사 \"투자 정쟁화 말라\"(종합)",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261109060851001"
+},
+{
+"title": "강릉 AI데이터센터 유치 논란 확산…공방 격화",
+"source": "연합뉴스TV",
+"link": "https://www.yonhapnewstv.co.kr/news/MYH20261109210908VXt"
+}
+],
+"new": true
+},
+{
 "term": "안랩",
 "traffic": "100+",
 "time": "2026-11-09T14:00:00+00:00",
@@ -2786,24 +2791,6 @@
 "title": "\"부둥켜 안고 오열\"…이지혜, 서지영과 불화 끝 화해 [소셜in]",
 "source": "iMBC 연예",
 "link": "https://enews.imbc.com/M/Detail/524168"
-}
-],
-"new": false
-},
-{
-"term": "해커",
-"traffic": "2000+",
-"time": "2026-11-09T10:30:00+00:00",
-"news": [
-{
-"title": "“배우 닮았다” 8년째 美수배 北최고해커 박진혁 다시 주목받는 이유",
-"source": "문화일보",
-"link": "https://www.munhwa.com/article/11629685"
-},
-{
-"title": "[新테크용어] 바이낸스 해커는 왜 코인 쪼갰을까…’필 체인’ 수법이란",
-"source": "지디넷코리아",
-"link": "https://zdnet.co.kr/view/?no=20261109155158"
 }
 ],
 "new": false
