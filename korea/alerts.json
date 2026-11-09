@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-09T00:55:27.493341+00:00",
+"updated": "2026-11-09T00:57:43.240845+00:00",
 "errors": [],
 "events": [
 {
@@ -304,7 +304,7 @@
 "id": "S1qQWpCdVJQQkIzREUwUQoc52215",
 "first": "2026-11-08T22:15:56+00:00",
 "last": "2026-11-09T00:35:50+00:00",
-"updated": "2026-11-09T00:37:18.586573+00:00",
+"updated": "2026-11-09T00:57:43.240845+00:00",
 "headline": "경부고속도로 승용차관련 사고 처리 중",
 "cat": "교통",
 "regions": [
@@ -347,6 +347,13 @@
 "title": "[속보] 남해2지고속도로 화물차관련 사고 처리 중",
 "source": "스페셜타임스",
 "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBfcFdERjI0NEwzcDcybFhEWGVmS2gxVWpzd0VRUE5VLTBxaURkS3FDMmt1amZRZko5aGJlY0pXcG1KS1RJWGQwYWh4d3lvZUR2WWpOZEFlMHpKR0lIZ0oxbTFaeUttZjdPTUFRN3hNN0pqQQ?oc=5",
+"time": "2026-11-09T00:35:42+00:00",
+"stage": "속보"
+},
+{
+"title": "[속보] 남해2지고속도로 화물차관련 사고 처리 중",
+"source": "스페셜타임스",
+"link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE4tLUtWanJiMTF4cG1qSjVRTWx3Mi12TWNKREd3MkJ5NFlEYjdQU3NHNXJUeU5pdzMyZzBkbmZhVC1KanJNMHR4VExJb05UZDNZbXNpLWtUZkFMTjNFRTZkbjlBUjhhMk5tQTFwdGllMThQU0U?oc=5",
 "time": "2026-11-09T00:35:42+00:00",
 "stage": "속보"
 },
@@ -2987,7 +2994,7 @@
 "spike": false
 },
 "폭발": {
-"n30": 6,
+"n30": 5,
 "base": 0.1,
 "spike": true
 },
@@ -3012,12 +3019,12 @@
 "spike": false
 },
 "지하철": {
-"n30": 1,
-"base": 0.5,
+"n30": 0,
+"base": 0.4,
 "spike": false
 },
 "사고": {
-"n30": 4,
+"n30": 2,
 "base": 4.3,
 "spike": false
 },
@@ -3188,16 +3195,6 @@
 "url": "https://www.youtube.com/watch?v=xaE_UfZWsUM"
 },
 {
-"text": "아침부터 사고침 의뢰서 까먹고 병원가고있었음 하하하하하하하하(벅벅",
-"handle": "llookkiijjuupp.bsky.social",
-"name": "푸구",
-"time": "2026-11-09T00:27:29.075Z",
-"likes": 4,
-"reposts": 0,
-"url": "https://bsky.app/profile/llookkiijjuupp.bsky.social/post/3mzto5ivxvc2b",
-"term": "사고"
-},
-{
 "platform": "YouTube",
 "text": "왜 이제 샀을까! 후기 폭발 방풍 암막커튼 벨크로 꿀조합: 무타공·사계절·벨크로 총정리",
 "handle": "UCpw90LjerzRERrXFaYmDtiw",
@@ -3205,16 +3202,6 @@
 "time": "2026-11-09T00:26:40Z",
 "term": "폭발",
 "url": "https://www.youtube.com/watch?v=K3SzmVImBJc"
-},
-{
-"text": "사고났네",
-"handle": "hyeon.win",
-"name": "현",
-"time": "2026-11-09T00:26:26.880Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/hyeon.win/post/3mzto3mnrqk27",
-"term": "사고"
 },
 {
 "platform": "YouTube",
@@ -3319,14 +3306,14 @@
 "spikes": [
 {
 "term": "폭발",
-"n30": 6,
+"n30": 5,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-09T00:55:27.493341+00:00"
+"since": "2026-11-09T00:57:43.240845+00:00"
 }
 ],
 "baseline": {
-"지진": 0.9,
+"지진": 0.91,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
@@ -3334,9 +3321,9 @@
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.64,
-"지하철": 0.41,
-"사고": 4.3,
+"속보": 0.68,
+"지하철": 0.37,
+"사고": 4.07,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
