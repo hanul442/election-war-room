@@ -1,12 +1,12 @@
 {
-"updated": "2026-11-09T23:05:41.390982+00:00",
+"updated": "2026-11-09T23:07:59.952241+00:00",
 "errors": [],
 "events": [
 {
 "id": "viewAKR202611100145000712204",
 "first": "2026-11-09T22:04:53+00:00",
-"last": "2026-11-09T23:01:28+00:00",
-"updated": "2026-11-09T23:05:41.390982+00:00",
+"last": "2026-11-09T23:02:40+00:00",
+"updated": "2026-11-09T23:07:59.952241+00:00",
 "headline": "트럼프 \"젠슨 황과 통화…문제의 인물 스파이인줄 몰랐다 한다\"",
 "cat": "국제",
 "regions": [],
@@ -15,6 +15,7 @@
 "KBC광주방송",
 "www.twig24.com",
 "강원도민일보",
+"경기일보",
 "노컷뉴스",
 "뉴시스",
 "부산일보",
@@ -129,10 +130,17 @@
 "link": "https://www.yna.co.kr/view/AKR20261110014551071",
 "time": "2026-11-09T23:01:28+00:00",
 "stage": "후속"
+},
+{
+"title": "[속보] 젠슨 황에 전화 건 트럼프…“스파이인 줄 몰랐다더라, 믿는다”",
+"source": "경기일보",
+"link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE02LUMtaTNVLXNzVjRqNTdQX09lZTRTNE9WOGZCRF9uN0xfeGM1LWluYnh1ZlpQUFc5SWVDSE1tMmpwb3R6elhTZDNJR0V6YW9UUGZqNHhCVDZ1WnM?oc=5",
+"time": "2026-11-09T23:02:40+00:00",
+"stage": "속보"
 }
 ],
 "level": "URGENT",
-"latest": "트럼프 \"젠슨 황, 스파이인줄 몰랐다 한다…FBI가 살펴보는 중\"",
+"latest": "젠슨 황에 전화 건 트럼프…“스파이인 줄 몰랐다더라, 믿는다”",
 "tok": [
 "FBI",
 "그를",
@@ -150,13 +158,15 @@
 "스파이인지",
 "여성",
 "인물",
+"전화",
 "젠슨",
 "젠슨황",
 "통화",
 "통화했다",
 "트럼프",
 "한다",
-"황과"
+"황과",
+"황에"
 ]
 },
 {
@@ -2003,7 +2013,7 @@
 "spike": false
 },
 "폭발": {
-"n30": 3,
+"n30": 2,
 "base": 0.6,
 "spike": false
 },
@@ -2028,13 +2038,13 @@
 "spike": false
 },
 "지하철": {
-"n30": 7,
-"base": 3.2,
+"n30": 6,
+"base": 3.5,
 "spike": false
 },
 "사고": {
-"n30": 2,
-"base": 1.6,
+"n30": 1,
+"base": 1.5,
 "spike": false
 },
 "실종": {
@@ -2205,16 +2215,6 @@
 "url": "https://www.youtube.com/watch?v=wN1NE12rr58"
 },
 {
-"text": "베이지로 사고 검은건 롱패딩이나 다른걸루",
-"handle": "chickenuma.bsky.social",
-"name": "치킨 °o°(상태: P;ㅠ )",
-"time": "2026-11-09T22:36:25.685Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/chickenuma.bsky.social/post/3mzvyft7hg22q",
-"term": "사고"
-},
-{
 "platform": "YouTube",
 "text": "[속보] 이란, 케슘섬서 폭발음…공습 속 비명 쑥대밭 상황 [뉴스플레이리스트] / 채널A",
 "handle": "UCfq4V1DAuaojnr2ryvWNysw",
@@ -2338,13 +2338,13 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.6,
+"폭발": 0.64,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 3.49,
-"사고": 1.51,
+"지하철": 3.64,
+"사고": 1.36,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -2580,7 +2580,7 @@
 "link": "https://www.mt.co.kr/society/2026/11/09/2026110910415252509"
 }
 ],
-"new": true
+"new": false
 },
 {
 "term": "자동차",
