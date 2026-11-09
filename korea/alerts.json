@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-09T16:32:51.603651+00:00",
+"updated": "2026-11-09T16:35:08.753260+00:00",
 "errors": [],
 "events": [
 {
@@ -2016,18 +2016,18 @@
 "spike": false
 },
 "속보": {
-"n30": 3,
+"n30": 2,
 "base": 0.1,
 "spike": false
 },
 "지하철": {
 "n30": 2,
-"base": 0.4,
+"base": 0.5,
 "spike": false
 },
 "사고": {
-"n30": 5,
-"base": 3.2,
+"n30": 4,
+"base": 3.4,
 "spike": false
 },
 "실종": {
@@ -2326,17 +2326,17 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 0.08,
+"지진": 0.07,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.36,
+"폭발": 0.32,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.45,
-"사고": 3.42,
+"지하철": 0.51,
+"사고": 3.48,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -2567,7 +2567,7 @@
 "trends": [
 {
 "term": "kf-21 보라매",
-"traffic": "500+",
+"traffic": "1000+",
 "time": "2026-11-09T15:20:00+00:00",
 "news": [
 {
@@ -2620,26 +2620,8 @@
 "new": true
 },
 {
-"term": "nvda",
-"traffic": "100+",
-"time": "2026-11-09T14:50:00+00:00",
-"news": [
-{
-"title": "NVDA support and resistance levels as stock trades in oversold territory",
-"source": "Investing.com",
-"link": "https://www.investing.com/news/stock-market-news/nvda-support-and-resistance-levels-as-stock-trades-in-oversold-territory-93CH-5012758"
-},
-{
-"title": "Stock of the Day: Where is the Bottom for NVIDIA?",
-"source": "Benzinga",
-"link": "https://www.benzinga.com/trading-ideas/technicals/26/11/63041933/stock-of-the-day-where-is-the-bottom-for-nvidia-2"
-}
-],
-"new": true
-},
-{
 "term": "안드레이 알롭스키",
-"traffic": "100+",
+"traffic": "200+",
 "time": "2026-11-09T14:20:00+00:00",
 "news": [
 {
@@ -2733,6 +2715,24 @@
 }
 ],
 "new": true
+},
+{
+"term": "아시아나항공",
+"traffic": "500+",
+"time": "2026-11-09T11:50:00+00:00",
+"news": [
+{
+"title": "[한진칼 지배 구조 13년 下] 되찾은 현금과 남은 과제…‘통합 대한항공’ 시대의 해법은",
+"source": "에너지경제신문",
+"link": "https://m.ekn.kr/view.php?key=20261109024246882"
+},
+{
+"title": "포화된 하늘길에 새판짜기…항공업계, 통합·인수전 속도 [하늘길 새판짜기]",
+"source": "이투데이",
+"link": "https://www.etoday.co.kr/news/view/2645759"
+}
+],
+"new": false
 }
 ],
 "trendSeen": [
