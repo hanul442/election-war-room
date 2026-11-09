@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-09T14:31:25.009631+00:00",
+"updated": "2026-11-09T14:33:42.181483+00:00",
 "errors": [],
 "events": [
 {
@@ -2281,41 +2281,6 @@
 "차량",
 "파손"
 ]
-},
-{
-"id": "wNISX20261109_00038609580831",
-"first": "2026-11-09T08:31:42+00:00",
-"last": "2026-11-09T08:31:42+00:00",
-"updated": "2026-11-09T08:33:05.036246+00:00",
-"headline": "우크라 드론 113대, 레닌그라드 지역 공격…러 제2 정유공장 폭발·화재",
-"cat": "재난",
-"regions": [],
-"sources": [
-"뉴시스"
-],
-"updates": [
-{
-"title": "우크라 드론 113대, 레닌그라드 지역 공격…러 제2 정유공장 폭발·화재",
-"source": "뉴시스",
-"link": "https://www.newsis.com/view/NISX20261109_0003860958",
-"time": "2026-11-09T08:31:42+00:00",
-"stage": "1보"
-}
-],
-"level": "ALERT",
-"latest": "우크라 드론 113대, 레닌그라드 지역 공격…러 제2 정유공장 폭발·화재",
-"tok": [
-"113대",
-"공격",
-"드론",
-"레닌그라드",
-"우크라",
-"정유공장",
-"제2",
-"지역",
-"폭발",
-"화재"
-]
 }
 ],
 "sns": {
@@ -2327,7 +2292,7 @@
 },
 "화재": {
 "n30": 0,
-"base": 0.6,
+"base": 0.5,
 "spike": false
 },
 "불났": {
@@ -2342,12 +2307,12 @@
 },
 "폭발": {
 "n30": 8,
-"base": 2.2,
+"base": 2.1,
 "spike": true
 },
 "붕괴": {
 "n30": 4,
-"base": 0.3,
+"base": 0.4,
 "spike": false
 },
 "대피": {
@@ -2367,12 +2332,12 @@
 },
 "지하철": {
 "n30": 4,
-"base": 0.1,
+"base": 0.2,
 "spike": false
 },
 "사고": {
-"n30": 4,
-"base": 6.4,
+"n30": 3,
+"base": 6.2,
 "spike": false
 },
 "실종": {
@@ -2403,6 +2368,16 @@
 },
 "posts": [
 {
+"text": "도파민이 폭발하고나면 그로기상태가 온다\n가만히 있어도 가만히 있고싶은 그런 귀찮음...\n그런데말이지 가만히 있으면 또 심심하긴해~\n쟈기야 별 따먹자~⭐️",
+"handle": "jimin3572.bsky.social",
+"name": "지니미니",
+"time": "2026-11-09T14:32:29.079Z",
+"likes": 1,
+"reposts": 0,
+"url": "https://bsky.app/profile/jimin3572.bsky.social/post/3mzv5eeghec2l",
+"term": "폭발"
+},
+{
 "text": "와!!!지굼 지하철 안 술 냄새 장난 아니네!!!!!!!!",
 "handle": "mayonnais.bsky.social",
 "name": "そばパン",
@@ -2427,7 +2402,7 @@
 "handle": "xtxmt.bsky.social",
 "name": "빙빙이",
 "time": "2026-11-09T14:24:05.271Z",
-"likes": 0,
+"likes": 1,
 "reposts": 0,
 "url": "https://bsky.app/profile/xtxmt.bsky.social/post/3mzv4vgupqc2l",
 "term": "붕괴"
@@ -2608,16 +2583,6 @@
 "url": "https://www.youtube.com/watch?v=wVBix4Q6dGc"
 },
 {
-"text": "아근데전부정사가아니네...\n레퀴엠이 헬릭스 루프시킬 수 있을 때만 정사고, 좆이되면 국장도 그대로 죽고 게임끝나는구나 엌ㅋㅋㅋ",
-"handle": "gallbitang.bsky.social",
-"name": "갈비",
-"time": "2026-11-09T14:02:16.073Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/gallbitang.bsky.social/post/3mzv3ofkxnk22",
-"term": "사고"
-},
-{
 "platform": "YouTube",
 "text": "집앞에서 쫒겨나고 질투 폭발하는 호랑 #나를충전해줘 #채수빈 #김영광",
 "handle": "UCntKVuUUX5xNolnWhoKE5TQ",
@@ -2694,23 +2659,23 @@
 {
 "term": "폭발",
 "n30": 8,
-"base": 2.2,
+"base": 2.1,
 "spike": true,
-"since": "2026-11-09T14:31:25.009631+00:00"
+"since": "2026-11-09T14:33:42.181483+00:00"
 }
 ],
 "baseline": {
-"지진": 0.18,
-"화재": 0.5,
+"지진": 0.16,
+"화재": 0.45,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 2.15,
-"붕괴": 0.39,
+"폭발": 2.24,
+"붕괴": 0.45,
 "대피": 0.05,
-"미사일": 0.12,
-"속보": 0.07,
-"지하철": 0.23,
-"사고": 6.2,
+"미사일": 0.11,
+"속보": 0.06,
+"지하철": 0.31,
+"사고": 5.88,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -3003,24 +2968,6 @@
 "new": true
 },
 {
-"term": "박승규",
-"traffic": "1000+",
-"time": "2026-11-09T11:50:00+00:00",
-"news": [
-{
-"title": "무명서 가을 스타로… 박승규 “우승 반지로 청혼할래요”",
-"source": "문화일보",
-"link": "https://www.munhwa.com/article/11629827"
-},
-{
-"title": "\"팬도 선수도 함께 쓰러질 때까지…\" 박승규의 비장한 우승 다짐 [베이스볼S]",
-"source": "programs.sbs.co.kr",
-"link": "https://programs.sbs.co.kr/sports/2026baseballs/clip/89153/22000639518"
-}
-],
-"new": true
-},
-{
 "term": "아시아나항공",
 "traffic": "500+",
 "time": "2026-11-09T11:50:00+00:00",
@@ -3037,6 +2984,24 @@
 }
 ],
 "new": false
+},
+{
+"term": "박승규",
+"traffic": "1000+",
+"time": "2026-11-09T11:50:00+00:00",
+"news": [
+{
+"title": "무명서 가을 스타로… 박승규 “우승 반지로 청혼할래요”",
+"source": "문화일보",
+"link": "https://www.munhwa.com/article/11629827"
+},
+{
+"title": "\"팬도 선수도 함께 쓰러질 때까지…\" 박승규의 비장한 우승 다짐 [베이스볼S]",
+"source": "programs.sbs.co.kr",
+"link": "https://programs.sbs.co.kr/sports/2026baseballs/clip/89153/22000639518"
+}
+],
+"new": true
 },
 {
 "term": "변호사",
