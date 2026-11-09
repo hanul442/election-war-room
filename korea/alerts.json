@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-09T15:40:21.868587+00:00",
+"updated": "2026-11-09T15:42:37.393343+00:00",
 "errors": [],
 "events": [
 {
@@ -2088,9 +2088,9 @@
 "spike": false
 },
 "폭발": {
-"n30": 6,
-"base": 1.0,
-"spike": true
+"n30": 3,
+"base": 1.1,
+"spike": false
 },
 "붕괴": {
 "n30": 1,
@@ -2119,7 +2119,7 @@
 },
 "사고": {
 "n30": 0,
-"base": 0.6,
+"base": 0.5,
 "spike": false
 },
 "실종": {
@@ -2387,27 +2387,19 @@
 "url": "https://www.youtube.com/watch?v=SKYFTbveLls"
 }
 ],
-"spikes": [
-{
-"term": "폭발",
-"n30": 6,
-"base": 1.0,
-"spike": true,
-"since": "2026-11-09T15:40:21.868587+00:00"
-}
-],
+"spikes": [],
 "baseline": {
-"지진": 0.71,
+"지진": 0.74,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 1.1,
-"붕괴": 0.09,
+"폭발": 1.19,
+"붕괴": 0.08,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.13,
-"사고": 0.5,
+"지하철": 0.12,
+"사고": 0.45,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -2730,14 +2722,14 @@
 "time": "2026-11-09T11:50:00+00:00",
 "news": [
 {
-"title": "과기정통부와 함께 AI 스타트업 파트너십 포럼 개최한 NVIDIA, 국내 스타트업 투자 확대",
+"title": "한국 AI 생태계의 에이전틱 AI 고도화하고 보안 강화하는 NVIDIA",
 "source": "NVIDIA",
-"link": "https://blogs.nvidia.co.kr/blog/korean-startup-investments-msit/"
+"link": "https://blogs.nvidia.co.kr/blog/korea-secure-agentic-ai/"
 },
 {
-"title": "정석근 SKT \"GPU·NPU 결합해 세계서 가장 싸게 토큰 생산\"",
-"source": "지디넷코리아",
-"link": "https://zdnet.co.kr/view/?no=20261109161556"
+"title": "리벨리온 NPU-엔비디아 GPU 함께 쓴다",
+"source": "동아일보",
+"link": "https://www.donga.com/news/Economy/article/all/20261109/134994167/2"
 }
 ],
 "new": true
