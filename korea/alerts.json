@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-09T06:40:22.987303+00:00",
+"updated": "2026-11-09T06:42:36.768395+00:00",
 "errors": [],
 "events": [
 {
@@ -118,14 +118,15 @@
 "id": "wNISX20261109_00038607240633",
 "first": "2026-11-09T06:33:00+00:00",
 "last": "2026-11-09T06:35:00+00:00",
-"updated": "2026-11-09T06:40:22.987303+00:00",
+"updated": "2026-11-09T06:42:36.768395+00:00",
 "headline": "원·달러 환율, 9.5원 내린 1347.1원 마감",
 "cat": "경제",
 "regions": [],
 "sources": [
 "Chosunbiz",
 "뉴시스",
-"연합뉴스"
+"연합뉴스",
+"조선일보"
 ],
 "updates": [
 {
@@ -154,6 +155,13 @@
 "source": "Chosunbiz",
 "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPVElKTWNpVWlhSWtONnNCTHFIYXMtUGNQVk5PZHJUVEVMNm5mVkVXOVdSRk5hTjJPbnNUUWh2dklfenByNE1rOGNyemFDd2VDT3JFTjhXOXNJenhCNDNIRzNoNEdfWVBDdTdRQ1UtRjJEM3NRQ2QxazZtTGRjYzB6MFU1Y3ZmSFZ50gGcAUFVX3lxTE5SQm5nUVVuT0lUTEg3TkVhR25peW9vS0RsLVN3NjFTSjVaWE1Ba2JSZDNWcDdsVktOck1jNGRSSHNJejh3ci1RXzhsLTlSQTlQS185NjlrVURuSnFQZVNoQmZOaEpLTUI5SFZ1TmV2VUhNMFEzYUM4MTNMTWFEX1J2STdiWW41MmVxeDZGYWVLeFZibERFclZXSFBCag?oc=5",
 "time": "2026-11-09T06:34:00+00:00",
+"stage": "속보"
+},
+{
+"title": "[속보] 코스피 0.81% 내린 5018.85 마감",
+"source": "조선일보",
+"link": "https://www.chosun.com/economy/money/2026/11/09/KL4BBVWJXJC75HXSMHJ5FJ6OAA/",
+"time": "2026-11-09T06:34:15+00:00",
 "stage": "속보"
 },
 {
@@ -3092,7 +3100,7 @@
 },
 "폭발": {
 "n30": 4,
-"base": 0.7,
+"base": 0.8,
 "spike": false
 },
 "붕괴": {
@@ -3111,18 +3119,18 @@
 "spike": false
 },
 "속보": {
-"n30": 4,
+"n30": 3,
 "base": 0.1,
 "spike": false
 },
 "지하철": {
-"n30": 2,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
 "사고": {
 "n30": 2,
-"base": 0.8,
+"base": 0.9,
 "spike": false
 },
 "실종": {
@@ -3412,21 +3420,21 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 0.72,
+"지진": 0.75,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.77,
+"폭발": 0.79,
 "붕괴": 0.05,
 "대피": 0.05,
-"미사일": 0.09,
+"미사일": 0.08,
 "속보": 0.05,
 "지하철": 0.05,
-"사고": 0.93,
-"실종": 0.78,
+"사고": 1.04,
+"실종": 0.8,
 "단수": 0.05,
 "통신 장애": 0.05,
-"먹통": 0.1,
+"먹통": 0.09,
 "산불": 0.05
 },
 "errors": [],
