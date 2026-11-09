@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-09T09:41:38.215479+00:00",
+"updated": "2026-11-09T09:43:55.933756+00:00",
 "errors": [],
 "events": [
 {
@@ -2887,7 +2887,7 @@
 "terms": {
 "지진": {
 "n30": 2,
-"base": 0.1,
+"base": 0.2,
 "spike": false
 },
 "화재": {
@@ -2906,9 +2906,9 @@
 "spike": false
 },
 "폭발": {
-"n30": 5,
+"n30": 4,
 "base": 0.6,
-"spike": true
+"spike": false
 },
 "붕괴": {
 "n30": 3,
@@ -2931,13 +2931,13 @@
 "spike": true
 },
 "지하철": {
-"n30": 4,
-"base": 0.9,
-"spike": false
+"n30": 5,
+"base": 1.0,
+"spike": true
 },
 "사고": {
 "n30": 2,
-"base": 2.3,
+"base": 2.2,
 "spike": false
 },
 "실종": {
@@ -2967,6 +2967,16 @@
 }
 },
 "posts": [
+{
+"text": "아니ㅋㅋㄱㄱ나 지하철에서 발 밟혔는데\n나도 모르게 아주 정직하게\n\"아야!\"라고 해버림ㅜㅜㄱㅋㅋㄱㄱㄱㄱㄲ",
+"handle": "jarlade.bsky.social",
+"name": "JarL(얄님)",
+"time": "2026-11-09T09:41:33.674Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/jarlade.bsky.social/post/3mzun47vhec26",
+"term": "지하철"
+},
 {
 "text": "【지진 정보】일본 시간 11월 9일 18:35경\n진원: Southern Nagano Prefecture (M2.3, 깊이 약 10km)\n최대 진도: 1\n진도 1: 나가노현\n이 지진으로 인한 쓰나미 걱정은 없습니다.\n(일본 기상청 발표)\n#일본 #지진 #방재",
 "handle": "ko.soramoyou.yk-planning.jp",
@@ -3040,7 +3050,7 @@
 "name": "pkg update",
 "time": "2026-11-09T09:26:57.577Z",
 "likes": 0,
-"reposts": 1,
+"reposts": 2,
 "url": "https://bsky.app/profile/pkgupdt.fedi1.pkgu.net.ap.brid.gy/post/3mzumbygxp2f2",
 "term": "사고"
 },
@@ -3228,32 +3238,32 @@
 ],
 "spikes": [
 {
-"term": "폭발",
-"n30": 5,
-"base": 0.6,
-"spike": true,
-"since": "2026-11-09T09:41:38.215479+00:00"
-},
-{
 "term": "속보",
 "n30": 6,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-09T09:41:38.215479+00:00"
+"since": "2026-11-09T09:43:55.933756+00:00"
+},
+{
+"term": "지하철",
+"n30": 5,
+"base": 1.0,
+"spike": true,
+"since": "2026-11-09T09:43:55.933756+00:00"
 }
 ],
 "baseline": {
-"지진": 0.19,
+"지진": 0.27,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.64,
-"붕괴": 0.12,
+"폭발": 0.68,
+"붕괴": 0.11,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.98,
-"사고": 2.23,
+"지하철": 1.18,
+"사고": 2.21,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -3583,9 +3593,9 @@
 "link": "https://www.chosun.com/economy/industry-company/2026/11/09/7MFLUFVJQRHAHGO6FKCDX5LWEU/"
 },
 {
-"title": "한화오션 미국 해군 중형상륙함 수주는 '미미' 평가, 블룸버그 \"한국 조선업체 투자 유인할 추가 발주 필요\"",
-"source": "비즈니스포스트",
-"link": "https://www.businesspost.co.kr/BP?command=article_view&num=451483"
+"title": "자주포 이어 美 해군 차기 호위함 수주까지…韓·日·英·튀르키예 ‘4파전’[이현호의 방산!톡]",
+"source": "서울경제",
+"link": "https://www.sedaily.com/article/20111605"
 }
 ],
 "new": false
