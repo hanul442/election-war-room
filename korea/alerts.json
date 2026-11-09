@@ -1,16 +1,17 @@
 {
-"updated": "2026-11-09T04:30:18.998190+00:00",
+"updated": "2026-11-09T04:32:35.962373+00:00",
 "errors": [],
 "events": [
 {
 "id": "1eU5CWUVYTUcyN25lWjZOoc50420",
 "first": "2026-11-09T04:20:00+00:00",
 "last": "2026-11-09T04:25:59+00:00",
-"updated": "2026-11-09T04:28:06.931643+00:00",
+"updated": "2026-11-09T04:32:35.962373+00:00",
 "headline": "선관위 특검, '투표지 계수기 담합 의혹' 업체 2곳 압수수색",
 "cat": "기타",
 "regions": [],
 "sources": [
+"뉴스1",
 "뉴스핌",
 "뉴시스",
 "조선일보"
@@ -22,6 +23,13 @@
 "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE13cmFSc0hlX2cxYnZwSnk1ckMyc2F6RlphWFpZbnlzNk5UNm1XMHYwRy1yTGpiQUFrejFZQkhpbEtIbVh2dGFmZDluWE11eU5CWUVYTUcyN25lWjZO?oc=5",
 "time": "2026-11-09T04:20:00+00:00",
 "stage": "얼럿"
+},
+{
+"title": "[속보] 선관위 특검, '담합 혐의' 투표지 계수기 업체 압수수색",
+"source": "뉴스1",
+"link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5EVllhbjhwaDRjbzdVVVgxNS1mYk9BVGhBYWlQMFJ4YUliQmpOVTBWemxsMzd5UTR4QTlzVHFlOGJId2tEeUhhQU9YNDVJSEd2X1FDS1l5SktaZDQxUnBoUlZzUEU?oc=5",
+"time": "2026-11-09T04:20:16+00:00",
+"stage": "속보"
 },
 {
 "title": "[속보]특검, '투표지 계수기 담합 의혹' 업체 2곳 압수수색",
@@ -48,7 +56,8 @@
 "압수수색",
 "업체",
 "투표지",
-"특검"
+"특검",
+"혐의"
 ]
 },
 {
@@ -3381,13 +3390,13 @@
 "sns": {
 "terms": {
 "지진": {
-"n30": 2,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
 "화재": {
 "n30": 1,
-"base": 0.6,
+"base": 0.7,
 "spike": false
 },
 "불났": {
@@ -3402,7 +3411,7 @@
 },
 "폭발": {
 "n30": 1,
-"base": 0.6,
+"base": 0.7,
 "spike": false
 },
 "붕괴": {
@@ -3421,9 +3430,9 @@
 "spike": false
 },
 "속보": {
-"n30": 7,
+"n30": 4,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "지하철": {
 "n30": 2,
@@ -3432,7 +3441,7 @@
 },
 "사고": {
 "n30": 3,
-"base": 2.0,
+"base": 2.1,
 "spike": false
 },
 "실종": {
@@ -3721,28 +3730,20 @@
 "url": "https://www.youtube.com/watch?v=0knrxb8Zo24"
 }
 ],
-"spikes": [
-{
-"term": "속보",
-"n30": 7,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-09T04:30:18.998190+00:00"
-}
-],
+"spikes": [],
 "baseline": {
 "지진": 0.05,
-"화재": 0.68,
+"화재": 0.71,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.68,
-"붕괴": 0.18,
-"대피": 0.3,
+"폭발": 0.71,
+"붕괴": 0.16,
+"대피": 0.27,
 "미사일": 0.05,
 "속보": 0.05,
 "지하철": 0.05,
-"사고": 2.08,
-"실종": 1.26,
+"사고": 2.17,
+"실종": 1.23,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -4114,9 +4115,9 @@
 "link": "https://m.anewsa.com/article_sub3.php?number=3215822&type=&mobile="
 },
 {
-"title": "파주페이로 지역상권 살리고 가을축제 즐긴다",
-"source": "인천일보",
-"link": "https://www.incheonilbo.com/news/articleView.html?idxno=1335795"
+"title": "지역화폐와 함께하는‘2026 파주페이 페스타’ 7일 개최",
+"source": "파주바른신문",
+"link": "https://www.pajuplus.co.kr/news/article.html?no=14845"
 }
 ],
 "new": false
