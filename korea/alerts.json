@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-09T00:28:10.244083+00:00",
+"updated": "2026-11-09T00:30:26.616063+00:00",
 "errors": [],
 "events": [
 {
@@ -626,7 +626,7 @@
 "id": "wNISX20261109_00038597410001",
 "first": "2026-11-09T00:01:34+00:00",
 "last": "2026-11-09T00:11:00+00:00",
-"updated": "2026-11-09T00:23:37.675760+00:00",
+"updated": "2026-11-09T00:30:26.616063+00:00",
 "headline": "코스피, 25.49포인트(0.50%) 내린 5034.20 출발",
 "cat": "경제",
 "regions": [],
@@ -645,6 +645,13 @@
 "title": "[속보] 코스피 25.49p(0.50%) 내린 5034.20(개장)",
 "source": "이투데이",
 "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1MSXdaei00OHRseE5jRzZrVVpUeVRURXY2N0l6ZDZVRHB4WVhDTzdxcnJjaWJqQ01jNjk1QV85X2xqS3dTSV84Sjc5WmZBc0pHRWpjNE4ybGJtRkVTV01tUVRTWUxlZU92dUIxamZRek1iWlg2?oc=5",
+"time": "2026-11-09T00:01:00+00:00",
+"stage": "속보"
+},
+{
+"title": "[속보] 코스피 25.49p(0.50%) 내린 5034.20(개장)",
+"source": "이투데이",
+"link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE96Q051bUVvTnB5ZThKTUhLQ0FoNFktWk5oVFpSLXd6WVlGejNGMnQyYkkydW40WHNHMGJWUmItM0w0dXJ2QlNESEc1STlRRGdjaUxMUmdBcmMwQjRfcDNoVVJNTkxHelp2aHhpSTdn?oc=5",
 "time": "2026-11-09T00:01:00+00:00",
 "stage": "속보"
 },
@@ -2789,12 +2796,12 @@
 "spike": false
 },
 "폭발": {
-"n30": 5,
+"n30": 2,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "붕괴": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -2804,23 +2811,23 @@
 "spike": false
 },
 "미사일": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
 "속보": {
-"n30": 8,
+"n30": 3,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "지하철": {
-"n30": 3,
-"base": 1.6,
+"n30": 1,
+"base": 1.4,
 "spike": false
 },
 "사고": {
 "n30": 6,
-"base": 2.5,
+"base": 2.8,
 "spike": false
 },
 "실종": {
@@ -3117,22 +3124,7 @@
 "url": "https://www.youtube.com/watch?v=pkTe20TX1mk"
 }
 ],
-"spikes": [
-{
-"term": "폭발",
-"n30": 5,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-09T00:28:10.244083+00:00"
-},
-{
-"term": "속보",
-"n30": 8,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-09T00:28:10.244083+00:00"
-}
-],
+"spikes": [],
 "baseline": {
 "지진": 0.96,
 "화재": 0.05,
@@ -3143,8 +3135,8 @@
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 1.41,
-"사고": 2.84,
+"지하철": 1.27,
+"사고": 3.16,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
