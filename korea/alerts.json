@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-09T09:02:46.721122+00:00",
+"updated": "2026-11-09T09:05:06.536466+00:00",
 "errors": [],
 "events": [
 {
@@ -2869,7 +2869,7 @@
 "terms": {
 "지진": {
 "n30": 1,
-"base": 0.6,
+"base": 0.5,
 "spike": false
 },
 "화재": {
@@ -2914,7 +2914,7 @@
 },
 "지하철": {
 "n30": 6,
-"base": 0.2,
+"base": 0.3,
 "spike": true
 },
 "사고": {
@@ -2954,7 +2954,7 @@
 "handle": "gomsoonisnow.bsky.social",
 "name": "곰순이는 지금",
 "time": "2026-11-09T09:01:30.875Z",
-"likes": 1,
+"likes": 2,
 "reposts": 0,
 "url": "https://bsky.app/profile/gomsoonisnow.bsky.social/post/3mzukun553c2t",
 "term": "사고"
@@ -3204,28 +3204,28 @@
 "n30": 7,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-09T09:02:46.721122+00:00"
+"since": "2026-11-09T09:05:06.536466+00:00"
 },
 {
 "term": "지하철",
 "n30": 6,
-"base": 0.2,
+"base": 0.3,
 "spike": true,
-"since": "2026-11-09T09:02:46.721122+00:00"
+"since": "2026-11-09T09:05:06.536466+00:00"
 }
 ],
 "baseline": {
-"지진": 0.5,
+"지진": 0.45,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
 "폭발": 0.05,
-"붕괴": 0.66,
+"붕괴": 0.59,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.32,
-"사고": 3.81,
+"지하철": 0.39,
+"사고": 3.83,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -3437,6 +3437,24 @@
 },
 "trends": [
 {
+"term": "김장훈",
+"traffic": "2000+",
+"time": "2026-11-09T08:00:00+00:00",
+"news": [
+{
+"title": "김장훈, 국민연금 예상액 듣고 깜짝…“그렇게 많이 주냐”",
+"source": "세계일보",
+"link": "https://www.segye.com/newsView/20261109502306"
+},
+{
+"title": "\"한 달에 이렇게 많이 줘?\"…국민연금 수령에 김장훈, 또 결심 - 머니투데이",
+"source": "머니투데이",
+"link": "https://www.mt.co.kr/index.php/entertainment/2026/11/09/2026110917220064923"
+}
+],
+"new": true
+},
+{
 "term": "구속",
 "traffic": "2000+",
 "time": "2026-11-09T07:50:00+00:00",
@@ -3450,6 +3468,24 @@
 "title": "지하철서 잠든 20대 여성에 입 맞추고 신체 접촉…60대 구속 송치",
 "source": "경기일보",
 "link": "https://www.kyeonggi.com/article/20261109580406"
+}
+],
+"new": true
+},
+{
+"term": "볼더링",
+"traffic": "200+",
+"time": "2026-11-09T07:50:00+00:00",
+"news": [
+{
+"title": "스포츠클라이밍 대표팀, 국가대항전서 볼더링·리드 은메달",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261109124800007"
+},
+{
+"title": "파라클라이밍 윤태인, 파라시리즈 한국 선수 역대 ’첫 메달’ 쾌거",
+"source": "연합뉴스TV",
+"link": "https://www.yonhapnewstv.co.kr/news/AKR20261109132703FV8"
 }
 ],
 "new": true
@@ -3473,24 +3509,6 @@
 "new": false
 },
 {
-"term": "볼더링",
-"traffic": "100+",
-"time": "2026-11-09T07:50:00+00:00",
-"news": [
-{
-"title": "스포츠클라이밍 대표팀, 국가대항전서 볼더링·리드 은메달",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261109124800007"
-},
-{
-"title": "파라클라이밍 윤태인, 파라시리즈 한국 선수 역대 ’첫 메달’ 쾌거",
-"source": "연합뉴스TV",
-"link": "https://www.yonhapnewstv.co.kr/news/AKR20261109132703FV8"
-}
-],
-"new": true
-},
-{
 "term": "한국 민속촌",
 "traffic": "2000+",
 "time": "2026-11-09T07:30:00+00:00",
@@ -3501,9 +3519,9 @@
 "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008836764"
 },
 {
-"title": "“아이 훈육을 귀신에게?”…한국민속촌 ‘귀신 훈육’ 아동학대 논란",
-"source": "경기일보",
-"link": "https://www.kyeonggi.com/article/20261109580335"
+"title": "\"민속촌 참교육 중단해야\" '귀신 훈육' 아동학대 논란 [앵커리포트]",
+"source": "YTN",
+"link": "https://www.ytn.co.kr/_cs/_ln_0103_202611091416020041_005.html"
 }
 ],
 "new": false
@@ -3575,35 +3593,17 @@
 "time": "2026-11-09T06:10:00+00:00",
 "news": [
 {
-"title": "\"레버리지도 아닌데\"…일제히 '10%대 급등' ETF 뭐길래",
-"source": "한국경제",
-"link": "https://www.hankyung.com/article/202611094906i"
+"title": "한달 만에 1000만원→299만원 됐다...'야수의 심장' 개미, 눈물의 물타기 [서학픽] - 머니투데이",
+"source": "머니투데이",
+"link": "https://www.mt.co.kr/world/2026/11/09/2026110814501193864"
 },
 {
-"title": "[ETF 시황] 우주항공·양자 ETF 날았다…2차전지 레버리지는 12% 급락",
-"source": "뉴스핌",
-"link": "https://www.newspim.com/news/view/20261109001123"
+"title": "단종레 막자 … 지수형 레버리지 ETF로 개미 몰렸다",
+"source": "매일경제 마켓",
+"link": "https://stock.mk.co.kr/news/view/1193843"
 }
 ],
 "new": true
-},
-{
-"term": "정지선",
-"traffic": "5000+",
-"time": "2026-11-09T05:50:00+00:00",
-"news": [
-{
-"title": "정지선, 대만 매장서 직원 10명 퇴사…“한 달 반 만에 다 나갔다”",
-"source": "세계일보",
-"link": "https://www.segye.com/newsView/20261109502858"
-},
-{
-"title": "정지선 \"140평 대만 식당 한 달 반 만에 10명 퇴사해\"",
-"source": "뉴시스",
-"link": "https://www.newsis.com/view/NISX20261108_0003859545"
-}
-],
-"new": false
 }
 ],
 "trendSeen": [
