@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-09T15:28:51.149956+00:00",
+"updated": "2026-11-09T15:31:09.801496+00:00",
 "errors": [],
 "events": [
 {
@@ -2050,48 +2050,12 @@
 "틈도",
 "화장할"
 ]
-},
-{
-"id": "JdHhNd0dGLWdrM1ljalRBoc50928",
-"first": "2026-11-09T09:28:52+00:00",
-"last": "2026-11-09T09:28:52+00:00",
-"updated": "2026-11-09T09:32:31.406463+00:00",
-"headline": "지하철서 잠든 여성 신체부위 만지고 입맞춤, 상해…60대 남성 구속 송치",
-"cat": "교통",
-"regions": [],
-"sources": [
-"매일신문"
-],
-"updates": [
-{
-"title": "[속보]지하철서 잠든 여성 신체부위 만지고 입맞춤, 상해…60대 남성 구속 송치",
-"source": "매일신문",
-"link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9qc0Z2YnBRcGF6SG5ua3RCT1JLZ3RQY3k1bVF4TGlfSzBtNmZBOWZqaV9adktzNldILW5OVk5JMFNxbGk0SFlGN1JpWWZ2a2s4Yk5JdHhNd0dGLWdrM1ljalRB?oc=5",
-"time": "2026-11-09T09:28:52+00:00",
-"stage": "얼럿"
-}
-],
-"level": "BULLETIN",
-"latest": "지하철서 잠든 여성 신체부위 만지고 입맞춤, 상해…60대 남성 구속 송치",
-"tok": [
-"60대",
-"구속",
-"남성",
-"만지고",
-"상해",
-"송치",
-"신체부위",
-"여성",
-"입맞춤",
-"잠든",
-"지하철서"
-]
 }
 ],
 "sns": {
 "terms": {
 "지진": {
-"n30": 3,
+"n30": 2,
 "base": 0.5,
 "spike": false
 },
@@ -2106,18 +2070,18 @@
 "spike": false
 },
 "정전": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
 "폭발": {
-"n30": 8,
-"base": 0.8,
+"n30": 7,
+"base": 0.9,
 "spike": true
 },
 "붕괴": {
 "n30": 1,
-"base": 0.2,
+"base": 0.1,
 "spike": false
 },
 "대피": {
@@ -2131,18 +2095,18 @@
 "spike": false
 },
 "속보": {
-"n30": 6,
+"n30": 3,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "지하철": {
-"n30": 4,
+"n30": 3,
 "base": 0.2,
 "spike": false
 },
 "사고": {
 "n30": 0,
-"base": 0.9,
+"base": 0.8,
 "spike": false
 },
 "실종": {
@@ -2403,31 +2367,24 @@
 "spikes": [
 {
 "term": "폭발",
-"n30": 8,
-"base": 0.8,
+"n30": 7,
+"base": 0.9,
 "spike": true,
-"since": "2026-11-09T15:28:51.149956+00:00"
-},
-{
-"term": "속보",
-"n30": 6,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-09T15:28:51.149956+00:00"
+"since": "2026-11-09T15:31:09.801496+00:00"
 }
 ],
 "baseline": {
-"지진": 0.51,
+"지진": 0.56,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.86,
-"붕괴": 0.14,
+"폭발": 0.87,
+"붕괴": 0.13,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.21,
-"사고": 0.84,
+"지하철": 0.19,
+"사고": 0.76,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -2755,9 +2712,9 @@
 "link": "https://blogs.nvidia.co.kr/blog/korean-startup-investments-msit/"
 },
 {
-"title": "에이전틱 AI·피지컬 AI부터 인프라까지 아우른 “엔비디아 AI 데이 서울 2026”",
-"source": "동아일보",
-"link": "https://www.donga.com/news/It/article/all/20261109/134995914/1"
+"title": "정석근 SKT \"GPU·NPU 결합해 세계서 가장 싸게 토큰 생산\"",
+"source": "지디넷코리아",
+"link": "https://zdnet.co.kr/view/?no=20261109161556"
 }
 ],
 "new": true
