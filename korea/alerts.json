@@ -1,7 +1,44 @@
 {
-"updated": "2026-11-09T06:11:14.998792+00:00",
+"updated": "2026-11-09T06:13:29.555676+00:00",
 "errors": [],
 "events": [
+{
+"id": "wNISX20261109_00038605980611",
+"first": "2026-11-09T06:11:21+00:00",
+"last": "2026-11-09T06:11:21+00:00",
+"updated": "2026-11-09T06:13:29.555676+00:00",
+"headline": "통영 욕지도 남방 해상서 32t 어선 침수…\"인명 피해 없어\"",
+"cat": "재난",
+"regions": [
+"경남"
+],
+"sources": [
+"뉴시스"
+],
+"updates": [
+{
+"title": "통영 욕지도 남방 해상서 32t 어선 침수…\"인명 피해 없어\"",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261109_0003860598",
+"time": "2026-11-09T06:11:21+00:00",
+"stage": "1보"
+}
+],
+"level": "ALERT",
+"latest": "통영 욕지도 남방 해상서 32t 어선 침수…\"인명 피해 없어\"",
+"tok": [
+"32t",
+"남방",
+"어선",
+"없어",
+"욕지",
+"인명",
+"침수",
+"통영",
+"피해",
+"해상서"
+]
+},
 {
 "id": "FfaGphWU55RURiWXl2cW8oc50609",
 "first": "2026-11-09T06:09:00+00:00",
@@ -33,6 +70,46 @@
 "일본",
 "지진",
 "틈이"
+]
+},
+{
+"id": "viewAKR202611090838005270413",
+"first": "2026-11-09T04:13:30+00:00",
+"last": "2026-11-09T06:07:11+00:00",
+"updated": "2026-11-09T06:13:29.555676+00:00",
+"headline": "남해 먼바다에 풍랑주의보",
+"cat": "재난",
+"regions": [
+"경남",
+"광주",
+"전남"
+],
+"sources": [
+"연합뉴스"
+],
+"updates": [
+{
+"title": "남해 먼바다에 풍랑주의보",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261109083800527",
+"time": "2026-11-09T04:13:30+00:00",
+"stage": "1보"
+},
+{
+"title": "남해 동부 먼바다에 풍랑주의보",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261109110900527",
+"time": "2026-11-09T06:07:11+00:00",
+"stage": "후속"
+}
+],
+"level": "ALERT",
+"latest": "남해 동부 먼바다에 풍랑주의보",
+"tok": [
+"남해",
+"동부",
+"먼바다",
+"풍랑주의보"
 ]
 },
 {
@@ -1757,37 +1834,6 @@
 ]
 },
 {
-"id": "viewAKR202611090838005270413",
-"first": "2026-11-09T04:13:30+00:00",
-"last": "2026-11-09T04:13:30+00:00",
-"updated": "2026-11-09T04:16:54.914172+00:00",
-"headline": "남해 먼바다에 풍랑주의보",
-"cat": "재난",
-"regions": [
-"광주",
-"전남"
-],
-"sources": [
-"연합뉴스"
-],
-"updates": [
-{
-"title": "남해 먼바다에 풍랑주의보",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261109083800527",
-"time": "2026-11-09T04:13:30+00:00",
-"stage": "1보"
-}
-],
-"level": "ALERT",
-"latest": "남해 먼바다에 풍랑주의보",
-"tok": [
-"남해",
-"먼바다",
-"풍랑주의보"
-]
-},
-{
 "id": "viewAKR202611090842005270413",
 "first": "2026-11-09T04:13:08+00:00",
 "last": "2026-11-09T04:13:08+00:00",
@@ -3309,47 +3355,13 @@
 "올봄",
 "전년도"
 ]
-},
-{
-"id": "viewAKR202611090722000520228",
-"first": "2026-11-09T02:28:14+00:00",
-"last": "2026-11-09T02:28:14+00:00",
-"updated": "2026-11-09T02:35:45.465956+00:00",
-"headline": "경남교육청, 겨울철 자연재난 대비 15일부터 종합상황실 운영",
-"cat": "재난",
-"regions": [
-"경남"
-],
-"sources": [
-"연합뉴스"
-],
-"updates": [
-{
-"title": "경남교육청, 겨울철 자연재난 대비 15일부터 종합상황실 운영",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261109072200052",
-"time": "2026-11-09T02:28:14+00:00",
-"stage": "1보"
-}
-],
-"level": "ALERT",
-"latest": "경남교육청, 겨울철 자연재난 대비 15일부터 종합상황실 운영",
-"tok": [
-"15일부터",
-"겨울철",
-"경남교육청",
-"대비",
-"운영",
-"자연재난",
-"종합상황실"
-]
 }
 ],
 "sns": {
 "terms": {
 "지진": {
 "n30": 2,
-"base": 0.5,
+"base": 0.4,
 "spike": false
 },
 "화재": {
@@ -3368,7 +3380,7 @@
 "spike": false
 },
 "폭발": {
-"n30": 10,
+"n30": 11,
 "base": 0.1,
 "spike": true
 },
@@ -3384,7 +3396,7 @@
 },
 "미사일": {
 "n30": 0,
-"base": 0.4,
+"base": 0.3,
 "spike": false
 },
 "속보": {
@@ -3398,13 +3410,13 @@
 "spike": false
 },
 "사고": {
-"n30": 2,
+"n30": 1,
 "base": 1.9,
 "spike": false
 },
 "실종": {
 "n30": 0,
-"base": 0.7,
+"base": 0.6,
 "spike": false
 },
 "단수": {
@@ -3429,6 +3441,16 @@
 }
 },
 "posts": [
+{
+"text": "ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ열 조절 잘못하면 폭발하는 거 아니에요? ㅠㅠㅠㅠㅠㅠㅠㅠ",
+"handle": "eewtheotaku.bsky.social",
+"name": "💎☮️🎩지렁이🏳️‍🌈💛💎",
+"time": "2026-11-09T06:12:49.681Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/eewtheotaku.bsky.social/post/3mzubgrvcoc26",
+"term": "폭발"
+},
 {
 "platform": "YouTube",
 "text": "숏박스 군대 레전드 공감 폭발 TOP3 ㅋㅋㅋ #Shorts",
@@ -3611,16 +3633,6 @@
 "url": "https://www.youtube.com/watch?v=p6RObMqo8pU"
 },
 {
-"text": "아 역시 모든 정보가 모이는 집결지적인 의미에서의 '바다'인 잠경위님 너무 룽하고, 물은 형체가 없기 때문에 좀 더 넓은 시야각, 좀 더 유연한 사고를 끌어내는 사람이구나... 싶으며 똑같이 무형의 정보를 다루면서도 구조화(경직된 물성을 가진 느낌을 주는)에 가까운 공경사가 아직 저 레벨까진 아니구나-하는 생각도 들어서 진짜 너무 좋다...",
-"handle": "llewellyn-onyx.sharlayan.in.ap.brid.gy",
-"name": ":ff14_warrior: 가온뉘",
-"time": "2026-11-09T05:41:26.079Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/llewellyn-onyx.sharlayan.in.ap.brid.gy/post/3mzu7oqerpwc2",
-"term": "사고"
-},
-{
 "platform": "YouTube",
 "text": "래블업 주가전망, [11월 9일 긴급속보] 이번 주 \"이 패턴\" 만들고 강력 돌파 시도!",
 "handle": "UC7GiuUSlFLzNoL2Hdm6i_lw",
@@ -3678,28 +3690,28 @@
 "spikes": [
 {
 "term": "폭발",
-"n30": 10,
+"n30": 11,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-09T06:11:14.998792+00:00"
+"since": "2026-11-09T06:13:29.555676+00:00"
 }
 ],
 "baseline": {
-"지진": 0.41,
+"지진": 0.37,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.05,
+"폭발": 0.15,
 "붕괴": 0.05,
 "대피": 0.05,
-"미사일": 0.33,
+"미사일": 0.3,
 "속보": 0.05,
 "지하철": 0.05,
-"사고": 1.87,
-"실종": 0.62,
+"사고": 1.78,
+"실종": 0.56,
 "단수": 0.05,
 "통신 장애": 0.05,
-"먹통": 0.37,
+"먹통": 0.33,
 "산불": 0.05
 },
 "errors": [],
@@ -3934,6 +3946,42 @@
 },
 "trends": [
 {
+"term": "catl",
+"traffic": "200+",
+"time": "2026-11-09T05:10:00+00:00",
+"news": [
+{
+"title": "CATL is exploring an air-breathing battery. Could it give EVs 2,000 km of range?",
+"source": "CarNewsChina.com",
+"link": "https://carnewschina.com/2026/11/07/catl-is-exploring-an-air-breathing-battery-could-it-give-evs-2000-km-of-range/"
+},
+{
+"title": "1,200-mile EV range: Chinese firm’s new lithium air EV battery offers 5x energy density",
+"source": "Interesting Engineering",
+"link": "https://interestingengineering.com/energy/1200-miles-chinese-firms-new-ev-battery"
+}
+],
+"new": true
+},
+{
+"term": "금융감독원",
+"traffic": "200+",
+"time": "2026-11-09T05:10:00+00:00",
+"news": [
+{
+"title": "\"AI 사이버 공격 일상화\"...대응 시스템 재설계 절실",
+"source": "YTN 사이언스",
+"link": "https://m.science.ytn.co.kr/program/view_today.php?s_mcd=0082&key=202611091141375284"
+},
+{
+"title": "금융 당국, 미래에셋증권 해킹 현장 점검 착수",
+"source": "MBC 뉴스",
+"link": "https://imnews.imbc.com/news/2026/econo/article/6864252_36932.html"
+}
+],
+"new": true
+},
+{
 "term": "윤여정",
 "traffic": "500+",
 "time": "2026-11-09T05:00:00+00:00",
@@ -4029,14 +4077,14 @@
 "time": "2026-11-09T04:10:00+00:00",
 "news": [
 {
+"title": "[포토] 노랗게 물든 장수동 은행나무",
+"source": "인천일보",
+"link": "https://www.incheonilbo.com/news/articleView.html?idxno=1336217"
+},
+{
 "title": "'비 내리듯 우수수' 거짓말처럼 잎 떨군 원주 반계리 은행나무",
 "source": "연합뉴스",
 "link": "https://www.yna.co.kr/view/AKR20261109063100062"
-},
-{
-"title": "[포토] 사랑을 남기고 떠나는 가을",
-"source": "브릿지경제",
-"link": "https://www.viva100.com/article/20261109500540"
 }
 ],
 "new": true
@@ -4073,42 +4121,6 @@
 "title": "\"가만히 갖고 있으라더니\"…40% 고꾸라진 주가에 하닉 개미들 속앓이",
 "source": "더팩트",
 "link": "https://news.tf.co.kr/read/economy/2386242.htm"
-}
-],
-"new": false
-},
-{
-"term": "생일",
-"traffic": "500+",
-"time": "2026-11-09T03:50:00+00:00",
-"news": [
-{
-"title": "린, 생일 맞아 포스터 공개…단독 콘서트 앞두고 근황",
-"source": "톱스타뉴스",
-"link": "https://www.topstarnews.net/news/articleView.html?idxno=16271464"
-},
-{
-"title": "린, 붉은 드레스와 미소로 전한 생일 근황…팬심 사로잡다",
-"source": "진일보 | 전남일보",
-"link": "https://www.jnilbo.com/news/articleView.html?idxno=90000080815"
-}
-],
-"new": true
-},
-{
-"term": "용산공원",
-"traffic": "200+",
-"time": "2026-11-09T03:50:00+00:00",
-"news": [
-{
-"title": "용산국제업무지구 주택물량 8000가구 놓고 말 다른 서울시와 국토부",
-"source": "경향신문",
-"link": "https://www.khan.co.kr/article/202611091152001"
-},
-{
-"title": "서울 용산구, '용산공원 특별법' 개정 추진에 \"분명한 반대\"",
-"source": "SBS 뉴스",
-"link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008837227"
 }
 ],
 "new": false
