@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-09T23:21:34.885394+00:00",
+"updated": "2026-11-09T23:23:49.770160+00:00",
 "errors": [],
 "events": [
 {
@@ -2153,12 +2153,12 @@
 },
 "폭발": {
 "n30": 5,
-"base": 0.7,
+"base": 0.6,
 "spike": true
 },
 "붕괴": {
 "n30": 2,
-"base": 0.1,
+"base": 0.2,
 "spike": false
 },
 "대피": {
@@ -2178,12 +2178,12 @@
 },
 "지하철": {
 "n30": 9,
-"base": 3.5,
+"base": 3.4,
 "spike": false
 },
 "사고": {
 "n30": 0,
-"base": 0.8,
+"base": 0.7,
 "spike": false
 },
 "실종": {
@@ -2474,16 +2474,16 @@
 {
 "term": "폭발",
 "n30": 5,
-"base": 0.7,
+"base": 0.6,
 "spike": true,
-"since": "2026-11-09T23:21:34.885394+00:00"
+"since": "2026-11-09T23:23:49.770160+00:00"
 },
 {
 "term": "속보",
 "n30": 9,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-09T23:21:34.885394+00:00"
+"since": "2026-11-09T23:23:49.770160+00:00"
 }
 ],
 "baseline": {
@@ -2491,13 +2491,13 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.62,
-"붕괴": 0.24,
+"폭발": 0.56,
+"붕괴": 0.32,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 3.41,
-"사고": 0.72,
+"지하철": 3.37,
+"사고": 0.65,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -2727,6 +2727,96 @@
 },
 "trends": [
 {
+"term": "압수수색",
+"traffic": "2000+",
+"time": "2026-11-09T22:20:00+00:00",
+"news": [
+{
+"title": "선관위특검, '올공 반출 투표지' 공소청·국과수에 정밀감정 의뢰",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261109147500004"
+},
+{
+"title": "선관위 특검, 올림픽공원 ‘이의 제기 투표지’ 정밀 감정 의뢰",
+"source": "KBS 뉴스",
+"link": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8707700"
+}
+],
+"new": true
+},
+{
+"term": "필라델피아 반도체 지수",
+"traffic": "1000+",
+"time": "2026-11-09T22:20:00+00:00",
+"news": [
+{
+"title": "엔비디아만 급락…젠슨 황 스캔들, 美·中 반도체 전쟁으로 번지나 [오늘 아침 당신이 알아야 할 7가지]",
+"source": "한국경제",
+"link": "https://www.hankyung.com/article/202611106255i"
+},
+{
+"title": "[속보]나스닥 2.7%급등…엔비디아만 4%넘게 밀렸다",
+"source": "문화일보",
+"link": "https://www.munhwa.com/article/11630041"
+}
+],
+"new": true
+},
+{
+"term": "vix",
+"traffic": "200+",
+"time": "2026-11-09T22:20:00+00:00",
+"news": [
+{
+"title": "Wall Street’s Fear Gauge Jumped More Than 11 Points In A Day. Buffett’s Most Famous Rule Says It Might Be Time To Get Greedy. Here’s Where The Market Has Historically Gone Over The Next 6 Months.",
+"source": "Yahoo Finance",
+"link": "https://finance.yahoo.com/markets/options/articles/wall-street-fear-gauge-jumped-102241024.html"
+},
+{
+"title": "Phones 'explode' on Wall Street as 'steamroller' shows up for the AI trade",
+"source": "Reuters",
+"link": "https://www.reuters.com/business/wall-street-fear-gauge-jumps-most-since-liberation-day-ai-trade-stumbles-2026-11-05/"
+}
+],
+"new": true
+},
+{
+"term": "나스닥 100",
+"traffic": "500+",
+"time": "2026-11-09T22:20:00+00:00",
+"news": [
+{
+"title": "코스피, 사실상 '반도체지수'로…나스닥100 동조화 심화",
+"source": "https://www.kmjournal.net/",
+"link": "https://www.kmjournal.net/news/articleView.html?idxno=14151"
+},
+{
+"title": "삼성운용, 美 단기국채·나스닥100 50대50 투자 ETF 10일 상장",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261109027600008"
+}
+],
+"new": true
+},
+{
+"term": "논문",
+"traffic": "2000+",
+"time": "2026-11-09T22:20:00+00:00",
+"news": [
+{
+"title": "황우석 전 서울대 교수, UAE 국적 취득해 한국 국적 상실",
+"source": "MBC 뉴스",
+"link": "https://imnews.imbc.com/news/2026/society/article/6864305_36918.html"
+},
+{
+"title": "[단독 인터뷰]황우석 \"법무부에 한국 국적 회복 신청했다\"",
+"source": "아시아경제",
+"link": "https://view.asiae.co.kr/article/2026111000171582416"
+}
+],
+"new": true
+},
+{
 "term": "tqqq",
 "traffic": "200+",
 "time": "2026-11-09T22:10:00+00:00",
@@ -2758,6 +2848,42 @@
 "new": true
 },
 {
+"term": "세무조사",
+"traffic": "100+",
+"time": "2026-11-09T22:10:00+00:00",
+"news": [
+{
+"title": "국세청 로비 대가 2억 챙긴 회계사·기밀 유출 세무공무원 기소",
+"source": "세무사신문",
+"link": "https://webzine.kacta.or.kr/news/articleView.html?idxno=26283"
+},
+{
+"title": "\"세무조사 무마해 주겠다\"… 2억 챙기고 공무원에 뇌물 준 회계사 기소",
+"source": "조선일보",
+"link": "https://www.chosun.com/national/regional/2026/11/06/URPJ2RZ5RZG7TEVOTB6P4TXHMA/"
+}
+],
+"new": true
+},
+{
+"term": "이승엽",
+"traffic": "100+",
+"time": "2026-11-09T22:10:00+00:00",
+"news": [
+{
+"title": "'10승 못 하면 어때, 우승했잖아!' 후라도-페덱, 가을에 더 빛난 삼성의 외국인 원투펀치 [삼성 V9] - 머니투데이",
+"source": "머니투데이",
+"link": "https://www.mt.co.kr/sports/2026/11/09/202611081623776832O"
+},
+{
+"title": "구자욱 '역전이다'",
+"source": "뉴스1",
+"link": "https://www.news1.kr/photos/8203068"
+}
+],
+"new": false
+},
+{
 "term": "피의자신문",
 "traffic": "100+",
 "time": "2026-11-09T22:00:00+00:00",
@@ -2774,137 +2900,9 @@
 }
 ],
 "new": false
-},
-{
-"term": "자동차",
-"traffic": "5000+",
-"time": "2026-11-09T21:50:00+00:00",
-"news": [
-{
-"title": "‘회장님 차’ 제네시스 G90만 수십 대 줄줄이…그들이 향한 곳은?",
-"source": "조선일보",
-"link": "https://www.chosun.com/economy/industry-company/2026/11/09/UPCGNJ6NH5D2DJ2LYCNAVRZ5OM/"
-},
-{
-"title": "삼성-현대차그룹, ‘원팀’으로 미래 첨단 산업 선점 – 삼성전자 뉴스룸",
-"source": "samsung.com",
-"link": "https://news.samsung.com/kr/%EC%82%BC%EC%84%B1-%ED%98%84%EB%8C%80%EC%B0%A8%EA%B7%B8%EB%A3%B9-%EC%9B%90%ED%8C%80%EC%9C%BC%EB%A1%9C-%EB%AF%B8%EB%9E%98-%EC%B2%A8%EB%8B%A8-%EC%82%B0%EC%97%85-%EC%84%A0%EC%A0%90"
-}
-],
-"new": false
-},
-{
-"term": "수능 날짜",
-"traffic": "100+",
-"time": "2026-11-09T21:40:00+00:00",
-"news": [
-{
-"title": "2026 수능 날짜·시간표, 미리 확인하세요",
-"source": "위키트리",
-"link": "https://www.wikitree.co.kr/articles/1173061"
-},
-{
-"title": "[알고보자] N수생보다 등급 오른 고3이 강세라고?.. ‘변화율로 정시 판도 단정 어려워’",
-"source": "베리타스알파",
-"link": "https://www.veritas-a.com/news/articleView.html?idxno=635249"
-}
-],
-"new": true
-},
-{
-"term": "전도연",
-"traffic": "100+",
-"time": "2026-11-09T21:40:00+00:00",
-"news": [
-{
-"title": "이창동 감독 “해고 노동자의 입장 대변 가능한가, 10년 묵힌 고민 풀어내”",
-"source": "동아일보",
-"link": "https://www.donga.com/news/Culture/article/all/20261109/134995376/2"
-},
-{
-"title": "[현장톡] '가능한 사랑' 설경구 \"다른 배우가 했으면 못 견뎠을 것…이창동이라 선택\"",
-"source": "뉴스핌",
-"link": "https://www.newspim.com/news/view/20261109001072"
-}
-],
-"new": false
-},
-{
-"term": "김구라",
-"traffic": "2000+",
-"time": "2026-11-09T21:30:00+00:00",
-"news": [
-{
-"title": "김구라 \"올해 번 돈 다 까먹었다\"…주식 폭락에 한숨 - 머니투데이",
-"source": "머니투데이",
-"link": "https://www.mt.co.kr/entertainment/2026/11/10/2026111005403695983"
-},
-{
-"title": "“올해 번 돈 다 까먹었다”…김구라, 주식 상승분 반납에 한숨",
-"source": "매일경제",
-"link": "https://www.mk.co.kr/news/culture/12202957"
-}
-],
-"new": true
-},
-{
-"term": "김치",
-"traffic": "1000+",
-"time": "2026-11-09T21:30:00+00:00",
-"news": [
-{
-"title": "광주시 경안동 5개 단체, 취약계층·경로당에 김장김치 2천610㎏ 전달",
-"source": "경기일보",
-"link": "https://www.kyeonggi.com/article/20261109580389"
-},
-{
-"title": "[생생갤러리] 깊어가는 가을...2026 파주 새마을회 사랑의 김장",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/MYH20261107005900038"
-}
-],
-"new": true
-},
-{
-"term": "미스터트롯3",
-"traffic": "200+",
-"time": "2026-11-09T21:30:00+00:00",
-"news": [
-{
-"title": "트로트가수 남승민, 고양이 분장으로 전한 미스터트롯3 콘서트 소감",
-"source": "톱스타뉴스",
-"link": "https://www.topstarnews.net/news/articleView.html?idxno=16271433"
-},
-{
-"title": "남승민, 고양이 분장으로 전한 미스터트롯3 콘서트의 마지막 아쉬움",
-"source": "진일보 | 전남일보",
-"link": "https://www.jnilbo.com/news/articleView.html?idxno=90000080813"
-}
-],
-"new": true
-},
-{
-"term": "fable 5.2",
-"traffic": "200+",
-"time": "2026-11-09T21:20:00+00:00",
-"news": [
-{
-"title": "Anthropic Unveils New AI Models Commanding 1,000 Agents",
-"source": "조선일보",
-"link": "https://www.chosun.com/english/industry-en/2026/11/10/JZUGSKIAJNDF5BSQTA5BH3NIMY/"
-},
-{
-"title": "Anthropic's New AI Can Design Hardware, Find Cybersecurity Flaws And Solve Physics Problems",
-"source": "Benzinga",
-"link": "https://www.benzinga.com/markets/private-markets/26/11/63066268/anthropics-new-ai-can-design-hardware-find-cybersecurity-flaws-and-solve-physics-problems"
-}
-],
-"new": true
 }
 ],
 "trendSeen": [
-"아프리카",
-"안드레이 알롭스키",
 "안랩",
 "안산소방서",
 "안양 정관장 대 서울 sk",
@@ -2914,6 +2912,7 @@
 "알테오젠",
 "암호화폐",
 "압구정동",
+"압수수색",
 "애틀랜타",
 "액화천연가스",
 "야구",
@@ -3157,6 +3156,7 @@
 "프리미어리그 순위",
 "프리지아",
 "피의자신문",
+"필라델피아 반도체 지수",
 "필리핀",
 "하석진",
 "하이닉스",
