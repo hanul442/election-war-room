@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-09T18:32:17.112365+00:00",
+"updated": "2026-11-09T18:34:33.327745+00:00",
 "errors": [],
 "events": [
 {
@@ -1320,7 +1320,7 @@
 "sns": {
 "terms": {
 "지진": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -1340,7 +1340,7 @@
 "spike": false
 },
 "폭발": {
-"n30": 6,
+"n30": 5,
 "base": 0.8,
 "spike": true
 },
@@ -1371,7 +1371,7 @@
 },
 "사고": {
 "n30": 2,
-"base": 0.8,
+"base": 0.9,
 "spike": false
 },
 "실종": {
@@ -1623,17 +1623,17 @@
 "spikes": [
 {
 "term": "폭발",
-"n30": 6,
+"n30": 5,
 "base": 0.8,
 "spike": true,
-"since": "2026-11-09T18:32:17.112365+00:00"
+"since": "2026-11-09T18:34:33.327745+00:00"
 },
 {
 "term": "속보",
 "n30": 8,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-09T18:32:17.112365+00:00"
+"since": "2026-11-09T18:34:33.327745+00:00"
 }
 ],
 "baseline": {
@@ -1641,13 +1641,13 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.77,
+"폭발": 0.69,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
 "지하철": 0.05,
-"사고": 0.9,
+"사고": 1.01,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -1859,6 +1859,24 @@
 },
 "trends": [
 {
+"term": "1인당 국민소득",
+"traffic": "100+",
+"time": "2026-11-09T17:20:00+00:00",
+"news": [
+{
+"title": "\"1인당 5700만원 번다고?\"…현실은 딴판인 이유 있었다",
+"source": "한국경제",
+"link": "https://www.hankyung.com/article/2026110956791"
+},
+{
+"title": "민생 현장에 안 퍼지는 ‘반도체 온기’… 자영업자 돌아섰다",
+"source": "서울신문",
+"link": "https://www.seoul.co.kr/news/politics/2026/11/09/20261109008004"
+}
+],
+"new": true
+},
+{
 "term": "사이비 종교",
 "traffic": "100+",
 "time": "2026-11-09T17:10:00+00:00",
@@ -1914,7 +1932,7 @@
 },
 {
 "term": "신애",
-"traffic": "1000+",
+"traffic": "500+",
 "time": "2026-11-09T16:20:00+00:00",
 "news": [
 {
@@ -1939,7 +1957,7 @@
 },
 {
 "term": "gta6",
-"traffic": "200+",
+"traffic": "500+",
 "time": "2026-11-09T15:20:00+00:00",
 "news": [
 {
@@ -1969,24 +1987,6 @@
 "title": "료혼, 소방의 날 맞아 소방공무원 대상 ‘1+1’ 사은 행사 개최",
 "source": "로이슈",
 "link": "https://www.lawissue.co.kr/view.php?ud=202611091831329301204ead0791_12"
-}
-],
-"new": true
-},
-{
-"term": "nvda",
-"traffic": "100+",
-"time": "2026-11-09T14:50:00+00:00",
-"news": [
-{
-"title": "Commerce Dept. Chip Inquiry Was Halted After Nvidia Intervention",
-"source": "The New York Times",
-"link": "https://www.nytimes.com/2026/11/09/business/economy/nvidia-megaspeed-investigation-huang.html"
-},
-{
-"title": "Nvidia scandal could lead to reduced microchip exports: Strategist",
-"source": "CNBC",
-"link": "https://www.cnbc.com/video/2026/11/09/nvidia-scandal-could-lead-to-reduced-microchip-exports-strategist.html"
 }
 ],
 "new": true
