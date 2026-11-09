@@ -1,7 +1,42 @@
 {
-"updated": "2026-11-09T08:23:48.984391+00:00",
+"updated": "2026-11-09T08:26:06.420626+00:00",
 "errors": [],
 "events": [
+{
+"id": "wNISX20261109_00038609720822",
+"first": "2026-11-09T08:22:25+00:00",
+"last": "2026-11-09T08:22:25+00:00",
+"updated": "2026-11-09T08:26:06.420626+00:00",
+"headline": "부천 상동 복합건물 지하에서 화재…소방관 등 3명 경상",
+"cat": "재난",
+"regions": [
+"경기"
+],
+"sources": [
+"뉴시스"
+],
+"updates": [
+{
+"title": "부천 상동 복합건물 지하에서 화재…소방관 등 3명 경상",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261109_0003860972",
+"time": "2026-11-09T08:22:25+00:00",
+"stage": "1보"
+}
+],
+"level": "ALERT",
+"latest": "부천 상동 복합건물 지하에서 화재…소방관 등 3명 경상",
+"tok": [
+"3명",
+"경상",
+"복합건물",
+"부천",
+"상동",
+"소방관",
+"지하에서",
+"화재"
+]
+},
 {
 "id": "wNISX20261109_00038609640817",
 "first": "2026-11-09T08:17:03+00:00",
@@ -2795,47 +2830,12 @@
 "전북소방",
 "현장"
 ]
-},
-{
-"id": "viewAKR202611091122000530614",
-"first": "2026-11-09T06:14:31+00:00",
-"last": "2026-11-09T06:14:31+00:00",
-"updated": "2026-11-09T06:20:14.934237+00:00",
-"headline": "대구시의회, \"현장 중심 재난 대책 마련\" 대구시에 촉구",
-"cat": "재난",
-"regions": [
-"대구"
-],
-"sources": [
-"연합뉴스"
-],
-"updates": [
-{
-"title": "대구시의회, \"현장 중심 재난 대책 마련\" 대구시에 촉구",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261109112200053",
-"time": "2026-11-09T06:14:31+00:00",
-"stage": "1보"
-}
-],
-"level": "ALERT",
-"latest": "대구시의회, \"현장 중심 재난 대책 마련\" 대구시에 촉구",
-"tok": [
-"대구시",
-"대구시의회",
-"대책",
-"마련",
-"재난",
-"중심",
-"촉구",
-"현장"
-]
 }
 ],
 "sns": {
 "terms": {
 "지진": {
-"n30": 0,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
@@ -2870,7 +2870,7 @@
 "spike": false
 },
 "미사일": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -2886,7 +2886,7 @@
 },
 "사고": {
 "n30": 2,
-"base": 3.3,
+"base": 3.1,
 "spike": false
 },
 "실종": {
@@ -2917,6 +2917,26 @@
 },
 "posts": [
 {
+"text": "ㄴ..나 그 인별 게시판에 티 소식에 마음만 찍었을 뿐인디 (동공지진",
+"handle": "ideadiamandis.bsky.social",
+"name": "🍋 iΔea",
+"time": "2026-11-09T08:25:17.673Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/ideadiamandis.bsky.social/post/3mzuittqsls2n",
+"term": "지진"
+},
+{
+"text": "트위터에 생각 정리한걸 여기에도 옮겨봄\n\n작년 중순부터 나는 특정 대상에게 잘 보이고 싶고, 그 대상의 환심을 사고 싶다는 마음에 수단적으로 그림을 그렸었다. \n주된 모티프: 여자의 나신, 성적 접촉, 레즈비어니즘\n난 지금도 내가 이런 주제로 뭔가를 그리고 싶은지 잘 모르겠다.\n타인의 호의를 사고 싶다는 의도를 제외하고, 내 의사가 그 그림들을 그리는데 차지한 비중이 어느정도였을지 지금 뒤늦",
+"handle": "thorncube.bsky.social",
+"name": "thorncube",
+"time": "2026-11-09T08:24:48.769Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/thorncube.bsky.social/post/3mzuiswypac2i",
+"term": "사고"
+},
+{
 "text": "월급전날까지 사고싶은거 다 사고 돈 다 써버리려고. 나한텐 미래도뭣도 없으니까",
 "handle": "decide77.bsky.social",
 "name": "자흔",
@@ -2943,16 +2963,6 @@
 "time": "2026-11-09T07:55:54Z",
 "term": "미사일",
 "url": "https://www.youtube.com/watch?v=J12lRn8ktq0"
-},
-{
-"text": "그래서 김밥축제 가면 굶주리면서 맛집 대기표를 기다리지 않음\n일단 대기표가 제일 짧은 데서 하나 사고 그다음에 제일 긴데꺼 결제하고 그다음에 상받은 집 꺼 결제함. 그럼 나오는 순서대로 끝없이 김밥을 먹으면서 축제를 즐길 수 있음",
-"handle": "ramg.sharlayan.in.ap.brid.gy",
-"name": "람쥐 :blobcat_siwaokitakunai: 잉크마심이",
-"time": "2026-11-09T07:54:57.071Z",
-"likes": 0,
-"reposts": 1,
-"url": "https://bsky.app/profile/ramg.sharlayan.in.ap.brid.gy/post/3mzuh5kblbcu2",
-"term": "사고"
 },
 {
 "platform": "YouTube",
@@ -3146,17 +3156,17 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 0.05,
+"지진": 0.15,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.27,
-"붕괴": 0.3,
+"폭발": 0.24,
+"붕괴": 0.27,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
 "지하철": 0.05,
-"사고": 3.15,
+"사고": 3.04,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -3457,7 +3467,7 @@
 },
 {
 "term": "정지선",
-"traffic": "2000+",
+"traffic": "5000+",
 "time": "2026-11-09T05:50:00+00:00",
 "news": [
 {
@@ -3466,16 +3476,16 @@
 "link": "https://www.segye.com/newsView/20261109502858"
 },
 {
-"title": "정지선 “140평 대만 식당 한 달 반 만에 10명 퇴사해”",
-"source": "동아일보",
-"link": "https://www.donga.com/news/Entertainment/article/all/20261109/134989895/1"
+"title": "정지선 \"140평 대만 식당 한 달 반 만에 10명 퇴사해\"",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261108_0003859545"
 }
 ],
 "new": false
 },
 {
 "term": "lg전자",
-"traffic": "500+",
+"traffic": "1000+",
 "time": "2026-11-09T05:40:00+00:00",
 "news": [
 {
@@ -3484,9 +3494,9 @@
 "link": "https://www.ytn.co.kr/_ln/0102_202611091433199410"
 },
 {
-"title": "LG전자, 차량 통신모듈 안전성 최고 등급 획득…제네시스 GV90 탑재",
-"source": "마켓인",
-"link": "https://marketin.edaily.co.kr/News/ReadE?newsId=02191046645644080"
+"title": "LG전자 차량 통신제어 모듈, 업계 최초로 자동차 기능안전 국제표준 최고 등급 획득",
+"source": "비즈니스포스트",
+"link": "https://www.businesspost.co.kr/BP?command=article_view&num=451457"
 }
 ],
 "new": true
@@ -3497,9 +3507,9 @@
 "time": "2026-11-09T05:40:00+00:00",
 "news": [
 {
-"title": "이규한, 예비신부 솔비 향한 남다른 사랑…“분리수거도 안 시킬 것”",
-"source": "세계일보",
-"link": "https://www.segye.com/newsView/20261109502020"
+"title": "“분리수거도 안 시켜”…이규한, ♥솔비와 결혼 앞두고 ‘사랑꾼’ 면모",
+"source": "매일경제",
+"link": "https://www.mk.co.kr/news/hot-issues/12202015"
 },
 {
 "title": "솔비와 결혼 티낸 이규한 \"짧은머리 이상형…결혼 압박 없어\"",
@@ -3538,9 +3548,9 @@
 "link": "https://www.munhwa.com/article/11629685"
 },
 {
-"title": "北 해커, 훔친 코인 급히 바꾸다 1650억 손실…트레이더들은 830억 '횡재'",
-"source": "뉴스1",
-"link": "https://www.news1.kr/finance/blockchain-fintech/6348038"
+"title": "[단독] 北 해킹 장물에 개미들 ‘830억 돈잔치’… “공포장 속 황당 횡재”",
+"source": "매일경제",
+"link": "https://www.mk.co.kr/news/stock/12202311"
 }
 ],
 "new": true
