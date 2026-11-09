@@ -1,7 +1,43 @@
 {
-"updated": "2026-11-09T07:32:00.814680+00:00",
+"updated": "2026-11-09T07:34:15.170049+00:00",
 "errors": [],
 "events": [
+{
+"id": "LSVRkQXNfckxnRC05b0tBoc50729",
+"first": "2026-11-09T07:29:26+00:00",
+"last": "2026-11-09T07:29:26+00:00",
+"updated": "2026-11-09T07:34:15.170049+00:00",
+"headline": "김명두 스프링힐스CC 회장, 단식 농성 5일 만에 건강 악화로 병원 이송",
+"cat": "사회",
+"regions": [],
+"sources": [
+"www.gukjenews.com"
+],
+"updates": [
+{
+"title": "[속보] 김명두 스프링힐스CC 회장, 단식 농성 5일 만에 건강 악화로 병원 이송",
+"source": "www.gukjenews.com",
+"link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9vaS0yWDZKVUVsWVA1djQtSUVfX3FDb3pXN096Z1RMVFBHQUF1MTFYUkpQekQwY1BLQS1lSVpGY29YOEhMdHFfQW9XR1kzak51bTdMSTZlcXV2bWFESDdLSVRkQXNfckxnRC05b0tB?oc=5",
+"time": "2026-11-09T07:29:26+00:00",
+"stage": "얼럿"
+}
+],
+"level": "URGENT",
+"latest": "김명두 스프링힐스CC 회장, 단식 농성 5일 만에 건강 악화로 병원 이송",
+"tok": [
+"5일",
+"건강",
+"김명두",
+"농성",
+"단식",
+"만에",
+"병원",
+"스프링힐스CC",
+"악화",
+"이송",
+"회장"
+]
+},
 {
 "id": "xSWkVTNnc0RnhMWnBaQmcoc50541",
 "first": "2026-11-09T05:41:13+00:00",
@@ -2992,47 +3028,13 @@
 "충북",
 "화재"
 ]
-},
-{
-"id": "wNISX20261109_00038604560454",
-"first": "2026-11-09T04:54:03+00:00",
-"last": "2026-11-09T04:54:03+00:00",
-"updated": "2026-11-09T04:54:59.835473+00:00",
-"headline": "안성시, 내년 3월15일까지 '한파' 대응…24시간 대책본부",
-"cat": "재난",
-"regions": [
-"경기"
-],
-"sources": [
-"뉴시스"
-],
-"updates": [
-{
-"title": "안성시, 내년 3월15일까지 '한파' 대응…24시간 대책본부",
-"source": "뉴시스",
-"link": "https://www.newsis.com/view/NISX20261109_0003860456",
-"time": "2026-11-09T04:54:03+00:00",
-"stage": "1보"
-}
-],
-"level": "ALERT",
-"latest": "안성시, 내년 3월15일까지 '한파' 대응…24시간 대책본부",
-"tok": [
-"24시간",
-"3월15일까지",
-"내년",
-"대응",
-"대책본부",
-"안성시",
-"한파"
-]
 }
 ],
 "sns": {
 "terms": {
 "지진": {
-"n30": 6,
-"base": 0.6,
+"n30": 5,
+"base": 0.5,
 "spike": true
 },
 "화재": {
@@ -3057,7 +3059,7 @@
 },
 "붕괴": {
 "n30": 2,
-"base": 0.8,
+"base": 0.9,
 "spike": false
 },
 "대피": {
@@ -3112,6 +3114,16 @@
 }
 },
 "posts": [
+{
+"text": "꼴림 폭발이네요~~♡",
+"handle": "crazygon.bsky.social",
+"name": "불꽃",
+"time": "2026-11-09T07:32:03.578Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/crazygon.bsky.social/post/3mzufuoerqs22",
+"term": "폭발"
+},
 {
 "text": "#Phainon #Khaslana #FlameReaver #파이논 #붕괴스타레일 #HonkaiStarRail \n🌙☀️🌗",
 "handle": "kimcy5433.bsky.social",
@@ -3383,39 +3395,39 @@
 "spikes": [
 {
 "term": "지진",
-"n30": 6,
-"base": 0.6,
+"n30": 5,
+"base": 0.5,
 "spike": true,
-"since": "2026-11-09T07:32:00.814680+00:00"
+"since": "2026-11-09T07:34:15.170049+00:00"
 },
 {
 "term": "폭발",
 "n30": 8,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-09T07:32:00.814680+00:00"
+"since": "2026-11-09T07:34:15.170049+00:00"
 },
 {
 "term": "속보",
 "n30": 7,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-09T07:32:00.814680+00:00"
+"since": "2026-11-09T07:34:15.170049+00:00"
 }
 ],
 "baseline": {
-"지진": 0.5,
+"지진": 0.45,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.09,
-"붕괴": 0.9,
+"폭발": 0.18,
+"붕괴": 1.01,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
 "지하철": 0.05,
-"사고": 3.24,
-"실종": 0.12,
+"사고": 3.32,
+"실종": 0.11,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -3640,14 +3652,14 @@
 "time": "2026-11-09T06:10:00+00:00",
 "news": [
 {
-"title": "'자발적 퇴사' 청년에 月100만원 검토…\"도덕적 해이 우려 적어\"",
-"source": "뉴시스",
-"link": "https://www.newsis.com/view/NISX20261109_0003859821"
+"title": "노동부, 고용보험 부정수급 집중신고…자진신고하면 추가징수 면제",
+"source": "전기신문",
+"link": "https://www.electimes.com/news/articleView.html?idxno=374488"
 },
 {
-"title": "내 발로 퇴사해도 실업급여… “도덕적 해이 우려 크지 않아”",
-"source": "천지일보",
-"link": "https://www.newscj.com/news/articleView.html?idxno=3447169"
+"title": "울산노동지청, 올해 고용보험 부정수급액 14억 적발",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261109_0003860488"
 }
 ],
 "new": false
@@ -3658,14 +3670,14 @@
 "time": "2026-11-09T06:10:00+00:00",
 "news": [
 {
-"title": "삼성운용, 'KODEX 미국나스닥100미국채혼합50' ETF 내일 상장",
-"source": "뉴시스",
-"link": "https://www.newsis.com/view/NISX20261109_0003860477"
+"title": "\"레버리지도 아닌데\"…일제히 '10%대 급등' ETF 뭐길래",
+"source": "한국경제",
+"link": "https://www.hankyung.com/article/202611094906i"
 },
 {
-"title": "'KODEX 미국나스닥100미국채혼합50' ETF, 10일 상장 - 머니투데이",
-"source": "머니투데이",
-"link": "https://www.mt.co.kr/stock/2026/11/09/2026110913434282250"
+"title": "[ETF 시황] 우주항공·양자 ETF 날았다…2차전지 레버리지는 12% 급락",
+"source": "뉴스핌",
+"link": "https://www.newspim.com/news/view/20261109001123"
 }
 ],
 "new": true
@@ -3735,9 +3747,9 @@
 "link": "https://www.khan.co.kr/article/202611091126001"
 },
 {
-"title": "한국 떠난 황우석, UAE 국적 취득...만수르와 무슨 관계? [이슈톺]",
-"source": "YTN",
-"link": "https://www.ytn.co.kr/_ln/0134_202611091544286047"
+"title": "‘줄기세포 논문조작’ 황우석, UAE 국적 취득…韓국적 상실",
+"source": "동아일보",
+"link": "https://www.donga.com/news/Society/article/all/20261109/134990701/2"
 }
 ],
 "new": true
