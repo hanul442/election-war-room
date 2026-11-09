@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-09T09:48:29.768306+00:00",
+"updated": "2026-11-09T09:50:46.217223+00:00",
 "errors": [],
 "events": [
 {
@@ -83,7 +83,7 @@
 "id": "RRa1FvVkJyZkVRY2p5Nlkoc50942",
 "first": "2026-11-09T09:42:52+00:00",
 "last": "2026-11-09T09:42:52+00:00",
-"updated": "2026-11-09T09:48:29.768306+00:00",
+"updated": "2026-11-09T09:50:46.217223+00:00",
 "headline": "인제니아테라퓨틱스, MSD 'IGT-302' 녹내장 적응증 옵션 미행사 통보…연구개발비 반환 의무 없어",
 "cat": "기타",
 "regions": [],
@@ -97,6 +97,13 @@
 "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5UNEFzRXV2dHhUelFtRVhrNkVEbDhnWm9UUm11WEg1eEI2dmFCNzlFbzhielZNeXI4c1VnMmtmUGNseHhrQ3A0TTFEbkU3SEdDZlVzajFjMkRRa1FvVkJyZkVRY2p5Nlk?oc=5",
 "time": "2026-11-09T09:42:52+00:00",
 "stage": "얼럿"
+},
+{
+"title": "[속보] 인제니아테라퓨틱스, MSD 'IGT-302' 녹내장 적응증 옵션 미행사 통보…연구개발비 반환 의무 없어",
+"source": "CBC뉴스",
+"link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1GZkJPVlpLVGhGLV9Xdmc2NjRySmFMQm1oaUhZaVpuWU9LdC00eDgxZkkwUnV2dEc5cURQYUprY0xWeEV2dkppTTg1bDJlVm0wU3BoeVNFWjQ3STVlUkVrMWpubzdENy1R?oc=5",
+"time": "2026-11-09T09:42:52+00:00",
+"stage": "속보"
 }
 ],
 "level": "URGENT",
@@ -2912,7 +2919,7 @@
 "terms": {
 "지진": {
 "n30": 2,
-"base": 0.3,
+"base": 0.4,
 "spike": false
 },
 "화재": {
@@ -2936,7 +2943,7 @@
 "spike": false
 },
 "붕괴": {
-"n30": 2,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -2951,13 +2958,13 @@
 "spike": false
 },
 "속보": {
-"n30": 2,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
 "지하철": {
-"n30": 6,
-"base": 1.4,
+"n30": 5,
+"base": 1.6,
 "spike": true
 },
 "사고": {
@@ -3274,24 +3281,24 @@
 "spikes": [
 {
 "term": "지하철",
-"n30": 6,
-"base": 1.4,
+"n30": 5,
+"base": 1.6,
 "spike": true,
-"since": "2026-11-09T09:48:29.768306+00:00"
+"since": "2026-11-09T09:50:46.217223+00:00"
 }
 ],
 "baseline": {
-"지진": 0.41,
+"지진": 0.47,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.74,
-"붕괴": 0.09,
+"폭발": 0.77,
+"붕괴": 0.08,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 1.62,
-"사고": 2.17,
+"지하철": 1.86,
+"사고": 2.15,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
