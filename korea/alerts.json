@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-09T07:18:26.529592+00:00",
+"updated": "2026-11-09T07:20:40.550110+00:00",
 "errors": [],
 "events": [
 {
@@ -3034,12 +3034,12 @@
 "sns": {
 "terms": {
 "지진": {
-"n30": 1,
+"n30": 0,
 "base": 0.9,
 "spike": false
 },
 "화재": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -3055,12 +3055,12 @@
 },
 "폭발": {
 "n30": 1,
-"base": 0.2,
+"base": 0.1,
 "spike": false
 },
 "붕괴": {
 "n30": 1,
-"base": 0.4,
+"base": 0.5,
 "spike": false
 },
 "대피": {
@@ -3084,8 +3084,8 @@
 "spike": false
 },
 "사고": {
-"n30": 2,
-"base": 2.7,
+"n30": 4,
+"base": 2.6,
 "spike": false
 },
 "실종": {
@@ -3109,12 +3109,32 @@
 "spike": false
 },
 "산불": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 }
 },
 "posts": [
+{
+"text": "아...중국작가 책 사고 싶은거 있는데 살수있나1?!?",
+"handle": "ooooomm.bsky.social",
+"name": "🔒mm",
+"time": "2026-11-09T07:19:32.674Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/ooooomm.bsky.social/post/3mzuf6cvwyc2i",
+"term": "사고"
+},
+{
+"text": "ㅊㅅ은 사건사고 추탐에 다 들어와서 그런가 팬덤 욕하면 인정합니다 화이팅 소리만 나오던데",
+"handle": "haqurenisian.bsky.social",
+"name": "레쫑(리더기 안드8 이하 리디 다운)",
+"time": "2026-11-09T07:18:31.072Z",
+"likes": 1,
+"reposts": 0,
+"url": "https://bsky.app/profile/haqurenisian.bsky.social/post/3mzuf4gac6c2n",
+"term": "사고"
+},
 {
 "text": "먼작귀 등장 캐릭터들 인형 하나씩 개당 3만원으로 치고 드래곤볼 하면 2~30만원 순삭됨 :    ㅁ\n한복시리즈는 일단 꼭 갖고싶다\n나머지도 갖고 싶은 버전이 있지만 구하기가 빡시군 여유있게 사고 싶어ㅋㅋㅠㅋㅋ",
 "handle": "wjdrns26.bsky.social",
@@ -3180,16 +3200,6 @@
 "time": "2026-11-09T06:50:03Z",
 "term": "화재",
 "url": "https://www.youtube.com/watch?v=9c7wtgair_s"
-},
-{
-"text": "특히나 요즘은 하도 자주 오니까 슬쩍 흔들리는 걸로는 이게 지진인지 걍 의자 기울이다 보니 그렇게 느껴지는 건지 헷갈리기도 하고 그러네요(...)",
-"handle": "rivian.bsky.social",
-"name": "Rivian",
-"time": "2026-11-09T06:48:45.572Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/rivian.bsky.social/post/3mzudha4ih22n",
-"term": "지진"
 },
 {
 "platform": "YouTube",
@@ -3365,18 +3375,18 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 0.95,
+"지진": 0.85,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.15,
-"붕괴": 0.45,
+"폭발": 0.14,
+"붕괴": 0.51,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
 "지하철": 0.05,
-"사고": 2.59,
-"실종": 0.22,
+"사고": 2.73,
+"실종": 0.2,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
