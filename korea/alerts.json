@@ -1,16 +1,17 @@
 {
-"updated": "2026-11-09T02:40:28.065596+00:00",
+"updated": "2026-11-09T02:42:42.029919+00:00",
 "errors": [],
 "events": [
 {
 "id": "2xITjBnd0RleXJTeVhMQQoc50236",
 "first": "2026-11-09T02:36:13+00:00",
 "last": "2026-11-09T02:38:13+00:00",
-"updated": "2026-11-09T02:40:28.065596+00:00",
+"updated": "2026-11-09T02:42:42.029919+00:00",
 "headline": "李대통령 \"소방재원 안정적 확보, 국민 안전 위한 투자도 더욱 확대\"",
 "cat": "정치",
 "regions": [],
 "sources": [
+"뉴스1",
 "머니투데이",
 "이데일리",
 "파이낸셜뉴스"
@@ -31,6 +32,13 @@
 "stage": "속보"
 },
 {
+"title": "[속보] 李대통령 \"소방 재원 안정적 확보…처우·근무여건 더 세심히 챙길 것\"",
+"source": "뉴스1",
+"link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE96RkMyNHhMcWxJQUsxOEkwMVFhdzJFMlkxaWpudV91SlVCNjlFSlFySmJTOVVvRjhjYlNyc2RBRXVSdUR1SmIybXZWSnRhdmM5VzI2TmpaQTh0LUk?oc=5",
+"time": "2026-11-09T02:37:16+00:00",
+"stage": "속보"
+},
+{
 "title": "[속보] 李대통령 “재원 안정적 확보…첨단·과학 소방 구축해 나갈 것”",
 "source": "이데일리",
 "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOLUJEQWJBRURES0QyX0oxaE1JMmNzNWIxTGNzdlpXZzhoa1dKcURwc3g5TWFtT0VYVUpPemczR1JhdW1vWUI1TG82V1hpelg5MmI3M0hqUXFhYWgwNFpQSXh4RHFSMjliT25kY2ZFVnRIdW1CQlNhRW45LV9sVmVaaQ?oc=5",
@@ -45,15 +53,19 @@
 "과학",
 "구축해",
 "국민",
+"근무여건",
 "나갈",
 "더욱",
 "머니투데",
+"세심히",
 "소방",
 "소방재원",
 "안전",
 "안정적",
 "위한",
 "재원",
+"챙길",
+"처우",
 "첨단",
 "투자",
 "확대",
@@ -3497,7 +3509,7 @@
 "spike": false
 },
 "화재": {
-"n30": 0,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
@@ -3512,8 +3524,8 @@
 "spike": false
 },
 "폭발": {
-"n30": 1,
-"base": 1.5,
+"n30": 0,
+"base": 1.4,
 "spike": false
 },
 "붕괴": {
@@ -3532,23 +3544,23 @@
 "spike": false
 },
 "속보": {
-"n30": 2,
-"base": 0.1,
-"spike": false
-},
-"지하철": {
 "n30": 1,
 "base": 0.1,
 "spike": false
 },
+"지하철": {
+"n30": 0,
+"base": 0.1,
+"spike": false
+},
 "사고": {
-"n30": 3,
-"base": 2.6,
+"n30": 4,
+"base": 2.7,
 "spike": false
 },
 "실종": {
 "n30": 2,
-"base": 0.5,
+"base": 0.7,
 "spike": false
 },
 "단수": {
@@ -3574,6 +3586,26 @@
 },
 "posts": [
 {
+"text": "글고보니 또 사주 이야기 보여서 말인데 가끔 보면 자기 사주 안 좋게 나왔다고 우울해하시는 분들이 있는디 '사주도 나를 못 죽임 ㅅㄱ' 마인드가 되는 게 좋지 않을까 함(애초에 사주같은 거 막 심취할 것도 없고)\n저같경 비명횡사하는 거랑 총맞아죽거나 화재로 죽는 게 들어있기도 한데요 잘만 살아있슨",
+"handle": "wongoji.bsky.social",
+"name": "原巖 원고지",
+"time": "2026-11-09T02:41:55.679Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/wongoji.bsky.social/post/3mztvnua5322d",
+"term": "화재"
+},
+{
+"text": "시발 내 멘탈 지금 개 큰 사고친거 발견해서 혈압올라서 쓰러질거 같은가 하다말고 멈춰서 진정중",
+"handle": "d-rkal.bsky.social",
+"name": "🚫🔒대감🚫",
+"time": "2026-11-09T02:41:36.770Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/d-rkal.bsky.social/post/3mztvnd537k2b",
+"term": "사고"
+},
+{
 "text": "실종 신고해서 실종 당사자를 찾았는데 그 당사자가 발견되는 걸 원하지 않는 경우도 있을까?",
 "handle": "fandh.bsky.social",
 "name": "F.H",
@@ -3588,7 +3620,7 @@
 "handle": "meou.bsky.social",
 "name": "진화",
 "time": "2026-11-09T02:37:20.970Z",
-"likes": 4,
+"likes": 5,
 "reposts": 0,
 "url": "https://bsky.app/profile/meou.bsky.social/post/3mztvfjs24c25",
 "term": "사고"
@@ -3649,16 +3681,6 @@
 "time": "2026-11-09T02:11:35Z",
 "term": "속보",
 "url": "https://www.youtube.com/watch?v=BRme5Sz42q8"
-},
-{
-"text": "솔직히 일본서야 요새 좀 이래저래 띄워줬지만 원래 우리나라에서 이 양반 이미지는 고릴라에 표절 전문, 미국병 환자로 성취와 별개로 그리 좋지만은 않았는데 뭔가 하는 사업이 어느정도 궤도에 오르고 운좋게 감투 하나 맡게 되니 인정욕구가 폭발해서 흑화한 느낌이...",
-"handle": "bleubleubleu.bsky.social",
-"name": "WhyNot?",
-"time": "2026-11-09T02:10:57.669Z",
-"likes": 3,
-"reposts": 0,
-"url": "https://bsky.app/profile/bleubleubleu.bsky.social/post/3mzttwitkt22v",
-"term": "폭발"
 },
 {
 "platform": "YouTube",
@@ -3862,17 +3884,17 @@
 "spikes": [],
 "baseline": {
 "지진": 0.05,
-"화재": 0.05,
+"화재": 0.15,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 1.43,
+"폭발": 1.29,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.08,
-"사고": 2.68,
-"실종": 0.66,
+"지하철": 0.07,
+"사고": 2.81,
+"실종": 0.79,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -4121,8 +4143,8 @@
 },
 {
 "title": "'쵸비' 정지훈 \"부담감 버리고 찾은 즐거움, 누가 올라오든 직접 꺾고 우승할 것\"",
-"source": "미주중앙일보",
-"link": "https://www.koreadaily.com/article/20261108030258953"
+"source": "OSEN",
+"link": "https://www.osen.co.kr/article/G1112906954"
 }
 ],
 "new": false
@@ -4156,9 +4178,9 @@
 "link": "https://www.khan.co.kr/article/202611091028001"
 },
 {
-"title": "美 ‘젠슨 황-中스파이 관계’ 알고 있었다…루비오, 기밀문서 직접 감독",
-"source": "동아일보",
-"link": "https://www.donga.com/news/Inter/article/all/20261109/134990312/1"
+"title": "트럼프, 중 간첩 연루 의혹 젠슨 황에 \"훌륭한 사람\"",
+"source": "마켓인",
+"link": "https://marketin.edaily.co.kr/News/ReadE?newsId=02765046645644080"
 }
 ],
 "new": false
