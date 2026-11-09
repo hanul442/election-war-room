@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-09T13:40:38.131533+00:00",
+"updated": "2026-11-09T13:42:54.847989+00:00",
 "errors": [],
 "events": [
 {
@@ -2927,41 +2927,6 @@
 "출혈",
 "타구"
 ]
-},
-{
-"id": "ssutm_campaigntotal_news0742",
-"first": "2026-11-09T07:42:00+00:00",
-"last": "2026-11-09T07:42:00+00:00",
-"updated": "2026-11-09T07:43:09.859093+00:00",
-"headline": "APEC 앞두고 ‘안전제일’ 선전시…매일 밤 화재 점검하고 소포 검사 강화",
-"cat": "재난",
-"regions": [],
-"sources": [
-"경향신문"
-],
-"updates": [
-{
-"title": "APEC 앞두고 ‘안전제일’ 선전시…매일 밤 화재 점검하고 소포 검사 강화",
-"source": "경향신문",
-"link": "https://www.khan.co.kr/article/202611091642001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
-"time": "2026-11-09T07:42:00+00:00",
-"stage": "1보"
-}
-],
-"level": "ALERT",
-"latest": "APEC 앞두고 ‘안전제일’ 선전시…매일 밤 화재 점검하고 소포 검사 강화",
-"tok": [
-"APEC",
-"강화",
-"검사",
-"매일",
-"선전시",
-"소포",
-"안전제일",
-"앞두고",
-"점검하고",
-"화재"
-]
 }
 ],
 "sns": {
@@ -2992,7 +2957,7 @@
 "spike": false
 },
 "붕괴": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -3012,13 +2977,13 @@
 "spike": false
 },
 "지하철": {
-"n30": 1,
-"base": 1.4,
+"n30": 0,
+"base": 1.3,
 "spike": false
 },
 "사고": {
 "n30": 12,
-"base": 5.3,
+"base": 6.0,
 "spike": false
 },
 "실종": {
@@ -3038,7 +3003,7 @@
 },
 "먹통": {
 "n30": 0,
-"base": 0.6,
+"base": 0.5,
 "spike": false
 },
 "산불": {
@@ -3048,6 +3013,16 @@
 }
 },
 "posts": [
+{
+"text": "포켓몬스터 Y 칩 사고 싶은데 비싸군... X 랑 교환 하실분.. ",
+"handle": "dsdesh2.bsky.social",
+"name": "샤",
+"time": "2026-11-09T13:40:58.580Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/dsdesh2.bsky.social/post/3mzv2ibduss7u",
+"term": "사고"
+},
 {
 "text": "봉황단총 이렇게 비싼 거였냐고 묘하게 다른 것보다 더 비싸다??? 네이버 스토어만 그른가\n\n몰랐어 나는 차공예박람회에서 7천원에 하나 사고 덤으로 하나 더 받아서 그냥저냥 차 품종 1인쥴",
 "handle": "dsweekly.bsky.social",
@@ -3076,16 +3051,6 @@
 "likes": 3,
 "reposts": 0,
 "url": "https://bsky.app/profile/samseon.bsky.social/post/3mzv24ikoqc2f",
-"term": "사고"
-},
-{
-"text": "- 글쓰기는 단순한 기록이 아니라, 인간의 뇌를 한 단계 더 높은 차원의 연산 능력으로 도약시키는 인지적, 외부적 사고 도구\n\n- LLM 이 글을 대신 써주는 시대에 생각을 외주화하지 않고 스스로 글을 쓰는 사람은 독보적인 창의적 비교우위를 갖게 됨\n\n- 따라서 영감을 기다리지 말고, 판단 없이 거침없이 초안을 쓴 뒤 냉정하게 다듬는 과정을 규칙적으로 실천해야 온전한 사고를 완성할 수 있음\n",
-"handle": "lunamothryu.bsky.social",
-"name": "lunamoth",
-"time": "2026-11-09T13:31:56.987Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/lunamothryu.bsky.social/post/3mzuzy7n2t22h",
 "term": "사고"
 },
 {
@@ -3336,21 +3301,21 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 1.28,
+"지진": 1.25,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
 "폭발": 0.05,
 "붕괴": 0.05,
-"대피": 0.2,
-"미사일": 0.64,
-"속보": 0.67,
-"지하철": 1.26,
-"사고": 5.98,
+"대피": 0.18,
+"미사일": 0.68,
+"속보": 0.6,
+"지하철": 1.13,
+"사고": 6.58,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
-"먹통": 0.54,
+"먹통": 0.49,
 "산불": 0.05
 },
 "errors": [],
@@ -3608,14 +3573,14 @@
 "time": "2026-11-09T11:50:00+00:00",
 "news": [
 {
-"title": "한국 주요 오픈 모델의 프로덕션 배포 가속하는 NVIDIA Dynamo - NVIDIA Blog Korea",
+"title": "과기정통부와 함께 AI 스타트업 파트너십 포럼 개최한 NVIDIA, 국내 스타트업 투자 확대",
 "source": "NVIDIA",
-"link": "https://blogs.nvidia.co.kr/blog/nvidia-dynamo-korea-open-models/"
+"link": "https://blogs.nvidia.co.kr/blog/korean-startup-investments-msit/"
 },
 {
-"title": "국산 AI반도체, 엔비디아 생태계 편입",
-"source": "경향신문",
-"link": "https://www.khan.co.kr/article/202611092056015"
+"title": "\"엔비디아냐 AMD냐\"...기로에 선 K-반도체",
+"source": "지디넷코리아",
+"link": "https://zdnet.co.kr/view/?no=20261109180536"
 }
 ],
 "new": true
@@ -3739,9 +3704,9 @@
 "link": "https://www.twig24.com/news/2026/11/09/20261109500162"
 },
 {
-"title": "'터미네이터' 슈워제네거 29세 혼외자도 부전자전…보디빌딩 5위 - 머니투데이",
-"source": "머니투데이",
-"link": "https://www.mt.co.kr/society/2026/11/09/2026110915000965555"
+"title": "\"피는 못 속여\" 아놀드 슈왈제네거 가정부 혼외자, 父와 똑닮은 근육질 몸매[Oh!llywood]",
+"source": "조선일보",
+"link": "https://www.chosun.com/entertainments/enter_general/2026/11/09/GA4TOMTFMNSGKNJRHBQWCOJQME/"
 }
 ],
 "new": true
