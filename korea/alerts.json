@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-09T08:07:53.303170+00:00",
+"updated": "2026-11-09T08:10:07.698602+00:00",
 "errors": [],
 "events": [
 {
@@ -2953,13 +2953,13 @@
 "spike": false
 },
 "폭발": {
-"n30": 5,
+"n30": 4,
 "base": 0.6,
-"spike": true
+"spike": false
 },
 "붕괴": {
 "n30": 1,
-"base": 0.7,
+"base": 0.6,
 "spike": false
 },
 "대피": {
@@ -3065,8 +3065,8 @@
 "handle": "9bong.bsky.social",
 "name": "구봉",
 "time": "2026-11-09T07:51:48.674Z",
-"likes": 0,
-"reposts": 0,
+"likes": 1,
+"reposts": 1,
 "url": "https://bsky.app/profile/9bong.bsky.social/post/3mzugxt6pg22k",
 "term": "사고"
 },
@@ -3254,27 +3254,20 @@
 ],
 "spikes": [
 {
-"term": "폭발",
-"n30": 5,
-"base": 0.6,
-"spike": true,
-"since": "2026-11-09T08:07:53.303170+00:00"
-},
-{
 "term": "속보",
 "n30": 11,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-09T08:07:53.303170+00:00"
+"since": "2026-11-09T08:10:07.698602+00:00"
 }
 ],
 "baseline": {
-"지진": 0.1,
+"지진": 0.09,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.56,
-"붕괴": 0.62,
+"폭발": 0.5,
+"붕괴": 0.56,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
@@ -3553,9 +3546,9 @@
 "link": "https://www.electimes.com/news/articleView.html?idxno=374488"
 },
 {
-"title": "울산노동지청, 올해 고용보험 부정수급액 14억 적발",
+"title": "\"고용보험 부정수급 자진신고하세요\"…추가징수 면제 등[부산소식]",
 "source": "뉴시스",
-"link": "https://www.newsis.com/view/NISX20261109_0003860488"
+"link": "https://www.newsis.com/view/NISX20261109_0003860654"
 }
 ],
 "new": false
@@ -3566,14 +3559,14 @@
 "time": "2026-11-09T06:10:00+00:00",
 "news": [
 {
-"title": "[ETF 시황] 우주항공·양자 ETF 날았다…2차전지 레버리지는 12% 급락",
-"source": "뉴스핌",
-"link": "https://www.newspim.com/news/view/20261109001123"
-},
-{
 "title": "\"레버리지도 아닌데\"…일제히 '10%대 급등' ETF 뭐길래",
 "source": "한국경제",
 "link": "https://www.hankyung.com/article/202611094906i"
+},
+{
+"title": "[ETF 시황] 우주항공·양자 ETF 날았다…2차전지 레버리지는 12% 급락",
+"source": "뉴스핌",
+"link": "https://www.newspim.com/news/view/20261109001123"
 }
 ],
 "new": true
