@@ -1,12 +1,12 @@
 {
-"updated": "2026-11-09T07:36:28.954259+00:00",
+"updated": "2026-11-09T07:38:41.960980+00:00",
 "errors": [],
 "events": [
 {
 "id": "xSWkVTNnc0RnhMWnBaQmcoc50541",
 "first": "2026-11-09T05:41:13+00:00",
 "last": "2026-11-09T07:32:57+00:00",
-"updated": "2026-11-09T07:36:28.954259+00:00",
+"updated": "2026-11-09T07:38:41.960980+00:00",
 "headline": "엘앤씨바이오, 3분기 영업이익 98억3900만원…전년 동기 대비 239.8% 증가",
 "cat": "기타",
 "regions": [],
@@ -109,6 +109,13 @@
 "stage": "속보"
 },
 {
+"title": "SK케미칼 3분기 영업익 116%↑…친환경소재·제약 호조(종합)",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261109119701527",
+"time": "2026-11-09T07:14:37+00:00",
+"stage": "종합"
+},
+{
 "title": "[속보] 심텍홀딩스, 3분기 영업이익 1047억원…전년 동기 대비 4033.6% 증가",
 "source": "CBC뉴스",
 "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBNNDNrcTZWc3RRR0RDODlSc0o1Sm81VDFIdjFpZy1QS25zRUVUVm5SeXUwSWNYQkVldm9Xd3VvZ2plZG9ySWk5WTFmWkM1U2hWbEJUR1F5NHV3VGw5aXNRLUVNNlY1alk?oc=5",
@@ -153,9 +160,48 @@
 "전년",
 "전년比",
 "전년비",
+"제약",
 "증가",
+"친환경소재",
 "펌텍코리아",
-"한전KPS"
+"한전KPS",
+"호조"
+]
+},
+{
+"id": "viewAKR202611091289000510732",
+"first": "2026-11-09T07:32:09+00:00",
+"last": "2026-11-09T07:32:09+00:00",
+"updated": "2026-11-09T07:38:41.960980+00:00",
+"headline": "부산불꽃축제 4천여명 '선상 관람'…미신고 승객 태운 요트 적발",
+"cat": "재난",
+"regions": [
+"부산"
+],
+"sources": [
+"연합뉴스"
+],
+"updates": [
+{
+"title": "부산불꽃축제 4천여명 '선상 관람'…미신고 승객 태운 요트 적발",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261109128900051",
+"time": "2026-11-09T07:32:09+00:00",
+"stage": "1보"
+}
+],
+"level": "ALERT",
+"latest": "부산불꽃축제 4천여명 '선상 관람'…미신고 승객 태운 요트 적발",
+"tok": [
+"4천여명",
+"관람",
+"미신고",
+"부산불꽃축제",
+"선상",
+"승객",
+"요트",
+"적발",
+"태운"
 ]
 },
 {
@@ -3005,53 +3051,13 @@
 "지진",
 "해역서"
 ]
-},
-{
-"id": "TczA1MkpjODRzaWRKZzdBoc50456",
-"first": "2026-11-09T04:56:00+00:00",
-"last": "2026-11-09T04:56:00+00:00",
-"updated": "2026-11-09T05:04:03.521690+00:00",
-"headline": "충북 음성 대소읍 아파트서 화재 발생",
-"cat": "재난",
-"regions": [
-"충북"
-],
-"sources": [
-"이투데이"
-],
-"updates": [
-{
-"title": "[속보] 충북 음성 대소읍 아파트서 화재 발생",
-"source": "이투데이",
-"link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9TblJOdl8zSW8zMHJEenlGU1NVQWxRQlp2LUpDRmdwbFUzUHBpRDI0dGR1QnhEUUI3dk5QUjZvMXZhaGxpeGNsVmNzYXNrMmc5bEJwUFpyYmdFa1FTeHBTczA1MkpjODRzaWRKZzdB?oc=5",
-"time": "2026-11-09T04:56:00+00:00",
-"stage": "얼럿"
-},
-{
-"title": "[속보] 충북 음성 대소읍 아파트서 화재 발생",
-"source": "이투데이",
-"link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9OeUpucFYzMlQ4TnpiWlBZYVg4V1lLNWNrc0hwRXNBVXdtckNOcXF2RHN6dWxkSUY4Q19FN1VuOXZDOEFhVE1qamoyRmlUOXl5aElsRw?oc=5",
-"time": "2026-11-09T04:56:00+00:00",
-"stage": "속보"
-}
-],
-"level": "URGENT",
-"latest": "충북 음성 대소읍 아파트서 화재 발생",
-"tok": [
-"대소읍",
-"발생",
-"아파트서",
-"음성",
-"충북",
-"화재"
-]
 }
 ],
 "sns": {
 "terms": {
 "지진": {
-"n30": 3,
-"base": 0.5,
+"n30": 2,
+"base": 0.4,
 "spike": false
 },
 "화재": {
@@ -3071,12 +3077,12 @@
 },
 "폭발": {
 "n30": 7,
-"base": 0.2,
+"base": 0.3,
 "spike": true
 },
 "붕괴": {
-"n30": 2,
-"base": 1.0,
+"n30": 1,
+"base": 1.1,
 "spike": false
 },
 "대피": {
@@ -3090,7 +3096,7 @@
 "spike": false
 },
 "속보": {
-"n30": 7,
+"n30": 6,
 "base": 0.1,
 "spike": true
 },
@@ -3100,8 +3106,8 @@
 "spike": false
 },
 "사고": {
-"n30": 4,
-"base": 3.3,
+"n30": 3,
+"base": 3.4,
 "spike": false
 },
 "실종": {
@@ -3326,26 +3332,6 @@
 "url": "https://www.youtube.com/watch?v=hzcIkNX0kjo"
 },
 {
-"text": "먼작귀 등장 캐릭터들 인형 하나씩 개당 3만원으로 치고 드래곤볼 하면 2~30만원 순삭됨 :    ㅁ\n한복시리즈는 일단 꼭 갖고싶다\n나머지도 갖고 싶은 버전이 있지만 구하기가 빡시군 여유있게 사고 싶어ㅋㅋㅠㅋㅋ",
-"handle": "wjdrns26.bsky.social",
-"name": "(백업중인)🌈🎗정군 🕯🇵🇸",
-"time": "2026-11-09T07:07:55.873Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/wjdrns26.bsky.social/post/3mzuejjjxac2g",
-"term": "사고"
-},
-{
-"text": "난 진짜 실시간 쓰이는 일본어 품질이란 게 이렇게 빠르게 무너지는 수준일 줄은 몰랐다……. 슬프긴 하다. 동북아시아 언어 역학이 이러면 일본어가 기능해야지 서로 좋았어. 그런데 그게 안 될 거야. 나는 일본어 개체 하나가 좋아서 슬픈 게 아니고 역학이 붕괴하는 게 슬프다.\n\n일본어의 장점은 정보 저장 능력인데 이게 진짜 날아가고 있고, 날리는 주범은 예산 삭감 빔 쏘는 자민당인 경우가 많고.",
-"handle": "tsuta.bsky.social",
-"name": "츠타蔦_漸龑",
-"time": "2026-11-09T07:07:51.970Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/tsuta.bsky.social/post/3mzuejcwue22o",
-"term": "붕괴"
-},
-{
 "platform": "YouTube",
 "text": "속보2026년 기초연금, 62~69년생, 국민연금 '이 금액' 넘으면 기초연금 한 푼도 못 받습니다!",
 "handle": "UCXyz68rhPvoKAPwLEAMBS7Q",
@@ -3413,31 +3399,31 @@
 {
 "term": "폭발",
 "n30": 7,
-"base": 0.2,
+"base": 0.3,
 "spike": true,
-"since": "2026-11-09T07:36:28.954259+00:00"
+"since": "2026-11-09T07:38:41.960980+00:00"
 },
 {
 "term": "속보",
-"n30": 7,
+"n30": 6,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-09T07:36:28.954259+00:00"
+"since": "2026-11-09T07:38:41.960980+00:00"
 }
 ],
 "baseline": {
-"지진": 0.41,
+"지진": 0.37,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.26,
-"붕괴": 1.11,
+"폭발": 0.33,
+"붕괴": 1.1,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
 "지하철": 0.05,
-"사고": 3.39,
-"실종": 0.1,
+"사고": 3.35,
+"실종": 0.09,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -3829,9 +3815,9 @@
 "link": "https://biz.chosun.com/entertainment/enter_general/2026/11/09/ME4DMYLFHAZTEYJRMMYWMZBZGA/"
 },
 {
-"title": "[영상] 윤여정, 깔끔하고 고급진 할꾸 '멋쟁이 할머니 코어'",
-"source": "iMBC 연예",
-"link": "https://enews.imbc.com/News/RetrieveNewsInfo/524068"
+"title": "[사진]윤여정, '런던으로 떠나요'",
+"source": "OSEN",
+"link": "https://www.osen.co.kr/article/G1112907063"
 }
 ],
 "new": false
