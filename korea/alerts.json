@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-09T17:07:16.130677+00:00",
+"updated": "2026-11-09T17:09:34.424459+00:00",
 "errors": [],
 "events": [
 {
@@ -1743,73 +1743,6 @@
 "휘두른",
 "흉기"
 ]
-},
-{
-"id": "JSZ0VQTHZPUDcwZXRIMlUoc51035",
-"first": "2026-11-09T10:35:09+00:00",
-"last": "2026-11-09T11:07:32+00:00",
-"updated": "2026-11-09T11:38:05.604335+00:00",
-"headline": "靑 \"'조작기소 특검법' 17일 국무회의 상정 예정\"",
-"cat": "기타",
-"regions": [],
-"sources": [
-"KBS 뉴스",
-"뉴스1",
-"뉴시스",
-"연합뉴스",
-"조선일보"
-],
-"updates": [
-{
-"title": "[속보] 靑 \"'조작기소 특검법' 17일 국무회의 상정 예정\"",
-"source": "뉴스1",
-"link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5aQW1hdEdibi1RSEVsdWVscmwxaHZYYnpWODlTV1FHcmV2WWxHQkotWkxPR0Y1bUpSbkdiejVxRkUwX0JRSXJrYUZOTTJSZ0VQTHZPUDcwZXRIMlU?oc=5",
-"time": "2026-11-09T10:35:09+00:00",
-"stage": "얼럿"
-},
-{
-"title": "靑 \"'조작기소 특검법' 다음 주 국무회의 상정 예정\"",
-"source": "뉴시스",
-"link": "https://www.newsis.com/view/NISX20261109_0003861106",
-"time": "2026-11-09T10:56:21+00:00",
-"stage": "후속"
-},
-{
-"title": "靑 \"조작기소 특검법, 내일 아닌 다음 주 국무회의 상정 예정\"",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261109154500001",
-"time": "2026-11-09T10:59:29+00:00",
-"stage": "후속"
-},
-{
-"title": "청와대 “‘조작기소 특검법’ 17일 국무회의 상정 예정”",
-"source": "KBS 뉴스",
-"link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9uVUNjU3BTdVowR3lrM3U5Z0F3U1VKTHFmcUJ3SFdhRmpQY1ZlLUpobnNNZWtFNF90SnZjcFZFdVU5eEFFZWpZcTNMZUZ5UFNyWFJ2NVVTMi1fZnc?oc=5",
-"time": "2026-11-09T11:06:00+00:00",
-"stage": "후속"
-},
-{
-"title": "청와대 “조작기소 특검법, 10일 국무회의 아닌 다음주 상정”",
-"source": "조선일보",
-"link": "https://www.chosun.com/economy/economy_general/2026/11/09/MU3DCYRUMQ4TKMBXGU3DAMRTGM/",
-"time": "2026-11-09T11:07:32+00:00",
-"stage": "후속"
-}
-],
-"level": "URGENT",
-"latest": "청와대 “조작기소 특검법, 10일 국무회의 아닌 다음주 상정”",
-"tok": [
-"10일",
-"17일",
-"국무회",
-"다음",
-"다음주",
-"상정",
-"아닌",
-"조작기소",
-"청와대",
-"특검법"
-]
 }
 ],
 "sns": {
@@ -1820,7 +1753,7 @@
 "spike": false
 },
 "화재": {
-"n30": 2,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
@@ -1841,7 +1774,7 @@
 },
 "붕괴": {
 "n30": 1,
-"base": 0.1,
+"base": 0.2,
 "spike": false
 },
 "대피": {
@@ -1866,7 +1799,7 @@
 },
 "사고": {
 "n30": 1,
-"base": 1.7,
+"base": 1.6,
 "spike": false
 },
 "실종": {
@@ -2158,7 +2091,7 @@
 "n30": 5,
 "base": 0.3,
 "spike": true,
-"since": "2026-11-09T17:07:16.130677+00:00"
+"since": "2026-11-09T17:09:34.424459+00:00"
 }
 ],
 "baseline": {
@@ -2166,13 +2099,13 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.35,
-"붕괴": 0.24,
+"폭발": 0.42,
+"붕괴": 0.32,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.37,
-"사고": 1.61,
+"지하철": 0.33,
+"사고": 1.55,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
