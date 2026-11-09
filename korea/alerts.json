@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-09T10:43:24.556673+00:00",
+"updated": "2026-11-09T10:45:42.074248+00:00",
 "errors": [],
 "events": [
 {
@@ -2994,7 +2994,7 @@
 "spike": false
 },
 "화재": {
-"n30": 2,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
@@ -3009,12 +3009,12 @@
 "spike": false
 },
 "폭발": {
-"n30": 7,
-"base": 0.4,
+"n30": 8,
+"base": 0.5,
 "spike": true
 },
 "붕괴": {
-"n30": 3,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
@@ -3029,18 +3029,18 @@
 "spike": false
 },
 "속보": {
-"n30": 7,
+"n30": 5,
 "base": 0.1,
 "spike": true
 },
 "지하철": {
-"n30": 7,
+"n30": 6,
 "base": 2.5,
 "spike": false
 },
 "사고": {
 "n30": 3,
-"base": 2.4,
+"base": 2.5,
 "spike": false
 },
 "실종": {
@@ -3071,11 +3071,21 @@
 },
 "posts": [
 {
+"text": "ㅋㅋㅋㅋ형님 오랜만에 네토력좀 폭발하셧나요ㅋㅋ",
+"handle": "ganziz.bsky.social",
+"name": "겐지😎",
+"time": "2026-11-09T10:44:56.273Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/ganziz.bsky.social/post/3mzuqnkfodc2j",
+"term": "폭발"
+},
+{
 "text": "그러나\n지하철에 두고 내려야 저녁시간을 즐길 수 있느니라\n수고ㅂ2",
 "handle": "mughk.bsky.social",
 "name": "믛 ♪ꉂ ꊚ( ˆ ̳◝ ·̫ ◜ ̳ˆ ) ♬♪",
 "time": "2026-11-09T10:39:58.373Z",
-"likes": 2,
+"likes": 3,
 "reposts": 0,
 "url": "https://bsky.app/profile/mughk.bsky.social/post/3mzuqeo7ues2e",
 "term": "지하철"
@@ -3095,7 +3105,7 @@
 "name": "🌟나뭇잎 🌿",
 "time": "2026-11-09T10:36:59.476Z",
 "likes": 0,
-"reposts": 0,
+"reposts": 1,
 "url": "https://bsky.app/profile/joinful.bsky.social/post/3mzuq7dvuxk25",
 "term": "지하철"
 },
@@ -3351,31 +3361,31 @@
 "spikes": [
 {
 "term": "폭발",
-"n30": 7,
-"base": 0.4,
+"n30": 8,
+"base": 0.5,
 "spike": true,
-"since": "2026-11-09T10:43:24.556673+00:00"
+"since": "2026-11-09T10:45:42.074248+00:00"
 },
 {
 "term": "속보",
-"n30": 7,
+"n30": 5,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-09T10:43:24.556673+00:00"
+"since": "2026-11-09T10:45:42.074248+00:00"
 }
 ],
 "baseline": {
-"지진": 0.16,
+"지진": 0.14,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.48,
+"폭발": 0.63,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 2.55,
-"사고": 2.5,
+"지하철": 2.59,
+"사고": 2.55,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -3601,17 +3611,17 @@
 "time": "2026-11-09T09:40:00+00:00",
 "news": [
 {
-"title": "美 ‘달에 화물 보내기’ 속도…블루오리진이 핵심역할 맡아",
-"source": "서울경제",
-"link": "https://www.sedaily.com/article/20112125"
+"title": "[영상] \"세계 최고도 기록\"…印 수송기, 해발 4천154ｍ 비행장 착륙",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261109127800704"
 },
 {
-"title": "Voyager Technologies, NASA 100억 달러 규모 달 탐사 계약 대상자로 선정",
-"source": "Investing.com 한국어",
-"link": "https://kr.investing.com/news/company-news/article-93CH-2165040"
+"title": "인도 ＂공군 대형 수송기 해발 4천여ｍ 비행장에 착륙＂",
+"source": "한국경제TV",
+"link": "https://www.wowtv.co.kr/NewsCenter/News/Read?articleId=AKR20261109047100009"
 }
 ],
-"new": true
+"new": false
 },
 {
 "term": "가상자산",
@@ -3746,8 +3756,8 @@
 "news": [
 {
 "title": "한전 에너지캐시백 가입자 200만호…제주 가정 1년 전력량 절약",
-"source": "매일경제 마켓",
-"link": "https://stock.mk.co.kr/news/view/1193673"
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261109094200003"
 },
 {
 "title": "한전, 주택용 에너지캐시백 200만호 돌파…1025GWh 절감",
