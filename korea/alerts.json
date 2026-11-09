@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-09T22:36:15.306535+00:00",
+"updated": "2026-11-09T22:38:30.289503+00:00",
 "errors": [],
 "events": [
 {
@@ -1675,7 +1675,7 @@
 "sns": {
 "terms": {
 "지진": {
-"n30": 2,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
@@ -1715,18 +1715,18 @@
 "spike": false
 },
 "속보": {
-"n30": 2,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
 "지하철": {
-"n30": 2,
+"n30": 3,
 "base": 0.1,
 "spike": false
 },
 "사고": {
-"n30": 2,
-"base": 0.9,
+"n30": 3,
+"base": 1.0,
 "spike": false
 },
 "실종": {
@@ -1756,6 +1756,26 @@
 }
 },
 "posts": [
+{
+"text": "누가 카드 떨군거같은데 지하철 바닥에 덩그러니 있음... 너무 대놓고 있는데 다들 못본척 하고 있어(나 포함",
+"handle": "kada---909.planet.moe.ap.brid.gy",
+"name": "카다IF",
+"time": "2026-11-09T22:37:00.181Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/kada---909.planet.moe.ap.brid.gy/post/3mzvygrmds532",
+"term": "지하철"
+},
+{
+"text": "베이지로 사고 검은건 롱패딩이나 다른걸루",
+"handle": "chickenuma.bsky.social",
+"name": "치킨 °o°(상태: P;ㅠ )",
+"time": "2026-11-09T22:36:25.685Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/chickenuma.bsky.social/post/3mzvyft7hg22q",
+"term": "사고"
+},
 {
 "text": "그쵸 그래서 그... C. 둘 다 사고 파산하기로 마음이 기울고 있어요",
 "handle": "gamingway.bsky.social",
@@ -1995,7 +2015,7 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 0.1,
+"지진": 0.09,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
@@ -2004,8 +2024,8 @@
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.05,
-"사고": 1.01,
+"지하철": 0.15,
+"사고": 1.21,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
