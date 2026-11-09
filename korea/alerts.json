@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-09T18:11:43.901510+00:00",
+"updated": "2026-11-09T18:13:59.579810+00:00",
 "errors": [],
 "events": [
 {
@@ -1352,7 +1352,7 @@
 "sns": {
 "terms": {
 "지진": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -1372,7 +1372,7 @@
 "spike": false
 },
 "폭발": {
-"n30": 6,
+"n30": 5,
 "base": 1.1,
 "spike": true
 },
@@ -1392,7 +1392,7 @@
 "spike": false
 },
 "속보": {
-"n30": 3,
+"n30": 2,
 "base": 0.1,
 "spike": false
 },
@@ -1403,7 +1403,7 @@
 },
 "사고": {
 "n30": 1,
-"base": 0.4,
+"base": 0.5,
 "spike": false
 },
 "실종": {
@@ -1673,10 +1673,10 @@
 "spikes": [
 {
 "term": "폭발",
-"n30": 6,
+"n30": 5,
 "base": 1.1,
 "spike": true,
-"since": "2026-11-09T18:11:43.901510+00:00"
+"since": "2026-11-09T18:13:59.579810+00:00"
 }
 ],
 "baseline": {
@@ -1685,12 +1685,12 @@
 "불났": 0.05,
 "정전": 0.05,
 "폭발": 1.05,
-"붕괴": 0.12,
+"붕괴": 0.11,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
 "지하철": 0.05,
-"사고": 0.47,
+"사고": 0.52,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -1921,7 +1921,7 @@
 "trends": [
 {
 "term": "골드만삭스",
-"traffic": "100+",
+"traffic": "200+",
 "time": "2026-11-09T17:00:00+00:00",
 "news": [
 {
@@ -1930,9 +1930,9 @@
 "link": "https://kr.investing.com/news/stock-market-news/article-2164829"
 },
 {
-"title": "골드만삭스 CEO \"미국 데이터센터·컴퓨팅 인프라 투자 지속될 것\"",
-"source": "블루밍비트",
-"link": "https://bloomingbit.io/feed/news/124012"
+"title": "Morgan Stanley Calls Tesla the “Very Obvious Player” as Data Centers Outbuy the Grid on Batteries",
+"source": "TIKR.com",
+"link": "https://www.tikr.com/ko/blog/morgan-stanley-calls-tesla-the-very-obvious-player-as-data-centers-outbuy-the-grid-on-batteries"
 }
 ],
 "new": true
