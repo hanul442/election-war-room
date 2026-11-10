@@ -1,7 +1,73 @@
 {
-"updated": "2026-11-10T02:12:57.029837+00:00",
+"updated": "2026-11-10T02:15:11.613111+00:00",
 "errors": [],
 "events": [
+{
+"id": "viewAKR202611100768000040158",
+"first": "2026-11-10T01:58:58+00:00",
+"last": "2026-11-10T02:12:00+00:00",
+"updated": "2026-11-10T02:15:11.613111+00:00",
+"headline": "선관위특검 \"경기도교육감 선거 개표 결과 위조 정황 확인\"",
+"cat": "정치",
+"regions": [
+"경기",
+"광주"
+],
+"sources": [
+"경향신문",
+"연합뉴스",
+"조선일보",
+"채널A"
+],
+"updates": [
+{
+"title": "[속보] 선관위특검 \"경기도교육감 선거 개표 결과 위조 정황 확인\"",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261110076800004",
+"time": "2026-11-10T01:58:58+00:00",
+"stage": "얼럿"
+},
+{
+"title": "[속보] 특검, 경기도 선관위 등 압수수색...“교육감 선거 개표 결과 위조 정황”",
+"source": "조선일보",
+"link": "https://www.chosun.com/national/court_law/2026/11/10/MJGMY4ILKNADNKJATMERI2XDWA/",
+"time": "2026-11-10T02:04:10+00:00",
+"stage": "속보"
+},
+{
+"title": "[속보]특검 “경기도교육감 선거 개표 결과 위조 정황 확인”",
+"source": "채널A",
+"link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBsMWdiQnVoc2RZRXZkbl96RHd0dFdLVjRLUG1MYjh2UFBzbHpJOTRpNGVlNkxsWXZ4YmdXbTBySHJVY05XdUVlbGl3S1hRSmtVZUxkejA1OC0wRWtNNXfSAWNBVV95cUxOUFI4eFB4ZG9CZXdhTjhPTTRsVGxGZ2lXVEduSkRHUC1WVjB2LUFJT2NfeVZUd2pQRXhEbWxOWTFDdy1QdGRyX0Y0NFJUb0ZJX1FHWE1LZlA5Z2c0T1hRTUJhQTg?oc=5",
+"time": "2026-11-10T02:08:00+00:00",
+"stage": "속보"
+},
+{
+"title": "[속보]선관위특검 “경기도교육감 선거 개표 위조 숨겨”···경기광주 선관위 압수수색",
+"source": "경향신문",
+"link": "https://www.khan.co.kr/article/202611101112001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
+"time": "2026-11-10T02:12:00+00:00",
+"stage": "속보"
+}
+],
+"level": "URGENT",
+"latest": "선관위특검 “경기도교육감 선거 개표 위조 숨겨”···경기광주 선관위 압수수색",
+"tok": [
+"개표",
+"경기",
+"경기광주",
+"경기도교육감",
+"교육감",
+"선거",
+"선관위",
+"선관위특검",
+"숨겨",
+"압수수색",
+"위조",
+"정황",
+"특검",
+"확인"
+]
+},
 {
 "id": "wNISX20261110_00038617700142",
 "first": "2026-11-10T01:42:51+00:00",
@@ -53,53 +119,6 @@
 "추락",
 "통신",
 "훈련"
-]
-},
-{
-"id": "viewAKR202611100768000040158",
-"first": "2026-11-10T01:58:58+00:00",
-"last": "2026-11-10T02:04:10+00:00",
-"updated": "2026-11-10T02:10:37.019439+00:00",
-"headline": "선관위특검 \"경기도교육감 선거 개표 결과 위조 정황 확인\"",
-"cat": "정치",
-"regions": [
-"경기"
-],
-"sources": [
-"연합뉴스",
-"조선일보"
-],
-"updates": [
-{
-"title": "[속보] 선관위특검 \"경기도교육감 선거 개표 결과 위조 정황 확인\"",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261110076800004",
-"time": "2026-11-10T01:58:58+00:00",
-"stage": "얼럿"
-},
-{
-"title": "[속보] 특검, 경기도 선관위 등 압수수색...“교육감 선거 개표 결과 위조 정황”",
-"source": "조선일보",
-"link": "https://www.chosun.com/national/court_law/2026/11/10/MJGMY4ILKNADNKJATMERI2XDWA/",
-"time": "2026-11-10T02:04:10+00:00",
-"stage": "속보"
-}
-],
-"level": "URGENT",
-"latest": "특검, 경기도 선관위 등 압수수색...“교육감 선거 개표 결과 위조 정황”",
-"tok": [
-"개표",
-"경기",
-"경기도교육감",
-"교육감",
-"선거",
-"선관위",
-"선관위특검",
-"압수수색",
-"위조",
-"정황",
-"특검",
-"확인"
 ]
 },
 {
@@ -4069,7 +4088,7 @@
 "sns": {
 "terms": {
 "지진": {
-"n30": 2,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
@@ -4089,12 +4108,12 @@
 "spike": false
 },
 "폭발": {
-"n30": 1,
-"base": 1.1,
+"n30": 0,
+"base": 1.0,
 "spike": false
 },
 "붕괴": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -4120,7 +4139,7 @@
 },
 "사고": {
 "n30": 1,
-"base": 2.9,
+"base": 2.7,
 "spike": false
 },
 "실종": {
@@ -4357,7 +4376,7 @@
 "n30": 5,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-10T02:12:57.029837+00:00"
+"since": "2026-11-10T02:15:11.613111+00:00"
 }
 ],
 "baseline": {
@@ -4365,13 +4384,13 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.96,
+"폭발": 0.86,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.64,
-"사고": 2.7,
+"지하철": 0.68,
+"사고": 2.53,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -4710,7 +4729,7 @@
 },
 {
 "term": "송지효",
-"traffic": "100+",
+"traffic": "200+",
 "time": "2026-11-09T23:30:00+00:00",
 "news": [
 {
@@ -4727,19 +4746,19 @@
 "new": true
 },
 {
-"term": "둠스데이",
-"traffic": "200+",
+"term": "구자욱",
+"traffic": "2000+",
 "time": "2026-11-09T23:30:00+00:00",
 "news": [
 {
-"title": "KFC, 마블 영화 협업 메뉴 5종 운영",
-"source": "로이슈",
-"link": "https://www.lawissue.co.kr/view.php?ud=202611100826387033204ead0791_12"
+"title": "삼성 야구 12년 만의 우승... 이재용, 직관 왜 안 했을까",
+"source": "조선일보",
+"link": "https://www.chosun.com/economy/industry-company/2026/11/09/II2BVSPQTVE2FDCU4SATXPEV3M/"
 },
 {
-"title": "KFC, '어벤져스: 둠스데이' 캠페인...‘둠 시리즈’ 5종 출시",
-"source": "싱글리스트",
-"link": "https://www.slist.kr/news/articleView.html?idxno=780331"
+"title": "12년 만의 한국시리즈 우승...모든 선수가 MVP [자막뉴스]",
+"source": "YTN",
+"link": "https://www.ytn.co.kr/_ln/0134_202611100913549408"
 }
 ],
 "new": true
