@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-10T09:25:58.330319+00:00",
+"updated": "2026-11-10T09:28:12.489795+00:00",
 "errors": [],
 "events": [
 {
@@ -3736,7 +3736,7 @@
 "spike": false
 },
 "폭발": {
-"n30": 2,
+"n30": 3,
 "base": 0.9,
 "spike": false
 },
@@ -3756,7 +3756,7 @@
 "spike": false
 },
 "속보": {
-"n30": 6,
+"n30": 7,
 "base": 0.1,
 "spike": true
 },
@@ -3767,7 +3767,7 @@
 },
 "사고": {
 "n30": 8,
-"base": 4.2,
+"base": 4.5,
 "spike": false
 },
 "실종": {
@@ -3797,6 +3797,26 @@
 }
 },
 "posts": [
+{
+"text": "속보) 스팀DB에 어센던스 베타 등록https://steamdb.info/app/3065170/charts/",
+"handle": "c-dtd.bsky.social",
+"name": "님청성",
+"time": "2026-11-10T09:26:57.375Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/c-dtd.bsky.social/post/3mzx4r2huj22g",
+"term": "속보"
+},
+{
+"text": "언급 안하려했는데 오랜만에 비글 폭발하네요 이것도 이제 마지막이겟죠",
+"handle": "djisreal.bsky.social",
+"name": "MYU",
+"time": "2026-11-10T09:26:44.378Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/djisreal.bsky.social/post/3mzx4qlog4k2w",
+"term": "폭발"
+},
 {
 "platform": "YouTube",
 "text": "호카에서 사고쳤다는 겨울 방한화",
@@ -3978,24 +3998,24 @@
 "spikes": [
 {
 "term": "속보",
-"n30": 6,
+"n30": 7,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-10T09:25:58.330319+00:00"
+"since": "2026-11-10T09:28:12.489795+00:00"
 }
 ],
 "baseline": {
-"지진": 0.06,
+"지진": 0.05,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.91,
+"폭발": 1.02,
 "붕괴": 1.05,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.05,
-"지하철": 0.16,
-"사고": 4.45,
+"속보": 0.15,
+"지하철": 0.14,
+"사고": 4.71,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
