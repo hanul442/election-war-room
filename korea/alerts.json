@@ -1,15 +1,16 @@
 {
-"updated": "2026-11-10T10:38:53.682546+00:00",
+"updated": "2026-11-10T10:41:07.068796+00:00",
 "errors": [],
 "events": [
 {
 "id": "mhJT00yaGh5N0RMVTVSUQoc52235",
 "first": "2026-11-09T22:35:00+00:00",
-"last": "2026-11-10T10:19:22+00:00",
-"updated": "2026-11-10T10:25:21.427800+00:00",
+"last": "2026-11-10T10:35:43+00:00",
+"updated": "2026-11-10T10:41:07.068796+00:00",
 "headline": "경부고속도로 사고 처리중",
 "cat": "교통",
 "regions": [
+"경기",
 "대전",
 "부산",
 "전남",
@@ -207,10 +208,24 @@
 "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBrTTVMSk9zVWdVQ3pWWGloVVMyc0hSalFKWnVwdFFtd3M5NXN5TVVFVEdwVHpDVDlqLUE1TjVIeFNwX3ROTE5uR1hxcGtSWmJoUmZubjA1VWVzWUlmbXBNWUdvT0JWakZLMUwyTkhuWWM0Zw?oc=5",
 "time": "2026-11-10T10:19:22+00:00",
 "stage": "속보"
+},
+{
+"title": "[속보] 평택제천고속도로 승용차 사고 처리중",
+"source": "스페셜타임스",
+"link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9IRFNXNUdHbDRKaENDSDJvem1MemZUclU5OWREWFdsLWcyR05KZ1pULWMtX3RSUUxHTEdPVUhCZjNUUTNrV1VuYndVQTh5NjdmTWRYQWp5bVRVeXhpZ25rYXc5cTVGQTZYb2dhWEthRk1pQQ?oc=5",
+"time": "2026-11-10T10:35:25+00:00",
+"stage": "속보"
+},
+{
+"title": "[속보] 중앙고속도로 승용차 관련 추돌사고 처리중",
+"source": "스페셜타임스",
+"link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBYRk1BelRzX3UyTzkybFRYN1pWaDZjeXNzenk3SFZFYmxPd2dDbHhKYlZFaDc1U3lkU2xhcnZaekhzUnB6WlhKX0RvcndEd0VYRDNVRHNFRUFMT09IdGtGQjRubWZYMHp0Q1VVMFZPbWhzUQ?oc=5",
+"time": "2026-11-10T10:35:43+00:00",
+"stage": "속보"
 }
 ],
 "level": "URGENT",
-"latest": "대전남부고속도로 승용차관련 사고 처리중",
+"latest": "중앙고속도로 승용차 관련 추돌사고 처리중",
 "tok": [
 "갓길",
 "경부고속도",
@@ -226,9 +241,12 @@
 "영동고속도",
 "중부고속도",
 "중부내륙고속도",
+"중앙고속도",
 "중앙선지고속도",
 "진입",
 "처리중",
+"추돌사고",
+"평택제천고속도",
 "호남고속도",
 "화물차"
 ]
@@ -3773,7 +3791,7 @@
 "terms": {
 "지진": {
 "n30": 2,
-"base": 0.8,
+"base": 0.9,
 "spike": false
 },
 "화재": {
@@ -3792,13 +3810,13 @@
 "spike": false
 },
 "폭발": {
-"n30": 3,
-"base": 1.4,
+"n30": 1,
+"base": 1.2,
 "spike": false
 },
 "붕괴": {
 "n30": 2,
-"base": 0.2,
+"base": 0.1,
 "spike": false
 },
 "대피": {
@@ -3812,12 +3830,12 @@
 "spike": false
 },
 "속보": {
-"n30": 2,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
 "지하철": {
-"n30": 3,
+"n30": 4,
 "base": 1.9,
 "spike": false
 },
@@ -3848,11 +3866,21 @@
 },
 "산불": {
 "n30": 0,
-"base": 0.7,
+"base": 0.6,
 "spike": false
 }
 },
 "posts": [
+{
+"text": "에어컨 맞으면 기침하는데....\n이겨울에 퇴근길 지하철에 에어컨을 켜줬네",
+"handle": "iyom00.bsky.social",
+"name": "밀리샤",
+"time": "2026-11-10T10:39:05.869Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/iyom00.bsky.social/post/3mzxarzkids2u",
+"term": "지하철"
+},
 {
 "text": "검 3이 뭐길래:\n깊은 상처와 치유의 가능성을 드러내는 카드\n\n비와 함께 심장에 검 3자루가 깊이 꽂혔기 때문에 트라우마로 인한 사고 정지, 현실도피, 우울감을 상징함\n하지만 심장의 색은 무려 검 3자루에 꽂혔음에도 선명한 색을 유지하고 있기 때문에 '재활' 의 가능성을 드러내고 있으며,\n\n으레 비라는 것은 구름이 걷히면 같이 사라지기 때문에 시련의 끝에 낙이 온다는 암시도 같이 줄 수 있음",
 "handle": "tx2406.bsky.social",
@@ -4071,22 +4099,22 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 0.95,
+"지진": 1.05,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 1.23,
-"붕괴": 0.14,
-"대피": 0.16,
+"폭발": 1.11,
+"붕괴": 0.13,
+"대피": 0.14,
 "미사일": 0.05,
-"속보": 0.11,
-"지하철": 1.95,
-"사고": 4.5,
+"속보": 0.1,
+"지하철": 2.05,
+"사고": 4.45,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
-"산불": 0.62
+"산불": 0.56
 },
 "errors": [],
 "ytPosts": [
