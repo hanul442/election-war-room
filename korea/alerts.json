@@ -1,17 +1,18 @@
 {
-"updated": "2026-11-10T22:42:44.445834+00:00",
+"updated": "2026-11-10T22:45:00.899180+00:00",
 "errors": [],
 "events": [
 {
 "id": "k2NVB1aVNTRlVnbHdaeVMoc51333",
 "first": "2026-11-10T13:33:21+00:00",
 "last": "2026-11-10T22:39:46+00:00",
-"updated": "2026-11-10T22:40:25.863878+00:00",
+"updated": "2026-11-10T22:45:00.899180+00:00",
 "headline": "미국 CPI 전월 대비 0.4% 상승",
 "cat": "국제",
 "regions": [],
 "sources": [
 "CBC뉴스",
+"KBS 뉴스",
 "SBS",
 "경향신문",
 "뉴스1",
@@ -213,6 +214,13 @@
 "source": "SBS",
 "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008840039&plink=RSSLINK&cooper=RSSREADER",
 "time": "2026-11-10T21:11:05+00:00",
+"stage": "후속"
+},
+{
+"title": "소비자물가 예상치 웃돌아…연준 “12월 0.5%p 인상도 고려”",
+"source": "KBS 뉴스",
+"link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9EaU9YanFiOEx0RXZKbWc0dFpWSVRNME9uMExCamxSN3hnNExheXJIQU4yRVBfWkV5UmI2YVV4RGU1UnBISkUzbXZmdG9CYzg1N0wtVzdIVzZoVHhsd3dhZjAzT3BnZw?oc=5",
+"time": "2026-11-10T22:01:00+00:00",
 "stage": "후속"
 },
 {
@@ -732,8 +740,8 @@
 {
 "id": "wNISX20261111_00038629562208",
 "first": "2026-11-10T22:08:59+00:00",
-"last": "2026-11-10T22:08:59+00:00",
-"updated": "2026-11-10T22:13:06.619490+00:00",
+"last": "2026-11-10T22:12:23+00:00",
+"updated": "2026-11-10T22:45:00.899180+00:00",
 "headline": "경유 4만톤 실은 미국행 러 유조선, 북대서양에서 멈춰 --정보업체",
 "cat": "국제",
 "regions": [],
@@ -747,6 +755,13 @@
 "link": "https://www.newsis.com/view/NISX20261111_0003862956",
 "time": "2026-11-10T22:08:59+00:00",
 "stage": "얼럿"
+},
+{
+"title": "[속보 ]경유 4만톤 실은 미국행 러 유조선, 북대서양에서 멈춰 --정보업체",
+"source": "뉴시스",
+"link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1lajVaaWpXanJLRTY5dnhjcmhWNW1sODJNSXJIQUxZTXVuSVJid0JBNkZiRDdIVXRLR3BXWGJhbjZtRHhOMUFJek9sYUV0QzFfNzBvNUZaWmhqc1RUTjJKT9IBeEFVX3lxTE9DT210S3kyYW5RazkzS2hPM1VKdE1WRkhtam9uckRUWGtsWDJUNmViN2phVjhnb1o0R1NzUWdEOUUtWndsTm15X1pxRzNEcHQ4Uk9ndURpWkdQcVF2Z1E1TVNxWEUzUTZMZEluTFE4TEZLT2VFbURsQg?oc=5",
+"time": "2026-11-10T22:12:23+00:00",
+"stage": "속보"
 }
 ],
 "level": "URGENT",
@@ -2189,7 +2204,7 @@
 "spike": false
 },
 "화재": {
-"n30": 2,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
@@ -2224,18 +2239,18 @@
 "spike": false
 },
 "속보": {
-"n30": 7,
+"n30": 6,
 "base": 0.1,
 "spike": true
 },
 "지하철": {
 "n30": 2,
-"base": 0.1,
+"base": 0.2,
 "spike": false
 },
 "사고": {
 "n30": 1,
-"base": 0.3,
+"base": 0.4,
 "spike": false
 },
 "실종": {
@@ -2280,7 +2295,7 @@
 "handle": "eunda.bsky.social",
 "name": "‪은다🔒",
 "time": "2026-11-10T22:41:10.173Z",
-"likes": 0,
+"likes": 1,
 "reposts": 0,
 "url": "https://bsky.app/profile/eunda.bsky.social/post/3mzyj4zrztk22",
 "term": "사고"
@@ -2515,24 +2530,24 @@
 "spikes": [
 {
 "term": "속보",
-"n30": 7,
+"n30": 6,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-10T22:42:44.445834+00:00"
+"since": "2026-11-10T22:45:00.899180+00:00"
 }
 ],
 "baseline": {
-"지진": 0.15,
+"지진": 0.24,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.45,
+"폭발": 0.41,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.24,
-"사고": 0.41,
+"지하철": 0.32,
+"사고": 0.47,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -2762,8 +2777,44 @@
 },
 "trends": [
 {
-"term": "엄정욱",
+"term": "메이저 리그 사커",
 "traffic": "200+",
+"time": "2026-11-10T21:40:00+00:00",
+"news": [
+{
+"title": "'충격 살인 태클에 폐까지 손상' 손흥민 동료 위험천만...근데 겨우 옐로카드? MLS서 나온 살인 태클 논란…갈비뼈 다발성 골절",
+"source": "SPOTV NEWS",
+"link": "https://www.spotvnews.co.kr/news/articleView.html?idxno=1019124"
+},
+{
+"title": "이럴 수가! '7골 12도움' 손흥민이 없다…英매체 'MLS 올해의 팀' 제외→세컨드팀+서드팀에도 빠졌다",
+"source": "네이트",
+"link": "https://m.news.nate.com/view/20261111n00168"
+}
+],
+"new": true
+},
+{
+"term": "농구",
+"traffic": "1000+",
+"time": "2026-11-10T21:40:00+00:00",
+"news": [
+{
+"title": "프로농구 소노, 꼴찌 현대모비스 잡고 5연패 탈출…이정현 26점",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261110175800007"
+},
+{
+"title": "\"기다리면 기회 온다고 믿었다\" 지난 시즌 1군 평균 47초→프로 7년 차 첫 방송 인터뷰... 소노 5연패 탈출 '숨은 히어로' - 머니투데이",
+"source": "머니투데이",
+"link": "https://www.mt.co.kr/sports/2026/11/11/2026111103592870997"
+}
+],
+"new": true
+},
+{
+"term": "엄정욱",
+"traffic": "500+",
 "time": "2026-11-10T21:30:00+00:00",
 "news": [
 {
@@ -2781,7 +2832,7 @@
 },
 {
 "term": "gs칼텍스",
-"traffic": "100+",
+"traffic": "200+",
 "time": "2026-11-10T21:30:00+00:00",
 "news": [
 {
@@ -2793,6 +2844,24 @@
 "title": "[Who Is ?] 허세홍 GS칼텍스 대표이사 부회장",
 "source": "비즈니스포스트",
 "link": "https://www.businesspost.co.kr/BP?command=article_view&num=450340"
+}
+],
+"new": true
+},
+{
+"term": "제네시스 gv90",
+"traffic": "200+",
+"time": "2026-11-10T21:30:00+00:00",
+"news": [
+{
+"title": "제네시스, 앞·뒤 차 문 마주 열리는 ‘GV90’ 출시···최고 2억3950만원",
+"source": "경향신문",
+"link": "https://www.khan.co.kr/article/202611101005001"
+},
+{
+"title": "‘엉따’ 넘어 온돌로 ‘발따’... 2억, 역대 최고가 국산차 나왔다",
+"source": "조선일보",
+"link": "https://www.chosun.com/economy/auto/2026/11/10/SRJ3NFM7R5AVBANWP2NR4KOL2U/"
 }
 ],
 "new": true
@@ -2886,64 +2955,9 @@
 }
 ],
 "new": true
-},
-{
-"term": "김구라",
-"traffic": "2000+",
-"time": "2026-11-10T21:00:00+00:00",
-"news": [
-{
-"title": "“올해 번 돈 다 까먹어” 김구라 경제연구소서 나온 말",
-"source": "문화일보",
-"link": "https://www.munhwa.com/article/11630076"
-},
-{
-"title": "김구라 \"올해 번 돈 다 까먹었다\"…주식 폭락에 한숨 - 머니투데이",
-"source": "머니투데이",
-"link": "https://www.mt.co.kr/entertainment/2026/11/10/2026111005403695983"
-}
-],
-"new": true
-},
-{
-"term": "게임",
-"traffic": "500+",
-"time": "2026-11-10T21:00:00+00:00",
-"news": [
-{
-"title": "엠게임 '귀혼키우기', 11월 24일 출시... 사전예약 100만명 돌파",
-"source": "전자신문",
-"link": "https://www.etnews.com/20261110000227"
-},
-{
-"title": "엠게임, 방치형 RPG ‘귀혼키우기’ 24일 출시",
-"source": "Chosunbiz",
-"link": "https://biz.chosun.com/it-science/ict/2026/11/10/QSEGYCXSVNC4BJN2I2PFQMV47A/"
-}
-],
-"new": true
-},
-{
-"term": "김장",
-"traffic": "100+",
-"time": "2026-11-10T21:00:00+00:00",
-"news": [
-{
-"title": "“누가 갈아엎고 싶겠습니까”… 배추·쪽파값 폭락에 밭 갈아엎는 농가",
-"source": "세계일보",
-"link": "https://www.segye.com/newsView/20261108509121"
-},
-{
-"title": "농경연 \"김장비용 4% 안팎 줄어…상품 김치 구매 비중은 증가\"",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261109136900030"
-}
-],
-"new": true
 }
 ],
 "trendSeen": [
-"용산공원",
 "우규민",
 "우박",
 "우주발사체",
@@ -3067,6 +3081,7 @@
 "정지선",
 "정철원",
 "제네시스 g90",
+"제네시스 gv90",
 "제니",
 "제주 감귤",
 "제주국제공항",
