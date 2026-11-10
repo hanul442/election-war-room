@@ -1,7 +1,58 @@
 {
-"updated": "2026-11-10T15:03:43.294304+00:00",
+"updated": "2026-11-10T15:06:04.117386+00:00",
 "errors": [],
 "events": [
+{
+"id": "viewAKR202611101391005270703",
+"first": "2026-11-10T07:03:11+00:00",
+"last": "2026-11-10T15:00:52+00:00",
+"updated": "2026-11-10T15:06:04.117386+00:00",
+"headline": "제주 서부 앞바다에 풍랑주의보 해제",
+"cat": "재난",
+"regions": [
+"경남",
+"제주"
+],
+"sources": [
+"연합뉴스"
+],
+"updates": [
+{
+"title": "제주 서부 앞바다에 풍랑주의보 해제",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261110139100527",
+"time": "2026-11-10T07:03:11+00:00",
+"stage": "1보"
+},
+{
+"title": "제주 남쪽 먼바다에 풍랑주의보 해제",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261110166100527",
+"time": "2026-11-10T09:37:00+00:00",
+"stage": "후속"
+},
+{
+"title": "남해 동부 먼바다에 풍랑주의보 해제",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261110181500527",
+"time": "2026-11-10T15:00:52+00:00",
+"stage": "후속"
+}
+],
+"level": "ALERT",
+"latest": "남해 동부 먼바다에 풍랑주의보 해제",
+"tok": [
+"남쪽",
+"남해",
+"동부",
+"먼바다",
+"서부",
+"앞바다",
+"제주",
+"풍랑주의보",
+"해제"
+]
+},
 {
 "id": "wNISX20261110_00038629131447",
 "first": "2026-11-10T14:47:29+00:00",
@@ -3293,47 +3344,6 @@
 ]
 },
 {
-"id": "viewAKR202611101391005270703",
-"first": "2026-11-10T07:03:11+00:00",
-"last": "2026-11-10T09:37:00+00:00",
-"updated": "2026-11-10T09:41:43.323651+00:00",
-"headline": "제주 서부 앞바다에 풍랑주의보 해제",
-"cat": "재난",
-"regions": [
-"제주"
-],
-"sources": [
-"연합뉴스"
-],
-"updates": [
-{
-"title": "제주 서부 앞바다에 풍랑주의보 해제",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261110139100527",
-"time": "2026-11-10T07:03:11+00:00",
-"stage": "1보"
-},
-{
-"title": "제주 남쪽 먼바다에 풍랑주의보 해제",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261110166100527",
-"time": "2026-11-10T09:37:00+00:00",
-"stage": "후속"
-}
-],
-"level": "ALERT",
-"latest": "제주 남쪽 먼바다에 풍랑주의보 해제",
-"tok": [
-"남쪽",
-"먼바다",
-"서부",
-"앞바다",
-"제주",
-"풍랑주의보",
-"해제"
-]
-},
-{
 "id": "BENXVDbmJJeXh3SDlWbmsoc50936",
 "first": "2026-11-10T09:36:53+00:00",
 "last": "2026-11-10T09:36:53+00:00",
@@ -3701,41 +3711,13 @@
 "전년비",
 "전망치"
 ]
-},
-{
-"id": "loRG1wS0RQd3RUUF8wYUcoc50905",
-"first": "2026-11-10T09:05:57+00:00",
-"last": "2026-11-10T09:05:57+00:00",
-"updated": "2026-11-10T09:25:58.330319+00:00",
-"headline": "중구문화재단, 뮤직퍼레이드 굿바이 2026'",
-"cat": "재난",
-"regions": [],
-"sources": [
-"SK브로드밴드 회사소개"
-],
-"updates": [
-{
-"title": "중구문화재단, 뮤직퍼레이드 굿바이 2026'",
-"source": "SK브로드밴드 회사소개",
-"link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9NYnBFQW5NLURKQ1ZSUTYzZ2JvM182OFdjbWNCcENlTFAzOUo1VTQwRk5BOS1UZUZKWUJ2TVdRUG9TTjNTNndYeHdWMlRqZGRLcUxQQUpSdjM0cWphQmZWTGloRG1wS0RQd3RUUF8wYUc?oc=5",
-"time": "2026-11-10T09:05:57+00:00",
-"stage": "1보"
-}
-],
-"level": "ALERT",
-"latest": "중구문화재단, 뮤직퍼레이드 굿바이 2026'",
-"tok": [
-"굿바",
-"뮤직퍼레이드",
-"중구문화재단"
-]
 }
 ],
 "sns": {
 "terms": {
 "지진": {
 "n30": 0,
-"base": 0.7,
+"base": 0.6,
 "spike": false
 },
 "화재": {
@@ -3755,12 +3737,12 @@
 },
 "폭발": {
 "n30": 2,
-"base": 1.0,
+"base": 0.9,
 "spike": false
 },
 "붕괴": {
-"n30": 1,
-"base": 0.7,
+"n30": 0,
+"base": 0.8,
 "spike": false
 },
 "대피": {
@@ -3784,12 +3766,12 @@
 "spike": false
 },
 "사고": {
-"n30": 5,
-"base": 3.1,
+"n30": 6,
+"base": 3.3,
 "spike": false
 },
 "실종": {
-"n30": 1,
+"n30": 0,
 "base": 1.3,
 "spike": false
 },
@@ -3815,6 +3797,16 @@
 }
 },
 "posts": [
+{
+"text": "남자애들의 큰사고는 막았지만 균형감각이 부족한 나는 장마철마다 무릎이갈림\n아아...저주한다 빗길아스팔트",
+"handle": "3arron.bsky.social",
+"name": "세밤",
+"time": "2026-11-10T15:04:02.377Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/3arron.bsky.social/post/3mzxplsqsqs2n",
+"term": "사고"
+},
 {
 "text": "믿거나 말거나..\n근데 저랬으면 정말 큰 사고가 나긴 했을 것",
 "handle": "tangmee.bsky.social",
@@ -3843,16 +3835,6 @@
 "likes": 0,
 "reposts": 0,
 "url": "https://bsky.app/profile/ddoggu.bsky.social/post/3mzxosy5unc2q",
-"term": "사고"
-},
-{
-"text": "<극도공포대극장 우두> 4K 블루레이도 사야 하지만, 또 사고 싶은 것이 바로... 호주 영화의 걸작이요, 내가 참 좋아하는 영화인 리처드 프랭클린의 <하이웨이 살인사건/로드 게임> 4K...! 호주의 엄브렐러에서 나오는데 이쪽도 사양이 어마무시하다.\n\nshop.umbrellaent.com.au/products/roa...",
-"handle": "suminbahc.bsky.social",
-"name": "Bahc, Sumin",
-"time": "2026-11-10T14:49:43.870Z",
-"likes": 0,
-"reposts": 1,
-"url": "https://bsky.app/profile/suminbahc.bsky.social/post/3mzxos4qx4k2r",
 "term": "사고"
 },
 {
@@ -3927,26 +3909,6 @@
 "time": "2026-11-10T14:36:23Z",
 "term": "화재",
 "url": "https://www.youtube.com/watch?v=ov7-qbJh_bY"
-},
-{
-"text": "극단의 정치와 대의민주주의의 붕괴...",
-"handle": "starbitsinkor.bsky.social",
-"name": "우주먼작귀",
-"time": "2026-11-10T14:35:32.883Z",
-"likes": 1,
-"reposts": 1,
-"url": "https://bsky.app/profile/starbitsinkor.bsky.social/post/3mzxnynt6tk2x",
-"term": "붕괴"
-},
-{
-"text": "소닋 실종되고 도우가 미쳐서 닋님 안드로이드 만드는 수준의 캐붕포타 필요함",
-"handle": "skaaltodmlqkd.bsky.social",
-"name": "몽",
-"time": "2026-11-10T14:33:55.672Z",
-"likes": 1,
-"reposts": 0,
-"url": "https://bsky.app/profile/skaaltodmlqkd.bsky.social/post/3mzxnvx4bxk2d",
-"term": "실종"
 },
 {
 "platform": "YouTube",
@@ -4077,21 +4039,21 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 0.63,
+"지진": 0.57,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.89,
-"붕괴": 0.77,
+"폭발": 0.8,
+"붕괴": 0.69,
 "대피": 0.05,
-"미사일": 0.27,
+"미사일": 0.24,
 "속보": 0.05,
-"지하철": 0.71,
-"사고": 3.33,
-"실종": 1.29,
-"단수": 0.45,
+"지하철": 0.74,
+"사고": 3.6,
+"실종": 1.16,
+"단수": 0.41,
 "통신 장애": 0.05,
-"먹통": 0.08,
+"먹통": 0.07,
 "산불": 0.05
 },
 "errors": [],
@@ -4305,7 +4267,7 @@
 "link": "https://www.tradingkey.com/kr/analysis/stocks/us-stocks/262298789-coreweave-premarket-down-wayve-ai-cloud-partnership-q3-earnings-tradingkey"
 }
 ],
-"new": true
+"new": false
 },
 {
 "term": "철도",
@@ -4349,14 +4311,14 @@
 "time": "2026-11-10T12:50:00+00:00",
 "news": [
 {
-"title": "세종에 ‘우주 위성 정비기지’ 들어선다…첫 분양기업, 산업화 시동",
-"source": "녹색경제신문",
-"link": "https://www.greened.kr/news/articleView.html?idxno=354318"
+"title": "이 대통령, 공공기관 개혁 협조 당부‥전국 불법행위 실태 보고 지시",
+"source": "MBC 뉴스",
+"link": "https://imnews.imbc.com/news/2026/politics/article/6864586_36911.html"
 },
 {
-"title": "\"위성 정비소 쏜다\" 워커린스페이스, 세종에 'AIT우주센터' 건립 - 머니투데이",
-"source": "머니투데이",
-"link": "https://www.mt.co.kr/future/2026/11/10/2026111011282173871"
+"title": "이재명 대통령 '공공기관 이전' 협조 주문",
+"source": "제민일보",
+"link": "https://www.jemin.com/news/articleView.html?idxno=846787"
 }
 ],
 "new": true
