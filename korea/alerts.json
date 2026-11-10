@@ -1,16 +1,17 @@
 {
-"updated": "2026-11-10T03:35:33.283887+00:00",
+"updated": "2026-11-10T03:37:52.706835+00:00",
 "errors": [],
 "events": [
 {
 "id": "viewAKR202611100923005040310",
 "first": "2026-11-10T03:10:48+00:00",
 "last": "2026-11-10T03:24:51+00:00",
-"updated": "2026-11-10T03:35:33.283887+00:00",
+"updated": "2026-11-10T03:37:52.706835+00:00",
 "headline": "'작전구역 확대' 청해부대 파견 연장 동의안, 국무회의 의결",
 "cat": "기타",
 "regions": [],
 "sources": [
+"SBS Biz",
 "강원도민일보",
 "경향신문",
 "뉴시스",
@@ -67,6 +68,13 @@
 "source": "부산일보",
 "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9HTHotcjJuZ0dkak9iNGhURVF5U1ZMWFhpQnAzenVDQjlUMlV4NjhKNG83cUx6NFZZYnUzVndfb3V6b0M4VTNONDZaQmFKeWMtWVhvN2VzM3NhcFE2X1d6UlJqZ19YeHZ1WkhNYmV2RmVRNGVQ?oc=5",
 "time": "2026-11-10T03:19:46+00:00",
+"stage": "속보"
+},
+{
+"title": "[속보] '청해부대 작전구역 확대' 국무회의 의결",
+"source": "SBS Biz",
+"link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9MVXFHcUNtRTQ1Y0R5OEdGNnhMSXBnY1hhSng5clNTVThPcjhnTmR5enYwbmJoel9KVFpqVFVCcUdyTy11YUExb3BpanNWd2lUOUpKTndFaDFMY1lOaUQtVHdrUlFWZUnSAVhBVV95cUxPbzZqU0NMdFk3SUVvLTVyeXVUbDdyMEtGRi1aUW5CSE50cmVCTFlzaTljQ3ZMZ21NM1VLa0E2enl1N1EwMnVuSDVrSENvcWh3dzEwcFFpbkc3?oc=5",
+"time": "2026-11-10T03:20:00+00:00",
 "stage": "속보"
 },
 {
@@ -3635,7 +3643,7 @@
 },
 "폭발": {
 "n30": 2,
-"base": 0.2,
+"base": 0.3,
 "spike": false
 },
 "붕괴": {
@@ -3655,17 +3663,17 @@
 },
 "속보": {
 "n30": 9,
-"base": 0.7,
+"base": 0.6,
 "spike": true
 },
 "지하철": {
-"n30": 4,
+"n30": 3,
 "base": 1.3,
 "spike": false
 },
 "사고": {
 "n30": 0,
-"base": 2.1,
+"base": 1.9,
 "spike": false
 },
 "실종": {
@@ -3902,25 +3910,15 @@
 "time": "2026-11-10T03:10:07Z",
 "term": "속보",
 "url": "https://www.youtube.com/watch?v=WTAESUxvsUs"
-},
-{
-"text": "버스나 지하철 관련 노래 진짜 시청앞 지하철 말고 생각나는거 없음ㅋㅋㅋ",
-"handle": "happinesseum.bsky.social",
-"name": "행복슴_Happinesseum",
-"time": "2026-11-10T03:05:55.871Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/happinesseum.bsky.social/post/3mzwhhoxkks2n",
-"term": "지하철"
 }
 ],
 "spikes": [
 {
 "term": "속보",
 "n30": 9,
-"base": 0.7,
+"base": 0.6,
 "spike": true,
-"since": "2026-11-10T03:35:33.283887+00:00"
+"since": "2026-11-10T03:37:52.706835+00:00"
 }
 ],
 "baseline": {
@@ -3928,17 +3926,17 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.32,
-"붕괴": 0.1,
+"폭발": 0.39,
+"붕괴": 0.09,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.62,
-"지하철": 1.26,
-"사고": 1.94,
+"속보": 0.56,
+"지하철": 1.13,
+"사고": 1.75,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
-"먹통": 0.1,
+"먹통": 0.09,
 "산불": 0.05
 },
 "errors": [],
