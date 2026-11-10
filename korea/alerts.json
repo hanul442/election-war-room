@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-10T09:03:23.450585+00:00",
+"updated": "2026-11-10T09:05:39.716678+00:00",
 "errors": [],
 "events": [
 {
@@ -1166,6 +1166,46 @@
 ]
 },
 {
+"id": "1UtNGVqZDQ5R2Y2YmVYSQoc50826",
+"first": "2026-11-10T08:26:00+00:00",
+"last": "2026-11-10T08:35:13+00:00",
+"updated": "2026-11-10T09:05:39.716678+00:00",
+"headline": "이 대통령 \"이주노동자는 동료이자 이웃… 노동 가치 다르지 않아\"",
+"cat": "정치",
+"regions": [],
+"sources": [
+"대전일보"
+],
+"updates": [
+{
+"title": "[속보] 이 대통령 \"이주노동자는 동료이자 이웃… 노동 가치 다르지 않아\"",
+"source": "대전일보",
+"link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5GbDN4MUlUeC13TlVEdTFlQXZsVnowWVoxeXRLVUlMODc5bzg2b0MzbGVzMkd5ZXU4NHlsclV0amQ1ZzNzdE5fYVpkbVBkYzA3Y0JCcnVrZnlzbjUzUDEtS1UtNGVqZDQ5R2Y2YmVYSQ?oc=5",
+"time": "2026-11-10T08:26:00+00:00",
+"stage": "얼럿"
+},
+{
+"title": "[속보] 이 대통령 \"이주노동자는 동료이자 이웃… 노동 가치 다르지 않아\" |",
+"source": "대전일보",
+"link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5yR3NXMlhZXy13U290Q0hsWFp4NGxQcGg5SVY0RkVOX1lhLS1xeG9hMlllaWJybVUzZnJYeTVCQjA2Zzd6MUZfdzdULW9UaDJ2cFZqSy03aGxEbENLVVR6Wk1YUkR5SGk3NE5YTlhrc1V6cUU?oc=5",
+"time": "2026-11-10T08:35:13+00:00",
+"stage": "속보"
+}
+],
+"level": "URGENT",
+"latest": "이 대통령 \"이주노동자는 동료이자 이웃… 노동 가치 다르지 않아\" |",
+"tok": [
+"가치",
+"노동",
+"다르지",
+"대통령",
+"동료이자",
+"않아",
+"이웃",
+"이주노동자"
+]
+},
+{
 "id": "jdwbW9CN0taV1BrdHdEZwoc50828",
 "first": "2026-11-10T08:28:00+00:00",
 "last": "2026-11-10T08:28:00+00:00",
@@ -1449,39 +1489,6 @@
 "신작",
 "실적",
 "역대"
-]
-},
-{
-"id": "1UtNGVqZDQ5R2Y2YmVYSQoc50826",
-"first": "2026-11-10T08:26:00+00:00",
-"last": "2026-11-10T08:26:00+00:00",
-"updated": "2026-11-10T08:38:41.175726+00:00",
-"headline": "이 대통령 \"이주노동자는 동료이자 이웃… 노동 가치 다르지 않아\"",
-"cat": "정치",
-"regions": [],
-"sources": [
-"대전일보"
-],
-"updates": [
-{
-"title": "[속보] 이 대통령 \"이주노동자는 동료이자 이웃… 노동 가치 다르지 않아\"",
-"source": "대전일보",
-"link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5GbDN4MUlUeC13TlVEdTFlQXZsVnowWVoxeXRLVUlMODc5bzg2b0MzbGVzMkd5ZXU4NHlsclV0amQ1ZzNzdE5fYVpkbVBkYzA3Y0JCcnVrZnlzbjUzUDEtS1UtNGVqZDQ5R2Y2YmVYSQ?oc=5",
-"time": "2026-11-10T08:26:00+00:00",
-"stage": "얼럿"
-}
-],
-"level": "URGENT",
-"latest": "이 대통령 \"이주노동자는 동료이자 이웃… 노동 가치 다르지 않아\"",
-"tok": [
-"가치",
-"노동",
-"다르지",
-"대통령",
-"동료이자",
-"않아",
-"이웃",
-"이주노동자"
 ]
 },
 {
@@ -3700,13 +3707,13 @@
 "spike": false
 },
 "폭발": {
-"n30": 5,
-"base": 0.7,
-"spike": true
+"n30": 4,
+"base": 0.8,
+"spike": false
 },
 "붕괴": {
-"n30": 2,
-"base": 1.2,
+"n30": 1,
+"base": 1.1,
 "spike": false
 },
 "대피": {
@@ -3720,9 +3727,9 @@
 "spike": false
 },
 "속보": {
-"n30": 5,
+"n30": 4,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "지하철": {
 "n30": 2,
@@ -3731,7 +3738,7 @@
 },
 "사고": {
 "n30": 2,
-"base": 5.1,
+"base": 4.8,
 "spike": false
 },
 "실종": {
@@ -3973,34 +3980,19 @@
 "url": "https://www.youtube.com/watch?v=G3cZ4KD-lsw"
 }
 ],
-"spikes": [
-{
-"term": "폭발",
-"n30": 5,
-"base": 0.7,
-"spike": true,
-"since": "2026-11-10T09:03:23.450585+00:00"
-},
-{
-"term": "속보",
-"n30": 5,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-10T09:03:23.450585+00:00"
-}
-],
+"spikes": [],
 "baseline": {
-"지진": 0.17,
+"지진": 0.15,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.75,
-"붕괴": 1.14,
+"폭발": 0.78,
+"붕괴": 1.13,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.45,
-"사고": 4.79,
+"지하철": 0.41,
+"사고": 4.51,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -4186,7 +4178,7 @@
 "trends": [
 {
 "term": "재활용",
-"traffic": "100+",
+"traffic": "200+",
 "time": "2026-11-10T07:50:00+00:00",
 "news": [
 {
