@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-10T00:38:57.152905+00:00",
+"updated": "2026-11-10T00:41:12.233924+00:00",
 "errors": [],
 "events": [
 {
@@ -349,14 +349,15 @@
 "id": "pRkVMYWxKUHRNWEd2LTRBoc50008",
 "first": "2026-11-10T00:08:19+00:00",
 "last": "2026-11-10T00:33:22+00:00",
-"updated": "2026-11-10T00:38:57.152905+00:00",
+"updated": "2026-11-10T00:41:12.233924+00:00",
 "headline": "동원파츠, 코스닥 공모주 상장일 첫날 주가 103% 폭등",
 "cat": "경제",
 "regions": [],
 "sources": [
 "www.gukjenews.com",
 "뉴시스",
-"연합뉴스"
+"연합뉴스",
+"조선일보"
 ],
 "updates": [
 {
@@ -365,6 +366,13 @@
 "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFAzMElid2lhcTVHZjJVa2cxMjBBOUZmcFpGUDNHZkNFZ2ZBSnl1eTVwUy1ER0xfV29ORkw1Ui1aaXgwQ25VMklYZVhUMVh3cG9TTW1WaU5CbGlXeHZJcFBpRkVMYWxKUHRNWEd2LTRB?oc=5",
 "time": "2026-11-10T00:08:19+00:00",
 "stage": "얼럿"
+},
+{
+"title": "[특징주] 반도체 정밀부품 기업 ‘동원파츠’, 코스닥 입성 첫날 70% 급등",
+"source": "조선일보",
+"link": "https://www.chosun.com/economy/stock-finance/2026/11/10/GA4DQOBSG5RDCNRZMFSTAMZTMI/",
+"time": "2026-11-10T00:08:49+00:00",
+"stage": "후속"
 },
 {
 "title": "[특징주] 동원파츠, 코스닥 상장 첫날 장 초반 90% 상승",
@@ -386,10 +394,14 @@
 "tok": [
 "공모주",
 "급등",
+"기업",
 "동원파츠",
+"반도체",
 "상승",
 "상장",
 "상장일",
+"입성",
+"정밀부품",
 "주가",
 "첫날",
 "초반",
@@ -3832,7 +3844,7 @@
 "spike": false
 },
 "폭발": {
-"n30": 4,
+"n30": 2,
 "base": 0.1,
 "spike": false
 },
@@ -3852,18 +3864,18 @@
 "spike": false
 },
 "속보": {
-"n30": 7,
+"n30": 6,
 "base": 0.1,
 "spike": true
 },
 "지하철": {
-"n30": 3,
-"base": 1.2,
+"n30": 2,
+"base": 1.1,
 "spike": false
 },
 "사고": {
 "n30": 4,
-"base": 2.3,
+"base": 2.5,
 "spike": false
 },
 "실종": {
@@ -3966,7 +3978,7 @@
 "handle": "raccoondaxter.bsky.social",
 "name": "라쿤 덱스터",
 "time": "2026-11-10T00:20:08.675Z",
-"likes": 2,
+"likes": 3,
 "reposts": 0,
 "url": "https://bsky.app/profile/raccoondaxter.bsky.social/post/3mzw67cwg7s2y",
 "term": "사고"
@@ -4128,25 +4140,25 @@
 "spikes": [
 {
 "term": "속보",
-"n30": 7,
+"n30": 6,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-10T00:38:57.152905+00:00"
+"since": "2026-11-10T00:41:12.233924+00:00"
 }
 ],
 "baseline": {
 "지진": 0.05,
-"화재": 0.6,
+"화재": 0.64,
 "불났": 0.05,
 "정전": 0.05,
 "폭발": 0.05,
-"붕괴": 0.21,
+"붕괴": 0.19,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 1.15,
-"사고": 2.45,
-"실종": 0.11,
+"지하철": 1.14,
+"사고": 2.6,
+"실종": 0.1,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
