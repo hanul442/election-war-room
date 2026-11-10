@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-10T20:23:25.226411+00:00",
+"updated": "2026-11-10T20:25:44.577471+00:00",
 "errors": [],
 "events": [
 {
@@ -2079,12 +2079,12 @@
 "spike": false
 },
 "폭발": {
-"n30": 5,
+"n30": 4,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "붕괴": {
-"n30": 2,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
@@ -2099,7 +2099,7 @@
 "spike": false
 },
 "속보": {
-"n30": 14,
+"n30": 12,
 "base": 0.1,
 "spike": true
 },
@@ -2342,18 +2342,11 @@
 ],
 "spikes": [
 {
-"term": "폭발",
-"n30": 5,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-10T20:23:25.226411+00:00"
-},
-{
 "term": "속보",
-"n30": 14,
+"n30": 12,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-10T20:23:25.226411+00:00"
+"since": "2026-11-10T20:25:44.577471+00:00"
 }
 ],
 "baseline": {
@@ -2367,7 +2360,7 @@
 "미사일": 0.05,
 "속보": 0.05,
 "지하철": 0.05,
-"사고": 0.15,
+"사고": 0.24,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -2678,6 +2671,24 @@
 "new": false
 },
 {
+"term": "gta",
+"traffic": "100+",
+"time": "2026-11-10T17:00:00+00:00",
+"news": [
+{
+"title": "Pre-Load Grand Theft Auto VI Now",
+"source": "Rockstar Games",
+"link": "https://www.rockstargames.com/newswire/article/89834o94713o21/pre-load-grand-theft-auto-vi-now"
+},
+{
+"title": "Pre-load Grand Theft Auto VI on PS5 starting today",
+"source": "PlayStation.Blog",
+"link": "https://blog.playstation.com/2026/11/10/pre-load-grand-theft-auto-vi-on-ps5-starting-today/"
+}
+],
+"new": true
+},
+{
 "term": "로스앤젤레스 다저스",
 "traffic": "500+",
 "time": "2026-11-10T16:40:00+00:00",
@@ -2727,24 +2738,6 @@
 "title": "[날씨] 내일도 맑지만 일교차 큰 날씨...주말 전국 가을비",
 "source": "YTN",
 "link": "https://www.ytn.co.kr/_ln/0108_202611101923577786"
-}
-],
-"new": false
-},
-{
-"term": "임준우",
-"traffic": "2000+",
-"time": "2026-11-10T14:30:00+00:00",
-"news": [
-{
-"title": "[단독] “아빠 저만 믿으세요”···임창정 아들, 4년 만에 ‘KPGA 프로’ 됐다",
-"source": "스포츠경향",
-"link": "https://sports.khan.co.kr/article/202611101805013"
-},
-{
-"title": "임창정 아들, 4년 전 골프 선수 꿈 이뤘다…KPGA 프로 입회",
-"source": "뉴시스",
-"link": "https://www.newsis.com/view/NISX20261110_0003862839"
 }
 ],
 "new": false
