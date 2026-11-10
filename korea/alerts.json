@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-10T13:25:35.535710+00:00",
+"updated": "2026-11-10T13:27:52.750137+00:00",
 "errors": [],
 "events": [
 {
@@ -4082,46 +4082,12 @@
 "재판",
 "종사자"
 ]
-},
-{
-"id": "wNISX20261110_00038624980727",
-"first": "2026-11-10T07:27:32+00:00",
-"last": "2026-11-10T07:27:32+00:00",
-"updated": "2026-11-10T07:29:01.835960+00:00",
-"headline": "\"산불 예방\" 경주국립공원, 15일부터 한 달 탐방로 10곳 통제",
-"cat": "재난",
-"regions": [
-"경북"
-],
-"sources": [
-"뉴시스"
-],
-"updates": [
-{
-"title": "\"산불 예방\" 경주국립공원, 15일부터 한 달 탐방로 10곳 통제",
-"source": "뉴시스",
-"link": "https://www.newsis.com/view/NISX20261110_0003862498",
-"time": "2026-11-10T07:27:32+00:00",
-"stage": "1보"
-}
-],
-"level": "ALERT",
-"latest": "\"산불 예방\" 경주국립공원, 15일부터 한 달 탐방로 10곳 통제",
-"tok": [
-"10곳",
-"15일부터",
-"경주국립공원",
-"산불",
-"예방",
-"탐방",
-"통제"
-]
 }
 ],
 "sns": {
 "terms": {
 "지진": {
-"n30": 3,
+"n30": 4,
 "base": 0.1,
 "spike": false
 },
@@ -4142,7 +4108,7 @@
 },
 "폭발": {
 "n30": 6,
-"base": 0.5,
+"base": 0.4,
 "spike": true
 },
 "붕괴": {
@@ -4167,7 +4133,7 @@
 },
 "지하철": {
 "n30": 2,
-"base": 0.7,
+"base": 0.6,
 "spike": false
 },
 "사고": {
@@ -4176,8 +4142,8 @@
 "spike": false
 },
 "실종": {
-"n30": 2,
-"base": 1.4,
+"n30": 0,
+"base": 1.5,
 "spike": false
 },
 "단수": {
@@ -4203,11 +4169,21 @@
 },
 "posts": [
 {
+"text": "【지진 정보】일본 시간 11월 10일 22:23경\n진원: Amakusa and Ashikita Region, Kumamoto Prefecture (M2.5, 깊이 약 10km)\n최대 진도: 1\n진도 1: 구마모토현\n이 지진으로 인한 쓰나미 걱정은 없습니다.\n(일본 기상청 발표)\n#일본 #지진 #방재",
+"handle": "ko.soramoyou.yk-planning.jp",
+"name": "Soramoyou 한국어",
+"time": "2026-11-10T13:27:34.282Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/ko.soramoyou.yk-planning.jp/post/3mzxk7ctfwz2c",
+"term": "지진"
+},
+{
 "text": "아니 이거 썸네일에 가슴밖에 안보이고 이름은 없는데 이런 가슴 팬페에서밖에 못봐서 음 전미르군 한 사고의 흐름때문에 혼자 빵터짐",
 "handle": "tipsyoncola.bsky.social",
 "name": "다배",
 "time": "2026-11-10T13:21:16.272Z",
-"likes": 1,
+"likes": 2,
 "reposts": 0,
 "url": "https://bsky.app/profile/tipsyoncola.bsky.social/post/3mzxjtzegpk2z",
 "term": "사고"
@@ -4367,26 +4343,6 @@
 "url": "https://www.youtube.com/watch?v=42bwgM8k0MU"
 },
 {
-"text": "월광천녀 화보집 실종돼서 \n다시 주문헤야하는데…",
-"handle": "huoguoparty.bsky.social",
-"name": "🎃🍠훠박고곰아🍎🌽",
-"time": "2026-11-10T12:57:14.480Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/huoguoparty.bsky.social/post/3mzxij2ignc2v",
-"term": "실종"
-},
-{
-"text": "호컴도 호텔의 절대로 열어선 안되는 객실과 실종 사건들 이야기인데\n상영 때 안봄",
-"handle": "huoguoparty.bsky.social",
-"name": "🎃🍠훠박고곰아🍎🌽",
-"time": "2026-11-10T12:56:37.479Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/huoguoparty.bsky.social/post/3mzxihxeew22v",
-"term": "실종"
-},
-{
 "platform": "YouTube",
 "text": "따뜻한 건 언젠가 식으니까 🚇 지하철 창에 비친 얼굴들 | 맨손 (City Pop) #shorts",
 "handle": "UCRQKim_KCJpyoP0b9XUCFHw",
@@ -4400,24 +4356,24 @@
 {
 "term": "폭발",
 "n30": 6,
-"base": 0.5,
+"base": 0.4,
 "spike": true,
-"since": "2026-11-10T13:25:35.535710+00:00"
+"since": "2026-11-10T13:27:52.750137+00:00"
 }
 ],
 "baseline": {
-"지진": 0.05,
+"지진": 0.15,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.41,
-"붕괴": 0.79,
+"폭발": 0.37,
+"붕괴": 0.81,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.61,
-"사고": 1.27,
-"실종": 1.5,
+"지하철": 0.55,
+"사고": 1.24,
+"실종": 1.35,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -4701,9 +4657,9 @@
 "link": "https://en.fnnews.com/news/202611101049484195"
 },
 {
-"title": "3 Signals That Could Determine Bitcoin’s Next Move: Analysts",
-"source": "CryptoPotato",
-"link": "https://cryptopotato.com/3-signals-that-could-determine-bitcoins-next-move-analysts/"
+"title": "[Today's Key Economic and Crypto Events] US October CPI Due",
+"source": "bloomingbit",
+"link": "https://en.bloomingbit.io/feed/news/124037"
 }
 ],
 "new": true
