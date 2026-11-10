@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-10T11:17:04.077469+00:00",
+"updated": "2026-11-10T11:19:17.516224+00:00",
 "errors": [],
 "events": [
 {
@@ -88,14 +88,15 @@
 {
 "id": "WhYZGxkOFNPRkZxOUQ5dwoc51045",
 "first": "2026-11-10T10:45:30+00:00",
-"last": "2026-11-10T11:09:27+00:00",
-"updated": "2026-11-10T11:17:04.077469+00:00",
+"last": "2026-11-10T11:11:00+00:00",
+"updated": "2026-11-10T11:19:17.516224+00:00",
 "headline": "금융보안원도 해킹으로 정보유출",
 "cat": "기타",
 "regions": [],
 "sources": [
 "edaily.co.kr",
 "경기일보",
+"뉴데일리",
 "동아일보",
 "아이뉴스24",
 "연합뉴스",
@@ -162,6 +163,13 @@
 "stage": "속보"
 },
 {
+"title": "[속보]금융보안 전담기관 금융보안원도 해킹당해",
+"source": "채널A",
+"link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE85TW03dUVfQkUtZnQ1R19nT2NmNmhDTm1sRlVXd01Db2pBZE9STWZ1OXhjZzkzS3VCOTBnbHNZRi1SdHdSMXBMcUtEU3BMNk5fNFRMdUhteVFOazZxWmc?oc=5",
+"time": "2026-11-10T10:58:00+00:00",
+"stage": "속보"
+},
+{
 "title": "‘금융보안 문지기’ 금융보안원도 해킹…개인정보 일부 유출",
 "source": "조선일보",
 "link": "https://www.chosun.com/economy/economy_general/2026/11/10/XRENIA6UK5GITA5PVQGJH55H7U/",
@@ -195,10 +203,17 @@
 "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFByRVg5WDF1NVlhallOVmk5cWdlN2dTamwwaERaZWJnaDVGV0tZUzZKa2xGaTd6cFFMenBDY1kzbFktbkdud3J4N2ZRUDloVHJZay12Z3NGQTNpR3N2VU9ua0RLbkZLRDhFWUEwTF8wdE5Vcm1NelHSAWZBVV95cUxOdFhxNUNPTldUVFRUakZzUGFNVDc3Nmp6Sy1tLVFIUHk5ME9OcVhMQWdjd1NxRy1RRkNua3o2bW9TS1RmOTNFNWlZZnJCSUFsWUVuaTZiVi1qY1ZMLUFYRTIzM2E1Q2c?oc=5",
 "time": "2026-11-10T11:09:27+00:00",
 "stage": "속보"
+},
+{
+"title": "[속보] '금융보안 파수꾼'도 뚫렸다 … 금융보안원 정보유출",
+"source": "뉴데일리",
+"link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5sSkVYZ3dUVVdfZVU2TTZWZVJOMkotVFY1dVllakZycVEtbXBIeVd2SHRWLXh5N0JONURGam5Yb3BaXzlyVnk3RTQ1NUJNaGZrSFF2M2lfRUdidHJDYjNKQVZuQktWRGljOXNmVHYtZXloT0gxN1FNVWdTc9IBgAFBVV95cUxOZE5Rd1BBSUlBaWNBa2pZYlZNSzhFYWZvOVhqWkNVR0pJcnI3NVM0Q1ZCOEFvR0RqRE4tT2JwLWdqNWVkS3dkX043Tll3emUzczJXQ1c2dVJkdFVFd1gxTlhzTGc1bE5CQm5TOFRXTzJNWnpmWS1aUngzbjRUa082Zg?oc=5",
+"time": "2026-11-10T11:11:00+00:00",
+"stage": "속보"
 }
 ],
 "level": "URGENT",
-"latest": "금융보안 전담기관 금융보안원도 해킹 정보유출",
+"latest": "'금융보안 파수꾼'도 뚫렸다 … 금융보안원 정보유출",
 "tok": [
 "개인정보",
 "금융보안",
@@ -211,6 +226,7 @@
 "일부",
 "전담기관",
 "정보유출",
+"파수꾼",
 "해킹",
 "해킹당해",
 "해킹으"
@@ -3894,7 +3910,7 @@
 "terms": {
 "지진": {
 "n30": 2,
-"base": 0.7,
+"base": 0.6,
 "spike": false
 },
 "화재": {
@@ -3934,17 +3950,17 @@
 },
 "속보": {
 "n30": 2,
-"base": 0.6,
+"base": 0.7,
 "spike": false
 },
 "지하철": {
 "n30": 2,
-"base": 1.6,
+"base": 1.7,
 "spike": false
 },
 "사고": {
 "n30": 6,
-"base": 4.9,
+"base": 5.0,
 "spike": false
 },
 "실종": {
@@ -4209,22 +4225,22 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 0.61,
+"지진": 0.55,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.21,
+"폭발": 0.19,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.68,
-"지하철": 1.66,
-"사고": 4.97,
+"속보": 0.71,
+"지하철": 1.69,
+"사고": 5.07,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
-"산불": 0.11
+"산불": 0.1
 },
 "errors": [],
 "ytPosts": [
