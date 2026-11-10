@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-10T08:11:38.992473+00:00",
+"updated": "2026-11-10T08:13:53.458123+00:00",
 "errors": [],
 "events": [
 {
@@ -3706,11 +3706,11 @@
 },
 "폭발": {
 "n30": 0,
-"base": 0.6,
+"base": 0.5,
 "spike": false
 },
 "붕괴": {
-"n30": 1,
+"n30": 2,
 "base": 0.7,
 "spike": false
 },
@@ -3725,18 +3725,18 @@
 "spike": false
 },
 "속보": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
 "지하철": {
-"n30": 1,
-"base": 0.6,
+"n30": 0,
+"base": 0.5,
 "spike": false
 },
 "사고": {
-"n30": 1,
-"base": 2.4,
+"n30": 0,
+"base": 2.2,
 "spike": false
 },
 "실종": {
@@ -3767,6 +3767,16 @@
 },
 "posts": [
 {
+"text": "아니 근데 더 절망적인거 이거 체험판이고 아직 개발중인 게임인데 이게 또 1인 개발이시고 체험판은 나온지 1달밖에 안되어서 몇달을 더 기다려야하는지 모름\n근데 난 붕괴\n네",
+"handle": "devilmaycry5.bsky.social",
+"name": "당당집돌",
+"time": "2026-11-10T08:12:29.572Z",
+"likes": 1,
+"reposts": 0,
+"url": "https://bsky.app/profile/devilmaycry5.bsky.social/post/3mzwylvjljk2v",
+"term": "붕괴"
+},
+{
 "text": "【지진 정보】일본 시간 11월 10일 16:53경\n진원: Nanyo, Ehime Prefecture (M3.0, 깊이 약 40km)\n최대 진도: 1\n진도 1: 에히메현\n이 지진으로 인한 쓰나미 걱정은 없습니다.\n(일본 기상청 발표)\n#일본 #지진 #방재",
 "handle": "ko.soramoyou.yk-planning.jp",
 "name": "Soramoyou 한국어",
@@ -3785,16 +3795,6 @@
 "reposts": 0,
 "url": "https://bsky.app/profile/devilmaycry5.bsky.social/post/3mzwxksbmms2v",
 "term": "붕괴"
-},
-{
-"text": "앗 저도 옛날 알토디비디 시절 박스셋을 꺼냈는데… (왜 흑백이냐, 뭐 그런 기분인 것이다…) 거지깽깽이라 얼티밋 큐브릭은 못 사고 윔 웬더스 박스를 도로 꺼낸 슬픔… 근데 두 영화 다 오래 전 시네마테크에선 웬만큼 상영했던 기억이라 꺼드럭 기회에서 전 빠지려고요. 늙으면 꺼드럭이 아니라 죄다 추억일 뿐.",
-"handle": "suminbahc.bsky.social",
-"name": "Bahc, Sumin",
-"time": "2026-11-10T07:43:41.576Z",
-"likes": 1,
-"reposts": 0,
-"url": "https://bsky.app/profile/suminbahc.bsky.social/post/3mzwwy7lkpk2v",
-"term": "사고"
 },
 {
 "platform": "YouTube",
@@ -3997,17 +3997,17 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 0.82,
+"지진": 0.84,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.5,
-"붕괴": 0.73,
+"폭발": 0.45,
+"붕괴": 0.86,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.51,
-"사고": 2.23,
+"지하철": 0.46,
+"사고": 2.01,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -4219,6 +4219,24 @@
 },
 "trends": [
 {
+"term": "백용환",
+"traffic": "500+",
+"time": "2026-11-10T07:10:00+00:00",
+"news": [
+{
+"title": "“이범호가 부르자 고민도 없었다”…롯데 떠난 백용환, 5년 만에 KIA 귀환",
+"source": "FT스포츠",
+"link": "http://www.ftimes.kr/news/articleView.html?idxno=40989"
+},
+{
+"title": "'롯데 굿바이' KIA 영입 완료, 5년 만에 친정 돌아왔다…\"새롭네요, 불러주셔서 감사합니다\"[오키나와 현장]",
+"source": "스포츠조선",
+"link": "https://www.sportschosun.com/baseball/2026-11-09/202611100100065920006214"
+}
+],
+"new": true
+},
+{
 "term": "담보 대출",
 "traffic": "200+",
 "time": "2026-11-10T06:50:00+00:00",
@@ -4326,9 +4344,9 @@
 "link": "https://www.yna.co.kr/view/AKR20261110104000007"
 },
 {
-"title": "류지현호, 3·4호 코치 영입은 'KT산'... '한화 출신' 김강 타격코치-안영명 퍼포먼스 코치 영입 - 머니투데이",
-"source": "머니투데이",
-"link": "https://www.mt.co.kr/sports/2026/11/10/2026111013323974240"
+"title": "'류지현 감독 새 출발' 한화이글스, 김강·안영명 코치 영입",
+"source": "이데일리",
+"link": "https://www.edaily.co.kr/News/Read?newsId=04513286645644408&mediaCodeNo=257"
 }
 ],
 "new": true
@@ -4365,24 +4383,6 @@
 "title": "\"양육비는 좀 줄여도 되는 거 아냐?\"…아이들 세뱃돈 통장 들먹인 남편",
 "source": "YTN",
 "link": "https://www.ytn.co.kr/_ln/0103_202611090148472120"
-}
-],
-"new": true
-},
-{
-"term": "뷰익",
-"traffic": "500+",
-"time": "2026-11-10T05:10:00+00:00",
-"news": [
-{
-"title": "\"BYD에 맞불\"…뷰익, 5m급 PHEV 세단 '일렉트라 GS' 공개",
-"source": "Daum",
-"link": "https://v.daum.net/v/VVu9ggrNsS"
-},
-{
-"title": "KGM·체리 공동개발 'SE10', 렉스턴 이름으로 인증⋯내년 초 출시 가시화",
-"source": "엠투데이",
-"link": "https://www.autodaily.co.kr/news/articleView.html?idxno=601877"
 }
 ],
 "new": true
