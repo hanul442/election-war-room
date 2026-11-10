@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-10T04:42:49.252542+00:00",
+"updated": "2026-11-10T04:45:11.631252+00:00",
 "errors": [],
 "events": [
 {
@@ -3800,7 +3800,7 @@
 "spike": false
 },
 "화재": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -3835,7 +3835,7 @@
 "spike": false
 },
 "속보": {
-"n30": 6,
+"n30": 5,
 "base": 0.1,
 "spike": true
 },
@@ -3846,7 +3846,7 @@
 },
 "사고": {
 "n30": 1,
-"base": 1.7,
+"base": 1.6,
 "spike": false
 },
 "실종": {
@@ -3876,6 +3876,16 @@
 }
 },
 "posts": [
+{
+"text": "하... 강쥐가 사고 거하게 침.",
+"handle": "do0118.bsky.social",
+"name": "네아르",
+"time": "2026-11-10T04:42:38.973Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/do0118.bsky.social/post/3mzwmuockx22g",
+"term": "사고"
+},
 {
 "platform": "YouTube",
 "text": "[대우건설 주가전망] 해외 원전·초대형 인프라 수주 모멘텀 다시 폭발하나! 글로벌 원전 건설 확대와 해외 플랜트 사업 성장 기대감에 역대급 기업가치 재평가 랠리 시작되나?",
@@ -4014,16 +4024,6 @@
 "url": "https://www.youtube.com/watch?v=xeAqLhxLkjA"
 },
 {
-"text": "아 웃기다\n가끔 딥던전 갈 때 나이트 안하는 분이 나이트 하면 발생하는 사고\n\"님들 저 방패를 까먹었더니 방던이 안돼요...\"",
-"handle": "purple3green.bsky.social",
-"name": "순살자녹",
-"time": "2026-11-10T04:13:07.176Z",
-"likes": 5,
-"reposts": 0,
-"url": "https://bsky.app/profile/purple3green.bsky.social/post/3mzwlb3ip7k2u",
-"term": "사고"
-},
-{
 "platform": "YouTube",
 "text": "11/10 국농분석 모비스-소노·삼성화재-한국전력·숲-기업은행 | 남배·여배·프로토분석",
 "handle": "UCUS6JVxznLU_XjTRI81yJtg",
@@ -4090,10 +4090,10 @@
 "spikes": [
 {
 "term": "속보",
-"n30": 6,
+"n30": 5,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-10T04:42:49.252542+00:00"
+"since": "2026-11-10T04:45:11.631252+00:00"
 }
 ],
 "baseline": {
@@ -4101,13 +4101,13 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.1,
-"붕괴": 0.64,
+"폭발": 0.09,
+"붕괴": 0.68,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
 "지하철": 1.05,
-"사고": 1.64,
+"사고": 1.58,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -4301,8 +4301,26 @@
 },
 "trends": [
 {
+"term": "전영현",
+"traffic": "200+",
+"time": "2026-11-10T03:40:00+00:00",
+"news": [
+{
+"title": "‘회장님 차’ 제네시스 G90만 수십 대 줄줄이…그들이 향한 곳은?",
+"source": "조선일보",
+"link": "https://www.chosun.com/economy/industry-company/2026/11/09/UPCGNJ6NH5D2DJ2LYCNAVRZ5OM/"
+},
+{
+"title": "삼성·현대차 손잡은 미래산업, 정부가 걸림돌 돼선 안 돼[사설]",
+"source": "문화일보",
+"link": "https://www.munhwa.com/article/11630205"
+}
+],
+"new": true
+},
+{
 "term": "배추",
-"traffic": "1000+",
+"traffic": "2000+",
 "time": "2026-11-10T03:30:00+00:00",
 "news": [
 {
@@ -4320,7 +4338,7 @@
 },
 {
 "term": "자녀",
-"traffic": "1000+",
+"traffic": "2000+",
 "time": "2026-11-10T03:30:00+00:00",
 "news": [
 {
@@ -4335,6 +4353,24 @@
 }
 ],
 "new": false
+},
+{
+"term": "채령",
+"traffic": "100+",
+"time": "2026-11-10T03:30:00+00:00",
+"news": [
+{
+"title": "[Y현장] 채령 \"ITZY 때 참았던 '쪼', 솔로로 마음껏\"…7년 만에 꺼낸 진짜 매력",
+"source": "YTN",
+"link": "https://www.ytn.co.kr/_ln/0117_202611091512339031"
+},
+{
+"title": "[사진]빌리 시윤, 윙크 볼콕",
+"source": "Chosunbiz",
+"link": "https://biz.chosun.com/entertainment/entertainment_photo/2026/11/10/HBSTENLCMQZWIMBTGJRTCNZVGI/"
+}
+],
+"new": true
 },
 {
 "term": "이재영",
@@ -4392,7 +4428,7 @@
 },
 {
 "term": "엔비디아",
-"traffic": "5000+",
+"traffic": "2000+",
 "time": "2026-11-10T03:00:00+00:00",
 "news": [
 {
@@ -4414,14 +4450,14 @@
 "time": "2026-11-10T03:00:00+00:00",
 "news": [
 {
-"title": "경북도 산하기관 종합청렴도 평가…독도재단 최하 등급",
+"title": "공공기관 기록관리 개선됐지만…교육지원청 6곳중 1곳 '최하위'",
 "source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261110042900053"
+"link": "https://www.yna.co.kr/view/AKR20261014015800530"
 },
 {
-"title": "'경영평가 하위' 경북 공공기관, 청렴도도 '하위 등급'",
-"source": "뉴스1",
-"link": "https://www.news1.kr/local/daegu-gyeongbuk/6348738"
+"title": "공공기관 기록관리 수준 향상…최하위 등급 대폭 감소",
+"source": "아시아경제",
+"link": "https://www.asiae.co.kr/article/2026111007481906978"
 }
 ],
 "new": true
@@ -4432,47 +4468,9 @@
 "time": "2026-11-10T03:00:00+00:00",
 "news": [],
 "new": false
-},
-{
-"term": "자기주식",
-"traffic": "500+",
-"time": "2026-11-10T03:00:00+00:00",
-"news": [
-{
-"title": "선진, 자기주식 396주 소각 결정…발행주식총수 23,779,208주로 감소 예정",
-"source": "톱스타뉴스",
-"link": "https://www.topstarnews.net/news/articleView.html?idxno=16272124"
-},
-{
-"title": "선진, 기취득 자기주식 364만원 규모 소각 결정",
-"source": "디지털투데이",
-"link": "https://www.digitaltoday.co.kr/disclosure/articleView.html?idxno=713934"
-}
-],
-"new": false
-},
-{
-"term": "ssg 랜더스",
-"traffic": "2000+",
-"time": "2026-11-10T02:50:00+00:00",
-"news": [
-{
-"title": "'라면 끊고 본격 러닝 돌입' 김서현의 독한 다이어트…\"PS 악몽 극복하고 트로피 들고 싶다\" [미야자키 인터뷰]",
-"source": "조선일보",
-"link": "https://www.chosun.com/sports/baseball/2026/11/10/MI2GGMJUHEYGKMDCGRSTSMZQHA/"
-},
-{
-"title": "‘류지현호’ 첫발 뗀 한화…내년 전력 구상 과제는?",
-"source": "KBS 뉴스",
-"link": "https://news.kbs.co.kr/news/view.do?ncd=8706798"
-}
-],
-"new": true
 }
 ],
 "trendSeen": [
-"어선",
-"어쌔신 크리드 발할라",
 "에너지",
 "엑사원",
 "엔비디아",
@@ -4600,6 +4598,7 @@
 "전국금속노동조합",
 "전도연",
 "전력",
+"전영현",
 "전유성",
 "전주시",
 "전지적 집착 시점",
@@ -4645,6 +4644,7 @@
 "창신동",
 "창원 lg 대 고양 소노",
 "창원 lg 대 부산 kcc",
+"채령",
 "천무 다연장로켓",
 "천안 시티 fc 대 부산 아이파크 순위",
 "철도망",
