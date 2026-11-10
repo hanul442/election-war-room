@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-10T03:51:21.275409+00:00",
+"updated": "2026-11-10T03:53:34.377105+00:00",
 "errors": [],
 "events": [
 {
@@ -286,6 +286,39 @@
 "파병",
 "해역까지",
 "확대"
+]
+},
+{
+"id": "nkRSSLINKcooperRSSREADER0344",
+"first": "2026-11-10T03:44:42+00:00",
+"last": "2026-11-10T03:44:42+00:00",
+"updated": "2026-11-10T03:53:34.377105+00:00",
+"headline": "예금 8억 이용철, 방사청장 때도 노란우산…\"불가피한 유지\"",
+"cat": "기타",
+"regions": [],
+"sources": [
+"SBS"
+],
+"updates": [
+{
+"title": "[단독] 예금 8억 이용철, 방사청장 때도 노란우산…\"불가피한 유지\"",
+"source": "SBS",
+"link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008838588&plink=RSSLINK&cooper=RSSREADER",
+"time": "2026-11-10T03:44:42+00:00",
+"stage": "단독"
+}
+],
+"level": "URGENT",
+"latest": "예금 8억 이용철, 방사청장 때도 노란우산…\"불가피한 유지\"",
+"tok": [
+"8억",
+"노란우산",
+"때도",
+"방사청장",
+"불가피한",
+"예금",
+"유지",
+"이용철"
 ]
 },
 {
@@ -3668,36 +3701,6 @@
 "증가",
 "포인트모바일"
 ]
-},
-{
-"id": "pa3ZmQkUyeVNGbGJMSmFRoc50120",
-"first": "2026-11-10T01:20:34+00:00",
-"last": "2026-11-10T01:20:34+00:00",
-"updated": "2026-11-10T01:34:33.665861+00:00",
-"headline": "AFP통신 \"사우디 수도 리야드서 폭발음\"",
-"cat": "기타",
-"regions": [],
-"sources": [
-"국제뉴스"
-],
-"updates": [
-{
-"title": "[속보] AFP통신 \"사우디 수도 리야드서 폭발음\"",
-"source": "국제뉴스",
-"link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5jRXlJdC1aSlkyYnVBTnF1TV9ZR0l2N3Z6VWtoZGpRSTdzUkpxRXRnb29RYnJIRXVNTV95ZEpjdnZzTG95YUdwOUVzTHBuSUpMWTdCakt1OVFiQzVqVDJpa3ZmQkUyeVNGbGJMSmFR?oc=5",
-"time": "2026-11-10T01:20:34+00:00",
-"stage": "얼럿"
-}
-],
-"level": "BULLETIN",
-"latest": "AFP통신 \"사우디 수도 리야드서 폭발음\"",
-"tok": [
-"AFP통신",
-"리야드서",
-"사우디",
-"수도",
-"폭발음"
-]
 }
 ],
 "sns": {
@@ -3724,7 +3727,7 @@
 },
 "폭발": {
 "n30": 2,
-"base": 0.6,
+"base": 0.7,
 "spike": false
 },
 "붕괴": {
@@ -3743,17 +3746,17 @@
 "spike": false
 },
 "속보": {
-"n30": 5,
+"n30": 4,
 "base": 0.3,
-"spike": true
+"spike": false
 },
 "지하철": {
 "n30": 2,
-"base": 0.7,
+"base": 0.6,
 "spike": false
 },
 "사고": {
-"n30": 1,
+"n30": 2,
 "base": 1.4,
 "spike": false
 },
@@ -3778,12 +3781,22 @@
 "spike": false
 },
 "산불": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 }
 },
 "posts": [
+{
+"text": "우사기 사고 싶지만 이랜드~ 싫어싫어라 뮵시 고민",
+"handle": "hanchez.bsky.social",
+"name": "착셰",
+"time": "2026-11-10T03:51:17.072Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/hanchez.bsky.social/post/3mzwjysfxrk2q",
+"term": "사고"
+},
 {
 "text": "공계에쓸만한 씹덕가리가 쫌만생각나며는 재록본넣을생각에 뭐가없네쩝 글고요새 숏츠에 진짜 사고박살난거느껴져서... 디톡스좀 해야할듯",
 "handle": "meaninglesstime.bsky.social",
@@ -4003,27 +4016,19 @@
 "url": "https://www.youtube.com/watch?v=WTAESUxvsUs"
 }
 ],
-"spikes": [
-{
-"term": "속보",
-"n30": 5,
-"base": 0.3,
-"spike": true,
-"since": "2026-11-10T03:51:21.275409+00:00"
-}
-],
+"spikes": [],
 "baseline": {
 "지진": 0.05,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.68,
+"폭발": 0.71,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.3,
-"지하철": 0.61,
-"사고": 1.41,
+"속보": 0.27,
+"지하철": 0.55,
+"사고": 1.47,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -4235,6 +4240,24 @@
 },
 "trends": [
 {
+"term": "사채",
+"traffic": "100+",
+"time": "2026-11-10T02:50:00+00:00",
+"news": [
+{
+"title": "상품권 거래 가장한 불법 사금융업자 168명 검거…5천% 초고금리",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261110054300051"
+},
+{
+"title": "“돈 빌렸다가 사기범으로 몰렸다”…경찰, ‘상품권 사채’ 피해자 510건 구제·2명 무죄",
+"source": "문화일보",
+"link": "https://www.munhwa.com/article/11630136"
+}
+],
+"new": true
+},
+{
 "term": "부부",
 "traffic": "2000+",
 "time": "2026-11-10T02:40:00+00:00",
@@ -4395,24 +4418,6 @@
 }
 ],
 "new": false
-},
-{
-"term": "박진만",
-"traffic": "20000+",
-"time": "2026-11-10T01:40:00+00:00",
-"news": [
-{
-"title": "삼성전자·SK하이닉스 5~8% ‘껑충’…코스피·코스닥 잇따라 매수 사이드카",
-"source": "JTBC",
-"link": "https://news.jtbc.co.kr/article/NB12327299"
-},
-{
-"title": "“편의점 67곳 돌았다“…삼성 팬들 ’우승 신문’ 구하기 열풍",
-"source": "연합뉴스TV",
-"link": "https://www.yonhapnewstv.co.kr/news/AKR20261110110222hry"
-}
-],
-"new": true
 }
 ],
 "trendSeen": [
