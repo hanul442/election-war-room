@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-10T10:32:06.138213+00:00",
+"updated": "2026-11-10T10:34:19.498320+00:00",
 "errors": [],
 "events": [
 {
@@ -3764,8 +3764,8 @@
 "sns": {
 "terms": {
 "지진": {
-"n30": 1,
-"base": 0.5,
+"n30": 2,
+"base": 0.6,
 "spike": false
 },
 "화재": {
@@ -3805,7 +3805,7 @@
 },
 "속보": {
 "n30": 2,
-"base": 0.2,
+"base": 0.1,
 "spike": false
 },
 "지하철": {
@@ -3845,6 +3845,26 @@
 }
 },
 "posts": [
+{
+"text": "아!!!!!!외그랫지진짜",
+"handle": "bdgcrate.bsky.social",
+"name": "상자",
+"time": "2026-11-10T10:33:53.270Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/bdgcrate.bsky.social/post/3mzxaiqynk22k",
+"term": "지진"
+},
+{
+"text": "최근에는.... 미드주를 사고 싶었는데\n이 미친 양조장이 술을 다 오크통에 넣어놔서\n오크숙성 안한건 없나요???? 상태로 품절템 부활 기다리는중",
+"handle": "sg3soda.bsky.social",
+"name": "설탕7🍰",
+"time": "2026-11-10T10:33:35.186Z",
+"likes": 1,
+"reposts": 0,
+"url": "https://bsky.app/profile/sg3soda.bsky.social/post/3mzxai6reis2h",
+"term": "사고"
+},
 {
 "text": "내일 꼭 병원가시길 교통사고는 당일날 괜찮아도 그 다음날 아프기시작하더라구여",
 "handle": "kongjeub4140.bsky.social",
@@ -4007,16 +4027,6 @@
 "url": "https://www.youtube.com/watch?v=dhx7Blz70Hc"
 },
 {
-"text": "하... 쉬는 날엔 집안일 하면서 엄마가 친 사고만 수습해도 하루가 다 감... 어떻게 매일 사고를 치지?",
-"handle": "ramg.sharlayan.in.ap.brid.gy",
-"name": "람쥐 :blobcat_siwaokitakunai: 잉크마심이",
-"time": "2026-11-10T10:05:31.277Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/ramg.sharlayan.in.ap.brid.gy/post/3mzx6vurcuzq2",
-"term": "사고"
-},
-{
 "platform": "YouTube",
 "text": "비상구 손잡이가 뜨겁다, 여는 순간 불길이 덮친다 | 호텔화재 3화",
 "handle": "UCenBRNCFOFBBPeQr-4b3JjA",
@@ -4073,22 +4083,22 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 0.56,
+"지진": 0.7,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 1.46,
-"붕괴": 0.2,
-"대피": 0.22,
+"폭발": 1.41,
+"붕괴": 0.18,
+"대피": 0.2,
 "미사일": 0.05,
-"속보": 0.14,
-"지하철": 1.92,
-"사고": 4.44,
+"속보": 0.13,
+"지하철": 1.93,
+"사고": 4.5,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
-"산불": 0.74
+"산불": 0.77
 },
 "errors": [],
 "ytPosts": [
@@ -4232,6 +4242,42 @@
 },
 "trends": [
 {
+"term": "의사",
+"traffic": "500+",
+"time": "2026-11-10T09:30:00+00:00",
+"news": [
+{
+"title": "'고소득' 의사 부부, 병원 나란히 퇴사 알고보니…기막힌 꼼수",
+"source": "한국경제",
+"link": "https://www.hankyung.com/article/202611107416i"
+},
+{
+"title": "위장전입·자격매매로 노린 아파트 당첨…부정청약 의심 354건 적발",
+"source": "중부일보",
+"link": "https://www.joongboo.com/news/articleView.html?idxno=363742109"
+}
+],
+"new": true
+},
+{
+"term": "자주포",
+"traffic": "200+",
+"time": "2026-11-10T09:30:00+00:00",
+"news": [
+{
+"title": "철원 국도서 자주포·민간 차량 3중 추돌 사고…1명 사망",
+"source": "동아일보",
+"link": "https://www.donga.com/news/Society/article/all/20261110/135000427/2"
+},
+{
+"title": "밤길 국도 달리던 자주포에 민간인 차량 추돌…운전자 1명 사망",
+"source": "KBS 뉴스",
+"link": "https://news.kbs.co.kr/news/view.do?ncd=8708789"
+}
+],
+"new": true
+},
+{
 "term": "9440",
 "traffic": "100+",
 "time": "2026-11-10T09:20:00+00:00",
@@ -4330,7 +4376,7 @@
 },
 {
 "term": "kfc 둠스데이",
-"traffic": "100+",
+"traffic": "500+",
 "time": "2026-11-10T08:00:00+00:00",
 "news": [
 {
@@ -4363,47 +4409,9 @@
 }
 ],
 "new": false
-},
-{
-"term": "gta 6",
-"traffic": "100+",
-"time": "2026-11-10T07:50:00+00:00",
-"news": [
-{
-"title": "Grand Theft Auto VI Pre-Load Begins on November 10",
-"source": "Rockstar Games",
-"link": "https://www.rockstargames.com/newswire/article/k4ak9okk485712/grand-theft-auto-vi-pre-load-begins-on-november-10"
-},
-{
-"title": "Will Grand Theft Auto 6 break the internet?",
-"source": "GamesIndustry.biz",
-"link": "https://www.gamesindustry.biz/will-grand-theft-auto-6-break-the-internet"
-}
-],
-"new": true
-},
-{
-"term": "만성콩팥병",
-"traffic": "200+",
-"time": "2026-11-10T07:30:00+00:00",
-"news": [
-{
-"title": "\"만성콩팥병 환자 과도한 단백질 제한 시 사망 위험 117% ↑\"",
-"source": "YTN 사이언스",
-"link": "https://science.ytn.co.kr/program/view.php?mcd=0082&key=202611101103278079"
-},
-{
-"title": "만성 콩팥병 환자, 단백질 무조건 줄이면 '독'…투석·사망 위험",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261109131700530"
-}
-],
-"new": true
 }
 ],
 "trendSeen": [
-"여객선",
-"연구",
 "연금",
 "연비",
 "연차",
@@ -4447,6 +4455,7 @@
 "은행",
 "음악회",
 "의과대학",
+"의사",
 "의약품",
 "의정부시",
 "이강철",
@@ -4502,6 +4511,7 @@
 "자녀",
 "자동차",
 "자산",
+"자주포",
 "잠수함",
 "잠실주공5단지 아파트",
 "장기 기증",
