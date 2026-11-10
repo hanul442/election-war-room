@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-10T19:32:33.544031+00:00",
+"updated": "2026-11-10T19:34:51.034946+00:00",
 "errors": [],
 "events": [
 {
@@ -2110,7 +2110,7 @@
 "spike": false
 },
 "폭발": {
-"n30": 3,
+"n30": 2,
 "base": 0.1,
 "spike": false
 },
@@ -2141,7 +2141,7 @@
 },
 "사고": {
 "n30": 0,
-"base": 0.6,
+"base": 0.5,
 "spike": false
 },
 "실종": {
@@ -2373,7 +2373,7 @@
 "spikes": [],
 "baseline": {
 "지진": 0.05,
-"화재": 0.3,
+"화재": 0.27,
 "불났": 0.05,
 "정전": 0.05,
 "폭발": 0.05,
@@ -2382,9 +2382,9 @@
 "미사일": 0.05,
 "속보": 0.05,
 "지하철": 0.05,
-"사고": 0.5,
+"사고": 0.45,
 "실종": 0.05,
-"단수": 0.22,
+"단수": 0.2,
 "통신 장애": 0.05,
 "먹통": 0.05,
 "산불": 0.05
@@ -2594,19 +2594,37 @@
 },
 "trends": [
 {
+"term": "전원주",
+"traffic": "1000+",
+"time": "2026-11-10T18:30:00+00:00",
+"news": [
+{
+"title": "'87세' 전원주...\"병원 가보시라\" 누리꾼 걱정 산 영상 - 머니투데이",
+"source": "머니투데이",
+"link": "https://www.mt.co.kr/entertainment/2026/11/10/2026111015121395830"
+},
+{
+"title": "'경도인지장애 고백' 전원주, 어눌해진 발음에 건강 염려",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261110_0003861778"
+}
+],
+"new": true
+},
+{
 "term": "예금",
 "traffic": "200+",
 "time": "2026-11-10T18:20:00+00:00",
 "news": [
 {
-"title": "은행의 예금증서 발행 물결 뒤에는 다음과 같은 것들이 있습니다.",
-"source": "Vietnam.vn",
-"link": "https://www.vietnam.vn/ko/dang-sau-lan-song-phat-hanh-chung-chi-tien-gui-cua-cac-ngan-hang"
+"title": "‘소액대출’ 금리도 상승…취약계층 울상",
+"source": "경향신문",
+"link": "https://www.khan.co.kr/article/202611092056035"
 },
 {
-"title": "하루 2조원↑, 돌아온 ‘정기예금 전성시대’···수출·역머니무브·금리인상 영향",
-"source": "경향신문",
-"link": "https://www.khan.co.kr/article/202611101633001"
+"title": "“고정이냐 변동이냐”…주담대 금리 격차 실종, 기준금리 인상 촉각",
+"source": "에너지경제신문",
+"link": "https://m.ekn.kr/view.php?key=20261109025167334"
 }
 ],
 "new": true
@@ -2653,14 +2671,14 @@
 "time": "2026-11-10T17:30:00+00:00",
 "news": [
 {
-"title": "[단독] 무산된 젝키 디너쇼, 결국 경찰서까지…주최측 “오늘부터 공식 환불”",
-"source": "스포츠경향",
-"link": "https://sports.khan.co.kr/article/202611101816003"
-},
-{
 "title": "젝스키스 3인 공연, 이재진 불참에 결국 취소…예매 방식 갈등",
 "source": "동아일보",
 "link": "https://www.donga.com/news/Society/article/all/20261110/135002688/1"
+},
+{
+"title": "[단독] 무산된 젝키 디너쇼, 결국 경찰서까지…주최측 “오늘부터 공식 환불”",
+"source": "스포츠경향",
+"link": "https://sports.khan.co.kr/article/202611101816003"
 }
 ],
 "new": false
@@ -2685,18 +2703,18 @@
 },
 {
 "term": "로스앤젤레스 다저스",
-"traffic": "1000+",
+"traffic": "200+",
 "time": "2026-11-10T16:40:00+00:00",
 "news": [
 {
-"title": "Dodgers Claim Christian Cairo",
-"source": "MLB Trade Rumors",
-"link": "https://www.mlbtraderumors.com/2026/11/dodgers-claim-christian-cairo.html"
+"title": "Hot Stove rumors: Padres, Skubal, Seiya, Morejon, Yanks",
+"source": "MLB.com",
+"link": "https://www.mlb.com/news/mlb-rumors-and-2026-27-free-agent-news-november-10"
 },
 {
-"title": "Dodgers claim versatile infielder from Mets in first offseason acquisition",
-"source": "New York Post",
-"link": "https://nypost.com/2026/11/09/sports/dodgers-claim-christian-cairo-mets-first-offseason-addition/"
+"title": "Tarik Skubal in the spotlight as MLB’s GM meetings begin in Vegas - The Athletic",
+"source": "The New York Times",
+"link": "https://www.nytimes.com/athletic/7769378/2026/11/10/gm-meetings-tarik-skubal-age/"
 }
 ],
 "new": true
@@ -2754,28 +2772,9 @@
 }
 ],
 "new": false
-},
-{
-"term": "장동윤",
-"traffic": "200+",
-"time": "2026-11-10T14:30:00+00:00",
-"news": [
-{
-"title": "동상이몽2_너는 내 운명 : 이유진, 직접 웨딩 영상 만들어 업체들과 협업하고 결혼 비용 절감",
-"source": "programs.sbs.co.kr",
-"link": "https://programs.sbs.co.kr/enter/dongsang2/clip/52007/OC483092209"
-},
-{
-"title": "11월 결혼 이유진♥차경은, 혼전임신 고백 “살림 이미 합쳤다”",
-"source": "Chosunbiz",
-"link": "https://biz.chosun.com/entertainment/enter_general/2026/11/11/HAZDEMJZGUYDKOJTMU4GENJRHE/"
-}
-],
-"new": false
 }
 ],
 "trendSeen": [
-"옥수수",
 "옥스퍼드 시티 fc 대 레스터 시티",
 "옥주현",
 "올리브영",
@@ -2892,6 +2891,7 @@
 "전도연",
 "전력",
 "전영현",
+"전원주",
 "전유성",
 "전주시",
 "전지적 집착 시점",
