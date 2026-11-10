@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-10T15:01:26.797253+00:00",
+"updated": "2026-11-10T15:03:43.294304+00:00",
 "errors": [],
 "events": [
 {
@@ -3735,7 +3735,7 @@
 "terms": {
 "지진": {
 "n30": 0,
-"base": 0.8,
+"base": 0.7,
 "spike": false
 },
 "화재": {
@@ -3754,8 +3754,8 @@
 "spike": false
 },
 "폭발": {
-"n30": 3,
-"base": 1.1,
+"n30": 2,
+"base": 1.0,
 "spike": false
 },
 "붕괴": {
@@ -3780,22 +3780,22 @@
 },
 "지하철": {
 "n30": 1,
-"base": 0.6,
+"base": 0.7,
 "spike": false
 },
 "사고": {
-"n30": 4,
+"n30": 5,
 "base": 3.1,
 "spike": false
 },
 "실종": {
 "n30": 1,
-"base": 1.4,
+"base": 1.3,
 "spike": false
 },
 "단수": {
 "n30": 0,
-"base": 0.6,
+"base": 0.5,
 "spike": false
 },
 "통신 장애": {
@@ -3816,12 +3816,22 @@
 },
 "posts": [
 {
+"text": "믿거나 말거나..\n근데 저랬으면 정말 큰 사고가 나긴 했을 것",
+"handle": "tangmee.bsky.social",
+"name": "탕",
+"time": "2026-11-10T15:02:52.379Z",
+"likes": 1,
+"reposts": 0,
+"url": "https://bsky.app/profile/tangmee.bsky.social/post/3mzxpjpw3cc27",
+"term": "사고"
+},
+{
 "text": "쌤이 해주신 학교 부지에 얽힌 이야기\n원래 남고 부지엿는데 남자애들이 뛰어놀다가 사고 크게날까봐 여고랑 부지 바꿨다고함\n진짜인지아닌진 모르겠지만 남자애들이 다녔으면 진짜 사고날만한 부지긴해서 진짜같기도하고......",
 "handle": "3arron.bsky.social",
 "name": "세밤",
 "time": "2026-11-10T15:01:11.772Z",
-"likes": 0,
-"reposts": 0,
+"likes": 1,
+"reposts": 1,
 "url": "https://bsky.app/profile/3arron.bsky.social/post/3mzxpgqdgds2n",
 "term": "사고"
 },
@@ -3843,16 +3853,6 @@
 "likes": 0,
 "reposts": 1,
 "url": "https://bsky.app/profile/suminbahc.bsky.social/post/3mzxos4qx4k2r",
-"term": "사고"
-},
-{
-"text": "진짜 가뭄에 콩나듯이 저랑 의견 똑같은 사람이 보이긴 하네요...\n반역은 사고였어... 진짜......\n진짜로\n잘 들으씨오. 다음에 수습 안하면 내손에 죽쏘\n<이 상태였음 몇년간 ",
-"handle": "serpentonym.bsky.social",
-"name": "𝙋",
-"time": "2026-11-10T14:49:29.580Z",
-"likes": 1,
-"reposts": 0,
-"url": "https://bsky.app/profile/serpentonym.bsky.social/post/3mzxorsvyykyz",
 "term": "사고"
 },
 {
@@ -3933,8 +3933,8 @@
 "handle": "starbitsinkor.bsky.social",
 "name": "우주먼작귀",
 "time": "2026-11-10T14:35:32.883Z",
-"likes": 0,
-"reposts": 0,
+"likes": 1,
+"reposts": 1,
 "url": "https://bsky.app/profile/starbitsinkor.bsky.social/post/3mzxnynt6tk2x",
 "term": "붕괴"
 },
@@ -4077,21 +4077,21 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 0.7,
+"지진": 0.63,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.99,
-"붕괴": 0.74,
+"폭발": 0.89,
+"붕괴": 0.77,
 "대피": 0.05,
-"미사일": 0.3,
+"미사일": 0.27,
 "속보": 0.05,
-"지하철": 0.68,
-"사고": 3.15,
-"실종": 1.32,
-"단수": 0.5,
+"지하철": 0.71,
+"사고": 3.33,
+"실종": 1.29,
+"단수": 0.45,
 "통신 장애": 0.05,
-"먹통": 0.09,
+"먹통": 0.08,
 "산불": 0.05
 },
 "errors": [],
@@ -4290,6 +4290,24 @@
 },
 "trends": [
 {
+"term": "코어위브",
+"traffic": "100+",
+"time": "2026-11-10T14:00:00+00:00",
+"news": [
+{
+"title": "CoreWeave, 자율주행 기업 Wayve와 다년간 클라우드 계약 체결",
+"source": "Investing.com 한국어",
+"link": "https://kr.investing.com/news/company-news/article-93CH-2166112"
+},
+{
+"title": "코어위브, 개장 전 1% 하락: 3분기 실적 발표 앞두고 영국 자율주행 기업 웨이브와 다년간의 AI 클라우드 파트너십 체결",
+"source": "TradingKey",
+"link": "https://www.tradingkey.com/kr/analysis/stocks/us-stocks/262298789-coreweave-premarket-down-wayve-ai-cloud-partnership-q3-earnings-tradingkey"
+}
+],
+"new": true
+},
+{
 "term": "철도",
 "traffic": "500+",
 "time": "2026-11-10T13:30:00+00:00",
@@ -4450,28 +4468,9 @@
 }
 ],
 "new": true
-},
-{
-"term": "cpi",
-"traffic": "1000+",
-"time": "2026-11-10T10:30:00+00:00",
-"news": [
-{
-"title": "10-year Treasury yield jumps after hot CPI, Waller half-point hike comment",
-"source": "CNBC",
-"link": "https://www.cnbc.com/2026/11/10/us-bonds-treasurys-yields.html"
-},
-{
-"title": "CPI Live Updates: Inflation Persists in U.S. Economy",
-"source": "The New York Times",
-"link": "https://www.nytimes.com/live/2026/11/10/business/inflation-cpi-report-october"
-}
-],
-"new": true
 }
 ],
 "trendSeen": [
-"옆자리 프란체스카",
 "예산",
 "오일 머니",
 "오타니 쇼헤이",
@@ -4677,6 +4676,7 @@
 "코리안투어",
 "코스피",
 "코스피 11% 급락 원인과 정부의 반대매매 완화 조치 내용 알려줘",
+"코어위브",
 "코인니스",
 "쿠칭시티",
 "크리스털 팰리스 대 리버풀",
