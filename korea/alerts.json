@@ -1,7 +1,43 @@
 {
-"updated": "2026-11-10T15:54:18.492293+00:00",
+"updated": "2026-11-10T15:56:36.741051+00:00",
 "errors": [],
 "events": [
+{
+"id": "1kdXRSbmdkMUt4bjNVRUkoc51338",
+"first": "2026-11-10T13:38:31+00:00",
+"last": "2026-11-10T15:52:16+00:00",
+"updated": "2026-11-10T15:56:36.741051+00:00",
+"headline": "비트코인 7만3000달러대 하락",
+"cat": "기타",
+"regions": [],
+"sources": [
+"블록미디어"
+],
+"updates": [
+{
+"title": "[속보] 비트코인 7만3000달러대 하락",
+"source": "블록미디어",
+"link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBvd0piSTdxanQ2d2tFZUxZNVdDZl9mZTNEcWhpeXAtVlFWYW5nVFAzRVRqXzRCMUhvSEJKUTVUMk9TVE4tTTMyTk1kdXRSbmdkMUt4bjNVRUk?oc=5",
+"time": "2026-11-10T13:38:31+00:00",
+"stage": "얼럿"
+},
+{
+"title": "[속보] 비트코인 7만3000달러대 재하락",
+"source": "블록미디어",
+"link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBScHYwdmg2dWpuWGRJX3BRajNpTGFPb3cwOUtvWXk3S2JGQmtJVmxNd1Nxa0NFWmZVRlh0Vkp4Wnd2RGFFZ1lMUElZX1hqWUhPYzdaNzZUdlc?oc=5",
+"time": "2026-11-10T15:52:16+00:00",
+"stage": "속보"
+}
+],
+"level": "URGENT",
+"latest": "비트코인 7만3000달러대 재하락",
+"tok": [
+"7만3000달러대",
+"비트코인",
+"재하락",
+"하락"
+]
+},
 {
 "id": "WhYZGxkOFNPRkZxOUQ5dwoc51045",
 "first": "2026-11-10T10:45:30+00:00",
@@ -1845,34 +1881,6 @@
 ]
 },
 {
-"id": "1kdXRSbmdkMUt4bjNVRUkoc51338",
-"first": "2026-11-10T13:38:31+00:00",
-"last": "2026-11-10T13:38:31+00:00",
-"updated": "2026-11-10T13:43:45.609078+00:00",
-"headline": "비트코인 7만3000달러대 하락",
-"cat": "기타",
-"regions": [],
-"sources": [
-"블록미디어"
-],
-"updates": [
-{
-"title": "[속보] 비트코인 7만3000달러대 하락",
-"source": "블록미디어",
-"link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBvd0piSTdxanQ2d2tFZUxZNVdDZl9mZTNEcWhpeXAtVlFWYW5nVFAzRVRqXzRCMUhvSEJKUTVUMk9TVE4tTTMyTk1kdXRSbmdkMUt4bjNVRUk?oc=5",
-"time": "2026-11-10T13:38:31+00:00",
-"stage": "얼럿"
-}
-],
-"level": "URGENT",
-"latest": "비트코인 7만3000달러대 하락",
-"tok": [
-"7만3000달러대",
-"비트코인",
-"하락"
-]
-},
-{
 "id": "oUDFmSnlvZHVVaEhZU1Jnoc51334",
 "first": "2026-11-10T13:34:52+00:00",
 "last": "2026-11-10T13:34:52+00:00",
@@ -3642,9 +3650,9 @@
 "spike": false
 },
 "속보": {
-"n30": 5,
+"n30": 2,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "지하철": {
 "n30": 1,
@@ -3653,7 +3661,7 @@
 },
 "사고": {
 "n30": 2,
-"base": 3.6,
+"base": 3.5,
 "spike": false
 },
 "실종": {
@@ -3926,29 +3934,22 @@
 "n30": 7,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-10T15:54:18.492293+00:00"
-},
-{
-"term": "속보",
-"n30": 5,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-10T15:54:18.492293+00:00"
+"since": "2026-11-10T15:56:36.741051+00:00"
 }
 ],
 "baseline": {
-"지진": 0.06,
+"지진": 0.05,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.1,
-"붕괴": 0.08,
+"폭발": 0.09,
+"붕괴": 0.07,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.1,
-"사고": 3.47,
-"실종": 0.13,
+"지하철": 0.09,
+"사고": 3.32,
+"실종": 0.12,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -4344,14 +4345,14 @@
 "time": "2026-11-10T11:10:00+00:00",
 "news": [
 {
-"title": "'금융보안 문지기' 금융보안원마저 해킹으로 정보유출‥긴급 차단조치",
-"source": "MBC 뉴스",
-"link": "https://imnews.imbc.com/replay/2026/nwdesk/article/6864653_37004.html"
+"title": "[2보] '금융보안 문지기' 금융보안원도 해킹으로 정보유출",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261110173800002"
 },
 {
-"title": "‘보안문지기’ 금융보안원까지 해킹당했다",
-"source": "서울신문",
-"link": "https://www.seoul.co.kr/news/economy/finance/2026/11/11/20261111029006"
+"title": "금융보안원도 해킹에 털렸다...금융사 보안정보 유출",
+"source": "YTN",
+"link": "https://www.ytn.co.kr/_ln/0102_202611110028275778"
 }
 ],
 "new": true
