@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-10T01:50:19.984863+00:00",
+"updated": "2026-11-10T01:52:36.091166+00:00",
 "errors": [],
 "events": [
 {
@@ -605,6 +605,40 @@
 "김포서",
 "무인기",
 "육군",
+"추락",
+"훈련"
+]
+},
+{
+"id": "R5RE9VWk1ZajltVGVCdWMoc50142",
+"first": "2026-11-10T01:42:38+00:00",
+"last": "2026-11-10T01:42:38+00:00",
+"updated": "2026-11-10T01:52:36.091166+00:00",
+"headline": "軍 “김포서 훈련 중 소형무인기 추락…잔해 수거 조사 중”",
+"cat": "기타",
+"regions": [
+"경기"
+],
+"sources": [
+"서울경제"
+],
+"updates": [
+{
+"title": "[속보] 軍 “김포서 훈련 중 소형무인기 추락…잔해 수거 조사 중”",
+"source": "서울경제",
+"link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9yaHJIcENGSFJCNm9SWW9leGk0NWJ1Y2hPVjRVVmg4ckwwR0pKTGN3SHdpdDVSMEVzOVBHZVpONWpuN3RpaWMwVkpGbTE0VVQxWmE1YWM1MWd1RlU3Y0lv0gFTQVVfeXFMTlo3UU8zMXprVzcwLVhqWi1ZbWVLZ0lzX21taXZ2Mk5heWNlaEJGXzdnVFVCdWtvVVVaMFJqRHJUSDUwNzR5RE9VWk1ZajltVGVCdWM?oc=5",
+"time": "2026-11-10T01:42:38+00:00",
+"stage": "얼럿"
+}
+],
+"level": "BULLETIN",
+"latest": "軍 “김포서 훈련 중 소형무인기 추락…잔해 수거 조사 중”",
+"tok": [
+"김포서",
+"소형무인기",
+"수거",
+"잔해",
+"조사",
 "추락",
 "훈련"
 ]
@@ -3936,47 +3970,12 @@
 "초반",
 "회복"
 ]
-},
-{
-"id": "wNISX20261110_00038614740013",
-"first": "2026-11-10T00:13:09+00:00",
-"last": "2026-11-10T00:13:09+00:00",
-"updated": "2026-11-10T00:16:10.984658+00:00",
-"headline": "전남광주, 겨울철 재난 6대 분야 안전 감찰 나섰다",
-"cat": "재난",
-"regions": [
-"전남"
-],
-"sources": [
-"뉴시스"
-],
-"updates": [
-{
-"title": "전남광주, 겨울철 재난 6대 분야 안전 감찰 나섰다",
-"source": "뉴시스",
-"link": "https://www.newsis.com/view/NISX20261110_0003861474",
-"time": "2026-11-10T00:13:09+00:00",
-"stage": "1보"
-}
-],
-"level": "ALERT",
-"latest": "전남광주, 겨울철 재난 6대 분야 안전 감찰 나섰다",
-"tok": [
-"6대",
-"감찰",
-"겨울철",
-"나섰다",
-"분야",
-"안전",
-"재난",
-"전남광주"
-]
 }
 ],
 "sns": {
 "terms": {
 "지진": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -4016,18 +4015,18 @@
 "spike": false
 },
 "속보": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
 "지하철": {
-"n30": 2,
-"base": 0.8,
+"n30": 1,
+"base": 0.9,
 "spike": false
 },
 "사고": {
 "n30": 3,
-"base": 3.7,
+"base": 3.6,
 "spike": false
 },
 "실종": {
@@ -4313,13 +4312,13 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 1.15,
+"폭발": 1.23,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.86,
-"사고": 3.63,
+"지하철": 0.87,
+"사고": 3.57,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
