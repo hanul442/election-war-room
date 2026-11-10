@@ -1,12 +1,12 @@
 {
-"updated": "2026-11-10T04:13:37.619550+00:00",
+"updated": "2026-11-10T04:15:52.236469+00:00",
 "errors": [],
 "events": [
 {
 "id": "viewAKR202611100783005270204",
 "first": "2026-11-10T02:04:07+00:00",
-"last": "2026-11-10T04:06:38+00:00",
-"updated": "2026-11-10T04:13:37.619550+00:00",
+"last": "2026-11-10T04:07:32+00:00",
+"updated": "2026-11-10T04:15:52.236469+00:00",
 "headline": "전남 서해 먼바다에 풍랑주의보 해제",
 "cat": "재난",
 "regions": [
@@ -37,10 +37,17 @@
 "link": "https://www.yna.co.kr/view/AKR20261110094600527",
 "time": "2026-11-10T04:06:38+00:00",
 "stage": "후속"
+},
+{
+"title": "동해남부 먼바다에 풍랑주의보 해제",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261110094700527",
+"time": "2026-11-10T04:07:32+00:00",
+"stage": "후속"
 }
 ],
 "level": "ALERT",
-"latest": "남해 동부 먼바다에 풍랑주의보 해제",
+"latest": "동해남부 먼바다에 풍랑주의보 해제",
 "tok": [
 "남해",
 "동부",
@@ -3719,7 +3726,7 @@
 "spike": false
 },
 "화재": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -3739,7 +3746,7 @@
 "spike": true
 },
 "붕괴": {
-"n30": 2,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
@@ -3764,7 +3771,7 @@
 "spike": false
 },
 "사고": {
-"n30": 2,
+"n30": 3,
 "base": 2.0,
 "spike": false
 },
@@ -3795,6 +3802,16 @@
 }
 },
 "posts": [
+{
+"text": "아 웃기다\n가끔 딥던전 갈 때 나이트 안하는 분이 나이트 하면 발생하는 사고\n\"님들 저 방패를 까먹었더니 방던이 안돼요...\"",
+"handle": "purple3green.bsky.social",
+"name": "순살자녹",
+"time": "2026-11-10T04:13:07.176Z",
+"likes": 1,
+"reposts": 0,
+"url": "https://bsky.app/profile/purple3green.bsky.social/post/3mzwlb3ip7k2u",
+"term": "사고"
+},
 {
 "platform": "YouTube",
 "text": "[속보] '청해부대 파견연장 수정 동의안' 국무회의 통과 / 연합뉴스TV (YonhapnewsTV)",
@@ -3985,7 +4002,7 @@
 "n30": 7,
 "base": 0.4,
 "spike": true,
-"since": "2026-11-10T04:13:37.619550+00:00"
+"since": "2026-11-10T04:15:52.236469+00:00"
 }
 ],
 "baseline": {
@@ -3993,13 +4010,13 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.37,
+"폭발": 0.33,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.11,
-"지하철": 0.69,
-"사고": 2.04,
+"속보": 0.1,
+"지하철": 0.72,
+"사고": 2.14,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -4185,7 +4202,7 @@
 },
 {
 "term": "회사",
-"traffic": "500+",
+"traffic": "1000+",
 "time": "2026-11-10T03:00:00+00:00",
 "news": [
 {
@@ -4212,9 +4229,9 @@
 "link": "https://imnews.imbc.com/news/2026/world/article/6864486_36925.html"
 },
 {
-"title": "中 논객 후시진, 젠슨 황 스캔들에 \"中 정보기관, 미인계 안 써\"",
-"source": "뉴시스",
-"link": "https://www.newsis.com/view/NISX20261110_0003861962"
+"title": "젠슨 황 스캔들에 미국 여야 한목소리…‘안보위협’ 진상규명 압박",
+"source": "KBS 뉴스",
+"link": "https://news.kbs.co.kr/news/view.do?ncd=8708638"
 }
 ],
 "new": false
@@ -4225,14 +4242,14 @@
 "time": "2026-11-10T03:00:00+00:00",
 "news": [
 {
-"title": "공공기관 기록관리 개선됐지만…교육지원청 6곳중 1곳 '최하위'",
+"title": "경북도 산하기관 종합청렴도 평가…독도재단 최하 등급",
 "source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261014015800530"
+"link": "https://www.yna.co.kr/view/AKR20261110042900053"
 },
 {
-"title": "공공기관 기록관리 수준 향상…최하위 등급 대폭 감소",
-"source": "아시아경제",
-"link": "https://www.asiae.co.kr/article/2026111007481906978"
+"title": "'경영평가 하위' 경북 공공기관, 청렴도도 '하위 등급'",
+"source": "뉴스1",
+"link": "https://www.news1.kr/local/daegu-gyeongbuk/6348738"
 }
 ],
 "new": true
@@ -4246,18 +4263,18 @@
 },
 {
 "term": "자기주식",
-"traffic": "200+",
+"traffic": "500+",
 "time": "2026-11-10T03:00:00+00:00",
 "news": [
 {
-"title": "리센스메디컬, 김건호·최의경 공동대표 자사주 매입…책임경영 의지 강조",
-"source": "팜이데일리",
-"link": "https://pharm.edaily.co.kr/News/Read?newsId=03683446645644408"
+"title": "선진, 자기주식 396주 소각 결정…발행주식총수 23,779,208주로 감소 예정",
+"source": "톱스타뉴스",
+"link": "https://www.topstarnews.net/news/articleView.html?idxno=16272124"
 },
 {
-"title": "리센스메디컬 공동대표, 자사주 3만여주 매입",
-"source": "뉴스핌",
-"link": "https://www.newspim.com/news/view/20261110000216"
+"title": "선진, 기취득 자기주식 364만원 규모 소각 결정",
+"source": "디지털투데이",
+"link": "https://www.digitaltoday.co.kr/disclosure/articleView.html?idxno=713934"
 }
 ],
 "new": false
@@ -4268,14 +4285,14 @@
 "time": "2026-11-10T02:50:00+00:00",
 "news": [
 {
-"title": "'라면 끊고 본격 러닝 돌입' 김서현의 독한 다이어트…\"PS 악몽 극복하고 트로피 들고 싶다\" [미야자키 인터뷰]",
-"source": "조선일보",
-"link": "https://www.chosun.com/sports/baseball/2026/11/10/MI2GGMJUHEYGKMDCGRSTSMZQHA/"
+"title": "‘류지현호’ 첫발 뗀 한화…내년 전력 구상 과제는?",
+"source": "KBS 뉴스",
+"link": "https://news.kbs.co.kr/news/view.do?ncd=8706798"
 },
 {
 "title": "\"지현이 여기 있습니다!\" 류지현 감독의 유쾌한 한마디…한화 훈련장이 '빵' 터졌다 [오!쎈미야자키]",
-"source": "OSEN",
-"link": "https://www.osen.co.kr/article/G1112907516"
+"source": "Chosunbiz",
+"link": "https://biz.chosun.com/sports/baseball/2026/11/10/MVTDCY3EMRRGIZDDGVSDKMRXMY/"
 }
 ],
 "new": true
