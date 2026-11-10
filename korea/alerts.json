@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-10T10:29:50.620945+00:00",
+"updated": "2026-11-10T10:32:06.138213+00:00",
 "errors": [],
 "events": [
 {
@@ -3769,7 +3769,7 @@
 "spike": false
 },
 "화재": {
-"n30": 2,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -3784,9 +3784,9 @@
 "spike": false
 },
 "폭발": {
-"n30": 6,
-"base": 1.6,
-"spike": true
+"n30": 4,
+"base": 1.5,
+"spike": false
 },
 "붕괴": {
 "n30": 3,
@@ -3795,7 +3795,7 @@
 },
 "대피": {
 "n30": 0,
-"base": 0.3,
+"base": 0.2,
 "spike": false
 },
 "미사일": {
@@ -3804,7 +3804,7 @@
 "spike": false
 },
 "속보": {
-"n30": 3,
+"n30": 2,
 "base": 0.2,
 "spike": false
 },
@@ -3814,7 +3814,7 @@
 "spike": false
 },
 "사고": {
-"n30": 4,
+"n30": 5,
 "base": 4.4,
 "spike": false
 },
@@ -3845,6 +3845,16 @@
 }
 },
 "posts": [
+{
+"text": "내일 꼭 병원가시길 교통사고는 당일날 괜찮아도 그 다음날 아프기시작하더라구여",
+"handle": "kongjeub4140.bsky.social",
+"name": "콩즙",
+"time": "2026-11-10T10:29:58.077Z",
+"likes": 1,
+"reposts": 0,
+"url": "https://bsky.app/profile/kongjeub4140.bsky.social/post/3mzxabok6t22n",
+"term": "사고"
+},
 {
 "platform": "YouTube",
 "text": "[두산에너빌리티 주가전망] 🔥속보! SMR 초대형 기회! 두산에너빌리티 판이 바뀐다! 지금 매수 들어가야할까요? #두산에너빌리티 #두산에너빌리티주가",
@@ -3888,7 +3898,7 @@
 "handle": "sg3soda.bsky.social",
 "name": "설탕7🍰",
 "time": "2026-11-10T10:17:26.571Z",
-"likes": 0,
+"likes": 1,
 "reposts": 0,
 "url": "https://bsky.app/profile/sg3soda.bsky.social/post/3mzx7lcvdoc2h",
 "term": "사고"
@@ -4007,16 +4017,6 @@
 "term": "사고"
 },
 {
-"text": "이얼마나 인간중심적 사고였는지!!!!",
-"handle": "stilll0v3.bsky.social",
-"name": "수씨 🍃",
-"time": "2026-11-10T10:02:10.882Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/stilll0v3.bsky.social/post/3mzx6pyxles23",
-"term": "사고"
-},
-{
 "platform": "YouTube",
 "text": "비상구 손잡이가 뜨겁다, 여는 순간 불길이 덮친다 | 호텔화재 3화",
 "handle": "UCenBRNCFOFBBPeQr-4b3JjA",
@@ -4071,32 +4071,24 @@
 "url": "https://www.youtube.com/watch?v=b3vq_YIIyzI"
 }
 ],
-"spikes": [
-{
-"term": "폭발",
-"n30": 6,
-"base": 1.6,
-"spike": true,
-"since": "2026-11-10T10:29:50.620945+00:00"
-}
-],
+"spikes": [],
 "baseline": {
-"지진": 0.51,
+"지진": 0.56,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 1.51,
-"붕괴": 0.22,
-"대피": 0.24,
+"폭발": 1.46,
+"붕괴": 0.2,
+"대피": 0.22,
 "미사일": 0.05,
-"속보": 0.16,
-"지하철": 1.91,
-"사고": 4.38,
+"속보": 0.14,
+"지하철": 1.92,
+"사고": 4.44,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
-"산불": 0.71
+"산불": 0.74
 },
 "errors": [],
 "ytPosts": [
