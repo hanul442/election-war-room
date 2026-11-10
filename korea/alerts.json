@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-10T03:42:21.193368+00:00",
+"updated": "2026-11-10T03:44:35.470918+00:00",
 "errors": [],
 "events": [
 {
@@ -3644,7 +3644,7 @@
 "spike": false
 },
 "화재": {
-"n30": 3,
+"n30": 2,
 "base": 0.1,
 "spike": false
 },
@@ -3679,18 +3679,18 @@
 "spike": false
 },
 "속보": {
-"n30": 7,
+"n30": 6,
 "base": 0.5,
 "spike": true
 },
 "지하철": {
 "n30": 2,
-"base": 1.0,
+"base": 0.9,
 "spike": false
 },
 "사고": {
 "n30": 1,
-"base": 1.7,
+"base": 1.6,
 "spike": false
 },
 "실종": {
@@ -3942,10 +3942,10 @@
 "spikes": [
 {
 "term": "속보",
-"n30": 7,
+"n30": 6,
 "base": 0.5,
 "spike": true,
-"since": "2026-11-10T03:42:21.193368+00:00"
+"since": "2026-11-10T03:44:35.470918+00:00"
 }
 ],
 "baseline": {
@@ -3953,17 +3953,17 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.51,
-"붕괴": 0.07,
+"폭발": 0.56,
+"붕괴": 0.06,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.45,
-"지하철": 0.92,
-"사고": 1.61,
+"속보": 0.41,
+"지하철": 0.83,
+"사고": 1.55,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
-"먹통": 0.07,
+"먹통": 0.06,
 "산불": 0.05
 },
 "errors": [],
@@ -4171,8 +4171,62 @@
 },
 "trends": [
 {
+"term": "부부",
+"traffic": "2000+",
+"time": "2026-11-10T02:40:00+00:00",
+"news": [
+{
+"title": "인천시, 2027년부터 혼인지원금 100만 원 지급",
+"source": "뉴스타운",
+"link": "https://www.newstown.co.kr/news/articleView.html?idxno=721377"
+},
+{
+"title": "결혼하면 100만원…인천시, 내년 7월부터 신혼부부 지원금 지급",
+"source": "파이낸셜뉴스",
+"link": "https://www.fnnews.com/news/202611101009060805"
+}
+],
+"new": true
+},
+{
+"term": "개",
+"traffic": "2000+",
+"time": "2026-11-10T02:40:00+00:00",
+"news": [
+{
+"title": "한국콜마, CES 2027서 2년 연속 '뷰티테크 최고혁신상' 받아",
+"source": "매일경제 마켓",
+"link": "https://stock.mk.co.kr/news/view/1194664"
+},
+{
+"title": "세라젬, AI웰니스 홈 등 'CES 2027 혁신상' 9개...\"4년 연속 누적 30개 수상\" - 머니투데이",
+"source": "머니투데이",
+"link": "https://www.mt.co.kr/living/2026/11/10/2026111009312525004"
+}
+],
+"new": true
+},
+{
+"term": "법관",
+"traffic": "100+",
+"time": "2026-11-10T02:40:00+00:00",
+"news": [
+{
+"title": "현직 부장판사 \"사법부 독립 위해 뼈아픈 자기 성찰부터\"",
+"source": "MBC 뉴스",
+"link": "https://imnews.imbc.com/news/2026/society/article/6864493_36918.html"
+},
+{
+"title": "조국혁신당 \"민주, 조희대 탄핵 결단할 때…행동으로 답해야\"",
+"source": "연합뉴스TV",
+"link": "https://www.yonhapnewstv.co.kr/news/AKR20261110112139piX"
+}
+],
+"new": true
+},
+{
 "term": "통장",
-"traffic": "200+",
+"traffic": "500+",
 "time": "2026-11-10T02:30:00+00:00",
 "news": [
 {
@@ -4248,14 +4302,14 @@
 "time": "2026-11-10T02:00:00+00:00",
 "news": [
 {
+"title": "“밥 안먹어도 이건 꼭 먹는다”…96세 할머니 가수 마법가루",
+"source": "중앙일보",
+"link": "https://www.joongang.co.kr/article/25477169"
+},
+{
 "title": "임영웅, 293주째 변함없는 정상… 장기 집권 이어가는 팬덤 파워",
 "source": "제민일보",
 "link": "http://www.jemin.com/news/articleView.html?idxno=846679"
-},
-{
-"title": "임영웅, 'K-브랜드지수' 1위...성리·박지현·김용빈·이찬원 TOP5",
-"source": "뉴스컬처",
-"link": "https://www.nc.press/news/articleView.html?idxno=630614"
 }
 ],
 "new": true
@@ -4289,66 +4343,12 @@
 "link": "https://www.yna.co.kr/view/AKR20261109132200053"
 },
 {
-"title": "“신문 구해요”…삼성 우승 소식 ‘굿즈’ 찾아 편의점 67곳 돈 팬심",
-"source": "한겨레",
-"link": "https://www.hani.co.kr/arti/society/society_general/1286570.html"
+"title": "'긴 겨울 눈이 녹고, 푸른 봄이 찾아왔다' 야구 우승, 축구 1부 승격, 농구 선두,'삼성 스포츠' 동반 부활",
+"source": "조선일보",
+"link": "https://www.chosun.com/sports/baseball/2026/11/10/GVSDGN3DHEZTQMZWGYZTKODGGA/"
 }
 ],
 "new": true
-},
-{
-"term": "3 기 신도시 남양주 왕숙 지구",
-"traffic": "1000+",
-"time": "2026-11-10T01:20:00+00:00",
-"news": [
-{
-"title": "정부는 ‘앞당긴다’ 했는데… 3기 신도시 최대 사업지 또 입주 지연",
-"source": "조선일보",
-"link": "https://www.chosun.com/economy/real_estate/2026/11/10/HUUAKXSW6JEJ5JRRV3GTRG5UDY/"
-},
-{
-"title": "3기 신도시 남양주 왕숙 공공주택 또 지연… 교통대책도 난항 - 머니투데이",
-"source": "머니투데이",
-"link": "https://www.mt.co.kr/estate/2026/11/09/2026110615515640807"
-}
-],
-"new": true
-},
-{
-"term": "중대범죄 수사청",
-"traffic": "1000+",
-"time": "2026-11-10T00:50:00+00:00",
-"news": [
-{
-"title": "피해자가 새 증거 찾아도… 검사 \"직접 못 받아\" 경찰 \"손 떠난 사건\"",
-"source": "조선일보",
-"link": "https://www.chosun.com/national/court_law/2026/11/10/MNTQTB3TAZC7TBSLCRCGAXGEH4/"
-},
-{
-"title": "[이달우의 신우시산국 (35)]사법부 두 기관의 대조적인 불빛",
-"source": "경상일보",
-"link": "https://www.ksilbo.co.kr/news/articleView.html?idxno=1071992"
-}
-],
-"new": false
-},
-{
-"term": "인구",
-"traffic": "500+",
-"time": "2026-11-10T00:50:00+00:00",
-"news": [
-{
-"title": "홍성군 인구 10만 2천 명 돌파…\"전입·정착 지원 강화\"",
-"source": "뉴데일리 충청세종",
-"link": "https://cc.newdaily.co.kr/site/data/html/2026/11/10/2026111000021.html"
-},
-{
-"title": "홍성군 인구 10만 2000 명 돌파",
-"source": "중도일보",
-"link": "https://m.joongdo.co.kr/view.php?key=20261110010003218"
-}
-],
-"new": false
 }
 ],
 "trendSeen": [
