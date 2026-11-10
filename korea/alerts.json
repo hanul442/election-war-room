@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-10T08:43:08.984478+00:00",
+"updated": "2026-11-10T08:45:25.592842+00:00",
 "errors": [],
 "events": [
 {
@@ -63,6 +63,63 @@
 "철회",
 "초등",
 "하교"
+]
+},
+{
+"id": "ElIM2V0blNuM19qcE5sagoc50822",
+"first": "2026-11-10T08:22:42+00:00",
+"last": "2026-11-10T08:39:01+00:00",
+"updated": "2026-11-10T08:45:25.592842+00:00",
+"headline": "'군 휴가 특혜 의혹' 추미애 아들 귀국...공소청, 2년 만에 수사 재개",
+"cat": "사회",
+"regions": [],
+"sources": [
+"KBC광주방송",
+"SBS",
+"연합뉴스"
+],
+"updates": [
+{
+"title": "'군 복무 특혜 의혹' 추미애 아들 출국 금지 조치…공소청 수사 재기",
+"source": "SBS",
+"link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008839580&plink=RSSLINK&cooper=RSSREADER",
+"time": "2026-11-10T07:56:45+00:00",
+"stage": "후속"
+},
+{
+"title": "[속보]'군 휴가 특혜 의혹' 추미애 아들 귀국...공소청, 2년 만에 수사 재개",
+"source": "KBC광주방송",
+"link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE82NGJYSVo2Q0ZmTkxpX1I1RFhxSlBYM3NtUEhlcWwza3RqTTI4czRVM09vRE1tQTdiZXZNdmo2UXh6T3FPUDlHY1ZVd2l5Z250aElIM2V0blNuM19qcE5sag?oc=5",
+"time": "2026-11-10T08:22:42+00:00",
+"stage": "얼럿"
+},
+{
+"title": "추미애 아들 귀국으로…공소청 '군 복무 특혜 의혹' 수사 재개(종합)",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261110137851004",
+"time": "2026-11-10T08:39:01+00:00",
+"stage": "종합"
+}
+],
+"level": "URGENT",
+"latest": "추미애 아들 귀국으로…공소청 '군 복무 특혜 의혹' 수사 재개",
+"tok": [
+"2년",
+"공소청",
+"귀국",
+"귀국으",
+"금지",
+"만에",
+"복무",
+"수사",
+"아들",
+"재개",
+"재기",
+"조치",
+"추미애",
+"출국",
+"특혜",
+"휴가"
 ]
 },
 {
@@ -752,54 +809,6 @@
 "채택",
 "촉구",
 "확대"
-]
-},
-{
-"id": "ElIM2V0blNuM19qcE5sagoc50822",
-"first": "2026-11-10T08:22:42+00:00",
-"last": "2026-11-10T08:22:42+00:00",
-"updated": "2026-11-10T08:29:43.960664+00:00",
-"headline": "'군 휴가 특혜 의혹' 추미애 아들 귀국...공소청, 2년 만에 수사 재개",
-"cat": "사회",
-"regions": [],
-"sources": [
-"KBC광주방송",
-"SBS"
-],
-"updates": [
-{
-"title": "'군 복무 특혜 의혹' 추미애 아들 출국 금지 조치…공소청 수사 재기",
-"source": "SBS",
-"link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008839580&plink=RSSLINK&cooper=RSSREADER",
-"time": "2026-11-10T07:56:45+00:00",
-"stage": "후속"
-},
-{
-"title": "[속보]'군 휴가 특혜 의혹' 추미애 아들 귀국...공소청, 2년 만에 수사 재개",
-"source": "KBC광주방송",
-"link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE82NGJYSVo2Q0ZmTkxpX1I1RFhxSlBYM3NtUEhlcWwza3RqTTI4czRVM09vRE1tQTdiZXZNdmo2UXh6T3FPUDlHY1ZVd2l5Z250aElIM2V0blNuM19qcE5sag?oc=5",
-"time": "2026-11-10T08:22:42+00:00",
-"stage": "얼럿"
-}
-],
-"level": "URGENT",
-"latest": "'군 휴가 특혜 의혹' 추미애 아들 귀국...공소청, 2년 만에 수사 재개",
-"tok": [
-"2년",
-"공소청",
-"귀국",
-"금지",
-"만에",
-"복무",
-"수사",
-"아들",
-"재개",
-"재기",
-"조치",
-"추미애",
-"출국",
-"특혜",
-"휴가"
 ]
 },
 {
@@ -3604,7 +3613,7 @@
 "terms": {
 "지진": {
 "n30": 0,
-"base": 0.5,
+"base": 0.4,
 "spike": false
 },
 "화재": {
@@ -3623,8 +3632,8 @@
 "spike": false
 },
 "폭발": {
-"n30": 3,
-"base": 0.5,
+"n30": 2,
+"base": 0.6,
 "spike": false
 },
 "붕괴": {
@@ -3643,18 +3652,18 @@
 "spike": false
 },
 "속보": {
-"n30": 3,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
 "지하철": {
 "n30": 2,
-"base": 0.7,
+"base": 0.8,
 "spike": false
 },
 "사고": {
 "n30": 8,
-"base": 3.7,
+"base": 4.1,
 "spike": false
 },
 "실종": {
@@ -3928,17 +3937,17 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 0.44,
+"지진": 0.4,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.59,
-"붕괴": 1.57,
+"폭발": 0.63,
+"붕괴": 1.51,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.77,
-"사고": 4.09,
+"지하철": 0.79,
+"사고": 4.48,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -4212,9 +4221,9 @@
 "link": "https://news.jtbc.co.kr/article/NB12327297"
 },
 {
-"title": "중대장이 실수로 공포탄 쏘자…대대장 “너 나와” 2발 ‘탕 탕’",
-"source": "동아일보",
-"link": "https://www.donga.com/news/Politics/article/all/20261110/134996843/2"
+"title": "훈련 중 공포탄 쏜 부하에 맞대응 사격…대대장 재판행",
+"source": "연합뉴스TV",
+"link": "https://www.yonhapnewstv.co.kr/news/MYH20261110085611FhD"
 }
 ],
 "new": true
@@ -4243,14 +4252,14 @@
 "time": "2026-11-10T05:20:00+00:00",
 "news": [
 {
-"title": "프로야구 한화, 김강 타격 코치·안영명 퍼포먼스 코치 영입",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261110104000007"
-},
-{
 "title": "'류지현 감독 새 출발' 한화이글스, 김강·안영명 코치 영입",
 "source": "이데일리",
 "link": "https://www.edaily.co.kr/News/Read?newsId=04513286645644408&mediaCodeNo=257"
+},
+{
+"title": "프로야구 한화, 김강 타격 코치·안영명 퍼포먼스 코치 영입",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261110104000007"
 }
 ],
 "new": true
