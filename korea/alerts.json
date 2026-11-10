@@ -1,12 +1,12 @@
 {
-"updated": "2026-11-10T03:33:18.544529+00:00",
+"updated": "2026-11-10T03:35:33.283887+00:00",
 "errors": [],
 "events": [
 {
 "id": "viewAKR202611100923005040310",
 "first": "2026-11-10T03:10:48+00:00",
 "last": "2026-11-10T03:24:51+00:00",
-"updated": "2026-11-10T03:33:18.544529+00:00",
+"updated": "2026-11-10T03:35:33.283887+00:00",
 "headline": "'작전구역 확대' 청해부대 파견 연장 동의안, 국무회의 의결",
 "cat": "기타",
 "regions": [],
@@ -16,6 +16,7 @@
 "뉴시스",
 "데일리25",
 "머니투데이",
+"부산일보",
 "연합뉴스"
 ],
 "updates": [
@@ -60,6 +61,13 @@
 "link": "https://www.newsis.com/view/NISX20261110_0003861410",
 "time": "2026-11-10T03:19:39+00:00",
 "stage": "후속"
+},
+{
+"title": "[속보] `청해부대 작전구역 확대` 국무회의서 의결",
+"source": "부산일보",
+"link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9HTHotcjJuZ0dkak9iNGhURVF5U1ZMWFhpQnAzenVDQjlUMlV4NjhKNG83cUx6NFZZYnUzVndfb3V6b0M4VTNONDZaQmFKeWMtWVhvN2VzM3NhcFE2X1d6UlJqZ19YeHZ1WkhNYmV2RmVRNGVQ?oc=5",
+"time": "2026-11-10T03:19:46+00:00",
+"stage": "속보"
 },
 {
 "title": "청해부대 파견 연장안 국무회의 의결…작전범위 확대·추가전력 투입(종합)",
@@ -3627,7 +3635,7 @@
 },
 "폭발": {
 "n30": 2,
-"base": 0.1,
+"base": 0.2,
 "spike": false
 },
 "붕괴": {
@@ -3647,7 +3655,7 @@
 },
 "속보": {
 "n30": 9,
-"base": 0.8,
+"base": 0.7,
 "spike": true
 },
 "지하철": {
@@ -3656,8 +3664,8 @@
 "spike": false
 },
 "사고": {
-"n30": 1,
-"base": 2.3,
+"n30": 0,
+"base": 2.1,
 "spike": false
 },
 "실종": {
@@ -3904,25 +3912,15 @@
 "reposts": 0,
 "url": "https://bsky.app/profile/happinesseum.bsky.social/post/3mzwhhoxkks2n",
 "term": "지하철"
-},
-{
-"text": "앗 전 선물받은 기분이엇지만 빙고님은 놀라셨겠어요ㅠㅠㅋㅋㅋㅋㅋ재밌게 잘 봤지만......역시 외전을 200편쯤은 주셔야겠습니다() 흑흑 아이들 기숙학교 들어갔을때 얘기도 궁금해요...유레스 결국 집밖으로 나가게 되지 않을까 싶고요...!! (사유: 사고쳐서 부모님 소환(?",
-"handle": "ma6aron.bsky.social",
-"name": "마카롱💎",
-"time": "2026-11-10T03:03:49.279Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/ma6aron.bsky.social/post/3mzwhdw3xuk2j",
-"term": "사고"
 }
 ],
 "spikes": [
 {
 "term": "속보",
 "n30": 9,
-"base": 0.8,
+"base": 0.7,
 "spike": true,
-"since": "2026-11-10T03:33:18.544529+00:00"
+"since": "2026-11-10T03:35:33.283887+00:00"
 }
 ],
 "baseline": {
@@ -3930,17 +3928,17 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.24,
-"붕괴": 0.11,
+"폭발": 0.32,
+"붕괴": 0.1,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.69,
-"지하철": 1.29,
-"사고": 2.15,
+"속보": 0.62,
+"지하철": 1.26,
+"사고": 1.94,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
-"먹통": 0.11,
+"먹통": 0.1,
 "산불": 0.05
 },
 "errors": [],
@@ -4185,7 +4183,7 @@
 },
 {
 "term": "골프",
-"traffic": "1000+",
+"traffic": "2000+",
 "time": "2026-11-10T02:20:00+00:00",
 "news": [
 {
@@ -4221,18 +4219,18 @@
 },
 {
 "term": "가수",
-"traffic": "500+",
+"traffic": "1000+",
 "time": "2026-11-10T02:00:00+00:00",
 "news": [
-{
-"title": "“밥 안먹어도 이건 꼭 먹는다”…96세 할머니 가수 마법가루",
-"source": "중앙일보",
-"link": "https://www.joongang.co.kr/article/25477169"
-},
 {
 "title": "임영웅, 293주째 변함없는 정상… 장기 집권 이어가는 팬덤 파워",
 "source": "제민일보",
 "link": "http://www.jemin.com/news/articleView.html?idxno=846679"
+},
+{
+"title": "임영웅, 'K-브랜드지수' 1위...성리·박지현·김용빈·이찬원 TOP5",
+"source": "뉴스컬처",
+"link": "https://www.nc.press/news/articleView.html?idxno=630614"
 }
 ],
 "new": true
@@ -4275,7 +4273,7 @@
 },
 {
 "term": "3 기 신도시 남양주 왕숙 지구",
-"traffic": "500+",
+"traffic": "1000+",
 "time": "2026-11-10T01:20:00+00:00",
 "news": [
 {
