@@ -1,7 +1,41 @@
 {
-"updated": "2026-11-10T00:59:20.236810+00:00",
+"updated": "2026-11-10T01:02:00.090391+00:00",
 "errors": [],
 "events": [
+{
+"id": "ZTQld4ZjUwNGlRblFGV3coc50055",
+"first": "2026-11-10T00:55:35+00:00",
+"last": "2026-11-10T00:55:35+00:00",
+"updated": "2026-11-10T01:02:00.090391+00:00",
+"headline": "황우석 “차 한잔 하자더니 UAE 국적 줬다…한국 국적 회복 신청”",
+"cat": "기타",
+"regions": [],
+"sources": [
+"경기일보"
+],
+"updates": [
+{
+"title": "[속보] 황우석 “차 한잔 하자더니 UAE 국적 줬다…한국 국적 회복 신청”",
+"source": "경기일보",
+"link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE8yNnpRMnN4WF9sREtEQVZfLWdwTUthZlFwci1UX2NxWGwyamNOYlgtcmU3VENGWDh4eG9rdWZrM0RmRkhWaTZ2cUlWM3ZTQld4ZjUwNGlRblFGV3c?oc=5",
+"time": "2026-11-10T00:55:35+00:00",
+"stage": "얼럿"
+}
+],
+"level": "URGENT",
+"latest": "황우석 “차 한잔 하자더니 UAE 국적 줬다…한국 국적 회복 신청”",
+"tok": [
+"UAE",
+"국적",
+"신청",
+"줬다",
+"하자더니",
+"한국",
+"한잔",
+"황우석",
+"회복"
+]
+},
 {
 "id": "XFmYlhDRlFBYUZOMEVqUQoc51600",
 "first": "2026-11-09T16:00:06+00:00",
@@ -3812,38 +3846,6 @@
 "엉뚱",
 "퍼진"
 ]
-},
-{
-"id": "nkRSSLINKcooperRSSREADER2232",
-"first": "2026-11-09T22:32:17+00:00",
-"last": "2026-11-09T22:32:17+00:00",
-"updated": "2026-11-09T22:34:00.784149+00:00",
-"headline": "훈련 도중 쏜 공포탄…\"통제력 잃어\" 대대장 해명",
-"cat": "기타",
-"regions": [],
-"sources": [
-"SBS"
-],
-"updates": [
-{
-"title": "[단독] 훈련 도중 쏜 공포탄…\"통제력 잃어\" 대대장 해명",
-"source": "SBS",
-"link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008837872&plink=RSSLINK&cooper=RSSREADER",
-"time": "2026-11-09T22:32:17+00:00",
-"stage": "단독"
-}
-],
-"level": "URGENT",
-"latest": "훈련 도중 쏜 공포탄…\"통제력 잃어\" 대대장 해명",
-"tok": [
-"공포탄",
-"대대장",
-"도중",
-"잃어",
-"통제력",
-"해명",
-"훈련"
-]
 }
 ],
 "sns": {
@@ -3854,8 +3856,8 @@
 "spike": false
 },
 "화재": {
-"n30": 3,
-"base": 0.6,
+"n30": 1,
+"base": 0.5,
 "spike": false
 },
 "불났": {
@@ -3884,12 +3886,12 @@
 "spike": false
 },
 "미사일": {
-"n30": 2,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
 "속보": {
-"n30": 6,
+"n30": 5,
 "base": 0.1,
 "spike": true
 },
@@ -3900,7 +3902,7 @@
 },
 "사고": {
 "n30": 3,
-"base": 3.7,
+"base": 3.6,
 "spike": false
 },
 "실종": {
@@ -4145,24 +4147,24 @@
 "spikes": [
 {
 "term": "속보",
-"n30": 6,
+"n30": 5,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-10T00:59:20.236810+00:00"
+"since": "2026-11-10T01:02:00.090391+00:00"
 }
 ],
 "baseline": {
 "지진": 0.05,
-"화재": 0.5,
+"화재": 0.45,
 "불났": 0.05,
 "정전": 0.05,
 "폭발": 0.05,
-"붕괴": 0.09,
+"붕괴": 0.08,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 1.31,
-"사고": 3.65,
+"지하철": 1.28,
+"사고": 3.58,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
