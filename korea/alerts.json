@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-10T19:55:31.445450+00:00",
+"updated": "2026-11-10T19:57:46.774327+00:00",
 "errors": [],
 "events": [
 {
@@ -1991,47 +1991,6 @@
 "신뢰체계",
 "탓에"
 ]
-},
-{
-"id": "AUGPYFFZCPVIOEGTQBQDFHPM1318",
-"first": "2026-11-10T13:18:30+00:00",
-"last": "2026-11-10T13:57:00+00:00",
-"updated": "2026-11-10T15:45:03.768519+00:00",
-"headline": "헤그세스 “전쟁중인 장관 탄핵 소추는 웃긴 얘기”",
-"cat": "정치",
-"regions": [],
-"sources": [
-"조선일보"
-],
-"updates": [
-{
-"title": "[속보] 헤그세스 “전쟁중인 장관 탄핵 소추는 웃긴 얘기”",
-"source": "조선일보",
-"link": "https://www.chosun.com/international/us/2026/11/10/LGAUGPYFFZCPVIOEGTQBQDFHPM/",
-"time": "2026-11-10T13:18:30+00:00",
-"stage": "얼럿"
-},
-{
-"title": "헤그세스 \"전쟁 중인 장관 탄핵 소추는 웃긴 얘기\"",
-"source": "조선일보",
-"link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOMHRTa1lXLVg4Q3BNamhRMFhFYTYxN05fNXZtSWpwTlhNMW1jRTZnSDZVVjMtc0VGeHVqYnZZWUFuRElUblE2clFraXVsUzdZajNyRGlmR2tCR1F0cnFzbzFadEhPa1k5VmZWcUtWZlQ3UnpxOE84LW5Ra1JIVTgyczVPUXg?oc=5",
-"time": "2026-11-10T13:57:00+00:00",
-"stage": "후속"
-}
-],
-"level": "BULLETIN",
-"latest": "헤그세스 \"전쟁 중인 장관 탄핵 소추는 웃긴 얘기\"",
-"tok": [
-"소추",
-"얘기",
-"웃긴",
-"장관",
-"전쟁",
-"전쟁중인",
-"중인",
-"탄핵",
-"헤그세스"
-]
 }
 ],
 "sns": {
@@ -2042,7 +2001,7 @@
 "spike": false
 },
 "화재": {
-"n30": 6,
+"n30": 5,
 "base": 0.1,
 "spike": true
 },
@@ -2057,7 +2016,7 @@
 "spike": false
 },
 "폭발": {
-"n30": 4,
+"n30": 2,
 "base": 0.1,
 "spike": false
 },
@@ -2072,7 +2031,7 @@
 "spike": false
 },
 "미사일": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -2284,15 +2243,15 @@
 "spikes": [
 {
 "term": "화재",
-"n30": 6,
+"n30": 5,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-10T19:55:31.445450+00:00"
+"since": "2026-11-10T19:57:46.774327+00:00"
 }
 ],
 "baseline": {
 "지진": 0.05,
-"화재": 0.11,
+"화재": 0.1,
 "불났": 0.05,
 "정전": 0.05,
 "폭발": 0.05,
@@ -2301,9 +2260,9 @@
 "미사일": 0.05,
 "속보": 0.05,
 "지하철": 0.05,
-"사고": 0.18,
+"사고": 0.16,
 "실종": 0.05,
-"단수": 0.08,
+"단수": 0.07,
 "통신 장애": 0.05,
 "먹통": 0.05,
 "산불": 0.05
