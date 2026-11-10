@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-10T15:22:20.951106+00:00",
+"updated": "2026-11-10T15:24:36.869766+00:00",
 "errors": [],
 "events": [
 {
@@ -3446,54 +3446,6 @@
 "중부고속도",
 "추돌사고처리중"
 ]
-},
-{
-"id": "1UtNGVqZDQ5R2Y2YmVYSQoc50826",
-"first": "2026-11-10T08:26:00+00:00",
-"last": "2026-11-10T09:24:13+00:00",
-"updated": "2026-11-10T09:25:58.330319+00:00",
-"headline": "이 대통령 \"이주노동자는 동료이자 이웃… 노동 가치 다르지 않아\"",
-"cat": "정치",
-"regions": [],
-"sources": [
-"뉴시스",
-"대전일보"
-],
-"updates": [
-{
-"title": "[속보] 이 대통령 \"이주노동자는 동료이자 이웃… 노동 가치 다르지 않아\"",
-"source": "대전일보",
-"link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5GbDN4MUlUeC13TlVEdTFlQXZsVnowWVoxeXRLVUlMODc5bzg2b0MzbGVzMkd5ZXU4NHlsclV0amQ1ZzNzdE5fYVpkbVBkYzA3Y0JCcnVrZnlzbjUzUDEtS1UtNGVqZDQ5R2Y2YmVYSQ?oc=5",
-"time": "2026-11-10T08:26:00+00:00",
-"stage": "얼럿"
-},
-{
-"title": "[속보] 이 대통령 \"이주노동자는 동료이자 이웃… 노동 가치 다르지 않아\" |",
-"source": "대전일보",
-"link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5yR3NXMlhZXy13U290Q0hsWFp4NGxQcGg5SVY0RkVOX1lhLS1xeG9hMlllaWJybVUzZnJYeTVCQjA2Zzd6MUZfdzdULW9UaDJ2cFZqSy03aGxEbENLVVR6Wk1YUkR5SGk3NE5YTlhrc1V6cUU?oc=5",
-"time": "2026-11-10T08:35:13+00:00",
-"stage": "속보"
-},
-{
-"title": "이 대통령 \"이주노동자 동료이자 이웃…노동 가치 다르지 않아\"(종합)",
-"source": "뉴시스",
-"link": "https://www.newsis.com/view/NISX20261110_0003862772",
-"time": "2026-11-10T09:24:13+00:00",
-"stage": "종합"
-}
-],
-"level": "URGENT",
-"latest": "이 대통령 \"이주노동자 동료이자 이웃…노동 가치 다르지 않아\"",
-"tok": [
-"가치",
-"노동",
-"다르지",
-"대통령",
-"동료이자",
-"않아",
-"이웃",
-"이주노동자"
-]
 }
 ],
 "sns": {
@@ -3525,7 +3477,7 @@
 },
 "붕괴": {
 "n30": 2,
-"base": 0.4,
+"base": 0.3,
 "spike": false
 },
 "대피": {
@@ -3545,7 +3497,7 @@
 },
 "지하철": {
 "n30": 5,
-"base": 0.5,
+"base": 0.4,
 "spike": true
 },
 "사고": {
@@ -3807,37 +3759,37 @@
 "n30": 5,
 "base": 0.4,
 "spike": true,
-"since": "2026-11-10T15:22:20.951106+00:00"
+"since": "2026-11-10T15:24:36.869766+00:00"
 },
 {
 "term": "속보",
 "n30": 5,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-10T15:22:20.951106+00:00"
+"since": "2026-11-10T15:24:36.869766+00:00"
 },
 {
 "term": "지하철",
 "n30": 5,
-"base": 0.5,
+"base": 0.4,
 "spike": true,
-"since": "2026-11-10T15:22:20.951106+00:00"
+"since": "2026-11-10T15:24:36.869766+00:00"
 }
 ],
 "baseline": {
-"지진": 0.27,
+"지진": 0.24,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.39,
-"붕괴": 0.33,
+"폭발": 0.35,
+"붕괴": 0.3,
 "대피": 0.05,
-"미사일": 0.12,
+"미사일": 0.11,
 "속보": 0.05,
-"지하철": 0.41,
+"지하철": 0.37,
 "사고": 5.04,
-"실종": 0.56,
-"단수": 0.2,
+"실종": 0.5,
+"단수": 0.18,
 "통신 장애": 0.05,
 "먹통": 0.05,
 "산불": 0.05
@@ -4102,7 +4054,7 @@
 },
 {
 "term": "한수아",
-"traffic": "100+",
+"traffic": "200+",
 "time": "2026-11-10T12:10:00+00:00",
 "news": [
 {
