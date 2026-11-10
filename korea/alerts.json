@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-10T14:59:10.445271+00:00",
+"updated": "2026-11-10T15:01:26.797253+00:00",
 "errors": [],
 "events": [
 {
@@ -121,7 +121,7 @@
 "id": "wNISX20261110_00038628351055",
 "first": "2026-11-10T10:55:07+00:00",
 "last": "2026-11-10T14:30:48+00:00",
-"updated": "2026-11-10T14:31:44.416870+00:00",
+"updated": "2026-11-10T15:01:26.797253+00:00",
 "headline": "금융권 보안 담당 금융보안원도 뚫렸다…해킹으로 정보 유출",
 "cat": "기타",
 "regions": [],
@@ -195,6 +195,13 @@
 "source": "연합뉴스",
 "link": "https://www.yna.co.kr/view/AKR20261110174751002",
 "time": "2026-11-10T14:07:55+00:00",
+"stage": "후속"
+},
+{
+"title": "금융보안원도 해킹…금융사 보안평가 정보 일부 유출",
+"source": "연합뉴스TV",
+"link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBaMENXWXRISnM0NlVLWV90YmFiNXJTbDRYUE9nYm1HUE1BdXNHYUF0bllzSjFNOEZhYy1QZkhURTltN1A5NkJmcEs5N0hWQXlaNkYtY0NlcG92QjB1Q21zREFzcU1NQXM?oc=5",
+"time": "2026-11-10T14:19:00+00:00",
 "stage": "후속"
 },
 {
@@ -3722,84 +3729,13 @@
 "뮤직퍼레이드",
 "중구문화재단"
 ]
-},
-{
-"id": "aRTMzS283dl9rRlQ0M2czoc50900",
-"first": "2026-11-10T09:00:41+00:00",
-"last": "2026-11-10T09:00:41+00:00",
-"updated": "2026-11-10T09:10:09.237694+00:00",
-"headline": "에코프로비엠 종속회사, 6271억원 규모 유상증자 결정…인도네시아 제련소 지분 취득 목적",
-"cat": "기타",
-"regions": [],
-"sources": [
-"CBC뉴스"
-],
-"updates": [
-{
-"title": "[속보] 에코프로비엠 종속회사, 6271억원 규모 유상증자 결정…인도네시아 제련소 지분 취득 목적",
-"source": "CBC뉴스",
-"link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBkSUh6eWtyLV9BTzdYYXhzclRlUXQxZWc0d29FTjFwQkFFWVc0eDFRbDh5NVhLUkFMN2Nqci1JWEFZNkJGQmFqTzRpZXZFUXR4dFY5RDJITFZaRTMzS283dl9rRlQ0M2cz?oc=5",
-"time": "2026-11-10T09:00:41+00:00",
-"stage": "얼럿"
-}
-],
-"level": "URGENT",
-"latest": "에코프로비엠 종속회사, 6271억원 규모 유상증자 결정…인도네시아 제련소 지분 취득 목적",
-"tok": [
-"6271억원",
-"결정",
-"규모",
-"목적",
-"에코프로비엠",
-"유상증자",
-"인도네시아",
-"제련소",
-"종속회사",
-"지분",
-"취득"
-]
-},
-{
-"id": "wNISX20261110_00038613710859",
-"first": "2026-11-10T08:59:32+00:00",
-"last": "2026-11-10T08:59:32+00:00",
-"updated": "2026-11-10T09:01:08.891105+00:00",
-"headline": "강원 산림 탄소흡수·산불예방…산림청 평가서 잇단 '우수'",
-"cat": "재난",
-"regions": [
-"강원"
-],
-"sources": [
-"뉴시스"
-],
-"updates": [
-{
-"title": "강원 산림 탄소흡수·산불예방…산림청 평가서 잇단 '우수'",
-"source": "뉴시스",
-"link": "https://www.newsis.com/view/NISX20261110_0003861371",
-"time": "2026-11-10T08:59:32+00:00",
-"stage": "1보"
-}
-],
-"level": "ALERT",
-"latest": "강원 산림 탄소흡수·산불예방…산림청 평가서 잇단 '우수'",
-"tok": [
-"강원",
-"산림",
-"산림청",
-"산불예방",
-"우수",
-"잇단",
-"탄소흡수",
-"평가서"
-]
 }
 ],
 "sns": {
 "terms": {
 "지진": {
 "n30": 0,
-"base": 0.9,
+"base": 0.8,
 "spike": false
 },
 "화재": {
@@ -3819,11 +3755,11 @@
 },
 "폭발": {
 "n30": 3,
-"base": 1.2,
+"base": 1.1,
 "spike": false
 },
 "붕괴": {
-"n30": 2,
+"n30": 1,
 "base": 0.7,
 "spike": false
 },
@@ -3833,8 +3769,8 @@
 "spike": false
 },
 "미사일": {
-"n30": 1,
-"base": 0.4,
+"n30": 0,
+"base": 0.3,
 "spike": false
 },
 "속보": {
@@ -3848,7 +3784,7 @@
 "spike": false
 },
 "사고": {
-"n30": 3,
+"n30": 4,
 "base": 3.1,
 "spike": false
 },
@@ -3879,6 +3815,16 @@
 }
 },
 "posts": [
+{
+"text": "쌤이 해주신 학교 부지에 얽힌 이야기\n원래 남고 부지엿는데 남자애들이 뛰어놀다가 사고 크게날까봐 여고랑 부지 바꿨다고함\n진짜인지아닌진 모르겠지만 남자애들이 다녔으면 진짜 사고날만한 부지긴해서 진짜같기도하고......",
+"handle": "3arron.bsky.social",
+"name": "세밤",
+"time": "2026-11-10T15:01:11.772Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/3arron.bsky.social/post/3mzxpgqdgds2n",
+"term": "사고"
+},
 {
 "text": "파판 자캐 이름\n에이멜임\n특 빛전임\n그리고 사고 잘침\n점프를 자주 함",
 "handle": "ddoggu.bsky.social",
@@ -4131,21 +4077,21 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 0.78,
+"지진": 0.7,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 1.1,
-"붕괴": 0.71,
+"폭발": 0.99,
+"붕괴": 0.74,
 "대피": 0.05,
-"미사일": 0.33,
+"미사일": 0.3,
 "속보": 0.05,
-"지하철": 0.64,
-"사고": 3.06,
-"실종": 1.35,
-"단수": 0.56,
+"지하철": 0.68,
+"사고": 3.15,
+"실종": 1.32,
+"단수": 0.5,
 "통신 장애": 0.05,
-"먹통": 0.1,
+"먹통": 0.09,
 "산불": 0.05
 },
 "errors": [],
@@ -4493,14 +4439,14 @@
 "time": "2026-11-10T10:50:00+00:00",
 "news": [
 {
-"title": "“17만원 VIP석도 무대 안보여”…악뮤 강릉 콘서트 불만 폭발",
-"source": "동아일보",
-"link": "https://www.donga.com/news/Society/article/all/20261109/134989499/1"
+"title": "“17만 원대 좌석인데 시야 가려”…악뮤 강릉 콘서트에 관객 불만",
+"source": "YTN",
+"link": "https://www.ytn.co.kr/_ln/0117_202611091159360525"
 },
 {
-"title": "“지하철 같아” 악뮤, 강릉 공연 ‘시야 논란’ 의식 했나…좌석 배치 변경",
-"source": "매일경제",
-"link": "https://www.mk.co.kr/news/musics/12204190"
+"title": "\"17만 원 냈는데\"…악뮤 공연 시야 제한 논란",
+"source": "연합뉴스TV",
+"link": "https://www.yonhapnewstv.co.kr/news/MYH20261109100939Eid"
 }
 ],
 "new": true
