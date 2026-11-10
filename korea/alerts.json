@@ -1,12 +1,12 @@
 {
-"updated": "2026-11-10T13:41:28.279022+00:00",
+"updated": "2026-11-10T13:43:45.609078+00:00",
 "errors": [],
 "events": [
 {
 "id": "k2NVB1aVNTRlVnbHdaeVMoc51333",
 "first": "2026-11-10T13:33:21+00:00",
-"last": "2026-11-10T13:38:55+00:00",
-"updated": "2026-11-10T13:41:28.279022+00:00",
+"last": "2026-11-10T13:39:18+00:00",
+"updated": "2026-11-10T13:43:45.609078+00:00",
 "headline": "미국 CPI 전월 대비 0.4% 상승",
 "cat": "국제",
 "regions": [],
@@ -14,6 +14,7 @@
 "CBC뉴스",
 "뉴시스",
 "블록미디어",
+"스페셜타임스",
 "연합뉴스",
 "한국경제"
 ],
@@ -54,15 +55,29 @@
 "stage": "속보"
 },
 {
+"title": "[속보] 美 10월 CPI 전월보다 0.4%↑…핵심CPI는 0.3% 상승",
+"source": "한국경제",
+"link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBnUFBXc2xpSHJJQWYwM2ZiOU9od18zbjRMeFg1MjJEX0hWcTNtWVBEV3AzUVhOR2NSX05LUXl4Tlk4QjI4ZWRqb0tjeEkza2JWSEtJMkxyLS14Zw?oc=5",
+"time": "2026-11-10T13:36:44+00:00",
+"stage": "속보"
+},
+{
 "title": "미 10월 소비자물가 0.4% 올라…근원물가는 0.2% 상승(2보)",
 "source": "뉴시스",
 "link": "https://www.newsis.com/view/NISX20261110_0003862898",
 "time": "2026-11-10T13:38:55+00:00",
 "stage": "2보"
+},
+{
+"title": "[속보] 미국 10월 소비자물가 전월 대비 0.4% 상승, 전망치 상회",
+"source": "스페셜타임스",
+"link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5pcUdvbDdPT3k2YkIxU0ZqMXlrNjVzSVZ5QTg2VlVOYXlyUDlCaVpRTHd5SDNzMjg4ZnVkSHpzLWNFT0pvRWdrcFdub0dqWU9vT0tJUm4wcmhEdDBlTkJCbkV5cFNDUXAtdnFYbDVqbXEyUQ?oc=5",
+"time": "2026-11-10T13:39:18+00:00",
+"stage": "속보"
 }
 ],
 "level": "URGENT",
-"latest": "미 10월 소비자물가 0.4% 올라…근원물가는 0.2% 상승",
+"latest": "미국 10월 소비자물가 전월 대비 0.4% 상승, 전망치 상회",
 "tok": [
 "10월",
 "CPI",
@@ -78,9 +93,39 @@
 "올라",
 "전망치",
 "전월",
+"전월보다",
 "전월비",
 "촉각",
+"핵심CPI",
 "흐름"
+]
+},
+{
+"id": "1kdXRSbmdkMUt4bjNVRUkoc51338",
+"first": "2026-11-10T13:38:31+00:00",
+"last": "2026-11-10T13:38:31+00:00",
+"updated": "2026-11-10T13:43:45.609078+00:00",
+"headline": "비트코인 7만3000달러대 하락",
+"cat": "기타",
+"regions": [],
+"sources": [
+"블록미디어"
+],
+"updates": [
+{
+"title": "[속보] 비트코인 7만3000달러대 하락",
+"source": "블록미디어",
+"link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBvd0piSTdxanQ2d2tFZUxZNVdDZl9mZTNEcWhpeXAtVlFWYW5nVFAzRVRqXzRCMUhvSEJKUTVUMk9TVE4tTTMyTk1kdXRSbmdkMUt4bjNVRUk?oc=5",
+"time": "2026-11-10T13:38:31+00:00",
+"stage": "얼럿"
+}
+],
+"level": "URGENT",
+"latest": "비트코인 7만3000달러대 하락",
+"tok": [
+"7만3000달러대",
+"비트코인",
+"하락"
 ]
 },
 {
@@ -4091,7 +4136,7 @@
 "terms": {
 "지진": {
 "n30": 3,
-"base": 0.6,
+"base": 0.7,
 "spike": false
 },
 "화재": {
@@ -4115,8 +4160,8 @@
 "spike": true
 },
 "붕괴": {
-"n30": 3,
-"base": 0.7,
+"n30": 2,
+"base": 0.6,
 "spike": false
 },
 "대피": {
@@ -4141,12 +4186,12 @@
 },
 "사고": {
 "n30": 3,
-"base": 1.5,
+"base": 1.6,
 "spike": false
 },
 "실종": {
 "n30": 0,
-"base": 0.8,
+"base": 0.7,
 "spike": false
 },
 "단수": {
@@ -4205,7 +4250,7 @@
 "handle": "mudeul.bsky.social",
 "name": "무들",
 "time": "2026-11-10T13:30:54.080Z",
-"likes": 2,
+"likes": 3,
 "reposts": 0,
 "url": "https://bsky.app/profile/mudeul.bsky.social/post/3mzxkfawv62ik",
 "term": "사고"
@@ -4435,29 +4480,29 @@
 "n30": 7,
 "base": 0.2,
 "spike": true,
-"since": "2026-11-10T13:41:28.279022+00:00"
+"since": "2026-11-10T13:43:45.609078+00:00"
 },
 {
 "term": "속보",
 "n30": 5,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-10T13:41:28.279022+00:00"
+"since": "2026-11-10T13:43:45.609078+00:00"
 }
 ],
 "baseline": {
-"지진": 0.74,
+"지진": 0.87,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.2,
-"붕괴": 0.62,
+"폭발": 0.18,
+"붕괴": 0.56,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.3,
-"사고": 1.64,
-"실종": 0.72,
+"지하철": 0.27,
+"사고": 1.78,
+"실종": 0.65,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
