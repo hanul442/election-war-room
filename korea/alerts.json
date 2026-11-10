@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-10T11:10:18.119383+00:00",
+"updated": "2026-11-10T11:12:32.173334+00:00",
 "errors": [],
 "events": [
 {
@@ -48,14 +48,15 @@
 {
 "id": "WhYZGxkOFNPRkZxOUQ5dwoc51045",
 "first": "2026-11-10T10:45:30+00:00",
-"last": "2026-11-10T11:02:15+00:00",
-"updated": "2026-11-10T11:10:18.119383+00:00",
+"last": "2026-11-10T11:05:36+00:00",
+"updated": "2026-11-10T11:12:32.173334+00:00",
 "headline": "금융보안원도 해킹으로 정보유출",
 "cat": "기타",
 "regions": [],
 "sources": [
 "edaily.co.kr",
 "경기일보",
+"동아일보",
 "아이뉴스24",
 "연합뉴스",
 "조선일보",
@@ -133,10 +134,17 @@
 "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE16d3ozMzl6bzdxdkZ4ZFlUeGV5Ql9ja25UaXRnOHZjTWlsTC1tR0tnb1NGTk9xVVNCLUh1elZnaEdqSU1nQ0RCTFJyS0NNTEJSOXhJb1RzVUtlNkU?oc=5",
 "time": "2026-11-10T11:02:15+00:00",
 "stage": "속보"
+},
+{
+"title": "[속보]금융보안 전담기관 금융보안원도 해킹 정보유출",
+"source": "동아일보",
+"link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5GWVFfdmRlSWhwNzZSaUU2bGR5VEtISTQ2Y3JMTmVCSnJCX3B6LWw2SzJrRWd3VGQ5Vk01TEh1dnkzN1VnaU95bWlKNnE5U2JYVEgybThtNGZTeXBlc3FQTTN5VDUxSjZ6MzhN0gFmQVVfeXFMTW50QlFWcGljVm1KNmdMcGpJcFlldmN6TFpuekRvUU9uSDYwclZfc2JoVVptN2E2X2VuOEpDMDUyS1N3dnU0Y3ptVmJHaTVfd2o4OXVsd0FhSW5DSUVILUFXZWFuZFVR?oc=5",
+"time": "2026-11-10T11:05:36+00:00",
+"stage": "속보"
 }
 ],
 "level": "URGENT",
-"latest": "“금융보안 문지기마저”...금융보안원, 해킹으로 정보유출",
+"latest": "금융보안 전담기관 금융보안원도 해킹 정보유출",
 "tok": [
 "개인정보",
 "금융보안",
@@ -3849,7 +3857,7 @@
 "terms": {
 "지진": {
 "n30": 2,
-"base": 0.9,
+"base": 0.8,
 "spike": false
 },
 "화재": {
@@ -3889,12 +3897,12 @@
 },
 "속보": {
 "n30": 7,
-"base": 0.5,
+"base": 0.6,
 "spike": true
 },
 "지하철": {
-"n30": 1,
-"base": 1.6,
+"n30": 2,
+"base": 1.5,
 "spike": false
 },
 "사고": {
@@ -3924,17 +3932,27 @@
 },
 "산불": {
 "n30": 0,
-"base": 0.2,
+"base": 0.1,
 "spike": false
 }
 },
 "posts": [
 {
+"text": "지인의 부고를 듣고 그 소식을 전하다 지하철에서 펑펑 울고 들어온 나를 위로하며 이모님께서 너무 그 감정에 오래 머물러 있지마 나를 갉아먹어. 과메기 배달왔어 그거 먹어 하고 가셨다. 이모님은 아마도 날 살리러 오신 분이 맞는 거 같다...",
+"handle": "jijimi.bsky.social",
+"name": "Jijimi",
+"time": "2026-11-10T11:10:49.676Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/jijimi.bsky.social/post/3mzxckr2yac26",
+"term": "지하철"
+},
+{
 "text": "아니 지금 탄 지하철 계속 노이지한 소리 들리고 유난히 덜컹거려\n여기까진가.../ㄴㄴ",
 "handle": "bdaegam.bsky.social",
 "name": "대감💙❤️",
 "time": "2026-11-10T11:05:00.374Z",
-"likes": 0,
+"likes": 1,
 "reposts": 0,
 "url": "https://bsky.app/profile/bdaegam.bsky.social/post/3mzxcacvazc2w",
 "term": "지하철"
@@ -4156,28 +4174,28 @@
 {
 "term": "속보",
 "n30": 7,
-"base": 0.5,
+"base": 0.6,
 "spike": true,
-"since": "2026-11-10T11:10:18.119383+00:00"
+"since": "2026-11-10T11:12:32.173334+00:00"
 }
 ],
 "baseline": {
-"지진": 0.84,
+"지진": 0.76,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.29,
+"폭발": 0.26,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.56,
-"지하철": 1.53,
-"사고": 4.82,
+"속보": 0.6,
+"지하철": 1.58,
+"사고": 4.84,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
-"산불": 0.14
+"산불": 0.13
 },
 "errors": [],
 "ytPosts": [
