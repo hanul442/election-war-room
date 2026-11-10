@@ -1,12 +1,46 @@
 {
-"updated": "2026-11-10T22:33:36.881983+00:00",
+"updated": "2026-11-10T22:35:53.933803+00:00",
 "errors": [],
 "events": [
+{
+"id": "viewAKR202611110175000042228",
+"first": "2026-11-10T22:28:21+00:00",
+"last": "2026-11-10T22:28:21+00:00",
+"updated": "2026-11-10T22:35:53.933803+00:00",
+"headline": "용산구, 한파 대비 총력…\"쉼터·편의시설 확충\"",
+"cat": "재난",
+"regions": [
+"서울"
+],
+"sources": [
+"연합뉴스"
+],
+"updates": [
+{
+"title": "용산구, 한파 대비 총력…\"쉼터·편의시설 확충\"",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261111017500004",
+"time": "2026-11-10T22:28:21+00:00",
+"stage": "1보"
+}
+],
+"level": "ALERT",
+"latest": "용산구, 한파 대비 총력…\"쉼터·편의시설 확충\"",
+"tok": [
+"대비",
+"쉼터",
+"용산구",
+"총력",
+"편의시설",
+"한파",
+"확충"
+]
+},
 {
 "id": "paaFJHQjBGNUdQS3dTT0Uoc51505",
 "first": "2026-11-10T15:05:45+00:00",
 "last": "2026-11-10T22:26:34+00:00",
-"updated": "2026-11-10T22:31:19.671479+00:00",
+"updated": "2026-11-10T22:35:53.933803+00:00",
 "headline": "뉴욕증시, 11일 다우 226포인트 하락…나스닥 상승 전환, 러셀2000 약세",
 "cat": "경제",
 "regions": [],
@@ -65,6 +99,13 @@
 "title": "[속보] '젠슨 황 리스크' 엔비디아, 5.53%↓…뉴욕증시, 예상 웃돈 물가에 일제히 하락",
 "source": "데일리안",
 "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFB2eFpNdncyQnhkVUsyMU13VWF4SGRVUTlqckQzcTdVNFN0UFRSaUhESFlXcVVlaU8xcW5ESWFhcWM2aVB0ZS1DV1UtRVpJM2lIcmdSSDZBVQ?oc=5",
+"time": "2026-11-10T21:36:00+00:00",
+"stage": "속보"
+},
+{
+"title": "[속보] '젠슨 황 리스크' 엔비디아, 5.53%↓…뉴욕증시, 예상 웃돈 물가에 일제히 하락",
+"source": "데일리안",
+"link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE03ME56NXo3TWR5a04yMWVmT05XS20xeTJGWmlINDFlTzNDRVVSMHlOTnBVaFBDNVFYQkQzblVDYzdkMmpzRW9valRtQ3pBdDNSLUk4?oc=5",
 "time": "2026-11-10T21:36:00+00:00",
 "stage": "속보"
 },
@@ -2106,7 +2147,7 @@
 },
 "폭발": {
 "n30": 5,
-"base": 0.8,
+"base": 0.7,
 "spike": true
 },
 "붕괴": {
@@ -2125,18 +2166,18 @@
 "spike": false
 },
 "속보": {
-"n30": 9,
+"n30": 8,
 "base": 0.1,
 "spike": true
 },
 "지하철": {
-"n30": 4,
+"n30": 3,
 "base": 0.1,
 "spike": false
 },
 "사고": {
 "n30": 1,
-"base": 0.4,
+"base": 0.3,
 "spike": false
 },
 "실종": {
@@ -2387,16 +2428,16 @@
 {
 "term": "폭발",
 "n30": 5,
-"base": 0.8,
+"base": 0.7,
 "spike": true,
-"since": "2026-11-10T22:33:36.881983+00:00"
+"since": "2026-11-10T22:35:53.933803+00:00"
 },
 {
 "term": "속보",
-"n30": 9,
+"n30": 8,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-10T22:33:36.881983+00:00"
+"since": "2026-11-10T22:35:53.933803+00:00"
 }
 ],
 "baseline": {
@@ -2404,13 +2445,13 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.69,
+"폭발": 0.62,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
 "지하철": 0.05,
-"사고": 0.33,
+"사고": 0.3,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -2704,9 +2745,9 @@
 "link": "https://www.yna.co.kr/view/AKR20261110148200005"
 },
 {
-"title": "‘올림픽 6관왕’ 빅토르 안, ‘스피드퀸’ 히든 코치 합류…전이경이 직접 제안",
-"source": "스포츠동아",
-"link": "https://sports.donga.com/ent/article/all/20261110/134999243/1"
+"title": "'러시아 귀화' 빅토르 안, 국내 예능 출연…쇼트트랙 코치로 합류 - 머니투데이",
+"source": "머니투데이",
+"link": "https://www.mt.co.kr/entertainment/2026/11/10/2026111014380579096"
 }
 ],
 "new": true
@@ -2749,7 +2790,7 @@
 },
 {
 "term": "아들",
-"traffic": "2000+",
+"traffic": "5000+",
 "time": "2026-11-10T21:00:00+00:00",
 "news": [
 {
