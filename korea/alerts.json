@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-10T22:08:36.293379+00:00",
+"updated": "2026-11-10T22:10:51.138135+00:00",
 "errors": [],
 "events": [
 {
@@ -381,7 +381,7 @@
 "id": "Gs1dnFSRXdJc1REaUVWdwoc52149",
 "first": "2026-11-10T21:49:59+00:00",
 "last": "2026-11-10T21:49:59+00:00",
-"updated": "2026-11-10T21:54:50.887797+00:00",
+"updated": "2026-11-10T22:10:51.138135+00:00",
 "headline": "수도권제1순환고속도로 화물차관련 사고처리중",
 "cat": "교통",
 "regions": [],
@@ -395,6 +395,13 @@
 "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5jNFVHdEd5SUh4MWwyV2NpSXlQaGZlSUFpUGkyR3kzUzN4bVhmVUVMbElfbDFVMkFIak0yS1E4b2tJdGxaeVl3VTdycTlqVkFwRjNqOFk2UFpOTzZ6UWdwc0lQWGs1dnFSRXdJc1REaUVWdw?oc=5",
 "time": "2026-11-10T21:49:59+00:00",
 "stage": "얼럿"
+},
+{
+"title": "[속보] 수도권제1순환고속도로 화물차관련 사고처리중",
+"source": "스페셜타임스",
+"link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1aeWZQQ1dYMEI3aGR0OVJZcm8zQ2xoOHZfUG9xLWZrMVUzLVVmeWVwUzl4UTF3Skx4R1ZkZlhhNW1laU9SM1NtZkVRRzV5ZVpRREx6ZTBxTXRKcjJyUXEtRnN4Ym1iMGZkLXdvZDl2REZXY0k?oc=5",
+"time": "2026-11-10T21:49:59+00:00",
+"stage": "속보"
 }
 ],
 "level": "URGENT",
@@ -2019,9 +2026,9 @@
 "spike": false
 },
 "폭발": {
-"n30": 5,
-"base": 0.2,
-"spike": true
+"n30": 4,
+"base": 0.3,
+"spike": false
 },
 "붕괴": {
 "n30": 0,
@@ -2050,7 +2057,7 @@
 },
 "사고": {
 "n30": 1,
-"base": 0.6,
+"base": 0.7,
 "spike": false
 },
 "실종": {
@@ -2085,7 +2092,7 @@
 "handle": "y-jb.bsky.social",
 "name": "YJ🌶JB의 두번째 이야기🎬",
 "time": "2026-11-10T22:02:37.790Z",
-"likes": 5,
+"likes": 6,
 "reposts": 0,
 "url": "https://bsky.app/profile/y-jb.bsky.social/post/3mzygy37grk2e",
 "term": "폭발"
@@ -2326,27 +2333,19 @@
 "url": "https://www.youtube.com/watch?v=Qzs4dQ02JbA"
 }
 ],
-"spikes": [
-{
-"term": "폭발",
-"n30": 5,
-"base": 0.2,
-"spike": true,
-"since": "2026-11-10T22:08:36.293379+00:00"
-}
-],
+"spikes": [],
 "baseline": {
 "지진": 0.05,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.32,
+"폭발": 0.39,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
 "지하철": 0.05,
-"사고": 0.68,
+"사고": 0.71,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
