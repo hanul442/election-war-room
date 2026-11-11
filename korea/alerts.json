@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-11T00:25:05.735097+00:00",
+"updated": "2026-11-11T00:27:19.723032+00:00",
 "errors": [],
 "events": [
 {
@@ -130,17 +130,33 @@
 "id": "FjVVVvWHJtaEIyT3FfWjcoc50021",
 "first": "2026-11-11T00:21:01+00:00",
 "last": "2026-11-11T00:21:51+00:00",
-"updated": "2026-11-11T00:25:05.735097+00:00",
+"updated": "2026-11-11T00:27:19.723032+00:00",
 "headline": "경찰, 서울 성북구서 10대 여성 살해한 50대 남성 긴급 체포",
 "cat": "사회",
 "regions": [
 "서울"
 ],
 "sources": [
+"SBS",
 "edaily.co.kr",
-"뉴스1"
+"뉴스1",
+"연합뉴스"
 ],
 "updates": [
+{
+"title": "경찰, 성북구서 10대 여성 살해한 50대 남성 긴급체포",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261111041700004",
+"time": "2026-11-11T00:17:09+00:00",
+"stage": "후속"
+},
+{
+"title": "성북구서 10대 여성 살해 50대 긴급체포…경찰 수사 중",
+"source": "SBS",
+"link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008840389&plink=RSSLINK&cooper=RSSREADER",
+"time": "2026-11-11T00:20:52+00:00",
+"stage": "후속"
+},
 {
 "title": "[속보] 경찰, 서울 성북구서 10대 여성 살해한 50대 남성 긴급 체포",
 "source": "뉴스1",
@@ -169,6 +185,7 @@
 "서울",
 "성북구",
 "성북구서",
+"수사",
 "여성",
 "체포"
 ]
@@ -899,13 +916,14 @@
 "id": "WlLYUdZUmRBSC1DaWJtZwoc52314",
 "first": "2026-11-10T23:14:41+00:00",
 "last": "2026-11-11T00:15:12+00:00",
-"updated": "2026-11-11T00:18:12.036909+00:00",
+"updated": "2026-11-11T00:27:19.723032+00:00",
 "headline": "분당 사거리서 시내버스가 차 10여대 추돌…\"부상자 다수\"",
 "cat": "교통",
 "regions": [
 "경기"
 ],
 "sources": [
+"KBS 뉴스",
 "MBC 뉴스",
 "SBS",
 "경인일보",
@@ -1012,6 +1030,13 @@
 "stage": "속보"
 },
 {
+"title": "[속보] 소방 \"분당 버스 10여대 추돌사고 부상자 30여명\"",
+"source": "뉴스1",
+"link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5fLXcyV29NVGlOZUEtLUIyUzlQSHM5THcwQWp1NnAydURaNEdmZTVrTjZEVUZoQnNYa3BPYUw0dXk3eVF4YUotOXhkbzZYWlBLUzBaUmNR?oc=5",
+"time": "2026-11-10T23:57:18+00:00",
+"stage": "속보"
+},
+{
 "title": "[속보] 경기 분당서 출근길 17대 연쇄추돌···10여명 부상",
 "source": "연합뉴스TV",
 "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE02NEQwZjlCc0tPbVVlVzN0cVlRSUpTQTNXb082b2NZTHdzSXhuMjBER3pPWWJTMHlscXJ0NnZZbGFyTzJEa1VscGsyMnNHdWZoLWp1bjZMYWpqRG5XZGl6TFJpcFY5dGs?oc=5",
@@ -1030,6 +1055,13 @@
 "source": "SBS",
 "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008840342&plink=RSSLINK&cooper=RSSREADER",
 "time": "2026-11-11T00:07:19+00:00",
+"stage": "후속"
+},
+{
+"title": "분당서 버스·승용차 등 17대 연쇄 충돌 사고…구조 작업 진행중",
+"source": "KBS 뉴스",
+"link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE51OFNtZEFkWFBZVHI0ZWVvRTdJdS1VUlpaY290MEVIaHhxZ1FwRFhYczItNFJaRE9odmh5SEhDbndBM3htRUF0ZVA5WURIMExVNm42T21BUElZRHc?oc=5",
+"time": "2026-11-11T00:14:00+00:00",
 "stage": "후속"
 },
 {
@@ -1066,6 +1098,7 @@
 "사거리서",
 "사고",
 "성남",
+"소방",
 "소방당국",
 "송내IC",
 "수도권제1순환로서",
@@ -1076,12 +1109,12 @@
 "음주운전",
 "음주운전차량",
 "인명",
+"작업",
+"진행중",
 "차량",
 "추돌",
 "추돌사고",
-"출근길",
-"충격",
-"확인"
+"출근길"
 ]
 },
 {
@@ -3878,7 +3911,7 @@
 "terms": {
 "지진": {
 "n30": 0,
-"base": 0.4,
+"base": 0.3,
 "spike": false
 },
 "화재": {
@@ -3898,7 +3931,7 @@
 },
 "폭발": {
 "n30": 2,
-"base": 0.4,
+"base": 0.3,
 "spike": false
 },
 "붕괴": {
@@ -4184,23 +4217,23 @@
 "n30": 6,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-11T00:25:05.735097+00:00"
+"since": "2026-11-11T00:27:19.723032+00:00"
 }
 ],
 "baseline": {
-"지진": 0.35,
+"지진": 0.32,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.33,
+"폭발": 0.3,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.71,
-"사고": 1.92,
+"지하철": 0.74,
+"사고": 1.93,
 "실종": 0.05,
-"단수": 0.13,
+"단수": 0.12,
 "통신 장애": 0.05,
 "먹통": 0.05,
 "산불": 0.05
@@ -4416,7 +4449,7 @@
 "link": "https://programs.sbs.co.kr/enter/dongsang2/clip/52007/OC483092133"
 }
 ],
-"new": true
+"new": false
 },
 {
 "term": "광주시",
