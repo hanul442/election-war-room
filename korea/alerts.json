@@ -1,7 +1,55 @@
 {
-"updated": "2026-11-11T08:20:36.002979+00:00",
+"updated": "2026-11-11T08:22:49.675574+00:00",
 "errors": [],
 "events": [
+{
+"id": "VNxR01uaVNGRXJrVzRhdwoc50729",
+"first": "2026-11-11T07:29:37+00:00",
+"last": "2026-11-11T08:18:33+00:00",
+"updated": "2026-11-11T08:22:49.675574+00:00",
+"headline": "호남고속도로 승용차 단독 사고 처리중",
+"cat": "교통",
+"regions": [
+"경기",
+"충북"
+],
+"sources": [
+"스페셜타임스"
+],
+"updates": [
+{
+"title": "[속보] 호남고속도로 승용차 단독 사고 처리중",
+"source": "스페셜타임스",
+"link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9zckYyM3hDZHFUNmZTQXdwUktmLWwtcE0zV01ZWFRHWkI3V3owNk5EY3A0MU1hMWd6T1BIb0pSVlhoczBydGk0b29ZRWgtZ1kweVpUdGtpNkhkdGdERGticlR5eVNxR01uaVNGRXJrVzRhdw?oc=5",
+"time": "2026-11-11T07:29:37+00:00",
+"stage": "얼럿"
+},
+{
+"title": "[속보] 세종포천고속도로 승용차 관련 사고 처리중",
+"source": "스페셜타임스",
+"link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9NWlJYU3BTU0xXUEpqbXFCSm84bDNmMTFDOVVVcG9ZcUttd1RPOXI4U1E0LWlaWUJmRHFleVV2QkNoQ3JPVG1SSndKU1BJS0ZXWUZZS0tpSC1SS0VPZnplMnlpankxeUhBLTNBMmo3MWJBQQ?oc=5",
+"time": "2026-11-11T08:18:15+00:00",
+"stage": "속보"
+},
+{
+"title": "[속보] 영동고속도로 승용차 관련 사고 처리중",
+"source": "스페셜타임스",
+"link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9LLVZMTHRsLUZvcHk5emYwOGh1cFR5cTZjTDNHUW9YcTVfS3QxSlRLMUM0dE1zZDU1U0hPRld4QnYzTXAxd3pBR09Sb080ZFAtQTZ6dDhBU0dJX1FBeHM4SnRjbWxaM2VMQzhUYjJHeTNSZw?oc=5",
+"time": "2026-11-11T08:18:33+00:00",
+"stage": "속보"
+}
+],
+"level": "URGENT",
+"latest": "영동고속도로 승용차 관련 사고 처리중",
+"tok": [
+"사고",
+"세종포천고속도",
+"승용차",
+"영동고속도",
+"처리중",
+"호남고속도"
+]
+},
 {
 "id": "viewAKR202611111547000170807",
 "first": "2026-11-11T08:07:30+00:00",
@@ -1505,35 +1553,6 @@
 "아동",
 "전과",
 "찜질방서"
-]
-},
-{
-"id": "VNxR01uaVNGRXJrVzRhdwoc50729",
-"first": "2026-11-11T07:29:37+00:00",
-"last": "2026-11-11T07:29:37+00:00",
-"updated": "2026-11-11T07:33:14.907875+00:00",
-"headline": "호남고속도로 승용차 단독 사고 처리중",
-"cat": "교통",
-"regions": [],
-"sources": [
-"스페셜타임스"
-],
-"updates": [
-{
-"title": "[속보] 호남고속도로 승용차 단독 사고 처리중",
-"source": "스페셜타임스",
-"link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9zckYyM3hDZHFUNmZTQXdwUktmLWwtcE0zV01ZWFRHWkI3V3owNk5EY3A0MU1hMWd6T1BIb0pSVlhoczBydGk0b29ZRWgtZ1kweVpUdGtpNkhkdGdERGticlR5eVNxR01uaVNGRXJrVzRhdw?oc=5",
-"time": "2026-11-11T07:29:37+00:00",
-"stage": "얼럿"
-}
-],
-"level": "URGENT",
-"latest": "호남고속도로 승용차 단독 사고 처리중",
-"tok": [
-"사고",
-"승용차",
-"처리중",
-"호남고속도"
 ]
 },
 {
@@ -3498,7 +3517,7 @@
 },
 "사고": {
 "n30": 3,
-"base": 3.6,
+"base": 3.5,
 "spike": false
 },
 "실종": {
@@ -3508,7 +3527,7 @@
 },
 "단수": {
 "n30": 1,
-"base": 0.2,
+"base": 0.3,
 "spike": false
 },
 "통신 장애": {
@@ -3748,7 +3767,7 @@
 "n30": 8,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-11T08:20:36.002979+00:00"
+"since": "2026-11-11T08:22:49.675574+00:00"
 }
 ],
 "baseline": {
@@ -3756,15 +3775,15 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.06,
+"폭발": 0.05,
 "붕괴": 0.05,
-"대피": 0.64,
+"대피": 0.68,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.53,
-"사고": 3.5,
+"지하철": 0.58,
+"사고": 3.45,
 "실종": 0.05,
-"단수": 0.32,
+"단수": 0.39,
 "통신 장애": 0.05,
 "먹통": 0.05,
 "산불": 0.05
