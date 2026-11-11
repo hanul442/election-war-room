@@ -1,17 +1,18 @@
 {
-"updated": "2026-11-11T12:51:16.059463+00:00",
+"updated": "2026-11-11T12:53:31.665942+00:00",
 "errors": [],
 "events": [
 {
 "id": "hObUpFQkg4X2FIeHVPQTQoc51245",
 "first": "2026-11-11T12:45:41+00:00",
-"last": "2026-11-11T12:48:17+00:00",
-"updated": "2026-11-11T12:51:16.059463+00:00",
+"last": "2026-11-11T12:50:40+00:00",
+"updated": "2026-11-11T12:53:31.665942+00:00",
 "headline": "李대통령, 김민석·한병도와 만찬…\"당정 한마음 한뜻으로 움직여야\"",
 "cat": "정치",
 "regions": [],
 "sources": [
 "뉴스1",
+"뉴시스",
 "파이낸셜뉴스"
 ],
 "updates": [
@@ -28,16 +29,26 @@
 "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE85MGFBRDZLNlJ0NXhGOU11RjVfV2F2dndnd1E4X1J5V3pfNTdDcC1oSXR1aVZ1THVzbWp5Zk5OQXBmeEoxYUtGcGVMcHFKUlJjXzM2cFUyZTI3dw?oc=5",
 "time": "2026-11-11T12:48:17+00:00",
 "stage": "속보"
+},
+{
+"title": "[속보]이 대통령, 김민석·한병도와 만찬서 \"당정 한마음 한뜻 움직여야\"",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261111_0003864551",
+"time": "2026-11-11T12:50:40+00:00",
+"stage": "속보"
 }
 ],
 "level": "URGENT",
-"latest": "李대통령, 김민석·한병도 만찬…\"당정, 한마음 한뜻으로 움직여야\"",
+"latest": "이 대통령, 김민석·한병도와 만찬서 \"당정 한마음 한뜻 움직여야\"",
 "tok": [
 "李대통령",
 "김민석",
 "당정",
+"대통령",
 "만찬",
+"만찬서",
 "움직여야",
+"한뜻",
 "한뜻으",
 "한마음",
 "한병",
@@ -3828,7 +3839,7 @@
 "sns": {
 "terms": {
 "지진": {
-"n30": 1,
+"n30": 0,
 "base": 0.8,
 "spike": false
 },
@@ -3848,7 +3859,7 @@
 "spike": false
 },
 "폭발": {
-"n30": 2,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
@@ -3874,12 +3885,12 @@
 },
 "지하철": {
 "n30": 1,
-"base": 0.5,
+"base": 0.6,
 "spike": false
 },
 "사고": {
 "n30": 2,
-"base": 3.8,
+"base": 3.6,
 "spike": false
 },
 "실종": {
@@ -3899,7 +3910,7 @@
 },
 "먹통": {
 "n30": 0,
-"base": 0.2,
+"base": 0.1,
 "spike": false
 },
 "산불": {
@@ -3924,7 +3935,7 @@
 "handle": "dear-reindeer.bsky.social",
 "name": "사슴",
 "time": "2026-11-11T12:41:46.770Z",
-"likes": 1,
+"likes": 2,
 "reposts": 0,
 "url": "https://bsky.app/profile/dear-reindeer.bsky.social/post/3mzzy4dro2s2x",
 "term": "사고"
@@ -3975,16 +3986,6 @@
 "time": "2026-11-11T12:24:05Z",
 "term": "폭발",
 "url": "https://www.youtube.com/watch?v=oHvQsKYLl3g"
-},
-{
-"text": "【지진 정보】일본 시간 11월 11일 21:13경\n진원: Tachibana Bay (M2.3, 깊이 약 10km)\n최대 진도: 1\n진도 1: 나가사키현\n이 지진으로 인한 쓰나미 걱정은 없습니다.\n(일본 기상청 발표)\n#일본 #지진 #방재",
-"handle": "ko.soramoyou.yk-planning.jp",
-"name": "Soramoyou 한국어",
-"time": "2026-11-11T12:21:34.973Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/ko.soramoyou.yk-planning.jp/post/3mzzwyadmsu2k",
-"term": "지진"
 },
 {
 "platform": "YouTube",
@@ -4160,21 +4161,21 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 0.79,
-"화재": 0.6,
+"지진": 0.71,
+"화재": 0.64,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.11,
-"붕괴": 0.06,
-"대피": 0.74,
-"미사일": 0.06,
+"폭발": 0.1,
+"붕괴": 0.05,
+"대피": 0.77,
+"미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.57,
-"사고": 3.58,
+"지하철": 0.61,
+"사고": 3.42,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
-"먹통": 0.14,
+"먹통": 0.13,
 "산불": 0.05
 },
 "errors": [],
@@ -4382,7 +4383,25 @@
 },
 "trends": [
 {
-"term": "고잔동",
+"term": "더 스카이 184",
+"traffic": "100+",
+"time": "2026-11-11T11:50:00+00:00",
+"news": [
+{
+"title": "볼거리 더한 청라하늘대교, 이용료 부담 덜고 손님맞이",
+"source": "인천일보",
+"link": "https://www.incheonilbo.com/news/articleView.html?idxno=1336467"
+},
+{
+"title": "인천관광공사, THE SKY184 겨울맞이 공연·체험 프로그램 강화",
+"source": "뉴스타운",
+"link": "https://www.newstown.co.kr/news/articleView.html?idxno=721367"
+}
+],
+"new": true
+},
+{
+"term": "고잔동 유독가스",
 "traffic": "500+",
 "time": "2026-11-11T11:40:00+00:00",
 "news": [
@@ -4401,7 +4420,7 @@
 },
 {
 "term": "이종석",
-"traffic": "1000+",
+"traffic": "2000+",
 "time": "2026-11-11T11:30:00+00:00",
 "news": [
 {
@@ -4542,24 +4561,6 @@
 }
 ],
 "new": false
-},
-{
-"term": "김현지",
-"traffic": "100+",
-"time": "2026-11-11T09:40:00+00:00",
-"news": [
-{
-"title": "[단독]이용철, ‘일가족 살해 후 사체 소각’ 흉악범 변호···변론 전략은 “검찰 강압수사”",
-"source": "경향신문",
-"link": "https://www.khan.co.kr/article/202611111041001"
-},
-{
-"title": "[단독] 이용철, 변호사 시절 ‘양평 일가족 살해사건’ 범죄자 변호 이력...대법서 사형 확정",
-"source": "JTBC",
-"link": "https://news.jtbc.co.kr/article/NB12327518"
-}
-],
-"new": true
 }
 ],
 "trendSeen": [
