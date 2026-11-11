@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-11T03:34:49.459728+00:00",
+"updated": "2026-11-11T03:37:03.704531+00:00",
 "errors": [],
 "events": [
 {
@@ -143,12 +143,13 @@
 "id": "GE0QUwzUlZRZFhVeUlmZwoc50201",
 "first": "2026-11-11T02:01:38+00:00",
 "last": "2026-11-11T03:16:57+00:00",
-"updated": "2026-11-11T03:34:49.459728+00:00",
+"updated": "2026-11-11T03:37:03.704531+00:00",
 "headline": "철도노조 \"12월10일 오전 9시부터 무기한 총파업\"",
 "cat": "기타",
 "regions": [],
 "sources": [
 "강원도민일보",
+"강원일보",
 "경기일보",
 "뉴시스",
 "독립신문",
@@ -252,6 +253,13 @@
 "stage": "후속"
 },
 {
+"title": "[속보] 철도노조 “공정한 승진·안전인력 충원 받아들여지지 않으면 12월 10일 오전 9시부터 무기한 총파업”",
+"source": "강원일보",
+"link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5VOTZNYmJOdmYwdVduSXJaaEdaYjhvVE44eDJxRUFYLW9WUDZ5QXoxUWMyWTJJWktrM3dEMU5hRkVhUjVGdkJ6Q0N2VXBnczRiRDhENFRSTHl0b2M?oc=5",
+"time": "2026-11-11T02:55:20+00:00",
+"stage": "속보"
+},
+{
 "title": "[속보] 철도노조, 12월 10일 오전 9시 무기한 총파업 예고…국민 불편·물류 차질 우려",
 "source": "독립신문",
 "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1yWXY2eXBYTDNOdVZ3Y3RUb1RxQk9pU1NuUmZkSm5Uek96OGdaNnhXUWViaGhveUZxVWtwVVRPX1FObG9xZ1ZYMHRIemtpbWFyNTh1Q1RmMGd0Y1ZpcjJtclNRbjZpdGZCS09F?oc=5",
@@ -268,15 +276,18 @@
 "9시",
 "9시부터",
 "공정",
+"공정한",
 "국민",
 "내달",
 "노조",
 "다음",
 "무기한",
 "물류",
+"받아들여지지",
 "불편",
 "승진",
 "안전인력",
+"않으면",
 "예고",
 "오전",
 "요구",
@@ -718,7 +729,7 @@
 "id": "lHOTlydTd5c0NjTHlZSjAoc50228",
 "first": "2026-11-11T02:28:52+00:00",
 "last": "2026-11-11T03:03:00+00:00",
-"updated": "2026-11-11T03:34:49.459728+00:00",
+"updated": "2026-11-11T03:37:03.704531+00:00",
 "headline": "코스닥 매수 사이드카…4%대 급등에 700 문턱",
 "cat": "경제",
 "regions": [],
@@ -816,6 +827,13 @@
 "link": "https://www.yna.co.kr/view/AKR20261111088900008",
 "time": "2026-11-11T02:37:49+00:00",
 "stage": "후속"
+},
+{
+"title": "[속보] 코스닥 4%대 급등…매수 사이드카 발동",
+"source": "더팩트",
+"link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1kTjRnMlpTYlpzZEg5anBjdEFwY0xxejFfYlFDOWgwbnlMbjlKV0tpUGxPSDdKaGhtczhCQ05xTVhzWUF2bFRNUWE5LUxKV1JMSnJhdtIBVEFVX3lxTE1kTjRnMlpTYlpzZEg5anBjdEFwY0xxejFfYlFDOWgwbnlMbjlKV0tpUGxPSDdKaGhtczhCQ05xTVhzWUF2bFRNUWE5LUxKV1JMSnJhdg?oc=5",
+"time": "2026-11-11T02:42:00+00:00",
+"stage": "속보"
 },
 {
 "title": "[속보] 코스닥 4%대 급등…매수 사이드카 발동",
@@ -4534,7 +4552,7 @@
 "terms": {
 "지진": {
 "n30": 1,
-"base": 0.4,
+"base": 0.5,
 "spike": false
 },
 "화재": {
@@ -4553,7 +4571,7 @@
 "spike": false
 },
 "폭발": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -4584,7 +4602,7 @@
 },
 "사고": {
 "n30": 4,
-"base": 4.5,
+"base": 4.4,
 "spike": false
 },
 "실종": {
@@ -4629,7 +4647,7 @@
 "handle": "pyeonjeon.bsky.social",
 "name": "편전",
 "time": "2026-11-11T03:24:10.085Z",
-"likes": 1,
+"likes": 2,
 "reposts": 0,
 "url": "https://bsky.app/profile/pyeonjeon.bsky.social/post/3mzyywd3uwk2i",
 "term": "지진"
@@ -4858,18 +4876,18 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 0.45,
+"지진": 0.51,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.07,
+"폭발": 0.06,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 1.08,
-"사고": 4.41,
-"실종": 0.72,
+"지하철": 1.07,
+"사고": 4.37,
+"실종": 0.75,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -5068,7 +5086,7 @@
 "link": "https://www.newspim.com/news/view/20261111000511"
 }
 ],
-"new": true
+"new": false
 },
 {
 "term": "신동빈",
