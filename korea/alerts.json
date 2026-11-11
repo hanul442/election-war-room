@@ -1,7 +1,49 @@
 {
-"updated": "2026-11-11T05:56:02.799790+00:00",
+"updated": "2026-11-11T05:58:17.496326+00:00",
 "errors": [],
 "events": [
+{
+"id": "XNTZ0pZRTZJV0dxaU5jYwoc50536",
+"first": "2026-11-11T05:36:57+00:00",
+"last": "2026-11-11T05:53:00+00:00",
+"updated": "2026-11-11T05:58:17.496326+00:00",
+"headline": "이 대통령 \"농지·농협 개혁, CPTPP도 농민 도움 되도록 추진\"",
+"cat": "정치",
+"regions": [],
+"sources": [
+"대전일보",
+"이코노미스트"
+],
+"updates": [
+{
+"title": "[속보] 이 대통령 \"농지·농협 개혁, CPTPP도 농민 도움 되도록 추진\"",
+"source": "대전일보",
+"link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1pbmNHMGlzOUtRaktodHNhQlhMYWdzNWsxeGNZOFdUR2JjNHUwTF81aDg5cXk3Y1pwek5OVktGSU9XLTN5Wk84MUVMWE1JM1U2RGZnR3QzRHotWWlQZzF0RXNTZ0pZRTZJV0dxaU5jYw?oc=5",
+"time": "2026-11-11T05:36:57+00:00",
+"stage": "얼럿"
+},
+{
+"title": "[속보]李 대통령 \"농지·농협 개혁, CPTPP도 농민 도움 되도록 추진\"",
+"source": "이코노미스트",
+"link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE83OFdraHJfVWl2MHhjSjE5S0lWdUVwVHhKNm5Dd1g3NzBTVlJCODBrTnRyWjdhaGs2RGc2NW0wUktEenhKSVhRRXhuX1piTTlYMHZWSFNYM2hfbHBhMFY2eUVR?oc=5",
+"time": "2026-11-11T05:53:00+00:00",
+"stage": "속보"
+}
+],
+"level": "URGENT",
+"latest": "李 대통령 \"농지·농협 개혁, CPTPP도 농민 도움 되도록 추진\"",
+"tok": [
+"CPTPP",
+"개혁",
+"농민",
+"농지",
+"농협",
+"대통령",
+"도움",
+"되도록",
+"추진"
+]
+},
 {
 "id": "wNISX20261111_00038633840116",
 "first": "2026-11-11T01:16:24+00:00",
@@ -337,40 +379,6 @@
 "지금이라",
 "한동훈",
 "현장영상"
-]
-},
-{
-"id": "XNTZ0pZRTZJV0dxaU5jYwoc50536",
-"first": "2026-11-11T05:36:57+00:00",
-"last": "2026-11-11T05:36:57+00:00",
-"updated": "2026-11-11T05:56:02.799790+00:00",
-"headline": "이 대통령 \"농지·농협 개혁, CPTPP도 농민 도움 되도록 추진\"",
-"cat": "정치",
-"regions": [],
-"sources": [
-"대전일보"
-],
-"updates": [
-{
-"title": "[속보] 이 대통령 \"농지·농협 개혁, CPTPP도 농민 도움 되도록 추진\"",
-"source": "대전일보",
-"link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1pbmNHMGlzOUtRaktodHNhQlhMYWdzNWsxeGNZOFdUR2JjNHUwTF81aDg5cXk3Y1pwek5OVktGSU9XLTN5Wk84MUVMWE1JM1U2RGZnR3QzRHotWWlQZzF0RXNTZ0pZRTZJV0dxaU5jYw?oc=5",
-"time": "2026-11-11T05:36:57+00:00",
-"stage": "얼럿"
-}
-],
-"level": "URGENT",
-"latest": "이 대통령 \"농지·농협 개혁, CPTPP도 농민 도움 되도록 추진\"",
-"tok": [
-"CPTPP",
-"개혁",
-"농민",
-"농지",
-"농협",
-"대통령",
-"도움",
-"되도록",
-"추진"
 ]
 },
 {
@@ -4150,9 +4158,9 @@
 "spike": false
 },
 "폭발": {
-"n30": 5,
+"n30": 4,
 "base": 0.9,
-"spike": true
+"spike": false
 },
 "붕괴": {
 "n30": 4,
@@ -4170,23 +4178,23 @@
 "spike": false
 },
 "속보": {
-"n30": 8,
+"n30": 7,
 "base": 0.1,
 "spike": true
 },
 "지하철": {
 "n30": 0,
-"base": 1.2,
+"base": 1.1,
 "spike": false
 },
 "사고": {
 "n30": 2,
-"base": 3.0,
+"base": 2.9,
 "spike": false
 },
 "실종": {
 "n30": 0,
-"base": 0.9,
+"base": 0.8,
 "spike": false
 },
 "단수": {
@@ -4451,22 +4459,15 @@
 ],
 "spikes": [
 {
-"term": "폭발",
-"n30": 5,
-"base": 0.9,
-"spike": true,
-"since": "2026-11-11T05:56:02.799790+00:00"
-},
-{
 "term": "속보",
-"n30": 8,
+"n30": 7,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-11T05:56:02.799790+00:00"
+"since": "2026-11-11T05:58:17.496326+00:00"
 }
 ],
 "baseline": {
-"지진": 0.12,
+"지진": 0.11,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
@@ -4475,9 +4476,9 @@
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 1.09,
-"사고": 2.86,
-"실종": 0.85,
+"지하철": 0.98,
+"사고": 2.77,
+"실종": 0.77,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
