@@ -1,7 +1,42 @@
 {
-"updated": "2026-11-11T10:08:22.301679+00:00",
+"updated": "2026-11-11T10:10:38.896102+00:00",
 "errors": [],
 "events": [
+{
+"id": "wNISX20261111_00038644671007",
+"first": "2026-11-11T10:07:40+00:00",
+"last": "2026-11-11T10:07:40+00:00",
+"updated": "2026-11-11T10:10:38.896102+00:00",
+"headline": "파주 도로서 5t 화물차 화재…일대 극심한 정체",
+"cat": "재난",
+"regions": [
+"경기"
+],
+"sources": [
+"뉴시스"
+],
+"updates": [
+{
+"title": "파주 도로서 5t 화물차 화재…일대 극심한 정체",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261111_0003864467",
+"time": "2026-11-11T10:07:40+00:00",
+"stage": "1보"
+}
+],
+"level": "ALERT",
+"latest": "파주 도로서 5t 화물차 화재…일대 극심한 정체",
+"tok": [
+"5t",
+"극심한",
+"도로서",
+"일대",
+"정체",
+"파주",
+"화물차",
+"화재"
+]
+},
 {
 "id": "RfSE8xQzA2Yi12Q2tfX28oc50643",
 "first": "2026-11-11T06:43:00+00:00",
@@ -3633,34 +3668,6 @@
 "중수청",
 "폐단"
 ]
-},
-{
-"id": "GlpQWJGOHNDQXlUQmZXZwoc50641",
-"first": "2026-11-11T06:41:43+00:00",
-"last": "2026-11-11T06:41:43+00:00",
-"updated": "2026-11-11T06:47:07.942013+00:00",
-"headline": "중부내륙고속도로 화물차관련 사고처리중",
-"cat": "교통",
-"regions": [],
-"sources": [
-"스페셜타임스"
-],
-"updates": [
-{
-"title": "[속보] 중부내륙고속도로 화물차관련 사고처리중",
-"source": "스페셜타임스",
-"link": "https://news.google.com/rss/articles/CBMickFVX3lxTFB6Y3RXR3dtSDZCQ2dyVWI3ZFNBMHFra2dmdmJDXzVScVZUSnBGN0dYVldiMl9mT1hrQVhlVnd0VGh0TXkyM3l3OVlyRlV4WEUzSnlhbER4QlJzcHNZQlNuNjFsUGlpQWJGOHNDQXlUQmZXZw?oc=5",
-"time": "2026-11-11T06:41:43+00:00",
-"stage": "얼럿"
-}
-],
-"level": "URGENT",
-"latest": "중부내륙고속도로 화물차관련 사고처리중",
-"tok": [
-"사고처리중",
-"중부내륙고속도",
-"화물차관련"
-]
 }
 ],
 "sns": {
@@ -3707,17 +3714,17 @@
 },
 "속보": {
 "n30": 0,
-"base": 0.5,
+"base": 0.4,
 "spike": false
 },
 "지하철": {
 "n30": 0,
-"base": 0.5,
+"base": 0.4,
 "spike": false
 },
 "사고": {
 "n30": 4,
-"base": 2.4,
+"base": 2.6,
 "spike": false
 },
 "실종": {
@@ -3736,8 +3743,8 @@
 "spike": false
 },
 "먹통": {
-"n30": 2,
-"base": 1.2,
+"n30": 1,
+"base": 1.3,
 "spike": false
 },
 "산불": {
@@ -3821,20 +3828,10 @@
 "handle": "k1mokto.bsky.social",
 "name": "😎김빨판🍒",
 "time": "2026-11-11T09:42:57.071Z",
-"likes": 5,
+"likes": 6,
 "reposts": 0,
 "url": "https://bsky.app/profile/k1mokto.bsky.social/post/3mzzo4kbmls2w",
 "term": "사고"
-},
-{
-"text": "- 시스템 부팅이 불가능할 때 USB 미디어 없이도 인터넷을 통해 윈도우를 다시 설치하는 '클라우드 재구축' 복구 기능이 도입되었으며, USB 오디오 먹통 및 그래픽 관련 핵심 버그들이 해결\n\n- 메모리 무결성 기본 활성화\n\n원문 아래 2개 \n\nI tested Windows 11 November 2026 update, here's what's new, improved, and fixed ww",
-"handle": "lunamoth.bsky.social",
-"name": "lunamoth",
-"time": "2026-11-11T09:40:39.577Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/lunamoth.bsky.social/post/3mzznyebbzs2f",
-"term": "먹통"
 },
 {
 "platform": "YouTube",
@@ -3957,20 +3954,20 @@
 "spikes": [],
 "baseline": {
 "지진": 0.05,
-"화재": 0.51,
+"화재": 0.56,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.92,
-"붕괴": 0.11,
+"폭발": 0.93,
+"붕괴": 0.1,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.41,
-"지하철": 0.41,
-"사고": 2.59,
+"속보": 0.37,
+"지하철": 0.37,
+"사고": 2.73,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
-"먹통": 1.31,
+"먹통": 1.28,
 "산불": 0.05
 },
 "errors": [],
