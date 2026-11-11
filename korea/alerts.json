@@ -1,7 +1,41 @@
 {
-"updated": "2026-11-11T12:32:53.870998+00:00",
+"updated": "2026-11-11T12:35:16.238888+00:00",
 "errors": [],
 "events": [
+{
+"id": "wNISX20261111_00038645441233",
+"first": "2026-11-11T12:33:03+00:00",
+"last": "2026-11-11T12:33:03+00:00",
+"updated": "2026-11-11T12:35:16.238888+00:00",
+"headline": "원주 서곡초 인근 창고서 화재…인명피해 없어",
+"cat": "재난",
+"regions": [
+"강원"
+],
+"sources": [
+"뉴시스"
+],
+"updates": [
+{
+"title": "원주 서곡초 인근 창고서 화재…인명피해 없어",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261111_0003864544",
+"time": "2026-11-11T12:33:03+00:00",
+"stage": "1보"
+}
+],
+"level": "ALERT",
+"latest": "원주 서곡초 인근 창고서 화재…인명피해 없어",
+"tok": [
+"서곡초",
+"없어",
+"원주",
+"인근",
+"인명피해",
+"창고서",
+"화재"
+]
+},
 {
 "id": "vM3N5X1VNOGJITzBhU3pnoc51225",
 "first": "2026-11-11T12:25:10+00:00",
@@ -3793,64 +3827,6 @@
 "코스피",
 "회복"
 ]
-},
-{
-"id": "wNISX20261111_00038631340632",
-"first": "2026-11-11T06:32:51+00:00",
-"last": "2026-11-11T07:25:32+00:00",
-"updated": "2026-11-11T07:35:27.445054+00:00",
-"headline": "수협은행 4차 행추위, 차기 은행장 선정 불발…12월 1일 재협의",
-"cat": "경제",
-"regions": [],
-"sources": [
-"뉴시스",
-"이투데이",
-"조선일보"
-],
-"updates": [
-{
-"title": "[속보]수협은행 4차 행추위, 차기 은행장 선정 불발…12월 1일 재협의",
-"source": "뉴시스",
-"link": "https://www.newsis.com/view/NISX20261111_0003863134",
-"time": "2026-11-11T06:32:51+00:00",
-"stage": "얼럿"
-},
-{
-"title": "[속보] 수협은행장 후보 추천, 4차도 불발…12월 1일 재논의",
-"source": "이투데이",
-"link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE95aXBoODNwbDRnYW5Vd2NsT19kaGVBbm5WR0lrU2Y4QVI5MkROMGNxaDRhVk5kR21XLXpJY2phbk5fM0FCcm44dFh4RW5MaWVOclMxYjI1U3kyUzg1S21DUVBSZlhXVjVYSzYyOU9NMTVsNEk0?oc=5",
-"time": "2026-11-11T06:43:00+00:00",
-"stage": "속보"
-},
-{
-"title": "수협은행장 선임 또 불발…다음달 1일 5차 재협의",
-"source": "조선일보",
-"link": "https://www.chosun.com/economy/stock-finance/2026/11/11/GMZWENJVMU2WIZTGGYZGIOBSGI/",
-"time": "2026-11-11T07:25:32+00:00",
-"stage": "후속"
-}
-],
-"level": "URGENT",
-"latest": "수협은행장 선임 또 불발…다음달 1일 5차 재협의",
-"tok": [
-"12월",
-"1일",
-"4차",
-"5차",
-"다음달",
-"불발",
-"선임",
-"선정",
-"수협은행",
-"수협은행장",
-"은행장",
-"재논",
-"재협",
-"차기",
-"추천",
-"행추위",
-"후보"
-]
 }
 ],
 "sns": {
@@ -3861,7 +3837,7 @@
 "spike": false
 },
 "화재": {
-"n30": 0,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
@@ -3877,7 +3853,7 @@
 },
 "폭발": {
 "n30": 8,
-"base": 0.3,
+"base": 0.2,
 "spike": true
 },
 "붕괴": {
@@ -3887,12 +3863,12 @@
 },
 "대피": {
 "n30": 1,
-"base": 0.3,
+"base": 0.4,
 "spike": false
 },
 "미사일": {
 "n30": 1,
-"base": 0.2,
+"base": 0.1,
 "spike": false
 },
 "속보": {
@@ -3902,12 +3878,12 @@
 },
 "지하철": {
 "n30": 1,
-"base": 0.8,
+"base": 0.7,
 "spike": false
 },
 "사고": {
 "n30": 5,
-"base": 3.3,
+"base": 3.5,
 "spike": false
 },
 "실종": {
@@ -3927,7 +3903,7 @@
 },
 "먹통": {
 "n30": 0,
-"base": 0.4,
+"base": 0.3,
 "spike": false
 },
 "산불": {
@@ -3937,6 +3913,16 @@
 }
 },
 "posts": [
+{
+"text": "천안서 하이브리드차가 방음벽 충돌 후 화재…운전자 사망\n\n주님, 세상을 떠난 이들에게 영원한 안식을 주소서.\n위령기도 전문은 아래 글에서 함께 기도하실 수 있습니다.",
+"handle": "jspenzer14.bsky.social",
+"name": "jspenzer14.bsky.social",
+"time": "2026-11-11T12:34:08.374Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/jspenzer14.bsky.social/post/3mzzxonr3v7iw",
+"term": "화재"
+},
 {
 "platform": "YouTube",
 "text": "[이란,미사일도시] “이란 끝났다” 다음 날…지하 ‘미사일 도시’ 공개 #이란 #미사일도시 #지하기지 #트럼프 #혁명수비대 #중동정세 #국제뉴스 #뉴스쇼츠",
@@ -4190,41 +4176,41 @@
 {
 "term": "폭발",
 "n30": 8,
-"base": 0.3,
+"base": 0.2,
 "spike": true,
-"since": "2026-11-11T12:32:53.870998+00:00"
+"since": "2026-11-11T12:35:16.238888+00:00"
 },
 {
 "term": "붕괴",
 "n30": 7,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-11T12:32:53.870998+00:00"
+"since": "2026-11-11T12:35:16.238888+00:00"
 },
 {
 "term": "속보",
 "n30": 5,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-11T12:32:53.870998+00:00"
+"since": "2026-11-11T12:35:16.238888+00:00"
 }
 ],
 "baseline": {
-"지진": 0.51,
-"화재": 0.05,
+"지진": 0.56,
+"화재": 0.15,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.24,
-"붕괴": 0.14,
-"대피": 0.39,
-"미사일": 0.14,
+"폭발": 0.22,
+"붕괴": 0.13,
+"대피": 0.45,
+"미사일": 0.13,
 "속보": 0.05,
-"지하철": 0.69,
-"사고": 3.46,
-"실종": 0.1,
+"지하철": 0.62,
+"사고": 3.61,
+"실종": 0.09,
 "단수": 0.05,
 "통신 장애": 0.05,
-"먹통": 0.33,
+"먹통": 0.3,
 "산불": 0.05
 },
 "errors": [],
@@ -4432,6 +4418,42 @@
 },
 "trends": [
 {
+"term": "이종석",
+"traffic": "1000+",
+"time": "2026-11-11T11:30:00+00:00",
+"news": [
+{
+"title": "‘황후’ 신민아·새로 변신하는 이종석이 낯설다고요? 세계 여성들은 왜 이 장르에 푹 빠졌을까 [이윤정 기자의 소소월드]",
+"source": "경향신문",
+"link": "https://www.khan.co.kr/article/202611111049001"
+},
+{
+"title": "이세영 목걸이, 2000원짜리 테무템?…'재혼 황후' 의상 논란 해명 - 머니투데이",
+"source": "머니투데이",
+"link": "https://www.mt.co.kr/entertainment/2026/11/10/2026111015592940705"
+}
+],
+"new": false
+},
+{
+"term": "외교관",
+"traffic": "200+",
+"time": "2026-11-11T11:30:00+00:00",
+"news": [
+{
+"title": "탈북 외교관 \"김여정 스스로 공주라 생각…말도 안 섞어\"",
+"source": "주간조선",
+"link": "http://weekly.chosun.com/news/articleView.html?idxno=56986"
+},
+{
+"title": "“김여정, 자신이 공주라 생각…외교관과 말도 안 섞어” 탈북 외교관의 증언",
+"source": "문화일보",
+"link": "https://www.munhwa.com/article/11630069"
+}
+],
+"new": true
+},
+{
 "term": "xsmb",
 "traffic": "500+",
 "time": "2026-11-11T11:20:00+00:00",
@@ -4469,7 +4491,7 @@
 },
 {
 "term": "주차장",
-"traffic": "100+",
+"traffic": "200+",
 "time": "2026-11-11T10:30:00+00:00",
 "news": [
 {
@@ -4532,9 +4554,9 @@
 "link": "https://www.yna.co.kr/view/AKR20261111178600007"
 },
 {
-"title": "[사진] 마레이와 유기상, 승리의 기운 가득",
+"title": "[사진] 양홍석, 손끝에 힘을 팍!",
 "source": "조선일보",
-"link": "https://www.chosun.com/sports/sports_photo/2026/11/11/G4YWENDFGZTDKNBXGYYGINJVMI/"
+"link": "https://www.chosun.com/sports/sports_photo/2026/11/11/GQZGEZDEGYYTKY3EHBRDGODEG4/"
 }
 ],
 "new": false
@@ -4574,42 +4596,6 @@
 }
 ],
 "new": true
-},
-{
-"term": "둠스데이",
-"traffic": "100+",
-"time": "2026-11-11T09:30:00+00:00",
-"news": [
-{
-"title": "'어벤져스: 둠스데이' 내한 확정…캡틴 아메리카·토르 한국 온다",
-"source": "YTN",
-"link": "https://www.ytn.co.kr/_sn/0117_202611060938487803"
-},
-{
-"title": "[문화연예 플러스] 지난 9월, 북미 사전 예매액 '670억 원' 돌파",
-"source": "MBC 뉴스",
-"link": "https://imnews.imbc.com/replay/2026/nwtoday/article/6864443_37012.html"
-}
-],
-"new": true
-},
-{
-"term": "의약품",
-"traffic": "5000+",
-"time": "2026-11-11T09:20:00+00:00",
-"news": [
-{
-"title": "내일부터 ‘스시자로’ 국내 반입 가능, 3개월분까지 허용",
-"source": "조선일보",
-"link": "https://www.chosun.com/national/welfare-medical/2026/11/11/QSS7DIPZZNEETBTJBNCT2K3J6M/"
-},
-{
-"title": "[속보]국내 가격의 5분의 1…비만약 ‘스시자로’ 허용된다",
-"source": "문화일보",
-"link": "https://www.munhwa.com/article/11630646"
-}
-],
-"new": false
 }
 ],
 "trendSeen": [
