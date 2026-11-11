@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-11T02:15:18.954780+00:00",
+"updated": "2026-11-11T02:17:32.463560+00:00",
 "errors": [],
 "events": [
 {
@@ -183,6 +183,37 @@
 "타고",
 "화마",
 "휠체어"
+]
+},
+{
+"id": "VNPSm9WMl9TNjAyRm5mQQoc50212",
+"first": "2026-11-11T02:12:38+00:00",
+"last": "2026-11-11T02:12:38+00:00",
+"updated": "2026-11-11T02:17:32.463560+00:00",
+"headline": "당진대전고속도로 승용차 관련 사고처리중",
+"cat": "교통",
+"regions": [
+"대전",
+"충남"
+],
+"sources": [
+"스페셜타임스"
+],
+"updates": [
+{
+"title": "[속보] 당진대전고속도로 승용차 관련 사고처리중",
+"source": "스페셜타임스",
+"link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBuU3lsZHlaTXo0UFJzdHpXRmpnakpGZDhlY0NpSERSZXJnNG1zcU9zYmFkTE0xRUxBaHo3WXhTUHJfcVNHeTlHR3RITnJ3dDdoTkVsM2RQZjhaUkdiY21QV29vdVNPSm9WMl9TNjAyRm5mQQ?oc=5",
+"time": "2026-11-11T02:12:38+00:00",
+"stage": "얼럿"
+}
+],
+"level": "URGENT",
+"latest": "당진대전고속도로 승용차 관련 사고처리중",
+"tok": [
+"당진대전고속도",
+"사고처리중",
+"승용차"
 ]
 },
 {
@@ -4170,55 +4201,13 @@
 "참여한",
 "후보"
 ]
-},
-{
-"id": "K53E75FBEIPM5SC763HUCQ5Q2348",
-"first": "2026-11-10T23:48:25+00:00",
-"last": "2026-11-10T23:48:25+00:00",
-"updated": "2026-11-10T23:55:17.672851+00:00",
-"headline": "이용철 법무장관 후보자, 李 사건 공소취소 질문에 “지금은 진상 규명 집중할 때”",
-"cat": "정치",
-"regions": [],
-"sources": [
-"조선일보"
-],
-"updates": [
-{
-"title": "[속보] 이용철 법무장관 후보자, 李 사건 공소취소 질문에 \"지금은 진상 규명 집중할 때\"",
-"source": "조선일보",
-"link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNWjZWRXR0NGtVaDEyQ0tQT053SHVFOTJmYmRBWnpGc0d1dEVDOHpoSnpaSzM5ZFBtbFllR1htdXNmeHdhV25aTDVmNW9rUU9UREpZWjlTUXpiVDdTVm5UUFNwLXhOWlE3TFVGZUpIWlZmYVAtdTd6Z25ZbUFjaTd5Q1ZVaGxteG8?oc=5",
-"time": "2026-11-10T23:48:00+00:00",
-"stage": "속보"
-},
-{
-"title": "[속보] 이용철 법무장관 후보자, 李 사건 공소취소 질문에 “지금은 진상 규명 집중할 때”",
-"source": "조선일보",
-"link": "https://www.chosun.com/national/court_law/2026/11/11/NUK53E75FBEIPM5SC763HUCQ5Q/",
-"time": "2026-11-10T23:48:25+00:00",
-"stage": "얼럿"
-}
-],
-"level": "URGENT",
-"latest": "이용철 법무장관 후보자, 李 사건 공소취소 질문에 “지금은 진상 규명 집중할 때”",
-"tok": [
-"공소취소",
-"규명",
-"법무장관",
-"사건",
-"이용철",
-"지금",
-"진상",
-"질문",
-"집중할",
-"후보자"
-]
 }
 ],
 "sns": {
 "terms": {
 "지진": {
 "n30": 2,
-"base": 0.8,
+"base": 0.7,
 "spike": false
 },
 "화재": {
@@ -4238,12 +4227,12 @@
 },
 "폭발": {
 "n30": 7,
-"base": 2.0,
+"base": 1.9,
 "spike": true
 },
 "붕괴": {
 "n30": 2,
-"base": 0.6,
+"base": 0.5,
 "spike": false
 },
 "대피": {
@@ -4258,7 +4247,7 @@
 },
 "속보": {
 "n30": 4,
-"base": 0.7,
+"base": 0.6,
 "spike": false
 },
 "지하철": {
@@ -4268,7 +4257,7 @@
 },
 "사고": {
 "n30": 3,
-"base": 3.1,
+"base": 3.0,
 "spike": false
 },
 "실종": {
@@ -4533,23 +4522,23 @@
 {
 "term": "폭발",
 "n30": 7,
-"base": 2.0,
+"base": 1.9,
 "spike": true,
-"since": "2026-11-11T02:15:18.954780+00:00"
+"since": "2026-11-11T02:17:32.463560+00:00"
 }
 ],
 "baseline": {
-"지진": 0.69,
+"지진": 0.62,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 1.87,
-"붕괴": 0.5,
+"폭발": 1.78,
+"붕괴": 0.45,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.64,
-"지하철": 1.1,
-"사고": 3.05,
+"속보": 0.58,
+"지하철": 1.09,
+"사고": 3.04,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -4838,9 +4827,9 @@
 "time": "2026-11-11T00:40:00+00:00",
 "news": [
 {
-"title": "As Jaylen Brown faces the Celtics for the first time, familiar questions linger",
+"title": "76ers' Brown gives Tatum frosty reception early in 1st post-trade matchup",
 "source": "ESPN",
-"link": "https://www.espn.com/nba/story/_/id/50401325/jaylen-brown-faces-boston-celtics-jayson-tatum-sixers"
+"link": "https://www.espn.com/nba/story/_/id/50447991/76ers-jaylen-brown-gives-jayson-tatum-frosty-reception-early-1st-post-trade-matchup"
 },
 {
 "title": "Jaylen Brown Gives Jayson Tatum Cold Shoulder Before Celtics vs. 76ers Tips Off",
