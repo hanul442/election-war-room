@@ -1,7 +1,38 @@
 {
-"updated": "2026-11-11T22:16:15.292176+00:00",
+"updated": "2026-11-11T22:18:31.270110+00:00",
 "errors": [],
 "events": [
+{
+"id": "01bDB3TXBHM2dleEtCWWIoc52215",
+"first": "2026-11-11T22:15:34+00:00",
+"last": "2026-11-11T22:15:34+00:00",
+"updated": "2026-11-11T22:18:31.270110+00:00",
+"headline": "MSCI, MSTR 지수서 이달 말까지 제외",
+"cat": "기타",
+"regions": [],
+"sources": [
+"블록미디어"
+],
+"updates": [
+{
+"title": "[속보] MSCI, MSTR 지수서 이달 말까지 제외",
+"source": "블록미디어",
+"link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5PdEhfZjVKNnR1VFBJTXVQQmtxZ0xVT1FWMFFUamQzYXNvV1ZDSFJrRXI1dzY0dzdQeTRGQkJ1eUVBbk9XTFhXMS01bDB3TXBHM2dleEtCWWI?oc=5",
+"time": "2026-11-11T22:15:34+00:00",
+"stage": "얼럿"
+}
+],
+"level": "URGENT",
+"latest": "MSCI, MSTR 지수서 이달 말까지 제외",
+"tok": [
+"MSCI",
+"MSTR",
+"말까지",
+"이달",
+"제외",
+"지수서"
+]
+},
 {
 "id": "wNISX20261111_00038645811439",
 "first": "2026-11-11T14:39:13+00:00",
@@ -1466,9 +1497,9 @@
 "spike": false
 },
 "화재": {
-"n30": 5,
+"n30": 1,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "불났": {
 "n30": 0,
@@ -1501,12 +1532,12 @@
 "spike": false
 },
 "속보": {
-"n30": 4,
+"n30": 2,
 "base": 0.1,
 "spike": false
 },
 "지하철": {
-"n30": 3,
+"n30": 2,
 "base": 0.7,
 "spike": false
 },
@@ -1762,18 +1793,11 @@
 ],
 "spikes": [
 {
-"term": "화재",
-"n30": 5,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-11T22:16:15.292176+00:00"
-},
-{
 "term": "폭발",
 "n30": 7,
 "base": 0.3,
 "spike": true,
-"since": "2026-11-11T22:16:15.292176+00:00"
+"since": "2026-11-11T22:18:31.270110+00:00"
 }
 ],
 "baseline": {
@@ -1781,13 +1805,13 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.3,
+"폭발": 0.27,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.71,
-"사고": 0.49,
+"지하철": 0.74,
+"사고": 0.44,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -2085,14 +2109,14 @@
 "time": "2026-11-11T20:50:00+00:00",
 "news": [
 {
+"title": "'이동국 딸' 재아, '테니스 아시아 랭킹 1위'인데 은퇴→골프 전향... \"지속적인 부상·수술\"(내새연2)",
+"source": "조선일보",
+"link": "https://www.chosun.com/entertainments/broadcast/2026/11/11/GMYTSMZWMZQWCMRYGU2TMOJXGA/"
+},
+{
 "title": "이동국 딸 재아 \"테니스 선수에서 골프 선수로 전향\"",
 "source": "뉴시스",
 "link": "https://www.newsis.com/view/NISX20261112_0003864608"
-},
-{
-"title": "연프 최초 '쌍둥이' 출연..이동국 딸 재시, '내새연3' 메기녀 깜짝 등장 '충격'[순간포착]",
-"source": "조선일보",
-"link": "https://www.chosun.com/entertainments/broadcast/2026/11/11/MM4WKNRVME3TSNJVME4WKMLFHA/"
 }
 ],
 "new": false
