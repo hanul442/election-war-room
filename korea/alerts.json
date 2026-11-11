@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-11T11:06:52.910007+00:00",
+"updated": "2026-11-11T11:09:07.463167+00:00",
 "errors": [],
 "events": [
 {
@@ -3754,8 +3754,8 @@
 "sns": {
 "terms": {
 "지진": {
-"n30": 1,
-"base": 0.1,
+"n30": 2,
+"base": 0.2,
 "spike": false
 },
 "화재": {
@@ -3779,8 +3779,8 @@
 "spike": false
 },
 "붕괴": {
-"n30": 2,
-"base": 0.1,
+"n30": 1,
+"base": 0.2,
 "spike": false
 },
 "대피": {
@@ -3790,11 +3790,11 @@
 },
 "미사일": {
 "n30": 1,
-"base": 0.7,
+"base": 0.8,
 "spike": false
 },
 "속보": {
-"n30": 3,
+"n30": 2,
 "base": 0.1,
 "spike": false
 },
@@ -3835,6 +3835,26 @@
 }
 },
 "posts": [
+{
+"text": "지진 난거 아니죠??😳",
+"handle": "chrisoffgspot.bsky.social",
+"name": "크리스",
+"time": "2026-11-11T11:08:29.871Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/chrisoffgspot.bsky.social/post/3mzzsvjjb7c2j",
+"term": "지진"
+},
+{
+"text": "트럼프 — 트럼프가 이란군을 완전히 제거했다고 주장하며 지하 미사일 시설을 공개했다 #트럼프 #News",
+"handle": "handle.invalid",
+"name": "Netasgard News 대한민국",
+"time": "2026-11-11T11:07:17.472Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/handle.invalid/post/3mzzstedlcs24",
+"term": "미사일"
+},
 {
 "text": "🦖 시작하기 전에 게임 소개를 하자면\n🦖 '붕괴:스타레일' 이에요.\n\n아하. 호요버스 게임은 소비 안 해서\n아마도 게임 시작하면 안 보지 않을까.",
 "handle": "oripxl.bsky.social",
@@ -3881,7 +3901,7 @@
 "name": "키르난(Kirnan)",
 "time": "2026-11-11T10:52:40.473Z",
 "likes": 0,
-"reposts": 0,
+"reposts": 1,
 "url": "https://bsky.app/profile/cafeesendial.bsky.social/post/3mzzrz4tvmk2a",
 "term": "사고"
 },
@@ -3930,16 +3950,6 @@
 "time": "2026-11-11T10:39:04Z",
 "term": "속보",
 "url": "https://www.youtube.com/watch?v=Tsro3FHL2G8"
-},
-{
-"text": "전투함에는 기본적으로 대공/전자전 장비들이 들어가고 그게 커버하는 위협에는 당연히 드론이 들어갈 수밖에 없음.\n\n함에 대한 위협으로서 드론과 대함미사일은 경계가 모호한 물건이라.(특히 대양까지 사거리가 닿으면)",
-"handle": "posetino.bsky.social",
-"name": "민주광공 포스티노 창천지소.",
-"time": "2026-11-11T10:38:08.976Z",
-"likes": 0,
-"reposts": 1,
-"url": "https://bsky.app/profile/posetino.bsky.social/post/3mzzr7bmllk2o",
-"term": "미사일"
 },
 {
 "platform": "YouTube",
@@ -4088,21 +4098,21 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 0.24,
-"화재": 0.11,
+"지진": 0.42,
+"화재": 0.1,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.1,
-"붕괴": 0.24,
+"폭발": 0.09,
+"붕괴": 0.32,
 "대피": 0.05,
-"미사일": 0.77,
+"미사일": 0.79,
 "속보": 0.05,
-"지하철": 0.39,
-"사고": 2.8,
+"지하철": 0.35,
+"사고": 2.82,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
-"먹통": 0.54,
+"먹통": 0.59,
 "산불": 0.05
 },
 "errors": [],
