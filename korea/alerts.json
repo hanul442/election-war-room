@@ -1,12 +1,12 @@
 {
-"updated": "2026-11-11T05:12:03.383893+00:00",
+"updated": "2026-11-11T05:14:15.890078+00:00",
 "errors": [],
 "events": [
 {
 "id": "fMFp3THMzcmYxU3Z3LUd3oc50505",
 "first": "2026-11-11T05:05:00+00:00",
 "last": "2026-11-11T05:08:28+00:00",
-"updated": "2026-11-11T05:12:03.383893+00:00",
+"updated": "2026-11-11T05:14:15.890078+00:00",
 "headline": "'미공개정보 주식거래' LG家 구연경·윤관, 항소심서도 무죄",
 "cat": "경제",
 "regions": [],
@@ -24,6 +24,13 @@
 "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE43YXpuMmVubGx6Y1dReVpqdW5acEZOVkVHWmREZkR0eEZlN0UwRUVfNWxmXzVzOEhiNE9KVmotWDdQSVlVRHBhNFlwV2pmZUVZaGdYZGxKVHFLa2VxUzhfMFp3THMzcmYxU3Z3LUd3?oc=5",
 "time": "2026-11-11T05:05:00+00:00",
 "stage": "얼럿"
+},
+{
+"title": "[속보] '미공개정보 주식거래' LG家 구연경·윤관, 항소심서도 무죄",
+"source": "이투데이",
+"link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBQeS1DUGRDMzFCcklQX1E0eEc3WUpWWkFCWkMzY09MRXdOeW9IckhLWTVrWFI1Y2JUNjZwTW9qZjdNTW5qYnpxYUVCVE5pRFd6R3kxcA?oc=5",
+"time": "2026-11-11T05:05:00+00:00",
+"stage": "속보"
 },
 {
 "title": "[속보]'미공개정보 주식거래' LG家 장녀 부부 2심도 무죄",
@@ -470,6 +477,41 @@
 "은행",
 "주식",
 "증가"
+]
+},
+{
+"id": "d3UkVhNm9iNF9UR0lLZUcoc50500",
+"first": "2026-11-11T05:00:37+00:00",
+"last": "2026-11-11T05:00:37+00:00",
+"updated": "2026-11-11T05:14:15.890078+00:00",
+"headline": "쇠파이프에 맞은 시멘트공장 60대 숨져… 금속공장선 1.1t 철구조물에 40대 사망",
+"cat": "사회",
+"regions": [],
+"sources": [
+"서울Pn"
+],
+"updates": [
+{
+"title": "[속보] 쇠파이프에 맞은 시멘트공장 60대 숨져… 금속공장선 1.1t 철구조물에 40대 사망",
+"source": "서울Pn",
+"link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFB6XzdkWVc2RmlOaHE2QkFkbTdSRWtzZElNLTFrUUJ5eG9RcTZKNThCR1BzTVZfTXBYYU96N3BMVVE5TFZ5cVBybVVhNTRCaUY2cVE1eVI3eUktbFY0cmw4UmxJMXpEU2toM21Lb0d3UkVhNm9iNF9UR0lLZUc?oc=5",
+"time": "2026-11-11T05:00:37+00:00",
+"stage": "얼럿"
+}
+],
+"level": "BULLETIN",
+"latest": "쇠파이프에 맞은 시멘트공장 60대 숨져… 금속공장선 1.1t 철구조물에 40대 사망",
+"tok": [
+"1t",
+"40대",
+"60대",
+"금속공장선",
+"맞은",
+"사망",
+"쇠파이프",
+"숨져",
+"시멘트공장",
+"철구조물"
 ]
 },
 {
@@ -4120,47 +4162,13 @@
 "탄핵",
 "특보"
 ]
-},
-{
-"id": "viewAKR202611110610000620119",
-"first": "2026-11-11T01:19:15+00:00",
-"last": "2026-11-11T01:19:15+00:00",
-"updated": "2026-11-11T01:24:15.221566+00:00",
-"headline": "동해시, 영농부산물 파쇄 지원…산불·미세먼지 차단",
-"cat": "재난",
-"regions": [
-"부산"
-],
-"sources": [
-"연합뉴스"
-],
-"updates": [
-{
-"title": "동해시, 영농부산물 파쇄 지원…산불·미세먼지 차단",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261111061000062",
-"time": "2026-11-11T01:19:15+00:00",
-"stage": "1보"
-}
-],
-"level": "ALERT",
-"latest": "동해시, 영농부산물 파쇄 지원…산불·미세먼지 차단",
-"tok": [
-"동해시",
-"미세먼지",
-"산불",
-"영농부산물",
-"지원",
-"차단",
-"파쇄"
-]
 }
 ],
 "sns": {
 "terms": {
 "지진": {
 "n30": 0,
-"base": 1.0,
+"base": 0.9,
 "spike": false
 },
 "화재": {
@@ -4185,7 +4193,7 @@
 },
 "붕괴": {
 "n30": 1,
-"base": 0.5,
+"base": 0.4,
 "spike": false
 },
 "대피": {
@@ -4205,7 +4213,7 @@
 },
 "지하철": {
 "n30": 4,
-"base": 2.2,
+"base": 2.3,
 "spike": false
 },
 "사고": {
@@ -4214,7 +4222,7 @@
 "spike": false
 },
 "실종": {
-"n30": 1,
+"n30": 2,
 "base": 0.7,
 "spike": false
 },
@@ -4240,6 +4248,16 @@
 }
 },
 "posts": [
+{
+"text": "나나후시 씨만큼 인간세계의 상식이 통하지 않고\n가까운 사람들 앞에서 암 생각없이 탈출 마술 중에 실종되어 전설이 되겠다 (근데 그걸 걍 한 귀로 흘리는 미친 아버지 나루호도) 이러고\n자작 인질극 벌이고\n아루마지키 텐사이의 현신급의 인간 재앙 미누키가 좋았던건데 대체 어째서?!?!",
+"handle": "tomaknan.bsky.social",
+"name": "토막",
+"time": "2026-11-11T05:13:37.573Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/tomaknan.bsky.social/post/3mzz72xkkhs2u",
+"term": "실종"
+},
 {
 "text": "다른 사람한테 갖다줬든, 나중에 뒤늦게 발견됐든간에 연락을 줘야되는거 아닌가? 나중에라도 옷을 찾으면 연락달라고 말을 해봤지만, 애초에 이것 밖에 없었다고 딱 잘라버리더라.\n\n아무튼 내 아이보리 실크 셔츠는 그 뒤로 영영 실종됨. 그 세탁소는 다시는 안 감.",
 "handle": "goldenhalla.bsky.social",
@@ -4525,29 +4543,29 @@
 "n30": 9,
 "base": 0.8,
 "spike": true,
-"since": "2026-11-11T05:12:03.383893+00:00"
+"since": "2026-11-11T05:14:15.890078+00:00"
 },
 {
 "term": "속보",
 "n30": 10,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-11T05:12:03.383893+00:00"
+"since": "2026-11-11T05:14:15.890078+00:00"
 }
 ],
 "baseline": {
-"지진": 0.93,
+"지진": 0.84,
 "화재": 0.05,
 "불났": 0.05,
-"정전": 0.19,
-"폭발": 0.78,
-"붕괴": 0.42,
+"정전": 0.17,
+"폭발": 0.8,
+"붕괴": 0.38,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 2.28,
-"사고": 2.65,
-"실종": 0.71,
+"지하철": 2.35,
+"사고": 2.68,
+"실종": 0.84,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -4758,8 +4776,44 @@
 },
 "trends": [
 {
+"term": "총파업",
+"traffic": "2000+",
+"time": "2026-11-11T04:10:00+00:00",
+"news": [
+{
+"title": "[속보] 코레일 노조 \"12월 10일 오전 9시부터 무기한 총파업\"",
+"source": "조선일보",
+"link": "https://www.chosun.com/national/labor/2026/11/11/CLIGBGE3C5BOZBLVTVH4FLFFEI/"
+},
+{
+"title": "철도노조 “내달 10일 오전 9시부터 무기한 총파업”",
+"source": "동아일보",
+"link": "https://www.donga.com/news/Society/article/all/20261111/135005419/2"
+}
+],
+"new": true
+},
+{
+"term": "폴 조지",
+"traffic": "100+",
+"time": "2026-11-11T04:10:00+00:00",
+"news": [
+{
+"title": "[토토 투데이] 브라운-조지, 이적 후 첫 친정팀 맞대결…필라델피아-보스턴 동부 선두 경쟁에 프로토 승부식 발매",
+"source": "OSEN",
+"link": "https://www.osen.co.kr/article/G1112907576"
+},
+{
+"title": "브라운·조지의 '엇갈린 운명'...NBA 보스턴-필라델피아, 프로토 133회차 대상",
+"source": "더팩트",
+"link": "https://news.tf.co.kr/read/toto/2386901.htm"
+}
+],
+"new": true
+},
+{
 "term": "스마일게이트",
-"traffic": "500+",
+"traffic": "1000+",
 "time": "2026-11-11T04:00:00+00:00",
 "news": [
 {
@@ -4807,24 +4861,6 @@
 "title": "\"AI 역량을 근무평정에 반영\"… 강진군, 디지털 행정 혁신 속도",
 "source": "녹색경제신문",
 "link": "https://www.greened.kr/news/articleView.html?idxno=354349"
-}
-],
-"new": true
-},
-{
-"term": "사고",
-"traffic": "1000+",
-"time": "2026-11-11T03:40:00+00:00",
-"news": [
-{
-"title": "출근길 시내버스 31대 연쇄 추돌‥57명 부상",
-"source": "MBC 뉴스",
-"link": "https://imnews.imbc.com/replay/2026/nw1200/article/6864828_36967.html"
-},
-{
-"title": "\"멈추지 않는 버스\"…출근길 차량 32대 연쇄 추돌, 57명 부상 - 머니투데이",
-"source": "머니투데이",
-"link": "https://www.mt.co.kr/society/2026/11/11/2026111111531062870"
 }
 ],
 "new": true
@@ -4892,7 +4928,7 @@
 },
 {
 "term": "경기도지사",
-"traffic": "200+",
+"traffic": "500+",
 "time": "2026-11-11T03:00:00+00:00",
 "news": [
 {
@@ -4907,29 +4943,9 @@
 }
 ],
 "new": true
-},
-{
-"term": "김범",
-"traffic": "200+",
-"time": "2026-11-11T03:00:00+00:00",
-"news": [
-{
-"title": "김범, 해외서 의문의 여성과 포착…턱에 손대자 '깜짝'",
-"source": "뉴시스",
-"link": "https://www.newsis.com/view/NISX20261110_0003862006"
-},
-{
-"title": "“여자 손이 쓱” 김범, 日여행 갔다가 깜짝 열애설..알고보니 지인 ‘해프닝’ [Oh!쎈 이슈]",
-"source": "OSEN",
-"link": "https://www.osen.co.kr/article/G1112908082"
-}
-],
-"new": true
 }
 ],
 "trendSeen": [
-"유연석",
-"유영우",
 "유치원",
 "유튜버",
 "유해란",
@@ -5093,6 +5109,7 @@
 "청약홈",
 "초등학교",
 "총기 난사",
+"총파업",
 "최예나",
 "최우식",
 "최원태",
@@ -5165,6 +5182,7 @@
 "포스코",
 "포티나이너스 대 레이더스",
 "폭탄",
+"폴 조지",
 "폴더블 스마트폰",
 "폴란드 총기난사",
 "표절",
