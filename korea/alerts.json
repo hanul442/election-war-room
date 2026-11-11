@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-11T13:02:42.009345+00:00",
+"updated": "2026-11-11T13:04:57.838236+00:00",
 "errors": [],
 "events": [
 {
@@ -155,13 +155,14 @@
 "id": "hObUpFQkg4X2FIeHVPQTQoc51245",
 "first": "2026-11-11T12:45:41+00:00",
 "last": "2026-11-11T12:54:32+00:00",
-"updated": "2026-11-11T12:58:07.030010+00:00",
+"updated": "2026-11-11T13:04:57.838236+00:00",
 "headline": "李대통령, 김민석·한병도와 만찬…\"당정 한마음 한뜻으로 움직여야\"",
 "cat": "정치",
 "regions": [],
 "sources": [
 "뉴스1",
 "뉴시스",
+"서울경제",
 "연합뉴스",
 "위키트리",
 "파이낸셜뉴스",
@@ -190,6 +191,13 @@
 "stage": "속보"
 },
 {
+"title": "[속보]李대통령, 與지도부와 3시간 만찬…“당정, 한마음 한뜻으로 움직여야”",
+"source": "서울경제",
+"link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBXSVBhY3ExY2hBOXdHejVzNXJkWkRraWtzdkllZ1VLcC12Tng2NnJZLU82UlNGXzNQZGxaX2RnWXJXNkZXVTFCY1U3YmpHYktCZUFDa2VrcG4ta3N5SVlZ0gFTQVVfeXFMUFRSbFNzbEdRN2FnVWRUZU4xQmoyTnNYQkpYTDBYNDN2UGk2QVlaSExoUE11LVVraFRIMGo1ZHF2dDFvRzJTNHFGOFl6b1F6U2xtbjg?oc=5",
+"time": "2026-11-11T12:48:36+00:00",
+"stage": "속보"
+},
+{
 "title": "[속보]이 대통령, 김민석·한병도와 만찬서 \"당정 한마음 한뜻 움직여야\"",
 "source": "뉴시스",
 "link": "https://www.newsis.com/view/NISX20261111_0003864551",
@@ -214,7 +222,9 @@
 "level": "URGENT",
 "latest": "李 대통령, 김민석·한병도와 만찬서 \"당정 한마음 한뜻 움직여야\"",
 "tok": [
+"3시간",
 "李대통령",
+"與지도부",
 "김민석",
 "당정",
 "대책",
@@ -3888,8 +3898,8 @@
 "spike": false
 },
 "화재": {
-"n30": 3,
-"base": 0.7,
+"n30": 2,
+"base": 0.8,
 "spike": false
 },
 "불났": {
@@ -3914,7 +3924,7 @@
 },
 "대피": {
 "n30": 0,
-"base": 0.6,
+"base": 0.5,
 "spike": false
 },
 "미사일": {
@@ -3929,12 +3939,12 @@
 },
 "지하철": {
 "n30": 3,
-"base": 0.7,
+"base": 0.8,
 "spike": false
 },
 "사고": {
 "n30": 1,
-"base": 2.8,
+"base": 2.6,
 "spike": false
 },
 "실종": {
@@ -4181,16 +4191,6 @@
 "reposts": 0,
 "url": "https://bsky.app/profile/dear-reindeer.bsky.social/post/3mzzy4dro2s2x",
 "term": "사고"
-},
-{
-"text": "천안서 하이브리드차가 방음벽 충돌 후 화재…운전자 사망\n\n주님, 세상을 떠난 이들에게 영원한 안식을 주소서.\n위령기도 전문은 아래 글에서 함께 기도하실 수 있습니다.",
-"handle": "jspenzer14.bsky.social",
-"name": "jspenzer14.bsky.social",
-"time": "2026-11-11T12:34:08.374Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/jspenzer14.bsky.social/post/3mzzxonr3v7iw",
-"term": "화재"
 }
 ],
 "spikes": [
@@ -4199,39 +4199,39 @@
 "n30": 7,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-11T13:02:42.009345+00:00"
+"since": "2026-11-11T13:04:57.838236+00:00"
 },
 {
 "term": "붕괴",
 "n30": 5,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-11T13:02:42.009345+00:00"
+"since": "2026-11-11T13:04:57.838236+00:00"
 },
 {
 "term": "속보",
 "n30": 5,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-11T13:02:42.009345+00:00"
+"since": "2026-11-11T13:04:57.838236+00:00"
 }
 ],
 "baseline": {
-"지진": 0.47,
-"화재": 0.77,
+"지진": 0.42,
+"화재": 0.69,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.06,
+"폭발": 0.05,
 "붕괴": 0.05,
-"대피": 0.5,
+"대피": 0.45,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.75,
-"사고": 2.58,
+"지하철": 0.78,
+"사고": 2.42,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
-"먹통": 0.09,
+"먹통": 0.08,
 "산불": 0.05
 },
 "errors": [],
@@ -4440,7 +4440,7 @@
 "trends": [
 {
 "term": "더 스카이 184",
-"traffic": "100+",
+"traffic": "200+",
 "time": "2026-11-11T11:50:00+00:00",
 "news": [
 {
@@ -4494,7 +4494,7 @@
 },
 {
 "term": "외교관",
-"traffic": "200+",
+"traffic": "500+",
 "time": "2026-11-11T11:30:00+00:00",
 "news": [
 {
