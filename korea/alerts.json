@@ -1,7 +1,37 @@
 {
-"updated": "2026-11-11T04:36:43.259427+00:00",
+"updated": "2026-11-11T04:38:53.239034+00:00",
 "errors": [],
 "events": [
+{
+"id": "wNISX20261111_00038637650437",
+"first": "2026-11-11T04:37:37+00:00",
+"last": "2026-11-11T04:37:37+00:00",
+"updated": "2026-11-11T04:38:53.239034+00:00",
+"headline": "오산역 환승센터에 '대형화재' 발생하면?…합동대응훈련",
+"cat": "재난",
+"regions": [],
+"sources": [
+"뉴시스"
+],
+"updates": [
+{
+"title": "오산역 환승센터에 '대형화재' 발생하면?…합동대응훈련",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261111_0003863765",
+"time": "2026-11-11T04:37:37+00:00",
+"stage": "1보"
+}
+],
+"level": "ALERT",
+"latest": "오산역 환승센터에 '대형화재' 발생하면?…합동대응훈련",
+"tok": [
+"대형화재",
+"발생하면",
+"오산역",
+"합동대응훈련",
+"환승센터"
+]
+},
 {
 "id": "GE0QUwzUlZRZFhVeUlmZwoc50201",
 "first": "2026-11-11T02:01:38+00:00",
@@ -4181,52 +4211,13 @@
 "탈서울",
 "했더니"
 ]
-},
-{
-"id": "N3ZXd0RTAwRlBtVG1LdTgoc50052",
-"first": "2026-11-11T00:52:26+00:00",
-"last": "2026-11-11T00:52:26+00:00",
-"updated": "2026-11-11T00:59:22.099454+00:00",
-"headline": "에코프로, 상승 방향 정적 VI 발동…발동가 72,200원",
-"cat": "기타",
-"regions": [],
-"sources": [
-"CBC뉴스"
-],
-"updates": [
-{
-"title": "[속보] 에코프로, 상승 방향 정적 VI 발동…발동가 72,200원",
-"source": "CBC뉴스",
-"link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1JaUV0OFozd1NYcGlzenpRMjNzWE1rWjZvcWRKZTBqZXNfWTFVN25WQnRRREVueUVoMVlWWnlTTUFqcTV5emoyZVdTYUFxNHZUNFpvekJxTlN3ZXd0RTAwRlBtVG1LdTg?oc=5",
-"time": "2026-11-11T00:52:26+00:00",
-"stage": "얼럿"
-},
-{
-"title": "[속보] 에코프로, 상승 방향 정적 VI 발동…발동가 72,200원",
-"source": "CBC뉴스",
-"link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9KVUsxa1JQQWZXa1h6anBoOXMwY3dfUnB0TVZjQjh6U09NUUo5NmhUVktxZTI3NTdpcUdTOW1mNEhYWDU4TmpzV0JyVl90WDNqczFaVmFXZnAyVDdWTWVOVFpycU8zVHlG?oc=5",
-"time": "2026-11-11T00:52:26+00:00",
-"stage": "속보"
-}
-],
-"level": "URGENT",
-"latest": "에코프로, 상승 방향 정적 VI 발동…발동가 72,200원",
-"tok": [
-"200원",
-"VI",
-"발동",
-"방향",
-"상승",
-"에코프",
-"정적"
-]
 }
 ],
 "sns": {
 "terms": {
 "지진": {
 "n30": 2,
-"base": 1.2,
+"base": 1.3,
 "spike": false
 },
 "화재": {
@@ -4251,7 +4242,7 @@
 },
 "붕괴": {
 "n30": 1,
-"base": 0.3,
+"base": 0.4,
 "spike": false
 },
 "대피": {
@@ -4270,17 +4261,17 @@
 "spike": false
 },
 "지하철": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
 "사고": {
 "n30": 5,
-"base": 3.1,
+"base": 3.3,
 "spike": false
 },
 "실종": {
-"n30": 0,
+"n30": 1,
 "base": 0.4,
 "spike": false
 },
@@ -4307,12 +4298,22 @@
 },
 "posts": [
 {
+"text": "왜.. 친절하게 알려주시죠 댁 사공이랑 한패 아니었습니까\n반값 아끼자고 밤에 타러 갔다가 그대로 실종되고 그러는 거 아니니",
+"handle": "0ow5482.bsky.social",
+"name": "영여(괴출계)",
+"time": "2026-11-11T04:36:30.673Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/0ow5482.bsky.social/post/3mzz4yl4ufs24",
+"term": "실종"
+},
+{
 "text": "심지어 포스코의 영업 현황이 녹록치 않은 상황에서 '회사가 망하건 말건 약속대로 작은 수리만하라'고 길길이 날뛰는건 '서울에 사는 내 면을 세워야하니 니들이 고로 폭발의 위험을 안고 살아라는것과 동급의 횡포임. 이따위로 말할 거 같으면 서울에 핵폭탄이 떨어지든 말든 원자로 짓고 쓰레기 소각장 지어서 니들 전기, 쓰레기는 알아서 해결하라고 윽박질러야 맞는거임.",
 "handle": "saemaeulcap.bsky.social",
 "name": "Subsistence",
 "time": "2026-11-11T04:34:07.582Z",
 "likes": 2,
-"reposts": 2,
+"reposts": 3,
 "url": "https://bsky.app/profile/saemaeulcap.bsky.social/post/3mzz4udy6r22y",
 "term": "폭발"
 },
@@ -4322,7 +4323,7 @@
 "name": "Subsistence",
 "time": "2026-11-11T04:32:03.576Z",
 "likes": 1,
-"reposts": 2,
+"reposts": 3,
 "url": "https://bsky.app/profile/saemaeulcap.bsky.social/post/3mzz4qnmln22y",
 "term": "사고"
 },
@@ -4341,7 +4342,7 @@
 "handle": "clawhmr.bsky.social",
 "name": "장도리｢내년 1월까지 접률낮음｣",
 "time": "2026-11-11T04:29:44.078Z",
-"likes": 2,
+"likes": 3,
 "reposts": 1,
 "url": "https://bsky.app/profile/clawhmr.bsky.social/post/3mzz4mfeh7s2v",
 "term": "붕괴"
@@ -4579,18 +4580,18 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 1.32,
+"지진": 1.39,
 "화재": 0.05,
 "불났": 0.05,
-"정전": 0.74,
-"폭발": 0.15,
-"붕괴": 0.39,
+"정전": 0.77,
+"폭발": 0.24,
+"붕괴": 0.45,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.11,
-"사고": 3.33,
-"실종": 0.37,
+"지하철": 0.1,
+"사고": 3.5,
+"실종": 0.43,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -4908,9 +4909,9 @@
 "link": "https://www.yna.co.kr/view/AKR20261111061600007"
 },
 {
-"title": "[MLB] 'PHI 첫 우승 기여·NYY 감독 부친' 밥 분 세상 떠나…향년 78세",
-"source": "뉴스핌",
-"link": "https://www.newspim.com/news/view/20261111000511"
+"title": "[공식발표] '아들이 9년째 양키스 감독' ML 최초 3대 메이저리거 가문 일군 GG 7회 레전드 밥 분 별세, 향년 78세 - 머니투데이",
+"source": "머니투데이",
+"link": "https://www.mt.co.kr/sports/2026/11/11/2026111100450829501"
 }
 ],
 "new": false
