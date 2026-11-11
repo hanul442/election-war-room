@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-11T19:23:28.704532+00:00",
+"updated": "2026-11-11T19:25:45.334991+00:00",
 "errors": [],
 "events": [
 {
@@ -1523,7 +1523,7 @@
 },
 "폭발": {
 "n30": 7,
-"base": 0.5,
+"base": 0.4,
 "spike": true
 },
 "붕괴": {
@@ -1542,7 +1542,7 @@
 "spike": false
 },
 "속보": {
-"n30": 12,
+"n30": 10,
 "base": 0.1,
 "spike": true
 },
@@ -1552,7 +1552,7 @@
 "spike": false
 },
 "사고": {
-"n30": 1,
+"n30": 0,
 "base": 0.9,
 "spike": false
 },
@@ -1764,16 +1764,6 @@
 "url": "https://www.youtube.com/watch?v=cguPyKVGTLY"
 },
 {
-"text": "우울증이나 번아웃이나 기타등등을 지나온 우리의 뇌는... 교통사고당한거가튼?? 상태니깐 천천히... 인내심을 갖고 ㅠㅠ (졸라어렵지만ㅠㅠ) 교통사고 회복과정에서 재활치료 하듯이 ㅠㅠ! 하면 된다고 생각합니다 물론 제가 일케 남일에 조언하니까 쉬운것처럼 말하지만 매번 저도 진짜 개어렵고 조바심나지만요...",
-"handle": "porororong.bsky.social",
-"name": "포로로로로로로롱 🔒",
-"time": "2026-11-11T18:53:32.673Z",
-"likes": 1,
-"reposts": 0,
-"url": "https://bsky.app/profile/porororong.bsky.social/post/3n22mv3p3es2r",
-"term": "사고"
-},
-{
 "platform": "YouTube",
 "text": "#추천 #조회수폭발 #팔로우 #강아지 #fyp",
 "handle": "UC_HWFL9uN91CDVttr-O46cg",
@@ -1823,16 +1813,16 @@
 {
 "term": "폭발",
 "n30": 7,
-"base": 0.5,
+"base": 0.4,
 "spike": true,
-"since": "2026-11-11T19:23:28.704532+00:00"
+"since": "2026-11-11T19:25:45.334991+00:00"
 },
 {
 "term": "속보",
-"n30": 12,
+"n30": 10,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-11T19:23:28.704532+00:00"
+"since": "2026-11-11T19:25:45.334991+00:00"
 }
 ],
 "baseline": {
@@ -1840,13 +1830,13 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.41,
-"붕괴": 0.07,
+"폭발": 0.37,
+"붕괴": 0.06,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.22,
-"사고": 0.87,
+"지하철": 0.2,
+"사고": 0.78,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -2121,24 +2111,6 @@
 "new": true
 },
 {
-"term": "수능날",
-"traffic": "100+",
-"time": "2026-11-11T17:10:00+00:00",
-"news": [
-{
-"title": "광주신세계 \"수험생 위한 보온도시락·텀블러·디저트 준비하세요\"",
-"source": "뉴스1",
-"link": "https://www.news1.kr/local/gwangju-jeonnam/6350261"
-},
-{
-"title": "“수능날 ‘따뜻한 집밥’을 선물하세요”…써모스, 보온도시락 최대 52%",
-"source": "매일경제",
-"link": "https://www.mk.co.kr/news/pick/12205218"
-}
-],
-"new": true
-},
-{
 "term": "구자욱",
 "traffic": "1000+",
 "time": "2026-11-11T17:00:00+00:00",
@@ -2229,24 +2201,6 @@
 "new": false
 },
 {
-"term": "restaurants near me",
-"traffic": "2000+",
-"time": "2026-11-11T14:20:00+00:00",
-"news": [
-{
-"title": "Applebee’s® Honors Veterans & Active Duty Military with Free Meals on Veterans Day",
-"source": "Applebee's",
-"link": "https://www.applebees.com/en/news/2026/veterans-day"
-},
-{
-"title": "Here are the businesses offering free food and discounts for veterans",
-"source": "East Idaho News",
-"link": "https://www.eastidahonews.com/2026/11/here-are-the-businesses-offering-free-food-and-discounts-for-veterans/"
-}
-],
-"new": true
-},
-{
 "term": "채령",
 "traffic": "100+",
 "time": "2026-11-11T14:10:00+00:00",
@@ -2263,6 +2217,42 @@
 }
 ],
 "new": false
+},
+{
+"term": "빵",
+"traffic": "10000+",
+"time": "2026-11-11T14:00:00+00:00",
+"news": [
+{
+"title": "“어차피 버릴 빵, 떨이로 좀 팔지”…사장님들 기를 쓰고 할인 안하는 이유는",
+"source": "매일경제",
+"link": "https://www.mk.co.kr/news/economy/12205568"
+},
+{
+"title": "“어차피 안 팔린 빵, 왜 기를 쓰고 버려요?”…사장님들이 ‘떨이’ 안 하는 이유는",
+"source": "매일경제",
+"link": "https://www.mk.co.kr/news/economy/12205384"
+}
+],
+"new": true
+},
+{
+"term": "라라랜드",
+"traffic": "100+",
+"time": "2026-11-11T14:00:00+00:00",
+"news": [
+{
+"title": "스크린으로 다시 만나는 ‘라라랜드’ ‘더 랍스터’ ‘원스’",
+"source": "국민일보",
+"link": "https://www.kmib.co.kr/article/20261111501973"
+},
+{
+"title": "여전히 꿈꾸는 당신을 위한 ‘라라랜드’, 박스오피스 3위…좌석 8%로 관객 11.3% 모았다",
+"source": "ER 이코노믹리뷰",
+"link": "https://www.econovill.com/news/articleView.html?idxno=756917"
+}
+],
+"new": true
 }
 ],
 "trendSeen": [
