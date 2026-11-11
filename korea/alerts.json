@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-11T09:50:30.841554+00:00",
+"updated": "2026-11-11T09:52:44.781801+00:00",
 "errors": [],
 "events": [
 {
@@ -463,7 +463,7 @@
 "id": "UaEhKaFM5MklyM0h6VlVGoc50852",
 "first": "2026-11-11T08:52:56+00:00",
 "last": "2026-11-11T09:23:56+00:00",
-"updated": "2026-11-11T09:40:44.053318+00:00",
+"updated": "2026-11-11T09:52:44.781801+00:00",
 "headline": "위메이드플레이, 3분기 순손실 24억원…적자 전환",
 "cat": "기타",
 "regions": [],
@@ -478,6 +478,13 @@
 "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFA1ekNZVktkUEIxVFZyYmY1cmRfTGUzTWd2UUMwQ3ZTLUFQUFRlTHFDU1ZWVmtaSFNoOHZKUE85dHRxTHNDRUJmRm11OXl2dm5hS2tJRm1xRnNUaEhKaFM5MklyM0h6VlVG?oc=5",
 "time": "2026-11-11T08:52:56+00:00",
 "stage": "얼럿"
+},
+{
+"title": "[1보] 위메이드플레이, 3분기 영업익 39%↓…환손실에 순이익 적자 전환",
+"source": "www.ebn.co.kr",
+"link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5veXR5Q0U3VWNZSk1XaXJwSjFqNWhlN21GdWYtMDlWbXJwT0tPVUVVcDNDVnU3ZGVOeHRTYWpFQ29rYlZFc21vdktmbWFUcnhmdWk4cnlNQnhaaUZRVXBlUlBXT0J4QU8y?oc=5",
+"time": "2026-11-11T09:12:24+00:00",
+"stage": "후속"
 },
 {
 "title": "KB증권, 국고채 담합 과징금 3322억원 즉시 반영…3분기 순이익 적자 전환",
@@ -500,10 +507,12 @@
 "반영",
 "순손실",
 "순이익",
+"영업익",
 "위메이드플레",
 "적자",
 "전환",
-"즉시"
+"즉시",
+"환손실"
 ]
 },
 {
@@ -3636,7 +3645,7 @@
 },
 "붕괴": {
 "n30": 3,
-"base": 0.3,
+"base": 0.2,
 "spike": false
 },
 "대피": {
@@ -3651,17 +3660,17 @@
 },
 "속보": {
 "n30": 3,
-"base": 1.0,
+"base": 0.9,
 "spike": false
 },
 "지하철": {
 "n30": 1,
-"base": 1.1,
+"base": 1.0,
 "spike": false
 },
 "사고": {
 "n30": 1,
-"base": 2.5,
+"base": 2.4,
 "spike": false
 },
 "실종": {
@@ -3680,8 +3689,8 @@
 "spike": false
 },
 "먹통": {
-"n30": 1,
-"base": 0.3,
+"n30": 2,
+"base": 0.4,
 "spike": false
 },
 "산불": {
@@ -3691,6 +3700,16 @@
 }
 },
 "posts": [
+{
+"text": "- 시스템 부팅이 불가능할 때 USB 미디어 없이도 인터넷을 통해 윈도우를 다시 설치하는 '클라우드 재구축' 복구 기능이 도입되었으며, USB 오디오 먹통 및 그래픽 관련 핵심 버그들이 해결\n\n- 메모리 무결성 기본 활성화\n\n원문 아래 2개 \n\nI tested Windows 11 November 2026 update, here's what's new, improved, and fixed ww",
+"handle": "lunamothryu.bsky.social",
+"name": "lunamoth",
+"time": "2026-11-11T09:51:11.278Z",
+"likes": 0,
+"reposts": 1,
+"url": "https://bsky.app/profile/lunamothryu.bsky.social/post/3mzzol7iga22e",
+"term": "먹통"
+},
 {
 "text": "리츠가 시게오한테 잘해주는 게 마냥 좋아서 잘 해주는 게 아니라 형이 스트레스로 인해서 폭발하지 않도록 맞춰주는 느낌도 있음",
 "handle": "sunchip210917.bsky.social",
@@ -3854,17 +3873,17 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.82,
-"붕괴": 0.23,
+"폭발": 0.84,
+"붕괴": 0.21,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.93,
-"지하철": 0.96,
-"사고": 2.37,
+"속보": 0.84,
+"지하철": 0.86,
+"사고": 2.23,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
-"먹통": 0.39,
+"먹통": 0.55,
 "산불": 0.05
 },
 "errors": [],
@@ -4154,9 +4173,9 @@
 "link": "https://mobile.newsis.com/photo/NISI20261111_0021529465"
 },
 {
-"title": "수능 대비 스마트안경 잡아라...서울시교육청, 전담 요원 연수 개최 - 머니투데이",
-"source": "머니투데이",
-"link": "https://www.mt.co.kr/policy/2026/11/11/2026111118343128616"
+"title": "내신에서 ‘AI 안경’ 추가 적발…수능 D-10 ‘비상’",
+"source": "KBS 뉴스",
+"link": "https://news.kbs.co.kr/news/mobile/view/view.do?ncd=8708148"
 }
 ],
 "new": true
@@ -4172,9 +4191,9 @@
 "link": "https://imnews.imbc.com/news/2026/politics/article/6864817_36911.html"
 },
 {
-"title": "최민희, 취재진에 ’하이에나 떼’…논란 커지자 사과",
-"source": "연합뉴스TV",
-"link": "https://www.yonhapnewstv.co.kr/news/MYH202611111839334iL"
+"title": "[화보] ‘하이에나들’ 최민희 망언에 사진·영상기자협회 강력 규탄",
+"source": "중부일보",
+"link": "http://www.joongboo.com/news/articleView.html?idxno=363742255"
 }
 ],
 "new": false
