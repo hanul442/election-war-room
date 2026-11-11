@@ -1,7 +1,51 @@
 {
-"updated": "2026-11-11T23:03:48.041688+00:00",
+"updated": "2026-11-11T23:06:02.707424+00:00",
 "errors": [],
 "events": [
+{
+"id": "I4RmRHSnBGT3M4VFJlaW8oc52257",
+"first": "2026-11-11T22:57:15+00:00",
+"last": "2026-11-11T23:02:26+00:00",
+"updated": "2026-11-11T23:06:02.707424+00:00",
+"headline": "“사내 임원과 추가 혼외관계 의혹…젠슨 황 해임설 확산”",
+"cat": "기타",
+"regions": [],
+"sources": [
+"SBS",
+"경기일보"
+],
+"updates": [
+{
+"title": "[속보] “사내 임원과 추가 혼외관계 의혹…젠슨 황 해임설 확산”",
+"source": "경기일보",
+"link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFAyOTExMWNKanRIUm1GaHM4TWhvZUwxOEpiU2JSbDg1WktYSmlzeUROUjRjdERPMkhLT19mRXNuam5GSHRuVnU1NFd3S1I4RmRHSnBGT3M4VFJlaW8?oc=5",
+"time": "2026-11-11T22:57:15+00:00",
+"stage": "얼럿"
+},
+{
+"title": "[속보] '젠슨 황 불륜' 추가 폭로…NYT \"엔비디아 임원과 혼외관계\"",
+"source": "SBS",
+"link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008842113&plink=RSSLINK&cooper=RSSREADER",
+"time": "2026-11-11T23:02:26+00:00",
+"stage": "속보"
+}
+],
+"level": "URGENT",
+"latest": "'젠슨 황 불륜' 추가 폭로…NYT \"엔비디아 임원과 혼외관계\"",
+"tok": [
+"NYT",
+"불륜",
+"사내",
+"엔비디아",
+"임원",
+"젠슨",
+"추가",
+"폭로",
+"해임설",
+"혼외관계",
+"확산"
+]
+},
 {
 "id": "viewAKR202611120209000092241",
 "first": "2026-11-11T22:41:23+00:00",
@@ -69,7 +113,7 @@
 "id": "XVBUE5LQzg4elkxbXVuSAoc52235",
 "first": "2026-11-11T22:35:31+00:00",
 "last": "2026-11-11T22:59:00+00:00",
-"updated": "2026-11-11T23:03:48.041688+00:00",
+"updated": "2026-11-11T23:06:02.707424+00:00",
 "headline": "엔비디아 이사회, 젠슨황 CEO 해임 추진",
 "cat": "기타",
 "regions": [],
@@ -79,6 +123,7 @@
 "MTN 머니투데이방송",
 "SBS",
 "edaily.co.kr",
+"강원도민일보",
 "경향신문",
 "뉴스1",
 "뉴스핌",
@@ -280,6 +325,13 @@
 "stage": "후속"
 },
 {
+"title": "[속보] 젠슨 황 엔비디아 CEO 해임 초읽기…이사회, 거취 결정 논의",
+"source": "강원도민일보",
+"link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1iTFZ3a0dJN3VKZlhJZ0xrWVJKMmRMeDk1UmlKR3FIaWZSMXp3cnJIVmdrN3hrbnpFSHBXQjR1Slpod015VnRPUGFncGRqQVJCRkdVSXZZYVdfMkppWnlYeTNrSjkyQUk?oc=5",
+"time": "2026-11-11T22:58:59+00:00",
+"stage": "속보"
+},
+{
 "title": "젠슨 황 ‘해임 준비’ 보도에···엔비디아 주가 시간외 8% 급락",
 "source": "경향신문",
 "link": "https://www.khan.co.kr/article/202611120759001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
@@ -298,8 +350,11 @@
 "lt",
 "가능성",
 "개최",
+"거취",
 "검토",
+"결정",
 "급락",
+"논의",
 "머니투데",
 "보도",
 "시간외",
@@ -313,6 +368,7 @@
 "주가",
 "준비",
 "창업자",
+"초읽기",
 "추진",
 "퇴진",
 "해임",
@@ -2372,7 +2428,7 @@
 },
 "붕괴": {
 "n30": 2,
-"base": 0.1,
+"base": 0.2,
 "spike": false
 },
 "대피": {
@@ -2608,14 +2664,14 @@
 "n30": 5,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-11T23:03:48.041688+00:00"
+"since": "2026-11-11T23:06:02.707424+00:00"
 },
 {
 "term": "속보",
 "n30": 5,
 "base": 0.6,
 "spike": true,
-"since": "2026-11-11T23:03:48.041688+00:00"
+"since": "2026-11-11T23:06:02.707424+00:00"
 }
 ],
 "baseline": {
@@ -2624,12 +2680,12 @@
 "불났": 0.05,
 "정전": 0.05,
 "폭발": 0.05,
-"붕괴": 0.24,
+"붕괴": 0.32,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.64,
-"지하철": 0.55,
-"사고": 0.15,
+"속보": 0.68,
+"지하철": 0.5,
+"사고": 0.24,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -2802,7 +2858,7 @@
 "link": "https://isplus.com/article/view/isp202611030293"
 }
 ],
-"new": true
+"new": false
 },
 {
 "term": "광공해",
@@ -2827,7 +2883,7 @@
 "link": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=714558"
 }
 ],
-"new": true
+"new": false
 },
 {
 "term": "미래에셋",
@@ -2848,8 +2904,26 @@
 "new": true
 },
 {
-"term": "수능일",
+"term": "한지민",
 "traffic": "100+",
+"time": "2026-11-11T21:50:00+00:00",
+"news": [
+{
+"title": "‘그냥사람친구’ 한지민, 이서진 저격 “거만한 자세로 앉아 있더니 어이가 없네”",
+"source": "매일경제",
+"link": "https://www.mk.co.kr/news/broadcasting-service/12205290"
+},
+{
+"title": "한지민, ’20년 남사친' 이서진과 우정여행... “어이가 없네” 찐 반응그(그사친)",
+"source": "조선일보",
+"link": "https://www.chosun.com/entertainments/broadcast/2026/11/11/GI2GMM3GGU3GKM3BME2GEMRQMM/"
+}
+],
+"new": true
+},
+{
+"term": "수능일",
+"traffic": "200+",
 "time": "2026-11-11T21:50:00+00:00",
 "news": [],
 "new": true
@@ -2925,28 +2999,9 @@
 }
 ],
 "new": true
-},
-{
-"term": "พยากรณ์อากาศ",
-"traffic": "100+",
-"time": "2026-11-11T21:20:00+00:00",
-"news": [
-{
-"title": "‘กรมธรณี’ แจ้ง 11 จังหวัดภาคใต้เฝ้าระวังดินถล่ม ระหว่างวันที่ 11-13 พ.ย.นี้",
-"source": "เดลินิวส์",
-"link": "https://www.dailynews.co.th/news/6352136/"
-},
-{
-"title": "ประจำวันที่ 11 พฤศจิกายน 2569 17.00 น.",
-"source": "กรมอุตุนิยมวิทยา",
-"link": "https://www.tmd.go.th/forecast/daily/111120261800"
-}
-],
-"new": true
 }
 ],
 "trendSeen": [
-"이선빈",
 "이세계아이돌",
 "이세영",
 "이소라",
@@ -3205,6 +3260,7 @@
 "한남더힐 아파트",
 "한수아",
 "한일전",
+"한지민",
 "한진칼",
 "한파",
 "한푸",
