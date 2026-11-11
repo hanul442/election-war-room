@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-11T09:01:47.791751+00:00",
+"updated": "2026-11-11T09:05:31.401040+00:00",
 "errors": [],
 "events": [
 {
@@ -3631,7 +3631,7 @@
 "spike": false
 },
 "화재": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -3651,8 +3651,8 @@
 "spike": true
 },
 "붕괴": {
-"n30": 2,
-"base": 0.2,
+"n30": 1,
+"base": 0.3,
 "spike": false
 },
 "대피": {
@@ -3666,7 +3666,7 @@
 "spike": false
 },
 "속보": {
-"n30": 2,
+"n30": 3,
 "base": 0.1,
 "spike": false
 },
@@ -3676,8 +3676,8 @@
 "spike": false
 },
 "사고": {
-"n30": 5,
-"base": 3.5,
+"n30": 6,
+"base": 3.7,
 "spike": false
 },
 "실종": {
@@ -3708,11 +3708,31 @@
 },
 "posts": [
 {
+"text": "x.com/jinsuk_85/st...\n“당시 전주지청장은 신속하게 사고 원인을 파악하고 책임 소재를 밝히겠다고 약속했다”\n“그러나 2년이 지나도록 수사는 마무리되지 않았다”\n\n“추석 때 대통령실에서 산재 유가족을 위로하기 위한 선물을 받았지만,위로가 되지 않았다“\n\n”태완이처럼 아까운 사람이 산재 사고로 사망하지 않는 세상을 만들어 달라”\n\n“고용노동부는 사고 원인 자체에는 이견이 없지만 ",
+"handle": "laystall.bsky.social",
+"name": "laystall 🇵🇸🌺🎗️",
+"time": "2026-11-11T09:04:28.473Z",
+"likes": 0,
+"reposts": 1,
+"url": "https://bsky.app/profile/laystall.bsky.social/post/3mzzlxnhaec2c",
+"term": "사고"
+},
+{
+"text": "<속보> 엘룬 행복 수치 증가 \n좌우반전 됐지만 행복하니 좋았으!",
+"handle": "elrune.bsky.social",
+"name": "엘룬",
+"time": "2026-11-11T09:03:35.771Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/elrune.bsky.social/post/3mzzlw44lr22h",
+"term": "속보"
+},
+{
 "text": "와 근데 이번에 서울 갔다 오니 비염이 한 500프로 재발한 기분이다\n물론 이케아를 4시간이나 쏘다녔고 지하철을 많이 타서 그릏긴 한데\n서울에는 정말 먼지가 많다는 걸 새삼 느꼈어요...\n\n제주가 얼마나 조용하고 먼지가 적은지도 😅\n아무리 변했다지만 아직은 청정 제주 소리 들을 만 함",
 "handle": "chinie.bsky.social",
 "name": "치니 Chinie",
 "time": "2026-11-11T09:01:10.476Z",
-"likes": 0,
+"likes": 1,
 "reposts": 0,
 "url": "https://bsky.app/profile/chinie.bsky.social/post/3mzzlrusbh22x",
 "term": "지하철"
@@ -3732,7 +3752,7 @@
 "handle": "gudockbb.bsky.social",
 "name": "구독",
 "time": "2026-11-11T09:00:03.982Z",
-"likes": 0,
+"likes": 1,
 "reposts": 0,
 "url": "https://bsky.app/profile/gudockbb.bsky.social/post/3mzzlpvgtjc2q",
 "term": "사고"
@@ -3756,16 +3776,6 @@
 "reposts": 0,
 "url": "https://bsky.app/profile/caelumcorvus.bsky.social/post/3mzzlgxoje22a",
 "term": "붕괴"
-},
-{
-"text": "한솔제지 또 또 사망사고···굴러온 1.8t 종이롤에 끼여 30대 직원 숨졌다\nwww.khan.co.kr/article/2026...\n\n\"11일 서천소방서와 한솔제지 등에 따르면, 전날 오후 7시20분쯤 서천군 장항읍 한솔제지 장항공장 감열동 슬리터 공정에서 협력업체 소속 A씨가 종이롤에 끼였다. A씨는 지게차로 종이롤을 옮기던 중 롤이 떨어져 굴러가자 이를 막으려다 철문과 롤 사이에 끼인 ",
-"handle": "boknews.bsky.social",
-"name": "복설 뉴스",
-"time": "2026-11-11T08:53:38.170Z",
-"likes": 0,
-"reposts": 5,
-"url": "https://bsky.app/profile/boknews.bsky.social/post/3mzzledjljk27",
-"term": "사고"
 },
 {
 "platform": "YouTube",
@@ -3964,7 +3974,7 @@
 "n30": 6,
 "base": 0.6,
 "spike": true,
-"since": "2026-11-11T09:01:47.791751+00:00"
+"since": "2026-11-11T09:05:31.401040+00:00"
 }
 ],
 "baseline": {
@@ -3972,15 +3982,15 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.64,
-"붕괴": 0.32,
-"대피": 0.21,
+"폭발": 0.68,
+"붕괴": 0.39,
+"대피": 0.19,
 "미사일": 0.05,
-"속보": 0.05,
-"지하철": 0.42,
-"사고": 3.69,
+"속보": 0.15,
+"지하철": 0.48,
+"사고": 3.92,
 "실종": 0.05,
-"단수": 0.38,
+"단수": 0.34,
 "통신 장애": 0.05,
 "먹통": 0.05,
 "산불": 0.05
@@ -4200,9 +4210,9 @@
 "link": "https://imnews.imbc.com/news/2026/politics/article/6864817_36911.html"
 },
 {
-"title": "최민희, 국회 기자에 ‘하이에나’ 표현 사과… “순간의 느낌 토로한 것”",
-"source": "서울신문",
-"link": "https://www.seoul.co.kr/news/politics/2026/11/11/20261111500367"
+"title": "최민희, 기자들에 “하이에나 떼” 논란일자 “부적절, 사과” …사진기자협회 “법적대응 검토”",
+"source": "JTBC",
+"link": "https://news.jtbc.co.kr/article/NB12327556"
 }
 ],
 "new": false
@@ -4321,14 +4331,14 @@
 "time": "2026-11-11T06:10:00+00:00",
 "news": [
 {
-"title": "[한 컷으로 보는 AI만평] 흡연은 부스에서, 연기는 시민에게",
-"source": "중도일보",
-"link": "https://m.joongdo.co.kr/view.php?key=20261111010003768"
+"title": "수만 명의 비흡연자가 간접흡연으로 사망합니다.",
+"source": "Vietnam.vn",
+"link": "https://www.vietnam.vn/ko/hang-chuc-ngan-nguoi-khong-hut-thuoc-phai-chet-vi-khoi-thuoc"
 },
 {
-"title": "[르포] 육교 아래 흡연부스…담배 연기 퍼지는 신탄진역 광장",
-"source": "중도일보",
-"link": "https://m.joongdo.co.kr/view.php?key=20261109010002971"
+"title": "국가 감사원, 금연 근무 환경 조성 추진",
+"source": "Laodong.vn",
+"link": "https://ko.laodong.vn/xa-hoi/kiem-toan-nha-nuoc-day-manh-xay-dung-moi-truong-lam-viec-khong-khoi-thuoc-1794107.ldo"
 }
 ],
 "new": false
@@ -4339,9 +4349,9 @@
 "time": "2026-11-11T06:10:00+00:00",
 "news": [
 {
-"title": "Applebee’s® Honors Veterans & Active Duty Military with Free Meals on Veterans Day",
-"source": "Applebee's",
-"link": "https://www.applebees.com/en/news/2026/veterans-day"
+"title": "Veterans Day 2026 Free Meals, Freebies and Deals",
+"source": "The American Legion",
+"link": "https://www.legion.org/information-center/news/veterans-day/2026/november/veterans-day-deals-and-discounts"
 },
 {
 "title": "Veterans Day 2026 brings free meals at popular restaurants — and some deals don't end Nov. 11",
