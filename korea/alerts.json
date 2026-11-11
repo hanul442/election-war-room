@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-11T12:23:47.013980+00:00",
+"updated": "2026-11-11T12:26:04.375778+00:00",
 "errors": [],
 "events": [
 {
@@ -659,13 +659,14 @@
 "id": "XJkNUJjdzRZVnl2OVg2UQoc51149",
 "first": "2026-11-11T11:49:53+00:00",
 "last": "2026-11-11T12:00:41+00:00",
-"updated": "2026-11-11T12:07:45.499864+00:00",
+"updated": "2026-11-11T12:26:04.375778+00:00",
 "headline": "[긴급속보] 인천 남동구 고잔동 일대 유독가스 유출… 남동구 “주민 긴급 대피 당부”",
 "cat": "기타",
 "regions": [
 "인천"
 ],
 "sources": [
+"SK브로드밴드 회사소개",
 "국제뉴스",
 "우리일보",
 "인천투데이",
@@ -684,6 +685,13 @@
 "source": "인천투데이",
 "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5sUWVlbnpQUzlhNzFEaE9MUzBEVmpXS3cybGtJV05kaGxSekI1Z1E1SGZRZ1dXTGp3UjJVWkhCeVJVWERGVzN3N2otTHl6VXZnWG9fNTh4WGFIZ3VHU01FVERQUktUZWstNkhYdjF6Ty0?oc=5",
 "time": "2026-11-11T11:51:21+00:00",
+"stage": "속보"
+},
+{
+"title": "[속보] 인천 남동구 고잔동에서 유독가스 유출 사고 발생",
+"source": "SK브로드밴드 회사소개",
+"link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1lY2ljRVpjOHlJZ253WVV2Nmk0WlVPdVZQeGtJQ2MxZzh5eldzNU1GYVRab0xhaHFDeG53bzlUVW1HM1pseXRJbXpiZHAtbE9xX2YtNm5aMmRvQ1pkRzdvUVFjRTBobFpvM19uTVl4YXk?oc=5",
+"time": "2026-11-11T11:51:34+00:00",
 "stage": "속보"
 },
 {
@@ -706,12 +714,15 @@
 "tok": [
 "고잔동",
 "고잔동서",
+"고잔동에서",
 "긴급속보",
 "남동공단",
 "남동구",
 "당부",
 "대피",
 "물수건",
+"발생",
+"사고",
 "유독가스",
 "유출",
 "인천",
@@ -3895,7 +3906,7 @@
 "terms": {
 "지진": {
 "n30": 1,
-"base": 0.2,
+"base": 0.3,
 "spike": false
 },
 "화재": {
@@ -3924,7 +3935,7 @@
 "spike": false
 },
 "대피": {
-"n30": 0,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
@@ -3944,13 +3955,13 @@
 "spike": false
 },
 "사고": {
-"n30": 4,
-"base": 2.5,
+"n30": 5,
+"base": 2.7,
 "spike": false
 },
 "실종": {
 "n30": 0,
-"base": 0.2,
+"base": 0.1,
 "spike": false
 },
 "단수": {
@@ -3965,7 +3976,7 @@
 },
 "먹통": {
 "n30": 0,
-"base": 0.6,
+"base": 0.5,
 "spike": false
 },
 "산불": {
@@ -3975,6 +3986,16 @@
 }
 },
 "posts": [
+{
+"text": "인천 남동구 유독가스 유출 비상: 고잔동 산업단지 주민 긴급 대피령\n\n2026년 11월 11일 오후 8시 15분, 인천 남동구 고잔동 남동국가산업단지에서 유독가스 유출 사고가 발생했습니다. 경상자 1명 발생, 가스 종류와 원인은 조사 중. 대피 경위와 파급 영향을 정리했습니다.\n\nm.blog.naver.com/hampi2/22447...",
+"handle": "hampi2.bsky.social",
+"name": "hampi2.bsky.social",
+"time": "2026-11-11T12:24:34.473Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/hampi2.bsky.social/post/3mzzx5c66yc2t",
+"term": "대피"
+},
 {
 "text": "【지진 정보】일본 시간 11월 11일 21:13경\n진원: Tachibana Bay (M2.3, 깊이 약 10km)\n최대 진도: 1\n진도 1: 나가사키현\n이 지진으로 인한 쓰나미 걱정은 없습니다.\n(일본 기상청 발표)\n#일본 #지진 #방재",
 "handle": "ko.soramoyou.yk-planning.jp",
@@ -3990,7 +4011,7 @@
 "handle": "jormungandr8.bsky.social",
 "name": "코리안초록유혈목이(뱀)",
 "time": "2026-11-11T12:20:32.675Z",
-"likes": 1,
+"likes": 2,
 "reposts": 0,
 "url": "https://bsky.app/profile/jormungandr8.bsky.social/post/3mzzwnxtih22a",
 "term": "사고"
@@ -4013,16 +4034,6 @@
 "likes": 0,
 "reposts": 0,
 "url": "https://bsky.app/profile/hampi2.bsky.social/post/3mzzwscbm4k2x",
-"term": "사고"
-},
-{
-"text": "지금도 봇쨩인데 어린 봇쨩은 더더욱 봇쨩이라 쿠코적 행동하다 이런저런 사고 칠 때마다 쩔쩔매게 되는 공엄사가 love일지도",
-"handle": "gyejang-boo.bsky.social",
-"name": "부계장",
-"time": "2026-11-11T12:05:30.887Z",
-"likes": 2,
-"reposts": 0,
-"url": "https://bsky.app/profile/gyejang-boo.bsky.social/post/3mzzw3hzqn22g",
 "term": "사고"
 },
 {
@@ -4227,21 +4238,21 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 0.26,
+"지진": 0.33,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.37,
-"붕괴": 0.21,
-"대피": 0.05,
-"미사일": 0.22,
+"폭발": 0.33,
+"붕괴": 0.19,
+"대피": 0.15,
+"미사일": 0.2,
 "속보": 0.05,
-"지하철": 0.82,
-"사고": 2.66,
-"실종": 0.14,
+"지하철": 0.84,
+"사고": 2.89,
+"실종": 0.13,
 "단수": 0.05,
 "통신 장애": 0.05,
-"먹통": 0.5,
+"먹통": 0.45,
 "산불": 0.05
 },
 "errors": [],
@@ -4540,9 +4551,9 @@
 "link": "https://www.yna.co.kr/view/AKR20261111178600007"
 },
 {
-"title": "[사진] 양홍석, 손끝에 힘을 팍!",
+"title": "[사진] 마레이와 유기상, 승리의 기운 가득",
 "source": "조선일보",
-"link": "https://www.chosun.com/sports/sports_photo/2026/11/11/GQZGEZDEGYYTKY3EHBRDGODEG4/"
+"link": "https://www.chosun.com/sports/sports_photo/2026/11/11/G4YWENDFGZTDKNBXGYYGINJVMI/"
 }
 ],
 "new": false
