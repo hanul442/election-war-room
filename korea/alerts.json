@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-11T22:02:39.128101+00:00",
+"updated": "2026-11-11T22:04:55.173930+00:00",
 "errors": [],
 "events": [
 {
@@ -1350,12 +1350,12 @@
 },
 "지하철": {
 "n30": 3,
-"base": 0.4,
+"base": 0.5,
 "spike": false
 },
 "사고": {
 "n30": 0,
-"base": 1.0,
+"base": 0.9,
 "spike": false
 },
 "실종": {
@@ -1609,21 +1609,21 @@
 "n30": 5,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-11T22:02:39.128101+00:00"
+"since": "2026-11-11T22:04:55.173930+00:00"
 },
 {
 "term": "폭발",
 "n30": 7,
 "base": 0.6,
 "spike": true,
-"since": "2026-11-11T22:02:39.128101+00:00"
+"since": "2026-11-11T22:04:55.173930+00:00"
 },
 {
 "term": "속보",
 "n30": 6,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-11T22:02:39.128101+00:00"
+"since": "2026-11-11T22:04:55.173930+00:00"
 }
 ],
 "baseline": {
@@ -1631,13 +1631,13 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.56,
+"폭발": 0.5,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.45,
-"사고": 0.91,
+"지하철": 0.51,
+"사고": 0.82,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -1858,6 +1858,78 @@
 },
 "trends": [
 {
+"term": "테니스",
+"traffic": "100+",
+"time": "2026-11-11T21:00:00+00:00",
+"news": [
+{
+"title": "세계로 뻗어가는 한인 테니스…대회에서 협회로, 동호인에서 글로벌 네트워크로",
+"source": "테니스피플",
+"link": "http://m.tennispeople.kr/news/articleView.html?idxno=19833"
+},
+{
+"title": "테니스 뒤풀이가 대한체육회 20번째 승인으로…캄보디아 한인체육회의 탄생",
+"source": "테니스피플",
+"link": "http://www.tennispeople.kr/news/articleView.html?idxno=19832"
+}
+],
+"new": false
+},
+{
+"term": "사고",
+"traffic": "1000+",
+"time": "2026-11-11T21:00:00+00:00",
+"news": [
+{
+"title": "“폭탄 터진줄”…부서지고 넘어지고, 출근길 시민 대혼란",
+"source": "KBS 뉴스",
+"link": "https://news.kbs.co.kr/news/view.do?ncd=8710312"
+},
+{
+"title": "출근길 버스 150m 공포의 질주, 車 32대 충돌에 전봇대도 날려",
+"source": "동아일보",
+"link": "https://www.donga.com/news/Society/article/all/20261111/135010435/2"
+}
+],
+"new": true
+},
+{
+"term": "전고체 전지",
+"traffic": "200+",
+"time": "2026-11-11T21:00:00+00:00",
+"news": [
+{
+"title": "현대차그룹-삼성, ‘원팀’으로 미래 첨단 산업 선점 | 뉴스 | 현대자동차그룹",
+"source": "Hyundai Motor Group",
+"link": "https://www.hyundaimotorgroup.com/ko/news/hyundai-motor-group-samsung-one-team-future-advanced-industry"
+},
+{
+"title": "삼성·현대차, 배터리 공급 넘어 설계까지 맞손…전고체 개발도",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261110163700003"
+}
+],
+"new": false
+},
+{
+"term": "아들",
+"traffic": "2000+",
+"time": "2026-11-11T20:50:00+00:00",
+"news": [
+{
+"title": "아들의 성폭행 피해자 여중생 살해한 부친",
+"source": "동아일보",
+"link": "https://www.donga.com/news/Society/article/all/20261111/135010430/2"
+},
+{
+"title": "[단독] '아들 성범죄' 피해자 살해…'보복 범죄' 수사",
+"source": "SBS 뉴스",
+"link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008841962&plink=PLAY&cooper=RSS&autoplay=Y"
+}
+],
+"new": true
+},
+{
 "term": "이지현",
 "traffic": "10000+",
 "time": "2026-11-11T20:50:00+00:00",
@@ -1877,7 +1949,7 @@
 },
 {
 "term": "이재아",
-"traffic": "500+",
+"traffic": "1000+",
 "time": "2026-11-11T20:50:00+00:00",
 "news": [
 {
@@ -1894,8 +1966,15 @@
 "new": false
 },
 {
+"term": "전병우",
+"traffic": "200+",
+"time": "2026-11-11T20:50:00+00:00",
+"news": [],
+"new": false
+},
+{
 "term": "공무원",
-"traffic": "500+",
+"traffic": "1000+",
 "time": "2026-11-11T20:50:00+00:00",
 "news": [
 {
@@ -1910,13 +1989,6 @@
 }
 ],
 "new": true
-},
-{
-"term": "전병우",
-"traffic": "200+",
-"time": "2026-11-11T20:50:00+00:00",
-"news": [],
-"new": false
 },
 {
 "term": "연금",
@@ -1950,78 +2022,6 @@
 "title": "[오늘의 운세/11월 12일]",
 "source": "동아일보",
 "link": "https://www.donga.com/news/Culture/article/all/20261112/135010333/2"
-}
-],
-"new": true
-},
-{
-"term": "에코프로비엠",
-"traffic": "100+",
-"time": "2026-11-11T20:30:00+00:00",
-"news": [
-{
-"title": "에코프로비엠 \"종속회사 PT 주식 6천271억원에 추가취득\"",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261110164600008"
-},
-{
-"title": "에코프로비엠, 투자 종속회사 주식 6271억원에 추가 취득",
-"source": "아시아경제",
-"link": "https://view.asiae.co.kr/article/2026111018222916513"
-}
-],
-"new": true
-},
-{
-"term": "기부",
-"traffic": "100+",
-"time": "2026-11-11T20:20:00+00:00",
-"news": [
-{
-"title": "한수원, 전통시장 장보기 10년...소비가 기부가 되는 상생",
-"source": "천지일보",
-"link": "https://www.newscj.com/news/articleView.html?idxno=3447993"
-},
-{
-"title": "한국수력원자력, 전통시장서 1200만원 물품 구매·기부…노사 공동 비전 선포",
-"source": "웹이코노미",
-"link": "https://www.webeconomy.co.kr/news/articleView.html?idxno=2370915"
-}
-],
-"new": true
-},
-{
-"term": "원익홀딩스",
-"traffic": "100+",
-"time": "2026-11-11T20:20:00+00:00",
-"news": [
-{
-"title": "특징주, SFA반도체-반도체 장비 테마 상승세에 6.39% ↑",
-"source": "매일경제 마켓",
-"link": "https://stock.mk.co.kr/news/view/1195879"
-},
-{
-"title": "[장중수급포착] 한양디지텍, 기관 5일 연속 순매수행진... 주가 +10.91%",
-"source": "뉴스핌",
-"link": "https://www.newspim.com/news/view/20261109000591"
-}
-],
-"new": true
-},
-{
-"term": "가덕도신공항",
-"traffic": "100+",
-"time": "2026-11-11T20:20:00+00:00",
-"news": [
-{
-"title": "한미글로벌, 가덕도신공항 여객터미널 설계 건설사업관리 수주",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261111029400003"
-},
-{
-"title": "부산상의, 전 국회의장에 가덕 연내착공·LCC 본사 유치 건의",
-"source": "국제신문",
-"link": "https://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0200&key=20261111.22001003206"
 }
 ],
 "new": true
