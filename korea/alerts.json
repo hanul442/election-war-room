@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-11T09:22:41.758349+00:00",
+"updated": "2026-11-11T09:24:57.556736+00:00",
 "errors": [],
 "events": [
 {
@@ -3601,17 +3601,17 @@
 },
 "속보": {
 "n30": 5,
-"base": 0.7,
+"base": 0.9,
 "spike": true
 },
 "지하철": {
 "n30": 3,
-"base": 0.7,
+"base": 0.8,
 "spike": false
 },
 "사고": {
-"n30": 6,
-"base": 4.9,
+"n30": 5,
+"base": 5.0,
 "spike": false
 },
 "실종": {
@@ -3910,14 +3910,14 @@
 "n30": 5,
 "base": 0.7,
 "spike": true,
-"since": "2026-11-11T09:22:41.758349+00:00"
+"since": "2026-11-11T09:24:57.556736+00:00"
 },
 {
 "term": "속보",
 "n30": 5,
-"base": 0.7,
+"base": 0.9,
 "spike": true,
-"since": "2026-11-11T09:22:41.758349+00:00"
+"since": "2026-11-11T09:24:57.556736+00:00"
 }
 ],
 "baseline": {
@@ -3925,15 +3925,15 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.71,
-"붕괴": 0.71,
-"대피": 0.1,
+"폭발": 0.74,
+"붕괴": 0.74,
+"대피": 0.09,
 "미사일": 0.05,
-"속보": 0.87,
-"지하철": 0.85,
+"속보": 0.98,
+"지하철": 0.97,
 "사고": 5.01,
 "실종": 0.05,
-"단수": 0.17,
+"단수": 0.15,
 "통신 장애": 0.05,
 "먹통": 0.05,
 "산불": 0.05
@@ -4107,6 +4107,78 @@
 },
 "trends": [
 {
+"term": "마운자로",
+"traffic": "200+",
+"time": "2026-11-11T08:20:00+00:00",
+"news": [
+{
+"title": "[단독] 일본서 산 마운자로, 국내 반입 허용된다…최대 12개",
+"source": "MTN 머니투데이방송",
+"link": "https://news.mtn.co.kr/article/2026111116412519794"
+},
+{
+"title": "[속보] 정부 \"내일부터 비만약 등 치료용 의약품 반입 허용\"",
+"source": "한국경제",
+"link": "https://www.hankyung.com/article/2026111108597"
+}
+],
+"new": true
+},
+{
+"term": "남지현",
+"traffic": "200+",
+"time": "2026-11-11T08:20:00+00:00",
+"news": [
+{
+"title": "아이브 리즈, 동화 속 공주 비주얼… 눈부신 미모 [N샷]",
+"source": "뉴스1",
+"link": "https://www.news1.kr/entertain/celebrity-topic/6349463"
+},
+{
+"title": "김재원, '2026 KGMA' MC 활약…리즈와 호흡 맞추며 안정적 진행",
+"source": "뉴스핌",
+"link": "https://www.newspim.com/news/view/20261109000354"
+}
+],
+"new": true
+},
+{
+"term": "세무사 수석",
+"traffic": "100+",
+"time": "2026-11-11T08:20:00+00:00",
+"news": [
+{
+"title": "대기업 10년차·벼랑끝 자영업 거쳐 세무사시험 수석 합격한 한원석씨",
+"source": "한국세정신문",
+"link": "https://www.taxtimes.co.kr/news/article.html?no=277678"
+},
+{
+"title": "\"전 범위 공부.. 매일 새벽 4시 기상, 백지 복습\" [제63회 세무사시험-수석]",
+"source": "조세일보",
+"link": "https://m.joseilbo.com/news/view.htm?newsid=579361"
+}
+],
+"new": true
+},
+{
+"term": "pakistan vs sri lanka",
+"traffic": "100+",
+"time": "2026-11-11T08:20:00+00:00",
+"news": [
+{
+"title": "De Silva, Kamindu fifties guide Sri Lanka to 221-4 in first Test",
+"source": "AFP.com",
+"link": "https://www.afp.com/en/de-silva-kamindu-fifties-guide-sri-lanka-221-4-first-test"
+},
+{
+"title": "Shakeel nears century as Pakistan score 390-6 in first Test",
+"source": "Daily Sun",
+"link": "http://www.daily-sun.com/sports/908343/shakeel-nears-century-as-pakistan-score-390-6-in-first-test"
+}
+],
+"new": true
+},
+{
 "term": "임영웅",
 "traffic": "2000+",
 "time": "2026-11-11T08:10:00+00:00",
@@ -4210,78 +4282,6 @@
 "title": "김종국, 극비리 결혼 1년 막 지났는데..건강이상설 \"심한 어지럼증\" [핫피플]",
 "source": "미주중앙일보",
 "link": "https://www.koreadaily.com/article/20261110161829887"
-}
-],
-"new": true
-},
-{
-"term": "로제",
-"traffic": "500+",
-"time": "2026-11-11T06:50:00+00:00",
-"news": [
-{
-"title": "로제 ‘아파트’ 라이브에 “중학교 장기자랑” 혹평···해외반응 ‘시끌’",
-"source": "스포츠경향",
-"link": "https://sports.khan.co.kr/article/202611111009003"
-},
-{
-"title": "로제 'APT.' 무대 어땠길래…해외선 혹평, 국내선 옹호",
-"source": "뉴시스",
-"link": "https://www.newsis.com/view/NISX20261111_0003863734"
-}
-],
-"new": true
-},
-{
-"term": "지진",
-"traffic": "1000+",
-"time": "2026-11-11T06:30:00+00:00",
-"news": [
-{
-"title": "지진 발생 10분 만에 출근...일본 아나운서 '민낯 속보' 화제 [앵커리포트]",
-"source": "YTN",
-"link": "https://www.ytn.co.kr/_ln/0104_202611101829186378"
-},
-{
-"title": "지진 10분 만에 맨얼굴에 안경 쓰고 속보…日 아나운서 화제",
-"source": "미주중앙일보",
-"link": "https://www.koreadaily.com/article/20261108190038698"
-}
-],
-"new": false
-},
-{
-"term": "흡연",
-"traffic": "1000+",
-"time": "2026-11-11T06:10:00+00:00",
-"news": [
-{
-"title": "수만 명의 비흡연자가 간접흡연으로 사망합니다.",
-"source": "Vietnam.vn",
-"link": "https://www.vietnam.vn/ko/hang-chuc-ngan-nguoi-khong-hut-thuoc-phai-chet-vi-khoi-thuoc"
-},
-{
-"title": "국가 감사원, 금연 근무 환경 조성 추진",
-"source": "Laodong.vn",
-"link": "https://ko.laodong.vn/xa-hoi/kiem-toan-nha-nuoc-day-manh-xay-dung-moi-truong-lam-viec-khong-khoi-thuoc-1794107.ldo"
-}
-],
-"new": false
-},
-{
-"term": "veterans day 2026",
-"traffic": "500+",
-"time": "2026-11-11T06:10:00+00:00",
-"news": [
-{
-"title": "Veterans Day 2026 Free Meals, Freebies and Deals",
-"source": "The American Legion",
-"link": "https://www.legion.org/information-center/news/veterans-day/2026/november/veterans-day-deals-and-discounts"
-},
-{
-"title": "Veterans Day 2026 brings free meals at popular restaurants — and some deals don't end Nov. 11",
-"source": "Fox News",
-"link": "https://www.foxnews.com/food-drink/veterans-day-2026-brings-free-meals-popular-restaurants-some-deals-dont-end-nov-11"
 }
 ],
 "new": true
