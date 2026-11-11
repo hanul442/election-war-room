@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-11T22:41:08.478817+00:00",
+"updated": "2026-11-11T22:43:23.371017+00:00",
 "errors": [],
 "events": [
 {
@@ -162,6 +162,49 @@
 "아파트",
 "추정",
 "화재"
+]
+},
+{
+"id": "viewAKR202611120168000712218",
+"first": "2026-11-11T22:18:34+00:00",
+"last": "2026-11-11T22:21:51+00:00",
+"updated": "2026-11-11T22:43:23.371017+00:00",
+"headline": "CNN \"'공화 텃밭' 미시시피 상원 선거 민주 승리 예측\"",
+"cat": "정치",
+"regions": [],
+"sources": [
+"스페셜타임스",
+"연합뉴스"
+],
+"updates": [
+{
+"title": "[속보] CNN \"'공화 텃밭' 미시시피 상원 선거 민주 승리 예측\"",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261112016800071",
+"time": "2026-11-11T22:18:34+00:00",
+"stage": "얼럿"
+},
+{
+"title": "[속보] CNN 미시시피 상원 선거 민주당 승리 예측",
+"source": "스페셜타임스",
+"link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFB5X3VJXzlwY1JYWFFUeU81b0FRRUdjUE10MFBhYXRsampocW9LWDRUa25tMkJMZHotUGFHOWk5UDhqWnI5WkZWVVE5b0Roa1B0UExvdXViWDJfWmZnak5xdm90NnpKeExFUndLam5SM3BLcUE?oc=5",
+"time": "2026-11-11T22:21:51+00:00",
+"stage": "속보"
+}
+],
+"level": "URGENT",
+"latest": "CNN 미시시피 상원 선거 민주당 승리 예측",
+"tok": [
+"CNN",
+"공화",
+"미시시피",
+"민주",
+"민주당",
+"상원",
+"선거",
+"승리",
+"예측",
+"텃밭"
 ]
 },
 {
@@ -444,40 +487,6 @@
 "외도설",
 "젠슨",
 "추가"
-]
-},
-{
-"id": "viewAKR202611120168000712218",
-"first": "2026-11-11T22:18:34+00:00",
-"last": "2026-11-11T22:18:34+00:00",
-"updated": "2026-11-11T22:25:18.931408+00:00",
-"headline": "CNN \"'공화 텃밭' 미시시피 상원 선거 민주 승리 예측\"",
-"cat": "정치",
-"regions": [],
-"sources": [
-"연합뉴스"
-],
-"updates": [
-{
-"title": "[속보] CNN \"'공화 텃밭' 미시시피 상원 선거 민주 승리 예측\"",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261112016800071",
-"time": "2026-11-11T22:18:34+00:00",
-"stage": "얼럿"
-}
-],
-"level": "URGENT",
-"latest": "CNN \"'공화 텃밭' 미시시피 상원 선거 민주 승리 예측\"",
-"tok": [
-"CNN",
-"공화",
-"미시시피",
-"민주",
-"상원",
-"선거",
-"승리",
-"예측",
-"텃밭"
 ]
 },
 {
@@ -1830,7 +1839,7 @@
 },
 "사고": {
 "n30": 0,
-"base": 0.2,
+"base": 0.1,
 "spike": false
 },
 "실종": {
@@ -2030,7 +2039,7 @@
 "n30": 6,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-11T22:41:08.478817+00:00"
+"since": "2026-11-11T22:43:23.371017+00:00"
 }
 ],
 "baseline": {
@@ -2038,13 +2047,13 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.1,
+"폭발": 0.09,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.87,
-"사고": 0.15,
+"지하철": 0.88,
+"사고": 0.14,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -2211,6 +2220,31 @@
 },
 "trends": [
 {
+"term": "교통 사고",
+"traffic": "500+",
+"time": "2026-11-11T21:40:00+00:00",
+"news": [
+{
+"title": "‘교통사고 사망 사건’ 후 근황 박신영, 쏟아지는 악플에 “허위사실 법적대응” 입장",
+"source": "스포츠경향",
+"link": "https://sports.khan.co.kr/article/202611110912003"
+},
+{
+"title": "‘배달원 사망사고’ 박신영 전 아나 “버틴게 억울해서라도…”",
+"source": "중앙일보",
+"link": "https://www.joongang.co.kr/article/25477299"
+}
+],
+"new": true
+},
+{
+"term": "양산시",
+"traffic": "1000+",
+"time": "2026-11-11T21:40:00+00:00",
+"news": [],
+"new": true
+},
+{
 "term": "한국노동조합총연맹",
 "traffic": "200+",
 "time": "2026-11-11T21:30:00+00:00",
@@ -2353,42 +2387,6 @@
 }
 ],
 "new": false
-},
-{
-"term": "전고체 전지",
-"traffic": "200+",
-"time": "2026-11-11T21:00:00+00:00",
-"news": [
-{
-"title": "현대차그룹-삼성, ‘원팀’으로 미래 첨단 산업 선점 | 뉴스 | 현대자동차그룹",
-"source": "Hyundai Motor Group",
-"link": "https://www.hyundaimotorgroup.com/ko/news/hyundai-motor-group-samsung-one-team-future-advanced-industry"
-},
-{
-"title": "삼성·현대차, 배터리 공급 넘어 설계까지 맞손…전고체 개발도",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261110163700003"
-}
-],
-"new": false
-},
-{
-"term": "아들",
-"traffic": "5000+",
-"time": "2026-11-11T20:50:00+00:00",
-"news": [
-{
-"title": "아들 ‘성범죄 사건’ 10대 피해자 살해한 50대 남성 체포…보복 범행 가능성 수사",
-"source": "경향신문",
-"link": "https://www.khan.co.kr/article/202611111924001"
-},
-{
-"title": "'아들 성폭력' 피해자 살해‥합의안해 '보복'?",
-"source": "MBC 뉴스",
-"link": "https://imnews.imbc.com/replay/2026/nwtoday/article/6865004_37012.html"
-}
-],
-"new": true
 }
 ],
 "trendSeen": [
