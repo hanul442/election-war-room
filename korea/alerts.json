@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-11T04:27:54.844569+00:00",
+"updated": "2026-11-11T04:30:06.425173+00:00",
 "errors": [],
 "events": [
 {
@@ -4182,8 +4182,8 @@
 "sns": {
 "terms": {
 "지진": {
-"n30": 2,
-"base": 0.8,
+"n30": 3,
+"base": 0.9,
 "spike": false
 },
 "화재": {
@@ -4197,7 +4197,7 @@
 "spike": false
 },
 "정전": {
-"n30": 2,
+"n30": 1,
 "base": 0.6,
 "spike": false
 },
@@ -4207,7 +4207,7 @@
 "spike": false
 },
 "붕괴": {
-"n30": 2,
+"n30": 3,
 "base": 0.1,
 "spike": false
 },
@@ -4222,9 +4222,9 @@
 "spike": false
 },
 "속보": {
-"n30": 6,
+"n30": 4,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "지하철": {
 "n30": 3,
@@ -4233,7 +4233,7 @@
 },
 "사고": {
 "n30": 4,
-"base": 2.5,
+"base": 2.7,
 "spike": false
 },
 "실종": {
@@ -4263,6 +4263,26 @@
 }
 },
 "posts": [
+{
+"text": "자\n1.2가 제가 멜라토닌 먹기전이고요\n3.4가 먹은 후 어제그제입니다\n\n전 평균 7~8시간 자는데\n10시간 넘게 자는 날은 깊수 1시간을 챙길수잇으나\n생활이 붕괴됨()\n\n다 그런게 아니라고...?",
+"handle": "clawhmr.bsky.social",
+"name": "장도리｢내년 1월까지 접률낮음｣",
+"time": "2026-11-11T04:29:44.078Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/clawhmr.bsky.social/post/3mzz4mfeh7s2v",
+"term": "붕괴"
+},
+{
+"text": "현현하다 라는 단어를 보았고 한자가 궁금해 찾아봤는데.. 뜻과 음이 같은데 모양이 다르다고?! (동공지진중)",
+"handle": "titaness.bsky.social",
+"name": "티이타",
+"time": "2026-11-11T04:29:00.775Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/titaness.bsky.social/post/3mzz4l5n5lc2g",
+"term": "지진"
+},
 {
 "text": "뇌녹은 가축 구인중이니 발정난 암캐들 언제든 환영한다.협박플 수치플 협박플 노예플 뭐든 상관없다 초보자 상관없다.궁금한 것 호기심 언제든 찾아와 다 받아줄테니.☆비밀보장 유출 사고 절대없음☆\n #섹블 #섹트 #일탈 #능욕 #걸레 #박제 #상납 #신상 #오컨 #펨섭 #암캐 #걸레 #유부녀 #미시 #중년 #근친#조교 #조련 #육변기 #네토 #NTR #노예 #변녀 #남존여비 #고민상담 #고해성사 ",
 "handle": "tnsdo8974.bsky.social",
@@ -4298,7 +4318,7 @@
 "handle": "zasoza.bsky.social",
 "name": "재소자",
 "time": "2026-11-11T04:16:31.481Z",
-"likes": 1,
+"likes": 2,
 "reposts": 0,
 "url": "https://bsky.app/profile/zasoza.bsky.social/post/3mzz3uvmj6k2d",
 "term": "사고"
@@ -4504,28 +4524,20 @@
 "url": "https://www.youtube.com/watch?v=til24bX3dco"
 }
 ],
-"spikes": [
-{
-"term": "속보",
-"n30": 6,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-11T04:27:54.844569+00:00"
-}
-],
+"spikes": [],
 "baseline": {
-"지진": 0.86,
+"지진": 0.97,
 "화재": 0.05,
 "불났": 0.05,
-"정전": 0.6,
+"정전": 0.64,
 "폭발": 0.05,
-"붕괴": 0.05,
+"붕괴": 0.15,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.16,
-"사고": 2.68,
-"실종": 0.3,
+"지하철": 0.14,
+"사고": 2.81,
+"실종": 0.27,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -4789,9 +4801,9 @@
 "link": "http://www.jemin.com/news/articleView.html?idxno=846882"
 },
 {
-"title": "이현중, NBA G리그 개막전 선발 출전해 3점·6리바운드",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261111048100007"
+"title": "‘NBA 도전’ 이현중, G리그 개막전 출격…3득점 6리바운드",
+"source": "KBS 뉴스",
+"link": "https://news.kbs.co.kr/news/view.do?ncd=8709638"
 }
 ],
 "new": false
@@ -4874,14 +4886,14 @@
 "time": "2026-11-11T02:20:00+00:00",
 "news": [
 {
-"title": "출근길 시내버스 31대 연쇄 추돌‥57명 부상",
-"source": "MBC 뉴스",
-"link": "https://imnews.imbc.com/replay/2026/nw1200/article/6864828_36967.html"
+"title": "출근길 아수라장…버스가 차량 32대 들이받아, 48명 부상",
+"source": "JTBC",
+"link": "https://news.jtbc.co.kr/article/NB12327530"
 },
 {
-"title": "분당 시내버스 지그재그로 승용차 등 17중 연쇄 충격[현장]",
-"source": "뉴시스",
-"link": "https://www.newsis.com/view/NISX20261111_0003863715"
+"title": "[뉴스센터] 출근길 32중 시내버스 추돌사고…’브레이크 미작동?’",
+"source": "연합뉴스TV",
+"link": "https://www.yonhapnewstv.co.kr/news/MYH20261111125337n6C"
 }
 ],
 "new": true
