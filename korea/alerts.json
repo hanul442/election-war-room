@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-11T10:28:48.577994+00:00",
+"updated": "2026-11-11T10:31:04.378240+00:00",
 "errors": [],
 "events": [
 {
@@ -3693,8 +3693,8 @@
 "spike": false
 },
 "화재": {
-"n30": 1,
-"base": 0.7,
+"n30": 0,
+"base": 0.6,
 "spike": false
 },
 "불났": {
@@ -3708,12 +3708,12 @@
 "spike": false
 },
 "폭발": {
-"n30": 5,
+"n30": 1,
 "base": 0.6,
-"spike": true
+"spike": false
 },
 "붕괴": {
-"n30": 3,
+"n30": 2,
 "base": 0.1,
 "spike": false
 },
@@ -3723,23 +3723,23 @@
 "spike": false
 },
 "미사일": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
 "속보": {
-"n30": 10,
+"n30": 7,
 "base": 0.2,
 "spike": true
 },
 "지하철": {
-"n30": 3,
+"n30": 1,
 "base": 0.4,
 "spike": false
 },
 "사고": {
 "n30": 4,
-"base": 3.3,
+"base": 3.4,
 "spike": false
 },
 "실종": {
@@ -3759,7 +3759,7 @@
 },
 "먹통": {
 "n30": 0,
-"base": 0.9,
+"base": 0.8,
 "spike": false
 },
 "산불": {
@@ -3769,6 +3769,16 @@
 }
 },
 "posts": [
+{
+"text": "남배우가 업계랑 대중 남자들한테 인정 받으려고 바뀌려는 모습 보이면 관심이 사라져... 무끼에 프리티 보이력 유지하면 절대 안 그러냐? 그건 아니겠죠 하지만 예술성 좀 있고 사건사고 많고 연기 잘 하는 남배우들한테 점점 매력 못 느끼는 것도 사실",
+"handle": "seongbaek.bsky.social",
+"name": "•",
+"time": "2026-11-11T10:29:55.975Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/seongbaek.bsky.social/post/3mzzqqlfaws2o",
+"term": "사고"
+},
 {
 "text": "내가 타는 지하철이나 버스엔 님같은 훌륭한 사람이 없는 걸까요?",
 "handle": "akarumia2.bsky.social",
@@ -3909,16 +3919,6 @@
 "url": "https://www.youtube.com/watch?v=nsT5lo0FCGo"
 },
 {
-"text": " 스마트키 오래 돼서 그런가 넘나 걍 툭 쳐도 바사삭 부서져서 커버 사고 싶은데 구형이라 없어!!!! 뜨개 의뢰해볼까....",
-"handle": "ahirafell.bsky.social",
-"name": "망상Ah즘마",
-"time": "2026-11-11T10:00:44.671Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/ahirafell.bsky.social/post/3mzzp4dsdxc2w",
-"term": "사고"
-},
-{
 "platform": "YouTube",
 "text": "노르웨이, 사거리 500km급 \"CTM-500 탄도미사일\" 최초로 구매",
 "handle": "UC1H-AidgZxdmlNK0Qe0K0Cw",
@@ -4020,36 +4020,29 @@
 ],
 "spikes": [
 {
-"term": "폭발",
-"n30": 5,
-"base": 0.6,
-"spike": true,
-"since": "2026-11-11T10:28:48.577994+00:00"
-},
-{
 "term": "속보",
-"n30": 10,
+"n30": 7,
 "base": 0.2,
 "spike": true,
-"since": "2026-11-11T10:28:48.577994+00:00"
+"since": "2026-11-11T10:31:04.378240+00:00"
 }
 ],
 "baseline": {
 "지진": 0.05,
-"화재": 0.62,
+"화재": 0.56,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.56,
+"폭발": 0.5,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.16,
-"지하철": 0.43,
-"사고": 3.38,
+"속보": 0.14,
+"지하철": 0.49,
+"사고": 3.44,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
-"먹통": 0.77,
+"먹통": 0.69,
 "산불": 0.05
 },
 "errors": [],
@@ -4280,14 +4273,14 @@
 "time": "2026-11-11T08:40:00+00:00",
 "news": [
 {
-"title": "김태희 맞아? 외모 악플 쏟아진 후..민낯으로 증명한 '태혜지' 태쁘 미모 [핫피플]",
-"source": "OSEN",
-"link": "https://www.osen.co.kr/article/G1112908092"
-},
-{
 "title": "김태희, ♥비도 감탄할 등근육…한때 액션 구미호 뒤태 [DA★]",
 "source": "스포츠동아",
 "link": "https://sports.donga.com/ent/article/all/20261111/135006478/1"
+},
+{
+"title": "김태희 맞아? 외모 악플 쏟아진 후..민낯으로 증명한 '태혜지' 태쁘 미모 [핫피플]",
+"source": "OSEN",
+"link": "https://www.osen.co.kr/article/G1112908092"
 }
 ],
 "new": true
