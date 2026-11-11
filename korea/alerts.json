@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-11T03:30:27.453878+00:00",
+"updated": "2026-11-11T03:32:38.293277+00:00",
 "errors": [],
 "events": [
 {
@@ -4501,11 +4501,11 @@
 "terms": {
 "지진": {
 "n30": 1,
-"base": 0.2,
+"base": 0.3,
 "spike": false
 },
 "화재": {
-"n30": 2,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -4520,12 +4520,12 @@
 "spike": false
 },
 "폭발": {
-"n30": 2,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
 "붕괴": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -4540,23 +4540,23 @@
 "spike": false
 },
 "속보": {
-"n30": 5,
+"n30": 0,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "지하철": {
-"n30": 5,
+"n30": 1,
 "base": 1.1,
-"spike": true
+"spike": false
 },
 "사고": {
 "n30": 4,
-"base": 4.6,
+"base": 4.5,
 "spike": false
 },
 "실종": {
-"n30": 1,
-"base": 0.7,
+"n30": 0,
+"base": 0.8,
 "spike": false
 },
 "단수": {
@@ -4658,16 +4658,6 @@
 "time": "2026-11-11T03:02:26Z",
 "term": "화재",
 "url": "https://www.youtube.com/watch?v=bHsU5yh1H2s"
-},
-{
-"text": "당시 중국 사회주의자들과 아나키들에게 욕 뒤지게 먹긴 했습니다 살해당했는가는 모르겠고 실종되었나 그래요",
-"handle": "wongoji.bsky.social",
-"name": "原巖 원고지",
-"time": "2026-11-11T03:02:25.083Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/wongoji.bsky.social/post/3mzyxqcpcyk24",
-"term": "실종"
 },
 {
 "platform": "YouTube",
@@ -4823,35 +4813,20 @@
 "url": "https://www.youtube.com/watch?v=eyRHHFyEKSk"
 }
 ],
-"spikes": [
-{
-"term": "속보",
-"n30": 5,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-11T03:30:27.453878+00:00"
-},
-{
-"term": "지하철",
-"n30": 5,
-"base": 1.1,
-"spike": true,
-"since": "2026-11-11T03:30:27.453878+00:00"
-}
-],
+"spikes": [],
 "baseline": {
-"지진": 0.32,
+"지진": 0.39,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.09,
+"폭발": 0.08,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 1.1,
-"사고": 4.5,
-"실종": 0.77,
+"지하철": 1.09,
+"사고": 4.45,
+"실종": 0.69,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
