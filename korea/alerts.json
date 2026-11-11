@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-11T12:21:31.696039+00:00",
+"updated": "2026-11-11T12:23:47.013980+00:00",
 "errors": [],
 "events": [
 {
@@ -3894,7 +3894,7 @@
 "sns": {
 "terms": {
 "지진": {
-"n30": 0,
+"n30": 1,
 "base": 0.2,
 "spike": false
 },
@@ -3915,12 +3915,12 @@
 },
 "폭발": {
 "n30": 0,
-"base": 0.5,
+"base": 0.4,
 "spike": false
 },
 "붕괴": {
 "n30": 0,
-"base": 0.3,
+"base": 0.2,
 "spike": false
 },
 "대피": {
@@ -3930,7 +3930,7 @@
 },
 "미사일": {
 "n30": 0,
-"base": 0.3,
+"base": 0.2,
 "spike": false
 },
 "속보": {
@@ -3945,7 +3945,7 @@
 },
 "사고": {
 "n30": 4,
-"base": 2.3,
+"base": 2.5,
 "spike": false
 },
 "실종": {
@@ -3976,11 +3976,21 @@
 },
 "posts": [
 {
+"text": "【지진 정보】일본 시간 11월 11일 21:13경\n진원: Tachibana Bay (M2.3, 깊이 약 10km)\n최대 진도: 1\n진도 1: 나가사키현\n이 지진으로 인한 쓰나미 걱정은 없습니다.\n(일본 기상청 발표)\n#일본 #지진 #방재",
+"handle": "ko.soramoyou.yk-planning.jp",
+"name": "Soramoyou 한국어",
+"time": "2026-11-11T12:21:34.973Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/ko.soramoyou.yk-planning.jp/post/3mzzwyadmsu2k",
+"term": "지진"
+},
+{
 "text": "30분 안에 나가서 간식과 함께 피망 좀 사고 그대로 작업하러갈까\n전 고기 볶음엔 역시 피망이라고 생각하는 파입니다",
 "handle": "jormungandr8.bsky.social",
 "name": "코리안초록유혈목이(뱀)",
 "time": "2026-11-11T12:20:32.675Z",
-"likes": 0,
+"likes": 1,
 "reposts": 0,
 "url": "https://bsky.app/profile/jormungandr8.bsky.social/post/3mzzwnxtih22a",
 "term": "사고"
@@ -4217,21 +4227,21 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 0.18,
+"지진": 0.26,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.41,
-"붕괴": 0.23,
+"폭발": 0.37,
+"붕괴": 0.21,
 "대피": 0.05,
-"미사일": 0.24,
+"미사일": 0.22,
 "속보": 0.05,
-"지하철": 0.8,
-"사고": 2.51,
-"실종": 0.16,
+"지하철": 0.82,
+"사고": 2.66,
+"실종": 0.14,
 "단수": 0.05,
 "통신 장애": 0.05,
-"먹통": 0.55,
+"먹통": 0.5,
 "산불": 0.05
 },
 "errors": [],
@@ -4430,6 +4440,24 @@
 },
 "trends": [
 {
+"term": "xsmb",
+"traffic": "500+",
+"time": "2026-11-11T11:20:00+00:00",
+"news": [
+{
+"title": "Kết quả xổ số miền Trung hôm nay 11.11: Khánh Hòa, Đà Nẵng",
+"source": "Laodong.vn",
+"link": "https://laodong.vn/ldt/tin-tuc/ket-qua-xo-so-mien-trung-hom-nay-1111-khanh-hoa-da-nang-1798739.ldo"
+},
+{
+"title": "XSCT 11/11 - Kết quả xổ số Cần Thơ hôm nay ngày 11 tháng 11",
+"source": "CafeF",
+"link": "https://cafef.vn/xsct-11-11-ket-qua-xo-so-can-tho-hom-nay-ngay-11-thang-11-188261111163739876.chn"
+}
+],
+"new": true
+},
+{
 "term": "임신",
 "traffic": "500+",
 "time": "2026-11-11T10:30:00+00:00",
@@ -4590,24 +4618,6 @@
 }
 ],
 "new": false
-},
-{
-"term": "김태희",
-"traffic": "1000+",
-"time": "2026-11-11T08:40:00+00:00",
-"news": [
-{
-"title": "김태희 맞아? 외모 악플 쏟아진 후..민낯으로 증명한 '태혜지' 태쁘 미모 [핫피플]",
-"source": "OSEN",
-"link": "https://www.osen.co.kr/article/G1112908092"
-},
-{
-"title": "김태희, \"살쪘다\" 지적 의식?…레깅스 입고 \"매일 운동\" - 머니투데이",
-"source": "머니투데이",
-"link": "https://www.mt.co.kr/entertainment/2026/11/11/2026111113393715820"
-}
-],
-"new": true
 }
 ],
 "trendSeen": [
