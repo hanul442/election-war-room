@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-11T12:46:40.818946+00:00",
+"updated": "2026-11-11T12:48:58.935433+00:00",
 "errors": [],
 "events": [
 {
@@ -50,7 +50,7 @@
 "id": "viewAKR202611111788000651211",
 "first": "2026-11-11T12:11:18+00:00",
 "last": "2026-11-11T12:43:17+00:00",
-"updated": "2026-11-11T12:46:40.818946+00:00",
+"updated": "2026-11-11T12:48:58.935433+00:00",
 "headline": "인천 고잔동 공장서 가스 누출 신고…3명 호흡곤란",
 "cat": "재난",
 "regions": [
@@ -58,6 +58,7 @@
 ],
 "sources": [
 "KBC광주방송",
+"경향신문",
 "연합뉴스",
 "조선일보"
 ],
@@ -68,6 +69,13 @@
 "link": "https://www.yna.co.kr/view/AKR20261111178800065",
 "time": "2026-11-11T12:11:18+00:00",
 "stage": "1보"
+},
+{
+"title": "인천 남동구서 가스누출 의심 신고···1명 병원 이송",
+"source": "경향신문",
+"link": "https://www.khan.co.kr/article/202611112124001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
+"time": "2026-11-11T12:24:00+00:00",
+"stage": "후속"
 },
 {
 "title": "인천 고잔동 공장서 가스 누출 신고…1명 호흡곤란 이송",
@@ -90,12 +98,16 @@
 "1명",
 "3명",
 "가스",
+"가스누출",
 "고잔동",
 "공장서",
+"남동구서",
 "누출",
 "당부",
 "대피",
+"병원",
 "신고",
+"의심",
 "이송",
 "인천",
 "정체불명",
@@ -3833,13 +3845,13 @@
 "spike": false
 },
 "붕괴": {
-"n30": 2,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
 "대피": {
 "n30": 1,
-"base": 0.6,
+"base": 0.7,
 "spike": false
 },
 "미사일": {
@@ -3848,18 +3860,18 @@
 "spike": false
 },
 "속보": {
-"n30": 2,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
 "지하철": {
 "n30": 1,
-"base": 0.4,
+"base": 0.5,
 "spike": false
 },
 "사고": {
-"n30": 4,
-"base": 3.9,
+"n30": 2,
+"base": 4.0,
 "spike": false
 },
 "실종": {
@@ -3985,16 +3997,6 @@
 "url": "https://www.youtube.com/watch?v=CMguPqVmCI8"
 },
 {
-"text": "애니메이트가서요즘이런게유행하는구나 하다가 아무거나하나사고돌아오고싶다(슬픈이야기: 단한번도 뭔가건진적이없음",
-"handle": "ossacranii.bsky.social",
-"name": "🔒Ossa",
-"time": "2026-11-11T12:18:50.070Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/ossacranii.bsky.social/post/3mzzwtcld7s26",
-"term": "사고"
-},
-{
 "platform": "YouTube",
 "text": "[OCI홀딩스 주가전망] *7분전 속보* 와..환율 12원 급락에 결국 일 터졌다, 오늘 마감 캔들에서 힌트 다 나왔네요.",
 "handle": "UCtEg_LyuNhbFWvhwV4DZAoQ",
@@ -4002,16 +4004,6 @@
 "time": "2026-11-11T12:18:26Z",
 "term": "속보",
 "url": "https://www.youtube.com/watch?v=aKwyaJ6JF0Q"
-},
-{
-"text": "분당 버스 32대 연쇄 추돌, 70명 부상…브레이크 고장 의혹의 전말\n\n2026년 11월 11일 오전 7시 34분 분당구 출근길에서 340번 전기버스가 차량 32대를 연쇄 추돌해 70명이 부상을 입었습니다. 브레이크 고장 의혹과 운전자 과실 가능성, 사고 경위와 향후 수사 방향을 정리했습니다.\n\nm.blog.naver.com/hampi2/22447...",
-"handle": "hampi2.bsky.social",
-"name": "hampi2.bsky.social",
-"time": "2026-11-11T12:18:25.473Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/hampi2.bsky.social/post/3mzzwscbm4k2x",
-"term": "사고"
 },
 {
 "platform": "YouTube",
@@ -4160,21 +4152,21 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 0.74,
-"화재": 0.51,
+"지진": 0.77,
+"화재": 0.56,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.13,
-"붕괴": 0.08,
-"대피": 0.68,
-"미사일": 0.08,
+"폭발": 0.12,
+"붕괴": 0.07,
+"대피": 0.71,
+"미사일": 0.07,
 "속보": 0.05,
-"지하철": 0.47,
-"사고": 3.95,
+"지하철": 0.52,
+"사고": 3.76,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
-"먹통": 0.18,
+"먹통": 0.16,
 "산불": 0.05
 },
 "errors": [],
@@ -4536,9 +4528,9 @@
 "link": "https://www.yna.co.kr/view/AKR20261111178600007"
 },
 {
-"title": "[사진] 마레이와 유기상, 승리의 기운 가득",
+"title": "[사진] 정인덕, 노마크 찬스",
 "source": "조선일보",
-"link": "https://www.chosun.com/sports/sports_photo/2026/11/11/G4YWENDFGZTDKNBXGYYGINJVMI/"
+"link": "https://www.chosun.com/sports/sports_photo/2026/11/11/G5STKZLBMFSTAY3BG5SWIYJSMM/"
 }
 ],
 "new": false
