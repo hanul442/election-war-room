@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-11T18:56:14.047998+00:00",
+"updated": "2026-11-11T18:58:31.108594+00:00",
 "errors": [],
 "events": [
 {
@@ -1562,39 +1562,6 @@
 "탈황제",
 "활용"
 ]
-},
-{
-"id": "GNkh6NzFvZk1mWW12UmRvoc51256",
-"first": "2026-11-11T12:56:36+00:00",
-"last": "2026-11-11T12:56:36+00:00",
-"updated": "2026-11-11T13:00:22.393330+00:00",
-"headline": "질병 관련 서류, 보건소 찾아가지 말고 이제 정부24에서 찾으세요",
-"cat": "정치",
-"regions": [],
-"sources": [
-"한국사회복지저널"
-],
-"updates": [
-{
-"title": "[속보] 질병 관련 서류, 보건소 찾아가지 말고 이제 정부24에서 찾으세요",
-"source": "한국사회복지저널",
-"link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE54VXRwLWU5VTBzSjlkOVBqUnJqd0ZUb0I4eDFxX0RGOWY4VzBXZzgtay1fdnc4clhrckZ0VkdpcFZvWTVLeDVyZjBGNEsyVHB0Y1pNR0xyaVgzVmtGNkh6NzFvZk1mWW12UmRv?oc=5",
-"time": "2026-11-11T12:56:36+00:00",
-"stage": "얼럿"
-}
-],
-"level": "URGENT",
-"latest": "질병 관련 서류, 보건소 찾아가지 말고 이제 정부24에서 찾으세요",
-"tok": [
-"말고",
-"보건소",
-"서류",
-"이제",
-"정부24에서",
-"질병",
-"찾아가지",
-"찾으세요"
-]
 }
 ],
 "sns": {
@@ -1620,13 +1587,13 @@
 "spike": false
 },
 "폭발": {
-"n30": 5,
+"n30": 4,
 "base": 1.4,
-"spike": true
+"spike": false
 },
 "붕괴": {
 "n30": 1,
-"base": 0.3,
+"base": 0.2,
 "spike": false
 },
 "대피": {
@@ -1640,18 +1607,18 @@
 "spike": false
 },
 "속보": {
-"n30": 10,
+"n30": 7,
 "base": 0.1,
 "spike": true
 },
 "지하철": {
-"n30": 2,
-"base": 0.7,
+"n30": 1,
+"base": 0.8,
 "spike": false
 },
 "사고": {
 "n30": 1,
-"base": 0.5,
+"base": 0.6,
 "spike": false
 },
 "실종": {
@@ -1863,26 +1830,6 @@
 "url": "https://www.youtube.com/watch?v=R0nIFyyt0pg"
 },
 {
-"text": "나 그리고 한국인이 옷 잘 입는다는 것에도 동의할 수 없음. 걍 한국인이 좋아하는 옷 스타일이 있고 한국인이 옷에 돈을 많이 쓴다 해야할 것 같음. \n근데 한국은 그럴 수밖에 없는게 사람들이 너무 모여 사니까 옷으로 보여지는게 너무 큼. 하다못해 지하철도 타고 다니니 사람들이 일단 너무 거지같은 옷이나 더러운 옷을 안 입음. 맨날 자택만 해봐 옷 이렇게 안 사지.",
-"handle": "0u0.bsky.social",
-"name": "에이",
-"time": "2026-11-11T18:27:58.381Z",
-"likes": 1,
-"reposts": 0,
-"url": "https://bsky.app/profile/0u0.bsky.social/post/3n22lheygus2k",
-"term": "지하철"
-},
-{
-"text": "어쩔 수 없는 K게이머 기질 폭발하는 중(순백or칠흑으로 도배한다는 뜻)",
-"handle": "chickpeashr.bsky.social",
-"name": "· ｡ ✧ 병아리콩 ✧ ｡ ·",
-"time": "2026-11-11T18:27:31.781Z",
-"likes": 2,
-"reposts": 0,
-"url": "https://bsky.app/profile/chickpeashr.bsky.social/post/3n22lggaenc22",
-"term": "폭발"
-},
-{
 "platform": "YouTube",
 "text": "[속보] 한동훈 결국 의원직 상실 대참사 터졌다! IP 주소 어딘지 봤더니 \"와..X발 타워펠리스요? 그 인간 집이잖아\" 결국 터질게 터지는구나..끝났다",
 "handle": "UCOJ9besUgprC3dXBKbxR8Hg",
@@ -1939,18 +1886,11 @@
 ],
 "spikes": [
 {
-"term": "폭발",
-"n30": 5,
-"base": 1.4,
-"spike": true,
-"since": "2026-11-11T18:56:14.047998+00:00"
-},
-{
 "term": "속보",
-"n30": 10,
+"n30": 7,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-11T18:56:14.047998+00:00"
+"since": "2026-11-11T18:58:31.108594+00:00"
 }
 ],
 "baseline": {
@@ -1958,13 +1898,13 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 1.41,
-"붕괴": 0.24,
+"폭발": 1.27,
+"붕괴": 0.22,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.77,
-"사고": 0.56,
+"지하철": 0.69,
+"사고": 0.6,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
