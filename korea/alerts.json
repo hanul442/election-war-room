@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-11T10:17:32.631928+00:00",
+"updated": "2026-11-11T10:19:50.295411+00:00",
 "errors": [],
 "events": [
 {
@@ -3680,7 +3680,7 @@
 },
 "화재": {
 "n30": 1,
-"base": 0.6,
+"base": 0.7,
 "spike": false
 },
 "불났": {
@@ -3694,7 +3694,7 @@
 "spike": false
 },
 "폭발": {
-"n30": 1,
+"n30": 0,
 "base": 0.9,
 "spike": false
 },
@@ -3724,7 +3724,7 @@
 "spike": false
 },
 "사고": {
-"n30": 3,
+"n30": 4,
 "base": 2.8,
 "spike": false
 },
@@ -3755,6 +3755,16 @@
 }
 },
 "posts": [
+{
+"text": "차사고는 ㅈ0병원임 ㅋ",
+"handle": "faciata0324.bsky.social",
+"name": "짜냥이🌺",
+"time": "2026-11-11T10:18:08.382Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/faciata0324.bsky.social/post/3mzzq3hjc7k2v",
+"term": "사고"
+},
 {
 "text": "오늘 판교 쪽에 버스 추돌 사고도 있었는데 ㅡㅡ 오늘 버스들 문제 많네요 많이 다치신 게 아닌 것 같아 다행입니다..",
 "handle": "bowzz.bsky.social",
@@ -3804,16 +3814,6 @@
 "reposts": 1,
 "url": "https://bsky.app/profile/lunamothryu.bsky.social/post/3mzzol7iga22e",
 "term": "먹통"
-},
-{
-"text": "리츠가 시게오한테 잘해주는 게 마냥 좋아서 잘 해주는 게 아니라 형이 스트레스로 인해서 폭발하지 않도록 맞춰주는 느낌도 있음",
-"handle": "sunchip210917.bsky.social",
-"name": "썬칩🌞",
-"time": "2026-11-11T09:49:21.880Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/sunchip210917.bsky.social/post/3mzzoi36lf22i",
-"term": "폭발"
 },
 {
 "platform": "YouTube",
@@ -3945,20 +3945,20 @@
 "spikes": [],
 "baseline": {
 "지진": 0.05,
-"화재": 0.68,
+"화재": 0.71,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.95,
-"붕괴": 0.07,
+"폭발": 0.85,
+"붕괴": 0.06,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.27,
-"지하철": 0.27,
-"사고": 2.8,
+"속보": 0.24,
+"지하철": 0.24,
+"사고": 2.92,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
-"먹통": 1.21,
+"먹통": 1.19,
 "산불": 0.05
 },
 "errors": [],
