@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-11T18:35:43.129412+00:00",
+"updated": "2026-11-11T18:38:02.654864+00:00",
 "errors": [],
 "events": [
 {
@@ -1830,13 +1830,13 @@
 "spike": false
 },
 "폭발": {
-"n30": 5,
-"base": 0.6,
-"spike": true
+"n30": 4,
+"base": 0.7,
+"spike": false
 },
 "붕괴": {
 "n30": 1,
-"base": 0.7,
+"base": 0.6,
 "spike": false
 },
 "대피": {
@@ -1856,12 +1856,12 @@
 },
 "지하철": {
 "n30": 1,
-"base": 0.3,
+"base": 0.4,
 "spike": false
 },
 "사고": {
 "n30": 1,
-"base": 0.6,
+"base": 0.7,
 "spike": false
 },
 "실종": {
@@ -2112,27 +2112,19 @@
 "url": "https://www.youtube.com/watch?v=EBswdAvU2nk"
 }
 ],
-"spikes": [
-{
-"term": "폭발",
-"n30": 5,
-"base": 0.6,
-"spike": true,
-"since": "2026-11-11T18:35:43.129412+00:00"
-}
-],
+"spikes": [],
 "baseline": {
-"지진": 0.1,
+"지진": 0.09,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.73,
-"붕괴": 0.62,
+"폭발": 0.86,
+"붕괴": 0.56,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.39,
-"사고": 0.67,
+"지하철": 0.45,
+"사고": 0.7,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -2421,14 +2413,14 @@
 "time": "2026-11-11T14:50:00+00:00",
 "news": [
 {
-"title": "[포토] 100일의 김유정",
-"source": "MBC",
-"link": "https://m.imbc.com/enews/view/524341"
-},
-{
 "title": "[ET포토] 배윤영, '시원하게 드러낸 어깨라인'",
 "source": "전자신문",
 "link": "https://www.etnews.com/20261111000247"
+},
+{
+"title": "28살 김유정, 가슴라인 드러낸 반전매력…눈 둘 곳 없는 파격 노출[Oh!쎈 이슈]",
+"source": "Chosunbiz",
+"link": "https://biz.chosun.com/entertainment/enter_general/2026/11/11/MNSTAM3EMRSTINJXMM3DCMDBMI/"
 }
 ],
 "new": false
