@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-11T22:27:35.168190+00:00",
+"updated": "2026-11-11T22:29:52.647996+00:00",
 "errors": [],
 "events": [
 {
@@ -52,7 +52,7 @@
 "id": "wNISX20261111_00038645811439",
 "first": "2026-11-11T14:39:13+00:00",
 "last": "2026-11-11T22:20:20+00:00",
-"updated": "2026-11-11T22:25:18.931408+00:00",
+"updated": "2026-11-11T22:29:52.647996+00:00",
 "headline": "코어위브 호실적에 뉴욕증시 3대지수 상승 춭발",
 "cat": "경제",
 "regions": [],
@@ -192,6 +192,13 @@
 "stage": "속보"
 },
 {
+"title": "[속보] 엔비디아 2.87%·마이크론 11.89%·AMD 7.32% 급등…샌디스크 13.69% 상승, 뉴욕증시 반도체주 강세",
+"source": "CBC뉴스",
+"link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBObXNmbUNDSGx5aXhmTUlZUWtZdVB1T1AycG5PcVpDTzNDcjR3VUc2V08xQTlzc1JRVHM5OWhZeEV2RFdnOXNhSVVlZGZONzIxS3Y0YVZ0b1o4WkRkVmJub2ZvUnF0N3BY?oc=5",
+"time": "2026-11-11T22:20:00+00:00",
+"stage": "속보"
+},
+{
 "title": "코어위브 25% 급등에 AI株 반등…나스닥 1.6% 상승",
 "source": "조선일보",
 "link": "https://www.chosun.com/economy/int_economy/2026/11/12/W4CCREARX5EKLJKKTZ3F5BPBZM/",
@@ -206,6 +213,7 @@
 "ADR",
 "AI株",
 "AI주",
+"AMD",
 "NVDA",
 "SK하닉",
 "강세",
@@ -216,13 +224,16 @@
 "뉴욕증시",
 "동반",
 "마감",
+"마이크론",
 "만에",
 "반도체",
 "반도체株",
+"반도체주",
 "반등",
 "사흘",
 "상승",
 "상승세",
+"샌디스크",
 "속슬",
 "시장",
 "신호",
@@ -237,8 +248,40 @@
 "폭등",
 "호실적",
 "호전",
-"훈풍",
-"힘입어"
+"훈풍"
+]
+},
+{
+"id": "WMGMybkZqWVJ0Vlhnc0pUoc52220",
+"first": "2026-11-11T22:20:00+00:00",
+"last": "2026-11-11T22:20:00+00:00",
+"updated": "2026-11-11T22:29:52.647996+00:00",
+"headline": "젠슨 황 추가 외도설 보도에 엔비디아, 시간 외 거래서 3%대 급락",
+"cat": "기타",
+"regions": [],
+"sources": [
+"뉴스핌"
+],
+"updates": [
+{
+"title": "[속보] 젠슨 황 추가 외도설 보도에 엔비디아, 시간 외 거래서 3%대 급락",
+"source": "뉴스핌",
+"link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5XZjVib0pFM0pwaXlndkh0OVE3WG1UMWxLYkI1cjgxNkNqa1RUcUJsRTl6ckNGQUlHdTgyWFF4VnNYQ2YxdG1JMVV5NlhWMGMybkZqWVJ0Vlhnc0pU?oc=5",
+"time": "2026-11-11T22:20:00+00:00",
+"stage": "얼럿"
+}
+],
+"level": "URGENT",
+"latest": "젠슨 황 추가 외도설 보도에 엔비디아, 시간 외 거래서 3%대 급락",
+"tok": [
+"거래서",
+"급락",
+"보도",
+"시간",
+"엔비디아",
+"외도설",
+"젠슨",
+"추가"
 ]
 },
 {
@@ -1614,13 +1657,13 @@
 "spike": false
 },
 "속보": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
 "지하철": {
 "n30": 1,
-"base": 0.7,
+"base": 0.8,
 "spike": false
 },
 "사고": {
@@ -1879,13 +1922,13 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.18,
+"폭발": 0.16,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.75,
-"사고": 0.29,
+"지하철": 0.78,
+"사고": 0.26,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -2183,14 +2226,14 @@
 "time": "2026-11-11T20:50:00+00:00",
 "news": [
 {
-"title": "아들의 성폭행 피해자 여중생 살해한 부친",
-"source": "동아일보",
-"link": "https://www.donga.com/news/Society/article/all/20261111/135010430/2"
+"title": "아들 ‘성범죄 사건’ 10대 피해자 살해한 50대 남성 체포…보복 범행 가능성 수사",
+"source": "경향신문",
+"link": "https://www.khan.co.kr/article/202611111924001"
 },
 {
-"title": "[단독] '아들 성범죄' 피해자 살해…'보복 범죄' 수사",
-"source": "SBS 뉴스",
-"link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008841962"
+"title": "'아들 성폭력' 피해자 살해‥합의안해 '보복'?",
+"source": "MBC 뉴스",
+"link": "https://imnews.imbc.com/replay/2026/nwtoday/article/6865004_37012.html"
 }
 ],
 "new": true
