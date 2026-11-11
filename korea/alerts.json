@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-11T09:31:37.542592+00:00",
+"updated": "2026-11-11T09:34:03.535360+00:00",
 "errors": [],
 "events": [
 {
@@ -3554,8 +3554,8 @@
 "spike": false
 },
 "붕괴": {
-"n30": 2,
-"base": 0.6,
+"n30": 1,
+"base": 0.5,
 "spike": false
 },
 "대피": {
@@ -3569,18 +3569,18 @@
 "spike": false
 },
 "속보": {
-"n30": 5,
+"n30": 4,
 "base": 1.2,
-"spike": true
+"spike": false
 },
 "지하철": {
 "n30": 2,
-"base": 1.2,
+"base": 1.1,
 "spike": false
 },
 "사고": {
 "n30": 2,
-"base": 4.8,
+"base": 4.5,
 "spike": false
 },
 "실종": {
@@ -3742,16 +3742,6 @@
 "url": "https://www.youtube.com/watch?v=Ly-5G2BnIvc"
 },
 {
-"text": "<속보> 엘룬 행복 수치 증가 \n좌우반전 됐지만 행복하니 좋았으!",
-"handle": "elrune.bsky.social",
-"name": "엘룬",
-"time": "2026-11-11T09:03:35.771Z",
-"likes": 1,
-"reposts": 0,
-"url": "https://bsky.app/profile/elrune.bsky.social/post/3mzzlw44lr22h",
-"term": "속보"
-},
-{
 "platform": "YouTube",
 "text": "😱 [바이스·사이슈·루갈 vs 죠·친·료] 상대 멘탈 붕괴시키는 무자비한 퍼펙트 완승! #Shorts #KOF98",
 "handle": "UCKA2k0y6lwyL3db4RFy9W3g",
@@ -3833,29 +3823,21 @@
 "url": "https://www.youtube.com/watch?v=uYECmR4VYrQ"
 }
 ],
-"spikes": [
-{
-"term": "속보",
-"n30": 5,
-"base": 1.2,
-"spike": true,
-"since": "2026-11-11T09:31:37.542592+00:00"
-}
-],
+"spikes": [],
 "baseline": {
 "지진": 0.05,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.81,
-"붕괴": 0.54,
-"대피": 0.06,
+"폭발": 0.83,
+"붕괴": 0.49,
+"대피": 0.05,
 "미사일": 0.05,
-"속보": 1.25,
-"지하철": 1.14,
-"사고": 4.54,
+"속보": 1.23,
+"지하철": 1.13,
+"사고": 4.29,
 "실종": 0.05,
-"단수": 0.12,
+"단수": 0.11,
 "통신 장애": 0.05,
 "먹통": 0.05,
 "산불": 0.05
@@ -4029,9 +4011,9 @@
 },
 "trends": [
 {
-"term": "마운자로",
+"term": "일본 마운자로 가격",
 "traffic": "200+",
-"time": "2026-11-11T08:20:00+00:00",
+"time": "2026-11-11T08:30:00+00:00",
 "news": [
 {
 "title": "[단독] 일본서 산 마운자로, 국내 반입 허용된다…최대 12개",
@@ -4042,6 +4024,60 @@
 "title": "[속보] 정부 \"내일부터 비만약 등 치료용 의약품 반입 허용\"",
 "source": "한국경제",
 "link": "https://www.hankyung.com/article/2026111108597"
+}
+],
+"new": true
+},
+{
+"term": "세무사 수석",
+"traffic": "200+",
+"time": "2026-11-11T08:20:00+00:00",
+"news": [
+{
+"title": "대기업 10년차·벼랑끝 자영업 거쳐 세무사시험 수석 합격한 한원석씨",
+"source": "한국세정신문",
+"link": "https://www.taxtimes.co.kr/news/article.html?no=277678"
+},
+{
+"title": "\"전 범위 공부.. 매일 새벽 4시 기상, 백지 복습\" [제63회 세무사시험-수석]",
+"source": "조세일보",
+"link": "https://m.joseilbo.com/news/view.htm?newsid=579361"
+}
+],
+"new": true
+},
+{
+"term": "마운자로",
+"traffic": "200+",
+"time": "2026-11-11T08:20:00+00:00",
+"news": [
+{
+"title": "살 빼려다 시력 잃을 수도 있다···‘비만 치료제’ 위고비·마운자로, 시신경 손상 위험 ‘비상’",
+"source": "경향신문",
+"link": "https://www.khan.co.kr/article/202611111354001"
+},
+{
+"title": "\"GLP-1 의약품, 시력 질환 가능성\"...식약처 서한 배포",
+"source": "YTN 사이언스",
+"link": "https://science.ytn.co.kr/program/view.php?mcd=0082&key=202611111104057382"
+}
+],
+"new": true
+},
+{
+"term": "pakistan vs sri lanka",
+"traffic": "200+",
+"time": "2026-11-11T08:20:00+00:00",
+"news": [
+{
+"title": "De Silva, Kamindu fifties guide Sri Lanka to 221-4 in first Test",
+"source": "AFP.com",
+"link": "https://www.afp.com/en/de-silva-kamindu-fifties-guide-sri-lanka-221-4-first-test"
+},
+{
+"title": "Shakeel nears century as Pakistan score 390-6 in first Test",
+"source": "Daily Sun",
+"link": "http://www.daily-sun.com/sports/908343/shakeel-nears-century-as-pakistan-score-390-6-in-first-test"
 }
 ],
 "new": true
@@ -4065,42 +4101,6 @@
 "new": true
 },
 {
-"term": "세무사 수석",
-"traffic": "100+",
-"time": "2026-11-11T08:20:00+00:00",
-"news": [
-{
-"title": "대기업 10년차·벼랑끝 자영업 거쳐 세무사시험 수석 합격한 한원석씨",
-"source": "한국세정신문",
-"link": "https://www.taxtimes.co.kr/news/article.html?no=277678"
-},
-{
-"title": "\"전 범위 공부.. 매일 새벽 4시 기상, 백지 복습\" [제63회 세무사시험-수석]",
-"source": "조세일보",
-"link": "https://m.joseilbo.com/news/view.htm?newsid=579361"
-}
-],
-"new": true
-},
-{
-"term": "pakistan vs sri lanka",
-"traffic": "100+",
-"time": "2026-11-11T08:20:00+00:00",
-"news": [
-{
-"title": "De Silva, Kamindu fifties guide Sri Lanka to 221-4 in first Test",
-"source": "AFP.com",
-"link": "https://www.afp.com/en/de-silva-kamindu-fifties-guide-sri-lanka-221-4-first-test"
-},
-{
-"title": "Shakeel nears century as Pakistan score 390-6 in first Test",
-"source": "Daily Sun",
-"link": "http://www.daily-sun.com/sports/908343/shakeel-nears-century-as-pakistan-score-390-6-in-first-test"
-}
-],
-"new": true
-},
-{
 "term": "임영웅",
 "traffic": "2000+",
 "time": "2026-11-11T08:10:00+00:00",
@@ -4117,24 +4117,6 @@
 }
 ],
 "new": false
-},
-{
-"term": "ai안경",
-"traffic": "2000+",
-"time": "2026-11-11T07:30:00+00:00",
-"news": [
-{
-"title": "스마트안경 식별 연수",
-"source": "뉴시스",
-"link": "https://mobile.newsis.com/photo/NISI20261111_0021529469"
-},
-{
-"title": "내신에서 ‘AI 안경’ 추가 적발…수능 D-10 ‘비상’",
-"source": "KBS 뉴스",
-"link": "https://news.kbs.co.kr/news/mobile/view/view.do?ncd=8708148"
-}
-],
-"new": true
 },
 {
 "term": "쇠족제비",
@@ -4165,12 +4147,30 @@
 "link": "https://imnews.imbc.com/news/2026/politics/article/6864817_36911.html"
 },
 {
-"title": "‘하이에나 떼’ 사과한 최민희, 이번엔 ‘유출자’ 탓…지지자 대화방 결국 폐쇄",
-"source": "주간경향",
-"link": "https://weekly.khan.co.kr/article/202611111809001"
+"title": "최민희, 기자들에 “하이에나 떼” 논란일자 “부적절, 사과” …사진기자협회 “법적대응 검토”",
+"source": "JTBC",
+"link": "https://news.jtbc.co.kr/article/NB12327556"
 }
 ],
 "new": false
+},
+{
+"term": "ai안경",
+"traffic": "2000+",
+"time": "2026-11-11T07:30:00+00:00",
+"news": [
+{
+"title": "스마트안경 식별 연수",
+"source": "뉴시스",
+"link": "https://mobile.newsis.com/photo/NISI20261111_0021529469"
+},
+{
+"title": "내신에서 ‘AI 안경’ 추가 적발…수능 D-10 ‘비상’",
+"source": "KBS 뉴스",
+"link": "https://news.kbs.co.kr/news/mobile/view/view.do?ncd=8708148"
+}
+],
+"new": true
 },
 {
 "term": "조원태",
@@ -4189,28 +4189,9 @@
 }
 ],
 "new": false
-},
-{
-"term": "김종국",
-"traffic": "500+",
-"time": "2026-11-11T07:10:00+00:00",
-"news": [
-{
-"title": "\"물도 못 마시고 이틀간 고통\"…김종국 투병 '전정신경염' 뭐길래 - 머니투데이",
-"source": "머니투데이",
-"link": "https://www.mt.co.kr/entertainment/2026/11/11/2026111111204119040"
-},
-{
-"title": "김종국, 극비리 결혼 1년 막 지났는데..건강이상설 \"심한 어지럼증\" [핫피플]",
-"source": "미주중앙일보",
-"link": "https://www.koreadaily.com/article/20261110161829887"
-}
-],
-"new": true
 }
 ],
 "trendSeen": [
-"육군특수전사령부",
 "윤여정",
 "은마아파트",
 "은행",
@@ -4269,6 +4250,7 @@
 "일기예보",
 "일론 머스크",
 "일본",
+"일본 마운자로 가격",
 "일본 지진",
 "임영웅",
 "임영웅 아임 히어로 더 스타디움",
