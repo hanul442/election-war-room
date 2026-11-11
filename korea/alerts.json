@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-11T09:54:59.226843+00:00",
+"updated": "2026-11-11T09:57:13.464035+00:00",
 "errors": [],
 "events": [
 {
@@ -3624,7 +3624,7 @@
 "spike": false
 },
 "화재": {
-"n30": 0,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
@@ -3640,11 +3640,11 @@
 },
 "폭발": {
 "n30": 2,
-"base": 0.8,
+"base": 0.9,
 "spike": false
 },
 "붕괴": {
-"n30": 3,
+"n30": 2,
 "base": 0.2,
 "spike": false
 },
@@ -3665,12 +3665,12 @@
 },
 "지하철": {
 "n30": 1,
-"base": 0.9,
+"base": 0.8,
 "spike": false
 },
 "사고": {
-"n30": 1,
-"base": 2.2,
+"n30": 2,
+"base": 2.1,
 "spike": false
 },
 "실종": {
@@ -3690,7 +3690,7 @@
 },
 "먹통": {
 "n30": 2,
-"base": 0.6,
+"base": 0.7,
 "spike": false
 },
 "산불": {
@@ -3700,6 +3700,26 @@
 }
 },
 "posts": [
+{
+"text": "모닝 참 편하고 좋지만 다음 차는 큰 차 사고 만다 하고 1x년동안 화가 쌓이는 데는 다 이유가 있죠 호호호호호호호",
+"handle": "cojette.bsky.social",
+"name": "꼬젯",
+"time": "2026-11-11T09:56:33.477Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/cojette.bsky.social/post/3mzzouuy4722r",
+"term": "사고"
+},
+{
+"text": "웜매\n근처 아파트에서 화재났대",
+"handle": "ashdblue.bsky.social",
+"name": "Æsh",
+"time": "2026-11-11T09:55:56.176Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/ashdblue.bsky.social/post/3mzzottlum22z",
+"term": "화재"
+},
 {
 "text": "- 시스템 부팅이 불가능할 때 USB 미디어 없이도 인터넷을 통해 윈도우를 다시 설치하는 '클라우드 재구축' 복구 기능이 도입되었으며, USB 오디오 먹통 및 그래픽 관련 핵심 버그들이 해결\n\n- 메모리 무결성 기본 활성화\n\n원문 아래 2개 \n\nI tested Windows 11 November 2026 update, here's what's new, improved, and fixed ww",
 "handle": "lunamothryu.bsky.social",
@@ -3870,20 +3890,20 @@
 "spikes": [],
 "baseline": {
 "지진": 0.05,
-"화재": 0.05,
+"화재": 0.15,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.86,
-"붕괴": 0.19,
+"폭발": 0.87,
+"붕괴": 0.17,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.76,
-"지하철": 0.77,
-"사고": 2.11,
+"속보": 0.68,
+"지하철": 0.69,
+"사고": 2.1,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
-"먹통": 0.7,
+"먹통": 0.83,
 "산불": 0.05
 },
 "errors": [],
