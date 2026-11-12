@@ -1,18 +1,21 @@
 {
-"updated": "2026-11-12T13:55:02.519107+00:00",
+"updated": "2026-11-12T13:57:19.735335+00:00",
 "errors": [],
 "events": [
 {
 "id": "LU0RpMGdhWlJIbWZIV19Ooc51350",
 "first": "2026-11-12T13:50:47+00:00",
-"last": "2026-11-12T13:53:44+00:00",
-"updated": "2026-11-12T13:55:02.519107+00:00",
+"last": "2026-11-12T13:54:55+00:00",
+"updated": "2026-11-12T13:57:19.735335+00:00",
 "headline": "젠슨 황 엔비디아 CEO 사임",
 "cat": "기타",
 "regions": [],
 "sources": [
+"뉴스핌",
 "뉴시스",
-"블루밍비트"
+"머니투데이",
+"블루밍비트",
+"파이낸셜뉴스"
 ],
 "updates": [
 {
@@ -23,21 +26,46 @@
 "stage": "얼럿"
 },
 {
+"title": "[속보] 엔비디아 CEO 젠슨 황 사임…콜레트 크레스 임시 CEO로 임명",
+"source": "뉴스핌",
+"link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE52elhfNnRBc2xyVHBxaGVROWt6UHd2N0Vkc19QYnM2MnNvOUlja01TRnFYZHdydUxua0dkdEFZekpKZnRnSFBFUXNOQUVFZzdkSmhvSG1MUnc5UGRP?oc=5",
+"time": "2026-11-12T13:52:00+00:00",
+"stage": "속보"
+},
+{
+"title": "[속보] 젠슨 황 엔비디아 CEO 사임 결정",
+"source": "파이낸셜뉴스",
+"link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1GWFJYQlpKTU0wQk9xTXFXWHVzVENycFhhNjNLTmhhSGd6YVR1enRtdGhZcDdHS0g0VVBkYTU2STAxU3BuZmlOTDVyclhPWEpSMlE2SzByelJnUQ?oc=5",
+"time": "2026-11-12T13:52:51+00:00",
+"stage": "속보"
+},
+{
 "title": "[속보] 엔비디아, 젠슨 황 CEO 교체…임시 CEO에 콜레트 크레스 CFO",
 "source": "뉴시스",
 "link": "https://www.newsis.com/view/NISX20261112_0003866322",
 "time": "2026-11-12T13:53:44+00:00",
 "stage": "속보"
+},
+{
+"title": "[속보]엔비디아, 젠슨 황 사임…콜레트 크레스 임시 CEO로 임명-블룸버그 - 머니투데이",
+"source": "머니투데이",
+"link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBTWWhZYk9ibFU2UHg0cnAwbmZpWFpSTlNaWnRJYm9FYWdic1lqWlJUeGg5MjRYYlVpV3htbnpJSEFYYzcxWnF3NDBnLXY0ME1XQlRZWWtqOU1zcjc1YWdvUTFCUU9lblZU0gFuQVVfeXFMTlN4cmQwRGdpbFRFeXZ6VzktazVobWVHMFhzSEJkWUxob3RkNHl1bnI2MVh0aUtIZmJFd0UxcUo2d2FGOEJpVTNYLTBJWEt2SWFheTFCQUNYdmo4NlF0VFM2TGt0Mk9uMDRHTENvMVE?oc=5",
+"time": "2026-11-12T13:54:55+00:00",
+"stage": "속보"
 }
 ],
 "level": "URGENT",
-"latest": "엔비디아, 젠슨 황 CEO 교체…임시 CEO에 콜레트 크레스 CFO",
+"latest": "엔비디아, 젠슨 황 사임…콜레트 크레스 임시 CEO로 임명-블룸버그",
 "tok": [
 "CEO",
 "CFO",
+"결정",
 "교체",
+"머니투데",
+"블룸버그",
 "사임",
 "엔비디아",
+"임명",
 "임시",
 "젠슨",
 "콜레트",
@@ -4102,7 +4130,7 @@
 "spike": false
 },
 "화재": {
-"n30": 4,
+"n30": 3,
 "base": 0.5,
 "spike": false
 },
@@ -4118,7 +4146,7 @@
 },
 "폭발": {
 "n30": 2,
-"base": 0.4,
+"base": 0.3,
 "spike": false
 },
 "붕괴": {
@@ -4137,7 +4165,7 @@
 "spike": false
 },
 "속보": {
-"n30": 4,
+"n30": 3,
 "base": 0.1,
 "spike": false
 },
@@ -4148,7 +4176,7 @@
 },
 "사고": {
 "n30": 3,
-"base": 4.5,
+"base": 4.3,
 "spike": false
 },
 "실종": {
@@ -4173,7 +4201,7 @@
 },
 "산불": {
 "n30": 2,
-"base": 0.9,
+"base": 1.0,
 "spike": false
 }
 },
@@ -4440,22 +4468,22 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 0.88,
-"화재": 0.51,
+"지진": 0.89,
+"화재": 0.56,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.35,
-"붕괴": 0.56,
+"폭발": 0.32,
+"붕괴": 0.5,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.84,
-"사고": 4.33,
+"지하철": 0.86,
+"사고": 4.2,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
-"산불": 0.97
+"산불": 1.07
 },
 "errors": [],
 "ytPosts": [
@@ -4686,7 +4714,7 @@
 "link": "https://biz.chosun.com/entertainment/enter_general/2026/11/12/GQ3TEMLGMEZWGZRRGM3TONJUGQ/"
 }
 ],
-"new": true
+"new": false
 },
 {
 "term": "두산 베어스",
@@ -4753,9 +4781,9 @@
 "link": "https://www.yna.co.kr/view/AKR20261112171600062"
 },
 {
-"title": "이재준 수원시장 \"경기남부광역철도·신분당선 연장, 시민 참여 절실\" - 머니투데이",
-"source": "머니투데이",
-"link": "https://www.mt.co.kr/index.php/policy/2026/11/12/2026111217132566374"
+"title": "“신안산선 대부도 연장·신분당선 안산 연장 설문조사 참여를”",
+"source": "기호일보",
+"link": "https://www.kihoilbo.co.kr/news/articleView.html?idxno=3040802"
 }
 ],
 "new": true
