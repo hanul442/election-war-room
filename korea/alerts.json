@@ -1,7 +1,40 @@
 {
-"updated": "2026-11-12T21:11:47.618899+00:00",
+"updated": "2026-11-12T21:14:00.460206+00:00",
 "errors": [],
 "events": [
+{
+"id": "hZVZieDRQMTZNZzc0MUM3oc52110",
+"first": "2026-11-12T21:10:00+00:00",
+"last": "2026-11-12T21:10:00+00:00",
+"updated": "2026-11-12T21:14:00.460206+00:00",
+"headline": "서울 금천구 독산동 건물서 화재 발생",
+"cat": "재난",
+"regions": [
+"서울"
+],
+"sources": [
+"이투데이"
+],
+"updates": [
+{
+"title": "[속보] 서울 금천구 독산동 건물서 화재 발생",
+"source": "이투데이",
+"link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5JdUsxeDc2aUlXVFFmSzQtZjhfT0dWOW12a25TdUYzakpqbUJVNk9mRUlWb2xpQW00MkxmVGUwM2F5ejUzaGNTWk5oVFF6STBsN0M3X2Q1NXAxOWNmVF9qVGdXUWRhZVZieDRQMTZNZzc0MUM3?oc=5",
+"time": "2026-11-12T21:10:00+00:00",
+"stage": "얼럿"
+}
+],
+"level": "URGENT",
+"latest": "서울 금천구 독산동 건물서 화재 발생",
+"tok": [
+"건물서",
+"금천구",
+"독산동",
+"발생",
+"서울",
+"화재"
+]
+},
 {
 "id": "wNISX20261113_00038663672036",
 "first": "2026-11-12T20:36:19+00:00",
@@ -2671,7 +2704,7 @@
 "spike": false
 },
 "화재": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -2686,12 +2719,12 @@
 "spike": false
 },
 "폭발": {
-"n30": 2,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
 "붕괴": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -2706,7 +2739,7 @@
 "spike": false
 },
 "속보": {
-"n30": 6,
+"n30": 5,
 "base": 0.1,
 "spike": true
 },
@@ -2949,10 +2982,10 @@
 "spikes": [
 {
 "term": "속보",
-"n30": 6,
+"n30": 5,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-12T21:11:47.618899+00:00"
+"since": "2026-11-12T21:14:00.460206+00:00"
 }
 ],
 "baseline": {
@@ -3178,19 +3211,73 @@
 },
 "trends": [
 {
+"term": "삼성 우승 할인",
+"traffic": "1000+",
+"time": "2026-11-12T20:10:00+00:00",
+"news": [
+{
+"title": "[단독]\"12년 만의 우승에 가전 할인\"…삼성스토어, 13일부터 할인",
+"source": "뉴스1",
+"link": "https://www.news1.kr/industry/general-industry/6352149"
+},
+{
+"title": "에버랜드, 삼성라이온즈 우승 기념 팬 초청 행사…2000명과 'V9 데이트'",
+"source": "전자신문",
+"link": "https://www.etnews.com/20261112000325"
+}
+],
+"new": true
+},
+{
+"term": "조선민주주의인민공화국",
+"traffic": "100+",
+"time": "2026-11-12T20:00:00+00:00",
+"news": [
+{
+"title": "北 “핵보유국 지위, 서방 논의 대상 될수없어”",
+"source": "동아일보",
+"link": "https://www.donga.com/news/Politics/article/all/20261113/135017602/2"
+},
+{
+"title": "G7, 北 러시아 군사지원 규탄‥\"파병 병력 철수하라\"",
+"source": "MBC 뉴스",
+"link": "https://imnews.imbc.com/news/2026/world/article/6865077_36925.html"
+}
+],
+"new": false
+},
+{
+"term": "돔 경기장",
+"traffic": "100+",
+"time": "2026-11-12T20:00:00+00:00",
+"news": [
+{
+"title": "정명근, 화성 미래 담을 5만석 ‘K-MARS’ 돔 유치 승부수",
+"source": "동아일보",
+"link": "https://www.donga.com/news/Society/article/all/20261112/135016534/1"
+},
+{
+"title": "박병권 부천시의회 의장, 돔구장 유치로 부천 새 도약 강조",
+"source": "뉴스타운",
+"link": "https://www.newstown.co.kr/news/articleView.html?idxno=721747"
+}
+],
+"new": true
+},
+{
 "term": "물류",
-"traffic": "500+",
+"traffic": "100+",
 "time": "2026-11-12T19:50:00+00:00",
 "news": [
 {
-"title": "네이버 \"55MW 규모 AI 팩토리, 내년 상반기 상용화…물류 자회사 설립도\"",
-"source": "지디넷코리아",
-"link": "https://zdnet.co.kr/view/?no=20261112095600"
+"title": "물류-기술 기업 매칭의 장 열린다…13일 밋업 개최",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261112_0003864804"
 },
 {
-"title": "네이버, 검색부터 예약·결제까지 AI가 대신…연내 앱 출시",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261112073100017"
+"title": "물류 현장에 로봇·AI 접목…국토부, 기술기업과 협업 연결",
+"source": "뉴스핌",
+"link": "https://www.newspim.com/news/view/20261112000991"
 }
 ],
 "new": true
@@ -3206,9 +3293,9 @@
 "link": "https://www.mt.co.kr/entertainment/2026/11/12/2026111206010266536"
 },
 {
-"title": "김윤석 파워 이 정도였어? ‘유퀴즈’ 시청률 대폭 상승 ‘동시간대 1위’[美친시청률]",
-"source": "조선일보",
-"link": "https://www.chosun.com/entertainments/broadcast/2026/11/12/HA2DCODCGRSGMMLGGMYWCNTCGA/"
+"title": "김윤석, 데뷔 38년 만에 첫 예능 출연…유재석 만난다",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261111_0003863708"
 }
 ],
 "new": true
@@ -3287,7 +3374,7 @@
 },
 {
 "term": "잉글랜드 대 크로아티아",
-"traffic": "1000+",
+"traffic": "2000+",
 "time": "2026-11-12T19:20:00+00:00",
 "news": [
 {
@@ -3299,60 +3386,6 @@
 "title": "네이션스 리그 잉글랜드 대 크로아티아 생중계 링크",
 "source": "Laodong.vn",
 "link": "https://ko.laodong.vn/bong-da-quoc-te/link-xem-truc-tiep-anh-vs-croatia-tai-nations-league-1799266.ldo"
-}
-],
-"new": false
-},
-{
-"term": "정웅인",
-"traffic": "200+",
-"time": "2026-11-12T19:20:00+00:00",
-"news": [
-{
-"title": "\"아내는 골프·해외여행 다니던데\"…'돈 걱정' 정웅인에 반응 싸늘 - 머니투데이",
-"source": "머니투데이",
-"link": "https://www.mt.co.kr/entertainment/2026/11/12/2026111216450356950"
-},
-{
-"title": "120억 집에서 '보릿고개', 명품은 보여주고 잔고엔 눈물?…도경완·정웅인·이상민의 돈 걱정, 시청자도 지친 '가난팔이' [Oh!쎈 초점]",
-"source": "조선일보",
-"link": "https://www.chosun.com/entertainments/broadcast/2026/11/12/G5RDGZLGGMYTGYLEGVQTIOLEMQ/"
-}
-],
-"new": false
-},
-{
-"term": "약국",
-"traffic": "200+",
-"time": "2026-11-12T19:10:00+00:00",
-"news": [
-{
-"title": "인근 약국 없는 군부대·공항에서 안전상비의약품 취급 등 의약품 접근성 개선",
-"source": "서울Pn",
-"link": "https://go.seoul.co.kr/news/prnewsView.php?id=456379"
-},
-{
-"title": "“공항·격오지 부대서 약 찾기 쉬워진다”… 복지부, 약사법 개정 추진",
-"source": "경기일보",
-"link": "https://www.kyeonggi.com/article/20261112580147"
-}
-],
-"new": true
-},
-{
-"term": "전현무",
-"traffic": "1000+",
-"time": "2026-11-12T19:10:00+00:00",
-"news": [
-{
-"title": "조작 방송 전현무, 대국민 사과 “당분간 DM 안 보겠다”",
-"source": "동아일보",
-"link": "https://www.donga.com/news/Culture/article/all/20261112/135011588/1"
-},
-{
-"title": "[MBN] 삼각지·을지로 골목에 숨은 노포 맛집들",
-"source": "매일경제",
-"link": "https://www.mk.co.kr/news/culture/12206570"
 }
 ],
 "new": false
