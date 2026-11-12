@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-12T04:42:56.148894+00:00",
+"updated": "2026-11-12T04:45:13.887934+00:00",
 "errors": [],
 "events": [
 {
@@ -3892,8 +3892,8 @@
 "spike": false
 },
 "정전": {
-"n30": 1,
-"base": 0.6,
+"n30": 0,
+"base": 0.5,
 "spike": false
 },
 "폭발": {
@@ -3912,12 +3912,12 @@
 "spike": false
 },
 "미사일": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
 "속보": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -4173,19 +4173,19 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 0.76,
+"지진": 0.68,
 "화재": 0.05,
 "불났": 0.05,
-"정전": 0.5,
+"정전": 0.45,
 "폭발": 0.05,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 1.71,
-"사고": 2.33,
+"지하철": 1.74,
+"사고": 2.4,
 "실종": 0.05,
-"단수": 0.56,
+"단수": 0.5,
 "통신 장애": 0.05,
 "먹통": 0.05,
 "산불": 0.05
@@ -4377,24 +4377,6 @@
 "new": false
 },
 {
-"term": "이건희",
-"traffic": "100+",
-"time": "2026-11-12T03:30:00+00:00",
-"news": [
-{
-"title": "반도체 호황에 들뜬 삼성에 내린 이건희의 죽비",
-"source": "신동아",
-"link": "https://shindonga.donga.com/economy/article/all/13/6452368/1"
-},
-{
-"title": "[fn광장] 생각 좀 하며 세상을 보자",
-"source": "파이낸셜뉴스",
-"link": "https://www.fnnews.com/news/202611111824059783"
-}
-],
-"new": true
-},
-{
 "term": "포틀랜드 대 오클라호마시티",
 "traffic": "200+",
 "time": "2026-11-12T03:30:00+00:00",
@@ -4413,8 +4395,26 @@
 "new": false
 },
 {
+"term": "이건희",
+"traffic": "200+",
+"time": "2026-11-12T03:30:00+00:00",
+"news": [
+{
+"title": "반도체 호황에 들뜬 삼성에 내린 이건희의 죽비",
+"source": "신동아",
+"link": "https://shindonga.donga.com/economy/article/all/13/6452368/1"
+},
+{
+"title": "[fn광장] 생각 좀 하며 세상을 보자",
+"source": "파이낸셜뉴스",
+"link": "https://www.fnnews.com/news/202611111824059783"
+}
+],
+"new": true
+},
+{
 "term": "200만달러",
-"traffic": "100+",
+"traffic": "200+",
 "time": "2026-11-12T03:30:00+00:00",
 "news": [
 {
@@ -4497,14 +4497,14 @@
 "time": "2026-11-12T02:40:00+00:00",
 "news": [
 {
-"title": "함평군 보건소, 함평소방서와 함께한 합동 소방 훈련 성료",
-"source": "일간투데이",
-"link": "https://www.dtoday.co.kr/news/articleView.html?idxno=803063"
+"title": "동두천소방서 30년 이상 장기근속 소방공무원 공로패 수여",
+"source": "인천일보",
+"link": "https://www.incheonilbo.com/news/articleView.html?idxno=1336637"
 },
 {
-"title": "창녕군-소방서 합동훈련 실시…40여 명 참여, 화재대응 실습",
-"source": "국제뉴스",
-"link": "https://www.gukjenews.com/news/articleView.html?idxno=3749714"
+"title": "전남광주소방, 광산구 폐기물업체 화재 '상황관리 검토회의' 개최 - 보도자료 | 기사",
+"source": "더팩트",
+"link": "https://news.tf.co.kr/read/releasecopy/2388035.htm"
 }
 ],
 "new": true
