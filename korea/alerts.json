@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-12T10:00:18.588099+00:00",
+"updated": "2026-11-12T10:02:30.863001+00:00",
 "errors": [],
 "events": [
 {
@@ -4416,7 +4416,7 @@
 "spike": false
 },
 "화재": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -4431,7 +4431,7 @@
 "spike": false
 },
 "폭발": {
-"n30": 2,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
@@ -4451,17 +4451,17 @@
 "spike": false
 },
 "속보": {
-"n30": 6,
+"n30": 4,
 "base": 0.6,
-"spike": true
+"spike": false
 },
 "지하철": {
-"n30": 3,
+"n30": 1,
 "base": 2.4,
 "spike": false
 },
 "사고": {
-"n30": 3,
+"n30": 2,
 "base": 3.0,
 "spike": false
 },
@@ -4595,36 +4595,6 @@
 "url": "https://www.youtube.com/watch?v=KmVTm2dPpR8"
 },
 {
-"text": "으어어 싫네요;;; 만원 지하철 안에선 좀 조용히 하시지...",
-"handle": "eunda.bsky.social",
-"name": "‪은다🔒",
-"time": "2026-11-12T09:32:10.674Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/eunda.bsky.social/post/3n245y7sxgc25",
-"term": "지하철"
-},
-{
-"text": "자기가 렉스 향을 계속 맡고 싶으니까 렉스도 자기 향을 맡으면 안아주지 않을까 하는 단순한 사고방식의 결과였으면 좋겠구만",
-"handle": "egongsam.bsky.social",
-"name": "이공삼",
-"time": "2026-11-12T09:31:41.974Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/egongsam.bsky.social/post/3n245xdzrd22d",
-"term": "사고"
-},
-{
-"text": "나 지금 안그래도 열나고 속 미식거리는데... \n남친한테 애교부리는 앵앵 소리 뒤에서 들랴서 진심 토할거 같아... \n그건 둘이 있는 공간에서 해줘... 만원 지하철 말고... 진짜 미식거린다고 ㅠㅠ",
-"handle": "cookyrin.bsky.social",
-"name": "쿠키한입",
-"time": "2026-11-12T09:31:30.273Z",
-"likes": 5,
-"reposts": 0,
-"url": "https://bsky.app/profile/cookyrin.bsky.social/post/3n245wz25ek2g",
-"term": "지하철"
-},
-{
 "platform": "YouTube",
 "text": "\"당나라 군대냐\" 나경원 공격 \"취소하세요\" 강신철 폭발",
 "handle": "UC18hxosDuvRgnMzNrTPRRGw",
@@ -4688,27 +4658,19 @@
 "url": "https://www.youtube.com/watch?v=WEVk56y8DhU"
 }
 ],
-"spikes": [
-{
-"term": "속보",
-"n30": 6,
-"base": 0.6,
-"spike": true,
-"since": "2026-11-12T10:00:18.588099+00:00"
-}
-],
+"spikes": [],
 "baseline": {
 "지진": 0.05,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
 "폭발": 0.05,
-"붕괴": 0.07,
+"붕괴": 0.06,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.6,
-"지하철": 2.37,
-"사고": 2.96,
+"속보": 0.64,
+"지하철": 2.13,
+"사고": 2.86,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
