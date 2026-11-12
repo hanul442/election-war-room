@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-12T04:29:21.025131+00:00",
+"updated": "2026-11-12T04:31:37.321154+00:00",
 "errors": [],
 "events": [
 {
@@ -3861,7 +3861,7 @@
 "spike": false
 },
 "화재": {
-"n30": 2,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
@@ -3876,12 +3876,12 @@
 "spike": false
 },
 "폭발": {
-"n30": 6,
+"n30": 2,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "붕괴": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -3896,17 +3896,17 @@
 "spike": false
 },
 "속보": {
-"n30": 5,
+"n30": 3,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "지하철": {
-"n30": 4,
-"base": 1.5,
+"n30": 2,
+"base": 1.6,
 "spike": false
 },
 "사고": {
-"n30": 1,
+"n30": 3,
 "base": 1.8,
 "spike": false
 },
@@ -3917,7 +3917,7 @@
 },
 "단수": {
 "n30": 1,
-"base": 0.6,
+"base": 0.7,
 "spike": false
 },
 "통신 장애": {
@@ -3937,6 +3937,26 @@
 }
 },
 "posts": [
+{
+"text": "오오츠카야스오 일러스트에 있는 어린 고에 보면(물론 고에일수도있고 아닐수도있음) 생각보다 사고 많이 치는 스타일이었을것갘아서 귀여움",
+"handle": "jamppang.bsky.social",
+"name": "쨈빵",
+"time": "2026-11-12T04:29:45.374Z",
+"likes": 1,
+"reposts": 1,
+"url": "https://bsky.app/profile/jamppang.bsky.social/post/3n23n3h5kxc2p",
+"term": "사고"
+},
+{
+"text": "이번신상사고그냥파산해야될것갘습니다",
+"handle": "yourcupcookie.bsky.social",
+"name": "뚱",
+"time": "2026-11-12T04:29:30.773Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/yourcupcookie.bsky.social/post/3n23n2zd3rk24",
+"term": "사고"
+},
 {
 "text": "정의당의 기름 문제 제기(?)에는 양쪽 의견 모두 맞다... 라고 생각하는데; \n\n 전에도 얘기 했는데 큰시누네 차가 세대임. 나름 신도시 사는데 외곽이라 차가 없으면 이동이 불편. 이번에 지하철 역 근처로 이사가는데 전세가격 차가 좀 나서 대출을 받아야 할 판.\n (물론 우리집 반응은 차 세대 끌고 다닐 동안 현금 확보 좀 하지?)\n 그런데 저 집 차 세대 중 두대가 전기차임. 그럼 괜찮나",
 "handle": "titaness.bsky.social",
@@ -4069,16 +4089,6 @@
 "url": "https://www.youtube.com/watch?v=Ph7ixIZuFCE"
 },
 {
-"text": "블랙히스역에서 짐 트럭까지, 대회 날 아침 동선\n\n2026년엔 배번을 보여 주는 것으로 출발지행 열차와 DLR, 지하철을 탔고, 집결 구역 색깔마다 내릴 역이 달랐다. · 블랙히스(Blackheath)역 — 블루·그린·옐로, 걸어서 10분 · 메이즈 힐(Maze Hill)역 — 핑크, 걸어서 10분 · 그리니치역 — 레드, 걸어서 20분 그린 집결 구역엔 짐 맡기는 곳이 없다.",
-"handle": "pacertrip.bsky.social",
-"name": "pacertrip.bsky.social",
-"time": "2026-11-12T04:01:17.476Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/pacertrip.bsky.social/post/3n23likxrod2z",
-"term": "지하철"
-},
-{
 "platform": "YouTube",
 "text": "붕괴 스타레일 4.7버전 컷신 하이라이트 & 보스전 모음집",
 "handle": "UCaY7wcqhFb_c2eQ1eRB8rOQ",
@@ -4160,36 +4170,21 @@
 "url": "https://www.youtube.com/watch?v=0Tm3Kz3lGRo"
 }
 ],
-"spikes": [
-{
-"term": "폭발",
-"n30": 6,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-12T04:29:21.025131+00:00"
-},
-{
-"term": "속보",
-"n30": 5,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-12T04:29:21.025131+00:00"
-}
-],
+"spikes": [],
 "baseline": {
-"지진": 0.73,
+"지진": 0.76,
 "화재": 0.05,
 "불났": 0.05,
-"정전": 0.71,
+"정전": 0.74,
 "폭발": 0.05,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 1.58,
-"사고": 1.75,
-"실종": 0.06,
-"단수": 0.68,
+"지하철": 1.52,
+"사고": 1.88,
+"실종": 0.05,
+"단수": 0.71,
 "통신 장애": 0.05,
 "먹통": 0.05,
 "산불": 0.05
