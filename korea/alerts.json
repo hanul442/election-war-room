@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-12T00:03:09.225188+00:00",
+"updated": "2026-11-12T00:05:28.842399+00:00",
 "errors": [],
 "events": [
 {
@@ -35,14 +35,22 @@
 "id": "wNISX20261112_00038648280001",
 "first": "2026-11-12T00:01:23+00:00",
 "last": "2026-11-12T00:01:23+00:00",
-"updated": "2026-11-12T00:03:09.225188+00:00",
+"updated": "2026-11-12T00:05:28.842399+00:00",
 "headline": "코스피, 10.58포인트(0.20%) 오른 5385.94 출발",
 "cat": "경제",
 "regions": [],
 "sources": [
-"뉴시스"
+"뉴시스",
+"이투데이"
 ],
 "updates": [
+{
+"title": "[속보] 코스피 10.58p(0.20%) 오른 5385.94(개장)",
+"source": "이투데이",
+"link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFA5dlN2dlBpMk9nSVAwa09FWm9uX2ZqcTJUd2M0bTRRTTFSRFFzZi1PRlpSTjFSLVB0djRuWTNXNnZGbkxyMjBUZ0pmVE5fYW5EX2cwd3VMY1IxcmlTd1JWOHI2M0hmRUpjRHdXMDRJUjFIRGZl?oc=5",
+"time": "2026-11-12T00:01:00+00:00",
+"stage": "속보"
+},
 {
 "title": "[속보]코스피, 10.58포인트(0.20%) 오른 5385.94 출발",
 "source": "뉴시스",
@@ -54,7 +62,9 @@
 "level": "URGENT",
 "latest": "코스피, 10.58포인트(0.20%) 오른 5385.94 출발",
 "tok": [
+"58p",
 "58포인트",
+"개장",
 "오른",
 "출발",
 "코스피"
@@ -3551,7 +3561,7 @@
 "terms": {
 "지진": {
 "n30": 1,
-"base": 0.6,
+"base": 0.7,
 "spike": false
 },
 "화재": {
@@ -3576,7 +3586,7 @@
 },
 "붕괴": {
 "n30": 1,
-"base": 0.5,
+"base": 0.6,
 "spike": false
 },
 "대피": {
@@ -3596,12 +3606,12 @@
 },
 "지하철": {
 "n30": 2,
-"base": 0.9,
+"base": 1.0,
 "spike": false
 },
 "사고": {
 "n30": 2,
-"base": 2.7,
+"base": 2.6,
 "spike": false
 },
 "실종": {
@@ -3892,17 +3902,17 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 0.68,
+"지진": 0.71,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
 "폭발": 0.05,
-"붕괴": 0.57,
+"붕괴": 0.61,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.08,
-"지하철": 0.99,
-"사고": 2.64,
+"속보": 0.07,
+"지하철": 1.09,
+"사고": 2.58,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -4115,7 +4125,7 @@
 "trends": [
 {
 "term": "kimberly powell",
-"traffic": "500+",
+"traffic": "1000+",
 "time": "2026-11-11T22:50:00+00:00",
 "news": [
 {
@@ -4124,9 +4134,27 @@
 "link": "https://www.nytimes.com/2026/11/11/technology/jensen-huang-nvidia-affair.html"
 },
 {
-"title": "Exclusive | Nvidia Is Preparing to Oust CEO Jensen Huang",
-"source": "WSJ",
-"link": "https://www.wsj.com/business/nvidia-is-preparing-to-oust-nvidia-ceo-jensen-huang-30f421ad"
+"title": "Nasdaq-100 futures slide, dragged lower as Nvidia sell-off resumes: Live updates",
+"source": "CNBC",
+"link": "https://www.cnbc.com/2026/11/11/stock-market-today-live-updates.html"
+}
+],
+"new": true
+},
+{
+"term": "미세먼지",
+"traffic": "100+",
+"time": "2026-11-11T22:50:00+00:00",
+"news": [
+{
+"title": "[포토] 아침은 겨울 낮은 봄…널뛰는 기온",
+"source": "인천일보",
+"link": "https://www.incheonilbo.com/news/galleryView.html?idxno=1336619"
+},
+{
+"title": "[날씨] 전국 흐리고 일교차 커...출근길 '짙은 안개' 주의",
+"source": "YTN",
+"link": "https://www.ytn.co.kr/_ln/0108_202611120729441118"
 }
 ],
 "new": true
@@ -4260,24 +4288,6 @@
 "title": "구자욱·원태인만 있나…최지훈·홍창기·박동원까지 'FA 대어' 즐비",
 "source": "뉴스1",
 "link": "https://www.news1.kr/sports/baseball/6349521"
-}
-],
-"new": true
-},
-{
-"term": "vix",
-"traffic": "200+",
-"time": "2026-11-11T22:20:00+00:00",
-"news": [
-{
-"title": "India VIX jumps 68% in three weeks despite 7% rally in Sensex, Nifty",
-"source": "The Economic Times",
-"link": "https://m.economictimes.com/markets/stocks/news/india-vix-jumps-68-despite-7-rally-in-sensex-nifty/articleshow/135695931.cms"
-},
-{
-"title": "India VIX Rises 1.21% to 17.71 as Nifty Jumps",
-"source": "HDFC Sky",
-"link": "https://hdfcsky.com/news/india-vix-rises-1-21percent-as-us-inflation-concerns-offset-crude-oil-relief-november-11-2026"
 }
 ],
 "new": true
