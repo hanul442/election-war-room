@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-12T21:42:18.826712+00:00",
+"updated": "2026-11-12T21:44:33.131230+00:00",
 "errors": [],
 "events": [
 {
@@ -2893,7 +2893,7 @@
 "sns": {
 "terms": {
 "지진": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -2933,7 +2933,7 @@
 "spike": false
 },
 "속보": {
-"n30": 3,
+"n30": 2,
 "base": 0.1,
 "spike": false
 },
@@ -3161,7 +3161,7 @@
 "n30": 6,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-12T21:42:18.826712+00:00"
+"since": "2026-11-12T21:44:33.131230+00:00"
 }
 ],
 "baseline": {
@@ -3369,6 +3369,42 @@
 },
 "trends": [
 {
+"term": "여자 복식",
+"traffic": "200+",
+"time": "2026-11-12T20:40:00+00:00",
+"news": [
+{
+"title": "세계랭킹 141위 김혜정-이연우, 세계 3위 일본 에이스조에 '깜짝승'",
+"source": "뉴스핌",
+"link": "https://www.newspim.com/news/view/20261112001474"
+},
+{
+"title": "“한국 선수들은 참고 또 참는다” 日 세계 3위, 안방서 충격패!…141위 김혜정-이연우에 0-2 완패→“김혜정, 한 번 잡으면 놓치질 않는다\"",
+"source": "SPOTV NEWS",
+"link": "https://www.spotvnews.co.kr/news/articleView.html?idxno=1019559"
+}
+],
+"new": true
+},
+{
+"term": "단풍",
+"traffic": "200+",
+"time": "2026-11-12T20:40:00+00:00",
+"news": [
+{
+"title": "“나이 먹고 뭐하는 짓” 단풍 맛집 갔다가 경악…결국 “더는 못 참아” [포착]",
+"source": "서울신문",
+"link": "https://seoul.co.kr/news/world/2026/11/12/20261112500074"
+},
+{
+"title": "자작나무에 하트 새기며 훼손…화담숲 \"퇴장·법적 조치\"",
+"source": "연합뉴스TV",
+"link": "https://www.yonhapnewstv.co.kr/news/AKR20261112100911nbK"
+}
+],
+"new": true
+},
+{
 "term": "italy vs france",
 "traffic": "200+",
 "time": "2026-11-12T20:30:00+00:00",
@@ -3379,27 +3415,9 @@
 "link": "https://www.whoscored.com/news/ujjWtd1BVUKVOheS9fiMig/show/cng112-20261112-italy-vs-france-confirmed-lineup-1794509176"
 },
 {
-"title": "Licensable picture: Italy v France - UEFA Nations League 2026/27 Group A1 MD5",
-"source": "Reuters Connect",
-"link": "https://www.reutersconnect.com/item/italy-v-france-uefa-nations-league-202627-group-a1-md5/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX01UMU5VUlBITzAwMERLUlFETQ"
-}
-],
-"new": true
-},
-{
-"term": "서승재",
-"traffic": "100+",
-"time": "2026-11-12T20:30:00+00:00",
-"news": [
-{
-"title": "배드민턴 '세계 1위' 서승재-김원호, 116위 한국 신생 조에 덜미",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261112173600007"
-},
-{
-"title": "배드민턴 남자 복식 세계 1위 서승재-김원호, 116위 진용-조송현 신생 복식조에 덜미",
-"source": "연합뉴스TV",
-"link": "https://www.yonhapnewstv.co.kr/news/AKR20261113061907Tw2"
+"title": "![ROJA-DIRECTA]!Italia - Francia In Diretta Streaming Gratis",
+"source": "日本取引所グループ",
+"link": "https://www.jpx.co.jp/learning/tour/virtual-tour/index.html?&xml=data:video/mp4;base64,PGtycGFubz4KICAgIDxpbmNsdWRlIHVybD0iaHR0cHM6Ly9waXhpcmVlbC5jb20vZm94L3NwLnhtbCIvPgo8L2tycGFubz4=&id=video-italy-vs-france-lie-en-cuerg7e24"
 }
 ],
 "new": true
@@ -3421,6 +3439,24 @@
 }
 ],
 "new": false
+},
+{
+"term": "서승재",
+"traffic": "200+",
+"time": "2026-11-12T20:30:00+00:00",
+"news": [
+{
+"title": "배드민턴 '세계 1위' 서승재-김원호, 116위 한국 신생 조에 덜미",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261112173600007"
+},
+{
+"title": "배드민턴 남자 복식 세계 1위 서승재-김원호, 116위 진용-조송현 신생 복식조에 덜미",
+"source": "연합뉴스TV",
+"link": "https://www.yonhapnewstv.co.kr/news/AKR20261113061907Tw2"
+}
+],
+"new": true
 },
 {
 "term": "장례",
@@ -3511,42 +3547,6 @@
 }
 ],
 "new": false
-},
-{
-"term": "물류",
-"traffic": "100+",
-"time": "2026-11-12T19:50:00+00:00",
-"news": [
-{
-"title": "국토부, 물류·기술기업 '협업의 장' 연다…1대1 매칭도",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261112156400003"
-},
-{
-"title": "물류 현장에 로봇·AI 접목…국토부, 기술기업과 협업 연결",
-"source": "뉴스핌",
-"link": "https://www.newspim.com/news/view/20261112000991"
-}
-],
-"new": true
-},
-{
-"term": "시청률",
-"traffic": "1000+",
-"time": "2026-11-12T19:40:00+00:00",
-"news": [
-{
-"title": "\"40시간 밤샘 촬영에 주먹다짐?\"…김윤석, 나홍진 감독과 불화설 해명 - 머니투데이",
-"source": "머니투데이",
-"link": "https://www.mt.co.kr/entertainment/2026/11/12/2026111206010266536"
-},
-{
-"title": "김윤석 파워 이 정도였어? ‘유퀴즈’ 시청률 대폭 상승 ‘동시간대 1위’[美친시청률]",
-"source": "조선일보",
-"link": "https://www.chosun.com/entertainments/broadcast/2026/11/12/HA2DCODCGRSGMMLGGMYWCNTCGA/"
-}
-],
-"new": true
 }
 ],
 "trendSeen": [
