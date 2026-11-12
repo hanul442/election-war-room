@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-12T12:58:00.929881+00:00",
+"updated": "2026-11-12T13:00:16.692267+00:00",
 "errors": [],
 "events": [
 {
@@ -4062,7 +4062,7 @@
 "terms": {
 "지진": {
 "n30": 2,
-"base": 0.9,
+"base": 1.0,
 "spike": false
 },
 "화재": {
@@ -4086,7 +4086,7 @@
 "spike": false
 },
 "붕괴": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -4101,7 +4101,7 @@
 "spike": false
 },
 "속보": {
-"n30": 2,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -4111,8 +4111,8 @@
 "spike": false
 },
 "사고": {
-"n30": 3,
-"base": 2.2,
+"n30": 4,
+"base": 2.3,
 "spike": false
 },
 "실종": {
@@ -4143,11 +4143,21 @@
 },
 "posts": [
 {
+"text": "그정도의?크기가아닌데도 그런사고방식\n이라서 쫌웃겼음 엥너그정도아니잖아\n싶어지는",
+"handle": "bubusang.bsky.social",
+"name": "bubusang.bsky.social",
+"time": "2026-11-12T12:59:19.877Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/bubusang.bsky.social/post/3n24jknjwhc2z",
+"term": "사고"
+},
+{
 "text": "블스만 봐도 핫하고(객관적) 야사시이한 사람들이 너무 많은데 요즘의 나는 그냥 쭈구리같음... 나에 대해 계속 반추사고만 하고 있음",
 "handle": "shiningaubrey.bsky.social",
 "name": "민정이와쪄염뿌우",
 "time": "2026-11-12T12:53:47.578Z",
-"likes": 0,
+"likes": 2,
 "reposts": 0,
 "url": "https://bsky.app/profile/shiningaubrey.bsky.social/post/3n24japviqc2w",
 "term": "사고"
@@ -4394,17 +4404,17 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 1.01,
-"화재": 0.12,
-"불났": 0.12,
+"지진": 1.11,
+"화재": 0.11,
+"불났": 0.11,
 "정전": 0.05,
-"폭발": 0.32,
+"폭발": 0.29,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.94,
-"사고": 2.32,
+"지하철": 0.95,
+"사고": 2.49,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
