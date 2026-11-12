@@ -1,6 +1,6 @@
 {
  "source": "NBC News Decision Desk",
- "updated": "2026-11-12T21:39:52.242274+00:00",
+ "updated": "2026-11-12T21:42:07.577465+00:00",
  "errors": [],
  "house": {
   "total": 435,
@@ -34,7 +34,7 @@
    "races": 435,
    "started": 434,
    "nearlyAll": 373,
-   "totalVote": 117417533
+   "totalVote": 117417599
   }
  },
  "senate": {
@@ -607,7 +607,7 @@
    {
     "st": "NJ",
     "name": "New Jersey",
-    "in": 97.6,
+    "in": 97.7,
     "winner": "D",
     "cands": [
      {
@@ -930,7 +930,7 @@
    "races": 38,
    "started": 37,
    "nearlyAll": 35,
-   "totalVote": 89683660
+   "totalVote": 89685726
   }
  },
  "governor": {
@@ -2828,7 +2828,7 @@
    "office": "S",
    "officeKo": "상원",
    "race": "New Jersey",
-   "in": 97.6,
+   "in": 97.7,
    "winner": "Cory Booker",
    "party": "D",
    "pct": 62.5,
@@ -3048,18 +3048,18 @@
    "calledAt": "2026-11-04T09:49:43.899713+00:00"
   },
   {
-   "id": "S:FL~P",
+   "id": "S:US",
    "office": "S",
    "officeKo": "상원",
-   "race": "Florida",
-   "in": 99,
-   "winner": "Ashley Moody",
-   "party": "R",
-   "pct": 50.9,
-   "incumbent": true,
-   "runner": "Angie Nixon",
-   "runnerParty": "D",
-   "runnerPct": 48,
+   "race": "US",
+   "in": 0,
+   "winner": " Democrat",
+   "party": "D",
+   "pct": 0,
+   "incumbent": false,
+   "runner": " Republican",
+   "runnerParty": "R",
+   "runnerPct": 0,
    "flip": false,
    "calledAt": "2026-11-04T09:49:43.899713+00:00"
   },
@@ -3080,18 +3080,18 @@
    "calledAt": "2026-11-04T09:49:43.899713+00:00"
   },
   {
-   "id": "S:US",
+   "id": "S:FL~P",
    "office": "S",
    "officeKo": "상원",
-   "race": "US",
-   "in": 0,
-   "winner": " Democrat",
-   "party": "D",
-   "pct": 0,
-   "incumbent": false,
-   "runner": " Republican",
-   "runnerParty": "R",
-   "runnerPct": 0,
+   "race": "Florida",
+   "in": 99,
+   "winner": "Ashley Moody",
+   "party": "R",
+   "pct": 50.9,
+   "incumbent": true,
+   "runner": "Angie Nixon",
+   "runnerParty": "D",
+   "runnerPct": 48,
    "flip": false,
    "calledAt": "2026-11-04T09:49:43.899713+00:00"
   },
@@ -8776,6 +8776,70 @@
    "calledAt": "2026-11-04T09:49:43.899713+00:00"
   },
   {
+   "id": "H:0501",
+   "office": "H",
+   "officeKo": "하원",
+   "race": "Arkansas District 1",
+   "in": 99,
+   "winner": "Rick Crawford",
+   "party": "R",
+   "pct": 65.5,
+   "incumbent": true,
+   "runner": "Terri Yarbrough Green",
+   "runnerParty": "D",
+   "runnerPct": 31,
+   "flip": false,
+   "calledAt": "2026-11-04T09:49:43.899713+00:00"
+  },
+  {
+   "id": "H:0502",
+   "office": "H",
+   "officeKo": "하원",
+   "race": "Arkansas District 2",
+   "in": 99,
+   "winner": "French Hill",
+   "party": "R",
+   "pct": 50.9,
+   "incumbent": true,
+   "runner": "Chris Jones",
+   "runnerParty": "D",
+   "runnerPct": 49.1,
+   "flip": false,
+   "calledAt": "2026-11-04T09:49:43.899713+00:00"
+  },
+  {
+   "id": "H:0504",
+   "office": "H",
+   "officeKo": "하원",
+   "race": "Arkansas District 4",
+   "in": 99,
+   "winner": "Bruce Westerman",
+   "party": "R",
+   "pct": 65.5,
+   "incumbent": true,
+   "runner": "James Russell",
+   "runnerParty": "D",
+   "runnerPct": 34.5,
+   "flip": false,
+   "calledAt": "2026-11-04T09:49:43.899713+00:00"
+  },
+  {
+   "id": "H:0503",
+   "office": "H",
+   "officeKo": "하원",
+   "race": "Arkansas District 3",
+   "in": 99,
+   "winner": "Steve Womack",
+   "party": "R",
+   "pct": 54.9,
+   "incumbent": true,
+   "runner": "Robb Ryerse",
+   "runnerParty": "D",
+   "runnerPct": 41.5,
+   "flip": false,
+   "calledAt": "2026-11-04T09:49:43.899713+00:00"
+  },
+  {
    "id": "H:0602",
    "office": "H",
    "officeKo": "하원",
@@ -9572,70 +9636,6 @@
    "runner": "Danielle Sterbinsky",
    "runnerParty": "D",
    "runnerPct": 42.5,
-   "flip": false,
-   "calledAt": "2026-11-04T09:49:43.899713+00:00"
-  },
-  {
-   "id": "H:0501",
-   "office": "H",
-   "officeKo": "하원",
-   "race": "Arkansas District 1",
-   "in": 99,
-   "winner": "Rick Crawford",
-   "party": "R",
-   "pct": 65.5,
-   "incumbent": true,
-   "runner": "Terri Yarbrough Green",
-   "runnerParty": "D",
-   "runnerPct": 31,
-   "flip": false,
-   "calledAt": "2026-11-04T09:49:43.899713+00:00"
-  },
-  {
-   "id": "H:0502",
-   "office": "H",
-   "officeKo": "하원",
-   "race": "Arkansas District 2",
-   "in": 99,
-   "winner": "French Hill",
-   "party": "R",
-   "pct": 50.9,
-   "incumbent": true,
-   "runner": "Chris Jones",
-   "runnerParty": "D",
-   "runnerPct": 49.1,
-   "flip": false,
-   "calledAt": "2026-11-04T09:49:43.899713+00:00"
-  },
-  {
-   "id": "H:0504",
-   "office": "H",
-   "officeKo": "하원",
-   "race": "Arkansas District 4",
-   "in": 99,
-   "winner": "Bruce Westerman",
-   "party": "R",
-   "pct": 65.5,
-   "incumbent": true,
-   "runner": "James Russell",
-   "runnerParty": "D",
-   "runnerPct": 34.5,
-   "flip": false,
-   "calledAt": "2026-11-04T09:49:43.899713+00:00"
-  },
-  {
-   "id": "H:0503",
-   "office": "H",
-   "officeKo": "하원",
-   "race": "Arkansas District 3",
-   "in": 99,
-   "winner": "Steve Womack",
-   "party": "R",
-   "pct": 54.9,
-   "incumbent": true,
-   "runner": "Robb Ryerse",
-   "runnerParty": "D",
-   "runnerPct": 41.5,
    "flip": false,
    "calledAt": "2026-11-04T09:49:43.899713+00:00"
   }
