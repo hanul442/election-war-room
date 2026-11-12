@@ -1,12 +1,43 @@
 {
-"updated": "2026-11-12T19:18:54.342134+00:00",
+"updated": "2026-11-12T19:21:10.146236+00:00",
 "errors": [],
 "events": [
 {
+"id": "viewAKR202611130078000791915",
+"first": "2026-11-12T19:15:13+00:00",
+"last": "2026-11-12T19:15:13+00:00",
+"updated": "2026-11-12T19:21:10.146236+00:00",
+"headline": "이란 매체 \"호르모즈간주 시리크, 적 공격 받아\"",
+"cat": "기타",
+"regions": [],
+"sources": [
+"연합뉴스"
+],
+"updates": [
+{
+"title": "[속보] 이란 매체 \"호르모즈간주 시리크, 적 공격 받아\"",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261113007800079",
+"time": "2026-11-12T19:15:13+00:00",
+"stage": "얼럿"
+}
+],
+"level": "URGENT",
+"latest": "이란 매체 \"호르모즈간주 시리크, 적 공격 받아\"",
+"tok": [
+"공격",
+"매체",
+"받아",
+"시리크",
+"이란",
+"호르모즈간주"
+]
+},
+{
 "id": "LU0RpMGdhWlJIbWZIV19Ooc51350",
 "first": "2026-11-12T13:50:47+00:00",
-"last": "2026-11-12T18:24:24+00:00",
-"updated": "2026-11-12T18:28:55.763069+00:00",
+"last": "2026-11-12T19:10:40+00:00",
+"updated": "2026-11-12T19:21:10.146236+00:00",
 "headline": "젠슨 황 엔비디아 CEO 사임",
 "cat": "기타",
 "regions": [],
@@ -55,6 +86,7 @@
 "채널A",
 "천지일보",
 "컨슈머타임스",
+"토큰포스트",
 "파이낸셜뉴스",
 "파이낸셜포스트",
 "한겨레",
@@ -589,12 +621,20 @@
 "link": "https://www.newsis.com/view/NISX20261113_0003866355",
 "time": "2026-11-12T18:24:24+00:00",
 "stage": "후속"
+},
+{
+"title": "668.5조원 AI 자금조달, 엔비디아 CEO 사임 여파 가능성",
+"source": "토큰포스트",
+"link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9EUHR2NHBodkdHQWtEZDNoNWd5UVd5S1NzWGJEWEstUWE3RlJFdlZqZngxcm1XdlBLN2hEOUhXcm5EUllvX2ltYXZnT3hvaHlaaXRaX0VyOWrSAV5BVV95cUxNU2ZsVDFIWDBGcTNlU1h0cElMYjBPQ2QyZ0owYUFZWTJzcUtzSFVhanUwOWwxS3pMM2lYVHdsX3hZVVBvRFptQUlGdDBvdXNXdGJHdmRkRm5QRVZ2TTln?oc=5",
+"time": "2026-11-12T19:10:40+00:00",
+"stage": "후속"
 }
 ],
 "level": "BULLETIN",
-"latest": "젠슨 황, 엔비디아 CEO 사임…불륜 스캔들로 33년만 불명예 퇴진(종합2보)",
+"latest": "668.5조원 AI 자금조달, 엔비디아 CEO 사임 여파 가능성",
 "tok": [
 "33년",
+"5조원",
 "AI",
 "CEO",
 "CEO사임",
@@ -602,6 +642,7 @@
 "CEO직",
 "CFO",
 "CFO임명",
+"가능성",
 "거래서",
 "결별",
 "결정",
@@ -631,9 +672,7 @@
 "수장",
 "스캔들",
 "스파",
-"스파이",
-"시간외",
-"엔비디아"
+"스파이"
 ]
 },
 {
@@ -2456,7 +2495,7 @@
 "spike": false
 },
 "속보": {
-"n30": 2,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -2467,7 +2506,7 @@
 },
 "사고": {
 "n30": 0,
-"base": 0.7,
+"base": 0.6,
 "spike": false
 },
 "실종": {
@@ -2690,7 +2729,7 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 0.74,
+"지진": 0.77,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
@@ -2700,7 +2739,7 @@
 "미사일": 0.05,
 "속보": 0.05,
 "지하철": 0.05,
-"사고": 0.62,
+"사고": 0.56,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
