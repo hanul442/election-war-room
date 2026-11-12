@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-12T16:17:37.865257+00:00",
+"updated": "2026-11-12T16:19:56.206657+00:00",
 "errors": [],
 "events": [
 {
@@ -4227,7 +4227,7 @@
 "spike": true
 },
 "붕괴": {
-"n30": 3,
+"n30": 2,
 "base": 0.1,
 "spike": false
 },
@@ -4237,7 +4237,7 @@
 "spike": false
 },
 "미사일": {
-"n30": 0,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
@@ -4248,17 +4248,12 @@
 },
 "지하철": {
 "n30": 1,
-"base": 0.6,
+"base": 0.5,
 "spike": false
 },
 "사고": {
 "n30": 3,
-"base": 5.2,
-"spike": false
-},
-"실종": {
-"n30": 0,
-"base": 0.1,
+"base": 4.9,
 "spike": false
 },
 "단수": {
@@ -4283,6 +4278,26 @@
 }
 },
 "posts": [
+{
+"text": "아니다 핵은 아니고 미사일(그 두개는 다르다)\n아무튼 되게 이상했음 집을 지어두니",
+"handle": "kiwvi.bsky.social",
+"name": "키비",
+"time": "2026-11-12T16:19:03.481Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/kiwvi.bsky.social/post/3n24upr4vwc2r",
+"term": "미사일"
+},
+{
+"text": "페르소나의 세려된 겉껍데기와 대비되는 일남 냄새에 대해 불평 안 했던 이유 걍 그 게임이 딱 그정도라서ㅇㅇ 걍 수준이 그 정도야 너네가 그래 뭐 대단하고 철학적인 사고 그딴걸 했겠냐 너네가??",
+"handle": "33dedede.bsky.social",
+"name": "🍕",
+"time": "2026-11-12T16:18:02.480Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/33dedede.bsky.social/post/3n24unxcf4s2l",
+"term": "사고"
+},
 {
 "platform": "YouTube",
 "text": "[playlist] 트로트하이웨이 🎄 신나는 트로트 캐럴 10곡 | 흥 폭발 크리스마스 트로트 메들리 |  Merry Trot Christmas, K-Trot Carol Party",
@@ -4493,16 +4508,6 @@
 "url": "https://www.youtube.com/watch?v=B2vFbgLvXEI"
 },
 {
-"text": "미인의사고방식",
-"handle": "zasoza.bsky.social",
-"name": "재소자",
-"time": "2026-11-12T15:48:51.284Z",
-"likes": 1,
-"reposts": 0,
-"url": "https://bsky.app/profile/zasoza.bsky.social/post/3n24szql4vs2u",
-"term": "사고"
-},
-{
 "platform": "YouTube",
 "text": "[🔴이슈를 켜라] [LIVE] [속보] \"엔비디아 이사회, 젠슨황 해임 준비…후임 CEO 찾는 중\" / 채널A",
 "handle": "UCfq4V1DAuaojnr2ryvWNysw",
@@ -4518,14 +4523,14 @@
 "n30": 6,
 "base": 0.7,
 "spike": true,
-"since": "2026-11-12T16:17:37.865257+00:00"
+"since": "2026-11-12T16:19:56.206657+00:00"
 },
 {
 "term": "속보",
 "n30": 9,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-12T16:17:37.865257+00:00"
+"since": "2026-11-12T16:19:56.206657+00:00"
 }
 ],
 "baseline": {
@@ -4533,20 +4538,22 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.67,
+"폭발": 0.6,
 "붕괴": 0.05,
 "대피": 0.05,
-"미사일": 0.05,
+"미사일": 0.15,
 "속보": 0.05,
-"지하철": 0.5,
-"사고": 4.94,
+"지하철": 0.45,
+"사고": 4.75,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
 "산불": 0.05
 },
-"errors": [],
+"errors": [
+"실종: HTTPError"
+],
 "ytPosts": [
 {
 "platform": "YouTube",
@@ -4797,9 +4804,9 @@
 "link": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition"
 },
 {
-"title": "Jensen Huang Said to Have Had Relationship With Nvidia Executive Who Reports to Him",
-"source": "The New York Times",
-"link": "https://www.nytimes.com/2026/11/11/technology/jensen-huang-nvidia-affair.html"
+"title": "NVIDIA Unlikely to Suffer Long-Term Damage Despite CEO Resignation",
+"source": "조선일보",
+"link": "https://www.chosun.com/english/market-money-en/2026/11/13/Q7FCCM6UWFCAZIFWWLZ64A3ZMQ/"
 }
 ],
 "new": true
