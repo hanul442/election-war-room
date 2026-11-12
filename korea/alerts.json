@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-12T12:44:21.802141+00:00",
+"updated": "2026-11-12T12:46:39.303634+00:00",
 "errors": [],
 "events": [
 {
@@ -4051,7 +4051,7 @@
 "terms": {
 "지진": {
 "n30": 3,
-"base": 0.1,
+"base": 0.2,
 "spike": false
 },
 "화재": {
@@ -4070,8 +4070,8 @@
 "spike": false
 },
 "폭발": {
-"n30": 7,
-"base": 0.7,
+"n30": 6,
+"base": 0.6,
 "spike": true
 },
 "붕괴": {
@@ -4085,7 +4085,7 @@
 "spike": false
 },
 "미사일": {
-"n30": 4,
+"n30": 2,
 "base": 0.1,
 "spike": false
 },
@@ -4364,24 +4364,24 @@
 "spikes": [
 {
 "term": "폭발",
-"n30": 7,
-"base": 0.7,
+"n30": 6,
+"base": 0.6,
 "spike": true,
-"since": "2026-11-12T12:44:21.802141+00:00"
+"since": "2026-11-12T12:46:39.303634+00:00"
 }
 ],
 "baseline": {
-"지진": 0.24,
-"화재": 0.22,
-"불났": 0.22,
+"지진": 0.32,
+"화재": 0.2,
+"불났": 0.2,
 "정전": 0.05,
-"폭발": 0.59,
+"폭발": 0.53,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.88,
-"사고": 1.81,
+"지하철": 0.89,
+"사고": 1.83,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -4599,7 +4599,7 @@
 "link": "https://www.kookje.co.kr/news2011/asp/newsbody.asp?code=00&key=20261113.22005003981"
 }
 ],
-"new": true
+"new": false
 },
 {
 "term": "공항철도 파업",
@@ -4702,9 +4702,9 @@
 "link": "https://www.khaleejtimes.com/uae/transport/dubai-nol-student-card-upgrades-50-percent-discount-online-in-store-payment"
 },
 {
-"title": "Dubai’s new student card offers half-price fares and perks in over 130 countries",
-"source": "Gulf Business",
-"link": "https://gulfbusiness.com/en/2026/transport/dubais-new-student-card-offers-half-price-fares-and-perks-in-over-130-countries/"
+"title": "RTA, Al Etihad Payments sign strategic agreement to launch next generation of nol–Jaywan cards",
+"source": "www.wam.ae",
+"link": "https://www.wam.ae/en/article/c3347i1-rta-etihad-payments-sign-strategic-agreement"
 }
 ],
 "new": true
