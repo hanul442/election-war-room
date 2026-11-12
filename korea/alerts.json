@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-12T23:02:14.632298+00:00",
+"updated": "2026-11-12T23:04:33.251665+00:00",
 "errors": [],
 "events": [
 {
@@ -88,6 +88,41 @@
 "초진",
 "화재",
 "화학공장"
+]
+},
+{
+"id": "viewAKR202611130221000512258",
+"first": "2026-11-12T22:58:09+00:00",
+"last": "2026-11-12T22:58:09+00:00",
+"updated": "2026-11-12T23:04:33.251665+00:00",
+"headline": "부산시, 한파 등 겨울철 재난대책 점검…취약지역 중점 관리",
+"cat": "재난",
+"regions": [
+"부산"
+],
+"sources": [
+"연합뉴스"
+],
+"updates": [
+{
+"title": "부산시, 한파 등 겨울철 재난대책 점검…취약지역 중점 관리",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261113022100051",
+"time": "2026-11-12T22:58:09+00:00",
+"stage": "1보"
+}
+],
+"level": "ALERT",
+"latest": "부산시, 한파 등 겨울철 재난대책 점검…취약지역 중점 관리",
+"tok": [
+"겨울철",
+"관리",
+"부산시",
+"재난대책",
+"점검",
+"중점",
+"취약지역",
+"한파"
 ]
 },
 {
@@ -3055,8 +3090,8 @@
 "spike": false
 },
 "사고": {
-"n30": 2,
-"base": 1.0,
+"n30": 1,
+"base": 1.1,
 "spike": false
 },
 "실종": {
@@ -3269,16 +3304,6 @@
 "term": "지하철"
 },
 {
-"text": "자동차보험료가 올랐다고만 생각했는데, 사고이력이 잘못 반영된 거였음.\n사고가 없었는데도 보험료가 올랐다...\n\n#자동차보험 #다이렉트",
-"handle": "oduk83.bsky.social",
-"name": "오덕83",
-"time": "2026-11-12T22:32:24.973Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/oduk83.bsky.social/post/3n25jlfergh2y",
-"term": "사고"
-},
-{
 "platform": "YouTube",
 "text": "[🔴속보] 엔비디아 주가, 젠슨황 CEO 사퇴 소식 직후 '급전직하'│젠슨황, 中 스파이 의심 여성과 불륜 의혹 사흘만에 사퇴/ 연합뉴스TV(YonhapnewsTV)",
 "handle": "UCTHCOPwqNfZ0uiKOvFyhGwg",
@@ -3294,21 +3319,21 @@
 "n30": 5,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-12T23:02:14.632298+00:00"
+"since": "2026-11-12T23:04:33.251665+00:00"
 }
 ],
 "baseline": {
 "지진": 0.05,
-"화재": 0.67,
+"화재": 0.6,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.12,
-"붕괴": 0.19,
+"폭발": 0.11,
+"붕괴": 0.17,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.71,
-"사고": 1.11,
+"지하철": 0.74,
+"사고": 1.1,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -3493,6 +3518,24 @@
 },
 "trends": [
 {
+"term": "나스닥 지수",
+"traffic": "200+",
+"time": "2026-11-12T22:00:00+00:00",
+"news": [
+{
+"title": "코어위브가 불 지폈다, 뉴욕증시 일제히 상승",
+"source": "네이버페이 머니스토리",
+"link": "https://story.pay.naver.com/content/3937_2_C1"
+},
+{
+"title": "코어위브가 되살린 AI 랠리…마이크론 12% 폭등, 코스피 반등 이어질까 [오늘 아침 당신이 알아야 할 7가지]",
+"source": "한국경제",
+"link": "https://www.hankyung.com/article/202611121547i"
+}
+],
+"new": true
+},
+{
 "term": "비핵화",
 "traffic": "200+",
 "time": "2026-11-12T21:50:00+00:00",
@@ -3511,6 +3554,24 @@
 "new": true
 },
 {
+"term": "위례신도시",
+"traffic": "100+",
+"time": "2026-11-12T21:50:00+00:00",
+"news": [
+{
+"title": "우리나라 트램, 고종 황제가 명성황후 묘 방문하려 설치했어요",
+"source": "조선일보",
+"link": "https://www.chosun.com/kid/kid_national/2026/11/12/3EKBCSKKGVGC3DCKS6GZG32YFU/"
+},
+{
+"title": "다 지어놓고도 못 달린다… 위례트램, 개통은 대체 언제?",
+"source": "네이버페이 머니스토리",
+"link": "https://story.pay.naver.com/content/3879_28_C10"
+}
+],
+"new": true
+},
+{
 "term": "박성현",
 "traffic": "500+",
 "time": "2026-11-12T21:50:00+00:00",
@@ -3524,24 +3585,6 @@
 "title": "‘전 세계 1위’ 박성현, 시드순위전 3R 현재 53위…최종일에 KLPGA 정규투어 뛸 순위 오를 가능성은 충분",
 "source": "스포츠경향",
 "link": "https://sports.khan.co.kr/article/202611121616013"
-}
-],
-"new": true
-},
-{
-"term": "위례신도시",
-"traffic": "100+",
-"time": "2026-11-12T21:50:00+00:00",
-"news": [
-{
-"title": "검찰미래위, '위례 사건' 등 결론 또 불발‥\"보고 안 하겠다니 어떻게 하겠나\"",
-"source": "MBC 뉴스",
-"link": "https://imnews.imbc.com/news/2026/society/article/6865224_36918.html"
-},
-{
-"title": "李대통령 기소 위례사건 한달째 결론못낸 檢미래위…조사단과 이견?(종합)",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261112123151004"
 }
 ],
 "new": true
@@ -3575,9 +3618,9 @@
 "link": "https://www.electimes.com/news/articleView.html?idxno=374688"
 },
 {
-"title": "DL이앤씨 GTX-A 대심도 터널 기술력 인정받아, 세계 최고 터널 프로젝트 선정",
-"source": "비즈니스포스트",
-"link": "https://www.businesspost.co.kr/BP?command=article_view&num=451877"
+"title": "DL이앤씨, GTX-A 대심도 터널 기술로 최고 권위 ITA 정상 올라",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261112053300003"
 }
 ],
 "new": true
@@ -3624,14 +3667,14 @@
 "time": "2026-11-12T21:30:00+00:00",
 "news": [
 {
-"title": "England 2-1 Croatia: Record-breaker Kane scores winner as Three Lions qualify for Nations League quarters",
-"source": "BBC",
-"link": "https://www.bbc.com/sport/football/live/cr5yn1g2qe6et"
+"title": "The World Can’t Get Enough Anime. Can Japan Cash In on Its Success?",
+"source": "The New York Times",
+"link": "https://www.nytimes.com/2026/11/08/business/anime-japan-sony-demonslayer.html"
 },
 {
-"title": "On Kane's big night, Bellingham proves he's ready to shatter captain's record",
-"source": "The Sun",
-"link": "https://www.thesun.co.uk/sport/41009480/harry-kane-england-night-jude-bellingham-record-future/"
+"title": "Licensable picture: COP31 Leaders' Summit in Turkiye's Antalya",
+"source": "Reuters Connect",
+"link": "https://www.reutersconnect.com/item/cop31-leaders-summit-in-turkiyes-antalya/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX01UMUFOQURMMDAwMUxDNkZJ"
 }
 ],
 "new": true
@@ -3650,24 +3693,6 @@
 "title": "'나혼산' 박지현, 부산 뜬 행사 프린스…'MBC 대학가요제'서 감성 발라더 변신",
 "source": "iMBC 연예",
 "link": "https://enews.imbc.com/News/RetrieveNewsInfo/524559"
-}
-],
-"new": true
-},
-{
-"term": "england vs croatia",
-"traffic": "200+",
-"time": "2026-11-12T21:20:00+00:00",
-"news": [
-{
-"title": "England v Croatia: Nations League – live",
-"source": "The Guardian",
-"link": "https://www.theguardian.com/football/live/2026/nov/12/england-v-croatia-nations-league-live"
-},
-{
-"title": "England edge Croatia at Wembley as Modrić earns 207th cap",
-"source": "Croatia Week",
-"link": "https://www.croatiaweek.com/england-croatia-wembley-nations-league-modric/"
 }
 ],
 "new": true
