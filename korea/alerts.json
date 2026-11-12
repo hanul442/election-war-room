@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-12T12:53:29.005105+00:00",
+"updated": "2026-11-12T12:55:45.305276+00:00",
 "errors": [],
 "events": [
 {
@@ -4051,17 +4051,17 @@
 "terms": {
 "지진": {
 "n30": 3,
-"base": 0.6,
+"base": 0.8,
 "spike": false
 },
 "화재": {
 "n30": 1,
-"base": 0.2,
+"base": 0.1,
 "spike": false
 },
 "불났": {
 "n30": 0,
-"base": 0.2,
+"base": 0.1,
 "spike": false
 },
 "정전": {
@@ -4070,7 +4070,7 @@
 "spike": false
 },
 "폭발": {
-"n30": 3,
+"n30": 2,
 "base": 0.4,
 "spike": false
 },
@@ -4095,13 +4095,13 @@
 "spike": false
 },
 "지하철": {
-"n30": 2,
+"n30": 1,
 "base": 0.9,
 "spike": false
 },
 "사고": {
 "n30": 3,
-"base": 2.0,
+"base": 2.1,
 "spike": false
 },
 "실종": {
@@ -4131,6 +4131,16 @@
 }
 },
 "posts": [
+{
+"text": "블스만 봐도 핫하고(객관적) 야사시이한 사람들이 너무 많은데 요즘의 나는 그냥 쭈구리같음... 나에 대해 계속 반추사고만 하고 있음",
+"handle": "shiningaubrey.bsky.social",
+"name": "민정이와쪄염뿌우",
+"time": "2026-11-12T12:53:47.578Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/shiningaubrey.bsky.social/post/3n24japviqc2w",
+"term": "사고"
+},
 {
 "text": "【지진 정보】일본 시간 11월 12일 21:43경\n진원: Kumamoto Region, Kumamoto Prefecture (M2.1, 깊이 약 10km)\n최대 진도: 1\n진도 1: 구마모토현\n이 지진으로 인한 쓰나미 걱정은 없습니다.\n(일본 기상청 발표)\n#일본 #지진 #방재",
 "handle": "ko.soramoyou.yk-planning.jp",
@@ -4176,7 +4186,7 @@
 "handle": "darce.bsky.social",
 "name": "D’arce 🎗️",
 "time": "2026-11-12T12:35:59.272Z",
-"likes": 0,
+"likes": 1,
 "reposts": 0,
 "url": "https://bsky.app/profile/darce.bsky.social/post/3n24iaveebc2d",
 "term": "지하철"
@@ -4270,16 +4280,6 @@
 "time": "2026-11-12T12:25:01Z",
 "term": "폭발",
 "url": "https://www.youtube.com/watch?v=Ydj3G62RK48"
-},
-{
-"text": "이건 제겁니다! 하는거죠 ㅎㅎㅎㅎ 개인이 사긴 좀 비싸고 여럿 모여서 증류소의 캐스크 한통 사고 병입해서 가지는거요! 캐스크가 한국에 들어오는지 병입되어서 들어오는지는 모르지만...여튼 무시무시하죠",
-"handle": "rome-is-me.bsky.social",
-"name": "로메",
-"time": "2026-11-12T12:24:18.179Z",
-"likes": 1,
-"reposts": 0,
-"url": "https://bsky.app/profile/rome-is-me.bsky.social/post/3n24hlxyavs26",
-"term": "사고"
 },
 {
 "platform": "YouTube",
@@ -4383,17 +4383,17 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 0.78,
-"화재": 0.14,
-"불났": 0.14,
+"지진": 0.9,
+"화재": 0.13,
+"불났": 0.13,
 "정전": 0.05,
-"폭발": 0.39,
+"폭발": 0.35,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.92,
-"사고": 2.15,
+"지하철": 0.93,
+"사고": 2.24,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -4596,6 +4596,24 @@
 },
 "trends": [
 {
+"term": "신안산선",
+"traffic": "200+",
+"time": "2026-11-12T11:40:00+00:00",
+"news": [
+{
+"title": "안양시, 위례과천선·서부선 연장 국가철도망 반영 추진",
+"source": "KBS 뉴스",
+"link": "https://news.kbs.co.kr/news/view.do?ncd=8711123"
+},
+{
+"title": "태백시, 철도망 국가계획 반영 총력…시민 설문 참여 요청",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261112171600062"
+}
+],
+"new": true
+},
+{
 "term": "공항철도 파업",
 "traffic": "1000+",
 "time": "2026-11-12T11:40:00+00:00",
@@ -4615,39 +4633,21 @@
 },
 {
 "term": "항공사",
-"traffic": "100+",
+"traffic": "200+",
 "time": "2026-11-12T11:40:00+00:00",
 "news": [
 {
-"title": "진에어-에어서울-에어부산 내년 3월 17일 통합 LCC 출범",
-"source": "KBS 뉴스",
-"link": "https://news.kbs.co.kr/news/view.do?ncd=8711087"
+"title": "아시아나항공, 3분기 영업손실 1,790억원…적자 지속",
+"source": "연합뉴스TV",
+"link": "https://www.yonhapnewstv.co.kr/news/AKR20261112180246PVF"
 },
 {
-"title": "“통합 LCC 본사 유치해야” 시의회 한목소리",
-"source": "국제신문",
-"link": "https://www.kookje.co.kr/news2011/asp/newsbody.asp?code=00&key=20261113.22005003981"
+"title": "아시아나항공, 3Q 환율 효과에 순이익 흑자 전환…고유가로 적자 지속",
+"source": "에너지경제신문",
+"link": "https://m.ekn.kr/view.php?key=20261112027349018"
 }
 ],
 "new": false
-},
-{
-"term": "신안산선",
-"traffic": "100+",
-"time": "2026-11-12T11:40:00+00:00",
-"news": [
-{
-"title": "안양시, 위례과천선·서부선 연장 국가철도망 반영 추진",
-"source": "KBS 뉴스",
-"link": "https://news.kbs.co.kr/news/view.do?ncd=8711123"
-},
-{
-"title": "태백시, 철도망 국가계획 반영 총력…시민 설문 참여 요청",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261112171600062"
-}
-],
-"new": true
 },
 {
 "term": "천위페이",
