@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-12T16:47:38.556812+00:00",
+"updated": "2026-11-12T16:49:56.818280+00:00",
 "errors": [],
 "events": [
 {
@@ -4272,7 +4272,7 @@
 "spike": false
 },
 "폭발": {
-"n30": 5,
+"n30": 6,
 "base": 0.2,
 "spike": true
 },
@@ -4287,12 +4287,12 @@
 "spike": false
 },
 "미사일": {
-"n30": 1,
-"base": 0.7,
+"n30": 0,
+"base": 0.8,
 "spike": false
 },
 "속보": {
-"n30": 12,
+"n30": 10,
 "base": 0.1,
 "spike": true
 },
@@ -4302,8 +4302,8 @@
 "spike": false
 },
 "사고": {
-"n30": 1,
-"base": 2.8,
+"n30": 0,
+"base": 2.6,
 "spike": false
 },
 "실종": {
@@ -4333,6 +4333,16 @@
 }
 },
 "posts": [
+{
+"text": "약간… 질투를 예시로 들면\n그럴리는 없지만 ㅁㄱ이 다른 여자랑 재밌게 이야기하는 게 보이면 질투폭발 너싫어 짜증나 ㅇㅈㄹ 히스테리 부릴대로 다 부리는데\nㅅㄹ는… ㅇㄱ이 그러면… 기분이 개같긴 한데 그걸 티안내는 느낌? 지도 다른남자랑 놀 가능성 99.99% 바람기 좀 있어보임",
+"handle": "who1sthesinner.bsky.social",
+"name": "⑉♥",
+"time": "2026-11-12T16:48:36.911Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/who1sthesinner.bsky.social/post/3n24wem7dzs2q",
+"term": "폭발"
+},
 {
 "platform": "YouTube",
 "text": "긴급: 젠슨 황, 엔비디아 CEO 사임… 사임 이유는 없었다 | 속보",
@@ -4523,16 +4533,6 @@
 "url": "https://www.youtube.com/watch?v=D7kbq4xqDmQ"
 },
 {
-"text": "아니다 핵은 아니고 미사일(그 두개는 다르다)\n아무튼 되게 이상했음 집을 지어두니",
-"handle": "kiwvi.bsky.social",
-"name": "키비",
-"time": "2026-11-12T16:19:03.481Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/kiwvi.bsky.social/post/3n24upr4vwc2r",
-"term": "미사일"
-},
-{
 "platform": "YouTube",
 "text": "[네이버 주가전망] *마감 속보* 매출 신기록에도 음봉 꽂힌 \"진짜 이유\", 내일 \"이 흐름\" 모르면 계좌 녹아내립니다.",
 "handle": "UCtEg_LyuNhbFWvhwV4DZAoQ",
@@ -4540,32 +4540,22 @@
 "time": "2026-11-12T16:18:17Z",
 "term": "속보",
 "url": "https://www.youtube.com/watch?v=Q3jW1i2FtU0"
-},
-{
-"text": "페르소나의 세려된 겉껍데기와 대비되는 일남 냄새에 대해 불평 안 했던 이유 걍 그 게임이 딱 그정도라서ㅇㅇ 걍 수준이 그 정도야 너네가 그래 뭐 대단하고 철학적인 사고 그딴걸 했겠냐 너네가??",
-"handle": "33dedede.bsky.social",
-"name": "🍕",
-"time": "2026-11-12T16:18:02.480Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/33dedede.bsky.social/post/3n24unxcf4s2l",
-"term": "사고"
 }
 ],
 "spikes": [
 {
 "term": "폭발",
-"n30": 5,
+"n30": 6,
 "base": 0.2,
 "spike": true,
-"since": "2026-11-12T16:47:38.556812+00:00"
+"since": "2026-11-12T16:49:56.818280+00:00"
 },
 {
 "term": "속보",
-"n30": 12,
+"n30": 10,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-12T16:47:38.556812+00:00"
+"since": "2026-11-12T16:49:56.818280+00:00"
 }
 ],
 "baseline": {
@@ -4573,13 +4563,13 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.17,
+"폭발": 0.25,
 "붕괴": 0.05,
 "대피": 0.05,
-"미사일": 0.77,
+"미사일": 0.69,
 "속보": 0.05,
-"지하철": 0.13,
-"사고": 2.63,
+"지하철": 0.12,
+"사고": 2.37,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -4855,9 +4845,9 @@
 "link": "https://www.wsj.com/finance/investing/strategy-the-worlds-biggest-corporate-bitcoin-holder-to-be-dropped-from-msci-indexes-96572af4"
 },
 {
-"title": "Index Provider MSCI Removes Strategy From Equity Benchmark",
-"source": "Bloomberg.com",
-"link": "https://www.bloomberg.com/news/articles/2026-11-11/index-provider-msci-removes-strategy-from-equity-benchmark"
+"title": "Strategy Sinks As MSCI Axes Bitcoin Whale; Is Nasdaq 100 Next?",
+"source": "Investor's Business Daily",
+"link": "https://www.investors.com/news/mstr-stock-bitcoin-price-msci-index-exclusion-nasdaq-100/"
 }
 ],
 "new": true
