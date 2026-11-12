@@ -1,12 +1,12 @@
 {
-"updated": "2026-11-12T14:34:13.936803+00:00",
+"updated": "2026-11-12T14:36:31.290545+00:00",
 "errors": [],
 "events": [
 {
 "id": "LU0RpMGdhWlJIbWZIV19Ooc51350",
 "first": "2026-11-12T13:50:47+00:00",
 "last": "2026-11-12T14:30:54+00:00",
-"updated": "2026-11-12T14:34:13.936803+00:00",
+"updated": "2026-11-12T14:36:31.290545+00:00",
 "headline": "젠슨 황 엔비디아 CEO 사임",
 "cat": "기타",
 "regions": [],
@@ -34,6 +34,7 @@
 "서울경제",
 "서울신문",
 "서울파이낸스",
+"시사저널",
 "아이뉴스24",
 "아이씨엔매거진",
 "아주경제",
@@ -327,6 +328,20 @@
 "stage": "후속"
 },
 {
+"title": "[속보] 젠슨 황, 엔비디아 CEO·이사직 사임…크레스 CFO가 임시 CEO",
+"source": "조선일보",
+"link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNak1Jd1QwNzlCWG1Tc1FJMGJodzBEamxCa2J3UzhySkZQWDJUbVk3cDVjbFRmajluZWYwYjMtV2MzZUw4QzVxR2FNYllpQUpmM2hrSHBaMWY2S3I0b2FNSm5QeWRfekxwZDdZcmhwN3dCOS1IWXhVWWwtQ2tXcTR1MnQ1TQ?oc=5",
+"time": "2026-11-12T14:02:00+00:00",
+"stage": "속보"
+},
+{
+"title": "[속보] 젠슨 황, 엔비디아 떠난다",
+"source": "시사저널",
+"link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9Nby1WWnVUekxuWVRTQjlWcHJIMHRYTm56bG9maVg3OEhWYk52NjhKS0NrTmJDUnVGZW1ZS1hCM0VIZHJCRXdpUlRkN2M3VUlQRXlIRGZDZVVYTURfX1RDSWRwc0hHRlI4M0hoNGdnb9IBc0FVX3lxTE8wd2JSem10UXBzeC1mQVVfeWNadnBTNzFSMGJkVm9yT002R3NzdjdmOFRzQVZjR1MzQkIyWlktSXNGRXhOZVo4ZDFsYjN4UlFSRURrRTBSNFBmaFJiOHZmZGZYTnlKa1FuWVdyb2ZWV084Mkk?oc=5",
+"time": "2026-11-12T14:02:01+00:00",
+"stage": "속보"
+},
+{
 "title": "[속보] 젠슨황, 엔비디아 CEO 사퇴…임시 CEO에 콜레트 크레스 CFO",
 "source": "데일리안",
 "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQaG9FOXRMdDlWUnY5cVV2VEI2U0JxSEJOQXF6Q0dwajNFRUk2RmNSY0xfV3pZNnQzcDRiWWZQdFZ5VV9WR2dPVmFIZEJ5TENWOUFWZUw0bzRkakRtSzlRcUplMkoyT3RpOWFaVEp0a3ZyOVBxdWpDMXEyUnVSRklmNGpWREtzcG1EalRKM0NNdlpQZEI0VnVkMGZabDBiaHpxNVdZTDR2NDBfeFBVR2oyMktEX3QwcExlYUdxTlNKbGk5bkxEemZyOHZNWHRrbDNWeGdPUGctS1U3bnBIVXdjLU9nS0Fzc3hLaGhCRmtUc2RDMHNadjdlVUFTY3B0ZFBVa1pR?oc=5",
@@ -505,6 +520,7 @@
 "교체",
 "급락",
 "내려",
+"떠난다",
 "로이터",
 "로이터통신",
 "머니투데",
@@ -529,8 +545,7 @@
 "이사",
 "이사직",
 "이사회",
-"이사회직",
-"임명"
+"이사회직"
 ]
 },
 {
@@ -4264,11 +4279,11 @@
 },
 "폭발": {
 "n30": 2,
-"base": 0.9,
+"base": 1.1,
 "spike": false
 },
 "붕괴": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -4283,18 +4298,18 @@
 "spike": false
 },
 "속보": {
-"n30": 3,
-"base": 0.3,
+"n30": 1,
+"base": 0.4,
 "spike": false
 },
 "지하철": {
 "n30": 0,
-"base": 0.4,
+"base": 0.3,
 "spike": false
 },
 "사고": {
-"n30": 7,
-"base": 4.8,
+"n30": 8,
+"base": 5.0,
 "spike": false
 },
 "실종": {
@@ -4319,11 +4334,31 @@
 },
 "산불": {
 "n30": 0,
-"base": 0.6,
+"base": 0.5,
 "spike": false
 }
 },
 "posts": [
+{
+"text": "뎀 삭제시킴 대형사고",
+"handle": "qwer192513.bsky.social",
+"name": "qwer192513.bsky.social",
+"time": "2026-11-12T14:36:01.693Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/qwer192513.bsky.social/post/3n24oxklux22g",
+"term": "사고"
+},
+{
+"text": "갑자기 또 저 특전에 꽂혀서 정신 이상해질것 같아 어디까지 왔냐면 사이타마에서 두장 사고 교환글 올려볼까 생각할정도로 (되겠냐",
+"handle": "35i7c.bsky.social",
+"name": "연",
+"time": "2026-11-12T14:34:43.482Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/35i7c.bsky.social/post/3n24ov7awkk2c",
+"term": "사고"
+},
 {
 "text": "뜬금없지만 오랜만에 다시 키패드 달린 휴대폰 사고 싶어짐. 으음… 설마 그냥 지나가겠지.",
 "handle": "manydots.bsky.social",
@@ -4359,29 +4394,9 @@
 "handle": "zasoza.bsky.social",
 "name": "재소자",
 "time": "2026-11-12T14:18:29.071Z",
-"likes": 0,
+"likes": 1,
 "reposts": 0,
 "url": "https://bsky.app/profile/zasoza.bsky.social/post/3n24ny5d3lc26",
-"term": "사고"
-},
-{
-"text": "근데갠적으로\n\n난이모님은미인캐가맞다는생각을가끔함\n\n이인간사고방식까지미인의사고방식임",
-"handle": "zasoza.bsky.social",
-"name": "재소자",
-"time": "2026-11-12T14:17:38.173Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/zasoza.bsky.social/post/3n24nwobkt226",
-"term": "사고"
-},
-{
-"text": "$NVDA 사고 싶은 가격인데, 돈나무 아줌마가 샀다길래 고민 중🤨",
-"handle": "moz.bsky.social",
-"name": "Z🎗️",
-"time": "2026-11-12T14:16:44.182Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/moz.bsky.social/post/3n24nv2ltus2u",
 "term": "사고"
 },
 {
@@ -4586,22 +4601,22 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 0.21,
-"화재": 0.27,
+"지진": 0.19,
+"화재": 0.24,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 1.05,
-"붕괴": 0.1,
+"폭발": 1.15,
+"붕괴": 0.09,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.39,
-"지하철": 0.33,
-"사고": 5.01,
+"속보": 0.45,
+"지하철": 0.3,
+"사고": 5.31,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
-"산불": 0.53
+"산불": 0.48
 },
 "errors": [],
 "ytPosts": [
@@ -4818,7 +4833,7 @@
 },
 {
 "term": "jyp 엔터테인먼트",
-"traffic": "100+",
+"traffic": "200+",
 "time": "2026-11-12T13:00:00+00:00",
 "news": [
 {
