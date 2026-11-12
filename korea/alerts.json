@@ -1,24 +1,33 @@
 {
-"updated": "2026-11-12T11:52:05.286578+00:00",
+"updated": "2026-11-12T11:54:21.806237+00:00",
 "errors": [],
 "events": [
 {
 "id": "wNISX20261112_00038662731138",
 "first": "2026-11-12T11:38:01+00:00",
-"last": "2026-11-12T11:46:47+00:00",
-"updated": "2026-11-12T11:52:05.286578+00:00",
+"last": "2026-11-12T11:50:55+00:00",
+"updated": "2026-11-12T11:54:21.806237+00:00",
 "headline": "김민석, 최민희 당 윤리감찰단에 감찰조사 지시…\"최근 언행 심각\"",
 "cat": "기타",
 "regions": [],
 "sources": [
 "경향신문",
+"뉴스1",
 "뉴시스",
 "연합뉴스",
+"이데일리",
 "조선일보",
 "파이낸셜뉴스",
 "한국경제"
 ],
 "updates": [
+{
+"title": "[속보] 김민석, 與 윤감단에 최민희 감찰 지시…\"최근 언행 심각하게 인식\"",
+"source": "뉴스1",
+"link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBCdGdGMGcwRTgtS3BnQWxvWC1vNzAzbHZDYVhsYndhNEpNaEdsMW4yU1BMb3hWaTRPUXRUZW85Y3dVU0pOcWl4YTNiOVQ0RDJmSVpOSUhuRkUxQQ?oc=5",
+"time": "2026-11-12T11:36:53+00:00",
+"stage": "속보"
+},
 {
 "title": "[속보] 김민석, '언행 논란' 최민희 감찰조사 지시…\"심각 인식\"",
 "source": "연합뉴스",
@@ -67,10 +76,17 @@
 "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5rVEthTHZrLUFZYWZhMkRoQW5NZUU0ZDlPU2RQZVRxZ0ZpQUI4WEt5NldCaVN0LU1CODhybklCN2Fvc2R1dW1tTXFtNGV4Mk13RElkNVBZSEtfdw?oc=5",
 "time": "2026-11-12T11:46:47+00:00",
 "stage": "속보"
+},
+{
+"title": "[속보]김민석, 최민희 감찰조사 지시…\"심각하게 인식\"",
+"source": "이데일리",
+"link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOTzV0b0R5a2J1X2s3MS1hdFFGZFBpcndIYnVLVldLZG5OM0lJTHdNX3lVbWhwTnNORTczcXQ4MHNvSURvTnFxVmhEMDdaakNmV3YtTXN1enZXTVFLVW41aTE4VWdYc1BPaGxZWEZOVk5NcjFCcDlYLXZZNEJXS21Ycw?oc=5",
+"time": "2026-11-12T11:50:55+00:00",
+"stage": "속보"
 }
 ],
 "level": "URGENT",
-"latest": "김민석, 與 윤감단에 최민희 감찰조사 지시…\"심각 인식\"",
+"latest": "김민석, 최민희 감찰조사 지시…\"심각하게 인식\"",
 "tok": [
 "감찰",
 "감찰조사",
@@ -4556,12 +4572,12 @@
 },
 "화재": {
 "n30": 1,
-"base": 0.1,
+"base": 0.2,
 "spike": false
 },
 "불났": {
 "n30": 1,
-"base": 0.1,
+"base": 0.2,
 "spike": false
 },
 "정전": {
@@ -4570,13 +4586,13 @@
 "spike": false
 },
 "폭발": {
-"n30": 1,
-"base": 1.2,
+"n30": 0,
+"base": 1.1,
 "spike": false
 },
 "붕괴": {
 "n30": 1,
-"base": 0.7,
+"base": 0.6,
 "spike": false
 },
 "대피": {
@@ -4585,7 +4601,7 @@
 "spike": false
 },
 "미사일": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -4596,12 +4612,12 @@
 },
 "지하철": {
 "n30": 3,
-"base": 2.0,
+"base": 2.1,
 "spike": false
 },
 "사고": {
 "n30": 0,
-"base": 2.1,
+"base": 1.9,
 "spike": false
 },
 "실종": {
@@ -4856,17 +4872,17 @@
 "spikes": [],
 "baseline": {
 "지진": 0.05,
-"화재": 0.24,
-"불났": 0.24,
+"화재": 0.32,
+"불났": 0.32,
 "정전": 0.05,
-"폭발": 1.11,
-"붕괴": 0.63,
+"폭발": 1.0,
+"붕괴": 0.57,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 2.14,
-"사고": 1.93,
-"실종": 0.56,
+"지하철": 2.23,
+"사고": 1.74,
+"실종": 0.5,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -5050,6 +5066,42 @@
 },
 "trends": [
 {
+"term": "nol",
+"traffic": "500+",
+"time": "2026-11-12T10:50:00+00:00",
+"news": [
+{
+"title": "Dubai students can soon use Nol cards for online, in-store shopping across GCC",
+"source": "Khaleej Times",
+"link": "https://www.khaleejtimes.com/uae/transport/dubai-nol-student-card-upgrades-50-percent-discount-online-in-store-payment"
+},
+{
+"title": "RTA, Al Etihad Payments sign strategic agreement to launch next generation of nol–Jaywan cards",
+"source": "www.wam.ae",
+"link": "https://www.wam.ae/en/article/c3347i1-rta-etihad-payments-sign-strategic-agreement"
+}
+],
+"new": true
+},
+{
+"term": "백승호",
+"traffic": "100+",
+"time": "2026-11-12T10:40:00+00:00",
+"news": [
+{
+"title": "'韓 초대박 경사' 터질까, 한국인 16호 프리미어리거는 백승호? '1위 질주' 버밍엄 \"꿈의 무대 EPL 복귀 예상\"",
+"source": "스포츠조선",
+"link": "https://www.sportschosun.com/football/2026-11-11/202611110100078270007276"
+},
+{
+"title": "모레노호 '호재'… 드디어 긴 부상 털고 복귀한 한국 선수",
+"source": "위키트리",
+"link": "https://www.wikitree.co.kr/articles/1172444"
+}
+],
+"new": true
+},
+{
 "term": "부동산",
 "traffic": "2000+",
 "time": "2026-11-12T10:20:00+00:00",
@@ -5178,42 +5230,6 @@
 "title": "탈북단체 \"통일부 '북향민' 호칭, 탈북민 정체성 부정\"(종합)",
 "source": "연합뉴스",
 "link": "https://www.yna.co.kr/view/AKR20261112058551504"
-}
-],
-"new": true
-},
-{
-"term": "한강 벨트",
-"traffic": "500+",
-"time": "2026-11-12T08:50:00+00:00",
-"news": [
-{
-"title": "\"이 돈이면 마포 말고 강남\"… 한강벨트 대장단지 매물 '우르르'",
-"source": "매일경제",
-"link": "https://www.mk.co.kr/news/realestate/12206696"
-},
-{
-"title": "강남 약세 한강벨트까지…수도권 외곽은 계속 '상승'",
-"source": "SBS 뉴스",
-"link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008843677"
-}
-],
-"new": false
-},
-{
-"term": "성시경 콘서트",
-"traffic": "500+",
-"time": "2026-11-12T08:40:00+00:00",
-"news": [
-{
-"title": "[단독] 성시경 막걸리, 세븐일레븐에 입점한다",
-"source": "Daum",
-"link": "https://v.daum.net/v/8EZ9MejJcc"
-},
-{
-"title": "이번에도 '피켓팅'?! 성시경, 두근두근 연말 콘서트",
-"source": "전자신문",
-"link": "https://www.etnews.com/20261112000044"
 }
 ],
 "new": true
