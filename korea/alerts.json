@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-12T20:32:01.885915+00:00",
+"updated": "2026-11-12T20:34:18.299477+00:00",
 "errors": [],
 "events": [
 {
@@ -2565,12 +2565,12 @@
 "spike": false
 },
 "폭발": {
-"n30": 8,
+"n30": 7,
 "base": 0.1,
 "spike": true
 },
 "붕괴": {
-"n30": 3,
+"n30": 2,
 "base": 0.1,
 "spike": false
 },
@@ -2585,7 +2585,7 @@
 "spike": false
 },
 "속보": {
-"n30": 11,
+"n30": 10,
 "base": 0.1,
 "spike": true
 },
@@ -2855,17 +2855,17 @@
 "spikes": [
 {
 "term": "폭발",
-"n30": 8,
+"n30": 7,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-12T20:32:01.885915+00:00"
+"since": "2026-11-12T20:34:18.299477+00:00"
 },
 {
 "term": "속보",
-"n30": 11,
+"n30": 10,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-12T20:32:01.885915+00:00"
+"since": "2026-11-12T20:34:18.299477+00:00"
 }
 ],
 "baseline": {
@@ -3119,7 +3119,7 @@
 "trends": [
 {
 "term": "잉글랜드 대 크로아티아",
-"traffic": "1000+",
+"traffic": "500+",
 "time": "2026-11-12T19:20:00+00:00",
 "news": [
 {
@@ -3208,24 +3208,6 @@
 "new": false
 },
 {
-"term": "체코 대 스페인",
-"traffic": "1000+",
-"time": "2026-11-12T19:00:00+00:00",
-"news": [
-{
-"title": "스페인 감독, 야말 특혜 논란에 발끈…\"거짓말과 날조 참을 수 없어\"",
-"source": "뉴스1",
-"link": "https://www.news1.kr/sports/overseas-soccer/6351283"
-},
-{
-"title": "네이션스 리그 체코 대 스페인 축구 예측",
-"source": "Laodong.vn",
-"link": "https://ko.laodong.vn/bong-da-quoc-te/nhan-dinh-bong-da-cong-hoa-czech-vs-tay-ban-nha-tai-nations-league-1799199.ldo"
-}
-],
-"new": false
-},
-{
 "term": "이탈리아 대 프랑스",
 "traffic": "1000+",
 "time": "2026-11-12T19:00:00+00:00",
@@ -3242,6 +3224,24 @@
 }
 ],
 "new": true
+},
+{
+"term": "체코 대 스페인",
+"traffic": "1000+",
+"time": "2026-11-12T19:00:00+00:00",
+"news": [
+{
+"title": "스페인 감독, 야말 특혜 논란에 발끈…\"거짓말과 날조 참을 수 없어\"",
+"source": "뉴스1",
+"link": "https://www.news1.kr/sports/overseas-soccer/6351283"
+},
+{
+"title": "네이션스 리그 체코 대 스페인 축구 예측",
+"source": "Laodong.vn",
+"link": "https://ko.laodong.vn/bong-da-quoc-te/nhan-dinh-bong-da-cong-hoa-czech-vs-tay-ban-nha-tai-nations-league-1799199.ldo"
+}
+],
+"new": false
 },
 {
 "term": "휘발유",
