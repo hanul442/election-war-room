@@ -1,7 +1,37 @@
 {
-"updated": "2026-11-12T15:33:52.154515+00:00",
+"updated": "2026-11-12T15:36:09.211898+00:00",
 "errors": [],
 "events": [
+{
+"id": "wNISX20261113_00038663451532",
+"first": "2026-11-12T15:32:18+00:00",
+"last": "2026-11-12T15:32:18+00:00",
+"updated": "2026-11-12T15:36:09.211898+00:00",
+"headline": "트럼프 \"젠슨 황 이을 사람은 단 한 명…애플 팀 쿡\"",
+"cat": "국제",
+"regions": [],
+"sources": [
+"뉴시스"
+],
+"updates": [
+{
+"title": "[속보] 트럼프 \"젠슨 황 이을 사람은 단 한 명…애플 팀 쿡\"",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261113_0003866345",
+"time": "2026-11-12T15:32:18+00:00",
+"stage": "얼럿"
+}
+],
+"level": "URGENT",
+"latest": "트럼프 \"젠슨 황 이을 사람은 단 한 명…애플 팀 쿡\"",
+"tok": [
+"사람",
+"애플",
+"이을",
+"젠슨",
+"트럼프"
+]
+},
 {
 "id": "wNISX20261112_00038648500243",
 "first": "2026-11-12T02:43:53+00:00",
@@ -1613,6 +1643,40 @@
 "지급해야",
 "진범",
 "판결"
+]
+},
+{
+"id": "mF3S2NHZ09QQm9kMkZXQQoc51314",
+"first": "2026-11-12T13:14:00+00:00",
+"last": "2026-11-12T13:14:00+00:00",
+"updated": "2026-11-12T15:36:09.211898+00:00",
+"headline": "이용철 ‘관청 권고로 농막 정비’ 해명에…담당자 “문의 없었다”",
+"cat": "기타",
+"regions": [],
+"sources": [
+"한겨레"
+],
+"updates": [
+{
+"title": "[단독] 이용철 ‘관청 권고로 농막 정비’ 해명에…담당자 “문의 없었다”",
+"source": "한겨레",
+"link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5fVThuVFM5V2twREJlWnVIOEdWRFdpajNlSkJmSFpxcTlfVGozbnlRNGl5UXV4MUhXaVpwSFhxMXRwMU9MYTlqZjg1Tm5FSnRJSXczZTdrR3dtcEhmckdvbFM1MmF3S2NHZ09QQm9kMkZXQQ?oc=5",
+"time": "2026-11-12T13:14:00+00:00",
+"stage": "단독"
+}
+],
+"level": "URGENT",
+"latest": "이용철 ‘관청 권고로 농막 정비’ 해명에…담당자 “문의 없었다”",
+"tok": [
+"관청",
+"권고",
+"농막",
+"담당자",
+"문의",
+"없었다",
+"이용철",
+"정비",
+"해명"
 ]
 },
 {
@@ -4146,13 +4210,13 @@
 "spike": false
 },
 "정전": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
 "폭발": {
 "n30": 1,
-"base": 0.5,
+"base": 0.4,
 "spike": false
 },
 "붕괴": {
@@ -4177,11 +4241,11 @@
 },
 "지하철": {
 "n30": 4,
-"base": 0.7,
+"base": 0.8,
 "spike": false
 },
 "사고": {
-"n30": 3,
+"n30": 4,
 "base": 3.5,
 "spike": false
 },
@@ -4212,6 +4276,16 @@
 }
 },
 "posts": [
+{
+"text": "몸이 커서 사고력은 올라갔으려나? 하긴 10살이 풀기에는 신전구조가",
+"handle": "gameskzk.bsky.social",
+"name": "[시오] 네타하는 NAKA",
+"time": "2026-11-12T15:33:58.785Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/gameskzk.bsky.social/post/3n24s74tedk2p",
+"term": "사고"
+},
 {
 "text": "타케루 : 히카리, 소라누나가 친언니면 미래의 형부가 우리 형이야\n\n히카리 : ......역시 지금이 제일 좋아요^^\n\n야마토 : .......(무언의 긍정)\n소라 : ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ\n\n다이스케 : 타이치형 제가 동생이면 어때요??\n\n타이치 : 어...좀...곤란한데...\n(사고뭉치 말리러 다닐듯한...)",
 "handle": "pyuri5710.bsky.social",
@@ -4440,13 +4514,13 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.41,
+"폭발": 0.37,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.12,
-"지하철": 0.79,
-"사고": 3.48,
+"속보": 0.11,
+"지하철": 0.91,
+"사고": 3.53,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -4646,7 +4720,7 @@
 "link": "https://zdnet.co.kr/view/?no=20261112162741"
 }
 ],
-"new": true
+"new": false
 },
 {
 "term": "100 일 의 거짓말",
@@ -4685,24 +4759,6 @@
 "new": true
 },
 {
-"term": "토스증권",
-"traffic": "1000+",
-"time": "2026-11-12T14:10:00+00:00",
-"news": [
-{
-"title": "폭증하는 AI칩 전력·발열…반도체에 ‘물길’ 내 잡는다",
-"source": "조선일보",
-"link": "https://www.chosun.com/economy/tech_it/2026/11/11/OOITYHJNWVBULADP4K6TTQK5NU/"
-},
-{
-"title": "“AI 돈맥 어디로 흐르나”…5개국 발로 뛴 토스증권, 투자 지도 그렸다",
-"source": "매일경제 마켓",
-"link": "https://stock.mk.co.kr/news/view/1196929"
-}
-],
-"new": false
-},
-{
 "term": "msci",
 "traffic": "100+",
 "time": "2026-11-12T14:10:00+00:00",
@@ -4719,6 +4775,24 @@
 }
 ],
 "new": true
+},
+{
+"term": "토스증권",
+"traffic": "1000+",
+"time": "2026-11-12T14:10:00+00:00",
+"news": [
+{
+"title": "폭증하는 AI칩 전력·발열…반도체에 ‘물길’ 내 잡는다",
+"source": "조선일보",
+"link": "https://www.chosun.com/economy/tech_it/2026/11/11/OOITYHJNWVBULADP4K6TTQK5NU/"
+},
+{
+"title": "“AI 돈맥 어디로 흐르나”…5개국 발로 뛴 토스증권, 투자 지도 그렸다",
+"source": "매일경제 마켓",
+"link": "https://stock.mk.co.kr/news/view/1196929"
+}
+],
+"new": false
 },
 {
 "term": "해변",
@@ -4803,9 +4877,9 @@
 "link": "https://www.donga.com/news/Politics/article/all/20261112/135010387/2"
 },
 {
-"title": "[오늘 여의도] “법원도 공범될 것”",
-"source": "경인일보",
-"link": "https://www.kyeongin.com/article/1774642"
+"title": "개혁신당 \"국힘에 '조작기소 특검 저지' 연대투쟁 제안\"",
+"source": "MBC 뉴스",
+"link": "https://imnews.imbc.com/news/2026/politics/article/6865089_36911.html"
 }
 ],
 "new": true
