@@ -1,7 +1,39 @@
 {
-"updated": "2026-11-12T22:12:02.717727+00:00",
+"updated": "2026-11-12T22:14:18.696496+00:00",
 "errors": [],
 "events": [
+{
+"id": "wNISX20261113_00038663792211",
+"first": "2026-11-12T22:11:47+00:00",
+"last": "2026-11-12T22:11:47+00:00",
+"updated": "2026-11-12T22:14:18.696496+00:00",
+"headline": "8명 사망한 뉴욕아파트 붕괴사고, 원인규명 장기간 걸릴 듯",
+"cat": "재난",
+"regions": [],
+"sources": [
+"뉴시스"
+],
+"updates": [
+{
+"title": "8명 사망한 뉴욕아파트 붕괴사고, 원인규명 장기간 걸릴 듯",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261113_0003866379",
+"time": "2026-11-12T22:11:47+00:00",
+"stage": "1보"
+}
+],
+"level": "ALERT",
+"latest": "8명 사망한 뉴욕아파트 붕괴사고, 원인규명 장기간 걸릴 듯",
+"tok": [
+"8명",
+"걸릴",
+"뉴욕아파트",
+"붕괴사고",
+"사망한",
+"원인규명",
+"장기간"
+]
+},
 {
 "id": "mQ3dCY3NaV1BuTGJDUGEzoc52204",
 "first": "2026-11-12T22:04:02+00:00",
@@ -2979,7 +3011,7 @@
 },
 "붕괴": {
 "n30": 3,
-"base": 0.3,
+"base": 0.4,
 "spike": false
 },
 "대피": {
@@ -2993,9 +3025,9 @@
 "spike": false
 },
 "속보": {
-"n30": 5,
+"n30": 4,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "지하철": {
 "n30": 2,
@@ -3131,7 +3163,7 @@
 "name": "奎圓 🏳️‍🌈🎗️🇵🇸",
 "time": "2026-11-12T21:52:02.580Z",
 "likes": 2,
-"reposts": 1,
+"reposts": 3,
 "url": "https://bsky.app/profile/theatreq.bsky.social/post/3n25hd7ast22v",
 "term": "폭발"
 },
@@ -3269,14 +3301,7 @@
 "n30": 7,
 "base": 0.6,
 "spike": true,
-"since": "2026-11-12T22:12:02.717727+00:00"
-},
-{
-"term": "속보",
-"n30": 5,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-12T22:12:02.717727+00:00"
+"since": "2026-11-12T22:14:18.696496+00:00"
 }
 ],
 "baseline": {
@@ -3284,13 +3309,13 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.64,
-"붕괴": 0.39,
+"폭발": 0.68,
+"붕괴": 0.45,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
 "지하철": 0.05,
-"사고": 0.74,
+"사고": 0.77,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -3502,6 +3527,24 @@
 },
 "trends": [
 {
+"term": "관광객",
+"traffic": "1000+",
+"time": "2026-11-12T21:10:00+00:00",
+"news": [
+{
+"title": "방한 관광객 2000만 돌파… 대체불가 관광대국으로",
+"source": "K-공감",
+"link": "https://gonggam.korea.kr/newsContentView.es?mid=a12605000000&section_id=NCCD_CULTURE_TOTAL&content=&code_cd=&nPage=1&b_list=9&news_id=3a05e0c4-a8d7-4ee8-90a6-914c6a861c90"
+},
+{
+"title": "K-관광 새 역사…외국인 관광객 첫 2천만명 돌파",
+"source": "연합뉴스TV",
+"link": "https://www.yonhapnewstv.co.kr/news/MYH202611130542340bJ"
+}
+],
+"new": true
+},
+{
 "term": "czechia vs spain",
 "traffic": "200+",
 "time": "2026-11-12T21:00:00+00:00",
@@ -3597,14 +3640,14 @@
 "time": "2026-11-12T20:40:00+00:00",
 "news": [
 {
-"title": "[단독] ‘재정난’ 경기도, 내년 공무원 인건비 9개월분만 반영 가닥",
-"source": "경인일보",
-"link": "https://www.kyeongin.com/article/1774559"
+"title": "경기도교육청, ‘현장 목소리’ 담은 진로체험교육 만들기 앞장",
+"source": "인천일보",
+"link": "https://www.incheonilbo.com/news/articleView.html?idxno=1336684"
 },
 {
-"title": "경기도, 국비 확보 첫 종합상황실 설치…행정1부지사가 상주",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261112137000061"
+"title": "연결에서 확장으로! '2026 서울진로직업체험지원센터 진로포럼' 개최",
+"source": "머니투데이 더리더",
+"link": "https://theleader.mt.co.kr/articleView?no=2026111117597822864"
 }
 ],
 "new": true
@@ -3628,24 +3671,6 @@
 "new": true
 },
 {
-"term": "진양곤",
-"traffic": "200+",
-"time": "2026-11-12T20:30:00+00:00",
-"news": [
-{
-"title": "진양곤 HLB 의장 \"두 번째 항암신약 허가 확신… 향남공장 글로벌 생산기지 육성\" - 머니투데이",
-"source": "머니투데이",
-"link": "https://www.mt.co.kr/stock/2026/11/12/2026111210273886562"
-},
-{
-"title": "HLB제약, 550억 들여 신공장 짓는다…매출 1조원 도전",
-"source": "매일경제 마켓",
-"link": "https://stock.mk.co.kr/news/view/1196758"
-}
-],
-"new": false
-},
-{
 "term": "서승재",
 "traffic": "200+",
 "time": "2026-11-12T20:30:00+00:00",
@@ -3664,19 +3689,19 @@
 "new": true
 },
 {
-"term": "장례",
-"traffic": "5000+",
-"time": "2026-11-12T20:20:00+00:00",
+"term": "진양곤",
+"traffic": "200+",
+"time": "2026-11-12T20:30:00+00:00",
 "news": [
 {
-"title": "대한장례지도사협회, ‘제5회 장례지도사 리더포럼’ 성황리 개최…품격 있는 장례문화 선도",
-"source": "내외뉴스통신",
-"link": "http://www.nbnnews.co.kr/news/articleView.html?idxno=1069857"
+"title": "진양곤 HLB 의장 \"두 번째 항암신약 허가 확신… 향남공장 글로벌 생산기지 육성\" - 머니투데이",
+"source": "머니투데이",
+"link": "https://www.mt.co.kr/stock/2026/11/12/2026111210273886562"
 },
 {
-"title": "유재철 명장 “조문객보다 고인 중심 장례문화로 바뀌어야”",
-"source": "상조장례뉴스",
-"link": "https://www.sjnews.co.kr/news/articleView.html?idxno=75870"
+"title": "HLB제약, 550억 들여 신공장 짓는다…매출 1조원 도전",
+"source": "매일경제 마켓",
+"link": "https://stock.mk.co.kr/news/view/1196758"
 }
 ],
 "new": false
