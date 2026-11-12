@@ -1,7 +1,43 @@
 {
-"updated": "2026-11-12T14:48:07.255760+00:00",
+"updated": "2026-11-12T14:50:25.515233+00:00",
 "errors": [],
 "events": [
+{
+"id": "nkRSSLINKcooperRSSREADER1446",
+"first": "2026-11-12T14:46:53+00:00",
+"last": "2026-11-12T14:46:53+00:00",
+"updated": "2026-11-12T14:50:25.515233+00:00",
+"headline": "서울 서대문구 홍제동 일대 100여 세대 정전…주민 불편",
+"cat": "재난",
+"regions": [
+"서울"
+],
+"sources": [
+"SBS"
+],
+"updates": [
+{
+"title": "서울 서대문구 홍제동 일대 100여 세대 정전…주민 불편",
+"source": "SBS",
+"link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008843873&plink=RSSLINK&cooper=RSSREADER",
+"time": "2026-11-12T14:46:53+00:00",
+"stage": "1보"
+}
+],
+"level": "ALERT",
+"latest": "서울 서대문구 홍제동 일대 100여 세대 정전…주민 불편",
+"tok": [
+"100여",
+"불편",
+"서대문구",
+"서울",
+"세대",
+"일대",
+"정전",
+"주민",
+"홍제동"
+]
+},
 {
 "id": "LU0RpMGdhWlJIbWZIV19Ooc51350",
 "first": "2026-11-12T13:50:47+00:00",
@@ -650,14 +686,22 @@
 "id": "ssutm_campaigntotal_news1359",
 "first": "2026-11-12T13:59:00+00:00",
 "last": "2026-11-12T13:59:00+00:00",
-"updated": "2026-11-12T14:45:47.095896+00:00",
+"updated": "2026-11-12T14:50:25.515233+00:00",
 "headline": "젠슨 황, 결국 엔비디아 CEO 사임···회사 주가는 개장 전 10% 이상 급락",
 "cat": "경제",
 "regions": [],
 "sources": [
-"경향신문"
+"경향신문",
+"동아일보"
 ],
 "updates": [
+{
+"title": "[속보]젠슨 황 엔비디아 CEO 사임…콜레트 크레스가 임시 CEO",
+"source": "동아일보",
+"link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFAyd1g4MHBaZnQwdVZwZ2R1U2RfblVrWE92UGhWelgwUmZmNU5BNkZLVXNUNWlCN0tVc01jU01BS1pzNGlnWVMyM2NLQWh4bXJvVXFQelFRUE9XQ0xvUmRsLVUyVHlIUdIBZkFVX3lxTFAyd1g4MHBaZnQwdVZwZ2R1U2RfblVrWE92UGhWelgwUmZmNU5BNkZLVXNUNWlCN0tVc01jU01BS1pzNGlnWVMyM2NLQWh4bXJvVXFQelFRUE9XQ0xvUmRsLVUyVHlIUQ?oc=5",
+"time": "2026-11-12T13:58:00+00:00",
+"stage": "속보"
+},
 {
 "title": "[속보]젠슨 황, 결국 엔비디아 CEO 사임···회사 주가는 개장 전 10% 이상 급락",
 "source": "경향신문",
@@ -676,8 +720,11 @@
 "사임",
 "엔비디아",
 "이상",
+"임시",
 "젠슨",
 "주가",
+"콜레트",
+"크레스",
 "회사"
 ]
 },
@@ -4188,7 +4235,7 @@
 },
 "화재": {
 "n30": 1,
-"base": 0.2,
+"base": 0.1,
 "spike": false
 },
 "불났": {
@@ -4223,7 +4270,7 @@
 },
 "속보": {
 "n30": 12,
-"base": 0.6,
+"base": 0.7,
 "spike": true
 },
 "지하철": {
@@ -4232,8 +4279,8 @@
 "spike": false
 },
 "사고": {
-"n30": 5,
-"base": 6.2,
+"n30": 4,
+"base": 6.1,
 "spike": false
 },
 "실종": {
@@ -4518,28 +4565,28 @@
 {
 "term": "속보",
 "n30": 12,
-"base": 0.6,
+"base": 0.7,
 "spike": true,
-"since": "2026-11-12T14:48:07.255760+00:00"
+"since": "2026-11-12T14:50:25.515233+00:00"
 }
 ],
 "baseline": {
-"지진": 0.12,
-"화재": 0.14,
+"지진": 0.11,
+"화재": 0.13,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 1.8,
+"폭발": 1.82,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.68,
-"지하철": 0.18,
-"사고": 6.09,
+"속보": 0.71,
+"지하철": 0.16,
+"사고": 5.88,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
-"산불": 0.29
+"산불": 0.26
 },
 "errors": [],
 "ytPosts": [
@@ -4825,7 +4872,7 @@
 {
 "title": "두산 신인 김지우, 이진영 코치도 칭찬…“파워·기술 겸비”",
 "source": "KBS 뉴스",
-"link": "https://news.kbs.co.kr/news/view.do?ncd=8711118"
+"link": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8711118"
 },
 {
 "title": "와 '얼굴 다친 것도 아닌데' 마스크 쓰고 타구에 돌진이라니... 코칭스태프는 \"의욕과 투지 느껴진다\" 기대감↑ - 머니투데이",
