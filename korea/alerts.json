@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-12T06:51:02.709256+00:00",
+"updated": "2026-11-12T06:53:19.273985+00:00",
 "errors": [],
 "events": [
 {
@@ -242,6 +242,39 @@
 "확대",
 "활성화",
 "李대통령"
+]
+},
+{
+"id": "WlMaFZrZFBpbjZVbGtBSQoc50645",
+"first": "2026-11-12T06:45:17+00:00",
+"last": "2026-11-12T06:45:17+00:00",
+"updated": "2026-11-12T06:53:19.273985+00:00",
+"headline": "210L 봉투 안에서 일용직노동자 숨진 채 발견…경찰 수사",
+"cat": "사회",
+"regions": [],
+"sources": [
+"노컷뉴스"
+],
+"updates": [
+{
+"title": "[속보] 210L 봉투 안에서 일용직노동자 숨진 채 발견…경찰 수사",
+"source": "노컷뉴스",
+"link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQZ0VnM1M4Y1BCTkE4VHgzV3RrWHhDRHAtenJWM0h0ejF6cVRZbWFRWFBUVzMyY0hlT3puME5NR0NTLWhYcXlJZF9aNVlKTTVaSjktUDN4cGNjVElRQ2pjN1IzNFp5akpnWHUyelNJLUd0WEpjZlc4SENhd005QW1rc3loVldaYW40YmMyQk9oYnd6N01GWlVReWlMaFZrZFBpbjZVbGtBSQ?oc=5",
+"time": "2026-11-12T06:45:17+00:00",
+"stage": "얼럿"
+}
+],
+"level": "URGENT",
+"latest": "210L 봉투 안에서 일용직노동자 숨진 채 발견…경찰 수사",
+"tok": [
+"210L",
+"경찰",
+"발견",
+"봉투",
+"수사",
+"숨진",
+"안에서",
+"일용직노동자"
 ]
 },
 {
@@ -4132,51 +4165,6 @@
 "휘두른",
 "흉기"
 ]
-},
-{
-"id": "ZGENJRHAYTSMBXGUZDAYJZHE0210",
-"first": "2026-11-12T02:10:00+00:00",
-"last": "2026-11-12T03:42:52+00:00",
-"updated": "2026-11-12T03:52:26.692034+00:00",
-"headline": "'혼전순결' 강균성♥유하진, '동상이몽2' 합류..'키스없는' 결혼식→신혼일상 공개",
-"cat": "기타",
-"regions": [],
-"sources": [
-"조선일보"
-],
-"updates": [
-{
-"title": "[단독] '혼전순결' 강균성♥유하진, '동상이몽2' 합류..'키스없는' 결혼식→신혼일상 공개(종합)",
-"source": "조선일보",
-"link": "https://www.chosun.com/entertainments/broadcast/2026/11/12/MUZGENJRHAYTSMBXGUZDAYJZHE/",
-"time": "2026-11-12T02:10:00+00:00",
-"stage": "단독"
-},
-{
-"title": "'혼전순결' 유하진♥강균성, 결혼 2주 만 부부예능行…'동상이몽2' 합류[공식]",
-"source": "조선일보",
-"link": "https://www.chosun.com/entertainments/enter_general/2026/11/12/MMYDKMJZGBRTINLBGM4GENLCGM/",
-"time": "2026-11-12T03:42:52+00:00",
-"stage": "후속"
-}
-],
-"level": "URGENT",
-"latest": "'혼전순결' 유하진♥강균성, 결혼 2주 만 부부예능行…'동상이몽2' 합류[공식]",
-"tok": [
-"2주",
-"강균성",
-"결혼",
-"결혼식",
-"공개",
-"공식",
-"동상이몽2",
-"부부예능行",
-"신혼일상",
-"유하진",
-"키스없",
-"합류",
-"혼전순결"
-]
 }
 ],
 "sns": {
@@ -4203,7 +4191,7 @@
 },
 "폭발": {
 "n30": 10,
-"base": 0.6,
+"base": 0.5,
 "spike": true
 },
 "붕괴": {
@@ -4228,12 +4216,12 @@
 },
 "지하철": {
 "n30": 0,
-"base": 0.7,
+"base": 0.6,
 "spike": false
 },
 "사고": {
 "n30": 3,
-"base": 2.1,
+"base": 2.2,
 "spike": false
 },
 "실종": {
@@ -4507,32 +4495,32 @@
 {
 "term": "폭발",
 "n30": 10,
-"base": 0.6,
+"base": 0.5,
 "spike": true,
-"since": "2026-11-12T06:51:02.709256+00:00"
+"since": "2026-11-12T06:53:19.273985+00:00"
 },
 {
 "term": "속보",
 "n30": 10,
 "base": 0.6,
 "spike": true,
-"since": "2026-11-12T06:51:02.709256+00:00"
+"since": "2026-11-12T06:53:19.273985+00:00"
 }
 ],
 "baseline": {
-"지진": 0.12,
+"지진": 0.11,
 "화재": 0.05,
 "불났": 0.05,
-"정전": 0.74,
-"폭발": 0.52,
-"붕괴": 0.76,
+"정전": 0.77,
+"폭발": 0.47,
+"붕괴": 0.68,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.64,
-"지하철": 0.62,
-"사고": 2.17,
+"속보": 0.68,
+"지하철": 0.56,
+"사고": 2.25,
 "실종": 0.05,
-"단수": 0.19,
+"단수": 0.17,
 "통신 장애": 0.05,
 "먹통": 0.05,
 "산불": 0.05
@@ -4733,6 +4721,42 @@
 },
 "trends": [
 {
+"term": "스마트글래스",
+"traffic": "200+",
+"time": "2026-11-12T05:50:00+00:00",
+"news": [
+{
+"title": "야외서도 잘 보이는 AR 스마트글래스 나온다…렌즈는 얇게, 화면은 선명하게",
+"source": "조선일보",
+"link": "https://www.chosun.com/economy/science/2026/11/12/BPIOUGQSFFELRAKPYYKR2V74XM/"
+},
+{
+"title": "‘두께 1.5mm 렌즈’ AR안경 개발… 밝은 야외서 글자 선명",
+"source": "동아일보",
+"link": "https://www.donga.com/news/Economy/article/all/20261111/135009412/2"
+}
+],
+"new": true
+},
+{
+"term": "투자신탁",
+"traffic": "100+",
+"time": "2026-11-12T05:50:00+00:00",
+"news": [
+{
+"title": "토스뱅크, 펀드 서비스 출시…“통장 이자로 펀드 모은다”",
+"source": "동아일보",
+"link": "https://www.donga.com/news/Economy/article/all/20261112/135014163/1"
+},
+{
+"title": "토스뱅크, 1000원부터 투자 가능한 '펀드 서비스' 출시",
+"source": "한국경제",
+"link": "https://www.hankyung.com/article/202611123111i"
+}
+],
+"new": true
+},
+{
 "term": "혜리",
 "traffic": "200+",
 "time": "2026-11-12T05:30:00+00:00",
@@ -4797,9 +4821,9 @@
 "link": "https://nownews.seoul.co.kr/news/newsView.php?id=20261111601017"
 },
 {
-"title": "파기 위기 넘긴 천궁-2 계약…이라크 자금 지시로 정상 궤도",
-"source": "글로벌이코노믹",
-"link": "https://www.g-enews.com/article/Global-Biz/2026/11/202611110618593400fbbec65dfb_1"
+"title": "이라크 천궁Ⅱ 수출 탄력..논란이던 대금지급 해결",
+"source": "파이낸셜뉴스",
+"link": "https://www.fnnews.com/news/202611111614111177"
 }
 ],
 "new": false
@@ -4851,9 +4875,9 @@
 "link": "https://www.yna.co.kr/view/AKR20261112053500030"
 },
 {
-"title": "스타벅스, 독립유공자 후손 대학생 50명에 장학금 총 1억원 전달",
-"source": "전자신문",
-"link": "https://www.etnews.com/20261112000154"
+"title": "[똑똑한소비] 스타벅스, 다이닝브랜즈그룹, 파리바게뜨, 맥도날드, 교촌치킨, CJ푸드빌, 삼양식품, 연세유업, CJ프레시웨이",
+"source": "에너지경제신문",
+"link": "https://m.ekn.kr/view.php?key=20261112021298851"
 }
 ],
 "new": true
@@ -4875,46 +4899,9 @@
 }
 ],
 "new": true
-},
-{
-"term": "장기 이식",
-"traffic": "5000+",
-"time": "2026-11-12T04:10:00+00:00",
-"news": [
-{
-"title": "폐 이식 기다리다 떠난 아내…남편은 장기기증후 아내 곁으로",
-"source": "동아일보",
-"link": "https://www.donga.com/news/Society/article/all/20261112/135012696/2"
-},
-{
-"title": "\"아내는 이식 기다리다 숨졌는데\"…남편은 3명에 새 생명 선물",
-"source": "KBC광주방송",
-"link": "https://www.ikbc.co.kr/article/view/kbc202611120033"
-}
-],
-"new": false
-},
-{
-"term": "빙하",
-"traffic": "500+",
-"time": "2026-11-12T04:00:00+00:00",
-"news": [
-{
-"title": "모두 잠든 새벽 아기와 엄마가 휩쓸려갔다…“빙하홍수는 실존 공포”",
-"source": "한겨레",
-"link": "https://www.hani.co.kr/arti/society/environment/1286917.html"
-},
-{
-"title": "“안데스가 위험해”…한국 외교관이 출동했다, 왜? [런치정치]",
-"source": "채널A",
-"link": "https://ichannela.com/news/detail/000000558847.do"
-}
-],
-"new": true
 }
 ],
 "trendSeen": [
-"이재진",
 "이재희",
 "이정후",
 "이종석",
@@ -5120,6 +5107,7 @@
 "퇴직",
 "투수",
 "투자",
+"투자신탁",
 "트로이 왓슨",
 "트립닷컴 메가세일",
 "트와이스",
