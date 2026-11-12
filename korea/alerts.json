@@ -1,17 +1,53 @@
 {
-"updated": "2026-11-12T16:24:30.899003+00:00",
+"updated": "2026-11-12T16:26:48.650227+00:00",
 "errors": [],
 "events": [
+{
+"id": "keHFBcjhlckJ4cU04SVhjoc51622",
+"first": "2026-11-12T16:22:46+00:00",
+"last": "2026-11-12T16:22:46+00:00",
+"updated": "2026-11-12T16:26:48.650227+00:00",
+"headline": "하나원 화천분소, 지역주민 건강지원 및 무료 이발 봉사 실시",
+"cat": "기타",
+"regions": [
+"강원"
+],
+"sources": [
+"한국사회복지저널"
+],
+"updates": [
+{
+"title": "[속보] 하나원 화천분소, 지역주민 건강지원 및 무료 이발 봉사 실시",
+"source": "한국사회복지저널",
+"link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5XWlNDckdSaThzV1E2bWxPVmxPMW1faEduZjBvQ2RtYkVhbTR4a3JQb3MyZTFVWlBMMENybG40Ym5wRG5CdjRYUjRfSURqLXJBV21OSXNJTHYtZWhkeHFBcjhlckJ4cU04SVhj?oc=5",
+"time": "2026-11-12T16:22:46+00:00",
+"stage": "얼럿"
+}
+],
+"level": "URGENT",
+"latest": "하나원 화천분소, 지역주민 건강지원 및 무료 이발 봉사 실시",
+"tok": [
+"건강지원",
+"무료",
+"봉사",
+"실시",
+"이발",
+"지역주민",
+"하나원",
+"화천분소"
+]
+},
 {
 "id": "ssutm_campaigntotal_news1359",
 "first": "2026-11-12T13:59:00+00:00",
 "last": "2026-11-12T16:07:03+00:00",
-"updated": "2026-11-12T16:13:01.704120+00:00",
+"updated": "2026-11-12T16:26:48.650227+00:00",
 "headline": "젠슨 황, 결국 엔비디아 CEO 사임···회사 주가는 개장 전 10% 이상 급락",
 "cat": "경제",
 "regions": [],
 "sources": [
 "CBC뉴스",
+"OSEN",
 "SBS",
 "경향신문",
 "국민일보",
@@ -128,6 +164,13 @@
 "title": "[속보] 젠슨 황, 엔비디아 CEO·이사직 전격 사임…불륜 파문 속 퇴진",
 "source": "조선일보",
 "link": "https://www.chosun.com/entertainments/broadcast/2026/11/13/MQ2DONZQG5QTEOJSG42DAMBVME/",
+"time": "2026-11-12T15:40:00+00:00",
+"stage": "속보"
+},
+{
+"title": "[속보] 젠슨 황, 엔비디아 CEO·이사직 전격 사임…불륜 파문 속 퇴진",
+"source": "OSEN",
+"link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE81WnJmamlyUmJBQkhIR3VUMlI4OFlHbGVxQUlzeWhIb1JUX0JVbGZsYkFOZFdUc2E1alJVUXZDbnJkV3dHT1JkWGJUOG5oR2xuOGFGOQ?oc=5",
 "time": "2026-11-12T15:40:00+00:00",
 "stage": "속보"
 },
@@ -4217,7 +4260,7 @@
 "spike": false
 },
 "정전": {
-"n30": 2,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
@@ -4238,11 +4281,11 @@
 },
 "미사일": {
 "n30": 1,
-"base": 0.2,
+"base": 0.3,
 "spike": false
 },
 "속보": {
-"n30": 9,
+"n30": 7,
 "base": 0.1,
 "spike": true
 },
@@ -4253,7 +4296,7 @@
 },
 "사고": {
 "n30": 3,
-"base": 4.6,
+"base": 4.4,
 "spike": false
 },
 "실종": {
@@ -4528,14 +4571,14 @@
 "n30": 5,
 "base": 0.5,
 "spike": true,
-"since": "2026-11-12T16:24:30.899003+00:00"
+"since": "2026-11-12T16:26:48.650227+00:00"
 },
 {
 "term": "속보",
-"n30": 9,
+"n30": 7,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-12T16:24:30.899003+00:00"
+"since": "2026-11-12T16:26:48.650227+00:00"
 }
 ],
 "baseline": {
@@ -4543,13 +4586,13 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.49,
+"폭발": 0.44,
 "붕괴": 0.05,
 "대피": 0.05,
-"미사일": 0.32,
+"미사일": 0.39,
 "속보": 0.05,
-"지하철": 0.37,
-"사고": 4.42,
+"지하철": 0.33,
+"사고": 4.28,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
