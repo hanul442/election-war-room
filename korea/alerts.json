@@ -1,25 +1,48 @@
 {
-"updated": "2026-11-12T21:49:06.457553+00:00",
+"updated": "2026-11-12T21:51:22.952347+00:00",
 "errors": [],
 "events": [
 {
 "id": "TQ2djlDMERvUk1fQ2Zmdwoc52147",
 "first": "2026-11-12T21:47:03+00:00",
 "last": "2026-11-12T21:47:03+00:00",
-"updated": "2026-11-12T21:49:06.457553+00:00",
+"updated": "2026-11-12T21:51:22.952347+00:00",
 "headline": "공항철도 파업 1시간 30분 전 극적 타결…열차 정상 운행",
 "cat": "교통",
 "regions": [],
 "sources": [
-"KBC광주방송"
+"KBC광주방송",
+"SBS",
+"뉴시스"
 ],
 "updates": [
+{
+"title": "공항철도 노조, 오늘 파업 철회…노사 임금협상 극적 타결",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261113_0003866370",
+"time": "2026-11-12T20:55:25+00:00",
+"stage": "후속"
+},
+{
+"title": "공항철도 노사 극적 타결…열차 정상 운행",
+"source": "SBS",
+"link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008843989&plink=RSSLINK&cooper=RSSREADER",
+"time": "2026-11-12T21:17:47+00:00",
+"stage": "후속"
+},
 {
 "title": "[속보] 공항철도 파업 1시간 30분 전 극적 타결…열차 정상 운행",
 "source": "KBC광주방송",
 "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBqeEpwbXRWMTF0NlhBb3B0aHVoc01zM1JpX2ZzODFHaUYxQ2l5X2E2UHJPSmZYZFp3OEwycHNwSEk0M21veEtVTUtXanNEc3hnanpINXN5cFRFQ2w5eEp4am50c055MF9KT1JUOTQ2djlDMERvUk1fQ2Zmdw?oc=5",
 "time": "2026-11-12T21:47:03+00:00",
 "stage": "얼럿"
+},
+{
+"title": "[속보] 공항철도 파업 1시간 30분 전 극적 타결…열차 정상 운행",
+"source": "KBC광주방송",
+"link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5MekFMbFBOMkU4eHRtd2x2VXN1dDM5SGtDQy1YcG1ScUoxRFJibTlKU25MUTdodW5nMXRBanZTS3JTN2tEZmNOM2FaV0w5ZXRpMUpINHk1OHdEU1lkTWlPbw?oc=5",
+"time": "2026-11-12T21:47:03+00:00",
+"stage": "속보"
 }
 ],
 "level": "URGENT",
@@ -29,9 +52,13 @@
 "30분",
 "공항철",
 "극적",
+"노사",
+"노조",
 "열차",
 "운행",
+"임금협상",
 "정상",
+"철회",
 "타결",
 "파업"
 ]
@@ -2830,41 +2857,6 @@
 "해임",
 "황제"
 ]
-},
-{
-"id": "zREZYMzFCVkotR2laOEVvoc51551",
-"first": "2026-11-12T15:51:06+00:00",
-"last": "2026-11-12T15:51:06+00:00",
-"updated": "2026-11-12T15:59:15.942643+00:00",
-"headline": "제주 감귤, 검역협상 타결 8개월 만에 우즈베키스탄 첫 수출",
-"cat": "경제",
-"regions": [
-"제주"
-],
-"sources": [
-"한국사회복지저널"
-],
-"updates": [
-{
-"title": "[속보] 제주 감귤, 검역협상 타결 8개월 만에 우즈베키스탄 첫 수출",
-"source": "한국사회복지저널",
-"link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE56UlBLUEZjYzdEOEY5MmxwaGhoX3pleVN0MVQwMUxkZXBKcWNaUm9YcDhleGtwOW9heUdTUGtwQmFsR2c2N241cUZ2RVlSRFdTd1BIYy1EenhTaktzREZYMzFCVkotR2laOEVv?oc=5",
-"time": "2026-11-12T15:51:06+00:00",
-"stage": "얼럿"
-}
-],
-"level": "URGENT",
-"latest": "제주 감귤, 검역협상 타결 8개월 만에 우즈베키스탄 첫 수출",
-"tok": [
-"8개월",
-"감귤",
-"검역협상",
-"만에",
-"수출",
-"우즈베키스탄",
-"제주",
-"타결"
-]
 }
 ],
 "sns": {
@@ -2910,7 +2902,7 @@
 "spike": false
 },
 "속보": {
-"n30": 2,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
@@ -2921,7 +2913,7 @@
 },
 "사고": {
 "n30": 1,
-"base": 0.1,
+"base": 0.2,
 "spike": false
 },
 "실종": {
@@ -3154,7 +3146,7 @@
 "미사일": 0.05,
 "속보": 0.05,
 "지하철": 0.05,
-"사고": 0.24,
+"사고": 0.32,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
