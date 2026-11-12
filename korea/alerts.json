@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-12T16:01:33.038329+00:00",
+"updated": "2026-11-12T16:03:50.637607+00:00",
 "errors": [],
 "events": [
 {
@@ -56,7 +56,7 @@
 "id": "ssutm_campaigntotal_news1359",
 "first": "2026-11-12T13:59:00+00:00",
 "last": "2026-11-12T15:52:00+00:00",
-"updated": "2026-11-12T15:59:15.942643+00:00",
+"updated": "2026-11-12T16:03:50.637607+00:00",
 "headline": "젠슨 황, 결국 엔비디아 CEO 사임···회사 주가는 개장 전 10% 이상 급락",
 "cat": "경제",
 "regions": [],
@@ -67,6 +67,7 @@
 "국민일보",
 "국제뉴스",
 "뉴시스",
+"데일리연합",
 "동아일보",
 "연합뉴스",
 "조선일보",
@@ -159,6 +160,13 @@
 "stage": "후속"
 },
 {
+"title": "[속보] 젠슨 황 엔비디아 CEO 전격 사임…33년 'AI 제국' 흔들리나",
+"source": "데일리연합",
+"link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5VV1ZBamdlUWZUUHJnWE9lS2NOREFWMTBHT1JQVFRMV0VnZ1hIVkZGUGt4MWpLUlprNHFEaDFmTmdsNHZySHlNNHRVeFZILVpHeVZMNk9FMklOZi1CY0E?oc=5",
+"time": "2026-11-12T15:35:55+00:00",
+"stage": "속보"
+},
+{
 "title": "젠슨 황 사임 뒤 엔비디아 프리마켓 주가 10% 하락",
 "source": "토큰포스트",
 "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBIOGN1eE5WZDZLMkJoemFpeHJlWjE1RDRNbXJzb1JLTmVzT2d3emtKX3VON19IMHVDYUdZREZQV1hQaWJlV2c4allGVFYzZ1VTZWVpa0ZjWWPSAV5BVV95cUxOMl9HNERWaGRNWUdBMWhTa2x5cE90QXVLdklka0ktMTZHVEFmZEt6OHctSnpUeXpjTjBEWWttQkxxNlNvUm9PZFRuczJvRW0zXy1JUlBpSWVWY1VGNDlB?oc=5",
@@ -200,6 +208,7 @@
 "1인",
 "2013년",
 "33년",
+"AI",
 "CEO",
 "CFO",
 "개장",
@@ -229,14 +238,13 @@
 "임시",
 "장중",
 "전격",
+"제국",
 "젠슨",
 "젠슨황",
 "주가",
 "줄하향",
 "즉시",
-"체제",
-"출발",
-"충격"
+"체제"
 ]
 },
 {
@@ -4150,7 +4158,7 @@
 "spike": false
 },
 "폭발": {
-"n30": 4,
+"n30": 3,
 "base": 0.7,
 "spike": false
 },
@@ -4176,12 +4184,12 @@
 },
 "지하철": {
 "n30": 0,
-"base": 1.2,
+"base": 1.0,
 "spike": false
 },
 "사고": {
 "n30": 6,
-"base": 5.4,
+"base": 5.5,
 "spike": false
 },
 "실종": {
@@ -4438,13 +4446,13 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.69,
+"폭발": 0.72,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 1.04,
-"사고": 5.46,
+"지하철": 0.94,
+"사고": 5.51,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -4638,6 +4646,24 @@
 },
 "trends": [
 {
+"term": "13일의 금요일",
+"traffic": "100+",
+"time": "2026-11-12T15:00:00+00:00",
+"news": [
+{
+"title": "빗나간 66년 전 ‘인구종말론’…AI 종말론은 다를까?",
+"source": "한겨레",
+"link": "https://www.hani.co.kr/arti/science/science_general/1286931.html"
+},
+{
+"title": "세계가 11월 13일에 종말을 맞이할 것이라는 소문이 사실인가요?",
+"source": "Vietnam.vn",
+"link": "https://www.vietnam.vn/ko/thuc-hu-tin-don-the-gioi-sap-buoc-sang-ngay-tan-the-13-11"
+}
+],
+"new": true
+},
+{
 "term": "amd stock",
 "traffic": "100+",
 "time": "2026-11-12T14:40:00+00:00",
@@ -4787,35 +4813,17 @@
 "time": "2026-11-12T13:00:00+00:00",
 "news": [
 {
+"title": "역대급 실적 낸 JYP, 주가 17% 급등한 이유는?",
+"source": "네이버페이 머니스토리",
+"link": "https://story.pay.naver.com/content/3952_3_C1"
+},
+{
 "title": "스트레이키즈가 다했네, JYP",
 "source": "매일경제 마켓",
 "link": "https://stock.mk.co.kr/news/view/1197127"
-},
-{
-"title": "JYP Ent., 스트레이키즈 서구권 흥행에 실적 호조…장초반 급등 - 머니투데이",
-"source": "머니투데이",
-"link": "https://www.mt.co.kr/stock/2026/11/12/2026111209080964631"
 }
 ],
 "new": true
-},
-{
-"term": "학대",
-"traffic": "100+",
-"time": "2026-11-12T12:50:00+00:00",
-"news": [
-{
-"title": "\"학대냐 아니냐\" 불붙은 논란‥'어둠의 오은영' 이제 못 보나",
-"source": "MBC 뉴스",
-"link": "https://imnews.imbc.com/replay/2026/nwdesk/article/6865252_37004.html"
-},
-{
-"title": "아동학대 논란 휩싸인 민속촌 귀신…“웃는다고 괜찮은 건 아냐” 세계의 ‘공포 훈육’ 돌아보니 [이윤정 기자의 소소월드]",
-"source": "경향신문",
-"link": "https://www.khan.co.kr/article/202611121023001"
-}
-],
-"new": false
 }
 ],
 "trendSeen": [
