@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-12T22:43:06.150869+00:00",
+"updated": "2026-11-12T22:45:20.192707+00:00",
 "errors": [],
 "events": [
 {
@@ -3088,7 +3088,7 @@
 },
 "화재": {
 "n30": 2,
-"base": 0.4,
+"base": 0.5,
 "spike": false
 },
 "불났": {
@@ -3108,7 +3108,7 @@
 },
 "붕괴": {
 "n30": 0,
-"base": 0.5,
+"base": 0.4,
 "spike": false
 },
 "대피": {
@@ -3128,7 +3128,7 @@
 },
 "지하철": {
 "n30": 4,
-"base": 0.2,
+"base": 0.3,
 "spike": false
 },
 "사고": {
@@ -3380,28 +3380,28 @@
 "n30": 7,
 "base": 0.3,
 "spike": true,
-"since": "2026-11-12T22:43:06.150869+00:00"
+"since": "2026-11-12T22:45:20.192707+00:00"
 },
 {
 "term": "속보",
 "n30": 8,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-12T22:43:06.150869+00:00"
+"since": "2026-11-12T22:45:20.192707+00:00"
 }
 ],
 "baseline": {
 "지진": 0.05,
-"화재": 0.45,
+"화재": 0.51,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.26,
-"붕괴": 0.44,
+"폭발": 0.23,
+"붕괴": 0.4,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.32,
-"사고": 0.63,
+"지하철": 0.39,
+"사고": 0.67,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -3595,22 +3595,22 @@
 },
 "trends": [
 {
-"term": "thời tiết",
-"traffic": "2000+",
+"term": "정성호",
+"traffic": "100+",
 "time": "2026-11-12T21:40:00+00:00",
 "news": [
 {
-"title": "Bắc Bộ mưa dông diện rộng, Nam Bộ có mưa rải rác",
-"source": "Báo Nhân Dân điện tử",
-"link": "https://nhandan.vn/bac-bo-mua-dong-dien-rong-nam-bo-co-mua-rai-rac-post1002265.html"
+"title": "정성호 \"보완수사권 폐지, 급했다…피해자 보호장치 더 넣어야\"",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261112146700001"
 },
 {
-"title": "Dự báo thời tiết đêm 12 và ngày 13/11",
-"source": "Báo Lào Cai điện tử",
-"link": "https://baolaocai.vn/du-bao-thoi-tiet-dem-12-va-ngay-1311-post914336.html"
+"title": "정성호, 법무장관 공백에 \"대통령께 죄송…이용철 청렴하고 강직\"",
+"source": "연합뉴스TV",
+"link": "https://www.yonhapnewstv.co.kr/news/AKR20261112143555LFG"
 }
 ],
-"new": true
+"new": false
 },
 {
 "term": "italia vs prancis",
@@ -3631,19 +3631,37 @@
 "new": true
 },
 {
-"term": "정성호",
-"traffic": "100+",
+"term": "thời tiết",
+"traffic": "2000+",
 "time": "2026-11-12T21:40:00+00:00",
 "news": [
 {
-"title": "정성호 \"보완수사권 폐지, 급했다…피해자 보호장치 더 넣어야\"",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261112146700001"
+"title": "Bắc Bộ mưa dông diện rộng, Nam Bộ có mưa rải rác",
+"source": "Báo Nhân Dân điện tử",
+"link": "https://nhandan.vn/bac-bo-mua-dong-dien-rong-nam-bo-co-mua-rai-rac-post1002265.html"
 },
 {
-"title": "정성호, 법무장관 공백에 \"대통령께 죄송…이용철 청렴하고 강직\"",
-"source": "연합뉴스TV",
-"link": "https://www.yonhapnewstv.co.kr/news/AKR20261112143555LFG"
+"title": "Dự báo thời tiết đêm 12 và ngày 13/11",
+"source": "Báo Lào Cai điện tử",
+"link": "https://baolaocai.vn/du-bao-thoi-tiet-dem-12-va-ngay-1311-post914336.html"
+}
+],
+"new": true
+},
+{
+"term": "박지현",
+"traffic": "100+",
+"time": "2026-11-12T21:30:00+00:00",
+"news": [
+{
+"title": "박지현, 돈 많이 벌어도 여전히 ‘모텔 사랑’... 침대서 벌떡 “가만히 있으면 안 바뀌어”",
+"source": "조선일보",
+"link": "https://www.chosun.com/entertainments/broadcast/2026/11/12/GU4DKZLFG4ZTENTCGE4TOMZTGM/"
+},
+{
+"title": "'나혼산' 박지현, 부산 뜬 행사 프린스…'MBC 대학가요제'서 감성 발라더 변신",
+"source": "iMBC 연예",
+"link": "https://enews.imbc.com/News/RetrieveNewsInfo/524559"
 }
 ],
 "new": true
@@ -3686,7 +3704,7 @@
 },
 {
 "term": "관광객",
-"traffic": "1000+",
+"traffic": "2000+",
 "time": "2026-11-12T21:10:00+00:00",
 "news": [
 {
@@ -3752,24 +3770,6 @@
 "title": "Confirmed: Barcelona duo start for Spain against Czechia",
 "source": "Yahoo Sports",
 "link": "https://sports.yahoo.com/articles/confirmed-barcelona-duo-start-spain-184900657.html"
-}
-],
-"new": true
-},
-{
-"term": "검사",
-"traffic": "100+",
-"time": "2026-11-12T21:00:00+00:00",
-"news": [
-{
-"title": "[단독]‘삼례 나라슈퍼 살인 누명’ 검사, 국가에 3억원 지급해야…법원 “진범 자백도 배척해 잘못”",
-"source": "경향신문",
-"link": "https://www.khan.co.kr/article/202611121633011"
-},
-{
-"title": "27년 전 '삼례 3인조' 부실수사 검사 '국가에 구상금 지급' 판결",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261112180400004"
 }
 ],
 "new": true
