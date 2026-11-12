@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-12T18:33:27.682632+00:00",
+"updated": "2026-11-12T18:35:40.558673+00:00",
 "errors": [],
 "events": [
 {
@@ -2909,39 +2909,6 @@
 "청와대",
 "협력"
 ]
-},
-{
-"id": "wNISX20261112_00038662891234",
-"first": "2026-11-12T12:34:12+00:00",
-"last": "2026-11-12T12:34:12+00:00",
-"updated": "2026-11-12T12:37:35.042316+00:00",
-"headline": "문경 점촌동서 주택 화재…인명피해 없어",
-"cat": "재난",
-"regions": [
-"경북"
-],
-"sources": [
-"뉴시스"
-],
-"updates": [
-{
-"title": "문경 점촌동서 주택 화재…인명피해 없어",
-"source": "뉴시스",
-"link": "https://www.newsis.com/view/NISX20261112_0003866289",
-"time": "2026-11-12T12:34:12+00:00",
-"stage": "1보"
-}
-],
-"level": "ALERT",
-"latest": "문경 점촌동서 주택 화재…인명피해 없어",
-"tok": [
-"문경",
-"없어",
-"인명피해",
-"점촌동서",
-"주택",
-"화재"
-]
 }
 ],
 "sns": {
@@ -2998,7 +2965,7 @@
 },
 "사고": {
 "n30": 1,
-"base": 0.5,
+"base": 0.6,
 "spike": false
 },
 "실종": {
@@ -3252,7 +3219,7 @@
 "n30": 6,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-12T18:33:27.682632+00:00"
+"since": "2026-11-12T18:35:40.558673+00:00"
 }
 ],
 "baseline": {
@@ -3260,13 +3227,13 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.11,
+"폭발": 0.1,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.26,
-"사고": 0.56,
+"지하철": 0.23,
+"사고": 0.6,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -3595,24 +3562,6 @@
 "new": true
 },
 {
-"term": "amd stock",
-"traffic": "100+",
-"time": "2026-11-12T14:40:00+00:00",
-"news": [
-{
-"title": "This AMD Analyst Turns Bullish; Here Are Top 5 Upgrades For Thursday",
-"source": "Benzinga",
-"link": "https://www.benzinga.com/analyst-stock-ratings/upgrades/26/11/63185579/this-amd-analyst-turns-bullish-here-are-top-5-upgrades-for-thursday-2"
-},
-{
-"title": "AMD's AI Sales Set to Overtake Server CPUs, William Blair Says",
-"source": "Yahoo Finance",
-"link": "https://finance.yahoo.com/technology/ai/articles/amds-ai-sales-set-overtake-111834124.html"
-}
-],
-"new": true
-},
-{
 "term": "100 일 의 거짓말",
 "traffic": "100+",
 "time": "2026-11-12T14:30:00+00:00",
@@ -3644,6 +3593,24 @@
 "title": "Index Provider MSCI Removes Strategy From Equity Benchmark",
 "source": "Bloomberg.com",
 "link": "https://www.bloomberg.com/news/articles/2026-11-11/index-provider-msci-removes-strategy-from-equity-benchmark"
+}
+],
+"new": true
+},
+{
+"term": "amd 주가",
+"traffic": "200+",
+"time": "2026-11-12T14:10:00+00:00",
+"news": [
+{
+"title": "TPU가 뭐야? 삼전닉스에 올 새로운 기회",
+"source": "서울경제",
+"link": "https://www.sedaily.com/vod/5997282"
+},
+{
+"title": "엔비디아 ‘오너 리스크’ 틈탄 구글, AMD와 AI 생태계 확장",
+"source": "경향신문",
+"link": "https://www.khan.co.kr/article/202611102040025"
 }
 ],
 "new": true
