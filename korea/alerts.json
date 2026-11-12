@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-12T12:39:50.823878+00:00",
+"updated": "2026-11-12T12:42:05.747632+00:00",
 "errors": [],
 "events": [
 {
@@ -703,12 +703,13 @@
 "id": "wNISX20261112_00038662731138",
 "first": "2026-11-12T11:38:01+00:00",
 "last": "2026-11-12T12:14:53+00:00",
-"updated": "2026-11-12T12:39:50.823878+00:00",
+"updated": "2026-11-12T12:42:05.747632+00:00",
 "headline": "김민석, 최민희 당 윤리감찰단에 감찰조사 지시…\"최근 언행 심각\"",
 "cat": "기타",
 "regions": [],
 "sources": [
 "KBC광주방송",
+"MBC 뉴스",
 "OBC 뉴스",
 "www.dt.co.kr",
 "강원일보",
@@ -837,6 +838,13 @@
 "source": "이데일리",
 "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOTzV0b0R5a2J1X2s3MS1hdFFGZFBpcndIYnVLVldLZG5OM0lJTHdNX3lVbWhwTnNORTczcXQ4MHNvSURvTnFxVmhEMDdaakNmV3YtTXN1enZXTVFLVW41aTE4VWdYc1BPaGxZWEZOVk5NcjFCcDlYLXZZNEJXS21Ycw?oc=5",
 "time": "2026-11-12T11:50:55+00:00",
+"stage": "속보"
+},
+{
+"title": "[속보] 김민석, 최민희 감찰조사 지시‥\"언행 논란, 심각하게 인식\"",
+"source": "MBC 뉴스",
+"link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE8wN0piVnU4eHVtcnl6cU9Gbm5qMjZHdWlURVAtd3E0SVBJcUZFblVIbkk3bUVoLUxNRS00ZzR6RTFJU1Q2ZHBPcWxUSVJLalNFc1hGa3VTc0JwbllZMjFBRllRNVNGd0tZcXU4d2dSQi1jMm56OEp3etIBeEFVX3lxTE0zX2twUlhrUlFibnpDOFk3SG1kVGpnX1BmUEdsYzdsR21DclFJNnRqUmwyUzhONFQ4NHgyU0hZWmJwR0pqT0FWMWFGbnZzYUQzdzBPYzZUNDFmQzZfVTNzamlIdHc1WW9NSmlCOGZKenlSYjcyTldydw?oc=5",
+"time": "2026-11-12T11:55:23+00:00",
 "stage": "속보"
 },
 {
@@ -4034,7 +4042,7 @@
 "sns": {
 "terms": {
 "지진": {
-"n30": 2,
+"n30": 3,
 "base": 0.1,
 "spike": false
 },
@@ -4055,7 +4063,7 @@
 },
 "폭발": {
 "n30": 7,
-"base": 0.8,
+"base": 0.7,
 "spike": true
 },
 "붕괴": {
@@ -4080,12 +4088,12 @@
 },
 "지하철": {
 "n30": 3,
-"base": 0.8,
+"base": 0.9,
 "spike": false
 },
 "사고": {
-"n30": 1,
-"base": 1.9,
+"n30": 2,
+"base": 1.8,
 "spike": false
 },
 "실종": {
@@ -4115,6 +4123,26 @@
 }
 },
 "posts": [
+{
+"text": "베리 사고 나니 실사용하기엔 베리가 더 나은 것 같기도\n\n체리는 생 핑쿠라서 내 평소 옷차림엔 좀 안어울리고 튈 것 같음",
+"handle": "lylnnnnnay.bsky.social",
+"name": "⋆. 𐙚 ˚  🦢.✦ ݁˖",
+"time": "2026-11-12T12:41:30.879Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/lylnnnnnay.bsky.social/post/3n24ikrptgs2x",
+"term": "사고"
+},
+{
+"text": "【지진 정보】일본 시간 11월 12일 21:34경\n진원: Central Oita Prefecture (M2.0, 깊이 약 10km)\n최대 진도: 1\n진도 1: 오이타현\n이 지진으로 인한 쓰나미 걱정은 없습니다.\n(일본 기상청 발표)\n#일본 #지진 #방재",
+"handle": "ko.soramoyou.yk-planning.jp",
+"name": "Soramoyou 한국어",
+"time": "2026-11-12T12:39:35.070Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/ko.soramoyou.yk-planning.jp/post/3n24ihdsupm2b",
+"term": "지진"
+},
 {
 "text": "지하철 역사에 침 찍찍 뱉어대는게, 간만에 개 패버리고 싶은 씹개저를 봐버렸군",
 "handle": "darce.bsky.social",
@@ -4329,24 +4357,24 @@
 {
 "term": "폭발",
 "n30": 7,
-"base": 0.8,
+"base": 0.7,
 "spike": true,
-"since": "2026-11-12T12:39:50.823878+00:00"
+"since": "2026-11-12T12:42:05.747632+00:00"
 }
 ],
 "baseline": {
-"지진": 0.05,
-"화재": 0.27,
-"불났": 0.27,
+"지진": 0.15,
+"화재": 0.24,
+"불났": 0.24,
 "정전": 0.05,
-"폭발": 0.72,
-"붕괴": 0.07,
+"폭발": 0.65,
+"붕괴": 0.06,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.86,
-"사고": 1.77,
-"실종": 0.06,
+"지하철": 0.87,
+"사고": 1.79,
+"실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
