@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-12T13:32:14.211274+00:00",
+"updated": "2026-11-12T13:34:31.227533+00:00",
 "errors": [],
 "events": [
 {
@@ -4100,8 +4100,8 @@
 "sns": {
 "terms": {
 "지진": {
-"n30": 0,
-"base": 0.8,
+"n30": 1,
+"base": 0.7,
 "spike": false
 },
 "화재": {
@@ -4121,7 +4121,7 @@
 },
 "폭발": {
 "n30": 1,
-"base": 0.7,
+"base": 0.8,
 "spike": false
 },
 "붕괴": {
@@ -4135,7 +4135,7 @@
 "spike": false
 },
 "미사일": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -4150,8 +4150,8 @@
 "spike": false
 },
 "사고": {
-"n30": 6,
-"base": 4.0,
+"n30": 5,
+"base": 4.2,
 "spike": false
 },
 "실종": {
@@ -4181,6 +4181,16 @@
 }
 },
 "posts": [
+{
+"text": "【지진 정보】일본 시간 11월 12일 22:27경\n진원: Northeastern Chiba Prefecture (M3.9, 깊이 약 50km)\n최대 진도: 2\n진도 2: 지바현\n진도 1: 이바라키현\n이 지진으로 인한 쓰나미 걱정은 없습니다.\n(일본 기상청 발표)\n#일본 #지진 #방재",
+"handle": "ko.soramoyou.yk-planning.jp",
+"name": "Soramoyou 한국어",
+"time": "2026-11-12T13:32:33.378Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/ko.soramoyou.yk-planning.jp/post/3n24lg2t4ma2g",
+"term": "지진"
+},
 {
 "text": "저 다구 샀어요‼️‼️☺️☺️\n처음 장만한 도자기 다구들... 정말 너무 예쁨 안 사고 포기한 아이가 하나 있는데 걔가 계속 눈에 밟히고 아른거려요....",
 "handle": "nskg.bsky.social",
@@ -4443,17 +4453,17 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 0.68,
+"지진": 0.71,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.75,
-"붕괴": 0.51,
+"폭발": 0.78,
+"붕괴": 0.56,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
 "지하철": 0.95,
-"사고": 4.16,
+"사고": 4.24,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -4657,7 +4667,7 @@
 "trends": [
 {
 "term": "두산 베어스",
-"traffic": "100+",
+"traffic": "200+",
 "time": "2026-11-12T12:20:00+00:00",
 "news": [
 {
@@ -4687,24 +4697,6 @@
 "title": "에버랜드, 삼성라이온즈 우승 기념 팬 초청 행사…2000명과 'V9 데이트'",
 "source": "전자신문",
 "link": "https://www.etnews.com/20261112000325"
-}
-],
-"new": true
-},
-{
-"term": "공항철도",
-"traffic": "1000+",
-"time": "2026-11-12T11:50:00+00:00",
-"news": [
-{
-"title": "지하철·KTX에 공항까지 줄파업 예고…연말 국민들 발 묶이나",
-"source": "국민일보",
-"link": "https://www.kmib.co.kr/article/20261112501567"
-},
-{
-"title": "철도노조 “12월 10일부터 총파업”…인력 충원 등 요구",
-"source": "KBS 뉴스",
-"link": "https://news.kbs.co.kr/news/view.do?ncd=8709898"
 }
 ],
 "new": true
@@ -4751,17 +4743,35 @@
 "time": "2026-11-12T11:40:00+00:00",
 "news": [
 {
-"title": "아시아나항공, 3분기 영업손실 1,790억원…적자 지속",
-"source": "연합뉴스TV",
-"link": "https://www.yonhapnewstv.co.kr/news/AKR20261112180246PVF"
+"title": "진에어-에어서울-에어부산 내년 3월 17일 통합 LCC 출범",
+"source": "KBS 뉴스",
+"link": "https://news.kbs.co.kr/news/view.do?ncd=8711087"
 },
 {
-"title": "아시아나항공, 3Q 환율 효과에 순이익 흑자 전환…고유가로 적자 지속",
-"source": "에너지경제신문",
-"link": "https://m.ekn.kr/view.php?key=20261112027349018"
+"title": "진에어 3사 통합 승인 제주 관광시장 재편 촉각",
+"source": "제민일보",
+"link": "https://www.jemin.com/news/articleView.html?idxno=847153"
 }
 ],
 "new": false
+},
+{
+"term": "공항철도 파업",
+"traffic": "1000+",
+"time": "2026-11-12T11:40:00+00:00",
+"news": [
+{
+"title": "지하철·KTX에 공항까지 줄파업 예고…연말 국민들 발 묶이나",
+"source": "국민일보",
+"link": "https://www.kmib.co.kr/article/20261112501567"
+},
+{
+"title": "철도노조 “12월 10일부터 총파업”…인력 충원 등 요구",
+"source": "KBS 뉴스",
+"link": "https://news.kbs.co.kr/news/view.do?ncd=8709898"
+}
+],
+"new": true
 },
 {
 "term": "천위페이",
