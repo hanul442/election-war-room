@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-12T02:00:04.258587+00:00",
+"updated": "2026-11-12T02:02:17.816031+00:00",
 "errors": [],
 "events": [
 {
@@ -367,40 +367,65 @@
 {
 "id": "llWbFYyZDNJaWIzQm5wWQoc50147",
 "first": "2026-11-12T01:47:32+00:00",
-"last": "2026-11-12T01:47:32+00:00",
-"updated": "2026-11-12T02:00:04.258587+00:00",
+"last": "2026-11-12T01:50:18+00:00",
+"updated": "2026-11-12T02:02:17.816031+00:00",
 "headline": "시흥 아파트서 일가족 3명 숨진 채 발견… 흉기에 의한 것으로 추정되는 상처 다수",
 "cat": "경제",
 "regions": [
 "경기"
 ],
 "sources": [
-"서울신문"
+"뉴시스",
+"서울신문",
+"조선일보"
 ],
 "updates": [
+{
+"title": "시흥 아파트서 모자 3명 숨진 채 발견… 외부 침입 흔적 없어",
+"source": "조선일보",
+"link": "https://www.chosun.com/national/incident/2026/11/12/RRTQZWPTLBB2BLBEHPQ6F2Q77I/",
+"time": "2026-11-12T01:38:14+00:00",
+"stage": "후속"
+},
 {
 "title": "[속보] 시흥 아파트서 일가족 3명 숨진 채 발견… 흉기에 의한 것으로 추정되는 상처 다수",
 "source": "서울신문",
 "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBOazNlMC1kZmthakFQWWZULVdPbDhfR3BGNWRiMnN3QlZhUXpuajVQNTVHYkZNdm9VN2t6Q0RaVGo0QTJ6S05oNnMyVDVzYTlucFhWb0RHclNVSkM2T29xY0RmSjkwVHAteWItQllWbFYyZDNJaWIzQm5wWQ?oc=5",
 "time": "2026-11-12T01:47:32+00:00",
 "stage": "얼럿"
+},
+{
+"title": "시흥 아파트서 일가족 3명 참변…모자 피살·아들 추락사",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261112_0003865223",
+"time": "2026-11-12T01:50:18+00:00",
+"stage": "후속"
 }
 ],
-"level": "URGENT",
-"latest": "시흥 아파트서 일가족 3명 숨진 채 발견… 흉기에 의한 것으로 추정되는 상처 다수",
+"level": "BULLETIN",
+"latest": "시흥 아파트서 일가족 3명 참변…모자 피살·아들 추락사",
 "tok": [
 "3명",
 "것으",
 "다수",
+"모자",
 "발견",
 "상처",
 "숨진",
 "시흥",
+"아들",
 "아파트서",
+"없어",
+"외부",
 "의한",
 "일가족",
+"참변",
+"추락사",
 "추정되",
-"흉기"
+"침입",
+"피살",
+"흉기",
+"흔적"
 ]
 },
 {
@@ -4220,7 +4245,7 @@
 "spike": false
 },
 "속보": {
-"n30": 3,
+"n30": 2,
 "base": 0.1,
 "spike": false
 },
@@ -4230,8 +4255,8 @@
 "spike": false
 },
 "사고": {
-"n30": 2,
-"base": 3.0,
+"n30": 1,
+"base": 2.9,
 "spike": false
 },
 "실종": {
@@ -4315,16 +4340,6 @@
 "time": "2026-11-12T01:32:05Z",
 "term": "속보",
 "url": "https://www.youtube.com/watch?v=bDmT7ZEJyX8"
-},
-{
-"text": "건포도 사고 귀찮아서 크렌베리로 했더니 액종 실패한 듯...",
-"handle": "somnus-mohaji.planet.moe.ap.brid.gy",
-"name": "솜누스",
-"time": "2026-11-12T01:31:04.279Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/somnus-mohaji.planet.moe.ap.brid.gy/post/3n23d3seqcka2",
-"term": "사고"
 },
 {
 "platform": "YouTube",
@@ -4492,7 +4507,7 @@
 "미사일": 0.05,
 "속보": 0.05,
 "지하철": 0.05,
-"사고": 2.92,
+"사고": 2.73,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
