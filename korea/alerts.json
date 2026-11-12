@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-12T13:36:48.619527+00:00",
+"updated": "2026-11-12T13:39:04.946860+00:00",
 "errors": [],
 "events": [
 {
@@ -179,7 +179,7 @@
 "id": "wNISX20261112_00038662731138",
 "first": "2026-11-12T11:38:01+00:00",
 "last": "2026-11-12T12:58:42+00:00",
-"updated": "2026-11-12T13:20:48.852941+00:00",
+"updated": "2026-11-12T13:39:04.946860+00:00",
 "headline": "김민석, 최민희 당 윤리감찰단에 감찰조사 지시…\"최근 언행 심각\"",
 "cat": "기타",
 "regions": [],
@@ -383,6 +383,13 @@
 "title": "김민석, '언행 논란' 최민희 감찰조사 지시…\"심각 인식\"(종합)",
 "source": "연합뉴스",
 "link": "https://www.yna.co.kr/view/AKR20261112180351001",
+"time": "2026-11-12T12:58:42+00:00",
+"stage": "종합"
+},
+{
+"title": "김민석, '언행 논란' 최민희 감찰조사 지시…\"심각 인식\"(종합)",
+"source": "연합뉴스",
+"link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBzREhUMm1SekdIc3V5WFBVWXpzSVR5MWNKUFZiTExHVVZDX1JPMW5VSGRCTVBQSWU1U0duM3VDeFZiVjdVRGZESjNyR2tBYnc5TG1nMS1rRXAxY0nSAWBBVV95cUxNQl9oZ3BsOTJkUldCNmpfa0E0eENtako2dWktQ1NTVExqUG4zRUVvYUU5VzdoYWlsa3ZNOFR1MWlOS0twSVFWT1RjZzJfa1duVkxWNkdBX0R2bDBmdjF4U3U?oc=5",
 "time": "2026-11-12T12:58:42+00:00",
 "stage": "종합"
 }
@@ -4133,9 +4140,9 @@
 "spike": false
 },
 "폭발": {
-"n30": 5,
+"n30": 4,
 "base": 0.8,
-"spike": true
+"spike": false
 },
 "붕괴": {
 "n30": 2,
@@ -4159,12 +4166,12 @@
 },
 "지하철": {
 "n30": 3,
-"base": 0.9,
+"base": 0.8,
 "spike": false
 },
 "사고": {
 "n30": 5,
-"base": 4.2,
+"base": 4.3,
 "spike": false
 },
 "실종": {
@@ -4217,7 +4224,7 @@
 "handle": "dodumi-fla.bsky.social",
 "name": "듬듬o0(원고)_林",
 "time": "2026-11-12T13:35:20.981Z",
-"likes": 0,
+"likes": 2,
 "reposts": 0,
 "url": "https://bsky.app/profile/dodumi-fla.bsky.social/post/3n24ll2sjui2m",
 "term": "사고"
@@ -4442,46 +4449,29 @@
 "time": "2026-11-12T13:10:47Z",
 "term": "속보",
 "url": "https://www.youtube.com/watch?v=4I-emC9d278"
-},
-{
-"text": "순발력(瞬發力)이라는 한자를 풀어보면 '눈 깜빡일 순(瞬)'에 '쏠 발(發)'을 씁니다. 눈 한번 감았다 뜨는 그 억만분의 일초 같은 시간 동안, 우리 내부에서는 무수한 조각들이 빛의 속도로 얽히고설킵니다. 수없이 반복했던 연습, 과거의 실패가 남긴 잔상, 상황을 읽어내는 직관, 그리고 실패를 두려워하지 않는 담대함이 순식간에 하나로 모여 폭발하는 것, 그것이 바로 순발력의 본질입니다.",
-"handle": "schrodinger3.bsky.social",
-"name": "슈뢰딩거의 고양이",
-"time": "2026-11-12T13:07:41.670Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/schrodinger3.bsky.social/post/3n24jzkxl7s2z",
-"term": "폭발"
 }
 ],
 "spikes": [
-{
-"term": "폭발",
-"n30": 5,
-"base": 0.8,
-"spike": true,
-"since": "2026-11-12T13:36:48.619527+00:00"
-},
 {
 "term": "속보",
 "n30": 8,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-12T13:36:48.619527+00:00"
+"since": "2026-11-12T13:39:04.946860+00:00"
 }
 ],
 "baseline": {
-"지진": 0.74,
+"지진": 0.77,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.8,
-"붕괴": 0.6,
+"폭발": 0.72,
+"붕괴": 0.64,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.85,
-"사고": 4.32,
+"지하철": 0.77,
+"사고": 4.39,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -4797,14 +4787,14 @@
 "time": "2026-11-12T11:10:00+00:00",
 "news": [
 {
-"title": "'71승 1패' 안세영 유일한 패배 안긴 선수인데...中 왕즈이, 이래서 '8개월 무관' 끊겠나? 세계 25위 상대 진땀승→8강 진출 - 머니투데이",
-"source": "머니투데이",
-"link": "https://www.mt.co.kr/sports/2026/11/12/202611121734779265O"
-},
-{
 "title": "'안세영 천적이라고 하지 마세요' 세계 36위 상대 '진땀승'→간신히 8강 진출…中 천위페이, AN과 격차 점점 벌어진다",
 "source": "엑스포츠뉴스",
 "link": "https://www.xportsnews.com/article/2218686"
+},
+{
+"title": "'71승 1패' 안세영 유일한 패배 안긴 선수인데...中 왕즈이, 이래서 '8개월 무관' 끊겠나? 세계 25위 상대 진땀승→8강 진출 - 머니투데이",
+"source": "머니투데이",
+"link": "https://www.mt.co.kr/sports/2026/11/12/202611121734779265O"
 }
 ],
 "new": false
