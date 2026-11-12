@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-12T17:37:36.521828+00:00",
+"updated": "2026-11-12T17:39:52.745987+00:00",
 "errors": [],
 "events": [
 {
@@ -3326,41 +3326,6 @@
 "아이",
 "잃은"
 ]
-},
-{
-"id": "wSEZwWDByNTdpLXFQemZ3oc51139",
-"first": "2026-11-12T11:39:31+00:00",
-"last": "2026-11-12T11:39:31+00:00",
-"updated": "2026-11-12T11:45:14.968056+00:00",
-"headline": "경산 진량읍 골판지 제조 업체서 화재… \"불 피해 주의\"",
-"cat": "재난",
-"regions": [
-"경북"
-],
-"sources": [
-"국제뉴스"
-],
-"updates": [
-{
-"title": "[속보] 경산 진량읍 골판지 제조 업체서 화재… \"불 피해 주의\"",
-"source": "국제뉴스",
-"link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5ORnN4OUdWaXA0THFLWmxKX3BYU0ZPRTlxUlZUWmhTcC0yQ1pjclQ3QTFWb0Rjek1GU3FGMUFKMFlYc1hRNjU0OTVZMTFiR1F3aklaM2p3Ujc4YnZ1bzYwSEZwWDByNTdpLXFQemZ3?oc=5",
-"time": "2026-11-12T11:39:31+00:00",
-"stage": "얼럿"
-}
-],
-"level": "URGENT",
-"latest": "경산 진량읍 골판지 제조 업체서 화재… \"불 피해 주의\"",
-"tok": [
-"경산",
-"골판지",
-"업체서",
-"제조",
-"주의",
-"진량읍",
-"피해",
-"화재"
-]
 }
 ],
 "sns": {
@@ -3386,9 +3351,9 @@
 "spike": false
 },
 "폭발": {
-"n30": 5,
+"n30": 4,
 "base": 0.9,
-"spike": true
+"spike": false
 },
 "붕괴": {
 "n30": 0,
@@ -3406,12 +3371,12 @@
 "spike": false
 },
 "속보": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
 "지하철": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -3620,15 +3585,7 @@
 "url": "https://www.youtube.com/watch?v=cWZ2PQy0oyc"
 }
 ],
-"spikes": [
-{
-"term": "폭발",
-"n30": 5,
-"base": 0.9,
-"spike": true,
-"since": "2026-11-12T17:37:36.521828+00:00"
-}
-],
+"spikes": [],
 "baseline": {
 "지진": 0.05,
 "화재": 0.05,
@@ -3637,10 +3594,10 @@
 "폭발": 0.95,
 "붕괴": 0.05,
 "대피": 0.05,
-"미사일": 0.08,
+"미사일": 0.07,
 "속보": 0.05,
 "지하철": 0.05,
-"사고": 0.27,
+"사고": 0.24,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
