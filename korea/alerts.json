@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-12T04:24:49.738179+00:00",
+"updated": "2026-11-12T04:27:04.600770+00:00",
 "errors": [],
 "events": [
 {
@@ -42,8 +42,8 @@
 {
 "id": "lVEYnFWVi1iZXh3bnptdwoc50202",
 "first": "2026-11-12T02:02:46+00:00",
-"last": "2026-11-12T04:17:37+00:00",
-"updated": "2026-11-12T04:24:49.738179+00:00",
+"last": "2026-11-12T04:17:45+00:00",
+"updated": "2026-11-12T04:27:04.600770+00:00",
 "headline": "경부고속도로 사고처리중",
 "cat": "교통",
 "regions": [
@@ -81,18 +81,28 @@
 "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBLakNzMGVwT016SEE3NmNuZmF2TS0tRXFoMFp3dEI1dHhmZzRLQ2dXTFdMZTRQdmh1U2w4NXRSOE5yMm1hSVptYkhRcy1HOWFfVEJRQlJNcklIY05wN3hKQkhVR3FYczczQTRYRFJ1alNaUQ?oc=5",
 "time": "2026-11-12T04:17:37+00:00",
 "stage": "속보"
+},
+{
+"title": "[속보] 남해고속도로(순천-부산) 승용차관련 사고 처리중",
+"source": "스페셜타임스",
+"link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5RMFRrSmQ0MERuRTNtX0lyc1ZJbnVaaUVDX3dnSXFuSUJTWmd4VlJsSUxiRERnWkh5STRsd2NvcEluS25xTm1rUDVKU3lGX0V1T3ZSNHR6QlpCdDgycEhMT3VNU1p2ZHUwY1MtSkFyN0MxQ3M?oc=5",
+"time": "2026-11-12T04:17:45+00:00",
+"stage": "속보"
 }
 ],
 "level": "URGENT",
-"latest": "남해고속도로(순천-부산) 승용차 관련 사고처리중",
+"latest": "남해고속도로(순천-부산) 승용차관련 사고 처리중",
 "tok": [
 "경부고속도",
 "남해고속도",
 "단독사고처리중",
 "부산",
+"사고",
 "사고처리중",
 "순천",
-"승용차"
+"승용차",
+"승용차관련",
+"처리중"
 ]
 },
 {
@@ -3837,7 +3847,7 @@
 "terms": {
 "지진": {
 "n30": 1,
-"base": 0.6,
+"base": 0.7,
 "spike": false
 },
 "화재": {
@@ -3882,7 +3892,7 @@
 },
 "지하철": {
 "n30": 3,
-"base": 1.7,
+"base": 1.6,
 "spike": false
 },
 "사고": {
@@ -4146,30 +4156,30 @@
 "n30": 6,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-12T04:24:49.738179+00:00"
+"since": "2026-11-12T04:27:04.600770+00:00"
 },
 {
 "term": "속보",
 "n30": 5,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-12T04:24:49.738179+00:00"
+"since": "2026-11-12T04:27:04.600770+00:00"
 }
 ],
 "baseline": {
-"지진": 0.67,
+"지진": 0.7,
 "화재": 0.05,
 "불났": 0.05,
-"정전": 0.64,
+"정전": 0.68,
 "폭발": 0.05,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 1.59,
-"사고": 1.81,
-"실종": 0.08,
-"단수": 0.6,
+"지하철": 1.53,
+"사고": 1.83,
+"실종": 0.07,
+"단수": 0.64,
 "통신 장애": 0.05,
 "먹통": 0.05,
 "산불": 0.05
@@ -4476,24 +4486,6 @@
 "new": true
 },
 {
-"term": "던파",
-"traffic": "500+",
-"time": "2026-11-12T02:00:00+00:00",
-"news": [
-{
-"title": "[단독] \"창립 이래 최대 위기\"…'게임 1위' 넥슨에 무슨 일이",
-"source": "한국경제",
-"link": "https://www.hankyung.com/article/2026111084471"
-},
-{
-"title": "[속보] 넥슨, 3분기 영업익 3718억원…매출 1조2312억원 By EBN",
-"source": "Investing.com 한국어",
-"link": "https://kr.investing.com/news/stock-market-news/article-2169714"
-}
-],
-"new": true
-},
-{
 "term": "베이비몬스터",
 "traffic": "200+",
 "time": "2026-11-12T02:00:00+00:00",
@@ -4507,6 +4499,24 @@
 "title": "마돈나와 함께… ‘범 내려온다’ 이날치, 내년 코첼라 무대 오른다",
 "source": "문화일보",
 "link": "https://www.munhwa.com/article/11630800"
+}
+],
+"new": true
+},
+{
+"term": "던파",
+"traffic": "500+",
+"time": "2026-11-12T02:00:00+00:00",
+"news": [
+{
+"title": "[단독] \"창립 이래 최대 위기\"…'게임 1위' 넥슨에 무슨 일이",
+"source": "한국경제",
+"link": "https://www.hankyung.com/article/2026111084471"
+},
+{
+"title": "[속보] 넥슨, 3분기 영업익 3718억원…매출 1조2312억원 By EBN",
+"source": "Investing.com 한국어",
+"link": "https://kr.investing.com/news/stock-market-news/article-2169714"
 }
 ],
 "new": true
