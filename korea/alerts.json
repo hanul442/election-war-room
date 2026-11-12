@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-12T12:37:35.042316+00:00",
+"updated": "2026-11-12T12:39:50.823878+00:00",
 "errors": [],
 "events": [
 {
@@ -703,7 +703,7 @@
 "id": "wNISX20261112_00038662731138",
 "first": "2026-11-12T11:38:01+00:00",
 "last": "2026-11-12T12:14:53+00:00",
-"updated": "2026-11-12T12:37:35.042316+00:00",
+"updated": "2026-11-12T12:39:50.823878+00:00",
 "headline": "김민석, 최민희 당 윤리감찰단에 감찰조사 지시…\"최근 언행 심각\"",
 "cat": "기타",
 "regions": [],
@@ -720,6 +720,7 @@
 "뉴시스",
 "대전일보",
 "연합뉴스",
+"연합뉴스TV",
 "이데일리",
 "조선일보",
 "파이낸셜뉴스",
@@ -822,6 +823,13 @@
 "source": "www.dt.co.kr",
 "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5FajJETTVwTnRXMDY3N2VxekE0ZUpUcjFvQ2pxM2tmaVhNZFAySVNROE5QTV9vakFwOG1VVkZtdF9TVVFZZEJKMWhkeHk5LWJINW5pSmZXWjZSdFU?oc=5",
 "time": "2026-11-12T11:46:58+00:00",
+"stage": "속보"
+},
+{
+"title": "[속보] 김민석, ’언행 논란’ 최민희 감찰조사 지시…“심각하게 인식“",
+"source": "연합뉴스TV",
+"link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE41WE9EbmJSZ3BaTlZUUHB2SlJWbWJwdVRGTFVYQlFJaGVPdGQ1SGJjeFRmVFQ2cEdnQTBRYlNFdTZoLXBlT0I5VlJBckpjcy1vUDNwd01zcUVNY0d2ZExscDNoWHMtajg?oc=5",
+"time": "2026-11-12T11:47:00+00:00",
 "stage": "속보"
 },
 {
@@ -4047,7 +4055,7 @@
 },
 "폭발": {
 "n30": 7,
-"base": 0.9,
+"base": 0.8,
 "spike": true
 },
 "붕괴": {
@@ -4321,24 +4329,24 @@
 {
 "term": "폭발",
 "n30": 7,
-"base": 0.9,
+"base": 0.8,
 "spike": true,
-"since": "2026-11-12T12:37:35.042316+00:00"
+"since": "2026-11-12T12:39:50.823878+00:00"
 }
 ],
 "baseline": {
 "지진": 0.05,
-"화재": 0.3,
-"불났": 0.3,
+"화재": 0.27,
+"불났": 0.27,
 "정전": 0.05,
-"폭발": 0.8,
-"붕괴": 0.08,
+"폭발": 0.72,
+"붕괴": 0.07,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.84,
-"사고": 1.85,
-"실종": 0.07,
+"지하철": 0.86,
+"사고": 1.77,
+"실종": 0.06,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
