@@ -1,7 +1,46 @@
 {
-"updated": "2026-11-12T10:15:47.954074+00:00",
+"updated": "2026-11-12T10:17:58.656090+00:00",
 "errors": [],
 "events": [
+{
+"id": "STOZRYGQYGEMZSGVQTCN3CG41010",
+"first": "2026-11-12T10:10:00+00:00",
+"last": "2026-11-12T10:10:00+00:00",
+"updated": "2026-11-12T10:17:58.656090+00:00",
+"headline": "[사진]육은영 쌤, 폭설 스포일러 금지!",
+"cat": "재난",
+"regions": [],
+"sources": [
+"조선일보"
+],
+"updates": [
+{
+"title": "[사진]육은영 쌤, 폭설 스포일러 금지!",
+"source": "조선일보",
+"link": "https://www.chosun.com/entertainments/entertain_photo/2026/11/12/GJSTOZRYGQYGEMZSGVQTCN3CG4/",
+"time": "2026-11-12T10:10:00+00:00",
+"stage": "1보"
+},
+{
+"title": "[사진]장용원, 폭설 최고",
+"source": "조선일보",
+"link": "https://www.chosun.com/entertainments/entertain_photo/2026/11/12/HEZWEOJYMRRTCMRVMMYGMM3GMM/",
+"time": "2026-11-12T10:10:00+00:00",
+"stage": "후속"
+}
+],
+"level": "ALERT",
+"latest": "[사진]장용원, 폭설 최고",
+"tok": [
+"금지",
+"사진",
+"스포일러",
+"육은영",
+"장용원",
+"최고",
+"폭설"
+]
+},
 {
 "id": "viewAKR202611121655000040832",
 "first": "2026-11-12T08:32:29+00:00",
@@ -4378,52 +4417,6 @@
 "전주시",
 "종합대책"
 ]
-},
-{
-"id": "wNISX20261112_00038658190639",
-"first": "2026-11-12T06:39:14+00:00",
-"last": "2026-11-12T07:08:00+00:00",
-"updated": "2026-11-12T07:11:07.537076+00:00",
-"headline": "전남광주 주말 비…강추위·강풍에 '수능 한파' 예고",
-"cat": "재난",
-"regions": [
-"광주",
-"전남"
-],
-"sources": [
-"경향신문",
-"뉴시스"
-],
-"updates": [
-{
-"title": "전남광주 주말 비…강추위·강풍에 '수능 한파' 예고",
-"source": "뉴시스",
-"link": "https://www.newsis.com/view/NISX20261112_0003865819",
-"time": "2026-11-12T06:39:14+00:00",
-"stage": "1보"
-},
-{
-"title": "이번 주말 전국에 비…19일 수능 한파 가능성",
-"source": "경향신문",
-"link": "https://www.khan.co.kr/article/202611121608001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
-"time": "2026-11-12T07:08:00+00:00",
-"stage": "후속"
-}
-],
-"level": "ALERT",
-"latest": "이번 주말 전국에 비…19일 수능 한파 가능성",
-"tok": [
-"19일",
-"가능성",
-"강추위",
-"강풍",
-"수능",
-"예고",
-"전국",
-"전남광주",
-"주말",
-"한파"
-]
 }
 ],
 "sns": {
@@ -4464,23 +4457,23 @@
 "spike": false
 },
 "미사일": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
 "속보": {
 "n30": 0,
-"base": 0.8,
+"base": 0.7,
 "spike": false
 },
 "지하철": {
 "n30": 1,
-"base": 1.7,
+"base": 1.6,
 "spike": false
 },
 "사고": {
-"n30": 1,
-"base": 2.4,
+"n30": 0,
+"base": 2.3,
 "spike": false
 },
 "실종": {
@@ -4537,16 +4530,6 @@
 "time": "2026-11-12T09:46:37Z",
 "term": "미사일",
 "url": "https://www.youtube.com/watch?v=i6gsNWlI6Ds"
-},
-{
-"text": "중고로 옷을 사고 나면 벼룩이 옮아서 왔을까 걱정이 된다. 새로 산 코트가 왔는데 페브리즈를 뿌리고 돌돌이로 밀어서 뭔가 나오나 확인을 해 봤다. 퇴근하고 와서 스팀다리미로 다려서 자세히 봐야지.",
-"handle": "cactusfarm.bsky.social",
-"name": "선인장",
-"time": "2026-11-12T09:46:05.070Z",
-"likes": 4,
-"reposts": 0,
-"url": "https://bsky.app/profile/cactusfarm.bsky.social/post/3n246r3o7l22f",
-"term": "사고"
 },
 {
 "platform": "YouTube",
@@ -4676,9 +4659,9 @@
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.71,
-"지하철": 1.61,
-"사고": 2.26,
+"속보": 0.64,
+"지하철": 1.55,
+"사고": 2.03,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
