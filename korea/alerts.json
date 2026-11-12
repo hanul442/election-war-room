@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-12T12:01:09.729997+00:00",
+"updated": "2026-11-12T12:03:27.833246+00:00",
 "errors": [],
 "events": [
 {
@@ -413,7 +413,7 @@
 "id": "lVEYnFWVi1iZXh3bnptdwoc50202",
 "first": "2026-11-12T02:02:46+00:00",
 "last": "2026-11-12T11:32:09+00:00",
-"updated": "2026-11-12T11:36:02.832551+00:00",
+"updated": "2026-11-12T12:03:27.833246+00:00",
 "headline": "경부고속도로 사고처리중",
 "cat": "교통",
 "regions": [
@@ -658,6 +658,13 @@
 "title": "[속보] 수도권제1순환고속도로 승용차관련 사고 처리중",
 "source": "스페셜타임스",
 "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1oaXN6c0Rhd3pnYXB3dUFXWGVpSEZnMnRkY09JT1FSalBoaTlxajNzd3pnWGI5ZHF4cjdCM3VQejAzUlFLUXZ2RHI0Mnl0ZHlUZWxxMWRnOVItNG0yMGtEamszMEFMR2pVRGFXblRnaUpjQQ?oc=5",
+"time": "2026-11-12T11:32:09+00:00",
+"stage": "속보"
+},
+{
+"title": "[속보] 수도권제1순환고속도로 승용차관련 사고 처리중",
+"source": "스페셜타임스",
+"link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE95OV9QT2VVOElMWnlKTDItUHdOUXBmUXJWM2xtT0JoOTdweDdlcHpXQUxRUzQtd0d3R1EzSENlM2NzR3RvM0dFY2Q2Vi1DSlo4dG9rSHVWbE0zeHNPZ3cwOGFpTllPcFB3T2RfQzdWcjdlZXc?oc=5",
 "time": "2026-11-12T11:32:09+00:00",
 "stage": "속보"
 }
@@ -3892,12 +3899,12 @@
 },
 "폭발": {
 "n30": 6,
-"base": 0.8,
+"base": 0.7,
 "spike": true
 },
 "붕괴": {
 "n30": 1,
-"base": 0.5,
+"base": 0.4,
 "spike": false
 },
 "대피": {
@@ -3921,8 +3928,8 @@
 "spike": false
 },
 "사고": {
-"n30": 0,
-"base": 1.4,
+"n30": 1,
+"base": 1.3,
 "spike": false
 },
 "실종": {
@@ -3952,6 +3959,16 @@
 }
 },
 "posts": [
+{
+"text": "혹한기 빼고 앞뒤로 입을 수 있겠죠...?! (사고 싶어서요)",
+"handle": "haruarona.lily.rs",
+"name": "🌈청야🌠",
+"time": "2026-11-12T12:02:36.774Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/haruarona.lily.rs/post/3n24gf6u5uk2a",
+"term": "사고"
+},
 {
 "platform": "YouTube",
 "text": "(속보) 주민센터라며 '누가 신분증 들고 왔다' 전화, 100% 사기입니다",
@@ -4196,31 +4213,31 @@
 {
 "term": "폭발",
 "n30": 6,
-"base": 0.8,
+"base": 0.7,
 "spike": true,
-"since": "2026-11-12T12:01:09.729997+00:00"
+"since": "2026-11-12T12:03:27.833246+00:00"
 },
 {
 "term": "속보",
 "n30": 8,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-12T12:01:09.729997+00:00"
+"since": "2026-11-12T12:03:27.833246+00:00"
 }
 ],
 "baseline": {
 "지진": 0.05,
-"화재": 0.51,
-"불났": 0.51,
+"화재": 0.56,
+"불났": 0.56,
 "정전": 0.05,
-"폭발": 0.73,
-"붕괴": 0.41,
+"폭발": 0.66,
+"붕괴": 0.37,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 2.44,
-"사고": 1.27,
-"실종": 0.37,
+"지하철": 2.5,
+"사고": 1.24,
+"실종": 0.33,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -4422,6 +4439,42 @@
 },
 "trends": [
 {
+"term": "조희대",
+"traffic": "500+",
+"time": "2026-11-12T11:00:00+00:00",
+"news": [
+{
+"title": "법원행정처장, '한덕수 석방시 조희대 탄핵' 주장에 \"부적절\"",
+"source": "MBC 뉴스",
+"link": "https://imnews.imbc.com/news/2026/politics/article/6865234_36911.html"
+},
+{
+"title": "[단독] \"한덕수 석방 땐 재판 차질 우려\"…이진관 재판부에 ‘의견서’",
+"source": "JTBC",
+"link": "https://news.jtbc.co.kr/article/NB12327837"
+}
+],
+"new": true
+},
+{
+"term": "원자력 잠수함",
+"traffic": "200+",
+"time": "2026-11-12T11:00:00+00:00",
+"news": [
+{
+"title": "日, 안보 전략에 '핵추진잠수함 검토 가능' 명기 방안 부상(종합)",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261111130751073"
+},
+{
+"title": "일 ‘핵반입 금지 예외’ 검토에 피폭자들 반발…“비핵 원칙 훼손 말라”",
+"source": "경향신문",
+"link": "https://www.khan.co.kr/article/202611121556011"
+}
+],
+"new": true
+},
+{
 "term": "nol",
 "traffic": "500+",
 "time": "2026-11-12T10:50:00+00:00",
@@ -4432,9 +4485,9 @@
 "link": "https://www.khaleejtimes.com/uae/transport/dubai-nol-student-card-upgrades-50-percent-discount-online-in-store-payment"
 },
 {
-"title": "RTA, Al Etihad Payments sign strategic agreement to launch next generation of nol–Jaywan cards",
-"source": "www.wam.ae",
-"link": "https://www.wam.ae/en/article/c3347i1-rta-etihad-payments-sign-strategic-agreement"
+"title": "Dubai’s new student card offers half-price fares and perks in over 130 countries",
+"source": "Gulf Business",
+"link": "https://gulfbusiness.com/en/2026/transport/dubais-new-student-card-offers-half-price-fares-and-perks-in-over-130-countries/"
 }
 ],
 "new": true
@@ -4553,46 +4606,9 @@
 }
 ],
 "new": false
-},
-{
-"term": "김민식",
-"traffic": "100+",
-"time": "2026-11-12T09:50:00+00:00",
-"news": [
-{
-"title": "SSG, 베테랑 포수 김민식과 결별…선수단 추가 정비",
-"source": "KBS 뉴스",
-"link": "https://news.kbs.co.kr/news/view.do?ncd=8710823"
-},
-{
-"title": "프로야구 SSG랜더스, 선수 및 코칭스태프 추가 재정비…재계약 불가 통보",
-"source": "기호일보",
-"link": "https://www.kihoilbo.co.kr/news/articleView.html?idxno=3040763"
-}
-],
-"new": true
-},
-{
-"term": "박충권",
-"traffic": "500+",
-"time": "2026-11-12T09:10:00+00:00",
-"news": [
-{
-"title": "박충권, 정동영 향해 \"북동영\" 부르자 與 \"탈충권\" 맞불",
-"source": "MBC 뉴스",
-"link": "https://imnews.imbc.com/news/2026/politics/article/6865148_36911.html"
-},
-{
-"title": "탈북단체 \"통일부 '북향민' 호칭, 탈북민 정체성 부정\"(종합)",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261112058551504"
-}
-],
-"new": true
 }
 ],
 "trendSeen": [
-"이주헌",
 "이준호",
 "이지현",
 "이지혜",
@@ -4695,6 +4711,7 @@
 "조작 기소 의혹 특검법 통과에 따른 핵심 쟁점과 최신 뉴스 알려줘",
 "조진웅",
 "조혜련",
+"조희대",
 "존리",
 "종신보험",
 "주가 대폭락",
