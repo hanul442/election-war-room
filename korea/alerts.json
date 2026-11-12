@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-12T03:41:01.388335+00:00",
+"updated": "2026-11-12T03:43:21.489354+00:00",
 "errors": [],
 "events": [
 {
@@ -3969,8 +3969,8 @@
 "sns": {
 "terms": {
 "지진": {
-"n30": 2,
-"base": 0.5,
+"n30": 1,
+"base": 0.6,
 "spike": false
 },
 "화재": {
@@ -3990,7 +3990,7 @@
 },
 "폭발": {
 "n30": 0,
-"base": 0.2,
+"base": 0.1,
 "spike": false
 },
 "붕괴": {
@@ -4015,12 +4015,12 @@
 },
 "지하철": {
 "n30": 1,
-"base": 0.6,
+"base": 0.7,
 "spike": false
 },
 "사고": {
 "n30": 1,
-"base": 2.4,
+"base": 2.2,
 "spike": false
 },
 "실종": {
@@ -4227,18 +4227,18 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 0.56,
+"지진": 0.6,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.15,
+"폭발": 0.14,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.65,
-"사고": 2.22,
-"실종": 0.56,
+"지하철": 0.69,
+"사고": 2.1,
+"실종": 0.5,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -4394,6 +4394,24 @@
 "ytAt": "2026-11-12T03:13:34.199479+00:00"
 },
 "trends": [
+{
+"term": "소방",
+"traffic": "1000+",
+"time": "2026-11-12T02:40:00+00:00",
+"news": [
+{
+"title": "창녕군-소방서 합동훈련 실시…40여 명 참여, 화재대응 실습",
+"source": "국제뉴스",
+"link": "https://www.gukjenews.com/news/articleView.html?idxno=3749714"
+},
+{
+"title": "함평군 보건소, 함평소방서와 함께한 합동 소방 훈련 성료",
+"source": "일간투데이",
+"link": "https://www.dtoday.co.kr/news/articleView.html?idxno=803063"
+}
+],
+"new": true
+},
 {
 "term": "apbc 중계",
 "traffic": "500+",
@@ -4552,24 +4570,6 @@
 "title": "JYP posts surprise earnings led by Stray Kids; rookie success is the next challenge",
 "source": "파이낸셜뉴스",
 "link": "https://en.fnnews.com/news/202611120722287101"
-}
-],
-"new": true
-},
-{
-"term": "신유빈",
-"traffic": "1000+",
-"time": "2026-11-12T01:30:00+00:00",
-"news": [
-{
-"title": "신유빈, 일본에 공포였구나…'日 에이스' 하리모토 미와 \"제일 힘들어\"→\"다시 만나고 싶지 않다\" 깜짝 고백",
-"source": "엑스포츠뉴스",
-"link": "https://www.xportsnews.com/article/2218481"
-},
-{
-"title": "아이찡보다 18년 먼저 온 ‘탁구판 비밀병기’ 톈민웨이",
-"source": "세계일보",
-"link": "https://www.segye.com/newsView/20261109515368"
 }
 ],
 "new": true
