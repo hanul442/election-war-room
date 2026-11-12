@@ -1,7 +1,42 @@
 {
-"updated": "2026-11-12T16:26:48.650227+00:00",
+"updated": "2026-11-12T16:29:10.026231+00:00",
 "errors": [],
 "events": [
+{
+"id": "jTU1GaEpLUEtrcW83OEY4oc51624",
+"first": "2026-11-12T16:24:53+00:00",
+"last": "2026-11-12T16:24:53+00:00",
+"updated": "2026-11-12T16:29:10.026231+00:00",
+"headline": "통합위, 오는 15일 MBN 서울마라톤서 「대한민국 국민통합 런」 개최",
+"cat": "기타",
+"regions": [
+"서울"
+],
+"sources": [
+"한국사회복지저널"
+],
+"updates": [
+{
+"title": "[속보] 통합위, 오는 15일 MBN 서울마라톤서 「대한민국 국민통합 런」 개최",
+"source": "한국사회복지저널",
+"link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5GcGlnYXMxd3hwTEYtdmEycG1QaHQzVXBFNDlHQ3ZLUEpUS2ljUVlXN1RVNUlLTVI0WExIbkh2MWpmN0hUcWZXQVdNMFNkSUI4NXQzVE1ieGFtRlVjTU1GaEpLUEtrcW83OEY4?oc=5",
+"time": "2026-11-12T16:24:53+00:00",
+"stage": "얼럿"
+}
+],
+"level": "URGENT",
+"latest": "통합위, 오는 15일 MBN 서울마라톤서 「대한민국 국민통합 런」 개최",
+"tok": [
+"15일",
+"MBN",
+"개최",
+"국민통합",
+"대한민국",
+"서울마라톤서",
+"오는",
+"통합위"
+]
+},
 {
 "id": "keHFBcjhlckJ4cU04SVhjoc51622",
 "first": "2026-11-12T16:22:46+00:00",
@@ -4184,62 +4219,6 @@
 "작업자",
 "화상"
 ]
-},
-{
-"id": "ZGKYLDG4ZGIMZZGI3GCOBSG41023",
-"first": "2026-11-12T10:23:00+00:00",
-"last": "2026-11-12T10:29:00+00:00",
-"updated": "2026-11-12T10:37:43.328840+00:00",
-"headline": "[사진]더보이즈 영훈, 폭설 기대할게요",
-"cat": "재난",
-"regions": [],
-"sources": [
-"조선일보"
-],
-"updates": [
-{
-"title": "[사진]더보이즈 영훈, 폭설 기대할게요",
-"source": "조선일보",
-"link": "https://www.chosun.com/entertainments/entertain_photo/2026/11/12/GMZGKYLDG4ZGIMZZGI3GCOBSG4/",
-"time": "2026-11-12T10:23:00+00:00",
-"stage": "1보"
-},
-{
-"title": "[사진]더보이즈 영훈, 롱코트로 럭셔리하게",
-"source": "조선일보",
-"link": "https://www.chosun.com/entertainments/entertain_photo/2026/11/12/MY4DKZRTGYYTMMDFGQ2WCMJSG4/",
-"time": "2026-11-12T10:23:00+00:00",
-"stage": "후속"
-},
-{
-"title": "[사진]더보이즈 영훈, 폭설 엄지척",
-"source": "조선일보",
-"link": "https://www.chosun.com/entertainments/entertain_photo/2026/11/12/MFSTOOLFGY3GGMZQMI4GGZJZGY/",
-"time": "2026-11-12T10:23:00+00:00",
-"stage": "후속"
-},
-{
-"title": "[사진]영화 '폭설' 주역들",
-"source": "조선일보",
-"link": "https://www.chosun.com/entertainments/entertain_photo/2026/11/12/MY2DOZBWMRSGKZJWGEZDOZLDGQ/",
-"time": "2026-11-12T10:29:00+00:00",
-"stage": "후속"
-}
-],
-"level": "ALERT",
-"latest": "[사진]영화 '폭설' 주역들",
-"tok": [
-"기대할게요",
-"더보이즈",
-"럭셔리하게",
-"롱코트",
-"사진",
-"엄지척",
-"영화",
-"영훈",
-"주역들",
-"폭설"
-]
 }
 ],
 "sns": {
@@ -4265,12 +4244,12 @@
 "spike": false
 },
 "폭발": {
-"n30": 5,
-"base": 0.5,
-"spike": true
+"n30": 3,
+"base": 0.4,
+"spike": false
 },
 "붕괴": {
-"n30": 2,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
@@ -4281,7 +4260,7 @@
 },
 "미사일": {
 "n30": 1,
-"base": 0.3,
+"base": 0.4,
 "spike": false
 },
 "속보": {
@@ -4291,12 +4270,12 @@
 },
 "지하철": {
 "n30": 0,
-"base": 0.4,
+"base": 0.3,
 "spike": false
 },
 "사고": {
 "n30": 3,
-"base": 4.4,
+"base": 4.3,
 "spike": false
 },
 "실종": {
@@ -4567,18 +4546,11 @@
 ],
 "spikes": [
 {
-"term": "폭발",
-"n30": 5,
-"base": 0.5,
-"spike": true,
-"since": "2026-11-12T16:26:48.650227+00:00"
-},
-{
 "term": "속보",
 "n30": 7,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-12T16:26:48.650227+00:00"
+"since": "2026-11-12T16:29:10.026231+00:00"
 }
 ],
 "baseline": {
@@ -4586,13 +4558,13 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.44,
+"폭발": 0.4,
 "붕괴": 0.05,
 "대피": 0.05,
-"미사일": 0.39,
+"미사일": 0.45,
 "속보": 0.05,
-"지하철": 0.33,
-"사고": 4.28,
+"지하철": 0.3,
+"사고": 4.15,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
