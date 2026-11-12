@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-12T10:59:40.695189+00:00",
+"updated": "2026-11-12T11:01:54.516516+00:00",
 "errors": [],
 "events": [
 {
@@ -42,7 +42,7 @@
 "id": "lVEYnFWVi1iZXh3bnptdwoc50202",
 "first": "2026-11-12T02:02:46+00:00",
 "last": "2026-11-12T10:48:34+00:00",
-"updated": "2026-11-12T10:50:53.258883+00:00",
+"updated": "2026-11-12T11:01:54.516516+00:00",
 "headline": "경부고속도로 사고처리중",
 "cat": "교통",
 "regions": [
@@ -273,6 +273,13 @@
 "title": "[속보] 통영대전고속도로 승용차관련 사고 처리중",
 "source": "스페셜타임스",
 "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE04UXJtbjltdGFNQl9Od0FtOVFLd1MzVmJHSDRYb0N3OHpnQzFXMlVDVUxmWlF0UE1sMzFFTklXMHRUZEZ0ZW5adlRiVjJYcmM1aEVYZHpnWDRqZEl2QVNGZGxxX1UyOEw5N0JvWXYxUERIQQ?oc=5",
+"time": "2026-11-12T10:48:34+00:00",
+"stage": "속보"
+},
+{
+"title": "[속보] 통영대전고속도로 승용차관련 사고 처리중",
+"source": "스페셜타임스",
+"link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1OczNrTUluWTJfMmJSWXFQMkRWN2t6d3A3VEtNeFI0MVdEUDJTanJ0RU1EZzZJTk5NOEkxTzRaNzdDUTNSYTFsdUx3cVJKV01Ddkhmc3FRaGFOYWdrbGRzWG9mbmNCenJfczZHc3E3QmQzREU?oc=5",
 "time": "2026-11-12T10:48:34+00:00",
 "stage": "속보"
 }
@@ -4528,7 +4535,7 @@
 "spike": false
 },
 "폭발": {
-"n30": 3,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
@@ -4548,9 +4555,9 @@
 "spike": false
 },
 "속보": {
-"n30": 5,
+"n30": 2,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "지하철": {
 "n30": 1,
@@ -4559,7 +4566,7 @@
 },
 "사고": {
 "n30": 3,
-"base": 2.5,
+"base": 2.6,
 "spike": false
 },
 "실종": {
@@ -4775,27 +4782,19 @@
 "url": "https://www.youtube.com/watch?v=3Qk5c2XXqCs"
 }
 ],
-"spikes": [
-{
-"term": "속보",
-"n30": 5,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-12T10:59:40.695189+00:00"
-}
-],
+"spikes": [],
 "baseline": {
 "지진": 0.05,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
 "폭발": 0.05,
-"붕괴": 0.74,
+"붕괴": 0.77,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.1,
-"지하철": 0.52,
-"사고": 2.59,
+"속보": 0.09,
+"지하철": 0.57,
+"사고": 2.63,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
