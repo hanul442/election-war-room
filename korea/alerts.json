@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-12T17:28:35.705806+00:00",
+"updated": "2026-11-12T17:30:52.583361+00:00",
 "errors": [],
 "events": [
 {
@@ -3650,42 +3650,6 @@
 "함양울산고속도",
 "호남지고속도"
 ]
-},
-{
-"id": "VBnQURDa0UxMTc5dC0yUQoc51130",
-"first": "2026-11-12T11:30:00+00:00",
-"last": "2026-11-12T11:30:00+00:00",
-"updated": "2026-11-12T11:36:02.832551+00:00",
-"headline": "11월 12일 축구 속보: 해리 케인, 잉글랜드 대표팀 기록 경신 기회에 직면",
-"cat": "기타",
-"regions": [],
-"sources": [
-"Laodong.vn"
-],
-"updates": [
-{
-"title": "11월 12일 축구 속보: 해리 케인, 잉글랜드 대표팀 기록 경신 기회에 직면",
-"source": "Laodong.vn",
-"link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPdWlHYmJrTlZEOS1sb1VxckR5ZmxYZW5XVlhKZWpCTUs3cGo1S2NDVzlaOW14T3FVdlJCa05XVDA4bk5sRUZORkVrS1lsOEo1aWEtWVFDS2VNSWRPd1J0MENQazhRSlFjam9pdGJINmpJeDBxa2lHYTJZTHlNVUZSZkM5V0ttVWxlTW44OFcweGxwTkhJNHJEQnA3Z01oU0VYNjFoempMemE5NWQteHA0Sk0xcVBnQURDa0UxMTc5dC0yUQ?oc=5",
-"time": "2026-11-12T11:30:00+00:00",
-"stage": "1보"
-}
-],
-"level": "ALERT",
-"latest": "11월 12일 축구 속보: 해리 케인, 잉글랜드 대표팀 기록 경신 기회에 직면",
-"tok": [
-"11월",
-"12일",
-"경신",
-"기록",
-"기회",
-"대표팀",
-"잉글랜드",
-"직면",
-"축구",
-"케인",
-"해리"
-]
 }
 ],
 "sns": {
@@ -3711,7 +3675,7 @@
 "spike": false
 },
 "폭발": {
-"n30": 10,
+"n30": 7,
 "base": 0.9,
 "spike": true
 },
@@ -3731,7 +3695,7 @@
 "spike": false
 },
 "속보": {
-"n30": 7,
+"n30": 5,
 "base": 0.1,
 "spike": true
 },
@@ -3742,7 +3706,7 @@
 },
 "사고": {
 "n30": 0,
-"base": 0.5,
+"base": 0.4,
 "spike": false
 },
 "실종": {
@@ -3948,17 +3912,17 @@
 "spikes": [
 {
 "term": "폭발",
-"n30": 10,
+"n30": 7,
 "base": 0.9,
 "spike": true,
-"since": "2026-11-12T17:28:35.705806+00:00"
+"since": "2026-11-12T17:30:52.583361+00:00"
 },
 {
 "term": "속보",
-"n30": 7,
+"n30": 5,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-12T17:28:35.705806+00:00"
+"since": "2026-11-12T17:30:52.583361+00:00"
 }
 ],
 "baseline": {
@@ -3966,13 +3930,13 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.94,
+"폭발": 0.95,
 "붕괴": 0.05,
 "대피": 0.05,
-"미사일": 0.12,
+"미사일": 0.11,
 "속보": 0.05,
 "지하철": 0.05,
-"사고": 0.41,
+"사고": 0.37,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
