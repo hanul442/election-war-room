@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-12T05:08:23.552573+00:00",
+"updated": "2026-11-12T05:10:39.042581+00:00",
 "errors": [],
 "events": [
 {
@@ -131,14 +131,17 @@
 {
 "id": "hS3dkazhZYjhCVUNSQjJBoc50500",
 "first": "2026-11-12T05:00:00+00:00",
-"last": "2026-11-12T05:00:00+00:00",
-"updated": "2026-11-12T05:08:23.552573+00:00",
+"last": "2026-11-12T05:00:03+00:00",
+"updated": "2026-11-12T05:10:39.042581+00:00",
 "headline": "강남3구 이어 성동·강동 내렸지만…서울 집값 92주 연속 상승 [부동산360]",
 "cat": "경제",
 "regions": [
 "서울"
 ],
 "sources": [
+"뉴시스",
+"연합뉴스",
+"조선일보",
 "헤럴드경제"
 ],
 "updates": [
@@ -148,22 +151,52 @@
 "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE03aHUxcV9mYU9HTEVMbDJtYy1EcHA0R1lDTG51YXFiRkJXejdZcUNVNU5XWlgxd25aZm81WnQyRDN6OGZWRU9hS3dkazhZYjhCVUNSQjJB?oc=5",
 "time": "2026-11-12T05:00:00+00:00",
 "stage": "얼럿"
+},
+{
+"title": "강남3구 이어 '성동·강동구'도 하락 전환…서울 집값은 92주째 상승",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261112_0003865338",
+"time": "2026-11-12T05:00:00+00:00",
+"stage": "후속"
+},
+{
+"title": "서울 아파트값 92주째 올랐지만… 강남3구 이어 성동·강동도 하락 전환",
+"source": "조선일보",
+"link": "https://www.chosun.com/economy/real_estate/2026/11/12/WCICIXUXCNGJPNCPGBSQPLXRSA/",
+"time": "2026-11-12T05:00:00+00:00",
+"stage": "후속"
+},
+{
+"title": "강남발 아파트값 약세 한강벨트까지…성동·강동 하락 전환",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261112090000003",
+"time": "2026-11-12T05:00:03+00:00",
+"stage": "후속"
 }
 ],
 "level": "URGENT",
-"latest": "강남3구 이어 성동·강동 내렸지만…서울 집값 92주 연속 상승 [부동산360]",
+"latest": "강남발 아파트값 약세 한강벨트까지…성동·강동 하락 전환",
 "tok": [
 "92주",
+"92주째",
 "강남3구",
+"강남발",
 "강동",
+"강동구",
 "내렸지",
 "부동산360",
 "상승",
 "서울",
 "성동",
+"아파트값",
+"약세",
 "연속",
+"올랐지",
 "이어",
-"집값"
+"전환",
+"집값",
+"하락",
+"한강벨트까지"
 ]
 },
 {
@@ -3868,7 +3901,7 @@
 "spike": false
 },
 "화재": {
-"n30": 2,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
@@ -3888,7 +3921,7 @@
 "spike": false
 },
 "붕괴": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -3909,12 +3942,12 @@
 },
 "지하철": {
 "n30": 0,
-"base": 1.4,
+"base": 1.2,
 "spike": false
 },
 "사고": {
 "n30": 3,
-"base": 1.9,
+"base": 2.0,
 "spike": false
 },
 "실종": {
@@ -4195,19 +4228,19 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 0.81,
+"지진": 0.83,
 "화재": 0.05,
 "불났": 0.05,
-"정전": 0.16,
+"정전": 0.14,
 "폭발": 0.05,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 1.23,
-"사고": 2.0,
+"지하철": 1.11,
+"사고": 2.1,
 "실종": 0.05,
-"단수": 0.83,
+"단수": 0.85,
 "통신 장애": 0.05,
 "먹통": 0.05,
 "산불": 0.05
@@ -4445,9 +4478,9 @@
 "link": "https://www.yna.co.kr/view/RPR20261112004100353"
 },
 {
-"title": "인천광역시, 일상 속 자원순환 확산 강화",
-"source": "메트로신문",
-"link": "https://www.metroseoul.co.kr/article/20261110500440"
+"title": "[패트롤] 목포시-함평군-담양군",
+"source": "에너지경제신문",
+"link": "https://m.ekn.kr/view.php?key=20261110028597696"
 }
 ],
 "new": false
@@ -4458,14 +4491,14 @@
 "time": "2026-11-12T03:30:00+00:00",
 "news": [
 {
-"title": "[fn광장] 생각 좀 하며 세상을 보자",
-"source": "파이낸셜뉴스",
-"link": "https://www.fnnews.com/news/202611111824059783"
-},
-{
 "title": "반도체 호황에 들뜬 삼성에 내린 이건희의 죽비",
 "source": "신동아",
 "link": "https://shindonga.donga.com/economy/article/all/13/6452368/1"
+},
+{
+"title": "[fn광장] 생각 좀 하며 세상을 보자",
+"source": "파이낸셜뉴스",
+"link": "https://www.fnnews.com/news/202611111824059783"
 }
 ],
 "new": true
@@ -4578,9 +4611,9 @@
 "link": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8710671"
 },
 {
-"title": "[사진]개회식에 나가는 김도영",
-"source": "조선일보",
-"link": "https://www.chosun.com/sports/sports_photo/2026/11/12/MY3GMZJXG44WIMDGMNQTOMTEMI/"
+"title": "[사진]마운드에 모여있는 팀 코리아",
+"source": "Chosunbiz",
+"link": "https://biz.chosun.com/sports/sports_photo/2026/11/12/HAYTAM3GMY3TOOBUGQ4DAZLBMY/"
 }
 ],
 "new": true
