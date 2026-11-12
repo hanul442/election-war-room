@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-12T16:19:56.206657+00:00",
+"updated": "2026-11-12T16:22:14.415352+00:00",
 "errors": [],
 "events": [
 {
@@ -4222,8 +4222,8 @@
 "spike": false
 },
 "폭발": {
-"n30": 6,
-"base": 0.7,
+"n30": 5,
+"base": 0.6,
 "spike": true
 },
 "붕괴": {
@@ -4247,13 +4247,18 @@
 "spike": true
 },
 "지하철": {
-"n30": 1,
+"n30": 0,
 "base": 0.5,
 "spike": false
 },
 "사고": {
 "n30": 3,
-"base": 4.9,
+"base": 4.8,
+"spike": false
+},
+"실종": {
+"n30": 0,
+"base": 0.1,
 "spike": false
 },
 "단수": {
@@ -4520,17 +4525,17 @@
 "spikes": [
 {
 "term": "폭발",
-"n30": 6,
-"base": 0.7,
+"n30": 5,
+"base": 0.6,
 "spike": true,
-"since": "2026-11-12T16:19:56.206657+00:00"
+"since": "2026-11-12T16:22:14.415352+00:00"
 },
 {
 "term": "속보",
 "n30": 9,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-12T16:19:56.206657+00:00"
+"since": "2026-11-12T16:22:14.415352+00:00"
 }
 ],
 "baseline": {
@@ -4538,22 +4543,20 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.6,
+"폭발": 0.54,
 "붕괴": 0.05,
 "대피": 0.05,
-"미사일": 0.15,
+"미사일": 0.24,
 "속보": 0.05,
-"지하철": 0.45,
-"사고": 4.75,
+"지하철": 0.41,
+"사고": 4.58,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
 "산불": 0.05
 },
-"errors": [
-"실종: HTTPError"
-],
+"errors": [],
 "ytPosts": [
 {
 "platform": "YouTube",
@@ -4804,9 +4807,9 @@
 "link": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition"
 },
 {
-"title": "NVIDIA Unlikely to Suffer Long-Term Damage Despite CEO Resignation",
-"source": "조선일보",
-"link": "https://www.chosun.com/english/market-money-en/2026/11/13/Q7FCCM6UWFCAZIFWWLZ64A3ZMQ/"
+"title": "Jensen Huang Said to Have Had Relationship With Nvidia Executive Who Reports to Him",
+"source": "The New York Times",
+"link": "https://www.nytimes.com/2026/11/11/technology/jensen-huang-nvidia-affair.html"
 }
 ],
 "new": true
