@@ -1,7 +1,41 @@
 {
-"updated": "2026-11-12T06:08:57.785966+00:00",
+"updated": "2026-11-12T06:11:11.643324+00:00",
 "errors": [],
 "events": [
+{
+"id": "TRtbWpRQXk0bU01WDhWUQoc50607",
+"first": "2026-11-12T06:07:58+00:00",
+"last": "2026-11-12T06:07:58+00:00",
+"updated": "2026-11-12T06:11:11.643324+00:00",
+"headline": "李대통령 \"기업가치 제고, 주주환원 확대 위한 개혁 추진해야\"",
+"cat": "정치",
+"regions": [],
+"sources": [
+"머니투데이"
+],
+"updates": [
+{
+"title": "[속보]李대통령 \"기업가치 제고, 주주환원 확대 위한 개혁 추진해야\" - 머니투데이",
+"source": "머니투데이",
+"link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE8xQlhZVjNGYzBSZkhxUGQxenhjSXBpdjhkM3ZtNlZ6b1FRekdZQUNHX1lLaGNHNlhKakg3WWs3Z25WNkRlZlBrc1I2WEJRRVQxMm1yLTVDSEVPdFhBRF9GMUtBLVBnQnpqUjhsYtIBckFVX3lxTE16bUJFRS1RYkcwV05TblJGTk54STlqaWd3OHVsUXVoLVlNckNkLXdMWThtZlJXbmNjc0Q4eFZYNE13QWhiOFNxZVBUZE9TWFRFT1h2OGFfNWhiZnlFZkZnWFhaRTRtbWpRQXk0bU01WDhWUQ?oc=5",
+"time": "2026-11-12T06:07:58+00:00",
+"stage": "얼럿"
+}
+],
+"level": "URGENT",
+"latest": "李대통령 \"기업가치 제고, 주주환원 확대 위한 개혁 추진해야\"",
+"tok": [
+"李대통령",
+"개혁",
+"기업가치",
+"머니투데",
+"위한",
+"제고",
+"주주환원",
+"추진해야",
+"확대"
+]
+},
 {
 "id": "wNISX20261112_00038656800551",
 "first": "2026-11-12T05:51:12+00:00",
@@ -4032,44 +4066,13 @@
 "전국",
 "토막"
 ]
-},
-{
-"id": "2RPVHpkWloyMkx2bEM1UQoc50247",
-"first": "2026-11-12T02:47:49+00:00",
-"last": "2026-11-12T02:47:49+00:00",
-"updated": "2026-11-12T02:53:04.440516+00:00",
-"headline": "청주영덕고속도로 대형화물차관련 사고처리중",
-"cat": "교통",
-"regions": [
-"충북",
-"경북"
-],
-"sources": [
-"스페셜타임스"
-],
-"updates": [
-{
-"title": "[속보] 청주영덕고속도로 대형화물차관련 사고처리중",
-"source": "스페셜타임스",
-"link": "https://news.google.com/rss/articles/CBMickFVX3lxTE90ekdRUlFSSmN3LUUwcVV1TzZpdGpoOXhWSE80VlVScG9BWHU5YjZlZWZMMDRYLXdHUGVKMmJzR1h3TlVWMzNpWUx5TDFHMWVGUTFmdlNPeVF6MFJhMTRac1R5d2RPVHpkWloyMkx2bEM1UQ?oc=5",
-"time": "2026-11-12T02:47:49+00:00",
-"stage": "얼럿"
-}
-],
-"level": "URGENT",
-"latest": "청주영덕고속도로 대형화물차관련 사고처리중",
-"tok": [
-"대형화물차관련",
-"사고처리중",
-"청주영덕고속도"
-]
 }
 ],
 "sns": {
 "terms": {
 "지진": {
-"n30": 1,
-"base": 0.9,
+"n30": 0,
+"base": 0.8,
 "spike": false
 },
 "화재": {
@@ -4094,7 +4097,7 @@
 },
 "붕괴": {
 "n30": 3,
-"base": 1.2,
+"base": 1.4,
 "spike": false
 },
 "대피": {
@@ -4108,7 +4111,7 @@
 "spike": false
 },
 "속보": {
-"n30": 8,
+"n30": 7,
 "base": 0.1,
 "spike": true
 },
@@ -4118,8 +4121,8 @@
 "spike": false
 },
 "사고": {
-"n30": 5,
-"base": 4.2,
+"n30": 4,
+"base": 4.3,
 "spike": false
 },
 "실종": {
@@ -4129,7 +4132,7 @@
 },
 "단수": {
 "n30": 1,
-"base": 0.6,
+"base": 0.7,
 "spike": false
 },
 "통신 장애": {
@@ -4414,26 +4417,26 @@
 "spikes": [
 {
 "term": "속보",
-"n30": 8,
+"n30": 7,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-12T06:08:57.785966+00:00"
+"since": "2026-11-12T06:11:11.643324+00:00"
 }
 ],
 "baseline": {
-"지진": 0.82,
+"지진": 0.74,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
 "폭발": 0.05,
-"붕괴": 1.39,
+"붕괴": 1.55,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.72,
-"사고": 4.31,
+"지하철": 0.75,
+"사고": 4.28,
 "실종": 0.05,
-"단수": 0.68,
+"단수": 0.71,
 "통신 장애": 0.05,
 "먹통": 0.05,
 "산불": 0.05
