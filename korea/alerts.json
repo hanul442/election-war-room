@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-13T08:54:37.549124+00:00",
+"updated": "2026-11-13T08:56:49.001414+00:00",
 "errors": [],
 "events": [
 {
@@ -79,7 +79,7 @@
 "id": "N5OHZkdnQ0UFRJbzVEbEwoc50502",
 "first": "2026-11-13T05:02:49+00:00",
 "last": "2026-11-13T08:50:53+00:00",
-"updated": "2026-11-13T08:52:27.497325+00:00",
+"updated": "2026-11-13T08:56:49.001414+00:00",
 "headline": "박수홍, 친형 부부 상대 98억 손배소 1심 패소",
 "cat": "기타",
 "regions": [],
@@ -246,6 +246,13 @@
 "stage": "속보"
 },
 {
+"title": "[속보] 법원, 민희진 빌리프랩 상대 50억 손해배상 반소도 기각",
+"source": "뉴스1",
+"link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE8tTmFLQ2FIUVZpNUhSVzFiV3ZJLWppMUxCWVRBWi16eUd0MDJLMTdsMkF0QU5scXJMemZFZ2cwTWN5UmtVNVRiV0xscDRQa0w4d3dFSWN0eXBsS2U5YkNzSmFUbVE?oc=5",
+"time": "2026-11-13T08:38:25+00:00",
+"stage": "속보"
+},
+{
 "title": "[속보] 빌리프랩·쏘스뮤직, 민희진 '25억' 손배소 1심서 패소",
 "source": "스타뉴스",
 "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9tNzZPclk3b1IzSlBwR0xnSGYwc3FyUk9kZ0pFVFE4WUxMSFVSMlpYWUNqVmFzcE5XREEzdkRDSHBGUlk5OV9EWjFEMGtzSkpXVlR1NjFPeG01WDFXMXpGZHhQMDRWa2QtQUJ3cjdHZFRMY0U?oc=5",
@@ -273,6 +280,7 @@
 "1심",
 "1심서",
 "25억",
+"50억",
 "5년",
 "98억",
 "98억대",
@@ -287,6 +295,7 @@
 "박수홍",
 "반소",
 "받았는데",
+"법원",
 "부담",
 "부부",
 "비용",
@@ -307,9 +316,7 @@
 "인정",
 "자막뉴스",
 "책임",
-"친형",
-"판결",
-"패소"
+"친형"
 ]
 },
 {
@@ -4281,12 +4288,12 @@
 },
 "폭발": {
 "n30": 7,
-"base": 0.6,
+"base": 0.7,
 "spike": true
 },
 "붕괴": {
 "n30": 2,
-"base": 2.1,
+"base": 2.0,
 "spike": false
 },
 "대피": {
@@ -4311,7 +4318,7 @@
 },
 "사고": {
 "n30": 2,
-"base": 4.2,
+"base": 4.0,
 "spike": false
 },
 "실종": {
@@ -4331,7 +4338,7 @@
 },
 "먹통": {
 "n30": 0,
-"base": 0.3,
+"base": 0.2,
 "spike": false
 },
 "산불": {
@@ -4586,34 +4593,34 @@
 {
 "term": "폭발",
 "n30": 7,
-"base": 0.6,
+"base": 0.7,
 "spike": true,
-"since": "2026-11-13T08:54:37.549124+00:00"
+"since": "2026-11-13T08:56:49.001414+00:00"
 },
 {
 "term": "속보",
 "n30": 7,
 "base": 0.5,
 "spike": true,
-"since": "2026-11-13T08:54:37.549124+00:00"
+"since": "2026-11-13T08:56:49.001414+00:00"
 }
 ],
 "baseline": {
 "지진": 0.05,
 "화재": 0.05,
 "불났": 0.05,
-"정전": 0.22,
-"폭발": 0.68,
-"붕괴": 2.03,
+"정전": 0.2,
+"폭발": 0.71,
+"붕괴": 1.93,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.47,
-"지하철": 1.78,
-"사고": 4.01,
-"실종": 0.08,
+"속보": 0.42,
+"지하철": 1.8,
+"사고": 3.81,
+"실종": 0.07,
 "단수": 0.05,
 "통신 장애": 0.05,
-"먹통": 0.24,
+"먹통": 0.22,
 "산불": 0.05
 },
 "errors": [],
@@ -4952,14 +4959,14 @@
 "time": "2026-11-13T05:50:00+00:00",
 "news": [
 {
-"title": "‘AI 안경 의혹’ 세무사 수석 합격자, CCTV는 없었지만 감독관 바로 앞에서 시험",
-"source": "경향신문",
-"link": "https://www.khan.co.kr/article/202611131019001"
-},
-{
 "title": "63회 세무사시험 수석 한원석씨 “매일 새벽 2시30분 싸주신 김밥...어머니가 합격 시켰다”",
 "source": "Daily NTN",
 "link": "https://www.intn.co.kr/news/articleView.html?idxno=3000154"
+},
+{
+"title": "‘AI 안경’ 의혹 세무사 수석, 변호사 선임했다…“사실관계 확인 응할 것”",
+"source": "서울신문",
+"link": "https://www.seoul.co.kr/news/society/2026/11/13/20261113500283"
 }
 ],
 "new": true
@@ -4975,9 +4982,9 @@
 "link": "https://www.yna.co.kr/view/AKR20261113030351504"
 },
 {
-"title": "北, 정권 수립 78년 만에 인공기 비율 바꿨다",
-"source": "세계일보",
-"link": "https://www.segye.com/newsView/20261113506383"
+"title": "북한, 헌법 개정으로 국기 비율 변경",
+"source": "KBS 뉴스",
+"link": "https://news.kbs.co.kr/news/view.do?ncd=8712033"
 }
 ],
 "new": true
