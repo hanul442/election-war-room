@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-13T07:10:58.075737+00:00",
+"updated": "2026-11-13T07:13:10.057987+00:00",
 "errors": [],
 "events": [
 {
@@ -4391,7 +4391,7 @@
 "terms": {
 "지진": {
 "n30": 0,
-"base": 0.6,
+"base": 0.5,
 "spike": false
 },
 "화재": {
@@ -4411,12 +4411,12 @@
 },
 "폭발": {
 "n30": 2,
-"base": 0.4,
+"base": 0.5,
 "spike": false
 },
 "붕괴": {
 "n30": 1,
-"base": 0.5,
+"base": 0.6,
 "spike": false
 },
 "대피": {
@@ -4425,22 +4425,22 @@
 "spike": false
 },
 "미사일": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
 "속보": {
-"n30": 4,
+"n30": 3,
 "base": 0.1,
 "spike": false
 },
 "지하철": {
 "n30": 0,
-"base": 1.2,
+"base": 1.1,
 "spike": false
 },
 "사고": {
-"n30": 4,
+"n30": 3,
 "base": 4.1,
 "spike": false
 },
@@ -4565,16 +4565,6 @@
 "time": "2026-11-13T06:42:13Z",
 "term": "속보",
 "url": "https://www.youtube.com/watch?v=5d1GNmpyu4o"
-},
-{
-"text": "걸어다니고 이 다 나서도 품에 안겨서 메 손가락 물고빨고할 것같아여 사고뭉치 로디가 그나마 얌전한 시간...",
-"handle": "tf-tree.bsky.social",
-"name": "나무",
-"time": "2026-11-13T06:41:58.374Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/tf-tree.bsky.social/post/3n26ewsbxv223",
-"term": "사고"
 },
 {
 "platform": "YouTube",
@@ -4714,21 +4704,21 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 0.5,
+"지진": 0.45,
 "화재": 0.05,
 "불났": 0.05,
-"정전": 0.21,
-"폭발": 0.46,
-"붕괴": 0.57,
+"정전": 0.19,
+"폭발": 0.51,
+"붕괴": 0.61,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 1.05,
-"사고": 4.1,
+"지하철": 0.95,
+"사고": 3.99,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
-"먹통": 0.18,
+"먹통": 0.16,
 "산불": 0.05
 },
 "errors": [],
@@ -4918,6 +4908,24 @@
 },
 "trends": [
 {
+"term": "광교 신도시",
+"traffic": "500+",
+"time": "2026-11-13T06:10:00+00:00",
+"news": [
+{
+"title": "\"집값 25%만 내고 입주\"…광교 지분적립형에 2만 명 몰려",
+"source": "한국경제",
+"link": "https://www.hankyung.com/article/202611123258i"
+},
+{
+"title": "광교 웃고 평택 울고…경기도 청약시장 양극화",
+"source": "인천일보",
+"link": "https://www.incheonilbo.com/news/articleView.html?idxno=1336726"
+}
+],
+"new": true
+},
+{
 "term": "구본현",
 "traffic": "200+",
 "time": "2026-11-13T05:50:00+00:00",
@@ -5072,30 +5080,12 @@
 "link": "https://www.electimes.com/news/articleView.html?idxno=374724"
 },
 {
-"title": "구글맵, 한국 서비스 강화된다···네이버·카카오 등 ‘긴장’",
-"source": "경향신문",
-"link": "https://www.khan.co.kr/article/202611131444011"
+"title": "구글, 국내 지도 데이터 가공 협력사로 티맵 선정",
+"source": "Chosunbiz",
+"link": "https://biz.chosun.com/it-science/ict/2026/11/13/TYPNW5XMMVGXVJOGPIJ6PMNPJI/"
 }
 ],
 "new": false
-},
-{
-"term": "고용노동부",
-"traffic": "100+",
-"time": "2026-11-13T05:00:00+00:00",
-"news": [
-{
-"title": "경비원·간병인도 개인사업자로…고령층 위장고용 확산 우려",
-"source": "경향신문",
-"link": "https://www.khan.co.kr/article/202611081637001"
-},
-{
-"title": "노동부, '가짜 사업소득 계약'·'사업장 쪼개기' 기획 감독",
-"source": "MBC 뉴스",
-"link": "https://imnews.imbc.com/news/2026/society/article/6865406_36918.html"
-}
-],
-"new": true
 }
 ],
 "trendSeen": [
