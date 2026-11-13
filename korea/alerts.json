@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-13T16:11:33.804255+00:00",
+"updated": "2026-11-13T16:13:46.697995+00:00",
 "errors": [],
 "events": [
 {
@@ -3307,34 +3307,6 @@
 "싸운",
 "쏘스뮤직"
 ]
-},
-{
-"id": "1QkY1dlc5Vm5MRWZxdmRnoc51012",
-"first": "2026-11-13T10:12:21+00:00",
-"last": "2026-11-13T10:12:21+00:00",
-"updated": "2026-11-13T10:19:16.918870+00:00",
-"headline": "[잡담] 속보) 제우스 리턴",
-"cat": "기타",
-"regions": [],
-"sources": [
-"인벤"
-],
-"updates": [
-{
-"title": "[잡담] 속보) 제우스 리턴",
-"source": "인벤",
-"link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE8wamZwWTFOQXExdHFMZk15al9tUW9feEpRNzR5THBmY0xqc2xUdXdzS0tMT0FJRUF2a0ZROE9kdllTVTZ4VTFnVkRPdmRhUjF1QkY1dlc5Vm5MRWZxdmRn?oc=5",
-"time": "2026-11-13T10:12:21+00:00",
-"stage": "1보"
-}
-],
-"level": "ALERT",
-"latest": "[잡담] 속보) 제우스 리턴",
-"tok": [
-"리턴",
-"잡담",
-"제우스"
-]
 }
 ],
 "sns": {
@@ -3361,17 +3333,17 @@
 },
 "폭발": {
 "n30": 8,
-"base": 0.8,
+"base": 0.7,
 "spike": true
 },
 "붕괴": {
-"n30": 4,
+"n30": 3,
 "base": 1.0,
 "spike": false
 },
 "대피": {
 "n30": 1,
-"base": 0.5,
+"base": 0.6,
 "spike": false
 },
 "미사일": {
@@ -3386,12 +3358,12 @@
 },
 "지하철": {
 "n30": 3,
-"base": 0.9,
+"base": 0.8,
 "spike": false
 },
 "사고": {
-"n30": 3,
-"base": 3.5,
+"n30": 2,
+"base": 3.4,
 "spike": false
 },
 "실종": {
@@ -3677,60 +3649,40 @@
 "reposts": 0,
 "url": "https://bsky.app/profile/boouukk.bsky.social/post/3n27devyac22z",
 "term": "사고"
-},
-{
-"text": "결국이들이 선택한건 야외플레이\n캐릭터붕괴있어요\n#일신의시즈유리덕질",
-"handle": "irushin.bsky.social",
-"name": "ilshin",
-"time": "2026-11-13T15:43:00.283Z",
-"likes": 1,
-"reposts": 1,
-"url": "https://bsky.app/profile/irushin.bsky.social/post/3n27d5xxiq22s",
-"term": "붕괴"
-},
-{
-"text": "아니근데 성싐당 키리쉬 진심. 작은거 먹어봤는데 아...이거 너무 존맛인데?!?!? 해서 큰거 샀고요...ㅋ 원랜 시루 하나 사고 싶었는데 생귤시루 먹어봤고 사과요거트나 홍시 큰거는 그닥 안 끌려서...과일시루막내는 일행이 별로라 해서 안삼 ㅠㅅㅠ 생귤롤 사고 싶었는데 다 팔려서 생귤와락으로 대신함 순수롤이랑 홍시롤이랑 고민하다가 홍시롤 해봄 신상의 맛",
-"handle": "simyes22.bsky.social",
-"name": "트윅스🐻",
-"time": "2026-11-13T15:41:50.875Z",
-"likes": 3,
-"reposts": 0,
-"url": "https://bsky.app/profile/simyes22.bsky.social/post/3n27d45wgx22m",
-"term": "사고"
 }
 ],
 "spikes": [
 {
 "term": "폭발",
 "n30": 8,
-"base": 0.8,
+"base": 0.7,
 "spike": true,
-"since": "2026-11-13T16:11:33.804255+00:00"
+"since": "2026-11-13T16:13:46.697995+00:00"
 },
 {
 "term": "속보",
 "n30": 7,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-13T16:11:33.804255+00:00"
+"since": "2026-11-13T16:13:46.697995+00:00"
 }
 ],
 "baseline": {
-"지진": 1.21,
+"지진": 1.19,
 "화재": 0.05,
 "불났": 0.05,
-"정전": 0.27,
-"폭발": 0.69,
-"붕괴": 1.03,
-"대피": 0.56,
+"정전": 0.24,
+"폭발": 0.62,
+"붕괴": 0.93,
+"대피": 0.6,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.83,
-"사고": 3.44,
+"지하철": 0.75,
+"사고": 3.3,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
-"먹통": 0.6,
+"먹통": 0.64,
 "산불": 0.05
 },
 "errors": [],
