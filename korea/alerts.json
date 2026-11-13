@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-13T12:38:45.452377+00:00",
+"updated": "2026-11-13T12:41:03.879890+00:00",
 "errors": [],
 "events": [
 {
@@ -4277,13 +4277,13 @@
 "spike": false
 },
 "폭발": {
-"n30": 5,
+"n30": 3,
 "base": 0.7,
-"spike": true
+"spike": false
 },
 "붕괴": {
 "n30": 2,
-"base": 0.3,
+"base": 0.2,
 "spike": false
 },
 "대피": {
@@ -4293,22 +4293,22 @@
 },
 "미사일": {
 "n30": 1,
-"base": 0.8,
+"base": 0.7,
 "spike": false
 },
 "속보": {
-"n30": 9,
+"n30": 6,
 "base": 0.1,
 "spike": true
 },
 "지하철": {
-"n30": 2,
-"base": 0.7,
+"n30": 0,
+"base": 0.8,
 "spike": false
 },
 "사고": {
-"n30": 2,
-"base": 3.9,
+"n30": 1,
+"base": 3.7,
 "spike": false
 },
 "실종": {
@@ -4503,16 +4503,6 @@
 "url": "https://www.youtube.com/watch?v=5GflE0JWfcU"
 },
 {
-"text": "지하철에서 참기름소금 냄새난다 ......... 어디서 맛있는걸 드셧나요 .....",
-"handle": "28to1.bsky.social",
-"name": "토즈",
-"time": "2026-11-13T12:10:11.075Z",
-"likes": 1,
-"reposts": 0,
-"url": "https://bsky.app/profile/28to1.bsky.social/post/3n26xbowrms2t",
-"term": "지하철"
-},
-{
 "platform": "YouTube",
 "text": "[긴급 속보] 전국 휴대폰 배터리 '1%' 국가비상사태 선포 🔋 #shorts",
 "handle": "UCOHZUsT_AmDHq7otmuYJHdg",
@@ -4529,16 +4519,6 @@
 "time": "2026-11-13T12:10:04Z",
 "term": "속보",
 "url": "https://www.youtube.com/watch?v=M9a69KBh_IU"
-},
-{
-"text": "클리셰가 젤 무서운? ㅎ ㅋㅋㅎㅋㅋㅎㅎㅋ 시이펄 그동안 사고 한번 친적 없는데 ㅋㅋㅋㅋㅋㅋ이번 작업 때 존나 쳐서 개 혼남 근데 ㄱㅊ음 ... 사람이 실수할수도 있지 다음 작업때 만회해주마",
-"handle": "gisang.bsky.social",
-"name": "기상",
-"time": "2026-11-13T12:09:53.779Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/gisang.bsky.social/post/3n26xb5yrus2l",
-"term": "사고"
 },
 {
 "platform": "YouTube",
@@ -4570,32 +4550,25 @@
 ],
 "spikes": [
 {
-"term": "폭발",
-"n30": 5,
-"base": 0.7,
-"spike": true,
-"since": "2026-11-13T12:38:45.452377+00:00"
-},
-{
 "term": "속보",
-"n30": 9,
+"n30": 6,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-13T12:38:45.452377+00:00"
+"since": "2026-11-13T12:41:03.879890+00:00"
 }
 ],
 "baseline": {
 "지진": 0.05,
 "화재": 0.05,
-"불났": 0.12,
+"불났": 0.11,
 "정전": 0.05,
-"폭발": 0.74,
-"붕괴": 0.24,
+"폭발": 0.77,
+"붕괴": 0.22,
 "대피": 0.05,
-"미사일": 0.69,
+"미사일": 0.62,
 "속보": 0.05,
-"지하철": 0.77,
-"사고": 3.7,
+"지하철": 0.69,
+"사고": 3.43,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -4923,9 +4896,9 @@
 "link": "https://www.chosun.com/sports/sports_photo/2026/11/13/MRRDQNLEGE2DMNZYHA2TOMJWMQ/"
 },
 {
-"title": "김진욱, APBC 일본전 5이닝 4K 2실점…돋보인 위기관리 능력",
-"source": "동아일보",
-"link": "https://www.donga.com/news/Sports/article/all/20261113/135022989/1"
+"title": "日 11승 좌완 신인, 김도영·안현민 삼진 잡고 한동희 홈런 허용…하지만 KKKKKK 위력투",
+"source": "조선일보",
+"link": "https://www.chosun.com/sports/baseball/2026/11/13/GUYGENTBGZQTGNBXGM2TCOLEGY/"
 }
 ],
 "new": true
