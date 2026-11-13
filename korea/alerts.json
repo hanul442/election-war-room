@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-13T04:41:22.921483+00:00",
+"updated": "2026-11-13T04:43:35.049304+00:00",
 "errors": [],
 "events": [
 {
@@ -205,7 +205,7 @@
 "id": "mV1VC04c1c0d0JHc3phbwoc50400",
 "first": "2026-11-13T04:00:00+00:00",
 "last": "2026-11-13T04:30:27+00:00",
-"updated": "2026-11-13T04:32:35.987535+00:00",
+"updated": "2026-11-13T04:43:35.049304+00:00",
 "headline": "경찰, '반포 원펜타스 부정청약' 이혜훈 前장관 후보자 송치",
 "cat": "정치",
 "regions": [],
@@ -214,7 +214,8 @@
 "노컷뉴스",
 "뉴시스",
 "매일신문",
-"연합뉴스"
+"연합뉴스",
+"조선일보"
 ],
 "updates": [
 {
@@ -228,6 +229,13 @@
 "title": "경찰, 이혜훈 부정청약 의혹 송치…반포 원펜타스 몰수 신청",
 "source": "연합뉴스",
 "link": "https://www.yna.co.kr/view/AKR20261113089800004",
+"time": "2026-11-13T04:00:00+00:00",
+"stage": "후속"
+},
+{
+"title": "경찰, ‘로또 청약’ 이혜훈 前 의원 사기 혐의로 공소청 송치",
+"source": "조선일보",
+"link": "https://www.chosun.com/national/national_general/2026/11/13/CSW7KKE6VRCOVPUKBYMCDLP4TQ/",
 "time": "2026-11-13T04:00:00+00:00",
 "stage": "후속"
 },
@@ -259,6 +267,7 @@
 "40억",
 "前장관",
 "경찰",
+"공소청",
 "공소청으",
 "날아가나",
 "로또",
@@ -271,7 +280,9 @@
 "신청",
 "아파트",
 "원펜타스",
+"의원",
 "이혜훈",
+"청약",
 "혐의",
 "후보자"
 ]
@@ -1477,11 +1488,12 @@
 "id": "mpfVHFnTElnQ3NUMUwtUQoc52010",
 "first": "2026-11-12T20:10:00+00:00",
 "last": "2026-11-13T03:40:12+00:00",
-"updated": "2026-11-13T04:17:07.391427+00:00",
+"updated": "2026-11-13T04:43:35.049304+00:00",
 "headline": "사임한 젠슨 황, 세 번째 불륜 의혹까지…또 다른 엔비디아 직원",
 "cat": "기타",
 "regions": [],
 "sources": [
+"KBS 뉴스",
 "SBS",
 "강원일보",
 "경향신문",
@@ -1564,6 +1576,13 @@
 "stage": "후속"
 },
 {
+"title": "‘불륜 스캔들’ 엔비디아 젠슨황 사퇴…국내 영향은? [뉴스in뉴스]",
+"source": "KBS 뉴스",
+"link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFAxeFhfck1SbUdZZm9SdzFTU29fV2pQb2NXblBNaHFDamZpNjNCaE5DTUhnRzRrNTF3aHN1MnV0Rjl0aUVtdjhvNVdZV3hxMDdJTmt3cGVUMzc3eGprdjhUTm9QYjVHZw?oc=5",
+"time": "2026-11-13T03:37:00+00:00",
+"stage": "후속"
+},
+{
 "title": "\"젠슨황 또다른 여직원과도 내연관계”…세 번째 불륜스캔들 나와",
 "source": "강원일보",
 "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE53dWlTS1ZrX2M4S3U2NVNkaXZnUXZOUHlsUXFQaExpTEJZR1BkOC0xalZ2RG9hcE9obG12dk0wNENNejQ5RTl3NEZNbWZaMzVhb3p5RGk2Y0xNSHM?oc=5",
@@ -1571,15 +1590,17 @@
 "stage": "후속"
 }
 ],
-"level": "URGENT",
+"level": "BULLETIN",
 "latest": "\"젠슨황 또다른 여직원과도 내연관계”…세 번째 불륜스캔들 나와",
 "tok": [
 "3번째",
 "CEO",
 "관계",
+"국내",
 "나와",
 "내연",
 "내연관계",
+"뉴스in뉴스",
 "다른",
 "당일",
 "대상",
@@ -1592,11 +1613,13 @@
 "사내",
 "사임",
 "사임한",
+"사퇴",
 "세번째",
 "스캔들",
 "엔비디아",
 "여직원",
 "여직원과",
+"영향",
 "의혹까지",
 "자막뉴스",
 "제기",
@@ -3719,7 +3742,7 @@
 },
 "폭발": {
 "n30": 2,
-"base": 0.5,
+"base": 0.4,
 "spike": false
 },
 "붕괴": {
@@ -3744,12 +3767,12 @@
 },
 "지하철": {
 "n30": 3,
-"base": 2.0,
+"base": 2.1,
 "spike": false
 },
 "사고": {
 "n30": 3,
-"base": 2.4,
+"base": 2.5,
 "spike": false
 },
 "실종": {
@@ -4008,13 +4031,13 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.44,
+"폭발": 0.4,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 2.11,
-"사고": 2.47,
+"지하철": 2.2,
+"사고": 2.52,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -4190,8 +4213,26 @@
 },
 "trends": [
 {
+"term": "비서",
+"traffic": "500+",
+"time": "2026-11-13T03:40:00+00:00",
+"news": [
+{
+"title": "고1때 회계 빠져 열공, 로펌 비서하다 오기… ‘士’자 꿈 이뤘다[‘17세의 기술’ 대한민국을 만든다]",
+"source": "문화일보",
+"link": "https://www.munhwa.com/article/11631046"
+},
+{
+"title": "‘AI 비서’가 민원 전화까지?⋯공무원들 “답해야 하나”",
+"source": "국민일보",
+"link": "https://www.kmib.co.kr/article/20261112502069"
+}
+],
+"new": true
+},
+{
 "term": "이더 리움",
-"traffic": "100+",
+"traffic": "200+",
 "time": "2026-11-13T03:30:00+00:00",
 "news": [
 {
@@ -4347,24 +4388,6 @@
 "title": "‘추락한 명가’ EPL 맨유, 캐릭 감독 경질…퍼거슨 이후 7번째",
 "source": "동아일보",
 "link": "https://www.donga.com/news/Sports/article/all/20261113/135018915/1"
-}
-],
-"new": true
-},
-{
-"term": "사우디아라비아 축구 국가대표팀",
-"traffic": "200+",
-"time": "2026-11-13T02:40:00+00:00",
-"news": [
-{
-"title": "주장 손흥민, ‘내분설’ 이후 첫 심경 고백…“팀이 건강해지는 과정이라 생각”",
-"source": "KBS 뉴스",
-"link": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8711758"
-},
-{
-"title": "[스포츠엔터] 불화설에 입 연 손흥민 \"내려놓고 싶지만…\"",
-"source": "연합뉴스TV",
-"link": "https://www.yonhapnewstv.co.kr/news/MYH20261113125318ZVy"
 }
 ],
 "new": true
