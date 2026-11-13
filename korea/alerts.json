@@ -1,19 +1,27 @@
 {
-"updated": "2026-11-13T11:18:19.776392+00:00",
+"updated": "2026-11-13T11:20:36.961544+00:00",
 "errors": [],
 "events": [
 {
 "id": "GV3pmX0preTE5N0tfdWpRoc51115",
 "first": "2026-11-13T11:15:00+00:00",
 "last": "2026-11-13T11:15:00+00:00",
-"updated": "2026-11-13T11:18:19.776392+00:00",
+"updated": "2026-11-13T11:20:36.961544+00:00",
 "headline": "포체티노 선임 임박...2년 6개월 계약으로 강등권 탈출 도전",
 "cat": "기타",
 "regions": [],
 "sources": [
-"Chosunbiz"
+"Chosunbiz",
+"OSEN"
 ],
 "updates": [
+{
+"title": "[속보] 포체티노 선임 임박...2년 6개월 계약으로 강등권 탈출 도전",
+"source": "OSEN",
+"link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBuR1FVaDBXNTdodDZpQmgxUms5Tm5OSUt3dmhFRTB6NWc1OElTRHBkWVRyUmVhUDVvWGRpYUpUdHVTVjVMZFdpOWJqRVVuTVA4S3Vn?oc=5",
+"time": "2026-11-13T11:14:00+00:00",
+"stage": "속보"
+},
 {
 "title": "[속보] 포체티노 선임 임박...2년 6개월 계약으로 강등권 탈출 도전",
 "source": "Chosunbiz",
@@ -4541,7 +4549,7 @@
 "terms": {
 "지진": {
 "n30": 0,
-"base": 0.8,
+"base": 0.7,
 "spike": false
 },
 "화재": {
@@ -4555,7 +4563,7 @@
 "spike": false
 },
 "정전": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -4565,8 +4573,8 @@
 "spike": false
 },
 "붕괴": {
-"n30": 3,
-"base": 1.4,
+"n30": 1,
+"base": 1.6,
 "spike": false
 },
 "대피": {
@@ -4586,12 +4594,12 @@
 },
 "지하철": {
 "n30": 0,
-"base": 0.7,
+"base": 0.6,
 "spike": false
 },
 "사고": {
 "n30": 4,
-"base": 2.3,
+"base": 2.4,
 "spike": false
 },
 "실종": {
@@ -4672,16 +4680,6 @@
 "term": "사고"
 },
 {
-"text": "2시간 짜리 체험판 게임을 10시간 동안 플레이하며\n신나게 아기공을 먹었다가 엔딩보고 붕괴",
-"handle": "mahodosa.bsky.social",
-"name": "DoSa",
-"time": "2026-11-13T10:50:33.741Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/mahodosa.bsky.social/post/3n26st7a4ys2i",
-"term": "붕괴"
-},
-{
 "platform": "YouTube",
 "text": "서울 정전 밤, 별빛 아래 헬멧을 건넨 순간 🌠 #Shorts",
 "handle": "UC7tB04sAJcPQgaXnU6WRFxA",
@@ -4689,16 +4687,6 @@
 "time": "2026-11-13T10:48:54Z",
 "term": "정전",
 "url": "https://www.youtube.com/watch?v=u1oSXDXseVM"
-},
-{
-"text": "계속 조금씩 고치니까 얼굴탈트붕괴 와\n나름 그림체 맞춘답시고 시도하는데 와닿지는 않고 하",
-"handle": "rumin12.bsky.social",
-"name": "𝓇𝓊𝓂𝒾𝓃 | ૮ ˘ﻌ˘ ა",
-"time": "2026-11-13T10:48:46.470Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/rumin12.bsky.social/post/3n26sq4hxys27",
-"term": "붕괴"
 },
 {
 "platform": "YouTube",
@@ -4910,17 +4898,17 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 0.74,
+"지진": 0.67,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
 "폭발": 0.05,
-"붕괴": 1.6,
+"붕괴": 1.54,
 "대피": 0.05,
-"미사일": 0.16,
+"미사일": 0.14,
 "속보": 0.05,
-"지하철": 0.62,
-"사고": 2.44,
+"지하철": 0.56,
+"사고": 2.6,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
