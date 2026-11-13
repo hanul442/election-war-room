@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-13T12:43:22.002084+00:00",
+"updated": "2026-11-13T12:45:39.081531+00:00",
 "errors": [],
 "events": [
 {
@@ -4285,7 +4285,7 @@
 },
 "폭발": {
 "n30": 2,
-"base": 0.8,
+"base": 0.7,
 "spike": false
 },
 "붕괴": {
@@ -4304,18 +4304,18 @@
 "spike": false
 },
 "속보": {
-"n30": 6,
+"n30": 2,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "지하철": {
 "n30": 0,
-"base": 0.7,
+"base": 0.6,
 "spike": false
 },
 "사고": {
-"n30": 1,
-"base": 3.4,
+"n30": 2,
+"base": 3.2,
 "spike": false
 },
 "실종": {
@@ -4345,6 +4345,16 @@
 }
 },
 "posts": [
+{
+"text": "dgkim은 마음의 여유가 생기면, ㅋ 당연히 더 맛있는 걸 사먹겠지. ㅋ\n\n많이 먹겠답시고, 즉석밥 이빠이 사고, 김 이빠이 사고, 김치 이빠이 사고 그러진 않는다 ㅋㅋ\n\n즉석밥 10흘치 먹느니, ㅋ 이베리코 목살 맛있는거 식당에서 한방에 태우지 ㅋ",
+"handle": "deokgonkimdgkim.bsky.social",
+"name": "Deokgon Kim",
+"time": "2026-11-13T12:45:07.173Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/deokgonkimdgkim.bsky.social/post/3n26za5y55s2k",
+"term": "사고"
+},
 {
 "platform": "YouTube",
 "text": "기준 아내 속마음 듣고 시청자들 답답함 폭발!  #이혼숙려캠프, #기준부부, #기준아내, #이호선, #이혼숙려캠프26기,",
@@ -4545,27 +4555,19 @@
 "url": "https://www.youtube.com/watch?v=fzpcbWnQxe8"
 }
 ],
-"spikes": [
-{
-"term": "속보",
-"n30": 6,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-13T12:43:22.002084+00:00"
-}
-],
+"spikes": [],
 "baseline": {
 "지진": 0.05,
 "화재": 0.05,
-"불났": 0.1,
+"불났": 0.09,
 "정전": 0.05,
-"폭발": 0.69,
-"붕괴": 0.2,
+"폭발": 0.62,
+"붕괴": 0.18,
 "대피": 0.05,
-"미사일": 0.56,
+"미사일": 0.5,
 "속보": 0.05,
-"지하철": 0.62,
-"사고": 3.19,
+"지하철": 0.56,
+"사고": 3.07,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -4787,7 +4789,7 @@
 },
 {
 "term": "thời tiết ngày mai",
-"traffic": "2000+",
+"traffic": "1000+",
 "time": "2026-11-13T11:40:00+00:00",
 "news": [
 {
@@ -4841,7 +4843,7 @@
 },
 {
 "term": "weather tomorrow",
-"traffic": "2000+",
+"traffic": "5000+",
 "time": "2026-11-13T11:30:00+00:00",
 "news": [
 {
@@ -4883,6 +4885,24 @@
 "new": true
 },
 {
+"term": "한국 일본 야구",
+"traffic": "1000+",
+"time": "2026-11-13T11:00:00+00:00",
+"news": [
+{
+"title": "한일전 12연속 무승, 삼성 김지찬 우승 기운 전파하겠다!",
+"source": "KBS 뉴스",
+"link": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8710671"
+},
+{
+"title": "[사진]동료들의 환영을 받는 한동희",
+"source": "조선일보",
+"link": "https://www.chosun.com/sports/sports_photo/2026/11/13/MM3DOMBUGUYWMOLEMMYGEYZVMY/"
+}
+],
+"new": true
+},
+{
 "term": "nepal premier league",
 "traffic": "100+",
 "time": "2026-11-13T10:40:00+00:00",
@@ -4917,28 +4937,9 @@
 }
 ],
 "new": false
-},
-{
-"term": "박수홍 패소",
-"traffic": "1000+",
-"time": "2026-11-13T10:30:00+00:00",
-"news": [
-{
-"title": "박수홍, 친형 부부 상대 98억원대 민사소송 1심서 패소",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261113113300004"
-},
-{
-"title": "친형 부부 횡령 유죄인데…박수홍, 5년 싸운 ‘98억 손배소’ 1심 패소",
-"source": "조선일보",
-"link": "https://www.chosun.com/entertainments/broadcast/2026/11/13/MIYTCNLBMU2TKOLBMRSGIZTEGA/"
-}
-],
-"new": true
 }
 ],
 "trendSeen": [
-"입학",
 "잉글랜드 대 크로아티아",
 "자기주식",
 "자녀",
@@ -5178,6 +5179,7 @@
 "한강 벨트",
 "한국 민속촌",
 "한국 사우디",
+"한국 일본 야구",
 "한국가스",
 "한국경제",
 "한국경제신문사",
