@@ -1,7 +1,42 @@
 {
-"updated": "2026-11-13T22:43:21.719639+00:00",
+"updated": "2026-11-13T22:45:40.102580+00:00",
 "errors": [],
 "events": [
+{
+"id": "3pEWGRMTnl3TVJfeW5vMwoc52243",
+"first": "2026-11-13T22:43:26+00:00",
+"last": "2026-11-13T22:43:26+00:00",
+"updated": "2026-11-13T22:45:40.102580+00:00",
+"headline": "경일대 교직원 전자문서시스템 해킹…다크웹 포럼에 해커 “108GB 탈취” 주장",
+"cat": "기타",
+"regions": [],
+"sources": [
+"데일리시큐"
+],
+"updates": [
+{
+"title": "[단독] 경일대 교직원 전자문서시스템 해킹…다크웹 포럼에 해커 “108GB 탈취” 주장",
+"source": "데일리시큐",
+"link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5vSFQ3XzYxT0IxcHNsMTlsdUJLWEJrWTdjemlkQ0h3c0FESWM2cWlZeXpKMjRHQkNxb3BhNnhwRncxUVphSkw0azNMaGo2MjFvbThUbTBjbXZ0Tlozd3pEWGRMTnl3TVJfeW5vMw?oc=5",
+"time": "2026-11-13T22:43:26+00:00",
+"stage": "단독"
+}
+],
+"level": "URGENT",
+"latest": "경일대 교직원 전자문서시스템 해킹…다크웹 포럼에 해커 “108GB 탈취” 주장",
+"tok": [
+"108GB",
+"경일대",
+"교직원",
+"다크웹",
+"전자문서시스템",
+"주장",
+"탈취",
+"포럼",
+"해커",
+"해킹"
+]
+},
 {
 "id": "nd2dGNHbUVYRnpzdXhrQQoc52202",
 "first": "2026-11-13T22:02:05+00:00",
@@ -1083,7 +1118,7 @@
 "sns": {
 "terms": {
 "지진": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -1098,12 +1133,12 @@
 "spike": false
 },
 "정전": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
 "폭발": {
-"n30": 2,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
@@ -1123,13 +1158,13 @@
 "spike": false
 },
 "속보": {
-"n30": 5,
+"n30": 3,
 "base": 0.4,
-"spike": true
+"spike": false
 },
 "지하철": {
 "n30": 2,
-"base": 1.3,
+"base": 1.4,
 "spike": false
 },
 "사고": {
@@ -1356,15 +1391,7 @@
 "url": "https://www.youtube.com/watch?v=qTz1h5xa8VQ"
 }
 ],
-"spikes": [
-{
-"term": "속보",
-"n30": 5,
-"base": 0.4,
-"spike": true,
-"since": "2026-11-13T22:43:21.719639+00:00"
-}
-],
+"spikes": [],
 "baseline": {
 "지진": 0.05,
 "화재": 0.05,
@@ -1374,8 +1401,8 @@
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.37,
-"지하철": 1.39,
+"속보": 0.33,
+"지하철": 1.45,
 "사고": 0.05,
 "실종": 0.05,
 "단수": 0.05,
@@ -1620,21 +1647,21 @@
 "time": "2026-11-13T21:30:00+00:00",
 "news": [
 {
-"title": "В Москве в субботу ожидается «ночь великого дождя»",
-"source": "Ведомости",
-"link": "https://www.vedomosti.ru/gorod/ourcity/news/noch-velikogo-dozhdya"
+"title": "Петербург стал другим. Фоторепортаж «Фонтанки» с улиц",
+"source": "ФОНТАНКА.ру",
+"link": "https://www.fontanka.ru/2026/11/13/76763284/"
 },
 {
-"title": "В Москве может пройти сильнейший с 1967 года ливень",
-"source": "BFM.ru",
-"link": "https://www.bfm.ru/news/623773"
+"title": "В Санкт-Петербурге выпал первый снег",
+"source": "GISMETEO.Новости",
+"link": "https://www.gismeteo.ru/news/weather/v-sankt-peterburge-vypal-pervyj-sneg-2/"
 }
 ],
 "new": true
 },
 {
 "term": "天気",
-"traffic": "100+",
+"traffic": "200+",
 "time": "2026-11-13T21:20:00+00:00",
 "news": [
 {
