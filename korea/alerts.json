@@ -1,16 +1,17 @@
 {
-"updated": "2026-11-13T07:59:10.404366+00:00",
+"updated": "2026-11-13T08:01:20.749292+00:00",
 "errors": [],
 "events": [
 {
 "id": "wNISX20261113_00038676330750",
 "first": "2026-11-13T07:50:41+00:00",
-"last": "2026-11-13T07:50:41+00:00",
-"updated": "2026-11-13T07:54:48.001935+00:00",
+"last": "2026-11-13T07:55:52+00:00",
+"updated": "2026-11-13T08:01:20.749292+00:00",
 "headline": "피살 10대 소녀에 '절도·성매매 교사 혐의' 20대女 구속영장 청구",
 "cat": "기타",
 "regions": [],
 "sources": [
+"노컷뉴스",
 "뉴시스"
 ],
 "updates": [
@@ -20,17 +21,27 @@
 "link": "https://www.newsis.com/view/NISX20261113_0003867633",
 "time": "2026-11-13T07:50:41+00:00",
 "stage": "얼럿"
+},
+{
+"title": "[속보] 피살 15세 소녀에 '절도·성매매 교사 혐의' 20대女 영장 청구",
+"source": "노컷뉴스",
+"link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1adENPUzNTblh2b0YtT2lCdFNvSXQyN2hZS1FNbmJIdUV6b1d6V3pESFhCQlZEa0hMQjhLTEtkd3R5RUhHaVBXUmNRbWdZQjJVY2c?oc=5",
+"time": "2026-11-13T07:55:52+00:00",
+"stage": "속보"
 }
 ],
 "level": "BULLETIN",
-"latest": "피살 10대 소녀에 '절도·성매매 교사 혐의' 20대女 구속영장 청구",
+"latest": "피살 15세 소녀에 '절도·성매매 교사 혐의' 20대女 영장 청구",
 "tok": [
 "10대",
+"15세",
+"20대女",
 "20대女",
 "교사",
 "구속영장",
 "성매매",
 "소녀",
+"영장",
 "절도",
 "청구",
 "피살",
@@ -830,6 +841,39 @@
 "장중",
 "코스피",
 "회복했던"
+]
+},
+{
+"id": "GSTFTOFluVmFYaTFXYXFhoc50715",
+"first": "2026-11-13T07:15:37+00:00",
+"last": "2026-11-13T07:15:37+00:00",
+"updated": "2026-11-13T08:01:20.749292+00:00",
+"headline": "이수정 ‘李아들 군면제’ 유죄 “심려끼쳐 죄송…대법원에 상고”",
+"cat": "사회",
+"regions": [],
+"sources": [
+"미디어오늘"
+],
+"updates": [
+{
+"title": "[속보] 이수정 ‘李아들 군면제’ 유죄 “심려끼쳐 죄송…대법원에 상고”",
+"source": "미디어오늘",
+"link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5URUlXaHd5STBMWGMzTjdhb3F1TDk1T1VQbFlNendQd1NiUnJOMHE5OTNJUXVXU3VvZzFJYjZUNkQtRzB1TmVVTmNiMU1uX2hIZFZ3Y3hONU83eWEtSWRLaEpEbGVGSTFTOFluVmFYaTFXYXFh?oc=5",
+"time": "2026-11-13T07:15:37+00:00",
+"stage": "얼럿"
+}
+],
+"level": "URGENT",
+"latest": "이수정 ‘李아들 군면제’ 유죄 “심려끼쳐 죄송…대법원에 상고”",
+"tok": [
+"李아들",
+"군면제",
+"대법원",
+"상고",
+"심려끼쳐",
+"유죄",
+"이수정",
+"죄송"
 ]
 },
 {
@@ -4350,41 +4394,6 @@
 "이행강제금",
 "입주"
 ]
-},
-{
-"id": "viewAKR202611130977000540448",
-"first": "2026-11-13T04:48:53+00:00",
-"last": "2026-11-13T04:48:53+00:00",
-"updated": "2026-11-13T04:54:32.408460+00:00",
-"headline": "\"군수 사칭해 송금 요구\"…신안군, 메신저 피싱 주의보",
-"cat": "재난",
-"regions": [
-"전남"
-],
-"sources": [
-"연합뉴스"
-],
-"updates": [
-{
-"title": "\"군수 사칭해 송금 요구\"…신안군, 메신저 피싱 주의보",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261113097700054",
-"time": "2026-11-13T04:48:53+00:00",
-"stage": "1보"
-}
-],
-"level": "ALERT",
-"latest": "\"군수 사칭해 송금 요구\"…신안군, 메신저 피싱 주의보",
-"tok": [
-"군수",
-"메신저",
-"사칭해",
-"송금",
-"신안군",
-"요구",
-"주의보",
-"피싱"
-]
 }
 ],
 "sns": {
@@ -4405,18 +4414,18 @@
 "spike": false
 },
 "정전": {
-"n30": 0,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
 "폭발": {
-"n30": 8,
+"n30": 5,
 "base": 1.2,
 "spike": true
 },
 "붕괴": {
 "n30": 2,
-"base": 0.3,
+"base": 0.4,
 "spike": false
 },
 "대피": {
@@ -4430,23 +4439,23 @@
 "spike": false
 },
 "속보": {
-"n30": 7,
+"n30": 5,
 "base": 0.1,
 "spike": true
 },
 "지하철": {
-"n30": 5,
-"base": 2.5,
-"spike": false
-},
-"사고": {
 "n30": 2,
 "base": 2.4,
 "spike": false
 },
+"사고": {
+"n30": 2,
+"base": 2.3,
+"spike": false
+},
 "실종": {
 "n30": 1,
-"base": 0.6,
+"base": 0.7,
 "spike": false
 },
 "단수": {
@@ -4471,6 +4480,16 @@
 }
 },
 "posts": [
+{
+"text": "[AI 사이버전 빌드업] 대규모 심리 작전이 시작됐다—전력망 비상 사태가 지금 당장 임박 중! 미국, 캐나다, 영국, 스페인, 이탈리아 모두 위기에 처해—완전 정전 준비됐나?\n\nx.com/nycliusa/sta...",
+"handle": "newsky144th.bsky.social",
+"name": "하통시대",
+"time": "2026-11-13T07:59:31.371Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/newsky144th.bsky.social/post/3n26jbeeixc2m",
+"term": "정전"
+},
 {
 "text": "[AI 사이버전 빌드업] MS 자체 서버들이 차례로 오프라인 상태가 되기 시작했다 => 트래픽 폭증이 아닌 '자체 인프라의 연쇄 붕괴'\n\nx.com/TGLetter/sta...",
 "handle": "newsky144th.bsky.social",
@@ -4711,50 +4730,40 @@
 "time": "2026-11-13T07:30:02Z",
 "term": "지하철",
 "url": "https://www.youtube.com/watch?v=mMGmhN6g0V4"
-},
-{
-"text": "지하철 35분뒤에와서노숙하는중",
-"handle": "teamswallows-b.bsky.social",
-"name": "🔒🦘",
-"time": "2026-11-13T07:29:56.571Z",
-"likes": 1,
-"reposts": 0,
-"url": "https://bsky.app/profile/teamswallows-b.bsky.social/post/3n26hmi7jes26",
-"term": "지하철"
 }
 ],
 "spikes": [
 {
 "term": "폭발",
-"n30": 8,
+"n30": 5,
 "base": 1.2,
 "spike": true,
-"since": "2026-11-13T07:59:10.404366+00:00"
+"since": "2026-11-13T08:01:20.749292+00:00"
 },
 {
 "term": "속보",
-"n30": 7,
+"n30": 5,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-13T07:59:10.404366+00:00"
+"since": "2026-11-13T08:01:20.749292+00:00"
 }
 ],
 "baseline": {
 "지진": 0.05,
 "화재": 0.05,
 "불났": 0.05,
-"정전": 0.05,
-"폭발": 1.23,
-"붕괴": 0.41,
+"정전": 0.15,
+"폭발": 1.21,
+"붕괴": 0.47,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 2.43,
-"사고": 2.32,
-"실종": 0.68,
+"지하철": 2.29,
+"사고": 2.29,
+"실종": 0.71,
 "단수": 0.05,
 "통신 장애": 0.05,
-"먹통": 1.41,
+"먹통": 1.37,
 "산불": 0.05
 },
 "errors": [],
