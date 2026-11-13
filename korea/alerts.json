@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-13T12:08:52.558188+00:00",
+"updated": "2026-11-13T12:11:10.654315+00:00",
 "errors": [],
 "events": [
 {
@@ -4366,7 +4366,7 @@
 },
 "붕괴": {
 "n30": 4,
-"base": 1.1,
+"base": 0.9,
 "spike": false
 },
 "대피": {
@@ -4385,13 +4385,13 @@
 "spike": false
 },
 "지하철": {
-"n30": 0,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
 "사고": {
-"n30": 6,
-"base": 3.1,
+"n30": 7,
+"base": 3.4,
 "spike": false
 },
 "실종": {
@@ -4422,12 +4422,32 @@
 },
 "posts": [
 {
+"text": "지하철에서 참기름소금 냄새난다 ......... 어디서 맛있는걸 드셧나요 .....",
+"handle": "28to1.bsky.social",
+"name": "토즈",
+"time": "2026-11-13T12:10:11.075Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/28to1.bsky.social/post/3n26xbowrms2t",
+"term": "지하철"
+},
+{
+"text": "클리셰가 젤 무서운? ㅎ ㅋㅋㅎㅋㅋㅎㅎㅋ 시이펄 그동안 사고 한번 친적 없는데 ㅋㅋㅋㅋㅋㅋ이번 작업 때 존나 쳐서 개 혼남 근데 ㄱㅊ음 ... 사람이 실수할수도 있지 다음 작업때 만회해주마",
+"handle": "gisang.bsky.social",
+"name": "기상",
+"time": "2026-11-13T12:09:53.779Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/gisang.bsky.social/post/3n26xb5yrus2l",
+"term": "사고"
+},
+{
 "text": "사고 방식이 전혀 다른 곳이 없음.\n\n프로파간다가 뭔지 이해할 마음이 없어. 그래서 나는 기쁘고 편한 면이 있긴 하다.",
 "handle": "tsuta.bsky.social",
 "name": "츠타蔦_漸龑",
 "time": "2026-11-13T12:07:35.272Z",
 "likes": 0,
-"reposts": 0,
+"reposts": 1,
 "url": "https://bsky.app/profile/tsuta.bsky.social/post/3n26x527qks2d",
 "term": "사고"
 },
@@ -4561,16 +4581,6 @@
 "term": "사고"
 },
 {
-"text": "이번달 말이면 차 산 지 1년인데 슬슬 차에도 익숙해지고 편안해져서 풀어지려 하는 참에 사고가 난거라, 신고식 겸 다시 긴장을 하라는 신호였나 보다.",
-"handle": "torykkw.bsky.social",
-"name": "토리🔒",
-"time": "2026-11-13T11:54:01.079Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/torykkw.bsky.social/post/3n26werld7s2x",
-"term": "사고"
-},
-{
 "platform": "YouTube",
 "text": "'최민희 감찰'에서 폭발..집단행동 정면 충돌 / SBS 8뉴스",
 "handle": "UCkinYTS9IHqOEwR1Sze2JTw",
@@ -4658,21 +4668,21 @@
 "n30": 9,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-13T12:08:52.558188+00:00"
+"since": "2026-11-13T12:11:10.654315+00:00"
 }
 ],
 "baseline": {
-"지진": 0.08,
+"지진": 0.07,
 "화재": 0.05,
-"불났": 0.45,
+"불났": 0.41,
 "정전": 0.05,
 "폭발": 0.05,
-"붕괴": 0.95,
+"붕괴": 0.85,
 "대피": 0.05,
-"미사일": 0.15,
+"미사일": 0.24,
 "속보": 0.05,
-"지하철": 0.06,
-"사고": 3.44,
+"지하철": 0.15,
+"사고": 3.8,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
