@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-13T00:12:17.163064+00:00",
+"updated": "2026-11-13T00:14:31.329201+00:00",
 "errors": [],
 "events": [
 {
@@ -42,8 +42,8 @@
 {
 "id": "wNISX20261113_00038665830001",
 "first": "2026-11-13T00:01:02+00:00",
-"last": "2026-11-13T00:05:00+00:00",
-"updated": "2026-11-13T00:12:17.163064+00:00",
+"last": "2026-11-13T00:05:05+00:00",
+"updated": "2026-11-13T00:14:31.329201+00:00",
 "headline": "코스피, 109.68포인트(2.05%) 오른 5452.41 개장",
 "cat": "경제",
 "regions": [],
@@ -55,6 +55,7 @@
 "연합뉴스TV",
 "이데일리",
 "이투데이",
+"조선일보",
 "파이낸셜뉴스"
 ],
 "updates": [
@@ -136,15 +137,29 @@
 "stage": "속보"
 },
 {
+"title": "코스피, '젠슨황 퇴임' 속 장초반 2%대 상승…코스닥도 1%대↑",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261113036400008",
+"time": "2026-11-13T00:04:50+00:00",
+"stage": "후속"
+},
+{
 "title": "[속보] 코스피 2% 상승…5,450선 출발",
 "source": "연합뉴스TV",
 "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5pTHJWVVlJZExnRF8xZ29MdUhhSDJ6YUtCbi1SX0tST1hLUWtyb181OFByN3BUSXlMZlRkU3lwb291aG5JYUVnRWZpaXlTa2tlRloySFkycTkxaFV0ZXJrWU9oWEM5NlU?oc=5",
 "time": "2026-11-13T00:05:00+00:00",
 "stage": "속보"
+},
+{
+"title": "코스피, 엔비디아 급락 충격에도 상승 개장",
+"source": "조선일보",
+"link": "https://www.chosun.com/economy/stock-finance/2026/11/13/DZKSSF5WJZBHFK3EI2R5TINSJU/",
+"time": "2026-11-13T00:05:05+00:00",
+"stage": "후속"
 }
 ],
 "level": "URGENT",
-"latest": "코스피 2% 상승…5,450선 출발",
+"latest": "코스피, 엔비디아 급락 충격에도 상승 개장",
 "tok": [
 "43p",
 "43포인트",
@@ -153,11 +168,17 @@
 "68p",
 "68포인트",
 "개장",
+"급락",
 "상승",
+"엔비디아",
 "오른",
+"장초반",
+"젠슨황",
 "출발",
+"충격에",
 "코스닥",
-"코스피"
+"코스피",
+"퇴임"
 ]
 },
 {
@@ -3867,7 +3888,7 @@
 },
 "폭발": {
 "n30": 3,
-"base": 0.2,
+"base": 0.3,
 "spike": false
 },
 "붕괴": {
@@ -3896,8 +3917,8 @@
 "spike": false
 },
 "사고": {
-"n30": 2,
-"base": 1.2,
+"n30": 3,
+"base": 1.3,
 "spike": false
 },
 "실종": {
@@ -3927,6 +3948,16 @@
 }
 },
 "posts": [
+{
+"text": "우사기 롭이어 간호사랑, 도넛의사선생님이랑, 쿠리만쥬 간호사랑, 약봉다리가방이랑.. 요렇게라도 사고 싶다ㅜㅜㅋㅋㅋ",
+"handle": "karussell.bsky.social",
+"name": "소소한우주",
+"time": "2026-11-13T00:12:48.470Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/karussell.bsky.social/post/3n25p6vtkdc2b",
+"term": "사고"
+},
 {
 "text": "여전히 남초에서는 중국도 생각 안하는 기후악당 밈적사고 하는거 한심해 죽겠어요.",
 "handle": "boiledsquid.bsky.social",
@@ -4109,7 +4140,7 @@
 "n30": 5,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-13T00:12:17.163064+00:00"
+"since": "2026-11-13T00:14:31.329201+00:00"
 }
 ],
 "baseline": {
@@ -4117,13 +4148,13 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.32,
+"폭발": 0.39,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 1.41,
-"사고": 1.3,
+"지하철": 1.37,
+"사고": 1.47,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -4272,8 +4303,26 @@
 },
 "trends": [
 {
+"term": "두산에너빌리티",
+"traffic": "2000+",
+"time": "2026-11-12T23:10:00+00:00",
+"news": [
+{
+"title": "삼성전기, '2026 동반성장지수' 최우수 등급 획득",
+"source": "전자신문",
+"link": "https://www.etnews.com/20261111000327"
+},
+{
+"title": "HL D&I한라, 동반성장지수 2년 연속 ‘우수’ 등급",
+"source": "마켓인",
+"link": "https://marketin.edaily.co.kr/News/ReadE?newsId=03142246645645064"
+}
+],
+"new": true
+},
+{
 "term": "정명훈",
-"traffic": "1000+",
+"traffic": "2000+",
 "time": "2026-11-12T23:00:00+00:00",
 "news": [
 {
@@ -4291,7 +4340,7 @@
 },
 {
 "term": "england national football team vs croatia national football team standings",
-"traffic": "100+",
+"traffic": "500+",
 "time": "2026-11-12T23:00:00+00:00",
 "news": [
 {
@@ -4347,7 +4396,36 @@
 "term": "이상순",
 "traffic": "200+",
 "time": "2026-11-12T22:40:00+00:00",
-"news": [],
+"news": [
+{
+"title": "'이효리♥' 이상순 건강 어쩌나…\"서 있는 것도 힘들어\" - 머니투데이",
+"source": "머니투데이",
+"link": "https://www.mt.co.kr/entertainment/2026/11/12/2026111221241933370"
+},
+{
+"title": "이상순, '미주신경 기능 저하' 후유증 여전…\"서 있는 걸 힘들어해\"",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261112_0003866326"
+}
+],
+"new": true
+},
+{
+"term": "이승엽",
+"traffic": "2000+",
+"time": "2026-11-12T22:30:00+00:00",
+"news": [
+{
+"title": "삼성물산 패션, 삼성 한국시리즈 우승 기념행사…최대 21% 할인",
+"source": "매일경제 마켓",
+"link": "https://stock.mk.co.kr/news/view/1197987"
+},
+{
+"title": "’최원태와 롤러코스터’ 프로야구 삼성, 에버랜드서 ’우승 공약’ 지킨다",
+"source": "연합뉴스TV",
+"link": "https://www.yonhapnewstv.co.kr/news/AKR20261113083537sD3"
+}
+],
 "new": true
 },
 {
@@ -4364,24 +4442,6 @@
 "title": "[Y현장] '폭설' 김윤석·구교환 \"영화 최대 무기는 나약하지만 강한 인간의 모습\"",
 "source": "YTN",
 "link": "https://www.ytn.co.kr/_ln/0117_202611121657078534"
-}
-],
-"new": true
-},
-{
-"term": "이승엽",
-"traffic": "200+",
-"time": "2026-11-12T22:30:00+00:00",
-"news": [
-{
-"title": "잠실에서 시작해 잠실에서 끝, 국민타자 이승엽의 특급 귀환",
-"source": "KBS 뉴스",
-"link": "https://news.kbs.co.kr/news/mobile/view/view.do?ncd=8711535"
-},
-{
-"title": "김도영 日서 난리라면서요? 이승엽 전 감독 직접 인증했다! \"韓레벨 아냐…모르는 스태프 없다\" [SS시선집중]",
-"source": "네이트",
-"link": "https://m.news.nate.com/view/20261111n21038"
 }
 ],
 "new": true
@@ -4418,24 +4478,6 @@
 "title": "SK hynix (NASDAQ:SKHY) Shares Climb 9.7% - Still a Buy?",
 "source": "MarketBeat",
 "link": "https://www.marketbeat.com/instant-alerts/price-sk-hynix-nasdaq-skhy-shares-climb-97-still-a-buy-2026-11-11/"
-}
-],
-"new": true
-},
-{
-"term": "스페인",
-"traffic": "100+",
-"time": "2026-11-12T22:30:00+00:00",
-"news": [
-{
-"title": "“월급 99%가 월세” 분노한 스페인 노동자 400만명 총파업",
-"source": "동아일보",
-"link": "https://www.donga.com/news/Inter/article/all/20261112/135017578/2"
-},
-{
-"title": "경찰의 최루탄 발사 지켜보는 노숙인",
-"source": "뉴시스",
-"link": "https://mobile.newsis.com/photo_view.html?pict_id=NISI20261112_0002289586&pID=1&cID=&sID=1&type=Main&idx=4"
 }
 ],
 "new": true
