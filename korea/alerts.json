@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-13T23:02:14.536001+00:00",
+"updated": "2026-11-13T23:05:12.405369+00:00",
 "errors": [],
 "events": [
 {
@@ -333,12 +333,13 @@
 "id": "TN6WU10NUFYajR4bldXdwoc52104",
 "first": "2026-11-13T21:04:07+00:00",
 "last": "2026-11-13T22:31:28+00:00",
-"updated": "2026-11-13T22:38:46.478414+00:00",
+"updated": "2026-11-13T23:05:12.405369+00:00",
 "headline": "FAA, 美 전역 항공기 이륙 전면 중단",
 "cat": "기타",
 "regions": [],
 "sources": [
 "BeInCrypto",
+"KBS 뉴스",
 "SBS",
 "YTN",
 "edaily.co.kr",
@@ -429,6 +430,13 @@
 "source": "조선일보",
 "link": "https://www.chosun.com/international/international_general/2026/11/14/GFSGENZRG42WEZJZMJTDOYZRMY/",
 "time": "2026-11-13T21:48:36+00:00",
+"stage": "후속"
+},
+{
+"title": "미 전역 항공기 이륙 중단…교통장관 “관제센터 통신 문제”",
+"source": "KBS 뉴스",
+"link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1YRkYzZW5WNFZGdmRUZFd4Qk5HcEN3RlpyNUw0dEpFazhvSC1ZRHNuOGwyRktKUzFwRU5GQjZkdzZ3QlQ3TzFDb1ZacS1SakVNS2Q1VGZMWUItOFBrYnllTnZRN2RxZw?oc=5",
+"time": "2026-11-13T21:49:00+00:00",
 "stage": "후속"
 },
 {
@@ -1078,7 +1086,7 @@
 "spike": false
 },
 "화재": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -1119,12 +1127,12 @@
 },
 "지하철": {
 "n30": 2,
-"base": 0.9,
+"base": 0.8,
 "spike": false
 },
 "사고": {
-"n30": 2,
-"base": 0.4,
+"n30": 3,
+"base": 0.6,
 "spike": false
 },
 "실종": {
@@ -1154,6 +1162,16 @@
 }
 },
 "posts": [
+{
+"text": "스따워즈 오너먼트도 쫌 사고🎄🎁",
+"handle": "cyarikameshla.bsky.social",
+"name": "⛓️",
+"time": "2026-11-13T23:04:33.873Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/cyarikameshla.bsky.social/post/3n2a3tsmon22a",
+"term": "사고"
+},
 {
 "text": "[ainet] [싱귤래리티헙] 이 인공지능은 아기의 생후 첫 1,000일 동안의 녹음 자료를 통해 언어를 학습했다. 아이들처럼 학습하는 AI 모델은 우리의 유년 시절의 비밀을 밝혀내고 더욱 효율적인 기계 사고방식을 고취시킬 수 있을 것\nwww.ainet.link/30023",
 "handle": "youngsook.bsky.social",
@@ -1356,9 +1374,9 @@
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.16,
-"지하철": 0.8,
-"사고": 0.59,
+"속보": 0.14,
+"지하철": 0.72,
+"사고": 0.83,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -1543,8 +1561,26 @@
 },
 "trends": [
 {
+"term": "보안",
+"traffic": "200+",
+"time": "2026-11-13T22:00:00+00:00",
+"news": [
+{
+"title": "해킹 당한 금융보안원 “공격 IP 246개 차단완료…국적은 한국”",
+"source": "매일경제 마켓",
+"link": "https://stock.mk.co.kr/news/view/1198487"
+},
+{
+"title": "금융위, 해킹에 뚫린 금융보안원 다음 주 감사",
+"source": "MBC 뉴스",
+"link": "https://imnews.imbc.com/news/2026/econo/article/6865227_36932.html"
+}
+],
+"new": true
+},
+{
 "term": "날씨",
-"traffic": "200000+",
+"traffic": "500000+",
 "time": "2026-11-13T21:50:00+00:00",
 "news": [
 {
@@ -1562,7 +1598,7 @@
 },
 {
 "term": "주한 미군의 철수",
-"traffic": "500+",
+"traffic": "1000+",
 "time": "2026-11-13T21:50:00+00:00",
 "news": [
 {
@@ -1577,24 +1613,6 @@
 }
 ],
 "new": false
-},
-{
-"term": "thời tiết",
-"traffic": "2000+",
-"time": "2026-11-13T21:50:00+00:00",
-"news": [
-{
-"title": "Thời tiết Nghệ An hôm nay 14/11/2026: Trời ấm lên 28°C, sáng có sương mù, ít mưa",
-"source": "Vietnam.vn",
-"link": "https://www.vietnam.vn/thoi-tiet-nghe-an-hom-nay-14-11-2026-troi-am-len-28c-sang-co-suong-mu-it-mua"
-},
-{
-"title": "Thời tiết hôm nay (14-11): Nhiều nơi có mưa dông, cảnh báo lốc, sét",
-"source": "Báo Quân đội nhân dân",
-"link": "https://www.qdnd.vn/xa-hoi/tin-tuc/thoi-tiet-hom-nay-14-11-nhieu-noi-co-mua-dong-canh-bao-loc-set-1064549"
-}
-],
-"new": true
 },
 {
 "term": "天氣",
@@ -1669,37 +1687,19 @@
 "new": true
 },
 {
-"term": "lng선",
-"traffic": "2000+",
-"time": "2026-11-13T21:30:00+00:00",
-"news": [
-{
-"title": "한국가스공사, LNG선 화물창 결함에 2684억원 배상… 2심서 800억원 늘어",
-"source": "Chosunbiz",
-"link": "https://biz.chosun.com/topics/law_firm/2026/11/13/LTVT7C2Q6JFWXIKKZS3M7FUA7Y/"
-},
-{
-"title": "'LNG선 화물창 결함'…2심 법원 \"가스공사, SK해운에 2200억 지급\" - 머니투데이",
-"source": "머니투데이",
-"link": "https://www.mt.co.kr/society/2026/11/13/2026111322002520541"
-}
-],
-"new": true
-},
-{
 "term": "погода",
 "traffic": "500+",
 "time": "2026-11-13T21:30:00+00:00",
 "news": [
 {
-"title": "В Москве в субботу ожидается «ночь великого дождя»",
-"source": "Ведомости",
-"link": "https://www.vedomosti.ru/gorod/ourcity/news/noch-velikogo-dozhdya"
+"title": "Приближается похолодание: как изменит погоду в Украине на выходных антициклон",
+"source": "РБК-Україна",
+"link": "https://www.rbc.ua/ukr/news/nablizhaetsya-poholodannya-k-zminit-pogodu-1794572566.html"
 },
 {
-"title": "В Москве может пройти сильнейший с 1967 года ливень",
-"source": "BFM.ru",
-"link": "https://www.bfm.ru/news/623773"
+"title": "После теплой и влажной пятницы на выходных прогнозируется похолодание",
+"source": "Українська правда",
+"link": "https://www.pravda.com.ua/rus/news/2026/11/12/8062489/"
 }
 ],
 "new": true
@@ -1718,6 +1718,24 @@
 "title": "週間天気予報 明日は広く本降りの雨 来週中頃は全国的に荒天注意",
 "source": "ウェザーニュース",
 "link": "https://weathernews.jp/news/202611/140031/"
+}
+],
+"new": true
+},
+{
+"term": "일본",
+"traffic": "10000+",
+"time": "2026-11-13T21:00:00+00:00",
+"news": [
+{
+"title": "APBC 야구대표팀, 2연패 당하며 결승행 '빨간불'",
+"source": "MBC 뉴스",
+"link": "https://imnews.imbc.com/replay/2026/nwtoday/article/6865599_37012.html"
+},
+{
+"title": "'홈런-홈런-홈런-홈런' 힘겹게 점수 내면 어김없이 도로아미타불…속수무책 마운드, 진짜 '레벨' 차이인가 [오!쎈 도쿄]",
+"source": "조선일보",
+"link": "https://www.chosun.com/sports/baseball/2026/11/14/GI4DQMZYMZTGGZTDGU2TKNJWMY/"
 }
 ],
 "new": true
