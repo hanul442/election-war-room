@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-13T06:42:22.698426+00:00",
+"updated": "2026-11-13T06:44:33.383175+00:00",
 "errors": [],
 "events": [
 {
@@ -247,8 +247,8 @@
 {
 "id": "wNISX20261113_00038674210633",
 "first": "2026-11-13T06:33:26+00:00",
-"last": "2026-11-13T06:35:00+00:00",
-"updated": "2026-11-13T06:42:22.698426+00:00",
+"last": "2026-11-13T06:35:58+00:00",
+"updated": "2026-11-13T06:44:33.383175+00:00",
 "headline": "코스닥, 3.13포인트(0.45%) 오른 699.66 마감",
 "cat": "경제",
 "regions": [],
@@ -256,7 +256,8 @@
 "Chosunbiz",
 "뉴시스",
 "연합뉴스",
-"이투데이"
+"이투데이",
+"조선일보"
 ],
 "updates": [
 {
@@ -300,10 +301,17 @@
 "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBwdHBiZ3p4RnliZGxZM0JuSG1zdWRsbHhlc3M4NmJJM2JVU2tHaWxrNDM5UUtJdHI2S3RxdF9FSy1qV083ZEIweXVYekdwbWp6cmdwWQ?oc=5",
 "time": "2026-11-13T06:35:00+00:00",
 "stage": "속보"
+},
+{
+"title": "[속보] 원·달러 환율, 6원 오른 1336.7원",
+"source": "조선일보",
+"link": "https://www.chosun.com/economy/economy_general/2026/11/13/MNRTSYLDGY3DANDEGFTDOZJYGQ/",
+"time": "2026-11-13T06:35:58+00:00",
+"stage": "속보"
 }
 ],
 "level": "URGENT",
-"latest": "코스닥 3.13p(0.45%) 오른 699.66(마감)",
+"latest": "원·달러 환율, 6원 오른 1336.7원",
 "tok": [
 "0원",
 "13p",
@@ -4238,7 +4246,7 @@
 "terms": {
 "지진": {
 "n30": 1,
-"base": 0.3,
+"base": 0.4,
 "spike": false
 },
 "화재": {
@@ -4252,18 +4260,18 @@
 "spike": false
 },
 "정전": {
-"n30": 1,
+"n30": 0,
 "base": 0.8,
 "spike": false
 },
 "폭발": {
-"n30": 4,
-"base": 0.6,
+"n30": 3,
+"base": 0.7,
 "spike": false
 },
 "붕괴": {
 "n30": 3,
-"base": 0.7,
+"base": 0.8,
 "spike": false
 },
 "대피": {
@@ -4282,13 +4290,13 @@
 "spike": false
 },
 "지하철": {
-"n30": 3,
+"n30": 2,
 "base": 1.7,
 "spike": false
 },
 "사고": {
 "n30": 5,
-"base": 2.8,
+"base": 3.0,
 "spike": false
 },
 "실종": {
@@ -4308,7 +4316,7 @@
 },
 "먹통": {
 "n30": 0,
-"base": 0.8,
+"base": 0.7,
 "spike": false
 },
 "산불": {
@@ -4490,16 +4498,6 @@
 "url": "https://www.youtube.com/watch?v=twJhsjIKLNY"
 },
 {
-"text": "www.ilemonde.com/news/article...\n\n문제는 봄·가을철이다. 냉난방 수요가 적어 전력 총수요는 급감하는 반면, 기상 조건이 좋아 풍력과 태양광 발전량이 최고조에 달한다. 전력 수요는 500MW 안팎으로 떨어지는데, 신재생에너지 잠재 출력은 1,000MW를 상회하는 상황이 벌어지는 것이다. 전력의 공급이 수요를 초과하면 계통 주파수가 급상승하여 대규모 정전(블랙아웃)으로",
-"handle": "raventree90.bsky.social",
-"name": "Thumbelina",
-"time": "2026-11-13T06:13:03.475Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/raventree90.bsky.social/post/3n26dcxnxbc2r",
-"term": "정전"
-},
-{
 "platform": "YouTube",
 "text": "우주에서 우주복이 찢어지면 몸이 폭발할까?",
 "handle": "UCgRun_Lv3o4dFTlnAVvjX7Q",
@@ -4619,21 +4617,21 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 0.39,
+"지진": 0.45,
 "화재": 0.05,
 "불났": 0.05,
-"정전": 0.79,
-"폭발": 0.68,
-"붕괴": 0.77,
+"정전": 0.71,
+"폭발": 0.71,
+"붕괴": 0.79,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.1,
-"지하철": 1.69,
-"사고": 2.98,
+"속보": 0.09,
+"지하철": 1.72,
+"사고": 3.18,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
-"먹통": 0.69,
+"먹통": 0.62,
 "산불": 0.05
 },
 "errors": [],
@@ -4841,6 +4839,24 @@
 },
 "trends": [
 {
+"term": "블랙웰",
+"traffic": "200+",
+"time": "2026-11-13T05:40:00+00:00",
+"news": [
+{
+"title": "“오픈AI, 美 의회 中 AI칩 수출 제한 법안 지지”",
+"source": "Chosunbiz",
+"link": "https://biz.chosun.com/it-science/ict/2026/11/13/W3GSV2HRNVCW5HMKBABFHSBOEA/"
+},
+{
+"title": "미국의 반도체 수출 규제 강화 우려에 중국 AI 주식 급락",
+"source": "Investing.com 한국어",
+"link": "https://kr.investing.com/news/stock-market-news/article-2174451"
+}
+],
+"new": true
+},
+{
 "term": "대학수학능력시험",
 "traffic": "200+",
 "time": "2026-11-13T05:30:00+00:00",
@@ -4998,24 +5014,6 @@
 "title": "이준석 “한동훈은 ‘욕쟁이 할머니 집’…그런데 맛도 없어”",
 "source": "한겨레",
 "link": "https://www.hani.co.kr/arti/politics/politics_general/1287203.html"
-}
-],
-"new": true
-},
-{
-"term": "광교신도시",
-"traffic": "500+",
-"time": "2026-11-13T04:20:00+00:00",
-"news": [
-{
-"title": "\"집값 25%만 내고 입주\"…광교 지분적립형에 2만 명 몰려",
-"source": "한국경제",
-"link": "https://www.hankyung.com/article/202611123258i"
-},
-{
-"title": "광교 웃고 평택 울고…경기도 청약시장 양극화",
-"source": "인천일보",
-"link": "https://www.incheonilbo.com/news/articleView.html?idxno=1336726"
 }
 ],
 "new": true
