@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-13T11:32:03.069417+00:00",
+"updated": "2026-11-13T11:34:24.342453+00:00",
 "errors": [],
 "events": [
 {
@@ -4579,7 +4579,7 @@
 },
 "불났": {
 "n30": 1,
-"base": 0.1,
+"base": 0.2,
 "spike": false
 },
 "정전": {
@@ -4593,9 +4593,9 @@
 "spike": false
 },
 "붕괴": {
-"n30": 4,
-"base": 1.4,
-"spike": false
+"n30": 5,
+"base": 1.3,
+"spike": true
 },
 "대피": {
 "n30": 0,
@@ -4614,11 +4614,11 @@
 },
 "지하철": {
 "n30": 0,
-"base": 0.4,
+"base": 0.3,
 "spike": false
 },
 "사고": {
-"n30": 3,
+"n30": 2,
 "base": 2.9,
 "spike": false
 },
@@ -4649,6 +4649,16 @@
 }
 },
 "posts": [
+{
+"text": "케냐 수도서 공사 중 건물 또 붕괴…6명 사망\n\n주님, 세상을 떠난 이들에게 영원한 안식을 주소서.\n위령기도 전문은 아래 글에서 함께 기도하실 수 있습니다.",
+"handle": "jspenzer14.bsky.social",
+"name": "jspenzer14.bsky.social",
+"time": "2026-11-13T11:32:20.576Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/jspenzer14.bsky.social/post/3n26v5yaveltm",
+"term": "붕괴"
+},
 {
 "text": "어디 아파트 불났나???",
 "handle": "haruarona.lily.rs",
@@ -4798,16 +4808,6 @@
 "url": "https://www.youtube.com/watch?v=NlfI8tvmhgA"
 },
 {
-"text": "갠적 이 책 계속하면서 느낀건데\n\n생각보다 체형도 다양한 남자 여자 체형 통통 체형 얇은\n가슴 큰 가슴 작은 뭐 이것저것 체형이 진짜많음..\n빌린책이지만 나중에 사고 그냥 포즈 고민할때 볼까싶은?",
-"handle": "zeri0310.bsky.social",
-"name": "제리콩",
-"time": "2026-11-13T11:03:10.874Z",
-"likes": 1,
-"reposts": 0,
-"url": "https://bsky.app/profile/zeri0310.bsky.social/post/3n26tk2tk222b",
-"term": "사고"
-},
-{
 "platform": "YouTube",
 "text": "[가온칩스 주가전망] 긴급속보! \"AI 두뇌 독점 특허\" 추가로 '히든 종목' 추천! #가온칩스주가전망 #가온칩스 #주식추천",
 "handle": "UCCqAl4uVr9aOUCJZftWOJAg",
@@ -4880,19 +4880,27 @@
 "url": "https://www.youtube.com/watch?v=4Ev5hLlZPg8"
 }
 ],
-"spikes": [],
+"spikes": [
+{
+"term": "붕괴",
+"n30": 5,
+"base": 1.3,
+"spike": true,
+"since": "2026-11-13T11:34:24.342453+00:00"
+}
+],
 "baseline": {
-"지진": 0.4,
+"지진": 0.36,
 "화재": 0.05,
-"불났": 0.24,
+"불났": 0.32,
 "정전": 0.05,
 "폭발": 0.05,
-"붕괴": 1.32,
+"붕괴": 1.39,
 "대피": 0.05,
-"미사일": 0.09,
+"미사일": 0.08,
 "속보": 0.05,
-"지하철": 0.33,
-"사고": 2.9,
+"지하철": 0.3,
+"사고": 2.81,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -5086,8 +5094,44 @@
 },
 "trends": [
 {
+"term": "직장인대호",
+"traffic": "1000+",
+"time": "2026-11-13T10:30:00+00:00",
+"news": [
+{
+"title": "김대호, 14년 다닌 MBC 떠났는데…또 회사원 됐다",
+"source": "스포츠동아",
+"link": "https://sports.donga.com/ent/article/all/20261113/135020519/1"
+},
+{
+"title": "김대호, MBC 퇴사 1년 반 만에 삼성행…TV조선 '직장인대호' 출격",
+"source": "iMBC 연예",
+"link": "https://enews.imbc.com/News/RetrieveNewsInfo/524726"
+}
+],
+"new": true
+},
+{
+"term": "박수홍 패소",
+"traffic": "200+",
+"time": "2026-11-13T10:30:00+00:00",
+"news": [
+{
+"title": "박수홍, 친형 부부 상대 98억원대 민사소송 1심서 패소",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261113113300004"
+},
+{
+"title": "친형 부부 횡령 유죄인데…박수홍, 5년 싸운 ‘98억 손배소’ 1심 패소",
+"source": "조선일보",
+"link": "https://www.chosun.com/entertainments/broadcast/2026/11/13/MIYTCNLBMU2TKOLBMRSGIZTEGA/"
+}
+],
+"new": true
+},
+{
 "term": "김진욱",
-"traffic": "500+",
+"traffic": "1000+",
 "time": "2026-11-13T10:20:00+00:00",
 "news": [
 {
@@ -5105,7 +5149,7 @@
 },
 {
 "term": "뉴욕",
-"traffic": "100+",
+"traffic": "200+",
 "time": "2026-11-13T10:20:00+00:00",
 "news": [
 {
@@ -5123,7 +5167,7 @@
 },
 {
 "term": "정무성",
-"traffic": "100+",
+"traffic": "200+",
 "time": "2026-11-13T10:20:00+00:00",
 "news": [
 {
@@ -5140,46 +5184,10 @@
 "new": false
 },
 {
-"term": "claude",
-"traffic": "500+",
-"time": "2026-11-13T10:10:00+00:00",
-"news": [
-{
-"title": "Anthropic Claude down: Why it said it was unable to authenticate code",
-"source": "Mashable",
-"link": "https://mashable.com/tech/anthropic-claude-down-unable-to-authenticate-code"
-},
-{
-"title": "Claude down: Users report login issues and service disruptions affecting Claude.ai and Claude Code",
-"source": "Moneycontrol.com",
-"link": "https://www.moneycontrol.com/technology/claude-down-users-report-login-issues-and-service-disruptions-affecting-claude-ai-and-claude-code-article-14079689.html"
-}
-],
-"new": true
-},
-{
 "term": "원주 db 대 수원 kt",
 "traffic": "500+",
 "time": "2026-11-13T09:50:00+00:00",
 "news": [],
-"new": true
-},
-{
-"term": "김대호",
-"traffic": "500+",
-"time": "2026-11-13T09:50:00+00:00",
-"news": [
-{
-"title": "김대호, 14년 다닌 MBC 떠났는데…또 회사원 됐다",
-"source": "스포츠동아",
-"link": "https://sports.donga.com/ent/article/all/20261113/135020519/1"
-},
-{
-"title": "김대호, MBC 퇴사 1년 반 만에 삼성행…TV조선 '직장인대호' 출격",
-"source": "iMBC 연예",
-"link": "https://enews.imbc.com/News/RetrieveNewsInfo/524726"
-}
-],
 "new": true
 },
 {
@@ -5220,7 +5228,7 @@
 },
 {
 "term": "단타",
-"traffic": "2000+",
+"traffic": "5000+",
 "time": "2026-11-13T09:20:00+00:00",
 "news": [
 {
@@ -5256,7 +5264,6 @@
 }
 ],
 "trendSeen": [
-"임형주",
 "입학",
 "잉글랜드 대 크로아티아",
 "자기주식",
@@ -5356,6 +5363,7 @@
 "지스타",
 "지진",
 "지하철 파업",
+"직장인대호",
 "진쓰레블 사망",
 "진양곤",
 "진학사",
