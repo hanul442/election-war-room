@@ -1,7 +1,42 @@
 {
-"updated": "2026-11-13T00:57:25.996674+00:00",
+"updated": "2026-11-13T00:59:39.965765+00:00",
 "errors": [],
 "events": [
+{
+"id": "M4UMWSCJEHXBA3YCE2UKTR740055",
+"first": "2026-11-13T00:55:14+00:00",
+"last": "2026-11-13T00:55:14+00:00",
+"updated": "2026-11-13T00:59:39.965765+00:00",
+"headline": "친청계 3명 전원 최고위 불참, 별도 회견서 “김민석이 감찰 대상”",
+"cat": "기타",
+"regions": [],
+"sources": [
+"조선일보"
+],
+"updates": [
+{
+"title": "[속보] 친청계 3명 전원 최고위 불참, 별도 회견서 “김민석이 감찰 대상”",
+"source": "조선일보",
+"link": "https://www.chosun.com/politics/assembly/2026/11/13/VTM4UMWSCJEHXBA3YCE2UKTR74/",
+"time": "2026-11-13T00:55:14+00:00",
+"stage": "얼럿"
+}
+],
+"level": "URGENT",
+"latest": "친청계 3명 전원 최고위 불참, 별도 회견서 “김민석이 감찰 대상”",
+"tok": [
+"3명",
+"감찰",
+"김민석",
+"대상",
+"별도",
+"불참",
+"전원",
+"최고위",
+"친청계",
+"회견서"
+]
+},
 {
 "id": "tIYlRYZ0NFcE5NVF9YS1Aoc50051",
 "first": "2026-11-13T00:51:11+00:00",
@@ -481,11 +516,12 @@
 "id": "viewAKR202611130473000010036",
 "first": "2026-11-13T00:36:55+00:00",
 "last": "2026-11-13T00:43:33+00:00",
-"updated": "2026-11-13T00:52:54.642538+00:00",
+"updated": "2026-11-13T00:59:39.965765+00:00",
 "headline": "李대통령 \"정부의 자본시장 개혁 의지, 다시 한번 시험대\"",
 "cat": "정치",
 "regions": [],
 "sources": [
+"SBS Biz",
 "매일경제 마켓",
 "서울경제",
 "스페셜타임스",
@@ -509,6 +545,13 @@
 "link": "https://www.yna.co.kr/view/AKR20261113034900002",
 "time": "2026-11-13T00:30:00+00:00",
 "stage": "후속"
+},
+{
+"title": "[속보] 李대통령 자본시장 정상화, 정부의 확고한 정책 방향이자 의지",
+"source": "SBS Biz",
+"link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9vRXZlOWdNUFZQb0xzUUcteTJ2RVdGelV3MnhiTTdKLWk2YnZjN0stMm1jbVVQM2UyRVRBYmpwVVlOMHNneUJxLVFGcXJZRE03cjk00gFYQVVfeXFMT1NHQzBzSkt3dGxQUlhPNEdfVDhHNkw2QVNqY2w2MDBQOXdGb3FSMS1KWGJ6ai1YRmlybWFLbXh6bTY4X1VHelJOWFc4bmVfTzNWUWJucE5ZbA?oc=5",
+"time": "2026-11-13T00:36:00+00:00",
+"stage": "속보"
 },
 {
 "title": "[속보] 李대통령 \"정부의 자본시장 개혁 의지, 다시 한번 시험대\"",
@@ -573,6 +616,7 @@
 "다시",
 "대통령",
 "방향",
+"방향이자",
 "시험대",
 "올라",
 "의지",
@@ -3308,42 +3352,6 @@
 "재난대책",
 "점검회"
 ]
-},
-{
-"id": "ssutm_campaigntotal_news2222",
-"first": "2026-11-12T22:22:00+00:00",
-"last": "2026-11-12T22:22:00+00:00",
-"updated": "2026-11-12T22:24:29.131818+00:00",
-"headline": "뉴욕 브루클린서 3층짜리 아파트 붕괴 사고···어린이 2명 포함 8명 사망",
-"cat": "재난",
-"regions": [],
-"sources": [
-"경향신문"
-],
-"updates": [
-{
-"title": "뉴욕 브루클린서 3층짜리 아파트 붕괴 사고···어린이 2명 포함 8명 사망",
-"source": "경향신문",
-"link": "https://www.khan.co.kr/article/202611130722001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
-"time": "2026-11-12T22:22:00+00:00",
-"stage": "1보"
-}
-],
-"level": "ALERT",
-"latest": "뉴욕 브루클린서 3층짜리 아파트 붕괴 사고···어린이 2명 포함 8명 사망",
-"tok": [
-"2명",
-"3층짜리",
-"8명",
-"뉴욕",
-"붕괴",
-"브루클린서",
-"사고",
-"사망",
-"아파트",
-"어린",
-"포함"
-]
 }
 ],
 "sns": {
@@ -3375,7 +3383,7 @@
 },
 "붕괴": {
 "n30": 1,
-"base": 0.5,
+"base": 0.6,
 "spike": false
 },
 "대피": {
@@ -3389,18 +3397,18 @@
 "spike": false
 },
 "속보": {
-"n30": 3,
+"n30": 2,
 "base": 0.1,
 "spike": false
 },
 "지하철": {
 "n30": 5,
-"base": 3.5,
+"base": 3.6,
 "spike": false
 },
 "사고": {
-"n30": 3,
-"base": 3.6,
+"n30": 2,
+"base": 3.5,
 "spike": false
 },
 "실종": {
@@ -3535,16 +3543,6 @@
 "time": "2026-11-13T00:30:04Z",
 "term": "폭발",
 "url": "https://www.youtube.com/watch?v=M6CgB7pXk6M"
-},
-{
-"text": "뭐랄까 요즘 LLM들의 발전 방향이 자꾸 코딩이나 에이전틱AI로 넘어가는 것만 같다. 내가 원하는 건 함께 고민하고 추론하고 토론하고 할 수 있는, 답을 제시하는 게 아니라 사고의 길을 다듬어 가고 생각의 깊이를 더해줄 수 있는 모델인데 그런 모델이 없는 거 같네. LLM대중화 초기에 챗GPT가 조금 그런 인상을 줘서 더 발전하면 가능할수도 있겠다 했었는데 역시 철학/인문학은 돈이 안 된다는",
-"handle": "reake.bsky.social",
-"name": "Re.K",
-"time": "2026-11-13T00:29:21.879Z",
-"likes": 1,
-"reposts": 0,
-"url": "https://bsky.app/profile/reake.bsky.social/post/3n25q4dc63k2i",
-"term": "사고"
 },
 {
 "platform": "YouTube",
@@ -3706,13 +3704,13 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.27,
-"붕괴": 0.56,
+"폭발": 0.24,
+"붕괴": 0.6,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 3.56,
-"사고": 3.55,
+"지하철": 3.6,
+"사고": 3.4,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
