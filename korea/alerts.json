@@ -1,7 +1,35 @@
 {
-"updated": "2026-11-13T23:35:07.501895+00:00",
+"updated": "2026-11-13T23:37:24.049347+00:00",
 "errors": [],
 "events": [
+{
+"id": "UJOSmRtTjhTY0cyREtrZwoc52331",
+"first": "2026-11-13T23:31:48+00:00",
+"last": "2026-11-13T23:31:48+00:00",
+"updated": "2026-11-13T23:37:24.049347+00:00",
+"headline": "중앙선지고속도로 소형화물차 단독 사고처리중",
+"cat": "교통",
+"regions": [],
+"sources": [
+"스페셜타임스"
+],
+"updates": [
+{
+"title": "[속보] 중앙선지고속도로 소형화물차 단독 사고처리중",
+"source": "스페셜타임스",
+"link": "https://news.google.com/rss/articles/CBMickFVX3lxTE0zYUlZVGx0WmRmVkZ6WjdDWXhMSGdqbkFORzl4MDNaRkJnMmJVWmlQWE1iNE40Q3otcGlxanM1MGlZLUJoeU1DN0NmbnpYUHpJZkcwcFlteVlhWWNPWUNuTEVQVUJOSmRtTjhTY0cyREtrZw?oc=5",
+"time": "2026-11-13T23:31:48+00:00",
+"stage": "얼럿"
+}
+],
+"level": "URGENT",
+"latest": "중앙선지고속도로 소형화물차 단독 사고처리중",
+"tok": [
+"사고처리중",
+"소형화물차",
+"중앙선지고속도"
+]
+},
 {
 "id": "k2WFdzTXc4YXUtc2dRMmsoc52325",
 "first": "2026-11-13T23:25:45+00:00",
@@ -1268,8 +1296,8 @@
 "spike": false
 },
 "폭발": {
-"n30": 9,
-"base": 0.7,
+"n30": 7,
+"base": 0.8,
 "spike": true
 },
 "붕괴": {
@@ -1288,7 +1316,7 @@
 "spike": false
 },
 "속보": {
-"n30": 4,
+"n30": 3,
 "base": 0.7,
 "spike": false
 },
@@ -1299,7 +1327,7 @@
 },
 "사고": {
 "n30": 0,
-"base": 1.7,
+"base": 1.5,
 "spike": false
 },
 "실종": {
@@ -1579,10 +1607,10 @@
 "spikes": [
 {
 "term": "폭발",
-"n30": 9,
-"base": 0.7,
+"n30": 7,
+"base": 0.8,
 "spike": true,
-"since": "2026-11-13T23:35:07.501895+00:00"
+"since": "2026-11-13T23:37:24.049347+00:00"
 }
 ],
 "baseline": {
@@ -1590,13 +1618,13 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.83,
+"폭발": 0.95,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.72,
-"지하철": 0.19,
-"사고": 1.52,
+"속보": 0.75,
+"지하철": 0.17,
+"사고": 1.37,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
