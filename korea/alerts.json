@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-13T07:54:48.001935+00:00",
+"updated": "2026-11-13T07:56:58.472521+00:00",
 "errors": [],
 "events": [
 {
@@ -4415,7 +4415,7 @@
 "spike": true
 },
 "붕괴": {
-"n30": 1,
+"n30": 2,
 "base": 0.3,
 "spike": false
 },
@@ -4441,7 +4441,7 @@
 },
 "사고": {
 "n30": 3,
-"base": 2.2,
+"base": 2.3,
 "spike": false
 },
 "실종": {
@@ -4460,8 +4460,8 @@
 "spike": false
 },
 "먹통": {
-"n30": 2,
-"base": 1.4,
+"n30": 1,
+"base": 1.5,
 "spike": false
 },
 "산불": {
@@ -4471,6 +4471,16 @@
 }
 },
 "posts": [
+{
+"text": "[AI 사이버전 빌드업] MS 자체 서버들이 차례로 오프라인 상태가 되기 시작했다 => 트래픽 폭증이 아닌 '자체 인프라의 연쇄 붕괴'\n\nx.com/TGLetter/sta...",
+"handle": "newsky144th.bsky.social",
+"name": "하통시대",
+"time": "2026-11-13T07:55:02.470Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/newsky144th.bsky.social/post/3n26izc5iws2m",
+"term": "붕괴"
+},
 {
 "text": "아이스크림 먹고 싶다...나가기 싫어서 참음. ... 남편이 있으면 아수쿠림 사다줄까....?? (매우 왜곡된 사고를 하고 있음",
 "handle": "apricot2910.bsky.social",
@@ -4731,16 +4741,6 @@
 "reposts": 0,
 "url": "https://bsky.app/profile/kimnemo.bsky.social/post/3n26hk3ytc225",
 "term": "사고"
-},
-{
-"text": "오피스 먹통되서 마스터소드 뽑게 생김",
-"handle": "dramaticctr.bsky.social",
-"name": "도사 ⚠️만천스포⚠️",
-"time": "2026-11-13T07:26:19.371Z",
-"likes": 2,
-"reposts": 0,
-"url": "https://bsky.app/profile/dramaticctr.bsky.social/post/3n26hg3eue227",
-"term": "먹통"
 }
 ],
 "spikes": [
@@ -4749,32 +4749,32 @@
 "n30": 8,
 "base": 1.3,
 "spike": true,
-"since": "2026-11-13T07:54:48.001935+00:00"
+"since": "2026-11-13T07:56:58.472521+00:00"
 },
 {
 "term": "속보",
 "n30": 7,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-13T07:54:48.001935+00:00"
+"since": "2026-11-13T07:56:58.472521+00:00"
 }
 ],
 "baseline": {
-"지진": 0.06,
+"지진": 0.05,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 1.28,
-"붕괴": 0.27,
+"폭발": 1.25,
+"붕괴": 0.34,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 2.42,
-"사고": 2.29,
-"실종": 0.6,
+"지하철": 2.48,
+"사고": 2.36,
+"실종": 0.64,
 "단수": 0.05,
 "통신 장애": 0.05,
-"먹통": 1.5,
+"먹통": 1.45,
 "산불": 0.05
 },
 "errors": [],
@@ -4996,9 +4996,9 @@
 "time": "2026-11-13T06:30:00+00:00",
 "news": [
 {
-"title": "국산 LNG선 결함, 가스公 2685억 배상 판결…2심서 800억 늘어",
-"source": "조선일보",
-"link": "https://www.chosun.com/economy/economy_general/2026/11/13/MGW2ELZPSVG6DFFWJELTEZSFKI/"
+"title": "한국가스공사, LNG선 화물창 결함에 2684억원 배상… 2심서 800억원 늘어",
+"source": "Chosunbiz",
+"link": "https://biz.chosun.com/topics/law_firm/2026/11/13/LTVT7C2Q6JFWXIKKZS3M7FUA7Y/"
 },
 {
 "title": "[단독] “가스공사, 2200억원 물어줘라”…‘한국형 LNG 화물창’ 초유의 소송전 SK해운 웃었다 [세상&]",
@@ -5073,9 +5073,9 @@
 "link": "https://www.yonhapnewstv.co.kr/news/MYH20261113142509Zjm"
 },
 {
-"title": "‘145억원 주가조작’ 혐의 재벌 3세 구본현, 8년 해외도피 끝에 캄보디아서 검거",
-"source": "경향신문",
-"link": "https://www.khan.co.kr/article/202611131437001"
+"title": "8년간 해외도피 범LG가 3세 구본현…캄보디아서 붙잡혀 송환 - 머니투데이",
+"source": "머니투데이",
+"link": "https://www.mt.co.kr/index.php/society/2026/11/13/2026111315150550672"
 }
 ],
 "new": true
