@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-13T23:21:11.666822+00:00",
+"updated": "2026-11-13T23:23:35.331113+00:00",
 "errors": [],
 "events": [
 {
@@ -1214,17 +1214,17 @@
 },
 "속보": {
 "n30": 1,
-"base": 0.4,
+"base": 0.5,
 "spike": false
 },
 "지하철": {
-"n30": 1,
-"base": 0.4,
+"n30": 0,
+"base": 0.3,
 "spike": false
 },
 "사고": {
 "n30": 3,
-"base": 1.9,
+"base": 2.0,
 "spike": false
 },
 "실종": {
@@ -1259,7 +1259,7 @@
 "handle": "slutlsut8181.bsky.social",
 "name": "유부녀연랑",
 "time": "2026-11-13T23:19:58.385Z",
-"likes": 0,
+"likes": 5,
 "reposts": 0,
 "url": "https://bsky.app/profile/slutlsut8181.bsky.social/post/3n2a4p4fths2q",
 "term": "폭발"
@@ -1482,13 +1482,13 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.15,
+"폭발": 0.24,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.48,
-"지하철": 0.35,
-"사고": 1.97,
+"속보": 0.53,
+"지하철": 0.32,
+"사고": 2.07,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -1673,8 +1673,26 @@
 },
 "trends": [
 {
+"term": "집",
+"traffic": "200+",
+"time": "2026-11-13T22:20:00+00:00",
+"news": [
+{
+"title": "탕웨이가 2년 만에 손절한 '분당 신혼집' 땅, 그때 안 팔았더라면…",
+"source": "땅집고",
+"link": "https://realty.chosun.com/site/data/html_dir/2026/11/10/2026111002798.html"
+},
+{
+"title": "강민경, 이해리에게 작업실 넘겼다…고가 커피머신까지 300만원",
+"source": "스포츠동아",
+"link": "https://sports.donga.com/ent/article/all/20261114/135023548/1"
+}
+],
+"new": false
+},
+{
 "term": "참교육",
-"traffic": "2000+",
+"traffic": "5000+",
 "time": "2026-11-13T22:10:00+00:00",
 "news": [
 {
@@ -1763,6 +1781,24 @@
 "new": false
 },
 {
+"term": "thời tiết",
+"traffic": "2000+",
+"time": "2026-11-13T21:50:00+00:00",
+"news": [
+{
+"title": "Thời tiết Nghệ An hôm nay 14/11/2026: Trời ấm lên 28°C, sáng có sương mù, ít mưa",
+"source": "Vietnam.vn",
+"link": "https://www.vietnam.vn/thoi-tiet-nghe-an-hom-nay-14-11-2026-troi-am-len-28c-sang-co-suong-mu-it-mua"
+},
+{
+"title": "[Video] Dự báo thời tiết ngày 14/11/2026: Bắc Bộ và Trung Bộ giảm mưa, nhiều nơi đón nắng trở lại",
+"source": "Báo Nhân Dân điện tử",
+"link": "https://nhandan.vn/video-du-bao-thoi-tiet-ngay-14112026-bac-bo-va-trung-bo-giam-mua-nhieu-noi-don-nang-tro-lai-post1002478.html"
+}
+],
+"new": true
+},
+{
 "term": "天氣",
 "traffic": "200+",
 "time": "2026-11-13T21:50:00+00:00",
@@ -1812,42 +1848,6 @@
 "title": "本港广泛地区下暴雨进行电力工作须注意安全｜即时新闻｜中港台｜on.cc东网",
 "source": "on.cc東網",
 "link": "https://hk.on.cc/hk/bkn/cnt/news/20261114/bkn-20261114040551299-1114_00822_001_cn.html"
-}
-],
-"new": true
-},
-{
-"term": "สภาพอากาศ",
-"traffic": "1000+",
-"time": "2026-11-13T21:30:00+00:00",
-"news": [
-{
-"title": "สภาพอากาศวันนี้ -19 พ.ย.ลมหนาวพักยก ไทยอุณหภูมิสูงขึ้น ฝนฟ้าคะนองบางแห่ง",
-"source": "thansettakij",
-"link": "https://www.thansettakij.com/general-news/673733"
-},
-{
-"title": "ชุมพรอ่วมฝนถล่มข้ามคืน น้ำท่วมถนนหลายสาย โรงพยาบาลเร่งป้องกันน้ำเข้า CT-SCAN",
-"source": "www.topnews.co.th",
-"link": "https://www.topnews.co.th/news/1746285"
-}
-],
-"new": true
-},
-{
-"term": "погода",
-"traffic": "500+",
-"time": "2026-11-13T21:30:00+00:00",
-"news": [
-{
-"title": "Приближается похолодание: как изменит погоду в Украине на выходных антициклон",
-"source": "РБК-Україна",
-"link": "https://www.rbc.ua/ukr/news/nablizhaetsya-poholodannya-k-zminit-pogodu-1794572566.html"
-},
-{
-"title": "После теплой и влажной пятницы на выходных прогнозируется похолодание",
-"source": "Українська правда",
-"link": "https://www.pravda.com.ua/rus/news/2026/11/12/8062489/"
 }
 ],
 "new": true
