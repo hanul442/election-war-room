@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-13T02:02:43.479666+00:00",
+"updated": "2026-11-13T02:05:06.707871+00:00",
 "errors": [],
 "events": [
 {
@@ -3489,11 +3489,11 @@
 "terms": {
 "지진": {
 "n30": 2,
-"base": 0.2,
+"base": 0.3,
 "spike": false
 },
 "화재": {
-"n30": 2,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
@@ -3539,7 +3539,7 @@
 },
 "사고": {
 "n30": 2,
-"base": 3.2,
+"base": 3.1,
 "spike": false
 },
 "실종": {
@@ -3774,18 +3774,18 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 0.32,
+"지진": 0.39,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
 "폭발": 0.05,
-"붕괴": 0.07,
+"붕괴": 0.06,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 1.56,
-"사고": 3.1,
-"실종": 0.45,
+"지하철": 1.5,
+"사고": 2.99,
+"실종": 0.41,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -3960,6 +3960,24 @@
 },
 "trends": [
 {
+"term": "gemini hydrogen",
+"traffic": "200+",
+"time": "2026-11-13T00:50:00+00:00",
+"news": [
+{
+"title": "Introducing Gemini 4 Hydrogen for Agentic Workflows",
+"source": "blog.google",
+"link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/"
+},
+{
+"title": "Google rolls out Gemini 4 Hydrogen, finally replacing 3.8 Flash",
+"source": "Ars Technica",
+"link": "https://arstechnica.com/google/2026/11/google-rolls-out-gemini-4-hydrogen-finally-replacing-3-8-flash/"
+}
+],
+"new": true
+},
+{
 "term": "평가",
 "traffic": "1000+",
 "time": "2026-11-13T00:40:00+00:00",
@@ -4015,7 +4033,7 @@
 },
 {
 "term": "메르세데스-벤츠",
-"traffic": "1000+",
+"traffic": "5000+",
 "time": "2026-11-13T00:20:00+00:00",
 "news": [
 {
@@ -4032,26 +4050,8 @@
 "new": true
 },
 {
-"term": "gemini 4 hydrogen",
-"traffic": "200+",
-"time": "2026-11-13T00:10:00+00:00",
-"news": [
-{
-"title": "Introducing Gemini 4 Hydrogen for Agentic Workflows",
-"source": "blog.google",
-"link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/"
-},
-{
-"title": "Google rolls out Gemini 4 Hydrogen, finally replacing 3.8 Flash",
-"source": "Ars Technica",
-"link": "https://arstechnica.com/google/2026/11/google-rolls-out-gemini-4-hydrogen-finally-replacing-3-8-flash/"
-}
-],
-"new": true
-},
-{
 "term": "양승조",
-"traffic": "200+",
+"traffic": "500+",
 "time": "2026-11-12T23:50:00+00:00",
 "news": [
 {
@@ -4069,7 +4069,7 @@
 },
 {
 "term": "m365",
-"traffic": "200+",
+"traffic": "500+",
 "time": "2026-11-12T23:50:00+00:00",
 "news": [
 {
