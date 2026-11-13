@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-13T08:36:57.386947+00:00",
+"updated": "2026-11-13T08:39:08.855365+00:00",
 "errors": [],
 "events": [
 {
@@ -4181,17 +4181,17 @@
 },
 "정전": {
 "n30": 0,
-"base": 0.6,
+"base": 0.5,
 "spike": false
 },
 "폭발": {
 "n30": 2,
-"base": 1.0,
+"base": 0.9,
 "spike": false
 },
 "붕괴": {
-"n30": 6,
-"base": 2.2,
+"n30": 3,
+"base": 2.3,
 "spike": false
 },
 "대피": {
@@ -4205,13 +4205,13 @@
 "spike": false
 },
 "속보": {
-"n30": 8,
+"n30": 7,
 "base": 0.7,
 "spike": true
 },
 "지하철": {
-"n30": 2,
-"base": 1.8,
+"n30": 3,
+"base": 1.7,
 "spike": false
 },
 "사고": {
@@ -4246,6 +4246,16 @@
 }
 },
 "posts": [
+{
+"text": "지하철에사람존나많아",
+"handle": "zyali.bsky.social",
+"name": "쟈리",
+"time": "2026-11-13T08:37:56.576Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/zyali.bsky.social/post/3n26lg57uqc2m",
+"term": "지하철"
+},
 {
 "text": "- 이 여파로 엔비디아 주가가 장 초반 최대 14% 급락, 6,010억 달러 (803조 9,577억 원) 증발해 2025년 이후 처음으로 시가총액 4조 달러 (5,350조 8,000억 원) 선이 붕괴되었으며, 월가의 연쇄 투자의견 하향과 디폴트 리스크 급증으로 이어졌음\n\n- 이번 사태는 빅테크의 AI 과잉 투자로 인한 현금흐름 악화 및 미국 중간선거에서 드러난 데이터센터 건립 반대 여론과 맞",
 "handle": "lunamothryu.bsky.social",
@@ -4321,7 +4331,7 @@
 "name": "모비/계수",
 "time": "2026-11-13T08:18:48.876Z",
 "likes": 12,
-"reposts": 9,
+"reposts": 10,
 "url": "https://bsky.app/profile/movigrim.bsky.social/post/3n26kdxkess2j",
 "term": "지하철"
 },
@@ -4444,16 +4454,6 @@
 "url": "https://www.youtube.com/watch?v=eVhTd-S7fvU"
 },
 {
-"text": "Jensen Huang is gone. Will the AI industry pay the price?\n\nwww.ft.com/content/dd90...\n\n- 엔비디아 공동 창업자 젠슨 황이 스캔들로 전격 사임하면서, 그가 직접 주도해 온 막대한 자금 지원과 보증에 의존하던 AI 산업 생태계의 금융 연결망이 붕괴 위기에 처했음 (🧵1/2)",
-"handle": "lunamothryu.bsky.social",
-"name": "lunamoth",
-"time": "2026-11-13T08:08:18.575Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/lunamothryu.bsky.social/post/3n26jr65wke2r",
-"term": "붕괴"
-},
-{
 "platform": "YouTube",
 "text": "[미코 주가전망] *마감 속보* 오늘 양봉만 보고 안심하면 큰일납니다, 숨겨진 세력의 원가 라인 공개",
 "handle": "UCDxcUb833NGzX543SrpZY0g",
@@ -4502,28 +4502,28 @@
 "spikes": [
 {
 "term": "속보",
-"n30": 8,
+"n30": 7,
 "base": 0.7,
 "spike": true,
-"since": "2026-11-13T08:36:57.386947+00:00"
+"since": "2026-11-13T08:39:08.855365+00:00"
 }
 ],
 "baseline": {
 "지진": 0.05,
 "화재": 0.05,
 "불났": 0.05,
-"정전": 0.5,
-"폭발": 0.93,
-"붕괴": 2.29,
+"정전": 0.45,
+"폭발": 0.84,
+"붕괴": 2.26,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.71,
-"지하철": 1.68,
-"사고": 4.24,
-"실종": 0.18,
+"속보": 0.74,
+"지하철": 1.71,
+"사고": 4.32,
+"실종": 0.16,
 "단수": 0.05,
 "통신 장애": 0.05,
-"먹통": 0.55,
+"먹통": 0.5,
 "산불": 0.05
 },
 "errors": [],
