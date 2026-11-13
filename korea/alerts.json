@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-13T21:43:44.574400+00:00",
+"updated": "2026-11-13T21:46:01.794086+00:00",
 "errors": [],
 "events": [
 {
@@ -817,12 +817,12 @@
 "spike": false
 },
 "속보": {
-"n30": 5,
-"base": 0.4,
-"spike": true
+"n30": 2,
+"base": 0.5,
+"spike": false
 },
 "지하철": {
-"n30": 2,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -1049,15 +1049,7 @@
 "url": "https://www.youtube.com/watch?v=6z8yiWx05nI"
 }
 ],
-"spikes": [
-{
-"term": "속보",
-"n30": 5,
-"base": 0.4,
-"spike": true,
-"since": "2026-11-13T21:43:44.574400+00:00"
-}
-],
+"spikes": [],
 "baseline": {
 "지진": 0.05,
 "화재": 0.05,
@@ -1067,7 +1059,7 @@
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.45,
+"속보": 0.51,
 "지하철": 0.05,
 "사고": 0.05,
 "실종": 0.05,
@@ -1263,6 +1255,24 @@
 },
 "trends": [
 {
+"term": "디에고 시메오네",
+"traffic": "200+",
+"time": "2026-11-13T20:40:00+00:00",
+"news": [
+{
+"title": "아틀레티코 날벼락! 이강인 애지중지하는 시메오네 감독 떠나나…“여전히 구단으로부터 어떠한 제안도 받지 못했다”",
+"source": "인터풋볼",
+"link": "https://www.interfootball.co.kr/news/articleView.html?idxno=698372"
+},
+{
+"title": "'이강인 포함 18명 이탈' ATM 또 대형악재! '훈련 정상진행 불가' 긴급 수혈…시메오네 한숨 깊어진다",
+"source": "조선일보",
+"link": "https://www.chosun.com/sports/world-football/2026/11/10/GM2WIMBUMFRGCZTEGBTDGNDFHA/"
+}
+],
+"new": true
+},
+{
 "term": "이재영",
 "traffic": "200+",
 "time": "2026-11-13T20:40:00+00:00",
@@ -1299,24 +1309,6 @@
 "new": true
 },
 {
-"term": "디에고 시메오네",
-"traffic": "100+",
-"time": "2026-11-13T20:40:00+00:00",
-"news": [
-{
-"title": "아틀레티코 날벼락! 이강인 애지중지하는 시메오네 감독 떠나나…“여전히 구단으로부터 어떠한 제안도 받지 못했다”",
-"source": "인터풋볼",
-"link": "https://www.interfootball.co.kr/news/articleView.html?idxno=698372"
-},
-{
-"title": "'이강인 포함 18명 이탈' ATM 또 대형악재! '훈련 정상진행 불가' 긴급 수혈…시메오네 한숨 깊어진다",
-"source": "조선일보",
-"link": "https://www.chosun.com/sports/world-football/2026/11/10/GM2WIMBUMFRGCZTEGBTDGNDFHA/"
-}
-],
-"new": true
-},
-{
 "term": "군수산업",
 "traffic": "100+",
 "time": "2026-11-13T20:40:00+00:00",
@@ -1339,11 +1331,11 @@
 "link": "https://www.yonhapnewstv.co.kr/news/MYH20261113181944dP5"
 }
 ],
-"new": true
+"new": false
 },
 {
 "term": "김유정",
-"traffic": "500+",
+"traffic": "1000+",
 "time": "2026-11-13T20:30:00+00:00",
 "news": [
 {
@@ -1358,6 +1350,24 @@
 }
 ],
 "new": true
+},
+{
+"term": "테일러 프리츠",
+"traffic": "100+",
+"time": "2026-11-13T20:30:00+00:00",
+"news": [
+{
+"title": "November 14, 2026: Thiago Agustin Tirante vs Taylor Fritz Prediction Market",
+"source": "Robinhood",
+"link": "https://robinhood.com/us/en/prediction-markets/tennis/events/333f3ff8-ae38-433b-9987-6661b73fb1d0/"
+},
+{
+"title": "November 11, 2026: Sofia Costoulas vs Laura Samson Prediction Market",
+"source": "Robinhood",
+"link": "https://robinhood.com/us/en/prediction-markets/tennis/events/b0ff9c88-5b8a-429f-8c5e-b80fd0507470/"
+}
+],
+"new": false
 },
 {
 "term": "브로드컴",
@@ -1409,24 +1419,6 @@
 "title": "도지코인 랩스 창업자 \"도지코인(DOGE), 머스크 트윗에 흔들리던 시절은 갔다\"",
 "source": "코인리더스",
 "link": "https://www.coinreaders.com/269920"
-}
-],
-"new": true
-},
-{
-"term": "신진서",
-"traffic": "100+",
-"time": "2026-11-13T20:20:00+00:00",
-"news": [
-{
-"title": "변상일, 왕싱하오 제압…신진서와 나란히 삼성화재배 8강행",
-"source": "동아일보",
-"link": "https://www.donga.com/news/Sports/article/all/20261113/135023254/1"
-},
-{
-"title": "신진서, 양딩신 꺾고 삼성화재배 월드바둑 8강 진출",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261111172151007"
 }
 ],
 "new": true
