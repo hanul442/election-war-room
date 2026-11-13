@@ -1,7 +1,40 @@
 {
-"updated": "2026-11-13T00:34:45.072738+00:00",
+"updated": "2026-11-13T00:36:59.690911+00:00",
 "errors": [],
 "events": [
+{
+"id": "wNISX20261112_00038661960033",
+"first": "2026-11-13T00:33:21+00:00",
+"last": "2026-11-13T00:33:21+00:00",
+"updated": "2026-11-13T00:36:59.690911+00:00",
+"headline": "하토야마 전 日총리 “다카이치, 대만 유사시 발언 즉각 철회했어야”",
+"cat": "정치",
+"regions": [],
+"sources": [
+"뉴시스"
+],
+"updates": [
+{
+"title": "[단독]하토야마 전 日총리 “다카이치, 대만 유사시 발언 즉각 철회했어야”",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261112_0003866196",
+"time": "2026-11-13T00:33:21+00:00",
+"stage": "단독"
+}
+],
+"level": "URGENT",
+"latest": "하토야마 전 日총리 “다카이치, 대만 유사시 발언 즉각 철회했어야”",
+"tok": [
+"日총리",
+"다카이치",
+"대만",
+"발언",
+"유사시",
+"즉각",
+"철회했어야",
+"하토야마"
+]
+},
 {
 "id": "pWcU4zTnJQU3BnbEE5TU0oc50018",
 "first": "2026-11-13T00:18:18+00:00",
@@ -4219,12 +4252,12 @@
 "sns": {
 "terms": {
 "지진": {
-"n30": 0,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
 "화재": {
-"n30": 0,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
@@ -4239,8 +4272,8 @@
 "spike": false
 },
 "폭발": {
-"n30": 1,
-"base": 0.7,
+"n30": 4,
+"base": 0.8,
 "spike": false
 },
 "붕괴": {
@@ -4249,28 +4282,28 @@
 "spike": false
 },
 "대피": {
-"n30": 0,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
 "미사일": {
-"n30": 0,
+"n30": 3,
 "base": 0.1,
 "spike": false
 },
 "속보": {
-"n30": 0,
+"n30": 7,
 "base": 0.1,
-"spike": false
+"spike": true
 },
 "지하철": {
-"n30": 4,
-"base": 1.7,
-"spike": false
+"n30": 6,
+"base": 2.0,
+"spike": true
 },
 "사고": {
 "n30": 5,
-"base": 3.3,
+"base": 3.5,
 "spike": false
 },
 "실종": {
@@ -4301,6 +4334,16 @@
 },
 "posts": [
 {
+"text": "아 고건 엘리베이터쪽 이야기 입니다ㅋㅋㅋ\n\n지하철 및 전동열차는 그렇게는 안 열립니다.",
+"handle": "enwmua.bsky.social",
+"name": "무아",
+"time": "2026-11-13T00:36:28.476Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/enwmua.bsky.social/post/3n25qj7g7o225",
+"term": "지하철"
+},
+{
 "text": "지하철 문 구조상 기대면 열릴 수 있어서 위험하다고 들었는데 아닌가요? 뭐 인간 하중정도로 열리게 설계되진 않았겠지만",
 "handle": "mikianisback.bsky.social",
 "name": "밐",
@@ -4309,6 +4352,24 @@
 "reposts": 0,
 "url": "https://bsky.app/profile/mikianisback.bsky.social/post/3n25qemyzv22d",
 "term": "지하철"
+},
+{
+"platform": "YouTube",
+"text": "[playlist] 퇴근길 지하철에서 시티팝과 하루를 마무리  #citypop #playlist #시티팝 #퇴근길노래 #퇴근할때",
+"handle": "UCiuMiMNSsSb4qe3WTkFoTIQ",
+"name": "시티온",
+"time": "2026-11-13T00:32:16Z",
+"term": "지하철",
+"url": "https://www.youtube.com/watch?v=1VhPXIQH-14"
+},
+{
+"platform": "YouTube",
+"text": "[🔴속보] \"이 대통령, 尹 탄핵 반대\"…잇단 '언행논란' 최민희 감찰 조사 / 연합뉴스TV(YonhapnewsTV)",
+"handle": "UCTHCOPwqNfZ0uiKOvFyhGwg",
+"name": "연합뉴스TV",
+"time": "2026-11-13T00:31:47Z",
+"term": "속보",
+"url": "https://www.youtube.com/watch?v=KWv-eKWW50I"
 },
 {
 "text": "지하철 문에 기대면 위험하지 않나요",
@@ -4321,6 +4382,24 @@
 "term": "지하철"
 },
 {
+"platform": "YouTube",
+"text": "[AP위성 주가전망] 11월 13일(금) 장전 속보! UAE서 147억 수주, 이번엔 단순 테마가 아니다",
+"handle": "UClBgHFkwWoAGaYpC2fbakWA",
+"name": "Farjan Gamer ",
+"time": "2026-11-13T00:30:15Z",
+"term": "속보",
+"url": "https://www.youtube.com/watch?v=QafFlgkY2Q0"
+},
+{
+"platform": "YouTube",
+"text": "북한 군수공장 폭발, 경고 무시한 간부 대신 기사장이 죄인 된 이유 #북한 #탈북",
+"handle": "UCkwg-ONfPhAYFPTUtbNv74Q",
+"name": "북한이야기",
+"time": "2026-11-13T00:30:04Z",
+"term": "폭발",
+"url": "https://www.youtube.com/watch?v=M6CgB7pXk6M"
+},
+{
 "text": "뭐랄까 요즘 LLM들의 발전 방향이 자꾸 코딩이나 에이전틱AI로 넘어가는 것만 같다. 내가 원하는 건 함께 고민하고 추론하고 토론하고 할 수 있는, 답을 제시하는 게 아니라 사고의 길을 다듬어 가고 생각의 깊이를 더해줄 수 있는 모델인데 그런 모델이 없는 거 같네. LLM대중화 초기에 챗GPT가 조금 그런 인상을 줘서 더 발전하면 가능할수도 있겠다 했었는데 역시 철학/인문학은 돈이 안 된다는",
 "handle": "reake.bsky.social",
 "name": "Re.K",
@@ -4329,6 +4408,42 @@
 "reposts": 0,
 "url": "https://bsky.app/profile/reake.bsky.social/post/3n25q4dc63k2i",
 "term": "사고"
+},
+{
+"platform": "YouTube",
+"text": "[속보] 젠슨 황, 엔비디아 CEO 사퇴... 임시 CEO에 콜레트 크레스 CFO 임명 [이슈PLAY] / JTBC News",
+"handle": "UCsU-I-vHLiaMfV_ceaYz5rQ",
+"name": "JTBC News",
+"time": "2026-11-13T00:28:09Z",
+"term": "속보",
+"url": "https://www.youtube.com/watch?v=aoXp4TSwSD0"
+},
+{
+"platform": "YouTube",
+"text": "속보 | 오늘도 큰 일교차···주말 전국에 비, 제주엔 강한 비 예보 [티조 Clip] #shorts",
+"handle": "UCWlV3Lz_55UaX4JsMj-z__Q",
+"name": "뉴스TVCHOSUN",
+"time": "2026-11-13T00:24:33Z",
+"term": "속보",
+"url": "https://www.youtube.com/watch?v=apoIzc6TFLo"
+},
+{
+"platform": "YouTube",
+"text": "\"불이야! 피하세요\"…주민 대피시키던 경비원 심정지 [굿모닝 MBN]",
+"handle": "UCG9aFJTZ-lMCHAiO1KJsirg",
+"name": "MBN News",
+"time": "2026-11-13T00:23:12Z",
+"term": "대피",
+"url": "https://www.youtube.com/watch?v=YF9yOdxn0V4"
+},
+{
+"platform": "YouTube",
+"text": "지진이 났는데 왜 집에 남으라고 할까? #72hprepper #프레퍼 #재난대비 #일본재난대비 #재택대피 #생존준비 #지진대비 #아파트재난 #비상식량 #생존배낭 #화장실배관",
+"handle": "UCtHfoVAkPJ71tgE2I4_no9Q",
+"name": "72H Prepper",
+"time": "2026-11-13T00:22:12Z",
+"term": "지진",
+"url": "https://www.youtube.com/watch?v=INtCUPX6Lgg"
 },
 {
 "text": "아침부터 지하철에 꽈배기 사들고 타지 말라고 쀼뺘\n\n탈거면 하나만 주라고",
@@ -4341,6 +4456,24 @@
 "term": "지하철"
 },
 {
+"platform": "YouTube",
+"text": "1919년 보스턴을 덮친 '당밀 홍수' 폭발 사고의 진짜 원인 (폭탄 테러 아님)",
+"handle": "UCucnK6oVYwrelnBzsnyLdaA",
+"name": "마인드미러",
+"time": "2026-11-13T00:20:11Z",
+"term": "폭발",
+"url": "https://www.youtube.com/watch?v=oT6AJFfL5zM"
+},
+{
+"platform": "YouTube",
+"text": "에스컬레이터만 3분 반, 평양 지하철 복도에 철문이 달린 이유",
+"handle": "UCasLFvmNFq4VXeoj1VHDS9w",
+"name": "평양 비밀노트",
+"time": "2026-11-13T00:20:03Z",
+"term": "지하철",
+"url": "https://www.youtube.com/watch?v=qEeM37qxb-s"
+},
+{
 "text": "\"XX국의 슈퍼무기가 발견된 건 사실 좀 황당한 우연 때문이었습니다. 우리 공작원이 장기적으로 머물 안가를 물색하다 교외 한적한 빌라촌을 지정했는데. 집 사고 짐 풀자마자 해당 지역이 재개발지역으로 지정되었거든요.\n\n그대로 진행이 되었으면 공작비도 벌고 좋았을텐데. 군 쪽에서 갑자기 석연찮은 이유로 재건축부지를 포함한 광범위한 구역에 20m 고도제한을 걸어버렸어요. 그래서 재건축 조합이 뒤집",
 "handle": "dsscrolls.bsky.social",
 "name": "사해문서",
@@ -4349,6 +4482,24 @@
 "reposts": 2,
 "url": "https://bsky.app/profile/dsscrolls.bsky.social/post/3n25pjtaw222c",
 "term": "사고"
+},
+{
+"platform": "YouTube",
+"text": "[LIVE] [속보] 최민희 \"이 대통령, 일관되게 윤석열 탄핵 주장…이게 팩트\" / JTBC News",
+"handle": "UCsU-I-vHLiaMfV_ceaYz5rQ",
+"name": "JTBC News",
+"time": "2026-11-13T00:18:18Z",
+"term": "속보",
+"url": "https://www.youtube.com/watch?v=h_5oTRXxNnw"
+},
+{
+"platform": "YouTube",
+"text": "[테크윙 주가전망] *7분전 속보* 와..개장 전 긴급 전달합니다, 나스닥 반도체 훈풍에 테크윙 오늘 운명 갈립니다.",
+"handle": "UCtEg_LyuNhbFWvhwV4DZAoQ",
+"name": "슈퍼장대양봉TV",
+"time": "2026-11-13T00:18:17Z",
+"term": "속보",
+"url": "https://www.youtube.com/watch?v=ONGasAReRHw"
 },
 {
 "text": "뇌녹은 가축 구인중이니 발정난 암캐들 언제든 환영한다.협박플 수치플 협박플 노예플 뭐든 상관없다 초보자 상관없다.궁금한 것 호기심 언제든 찾아와 다 받아줄테니.☆비밀보장 유출 사고 절대없음☆\n #섹블 #섹트 #일탈 #능욕 #걸레 #박제 #상납 #신상 #오컨 #펨섭 #암캐 #걸레 #유부녀 #미시 #중년 #근친#조교 #조련 #육변기 #네토 #NTR #노예 #변녀 #남존여비 #고민상담 #고해성사 ",
@@ -4361,6 +4512,24 @@
 "term": "사고"
 },
 {
+"platform": "YouTube",
+"text": "[대한광통신 주가전망] AI 데이터센터 광섬유 수요 폭발! 글로벌 광통신망 투자 확대에 강력한 추가 급등 시작되나?",
+"handle": "UCNPATk-vsILd6z0TO5lEGJg",
+"name": "자유정보보이스",
+"time": "2026-11-13T00:15:23Z",
+"term": "폭발",
+"url": "https://www.youtube.com/watch?v=kt2M_5lom30"
+},
+{
+"platform": "YouTube",
+"text": "4백만 원 드론이 50억 미사일을 이겼다 | A $3,000 Drone vs a $4 Million Missile",
+"handle": "UC-eqwvkkcMFhAnjrwTe6bWg",
+"name": "알고보면",
+"time": "2026-11-13T00:12:58Z",
+"term": "미사일",
+"url": "https://www.youtube.com/watch?v=9ZieSkw16cY"
+},
+{
 "text": "우사기 롭이어 간호사랑, 도넛의사선생님이랑, 쿠리만쥬 간호사랑, 약봉다리가방이랑.. 요렇게라도 사고 싶다ㅜㅜㅋㅋㅋ",
 "handle": "karussell.bsky.social",
 "name": "소소한우주",
@@ -4371,174 +4540,97 @@
 "term": "사고"
 },
 {
-"text": "요즘 대중교통 얘기가 많네. 전남 사는 울 엄마, 광주+전남된다니 제일 먼저 얘기한 게 교통이나 좋아지면 좋겠다였음. 뭐 지하철이나 기차역 같은 대공사 말고 근교 오가는 버스라도 좀 늘려줘라 정말.",
-"handle": "manggle.bsky.social",
-"name": "맹글",
-"time": "2026-11-13T00:05:35.980Z",
-"likes": 2,
-"reposts": 0,
-"url": "https://bsky.app/profile/manggle.bsky.social/post/3n25orzjgg22b",
-"term": "지하철"
-},
-{
-"text": "우마무스메는 쇼츠랑 팬픽만 즐기는 가짜팬인데 백합 팬픽 다음으로 좋아하는 게 레이스/자동차 콜라보 팬픽인데 F1 콜라보 팬픽이 폭발할테니 너무 좋다. 🥳",
-"handle": "eggry.bsky.social",
-"name": "eggry",
-"time": "2026-11-13T00:05:30.270Z",
-"likes": 1,
-"reposts": 0,
-"url": "https://bsky.app/profile/eggry.bsky.social/post/3n25orra74c2a",
-"term": "폭발"
-},
-{
 "platform": "YouTube",
-"text": "#민주당 해체하라 #뉴스 #속보 #긴급속보 #정치 #장동혁 #신동욱 #주진우 #김태규 #윤석열 #주진우 #국민의힘 #정청래 #이재명 #더불어민주당 #한동훈 #전한길 #이준석",
-"handle": "UCDEhd_Fo4TXtAv2HwnJNPQQ",
-"name": "김선애 박사TV",
-"time": "2026-11-13T00:03:36Z",
-"term": "속보",
-"url": "https://www.youtube.com/watch?v=ynM-EE_sjy8"
-},
-{
-"platform": "YouTube",
-"text": "(충격/속보)국회애서 ‘당나라 군대‘ 대폭발#나경원#강신철#국민의힘#국정감사#국방부장관",
-"handle": "UCj1UYz0tDaoBVd8fLpI9Qeg",
-"name": "나빨TV",
-"time": "2026-11-13T00:03:17Z",
+"text": "버지니아 가니 '아..!! 이래서'…미국 폭발 시작했다 #JTBC #Shorts",
+"handle": "UCsU-I-vHLiaMfV_ceaYz5rQ",
+"name": "JTBC News",
+"time": "2026-11-13T00:10:49Z",
 "term": "폭발",
-"url": "https://www.youtube.com/watch?v=U_O8P4uTy8c"
+"url": "https://www.youtube.com/watch?v=OOA5av9SvUQ"
 },
 {
 "platform": "YouTube",
-"text": "(속보)'원인과 결과를 바꿔버려' 신천지 분란까지 남 탓하는 민주당에 폭발한 최욱 #최욱 #김민석 #정치",
-"handle": "UC7KOQJocwTVntCAbgZ0A6Iw",
-"name": "정치폭격",
-"time": "2026-11-13T00:00:39Z",
+"text": "[사건사고] 경산 진량읍 골판지 공장 화재... 11시간 반 만에 완진",
+"handle": "UCEbyGEnwvmfKr64MaCEdKug",
+"name": "대구일보TV",
+"time": "2026-11-13T00:10:24Z",
+"term": "화재",
+"url": "https://www.youtube.com/watch?v=mYJNd71vjwA"
+},
+{
+"platform": "YouTube",
+"text": "속보..!! 젠슨 황 엔비디아 CEO 전격  '사임' 이재용이 존경받는 이유~",
+"handle": "UCALJIrWxBI68-JI84Jge0ag",
+"name": "에스더의 저녁tv",
+"time": "2026-11-13T00:09:54Z",
+"term": "속보",
+"url": "https://www.youtube.com/watch?v=RXF6E1erMng"
+},
+{
+"platform": "YouTube",
+"text": "극초음속 미사일은 왜 막기 어려울까?",
+"handle": "UCkdYAHcdGvFblRJY9Cgbfow",
+"name": "시대탐구소",
+"time": "2026-11-13T00:09:31Z",
+"term": "미사일",
+"url": "https://www.youtube.com/watch?v=WAhzgddbcNs"
+},
+{
+"platform": "YouTube",
+"text": "밤하늘을 가른 미사일 | 이란 타격 작전 #Shorts",
+"handle": "UChsAryzWVklF6ZjegClGeNA",
+"name": "지구력",
+"time": "2026-11-13T00:09:25Z",
+"term": "미사일",
+"url": "https://www.youtube.com/watch?v=m31Kf5Mu02M"
+},
+{
+"platform": "YouTube",
+"text": "장윤정회장에 대한 도경완 불만폭발에 홍현희 사회성",
+"handle": "UCponxp453HE8sqdUlJhmQkA",
+"name": "콘컷",
+"time": "2026-11-13T00:05:24Z",
 "term": "폭발",
-"url": "https://www.youtube.com/watch?v=p5KR8rw4Zpw"
+"url": "https://www.youtube.com/watch?v=XRJbEhSsq9E"
 },
 {
 "platform": "YouTube",
-"text": "일본인이 부러워 죽는 한국 일상 5가지 #대한민국 #와!코리아 #일본 #일본반응 #배달 #지하철 #K뷰티 #전자정부 #shorts",
-"handle": "UCT-16yhSBCEJjk7Wz0kseQw",
-"name": "와! 코리아",
-"time": "2026-11-13T00:00:31Z",
-"term": "지하철",
-"url": "https://www.youtube.com/watch?v=r_59o6_Re6Y"
-},
-{
-"platform": "YouTube",
-"text": "속보! 젠슨황 전격 사퇴 엔비디아는 어디로?",
-"handle": "UCsPuJohbmGGvpUlYTH1p5gw",
-"name": "알리고파tv [황혼인연][황혼짝꿍]",
-"time": "2026-11-13T00:00:21Z",
+"text": "[속보] '불륜' 젠슨황, 엔비디아 CEO 전격 사퇴/임시 CEO에 크레스 CFO...주가 10%↓/2026년 11월 12일(목)/KBS",
+"handle": "UCcQTRi69dsVYHN3exePtZ1A",
+"name": "KBS News",
+"time": "2026-11-12T23:40:01Z",
 "term": "속보",
-"url": "https://www.youtube.com/watch?v=-WYNdf4UTmU"
-},
-{
-"platform": "YouTube",
-"text": "???: 시그마! 적 자택 붕괴해!",
-"handle": "UCrtP90C9q75XY3hGKaPMong",
-"name": "너파",
-"time": "2026-11-13T00:00:20Z",
-"term": "붕괴",
-"url": "https://www.youtube.com/watch?v=kqet3o_eKkQ"
-},
-{
-"platform": "YouTube",
-"text": "지하철 문에 가방 끈이 끼면? 다시 열릴 줄 알았죠!",
-"handle": "UCznAkPIcN5VVRYTg_1DXQpw",
-"name": "신사연TV",
-"time": "2026-11-13T00:00:05Z",
-"term": "지하철",
-"url": "https://www.youtube.com/watch?v=b40LQGZB1Gk"
-},
-{
-"platform": "YouTube",
-"text": "[속보] 청해부대 파견 동의안에 혁신당 \"사실상 우회 파병\"… 국익 기준으로 다시 따져야",
-"handle": "UC8OR7LnbQMc6M6E1UXjwYoA",
-"name": "진보한스푼",
-"time": "2026-11-13T00:00:04Z",
-"term": "속보",
-"url": "https://www.youtube.com/watch?v=1N6tvYdwDvc"
-},
-{
-"platform": "YouTube",
-"text": "엔비디아 제국 붕괴/ 젠슨황의 여자들 /이재명 이재용 최태원 긴급 회동?",
-"handle": "UCKRBsup_e3Yxo3s4_nE8GVQ",
-"name": "누리PD-TV ",
-"time": "2026-11-12T23:59:20Z",
-"term": "붕괴",
-"url": "https://www.youtube.com/watch?v=qB0Qa30foEQ"
-},
-{
-"platform": "YouTube",
-"text": "만약 엘리베이터에 갇혔는데 불이 난다면? 초고층 화재 위기탈출 시뮬레이션 #shorts",
-"handle": "UC3x2he723E_zs7MJ5weOjnw",
-"name": "deargod",
-"time": "2026-11-12T23:59:03Z",
-"term": "화재",
-"url": "https://www.youtube.com/watch?v=iimJTAIUiIs"
-},
-{
-"platform": "YouTube",
-"text": "[달바글로벌 주가전망] *7분전 속보* 와..환율 역풍에 매출 쇼크까지, 지금 어설프게 물타기했다간 피눈물 흘립니다",
-"handle": "UCtEg_LyuNhbFWvhwV4DZAoQ",
-"name": "슈퍼장대양봉TV",
-"time": "2026-11-12T23:58:00Z",
-"term": "속보",
-"url": "https://www.youtube.com/watch?v=PGloZYdS2us"
-},
-{
-"platform": "YouTube",
-"text": "[속보] 젠슨황 사임에 엔비디아 주가 초토화… 비트코인도 급락 [뉴스플레이리스트] / 채널A",
-"handle": "UCfq4V1DAuaojnr2ryvWNysw",
-"name": "채널A News",
-"time": "2026-11-12T23:50:57Z",
-"term": "속보",
-"url": "https://www.youtube.com/watch?v=iWaWJ5Ugva4"
-},
-{
-"platform": "YouTube",
-"text": "정전된 한겨울, 우리 집은 몇 시간 버틸까? #Shorts",
-"handle": "UCXqzWDlDNBoRUrbLFDIS03w",
-"name": "그림자문학관",
-"time": "2026-11-12T23:50:00Z",
-"term": "정전",
-"url": "https://www.youtube.com/watch?v=L989rOAfGtI"
-},
-{
-"platform": "YouTube",
-"text": "불이 나면 산소는 어떻게? 이동형 산소는 밖으로 | 10.6 화재안전 관리활동 (하) [4주기 요양병원 인증 기본강의]",
-"handle": "UCMfy-g8mWkfncvQ9UUp9QLA",
-"name": "의료기관 인증 스토리",
-"time": "2026-11-12T23:49:46Z",
-"term": "화재",
-"url": "https://www.youtube.com/watch?v=UnwTVXpXIeI"
-},
-{
-"platform": "YouTube",
-"text": "매일 지하철에서 마주치던 그녀가 먼저 말을 걸었다 💗 | 연애 쇼츠",
-"handle": "UCLnrGyQo2KbzbYyyw0IVKxA",
-"name": "포도스튜디오",
-"time": "2026-11-12T23:47:41Z",
-"term": "지하철",
-"url": "https://www.youtube.com/watch?v=zaDk8LS2Wx0"
+"url": "https://www.youtube.com/watch?v=NqxMTmQOQco"
 }
 ],
-"spikes": [],
+"spikes": [
+{
+"term": "속보",
+"n30": 7,
+"base": 0.1,
+"spike": true,
+"since": "2026-11-13T00:36:59.690911+00:00"
+},
+{
+"term": "지하철",
+"n30": 6,
+"base": 2.0,
+"spike": true,
+"since": "2026-11-13T00:36:59.690911+00:00"
+}
+],
 "baseline": {
 "지진": 0.05,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.77,
+"폭발": 0.69,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 1.96,
-"사고": 3.5,
+"지하철": 2.16,
+"사고": 3.65,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -4549,141 +4641,195 @@
 "ytPosts": [
 {
 "platform": "YouTube",
-"text": "#민주당 해체하라 #뉴스 #속보 #긴급속보 #정치 #장동혁 #신동욱 #주진우 #김태규 #윤석열 #주진우 #국민의힘 #정청래 #이재명 #더불어민주당 #한동훈 #전한길 #이준석",
-"handle": "UCDEhd_Fo4TXtAv2HwnJNPQQ",
-"name": "김선애 박사TV",
-"time": "2026-11-13T00:03:36Z",
-"term": "속보",
-"url": "https://www.youtube.com/watch?v=ynM-EE_sjy8"
-},
-{
-"platform": "YouTube",
-"text": "(충격/속보)국회애서 ‘당나라 군대‘ 대폭발#나경원#강신철#국민의힘#국정감사#국방부장관",
-"handle": "UCj1UYz0tDaoBVd8fLpI9Qeg",
-"name": "나빨TV",
-"time": "2026-11-13T00:03:17Z",
-"term": "폭발",
-"url": "https://www.youtube.com/watch?v=U_O8P4uTy8c"
-},
-{
-"platform": "YouTube",
-"text": "만약 엘리베이터에 갇혔는데 불이 난다면? 초고층 화재 위기탈출 시뮬레이션 #shorts",
-"handle": "UC3x2he723E_zs7MJ5weOjnw",
-"name": "deargod",
-"time": "2026-11-12T23:59:03Z",
-"term": "화재",
-"url": "https://www.youtube.com/watch?v=iimJTAIUiIs"
-},
-{
-"platform": "YouTube",
-"text": "???: 시그마! 적 자택 붕괴해!",
-"handle": "UCrtP90C9q75XY3hGKaPMong",
-"name": "너파",
-"time": "2026-11-13T00:00:20Z",
-"term": "붕괴",
-"url": "https://www.youtube.com/watch?v=kqet3o_eKkQ"
-},
-{
-"platform": "YouTube",
-"text": "일본인이 부러워 죽는 한국 일상 5가지 #대한민국 #와!코리아 #일본 #일본반응 #배달 #지하철 #K뷰티 #전자정부 #shorts",
-"handle": "UCT-16yhSBCEJjk7Wz0kseQw",
-"name": "와! 코리아",
-"time": "2026-11-13T00:00:31Z",
+"text": "[playlist] 퇴근길 지하철에서 시티팝과 하루를 마무리  #citypop #playlist #시티팝 #퇴근길노래 #퇴근할때",
+"handle": "UCiuMiMNSsSb4qe3WTkFoTIQ",
+"name": "시티온",
+"time": "2026-11-13T00:32:16Z",
 "term": "지하철",
-"url": "https://www.youtube.com/watch?v=r_59o6_Re6Y"
+"url": "https://www.youtube.com/watch?v=1VhPXIQH-14"
 },
 {
 "platform": "YouTube",
-"text": "(속보)'원인과 결과를 바꿔버려' 신천지 분란까지 남 탓하는 민주당에 폭발한 최욱 #최욱 #김민석 #정치",
-"handle": "UC7KOQJocwTVntCAbgZ0A6Iw",
-"name": "정치폭격",
-"time": "2026-11-13T00:00:39Z",
+"text": "[🔴속보] \"이 대통령, 尹 탄핵 반대\"…잇단 '언행논란' 최민희 감찰 조사 / 연합뉴스TV(YonhapnewsTV)",
+"handle": "UCTHCOPwqNfZ0uiKOvFyhGwg",
+"name": "연합뉴스TV",
+"time": "2026-11-13T00:31:47Z",
+"term": "속보",
+"url": "https://www.youtube.com/watch?v=KWv-eKWW50I"
+},
+{
+"platform": "YouTube",
+"text": "북한 군수공장 폭발, 경고 무시한 간부 대신 기사장이 죄인 된 이유 #북한 #탈북",
+"handle": "UCkwg-ONfPhAYFPTUtbNv74Q",
+"name": "북한이야기",
+"time": "2026-11-13T00:30:04Z",
 "term": "폭발",
-"url": "https://www.youtube.com/watch?v=p5KR8rw4Zpw"
+"url": "https://www.youtube.com/watch?v=M6CgB7pXk6M"
 },
 {
 "platform": "YouTube",
-"text": "[속보] 청해부대 파견 동의안에 혁신당 \"사실상 우회 파병\"… 국익 기준으로 다시 따져야",
-"handle": "UC8OR7LnbQMc6M6E1UXjwYoA",
-"name": "진보한스푼",
-"time": "2026-11-13T00:00:04Z",
+"text": "[AP위성 주가전망] 11월 13일(금) 장전 속보! UAE서 147억 수주, 이번엔 단순 테마가 아니다",
+"handle": "UClBgHFkwWoAGaYpC2fbakWA",
+"name": "Farjan Gamer ",
+"time": "2026-11-13T00:30:15Z",
 "term": "속보",
-"url": "https://www.youtube.com/watch?v=1N6tvYdwDvc"
+"url": "https://www.youtube.com/watch?v=QafFlgkY2Q0"
 },
 {
 "platform": "YouTube",
-"text": "지하철 문에 가방 끈이 끼면? 다시 열릴 줄 알았죠!",
-"handle": "UCznAkPIcN5VVRYTg_1DXQpw",
-"name": "신사연TV",
-"time": "2026-11-13T00:00:05Z",
-"term": "지하철",
-"url": "https://www.youtube.com/watch?v=b40LQGZB1Gk"
-},
-{
-"platform": "YouTube",
-"text": "엔비디아 제국 붕괴/ 젠슨황의 여자들 /이재명 이재용 최태원 긴급 회동?",
-"handle": "UCKRBsup_e3Yxo3s4_nE8GVQ",
-"name": "누리PD-TV ",
-"time": "2026-11-12T23:59:20Z",
-"term": "붕괴",
-"url": "https://www.youtube.com/watch?v=qB0Qa30foEQ"
-},
-{
-"platform": "YouTube",
-"text": "속보! 젠슨황 전격 사퇴 엔비디아는 어디로?",
-"handle": "UCsPuJohbmGGvpUlYTH1p5gw",
-"name": "알리고파tv [황혼인연][황혼짝꿍]",
-"time": "2026-11-13T00:00:21Z",
+"text": "[속보] 젠슨 황, 엔비디아 CEO 사퇴... 임시 CEO에 콜레트 크레스 CFO 임명 [이슈PLAY] / JTBC News",
+"handle": "UCsU-I-vHLiaMfV_ceaYz5rQ",
+"name": "JTBC News",
+"time": "2026-11-13T00:28:09Z",
 "term": "속보",
-"url": "https://www.youtube.com/watch?v=-WYNdf4UTmU"
+"url": "https://www.youtube.com/watch?v=aoXp4TSwSD0"
 },
 {
 "platform": "YouTube",
-"text": "[달바글로벌 주가전망] *7분전 속보* 와..환율 역풍에 매출 쇼크까지, 지금 어설프게 물타기했다간 피눈물 흘립니다",
+"text": "속보 | 오늘도 큰 일교차···주말 전국에 비, 제주엔 강한 비 예보 [티조 Clip] #shorts",
+"handle": "UCWlV3Lz_55UaX4JsMj-z__Q",
+"name": "뉴스TVCHOSUN",
+"time": "2026-11-13T00:24:33Z",
+"term": "속보",
+"url": "https://www.youtube.com/watch?v=apoIzc6TFLo"
+},
+{
+"platform": "YouTube",
+"text": "\"불이야! 피하세요\"…주민 대피시키던 경비원 심정지 [굿모닝 MBN]",
+"handle": "UCG9aFJTZ-lMCHAiO1KJsirg",
+"name": "MBN News",
+"time": "2026-11-13T00:23:12Z",
+"term": "대피",
+"url": "https://www.youtube.com/watch?v=YF9yOdxn0V4"
+},
+{
+"platform": "YouTube",
+"text": "지진이 났는데 왜 집에 남으라고 할까? #72hprepper #프레퍼 #재난대비 #일본재난대비 #재택대피 #생존준비 #지진대비 #아파트재난 #비상식량 #생존배낭 #화장실배관",
+"handle": "UCtHfoVAkPJ71tgE2I4_no9Q",
+"name": "72H Prepper",
+"time": "2026-11-13T00:22:12Z",
+"term": "지진",
+"url": "https://www.youtube.com/watch?v=INtCUPX6Lgg"
+},
+{
+"platform": "YouTube",
+"text": "[테크윙 주가전망] *7분전 속보* 와..개장 전 긴급 전달합니다, 나스닥 반도체 훈풍에 테크윙 오늘 운명 갈립니다.",
 "handle": "UCtEg_LyuNhbFWvhwV4DZAoQ",
 "name": "슈퍼장대양봉TV",
-"time": "2026-11-12T23:58:00Z",
+"time": "2026-11-13T00:18:17Z",
 "term": "속보",
-"url": "https://www.youtube.com/watch?v=PGloZYdS2us"
+"url": "https://www.youtube.com/watch?v=ONGasAReRHw"
 },
 {
 "platform": "YouTube",
-"text": "[속보] 젠슨황 사임에 엔비디아 주가 초토화… 비트코인도 급락 [뉴스플레이리스트] / 채널A",
-"handle": "UCfq4V1DAuaojnr2ryvWNysw",
-"name": "채널A News",
-"time": "2026-11-12T23:50:57Z",
+"text": "[LIVE] [속보] 최민희 \"이 대통령, 일관되게 윤석열 탄핵 주장…이게 팩트\" / JTBC News",
+"handle": "UCsU-I-vHLiaMfV_ceaYz5rQ",
+"name": "JTBC News",
+"time": "2026-11-13T00:18:18Z",
 "term": "속보",
-"url": "https://www.youtube.com/watch?v=iWaWJ5Ugva4"
+"url": "https://www.youtube.com/watch?v=h_5oTRXxNnw"
 },
 {
 "platform": "YouTube",
-"text": "불이 나면 산소는 어떻게? 이동형 산소는 밖으로 | 10.6 화재안전 관리활동 (하) [4주기 요양병원 인증 기본강의]",
-"handle": "UCMfy-g8mWkfncvQ9UUp9QLA",
-"name": "의료기관 인증 스토리",
-"time": "2026-11-12T23:49:46Z",
-"term": "화재",
-"url": "https://www.youtube.com/watch?v=UnwTVXpXIeI"
+"text": "1919년 보스턴을 덮친 '당밀 홍수' 폭발 사고의 진짜 원인 (폭탄 테러 아님)",
+"handle": "UCucnK6oVYwrelnBzsnyLdaA",
+"name": "마인드미러",
+"time": "2026-11-13T00:20:11Z",
+"term": "폭발",
+"url": "https://www.youtube.com/watch?v=oT6AJFfL5zM"
 },
 {
 "platform": "YouTube",
-"text": "정전된 한겨울, 우리 집은 몇 시간 버틸까? #Shorts",
-"handle": "UCXqzWDlDNBoRUrbLFDIS03w",
-"name": "그림자문학관",
-"time": "2026-11-12T23:50:00Z",
-"term": "정전",
-"url": "https://www.youtube.com/watch?v=L989rOAfGtI"
-},
-{
-"platform": "YouTube",
-"text": "매일 지하철에서 마주치던 그녀가 먼저 말을 걸었다 💗 | 연애 쇼츠",
-"handle": "UCLnrGyQo2KbzbYyyw0IVKxA",
-"name": "포도스튜디오",
-"time": "2026-11-12T23:47:41Z",
+"text": "에스컬레이터만 3분 반, 평양 지하철 복도에 철문이 달린 이유",
+"handle": "UCasLFvmNFq4VXeoj1VHDS9w",
+"name": "평양 비밀노트",
+"time": "2026-11-13T00:20:03Z",
 "term": "지하철",
-"url": "https://www.youtube.com/watch?v=zaDk8LS2Wx0"
+"url": "https://www.youtube.com/watch?v=qEeM37qxb-s"
+},
+{
+"platform": "YouTube",
+"text": "[대한광통신 주가전망] AI 데이터센터 광섬유 수요 폭발! 글로벌 광통신망 투자 확대에 강력한 추가 급등 시작되나?",
+"handle": "UCNPATk-vsILd6z0TO5lEGJg",
+"name": "자유정보보이스",
+"time": "2026-11-13T00:15:23Z",
+"term": "폭발",
+"url": "https://www.youtube.com/watch?v=kt2M_5lom30"
+},
+{
+"platform": "YouTube",
+"text": "4백만 원 드론이 50억 미사일을 이겼다 | A $3,000 Drone vs a $4 Million Missile",
+"handle": "UC-eqwvkkcMFhAnjrwTe6bWg",
+"name": "알고보면",
+"time": "2026-11-13T00:12:58Z",
+"term": "미사일",
+"url": "https://www.youtube.com/watch?v=9ZieSkw16cY"
+},
+{
+"platform": "YouTube",
+"text": "[사건사고] 경산 진량읍 골판지 공장 화재... 11시간 반 만에 완진",
+"handle": "UCEbyGEnwvmfKr64MaCEdKug",
+"name": "대구일보TV",
+"time": "2026-11-13T00:10:24Z",
+"term": "화재",
+"url": "https://www.youtube.com/watch?v=mYJNd71vjwA"
+},
+{
+"platform": "YouTube",
+"text": "속보..!! 젠슨 황 엔비디아 CEO 전격  '사임' 이재용이 존경받는 이유~",
+"handle": "UCALJIrWxBI68-JI84Jge0ag",
+"name": "에스더의 저녁tv",
+"time": "2026-11-13T00:09:54Z",
+"term": "속보",
+"url": "https://www.youtube.com/watch?v=RXF6E1erMng"
+},
+{
+"platform": "YouTube",
+"text": "버지니아 가니 '아..!! 이래서'…미국 폭발 시작했다 #JTBC #Shorts",
+"handle": "UCsU-I-vHLiaMfV_ceaYz5rQ",
+"name": "JTBC News",
+"time": "2026-11-13T00:10:49Z",
+"term": "폭발",
+"url": "https://www.youtube.com/watch?v=OOA5av9SvUQ"
+},
+{
+"platform": "YouTube",
+"text": "극초음속 미사일은 왜 막기 어려울까?",
+"handle": "UCkdYAHcdGvFblRJY9Cgbfow",
+"name": "시대탐구소",
+"time": "2026-11-13T00:09:31Z",
+"term": "미사일",
+"url": "https://www.youtube.com/watch?v=WAhzgddbcNs"
+},
+{
+"platform": "YouTube",
+"text": "밤하늘을 가른 미사일 | 이란 타격 작전 #Shorts",
+"handle": "UChsAryzWVklF6ZjegClGeNA",
+"name": "지구력",
+"time": "2026-11-13T00:09:25Z",
+"term": "미사일",
+"url": "https://www.youtube.com/watch?v=m31Kf5Mu02M"
+},
+{
+"platform": "YouTube",
+"text": "장윤정회장에 대한 도경완 불만폭발에 홍현희 사회성",
+"handle": "UCponxp453HE8sqdUlJhmQkA",
+"name": "콘컷",
+"time": "2026-11-13T00:05:24Z",
+"term": "폭발",
+"url": "https://www.youtube.com/watch?v=XRJbEhSsq9E"
+},
+{
+"platform": "YouTube",
+"text": "[속보] '불륜' 젠슨황, 엔비디아 CEO 전격 사퇴/임시 CEO에 크레스 CFO...주가 10%↓/2026년 11월 12일(목)/KBS",
+"handle": "UCcQTRi69dsVYHN3exePtZ1A",
+"name": "KBS News",
+"time": "2026-11-12T23:40:01Z",
+"term": "속보",
+"url": "https://www.youtube.com/watch?v=NqxMTmQOQco"
 }
 ],
-"ytAt": "2026-11-13T00:05:35.144975+00:00"
+"ytAt": "2026-11-13T00:36:59.690911+00:00"
 },
 "trends": [
 {
@@ -4859,9 +5005,9 @@
 "link": "https://news.futunn.com/en/post/1004219296/sk-hynix-options-spot-on-on-november-11th-111-36k"
 },
 {
-"title": "SK hynix (NASDAQ:SKHY) Shares Climb 9.7% - Still a Buy?",
-"source": "MarketBeat",
-"link": "https://www.marketbeat.com/instant-alerts/price-sk-hynix-nasdaq-skhy-shares-climb-97-still-a-buy-2026-11-11/"
+"title": "Why is SK hynix stock surging today?",
+"source": "Investing.com",
+"link": "https://www.investing.com/news/stock-market-news/why-is-sk-hynix-stock-surging-today-93CH-5019481"
 }
 ],
 "new": true
