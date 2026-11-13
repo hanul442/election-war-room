@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-13T16:24:53.694580+00:00",
+"updated": "2026-11-13T16:27:06.718970+00:00",
 "errors": [],
 "events": [
 {
@@ -774,7 +774,7 @@
 "id": "4eFgwYUs0RWQyb3lPUFdBoc51321",
 "first": "2026-11-13T13:21:44+00:00",
 "last": "2026-11-13T14:28:52+00:00",
-"updated": "2026-11-13T14:43:14.433768+00:00",
+"updated": "2026-11-13T16:27:06.718970+00:00",
 "headline": "한국 사우디 축구 선발 라인업 발표...손흥민·96라인 의기투합",
 "cat": "기타",
 "regions": [],
@@ -820,6 +820,13 @@
 "source": "조선일보",
 "link": "https://www.chosun.com/national/national_general/2026/11/13/GHFGHSL4YJBARMH5OJZ6L4BB7U/",
 "time": "2026-11-13T13:44:30+00:00",
+"stage": "후속"
+},
+{
+"title": "불화설 털어낸 손흥민과 ‘96라인’, 사우디전 선발 출전",
+"source": "조선일보",
+"link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPa1R1b1ZTWGh6NUk5Mm9DaVBXbU1mVl90d2lPZVBuMFlOUE1CVjhGUXNydWFKWlpXUWZ4SmFnMEVrR2R4Qkk0RmhBdkI4V25CMm9raktrWEg2dWJwanV4ODlRUVNwaE5OUEQ2T0ZtWGRkVFhydlhaN3lPeFBaVVpoUnBsbzFmb29MbmVzRFRJMFE?oc=5",
+"time": "2026-11-13T13:45:00+00:00",
 "stage": "후속"
 },
 {
@@ -2981,7 +2988,7 @@
 "terms": {
 "지진": {
 "n30": 0,
-"base": 1.0,
+"base": 0.9,
 "spike": false
 },
 "화재": {
@@ -2996,7 +3003,7 @@
 },
 "정전": {
 "n30": 0,
-"base": 0.2,
+"base": 0.1,
 "spike": false
 },
 "폭발": {
@@ -3010,8 +3017,8 @@
 "spike": false
 },
 "대피": {
-"n30": 1,
-"base": 0.7,
+"n30": 0,
+"base": 0.8,
 "spike": false
 },
 "미사일": {
@@ -3020,18 +3027,18 @@
 "spike": false
 },
 "속보": {
-"n30": 6,
+"n30": 5,
 "base": 0.1,
 "spike": true
 },
 "지하철": {
-"n30": 3,
+"n30": 2,
 "base": 0.5,
 "spike": false
 },
 "사고": {
 "n30": 2,
-"base": 2.8,
+"base": 2.7,
 "spike": false
 },
 "실종": {
@@ -3050,7 +3057,7 @@
 "spike": false
 },
 "먹통": {
-"n30": 1,
+"n30": 0,
 "base": 0.8,
 "spike": false
 },
@@ -3271,26 +3278,6 @@
 "url": "https://www.youtube.com/watch?v=3RnuMp_vcNo"
 },
 {
-"text": "정지먹엇어요 ㅜㅜ 타래에 옾챗링크 올려드릴테니까 대피소로 오세요!! 다시 돌아온 뿌삐입니당 발맥 프로 사주실 분도 구해여 🥹 만남해서 대이트하고 선물 주시는 것두 좋아여\n#ㄱㄷ #ㅈㄱ #만남 #인천 #10ㅏ",
-"handle": "ppubbhi4.bsky.social",
-"name": "뿌삐",
-"time": "2026-11-13T15:55:45.082Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/ppubbhi4.bsky.social/post/3n27duwijuf23",
-"term": "대피"
-},
-{
-"text": "적어도 내 기억으로는 hotmail 시절부터 쳐도 만 하루동안 전 세계적으로 메일이 먹통이 된 사례는 처음인것 같은데 (일부 유저 한정 문제는 몇번 있었음) AI 쓴답시고 사람 마구 잘라댄게 원인이 아니라고는 못할듯",
-"handle": "pyeonjeon.bsky.social",
-"name": "편전",
-"time": "2026-11-13T15:55:35.579Z",
-"likes": 2,
-"reposts": 5,
-"url": "https://bsky.app/profile/pyeonjeon.bsky.social/post/3n27dup2jnk26",
-"term": "먹통"
-},
-{
 "platform": "YouTube",
 "text": "[속보] 윤석열 당선무효 확정되자 괴이행동..\"야이 개XX야 돈 먹었냐?\" \"방금 뭐라고요?\" 법정 아수라장",
 "handle": "UCImiJtU_izH1id_rCxm8Law",
@@ -3315,32 +3302,32 @@
 "n30": 8,
 "base": 0.4,
 "spike": true,
-"since": "2026-11-13T16:24:53.694580+00:00"
+"since": "2026-11-13T16:27:06.718970+00:00"
 },
 {
 "term": "속보",
-"n30": 6,
+"n30": 5,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-13T16:24:53.694580+00:00"
+"since": "2026-11-13T16:27:06.718970+00:00"
 }
 ],
 "baseline": {
-"지진": 0.93,
+"지진": 0.84,
 "화재": 0.05,
 "불났": 0.05,
-"정전": 0.14,
-"폭발": 0.37,
-"붕괴": 0.55,
-"대피": 0.77,
+"정전": 0.13,
+"폭발": 0.33,
+"붕괴": 0.5,
+"대피": 0.69,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.45,
-"사고": 2.69,
+"지하철": 0.41,
+"사고": 2.62,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
-"먹통": 0.79,
+"먹통": 0.71,
 "산불": 0.05
 },
 "errors": [],
