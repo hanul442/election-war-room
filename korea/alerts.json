@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-13T14:13:09.738074+00:00",
+"updated": "2026-11-13T14:15:26.017208+00:00",
 "errors": [],
 "events": [
 {
@@ -122,15 +122,23 @@
 "id": "neEhReGswRzcyeHcweDNmoc51330",
 "first": "2026-11-13T13:30:23+00:00",
 "last": "2026-11-13T13:55:10+00:00",
-"updated": "2026-11-13T14:06:17.961734+00:00",
+"updated": "2026-11-13T14:15:26.017208+00:00",
 "headline": "美 10월 PPI, 전월比 0.3% 상승…예상치 하회",
 "cat": "기타",
 "regions": [],
 "sources": [
+"뉴스핌",
 "블루밍비트",
 "토큰포스트"
 ],
 "updates": [
+{
+"title": "[속보] 미국 10월 PPI 전년비 6.5% 상승…예상 6.6% 하회",
+"source": "뉴스핌",
+"link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1falhqS0xkVkZJSWRTTmtNREVtakxkMVU3VUR1S2UtZnlRS0puLVYzeUhyVmZQcnZnMkFPdjRFVVJyQ1h1cS1FNzlGRm1KVGJpTWRoNlZ1bk1ZTWtC?oc=5",
+"time": "2026-11-13T13:30:00+00:00",
+"stage": "속보"
+},
 {
 "title": "[속보] 美 10월 PPI, 전월比 0.3% 상승…예상치 하회",
 "source": "블루밍비트",
@@ -162,7 +170,9 @@
 "밑돌아",
 "상승",
 "시장",
+"예상",
 "예상치",
+"전년비",
 "전월比",
 "하회"
 ]
@@ -3711,7 +3721,7 @@
 },
 "붕괴": {
 "n30": 5,
-"base": 1.2,
+"base": 1.3,
 "spike": true
 },
 "대피": {
@@ -3735,13 +3745,13 @@
 "spike": false
 },
 "사고": {
-"n30": 2,
-"base": 3.2,
+"n30": 3,
+"base": 3.1,
 "spike": false
 },
 "실종": {
 "n30": 1,
-"base": 0.5,
+"base": 0.6,
 "spike": false
 },
 "단수": {
@@ -3766,6 +3776,16 @@
 }
 },
 "posts": [
+{
+"text": "최근에 사고방식 차이 많이 느낀 게 뭐였냐면...\n\n아내가 커뮤에 간다고 열심히 전신을 파서 나한테 보여줬단말임\n\n되게 오랫동안 자세 연구하면서 그려서 내놓으면서 '자세 그리느라 어려웠는데 어찌저찌 여기까지 그렸어'라고 얘기하면서 보여주길래 8ㅇ8) 나는 되게 당연하게 '부족한 부분이 있으면 알려달라'라는 뜻으로 알아들었고 자려고 누웠다가 갑자기 새벽 2시에 그림강의 시작함 8ㅇ8)~\\ 아이",
+"handle": "shjin.bsky.social",
+"name": "☔️ 진시현 🌧",
+"time": "2026-11-13T14:13:20.678Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/shjin.bsky.social/post/3n2765vi2u22d",
+"term": "사고"
+},
 {
 "text": "헐  천호역에서 지하철 탔었는데 아쉽다",
 "handle": "varam0401.bsky.social",
@@ -4022,21 +4042,21 @@
 "n30": 5,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-13T14:13:09.738074+00:00"
+"since": "2026-11-13T14:15:26.017208+00:00"
 },
 {
 "term": "붕괴",
 "n30": 5,
-"base": 1.2,
+"base": 1.3,
 "spike": true,
-"since": "2026-11-13T14:13:09.738074+00:00"
+"since": "2026-11-13T14:15:26.017208+00:00"
 },
 {
 "term": "속보",
 "n30": 7,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-13T14:13:09.738074+00:00"
+"since": "2026-11-13T14:15:26.017208+00:00"
 }
 ],
 "baseline": {
@@ -4044,14 +4064,14 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.13,
-"붕괴": 1.31,
+"폭발": 0.12,
+"붕괴": 1.38,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.92,
-"사고": 3.07,
-"실종": 0.56,
+"지하철": 0.93,
+"사고": 3.06,
+"실종": 0.6,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -4253,6 +4273,24 @@
 },
 "trends": [
 {
+"term": "김영우",
+"traffic": "5000+",
+"time": "2026-11-13T13:00:00+00:00",
+"news": [
+{
+"title": "한국 야구, APBC 일본전 패배…한일전 13경기 연속 무승",
+"source": "KBS 뉴스",
+"link": "https://news.kbs.co.kr/news/view.do?ncd=8712683"
+},
+{
+"title": "'국가대표 新 해결사' 김휘집이 또 해냈다! 5-5 동점 스리런 폭발, 한일전 대반전 노린다 [오!쎈 도쿄] - 머니투데이",
+"source": "머니투데이",
+"link": "https://www.mt.co.kr/sports/2026/11/13/202611132201770502O"
+}
+],
+"new": true
+},
+{
 "term": "明天的天氣",
 "traffic": "100+",
 "time": "2026-11-13T12:50:00+00:00",
@@ -4344,7 +4382,7 @@
 },
 {
 "term": "박시원",
-"traffic": "1000+",
+"traffic": "500+",
 "time": "2026-11-13T12:20:00+00:00",
 "news": [
 {
@@ -4379,6 +4417,24 @@
 "new": true
 },
 {
+"term": "전준표",
+"traffic": "500+",
+"time": "2026-11-13T12:00:00+00:00",
+"news": [
+{
+"title": "[사진]홈런 맞고 주저앉은 전준표",
+"source": "Chosunbiz",
+"link": "https://biz.chosun.com/sports/sports_photo/2026/11/13/MQYWIMBVGAYGEOJQMRTDMMRZMY/"
+},
+{
+"title": "“(안)우진이 형이랑 얘기 많이 했는데…준비 더 잘해야 한다” 영웅들 2027 희망, 태극마크 달고 감격의 도쿄행",
+"source": "마이데일리",
+"link": "https://mydaily.co.kr/page/view/2026111114040681541"
+}
+],
+"new": false
+},
+{
 "term": "피클",
 "traffic": "500+",
 "time": "2026-11-13T11:50:00+00:00",
@@ -4395,42 +4451,6 @@
 }
 ],
 "new": false
-},
-{
-"term": "내일 날씨",
-"traffic": "200000+",
-"time": "2026-11-13T11:40:00+00:00",
-"news": [
-{
-"title": "은행나무 ‘노란 단풍’ 절정…토요일 전국에 비",
-"source": "KBS 뉴스",
-"link": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8712490"
-},
-{
-"title": "[날씨] 토요일 전국 가을비…수능 당일 ’영하권 추위’",
-"source": "연합뉴스TV",
-"link": "https://www.yonhapnewstv.co.kr/news/MYH20261113224031d8m"
-}
-],
-"new": true
-},
-{
-"term": "아던트뉴스",
-"traffic": "200+",
-"time": "2026-11-13T11:40:00+00:00",
-"news": [
-{
-"title": "\"축구장 3만 7천 개 넓이를 바다 위로 달린다니\"... 세계 최장 바닷길 따라가는 섬 드라이브 코스",
-"source": "아던트뉴스",
-"link": "https://www.ardentnews.co.kr/news/articleView.html?idxno=21521"
-},
-{
-"title": "\"숙박이 5만 원대인데 바다가 이렇게 가깝다니\"... 해안탐방로에 산행 코스까지 품은 섬 휴양림",
-"source": "아던트뉴스",
-"link": "https://www.ardentnews.co.kr/news/articleView.html?idxno=21363"
-}
-],
-"new": true
 }
 ],
 "trendSeen": [
