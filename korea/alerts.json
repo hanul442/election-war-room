@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-13T21:09:09.458188+00:00",
+"updated": "2026-11-13T21:11:22.286522+00:00",
 "errors": [],
 "events": [
 {
@@ -37,7 +37,7 @@
 "id": "UNwMzYtcE1yN1pqVWVjbgoc52103",
 "first": "2026-11-13T21:03:00+00:00",
 "last": "2026-11-13T21:03:00+00:00",
-"updated": "2026-11-13T21:09:09.458188+00:00",
+"updated": "2026-11-13T21:11:22.286522+00:00",
 "headline": "국제유가, 혼조 마감⋯WTI 0.2%↓",
 "cat": "기타",
 "regions": [],
@@ -59,6 +59,13 @@
 "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9PdEcwR204UTc3ZnVWSExSV01GZE9CelRQVmJLTzFsS2lMamNVLVJCSUY1eU1tUkd0UHRZM0JRQlozakxiS2VscDBZaXA3QUdNNXlEWThKVkM3OXBSZUNwMzYtcE1yN1pqVWVjbg?oc=5",
 "time": "2026-11-13T21:03:00+00:00",
 "stage": "얼럿"
+},
+{
+"title": "[속보] 국제유가, 혼조 마감⋯WTI 0.2%↓",
+"source": "이투데이",
+"link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFB1RTNnQlpJY1lpVXN6bDM3bnRCeDdtWHQ2WG9ma2pBRnA0VHZsb1ZjVDdfQmZLZ1dsVGdmeXZfODFaMDY1cUdfUTU4eHl1RVYxVVZZUg?oc=5",
+"time": "2026-11-13T21:03:00+00:00",
+"stage": "속보"
 }
 ],
 "level": "URGENT",
@@ -1008,7 +1015,7 @@
 "sns": {
 "terms": {
 "지진": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -1029,7 +1036,7 @@
 },
 "폭발": {
 "n30": 2,
-"base": 0.2,
+"base": 0.1,
 "spike": false
 },
 "붕괴": {
@@ -1048,7 +1055,7 @@
 "spike": false
 },
 "속보": {
-"n30": 4,
+"n30": 3,
 "base": 0.1,
 "spike": false
 },
@@ -1321,7 +1328,7 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.14,
+"폭발": 0.13,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
