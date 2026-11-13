@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-13T01:51:28.273172+00:00",
+"updated": "2026-11-13T01:53:42.904043+00:00",
 "errors": [],
 "events": [
 {
@@ -575,7 +575,7 @@
 "id": "mNacmtLLWU1UkktOUwtdwoc50131",
 "first": "2026-11-13T01:31:40+00:00",
 "last": "2026-11-13T01:31:40+00:00",
-"updated": "2026-11-13T01:38:01.388162+00:00",
+"updated": "2026-11-13T01:53:42.904043+00:00",
 "headline": "경부고속도로 사고 처리중",
 "cat": "교통",
 "regions": [],
@@ -589,6 +589,13 @@
 "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9ITkNSMU9jZmlYX1JpU1JFNEFNVTRlbGVUR0wwRV9HeHJWa2RGSmpwQzBfRmZ3T2gwUFMybnAtbnQ0c2xxbExSZDdKa2twVDBWR04tYkFsMkxhZWdLOWI5WktGemNacmtLLWU1UkktOUwtdw?oc=5",
 "time": "2026-11-13T01:31:40+00:00",
 "stage": "얼럿"
+},
+{
+"title": "[속보] 경부고속도로 사고 처리중",
+"source": "스페셜타임스",
+"link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5MRmpaUUp6LUxIYW9jcTdhNkdfWWpPd2VieHNxRVRYOUtHcnBhbnM1QzMwLThQYjZrbFVmTFA4SFJ3TkM3TTRDZnVPcHFOMFFLUVJjeEJHQnFtXzZwREE2bzAwWmNlQmNVWFkxcEFCM0FhUU0?oc=5",
+"time": "2026-11-13T01:31:40+00:00",
+"stage": "속보"
 }
 ],
 "level": "URGENT",
@@ -3460,12 +3467,12 @@
 "spike": false
 },
 "폭발": {
-"n30": 2,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
 "붕괴": {
-"n30": 2,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
@@ -3480,23 +3487,23 @@
 "spike": false
 },
 "속보": {
-"n30": 8,
+"n30": 6,
 "base": 0.1,
 "spike": true
 },
 "지하철": {
 "n30": 2,
-"base": 1.5,
+"base": 1.6,
 "spike": false
 },
 "사고": {
 "n30": 4,
-"base": 3.3,
+"base": 3.4,
 "spike": false
 },
 "실종": {
-"n30": 1,
-"base": 0.7,
+"n30": 0,
+"base": 0.8,
 "spike": false
 },
 "단수": {
@@ -3708,16 +3715,6 @@
 "url": "https://www.youtube.com/watch?v=SJUiuJpudwc"
 },
 {
-"text": "지인이 더 찾아주셨다\n야구도 있었는데 걔는 실종처리됨",
-"handle": "jjjjjeolmiiiii.bsky.social",
-"name": "절미",
-"time": "2026-11-13T01:22:43.678Z",
-"likes": 2,
-"reposts": 0,
-"url": "https://bsky.app/profile/jjjjjeolmiiiii.bsky.social/post/3n25t3txcls2z",
-"term": "실종"
-},
-{
 "platform": "YouTube",
 "text": "[🔴 속보] 靑 ”’李 대통령, 尹 탄핵 반대했었다‘ 최민희 전언 사실무근…강한 유감“ [이슈PLAY]",
 "handle": "UCWlV3Lz_55UaX4JsMj-z__Q",
@@ -3757,10 +3754,10 @@
 "spikes": [
 {
 "term": "속보",
-"n30": 8,
+"n30": 6,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-13T01:51:28.273172+00:00"
+"since": "2026-11-13T01:53:42.904043+00:00"
 }
 ],
 "baseline": {
@@ -3769,13 +3766,13 @@
 "불났": 0.05,
 "정전": 0.05,
 "폭발": 0.05,
-"붕괴": 0.12,
+"붕괴": 0.11,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 1.58,
-"사고": 3.38,
-"실종": 0.77,
+"지하철": 1.62,
+"사고": 3.44,
+"실종": 0.69,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -4023,7 +4020,7 @@
 },
 {
 "term": "gemini 4 hydrogen",
-"traffic": "100+",
+"traffic": "200+",
 "time": "2026-11-13T00:10:00+00:00",
 "news": [
 {
@@ -4032,27 +4029,9 @@
 "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/"
 },
 {
-"title": "Gemini 4 Carbon in GitHub Copilot",
-"source": "The GitHub Blog",
-"link": "https://github.blog/changelog/2026-11-10-gemini-4-carbon-in-github-copilot/"
-}
-],
-"new": true
-},
-{
-"term": "m365",
-"traffic": "200+",
-"time": "2026-11-12T23:50:00+00:00",
-"news": [
-{
-"title": "Microsoft Starts Limiting Copilot Chat Usage For Users Without Paid Licenses",
-"source": "CRN",
-"link": "https://www.crn.com/news/ai/2026/microsoft-starts-limiting-copilot-chat-usage-for-users-without-paid-licenses"
-},
-{
-"title": "Microsoft extends undisclosed usage restrictions on Copilot Chat for enterprise users",
-"source": "Computerworld",
-"link": "https://www.computerworld.com/article/4245658/microsoft-extends-undisclosed-usage-restrictions-on-copilot-chat-for-enterprise-users.html"
+"title": "Google rolls out Gemini 4 Hydrogen, finally replacing 3.8 Flash",
+"source": "Ars Technica",
+"link": "https://arstechnica.com/google/2026/11/google-rolls-out-gemini-4-hydrogen-finally-replacing-3-8-flash/"
 }
 ],
 "new": true
@@ -4071,6 +4050,24 @@
 "title": "수자원공사 17대 사장에 양승조 전 충남지사…13일 업무 시작",
 "source": "뉴스1",
 "link": "https://www.news1.kr/local/daejeon-chungnam/6352895"
+}
+],
+"new": true
+},
+{
+"term": "m365",
+"traffic": "200+",
+"time": "2026-11-12T23:50:00+00:00",
+"news": [
+{
+"title": "Microsoft Starts Limiting Copilot Chat Usage For Users Without Paid Licenses",
+"source": "CRN",
+"link": "https://www.crn.com/news/ai/2026/microsoft-starts-limiting-copilot-chat-usage-for-users-without-paid-licenses"
+},
+{
+"title": "Microsoft extends undisclosed usage restrictions on Copilot Chat for enterprise users",
+"source": "Computerworld",
+"link": "https://www.computerworld.com/article/4245658/microsoft-extends-undisclosed-usage-restrictions-on-copilot-chat-for-enterprise-users.html"
 }
 ],
 "new": true
@@ -4099,9 +4096,9 @@
 "time": "2026-11-12T23:40:00+00:00",
 "news": [
 {
-"title": "헤그세스, 자기 꾸짖은 병사에 훈장 수여… \"잘했다, 상병\"",
-"source": "조선일보",
-"link": "https://www.chosun.com/international/us/2026/11/13/NXMEZQGXVZED5NNRARRJ42TEQ4/"
+"title": "국립묘지에서 웃고 떠들다 혼쭐난 '국방장관' 헤그세스",
+"source": "MBC 뉴스",
+"link": "https://imnews.imbc.com/replay/2026/nwdesk/article/6865260_37004.html"
 },
 {
 "title": "무명용사 묘서 '호통' 들은 헤그세스…보초병에 표창 수여",
