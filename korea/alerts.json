@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-13T20:51:20.092623+00:00",
+"updated": "2026-11-13T20:53:35.420572+00:00",
 "errors": [],
 "events": [
 {
@@ -959,7 +959,7 @@
 },
 "폭발": {
 "n30": 7,
-"base": 0.4,
+"base": 0.3,
 "spike": true
 },
 "붕괴": {
@@ -1249,16 +1249,16 @@
 {
 "term": "폭발",
 "n30": 7,
-"base": 0.4,
+"base": 0.3,
 "spike": true,
-"since": "2026-11-13T20:51:20.092623+00:00"
+"since": "2026-11-13T20:53:35.420572+00:00"
 },
 {
 "term": "속보",
 "n30": 11,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-13T20:51:20.092623+00:00"
+"since": "2026-11-13T20:53:35.420572+00:00"
 }
 ],
 "baseline": {
@@ -1266,7 +1266,7 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.33,
+"폭발": 0.3,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
@@ -1511,6 +1511,42 @@
 },
 "trends": [
 {
+"term": "이란",
+"traffic": "500+",
+"time": "2026-11-13T19:50:00+00:00",
+"news": [
+{
+"title": "이란 외무부 \"뱁새가 황새 따라가다 가랑이‥\" 청해부대 겨냥",
+"source": "MBC 뉴스",
+"link": "https://imnews.imbc.com/news/2026/politics/article/6865457_36911.html"
+},
+{
+"title": "\"뱁새가 황새 따라가다…\" 이란 외무부 대변인 ‘한국 속담’으로 경고",
+"source": "JTBC",
+"link": "https://news.jtbc.co.kr/article/NB12327965"
+}
+],
+"new": true
+},
+{
+"term": "서인영",
+"traffic": "200+",
+"time": "2026-11-13T19:50:00+00:00",
+"news": [
+{
+"title": "'최지훈과 재혼' 서인영, 극심한 불안 \"8년 자고 땅굴\"..\"10년 제정신 아냐\" [핫피플]",
+"source": "조선일보",
+"link": "https://www.chosun.com/entertainments/broadcast/2026/11/13/GJSGEYJZMI2DMZLCME2WEN3GMY/"
+},
+{
+"title": "‘12월 결혼’ 서인영 “예비 신랑 덕분에 우울증 이겨내고 활동”",
+"source": "동아일보",
+"link": "https://www.donga.com/news/Entertainment/article/all/20261112/135017716/1"
+}
+],
+"new": true
+},
+{
 "term": "항공 엔진",
 "traffic": "100+",
 "time": "2026-11-13T19:00:00+00:00",
@@ -1534,9 +1570,9 @@
 "time": "2026-11-13T16:50:00+00:00",
 "news": [
 {
-"title": "최민희, 비공개 간담회서 \"윤석열 선거법 재판, 이 대통령 재판과 똑같다\"",
+"title": "최민희 48분 육성 녹취엔…\"윤석열 탄핵에 이 대통령 반대했다. 하야시키고 가자 했다\"",
 "source": "JTBC",
-"link": "https://news.jtbc.co.kr/article/NB12327940"
+"link": "https://news.jtbc.co.kr/article/NB12327963"
 },
 {
 "title": "[사설] 이재명 정권, 넘쳐나는 권력 감당 안 돼 자기들끼리 싸우나",
@@ -1642,42 +1678,6 @@
 }
 ],
 "new": true
-},
-{
-"term": "김수현",
-"traffic": "1000+",
-"time": "2026-11-13T14:40:00+00:00",
-"news": [
-{
-"title": "“이미지 실추로 손해, 모델료 반환해야”···법원, 배우 김수현 측 11억여원 반환 판결",
-"source": "경향신문",
-"link": "https://www.khan.co.kr/article/202611131959001"
-},
-{
-"title": "‘누명 벗은 김수현’에 법원 “김수현, 광고 중단 기간 모델료 반환해야”",
-"source": "경기일보",
-"link": "https://www.kyeonggi.com/article/20261113580438"
-}
-],
-"new": true
-},
-{
-"term": "축구중계",
-"traffic": "1000+",
-"time": "2026-11-13T14:20:00+00:00",
-"news": [
-{
-"title": "“에이~ 매치” 되어버린 A매치···축구대표팀 인기 추락하는 소리",
-"source": "경향신문",
-"link": "https://www.khan.co.kr/article/202611112246001"
-},
-{
-"title": "'무엇이든 해줄지니 비서진' 축구 한국 사우디 축구 중계로 결방",
-"source": "국제뉴스",
-"link": "https://www.gukjenews.com/news/articleView.html?idxno=3751617"
-}
-],
-"new": false
 }
 ],
 "trendSeen": [
