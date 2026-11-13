@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-13T01:26:46.800428+00:00",
+"updated": "2026-11-13T01:29:00.205899+00:00",
 "errors": [],
 "events": [
 {
@@ -345,10 +345,38 @@
 ]
 },
 {
+"id": "nZTWXNuZUFSNnhiSE5QUQoc50122",
+"first": "2026-11-13T01:22:08+00:00",
+"last": "2026-11-13T01:22:08+00:00",
+"updated": "2026-11-13T01:29:00.205899+00:00",
+"headline": "중부내륙고속도로 대형화물차관련 사고처리중",
+"cat": "교통",
+"regions": [],
+"sources": [
+"스페셜타임스"
+],
+"updates": [
+{
+"title": "[속보] 중부내륙고속도로 대형화물차관련 사고처리중",
+"source": "스페셜타임스",
+"link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9QYTUybEFXOFFsSzVwY2hXcmJJS01DcWVBekdZVXFRcGVOTDhoZEZwOC1PNUlsZHRwMzBRSlNPWHdiTDRQZEY4ZUxqSjkyQlRNTnRJUW9MZVNnWW50bFk4RDlvSnZTWXNuZUFSNnhiSE5QUQ?oc=5",
+"time": "2026-11-13T01:22:08+00:00",
+"stage": "얼럿"
+}
+],
+"level": "URGENT",
+"latest": "중부내륙고속도로 대형화물차관련 사고처리중",
+"tok": [
+"대형화물차관련",
+"사고처리중",
+"중부내륙고속도"
+]
+},
+{
 "id": "wNISX20261112_00038648500243",
 "first": "2026-11-12T02:43:53+00:00",
 "last": "2026-11-13T01:22:00+00:00",
-"updated": "2026-11-13T01:24:31.165957+00:00",
+"updated": "2026-11-13T01:29:00.205899+00:00",
 "headline": "경찰, '10대 여성 살해' 50대 구속영장 신청…살인 혐의",
 "cat": "사회",
 "regions": [],
@@ -696,6 +724,13 @@
 "source": "뉴시스",
 "link": "https://www.newsis.com/view/NISX20261113_0003866767",
 "time": "2026-11-13T01:10:00+00:00",
+"stage": "속보"
+},
+{
+"title": "[속보] '성북구 10대 여성 살인' 50대 남성, 영장심사 포기",
+"source": "뉴스1",
+"link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE84V2xlblZmWjBUa0VCakNKQk03VUx6bjNrWGVIM0lNTjV3akVJckdrQm5vTk0yYzFjT3FMRHJuMXp6RkpfRVpEaENmeFI3akFITWtWYnRIRGR2Q21yaEhiOUNUdU4?oc=5",
+"time": "2026-11-13T01:10:35+00:00",
 "stage": "속보"
 },
 {
@@ -3471,39 +3506,6 @@
 "투자의견",
 "한화證"
 ]
-},
-{
-"id": "RMFRLNmxFTHZhSmxKSGVBoc52344",
-"first": "2026-11-12T23:44:00+00:00",
-"last": "2026-11-12T23:44:00+00:00",
-"updated": "2026-11-12T23:49:54.145018+00:00",
-"headline": "젠슨황 33년 만에 불명예 퇴진…세 번째 불륜녀도 등장",
-"cat": "기타",
-"regions": [],
-"sources": [
-"이코노미스트"
-],
-"updates": [
-{
-"title": "[속보] 젠슨황 33년 만에 불명예 퇴진…세 번째 불륜녀도 등장",
-"source": "이코노미스트",
-"link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBObjZyaUtvV2ZrNUpvME12QUhfVFlyNk5IM3Z6N2x0NXdpYmVnMmV3NmpXejk1eG5ETjlNX1Q4d0pITFVDVC1GaWg2dXJqeXhNZlJRMFRLNmxFTHZhSmxKSGVB?oc=5",
-"time": "2026-11-12T23:44:00+00:00",
-"stage": "얼럿"
-}
-],
-"level": "URGENT",
-"latest": "젠슨황 33년 만에 불명예 퇴진…세 번째 불륜녀도 등장",
-"tok": [
-"33년",
-"등장",
-"만에",
-"번째",
-"불륜녀",
-"불명예",
-"젠슨황",
-"퇴진"
-]
 }
 ],
 "sns": {
@@ -3555,17 +3557,17 @@
 },
 "지하철": {
 "n30": 4,
-"base": 1.4,
+"base": 1.3,
 "spike": false
 },
 "사고": {
-"n30": 3,
-"base": 1.9,
+"n30": 4,
+"base": 2.0,
 "spike": false
 },
 "실종": {
 "n30": 1,
-"base": 0.1,
+"base": 0.2,
 "spike": false
 },
 "단수": {
@@ -3591,6 +3593,16 @@
 },
 "posts": [
 {
+"text": "추론은 어떤 목적함수를 풀고 있는가?\n\n강화학습은 성공한 사고 경로를 생성할 확률을 높이지, 개별 추론이 정답으로 수렴하도록 보장하지는 않습니다. 그래서 사고를 강제로 늘리면 정확도가 떨어질 수도 있습니다.\n\n반면 정확한 검증기가 있고 정답을 낼 확률이 0보다 크다면, 여러 경로를 생성해 정답을 고르는 방식은 샘플 수가 늘수록 성공 가능성이 높아집니다. 오래 생각하기와 여러 번 시도하기는 다",
+"handle": "news.hada.io",
+"name": "GeekNews",
+"time": "2026-11-13T01:28:25.174Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/news.hada.io/post/3n25tg47xf72u",
+"term": "사고"
+},
+{
 "text": "우리집 1등 사고뭉치 김폭스 어제 청소기질 잘 해놓은 부엌에 음처기통 쏟다",
 "handle": "somewhatfox.bsky.social",
 "name": "어떤여우",
@@ -3615,7 +3627,7 @@
 "handle": "jjjjjeolmiiiii.bsky.social",
 "name": "절미",
 "time": "2026-11-13T01:22:43.678Z",
-"likes": 0,
+"likes": 1,
 "reposts": 0,
 "url": "https://bsky.app/profile/jjjjjeolmiiiii.bsky.social/post/3n25t3txcls2z",
 "term": "실종"
@@ -3790,7 +3802,7 @@
 "n30": 8,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-13T01:26:46.800428+00:00"
+"since": "2026-11-13T01:29:00.205899+00:00"
 }
 ],
 "baseline": {
@@ -3798,14 +3810,14 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.07,
-"붕괴": 0.37,
+"폭발": 0.06,
+"붕괴": 0.33,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 1.27,
-"사고": 2.05,
-"실종": 0.24,
+"지하철": 1.14,
+"사고": 2.25,
+"실종": 0.32,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
