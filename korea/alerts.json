@@ -1,7 +1,46 @@
 {
-"updated": "2026-11-13T15:22:46.674045+00:00",
+"updated": "2026-11-13T15:25:05.273047+00:00",
 "errors": [],
 "events": [
+{
+"id": "wNISX20261113_00038679051521",
+"first": "2026-11-13T15:21:43+00:00",
+"last": "2026-11-13T15:22:31+00:00",
+"updated": "2026-11-13T15:25:05.273047+00:00",
+"headline": "한국 0-1 사우디(전반 46분 마르완 알사하피)",
+"cat": "기타",
+"regions": [],
+"sources": [
+"뉴시스"
+],
+"updates": [
+{
+"title": "[속보]한국 0-1 사우디(전반 46분 마르완 알사하피)",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261113_0003867905",
+"time": "2026-11-13T15:21:43+00:00",
+"stage": "얼럿"
+},
+{
+"title": "[속보]한국 0-1 사우디(전반 종료)",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261113_0003867906",
+"time": "2026-11-13T15:22:31+00:00",
+"stage": "속보"
+}
+],
+"level": "URGENT",
+"latest": "한국 0-1 사우디(전반 종료)",
+"tok": [
+"46분",
+"마르완",
+"사우디",
+"알사하피",
+"전반",
+"종료",
+"한국"
+]
+},
 {
 "id": "l1Q3gxVFJWcFh4MmJIQW8oc51445",
 "first": "2026-11-13T14:45:00+00:00",
@@ -3475,52 +3514,6 @@
 "주민대피",
 "처벌"
 ]
-},
-{
-"id": "viewAKR202611131625000510854",
-"first": "2026-11-13T08:54:30+00:00",
-"last": "2026-11-13T09:30:03+00:00",
-"updated": "2026-11-13T09:32:10.821493+00:00",
-"headline": "부산 남구 아파트서 조류 접촉으로 477가구 2시간 정전",
-"cat": "재난",
-"regions": [
-"부산"
-],
-"sources": [
-"뉴시스",
-"연합뉴스"
-],
-"updates": [
-{
-"title": "부산 남구 아파트서 조류 접촉으로 477가구 2시간 정전",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261113162500051",
-"time": "2026-11-13T08:54:30+00:00",
-"stage": "1보"
-},
-{
-"title": "'조류 접촉' 부산 남구 아파트 477가구 정전…2시간 가량",
-"source": "뉴시스",
-"link": "https://www.newsis.com/view/NISX20261113_0003867785",
-"time": "2026-11-13T09:30:03+00:00",
-"stage": "후속"
-}
-],
-"level": "ALERT",
-"latest": "'조류 접촉' 부산 남구 아파트 477가구 정전…2시간 가량",
-"tok": [
-"2시간",
-"477가구",
-"가량",
-"남구",
-"부산",
-"아파트",
-"아파트서",
-"접촉",
-"접촉으",
-"정전",
-"조류"
-]
 }
 ],
 "sns": {
@@ -3542,17 +3535,17 @@
 },
 "정전": {
 "n30": 2,
-"base": 1.1,
+"base": 1.2,
 "spike": false
 },
 "폭발": {
 "n30": 3,
-"base": 0.2,
+"base": 0.1,
 "spike": false
 },
 "붕괴": {
 "n30": 5,
-"base": 0.1,
+"base": 0.2,
 "spike": true
 },
 "대피": {
@@ -3577,7 +3570,7 @@
 },
 "사고": {
 "n30": 4,
-"base": 2.5,
+"base": 2.6,
 "spike": false
 },
 "실종": {
@@ -3612,7 +3605,7 @@
 "handle": "bjjktb.bsky.social",
 "name": "그냥보라",
 "time": "2026-11-13T15:22:03.073Z",
-"likes": 0,
+"likes": 1,
 "reposts": 0,
 "url": "https://bsky.app/profile/bjjktb.bsky.social/post/3n27byqbnjk2f",
 "term": "사고"
@@ -3642,7 +3635,7 @@
 "handle": "jayjyoon.bsky.social",
 "name": "제이 Jay",
 "time": "2026-11-13T15:19:08.678Z",
-"likes": 0,
+"likes": 1,
 "reposts": 0,
 "url": "https://bsky.app/profile/jayjyoon.bsky.social/post/3n27btljhks2h",
 "term": "사고"
@@ -3854,31 +3847,31 @@
 {
 "term": "붕괴",
 "n30": 5,
-"base": 0.1,
+"base": 0.2,
 "spike": true,
-"since": "2026-11-13T15:22:46.674045+00:00"
+"since": "2026-11-13T15:25:05.273047+00:00"
 },
 {
 "term": "속보",
 "n30": 9,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-13T15:22:46.674045+00:00"
+"since": "2026-11-13T15:25:05.273047+00:00"
 }
 ],
 "baseline": {
-"지진": 0.51,
+"지진": 0.56,
 "화재": 0.05,
 "불났": 0.05,
-"정전": 1.16,
-"폭발": 0.14,
-"붕괴": 0.22,
+"정전": 1.24,
+"폭발": 0.13,
+"붕괴": 0.3,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.69,
-"사고": 2.65,
-"실종": 0.06,
+"지하철": 0.72,
+"사고": 2.78,
+"실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -4053,6 +4046,67 @@
 },
 "trends": [
 {
+"term": "쿠플",
+"traffic": "200+",
+"time": "2026-11-13T14:20:00+00:00",
+"news": [],
+"new": true
+},
+{
+"term": "대한민국",
+"traffic": "200+",
+"time": "2026-11-13T14:20:00+00:00",
+"news": [
+{
+"title": "[게시판] 농식품부, 15일까지 '2026 대한민국 우리술 대축제'",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261113129300030"
+},
+{
+"title": "막걸리부터 증류주까지…전통 양조장에서 빚어낸 우리 술의 매력 [이슈픽]",
+"source": "KBS 뉴스",
+"link": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8711215"
+}
+],
+"new": true
+},
+{
+"term": "포수",
+"traffic": "100+",
+"time": "2026-11-13T14:20:00+00:00",
+"news": [
+{
+"title": "KBO FA 시장 개장! 원태인·구자욱·양의지 등 28명 자격 공시",
+"source": "KBS 뉴스",
+"link": "https://news.kbs.co.kr/news/view.do?ncd=8712285"
+},
+{
+"title": "구자욱·원태인 등 28명, FA 공시…A등급 6명",
+"source": "연합뉴스TV",
+"link": "https://www.yonhapnewstv.co.kr/news/MYH20261113232604RDP"
+}
+],
+"new": false
+},
+{
+"term": "축구 중계",
+"traffic": "5000+",
+"time": "2026-11-13T14:10:00+00:00",
+"news": [
+{
+"title": "“에이~ 매치” 되어버린 A매치···축구대표팀 인기 추락하는 소리",
+"source": "경향신문",
+"link": "https://www.khan.co.kr/article/202611112246001"
+},
+{
+"title": "‘흥행 보증수표’의 몰락…외면 받는 한국 축구 A매치",
+"source": "스포츠월드",
+"link": "https://www.sportsworldi.com/newsView/20261112514439"
+}
+],
+"new": true
+},
+{
 "term": "민희진",
 "traffic": "500+",
 "time": "2026-11-13T13:20:00+00:00",
@@ -4084,6 +4138,24 @@
 "title": "은행 앱으로 '기후시민' 등록하면 은행 포인트도 준다… 기후부, KB·IBK와 협약",
 "source": "파이낸셜뉴스",
 "link": "https://www.fnnews.com/news/202611121400203488"
+}
+],
+"new": true
+},
+{
+"term": "대한민국 야구",
+"traffic": "200+",
+"time": "2026-11-13T13:20:00+00:00",
+"news": [
+{
+"title": "호주에도 지는 한국야구",
+"source": "동아일보",
+"link": "https://www.donga.com/news/Sports/article/all/20261113/135017424/2"
+},
+{
+"title": "'와' 이러니 MLB가 주목하지... '홈런+2루타 장타폭발' 김주원, \"포스팅시 많은 팀이 원할 것\" 이유 증명 [APBC] - 머니투데이",
+"source": "머니투데이",
+"link": "https://www.mt.co.kr/sports/2026/11/13/2026111219552258076"
 }
 ],
 "new": true
@@ -4125,24 +4197,6 @@
 "new": true
 },
 {
-"term": "한국 야구",
-"traffic": "200+",
-"time": "2026-11-13T12:30:00+00:00",
-"news": [
-{
-"title": "호주에도 지는 한국야구",
-"source": "동아일보",
-"link": "https://www.donga.com/news/Sports/article/all/20261113/135017424/2"
-},
-{
-"title": "'와' 이러니 MLB가 주목하지... '홈런+2루타 장타폭발' 김주원, \"포스팅시 많은 팀이 원할 것\" 이유 증명 [APBC] - 머니투데이",
-"source": "머니투데이",
-"link": "https://www.mt.co.kr/sports/2026/11/13/2026111219552258076"
-}
-],
-"new": false
-},
-{
 "term": "이세돌",
 "traffic": "200+",
 "time": "2026-11-13T12:30:00+00:00",
@@ -4159,83 +4213,9 @@
 }
 ],
 "new": true
-},
-{
-"term": "대한민국 중소벤처기업부",
-"traffic": "500+",
-"time": "2026-11-13T12:20:00+00:00",
-"news": [
-{
-"title": "전국이 함께한 소비축제 '코그페' - 전체 | 카드/한컷 | 멀티미디어",
-"source": "대한민국 정책브리핑",
-"link": "https://www.korea.kr/multi/visualNewsView.do?newsId=148975632&pWise=sub&pWiseSub=R3"
-},
-{
-"title": "장보기부터 가전제품까지, 코리아그랜드페스티벌 할인 총정리",
-"source": "네이버페이 머니스토리",
-"link": "https://story.pay.naver.com/content/3911"
-}
-],
-"new": true
-},
-{
-"term": "박시원",
-"traffic": "500+",
-"time": "2026-11-13T12:20:00+00:00",
-"news": [
-{
-"title": "[사진]인사하는 이구치 감독",
-"source": "조선일보",
-"link": "https://www.chosun.com/sports/sports_photo/2026/11/13/MRRDQNLEGE2DMNZYHA2TOMJWMQ/"
-},
-{
-"title": "[APBC] 日, 한국전 '특급 신인' 다케마루 선발 등판 예고",
-"source": "뉴스핌",
-"link": "https://www.newspim.com/news/view/20261113000801"
-}
-],
-"new": true
-},
-{
-"term": "유빈",
-"traffic": "200+",
-"time": "2026-11-13T12:10:00+00:00",
-"news": [
-{
-"title": "오마이걸 유빈, 검정 슈트 차림 근황…비밀 요원 전략가 예고",
-"source": "톱스타뉴스",
-"link": "https://www.topstarnews.net/news/articleView.html?idxno=16275023"
-},
-{
-"title": "선미·유빈·영탁, 도심 속 우정샷…음악으로 이어진 특별한 순간",
-"source": "진일보 | 전남일보",
-"link": "https://www.jnilbo.com/news/articleView.html?idxno=90000082541"
-}
-],
-"new": true
-},
-{
-"term": "피클",
-"traffic": "1000+",
-"time": "2026-11-13T11:50:00+00:00",
-"news": [
-{
-"title": "[단독]AI 에이전트 ‘피클’ 코레일 접근 안 된다···미국선 항공사도 AI 차단",
-"source": "경향신문",
-"link": "https://www.khan.co.kr/article/202611121711011"
-},
-{
-"title": "AI 비서가 항공권 대신 예약?…유나이티드항공은 막았다",
-"source": "뉴시스",
-"link": "https://www.newsis.com/view/NISX20261112_0003865888"
-}
-],
-"new": false
 }
 ],
 "trendSeen": [
-"자산",
-"자주포",
 "잠수함",
 "잠실주공5단지 아파트",
 "장기 기증",
@@ -4370,6 +4350,7 @@
 "최혜진",
 "추성훈",
 "추위",
+"축구 중계",
 "축제",
 "충청투데이",
 "치매",
@@ -4394,6 +4375,7 @@
 "코어위브 주가",
 "코인니스",
 "쿠칭시티",
+"쿠플",
 "크러쉬 조이",
 "크리스털 팰리스 대 리버풀",
 "크보",
