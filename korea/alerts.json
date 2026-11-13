@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-13T14:20:07.950911+00:00",
+"updated": "2026-11-13T14:22:25.386728+00:00",
 "errors": [],
 "events": [
 {
@@ -3713,13 +3713,13 @@
 },
 "폭발": {
 "n30": 6,
-"base": 0.2,
+"base": 0.3,
 "spike": true
 },
 "붕괴": {
-"n30": 5,
-"base": 1.4,
-"spike": true
+"n30": 4,
+"base": 1.5,
+"spike": false
 },
 "대피": {
 "n30": 0,
@@ -3732,7 +3732,7 @@
 "spike": false
 },
 "속보": {
-"n30": 7,
+"n30": 6,
 "base": 0.1,
 "spike": true
 },
@@ -3742,13 +3742,13 @@
 "spike": false
 },
 "사고": {
-"n30": 4,
-"base": 3.1,
+"n30": 5,
+"base": 3.2,
 "spike": false
 },
 "실종": {
 "n30": 1,
-"base": 0.6,
+"base": 0.7,
 "spike": false
 },
 "단수": {
@@ -3774,6 +3774,16 @@
 },
 "posts": [
 {
+"text": "내가 상상할 수 있는 가장 비이성적인 행위는 사람의 감정을 변수로 두지 않고 사고를 하면서 본인이 이성적이라고 생각하는 행위임...",
+"handle": "mongmongwal.bsky.social",
+"name": "🐕(더11a)몽몽",
+"time": "2026-11-13T14:20:07.177Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/mongmongwal.bsky.social/post/3n276jz7fz225",
+"term": "사고"
+},
+{
 "text": "다음에 영상 올려주실때 초대님과 처음 시작할때 느낌(키스 허그) 이 있는 영상 있으시면 편집하시기 힘드시겠지만 반응은 폭발적일거 같습니다!👍",
 "handle": "kuy1055.bsky.social",
 "name": "kuy1055.bsky.social",
@@ -3788,7 +3798,7 @@
 "handle": "fody.bsky.social",
 "name": "래요",
 "time": "2026-11-13T14:15:24.973Z",
-"likes": 1,
+"likes": 2,
 "reposts": 0,
 "url": "https://bsky.app/profile/fody.bsky.social/post/3n276bmmor22a",
 "term": "사고"
@@ -4024,26 +4034,6 @@
 "term": "실종"
 },
 {
-"text": "양배추 채칼 사고 싶다고만 오백번 말하고 안 삼 하지만 언젠가...\n나는 솜사탕 양배추를 참 조아해...",
-"handle": "wooda.bsky.social",
-"name": "시우",
-"time": "2026-11-13T13:54:24.078Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/wooda.bsky.social/post/3n2753zng4s2z",
-"term": "사고"
-},
-{
-"text": "중국어판 붕괴3rd 1부 주인공 키아나와 성우 같아서 전 아미야(명일방주 주인공)과 키아나 목소리 둘 다 좋아해요~.",
-"handle": "tsuta.bsky.social",
-"name": "츠타蔦_漸龑",
-"time": "2026-11-13T13:51:54.581Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/tsuta.bsky.social/post/3n274xkqyqk27",
-"term": "붕괴"
-},
-{
 "platform": "YouTube",
 "text": "국민의힘 속보 핵심 쟁점 긴급 속보!",
 "handle": "UCIyTG3O0GkdQvs3TPvU_jsA",
@@ -4057,23 +4047,16 @@
 {
 "term": "폭발",
 "n30": 6,
-"base": 0.2,
+"base": 0.3,
 "spike": true,
-"since": "2026-11-13T14:20:07.950911+00:00"
-},
-{
-"term": "붕괴",
-"n30": 5,
-"base": 1.4,
-"spike": true,
-"since": "2026-11-13T14:20:07.950911+00:00"
+"since": "2026-11-13T14:22:25.386728+00:00"
 },
 {
 "term": "속보",
-"n30": 7,
+"n30": 6,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-13T14:20:07.950911+00:00"
+"since": "2026-11-13T14:22:25.386728+00:00"
 }
 ],
 "baseline": {
@@ -4081,14 +4064,14 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.29,
-"붕괴": 1.5,
+"폭발": 0.36,
+"붕괴": 1.45,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
 "지하철": 0.95,
-"사고": 3.23,
-"실종": 0.68,
+"사고": 3.41,
+"실종": 0.71,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
