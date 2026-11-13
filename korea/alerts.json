@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-13T23:44:18.113175+00:00",
+"updated": "2026-11-13T23:46:35.093767+00:00",
 "errors": [],
 "events": [
 {
@@ -1304,9 +1304,9 @@
 "spike": false
 },
 "폭발": {
-"n30": 5,
-"base": 1.1,
-"spike": true
+"n30": 4,
+"base": 1.2,
+"spike": false
 },
 "붕괴": {
 "n30": 2,
@@ -1325,7 +1325,7 @@
 },
 "속보": {
 "n30": 2,
-"base": 0.7,
+"base": 0.6,
 "spike": false
 },
 "지하철": {
@@ -1334,8 +1334,8 @@
 "spike": false
 },
 "사고": {
-"n30": 0,
-"base": 1.1,
+"n30": 1,
+"base": 1.0,
 "spike": false
 },
 "실종": {
@@ -1365,6 +1365,16 @@
 }
 },
 "posts": [
+{
+"text": "와 진짜 고속도로에서 사고 나는걸 내 눈으로 보니까 개무섭다 손이 벌벌 떨림..",
+"handle": "ddoo1243.bsky.social",
+"name": "BBW션🐶",
+"time": "2026-11-13T23:46:06.570Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/ddoo1243.bsky.social/post/3n2a663mqgs2l",
+"term": "사고"
+},
 {
 "text": "다들 부지런 하십니다!\n새벽부터.ㅎ 소통을\n노래도 좋고 비도 내리고…감성 폭발 합니다^",
 "handle": "nomonghamong.bsky.social",
@@ -1602,26 +1612,18 @@
 "url": "https://www.youtube.com/watch?v=wuUxjTmwDnM"
 }
 ],
-"spikes": [
-{
-"term": "폭발",
-"n30": 5,
-"base": 1.1,
-"spike": true,
-"since": "2026-11-13T23:44:18.113175+00:00"
-}
-],
+"spikes": [],
 "baseline": {
 "지진": 0.05,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 1.23,
+"폭발": 1.31,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.63,
-"지하철": 0.13,
+"속보": 0.57,
+"지하철": 0.12,
 "사고": 1.0,
 "실종": 0.05,
 "단수": 0.05,
@@ -1889,7 +1891,7 @@
 },
 {
 "term": "argentina vs uruguay",
-"traffic": "500+",
+"traffic": "1000+",
 "time": "2026-11-13T22:30:00+00:00",
 "news": [
 {
@@ -1916,7 +1918,7 @@
 "link": "https://www.cnn.com/2026/11/13/us/live-news/flights-ground-stop-faa"
 },
 {
-"title": "Flights grounded across US due to air traffic control 'communication issue'",
+"title": "Flights grounded across US as homeland secretary says no indication of an attack",
 "source": "BBC",
 "link": "https://www.bbc.com/news/live/c6z9dwn12037t"
 }
@@ -1929,14 +1931,14 @@
 "time": "2026-11-13T22:30:00+00:00",
 "news": [
 {
-"title": "IonQ Shares Drop on Sudden Leadership Shake-Up",
-"source": "Benzinga",
-"link": "https://www.benzinga.com/trading-ideas/movers/26/11/63244346/ionq-shares-drop-on-sudden-leadership-shake-up"
+"title": "IonQ Names Gary Merrill CFO and Thomas Austin CAO",
+"source": "IonQ",
+"link": "https://www.ionq.com/news/ionq-announces-executive-leadership-evolution"
 },
 {
 "title": "IonQ’s finance reshuffle seen as orderly succession by Wedbush",
-"source": "Yahoo Finance",
-"link": "https://finance.yahoo.com/markets/stocks/articles/ionq-finance-reshuffle-seen-orderly-170600130.html"
+"source": "Proactive financial news",
+"link": "https://www.proactiveinvestors.com/companies/news/1101773/ionq-s-finance-reshuffle-seen-as-orderly-succession-by-wedbush-1101773.html"
 }
 ],
 "new": true
@@ -1979,7 +1981,7 @@
 },
 {
 "term": "돈",
-"traffic": "2000+",
+"traffic": "5000+",
 "time": "2026-11-13T22:10:00+00:00",
 "news": [
 {
