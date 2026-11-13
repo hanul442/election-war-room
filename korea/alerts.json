@@ -1,7 +1,50 @@
 {
-"updated": "2026-11-13T22:34:07.595530+00:00",
+"updated": "2026-11-13T22:36:28.126453+00:00",
 "errors": [],
 "events": [
+{
+"id": "nd2dGNHbUVYRnpzdXhrQQoc52202",
+"first": "2026-11-13T22:02:05+00:00",
+"last": "2026-11-13T22:31:40+00:00",
+"updated": "2026-11-13T22:36:28.126453+00:00",
+"headline": "대전남부고속도로 승용차 추돌사고 처리중",
+"cat": "교통",
+"regions": [
+"대전",
+"전남",
+"충남"
+],
+"sources": [
+"스페셜타임스"
+],
+"updates": [
+{
+"title": "[속보] 대전남부고속도로 승용차 추돌사고 처리중",
+"source": "스페셜타임스",
+"link": "https://news.google.com/rss/articles/CBMickFVX3lxTE04dm50Y1k4akVTM1Y1Z2VKY1RYNll0ZXk5QldCRGwtSmwyQy16NTRBR1ppd2dQZm1XRUtENXlUMTdjeFpzMXlxZkd1VTFNQ2Iyb2E5dmZmbWpvUzJIM2VtbmNYSnd2dGNHbUVYRnpzdXhrQQ?oc=5",
+"time": "2026-11-13T22:02:05+00:00",
+"stage": "얼럿"
+},
+{
+"title": "[속보] 논산천안고속도로 갓길 승용차 사고 처리중",
+"source": "스페셜타임스",
+"link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1NWjdTZVBSYmg0MjZIR3JiRGJJY3hhelFIUjBHRUtDNWNmQlZZQVNDdUFmQ1RPQ1BaTm91WW5SeHU3aWkzb0FfR3RxSWcxRWV5YUVRM1hZc20wbGszbVlPSEpMM0ZVZ3RSaGFpSE5XclhZUQ?oc=5",
+"time": "2026-11-13T22:31:40+00:00",
+"stage": "속보"
+}
+],
+"level": "URGENT",
+"latest": "논산천안고속도로 갓길 승용차 사고 처리중",
+"tok": [
+"갓길",
+"논산천안고속도",
+"대전남부고속도",
+"사고",
+"승용차",
+"처리중",
+"추돌사고"
+]
+},
 {
 "id": "TN6WU10NUFYajR4bldXdwoc52104",
 "first": "2026-11-13T21:04:07+00:00",
@@ -463,38 +506,6 @@
 "하락",
 "하락세",
 "혼조"
-]
-},
-{
-"id": "nd2dGNHbUVYRnpzdXhrQQoc52202",
-"first": "2026-11-13T22:02:05+00:00",
-"last": "2026-11-13T22:02:05+00:00",
-"updated": "2026-11-13T22:06:43.439277+00:00",
-"headline": "대전남부고속도로 승용차 추돌사고 처리중",
-"cat": "교통",
-"regions": [
-"대전",
-"전남"
-],
-"sources": [
-"스페셜타임스"
-],
-"updates": [
-{
-"title": "[속보] 대전남부고속도로 승용차 추돌사고 처리중",
-"source": "스페셜타임스",
-"link": "https://news.google.com/rss/articles/CBMickFVX3lxTE04dm50Y1k4akVTM1Y1Z2VKY1RYNll0ZXk5QldCRGwtSmwyQy16NTRBR1ppd2dQZm1XRUtENXlUMTdjeFpzMXlxZkd1VTFNQ2Iyb2E5dmZmbWpvUzJIM2VtbmNYSnd2dGNHbUVYRnpzdXhrQQ?oc=5",
-"time": "2026-11-13T22:02:05+00:00",
-"stage": "얼럿"
-}
-],
-"level": "URGENT",
-"latest": "대전남부고속도로 승용차 추돌사고 처리중",
-"tok": [
-"대전남부고속도",
-"승용차",
-"처리중",
-"추돌사고"
 ]
 },
 {
@@ -1083,7 +1094,7 @@
 "spike": false
 },
 "폭발": {
-"n30": 6,
+"n30": 5,
 "base": 0.1,
 "spike": true
 },
@@ -1109,7 +1120,7 @@
 },
 "지하철": {
 "n30": 2,
-"base": 1.0,
+"base": 1.1,
 "spike": false
 },
 "사고": {
@@ -1339,17 +1350,17 @@
 "spikes": [
 {
 "term": "폭발",
-"n30": 6,
+"n30": 5,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-13T22:34:07.595530+00:00"
+"since": "2026-11-13T22:36:28.126453+00:00"
 },
 {
 "term": "속보",
 "n30": 6,
 "base": 0.6,
 "spike": true,
-"since": "2026-11-13T22:34:07.595530+00:00"
+"since": "2026-11-13T22:36:28.126453+00:00"
 }
 ],
 "baseline": {
@@ -1361,8 +1372,8 @@
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.57,
-"지하철": 1.07,
+"속보": 0.51,
+"지하철": 1.16,
 "사고": 0.05,
 "실종": 0.05,
 "단수": 0.05,
