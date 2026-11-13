@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-13T09:07:46.477213+00:00",
+"updated": "2026-11-13T09:09:57.855351+00:00",
 "errors": [],
 "events": [
 {
@@ -4257,13 +4257,13 @@
 "spike": false
 },
 "폭발": {
-"n30": 5,
-"base": 0.9,
-"spike": true
+"n30": 4,
+"base": 1.0,
+"spike": false
 },
 "붕괴": {
 "n30": 2,
-"base": 1.7,
+"base": 1.6,
 "spike": false
 },
 "대피": {
@@ -4278,17 +4278,17 @@
 },
 "속보": {
 "n30": 3,
-"base": 0.3,
+"base": 0.2,
 "spike": false
 },
 "지하철": {
-"n30": 2,
+"n30": 1,
 "base": 1.9,
 "spike": false
 },
 "사고": {
 "n30": 1,
-"base": 2.8,
+"base": 2.7,
 "spike": false
 },
 "실종": {
@@ -4432,16 +4432,6 @@
 "url": "https://www.youtube.com/watch?v=J5mDFWEct2o"
 },
 {
-"text": "지하철에사람존나많아",
-"handle": "zyali.bsky.social",
-"name": "쟈리",
-"time": "2026-11-13T08:37:56.576Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/zyali.bsky.social/post/3n26lg57uqc2m",
-"term": "지하철"
-},
-{
 "platform": "YouTube",
 "text": "LAH-1 미르온, 천검 미사일로 적 사족 로봇 추격·섬멸 | 소코트라, 예멘",
 "handle": "UCtjFkLzBfDy3h17BREwJdlA",
@@ -4559,31 +4549,23 @@
 "url": "https://www.youtube.com/watch?v=2jRwDwqYR0k"
 }
 ],
-"spikes": [
-{
-"term": "폭발",
-"n30": 5,
-"base": 0.9,
-"spike": true,
-"since": "2026-11-13T09:07:46.477213+00:00"
-}
-],
+"spikes": [],
 "baseline": {
 "지진": 0.05,
 "화재": 0.05,
 "불났": 0.05,
-"정전": 0.12,
-"폭발": 1.02,
-"붕괴": 1.64,
+"정전": 0.11,
+"폭발": 1.12,
+"붕괴": 1.58,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.25,
-"지하철": 1.88,
-"사고": 2.66,
+"속보": 0.23,
+"지하철": 1.79,
+"사고": 2.49,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
-"먹통": 0.13,
+"먹통": 0.12,
 "산불": 0.05
 },
 "errors": [],
