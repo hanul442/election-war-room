@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-13T16:18:14.218423+00:00",
+"updated": "2026-11-13T16:20:28.847287+00:00",
 "errors": [],
 "events": [
 {
@@ -2975,55 +2975,13 @@
 "해킹",
 "확보"
 ]
-},
-{
-"id": "nRxN3J5dFBmYUxTVURUdwoc50823",
-"first": "2026-11-13T08:23:54+00:00",
-"last": "2026-11-13T10:20:08+00:00",
-"updated": "2026-11-13T10:53:00.827310+00:00",
-"headline": "속보: 비트코인, 8월 이후 처음으로 70,000달러 하회",
-"cat": "기타",
-"regions": [],
-"sources": [
-"www.tmgm.com",
-"토큰포스트"
-],
-"updates": [
-{
-"title": "속보: 비트코인, 8월 이후 처음으로 70,000달러 하회",
-"source": "www.tmgm.com",
-"link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxONXNpeDlOY21LM29xRG1CWXVuelFGWXVKR1lFX2IzUVZodkZiZWVzbHFxRU5RLWpEZ2NwNE9GX2lXV2V1WW04Y2RqeEdGV0tRRHdhZTJZc3RxWnBqRE5FX3JnWk5DcUdNRWIxUENzTUdVakF2R0YwWExCSVJ0T2FYNTRMWEVFbHVSeGEyVXBGQ09VYzFvVk82TWtJRVpLWlB5N1JsbWdxN3E0V3ozWkNNLTNROUF5NkxpT0hRRE84bnRxN3J5dFBmYUxTVURUdw?oc=5",
-"time": "2026-11-13T08:23:54+00:00",
-"stage": "1보"
-},
-{
-"title": "비트코인, 8월 중순 이후 처음 7만달러 하회",
-"source": "토큰포스트",
-"link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE41UGtVVExYWXQ3VnJVMV9ubFBYSE5nVklMRWN1Z2wzbEE3aFoxWi1iZ0pScDJ1Zlg5OUEzc2huWUhnbTVHaWZ4UUZUWno1UHUzdnlWNHFWZlHSAV5BVV95cUxOYXhqU1U1Z2czWE5hd2dSZEVpRXVnY1IwUUlzcy1VZTNQOWl2blVmSFVmT2pPWmdTVjBrcmZuQ09LWDVFY2RTR0tHWTV6Q3dLeFNod0RxS2Eya0VWV01n?oc=5",
-"time": "2026-11-13T10:20:08+00:00",
-"stage": "후속"
-}
-],
-"level": "ALERT",
-"latest": "비트코인, 8월 중순 이후 처음 7만달러 하회",
-"tok": [
-"000달러",
-"7만달러",
-"8월",
-"비트코인",
-"이후",
-"중순",
-"처음",
-"처음으",
-"하회"
-]
 }
 ],
 "sns": {
 "terms": {
 "지진": {
 "n30": 2,
-"base": 1.2,
+"base": 1.1,
 "spike": false
 },
 "화재": {
@@ -3043,7 +3001,7 @@
 },
 "폭발": {
 "n30": 8,
-"base": 0.6,
+"base": 0.5,
 "spike": true
 },
 "붕괴": {
@@ -3053,7 +3011,7 @@
 },
 "대피": {
 "n30": 1,
-"base": 0.6,
+"base": 0.7,
 "spike": false
 },
 "미사일": {
@@ -3068,12 +3026,12 @@
 },
 "지하철": {
 "n30": 3,
-"base": 0.7,
+"base": 0.6,
 "spike": false
 },
 "사고": {
-"n30": 1,
-"base": 3.2,
+"n30": 2,
+"base": 3.0,
 "spike": false
 },
 "실종": {
@@ -3103,6 +3061,16 @@
 }
 },
 "posts": [
+{
+"text": "내가 오피스 2010 학생 때 할인으로 사고 이후로 365 구독인가로 바뀌길레 2010에 정착해서 쓰고 있다...",
+"handle": "newnewman.bsky.social",
+"name": "새신랑",
+"time": "2026-11-13T16:19:23.184Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/newnewman.bsky.social/post/3n27f7crfyc2f",
+"term": "사고"
+},
 {
 "platform": "YouTube",
 "text": "비트코인 6만7천 달러까지, 200주선 붕괴? 무슨 일이 #shorts",
@@ -3355,34 +3323,34 @@
 {
 "term": "폭발",
 "n30": 8,
-"base": 0.6,
+"base": 0.5,
 "spike": true,
-"since": "2026-11-13T16:18:14.218423+00:00"
+"since": "2026-11-13T16:20:28.847287+00:00"
 },
 {
 "term": "속보",
 "n30": 7,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-13T16:18:14.218423+00:00"
+"since": "2026-11-13T16:20:28.847287+00:00"
 }
 ],
 "baseline": {
-"지진": 1.15,
+"지진": 1.14,
 "화재": 0.05,
 "불났": 0.05,
-"정전": 0.2,
-"폭발": 0.5,
-"붕괴": 0.76,
-"대피": 0.68,
+"정전": 0.18,
+"폭발": 0.45,
+"붕괴": 0.68,
+"대피": 0.71,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.61,
-"사고": 2.95,
+"지하철": 0.55,
+"사고": 2.86,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
-"먹통": 0.71,
+"먹통": 0.74,
 "산불": 0.05
 },
 "errors": [],
