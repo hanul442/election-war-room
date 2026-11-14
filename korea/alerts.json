@@ -1,17 +1,18 @@
 {
-"updated": "2026-11-14T11:52:08.501650+00:00",
+"updated": "2026-11-14T11:54:20.894253+00:00",
 "errors": [],
 "events": [
 {
 "id": "mhDemFqRHRtY0Jpd01SVQoc51143",
 "first": "2026-11-14T11:43:25+00:00",
-"last": "2026-11-14T11:43:25+00:00",
-"updated": "2026-11-14T11:52:08.501650+00:00",
+"last": "2026-11-14T11:52:00+00:00",
+"updated": "2026-11-14T11:54:20.894253+00:00",
 "headline": "로또 1250회 당첨번호 '1·5·18·23·27·28'…보너스 '8",
 "cat": "기타",
 "regions": [],
 "sources": [
 "edaily.co.kr",
+"경향신문",
 "연합뉴스"
 ],
 "updates": [
@@ -28,16 +29,34 @@
 "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPdmJsamFCZ2hEQ1dyWWJuTlhHUTlBZGR2R09Vcmd4WExXS3NEc21oOEdyYmJoWldyYjAzYnRENmdVU1dxdzdNTGJacHMtN2FqQWxaWElNS3dSQWJwRnNKZW5QQkhxX3kwM3VsZ24wOHV5RmhDemFqRHRtY0Jpd01SVQ?oc=5",
 "time": "2026-11-14T11:43:25+00:00",
 "stage": "얼럿"
+},
+{
+"title": "1250회 로또 1등 9명…당첨금 각 31억원(종합)",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261114047000002",
+"time": "2026-11-14T11:49:09+00:00",
+"stage": "종합"
+},
+{
+"title": "제1250회 로또 1등 9명···당첨금 31억원",
+"source": "경향신문",
+"link": "https://www.khan.co.kr/article/202611142052001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
+"time": "2026-11-14T11:52:00+00:00",
+"stage": "후속"
 }
 ],
 "level": "URGENT",
-"latest": "로또 1250회 당첨번호 '1·5·18·23·27·28'…보너스 '8",
+"latest": "제1250회 로또 1등 9명···당첨금 31억원",
 "tok": [
 "1250회",
 "1등",
+"31억원",
+"9명",
+"당첨금",
 "당첨번호",
 "로또",
-"보너스"
+"보너스",
+"제1250회"
 ]
 },
 {
@@ -100,7 +119,7 @@
 "id": "mJIYnJ5U0lEV3hwSWRFUQoc51113",
 "first": "2026-11-14T11:13:33+00:00",
 "last": "2026-11-14T11:42:00+00:00",
-"updated": "2026-11-14T11:52:08.501650+00:00",
+"updated": "2026-11-14T11:54:20.894253+00:00",
 "headline": "[APBC 현장 속보]한국 박재현 솔로포 등 3안타 3사구 묶어 3-0 리드",
 "cat": "기타",
 "regions": [],
@@ -273,6 +292,20 @@
 "stage": "후속"
 },
 {
+"title": "[사진]드디어 터졌다 김도영",
+"source": "조선일보",
+"link": "https://www.chosun.com/sports/sports_photo/2026/11/14/MI2DQMJTGQ2DCNDGMM2DANBTGI/",
+"time": "2026-11-14T11:35:00+00:00",
+"stage": "후속"
+},
+{
+"title": "[사진]환호하는 김도영",
+"source": "조선일보",
+"link": "https://www.chosun.com/sports/sports_photo/2026/11/14/G4YGCZJWME4GKMDFGQYGEOJWMI/",
+"time": "2026-11-14T11:39:00+00:00",
+"stage": "후속"
+},
+{
 "title": "[사진]홈런 신고하는 김도영",
 "source": "조선일보",
 "link": "https://www.chosun.com/sports/sports_photo/2026/11/14/GJSGIMBQGNQTQZJQG4ZTONRVME/",
@@ -308,6 +341,7 @@
 "대만",
 "대만전",
 "도쿄",
+"드디어",
 "로진",
 "리드",
 "만난다",
@@ -328,8 +362,7 @@
 "안재석",
 "안타",
 "연속",
-"예선",
-"올렸어"
+"예선"
 ]
 },
 {
@@ -3972,7 +4005,7 @@
 },
 "화재": {
 "n30": 0,
-"base": 0.6,
+"base": 0.5,
 "spike": false
 },
 "불났": {
@@ -3987,7 +4020,7 @@
 },
 "폭발": {
 "n30": 0,
-"base": 0.8,
+"base": 0.7,
 "spike": false
 },
 "붕괴": {
@@ -4006,23 +4039,23 @@
 "spike": false
 },
 "속보": {
-"n30": 3,
-"base": 0.2,
+"n30": 1,
+"base": 0.1,
 "spike": false
 },
 "지하철": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
 "사고": {
 "n30": 1,
-"base": 3.5,
+"base": 3.2,
 "spike": false
 },
 "실종": {
 "n30": 0,
-"base": 0.2,
+"base": 0.1,
 "spike": false
 },
 "단수": {
@@ -4259,17 +4292,17 @@
 "spikes": [],
 "baseline": {
 "지진": 0.05,
-"화재": 0.52,
+"화재": 0.47,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.71,
+"폭발": 0.64,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.14,
-"지하철": 0.12,
-"사고": 3.25,
-"실종": 0.14,
+"속보": 0.13,
+"지하철": 0.11,
+"사고": 3.03,
+"실종": 0.13,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -4480,6 +4513,24 @@
 },
 "trends": [
 {
+"term": "김휘집",
+"traffic": "200+",
+"time": "2026-11-14T10:50:00+00:00",
+"news": [
+{
+"title": "'악!' 오른손 맞은 한동희, 결국 경기 빠졌다…\"뼈에는 이상 無, 송구 불편해 보호 차원 교체\" [오!쎈 도쿄]",
+"source": "조선일보",
+"link": "https://www.chosun.com/sports/baseball/2026/11/14/GAZGIYJTGU4GINRSHA2DQOJQMU/"
+},
+{
+"title": "[사진]홈에서 아웃되는 김주원",
+"source": "OSEN",
+"link": "https://www.osen.co.kr/article/G1112910278"
+}
+],
+"new": true
+},
+{
 "term": "jepang vs brasil",
 "traffic": "200+",
 "time": "2026-11-14T10:40:00+00:00",
@@ -4496,24 +4547,6 @@
 }
 ],
 "new": true
-},
-{
-"term": "한동희",
-"traffic": "100+",
-"time": "2026-11-14T10:40:00+00:00",
-"news": [
-{
-"title": "'악!' 오른손 맞은 한동희, 결국 경기 빠졌다…\"뼈에는 이상 無, 송구 불편해 보호 차원 교체\" [오!쎈 도쿄]",
-"source": "조선일보",
-"link": "https://www.chosun.com/sports/baseball/2026/11/14/GAZGIYJTGU4GINRSHA2DQOJQMU/"
-},
-{
-"title": "[사진]홈에서 아웃되는 김주원",
-"source": "OSEN",
-"link": "https://www.osen.co.kr/article/G1112910278"
-}
-],
-"new": false
 },
 {
 "term": "오은영",
