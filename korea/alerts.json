@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-14T09:14:36.315154+00:00",
+"updated": "2026-11-14T09:16:50.261605+00:00",
 "errors": [],
 "events": [
 {
@@ -137,7 +137,7 @@
 "id": "SGKNBSGA3GCNBWMUYGMMBUGQ0646",
 "first": "2026-11-14T06:46:00+00:00",
 "last": "2026-11-14T09:07:00+00:00",
-"updated": "2026-11-14T09:14:36.315154+00:00",
+"updated": "2026-11-14T09:16:50.261605+00:00",
 "headline": "[사진]정지석,'삼성화재 블로킹 벽 뚫어라'",
 "cat": "재난",
 "regions": [],
@@ -503,6 +503,13 @@
 "stage": "후속"
 },
 {
+"title": "[사진]김세진 감독, '4연패'",
+"source": "조선일보",
+"link": "https://www.chosun.com/sports/sports_photo/2026/11/14/HFSDGODCME3WEYZTMUYWIMLGGY/",
+"time": "2026-11-14T08:46:00+00:00",
+"stage": "후속"
+},
+{
 "title": "[사진]고예림, '내가 받을게'",
 "source": "조선일보",
 "link": "https://www.chosun.com/sports/sports_photo/2026/11/14/GJTDQYJWME2WINBXMM2TMMTGMI/",
@@ -527,6 +534,20 @@
 "title": "[사진]고예림, '쉽지 않아'",
 "source": "조선일보",
 "link": "https://www.chosun.com/sports/sports_photo/2026/11/14/MIYWIMJZMZSDQZJZGE3GIYZQME/",
+"time": "2026-11-14T09:06:00+00:00",
+"stage": "후속"
+},
+{
+"title": "[사진]박수빈, 내가 처리할게",
+"source": "조선일보",
+"link": "https://www.chosun.com/sports/sports_photo/2026/11/14/GMYDOOBRGJSGENDCHFQTGMJQHA/",
+"time": "2026-11-14T09:06:00+00:00",
+"stage": "후속"
+},
+{
+"title": "[사진]박수빈, '나갔다'",
+"source": "조선일보",
+"link": "https://www.chosun.com/sports/sports_photo/2026/11/14/GE3GEY3BMM2TCOBYGZSTCODBMM/",
 "time": "2026-11-14T09:06:00+00:00",
 "stage": "후속"
 },
@@ -592,6 +613,7 @@
 "tok": [
 "1세트",
 "2세트",
+"4연패",
 "SOOP",
 "가져오",
 "감독",
@@ -609,6 +631,7 @@
 "김효임",
 "끝내",
 "끝냈다",
+"나갔다",
 "나이스",
 "날리",
 "날아서",
@@ -627,9 +650,7 @@
 "뚫었다",
 "막기엔",
 "맞대결",
-"미안",
-"바꾼",
-"받아라"
+"미안"
 ]
 },
 {
@@ -3972,9 +3993,9 @@
 "spike": false
 },
 "폭발": {
-"n30": 5,
-"base": 0.1,
-"spike": true
+"n30": 3,
+"base": 0.3,
+"spike": false
 },
 "붕괴": {
 "n30": 0,
@@ -3992,12 +4013,12 @@
 "spike": false
 },
 "속보": {
-"n30": 4,
+"n30": 2,
 "base": 0.1,
 "spike": false
 },
 "지하철": {
-"n30": 2,
+"n30": 1,
 "base": 1.4,
 "spike": false
 },
@@ -4294,27 +4315,19 @@
 "url": "https://www.youtube.com/watch?v=bbXB7ugSEg0"
 }
 ],
-"spikes": [
-{
-"term": "폭발",
-"n30": 5,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-14T09:14:36.315154+00:00"
-}
-],
+"spikes": [],
 "baseline": {
 "지진": 0.05,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.34,
-"붕괴": 0.07,
-"대피": 0.15,
+"폭발": 0.51,
+"붕괴": 0.06,
+"대피": 0.24,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 1.37,
-"사고": 4.31,
+"지하철": 1.33,
+"사고": 4.28,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -4513,14 +4526,14 @@
 "time": "2026-11-14T08:00:00+00:00",
 "news": [
 {
-"title": "'결승행 걸렸다' 한국, 대만전 김지찬 리드오프 전진 배치…DH 안재석 첫 선발 출전 [오!쎈 도쿄]",
+"title": "일본이 도와준 한국 야구... 오늘 밤 대만 꺾으면 APBC 결승행",
 "source": "조선일보",
-"link": "https://www.chosun.com/sports/baseball/2026/11/14/GNQTANJQHA2DGNJXGAYTKOBWMM/"
+"link": "https://www.chosun.com/sports/baseball/2026/11/14/HKCTERPHKJCZFMPW7GAQO77NMQ/"
 },
 {
-"title": "'호주 16-1 콜드승' 일본 땡큐! 결승에서 만나자…한국, 대만전 몇 점 차든 이기기만 하면 된다 [오!쎈 도쿄] - 머니투데이",
+"title": "김진욱 어떻게 한 거야? 일본, 3회까지 호주 15-0 대폭격…한국, 이대로면 대만 잡기만 해도 결승 진출 [오!쎈 도쿄] - 머니투데이",
 "source": "머니투데이",
-"link": "https://www.mt.co.kr/sports/2026/11/14/202611141419776777O"
+"link": "https://www.mt.co.kr/sports/2026/11/14/202611141317779758O"
 }
 ],
 "new": true
@@ -4585,9 +4598,9 @@
 "time": "2026-11-14T07:10:00+00:00",
 "news": [
 {
-"title": "\"먹던 마늘·부추를…\" 손님이 목격한 '닭한마리집' 충격 장면",
-"source": "한국경제",
-"link": "https://www.hankyung.com/article/2026111464097"
+"title": "\"먹다 남긴 재료 재사용, 비위 상해 나왔다\"…닭한마리집 주방 영상 논란 - 머니투데이",
+"source": "머니투데이",
+"link": "https://www.mt.co.kr/society/2026/11/14/2026111416053177286"
 },
 {
 "title": "\"먹다 남긴 반찬 다시 통에 쏙\"… 종로 식당서 위생 의혹",
