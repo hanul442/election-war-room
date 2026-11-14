@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-14T12:32:03.336438+00:00",
+"updated": "2026-11-14T12:34:15.159354+00:00",
 "errors": [],
 "events": [
 {
@@ -4025,9 +4025,9 @@
 "spike": true
 },
 "지하철": {
-"n30": 4,
-"base": 1.2,
-"spike": false
+"n30": 5,
+"base": 1.3,
+"spike": true
 },
 "사고": {
 "n30": 2,
@@ -4061,6 +4061,16 @@
 }
 },
 "posts": [
+{
+"text": "채소가 먹고 싶어서 지하철 샌드위치를 사는 어른",
+"handle": "asahikawa.bsky.social",
+"name": "진리",
+"time": "2026-11-14T12:33:29.747Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/asahikawa.bsky.social/post/3n2bj2brqgs2a",
+"term": "지하철"
+},
 {
 "platform": "YouTube",
 "text": "엔젠바이오 주말속보! 큰일났어요!!! 단 1주라도 갖고있다면 필수시청~!",
@@ -4280,21 +4290,28 @@
 "n30": 5,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-14T12:32:03.336438+00:00"
+"since": "2026-11-14T12:34:15.159354+00:00"
+},
+{
+"term": "지하철",
+"n30": 5,
+"base": 1.3,
+"spike": true,
+"since": "2026-11-14T12:34:15.159354+00:00"
 }
 ],
 "baseline": {
-"지진": 0.51,
-"화재": 0.09,
+"지진": 0.56,
+"화재": 0.08,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.12,
+"폭발": 0.11,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 1.29,
-"사고": 1.77,
+"지하철": 1.46,
+"사고": 1.79,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -4488,6 +4505,24 @@
 "new": true
 },
 {
+"term": "아이오아이",
+"traffic": "200+",
+"time": "2026-11-14T11:10:00+00:00",
+"news": [
+{
+"title": "[ET포토] 라이즈, '여심 헌터들'",
+"source": "전자신문",
+"link": "https://www.etnews.com/20261114000050"
+},
+{
+"title": "[사진]리센느 원이-미나미 '시상식도 접수'",
+"source": "조선일보",
+"link": "https://www.chosun.com/entertainments/entertain_photo/2026/11/14/MQZDEZLDGJRTKZLDMJQWMZJXMY/"
+}
+],
+"new": true
+},
+{
 "term": "군산 불꽃 축제",
 "traffic": "100+",
 "time": "2026-11-14T11:10:00+00:00",
@@ -4573,24 +4608,6 @@
 "title": "Japan vs Brazil Hari Ini: Kubo dan Nakamura Bawa Jepang Unggul, Vinicius Junior Balas di Singapura",
 "source": "Aktualita.co",
 "link": "https://aktualita.co/olahraga/japan-vs-brazil-14-november-2026-kubo-nakamura-vinicius"
-}
-],
-"new": true
-},
-{
-"term": "멜론뮤직어워드",
-"traffic": "200+",
-"time": "2026-11-14T10:40:00+00:00",
-"news": [
-{
-"title": "[ET포토] 라이즈, '여심 헌터들'",
-"source": "전자신문",
-"link": "https://www.etnews.com/20261114000050"
-},
-{
-"title": "[사진]리센느 원이-미나미 '시상식도 접수'",
-"source": "조선일보",
-"link": "https://www.chosun.com/entertainments/entertain_photo/2026/11/14/MQZDEZLDGJRTKZLDMJQWMZJXMY/"
 }
 ],
 "new": true
