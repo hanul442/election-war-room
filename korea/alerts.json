@@ -1,7 +1,40 @@
 {
-"updated": "2026-11-14T15:28:24.108851+00:00",
+"updated": "2026-11-14T15:30:40.783873+00:00",
 "errors": [],
 "events": [
+{
+"id": "vbFV2UVFsZ3gzWHhUZTJuoc51524",
+"first": "2026-11-14T15:24:22+00:00",
+"last": "2026-11-14T15:24:22+00:00",
+"updated": "2026-11-14T15:30:40.783873+00:00",
+"headline": "비트코인 6만5000달러선 근처까지 밀려…리플·이더리움 동반 하락",
+"cat": "기타",
+"regions": [],
+"sources": [
+"CBC뉴스"
+],
+"updates": [
+{
+"title": "[속보] 비트코인 6만5000달러선 근처까지 밀려…리플·이더리움 동반 하락",
+"source": "CBC뉴스",
+"link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBuMUNjVjRrdnBuenhWeUNxQ0ppMlZZdjFBNFVtR00xajFkTmh4SDBoeVBXS2ZzazdLOGh4QVFIc19qVjRxMHJSMm1uLXBpeVZEaVdLSTNyd0ZvbFV2UVFsZ3gzWHhUZTJu?oc=5",
+"time": "2026-11-14T15:24:22+00:00",
+"stage": "얼럿"
+}
+],
+"level": "URGENT",
+"latest": "비트코인 6만5000달러선 근처까지 밀려…리플·이더리움 동반 하락",
+"tok": [
+"6만5000달러선",
+"근처까지",
+"동반",
+"리플",
+"밀려",
+"비트코인",
+"이더리움",
+"하락"
+]
+},
 {
 "id": "9ZMlpHSWtHNmRwc2UzRG8oc51500",
 "first": "2026-11-14T15:00:00+00:00",
@@ -2839,7 +2872,7 @@
 "sns": {
 "terms": {
 "지진": {
-"n30": 2,
+"n30": 1,
 "base": 0.6,
 "spike": false
 },
@@ -2854,19 +2887,19 @@
 "spike": false
 },
 "정전": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
 "폭발": {
-"n30": 6,
+"n30": 1,
 "base": 0.2,
-"spike": true
+"spike": false
 },
 "붕괴": {
-"n30": 6,
-"base": 1.5,
-"spike": true
+"n30": 2,
+"base": 1.4,
+"spike": false
 },
 "대피": {
 "n30": 0,
@@ -2874,23 +2907,23 @@
 "spike": false
 },
 "미사일": {
-"n30": 2,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
 "속보": {
-"n30": 5,
+"n30": 0,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "지하철": {
-"n30": 3,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
 "사고": {
-"n30": 3,
-"base": 3.7,
+"n30": 2,
+"base": 3.6,
 "spike": false
 },
 "실종": {
@@ -3013,16 +3046,6 @@
 "time": "2026-11-14T15:00:33Z",
 "term": "속보",
 "url": "https://www.youtube.com/watch?v=jncFy4mq5KI"
-},
-{
-"text": "재밌는 드라마 하나도 잃었는데 힐링 예능 하나 더 하나 또 골로 보내시네 그렇게 벌면 책임감 가지고 사고 좀 치지마라 그 업계인들아",
-"handle": "madeleinescent.bsky.social",
-"name": "마들렌",
-"time": "2026-11-14T15:00:33.341Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/madeleinescent.bsky.social/post/3n2brbaufec25",
-"term": "사고"
 },
 {
 "platform": "YouTube",
@@ -3178,41 +3201,19 @@
 "url": "https://www.youtube.com/watch?v=RyoLtk9C5No"
 }
 ],
-"spikes": [
-{
-"term": "폭발",
-"n30": 6,
-"base": 0.2,
-"spike": true,
-"since": "2026-11-14T15:28:24.108851+00:00"
-},
-{
-"term": "붕괴",
-"n30": 6,
-"base": 1.5,
-"spike": true,
-"since": "2026-11-14T15:28:24.108851+00:00"
-},
-{
-"term": "속보",
-"n30": 5,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-14T15:28:24.108851+00:00"
-}
-],
+"spikes": [],
 "baseline": {
-"지진": 0.64,
+"지진": 0.68,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.22,
-"붕괴": 1.45,
+"폭발": 0.2,
+"붕괴": 1.41,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
 "지하철": 0.05,
-"사고": 3.65,
+"사고": 3.49,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
