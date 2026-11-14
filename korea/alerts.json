@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-14T23:43:00.239883+00:00",
+"updated": "2026-11-14T23:45:15.574249+00:00",
 "errors": [],
 "events": [
 {
@@ -609,17 +609,17 @@
 "spike": false
 },
 "정전": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
 "폭발": {
-"n30": 6,
+"n30": 4,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "붕괴": {
-"n30": 2,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
@@ -847,15 +847,7 @@
 "url": "https://www.youtube.com/watch?v=ACVWbu77AA4"
 }
 ],
-"spikes": [
-{
-"term": "폭발",
-"n30": 6,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-14T23:43:00.239883+00:00"
-}
-],
+"spikes": [],
 "baseline": {
 "지진": 0.05,
 "화재": 0.05,
@@ -867,7 +859,7 @@
 "미사일": 0.05,
 "속보": 0.05,
 "지하철": 0.05,
-"사고": 0.12,
+"사고": 0.11,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -1088,6 +1080,24 @@
 "new": false
 },
 {
+"term": "마우리시오 포체티노",
+"traffic": "100+",
+"time": "2026-11-14T22:00:00+00:00",
+"news": [
+{
+"title": "눈물 흘린 포체티노 “맨유 같은 기회 거절하기 어려워”",
+"source": "KBS 뉴스",
+"link": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8712851"
+},
+{
+"title": "'맨유를 4-1로 박살 낸 그 선수, 이제 맨유가 데려간다?' 브루노 페르난데스 후계자로 니코 파스 낙점...레알 마드리드 바이백 1200억 변수",
+"source": "조선일보",
+"link": "https://www.chosun.com/sports/world-football/2026/11/15/MI4GMOBVMVSDIZLFMY4TMM3DMQ/"
+}
+],
+"new": true
+},
+{
 "term": "sk하이닉스",
 "traffic": "10000+",
 "time": "2026-11-14T21:50:00+00:00",
@@ -1143,7 +1153,7 @@
 },
 {
 "term": "메이저 리그 베이스볼",
-"traffic": "200+",
+"traffic": "500+",
 "time": "2026-11-14T21:50:00+00:00",
 "news": [
 {
@@ -1179,7 +1189,7 @@
 },
 {
 "term": "홍현희",
-"traffic": "100+",
+"traffic": "200+",
 "time": "2026-11-14T21:40:00+00:00",
 "news": [
 {
@@ -1209,24 +1219,6 @@
 "title": "“강남 학원가 월세 400만원 시대”…통학권 실거주 단지 보니",
 "source": "매일경제",
 "link": "https://www.mk.co.kr/news/realestate/12206774"
-}
-],
-"new": true
-},
-{
-"term": "bồ đào nha đấu với đan mạch",
-"traffic": "100+",
-"time": "2026-11-14T21:30:00+00:00",
-"news": [
-{
-"title": "Video bóng đá Bồ Đào Nha - Đan Mạch: Thảm bại kinh hoàng & nỗi nhớ Ronaldo (Nations League)",
-"source": "Tin tức 24h",
-"link": "https://www.24h.com.vn/bong-da/video-bong-da-bo-dao-nha-dan-mach-tham-bai-kinh-hoang-noi-nho-ronaldo-nations-league-c48a1811200.html"
-},
-{
-"title": "Các cầu thủ Bồ Đào Nha sẽ mặc áo số 7 tri ân Ronaldo",
-"source": "VnExpress",
-"link": "https://vnexpress.net/cac-cau-thu-bo-dao-nha-se-mac-ao-so-7-tri-an-ronaldo-5144581.html"
 }
 ],
 "new": true
