@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-14T13:09:44.278075+00:00",
+"updated": "2026-11-14T13:11:59.399849+00:00",
 "errors": [],
 "events": [
 {
@@ -69,7 +69,7 @@
 "id": "mJIYnJ5U0lEV3hwSWRFUQoc51113",
 "first": "2026-11-14T11:13:33+00:00",
 "last": "2026-11-14T13:03:00+00:00",
-"updated": "2026-11-14T13:09:44.278075+00:00",
+"updated": "2026-11-14T13:11:59.399849+00:00",
 "headline": "[APBC 현장 속보]한국 박재현 솔로포 등 3안타 3사구 묶어 3-0 리드",
 "cat": "기타",
 "regions": [],
@@ -391,6 +391,20 @@
 "stage": "후속"
 },
 {
+"title": "[사진]역투하는 박정민",
+"source": "조선일보",
+"link": "https://www.chosun.com/sports/sports_photo/2026/11/14/GA3TCNLBG5TDINTFGI3WCMJRG4/",
+"time": "2026-11-14T12:52:00+00:00",
+"stage": "후속"
+},
+{
+"title": "[사진]환호하는 박정민",
+"source": "조선일보",
+"link": "https://www.chosun.com/sports/sports_photo/2026/11/14/GNQWKMDDGIYWGMBRGMZTQODBMM/",
+"time": "2026-11-14T12:53:00+00:00",
+"stage": "후속"
+},
+{
 "title": "[사진]기뻐하는 김도영과 김휘집",
 "source": "조선일보",
 "link": "https://www.chosun.com/sports/sports_photo/2026/11/14/HFQTCNTGGNSDGMBZGA2WMMJYME/",
@@ -410,10 +424,17 @@
 "link": "https://www.chosun.com/sports/sports_photo/2026/11/14/HEZTEZJYG44WKOJWGFTDKMJVMM/",
 "time": "2026-11-14T13:03:00+00:00",
 "stage": "후속"
+},
+{
+"title": "[사진]포옹하는 박정민과 조형우",
+"source": "조선일보",
+"link": "https://www.chosun.com/sports/sports_photo/2026/11/14/HEYTQNZTGAYGEMZRG44TOZRRHA/",
+"time": "2026-11-14T13:03:00+00:00",
+"stage": "후속"
 }
 ],
 "level": "URGENT",
-"latest": "[사진]기뻐하는 김도영과 문정빈",
+"latest": "[사진]포옹하는 박정민과 조형우",
 "tok": [
 "1타점",
 "2루타",
@@ -461,7 +482,7 @@
 "id": "jJGc2l3TmZpUzdNcEdkVQoc51254",
 "first": "2026-11-14T12:54:50+00:00",
 "last": "2026-11-14T13:02:36+00:00",
-"updated": "2026-11-14T13:09:44.278075+00:00",
+"updated": "2026-11-14T13:11:59.399849+00:00",
 "headline": "'김도영 결승포' 한국, APBC 결승행…일본과 우승 다툼",
 "cat": "국제",
 "regions": [],
@@ -470,6 +491,7 @@
 "뉴시스",
 "연합뉴스",
 "조선일보",
+"한겨레",
 "한국경제"
 ],
 "updates": [
@@ -495,6 +517,13 @@
 "stage": "후속"
 },
 {
+"title": "김도영, APBC 첫 홈런 ‘쾅’…한국 야구, 대만 꺾고 일본과 결승전",
+"source": "한겨레",
+"link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOVkxzdTlCSEV3S2VwWWJkV1c1Z1JvYUViRWpjZW5xalJNcWFIZXM4NW90cFhWdXZaeFFsaWNraWdub3pad0NydzA3X1FjYlBZNU9QeC1vVHJrVnVQMG42XzNRekVDeXV6U0haZ1F1cFpJcDBHQmRPblpWWFl4WjZIbVB3?oc=5",
+"time": "2026-11-14T12:59:00+00:00",
+"stage": "후속"
+},
+{
 "title": "[속보] 한국 야구, 대만 꺾고 APBC 결승행…일본과 우승 다툼",
 "source": "한국경제",
 "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5ablpqajI0STZHN3lvd3VoN1hRal9obEJ6U3RvWDVpaEtxWGJMNHFHTFNNWGl1clB4azhpOXFwbHM2TmJfbjJCUF9keHAxMFNrT0RuVHhPT0o2dw?oc=5",
@@ -515,6 +544,7 @@
 "15일",
 "APBC",
 "결승",
+"결승전",
 "결승포",
 "결승행",
 "김도영",
@@ -3901,7 +3931,7 @@
 "terms": {
 "지진": {
 "n30": 1,
-"base": 0.3,
+"base": 0.4,
 "spike": false
 },
 "화재": {
@@ -3920,13 +3950,13 @@
 "spike": false
 },
 "폭발": {
-"n30": 3,
+"n30": 2,
 "base": 0.1,
 "spike": false
 },
 "붕괴": {
 "n30": 2,
-"base": 0.9,
+"base": 1.0,
 "spike": false
 },
 "대피": {
@@ -3940,13 +3970,13 @@
 "spike": false
 },
 "속보": {
-"n30": 3,
+"n30": 2,
 "base": 0.1,
 "spike": false
 },
 "지하철": {
 "n30": 0,
-"base": 1.1,
+"base": 1.0,
 "spike": false
 },
 "사고": {
@@ -4214,17 +4244,17 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 0.41,
+"지진": 0.47,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
 "폭발": 0.05,
-"붕괴": 1.02,
+"붕괴": 1.12,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.98,
-"사고": 1.74,
+"지하철": 0.88,
+"사고": 1.77,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
