@@ -1,7 +1,105 @@
 {
-"updated": "2026-11-14T22:48:10.263317+00:00",
+"updated": "2026-11-14T22:50:25.953469+00:00",
 "errors": [],
 "events": [
+{
+"id": "wNISX20261115_00038683072247",
+"first": "2026-11-14T22:47:25+00:00",
+"last": "2026-11-14T22:47:25+00:00",
+"updated": "2026-11-14T22:50:25.953469+00:00",
+"headline": "젠슨 황 복귀 온라인 서명운동 \"스탠드 위드 젠슨\"에 8만여명 서명",
+"cat": "기타",
+"regions": [],
+"sources": [
+"뉴시스"
+],
+"updates": [
+{
+"title": "[속보]젠슨 황 복귀 온라인 서명운동 \"스탠드 위드 젠슨\"에 8만여명 서명",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261115_0003868307",
+"time": "2026-11-14T22:47:25+00:00",
+"stage": "얼럿"
+}
+],
+"level": "URGENT",
+"latest": "젠슨 황 복귀 온라인 서명운동 \"스탠드 위드 젠슨\"에 8만여명 서명",
+"tok": [
+"8만여명",
+"복귀",
+"서명",
+"서명운동",
+"스탠드",
+"온라인",
+"위드",
+"젠슨"
+]
+},
+{
+"id": "FVSSEFmb3NiU2dhWEhFQQoc52246",
+"first": "2026-11-14T22:46:52+00:00",
+"last": "2026-11-14T22:47:06+00:00",
+"updated": "2026-11-14T22:50:25.953469+00:00",
+"headline": "경부고속도로 승용차 관련 사고 처리중",
+"cat": "교통",
+"regions": [],
+"sources": [
+"스페셜타임스"
+],
+"updates": [
+{
+"title": "[속보] 경부고속도로 승용차 관련 사고 처리중",
+"source": "스페셜타임스",
+"link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBfX2h6TU1iSlNBeDlOM2lZN1dOdldkSlRTR1B5T3pOYW0yUE53d3hSankyOUZURm5PRmJSYWJWSmlBanIwaHFVdEQySGM2LWZKaGNVRGgwWnV2dFBydk5mN1d2OFVSSEFmb3NiU2dhWEhFQQ?oc=5",
+"time": "2026-11-14T22:46:52+00:00",
+"stage": "얼럿"
+},
+{
+"title": "[속보] 서해안고속도로 승용차 단독 사고 처리중",
+"source": "스페셜타임스",
+"link": "https://news.google.com/rss/articles/CBMickFVX3lxTE95VTVoQkdfOWJiMG1rRDhOMUkxdVRWQVNQTm94dHVYYk9ZcUZWbkJHblh5RmR6bzRrTzMyQ083clQ2eUU5XzlrU25sSS1tZnYtbDR6bTBuX0JHYklHNTFOc1c3aEtmVXdPUm04bFQtMElwdw?oc=5",
+"time": "2026-11-14T22:47:06+00:00",
+"stage": "속보"
+}
+],
+"level": "URGENT",
+"latest": "서해안고속도로 승용차 단독 사고 처리중",
+"tok": [
+"경부고속도",
+"사고",
+"서해안고속도",
+"승용차",
+"처리중"
+]
+},
+{
+"id": "VR4THYyV0YxMzhBWDRXdwoc52246",
+"first": "2026-11-14T22:46:58+00:00",
+"last": "2026-11-14T22:46:58+00:00",
+"updated": "2026-11-14T22:50:25.953469+00:00",
+"headline": "중부고속도로 중형화물차 단독사고처리중",
+"cat": "교통",
+"regions": [],
+"sources": [
+"스페셜타임스"
+],
+"updates": [
+{
+"title": "[속보] 중부고속도로 중형화물차 단독사고처리중",
+"source": "스페셜타임스",
+"link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9UdVdNb19SajFJdUdjLWV5YU5YQ05MNUZ3S0JrSVhSdS0xZ2VRZTRNRUF2Q0ZiQVEtRmNVTkJUS3c4WHg2Nkx3N2JEdXg1NHF0dUxyX2xiZU1OVkduTC1RMHZmVVR4THYyV0YxMzhBWDRXdw?oc=5",
+"time": "2026-11-14T22:46:58+00:00",
+"stage": "얼럿"
+}
+],
+"level": "URGENT",
+"latest": "중부고속도로 중형화물차 단독사고처리중",
+"tok": [
+"단독사고처리중",
+"중부고속도",
+"중형화물차"
+]
+},
 {
 "id": "wNISX20261115_00038682942153",
 "first": "2026-11-14T21:53:27+00:00",
@@ -280,7 +378,7 @@
 "terms": {
 "지진": {
 "n30": 0,
-"base": 0.2,
+"base": 0.1,
 "spike": false
 },
 "화재": {
@@ -319,7 +417,7 @@
 "spike": false
 },
 "속보": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -330,7 +428,7 @@
 },
 "사고": {
 "n30": 1,
-"base": 0.5,
+"base": 0.6,
 "spike": false
 },
 "실종": {
@@ -580,17 +678,17 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 0.15,
-"화재": 0.09,
+"지진": 0.14,
+"화재": 0.08,
 "불났": 0.05,
 "정전": 0.05,
 "폭발": 0.05,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.13,
+"속보": 0.12,
 "지하철": 0.05,
-"사고": 0.56,
+"사고": 0.6,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -960,14 +1058,14 @@
 "time": "2026-11-14T20:00:00+00:00",
 "news": [
 {
+"title": "하리수, 깜짝 고백 \"김지선, 男 때부터 알고 지내\" ('동치미')",
+"source": "조선일보",
+"link": "https://www.chosun.com/entertainments/broadcast/2026/11/14/GE4WKNDCMRQTIOBWMY2TSZBVGI/"
+},
+{
 "title": "하리수 \"중학생 때부터 父와 대화 단절…몰래 성전환 수술\"",
 "source": "뉴시스",
 "link": "https://www.newsis.com/view/NISX20261115_0003868296"
-},
-{
-"title": "\"8㎝ 뇌종양, 두개골 제거\"…빽가, 부모에 진단 숨기다 '눈물' - 머니투데이",
-"source": "머니투데이",
-"link": "https://www.mt.co.kr/index.php/entertainment/2026/11/12/2026111209361465715"
 }
 ],
 "new": true
@@ -983,9 +1081,9 @@
 "link": "https://www.reutersconnect.com/item/uefa-nations-league-group-a4-portugal-v-denmark/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX1VQMUVNQkUxSjZHODE"
 },
 {
-"title": "Riemer again leaves Froholdt on bench for Portugal-clash: See the Danish starting lineup",
-"source": "Flashscore.com",
-"link": "https://www.flashscore.com/news/soccer-uefa-nations-league-riemer-again-leaves-froholdt-on-bench-for-portugal-clash-see-the-danish-starting-lineup/tSc9MDhR/"
+"title": "(WAY) TO WATCH Denmark vs Portugal LIVE Streams Reddit ON TV CHANNEL",
+"source": "Gold Derby",
+"link": "https://www.goldderby.com/topic/way-to-watch-denmark-vs-portugal-live-streams-reddit-on-tv-channel/"
 }
 ],
 "new": true
