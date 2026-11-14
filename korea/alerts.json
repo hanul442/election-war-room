@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-14T22:55:00.582750+00:00",
+"updated": "2026-11-14T22:57:18.225712+00:00",
 "errors": [],
 "events": [
 {
@@ -442,7 +442,7 @@
 },
 "사고": {
 "n30": 1,
-"base": 0.6,
+"base": 0.7,
 "spike": false
 },
 "실종": {
@@ -451,6 +451,11 @@
 "spike": false
 },
 "단수": {
+"n30": 0,
+"base": 0.1,
+"spike": false
+},
+"통신 장애": {
 "n30": 0,
 "base": 0.1,
 "spike": false
@@ -687,26 +692,24 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 0.12,
-"화재": 0.06,
+"지진": 0.11,
+"화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
 "폭발": 0.05,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.1,
+"속보": 0.09,
 "지하철": 0.05,
-"사고": 0.68,
+"사고": 0.71,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
 "산불": 0.05
 },
-"errors": [
-"통신 장애: HTTPError"
-],
+"errors": [],
 "ytPosts": [
 {
 "platform": "YouTube",
@@ -1025,7 +1028,7 @@
 "link": "https://sports.donga.com/ent/article/all/20261114/135023868/1"
 }
 ],
-"new": true
+"new": false
 },
 {
 "term": "잠실주공5단지 아파트",
@@ -1051,14 +1054,14 @@
 "time": "2026-11-14T21:30:00+00:00",
 "news": [
 {
-"title": "Video bóng đá Bồ Đào Nha - Đan Mạch: Thảm bại kinh hoàng & nỗi nhớ Ronaldo (Nations League)",
-"source": "Tin tức 24h",
-"link": "https://www.24h.com.vn/bong-da/video-bong-da-bo-dao-nha-dan-mach-tham-bai-kinh-hoang-noi-nho-ronaldo-nations-league-c48a1811200.html"
-},
-{
 "title": "Các cầu thủ Bồ Đào Nha sẽ mặc áo số 7 tri ân Ronaldo",
 "source": "VnExpress",
 "link": "https://vnexpress.net/cac-cau-thu-bo-dao-nha-se-mac-ao-so-7-tri-an-ronaldo-5144581.html"
+},
+{
+"title": "Ronaldo tính mời Messi dự lễ chia tay sự nghiệp bóng đá",
+"source": "Znews",
+"link": "https://znews.vn/ronaldo-tinh-moi-messi-du-le-chia-tay-su-nghiep-bong-da-post1696324.html"
 }
 ],
 "new": true
