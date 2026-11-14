@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-14T01:26:05.213608+00:00",
+"updated": "2026-11-14T01:28:23.479663+00:00",
 "errors": [],
 "events": [
 {
@@ -2464,14 +2464,24 @@
 "base": 0.1,
 "spike": false
 },
+"불났": {
+"n30": 0,
+"base": 0.1,
+"spike": false
+},
+"정전": {
+"n30": 0,
+"base": 0.1,
+"spike": false
+},
 "폭발": {
 "n30": 2,
-"base": 0.7,
+"base": 0.9,
 "spike": false
 },
 "붕괴": {
-"n30": 2,
-"base": 0.6,
+"n30": 1,
+"base": 0.7,
 "spike": false
 },
 "대피": {
@@ -2491,16 +2501,16 @@
 },
 "지하철": {
 "n30": 1,
-"base": 0.6,
+"base": 0.7,
 "spike": false
 },
 "사고": {
 "n30": 0,
-"base": 0.7,
+"base": 0.6,
 "spike": false
 },
 "실종": {
-"n30": 0,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
@@ -2527,11 +2537,21 @@
 },
 "posts": [
 {
+"text": "아 끼발ㅋㅋㅋㅋㅋㅋㅋ\n괴담에서 실종자를 찾는 법: 하이 빅스비!!!!!",
+"handle": "saltcandy27.bsky.social",
+"name": "소금🦋",
+"time": "2026-11-14T01:26:18.470Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/saltcandy27.bsky.social/post/3n2adr5by7s2b",
+"term": "실종"
+},
+{
 "text": "하... 지구 힘내서 태양폭발 영향 반경으로 몸을 던졌어야지(?)... 왜 또 인류를 봐주고 그래-_ㅠ",
 "handle": "rosemelda.co.kr",
 "name": "𝔐𝔢𝔩𝔇𝔞✨",
 "time": "2026-11-14T01:25:08.973Z",
-"likes": 0,
+"likes": 1,
 "reposts": 0,
 "url": "https://bsky.app/profile/rosemelda.co.kr/post/3n2adp7d52csf",
 "term": "폭발"
@@ -2758,27 +2778,24 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 0.12,
+"지진": 0.11,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.86,
-"붕괴": 0.68,
+"폭발": 0.97,
+"붕괴": 0.71,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.66,
-"사고": 0.59,
-"실종": 0.05,
+"지하철": 0.69,
+"사고": 0.53,
+"실종": 0.15,
 "단수": 0.05,
 "통신 장애": 0.05,
-"먹통": 0.58,
+"먹통": 0.52,
 "산불": 0.05
 },
-"errors": [
-"불났: RemoteDisconnected",
-"정전: URLError"
-],
+"errors": [],
 "ytPosts": [
 {
 "platform": "YouTube",
