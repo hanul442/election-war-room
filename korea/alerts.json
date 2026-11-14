@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-14T16:32:12.100532+00:00",
+"updated": "2026-11-14T16:34:28.954629+00:00",
 "errors": [],
 "events": [
 {
@@ -2607,13 +2607,13 @@
 "spike": false
 },
 "속보": {
-"n30": 3,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
 "지하철": {
 "n30": 3,
-"base": 2.0,
+"base": 1.9,
 "spike": false
 },
 "사고": {
@@ -2878,17 +2878,17 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 0.06,
+"지진": 0.05,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
 "폭발": 0.05,
-"붕괴": 0.1,
+"붕괴": 0.09,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 1.92,
-"사고": 1.27,
+"지하철": 1.83,
+"사고": 1.24,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -3109,6 +3109,42 @@
 },
 "trends": [
 {
+"term": "저축",
+"traffic": "500+",
+"time": "2026-11-14T15:30:00+00:00",
+"news": [
+{
+"title": "같은 900만 원 넣어도 세금 29만원 차이? 청년 IRP 공제율 15% 핵심 정리",
+"source": "네이버페이 머니스토리",
+"link": "https://story.pay.naver.com/content/3939"
+},
+{
+"title": "\"마트 세일에 국가 쿠폰 겹쳤다\"…하락장 속 '연금저축·IRP' 절세 전략",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261112_0003864767"
+}
+],
+"new": true
+},
+{
+"term": "비트코인",
+"traffic": "200+",
+"time": "2026-11-14T15:30:00+00:00",
+"news": [
+{
+"title": "\"비트코인 하락, 앤트로픽 IPO 전 투자자금 이동 때문\"",
+"source": "마켓인",
+"link": "https://marketin.edaily.co.kr/News/ReadE?newsId=02797846645645720"
+},
+{
+"title": "비트코인 하루 새 7% 급락‥2조 원 규모 강제청산",
+"source": "MBC 뉴스",
+"link": "https://imnews.imbc.com/news/2026/econo/article/6865461_36932.html"
+}
+],
+"new": true
+},
+{
 "term": "nepal premier league",
 "traffic": "200+",
 "time": "2026-11-14T15:00:00+00:00",
@@ -3237,42 +3273,6 @@
 "title": "합의제 기구 방미통위, 합의만 기다릴 것인가 [강소현의 방송통신문]",
 "source": "디지털데일리",
 "link": "https://www.ddaily.co.kr/page/view/2026111316500450204"
-}
-],
-"new": true
-},
-{
-"term": "맥도날드 세종dt점",
-"traffic": "500+",
-"time": "2026-11-14T12:20:00+00:00",
-"news": [
-{
-"title": "새벽 2시부터 줄 섰다…‘인구 40만’ 세종시 첫 맥도날드, 오픈런에 경찰까지 출동",
-"source": "세계일보",
-"link": "https://www.segye.com/newsView/20261114502699"
-},
-{
-"title": "\"맥도날드 먹으러 원정까지\"…인구 40만 도시에 무슨 일이",
-"source": "한국경제",
-"link": "https://www.hankyung.com/article/2026111359347"
-}
-],
-"new": true
-},
-{
-"term": "갈비뼈",
-"traffic": "500+",
-"time": "2026-11-14T12:20:00+00:00",
-"news": [
-{
-"title": "멀쩡한 갈비뼈 6개 부러뜨린 30대 여성...이유는?",
-"source": "연합뉴스TV",
-"link": "https://www.yonhapnewstv.co.kr/news/AKR20261114141351tED"
-},
-{
-"title": "호리병 몸매가 뭐라고…멀쩡한 갈비뼈 6개 부러뜨린 30대女",
-"source": "미주중앙일보",
-"link": "https://www.koreadaily.com/article/20261113203409480"
 }
 ],
 "new": true
