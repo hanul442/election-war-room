@@ -1,18 +1,19 @@
 {
-"updated": "2026-11-14T01:16:54.230168+00:00",
+"updated": "2026-11-14T01:19:11.371964+00:00",
 "errors": [],
 "events": [
 {
 "id": "JJMk8yYndORE1nWlVNTzAoc50101",
 "first": "2026-11-14T01:01:34+00:00",
-"last": "2026-11-14T01:12:37+00:00",
-"updated": "2026-11-14T01:16:54.230168+00:00",
+"last": "2026-11-14T01:15:01+00:00",
+"updated": "2026-11-14T01:19:11.371964+00:00",
 "headline": "고경표, '만취 음주운전' 공개 사과 \"잘못 인정\" [전문]",
 "cat": "기타",
 "regions": [],
 "sources": [
 "국제뉴스",
 "뉴시스",
+"마이데일리",
 "스타뉴스",
 "스포츠조선",
 "조선일보"
@@ -52,14 +53,23 @@
 "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNdTJwSkR5YjV2TFlYTi1raUpHTklTNHY3c2ZFTmlNTzF4ZWRYbHRRMm5hQzNmakNOV1l2em1NUDlGaDdVX0drNHVoa3ozbHNYbUE5aHFITmRQdFZJMWZXSWZRMkxuNGR2Q2Z6Tlc4T2FwdmMtZFc3bnlhdm1UZEJvRFFrRWQ?oc=5",
 "time": "2026-11-14T01:12:37+00:00",
 "stage": "속보"
+},
+{
+"title": "[속보]고경표, 음주운전 사고… 경찰 조사 후 귀가",
+"source": "마이데일리",
+"link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1fYldKTjdpRE1NTTRETDVWN2lscHdBdUFCVmthNS1ZSjIya2VOX3dpb1FkOWtaVFYxVEZWV2hBMWNHUU5INndKNWlKdVI3WnFZVm9RaHBJT0g3TE8wSWlENUtHck5CUQ?oc=5",
+"time": "2026-11-14T01:15:01+00:00",
+"stage": "속보"
 }
 ],
 "level": "URGENT",
-"latest": "'만취 음주운전' 고경표 \"피해입은 분들께 죄송, 깊이 반성\" [전문]",
+"latest": "고경표, 음주운전 사고… 경찰 조사 후 귀가",
 "tok": [
+"경찰",
 "고경표",
 "공개",
 "공식",
+"귀가",
 "깊이",
 "만취",
 "면허",
@@ -76,6 +86,7 @@
 "인정",
 "잘못",
 "전문",
+"조사",
 "죄송",
 "차질",
 "취소",
@@ -170,6 +181,41 @@
 "적발",
 "청소차",
 "취소"
+]
+},
+{
+"id": "E4JHT3SZHPFA4JKWAFQJXGFM0111",
+"first": "2026-11-14T01:11:06+00:00",
+"last": "2026-11-14T01:11:06+00:00",
+"updated": "2026-11-14T01:19:11.371964+00:00",
+"headline": "인하대 이승만 동상 복원, 온라인 서명 사흘 만에 1만2000명 넘어",
+"cat": "기타",
+"regions": [],
+"sources": [
+"조선일보"
+],
+"updates": [
+{
+"title": "[단독] 인하대 이승만 동상 복원, 온라인 서명 사흘 만에 1만2000명 넘어",
+"source": "조선일보",
+"link": "https://www.chosun.com/national/education/2026/11/14/BTE4JHT3SZHPFA4JKWAFQJXGFM/",
+"time": "2026-11-14T01:11:06+00:00",
+"stage": "단독"
+}
+],
+"level": "URGENT",
+"latest": "인하대 이승만 동상 복원, 온라인 서명 사흘 만에 1만2000명 넘어",
+"tok": [
+"1만2000명",
+"넘어",
+"동상",
+"만에",
+"복원",
+"사흘",
+"서명",
+"온라인",
+"이승",
+"인하대"
 ]
 },
 {
@@ -2341,18 +2387,18 @@
 "spike": false
 },
 "속보": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
 "지하철": {
 "n30": 0,
-"base": 0.7,
+"base": 0.6,
 "spike": false
 },
 "사고": {
 "n30": 1,
-"base": 0.6,
+"base": 0.7,
 "spike": false
 },
 "실종": {
@@ -2614,21 +2660,21 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 0.18,
+"지진": 0.16,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.63,
-"붕괴": 0.51,
+"폭발": 0.67,
+"붕괴": 0.56,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.59,
-"사고": 0.66,
+"지하철": 0.53,
+"사고": 0.69,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
-"먹통": 0.64,
+"먹통": 0.68,
 "산불": 0.05
 },
 "errors": [],
