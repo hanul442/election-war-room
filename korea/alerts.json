@@ -1,12 +1,12 @@
 {
-"updated": "2026-11-14T09:01:20.508435+00:00",
+"updated": "2026-11-14T09:03:34.157272+00:00",
 "errors": [],
 "events": [
 {
 "id": "6N21LZ0VhemhCYWpPeDlUoc50846",
 "first": "2026-11-14T08:46:08+00:00",
 "last": "2026-11-14T08:56:00+00:00",
-"updated": "2026-11-14T09:01:20.508435+00:00",
+"updated": "2026-11-14T09:03:34.157272+00:00",
 "headline": "트럼프, 반도체 규제 풀어주며 엔비디아 ‘풀매수’",
 "cat": "경제",
 "regions": [],
@@ -34,6 +34,13 @@
 "title": "[속보] “트럼프, AI 반도체 규제 완화 전 엔비디아 주식 매입”",
 "source": "국제신문",
 "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQN0RHV3c5YXUxZGZGNjFsc1V3aG9TWnE1U2xhY2xVYklScUNtaTctVkZGbTB0M3ZOdnFhS0phTllSWXhlaXhGdTFITHZCX3RZb1VnMk9VVHNTN21mU1pnSVVVeC1uOEM3c1B0Y3R3Q0JPeDU3VnQtSVRQQkl0Zkp6VjNOaVNSUFNYSHFrZnJaYmtjVXM?oc=5",
+"time": "2026-11-14T08:56:00+00:00",
+"stage": "속보"
+},
+{
+"title": "[속보] “트럼프, AI 반도체 규제 완화 전 엔비디아 주식 매입”",
+"source": "국제신문",
+"link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNaWNwanFHb01KZVJ1TnkxaUdOemJRRkdsT3JibjVwalhNYmdKc3ZkUjQzSmJKdjc4NkJlTkp3NjlyNTgxTDVWWkpPek1DaTQ0RHZJbHJIYnc4MF9PeW93TU44cEFubkFFOEdEYzFIQXRkODJ4YzVVMl9QYXZLekJBRWtVd3VZVW05TWVJ?oc=5",
 "time": "2026-11-14T08:56:00+00:00",
 "stage": "속보"
 }
@@ -3857,7 +3864,7 @@
 "spike": false
 },
 "폭발": {
-"n30": 7,
+"n30": 6,
 "base": 0.1,
 "spike": true
 },
@@ -3882,9 +3889,9 @@
 "spike": true
 },
 "지하철": {
-"n30": 5,
-"base": 1.1,
-"spike": true
+"n30": 3,
+"base": 1.2,
+"spike": false
 },
 "사고": {
 "n30": 4,
@@ -4162,24 +4169,17 @@
 "spikes": [
 {
 "term": "폭발",
-"n30": 7,
+"n30": 6,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-14T09:01:20.508435+00:00"
+"since": "2026-11-14T09:03:34.157272+00:00"
 },
 {
 "term": "속보",
 "n30": 6,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-14T09:01:20.508435+00:00"
-},
-{
-"term": "지하철",
-"n30": 5,
-"base": 1.1,
-"spike": true,
-"since": "2026-11-14T09:01:20.508435+00:00"
+"since": "2026-11-14T09:03:34.157272+00:00"
 }
 ],
 "baseline": {
@@ -4188,15 +4188,15 @@
 "불났": 0.05,
 "정전": 0.05,
 "폭발": 0.05,
-"붕괴": 0.13,
+"붕괴": 0.12,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 1.16,
-"사고": 3.73,
-"실종": 0.06,
+"지하철": 1.24,
+"사고": 3.76,
+"실종": 0.05,
 "단수": 0.05,
-"통신 장애": 0.09,
+"통신 장애": 0.08,
 "먹통": 0.05,
 "산불": 0.05
 },
@@ -4387,6 +4387,24 @@
 },
 "trends": [
 {
+"term": "이로운",
+"traffic": "500+",
+"time": "2026-11-14T08:00:00+00:00",
+"news": [
+{
+"title": "'결승행 걸렸다' 한국, 대만전 김지찬 리드오프 전진 배치…DH 안재석 첫 선발 출전 [오!쎈 도쿄]",
+"source": "조선일보",
+"link": "https://www.chosun.com/sports/baseball/2026/11/14/GNQTANJQHA2DGNJXGAYTKOBWMM/"
+},
+{
+"title": "'호주 16-1 콜드승' 일본 땡큐! 결승에서 만나자…한국, 대만전 몇 점 차든 이기기만 하면 된다 [오!쎈 도쿄] - 머니투데이",
+"source": "머니투데이",
+"link": "https://www.mt.co.kr/sports/2026/11/14/202611141419776777O"
+}
+],
+"new": true
+},
+{
 "term": "수수료",
 "traffic": "200+",
 "time": "2026-11-14T07:20:00+00:00",
@@ -4547,24 +4565,6 @@
 }
 ],
 "new": false
-},
-{
-"term": "장동윤",
-"traffic": "100+",
-"time": "2026-11-14T05:40:00+00:00",
-"news": [
-{
-"title": "'김승윤과 결혼' 장동윤, 새신랑됐는데..인도 미용실서 혼절 직전? 곽튜브는 비명 ('지구마불4')",
-"source": "조선일보",
-"link": "https://www.chosun.com/entertainments/broadcast/2026/11/14/MU3DGMRYMMZTMZBUGU3GMZTFMM/"
-},
-{
-"title": "장동윤, 인도 마사지에 혼절 직전…곽튜브는 비명 (지구마불4)",
-"source": "스포츠동아",
-"link": "https://sports.donga.com/ent/article/all/20261114/135024272/1"
-}
-],
-"new": true
 }
 ],
 "trendSeen": [
