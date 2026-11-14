@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-14T01:34:24.189739+00:00",
+"updated": "2026-11-14T01:36:41.086466+00:00",
 "errors": [],
 "events": [
 {
@@ -203,7 +203,7 @@
 "id": "nd2dGNHbUVYRnpzdXhrQQoc52202",
 "first": "2026-11-13T22:02:05+00:00",
 "last": "2026-11-14T01:16:55+00:00",
-"updated": "2026-11-14T01:31:00.240647+00:00",
+"updated": "2026-11-14T01:36:41.086466+00:00",
 "headline": "대전남부고속도로 승용차 추돌사고 처리중",
 "cat": "교통",
 "regions": [
@@ -262,6 +262,13 @@
 "title": "[속보] 제2경인고속도로 승용차관련 사고처리중",
 "source": "스페셜타임스",
 "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5jYWpxdmFkNFJhOXlHMzZJaFdvQ2FQQUxHcnZrSTVDdTVhYWRRaGNsMVpwVWJMaEZweDMxem1saDZPVFo1S24tNHZhVDhSSElndldHd2JKeEVPM3Z0YmZtd2NMVzdseDJ0cUlDNFlRUlVrZw?oc=5",
+"time": "2026-11-14T01:16:42+00:00",
+"stage": "속보"
+},
+{
+"title": "[속보] 제2경인고속도로 승용차관련 사고처리중",
+"source": "스페셜타임스",
+"link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5xSngtTlNQQUZQeEJ5dmJQUWdSQkRzdVJNZlhBV1Z0VkhaU0syb2E4X0RzWTJyaENib3liY0xjcEoxRFI1YzlOMTRIcVpFbG84Nm9UcEdCeWl1Nk1DVzI4VlRmTGhGTENKM2ZodVNtdHRyNkk?oc=5",
 "time": "2026-11-14T01:16:42+00:00",
 "stage": "속보"
 },
@@ -2494,8 +2501,8 @@
 "spike": false
 },
 "폭발": {
-"n30": 6,
-"base": 1.1,
+"n30": 5,
+"base": 1.2,
 "spike": true
 },
 "붕괴": {
@@ -2520,7 +2527,7 @@
 },
 "지하철": {
 "n30": 2,
-"base": 0.7,
+"base": 0.8,
 "spike": false
 },
 "사고": {
@@ -2530,7 +2537,7 @@
 },
 "실종": {
 "n30": 1,
-"base": 0.2,
+"base": 0.3,
 "spike": false
 },
 "단수": {
@@ -2544,8 +2551,8 @@
 "spike": false
 },
 "먹통": {
-"n30": 0,
-"base": 0.5,
+"n30": 1,
+"base": 0.4,
 "spike": false
 },
 "산불": {
@@ -2555,6 +2562,16 @@
 }
 },
 "posts": [
+{
+"text": "내 랩탑이 안 켜지네, 버벅거린다고 재부팅하고, conky 안뜨고 먹통이라고 재부팅했디. 화면이 아예 안 나오네..",
+"handle": "deokgonkimdgkim.bsky.social",
+"name": "Deokgon Kim",
+"time": "2026-11-14T01:35:58.369Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/deokgonkimdgkim.bsky.social/post/3n2aecjujps2p",
+"term": "먹통"
+},
 {
 "platform": "YouTube",
 "text": "트릭컬 마녀 TOP 5 마카샤는 귀엽고 똑똑한 매력 폭발 마녀임",
@@ -2794,16 +2811,6 @@
 "url": "https://www.youtube.com/watch?v=3wSo4e7JL1o"
 },
 {
-"text": "RT: 모든 원소의 탄생은 아니고 철보다 무거운 원소(금 우라늄 등)는 초신성 폭발로 생기는데, 에스파 수퍼노바 가사가 이를 서정적으로 표현해 놨음..",
-"handle": "kivol.net",
-"name": "사견의 지평선",
-"time": "2026-11-14T01:06:25.082Z",
-"likes": 1,
-"reposts": 0,
-"url": "https://bsky.app/profile/kivol.net/post/3n2acnn24ls23",
-"term": "폭발"
-},
-{
 "platform": "YouTube",
 "text": "※긴급속보※ [리플 XRP] 난리난 상황에도 8달러 간다!! 무려 259억 기관자금 이탈!! 청산매물 공포!! V자 반등!!",
 "handle": "UCDBniJtWmmDbGiJ68UbBrUw",
@@ -2816,35 +2823,35 @@
 "spikes": [
 {
 "term": "폭발",
-"n30": 6,
-"base": 1.1,
+"n30": 5,
+"base": 1.2,
 "spike": true,
-"since": "2026-11-14T01:34:24.189739+00:00"
+"since": "2026-11-14T01:36:41.086466+00:00"
 },
 {
 "term": "속보",
 "n30": 10,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-14T01:34:24.189739+00:00"
+"since": "2026-11-14T01:36:41.086466+00:00"
 }
 ],
 "baseline": {
-"지진": 0.09,
+"지진": 0.08,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 1.16,
-"붕괴": 0.67,
+"폭발": 1.14,
+"붕괴": 0.6,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.75,
-"사고": 0.62,
-"실종": 0.32,
+"지하철": 0.78,
+"사고": 0.66,
+"실종": 0.39,
 "단수": 0.05,
 "통신 장애": 0.05,
-"먹통": 0.42,
+"먹통": 0.48,
 "산불": 0.05
 },
 "errors": [],
@@ -3102,14 +3109,14 @@
 "time": "2026-11-14T00:20:00+00:00",
 "news": [
 {
-"title": "Nhận định bóng đá Argentina vs Uruguay, 06h00 ngày 14/11: Nhẹ nhàng điệu Tango",
-"source": "Tạp chí Bóng đá",
-"link": "https://bongdaplus.vn/giao-huu-bong-da/nhan-dinh-bong-da-argentina-vs-uruguay-06h00-ngay-14-11-nhe-nhang-dieu-tango-5287432611.html"
-},
-{
 "title": "Mac Allister: 'Sẽ không còn ai giống Messi'",
 "source": "VnExpress",
 "link": "https://vnexpress.net/mac-allister-se-khong-con-ai-giong-messi-5143428.html"
+},
+{
+"title": "Trực tiếp Argentina vs Uruguay: Argentina ép sân trước Uruguay, chưa có bàn thắng",
+"source": "Báo Nghệ An",
+"link": "https://baonghean.vn/truc-tiep-argentina-vs-uruguay-argentina-ep-san-truoc-uruguay-chua-co-ban-thang-10355780.html"
 }
 ],
 "new": true
