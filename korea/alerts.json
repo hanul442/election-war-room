@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-14T22:13:55.723061+00:00",
+"updated": "2026-11-14T22:16:13.843882+00:00",
 "errors": [],
 "events": [
 {
@@ -280,12 +280,12 @@
 "terms": {
 "지진": {
 "n30": 0,
-"base": 0.8,
+"base": 0.7,
 "spike": false
 },
 "화재": {
 "n30": 0,
-"base": 0.5,
+"base": 0.4,
 "spike": false
 },
 "불났": {
@@ -299,7 +299,7 @@
 "spike": false
 },
 "폭발": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -319,9 +319,9 @@
 "spike": false
 },
 "속보": {
-"n30": 5,
-"base": 0.7,
-"spike": true
+"n30": 2,
+"base": 0.6,
+"spike": false
 },
 "지하철": {
 "n30": 0,
@@ -330,7 +330,7 @@
 },
 "사고": {
 "n30": 0,
-"base": 0.2,
+"base": 0.1,
 "spike": false
 },
 "실종": {
@@ -577,27 +577,19 @@
 "url": "https://www.youtube.com/watch?v=P7WZ-jCqFVg"
 }
 ],
-"spikes": [
-{
-"term": "속보",
-"n30": 5,
-"base": 0.7,
-"spike": true,
-"since": "2026-11-14T22:13:55.723061+00:00"
-}
-],
+"spikes": [],
 "baseline": {
-"지진": 0.73,
-"화재": 0.41,
+"지진": 0.66,
+"화재": 0.37,
 "불났": 0.05,
 "정전": 0.05,
 "폭발": 0.05,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.62,
-"지하철": 0.17,
-"사고": 0.15,
+"속보": 0.56,
+"지하철": 0.15,
+"사고": 0.14,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -827,8 +819,26 @@
 },
 "trends": [
 {
+"term": "복권",
+"traffic": "5000+",
+"time": "2026-11-14T21:00:00+00:00",
+"news": [
+{
+"title": "1250회 로또 1등번호 당첨자 14명...20억씩 배당",
+"source": "헤드라인제주",
+"link": "https://www.headlinejeju.co.kr/news/articleView.html?idxno=602149"
+},
+{
+"title": "제1250회 로또 1등 9명···당첨금 31억원",
+"source": "경향신문",
+"link": "https://www.khan.co.kr/article/202611142052001"
+}
+],
+"new": true
+},
+{
 "term": "이승기",
-"traffic": "200+",
+"traffic": "500+",
 "time": "2026-11-14T21:00:00+00:00",
 "news": [
 {
@@ -886,21 +896,21 @@
 "time": "2026-11-14T20:00:00+00:00",
 "news": [
 {
-"title": "치매 부모가 생전에 물려준 재산…되돌릴 수 있을까 - 머니투데이",
-"source": "머니투데이",
-"link": "https://www.mt.co.kr/society/2026/11/12/2026111210123451419"
+"title": "하리수 \"중학생 때부터 父와 대화 단절…몰래 성전환 수술\"",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261115_0003868296"
 },
 {
-"title": "“전 재산을 OO에게” 치매 아버지 유언장 본 남매 충격",
-"source": "위키트리",
-"link": "https://www.wikitree.co.kr/articles/1173180"
+"title": "\"8㎝ 뇌종양, 두개골 제거\"…빽가, 부모에 진단 숨기다 '눈물' - 머니투데이",
+"source": "머니투데이",
+"link": "https://www.mt.co.kr/index.php/entertainment/2026/11/12/2026111209361465715"
 }
 ],
 "new": true
 },
 {
 "term": "portugal vs denmark",
-"traffic": "500+",
+"traffic": "1000+",
 "time": "2026-11-14T19:50:00+00:00",
 "news": [
 {
@@ -918,7 +928,7 @@
 },
 {
 "term": "이세계아이돌",
-"traffic": "200+",
+"traffic": "500+",
 "time": "2026-11-14T19:30:00+00:00",
 "news": [
 {
@@ -963,45 +973,27 @@
 "link": "https://ko.laodong.vn/bong-da-quoc-te/nhan-dinh-tran-bo-dao-nha-vs-dan-mach-tai-nations-league-1799982.ldo"
 },
 {
-"title": "경기 프리뷰: 포르투갈 vs 덴마크, 11월 15일 오전 2시 45분: 조 1위 자리를 놓고 경쟁.",
-"source": "Vietnam.vn",
-"link": "https://www.vietnam.vn/ko/nhan-dinh-tran-dau-bo-dao-nha-vs-dan-mach-2h45-ngay-15-11-can-dich-ngoi-dau"
+"title": "[UNL REVIEW] '은퇴' 호날두의 저주?...포르투갈, 덴마크에 충격 1-4 대패! 호일룬 멀티골에 무너져",
+"source": "인터풋볼",
+"link": "https://www.interfootball.co.kr/news/articleView.html?idxno=698482"
 }
 ],
 "new": false
 },
 {
 "term": "lol",
-"traffic": "200+",
+"traffic": "100+",
 "time": "2026-11-14T19:00:00+00:00",
 "news": [
+{
+"title": "League of Legends: New Dawn revealed with modernized client, updated Summoner's Rift, and more",
+"source": "Sheep Esports",
+"link": "https://www.sheepesports.com/en/articles/league-of-legends-new-dawn-revealed-with-modernized-client-updated-summoner-s-rift-and-more/en"
+},
 {
 "title": "LoL Esports 2027 and Beyond",
 "source": "LoL Esports",
 "link": "https://lolesports.com/news/lol-esports-2027-and-beyond"
-},
-{
-"title": "Next Year's Worlds Final to Be Held in Seoul... Showdown at 'Seoul Arena'",
-"source": "아시아경제",
-"link": "https://www.asiae.co.kr/en/article/2026111400394915464"
-}
-],
-"new": true
-},
-{
-"term": "룰러",
-"traffic": "5000+",
-"time": "2026-11-14T18:50:00+00:00",
-"news": [
-{
-"title": "'월즈 우승 도전' 젠지 \"상대 탑·정글 경계…밴픽 자신있다\"",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261114020600017"
-},
-{
-"title": "[롤드컵]젠지, BLG 상대로 1세트 승리…기선 제압",
-"source": "뉴시스",
-"link": "https://www.newsis.com/view/NISX20261115_0003868290"
 }
 ],
 "new": true
