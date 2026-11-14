@@ -1,17 +1,18 @@
 {
-"updated": "2026-11-14T13:23:14.503232+00:00",
+"updated": "2026-11-14T13:25:26.143338+00:00",
 "errors": [],
 "events": [
 {
 "id": "jJGc2l3TmZpUzdNcEdkVQoc51254",
 "first": "2026-11-14T12:54:50+00:00",
 "last": "2026-11-14T13:15:55+00:00",
-"updated": "2026-11-14T13:18:49.347264+00:00",
+"updated": "2026-11-14T13:25:26.143338+00:00",
 "headline": "'김도영 결승포' 한국, APBC 결승행…일본과 우승 다툼",
 "cat": "국제",
 "regions": [],
 "sources": [
 "뉴스1",
+"뉴스핌",
 "뉴시스",
 "연합뉴스",
 "조선일보",
@@ -62,6 +63,13 @@
 "stage": "후속"
 },
 {
+"title": "[AI상보] '김도영 결승포' 한국, 대만 6-4 제압…APBC 2연패 뒤 극적 결승 진출",
+"source": "뉴스핌",
+"link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBGVC1oSTJ3OFR4RUxrZ2Y0cWpyX1MwV0FaTE0tVkhJQW5weUdtMDh2bmh3ek5MMkJRZ3E2eko5THVjNE1wVmszMFhXZ21KT0hpT21CN01QUmlKUQ?oc=5",
+"time": "2026-11-14T13:06:00+00:00",
+"stage": "후속"
+},
+{
 "title": "드디어 폭발한 김도영…한국 APBC 결승 이끈 '천금 결승포'",
 "source": "뉴시스",
 "link": "https://www.newsis.com/view/NISX20261114_0003868256",
@@ -73,11 +81,14 @@
 "latest": "드디어 폭발한 김도영…한국 APBC 결승 이끈 '천금 결승포'",
 "tok": [
 "15일",
+"2연패",
+"AI상보",
 "APBC",
 "결승",
 "결승전",
 "결승포",
 "결승행",
+"극적",
 "김도영",
 "꺾고",
 "다툼",
@@ -92,6 +103,7 @@
 "이로운",
 "일본",
 "재격돌",
+"제압",
 "진출",
 "천금",
 "탈출",
@@ -3830,18 +3842,18 @@
 "spike": false
 },
 "정전": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
 "폭발": {
 "n30": 1,
-"base": 0.2,
+"base": 0.3,
 "spike": false
 },
 "붕괴": {
 "n30": 2,
-"base": 1.4,
+"base": 1.5,
 "spike": false
 },
 "대피": {
@@ -3861,12 +3873,12 @@
 },
 "지하철": {
 "n30": 0,
-"base": 0.6,
+"base": 0.5,
 "spike": false
 },
 "사고": {
 "n30": 6,
-"base": 2.4,
+"base": 2.8,
 "spike": false
 },
 "실종": {
@@ -4149,17 +4161,17 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 0.69,
+"지진": 0.72,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.32,
-"붕괴": 1.48,
+"폭발": 0.39,
+"붕괴": 1.53,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.52,
-"사고": 2.76,
+"지하철": 0.47,
+"사고": 3.08,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -4428,12 +4440,23 @@
 "term": "nhật bản đấu với brasil",
 "traffic": "100+",
 "time": "2026-11-14T11:30:00+00:00",
-"news": [],
+"news": [
+{
+"title": "Japan vs Brazil: Friendlies stats & head-to-head",
+"source": "BBC",
+"link": "https://www.bbc.com/sport/football/live/cv5yny98z474t"
+},
+{
+"title": "Stars set Singapore alight as Japan exact revenge on Brazil with dramatic late win",
+"source": "ESPN",
+"link": "https://www.espn.com/soccer/story/_/id/50479233/japan-revenge-brazil-dramatic-late-win"
+}
+],
 "new": true
 },
 {
 "term": "문무",
-"traffic": "1000+",
+"traffic": "2000+",
 "time": "2026-11-14T11:20:00+00:00",
 "news": [
 {
