@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-14T15:37:30.055671+00:00",
+"updated": "2026-11-14T15:39:48.367599+00:00",
 "errors": [],
 "events": [
 {
@@ -2699,8 +2699,8 @@
 "sns": {
 "terms": {
 "지진": {
-"n30": 1,
-"base": 0.7,
+"n30": 0,
+"base": 0.8,
 "spike": false
 },
 "화재": {
@@ -2720,12 +2720,12 @@
 },
 "폭발": {
 "n30": 7,
-"base": 0.2,
+"base": 0.1,
 "spike": true
 },
 "붕괴": {
 "n30": 0,
-"base": 1.3,
+"base": 1.2,
 "spike": false
 },
 "대피": {
@@ -2973,16 +2973,6 @@
 "url": "https://www.youtube.com/watch?v=5mXtxNSc9AE"
 },
 {
-"text": "【지진 정보】일본 시간 11월 15일 00:05경\n진원: 진원 조사 중\n최대 진도: 3\n진도 3: 구마모토현\n(일본 기상청 발표)\n#일본 #지진 #방재",
-"handle": "ko.soramoyou.yk-planning.jp",
-"name": "Soramoyou 한국어",
-"time": "2026-11-14T15:08:34.341Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/ko.soramoyou.yk-planning.jp/post/3n2brplv7ty22",
-"term": "지진"
-},
-{
 "platform": "YouTube",
 "text": "[🔴속보] 단풍 떨어트리는 겨울비…'최대 60mm' 전국 적신다｜당분간 평년보다 포근 / 연합뉴스TV(YonhapnewsTV)",
 "handle": "UCTHCOPwqNfZ0uiKOvFyhGwg",
@@ -2996,30 +2986,30 @@
 {
 "term": "폭발",
 "n30": 7,
-"base": 0.2,
+"base": 0.1,
 "spike": true,
-"since": "2026-11-14T15:37:30.055671+00:00"
+"since": "2026-11-14T15:39:48.367599+00:00"
 },
 {
 "term": "속보",
 "n30": 5,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-14T15:37:30.055671+00:00"
+"since": "2026-11-14T15:39:48.367599+00:00"
 }
 ],
 "baseline": {
-"지진": 0.77,
+"지진": 0.69,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.14,
-"붕괴": 1.2,
+"폭발": 0.13,
+"붕괴": 1.08,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
 "지하철": 0.05,
-"사고": 3.36,
+"사고": 3.32,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -3245,14 +3235,14 @@
 "time": "2026-11-14T13:40:00+00:00",
 "news": [
 {
+"title": "팬 사랑 가득한 박서진의 팬들을 위해 준비한 선물🎁 | KBS 261114 방송",
+"source": "대한민국 대표 공영미디어 KBS",
+"link": "https://www.kbs.co.kr/index.html?source=smr&sname=vod&stype=vod&contents_id=K02_PS-2026192877-01-000_MFSC4&program_code=T2016-0651&program_id=PS-2026192877-01-000&section_code=04&broadcast_complete_yn=N&section_id=10737"
+},
+{
 "title": "'박서진 동생' 박효정, '연하' 보디빌더 품에 쏙 안겼다…전완근 보며 미소('살림남')",
 "source": "조선일보",
 "link": "https://www.chosun.com/entertainments/broadcast/2026/11/13/MIYGGMJZGBQWKMTDGZTDKZDBMI/"
-},
-{
-"title": "‘슈스’ 박서진, 팬클럽 2700명 체육대회…“팬카페 회원수 임영웅 다음” (살림남)",
-"source": "스포츠경향",
-"link": "https://sports.khan.co.kr/article/202611130819003"
 }
 ],
 "new": false
