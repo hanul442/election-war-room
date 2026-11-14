@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-14T00:59:28.248928+00:00",
+"updated": "2026-11-14T01:01:44.109977+00:00",
 "errors": [],
 "events": [
 {
@@ -452,7 +452,7 @@
 "id": "FUSURBU251LVF5c25zX2soc50029",
 "first": "2026-11-14T00:29:28+00:00",
 "last": "2026-11-14T00:33:00+00:00",
-"updated": "2026-11-14T00:42:15.195184+00:00",
+"updated": "2026-11-14T01:01:44.109977+00:00",
 "headline": "'보검매직컬2' 고경표, 음주운전",
 "cat": "기타",
 "regions": [],
@@ -480,6 +480,13 @@
 "title": "[속보] 고경표, 만취 음주운전 교통사고 적발…면허 취소 수준",
 "source": "스포츠경향",
 "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1BYk1PWWdiNnYwWThxeW9nX1hPRmxtaVNEZ0FWQ0JOZEJ4bC1wSEZIOHZ0TmgzVUtYWDZhXzZnUHVpU3JpZGVMTTBmQXhMRUE5eUdHQmM4TWtYQmRVNGE5amNma9IBY0FVX3lxTE1BYk1PWWdiNnYwWThxeW9nX1hPRmxtaVNEZ0FWQ0JOZEJ4bC1wSEZIOHZ0TmgzVUtYWDZhXzZnUHVpU3JpZGVMTTBmQXhMRUE5eUdHQmM4TWtYQmRVNGE5amNmaw?oc=5",
+"time": "2026-11-14T00:33:00+00:00",
+"stage": "속보"
+},
+{
+"title": "[속보] 고경표, 만취 음주운전 교통사고 적발…면허 취소 수준",
+"source": "스포츠경향",
+"link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1SOUdYZ2REazNFdnluOHVSemJjVk9fbjJLTFBHYWZldTgwWUVzbXY2TnFpVnlHTDFScExSajI1a1dlRTNYOHZxSllVWmZoRWl1R1ZHNDJUQnlrdlZ0dnfSAWNBVV95cUxNQWJNT1lnYjZ2MFk4cXlvZ19YT0ZsbWlTRGdBVkNCTmRCeGwtcEhGSDh2dE5oM1VLWFg2YV82Z1B1aVNyaWRlTE0wZkF4TEVBOXlHR0JjOE1rWEJkVTRhOWpjZms?oc=5",
 "time": "2026-11-14T00:33:00+00:00",
 "stage": "속보"
 }
@@ -2036,11 +2043,6 @@
 ],
 "sns": {
 "terms": {
-"지진": {
-"n30": 1,
-"base": 0.4,
-"spike": false
-},
 "화재": {
 "n30": 0,
 "base": 0.1,
@@ -2056,13 +2058,8 @@
 "base": 0.1,
 "spike": false
 },
-"폭발": {
-"n30": 4,
-"base": 0.4,
-"spike": false
-},
 "붕괴": {
-"n30": 2,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
@@ -2077,24 +2074,9 @@
 "spike": false
 },
 "속보": {
-"n30": 11,
+"n30": 7,
 "base": 0.1,
 "spike": true
-},
-"지하철": {
-"n30": 3,
-"base": 1.1,
-"spike": false
-},
-"사고": {
-"n30": 1,
-"base": 0.3,
-"spike": false
-},
-"실종": {
-"n30": 0,
-"base": 0.1,
-"spike": false
 },
 "단수": {
 "n30": 0,
@@ -2108,7 +2090,7 @@
 },
 "먹통": {
 "n30": 1,
-"base": 0.2,
+"base": 0.3,
 "spike": false
 },
 "산불": {
@@ -2135,16 +2117,6 @@
 "time": "2026-11-14T00:54:31Z",
 "term": "폭발",
 "url": "https://www.youtube.com/watch?v=-t-UdZLPtDo"
-},
-{
-"text": "고경표 음주운전 혈중알코올농도 0.08% 이상 면허취소 수준 충격 사고\n\n배우 고경표가 오전 3시 30분 서울 마포구에서 만취 상태로 청소차를 들이받는 음주운전 사고를 냈습니다. 혈중알코올농도가 면허 취소 기준인 0.08% 이상으로 확인됐으며, 출연 예정작 편성에도 비상이 걸렸습니다.\n\nm.blog.naver.com/hampi2/22447...",
-"handle": "hampi2.bsky.social",
-"name": "hampi2.bsky.social",
-"time": "2026-11-14T00:53:13.176Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/hampi2.bsky.social/post/3n2abvzq73s26",
-"term": "사고"
 },
 {
 "text": "하지만 장시간 먹통은 아니라구욧",
@@ -2331,10 +2303,10 @@
 "spikes": [
 {
 "term": "속보",
-"n30": 11,
+"n30": 7,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-14T00:59:28.248928+00:00"
+"since": "2026-11-14T01:01:44.109977+00:00"
 }
 ],
 "baseline": {
@@ -2352,10 +2324,16 @@
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
-"먹통": 0.32,
+"먹통": 0.39,
 "산불": 0.05
 },
-"errors": [],
+"errors": [
+"지진: HTTPError",
+"폭발: HTTPError",
+"지하철: HTTPError",
+"사고: HTTPError",
+"실종: HTTPError"
+],
 "ytPosts": [
 {
 "platform": "YouTube",
