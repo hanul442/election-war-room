@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-14T21:37:29.846047+00:00",
+"updated": "2026-11-14T21:39:45.813998+00:00",
 "errors": [],
 "events": [
 {
@@ -228,60 +228,18 @@
 "진출",
 "천위페"
 ]
-},
-{
-"id": "EFzd0N6LXR3dHl5N19QYwoc51539",
-"first": "2026-11-14T15:39:41+00:00",
-"last": "2026-11-14T15:39:41+00:00",
-"updated": "2026-11-14T15:51:08.995702+00:00",
-"headline": "인제대·경일대 해킹한 해커, 해킹 포럼에 “한국 대학 31곳 데이터 탈취·공개” 주장…수능 앞두고 대학 보안 비상",
-"cat": "기타",
-"regions": [],
-"sources": [
-"데일리시큐"
-],
-"updates": [
-{
-"title": "[단독] 인제대·경일대 해킹한 해커, 해킹 포럼에 “한국 대학 31곳 데이터 탈취·공개” 주장…수능 앞두고 대학 보안 비상",
-"source": "데일리시큐",
-"link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5hNmNyX3BWZm44UkhtOGtXWThYZFhRaDZGWTJzSllLWHBEYnJ6VHBXaEdGa1k4MWVhTFBtQURvVk9Od2QwT3g2WnJsTVVFTmtCSV9fSlNaTHlPNmg3SEFzd0N6LXR3dHl5N19QYw?oc=5",
-"time": "2026-11-14T15:39:41+00:00",
-"stage": "단독"
-}
-],
-"level": "URGENT",
-"latest": "인제대·경일대 해킹한 해커, 해킹 포럼에 “한국 대학 31곳 데이터 탈취·공개” 주장…수능 앞두고 대학 보안 비상",
-"tok": [
-"31곳",
-"경일대",
-"공개",
-"대학",
-"데이터",
-"보안",
-"비상",
-"수능",
-"앞두고",
-"인제대",
-"주장",
-"탈취",
-"포럼",
-"한국",
-"해커",
-"해킹",
-"해킹한"
-]
 }
 ],
 "sns": {
 "terms": {
 "지진": {
 "n30": 2,
-"base": 0.5,
+"base": 0.7,
 "spike": false
 },
 "화재": {
 "n30": 1,
-"base": 0.2,
+"base": 0.3,
 "spike": false
 },
 "불났": {
@@ -295,9 +253,9 @@
 "spike": false
 },
 "폭발": {
-"n30": 5,
+"n30": 4,
 "base": 0.2,
-"spike": true
+"spike": false
 },
 "붕괴": {
 "n30": 1,
@@ -315,17 +273,17 @@
 "spike": false
 },
 "속보": {
-"n30": 5,
+"n30": 3,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "지하철": {
 "n30": 1,
-"base": 1.0,
+"base": 0.9,
 "spike": false
 },
 "사고": {
-"n30": 1,
+"n30": 0,
 "base": 0.8,
 "spike": false
 },
@@ -468,16 +426,6 @@
 "url": "https://www.youtube.com/watch?v=ZmavHwqlJt8"
 },
 {
-"text": "오늘 가서 남들 사고능력 빨아먹어야함\n발등 불 수준도 아니고 발등 화마 전소 상태인데 오타쿠력 발기부전상태라 아무것도 못하고 있어서 만나는 사람 아무나 잡아먹고 콘티 이번달 안에 끝내야됨",
-"handle": "deepblue-sea.bsky.social",
-"name": "이어진🎗",
-"time": "2026-11-14T21:08:24.148Z",
-"likes": 3,
-"reposts": 0,
-"url": "https://bsky.app/profile/deepblue-sea.bsky.social/post/3n2cfszf7s22x",
-"term": "사고"
-},
-{
 "platform": "YouTube",
 "text": "[삼성전자 주가 전망]*5분전美긴급속보* 삼성전자 11/16일 아침장 열리면 곧바로 \"이렇게\" 쏩니다. 망설이지말고 빠르게 준비하세요. #삼성전자실시간 #삼성전자주가전망",
 "handle": "UCNXOAD4bn8EEVhhOGkSRAbg",
@@ -604,34 +552,19 @@
 "url": "https://www.youtube.com/watch?v=_adQe5ZV9ug"
 }
 ],
-"spikes": [
-{
-"term": "폭발",
-"n30": 5,
-"base": 0.2,
-"spike": true,
-"since": "2026-11-14T21:37:29.846047+00:00"
-},
-{
-"term": "속보",
-"n30": 5,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-14T21:37:29.846047+00:00"
-}
-],
+"spikes": [],
 "baseline": {
-"지진": 0.66,
-"화재": 0.32,
+"지진": 0.79,
+"화재": 0.39,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.2,
+"폭발": 0.18,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.88,
-"사고": 0.79,
+"지하철": 0.79,
+"사고": 0.71,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
