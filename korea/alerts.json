@@ -1,7 +1,46 @@
 {
-"updated": "2026-11-14T06:51:35.733699+00:00",
+"updated": "2026-11-14T06:53:52.229952+00:00",
 "errors": [],
 "events": [
+{
+"id": "SGKNBSGA3GCNBWMUYGMMBUGQ0646",
+"first": "2026-11-14T06:46:00+00:00",
+"last": "2026-11-14T06:46:00+00:00",
+"updated": "2026-11-14T06:53:52.229952+00:00",
+"headline": "[사진]정지석,'삼성화재 블로킹 벽 뚫어라'",
+"cat": "재난",
+"regions": [],
+"sources": [
+"조선일보"
+],
+"updates": [
+{
+"title": "[사진]정지석,'삼성화재 블로킹 벽 뚫어라'",
+"source": "조선일보",
+"link": "https://www.chosun.com/sports/sports_photo/2026/11/14/MVSGKNBSGA3GCNBWMUYGMMBUGQ/",
+"time": "2026-11-14T06:46:00+00:00",
+"stage": "1보"
+},
+{
+"title": "[사진]송명근-정지석,'희비교차'",
+"source": "조선일보",
+"link": "https://www.chosun.com/sports/sports_photo/2026/11/14/G5QTSOBTMZQTQNBSMJRGINZSGE/",
+"time": "2026-11-14T06:46:00+00:00",
+"stage": "후속"
+}
+],
+"level": "ALERT",
+"latest": "[사진]송명근-정지석,'희비교차'",
+"tok": [
+"뚫어라",
+"블로킹",
+"사진",
+"삼성화재",
+"송명근",
+"정지석",
+"희비교차"
+]
+},
 {
 "id": "9qZldBMUpjSHJfSjZlbzQoc50215",
 "first": "2026-11-14T02:15:00+00:00",
@@ -3170,44 +3209,13 @@
 "터졌다",
 "현장"
 ]
-},
-{
-"id": "NSEJ0TjNlZnhPZjgtMGFvoc50052",
-"first": "2026-11-14T00:52:36+00:00",
-"last": "2026-11-14T00:52:36+00:00",
-"updated": "2026-11-14T00:57:11.112402+00:00",
-"headline": "박지원, 최민희 발언 선긋기 “왜 내 이름 나오냐”",
-"cat": "기타",
-"regions": [],
-"sources": [
-"문화일보"
-],
-"updates": [
-{
-"title": "[속보]박지원, 최민희 발언 선긋기 “왜 내 이름 나오냐”",
-"source": "문화일보",
-"link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBkWVI4RlROSFZPNm51Vm1KV1U3WTI4OERORzdySS16WURVX2J1Z3R1UW9uSGNHMTN6Q3JmOEt3Zm1NSEJ0TjNlZnhPZjgtMGFv?oc=5",
-"time": "2026-11-14T00:52:36+00:00",
-"stage": "얼럿"
-}
-],
-"level": "URGENT",
-"latest": "박지원, 최민희 발언 선긋기 “왜 내 이름 나오냐”",
-"tok": [
-"나오냐",
-"박지원",
-"발언",
-"선긋기",
-"이름",
-"최민희"
-]
 }
 ],
 "sns": {
 "terms": {
 "지진": {
 "n30": 1,
-"base": 0.2,
+"base": 0.3,
 "spike": false
 },
 "화재": {
@@ -3256,8 +3264,8 @@
 "spike": false
 },
 "사고": {
-"n30": 3,
-"base": 1.9,
+"n30": 4,
+"base": 2.0,
 "spike": false
 },
 "실종": {
@@ -3287,6 +3295,16 @@
 }
 },
 "posts": [
+{
+"text": "아니...반지는 사고 싶은데\n내가 좋아하는 은은 왠지 안 어울리고\n로즈골드는 미묘하고\n골드는 잘...맞긴 한데 뭔가 안내킴\n결국 못고르고 걍 나오다.....",
+"handle": "koodb.bsky.social",
+"name": "콸콸 뚫어드립니다",
+"time": "2026-11-14T06:52:02.747Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/koodb.bsky.social/post/3n2avxpelgk2c",
+"term": "사고"
+},
 {
 "text": "또 정신병 폭발쇼하고 아예 그릇하나 박살냈는데 개운한건지 아닌지 뭔가 상상만큼 후련하진 않고. 옛날처럼 분노를 표출한다고 뭐가 해결되는게 아니라 그건 그거고 어쨋든 해야할 일과 해결해야할 건 그대로라는 현실때문에 별 마음이 안드나봐",
 "handle": "alien-gourmet.bsky.social",
@@ -3512,19 +3530,19 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 0.32,
+"지진": 0.39,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.15,
+"폭발": 0.24,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.88,
-"사고": 2.02,
-"실종": 0.09,
-"단수": 0.13,
+"지하철": 0.89,
+"사고": 2.22,
+"실종": 0.08,
+"단수": 0.12,
 "통신 장애": 0.05,
 "먹통": 0.05,
 "산불": 0.05
@@ -3698,6 +3716,42 @@
 },
 "trends": [
 {
+"term": "광교신도시",
+"traffic": "100+",
+"time": "2026-11-14T05:50:00+00:00",
+"news": [
+{
+"title": "시세차익 따라 갈린 수도권 청약…5241가구 정당계약 시험대",
+"source": "글로벌이코노믹",
+"link": "https://www.g-enews.com/article/Real-Estate/2026/11/2026111310100171412aa6f4cdad_1"
+},
+{
+"title": "\"집값 25%만 내고 입주\"…광교 지분적립형에 2만 명 몰려",
+"source": "한국경제",
+"link": "https://www.hankyung.com/article/202611123258i"
+}
+],
+"new": true
+},
+{
+"term": "로켓",
+"traffic": "100+",
+"time": "2026-11-14T05:50:00+00:00",
+"news": [
+{
+"title": "지구 14바퀴 ‘코끼리코’ 돌고 ‘젓가락 잡기’ 2단 회수…머스크의 ‘무한도전’",
+"source": "한겨레",
+"link": "https://www.hani.co.kr/arti/science/technology/1287313.html"
+},
+{
+"title": "[영상]‘스타십’ 1단 로켓 지상 회수 불발…바다에 착수",
+"source": "경향신문",
+"link": "https://www.khan.co.kr/article/202611140848001"
+}
+],
+"new": true
+},
+{
 "term": "장동윤",
 "traffic": "100+",
 "time": "2026-11-14T05:40:00+00:00",
@@ -3837,42 +3891,6 @@
 "title": "생후 50일 아기 울음에 이웃 항의…신생아 부모의 난감한 사연",
 "source": "서울뉴스통신",
 "link": "http://www.snakorea.com/news/articleView.html?idxno=1062063"
-}
-],
-"new": true
-},
-{
-"term": "해병대 제1사단",
-"traffic": "500+",
-"time": "2026-11-14T04:30:00+00:00",
-"news": [
-{
-"title": "포항국제불빛축제 일주일 앞…\"한번도 경험 못한 축제될 것\"",
-"source": "뉴스1",
-"link": "https://www.news1.kr/local/daegu-gyeongbuk/6353403"
-},
-{
-"title": "포항시설관리공단, 포항국제불빛축제 앞두고 영일대 주차장 안전점검 강화",
-"source": "뉴데일리 대구경북",
-"link": "https://tk.newdaily.co.kr/site/data/html/2026/11/12/2026111200401.html"
-}
-],
-"new": false
-},
-{
-"term": "수입",
-"traffic": "2000+",
-"time": "2026-11-14T04:20:00+00:00",
-"news": [
-{
-"title": "한국, 반도체 앞세워 중국 수입시장서 6개월째 1위",
-"source": "MBC 뉴스",
-"link": "https://imnews.imbc.com/news/2026/econo/article/6865615_36932.html"
-},
-{
-"title": "11월 초 수출 2배 뛰었다...수출 1조 달러 달성 눈앞",
-"source": "YTN 사이언스",
-"link": "https://m.science.ytn.co.kr/program/view_today.php?s_mcd=0082&key=202611121103336370"
 }
 ],
 "new": true
