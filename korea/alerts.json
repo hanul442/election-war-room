@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-14T06:22:18.236906+00:00",
+"updated": "2026-11-14T06:24:31.443237+00:00",
 "errors": [],
 "events": [
 {
@@ -3413,12 +3413,12 @@
 },
 "지하철": {
 "n30": 5,
-"base": 1.4,
+"base": 1.3,
 "spike": true
 },
 "사고": {
 "n30": 0,
-"base": 2.5,
+"base": 2.3,
 "spike": false
 },
 "실종": {
@@ -3428,7 +3428,7 @@
 },
 "단수": {
 "n30": 0,
-"base": 0.6,
+"base": 0.5,
 "spike": false
 },
 "통신 장애": {
@@ -3636,21 +3636,21 @@
 "n30": 7,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-14T06:22:18.236906+00:00"
+"since": "2026-11-14T06:24:31.443237+00:00"
 },
 {
 "term": "속보",
 "n30": 5,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-14T06:22:18.236906+00:00"
+"since": "2026-11-14T06:24:31.443237+00:00"
 },
 {
 "term": "지하철",
 "n30": 5,
-"base": 1.4,
+"base": 1.3,
 "spike": true,
-"since": "2026-11-14T06:22:18.236906+00:00"
+"since": "2026-11-14T06:24:31.443237+00:00"
 }
 ],
 "baseline": {
@@ -3661,12 +3661,12 @@
 "폭발": 0.05,
 "붕괴": 0.05,
 "대피": 0.05,
-"미사일": 0.1,
+"미사일": 0.09,
 "속보": 0.05,
-"지하철": 1.34,
-"사고": 2.27,
-"실종": 0.31,
-"단수": 0.5,
+"지하철": 1.31,
+"사고": 2.04,
+"실종": 0.28,
+"단수": 0.45,
 "통신 장애": 0.05,
 "먹통": 0.05,
 "산불": 0.05
@@ -3849,6 +3849,42 @@
 },
 "trends": [
 {
+"term": "이유진",
+"traffic": "200+",
+"time": "2026-11-14T05:20:00+00:00",
+"news": [
+{
+"title": "이유진♥차경은, 오늘 결혼…임신 겹경사",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261114_0003867991"
+},
+{
+"title": "\"집안에 배우만 6명\"…이효정 아들 이유진, 장동윤과 동서된다 - 머니투데이",
+"source": "머니투데이",
+"link": "https://www.mt.co.kr/entertainment/2026/11/11/2026111105460011738"
+}
+],
+"new": true
+},
+{
+"term": "감스트",
+"traffic": "200+",
+"time": "2026-11-14T05:20:00+00:00",
+"news": [
+{
+"title": "세무사 시험 수석 합격자 \"AI 안경으로 문제 다 맞힐 수 있다면 공부 왜 하겠나\"",
+"source": "조선일보",
+"link": "https://www.chosun.com/national/labor/2026/11/14/F4LAS3IYH5AAVHWEV6HHKOOONY/"
+},
+{
+"title": "“AI 안경 부정행위 막아달라”…시험 감독 강화 요구 국회 청원",
+"source": "동아일보",
+"link": "https://www.donga.com/news/Society/article/all/20261114/135024158/1"
+}
+],
+"new": true
+},
+{
 "term": "이현중",
 "traffic": "100+",
 "time": "2026-11-14T05:10:00+00:00",
@@ -3967,9 +4003,9 @@
 "link": "https://sports.yahoo.com/articles/watch-thunder-vs-clippers-free-023000092.html"
 },
 {
-"title": "Winners and Losers from OKC Thunder's Loss to LA Clippers",
-"source": "Sports Illustrated",
-"link": "https://www.si.com/nba/thunder/onsi/winners-and-losers-from-okc-thunder-s-loss-to-la-clippers"
+"title": "Aday Mara starts, blocks three shots vs. Clippers",
+"source": "NBC Sports",
+"link": "https://www.nbcsports.com/fantasy/basketball/player-news/2026-11-14/aday-mara-starts-blocks-three-shots-vs-clippers"
 }
 ],
 "new": true
@@ -3988,42 +4024,6 @@
 "title": "[김흥식 칼럼] 핸들도 운전자도 없는 '완전 자율주행차' 처벌 방법 있나",
 "source": "다나와 자동차",
 "link": "https://auto.danawa.com/news/?Work=detail&no=6081087&NewsGroup=M"
-}
-],
-"new": true
-},
-{
-"term": "경비원",
-"traffic": "500+",
-"time": "2026-11-14T03:30:00+00:00",
-"news": [
-{
-"title": "술 취해 옷에 라이터로 불 붙여···아파트에 불 내 14명 다치게 한 40대 구속영장 신청",
-"source": "경향신문",
-"link": "https://www.khan.co.kr/article/202611131931001"
-},
-{
-"title": "방화에 주민 대피 도운 70대 경비원, 병원 치료 중 숨져",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261114031000054"
-}
-],
-"new": true
-},
-{
-"term": "spurs vs warriors",
-"traffic": "200+",
-"time": "2026-11-14T03:30:00+00:00",
-"news": [
-{
-"title": "That 18-0 Spurs run is the longest unanswered allowed …",
-"source": "HoopsHype",
-"link": "https://www.hoopshype.com/story/sports/nba/rumors/2026/11/13/that-18-0-spurs-run-is-the-longest-unanswered-allowed/92773943007/"
-},
-{
-"title": "Stephon Castle goes off for season-high 32 points",
-"source": "NBC Sports",
-"link": "https://www.nbcsports.com/fantasy/basketball/player-news/2026-11-14/stephon-castle-goes-off-for-season-high-32-points"
 }
 ],
 "new": true
