@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-14T11:36:34.927062+00:00",
+"updated": "2026-11-14T11:38:47.388252+00:00",
 "errors": [],
 "events": [
 {
@@ -489,12 +489,13 @@
 "id": "mJIYnJ5U0lEV3hwSWRFUQoc51113",
 "first": "2026-11-14T11:13:33+00:00",
 "last": "2026-11-14T11:26:00+00:00",
-"updated": "2026-11-14T11:29:56.443070+00:00",
+"updated": "2026-11-14T11:38:47.388252+00:00",
 "headline": "[APBC 현장 속보]한국 박재현 솔로포 등 3안타 3사구 묶어 3-0 리드",
 "cat": "기타",
 "regions": [],
 "sources": [
 "mhnse.com",
+"뉴스핌",
 "뉴시스",
 "조선일보"
 ],
@@ -591,6 +592,13 @@
 "stage": "1보"
 },
 {
+"title": "[APBC] 한국, 대만전 박재현 선제 솔로포 이어 김휘집·안재석 적시타까지...3-0 리드",
+"source": "뉴스핌",
+"link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1jVVBxZmxoME44X1cyS25fMkRZQ3NKNDdmcXRTLWpSX0ZWM2NOTU9tanoyd1NOdDBLSlU1NGZmanRmbWlWNzF5OFFsX0xQU2dROXBEc21mcVhxdFlN?oc=5",
+"time": "2026-11-14T11:15:00+00:00",
+"stage": "후속"
+},
+{
 "title": "'박재현 솔로포→연속 적시타' 한국, 대만에 3-0 리드! 이대로면 결승서 日 다시 만난다 [오!쎈 도쿄]",
 "source": "조선일보",
 "link": "https://www.chosun.com/sports/baseball/2026/11/14/MVRDCZDDGI3WEYRYHE2TIZBQMM/",
@@ -601,6 +609,13 @@
 "title": "[사진]김휘집,'홈은 무리였나!'",
 "source": "조선일보",
 "link": "https://www.chosun.com/sports/sports_photo/2026/11/14/GA4TINDDMNRDOMLBGM3GGMZTMY/",
+"time": "2026-11-14T11:18:00+00:00",
+"stage": "후속"
+},
+{
+"title": "[사진]아쉬워하는 안재석",
+"source": "조선일보",
+"link": "https://www.chosun.com/sports/sports_photo/2026/11/14/GI4WMYRWMI3TKNBRGA2GMMLDHA/",
 "time": "2026-11-14T11:18:00+00:00",
 "stage": "후속"
 },
@@ -636,6 +651,7 @@
 "날린",
 "다시",
 "대만",
+"대만전",
 "도쿄",
 "로진",
 "리드",
@@ -650,6 +666,8 @@
 "솔로",
 "솔로포",
 "쉬샹셩",
+"아쉬워하",
+"안재석",
 "안타",
 "연속",
 "예선",
@@ -657,11 +675,8 @@
 "이기고",
 "이대로면",
 "이로운",
-"적시타",
-"쩡성안",
-"추격",
-"치고",
-"치는"
+"이어",
+"적시타"
 ]
 },
 {
@@ -3900,39 +3915,6 @@
 "속초",
 "승용차"
 ]
-},
-{
-"id": "USjlTMXA3QzFSWVpPeEJBoc50537",
-"first": "2026-11-14T05:37:00+00:00",
-"last": "2026-11-14T05:37:00+00:00",
-"updated": "2026-11-14T05:44:13.586464+00:00",
-"headline": "젠슨황 연인 앨리스 황, “中국가안전부 반도체팀 소속” [대만 자유시보]",
-"cat": "경제",
-"regions": [],
-"sources": [
-"이코노미스트"
-],
-"updates": [
-{
-"title": "[속보] 젠슨황 연인 앨리스 황, “中국가안전부 반도체팀 소속” [대만 자유시보]",
-"source": "이코노미스트",
-"link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBqZWxCSWtiZlNmMElSS01TQUNSWTUtcFgwRWJCV2lsRlRsTS0tMTlmWWZPU00zUHNvZzBtaGdocm5XUVJFcW5WRjdkRGo4YWt2VmNUSjlTMXA3QzFSWVpPeEJB?oc=5",
-"time": "2026-11-14T05:37:00+00:00",
-"stage": "얼럿"
-}
-],
-"level": "URGENT",
-"latest": "젠슨황 연인 앨리스 황, “中국가안전부 반도체팀 소속” [대만 자유시보]",
-"tok": [
-"中국가안전부",
-"대만",
-"반도체팀",
-"소속",
-"앨리스",
-"연인",
-"자유시보",
-"젠슨황"
-]
 }
 ],
 "sns": {
@@ -3958,7 +3940,7 @@
 "spike": false
 },
 "폭발": {
-"n30": 4,
+"n30": 3,
 "base": 0.6,
 "spike": false
 },
@@ -3984,12 +3966,12 @@
 },
 "지하철": {
 "n30": 5,
-"base": 0.3,
+"base": 0.2,
 "spike": true
 },
 "사고": {
 "n30": 5,
-"base": 3.7,
+"base": 3.8,
 "spike": false
 },
 "실종": {
@@ -4284,29 +4266,29 @@
 "n30": 5,
 "base": 0.3,
 "spike": true,
-"since": "2026-11-14T11:36:34.927062+00:00"
+"since": "2026-11-14T11:38:47.388252+00:00"
 },
 {
 "term": "지하철",
 "n30": 5,
-"base": 0.3,
+"base": 0.2,
 "spike": true,
-"since": "2026-11-14T11:36:34.927062+00:00"
+"since": "2026-11-14T11:38:47.388252+00:00"
 }
 ],
 "baseline": {
 "지진": 0.05,
-"화재": 0.71,
+"화재": 0.74,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.6,
-"붕괴": 0.1,
+"폭발": 0.64,
+"붕괴": 0.09,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.3,
-"지하철": 0.24,
-"사고": 3.84,
-"실종": 0.3,
+"속보": 0.27,
+"지하철": 0.22,
+"사고": 3.96,
+"실종": 0.27,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
