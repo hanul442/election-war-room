@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-14T06:49:22.855073+00:00",
+"updated": "2026-11-14T06:51:35.733699+00:00",
 "errors": [],
 "events": [
 {
@@ -341,7 +341,7 @@
 "id": "nd2dGNHbUVYRnpzdXhrQQoc52202",
 "first": "2026-11-13T22:02:05+00:00",
 "last": "2026-11-14T06:32:26+00:00",
-"updated": "2026-11-14T06:38:06.998147+00:00",
+"updated": "2026-11-14T06:51:35.733699+00:00",
 "headline": "대전남부고속도로 승용차 추돌사고 처리중",
 "cat": "교통",
 "regions": [
@@ -592,6 +592,13 @@
 "title": "[속보] 세종포천고속도로 승용차 관련 사고처리중",
 "source": "스페셜타임스",
 "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9XRXNGRW9mQTAxTnhFUWNIV09aR0YxSkswVDRXRENSTzFiLXdjZDJJUWJZaTNWOWRabnRBS1FUSHgwSXd3d1hvdzhBWTl4SFdmLXlPdWMzeEFZZHpCRm5DbWZEZ1pZMVJ0M0JBRDlZZVlDdw?oc=5",
+"time": "2026-11-14T06:32:26+00:00",
+"stage": "속보"
+},
+{
+"title": "[속보] 세종포천고속도로 승용차 관련 사고처리중",
+"source": "스페셜타임스",
+"link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE8wVkw2UGxsb215OXp1RmVSRWlqMTBvbVhmbnByanNGcTFrWWRvdU5yMWFHRVJGZlJtM0NoTXJuTmh0NkRRbEQ4NG5QdHJEdURxUGtrTDJsWTFIbGw4T3hFTjdYTjJ1aXRnMVFMV1JNQWM0Z1U?oc=5",
 "time": "2026-11-14T06:32:26+00:00",
 "stage": "속보"
 }
@@ -3199,8 +3206,8 @@
 "sns": {
 "terms": {
 "지진": {
-"n30": 2,
-"base": 0.1,
+"n30": 1,
+"base": 0.2,
 "spike": false
 },
 "화재": {
@@ -3214,12 +3221,12 @@
 "spike": false
 },
 "정전": {
-"n30": 3,
+"n30": 2,
 "base": 0.1,
 "spike": false
 },
 "폭발": {
-"n30": 2,
+"n30": 3,
 "base": 0.1,
 "spike": false
 },
@@ -3239,7 +3246,7 @@
 "spike": false
 },
 "속보": {
-"n30": 3,
+"n30": 2,
 "base": 0.1,
 "spike": false
 },
@@ -3250,7 +3257,7 @@
 },
 "사고": {
 "n30": 3,
-"base": 1.8,
+"base": 1.9,
 "spike": false
 },
 "실종": {
@@ -3260,7 +3267,7 @@
 },
 "단수": {
 "n30": 0,
-"base": 0.2,
+"base": 0.1,
 "spike": false
 },
 "통신 장애": {
@@ -3280,6 +3287,16 @@
 }
 },
 "posts": [
+{
+"text": "또 정신병 폭발쇼하고 아예 그릇하나 박살냈는데 개운한건지 아닌지 뭔가 상상만큼 후련하진 않고. 옛날처럼 분노를 표출한다고 뭐가 해결되는게 아니라 그건 그거고 어쨋든 해야할 일과 해결해야할 건 그대로라는 현실때문에 별 마음이 안드나봐",
+"handle": "alien-gourmet.bsky.social",
+"name": "외계인 감별사",
+"time": "2026-11-14T06:49:50.551Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/alien-gourmet.bsky.social/post/3n2avtqbc4c2n",
+"term": "폭발"
+},
 {
 "text": "저 친구 아니면 이친구 사고 싶흔데..둘다 사기엔..\n이미 내가 미아스위츠 시리즈를 삿어.",
 "handle": "kknokcha.bsky.social",
@@ -3495,19 +3512,19 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 0.24,
+"지진": 0.32,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.05,
+"폭발": 0.15,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.87,
-"사고": 1.91,
-"실종": 0.1,
-"단수": 0.14,
+"지하철": 0.88,
+"사고": 2.02,
+"실종": 0.09,
+"단수": 0.13,
 "통신 장애": 0.05,
 "먹통": 0.05,
 "산불": 0.05
