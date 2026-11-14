@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-14T19:21:55.463981+00:00",
+"updated": "2026-11-14T19:24:11.942788+00:00",
 "errors": [],
 "events": [
 {
@@ -824,7 +824,7 @@
 },
 "폭발": {
 "n30": 6,
-"base": 0.2,
+"base": 0.1,
 "spike": true
 },
 "붕괴": {
@@ -1105,16 +1105,16 @@
 {
 "term": "폭발",
 "n30": 6,
-"base": 0.2,
+"base": 0.1,
 "spike": true,
-"since": "2026-11-14T19:21:55.463981+00:00"
+"since": "2026-11-14T19:24:11.942788+00:00"
 },
 {
 "term": "속보",
 "n30": 8,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-14T19:21:55.463981+00:00"
+"since": "2026-11-14T19:24:11.942788+00:00"
 }
 ],
 "baseline": {
@@ -1122,12 +1122,12 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.14,
+"폭발": 0.13,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.09,
+"지하철": 0.08,
 "사고": 0.05,
 "실종": 0.05,
 "단수": 0.05,
@@ -1358,6 +1358,24 @@
 },
 "trends": [
 {
+"term": "치지직",
+"traffic": "5000+",
+"time": "2026-11-14T18:20:00+00:00",
+"news": [
+{
+"title": "네이버, 스트리머·팬 소통 특화 '크리에이터 카페' 내달 출시",
+"source": "전자신문",
+"link": "https://www.etnews.com/20261113000071"
+},
+{
+"title": "네이버, 방송·팬덤 결합한 크리에이터 카페 출시",
+"source": "아이보스",
+"link": "https://www.i-boss.co.kr/ab-2877-18474"
+}
+],
+"new": false
+},
+{
 "term": "norway vs wales",
 "traffic": "100+",
 "time": "2026-11-14T18:10:00+00:00",
@@ -1489,14 +1507,14 @@
 "time": "2026-11-14T15:30:00+00:00",
 "news": [
 {
-"title": "\"비트코인 하락, 앤트로픽 IPO 전 투자자금 이동 때문\"",
-"source": "마켓인",
-"link": "https://marketin.edaily.co.kr/News/ReadE?newsId=02797846645645720"
+"title": "[ETF 특징주] 美 비트코인 ETF 5일째 '팔자' IBIT에 매도 집중",
+"source": "뉴스핌",
+"link": "https://www.newspim.com/news/view/20261112001275"
 },
 {
-"title": "비트코인 하루 새 7% 급락‥2조 원 규모 강제청산",
-"source": "MBC 뉴스",
-"link": "https://imnews.imbc.com/news/2026/econo/article/6865461_36932.html"
+"title": "비트코인(BTC) 6만 9,000달러 하회…11월 ETF 순유출 94%가 IBIT 한 곳에 몰렸다",
+"source": "코인리더스",
+"link": "https://www.coinreaders.com/270141"
 }
 ],
 "new": true
@@ -1515,24 +1533,6 @@
 "title": "Biratnagar Kings Captain Charith Asalanka Blames Poor Bowling in Final Overs for Loss",
 "source": "Ratopati",
 "link": "https://english.ratopati.com/story/86672/we-didnt-do-well-in-the-last-over-humidity-and-fielding-also-affected-us-aslanka"
-}
-],
-"new": true
-},
-{
-"term": "bangladesh vs pakistan",
-"traffic": "500+",
-"time": "2026-11-14T14:30:00+00:00",
-"news": [
-{
-"title": "Bangladesh vs Pakistan highlights: Pakistan beat Bangladesh, 1-0, in a close contest; reach the final for the first time in its history at SAFF Championship 2026",
-"source": "Sportstar",
-"link": "https://sportstar.thehindu.com/football/bangladesh-vs-pakistan-live-score-saff-championship-2026-semifinal-updates-ban-v-pak-streaming/article71701697.ece"
-},
-{
-"title": "For the fans, football is worth the wait and expense",
-"source": "The Daily Star",
-"link": "https://www.thedailystar.net/sports/football/news/the-fans-football-worth-the-wait-and-expense-4323711"
 }
 ],
 "new": true
