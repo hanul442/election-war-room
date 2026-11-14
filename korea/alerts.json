@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-14T09:32:18.810064+00:00",
+"updated": "2026-11-14T09:34:32.865953+00:00",
 "errors": [],
 "events": [
 {
@@ -4080,9 +4080,9 @@
 "spike": false
 },
 "폭발": {
-"n30": 6,
-"base": 1.2,
-"spike": true
+"n30": 4,
+"base": 1.3,
+"spike": false
 },
 "붕괴": {
 "n30": 0,
@@ -4105,13 +4105,13 @@
 "spike": false
 },
 "지하철": {
-"n30": 3,
+"n30": 2,
 "base": 1.2,
 "spike": false
 },
 "사고": {
-"n30": 2,
-"base": 3.4,
+"n30": 3,
+"base": 3.3,
 "spike": false
 },
 "실종": {
@@ -4141,6 +4141,16 @@
 }
 },
 "posts": [
+{
+"text": "로열증표 같은 거 보통은 안사는 편인가요? \n일단은 걍 칩 첨가제만 사고 있네요",
+"handle": "sityen.bsky.social",
+"name": "싯옌",
+"time": "2026-11-14T09:33:31.944Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/sityen.bsky.social/post/3n2b6ycjq4k2e",
+"term": "사고"
+},
 {
 "text": "아 삼님그림 마주칠때마다 지하철에서 아기랑 눈마주친것처럼 웃게됨",
 "handle": "nab-ee.bsky.social",
@@ -4391,27 +4401,19 @@
 "url": "https://www.youtube.com/watch?v=RJm9SI_atRk"
 }
 ],
-"spikes": [
-{
-"term": "폭발",
-"n30": 6,
-"base": 1.2,
-"spike": true,
-"since": "2026-11-14T09:32:18.810064+00:00"
-}
-],
+"spikes": [],
 "baseline": {
 "지진": 0.05,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 1.29,
+"폭발": 1.36,
 "붕괴": 0.05,
-"대피": 0.64,
+"대피": 0.68,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 1.22,
-"사고": 3.26,
+"지하철": 1.2,
+"사고": 3.23,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -4614,6 +4616,24 @@
 },
 "trends": [
 {
+"term": "웨이브",
+"traffic": "500+",
+"time": "2026-11-14T08:20:00+00:00",
+"news": [
+{
+"title": "[OTT리뷰]",
+"source": "씨네21",
+"link": "https://cine21.com/news/view/?mag_id=111266"
+},
+{
+"title": "‘옆자리, 프란체스카’ 김현진 “행복했던 작품, 더 성장했다”",
+"source": "국민일보",
+"link": "https://www.kmib.co.kr/article/20261113500582"
+}
+],
+"new": true
+},
+{
 "term": "구성환",
 "traffic": "500+",
 "time": "2026-11-14T08:20:00+00:00",
@@ -4627,24 +4647,6 @@
 "title": "구성환, '결혼 약속' 여자친구 공개했다",
 "source": "뉴시스",
 "link": "https://www.newsis.com/view/NISX20261114_0003867961"
-}
-],
-"new": true
-},
-{
-"term": "웨이브",
-"traffic": "200+",
-"time": "2026-11-14T08:20:00+00:00",
-"news": [
-{
-"title": "인사말 하는 미미미누",
-"source": "뉴시스",
-"link": "https://mobile.newsis.com/photo/NISI20261114_0021532582"
-},
-{
-"title": "[사진]리센느 '올해 최고의 대세 그룹'",
-"source": "조선일보",
-"link": "https://www.chosun.com/entertainments/entertain_photo/2026/11/14/GRRDSMZYGYYWMZTCGYZTMYZVGQ/"
 }
 ],
 "new": true
@@ -4687,7 +4689,7 @@
 },
 {
 "term": "수수료",
-"traffic": "200+",
+"traffic": "500+",
 "time": "2026-11-14T07:20:00+00:00",
 "news": [
 {
