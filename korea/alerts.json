@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-14T01:31:00.240647+00:00",
+"updated": "2026-11-14T01:34:24.189739+00:00",
 "errors": [],
 "events": [
 {
@@ -2495,11 +2495,11 @@
 },
 "폭발": {
 "n30": 6,
-"base": 1.0,
+"base": 1.1,
 "spike": true
 },
 "붕괴": {
-"n30": 2,
+"n30": 1,
 "base": 0.7,
 "spike": false
 },
@@ -2525,12 +2525,12 @@
 },
 "사고": {
 "n30": 1,
-"base": 0.5,
+"base": 0.6,
 "spike": false
 },
 "실종": {
 "n30": 1,
-"base": 0.1,
+"base": 0.2,
 "spike": false
 },
 "단수": {
@@ -2798,20 +2798,10 @@
 "handle": "kivol.net",
 "name": "사견의 지평선",
 "time": "2026-11-14T01:06:25.082Z",
-"likes": 0,
+"likes": 1,
 "reposts": 0,
 "url": "https://bsky.app/profile/kivol.net/post/3n2acnn24ls23",
 "term": "폭발"
-},
-{
-"text": "사실 공교육의 실패는 애초에 자본주의가 만들어낸 사회의 민낯이 다 까발려지면서 망하기 시작했고 선생 개개인이 그걸 어떻게든 붕괴를 받쳐가면서 일하고 있다고 봐야 하는데 이놈의 자본주의는 공교육의 붕괴를 사회체제 탓이 아니라 선생이나 학생 개인의 탓으로 돌리는게 존나 제일 큰 문제다",
-"handle": "cupthecup.bsky.social",
-"name": "컵 드시기 바랍니다",
-"time": "2026-11-14T01:02:59.166Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/cupthecup.bsky.social/post/3n2achjgc5c26",
-"term": "붕괴"
 },
 {
 "platform": "YouTube",
@@ -2827,34 +2817,34 @@
 {
 "term": "폭발",
 "n30": 6,
-"base": 1.0,
+"base": 1.1,
 "spike": true,
-"since": "2026-11-14T01:31:00.240647+00:00"
+"since": "2026-11-14T01:34:24.189739+00:00"
 },
 {
 "term": "속보",
 "n30": 10,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-14T01:31:00.240647+00:00"
+"since": "2026-11-14T01:34:24.189739+00:00"
 }
 ],
 "baseline": {
-"지진": 0.1,
+"지진": 0.09,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 1.07,
-"붕괴": 0.74,
+"폭발": 1.16,
+"붕괴": 0.67,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.72,
-"사고": 0.58,
-"실종": 0.24,
+"지하철": 0.75,
+"사고": 0.62,
+"실종": 0.32,
 "단수": 0.05,
 "통신 장애": 0.05,
-"먹통": 0.47,
+"먹통": 0.42,
 "산불": 0.05
 },
 "errors": [],
@@ -3071,6 +3061,24 @@
 },
 "trends": [
 {
+"term": "항공기",
+"traffic": "500+",
+"time": "2026-11-14T00:30:00+00:00",
+"news": [
+{
+"title": "美전역 항공기 이륙 ‘올스톱’... 통신 장애로 1만1000편 지연·결항",
+"source": "조선일보",
+"link": "https://www.chosun.com/international/us/2026/11/14/JINR2EN5QRAOJJF3Z7RLIBFGZA/"
+},
+{
+"title": "미국 모든 공항에 이륙 금지 명령...수만 명 발 묶여",
+"source": "YTN",
+"link": "https://www.ytn.co.kr/_cs/_ln_0104_202611140752169337_005.html"
+}
+],
+"new": false
+},
+{
 "term": "대탈출",
 "traffic": "200+",
 "time": "2026-11-14T00:20:00+00:00",
@@ -3108,7 +3116,7 @@
 },
 {
 "term": "고경표",
-"traffic": "2000+",
+"traffic": "5000+",
 "time": "2026-11-14T00:10:00+00:00",
 "news": [
 {
@@ -3161,8 +3169,26 @@
 "new": true
 },
 {
-"term": "여수세계박람회장",
+"term": "장영란",
 "traffic": "100+",
+"time": "2026-11-13T23:50:00+00:00",
+"news": [
+{
+"title": "장영란 사주 봤더니 지금 전성기…“9년 간 팔자 늘어져”",
+"source": "동아일보",
+"link": "https://www.donga.com/news/Entertainment/article/all/20261114/135023568/1"
+},
+{
+"title": "[TVis] ‘48세’ 장영란, 고정출연 늘더니 전성기였네 “사주상 인생 후반전 시작” (‘언니만 따라와’)",
+"source": "일간스포츠",
+"link": "https://isplus.com/article/view/isp202611130121"
+}
+],
+"new": true
+},
+{
+"term": "여수세계박람회장",
+"traffic": "200+",
 "time": "2026-11-13T23:50:00+00:00",
 "news": [
 {
@@ -3184,14 +3210,14 @@
 "time": "2026-11-13T23:40:00+00:00",
 "news": [
 {
+"title": "보험개발원 홈페이지 – 보상 대기 기간 확인 방법과 주요 기능 안내",
+"source": "스페셜타임스",
+"link": "http://www.specialtimes.co.kr/news/articleView.html?idxno=485525"
+},
+{
 "title": "미래에셋생명 3분기 순손실 339억, 투자손실에 적자로 돌아서",
 "source": "비즈니스포스트",
 "link": "https://www.businesspost.co.kr/BP?command=article_view&num=451972"
-},
-{
-"title": "미래에셋생명, 3분기 순이익 375억·70% 급감…스페이스X 등서 투자 손실",
-"source": "연합인포맥스",
-"link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4444686"
 }
 ],
 "new": true
@@ -3210,42 +3236,6 @@
 "title": "전기밥솥, 취사보다 ‘이것’에 전기 더 쓴다?…돈 아끼는 가전 습관",
 "source": "농민신문",
 "link": "https://www.nongmin.com/article/20261110500035"
-}
-],
-"new": true
-},
-{
-"term": "lg 트윈스",
-"traffic": "2000+",
-"time": "2026-11-13T23:20:00+00:00",
-"news": [
-{
-"title": "구자욱 어렵다면 스톱갭이라도 필요한 롯데 → 이택근 단장 기본 방침 \"그룹도 설득하겠다",
-"source": "조선일보",
-"link": "https://www.chosun.com/sports/baseball/2026/11/14/HAYDAODCMQ3TQYZVMY2TEMBYMU/"
-},
-{
-"title": "kt 위즈, 외야수 김민혁·배정대 FA 시장 나온다",
-"source": "기호일보",
-"link": "https://www.kihoilbo.co.kr/news/articleView.html?idxno=3040879"
-}
-],
-"new": true
-},
-{
-"term": "윤아",
-"traffic": "100+",
-"time": "2026-11-13T23:20:00+00:00",
-"news": [
-{
-"title": "윤아, 크롭 민소매 입고 뽐낸 한 줌 허리…비결은 공복 ‘이 운동’",
-"source": "동아일보",
-"link": "https://www.donga.com/news/Entertainment/article/all/20261114/135023540/1"
-},
-{
-"title": "드파운드, 임윤아 겨울 캠페인 이후 점퍼 판매 급증 - 머니투데이",
-"source": "머니투데이",
-"link": "https://www.mt.co.kr/living/2026/11/13/2026111308220930807"
 }
 ],
 "new": true
