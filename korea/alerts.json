@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-14T22:32:12.089090+00:00",
+"updated": "2026-11-14T22:34:29.240482+00:00",
 "errors": [],
 "events": [
 {
@@ -279,7 +279,7 @@
 "sns": {
 "terms": {
 "지진": {
-"n30": 1,
+"n30": 0,
 "base": 0.3,
 "spike": false
 },
@@ -314,12 +314,12 @@
 "spike": false
 },
 "미사일": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
 "속보": {
-"n30": 6,
+"n30": 5,
 "base": 0.3,
 "spike": true
 },
@@ -329,7 +329,7 @@
 "spike": false
 },
 "사고": {
-"n30": 0,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
@@ -360,6 +360,16 @@
 }
 },
 "posts": [
+{
+"text": "이란 서부 버스 전복 사고, 사망 10명 부상 18명으로 늘어나\n\n주님, 세상을 떠난 이들에게 영원한 안식을 주소서.\n위령기도 전문은 아래 글에서 함께 기도하실 수 있습니다.",
+"handle": "jspenzer14.bsky.social",
+"name": "jspenzer14.bsky.social",
+"time": "2026-11-14T22:32:20.543Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/jspenzer14.bsky.social/post/3n2ckj2nrbhdq",
+"term": "사고"
+},
 {
 "platform": "YouTube",
 "text": "(속보) '대한민국 국방부 장관이 그런 걸 모르면 어떡하십니까'...배준영, 강신철 국방장관에 '반성을 안 하시네요' '자신감은 좋습니다 군인 정신으로'",
@@ -571,24 +581,24 @@
 "spikes": [
 {
 "term": "속보",
-"n30": 6,
+"n30": 5,
 "base": 0.3,
 "spike": true,
-"since": "2026-11-14T22:32:12.089090+00:00"
+"since": "2026-11-14T22:34:29.240482+00:00"
 }
 ],
 "baseline": {
-"지진": 0.32,
-"화재": 0.18,
+"지진": 0.29,
+"화재": 0.16,
 "불났": 0.05,
 "정전": 0.05,
 "폭발": 0.05,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.27,
-"지하철": 0.08,
-"사고": 0.07,
+"속보": 0.24,
+"지하철": 0.07,
+"사고": 0.16,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -809,6 +819,42 @@
 },
 "trends": [
 {
+"term": "잠실주공5단지 아파트",
+"traffic": "200+",
+"time": "2026-11-14T21:30:00+00:00",
+"news": [
+{
+"title": "[단독]잠실주공5단지, 분양신청 저조에 조합장 해임 기로…재건축 ‘삐걱’",
+"source": "MTN 머니투데이방송",
+"link": "https://news.mtn.co.kr/article/2026111415191575156"
+},
+{
+"title": "\"9개월 전 37억 찍었는데…\" 잠실엘스, 29억대 매물 등장",
+"source": "이데일리",
+"link": "https://www.edaily.co.kr/News/Read?newsId=01082406645645392&mediaCodeNo=257"
+}
+],
+"new": true
+},
+{
+"term": "bồ đào nha đấu với đan mạch",
+"traffic": "100+",
+"time": "2026-11-14T21:30:00+00:00",
+"news": [
+{
+"title": "Video bóng đá Bồ Đào Nha - Đan Mạch: Thảm bại kinh hoàng & nỗi nhớ Ronaldo (Nations League)",
+"source": "Tin tức 24h",
+"link": "https://www.24h.com.vn/bong-da/video-bong-da-bo-dao-nha-dan-mach-tham-bai-kinh-hoang-noi-nho-ronaldo-nations-league-c48a1811200.html"
+},
+{
+"title": "Các cầu thủ Bồ Đào Nha sẽ mặc áo số 7 tri ân Ronaldo",
+"source": "VnExpress",
+"link": "https://vnexpress.net/cac-cau-thu-bo-dao-nha-se-mac-ao-so-7-tri-an-ronaldo-5144581.html"
+}
+],
+"new": true
+},
+{
 "term": "복권",
 "traffic": "5000+",
 "time": "2026-11-14T21:00:00+00:00",
@@ -828,7 +874,7 @@
 },
 {
 "term": "이승기",
-"traffic": "500+",
+"traffic": "1000+",
 "time": "2026-11-14T21:00:00+00:00",
 "news": [
 {
@@ -840,6 +886,24 @@
 "title": "‘105억 전세금 분쟁’ 이승기, “부동산에 악마 가득해, 안 당하면 모른다” 뼈있는 경고",
 "source": "스포츠경향",
 "link": "https://sports.khan.co.kr/article/202611141748013"
+}
+],
+"new": true
+},
+{
+"term": "nations league",
+"traffic": "100+",
+"time": "2026-11-14T20:50:00+00:00",
+"news": [
+{
+"title": "Hamstring Injury Sidelines Mbappé for Italy Match",
+"source": "조선일보",
+"link": "https://www.chosun.com/english/sports-en/2026/11/12/2WCTWES5A5G7FOHQ62IN5XNTYM/"
+},
+{
+"title": "Mbappe available for France’s Nations League clash with Turkiye: Zidane",
+"source": "Arab News",
+"link": "https://www.arabnews.com/football/mbappe-available-for-frances-nations-league-clash-with-turkiye-zidane-3011923"
 }
 ],
 "new": true
@@ -918,7 +982,7 @@
 },
 {
 "term": "portugal vs denmark",
-"traffic": "1000+",
+"traffic": "500+",
 "time": "2026-11-14T19:50:00+00:00",
 "news": [
 {
@@ -933,60 +997,6 @@
 }
 ],
 "new": true
-},
-{
-"term": "이세계아이돌",
-"traffic": "500+",
-"time": "2026-11-14T19:30:00+00:00",
-"news": [
-{
-"title": "이세계아이돌, 지상파 '음악중심' 출격…실제 몸 없는 6인조 걸그룹, 멜론 7위 이어 무대까지",
-"source": "톱스타뉴스",
-"link": "https://www.topstarnews.net/news/articleView.html?idxno=16276419"
-},
-{
-"title": "지니뮤직, 버추얼걸그룹 이세계아이돌 마케팅 '시동'",
-"source": "파이낸셜뉴스",
-"link": "https://www.fnnews.com/news/202611100905129167"
-}
-],
-"new": true
-},
-{
-"term": "빈",
-"traffic": "200+",
-"time": "2026-11-14T19:20:00+00:00",
-"news": [
-{
-"title": "이준석 “내가 노무현 대통령 추천서 어떻게 받나”…전한길 추가 고소 예고",
-"source": "한겨레",
-"link": "https://www.hani.co.kr/arti/politics/politics_general/1287327.html"
-},
-{
-"title": "10년 전 공개한 졸업장 또 소환…전한길의 ‘하버드 2차 공세’에 이준석 폭발",
-"source": "서울신문",
-"link": "https://www.seoul.co.kr/news/politics/congress/2026/11/14/20261114500025"
-}
-],
-"new": true
-},
-{
-"term": "포르투갈 대 덴마크",
-"traffic": "2000+",
-"time": "2026-11-14T19:00:00+00:00",
-"news": [
-{
-"title": "[공식발표] '쫓겨나듯 은퇴한 7번' 기린다...포르투갈 대표팀, 숫자 '7' 디자인 변경",
-"source": "조선일보",
-"link": "https://www.chosun.com/sports/world-football/2026/11/15/MQYDANRVMFSTGYRZMYZTCM3DGU/"
-},
-{
-"title": "호날두, 연기 도전한다…‘킹스맨’ 감독과 드라마 제작하고 출연까지",
-"source": "세계일보",
-"link": "https://www.segye.com/newsView/20261113512239"
-}
-],
-"new": false
 }
 ],
 "trendSeen": [
