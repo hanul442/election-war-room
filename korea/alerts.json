@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-14T10:56:34.554909+00:00",
+"updated": "2026-11-14T10:58:50.492990+00:00",
 "errors": [],
 "events": [
 {
@@ -4201,50 +4201,6 @@
 "최민희",
 "한동훈"
 ]
-},
-{
-"id": "UhnaEg1d2dqd3BIRFF1QQoc50306",
-"first": "2026-11-14T03:06:00+00:00",
-"last": "2026-11-14T04:56:50+00:00",
-"updated": "2026-11-14T05:05:52.387617+00:00",
-"headline": "장동혁 \"李, 주가조작범 잡았다고 자랑…조작탈옥범에 도피처 없어\"",
-"cat": "경제",
-"regions": [],
-"sources": [
-"www.dt.co.kr",
-"대전일보"
-],
-"updates": [
-{
-"title": "[속보] 장동혁 \"李, 주가조작범 잡았다고 자랑…조작탈옥범에 도피처 없어\"",
-"source": "대전일보",
-"link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFAzb3UzSlp3ekJFMnZOeGw5Um00Zk5KOE5VR2poMHY0VXJLQi1MbUdFXzRFZXkyU3lOMlFhLXdDeHlSZzJHZjBYRU5MWDk0b3p1dHhWNVB3YmktRjk0SjZSRUhnaEg1d2dqd3BIRFF1QQ?oc=5",
-"time": "2026-11-14T03:06:00+00:00",
-"stage": "얼럿"
-},
-{
-"title": "[속보]李 주가조작범 발언에…장동혁 “청와대는 안전? 조작탈옥범에 도피처 없다”",
-"source": "www.dt.co.kr",
-"link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE94LUhIM0x4cTdoNkk4b2JoZnNnVlBaVWIwTFViTGM1Qk5qb1c2bHl3VEFyck5mb2xVcWVRdXFqOWU4clBmWVdfWWhrMURUZFJDQTFwWWxzeGhValk?oc=5",
-"time": "2026-11-14T04:56:50+00:00",
-"stage": "속보"
-}
-],
-"level": "URGENT",
-"latest": "李 주가조작범 발언에…장동혁 “청와대는 안전? 조작탈옥범에 도피처 없다”",
-"tok": [
-"도피처",
-"발언",
-"안전",
-"없다",
-"없어",
-"자랑",
-"잡았다고",
-"장동혁",
-"조작탈옥범",
-"주가조작범",
-"청와대"
-]
 }
 ],
 "sns": {
@@ -4270,13 +4226,13 @@
 "spike": false
 },
 "폭발": {
-"n30": 7,
+"n30": 6,
 "base": 0.1,
 "spike": true
 },
 "붕괴": {
 "n30": 2,
-"base": 0.7,
+"base": 0.6,
 "spike": false
 },
 "대피": {
@@ -4291,7 +4247,7 @@
 },
 "속보": {
 "n30": 5,
-"base": 0.3,
+"base": 0.4,
 "spike": true
 },
 "지하철": {
@@ -4301,12 +4257,12 @@
 },
 "사고": {
 "n30": 2,
-"base": 1.8,
+"base": 1.9,
 "spike": false
 },
 "실종": {
 "n30": 1,
-"base": 0.3,
+"base": 0.4,
 "spike": false
 },
 "단수": {
@@ -4356,7 +4312,7 @@
 "name": "lunamoth",
 "time": "2026-11-14T10:48:09.551Z",
 "likes": 1,
-"reposts": 1,
+"reposts": 2,
 "url": "https://bsky.app/profile/lunamoth.bsky.social/post/3n2bd5uabkk23",
 "term": "사고"
 },
@@ -4574,17 +4530,17 @@
 "spikes": [
 {
 "term": "폭발",
-"n30": 7,
+"n30": 6,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-14T10:56:34.554909+00:00"
+"since": "2026-11-14T10:58:50.492990+00:00"
 },
 {
 "term": "속보",
 "n30": 5,
-"base": 0.3,
+"base": 0.4,
 "spike": true,
-"since": "2026-11-14T10:56:34.554909+00:00"
+"since": "2026-11-14T10:58:50.492990+00:00"
 }
 ],
 "baseline": {
@@ -4592,14 +4548,14 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.12,
-"붕괴": 0.62,
+"폭발": 0.11,
+"붕괴": 0.56,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.39,
-"지하철": 0.93,
-"사고": 1.85,
-"실종": 0.39,
+"속보": 0.45,
+"지하철": 0.94,
+"사고": 1.86,
+"실종": 0.45,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
