@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-14T16:23:07.857686+00:00",
+"updated": "2026-11-14T16:25:23.385264+00:00",
 "errors": [],
 "events": [
 {
@@ -2567,7 +2567,7 @@
 "sns": {
 "terms": {
 "지진": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -2587,17 +2587,17 @@
 "spike": false
 },
 "폭발": {
-"n30": 4,
+"n30": 3,
 "base": 0.1,
 "spike": false
 },
 "붕괴": {
-"n30": 4,
-"base": 0.2,
+"n30": 2,
+"base": 0.1,
 "spike": false
 },
 "대피": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -2612,13 +2612,13 @@
 "spike": false
 },
 "지하철": {
-"n30": 6,
-"base": 1.8,
-"spike": true
+"n30": 5,
+"base": 1.9,
+"spike": false
 },
 "사고": {
 "n30": 0,
-"base": 1.8,
+"base": 1.6,
 "spike": false
 },
 "실종": {
@@ -2662,7 +2662,7 @@
 "handle": "viviprincess.bsky.social",
 "name": "직딩녀 비비",
 "time": "2026-11-14T16:08:29.741Z",
-"likes": 19,
+"likes": 20,
 "reposts": 0,
 "url": "https://bsky.app/profile/viviprincess.bsky.social/post/3n2bv2pjvj22m",
 "term": "지하철"
@@ -2886,27 +2886,19 @@
 "url": "https://www.youtube.com/watch?v=T7RtdhNNMa4"
 }
 ],
-"spikes": [
-{
-"term": "지하철",
-"n30": 6,
-"base": 1.8,
-"spike": true,
-"since": "2026-11-14T16:23:07.857686+00:00"
-}
-],
+"spikes": [],
 "baseline": {
-"지진": 0.1,
+"지진": 0.09,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
 "폭발": 0.05,
-"붕괴": 0.14,
+"붕괴": 0.13,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 1.91,
-"사고": 1.64,
+"지하철": 2.02,
+"사고": 1.48,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -3132,14 +3124,14 @@
 "time": "2026-11-14T15:00:00+00:00",
 "news": [
 {
-"title": "Lumbini Lions become first team to reach NPL playoffs",
+"title": "Lumbini Lions edge Biratnagar Kings by 4 wickets to seal NPL playoff spot",
 "source": "Nepalnews.com",
-"link": "https://english.nepalnews.com/s/sports/lumbini-lions-become-first-team-to-reach-npl-playoffs/"
+"link": "https://english.nepalnews.com/s/sports/lumbini-lions-edge-biratnagar-kings-by-4-wickets-to-seal-npl-playoff-spot/"
 },
 {
-"title": "Lumbini Lions Secure Playoff Spot in Nepal Premier League",
+"title": "Biratnagar Kings Captain Charith Asalanka Blames Poor Bowling in Final Overs for Loss",
 "source": "Ratopati",
-"link": "https://english.ratopati.com/story/86670/npl-playoff-equation-complete-with-lumbinis-thrilling-win"
+"link": "https://english.ratopati.com/story/86672/we-didnt-do-well-in-the-last-over-humidity-and-fielding-also-affected-us-aslanka"
 }
 ],
 "new": true
