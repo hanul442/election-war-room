@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-14T16:52:33.706543+00:00",
+"updated": "2026-11-14T16:54:50.750156+00:00",
 "errors": [],
 "events": [
 {
@@ -2496,7 +2496,7 @@
 "sns": {
 "terms": {
 "지진": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -2521,7 +2521,7 @@
 "spike": false
 },
 "붕괴": {
-"n30": 2,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
@@ -2536,18 +2536,18 @@
 "spike": false
 },
 "속보": {
-"n30": 5,
+"n30": 3,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "지하철": {
 "n30": 0,
-"base": 0.9,
+"base": 0.8,
 "spike": false
 },
 "사고": {
-"n30": 6,
-"base": 2.5,
+"n30": 7,
+"base": 2.8,
 "spike": false
 },
 "실종": {
@@ -2577,6 +2577,16 @@
 }
 },
 "posts": [
+{
+"text": "애인이 너무 잘생겨서 심장이 아프다니...교통사고야 이거 이제 박무현은 신해량을 평생 책임지고...",
+"handle": "tigre-loves.bsky.social",
+"name": "사장지망생 토눈",
+"time": "2026-11-14T16:53:58.246Z",
+"likes": 1,
+"reposts": 1,
+"url": "https://bsky.app/profile/tigre-loves.bsky.social/post/3n2bxm2gwhk2f",
+"term": "사고"
+},
 {
 "text": "웹툰은 금방 보니까 사두고 안 보는게 없는데 이상하게 소설이랑 게임은 할인할 때 일단 사고 생각해서 안 한 거 ㅈㄴ 많아",
 "handle": "mukubi.bsky.social",
@@ -2615,16 +2625,6 @@
 "time": "2026-11-14T16:36:01Z",
 "term": "속보",
 "url": "https://www.youtube.com/watch?v=AZq-9fqRCxs"
-},
-{
-"text": "근데 이거 율리우스랑 세트라서 샀다면 율리우스도 같이 사고 싶어했을지도",
-"handle": "beoseot.bsky.social",
-"name": "표고버섯",
-"time": "2026-11-14T16:34:48.755Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/beoseot.bsky.social/post/3n2bwjsajoc2i",
-"term": "사고"
 },
 {
 "platform": "YouTube",
@@ -2834,15 +2834,7 @@
 "url": "https://www.youtube.com/watch?v=OYE0n22W6t0"
 }
 ],
-"spikes": [
-{
-"term": "속보",
-"n30": 5,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-14T16:52:33.706543+00:00"
-}
-],
+"spikes": [],
 "baseline": {
 "지진": 0.05,
 "화재": 0.05,
@@ -2853,8 +2845,8 @@
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.84,
-"사고": 2.81,
+"지하철": 0.76,
+"사고": 3.23,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
