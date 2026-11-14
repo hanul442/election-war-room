@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-14T09:27:55.014037+00:00",
+"updated": "2026-11-14T09:30:07.277805+00:00",
 "errors": [],
 "events": [
 {
@@ -40,7 +40,7 @@
 "id": "nd2dGNHbUVYRnpzdXhrQQoc52202",
 "first": "2026-11-13T22:02:05+00:00",
 "last": "2026-11-14T09:16:54+00:00",
-"updated": "2026-11-14T09:19:02.534878+00:00",
+"updated": "2026-11-14T09:30:07.277805+00:00",
 "headline": "대전남부고속도로 승용차 추돌사고 처리중",
 "cat": "교통",
 "regions": [
@@ -396,6 +396,13 @@
 "title": "[속보] 경부고속도로 승용차 단독 사고 처리중",
 "source": "스페셜타임스",
 "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5IZjg2eS1ReWFtWnYwN1owd3dRZGliUUxIbFJ1VjJ3SUR3TTgzM20tbVV3VlV4bDBERWFrS1pJemQtbE9qc0l3bXE4MmlmOENJSkZGemdRdW1XTThCT2JFaGJlanRXb2kzNDAtbUgtRWJRQQ?oc=5",
+"time": "2026-11-14T09:16:54+00:00",
+"stage": "속보"
+},
+{
+"title": "[속보] 경부고속도로 승용차 단독 사고 처리중",
+"source": "스페셜타임스",
+"link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1ybzRNM1hVTDBaejJKR0VqamhCd213ZDQ2cTVJbjRUSzR1c2s1eEVLUUFaRjVxdGJfSjRNSWtSNzBLRDBJMW5iQ3Y4TmpIbmhFb05IUGNDMml4Q1ZSQjJ6U09wa0hMRktkSldKTnloMy10V2M?oc=5",
 "time": "2026-11-14T09:16:54+00:00",
 "stage": "속보"
 }
@@ -4073,8 +4080,8 @@
 "spike": false
 },
 "폭발": {
-"n30": 9,
-"base": 1.0,
+"n30": 8,
+"base": 1.1,
 "spike": true
 },
 "붕괴": {
@@ -4084,7 +4091,7 @@
 },
 "대피": {
 "n30": 2,
-"base": 0.5,
+"base": 0.6,
 "spike": false
 },
 "미사일": {
@@ -4093,9 +4100,9 @@
 "spike": false
 },
 "속보": {
-"n30": 5,
+"n30": 4,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "지하철": {
 "n30": 3,
@@ -4104,7 +4111,7 @@
 },
 "사고": {
 "n30": 3,
-"base": 3.7,
+"base": 3.5,
 "spike": false
 },
 "실종": {
@@ -4387,17 +4394,10 @@
 "spikes": [
 {
 "term": "폭발",
-"n30": 9,
-"base": 1.0,
+"n30": 8,
+"base": 1.1,
 "spike": true,
-"since": "2026-11-14T09:27:55.014037+00:00"
-},
-{
-"term": "속보",
-"n30": 5,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-14T09:27:55.014037+00:00"
+"since": "2026-11-14T09:30:07.277805+00:00"
 }
 ],
 "baseline": {
@@ -4405,13 +4405,13 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 1.12,
+"폭발": 1.21,
 "붕괴": 0.05,
-"대피": 0.56,
+"대피": 0.6,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 1.27,
-"사고": 3.55,
+"지하철": 1.24,
+"사고": 3.4,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
