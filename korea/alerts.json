@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-14T05:23:51.007622+00:00",
+"updated": "2026-11-14T05:26:05.175833+00:00",
 "errors": [],
 "events": [
 {
@@ -416,11 +416,14 @@
 "id": "9qZldBMUpjSHJfSjZlbzQoc50215",
 "first": "2026-11-14T02:15:00+00:00",
 "last": "2026-11-14T04:51:58+00:00",
-"updated": "2026-11-14T04:56:51.967817+00:00",
+"updated": "2026-11-14T05:26:05.175833+00:00",
 "headline": "美, 항공기 운항중단 조치 해제...4시간 20분만",
 "cat": "기타",
-"regions": [],
+"regions": [
+"인천"
+],
 "sources": [
+"MBC 뉴스",
 "SBS",
 "경향신문",
 "연합뉴스",
@@ -508,6 +511,13 @@
 "stage": "종합"
 },
 {
+"title": "인천공항 대한항공·아시아나 미국행 결항 취소‥운항 정상화",
+"source": "MBC 뉴스",
+"link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1uMWN3TzUydHQ3dzhTbVFxcndkNTN3eS1pWlBDQjU2QXhIUk9SWk9LYkhiTG9BaWJnY1QyaWFUVFU0VGdPRlV6Nlg4bzBPYWNIYzRWc3hGTjRnWWhFQlJWTTB6dGNYdlBDMHM3N1haSGZ6SlIz0gF0QVVfeXFMUHBoRzYyeDdSLUNvR1dqN1NUbnRXY2RYNVJuV2ZkR1ViLUpEQkZHWnY5cnZLSE9CUGpFYXFJaXM2MGxfaHVTRl9kLUhuc1hLQklWLVliQmh1ejFGOWU5ejNoSmtNbEw3dkJZQl9malhkTExZYkw?oc=5",
+"time": "2026-11-14T04:03:40+00:00",
+"stage": "후속"
+},
+{
 "title": "미 전역 항공편 4시간 반 '올스톱'…후폭풍 계속",
 "source": "SBS",
 "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008845909&plink=RSSLINK&cooper=RSSREADER",
@@ -530,15 +540,18 @@
 "당국",
 "대한항공",
 "미국",
+"미국행",
 "아시아나",
 "올스톱",
 "운항",
 "운항중단",
 "이륙",
+"인천공항",
 "장애",
 "재개",
 "전국",
 "전역",
+"정상화",
 "조치",
 "중단",
 "취소",
@@ -3444,47 +3457,6 @@
 "소형화물차",
 "중앙선지고속도"
 ]
-},
-{
-"id": "k2WFdzTXc4YXUtc2dRMmsoc52325",
-"first": "2026-11-13T23:25:45+00:00",
-"last": "2026-11-13T23:25:45+00:00",
-"updated": "2026-11-13T23:35:07.501895+00:00",
-"headline": "리플(XRP) 1달러 위태…에버노스 홀딩스 12.49% 급락, XRPN 7.85달러",
-"cat": "기타",
-"regions": [],
-"sources": [
-"CBC뉴스"
-],
-"updates": [
-{
-"title": "[속보]리플(XRP) 1달러 위태…에버노스 홀딩스 12.49% 급락, XRPN 7.85달러",
-"source": "CBC뉴스",
-"link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9QeVFMaU11c3ZEMk94bC1OSFBtLUVoeHpmN0pCWWpaVmYzSUdYOWZPQjdOWDZreGRkNFc5ZndoVTM2XzEzMHZoMENoQmF6MVZ1dENWRTdQcTk2WFdzTXc4YXUtc2dRMms?oc=5",
-"time": "2026-11-13T23:25:45+00:00",
-"stage": "얼럿"
-},
-{
-"title": "[속보]리플(XRP) 1달러 위태…에버노스 홀딩스 12.49% 급락, XRPN 7.85달러",
-"source": "CBC뉴스",
-"link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE96WXM0VWFZeGJKS1lBREFvVlgwS0hsQ2k3MnlpTGNXY1VwUTJOY0dWTktvUllsc0hZcXpCTm93ZF9yRkVwYmtvdUJtQnN0RmlyU2I2bG5qY1ZXMEkwNVBWd0JLXzdUa0NV?oc=5",
-"time": "2026-11-13T23:25:45+00:00",
-"stage": "속보"
-}
-],
-"level": "URGENT",
-"latest": "리플(XRP) 1달러 위태…에버노스 홀딩스 12.49% 급락, XRPN 7.85달러",
-"tok": [
-"1달러",
-"85달러",
-"XRP",
-"XRPN",
-"급락",
-"리플",
-"에버노스",
-"위태",
-"홀딩스"
-]
 }
 ],
 "sns": {
@@ -3526,7 +3498,7 @@
 },
 "미사일": {
 "n30": 2,
-"base": 0.5,
+"base": 0.6,
 "spike": false
 },
 "속보": {
@@ -3540,7 +3512,7 @@
 "spike": true
 },
 "사고": {
-"n30": 4,
+"n30": 5,
 "base": 3.3,
 "spike": false
 },
@@ -3561,16 +3533,26 @@
 },
 "먹통": {
 "n30": 0,
-"base": 0.5,
+"base": 0.4,
 "spike": false
 },
 "산불": {
 "n30": 0,
-"base": 0.2,
+"base": 0.1,
 "spike": false
 }
 },
 "posts": [
+{
+"text": "마지막 마무리에서 팬 만테까레하다가 엎는 사고를 쳐서 엔초비 절반이 날라간거 같음....... 그래도 먹을만하다",
+"handle": "maehwa1128.bsky.social",
+"name": "매화",
+"time": "2026-11-14T05:25:49.048Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/maehwa1128.bsky.social/post/3n2ar5hudhs2f",
+"term": "사고"
+},
 {
 "text": "스위트롤 폭신해보인다 사고 싶군 달러 좀 떨어졌니",
 "handle": "wintershrimp.bsky.social",
@@ -3816,21 +3798,21 @@
 "n30": 6,
 "base": 0.5,
 "spike": true,
-"since": "2026-11-14T05:23:51.007622+00:00"
+"since": "2026-11-14T05:26:05.175833+00:00"
 },
 {
 "term": "속보",
 "n30": 8,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-14T05:23:51.007622+00:00"
+"since": "2026-11-14T05:26:05.175833+00:00"
 },
 {
 "term": "지하철",
 "n30": 5,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-14T05:23:51.007622+00:00"
+"since": "2026-11-14T05:26:05.175833+00:00"
 }
 ],
 "baseline": {
@@ -3838,18 +3820,18 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.48,
-"붕괴": 0.09,
+"폭발": 0.43,
+"붕괴": 0.08,
 "대피": 0.05,
-"미사일": 0.56,
-"속보": 0.09,
+"미사일": 0.6,
+"속보": 0.08,
 "지하철": 0.05,
-"사고": 3.29,
-"실종": 0.06,
+"사고": 3.36,
+"실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
-"먹통": 0.41,
-"산불": 0.15
+"먹통": 0.37,
+"산불": 0.14
 },
 "errors": [],
 "ytPosts": [
