@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-14T00:21:04.381593+00:00",
+"updated": "2026-11-14T00:23:31.442870+00:00",
 "errors": [],
 "events": [
 {
@@ -240,6 +240,40 @@
 "충북",
 "토요일",
 "흐리고"
+]
+},
+{
+"id": "hJQ2lNR2stejdHQUFsZ2coc50004",
+"first": "2026-11-14T00:04:00+00:00",
+"last": "2026-11-14T00:04:00+00:00",
+"updated": "2026-11-14T00:23:31.442870+00:00",
+"headline": "속보 미국공항 이슈로 인천공항 출발 항공기 잇단 지연",
+"cat": "국제",
+"regions": [
+"인천"
+],
+"sources": [
+"YTN"
+],
+"updates": [
+{
+"title": "속보 미국공항 이슈로 인천공항 출발 항공기 잇단 지연",
+"source": "YTN",
+"link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9yX0lpTnJxN1NxV0V6RWZ3V0ZCcGM1a0dfSFVmd1RrS2VhQzRtSExoNHl2VmEyWHQ0NmZQY3J3QkFUU0V3dVRjVDlSRk9mbXhJQ2lNR2stejdHQUFsZ2c?oc=5",
+"time": "2026-11-14T00:04:00+00:00",
+"stage": "1보"
+}
+],
+"level": "ALERT",
+"latest": "속보 미국공항 이슈로 인천공항 출발 항공기 잇단 지연",
+"tok": [
+"미국공항",
+"이슈",
+"인천공항",
+"잇단",
+"지연",
+"출발",
+"항공기"
 ]
 },
 {
@@ -1629,9 +1663,9 @@
 ],
 "sns": {
 "terms": {
-"화재": {
-"n30": 0,
-"base": 0.1,
+"지진": {
+"n30": 2,
+"base": 0.5,
 "spike": false
 },
 "불났": {
@@ -1665,18 +1699,18 @@
 "spike": false
 },
 "속보": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
 "지하철": {
 "n30": 3,
-"base": 1.3,
+"base": 1.4,
 "spike": false
 },
 "사고": {
 "n30": 0,
-"base": 0.8,
+"base": 0.7,
 "spike": false
 },
 "실종": {
@@ -1693,19 +1727,19 @@
 "n30": 0,
 "base": 0.1,
 "spike": false
-},
-"먹통": {
-"n30": 0,
-"base": 0.1,
-"spike": false
-},
-"산불": {
-"n30": 0,
-"base": 0.1,
-"spike": false
 }
 },
 "posts": [
+{
+"text": "【지진 정보】일본 시간 11월 14일 09:02경\n진원: Off the Coast of Urakawa (M3.3, 깊이 약 60km)\n최대 진도: 1\n진도 1: 홋카이도\n이 지진으로 인한 쓰나미 걱정은 없습니다.\n(일본 기상청 발표)\n#일본 #지진 #방재",
+"handle": "ko.soramoyou.yk-planning.jp",
+"name": "Soramoyou 한국어",
+"time": "2026-11-14T00:06:35.183Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/ko.soramoyou.yk-planning.jp/post/3n2a7cpxc262s",
+"term": "지진"
+},
 {
 "text": "타사장의 감정 폭발로 나온 발언이 \"닥쳐!!!!!!! 그럼 죽어!! 네 맘대로 죽어버려!! 지금 죽어!! 여기서 죽어!!\" 라는게 좋다",
 "handle": "qweefsgjiedg.bsky.social",
@@ -1767,7 +1801,7 @@
 "handle": "kimbookie.bsky.social",
 "name": "김부키🌰",
 "time": "2026-11-13T23:54:07.675Z",
-"likes": 2,
+"likes": 3,
 "reposts": 1,
 "url": "https://bsky.app/profile/kimbookie.bsky.social/post/3n2a6mgpvms2k",
 "term": "지하철"
@@ -1928,7 +1962,7 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 0.51,
+"지진": 0.56,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
@@ -1936,9 +1970,9 @@
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.12,
-"지하철": 1.39,
-"사고": 0.73,
+"속보": 0.11,
+"지하철": 1.45,
+"사고": 0.66,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -1946,7 +1980,9 @@
 "산불": 0.05
 },
 "errors": [
-"지진: HTTPError"
+"화재: HTTPError",
+"먹통: HTTPError",
+"산불: HTTPError"
 ],
 "ytPosts": [
 {
@@ -2143,6 +2179,42 @@
 },
 "trends": [
 {
+"term": "lg 트윈스",
+"traffic": "1000+",
+"time": "2026-11-13T23:20:00+00:00",
+"news": [
+{
+"title": "KBO FA 시장 개장! 원태인·구자욱·양의지 등 28명 자격 공시",
+"source": "KBS 뉴스",
+"link": "https://news.kbs.co.kr/news/view.do?ncd=8712285"
+},
+{
+"title": "'744억' 쓰고 떠난 손혁 단장, '큰 손' 한화 FA 중견수 사올까…김호령 최지훈 홍창기 배정대 등 매물은 많다",
+"source": "조선일보",
+"link": "https://www.chosun.com/sports/baseball/2026/11/14/GYYDMMTBMQ2TOYRYMFTGEOJZG4/"
+}
+],
+"new": true
+},
+{
+"term": "방탄소년단",
+"traffic": "100+",
+"time": "2026-11-13T23:20:00+00:00",
+"news": [
+{
+"title": "월드스타도 예외 없다…BTS 뷔, 첫 예비군 소화",
+"source": "매일경제",
+"link": "https://www.mk.co.kr/news/musics/12207744"
+},
+{
+"title": "'월클' BTS도 예비군 앞에선 똑같네…진·제이홉·지민 군복 입고 \"고생했다 애들아\"→뷔는 '특급전사' 인증 [핫피플]",
+"source": "조선일보",
+"link": "https://www.chosun.com/entertainments/broadcast/2026/11/13/GM3GMODCHE4DOOLBGZRWKMZSMY/"
+}
+],
+"new": true
+},
+{
 "term": "대한민국의 특별검사제도",
 "traffic": "2000+",
 "time": "2026-11-13T23:00:00+00:00",
@@ -2285,42 +2357,6 @@
 }
 ],
 "new": false
-},
-{
-"term": "참교육",
-"traffic": "10000+",
-"time": "2026-11-13T22:10:00+00:00",
-"news": [
-{
-"title": "아동학대 논란 휩싸인 민속촌 귀신…“웃는다고 괜찮은 건 아냐” 세계의 ‘공포 훈육’ 돌아보니 [이윤정 기자의 소소월드]",
-"source": "경향신문",
-"link": "https://www.khan.co.kr/article/202611121023001"
-},
-{
-"title": "\"학대냐 아니냐\" 불붙은 논란‥'어둠의 오은영' 이제 못 보나",
-"source": "MBC 뉴스",
-"link": "https://imnews.imbc.com/replay/2026/nwdesk/article/6865252_37004.html"
-}
-],
-"new": false
-},
-{
-"term": "돈",
-"traffic": "5000+",
-"time": "2026-11-13T22:10:00+00:00",
-"news": [
-{
-"title": "[사설]“국가 부채 공짜 점심 아냐… 거품 꺼질 때 관건은 재정 여력”",
-"source": "동아일보",
-"link": "https://www.donga.com/news/Opinion/article/all/20261113/135022984/2"
-},
-{
-"title": "\"돈 펑펑 쓸 때 아니다\"…AI 호황 누리는 한국에 날린 경고",
-"source": "한국경제",
-"link": "https://www.hankyung.com/article/2026111236311"
-}
-],
-"new": true
 }
 ],
 "trendSeen": [
