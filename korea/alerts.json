@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-14T10:32:01.497395+00:00",
+"updated": "2026-11-14T10:34:18.210619+00:00",
 "errors": [],
 "events": [
 {
@@ -4226,13 +4226,13 @@
 "spike": false
 },
 "폭발": {
-"n30": 3,
-"base": 0.4,
+"n30": 2,
+"base": 0.3,
 "spike": false
 },
 "붕괴": {
 "n30": 2,
-"base": 0.6,
+"base": 0.7,
 "spike": false
 },
 "대피": {
@@ -4252,7 +4252,7 @@
 },
 "지하철": {
 "n30": 1,
-"base": 1.3,
+"base": 1.1,
 "spike": false
 },
 "사고": {
@@ -4292,7 +4292,7 @@
 "handle": "lehawin.bsky.social",
 "name": "레하윈",
 "time": "2026-11-14T10:30:18.948Z",
-"likes": 1,
+"likes": 2,
 "reposts": 0,
 "url": "https://bsky.app/profile/lehawin.bsky.social/post/3n2bc5sl2b22g",
 "term": "사고"
@@ -4486,7 +4486,7 @@
 "n30": 6,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-14T10:32:01.497395+00:00"
+"since": "2026-11-14T10:34:18.210619+00:00"
 }
 ],
 "baseline": {
@@ -4494,13 +4494,13 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.35,
-"붕괴": 0.68,
-"대피": 0.07,
+"폭발": 0.32,
+"붕괴": 0.71,
+"대피": 0.06,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 1.14,
-"사고": 1.9,
+"지하철": 1.03,
+"사고": 1.91,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -4676,8 +4676,15 @@
 },
 "trends": [
 {
+"term": "멜론뮤직어워드 2026",
+"traffic": "100+",
+"time": "2026-11-14T09:30:00+00:00",
+"news": [],
+"new": true
+},
+{
 "term": "일본 대 브라질",
-"traffic": "5000+",
+"traffic": "10000+",
 "time": "2026-11-14T09:20:00+00:00",
 "news": [
 {
@@ -4689,6 +4696,24 @@
 "title": "`만나면 접전` 브라질 수비수 마갈량이스 일본 경계 \"무실점 경기가 목표\"",
 "source": "마이데일리",
 "link": "https://mydaily.co.kr/page/view/2026111214195889875"
+}
+],
+"new": true
+},
+{
+"term": "호나우지뉴",
+"traffic": "100+",
+"time": "2026-11-14T09:20:00+00:00",
+"news": [
+{
+"title": "46세 호나우지뉴, 11년 만에 공식전 선발 출격…300호골 정조준",
+"source": "KBS 뉴스",
+"link": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8712853"
+},
+{
+"title": "브라질 축구 전설 호나우지뉴, 15일 공식 경기 출장",
+"source": "YTN",
+"link": "https://www.ytn.co.kr/_ln/0107_202611141117186115"
 }
 ],
 "new": true
@@ -4717,14 +4742,14 @@
 "time": "2026-11-14T09:10:00+00:00",
 "news": [
 {
-"title": "[영상] “눈이 녹으면 진실이 드러난다”…김윤석·구교환의 미스터리 ‘폭설’",
-"source": "KBS 뉴스",
-"link": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8712237"
+"title": "전소영, 단추 하나 잠근 과감함…이러니 '부국제'에서 미모로 화제되지",
+"source": "Chosunbiz",
+"link": "https://biz.chosun.com/entertainment/enter_general/2026/11/14/MVSGIZJSGU3TCNLCMI3TEY3DHE/"
 },
 {
-"title": "‘폭설’, 김윤석·구교환이 펼치는 옥신각신 쫄깃한 심리 스릴러",
-"source": "동아일보",
-"link": "https://www.donga.com/news/Entertainment/article/all/20261113/135021363/1"
+"title": "'부국제 강타' 전소영, 반전 '베이글녀' 자태…가죽 재킷 속 과감한 크롭톱",
+"source": "서플 뉴스",
+"link": "https://supple.kr/news/cmw8gt2g4eppsal9pmerm9jjh"
 }
 ],
 "new": false
@@ -4749,7 +4774,7 @@
 },
 {
 "term": "웨이브",
-"traffic": "500+",
+"traffic": "1000+",
 "time": "2026-11-14T08:20:00+00:00",
 "news": [
 {
@@ -4818,46 +4843,9 @@
 }
 ],
 "new": true
-},
-{
-"term": "수수료",
-"traffic": "500+",
-"time": "2026-11-14T07:20:00+00:00",
-"news": [
-{
-"title": "등기부 열람료 700원→1100원… 공인 중개사들 국회서 “철회하라”",
-"source": "Chosunbiz",
-"link": "https://biz.chosun.com/real_estate/real_estate_general/2026/11/13/73ITORNBEVDAXPOPULZKAL64CA/"
-},
-{
-"title": "등기 열람 수수료 700원 →1100원… 공인중개사들 반발",
-"source": "동아일보",
-"link": "https://www.donga.com/news/Society/article/all/20261113/135017604/2"
-}
-],
-"new": true
-},
-{
-"term": "무인 항공기",
-"traffic": "2000+",
-"time": "2026-11-14T07:10:00+00:00",
-"news": [
-{
-"title": "무인항공기 국제표준, 서울에서 논의한다… ISO/TC 20/SC 16 총회, 미·중 이어 세 번째 개최",
-"source": "전자신문",
-"link": "https://www.etnews.com/20261113000215"
-},
-{
-"title": "무인항공기 국제표준 총회, 서울서 개최…수소 추진·AI·보안 등 논의",
-"source": "조선일보",
-"link": "https://www.chosun.com/economy/economy_general/2026/11/13/5LYYALA3YJHUJETWJVA7GOTOVE/"
-}
-],
-"new": true
 }
 ],
 "trendSeen": [
-"전국금속노동조합",
 "전기",
 "전도연",
 "전력",
@@ -5138,6 +5126,7 @@
 "현장르포 특종세상",
 "혈당",
 "혜리",
+"호나우지뉴",
 "호날두",
 "홈런",
 "홈플러스",
