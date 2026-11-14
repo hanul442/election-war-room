@@ -1,12 +1,12 @@
 {
-"updated": "2026-11-14T23:11:00.831923+00:00",
+"updated": "2026-11-14T23:13:18.826546+00:00",
 "errors": [],
 "events": [
 {
 "id": "FVSSEFmb3NiU2dhWEhFQQoc52246",
 "first": "2026-11-14T22:46:52+00:00",
 "last": "2026-11-14T23:02:31+00:00",
-"updated": "2026-11-14T23:06:26.396664+00:00",
+"updated": "2026-11-14T23:13:18.826546+00:00",
 "headline": "경부고속도로 승용차 관련 사고 처리중",
 "cat": "교통",
 "regions": [],
@@ -39,6 +39,13 @@
 "title": "[속보] 경부고속도로 승용차 단독사고 처리중",
 "source": "스페셜타임스",
 "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9CdGozVkx5dFdDc0lzbzFVV2xnOE1FcGlVc09FVk5ZSFJVTnZFTGZmUUJMZm5SQ2tQUHVmT0czalFWa2RRN0RXWkxVaTdhemJmRDlEOFVnNzBTUUtSNnZVY0pRRHUzNzdDejVuLThYTzRydw?oc=5",
+"time": "2026-11-14T23:02:31+00:00",
+"stage": "속보"
+},
+{
+"title": "[속보] 경부고속도로 승용차 단독사고 처리중",
+"source": "스페셜타임스",
+"link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9PcWVhQzdMODJZWndUc3BMRUhrYXJOMHJPbzNjVnFCc1J5bFdrNGdkQnBzelpTNm9tQ2NXcjhnLWxfSTNTSHVic3ZtbmIwOHdFX3ZtMm9oZHNHZ1AwclB0VHZsa09UMWtqOXY4LV9obVlvdzg?oc=5",
 "time": "2026-11-14T23:02:31+00:00",
 "stage": "속보"
 }
@@ -505,9 +512,9 @@
 "spike": false
 },
 "속보": {
-"n30": 5,
+"n30": 4,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "지하철": {
 "n30": 0,
@@ -516,7 +523,7 @@
 },
 "사고": {
 "n30": 1,
-"base": 0.6,
+"base": 0.5,
 "spike": false
 },
 "실종": {
@@ -745,15 +752,7 @@
 "url": "https://www.youtube.com/watch?v=pEtSAxPSvfU"
 }
 ],
-"spikes": [
-{
-"term": "속보",
-"n30": 5,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-14T23:11:00.831923+00:00"
-}
-],
+"spikes": [],
 "baseline": {
 "지진": 0.05,
 "화재": 0.05,
@@ -765,7 +764,7 @@
 "미사일": 0.05,
 "속보": 0.05,
 "지하철": 0.05,
-"사고": 0.5,
+"사고": 0.45,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -977,6 +976,42 @@
 },
 "trends": [
 {
+"term": "육군사관학교",
+"traffic": "200+",
+"time": "2026-11-14T22:10:00+00:00",
+"news": [
+{
+"title": "[보도정정] 국군사관학교 창설 기본계획 수정안은 확정된 바 없으며 각군 총장을 비롯하여 다양한 계층의 의견을 수렴하고 있습니다.",
+"source": "대한민국 정책브리핑",
+"link": "https://www.korea.kr/briefing/actuallyView.do?newsId=148975649"
+},
+{
+"title": "빈총 경계·北지뢰 무대응 논란 속... 후반기 장성 인사도 ‘육사’ 배제?",
+"source": "조선일보",
+"link": "https://www.chosun.com/politics/2026/11/15/H4UB4LI7IFHKPGIUQILRP3QA5A/"
+}
+],
+"new": true
+},
+{
+"term": "함덕주",
+"traffic": "100+",
+"time": "2026-11-14T22:10:00+00:00",
+"news": [
+{
+"title": "함덕주, 옵트아웃 행사…시장 나와 새 둥지 찾는다",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261114_0003868178"
+},
+{
+"title": "'후반기 실종→옵트아웃' 함덕주 결국 LG 떠난다, 염경엽 감독의 \"노 코멘트\" 그 말이 힌트였나",
+"source": "SPOTV NEWS",
+"link": "https://www.spotvnews.co.kr/news/articleView.html?idxno=1019868"
+}
+],
+"new": true
+},
+{
 "term": "sk하이닉스",
 "traffic": "10000+",
 "time": "2026-11-14T21:50:00+00:00",
@@ -1119,46 +1154,9 @@
 }
 ],
 "new": true
-},
-{
-"term": "복권",
-"traffic": "5000+",
-"time": "2026-11-14T21:00:00+00:00",
-"news": [
-{
-"title": "제1250회 로또 1등 9명···당첨금 31억원",
-"source": "경향신문",
-"link": "https://www.khan.co.kr/article/202611142052001"
-},
-{
-"title": "1250회 로또 1등번호 당첨자 14명...20억씩 배당",
-"source": "헤드라인제주",
-"link": "https://www.headlinejeju.co.kr/news/articleView.html?idxno=602149"
-}
-],
-"new": true
-},
-{
-"term": "이승기",
-"traffic": "1000+",
-"time": "2026-11-14T21:00:00+00:00",
-"news": [
-{
-"title": "'105억 전세 피해' 이승기 \"부동산에 악마들이 득실거려\"",
-"source": "뉴시스",
-"link": "https://www.newsis.com/view/NISX20261114_0003868186"
-},
-{
-"title": "‘105억 전세금 분쟁’ 이승기, “부동산에 악마 가득해, 안 당하면 모른다” 뼈있는 경고",
-"source": "스포츠경향",
-"link": "https://sports.khan.co.kr/article/202611141748013"
-}
-],
-"new": true
 }
 ],
 "trendSeen": [
-"전준표",
 "전지적 집착 시점",
 "전차",
 "전현무",
@@ -1409,6 +1407,7 @@
 "한화에어로스페이스",
 "한화오션",
 "할증",
+"함덕주",
 "함박마을",
 "항공 승무원",
 "항공 엔진",
