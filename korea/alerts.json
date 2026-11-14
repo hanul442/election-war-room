@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-14T20:58:22.023742+00:00",
+"updated": "2026-11-14T21:00:38.180270+00:00",
 "errors": [],
 "events": [
 {
@@ -237,49 +237,6 @@
 "이더리움",
 "하락"
 ]
-},
-{
-"id": "9ZMlpHSWtHNmRwc2UzRG8oc51500",
-"first": "2026-11-14T15:00:00+00:00",
-"last": "2026-11-14T15:00:00+00:00",
-"updated": "2026-11-14T15:08:00.260346+00:00",
-"headline": "젠슨 황 복귀 서명 9만1313명 돌파…엔비디아 현직 직원 4895명 참여 주장",
-"cat": "기타",
-"regions": [],
-"sources": [
-"CBC뉴스"
-],
-"updates": [
-{
-"title": "[속보]젠슨 황 복귀 서명 9만1313명 돌파…엔비디아 현직 직원 4895명 참여 주장",
-"source": "CBC뉴스",
-"link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1xYVZUOXBqRlQ1bGxXeDFGOFBSbWtRWVRTUnBfYlV6NlZjMnNSNTlPS0N1NzByYVNpNEtzcjhZMlFscENLcTFoMHpFVUdNLTZVOU5xWktfYl9ZMlpHSWtHNmRwc2UzRG8?oc=5",
-"time": "2026-11-14T15:00:00+00:00",
-"stage": "얼럿"
-},
-{
-"title": "[속보]젠슨 황 복귀 서명 9만1313명 돌파…엔비디아 현직 직원 4895명 참여 주장",
-"source": "CBC뉴스",
-"link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE50REtGRDFYaTVPTjJmOVllazB2dWJZdEdCWmlQMmJoUFY3YXZranRqclMtbUU5ODJzLVpXZVdaT2RZWTZSaWl3QnhSUExQSTVkSGNsNFNIcmtXcHAyd1JTaUExRWVPZUVS?oc=5",
-"time": "2026-11-14T15:00:00+00:00",
-"stage": "속보"
-}
-],
-"level": "URGENT",
-"latest": "젠슨 황 복귀 서명 9만1313명 돌파…엔비디아 현직 직원 4895명 참여 주장",
-"tok": [
-"4895명",
-"9만1313명",
-"돌파",
-"복귀",
-"서명",
-"엔비디아",
-"젠슨",
-"주장",
-"직원",
-"참여",
-"현직"
-]
 }
 ],
 "sns": {
@@ -305,14 +262,14 @@
 "spike": false
 },
 "폭발": {
-"n30": 5,
+"n30": 3,
 "base": 0.6,
-"spike": true
+"spike": false
 },
 "붕괴": {
-"n30": 5,
+"n30": 3,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "대피": {
 "n30": 0,
@@ -325,13 +282,13 @@
 "spike": false
 },
 "속보": {
-"n30": 6,
+"n30": 2,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "지하철": {
 "n30": 4,
-"base": 1.1,
+"base": 1.3,
 "spike": false
 },
 "사고": {
@@ -614,41 +571,19 @@
 "url": "https://www.youtube.com/watch?v=yoakL2a1F_8"
 }
 ],
-"spikes": [
-{
-"term": "폭발",
-"n30": 5,
-"base": 0.6,
-"spike": true,
-"since": "2026-11-14T20:58:22.023742+00:00"
-},
-{
-"term": "붕괴",
-"n30": 5,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-14T20:58:22.023742+00:00"
-},
-{
-"term": "속보",
-"n30": 6,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-14T20:58:22.023742+00:00"
-}
-],
+"spikes": [],
 "baseline": {
 "지진": 0.05,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.64,
+"폭발": 0.68,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 1.31,
-"사고": 0.27,
+"지하철": 1.48,
+"사고": 0.24,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
