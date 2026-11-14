@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-14T13:25:26.143338+00:00",
+"updated": "2026-11-14T13:27:40.007445+00:00",
 "errors": [],
 "events": [
 {
@@ -3755,73 +3755,6 @@
 "인증샷",
 "하지원"
 ]
-},
-{
-"id": "dEME1xQ3QySXlDQmtzOWsoc50020",
-"first": "2026-11-14T00:20:00+00:00",
-"last": "2026-11-14T07:26:59+00:00",
-"updated": "2026-11-14T07:34:27.877923+00:00",
-"headline": "배우 고경표 음주사고…면허취소 만취상태",
-"cat": "사회",
-"regions": [],
-"sources": [
-"강원도민일보",
-"뉴시스",
-"연합뉴스TV",
-"조선일보"
-],
-"updates": [
-{
-"title": "[단독] 배우 고경표 음주사고…면허취소 만취상태",
-"source": "연합뉴스TV",
-"link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBXQlVfTzdWcktHV3ZNX3RTaFV4dGNvakVIRWF2bHhxcWkyLUdNblBxTTBFeTJxcDNRSTRzdE9YR1piaURqbGdxUjR2b0ZVOENUZGIyQ1A5V1dEME1xQ3QySXlDQmtzOWs?oc=5",
-"time": "2026-11-14T00:20:00+00:00",
-"stage": "단독"
-},
-{
-"title": "[속보] 배우 고경표 만취상태로 운전 중 청소차 충돌…면허취소 수준",
-"source": "강원도민일보",
-"link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE02dWtZQWYxTGM3NlRsbVBGQUhHaDJvNzlueFFjOXdsREw2VkFDZFV5QWh4WmxtWWxwM1RaMkFMUHRZUUpNdml0Smc1UFJMRGZFcGc2amNGZGVVUW5tdmZuT0U0SEo1T28?oc=5",
-"time": "2026-11-14T01:27:34+00:00",
-"stage": "속보"
-},
-{
-"title": "고경표, 음주사고 CCTV 공개..청소차 충돌 후 환경미화원이 뒤쫓아, \"면허취소 기준 2배\"",
-"source": "조선일보",
-"link": "https://www.chosun.com/entertainments/broadcast/2026/11/14/GM4TKMRQGQ3DKNJWGM2DEY3EGE/",
-"time": "2026-11-14T06:20:00+00:00",
-"stage": "후속"
-},
-{
-"title": "고경표 음주사고 직후 CCTV 공개…환경미화원 황급히 뒤쫓았다",
-"source": "뉴시스",
-"link": "https://www.newsis.com/view/NISX20261114_0003868145",
-"time": "2026-11-14T07:26:59+00:00",
-"stage": "후속"
-}
-],
-"level": "URGENT",
-"latest": "고경표 음주사고 직후 CCTV 공개…환경미화원 황급히 뒤쫓았다",
-"tok": [
-"2배",
-"CCTV",
-"고경표",
-"공개",
-"기준",
-"뒤쫓아",
-"뒤쫓았다",
-"만취상태",
-"면허취소",
-"배우",
-"수준",
-"운전",
-"음주사고",
-"직후",
-"청소차",
-"충돌",
-"환경미화원",
-"황급히"
-]
 }
 ],
 "sns": {
@@ -3848,11 +3781,11 @@
 },
 "폭발": {
 "n30": 1,
-"base": 0.3,
+"base": 0.4,
 "spike": false
 },
 "붕괴": {
-"n30": 2,
+"n30": 0,
 "base": 1.5,
 "spike": false
 },
@@ -3878,7 +3811,7 @@
 },
 "사고": {
 "n30": 6,
-"base": 2.8,
+"base": 3.1,
 "spike": false
 },
 "실종": {
@@ -3957,26 +3890,6 @@
 "reposts": 0,
 "url": "https://bsky.app/profile/ko.soramoyou.yk-planning.jp/post/3n2bkx6budu24",
 "term": "지진"
-},
-{
-"text": "보호막이 먼저 세계관붕괴시킴",
-"handle": "hd7096.bsky.social",
-"name": "MD곰이",
-"time": "2026-11-14T12:57:10.640Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/hd7096.bsky.social/post/3n2bkelylbs22",
-"term": "붕괴"
-},
-{
-"text": "세계관붕괴하지마세용ㅋ",
-"handle": "slutlsut8181.bsky.social",
-"name": "유부녀연랑",
-"time": "2026-11-14T12:55:40.150Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/slutlsut8181.bsky.social/post/3n2bkbvvbec2u",
-"term": "붕괴"
 },
 {
 "platform": "YouTube",
@@ -4161,17 +4074,17 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 0.72,
+"지진": 0.75,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.39,
-"붕괴": 1.53,
+"폭발": 0.45,
+"붕괴": 1.38,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.47,
-"사고": 3.08,
+"지하철": 0.42,
+"사고": 3.37,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -4412,7 +4325,7 @@
 },
 {
 "title": "[속보]로또 1250회 당첨번호 '1·5·18·23·27·28'…보너스 '8'",
-"source": "이데일리",
+"source": "edaily.co.kr",
 "link": "https://www.edaily.co.kr/News/Read?newsId=02794566645645720&mediaCodeNo=257"
 }
 ],
