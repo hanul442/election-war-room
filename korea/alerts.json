@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-14T10:12:09.919308+00:00",
+"updated": "2026-11-14T10:14:22.272208+00:00",
 "errors": [],
 "events": [
 {
@@ -4260,13 +4260,13 @@
 "spike": false
 },
 "폭발": {
-"n30": 1,
-"base": 1.0,
+"n30": 0,
+"base": 0.9,
 "spike": false
 },
 "붕괴": {
 "n30": 0,
-"base": 0.8,
+"base": 0.7,
 "spike": false
 },
 "대피": {
@@ -4286,12 +4286,12 @@
 },
 "지하철": {
 "n30": 2,
-"base": 1.4,
+"base": 1.5,
 "spike": false
 },
 "사고": {
 "n30": 1,
-"base": 3.3,
+"base": 3.1,
 "spike": false
 },
 "실종": {
@@ -4520,13 +4520,13 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.9,
-"붕괴": 0.69,
-"대피": 0.18,
+"폭발": 0.81,
+"붕괴": 0.62,
+"대피": 0.16,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 1.5,
-"사고": 3.08,
+"지하철": 1.55,
+"사고": 2.87,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -4702,6 +4702,78 @@
 },
 "trends": [
 {
+"term": "기아",
+"traffic": "1000+",
+"time": "2026-11-14T09:10:00+00:00",
+"news": [
+{
+"title": "기아 카렌스 EV 12월 인도 시작, 현지 부품비율 80% 달성",
+"source": "글로벌이코노믹",
+"link": "https://www.g-enews.com/article/Global-Biz/2026/11/2026111411184721922bd56fbc3c_1"
+},
+{
+"title": "현대차, 中 브랜드에 밀린 인도네시아서 반격…딜러점 100곳↑ 확대 목표",
+"source": "더구루",
+"link": "https://theguru.co.kr/news/article.html?no=109667"
+}
+],
+"new": true
+},
+{
+"term": "일본 브라질",
+"traffic": "100+",
+"time": "2026-11-14T09:10:00+00:00",
+"news": [
+{
+"title": "日 축구 이 정도였나! 세계 55위→17위 ‘38계단 폭등’…독일·브라질·잉글랜드 꺾은 명감독 효과→ESPN \"트로피가 전부 아냐\" 모리야스 8년 재조명",
+"source": "SPOTV NEWS",
+"link": "https://www.spotvnews.co.kr/news/articleView.html?idxno=1019556"
+},
+{
+"title": "`만나면 접전` 브라질 수비수 마갈량이스 일본 경계 \"무실점 경기가 목표\"",
+"source": "마이데일리",
+"link": "https://mydaily.co.kr/page/view/2026111214195889875"
+}
+],
+"new": true
+},
+{
+"term": "전소영",
+"traffic": "100+",
+"time": "2026-11-14T09:10:00+00:00",
+"news": [
+{
+"title": "[영상] “눈이 녹으면 진실이 드러난다”…김윤석·구교환의 미스터리 ‘폭설’",
+"source": "KBS 뉴스",
+"link": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8712237"
+},
+{
+"title": "‘폭설’, 김윤석·구교환이 펼치는 옥신각신 쫄깃한 심리 스릴러",
+"source": "동아일보",
+"link": "https://www.donga.com/news/Entertainment/article/all/20261113/135021363/1"
+}
+],
+"new": true
+},
+{
+"term": "박지현",
+"traffic": "200+",
+"time": "2026-11-14T09:10:00+00:00",
+"news": [
+{
+"title": "나 혼자 산다",
+"source": "MBC",
+"link": "https://m.imbc.com/VOD/VodView?progCode=1002831100000100000&broadcastID=1002831101572100005&type=Clip"
+},
+{
+"title": "박지현, 코드쿤스트에 감동…‘대학가요제’서 깜짝 만남",
+"source": "동아일보",
+"link": "https://www.donga.com/news/Entertainment/article/all/20261114/135023608/1"
+}
+],
+"new": true
+},
+{
 "term": "웨이브",
 "traffic": "500+",
 "time": "2026-11-14T08:20:00+00:00",
@@ -4739,7 +4811,7 @@
 },
 {
 "term": "이로운",
-"traffic": "500+",
+"traffic": "1000+",
 "time": "2026-11-14T08:00:00+00:00",
 "news": [
 {
@@ -4808,88 +4880,16 @@
 }
 ],
 "new": true
-},
-{
-"term": "닭한마리",
-"traffic": "500+",
-"time": "2026-11-14T07:10:00+00:00",
-"news": [
-{
-"title": "\"먹다 남긴 마늘·부추를 다시?\"…닭한마리집 주방 영상 논란 - 머니투데이",
-"source": "머니투데이",
-"link": "https://www.mt.co.kr/society/2026/11/14/2026111416053177286"
-},
-{
-"title": "\"먹다 남긴 반찬 다시 통에 쏙\"… 종로 식당서 위생 의혹",
-"source": "뉴시스",
-"link": "https://www.newsis.com/view/NISX20261113_0003867818"
-}
-],
-"new": true
-},
-{
-"term": "인수 합병",
-"traffic": "100+",
-"time": "2026-11-14T07:00:00+00:00",
-"news": [
-{
-"title": "자본시장 정책 간담회 - 사진 | 멀티미디어",
-"source": "대한민국 정책브리핑",
-"link": "https://www.korea.kr/multi/policyPhotoView.do?bbsKey=74256"
-},
-{
-"title": "李 “산 높으면 골 깊다”…野 “주가 하락이 자연의 섭리냐”",
-"source": "동아일보",
-"link": "https://www.donga.com/news/Politics/article/all/20261114/135024340/1"
-}
-],
-"new": true
-},
-{
-"term": "문지애",
-"traffic": "200+",
-"time": "2026-11-14T06:40:00+00:00",
-"news": [
-{
-"title": "문지애♥전종환 “아들, 수학 시험 27점에 온 집안 비상…결국 3등 들어”",
-"source": "동아일보",
-"link": "https://www.donga.com/news/Entertainment/article/all/20261114/135023894/1"
-},
-{
-"title": "문지애♥전종환 \"사내 연애 힘들었다..이별 꿈에 고통\"→\"子수학 27점\" 극복",
-"source": "조선일보",
-"link": "https://www.chosun.com/entertainments/broadcast/2026/11/14/GNSTQNZXMIYDGYRVGBRTCNBVGQ/"
-}
-],
-"new": true
-},
-{
-"term": "북대서양 조약 기구",
-"traffic": "500+",
-"time": "2026-11-14T06:30:00+00:00",
-"news": [
-{
-"title": "Elbit Systems, NATO 회원국과 2억6,000만 달러 규모 로켓포 계약",
-"source": "Investing.com 한국어",
-"link": "https://kr.investing.com/news/company-news/article-93CH-2171999"
-},
-{
-"title": "엘빗 시스템즈, 유럽 NATO국과 2억6000만 달러 수주 : 기업·산업",
-"source": "재경일보",
-"link": "https://news.jkn.co.kr/post/1093267"
-}
-],
-"new": true
 }
 ],
 "trendSeen": [
-"전광훈",
 "전국금속노동조합",
 "전기",
 "전도연",
 "전력",
 "전병우",
 "전소미",
+"전소영",
 "전영현",
 "전원주",
 "전유성",
