@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-14T09:10:12.030179+00:00",
+"updated": "2026-11-14T09:12:24.372771+00:00",
 "errors": [],
 "events": [
 {
@@ -3846,7 +3846,7 @@
 "spike": true
 },
 "붕괴": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -3861,18 +3861,18 @@
 "spike": false
 },
 "속보": {
-"n30": 5,
+"n30": 4,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "지하철": {
-"n30": 3,
+"n30": 2,
 "base": 1.4,
 "spike": false
 },
 "사고": {
-"n30": 6,
-"base": 4.1,
+"n30": 5,
+"base": 4.3,
 "spike": false
 },
 "실종": {
@@ -3902,6 +3902,16 @@
 }
 },
 "posts": [
+{
+"text": "물아일체의 순간 폭발",
+"handle": "xblueskyx.bsky.social",
+"name": "아쿠아맨",
+"time": "2026-11-14T09:11:29.146Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/xblueskyx.bsky.social/post/3n2b5r2oltk2p",
+"term": "폭발"
+},
 {
 "text": "아빠 나들이갈 때 입을 옷 사고 저녁먹은대서 따라왔다가 맘에드는 옷 발견했는데 남자꺼라 침만 흘리고 왔다.....",
 "handle": "kinen47.bsky.social",
@@ -4052,16 +4062,6 @@
 "url": "https://www.youtube.com/watch?v=ZDXn1rjm85c"
 },
 {
-"text": "다시 지하철 근처로 갈지는 모르겟어 너무 힘들어서",
-"handle": "uuityeniaa22.bsky.social",
-"name": "오타쿠향이 빠진 일반인",
-"time": "2026-11-14T08:41:04.043Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/uuityeniaa22.bsky.social/post/3n2b42n3q5c2a",
-"term": "지하철"
-},
-{
 "platform": "YouTube",
 "text": "(속보) 윤석열이 체포 직전 남긴 말, 눈물바다...",
 "handle": "UCsteJIK-yA1PRfi4_VGBC2A",
@@ -4149,14 +4149,7 @@
 "n30": 5,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-14T09:10:12.030179+00:00"
-},
-{
-"term": "속보",
-"n30": 5,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-14T09:10:12.030179+00:00"
+"since": "2026-11-14T09:12:24.372771+00:00"
 }
 ],
 "baseline": {
@@ -4164,13 +4157,13 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.05,
-"붕괴": 0.09,
+"폭발": 0.15,
+"붕괴": 0.08,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 1.45,
-"사고": 4.28,
+"지하철": 1.41,
+"사고": 4.35,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
