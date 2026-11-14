@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-14T20:21:54.405653+00:00",
+"updated": "2026-11-14T20:24:11.661194+00:00",
 "errors": [],
 "events": [
 {
@@ -474,7 +474,7 @@
 },
 "사고": {
 "n30": 1,
-"base": 0.5,
+"base": 0.6,
 "spike": false
 },
 "실종": {
@@ -728,14 +728,14 @@
 "n30": 5,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-14T20:21:54.405653+00:00"
+"since": "2026-11-14T20:24:11.661194+00:00"
 },
 {
 "term": "속보",
 "n30": 15,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-14T20:21:54.405653+00:00"
+"since": "2026-11-14T20:24:11.661194+00:00"
 }
 ],
 "baseline": {
@@ -749,7 +749,7 @@
 "미사일": 0.05,
 "속보": 0.05,
 "지하철": 0.05,
-"사고": 0.56,
+"사고": 0.6,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -970,8 +970,26 @@
 },
 "trends": [
 {
+"term": "빈",
+"traffic": "200+",
+"time": "2026-11-14T19:20:00+00:00",
+"news": [
+{
+"title": "이준석 “내가 노무현 대통령 추천서 어떻게 받나”…전한길 추가 고소 예고",
+"source": "한겨레",
+"link": "https://www.hani.co.kr/arti/politics/politics_general/1287327.html"
+},
+{
+"title": "10년 전 공개한 졸업장 또 소환…전한길의 ‘하버드 2차 공세’에 이준석 폭발",
+"source": "서울신문",
+"link": "https://www.seoul.co.kr/news/politics/congress/2026/11/14/20261114500025"
+}
+],
+"new": true
+},
+{
 "term": "포르투갈 대 덴마크",
-"traffic": "500+",
+"traffic": "1000+",
 "time": "2026-11-14T19:00:00+00:00",
 "news": [
 {
@@ -1079,7 +1097,7 @@
 },
 {
 "term": "blg",
-"traffic": "500+",
+"traffic": "1000+",
 "time": "2026-11-14T18:30:00+00:00",
 "news": [
 {
@@ -1130,24 +1148,6 @@
 }
 ],
 "new": false
-},
-{
-"term": "norway vs wales",
-"traffic": "100+",
-"time": "2026-11-14T18:10:00+00:00",
-"news": [
-{
-"title": "Uefa Nations League: Norway vs Wales - watch live stream, listen live, text updates, stats & head-to-head",
-"source": "BBC",
-"link": "https://www.bbc.com/sport/football/live/crz6568xvv8vt"
-},
-{
-"title": "Mixed Wales ratings as defensive errors costly in Norway defeat",
-"source": "Wales Online",
-"link": "https://www.walesonline.co.uk/sport/football/football-news/mixed-wales-ratings-defensive-errors-34912897"
-}
-],
-"new": true
 }
 ],
 "trendSeen": [
