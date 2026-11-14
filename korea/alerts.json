@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-14T14:20:19.504137+00:00",
+"updated": "2026-11-14T14:22:34.737790+00:00",
 "errors": [],
 "events": [
 {
@@ -195,12 +195,13 @@
 "id": "6N21LZ0VhemhCYWpPeDlUoc50846",
 "first": "2026-11-14T08:46:08+00:00",
 "last": "2026-11-14T14:01:46+00:00",
-"updated": "2026-11-14T14:04:17.576668+00:00",
+"updated": "2026-11-14T14:22:34.737790+00:00",
 "headline": "트럼프, 반도체 규제 풀어주며 엔비디아 ‘풀매수’",
 "cat": "경제",
 "regions": [],
 "sources": [
 "SBS",
+"경기일보",
 "국제신문",
 "뉴시스",
 "매일신문",
@@ -259,6 +260,13 @@
 "stage": "속보"
 },
 {
+"title": "트럼프, 엔비디아 주식 최대 67억어치 사들인 뒤 AI 반도체 규제 폐지 논란",
+"source": "경기일보",
+"link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB0YXdRUnRlZGJWS1Q0Sjh5RmRsSFczM2FtcDBoOFBVOEpGZm5Tc2tiVmt6N196cXZFbzRfMXUyUEY1N3NKdkxLNkNmMzNrb0VJZE1LTG1MWEh4UVU?oc=5",
+"time": "2026-11-14T13:17:57+00:00",
+"stage": "후속"
+},
+{
 "title": "\"트럼프. 中수출 규제 완화 전 엔비디아 주식 대규모 매입\"",
 "source": "뉴시스",
 "link": "https://www.newsis.com/view/NISX20261114_0003868260",
@@ -269,6 +277,7 @@
 "level": "URGENT",
 "latest": "\"트럼프. 中수출 규제 완화 전 엔비디아 주식 대규모 매입\"",
 "tok": [
+"67억어치",
 "AI",
 "AI칩",
 "中수출",
@@ -279,6 +288,7 @@
 "반도체",
 "사고",
 "사들여",
+"사들인",
 "수출통제",
 "에도",
 "엔비디아",
@@ -287,7 +297,9 @@
 "작년",
 "주식",
 "직전",
+"최대",
 "트럼프",
+"폐지",
 "풀기",
 "풀매수",
 "풀며",
@@ -3592,7 +3604,7 @@
 "spike": false
 },
 "화재": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -3607,13 +3619,13 @@
 "spike": false
 },
 "폭발": {
-"n30": 6,
-"base": 0.6,
+"n30": 5,
+"base": 0.7,
 "spike": true
 },
 "붕괴": {
 "n30": 3,
-"base": 0.7,
+"base": 0.8,
 "spike": false
 },
 "대피": {
@@ -3622,7 +3634,7 @@
 "spike": false
 },
 "미사일": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -3633,12 +3645,12 @@
 },
 "지하철": {
 "n30": 1,
-"base": 0.5,
+"base": 0.4,
 "spike": false
 },
 "사고": {
 "n30": 8,
-"base": 3.5,
+"base": 4.0,
 "spike": false
 },
 "실종": {
@@ -3673,8 +3685,8 @@
 "handle": "mop-the-gnc.bsky.social",
 "name": "대파소",
 "time": "2026-11-14T14:19:54.748Z",
-"likes": 1,
-"reposts": 0,
+"likes": 3,
+"reposts": 1,
 "url": "https://bsky.app/profile/mop-the-gnc.bsky.social/post/3n2boyko5wc2k",
 "term": "사고"
 },
@@ -3703,7 +3715,7 @@
 "handle": "niniing.bsky.social",
 "name": "니닝",
 "time": "2026-11-14T14:10:14.849Z",
-"likes": 1,
+"likes": 2,
 "reposts": 0,
 "url": "https://bsky.app/profile/niniing.bsky.social/post/3n2bohbt7l223",
 "term": "붕괴"
@@ -3958,24 +3970,24 @@
 "spikes": [
 {
 "term": "폭발",
-"n30": 6,
-"base": 0.6,
+"n30": 5,
+"base": 0.7,
 "spike": true,
-"since": "2026-11-14T14:20:19.504137+00:00"
+"since": "2026-11-14T14:22:34.737790+00:00"
 }
 ],
 "baseline": {
-"지진": 0.12,
+"지진": 0.11,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.68,
-"붕괴": 0.8,
+"폭발": 0.71,
+"붕괴": 0.92,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.41,
-"사고": 3.99,
+"지하철": 0.37,
+"사고": 4.39,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
