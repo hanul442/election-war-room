@@ -1,7 +1,41 @@
 {
-"updated": "2026-11-14T11:12:12.826175+00:00",
+"updated": "2026-11-14T11:14:25.280731+00:00",
 "errors": [],
 "events": [
+{
+"id": "mJIYnJ5U0lEV3hwSWRFUQoc51113",
+"first": "2026-11-14T11:13:33+00:00",
+"last": "2026-11-14T11:13:33+00:00",
+"updated": "2026-11-14T11:14:25.280731+00:00",
+"headline": "[APBC 현장 속보]한국 박재현 솔로포 등 3안타 3사구 묶어 3-0 리드",
+"cat": "기타",
+"regions": [],
+"sources": [
+"mhnse.com"
+],
+"updates": [
+{
+"title": "[APBC 현장 속보]한국 박재현 솔로포 등 3안타 3사구 묶어 3-0 리드",
+"source": "mhnse.com",
+"link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBCNEZvNUNSN3pZV0Ftd2dJRWI4bDEyM3poNGpSNkxvdkFLUDlmMTYyNnZBSlBSRG1KTGczdENEd1ZtWVQxYy1DdWFkeFE1WG0yVFAxVmJIYnJ5U0lEV3hwSWRFUQ?oc=5",
+"time": "2026-11-14T11:13:33+00:00",
+"stage": "1보"
+}
+],
+"level": "ALERT",
+"latest": "[APBC 현장 속보]한국 박재현 솔로포 등 3안타 3사구 묶어 3-0 리드",
+"tok": [
+"3사구",
+"3안타",
+"APBC",
+"리드",
+"묶어",
+"박재현",
+"솔로포",
+"한국",
+"현장"
+]
+},
 {
 "id": "1eGd2ZzhLaDJibVRsU3dRoc51100",
 "first": "2026-11-14T11:00:48+00:00",
@@ -4222,7 +4256,7 @@
 "spike": false
 },
 "화재": {
-"n30": 0,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
@@ -4267,7 +4301,7 @@
 "spike": false
 },
 "사고": {
-"n30": 2,
+"n30": 4,
 "base": 1.9,
 "spike": false
 },
@@ -4298,6 +4332,36 @@
 }
 },
 "posts": [
+{
+"text": "서울역에 화재 경보 울리길래 환승하려던 중에 바로 보이는 개찰구로 나가서 역출구 근처까지 간 다음에 상황지켜봄... 방송 듣고 다시 드루감. 오작동 결말이긴 했는데.. 우리나라 안전불감증 진짜 심각해.. ㅋㅋㅋ 승강장가보니 사람이 그득그득이건만 경보듣고 그 어느 사람도 올라오는 이가 없었음... 개찰구 밖 사람들만 안들어오고 상황본(외국인)...",
+"handle": "inre.bsky.social",
+"name": "Reri",
+"time": "2026-11-14T11:13:39.141Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/inre.bsky.social/post/3n2beliuzns2m",
+"term": "화재"
+},
+{
+"text": "No AI Slop 선언문 | GeekNews\n\nnews.hada.io/topic?id=37128\n\n- 'No AI Slop 선언문'은 생산 비용은 0에 수렴하고 소비자의 검토, 이해 비용만 폭증하는 저질 결과물(슬롭)의 확산을 막기 위해 AI 시대의 인간 역할을 재정의한 원칙\n\n- 속도, 산출물, 모델의 초안보다 이해, 실질적 가치, 인간의 사고를 우선하며, AI를 활용하더라도 의도와 품질",
+"handle": "lunamothryu.bsky.social",
+"name": "lunamoth",
+"time": "2026-11-14T11:11:48.842Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/lunamothryu.bsky.social/post/3n2bei6lmwl25",
+"term": "사고"
+},
+{
+"text": "다른 품목은 있지만 제일 사고 싶었던 품목이 품절돼서 주문해도 의미가 없어졌다\n있는 크런치슬라임이나 잘 갖고 놀기로 함",
+"handle": "seodiko.bsky.social",
+"name": "【수3b】 🕯서딕호🕯",
+"time": "2026-11-14T11:11:46.640Z",
+"likes": 1,
+"reposts": 0,
+"url": "https://bsky.app/profile/seodiko.bsky.social/post/3n2bei6g46c2n",
+"term": "사고"
+},
 {
 "text": "저 예전에 다니던 교회 목사님 쫒겨나신 이유가 동성애자도 믿음을 가질 자격이 있다 라고 이야기하셔서인데 그나마 정상적인 사고 할 줄 아는 사람들 애진작에 다 내쫒아버려서 저런 결과가 나오는 건가 싶어요",
 "handle": "del-nyem.bsky.social",
@@ -4333,7 +4397,7 @@
 "name": "lunamoth",
 "time": "2026-11-14T10:48:09.551Z",
 "likes": 1,
-"reposts": 3,
+"reposts": 4,
 "url": "https://bsky.app/profile/lunamoth.bsky.social/post/3n2bd5uabkk23",
 "term": "사고"
 },
@@ -4531,17 +4595,17 @@
 "spikes": [],
 "baseline": {
 "지진": 0.05,
-"화재": 0.05,
+"화재": 0.15,
 "불났": 0.05,
 "정전": 0.05,
 "폭발": 0.05,
-"붕괴": 0.3,
+"붕괴": 0.27,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.71,
-"지하철": 0.77,
-"사고": 1.92,
-"실종": 0.71,
+"속보": 0.74,
+"지하철": 0.69,
+"사고": 2.13,
+"실종": 0.74,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -4743,6 +4807,24 @@
 },
 "trends": [
 {
+"term": "유영우",
+"traffic": "100+",
+"time": "2026-11-14T10:10:00+00:00",
+"news": [
+{
+"title": "리센느 미나미, 곽범·이선민 사이에 끼어 ‘고통’…무슨 일?",
+"source": "스포츠동아",
+"link": "https://sports.donga.com/ent/article/all/20261114/135023881/1"
+},
+{
+"title": "'놀뭐?' 유영우, 이소라→거미도 놀란 당찬 무대…유재석 \"깡 대단해\"",
+"source": "iMBC 연예",
+"link": "https://enews.imbc.com/News/RetrieveNewsInfo/524718"
+}
+],
+"new": true
+},
+{
 "term": "japan vs brazil",
 "traffic": "1000+",
 "time": "2026-11-14T10:00:00+00:00",
@@ -4892,24 +4974,6 @@
 }
 ],
 "new": false
-},
-{
-"term": "구조조정",
-"traffic": "100+",
-"time": "2026-11-14T09:10:00+00:00",
-"news": [
-{
-"title": "\"거품은 이미 꺼지기 시작했다\"…이 종목들 구조조정",
-"source": "한국경제",
-"link": "https://www.hankyung.com/article/202611135205i"
-},
-{
-"title": "\"단기 반등 나와도 추세 상승 아냐, 1년 박스권\"…김영익 교수의 전망",
-"source": "뉴시스",
-"link": "https://www.newsis.com/view/NISX20261112_0003865316"
-}
-],
-"new": true
 }
 ],
 "trendSeen": [
