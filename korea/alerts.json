@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-14T15:12:32.321644+00:00",
+"updated": "2026-11-14T15:14:49.007377+00:00",
 "errors": [],
 "events": [
 {
@@ -2859,7 +2859,7 @@
 "terms": {
 "지진": {
 "n30": 2,
-"base": 0.1,
+"base": 0.2,
 "spike": false
 },
 "화재": {
@@ -2884,7 +2884,7 @@
 },
 "붕괴": {
 "n30": 7,
-"base": 1.1,
+"base": 1.2,
 "spike": true
 },
 "대피": {
@@ -2909,7 +2909,7 @@
 },
 "사고": {
 "n30": 3,
-"base": 3.8,
+"base": 3.7,
 "spike": false
 },
 "실종": {
@@ -3213,35 +3213,35 @@
 "n30": 6,
 "base": 0.5,
 "spike": true,
-"since": "2026-11-14T15:12:32.321644+00:00"
+"since": "2026-11-14T15:14:49.007377+00:00"
 },
 {
 "term": "붕괴",
 "n30": 7,
-"base": 1.1,
+"base": 1.2,
 "spike": true,
-"since": "2026-11-14T15:12:32.321644+00:00"
+"since": "2026-11-14T15:14:49.007377+00:00"
 },
 {
 "term": "속보",
 "n30": 5,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-14T15:12:32.321644+00:00"
+"since": "2026-11-14T15:14:49.007377+00:00"
 }
 ],
 "baseline": {
-"지진": 0.24,
+"지진": 0.32,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.45,
-"붕괴": 1.23,
+"폭발": 0.41,
+"붕괴": 1.31,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
 "지하철": 0.05,
-"사고": 3.7,
+"사고": 3.63,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -3467,14 +3467,14 @@
 "time": "2026-11-14T13:40:00+00:00",
 "news": [
 {
-"title": "환희의 신발 사랑! 신발에 집착한 사연은?! | KBS 261114 방송",
-"source": "대한민국 대표 공영미디어 KBS",
-"link": "https://www.kbs.co.kr/index.html?source=smr&sname=vod&stype=vod&contents_id=K02_PS-2026192877-01-000_MFSC1&program_code=T2016-0651&program_id=PS-2026192877-01-000&section_code=04&broadcast_complete_yn=N&section_id=10737"
+"title": "'박서진 동생' 박효정, '연하' 보디빌더 품에 쏙 안겼다…전완근 보며 미소('살림남')",
+"source": "조선일보",
+"link": "https://www.chosun.com/entertainments/broadcast/2026/11/13/MIYGGMJZGBQWKMTDGZTDKZDBMI/"
 },
 {
-"title": "은지원, MC가 출연자 방송 조작설 의심..\"일부러 저러는 거 아니냐\" 의문 제기 ('살림남2')",
-"source": "조선일보",
-"link": "https://www.chosun.com/entertainments/broadcast/2026/11/14/HE2DAZBWGNQWMMJSGIYDMMRWHE/"
+"title": "‘슈스’ 박서진, 팬클럽 2700명 체육대회…“팬카페 회원수 임영웅 다음” (살림남)",
+"source": "스포츠경향",
+"link": "https://sports.khan.co.kr/article/202611130819003"
 }
 ],
 "new": false
@@ -3499,7 +3499,7 @@
 },
 {
 "term": "데블스 플랜",
-"traffic": "200+",
+"traffic": "500+",
 "time": "2026-11-14T12:40:00+00:00",
 "news": [],
 "new": true
@@ -3523,24 +3523,6 @@
 "new": true
 },
 {
-"term": "맥도날드 세종dt점",
-"traffic": "500+",
-"time": "2026-11-14T12:20:00+00:00",
-"news": [
-{
-"title": "새벽 2시부터 줄 섰다…‘인구 40만’ 세종시 첫 맥도날드, 오픈런에 경찰까지 출동",
-"source": "세계일보",
-"link": "https://www.segye.com/newsView/20261114502699"
-},
-{
-"title": "\"맥도날드 먹으러 원정까지\"…인구 40만 도시에 무슨 일이",
-"source": "한국경제",
-"link": "https://www.hankyung.com/article/2026111359347"
-}
-],
-"new": true
-},
-{
 "term": "갈비뼈",
 "traffic": "500+",
 "time": "2026-11-14T12:20:00+00:00",
@@ -3554,6 +3536,24 @@
 "title": "호리병 몸매가 뭐라고…멀쩡한 갈비뼈 6개 부러뜨린 30대女",
 "source": "미주중앙일보",
 "link": "https://www.koreadaily.com/article/20261113203409480"
+}
+],
+"new": true
+},
+{
+"term": "맥도날드 세종dt점",
+"traffic": "500+",
+"time": "2026-11-14T12:20:00+00:00",
+"news": [
+{
+"title": "새벽 2시부터 줄 섰다…‘인구 40만’ 세종시 첫 맥도날드, 오픈런에 경찰까지 출동",
+"source": "세계일보",
+"link": "https://www.segye.com/newsView/20261114502699"
+},
+{
+"title": "\"맥도날드 먹으러 원정까지\"…인구 40만 도시에 무슨 일이",
+"source": "한국경제",
+"link": "https://www.hankyung.com/article/2026111359347"
 }
 ],
 "new": true
@@ -3598,18 +3598,7 @@
 "term": "nhật bản đấu với brasil",
 "traffic": "100+",
 "time": "2026-11-14T11:30:00+00:00",
-"news": [
-{
-"title": "Stars set Singapore alight as Japan exact revenge on Brazil with dramatic late win",
-"source": "ESPN",
-"link": "https://www.espn.com/soccer/story/_/id/50479233/japan-revenge-brazil-dramatic-late-win"
-},
-{
-"title": "Raphinha sees red as Brazil stunned by Japan while Argentina’s post-Messi era starts with defeat",
-"source": "The Guardian",
-"link": "https://www.theguardian.com/football/2026/nov/14/brazil-argentina-japan-uruguay-wales-norway-portugal-denmark"
-}
-],
+"news": [],
 "new": true
 },
 {
