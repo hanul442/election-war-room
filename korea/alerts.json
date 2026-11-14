@@ -1,7 +1,55 @@
 {
-"updated": "2026-11-14T04:34:17.958389+00:00",
+"updated": "2026-11-14T04:36:34.057412+00:00",
 "errors": [],
 "events": [
+{
+"id": "E4JHT3SZHPFA4JKWAFQJXGFM0111",
+"first": "2026-11-14T01:11:06+00:00",
+"last": "2026-11-14T04:31:32+00:00",
+"updated": "2026-11-14T04:36:34.057412+00:00",
+"headline": "인하대 이승만 동상 복원, 온라인 서명 사흘 만에 1만2000명 넘어",
+"cat": "기타",
+"regions": [
+"인천"
+],
+"sources": [
+"연합뉴스",
+"조선일보"
+],
+"updates": [
+{
+"title": "[단독] 인하대 이승만 동상 복원, 온라인 서명 사흘 만에 1만2000명 넘어",
+"source": "조선일보",
+"link": "https://www.chosun.com/national/education/2026/11/14/BTE4JHT3SZHPFA4JKWAFQJXGFM/",
+"time": "2026-11-14T01:11:06+00:00",
+"stage": "단독"
+},
+{
+"title": "'이승만 동상 복원 논란' 인하대 찬반집회…충돌 없어",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261114032900065",
+"time": "2026-11-14T04:31:32+00:00",
+"stage": "후속"
+}
+],
+"level": "URGENT",
+"latest": "'이승만 동상 복원 논란' 인하대 찬반집회…충돌 없어",
+"tok": [
+"1만2000명",
+"넘어",
+"동상",
+"만에",
+"복원",
+"사흘",
+"서명",
+"없어",
+"온라인",
+"이승",
+"인하대",
+"찬반집회",
+"충돌"
+]
+},
 {
 "id": "XBvV3BGMXRNN05IZnI0MAoc50308",
 "first": "2026-11-14T03:08:06+00:00",
@@ -2186,41 +2234,6 @@
 ]
 },
 {
-"id": "E4JHT3SZHPFA4JKWAFQJXGFM0111",
-"first": "2026-11-14T01:11:06+00:00",
-"last": "2026-11-14T01:11:06+00:00",
-"updated": "2026-11-14T01:19:11.371964+00:00",
-"headline": "인하대 이승만 동상 복원, 온라인 서명 사흘 만에 1만2000명 넘어",
-"cat": "기타",
-"regions": [],
-"sources": [
-"조선일보"
-],
-"updates": [
-{
-"title": "[단독] 인하대 이승만 동상 복원, 온라인 서명 사흘 만에 1만2000명 넘어",
-"source": "조선일보",
-"link": "https://www.chosun.com/national/education/2026/11/14/BTE4JHT3SZHPFA4JKWAFQJXGFM/",
-"time": "2026-11-14T01:11:06+00:00",
-"stage": "단독"
-}
-],
-"level": "URGENT",
-"latest": "인하대 이승만 동상 복원, 온라인 서명 사흘 만에 1만2000명 넘어",
-"tok": [
-"1만2000명",
-"넘어",
-"동상",
-"만에",
-"복원",
-"사흘",
-"서명",
-"온라인",
-"이승",
-"인하대"
-]
-},
-{
 "id": "5SHYybEw0UXJ0ZmNiNXZ3oc50106",
 "first": "2026-11-14T01:06:00+00:00",
 "last": "2026-11-14T01:06:00+00:00",
@@ -3570,8 +3583,49 @@
 }
 ],
 "sns": {
-"terms": {},
+"terms": {
+"지진": {
+"n30": 0,
+"base": 0.1,
+"spike": false
+},
+"불났": {
+"n30": 0,
+"base": 0.1,
+"spike": false
+},
+"사고": {
+"n30": 2,
+"base": 2.5,
+"spike": false
+},
+"단수": {
+"n30": 0,
+"base": 0.1,
+"spike": false
+}
+},
 "posts": [
+{
+"text": "고경표, 음주운전 사고에 연루\n\n#ko-kyung-pyo",
+"handle": "mworago-ko.bsky.social",
+"name": "Mworago",
+"time": "2026-11-14T04:20:11.349Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/mworago-ko.bsky.social/post/3n2ani6pz4s2o",
+"term": "사고"
+},
+{
+"text": "노트북 사고 빚쟁이가 됐지만\n후회는 없다.........................\n행복하면 된 거제...................",
+"handle": "sfbd553.bsky.social",
+"name": "정인",
+"time": "2026-11-14T04:12:56.045Z",
+"likes": 4,
+"reposts": 0,
+"url": "https://bsky.app/profile/sfbd553.bsky.social/post/3n2an367xhk2e",
+"term": "사고"
+},
 {
 "platform": "YouTube",
 "text": "속보) 속보!! 속보!! 속보!!이재명 대참사 터졌다!!민주당 난리났다!!발칵 뒤집어졌다!!",
@@ -3747,7 +3801,7 @@
 "미사일": 0.05,
 "속보": 0.74,
 "지하철": 0.47,
-"사고": 2.51,
+"사고": 2.46,
 "실종": 0.54,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -3755,9 +3809,7 @@
 "산불": 1.39
 },
 "errors": [
-"지진: HTTPError",
 "화재: HTTPError",
-"불났: HTTPError",
 "정전: HTTPError",
 "폭발: HTTPError",
 "붕괴: HTTPError",
@@ -3765,9 +3817,7 @@
 "미사일: HTTPError",
 "속보: HTTPError",
 "지하철: HTTPError",
-"사고: HTTPError",
 "실종: HTTPError",
-"단수: HTTPError",
 "통신 장애: HTTPError",
 "먹통: HTTPError",
 "산불: HTTPError"
@@ -3943,44 +3993,37 @@
 "term": "잠실 더 라스트 이닝",
 "traffic": "100+",
 "time": "2026-11-14T03:20:00+00:00",
-"news": [],
+"news": [
+{
+"title": "아듀 잠실!…박철순, 이승엽, 이대호 등 전설 총출동",
+"source": "KBS 뉴스",
+"link": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8712595"
+},
+{
+"title": "[포토]'손자와 함께 야구팬들 만나는' 헐크 이만수 - 머니투데이",
+"source": "머니투데이",
+"link": "https://www.mt.co.kr/sports/2026/11/14/2026111413094624902"
+}
+],
 "new": true
 },
 {
 "term": "한화 이글스",
-"traffic": "2000+",
+"traffic": "1000+",
 "time": "2026-11-14T03:10:00+00:00",
 "news": [
+{
+"title": "'한화 MVP 출신' 폰세가 돌아옵니다! 장기 부상 복귀인데, 곧바로 토론토 선발 자리 꿰찬다?…\"마일스와 한 조로 묶어 활용\"",
+"source": "스포츠조선",
+"link": "https://www.sportschosun.com/baseball/2026-11-14/202611140100093490008780"
+},
 {
 "title": "'744억' 쓰고 떠난 손혁 단장, '큰 손' 한화 FA 중견수 사올까…김호령 최지훈 홍창기 배정대 등 매물은 많다",
 "source": "조선일보",
 "link": "https://www.chosun.com/sports/baseball/2026/11/14/GYYDMMTBMQ2TOYRYMFTGEOJZG4/"
-},
-{
-"title": "KBO FA 시장 개장! 원태인·구자욱·양의지 등 28명 자격 공시",
-"source": "KBS 뉴스",
-"link": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8712285"
 }
 ],
 "new": false
-},
-{
-"term": "mma",
-"traffic": "100+",
-"time": "2026-11-14T03:10:00+00:00",
-"news": [
-{
-"title": "UFC books Yadier del Valle vs. Ezra Elliott",
-"source": "Yahoo Sports",
-"link": "https://sports.yahoo.com/articles/ufc-books-yadier-del-valle-031524738.html"
-},
-{
-"title": "Yadier del Valle Reportedly Meets Ezra Elliott At UFC Vegas 125",
-"source": "MiddleEasy",
-"link": "https://middleeasy.com/mma-news/yadier-del-valle-ezra-elliott-ufc-vegas125/"
-}
-],
-"new": true
 },
 {
 "term": "이륙",
@@ -4107,6 +4150,24 @@
 }
 ],
 "new": false
+},
+{
+"term": "이루",
+"traffic": "100+",
+"time": "2026-11-14T02:30:00+00:00",
+"news": [
+{
+"title": "'태진아 아들' 이루, 독감 격리 중에도 치매 '옥경이' 모친 간호 - 머니투데이",
+"source": "머니투데이",
+"link": "https://www.mt.co.kr/entertainment/2026/11/12/2026111208111987334"
+},
+{
+"title": "“서럽고 우울”…‘음주운전 자숙’ 이루, 수액 맞으며 격리 생활 왜?",
+"source": "매일경제",
+"link": "https://www.mk.co.kr/news/culture/12206267"
+}
+],
+"new": true
 }
 ],
 "trendSeen": [
