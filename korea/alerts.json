@@ -1,19 +1,21 @@
 {
-"updated": "2026-11-14T01:21:28.496678+00:00",
+"updated": "2026-11-14T01:23:45.045634+00:00",
 "errors": [],
 "events": [
 {
 "id": "FUSURBU251LVF5c25zX2soc50029",
 "first": "2026-11-14T00:29:28+00:00",
-"last": "2026-11-14T01:19:33+00:00",
-"updated": "2026-11-14T01:21:28.496678+00:00",
+"last": "2026-11-14T01:20:43+00:00",
+"updated": "2026-11-14T01:23:45.045634+00:00",
 "headline": "'보검매직컬2' 고경표, 음주운전",
 "cat": "기타",
 "regions": [],
 "sources": [
+"SBS",
 "www.dt.co.kr",
 "뉴시스",
 "마이데일리",
+"매일경제",
 "스타뉴스",
 "스포츠경향",
 "연합뉴스",
@@ -77,17 +79,32 @@
 "stage": "후속"
 },
 {
+"title": "[속보] 고경표, 새벽 3시 반 청소차 들이받아…음주측정 ‘면허취소 수준’",
+"source": "매일경제",
+"link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9haFc2aGhMMk82Mkg3QVdvaUlFc2Vadl9VMzNkMWtIMUs3UzR1NEQ0MUNMQnZPdGt6M3VETGU0OUhvU2tXZ1NOdElqTDZjZw?oc=5",
+"time": "2026-11-14T01:15:44+00:00",
+"stage": "속보"
+},
+{
 "title": "배우 고경표, 만취 상태로 청소차 들이받아…면허취소 수준",
 "source": "뉴시스",
 "link": "https://www.newsis.com/view/NISX20261114_0003868025",
 "time": "2026-11-14T01:19:33+00:00",
 "stage": "후속"
+},
+{
+"title": "배우 고경표 만취 음주운전 사고…면허 취소 수준",
+"source": "SBS",
+"link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008845799&plink=RSSLINK&cooper=RSSREADER",
+"time": "2026-11-14T01:20:43+00:00",
+"stage": "후속"
 }
 ],
 "level": "URGENT",
-"latest": "배우 고경표, 만취 상태로 청소차 들이받아…면허취소 수준",
+"latest": "배우 고경표 만취 음주운전 사고…면허 취소 수준",
 "tok": [
 "14일",
+"3시",
 "고경표",
 "교통사고",
 "들이받아",
@@ -98,8 +115,10 @@
 "보검매직컬2",
 "사고",
 "상태",
+"새벽",
 "수준",
 "음주운전",
+"음주측정",
 "입건",
 "적발",
 "청소차",
@@ -2398,7 +2417,7 @@
 "terms": {
 "지진": {
 "n30": 0,
-"base": 0.2,
+"base": 0.1,
 "spike": false
 },
 "화재": {
@@ -2443,11 +2462,11 @@
 },
 "지하철": {
 "n30": 1,
-"base": 0.5,
+"base": 0.6,
 "spike": false
 },
 "사고": {
-"n30": 1,
+"n30": 0,
 "base": 0.7,
 "spike": false
 },
@@ -2467,7 +2486,7 @@
 "spike": false
 },
 "먹통": {
-"n30": 1,
+"n30": 0,
 "base": 0.7,
 "spike": false
 },
@@ -2525,26 +2544,6 @@
 "time": "2026-11-14T00:54:31Z",
 "term": "폭발",
 "url": "https://www.youtube.com/watch?v=-t-UdZLPtDo"
-},
-{
-"text": "고경표 음주운전 혈중알코올농도 0.08% 이상 면허취소 수준 충격 사고\n\n배우 고경표가 오전 3시 30분 서울 마포구에서 만취 상태로 청소차를 들이받는 음주운전 사고를 냈습니다. 혈중알코올농도가 면허 취소 기준인 0.08% 이상으로 확인됐으며, 출연 예정작 편성에도 비상이 걸렸습니다.\n\nm.blog.naver.com/hampi2/22447...",
-"handle": "hampi2.bsky.social",
-"name": "hampi2.bsky.social",
-"time": "2026-11-14T00:53:13.176Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/hampi2.bsky.social/post/3n2abvzq73s26",
-"term": "사고"
-},
-{
-"text": "하지만 장시간 먹통은 아니라구욧",
-"handle": "eggry.bsky.social",
-"name": "eggry",
-"time": "2026-11-14T00:51:34.176Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/eggry.bsky.social/post/3n2abt4wzgc2q",
-"term": "먹통"
 },
 {
 "platform": "YouTube",
@@ -2720,21 +2719,21 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 0.14,
+"지진": 0.13,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.7,
-"붕괴": 0.6,
+"폭발": 0.73,
+"붕괴": 0.64,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.58,
-"사고": 0.72,
+"지하철": 0.62,
+"사고": 0.65,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
-"먹통": 0.71,
+"먹통": 0.64,
 "산불": 0.05
 },
 "errors": [],
@@ -2933,6 +2932,42 @@
 },
 "trends": [
 {
+"term": "대탈출",
+"traffic": "200+",
+"time": "2026-11-14T00:20:00+00:00",
+"news": [
+{
+"title": "‘대탈출 : 도시괴담’ 얼마나 리얼했으면 “비명에 목소리 쉴 정도”",
+"source": "스포츠동아",
+"link": "https://sports.donga.com/ent/article/all/20261112/135012391/1"
+},
+{
+"title": "'대탈출' 강호동 빠지고 김종민·신동 수혈…다시 가능성 증명할 때 [N이슈]",
+"source": "뉴스1",
+"link": "https://www.news1.kr/entertain/broadcast-tv/6351431"
+}
+],
+"new": true
+},
+{
+"term": "argentina đấu với uruguay",
+"traffic": "100+",
+"time": "2026-11-14T00:20:00+00:00",
+"news": [
+{
+"title": "Nhận định bóng đá Argentina vs Uruguay, 06h00 ngày 14/11: Nhẹ nhàng điệu Tango",
+"source": "Tạp chí Bóng đá",
+"link": "https://bongdaplus.vn/giao-huu-bong-da/nhan-dinh-bong-da-argentina-vs-uruguay-06h00-ngay-14-11-nhe-nhang-dieu-tango-5287432611.html"
+},
+{
+"title": "Mac Allister: 'Sẽ không còn ai giống Messi'",
+"source": "VnExpress",
+"link": "https://vnexpress.net/mac-allister-se-khong-con-ai-giong-messi-5143428.html"
+}
+],
+"new": true
+},
+{
 "term": "고경표",
 "traffic": "2000+",
 "time": "2026-11-14T00:10:00+00:00",
@@ -3075,42 +3110,6 @@
 }
 ],
 "new": true
-},
-{
-"term": "방탄소년단",
-"traffic": "100+",
-"time": "2026-11-13T23:20:00+00:00",
-"news": [
-{
-"title": "175억 펜트하우스 산 BTS 진…또 대출없이 '96억' 빌딩 매입 - 머니투데이",
-"source": "머니투데이",
-"link": "https://www.mt.co.kr/society/2026/11/13/2026111309162236042"
-},
-{
-"title": "[단독] BTS 진, 구미현 전 아워홈 회장 일가 한남동 빌딩 96억에 매입",
-"source": "비즈한국",
-"link": "https://bizhankook.com/articles/bts-jin-buys-building-9-6-billion-won.html"
-}
-],
-"new": true
-},
-{
-"term": "한국교원단체총연합회",
-"traffic": "500+",
-"time": "2026-11-13T23:10:00+00:00",
-"news": [
-{
-"title": "[오늘을 생각한다] 이게 법이냐?",
-"source": "주간경향",
-"link": "https://weekly.khan.co.kr/article/202611140600061"
-},
-{
-"title": "조희주 참교육동지회 회장 \"교사의 정당 가입서 안 받아주면 우리가 정당 만들자\"",
-"source": "OhmyNews",
-"link": "https://www.ohmynews.com/NWS_Web/View/mov_pg.aspx?CNTN_CD=ME000116633"
-}
-],
-"new": false
 }
 ],
 "trendSeen": [
