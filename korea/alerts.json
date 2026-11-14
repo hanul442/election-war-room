@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-14T06:17:48.303644+00:00",
+"updated": "2026-11-14T06:20:03.803580+00:00",
 "errors": [],
 "events": [
 {
@@ -109,7 +109,7 @@
 "id": "Th0STAxUXhDRTZGbDUyTQoc50510",
 "first": "2026-11-14T05:10:21+00:00",
 "last": "2026-11-14T06:06:33+00:00",
-"updated": "2026-11-14T06:15:34.743290+00:00",
+"updated": "2026-11-14T06:20:03.803580+00:00",
 "headline": "주민 대피 도운 70대 경비원, 혼수상태 3일째 끝내 숨져… 아파트 불낸 40대男 구속영장",
 "cat": "경제",
 "regions": [
@@ -117,6 +117,7 @@
 "전남"
 ],
 "sources": [
+"KBC광주방송",
 "강원일보",
 "뉴시스",
 "서울신문",
@@ -153,6 +154,13 @@
 "stage": "얼럿"
 },
 {
+"title": "주민 살리려 불길 속으로…70대 경비원 끝내 숨져",
+"source": "KBC광주방송",
+"link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE4wSDhzM2NnTXBpT3l6b3lfelZrRmxNLU1GN0NYUVZoMU9pbHhzcURlRGw0c2VlU1UzVWdMXy1ITkNjaVJ3VEVnUG9hUHVCemY2QTRYQ05vOXoyOFlZaTd4YWtR?oc=5",
+"time": "2026-11-14T05:40:01+00:00",
+"stage": "후속"
+},
+{
 "title": "[속보] 광주 아파트 방화 현장서 주민 대피 돕던 70대 경비원 끝내 숨져",
 "source": "강원일보",
 "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5jWU42Tm9NTnQ0RHF1RDBEcU45by1EMDRxczVEQ3JuWWhteVRDcU8tdk9KSlhJcmVzc3dnNmNHNWw1azVyX3NzRzA2S1F0WThDLVdONzEzLXlmYm8?oc=5",
@@ -177,8 +185,11 @@
 "돕던",
 "방화",
 "병원",
+"불길",
 "불낸",
 "빠진",
+"살리려",
+"속으",
 "숨져",
 "쓰러진",
 "아파트",
@@ -3442,13 +3453,13 @@
 "spike": true
 },
 "지하철": {
-"n30": 6,
+"n30": 5,
 "base": 1.4,
 "spike": true
 },
 "사고": {
-"n30": 1,
-"base": 3.0,
+"n30": 0,
+"base": 2.8,
 "spike": false
 },
 "실종": {
@@ -3458,7 +3469,7 @@
 },
 "단수": {
 "n30": 0,
-"base": 0.7,
+"base": 0.6,
 "spike": false
 },
 "통신 장애": {
@@ -3658,26 +3669,6 @@
 "reposts": 0,
 "url": "https://bsky.app/profile/lepre.bsky.social/post/3n2assfqnkk24",
 "term": "지하철"
-},
-{
-"text": "회사 생활하며 존경 받던 사람이 권력 잡고 조직을 수렁에 빠뜨리는 걸 몇번 봤는데, 내부를 잘 알고 보면, 그 사람 처음부터 그랬는데 주변사람들의 힘으로 그게 드러나지 않았던 거고, 자기에게 힘이 생기고 자기를 귀찮게 하는 주변 사람들 쳐내고 나서 사고를 본격적으로 치기 시작하는 겁니다",
-"handle": "andromedarabbit.net",
-"name": "andromedarabbit.net",
-"time": "2026-11-14T05:49:11.848Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/andromedarabbit.net/post/3n2ashe22ak2q",
-"term": "사고"
-},
-{
-"text": "내 발바닥을 위해 슬리퍼 샀는데 지금 쓰고싶다..(*지하철임)",
-"handle": "lepre.bsky.social",
-"name": "레프레",
-"time": "2026-11-14T05:49:00.242Z",
-"likes": 1,
-"reposts": 0,
-"url": "https://bsky.app/profile/lepre.bsky.social/post/3n2asgy3lxk24",
-"term": "지하철"
 }
 ],
 "spikes": [
@@ -3686,21 +3677,21 @@
 "n30": 7,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-14T06:17:48.303644+00:00"
+"since": "2026-11-14T06:20:03.803580+00:00"
 },
 {
 "term": "속보",
 "n30": 5,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-14T06:17:48.303644+00:00"
+"since": "2026-11-14T06:20:03.803580+00:00"
 },
 {
 "term": "지하철",
-"n30": 6,
+"n30": 5,
 "base": 1.4,
 "spike": true,
-"since": "2026-11-14T06:17:48.303644+00:00"
+"since": "2026-11-14T06:20:03.803580+00:00"
 }
 ],
 "baseline": {
@@ -3711,12 +3702,12 @@
 "폭발": 0.05,
 "붕괴": 0.05,
 "대피": 0.05,
-"미사일": 0.12,
+"미사일": 0.11,
 "속보": 0.05,
-"지하철": 1.42,
-"사고": 2.8,
-"실종": 0.38,
-"단수": 0.62,
+"지하철": 1.38,
+"사고": 2.52,
+"실종": 0.34,
+"단수": 0.56,
 "통신 장애": 0.05,
 "먹통": 0.05,
 "산불": 0.05
