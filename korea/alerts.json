@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-14T21:32:55.642586+00:00",
+"updated": "2026-11-14T21:35:12.556325+00:00",
 "errors": [],
 "events": [
 {
@@ -275,8 +275,8 @@
 "sns": {
 "terms": {
 "지진": {
-"n30": 3,
-"base": 0.4,
+"n30": 1,
+"base": 0.5,
 "spike": false
 },
 "화재": {
@@ -296,7 +296,7 @@
 },
 "폭발": {
 "n30": 5,
-"base": 0.3,
+"base": 0.2,
 "spike": true
 },
 "붕괴": {
@@ -315,13 +315,13 @@
 "spike": false
 },
 "속보": {
-"n30": 7,
+"n30": 6,
 "base": 0.1,
 "spike": true
 },
 "지하철": {
 "n30": 1,
-"base": 1.2,
+"base": 1.1,
 "spike": false
 },
 "사고": {
@@ -598,30 +598,30 @@
 {
 "term": "폭발",
 "n30": 5,
-"base": 0.3,
+"base": 0.2,
 "spike": true,
-"since": "2026-11-14T21:32:55.642586+00:00"
+"since": "2026-11-14T21:35:12.556325+00:00"
 },
 {
 "term": "속보",
-"n30": 7,
+"n30": 6,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-14T21:32:55.642586+00:00"
+"since": "2026-11-14T21:35:12.556325+00:00"
 }
 ],
 "baseline": {
-"지진": 0.45,
-"화재": 0.15,
+"지진": 0.51,
+"화재": 0.24,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.24,
+"폭발": 0.22,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 1.09,
-"사고": 0.74,
+"지하철": 0.98,
+"사고": 0.77,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -842,6 +842,42 @@
 },
 "trends": [
 {
+"term": "김하성",
+"traffic": "200+",
+"time": "2026-11-14T20:30:00+00:00",
+"news": [
+{
+"title": "\"2000만 달러 받고 타율 .116 충격\" 김하성, 몸값 폭락이 오히려 기회? 美 매체 \"최고의 알짜 영입 될 수도\"",
+"source": "조선일보",
+"link": "https://www.chosun.com/sports/world-baseball/2026/11/14/GI3TEOJTGIZGKOBZMY4GIOBVG4/"
+},
+{
+"title": "초대형 희소식! 김하성, 난생처음 인기팀 관심! → 키움 컴백 이유 사라졌다",
+"source": "스포츠조선",
+"link": "https://www.sportschosun.com/baseball/2026-11-14/202611140100094330008858"
+}
+],
+"new": true
+},
+{
+"term": "미라 안드레예바",
+"traffic": "200+",
+"time": "2026-11-14T20:30:00+00:00",
+"news": [
+{
+"title": "무려 '735억' 잭팟→\"돈 더 달라\"→'파격 시스루 논란' 세계 1위 허무한 굴욕... '또' 분노 조절 실패 '도대체 왜' - 머니투데이",
+"source": "머니투데이",
+"link": "https://www.mt.co.kr/sports/2026/11/15/2026111416335893727"
+},
+{
+"title": "사발렌카 꺾고 기뻐하는 안드레예바",
+"source": "뉴시스",
+"link": "https://mobile.newsis.com/photo/NISI20261112_0002290552"
+}
+],
+"new": true
+},
+{
 "term": "아버지",
 "traffic": "100+",
 "time": "2026-11-14T20:00:00+00:00",
@@ -915,7 +951,7 @@
 },
 {
 "term": "포르투갈 대 덴마크",
-"traffic": "1000+",
+"traffic": "2000+",
 "time": "2026-11-14T19:00:00+00:00",
 "news": [
 {
@@ -981,42 +1017,6 @@
 "title": "한·아프리카재단, ‘2026 글로벌 액셀러레이팅 in Africa’ 기후테크 성과공유회 개최",
 "source": "와우테일",
 "link": "https://wowtale.net/2026/11/14/268054/"
-}
-],
-"new": true
-},
-{
-"term": "twitch",
-"traffic": "200+",
-"time": "2026-11-14T18:50:00+00:00",
-"news": [
-{
-"title": "Free copies of Grand Theft Auto VI for Californians? What to know about Kick sweepstakes",
-"source": "KTLA",
-"link": "https://ktla.com/entertainment/free-copies-of-grand-theft-auto-vi-for-californians-what-to-know-about-kick-sweepstakes/"
-},
-{
-"title": "Deal | 10K+ free GTA 6 Ultimate Edition game codes coming in livestream Twitch drops",
-"source": "Notebookcheck",
-"link": "https://www.notebookcheck.net/10K-free-GTA-6-Ultimate-Edition-game-codes-coming-in-livestream-Twitch-drops.1449873.0.html"
-}
-],
-"new": true
-},
-{
-"term": "숲",
-"traffic": "2000+",
-"time": "2026-11-14T18:30:00+00:00",
-"news": [
-{
-"title": "\"궁궐 정원을 그대로 옮겨놨네\"… 한옥 정자와 연못 아름다운 축구장 90개 크기 수목원 명소",
-"source": "발품뉴스",
-"link": "https://www.balpumnews.com/travel/sejong-national-arboretum-4"
-},
-{
-"title": "‘함께해서 좋아’",
-"source": "서울경제",
-"link": "https://www.sedaily.com/article/20114313"
 }
 ],
 "new": true
