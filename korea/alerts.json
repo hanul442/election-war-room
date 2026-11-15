@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-15T12:23:22.573927+00:00",
+"updated": "2026-11-15T12:25:59.508287+00:00",
 "errors": [],
 "events": [
 {
@@ -4313,41 +4313,6 @@
 "프로젝트",
 "플러스"
 ]
-},
-{
-"id": "lVIQnBKanREa2pOampsdwoc50624",
-"first": "2026-11-15T06:24:58+00:00",
-"last": "2026-11-15T06:24:58+00:00",
-"updated": "2026-11-15T06:54:21.199885+00:00",
-"headline": "중앙고속도로 승용차관련 사고청리중",
-"cat": "교통",
-"regions": [],
-"sources": [
-"스페셜타임스"
-],
-"updates": [
-{
-"title": "[속보] 중앙고속도로 승용차관련 사고청리중",
-"source": "스페셜타임스",
-"link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5qeWtvZFR1QjZlMkxFQmJBcWlHTlhnM1BZWExHUElFcUxScHAzTmpxMDg2TTJUZVFDR2huUVNfc1p5aVhEb2YtRkpXTkRRR1FqUXhuLTV4TWN3Nng5TG5zT25qWlVIQnBKanREa2pOampsdw?oc=5",
-"time": "2026-11-15T06:24:58+00:00",
-"stage": "얼럿"
-},
-{
-"title": "[속보] 중앙고속도로 승용차관련 사고청리중",
-"source": "스페셜타임스",
-"link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBsdmxYYW5LZWdtSi1DVHpMZHBHRGliM1F6SXJOUm9lYnNpSDR2a194SkpDekxxMjdhdG5YdDdFY0hLbzBCeEVpYUc0dk9kb2dUUUtRdkJ1Y3QwWk5JTEVIeElTTkpfak9nbmZSdmZ4OHpjNUE?oc=5",
-"time": "2026-11-15T06:24:58+00:00",
-"stage": "속보"
-}
-],
-"level": "URGENT",
-"latest": "중앙고속도로 승용차관련 사고청리중",
-"tok": [
-"사고청리중",
-"승용차관련",
-"중앙고속도"
-]
 }
 ],
 "sns": {
@@ -4374,12 +4339,12 @@
 },
 "폭발": {
 "n30": 2,
-"base": 0.7,
+"base": 0.8,
 "spike": false
 },
 "붕괴": {
-"n30": 1,
-"base": 0.4,
+"n30": 0,
+"base": 0.3,
 "spike": false
 },
 "대피": {
@@ -4403,7 +4368,7 @@
 "spike": false
 },
 "사고": {
-"n30": 1,
+"n30": 2,
 "base": 1.5,
 "spike": false
 },
@@ -4434,6 +4399,16 @@
 }
 },
 "posts": [
+{
+"text": "있는 잉크부터 다 써야 하는데 새 잉크 사고 싶다.......",
+"handle": "alcermis.bsky.social",
+"name": "아람",
+"time": "2026-11-15T12:25:07.444Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/alcermis.bsky.social/post/3n2dz2akxck25",
+"term": "사고"
+},
 {
 "text": "아 황당해 단죠 정식가입 시키면 냅다 폭발부터 하고 시작하네",
 "handle": "yansaekim.bsky.social",
@@ -4583,17 +4558,17 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 0.1,
+"지진": 0.09,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.76,
-"붕괴": 0.34,
+"폭발": 0.78,
+"붕괴": 0.31,
 "대피": 0.05,
-"미사일": 0.19,
+"미사일": 0.17,
 "속보": 0.05,
-"지하철": 0.12,
-"사고": 1.46,
+"지하철": 0.11,
+"사고": 1.51,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -4788,18 +4763,18 @@
 },
 {
 "term": "로봇",
-"traffic": "200+",
+"traffic": "1000+",
 "time": "2026-11-15T10:20:00+00:00",
 "news": [
 {
-"title": "'제21회 국제로봇콘테스트' 성료…올해 첫선 '마트 휴머노이드', 상품 배송·진열·계산 미션 생중계 관람객 호응",
-"source": "전자신문",
-"link": "https://www.etnews.com/20261115000075"
+"title": "스페이스X, 사상 첫 우주선 본체 회수…완전재사용 로켓 예고",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261115010500091"
 },
 {
-"title": "[대구] '국제 로봇 콘테스트' 개최...\"로봇 기술 경쟁\"",
-"source": "YTN",
-"link": "https://www.ytn.co.kr/_ln/0115_202611131451583586"
+"title": "로봇팔이 우주선 잡았다‥사상 최초 로켓 본체 귀환 성공",
+"source": "MBC 뉴스",
+"link": "https://imnews.imbc.com/replay/2026/nwdesk/article/6865816_37004.html"
 }
 ],
 "new": true
@@ -4898,7 +4873,18 @@
 "term": "멜론 뮤직 어워드",
 "traffic": "100+",
 "time": "2026-11-15T09:30:00+00:00",
-"news": [],
+"news": [
+{
+"title": "Lee Young-ae's Elegant Green Dress Captivates at Melon Music Awards",
+"source": "조선일보",
+"link": "https://www.chosun.com/english/kpop-culture-en/2026/11/15/ZEZDRJ4B7FCAXOB3N6SBNYGIE4/"
+},
+{
+"title": "Lee Young-ae stuns in deep green gown at Melon Music Awards",
+"source": "Chosunbiz",
+"link": "https://biz.chosun.com/en/en-entertainment/2026/11/15/TA4TVTF2AFBFNJ3DRIQM3DBOPE/"
+}
+],
 "new": true
 }
 ],
