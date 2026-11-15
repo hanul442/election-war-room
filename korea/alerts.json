@@ -1,12 +1,12 @@
 {
-"updated": "2026-11-15T09:46:58.789359+00:00",
+"updated": "2026-11-15T09:49:10.426739+00:00",
 "errors": [],
 "events": [
 {
 "id": "FVSSEFmb3NiU2dhWEhFQQoc52246",
 "first": "2026-11-14T22:46:52+00:00",
 "last": "2026-11-15T09:40:03+00:00",
-"updated": "2026-11-15T09:42:35.579932+00:00",
+"updated": "2026-11-15T09:49:10.426739+00:00",
 "headline": "경부고속도로 승용차 관련 사고 처리중",
 "cat": "교통",
 "regions": [
@@ -293,6 +293,13 @@
 "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE03ZDluUC1ZSEtDYk5zaHhJWnlQekgtSU11RTFFR1V2aGtzSFdUZjBwX2pHdzVxcVYzU3AtU1kzZ0t5dzVQb2JpS0NKbk11UEEwYmRpMkhQcTFhV1VDUFVONnc4Qi1QMHNzOVhOSkRndlZMUQ?oc=5",
 "time": "2026-11-15T09:40:03+00:00",
 "stage": "속보"
+},
+{
+"title": "[속보] 광주대구고속도로 승용차관련 사고처리중",
+"source": "스페셜타임스",
+"link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE81X01rU0xZSG5Wc3NDSEppYTZ2b3BvcVJqaUtaazFXZkZVcHdPcm1fUWIxRFQxN1Z1ZDcyRmtMbXBVbzA4d21UMUdiSGwtRVpkNUcxM0JPTnpYT2NYNmRFbFFHWjBhNVNHVnBGRHNTQktSNUU?oc=5",
+"time": "2026-11-15T09:40:03+00:00",
+"stage": "속보"
 }
 ],
 "level": "URGENT",
@@ -329,7 +336,7 @@
 "id": "lhTdTBOcDU4VktvYmF6Zwoc50935",
 "first": "2026-11-15T09:35:32+00:00",
 "last": "2026-11-15T09:35:32+00:00",
-"updated": "2026-11-15T09:38:15.020390+00:00",
+"updated": "2026-11-15T09:49:10.426739+00:00",
 "headline": "예산군 대흥면 산불 발생… 인근 도로 주의",
 "cat": "재난",
 "regions": [],
@@ -343,6 +350,13 @@
 "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE50UHdycUUzWlRwWHUtUmJ6Rk9xV1dwQXFYcUFCUDVIcnlYZExhVFowSVItbXYteWt6TGE3TGF4eUs0a09pdnZFSFQwYVcyUUZkNUFSellORVJGNUd4ZWlhNWtjblhTdTBOcDU4VktvYmF6Zw?oc=5",
 "time": "2026-11-15T09:35:32+00:00",
 "stage": "얼럿"
+},
+{
+"title": "[속보] 예산군 대흥면 산불 발생… 인근 도로 주의",
+"source": "스페셜타임스",
+"link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1WUi11bi1LVHJaSHF0OW9rMzR2bGJwZzE1UDl2OEp4SER1Y1ZVTmNmLVNRekxsVk11c1JyeGt2QTFzSDB0ZWhSZ2JndU9ndzhKTnF2bDJlRk5qTW1uWjFQZWYySDZvcUk1NUdSSTRVZHFCWFE?oc=5",
+"time": "2026-11-15T09:35:32+00:00",
+"stage": "속보"
 }
 ],
 "level": "URGENT",
@@ -4641,12 +4655,12 @@
 },
 "폭발": {
 "n30": 2,
-"base": 0.3,
+"base": 0.4,
 "spike": false
 },
 "붕괴": {
 "n30": 1,
-"base": 0.2,
+"base": 0.3,
 "spike": false
 },
 "대피": {
@@ -4656,22 +4670,22 @@
 },
 "미사일": {
 "n30": 0,
-"base": 1.3,
+"base": 1.1,
 "spike": false
 },
 "속보": {
-"n30": 6,
+"n30": 2,
 "base": 0.8,
-"spike": true
+"spike": false
 },
 "지하철": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
 "사고": {
 "n30": 2,
-"base": 4.1,
+"base": 3.9,
 "spike": false
 },
 "실종": {
@@ -4951,27 +4965,19 @@
 "url": "https://www.youtube.com/watch?v=CpApcuEOwvQ"
 }
 ],
-"spikes": [
-{
-"term": "속보",
-"n30": 6,
-"base": 0.8,
-"spike": true,
-"since": "2026-11-15T09:46:58.789359+00:00"
-}
-],
+"spikes": [],
 "baseline": {
-"지진": 0.71,
-"화재": 0.67,
+"지진": 0.74,
+"화재": 0.6,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.39,
-"붕괴": 0.32,
+"폭발": 0.45,
+"붕괴": 0.39,
 "대피": 0.05,
-"미사일": 1.14,
-"속보": 0.85,
-"지하철": 0.08,
-"사고": 3.91,
+"미사일": 1.03,
+"속보": 0.86,
+"지하철": 0.07,
+"사고": 3.72,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -5220,9 +5226,9 @@
 "link": "https://www.khan.co.kr/article/202611150948011"
 },
 {
-"title": "‘여신도 성폭행’ 정명석, 영치금 한 푼도 못 쓴다…압류 조치 왜",
-"source": "미주중앙일보",
-"link": "https://www.koreadaily.com/article/20261114181520397"
+"title": "징역 17년 정명석, 교도소 영치금까지 압류…JMS 교단 예금도 묶였다",
+"source": "경기일보",
+"link": "https://www.kyeonggi.com/article/20261115580276"
 }
 ],
 "new": true
