@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-15T22:50:32.311125+00:00",
+"updated": "2026-11-15T22:52:45.481388+00:00",
 "errors": [],
 "events": [
 {
@@ -1318,9 +1318,9 @@
 "spike": false
 },
 "속보": {
-"n30": 6,
+"n30": 4,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "지하철": {
 "n30": 1,
@@ -1329,7 +1329,7 @@
 },
 "사고": {
 "n30": 5,
-"base": 2.0,
+"base": 2.3,
 "spike": false
 },
 "실종": {
@@ -1384,7 +1384,7 @@
 "handle": "a1a223.bsky.social",
 "name": "지망이",
 "time": "2026-11-15T22:44:42.251Z",
-"likes": 10,
+"likes": 18,
 "reposts": 1,
 "url": "https://bsky.app/profile/a1a223.bsky.social/post/3n2f3o4bxu22l",
 "term": "사고"
@@ -1598,15 +1598,7 @@
 "url": "https://www.youtube.com/watch?v=oDNzFIJpBe0"
 }
 ],
-"spikes": [
-{
-"term": "속보",
-"n30": 6,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-15T22:50:32.311125+00:00"
-}
-],
+"spikes": [],
 "baseline": {
 "지진": 0.05,
 "화재": 0.05,
@@ -1618,7 +1610,7 @@
 "미사일": 0.05,
 "속보": 0.05,
 "지하철": 0.05,
-"사고": 2.34,
+"사고": 2.61,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -1830,6 +1822,42 @@
 },
 "trends": [
 {
+"term": "해리 케인",
+"traffic": "200+",
+"time": "2026-11-15T21:50:00+00:00",
+"news": [
+{
+"title": "‘126경기 대기록’ 자축 결승골까지…발롱도르 품은 해리 케인, 잉글랜드 축구 역사 새로 쓰다",
+"source": "세계일보",
+"link": "https://www.segye.com/newsView/20261113509399"
+},
+{
+"title": "벤치 신세에서 세계 축구 왕좌에… 발롱도르 영예 차지한 해리 케인",
+"source": "주간동아",
+"link": "https://weekly.donga.com/List/article/all/11/6458134/1"
+}
+],
+"new": true
+},
+{
+"term": "สเปน พบ อังกฤษ",
+"traffic": "100+",
+"time": "2026-11-15T21:50:00+00:00",
+"news": [
+{
+"title": "ยูฟ่า เนชั่นส์ ลีก: สี่แมตช์จะเริ่มแข่งขันพร้อมกันในเวลา 02:45 น. ของวันที่ 16 พฤศจิกายน",
+"source": "Vietnam.vn",
+"link": "https://www.vietnam.vn/th/uefa-nations-league-4-tran-dau-cung-khoi-tranh-luc-2h45-ngay-16-11"
+},
+{
+"title": "\"สิงโตคำราม\" บุกถอนแค้น \"กระทิง\" แซงคว้าแชมป์กลุ่ม",
+"source": "เดลินิวส์",
+"link": "https://www.dailynews.co.th/news/6362544/"
+}
+],
+"new": true
+},
+{
 "term": "испания – англия",
 "traffic": "100+",
 "time": "2026-11-15T21:40:00+00:00",
@@ -1930,9 +1958,9 @@
 "link": "https://www.24h.com.vn/bong-da/ruc-lua-tay-ban-nha-dau-dt-anh-the-tran-mot-chieu-c48a1811394.html"
 },
 {
-"title": "Yamal có hành động gây tranh cãi ở trận Tây Ban Nha thua Anh",
-"source": "Tạp chí Bóng đá",
-"link": "https://bongdaplus.vn/nations-league/yamal-co-hanh-dong-gay-tranh-cai-o-tran-tay-ban-nha-thua-anh-5291292611.html"
+"title": "Tuchel gạch tên Branthwaite và Garner ở trận gặp Tây Ban Nha",
+"source": "bongda.com.vn",
+"link": "https://bongda.com.vn/tuchel-gach-ten-branthwaite-va-garner-o-tran-gap-tay-ban-nha-d855115.html"
 }
 ],
 "new": true
@@ -1972,46 +2000,9 @@
 }
 ],
 "new": true
-},
-{
-"term": "nations league",
-"traffic": "200+",
-"time": "2026-11-15T21:00:00+00:00",
-"news": [
-{
-"title": "Belgium 4-1 Italy: Comeback win secures Nations League quarter-final spot",
-"source": "BBC",
-"link": "https://www.bbc.com/sport/football/live/cmx27n430548t"
-},
-{
-"title": "Licensable picture: UEFA Nations League - Group A1 - Belgium v Italy",
-"source": "Reuters Connect",
-"link": "https://www.reutersconnect.com/item/uefa-nations-league-group-a1-belgium-v-italy/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX1VQMUVNQkYxTEc0VEs"
-}
-],
-"new": true
-},
-{
-"term": "박철순",
-"traffic": "200+",
-"time": "2026-11-15T21:00:00+00:00",
-"news": [
-{
-"title": "“굿바이! 잠실야구장” 프로야구 전설들 작별인사",
-"source": "동아일보",
-"link": "https://www.donga.com/news/Sports/article/all/20261116/135028716/2"
-},
-{
-"title": "'화려했던 커리어→아쉬웠던 감독 시절' 지도자로 귀환하나, 이승엽이 답했다 \"언젠가는 다시 하고 싶다\" - 머니투데이",
-"source": "머니투데이",
-"link": "https://www.mt.co.kr/sports/2026/11/15/2026111515543672713"
-}
-],
-"new": true
 }
 ],
 "trendSeen": [
-"젠슨황",
 "젠슨황 부인",
 "젠지",
 "젠지 blg",
@@ -2266,6 +2257,7 @@
 "항공모함",
 "항공사",
 "해군사관학교",
+"해리 케인",
 "해변",
 "해병대 제1사단",
 "해커",
