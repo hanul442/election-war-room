@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-15T19:42:23.619696+00:00",
+"updated": "2026-11-15T19:44:35.424601+00:00",
 "errors": [],
 "events": [
 {
@@ -461,7 +461,7 @@
 "terms": {
 "지진": {
 "n30": 1,
-"base": 0.1,
+"base": 0.2,
 "spike": false
 },
 "화재": {
@@ -480,9 +480,9 @@
 "spike": false
 },
 "폭발": {
-"n30": 5,
+"n30": 3,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "붕괴": {
 "n30": 0,
@@ -505,7 +505,7 @@
 "spike": false
 },
 "지하철": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -759,17 +759,9 @@
 "url": "https://www.youtube.com/watch?v=-iabfMHo7nU"
 }
 ],
-"spikes": [
-{
-"term": "폭발",
-"n30": 5,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-15T19:42:23.619696+00:00"
-}
-],
+"spikes": [],
 "baseline": {
-"지진": 0.24,
+"지진": 0.32,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
@@ -779,7 +771,7 @@
 "미사일": 0.05,
 "속보": 0.05,
 "지하철": 0.05,
-"사고": 0.09,
+"사고": 0.08,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -1126,24 +1118,6 @@
 "new": true
 },
 {
-"term": "부고",
-"traffic": "500+",
-"time": "2026-11-15T13:30:00+00:00",
-"news": [
-{
-"title": "[부고] 이개호(국회의원)씨 모친상",
-"source": "스트레이트뉴스",
-"link": "https://www.straightnews.co.kr/news/articleView.html?idxno=315395"
-},
-{
-"title": "[부고] 이개호 씨(더불어민주당 국회의원) 모친상",
-"source": "뉴스1",
-"link": "https://www.news1.kr/politics/assembly/6354431"
-}
-],
-"new": true
-},
-{
 "term": "박현주",
 "traffic": "200+",
 "time": "2026-11-15T13:30:00+00:00",
@@ -1175,6 +1149,24 @@
 "title": "사람 대신 AI 승조원… 한미 무인군함 첫선 - 머니투데이",
 "source": "머니투데이",
 "link": "https://www.mt.co.kr/industry/2026/11/16/2026111519590590555"
+}
+],
+"new": true
+},
+{
+"term": "장혁",
+"traffic": "200+",
+"time": "2026-11-15T13:00:00+00:00",
+"news": [
+{
+"title": "＂내 어찌 경의 뜻을 모르겠는가＂ 양현민을 설득시킨 선동혁 [문무] | KBS 261115 방송",
+"source": "대한민국 대표 공영미디어 KBS",
+"link": "https://www.kbs.co.kr/index.html?source=smr&sname=vod&stype=vod&contents_id=K02_PS-2026188993-01-000_MFSC1&program_code=T2025-0499&program_id=PS-2026188993-01-000&section_code=03&broadcast_complete_yn=N&section_id=28257"
+},
+{
+"title": "300억 대작 ‘문무’, 첫방 시청률 4.7%… ‘고려거란전쟁’ 못 넘었다",
+"source": "이데일리",
+"link": "https://www.edaily.co.kr/News/Read?newsId=01295606645646048&mediaCodeNo=257"
 }
 ],
 "new": true
