@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-15T06:12:36.938093+00:00",
+"updated": "2026-11-15T06:14:48.411385+00:00",
 "errors": [],
 "events": [
 {
@@ -3763,7 +3763,7 @@
 "spike": false
 },
 "붕괴": {
-"n30": 3,
+"n30": 2,
 "base": 0.6,
 "spike": false
 },
@@ -3778,7 +3778,7 @@
 "spike": false
 },
 "속보": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -3789,7 +3789,7 @@
 },
 "사고": {
 "n30": 6,
-"base": 3.8,
+"base": 4.0,
 "spike": false
 },
 "실종": {
@@ -3809,7 +3809,7 @@
 },
 "먹통": {
 "n30": 1,
-"base": 0.6,
+"base": 0.7,
 "spike": false
 },
 "산불": {
@@ -4062,21 +4062,21 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 0.13,
+"지진": 0.12,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
 "폭발": 0.05,
-"붕괴": 0.6,
+"붕괴": 0.64,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.13,
+"속보": 0.12,
 "지하철": 0.05,
-"사고": 4.05,
+"사고": 4.25,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
-"먹통": 0.68,
+"먹통": 0.71,
 "산불": 0.05
 },
 "errors": [],
@@ -4266,6 +4266,24 @@
 },
 "trends": [
 {
+"term": "진형구",
+"traffic": "200+",
+"time": "2026-11-15T05:10:00+00:00",
+"news": [
+{
+"title": "‘한동훈 의원 장인’ 진형구 前 대전고검장 별세",
+"source": "조선일보",
+"link": "https://www.chosun.com/national/court_law/2026/11/15/5WZWFMLSRRAJNIIPBRB4HKMM3A/"
+},
+{
+"title": "‘한동훈 장인’ 진형구 전 검사장 별세…“조폐공사 파업 유도” 폭탄 발언도",
+"source": "한겨레",
+"link": "https://www.hani.co.kr/arti/politics/politics_general/1287380.html"
+}
+],
+"new": true
+},
+{
 "term": "미운 우리 새끼",
 "traffic": "200+",
 "time": "2026-11-15T05:00:00+00:00",
@@ -4323,7 +4341,13 @@
 "term": "고양 소노 대 원주 db",
 "traffic": "500+",
 "time": "2026-11-15T04:50:00+00:00",
-"news": [],
+"news": [
+{
+"title": "Goyang Sono Seeks Third Win as DB's Ellenson Returns",
+"source": "조선일보",
+"link": "https://www.chosun.com/english/sports-en/2026/11/15/6AUQMJN2BVFVHDPUOPB73WIW4E/"
+}
+],
 "new": true
 },
 {
@@ -4404,28 +4428,9 @@
 }
 ],
 "new": false
-},
-{
-"term": "f-35b",
-"traffic": "5000+",
-"time": "2026-11-15T03:50:00+00:00",
-"news": [
-{
-"title": "Royal Navy Conducts First Drone Tests from HMS Queen Elizabeth",
-"source": "The Maritime Executive",
-"link": "https://maritime-executive.com/article/royal-navy-conducts-first-drone-tests-from-hms-queen-elizabeth"
-},
-{
-"title": "Uncrewed Nyan, AR5 trials advance UK Royal Navy’s hybrid carrier air wing development",
-"source": "FlightGlobal",
-"link": "https://www.flightglobal.com/defence/2026/11/uncrewed-nyan-ar5-trials-advance-uk-royal-navys-hybrid-carrier-air-wing-development/"
-}
-],
-"new": true
 }
 ],
 "trendSeen": [
-"정성호",
 "정승제",
 "정웅인",
 "정의선",
@@ -4489,6 +4494,7 @@
 "진양곤",
 "진중권",
 "진학사",
+"진형구",
 "집",
 "징역형",
 "짜장면",
