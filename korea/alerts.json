@@ -1,7 +1,47 @@
 {
-"updated": "2026-11-15T00:47:08.425632+00:00",
+"updated": "2026-11-15T00:49:26.369611+00:00",
 "errors": [],
 "events": [
+{
+"id": "ssutm_campaigntotal_news0046",
+"first": "2026-11-15T00:46:00+00:00",
+"last": "2026-11-15T00:46:00+00:00",
+"updated": "2026-11-15T00:49:26.369611+00:00",
+"headline": "“수능 수험표 보여주면 영화 관람권과 간식, 1000원’···철원문화재단, 작은 영화관 3곳서 수능 이벤트",
+"cat": "재난",
+"regions": [
+"경기",
+"강원"
+],
+"sources": [
+"경향신문"
+],
+"updates": [
+{
+"title": "“수능 수험표 보여주면 영화 관람권과 간식, 1000원’···철원문화재단, 작은 영화관 3곳서 수능 이벤트",
+"source": "경향신문",
+"link": "https://www.khan.co.kr/article/202611150946001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
+"time": "2026-11-15T00:46:00+00:00",
+"stage": "1보"
+}
+],
+"level": "ALERT",
+"latest": "“수능 수험표 보여주면 영화 관람권과 간식, 1000원’···철원문화재단, 작은 영화관 3곳서 수능 이벤트",
+"tok": [
+"1000원",
+"3곳서",
+"간식",
+"관람권",
+"보여주면",
+"수능",
+"수험표",
+"영화",
+"영화관",
+"이벤트",
+"작은",
+"철원문화재단"
+]
+},
 {
 "id": "lRuRGEwRUNPYVhlWUM1RAoc50042",
 "first": "2026-11-15T00:42:00+00:00",
@@ -182,12 +222,12 @@
 "id": "EEtVzl5LThBSmtFQ1p3UQoc50032",
 "first": "2026-11-15T00:32:00+00:00",
 "last": "2026-11-15T00:32:00+00:00",
-"updated": "2026-11-15T00:33:24.152031+00:00",
+"updated": "2026-11-15T00:49:26.369611+00:00",
 "headline": "동해고속도로(부산-포항) 승용차 단독 사고처리중",
 "cat": "교통",
 "regions": [
-"부산",
-"경북"
+"경북",
+"부산"
 ],
 "sources": [
 "스페셜타임스"
@@ -199,6 +239,13 @@
 "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBPbEJTaldlejJjUldIWFNMaDlOXzZfd1NPbC0yelRuWEM0ajhYN2RSdVRHa2ZsV1B1dWhlNXdXSEJpZmZsYUprSlE1OHBtenNqRUxoaW53cF9FQm43N3lfbDQ0cEEtVzl5LThBSmtFQ1p3UQ?oc=5",
 "time": "2026-11-15T00:32:00+00:00",
 "stage": "얼럿"
+},
+{
+"title": "[속보] 동해고속도로(부산-포항) 승용차 단독 사고처리중",
+"source": "스페셜타임스",
+"link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE0ya2FQTzdBeERzWEhrUkl2T3RQZEdhTzhraHV1dFI5OUxTX096a0pmMzRaOWZiZkhDNWVTbGkwMVJVOEZNcXd6Tk1DT2piUEVRWEoxUlNVNlN2M3g0dkY3SnU3RTJPby1QUHZxWjRNUEc1VTQ?oc=5",
+"time": "2026-11-15T00:32:00+00:00",
+"stage": "속보"
 }
 ],
 "level": "URGENT",
@@ -936,7 +983,7 @@
 },
 "화재": {
 "n30": 0,
-"base": 0.3,
+"base": 0.2,
 "spike": false
 },
 "불났": {
@@ -950,13 +997,13 @@
 "spike": false
 },
 "폭발": {
-"n30": 4,
-"base": 0.3,
+"n30": 2,
+"base": 0.2,
 "spike": false
 },
 "붕괴": {
 "n30": 1,
-"base": 0.3,
+"base": 0.2,
 "spike": false
 },
 "대피": {
@@ -981,7 +1028,7 @@
 },
 "사고": {
 "n30": 0,
-"base": 1.6,
+"base": 1.4,
 "spike": false
 },
 "실종": {
@@ -1011,6 +1058,16 @@
 }
 },
 "posts": [
+{
+"text": "활짝 벌려봐. 속보지도 볼수있게",
+"handle": "firebear1.bsky.social",
+"name": " 늙 ㅋㅋ란다",
+"time": "2026-11-15T00:47:14.954Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/firebear1.bsky.social/post/3n2cs2dr5x22f",
+"term": "속보"
+},
 {
 "platform": "YouTube",
 "text": "뭐?! 대공포에 미사일 4발까지?! 한국 비호복합의 정체 #shorts  #shots #일상공감뉴스 #밀리터리",
@@ -1232,18 +1289,18 @@
 "spikes": [],
 "baseline": {
 "지진": 0.05,
-"화재": 0.24,
+"화재": 0.22,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.24,
-"붕괴": 0.24,
+"폭발": 0.22,
+"붕괴": 0.22,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.05,
+"속보": 0.15,
 "지하철": 0.05,
-"사고": 1.41,
+"사고": 1.27,
 "실종": 0.05,
-"단수": 0.51,
+"단수": 0.56,
 "통신 장애": 0.05,
 "먹통": 0.05,
 "산불": 0.05
