@@ -1,12 +1,43 @@
 {
-"updated": "2026-11-15T01:46:50.807258+00:00",
+"updated": "2026-11-15T01:49:01.981825+00:00",
 "errors": [],
 "events": [
 {
+"id": "wNISX20261113_00038678770147",
+"first": "2026-11-15T01:47:41+00:00",
+"last": "2026-11-15T01:47:41+00:00",
+"updated": "2026-11-15T01:49:01.981825+00:00",
+"headline": "[전남광주소식]재난응급의료 종합훈련대회 최우수상 등",
+"cat": "재난",
+"regions": [
+"전남"
+],
+"sources": [
+"뉴시스"
+],
+"updates": [
+{
+"title": "[전남광주소식]재난응급의료 종합훈련대회 최우수상 등",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261113_0003867877",
+"time": "2026-11-15T01:47:41+00:00",
+"stage": "1보"
+}
+],
+"level": "ALERT",
+"latest": "[전남광주소식]재난응급의료 종합훈련대회 최우수상 등",
+"tok": [
+"재난응급의료",
+"전남광주소식",
+"종합훈련대회",
+"최우수상"
+]
+},
+{
 "id": "0oxcTdaZE55YnVTazlmUQoc50138",
 "first": "2026-11-15T01:38:00+00:00",
-"last": "2026-11-15T01:45:27+00:00",
-"updated": "2026-11-15T01:46:50.807258+00:00",
+"last": "2026-11-15T01:47:21+00:00",
+"updated": "2026-11-15T01:49:01.981825+00:00",
 "headline": "‘세무사 수석 부정행위’ 서울청 광수단 배당…“신속·엄정 수사”",
 "cat": "사회",
 "regions": [
@@ -17,7 +48,8 @@
 "뉴시스",
 "브릿지경제",
 "아시아경제",
-"연합뉴스"
+"연합뉴스",
+"천지일보"
 ],
 "updates": [
 {
@@ -42,9 +74,23 @@
 "stage": "속보"
 },
 {
+"title": "[속보] 세무사시험 수석 ‘스마트안경 부정행위’ 서울청 광수단 배당",
+"source": "천지일보",
+"link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1aOHlIR241Rk5vSzlwYzBmMXVXZHE4V0NLbnFzRERwQ21iWkFSb2FrTjYyT0VvaFotY0dhS0h1c18zZ1ZOcnQ4eFQ2VDJLZ3JWdmR2TUhCbWhHNUs3a2xnWjQ4c0swOU5lcXc?oc=5",
+"time": "2026-11-15T01:43:32+00:00",
+"stage": "속보"
+},
+{
 "title": "[속보]'AI 커닝' 세무사 수석, 서울청 광수단서 직접 수사",
 "source": "아시아경제",
 "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5GWHNFSDNWcVdvb1VZWnQwX01iNjY1dHQ0RnhHdnlVeWFldWgxbjhYWGtHVDBzQ1dKTXFJMEE0dk1nQzhrZ2lzZndkbXJLZmhDRXZWRWVkWjdvRHExTUJpN1k2WXVQSXhiTGRFZmZZMEtEeFZ3?oc=5",
+"time": "2026-11-15T01:44:27+00:00",
+"stage": "속보"
+},
+{
+"title": "[속보]'AI 커닝' 세무사 수석, 서울청 광수단서 직접 수사",
+"source": "아시아경제",
+"link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5rOURKekNyWGdWS3RkaVJRRlhZNEJDVVBidEljYlpsaWdrUnQ1UW5wV1FVd282Tmh3OFl4eEVZWXpxX1pHdFk1ZFh2OWRBTk1lVnIwdzROWXF3ZmdTLWFMeA?oc=5",
 "time": "2026-11-15T01:44:27+00:00",
 "stage": "속보"
 },
@@ -54,10 +100,17 @@
 "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008846418&plink=RSSLINK&cooper=RSSREADER",
 "time": "2026-11-15T01:45:27+00:00",
 "stage": "후속"
+},
+{
+"title": "경찰, 세무사 수석 'AI 부정행위 인정' 광수단 배당…수사 착수",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261115_0003868454",
+"time": "2026-11-15T01:47:21+00:00",
+"stage": "후속"
 }
 ],
 "level": "URGENT",
-"latest": "세무사 수석합격자, AI 부정행위 시인…경찰, 서울청 광수단 배당 \"신속·엄정 수사\"",
+"latest": "경찰, 세무사 수석 'AI 부정행위 인정' 광수단 배당…수사 착수",
 "tok": [
 "AI",
 "경찰",
@@ -68,14 +121,18 @@
 "서울경찰청",
 "서울청",
 "세무사",
+"세무사시험",
 "수사",
 "수석",
 "수석합격",
 "수석합격자",
+"스마트안경",
 "시인",
 "신속",
 "엄정",
+"인정",
 "직접",
+"착수",
 "커닝"
 ]
 },
@@ -1546,8 +1603,8 @@
 "spike": true
 },
 "붕괴": {
-"n30": 3,
-"base": 0.4,
+"n30": 2,
+"base": 0.5,
 "spike": false
 },
 "대피": {
@@ -1561,7 +1618,7 @@
 "spike": false
 },
 "속보": {
-"n30": 9,
+"n30": 8,
 "base": 0.2,
 "spike": true
 },
@@ -1571,7 +1628,7 @@
 "spike": false
 },
 "사고": {
-"n30": 0,
+"n30": 1,
 "base": 0.5,
 "spike": false
 },
@@ -1602,6 +1659,16 @@
 }
 },
 "posts": [
+{
+"text": "하도 말귀를 못 알아처먹으니까 너도 지금은 사대육신 멀쩡하지만 언제 불의의 사고로 장애인이 될 지 모른다는 말을 하기는 하지만 그거는 말 그대로 그렇게라도 말을 안 하면 생각을 안 하니까 극약처방으로 하는 소리고 그게 초점이 아니잖음",
+"handle": "wongoji.bsky.social",
+"name": "原巖 원고지",
+"time": "2026-11-15T01:46:54.954Z",
+"likes": 2,
+"reposts": 1,
+"url": "https://bsky.app/profile/wongoji.bsky.social/post/3n2cvezan6c24",
+"term": "사고"
+},
 {
 "text": "영원한 샘 최신화 떴다길래 신나게 보러갔다가 붕괴해버리고 말았다 . . . . . .",
 "handle": "bluemucha.bsky.social",
@@ -1817,14 +1884,14 @@
 "n30": 6,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-15T01:46:50.807258+00:00"
+"since": "2026-11-15T01:49:01.981825+00:00"
 },
 {
 "term": "속보",
-"n30": 9,
+"n30": 8,
 "base": 0.2,
 "spike": true,
-"since": "2026-11-15T01:46:50.807258+00:00"
+"since": "2026-11-15T01:49:01.981825+00:00"
 }
 ],
 "baseline": {
@@ -1833,16 +1900,16 @@
 "불났": 0.05,
 "정전": 0.05,
 "폭발": 0.05,
-"붕괴": 0.47,
+"붕괴": 0.52,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.2,
+"속보": 0.18,
 "지하철": 0.05,
-"사고": 0.45,
+"사고": 0.51,
 "실종": 0.05,
-"단수": 0.11,
+"단수": 0.1,
 "통신 장애": 0.05,
-"먹통": 0.22,
+"먹통": 0.2,
 "산불": 0.05
 },
 "errors": [],
