@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-15T03:53:15.426594+00:00",
+"updated": "2026-11-15T03:55:26.272042+00:00",
 "errors": [],
 "events": [
 {
@@ -1215,7 +1215,7 @@
 "id": "WJ4QUhQdEkwcGhlbm1EQwoc50307",
 "first": "2026-11-15T03:07:00+00:00",
 "last": "2026-11-15T03:07:00+00:00",
-"updated": "2026-11-15T03:10:36.999324+00:00",
+"updated": "2026-11-15T03:55:26.272042+00:00",
 "headline": "‘엔비디아 발상지’라더니… 젠슨황 논란에 즉시 명판 뗀 美식당",
 "cat": "기타",
 "regions": [],
@@ -1237,6 +1237,13 @@
 "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQbnZmaXFJUlJaMkRVdW5PSng0MEkyVEpPZ1VTYmc1YkFIOU8wRk1OR3lsSXlfUFRYUlNKSmNEQkZuekdFdU1YWTdNNXZoQ0NaVnA3SThVTmk1c0hlWExhUDd6elMwYzVuT01xZElTa1NvVHdtcEIzOGVTWlFMZGNNRHFXNU1Sdk1jbWJ4QUhQdEkwcGhlbm1EQw?oc=5",
 "time": "2026-11-15T03:07:00+00:00",
 "stage": "얼럿"
+},
+{
+"title": "[속보]‘엔비디아 발상지’라더니… 젠슨황 논란에 즉시 명판 뗀 美식당",
+"source": "국제신문",
+"link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPQ3VJVUJoN0o0WFN1LWhUTk84b2l6VnJ6cjZoMVdRTkxwcXNGSjdnY2JsRXRhV095VktxZWF1YzVMQmRKOTcwV215WFQ4ZlpjUkpQUThYS1hiclMwS2ZSMlRQcXVjSVRES0E4bF9DYldlSzlQd184WjJJQkx0bGg3eUNLRnNRVFgz?oc=5",
+"time": "2026-11-15T03:07:00+00:00",
+"stage": "속보"
 }
 ],
 "level": "URGENT",
@@ -2991,7 +2998,7 @@
 "sns": {
 "terms": {
 "지진": {
-"n30": 3,
+"n30": 2,
 "base": 0.1,
 "spike": false
 },
@@ -3031,9 +3038,9 @@
 "spike": false
 },
 "속보": {
-"n30": 5,
+"n30": 4,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "지하철": {
 "n30": 4,
@@ -3042,7 +3049,7 @@
 },
 "사고": {
 "n30": 6,
-"base": 4.6,
+"base": 4.7,
 "spike": false
 },
 "실종": {
@@ -3303,15 +3310,7 @@
 "url": "https://www.youtube.com/watch?v=tbDFJb3NQLw"
 }
 ],
-"spikes": [
-{
-"term": "속보",
-"n30": 5,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-15T03:53:15.426594+00:00"
-}
-],
+"spikes": [],
 "baseline": {
 "지진": 0.05,
 "화재": 0.05,
@@ -3322,8 +3321,8 @@
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 1.26,
-"사고": 4.73,
+"지하철": 1.23,
+"사고": 4.86,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
