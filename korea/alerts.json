@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-15T06:32:24.947857+00:00",
+"updated": "2026-11-15T06:34:36.180403+00:00",
 "errors": [],
 "events": [
 {
@@ -3867,7 +3867,7 @@
 },
 "붕괴": {
 "n30": 1,
-"base": 0.6,
+"base": 0.5,
 "spike": false
 },
 "대피": {
@@ -3881,13 +3881,13 @@
 "spike": false
 },
 "속보": {
-"n30": 7,
+"n30": 6,
 "base": 0.1,
 "spike": true
 },
 "지하철": {
 "n30": 3,
-"base": 0.7,
+"base": 0.9,
 "spike": false
 },
 "사고": {
@@ -3912,7 +3912,7 @@
 },
 "먹통": {
 "n30": 0,
-"base": 0.5,
+"base": 0.4,
 "spike": false
 },
 "산불": {
@@ -4193,10 +4193,10 @@
 "spikes": [
 {
 "term": "속보",
-"n30": 7,
+"n30": 6,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-15T06:32:24.947857+00:00"
+"since": "2026-11-15T06:34:36.180403+00:00"
 }
 ],
 "baseline": {
@@ -4205,16 +4205,16 @@
 "불났": 0.05,
 "정전": 0.05,
 "폭발": 0.05,
-"붕괴": 0.5,
+"붕괴": 0.45,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.87,
+"지하철": 0.98,
 "사고": 3.98,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
-"먹통": 0.41,
+"먹통": 0.37,
 "산불": 0.05
 },
 "errors": [],
@@ -4431,6 +4431,42 @@
 },
 "trends": [
 {
+"term": "요르단 알바레즈",
+"traffic": "200+",
+"time": "2026-11-15T05:30:00+00:00",
+"news": [
+{
+"title": "만장일치 MVP… 새로운 괴물이 탄생했다",
+"source": "조선일보",
+"link": "https://www.chosun.com/sports/world-baseball/2026/11/14/3CEEYJGZKZDIBISVKH5TGLYZBU/"
+},
+{
+"title": "\"방출 통보인 줄 알았는데…\" 이정후 영입한 사장의 치명적 오판, 다저스 역사상 최악의 트레이드였다 - 머니투데이",
+"source": "머니투데이",
+"link": "https://www.mt.co.kr/sports/2026/11/15/202611141554770892O"
+}
+],
+"new": true
+},
+{
+"term": "지효",
+"traffic": "100+",
+"time": "2026-11-15T05:30:00+00:00",
+"news": [
+{
+"title": "리모와, 광주 첫 매장 ‘광주신세계점’ 개장",
+"source": "에너지경제신문",
+"link": "https://m.ekn.kr/view.php?key=20261113024129492"
+},
+{
+"title": "지효, 홀로서기 이후 확 달라졌다 '첫 행보'..어른여자 분위기",
+"source": "조선일보",
+"link": "https://www.chosun.com/entertainments/broadcast/2026/11/13/MQ4WKNZRMZRWCZBWGY2GCZBRGQ/"
+}
+],
+"new": true
+},
+{
 "term": "조세",
 "traffic": "5000+",
 "time": "2026-11-15T05:20:00+00:00",
@@ -4449,8 +4485,26 @@
 "new": false
 },
 {
+"term": "england vs australia",
+"traffic": "100+",
+"time": "2026-11-15T05:20:00+00:00",
+"news": [
+{
+"title": "Australia vs England LIVE: Second ODI, Adelaide Oval - cricket score, commentary & updates",
+"source": "BBC",
+"link": "https://www.bbc.com/sport/cricket/live/cjwgxve1wynt"
+},
+{
+"title": "Banton tons up as England remain in command, eye 350",
+"source": "The Australian",
+"link": "https://www.theaustralian.com.au/sport/cricket/australia-v-england-2nd-odi-live-updates-scores-and-news-from-adelaide-oval/live-coverage/3be728be8e1e62ded87d97e8a3426e01"
+}
+],
+"new": true
+},
+{
 "term": "진형구",
-"traffic": "500+",
+"traffic": "1000+",
 "time": "2026-11-15T05:10:00+00:00",
 "news": [
 {
@@ -4550,53 +4604,9 @@
 }
 ],
 "new": false
-},
-{
-"term": "최예나",
-"traffic": "200+",
-"time": "2026-11-15T04:40:00+00:00",
-"news": [],
-"new": false
-},
-{
-"term": "수출",
-"traffic": "200+",
-"time": "2026-11-15T04:20:00+00:00",
-"news": [
-{
-"title": "AI 특수에 ICT 수출 703억달러‥증가율 202% '역대 최고'",
-"source": "MBC 뉴스",
-"link": "https://imnews.imbc.com/news/2026/econo/article/6865752_36932.html"
-},
-{
-"title": "10월 정보통신산업(ICT) 수출액, 전년 동기 대비 202.0% 성장",
-"source": "국제신문",
-"link": "https://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0200&key=20261115.99099004272"
-}
-],
-"new": true
-},
-{
-"term": "범죄자",
-"traffic": "200+",
-"time": "2026-11-15T04:20:00+00:00",
-"news": [
-{
-"title": "범죄자도 아닌데 계좌 묶여…\"직원 월급도 못줄 판\" 패닉 [사장님 고충백서]",
-"source": "한국경제",
-"link": "https://www.hankyung.com/article/202611146105i"
-},
-{
-"title": "\"보이스피싱 막자\" 소상공인 통장 동결…5대 은행 14만건",
-"source": "리드경제",
-"link": "https://www.leadeconomy.co.kr/news/articleView.html?idxno=11236"
-}
-],
-"new": true
 }
 ],
 "trendSeen": [
-"정웅인",
 "정의선",
 "정지선",
 "정철원",
@@ -4654,6 +4664,7 @@
 "지스타",
 "지진",
 "지하철 파업",
+"지효",
 "직장인대호",
 "진쓰레블 사망",
 "진양곤",
