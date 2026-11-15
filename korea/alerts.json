@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-15T11:21:43.281520+00:00",
+"updated": "2026-11-15T11:24:21.881917+00:00",
 "errors": [],
 "events": [
 {
@@ -4560,7 +4560,7 @@
 },
 "폭발": {
 "n30": 1,
-"base": 0.6,
+"base": 0.7,
 "spike": false
 },
 "붕괴": {
@@ -4575,7 +4575,7 @@
 },
 "미사일": {
 "n30": 2,
-"base": 1.7,
+"base": 1.8,
 "spike": false
 },
 "속보": {
@@ -4590,7 +4590,7 @@
 },
 "사고": {
 "n30": 1,
-"base": 1.7,
+"base": 1.6,
 "spike": false
 },
 "실종": {
@@ -4835,17 +4835,17 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 0.16,
+"지진": 0.14,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.65,
-"붕괴": 0.1,
+"폭발": 0.69,
+"붕괴": 0.09,
 "대피": 0.05,
-"미사일": 1.77,
+"미사일": 1.79,
 "속보": 0.05,
-"지하철": 0.89,
-"사고": 1.59,
+"지하철": 0.9,
+"사고": 1.53,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -5021,6 +5021,60 @@
 },
 "trends": [
 {
+"term": "백신",
+"traffic": "100+",
+"time": "2026-11-15T10:20:00+00:00",
+"news": [
+{
+"title": "생후 6개월 영아에 하루 지난 백신 투여한 의사…대법 “면허정지는 과도해”",
+"source": "경향신문",
+"link": "https://www.khan.co.kr/article/202611151323001"
+},
+{
+"title": "영아에 기한 하루 지난 백신 접종…대법 “의사면허 취소 과도”",
+"source": "KBS 뉴스",
+"link": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8713124"
+}
+],
+"new": true
+},
+{
+"term": "로봇",
+"traffic": "200+",
+"time": "2026-11-15T10:20:00+00:00",
+"news": [
+{
+"title": "'제21회 국제로봇콘테스트' 성료…올해 첫선 '마트 휴머노이드', 상품 배송·진열·계산 미션 생중계 관람객 호응",
+"source": "전자신문",
+"link": "https://www.etnews.com/20261115000075"
+},
+{
+"title": "[대구] '국제 로봇 콘테스트' 개최...\"로봇 기술 경쟁\"",
+"source": "YTN",
+"link": "https://www.ytn.co.kr/_ln/0115_202611131451583586"
+}
+],
+"new": true
+},
+{
+"term": "김주원",
+"traffic": "100+",
+"time": "2026-11-15T10:10:00+00:00",
+"news": [
+{
+"title": "[사진]와타라이 도루를 여유입게 잡는 김휘집",
+"source": "조선일보",
+"link": "https://www.chosun.com/sports/sports_photo/2026/11/15/GNQTCNJWMYZTSZLFGNSTQNDCHA/"
+},
+{
+"title": "[사진]홈에서 아웃되는 김주원 - 머니투데이",
+"source": "머니투데이",
+"link": "https://www.mt.co.kr/sports/2026/11/14/202611142012773759O"
+}
+],
+"new": true
+},
+{
 "term": "전국노래자랑",
 "traffic": "1000+",
 "time": "2026-11-15T10:00:00+00:00",
@@ -5075,9 +5129,9 @@
 "new": true
 },
 {
-"term": "멜론 뮤직 어워드",
+"term": "멜론뮤직어워드",
 "traffic": "200+",
-"time": "2026-11-15T09:30:00+00:00",
+"time": "2026-11-15T09:50:00+00:00",
 "news": [
 {
 "title": "매력적인 아일릿",
@@ -5088,6 +5142,42 @@
 "title": "[ET포토] 아일릿, '시크릿 에이전트'",
 "source": "전자신문",
 "link": "https://www.etnews.com/20261115000148"
+}
+],
+"new": true
+},
+{
+"term": "멜론 뮤직 어워드",
+"traffic": "100+",
+"time": "2026-11-15T09:30:00+00:00",
+"news": [
+{
+"title": "[ET포토] 앤더블, '새로운 시작~'",
+"source": "전자신문",
+"link": "https://www.etnews.com/20261115000129"
+},
+{
+"title": "[사진]키키 수이, 인형의 등장",
+"source": "조선일보",
+"link": "https://www.chosun.com/entertainments/entertain_photo/2026/11/15/GYZWMOJTMY3TKZDDHFSGGNBVME/"
+}
+],
+"new": true
+},
+{
+"term": "임창정",
+"traffic": "500+",
+"time": "2026-11-15T09:30:00+00:00",
+"news": [
+{
+"title": "'열린음악회' 초호화 라인업… 임창정·장기하·김나영·TWS(투어스)·잭킹콩 총출동",
+"source": "국제뉴스",
+"link": "https://www.gukjenews.com/news/articleView.html?idxno=3752492"
+},
+{
+"title": "임창정 ‘소주 한 잔’, 100만 뷰 터졌다…‘전국노래자랑’ 무대 뜨거운 반응",
+"source": "매일경제",
+"link": "https://www.mk.co.kr/news/musics/12206742"
 }
 ],
 "new": true
@@ -5106,96 +5196,6 @@
 "title": "How to watch South Africa vs Bangladesh 2026 1st Test: Free Streams & Preview",
 "source": "TechRadar",
 "link": "https://www.techradar.com/entertainment/cricket/watch-south-africa-vs-bangladesh-2026-1st-test-free"
-}
-],
-"new": true
-},
-{
-"term": "웨이브",
-"traffic": "500+",
-"time": "2026-11-15T08:40:00+00:00",
-"news": [
-{
-"title": "[ET포토] 하츠웨이브, '주목할만한 개성'",
-"source": "전자신문",
-"link": "https://www.etnews.com/20261115000132"
-},
-{
-"title": "카르멘, 향기로운 하트",
-"source": "뉴스1",
-"link": "https://www.news1.kr/photos/8214174"
-}
-],
-"new": true
-},
-{
-"term": "압류",
-"traffic": "100+",
-"time": "2026-11-15T08:20:00+00:00",
-"news": [
-{
-"title": "교도소 수감 JMS 정명석, 영치금 못 쓴다···2인자 영치금 이어 압류",
-"source": "경향신문",
-"link": "https://www.khan.co.kr/article/202611150948011"
-},
-{
-"title": "‘여신도 성폭행’ 정명석, 영치금 한 푼도 못 쓴다…압류 조치 왜",
-"source": "미주중앙일보",
-"link": "https://www.koreadaily.com/article/20261114181520397"
-}
-],
-"new": true
-},
-{
-"term": "김건우",
-"traffic": "1000+",
-"time": "2026-11-15T08:10:00+00:00",
-"news": [
-{
-"title": "[사진]선수들의 환영을 받으며 입장하는 최원호 감독",
-"source": "조선일보",
-"link": "https://www.chosun.com/sports/sports_photo/2026/11/15/GZRTGY3FGE2DQNTCGA4GKOLGMM/"
-},
-{
-"title": "'악!' 오른손 맞은 한동희, 결국 경기 빠졌다…\"뼈에는 이상 無, 송구 불편해 보호 차원 교체\" [오!쎈 도쿄] - 머니투데이",
-"source": "머니투데이",
-"link": "https://www.mt.co.kr/sports/2026/11/14/202611142018770439O"
-}
-],
-"new": true
-},
-{
-"term": "개혁",
-"traffic": "500+",
-"time": "2026-11-15T08:10:00+00:00",
-"news": [
-{
-"title": "이 대통령 “개혁의 이름 빌려 개혁 방해는 용납 어려워”···‘최민희 녹취록’ 파장 우회 겨냥?",
-"source": "경향신문",
-"link": "https://www.khan.co.kr/article/202611151549001"
-},
-{
-"title": "“등 뒤 화살” 이어 “개혁 방해”…이 대통령, 민주 강경파에 ‘경고장’",
-"source": "한겨레",
-"link": "https://www.hani.co.kr/arti/politics/bluehouse/1287382.html"
-}
-],
-"new": true
-},
-{
-"term": "kb5132061",
-"traffic": "100+",
-"time": "2026-11-15T07:30:00+00:00",
-"news": [
-{
-"title": "If the November Windows update fails to install on your PC, here’s what to do",
-"source": "ZDNET",
-"link": "https://www.zdnet.com/tech/microsoft-windows-november-update-fails-install-some-pcs/"
-},
-{
-"title": "Microsoft confirms Windows security updates installation issues",
-"source": "BleepingComputer",
-"link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-kb5132061-installation-issues-0x80070306-0x800f0989-0x800f0993-errors/"
 }
 ],
 "new": true
