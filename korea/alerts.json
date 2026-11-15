@@ -1,7 +1,52 @@
 {
-"updated": "2026-11-15T04:52:44.447045+00:00",
+"updated": "2026-11-15T04:54:57.796977+00:00",
 "errors": [],
 "events": [
+{
+"id": "wNISX20261115_00038685620439",
+"first": "2026-11-15T04:39:40+00:00",
+"last": "2026-11-15T04:52:09+00:00",
+"updated": "2026-11-15T04:54:57.796977+00:00",
+"headline": "순천 한 모텔서 화재…7명 연기 흡입·인명피해 없어",
+"cat": "재난",
+"regions": [
+"전남"
+],
+"sources": [
+"뉴시스"
+],
+"updates": [
+{
+"title": "순천 한 모텔서 화재…7명 연기 흡입·인명피해 없어",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261115_0003868562",
+"time": "2026-11-15T04:39:40+00:00",
+"stage": "1보"
+},
+{
+"title": "순천 한 모텔서 화재…연기 흡입 2명 병원 이송(종합)",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261115_0003868574",
+"time": "2026-11-15T04:52:09+00:00",
+"stage": "종합"
+}
+],
+"level": "URGENT",
+"latest": "순천 한 모텔서 화재…연기 흡입 2명 병원 이송",
+"tok": [
+"2명",
+"7명",
+"모텔서",
+"병원",
+"순천",
+"없어",
+"연기",
+"이송",
+"인명피해",
+"화재",
+"흡입"
+]
+},
 {
 "id": "iRi11c2xwc19FcVBRc1dBoc50407",
 "first": "2026-11-15T04:07:46+00:00",
@@ -213,41 +258,6 @@
 "여권",
 "용납",
 "이름으"
-]
-},
-{
-"id": "wNISX20261115_00038685620439",
-"first": "2026-11-15T04:39:40+00:00",
-"last": "2026-11-15T04:39:40+00:00",
-"updated": "2026-11-15T04:41:42.565437+00:00",
-"headline": "순천 한 모텔서 화재…7명 연기 흡입·인명피해 없어",
-"cat": "재난",
-"regions": [
-"전남"
-],
-"sources": [
-"뉴시스"
-],
-"updates": [
-{
-"title": "순천 한 모텔서 화재…7명 연기 흡입·인명피해 없어",
-"source": "뉴시스",
-"link": "https://www.newsis.com/view/NISX20261115_0003868562",
-"time": "2026-11-15T04:39:40+00:00",
-"stage": "1보"
-}
-],
-"level": "ALERT",
-"latest": "순천 한 모텔서 화재…7명 연기 흡입·인명피해 없어",
-"tok": [
-"7명",
-"모텔서",
-"순천",
-"없어",
-"연기",
-"인명피해",
-"화재",
-"흡입"
 ]
 },
 {
@@ -3188,7 +3198,7 @@
 "terms": {
 "지진": {
 "n30": 1,
-"base": 0.8,
+"base": 0.7,
 "spike": false
 },
 "화재": {
@@ -3227,18 +3237,18 @@
 "spike": false
 },
 "속보": {
-"n30": 3,
+"n30": 2,
 "base": 0.1,
 "spike": false
 },
 "지하철": {
-"n30": 2,
+"n30": 1,
 "base": 1.5,
 "spike": false
 },
 "사고": {
 "n30": 3,
-"base": 3.5,
+"base": 3.4,
 "spike": false
 },
 "실종": {
@@ -3371,16 +3381,6 @@
 "term": "사고"
 },
 {
-"text": "지하철 웃참챌린지 실패\n아니 그치만 귀만 반짝영롱한데",
-"handle": "ksstor.bsky.social",
-"name": "ks",
-"time": "2026-11-15T04:23:55.945Z",
-"likes": 1,
-"reposts": 0,
-"url": "https://bsky.app/profile/ksstor.bsky.social/post/3n2d65sm22k2s",
-"term": "지하철"
-},
-{
 "platform": "YouTube",
 "text": "[속보] 세무사 수석 합격자, 부정행위 자수…안경 아닌 초소형 카메라였다 #shorts",
 "handle": "UC05990cdlcOIDn3RA488QIQ",
@@ -3500,17 +3500,17 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 0.71,
+"지진": 0.64,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.58,
+"폭발": 0.52,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 1.47,
-"사고": 3.41,
+"지하철": 1.32,
+"사고": 3.37,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -3728,11 +3728,11 @@
 "link": "https://www.news1.kr/society/general-society/6354031"
 }
 ],
-"new": true
+"new": false
 },
 {
 "term": "f-35b",
-"traffic": "1000+",
+"traffic": "2000+",
 "time": "2026-11-15T03:50:00+00:00",
 "news": [
 {
@@ -3753,7 +3753,7 @@
 "traffic": "100+",
 "time": "2026-11-15T03:50:00+00:00",
 "news": [],
-"new": true
+"new": false
 },
 {
 "term": "yousri belgaroui",
@@ -3833,21 +3833,21 @@
 "time": "2026-11-15T03:10:00+00:00",
 "news": [
 {
-"title": "제천 빨간 오뎅 축제, 내년엔 도심서 열린다…1월 22일 개막",
-"source": "중도일보",
-"link": "https://m.joongdo.co.kr/view.php?key=20261115010004850"
+"title": "김치 휘낭시에·김치 붕어빵 맛본다…20일 ‘김치의 날’ 축제",
+"source": "마켓인",
+"link": "https://marketin.edaily.co.kr/News/ReadE?newsId=01397286645646048"
 },
 {
-"title": "제천시, ‘제3회 제천빨간오뎅축제’ 내년 1월 22일 개막",
-"source": "금강일보",
-"link": "https://www.ggilbo.com/news/articleView.html?idxno=1193142"
+"title": "농식품부, 20일 aT서 '김치의 날' 행사…김장 체험·김치 할인",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261114028600030"
 }
 ],
 "new": false
 },
 {
 "term": "김성한",
-"traffic": "2000+",
+"traffic": "1000+",
 "time": "2026-11-15T02:50:00+00:00",
 "news": [
 {
@@ -3864,19 +3864,19 @@
 "new": true
 },
 {
-"term": "nz vs ind",
-"traffic": "100+",
-"time": "2026-11-15T02:40:00+00:00",
+"term": "김지찬",
+"traffic": "1000+",
+"time": "2026-11-15T02:30:00+00:00",
 "news": [
 {
-"title": "Virat Kohli, Rohit Sharma score 5 and 7 in potentially their last match on New Zealand soil | To follow the match live | Inshorts",
-"source": "Inshorts",
-"link": "https://inshorts.com/en/news/virat-kohli--rohit-sharma-score-5-and-7-in-potentially-their-last-match-on-new-zealand-soil-1794711034580"
+"title": "한일전 12연속 무승, 삼성 김지찬 우승 기운 전파하겠다!",
+"source": "KBS 뉴스",
+"link": "https://news.kbs.co.kr/news/view.do?ncd=8710671"
 },
 {
-"title": "What's Going Wrong With Rohit Sharma? Mohammad Kaif Spots Technical Flaw",
-"source": "Rediff",
-"link": "https://www.rediff.com/cricket/report/whats-going-wrong-with-rohit-sharma-mohammad-kaif-spots-technical-flaw/20261114.htm"
+"title": "중전 안타로 진루하는 김민석",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISI20261113_0002291780"
 }
 ],
 "new": true
