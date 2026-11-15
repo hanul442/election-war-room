@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-15T13:32:52.091120+00:00",
+"updated": "2026-11-15T13:35:07.995075+00:00",
 "errors": [],
 "events": [
 {
@@ -298,13 +298,14 @@
 "id": "HQ0b3IzNHZlUGNNZGhRYwoc51224",
 "first": "2026-11-15T12:24:04+00:00",
 "last": "2026-11-15T13:04:26+00:00",
-"updated": "2026-11-15T13:10:15.083961+00:00",
+"updated": "2026-11-15T13:35:07.995075+00:00",
 "headline": "20대男, 모르는 10대 여성에 흉기 휘둘러",
 "cat": "기타",
 "regions": [
 "부산"
 ],
 "sources": [
+"KBS 뉴스",
 "SBS",
 "경향신문",
 "뉴시스",
@@ -332,6 +333,13 @@
 "source": "조선일보",
 "link": "https://www.chosun.com/national/incident/2026/11/15/G6AVAHWUDFBNLHMJNKSWAICC5M/",
 "time": "2026-11-15T12:30:13+00:00",
+"stage": "후속"
+},
+{
+"title": "일면식도 없는 여성에 흉기 휘둘러…20대 남성 체포",
+"source": "KBS 뉴스",
+"link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE92OThQdWhyby0yeXpNNEx5dlozNXJrQWVMYkFqY09QVDhkUFM4Ny1PdzR4OHJ6bnEwTmotVVNTbGNyaTZCNlZRYmF5c19pdVNHVlh0NUpPZ1FQQ2c?oc=5",
+"time": "2026-11-15T12:42:00+00:00",
 "stage": "후속"
 },
 {
@@ -4162,48 +4170,13 @@
 "효력",
 "효력정지"
 ]
-},
-{
-"id": "ssutm_campaigntotal_news0734",
-"first": "2026-11-15T07:34:00+00:00",
-"last": "2026-11-15T07:34:00+00:00",
-"updated": "2026-11-15T07:47:41.169137+00:00",
-"headline": "‘수능 한파’ 이번에도 찾아온다···비 그친 뒤 기온 ‘뚝’, 수능 아침엔 영하 3도 강추위",
-"cat": "재난",
-"regions": [],
-"sources": [
-"경향신문"
-],
-"updates": [
-{
-"title": "‘수능 한파’ 이번에도 찾아온다···비 그친 뒤 기온 ‘뚝’, 수능 아침엔 영하 3도 강추위",
-"source": "경향신문",
-"link": "https://www.khan.co.kr/article/202611151634001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
-"time": "2026-11-15T07:34:00+00:00",
-"stage": "1보"
-}
-],
-"level": "ALERT",
-"latest": "‘수능 한파’ 이번에도 찾아온다···비 그친 뒤 기온 ‘뚝’, 수능 아침엔 영하 3도 강추위",
-"tok": [
-"3도",
-"강추위",
-"그친",
-"기온",
-"수능",
-"아침엔",
-"영하",
-"이번에",
-"찾아온다",
-"한파"
-]
 }
 ],
 "sns": {
 "terms": {
 "지진": {
 "n30": 2,
-"base": 0.7,
+"base": 0.8,
 "spike": false
 },
 "화재": {
@@ -4222,7 +4195,7 @@
 "spike": false
 },
 "폭발": {
-"n30": 2,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -4253,7 +4226,7 @@
 },
 "사고": {
 "n30": 7,
-"base": 4.7,
+"base": 4.9,
 "spike": false
 },
 "실종": {
@@ -4298,7 +4271,7 @@
 "handle": "dede-bubu.bsky.social",
 "name": "DEDE BUBU🧚‍♀️",
 "time": "2026-11-15T13:30:37.341Z",
-"likes": 6,
+"likes": 7,
 "reposts": 0,
 "url": "https://bsky.app/profile/dede-bubu.bsky.social/post/3n2e4pa4dy22g",
 "term": "지진"
@@ -4517,17 +4490,17 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 0.81,
+"지진": 0.93,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.12,
+"폭발": 0.11,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
 "지하철": 0.05,
-"사고": 4.94,
+"사고": 5.15,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -4712,19 +4685,37 @@
 },
 "trends": [
 {
+"term": "재건축",
+"traffic": "1000+",
+"time": "2026-11-15T12:30:00+00:00",
+"news": [
+{
+"title": "강남 집값 내리는데 경기 규제지역은 상승…연말 토허제 ‘딜레마’",
+"source": "마켓인",
+"link": "https://marketin.edaily.co.kr/News/ReadE?newsId=01889286645646048"
+},
+{
+"title": "\"집 팔고 나가라는 거냐\"…은마 '4.6억 청구서'에 부글부글 [이슬기의 새집다오]",
+"source": "한국경제",
+"link": "https://www.hankyung.com/article/2026111348856"
+}
+],
+"new": true
+},
+{
 "term": "안재석",
 "traffic": "100+",
 "time": "2026-11-15T12:20:00+00:00",
 "news": [
 {
-"title": "[사진]와타라이 도루를 여유입게 잡는 김휘집",
+"title": "[사진]도루 성공하는 쇼지",
 "source": "조선일보",
-"link": "https://www.chosun.com/sports/sports_photo/2026/11/15/GNQTCNJWMYZTSZLFGNSTQNDCHA/"
+"link": "https://www.chosun.com/sports/sports_photo/2026/11/15/HAYDMNBWMI4DCZDEMRSTSNLBMY/"
 },
 {
-"title": "[사진]홈에서 아웃되는 김주원 - 머니투데이",
+"title": "[사진]와타라이 도루를 여유입게 잡는 김휘집 - 머니투데이",
 "source": "머니투데이",
-"link": "https://www.mt.co.kr/sports/2026/11/14/202611142012773759O"
+"link": "https://www.mt.co.kr/sports/2026/11/15/202611151948771072O"
 }
 ],
 "new": true
@@ -4748,6 +4739,24 @@
 "new": true
 },
 {
+"term": "한국 일본",
+"traffic": "500+",
+"time": "2026-11-15T12:10:00+00:00",
+"news": [
+{
+"title": "이틀 쉬고 등판한 김건우, 한일전 4이닝 5실점 '흔들'…5회 3점포 허용",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261115_0003868768"
+},
+{
+"title": "[사진]못내 아쉬운 김도영",
+"source": "조선일보",
+"link": "https://www.chosun.com/sports/sports_photo/2026/11/15/GFRTSYRTG42TMNRZGVSTQMJXHA/"
+}
+],
+"new": true
+},
+{
 "term": "샤인머스캣",
 "traffic": "2000+",
 "time": "2026-11-15T11:50:00+00:00",
@@ -4764,6 +4773,24 @@
 }
 ],
 "new": true
+},
+{
+"term": "최원호",
+"traffic": "2000+",
+"time": "2026-11-15T11:40:00+00:00",
+"news": [
+{
+"title": "[사진]선수들의 환영을 받으며 입장하는 최원호 감독",
+"source": "조선일보",
+"link": "https://www.chosun.com/sports/sports_photo/2026/11/15/GZRTGY3FGE2DQNTCGA4GKOLGMM/"
+},
+{
+"title": "결승전 2번타자는 다시 김도영…한동희→문정빈 1루수 교체",
+"source": "미주중앙일보",
+"link": "https://www.koreadaily.com/article/20261115004905098"
+}
+],
+"new": false
 },
 {
 "term": "야구 한일전",
@@ -4785,7 +4812,7 @@
 },
 {
 "term": "김유재",
-"traffic": "100+",
+"traffic": "200+",
 "time": "2026-11-15T10:50:00+00:00",
 "news": [
 {
@@ -4836,64 +4863,9 @@
 }
 ],
 "new": true
-},
-{
-"term": "로봇",
-"traffic": "200+",
-"time": "2026-11-15T10:20:00+00:00",
-"news": [
-{
-"title": "NOM4D program demonstrates automated in-space assembly",
-"source": "darpa.mil",
-"link": "https://www.darpa.mil/news/2026/nom4d-program-demonstrates-automated-in-space-assembly"
-},
-{
-"title": "Caltech Robotic Space Demo Successfully Builds in Space",
-"source": "Caltech",
-"link": "https://www.caltech.edu/about/news/caltech-robotic-space-demo-successfully-builds-in-space"
-}
-],
-"new": true
-},
-{
-"term": "문정빈",
-"traffic": "200+",
-"time": "2026-11-15T10:20:00+00:00",
-"news": [
-{
-"title": "잠실구장 2032년엔 꼭 만나자…백발 노장과 전설들, 빗속의 작별",
-"source": "한겨레",
-"link": "https://www.hani.co.kr/arti/society/society_general/1287334.html"
-},
-{
-"title": "'화려했던 커리어→아쉬웠던 감독 시절' 지도자로 귀환하나, 이승엽이 답했다 \"언젠가는 다시 하고 싶다\" - 머니투데이",
-"source": "머니투데이",
-"link": "https://www.mt.co.kr/sports/2026/11/15/2026111515543672713"
-}
-],
-"new": true
-},
-{
-"term": "한국 일본 야구",
-"traffic": "500+",
-"time": "2026-11-15T10:10:00+00:00",
-"news": [
-{
-"title": "APBC 일본에 패…한일전 13경기 연속 무승",
-"source": "KBS 뉴스",
-"link": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8712788"
-},
-{
-"title": "'피홈런 4방'에 한일전 12연패‥'약속의 8회 없었다'",
-"source": "MBC 뉴스",
-"link": "https://imnews.imbc.com/replay/2026/nwdesk/article/6865690_37004.html"
-}
-],
-"new": false
 }
 ],
 "trendSeen": [
-"제물포구",
 "제주 감귤",
 "제주국제공항",
 "제주항공",
@@ -5115,6 +5087,7 @@
 "한국 민속촌",
 "한국 사우디",
 "한국 야구",
+"한국 일본",
 "한국 일본 야구",
 "한국가스",
 "한국경제",
