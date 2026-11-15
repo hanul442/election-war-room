@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-15T17:53:31.800926+00:00",
+"updated": "2026-11-15T17:55:46.887014+00:00",
 "errors": [],
 "events": [
 {
@@ -1867,7 +1867,7 @@
 "terms": {
 "지진": {
 "n30": 1,
-"base": 0.3,
+"base": 0.4,
 "spike": false
 },
 "화재": {
@@ -1881,12 +1881,12 @@
 "spike": false
 },
 "정전": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
 "폭발": {
-"n30": 3,
+"n30": 2,
 "base": 0.1,
 "spike": false
 },
@@ -1911,7 +1911,7 @@
 "spike": true
 },
 "지하철": {
-"n30": 3,
+"n30": 2,
 "base": 0.1,
 "spike": false
 },
@@ -2126,11 +2126,11 @@
 "n30": 6,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-15T17:53:31.800926+00:00"
+"since": "2026-11-15T17:55:46.887014+00:00"
 }
 ],
 "baseline": {
-"지진": 0.42,
+"지진": 0.48,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
@@ -2138,9 +2138,9 @@
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.13,
+"속보": 0.12,
 "지하철": 0.05,
-"사고": 0.4,
+"사고": 0.36,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -2352,6 +2352,24 @@
 "new": true
 },
 {
+"term": "한일전",
+"traffic": "5000+",
+"time": "2026-11-15T13:50:00+00:00",
+"news": [
+{
+"title": "日 APBC 우승 제물은 3연속 한국... 11년째 일본전 무승 이어가",
+"source": "조선일보",
+"link": "https://www.chosun.com/sports/baseball/2026/11/15/236G5T6ILFDGNOMZQAC3BJM7M4/"
+},
+{
+"title": "APBC 야구대표팀, 일본에 져 준우승‥일본전 13연패",
+"source": "MBC 뉴스",
+"link": "https://imnews.imbc.com/news/2026/sports/article/6865836_36946.html"
+}
+],
+"new": false
+},
+{
 "term": "입양",
 "traffic": "200+",
 "time": "2026-11-15T13:40:00+00:00",
@@ -2434,9 +2452,9 @@
 "link": "https://www.tennis.co.kr/news/articleView.html?idxno=54294"
 },
 {
-"title": "ATP 파이널 2026 예측: 알카라스 1위 후보",
-"source": "Laodong.vn",
-"link": "https://ko.laodong.vn/tennis/nhan-dinh-atp-finals-2026-alcaraz-ung-vien-so-1-1800096.ldo"
+"title": "올림픽 경기장의 두 가지 운명…토리노는 ATP 파이널스, 강릉은 무엇을 남겼나",
+"source": "테니스피플",
+"link": "http://www.tennispeople.kr/news/articleView.html?idxno=19838"
 }
 ],
 "new": true
@@ -2473,24 +2491,6 @@
 "title": "\"이제 와서 2억 더 내라고?\"…서초 아파트 주민들 '날벼락' [김용우의 각개전투]",
 "source": "한국경제",
 "link": "https://www.hankyung.com/article/202611146307i"
-}
-],
-"new": true
-},
-{
-"term": "안재석",
-"traffic": "100+",
-"time": "2026-11-15T12:20:00+00:00",
-"news": [
-{
-"title": "[사진]도루 성공하는 쇼지",
-"source": "조선일보",
-"link": "https://www.chosun.com/sports/sports_photo/2026/11/15/HAYDMNBWMI4DCZDEMRSTSNLBMY/"
-},
-{
-"title": "[사진]와타라이 도루를 여유입게 잡는 김휘집 - 머니투데이",
-"source": "머니투데이",
-"link": "https://www.mt.co.kr/sports/2026/11/15/202611151948771072O"
 }
 ],
 "new": true
