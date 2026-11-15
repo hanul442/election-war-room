@@ -1,18 +1,19 @@
 {
-"updated": "2026-11-15T13:21:34.196343+00:00",
+"updated": "2026-11-15T13:23:49.842032+00:00",
 "errors": [],
 "events": [
 {
 "id": "GxjUTk0a2VwMEJSckVtOAoc51311",
 "first": "2026-11-15T13:11:03+00:00",
 "last": "2026-11-15T13:16:22+00:00",
-"updated": "2026-11-15T13:21:34.196343+00:00",
+"updated": "2026-11-15T13:23:49.842032+00:00",
 "headline": "한국 야구, APBC 결승서 일본에 1-5 패배…3회 연속 준우승",
 "cat": "국제",
 "regions": [],
 "sources": [
 "뉴스1",
 "뉴시스",
+"연합뉴스",
 "조선일보",
 "한겨레"
 ],
@@ -36,6 +37,13 @@
 "source": "한겨레",
 "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNVXVJUV9kbjFzSnRCRUQyT2w2dHZwTVcySEU3cGwyQUVjWWs3UmZMUC1ET2I1S2xJYzJucXdQRmg3YVplcHYxQkFITG9SdFdfSWRPOUx2QXFOSjBsSVlyWm9HdThab3hyOGVfaFRKQ2UtUjlIR2lVbW1sdmtFNE9jbUFR?oc=5",
 "time": "2026-11-15T13:14:00+00:00",
+"stage": "후속"
+},
+{
+"title": "한국 야구, APBC 결승서 일본에 1-5 패배…3회 연속 준우승",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261115054800007",
+"time": "2026-11-15T13:16:18+00:00",
 "stage": "후속"
 },
 {
@@ -4232,54 +4240,6 @@
 "즉시",
 "추문"
 ]
-},
-{
-"id": "BZzJJa3N0aWNYZ25vbTc4oc50722",
-"first": "2026-11-15T07:22:00+00:00",
-"last": "2026-11-15T07:23:00+00:00",
-"updated": "2026-11-15T07:32:19.721339+00:00",
-"headline": "'안세영 없으면 내가 최강!' 日 야마구치, 中 왕즈이 21-14 눌렀다...18분 만에 1게임 승리→4개월 만의 우승 눈앞",
-"cat": "기타",
-"regions": [],
-"sources": [
-"OSEN",
-"조선일보"
-],
-"updates": [
-{
-"title": "[속보] '안세영 없으면 내가 최강!' 日 야마구치, 中 왕즈이 21-14 눌렀다...18분 만에 1게임 승리→4개월 만의 우승 눈앞",
-"source": "OSEN",
-"link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1lY2JVcVh0TmNaeDZoOTc2aGtrUlVmN19UMEtSckxBdHNWNE9NZWI1U25VSzBmc25TUXZfRHhQek14am5BZzJJa3N0aWNYZ25vbTc4?oc=5",
-"time": "2026-11-15T07:22:00+00:00",
-"stage": "얼럿"
-},
-{
-"title": "[속보] '안세영 없으면 내가 최강!' 日 야마구치, 中 왕즈이 21-14 눌렀다...18분 만에 1게임 승리→4개월 만의 우승 눈앞",
-"source": "조선일보",
-"link": "https://www.chosun.com/sports/sports_general/2026/11/15/MQYTQYZXMUZTMZJWME2TAN3FGE/",
-"time": "2026-11-15T07:23:00+00:00",
-"stage": "속보"
-}
-],
-"level": "URGENT",
-"latest": "'안세영 없으면 내가 최강!' 日 야마구치, 中 왕즈이 21-14 눌렀다...18분 만에 1게임 승리→4개월 만의 우승 눈앞",
-"tok": [
-"18분",
-"1게임",
-"4개월",
-"내가",
-"눈앞",
-"눌렀다",
-"만에",
-"만의",
-"승리",
-"안세영",
-"야마구치",
-"없으면",
-"왕즈",
-"우승",
-"최강"
-]
 }
 ],
 "sns": {
@@ -4325,18 +4285,18 @@
 "spike": false
 },
 "속보": {
-"n30": 8,
+"n30": 7,
 "base": 0.1,
 "spike": true
 },
 "지하철": {
-"n30": 2,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
 "사고": {
 "n30": 6,
-"base": 4.0,
+"base": 4.2,
 "spike": false
 },
 "실종": {
@@ -4591,24 +4551,24 @@
 "spikes": [
 {
 "term": "속보",
-"n30": 8,
+"n30": 7,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-15T13:21:34.196343+00:00"
+"since": "2026-11-15T13:23:49.842032+00:00"
 }
 ],
 "baseline": {
-"지진": 0.51,
+"지진": 0.56,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.19,
+"폭발": 0.17,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
 "지하철": 0.05,
-"사고": 4.16,
+"사고": 4.34,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -4793,6 +4753,24 @@
 },
 "trends": [
 {
+"term": "안재석",
+"traffic": "100+",
+"time": "2026-11-15T12:20:00+00:00",
+"news": [
+{
+"title": "[사진]와타라이 도루를 여유입게 잡는 김휘집",
+"source": "조선일보",
+"link": "https://www.chosun.com/sports/sports_photo/2026/11/15/GNQTCNJWMYZTSZLFGNSTQNDCHA/"
+},
+{
+"title": "[사진]홈에서 아웃되는 김주원 - 머니투데이",
+"source": "머니투데이",
+"link": "https://www.mt.co.kr/sports/2026/11/14/202611142012773759O"
+}
+],
+"new": true
+},
+{
 "term": "공습",
 "traffic": "200+",
 "time": "2026-11-15T12:10:00+00:00",
@@ -4875,9 +4853,9 @@
 "link": "https://www.koreadaily.com/article/20261114203812294"
 },
 {
-"title": "FAA 운항중단에 미국 스포츠도 비상…NBA·NHL·대학 경기 연쇄 차질",
-"source": "경향신문",
-"link": "https://www.khan.co.kr/article/202611151831001"
+"title": "미국 항공대란 여파 6500여편 결항…“15일 완전 정상화 예상”",
+"source": "KBS 뉴스",
+"link": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8713173"
 }
 ],
 "new": false
@@ -4950,24 +4928,6 @@
 "title": "[사진]첫 타석 삼진으로 물러나는 김도영 - 머니투데이",
 "source": "머니투데이",
 "link": "https://www.mt.co.kr/sports/2026/11/15/202611151915779379O"
-}
-],
-"new": true
-},
-{
-"term": "전국노래자랑",
-"traffic": "1000+",
-"time": "2026-11-15T10:00:00+00:00",
-"news": [
-{
-"title": "'전국노래자랑' 영광에 박서진·박군·김혜연 초대가수 총출동",
-"source": "국제뉴스",
-"link": "https://www.gukjenews.com/news/articleView.html?idxno=3752338"
-},
-{
-"title": "'전국노래자랑' 박서진·박군·김혜연·미스김·상호상민 '축제의 장'",
-"source": "비즈엔터",
-"link": "https://enter.etoday.co.kr/news/view/305251"
 }
 ],
 "new": true
