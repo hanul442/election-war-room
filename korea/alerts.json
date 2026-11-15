@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-15T09:33:38.688248+00:00",
+"updated": "2026-11-15T09:35:50.936399+00:00",
 "errors": [],
 "events": [
 {
@@ -356,13 +356,14 @@
 "id": "wNISX20261115_00038687390852",
 "first": "2026-11-15T08:52:54+00:00",
 "last": "2026-11-15T09:23:51+00:00",
-"updated": "2026-11-15T09:31:28.001322+00:00",
+"updated": "2026-11-15T09:35:50.936399+00:00",
 "headline": "김민석, 최민희 감찰 조사결과 보고받고 윤리심판원 이첩 지시",
 "cat": "기타",
 "regions": [],
 "sources": [
 "Chosunbiz",
 "YTN",
+"www.ppss.kr",
 "뉴시스",
 "머니투데이",
 "문화일보",
@@ -459,6 +460,13 @@
 "stage": "속보"
 },
 {
+"title": "[속보] 김민석, 최민희 '언행 논란' 윤리심판원 이첩 지시…징계 여부 주목",
+"source": "www.ppss.kr",
+"link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5NRXBEdk5VZW50dUxzcHZfdi1VR256OVBuUkg3SlluNHlqQ2hXMDNQcDlfWm1IcWRmNEJ5YkVIVXpDeE53d1V3cFIxT3B2MVVFWV9xNGpnODltQXRZS0FEdTE0Ujc?oc=5",
+"time": "2026-11-15T09:19:54+00:00",
+"stage": "속보"
+},
+{
 "title": "김민석, 최민희 감찰 조사결과 보고받고 윤리심판원 이첩 지시",
 "source": "뉴시스",
 "link": "https://www.newsis.com/view/NISX20261115_0003868754",
@@ -481,10 +489,12 @@
 "보고받아",
 "수순",
 "언행",
+"여부",
 "윤리심판원",
 "윤리심판원으",
 "이첩",
 "조사결",
+"주목",
 "지시",
 "징계",
 "징계받나",
@@ -4575,7 +4585,7 @@
 "terms": {
 "지진": {
 "n30": 2,
-"base": 0.4,
+"base": 0.5,
 "spike": false
 },
 "화재": {
@@ -4609,22 +4619,22 @@
 "spike": false
 },
 "미사일": {
-"n30": 3,
-"base": 1.3,
+"n30": 2,
+"base": 1.4,
 "spike": false
 },
 "속보": {
-"n30": 13,
-"base": 0.8,
+"n30": 14,
+"base": 0.7,
 "spike": true
 },
 "지하철": {
 "n30": 3,
-"base": 0.2,
+"base": 0.1,
 "spike": false
 },
 "사고": {
-"n30": 4,
+"n30": 5,
 "base": 4.1,
 "spike": false
 },
@@ -4655,6 +4665,26 @@
 }
 },
 "posts": [
+{
+"text": "[속보] 아오삼 복구됨",
+"handle": "atthemill.bsky.social",
+"name": "방아",
+"time": "2026-11-15T09:35:23.345Z",
+"likes": 1,
+"reposts": 0,
+"url": "https://bsky.app/profile/atthemill.bsky.social/post/3n2dpkpgzys2o",
+"term": "속보"
+},
+{
+"text": "헐..…사고가 있었구나….",
+"handle": "password1220.bsky.social",
+"name": "𓆨",
+"time": "2026-11-15T09:33:36.343Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/password1220.bsky.social/post/3n2dphjxh5k2q",
+"term": "사고"
+},
 {
 "platform": "YouTube",
 "text": "[월드코인] 긴급속보 대폭락장 '마지막 역전기회' 절대 걱정하지마세요. '이렇게' 준비하면 '대박 역전' 가능합니다.",
@@ -4897,16 +4927,6 @@
 "url": "https://www.youtube.com/watch?v=UXyYWEteQT4"
 },
 {
-"text": "슬랙스랑 머리망 기본으로 사고... 뭔가 좀 화장한 티가 더 나야 할 것 같아서 쿠션(비쌈)이랑 블러셔 삼 ㄱ- ",
-"handle": "achtree.bsky.social",
-"name": "물푸",
-"time": "2026-11-15T09:06:55.346Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/achtree.bsky.social/post/3n2dnxtnrp32l",
-"term": "사고"
-},
-{
 "platform": "YouTube",
 "text": "[속보] 윤상현, 한동훈 징계 논란 언급하며 \"장동혁, 이제 결단할 때\" [뉴스플레이리스트] / 채널A",
 "handle": "UCfq4V1DAuaojnr2ryvWNysw",
@@ -4928,24 +4948,24 @@
 "spikes": [
 {
 "term": "속보",
-"n30": 13,
-"base": 0.8,
+"n30": 14,
+"base": 0.7,
 "spike": true,
-"since": "2026-11-15T09:33:38.688248+00:00"
+"since": "2026-11-15T09:35:50.936399+00:00"
 }
 ],
 "baseline": {
-"지진": 0.45,
-"화재": 0.72,
+"지진": 0.51,
+"화재": 0.75,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.22,
-"붕괴": 0.07,
+"폭발": 0.2,
+"붕괴": 0.06,
 "대피": 0.05,
-"미사일": 1.39,
-"속보": 0.71,
-"지하철": 0.14,
-"사고": 4.08,
+"미사일": 1.45,
+"속보": 0.74,
+"지하철": 0.13,
+"사고": 4.17,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -5155,6 +5175,24 @@
 "new": true
 },
 {
+"term": "압류",
+"traffic": "100+",
+"time": "2026-11-15T08:20:00+00:00",
+"news": [
+{
+"title": "교도소 수감 JMS 정명석, 영치금 못 쓴다···2인자 영치금 이어 압류",
+"source": "경향신문",
+"link": "https://www.khan.co.kr/article/202611150948011"
+},
+{
+"title": "징역 17년 정명석, 교도소 영치금까지 압류…JMS 교단 예금도 묶였다",
+"source": "경기일보",
+"link": "https://www.kyeonggi.com/article/20261115580276"
+}
+],
+"new": true
+},
+{
 "term": "개혁",
 "traffic": "200+",
 "time": "2026-11-15T08:10:00+00:00",
@@ -5168,6 +5206,24 @@
 "title": "李대통령 \"개혁 방해 용납 어렵다\"…장동혁 \"개혁 아닌 망국정책\" - 머니투데이",
 "source": "머니투데이",
 "link": "https://www.mt.co.kr/politics/2026/11/15/2026111516560851137"
+}
+],
+"new": true
+},
+{
+"term": "김건우",
+"traffic": "100+",
+"time": "2026-11-15T08:10:00+00:00",
+"news": [
+{
+"title": "김건우 vs 다카하시, APBC 결승 선발…김도영은 설욕 나선다",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261115011300007"
+},
+{
+"title": "'한일전 12연패 끊나' 한동희 사구→안현민 4번 DH, 문현빈 우익수 선발…최원호 감독 \"선발 등판했던 투수들 제외 전부 대기\" [오!쎈 도쿄]",
+"source": "조선일보",
+"link": "https://www.chosun.com/sports/baseball/2026/11/15/HBSGKYRVGY4TGZRVGJSTGMRVGU/"
 }
 ],
 "new": true
@@ -5217,27 +5273,9 @@
 },
 {
 "term": "부산 kcc 대 대구 한국가스공사",
-"traffic": "1000+",
-"time": "2026-11-15T07:10:00+00:00",
-"news": [],
-"new": true
-},
-{
-"term": "구자욱",
 "traffic": "2000+",
 "time": "2026-11-15T07:10:00+00:00",
-"news": [
-{
-"title": "삼성 구자욱, MLB 도전 추진…“좌타자 전문 에이전트 선임”",
-"source": "KBS 뉴스",
-"link": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8712231"
-},
-{
-"title": "미네소타 1루수 고민, KBO리그에서 답 찾나? 美 매체가 주목한 삼성 우승 영웅",
-"source": "조선일보",
-"link": "https://www.chosun.com/sports/baseball/2026/11/15/GVRDAYJWHFTGEZBQG4ZTEYLFG4/"
-}
-],
+"news": [],
 "new": true
 },
 {
@@ -5259,37 +5297,19 @@
 "new": true
 },
 {
-"term": "화물선",
-"traffic": "200+",
+"term": "구자욱",
+"traffic": "2000+",
 "time": "2026-11-15T07:10:00+00:00",
 "news": [
 {
-"title": "‘미시시피의 기적’…유람선-화물선 충돌, 180명 전원 구조",
+"title": "삼성 구자욱, MLB 도전 추진…“좌타자 전문 에이전트 선임”",
 "source": "KBS 뉴스",
-"link": "https://news.kbs.co.kr/news/view.do?ncd=8712959"
+"link": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8712231"
 },
 {
-"title": "대형 크루즈 ‘쾅!’ 전복됐는데…탑승객 180여명 모두 무사 ‘기적’",
-"source": "동아일보",
-"link": "https://www.donga.com/news/Inter/article/all/20261114/135024107/1"
-}
-],
-"new": false
-},
-{
-"term": "의료",
-"traffic": "500+",
-"time": "2026-11-15T06:50:00+00:00",
-"news": [
-{
-"title": "‘부산의료산업대상’ 대상에 이샘병원 이성근 병원장",
-"source": "부산일보",
-"link": "https://mobile.busan.com/view/busan/view.php?code=2026111509463124239"
-},
-{
-"title": "대구광역시, 시안 의료·교육기관과 협약 추진...공동사업 발굴",
-"source": "국제뉴스",
-"link": "https://www.gukjenews.com/news/articleView.html?idxno=3752326"
+"title": "미네소타 1루수 고민, KBO리그에서 답 찾나? 美 매체가 주목한 삼성 우승 영웅",
+"source": "조선일보",
+"link": "https://www.chosun.com/sports/baseball/2026/11/15/GVRDAYJWHFTGEZBQG4ZTEYLFG4/"
 }
 ],
 "new": true
