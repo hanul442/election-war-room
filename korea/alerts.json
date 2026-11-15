@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-15T00:21:57.967805+00:00",
+"updated": "2026-11-15T00:24:16.797869+00:00",
 "errors": [],
 "events": [
 {
@@ -685,8 +685,8 @@
 "spike": false
 },
 "화재": {
-"n30": 1,
-"base": 0.7,
+"n30": 0,
+"base": 0.8,
 "spike": false
 },
 "불났": {
@@ -700,13 +700,13 @@
 "spike": false
 },
 "폭발": {
-"n30": 5,
-"base": 0.7,
-"spike": true
+"n30": 4,
+"base": 0.8,
+"spike": false
 },
 "붕괴": {
-"n30": 1,
-"base": 0.7,
+"n30": 0,
+"base": 0.8,
 "spike": false
 },
 "대피": {
@@ -731,7 +731,7 @@
 },
 "사고": {
 "n30": 3,
-"base": 1.3,
+"base": 1.5,
 "spike": false
 },
 "실종": {
@@ -954,16 +954,6 @@
 "url": "https://www.youtube.com/watch?v=90QHDcw7Wh8"
 },
 {
-"text": "[더 터널]\n터널 속 차량화재로 인한 재난영화인데, 붕괴도 없고 연쇄폭발도 없이 너무 담백하다. 구조에 나선 소방관들도 숫자가 몇명 안 되어서 구조작업이 제대로 되고 있다는 인상도 없음. \n#폴외이",
-"handle": "yukay.bsky.social",
-"name": "YuKey",
-"time": "2026-11-14T23:52:25.652Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/yukay.bsky.social/post/3n2coy6wrts2w",
-"term": "화재"
-},
-{
 "platform": "YouTube",
 "text": "버블 붕괴신호",
 "handle": "UCGuahdzy-Cjx98cZmaLE7Dg",
@@ -975,32 +965,25 @@
 ],
 "spikes": [
 {
-"term": "폭발",
-"n30": 5,
-"base": 0.7,
-"spike": true,
-"since": "2026-11-15T00:21:57.967805+00:00"
-},
-{
 "term": "속보",
 "n30": 6,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-15T00:21:57.967805+00:00"
+"since": "2026-11-15T00:24:16.797869+00:00"
 }
 ],
 "baseline": {
 "지진": 0.05,
-"화재": 0.77,
+"화재": 0.69,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.77,
-"붕괴": 0.77,
+"폭발": 0.69,
+"붕괴": 0.69,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
 "지하철": 0.05,
-"사고": 1.5,
+"사고": 1.65,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -1185,6 +1168,42 @@
 },
 "trends": [
 {
+"term": "고현정",
+"traffic": "200+",
+"time": "2026-11-14T23:20:00+00:00",
+"news": [
+{
+"title": "고현정, 공항에서 이렇게까지 예쁠 수가…뼈말라 늘씬 자태 뽐내며 \"제주 1일\"",
+"source": "Chosunbiz",
+"link": "https://biz.chosun.com/entertainment/enter_general/2026/11/14/HBSDGMTBHE2DAZJWGVRGGYRQGU/"
+},
+{
+"title": "'55세' 고현정, 나이 잊은 동안 비주얼…방부제 미모 [N샷]",
+"source": "뉴스1",
+"link": "https://www.news1.kr/entertain/celebrity-topic/6354137"
+}
+],
+"new": true
+},
+{
+"term": "삼양식품",
+"traffic": "200+",
+"time": "2026-11-14T23:20:00+00:00",
+"news": [
+{
+"title": "\"새 공장서 쭉쭉 잘 뽑아낼테니 주가 190만원 거뜬\"…단순 유행 넘어섰다는 이 회사[주末머니]",
+"source": "아시아경제",
+"link": "https://core.asiae.co.kr/article/2026111310555774285"
+},
+{
+"title": "해외 매출 '8할' 넘긴 불닭…삼양식품, 韓·中·베트남 생산벨트 구축",
+"source": "뉴스1",
+"link": "https://www.news1.kr/industry/distribution/6352296"
+}
+],
+"new": true
+},
+{
 "term": "진중권",
 "traffic": "100+",
 "time": "2026-11-14T23:10:00+00:00",
@@ -1216,24 +1235,6 @@
 "title": "LoL 신규 클라이언트 ‘아리’ 미쳤네",
 "source": "게임톡",
 "link": "https://www.gametoc.co.kr/news/articleView.html?idxno=113098"
-}
-],
-"new": true
-},
-{
-"term": "볼로디미르 젤렌스키",
-"traffic": "1000+",
-"time": "2026-11-14T22:20:00+00:00",
-"news": [
-{
-"title": "젤렌스키 \"美, '우크라 나토 가입 대가' 돈바스 양도안 질의\"(종합)",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261114045251109"
-},
-{
-"title": "젤렌스키, “미국, 우크라이나에 나토 가입 대가로 돈바스 양도안 제안”",
-"source": "VOA 한국어 홈페이지",
-"link": "https://www.voakorea.com/a/8223723.html"
 }
 ],
 "new": true
@@ -1305,14 +1306,14 @@
 "time": "2026-11-14T21:50:00+00:00",
 "news": [
 {
-"title": "SK하이닉스: 100조 원 벌고, 100조 원 주주환원해요",
-"source": "네이버페이 머니스토리",
-"link": "https://story.pay.naver.com/content/3844"
+"title": "'빚투' 자금 30%가 삼전·닉스에 집중…변동성 더 키웠다",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261114028800008"
 },
 {
-"title": "[쏙쏙뉴스] 하이닉스 영업이익률 80%? 알고 보면 아찔한 상황",
-"source": "OhmyNews",
-"link": "https://m.ohmynews.com/NWS_Web/Mobile/mov_pg.aspx?CNTN_CD=ME000116644"
+"title": "'빚투' 속 개미 여윳돈 말라가나…마통 4년 3개월 만에 최대",
+"source": "매일경제 마켓",
+"link": "https://stock.mk.co.kr/news/view/1198960"
 }
 ],
 "new": true
@@ -1331,24 +1332,6 @@
 "title": "'100일의 거짓말' 박진영, 김유정 밀정 정체 알고도 사랑 시작…시청률 8.0% [종합] - 머니투데이",
 "source": "머니투데이",
 "link": "https://www.mt.co.kr/entertainment/2026/11/15/2026111508157290086"
-}
-],
-"new": true
-},
-{
-"term": "메이저 리그 베이스볼",
-"traffic": "500+",
-"time": "2026-11-14T21:50:00+00:00",
-"news": [
-{
-"title": "삼성 구자욱, MLB 도전 추진…“좌타자 전문 에이전트 선임”",
-"source": "KBS 뉴스",
-"link": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8712231"
-},
-{
-"title": "'한국시리즈 MVP' 구자욱‥메이저리그 도전 선언",
-"source": "MBC 뉴스",
-"link": "https://imnews.imbc.com/replay/2026/nwdesk/article/6865543_37004.html"
 }
 ],
 "new": true
