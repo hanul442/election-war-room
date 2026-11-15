@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-15T10:33:03.892765+00:00",
+"updated": "2026-11-15T10:35:15.602640+00:00",
 "errors": [],
 "events": [
 {
@@ -4761,7 +4761,7 @@
 },
 "붕괴": {
 "n30": 0,
-"base": 0.8,
+"base": 0.7,
 "spike": false
 },
 "대피": {
@@ -4775,9 +4775,9 @@
 "spike": false
 },
 "속보": {
-"n30": 5,
-"base": 0.3,
-"spike": true
+"n30": 3,
+"base": 0.2,
+"spike": false
 },
 "지하철": {
 "n30": 5,
@@ -4786,7 +4786,7 @@
 },
 "사고": {
 "n30": 2,
-"base": 2.2,
+"base": 2.1,
 "spike": false
 },
 "실종": {
@@ -5010,27 +5010,19 @@
 "url": "https://www.youtube.com/watch?v=_vE344IkDao"
 }
 ],
-"spikes": [
-{
-"term": "속보",
-"n30": 5,
-"base": 0.3,
-"spike": true,
-"since": "2026-11-15T10:33:03.892765+00:00"
-}
-],
+"spikes": [],
 "baseline": {
-"지진": 0.11,
-"화재": 0.08,
+"지진": 0.1,
+"화재": 0.07,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.29,
-"붕괴": 0.74,
+"폭발": 0.26,
+"붕괴": 0.67,
 "대피": 0.05,
-"미사일": 0.13,
-"속보": 0.24,
-"지하철": 2.09,
-"사고": 2.15,
+"미사일": 0.12,
+"속보": 0.22,
+"지하철": 2.08,
+"사고": 2.14,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -5243,9 +5235,27 @@
 "link": "https://www.khan.co.kr/article/202611150948011"
 },
 {
-"title": "징역 17년 정명석, 교도소 영치금까지 압류…JMS 교단 예금도 묶였다",
-"source": "경기일보",
-"link": "https://www.kyeonggi.com/article/20261115580276"
+"title": "‘여신도 성폭행’ 정명석, 영치금 한 푼도 못 쓴다…압류 조치 왜",
+"source": "미주중앙일보",
+"link": "https://www.koreadaily.com/article/20261114181520397"
+}
+],
+"new": true
+},
+{
+"term": "김건우",
+"traffic": "500+",
+"time": "2026-11-15T08:10:00+00:00",
+"news": [
+{
+"title": "김건우 vs 다카하시, APBC 결승 선발…김도영은 설욕 나선다",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261115011300007"
+},
+{
+"title": "'우승 도전' 한국, 김지찬-김도영 테이블세터 유지…안현민, 4번 지명타자",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261115_0003868749"
 }
 ],
 "new": true
@@ -5269,32 +5279,19 @@
 "new": true
 },
 {
-"term": "김건우",
-"traffic": "200+",
-"time": "2026-11-15T08:10:00+00:00",
-"news": [
-{
-"title": "김건우 vs 다카하시, APBC 결승 선발…김도영은 설욕 나선다",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261115011300007"
-},
-{
-"title": "'한일전 12연패 끊나' 한동희 사구→안현민 4번 DH, 문현빈 우익수 선발…최원호 감독 \"선발 등판했던 투수들 제외 전부 대기\" [오!쎈 도쿄]",
-"source": "조선일보",
-"link": "https://www.chosun.com/sports/baseball/2026/11/15/HBSGKYRVGY4TGZRVGJSTGMRVGU/"
-}
-],
-"new": true
-},
-{
 "term": "창원 lg 대 수원 kt",
-"traffic": "500+",
+"traffic": "2000+",
 "time": "2026-11-15T07:30:00+00:00",
 "news": [
 {
-"title": "[포토] 소노, 한국가스공사에 88-87로 승리",
-"source": "점프볼",
-"link": "https://jumpball.co.kr/news/newsview.php?ncode=1065619927051376"
+"title": "5연패 온데간데 없다…고양 소노, 거침없는 ‘3연승 질주’",
+"source": "경기일보",
+"link": "https://www.kyeonggi.com/article/20261115580287"
+},
+{
+"title": "[현장인터뷰]'패장' 이규섭 감독 \"레이션 해먼즈, 넘어지면서 통증…무리하지 않겠다\"",
+"source": "조선일보",
+"link": "https://www.chosun.com/sports/basketball/2026/11/15/MJTDEMZRMMYDOOBVGBRGCNJSMQ/"
 }
 ],
 "new": false
@@ -5319,7 +5316,7 @@
 },
 {
 "term": "박태환",
-"traffic": "200+",
+"traffic": "500+",
 "time": "2026-11-15T07:20:00+00:00",
 "news": [
 {
