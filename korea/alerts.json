@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-15T16:47:44.616374+00:00",
+"updated": "2026-11-15T16:50:05.465809+00:00",
 "errors": [],
 "events": [
 {
@@ -1969,66 +1969,6 @@
 "지진",
 "해역서"
 ]
-},
-{
-"id": "lhTdTBOcDU4VktvYmF6Zwoc50935",
-"first": "2026-11-15T09:35:32+00:00",
-"last": "2026-11-15T10:49:13+00:00",
-"updated": "2026-11-15T10:54:57.991687+00:00",
-"headline": "예산군 대흥면 산불 발생… 인근 도로 주의",
-"cat": "재난",
-"regions": [
-"경기"
-],
-"sources": [
-"스페셜타임스",
-"프레시안"
-],
-"updates": [
-{
-"title": "[속보] 예산군 대흥면 산불 발생… 인근 도로 주의",
-"source": "스페셜타임스",
-"link": "https://news.google.com/rss/articles/CBMickFVX3lxTE50UHdycUUzWlRwWHUtUmJ6Rk9xV1dwQXFYcUFCUDVIcnlYZExhVFowSVItbXYteWt6TGE3TGF4eUs0a09pdnZFSFQwYVcyUUZkNUFSellORVJGNUd4ZWlhNWtjblhTdTBOcDU4VktvYmF6Zw?oc=5",
-"time": "2026-11-15T09:35:32+00:00",
-"stage": "얼럿"
-},
-{
-"title": "[속보] 예산군 대흥면 산불 발생… 인근 도로 주의",
-"source": "스페셜타임스",
-"link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1WUi11bi1LVHJaSHF0OW9rMzR2bGJwZzE1UDl2OEp4SER1Y1ZVTmNmLVNRekxsVk11c1JyeGt2QTFzSDB0ZWhSZ2JndU9ndzhKTnF2bDJlRk5qTW1uWjFQZWYySDZvcUk1NUdSSTRVZHFCWFE?oc=5",
-"time": "2026-11-15T09:35:32+00:00",
-"stage": "속보"
-},
-{
-"title": "[속보] 파주시 광탄면 산불… 인근 도로 주의",
-"source": "스페셜타임스",
-"link": "https://news.google.com/rss/articles/CBMickFVX3lxTE4ybHdoZnYzdTllZWxCSWo4eHU1R2RyZU9JWXFSSzVIRUZRMUZtNXJBQkVfcXI1TTdscHp3aWItYkl1UENRYl9WYnFEenIyVnRQZWkydk4xNVhFYnppVGVuMkxfX2tEUkpmYkkxTlpXdzlCQQ?oc=5",
-"time": "2026-11-15T10:35:28+00:00",
-"stage": "속보"
-},
-{
-"title": "[속보] 파주 광탄면에서 산불 발생",
-"source": "프레시안",
-"link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA2VnBMc2tsUmJoc18ybVFFWVlQMmJyWnU5STJPLW5GMGZsSDhxVFVhUE45SGNQbHJuRU1QTmdxaW9HbmtMZ3lEbkgwUlNDOU5rdjZoVi1qbWhvY09YMXVfYzNhZzB2RjNDS01FVlZYdGtKWTlTN1YwTWZ6cHJvbWc?oc=5",
-"time": "2026-11-15T10:49:13+00:00",
-"stage": "속보"
-}
-],
-"level": "URGENT",
-"latest": "파주 광탄면에서 산불 발생",
-"tok": [
-"광탄면",
-"광탄면에서",
-"대흥면",
-"도로",
-"발생",
-"산불",
-"예산군",
-"인근",
-"주의",
-"파주",
-"파주시"
-]
 }
 ],
 "sns": {
@@ -2054,13 +1994,13 @@
 "spike": false
 },
 "폭발": {
-"n30": 7,
+"n30": 6,
 "base": 0.1,
 "spike": true
 },
 "붕괴": {
-"n30": 4,
-"base": 0.3,
+"n30": 3,
+"base": 0.2,
 "spike": false
 },
 "대피": {
@@ -2085,7 +2025,7 @@
 },
 "사고": {
 "n30": 0,
-"base": 1.7,
+"base": 1.5,
 "spike": false
 },
 "실종": {
@@ -2336,32 +2276,32 @@
 "spikes": [
 {
 "term": "폭발",
-"n30": 7,
+"n30": 6,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-15T16:47:44.616374+00:00"
+"since": "2026-11-15T16:50:05.465809+00:00"
 },
 {
 "term": "속보",
 "n30": 9,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-15T16:47:44.616374+00:00"
+"since": "2026-11-15T16:50:05.465809+00:00"
 }
 ],
 "baseline": {
-"지진": 0.43,
+"지진": 0.49,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
 "폭발": 0.05,
-"붕괴": 0.23,
+"붕괴": 0.21,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.15,
-"지하철": 0.22,
-"사고": 1.52,
-"실종": 0.07,
+"속보": 0.24,
+"지하철": 0.2,
+"사고": 1.37,
+"실종": 0.06,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
