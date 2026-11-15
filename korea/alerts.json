@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-15T09:11:28.160803+00:00",
+"updated": "2026-11-15T09:13:41.215784+00:00",
 "errors": [],
 "events": [
 {
@@ -56,15 +56,18 @@
 {
 "id": "wNISX20261115_00038687390852",
 "first": "2026-11-15T08:52:54+00:00",
-"last": "2026-11-15T09:00:28+00:00",
-"updated": "2026-11-15T09:09:12.440657+00:00",
+"last": "2026-11-15T09:06:00+00:00",
+"updated": "2026-11-15T09:13:41.215784+00:00",
 "headline": "김민석, 최민희 감찰 조사결과 보고받고 윤리심판원 이첩 지시",
 "cat": "기타",
 "regions": [],
 "sources": [
+"Chosunbiz",
+"YTN",
 "뉴시스",
 "연합뉴스TV",
 "조선일보",
+"채널A",
 "한국일보"
 ],
 "updates": [
@@ -95,16 +98,38 @@
 "link": "https://www.chosun.com/politics/politics_general/2026/11/15/GKQKRAIBVRFWPMCVHGULSMTRCQ/",
 "time": "2026-11-15T09:00:28+00:00",
 "stage": "속보"
+},
+{
+"title": "[속보]김민석, ‘최민희 감찰’ 결과 보고 받고 윤리심판원 이첩 지시",
+"source": "채널A",
+"link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5NbVdXM2lVVnlrcGdxYUh2aGNVSTJRa3pISlVmbzV0M3FSNGdxUlF5VEd2aTRSSWhueHNBay11cHhIZW5KUTlxeFBBSk9FcUFPQWVUQmtZNmZMM3RmUnc?oc=5",
+"time": "2026-11-15T09:01:00+00:00",
+"stage": "속보"
+},
+{
+"title": "속보 김민석, '최민희 감찰 결과' 보고받고 윤리심판원 이첩 지시",
+"source": "YTN",
+"link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBXSDhWdUxna2FRa1N5NVdWbW1TRWE5VXpqVXd0aV8yMy1kUXNyUzZzLVByeHhHdTR1dndLX1lLclJSZFBVdzY2OTZQeDN0dHI3ZEQtbF9SMjdSVXRhdUE?oc=5",
+"time": "2026-11-15T09:01:00+00:00",
+"stage": "후속"
+},
+{
+"title": "[속보] ‘최민희 감찰’ 결과 보고받은 김민석, 윤리심판원 이첩 지시",
+"source": "Chosunbiz",
+"link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQWk5LNURhVEJWa3BjcTEwWC04U1lpN2wtUzVNVzFhVmswUkZpa2tCZy1jSmRnUU1YNXV0dkJGSHpMTWtKWmxXQ1NPRzVNQmdEVllEMkwzbnlDTmpPSHpYalFqQmxjanNPSzdsd0xrMGU3VWZpVjQ4UFZad3NIbFB1MmtMa9IBlwFBVV95cUxOd3U3U0VPYkRWTFhPUjdOczE3bG5COEJjWldDMGtRSTBXdGFndmF1SXFfZjNNQVA5V3I5ODFLT3VPTWRTRXBxNWN3eldraDNVS1JmTDQ0RG1OaGFUYmQ4X00tSERHdmNDMGdWdVk4TGJzUENuTGpFYkpjVXpXSWFBRDJxbEhqSzBhRmhIT3h0SlZUZmVSRjY4?oc=5",
+"time": "2026-11-15T09:06:00+00:00",
+"stage": "속보"
 }
 ],
 "level": "URGENT",
-"latest": "김민석, 최민희 감찰결과 보고받아…윤리심판원 이첩 지시",
+"latest": "‘최민희 감찰’ 결과 보고받은 김민석, 윤리심판원 이첩 지시",
 "tok": [
 "감찰",
 "감찰결",
 "김민석",
 "받고",
 "보고",
+"보고받",
 "보고받고",
 "보고받아",
 "수순",
@@ -4449,8 +4474,8 @@
 "spike": false
 },
 "폭발": {
-"n30": 3,
-"base": 0.7,
+"n30": 2,
+"base": 0.6,
 "spike": false
 },
 "붕괴": {
@@ -4464,23 +4489,23 @@
 "spike": false
 },
 "미사일": {
-"n30": 1,
-"base": 0.1,
+"n30": 2,
+"base": 0.2,
 "spike": false
 },
 "속보": {
-"n30": 5,
+"n30": 4,
 "base": 0.7,
-"spike": true
+"spike": false
 },
 "지하철": {
 "n30": 1,
-"base": 0.5,
+"base": 0.4,
 "spike": false
 },
 "사고": {
-"n30": 4,
-"base": 5.1,
+"n30": 2,
+"base": 5.0,
 "spike": false
 },
 "실종": {
@@ -4510,6 +4535,16 @@
 }
 },
 "posts": [
+{
+"text": "물론 공군이 보유한 미사일중 무보수 시스템이 적용된 미사일이 있습니다. 이경우 수명이 아주 무지막지해지는데, 바로 AIM-120이 그런 케이스인데, 컨테이너에 봉입만 잘 되어 있으면 50년 보관도 가능합니다.\n\n컨테이너 봉입만 깨져있지 않으면 도중에 점검할 필요도 없고 50년 뒤에 꺼내서 동봉된 날개만 조립하면 바로 사용가능. (...............)",
+"handle": "nfsc.bsky.social",
+"name": "단순한생각",
+"time": "2026-11-15T09:13:05.146Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/nfsc.bsky.social/post/3n2docsakjs2u",
+"term": "미사일"
+},
 {
 "text": "뻥궁의 경우 약간 더 첨언(?)을 하자면 무보수 시스템을 적용하지 않는 이상(문제는 이게 굉장히 하이테크놀러지임. 유럽도 아직 완벽하지 않고 미국정도나 보편적으로 설계적용하고 한국에서는 아직 독자 기술이 없음) 미사일은 수명이 정해져있는데, 구소련-러시아 시스템을 기반으로 한 뻥궁 발사체의 수명은 10년정도가 한계임.\n\n왜? 구소련-러시아는 그게 가장 경제적이라는 판단하에 그정도에 맞춰서 설",
 "handle": "nfsc.bsky.social",
@@ -4611,26 +4646,6 @@
 "likes": 0,
 "reposts": 0,
 "url": "https://bsky.app/profile/k9758898.bsky.social/post/3n2dmoebna224",
-"term": "사고"
-},
-{
-"text": "일 안 하는데 짜잘한곳에 돈을 막 씀 어쩔수없다 옷 안 사고 거지같이 다녀야겠다",
-"handle": "password1220.bsky.social",
-"name": "𓆨",
-"time": "2026-11-15T08:43:23.442Z",
-"likes": 1,
-"reposts": 0,
-"url": "https://bsky.app/profile/password1220.bsky.social/post/3n2dmnqimfc2k",
-"term": "사고"
-},
-{
-"text": "죄다 품절이라 사고시픈거업슴 굿굿",
-"handle": "niniing.bsky.social",
-"name": "니닝",
-"time": "2026-11-15T08:43:09.345Z",
-"likes": 1,
-"reposts": 0,
-"url": "https://bsky.app/profile/niniing.bsky.social/post/3n2dmnclrzc2h",
 "term": "사고"
 },
 {
@@ -4751,27 +4766,19 @@
 "url": "https://www.youtube.com/watch?v=VbtYT4AOQRE"
 }
 ],
-"spikes": [
-{
-"term": "속보",
-"n30": 5,
-"base": 0.7,
-"spike": true,
-"since": "2026-11-15T09:11:28.160803+00:00"
-}
-],
+"spikes": [],
 "baseline": {
 "지진": 0.05,
-"화재": 0.31,
+"화재": 0.28,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.62,
-"붕괴": 0.19,
+"폭발": 0.56,
+"붕괴": 0.17,
 "대피": 0.05,
-"미사일": 0.24,
-"속보": 0.72,
-"지하철": 0.41,
-"사고": 4.98,
+"미사일": 0.42,
+"속보": 0.75,
+"지하철": 0.37,
+"사고": 4.68,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -4965,6 +4972,24 @@
 },
 "trends": [
 {
+"term": "개혁",
+"traffic": "200+",
+"time": "2026-11-15T08:10:00+00:00",
+"news": [
+{
+"title": "이 대통령 \"개혁의 이름 빌려 개혁 방해하는 건 용납 어려워\"",
+"source": "MBC 뉴스",
+"link": "https://imnews.imbc.com/news/2026/politics/article/6865766_36911.html"
+},
+{
+"title": "“등 뒤 화살” 이어 “개혁 방해”…이 대통령, 민주 강경파에 ‘경고장’",
+"source": "한겨레",
+"link": "https://www.hani.co.kr/arti/politics/bluehouse/1287382.html"
+}
+],
+"new": true
+},
+{
 "term": "창원 lg 대 수원 kt",
 "traffic": "500+",
 "time": "2026-11-15T07:30:00+00:00",
@@ -5103,24 +5128,6 @@
 }
 ],
 "new": false
-},
-{
-"term": "서버",
-"traffic": "200+",
-"time": "2026-11-15T06:10:00+00:00",
-"news": [
-{
-"title": "\"북한 라자루스, 국내 서버 30곳 노렸다\"",
-"source": "MBC 뉴스",
-"link": "https://imnews.imbc.com/replay/2026/nw1200/article/6865762_36967.html"
-},
-{
-"title": "“한국 IP 대역 유망” 北 해킹조직 라자루스, 국내 서버 30곳 노렸다",
-"source": "동아일보",
-"link": "https://www.donga.com/news/It/article/all/20261115/135026012/1"
-}
-],
-"new": true
 }
 ],
 "trendSeen": [
