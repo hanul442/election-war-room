@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-15T00:12:46.252960+00:00",
+"updated": "2026-11-15T00:15:07.550951+00:00",
 "errors": [],
 "events": [
 {
@@ -721,7 +721,7 @@
 },
 "사고": {
 "n30": 3,
-"base": 0.5,
+"base": 0.7,
 "spike": false
 },
 "실종": {
@@ -756,7 +756,7 @@
 "handle": "dduddu.bsky.social",
 "name": "[뿌릿]뚜여우",
 "time": "2026-11-15T00:11:10.044Z",
-"likes": 0,
+"likes": 1,
 "reposts": 0,
 "url": "https://bsky.app/profile/dduddu.bsky.social/post/3n2cpztq5lk2d",
 "term": "사고"
@@ -969,28 +969,28 @@
 "n30": 5,
 "base": 0.6,
 "spike": true,
-"since": "2026-11-15T00:12:46.252960+00:00"
+"since": "2026-11-15T00:15:07.550951+00:00"
 },
 {
 "term": "속보",
 "n30": 6,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-15T00:12:46.252960+00:00"
+"since": "2026-11-15T00:15:07.550951+00:00"
 }
 ],
 "baseline": {
 "지진": 0.05,
-"화재": 0.64,
+"화재": 0.68,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.64,
-"붕괴": 0.64,
+"폭발": 0.68,
+"붕괴": 0.68,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
 "지하철": 0.05,
-"사고": 0.71,
+"사고": 0.94,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -1190,7 +1190,7 @@
 "link": "https://www.ytn.co.kr/_ln/0101_202611150838011540"
 }
 ],
-"new": true
+"new": false
 },
 {
 "term": "롤 인벤",
@@ -1198,14 +1198,32 @@
 "time": "2026-11-14T23:00:00+00:00",
 "news": [
 {
+"title": "대격변급 업데이트, 리그 오브 레전드 '뉴 던' 예고",
+"source": "게임메카",
+"link": "https://www.gamemeca.com/view.php?gid=1783515"
+},
+{
 "title": "LoL 신규 클라이언트 ‘아리’ 미쳤네",
 "source": "게임톡",
 "link": "https://www.gametoc.co.kr/news/articleView.html?idxno=113098"
+}
+],
+"new": true
 },
 {
-"title": "라이엇게임즈, LoL 신규 클라이언트 '뉴 던' 공개… 2027년 1월 출시",
-"source": "인벤",
-"link": "https://www.inven.co.kr/webzine/news/?news=323384"
+"term": "볼로디미르 젤렌스키",
+"traffic": "1000+",
+"time": "2026-11-14T22:20:00+00:00",
+"news": [
+{
+"title": "젤렌스키 \"美, '우크라 나토 가입 대가' 돈바스 양도안 질의\"(종합)",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261114045251109"
+},
+{
+"title": "젤렌스키, “미국, 우크라이나에 나토 가입 대가로 돈바스 양도안 제안”",
+"source": "VOA 한국어 홈페이지",
+"link": "https://www.voakorea.com/a/8223723.html"
 }
 ],
 "new": true
@@ -1265,19 +1283,26 @@
 "new": true
 },
 {
+"term": "fm",
+"traffic": "100+",
+"time": "2026-11-14T22:00:00+00:00",
+"news": [],
+"new": true
+},
+{
 "term": "sk하이닉스",
 "traffic": "20000+",
 "time": "2026-11-14T21:50:00+00:00",
 "news": [
 {
-"title": "\"10년 모은 4억이 와르르\"…'SK하닉 몰빵' 30대 피눈물",
-"source": "한국경제",
-"link": "https://www.hankyung.com/article/2026111465357"
+"title": "SK하이닉스: 100조 원 벌고, 100조 원 주주환원해요",
+"source": "네이버페이 머니스토리",
+"link": "https://story.pay.naver.com/content/3844"
 },
 {
-"title": "“10년 모은 4억이 1억으로…” 반도체 레버리지 투자에 무너진 30대 직장인의 눈물",
-"source": "매일경제 마켓",
-"link": "https://stock.mk.co.kr/news/view/1198926"
+"title": "[쏙쏙뉴스] 하이닉스 영업이익률 80%? 알고 보면 아찔한 상황",
+"source": "OhmyNews",
+"link": "https://m.ohmynews.com/NWS_Web/Mobile/mov_pg.aspx?CNTN_CD=ME000116644"
 }
 ],
 "new": true
@@ -1317,42 +1342,6 @@
 }
 ],
 "new": true
-},
-{
-"term": "엘리나 스비톨리나",
-"traffic": "500+",
-"time": "2026-11-14T21:50:00+00:00",
-"news": [
-{
-"title": "무려 '735억' 잭팟→\"돈 더 달라\"→'파격 시스루 논란' 세계 1위 허무한 굴욕... '또' 분노 조절 실패 '도대체 왜' - 머니투데이",
-"source": "머니투데이",
-"link": "https://www.mt.co.kr/sports/2026/11/15/2026111416335893727"
-},
-{
-"title": "사발렌카 꺾고 기뻐하는 안드레예바",
-"source": "뉴시스",
-"link": "https://mobile.newsis.com/photo/NISI20261112_0002290552"
-}
-],
-"new": true
-},
-{
-"term": "홍현희",
-"traffic": "200+",
-"time": "2026-11-14T21:40:00+00:00",
-"news": [
-{
-"title": "홍현희, 시모 사랑 듬뿍..“子 제이쓴, 왜 아깝다고 하는지 이해 안가” (홍쓴TV)",
-"source": "Chosunbiz",
-"link": "https://biz.chosun.com/entertainment/enter_general/2026/11/14/MQ3GGMJWMVRTKMBVHA4WKMBXMU/"
-},
-{
-"title": "“아버님 영상 보지 마세요” 홍현희, 시母 ‘졸혼’ 고백에 당황",
-"source": "스포츠동아",
-"link": "https://sports.donga.com/ent/article/all/20261114/135023868/1"
-}
-],
-"new": false
 }
 ],
 "trendSeen": [
