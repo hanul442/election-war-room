@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-15T01:03:11.098149+00:00",
+"updated": "2026-11-15T01:05:26.679126+00:00",
 "errors": [],
 "events": [
 {
@@ -1068,7 +1068,7 @@
 },
 "붕괴": {
 "n30": 1,
-"base": 0.1,
+"base": 0.2,
 "spike": false
 },
 "대피": {
@@ -1077,13 +1077,13 @@
 "spike": false
 },
 "미사일": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
 "속보": {
 "n30": 1,
-"base": 0.5,
+"base": 0.6,
 "spike": false
 },
 "지하철": {
@@ -1102,8 +1102,8 @@
 "spike": false
 },
 "단수": {
-"n30": 1,
-"base": 0.7,
+"n30": 0,
+"base": 0.8,
 "spike": false
 },
 "통신 장애": {
@@ -1171,16 +1171,6 @@
 "time": "2026-11-15T00:33:36Z",
 "term": "미사일",
 "url": "https://www.youtube.com/watch?v=KL8P7GhceyY"
-},
-{
-"text": "4mm 랜턴문\n18코 30단…으로 나오는데 오차가 너무 커서 단수는 편물 뜨면서 다시 확인하는 게 낫겠다",
-"handle": "knnut.bsky.social",
-"name": "넛뜨",
-"time": "2026-11-15T00:33:31.656Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/knnut.bsky.social/post/3n2crbnpvx22b",
-"term": "단수"
 },
 {
 "platform": "YouTube",
@@ -1384,20 +1374,20 @@
 "spikes": [],
 "baseline": {
 "지진": 0.05,
-"화재": 0.12,
+"화재": 0.11,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.12,
-"붕괴": 0.22,
+"폭발": 0.11,
+"붕괴": 0.3,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.56,
+"속보": 0.6,
 "지하철": 0.05,
-"사고": 0.78,
+"사고": 0.8,
 "실종": 0.05,
-"단수": 0.77,
+"단수": 0.69,
 "통신 장애": 0.05,
-"먹통": 0.51,
+"먹통": 0.56,
 "산불": 0.05
 },
 "errors": [],
@@ -1723,7 +1713,7 @@
 },
 {
 "term": "롤 인벤",
-"traffic": "500+",
+"traffic": "200+",
 "time": "2026-11-14T23:00:00+00:00",
 "news": [
 {
@@ -1735,6 +1725,24 @@
 "title": "LoL 신규 클라이언트 ‘아리’ 미쳤네",
 "source": "게임톡",
 "link": "https://www.gametoc.co.kr/news/articleView.html?idxno=113098"
+}
+],
+"new": true
+},
+{
+"term": "계엄",
+"traffic": "100+",
+"time": "2026-11-14T23:00:00+00:00",
+"news": [
+{
+"title": "'계엄표결 방해' 추경호 수요일 1심 선고…특검, 징역 20년 구형",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261113175000004"
+},
+{
+"title": "'무죄면 시정 동력, 유죄 땐 대구 전체 또 흔들'…추경호 선고 앞두고 '초긴장'",
+"source": "뉴스1",
+"link": "https://www.news1.kr/local/daegu-gyeongbuk/6350673"
 }
 ],
 "new": true
@@ -1774,24 +1782,6 @@
 }
 ],
 "new": true
-},
-{
-"term": "함덕주",
-"traffic": "500+",
-"time": "2026-11-14T22:10:00+00:00",
-"news": [
-{
-"title": "함덕주, 옵트아웃 행사…시장 나와 새 둥지 찾는다",
-"source": "뉴시스",
-"link": "https://www.newsis.com/view/NISX20261114_0003868178"
-},
-{
-"title": "'후반기 실종→옵트아웃' 함덕주 결국 LG 떠난다, 염경엽 감독의 \"노 코멘트\" 그 말이 힌트였나",
-"source": "SPOTV NEWS",
-"link": "https://www.spotvnews.co.kr/news/articleView.html?idxno=1019868"
-}
-],
-"new": false
 }
 ],
 "trendSeen": [
