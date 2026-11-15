@@ -1,12 +1,12 @@
 {
-"updated": "2026-11-15T02:57:20.463090+00:00",
+"updated": "2026-11-15T02:59:33.218301+00:00",
 "errors": [],
 "events": [
 {
 "id": "dsdnhXdXYyNjBRS1A3Z2Moc50250",
 "first": "2026-11-15T02:50:55+00:00",
 "last": "2026-11-15T02:50:55+00:00",
-"updated": "2026-11-15T02:57:20.463090+00:00",
+"updated": "2026-11-15T02:59:33.218301+00:00",
 "headline": "궁지 몰린 최민희의 '역공'...\"'헤깔린' 발언은 죄송하나, '반분신 비밀연합 논란' 진상규명해야\"",
 "cat": "기타",
 "regions": [],
@@ -20,6 +20,13 @@
 "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE0tOG1TUlYzNmJ3R0RCOGkwY3Z3VWF2RXFHVlNOTDdDbERheUlqMWk3NzNHQzBvZ3lvMnFWOXRFLXlWYnZQc3lPV3cwbmd4R19QYXRTM3AtVHVjLTV1LXFxYkdyUjRpd285c1czX1pPdGdsdnhXdXYyNjBRS1A3Z2M?oc=5",
 "time": "2026-11-15T02:50:55+00:00",
 "stage": "얼럿"
+},
+{
+"title": "[속보] 궁지 몰린 최민희의 '역공'...\"'헤깔린' 발언은 죄송하나, '반분신 비밀연합 논란' 진상규명해야\"",
+"source": "프레시안",
+"link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBUQzhrby1wa1VDdG9GbFBfdlBaQlFoaTIwT3M5bFhyTTBtYWVSYnZGYlJWc2VmdGRWU0kzN25UcHA1TmJHemJaYlE5YVpPaXROUERMT3pWcUtTdEZ4ZEJsSmxiSnFTOWphcV9iUzUyeW9ZeFFvLW9LVm1VZw?oc=5",
+"time": "2026-11-15T02:50:55+00:00",
+"stage": "속보"
 }
 ],
 "level": "URGENT",
@@ -2433,7 +2440,7 @@
 "spike": false
 },
 "폭발": {
-"n30": 4,
+"n30": 3,
 "base": 0.1,
 "spike": false
 },
@@ -2443,7 +2450,7 @@
 "spike": false
 },
 "대피": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -2453,18 +2460,18 @@
 "spike": false
 },
 "속보": {
-"n30": 5,
+"n30": 4,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "지하철": {
-"n30": 6,
-"base": 1.2,
+"n30": 7,
+"base": 1.4,
 "spike": true
 },
 "사고": {
 "n30": 2,
-"base": 3.0,
+"base": 2.9,
 "spike": false
 },
 "실종": {
@@ -2494,6 +2501,16 @@
 }
 },
 "posts": [
+{
+"text": "무릎다치고 나서 굉장히 오랫동안 안 나아가지고 처음엔 부목 대고 지팡이 짚고 다니고 다음엔 지팡이만 짚고 댕겼는데 \n휠체어가 뭐여 이것만 해도 엄청난 차별(?)과 시선을 받을수 있었어요\n부목대고 출퇴근 지하철 탔을때 모든사람의 부정적 시선이 나에게 일제히 꽂히던걸 못잊음 진짜 놀라웠음 특히 중장년이 그렇게 쳐다봐요\n최악의 경우는 뭐였냐면 지팡이 짚고 힘겹게 천천히 환승통로 가는데 어떤 개저씨",
+"handle": "laurelinan.bsky.social",
+"name": "숲숲 ❤️❤️➕🛅🛸",
+"time": "2026-11-15T02:58:05.748Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/laurelinan.bsky.social/post/3n2czecrj622y",
+"term": "지하철"
+},
 {
 "text": "서울 지하철에 엘베가 없다기 보다는 장애인이 이동하기에 불편한 위치에 있는 역이 많다고 보면 되요.. 특히 청량리역",
 "handle": "joinful.bsky.social",
@@ -2727,18 +2744,11 @@
 ],
 "spikes": [
 {
-"term": "속보",
-"n30": 5,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-15T02:57:20.463090+00:00"
-},
-{
 "term": "지하철",
-"n30": 6,
-"base": 1.2,
+"n30": 7,
+"base": 1.4,
 "spike": true,
-"since": "2026-11-15T02:57:20.463090+00:00"
+"since": "2026-11-15T02:59:33.218301+00:00"
 }
 ],
 "baseline": {
@@ -2747,13 +2757,13 @@
 "불났": 0.05,
 "정전": 0.05,
 "폭발": 0.05,
-"붕괴": 0.11,
+"붕괴": 0.1,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 1.38,
-"사고": 2.87,
-"실종": 0.27,
+"지하철": 1.64,
+"사고": 2.78,
+"실종": 0.24,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -3113,9 +3123,9 @@
 "time": "2026-11-15T00:30:00+00:00",
 "news": [
 {
-"title": "세무사 시험 수석 합격자, 경찰에 ‘AI 부정행위’ 자수…“초소형 카메라 이용했다”",
-"source": "경향신문",
-"link": "https://www.khan.co.kr/article/202611151034001"
+"title": "세무사 수석합격자 경찰 자수...\"AI 이용 부정행위\"",
+"source": "YTN",
+"link": "https://www.ytn.co.kr/_cs/_ln_0103_202611151101427839_005.html"
 },
 {
 "title": "[속보] 'AI 안경 의혹' 세무사 수석합격자 \"전자기기·생성형 AI로 부정행위 했다\"",
