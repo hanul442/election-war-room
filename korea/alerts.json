@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-15T02:22:04.027380+00:00",
+"updated": "2026-11-15T02:24:16.108978+00:00",
 "errors": [],
 "events": [
 {
@@ -175,6 +175,38 @@
 "직접",
 "착수",
 "커닝"
+]
+},
+{
+"id": "WJ0UFl4MGY2MDliSzZ6QQoc50217",
+"first": "2026-11-15T02:17:59+00:00",
+"last": "2026-11-15T02:17:59+00:00",
+"updated": "2026-11-15T02:24:16.108978+00:00",
+"headline": "코인원 고객정보 유출…외주업체 해킹에 비밀번호·주민번호까지",
+"cat": "기타",
+"regions": [],
+"sources": [
+"강원도민일보"
+],
+"updates": [
+{
+"title": "[속보] 코인원 고객정보 유출…외주업체 해킹에 비밀번호·주민번호까지",
+"source": "강원도민일보",
+"link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE44bnp1U0Q3d1huMXFFcWFIV0FKUmtkbWF4QXg2QkNYdjhBZk9ia2NKcFVlaDB4NVJCb2w0WmE4OE8zZHF1ZXRNd2ZWMHlEa2FkdjZCWG1GZWJ0UFl4MGY2MDliSzZ6QQ?oc=5",
+"time": "2026-11-15T02:17:59+00:00",
+"stage": "얼럿"
+}
+],
+"level": "URGENT",
+"latest": "코인원 고객정보 유출…외주업체 해킹에 비밀번호·주민번호까지",
+"tok": [
+"고객정보",
+"비밀번호",
+"외주업체",
+"유출",
+"주민번호까지",
+"코인원",
+"해킹"
 ]
 },
 {
@@ -2016,17 +2048,17 @@
 },
 "지하철": {
 "n30": 5,
-"base": 0.6,
+"base": 0.7,
 "spike": true
 },
 "사고": {
 "n30": 5,
-"base": 2.7,
+"base": 2.9,
 "spike": false
 },
 "실종": {
 "n30": 1,
-"base": 0.5,
+"base": 0.6,
 "spike": false
 },
 "단수": {
@@ -2289,14 +2321,14 @@
 "n30": 7,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-15T02:22:04.027380+00:00"
+"since": "2026-11-15T02:24:16.108978+00:00"
 },
 {
 "term": "지하철",
 "n30": 5,
-"base": 0.6,
+"base": 0.7,
 "spike": true,
-"since": "2026-11-15T02:22:04.027380+00:00"
+"since": "2026-11-15T02:24:16.108978+00:00"
 }
 ],
 "baseline": {
@@ -2305,13 +2337,13 @@
 "불났": 0.05,
 "정전": 0.05,
 "폭발": 0.05,
-"붕괴": 0.56,
+"붕괴": 0.5,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.68,
-"사고": 2.93,
-"실종": 0.56,
+"지하철": 0.71,
+"사고": 3.14,
+"실종": 0.6,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -2495,8 +2527,26 @@
 },
 "trends": [
 {
+"term": "항공모함",
+"traffic": "500+",
+"time": "2026-11-15T01:20:00+00:00",
+"news": [
+{
+"title": "한국 해군, F-35B 항모 접고 무인기 20대 탑재 270m 대형 모함 택했다",
+"source": "글로벌이코노믹",
+"link": "https://www.g-enews.com/article/Global-Biz/2026/11/202611150721222083fbbec65dfb_1"
+},
+{
+"title": "증기식 캐터펄트 전환 검토에 USS 도리스 밀러 인도 지연 우려",
+"source": "Meta-Defense",
+"link": "https://meta-defense.fr/ko/2026/11/14/doris-miller-refonte-catapulte-vapeur/"
+}
+],
+"new": false
+},
+{
 "term": "진양곤",
-"traffic": "100+",
+"traffic": "200+",
 "time": "2026-11-15T01:10:00+00:00",
 "news": [
 {
@@ -2531,6 +2581,24 @@
 "new": false
 },
 {
+"term": "리트 만점자",
+"traffic": "500+",
+"time": "2026-11-15T01:00:00+00:00",
+"news": [
+{
+"title": "[속보] 'AI 안경 의혹' 세무사 수석합격자 \"전자기기·생성형 AI로 부정행위 했다\"",
+"source": "MBC 뉴스",
+"link": "https://imnews.imbc.com/news/2026/society/article/6865737_36918.html"
+},
+{
+"title": "세무사 시험 수석 합격자, 경찰에 ‘AI 부정행위’ 자수…“초소형 카메라 이용했다”",
+"source": "경향신문",
+"link": "https://www.khan.co.kr/article/202611151034001"
+}
+],
+"new": true
+},
+{
 "term": "서초구",
 "traffic": "500+",
 "time": "2026-11-15T00:50:00+00:00",
@@ -2544,24 +2612,6 @@
 "title": "서초구, 동절기 앞두고 공중화장실 139곳 현장순찰 강화",
 "source": "헤럴드경제",
 "link": "https://biz.heraldcorp.com/article/10937269"
-}
-],
-"new": true
-},
-{
-"term": "세무사 시험 ai 안경",
-"traffic": "500+",
-"time": "2026-11-15T00:40:00+00:00",
-"news": [
-{
-"title": "[속보] 'AI 안경 의혹' 세무사 수석합격자 \"전자기기·생성형 AI로 부정행위 했다\"",
-"source": "MBC 뉴스",
-"link": "https://imnews.imbc.com/news/2026/society/article/6865737_36918.html"
-},
-{
-"title": "'AI 부정행위' 세무사 수석 합격자 자수…서울청 광수단 \"신속 수사\" - 머니투데이",
-"source": "머니투데이",
-"link": "https://www.mt.co.kr/society/2026/11/15/2026111510372685347"
 }
 ],
 "new": true
@@ -2644,24 +2694,6 @@
 }
 ],
 "new": false
-},
-{
-"term": "술",
-"traffic": "2000+",
-"time": "2026-11-15T00:10:00+00:00",
-"news": [
-{
-"title": "비틀거리다 청소 차에 ‘쾅’…만취 운전자는 배우 고경표",
-"source": "JTBC",
-"link": "https://news.jtbc.co.kr/article/NB12328108"
-},
-{
-"title": "'음주운전' 고경표, '놀면 뭐하니?'서 사라졌다",
-"source": "뉴시스",
-"link": "https://www.newsis.com/view/NISX20261114_0003868237"
-}
-],
-"new": true
 }
 ],
 "trendSeen": [
