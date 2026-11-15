@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-15T02:52:56.557788+00:00",
+"updated": "2026-11-15T02:55:08.819211+00:00",
 "errors": [],
 "events": [
 {
@@ -2398,12 +2398,12 @@
 "spike": false
 },
 "폭발": {
-"n30": 5,
+"n30": 4,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "붕괴": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -2424,17 +2424,17 @@
 },
 "지하철": {
 "n30": 5,
-"base": 1.0,
+"base": 1.1,
 "spike": true
 },
 "사고": {
 "n30": 2,
-"base": 3.2,
+"base": 3.1,
 "spike": false
 },
 "실종": {
 "n30": 0,
-"base": 0.4,
+"base": 0.3,
 "spike": false
 },
 "단수": {
@@ -2464,7 +2464,7 @@
 "handle": "labyrinthos.bsky.social",
 "name": "라비린토스, 디지털 주화입마를 곁들인",
 "time": "2026-11-15T02:52:26.051Z",
-"likes": 0,
+"likes": 1,
 "reposts": 0,
 "url": "https://bsky.app/profile/labyrinthos.bsky.social/post/3n2cz26lzyk2s",
 "term": "사고"
@@ -2682,25 +2682,18 @@
 ],
 "spikes": [
 {
-"term": "폭발",
-"n30": 5,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-15T02:52:56.557788+00:00"
-},
-{
 "term": "속보",
 "n30": 6,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-15T02:52:56.557788+00:00"
+"since": "2026-11-15T02:55:08.819211+00:00"
 },
 {
 "term": "지하철",
 "n30": 5,
-"base": 1.0,
+"base": 1.1,
 "spike": true,
-"since": "2026-11-15T02:52:56.557788+00:00"
+"since": "2026-11-15T02:55:08.819211+00:00"
 }
 ],
 "baseline": {
@@ -2709,13 +2702,13 @@
 "불났": 0.05,
 "정전": 0.05,
 "폭발": 0.05,
-"붕괴": 0.13,
+"붕괴": 0.12,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 1.11,
-"사고": 3.08,
-"실종": 0.33,
+"지하철": 1.2,
+"사고": 2.97,
+"실종": 0.3,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -2908,19 +2901,37 @@
 },
 "trends": [
 {
+"term": "투자",
+"traffic": "2000+",
+"time": "2026-11-15T01:50:00+00:00",
+"news": [
+{
+"title": "美연준, AI발 금융위험 경고…자산가치 고평가·부채급증 우려",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261115011000072"
+},
+{
+"title": "美연준, AI발 금융 위험 경고…\"AI 열풍에 주식 고평가\"",
+"source": "연합뉴스TV",
+"link": "https://www.yonhapnewstv.co.kr/news/MYH20261115112311PyP"
+}
+],
+"new": false
+},
+{
 "term": "골프",
 "traffic": "2000+",
 "time": "2026-11-15T01:30:00+00:00",
 "news": [
 {
-"title": "인천 영종구의회, 제1회 구청장배 골프대회 참석",
-"source": "국제뉴스",
-"link": "https://www.gukjenews.com/news/articleView.html?idxno=3752215"
+"title": "엔저 타고 ‘체류형’ 일본 골프 붐… 쇼골프, “인수보다 운영” 승부수",
+"source": "스포츠서울",
+"link": "https://www.sportsseoul.com/news/read/1649804"
 },
 {
-"title": "인천 영종구의회, 제1회 영종구청장배 골프대회 참석",
-"source": "일간투데이",
-"link": "https://www.dtoday.co.kr/news/articleView.html?idxno=803626"
+"title": "'日 골프장 2곳 운영' 쇼골프, 대규모 시설 투자·서비스 개편 [골프브리핑]",
+"source": "한국경제",
+"link": "https://www.hankyung.com/article/202611123435i"
 }
 ],
 "new": true
@@ -3053,7 +3064,7 @@
 },
 {
 "term": "세무냥이 자수",
-"traffic": "1000+",
+"traffic": "2000+",
 "time": "2026-11-15T00:30:00+00:00",
 "news": [
 {
@@ -3065,24 +3076,6 @@
 "title": "세무사 시험 수석 합격자, 경찰에 ‘AI 부정행위’ 자수…“초소형 카메라 이용했다”",
 "source": "경향신문",
 "link": "https://www.khan.co.kr/article/202611151034001"
-}
-],
-"new": true
-},
-{
-"term": "로스앤젤레스 fc",
-"traffic": "1000+",
-"time": "2026-11-15T00:30:00+00:00",
-"news": [
-{
-"title": "'충격 또 충격' 손흥민, MLS MVP 후보 5인에도 들지 못했다...메시 MVP 3연패 유력",
-"source": "조선일보",
-"link": "https://www.chosun.com/sports/world-football/2026/11/14/GBSDMMJXHEYTQOLEGUYWKNJVMM/"
-},
-{
-"title": "[오피셜] ‘韓 축구 안타까운 소식’ 손흥민 이름은 없었다···MLS 최우수 선수 ‘후보 5인’ 공개, 메시 ‘...",
-"source": "스포츠경향",
-"link": "https://sports.khan.co.kr/article/202611140707003"
 }
 ],
 "new": true
