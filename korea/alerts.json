@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-15T21:20:55.910614+00:00",
+"updated": "2026-11-15T21:23:10.331226+00:00",
 "errors": [],
 "events": [
 {
@@ -668,7 +668,7 @@
 "terms": {
 "지진": {
 "n30": 2,
-"base": 0.3,
+"base": 0.4,
 "spike": false
 },
 "화재": {
@@ -981,28 +981,28 @@
 "n30": 8,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-15T21:20:55.910614+00:00"
+"since": "2026-11-15T21:23:10.331226+00:00"
 },
 {
 "term": "속보",
 "n30": 7,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-15T21:20:55.910614+00:00"
+"since": "2026-11-15T21:23:10.331226+00:00"
 }
 ],
 "baseline": {
-"지진": 0.39,
+"지진": 0.45,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
 "폭발": 0.05,
-"붕괴": 0.08,
+"붕괴": 0.07,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
 "지하철": 0.05,
-"사고": 0.3,
+"사고": 0.27,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -1232,6 +1232,60 @@
 },
 "trends": [
 {
+"term": "spain vs england",
+"traffic": "200+",
+"time": "2026-11-15T20:20:00+00:00",
+"news": [
+{
+"title": "Spain vs England LIVE: Nations League score, commentary, updates & stats",
+"source": "BBC",
+"link": "https://www.bbc.com/sport/football/live/c65y1lrepr5zt"
+},
+{
+"title": "Licensable picture: Spain v United Kingdom - UEFA Nations League",
+"source": "Reuters Connect",
+"link": "https://www.reutersconnect.com/item/spain-v-united-kingdom-uefa-nations-league/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX01UMUFOQURMMDAwNUMwUFFI"
+}
+],
+"new": true
+},
+{
+"term": "장례",
+"traffic": "500+",
+"time": "2026-11-15T20:20:00+00:00",
+"news": [
+{
+"title": "\"마지막은 조용히\"…빈소없이 이틀간 가족끼리[달라지는 장례①]",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261113_0003866742"
+},
+{
+"title": "[AI그래픽뉴스] \"조문객 사치 됐다\"… 고물가 한파에 전국 확산되는 '무빈소 장례'",
+"source": "뉴스핌",
+"link": "https://vod.newspim.com/news/view/20261113000366"
+}
+],
+"new": true
+},
+{
+"term": "김하성",
+"traffic": "200+",
+"time": "2026-11-15T20:20:00+00:00",
+"news": [
+{
+"title": "1년 268억 → .116인데, 또 잡는다고? 김하성 초대박! PHI 이어 ATL까지 영입 검토, 예상 밖 관심 이유는",
+"source": "조선일보",
+"link": "https://www.chosun.com/sports/world-baseball/2026/11/15/MQ4GMZJZGJSDIMDGMU3DGMDCMU/"
+},
+{
+"title": "“2000만 달러 받고 타율 .116 충격” 김하성, 몸값 폭락이 오히려 기회? 美 매체 “최고의 알짜 영입 될 수도” - 머니투데이",
+"source": "머니투데이",
+"link": "https://www.mt.co.kr/sports/2026/11/14/202611140750771712O"
+}
+],
+"new": true
+},
+{
 "term": "상장지수 펀드",
 "traffic": "100+",
 "time": "2026-11-15T20:10:00+00:00",
@@ -1353,60 +1407,6 @@
 "title": "\"오징어잡이 결국 포기합니다\"…울릉도 어민들의 눈물",
 "source": "한국경제",
 "link": "https://www.hankyung.com/article/2026111573647"
-}
-],
-"new": true
-},
-{
-"term": "스페인 대 잉글랜드",
-"traffic": "2000+",
-"time": "2026-11-15T19:00:00+00:00",
-"news": [
-{
-"title": "“스페인에 인종차별 있다고 한 적 없다”…투헬, 기자들에 격분",
-"source": "스포츠경향",
-"link": "https://sports.khan.co.kr/article/202611150849003"
-},
-{
-"title": "'야말 쉬어, 이강인 친구들이 끝냈다' 바에나-푸빌 연속골 폭발! 스페인, 체코 원정 2-0 완파..43경기 연속 무패 행진 질주",
-"source": "조선일보",
-"link": "https://www.chosun.com/sports/world-football/2026/11/13/GVTGIZRYG5STSOJWGM4DIZRVMQ/"
-}
-],
-"new": true
-},
-{
-"term": "빙그레",
-"traffic": "200+",
-"time": "2026-11-15T17:50:00+00:00",
-"news": [
-{
-"title": "“한국인은 언제든 먹잖아요”에 우유 양보…빙그레도 나섰다 [잇슈#태그]",
-"source": "KBS 뉴스",
-"link": "https://news.kbs.co.kr/news/view.do?ncd=8713167"
-},
-{
-"title": "“뚱바 양보한 시민 찾습니다”…빙그레, 수소문 끝에 ‘명예 앰배서더’ 위촉",
-"source": "동아일보",
-"link": "https://www.donga.com/news/Society/article/all/20261113/135023432/1"
-}
-],
-"new": true
-},
-{
-"term": "아파트",
-"traffic": "10000+",
-"time": "2026-11-15T16:00:00+00:00",
-"news": [
-{
-"title": "경북 경산서 밤새 아파트 화재…2가구 전소·7명 부상",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261116005000053"
-},
-{
-"title": "[속보] 경북 경산시 백천동 아파트서 불...대응 1단계 발령",
-"source": "YTN",
-"link": "https://www.ytn.co.kr/_cs/_ln_0115_202611160050509702_005.html"
 }
 ],
 "new": true
