@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-15T07:43:18.047381+00:00",
+"updated": "2026-11-15T07:45:29.431979+00:00",
 "errors": [],
 "events": [
 {
@@ -4088,13 +4088,13 @@
 "spike": false
 },
 "폭발": {
-"n30": 1,
+"n30": 0,
 "base": 0.4,
 "spike": false
 },
 "붕괴": {
 "n30": 3,
-"base": 1.3,
+"base": 1.5,
 "spike": false
 },
 "대피": {
@@ -4108,18 +4108,18 @@
 "spike": false
 },
 "속보": {
-"n30": 3,
+"n30": 2,
 "base": 0.1,
 "spike": false
 },
 "지하철": {
 "n30": 1,
-"base": 0.2,
+"base": 0.1,
 "spike": false
 },
 "사고": {
 "n30": 4,
-"base": 2.8,
+"base": 2.9,
 "spike": false
 },
 "실종": {
@@ -4174,7 +4174,7 @@
 "handle": "his-aibou.bsky.social",
 "name": "@: 어떻게 섬전체가 쿠우쿠우 플래티넘",
 "time": "2026-11-15T07:38:18.552Z",
-"likes": 1,
+"likes": 2,
 "reposts": 0,
 "url": "https://bsky.app/profile/his-aibou.bsky.social/post/3n2dizdmsrc2r",
 "term": "사고"
@@ -4394,17 +4394,17 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 0.6,
+"지진": 0.64,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.37,
-"붕괴": 1.51,
+"폭발": 0.33,
+"붕괴": 1.66,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.15,
-"사고": 2.89,
+"지하철": 0.14,
+"사고": 3.0,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -4580,8 +4580,26 @@
 },
 "trends": [
 {
+"term": "사고",
+"traffic": "1000+",
+"time": "2026-11-15T06:40:00+00:00",
+"news": [
+{
+"title": "[단독] 고경표 ’만취운전’ 사고로 청소업체 직원 1명 경상",
+"source": "연합뉴스TV",
+"link": "https://www.yonhapnewstv.co.kr/news/AKR20261115135356kCt"
+},
+{
+"title": "방송가 줄줄이 '고경표 손절'...과거 술버릇도 소환",
+"source": "YTN",
+"link": "https://www.ytn.co.kr/_ln/0103_202611151625190769"
+}
+],
+"new": true
+},
+{
 "term": "레버리지",
-"traffic": "200+",
+"traffic": "500+",
 "time": "2026-11-15T06:30:00+00:00",
 "news": [
 {
@@ -4590,9 +4608,9 @@
 "link": "https://www.hankyung.com/article/202611157013i"
 },
 {
-"title": "반등 기대하는 개미 vs. 하락 대비하는 기관… 엇갈린 ETF 수급",
-"source": "www.dt.co.kr",
-"link": "https://www.dt.co.kr/article/12094883"
+"title": "[심양섭의 정론직격] 고위험 고수익 레버리지의 저주",
+"source": "펜앤마이크",
+"link": "https://www.pennmike.com/news/articleView.html?idxno=131722"
 }
 ],
 "new": true
@@ -4603,14 +4621,14 @@
 "time": "2026-11-15T06:10:00+00:00",
 "news": [
 {
-"title": "HTTP/2 켠 서버만 노출... 아파치 웹서버 원격 코드 실행 결함, 앤트로픽·구글이 찾아냈다",
-"source": "보안뉴스",
-"link": "https://www.boannews.com/news/articleView.html?idxno=147236"
+"title": "\"북한 라자루스, 국내 서버 30곳 노렸다\"",
+"source": "MBC 뉴스",
+"link": "https://imnews.imbc.com/replay/2026/nw1200/article/6865762_36967.html"
 },
 {
-"title": "Apache HTTP Server의 치명적인 원격 코드 실행 취약점",
-"source": "GeekNews",
-"link": "https://news.hada.io/topic?id=37046"
+"title": "[연합뉴스 이 시각 헤드라인] - 10:30",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261115016000011"
 }
 ],
 "new": true
@@ -4621,14 +4639,14 @@
 "time": "2026-11-15T06:00:00+00:00",
 "news": [
 {
-"title": "\"뉴진스 5인 완전체 안 깨졌으면 수백억 벌었을것\"…다니엘, 얼마 물어내야 할까[SC이슈]",
-"source": "조선일보",
-"link": "https://www.chosun.com/entertainments/enter_general/2026/11/13/GBTGEZLFG5SWINBZGMYTEMZWGM/"
+"title": "\"착취\"라는 NYT, \"선투자\"라는 韓… 뉴진스가 쏘아올린 K-팝 딜레마 [박지현의 아트월드]",
+"source": "파이낸셜뉴스",
+"link": "https://www.fnnews.com/news/202611140300483483"
 },
 {
-"title": "어도어VS다니엘, 이제 지겨운 '재판 지연' 공방...끝 보이나 [MTN 현장+]",
-"source": "MTN 머니투데이방송",
-"link": "https://news.mtn.co.kr/article/2026111217164625834"
+"title": "뉴진스 계약서가 말하지 않은 것…K-팝 '인큐베이팅'의 맥락",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261110_0003862019"
 }
 ],
 "new": true
@@ -4711,14 +4729,14 @@
 "time": "2026-11-15T05:40:00+00:00",
 "news": [
 {
-"title": "與 \"반도체 과실 고루 퍼지도록\"…국힘 장외투쟁엔 \"직무유기\"",
+"title": "국힘 \"법적 근거없는 미래대응기금 예산 심사 중단해야\"",
 "source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261115032400001"
+"link": "https://www.yna.co.kr/view/AKR20261115036100001"
 },
 {
-"title": "국민의힘, 미래대응기금 관련 긴급 합동 기자회견",
-"source": "뉴시스",
-"link": "https://www.newsis.com/view/NISI20261115_0021533279"
+"title": "예산소위 증감액 심사 본격 돌입…여당 원안사수, 야당 대폭 삭감 충돌",
+"source": "기호일보",
+"link": "https://www.kihoilbo.co.kr/news/articleView.html?idxno=3040958"
 }
 ],
 "new": true
@@ -4737,24 +4755,6 @@
 "title": "\"방출 통보인 줄 알았는데…\" 이정후 영입한 사장의 치명적 오판, 다저스 역사상 최악의 트레이드였다 - 머니투데이",
 "source": "머니투데이",
 "link": "https://www.mt.co.kr/sports/2026/11/15/202611141554770892O"
-}
-],
-"new": true
-},
-{
-"term": "구미시",
-"traffic": "200+",
-"time": "2026-11-15T05:30:00+00:00",
-"news": [
-{
-"title": "영등포구, 폐가전 수거 경진대회 서울 자치구 유일 ‘금상’",
-"source": "헤럴드경제",
-"link": "https://biz.heraldcorp.com/article/10936886"
-},
-{
-"title": "[화성소식]폐전지 수거 경진대회 기초지자체 대상 등",
-"source": "뉴시스",
-"link": "https://www.newsis.com/view/NISX20261113_0003867401"
 }
 ],
 "new": true
