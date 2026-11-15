@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-15T09:42:35.579932+00:00",
+"updated": "2026-11-15T09:44:49.152989+00:00",
 "errors": [],
 "events": [
 {
@@ -4625,7 +4625,7 @@
 "spike": false
 },
 "화재": {
-"n30": 2,
+"n30": 1,
 "base": 0.8,
 "spike": false
 },
@@ -4655,12 +4655,12 @@
 "spike": false
 },
 "미사일": {
-"n30": 1,
+"n30": 0,
 "base": 1.4,
 "spike": false
 },
 "속보": {
-"n30": 9,
+"n30": 8,
 "base": 0.8,
 "spike": true
 },
@@ -4717,7 +4717,7 @@
 "name": "lunamoth",
 "time": "2026-11-15T09:41:00.947Z",
 "likes": 0,
-"reposts": 1,
+"reposts": 2,
 "url": "https://bsky.app/profile/lunamoth.bsky.social/post/3n2dpurca7s2l",
 "term": "붕괴"
 },
@@ -4727,7 +4727,7 @@
 "name": "방아",
 "time": "2026-11-15T09:35:23.345Z",
 "likes": 2,
-"reposts": 1,
+"reposts": 2,
 "url": "https://bsky.app/profile/atthemill.bsky.social/post/3n2dpkpgzys2o",
 "term": "속보"
 },
@@ -4890,16 +4890,6 @@
 "url": "https://www.youtube.com/watch?v=qX841VGeeZo"
 },
 {
-"text": "큰 화재로 만들지 않고, 사장시키겠음<- 큰 아버지",
-"handle": "dapoiskanataya.bsky.social",
-"name": "one ever",
-"time": "2026-11-15T09:14:49.941Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/dapoiskanataya.bsky.social/post/3n2dofxelbc2k",
-"term": "화재"
-},
-{
 "platform": "YouTube",
 "text": "[속보] 김민석, 최민희 김찰 조사결과 보고 받고 윤리심판원 이첩 지시 [뉴스플레이리스트] / 채널A",
 "handle": "UCfq4V1DAuaojnr2ryvWNysw",
@@ -4907,16 +4897,6 @@
 "time": "2026-11-15T09:13:27Z",
 "term": "속보",
 "url": "https://www.youtube.com/watch?v=ja5NqNvmYVY"
-},
-{
-"text": "물론 공군이 보유한 미사일중 무보수 시스템이 적용된 미사일이 있습니다. 이경우 수명이 아주 무지막지해지는데, 바로 AIM-120이 그런 케이스인데, 컨테이너에 봉입만 잘 되어 있으면 50년 보관도 가능합니다.\n\n컨테이너 봉입만 깨져있지 않으면 도중에 점검할 필요도 없고 50년 뒤에 꺼내서 동봉된 날개만 조립하면 바로 사용가능. (...............)",
-"handle": "nfsc.bsky.social",
-"name": "단순한생각",
-"time": "2026-11-15T09:13:05.146Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/nfsc.bsky.social/post/3n2docsakjs2u",
-"term": "미사일"
 },
 {
 "platform": "YouTube",
@@ -4994,24 +4974,24 @@
 "spikes": [
 {
 "term": "속보",
-"n30": 9,
+"n30": 8,
 "base": 0.8,
 "spike": true,
-"since": "2026-11-15T09:42:35.579932+00:00"
+"since": "2026-11-15T09:44:49.152989+00:00"
 }
 ],
 "baseline": {
-"지진": 0.64,
-"화재": 0.82,
+"지진": 0.68,
+"화재": 0.74,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.24,
-"붕괴": 0.15,
+"폭발": 0.32,
+"붕괴": 0.24,
 "대피": 0.05,
-"미사일": 1.41,
-"속보": 0.81,
-"지하철": 0.1,
-"사고": 4.13,
+"미사일": 1.27,
+"속보": 0.83,
+"지하철": 0.09,
+"사고": 4.12,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -5214,10 +5194,39 @@
 },
 "trends": [
 {
-"term": "멜론뮤직어워드 2026",
-"traffic": "500+",
-"time": "2026-11-15T08:30:00+00:00",
-"news": [],
+"term": "웨이브",
+"traffic": "1000+",
+"time": "2026-11-15T08:40:00+00:00",
+"news": [
+{
+"title": "매력적인 아일릿",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISI20261115_0021533395"
+},
+{
+"title": "힐링 아일릿",
+"source": "뉴시스",
+"link": "https://mobile.newsis.com/photo_view.html?pict_id=NISI20261115_0021533394&pID=1&cID=&sID=1&type=Main&idx=7"
+}
+],
+"new": true
+},
+{
+"term": "bangladesh vs south africa",
+"traffic": "200+",
+"time": "2026-11-15T08:40:00+00:00",
+"news": [
+{
+"title": "Shanto: 'Very important for the whole batting unit to perform'",
+"source": "Cricinfo",
+"link": "https://www.cricinfo.com/story/sa-vs-ban-najmul-hossain-shanto-very-important-for-the-whole-batting-unit-to-perform-1562662"
+},
+{
+"title": "Proteas unveil playing XI for opening Bangladesh Test",
+"source": "ICC",
+"link": "https://www.icc-cricket.com/tournaments/world-test-championship/news/proteas-unveil-playing-xi-for-opening-bangladesh-test"
+}
+],
 "new": true
 },
 {
@@ -5231,9 +5240,9 @@
 "link": "https://www.khan.co.kr/article/202611150948011"
 },
 {
-"title": "‘여신도 성폭행’ 정명석, 영치금 한 푼도 못 쓴다…압류 조치 왜",
-"source": "미주중앙일보",
-"link": "https://www.koreadaily.com/article/20261114181520397"
+"title": "징역 17년 정명석, 교도소 영치금까지 압류…JMS 교단 예금도 묶였다",
+"source": "경기일보",
+"link": "https://www.kyeonggi.com/article/20261115580276"
 }
 ],
 "new": true
@@ -5310,9 +5319,9 @@
 "link": "https://www.donga.com/news/Culture/article/all/20261115/135026893/1"
 },
 {
-"title": "박태환 맞아? 볼살 실종에 확 달라진 얼굴…무슨 일 있었나",
-"source": "매일경제",
-"link": "https://www.mk.co.kr/news/entertain/12209035"
+"title": "박태환 맞아? 확 달라진 얼굴…볼살 빠지고 아이돌 비주얼",
+"source": "헤럴드경제",
+"link": "https://mbiz.heraldcorp.com/article/10937654"
 }
 ],
 "new": true
@@ -5326,7 +5335,7 @@
 },
 {
 "term": "금오산",
-"traffic": "200+",
+"traffic": "500+",
 "time": "2026-11-15T07:10:00+00:00",
 "news": [
 {
@@ -5338,24 +5347,6 @@
 "title": "구미 금오산 하늘다리 개통…관광 새 랜드마크",
 "source": "아시아경제",
 "link": "https://www.asiae.co.kr/article/2026111510595800590"
-}
-],
-"new": true
-},
-{
-"term": "구자욱",
-"traffic": "2000+",
-"time": "2026-11-15T07:10:00+00:00",
-"news": [
-{
-"title": "삼성 구자욱, MLB 도전 추진…“좌타자 전문 에이전트 선임”",
-"source": "KBS 뉴스",
-"link": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8712231"
-},
-{
-"title": "미네소타 1루수 고민, KBO리그에서 답 찾나? 美 매체가 주목한 삼성 우승 영웅",
-"source": "조선일보",
-"link": "https://www.chosun.com/sports/baseball/2026/11/15/GVRDAYJWHFTGEZBQG4ZTEYLFG4/"
 }
 ],
 "new": true
