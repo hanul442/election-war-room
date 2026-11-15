@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-15T22:23:46.188750+00:00",
+"updated": "2026-11-15T22:25:59.818827+00:00",
 "errors": [],
 "events": [
 {
@@ -1230,7 +1230,7 @@
 },
 "사고": {
 "n30": 2,
-"base": 1.3,
+"base": 1.4,
 "spike": false
 },
 "실종": {
@@ -1458,11 +1458,11 @@
 "n30": 5,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-15T22:23:46.188750+00:00"
+"since": "2026-11-15T22:25:59.818827+00:00"
 }
 ],
 "baseline": {
-"지진": 0.11,
+"지진": 0.1,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
@@ -1472,7 +1472,7 @@
 "미사일": 0.05,
 "속보": 0.05,
 "지하철": 0.05,
-"사고": 1.35,
+"사고": 1.42,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -1675,19 +1675,37 @@
 "new": true
 },
 {
+"term": "테니스",
+"traffic": "100+",
+"time": "2026-11-15T21:20:00+00:00",
+"news": [
+{
+"title": "프리츠, 스톡홀름오픈 우승으로 시즌 마무리… 개인 첫 실내 타이틀",
+"source": "테니스코리아",
+"link": "https://www.tennis.co.kr/news/articleView.html?idxno=54303"
+},
+{
+"title": "즈베레프, 험난한 조 편성 속 호다르와 첫판… 알카라스는 '비교적 수월'",
+"source": "테니스코리아",
+"link": "https://www.tennis.co.kr/news/articleView.html?idxno=54294"
+}
+],
+"new": false
+},
+{
 "term": "김정은",
 "traffic": "200+",
 "time": "2026-11-15T21:10:00+00:00",
 "news": [
 {
-"title": "미 국무, 김정은 거론하며 \"정권 생존 원할 뿐 팽창주의자 아냐\"",
-"source": "MBC 뉴스",
-"link": "https://imnews.imbc.com/news/2026/world/article/6865858_36925.html"
-},
-{
 "title": "루비오, 이란 핵보유 반대하며 \"북한, 이란과 달라\"",
 "source": "연합뉴스TV",
 "link": "https://www.yonhapnewstv.co.kr/news/MYH20261116054858U5t"
+},
+{
+"title": "루비오 \"김정은은 정권 유지가 목적, 이란은 혁명 수출 노리는 팽창주의 세력\"",
+"source": "조선일보",
+"link": "https://www.chosun.com/international/us/2026/11/14/RFJWF6NFD5ERXKFJG2WJF6NDNI/"
 }
 ],
 "new": true
@@ -1711,6 +1729,24 @@
 "new": true
 },
 {
+"term": "미나미",
+"traffic": "100+",
+"time": "2026-11-15T21:10:00+00:00",
+"news": [
+{
+"title": "“많아야 1시간 잔다”더니…‘리센느’ 미나미, 건강 이유로 스케줄 불참",
+"source": "동아일보",
+"link": "https://www.donga.com/news/Culture/article/all/20261115/135027925/2"
+},
+{
+"title": "“하루에 1시간 자”... 리센느 미나미, 결국 ‘컨디션 난조’로 활동 불참 [Oh!쎈 이슈]",
+"source": "조선일보",
+"link": "https://www.chosun.com/entertainments/broadcast/2026/11/15/GQ4WGOBYMQ4TAM3FMI3TSYRQGI/"
+}
+],
+"new": true
+},
+{
 "term": "운세",
 "traffic": "2000+",
 "time": "2026-11-15T21:00:00+00:00",
@@ -1729,37 +1765,19 @@
 "new": true
 },
 {
-"term": "nations league",
-"traffic": "200+",
-"time": "2026-11-15T21:00:00+00:00",
-"news": [
-{
-"title": "Spain vs England LIVE: Nations League score, commentary, updates & stats",
-"source": "BBC",
-"link": "https://www.bbc.com/sport/football/live/c65y1lrepr5zt"
-},
-{
-"title": "Spain v England: Nations League – live",
-"source": "The Guardian",
-"link": "https://www.theguardian.com/football/live/2026/nov/15/spain-v-england-nations-league-live"
-}
-],
-"new": true
-},
-{
 "term": "박철순",
 "traffic": "200+",
 "time": "2026-11-15T21:00:00+00:00",
 "news": [
 {
-"title": "“추억에는 마침표 없다”…레전드들과 함께한 잠실 고별전",
-"source": "KBS 뉴스",
-"link": "https://news.kbs.co.kr/news/view.do?ncd=8712981"
-},
-{
 "title": "“굿바이! 잠실야구장” 프로야구 전설들 작별인사",
 "source": "동아일보",
 "link": "https://www.donga.com/news/Sports/article/all/20261116/135028716/2"
+},
+{
+"title": "'화려했던 커리어→아쉬웠던 감독 시절' 지도자로 귀환하나, 이승엽이 답했다 \"언젠가는 다시 하고 싶다\" - 머니투데이",
+"source": "머니투데이",
+"link": "https://www.mt.co.kr/sports/2026/11/15/2026111515543672713"
 }
 ],
 "new": true
@@ -1814,24 +1832,6 @@
 "title": "부산항 신항 배후도시 실패…주민 참여·단계적 실증 개발 헬싱키 사례 주목 [진해신항과 북극항로]",
 "source": "경남도민일보",
 "link": "https://www.idomin.com/news/articleView.html?idxno=2019649"
-}
-],
-"new": true
-},
-{
-"term": "송지효",
-"traffic": "100+",
-"time": "2026-11-15T20:30:00+00:00",
-"news": [
-{
-"title": "송지효 '명예 해녀' 변신…'10㎞ 달리기' 관리 비결 눈길",
-"source": "뉴시스",
-"link": "https://www.newsis.com/view/NISX20261110_0003862473"
-},
-{
-"title": "송지효, 제주도에서 해녀복 입었다 \"명예 해녀로 일하는 중\"…미모 여전 [N샷]",
-"source": "뉴스1",
-"link": "https://www.news1.kr/entertain/celebrity-topic/6349393"
 }
 ],
 "new": true
