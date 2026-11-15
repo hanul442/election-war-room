@@ -1,17 +1,18 @@
 {
-"updated": "2026-11-15T23:10:46.341762+00:00",
+"updated": "2026-11-15T23:12:59.835699+00:00",
 "errors": [],
 "events": [
 {
 "id": "4c2ZkZmR5U09IQm8ybF9Roc52300",
 "first": "2026-11-15T23:00:46+00:00",
-"last": "2026-11-15T23:00:46+00:00",
-"updated": "2026-11-15T23:06:16.838601+00:00",
+"last": "2026-11-15T23:07:05+00:00",
+"updated": "2026-11-15T23:12:59.835699+00:00",
 "headline": "이 대통령 지지율 36.4%…국힘 43.0%·민주 34.6% [리얼미터]",
 "cat": "정치",
 "regions": [],
 "sources": [
-"매일경제"
+"매일경제",
+"조선일보"
 ],
 "updates": [
 {
@@ -20,16 +21,26 @@
 "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9VNzg1VDAtRHRBRVpBVkJPR1JGSXR2bWV3Y1NuOUVGaVR4bGxqOFYwaXI3MElNTWZsQldDLUYyMnpWWHJWRGR4c2ZkZmR5U09IQm8ybF9R?oc=5",
 "time": "2026-11-15T23:00:46+00:00",
 "stage": "얼럿"
+},
+{
+"title": "국힘 43%·민주 34.6%…與지지율은 현 정부 들어 최저[리얼미터]",
+"source": "조선일보",
+"link": "https://www.chosun.com/economy/economy_general/2026/11/16/GVSTENZQGUZTQODFGBRDEYJYGU/",
+"time": "2026-11-15T23:07:05+00:00",
+"stage": "후속"
 }
 ],
 "level": "URGENT",
-"latest": "이 대통령 지지율 36.4%…국힘 43.0%·민주 34.6% [리얼미터]",
+"latest": "국힘 43%·민주 34.6%…與지지율은 현 정부 들어 최저[리얼미터]",
 "tok": [
+"與지지율",
 "국힘",
 "대통령",
+"들어",
 "리얼미터",
 "민주",
-"지지율"
+"지지율",
+"최저"
 ]
 },
 {
@@ -1376,7 +1387,7 @@
 },
 "붕괴": {
 "n30": 4,
-"base": 0.1,
+"base": 0.2,
 "spike": false
 },
 "대피": {
@@ -1396,7 +1407,7 @@
 },
 "지하철": {
 "n30": 3,
-"base": 0.2,
+"base": 0.3,
 "spike": false
 },
 "사고": {
@@ -1436,7 +1447,7 @@
 "handle": "suisuisui00.bsky.social",
 "name": "스이🫧",
 "time": "2026-11-15T23:09:57.954Z",
-"likes": 0,
+"likes": 1,
 "reposts": 0,
 "url": "https://bsky.app/profile/suisuisui00.bsky.social/post/3n2f53c6bs22z",
 "term": "사고"
@@ -1639,8 +1650,8 @@
 "handle": "a1a223.bsky.social",
 "name": "지망이",
 "time": "2026-11-15T22:44:42.251Z",
-"likes": 40,
-"reposts": 1,
+"likes": 43,
+"reposts": 2,
 "url": "https://bsky.app/profile/a1a223.bsky.social/post/3n2f3o4bxu22l",
 "term": "사고"
 },
@@ -1660,7 +1671,7 @@
 "n30": 6,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-15T23:10:46.341762+00:00"
+"since": "2026-11-15T23:12:59.835699+00:00"
 }
 ],
 "baseline": {
@@ -1669,12 +1680,12 @@
 "불났": 0.05,
 "정전": 0.05,
 "폭발": 0.05,
-"붕괴": 0.24,
+"붕괴": 0.32,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.32,
-"사고": 3.25,
+"지하철": 0.39,
+"사고": 3.33,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
