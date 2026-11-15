@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-15T16:29:28.080315+00:00",
+"updated": "2026-11-15T16:31:44.004471+00:00",
 "errors": [],
 "events": [
 {
@@ -2548,12 +2548,12 @@
 "sns": {
 "terms": {
 "지진": {
-"n30": 1,
-"base": 0.7,
+"n30": 0,
+"base": 0.8,
 "spike": false
 },
 "화재": {
-"n30": 2,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
@@ -2568,13 +2568,13 @@
 "spike": false
 },
 "폭발": {
-"n30": 4,
+"n30": 3,
 "base": 0.1,
 "spike": false
 },
 "붕괴": {
 "n30": 1,
-"base": 0.6,
+"base": 0.5,
 "spike": false
 },
 "대피": {
@@ -2583,23 +2583,23 @@
 "spike": false
 },
 "미사일": {
-"n30": 2,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
 "속보": {
-"n30": 5,
+"n30": 3,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "지하철": {
-"n30": 2,
-"base": 0.6,
+"n30": 0,
+"base": 0.5,
 "spike": false
 },
 "사고": {
 "n30": 2,
-"base": 1.5,
+"base": 1.6,
 "spike": false
 },
 "실종": {
@@ -2731,16 +2731,6 @@
 "url": "https://www.youtube.com/watch?v=PX-gBs3zBQg"
 },
 {
-"text": "【지진 정보】일본 시간 11월 16일 00:57경\n진원: Northern Osaka Prefecture (M2.7, 깊이 약 10km)\n최대 진도: 1\n진도 1: 오사카부\n이 지진으로 인한 쓰나미 걱정은 없습니다.\n(일본 기상청 발표)\n#일본 #지진 #방재",
-"handle": "ko.soramoyou.yk-planning.jp",
-"name": "Soramoyou 한국어",
-"time": "2026-11-15T16:01:34.350Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/ko.soramoyou.yk-planning.jp/post/3n2ef5c2ebx26",
-"term": "지진"
-},
-{
 "platform": "YouTube",
 "text": "복지의 비용, 지하철만 책임지나요? | 기호2번 윤정일 배경미 송동하 | 싹! 바꾸자! | 39",
 "handle": "UCX4JG3_Jtw1CX0RugOv-ulQ",
@@ -2849,31 +2839,23 @@
 "url": "https://www.youtube.com/watch?v=iX2OpsHiUO0"
 }
 ],
-"spikes": [
-{
-"term": "속보",
-"n30": 5,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-15T16:29:28.080315+00:00"
-}
-],
+"spikes": [],
 "baseline": {
-"지진": 0.77,
+"지진": 0.69,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
 "폭발": 0.05,
-"붕괴": 0.53,
+"붕괴": 0.48,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.5,
-"사고": 1.58,
-"실종": 0.16,
+"지하철": 0.45,
+"사고": 1.62,
+"실종": 0.14,
 "단수": 0.05,
 "통신 장애": 0.05,
-"먹통": 0.11,
+"먹통": 0.1,
 "산불": 0.05
 },
 "errors": [],
