@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-15T14:34:04.729079+00:00",
+"updated": "2026-11-15T14:36:21.813809+00:00",
 "errors": [],
 "events": [
 {
@@ -3164,7 +3164,7 @@
 "terms": {
 "지진": {
 "n30": 0,
-"base": 1.1,
+"base": 1.0,
 "spike": false
 },
 "화재": {
@@ -3188,8 +3188,8 @@
 "spike": false
 },
 "붕괴": {
-"n30": 1,
-"base": 0.5,
+"n30": 2,
+"base": 0.6,
 "spike": false
 },
 "대피": {
@@ -3213,8 +3213,8 @@
 "spike": false
 },
 "사고": {
-"n30": 3,
-"base": 3.2,
+"n30": 2,
+"base": 3.1,
 "spike": false
 },
 "실종": {
@@ -3224,7 +3224,7 @@
 },
 "단수": {
 "n30": 1,
-"base": 0.6,
+"base": 0.7,
 "spike": false
 },
 "통신 장애": {
@@ -3234,7 +3234,7 @@
 },
 "먹통": {
 "n30": 0,
-"base": 0.6,
+"base": 0.5,
 "spike": false
 },
 "산불": {
@@ -3244,6 +3244,16 @@
 }
 },
 "posts": [
+{
+"text": "아악!!!!!!!!!!!!!!! 이 손 대체 누군가했는데 누군지 알아버리고 붕괴됨",
+"handle": "mahodosa.bsky.social",
+"name": "DoSa",
+"time": "2026-11-15T14:34:49.342Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/mahodosa.bsky.social/post/3n2eac2z2pc2h",
+"term": "붕괴"
+},
 {
 "text": "사펑 2회차를 했구요 ...히든엔딩을 봤구요(딱히 특별한게 달라지지 않앗음) 나는 붕괴되고 말았아요",
 "handle": "koghirit.bsky.social",
@@ -3311,16 +3321,6 @@
 "time": "2026-11-15T14:06:48Z",
 "term": "폭발",
 "url": "https://www.youtube.com/watch?v=W6id0WLqr_0"
-},
-{
-"text": "이 절차 진행에 하나라도 어그러지면 사건 망한다. 절차가 이렇게 많으니 중간에 사고날 가능성도 올라갔다. 피해 입어도 언론 부스터 받거나 변호사 안 쓰면 답이 없게 됐음.",
-"handle": "dodo.wisdomcandle.com",
-"name": "🦤도도 Dodo",
-"time": "2026-11-15T14:05:30.244Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/dodo.wisdomcandle.com/post/3n2e6npnnbk2g",
-"term": "사고"
 },
 {
 "platform": "YouTube",
@@ -3487,21 +3487,21 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 1.01,
+"지진": 0.91,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.74,
-"붕괴": 0.56,
+"폭발": 0.77,
+"붕괴": 0.7,
 "대피": 0.05,
-"미사일": 0.45,
+"미사일": 0.41,
 "속보": 0.05,
 "지하철": 0.05,
-"사고": 3.15,
+"사고": 3.04,
 "실종": 0.05,
-"단수": 0.68,
+"단수": 0.71,
 "통신 장애": 0.05,
-"먹통": 0.5,
+"먹통": 0.45,
 "산불": 0.05
 },
 "errors": [],
@@ -3858,14 +3858,14 @@
 "time": "2026-11-15T11:40:00+00:00",
 "news": [
 {
+"title": "日 APBC 우승 제물은 3연속 한국... 11년째 일본전 무승 이어가",
+"source": "조선일보",
+"link": "https://www.chosun.com/sports/baseball/2026/11/15/236G5T6ILFDGNOMZQAC3BJM7M4/"
+},
+{
 "title": "APBC 야구대표팀, 일본에 져 준우승‥일본전 13연패",
 "source": "MBC 뉴스",
 "link": "https://imnews.imbc.com/news/2026/sports/article/6865836_36946.html"
-},
-{
-"title": "\"11년째 일본전 승리 실종\" 한국 야구, 충격의 13연패…日 언론도 \"굴욕의 역사 이어졌다\" 혹평",
-"source": "조선일보",
-"link": "https://www.chosun.com/sports/baseball/2026/11/15/HEYTQODBGY4DGYJRGY2DOYJVHA/"
 }
 ],
 "new": false
