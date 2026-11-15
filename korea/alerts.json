@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-15T03:59:50.699552+00:00",
+"updated": "2026-11-15T04:02:02.197531+00:00",
 "errors": [],
 "events": [
 {
@@ -40,7 +40,7 @@
 "id": "0oxcTdaZE55YnVTazlmUQoc50138",
 "first": "2026-11-15T01:38:00+00:00",
 "last": "2026-11-15T03:43:16+00:00",
-"updated": "2026-11-15T03:46:28.813180+00:00",
+"updated": "2026-11-15T04:02:02.197531+00:00",
 "headline": "‘세무사 수석 부정행위’ 서울청 광수단 배당…“신속·엄정 수사”",
 "cat": "사회",
 "regions": [
@@ -55,6 +55,7 @@
 "대전일보",
 "문화일보",
 "브릿지경제",
+"스페셜타임스",
 "아시아경제",
 "연합뉴스",
 "천지일보",
@@ -217,6 +218,13 @@
 "stage": "종합"
 },
 {
+"title": "AI·초소형 카메라로 세무사 수석 합격…경찰, 부정행위 자수서 수사 착수",
+"source": "스페셜타임스",
+"link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5MNGE5dGM5Q3JBckxGMWx5UDgzVHgyM0IxWHpxQnRIdjExU3VmSkhVN0tiMklzWENIMkJidVgtMHFTTjlZMlJnSVFXY0Z4TjZLamFGTFdhcnd6NEx1MXNObnJiQVFQekIzV2ZJbGY1RXo1UQ?oc=5",
+"time": "2026-11-15T03:40:41+00:00",
+"stage": "후속"
+},
+{
 "title": "세무사 수석합격자, 부정행위 시인…경찰 \"엄정 수사\"",
 "source": "SBS",
 "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008846520&plink=RSSLINK&cooper=RSSREADER",
@@ -259,14 +267,14 @@
 "인정",
 "자수",
 "자수사건",
+"자수서",
 "즉시",
 "직접",
 "착수",
 "초소형",
 "촬영",
 "카메라",
-"커닝",
-"합격자"
+"커닝"
 ]
 },
 {
@@ -945,7 +953,7 @@
 "id": "WJ0UFl4MGY2MDliSzZ6QQoc50217",
 "first": "2026-11-15T02:17:59+00:00",
 "last": "2026-11-15T03:21:24+00:00",
-"updated": "2026-11-15T03:42:04.671848+00:00",
+"updated": "2026-11-15T04:02:02.197531+00:00",
 "headline": "코인원 고객정보 유출…외주업체 해킹에 비밀번호·주민번호까지",
 "cat": "기타",
 "regions": [],
@@ -1019,6 +1027,13 @@
 "title": "코인원 고객상담 수탁사 해킹으로 개인정보 유출",
 "source": "토큰포스트",
 "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1najU0Mk84LVN3dExKUF82a3NaMF9oZ29CaHVCUUlNLVQxalVzZ09laXNTTnk5bDhCZ3ZFTE54QnJGUkkzemRkaFRyTE55Szg2TkFPXzdaazTSAV5BVV95cUxNNm5DbzhwLUlkZEFzNnBzMFVZWFpsd1JiU2VGaDBkX2tZUzdQNWtfQ25oUG1DYUlraGhkeldlRHJEX1NqRldNZW9yN2dSXzBWT0tHVmc5b2NnVmlFTjFB?oc=5",
+"time": "2026-11-15T03:21:24+00:00",
+"stage": "후속"
+},
+{
+"title": "코인원 고객상담 수탁사 해킹으로 개인정보 유출",
+"source": "토큰포스트",
+"link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1wZFp2aXBmRjBCMVZ1b1NmSXhoNUpISktFR2hyS0lnekN0bkZ1SlpKeUw4Zi1uVW5uU2c1UkdzS05DMmxfYm9pQ1JucHpNbFZDVUw1U2hHOHViOE02VFJzcEZHLWdvX3pnTng0WTF4bXIzc0txcGc?oc=5",
 "time": "2026-11-15T03:21:24+00:00",
 "stage": "후속"
 }
@@ -2999,7 +3014,7 @@
 "sns": {
 "terms": {
 "지진": {
-"n30": 2,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
@@ -3019,12 +3034,12 @@
 "spike": false
 },
 "폭발": {
-"n30": 3,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
 "붕괴": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -3039,17 +3054,17 @@
 "spike": false
 },
 "속보": {
-"n30": 3,
+"n30": 2,
 "base": 0.1,
 "spike": false
 },
 "지하철": {
-"n30": 3,
+"n30": 1,
 "base": 1.2,
 "spike": false
 },
 "사고": {
-"n30": 5,
+"n30": 4,
 "base": 4.9,
 "spike": false
 },
@@ -3322,8 +3337,8 @@
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 1.19,
-"사고": 4.88,
+"지하철": 1.17,
+"사고": 4.79,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -3576,14 +3591,14 @@
 "time": "2026-11-15T02:20:00+00:00",
 "news": [
 {
-"title": "Desde hoy, pura agua de horchata",
-"source": "TUDN",
-"link": "https://www.tudn.com/embed/futbol/concacaf-nations-league/desde-hoy-pura-agua-de-horchata-video-vertical"
+"title": "México, con sangre de horchata, no supo ni a Jamaica",
+"source": "ESPN Deportes",
+"link": "https://espndeportes.espn.com/futbol/mexico/nota/_/id/17517817/jamaica-vs-mexico-eeuu-nations-league-resultado"
 },
 {
-"title": "Gilberto Mora y Julián Quiñones maquillan derrota de México ante Jamaica",
-"source": "ESPN Deportes",
-"link": "https://espndeportes.espn.com/futbol/selecciones/nota/_/id/17517802/jamaica-vs-mexico-gil-mora-quinones-maquillan-derrota"
+"title": "Selección Mexicana: La razón por la que Rafa Márquez dejó fuera a Armando León vs Jamaica en Nations League",
+"source": "Al Bat",
+"link": "https://www.albat.com/breaking/seleccion-mexicana-la-razon-por-la-que-rafa-marquez-dejo-fuera-a-armando-leon-vs-jamaica-en-nations-league-20261114-0033.html"
 }
 ],
 "new": true
