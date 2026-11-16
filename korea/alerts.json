@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-16T15:42:25.212926+00:00",
+"updated": "2026-11-16T15:44:42.506202+00:00",
 "errors": [],
 "events": [
 {
@@ -3370,13 +3370,13 @@
 "spike": false
 },
 "폭발": {
-"n30": 3,
+"n30": 2,
 "base": 0.1,
 "spike": false
 },
 "붕괴": {
 "n30": 3,
-"base": 0.3,
+"base": 0.4,
 "spike": false
 },
 "대피": {
@@ -3401,7 +3401,7 @@
 },
 "사고": {
 "n30": 3,
-"base": 4.5,
+"base": 4.3,
 "spike": false
 },
 "실종": {
@@ -3695,7 +3695,7 @@
 "n30": 6,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-16T15:42:25.212926+00:00"
+"since": "2026-11-16T15:44:42.506202+00:00"
 }
 ],
 "baseline": {
@@ -3704,13 +3704,13 @@
 "불났": 0.05,
 "정전": 0.05,
 "폭발": 0.05,
-"붕괴": 0.39,
+"붕괴": 0.45,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.37,
-"사고": 4.34,
-"실종": 0.6,
+"지하철": 0.33,
+"사고": 4.21,
+"실종": 0.64,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -3930,6 +3930,24 @@
 },
 "trends": [
 {
+"term": "김주혁",
+"traffic": "500+",
+"time": "2026-11-16T14:40:00+00:00",
+"news": [
+{
+"title": "“오빠 생각이 나서” 문근영, 故 김주혁과의 추억이 담긴 노래에 뭉클한 마음",
+"source": "programs.sbs.co.kr",
+"link": "https://programs.sbs.co.kr/enter/theballad2/clip/89099/OC483613514"
+},
+{
+"title": "변우석, ‘절친’ 주우재 밀어내려 했나 “탑백귀 자리에 앉고 싶다고”(우발라2)",
+"source": "Chosunbiz",
+"link": "https://biz.chosun.com/entertainment/enter_general/2026/11/16/HBSDGYTBMNTDMOJYMIYDEMZYGA/"
+}
+],
+"new": true
+},
+{
 "term": "드라마",
 "traffic": "5000+",
 "time": "2026-11-16T14:30:00+00:00",
@@ -3994,9 +4012,9 @@
 "link": "https://www.joongang.co.kr/article/25478852"
 },
 {
-"title": "[朝鮮칼럼] 북·중·러 위협 속 한미동맹의 새로운 전략",
-"source": "조선일보",
-"link": "https://www.chosun.com/opinion/chosun_column/2026/11/16/F2NGGNEI25GJDIVVJCSNPBMLGE/"
+"title": "트럼프의 '코리아 패싱', 또 드리워지는 '불길한 그림자'",
+"source": "뉴데일리",
+"link": "https://www.newdaily.co.kr/site/data/html/2026/11/16/2026111650286.html"
 }
 ],
 "new": false
@@ -4087,24 +4105,6 @@
 "title": "DN 수퍼스, 2027 LCK 시즌 앞두고 '두두'와 재계약",
 "source": "Sheep Esports",
 "link": "https://www.sheepesports.com/kr/articles/sources-dn-soopers-re-sign-dudu-for-the-2027-lck-season/kr"
-}
-],
-"new": true
-},
-{
-"term": "인사청문회",
-"traffic": "200+",
-"time": "2026-11-16T10:50:00+00:00",
-"news": [
-{
-"title": "[속보] 이 대통령, 이용철 법무부장관 후보자 인사청문요청안 재가",
-"source": "YTN",
-"link": "https://www.ytn.co.kr/_cs/_ln_0101_202611161644231255_005.html"
-},
-{
-"title": "이용철 법무장관 후보자 청문회 열린다…이 대통령, 요청안 재가",
-"source": "JTBC",
-"link": "https://news.jtbc.co.kr/article/NB12328300"
 }
 ],
 "new": true
