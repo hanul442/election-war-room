@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-16T10:21:21.452300+00:00",
+"updated": "2026-11-16T10:23:40.040578+00:00",
 "errors": [],
 "events": [
 {
@@ -3712,8 +3712,8 @@
 "sns": {
 "terms": {
 "지진": {
-"n30": 2,
-"base": 1.3,
+"n30": 1,
+"base": 1.4,
 "spike": false
 },
 "화재": {
@@ -3733,12 +3733,12 @@
 },
 "폭발": {
 "n30": 9,
-"base": 0.7,
+"base": 0.8,
 "spike": true
 },
 "붕괴": {
 "n30": 1,
-"base": 0.3,
+"base": 0.4,
 "spike": false
 },
 "대피": {
@@ -3752,13 +3752,13 @@
 "spike": false
 },
 "속보": {
-"n30": 5,
-"base": 1.4,
-"spike": true
+"n30": 3,
+"base": 1.5,
+"spike": false
 },
 "지하철": {
 "n30": 3,
-"base": 1.2,
+"base": 1.3,
 "spike": false
 },
 "사고": {
@@ -3993,70 +3993,33 @@
 "handle": "yuza-cha.bsky.social",
 "name": "유자스무디샷추가(리뉴얼됨)",
 "time": "2026-11-16T09:53:53.741Z",
-"likes": 2,
+"likes": 3,
 "reposts": 1,
 "url": "https://bsky.app/profile/yuza-cha.bsky.social/post/3n2gb2q2djk22",
 "term": "지하철"
-},
-{
-"text": "[속보]정부, 3~5년 치 세무사 최종합격자 성적 재점검...필요시 대상 확대\nn.news.naver.com/mnews/articl...\n\n그러니까 스카이하고 의대 20년 전수조사 하자니까.",
-"handle": "jejuorange.bsky.social",
-"name": "[랜선효도] 제주감귤🍊",
-"time": "2026-11-16T09:53:35.348Z",
-"likes": 3,
-"reposts": 4,
-"url": "https://bsky.app/profile/jejuorange.bsky.social/post/3n2gb25qlf22y",
-"term": "속보"
-},
-{
-"text": "고삼 여러분 혼란수럽겠지만 그래도 직전에 지진나서 문제집이랑 노트 다 버렸는데 전날 미루는 것 보단 낫지 않냐 복습 하면서 마음을 비우새요",
-"handle": "jinnys0.bsky.social",
-"name": "이진서🕯️",
-"time": "2026-11-16T09:52:34.149Z",
-"likes": 2,
-"reposts": 1,
-"url": "https://bsky.app/profile/jinnys0.bsky.social/post/3n2gayeugbc2q",
-"term": "지진"
-},
-{
-"text": "[속보] 교육부, 수능 시험장 전파 차단 검토 철회 “법적·기술적 한계”\nn.news.naver.com/mnews/articl...\n입력 2026.11.16. 오후 5:59",
-"handle": "jejuorange.bsky.social",
-"name": "[랜선효도] 제주감귤🍊",
-"time": "2026-11-16T09:51:48.845Z",
-"likes": 3,
-"reposts": 6,
-"url": "https://bsky.app/profile/jejuorange.bsky.social/post/3n2gawxug6s2y",
-"term": "속보"
 }
 ],
 "spikes": [
 {
 "term": "폭발",
 "n30": 9,
-"base": 0.7,
+"base": 0.8,
 "spike": true,
-"since": "2026-11-16T10:21:21.452300+00:00"
-},
-{
-"term": "속보",
-"n30": 5,
-"base": 1.4,
-"spike": true,
-"since": "2026-11-16T10:21:21.452300+00:00"
+"since": "2026-11-16T10:23:40.040578+00:00"
 }
 ],
 "baseline": {
-"지진": 1.37,
+"지진": 1.33,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.77,
-"붕괴": 0.39,
+"폭발": 0.79,
+"붕괴": 0.45,
 "대피": 0.05,
-"미사일": 0.22,
-"속보": 1.5,
-"지하철": 1.32,
-"사고": 3.45,
+"미사일": 0.2,
+"속보": 1.35,
+"지하철": 1.39,
+"사고": 3.41,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
