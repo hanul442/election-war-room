@@ -1,16 +1,17 @@
 {
-"updated": "2026-11-16T13:44:03.837652+00:00",
+"updated": "2026-11-16T13:46:20.515644+00:00",
 "errors": [],
 "events": [
 {
 "id": "viewAKR202611161794000051335",
 "first": "2026-11-16T13:35:28+00:00",
-"last": "2026-11-16T13:40:36+00:00",
-"updated": "2026-11-16T13:44:03.837652+00:00",
+"last": "2026-11-16T13:43:17+00:00",
+"updated": "2026-11-16T13:46:20.515644+00:00",
 "headline": "아이브·키키, 그래미 신설 '아시안팝' 부문 후보 지명",
 "cat": "기타",
 "regions": [],
 "sources": [
+"뉴시스",
 "연합뉴스",
 "한국경제"
 ],
@@ -28,17 +29,28 @@
 "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5leDZiWGhLRWQweUFWNFNRZmptSFo4ZXBVN0YwazAxbmltVXhlQ01lY0JaWmVTOGs3RWpnZ2dJTVUxWlBHTnB6WWgxa1prVm00bDZFdjQ2cklMZw?oc=5",
 "time": "2026-11-16T13:40:36+00:00",
 "stage": "속보"
+},
+{
+"title": "아이브·키키, 그래미 신설 '아시안 팝' 부문 첫 후보…K-팝 2팀 이름 올려",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261116_0003870338",
+"time": "2026-11-16T13:43:17+00:00",
+"stage": "후속"
 }
 ],
 "level": "URGENT",
-"latest": "아이브·키키, 그래미 신설 '아시안팝' 부문 후보 됐다",
+"latest": "아이브·키키, 그래미 신설 '아시안 팝' 부문 첫 후보…K-팝 2팀 이름 올려",
 "tok": [
+"2팀",
 "그래미",
 "됐다",
 "부문",
 "신설",
+"아시안",
 "아시안팝",
 "아이브",
+"올려",
+"이름",
 "지명",
 "키키",
 "후보"
@@ -3956,7 +3968,7 @@
 "sns": {
 "terms": {
 "지진": {
-"n30": 1,
+"n30": 0,
 "base": 0.3,
 "spike": false
 },
@@ -3981,33 +3993,33 @@
 "spike": false
 },
 "붕괴": {
-"n30": 1,
+"n30": 0,
 "base": 0.9,
 "spike": false
 },
 "대피": {
 "n30": 0,
-"base": 0.3,
+"base": 0.2,
 "spike": false
 },
 "미사일": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
 "속보": {
-"n30": 5,
+"n30": 2,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "지하철": {
-"n30": 2,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
 "사고": {
 "n30": 5,
-"base": 3.9,
+"base": 4.0,
 "spike": false
 },
 "실종": {
@@ -4042,7 +4054,7 @@
 "handle": "huoguoparty.bsky.social",
 "name": "🎃🍠훠박고곰아🍎🌽",
 "time": "2026-11-16T13:43:25.649Z",
-"likes": 0,
+"likes": 1,
 "reposts": 0,
 "url": "https://bsky.app/profile/huoguoparty.bsky.social/post/3n2gnv6s62225",
 "term": "사고"
@@ -4177,16 +4189,6 @@
 "url": "https://www.youtube.com/watch?v=D3NqETG0on8"
 },
 {
-"text": "붕괴3rd\n\n올해로 10년 된 게임이다.\n\n다양한 언어로 글로벌 서비스한다.\n호요버스가 방치 중인 게임이기도 하다.\n\n그래서 플레이어들이 언어를 막론하고 진짜로 이런 식으로 호요버스 다른 게임 팬 혹은 그냥 다른 게임 팬의 시비에 대해 반응한다.\n\n\"야! 우리 없음 너희도 없어!\"\n\"이것들이 위아래도 없어! 역사를 몰라!\"\n\"원작을 다시 봐야 할 거 아냐! 읽고 생각하라고!\"\n\"번역이 틀린 ",
-"handle": "tsuta.bsky.social",
-"name": "츠타蔦_漸龑",
-"time": "2026-11-16T13:14:51.444Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/tsuta.bsky.social/post/3n2gmbx7les22",
-"term": "붕괴"
-},
-{
 "platform": "YouTube",
 "text": "𝐏𝐥𝐚𝐲𝐥𝐢𝐬𝐭 - ☠️ 눈빛부터 달라지는 차가운 자신감 폭발하는💥💥 몬스터 다크 트랩 | | KILLER RAP BEATS",
 "handle": "UCF8EMAhPG3cK00Ef5UCBgSg",
@@ -4295,27 +4297,19 @@
 "url": "https://www.youtube.com/watch?v=d5Nv0JnQA04"
 }
 ],
-"spikes": [
-{
-"term": "속보",
-"n30": 5,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-16T13:44:03.837652+00:00"
-}
-],
+"spikes": [],
 "baseline": {
-"지진": 0.27,
+"지진": 0.24,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.12,
-"붕괴": 0.92,
-"대피": 0.24,
+"폭발": 0.11,
+"붕괴": 0.83,
+"대피": 0.22,
 "미사일": 0.05,
 "속보": 0.05,
 "지하철": 0.05,
-"사고": 4.05,
+"사고": 4.14,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -4577,14 +4571,14 @@
 "time": "2026-11-16T11:10:00+00:00",
 "news": [
 {
-"title": "법원행정처장 \"한덕수 판결문 대략 완성‥법리 따라 판단\"",
+"title": "한덕수 구속 만료 하루 앞둔 19일 선고‥김건희도 함께 판결",
 "source": "MBC 뉴스",
-"link": "https://imnews.imbc.com/news/2026/society/article/6865985_36918.html"
+"link": "https://imnews.imbc.com/replay/2026/nwdesk/article/6866074_37004.html"
 },
 {
-"title": "한덕수 19일 대법 선고...'비상계엄=내란' 첫 최종 판단",
-"source": "YTN",
-"link": "https://www.ytn.co.kr/_ln/0103_202611162156041042"
+"title": "'12·3 계엄=내란' 대법 전원합의체서 인정될까…19일 첫 결론",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261116_0003870203"
 }
 ],
 "new": true
