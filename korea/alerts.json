@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-16T17:18:37.801104+00:00",
+"updated": "2026-11-16T17:20:56.438583+00:00",
 "errors": [],
 "events": [
 {
@@ -2946,7 +2946,7 @@
 "sns": {
 "terms": {
 "지진": {
-"n30": 1,
+"n30": 0,
 "base": 0.7,
 "spike": false
 },
@@ -2966,12 +2966,12 @@
 "spike": false
 },
 "폭발": {
-"n30": 6,
+"n30": 5,
 "base": 0.3,
 "spike": true
 },
 "붕괴": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -2986,9 +2986,9 @@
 "spike": false
 },
 "속보": {
-"n30": 5,
+"n30": 4,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "지하철": {
 "n30": 2,
@@ -2997,7 +2997,7 @@
 },
 "사고": {
 "n30": 0,
-"base": 1.3,
+"base": 1.2,
 "spike": false
 },
 "실종": {
@@ -3155,16 +3155,6 @@
 "url": "https://www.youtube.com/watch?v=6BVdELZovQw"
 },
 {
-"text": "【지진 정보】일본 시간 11월 17일 01:45경\n진원: Adjacent Sea of​ Miyakojima Island (M3.9, 깊이 약 30km)\n최대 진도: 1\n진도 1: 오키나와현\n이 지진으로 인한 쓰나미 걱정은 없습니다.\n(일본 기상청 발표)\n#일본 #지진 #방재",
-"handle": "ko.soramoyou.yk-planning.jp",
-"name": "Soramoyou 한국어",
-"time": "2026-11-16T16:50:34.963Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/ko.soramoyou.yk-planning.jp/post/3n2gydtkvd52d",
-"term": "지진"
-},
-{
 "platform": "YouTube",
 "text": "서소문고가 붕괴 CCTV",
 "handle": "UCzm9Vx3cMtGiuY8hv48MqWA",
@@ -3240,31 +3230,24 @@
 "spikes": [
 {
 "term": "폭발",
-"n30": 6,
+"n30": 5,
 "base": 0.3,
 "spike": true,
-"since": "2026-11-16T17:18:37.801104+00:00"
-},
-{
-"term": "속보",
-"n30": 5,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-16T17:18:37.801104+00:00"
+"since": "2026-11-16T17:20:56.438583+00:00"
 }
 ],
 "baseline": {
-"지진": 0.74,
+"지진": 0.67,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.3,
-"붕괴": 0.13,
+"폭발": 0.27,
+"붕괴": 0.12,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.71,
-"사고": 1.21,
+"지하철": 0.74,
+"사고": 1.09,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
