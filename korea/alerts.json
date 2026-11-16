@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-16T16:14:10.899624+00:00",
+"updated": "2026-11-16T16:16:28.485570+00:00",
 "errors": [],
 "events": [
 {
@@ -3400,12 +3400,12 @@
 "sns": {
 "terms": {
 "지진": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
 "화재": {
-"n30": 3,
+"n30": 2,
 "base": 0.1,
 "spike": false
 },
@@ -3420,13 +3420,13 @@
 "spike": false
 },
 "폭발": {
-"n30": 7,
+"n30": 6,
 "base": 0.1,
 "spike": true
 },
 "붕괴": {
 "n30": 4,
-"base": 0.8,
+"base": 0.9,
 "spike": false
 },
 "대피": {
@@ -3435,14 +3435,14 @@
 "spike": false
 },
 "미사일": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
 "속보": {
-"n30": 6,
+"n30": 4,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "지하철": {
 "n30": 0,
@@ -3451,7 +3451,7 @@
 },
 "사고": {
 "n30": 1,
-"base": 3.2,
+"base": 3.0,
 "spike": false
 },
 "실종": {
@@ -3712,17 +3712,10 @@
 "spikes": [
 {
 "term": "폭발",
-"n30": 7,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-16T16:14:10.899624+00:00"
-},
-{
-"term": "속보",
 "n30": 6,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-16T16:14:10.899624+00:00"
+"since": "2026-11-16T16:16:28.485570+00:00"
 }
 ],
 "baseline": {
@@ -3731,13 +3724,13 @@
 "불났": 0.05,
 "정전": 0.05,
 "폭발": 0.05,
-"붕괴": 0.86,
+"붕괴": 0.87,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.09,
-"사고": 2.96,
-"실종": 0.3,
+"지하철": 0.08,
+"사고": 2.76,
+"실종": 0.27,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -3990,6 +3983,24 @@
 "link": "https://www.gukjenews.com/news/articleView.html?idxno=3753979"
 }
 ],
+"new": false
+},
+{
+"term": "최우제",
+"traffic": "100+",
+"time": "2026-11-16T15:00:00+00:00",
+"news": [
+{
+"title": "[뉴스워커_스포츠] 롤 인벤·롤갤 뒤집은 제우스 복귀설... 정작 티원은 침묵 중",
+"source": "뉴스워커",
+"link": "https://www.newsworker.co.kr/news/articleView.html?idxno=513543"
+},
+{
+"title": "LCK 스토브리그 일정은?⋯코치 영입 15일ㆍ선수 FA 17일",
+"source": "이투데이",
+"link": "https://www.etoday.co.kr/news/view/2647803"
+}
+],
 "new": true
 },
 {
@@ -4117,28 +4128,9 @@
 }
 ],
 "new": true
-},
-{
-"term": "cuaca besok",
-"traffic": "200+",
-"time": "2026-11-16T11:50:00+00:00",
-"news": [
-{
-"title": "Peringatan Cuaca BMKG: Hujan Lebat Disertai Petir Mengancam Kabupaten Maros Malam Ini, Mulai Pukul 19.30 WIB",
-"source": "Databoks",
-"link": "https://databoks.katadata.co.id/demografi/statistik/c3a8d97bdb5ee53/peringatan-cuaca-bmkg-hujan-lebat-disertai-petir-mengancam-kabupaten-maros-malam-ini-mulai-pukul-19-30-wib"
-},
-{
-"title": "Prakiraan Cuaca Makassar Besok 17 November 2026: Siang-Sore Hujan, Suhu 19-35 Derajat Celsius",
-"source": "detikcom",
-"link": "https://www.detik.com/sulsel/makassar/d-8755618/prakiraan-cuaca-makassar-besok-17-november-2026-siang-sore-hujan-suhu-19-35-derajat-celsius"
-}
-],
-"new": true
 }
 ],
 "trendSeen": [
-"주가순자산비율",
 "주가조작",
 "주간조선",
 "주간한국",
@@ -4208,6 +4200,7 @@
 "최민희",
 "최예나",
 "최우식",
+"최우제",
 "최원태",
 "최원호",
 "최인호",
