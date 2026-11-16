@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-16T16:41:58.298840+00:00",
+"updated": "2026-11-16T16:44:13.849315+00:00",
 "errors": [],
 "events": [
 {
@@ -3022,12 +3022,12 @@
 },
 "폭발": {
 "n30": 4,
-"base": 0.5,
+"base": 0.6,
 "spike": false
 },
 "붕괴": {
 "n30": 1,
-"base": 0.7,
+"base": 0.6,
 "spike": false
 },
 "대피": {
@@ -3041,7 +3041,7 @@
 "spike": false
 },
 "속보": {
-"n30": 8,
+"n30": 7,
 "base": 0.1,
 "spike": true
 },
@@ -3334,10 +3334,10 @@
 "spikes": [
 {
 "term": "속보",
-"n30": 8,
+"n30": 7,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-16T16:41:58.298840+00:00"
+"since": "2026-11-16T16:44:13.849315+00:00"
 }
 ],
 "baseline": {
@@ -3345,14 +3345,14 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.56,
-"붕괴": 0.62,
+"폭발": 0.6,
+"붕괴": 0.56,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.64,
-"사고": 3.44,
-"실종": 0.09,
+"지하철": 0.68,
+"사고": 3.5,
+"실종": 0.08,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -3563,6 +3563,24 @@
 },
 "trends": [
 {
+"term": "robert pattinson",
+"traffic": "200+",
+"time": "2026-11-16T15:40:00+00:00",
+"news": [
+{
+"title": "Robert Pattinson Is Officially James Bond: Meet the New 007 Actor",
+"source": "Variety",
+"link": "https://variety.com/2026/film/global/robert-pattinson-new-james-bond-007-1236946655/"
+},
+{
+"title": "Robert Pattinson Is James Bond",
+"source": "www.007.com",
+"link": "https://www.007.com/robert-pattinson-is-the-new-james-bond"
+}
+],
+"new": true
+},
+{
 "term": "다시보기",
 "traffic": "100+",
 "time": "2026-11-16T15:20:00+00:00",
@@ -3573,9 +3591,9 @@
 "link": "https://science.ytn.co.kr/program/program_view.php?s_mcd=0082&key=202611161604549260&s_hcd=0023"
 },
 {
-"title": "[이시각헤드라인] 11월 16일 뉴스현장",
+"title": "[이시각헤드라인] 11월 16일 뉴스투나잇",
 "source": "연합뉴스TV",
-"link": "https://www.yonhapnewstv.co.kr/news/MYH20261116132324DuC"
+"link": "https://www.yonhapnewstv.co.kr/news/MYH202611162143582zB"
 }
 ],
 "new": true
@@ -3723,24 +3741,6 @@
 }
 ],
 "new": false
-},
-{
-"term": "사업",
-"traffic": "200+",
-"time": "2026-11-16T13:00:00+00:00",
-"news": [
-{
-"title": "동국생명과학, 수익성 낮은 진단장비 사업 정리…사명 변경",
-"source": "Chosunbiz",
-"link": "https://biz.chosun.com/science-chosun/bio/2026/11/16/X5CKQN2M6BGEDN4FIG2RAXIOUY/"
-},
-{
-"title": "동국생명과학, 'DK 루오닉스'로 사명 변경…사업구조 재편 본격화 - 머니투데이",
-"source": "머니투데이",
-"link": "https://www.mt.co.kr/thebio/2026/11/16/2026111616470797474"
-}
-],
-"new": true
 }
 ],
 "trendSeen": [
