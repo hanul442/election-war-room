@@ -1,17 +1,51 @@
 {
-"updated": "2026-11-16T22:00:23.453372+00:00",
+"updated": "2026-11-16T22:02:39.327053+00:00",
 "errors": [],
 "events": [
 {
+"id": "wNISX20261117_00038706432158",
+"first": "2026-11-16T21:58:48+00:00",
+"last": "2026-11-16T21:58:48+00:00",
+"updated": "2026-11-16T22:02:39.327053+00:00",
+"headline": "이란군 \"16일에도 호르무즈서 '위반'유조선 기뢰 부딪쳐 화재\" 발표",
+"cat": "재난",
+"regions": [],
+"sources": [
+"뉴시스"
+],
+"updates": [
+{
+"title": "이란군 \"16일에도 호르무즈서 '위반'유조선 기뢰 부딪쳐 화재\" 발표",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261117_0003870643",
+"time": "2026-11-16T21:58:48+00:00",
+"stage": "1보"
+}
+],
+"level": "ALERT",
+"latest": "이란군 \"16일에도 호르무즈서 '위반'유조선 기뢰 부딪쳐 화재\" 발표",
+"tok": [
+"16일에",
+"기뢰",
+"부딪쳐",
+"위반",
+"유조선",
+"이란군",
+"호르무즈서",
+"화재"
+]
+},
+{
 "id": "p3aWl6cHBJdWRMZW1iOFEoc52151",
 "first": "2026-11-16T21:51:00+00:00",
-"last": "2026-11-16T21:51:00+00:00",
-"updated": "2026-11-16T21:58:08.454624+00:00",
+"last": "2026-11-16T21:51:58+00:00",
+"updated": "2026-11-16T22:02:39.327053+00:00",
 "headline": "아리바이오 먹는 치매약, 임상 3상 단독투여군서 1차 목표 달성",
 "cat": "기타",
 "regions": [],
 "sources": [
-"Chosunbiz"
+"Chosunbiz",
+"조선일보"
 ],
 "updates": [
 {
@@ -20,6 +54,13 @@
 "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOT19nNF9ob0ZXSnJsQWlZWS1BZUs0SUdXcy1rVFFkNkllVDI2U3hHSmlNZGxqcjM2T2VaMHM4OHFISHRaWjNQTUt1QU1Va0oxczRva2J3enVtV1JRaVQwWUg4eG1hMEhMZ3ZqZkM4U2FhdkFPRHpWYzRHVWJ2cnkzVjRrRG5pM0nSAZsBQVVfeXFMTlg1aEdtRmU5ZTEzOWZnLVFRYUFmLXVYRV9JZWFxWlpselJPbDNWTE41TVc0T09uMS1DaHFRNW94bmRKaXRURmcwanNvcUcwa0RGSk11anlZMTUtQzY0YzZhSWp5QTZjSXpDYUZWRDRycXdMcGExQnJ4TTl2VjhKNGpNamtwQlVicEFvcnp3aWl6cHBJdWRMZW1iOFE?oc=5",
 "time": "2026-11-16T21:51:00+00:00",
 "stage": "얼럿"
+},
+{
+"title": "[속보] 아리바이오 먹는 치매약, 임상 3상 단독투여군서 1차 목표 달성",
+"source": "조선일보",
+"link": "https://www.chosun.com/economy/science/2026/11/17/ME2GINZRG4YWKYZSME2DCNJXMY/",
+"time": "2026-11-16T21:51:58+00:00",
+"stage": "속보"
 }
 ],
 "level": "URGENT",
@@ -1934,9 +1975,9 @@
 "spike": false
 },
 "폭발": {
-"n30": 5,
+"n30": 4,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "붕괴": {
 "n30": 4,
@@ -1954,7 +1995,7 @@
 "spike": false
 },
 "속보": {
-"n30": 7,
+"n30": 6,
 "base": 0.1,
 "spike": true
 },
@@ -2205,18 +2246,11 @@
 ],
 "spikes": [
 {
-"term": "폭발",
-"n30": 5,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-16T22:00:23.453372+00:00"
-},
-{
 "term": "속보",
-"n30": 7,
+"n30": 6,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-16T22:00:23.453372+00:00"
+"since": "2026-11-16T22:02:39.327053+00:00"
 }
 ],
 "baseline": {
@@ -2229,7 +2263,7 @@
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.08,
+"지하철": 0.07,
 "사고": 0.05,
 "실종": 0.05,
 "단수": 0.05,
@@ -2515,9 +2549,9 @@
 "link": "https://www.ksilbo.co.kr/news/articleView.html?idxno=1072676"
 },
 {
-"title": "작업장 온열질환 비율, 울산 62.3% 전국최고",
-"source": "울산일보",
-"link": "http://www.ulsanilbo.co.kr/news/articleView.html?idxno=121637"
+"title": "베트남 북부는 곧 추운 날씨를 맞이할 것으로 예상되며, 중부 베트남은 폭우와 갑작스러운 홍수에 대비해야 합니다.",
+"source": "Vietnam.vn",
+"link": "https://www.vietnam.vn/ko/bac-bo-sap-chuyen-ret-trung-bo-de-phong-mua-lon-lu-quet"
 }
 ],
 "new": true
