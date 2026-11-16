@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-16T09:23:39.387219+00:00",
+"updated": "2026-11-16T09:26:15.847465+00:00",
 "errors": [],
 "events": [
 {
@@ -127,6 +127,41 @@
 "필요시",
 "합격자",
 "확대"
+]
+},
+{
+"id": "nkRSSLINKcooperRSSREADER0920",
+"first": "2026-11-16T09:20:17+00:00",
+"last": "2026-11-16T09:20:17+00:00",
+"updated": "2026-11-16T09:26:15.847465+00:00",
+"headline": "BBQ 'FC바르셀로나' 초대권 전방위 배포 의혹…유정복 전 인천시장도 초청",
+"cat": "기타",
+"regions": [
+"인천"
+],
+"sources": [
+"SBS"
+],
+"updates": [
+{
+"title": "[단독] BBQ 'FC바르셀로나' 초대권 전방위 배포 의혹…유정복 전 인천시장도 초청",
+"source": "SBS",
+"link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008848503&plink=RSSLINK&cooper=RSSREADER",
+"time": "2026-11-16T09:20:17+00:00",
+"stage": "단독"
+}
+],
+"level": "URGENT",
+"latest": "BBQ 'FC바르셀로나' 초대권 전방위 배포 의혹…유정복 전 인천시장도 초청",
+"tok": [
+"BBQ",
+"FC바르셀로나",
+"배포",
+"유정복",
+"인천시장",
+"전방위",
+"초대권",
+"초청"
 ]
 },
 {
@@ -3658,34 +3693,6 @@
 "정비",
 "지지부진"
 ]
-},
-{
-"id": "5N2VNS2o3TjhEQ1ZRc2ZRoc50736",
-"first": "2026-11-16T07:36:02+00:00",
-"last": "2026-11-16T07:36:02+00:00",
-"updated": "2026-11-16T07:37:31.022409+00:00",
-"headline": "속보) 통신사에서 교육부 손절",
-"cat": "기타",
-"regions": [],
-"sources": [
-"Howl.Link"
-],
-"updates": [
-{
-"title": "속보) 통신사에서 교육부 손절",
-"source": "Howl.Link",
-"link": "https://news.google.com/rss/articles/CBMiO0FVX3lxTE1kTGFKZ0FsYzhreTgzb2xiNGt4RDhpQ3FrNnJ6MUdWbnprVGE5N2VNS2o3TjhEQ1ZRc2ZR?oc=5",
-"time": "2026-11-16T07:36:02+00:00",
-"stage": "1보"
-}
-],
-"level": "ALERT",
-"latest": "속보) 통신사에서 교육부 손절",
-"tok": [
-"교육부",
-"손절",
-"통신사에서"
-]
 }
 ],
 "sns": {
@@ -3727,7 +3734,7 @@
 },
 "미사일": {
 "n30": 4,
-"base": 0.8,
+"base": 0.9,
 "spike": false
 },
 "속보": {
@@ -3741,8 +3748,8 @@
 "spike": false
 },
 "사고": {
-"n30": 8,
-"base": 7.2,
+"n30": 7,
+"base": 7.3,
 "spike": false
 },
 "실종": {
@@ -3772,6 +3779,16 @@
 }
 },
 "posts": [
+{
+"text": "당장 국내 항공 법령만 봐도 ICAO준용인데, 정작 알맹이가 없죠. FAA/NTSB는 사실 규정 문서가 너무 많은게 흠이긴 한데(그만큼 미국에서 사고가 많이 터지고 사고 교훈에 따라 자주 변경되니), 그만큼 참고할 구석이 많아서 좋습니다. 저같은 공군 정비사 따까리-_- 출신이 봐도 뭐 막히는게 없어요.",
+"handle": "nfsc.bsky.social",
+"name": "단순한생각",
+"time": "2026-11-16T09:24:07.647Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/nfsc.bsky.social/post/3n2g7fiy27k2x",
+"term": "사고"
+},
 {
 "text": "쓰리디 프린터도 독성 사망사고도 있었고 좀… 괜찮은거냐",
 "handle": "huoguoparty.bsky.social",
@@ -3827,8 +3844,8 @@
 "handle": "aircon77.bsky.social",
 "name": "AirCon",
 "time": "2026-11-16T09:10:56.143Z",
-"likes": 1,
-"reposts": 1,
+"likes": 2,
+"reposts": 2,
 "url": "https://bsky.app/profile/aircon77.bsky.social/post/3n2g6nwew7c2z",
 "term": "미사일"
 },
@@ -4012,28 +4029,28 @@
 "n30": 5,
 "base": 0.6,
 "spike": true,
-"since": "2026-11-16T09:23:39.387219+00:00"
+"since": "2026-11-16T09:26:15.847465+00:00"
 },
 {
 "term": "붕괴",
 "n30": 5,
 "base": 0.5,
 "spike": true,
-"since": "2026-11-16T09:23:39.387219+00:00"
+"since": "2026-11-16T09:26:15.847465+00:00"
 }
 ],
 "baseline": {
-"지진": 0.6,
+"지진": 0.64,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.56,
-"붕괴": 0.51,
+"폭발": 0.5,
+"붕괴": 0.56,
 "대피": 0.05,
-"미사일": 0.91,
+"미사일": 1.02,
 "속보": 0.05,
-"지하철": 0.81,
-"사고": 7.26,
+"지하철": 0.83,
+"사고": 7.23,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -4336,9 +4353,9 @@
 "link": "https://www.mt.co.kr/society/2026/11/16/2026111615464396280"
 },
 {
-"title": "최동석, '파경' 박지윤 지인 상대 상간자 소송 항소심서 일부 승소",
-"source": "뉴스1",
-"link": "https://www.news1.kr/society/general-society/6355598"
+"title": "최동석, 박지윤 지인 상대 상간 소송 항소심 일부 승소",
+"source": "한국경제",
+"link": "https://www.hankyung.com/article/2026111695337"
 }
 ],
 "new": true
@@ -4367,14 +4384,14 @@
 "time": "2026-11-16T07:10:00+00:00",
 "news": [
 {
-"title": "TVP bez filmów o Jamesie Bondzie. Prawa ma teraz TVN",
-"source": "Press.pl",
-"link": "https://www.press.pl/tresc/95960,tvp-bez-filmow-o-jamesie-bondzie_-prawa-ma-teraz-tvn"
+"title": "Magda Adamowicz przekazała radosną wiadomość za pośrednictwem mediów społecznościowych. Prezenterka TVN24 właśnie została mamą — na świat przyszła dziewczynka. Link w komentarzu",
+"source": "Facebook",
+"link": "https://www.facebook.com/plejadapl/posts/magda-adamowicz-przekaza%C5%82a-radosn%C4%85-wiadomo%C5%9B%C4%87-za-po%C5%9Brednictwem-medi%C3%B3w-spo%C5%82eczno%C5%9Bc/1586136566875133/"
 },
 {
-"title": "\"Młode gliny\", odc. 80. Przeszłość dopadła Łukasza. Czy komendantka jest w niebezpieczeństwie?",
-"source": "TVN.pl",
-"link": "https://tvn.pl/aktualnosci/mlode-gliny-odc-80-przeszlosc-dopadla-lukasza-czy-komendantka-jest-w-niebezpieczenstwie-vd9340761"
+"title": "Pogodynka TVN podzieliła się swoim szczęściem. „Jest już z nami”. Gratulacje płyną z całej Polski",
+"source": "RMF FM",
+"link": "https://www.rmf.fm/rozrywka/news,n1026244,pogodynka-tvn-podzielila-sie-swoim-szczesciem-jest-juz-z-nami-gratulacje-plyna-z-calej-polski.html"
 }
 ],
 "new": true
