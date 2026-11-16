@@ -1,19 +1,27 @@
 {
-"updated": "2026-11-16T12:20:01.452145+00:00",
+"updated": "2026-11-16T12:22:21.305539+00:00",
 "errors": [],
 "events": [
 {
 "id": "RXN0U4Q2w0TnY4YVVxU0Eoc51211",
 "first": "2026-11-16T12:11:22+00:00",
 "last": "2026-11-16T12:11:22+00:00",
-"updated": "2026-11-16T12:20:01.452145+00:00",
+"updated": "2026-11-16T12:22:21.305539+00:00",
 "headline": "엔비디아 프리마켓 3.83% 급락…젠슨 황 복귀 서명",
 "cat": "기타",
 "regions": [],
 "sources": [
-"CBC뉴스"
+"CBC뉴스",
+"토큰포스트"
 ],
 "updates": [
+{
+"title": "젠슨 황 복귀 청원 16만명 넘어…엔비디아, 후임 접촉설 부인",
+"source": "토큰포스트",
+"link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5uS2FUM3M1VVdvREV0bHhyNWVaVnZzM0psazJRNzk1N1VOSDg2dEpqLUxNTE1WZ3hERnlyeE5BMmR0QjNPY2UwcXJIY18xUk9COFFQS19PNmPSAV5BVV95cUxNQVJfaEpNdmtIMmJCdTFGejBpN1lYZjNETFlWVzg1cV9zN0RaY211RTFDQldJRmVGb0lleklSQm5qUnpHYUo2TUlOX2FQaHNubUxTaVFNN0dfcDV1anB3?oc=5",
+"time": "2026-11-16T11:32:57+00:00",
+"stage": "후속"
+},
 {
 "title": "[속보]엔비디아 프리마켓 3.83% 급락…젠슨 황 복귀 서명",
 "source": "CBC뉴스",
@@ -25,12 +33,18 @@
 "level": "URGENT",
 "latest": "엔비디아 프리마켓 3.83% 급락…젠슨 황 복귀 서명",
 "tok": [
+"16만명",
 "급락",
+"넘어",
 "복귀",
+"부인",
 "서명",
 "엔비디아",
+"접촉설",
 "젠슨",
-"프리마켓"
+"청원",
+"프리마켓",
+"후임"
 ]
 },
 {
@@ -3885,7 +3899,7 @@
 },
 "붕괴": {
 "n30": 4,
-"base": 0.2,
+"base": 0.3,
 "spike": false
 },
 "대피": {
@@ -3895,7 +3909,7 @@
 },
 "미사일": {
 "n30": 3,
-"base": 0.8,
+"base": 0.7,
 "spike": false
 },
 "속보": {
@@ -3905,7 +3919,7 @@
 },
 "지하철": {
 "n30": 2,
-"base": 0.8,
+"base": 0.9,
 "spike": false
 },
 "사고": {
@@ -4155,7 +4169,7 @@
 "handle": "satang9131.bsky.social",
 "name": "사탕",
 "time": "2026-11-16T11:56:55.645Z",
-"likes": 0,
+"likes": 1,
 "reposts": 0,
 "url": "https://bsky.app/profile/satang9131.bsky.social/post/3n2ghwqfsoc2p",
 "term": "폭발"
@@ -4186,14 +4200,14 @@
 "n30": 5,
 "base": 0.7,
 "spike": true,
-"since": "2026-11-16T12:20:01.452145+00:00"
+"since": "2026-11-16T12:22:21.305539+00:00"
 },
 {
 "term": "속보",
 "n30": 6,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-16T12:20:01.452145+00:00"
+"since": "2026-11-16T12:22:21.305539+00:00"
 }
 ],
 "baseline": {
@@ -4201,17 +4215,17 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.73,
-"붕괴": 0.32,
-"대피": 0.1,
-"미사일": 0.71,
+"폭발": 0.76,
+"붕괴": 0.39,
+"대피": 0.09,
+"미사일": 0.64,
 "속보": 0.05,
-"지하철": 0.86,
-"사고": 1.74,
+"지하철": 0.87,
+"사고": 1.77,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
-"먹통": 0.16,
+"먹통": 0.14,
 "산불": 0.05
 },
 "errors": [],
