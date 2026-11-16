@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-16T08:09:40.195460+00:00",
+"updated": "2026-11-16T08:11:57.321163+00:00",
 "errors": [],
 "events": [
 {
@@ -337,7 +337,7 @@
 "id": "yZlJydDV6WG5RdzNqT0lRoc50731",
 "first": "2026-11-16T07:31:01+00:00",
 "last": "2026-11-16T08:03:00+00:00",
-"updated": "2026-11-16T08:07:21.269798+00:00",
+"updated": "2026-11-16T08:11:57.321163+00:00",
 "headline": "전북, 2036 올림픽 `홀로 유치` 추진키로…서울과 공동개최 무산",
 "cat": "기타",
 "regions": [
@@ -348,7 +348,8 @@
 "경향신문",
 "뉴시스",
 "매일신문",
-"연합뉴스"
+"연합뉴스",
+"전북제일신문"
 ],
 "updates": [
 {
@@ -373,6 +374,13 @@
 "stage": "종합"
 },
 {
+"title": "[속보] 전북, 올림픽 단독 유치 승부수… 서울과 공동 개최 결별",
+"source": "전북제일신문",
+"link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1RbmFndEwxdndLN2R3RDNrSVA3eFRqQkRmdTl1WXBfd01QLUg1YU1ETWNxMlVzOE4tLXI0RnFiTUc3dXBRQWhNSDJqcDdUa25YUkJZTW9FT3N1QUhxNFRwNG1DRmR2VVp5cUE?oc=5",
+"time": "2026-11-16T07:59:57+00:00",
+"stage": "속보"
+},
+{
 "title": "전북·서울 2036 올림픽 공동 유치 무산···전북, 단독 개최로 선회",
 "source": "경향신문",
 "link": "https://www.khan.co.kr/article/202611161703001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
@@ -384,6 +392,7 @@
 "latest": "전북·서울 2036 올림픽 공동 유치 무산···전북, 단독 개최로 선회",
 "tok": [
 "개최",
+"결별",
 "공동",
 "공동개최",
 "단독개최",
@@ -391,6 +400,7 @@
 "불발",
 "서울",
 "선회",
+"승부수",
 "올림픽",
 "유치",
 "입장",
@@ -4148,12 +4158,12 @@
 },
 "폭발": {
 "n30": 8,
-"base": 0.5,
+"base": 0.4,
 "spike": true
 },
 "붕괴": {
 "n30": 5,
-"base": 0.8,
+"base": 0.7,
 "spike": true
 },
 "대피": {
@@ -4177,8 +4187,8 @@
 "spike": false
 },
 "사고": {
-"n30": 3,
-"base": 4.2,
+"n30": 2,
+"base": 4.1,
 "spike": false
 },
 "실종": {
@@ -4416,51 +4426,41 @@
 "reposts": 0,
 "url": "https://bsky.app/profile/hui1004567221c.bsky.social/post/3n2fztevt4k2u",
 "term": "사고"
-},
-{
-"text": "코즈믹호러 인외 Okay\n인간형 인외 ->사고방식 깐깐하게 따짐 허나 Okay\n그냥 생긴거만 인외 ->아....... 한국에도 많아요..",
-"handle": "oh0i0am.bsky.social",
-"name": "황세문",
-"time": "2026-11-16T07:40:37.248Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/oh0i0am.bsky.social/post/3n2fzmgaq6s2a",
-"term": "사고"
 }
 ],
 "spikes": [
 {
 "term": "폭발",
 "n30": 8,
-"base": 0.5,
+"base": 0.4,
 "spike": true,
-"since": "2026-11-16T08:09:40.195460+00:00"
+"since": "2026-11-16T08:11:57.321163+00:00"
 },
 {
 "term": "붕괴",
 "n30": 5,
-"base": 0.8,
+"base": 0.7,
 "spike": true,
-"since": "2026-11-16T08:09:40.195460+00:00"
+"since": "2026-11-16T08:11:57.321163+00:00"
 }
 ],
 "baseline": {
-"지진": 0.77,
+"지진": 0.69,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.41,
-"붕괴": 0.73,
-"대피": 0.45,
+"폭발": 0.37,
+"붕괴": 0.66,
+"대피": 0.41,
 "미사일": 0.05,
-"속보": 0.07,
+"속보": 0.06,
 "지하철": 0.05,
-"사고": 4.11,
+"사고": 3.9,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
-"먹통": 0.08,
-"산불": 0.45
+"먹통": 0.07,
+"산불": 0.41
 },
 "errors": [],
 "ytPosts": [
@@ -4686,9 +4686,9 @@
 "link": "https://www.donga.com/news/Politics/article/all/20261116/135028760/2"
 },
 {
-"title": "與경찰개혁TF, 경찰 수사기록 전부 '공소청 검토' 추진…경찰대 폐지도 공감대",
-"source": "뉴스1",
-"link": "https://www.news1.kr/politics/assembly/6354803"
+"title": "검찰 수사권 폐지하더니…與, '경찰 모든 수사기록 검사에 전달' 논의",
+"source": "TV조선뉴스",
+"link": "https://news.tvchosun.com/site/data/html_dir/2026/11/16/2026111690083.html"
 }
 ],
 "new": true
@@ -4758,9 +4758,9 @@
 "link": "https://www.chosun.com/economy/market_trend/2026/11/16/CJULONS2TNETZL7ICZYE6RLNFQ/"
 },
 {
-"title": "보폭 넓힌 롯데 '3세 경영자' 신유열...입사 6년 만에 사장 승진 - 머니투데이",
-"source": "머니투데이",
-"link": "https://www.mt.co.kr/living/2026/11/16/2026111616060130319"
+"title": "사장 발탁 승진에, 체제 전환…롯데, 그룹 모태 식품사업 살리기 전력",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261116_0003870281"
 }
 ],
 "new": true
