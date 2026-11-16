@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-16T21:58:08.454624+00:00",
+"updated": "2026-11-16T22:00:23.453372+00:00",
 "errors": [],
 "events": [
 {
@@ -435,6 +435,53 @@
 "탕탕탕",
 "피의자",
 "혐의"
+]
+},
+{
+"id": "9KemlRbU1mRGYtNVEtRzAoc51741",
+"first": "2026-11-16T17:41:42+00:00",
+"last": "2026-11-16T21:19:00+00:00",
+"updated": "2026-11-16T22:00:23.453372+00:00",
+"headline": "미 상무부 \"AI반도체 중국 원격 접속 차단 조치\"",
+"cat": "경제",
+"regions": [],
+"sources": [
+"KBS 뉴스",
+"뉴스1"
+],
+"updates": [
+{
+"title": "[속보] 미 상무부 \"AI반도체 중국 원격 접속 차단 조치\"",
+"source": "뉴스1",
+"link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1XU2wtUU5wTkNzbEhaQ0tYck01Q1FXVWZQb1ZTWUhaNEdRZDVEN1VOR0JQaTQzMFhqeWw0dkhVbUZBTFFwRm50X09KemlRbU1mRGYtNVEtRzA?oc=5",
+"time": "2026-11-16T17:41:42+00:00",
+"stage": "얼럿"
+},
+{
+"title": "미국, AI 반도체 중국 원격 접속 차단…엔비디아 “안보 문제 조사”",
+"source": "KBS 뉴스",
+"link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE80NWZqek9SSVUzSU4tWDBieXkwTUFGZjh4YnhTZy1EM1RYLS1uSVQtVEJENmhadXRTcGI3UGJDeDJhSWlPXzVkbHMzZmVsZjliTk1nNVNVWFA0WVhrRHZ5ZFZEMlRtdw?oc=5",
+"time": "2026-11-16T21:19:00+00:00",
+"stage": "후속"
+}
+],
+"level": "URGENT",
+"latest": "미국, AI 반도체 중국 원격 접속 차단…엔비디아 “안보 문제 조사”",
+"tok": [
+"AI",
+"AI반도체",
+"문제",
+"미국",
+"반도체",
+"상무부",
+"안보",
+"엔비디아",
+"원격",
+"접속",
+"조사",
+"조치",
+"중국",
+"차단"
 ]
 },
 {
@@ -1862,49 +1909,17 @@
 "팰리스",
 "프랑크"
 ]
-},
-{
-"id": "9KemlRbU1mRGYtNVEtRzAoc51741",
-"first": "2026-11-16T17:41:42+00:00",
-"last": "2026-11-16T17:41:42+00:00",
-"updated": "2026-11-16T17:50:56.451806+00:00",
-"headline": "미 상무부 \"AI반도체 중국 원격 접속 차단 조치\"",
-"cat": "경제",
-"regions": [],
-"sources": [
-"뉴스1"
-],
-"updates": [
-{
-"title": "[속보] 미 상무부 \"AI반도체 중국 원격 접속 차단 조치\"",
-"source": "뉴스1",
-"link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1XU2wtUU5wTkNzbEhaQ0tYck01Q1FXVWZQb1ZTWUhaNEdRZDVEN1VOR0JQaTQzMFhqeWw0dkhVbUZBTFFwRm50X09KemlRbU1mRGYtNVEtRzA?oc=5",
-"time": "2026-11-16T17:41:42+00:00",
-"stage": "얼럿"
-}
-],
-"level": "URGENT",
-"latest": "미 상무부 \"AI반도체 중국 원격 접속 차단 조치\"",
-"tok": [
-"AI반도체",
-"상무부",
-"원격",
-"접속",
-"조치",
-"중국",
-"차단"
-]
 }
 ],
 "sns": {
 "terms": {
 "지진": {
-"n30": 2,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
 "화재": {
-"n30": 2,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
@@ -1919,7 +1934,7 @@
 "spike": false
 },
 "폭발": {
-"n30": 6,
+"n30": 5,
 "base": 0.1,
 "spike": true
 },
@@ -1944,7 +1959,7 @@
 "spike": true
 },
 "지하철": {
-"n30": 2,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
@@ -2191,17 +2206,17 @@
 "spikes": [
 {
 "term": "폭발",
-"n30": 6,
+"n30": 5,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-16T21:58:08.454624+00:00"
+"since": "2026-11-16T22:00:23.453372+00:00"
 },
 {
 "term": "속보",
 "n30": 7,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-16T21:58:08.454624+00:00"
+"since": "2026-11-16T22:00:23.453372+00:00"
 }
 ],
 "baseline": {
@@ -2214,7 +2229,7 @@
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.09,
+"지하철": 0.08,
 "사고": 0.05,
 "실종": 0.05,
 "단수": 0.05,
