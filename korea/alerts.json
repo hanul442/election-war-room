@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-16T13:57:47.490163+00:00",
+"updated": "2026-11-16T14:00:05.902407+00:00",
 "errors": [],
 "events": [
 {
@@ -41,7 +41,7 @@
 "id": "viewAKR202611161793000051334",
 "first": "2026-11-16T13:34:29+00:00",
 "last": "2026-11-16T13:54:57+00:00",
-"updated": "2026-11-16T13:57:47.490163+00:00",
+"updated": "2026-11-16T14:00:05.902407+00:00",
 "headline": "제니, '드라큘라'로 그래미 '베스트 팝 듀오/그룹' 후보",
 "cat": "기타",
 "regions": [],
@@ -67,6 +67,13 @@
 "stage": "후속"
 },
 {
+"title": "[속보] 아이브·키키, 美 그래미 '베스트 아시안 팝 뮤직 퍼포먼스' 노미네이트",
+"source": "뉴스1",
+"link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5jSTZuNTZ6b2xDbUxSSWxOLWJBNGh3dlFtaF8yRE9VaGtfcEZDUks5VE80ckJDcU5rVEwxWjRTcVZ5Q1lpdlFNRlJYRTBXUkJZcVRVb0FEaw?oc=5",
+"time": "2026-11-16T13:37:59+00:00",
+"stage": "속보"
+},
+{
 "title": "[속보] 제니, 美 그래미 '베스트 팝 듀오/그룹 퍼포먼스' 노미네이트",
 "source": "뉴스1",
 "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9DbWRSTi1jak0weXdBazhCQ05PQzQ3c1FlbGNXcEJFaDNyUFBHLU0zNy1SS2lXdzIyVk5uYVlWMHFYeXZXbVpEYWhjV3VCLUktXzhpSXVoYw?oc=5",
@@ -85,6 +92,13 @@
 "source": "연합뉴스",
 "link": "https://www.yna.co.kr/view/AKR20261116179800005",
 "time": "2026-11-16T13:46:54+00:00",
+"stage": "속보"
+},
+{
+"title": "[속보] 제니, '드라큘라'로 美 그래미 '올해의 레코드' 노미네이트",
+"source": "뉴스1",
+"link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9VN1ZXWDVmaTVqVEQ0YXRNdGJEd1JXd2ZRNXBQRVpBT3AxaXBaUm9pN3pLcTRFV1FlZHo5ZU81c2tyT1RfU2pTa29EanlTVjRyNHhQdFQxVQ?oc=5",
+"time": "2026-11-16T13:46:59+00:00",
 "stage": "속보"
 },
 {
@@ -112,12 +126,16 @@
 "듀오",
 "드라큘라",
 "레코드",
+"뮤직",
 "베스트",
 "본상",
 "블랙핑크",
+"아시안",
+"아이브",
 "입성",
 "제니",
 "지명",
+"키키",
 "퍼포먼스",
 "후보"
 ]
@@ -4015,7 +4033,7 @@
 "terms": {
 "지진": {
 "n30": 2,
-"base": 0.2,
+"base": 0.1,
 "spike": false
 },
 "화재": {
@@ -4040,7 +4058,7 @@
 },
 "붕괴": {
 "n30": 1,
-"base": 0.6,
+"base": 0.5,
 "spike": false
 },
 "대피": {
@@ -4064,8 +4082,8 @@
 "spike": true
 },
 "사고": {
-"n30": 2,
-"base": 4.0,
+"n30": 3,
+"base": 3.8,
 "spike": false
 },
 "실종": {
@@ -4095,6 +4113,16 @@
 }
 },
 "posts": [
+{
+"text": "우연의 사고로 발견되면 니가 첫 빠다야",
+"handle": "spheres154.bsky.social",
+"name": "3분요리",
+"time": "2026-11-16T13:59:52.243Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/spheres154.bsky.social/post/3n2gosjyma22m",
+"term": "사고"
+},
 {
 "platform": "YouTube",
 "text": "첨성대는 왜 지진에도 안무너졌을까?",
@@ -4338,35 +4366,35 @@
 "n30": 5,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-16T13:57:47.490163+00:00"
+"since": "2026-11-16T14:00:05.902407+00:00"
 },
 {
 "term": "속보",
 "n30": 8,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-16T13:57:47.490163+00:00"
+"since": "2026-11-16T14:00:05.902407+00:00"
 },
 {
 "term": "지하철",
 "n30": 5,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-16T13:57:47.490163+00:00"
+"since": "2026-11-16T14:00:05.902407+00:00"
 }
 ],
 "baseline": {
-"지진": 0.14,
+"지진": 0.13,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.06,
-"붕괴": 0.5,
-"대피": 0.13,
+"폭발": 0.05,
+"붕괴": 0.45,
+"대피": 0.12,
 "미사일": 0.05,
 "속보": 0.05,
 "지하철": 0.05,
-"사고": 3.76,
+"사고": 3.68,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
