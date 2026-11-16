@@ -1,18 +1,19 @@
 {
-"updated": "2026-11-16T23:35:10.803118+00:00",
+"updated": "2026-11-16T23:37:25.525601+00:00",
 "errors": [],
 "events": [
 {
 "id": "viewAKR202611170059000342026",
 "first": "2026-11-16T20:26:38+00:00",
 "last": "2026-11-16T23:33:48+00:00",
-"updated": "2026-11-16T23:35:10.803118+00:00",
+"updated": "2026-11-16T23:37:25.525601+00:00",
 "headline": "전국 흐리고 비…강풍·너울 유의",
 "cat": "재난",
 "regions": [
 "제주"
 ],
 "sources": [
+"경향신문",
 "뉴시스",
 "연합뉴스"
 ],
@@ -25,6 +26,13 @@
 "stage": "1보"
 },
 {
+"title": "“출근길 우산 챙기세요”····전국 대체로 흐리고 비",
+"source": "경향신문",
+"link": "https://www.khan.co.kr/article/202611170742001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
+"time": "2026-11-16T22:42:00+00:00",
+"stage": "후속"
+},
+{
 "title": "전국 대체로 흐리고 오후부터 비…제주·남해안 강풍",
 "source": "뉴시스",
 "link": "https://www.newsis.com/view/NISX20261117_0003870707",
@@ -32,7 +40,7 @@
 "stage": "후속"
 }
 ],
-"level": "ALERT",
+"level": "URGENT",
 "latest": "전국 대체로 흐리고 오후부터 비…제주·남해안 강풍",
 "tok": [
 "강풍",
@@ -40,10 +48,45 @@
 "너울",
 "대체",
 "오후부터",
+"우산",
 "유의",
 "전국",
 "제주",
+"챙기세요",
+"출근길",
 "흐리고"
+]
+},
+{
+"id": "viewAKR202611170235000912329",
+"first": "2026-11-16T23:29:13+00:00",
+"last": "2026-11-16T23:29:13+00:00",
+"updated": "2026-11-16T23:37:25.525601+00:00",
+"headline": "백악관 과기자문위원장 \"젠슨황 비판 성급…中스파이설 붕괴중\"",
+"cat": "재난",
+"regions": [],
+"sources": [
+"연합뉴스"
+],
+"updates": [
+{
+"title": "백악관 과기자문위원장 \"젠슨황 비판 성급…中스파이설 붕괴중\"",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261117023500091",
+"time": "2026-11-16T23:29:13+00:00",
+"stage": "1보"
+}
+],
+"level": "ALERT",
+"latest": "백악관 과기자문위원장 \"젠슨황 비판 성급…中스파이설 붕괴중\"",
+"tok": [
+"中스파이설",
+"과기자문위원장",
+"백악관",
+"붕괴중",
+"비판",
+"성급",
+"젠슨황"
 ]
 },
 {
@@ -2892,7 +2935,7 @@
 "terms": {
 "지진": {
 "n30": 1,
-"base": 0.1,
+"base": 0.2,
 "spike": false
 },
 "화재": {
@@ -2916,7 +2959,7 @@
 "spike": false
 },
 "붕괴": {
-"n30": 2,
+"n30": 1,
 "base": 0.3,
 "spike": false
 },
@@ -2931,18 +2974,18 @@
 "spike": false
 },
 "속보": {
-"n30": 6,
+"n30": 5,
 "base": 0.1,
 "spike": true
 },
 "지하철": {
-"n30": 2,
-"base": 1.9,
+"n30": 0,
+"base": 1.8,
 "spike": false
 },
 "사고": {
 "n30": 1,
-"base": 0.3,
+"base": 0.4,
 "spike": false
 },
 "실종": {
@@ -3110,16 +3153,6 @@
 "url": "https://www.youtube.com/watch?v=7IQqR-QMtzY"
 },
 {
-"text": "우우 지하철 더워서 선풍기를 켜...",
-"handle": "rosemelda.co.kr",
-"name": "𝔐𝔢𝔩𝔇𝔞✨",
-"time": "2026-11-16T23:06:25.355Z",
-"likes": 1,
-"reposts": 0,
-"url": "https://bsky.app/profile/rosemelda.co.kr/post/3n2hndvldh22e",
-"term": "지하철"
-},
-{
 "platform": "YouTube",
 "text": "780선마저 붕괴! 백워데이션 -16pt 쇼크, 오늘 770선도 뚫리나? #국선 #야간선물 #코스피200 #780선붕괴 #차트_View",
 "handle": "UCnIkop95pE2wKEzQp7gGxmQ",
@@ -3204,24 +3237,24 @@
 "spikes": [
 {
 "term": "속보",
-"n30": 6,
+"n30": 5,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-16T23:35:10.803118+00:00"
+"since": "2026-11-16T23:37:25.525601+00:00"
 }
 ],
 "baseline": {
-"지진": 0.24,
+"지진": 0.32,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
 "폭발": 0.05,
-"붕괴": 0.27,
+"붕괴": 0.24,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 1.83,
-"사고": 0.4,
+"지하철": 1.65,
+"사고": 0.46,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -3605,9 +3638,9 @@
 "link": "https://www.bbc.com/sport/football/live/cmly7wxld228t"
 },
 {
-"title": "Licensable picture: UEFA Nations League - Group A2 - Germany v Netherlands",
-"source": "Reuters Connect",
-"link": "https://www.reutersconnect.com/item/uefa-nations-league-group-a2-germany-v-netherlands/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX1VQMUVNQkcxSFBYOTM"
+"title": "Germany thrash Netherlands to book quarterfinal spot",
+"source": "Al Jazeera",
+"link": "https://www.aljazeera.com/sports/2026/11/16/germany-thrash-netherlands-to-book-quarterfinal-spot"
 }
 ],
 "new": true
