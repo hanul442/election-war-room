@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-16T05:22:38.568826+00:00",
+"updated": "2026-11-16T05:24:54.121958+00:00",
 "errors": [],
 "events": [
 {
@@ -3934,7 +3934,7 @@
 "terms": {
 "지진": {
 "n30": 0,
-"base": 0.7,
+"base": 0.6,
 "spike": false
 },
 "화재": {
@@ -3974,17 +3974,17 @@
 },
 "속보": {
 "n30": 1,
-"base": 0.7,
+"base": 0.8,
 "spike": false
 },
 "지하철": {
 "n30": 2,
-"base": 0.6,
+"base": 0.7,
 "spike": false
 },
 "사고": {
 "n30": 1,
-"base": 3.4,
+"base": 3.1,
 "spike": false
 },
 "실종": {
@@ -4228,21 +4228,21 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 0.64,
+"지진": 0.58,
 "화재": 0.05,
 "불났": 0.05,
-"정전": 0.06,
+"정전": 0.05,
 "폭발": 0.05,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.76,
-"지하철": 0.7,
-"사고": 3.12,
+"속보": 0.78,
+"지하철": 0.83,
+"사고": 2.91,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
-"먹통": 0.16,
+"먹통": 0.14,
 "산불": 0.05
 },
 "errors": [],
@@ -4423,8 +4423,44 @@
 },
 "trends": [
 {
+"term": "배구",
+"traffic": "500+",
+"time": "2026-11-16T04:20:00+00:00",
+"news": [
+{
+"title": "마나베 IBK기업은행 감독의 ‘데이터 배구’, V리그 강타중",
+"source": "아시아투데이",
+"link": "https://www.asiatoday.co.kr/kn/view.php?key=20261113010005342"
+},
+{
+"title": "IBK, 흥국생명에 3-0 완승…4연승 질주",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/MYH20261113023500038"
+}
+],
+"new": true
+},
+{
+"term": "개인정보",
+"traffic": "200+",
+"time": "2026-11-16T04:20:00+00:00",
+"news": [
+{
+"title": "한국조폐공사 모바일 상품권 ‘착’, 해킹으로 3083명 개인정보 유출",
+"source": "보안뉴스",
+"link": "https://www.boannews.com/news/articleView.html?idxno=147268"
+},
+{
+"title": "조폐공사 \"'chak' 정보 유출 사고는 API 인증 허점 노린 공격\"",
+"source": "매일경제 마켓",
+"link": "https://stock.mk.co.kr/news/view/1199429"
+}
+],
+"new": true
+},
+{
 "term": "용인반도체클러스터",
-"traffic": "100+",
+"traffic": "200+",
 "time": "2026-11-16T04:10:00+00:00",
 "news": [
 {
@@ -4442,7 +4478,7 @@
 },
 {
 "term": "건강 수명",
-"traffic": "100+",
+"traffic": "200+",
 "time": "2026-11-16T04:10:00+00:00",
 "news": [
 {
@@ -4464,14 +4500,14 @@
 "time": "2026-11-16T04:00:00+00:00",
 "news": [
 {
-"title": "\"차기 은행연합회장은 나\"…의지 드러낸 후보 '5파전'(종합)",
-"source": "연합인포맥스",
-"link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4444945"
+"title": "KB국민은행, 美 S&P500 지수 따라 이자 달라지는 외화예금 선봬",
+"source": "글로벌이코노믹",
+"link": "https://www.g-enews.com/article/Finance/2026/11/202611161359515468bb91c46fcd_1"
 },
 {
-"title": "윤종원 전 기업은행장, 은행연합회 회장 후보 고사",
-"source": "매일경제 마켓",
-"link": "https://stock.mk.co.kr/news/view/1199430"
+"title": "국민은행, ‘KB 스타 지수연동외화예금’ 출시",
+"source": "BI KOREA",
+"link": "http://www.bikorea.net/news/articleView.html?idxno=47812"
 }
 ],
 "new": true
@@ -4562,42 +4598,6 @@
 "title": "‘남대문 스카프 아저씨’ 보조 알바 해보니… 아이돌급 환호에 이유 있었다",
 "source": "조선일보",
 "link": "https://www.chosun.com/national/weekend/2026/11/14/PEZEH22ZWNA7BG5EJBAU4D7P3M/"
-}
-],
-"new": true
-},
-{
-"term": "한화",
-"traffic": "200+",
-"time": "2026-11-16T03:20:00+00:00",
-"news": [
-{
-"title": "한화금융, 뉴욕서 'PLUS NY 2026' 개최…월가 인재 꿈꾸는 청년 750명 모여",
-"source": "전자신문",
-"link": "https://www.etnews.com/20261116000033"
-},
-{
-"title": "한화금융, 뉴욕서 'PLUS NY 2026' 개최…차세대 금융인재 육성",
-"source": "뉴스핌",
-"link": "https://www.newspim.com/news/view/20261116000506"
-}
-],
-"new": false
-},
-{
-"term": "개헌",
-"traffic": "500+",
-"time": "2026-11-16T03:10:00+00:00",
-"news": [
-{
-"title": "조정식 “개헌 특위서 ‘현직 대통령에 미적용’ 명시할수도”",
-"source": "동아일보",
-"link": "https://www.donga.com/news/Politics/article/all/20261116/135030322/1"
-},
-{
-"title": "조 의장 \"헌법개정자문위원회 공동위원장에 김형오·정세균\"",
-"source": "YTN",
-"link": "https://www.ytn.co.kr/_cs/_ln_0101_202611161109050524_005.html"
 }
 ],
 "new": true
