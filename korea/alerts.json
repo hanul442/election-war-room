@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-16T09:28:34.378515+00:00",
+"updated": "2026-11-16T09:30:52.621762+00:00",
 "errors": [],
 "events": [
 {
@@ -3695,12 +3695,12 @@
 "sns": {
 "terms": {
 "지진": {
-"n30": 2,
-"base": 0.6,
+"n30": 1,
+"base": 0.7,
 "spike": false
 },
 "화재": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -3715,14 +3715,14 @@
 "spike": false
 },
 "폭발": {
-"n30": 5,
+"n30": 2,
 "base": 0.5,
-"spike": true
+"spike": false
 },
 "붕괴": {
-"n30": 5,
+"n30": 3,
 "base": 0.6,
-"spike": true
+"spike": false
 },
 "대피": {
 "n30": 0,
@@ -3730,17 +3730,17 @@
 "spike": false
 },
 "미사일": {
-"n30": 4,
-"base": 1.0,
+"n30": 2,
+"base": 1.1,
 "spike": false
 },
 "속보": {
-"n30": 3,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
 "지하철": {
-"n30": 2,
+"n30": 1,
 "base": 0.8,
 "spike": false
 },
@@ -3822,7 +3822,7 @@
 "name": "AirCon",
 "time": "2026-11-16T09:11:54.443Z",
 "likes": 1,
-"reposts": 0,
+"reposts": 1,
 "url": "https://bsky.app/profile/aircon77.bsky.social/post/3n2g6pnydmc2z",
 "term": "미사일"
 },
@@ -4020,34 +4020,19 @@
 "url": "https://www.youtube.com/watch?v=gYRBHMhbNfw"
 }
 ],
-"spikes": [
-{
-"term": "폭발",
-"n30": 5,
-"base": 0.5,
-"spike": true,
-"since": "2026-11-16T09:28:34.378515+00:00"
-},
-{
-"term": "붕괴",
-"n30": 5,
-"base": 0.6,
-"spike": true,
-"since": "2026-11-16T09:28:34.378515+00:00"
-}
-],
+"spikes": [],
 "baseline": {
-"지진": 0.68,
+"지진": 0.71,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.45,
-"붕괴": 0.6,
+"폭발": 0.41,
+"붕괴": 0.64,
 "대피": 0.05,
-"미사일": 1.12,
+"미사일": 1.21,
 "속보": 0.05,
-"지하철": 0.85,
-"사고": 7.21,
+"지하철": 0.86,
+"사고": 7.19,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -4350,9 +4335,9 @@
 "link": "https://www.mt.co.kr/society/2026/11/16/2026111615464396280"
 },
 {
-"title": "최동석, 박지윤 지인 상대 상간 소송 항소심 일부 승소",
-"source": "한국경제",
-"link": "https://www.hankyung.com/article/2026111695337"
+"title": "최동석, '파경' 박지윤 지인 상대 상간자 소송 항소심서 일부 승소",
+"source": "뉴스1",
+"link": "https://www.news1.kr/society/general-society/6355598"
 }
 ],
 "new": true
