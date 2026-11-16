@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-16T19:58:11.404817+00:00",
+"updated": "2026-11-16T20:00:28.554018+00:00",
 "errors": [],
 "events": [
 {
@@ -1861,7 +1861,7 @@
 "spike": false
 },
 "화재": {
-"n30": 2,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
@@ -1876,7 +1876,7 @@
 "spike": false
 },
 "폭발": {
-"n30": 4,
+"n30": 2,
 "base": 0.1,
 "spike": false
 },
@@ -1896,9 +1896,9 @@
 "spike": false
 },
 "속보": {
-"n30": 5,
+"n30": 3,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "지하철": {
 "n30": 0,
@@ -2154,15 +2154,7 @@
 "url": "https://www.youtube.com/watch?v=toLCxsJdI8w"
 }
 ],
-"spikes": [
-{
-"term": "속보",
-"n30": 5,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-16T19:58:11.404817+00:00"
-}
-],
+"spikes": [],
 "baseline": {
 "지진": 0.05,
 "화재": 0.05,
@@ -2174,7 +2166,7 @@
 "미사일": 0.05,
 "속보": 0.05,
 "지하철": 0.05,
-"사고": 0.27,
+"사고": 0.24,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -2445,14 +2437,14 @@
 "time": "2026-11-16T15:40:00+00:00",
 "news": [
 {
-"title": "There’s a New James Bond, Again. How Did the Last Ones Fare?",
+"title": "Robert Pattinson Named as the Next James Bond",
 "source": "The New York Times",
-"link": "https://www.nytimes.com/2026/11/16/movies/james-bond-actors-reviews.html"
+"link": "https://www.nytimes.com/2026/11/16/movies/james-bond-robert-pattinson.html"
 },
 {
-"title": "Meet the new James Bond: Robert Pattinson",
-"source": "Ars Technica",
-"link": "https://arstechnica.com/culture/2026/11/meet-the-new-james-bond-robert-pattinson/"
+"title": "How ‘Twilight’ Predicted Robert Pattinson’s James Bond Casting",
+"source": "The Hollywood Reporter",
+"link": "https://www.hollywoodreporter.com/movies/movie-news/twilight-predicted-robert-pattinson-james-bond-casting-1236756443/"
 }
 ],
 "new": true
