@@ -1,7 +1,51 @@
 {
-"updated": "2026-11-16T23:32:54.646812+00:00",
+"updated": "2026-11-16T23:35:10.803118+00:00",
 "errors": [],
 "events": [
+{
+"id": "viewAKR202611170059000342026",
+"first": "2026-11-16T20:26:38+00:00",
+"last": "2026-11-16T23:33:48+00:00",
+"updated": "2026-11-16T23:35:10.803118+00:00",
+"headline": "전국 흐리고 비…강풍·너울 유의",
+"cat": "재난",
+"regions": [
+"제주"
+],
+"sources": [
+"뉴시스",
+"연합뉴스"
+],
+"updates": [
+{
+"title": "전국 흐리고 비…강풍·너울 유의",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261117005900034",
+"time": "2026-11-16T20:26:38+00:00",
+"stage": "1보"
+},
+{
+"title": "전국 대체로 흐리고 오후부터 비…제주·남해안 강풍",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261117_0003870707",
+"time": "2026-11-16T23:33:48+00:00",
+"stage": "후속"
+}
+],
+"level": "ALERT",
+"latest": "전국 대체로 흐리고 오후부터 비…제주·남해안 강풍",
+"tok": [
+"강풍",
+"남해안",
+"너울",
+"대체",
+"오후부터",
+"유의",
+"전국",
+"제주",
+"흐리고"
+]
+},
 {
 "id": "wNISX20261117_00038706532201",
 "first": "2026-11-16T22:01:34+00:00",
@@ -2477,36 +2521,6 @@
 ]
 },
 {
-"id": "viewAKR202611170059000342026",
-"first": "2026-11-16T20:26:38+00:00",
-"last": "2026-11-16T20:26:38+00:00",
-"updated": "2026-11-16T20:29:52.454020+00:00",
-"headline": "전국 흐리고 비…강풍·너울 유의",
-"cat": "재난",
-"regions": [],
-"sources": [
-"연합뉴스"
-],
-"updates": [
-{
-"title": "전국 흐리고 비…강풍·너울 유의",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261117005900034",
-"time": "2026-11-16T20:26:38+00:00",
-"stage": "1보"
-}
-],
-"level": "ALERT",
-"latest": "전국 흐리고 비…강풍·너울 유의",
-"tok": [
-"강풍",
-"너울",
-"유의",
-"전국",
-"흐리고"
-]
-},
-{
 "id": "viewAKR202611170037000911733",
 "first": "2026-11-16T17:33:35+00:00",
 "last": "2026-11-16T20:18:00+00:00",
@@ -2897,12 +2911,12 @@
 "spike": false
 },
 "폭발": {
-"n30": 5,
+"n30": 4,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "붕괴": {
-"n30": 3,
+"n30": 2,
 "base": 0.3,
 "spike": false
 },
@@ -2922,8 +2936,8 @@
 "spike": true
 },
 "지하철": {
-"n30": 3,
-"base": 2.0,
+"n30": 2,
+"base": 1.9,
 "spike": false
 },
 "사고": {
@@ -3100,7 +3114,7 @@
 "handle": "rosemelda.co.kr",
 "name": "𝔐𝔢𝔩𝔇𝔞✨",
 "time": "2026-11-16T23:06:25.355Z",
-"likes": 0,
+"likes": 1,
 "reposts": 0,
 "url": "https://bsky.app/profile/rosemelda.co.kr/post/3n2hndvldh22e",
 "term": "지하철"
@@ -3189,32 +3203,25 @@
 ],
 "spikes": [
 {
-"term": "폭발",
-"n30": 5,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-16T23:32:54.646812+00:00"
-},
-{
 "term": "속보",
 "n30": 6,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-16T23:32:54.646812+00:00"
+"since": "2026-11-16T23:35:10.803118+00:00"
 }
 ],
 "baseline": {
-"지진": 0.15,
+"지진": 0.24,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
 "폭발": 0.05,
-"붕괴": 0.3,
+"붕괴": 0.27,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 1.92,
-"사고": 0.33,
+"지하철": 1.83,
+"사고": 0.4,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -3426,6 +3433,24 @@
 },
 "trends": [
 {
+"term": "mu",
+"traffic": "200+",
+"time": "2026-11-16T22:30:00+00:00",
+"news": [
+{
+"title": "Licensable video: Video illustrations - CoreWeave reports third-quarter 2026 results - 11/12/2026",
+"source": "Reuters Connect",
+"link": "https://www.reutersconnect.com/item/video-illustrations-coreweave-reports-third-quarter-2026-results-11122026/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX09XTlVSQ0JPSVZJTlZJREVPSUxMMjYxMTE1TlBTQ1g"
+},
+{
+"title": "Down 62% From All-Time Highs, Here’s How to Play CRWV Stock as CoreWeave Smashes Q3 Estimates",
+"source": "Barchart.com",
+"link": "https://www.barchart.com/story/news/8854897/down-62-from-all-time-highs-heres-how-to-play-crwv-stock-as-coreweave-smashes-q3-estimates"
+}
+],
+"new": true
+},
+{
 "term": "nvda",
 "traffic": "500+",
 "time": "2026-11-16T22:20:00+00:00",
@@ -3499,7 +3524,7 @@
 },
 {
 "term": "부산날씨",
-"traffic": "100+",
+"traffic": "200+",
 "time": "2026-11-16T21:40:00+00:00",
 "news": [
 {
@@ -3583,24 +3608,6 @@
 "title": "Licensable picture: UEFA Nations League - Group A2 - Germany v Netherlands",
 "source": "Reuters Connect",
 "link": "https://www.reutersconnect.com/item/uefa-nations-league-group-a2-germany-v-netherlands/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX1VQMUVNQkcxSFBYOTM"
-}
-],
-"new": true
-},
-{
-"term": "погода",
-"traffic": "2000+",
-"time": "2026-11-16T21:20:00+00:00",
-"news": [
-{
-"title": "Синоптики рассказали о погоде в Санкт-Петербурге на рабочей неделе",
-"source": "Погода Mail",
-"link": "https://pogoda.mail.ru/news/73114200/"
-},
-{
-"title": "Последний сухой день перед дождями: какой будет погода в Петербурге 16 ноября",
-"source": "rosbalt.ru",
-"link": "https://www.rosbalt.ru/news/2026-11-16/posledniy-suhoy-den-pered-dozhdyami-kakoy-budet-pogoda-v-peterburge-16-noyabrya-5733027"
 }
 ],
 "new": true
