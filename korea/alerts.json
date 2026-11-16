@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-16T12:02:06.736847+00:00",
+"updated": "2026-11-16T12:04:20.155335+00:00",
 "errors": [],
 "events": [
 {
@@ -3887,11 +3887,11 @@
 },
 "폭발": {
 "n30": 2,
-"base": 0.3,
+"base": 0.4,
 "spike": false
 },
 "붕괴": {
-"n30": 2,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
@@ -3902,7 +3902,7 @@
 },
 "미사일": {
 "n30": 1,
-"base": 0.5,
+"base": 0.6,
 "spike": false
 },
 "속보": {
@@ -3912,12 +3912,12 @@
 },
 "지하철": {
 "n30": 1,
-"base": 0.6,
+"base": 0.7,
 "spike": false
 },
 "사고": {
-"n30": 0,
-"base": 2.1,
+"n30": 1,
+"base": 1.9,
 "spike": false
 },
 "실종": {
@@ -3947,6 +3947,16 @@
 }
 },
 "posts": [
+{
+"text": "지뢰계 옷도 사고 오백년 미룬 조경을 했어요",
+"handle": "yunyul.bsky.social",
+"name": "👈아기청사과",
+"time": "2026-11-16T12:02:55.948Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/yunyul.bsky.social/post/3n2gib35ifs2t",
+"term": "사고"
+},
 {
 "text": "-요즘 트렌드는 수전증 있는 치과치료입니다. 모르셨습니까?\n\n시치미를 떼며 벌벌 떠는 손으로 신해량의 길다란 속눈썹 위에 조심조심히 샤프심을 놓는 박무현에 신해량이 하하웃음\n-웃지 마십시오. 샤프심 떨어집니다.\n-웃지 말라고요? 그럼 이런건 어떠십니까?\n\n엄격한 치과의사 흉내를 내며 웃지 말라하는 박무현을 끌어안고 가슴께에 얼굴을 부비는 앙큼한 하마에 치과의사만 얼굴 폭발하는 일상이 보고싶음",
 "handle": "satang9131.bsky.social",
@@ -4137,17 +4147,17 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.37,
+"폭발": 0.43,
 "붕괴": 0.05,
-"대피": 0.21,
-"미사일": 0.56,
+"대피": 0.19,
+"미사일": 0.6,
 "속보": 0.05,
-"지하철": 0.68,
-"사고": 1.92,
+"지하철": 0.71,
+"사고": 1.83,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
-"먹통": 0.37,
+"먹통": 0.33,
 "산불": 0.05
 },
 "errors": [],
@@ -4310,6 +4320,42 @@
 },
 "trends": [
 {
+"term": "간호",
+"traffic": "500+",
+"time": "2026-11-16T11:00:00+00:00",
+"news": [
+{
+"title": "작은 산부인과에서 AI 첨단병원까지, 70년 역사의 병원이 미래 의료를 여는 법",
+"source": "YTN 사이언스",
+"link": "https://science.ytn.co.kr/program/view.php?mcd=1753&key=202611160918175563"
+},
+{
+"title": "을지국제간호학술대회 서울서 개최…간호 실무 미래 방향 논의",
+"source": "동아일보",
+"link": "https://www.donga.com/news/Society/article/all/20261116/135034691/1"
+}
+],
+"new": true
+},
+{
+"term": "두두",
+"traffic": "200+",
+"time": "2026-11-16T11:00:00+00:00",
+"news": [
+{
+"title": "[오피셜] '두두' 이동주, DN 수퍼스와 28년까지 동행… \"보답하고 싶다\"",
+"source": "데일리e스포츠",
+"link": "https://www.dailyesports.com/view.php?ud=20261116201733393074bcc1e038_27"
+},
+{
+"title": "DN 수퍼스, 2027 LCK 시즌 앞두고 '두두'와 재계약",
+"source": "Sheep Esports",
+"link": "https://www.sheepesports.com/kr/articles/sources-dn-soopers-re-sign-dudu-for-the-2027-lck-season/kr"
+}
+],
+"new": true
+},
+{
 "term": "인사청문회",
 "traffic": "500+",
 "time": "2026-11-16T10:50:00+00:00",
@@ -4401,7 +4447,7 @@
 },
 {
 "term": "서울 sk 대 울산 현대모비스",
-"traffic": "500+",
+"traffic": "1000+",
 "time": "2026-11-16T09:50:00+00:00",
 "news": [
 {
@@ -4452,42 +4498,6 @@
 }
 ],
 "new": true
-},
-{
-"term": "노경필",
-"traffic": "1000+",
-"time": "2026-11-16T09:40:00+00:00",
-"news": [
-{
-"title": "질문에 답하는 노경필",
-"source": "뉴시스",
-"link": "https://www.newsis.com/view/NISI20261116_0021534165"
-},
-{
-"title": "등기부 수수료 관련 답변하는 노경필 처장",
-"source": "뉴스1",
-"link": "https://www.news1.kr/photos/8215728"
-}
-],
-"new": true
-},
-{
-"term": "최동석",
-"traffic": "500+",
-"time": "2026-11-16T09:40:00+00:00",
-"news": [
-{
-"title": "최동석, ‘박지윤 상간자’ 위자료 소송 항소심서 일부 승소",
-"source": "동아일보",
-"link": "https://www.donga.com/news/Society/article/all/20261116/135035338/1"
-},
-{
-"title": "[속보] 최동석, 박지윤 지인 상대 상간 소송 ‘일부 승소’..1심 판결 뒤집었다",
-"source": "조선일보",
-"link": "https://www.chosun.com/entertainments/broadcast/2026/11/16/GU3GKOLEGMYTKYLCMY2DCZJXGQ/"
-}
-],
-"new": false
 }
 ],
 "trendSeen": [
