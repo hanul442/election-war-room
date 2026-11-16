@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-16T02:52:20.992382+00:00",
+"updated": "2026-11-16T02:54:35.677789+00:00",
 "errors": [],
 "events": [
 {
@@ -4088,7 +4088,7 @@
 },
 "폭발": {
 "n30": 6,
-"base": 0.3,
+"base": 0.4,
 "spike": true
 },
 "붕괴": {
@@ -4118,7 +4118,7 @@
 },
 "사고": {
 "n30": 1,
-"base": 1.6,
+"base": 1.5,
 "spike": false
 },
 "실종": {
@@ -4137,8 +4137,8 @@
 "spike": false
 },
 "먹통": {
-"n30": 1,
-"base": 0.7,
+"n30": 0,
+"base": 0.8,
 "spike": false
 },
 "산불": {
@@ -4304,16 +4304,6 @@
 "url": "https://www.youtube.com/watch?v=z2gSxxUFJLU"
 },
 {
-"text": "와 오전부터 트리트먼트 정리해두는 어플이 갑자기 먹통 돼서 식겁....................................... 이래서 보관은 여기저기 해둬야 한다고.......\n다른 작가동료여러분들은 트리트먼트나 시놉시스 정리 어디에 해두시는지..",
-"handle": "river-write.bsky.social",
-"name": "리버",
-"time": "2026-11-16T02:23:22.445Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/river-write.bsky.social/post/3n2fhv55kqs2s",
-"term": "먹통"
-},
-{
 "platform": "YouTube",
 "text": "해고된 지 6분 만에 시스템이 붕괴되자 울며 매달린 전 상사, 무조건 복구하라는 요구에 나는 “30억 원, 단 1원도 깎아줄 수 없습니다!” 단호하게 말했다",
 "handle": "UCh48hptwd3CUs_WeRpZLnFw",
@@ -4345,16 +4335,16 @@
 {
 "term": "폭발",
 "n30": 6,
-"base": 0.3,
+"base": 0.4,
 "spike": true,
-"since": "2026-11-16T02:52:20.992382+00:00"
+"since": "2026-11-16T02:54:35.677789+00:00"
 },
 {
 "term": "속보",
 "n30": 6,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-16T02:52:20.992382+00:00"
+"since": "2026-11-16T02:54:35.677789+00:00"
 }
 ],
 "baseline": {
@@ -4362,17 +4352,17 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.39,
+"폭발": 0.45,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
 "지하철": 0.05,
-"사고": 1.5,
+"사고": 1.45,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
-"먹통": 0.77,
+"먹통": 0.69,
 "산불": 0.05
 },
 "errors": [],
@@ -4544,19 +4534,55 @@
 },
 "trends": [
 {
+"term": "이재명",
+"traffic": "200+",
+"time": "2026-11-16T01:50:00+00:00",
+"news": [
+{
+"title": "이 대통령 \"높아진 위상 걸맞게 국익 지키고 역할 확대\"",
+"source": "MBC 뉴스",
+"link": "https://imnews.imbc.com/news/2026/politics/article/6865914_36911.html"
+},
+{
+"title": "[포토] 李대통령, 아세안·APEC 순방 출국",
+"source": "경인일보",
+"link": "https://www.kyeongin.com/article/1774822"
+}
+],
+"new": true
+},
+{
+"term": "우주",
+"traffic": "200+",
+"time": "2026-11-16T01:50:00+00:00",
+"news": [
+{
+"title": "‘우주의 새벽’은 어떻게 열렸나…슈퍼컴이 재현한 빅뱅 후 20억년",
+"source": "한겨레",
+"link": "https://www.hani.co.kr/arti/science/science_general/1287480.html"
+},
+{
+"title": "초기 우주에 대한 가장 상세한 모델이 공개되었습니다.",
+"source": "Vietnam.vn",
+"link": "https://www.vietnam.vn/ko/cong-bo-mo-hinh-chi-tiet-nhat-tu-truoc-den-nay-ve-vu-tru-so-khai"
+}
+],
+"new": true
+},
+{
 "term": "무역",
 "traffic": "500+",
 "time": "2026-11-16T01:20:00+00:00",
 "news": [
 {
-"title": "뱀 잡아 팔던 나라가 반도체 강국으로…80년 만에 벌어진 일",
-"source": "한국경제",
-"link": "https://www.hankyung.com/article/2026111575161"
+"title": "미중, APEC 양자 정상회담 앞두고 무역위원회 첫 회의 개최",
+"source": "KBS 뉴스",
+"link": "https://news.kbs.co.kr/news/view.do?ncd=8712929"
 },
 {
-"title": "미국·독일·중국과 다른 한국의 수출 1조…가야 할 길은 - 머니투데이",
-"source": "머니투데이",
-"link": "https://www.mt.co.kr/economy/2026/11/15/2026111308301356298"
+"title": "미중. 정상회담 목전에 관세 인하 논의",
+"source": "아시아투데이",
+"link": "https://www.asiatoday.co.kr/kn/view.php?key=20261114010005384"
 }
 ],
 "new": true
@@ -4635,7 +4661,7 @@
 },
 {
 "term": "초고층",
-"traffic": "500+",
+"traffic": "1000+",
 "time": "2026-11-16T00:40:00+00:00",
 "news": [
 {
@@ -4686,42 +4712,6 @@
 }
 ],
 "new": true
-},
-{
-"term": "카우보이스 대 포티나이너스",
-"traffic": "100+",
-"time": "2026-11-16T00:20:00+00:00",
-"news": [
-{
-"title": "Burrow's drag-route connection with Chase yields 35-yard gain with access to Steelers' territory",
-"source": "NFL.com",
-"link": "https://www.nfl.com/videos/burrow-s-drag-route-connection-with-chase-yields-35-yard-gain-with-access-to-steelers-territory"
-},
-{
-"title": "Principal Owner & Chair Sheila Hamp on Lions' presence in Munich: 'Our fans are the best'",
-"source": "Detroit Lions",
-"link": "https://www.detroitlions.com/news/sheila-hamp-on-lions-presence-in-munich-our-fans-are-the-best"
-}
-],
-"new": false
-},
-{
-"term": "커버드 콜",
-"traffic": "500+",
-"time": "2026-11-16T00:10:00+00:00",
-"news": [
-{
-"title": "[단독] 과세관청, 서학개미 이의제기 첫 인정…美 커버드콜 분배금 환급 잇따르나",
-"source": "한국경제",
-"link": "https://www.hankyung.com/article/202611167754i"
-},
-{
-"title": "[자산관리와 절세] \"ETF는 안 됩니다\" 배당 분리과세의 숨은 한 줄",
-"source": "뷰어스",
-"link": "https://theviewers.co.kr/View.aspx?No=4312474"
-}
-],
-"new": false
 }
 ],
 "trendSeen": [
