@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-16T22:31:55.760139+00:00",
+"updated": "2026-11-16T22:34:12.482137+00:00",
 "errors": [],
 "events": [
 {
@@ -2391,7 +2391,7 @@
 "spike": false
 },
 "미사일": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -2407,7 +2407,7 @@
 },
 "사고": {
 "n30": 1,
-"base": 0.1,
+"base": 0.2,
 "spike": false
 },
 "실종": {
@@ -2643,14 +2643,14 @@
 "n30": 5,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-16T22:31:55.760139+00:00"
+"since": "2026-11-16T22:34:12.482137+00:00"
 },
 {
 "term": "속보",
 "n30": 5,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-16T22:31:55.760139+00:00"
+"since": "2026-11-16T22:34:12.482137+00:00"
 }
 ],
 "baseline": {
@@ -2661,10 +2661,10 @@
 "폭발": 0.05,
 "붕괴": 0.05,
 "대피": 0.05,
-"미사일": 0.12,
+"미사일": 0.11,
 "속보": 0.05,
 "지하철": 0.05,
-"사고": 0.24,
+"사고": 0.32,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -2867,6 +2867,42 @@
 },
 "trends": [
 {
+"term": "weather",
+"traffic": "2000+",
+"time": "2026-11-16T21:30:00+00:00",
+"news": [
+{
+"title": "From snowplows to salt; How county crews and businesses are gearing up for winter",
+"source": "TMJ4 News",
+"link": "https://www.tmj4.com/news/local-news/county-reporting/waukesha-county/from-snowplows-to-salt-how-county-crews-and-businesses-are-gearing-up-for-winter"
+},
+{
+"title": "Understanding winter weather alerts: What watches, advisories and warnings mean for Wisconsin",
+"source": "WMTV 15 NEWS",
+"link": "https://www.wmtv15news.com/2026/11/16/understanding-winter-weather-alerts-what-watches-advisories-warnings-mean-wisconsin/"
+}
+],
+"new": true
+},
+{
+"term": "황보라",
+"traffic": "200+",
+"time": "2026-11-16T21:30:00+00:00",
+"news": [
+{
+"title": "황보라 子, 놀이공원서 바지 탈의 후 활보 \"이건 안 돼\"(보라이어티)",
+"source": "조선일보",
+"link": "https://www.chosun.com/entertainments/broadcast/2026/11/16/MUZDQMZXGJQTKNJSGZQTSMLBGU/"
+},
+{
+"title": "황보라, 2살 아들 롯데월드서 바지 훌렁…“이건 안 돼” 당황",
+"source": "스포츠동아",
+"link": "https://sports.donga.com/ent/article/all/20261117/135036009/1"
+}
+],
+"new": false
+},
+{
 "term": "thời tiết",
 "traffic": "1000+",
 "time": "2026-11-16T21:20:00+00:00",
@@ -2886,7 +2922,7 @@
 },
 {
 "term": "погода",
-"traffic": "1000+",
+"traffic": "2000+",
 "time": "2026-11-16T21:20:00+00:00",
 "news": [
 {
@@ -2904,7 +2940,7 @@
 },
 {
 "term": "germany vs netherlands",
-"traffic": "200+",
+"traffic": "500+",
 "time": "2026-11-16T21:20:00+00:00",
 "news": [
 {
@@ -2922,7 +2958,7 @@
 },
 {
 "term": "天气",
-"traffic": "500+",
+"traffic": "1000+",
 "time": "2026-11-16T21:20:00+00:00",
 "news": [
 {
@@ -2949,9 +2985,27 @@
 "link": "https://www.thansettakij.com/general-news/673912"
 },
 {
-"title": "ประจำวันที่ 16 พฤศจิกายน 2569 23.00 น.",
-"source": "กรมอุตุนิยมวิทยา",
-"link": "https://www.tmd.go.th/forecast/daily/171120260000"
+"title": "กรมอุตุฯ ประกาศล่าสุด เช็กจังหวัดฝนตกหนัก คืนนี้ | มุมข่าว",
+"source": "LINE TODAY",
+"link": "https://today.line.me/th/v3/article/YapJ9aL"
+}
+],
+"new": true
+},
+{
+"term": "범죄",
+"traffic": "100+",
+"time": "2026-11-16T21:10:00+00:00",
+"news": [
+{
+"title": "靑 “사회적 약자 대상 범죄 강력대응… ‘가석방 없는 무기형’ 도입 등 논의”",
+"source": "동아일보",
+"link": "https://www.donga.com/news/Politics/article/all/20261116/135028762/2"
+},
+{
+"title": "靑 \"국민안전플러스 프로젝트 추진…연말까지 모든 부처 대응상황 점검\" [뉴시스Pic]",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261115_0003868638"
 }
 ],
 "new": true
@@ -2991,60 +3045,6 @@
 }
 ],
 "new": false
-},
-{
-"term": "항공모함",
-"traffic": "200+",
-"time": "2026-11-16T20:50:00+00:00",
-"news": [
-{
-"title": "한국 해군, F-35B 항모 접고 무인기 20대 탑재 270m 대형 모함 택했다",
-"source": "글로벌이코노믹",
-"link": "https://www.g-enews.com/article/Global-Biz/2026/11/202611150721222083fbbec65dfb_1"
-},
-{
-"title": "F-35B 대신 무인기 20대…한국 해군 270m 모함 검토…무인기 헬기 함께 싣는 한국형 재형 모함 구상",
-"source": "재경일보",
-"link": "https://news.jkn.co.kr/post/1096014"
-}
-],
-"new": false
-},
-{
-"term": "물류",
-"traffic": "100+",
-"time": "2026-11-16T20:50:00+00:00",
-"news": [
-{
-"title": "'삼영물류' 제25회 한국SCM산업대상 수상",
-"source": "인천일보",
-"link": "https://www.incheonilbo.com/news/articleView.html?idxno=1336969"
-},
-{
-"title": "삼영물류㈜, 한국SCM산업대상수상",
-"source": "기호일보",
-"link": "https://www.kihoilbo.co.kr/news/articleView.html?idxno=3040932"
-}
-],
-"new": true
-},
-{
-"term": "일기예보",
-"traffic": "100+",
-"time": "2026-11-16T20:40:00+00:00",
-"news": [
-{
-"title": "[기고]더 잦아지는 위험기상, 울산기상지청이 필요하다",
-"source": "경상일보",
-"link": "https://www.ksilbo.co.kr/news/articleView.html?idxno=1072676"
-},
-{
-"title": "작업장 온열질환 비율, 울산 62.3% 전국최고",
-"source": "울산일보",
-"link": "http://www.ulsanilbo.co.kr/news/articleView.html?idxno=121637"
-}
-],
-"new": true
 }
 ],
 "trendSeen": [
