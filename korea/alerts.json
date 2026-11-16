@@ -1,7 +1,49 @@
 {
-"updated": "2026-11-16T17:44:06.102204+00:00",
+"updated": "2026-11-16T17:46:23.406980+00:00",
 "errors": [],
 "events": [
+{
+"id": "3RUY2U2JGZnhEdjdHaGtnoc51540",
+"first": "2026-11-16T15:40:45+00:00",
+"last": "2026-11-16T17:41:55+00:00",
+"updated": "2026-11-16T17:46:23.406980+00:00",
+"headline": "트럼프, 젠슨 황 엔비디아 CEO 복직 \"반대하지 않아\"",
+"cat": "국제",
+"regions": [],
+"sources": [
+"국제뉴스",
+"파이낸셜뉴스"
+],
+"updates": [
+{
+"title": "[속보] 트럼프, 젠슨 황 엔비디아 CEO 복직 \"반대하지 않아\"",
+"source": "국제뉴스",
+"link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5xLUxDQUVpWVl2TG16RlZRTXMyVzFiVDg0TGpYWGR0ZWtaVllaLUdZQWZVTEFKZzRIRmJDZUZOQWVOQ3lwNDJjLUVyZk9FOGVaUTZkWkJ1NERfRGpVejk3RUY2U2JGZnhEdjdHaGtn?oc=5",
+"time": "2026-11-16T15:40:45+00:00",
+"stage": "얼럿"
+},
+{
+"title": "[속보]엔비디아 \"젠슨 황 CEO 복귀 검토 안 해\"",
+"source": "파이낸셜뉴스",
+"link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5kVkNXTWFSTTBzYlIwUXNNMXNjYXZTaFJiUl9kMVBzV3FSaVFULTFfZHZBNk9maFBiQ0tISWY4WmNlTlBzQzJHUmlNYVBMb1RSbER2dWgtaFFMQQ?oc=5",
+"time": "2026-11-16T17:41:55+00:00",
+"stage": "속보"
+}
+],
+"level": "URGENT",
+"latest": "엔비디아 \"젠슨 황 CEO 복귀 검토 안 해\"",
+"tok": [
+"CEO",
+"검토",
+"반대하지",
+"복귀",
+"복직",
+"않아",
+"엔비디아",
+"젠슨",
+"트럼프"
+]
+},
 {
 "id": "wNISX20261117_00038706161741",
 "first": "2026-11-16T17:41:08+00:00",
@@ -828,38 +870,6 @@
 "탄생",
 "패틴슨",
 "평생"
-]
-},
-{
-"id": "3RUY2U2JGZnhEdjdHaGtnoc51540",
-"first": "2026-11-16T15:40:45+00:00",
-"last": "2026-11-16T15:40:45+00:00",
-"updated": "2026-11-16T15:49:17.248618+00:00",
-"headline": "트럼프, 젠슨 황 엔비디아 CEO 복직 \"반대하지 않아\"",
-"cat": "국제",
-"regions": [],
-"sources": [
-"국제뉴스"
-],
-"updates": [
-{
-"title": "[속보] 트럼프, 젠슨 황 엔비디아 CEO 복직 \"반대하지 않아\"",
-"source": "국제뉴스",
-"link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5xLUxDQUVpWVl2TG16RlZRTXMyVzFiVDg0TGpYWGR0ZWtaVllaLUdZQWZVTEFKZzRIRmJDZUZOQWVOQ3lwNDJjLUVyZk9FOGVaUTZkWkJ1NERfRGpVejk3RUY2U2JGZnhEdjdHaGtn?oc=5",
-"time": "2026-11-16T15:40:45+00:00",
-"stage": "얼럿"
-}
-],
-"level": "URGENT",
-"latest": "트럼프, 젠슨 황 엔비디아 CEO 복직 \"반대하지 않아\"",
-"tok": [
-"CEO",
-"반대하지",
-"복직",
-"않아",
-"엔비디아",
-"젠슨",
-"트럼프"
 ]
 },
 {
@@ -2781,11 +2791,11 @@
 "terms": {
 "지진": {
 "n30": 0,
-"base": 0.3,
+"base": 0.2,
 "spike": false
 },
 "화재": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -2800,13 +2810,13 @@
 "spike": false
 },
 "폭발": {
-"n30": 8,
+"n30": 7,
 "base": 0.1,
 "spike": true
 },
 "붕괴": {
 "n30": 2,
-"base": 0.6,
+"base": 0.7,
 "spike": false
 },
 "대피": {
@@ -2820,13 +2830,13 @@
 "spike": false
 },
 "속보": {
-"n30": 7,
+"n30": 6,
 "base": 0.1,
 "spike": true
 },
 "지하철": {
 "n30": 1,
-"base": 0.6,
+"base": 0.5,
 "spike": false
 },
 "사고": {
@@ -3073,31 +3083,31 @@
 "spikes": [
 {
 "term": "폭발",
-"n30": 8,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-16T17:44:06.102204+00:00"
-},
-{
-"term": "속보",
 "n30": 7,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-16T17:44:06.102204+00:00"
+"since": "2026-11-16T17:46:23.406980+00:00"
+},
+{
+"term": "속보",
+"n30": 6,
+"base": 0.1,
+"spike": true,
+"since": "2026-11-16T17:46:23.406980+00:00"
 }
 ],
 "baseline": {
-"지진": 0.23,
+"지진": 0.21,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.1,
-"붕괴": 0.66,
+"폭발": 0.09,
+"붕괴": 0.69,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.5,
-"사고": 0.38,
+"지하철": 0.45,
+"사고": 0.34,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -3435,14 +3445,14 @@
 "time": "2026-11-16T14:00:00+00:00",
 "news": [
 {
-"title": "İnegöl'de TOKİ Heyecanı: 123 Konutun Kurası Yarın Çekiliyor",
-"source": "İnegöl'de",
-"link": "https://www.e-inegol.com/haber/inegol-de-toki-heyecani-123-konutun-kurasi-yarin-cekiliyor-288342"
+"title": "Isparta'daki 274 TOKİ Konutu Ne Zaman Teslim Edilecek? İşte Yeni Tarih",
+"source": "Demokrat32.com",
+"link": "https://www.demokrat32.com/ispartadaki-274-toki-konutu-ne-zaman-teslim-edilecek-iste-yeni-tarih"
 },
 {
-"title": "Isparta TOKİ kura çekimi ne zaman? Aksu ve Keçiborlu TOKİ kura tarihleri açıklandı",
-"source": "Demokrat32.com",
-"link": "https://www.demokrat32.com/isparta-toki-kura-cekimi-ne-zaman-aksu-ve-keciborlu-toki-kura-tarihleri-aciklandi"
+"title": "TOKİ'den 405 konutluk dev proje!",
+"source": "Antalya Ekspres",
+"link": "https://www.antalyaekspres.com.tr/tokiden-405-konutluk-dev-proje"
 }
 ],
 "new": true
