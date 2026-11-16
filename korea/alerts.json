@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-16T00:51:55.207276+00:00",
+"updated": "2026-11-16T00:54:09.865515+00:00",
 "errors": [],
 "events": [
 {
@@ -66,6 +66,45 @@
 "초대",
 "치안정감",
 "치안정감으"
+]
+},
+{
+"id": "VTbF82LWxQelUzNTdaWlkoc50046",
+"first": "2026-11-16T00:46:55+00:00",
+"last": "2026-11-16T00:46:55+00:00",
+"updated": "2026-11-16T00:54:09.865515+00:00",
+"headline": "HLB테라퓨틱스 하한가 직행…미국 임상 3상 통계적 유의성 확보 실패, 주가 29.98% 급락",
+"cat": "경제",
+"regions": [
+"경북"
+],
+"sources": [
+"CBC뉴스"
+],
+"updates": [
+{
+"title": "[속보] HLB테라퓨틱스 하한가 직행…미국 임상 3상 통계적 유의성 확보 실패, 주가 29.98% 급락",
+"source": "CBC뉴스",
+"link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE53blByRlFvMFI3S0FQaXM0Q2Y0V1pTLXI3ejRNV25xX1BjTEdEcWRmY1ctc0VsamxURmhRWWJMVTNxVGc3WEZwTEVoSGJlT0ZhSFNoSHpLSGVTbF82LWxQelUzNTdaWlk?oc=5",
+"time": "2026-11-16T00:46:55+00:00",
+"stage": "얼럿"
+}
+],
+"level": "URGENT",
+"latest": "HLB테라퓨틱스 하한가 직행…미국 임상 3상 통계적 유의성 확보 실패, 주가 29.98% 급락",
+"tok": [
+"3상",
+"HLB테라퓨틱스",
+"급락",
+"미국",
+"실패",
+"유의성",
+"임상",
+"주가",
+"직행",
+"통계적",
+"하한",
+"확보"
 ]
 },
 {
@@ -3279,7 +3318,7 @@
 "spike": false
 },
 "폭발": {
-"n30": 6,
+"n30": 5,
 "base": 0.1,
 "spike": true
 },
@@ -3305,12 +3344,12 @@
 },
 "지하철": {
 "n30": 2,
-"base": 1.0,
+"base": 0.9,
 "spike": false
 },
 "사고": {
 "n30": 3,
-"base": 2.4,
+"base": 2.5,
 "spike": false
 },
 "실종": {
@@ -3591,32 +3630,32 @@
 "spikes": [
 {
 "term": "폭발",
-"n30": 6,
+"n30": 5,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-16T00:51:55.207276+00:00"
+"since": "2026-11-16T00:54:09.865515+00:00"
 },
 {
 "term": "속보",
 "n30": 6,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-16T00:51:55.207276+00:00"
+"since": "2026-11-16T00:54:09.865515+00:00"
 }
 ],
 "baseline": {
-"지진": 0.45,
+"지진": 0.41,
 "화재": 0.05,
 "불났": 0.05,
-"정전": 0.26,
+"정전": 0.23,
 "폭발": 0.05,
-"붕괴": 0.14,
+"붕괴": 0.13,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.92,
-"사고": 2.5,
-"실종": 0.74,
+"지하철": 0.83,
+"사고": 2.55,
+"실종": 0.77,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -3836,6 +3875,78 @@
 },
 "trends": [
 {
+"term": "윤석열",
+"traffic": "500+",
+"time": "2026-11-15T23:50:00+00:00",
+"news": [
+{
+"title": "“국회 봉쇄는 상상”이라는 윤석열…항소심 마지막까지 사과도, 반성도 없었다",
+"source": "한겨레",
+"link": "https://www.hani.co.kr/arti/society/society_general/1287471.html"
+},
+{
+"title": "尹 “계엄 해제됐는데 무슨 존속?”…내란 종료 시점 두고 설전",
+"source": "KBS 뉴스",
+"link": "https://news.kbs.co.kr/news/view.do?ncd=8712327"
+}
+],
+"new": true
+},
+{
+"term": "테니스 선수",
+"traffic": "200+",
+"time": "2026-11-15T23:50:00+00:00",
+"news": [
+{
+"title": "\"허벅지가 호베르투 카를로스 같다\"…日 테니스 선수 미니스커트에 팬들 '환호'",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261115_0003868557"
+},
+{
+"title": "\"허벅지가 호베르투 카를루스 같아\" 日 미녀 테니스 선수, 짧은 상의+미니스커트 조합에 찬사 폭발…14만 팬 사로잡았다",
+"source": "SPOTV NEWS",
+"link": "https://www.spotvnews.co.kr/news/articleView.html?idxno=1019554"
+}
+],
+"new": true
+},
+{
+"term": "젠슨황 복귀",
+"traffic": "100+",
+"time": "2026-11-15T23:50:00+00:00",
+"news": [
+{
+"title": "\"젠슨 황, 엔비디아 CEO 복귀 논의 중‥백악관 설득 시도\"",
+"source": "MBC 뉴스",
+"link": "https://imnews.imbc.com/news/2026/world/article/6865863_36925.html"
+},
+{
+"title": "[연합뉴스 이 시각 헤드라인] - 07:30",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261116009100011"
+}
+],
+"new": true
+},
+{
+"term": "한국은행",
+"traffic": "10000+",
+"time": "2026-11-15T23:50:00+00:00",
+"news": [
+{
+"title": "한국은행, 금 투자 늘렸는데… 시세 하락에 평가액 수백억원 줄어",
+"source": "Chosunbiz",
+"link": "https://biz.chosun.com/policy/policy_sub/2026/11/15/MKJ7VHDJRNAEDM7IP7QP2SXIUQ/"
+},
+{
+"title": "한국은행, 3분기 금 ETF 1억달러어치 더 샀다",
+"source": "마켓인",
+"link": "https://marketin.edaily.co.kr/News/ReadE?newsId=01984406645646048"
+}
+],
+"new": true
+},
+{
 "term": "에어로케이",
 "traffic": "200+",
 "time": "2026-11-15T23:40:00+00:00",
@@ -3942,83 +4053,9 @@
 }
 ],
 "new": true
-},
-{
-"term": "수능일",
-"traffic": "200+",
-"time": "2026-11-15T23:00:00+00:00",
-"news": [
-{
-"title": "울산시, 수능일 시험장 교통관리 강화…수험생 긴급 수송도",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261116015200057"
-},
-{
-"title": "수능 문제지 배부",
-"source": "뉴시스",
-"link": "https://mobile.newsis.com/photo/NISI20261116_0021533585"
-}
-],
-"new": true
-},
-{
-"term": "주한 미군 사령관",
-"traffic": "500+",
-"time": "2026-11-15T22:50:00+00:00",
-"news": [
-{
-"title": "\"전작권 전환, 한국서 정치적 선언처럼 돼… 워싱턴이 걱정하는 건 군사적 동맹 약화\"",
-"source": "조선일보",
-"link": "https://www.chosun.com/international/us/2026/11/16/3TXYX5OJGVF6JKQ7BAQCHCGBNE/"
-},
-{
-"title": "美전문가들 \"트럼프, 전작권 전환을 주한미군 철수 수단으로 봐\"",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261114002200071"
-}
-],
-"new": false
-},
-{
-"term": "사장님 귀는 당나귀 귀",
-"traffic": "500+",
-"time": "2026-11-15T22:50:00+00:00",
-"news": [
-{
-"title": "정호영, 돈방석 앉겠네..’대기업과 계약’ 자랑 “들어가는 게 보통 아냐” (‘사당귀’)",
-"source": "조선일보",
-"link": "https://www.chosun.com/entertainments/broadcast/2026/11/15/MQ2WMMBVMMZDCNTFHAYTEZBXGI/"
-},
-{
-"title": "‘사당귀’ 양준혁, 정호영-양치승에 컵푸드 동업 제안",
-"source": "iMBC 연예",
-"link": "https://enews.imbc.com/News/RetrieveNewsInfo/524824"
-}
-],
-"new": true
-},
-{
-"term": "양의지",
-"traffic": "500+",
-"time": "2026-11-15T22:40:00+00:00",
-"news": [
-{
-"title": "'초대박' 52억에 두산 잔류 확정→FA 선배들 향해 외쳤다 \"양의지-정수빈 형 없으면 우승 힘들어, 박치국은…\" [오!쎈 미야자키]",
-"source": "조선일보",
-"link": "https://www.chosun.com/sports/baseball/2026/11/16/ME2WIZJSMJQTQYRYMRTGGYTFMI/"
-},
-{
-"title": "양의지 두산 떠난다고? 제2의 김재환 사태 막는다→잔류 협상 총력전 선언 “양의지는 우리 선수, 의견 조율 중” - 머니투데이",
-"source": "머니투데이",
-"link": "https://www.mt.co.kr/sports/2026/11/15/202611150005772525O"
-}
-],
-"new": true
 }
 ],
 "trendSeen": [
-"젠지",
-"젠지 blg",
 "젠지 라이언",
 "젠틀몬스터",
 "조동욱",
@@ -4158,6 +4195,7 @@
 "탁재훈",
 "탄핵",
 "테니스",
+"테니스 선수",
 "테슬라 모델 y",
 "테슬라 사이버캡",
 "테슬라 사이버트럭",
@@ -4249,6 +4287,7 @@
 "한국보훈복지의료공단",
 "한국시리즈 3차전",
 "한국시리즈 중계",
+"한국은행",
 "한국전력공사",
 "한남더힐 아파트",
 "한동희",
