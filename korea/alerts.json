@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-16T20:36:43.568571+00:00",
+"updated": "2026-11-16T20:38:59.030033+00:00",
 "errors": [],
 "events": [
 {
@@ -1873,7 +1873,7 @@
 "spike": false
 },
 "폭발": {
-"n30": 4,
+"n30": 3,
 "base": 0.1,
 "spike": false
 },
@@ -1893,9 +1893,9 @@
 "spike": false
 },
 "속보": {
-"n30": 5,
+"n30": 2,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "지하철": {
 "n30": 0,
@@ -2151,15 +2151,7 @@
 "url": "https://www.youtube.com/watch?v=kqmI34WybtY"
 }
 ],
-"spikes": [
-{
-"term": "속보",
-"n30": 5,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-16T20:36:43.568571+00:00"
-}
-],
+"spikes": [],
 "baseline": {
 "지진": 0.05,
 "화재": 0.05,
@@ -2442,14 +2434,14 @@
 "time": "2026-11-16T18:10:00+00:00",
 "news": [
 {
-"title": "“계약에도 없던 돈”…장항준, ‘왕사남’ 배우·스태프에 26억 쐈다",
-"source": "중앙일보",
-"link": "https://www.joongang.co.kr/article/25479103"
-},
-{
 "title": "장항준, '왕사남' 흥행 수익 26억 스태프들과 나눴다",
 "source": "YTN",
 "link": "https://www.ytn.co.kr/_ln/0117_202611161700574516"
+},
+{
+"title": "“계약에도 없던 돈”…장항준, ‘왕사남’ 배우·스태프에 26억 쐈다",
+"source": "중앙일보",
+"link": "https://www.joongang.co.kr/article/25479103"
 }
 ],
 "new": true
