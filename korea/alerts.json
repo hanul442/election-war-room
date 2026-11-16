@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-16T10:53:17.880507+00:00",
+"updated": "2026-11-16T10:55:35.579335+00:00",
 "errors": [],
 "events": [
 {
@@ -208,13 +208,14 @@
 "id": "kh5WmUxbHFORWdfRmhsZwoc50951",
 "first": "2026-11-16T09:51:33+00:00",
 "last": "2026-11-16T10:34:46+00:00",
-"updated": "2026-11-16T10:37:20.306605+00:00",
+"updated": "2026-11-16T10:55:35.579335+00:00",
 "headline": "李대통령 \"韓, 원조하는 나라로 성장…메콩 발전 함께 할 최적의 파트너\"",
 "cat": "정치",
 "regions": [],
 "sources": [
 "뉴시스",
-"머니투데이"
+"머니투데이",
+"서플 뉴스"
 ],
 "updates": [
 {
@@ -223,6 +224,13 @@
 "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9DWHAxQTZBTUM3ZmNMcWFMZm5Id1p5Z2NOMWpFa295NjlxNkd3RWF0aFFvNmZpMV8zYmI0SkQzTmtQQ2ZsZDdXZjRBS0Y2VFhraWVfS0dJNEFGa1ZvM2hwRUpqQzRrTHo3cTVWTNIBckFVX3lxTE1oelNZLXRuVjlXVkZiZVp4bEV3dEpWR3JJMU1iNW84VTVmd1lWUXd0TkdPS1ZSMWlFVkF5TGgzY3A2NVlEWk1TSHFhZ1VXQW9LclBRM2g0VjJEb1JXRHBmMl9sNkh5WmUxbHFORWdfRmhsZw?oc=5",
 "time": "2026-11-16T09:51:33+00:00",
 "stage": "얼럿"
+},
+{
+"title": "[속보]李대통령 \"韓, 원조하는 나라로 성장…메콩 발전 함께 할 최적의 파트너\"",
+"source": "서플 뉴스",
+"link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1QNzVxb1dubWRvakJENTRzNzUwRjNVQ3ZJSy1pcmZxRkV0TUtJNmFuYXh6bG1yQkEtbHZLWEY3dEFWNEtVdGJFTUR3djc4M0JLYjB4TXB6Z1VFeUJI?oc=5",
+"time": "2026-11-16T10:00:04+00:00",
+"stage": "속보"
 },
 {
 "title": "이 대통령 \"韓, 메콩 발전 함께할 최적의 파트너…성장 경험 나누겠다\"",
@@ -3790,7 +3798,7 @@
 "terms": {
 "지진": {
 "n30": 0,
-"base": 0.6,
+"base": 0.5,
 "spike": false
 },
 "화재": {
@@ -3809,13 +3817,13 @@
 "spike": false
 },
 "폭발": {
-"n30": 2,
-"base": 1.5,
+"n30": 1,
+"base": 1.6,
 "spike": false
 },
 "붕괴": {
 "n30": 2,
-"base": 0.6,
+"base": 0.5,
 "spike": false
 },
 "대피": {
@@ -3829,18 +3837,18 @@
 "spike": false
 },
 "속보": {
-"n30": 4,
-"base": 0.4,
+"n30": 3,
+"base": 0.3,
 "spike": false
 },
 "지하철": {
 "n30": 0,
-"base": 0.9,
+"base": 0.8,
 "spike": false
 },
 "사고": {
 "n30": 13,
-"base": 6.7,
+"base": 7.3,
 "spike": false
 },
 "실종": {
@@ -3885,7 +3893,7 @@
 "handle": "sfbd553.bsky.social",
 "name": "정인",
 "time": "2026-11-16T10:49:39.146Z",
-"likes": 4,
+"likes": 5,
 "reposts": 0,
 "url": "https://bsky.app/profile/sfbd553.bsky.social/post/3n2ge6hkk2s2k",
 "term": "사고"
@@ -3905,7 +3913,7 @@
 "handle": "sfbd553.bsky.social",
 "name": "정인",
 "time": "2026-11-16T10:48:15.046Z",
-"likes": 4,
+"likes": 5,
 "reposts": 0,
 "url": "https://bsky.app/profile/sfbd553.bsky.social/post/3n2ge3xgn5c2k",
 "term": "사고"
@@ -3964,16 +3972,6 @@
 "time": "2026-11-16T10:28:35Z",
 "term": "속보",
 "url": "https://www.youtube.com/watch?v=0d-6xdq44gc"
-},
-{
-"text": "그냥 좀.. 오늘 안 좋은 일이 있어서,. 폭발했네요... 그냥 넘어가 주십쇼..",
-"handle": "hummingonion.bsky.social",
-"name": "칭찬양파(상태:수능 준비 중)",
-"time": "2026-11-16T10:25:35.545Z",
-"likes": 3,
-"reposts": 0,
-"url": "https://bsky.app/profile/hummingonion.bsky.social/post/3n2gctg2bpc2d",
-"term": "폭발"
 },
 {
 "platform": "YouTube",
@@ -4113,17 +4111,17 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 0.51,
+"지진": 0.46,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 1.55,
-"붕괴": 0.52,
+"폭발": 1.5,
+"붕괴": 0.47,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.35,
-"지하철": 0.84,
-"사고": 7.31,
+"속보": 0.32,
+"지하철": 0.76,
+"사고": 7.88,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -4372,7 +4370,7 @@
 },
 {
 "term": "노경필",
-"traffic": "200+",
+"traffic": "500+",
 "time": "2026-11-16T09:40:00+00:00",
 "news": [
 {
@@ -4450,6 +4448,24 @@
 "new": true
 },
 {
+"term": "엔비디아 전 ceo 복귀 시도와 미국 재무장관 반대에 대한 최신 뉴스 알려줘",
+"traffic": "1000+",
+"time": "2026-11-16T08:40:00+00:00",
+"news": [
+{
+"title": "\"1천 달러 팁·가정적 모습 다 연기\"…젠슨 황 전기작가의 폭로",
+"source": "연합뉴스TV",
+"link": "https://www.yonhapnewstv.co.kr/news/AKR20261116134038fUB"
+},
+{
+"title": "“검은 재킷 복귀”… 워룸 움직인다",
+"source": "서울Pn",
+"link": "https://m.go.seoul.co.kr/news/international/2026/11/17/20261117008002"
+}
+],
+"new": true
+},
+{
 "term": "bangladesh vs south africa",
 "traffic": "200+",
 "time": "2026-11-16T08:10:00+00:00",
@@ -4463,24 +4479,6 @@
 "title": "Rabada: 'We need to be more ruthless'",
 "source": "Cricinfo",
 "link": "https://www.cricinfo.com/story/sa-vs-ban-1st-test-kagiso-rabada-we-need-to-be-more-ruthless-1562805"
-}
-],
-"new": true
-},
-{
-"term": "южная корея",
-"traffic": "200+",
-"time": "2026-11-16T07:50:00+00:00",
-"news": [
-{
-"title": "Южная Корея в октябре 2026 г. закупила у России максимальный объем СПГ почти за 5 лет",
-"source": "Neftegaz.RU",
-"link": "https://neftegaz.ru/news/spg-szhizhennyy-prirodnyy-gaz/942152-yuzhnaya-koreya-v-oktyabre-2026-g-zakupila-u-rossii-maksimalnyy-obem-spg-pochti-za-5-let/"
-},
-{
-"title": "Южная Корея нарастила закупки СПГ и взяла у России максимум с 2021 года",
-"source": "oilcapital.ru",
-"link": "https://oilcapital.ru/news/2026-11-16/yuzhnaya-koreya-narastila-zakupki-spg-i-vzyala-u-rossii-maksimum-s-2021-goda-5733200"
 }
 ],
 "new": true
