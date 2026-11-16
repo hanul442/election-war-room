@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-16T16:11:55.383374+00:00",
+"updated": "2026-11-16T16:14:10.899624+00:00",
 "errors": [],
 "events": [
 {
@@ -3405,7 +3405,7 @@
 "spike": false
 },
 "화재": {
-"n30": 4,
+"n30": 3,
 "base": 0.1,
 "spike": false
 },
@@ -3451,12 +3451,12 @@
 },
 "사고": {
 "n30": 1,
-"base": 3.4,
+"base": 3.2,
 "spike": false
 },
 "실종": {
 "n30": 0,
-"base": 0.4,
+"base": 0.3,
 "spike": false
 },
 "단수": {
@@ -3715,14 +3715,14 @@
 "n30": 7,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-16T16:11:55.383374+00:00"
+"since": "2026-11-16T16:14:10.899624+00:00"
 },
 {
 "term": "속보",
 "n30": 6,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-16T16:11:55.383374+00:00"
+"since": "2026-11-16T16:14:10.899624+00:00"
 }
 ],
 "baseline": {
@@ -3731,13 +3731,13 @@
 "불났": 0.05,
 "정전": 0.05,
 "폭발": 0.05,
-"붕괴": 0.85,
+"붕괴": 0.86,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.1,
-"사고": 3.18,
-"실종": 0.33,
+"지하철": 0.09,
+"사고": 2.96,
+"실종": 0.3,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -3957,6 +3957,42 @@
 },
 "trends": [
 {
+"term": "로버트 패틴슨",
+"traffic": "1000+",
+"time": "2026-11-16T15:10:00+00:00",
+"news": [
+{
+"title": "로버트 패틴슨, 차기 제임스 본드 공식 확정",
+"source": "Hypebeast.KR",
+"link": "https://hypebeast.kr/2026/11/robert-pattinson-officially-next-james-bond-announcement"
+},
+{
+"title": "\"뱀파이어에서 제임스 본드까지…\" 차기 007 유력한 로버트 패틴슨, 이유는?",
+"source": "스포츠조선",
+"link": "https://www.sportschosun.com/entertainment/2026-11-15/202611150100098520009172"
+}
+],
+"new": true
+},
+{
+"term": "추미애",
+"traffic": "100+",
+"time": "2026-11-16T15:10:00+00:00",
+"news": [
+{
+"title": "경기도, 내년 국비 8841억원 추가 확보 추진…부지사 국회에 상주",
+"source": "전자신문",
+"link": "https://www.etnews.com/20261116000545"
+},
+{
+"title": "경기 버스 환승할인 내년 8월 폐지…추미애, 재정 쥐어짜 민생예산만 편성",
+"source": "국제뉴스",
+"link": "https://www.gukjenews.com/news/articleView.html?idxno=3753979"
+}
+],
+"new": true
+},
+{
 "term": "김주혁",
 "traffic": "500+",
 "time": "2026-11-16T14:40:00+00:00",
@@ -4099,46 +4135,9 @@
 }
 ],
 "new": true
-},
-{
-"term": "간호",
-"traffic": "2000+",
-"time": "2026-11-16T11:00:00+00:00",
-"news": [
-{
-"title": "작은 산부인과에서 AI 첨단병원까지, 70년 역사의 병원이 미래 의료를 여는 법",
-"source": "YTN 사이언스",
-"link": "https://science.ytn.co.kr/program/view.php?mcd=1753&key=202611160918175563"
-},
-{
-"title": "을지국제간호학술대회 서울서 개최…간호 실무 미래 방향 논의",
-"source": "동아일보",
-"link": "https://www.donga.com/news/Society/article/all/20261116/135034691/1"
-}
-],
-"new": true
-},
-{
-"term": "두두",
-"traffic": "200+",
-"time": "2026-11-16T11:00:00+00:00",
-"news": [
-{
-"title": "[오피셜] '두두' 이동주, DN 수퍼스와 28년까지 동행… \"보답하고 싶다\"",
-"source": "데일리e스포츠",
-"link": "https://www.dailyesports.com/view.php?ud=20261116201733393074bcc1e038_27"
-},
-{
-"title": "DN 수퍼스, 2027 LCK 시즌 앞두고 '두두'와 재계약",
-"source": "Sheep Esports",
-"link": "https://www.sheepesports.com/kr/articles/sources-dn-soopers-re-sign-dudu-for-the-2027-lck-season/kr"
-}
-],
-"new": true
 }
 ],
 "trendSeen": [
-"주가 대폭락",
 "주가순자산비율",
 "주가조작",
 "주간조선",
@@ -4219,6 +4218,7 @@
 "최해천 교수",
 "최혜진",
 "쵸비",
+"추미애",
 "추성훈",
 "추위",
 "축구 중계",
