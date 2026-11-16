@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-16T20:52:30.094598+00:00",
+"updated": "2026-11-16T20:54:46.288344+00:00",
 "errors": [],
 "events": [
 {
@@ -1821,7 +1821,7 @@
 "spike": false
 },
 "폭발": {
-"n30": 6,
+"n30": 5,
 "base": 0.1,
 "spike": true
 },
@@ -1847,7 +1847,7 @@
 },
 "지하철": {
 "n30": 1,
-"base": 0.4,
+"base": 0.5,
 "spike": false
 },
 "사고": {
@@ -2103,17 +2103,17 @@
 "spikes": [
 {
 "term": "폭발",
-"n30": 6,
+"n30": 5,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-16T20:52:30.094598+00:00"
+"since": "2026-11-16T20:54:46.288344+00:00"
 },
 {
 "term": "속보",
 "n30": 10,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-16T20:52:30.094598+00:00"
+"since": "2026-11-16T20:54:46.288344+00:00"
 }
 ],
 "baseline": {
@@ -2126,7 +2126,7 @@
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.45,
+"지하철": 0.51,
 "사고": 0.05,
 "실종": 0.05,
 "단수": 0.05,
@@ -2348,6 +2348,60 @@
 },
 "trends": [
 {
+"term": "민희진",
+"traffic": "100+",
+"time": "2026-11-16T19:50:00+00:00",
+"news": [
+{
+"title": "민희진, 뉴진스 계약해지 관여 '업무상배임' 혐의로 송치(종합)",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261116147651004"
+},
+{
+"title": "경찰, '뉴진스 계약 해지' 민희진 업무상 배임 송치",
+"source": "MBC 뉴스",
+"link": "https://imnews.imbc.com/news/2026/society/article/6866041_36918.html"
+}
+],
+"new": true
+},
+{
+"term": "음주 운전",
+"traffic": "100+",
+"time": "2026-11-16T19:40:00+00:00",
+"news": [
+{
+"title": "비비 \"고경표, 올해 안 될 수밖에 없다\"...한 달 전, 사주풀이 '깜짝' - 머니투데이",
+"source": "머니투데이",
+"link": "https://www.mt.co.kr/society/2026/11/16/2026111608321498323"
+},
+{
+"title": "경찰, 음주운전으로 청소차 들이받은 고경표 소환조사 방침",
+"source": "KBS 뉴스",
+"link": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8713754"
+}
+],
+"new": true
+},
+{
+"term": "북한",
+"traffic": "200+",
+"time": "2026-11-16T19:30:00+00:00",
+"news": [
+{
+"title": "통일부 “북한 조용원, 미중러회담 앞두고 방러…관련 동향 주시”",
+"source": "KBS 뉴스",
+"link": "https://news.kbs.co.kr/news/view.do?ncd=8713693"
+},
+{
+"title": "푸틴, '김정은 최측근' 조용원 만나…\"양국 군사적 형제애로 연결\"",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261117005800109"
+}
+],
+"new": true
+},
+{
 "term": "독일 대 네덜란드",
 "traffic": "500+",
 "time": "2026-11-16T19:10:00+00:00",
@@ -2367,7 +2421,7 @@
 },
 {
 "term": "임예진",
-"traffic": "200+",
+"traffic": "500+",
 "time": "2026-11-16T18:40:00+00:00",
 "news": [
 {
@@ -2385,7 +2439,7 @@
 },
 {
 "term": "장항준",
-"traffic": "100+",
+"traffic": "200+",
 "time": "2026-11-16T18:10:00+00:00",
 "news": [
 {
@@ -2448,9 +2502,9 @@
 "link": "https://www.nytimes.com/2026/11/16/movies/james-bond-robert-pattinson.html"
 },
 {
-"title": "Watch Robert Pattinson Is New James Bond in Amazon’s Reboot",
-"source": "Bloomberg.com",
-"link": "https://www.bloomberg.com/news/videos/2026-11-16/robert-pattinson-is-new-james-bond-in-amazon-s-reboot-video"
+"title": "Robert Pattinson's best James Bond-inspired suit looks over the years",
+"source": "USA Today",
+"link": "https://www.usatoday.com/picture-gallery/entertainment/style/2026/11/16/robert-pattinson-best-james-bond-looks-over-the-years-photos/92812735007/"
 }
 ],
 "new": true
@@ -2467,60 +2521,6 @@
 }
 ],
 "new": true
-},
-{
-"term": "로버트 패틴슨",
-"traffic": "1000+",
-"time": "2026-11-16T15:10:00+00:00",
-"news": [
-{
-"title": "로버트 패틴슨, 7대 제임스 본드 된다…'007시리즈' 주인공 낙점",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261117002400075"
-},
-{
-"title": "조쉬 오코너·칼럼 터너 말고 누구? … 주디 덴치가 추천한 차기 제임스 본드 [할리웃통신]",
-"source": "TV리포트",
-"link": "https://tvreport.co.kr/world/article/1091339/"
-}
-],
-"new": true
-},
-{
-"term": "추미애",
-"traffic": "200+",
-"time": "2026-11-16T15:10:00+00:00",
-"news": [
-{
-"title": "경기 버스 환승할인 내년 8월 폐지…추미애, 재정 쥐어짜 민생예산만 편성",
-"source": "국제뉴스",
-"link": "https://www.gukjenews.com/news/articleView.html?idxno=3753979"
-},
-{
-"title": "MBC의 편파 왜곡 방송, 무단 침입에 대해 법적 책임을 묻겠습니다",
-"source": "경기도뉴스포털",
-"link": "https://gnews.gg.go.kr/news/news_detail.do?number=202611161447356798C117&s_code=daily"
-}
-],
-"new": false
-},
-{
-"term": "최우제",
-"traffic": "100+",
-"time": "2026-11-16T15:00:00+00:00",
-"news": [
-{
-"title": "[뉴스워커_스포츠] 롤 인벤·롤갤 뒤집은 제우스 복귀설... 정작 티원은 침묵 중",
-"source": "뉴스워커",
-"link": "https://www.newsworker.co.kr/news/articleView.html?idxno=513543"
-},
-{
-"title": "LCK 스토브리그 일정은?⋯코치 영입 15일ㆍ선수 FA 17일",
-"source": "이투데이",
-"link": "https://www.etoday.co.kr/news/view/2647803"
-}
-],
-"new": false
 }
 ],
 "trendSeen": [
