@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-16T22:11:35.861767+00:00",
+"updated": "2026-11-16T22:13:52.873150+00:00",
 "errors": [],
 "events": [
 {
@@ -2071,12 +2071,12 @@
 "sns": {
 "terms": {
 "지진": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
 "화재": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -2111,7 +2111,7 @@
 "spike": false
 },
 "속보": {
-"n30": 2,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
@@ -2593,6 +2593,42 @@
 },
 "trends": [
 {
+"term": "สภาพอากาศ",
+"traffic": "2000+",
+"time": "2026-11-16T21:10:00+00:00",
+"news": [
+{
+"title": "สภาพอากาศวันนี้ -22 พ.ย.ไทยตอนบนอุณหภูมิลด ใต้ฝนเพิ่ม ฝนหนักบางแห่ง",
+"source": "Thansettakij",
+"link": "https://www.thansettakij.com/general-news/673912"
+},
+{
+"title": "กรมอุตุฯ ประกาศล่าสุด เช็กจังหวัดฝนตกหนัก คืนนี้ | มุมข่าว",
+"source": "LINE TODAY",
+"link": "https://today.line.me/th/v3/article/YapJ9aL"
+}
+],
+"new": true
+},
+{
+"term": "범죄",
+"traffic": "1000+",
+"time": "2026-11-16T21:10:00+00:00",
+"news": [
+{
+"title": "이재명 대통령, 아세안 및 APEC 정상회의 참석(11.16.~11.19.) - 전체 | 카드/한컷 | 멀티미디어",
+"source": "대한민국 정책브리핑",
+"link": "https://www.korea.kr/multi/visualNewsView.do?newsId=148975751&pWise=sub&pWiseSub=R6"
+},
+{
+"title": "\"아세안 교역 3천억 불 시대로\"‥오늘 한일회담",
+"source": "MBC 뉴스",
+"link": "https://imnews.imbc.com/replay/2026/nwtoday/article/6866142_37012.html"
+}
+],
+"new": true
+},
+{
 "term": "아리바이오",
 "traffic": "100+",
 "time": "2026-11-16T21:00:00+00:00",
@@ -2720,7 +2756,7 @@
 },
 {
 "term": "월드컵",
-"traffic": "100+",
+"traffic": "200+",
 "time": "2026-11-16T20:20:00+00:00",
 "news": [
 {
@@ -2732,42 +2768,6 @@
 "title": "케인의 도장깨기…발롱도르 수상 이어 스페인 격침",
 "source": "연합뉴스TV",
 "link": "https://www.yonhapnewstv.co.kr/news/MYH20261117053500tf4"
-}
-],
-"new": true
-},
-{
-"term": "연금",
-"traffic": "10000+",
-"time": "2026-11-16T20:10:00+00:00",
-"news": [
-{
-"title": "노사정, 퇴직연금 기능강화 입법 협력…영세사업장 연착륙 지원",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261113167000530"
-},
-{
-"title": "퇴직연금 대수술, 뭐가 달라질까?",
-"source": "네이버페이 머니스토리",
-"link": "https://story.pay.naver.com/content/3912"
-}
-],
-"new": true
-},
-{
-"term": "윤이나",
-"traffic": "500+",
-"time": "2026-11-16T20:00:00+00:00",
-"news": [
-{
-"title": "최혜진, 통한의 보기 2개…10번째 준우승",
-"source": "KBS 뉴스",
-"link": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8714312"
-},
-{
-"title": "최혜진, 준우승만 10번째 또 ‘뒷심 부족’… 땅을 쳤다",
-"source": "동아일보",
-"link": "https://www.donga.com/news/Sports/article/all/20261117/135035563/2"
 }
 ],
 "new": true
