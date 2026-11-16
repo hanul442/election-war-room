@@ -1,12 +1,12 @@
 {
-"updated": "2026-11-16T14:02:24.543759+00:00",
+"updated": "2026-11-16T14:04:39.979361+00:00",
 "errors": [],
 "events": [
 {
 "id": "viewAKR202611161793000051334",
 "first": "2026-11-16T13:34:29+00:00",
 "last": "2026-11-16T13:59:14+00:00",
-"updated": "2026-11-16T14:02:24.543759+00:00",
+"updated": "2026-11-16T14:04:39.979361+00:00",
 "headline": "제니, '드라큘라'로 그래미 '베스트 팝 듀오/그룹' 후보",
 "cat": "기타",
 "regions": [],
@@ -71,6 +71,13 @@
 "title": "[속보] 제니, '드라큘라' 그래미 본상 '올해의 레코드' 후보 지명",
 "source": "스페셜타임스",
 "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1iR3N3ZnFBR0lOT3U0UFR4dXAyLXh5TEVxTzRTa0tMZzRCUEIyMXBKeU1STGlMck9YUlZvM1hoQUsyTm5udEZZNmVxeTZNeGpkZmJRVFZsNWtyS1hVbWNhVGw5bVVhXzhyZlExS2JWa1B4dw?oc=5",
+"time": "2026-11-16T13:51:25+00:00",
+"stage": "속보"
+},
+{
+"title": "[속보] 제니, '드라큘라' 그래미 본상 '올해의 레코드' 후보 지명",
+"source": "스페셜타임스",
+"link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1WajRKMmtxaUJ1RUdRM09HaDFQN1Q1ajNqME90dlhfeEVJMkdSYU9RTk9IU0k2dm90cVotdUpSaHpldTQ2WTlEXzdBQ244dWxfMU1DbHV6Zkg2N3QzUG1uV2NkaHNyakdEV3BDQ0FqQ2Z2akE?oc=5",
 "time": "2026-11-16T13:51:25+00:00",
 "stage": "속보"
 },
@@ -4061,13 +4068,13 @@
 "spike": false
 },
 "폭발": {
-"n30": 3,
+"n30": 2,
 "base": 0.1,
 "spike": false
 },
 "붕괴": {
 "n30": 1,
-"base": 0.5,
+"base": 0.4,
 "spike": false
 },
 "대피": {
@@ -4086,12 +4093,12 @@
 "spike": true
 },
 "지하철": {
-"n30": 5,
+"n30": 4,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "사고": {
-"n30": 4,
+"n30": 5,
 "base": 3.7,
 "spike": false
 },
@@ -4122,6 +4129,16 @@
 }
 },
 "posts": [
+{
+"text": "개인적으로 느끼는거지만 결국엔 ai의 발전으로 인해서 \"진짜\"만 남을 것 같음\n이건 마냥 긍정적인 의미로 받아들일 현상은 아님...\n그냥 재미로 도전했던 사람들 중 사고가 나약한 사람들은 다 나가떨어지고 어떠한 \"사상\"을 가진 사람들만 남을 것이라는 것이기 때문에...\n창작은 사상과 사고를 가지고 하게 되는 것이긴 하지만 결국 진짜 마지막까지 남는 사람들은 \"미친 사람\"들 밖에 없을 것...",
+"handle": "amolugetta.bsky.social",
+"name": "최깰륵",
+"time": "2026-11-16T14:02:23.440Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/amolugetta.bsky.social/post/3n2gox6h3u222",
+"term": "사고"
+},
 {
 "text": "ㅋㅋㅋ 난 애매해도 사고 재미없어도 사고 재미있어도 사고... 어쩔 수 없어~",
 "handle": "ooooomm.bsky.social",
@@ -4297,16 +4314,6 @@
 "url": "https://www.youtube.com/watch?v=l_hf0d2wY_o"
 },
 {
-"text": "부친 오늘 수술은 그럭저럭 잘 끝난듯. 사고 관련 수술은 이게 마지막이었음 좋겠다.",
-"handle": "lyingdownbear.bsky.social",
-"name": "널부렁🎗️",
-"time": "2026-11-16T13:34:48.044Z",
-"likes": 12,
-"reposts": 0,
-"url": "https://bsky.app/profile/lyingdownbear.bsky.social/post/3n2gnfqs3nc2h",
-"term": "사고"
-},
-{
 "platform": "YouTube",
 "text": "일본에는 출근길에 사람 밀어 넣는 직업이 있다 #일본 #지하철",
 "handle": "UCyfHLdm_vh5q2j0vcNjJLow",
@@ -4385,28 +4392,21 @@
 "n30": 5,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-16T14:02:24.543759+00:00"
-},
-{
-"term": "지하철",
-"n30": 5,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-16T14:02:24.543759+00:00"
+"since": "2026-11-16T14:04:39.979361+00:00"
 }
 ],
 "baseline": {
-"지진": 0.12,
+"지진": 0.11,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
 "폭발": 0.05,
-"붕괴": 0.41,
-"대피": 0.11,
+"붕괴": 0.37,
+"대피": 0.1,
 "미사일": 0.05,
 "속보": 0.05,
 "지하철": 0.05,
-"사고": 3.71,
+"사고": 3.84,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
