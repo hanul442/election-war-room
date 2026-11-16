@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-16T03:44:30.947667+00:00",
+"updated": "2026-11-16T03:46:45.423177+00:00",
 "errors": [],
 "events": [
 {
@@ -4175,7 +4175,7 @@
 "terms": {
 "지진": {
 "n30": 1,
-"base": 0.2,
+"base": 0.3,
 "spike": false
 },
 "화재": {
@@ -4194,7 +4194,7 @@
 "spike": false
 },
 "폭발": {
-"n30": 2,
+"n30": 0,
 "base": 0.2,
 "spike": false
 },
@@ -4225,7 +4225,7 @@
 },
 "사고": {
 "n30": 2,
-"base": 1.6,
+"base": 1.7,
 "spike": false
 },
 "실종": {
@@ -4234,8 +4234,8 @@
 "spike": false
 },
 "단수": {
-"n30": 1,
-"base": 0.7,
+"n30": 0,
+"base": 0.8,
 "spike": false
 },
 "통신 장애": {
@@ -4255,6 +4255,16 @@
 }
 },
 "posts": [
+{
+"text": "예에에에전에 한국 살 때 이거땜시 CPU 간 적 있어서 정전나서 셧다운 될떄마다 식은땀 나는",
+"handle": "donkeytonkey.bsky.social",
+"name": "도로동_동키통키🇰🇷🇨🇦",
+"time": "2026-11-16T03:44:21.047Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/donkeytonkey.bsky.social/post/3n2fpqy5rm22k",
+"term": "정전"
+},
 {
 "text": "에 천둥친다. 정전날까봐 두려워짐",
 "handle": "donkeytonkey.bsky.social",
@@ -4321,16 +4331,6 @@
 "time": "2026-11-16T03:15:18Z",
 "term": "폭발",
 "url": "https://www.youtube.com/watch?v=E0vLWR2HAm4"
-},
-{
-"text": "하 이 오리 고단수네? 이야 사람 마음도 막 갖고놀고 몰랏어 이런 오리일 줄",
-"handle": "syruu.bsky.social",
-"name": "챠챠",
-"time": "2026-11-16T03:15:09.449Z",
-"likes": 1,
-"reposts": 0,
-"url": "https://bsky.app/profile/syruu.bsky.social/post/3n2fkrq5acs2g",
-"term": "단수"
 },
 {
 "platform": "YouTube",
@@ -4452,21 +4452,21 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 0.32,
+"지진": 0.39,
 "화재": 0.05,
-"불났": 0.37,
-"정전": 0.15,
-"폭발": 0.18,
+"불났": 0.33,
+"정전": 0.34,
+"폭발": 0.16,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
 "지하철": 0.05,
-"사고": 1.66,
+"사고": 1.69,
 "실종": 0.05,
-"단수": 0.77,
+"단수": 0.69,
 "통신 장애": 0.05,
-"먹통": 0.07,
+"먹통": 0.06,
 "산불": 0.05
 },
 "errors": [],
@@ -4630,9 +4630,9 @@
 "link": "https://www.newspim.com/news/view/20261116000287"
 },
 {
-"title": "삼성·SK하이닉스·마이크론, D램 700% 폭등 담합 소송서 \"AI 수요 탓\" 정면 반박",
-"source": "글로벌이코노믹",
-"link": "https://www.g-enews.com/article/Global-Biz/2026/11/202611141956134528fbbec65dfb_1"
+"title": "D램 담합소송, 미국 법원이 삼성·SK하이닉스의 기각 요청을 받아들이지 않았다",
+"source": "네이버 프리미엄콘텐츠",
+"link": "https://contents.premium.naver.com/kny486kjh/kny486/contents/261115232143218lq"
 }
 ],
 "new": true
@@ -4653,7 +4653,7 @@
 "link": "https://namdi.co.kr/?p=30117"
 }
 ],
-"new": true
+"new": false
 },
 {
 "term": "주가조작",
@@ -4738,9 +4738,9 @@
 "link": "https://m.korea.kr/multi/visualNewsView.do?newsId=148975751&pWise=mSub&pWiseSub=I1"
 },
 {
-"title": "이 대통령 \"높아진 위상 걸맞게 국익 지키고 역할 확대\"",
-"source": "MBC 뉴스",
-"link": "https://imnews.imbc.com/news/2026/politics/article/6865914_36911.html"
+"title": "아세안 뒤 APEC '슈퍼위크'…이 대통령, 트럼프 만날까",
+"source": "SBS 뉴스",
+"link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008847674"
 }
 ],
 "new": true
@@ -4787,14 +4787,14 @@
 "time": "2026-11-16T01:10:00+00:00",
 "news": [
 {
-"title": "\"평범한 햇반인 줄 알았는데\"…인기 1위 오른 '이것' 정체 [권 기자의 장바구니]",
-"source": "한국경제",
-"link": "https://www.hankyung.com/article/202611136089i"
-},
-{
 "title": "CJ제일제당, 햇반 30주년 기념 한정판 신제품 ‘햇반 30곡밥’ 출시 – CJ 뉴스룸",
 "source": "CJ 뉴스룸",
 "link": "https://cjnews.cj.net/cj%EC%A0%9C%EC%9D%BC%EC%A0%9C%EB%8B%B9-%ED%96%87%EB%B0%98-30%EC%A3%BC%EB%85%84-%EA%B8%B0%EB%85%90-%ED%95%9C%EC%A0%95%ED%8C%90-%EC%8B%A0%EC%A0%9C%ED%92%88-%ED%96%87%EB%B0%98-30%EA%B3%A1/"
+},
+{
+"title": "현미·귀리 등 30가지 곡물 배합…햇반 30주년 한정판 ‘햇반 30곡밥’ 출시",
+"source": "동아일보",
+"link": "https://www.donga.com/news/Economy/article/all/20261116/135030711/1"
 }
 ],
 "new": false
