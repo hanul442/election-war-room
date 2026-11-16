@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-16T09:03:01.290275+00:00",
+"updated": "2026-11-16T09:05:18.436859+00:00",
 "errors": [],
 "events": [
 {
@@ -62,15 +62,25 @@
 "id": "9CU1BRNEtyMGVOUTN5MGcoc50854",
 "first": "2026-11-16T08:54:29+00:00",
 "last": "2026-11-16T08:58:13+00:00",
-"updated": "2026-11-16T09:03:01.290275+00:00",
+"updated": "2026-11-16T09:05:18.436859+00:00",
 "headline": "아들이 저지른 성범죄 피해 15세 소녀 살해한 50대 남성, 다른 사건으로 지명통보 상태서 범행",
 "cat": "사회",
-"regions": [],
+"regions": [
+"경기"
+],
 "sources": [
 "강원도민일보",
-"강원일보"
+"강원일보",
+"연합뉴스"
 ],
 "updates": [
+{
+"title": "'10대 살해' 50대 남성, 경찰 지명통보 상태서 범행",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261116158000065",
+"time": "2026-11-16T08:27:28+00:00",
+"stage": "후속"
+},
 {
 "title": "[속보] 아들이 저지른 성범죄 피해 15세 소녀 살해한 50대 남성, 다른 사건으로 지명통보 상태서 범행",
 "source": "강원일보",
@@ -89,6 +99,7 @@
 "level": "URGENT",
 "latest": "‘아들 성범죄 피해자 살해’ 혐의 50대, 경찰 지명통보 상태서 범행",
 "tok": [
+"10대",
 "15세",
 "50대",
 "경찰",
@@ -3958,7 +3969,7 @@
 "sns": {
 "terms": {
 "지진": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -3978,8 +3989,8 @@
 "spike": false
 },
 "폭발": {
-"n30": 3,
-"base": 0.5,
+"n30": 2,
+"base": 0.6,
 "spike": false
 },
 "붕괴": {
@@ -4004,12 +4015,12 @@
 },
 "지하철": {
 "n30": 0,
-"base": 0.7,
+"base": 0.6,
 "spike": false
 },
 "사고": {
 "n30": 6,
-"base": 5.0,
+"base": 5.1,
 "spike": false
 },
 "실종": {
@@ -4299,17 +4310,17 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 0.07,
+"지진": 0.06,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.56,
-"붕괴": 0.07,
+"폭발": 0.6,
+"붕괴": 0.06,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.62,
-"사고": 5.14,
+"지하철": 0.56,
+"사고": 5.23,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -4679,14 +4690,14 @@
 "time": "2026-11-16T07:10:00+00:00",
 "news": [
 {
-"title": "PILNE! Odnaleziono ciało w miejscu poszukiwań",
-"source": "UWAGA! TVN",
-"link": "https://uwaga.tvn.pl/najnowsze/pilne-odnaleziono-cialo-w-miejscu-poszukiwan-st9339698"
+"title": "\"Młode gliny\", odc. 80. Przeszłość dopadła Łukasza. Czy komendantka jest w niebezpieczeństwie?",
+"source": "TVN.pl",
+"link": "https://tvn.pl/aktualnosci/mlode-gliny-odc-80-przeszlosc-dopadla-lukasza-czy-komendantka-jest-w-niebezpieczenstwie-vd9340761"
 },
 {
-"title": "Program tv dla Dzień Dobry TVN",
-"source": "Pilot WP",
-"link": "https://pilot.wp.pl/program-tv/program/dzien-dobry-tvn-8dda871655d0c00a0c43f92072c84058"
+"title": "Co z Cezarym z \"Życia na kredycie\"? Marzena usłyszała złe wieści [PRZED EMISJĄ W TV]",
+"source": "TVN.pl",
+"link": "https://tvn.pl/aktualnosci/co-z-cezarym-z-zycia-na-kredycie-marzena-uslyszala-zle-wiesci-przed-emisja-w-tv-vd9332615"
 }
 ],
 "new": true
@@ -4697,14 +4708,14 @@
 "time": "2026-11-16T07:00:00+00:00",
 "news": [
 {
-"title": "[뉴스포커스] 11월1６일 다시보기",
-"source": "연합뉴스TV",
-"link": "https://www.yonhapnewstv.co.kr/news/MYH20261116141042CpO"
+"title": "임현주, MBC 퇴사 \"13년 8개월 재직…회사 밖 탐험할 것\"",
+"source": "한국경제",
+"link": "https://www.hankyung.com/article/202611169179H"
 },
 {
-"title": "뉴스투데이 2026년 11월 16일(월)",
-"source": "여수MBC",
-"link": "https://ysmbc.co.kr/NewsToday/1/read/184408"
+"title": "‘안경뉴스+노브라 방송’ 임현주, 13년만 MBC 퇴사",
+"source": "문화일보",
+"link": "https://www.munhwa.com/article/11631673"
 }
 ],
 "new": true
