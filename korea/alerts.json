@@ -1,12 +1,12 @@
 {
-"updated": "2026-11-16T10:51:01.449354+00:00",
+"updated": "2026-11-16T10:53:17.880507+00:00",
 "errors": [],
 "events": [
 {
 "id": "sOXJoYU9GM0JCaFRTOWQtoc51027",
 "first": "2026-11-16T10:27:52+00:00",
 "last": "2026-11-16T10:48:22+00:00",
-"updated": "2026-11-16T10:51:01.449354+00:00",
+"updated": "2026-11-16T10:53:17.880507+00:00",
 "headline": "7㎞ 추격, 도주 차량에 실탄 쏴…성범죄 피의자 추격 중 경찰관 6명 부상",
 "cat": "사회",
 "regions": [],
@@ -15,7 +15,8 @@
 "문화일보",
 "부산일보",
 "아이뉴스24",
-"연합뉴스"
+"연합뉴스",
+"조선일보"
 ],
 "updates": [
 {
@@ -30,6 +31,13 @@
 "source": "경향신문",
 "link": "https://www.khan.co.kr/article/202611161912001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
 "time": "2026-11-16T10:12:00+00:00",
+"stage": "후속"
+},
+{
+"title": "미성년자 강간 혐의 20대 도주, 경찰 실탄에 붙잡혀",
+"source": "조선일보",
+"link": "https://www.chosun.com/national/national_general/2026/11/16/DMCJ5PG5FRBF7JDNBX2467B4WE/",
+"time": "2026-11-16T10:13:20+00:00",
 "stage": "후속"
 },
 {
@@ -59,13 +67,16 @@
 "tok": [
 "20대",
 "6명",
+"강간",
 "검거",
 "경찰",
 "경찰관",
 "긴급체포",
 "도주",
+"미성년자",
 "부상",
 "붙잡아",
+"붙잡혀",
 "성범죄",
 "실탄",
 "쏘고",
@@ -73,7 +84,8 @@
 "차에",
 "추격",
 "추격전",
-"피의자"
+"피의자",
+"혐의"
 ]
 },
 {
@@ -3798,7 +3810,7 @@
 },
 "폭발": {
 "n30": 2,
-"base": 1.4,
+"base": 1.5,
 "spike": false
 },
 "붕괴": {
@@ -3817,18 +3829,18 @@
 "spike": false
 },
 "속보": {
-"n30": 5,
+"n30": 4,
 "base": 0.4,
-"spike": true
+"spike": false
 },
 "지하철": {
 "n30": 0,
-"base": 1.0,
+"base": 0.9,
 "spike": false
 },
 "사고": {
-"n30": 12,
-"base": 6.1,
+"n30": 13,
+"base": 6.7,
 "spike": false
 },
 "실종": {
@@ -3859,6 +3871,16 @@
 },
 "posts": [
 {
+"text": "코딩과 프롬프트의 디테일을 완성하는 구조에 미래 인재 테스팅 방식으로서 의미를 가지네요~ 사고도 사유도 크리에이티브 하심~♡",
+"handle": "silhouette5.bsky.social",
+"name": "shadow (잔영)",
+"time": "2026-11-16T10:52:36.246Z",
+"likes": 1,
+"reposts": 0,
+"url": "https://bsky.app/profile/silhouette5.bsky.social/post/3n2gedp3mqs2a",
+"term": "사고"
+},
+{
 "text": "지게차도 엄청 위험해요\n현장에서 눈쌓여있거나 하면 전복돼서 죽는 사고 종종 발생함\n아니면 지나가는 지게차에 발을 밟히는 사례도 있고",
 "handle": "sfbd553.bsky.social",
 "name": "정인",
@@ -3883,19 +3905,9 @@
 "handle": "sfbd553.bsky.social",
 "name": "정인",
 "time": "2026-11-16T10:48:15.046Z",
-"likes": 3,
+"likes": 4,
 "reposts": 0,
 "url": "https://bsky.app/profile/sfbd553.bsky.social/post/3n2ge3xgn5c2k",
-"term": "사고"
-},
-{
-"text": "adhd인데 면허 땄음\n사고 안내고 잘 다녀서 ㄱㅊ은줄 알았음\n근데 adhd가 문제가 아니었음\n기면증이었슨... \n(운전면허증을 걍 신분증으로 활용하며)",
-"handle": "hamgo.bsky.social",
-"name": "송구함૮₍´｡ᵔ ꈊ ᵔ｡`₎ა (상태: 대박 돼지)",
-"time": "2026-11-16T10:46:49.944Z",
-"likes": 3,
-"reposts": 0,
-"url": "https://bsky.app/profile/hamgo.bsky.social/post/3n2gdzfltf22y",
 "term": "사고"
 },
 {
@@ -4099,27 +4111,19 @@
 "url": "https://www.youtube.com/watch?v=s26r09qUNzk"
 }
 ],
-"spikes": [
-{
-"term": "속보",
-"n30": 5,
-"base": 0.4,
-"spike": true,
-"since": "2026-11-16T10:51:01.449354+00:00"
-}
-],
+"spikes": [],
 "baseline": {
-"지진": 0.57,
+"지진": 0.51,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 1.5,
-"붕괴": 0.58,
+"폭발": 1.55,
+"붕괴": 0.52,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.39,
-"지하철": 0.93,
-"사고": 6.68,
+"속보": 0.35,
+"지하철": 0.84,
+"사고": 7.31,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -4313,6 +4317,60 @@
 },
 "trends": [
 {
+"term": "서울 sk 대 울산 현대모비스",
+"traffic": "500+",
+"time": "2026-11-16T09:50:00+00:00",
+"news": [
+{
+"title": "'예기치 못한 악재' 국가대표 슈터마저 쓰러졌다, 양동근 감독 \"선수 생활만 20년을 해봤는데...\" [잠실 현장] - 머니투데이",
+"source": "머니투데이",
+"link": "https://www.mt.co.kr/sports/2026/11/16/2026111617434984515"
+},
+{
+"title": "[사진]스틸 성공 박무빈",
+"source": "조선일보",
+"link": "https://www.chosun.com/sports/sports_photo/2026/11/16/G42DCZTGMNSGKY3CGUZWIYZSMY/"
+}
+],
+"new": true
+},
+{
+"term": "결승전",
+"traffic": "100+",
+"time": "2026-11-16T09:50:00+00:00",
+"news": [
+{
+"title": "스마일게이트 '에픽세븐', E7WC 2026 결승전 티켓 예매 시작",
+"source": "지디넷코리아",
+"link": "https://zdnet.co.kr/view/?no=20261116180636"
+},
+{
+"title": "스마일게이트, `에픽세븐` 월드 챔피언십 결승전 예매 시작",
+"source": "디지털데일리",
+"link": "https://www.ddaily.co.kr/page/view/2026111617383582222"
+}
+],
+"new": true
+},
+{
+"term": "빙부상",
+"traffic": "500+",
+"time": "2026-11-16T09:50:00+00:00",
+"news": [
+{
+"title": "‘한동훈 의원 장인’ 진형구 전 대전고검장 별세···생전 ‘조폐공사 파업 유도’ 발언 파문",
+"source": "경향신문",
+"link": "https://www.khan.co.kr/article/202611152014065"
+},
+{
+"title": "오세훈 시장, 한동훈 빙부상 조문",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISI20261116_0021534619"
+}
+],
+"new": true
+},
+{
 "term": "노경필",
 "traffic": "200+",
 "time": "2026-11-16T09:40:00+00:00",
@@ -4426,60 +4484,6 @@
 }
 ],
 "new": true
-},
-{
-"term": "김지수",
-"traffic": "5000+",
-"time": "2026-11-16T07:40:00+00:00",
-"news": [
-{
-"title": "\"음주운전 두 번·만취 인터뷰까지\"…김지수, 2년 만에 예능 복귀 - 머니투데이",
-"source": "머니투데이",
-"link": "https://www.mt.co.kr/entertainment/2026/11/16/2026111612520380605"
-},
-{
-"title": "[공식] 김지수, 체코 프라하서 여행사 차렸다…유이와 ‘솔로라서2’ 합류",
-"source": "스포츠동아",
-"link": "https://sports.donga.com/ent/article/all/20261116/135033317/1"
-}
-],
-"new": true
-},
-{
-"term": "신랑",
-"traffic": "10000+",
-"time": "2026-11-16T07:40:00+00:00",
-"news": [
-{
-"title": "\"야 너 이리 와\"…결혼식 날 신랑에게 엎드려뻗쳐 시킨 신부 이모부",
-"source": "뉴스1",
-"link": "https://www.news1.kr/society/general-society/6355215"
-},
-{
-"title": "“살면서 듣도 보도 못했다, 내 가족이 봤다면...” 신랑이 결혼식서 신부 이모부에게 당한 일",
-"source": "위키트리",
-"link": "https://www.wikitree.co.kr/articles/1175001"
-}
-],
-"new": true
-},
-{
-"term": "캄보디아",
-"traffic": "500+",
-"time": "2026-11-16T07:40:00+00:00",
-"news": [
-{
-"title": "수원시 의료봉사단, 캄보디아 수원마을서 민관 의료 봉사 활동 전개",
-"source": "기호일보",
-"link": "https://www.kihoilbo.co.kr/news/articleView.html?idxno=3041013"
-},
-{
-"title": "수원 의료진 32명, 캄보디아 자매도시서 주민 진료",
-"source": "뉴시스",
-"link": "https://www.newsis.com/view/NISX20261116_0003869726"
-}
-],
-"new": false
 }
 ],
 "trendSeen": [
