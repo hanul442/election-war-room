@@ -1,16 +1,17 @@
 {
-"updated": "2026-11-17T11:36:20.393910+00:00",
+"updated": "2026-11-17T11:38:32.792364+00:00",
 "errors": [],
 "events": [
 {
 "id": "viewAKR202611171676000091104",
 "first": "2026-11-17T11:04:23+00:00",
 "last": "2026-11-17T11:30:07+00:00",
-"updated": "2026-11-17T11:34:08.152527+00:00",
+"updated": "2026-11-17T11:38:32.792364+00:00",
 "headline": "트럼프 \"김정은, 만남 원할 것…어떻게 될지 지켜보자\"",
 "cat": "국제",
 "regions": [],
 "sources": [
+"hidomin.com",
 "경향신문",
 "동아일보",
 "연합뉴스"
@@ -52,6 +53,13 @@
 "stage": "속보"
 },
 {
+"title": "[속보] 트럼프 \"김정은도 만남 원할 것… 어떻게 될지 지켜보자\"",
+"source": "hidomin.com",
+"link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1KS284MFd3Nm5IaVR4eWtkWlJ2QjZ3d2FXMHJTaVp6d1hDZUNpOHlQV1FxajFQQllhX05xMEpfZVp5eEllTHJiX3ZlYnZ1S2x5RE1ieEZUSldKRTlBWUkzSUIyOXJsYWxIM2c?oc=5",
+"time": "2026-11-17T11:28:27+00:00",
+"stage": "속보"
+},
+{
 "title": "트럼프 \"김정은도 中 오고 싶어할 것…어떻게 될지 보자\"",
 "source": "연합뉴스",
 "link": "https://www.yna.co.kr/view/AKR20261117167900071",
@@ -74,6 +82,40 @@
 "중국서",
 "지켜보자",
 "트럼프"
+]
+},
+{
+"id": "tiTVh2bHdDZnFpbVFZR28oc51130",
+"first": "2026-11-17T11:30:00+00:00",
+"last": "2026-11-17T11:30:00+00:00",
+"updated": "2026-11-17T11:38:32.792364+00:00",
+"headline": "11월 17일 축구 속보: FIFA 랭킹에서 베트남 대표팀의 새로운 순위",
+"cat": "기타",
+"regions": [],
+"sources": [
+"Laodong.vn"
+],
+"updates": [
+{
+"title": "11월 17일 축구 속보: FIFA 랭킹에서 베트남 대표팀의 새로운 순위",
+"source": "Laodong.vn",
+"link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPS3NRVGJVRzZ6NlluVEZuQnZYQl90akhtdDZldTFaWXhmVW4xenpUUGRzbUVKZFhPLWZaVjVsNzcySndxWG1aSEtVWVp4OV9VcW5vU1R0dkV6alBPX1F2WFphRk1WVU91dVNSVDg0Y3AzUTRydmZxS2J3QTRHUUd6d0xTMzJmWnExMjFqblVONnZlM0VvTVZxcGpMLWd4QUxXZU5wM1FIREtiTVh2bHdDZnFpbVFZR28?oc=5",
+"time": "2026-11-17T11:30:00+00:00",
+"stage": "1보"
+}
+],
+"level": "ALERT",
+"latest": "11월 17일 축구 속보: FIFA 랭킹에서 베트남 대표팀의 새로운 순위",
+"tok": [
+"11월",
+"17일",
+"FIFA",
+"대표팀",
+"랭킹에서",
+"베트남",
+"새로운",
+"순위",
+"축구"
 ]
 },
 {
@@ -3923,48 +3965,6 @@
 "직원",
 "화재"
 ]
-},
-{
-"id": "viewAKR202611171347005270700",
-"first": "2026-11-17T07:00:29+00:00",
-"last": "2026-11-17T07:38:40+00:00",
-"updated": "2026-11-17T07:41:47.050917+00:00",
-"headline": "제주 남쪽먼바다에 풍랑주의보…제주시중산간에 호우주의보 유지",
-"cat": "재난",
-"regions": [
-"제주"
-],
-"sources": [
-"연합뉴스"
-],
-"updates": [
-{
-"title": "제주 남쪽먼바다에 풍랑주의보…제주시중산간에 호우주의보 유지",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261117134700527",
-"time": "2026-11-17T07:00:29+00:00",
-"stage": "1보"
-},
-{
-"title": "제주 서귀포시 동부에 호우주의보",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261117144000527",
-"time": "2026-11-17T07:38:40+00:00",
-"stage": "후속"
-}
-],
-"level": "ALERT",
-"latest": "제주 서귀포시 동부에 호우주의보",
-"tok": [
-"남쪽먼바다",
-"동부",
-"서귀포시",
-"유지",
-"제주",
-"제주시중산간",
-"풍랑주의보",
-"호우주의보"
-]
 }
 ],
 "sns": {
@@ -3996,7 +3996,7 @@
 },
 "붕괴": {
 "n30": 3,
-"base": 0.7,
+"base": 0.6,
 "spike": false
 },
 "대피": {
@@ -4016,17 +4016,17 @@
 },
 "지하철": {
 "n30": 3,
-"base": 0.9,
+"base": 0.8,
 "spike": false
 },
 "사고": {
 "n30": 2,
-"base": 3.4,
+"base": 3.3,
 "spike": false
 },
 "실종": {
 "n30": 1,
-"base": 0.7,
+"base": 0.8,
 "spike": false
 },
 "단수": {
@@ -4093,7 +4093,7 @@
 "name": "시아란 🌌 Private",
 "time": "2026-11-17T11:27:02.043Z",
 "likes": 4,
-"reposts": 2,
+"reposts": 3,
 "url": "https://bsky.app/profile/siaranics.siaran.kr/post/3n2iwq6kunk2t",
 "term": "지진"
 },
@@ -4326,29 +4326,29 @@
 "n30": 6,
 "base": 1.9,
 "spike": true,
-"since": "2026-11-17T11:36:20.393910+00:00"
+"since": "2026-11-17T11:38:32.792364+00:00"
 },
 {
 "term": "속보",
 "n30": 10,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-17T11:36:20.393910+00:00"
+"since": "2026-11-17T11:38:32.792364+00:00"
 }
 ],
 "baseline": {
-"지진": 1.34,
+"지진": 1.41,
 "화재": 0.05,
 "불났": 0.05,
-"정전": 0.74,
-"폭발": 1.89,
-"붕괴": 0.63,
+"정전": 0.77,
+"폭발": 1.9,
+"붕괴": 0.57,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.83,
-"사고": 3.28,
-"실종": 0.77,
+"지하철": 0.75,
+"사고": 3.15,
+"실종": 0.79,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
