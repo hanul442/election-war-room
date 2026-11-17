@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-17T09:16:11.913666+00:00",
+"updated": "2026-11-17T09:18:25.105585+00:00",
 "errors": [],
 "events": [
 {
@@ -3878,12 +3878,12 @@
 "spike": false
 },
 "폭발": {
-"n30": 2,
+"n30": 3,
 "base": 1.0,
 "spike": false
 },
 "붕괴": {
-"n30": 4,
+"n30": 2,
 "base": 0.1,
 "spike": false
 },
@@ -3903,13 +3903,13 @@
 "spike": false
 },
 "지하철": {
-"n30": 1,
+"n30": 0,
 "base": 0.4,
 "spike": false
 },
 "사고": {
-"n30": 4,
-"base": 6.2,
+"n30": 3,
+"base": 6.0,
 "spike": false
 },
 "실종": {
@@ -3939,6 +3939,16 @@
 }
 },
 "posts": [
+{
+"text": "전에쓰던 타블렛도 이렇게 참을인 새기며 참다가 결국 폭발해서 반으로 찢고 새로 삼",
+"handle": "password1220.bsky.social",
+"name": "𓆨",
+"time": "2026-11-17T09:17:21.443Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/password1220.bsky.social/post/3n2ipicr6ps25",
+"term": "폭발"
+},
 {
 "text": "아니 내가 개바쁠땐 재솔얘가 그렇개 많더니\n다시 인터넷죽돌이가 되니까 왜 재솔얘가 실종된거임\n혹시 원인이 나?",
 "handle": "givememorejs.bsky.social",
@@ -4021,7 +4031,7 @@
 "handle": "sunshiney.bsky.social",
 "name": "𝙎𝙪𝙣",
 "time": "2026-11-17T08:50:20.645Z",
-"likes": 1,
+"likes": 2,
 "reposts": 0,
 "url": "https://bsky.app/profile/sunshiney.bsky.social/post/3n2inxz4tbk2y",
 "term": "속보"
@@ -4052,16 +4062,6 @@
 "time": "2026-11-17T08:47:22Z",
 "term": "붕괴",
 "url": "https://www.youtube.com/watch?v=3oLRG_FgF0s"
-},
-{
-"text": "담아먹기부터 해보시면 어떨지요?\n당장 음식 만들어 먹는 거 매우 쉽지 않을 것이고 유튜브, 인스타에서 초등학생도 한다, 5분이면 완성된다 어쩌구 레시피도 지속 못하고 포기할 가능성도 무시 못합니다. (당사자성 있음)\n\n다이소 가서 마음에 드는 그릇과 컵, 식기를 한 2억 원 어치 사고 편의점 떡볶이, 컵라면, 배달 디저트 사시면 그 용기에 그대로 드시지 말고 그릇에 담아서 드셔 보세요. 저는",
-"handle": "eleanorshin.bsky.social",
-"name": "조셉",
-"time": "2026-11-17T08:47:09.141Z",
-"likes": 4,
-"reposts": 4,
-"url": "https://bsky.app/profile/eleanorshin.bsky.social/post/3n2ins276ic2z",
-"term": "사고"
 },
 {
 "platform": "YouTube",
@@ -4156,21 +4156,21 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 0.11,
+"지진": 0.1,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 1.0,
+"폭발": 1.1,
 "붕괴": 0.05,
 "대피": 0.05,
-"미사일": 0.2,
-"속보": 0.8,
-"지하철": 0.37,
-"사고": 6.03,
-"실종": 0.51,
+"미사일": 0.18,
+"속보": 0.82,
+"지하철": 0.33,
+"사고": 5.73,
+"실종": 0.56,
 "단수": 0.05,
 "통신 장애": 0.05,
-"먹통": 0.21,
+"먹통": 0.19,
 "산불": 0.05
 },
 "errors": [],
