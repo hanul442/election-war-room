@@ -1,17 +1,18 @@
 {
-"updated": "2026-11-17T17:06:33.941671+00:00",
+"updated": "2026-11-17T17:08:51.811451+00:00",
 "errors": [],
 "events": [
 {
 "id": "25xR1YydWthc0FLNFBiUQoc51601",
 "first": "2026-11-17T16:01:58+00:00",
-"last": "2026-11-17T16:40:00+00:00",
-"updated": "2026-11-17T16:54:49.070532+00:00",
+"last": "2026-11-17T17:07:59+00:00",
+"updated": "2026-11-17T17:08:51.811451+00:00",
 "headline": "젠슨 황 전 엔비디아 CEO, 복귀 의사 시사",
 "cat": "기타",
 "regions": [],
 "sources": [
 "JTBC",
+"뉴시스",
 "연합뉴스",
 "조선일보",
 "중앙이코노미뉴스",
@@ -74,10 +75,17 @@
 "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5mdGY1My1qSVc2X3NnckVrM3FnanpURGxiekhhNUxrcW1ILWRQWHZOMGpCVFBDU3hOV05LekZCa0VMWk40ZUxQWnJ1WFVFT2ZqVWVkSVpOWDIyUmtPV0FlWXZkNlVwN25fcXc?oc=5",
 "time": "2026-11-17T16:40:00+00:00",
 "stage": "후속"
+},
+{
+"title": "젠슨 황 “이사회가 요청하면 CEO 복귀 의향”",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261118_0003872313",
+"time": "2026-11-17T17:07:59+00:00",
+"stage": "후속"
 }
 ],
 "level": "URGENT",
-"latest": "젠슨 황 \"이사회가 원하면 CEO 복귀\"…사임 닷새 만 첫 공개발언",
+"latest": "젠슨 황 “이사회가 요청하면 CEO 복귀 의향”",
 "tok": [
 "CEO",
 "공개",
@@ -96,6 +104,7 @@
 "요청하면",
 "원하면",
 "의사",
+"의향",
 "이사회",
 "입장",
 "있다",
@@ -4932,7 +4941,7 @@
 "terms": {
 "지진": {
 "n30": 0,
-"base": 0.9,
+"base": 0.8,
 "spike": false
 },
 "화재": {
@@ -4951,12 +4960,12 @@
 "spike": false
 },
 "폭발": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
 "붕괴": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -4982,7 +4991,7 @@
 },
 "사고": {
 "n30": 2,
-"base": 2.9,
+"base": 2.8,
 "spike": false
 },
 "실종": {
@@ -5047,7 +5056,7 @@
 "handle": "mung-log.bsky.social",
 "name": "뭉ෆ",
 "time": "2026-11-17T16:44:24.245Z",
-"likes": 4,
+"likes": 5,
 "reposts": 0,
 "url": "https://bsky.app/profile/mung-log.bsky.social/post/3n2jihold5c2k",
 "term": "사고"
@@ -5271,17 +5280,17 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 0.81,
-"화재": 0.92,
+"지진": 0.73,
+"화재": 0.93,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.06,
-"붕괴": 0.09,
-"대피": 0.34,
+"폭발": 0.05,
+"붕괴": 0.08,
+"대피": 0.41,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.09,
-"사고": 2.84,
+"지하철": 0.08,
+"사고": 2.76,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
