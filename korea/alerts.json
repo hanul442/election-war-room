@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-17T04:28:30.969729+00:00",
+"updated": "2026-11-17T04:30:47.312240+00:00",
 "errors": [],
 "events": [
 {
@@ -4209,13 +4209,13 @@
 "sns": {
 "terms": {
 "지진": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
 "화재": {
 "n30": 1,
-"base": 0.8,
+"base": 0.7,
 "spike": false
 },
 "불났": {
@@ -4229,12 +4229,12 @@
 "spike": false
 },
 "폭발": {
-"n30": 4,
+"n30": 2,
 "base": 0.1,
 "spike": false
 },
 "붕괴": {
-"n30": 3,
+"n30": 2,
 "base": 0.1,
 "spike": false
 },
@@ -4244,17 +4244,17 @@
 "spike": false
 },
 "미사일": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
 "속보": {
-"n30": 6,
+"n30": 4,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "지하철": {
-"n30": 4,
+"n30": 1,
 "base": 0.9,
 "spike": false
 },
@@ -4305,7 +4305,7 @@
 "handle": "ddoo1243.bsky.social",
 "name": "BBW션🐶",
 "time": "2026-11-17T04:15:04.747Z",
-"likes": 9,
+"likes": 10,
 "reposts": 0,
 "url": "https://bsky.app/profile/ddoo1243.bsky.social/post/3n2i6lshmks2l",
 "term": "사고"
@@ -4502,18 +4502,10 @@
 "url": "https://www.youtube.com/watch?v=LpAVpU8s86o"
 }
 ],
-"spikes": [
-{
-"term": "속보",
-"n30": 6,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-17T04:28:30.969729+00:00"
-}
-],
+"spikes": [],
 "baseline": {
 "지진": 0.05,
-"화재": 0.69,
+"화재": 0.62,
 "불났": 0.05,
 "정전": 0.05,
 "폭발": 0.05,
@@ -4522,7 +4514,7 @@
 "미사일": 0.05,
 "속보": 0.05,
 "지하철": 0.95,
-"사고": 3.57,
+"사고": 3.51,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
