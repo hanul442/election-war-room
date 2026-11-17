@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-17T23:01:05.640573+00:00",
+"updated": "2026-11-17T23:03:16.770449+00:00",
 "errors": [],
 "events": [
 {
@@ -122,6 +122,41 @@
 "해수부",
 "행안장관",
 "황종우"
+]
+},
+{
+"id": "1ydXhwUllHZWFtanRKSUEoc52254",
+"first": "2026-11-17T22:54:59+00:00",
+"last": "2026-11-17T22:54:59+00:00",
+"updated": "2026-11-17T23:03:16.770449+00:00",
+"headline": "추미애 “김민석 ‘신천지 3자 비밀연합’ 주장, 사과로 끝낼 문제 아냐”",
+"cat": "기타",
+"regions": [],
+"sources": [
+"경기일보"
+],
+"updates": [
+{
+"title": "[속보] 추미애 “김민석 ‘신천지 3자 비밀연합’ 주장, 사과로 끝낼 문제 아냐”",
+"source": "경기일보",
+"link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE8wWm4wclFmRjVOYWM1OEhWNU5mTlpsRk5EaGhNUk1RN0hhcjNmSllpYnFUQlR0ZEQyM1dwcjhJQWIzMkZ1QkJiZTMwS01ydXhwUllHZWFtanRKSUE?oc=5",
+"time": "2026-11-17T22:54:59+00:00",
+"stage": "얼럿"
+}
+],
+"level": "URGENT",
+"latest": "추미애 “김민석 ‘신천지 3자 비밀연합’ 주장, 사과로 끝낼 문제 아냐”",
+"tok": [
+"3자",
+"김민석",
+"끝낼",
+"문제",
+"비밀연합",
+"사과",
+"신천지",
+"아냐",
+"주장",
+"추미애"
 ]
 },
 {
@@ -3864,9 +3899,9 @@
 "spike": false
 },
 "붕괴": {
-"n30": 6,
+"n30": 4,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "대피": {
 "n30": 0,
@@ -3895,7 +3930,7 @@
 },
 "실종": {
 "n30": 1,
-"base": 0.3,
+"base": 0.4,
 "spike": false
 },
 "단수": {
@@ -4131,23 +4166,16 @@
 ],
 "spikes": [
 {
-"term": "붕괴",
-"n30": 6,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-17T23:01:05.640573+00:00"
-},
-{
 "term": "속보",
 "n30": 5,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-17T23:01:05.640573+00:00"
+"since": "2026-11-17T23:03:16.770449+00:00"
 }
 ],
 "baseline": {
 "지진": 0.05,
-"화재": 0.18,
+"화재": 0.16,
 "불났": 0.05,
 "정전": 0.05,
 "폭발": 0.05,
@@ -4156,8 +4184,8 @@
 "미사일": 0.05,
 "속보": 0.05,
 "지하철": 0.05,
-"사고": 0.1,
-"실종": 0.39,
+"사고": 0.09,
+"실종": 0.45,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -4368,6 +4396,42 @@
 },
 "trends": [
 {
+"term": "nvda",
+"traffic": "200+",
+"time": "2026-11-17T22:00:00+00:00",
+"news": [
+{
+"title": "Nvidia interim CEO Kress says it’s ‘business as usual’ at company: Live updates",
+"source": "CNBC",
+"link": "https://www.cnbc.com/2026/11/17/nvidia-nvda-earnings-report-q3-2027.html"
+},
+{
+"title": "Nvidia earnings live: Nvidia posts Q3 beat, board says it will not reinstate Jensen Huang as CEO",
+"source": "Yahoo Finance",
+"link": "https://finance.yahoo.com/technology/live/nvidia-earnings-live-nvidia-posts-q3-beat-board-says-it-will-not-reinstate-jensen-huang-as-ceo-221428433.html"
+}
+],
+"new": true
+},
+{
+"term": "openjdk",
+"traffic": "200+",
+"time": "2026-11-17T22:00:00+00:00",
+"news": [
+{
+"title": "A.I. Helps Find Major Security Bug in Java, a Software Platform Vital to the Internet",
+"source": "The New York Times",
+"link": "https://www.nytimes.com/2026/11/17/us/politics/ai-security-bug-java.html"
+},
+{
+"title": "Oracle to Patch 11 Java Flaws Today as Critical OpenJDK RCE (CVE-2026-114938) Report Emerges",
+"source": "The Hacker News",
+"link": "https://thehackernews.com/2026/11/oracle-to-patch-11-java-flaws-today-as.html"
+}
+],
+"new": true
+},
+{
 "term": "이민정",
 "traffic": "2000+",
 "time": "2026-11-17T21:50:00+00:00",
@@ -4458,24 +4522,6 @@
 "new": true
 },
 {
-"term": "nvda stock",
-"traffic": "100+",
-"time": "2026-11-17T21:40:00+00:00",
-"news": [
-{
-"title": "Nvidia interim CEO Kress says it’s ‘business as usual’ at company: Live updates",
-"source": "CNBC",
-"link": "https://www.cnbc.com/2026/11/17/nvidia-nvda-earnings-report-q3-2027.html"
-},
-{
-"title": "Nvidia earnings live: Nvidia posts Q3 beat, board says it will not reinstate Jensen Huang as CEO",
-"source": "Yahoo Finance",
-"link": "https://finance.yahoo.com/technology/live/nvidia-earnings-live-nvidia-posts-q3-beat-board-says-it-will-not-reinstate-jensen-huang-as-ceo-221428433.html"
-}
-],
-"new": true
-},
-{
 "term": "변상일",
 "traffic": "100+",
 "time": "2026-11-17T21:40:00+00:00",
@@ -4525,24 +4571,6 @@
 "title": "고경표처럼 청소차 '쾅'...호란, 세 번째 음주운전 사고 '재조명' - 머니투데이",
 "source": "머니투데이",
 "link": "https://www.mt.co.kr/entertainment/2026/11/17/2026111707460827049"
-}
-],
-"new": true
-},
-{
-"term": "nations league",
-"traffic": "200+",
-"time": "2026-11-17T21:20:00+00:00",
-"news": [
-{
-"title": "Preview: Poland vs Sweden - prediction, team news, lineups",
-"source": "Sports Mole",
-"link": "https://www.sportsmole.co.uk/football/poland/uefa-nations-league/preview/poland-vs-sweden-prediction-team-news-lineups_609183.html"
-},
-{
-"title": "Licensable picture: Football. UEFA Nations League. Poland - Sweden. 17.11.2026",
-"source": "Reuters Connect",
-"link": "https://www.reutersconnect.com/item/football-uefa-nations-league-poland-sweden-17112026/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX01UMVNJUEEwMDBZVEJEOEU"
 }
 ],
 "new": true
