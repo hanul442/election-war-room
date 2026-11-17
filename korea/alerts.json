@@ -1,16 +1,17 @@
 {
-"updated": "2026-11-17T02:32:46.632900+00:00",
+"updated": "2026-11-17T02:35:02.381341+00:00",
 "errors": [],
 "events": [
 {
 "id": "wNISX20261117_00038712780218",
 "first": "2026-11-17T02:18:30+00:00",
-"last": "2026-11-17T02:24:56+00:00",
-"updated": "2026-11-17T02:30:31.576812+00:00",
+"last": "2026-11-17T02:26:04+00:00",
+"updated": "2026-11-17T02:35:02.381341+00:00",
 "headline": "공소청, '스마트기기 부정행위 사범' 엄정 지시",
 "cat": "기타",
 "regions": [],
 "sources": [
+"뉴스1",
 "뉴시스",
 "연합뉴스",
 "연합뉴스 한민족센터",
@@ -59,10 +60,17 @@
 "link": "https://www.yna.co.kr/view/AKR20261117080251004",
 "time": "2026-11-17T02:24:56+00:00",
 "stage": "후속"
+},
+{
+"title": "[속보] 공소청, 스마트기기 이용 시험 부정행위 엄정 대응…영장 적극 청구",
+"source": "뉴스1",
+"link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE00TUk5REtCT0YwdGFkUGdqV1hjYWxtbXplQlV3eTdsYUtQSm03UUtrTGU1TTNyTVhSNW0xMU9sZjhOYjlPZUEyd0RJdlN5SUNHcHUzTHpaZlBuT0t6WlZ2NVo1VEs?oc=5",
+"time": "2026-11-17T02:26:04+00:00",
+"stage": "속보"
 }
 ],
 "level": "URGENT",
-"latest": "공소청 \"스마트기기 이용 부정행위, 정식재판 회부 원칙\"",
+"latest": "공소청, 스마트기기 이용 시험 부정행위 엄정 대응…영장 적극 청구",
 "tok": [
 "공소청",
 "대응",
@@ -72,10 +80,13 @@
 "스마트기기",
 "시험",
 "엄정",
+"영장",
 "원칙",
 "이용",
+"적극",
 "정식재판",
 "지시",
+"청구",
 "회부"
 ]
 },
@@ -4213,7 +4224,7 @@
 "terms": {
 "지진": {
 "n30": 0,
-"base": 1.1,
+"base": 1.0,
 "spike": false
 },
 "화재": {
@@ -4233,11 +4244,11 @@
 },
 "폭발": {
 "n30": 1,
-"base": 2.2,
+"base": 2.1,
 "spike": false
 },
 "붕괴": {
-"n30": 2,
+"n30": 1,
 "base": 1.1,
 "spike": false
 },
@@ -4252,19 +4263,19 @@
 "spike": false
 },
 "속보": {
-"n30": 2,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
 "지하철": {
 "n30": 0,
-"base": 1.5,
+"base": 1.4,
 "spike": false
 },
 "사고": {
 "n30": 5,
-"base": 1.6,
-"spike": true
+"base": 1.9,
+"spike": false
 },
 "실종": {
 "n30": 0,
@@ -4308,8 +4319,8 @@
 "handle": "wongoji.bsky.social",
 "name": "原巖 원고지",
 "time": "2026-11-17T02:30:12.142Z",
-"likes": 2,
-"reposts": 1,
+"likes": 3,
+"reposts": 2,
 "url": "https://bsky.app/profile/wongoji.bsky.social/post/3n2hyqalkot26",
 "term": "사고"
 },
@@ -4525,27 +4536,19 @@
 "url": "https://www.youtube.com/watch?v=Z0IlS5iJbd8"
 }
 ],
-"spikes": [
-{
-"term": "사고",
-"n30": 5,
-"base": 1.6,
-"spike": true,
-"since": "2026-11-17T02:32:46.632900+00:00"
-}
-],
+"spikes": [],
 "baseline": {
-"지진": 0.98,
+"지진": 0.88,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 2.1,
-"붕괴": 1.13,
+"폭발": 1.99,
+"붕괴": 1.12,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.11,
-"지하철": 1.39,
-"사고": 1.92,
+"속보": 0.1,
+"지하철": 1.25,
+"사고": 2.23,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -4730,6 +4733,60 @@
 },
 "trends": [
 {
+"term": "미스터트롯4",
+"traffic": "1000+",
+"time": "2026-11-17T01:30:00+00:00",
+"news": [
+{
+"title": "‘미스터트롯4′ 12월 17일 첫 방송...김중연, 양지원, 박지후, 남궁진 등 티저로 베일 벗어",
+"source": "조선일보",
+"link": "https://www.chosun.com/culture-life/culture_general/2026/11/17/GUGJEOEOZBCWTLDHBJGLBBRFAI/"
+},
+{
+"title": "‘미스터트롯4’, 현역 vs 비현역 제대로 붙는다…12월 17일 첫 방송",
+"source": "스포츠동아",
+"link": "https://sports.donga.com/ent/article/all/20261117/135036727/1"
+}
+],
+"new": true
+},
+{
+"term": "풍자",
+"traffic": "200+",
+"time": "2026-11-17T01:30:00+00:00",
+"news": [
+{
+"title": "풍자 맞아? 37kg 감량 효과 미쳤다…비주얼 난리 [DA★]",
+"source": "스포츠동아",
+"link": "https://sports.donga.com/ent/article/all/20261116/135035720/1"
+},
+{
+"title": "\"소리지르고 삼단봉으로 때리려고 해\" 신기루, 中 입국하다 공안에 붙잡혀",
+"source": "조선일보",
+"link": "https://www.chosun.com/entertainments/broadcast/2026/11/17/GZTDGODDMIYDGZDGGBQTKMZXGI/"
+}
+],
+"new": true
+},
+{
+"term": "서울고등법원",
+"traffic": "200+",
+"time": "2026-11-17T01:30:00+00:00",
+"news": [
+{
+"title": "'면허정지 수준' 음주운전 서울고법 판사에 감봉 1개월 징계",
+"source": "MBC 뉴스",
+"link": "https://imnews.imbc.com/news/2026/society/article/6866211_36918.html"
+},
+{
+"title": "현직 판사가 500m 음주운전…대법원, 감봉 1개월 징계",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261117_0003870687"
+}
+],
+"new": true
+},
+{
 "term": "유학생",
 "traffic": "200+",
 "time": "2026-11-17T01:20:00+00:00",
@@ -4740,9 +4797,9 @@
 "link": "https://www.hani.co.kr/arti/international/america/1287644.html"
 },
 {
-"title": "美법원, 트럼프 '유학생 4년·외신기자 240일 체류 제한' 무효화",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261117058500072"
+"title": "美법원, 트럼프 ’유학생·외신기자 체류 제한’ 제동",
+"source": "연합뉴스TV",
+"link": "https://www.yonhapnewstv.co.kr/news/AKR20261117105354gjh"
 }
 ],
 "new": true
@@ -4854,64 +4911,9 @@
 }
 ],
 "new": true
-},
-{
-"term": "김주애",
-"traffic": "5000+",
-"time": "2026-11-17T00:20:00+00:00",
-"news": [
-{
-"title": "김정은, 백두산 인근 관광지구 시찰…스키 실력 뽐낸 주애(종합)",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261117012451504"
-},
-{
-"title": "김정은, 딸 김주애와 백두산 인근 삼지연 시찰… ‘단독 스키’ 사진 공개",
-"source": "조선일보",
-"link": "https://www.chosun.com/politics/north_korea/2026/11/17/MS4KOUDL2ZCS3EY5AG4PLNZR3Q/"
-}
-],
-"new": true
-},
-{
-"term": "롤 스토브",
-"traffic": "200+",
-"time": "2026-11-17T00:10:00+00:00",
-"news": [
-{
-"title": "LCK 스토브리그 일정은?⋯코치 영입 15일ㆍ선수 FA 17일",
-"source": "이투데이",
-"link": "https://www.etoday.co.kr/news/view/2647803"
-},
-{
-"title": "'BLG 우승' 롤드컵 막 내렸다… 폭풍전야 LCK 스토브리그, 탑과 정글로 쏠리는 눈",
-"source": "https://www.standingout.kr/",
-"link": "https://www.standingout.kr/news/articleView.html?idxno=1907"
-}
-],
-"new": true
-},
-{
-"term": "김포시",
-"traffic": "100+",
-"time": "2026-11-17T00:10:00+00:00",
-"news": [
-{
-"title": "김포시, 공직자 대상 기본사회 이해 교육으로 정책 공감대 넓혀",
-"source": "일간투데이",
-"link": "https://www.dtoday.co.kr/news/articleView.html?idxno=804152"
-},
-{
-"title": "거창군, 문화공연‧정책특강 함께한 11월 정례조회 개최",
-"source": "불탑뉴스",
-"link": "https://www.bultopnews.com/news/article.html?no=20032"
-}
-],
-"new": true
 }
 ],
 "trendSeen": [
-"주우재",
 "주진모",
 "주차장",
 "주한 미군 사령관",
@@ -5099,6 +5101,7 @@
 "표고",
 "표절",
 "풀럼 대 뉴캐슬",
+"풍자",
 "프리미어리그 순위",
 "프리지아",
 "피의자신문",
