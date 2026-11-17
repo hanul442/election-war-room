@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-17T10:14:24.361223+00:00",
+"updated": "2026-11-17T10:16:37.187684+00:00",
 "errors": [],
 "events": [
 {
@@ -3915,13 +3915,13 @@
 "spike": false
 },
 "폭발": {
-"n30": 1,
-"base": 1.3,
+"n30": 0,
+"base": 1.2,
 "spike": false
 },
 "붕괴": {
 "n30": 2,
-"base": 0.1,
+"base": 0.3,
 "spike": false
 },
 "대피": {
@@ -3940,18 +3940,18 @@
 "spike": false
 },
 "지하철": {
-"n30": 6,
-"base": 1.7,
-"spike": true
+"n30": 4,
+"base": 1.9,
+"spike": false
 },
 "사고": {
 "n30": 3,
-"base": 6.4,
+"base": 6.0,
 "spike": false
 },
 "실종": {
 "n30": 0,
-"base": 0.7,
+"base": 0.6,
 "spike": false
 },
 "단수": {
@@ -3981,7 +3981,7 @@
 "handle": "jsbz.bsky.social",
 "name": "정신병자",
 "time": "2026-11-17T10:14:06.645Z",
-"likes": 0,
+"likes": 1,
 "reposts": 0,
 "url": "https://bsky.app/profile/jsbz.bsky.social/post/3n2isnsf2722f",
 "term": "지하철"
@@ -4074,16 +4074,6 @@
 "time": "2026-11-17T09:46:22Z",
 "term": "지하철",
 "url": "https://www.youtube.com/watch?v=-kj76tQORCY"
-},
-{
-"text": "웨이팅 걸리는 대박집이라니 이 동네 프차들은 얼마나 전투력이 폭발하는건가에 대해",
-"handle": "enwmua.bsky.social",
-"name": "무아",
-"time": "2026-11-17T09:45:53.745Z",
-"likes": 2,
-"reposts": 0,
-"url": "https://bsky.app/profile/enwmua.bsky.social/post/3n2ir3azqbk26",
-"term": "폭발"
 },
 {
 "platform": "YouTube",
@@ -4221,28 +4211,20 @@
 "url": "https://www.youtube.com/watch?v=DWgx25mPnds"
 }
 ],
-"spikes": [
-{
-"term": "지하철",
-"n30": 6,
-"base": 1.7,
-"spike": true,
-"since": "2026-11-17T10:14:24.361223+00:00"
-}
-],
+"spikes": [],
 "baseline": {
-"지진": 0.27,
+"지진": 0.24,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 1.25,
-"붕괴": 0.34,
+"폭발": 1.12,
+"붕괴": 0.51,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.06,
-"지하철": 1.91,
-"사고": 6.05,
-"실종": 0.62,
+"속보": 0.05,
+"지하철": 2.12,
+"사고": 5.75,
+"실종": 0.56,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -4432,7 +4414,7 @@
 "link": "https://www.yonhapnewstv.co.kr/news/AKR20261117153919gK3"
 }
 ],
-"new": true
+"new": false
 },
 {
 "term": "파운드리",
