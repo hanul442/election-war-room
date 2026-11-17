@@ -1,50 +1,17 @@
 {
-"updated": "2026-11-17T16:52:22.236086+00:00",
+"updated": "2026-11-17T16:54:49.070532+00:00",
 "errors": [],
 "events": [
 {
-"id": "viewAKR202611180026000171635",
-"first": "2026-11-17T16:35:05+00:00",
-"last": "2026-11-17T16:35:05+00:00",
-"updated": "2026-11-17T16:40:47.110501+00:00",
-"headline": "원안위 \"상주 인근 규모 3.6 지진, 원자로 안전에 영향 없어\"",
-"cat": "재난",
-"regions": [],
-"sources": [
-"연합뉴스"
-],
-"updates": [
-{
-"title": "원안위 \"상주 인근 규모 3.6 지진, 원자로 안전에 영향 없어\"",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261118002600017",
-"time": "2026-11-17T16:35:05+00:00",
-"stage": "1보"
-}
-],
-"level": "ALERT",
-"latest": "원안위 \"상주 인근 규모 3.6 지진, 원자로 안전에 영향 없어\"",
-"tok": [
-"규모",
-"상주",
-"안전",
-"없어",
-"영향",
-"원안위",
-"원자",
-"인근",
-"지진"
-]
-},
-{
 "id": "25xR1YydWthc0FLNFBiUQoc51601",
 "first": "2026-11-17T16:01:58+00:00",
-"last": "2026-11-17T16:30:18+00:00",
-"updated": "2026-11-17T16:40:47.110501+00:00",
+"last": "2026-11-17T16:40:00+00:00",
+"updated": "2026-11-17T16:54:49.070532+00:00",
 "headline": "젠슨 황 전 엔비디아 CEO, 복귀 의사 시사",
 "cat": "기타",
 "regions": [],
 "sources": [
+"JTBC",
 "연합뉴스",
 "조선일보",
 "중앙이코노미뉴스",
@@ -100,13 +67,21 @@
 "link": "https://www.chosun.com/international/international_general/2026/11/18/ME2GMYTFMNRDENJYMYZTMYTEMM/",
 "time": "2026-11-17T16:30:18+00:00",
 "stage": "후속"
+},
+{
+"title": "젠슨 황 \"이사회가 원하면 CEO 복귀\"…사임 닷새 만 첫 공개발언",
+"source": "JTBC",
+"link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5mdGY1My1qSVc2X3NnckVrM3FnanpURGxiekhhNUxrcW1ILWRQWHZOMGpCVFBDU3hOV05LekZCa0VMWk40ZUxQWnJ1WFVFT2ZqVWVkSVpOWDIyUmtPV0FlWXZkNlVwN25fcXc?oc=5",
+"time": "2026-11-17T16:40:00+00:00",
+"stage": "후속"
 }
 ],
 "level": "URGENT",
-"latest": "젠슨 황 “이사회 원하면 엔비디아 CEO 복귀 의사 있다”",
+"latest": "젠슨 황 \"이사회가 원하면 CEO 복귀\"…사임 닷새 만 첫 공개발언",
 "tok": [
 "CEO",
 "공개",
+"공개발언",
 "닷새",
 "돌아갈",
 "만에",
@@ -125,6 +100,40 @@
 "입장",
 "있다",
 "젠슨"
+]
+},
+{
+"id": "viewAKR202611180026000171635",
+"first": "2026-11-17T16:35:05+00:00",
+"last": "2026-11-17T16:35:05+00:00",
+"updated": "2026-11-17T16:40:47.110501+00:00",
+"headline": "원안위 \"상주 인근 규모 3.6 지진, 원자로 안전에 영향 없어\"",
+"cat": "재난",
+"regions": [],
+"sources": [
+"연합뉴스"
+],
+"updates": [
+{
+"title": "원안위 \"상주 인근 규모 3.6 지진, 원자로 안전에 영향 없어\"",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261118002600017",
+"time": "2026-11-17T16:35:05+00:00",
+"stage": "1보"
+}
+],
+"level": "ALERT",
+"latest": "원안위 \"상주 인근 규모 3.6 지진, 원자로 안전에 영향 없어\"",
+"tok": [
+"규모",
+"상주",
+"안전",
+"없어",
+"영향",
+"원안위",
+"원자",
+"인근",
+"지진"
 ]
 },
 {
@@ -4928,7 +4937,7 @@
 },
 "화재": {
 "n30": 1,
-"base": 0.8,
+"base": 0.9,
 "spike": false
 },
 "불났": {
@@ -4942,13 +4951,13 @@
 "spike": false
 },
 "폭발": {
-"n30": 3,
+"n30": 2,
 "base": 0.1,
 "spike": false
 },
 "붕괴": {
-"n30": 2,
-"base": 0.2,
+"n30": 1,
+"base": 0.1,
 "spike": false
 },
 "대피": {
@@ -4962,17 +4971,17 @@
 "spike": false
 },
 "속보": {
-"n30": 4,
+"n30": 3,
 "base": 0.1,
 "spike": false
 },
 "지하철": {
-"n30": 1,
-"base": 0.2,
+"n30": 0,
+"base": 0.1,
 "spike": false
 },
 "사고": {
-"n30": 3,
+"n30": 4,
 "base": 2.6,
 "spike": false
 },
@@ -5003,6 +5012,16 @@
 }
 },
 "posts": [
+{
+"text": "에이티즈로 말할 것 같으면 애초에 애들이 예능에 좀 잘 맞는 기질인데 그동안 해외에서만 인기가 있고 국내 인기가 그 급이 아니어서 중용되지 않았던 감이 있다 냉부에서 보여준 것도 보면 '메이쟈 예능에 나온 내가 뭔가 보여주겠어' 라는 각오가 아니라 그냥 평소 노는 흐름이 그대로 나옴 솔직히 나는 술마시고 취한 사람들 보는 게 되게 싫은데 이 방송에서만큼은 알딸딸한 최산이 방송을 하는 것이 재",
+"handle": "greenmonster.bsky.social",
+"name": "잠만보",
+"time": "2026-11-17T16:53:14.550Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/greenmonster.bsky.social/post/3n2jixiuxc22i",
+"term": "사고"
+},
 {
 "text": "친한 친구가 더욱 잘 살기 위해 맘 먹은 며칠 뒤\n먼저 별이 되어버린 일이 있어\n더더욱 회의감이 들었던 것 같은데,\n\n결국은 그 사고에 우울감만 지니는건\n최선을 다해 열심히 살았던 친구에게 못보일 꼴이라 생각하고 악착같이 보내고 있습니다!",
 "handle": "mung-log.bsky.social",
@@ -5272,17 +5291,17 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 0.85,
-"화재": 0.86,
+"지진": 0.86,
+"화재": 0.87,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.12,
-"붕괴": 0.15,
-"대피": 0.13,
+"폭발": 0.11,
+"붕괴": 0.14,
+"대피": 0.12,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.15,
-"사고": 2.65,
+"지하철": 0.14,
+"사고": 2.78,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -5530,24 +5549,6 @@
 "new": true
 },
 {
-"term": "최준",
-"traffic": "100+",
-"time": "2026-11-17T15:30:00+00:00",
-"news": [
-{
-"title": "'찾았다, 韓 축구 에이스 찰떡 파트너' 이강인 뒤에서 빛난 최준, 대표팀 승선 이유 직접 증명...측면에 불어넣은 활력",
-"source": "스포츠조선",
-"link": "https://www.sportschosun.com/football/2026-11-18/202611180100113920010494"
-},
-{
-"title": "[카타르전] 이강인 활용법 찾은 걸까… 오른쪽 풀백으로 나선 최준, 연령별 대표팀 시절을 떠올리게 한 찰떡 호흡 과시",
-"source": "베스트일레븐",
-"link": "https://www.besteleven.com/news/articleView.html?idxno=314113"
-}
-],
-"new": false
-},
-{
 "term": "mbk파트너스",
 "traffic": "100+",
 "time": "2026-11-17T15:30:00+00:00",
@@ -5639,7 +5640,7 @@
 },
 {
 "term": "일본 파라과이",
-"traffic": "500+",
+"traffic": "1000+",
 "time": "2026-11-17T13:40:00+00:00",
 "news": [
 {
@@ -5687,6 +5688,24 @@
 "title": "[단독] LGU+, 기술 조직 ‘고강도 쇄신’…AI·데이터 임원 교체",
 "source": "아시아투데이",
 "link": "https://www.asiatoday.co.kr/kn/view.php?key=20261117010006562"
+}
+],
+"new": true
+},
+{
+"term": "npl",
+"traffic": "200+",
+"time": "2026-11-17T13:10:00+00:00",
+"news": [
+{
+"title": "Lumbini Lions vs Sudurpaschim Royals Preview & Prediction | 2026 Nepal Premier League | Qualifier 1",
+"source": "The Stats Zone",
+"link": "https://www.thestatszone.com/lumbini-lions-vs-sudurpaschim-royals-preview-prediction-2026-nepal-premier-league-qualifier-1-239426"
+},
+{
+"title": "Live Cricket Score, Schedule, Latest News, Stats & Videos",
+"source": "Cricbuzz",
+"link": "https://m.cricbuzz.com/player-match-performance/match/177813/player/12140/batting?inningsId=2"
 }
 ],
 "new": true
