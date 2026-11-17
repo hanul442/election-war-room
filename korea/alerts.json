@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-17T09:43:07.069856+00:00",
+"updated": "2026-11-17T09:45:22.553495+00:00",
 "errors": [],
 "events": [
 {
@@ -3900,12 +3900,12 @@
 "spike": false
 },
 "폭발": {
-"n30": 3,
+"n30": 2,
 "base": 1.7,
 "spike": false
 },
 "붕괴": {
-"n30": 3,
+"n30": 2,
 "base": 0.1,
 "spike": false
 },
@@ -3920,23 +3920,23 @@
 "spike": false
 },
 "속보": {
-"n30": 2,
+"n30": 0,
 "base": 0.3,
 "spike": false
 },
 "지하철": {
-"n30": 3,
+"n30": 2,
 "base": 0.1,
 "spike": false
 },
 "사고": {
 "n30": 8,
-"base": 5.2,
+"base": 5.5,
 "spike": false
 },
 "실종": {
 "n30": 1,
-"base": 0.8,
+"base": 0.9,
 "spike": false
 },
 "단수": {
@@ -3962,11 +3962,21 @@
 },
 "posts": [
 {
+"text": "새 샐러맨더? 열을 이용하니까 주변의 공기를 식히면 지하철 에어컨으로 오인받을 수 잇지않을까요(?)",
+"handle": "coco-rings.bsky.social",
+"name": "난초",
+"time": "2026-11-17T09:43:43.644Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/coco-rings.bsky.social/post/3n2iqxhomj22t",
+"term": "지하철"
+},
+{
 "text": "봐봐\n\n데아 피크민 그렇게 좋아하면서\n\n피크민 블룸만 하고 이짜나\n\n(그리고 피크민 4사고 싶네요... 스위치 2 사야하는데 (은은))",
 "handle": "ideadiamandis.bsky.social",
 "name": "🍋 iΔea",
 "time": "2026-11-17T09:42:37.245Z",
-"likes": 0,
+"likes": 2,
 "reposts": 0,
 "url": "https://bsky.app/profile/ideadiamandis.bsky.social/post/3n2iqvilvus2r",
 "term": "사고"
@@ -4188,21 +4198,21 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 0.64,
+"지진": 0.68,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 1.71,
+"폭발": 1.74,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.26,
-"지하철": 0.11,
-"사고": 5.49,
-"실종": 0.86,
+"속보": 0.23,
+"지하철": 0.2,
+"사고": 5.74,
+"실종": 0.87,
 "단수": 0.05,
 "통신 장애": 0.05,
-"먹통": 0.06,
+"먹통": 0.05,
 "산불": 0.05
 },
 "errors": [],
@@ -4374,6 +4384,24 @@
 "new": true
 },
 {
+"term": "경제성장",
+"traffic": "100+",
+"time": "2026-11-17T08:30:00+00:00",
+"news": [
+{
+"title": "IMF, 올해 우리나라 성장률 3.9% 전망…내년엔 3.3%",
+"source": "대한민국 정책브리핑",
+"link": "https://www.korea.kr/news/policyNewsView.do?newsId=148975912&pWise=sub&pWiseSub=C1"
+},
+{
+"title": "IMF “한국 3분기 실적 기대 이상”…‘2%대 상회’ 고물가에 “추가 긴축을”",
+"source": "한겨레",
+"link": "https://www.hani.co.kr/arti/economy/economy_general/1287794.html"
+}
+],
+"new": true
+},
+{
 "term": "최지훈",
 "traffic": "200+",
 "time": "2026-11-17T08:20:00+00:00",
@@ -4410,24 +4438,6 @@
 "new": true
 },
 {
-"term": "005930",
-"traffic": "5000+",
-"time": "2026-11-17T07:50:00+00:00",
-"news": [
-{
-"title": "South Korea's Lee says Samsung chip packaging expansion to spur $30 billion additional investment",
-"source": "Reuters",
-"link": "https://www.reuters.com/world/asia-pacific/south-koreas-lee-says-samsung-chip-packaging-expansion-spur-30-billion-2026-11-12/"
-},
-{
-"title": "Samsung’s $34 Billion HBM Bet Raises Memory Glut Risks",
-"source": "24/7 Wall St.",
-"link": "https://247wallst.com/investing/2026/11/14/samsungs-34-billion-hbm-bet-raises-memory-glut-risks/"
-}
-],
-"new": true
-},
-{
 "term": "신영철",
 "traffic": "200+",
 "time": "2026-11-17T07:50:00+00:00",
@@ -4441,6 +4451,24 @@
 "title": "[공식 발표] OK저축은행 신영철 감독, 건강상의 이유로 사임…김재헌 수석코치가 감독대행 맡는다 - 머니투데이",
 "source": "머니투데이",
 "link": "https://www.mt.co.kr/sports/2026/11/17/202611171233770078O"
+}
+],
+"new": true
+},
+{
+"term": "005930",
+"traffic": "5000+",
+"time": "2026-11-17T07:50:00+00:00",
+"news": [
+{
+"title": "South Korea's Lee says Samsung chip packaging expansion to spur $30 billion additional investment",
+"source": "Reuters",
+"link": "https://www.reuters.com/world/asia-pacific/south-koreas-lee-says-samsung-chip-packaging-expansion-spur-30-billion-2026-11-12/"
+},
+{
+"title": "Samsung’s $34 Billion HBM Bet Raises Memory Glut Risks",
+"source": "24/7 Wall St.",
+"link": "https://247wallst.com/investing/2026/11/14/samsungs-34-billion-hbm-bet-raises-memory-glut-risks/"
 }
 ],
 "new": true
@@ -4513,24 +4541,6 @@
 "title": "‘APEC 맞이’ 시진핑, 캐나다 총리 만나 “다자무역체제 수호”",
 "source": "마켓인",
 "link": "https://marketin.edaily.co.kr/News/ReadE?newsId=04473926645646704"
-}
-],
-"new": true
-},
-{
-"term": "kt wiz",
-"traffic": "200+",
-"time": "2026-11-17T07:00:00+00:00",
-"news": [
-{
-"title": "KT Wiz to hold 2026 fan festival at Suwon with player events and band performances",
-"source": "Chosunbiz",
-"link": "https://biz.chosun.com/en/en-sports/2026/11/17/3RUXIEOIS5G3ZFXPZBWWFB7HNQ/"
-},
-{
-"title": "KT Wiz Hosts 2026 Fan Festival on 21st at Suwon KT Wiz Park",
-"source": "조선일보",
-"link": "https://www.chosun.com/english/sports-en/2026/11/17/LUEKKJE3FVD7LB7Y3SBYPPADLQ/"
 }
 ],
 "new": true
