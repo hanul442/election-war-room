@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-17T14:52:32.604957+00:00",
+"updated": "2026-11-17T14:54:45.921363+00:00",
 "errors": [],
 "events": [
 {
@@ -226,12 +226,13 @@
 {
 "id": "wNISX20261117_00038722491444",
 "first": "2026-11-17T14:44:39+00:00",
-"last": "2026-11-17T14:46:51+00:00",
-"updated": "2026-11-17T14:50:19.529870+00:00",
+"last": "2026-11-17T14:46:53+00:00",
+"updated": "2026-11-17T14:54:45.921363+00:00",
 "headline": "한국 1-0 카타르(전반 43분 오세훈)",
 "cat": "기타",
 "regions": [],
 "sources": [
+"CBC뉴스",
 "뉴시스"
 ],
 "updates": [
@@ -248,17 +249,28 @@
 "link": "https://www.newsis.com/view/NISX20261117_0003872250",
 "time": "2026-11-17T14:46:51+00:00",
 "stage": "속보"
+},
+{
+"title": "[속보] 한국 vs 카타르 축구, 전반전 1-0 종료…오세훈 헤더골",
+"source": "CBC뉴스",
+"link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBiYnZDcFZ4bHBjV29QUnA4ZV8zQXlILXIwN0pXZUpNd0JNLUN1V2lpQU1KRDVFWDFmQktuTHNTdDQwWjBhc1JXOTJyaVM4aXVhT0RXcW0yNmJtZFJhandrOXp1dm54eXUz?oc=5",
+"time": "2026-11-17T14:46:53+00:00",
+"stage": "속보"
 }
 ],
 "level": "URGENT",
-"latest": "한국 1-0 카타르(전반 종료)",
+"latest": "한국 vs 카타르 축구, 전반전 1-0 종료…오세훈 헤더골",
 "tok": [
 "43분",
+"vs",
 "오세훈",
 "전반",
+"전반전",
 "종료",
+"축구",
 "카타르",
-"한국"
+"한국",
+"헤더골"
 ]
 },
 {
@@ -4907,8 +4919,8 @@
 "sns": {
 "terms": {
 "지진": {
-"n30": 11,
-"base": 30.9,
+"n30": 8,
+"base": 28.7,
 "spike": false
 },
 "화재": {
@@ -4923,17 +4935,17 @@
 },
 "정전": {
 "n30": 0,
-"base": 0.3,
+"base": 0.2,
 "spike": false
 },
 "폭발": {
-"n30": 5,
-"base": 0.8,
-"spike": true
+"n30": 4,
+"base": 0.9,
+"spike": false
 },
 "붕괴": {
 "n30": 3,
-"base": 0.6,
+"base": 0.5,
 "spike": false
 },
 "대피": {
@@ -4953,12 +4965,12 @@
 },
 "지하철": {
 "n30": 2,
-"base": 0.3,
+"base": 0.4,
 "spike": false
 },
 "사고": {
-"n30": 3,
-"base": 4.7,
+"n30": 4,
+"base": 4.5,
 "spike": false
 },
 "실종": {
@@ -4988,6 +5000,16 @@
 }
 },
 "posts": [
+{
+"text": "인지적 구두쇠 (Cognitive Miser): 심리학자 수잔 피스크와 셸리 테일러가 제시한 개념입니다. 인간의 뇌는 에너지를 아끼기 위해 복잡한 사고나 새로운 탐색을 본능적으로 피하고, 이미 익숙한 자동화 경로(습관)를 따르려는 경향이 있다는 이론입니다.\n결정 피로 (Decision Fatigue): 심리학자 로이 바우마이스터가 설명한 현상으로, 하루 동안 크고 작은 결정을 내리면서 뇌의 ",
+"handle": "modern-octo.bsky.social",
+"name": "옥토",
+"time": "2026-11-17T14:52:54.249Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/modern-octo.bsky.social/post/3n2jcaaqi7k2r",
+"term": "사고"
+},
 {
 "text": "아까 지진 났을때 재난문자 온거 아이콘만 보고 뭐지 춥다고 문자왔나 이딴 태평한 생각하고 3초뒤\n덜더럳ㄹ",
 "handle": "sewoo.bsky.social",
@@ -5287,31 +5309,23 @@
 "url": "https://www.youtube.com/watch?v=MUroqmHBsZA"
 }
 ],
-"spikes": [
-{
-"term": "폭발",
-"n30": 5,
-"base": 0.8,
-"spike": true,
-"since": "2026-11-17T14:52:32.604957+00:00"
-}
-],
+"spikes": [],
 "baseline": {
-"지진": 28.73,
+"지진": 26.56,
 "화재": 0.05,
 "불났": 0.05,
-"정전": 0.24,
-"폭발": 0.86,
-"붕괴": 0.53,
-"대피": 0.74,
+"정전": 0.22,
+"폭발": 0.87,
+"붕괴": 0.48,
+"대피": 0.77,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.39,
-"사고": 4.5,
+"지하철": 0.45,
+"사고": 4.45,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
-"먹통": 0.1,
+"먹통": 0.09,
 "산불": 0.05
 },
 "errors": [],
@@ -5578,14 +5592,14 @@
 "time": "2026-11-17T13:10:00+00:00",
 "news": [
 {
+"title": "Sudurpashchim sets 106-run target for Lumbini in NPL qualifier",
+"source": "Nepalnews.com",
+"link": "https://english.nepalnews.com/s/sports/sudurpashchim-sets-106-run-target-for-lumbini-in-npl-qualifier/"
+},
+{
 "title": "Lumbini Lions vs Sudurpaschim Royals, NPL 2026 Qualifier 1 – Match prediction, playing XI and form guide",
 "source": "Cricket World",
 "link": "https://www.cricketworld.com/match-predictions-nepal-premier-league-2026-29th-match-qualifier-1-lumbini-lions-vs-sudurpaschim-royals-17th-november/114379.htm"
-},
-{
-"title": "NPL Playoff equation: Lumbini to face Sudurpaschim in qualifier 1, Chitwan to take on Kathmandu in eliminator",
-"source": "myRepublica",
-"link": "https://myrepublica.nagariknetwork.com/news/npl-playoff-equation-lumbini-to-face-sudurpaschim-in-qualifier-1-chitwan-to-61-57.html"
 }
 ],
 "new": true
