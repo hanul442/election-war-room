@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-17T09:58:45.390455+00:00",
+"updated": "2026-11-17T10:01:00.714396+00:00",
 "errors": [],
 "events": [
 {
@@ -3909,12 +3909,12 @@
 "spike": false
 },
 "폭발": {
-"n30": 5,
-"base": 1.6,
-"spike": true
+"n30": 3,
+"base": 1.5,
+"spike": false
 },
 "붕괴": {
-"n30": 4,
+"n30": 3,
 "base": 0.1,
 "spike": false
 },
@@ -3929,14 +3929,14 @@
 "spike": false
 },
 "속보": {
-"n30": 2,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
 "지하철": {
-"n30": 5,
-"base": 0.7,
-"spike": true
+"n30": 4,
+"base": 0.8,
+"spike": false
 },
 "사고": {
 "n30": 7,
@@ -4195,35 +4195,20 @@
 "url": "https://www.youtube.com/watch?v=DWgx25mPnds"
 }
 ],
-"spikes": [
-{
-"term": "폭발",
-"n30": 5,
-"base": 1.6,
-"spike": true,
-"since": "2026-11-17T09:58:45.390455+00:00"
-},
-{
-"term": "지하철",
-"n30": 5,
-"base": 0.7,
-"spike": true,
-"since": "2026-11-17T09:58:45.390455+00:00"
-}
-],
+"spikes": [],
 "baseline": {
-"지진": 0.56,
+"지진": 0.5,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 1.52,
+"폭발": 1.47,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.13,
-"지하철": 0.85,
-"사고": 6.8,
-"실종": 0.93,
+"속보": 0.12,
+"지하철": 0.97,
+"사고": 6.82,
+"실종": 0.94,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -4421,14 +4406,14 @@
 "time": "2026-11-17T08:20:00+00:00",
 "news": [
 {
+"title": "'미쳤다' 구자욱 FA 200억 현실로? 영입 절실한 감독 등장! \"모든 분들이 타선 보강 원해, 구단도 최선 다하겠다고…\" [오!쎈 미야자키]",
+"source": "조선일보",
+"link": "https://www.chosun.com/sports/baseball/2026/11/17/MMYTCN3FMQYTEMLFGNSTSODDMY/"
+},
+{
 "title": "“두산서 은퇴하고 싶었다” 39살 양의지, 2년 최대 55억 FA 계약",
 "source": "한겨레",
 "link": "https://www.hani.co.kr/arti/sports/baseball/1287664.html"
-},
-{
-"title": "이제는 대체불가, KIA 예비FA 뉴클로저 마음도 잡아야 한다...연봉 크게 올리고 다년계약 추진하나",
-"source": "조선일보",
-"link": "https://www.chosun.com/sports/baseball/2026/11/17/GE2TQOBZGAYGCZRUMFRTSMBWGU/"
 }
 ],
 "new": false
@@ -4444,9 +4429,9 @@
 "link": "https://www.korea.kr/news/policyNewsView.do?newsId=148975880"
 },
 {
-"title": "[속보] 이 대통령, 필리핀서 ‘수능 비상 점검회의’ 화상 주재",
-"source": "JTBC",
-"link": "https://news.jtbc.co.kr/article/NB12328510"
+"title": "이 대통령, 다카이치 총리와 한·일 정상회담",
+"source": "MBC 뉴스",
+"link": "https://imnews.imbc.com/news/2026/politics/article/6866362_36911.html"
 }
 ],
 "new": true
