@@ -1,12 +1,12 @@
 {
-"updated": "2026-11-17T23:05:31.312643+00:00",
+"updated": "2026-11-17T23:07:44.587162+00:00",
 "errors": [],
 "events": [
 {
 "id": "IwZFMteURaZkFZSGg3eTQoc52219",
 "first": "2026-11-17T22:19:41+00:00",
 "last": "2026-11-17T23:01:54+00:00",
-"updated": "2026-11-17T23:05:31.312643+00:00",
+"updated": "2026-11-17T23:07:44.587162+00:00",
 "headline": "엔비디아 임시 CEO \"삼성전기와 반도체 기판 공급 신규 계약\"",
 "cat": "경제",
 "regions": [],
@@ -51,6 +51,13 @@
 "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE82VlRhUHZYVmdFTmRzaXhIT2JOUDRLb21ySnBNX0NrV1AyTzU5bUw1ZjJDRTVvZW5lNk15RnJXWDRGQV9XMXhV?oc=5",
 "time": "2026-11-17T23:01:54+00:00",
 "stage": "속보"
+},
+{
+"title": "[속보] 엔비디아 \"삼성전기와 패키지기판 신규 계약 체결\"",
+"source": "아이뉴스24",
+"link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1aOUU2LUpMWUZZcm1rQTZ3OWktYklhVzJmdFhoZTgtYXUzdHNHM0ZHWUdodHRiTWpuNy1KdnFDckRMM0RBQ0ZiZS1iVQ?oc=5",
+"time": "2026-11-17T23:01:54+00:00",
+"stage": "속보"
 }
 ],
 "level": "URGENT",
@@ -74,8 +81,8 @@
 {
 "id": "LdmxtMXVaWUgwUUc0aUlRoc52206",
 "first": "2026-11-17T22:06:00+00:00",
-"last": "2026-11-17T22:58:49+00:00",
-"updated": "2026-11-17T23:01:05.640573+00:00",
+"last": "2026-11-17T23:00:44+00:00",
+"updated": "2026-11-17T23:07:44.587162+00:00",
 "headline": "충남 태안 해상서 7명 탄 어선 연락 끊겨, 총력 수색 중",
 "cat": "기타",
 "regions": [
@@ -87,7 +94,8 @@
 "경향신문",
 "국제신문",
 "뉴시스",
-"연합뉴스"
+"연합뉴스",
+"조선일보"
 ],
 "updates": [
 {
@@ -152,10 +160,17 @@
 "link": "https://www.newsis.com/view/NISX20261118_0003872375",
 "time": "2026-11-17T22:58:49+00:00",
 "stage": "후속"
+},
+{
+"title": "충남 태안 서격렬비도 해상서 7명 탄 어선 실종",
+"source": "조선일보",
+"link": "https://www.chosun.com/national/incident/2026/11/18/SUJQUA2M2VA3BBSSQSI3ODYBUI/",
+"time": "2026-11-17T23:00:44+00:00",
+"stage": "후속"
 }
 ],
 "level": "URGENT",
-"latest": "황종우 해수부 장관, 연락 끊긴 어선 '해광호' 수색 총력 지시",
+"latest": "충남 태안 서격렬비도 해상서 7명 탄 어선 실종",
 "tok": [
 "7명",
 "韓총리",
@@ -3915,7 +3930,7 @@
 },
 "화재": {
 "n30": 0,
-"base": 0.2,
+"base": 0.1,
 "spike": false
 },
 "불났": {
@@ -3929,12 +3944,12 @@
 "spike": false
 },
 "폭발": {
-"n30": 3,
+"n30": 2,
 "base": 0.1,
 "spike": false
 },
 "붕괴": {
-"n30": 2,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
@@ -3949,9 +3964,9 @@
 "spike": false
 },
 "속보": {
-"n30": 5,
+"n30": 4,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "지하철": {
 "n30": 2,
@@ -4199,18 +4214,10 @@
 "url": "https://www.youtube.com/watch?v=RV7gkHzpPKc"
 }
 ],
-"spikes": [
-{
-"term": "속보",
-"n30": 5,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-17T23:05:31.312643+00:00"
-}
-],
+"spikes": [],
 "baseline": {
 "지진": 0.05,
-"화재": 0.14,
+"화재": 0.13,
 "불났": 0.05,
 "정전": 0.05,
 "폭발": 0.05,
@@ -4219,8 +4226,8 @@
 "미사일": 0.05,
 "속보": 0.05,
 "지하철": 0.05,
-"사고": 0.08,
-"실종": 0.51,
+"사고": 0.07,
+"실종": 0.56,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -4441,7 +4448,7 @@
 "link": "https://www.cnbc.com/2026/11/17/nvidia-nvda-earnings-report-q3-2027.html"
 },
 {
-"title": "Nvidia earnings live: Nvidia posts Q3 beat, board says it will not reinstate Jensen Huang as CEO",
+"title": "Nvidia earnings live: Nvidia posts Q3 beat as revenue rose 103% YOY to $115.8B, board says it will not reinstate Jensen Huang as CEO",
 "source": "Yahoo Finance",
 "link": "https://finance.yahoo.com/technology/live/nvidia-earnings-live-nvidia-posts-q3-beat-board-says-it-will-not-reinstate-jensen-huang-as-ceo-221428433.html"
 }
@@ -4549,9 +4556,9 @@
 "link": "https://www.nocutnews.co.kr/news/6608315"
 },
 {
-"title": "변상일, 22연승 신진서를 꺾다…삼성화재배 첫 결승 진출",
-"source": "동아일보",
-"link": "https://www.donga.com/news/People/article/all/20261117/135041660/1"
+"title": "변상일 '천적' 신진서 꺾고 삼성화재배 첫 결승 진출",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261117161700007"
 }
 ],
 "new": true
@@ -4562,9 +4569,9 @@
 "time": "2026-11-17T21:40:00+00:00",
 "news": [
 {
-"title": "Denmark vs Norway: UEFA Nations League stats & head-to-head",
-"source": "BBC",
-"link": "https://www.bbc.com/sport/football/live/cq1k974v3m9dt"
+"title": "Denmark vs Norway Confirmed Lineups",
+"source": "WhoScored.com",
+"link": "https://www.whoscored.com/news/bpgTUto5rUmrKyiec0jHJw/show/cng112-20261117-denmark-vs-norway-confirmed-lineup-1794941275"
 },
 {
 "title": "Football Bet of the Day: Danish delight in front of goal on Tuesday",
@@ -4598,14 +4605,14 @@
 "time": "2026-11-17T21:20:00+00:00",
 "news": [
 {
+"title": "고경표 '만취 운전'에 이재룡 '술타기' 혐의까지…잇따른 연예계 음주 논란",
+"source": "YTN",
+"link": "https://www.ytn.co.kr/_sn/0117_202611161051428351"
+},
+{
 "title": "고경표 때문에 더 주목받는 '술꾼들'...신동엽·성시경이 '무사고' 지킨 비결",
 "source": "조선일보",
 "link": "https://www.chosun.com/entertainments/enter_general/2026/11/17/MNQTOM3BG5SDONJTGQ2TMMLDGY/"
-},
-{
-"title": "고경표처럼 청소차 '쾅'...호란, 세 번째 음주운전 사고 '재조명' - 머니투데이",
-"source": "머니투데이",
-"link": "https://www.mt.co.kr/entertainment/2026/11/17/2026111707460827049"
 }
 ],
 "new": true
