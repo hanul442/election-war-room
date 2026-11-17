@@ -1,7 +1,41 @@
 {
-"updated": "2026-11-17T07:37:22.244304+00:00",
+"updated": "2026-11-17T07:39:35.155606+00:00",
 "errors": [],
 "events": [
+{
+"id": "wNISX20261117_00038719150738",
+"first": "2026-11-17T07:38:14+00:00",
+"last": "2026-11-17T07:38:14+00:00",
+"updated": "2026-11-17T07:39:35.155606+00:00",
+"headline": "산림복지진흥원·노사발전재단, 중장년 산림복지 일자리 제공 '맞손'",
+"cat": "재난",
+"regions": [
+"대전"
+],
+"sources": [
+"뉴시스"
+],
+"updates": [
+{
+"title": "산림복지진흥원·노사발전재단, 중장년 산림복지 일자리 제공 '맞손'",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261117_0003871915",
+"time": "2026-11-17T07:38:14+00:00",
+"stage": "1보"
+}
+],
+"level": "ALERT",
+"latest": "산림복지진흥원·노사발전재단, 중장년 산림복지 일자리 제공 '맞손'",
+"tok": [
+"노사발전재단",
+"맞손",
+"산림복지",
+"산림복지진흥원",
+"일자리",
+"제공",
+"중장년"
+]
+},
 {
 "id": "wNISX20261117_00038718980730",
 "first": "2026-11-17T07:30:18+00:00",
@@ -3680,59 +3714,6 @@
 "탈옥법",
 "한성숙"
 ]
-},
-{
-"id": "WRtaWNoYnBXSzFuYTJzdwoc50605",
-"first": "2026-11-17T06:05:51+00:00",
-"last": "2026-11-17T06:08:53+00:00",
-"updated": "2026-11-17T06:19:02.942171+00:00",
-"headline": "韓총리 \"옷 단추마다 스티커 붙여 수능 부정행위 방지\"",
-"cat": "정치",
-"regions": [],
-"sources": [
-"edaily.co.kr",
-"이데일리",
-"조선일보"
-],
-"updates": [
-{
-"title": "[속보]韓총리 \"옷 단추마다 스티커 붙여 수능 부정행위 방지\"",
-"source": "edaily.co.kr",
-"link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPYmRoZHBtRnV0cXR4dHVZVjhHM3psclVteE9GM3pNQjl0VjNybV82NlJ2eWxBclItQ3R3ZTVXUXlBRTlmVGVBNkt3d3FncUZjcUIxWmN6X2NQVklWREtVUTNPWTVXemU2UGlYck9OZ2xVMWRtaWNoYnBXSzFuYTJzdw?oc=5",
-"time": "2026-11-17T06:05:51+00:00",
-"stage": "얼럿"
-},
-{
-"title": "[속보] 한총리 \"수능 때 단추의복 자제해달라…단추마다 스티커 붙여 가릴 것\"",
-"source": "이데일리",
-"link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOVXhqZUFEMVJhM0E1WEpGNzc2Nm9GTEhQaWJqd0M3dG1ra09zbFVOaTZPZlFwbE5sUUtzRTBaNG5qZ1lwZjBwa2ltcnphdzlTampNdjhDQThiMHlseW8zVGRBa2dQSkg0YzNFV20yVzRYZlJ0ZVVObk15eWF5WWc0Tg?oc=5",
-"time": "2026-11-17T06:07:18+00:00",
-"stage": "속보"
-},
-{
-"title": "[속보] 정부, 단추마다 스티커 붙여 ‘수능 부정행위’ 차단",
-"source": "조선일보",
-"link": "https://www.chosun.com/national/education/2026/11/17/ZRVTYZL4M5FC7K7WRUJUBOKVOI/",
-"time": "2026-11-17T06:08:53+00:00",
-"stage": "속보"
-}
-],
-"level": "URGENT",
-"latest": "정부, 단추마다 스티커 붙여 ‘수능 부정행위’ 차단",
-"tok": [
-"韓총리",
-"가릴",
-"단추마다",
-"단추의복",
-"방지",
-"부정행위",
-"붙여",
-"수능",
-"스티커",
-"자제해달라",
-"차단",
-"한총리"
-]
 }
 ],
 "sns": {
@@ -3759,12 +3740,12 @@
 },
 "폭발": {
 "n30": 4,
-"base": 0.4,
+"base": 0.5,
 "spike": false
 },
 "붕괴": {
-"n30": 10,
-"base": 0.3,
+"n30": 7,
+"base": 0.2,
 "spike": true
 },
 "대피": {
@@ -3778,17 +3759,17 @@
 "spike": false
 },
 "속보": {
-"n30": 3,
-"base": 0.6,
+"n30": 2,
+"base": 0.7,
 "spike": false
 },
 "지하철": {
 "n30": 3,
-"base": 0.7,
+"base": 0.8,
 "spike": false
 },
 "사고": {
-"n30": 2,
+"n30": 0,
 "base": 2.1,
 "spike": false
 },
@@ -4005,16 +3986,6 @@
 "url": "https://www.youtube.com/watch?v=fhn522M5JWg"
 },
 {
-"text": "언제쯤 사고뭉치가 아니게 될까,,,,\n오늘도 또 상패 온 거 꺼내서 확인하고 \n다시 넣다가 떨굼,,,\n안에 상패 이상 없나 보려고 열다가\n상자 똑딱이? 뽑힘...\n\n나의 파괴왕 면모에 놀란 파트장님이\n똑딱이 다시 조립하심...ㅎ....",
-"handle": "homoconsumus.bsky.social",
-"name": "모난돌",
-"time": "2026-11-17T07:08:35.550Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/homoconsumus.bsky.social/post/3n2iibvr6l227",
-"term": "사고"
-},
-{
 "platform": "YouTube",
 "text": "[대한항공 주가전망] *방금전 속보* 통합 출범 꼭 한 달 앞두고 조종사 노조까지 합의, 판이 바뀝니다.",
 "handle": "UCDD7F65-TmhV8BIPe0_yDWg",
@@ -4022,16 +3993,6 @@
 "time": "2026-11-17T07:08:25Z",
 "term": "속보",
 "url": "https://www.youtube.com/watch?v=0F93YLzdsdw"
-},
-{
-"text": "속상해서 레고 사고 싶다. (안됨)",
-"handle": "lyingdownbear.bsky.social",
-"name": "널부렁🎗️",
-"time": "2026-11-17T07:08:21.341Z",
-"likes": 6,
-"reposts": 0,
-"url": "https://bsky.app/profile/lyingdownbear.bsky.social/post/3n2iibn3oos2p",
-"term": "사고"
 },
 {
 "platform": "YouTube",
@@ -4082,28 +4043,28 @@
 "spikes": [
 {
 "term": "붕괴",
-"n30": 10,
-"base": 0.3,
+"n30": 7,
+"base": 0.2,
 "spike": true,
-"since": "2026-11-17T07:37:22.244304+00:00"
+"since": "2026-11-17T07:39:35.155606+00:00"
 }
 ],
 "baseline": {
-"지진": 0.19,
-"화재": 0.51,
+"지진": 0.17,
+"화재": 0.56,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.45,
-"붕괴": 0.24,
+"폭발": 0.51,
+"붕괴": 0.22,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.68,
-"지하철": 0.84,
-"사고": 2.11,
+"속보": 0.71,
+"지하철": 0.96,
+"사고": 1.9,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
-"먹통": 0.47,
+"먹통": 0.42,
 "산불": 0.05
 },
 "errors": [],
