@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-17T15:12:30.405837+00:00",
+"updated": "2026-11-17T15:14:42.180865+00:00",
 "errors": [],
 "events": [
 {
@@ -530,7 +530,7 @@
 "id": "viewAKR202611171776005301412",
 "first": "2026-11-17T14:12:00+00:00",
 "last": "2026-11-17T14:55:03+00:00",
-"updated": "2026-11-17T15:12:30.405837+00:00",
+"updated": "2026-11-17T15:14:42.180865+00:00",
 "headline": "기상청 \"경북 상주 북서쪽서 규모 3.7 지진 발생\"",
 "cat": "재난",
 "regions": [
@@ -553,6 +553,7 @@
 "뉴시스",
 "대경일보",
 "대구MBC",
+"매일경제",
 "매일신문",
 "부산일보",
 "연합뉴스",
@@ -713,6 +714,13 @@
 "link": "https://www.newsis.com/view/NISX20261117_0003872283",
 "time": "2026-11-17T14:38:00+00:00",
 "stage": "후속"
+},
+{
+"title": "[속보] 기상청 “경북 상주 북서쪽서 규모 3.6 지진 발생”",
+"source": "매일경제",
+"link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1PeVNxcGMwYWJqYW1SbDVGTmdfUmFPaXZYRWlBZ3A1dGRkY0tTVlo4c1VSUzItVlFpbl9xZDAxaDFfcVNpSnlvOG1kYUZmU2FUWllYNw?oc=5",
+"time": "2026-11-17T14:39:35+00:00",
+"stage": "속보"
 },
 {
 "title": "경북 상주 규모 3.6 지진…충북서도 유감 신고 18건",
@@ -4905,12 +4913,12 @@
 "terms": {
 "지진": {
 "n30": 6,
-"base": 14.6,
+"base": 13.4,
 "spike": false
 },
 "화재": {
 "n30": 3,
-"base": 0.1,
+"base": 0.2,
 "spike": false
 },
 "불났": {
@@ -4924,8 +4932,8 @@
 "spike": false
 },
 "폭발": {
-"n30": 6,
-"base": 1.4,
+"n30": 5,
+"base": 1.5,
 "spike": true
 },
 "붕괴": {
@@ -4935,7 +4943,7 @@
 },
 "대피": {
 "n30": 0,
-"base": 0.4,
+"base": 0.3,
 "spike": false
 },
 "미사일": {
@@ -4955,7 +4963,7 @@
 },
 "사고": {
 "n30": 3,
-"base": 3.9,
+"base": 3.8,
 "spike": false
 },
 "실종": {
@@ -4975,7 +4983,7 @@
 },
 "먹통": {
 "n30": 1,
-"base": 0.5,
+"base": 0.6,
 "spike": false
 },
 "산불": {
@@ -5247,16 +5255,6 @@
 "term": "사고"
 },
 {
-"text": "저번에... 였나 글커미로 감정선 비슷한 거 두 개 적었다가 갑자기 자아 폭발해서 김시플코어 단편 쓰고 진정한 적 있음",
-"handle": "ciplerine.bsky.social",
-"name": "시플리네",
-"time": "2026-11-17T14:43:01.747Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/ciplerine.bsky.social/post/3n2jbomvqzk23",
-"term": "폭발"
-},
-{
 "platform": "YouTube",
 "text": "[속보] 기상청 \"경북 상주 북서쪽서 규모 3.6 지진 발생\" / 연합뉴스TV (YonhapnewsTV)",
 "handle": "UCTHCOPwqNfZ0uiKOvFyhGwg",
@@ -5269,35 +5267,35 @@
 "spikes": [
 {
 "term": "폭발",
-"n30": 6,
-"base": 1.4,
+"n30": 5,
+"base": 1.5,
 "spike": true,
-"since": "2026-11-17T15:12:30.405837+00:00"
+"since": "2026-11-17T15:14:42.180865+00:00"
 },
 {
 "term": "붕괴",
 "n30": 5,
 "base": 0.2,
 "spike": true,
-"since": "2026-11-17T15:12:30.405837+00:00"
+"since": "2026-11-17T15:14:42.180865+00:00"
 }
 ],
 "baseline": {
-"지진": 13.42,
-"화재": 0.24,
+"지진": 12.38,
+"화재": 0.32,
 "불났": 0.05,
-"정전": 0.1,
-"폭발": 1.5,
-"붕괴": 0.21,
-"대피": 0.33,
+"정전": 0.09,
+"폭발": 1.45,
+"붕괴": 0.19,
+"대피": 0.3,
 "미사일": 0.05,
-"속보": 0.15,
-"지하철": 0.67,
-"사고": 3.77,
+"속보": 0.24,
+"지하철": 0.6,
+"사고": 3.69,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
-"먹통": 0.56,
+"먹통": 0.6,
 "산불": 0.05
 },
 "errors": [],
@@ -5487,8 +5485,26 @@
 },
 "trends": [
 {
-"term": "지진",
+"term": "포항 지진",
 "traffic": "10000+",
+"time": "2026-11-17T14:10:00+00:00",
+"news": [
+{
+"title": "\"우리 노력은 11만 원짜리?\" 6개월 전부터 경고했는데‥'뒷북 대응'에 분노",
+"source": "MBC 뉴스",
+"link": "https://imnews.imbc.com/replay/2026/nwdesk/article/6866391_37004.html"
+},
+{
+"title": "'AI부정행위' 세무사 수석합격자 13시간 경찰조사 후 귀가(종합2보)",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261117042652004"
+}
+],
+"new": true
+},
+{
+"term": "지진",
+"traffic": "20000+",
 "time": "2026-11-17T14:00:00+00:00",
 "news": [
 {
@@ -5503,24 +5519,6 @@
 }
 ],
 "new": false
-},
-{
-"term": "송민규",
-"traffic": "500+",
-"time": "2026-11-17T14:00:00+00:00",
-"news": [
-{
-"title": "송민규 크로스→오세훈 헤더 쾅! 모레노호, 슈팅 13개 맹폭 속 카타르에 1-0 리드 (전반 종료) - 머니투데이",
-"source": "머니투데이",
-"link": "https://www.mt.co.kr/sports/2026/11/17/2026111722570571824"
-},
-{
-"title": "'후반 조커' 오세훈 \"골 기회 살렸어야…카타르전 반드시 승리\"",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261116002700007"
-}
-],
-"new": true
 },
 {
 "term": "mbc",
@@ -5546,14 +5544,14 @@
 "time": "2026-11-17T13:40:00+00:00",
 "news": [
 {
-"title": "일본 대 파라과이 축구 예측",
-"source": "Laodong.vn",
-"link": "https://ko.laodong.vn/bong-da-quoc-te/nhan-dinh-bong-da-nhat-ban-vs-paraguay-1801301.ldo"
+"title": "[광화문에서/정윤철]길어진 축구 수장 공백… 침묵 깨고 해법 찾아야",
+"source": "동아일보",
+"link": "https://www.donga.com/news/Opinion/article/all/20261117/135042607/1"
 },
 {
-"title": "브라질 격파하고 파라과이에는 쩔절...일본, 로테이션 속 파라과이에 전반에만 2실점",
-"source": "인터풋볼",
-"link": "https://www.interfootball.co.kr/news/articleView.html?idxno=698669"
+"title": "\"이제 한일전은 무의미하다\"… 日 브라질전 설욕에 엇갈린 한·일 반응",
+"source": "조선일보",
+"link": "https://www.chosun.com/sports/football/2026/11/15/QADTHZ6QXZARFCXRTIRW3LYDS4/"
 }
 ],
 "new": true
@@ -5600,9 +5598,9 @@
 "time": "2026-11-17T13:10:00+00:00",
 "news": [
 {
-"title": "Sudurpashchim sets 106-run target for Lumbini in NPL qualifier",
-"source": "Nepalnews.com",
-"link": "https://english.nepalnews.com/s/sports/sudurpashchim-sets-106-run-target-for-lumbini-in-npl-qualifier/"
+"title": "Live Cricket Score, Schedule, Latest News, Stats & Videos",
+"source": "Cricbuzz",
+"link": "https://m.cricbuzz.com/player-match-performance/match/177813/player/12140/batting?inningsId=2"
 },
 {
 "title": "Lumbini Lions vs Sudurpaschim Royals, NPL 2026 Qualifier 1 – Match prediction, playing XI and form guide",
@@ -5623,9 +5621,9 @@
 "link": "https://www.cricinfo.com/series/afghanistan-v-zimbabwe-2026-27-1555105/afghanistan-vs-zimbabwe-2nd-test-1555124/match-preview"
 },
 {
-"title": "Chevrons on the cusp of victory",
-"source": "Herald.co.zw",
-"link": "https://www.heraldonline.co.zw/chevrons-on-the-cusp-of-victory/"
+"title": "Afghanistan vs Zimbabwe 2nd Test Day 5 live streaming, scores and match updates",
+"source": "Cricket World",
+"link": "https://www.cricketworld.com/afghanistan-vs-zimbabwe-2nd-test-day-5-live-streaming-scores-and-match-updates/114381.htm"
 }
 ],
 "new": true
@@ -5668,7 +5666,6 @@
 }
 ],
 "trendSeen": [
-"중대범죄수사청",
 "중앙일보",
 "즉석밥",
 "지소연",
@@ -5842,6 +5839,7 @@
 "포체티노",
 "포틀랜드 대 오클라호마시티",
 "포티나이너스 대 레이더스",
+"포항 지진",
 "폭발",
 "폭설",
 "폭싹 속았수다",
