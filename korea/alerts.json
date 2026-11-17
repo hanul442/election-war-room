@@ -1,7 +1,41 @@
 {
-"updated": "2026-11-17T07:46:17.575674+00:00",
+"updated": "2026-11-17T07:48:30.931254+00:00",
 "errors": [],
 "events": [
+{
+"id": "wNISX20261117_00038719410744",
+"first": "2026-11-17T07:44:43+00:00",
+"last": "2026-11-17T07:44:43+00:00",
+"updated": "2026-11-17T07:48:30.931254+00:00",
+"headline": "法, LIG D&amp;A '입찰 2년 제한' 집행정지 인용…자격 유지",
+"cat": "기타",
+"regions": [],
+"sources": [
+"뉴시스"
+],
+"updates": [
+{
+"title": "[속보] 法, LIG D&amp;A '입찰 2년 제한' 집행정지 인용…자격 유지",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261117_0003871941",
+"time": "2026-11-17T07:44:43+00:00",
+"stage": "얼럿"
+}
+],
+"level": "URGENT",
+"latest": "法, LIG D&amp;A '입찰 2년 제한' 집행정지 인용…자격 유지",
+"tok": [
+"2년",
+"LIG",
+"amp",
+"유지",
+"인용",
+"입찰",
+"자격",
+"제한",
+"집행정지"
+]
+},
 {
 "id": "wNISX20261117_00038719250741",
 "first": "2026-11-17T07:41:11+00:00",
@@ -3712,39 +3746,6 @@
 "세무사",
 "수석"
 ]
-},
-{
-"id": "1ZDIzV3EwZUtTMklWdXA4oc50609",
-"first": "2026-11-17T06:09:13+00:00",
-"last": "2026-11-17T06:09:13+00:00",
-"updated": "2026-11-17T06:12:20.357646+00:00",
-"headline": "정부, 글로벌 빅테크와 협력⋯시험지 AI 정답 확인 의혹 사후조사",
-"cat": "정치",
-"regions": [],
-"sources": [
-"아이뉴스24"
-],
-"updates": [
-{
-"title": "[속보] 정부, 글로벌 빅테크와 협력⋯시험지 AI 정답 확인 의혹 사후조사",
-"source": "아이뉴스24",
-"link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5TTl80Z1dTM2hvUzVBQjhzV25UbkdlWkhIV2FlYWhER2lsbzEzSURjMEd0S09PZmY1ZDIzV3EwZUtTMklWdXA4?oc=5",
-"time": "2026-11-17T06:09:13+00:00",
-"stage": "얼럿"
-}
-],
-"level": "URGENT",
-"latest": "정부, 글로벌 빅테크와 협력⋯시험지 AI 정답 확인 의혹 사후조사",
-"tok": [
-"AI",
-"글로벌",
-"빅테크",
-"사후조사",
-"시험지",
-"정답",
-"협력",
-"확인"
-]
 }
 ],
 "sns": {
@@ -3756,7 +3757,7 @@
 },
 "화재": {
 "n30": 1,
-"base": 0.6,
+"base": 0.7,
 "spike": false
 },
 "불났": {
@@ -3770,17 +3771,17 @@
 "spike": false
 },
 "폭발": {
-"n30": 2,
+"n30": 1,
 "base": 0.6,
 "spike": false
 },
 "붕괴": {
-"n30": 4,
+"n30": 3,
 "base": 0.2,
 "spike": false
 },
 "대피": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -3795,13 +3796,13 @@
 "spike": false
 },
 "지하철": {
-"n30": 3,
-"base": 1.1,
+"n30": 2,
+"base": 1.2,
 "spike": false
 },
 "사고": {
 "n30": 0,
-"base": 1.5,
+"base": 1.4,
 "spike": false
 },
 "실종": {
@@ -3836,8 +3837,8 @@
 "handle": "jejuorange.bsky.social",
 "name": "[랜선효도] 제주감귤🍊",
 "time": "2026-11-17T07:35:53.546Z",
-"likes": 0,
-"reposts": 5,
+"likes": 2,
+"reposts": 6,
 "url": "https://bsky.app/profile/jejuorange.bsky.social/post/3n2ijso5pfc2y",
 "term": "지하철"
 },
@@ -3906,16 +3907,6 @@
 "time": "2026-11-17T07:20:00Z",
 "term": "붕괴",
 "url": "https://www.youtube.com/watch?v=cGNJPIGFVJs"
-},
-{
-"text": "현재 집에 도착해 돌아 왔습니다~😆\n제가 지하철에서 나오고 있을 때 비 내리기 시작해서 후드 모자 쓰고 뛰어 왔어요😅",
-"handle": "cookie3.bsky.social",
-"name": "하얀",
-"time": "2026-11-17T07:17:59.444Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/cookie3.bsky.social/post/3n2iisuqmak2g",
-"term": "지하철"
 },
 {
 "platform": "YouTube",
@@ -4073,21 +4064,21 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 0.13,
-"화재": 0.68,
+"지진": 0.12,
+"화재": 0.71,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.64,
-"붕괴": 0.16,
+"폭발": 0.68,
+"붕괴": 0.14,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.79,
-"지하철": 1.23,
-"사고": 1.39,
+"속보": 0.81,
+"지하철": 1.21,
+"사고": 1.25,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
-"먹통": 0.31,
+"먹통": 0.28,
 "산불": 0.05
 },
 "errors": [],
