@@ -1,12 +1,12 @@
 {
-"updated": "2026-11-17T14:19:13.704162+00:00",
+"updated": "2026-11-17T14:21:25.803039+00:00",
 "errors": [],
 "events": [
 {
 "id": "viewAKR202611171776005301412",
 "first": "2026-11-17T14:12:00+00:00",
 "last": "2026-11-17T14:18:21+00:00",
-"updated": "2026-11-17T14:19:13.704162+00:00",
+"updated": "2026-11-17T14:21:25.803039+00:00",
 "headline": "기상청 \"경북 상주 북서쪽서 규모 3.7 지진 발생\"",
 "cat": "재난",
 "regions": [
@@ -14,6 +14,7 @@
 ],
 "sources": [
 "SBS",
+"SK브로드밴드 회사소개",
 "뉴스1",
 "매일신문",
 "연합뉴스",
@@ -42,10 +43,24 @@
 "stage": "속보"
 },
 {
+"title": "[속보] 경북 상주시 북서쪽 22km 지역 규모 3.6 지진 발생",
+"source": "SK브로드밴드 회사소개",
+"link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9sdUhDREdDTlViUGNMOWp2XzRYZUpYUExzd1VLVXdEd1VWWTRrSVhrVnJLMHpHbU9HTEpoMk1SSkd1d3Q0Q0xYM05JY2N6TjZ0TE5kM3dUQjRkSzBvb0xFaFNEMTZZNFhqTlF1LWU3SHc?oc=5",
+"time": "2026-11-17T14:15:10+00:00",
+"stage": "속보"
+},
+{
 "title": "[속보] 기상청 \"경북 상주 북서쪽 규모 3.7 지진 발생\"",
 "source": "뉴스1",
 "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBZbE41VXljaERwV1QwY1c3LVA1WERXRzZ2RTd1RGFCZER0d3VJeWg1WWxkNjRZRk1DVFViQkVyREpfQThSR09RN29nQnVwSkZQazYxMXhDbG9xMmNFWk1nV2MtVi0?oc=5",
 "time": "2026-11-17T14:15:29+00:00",
+"stage": "속보"
+},
+{
+"title": "[속보] 기상청 \"경북 상주 북서쪽 지진 규모 3.6으로 하향 조정\"",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261117177800530",
+"time": "2026-11-17T14:15:52+00:00",
 "stage": "속보"
 },
 {
@@ -59,6 +74,8 @@
 "level": "BULLETIN",
 "latest": "기상청 \"경북 상주 북서쪽서 규모 3.6 지진 발생\"",
 "tok": [
+"22km",
+"6으",
 "경북",
 "규모",
 "기상청",
@@ -66,8 +83,12 @@
 "북서쪽",
 "북서쪽서",
 "상주",
+"상주시",
+"조정",
+"지역",
 "지역서",
-"지진"
+"지진",
+"하향"
 ]
 },
 {
@@ -4658,7 +4679,7 @@
 "terms": {
 "지진": {
 "n30": 50,
-"base": 9.1,
+"base": 13.2,
 "spike": true
 },
 "화재": {
@@ -4678,7 +4699,7 @@
 },
 "폭발": {
 "n30": 7,
-"base": 0.2,
+"base": 0.3,
 "spike": true
 },
 "붕괴": {
@@ -4707,8 +4728,8 @@
 "spike": false
 },
 "사고": {
-"n30": 9,
-"base": 6.4,
+"n30": 8,
+"base": 6.7,
 "spike": false
 },
 "실종": {
@@ -4728,7 +4749,7 @@
 },
 "먹통": {
 "n30": 0,
-"base": 0.5,
+"base": 0.4,
 "spike": false
 },
 "산불": {
@@ -4738,6 +4759,36 @@
 }
 },
 "posts": [
+{
+"text": "뭐야 씻고 왔더니 왜 지진 안내문자 와있어??? 나 아무것도 못 느꼈는데???",
+"handle": "maehwa1128.bsky.social",
+"name": "매화",
+"time": "2026-11-17T14:20:38.848Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/maehwa1128.bsky.social/post/3n2jagmevb22h",
+"term": "지진"
+},
+{
+"text": "엥? 웬 지진?",
+"handle": "071734.bsky.social",
+"name": " 렌❄️ (상태: 폭주족고라니)",
+"time": "2026-11-17T14:19:36.445Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/071734.bsky.social/post/3n2jaei3uec2h",
+"term": "지진"
+},
+{
+"text": "rp 방금 지진문자 왔는데 블스오니까 이게 뜸",
+"handle": "iramblue.bsky.social",
+"name": "이람",
+"time": "2026-11-17T14:19:09.145Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/iramblue.bsky.social/post/3n2jadxo45c2o",
+"term": "지진"
+},
 {
 "text": "경북 상주시 지진 3.9 지진",
 "handle": "knullzero0000.bsky.social",
@@ -4757,36 +4808,6 @@
 "reposts": 0,
 "url": "https://bsky.app/profile/tsuta.bsky.social/post/3n2jackopls2s",
 "term": "사고"
-},
-{
-"text": "...???ㅋㅋㅋㅋ아니 지진이 맞았다고??ㅋㅋㅋㅋㅋㅋㅋ근데 경북이잖아 ㅜㅜ 너무 먼데",
-"handle": "gulgegulge3000.bsky.social",
-"name": "Gg",
-"time": "2026-11-17T14:18:18.255Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/gulgegulge3000.bsky.social/post/3n2jachafd22w",
-"term": "지진"
-},
-{
-"text": "비오는 와중에 지진 나니까 불안하네",
-"handle": "9chan.bsky.social",
-"name": "9chan",
-"time": "2026-11-17T14:18:02.547Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/9chan.bsky.social/post/3n2jabwsm4s2a",
-"term": "지진"
-},
-{
-"text": "상주에 지진...요즘 꽤 자주 나네.",
-"handle": "blackisbeautiful.bsky.social",
-"name": "덕을 쌓는 흑👻야차",
-"time": "2026-11-17T14:17:32.848Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/blackisbeautiful.bsky.social/post/3n2jacend4k2j",
-"term": "지진"
 },
 {
 "text": "ai브래지어 ai팬티 수능 서버 과부하로 폭발한다는 시나리오 ㅇㅈ합니다",
@@ -5052,48 +5073,48 @@
 {
 "term": "지진",
 "n30": 50,
-"base": 9.1,
+"base": 13.2,
 "spike": true,
-"since": "2026-11-17T14:19:13.704162+00:00"
+"since": "2026-11-17T14:21:25.803039+00:00"
 },
 {
 "term": "폭발",
 "n30": 7,
-"base": 0.2,
+"base": 0.3,
 "spike": true,
-"since": "2026-11-17T14:19:13.704162+00:00"
+"since": "2026-11-17T14:21:25.803039+00:00"
 },
 {
 "term": "붕괴",
 "n30": 6,
 "base": 1.8,
 "spike": true,
-"since": "2026-11-17T14:19:13.704162+00:00"
+"since": "2026-11-17T14:21:25.803039+00:00"
 },
 {
 "term": "속보",
 "n30": 6,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-17T14:19:13.704162+00:00"
+"since": "2026-11-17T14:21:25.803039+00:00"
 }
 ],
 "baseline": {
-"지진": 13.19,
+"지진": 16.87,
 "화재": 0.05,
 "불났": 0.05,
-"정전": 0.64,
-"폭발": 0.32,
-"붕괴": 1.81,
+"정전": 0.68,
+"폭발": 0.39,
+"붕괴": 1.83,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
 "지하철": 0.05,
-"사고": 6.68,
+"사고": 6.81,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
-"먹통": 0.42,
+"먹통": 0.38,
 "산불": 0.05
 },
 "errors": [],
