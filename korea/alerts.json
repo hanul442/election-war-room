@@ -1,7 +1,39 @@
 {
-"updated": "2026-11-17T23:34:08.855458+00:00",
+"updated": "2026-11-17T23:36:19.562290+00:00",
 "errors": [],
 "events": [
+{
+"id": "viewAKR202611180295000012330",
+"first": "2026-11-17T23:30:44+00:00",
+"last": "2026-11-17T23:30:44+00:00",
+"updated": "2026-11-17T23:36:19.562290+00:00",
+"headline": "李대통령 \"수능中 재난문자로 시험방해시 그만큼 시간연장 검토\"",
+"cat": "재난",
+"regions": [],
+"sources": [
+"연합뉴스"
+],
+"updates": [
+{
+"title": "李대통령 \"수능中 재난문자로 시험방해시 그만큼 시간연장 검토\"",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261118029500001",
+"time": "2026-11-17T23:30:44+00:00",
+"stage": "1보"
+}
+],
+"level": "ALERT",
+"latest": "李대통령 \"수능中 재난문자로 시험방해시 그만큼 시간연장 검토\"",
+"tok": [
+"검토",
+"그만큼",
+"수능中",
+"시간연장",
+"시험방해시",
+"재난문자",
+"李대통령"
+]
+},
 {
 "id": "0Z5cWQ1S1AtWGlKT0JGdwoc52319",
 "first": "2026-11-17T23:19:26+00:00",
@@ -4260,7 +4292,7 @@
 "spike": false
 },
 "붕괴": {
-"n30": 4,
+"n30": 3,
 "base": 0.1,
 "spike": false
 },
@@ -4275,23 +4307,23 @@
 "spike": false
 },
 "속보": {
-"n30": 7,
+"n30": 5,
 "base": 0.1,
 "spike": true
 },
 "지하철": {
-"n30": 1,
+"n30": 2,
 "base": 0.1,
 "spike": false
 },
 "사고": {
 "n30": 1,
-"base": 0.2,
+"base": 0.3,
 "spike": false
 },
 "실종": {
 "n30": 0,
-"base": 0.5,
+"base": 0.4,
 "spike": false
 },
 "단수": {
@@ -4316,6 +4348,16 @@
 }
 },
 "posts": [
+{
+"text": "아침에는 강남가는거 밀리니까~ 하고 지하철 타러 왔는데 사람 꽉껴서 하 걍 택시탈걸 이란 후회 중",
+"handle": "harvestmse.bsky.social",
+"name": "유연한멧밭쥐",
+"time": "2026-11-17T23:36:05.246Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/harvestmse.bsky.social/post/3n2k7htzkf22t",
+"term": "지하철"
+},
 {
 "text": "피엠에스 귀신같이 흐흐흐 세상하직하자 사고로이어진다 우어어~~\n잠을 못잔 탓도 있는 것 같고..",
 "handle": "sundaelovesyou.bsky.social",
@@ -4540,14 +4582,14 @@
 "n30": 5,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-17T23:34:08.855458+00:00"
+"since": "2026-11-17T23:36:19.562290+00:00"
 },
 {
 "term": "속보",
-"n30": 7,
+"n30": 5,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-17T23:34:08.855458+00:00"
+"since": "2026-11-17T23:36:19.562290+00:00"
 }
 ],
 "baseline": {
@@ -4560,9 +4602,9 @@
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.05,
-"사고": 0.32,
-"실종": 0.41,
+"지하철": 0.15,
+"사고": 0.39,
+"실종": 0.37,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -4787,14 +4829,14 @@
 "time": "2026-11-17T22:30:00+00:00",
 "news": [
 {
-"title": "Dibu Martínez vuelve a atajar a un mes exacto de su fractura de mandíbula",
-"source": "Yahoo",
-"link": "https://es-us.noticias.yahoo.com/deportes/dibu-mart%C3%ADnez-vuelve-atajar-mes-230500323.html"
+"title": "¿Por qué no juega Lionel Messi en Argentina vs Costa Rica? El adiós definitivo del 10",
+"source": "365Scores",
+"link": "https://www.365scores.com/es/news/por-que-no-juega-lionel-messi-costa-rica/"
 },
 {
 "title": "🔴​ EN VIVO: Nico Paz y un GOLAZO para el primero del encuentro",
-"source": "OneFootball",
-"link": "https://onefootball.com/es/noticias/en-vivo-nico-paz-y-un-golazo-para-el-primero-del-encuentro-43793184"
+"source": "Yahoo",
+"link": "https://es-us.noticias.yahoo.com/deportes/vivo-argentina-dejar-atr%C3%A1s-derrota-223700049.html"
 }
 ],
 "new": true
