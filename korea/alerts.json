@@ -1,7 +1,42 @@
 {
-"updated": "2026-11-17T09:36:23.108811+00:00",
+"updated": "2026-11-17T09:38:36.957323+00:00",
 "errors": [],
 "events": [
+{
+"id": "3Q1ZJS2RwMHVyZUV1WFVmoc50933",
+"first": "2026-11-17T09:33:56+00:00",
+"last": "2026-11-17T09:33:56+00:00",
+"updated": "2026-11-17T09:38:36.957323+00:00",
+"headline": "글로벌 178개 기관 사이버 공격 노출…CNN·BBC·HSBC·레저까지",
+"cat": "기타",
+"regions": [],
+"sources": [
+"CBC뉴스"
+],
+"updates": [
+{
+"title": "[속보] 글로벌 178개 기관 사이버 공격 노출…CNN·BBC·HSBC·레저까지",
+"source": "CBC뉴스",
+"link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBoUVNpX0RuNmZQYlY0OWZTQWYxMWZLanFWcGpVS2RYcGtsMzhtYmhnRGtVTzhvTW9GOVRUdmpMXzBla3dwMExtdkFXWDgyYWt0c0QtdXBVTGN3Q1ZJS2RwMHVyZUV1WFVm?oc=5",
+"time": "2026-11-17T09:33:56+00:00",
+"stage": "얼럿"
+}
+],
+"level": "URGENT",
+"latest": "글로벌 178개 기관 사이버 공격 노출…CNN·BBC·HSBC·레저까지",
+"tok": [
+"178개",
+"BBC",
+"CNN",
+"HSBC",
+"공격",
+"글로벌",
+"기관",
+"노출",
+"레저까지",
+"사이버"
+]
+},
 {
 "id": "TAyQUEyeUNBZFVfcVRKQQoc50854",
 "first": "2026-11-17T08:54:29+00:00",
@@ -3910,41 +3945,6 @@
 "확인",
 "확인중"
 ]
-},
-{
-"id": "CY7BDJIBBY7LXXBVSU5T7C3E0655",
-"first": "2026-11-17T06:55:33+00:00",
-"last": "2026-11-17T06:55:33+00:00",
-"updated": "2026-11-17T06:59:21.263297+00:00",
-"headline": "오만 환경청장 “선진국 재정 지원이 먼저”… 산유국 이견 드러낸 기후회의",
-"cat": "기타",
-"regions": [],
-"sources": [
-"조선일보"
-],
-"updates": [
-{
-"title": "[단독] 오만 환경청장 “선진국 재정 지원이 먼저”… 산유국 이견 드러낸 기후회의",
-"source": "조선일보",
-"link": "https://www.chosun.com/international/international_general/2026/11/17/LKCY7BDJIBBY7LXXBVSU5T7C3E/",
-"time": "2026-11-17T06:55:33+00:00",
-"stage": "단독"
-}
-],
-"level": "URGENT",
-"latest": "오만 환경청장 “선진국 재정 지원이 먼저”… 산유국 이견 드러낸 기후회의",
-"tok": [
-"기후회",
-"드러낸",
-"먼저",
-"산유국",
-"선진국",
-"오만",
-"이견",
-"재정",
-"지원",
-"환경청장"
-]
 }
 ],
 "sns": {
@@ -3975,9 +3975,9 @@
 "spike": false
 },
 "붕괴": {
-"n30": 5,
+"n30": 4,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "대피": {
 "n30": 0,
@@ -3996,7 +3996,7 @@
 },
 "지하철": {
 "n30": 3,
-"base": 0.2,
+"base": 0.1,
 "spike": false
 },
 "사고": {
@@ -4256,31 +4256,23 @@
 "url": "https://www.youtube.com/watch?v=3oLRG_FgF0s"
 }
 ],
-"spikes": [
-{
-"term": "붕괴",
-"n30": 5,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-17T09:36:23.108811+00:00"
-}
-],
+"spikes": [],
 "baseline": {
-"지진": 0.51,
+"지진": 0.56,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 1.61,
+"폭발": 1.65,
 "붕괴": 0.05,
 "대피": 0.05,
-"미사일": 0.08,
-"속보": 0.36,
-"지하철": 0.14,
-"사고": 5.13,
-"실종": 0.81,
+"미사일": 0.07,
+"속보": 0.32,
+"지하철": 0.13,
+"사고": 5.12,
+"실종": 0.83,
 "단수": 0.05,
 "통신 장애": 0.05,
-"먹통": 0.09,
+"먹통": 0.08,
 "산불": 0.05
 },
 "errors": [],
