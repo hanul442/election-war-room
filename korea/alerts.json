@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-17T02:14:23.225583+00:00",
+"updated": "2026-11-17T02:16:40.350130+00:00",
 "errors": [],
 "events": [
 {
@@ -4311,8 +4311,8 @@
 "sns": {
 "terms": {
 "지진": {
-"n30": 3,
-"base": 1.1,
+"n30": 2,
+"base": 1.2,
 "spike": false
 },
 "화재": {
@@ -4337,7 +4337,7 @@
 },
 "붕괴": {
 "n30": 5,
-"base": 0.9,
+"base": 1.1,
 "spike": true
 },
 "대피": {
@@ -4352,12 +4352,12 @@
 },
 "속보": {
 "n30": 8,
-"base": 0.3,
+"base": 0.2,
 "spike": true
 },
 "지하철": {
 "n30": 4,
-"base": 1.7,
+"base": 1.8,
 "spike": false
 },
 "사고": {
@@ -4465,7 +4465,7 @@
 "name": "사해문서",
 "time": "2026-11-17T02:02:40.651Z",
 "likes": 3,
-"reposts": 7,
+"reposts": 8,
 "url": "https://bsky.app/profile/dsscrolls.bsky.social/post/3n2hx72qki22l",
 "term": "지하철"
 },
@@ -4652,47 +4652,37 @@
 "reposts": 0,
 "url": "https://bsky.app/profile/lovebreakfast.bsky.social/post/3n2hwixtlf223",
 "term": "폭발"
-},
-{
-"text": "【지진 정보】일본 시간 11월 17일 10:40경\n진원: Amakusa and Ashikita Region, Kumamoto Prefecture (M2.6, 깊이 약 10km)\n최대 진도: 1\n진도 1: 구마모토현\n이 지진으로 인한 쓰나미 걱정은 없습니다.\n(일본 기상청 발표)\n#일본 #지진 #방재",
-"handle": "ko.soramoyou.yk-planning.jp",
-"name": "Soramoyou 한국어",
-"time": "2026-11-17T01:45:34.837Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/ko.soramoyou.yk-planning.jp/post/3n2hwai3gnv2d",
-"term": "지진"
 }
 ],
 "spikes": [
 {
 "term": "붕괴",
 "n30": 5,
-"base": 0.9,
+"base": 1.1,
 "spike": true,
-"since": "2026-11-17T02:14:23.225583+00:00"
+"since": "2026-11-17T02:16:40.350130+00:00"
 },
 {
 "term": "속보",
 "n30": 8,
-"base": 0.3,
+"base": 0.2,
 "spike": true,
-"since": "2026-11-17T02:14:23.225583+00:00"
+"since": "2026-11-17T02:16:40.350130+00:00"
 }
 ],
 "baseline": {
-"지진": 1.17,
+"지진": 1.15,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 2.8,
-"붕괴": 1.05,
+"폭발": 2.82,
+"붕괴": 1.15,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.24,
-"지하철": 1.76,
-"사고": 1.41,
-"실종": 0.12,
+"속보": 0.22,
+"지하철": 1.78,
+"사고": 1.37,
+"실종": 0.11,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
