@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-17T23:23:07.976479+00:00",
+"updated": "2026-11-17T23:25:20.858127+00:00",
 "errors": [],
 "events": [
 {
@@ -102,12 +102,13 @@
 "id": "0Z5cWQ1S1AtWGlKT0JGdwoc52319",
 "first": "2026-11-17T23:19:26+00:00",
 "last": "2026-11-17T23:19:26+00:00",
-"updated": "2026-11-17T23:23:07.976479+00:00",
+"updated": "2026-11-17T23:25:20.858127+00:00",
 "headline": "'자바' 심각한 취약점 발견…과기정통부 \"신속 업데이트 필요\"",
 "cat": "기타",
 "regions": [],
 "sources": [
 "뉴시스",
+"연합뉴스",
 "파이낸셜뉴스"
 ],
 "updates": [
@@ -117,6 +118,13 @@
 "link": "https://www.newsis.com/view/NISX20261118_0003872388",
 "time": "2026-11-17T22:52:04+00:00",
 "stage": "후속"
+},
+{
+"title": "PHP 이어 자바도 고위험 취약점…정부 긴급 점검 권고(종합)",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261118014051017",
+"time": "2026-11-17T22:55:58+00:00",
+"stage": "종합"
 },
 {
 "title": "'자바' 심각한 취약점 발견에…과기정통부, 긴급 점검·보안조치 당부",
@@ -136,6 +144,8 @@
 "level": "URGENT",
 "latest": "'자바' 심각한 취약점 발견…과기정통부 \"신속 업데이트 필요\"",
 "tok": [
+"PHP",
+"고위험",
 "과기정통부",
 "권고",
 "당부",
@@ -145,6 +155,7 @@
 "신속",
 "심각한",
 "업데이트",
+"이어",
 "자바",
 "자바에서",
 "점검",
@@ -565,7 +576,7 @@
 "id": "25xR1YydWthc0FLNFBiUQoc51601",
 "first": "2026-11-17T16:01:58+00:00",
 "last": "2026-11-17T23:14:13+00:00",
-"updated": "2026-11-17T23:14:20.120284+00:00",
+"updated": "2026-11-17T23:25:20.858127+00:00",
 "headline": "젠슨 황 전 엔비디아 CEO, 복귀 의사 시사",
 "cat": "기타",
 "regions": [],
@@ -574,6 +585,7 @@
 "SBS",
 "www.twig24.com",
 "강원도민일보",
+"강원일보",
 "경기일보",
 "경향신문",
 "국제신문",
@@ -838,6 +850,13 @@
 "stage": "종합"
 },
 {
+"title": "[속보] 엔비디아 이사회 의장 “젠슨 황을 CEO로 재선임할 뜻이 없다”",
+"source": "강원일보",
+"link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFAwY0RTSm1YaUY3cjB4czc0MURfc1BQY3VxeXlRdGNvMHFXLThxc1BHejlBV0l4eV82M2tQR29pblFxdWdrVk5WNWFHNlNhUmZCZy01NHhwR3pFMGs?oc=5",
+"time": "2026-11-17T23:14:07+00:00",
+"stage": "속보"
+},
+{
 "title": "\"재선임 의사 없다\"…엔비디아 의장, '젠슨황 복귀' 일축",
 "source": "SBS",
 "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008850978&plink=RSSLINK&cooper=RSSREADER",
@@ -859,6 +878,7 @@
 "구원투수될까",
 "닷새",
 "돌아갈",
+"뜻이",
 "만에",
 "발언",
 "밝혔지",
@@ -886,8 +906,7 @@
 "원하면",
 "의사",
 "의장",
-"의향",
-"이사회"
+"의향"
 ]
 },
 {
@@ -4167,9 +4186,9 @@
 "sns": {
 "terms": {
 "지진": {
-"n30": 0,
+"n30": 6,
 "base": 0.1,
-"spike": false
+"spike": true
 },
 "화재": {
 "n30": 0,
@@ -4187,12 +4206,12 @@
 "spike": false
 },
 "폭발": {
-"n30": 0,
+"n30": 3,
 "base": 0.1,
 "spike": false
 },
 "붕괴": {
-"n30": 0,
+"n30": 4,
 "base": 0.1,
 "spike": false
 },
@@ -4207,12 +4226,12 @@
 "spike": false
 },
 "속보": {
-"n30": 1,
+"n30": 8,
 "base": 0.1,
-"spike": false
+"spike": true
 },
 "지하철": {
-"n30": 0,
+"n30": 2,
 "base": 0.1,
 "spike": false
 },
@@ -4223,7 +4242,7 @@
 },
 "실종": {
 "n30": 0,
-"base": 0.8,
+"base": 0.7,
 "spike": false
 },
 "단수": {
@@ -4250,207 +4269,231 @@
 "posts": [
 {
 "platform": "YouTube",
-"text": "[속보] 태안 앞바다서 7명 탄 어선 연락 두절… 해경 함정·항공기 투입 수색",
-"handle": "UCLxSbXusEHOpPQG3A8TNFqA",
-"name": "야간데스크",
-"time": "2026-11-17T22:53:22Z",
-"term": "속보",
-"url": "https://www.youtube.com/watch?v=COqIv4oZRXM"
+"text": "필로티 건물 지진에 안전할까?",
+"handle": "UCvhyFLEcxbjzoUGzMmnv3Nw",
+"name": "후천성 책중독TV",
+"time": "2026-11-17T23:24:16Z",
+"term": "지진",
+"url": "https://www.youtube.com/watch?v=V28c5aMBSpw"
 },
 {
 "platform": "YouTube",
-"text": "젠슨황 엔비디아 복귀 !  실적발표 \"예상밖 어닝폭발\"  #김대호박사 #삼전닉스 #코스피5000붕괴",
-"handle": "UCCaWB6Ut2Pbspy8opNXw52w",
-"name": "김대호박사TV",
-"time": "2026-11-17T22:52:00Z",
+"text": "'5000피' 붕괴, 은행 세금은 11배",
+"handle": "UC_L9NvKJclnsIVfRaE_k9QQ",
+"name": "gogibogi86",
+"time": "2026-11-17T23:24:08Z",
+"term": "붕괴",
+"url": "https://www.youtube.com/watch?v=Lq_66LoUk-c"
+},
+{
+"platform": "YouTube",
+"text": "“결혼하고 싶어” 금연 청혼 vs 캠프파이어 눈물 폭발! 최고 시청률 찍은 계약결혼 8회 극과 극 결말",
+"handle": "UCVxsy85Yp7i87KXCEWbhs0g",
+"name": "나는듀오",
+"time": "2026-11-17T23:23:29Z",
 "term": "폭발",
-"url": "https://www.youtube.com/watch?v=TFAuklxGWqM"
+"url": "https://www.youtube.com/watch?v=fxFvoLIKzkM"
 },
 {
 "platform": "YouTube",
-"text": "지하철에 사람을 밀어 넣던 직업이 있었다?! #직업극장",
-"handle": "UCKTpiW8rliZ-BbCnDnkpRMg",
-"name": "직업극장",
-"time": "2026-11-17T22:50:36Z",
-"term": "지하철",
-"url": "https://www.youtube.com/watch?v=S7mOy47emhQ"
+"text": "📉 **코스피 5,000선 붕괴! 엔비디아 호실적이 반전 카드가 될까?**",
+"handle": "UC-ZllC1lVAP5SSAydV9e7vQ",
+"name": "박부장 Stock",
+"time": "2026-11-17T23:23:25Z",
+"term": "붕괴",
+"url": "https://www.youtube.com/watch?v=nMnFazPZewM"
 },
 {
 "platform": "YouTube",
-"text": "한국 마트 하루 하나 바나나와 불 꺼진 한강 지하철 본 외국인들이 감탄한 이유 (해외 레딧 반응) #해외반응 #국뽕 #shorts",
-"handle": "UConlXGkTM70jcLyEzd3o1oQ",
-"name": "해외 시선 K-리포트",
-"time": "2026-11-17T22:49:57Z",
-"term": "지하철",
-"url": "https://www.youtube.com/watch?v=lcs1bHly6js"
+"text": "경북 상주 규모 3.6 지진…올해 한반도 최대, 밤 11시 10분에 무슨 일 #shorts",
+"handle": "UC1-9x2QBu446mdwWedUKHuA",
+"name": "감성비 (GamSeongBee)",
+"time": "2026-11-17T23:21:26Z",
+"term": "지진",
+"url": "https://www.youtube.com/watch?v=qgqtSIR7J74"
 },
 {
 "platform": "YouTube",
-"text": "[이수페타시스 주가전망] *긴급 속보* 실적 60% 급증에 5천억 7공장 증설까지, 결국 주가를 움직일 \"이것\"",
+"text": "코스피 5,000선 붕괴 4,968.48, 외국인 사흘 3조3,743억 순매도",
+"handle": "UChyz26yRPi-MYBXrmcqgmgQ",
+"name": "AI 이슈노트",
+"time": "2026-11-17T23:20:59Z",
+"term": "붕괴",
+"url": "https://www.youtube.com/watch?v=3ziaEQaCqhU"
+},
+{
+"platform": "YouTube",
+"text": "[두산에너빌리티 주가전망] *7분전 속보* 4만 2천 원대 바닥에서 갈립니다, 내일 반등 가능성 74% 보셔야 할 자리.",
 "handle": "UCDxcUb833NGzX543SrpZY0g",
 "name": "아테나 주식",
-"time": "2026-11-17T22:48:38Z",
+"time": "2026-11-17T23:18:29Z",
 "term": "속보",
-"url": "https://www.youtube.com/watch?v=zVdma0wIAHc"
+"url": "https://www.youtube.com/watch?v=SodcpnYLZOU"
 },
 {
 "platform": "YouTube",
-"text": "[OCI홀딩스 주가전망] *7분전 속보* 실적은 4분기 연속 흑자인데 주가는 왜 이럴까? 시장이 놓치고 있는 “이 재료” 때문입니다.",
+"text": "[SMU 재난안전뉴스] 경북 상주 규모 3.6 지진…충북 신고 18건, 지금 알아야 할 대비는?",
+"handle": "UCyB8hWjVghfgzZgj8fwmZrQ",
+"name": "세명대학교 재난안전학과",
+"time": "2026-11-17T23:17:56Z",
+"term": "지진",
+"url": "https://www.youtube.com/watch?v=PI7BYfto_Rs"
+},
+{
+"platform": "YouTube",
+"text": "어젯밤 상주 규모 3.6 지진, 올해 가장 셌다 | 우리 동네도 흔들렸을까?",
+"handle": "UC9tf2Ofh2USnndN9mHUkBhA",
+"name": "연수AI",
+"time": "2026-11-17T23:15:43Z",
+"term": "지진",
+"url": "https://www.youtube.com/watch?v=KExvbVdzNDQ"
+},
+{
+"platform": "YouTube",
+"text": "※긴급속보※ [스텔라루멘 XLM] 세상에 이럴수가!! 결제 10배 터졌다!! 미국 은행까지 왔다!! 2년 바닥 181원.. 249원 다시 갈까?! #스텔라루멘 #xlm #코인시황",
+"handle": "UC-rlkpp7Ld-W_eiCAVLcd9g",
+"name": "불장 연구소",
+"time": "2026-11-17T23:15:02Z",
+"term": "속보",
+"url": "https://www.youtube.com/watch?v=SJ6F4zjsFwo"
+},
+{
+"platform": "YouTube",
+"text": "충격 내년 9월부터 지하철 버스 ‘환승‘ 혜택 사라진다?!",
+"handle": "UCALJIrWxBI68-JI84Jge0ag",
+"name": "에스더의 저녁tv",
+"time": "2026-11-17T23:11:05Z",
+"term": "지하철",
+"url": "https://www.youtube.com/watch?v=vlIyxTReZEs"
+},
+{
+"platform": "YouTube",
+"text": "XRP 찐바닥 신호 엔비디아 미쳤다 기대감 폭발 / 알트코인 / 암호화폐 / 비트코인 / 이더리움",
+"handle": "UCwvGG5LTV5w3RvPy_uUMWDg",
+"name": "경제적 코인아빠",
+"time": "2026-11-17T23:10:10Z",
+"term": "폭발",
+"url": "https://www.youtube.com/watch?v=TmpZgBmI_iI"
+},
+{
+"platform": "YouTube",
+"text": "상주 지진 [키워드 NOW][뉴스퍼레이드]",
+"handle": "UCWlV3Lz_55UaX4JsMj-z__Q",
+"name": "뉴스TVCHOSUN",
+"time": "2026-11-17T23:09:50Z",
+"term": "지진",
+"url": "https://www.youtube.com/watch?v=562pi-_swBU"
+},
+{
+"platform": "YouTube",
+"text": "챗GPT 새 모델, 같은 요금에 더 많이 써요 #AI속보 #Shorts",
+"handle": "UCohy6qL9xMLHP1fza5AthdQ",
+"name": "SIRD | AI 속보",
+"time": "2026-11-17T23:08:57Z",
+"term": "속보",
+"url": "https://www.youtube.com/watch?v=GiLXI74Tqn8"
+},
+{
+"platform": "YouTube",
+"text": "[속보효-LIVE] 엔비디아 컨퍼런스콜 같이 들어요~",
+"handle": "UCxvdCnvGODDyuvnELnLkQWw",
+"name": "이효석아카데미",
+"time": "2026-11-17T23:08:54Z",
+"term": "속보",
+"url": "https://www.youtube.com/watch?v=f2b8k98-u_Y"
+},
+{
+"platform": "YouTube",
+"text": "[두산 주가전망] *새벽 속보* 와..코스피 5천선 이탈에 미국 반도체 약세까지 겹쳤네요, 오늘 두산 시초가 반등 가능성 74%",
 "handle": "UCDxcUb833NGzX543SrpZY0g",
 "name": "아테나 주식",
-"time": "2026-11-17T22:47:08Z",
+"time": "2026-11-17T23:08:33Z",
 "term": "속보",
-"url": "https://www.youtube.com/watch?v=OTyhBXdnXbk"
+"url": "https://www.youtube.com/watch?v=C9a8NMlAJpM"
 },
 {
 "platform": "YouTube",
-"text": "기후변화가 지진을 일으키는 과학적 원리 4가지",
-"handle": "UCzICyg9MDyh6Q7CfHMgyrRQ",
-"name": "2MY",
-"time": "2026-11-17T22:45:19Z",
-"term": "지진",
-"url": "https://www.youtube.com/watch?v=JArYMcgc0vc"
-},
-{
-"platform": "YouTube",
-"text": "[속보/11/18/수] 엔비디아 어닝 및 컨퍼런스콜 핵심 요약 정리",
-"handle": "UCJrRW57llzx2hX_LmRoCkng",
-"name": "미주놀 - 미국.주식.시장에서 놀자",
-"time": "2026-11-17T22:41:08Z",
+"text": "[속보] '90도 인사' 고개 숙인 세무냥이 \"죄송\"..\"개조된 계산기는 왜?\"..경찰 조사 중 - [MBC 뉴스속보] MBC뉴스 2026년 11월 17일",
+"handle": "UCF4Wxdo3inmxP-Y59wXDsFw",
+"name": "MBCNEWS",
+"time": "2026-11-17T23:05:53Z",
 "term": "속보",
-"url": "https://www.youtube.com/watch?v=33QXk7cdazk"
+"url": "https://www.youtube.com/watch?v=wh-IZZ7UoW8"
 },
 {
 "platform": "YouTube",
-"text": "코스피 2.59%↓ 4,968·5천선 붕괴 | 11월 17일 국내시황",
-"handle": "UC7rOAcQ7OhccvlnLRczLVBQ",
-"name": "늘감사",
-"time": "2026-11-17T22:41:07Z",
+"text": "(속보)'만들고 싶다면 침묵하십시오' 청와대 앞 신동욱 깜짝 발언 왜?",
+"handle": "UC9nwklTlpS7BHce6DllyD0g",
+"name": "우기양양",
+"time": "2026-11-17T23:05:35Z",
+"term": "속보",
+"url": "https://www.youtube.com/watch?v=Q8VJgE1lS9I"
+},
+{
+"platform": "YouTube",
+"text": "[속보] 엔비디아 실적 대박?! 하지만 지금 국가안보국 통신망, 공항, 은행까지 멈췄다! 지금 미국에서 계속 벌어지는 이상한 일들, 사이버 공격인가 시스템 붕괴인가? 주가에 영향은",
+"handle": "UCHpGooMnVgnILywqrpqvZcQ",
+"name": "힐링여행자 ",
+"time": "2026-11-17T23:04:41Z",
 "term": "붕괴",
-"url": "https://www.youtube.com/watch?v=LWkbAYxiG9c"
+"url": "https://www.youtube.com/watch?v=NcoGBbMKU1k"
 },
 {
 "platform": "YouTube",
-"text": "[오리콤 주가전망] 코스닥 2% 무너진 날 혼자 19% 폭발, 잠자던 거래량이 깨어난 진짜 이유!!",
-"handle": "UCnJFkxlzpReiiQG4-tiOUbw",
-"name": "일간증시특보LIVE",
-"time": "2026-11-17T22:40:35Z",
-"term": "폭발",
-"url": "https://www.youtube.com/watch?v=IWtzWArLo-g"
-},
-{
-"platform": "YouTube",
-"text": "[🔴속보] 엔비디아 호실적에 시간외 3%대 반등!…코어위브·TSMC·SK하이닉스까지 AI 인프라주 일제히 환호/ 연합뉴스TV(YonhapnewsTV)",
-"handle": "UCTHCOPwqNfZ0uiKOvFyhGwg",
-"name": "연합뉴스TV",
-"time": "2026-11-17T22:37:33Z",
-"term": "속보",
-"url": "https://www.youtube.com/watch?v=tMqFCTiByLk"
-},
-{
-"platform": "YouTube",
-"text": "오세훈 결승골 폭발! #한국카타르 #오세훈 #손흥민 #한국축구 #축구국가대표 #카타르전 #축구쇼츠 #스포츠뉴스 #shorts",
-"handle": "UCGC99wje3FjIr7TirQrqEng",
-"name": "Freehan",
-"time": "2026-11-17T22:37:13Z",
-"term": "폭발",
-"url": "https://www.youtube.com/watch?v=KnQvHzkZgkE"
-},
-{
-"platform": "YouTube",
-"text": "코스피 5000선 붕괴, 젠슨 황 사임 영향은? #shorts",
-"handle": "UCGJ4ZC0VW1p-sNqjyGEO1PA",
-"name": "큐사인 1분 뉴스(News)",
-"time": "2026-11-17T22:36:56Z",
-"term": "붕괴",
-"url": "https://www.youtube.com/watch?v=Kln9ZqDhrcc"
-},
-{
-"platform": "YouTube",
-"text": "지하철에선 조용하게, 내가 말하면 주변 소리 ON | 갤럭시 버즈4 프로 #갤럭시버즈4프로 #노이즈캔슬링 #쇼츠",
-"handle": "UCWqZ5fw4UUElveubsvhTYig",
-"name": "똑템",
-"time": "2026-11-17T22:35:01Z",
+"text": "타대생 소개팅, 지하철 몇 정거장까지 가능? #shorts #소개팅 #대학생",
+"handle": "UCw5L8d2LpojtPTszoSGB2zA",
+"name": "썸타임 | 대학생 소개팅 미팅 과팅",
+"time": "2026-11-17T23:00:37Z",
 "term": "지하철",
-"url": "https://www.youtube.com/watch?v=Cjvfk2JHqAI"
+"url": "https://www.youtube.com/watch?v=ZE2wPJXGdPk"
 },
 {
 "platform": "YouTube",
-"text": "어젯밤 진도 4, 수능 날이면 시험 멈춰 | 상주 지진",
-"handle": "UCLWXlnTSN19aPBO2gB7C-OA",
-"name": "잡지식",
-"time": "2026-11-17T22:34:41Z",
-"term": "지진",
-"url": "https://www.youtube.com/watch?v=za4McreevpE"
+"text": "멸치 똥이 폭발한다고?! 🐟💣 뱃속에 숨겨진 깜짝 놀랄 비밀! | 코믹 애니메이션",
+"handle": "UCJZVC59UIx9a2go3o8YZHCg",
+"name": "디노위즈",
+"time": "2026-11-17T23:00:35Z",
+"term": "폭발",
+"url": "https://www.youtube.com/watch?v=R6NnYCkLkQ0"
 },
 {
 "platform": "YouTube",
-"text": "코스피 5천선 붕괴, 엔비디아는 예상 넘었다 | 11월 18일 하루한장 #뉴스요약 #이란 #하루한장",
-"handle": "UCU2TWDkYYr9HMlqQPXM4vQw",
-"name": "하루한장",
-"time": "2026-11-17T22:33:29Z",
-"term": "붕괴",
-"url": "https://www.youtube.com/watch?v=GTMqocgmw94"
-},
-{
-"platform": "YouTube",
-"text": "우크라이나 대공습에 크림대교 일부 붕괴…러시아, 키이우 주요 교량 보복 타격",
-"handle": "UCpa0j5eZRgNljp6iU9mAJwg",
-"name": "출근길 30초 뉴스",
-"time": "2026-11-17T22:33:29Z",
-"term": "붕괴",
-"url": "https://www.youtube.com/watch?v=J3ep8cS1_TQ"
-},
-{
-"platform": "YouTube",
-"text": "상주 규모 3.6 지진 올해 최대, 수능 헌법소원·D-1 대책 #쇼츠",
-"handle": "UC6mjrgL9hVmwrc6O9l9qTqw",
-"name": "todaynewsnow",
-"time": "2026-11-17T22:33:18Z",
-"term": "지진",
-"url": "https://www.youtube.com/watch?v=TrF2gbY5yJo"
-},
-{
-"platform": "YouTube",
-"text": "코스피 9개월 만에 5,000선 붕괴… 외국인 1.4조 매도 📉 11/17 국내장 #코스피 #국내증시",
-"handle": "UCyAoeWgE06Uzqa-GnNHH5mQ",
-"name": "머니문",
-"time": "2026-11-17T22:33:11Z",
-"term": "붕괴",
-"url": "https://www.youtube.com/watch?v=4oCpj_Ib4F8"
-},
-{
-"platform": "YouTube",
-"text": "코스피 5천선 붕괴, 엔비디아 실적 반응은 #Shorts",
-"handle": "UCmXsstMtGq3kfHpYar2fazw",
-"name": "응서기.지식로그",
-"time": "2026-11-17T22:31:33Z",
-"term": "붕괴",
-"url": "https://www.youtube.com/watch?v=fUOmeDdJM3Q"
-},
-{
-"platform": "YouTube",
-"text": "코스피 5000 붕괴, 종가 4,968 하회 이유 정리 #Shorts",
-"handle": "UCJLIdp8dCYC7HxPklcsew3A",
-"name": "DailyWave",
-"time": "2026-11-17T22:30:37Z",
-"term": "붕괴",
-"url": "https://www.youtube.com/watch?v=pe7nQzqvhKk"
-},
-{
-"platform": "YouTube",
-"text": "[속보] 젠슨 황 '후폭풍'에 9개월 만에 4천피…'개미지옥' 코스피 \"여기도 바닥 아냐?\" /2026년 11월 17일(화)/KBS",
-"handle": "UCcQTRi69dsVYHN3exePtZ1A",
-"name": "KBS News",
-"time": "2026-11-17T22:24:19Z",
+"text": "[옵토닉스 주가전망] 충격적인 속보 전해드립니다. 긴급으로 말씀드리겠습니다.",
+"handle": "UCcBb4vos4WbQw9xOywWZFMQ",
+"name": "영웅주식",
+"time": "2026-11-17T23:00:04Z",
 "term": "속보",
-"url": "https://www.youtube.com/watch?v=RV7gkHzpPKc"
+"url": "https://www.youtube.com/watch?v=1iJ2pZJmfu4"
+},
+{
+"platform": "YouTube",
+"text": "오사카 앞바다에서 규모 9 지진이 난다면? 쓰나미 시뮬레이션",
+"handle": "UCRTMhNahSJrj5YxN8jKMddw",
+"name": "사건사고보고서",
+"time": "2026-11-17T23:00:03Z",
+"term": "지진",
+"url": "https://www.youtube.com/watch?v=jkwIdjvsFzY"
 }
 ],
-"spikes": [],
+"spikes": [
+{
+"term": "지진",
+"n30": 6,
+"base": 0.1,
+"spike": true,
+"since": "2026-11-17T23:25:20.858127+00:00"
+},
+{
+"term": "속보",
+"n30": 8,
+"base": 0.1,
+"spike": true,
+"since": "2026-11-17T23:25:20.858127+00:00"
+}
+],
 "baseline": {
 "지진": 0.05,
-"화재": 0.06,
+"화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
 "폭발": 0.05,
@@ -4460,7 +4503,7 @@
 "속보": 0.05,
 "지하철": 0.05,
 "사고": 0.05,
-"실종": 0.69,
+"실종": 0.62,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -4470,204 +4513,213 @@
 "ytPosts": [
 {
 "platform": "YouTube",
-"text": "[속보] 태안 앞바다서 7명 탄 어선 연락 두절… 해경 함정·항공기 투입 수색",
-"handle": "UCLxSbXusEHOpPQG3A8TNFqA",
-"name": "야간데스크",
-"time": "2026-11-17T22:53:22Z",
-"term": "속보",
-"url": "https://www.youtube.com/watch?v=COqIv4oZRXM"
+"text": "📉 **코스피 5,000선 붕괴! 엔비디아 호실적이 반전 카드가 될까?**",
+"handle": "UC-ZllC1lVAP5SSAydV9e7vQ",
+"name": "박부장 Stock",
+"time": "2026-11-17T23:23:25Z",
+"term": "붕괴",
+"url": "https://www.youtube.com/watch?v=nMnFazPZewM"
 },
 {
 "platform": "YouTube",
-"text": "젠슨황 엔비디아 복귀 !  실적발표 \"예상밖 어닝폭발\"  #김대호박사 #삼전닉스 #코스피5000붕괴",
-"handle": "UCCaWB6Ut2Pbspy8opNXw52w",
-"name": "김대호박사TV",
-"time": "2026-11-17T22:52:00Z",
+"text": "“결혼하고 싶어” 금연 청혼 vs 캠프파이어 눈물 폭발! 최고 시청률 찍은 계약결혼 8회 극과 극 결말",
+"handle": "UCVxsy85Yp7i87KXCEWbhs0g",
+"name": "나는듀오",
+"time": "2026-11-17T23:23:29Z",
 "term": "폭발",
-"url": "https://www.youtube.com/watch?v=TFAuklxGWqM"
+"url": "https://www.youtube.com/watch?v=fxFvoLIKzkM"
 },
 {
 "platform": "YouTube",
-"text": "지하철에 사람을 밀어 넣던 직업이 있었다?! #직업극장",
-"handle": "UCKTpiW8rliZ-BbCnDnkpRMg",
-"name": "직업극장",
-"time": "2026-11-17T22:50:36Z",
-"term": "지하철",
-"url": "https://www.youtube.com/watch?v=S7mOy47emhQ"
+"text": "'5000피' 붕괴, 은행 세금은 11배",
+"handle": "UC_L9NvKJclnsIVfRaE_k9QQ",
+"name": "gogibogi86",
+"time": "2026-11-17T23:24:08Z",
+"term": "붕괴",
+"url": "https://www.youtube.com/watch?v=Lq_66LoUk-c"
 },
 {
 "platform": "YouTube",
-"text": "한국 마트 하루 하나 바나나와 불 꺼진 한강 지하철 본 외국인들이 감탄한 이유 (해외 레딧 반응) #해외반응 #국뽕 #shorts",
-"handle": "UConlXGkTM70jcLyEzd3o1oQ",
-"name": "해외 시선 K-리포트",
-"time": "2026-11-17T22:49:57Z",
-"term": "지하철",
-"url": "https://www.youtube.com/watch?v=lcs1bHly6js"
+"text": "필로티 건물 지진에 안전할까?",
+"handle": "UCvhyFLEcxbjzoUGzMmnv3Nw",
+"name": "후천성 책중독TV",
+"time": "2026-11-17T23:24:16Z",
+"term": "지진",
+"url": "https://www.youtube.com/watch?v=V28c5aMBSpw"
 },
 {
 "platform": "YouTube",
-"text": "[이수페타시스 주가전망] *긴급 속보* 실적 60% 급증에 5천억 7공장 증설까지, 결국 주가를 움직일 \"이것\"",
+"text": "경북 상주 규모 3.6 지진…올해 한반도 최대, 밤 11시 10분에 무슨 일 #shorts",
+"handle": "UC1-9x2QBu446mdwWedUKHuA",
+"name": "감성비 (GamSeongBee)",
+"time": "2026-11-17T23:21:26Z",
+"term": "지진",
+"url": "https://www.youtube.com/watch?v=qgqtSIR7J74"
+},
+{
+"platform": "YouTube",
+"text": "코스피 5,000선 붕괴 4,968.48, 외국인 사흘 3조3,743억 순매도",
+"handle": "UChyz26yRPi-MYBXrmcqgmgQ",
+"name": "AI 이슈노트",
+"time": "2026-11-17T23:20:59Z",
+"term": "붕괴",
+"url": "https://www.youtube.com/watch?v=3ziaEQaCqhU"
+},
+{
+"platform": "YouTube",
+"text": "[두산에너빌리티 주가전망] *7분전 속보* 4만 2천 원대 바닥에서 갈립니다, 내일 반등 가능성 74% 보셔야 할 자리.",
 "handle": "UCDxcUb833NGzX543SrpZY0g",
 "name": "아테나 주식",
-"time": "2026-11-17T22:48:38Z",
+"time": "2026-11-17T23:18:29Z",
 "term": "속보",
-"url": "https://www.youtube.com/watch?v=zVdma0wIAHc"
+"url": "https://www.youtube.com/watch?v=SodcpnYLZOU"
 },
 {
 "platform": "YouTube",
-"text": "[OCI홀딩스 주가전망] *7분전 속보* 실적은 4분기 연속 흑자인데 주가는 왜 이럴까? 시장이 놓치고 있는 “이 재료” 때문입니다.",
+"text": "[SMU 재난안전뉴스] 경북 상주 규모 3.6 지진…충북 신고 18건, 지금 알아야 할 대비는?",
+"handle": "UCyB8hWjVghfgzZgj8fwmZrQ",
+"name": "세명대학교 재난안전학과",
+"time": "2026-11-17T23:17:56Z",
+"term": "지진",
+"url": "https://www.youtube.com/watch?v=PI7BYfto_Rs"
+},
+{
+"platform": "YouTube",
+"text": "※긴급속보※ [스텔라루멘 XLM] 세상에 이럴수가!! 결제 10배 터졌다!! 미국 은행까지 왔다!! 2년 바닥 181원.. 249원 다시 갈까?! #스텔라루멘 #xlm #코인시황",
+"handle": "UC-rlkpp7Ld-W_eiCAVLcd9g",
+"name": "불장 연구소",
+"time": "2026-11-17T23:15:02Z",
+"term": "속보",
+"url": "https://www.youtube.com/watch?v=SJ6F4zjsFwo"
+},
+{
+"platform": "YouTube",
+"text": "어젯밤 상주 규모 3.6 지진, 올해 가장 셌다 | 우리 동네도 흔들렸을까?",
+"handle": "UC9tf2Ofh2USnndN9mHUkBhA",
+"name": "연수AI",
+"time": "2026-11-17T23:15:43Z",
+"term": "지진",
+"url": "https://www.youtube.com/watch?v=KExvbVdzNDQ"
+},
+{
+"platform": "YouTube",
+"text": "XRP 찐바닥 신호 엔비디아 미쳤다 기대감 폭발 / 알트코인 / 암호화폐 / 비트코인 / 이더리움",
+"handle": "UCwvGG5LTV5w3RvPy_uUMWDg",
+"name": "경제적 코인아빠",
+"time": "2026-11-17T23:10:10Z",
+"term": "폭발",
+"url": "https://www.youtube.com/watch?v=TmpZgBmI_iI"
+},
+{
+"platform": "YouTube",
+"text": "충격 내년 9월부터 지하철 버스 ‘환승‘ 혜택 사라진다?!",
+"handle": "UCALJIrWxBI68-JI84Jge0ag",
+"name": "에스더의 저녁tv",
+"time": "2026-11-17T23:11:05Z",
+"term": "지하철",
+"url": "https://www.youtube.com/watch?v=vlIyxTReZEs"
+},
+{
+"platform": "YouTube",
+"text": "[속보효-LIVE] 엔비디아 컨퍼런스콜 같이 들어요~",
+"handle": "UCxvdCnvGODDyuvnELnLkQWw",
+"name": "이효석아카데미",
+"time": "2026-11-17T23:08:54Z",
+"term": "속보",
+"url": "https://www.youtube.com/watch?v=f2b8k98-u_Y"
+},
+{
+"platform": "YouTube",
+"text": "상주 지진 [키워드 NOW][뉴스퍼레이드]",
+"handle": "UCWlV3Lz_55UaX4JsMj-z__Q",
+"name": "뉴스TVCHOSUN",
+"time": "2026-11-17T23:09:50Z",
+"term": "지진",
+"url": "https://www.youtube.com/watch?v=562pi-_swBU"
+},
+{
+"platform": "YouTube",
+"text": "챗GPT 새 모델, 같은 요금에 더 많이 써요 #AI속보 #Shorts",
+"handle": "UCohy6qL9xMLHP1fza5AthdQ",
+"name": "SIRD | AI 속보",
+"time": "2026-11-17T23:08:57Z",
+"term": "속보",
+"url": "https://www.youtube.com/watch?v=GiLXI74Tqn8"
+},
+{
+"platform": "YouTube",
+"text": "[두산 주가전망] *새벽 속보* 와..코스피 5천선 이탈에 미국 반도체 약세까지 겹쳤네요, 오늘 두산 시초가 반등 가능성 74%",
 "handle": "UCDxcUb833NGzX543SrpZY0g",
 "name": "아테나 주식",
-"time": "2026-11-17T22:47:08Z",
+"time": "2026-11-17T23:08:33Z",
 "term": "속보",
-"url": "https://www.youtube.com/watch?v=OTyhBXdnXbk"
+"url": "https://www.youtube.com/watch?v=C9a8NMlAJpM"
 },
 {
 "platform": "YouTube",
-"text": "기후변화가 지진을 일으키는 과학적 원리 4가지",
-"handle": "UCzICyg9MDyh6Q7CfHMgyrRQ",
-"name": "2MY",
-"time": "2026-11-17T22:45:19Z",
-"term": "지진",
-"url": "https://www.youtube.com/watch?v=JArYMcgc0vc"
+"text": "[속보] '90도 인사' 고개 숙인 세무냥이 \"죄송\"..\"개조된 계산기는 왜?\"..경찰 조사 중 - [MBC 뉴스속보] MBC뉴스 2026년 11월 17일",
+"handle": "UCF4Wxdo3inmxP-Y59wXDsFw",
+"name": "MBCNEWS",
+"time": "2026-11-17T23:05:53Z",
+"term": "속보",
+"url": "https://www.youtube.com/watch?v=wh-IZZ7UoW8"
 },
 {
 "platform": "YouTube",
-"text": "코스피 2.59%↓ 4,968·5천선 붕괴 | 11월 17일 국내시황",
-"handle": "UC7rOAcQ7OhccvlnLRczLVBQ",
-"name": "늘감사",
-"time": "2026-11-17T22:41:07Z",
+"text": "(속보)'만들고 싶다면 침묵하십시오' 청와대 앞 신동욱 깜짝 발언 왜?",
+"handle": "UC9nwklTlpS7BHce6DllyD0g",
+"name": "우기양양",
+"time": "2026-11-17T23:05:35Z",
+"term": "속보",
+"url": "https://www.youtube.com/watch?v=Q8VJgE1lS9I"
+},
+{
+"platform": "YouTube",
+"text": "[속보] 엔비디아 실적 대박?! 하지만 지금 국가안보국 통신망, 공항, 은행까지 멈췄다! 지금 미국에서 계속 벌어지는 이상한 일들, 사이버 공격인가 시스템 붕괴인가? 주가에 영향은",
+"handle": "UCHpGooMnVgnILywqrpqvZcQ",
+"name": "힐링여행자 ",
+"time": "2026-11-17T23:04:41Z",
 "term": "붕괴",
-"url": "https://www.youtube.com/watch?v=LWkbAYxiG9c"
+"url": "https://www.youtube.com/watch?v=NcoGBbMKU1k"
 },
 {
 "platform": "YouTube",
-"text": "[오리콤 주가전망] 코스닥 2% 무너진 날 혼자 19% 폭발, 잠자던 거래량이 깨어난 진짜 이유!!",
-"handle": "UCnJFkxlzpReiiQG4-tiOUbw",
-"name": "일간증시특보LIVE",
-"time": "2026-11-17T22:40:35Z",
-"term": "폭발",
-"url": "https://www.youtube.com/watch?v=IWtzWArLo-g"
-},
-{
-"platform": "YouTube",
-"text": "[속보/11/18/수] 엔비디아 어닝 및 컨퍼런스콜 핵심 요약 정리",
-"handle": "UCJrRW57llzx2hX_LmRoCkng",
-"name": "미주놀 - 미국.주식.시장에서 놀자",
-"time": "2026-11-17T22:41:08Z",
-"term": "속보",
-"url": "https://www.youtube.com/watch?v=33QXk7cdazk"
-},
-{
-"platform": "YouTube",
-"text": "오세훈 결승골 폭발! #한국카타르 #오세훈 #손흥민 #한국축구 #축구국가대표 #카타르전 #축구쇼츠 #스포츠뉴스 #shorts",
-"handle": "UCGC99wje3FjIr7TirQrqEng",
-"name": "Freehan",
-"time": "2026-11-17T22:37:13Z",
-"term": "폭발",
-"url": "https://www.youtube.com/watch?v=KnQvHzkZgkE"
-},
-{
-"platform": "YouTube",
-"text": "코스피 5000선 붕괴, 젠슨 황 사임 영향은? #shorts",
-"handle": "UCGJ4ZC0VW1p-sNqjyGEO1PA",
-"name": "큐사인 1분 뉴스(News)",
-"time": "2026-11-17T22:36:56Z",
-"term": "붕괴",
-"url": "https://www.youtube.com/watch?v=Kln9ZqDhrcc"
-},
-{
-"platform": "YouTube",
-"text": "[🔴속보] 엔비디아 호실적에 시간외 3%대 반등!…코어위브·TSMC·SK하이닉스까지 AI 인프라주 일제히 환호/ 연합뉴스TV(YonhapnewsTV)",
-"handle": "UCTHCOPwqNfZ0uiKOvFyhGwg",
-"name": "연합뉴스TV",
-"time": "2026-11-17T22:37:33Z",
-"term": "속보",
-"url": "https://www.youtube.com/watch?v=tMqFCTiByLk"
-},
-{
-"platform": "YouTube",
-"text": "어젯밤 진도 4, 수능 날이면 시험 멈춰 | 상주 지진",
-"handle": "UCLWXlnTSN19aPBO2gB7C-OA",
-"name": "잡지식",
-"time": "2026-11-17T22:34:41Z",
+"text": "오사카 앞바다에서 규모 9 지진이 난다면? 쓰나미 시뮬레이션",
+"handle": "UCRTMhNahSJrj5YxN8jKMddw",
+"name": "사건사고보고서",
+"time": "2026-11-17T23:00:03Z",
 "term": "지진",
-"url": "https://www.youtube.com/watch?v=za4McreevpE"
+"url": "https://www.youtube.com/watch?v=jkwIdjvsFzY"
 },
 {
 "platform": "YouTube",
-"text": "지하철에선 조용하게, 내가 말하면 주변 소리 ON | 갤럭시 버즈4 프로 #갤럭시버즈4프로 #노이즈캔슬링 #쇼츠",
-"handle": "UCWqZ5fw4UUElveubsvhTYig",
-"name": "똑템",
-"time": "2026-11-17T22:35:01Z",
+"text": "타대생 소개팅, 지하철 몇 정거장까지 가능? #shorts #소개팅 #대학생",
+"handle": "UCw5L8d2LpojtPTszoSGB2zA",
+"name": "썸타임 | 대학생 소개팅 미팅 과팅",
+"time": "2026-11-17T23:00:37Z",
 "term": "지하철",
-"url": "https://www.youtube.com/watch?v=Cjvfk2JHqAI"
+"url": "https://www.youtube.com/watch?v=ZE2wPJXGdPk"
 },
 {
 "platform": "YouTube",
-"text": "코스피 5천선 붕괴, 엔비디아 실적 반응은 #Shorts",
-"handle": "UCmXsstMtGq3kfHpYar2fazw",
-"name": "응서기.지식로그",
-"time": "2026-11-17T22:31:33Z",
-"term": "붕괴",
-"url": "https://www.youtube.com/watch?v=fUOmeDdJM3Q"
+"text": "멸치 똥이 폭발한다고?! 🐟💣 뱃속에 숨겨진 깜짝 놀랄 비밀! | 코믹 애니메이션",
+"handle": "UCJZVC59UIx9a2go3o8YZHCg",
+"name": "디노위즈",
+"time": "2026-11-17T23:00:35Z",
+"term": "폭발",
+"url": "https://www.youtube.com/watch?v=R6NnYCkLkQ0"
 },
 {
 "platform": "YouTube",
-"text": "코스피 5천선 붕괴, 엔비디아는 예상 넘었다 | 11월 18일 하루한장 #뉴스요약 #이란 #하루한장",
-"handle": "UCU2TWDkYYr9HMlqQPXM4vQw",
-"name": "하루한장",
-"time": "2026-11-17T22:33:29Z",
-"term": "붕괴",
-"url": "https://www.youtube.com/watch?v=GTMqocgmw94"
-},
-{
-"platform": "YouTube",
-"text": "우크라이나 대공습에 크림대교 일부 붕괴…러시아, 키이우 주요 교량 보복 타격",
-"handle": "UCpa0j5eZRgNljp6iU9mAJwg",
-"name": "출근길 30초 뉴스",
-"time": "2026-11-17T22:33:29Z",
-"term": "붕괴",
-"url": "https://www.youtube.com/watch?v=J3ep8cS1_TQ"
-},
-{
-"platform": "YouTube",
-"text": "코스피 9개월 만에 5,000선 붕괴… 외국인 1.4조 매도 📉 11/17 국내장 #코스피 #국내증시",
-"handle": "UCyAoeWgE06Uzqa-GnNHH5mQ",
-"name": "머니문",
-"time": "2026-11-17T22:33:11Z",
-"term": "붕괴",
-"url": "https://www.youtube.com/watch?v=4oCpj_Ib4F8"
-},
-{
-"platform": "YouTube",
-"text": "상주 규모 3.6 지진 올해 최대, 수능 헌법소원·D-1 대책 #쇼츠",
-"handle": "UC6mjrgL9hVmwrc6O9l9qTqw",
-"name": "todaynewsnow",
-"time": "2026-11-17T22:33:18Z",
-"term": "지진",
-"url": "https://www.youtube.com/watch?v=TrF2gbY5yJo"
-},
-{
-"platform": "YouTube",
-"text": "코스피 5000 붕괴, 종가 4,968 하회 이유 정리 #Shorts",
-"handle": "UCJLIdp8dCYC7HxPklcsew3A",
-"name": "DailyWave",
-"time": "2026-11-17T22:30:37Z",
-"term": "붕괴",
-"url": "https://www.youtube.com/watch?v=pe7nQzqvhKk"
-},
-{
-"platform": "YouTube",
-"text": "[속보] 젠슨 황 '후폭풍'에 9개월 만에 4천피…'개미지옥' 코스피 \"여기도 바닥 아냐?\" /2026년 11월 17일(화)/KBS",
-"handle": "UCcQTRi69dsVYHN3exePtZ1A",
-"name": "KBS News",
-"time": "2026-11-17T22:24:19Z",
+"text": "[옵토닉스 주가전망] 충격적인 속보 전해드립니다. 긴급으로 말씀드리겠습니다.",
+"handle": "UCcBb4vos4WbQw9xOywWZFMQ",
+"name": "영웅주식",
+"time": "2026-11-17T23:00:04Z",
 "term": "속보",
-"url": "https://www.youtube.com/watch?v=RV7gkHzpPKc"
+"url": "https://www.youtube.com/watch?v=1iJ2pZJmfu4"
 }
 ],
-"ytAt": "2026-11-17T22:54:28.566594+00:00"
+"ytAt": "2026-11-17T23:25:20.858127+00:00"
 },
 "trends": [
 {
@@ -4725,24 +4777,6 @@
 "new": true
 },
 {
-"term": "s&p 500",
-"traffic": "500+",
-"time": "2026-11-17T22:10:00+00:00",
-"news": [
-{
-"title": "Dow Drops 849 Points, S&P 500 Lowest Since July",
-"source": "조선일보",
-"link": "https://www.chosun.com/english/market-money-en/2026/11/18/LXNSPTUW4FCDBNR3KASFM3YORY/"
-},
-{
-"title": "Dow drops more than 800 points, S&P 500 posts lowest close since July",
-"source": "CNBC",
-"link": "https://www.cnbc.com/2026/11/16/stock-market-today-live-updates.html"
-}
-],
-"new": true
-},
-{
 "term": "핑클",
 "traffic": "200+",
 "time": "2026-11-17T22:10:00+00:00",
@@ -4761,37 +4795,73 @@
 "new": false
 },
 {
-"term": "weather",
-"traffic": "2000+",
+"term": "s&p 500",
+"traffic": "1000+",
 "time": "2026-11-17T22:10:00+00:00",
 "news": [
 {
-"title": "Pleasant midweek Carolina weather ahead of possible weekend showers",
-"source": "Queen City News",
-"link": "https://www.qcnews.com/weather/weather-forecast/pleasant-midweek-carolina-weather-ahead-of-possible-weekend-showers/"
+"title": "Dow Drops 849 Points, S&P 500 Lowest Since July",
+"source": "조선일보",
+"link": "https://www.chosun.com/english/market-money-en/2026/11/18/LXNSPTUW4FCDBNR3KASFM3YORY/"
 },
 {
-"title": "FIRST ALERT: Warming Up This Week, Watching a Coastal Low This Weekend",
-"source": "FOX Carolina News",
-"link": "https://www.foxcarolina.com/2026/11/17/first-alert-warming-up-this-week-watching-coastal-low-this-weekend/"
+"title": "Dow drops more than 800 points, S&P 500 posts lowest close since July",
+"source": "CNBC",
+"link": "https://www.cnbc.com/2026/11/16/stock-market-today-live-updates.html"
 }
 ],
 "new": true
 },
 {
-"term": "openjdk",
-"traffic": "200+",
+"term": "weather",
+"traffic": "2000+",
+"time": "2026-11-17T22:10:00+00:00",
+"news": [
+{
+"title": "Weather Forecast: Warming trend builds through a dry stretch ahead",
+"source": "Finger Lakes Daily News",
+"link": "https://www.fingerlakesdailynews.com/weather/2026-11-18-evening-weekly-outlook-warming-trend-builds-through-a-dry-stretch-ahead/"
+},
+{
+"title": "Enjoy the warmth while you can",
+"source": "WWNY",
+"link": "https://www.wwnytv.com/2026/11/17/enjoy-warmth-while-you-can/"
+}
+],
+"new": true
+},
+{
+"term": "nvda",
+"traffic": "500+",
 "time": "2026-11-17T22:00:00+00:00",
 "news": [
 {
-"title": "A.I. Helps Find Major Security Bug in Java, a Software Platform Vital to the Internet",
-"source": "The New York Times",
-"link": "https://www.nytimes.com/2026/11/17/us/politics/ai-security-bug-java.html"
+"title": "Nvidia interim CEO Kress says it’s ‘business as usual’ at company: Live updates",
+"source": "CNBC",
+"link": "https://www.cnbc.com/2026/11/17/nvidia-nvda-earnings-report-q3-2027.html"
 },
 {
-"title": "Oracle to Patch 11 Java Flaws Today as Critical OpenJDK RCE (CVE-2026-114938) Report Emerges",
-"source": "The Hacker News",
-"link": "https://thehackernews.com/2026/11/oracle-to-patch-11-java-flaws-today-as.html"
+"title": "Nvidia earnings live: Nvidia posts Q3 beat as revenue rose 103% YOY to $115.8B, board says it will not reinstate Jensen Huang as CEO",
+"source": "Yahoo Finance",
+"link": "https://finance.yahoo.com/technology/live/nvidia-earnings-live-nvidia-posts-q3-beat-board-says-it-will-not-reinstate-jensen-huang-as-ceo-221428433.html"
+}
+],
+"new": true
+},
+{
+"term": "농구",
+"traffic": "1000+",
+"time": "2026-11-17T22:00:00+00:00",
+"news": [
+{
+"title": "프로농구 정관장, DB 잡고 파죽의 5연승…4쿼터 해결사는 변준형",
+"source": "KBS 뉴스",
+"link": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8715527"
+},
+{
+"title": "변준형, 4쿼터에만 13점…정관장 5연승 질주",
+"source": "SBS 뉴스",
+"link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008850701"
 }
 ],
 "new": true
@@ -4828,24 +4898,6 @@
 "title": "내란특검 완패 뒤 벌어진 일... \"나도 무죄\" 쏟아졌다",
 "source": "OhmyNews",
 "link": "https://www.ohmynews.com/NWS_Web/Series/series_premium_pg.aspx?CNTN_CD=A0003285743"
-}
-],
-"new": true
-},
-{
-"term": "погода",
-"traffic": "500+",
-"time": "2026-11-17T21:50:00+00:00",
-"news": [
-{
-"title": "Какая погода ожидается в Израиле 18 ноября",
-"source": "Cursorinfo",
-"link": "https://cursorinfo.co.il/weather/kakaya-pogoda-ozhidaetsya-v-izraile-18-noyabrya/"
-},
-{
-"title": "Погода в Израиле на неделю: золотая осень",
-"source": "9 Канал Израиль",
-"link": "https://www.9tv.co.il/item/280746"
 }
 ],
 "new": true
