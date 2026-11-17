@@ -1,7 +1,53 @@
 {
-"updated": "2026-11-17T22:03:41.539174+00:00",
+"updated": "2026-11-17T22:05:53.264626+00:00",
 "errors": [],
 "events": [
+{
+"id": "viewAKR202611180137000652141",
+"first": "2026-11-17T21:41:16+00:00",
+"last": "2026-11-17T22:03:27+00:00",
+"updated": "2026-11-17T22:05:53.264626+00:00",
+"headline": "심야 시간 인천 숙박업소서 화재…투숙객 60여명 대피",
+"cat": "재난",
+"regions": [
+"강원",
+"인천"
+],
+"sources": [
+"뉴시스",
+"연합뉴스"
+],
+"updates": [
+{
+"title": "심야 시간 인천 숙박업소서 화재…투숙객 60여명 대피",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261118013700065",
+"time": "2026-11-17T21:41:16+00:00",
+"stage": "1보"
+},
+{
+"title": "인천 계양구 숙박업소서 심야 화재…62명 대피",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261118_0003872349",
+"time": "2026-11-17T22:03:27+00:00",
+"stage": "후속"
+}
+],
+"level": "ALERT",
+"latest": "인천 계양구 숙박업소서 심야 화재…62명 대피",
+"tok": [
+"60여명",
+"62명",
+"계양구",
+"대피",
+"숙박업소서",
+"시간",
+"심야",
+"인천",
+"투숙객",
+"화재"
+]
+},
 {
 "id": "E9Ganh3dmpNcGlocWtwcwoc52126",
 "first": "2026-11-17T21:26:10+00:00",
@@ -286,41 +332,6 @@
 "옥산",
 "주택",
 "청주",
-"화재"
-]
-},
-{
-"id": "viewAKR202611180137000652141",
-"first": "2026-11-17T21:41:16+00:00",
-"last": "2026-11-17T21:41:16+00:00",
-"updated": "2026-11-17T21:50:06.520354+00:00",
-"headline": "심야 시간 인천 숙박업소서 화재…투숙객 60여명 대피",
-"cat": "재난",
-"regions": [
-"인천"
-],
-"sources": [
-"연합뉴스"
-],
-"updates": [
-{
-"title": "심야 시간 인천 숙박업소서 화재…투숙객 60여명 대피",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261118013700065",
-"time": "2026-11-17T21:41:16+00:00",
-"stage": "1보"
-}
-],
-"level": "ALERT",
-"latest": "심야 시간 인천 숙박업소서 화재…투숙객 60여명 대피",
-"tok": [
-"60여명",
-"대피",
-"숙박업소서",
-"시간",
-"심야",
-"인천",
-"투숙객",
 "화재"
 ]
 },
@@ -3215,7 +3226,7 @@
 "sns": {
 "terms": {
 "지진": {
-"n30": 2,
+"n30": 1,
 "base": 0.4,
 "spike": false
 },
@@ -3235,7 +3246,7 @@
 "spike": false
 },
 "폭발": {
-"n30": 8,
+"n30": 6,
 "base": 0.3,
 "spike": true
 },
@@ -3266,7 +3277,7 @@
 },
 "사고": {
 "n30": 1,
-"base": 1.3,
+"base": 1.2,
 "spike": false
 },
 "실종": {
@@ -3545,31 +3556,31 @@
 "spikes": [
 {
 "term": "폭발",
-"n30": 8,
+"n30": 6,
 "base": 0.3,
 "spike": true,
-"since": "2026-11-17T22:03:41.539174+00:00"
+"since": "2026-11-17T22:05:53.264626+00:00"
 },
 {
 "term": "속보",
 "n30": 6,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-17T22:03:41.539174+00:00"
+"since": "2026-11-17T22:05:53.264626+00:00"
 }
 ],
 "baseline": {
-"지진": 0.37,
-"화재": 0.15,
+"지진": 0.33,
+"화재": 0.24,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.3,
+"폭발": 0.27,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
 "지하철": 0.05,
-"사고": 1.24,
+"사고": 1.22,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -3831,32 +3842,14 @@
 "time": "2026-11-17T20:50:00+00:00",
 "news": [
 {
-"title": "HLV Bồ Đào Nha tiếp tục mâu thuẫn với học trò",
-"source": "Znews",
-"link": "https://znews.vn/hlv-bo-dao-nha-tiep-tuc-mau-thuan-voi-hoc-tro-post1696902.html"
+"title": "Nhận định bóng đá Xứ Wales vs Bồ Đào Nha, 02h45 ngày 18/11: Không bung sức",
+"source": "Tạp chí Bóng đá",
+"link": "https://bongdaplus.vn/nations-league/nhan-dinh-bong-da-xu-wales-vs-bo-dao-nha-02h45-ngay-18-11-khong-bung-suc-5291002611.html"
 },
 {
-"title": "Bồ Đào Nha chia tay 3 ngôi sao trước trận đấu với xứ Wales",
-"source": "Báo và Phát thanh Truyền hình Hà Nội",
-"link": "https://hanoionline.vn/bo-dao-nha-chia-tay-3-ngoi-sao-truoc-tran-dau-voi-xu-wales-246261117235532744.htm"
-}
-],
-"new": true
-},
-{
-"term": "수출",
-"traffic": "500+",
-"time": "2026-11-17T20:50:00+00:00",
-"news": [
-{
-"title": "수출 1조 달러 시대, 세계가 찾는 기술에서 세계인의 일상 속 제품까지 - 영상 | 멀티미디어",
-"source": "대한민국 정책브리핑",
-"link": "https://www.korea.kr/multi/mediaNewsView.do?newsId=148975889"
-},
-{
-"title": "다음 과제는 시장 다변화… 美-中 넘어 ‘글로벌 사우스’로 넓혀야",
-"source": "동아일보",
-"link": "https://www.donga.com/news/Economy/article/all/20261118/135043055/2"
+"title": "Lịch thi đấu, trực tiếp bóng đá hôm nay 17/11/2026: Wales vs Bồ Đào Nha",
+"source": "tin.skydoor.net",
+"link": "https://tin.skydoor.net/news/tin-lich-thi-dau-truc-tiep-bong-da-hom-nay-17112026-wales-vs-bo-8437883"
 }
 ],
 "new": true
@@ -3880,6 +3873,24 @@
 "new": true
 },
 {
+"term": "수출",
+"traffic": "500+",
+"time": "2026-11-17T20:50:00+00:00",
+"news": [
+{
+"title": "수출 1조 달러 시대, 세계가 찾는 기술에서 세계인의 일상 속 제품까지 - 영상 | 멀티미디어",
+"source": "대한민국 정책브리핑",
+"link": "https://www.korea.kr/multi/mediaNewsView.do?newsId=148975889"
+},
+{
+"title": "다음 과제는 시장 다변화… 美-中 넘어 ‘글로벌 사우스’로 넓혀야",
+"source": "동아일보",
+"link": "https://www.donga.com/news/Economy/article/all/20261118/135043055/2"
+}
+],
+"new": true
+},
+{
 "term": "수사",
 "traffic": "200+",
 "time": "2026-11-17T20:50:00+00:00",
@@ -3893,24 +3904,6 @@
 "title": "“형사법 시스템 근본 훼손 위헌 법률”⋯ 위헌소송 줄줄이 이어질 듯",
 "source": "국민일보",
 "link": "https://www.kmib.co.kr/article/20261117501945"
-}
-],
-"new": true
-},
-{
-"term": "뉴스",
-"traffic": "1000+",
-"time": "2026-11-17T20:40:00+00:00",
-"news": [
-{
-"title": "“임원들에 고성·압박, 12명 줄퇴사···엔비디아 경영진도 꼼짝 못 한 젠슨 황 딸은 사실상 ‘아버지 비서실장’”",
-"source": "경향신문",
-"link": "https://www.khan.co.kr/article/202611171508001"
-},
-{
-"title": "젠슨 황 사임 후 첫 입장 “요청 시 복귀”…“청문회 출석”",
-"source": "KBS 뉴스",
-"link": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8715632"
 }
 ],
 "new": true
@@ -3986,6 +3979,24 @@
 }
 ],
 "new": false
+},
+{
+"term": "수능 예비소집",
+"traffic": "500+",
+"time": "2026-11-17T20:30:00+00:00",
+"news": [
+{
+"title": "수능 수험생 여러분! 전자기기 가져오지 마세요! - 카드/한컷 | 멀티미디어",
+"source": "대한민국 정책브리핑",
+"link": "https://www.korea.kr/multi/visualNewsView.do?newsId=148975450"
+},
+{
+"title": "[수능 D-1] 전자기기 미제출 땐 시험 무효…단추 달린 옷도 피해야",
+"source": "매일경제 마켓",
+"link": "https://stock.mk.co.kr/news/view/1201065"
+}
+],
+"new": true
 }
 ],
 "trendSeen": [
