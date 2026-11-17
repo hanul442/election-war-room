@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-17T03:29:38.851951+00:00",
+"updated": "2026-11-17T03:31:55.646615+00:00",
 "errors": [],
 "events": [
 {
@@ -310,7 +310,7 @@
 "id": "ssutm_campaigntotal_news0234",
 "first": "2026-11-17T02:34:00+00:00",
 "last": "2026-11-17T03:19:34+00:00",
-"updated": "2026-11-17T03:25:07.488632+00:00",
+"updated": "2026-11-17T03:31:55.646615+00:00",
 "headline": "조작기소특검법 공포안, 이 대통령 순방 중 한성숙 총리 주재 국무회의서 의결",
 "cat": "정치",
 "regions": [],
@@ -330,12 +330,14 @@
 "매일경제",
 "머니투데이",
 "부산일보",
+"사이렌스",
 "시사저널",
 "아이뉴스24",
 "아주경제",
 "연합뉴스",
 "연합뉴스TV",
 "조선일보",
+"주간경향",
 "중앙신문",
 "채널A",
 "파이낸셜뉴스",
@@ -539,6 +541,13 @@
 "stage": "속보"
 },
 {
+"title": "[속보] ‘조작 기소 특검법’ 국무회의 의결⋯총리 주재로 통과시켜",
+"source": "사이렌스",
+"link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1RR2lQcWFKdUVNWW4tcnBodVFCMHp2YXRNbTE1UHY5WFdxdm04M0hJdHExMXA4MHJEU3FYRGU2aFU1Ny00bE1uTTNQX2FoaGs?oc=5",
+"time": "2026-11-17T02:53:35+00:00",
+"stage": "속보"
+},
+{
 "title": "[속보] '조작기소 특검법' 국무회의 의결… 이 대통령 재가 후 공포·시행",
 "source": "대전일보",
 "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5oVmFqQ0ZRN1R0ZDNBbVVSaDhzaS1Kenp4QXF6c3IzdmREZ0dwQmlVRkpVTkJncVlKcGgtRS1yVTN3X1paU1hkT0tHelZqLW9lSFJhdTN2MHlUREJCMDJLSXNrVW5PU1ZoWF9HNWd1a3VfcTDSAXNBVV95cUxOaFZhakNGUTdUdGQzQW1VUmg4c2ktSnp6eEFxenNyM3ZkRGdHcEJpVUZKVU5CZ3FZSnBoLUUtclUzd19aWlNYZE9LR3pWai1vZUhSYXUzdjB5VERCQjAyS0lza1VuT1NWaFhfRzVndWt1X3Ew?oc=5",
@@ -558,6 +567,13 @@
 "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1nVThaV19lbDJpQWVGN052SHB3aGtjNHFQSDRmbHMya1dMdkJFSWdlTGtaTmhFd0d4SEtZcEVvZ1doMHdOMTIxdmZBY29zZDBsVl9FcnYxZWN6MnZ1SllrQw?oc=5",
 "time": "2026-11-17T02:56:17+00:00",
 "stage": "속보"
+},
+{
+"title": "‘조작기소 특검법’ 공포안 국무회의 통과",
+"source": "주간경향",
+"link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBSajlENVlocU9UakFLVG05UkFWV0wyeDktYnZ5RW5fX3k0VXBKUWJkVWR2bW56Z3BsNTdCZktEUjNzVF81RjBrWmVBUUZNRVZTU2JwMGN4c1ZlckU5cXc?oc=5",
+"time": "2026-11-17T03:02:00+00:00",
+"stage": "후속"
 },
 {
 "title": "'조작기소 의혹 특검법' 국무회의 의결…국민의힘 장외투쟁",
@@ -582,6 +598,7 @@
 "국무회의에서",
 "국민의힘",
 "규모",
+"기소",
 "끝내",
 "대통령",
 "머니투데",
@@ -593,12 +610,14 @@
 "장외투쟁",
 "재가",
 "재가해야",
+"조작",
 "조작기소",
 "조작기소특검법",
 "주재",
 "총리",
 "최대",
 "통과",
+"통과시켜",
 "특검법",
 "한성숙",
 "활동"
@@ -4500,27 +4519,27 @@
 "spike": false
 },
 "화재": {
-"n30": 3,
+"n30": 2,
 "base": 0.1,
 "spike": false
 },
 "불났": {
 "n30": 1,
-"base": 0.6,
+"base": 0.5,
 "spike": false
 },
 "정전": {
-"n30": 2,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
 "폭발": {
-"n30": 3,
+"n30": 0,
 "base": 0.2,
 "spike": false
 },
 "붕괴": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -4545,8 +4564,8 @@
 "spike": false
 },
 "사고": {
-"n30": 2,
-"base": 5.0,
+"n30": 3,
+"base": 4.7,
 "spike": false
 },
 "실종": {
@@ -4566,7 +4585,7 @@
 },
 "먹통": {
 "n30": 0,
-"base": 0.8,
+"base": 0.7,
 "spike": false
 },
 "산불": {
@@ -4576,6 +4595,16 @@
 }
 },
 "posts": [
+{
+"text": "그만큼 내가 쌓아올린 게 통째로 부정당하면 흔들리는 거겠지만, 음⋯⋯ 적어도 이젠 방어 기제에서 많이 자유로워졌으니까 과거보다는 확실히 사고가 유연해졌고 말이지.",
+"handle": "radd3v1l.bsky.social",
+"name": "독태성",
+"time": "2026-11-17T03:31:04.045Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/radd3v1l.bsky.social/post/3n2i453wvrc2a",
+"term": "사고"
+},
 {
 "text": "아침부터 사고3연타\n지각하기\n개큰실수\n타부서랑트러블",
 "handle": "navyorca.bsky.social",
@@ -4735,21 +4764,21 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 0.08,
+"지진": 0.07,
 "화재": 0.05,
-"불났": 0.52,
+"불났": 0.47,
 "정전": 0.05,
-"폭발": 0.17,
-"붕괴": 0.1,
+"폭발": 0.15,
+"붕괴": 0.09,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.85,
-"사고": 4.71,
-"실종": 0.27,
+"지하철": 0.86,
+"사고": 4.54,
+"실종": 0.24,
 "단수": 0.05,
 "통신 장애": 0.05,
-"먹통": 0.69,
+"먹통": 0.62,
 "산불": 0.05
 },
 "errors": [],
