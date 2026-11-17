@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-17T08:46:55.729047+00:00",
+"updated": "2026-11-17T08:49:11.283546+00:00",
 "errors": [],
 "events": [
 {
@@ -3806,7 +3806,7 @@
 "terms": {
 "지진": {
 "n30": 0,
-"base": 0.5,
+"base": 0.4,
 "spike": false
 },
 "화재": {
@@ -3825,7 +3825,7 @@
 "spike": false
 },
 "폭발": {
-"n30": 3,
+"n30": 2,
 "base": 1.1,
 "spike": false
 },
@@ -3840,14 +3840,14 @@
 "spike": false
 },
 "미사일": {
-"n30": 1,
-"base": 0.7,
+"n30": 0,
+"base": 0.8,
 "spike": false
 },
 "속보": {
-"n30": 5,
+"n30": 4,
 "base": 0.3,
-"spike": true
+"spike": false
 },
 "지하철": {
 "n30": 1,
@@ -3855,8 +3855,8 @@
 "spike": false
 },
 "사고": {
-"n30": 8,
-"base": 5.6,
+"n30": 9,
+"base": 5.8,
 "spike": false
 },
 "실종": {
@@ -3875,7 +3875,7 @@
 "spike": false
 },
 "먹통": {
-"n30": 1,
+"n30": 0,
 "base": 0.8,
 "spike": false
 },
@@ -3886,6 +3886,16 @@
 }
 },
 "posts": [
+{
+"text": "담아먹기부터 해보시면 어떨지요?\n당장 음식 만들어 먹는 거 매우 쉽지 않을 것이고 유튜브, 인스타에서 초등학생도 한다, 5분이면 완성된다 어쩌구 레시피도 지속 못하고 포기할 가능성도 무시 못합니다. (당사자성 있음)\n\n다이소 가서 마음에 드는 그릇과 컵, 식기를 한 2억 원 어치 사고 편의점 떡볶이, 컵라면, 배달 디저트 사시면 그 용기에 그대로 드시지 말고 그릇에 담아서 드셔 보세요. 저는",
+"handle": "eleanorshin.bsky.social",
+"name": "조셉",
+"time": "2026-11-17T08:47:09.141Z",
+"likes": 1,
+"reposts": 1,
+"url": "https://bsky.app/profile/eleanorshin.bsky.social/post/3n2ins276ic2z",
+"term": "사고"
+},
 {
 "text": "논리 비약이긴 하지만 60대나 30대나 사고 확률은 비슷하니까\n\n부모님이나 나나 둘 중 누가 운전해도 사고 확률은 비슷하단 말이지(?)",
 "handle": "forestlover.bsky.social",
@@ -3914,16 +3924,6 @@
 "likes": 0,
 "reposts": 0,
 "url": "https://bsky.app/profile/ukkam.bsky.social/post/3n2in3uffo22h",
-"term": "사고"
-},
-{
-"text": "만년필도 사고 도장도 사고 알찻다",
-"handle": "gooodf.bsky.social",
-"name": "💕",
-"time": "2026-11-17T08:29:51.940Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/gooodf.bsky.social/post/3n2imtbayhc2l",
 "term": "사고"
 },
 {
@@ -4007,16 +4007,6 @@
 "time": "2026-11-17T08:18:13Z",
 "term": "속보",
 "url": "https://www.youtube.com/watch?v=M-uV1-5-2bU"
-},
-{
-"text": "괜찮아요. EMP로 조지는거라… 저 기사에도 있지만 미국이 핵으로 핵을 막는걸 실험한다고(지금은 바뀌었지만 한동안 모스크바 탄도미사일 방어 시스템인 A-135가 저렇게 돌아갔죠) 고고도 핵폭발을 한적이 있는데, 당시 그 단순하던 위성들도 먹통이 된적이 있습니다.\n\n사진은 그 실험 사진인데, 참 기기괴괴한(근처 호놀룰루 오후 11시);;; 이때 1.4 ~ 1.5 메가톤을 터트렸다고 하네요.",
-"handle": "twoflower.readingsnail.pe.kr",
-"name": "책달, 두송이꽃이네요",
-"time": "2026-11-17T08:17:24.553Z",
-"likes": 1,
-"reposts": 0,
-"url": "https://bsky.app/profile/twoflower.readingsnail.pe.kr/post/3n2im52y66s2b",
-"term": "폭발"
 },
 {
 "platform": "YouTube",
@@ -4145,31 +4135,23 @@
 "url": "https://www.youtube.com/watch?v=hJW7y1bXEXs"
 }
 ],
-"spikes": [
-{
-"term": "속보",
-"n30": 5,
-"base": 0.3,
-"spike": true,
-"since": "2026-11-17T08:46:55.729047+00:00"
-}
-],
+"spikes": [],
 "baseline": {
-"지진": 0.41,
-"화재": 0.06,
+"지진": 0.37,
+"화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 1.11,
+"폭발": 1.0,
 "붕괴": 0.05,
 "대피": 0.05,
-"미사일": 0.77,
-"속보": 0.3,
-"지하철": 0.72,
-"사고": 5.85,
+"미사일": 0.69,
+"속보": 0.27,
+"지하철": 0.75,
+"사고": 6.17,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
-"먹통": 0.79,
+"먹통": 0.71,
 "산불": 0.05
 },
 "errors": [],
@@ -4508,14 +4490,14 @@
 "time": "2026-11-17T06:40:00+00:00",
 "news": [
 {
-"title": "조국 혁신당 전 대표, 일본 입국 거부 당해... 독도 방문 이력 때문?",
-"source": "조선일보",
-"link": "https://www.chosun.com/international/international_general/2026/11/17/KER2C24OIVG3ZCSETFDVF2SEC4/"
+"title": "혁신당 \"일본, 조국 입국 거부‥즉각 해명·사과하라\"",
+"source": "MBC 뉴스",
+"link": "https://imnews.imbc.com/news/2026/politics/article/6866293_36911.html"
 },
 {
-"title": "日, 조국 입국 거부에 \"법에 따른 조치\"…외교부, 유감 표명",
-"source": "연합뉴스TV",
-"link": "https://www.yonhapnewstv.co.kr/news/AKR20261117172323jZf"
+"title": "조국, 일본 공항서 입국 거부…독도 방문, 전과 이력 때문? 혁신당 \"초유의 사태 사과해야\"",
+"source": "JTBC",
+"link": "https://news.jtbc.co.kr/article/NB12328472"
 }
 ],
 "new": true
