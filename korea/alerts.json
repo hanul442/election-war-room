@@ -1,7 +1,41 @@
 {
-"updated": "2026-11-17T07:41:47.050917+00:00",
+"updated": "2026-11-17T07:44:01.769552+00:00",
 "errors": [],
 "events": [
+{
+"id": "wNISX20261117_00038719250741",
+"first": "2026-11-17T07:41:11+00:00",
+"last": "2026-11-17T07:41:11+00:00",
+"updated": "2026-11-17T07:44:01.769552+00:00",
+"headline": "[대구소식]수성소방, 겨울철 주택화재 피해 저감 추진 등",
+"cat": "재난",
+"regions": [
+"대구"
+],
+"sources": [
+"뉴시스"
+],
+"updates": [
+{
+"title": "[대구소식]수성소방, 겨울철 주택화재 피해 저감 추진 등",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261117_0003871925",
+"time": "2026-11-17T07:41:11+00:00",
+"stage": "1보"
+}
+],
+"level": "ALERT",
+"latest": "[대구소식]수성소방, 겨울철 주택화재 피해 저감 추진 등",
+"tok": [
+"겨울철",
+"대구소식",
+"수성소방",
+"저감",
+"주택화재",
+"추진",
+"피해"
+]
+},
 {
 "id": "wNISX20261117_00038719100739",
 "first": "2026-11-17T07:39:23+00:00",
@@ -83,16 +117,24 @@
 "id": "wNISX20261117_00038719150738",
 "first": "2026-11-17T07:38:14+00:00",
 "last": "2026-11-17T07:38:14+00:00",
-"updated": "2026-11-17T07:39:35.155606+00:00",
+"updated": "2026-11-17T07:44:01.769552+00:00",
 "headline": "산림복지진흥원·노사발전재단, 중장년 산림복지 일자리 제공 '맞손'",
 "cat": "재난",
 "regions": [
 "대전"
 ],
 "sources": [
-"뉴시스"
+"뉴시스",
+"연합뉴스TV"
 ],
 "updates": [
+{
+"title": "\"중장년 일자리 숲에서 찾자\"…산림복지진흥원·노사발전재단 맞손",
+"source": "연합뉴스TV",
+"link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9yUFpGSmJaVXF1WE1FbHpKZXExV3BiMTVNcTB5RW9YUnRLbE9OZGx4QlVoSGlNU3BiSWJOWUhBdEVYdEh3Sm42RldmdEwtYko5V3FvdjFUaTcxbW5WRVFXRlVJYVdHMzA?oc=5",
+"time": "2026-11-17T07:38:00+00:00",
+"stage": "후속"
+},
 {
 "title": "산림복지진흥원·노사발전재단, 중장년 산림복지 일자리 제공 '맞손'",
 "source": "뉴시스",
@@ -101,16 +143,18 @@
 "stage": "1보"
 }
 ],
-"level": "ALERT",
+"level": "BULLETIN",
 "latest": "산림복지진흥원·노사발전재단, 중장년 산림복지 일자리 제공 '맞손'",
 "tok": [
 "노사발전재단",
 "맞손",
 "산림복지",
 "산림복지진흥원",
+"숲에서",
 "일자리",
 "제공",
-"중장년"
+"중장년",
+"찾자"
 ]
 },
 {
@@ -3701,49 +3745,13 @@
 "협력",
 "확인"
 ]
-},
-{
-"id": "ssutm_campaigntotal_news0609",
-"first": "2026-11-17T06:09:00+00:00",
-"last": "2026-11-17T06:09:00+00:00",
-"updated": "2026-11-17T06:12:20.357646+00:00",
-"headline": "“AI 커닝으로 9급 합격”···인사처 “수사 의뢰···전수조사 실시 여부 검토”",
-"cat": "사회",
-"regions": [],
-"sources": [
-"경향신문"
-],
-"updates": [
-{
-"title": "[단독] “AI 커닝으로 9급 합격”···인사처 “수사 의뢰···전수조사 실시 여부 검토”",
-"source": "경향신문",
-"link": "https://www.khan.co.kr/article/202611171509001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
-"time": "2026-11-17T06:09:00+00:00",
-"stage": "단독"
-}
-],
-"level": "URGENT",
-"latest": "“AI 커닝으로 9급 합격”···인사처 “수사 의뢰···전수조사 실시 여부 검토”",
-"tok": [
-"9급",
-"AI",
-"검토",
-"수사",
-"실시",
-"여부",
-"의뢰",
-"인사처",
-"전수조사",
-"커닝으",
-"합격"
-]
 }
 ],
 "sns": {
 "terms": {
 "지진": {
 "n30": 0,
-"base": 0.2,
+"base": 0.1,
 "spike": false
 },
 "화재": {
@@ -3763,13 +3771,13 @@
 },
 "폭발": {
 "n30": 3,
-"base": 0.5,
+"base": 0.6,
 "spike": false
 },
 "붕괴": {
-"n30": 5,
+"n30": 4,
 "base": 0.2,
-"spike": true
+"spike": false
 },
 "대피": {
 "n30": 1,
@@ -3788,12 +3796,12 @@
 },
 "지하철": {
 "n30": 3,
-"base": 1.0,
+"base": 1.1,
 "spike": false
 },
 "사고": {
 "n30": 0,
-"base": 1.9,
+"base": 1.7,
 "spike": false
 },
 "실종": {
@@ -3829,7 +3837,7 @@
 "name": "[랜선효도] 제주감귤🍊",
 "time": "2026-11-17T07:35:53.546Z",
 "likes": 0,
-"reposts": 3,
+"reposts": 5,
 "url": "https://bsky.app/profile/jejuorange.bsky.social/post/3n2ijso5pfc2y",
 "term": "지하철"
 },
@@ -4063,31 +4071,23 @@
 "url": "https://www.youtube.com/watch?v=MJVkeGdnqqg"
 }
 ],
-"spikes": [
-{
-"term": "붕괴",
-"n30": 5,
-"base": 0.2,
-"spike": true,
-"since": "2026-11-17T07:41:47.050917+00:00"
-}
-],
+"spikes": [],
 "baseline": {
-"지진": 0.15,
-"화재": 0.6,
+"지진": 0.14,
+"화재": 0.64,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.56,
-"붕괴": 0.2,
+"폭발": 0.6,
+"붕괴": 0.18,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.74,
-"지하철": 1.06,
-"사고": 1.71,
+"속보": 0.77,
+"지하철": 1.15,
+"사고": 1.54,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
-"먹통": 0.38,
+"먹통": 0.34,
 "산불": 0.05
 },
 "errors": [],
@@ -4286,8 +4286,116 @@
 },
 "trends": [
 {
+"term": "dplus kia",
+"traffic": "500+",
+"time": "2026-11-17T06:40:00+00:00",
+"news": [
+{
+"title": "Dplus KIA Youth Sweeps Both First and Second-Half LCK Academy League Titles",
+"source": "Inven Global",
+"link": "https://www.invenglobal.com/articles/28692/dplus-kia-youth-sweeps-both-first-and-second-half-lck-academy-league-titles"
+},
+{
+"title": "Worlds 2027 Starts in Nagoya, Then Moves to Suwon and Seoul",
+"source": "RG.org",
+"link": "https://rg.org/news/esports/worlds-2027-swiss-nagoya-knockouts-suwon-seoul-arena-msi-valencia"
+}
+],
+"new": true
+},
+{
+"term": "카타르 축구 국가대표팀",
+"traffic": "5000+",
+"time": "2026-11-17T06:40:00+00:00",
+"news": [
+{
+"title": "모레노 감독 고별전? 카타르와 올해 마지막 A매치",
+"source": "조선일보",
+"link": "https://www.chosun.com/sports/football/2026/11/17/EMNOIJYBCZFXXKQM3SMGWIPUDA/"
+},
+{
+"title": "\"대표팀 이끄는 게 아니라 도와주러 온 꼴\" 황인범의 뼈있는 일갈… '땜질 처방' KFA 정면 조준",
+"source": "파이낸셜뉴스",
+"link": "https://www.fnnews.com/news/202611170930268212"
+}
+],
+"new": true
+},
+{
+"term": "텔레그램",
+"traffic": "200+",
+"time": "2026-11-17T06:40:00+00:00",
+"news": [
+{
+"title": "텔레그램 기반 100억원대 물품사기 일당 131명 검거",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261117072000051"
+},
+{
+"title": "‘아이돌 콘서트 티켓·골드바 판매’ 미끼로 148억 가로챈 131명 검거",
+"source": "동아일보",
+"link": "https://www.donga.com/news/Society/article/all/20261117/135038207/1"
+}
+],
+"new": true
+},
+{
+"term": "조국",
+"traffic": "200+",
+"time": "2026-11-17T06:40:00+00:00",
+"news": [
+{
+"title": "조국, 일본 공항서 입국 거부…독도 방문, 전과 이력 때문? 혁신당 \"초유의 사태 사과해야\"",
+"source": "JTBC",
+"link": "https://news.jtbc.co.kr/article/NB12328472"
+},
+{
+"title": "조국 혁신당 전 대표, 일본 입국 거부 당해... 독도 방문 이력 때문?",
+"source": "조선일보",
+"link": "https://www.chosun.com/international/international_general/2026/11/17/KER2C24OIVG3ZCSETFDVF2SEC4/"
+}
+],
+"new": true
+},
+{
+"term": "배충식",
+"traffic": "100+",
+"time": "2026-11-17T06:40:00+00:00",
+"news": [
+{
+"title": "카이스트, 중국 칭화대와 복수학위제 운영한다···기계공학 석사과정 내년 개설",
+"source": "경향신문",
+"link": "https://www.khan.co.kr/article/202611171109001"
+},
+{
+"title": "KAIST·칭화대, 기계공학 석사 복수학위 과정 개설…내년부터 매년 5명 선발",
+"source": "Chosunbiz",
+"link": "https://biz.chosun.com/science-chosun/science/2026/11/17/M3OCBBRGUVFD5K2CFDRUNYUJRE/"
+}
+],
+"new": true
+},
+{
+"term": "상어",
+"traffic": "200+",
+"time": "2026-11-17T06:40:00+00:00",
+"news": [
+{
+"title": "‘부캉이’ 인기에 명예홍보대사 위촉했던 부산시···“해수욕장 출몰은 안 돼” 상어 퇴치장비 도입 추진",
+"source": "경향신문",
+"link": "https://www.khan.co.kr/article/202611171123001"
+},
+{
+"title": "부산시, 해수욕장 사망사고 2년 연속 0건…내년 개장 확대 검토",
+"source": "뉴스타운",
+"link": "http://www.newstown.co.kr/news/articleView.html?idxno=722189"
+}
+],
+"new": true
+},
+{
 "term": "현대자동차",
-"traffic": "1000+",
+"traffic": "500+",
 "time": "2026-11-17T06:30:00+00:00",
 "news": [
 {
@@ -4356,119 +4464,9 @@
 }
 ],
 "new": false
-},
-{
-"term": "와퍼",
-"traffic": "200+",
-"time": "2026-11-17T06:00:00+00:00",
-"news": [
-{
-"title": "버거킹, 성수 ‘플레임그라운드’서 ‘초콜릿 와퍼’ 출시",
-"source": "Chosunbiz",
-"link": "https://biz.chosun.com/distribution/food/2026/11/17/BMB6Q7NHCRHVPIZSSWKPODI4SQ/"
-},
-{
-"title": "패티는 브라우니, 피클은 초콜릿…버거킹 '초콜릿 와퍼' 성수서 첫선",
-"source": "뉴시스",
-"link": "https://www.newsis.com/view/NISX20261117_0003870829"
-}
-],
-"new": true
-},
-{
-"term": "구축함",
-"traffic": "500+",
-"time": "2026-11-17T05:30:00+00:00",
-"news": [
-{
-"title": "[위성+] 5000톤급 구축함 ‘강건호’ 마양도 배치, ‘최현호’ 남포항 계류",
-"source": "데일리NK",
-"link": "https://www.dailynk.com/20261117-2/"
-},
-{
-"title": "北 해군도 핵무장… 시급한 ‘해양 킬웹’[포럼]",
-"source": "문화일보",
-"link": "https://www.munhwa.com/article/11630506"
-}
-],
-"new": true
-},
-{
-"term": "sl vs pak",
-"traffic": "1000+",
-"time": "2026-11-17T05:30:00+00:00",
-"news": [
-{
-"title": "Ball by Ball Commentary & Live Score - PAK vs SL, 2nd Test",
-"source": "Cricinfo",
-"link": "https://www.cricinfo.com/series/sri-lanka-in-pakistan-2026-27-1550703/pakistan-vs-sri-lanka-2nd-test-1550712/ball-by-ball-commentary"
-},
-{
-"title": "Sri Lanka Latest Breaking News and Headlines - Print Edition Sri Lanka and Pakistan draw Test",
-"source": "Daily Mirror - Sri Lanka",
-"link": "https://www.dailymirror.lk/print/sports/Sri-Lanka-and-Pakistan-draw-Test/323-354893"
-}
-],
-"new": true
-},
-{
-"term": "소프트웨어",
-"traffic": "1000+",
-"time": "2026-11-17T05:20:00+00:00",
-"news": [
-{
-"title": "KMS테크놀로지, 테너블·비욘드트러스트와 19일 OT 보안 웨비나",
-"source": "디지털데일리",
-"link": "https://www.ddaily.co.kr/page/view/2026111610152690942"
-},
-{
-"title": "앤앤에스피, 'CPS 시큐어 AX 서밋 2026' 개최",
-"source": "전자신문",
-"link": "https://www.etnews.com/20261113000267"
-}
-],
-"new": true
-},
-{
-"term": "전두환",
-"traffic": "200+",
-"time": "2026-11-17T05:20:00+00:00",
-"news": [
-{
-"title": "전두환 일가 비자금 의혹 사건, 중수청이 맡는다…추징 미납 800억대",
-"source": "한겨레",
-"link": "https://www.hani.co.kr/arti/society/society_general/1287673.html"
-},
-{
-"title": "[단독] ‘전우원 폭로’ 故 전두환 비자금 의혹 서울중수청이 맡는다…공소청서 이송[세상&]",
-"source": "헤럴드경제",
-"link": "https://biz.heraldcorp.com/article/10939286"
-}
-],
-"new": true
-},
-{
-"term": "전남광주통합특별시교육청",
-"traffic": "2000+",
-"time": "2026-11-17T05:00:00+00:00",
-"news": [
-{
-"title": "수능 감독 교사는 수당 17만원인데···전남광주교육청 간부는 최대 330만원 챙겼다",
-"source": "경향신문",
-"link": "https://www.khan.co.kr/article/202611171217001"
-},
-{
-"title": "수능 감독교사는 수당 17만원 받는데…교육감은 330만원 챙겼다",
-"source": "매일경제",
-"link": "https://www.mk.co.kr/news/society/12211185"
-}
-],
-"new": true
 }
 ],
 "trendSeen": [
-"죽도시장",
-"죽음",
 "중국",
 "중국 휴머노이드 로봇",
 "중국인민은행",
@@ -4557,6 +4555,7 @@
 "카카오뱅크 애플페이",
 "카카오워크",
 "카타르",
+"카타르 축구 국가대표팀",
 "카페",
 "캄보디아",
 "캐릭",
@@ -4601,6 +4600,7 @@
 "테일러 프리츠",
 "테일즈위버 모바일",
 "텍사스 주지사",
+"텔레그램",
 "토마토",
 "토스",
 "토스증권",
