@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-17T22:47:48.669338+00:00",
+"updated": "2026-11-17T22:50:02.919604+00:00",
 "errors": [],
 "events": [
 {
@@ -222,13 +222,14 @@
 "id": "25xR1YydWthc0FLNFBiUQoc51601",
 "first": "2026-11-17T16:01:58+00:00",
 "last": "2026-11-17T22:41:28+00:00",
-"updated": "2026-11-17T22:47:48.669338+00:00",
+"updated": "2026-11-17T22:50:02.919604+00:00",
 "headline": "젠슨 황 전 엔비디아 CEO, 복귀 의사 시사",
 "cat": "기타",
 "regions": [],
 "sources": [
 "JTBC",
 "SBS",
+"www.twig24.com",
 "강원도민일보",
 "경기일보",
 "경향신문",
@@ -412,6 +413,13 @@
 "title": "[속보] ‘불륜’ 젠슨 황 복귀 의사에…엔비디아 이사회 “재선임 없다”",
 "source": "서울Pn",
 "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE0yeEx3Q1RjZW9WMmJjb1Z1LWM2UVRUdnhGLTlGajJCckpJY2MyaktTblJMOTE5ZmhNbENTUms5SXd4ZmZVajhfbHhfNlkyZU5JbUt3THo2STdfZnJjMjJXbXk2dE5yc1NkUUE2U1pLLTMtTmlxLUcxMw?oc=5",
+"time": "2026-11-17T22:32:22+00:00",
+"stage": "속보"
+},
+{
+"title": "[속보] ‘불륜’ 젠슨 황 복귀 의사에…엔비디아 이사회 “재선임 없다”",
+"source": "www.twig24.com",
+"link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE8yS0ZqTUpLSjlyaFZMNUJjaV8wN3RvYnNVaHpTbXR6ZjRSc1F5ZjdDTWJIT3VQcWlIM3lSc240eXBPSDdsSERPc0hGTWlxZ3ZtdmxicDhUSDRaeGQ5bFBxNEJfdw?oc=5",
 "time": "2026-11-17T22:32:22+00:00",
 "stage": "속보"
 },
@@ -642,12 +650,13 @@
 "id": "ZEak1vZlNDNDFhNmg3ZEgoc52122",
 "first": "2026-11-17T21:22:44+00:00",
 "last": "2026-11-17T22:34:21+00:00",
-"updated": "2026-11-17T22:38:57.286935+00:00",
+"updated": "2026-11-17T22:50:02.919604+00:00",
 "headline": "엔비디아 3분기 매출 1558억4000만달러…월가 예상치 대폭 상회",
 "cat": "기타",
 "regions": [],
 "sources": [
 "CBC뉴스",
+"MBC 뉴스",
 "MTN 머니투데이방송",
 "www.dt.co.kr",
 "뉴스핌",
@@ -737,6 +746,13 @@
 "stage": "속보"
 },
 {
+"title": "젠슨 황 없는 엔비디아 3분기 매출 155조 원‥임시 CEO \"로드맵 순조\"",
+"source": "MBC 뉴스",
+"link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE95V19kQi1rN016X0RwTnpMN2pseEdLMXREcHNtakVDQUZuZ3pESmlTVTc1TWduNjBGRHp4cE1PQl9nenk2SmdFQjRKdkhQRzEwU2tSWDVobjhBY0xXXzkxUDZzU2Y3MnZ1NGpSZVFsVWZQYkNN0gF0QVVfeXFMTm9Bb0E3ODFOOUs0RC1aa3dRUkJqWlNSU3gyazl2VXctVi0xdFZvREdvLXlzWnBQdFZWZ2J2dFoyX2FKUTMwZDk4OXQ1N2lzWnlVMTkwbmIydFFyWFE0eVV3TmFtb1owMnNMY01mQ3h2TjJfTVE?oc=5",
+"time": "2026-11-17T21:41:29+00:00",
+"stage": "후속"
+},
+{
 "title": "엔비디아, 매출 155조원 '예상치 상회'…젠슨 황 사임 후 첫 실적발표",
 "source": "뉴시스",
 "link": "https://www.newsis.com/view/NISX20261118_0003872329",
@@ -771,8 +787,10 @@
 "1158억",
 "1158억달러",
 "1558억4000만달러",
+"155조",
 "155조원",
 "3분기",
+"CEO",
 "거침없다",
 "공백에",
 "달러",
@@ -801,11 +819,11 @@
 "예상",
 "예상치",
 "월가",
+"임시",
 "임시CEO",
 "전망치",
 "젠슨",
-"젠슨황",
-"컨센"
+"젠슨황"
 ]
 },
 {
@@ -3787,7 +3805,7 @@
 },
 "화재": {
 "n30": 0,
-"base": 0.4,
+"base": 0.3,
 "spike": false
 },
 "불났": {
@@ -3821,7 +3839,7 @@
 "spike": false
 },
 "속보": {
-"n30": 2,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
@@ -4055,7 +4073,7 @@
 "spikes": [],
 "baseline": {
 "지진": 0.05,
-"화재": 0.33,
+"화재": 0.3,
 "불났": 0.05,
 "정전": 0.05,
 "폭발": 0.05,
@@ -4064,7 +4082,7 @@
 "미사일": 0.05,
 "속보": 0.05,
 "지하철": 0.05,
-"사고": 0.17,
+"사고": 0.15,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
