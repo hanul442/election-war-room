@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-17T17:27:40.494051+00:00",
+"updated": "2026-11-17T17:30:00.120579+00:00",
 "errors": [],
 "events": [
 {
@@ -4974,18 +4974,18 @@
 "spike": false
 },
 "폭발": {
-"n30": 5,
+"n30": 4,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "붕괴": {
-"n30": 2,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
 "대피": {
-"n30": 1,
-"base": 0.7,
+"n30": 0,
+"base": 0.8,
 "spike": false
 },
 "미사일": {
@@ -4994,9 +4994,9 @@
 "spike": false
 },
 "속보": {
-"n30": 5,
+"n30": 4,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "지하철": {
 "n30": 0,
@@ -5005,7 +5005,7 @@
 },
 "사고": {
 "n30": 1,
-"base": 2.1,
+"base": 2.0,
 "spike": false
 },
 "실종": {
@@ -5145,16 +5145,6 @@
 "url": "https://www.youtube.com/watch?v=1GKQH7dkb1A"
 },
 {
-"text": "【위험경보】일본 기상청 발표 (일본 시간 11월 18일 01:59 기준)\n지바현: Isumi City (토사재해)\n위험한 곳에 있는 분은 대피하세요.\n#일본 #위험경보 #방재",
-"handle": "ko.soramoyou.yk-planning.jp",
-"name": "Soramoyou 한국어",
-"time": "2026-11-17T16:59:32.846Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/ko.soramoyou.yk-planning.jp/post/3n2jjcsfle32w",
-"term": "대피"
-},
-{
 "platform": "YouTube",
 "text": "붕괴: 스타레일 4.7 스파키 메인딜 이상중재 절망 0라운드 클리어",
 "handle": "UCQSZNfrDtefaJ7hAoBwGtCQ",
@@ -5254,34 +5244,19 @@
 "url": "https://www.youtube.com/watch?v=WVfNgEYcPLo"
 }
 ],
-"spikes": [
-{
-"term": "폭발",
-"n30": 5,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-17T17:27:40.494051+00:00"
-},
-{
-"term": "속보",
-"n30": 5,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-17T17:27:40.494051+00:00"
-}
-],
+"spikes": [],
 "baseline": {
-"지진": 0.32,
-"화재": 0.77,
+"지진": 0.29,
+"화재": 0.69,
 "불났": 0.05,
 "정전": 0.05,
 "폭발": 0.05,
 "붕괴": 0.05,
-"대피": 0.75,
+"대피": 0.68,
 "미사일": 0.05,
 "속보": 0.05,
 "지하철": 0.05,
-"사고": 2.01,
+"사고": 1.91,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -5534,14 +5509,14 @@
 "time": "2026-11-17T15:30:00+00:00",
 "news": [
 {
-"title": "정우영 2년 7개월 만에 복귀…카타르전 대거 로테이션 : 스포츠",
-"source": "재경일보",
-"link": "https://news.jkn.co.kr/post/1102804"
+"title": "이강인은 오른쪽 고정 전망… 카타르전 왼쪽은 ‘돌아온 돌격대장’ 정우영이 기회 얻을까?",
+"source": "풋볼리스트",
+"link": "https://www.footballist.co.kr/news/articleView.html?idxno=216906"
 },
 {
-"title": "‘엄지성 천금 결승골’...일본 꺾고 AG 축구 4연패",
-"source": "뉴스N연합",
-"link": "https://www.newsyonhap.com/news/137332"
+"title": "[IN POINT] 모레노호에 장착된 신(新)무기 엄지성...부진한 좌측 공격 해법 유력→다양한 활용 방안 주목",
+"source": "인터풋볼",
+"link": "https://www.interfootball.co.kr/news/articleView.html?idxno=698253"
 }
 ],
 "new": true
