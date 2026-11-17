@@ -1,19 +1,21 @@
 {
-"updated": "2026-11-17T02:55:39.751382+00:00",
+"updated": "2026-11-17T02:57:56.284883+00:00",
 "errors": [],
 "events": [
 {
 "id": "ssutm_campaigntotal_news0234",
 "first": "2026-11-17T02:34:00+00:00",
-"last": "2026-11-17T02:49:00+00:00",
-"updated": "2026-11-17T02:55:39.751382+00:00",
+"last": "2026-11-17T02:56:17+00:00",
+"updated": "2026-11-17T02:57:56.284883+00:00",
 "headline": "조작기소특검법 공포안, 이 대통령 순방 중 한성숙 총리 주재 국무회의서 의결",
 "cat": "정치",
 "regions": [],
 "sources": [
+"KBC광주방송",
 "MBC 뉴스",
 "SBS",
 "경향신문",
+"국민일보",
 "뉴스핌",
 "뉴시스",
 "대전일보",
@@ -199,13 +201,28 @@
 "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1kcjRQTVU0V3hfb3J0N1VNdTNSZWdMSnlqYlE0NlprY1NxcnBHQUFscFNxYTh0RDlIRFJIZ1gwZUFoYjYyU1R2dzNLV21IVUFXV1pMNjFUQlF1UFhuMEszdk5FSG1EYjQ?oc=5",
 "time": "2026-11-17T02:49:00+00:00",
 "stage": "속보"
+},
+{
+"title": "[속보]韓총리 주재로 ‘조작기소 특검법’ 국무회의 통과",
+"source": "국민일보",
+"link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1iQUFULWlhTVhHUWYzaDVvRTNwZlRxUGpVY3BuS2dBLWtIU0RpTWNQUl9VY0gwSHIyTFpPdnc5bXlMekxqTWk2cHBfdlhQYVBHVDV6ckZnU2g?oc=5",
+"time": "2026-11-17T02:53:20+00:00",
+"stage": "속보"
+},
+{
+"title": "[속보]'조작기소 특검법' 국무회의 통과…李대통령 재가 뒤 시행",
+"source": "KBC광주방송",
+"link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1nVThaV19lbDJpQWVGN052SHB3aGtjNHFQSDRmbHMya1dMdkJFSWdlTGtaTmhFd0d4SEtZcEVvZ1doMHdOMTIxdmZBY29zZDBsVl9FcnYxZWN6MnZ1SllrQw?oc=5",
+"time": "2026-11-17T02:56:17+00:00",
+"stage": "속보"
 }
 ],
 "level": "URGENT",
-"latest": "’조작기소 특검법’ 공포안 국무회의 의결",
+"latest": "'조작기소 특검법' 국무회의 통과…李대통령 재가 뒤 시행",
 "tok": [
 "200일",
 "309명",
+"李대통령",
 "韓총리",
 "거쳐",
 "공포",
@@ -4564,7 +4581,7 @@
 "terms": {
 "지진": {
 "n30": 0,
-"base": 0.4,
+"base": 0.3,
 "spike": false
 },
 "화재": {
@@ -4574,7 +4591,7 @@
 },
 "불났": {
 "n30": 1,
-"base": 0.2,
+"base": 0.3,
 "spike": false
 },
 "정전": {
@@ -4583,13 +4600,13 @@
 "spike": false
 },
 "폭발": {
-"n30": 2,
-"base": 0.9,
+"n30": 1,
+"base": 0.8,
 "spike": false
 },
 "붕괴": {
 "n30": 1,
-"base": 0.5,
+"base": 0.4,
 "spike": false
 },
 "대피": {
@@ -4603,9 +4620,9 @@
 "spike": false
 },
 "속보": {
-"n30": 6,
+"n30": 4,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "지하철": {
 "n30": 1,
@@ -4613,8 +4630,8 @@
 "spike": false
 },
 "사고": {
-"n30": 9,
-"base": 4.5,
+"n30": 8,
+"base": 4.9,
 "spike": false
 },
 "실종": {
@@ -4644,6 +4661,16 @@
 }
 },
 "posts": [
+{
+"text": "진돌히디님 상해 영상 보고 있는데 나는 아무리 좋아하는 장르여도 굿즈 살 때 진짜 엄청 신중하고 솔직히 잘 안사는 편인데 (그동안 샀다가 탈덕해서 후회한 것도 있고 애초에 놓을 자리가 없기도 함) 그냥 눈에 보이면 닥치는 대로 일단 사고 보는 오따꾸 분들이 존경스러워 보일 때도 있음..난.. 난 절대 못해 ㅠㅋㅋ",
+"handle": "philtatos13.bsky.social",
+"name": "테무식칼 아티스트 칠리 프타체크",
+"time": "2026-11-17T02:56:09.348Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/philtatos13.bsky.social/post/3n2i26lpy3k27",
+"term": "사고"
+},
 {
 "text": "유명 수능 강사들 진짜 우파적 사고방식의 압축파일, 아니 대형 언어모델 같은 존재들이구나.",
 "handle": "jejuorange.bsky.social",
@@ -4702,16 +4729,6 @@
 "time": "2026-11-17T02:37:12Z",
 "term": "속보",
 "url": "https://www.youtube.com/watch?v=4sWkWPw56k0"
-},
-{
-"text": "사고의 수준에 따라서 용작두 개작두 급 나누자!",
-"handle": "chipang.bsky.social",
-"name": "치팡",
-"time": "2026-11-17T02:35:59.049Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/chipang.bsky.social/post/3n2hz2mrb3c2q",
-"term": "사고"
 },
 {
 "platform": "YouTube",
@@ -4885,28 +4902,20 @@
 "url": "https://www.youtube.com/watch?v=iWUNvTXAP28"
 }
 ],
-"spikes": [
-{
-"term": "속보",
-"n30": 6,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-17T02:55:39.751382+00:00"
-}
-],
+"spikes": [],
 "baseline": {
-"지진": 0.34,
+"지진": 0.31,
 "화재": 0.05,
-"불났": 0.32,
+"불났": 0.39,
 "정전": 0.05,
-"폭발": 0.82,
-"붕괴": 0.44,
+"폭발": 0.74,
+"붕괴": 0.4,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.49,
-"사고": 4.93,
-"실종": 0.6,
+"지하철": 0.44,
+"사고": 5.24,
+"실종": 0.64,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -5163,9 +5172,9 @@
 "link": "https://www.nytimes.com/2026/11/16/arts/music/grammy-nominations-ella-langley-raye-rosalia.html"
 },
 {
-"title": "Women lead Grammy nominations as Noah Kahan gets snubbed",
-"source": "The Washington Post",
-"link": "https://www.washingtonpost.com/entertainment/music/2026/11/16/young-women-lead-grammy-nominations-noah-kahan-snubbed/"
+"title": "The biggest takeaways from the 2027 Grammy nominations: Raye reigns, Olivia Rodrigo takes on her former idol and men go missing",
+"source": "Yahoo",
+"link": "https://www.yahoo.com/entertainment/music/article/the-biggest-takeaways-from-the-2027-grammy-nominations-raye-reigns-olivia-rodrigo-takes-on-her-former-idol-and-men-go-missing-170247097.html"
 }
 ],
 "new": true
