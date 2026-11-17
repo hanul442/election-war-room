@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-17T07:32:51.699915+00:00",
+"updated": "2026-11-17T07:35:09.401850+00:00",
 "errors": [],
 "events": [
 {
@@ -3751,7 +3751,7 @@
 },
 "화재": {
 "n30": 2,
-"base": 0.3,
+"base": 0.4,
 "spike": false
 },
 "불났": {
@@ -3766,7 +3766,7 @@
 },
 "폭발": {
 "n30": 5,
-"base": 0.2,
+"base": 0.3,
 "spike": true
 },
 "붕괴": {
@@ -3791,7 +3791,7 @@
 },
 "지하철": {
 "n30": 2,
-"base": 0.6,
+"base": 0.7,
 "spike": false
 },
 "사고": {
@@ -4080,41 +4080,41 @@
 {
 "term": "폭발",
 "n30": 5,
-"base": 0.2,
+"base": 0.3,
 "spike": true,
-"since": "2026-11-17T07:32:51.699915+00:00"
+"since": "2026-11-17T07:35:09.401850+00:00"
 },
 {
 "term": "붕괴",
 "n30": 10,
 "base": 0.3,
 "spike": true,
-"since": "2026-11-17T07:32:51.699915+00:00"
+"since": "2026-11-17T07:35:09.401850+00:00"
 },
 {
 "term": "속보",
 "n30": 5,
 "base": 0.6,
 "spike": true,
-"since": "2026-11-17T07:32:51.699915+00:00"
+"since": "2026-11-17T07:35:09.401850+00:00"
 }
 ],
 "baseline": {
-"지진": 0.23,
-"화재": 0.39,
+"지진": 0.21,
+"화재": 0.45,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.32,
-"붕괴": 0.3,
-"대피": 0.07,
+"폭발": 0.39,
+"붕괴": 0.27,
+"대피": 0.06,
 "미사일": 0.05,
-"속보": 0.6,
-"지하철": 0.68,
-"사고": 2.13,
+"속보": 0.64,
+"지하철": 0.71,
+"사고": 2.12,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
-"먹통": 0.58,
+"먹통": 0.52,
 "산불": 0.05
 },
 "errors": [],
@@ -4332,7 +4332,7 @@
 },
 {
 "term": "한국은행 기준금리",
-"traffic": "100+",
+"traffic": "200+",
 "time": "2026-11-17T06:20:00+00:00",
 "news": [
 {
@@ -4368,18 +4368,18 @@
 },
 {
 "term": "한성숙",
-"traffic": "20000+",
+"traffic": "500+",
 "time": "2026-11-17T06:00:00+00:00",
 "news": [
 {
-"title": "[속보] 한 총리 \"전자기기 소지 적발되면 부정행위 처리\"",
-"source": "MBC 뉴스",
-"link": "https://imnews.imbc.com/news/2026/politics/article/6866289_36911.html"
+"title": "조작기소 특검 수사대상 된 전직 검사장들 “특검법 위헌 다루겠다”",
+"source": "JTBC",
+"link": "https://news.jtbc.co.kr/article/NB12328466"
 },
 {
-"title": "수능장 와이파이 끊는다…AI 부정행위는 끝까지 추적(종합)",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261117129451017"
+"title": "조작기소특검법 취지 놓고 여야 ‘완전히 다른 해석’",
+"source": "경인일보",
+"link": "https://www.kyeongin.com/article/1774918"
 }
 ],
 "new": false
@@ -4421,6 +4421,24 @@
 "new": true
 },
 {
+"term": "sl vs pak",
+"traffic": "1000+",
+"time": "2026-11-17T05:30:00+00:00",
+"news": [
+{
+"title": "Ball by Ball Commentary & Live Score - PAK vs SL, 2nd Test",
+"source": "Cricinfo",
+"link": "https://www.cricinfo.com/series/sri-lanka-in-pakistan-2026-27-1550703/pakistan-vs-sri-lanka-2nd-test-1550712/ball-by-ball-commentary"
+},
+{
+"title": "Sri Lanka Latest Breaking News and Headlines - Print Edition Sri Lanka and Pakistan draw Test",
+"source": "Daily Mirror - Sri Lanka",
+"link": "https://www.dailymirror.lk/print/sports/Sri-Lanka-and-Pakistan-draw-Test/323-354893"
+}
+],
+"new": true
+},
+{
 "term": "소프트웨어",
 "traffic": "1000+",
 "time": "2026-11-17T05:20:00+00:00",
@@ -4452,24 +4470,6 @@
 "title": "[단독] ‘전우원 폭로’ 故 전두환 비자금 의혹 서울중수청이 맡는다…공소청서 이송[세상&]",
 "source": "헤럴드경제",
 "link": "https://biz.heraldcorp.com/article/10939286"
-}
-],
-"new": true
-},
-{
-"term": "sri lanka vs pakistan",
-"traffic": "1000+",
-"time": "2026-11-17T05:10:00+00:00",
-"news": [
-{
-"title": "Ball by Ball Commentary & Live Score - PAK vs SL, 2nd Test",
-"source": "Cricinfo",
-"link": "https://www.cricinfo.com/series/sri-lanka-in-pakistan-2026-27-1550703/pakistan-vs-sri-lanka-2nd-test-1550712/ball-by-ball-commentary"
-},
-{
-"title": "Sri Lanka Latest Breaking News and Headlines - Print Edition Sri Lanka and Pakistan draw Test",
-"source": "Daily Mirror - Sri Lanka",
-"link": "https://www.dailymirror.lk/print/sports/Sri-Lanka-and-Pakistan-draw-Test/323-354893"
 }
 ],
 "new": true
