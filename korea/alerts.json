@@ -1,7 +1,43 @@
 {
-"updated": "2026-11-17T05:20:48.353795+00:00",
+"updated": "2026-11-17T05:23:01.313221+00:00",
 "errors": [],
 "events": [
+{
+"id": "ssutm_campaigntotal_news0520",
+"first": "2026-11-17T05:20:00+00:00",
+"last": "2026-11-17T05:20:00+00:00",
+"updated": "2026-11-17T05:23:01.313221+00:00",
+"headline": "“LEET 만점자 지난해 수능시험지 보존해야” 민원 제기 ···부정행위 여부 검증위해 필요",
+"cat": "기타",
+"regions": [],
+"sources": [
+"경향신문"
+],
+"updates": [
+{
+"title": "[단독]“LEET 만점자 지난해 수능시험지 보존해야” 민원 제기 ···부정행위 여부 검증위해 필요",
+"source": "경향신문",
+"link": "https://www.khan.co.kr/article/202611171420001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
+"time": "2026-11-17T05:20:00+00:00",
+"stage": "단독"
+}
+],
+"level": "URGENT",
+"latest": "“LEET 만점자 지난해 수능시험지 보존해야” 민원 제기 ···부정행위 여부 검증위해 필요",
+"tok": [
+"LEET",
+"검증위해",
+"만점자",
+"민원",
+"보존해야",
+"부정행위",
+"수능시험지",
+"여부",
+"제기",
+"지난해",
+"필요"
+]
+},
 {
 "id": "wNISX20261117_00038715430520",
 "first": "2026-11-17T05:20:00+00:00",
@@ -203,7 +239,7 @@
 "id": "ssutm_campaigntotal_news0500",
 "first": "2026-11-17T05:00:00+00:00",
 "last": "2026-11-17T05:09:21+00:00",
-"updated": "2026-11-17T05:20:48.353795+00:00",
+"updated": "2026-11-17T05:23:01.313221+00:00",
 "headline": "IMF, 올해 한국 성장률 3.9%까지 높여",
 "cat": "기타",
 "regions": [],
@@ -213,6 +249,7 @@
 "더팩트",
 "매일경제",
 "연합뉴스",
+"조선일보",
 "한겨레"
 ],
 "updates": [
@@ -229,6 +266,13 @@
 "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE96Ni1XcUtIM2w3TUJVeDRzWjdHTmc0OEh3VTNiS0U1VXRSeWFrSFpuNllWVmhLVmdBRE9KZGtWaW43YWJlWm1UR1c1dzVHd1Vzclk1YXI2QmNpaExacC15cm5qVnN3REZqSF8wM19wVmU0UQ?oc=5",
 "time": "2026-11-17T05:00:00+00:00",
 "stage": "속보"
+},
+{
+"title": "IMF, 올해 韓 성장률 3.3→3.9% 상향… 물가 상승률은 2% 상회 전망",
+"source": "조선일보",
+"link": "https://www.chosun.com/economy/economy_general/2026/11/17/GBSTQMRRMZQTKNJWGNTGEOLCGA/",
+"time": "2026-11-17T05:00:00+00:00",
+"stage": "후속"
 },
 {
 "title": "IMF, 韓 올해 성장률 3.9% 전망…반도체 호조에 한달새 0.6%p↑",
@@ -266,8 +310,11 @@
 "까지",
 "내년",
 "높여",
+"물가",
 "반도체",
+"상승률",
 "상향",
+"상회",
 "성장률",
 "한국",
 "한달새",
@@ -4320,37 +4367,6 @@
 "조류독감",
 "총력"
 ]
-},
-{
-"id": "TMmhBZGVUcFk5VEVDcVN3oc50222",
-"first": "2026-11-17T02:22:35+00:00",
-"last": "2026-11-17T02:22:35+00:00",
-"updated": "2026-11-17T02:28:10.715531+00:00",
-"headline": "빗썸, 라이터(LIT) 유의촉구 안내 공지",
-"cat": "기타",
-"regions": [],
-"sources": [
-"코인리더스"
-],
-"updates": [
-{
-"title": "[속보] 빗썸, 라이터(LIT) 유의촉구 안내 공지",
-"source": "코인리더스",
-"link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5hVlVuQ0FBU0dQVEFIdk9BdHJWSlBzMXhmaDRGcXNhMy1VbUM5dVJrRk1aNVNOOGRHQzhTMmhBZGVUcFk5VEVDcVN3?oc=5",
-"time": "2026-11-17T02:22:35+00:00",
-"stage": "얼럿"
-}
-],
-"level": "URGENT",
-"latest": "빗썸, 라이터(LIT) 유의촉구 안내 공지",
-"tok": [
-"LIT",
-"공지",
-"라이터",
-"빗썸",
-"안내",
-"유의촉구"
-]
 }
 ],
 "sns": {
@@ -4376,7 +4392,7 @@
 "spike": false
 },
 "폭발": {
-"n30": 9,
+"n30": 10,
 "base": 0.1,
 "spike": true
 },
@@ -4402,17 +4418,17 @@
 },
 "지하철": {
 "n30": 2,
-"base": 0.5,
+"base": 0.4,
 "spike": false
 },
 "사고": {
-"n30": 2,
-"base": 2.8,
+"n30": 3,
+"base": 2.7,
 "spike": false
 },
 "실종": {
 "n30": 0,
-"base": 0.4,
+"base": 0.3,
 "spike": false
 },
 "단수": {
@@ -4437,6 +4453,26 @@
 }
 },
 "posts": [
+{
+"text": "건국동맹->조선건국준비위원회 이 조직과, 여운형이라는 인물이 생각보다 훨씬 중요한데 교과서적으로는 그걸 잘 알기 어렵게 넘어가는 측면이 있음\n\n이 사람들이 1945년 8월 16일부터 본격적으로 사람들이 광복을 실감할 수 있는 일종의 \"광복 퍼포먼스\"를 벌였기 때문에, 조선 땅의 사람들이 \"광복\"이란 것이 폭발적으로 분출하게 된 것임",
+"handle": "xiaoyama.bsky.social",
+"name": "小山道",
+"time": "2026-11-17T05:22:35.644Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/xiaoyama.bsky.social/post/3n2icejqve22y",
+"term": "폭발"
+},
+{
+"text": "지금 내 상황이 여러가지 위기가 마구 덮쳐오는 상황이기는 한데, 그 위기의 (이유가 어찌되었든)원인과 해결을 위한 방안이 결국 '돈'이라 재취업과 현재 허리 상태에서 할 수 있는 알바나 수입 만들 방법들을 머리 싸메고 고민하고 알아보는 중...이지만 내 지금 상태를 생각하면 재취업을 한다해도 사건사고 없이 잘 버틸지 자신이 없음. 그렇다고 지금 상황상 다 팽겨치고 어디 틀어박힐수도 없고...",
+"handle": "otherplace.bsky.social",
+"name": "Otherplace ",
+"time": "2026-11-17T05:20:52.947Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/otherplace.bsky.social/post/3n2icbhbmjs25",
+"term": "사고"
+},
 {
 "platform": "YouTube",
 "text": "드래곤포니, 에너지가 폭발하는 무대 기대하세요 (KBS '불후의 명곡-크라잉넛 편' 출근길) #DragonPony",
@@ -4650,32 +4686,32 @@
 "spikes": [
 {
 "term": "폭발",
-"n30": 9,
+"n30": 10,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-17T05:20:48.353795+00:00"
+"since": "2026-11-17T05:23:01.313221+00:00"
 },
 {
 "term": "속보",
 "n30": 5,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-17T05:20:48.353795+00:00"
+"since": "2026-11-17T05:23:01.313221+00:00"
 }
 ],
 "baseline": {
 "지진": 0.05,
-"화재": 0.07,
+"화재": 0.06,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.05,
+"폭발": 0.15,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.41,
-"사고": 2.69,
-"실종": 0.32,
+"지하철": 0.37,
+"사고": 2.72,
+"실종": 0.29,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
