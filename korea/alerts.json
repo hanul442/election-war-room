@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-17T16:33:54.377358+00:00",
+"updated": "2026-11-17T16:36:10.710588+00:00",
 "errors": [],
 "events": [
 {
@@ -4914,13 +4914,13 @@
 "sns": {
 "terms": {
 "지진": {
-"n30": 1,
-"base": 0.7,
+"n30": 2,
+"base": 0.6,
 "spike": false
 },
 "화재": {
 "n30": 2,
-"base": 0.6,
+"base": 0.7,
 "spike": false
 },
 "불났": {
@@ -4960,11 +4960,11 @@
 },
 "지하철": {
 "n30": 0,
-"base": 0.4,
+"base": 0.3,
 "spike": false
 },
 "사고": {
-"n30": 2,
+"n30": 3,
 "base": 1.6,
 "spike": false
 },
@@ -4995,6 +4995,26 @@
 }
 },
 "posts": [
+{
+"text": "사고방식 뻔히 보이는 순간 너무 많아서 느껴지는 빡침의 해상도만 날로 올라감.\n\n정말…… 우리 민족의 비극입니다.\n↳대작가 박경리 님의 «일본산고» 톤으로 읽으십시오.",
+"handle": "tsuta.bsky.social",
+"name": "츠타蔦_漸龑",
+"time": "2026-11-17T16:35:54.845Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/tsuta.bsky.social/post/3n2jhyjtxuc2r",
+"term": "사고"
+},
+{
+"text": "【지진 정보】일본 시간 11월 18일 01:29경\n진원: Aso Region, Kumamoto Prefecture (M2.4, 매우 얕음)\n최대 진도: 1\n진도 1: 구마모토현\n이 지진으로 인한 쓰나미 걱정은 없습니다.\n(일본 기상청 발표)\n#일본 #지진 #방재",
+"handle": "ko.soramoyou.yk-planning.jp",
+"name": "Soramoyou 한국어",
+"time": "2026-11-17T16:34:35.260Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/ko.soramoyou.yk-planning.jp/post/3n2jhw5xxro25",
+"term": "지진"
+},
 {
 "text": "진흙탕에 미끄러져서 쿠당탕 넘어졌음, 주변에서 깔깔대다가 도와주려 하니 역정내며 거부하고 일어나서 벅저벅저 걸어감 -> 이 사소한 사건이 보도됨 (클탐: ㅋㅋㅋㅋ 감사합니다) -> 정신차려보니 교통사고로 중상을 입었다는 기사가 남\n벹: 쓰벌이게뭔데?\n\n이상황인거죠?😂😂😂",
 "handle": "kaldiwithm.bsky.social",
@@ -5235,17 +5255,17 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 0.64,
-"화재": 0.65,
+"지진": 0.68,
+"화재": 0.69,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.27,
-"붕괴": 0.36,
-"대피": 0.3,
+"폭발": 0.24,
+"붕괴": 0.32,
+"대피": 0.27,
 "미사일": 0.05,
-"속보": 0.06,
-"지하철": 0.34,
-"사고": 1.63,
+"속보": 0.05,
+"지하철": 0.31,
+"사고": 1.77,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -5499,7 +5519,7 @@
 "link": "https://www.sportsworldi.com/newsView/20261112500419"
 }
 ],
-"new": true
+"new": false
 },
 {
 "term": "mbk파트너스",
@@ -5507,14 +5527,14 @@
 "time": "2026-11-17T15:30:00+00:00",
 "news": [
 {
-"title": "회수부터 투자까지…MBK SS, 신규 펀드레이징 배경은",
-"source": "마켓인",
-"link": "https://marketin.edaily.co.kr/News/Read?newsId=04149206645646704"
-},
-{
 "title": "MBK파트너스, 2026 연차총회 개최…내년 해외투자 적극 확대",
 "source": "연합뉴스",
 "link": "https://www.yna.co.kr/view/AKR20261117056600008"
+},
+{
+"title": "회수부터 투자까지…MBK SS, 신규 펀드레이징 배경은",
+"source": "마켓인",
+"link": "https://marketin.edaily.co.kr/News/Read?newsId=04149206645646704"
 }
 ],
 "new": true
@@ -5554,6 +5574,24 @@
 }
 ],
 "new": false
+},
+{
+"term": "지진 3.7",
+"traffic": "200+",
+"time": "2026-11-17T14:10:00+00:00",
+"news": [
+{
+"title": "지수 선물 시황 - 이벤트 경계 심리 확대로 기술주 주도 약세 지속",
+"source": "Investing.com 한국어",
+"link": "https://kr.investing.com/analysis/article-200459919"
+},
+{
+"title": "[코스피 지수선물 옵션] 삼성전자·SK하이닉스 선물 동반 하락… 알테오젠·유한양행은 상승랠리",
+"source": "핀포인트뉴스",
+"link": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=505142"
+}
+],
+"new": true
 },
 {
 "term": "상주 지진",
@@ -5626,31 +5664,13 @@
 }
 ],
 "new": true
-},
-{
-"term": "lg그룹",
-"traffic": "500+",
-"time": "2026-11-17T13:10:00+00:00",
-"news": [
-{
-"title": "[단독] 이상엽 LGU+ CTO 물러난다…LG그룹 임원인사 통보 시작",
-"source": "아시아투데이",
-"link": "https://www.asiatoday.co.kr/kn/view.php?key=20261117010006517"
-},
-{
-"title": "[단독] LGU+, 기술 조직 ‘고강도 쇄신’…AI·데이터 임원 교체",
-"source": "아시아투데이",
-"link": "https://www.asiatoday.co.kr/kn/view.php?key=20261117010006562"
-}
-],
-"new": true
 }
 ],
 "trendSeen": [
-"지소연",
 "지수",
 "지스타",
 "지진",
+"지진 3.7",
 "지하철 파업",
 "지효",
 "직장인대호",
