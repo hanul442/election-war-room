@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-17T15:01:27.738010+00:00",
+"updated": "2026-11-17T15:03:39.734645+00:00",
 "errors": [],
 "events": [
 {
@@ -4884,8 +4884,8 @@
 "sns": {
 "terms": {
 "지진": {
-"n30": 5,
-"base": 22.6,
+"n30": 4,
+"base": 20.7,
 "spike": false
 },
 "화재": {
@@ -4905,12 +4905,12 @@
 },
 "폭발": {
 "n30": 2,
-"base": 1.1,
+"base": 1.2,
 "spike": false
 },
 "붕괴": {
 "n30": 2,
-"base": 0.4,
+"base": 0.3,
 "spike": false
 },
 "대피": {
@@ -4935,7 +4935,7 @@
 },
 "사고": {
 "n30": 3,
-"base": 4.2,
+"base": 4.0,
 "spike": false
 },
 "실종": {
@@ -4965,6 +4965,16 @@
 }
 },
 "posts": [
+{
+"text": "지진낫다는데요 뭐지?",
+"handle": "muljong.bsky.social",
+"name": "물정",
+"time": "2026-11-17T15:01:59.045Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/muljong.bsky.social/post/3n2jcql4ma22w",
+"term": "지진"
+},
 {
 "text": "ai 컨닝썰, 복구천재 꼬마신발 \n\n전파 차단해도 소용없다. 비행모드에서 동작하는 AI등장\n\nyoutu.be/OMDLZVbuhBs?...  \n\n재밍 대처로 광케이블 드론이 나온것과 비슷한데. 다들 무선만 생각하지 \"유선\" 카메라를 박고 몸속 깊숙히 셀룰러 기기(그깟 재난문자는 루팅으로 풀거나. LTE 라우터를 쓰거나)를 박아넣은 상태 = 엑스레이 투과가 아니면 외관상 물리적으로 완전 면역임.",
 "handle": "horangx.bsky.social",
@@ -5091,16 +5101,6 @@
 "time": "2026-11-17T14:33:13Z",
 "term": "지진",
 "url": "https://www.youtube.com/watch?v=1MbAJXpIOys"
-},
-{
-"text": "엇 지진이있었어",
-"handle": "boobooboo1029.bsky.social",
-"name": "김푸웁",
-"time": "2026-11-17T14:32:59.045Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/boobooboo1029.bsky.social/post/3n2jb4pql2k2s",
-"term": "지진"
 },
 {
 "platform": "YouTube",
@@ -5276,21 +5276,21 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 20.7,
+"지진": 19.03,
 "화재": 0.05,
 "불났": 0.05,
-"정전": 0.16,
-"폭발": 1.17,
-"붕괴": 0.35,
-"대피": 0.56,
+"정전": 0.14,
+"폭발": 1.25,
+"붕괴": 0.32,
+"대피": 0.5,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.6,
-"사고": 4.05,
+"지하철": 0.64,
+"사고": 3.95,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
-"먹통": 0.25,
+"먹통": 0.33,
 "산불": 0.05
 },
 "errors": [],
@@ -5498,6 +5498,60 @@
 },
 "trends": [
 {
+"term": "지진",
+"traffic": "10000+",
+"time": "2026-11-17T14:00:00+00:00",
+"news": [
+{
+"title": "[속보] 기상청 \"경북 상주 북서쪽서 규모 3.7 지진 발생\"",
+"source": "한국경제",
+"link": "https://www.hankyung.com/article/2026111731047"
+},
+{
+"title": "[속보] 경북 상주시 북서쪽 22km 지역서 규모 3.7 지진 발생",
+"source": "국제뉴스",
+"link": "https://www.gukjenews.com/news/articleView.html?idxno=3755162"
+}
+],
+"new": false
+},
+{
+"term": "송민규",
+"traffic": "500+",
+"time": "2026-11-17T14:00:00+00:00",
+"news": [
+{
+"title": "송민규 크로스→오세훈 헤더 쾅! 모레노호, 슈팅 13개 맹폭 속 카타르에 1-0 리드 (전반 종료) - 머니투데이",
+"source": "머니투데이",
+"link": "https://www.mt.co.kr/sports/2026/11/17/2026111722570571824"
+},
+{
+"title": "'후반 조커' 오세훈 \"골 기회 살렸어야…카타르전 반드시 승리\"",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261116002700007"
+}
+],
+"new": true
+},
+{
+"term": "mbc",
+"traffic": "200+",
+"time": "2026-11-17T14:00:00+00:00",
+"news": [
+{
+"title": "بدء عرض الموسم الجديد من توب شيف مطلع ديسمبر المقبل باشتراك نجوم الوطن العربي",
+"source": "بوابة الشروق",
+"link": "https://www.shorouknews.com/mobile/news/view.aspx?cdate=15112026&id=1c40ef7d-5f0d-4f0b-bf2a-5e9715d9f868"
+},
+{
+"title": "بمشاركة نجوم الوطن العربي.. MBC تعلن موعد عرض الموسم الجديد من «توب شيف»",
+"source": "المصري اليوم",
+"link": "https://www.almasryalyoum.com/news/details/4412587"
+}
+],
+"new": true
+},
+{
 "term": "일본 파라과이",
 "traffic": "200+",
 "time": "2026-11-17T13:40:00+00:00",
@@ -5622,60 +5676,6 @@
 }
 ],
 "new": true
-},
-{
-"term": "배정혜",
-"traffic": "200+",
-"time": "2026-11-17T12:50:00+00:00",
-"news": [
-{
-"title": "“나는 지금도 무대 막이 열릴 때 죽을 것처럼 떨려요” ‘한국 창작춤의 선구자’ 배정혜 무용가 별세",
-"source": "세계일보",
-"link": "https://www.segye.com/newsView/20261117509155"
-},
-{
-"title": "원로 무용가 배정혜 리틀엔젤스예술단 명예예술감독 별세",
-"source": "동아일보",
-"link": "https://www.donga.com/news/People/article/all/20261117/135040268/1"
-}
-],
-"new": true
-},
-{
-"term": "가덕도신공항",
-"traffic": "200+",
-"time": "2026-11-17T12:40:00+00:00",
-"news": [
-{
-"title": "국힘 부산시당, 내일 가덕도신공항 공사비 현실화 간담회",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261116121000051"
-},
-{
-"title": "국힘, 가덕 공사비 현실화 특별법 개정 동참",
-"source": "국제신문",
-"link": "https://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0100&key=20261118.22005005299"
-}
-],
-"new": true
-},
-{
-"term": "최저임금",
-"traffic": "200+",
-"time": "2026-11-17T12:20:00+00:00",
-"news": [
-{
-"title": "고령화에 일손 부족한 일본…아르바이트 평균시급 역대최고 경신",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261117103200009"
-},
-{
-"title": "[특파원 칼럼/황인찬]‘인구 절반 50세 이상’ 日이 먼저 맞은 위기",
-"source": "동아일보",
-"link": "https://www.donga.com/news/Opinion/article/all/20261115/135028839/2"
-}
-],
-"new": false
 }
 ],
 "trendSeen": [
