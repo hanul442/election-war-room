@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-18T04:21:15.711447+00:00",
+"updated": "2026-11-18T04:23:30.218360+00:00",
 "errors": [],
 "events": [
 {
@@ -3981,8 +3981,8 @@
 "spike": false
 },
 "폭발": {
-"n30": 5,
-"base": 1.1,
+"n30": 7,
+"base": 1.2,
 "spike": true
 },
 "붕괴": {
@@ -4012,7 +4012,7 @@
 },
 "사고": {
 "n30": 7,
-"base": 4.4,
+"base": 4.6,
 "spike": false
 },
 "실종": {
@@ -4022,7 +4022,7 @@
 },
 "단수": {
 "n30": 1,
-"base": 0.5,
+"base": 0.6,
 "spike": false
 },
 "통신 장애": {
@@ -4043,11 +4043,31 @@
 },
 "posts": [
 {
+"text": "무슨 일 있었나요 : 일본이 터져나가고 전세계의 인구가 폭발했어요",
+"handle": "gyrocam-mk2.bsky.social",
+"name": "무림정파",
+"time": "2026-11-18T04:22:04.749Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/gyrocam-mk2.bsky.social/post/3n2kph5juvs2d",
+"term": "폭발"
+},
+{
+"text": "@thx 칼로리 대폭발 :ablob_glowstickscry: :ablob_glowstickscry: :ablob_glowstickscry:",
+"handle": "iryu0428.pointless.chat.ap.brid.gy",
+"name": "이류🐺🦇🖋 :txt_pointless:",
+"time": "2026-11-18T04:21:12.455Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/iryu0428.pointless.chat.ap.brid.gy/post/3n2kpfmbwbmi2",
+"term": "폭발"
+},
+{
 "text": "근데 최근 뛴 캠페인 두개가 세컨드 월드이벤트 두개 연달아서 뛴거라 역체감 오짐 \n버스폭발사고나서 오버드각성하는거정도면 좀 양반인 것 같고",
 "handle": "gyrocam-mk2.bsky.social",
 "name": "무림정파",
 "time": "2026-11-18T04:20:16.542Z",
-"likes": 1,
+"likes": 2,
 "reposts": 0,
 "url": "https://bsky.app/profile/gyrocam-mk2.bsky.social/post/3n2kpdwz3kk2d",
 "term": "폭발"
@@ -4281,26 +4301,26 @@
 "spikes": [
 {
 "term": "폭발",
-"n30": 5,
-"base": 1.1,
+"n30": 7,
+"base": 1.2,
 "spike": true,
-"since": "2026-11-18T04:21:15.711447+00:00"
+"since": "2026-11-18T04:23:30.218360+00:00"
 }
 ],
 "baseline": {
-"지진": 0.22,
+"지진": 0.2,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 1.21,
-"붕괴": 0.34,
-"대피": 0.11,
-"미사일": 0.12,
+"폭발": 1.49,
+"붕괴": 0.41,
+"대피": 0.1,
+"미사일": 0.11,
 "속보": 0.05,
-"지하철": 2.39,
-"사고": 4.62,
+"지하철": 2.35,
+"사고": 4.86,
 "실종": 0.05,
-"단수": 0.56,
+"단수": 0.6,
 "통신 장애": 0.05,
 "먹통": 0.05,
 "산불": 0.05
@@ -4447,6 +4467,42 @@
 },
 "trends": [
 {
+"term": "표절",
+"traffic": "200+",
+"time": "2026-11-18T03:20:00+00:00",
+"news": [
+{
+"title": "\"카피라니 속상해\" 최예나 측, '사브리나 카펜터 표절 의혹'에 꺼내 든 결정적 증거",
+"source": "부산파이낸셜뉴스",
+"link": "https://busan.fnnews.com/news/202611171519491481"
+},
+{
+"title": "[포토]레이, 뿔테의 정석",
+"source": "매일경제",
+"link": "https://www.mk.co.kr/news/photos/12209495"
+}
+],
+"new": false
+},
+{
+"term": "xrp",
+"traffic": "100+",
+"time": "2026-11-18T03:20:00+00:00",
+"news": [
+{
+"title": "ChartNerd Says XRP’s $0.70 to $0.90 Zone Could Form a Base",
+"source": "www.tokenpost.com",
+"link": "https://www.tokenpost.com/news/investing/59222"
+},
+{
+"title": "XRP Price Prediction: What Is the Most Likely Scenario for 2027?",
+"source": "24/7 Wall St.",
+"link": "https://247wallst.com/investing/cryptocurrency/2026/11/17/xrp-price-prediction-what-is-the-most-likely-scenario-for-2027/"
+}
+],
+"new": true
+},
+{
 "term": "영화",
 "traffic": "2000+",
 "time": "2026-11-18T03:00:00+00:00",
@@ -4578,42 +4634,6 @@
 }
 ],
 "new": false
-},
-{
-"term": "고발",
-"traffic": "1000+",
-"time": "2026-11-18T02:40:00+00:00",
-"news": [
-{
-"title": "\"DNA 구조도 모르는데 서울대 치의학과 합격‥리트 만점자, 수능도 부정행위 의혹\"",
-"source": "MBC 뉴스",
-"link": "https://imnews.imbc.com/replay/2026/nwdesk/article/6866383_37004.html"
-},
-{
-"title": "[자막뉴스] '리트 만점' 비법이라더니…\"이 책도 AI로 쓴 거 아니냐\" 분통",
-"source": "SBS 뉴스",
-"link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008851332"
-}
-],
-"new": true
-},
-{
-"term": "기예르모 에레디아",
-"traffic": "500+",
-"time": "2026-11-18T02:40:00+00:00",
-"news": [
-{
-"title": "[단독] SSG, 에레디아와 결별…‘트리플A 24홈런·21도루’ 리스 하인즈 영입한다",
-"source": "더게이트",
-"link": "http://www.spochoo.com/news/articleView.html?idxno=132194"
-},
-{
-"title": "'MLB 계약까지 합의했는데 한국이 더 낫다고?' 2R 출신 100홈런 슬러거, 돌연 KBO행...어디로 갈까? - 머니투데이",
-"source": "머니투데이",
-"link": "https://www.mt.co.kr/sports/2026/11/18/202611180814778671O"
-}
-],
-"new": true
 }
 ],
 "trendSeen": [
