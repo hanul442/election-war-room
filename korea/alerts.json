@@ -1,17 +1,51 @@
 {
-"updated": "2026-11-18T22:51:33.394506+00:00",
+"updated": "2026-11-18T22:53:47.738833+00:00",
 "errors": [],
 "events": [
 {
+"id": "wNISX20261119_00038741822251",
+"first": "2026-11-18T22:51:50+00:00",
+"last": "2026-11-18T22:51:50+00:00",
+"updated": "2026-11-18T22:53:47.738833+00:00",
+"headline": "김윤석·구교환 '폭설' 공개 첫 1위 출발…주말까지 간다",
+"cat": "재난",
+"regions": [],
+"sources": [
+"뉴시스"
+],
+"updates": [
+{
+"title": "김윤석·구교환 '폭설' 공개 첫 1위 출발…주말까지 간다",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261119_0003874182",
+"time": "2026-11-18T22:51:50+00:00",
+"stage": "1보"
+}
+],
+"level": "ALERT",
+"latest": "김윤석·구교환 '폭설' 공개 첫 1위 출발…주말까지 간다",
+"tok": [
+"1위",
+"간다",
+"공개",
+"구교환",
+"김윤석",
+"주말까지",
+"출발",
+"폭설"
+]
+},
+{
 "id": "kZG50WW9ldkV1clh6SU5Boc52214",
 "first": "2026-11-18T22:14:53+00:00",
-"last": "2026-11-18T22:46:43+00:00",
-"updated": "2026-11-18T22:51:33.394506+00:00",
+"last": "2026-11-18T22:48:00+00:00",
+"updated": "2026-11-18T22:53:47.738833+00:00",
 "headline": "李대통령, 조작기소 특검법 재가…19일 공포 즉시 시행",
 "cat": "정치",
 "regions": [],
 "sources": [
 "KBC광주방송",
+"KBS 뉴스",
 "뉴스1",
 "뉴시스",
 "동행미디어 시대",
@@ -108,10 +142,17 @@
 "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5wUXBmZHZ0all0SU9pWkViU2hJTDFMTEl0LVlKN0FrTEp0TFpGVE0xb3NuUkxCMUNaYmNpQ0RiMWQwLVpaRVU4dTg5X0MzYTJX?oc=5",
 "time": "2026-11-18T22:46:43+00:00",
 "stage": "속보"
+},
+{
+"title": "[속보] 이 대통령, 조작기소 특검법 재가…공포 즉시 시행",
+"source": "KBS 뉴스",
+"link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1tdFdkWldkUTlMUGw5R2RESFdBSzI4dEZfRUNBUklNTlJPbU5RVUp6azZueUV6M0RIdk1mZWp3dDNzemF5Wl9pbnRPNjkxM2NxZUQwREhlTTRFZ0VLdDU0bE5fM09aQQ?oc=5",
+"time": "2026-11-18T22:48:00+00:00",
+"stage": "속보"
 }
 ],
 "level": "URGENT",
-"latest": "李대통령 순방 중 ‘조작기소 특검법’ 재가…19일 공포 즉시 시행",
+"latest": "이 대통령, 조작기소 특검법 재가…공포 즉시 시행",
 "tok": [
 "19일",
 "19일자",
@@ -3296,7 +3337,7 @@
 "terms": {
 "지진": {
 "n30": 3,
-"base": 1.9,
+"base": 1.7,
 "spike": false
 },
 "화재": {
@@ -3316,7 +3357,7 @@
 },
 "폭발": {
 "n30": 4,
-"base": 0.1,
+"base": 0.2,
 "spike": false
 },
 "붕괴": {
@@ -3341,12 +3382,12 @@
 },
 "지하철": {
 "n30": 4,
-"base": 0.6,
+"base": 0.7,
 "spike": false
 },
 "사고": {
 "n30": 0,
-"base": 1.0,
+"base": 0.9,
 "spike": false
 },
 "실종": {
@@ -3557,21 +3598,21 @@
 "n30": 5,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-18T22:51:33.394506+00:00"
+"since": "2026-11-18T22:53:47.738833+00:00"
 }
 ],
 "baseline": {
-"지진": 1.67,
+"지진": 1.5,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.24,
-"붕괴": 0.2,
+"폭발": 0.32,
+"붕괴": 0.18,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.74,
-"사고": 0.94,
+"지하철": 0.87,
+"사고": 0.85,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -3729,8 +3770,80 @@
 },
 "trends": [
 {
+"term": "t1",
+"traffic": "1000+",
+"time": "2026-11-18T21:50:00+00:00",
+"news": [
+{
+"title": "Sources: Zeus reaches three-year agreement with T1",
+"source": "Sheep Esports",
+"link": "https://www.sheepesports.com/en/articles/sources-zeus-set-to-return-to-t1-ahead-of-lck-2027/en"
+},
+{
+"title": "T1 Zeus Return Rumors Heat Up as Star Top-Laner Enters 2026 Free Agency",
+"source": "Lifestyle Asia Hong Kong",
+"link": "https://www.lifestyleasia.com/hk/whats-on/news-whats-on/t1-zeus-return-rumors-free-agency/"
+}
+],
+"new": true
+},
+{
+"term": "schd",
+"traffic": "200+",
+"time": "2026-11-18T21:50:00+00:00",
+"news": [
+{
+"title": "Charles Schwab (SCHW) Now Has The Largest U.S. Dividend ETF",
+"source": "Yahoo Finance",
+"link": "https://finance.yahoo.com/markets/stocks/articles/charles-schwab-schw-now-largest-031034095.html"
+},
+{
+"title": "The Winners Inside SCHD - November 2026",
+"source": "Seeking Alpha",
+"link": "https://seekingalpha.com/article/4968854-the-winners-inside-schd-november-2026"
+}
+],
+"new": true
+},
+{
+"term": "สภาพอากาศ",
+"traffic": "1000+",
+"time": "2026-11-18T21:50:00+00:00",
+"news": [
+{
+"title": "ภาคใต้อ่วม! กรมอุตุฯ เตือนรับมือฝนตกหนักถึง 22 พ.ย. นี้",
+"source": "อมรินทร์ทีวี ช่อง 34",
+"link": "https://www.amarintv.com/video/news/%E0%B8%82%E0%B9%88%E0%B8%B2%E0%B8%A7%E0%B9%80%E0%B8%A2%E0%B9%87%E0%B8%99%E0%B8%AD%E0%B8%A1%E0%B8%A3%E0%B8%B4%E0%B8%99%E0%B8%97%E0%B8%A3%E0%B9%8C/558663"
+},
+{
+"title": "หาดใหญ่เตรียมพร้อมที่จอดรถ อพยพกลุ่มเปราะบาง รับมือฝนตกหนัก 19-22 พ.ย. หวั่นเกิดน้ำท่วม",
+"source": "มติชนออนไลน์",
+"link": "https://www.matichon.co.th/region/news_5979975"
+}
+],
+"new": true
+},
+{
+"term": "성심당",
+"traffic": "1000+",
+"time": "2026-11-18T21:50:00+00:00",
+"news": [
+{
+"title": "광화문에서 성심당 픽업…오늘부터 ‘K-빵지순례’ 벌써 오픈런",
+"source": "한겨레",
+"link": "https://www.hani.co.kr/arti/economy/consumer/1287908.html"
+},
+{
+"title": "인사말 하는 이병권 중기부 2차관",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISI20261118_0021537780"
+}
+],
+"new": true
+},
+{
 "term": "유해란",
-"traffic": "100+",
+"traffic": "200+",
 "time": "2026-11-18T21:40:00+00:00",
 "news": [
 {
@@ -3748,7 +3861,7 @@
 },
 {
 "term": "야구",
-"traffic": "2000+",
+"traffic": "5000+",
 "time": "2026-11-18T21:30:00+00:00",
 "news": [
 {
@@ -3778,6 +3891,24 @@
 "title": "PHP 이어 자바도 해킹 위험…정부 긴급 보안점검",
 "source": "연합뉴스TV",
 "link": "https://www.yonhapnewstv.co.kr/news/MYH20261119055157apu"
+}
+],
+"new": true
+},
+{
+"term": "백지연",
+"traffic": "2000+",
+"time": "2026-11-18T21:30:00+00:00",
+"news": [
+{
+"title": "LEET시험 만점자 이진우 결국 줄고발…“부정행위 규명해야”",
+"source": "KBS 뉴스",
+"link": "https://news.kbs.co.kr/news/view.do?ncd=8716539"
+},
+{
+"title": "박정훈 “리트 만점자, 치대 간 수능 시험지 오늘 폐기할 수도”",
+"source": "중앙일보",
+"link": "https://www.joongang.co.kr/article/25480019"
 }
 ],
 "new": true
@@ -3814,96 +3945,6 @@
 "title": "'핑클 완전체' 이효리, 요가원장은 잠시 안녕…가죽바지·하이힐 '꾸꾸꾸' 귀환",
 "source": "조선일보",
 "link": "https://www.chosun.com/entertainments/enter_general/2026/11/18/HEZTOMRRMJRDQOJQGUZTONZYMU/"
-}
-],
-"new": true
-},
-{
-"term": "홍현희",
-"traffic": "100+",
-"time": "2026-11-18T21:20:00+00:00",
-"news": [
-{
-"title": "홍현희, 父 장례식서 친오빠와 고성 오가며 싸움..\"살아계실때 잘하지\"[순간포착]",
-"source": "미주중앙일보",
-"link": "https://www.koreadaily.com/article/20261118012335323"
-},
-{
-"title": "홍현희 \"화목한 가정 아니었다…밥 각자 먹고 각방에 TV, 삭막해\" - 머니투데이",
-"source": "머니투데이",
-"link": "https://www.mt.co.kr/entertainment/2026/11/18/2026111812202647428"
-}
-],
-"new": false
-},
-{
-"term": "마우리시오 포체티노",
-"traffic": "100+",
-"time": "2026-11-18T21:10:00+00:00",
-"news": [
-{
-"title": "포체티노 고별전서 풀리식 바이시클킥…미국, 아이티 2-0 제압",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261118096400007"
-},
-{
-"title": "[공식발표] 미국에서 비행기 내리자마자 맨유 훈련장 직행...포체티노 시대 공식 개막 - 머니투데이",
-"source": "머니투데이",
-"link": "https://www.mt.co.kr/sports/2026/11/19/202611190107774961O"
-}
-],
-"new": true
-},
-{
-"term": "kbo 리그",
-"traffic": "2000+",
-"time": "2026-11-18T21:00:00+00:00",
-"news": [
-{
-"title": "'韓 최초 역사 쓴 외인' 에레디아, 결국 SSG 떠난다 \"작별인사 전한다, 진심으로 감사해\" - 머니투데이",
-"source": "머니투데이",
-"link": "https://www.mt.co.kr/sports/2026/11/18/2026111819465096590"
-},
-{
-"title": "마이너 100홈런 26살 거포, 한국행 위해 볼티모어에서 방출…SSG 합류할까 \"충분히 임팩트 있는 타자\"",
-"source": "조선일보",
-"link": "https://www.chosun.com/sports/baseball/2026/11/18/MJRGCZRSGAZTONLGGRRDMMJZMU/"
-}
-],
-"new": true
-},
-{
-"term": "이민정",
-"traffic": "2000+",
-"time": "2026-11-18T21:00:00+00:00",
-"news": [
-{
-"title": "이민정, 미국 저택 주방 공개…대형 가스레인지부터 고급스러운 인테리어까지",
-"source": "세계일보",
-"link": "https://www.segye.com/newsView/20261118502794"
-},
-{
-"title": "이병헌·이민정 LA 저택 공개…주방만 봐도 좋아 보인다",
-"source": "뉴시스",
-"link": "https://www.newsis.com/view/NISX20261117_0003872161"
-}
-],
-"new": true
-},
-{
-"term": "3기신도시 남양주 왕숙지구",
-"traffic": "100+",
-"time": "2026-11-18T21:00:00+00:00",
-"news": [
-{
-"title": "남양주 왕숙 A-17블록 ‘왕숙 한신더휴 센텀’ 이달 분양…전용 59㎡ 379가구",
-"source": "동아일보",
-"link": "https://www.donga.com/news/Economy/article/all/20261118/135044016/1"
-},
-{
-"title": "3기 신도시 입주 지연에 ‘광교·일산’ 신규 분양 대안으로",
-"source": "Chosunbiz",
-"link": "https://biz.chosun.com/real_estate/real_estate_general/2026/11/18/72R5ILH57FHQRMA735YJZPNWBM/"
 }
 ],
 "new": true
