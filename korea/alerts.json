@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-18T14:30:40.034994+00:00",
+"updated": "2026-11-18T14:32:56.772364+00:00",
 "errors": [],
 "events": [
 {
@@ -4415,13 +4415,13 @@
 "spike": false
 },
 "폭발": {
-"n30": 5,
-"base": 1.6,
-"spike": true
+"n30": 4,
+"base": 1.7,
+"spike": false
 },
 "붕괴": {
 "n30": 4,
-"base": 1.7,
+"base": 1.8,
 "spike": false
 },
 "대피": {
@@ -4436,22 +4436,22 @@
 },
 "속보": {
 "n30": 0,
-"base": 0.4,
+"base": 0.3,
 "spike": false
 },
 "지하철": {
-"n30": 4,
+"n30": 5,
 "base": 1.3,
-"spike": false
+"spike": true
 },
 "사고": {
-"n30": 1,
-"base": 2.9,
+"n30": 3,
+"base": 2.7,
 "spike": false
 },
 "실종": {
 "n30": 0,
-"base": 0.2,
+"base": 0.1,
 "spike": false
 },
 "단수": {
@@ -4477,6 +4477,36 @@
 },
 "posts": [
 {
+"text": "근데 생각해보면 큰 사고나 불운이 별로 없다는거야말로 최고의 운인거 같음 인생 너무 파란만장 한 것 보다야.",
+"handle": "jinnys0.bsky.social",
+"name": "이진서🕯️",
+"time": "2026-11-18T14:32:12.045Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/jinnys0.bsky.social/post/3n2lrk7fisk23",
+"term": "사고"
+},
+{
+"text": "굿즈류는 최대한 안 들이려고 했는데...아크릴 4종 다 모았으니 자제해야만 해\n\n이유:이 사람은 잡는 작품 분야마다 올캐러(하코오시)+세트 기질이 엄청나게 심하다\n\n이런 이유에서 작먼귀도 최대한 문구류만 사고 있음😭",
+"handle": "sb-dream.bsky.social",
+"name": "SB-D",
+"time": "2026-11-18T14:31:46.649Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/sb-dream.bsky.social/post/3n2lrjhovg222",
+"term": "사고"
+},
+{
+"text": "오사카뿐만아니라가장 흔하게 볼 수 있는 일본지하철 스크린도어는 이렇게 생겻고 저 문이 불투명하기도 함\n아예없는곳도꽤많음",
+"handle": "10224.bsky.social",
+"name": "돌돌이",
+"time": "2026-11-18T14:31:45.244Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/10224.bsky.social/post/3n2lrjaowgc2w",
+"term": "지하철"
+},
+{
 "text": "내가자꾸 고뇌하는이유가\n내가 2차창작할때 캐릭터붕괴날까봐(ㅋㅋㅋㅋㅋ)\nㄴ이미 그릴때마다 하고있잖아요\n조용!!!",
 "handle": "irushin.bsky.social",
 "name": "ilshin",
@@ -4501,7 +4531,7 @@
 "handle": "niniing.bsky.social",
 "name": "니닝",
 "time": "2026-11-18T14:09:53.545Z",
-"likes": 14,
+"likes": 15,
 "reposts": 0,
 "url": "https://bsky.app/profile/niniing.bsky.social/post/3n2lqc7lqcc26",
 "term": "지하철"
@@ -4617,16 +4647,6 @@
 "time": "2026-11-18T14:03:04Z",
 "term": "화재",
 "url": "https://www.youtube.com/watch?v=hYFV9wds88w"
-},
-{
-"text": "반대로 말하면 내가 쫌 지랄해도 넘어갈 확률이 높다. 쟤가 드디어 폭발했구나 로 지랄쑈 작두 한번 타는 것도 괜찮을 것 같다 입니다.",
-"handle": "jyoti808.bsky.social",
-"name": "𝚓𝚢𝚘𝚝𝚒 𝚝𝚑𝚎 𝚐𝚘𝚛𝚘𝚔𝚎 𝚖𝚞𝚗𝚐",
-"time": "2026-11-18T14:02:30.543Z",
-"likes": 2,
-"reposts": 0,
-"url": "https://bsky.app/profile/jyoti808.bsky.social/post/3n2lpv4lfvc2v",
-"term": "폭발"
 },
 {
 "platform": "YouTube",
@@ -4748,11 +4768,11 @@
 ],
 "spikes": [
 {
-"term": "폭발",
+"term": "지하철",
 "n30": 5,
-"base": 1.6,
+"base": 1.3,
 "spike": true,
-"since": "2026-11-18T14:30:40.034994+00:00"
+"since": "2026-11-18T14:32:56.772364+00:00"
 }
 ],
 "baseline": {
@@ -4760,14 +4780,14 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 1.66,
-"붕괴": 1.8,
+"폭발": 1.59,
+"붕괴": 1.92,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.33,
-"지하철": 1.33,
-"사고": 2.73,
-"실종": 0.15,
+"속보": 0.3,
+"지하철": 1.5,
+"사고": 2.76,
+"실종": 0.14,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
