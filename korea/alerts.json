@@ -1,7 +1,57 @@
 {
-"updated": "2026-11-18T09:20:25.852930+00:00",
+"updated": "2026-11-18T09:22:43.382799+00:00",
 "errors": [],
 "events": [
+{
+"id": "viewAKR202611181724000830911",
+"first": "2026-11-18T09:11:35+00:00",
+"last": "2026-11-18T09:20:43+00:00",
+"updated": "2026-11-18T09:22:43.382799+00:00",
+"headline": "\"트럼프, APEC 참석차 中 도착…시진핑 공항서 영접\"",
+"cat": "국제",
+"regions": [],
+"sources": [
+"SBS",
+"연합뉴스",
+"한국경제"
+],
+"updates": [
+{
+"title": "[속보] \"트럼프, APEC 참석차 中 도착…시진핑 공항서 영접\"",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261118172400083",
+"time": "2026-11-18T09:11:35+00:00",
+"stage": "얼럿"
+},
+{
+"title": "[속보] \"트럼프, APEC 참석차 中 도착…시진핑 공항서 영접\" [신화]",
+"source": "한국경제",
+"link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE05OVl1RDlmNnZyOGNFVXdSNTl6bl94MHB5NnNjdk9XWWN0LUxRQmNoSTFOdDIzZTlBdzJWX2RRbUFSbXhDdTdNdXBqNFR4dS1JQlp2NGs2cE52Zw?oc=5",
+"time": "2026-11-18T09:17:58+00:00",
+"stage": "속보"
+},
+{
+"title": "[속보] \"트럼프, APEC 참석차 중국 도착…시진핑 공항서 영접\"〈신화〉",
+"source": "SBS",
+"link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008852497&plink=RSSLINK&cooper=RSSREADER",
+"time": "2026-11-18T09:20:43+00:00",
+"stage": "속보"
+}
+],
+"level": "URGENT",
+"latest": "\"트럼프, APEC 참석차 중국 도착…시진핑 공항서 영접\"〈신화〉",
+"tok": [
+"APEC",
+"공항서",
+"도착",
+"시진핑",
+"신화",
+"영접",
+"중국",
+"참석차",
+"트럼프"
+]
+},
 {
 "id": "FduZGJyQ3Q1UzQxSjhUUQoc50918",
 "first": "2026-11-18T09:18:30+00:00",
@@ -32,47 +82,6 @@
 "치료",
 "통증으",
 "호전"
-]
-},
-{
-"id": "viewAKR202611181724000830911",
-"first": "2026-11-18T09:11:35+00:00",
-"last": "2026-11-18T09:17:58+00:00",
-"updated": "2026-11-18T09:20:25.852930+00:00",
-"headline": "\"트럼프, APEC 참석차 中 도착…시진핑 공항서 영접\"",
-"cat": "국제",
-"regions": [],
-"sources": [
-"연합뉴스",
-"한국경제"
-],
-"updates": [
-{
-"title": "[속보] \"트럼프, APEC 참석차 中 도착…시진핑 공항서 영접\"",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261118172400083",
-"time": "2026-11-18T09:11:35+00:00",
-"stage": "얼럿"
-},
-{
-"title": "[속보] \"트럼프, APEC 참석차 中 도착…시진핑 공항서 영접\" [신화]",
-"source": "한국경제",
-"link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE05OVl1RDlmNnZyOGNFVXdSNTl6bl94MHB5NnNjdk9XWWN0LUxRQmNoSTFOdDIzZTlBdzJWX2RRbUFSbXhDdTdNdXBqNFR4dS1JQlp2NGs2cE52Zw?oc=5",
-"time": "2026-11-18T09:17:58+00:00",
-"stage": "속보"
-}
-],
-"level": "URGENT",
-"latest": "\"트럼프, APEC 참석차 中 도착…시진핑 공항서 영접\" [신화]",
-"tok": [
-"APEC",
-"공항서",
-"도착",
-"시진핑",
-"신화",
-"영접",
-"참석차",
-"트럼프"
 ]
 },
 {
@@ -3738,17 +3747,17 @@
 },
 "속보": {
 "n30": 8,
-"base": 0.6,
+"base": 0.5,
 "spike": true
 },
 "지하철": {
 "n30": 1,
-"base": 1.2,
+"base": 1.0,
 "spike": false
 },
 "사고": {
 "n30": 2,
-"base": 3.5,
+"base": 3.4,
 "spike": false
 },
 "실종": {
@@ -3768,7 +3777,7 @@
 },
 "먹통": {
 "n30": 0,
-"base": 0.7,
+"base": 0.6,
 "spike": false
 },
 "산불": {
@@ -3947,27 +3956,27 @@
 {
 "term": "속보",
 "n30": 8,
-"base": 0.6,
+"base": 0.5,
 "spike": true,
-"since": "2026-11-18T09:20:25.852930+00:00"
+"since": "2026-11-18T09:22:43.382799+00:00"
 }
 ],
 "baseline": {
-"지진": 0.58,
+"지진": 0.52,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.21,
-"붕괴": 0.09,
+"폭발": 0.19,
+"붕괴": 0.08,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.54,
-"지하철": 1.04,
-"사고": 3.37,
-"실종": 0.07,
+"속보": 0.49,
+"지하철": 0.94,
+"사고": 3.23,
+"실종": 0.06,
 "단수": 0.05,
 "통신 장애": 0.05,
-"먹통": 0.62,
+"먹통": 0.56,
 "산불": 0.05
 },
 "errors": [],
@@ -4185,9 +4194,9 @@
 "link": "https://www.mt.co.kr/economy/2026/11/18/2026111816001870347"
 },
 {
-"title": "이 대통령 “개방을 멈춰서는 안 돼”… APEC CEO 서밋 연설",
-"source": "경향신문",
-"link": "https://www.khan.co.kr/article/202611181755001"
+"title": "[연합뉴스 이 시각 헤드라인] - 18:00",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261118163900011"
 }
 ],
 "new": false
