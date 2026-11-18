@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-18T14:39:45.745479+00:00",
+"updated": "2026-11-18T14:42:10.322332+00:00",
 "errors": [],
 "events": [
 {
@@ -4415,13 +4415,13 @@
 "spike": false
 },
 "폭발": {
-"n30": 9,
-"base": 1.5,
+"n30": 8,
+"base": 1.4,
 "spike": true
 },
 "붕괴": {
 "n30": 2,
-"base": 2.0,
+"base": 1.9,
 "spike": false
 },
 "대피": {
@@ -4430,7 +4430,7 @@
 "spike": false
 },
 "미사일": {
-"n30": 2,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
@@ -4440,12 +4440,12 @@
 "spike": true
 },
 "지하철": {
-"n30": 4,
-"base": 1.9,
+"n30": 3,
+"base": 2.0,
 "spike": false
 },
 "사고": {
-"n30": 3,
+"n30": 4,
 "base": 2.9,
 "spike": false
 },
@@ -4476,6 +4476,16 @@
 }
 },
 "posts": [
+{
+"text": "아 그러네 뒤에서 왹.이 붕어빵 사고 있잖아 둘 데이트만 보느라 몰랏다(ㅋㅋㅋㅋㅋㅋㅋㄱ\n저 치키님 특유의 이런 카메오 너무 좋음요…",
+"handle": "eewtheotaku.bsky.social",
+"name": "💎☮️🎩지렁이🏳️‍🌈💛💎",
+"time": "2026-11-18T14:39:52.948Z",
+"likes": 2,
+"reposts": 0,
+"url": "https://bsky.app/profile/eewtheotaku.bsky.social/post/3n2lrxx4ef22s",
+"term": "사고"
+},
 {
 "platform": "YouTube",
 "text": "[삼성SDI 주가전망] *마감 속보* 와..16GWh 수주에도 사흘째 음봉 만든 \"진짜 이유\", \"이 흐름\" 모르면 계속 당합니다.",
@@ -4527,7 +4537,7 @@
 "handle": "niniing.bsky.social",
 "name": "니닝",
 "time": "2026-11-18T14:32:54.446Z",
-"likes": 2,
+"likes": 3,
 "reposts": 0,
 "url": "https://bsky.app/profile/niniing.bsky.social/post/3n2lrli7gts2q",
 "term": "지하철"
@@ -4709,16 +4719,6 @@
 "url": "https://www.youtube.com/watch?v=U_y5E6Rz6LI"
 },
 {
-"text": "빠이 제주\n택시비에 쫄린 소시민은 정정당당하게 지하철 귀가",
-"handle": "niniing.bsky.social",
-"name": "니닝",
-"time": "2026-11-18T14:09:53.545Z",
-"likes": 16,
-"reposts": 0,
-"url": "https://bsky.app/profile/niniing.bsky.social/post/3n2lqc7lqcc26",
-"term": "지하철"
-},
-{
 "platform": "YouTube",
 "text": "트와이스 정연, 흰티+청바지 새 프로필 청순미 폭발",
 "handle": "UCOi3bpSEcb2yrYecH4exAxA",
@@ -4740,17 +4740,17 @@
 "spikes": [
 {
 "term": "폭발",
-"n30": 9,
-"base": 1.5,
+"n30": 8,
+"base": 1.4,
 "spike": true,
-"since": "2026-11-18T14:39:45.745479+00:00"
+"since": "2026-11-18T14:42:10.322332+00:00"
 },
 {
 "term": "속보",
 "n30": 5,
 "base": 0.2,
 "spike": true,
-"since": "2026-11-18T14:39:45.745479+00:00"
+"since": "2026-11-18T14:42:10.322332+00:00"
 }
 ],
 "baseline": {
@@ -4758,14 +4758,14 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 1.43,
-"붕괴": 1.93,
+"폭발": 1.39,
+"붕괴": 1.84,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.22,
+"속보": 0.2,
 "지하철": 1.99,
-"사고": 2.91,
-"실종": 0.11,
+"사고": 3.02,
+"실종": 0.1,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
