@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-18T01:35:57.117374+00:00",
+"updated": "2026-11-18T01:38:08.932017+00:00",
 "errors": [],
 "events": [
 {
@@ -1043,7 +1043,7 @@
 "id": "viewAKR202611180597005300052",
 "first": "2026-11-18T00:52:37+00:00",
 "last": "2026-11-18T01:21:57+00:00",
-"updated": "2026-11-18T01:27:05.755377+00:00",
+"updated": "2026-11-18T01:38:08.932017+00:00",
 "headline": "수능 시험장에 '흑색 연필'만 반입 허용…나머지 필기구 불가",
 "cat": "기타",
 "regions": [],
@@ -1055,7 +1055,8 @@
 "부산일보",
 "서울경제",
 "연합뉴스",
-"위키트리"
+"위키트리",
+"헤럴드경제"
 ],
 "updates": [
 {
@@ -1112,6 +1113,13 @@
 "source": "서울경제",
 "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBRZVVUbmdld3B4REdoMXlkWl9Hd3NfdEl1Q1RrcmhaMHA0TDFKZ3NLODh3enpsQmYtQXBuWDJIVHljUW5YeWUwdjRublFESDJkdlFYVnFyaWtmalRJVEtR0gFTQVVfeXFMTXBXVGZvYk1zZ2ZFQS01b0wtQkYyMjZGckNQakhhWldDZ3RmOFU0aVdHRUNGbEhUT3VuVXFIdnZOeTcyaDBrTXc2WkU2SmRLOVg1SDA?oc=5",
 "time": "2026-11-18T01:06:48+00:00",
+"stage": "속보"
+},
+{
+"title": "[속보] 올 수능 시험장에 ‘흑색 연필’만 반입 허용…나머지 필기구 불가",
+"source": "헤럴드경제",
+"link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE92VGo1cUZPZW9TLUNFTEswSmZBbGI4dEw4Q3hqY2pNRXRIRUlNZmFvSE9tMnRTRFdtT3pxSkpjbnRZX1FvVlhTNmhPaUtqUGQ5WnhROW5n?oc=5",
+"time": "2026-11-18T01:07:54+00:00",
 "stage": "속보"
 },
 {
@@ -1371,14 +1379,22 @@
 "id": "kxKeVhodmhIbkRUS0hBdwoc50119",
 "first": "2026-11-18T01:19:00+00:00",
 "last": "2026-11-18T01:19:00+00:00",
-"updated": "2026-11-18T01:24:52.920550+00:00",
+"updated": "2026-11-18T01:38:08.932017+00:00",
 "headline": "수능일 위급 재난문자 19일 오전 8시 30분 첫 발송... 10.5초간 경고음",
 "cat": "재난",
 "regions": [],
 "sources": [
+"뉴스1",
 "한국일보"
 ],
 "updates": [
+{
+"title": "[속보] 수능일 오전 8시 30분 첫 재난문자…이후에도 불시 발송",
+"source": "뉴스1",
+"link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBkS3JuVnlvVW9VVmtTQTVJczNkMkp0SnZ3Z29GMjBtTUxuR19DZVM3VDdkMDA1bHRCb3ZfLXFIWWd5cmJieUE1YmhBWVE4cDg?oc=5",
+"time": "2026-11-18T01:12:53+00:00",
+"stage": "속보"
+},
 {
 "title": "수능일 위급 재난문자 19일 오전 8시 30분 첫 발송... 10.5초간 경고음",
 "source": "한국일보",
@@ -1387,7 +1403,7 @@
 "stage": "1보"
 }
 ],
-"level": "ALERT",
+"level": "URGENT",
 "latest": "수능일 위급 재난문자 19일 오전 8시 30분 첫 발송... 10.5초간 경고음",
 "tok": [
 "19일",
@@ -1396,9 +1412,11 @@
 "8시",
 "경고음",
 "발송",
+"불시",
 "수능일",
 "오전",
 "위급",
+"이후에",
 "재난문자"
 ]
 },
@@ -3661,12 +3679,12 @@
 "terms": {
 "지진": {
 "n30": 5,
-"base": 2.1,
+"base": 2.4,
 "spike": false
 },
 "화재": {
-"n30": 1,
-"base": 0.7,
+"n30": 0,
+"base": 0.8,
 "spike": false
 },
 "불났": {
@@ -3676,7 +3694,7 @@
 },
 "정전": {
 "n30": 1,
-"base": 0.3,
+"base": 0.4,
 "spike": false
 },
 "폭발": {
@@ -3686,7 +3704,7 @@
 },
 "붕괴": {
 "n30": 6,
-"base": 0.6,
+"base": 0.7,
 "spike": true
 },
 "대피": {
@@ -3706,12 +3724,12 @@
 },
 "지하철": {
 "n30": 1,
-"base": 0.4,
+"base": 0.3,
 "spike": false
 },
 "사고": {
 "n30": 2,
-"base": 1.2,
+"base": 1.3,
 "spike": false
 },
 "실종": {
@@ -3720,7 +3738,7 @@
 "spike": false
 },
 "단수": {
-"n30": 0,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
@@ -3731,7 +3749,7 @@
 },
 "먹통": {
 "n30": 1,
-"base": 0.7,
+"base": 0.8,
 "spike": false
 },
 "산불": {
@@ -3742,11 +3760,21 @@
 },
 "posts": [
 {
+"text": "수요일\n화/오\n1032 18.40% 흐림/양호34-나쁨17\n+콜슈후 군계1 납작1 밤빵꼬투리 두부조림 그릭요거트/ 요거트 얼린바나나1/4 얼린블루베리\n___\n\n단수와 엘베정검이 한 날에 걸렸다 으아\n오늘 택배올게 있는데 괜찮을까 이 택배는 주문부터 배송까지 뭔가 다사다난하군 제품이 하자가 없이 왠만하면 쓸수있는것이 오면 좋으련만",
+"handle": "achesthere.bsky.social",
+"name": "에이케",
+"time": "2026-11-18T01:37:21.749Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/achesthere.bsky.social/post/3n2kgap2mp22i",
+"term": "단수"
+},
+{
 "text": "포항 지진 피해 입은 분들은 당시에 힘들었고 다친 사람도 많을 거고 그랬는데 수능 연기하란 식으로 다시 불리는 게 맞냐? 노싸가지들.",
 "handle": "tsuta.bsky.social",
 "name": "츠타蔦_漸龑",
 "time": "2026-11-18T01:35:19.748Z",
-"likes": 0,
+"likes": 1,
 "reposts": 0,
 "url": "https://bsky.app/profile/tsuta.bsky.social/post/3n2kg52olqs27",
 "term": "지진"
@@ -3786,8 +3814,8 @@
 "handle": "tsuta.bsky.social",
 "name": "츠타蔦_漸龑",
 "time": "2026-11-18T01:28:32.844Z",
-"likes": 1,
-"reposts": 0,
+"likes": 4,
+"reposts": 1,
 "url": "https://bsky.app/profile/tsuta.bsky.social/post/3n2kfqwlhnc27",
 "term": "지진"
 },
@@ -4001,50 +4029,40 @@
 "reposts": 0,
 "url": "https://bsky.app/profile/grandsun.bsky.social/post/3n2kemyrghk2c",
 "term": "먹통"
-},
-{
-"text": "다른데는 컴퓨터 안해주는데 여기는 해주네\n화재보험에 보통 들어있는데 가지고계신분들 확인좀 해보세요\n대부분 22개 가전일텐데 여기는 39개임ㅋㅋㅋㅋㅋ",
-"handle": "jade-insua.bsky.social",
-"name": "Jade",
-"time": "2026-11-18T01:07:56.741Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/jade-insua.bsky.social/post/3n2kem44nkc2s",
-"term": "화재"
 }
 ],
 "spikes": [
 {
 "term": "붕괴",
 "n30": 6,
-"base": 0.6,
+"base": 0.7,
 "spike": true,
-"since": "2026-11-18T01:35:57.117374+00:00"
+"since": "2026-11-18T01:38:08.932017+00:00"
 },
 {
 "term": "속보",
 "n30": 10,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-18T01:35:57.117374+00:00"
+"since": "2026-11-18T01:38:08.932017+00:00"
 }
 ],
 "baseline": {
-"지진": 2.36,
-"화재": 0.77,
+"지진": 2.62,
+"화재": 0.69,
 "불났": 0.05,
-"정전": 0.39,
+"정전": 0.45,
 "폭발": 0.05,
-"붕괴": 0.68,
+"붕괴": 0.71,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.33,
-"사고": 1.32,
+"지하철": 0.3,
+"사고": 1.39,
 "실종": 0.05,
-"단수": 0.08,
+"단수": 0.17,
 "통신 장애": 0.05,
-"먹통": 0.77,
+"먹통": 0.79,
 "산불": 0.05
 },
 "errors": [],
@@ -4230,14 +4248,14 @@
 "time": "2026-11-18T00:10:00+00:00",
 "news": [
 {
-"title": "롯데칠성, 2026년산 햇와인 '조르쥐 뒤뵈프 보졸레 누보' 3종 선봬",
-"source": "뉴스1",
-"link": "https://www.news1.kr/industry/distribution/6357500"
+"title": "이마트24, '옐로우' 차음료 2종 출시…헬시 플레저 수요 공략",
+"source": "전자신문",
+"link": "https://www.etnews.com/20261118000110"
 },
 {
-"title": "롯데칠성음료, 프랑스 햇와인 ‘보졸레 누보’ 3종 선봬…19일 출시",
-"source": "스마트경제",
-"link": "https://www.dailysmart.co.kr/news/articleView.html?idxno=132729"
+"title": "이마트24, 겨울 음료 1000원대로 즐긴다…자허블·배도라지로 상품군 확대",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261118_0003872444"
 }
 ],
 "new": true
@@ -4374,14 +4392,14 @@
 "time": "2026-11-17T23:10:00+00:00",
 "news": [
 {
-"title": "Astra for Law leads in legal intelligence",
-"source": "OpenAI",
-"link": "https://openai.com/index/astra-law-6-2/"
-},
-{
 "title": "OpenAI’s GPT-6.2 Astra and GPT-6.2 Sol now available",
 "source": "The GitHub Blog",
 "link": "https://github.blog/changelog/2026-11-17-openais-gpt-6-2-astra-and-gpt-6-2-sol-now-available/"
+},
+{
+"title": "OpenAI Unveils New Astra AI Model After Scrapping Prior Release",
+"source": "Bloomberg.com",
+"link": "https://www.bloomberg.com/news/articles/2026-11-17/openai-unveils-new-astra-ai-model-after-scrapping-prior-release"
 }
 ],
 "new": true
