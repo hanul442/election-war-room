@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-18T20:29:30.942427+00:00",
+"updated": "2026-11-18T20:31:59.308350+00:00",
 "errors": [],
 "events": [
 {
@@ -2452,8 +2452,8 @@
 "sns": {
 "terms": {
 "지진": {
-"n30": 1,
-"base": 4.0,
+"n30": 2,
+"base": 3.7,
 "spike": false
 },
 "화재": {
@@ -2472,12 +2472,12 @@
 "spike": false
 },
 "폭발": {
-"n30": 5,
+"n30": 2,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "붕괴": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -2492,12 +2492,12 @@
 "spike": false
 },
 "속보": {
-"n30": 17,
+"n30": 6,
 "base": 0.1,
 "spike": true
 },
 "지하철": {
-"n30": 3,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
@@ -2533,6 +2533,16 @@
 }
 },
 "posts": [
+{
+"text": "【지진 정보】일본 시간 11월 19일 05:25경\n진원: Amakusa and Ashikita Region, Kumamoto Prefecture (M2.8, 깊이 약 10km)\n최대 진도: 1\n진도 1: 구마모토현\n이 지진으로 인한 쓰나미 걱정은 없습니다.\n(일본 기상청 발표)\n#일본 #지진 #방재",
+"handle": "ko.soramoyou.yk-planning.jp",
+"name": "Soramoyou 한국어",
+"time": "2026-11-18T20:29:32.740Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/ko.soramoyou.yk-planning.jp/post/3n2mfj7wp4d2p",
+"term": "지진"
+},
 {
 "text": "친구 아오이와 한 가상 배우자 챌린지에서 연속으로 Gender male 9번 나오고 대폭발했던 스트레이트보이 로끼\nN년뒤 40 바라보는 삼십대에 키 176cm 몸무게 88kg 직업 애매하고 성격 이상한 gender male분과 교제함",
 "handle": "buibilding.bsky.social",
@@ -2781,26 +2791,19 @@
 ],
 "spikes": [
 {
-"term": "폭발",
-"n30": 5,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-18T20:29:30.942427+00:00"
-},
-{
 "term": "속보",
-"n30": 17,
+"n30": 6,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-18T20:29:30.942427+00:00"
+"since": "2026-11-18T20:31:59.308350+00:00"
 }
 ],
 "baseline": {
-"지진": 3.66,
+"지진": 3.49,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.15,
+"폭발": 0.24,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
@@ -3104,9 +3107,9 @@
 "time": "2026-11-18T17:50:00+00:00",
 "news": [
 {
-"title": "APEC 담판, 전쟁 끝낼까...\"해법 쉽지 않을 것\"",
-"source": "YTN",
-"link": "https://www.ytn.co.kr/_cs/_ln_0104_202611182303205047_005.html"
+"title": "미중러 정상 오늘 사상 첫 3자회담…세계질서 중대 분수령",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261118159000083"
 },
 {
 "title": "시진핑, 직접 공항 나가 트럼프 ‘포옹 영접’",
