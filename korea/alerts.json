@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-18T17:25:14.183777+00:00",
+"updated": "2026-11-18T17:27:31.388449+00:00",
 "errors": [],
 "events": [
 {
@@ -3180,7 +3180,7 @@
 "sns": {
 "terms": {
 "지진": {
-"n30": 0,
+"n30": 1,
 "base": 0.6,
 "spike": false
 },
@@ -3200,7 +3200,7 @@
 "spike": false
 },
 "폭발": {
-"n30": 4,
+"n30": 3,
 "base": 0.1,
 "spike": false
 },
@@ -3250,8 +3250,8 @@
 "spike": false
 },
 "먹통": {
-"n30": 1,
-"base": 0.7,
+"n30": 0,
+"base": 0.8,
 "spike": false
 },
 "산불": {
@@ -3261,6 +3261,16 @@
 }
 },
 "posts": [
+{
+"text": "【지진 정보】일본 시간 11월 19일 02:22경\n진원: 진원 조사 중\n최대 진도: 5약\n진도 5약: 구마모토현\n진도 4: 미야자키현, 가고시마현\n진도 3: 나가사키현\n(일본 기상청 발표)\n#일본 #지진 #방재",
+"handle": "ko.soramoyou.yk-planning.jp",
+"name": "Soramoyou 한국어",
+"time": "2026-11-18T17:25:32.541Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/ko.soramoyou.yk-planning.jp/post/3n2m3a7adcs2z",
+"term": "지진"
+},
 {
 "platform": "YouTube",
 "text": "(속보) 윤석열 부부, 안타까운 소식...",
@@ -3323,16 +3333,6 @@
 "time": "2026-11-18T16:58:32Z",
 "term": "속보",
 "url": "https://www.youtube.com/watch?v=SzLBtn7wgsM"
-},
-{
-"text": "블스가 먹통이엇나\n그래사 다들 자러간 것 같았던건가!!!",
-"handle": "huoguoparty.bsky.social",
-"name": "🎃🍠훠박고곰아🍎🌽",
-"time": "2026-11-18T16:57:18.551Z",
-"likes": 1,
-"reposts": 0,
-"url": "https://bsky.app/profile/huoguoparty.bsky.social/post/3n2lznp5huk2q",
-"term": "먹통"
 },
 {
 "platform": "YouTube",
@@ -3472,21 +3472,21 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 0.55,
+"지진": 0.6,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.12,
+"폭발": 0.11,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
 "지하철": 0.05,
-"사고": 0.46,
+"사고": 0.41,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
-"먹통": 0.77,
+"먹통": 0.69,
 "산불": 0.05
 },
 "errors": [],
