@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-18T17:13:41.442340+00:00",
+"updated": "2026-11-18T17:15:59.220618+00:00",
 "errors": [],
 "events": [
 {
@@ -3181,7 +3181,7 @@
 "terms": {
 "지진": {
 "n30": 0,
-"base": 1.0,
+"base": 0.9,
 "spike": false
 },
 "화재": {
@@ -3200,7 +3200,7 @@
 "spike": false
 },
 "폭발": {
-"n30": 7,
+"n30": 5,
 "base": 0.2,
 "spike": true
 },
@@ -3215,7 +3215,7 @@
 "spike": false
 },
 "미사일": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -3231,7 +3231,7 @@
 },
 "사고": {
 "n30": 0,
-"base": 0.9,
+"base": 0.8,
 "spike": false
 },
 "실종": {
@@ -3473,35 +3473,35 @@
 "spikes": [
 {
 "term": "폭발",
-"n30": 7,
+"n30": 5,
 "base": 0.2,
 "spike": true,
-"since": "2026-11-18T17:13:41.442340+00:00"
+"since": "2026-11-18T17:15:59.220618+00:00"
 },
 {
 "term": "속보",
 "n30": 6,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-18T17:13:41.442340+00:00"
+"since": "2026-11-18T17:15:59.220618+00:00"
 }
 ],
 "baseline": {
-"지진": 0.92,
+"지진": 0.83,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.2,
+"폭발": 0.18,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.07,
-"사고": 0.78,
+"지하철": 0.06,
+"사고": 0.7,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
-"먹통": 0.6,
+"먹통": 0.64,
 "산불": 0.05
 },
 "errors": [],
@@ -3709,24 +3709,6 @@
 },
 "trends": [
 {
-"term": "ps5 pro",
-"traffic": "100+",
-"time": "2026-11-18T14:50:00+00:00",
-"news": [
-{
-"title": "PlayStation 5 — GTA 6 Launch Triggers Global Console Shortages",
-"source": "The Korea Daily",
-"link": "https://en.koreadaily.com/playstation-5-gta-6-launch-shortages/"
-},
-{
-"title": "GTA VI Stresses Out the Base PS5, and the PS5 Pro Is Suddenly Hard to Find",
-"source": "VICE",
-"link": "https://www.vice.com/en/via/ps5-pro-for-gta-vi/"
-}
-],
-"new": true
-},
-{
 "term": "신세계",
 "traffic": "200+",
 "time": "2026-11-18T14:50:00+00:00",
@@ -3811,14 +3793,14 @@
 "time": "2026-11-18T12:30:00+00:00",
 "news": [
 {
-"title": "佛 대선 유력주자 르펜 \"정년 60세로 낮추겠다\"",
-"source": "마켓인",
-"link": "https://marketin.edaily.co.kr/News/ReadE?newsId=02679766645647032"
-},
-{
 "title": "나라 곳간 빨간불인데…\"60세부터 연금 수령\" 파격 승부수",
 "source": "한국경제",
 "link": "https://www.hankyung.com/article/2026111855181"
+},
+{
+"title": "佛 대선 유력주자 르펜 \"정년 60세로 낮추겠다\"",
+"source": "마켓인",
+"link": "https://marketin.edaily.co.kr/News/ReadE?newsId=02679766645647032"
 }
 ],
 "new": true
@@ -3873,6 +3855,24 @@
 "title": "[공식발표] 손흥민도 놓쳤던 그 상, '35살' 그리즈만이 받았다! 18경기 14골 8도움→MLS 올해의 영입생 등극 \"올랜도 역사상 최초\"",
 "source": "조선일보",
 "link": "https://www.chosun.com/sports/world-football/2026/11/18/MZSGGYZTGVSWEMRUGFQTENZQGQ/"
+}
+],
+"new": true
+},
+{
+"term": "kamil mishara",
+"traffic": "1000+",
+"time": "2026-11-18T12:20:00+00:00",
+"news": [
+{
+"title": "Sudurpaschim Royals vs Chitwan Rhinos Preview & Prediction | 2026 Nepal Premier League | Qualifier 2",
+"source": "The Stats Zone",
+"link": "https://www.thestatszone.com/sudurpaschim-royals-vs-chitwan-rhinos-preview-prediction-2026-nepal-premier-league-qualifier-2-240092"
+},
+{
+"title": "Kamil Mishra Prioritizes Team Victory Over Personal Records",
+"source": "Ratopati",
+"link": "https://english.ratopati.com/story/87194/it-doesnt-really-matter-who-the-opponent-is-in-the-qualifiers-kamil-mishra"
 }
 ],
 "new": true
