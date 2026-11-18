@@ -1,19 +1,37 @@
 {
-"updated": "2026-11-18T10:35:43.886621+00:00",
+"updated": "2026-11-18T10:37:59.764145+00:00",
 "errors": [],
 "events": [
 {
 "id": "vdFhnaFlhQ0JlQjNpdTNFoc51034",
 "first": "2026-11-18T10:34:03+00:00",
 "last": "2026-11-18T10:34:03+00:00",
-"updated": "2026-11-18T10:35:43.886621+00:00",
+"updated": "2026-11-18T10:37:59.764145+00:00",
 "headline": "신생아 학대 혐의 받는 30대 부부…둘 다 경찰이라고?",
 "cat": "사회",
-"regions": [],
+"regions": [
+"전북"
+],
 "sources": [
-"문화일보"
+"SBS",
+"문화일보",
+"연합뉴스"
 ],
 "updates": [
+{
+"title": "현직 경찰관 부부 '신생아 자녀 학대 혐의'…경찰, 수사(종합)",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261118156751055",
+"time": "2026-11-18T10:17:38+00:00",
+"stage": "종합"
+},
+{
+"title": "신생아 자녀 학대 의혹…현직 경찰관·남편 조사 중",
+"source": "SBS",
+"link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008852406&plink=RSSLINK&cooper=RSSREADER",
+"time": "2026-11-18T10:28:45+00:00",
+"stage": "후속"
+},
 {
 "title": "[속보]신생아 학대 혐의 받는 30대 부부…둘 다 경찰이라고?",
 "source": "문화일보",
@@ -26,11 +44,18 @@
 "latest": "신생아 학대 혐의 받는 30대 부부…둘 다 경찰이라고?",
 "tok": [
 "30대",
+"경찰",
+"경찰관",
 "경찰이라고",
+"남편",
 "받는",
 "부부",
+"수사",
 "신생아",
+"자녀",
+"조사",
 "학대",
+"현직",
 "혐의"
 ]
 },
@@ -3940,7 +3965,7 @@
 "sns": {
 "terms": {
 "지진": {
-"n30": 3,
+"n30": 2,
 "base": 0.2,
 "spike": false
 },
@@ -3960,8 +3985,8 @@
 "spike": false
 },
 "폭발": {
-"n30": 2,
-"base": 0.7,
+"n30": 1,
+"base": 0.8,
 "spike": false
 },
 "붕괴": {
@@ -3970,28 +3995,28 @@
 "spike": false
 },
 "대피": {
-"n30": 1,
-"base": 0.7,
+"n30": 0,
+"base": 0.8,
 "spike": false
 },
 "미사일": {
 "n30": 1,
-"base": 0.7,
+"base": 0.6,
 "spike": false
 },
 "속보": {
-"n30": 7,
+"n30": 6,
 "base": 0.1,
 "spike": true
 },
 "지하철": {
 "n30": 2,
-"base": 1.7,
+"base": 1.8,
 "spike": false
 },
 "사고": {
-"n30": 4,
-"base": 2.7,
+"n30": 3,
+"base": 2.9,
 "spike": false
 },
 "실종": {
@@ -4021,6 +4046,16 @@
 }
 },
 "posts": [
+{
+"text": "페어팩스 카운티 소방대가 랭글리에 있는 CIA 본부에서 화재가 발생했다는 신고를 받고 출동했습니다.\n\nwww.disclose.tv/id/dpw8s6vu0r/",
+"handle": "newsky144th.bsky.social",
+"name": "하통시대",
+"time": "2026-11-18T10:37:01.245Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/newsky144th.bsky.social/post/3n2lefmcw6c27",
+"term": "화재"
+},
 {
 "text": "감비아가 말하는 '기후 정의'란? \"사고를 치지 않은 사람이 가장 큰 수리비를 내서는 안 된다.\"",
 "handle": "newsky144th.bsky.social",
@@ -4180,16 +4215,6 @@
 "term": "사고"
 },
 {
-"text": "치이카와 뽀모도로 시계 사고시픔",
-"handle": "hangin1.bsky.social",
-"name": "나무2",
-"time": "2026-11-18T10:07:15.444Z",
-"likes": 3,
-"reposts": 0,
-"url": "https://bsky.app/profile/hangin1.bsky.social/post/3n2lcqi6irc23",
-"term": "사고"
-},
-{
 "platform": "YouTube",
 "text": "42층 초고층아파트#보조배터리화재알면 피해를 대비합니다. #한국배터리기술인협회 #배터리화재안전교육 #데이터센터안전",
 "handle": "UCkKZU5QSuAIWiNPOGiynMTQ",
@@ -4206,16 +4231,6 @@
 "time": "2026-11-18T10:06:39Z",
 "term": "속보",
 "url": "https://www.youtube.com/watch?v=TIemhh4RCHk"
-},
-{
-"text": "진주만 공습 전함 어뢰 피격 순간 AI 시네마틱 전쟁 재현 영상 #진주만공습 #전쟁영화\n제2차 세계대전 진주만 공습 당시 해군 전함이 수중 어뢰에 피격되어 폭발하는 순간을 구현한 AI 시네마틱 전쟁 단편 영상입니다.\n바닷속을 가르는 어뢰의 궤적과 갑판 위 수병들의 긴박한 대피 장면, 저공비행하는 전투기와 거대한 화염 기둥을 사실적인 전쟁 영화 연출로 담아냈습니다. \n\n#2차세계대전 #람다에이",
-"handle": "lambdaai.bsky.social",
-"name": "람다에이아이 (LambdaAi)",
-"time": "2026-11-18T10:06:21.141Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/lambdaai.bsky.social/post/3n2lcosc34s27",
-"term": "폭발"
 },
 {
 "platform": "YouTube",
@@ -4284,24 +4299,24 @@
 "spikes": [
 {
 "term": "속보",
-"n30": 7,
+"n30": 6,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-18T10:35:43.886621+00:00"
+"since": "2026-11-18T10:37:59.764145+00:00"
 }
 ],
 "baseline": {
-"지진": 0.23,
-"화재": 0.05,
+"지진": 0.21,
+"화재": 0.15,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.77,
+"폭발": 0.69,
 "붕괴": 0.05,
-"대피": 0.77,
-"미사일": 0.62,
+"대피": 0.69,
+"미사일": 0.56,
 "속보": 0.05,
-"지하철": 1.77,
-"사고": 2.86,
+"지하철": 1.79,
+"사고": 2.87,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -4557,9 +4572,9 @@
 "link": "https://www.chosun.com/national/court_law/2026/11/18/YZFAVLINIFHOLEJLLZWYF4UMQI/"
 },
 {
-"title": "1심 이어 2심 판결도 \"새만금국제공항 취소\"...백지화 위기",
+"title": "[속보] 새만금공항 취소 소송, 항소심도 \"계획 취소해야\"",
 "source": "YTN",
-"link": "https://www.ytn.co.kr/_ln/0115_202611181841440934"
+"link": "https://www.ytn.co.kr/_cs/_ln_0103_202611181428180607_005.html"
 }
 ],
 "new": true
