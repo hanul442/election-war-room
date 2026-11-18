@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-18T20:06:10.370186+00:00",
+"updated": "2026-11-18T20:08:29.332720+00:00",
 "errors": [],
 "events": [
 {
@@ -2400,8 +2400,8 @@
 "sns": {
 "terms": {
 "지진": {
-"n30": 4,
-"base": 6.4,
+"n30": 5,
+"base": 6.2,
 "spike": false
 },
 "화재": {
@@ -2420,7 +2420,7 @@
 "spike": false
 },
 "폭발": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -2440,7 +2440,7 @@
 "spike": false
 },
 "속보": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -2482,6 +2482,16 @@
 },
 "posts": [
 {
+"text": "【지진 정보】일본 시간 11월 19일 05:03경\n진원: Amakusa and Ashikita Region, Kumamoto Prefecture (M3.1, 깊이 약 10km)\n최대 진도: 2\n진도 2: 구마모토현\n진도 1: 가고시마현\n이 지진으로 인한 쓰나미 걱정은 없습니다.\n(일본 기상청 발표)\n#일본 #지진 #방재",
+"handle": "ko.soramoyou.yk-planning.jp",
+"name": "Soramoyou 한국어",
+"time": "2026-11-18T20:07:33.052Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/ko.soramoyou.yk-planning.jp/post/3n2mebves4o2j",
+"term": "지진"
+},
+{
 "text": "【지진 정보】일본 시간 11월 19일 04:51경\n진원: Amakusa and Ashikita Region, Kumamoto Prefecture (M2.4, 깊이 약 10km)\n최대 진도: 1\n진도 1: 구마모토현\n이 지진으로 인한 쓰나미 걱정은 없습니다.\n(일본 기상청 발표)\n#일본 #지진 #방재",
 "handle": "ko.soramoyou.yk-planning.jp",
 "name": "Soramoyou 한국어",
@@ -2509,16 +2519,6 @@
 "likes": 0,
 "reposts": 0,
 "url": "https://bsky.app/profile/ko.soramoyou.yk-planning.jp/post/3n2mcwzmdth2e",
-"term": "지진"
-},
-{
-"text": "【지진 정보】일본 시간 11월 19일 04:37경\n진원: Amakusa and Ashikita Region, Kumamoto Prefecture (M2.9, 깊이 약 10km)\n최대 진도: 2\n진도 2: 구마모토현\n진도 1: 가고시마현\n이 지진으로 인한 쓰나미 걱정은 없습니다.\n(일본 기상청 발표)\n#일본 #지진 #방재",
-"handle": "ko.soramoyou.yk-planning.jp",
-"name": "Soramoyou 한국어",
-"time": "2026-11-18T19:41:33.944Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/ko.soramoyou.yk-planning.jp/post/3n2mctggcmb24",
 "term": "지진"
 },
 {
@@ -2722,7 +2722,7 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 6.18,
+"지진": 6.06,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
@@ -2730,9 +2730,9 @@
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.06,
+"속보": 0.05,
 "지하철": 0.05,
-"사고": 0.11,
+"사고": 0.1,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
