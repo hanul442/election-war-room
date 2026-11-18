@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-18T12:32:04.306183+00:00",
+"updated": "2026-11-18T12:34:22.392332+00:00",
 "errors": [],
 "events": [
 {
@@ -49,7 +49,7 @@
 "id": "viewAKR202611181838000011154",
 "first": "2026-11-18T11:54:34+00:00",
 "last": "2026-11-18T12:29:34+00:00",
-"updated": "2026-11-18T12:32:04.306183+00:00",
+"updated": "2026-11-18T12:34:22.392332+00:00",
 "headline": "정부, 수능 부정행위 제보 1억 포상금 즉시 적용 추진",
 "cat": "정치",
 "regions": [],
@@ -116,6 +116,13 @@
 "title": "[속보] 정부, 내일부터 즉시 수능 부정행위 제보 '1억 포상금' 적용 추진",
 "source": "아이뉴스24",
 "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5nd2FYNzRWNnhUWEZDaTBBMjVlbkY1XzhfR3pFTWVyS2VkbldnZW9aTEFKdGl3TFZYVE9mR09HU2FHcXEtU1ZUUmhpaTI?oc=5",
+"time": "2026-11-18T12:29:34+00:00",
+"stage": "속보"
+},
+{
+"title": "[속보] 정부, 내일부터 즉시 수능 부정행위 제보 '1억 포상금' 적용 추진",
+"source": "아이뉴스24",
+"link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE9oOE14T2R0Ml9lcTZpUVhsaERLS3lCMVVIbEJOZm1XRnB4MjkyaXZCOHVPaHNLMzZXbzNQX0lQYVpLMW42VmdN?oc=5",
 "time": "2026-11-18T12:29:34+00:00",
 "stage": "속보"
 }
@@ -4187,7 +4194,7 @@
 "terms": {
 "지진": {
 "n30": 3,
-"base": 0.3,
+"base": 0.4,
 "spike": false
 },
 "화재": {
@@ -4207,7 +4214,7 @@
 },
 "폭발": {
 "n30": 7,
-"base": 0.4,
+"base": 0.3,
 "spike": true
 },
 "붕괴": {
@@ -4226,9 +4233,9 @@
 "spike": false
 },
 "속보": {
-"n30": 5,
+"n30": 4,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "지하철": {
 "n30": 0,
@@ -4236,8 +4243,8 @@
 "spike": false
 },
 "사고": {
-"n30": 4,
-"base": 5.4,
+"n30": 2,
+"base": 5.3,
 "spike": false
 },
 "실종": {
@@ -4434,26 +4441,6 @@
 "url": "https://www.youtube.com/watch?v=DkW_fyVwf6M"
 },
 {
-"text": "뭐지 이 사고의 전환 발상과표현같은 미대입시 썸네일",
-"handle": "koghirit.bsky.social",
-"name": "🎀콕히릿🐘",
-"time": "2026-11-18T12:04:24.446Z",
-"likes": 2,
-"reposts": 0,
-"url": "https://bsky.app/profile/koghirit.bsky.social/post/3n2ljburzl22c",
-"term": "사고"
-},
-{
-"text": "ㅋㅋ\n연애상담할때 상대방에게 부양욕 든다고 말하는 씬해량\n근데 이거 문제긴 해 가장장남 속성있는 박무현이 마운팅으로 받아들이면 사고임\n🦷해량 씨가 저를...부양하고..싶다고요..? 왜요? 그건 좀 자존심 상하는데요 해량 씨는 제 입장에선 완전 아카쨩...\n🧶예?\n이것도 사고임 존나 긁혓죠",
-"handle": "fresh-air01.bsky.social",
-"name": "피르타🍃",
-"time": "2026-11-18T12:03:16.150Z",
-"likes": 1,
-"reposts": 1,
-"url": "https://bsky.app/profile/fresh-air01.bsky.social/post/3n2lj7vtlns2l",
-"term": "사고"
-},
-{
 "platform": "YouTube",
 "text": "(속보) 코로나대출 탕감 예산 여야 충돌🔴정말 내년에 탕감되나? 통과되면 5조4천억 탕감됩니다💰꼭 보시고 대상자 정보 미리 확인하세요!",
 "handle": "UCnnqB7SaH8o-NHLonSFfE3A",
@@ -4512,30 +4499,23 @@
 {
 "term": "폭발",
 "n30": 7,
-"base": 0.4,
+"base": 0.3,
 "spike": true,
-"since": "2026-11-18T12:32:04.306183+00:00"
-},
-{
-"term": "속보",
-"n30": 5,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-18T12:32:04.306183+00:00"
+"since": "2026-11-18T12:34:22.392332+00:00"
 }
 ],
 "baseline": {
-"지진": 0.39,
-"화재": 0.71,
+"지진": 0.45,
+"화재": 0.74,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.33,
-"붕괴": 0.08,
+"폭발": 0.3,
+"붕괴": 0.07,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.22,
-"사고": 5.3,
+"지하철": 0.2,
+"사고": 4.97,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -4730,7 +4710,7 @@
 "trends": [
 {
 "term": "ps5",
-"traffic": "100+",
+"traffic": "200+",
 "time": "2026-11-18T11:20:00+00:00",
 "news": [
 {
