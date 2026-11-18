@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-18T23:20:39.123369+00:00",
+"updated": "2026-11-18T23:22:53.737029+00:00",
 "errors": [],
 "events": [
 {
@@ -97,7 +97,7 @@
 "id": "KN1RPUzh2YktkZ1V2RGt3oc52305",
 "first": "2026-11-18T23:05:13+00:00",
 "last": "2026-11-18T23:18:00+00:00",
-"updated": "2026-11-18T23:20:39.123369+00:00",
+"updated": "2026-11-18T23:22:53.737029+00:00",
 "headline": "‘LEET 만점자’ 이진우, 수능 생중계 검증 현장에 아직 안 나타나",
 "cat": "기타",
 "regions": [
@@ -106,6 +106,7 @@
 "sources": [
 "OSEN",
 "미주중앙일보",
+"조선일보",
 "중앙일보"
 ],
 "updates": [
@@ -127,6 +128,13 @@
 "title": "[속보] 수능 국어 생중계 예고한 ‘리트 만점자’ 이진우, 오전 8시 검증장에 안 나타나…휴대전화 꺼져",
 "source": "OSEN",
 "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9BTGdsZUxaZ0g5UHU2WC1GS0lJX1lWYWExX0lUak82N1Jwck1XakxrZm8zVm5ITV9YenJfUzN5cDBDRGxabW80LW4waU5ud0d4X21n?oc=5",
+"time": "2026-11-18T23:18:00+00:00",
+"stage": "속보"
+},
+{
+"title": "[속보] 수능 국어 생중계 예고한 ‘리트 만점자’ 이진우, 오전 8시 검증장에 안 나타나…휴대전화 꺼져",
+"source": "조선일보",
+"link": "https://www.chosun.com/entertainments/broadcast/2026/11/19/MMYDIYZSMEYTMMTDHA3TKZDEHA/",
 "time": "2026-11-18T23:18:00+00:00",
 "stage": "속보"
 }
@@ -4027,37 +4035,13 @@
 "오광환",
 "용인시체육회장"
 ]
-},
-{
-"id": "quake20261118T1722",
-"first": "2026-11-18T17:22:23.454000+00:00",
-"last": "2026-11-18T17:22:23.454000+00:00",
-"updated": "2026-11-18T17:39:10.327028+00:00",
-"headline": "규모 5.3 지진 · 4 km NNW of Tsunagi, Japan",
-"latest": "규모 5.3 지진 · 4 km NNW of Tsunagi, Japan",
-"cat": "재난",
-"regions": [],
-"sources": [
-"USGS"
-],
-"level": "FLASH",
-"tok": [],
-"updates": [
-{
-"title": "규모 5.3 지진 · 4 km NNW of Tsunagi, Japan",
-"source": "USGS",
-"link": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tz1n",
-"time": "2026-11-18T17:22:23.454000+00:00",
-"stage": "얼럿"
-}
-]
 }
 ],
 "sns": {
 "terms": {
 "지진": {
 "n30": 0,
-"base": 0.5,
+"base": 0.4,
 "spike": false
 },
 "화재": {
@@ -4077,7 +4061,7 @@
 },
 "폭발": {
 "n30": 7,
-"base": 0.7,
+"base": 0.6,
 "spike": true
 },
 "붕괴": {
@@ -4097,17 +4081,17 @@
 },
 "속보": {
 "n30": 7,
-"base": 0.1,
+"base": 0.2,
 "spike": true
 },
 "지하철": {
-"n30": 2,
-"base": 1.6,
+"n30": 3,
+"base": 1.5,
 "spike": false
 },
 "사고": {
 "n30": 4,
-"base": 1.9,
+"base": 2.1,
 "spike": false
 },
 "실종": {
@@ -4138,6 +4122,16 @@
 },
 "posts": [
 {
+"text": "지하철 기관사님이 이따가 수능 때문에 재난문자 오는 거 놀라지 말라고 방송으로 알려줌 ㅠ ㅋㅋㅋ",
+"handle": "changha.bsky.social",
+"name": "창하",
+"time": "2026-11-18T23:21:52.152Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/changha.bsky.social/post/3n2mp5deo222h",
+"term": "지하철"
+},
+{
 "platform": "YouTube",
 "text": "🇹🇭푸껫 빠통 상가건물 대형 화재 참사 오토바이 100여 대 타오르며 11명 사망·30여 명 부상 (사건 원인과 현장 상황) #타이크루 #thaicrew #뉴스 #태국 #푸켓",
 "handle": "UC-ORytJa9f112VW6W7W5hCQ",
@@ -4151,7 +4145,7 @@
 "handle": "caelumcorvus.bsky.social",
 "name": "까막까막",
 "time": "2026-11-18T23:17:18.343Z",
-"likes": 0,
+"likes": 1,
 "reposts": 0,
 "url": "https://bsky.app/profile/caelumcorvus.bsky.social/post/3n2mov4uwzk25",
 "term": "속보"
@@ -4391,30 +4385,30 @@
 {
 "term": "폭발",
 "n30": 7,
-"base": 0.7,
+"base": 0.6,
 "spike": true,
-"since": "2026-11-18T23:20:39.123369+00:00"
+"since": "2026-11-18T23:22:53.737029+00:00"
 },
 {
 "term": "속보",
 "n30": 7,
-"base": 0.1,
+"base": 0.2,
 "spike": true,
-"since": "2026-11-18T23:20:39.123369+00:00"
+"since": "2026-11-18T23:22:53.737029+00:00"
 }
 ],
 "baseline": {
-"지진": 0.43,
+"지진": 0.39,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.62,
+"폭발": 0.56,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.24,
-"지하철": 1.53,
-"사고": 2.09,
+"속보": 0.32,
+"지하철": 1.58,
+"사고": 2.28,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -4617,6 +4611,24 @@
 },
 "trends": [
 {
+"term": "앤트로픽",
+"traffic": "200+",
+"time": "2026-11-18T22:20:00+00:00",
+"news": [
+{
+"title": "앤트로픽, IPO 공모가 83달러 책정…역대 최대 IPO 기록 목전 - 머니투데이",
+"source": "머니투데이",
+"link": "https://www.mt.co.kr/world/2026/11/19/2026111907195890584"
+},
+{
+"title": "앤트로픽 공모가 83달러 확정…스페이스X 제치고 역대 최대 IPO 전망",
+"source": "Chosunbiz",
+"link": "https://biz.chosun.com/it-science/ict/2026/11/19/Y5HYLBC7DREU3LPN7VO76XKZ2U/"
+}
+],
+"new": true
+},
+{
 "term": "new zealand vs india",
 "traffic": "200+",
 "time": "2026-11-18T22:10:00+00:00",
@@ -4774,24 +4786,6 @@
 "title": "T1 Zeus Return Rumors Heat Up as Star Top-Laner Enters 2026 Free Agency",
 "source": "Lifestyle Asia Hong Kong",
 "link": "https://www.lifestyleasia.com/hk/whats-on/news-whats-on/t1-zeus-return-rumors-free-agency/"
-}
-],
-"new": true
-},
-{
-"term": "schd",
-"traffic": "500+",
-"time": "2026-11-18T21:50:00+00:00",
-"news": [
-{
-"title": "Charles Schwab (SCHW) Now Has The Largest U.S. Dividend ETF",
-"source": "Yahoo Finance",
-"link": "https://finance.yahoo.com/markets/stocks/articles/charles-schwab-schw-now-largest-031034095.html"
-},
-{
-"title": "The Winners Inside SCHD - November 2026",
-"source": "Seeking Alpha",
-"link": "https://seekingalpha.com/article/4968854-the-winners-inside-schd-november-2026"
 }
 ],
 "new": true
