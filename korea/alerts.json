@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-18T18:16:49.775396+00:00",
+"updated": "2026-11-18T18:19:07.598391+00:00",
 "errors": [],
 "events": [
 {
@@ -2911,7 +2911,7 @@
 "sns": {
 "terms": {
 "지진": {
-"n30": 6,
+"n30": 7,
 "base": 6.2,
 "spike": false
 },
@@ -2927,11 +2927,11 @@
 },
 "정전": {
 "n30": 3,
-"base": 0.1,
+"base": 0.2,
 "spike": false
 },
 "폭발": {
-"n30": 7,
+"n30": 6,
 "base": 0.1,
 "spike": true
 },
@@ -2946,12 +2946,12 @@
 "spike": false
 },
 "미사일": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
 "속보": {
-"n30": 6,
+"n30": 5,
 "base": 0.1,
 "spike": true
 },
@@ -2962,7 +2962,7 @@
 },
 "사고": {
 "n30": 0,
-"base": 0.7,
+"base": 0.6,
 "spike": false
 },
 "실종": {
@@ -2992,6 +2992,16 @@
 }
 },
 "posts": [
+{
+"text": "【지진 정보】일본 시간 11월 19일 03:13경\n진원: Amakusa and Ashikita Region, Kumamoto Prefecture (M2.6, 깊이 약 10km)\n최대 진도: 1\n진도 1: 구마모토현\n이 지진으로 인한 쓰나미 걱정은 없습니다.\n(일본 기상청 발표)\n#일본 #지진 #방재",
+"handle": "ko.soramoyou.yk-planning.jp",
+"name": "Soramoyou 한국어",
+"time": "2026-11-18T18:17:32.941Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/ko.soramoyou.yk-planning.jp/post/3n2m656qyrv2p",
+"term": "지진"
+},
 {
 "text": "【지진 정보】일본 시간 11월 19일 03:10경\n진원: Off the Coast of Miyagi Prefecture (M3.9, 깊이 약 50km)\n최대 진도: 1\n진도 1: 미야기현\n이 지진으로 인한 쓰나미 걱정은 없습니다.\n(일본 기상청 발표)\n#일본 #지진 #방재",
 "handle": "ko.soramoyou.yk-planning.jp",
@@ -3150,16 +3160,6 @@
 "url": "https://www.youtube.com/watch?v=-3eWIWNTVis"
 },
 {
-"text": "【지진 정보】일본 시간 11월 19일 02:48경\n진원: Amakusa and Ashikita Region, Kumamoto Prefecture (M2.5, 깊이 약 10km)\n최대 진도: 1\n진도 1: 구마모토현\n이 지진으로 인한 쓰나미 걱정은 없습니다.\n(일본 기상청 발표)\n#일본 #지진 #방재",
-"handle": "ko.soramoyou.yk-planning.jp",
-"name": "Soramoyou 한국어",
-"time": "2026-11-18T17:54:35.151Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/ko.soramoyou.yk-planning.jp/post/3n2m4u5bbvl2j",
-"term": "지진"
-},
-{
 "platform": "YouTube",
 "text": "삼성화재블루팡스 김나연치어리더 산 - bad 1 공연 #shorts #김나연 #치어리더 #삼성화재 #bad #최산",
 "handle": "UCb0nYrCL3HlUDd67qsdXZ_Q",
@@ -3253,35 +3253,35 @@
 "spikes": [
 {
 "term": "폭발",
-"n30": 7,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-18T18:16:49.775396+00:00"
-},
-{
-"term": "속보",
 "n30": 6,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-18T18:16:49.775396+00:00"
+"since": "2026-11-18T18:19:07.598391+00:00"
+},
+{
+"term": "속보",
+"n30": 5,
+"base": 0.1,
+"spike": true,
+"since": "2026-11-18T18:19:07.598391+00:00"
 }
 ],
 "baseline": {
-"지진": 6.15,
+"지진": 6.24,
 "화재": 0.05,
 "불났": 0.05,
-"정전": 0.24,
+"정전": 0.32,
 "폭발": 0.05,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
 "지하철": 0.05,
-"사고": 0.59,
+"사고": 0.53,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
-"먹통": 0.08,
+"먹통": 0.07,
 "산불": 0.05
 },
 "errors": [],
