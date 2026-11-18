@@ -1,12 +1,12 @@
 {
-"updated": "2026-11-18T10:40:19.170675+00:00",
+"updated": "2026-11-18T10:42:36.487328+00:00",
 "errors": [],
 "events": [
 {
 "id": "vdFhnaFlhQ0JlQjNpdTNFoc51034",
 "first": "2026-11-18T10:34:03+00:00",
-"last": "2026-11-18T10:34:03+00:00",
-"updated": "2026-11-18T10:37:59.764145+00:00",
+"last": "2026-11-18T10:41:00+00:00",
+"updated": "2026-11-18T10:42:36.487328+00:00",
 "headline": "신생아 학대 혐의 받는 30대 부부…둘 다 경찰이라고?",
 "cat": "사회",
 "regions": [
@@ -14,6 +14,7 @@
 ],
 "sources": [
 "SBS",
+"경향신문",
 "문화일보",
 "연합뉴스"
 ],
@@ -38,10 +39,17 @@
 "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE8wNUlZYm9CQlRNTmg3aFoxSlNXbGFwSVdQOUZIWXZRektlc0pCU1RMZnEtZGNrM2RSRnZGYWxfSU1vdFhnaFlhQ0JlQjNpdTNF?oc=5",
 "time": "2026-11-18T10:34:03+00:00",
 "stage": "얼럿"
+},
+{
+"title": "신생아 학대 의혹···경찰·해경 부부 조사",
+"source": "경향신문",
+"link": "https://www.khan.co.kr/article/202611181941001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
+"time": "2026-11-18T10:41:00+00:00",
+"stage": "후속"
 }
 ],
 "level": "URGENT",
-"latest": "신생아 학대 혐의 받는 30대 부부…둘 다 경찰이라고?",
+"latest": "신생아 학대 의혹···경찰·해경 부부 조사",
 "tok": [
 "30대",
 "경찰",
@@ -55,6 +63,7 @@
 "자녀",
 "조사",
 "학대",
+"해경",
 "현직",
 "혐의"
 ]
@@ -3971,7 +3980,7 @@
 },
 "화재": {
 "n30": 2,
-"base": 0.1,
+"base": 0.2,
 "spike": false
 },
 "불났": {
@@ -3986,7 +3995,7 @@
 },
 "폭발": {
 "n30": 1,
-"base": 0.7,
+"base": 0.6,
 "spike": false
 },
 "붕괴": {
@@ -3995,19 +4004,19 @@
 "spike": false
 },
 "대피": {
-"n30": 0,
-"base": 0.7,
-"spike": false
-},
-"미사일": {
 "n30": 1,
 "base": 0.6,
 "spike": false
 },
+"미사일": {
+"n30": 0,
+"base": 0.5,
+"spike": false
+},
 "속보": {
-"n30": 6,
+"n30": 3,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "지하철": {
 "n30": 2,
@@ -4015,8 +4024,8 @@
 "spike": false
 },
 "사고": {
-"n30": 2,
-"base": 2.9,
+"n30": 3,
+"base": 2.8,
 "spike": false
 },
 "실종": {
@@ -4046,6 +4055,26 @@
 }
 },
 "posts": [
+{
+"text": "퇴근한 MJ. 아침에 아주 너무 굉장히 경미한 접촉사고가 났었다고. 집 앞 우회전 길에서 앞차가 갑자기 서는 바람에 MJ는 멈췄다고 생각했고 앞차 운전자가 내려서 “차를 박았다”고 주장.\n근데 둘 다 내려서 앞차고 우리차고 이래저래 살펴봐도 어딜 박았는지 못 찾았고, 그 사람은 “세차하고 흠집 찾으면 보험처리 할 거니까 연락처 달라”고 해서 그렇게 하시라고 번호 주고 출근했단다.\n그러고 오전",
+"handle": "wineguitar4.bsky.social",
+"name": "WineGuitar",
+"time": "2026-11-18T10:42:21.647Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/wineguitar4.bsky.social/post/3n2lepaxe322n",
+"term": "사고"
+},
+{
+"text": "범고래 추격 피해 새끼 물고 보트로 대피한 어미 바다사자 AI 동물 영상 #바다사자 #범고래\n바다 한가운데서 천적인 범고래의 추격을 피해 새끼를 입에 물고 사람 보트 위로 뛰어오른 어미 바다사자와 아기 물개의 긴박한 탈출 순간을 담은 AI 야생동물 쇼츠 영상입니다.\n\n#동물영상 #람다에이아이 #LambdaAi\nyoutu.be/VJ4n5G1B5Zk?...",
+"handle": "lambdaai.bsky.social",
+"name": "람다에이아이 (LambdaAi)",
+"time": "2026-11-18T10:42:21.645Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/lambdaai.bsky.social/post/3n2lep76grs27",
+"term": "대피"
+},
 {
 "text": "페어팩스 카운티 소방대가 랭글리에 있는 CIA 본부에서 화재가 발생했다는 신고를 받고 출동했습니다.\n\nwww.disclose.tv/id/dpw8s6vu0r/",
 "handle": "newsky144th.bsky.social",
@@ -4286,27 +4315,19 @@
 "url": "https://www.youtube.com/watch?v=OHxfzmSRU5Q"
 }
 ],
-"spikes": [
-{
-"term": "속보",
-"n30": 6,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-18T10:40:19.170675+00:00"
-}
-],
+"spikes": [],
 "baseline": {
-"지진": 0.19,
-"화재": 0.24,
+"지진": 0.17,
+"화재": 0.32,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.62,
+"폭발": 0.56,
 "붕괴": 0.05,
-"대피": 0.62,
-"미사일": 0.5,
+"대피": 0.66,
+"미사일": 0.45,
 "속보": 0.05,
-"지하철": 1.81,
-"사고": 2.78,
+"지하철": 1.83,
+"사고": 2.8,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
