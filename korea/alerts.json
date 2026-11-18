@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-18T13:42:38.073438+00:00",
+"updated": "2026-11-18T13:44:55.431415+00:00",
 "errors": [],
 "events": [
 {
@@ -4322,8 +4322,8 @@
 "spike": false
 },
 "폭발": {
-"n30": 3,
-"base": 0.2,
+"n30": 4,
+"base": 0.1,
 "spike": false
 },
 "붕괴": {
@@ -4342,7 +4342,7 @@
 "spike": false
 },
 "속보": {
-"n30": 8,
+"n30": 9,
 "base": 0.1,
 "spike": true
 },
@@ -4353,7 +4353,7 @@
 },
 "사고": {
 "n30": 4,
-"base": 3.3,
+"base": 3.4,
 "spike": false
 },
 "실종": {
@@ -4383,6 +4383,26 @@
 }
 },
 "posts": [
+{
+"text": "[속보]'햄주먹'에서 '햄보자기'로..\n쿠우 쿠로보르네우스 막시무스 2세 흑임자 경, 주먹을 펴서 보여주다",
+"handle": "haekiki.bsky.social",
+"name": "ଳ୍ଠ숀ᙅ⩬",
+"time": "2026-11-18T13:43:57.551Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/haekiki.bsky.social/post/3n2lotyg4jc2g",
+"term": "속보"
+},
+{
+"text": "근데 또 온천여행에서는 테루 머리가 가발인 걸 아는 것 같아서의문임.. 모브는 레이겐한테 설명했던 것처럼 간단하게 설명했을 것 같음. 하지만 리츠도 형이 어른초능력자랑 싸운 부분을 보면 어느정도 맞아야 폭발하는지 알았을텐데 과연 간단한 싸움이었을까",
+"handle": "sunchip210917.bsky.social",
+"name": "썬칩🌞",
+"time": "2026-11-18T13:43:22.547Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/sunchip210917.bsky.social/post/3n2loswfgms2x",
+"term": "폭발"
+},
 {
 "text": "하 순전히 회사에서 눈치안보고 카톡을 하고 싶다는 이유로 \n무소음 키보드를 사고 싶다는\n개폐급 생각을 했어요",
 "handle": "star-20o2.bsky.social",
@@ -4626,25 +4646,25 @@
 "spikes": [
 {
 "term": "속보",
-"n30": 8,
+"n30": 9,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-18T13:42:38.073438+00:00"
+"since": "2026-11-18T13:44:55.431415+00:00"
 }
 ],
 "baseline": {
-"지진": 0.07,
+"지진": 0.06,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.15,
+"폭발": 0.24,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.05,
-"지하철": 0.37,
-"사고": 3.38,
-"실종": 0.51,
+"속보": 0.15,
+"지하철": 0.33,
+"사고": 3.44,
+"실종": 0.56,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -4847,7 +4867,7 @@
 "trends": [
 {
 "term": "마린 르펜",
-"traffic": "1000+",
+"traffic": "2000+",
 "time": "2026-11-18T12:30:00+00:00",
 "news": [
 {
@@ -4865,7 +4885,7 @@
 },
 {
 "term": "누리호",
-"traffic": "100+",
+"traffic": "200+",
 "time": "2026-11-18T12:30:00+00:00",
 "news": [
 {
@@ -4972,6 +4992,42 @@
 "new": true
 },
 {
+"term": "ps5",
+"traffic": "200+",
+"time": "2026-11-18T11:20:00+00:00",
+"news": [
+{
+"title": "All PS5 users forced out of accounts as GTA 6 executes strictest measures yet",
+"source": "GAMINGbible",
+"link": "https://www.gamingbible.com/news/platform/playstation/ps5-users-forced-accounts-gta-6-executes-strictest-measures-708069-20261118"
+},
+{
+"title": "Sony squeezes out a PlayStation 5 firmware update before the release of GTA 6",
+"source": "Eurogamer.net",
+"link": "https://www.eurogamer.net/ps5-firmware-update-gta-6"
+}
+],
+"new": true
+},
+{
+"term": "kick",
+"traffic": "100+",
+"time": "2026-11-18T11:20:00+00:00",
+"news": [
+{
+"title": "Black Friday and Cyber Monday 2026: a first look at Amazon’s best deals",
+"source": "About Amazon",
+"link": "https://www.aboutamazon.com/news/retail/amazon-black-friday-cyber-monday-deals-2026"
+},
+{
+"title": "Black Friday 2026 is Nov. 27: what forecasters expect shoppers to spend, and where the discounts are",
+"source": "MLQ.ai",
+"link": "https://mlq.ai/news/black-friday-2026-is-nov-27-what-forecasters-expect-shoppers-to-spend-and-where-the-discounts-are/"
+}
+],
+"new": true
+},
+{
 "term": "twitch",
 "traffic": "200+",
 "time": "2026-11-18T11:20:00+00:00",
@@ -4985,42 +5041,6 @@
 "title": "OpenAI booth draws criticism at TwitchCon over AI’s role in creative work",
 "source": "Mezha.net",
 "link": "https://mezha.net/eng/news/mezha-1faf375a815f4ed495df72e9_openai_booth_draws/"
-}
-],
-"new": true
-},
-{
-"term": "sxmb",
-"traffic": "200+",
-"time": "2026-11-18T11:20:00+00:00",
-"news": [
-{
-"title": "Phân tích thống kê XSMB Thứ 5 Ngày 19/11/2026 - Chốt Số Vàng May Mắn",
-"source": "homeup.vn",
-"link": "https://homeup.vn/tin-tuc/phan-tich-thong-ke-xsmb-thu-5-ngay-19112026-chot-so-vang-may-man-p7421"
-},
-{
-"title": "Xổ số miền Nam ngày 18 tháng 11: Tìm người trúng số độc đắc đài Đồng Nai",
-"source": "Thanh Niên",
-"link": "https://thanhnien.vn/xo-so-mien-nam-ngay-18-thang-11-tim-nguoi-trung-so-doc-dac-dai-dong-nai-185261118082051114.htm"
-}
-],
-"new": true
-},
-{
-"term": "gta6 메타 크리틱",
-"traffic": "1000+",
-"time": "2026-11-18T11:10:00+00:00",
-"news": [
-{
-"title": "‘GTA 6’ 예약판매량 1500만장…콘솔게임 시장 살리나",
-"source": "경향신문",
-"link": "https://www.khan.co.kr/article/202611182036015"
-},
-{
-"title": "[리뷰] 드디어 나온 'GTA 6' 락스타는 게임이 아닌 세계를 빚어냈다",
-"source": "디스이즈게임",
-"link": "https://www.thisisgame.com/articles/432817"
 }
 ],
 "new": true
