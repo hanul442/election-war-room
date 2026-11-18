@@ -1,12 +1,12 @@
 {
-"updated": "2026-11-18T03:56:24.173192+00:00",
+"updated": "2026-11-18T03:58:40.086775+00:00",
 "errors": [],
 "events": [
 {
 "id": "Z3Z3dSRExtNENMdjVSWHMoc50003",
 "first": "2026-11-18T00:03:33+00:00",
-"last": "2026-11-18T03:50:27+00:00",
-"updated": "2026-11-18T03:56:24.173192+00:00",
+"last": "2026-11-18T03:54:07+00:00",
+"updated": "2026-11-18T03:58:40.086775+00:00",
 "headline": "李대통령, 오늘 시진핑과 정상회담…'미·중·러 회담'前 3번째 대좌",
 "cat": "정치",
 "regions": [],
@@ -24,6 +24,7 @@
 "미주중앙일보",
 "부산일보",
 "신아일보",
+"아시아투데이",
 "아주경제",
 "연합뉴스",
 "연합뉴스 한민족센터",
@@ -353,15 +354,29 @@
 "stage": "속보"
 },
 {
+"title": "[속보] 李대통령·시진핑 정상회담 종료…총 34분 진행",
+"source": "아시아투데이",
+"link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5yZVpwcW5mSEFpR1paZGxfbEtTV2FXU0MzLTBueHRBSkU1V19OVzk2b19CUFA5SDRvcUpYeThKckgzMGF5ODVsQ1JTMFFWNWdvQzRRLXNDV2QyVDl2QWxsanlONXBoOXd3ZEp5OTRR?oc=5",
+"time": "2026-11-18T03:47:29+00:00",
+"stage": "속보"
+},
+{
 "title": "이 대통령·시진핑, 한중 정상회담 34분 진행…한반도 평화 논의",
 "source": "뉴시스",
 "link": "https://www.newsis.com/view/NISX20261118_0003873106",
 "time": "2026-11-18T03:50:27+00:00",
 "stage": "후속"
+},
+{
+"title": "[속보] 이 대통령-시진핑, 한중정상회담 종료…34분간 대좌",
+"source": "SBS",
+"link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008851722&plink=RSSLINK&cooper=RSSREADER",
+"time": "2026-11-18T03:54:07+00:00",
+"stage": "속보"
 }
 ],
 "level": "URGENT",
-"latest": "이 대통령·시진핑, 한중 정상회담 34분 진행…한반도 평화 논의",
+"latest": "이 대통령-시진핑, 한중정상회담 종료…34분간 대좌",
 "tok": [
 "18일",
 "34분",
@@ -3996,8 +4011,8 @@
 "sns": {
 "terms": {
 "지진": {
-"n30": 3,
-"base": 0.8,
+"n30": 2,
+"base": 0.7,
 "spike": false
 },
 "화재": {
@@ -4042,12 +4057,12 @@
 },
 "지하철": {
 "n30": 2,
-"base": 1.4,
+"base": 1.5,
 "spike": false
 },
 "사고": {
-"n30": 4,
-"base": 2.2,
+"n30": 3,
+"base": 2.4,
 "spike": false
 },
 "실종": {
@@ -4192,16 +4207,6 @@
 "url": "https://www.youtube.com/watch?v=RGBAqxogcTM"
 },
 {
-"text": "어\n\n어어\n\n어어어?!\n\n진짜 본인 생각보다 더 현역인 컴이었나 봐요.;;;;\n\n잘 몰라서 그냥\n\n어~~ 구탑이(구 데스크탑)? 구탑이 뭐 구탑이지!\n←이 정도 사고방식이었으므로.",
-"handle": "tsuta.bsky.social",
-"name": "츠타蔦_漸龑",
-"time": "2026-11-18T03:27:39.042Z",
-"likes": 0,
-"reposts": 1,
-"url": "https://bsky.app/profile/tsuta.bsky.social/post/3n2kmfu52tk2u",
-"term": "사고"
-},
-{
 "platform": "YouTube",
 "text": "해마다 보스턴에 트리를 보내는 이유 · 핼리팩스 대폭발 #shorts",
 "handle": "UCMg9oPC2Amq3diQsDU-2iRw",
@@ -4303,17 +4308,17 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 0.69,
+"지진": 0.62,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 1.07,
-"붕괴": 0.22,
-"대피": 0.31,
-"미사일": 0.37,
+"폭발": 1.06,
+"붕괴": 0.2,
+"대피": 0.28,
+"미사일": 0.33,
 "속보": 0.05,
-"지하철": 1.48,
-"사고": 2.42,
+"지하철": 1.53,
+"사고": 2.48,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
