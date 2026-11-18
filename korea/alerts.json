@@ -1,7 +1,64 @@
 {
-"updated": "2026-11-18T03:36:09.291081+00:00",
+"updated": "2026-11-18T03:38:24.300983+00:00",
 "errors": [],
 "events": [
+{
+"id": "0Q0d09FQmxheWdQR0VhQQoc50325",
+"first": "2026-11-18T03:25:34+00:00",
+"last": "2026-11-18T03:33:00+00:00",
+"updated": "2026-11-18T03:38:24.300983+00:00",
+"headline": "美 '초접전' 알래스카 상원 선거서도 민주 승리",
+"cat": "정치",
+"regions": [],
+"sources": [
+"SBS",
+"연합뉴스",
+"파이낸셜뉴스",
+"한겨레"
+],
+"updates": [
+{
+"title": "[속보] 美 '초접전' 알래스카 상원 선거서도 민주 승리",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261118098500009",
+"time": "2026-11-18T03:25:11+00:00",
+"stage": "속보"
+},
+{
+"title": "[속보] 美 '초접전' 알래스카 상원 선거서도 민주 승리",
+"source": "파이낸셜뉴스",
+"link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB5YWdaN2VVYTdGQ21zUWxLbzdnZklsQ2MxZTdLWG1xS3BYUVVaUmo2OTFSam8xQXhCb3FwUDl0ay1MdVMwNElQZTFSX0Q0d09FQmxheWdQR0VhQQ?oc=5",
+"time": "2026-11-18T03:25:34+00:00",
+"stage": "얼럿"
+},
+{
+"title": "[속보] 미 '초접전' 알래스카 상원 선거서도 민주 승리",
+"source": "SBS",
+"link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008851710&plink=RSSLINK&cooper=RSSREADER",
+"time": "2026-11-18T03:31:49+00:00",
+"stage": "속보"
+},
+{
+"title": "[속보] “민주당, 알래스카 상원 승리”…민주당 56석 전망",
+"source": "한겨레",
+"link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE4tS3ViV1Ffb3VwZm5JN0NOdFBuSnVuUkN5OFRxUmtTdV84RjA2Y1VDcWN4OF9qbUE5bmVlUHVfSUZkaTdldUE3LWZISUxHRFBmM291aWFNU1BzVzVTRExvWTktRzZVeUQtX2xORDVuSQ?oc=5",
+"time": "2026-11-18T03:33:00+00:00",
+"stage": "속보"
+}
+],
+"level": "URGENT",
+"latest": "“민주당, 알래스카 상원 승리”…민주당 56석 전망",
+"tok": [
+"56석",
+"민주",
+"민주당",
+"상원",
+"선거서",
+"승리",
+"알래스카",
+"초접전"
+]
+},
 {
 "id": "viewAKR202611180597005300052",
 "first": "2026-11-18T00:52:37+00:00",
@@ -661,45 +718,6 @@
 "특검",
 "특검팀",
 "현직"
-]
-},
-{
-"id": "0Q0d09FQmxheWdQR0VhQQoc50325",
-"first": "2026-11-18T03:25:34+00:00",
-"last": "2026-11-18T03:25:34+00:00",
-"updated": "2026-11-18T03:33:44.627924+00:00",
-"headline": "美 '초접전' 알래스카 상원 선거서도 민주 승리",
-"cat": "정치",
-"regions": [],
-"sources": [
-"연합뉴스",
-"파이낸셜뉴스"
-],
-"updates": [
-{
-"title": "[속보] 美 '초접전' 알래스카 상원 선거서도 민주 승리",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261118098500009",
-"time": "2026-11-18T03:25:11+00:00",
-"stage": "속보"
-},
-{
-"title": "[속보] 美 '초접전' 알래스카 상원 선거서도 민주 승리",
-"source": "파이낸셜뉴스",
-"link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB5YWdaN2VVYTdGQ21zUWxLbzdnZklsQ2MxZTdLWG1xS3BYUVVaUmo2OTFSam8xQXhCb3FwUDl0ay1MdVMwNElQZTFSX0Q0d09FQmxheWdQR0VhQQ?oc=5",
-"time": "2026-11-18T03:25:34+00:00",
-"stage": "얼럿"
-}
-],
-"level": "URGENT",
-"latest": "美 '초접전' 알래스카 상원 선거서도 민주 승리",
-"tok": [
-"민주",
-"상원",
-"선거서",
-"승리",
-"알래스카",
-"초접전"
 ]
 },
 {
@@ -3866,7 +3884,7 @@
 "spike": false
 },
 "폭발": {
-"n30": 6,
+"n30": 5,
 "base": 1.2,
 "spike": true
 },
@@ -3876,28 +3894,28 @@
 "spike": false
 },
 "대피": {
-"n30": 2,
+"n30": 1,
 "base": 0.8,
 "spike": false
 },
 "미사일": {
-"n30": 1,
+"n30": 0,
 "base": 1.0,
 "spike": false
 },
 "속보": {
-"n30": 5,
+"n30": 4,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "지하철": {
-"n30": 2,
-"base": 0.9,
+"n30": 1,
+"base": 1.0,
 "spike": false
 },
 "사고": {
-"n30": 1,
-"base": 1.7,
+"n30": 2,
+"base": 1.6,
 "spike": false
 },
 "실종": {
@@ -3928,11 +3946,21 @@
 },
 "posts": [
 {
+"text": "그리고 이런 필기구 사고 하는거 다 향후 추가교부 받으면 될 뿐임. 자꾸 돈돈하지 마라. 그렇게 따지면 수능 시험이라고 비행기 못 뜨게 하는게 맞냐?",
+"handle": "draven81.bsky.social",
+"name": "회색기병",
+"time": "2026-11-18T03:36:47.741Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/draven81.bsky.social/post/3n2kmw7wi3226",
+"term": "사고"
+},
+{
 "text": "그건 산은 산 물은 물 손님은 손님 앞집은 앞집 그냥 그렇게 살고 그날 있던 일 그날 잊으면 지나가요 강경옥님 17세의 나레이션에 지하철에서 람보 하고 나오는 장면 있는데요 사람은 별일 없으면 사람을 30분이면 잊는답니다~ 저도 별일 없다 생각하려고요 ㅎㅎㅎ 안 지나가는 일은.. 그땐 군자의 복수는 십년도 짧다는 말을 실천해야지요(???)",
 "handle": "undongcong2.bsky.social",
 "name": "운동콩이",
 "time": "2026-11-18T03:35:30.547Z",
-"likes": 0,
+"likes": 1,
 "reposts": 0,
 "url": "https://bsky.app/profile/undongcong2.bsky.social/post/3n2kmtx5cuk2v",
 "term": "지하철"
@@ -4112,26 +4140,6 @@
 "url": "https://www.youtube.com/watch?v=KdwkFgXm7ds"
 },
 {
-"text": "Ai가 하나님의 현신이라고 믿는 사람을 지하철에서 본 적이 있는데 무교인 내가 할 말은 아니지만 그거 진짜 신성모독적인 생각 아닌가",
-"handle": "yolkegg1234.bsky.social",
-"name": "노른자 행복한",
-"time": "2026-11-18T03:07:22.747Z",
-"likes": 1,
-"reposts": 1,
-"url": "https://bsky.app/profile/yolkegg1234.bsky.social/post/3n2klboykq22x",
-"term": "지하철"
-},
-{
-"text": "1) 사전 고지 된 미사일\n2) 미사일 발사되고 한참 뒤에야 울린 사이렌\n3) 서해안으로 쏜 건데 서울에 경보\n4) 대피사유도 대피방식도 안써있음\n5) 평일 새벽 6시반\n\n내가 기억한건 이정도였음",
-"handle": "ramg.sharlayan.in.ap.brid.gy",
-"name": "람쥐 :blobcat_siwaokitakunai: 잉크마심이",
-"time": "2026-11-18T03:06:18.549Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/ramg.sharlayan.in.ap.brid.gy/post/3n2kl7mklny72",
-"term": "대피"
-},
-{
 "platform": "YouTube",
 "text": "지하철을 기다렸는데 터널에서 거대한 고양이가 들어온 순간",
 "handle": "UCTOXYcLSFnk3bvxzbPStIJw",
@@ -4147,21 +4155,14 @@
 "n30": 5,
 "base": 0.9,
 "spike": true,
-"since": "2026-11-18T03:36:09.291081+00:00"
+"since": "2026-11-18T03:38:24.300983+00:00"
 },
 {
 "term": "폭발",
-"n30": 6,
+"n30": 5,
 "base": 1.2,
 "spike": true,
-"since": "2026-11-18T03:36:09.291081+00:00"
-},
-{
-"term": "속보",
-"n30": 5,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-18T03:36:09.291081+00:00"
+"since": "2026-11-18T03:38:24.300983+00:00"
 }
 ],
 "baseline": {
@@ -4169,13 +4170,13 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 1.17,
-"붕괴": 0.56,
-"대피": 0.79,
-"미사일": 0.96,
+"폭발": 1.15,
+"붕괴": 0.5,
+"대피": 0.71,
+"미사일": 0.86,
 "속보": 0.05,
 "지하철": 1.02,
-"사고": 1.64,
+"사고": 1.68,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -4437,14 +4438,14 @@
 "time": "2026-11-18T02:00:00+00:00",
 "news": [
 {
+"title": "수능 D-1 필기구 규정 변경에 수험생 혼란…개인 지참은 ‘흑색 연필’만 허용",
+"source": "동아일보",
+"link": "https://www.donga.com/news/Society/article/all/20261118/135044626/1"
+},
+{
 "title": "수능 하루 전 또 바뀐 규정…\"필기구는 흑색 연필만 지참 가능\"",
 "source": "조선일보",
 "link": "https://www.chosun.com/national/education/2026/11/18/BSG5DBTQMFCWXAKDZW5OVXAPNY/"
-},
-{
-"title": "시험장에 ’흑색 연필’만 허용…수능 하루 앞두고 필기구 반입 기준 변경",
-"source": "연합뉴스TV",
-"link": "https://www.yonhapnewstv.co.kr/news/AKR20261118101544MPp"
 }
 ],
 "new": true
