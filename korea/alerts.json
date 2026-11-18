@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-18T14:32:56.772364+00:00",
+"updated": "2026-11-18T14:35:11.206050+00:00",
 "errors": [],
 "events": [
 {
@@ -4400,7 +4400,7 @@
 "spike": false
 },
 "화재": {
-"n30": 2,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
@@ -4415,13 +4415,13 @@
 "spike": false
 },
 "폭발": {
-"n30": 4,
-"base": 1.7,
+"n30": 2,
+"base": 1.6,
 "spike": false
 },
 "붕괴": {
-"n30": 4,
-"base": 1.8,
+"n30": 3,
+"base": 1.9,
 "spike": false
 },
 "대피": {
@@ -4441,12 +4441,12 @@
 },
 "지하철": {
 "n30": 5,
-"base": 1.3,
+"base": 1.5,
 "spike": true
 },
 "사고": {
 "n30": 3,
-"base": 2.7,
+"base": 2.8,
 "spike": false
 },
 "실종": {
@@ -4476,6 +4476,16 @@
 }
 },
 "posts": [
+{
+"text": "지하철 정말 너무시름\n왜 자리가 남는데 내 앞에 서서 가방으로 날 공격하지\n개인 거리 유지가 안 됨\n아 택시타고싶다\n근데 연봉 2억이어도\n삼천얼마에 갈 수 있는데 육만원 넘게 내고 택시 안 탈 것 같깅함 ㅜ",
+"handle": "niniing.bsky.social",
+"name": "니닝",
+"time": "2026-11-18T14:32:54.446Z",
+"likes": 1,
+"reposts": 0,
+"url": "https://bsky.app/profile/niniing.bsky.social/post/3n2lrli7gts2q",
+"term": "지하철"
+},
 {
 "text": "근데 생각해보면 큰 사고나 불운이 별로 없다는거야말로 최고의 운인거 같음 인생 너무 파란만장 한 것 보다야.",
 "handle": "jinnys0.bsky.social",
@@ -4770,9 +4780,9 @@
 {
 "term": "지하철",
 "n30": 5,
-"base": 1.3,
+"base": 1.5,
 "spike": true,
-"since": "2026-11-18T14:32:56.772364+00:00"
+"since": "2026-11-18T14:35:11.206050+00:00"
 }
 ],
 "baseline": {
@@ -4780,14 +4790,14 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 1.59,
-"붕괴": 1.92,
+"폭발": 1.53,
+"붕괴": 2.03,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.3,
-"지하철": 1.5,
-"사고": 2.76,
-"실종": 0.14,
+"속보": 0.27,
+"지하철": 1.75,
+"사고": 2.78,
+"실종": 0.13,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -5048,14 +5058,14 @@
 "time": "2026-11-18T12:30:00+00:00",
 "news": [
 {
-"title": "누리호 5차 발사 성공 최종 확인…“목표궤도 진입 정상 수행”",
-"source": "KBS 뉴스",
-"link": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8716239"
-},
-{
 "title": "누리호가 가리키는 7대 시드의 길[기고/배경훈]",
 "source": "동아일보",
 "link": "https://www.donga.com/news/Opinion/article/all/20261118/135050513/2"
+},
+{
+"title": "누리호 5차 발사 성공 최종 확인…“목표궤도 진입 정상 수행”",
+"source": "KBS 뉴스",
+"link": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8716239"
 }
 ],
 "new": true
@@ -5066,14 +5076,14 @@
 "time": "2026-11-18T12:20:00+00:00",
 "news": [
 {
-"title": "KAG 22/1 (3.3) vs CHR 204/4 (William Bosisto 14(8) Sam Heazlett 1(7)) | Kathmandu Gorkhas vs Chitwan Rhinos, Eliminator, Nepal Premier League 2026 Live Cricket Stream, live scores, ball-by-ball commentary, highlights, videos, news, and more in USA &",
-"source": "Cricbuzz",
-"link": "https://www.cricbuzz.com/live-cricket-scores/177821/kag-vs-chr-eliminator-nepal-premier-league-2026"
+"title": "Chitwan Rhinos set 205-run target for Kathmandu Gorkhas",
+"source": "Nepalnews.com",
+"link": "https://english.nepalnews.com/s/sports/chitwan-rhinos-set-205-run-target-for-kathmandu-gorkhas/"
 },
 {
-"title": "Chitwan Rhinos to bat first against Kathmandu Gorkhas",
-"source": "Nepalnews.com",
-"link": "https://english.nepalnews.com/s/sports/chitwan-rhinos-to-bat-first-against-kathmandu-gorkhas/"
+"title": "Sri Lankan Batter Kamil Mishara Sets New Record in Nepal Premier League",
+"source": "Ratopati",
+"link": "https://english.ratopati.com/story/87187/kamil-breaks-mark-watts-record-in-npl"
 }
 ],
 "new": true
