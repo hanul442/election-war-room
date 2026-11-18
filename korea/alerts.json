@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-18T07:45:40.172921+00:00",
+"updated": "2026-11-18T07:47:53.198229+00:00",
 "errors": [],
 "events": [
 {
@@ -4021,7 +4021,7 @@
 },
 "폭발": {
 "n30": 10,
-"base": 3.0,
+"base": 2.9,
 "spike": true
 },
 "붕괴": {
@@ -4045,13 +4045,13 @@
 "spike": true
 },
 "지하철": {
-"n30": 3,
+"n30": 2,
 "base": 1.1,
 "spike": false
 },
 "사고": {
-"n30": 6,
-"base": 7.1,
+"n30": 5,
+"base": 7.0,
 "spike": false
 },
 "실종": {
@@ -4188,7 +4188,7 @@
 "handle": "kstkstkst.bsky.social",
 "name": "kstkstkst.bsky.social",
 "time": "2026-11-18T07:31:25.739Z",
-"likes": 0,
+"likes": 1,
 "reposts": 0,
 "url": "https://bsky.app/profile/kstkstkst.bsky.social/post/3n2kzztmsxk2p",
 "term": "폭발"
@@ -4320,46 +4320,36 @@
 "reposts": 0,
 "url": "https://bsky.app/profile/richpig1.bsky.social/post/3n2kzio65hc2t",
 "term": "사고"
-},
-{
-"text": "지하철 앞사람이 허공에 정권찌르기함",
-"handle": "hoxymoxy.bsky.social",
-"name": "게뀰빡",
-"time": "2026-11-18T07:16:38.846Z",
-"likes": 8,
-"reposts": 1,
-"url": "https://bsky.app/profile/hoxymoxy.bsky.social/post/3n2kz7ftm2c2f",
-"term": "지하철"
 }
 ],
 "spikes": [
 {
 "term": "폭발",
 "n30": 10,
-"base": 3.0,
+"base": 2.9,
 "spike": true,
-"since": "2026-11-18T07:45:40.172921+00:00"
+"since": "2026-11-18T07:47:53.198229+00:00"
 },
 {
 "term": "속보",
 "n30": 7,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-18T07:45:40.172921+00:00"
+"since": "2026-11-18T07:47:53.198229+00:00"
 }
 ],
 "baseline": {
-"지진": 0.13,
+"지진": 0.12,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 2.87,
+"폭발": 2.78,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 1.06,
-"사고": 7.03,
+"지하철": 0.95,
+"사고": 6.83,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
