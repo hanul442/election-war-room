@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-18T14:03:10.424218+00:00",
+"updated": "2026-11-18T14:05:27.016195+00:00",
 "errors": [],
 "events": [
 {
@@ -4367,11 +4367,11 @@
 },
 "폭발": {
 "n30": 2,
-"base": 0.6,
+"base": 0.8,
 "spike": false
 },
 "붕괴": {
-"n30": 0,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
@@ -4392,17 +4392,17 @@
 },
 "지하철": {
 "n30": 0,
-"base": 0.2,
+"base": 0.1,
 "spike": false
 },
 "사고": {
-"n30": 3,
-"base": 3.5,
+"n30": 2,
+"base": 3.4,
 "spike": false
 },
 "실종": {
 "n30": 0,
-"base": 0.6,
+"base": 0.5,
 "spike": false
 },
 "단수": {
@@ -4427,6 +4427,16 @@
 }
 },
 "posts": [
+{
+"text": "국가는 전쟁의 대가를 관례상 전비, 생산력 저하, 사상자 숫자 등으로 측정한다. 군사 기관이 인간 개인의 고통을 기준으로 전쟁의 대가를 측정하고자 시도한 적은 거의 없다. 그러나 인간을 기준으로 했을 때 정신의 붕괴는 전쟁의 가장 커다란 대가로 남게 된다.",
+"handle": "marapapiyas.bsky.social",
+"name": "장수말벌",
+"time": "2026-11-18T14:05:14.845Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/marapapiyas.bsky.social/post/3n2lq22hnrc2e",
+"term": "붕괴"
+},
 {
 "text": "반대로 말하면 내가 쫌 지랄해도 넘어갈 확률이 높다. 쟤가 드디어 폭발했구나 로 지랄쑈 작두 한번 타는 것도 괜찮을 것 같다 입니다.",
 "handle": "jyoti808.bsky.social",
@@ -4476,16 +4486,6 @@
 "reposts": 0,
 "url": "https://bsky.app/profile/sunchip210917.bsky.social/post/3n2loswfgms2x",
 "term": "폭발"
-},
-{
-"text": "하 순전히 회사에서 눈치안보고 카톡을 하고 싶다는 이유로 \n무소음 키보드를 사고 싶다는\n개폐급 생각을 했어요",
-"handle": "star-20o2.bsky.social",
-"name": "렵",
-"time": "2026-11-18T13:34:12.451Z",
-"likes": 3,
-"reposts": 0,
-"url": "https://bsky.app/profile/star-20o2.bsky.social/post/3n2lociwji22k",
-"term": "사고"
 },
 {
 "platform": "YouTube",
@@ -4683,14 +4683,14 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.78,
-"붕괴": 0.05,
+"폭발": 0.9,
+"붕괴": 0.15,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.64,
-"지하철": 0.14,
-"사고": 3.41,
-"실종": 0.54,
+"속보": 0.68,
+"지하철": 0.13,
+"사고": 3.27,
+"실종": 0.49,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -5036,24 +5036,6 @@
 "new": true
 },
 {
-"term": "ps5",
-"traffic": "200+",
-"time": "2026-11-18T11:20:00+00:00",
-"news": [
-{
-"title": "All PS5 users forced out of accounts as GTA 6 executes strictest measures yet",
-"source": "GAMINGbible",
-"link": "https://www.gamingbible.com/news/platform/playstation/ps5-users-forced-accounts-gta-6-executes-strictest-measures-708069-20261118"
-},
-{
-"title": "Sony squeezes out a PlayStation 5 firmware update before the release of GTA 6",
-"source": "Eurogamer.net",
-"link": "https://www.eurogamer.net/ps5-firmware-update-gta-6"
-}
-],
-"new": true
-},
-{
 "term": "kick",
 "traffic": "100+",
 "time": "2026-11-18T11:20:00+00:00",
@@ -5067,6 +5049,24 @@
 "title": "Black Friday 2026 is Nov. 27: what forecasters expect shoppers to spend, and where the discounts are",
 "source": "MLQ.ai",
 "link": "https://mlq.ai/news/black-friday-2026-is-nov-27-what-forecasters-expect-shoppers-to-spend-and-where-the-discounts-are/"
+}
+],
+"new": true
+},
+{
+"term": "twitch",
+"traffic": "200+",
+"time": "2026-11-18T11:20:00+00:00",
+"news": [
+{
+"title": "AI is still weighing on streamers at Twitch’s biggest event of the year",
+"source": "NBC News",
+"link": "https://www.nbcnews.com/tech/tech-news/twitchcon-ai-streamers-mixed-response-technology-tools-rcna608806"
+},
+{
+"title": "OpenAI booth draws criticism at TwitchCon over AI’s role in creative work",
+"source": "Mezha.net",
+"link": "https://mezha.net/eng/news/mezha-1faf375a815f4ed495df72e9_openai_booth_draws/"
 }
 ],
 "new": true
