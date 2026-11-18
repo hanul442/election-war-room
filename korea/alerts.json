@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-18T21:50:48.701965+00:00",
+"updated": "2026-11-18T21:53:03.270697+00:00",
 "errors": [],
 "events": [
 {
@@ -182,7 +182,7 @@
 "id": "xNanVtd0pEM3VXNGtjQUkoc51500",
 "first": "2026-11-18T15:00:00+00:00",
 "last": "2026-11-18T21:36:49+00:00",
-"updated": "2026-11-18T21:48:34.892539+00:00",
+"updated": "2026-11-18T21:53:03.270697+00:00",
 "headline": "엔비디아·마이크론 주가 동반 하락…AMD·테슬라는 상승, 뉴욕증시 기술주 혼조",
 "cat": "경제",
 "regions": [],
@@ -195,6 +195,7 @@
 "문화일보",
 "아시아경제",
 "연합뉴스",
+"연합인포맥스",
 "이데일리",
 "이투데이",
 "조선일보",
@@ -279,6 +280,13 @@
 "stage": "속보"
 },
 {
+"title": "[뉴욕증시-1보] 엔비디아 실적도 못 살렸다…혼조 마감",
+"source": "연합인포맥스",
+"link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBXMWExMkVROGhoU3dJREIzc3pGcTVaUE82Q05haC1rZGQ3Mmt6eXB3TkVKSklFX1V4X1pzdW9SNU14R1hNMTIwSjhKV0ZpWFlvU3NfS25Bbl9pRVV6Vl9UdmVyYkN4QW5UdkNQMEliTy3SAXRBVV95cUxNN3c4bnVzMWNmeDFFQXhBcHJ3NUJid2ZBdkF0UEdNdndzN04xTGQweUllS1Y5eE9HaXlLNFd0YUlELXdPenpLRHZaYTIwME5BTkpHT0NDeDBCdnN6RFBUcTFHcFd1a1lrNTIybG5MV21mb2lWQw?oc=5",
+"time": "2026-11-18T21:13:10+00:00",
+"stage": "후속"
+},
+{
 "title": "[속보]엔비디아 호실적에도 혼조…다우 1% ↓, 나스닥 0.4% ↑",
 "source": "동행미디어 시대",
 "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE52akY4bjU4cDI1WldjWTUwU0VpelBmWXVpOUxyZjRwS3ZnSlhNT09sdjB2WUtsellpZzR0YkdCVUE0OC1vd2NDbUhJUFRqazR5MEp0MHc5Sk56TlBIOGc?oc=5",
@@ -341,6 +349,7 @@
 "마이크론",
 "매도세",
 "반등",
+"살렸다",
 "상승",
 "실적",
 "앞두고",
@@ -2406,8 +2415,8 @@
 "sns": {
 "terms": {
 "지진": {
-"n30": 3,
-"base": 1.0,
+"n30": 2,
+"base": 1.1,
 "spike": false
 },
 "화재": {
@@ -2452,12 +2461,12 @@
 },
 "지하철": {
 "n30": 3,
-"base": 0.6,
+"base": 0.5,
 "spike": false
 },
 "사고": {
 "n30": 2,
-"base": 0.2,
+"base": 0.3,
 "spike": false
 },
 "실종": {
@@ -2715,16 +2724,6 @@
 "url": "https://www.youtube.com/watch?v=wuaYzFX1q4E"
 },
 {
-"text": "【지진 정보】일본 시간 11월 19일 06:16경\n진원: Amakusa and Ashikita Region, Kumamoto Prefecture (M2.4, 깊이 약 10km)\n최대 진도: 1\n진도 1: 구마모토현\n이 지진으로 인한 쓰나미 걱정은 없습니다.\n(일본 기상청 발표)\n#일본 #지진 #방재",
-"handle": "ko.soramoyou.yk-planning.jp",
-"name": "Soramoyou 한국어",
-"time": "2026-11-18T21:21:33.441Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/ko.soramoyou.yk-planning.jp/post/3n2mig7w7tm27",
-"term": "지진"
-},
-{
 "platform": "YouTube",
 "text": "[속보]  대법, '체포 지시 부인' 조태용 전 국정원장 징역 2년 6개월 실형 확정 - [MBC뉴스속보] MBC뉴스 2026년 11월 18일",
 "handle": "UCF4Wxdo3inmxP-Y59wXDsFw",
@@ -2740,32 +2739,32 @@
 "n30": 7,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-18T21:50:48.701965+00:00"
+"since": "2026-11-18T21:53:03.270697+00:00"
 },
 {
 "term": "속보",
 "n30": 7,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-18T21:50:48.701965+00:00"
+"since": "2026-11-18T21:53:03.270697+00:00"
 }
 ],
 "baseline": {
-"지진": 1.09,
+"지진": 1.08,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.06,
+"폭발": 0.05,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.5,
-"사고": 0.32,
+"지하철": 0.45,
+"사고": 0.39,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
-"먹통": 0.45,
+"먹통": 0.41,
 "산불": 0.05
 },
 "errors": [],
@@ -2991,6 +2990,42 @@
 },
 "trends": [
 {
+"term": "안세영",
+"traffic": "1000+",
+"time": "2026-11-18T20:50:00+00:00",
+"news": [
+{
+"title": "[오늘의 영상] 언제나 어디서나 월드 클래스!",
+"source": "KBS 뉴스",
+"link": "https://news.kbs.co.kr/news/view.do?ncd=8714321"
+},
+{
+"title": "[스포츠 영상] '12승 신기록 도전' 안세영 '오늘은 팬들과 함께!'",
+"source": "MBC 뉴스",
+"link": "https://imnews.imbc.com/replay/2026/nwdesk/article/6866097_37004.html"
+}
+],
+"new": true
+},
+{
+"term": "오현규",
+"traffic": "100+",
+"time": "2026-11-18T20:50:00+00:00",
+"news": [
+{
+"title": "[사커토픽] 손흥민 유럽 복귀·김민재 EPL행·오현규 나폴리 트레이드설…A매치 기간에도 뜨거운 코리안 스타 이적시장",
+"source": "스포츠동아",
+"link": "https://sports.donga.com/sports/article/all/20261117/135037364/1"
+},
+{
+"title": "‘韓 국대’ 오현규, 220억 ‘프리미어리그 입성’ 토트넘 이적으로 성사될까 “1월 이적시장 영입 검토 중”",
+"source": "스포츠경향",
+"link": "https://sports.khan.co.kr/article/202611182033003"
+}
+],
+"new": true
+},
+{
 "term": "롯데 자이언츠",
 "traffic": "2000+",
 "time": "2026-11-18T20:30:00+00:00",
@@ -3104,14 +3139,14 @@
 "time": "2026-11-18T20:00:00+00:00",
 "news": [
 {
+"title": "최재훈·박상원 모두 잡는다…한화 석장현 단장이 밝힌 2027 FA 시장 전략 “내부 자원 먼저 집중”",
+"source": "스포츠동아",
+"link": "https://sports.donga.com/sports/article/all/20261119/135051214/1"
+},
+{
 "title": "한화 역사에 남을 트레이드 성공작인데…하필 FA 앞두고 부상→1할7푼 시련, 그런데 실망은 아직 이르다",
 "source": "SPOTV NEWS",
 "link": "https://www.spotvnews.co.kr/news/articleView.html?idxno=1020415"
-},
-{
-"title": "한화 전방위 투자, FA만 하는 게 아니다… 이렇게 팍팍 밀어주는데 성적 나야 한다",
-"source": "SPOTV NEWS",
-"link": "https://www.spotvnews.co.kr/news/articleView.html?idxno=1020374"
 }
 ],
 "new": false
@@ -3130,42 +3165,6 @@
 "title": "'내국인 역차별'의 의제화, 이재명 대통령의 의도는?[숫자로 본 대한민국]",
 "source": "한국일보",
 "link": "https://www.hankookilbo.com/news/article/A2026111812590002443"
-}
-],
-"new": true
-},
-{
-"term": "김해국제공항",
-"traffic": "100+",
-"time": "2026-11-18T19:40:00+00:00",
-"news": [
-{
-"title": "새 쫓으랬더니 ‘낮잠·유튜브’…김해공항 무더기 징계 뒤 또 해임",
-"source": "KBS 뉴스",
-"link": "https://news.kbs.co.kr/news/view.do?ncd=8716264"
-},
-{
-"title": "엽총탄 소지에 공포탄 발사까지…기강 해이 심각",
-"source": "KBS 뉴스",
-"link": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8716345"
-}
-],
-"new": true
-},
-{
-"term": "레인보우로보틱스",
-"traffic": "200+",
-"time": "2026-11-18T19:40:00+00:00",
-"news": [
-{
-"title": "아틀라스 이어 또 CES 주인공?…급등한 로봇주, 더 오를까",
-"source": "한국경제",
-"link": "https://www.hankyung.com/article/202611185064i"
-},
-{
-"title": "[종목상담 주식민원처리반] 삼성전자와 휴머노이드 공동개발 모멘텀 '레인보우로보틱스' - 머니투데이",
-"source": "머니투데이",
-"link": "https://www.mt.co.kr/stock/2026/11/18/2026111818287034428"
 }
 ],
 "new": true
