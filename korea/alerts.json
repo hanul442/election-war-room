@@ -1,7 +1,41 @@
 {
-"updated": "2026-11-18T21:14:55.286034+00:00",
+"updated": "2026-11-18T21:17:08.055723+00:00",
 "errors": [],
 "events": [
+{
+"id": "GLWdIeDNiNTBoT09pV0Nnoc52114",
+"first": "2026-11-18T21:14:15+00:00",
+"last": "2026-11-18T21:14:15+00:00",
+"updated": "2026-11-18T21:17:08.055723+00:00",
+"headline": "김정은, 북미회담 주목 속 해군대학 등 함경남도 지역 시찰",
+"cat": "기타",
+"regions": [
+"경남"
+],
+"sources": [
+"중앙일보"
+],
+"updates": [
+{
+"title": "[속보] 김정은, 북미회담 주목 속 해군대학 등 함경남도 지역 시찰",
+"source": "중앙일보",
+"link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5Ta1BCQjB0MFpYb1pMQUhMdW9YalZxdi1uMlJGOERQMDBWZE9pb0FEbWRRWEFXMFI0WHpESnM0TWdqNFhDY0VGLWdIeDNiNTBoT09pV0Nn?oc=5",
+"time": "2026-11-18T21:14:15+00:00",
+"stage": "얼럿"
+}
+],
+"level": "URGENT",
+"latest": "김정은, 북미회담 주목 속 해군대학 등 함경남도 지역 시찰",
+"tok": [
+"김정",
+"북미회담",
+"시찰",
+"주목",
+"지역",
+"함경남",
+"해군대학"
+]
+},
 {
 "id": "ssutm_campaigntotal_news1229",
 "first": "2026-11-18T12:29:01+00:00",
@@ -67,7 +101,7 @@
 "id": "xNanVtd0pEM3VXNGtjQUkoc51500",
 "first": "2026-11-18T15:00:00+00:00",
 "last": "2026-11-18T21:10:00+00:00",
-"updated": "2026-11-18T21:12:42.154434+00:00",
+"updated": "2026-11-18T21:17:08.055723+00:00",
 "headline": "엔비디아·마이크론 주가 동반 하락…AMD·테슬라는 상승, 뉴욕증시 기술주 혼조",
 "cat": "경제",
 "regions": [],
@@ -77,6 +111,7 @@
 "뉴시스",
 "아시아경제",
 "연합뉴스",
+"이데일리",
 "이투데이",
 "조선일보",
 "파이낸셜뉴스"
@@ -139,6 +174,13 @@
 "stage": "속보"
 },
 {
+"title": "[속보]엔비디아 호실적에도 美증시 혼조…다우 1.1%↓",
+"source": "이데일리",
+"link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPeVBmTWgxNmRRbFFLOG5PM1p6ZjlNSFpyeFRlQjBFSUh3dnAwcWhSVzYtQ18ydmtsbHNEamVOQ3FLQ2cxMnY2QjBlVFJzRmt3TV9PWTBISjZJUU5CNmloaFZXTmtuTWRWdEdWWU5lNFM1MkZjczN3OWo3TnpWRFFaWQ?oc=5",
+"time": "2026-11-18T21:08:16+00:00",
+"stage": "속보"
+},
+{
 "title": "[속보]뉴욕증시, 엔비디아 매도세에 혼조 마감…S&P500 5거래일 연속 하락",
 "source": "아시아경제",
 "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE4zZmczQjhTdW52VE03SjVaMFM4cjhMUHE2QkxYVlRuM09HYlJDUV84MkxJSElHTEdqVVJyU1QtS1JFT2RKTHBMQy16TThIVDJCaTZLaG9rMWNOemNPOVdzMw?oc=5",
@@ -152,6 +194,7 @@
 "5거래일",
 "AMD",
 "P500",
+"美증시",
 "강세",
 "공모",
 "기술주",
@@ -175,6 +218,7 @@
 "테슬라",
 "하락",
 "호실적",
+"호실적에",
 "혼조"
 ]
 },
@@ -2457,7 +2501,7 @@
 "terms": {
 "지진": {
 "n30": 0,
-"base": 0.9,
+"base": 0.8,
 "spike": false
 },
 "화재": {
@@ -2477,7 +2521,7 @@
 },
 "폭발": {
 "n30": 10,
-"base": 0.4,
+"base": 0.3,
 "spike": true
 },
 "붕괴": {
@@ -2527,7 +2571,7 @@
 },
 "먹통": {
 "n30": 1,
-"base": 0.1,
+"base": 0.2,
 "spike": false
 },
 "산불": {
@@ -2760,34 +2804,34 @@
 {
 "term": "폭발",
 "n30": 10,
-"base": 0.4,
+"base": 0.3,
 "spike": true,
-"since": "2026-11-18T21:14:55.286034+00:00"
+"since": "2026-11-18T21:17:08.055723+00:00"
 },
 {
 "term": "속보",
 "n30": 8,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-18T21:14:55.286034+00:00"
+"since": "2026-11-18T21:17:08.055723+00:00"
 }
 ],
 "baseline": {
-"지진": 0.85,
+"지진": 0.77,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.33,
+"폭발": 0.3,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.15,
+"지하철": 0.24,
 "사고": 0.05,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
-"먹통": 0.24,
+"먹통": 0.32,
 "산불": 0.05
 },
 "errors": [],
@@ -3010,7 +3054,7 @@
 "link": "https://www.yonhapnewstv.co.kr/news/AKR20261118101721Uy2"
 }
 ],
-"new": true
+"new": false
 },
 {
 "term": "시장",
@@ -3167,9 +3211,9 @@
 "link": "https://www.gjdream.com/news/articleView.html?idxno=674475"
 },
 {
-"title": "울산 남구, 골목상권 소통·상생의 날… 민생경제 활력 모색",
-"source": "울산종합일보",
-"link": "https://ujnews.co.kr/news/newsview.php?ncode=1065591419687808"
+"title": "골목상인 10명 중 6명 \"작년보다 매출 감소\"",
+"source": "경상일보",
+"link": "https://www.ksilbo.co.kr/news/articleView.html?idxno=1072977"
 }
 ],
 "new": true
