@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-18T18:12:10.085954+00:00",
+"updated": "2026-11-18T18:14:31.867143+00:00",
 "errors": [],
 "events": [
 {
@@ -2944,8 +2944,8 @@
 "sns": {
 "terms": {
 "지진": {
-"n30": 6,
-"base": 6.3,
+"n30": 7,
+"base": 6.2,
 "spike": false
 },
 "화재": {
@@ -2959,7 +2959,7 @@
 "spike": false
 },
 "정전": {
-"n30": 2,
+"n30": 3,
 "base": 0.1,
 "spike": false
 },
@@ -2995,7 +2995,7 @@
 },
 "사고": {
 "n30": 0,
-"base": 0.8,
+"base": 0.7,
 "spike": false
 },
 "실종": {
@@ -3025,6 +3025,26 @@
 }
 },
 "posts": [
+{
+"text": "구마모토에 또 진도 5약짜리 지진인가. 요즘 정말 많네...",
+"handle": "rivian.bsky.social",
+"name": "Rivian",
+"time": "2026-11-18T18:13:26.546Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/rivian.bsky.social/post/3n2m5vty2fk2g",
+"term": "지진"
+},
+{
+"text": "엘리베이터 정전 후 악마로 변한 수녀 귀신 CCTV 공포 반전 #공포 #쇼츠\n\n밤늦은 엘리베이터 내부 CCTV에 포착된 수녀 귀신 공포 반전 쇼츠 영상입니다. 성경책을 안고 서 있던 평범한 수녀가 순간적인 정전 직후 기괴한 악마 수녀의 모습으로 돌변하며 밀폐된 공간의 극한 공포를 연출합니다.\nyoutu.be/SQsXeUdGO78?...\n\n#엘리베이터 #람다에이아이 #LambdaAi",
+"handle": "lambdaai.bsky.social",
+"name": "람다에이아이 (LambdaAi)",
+"time": "2026-11-18T18:12:45.946Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/lambdaai.bsky.social/post/3n2m5ukw2kc2a",
+"term": "정전"
+},
 {
 "platform": "YouTube",
 "text": "[원익홀딩스 주가 전망] 속보 엔비디아 호실적에 반도체·로봇 동시에 미쳤다…장중 VI 폭발 \"이거 모르면 후회\"…'진짜 이유'와 '이 자리' 전부 공개",
@@ -3191,16 +3211,6 @@
 "url": "https://www.youtube.com/watch?v=5gcPNuTYpNs"
 },
 {
-"text": "【지진 정보】일본 시간 11월 19일 02:42경\n진원: Amakusa and Ashikita Region, Kumamoto Prefecture (M2.2, 매우 얕음)\n최대 진도: 1\n진도 1: 구마모토현\n이 지진으로 인한 쓰나미 걱정은 없습니다.\n(일본 기상청 발표)\n#일본 #지진 #방재",
-"handle": "ko.soramoyou.yk-planning.jp",
-"name": "Soramoyou 한국어",
-"time": "2026-11-18T17:49:32.741Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/ko.soramoyou.yk-planning.jp/post/3n2m4l4qyoq25",
-"term": "지진"
-},
-{
 "platform": "YouTube",
 "text": "(속보) 이재명 '알박기 전수조사' 지시…사랑제일교회 강제집행 7년째 막혔다",
 "handle": "UCEICGyNeJMUmUaGTdl_wSxw",
@@ -3279,32 +3289,32 @@
 "n30": 9,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-18T18:12:10.085954+00:00"
+"since": "2026-11-18T18:14:31.867143+00:00"
 },
 {
 "term": "속보",
 "n30": 7,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-18T18:12:10.085954+00:00"
+"since": "2026-11-18T18:14:31.867143+00:00"
 }
 ],
 "baseline": {
-"지진": 6.19,
+"지진": 6.17,
 "화재": 0.05,
 "불났": 0.05,
-"정전": 0.05,
+"정전": 0.15,
 "폭발": 0.05,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
 "지하철": 0.05,
-"사고": 0.73,
+"사고": 0.66,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
-"먹통": 0.1,
+"먹통": 0.09,
 "산불": 0.05
 },
 "errors": [],
@@ -3540,7 +3550,7 @@
 },
 {
 "term": "기인",
-"traffic": "500+",
+"traffic": "1000+",
 "time": "2026-11-18T16:50:00+00:00",
 "news": [
 {
@@ -3575,24 +3585,6 @@
 "new": false
 },
 {
-"term": "ps5 pro",
-"traffic": "200+",
-"time": "2026-11-18T14:50:00+00:00",
-"news": [
-{
-"title": "Grand Theft Auto VI Uses AMD FSR 4 On Xbox Series S, Upscaling 720p To 1080p While Still Running Ray Traced Global Illumination",
-"source": "Wccftech",
-"link": "https://wccftech.com/grand-theft-auto-vi-amd-fsr-4-xbox-series-s-ray-tracing/"
-},
-{
-"title": "GTA 6: PS5 vs PS5 Pro, Xbox Series X and Series S: Which Console Plays Best?",
-"source": "Digital Foundry",
-"link": "https://www.digitalfoundry.net/features/gta-6-ps5-vs-ps5-pro-xbox-series-x-and-series-s-which-console-plays-best"
-}
-],
-"new": true
-},
-{
 "term": "신세계",
 "traffic": "200+",
 "time": "2026-11-18T14:50:00+00:00",
@@ -3606,6 +3598,24 @@
 "title": "[리포트 브리핑]신세계, '3Q26 Re: 탄탄한 실적, 백화점 성장률이 관건' 목표가 365,000원 - 하나증권",
 "source": "뉴스핌",
 "link": "https://www.newspim.com/news/view/20261111000117"
+}
+],
+"new": true
+},
+{
+"term": "ps5 pro",
+"traffic": "200+",
+"time": "2026-11-18T14:50:00+00:00",
+"news": [
+{
+"title": "Grand Theft Auto VI Uses AMD FSR 4 On Xbox Series S, Upscaling 720p To 1080p While Still Running Ray Traced Global Illumination",
+"source": "Wccftech",
+"link": "https://wccftech.com/grand-theft-auto-vi-amd-fsr-4-xbox-series-s-ray-tracing/"
+},
+{
+"title": "GTA 6: PS5 vs PS5 Pro, Xbox Series X and Series S: Which Console Plays Best?",
+"source": "Digital Foundry",
+"link": "https://www.digitalfoundry.net/features/gta-6-ps5-vs-ps5-pro-xbox-series-x-and-series-s-which-console-plays-best"
 }
 ],
 "new": true
