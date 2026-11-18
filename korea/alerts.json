@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-18T14:56:25.818920+00:00",
+"updated": "2026-11-18T14:58:53.941593+00:00",
 "errors": [],
 "events": [
 {
@@ -4208,7 +4208,7 @@
 "terms": {
 "지진": {
 "n30": 2,
-"base": 0.1,
+"base": 0.2,
 "spike": false
 },
 "화재": {
@@ -4228,12 +4228,12 @@
 },
 "폭발": {
 "n30": 1,
-"base": 0.8,
+"base": 0.7,
 "spike": false
 },
 "붕괴": {
 "n30": 1,
-"base": 1.2,
+"base": 1.1,
 "spike": false
 },
 "대피": {
@@ -4242,23 +4242,23 @@
 "spike": false
 },
 "미사일": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
 "속보": {
-"n30": 4,
+"n30": 3,
 "base": 0.1,
 "spike": false
 },
 "지하철": {
 "n30": 4,
-"base": 2.3,
+"base": 2.4,
 "spike": false
 },
 "사고": {
-"n30": 5,
-"base": 3.7,
+"n30": 6,
+"base": 3.9,
 "spike": false
 },
 "실종": {
@@ -4289,6 +4289,16 @@
 },
 "posts": [
 {
+"text": "하지만 무민의 동그란 뱃살이 쓰리디로 구현된다면 어떨까요? 그 뱃살을 덮고 있는 흰 털이 올올이 살아 숨쉰다면 어때요? 사고를 친 현장이 더욱더 역동적이고 생생하게 표현된다면…?(의외로 리소스 잡아먹는 요소들)",
+"handle": "peachmade.bsky.social",
+"name": "천연레몬향",
+"time": "2026-11-18T14:57:49.451Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/peachmade.bsky.social/post/3n2lsxzrpys2c",
+"term": "사고"
+},
+{
 "text": "이거 블스에도 썼었던 거의 최근의 일이긴 한데 앞의 두 지진에 비하면 새발의 피이긴 함ㅋㅋㅋ 그래도 시간이 지나서 이렇게 웃는거지 그 때는 정말 공포스러웠다ㅠㅠ",
 "handle": "eunda.bsky.social",
 "name": "‪은다🔒",
@@ -4303,7 +4313,7 @@
 "handle": "eunda.bsky.social",
 "name": "‪은다🔒",
 "time": "2026-11-18T14:55:41.844Z",
-"likes": 0,
+"likes": 1,
 "reposts": 0,
 "url": "https://bsky.app/profile/eunda.bsky.social/post/3n2lsuakib22n",
 "term": "지진"
@@ -4384,16 +4394,6 @@
 "time": "2026-11-18T14:36:38Z",
 "term": "폭발",
 "url": "https://www.youtube.com/watch?v=ASjD_Ryhg5g"
-},
-{
-"text": "그리고 제가 이해하는 관점(미국식 법경제학)에서 봐도 “아무래도 좋으니”는 아닌것 같습니다. 그건 ex post 관점에서만 타당성을 가질 수 있는데 (이미 일어난 손실은 매몰비용과 같은것이라 회복 불가능) 판결은 향후 일어날 사건 사고와 분쟁의 증가 혹은 감소에 대한 영향(즉 ex ante 관점)도 고려해야 하거든요.",
-"handle": "econforaliving.bsky.social",
-"name": "생계형경제학자",
-"time": "2026-11-18T14:35:32.646Z",
-"likes": 1,
-"reposts": 0,
-"url": "https://bsky.app/profile/econforaliving.bsky.social/post/3n2lrq6y2k226",
-"term": "사고"
 },
 {
 "platform": "YouTube",
@@ -4571,17 +4571,17 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 0.25,
-"화재": 0.15,
+"지진": 0.43,
+"화재": 0.24,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.74,
-"붕괴": 1.1,
+"폭발": 0.67,
+"붕괴": 0.99,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.11,
-"지하철": 2.4,
-"사고": 3.87,
+"속보": 0.1,
+"지하철": 2.46,
+"사고": 4.08,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
