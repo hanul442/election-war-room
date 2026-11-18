@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-18T19:05:38.475672+00:00",
+"updated": "2026-11-18T19:07:55.183514+00:00",
 "errors": [],
 "events": [
 {
@@ -2438,7 +2438,7 @@
 "terms": {
 "지진": {
 "n30": 5,
-"base": 7.2,
+"base": 7.0,
 "spike": false
 },
 "화재": {
@@ -2457,7 +2457,7 @@
 "spike": false
 },
 "폭발": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -2477,9 +2477,9 @@
 "spike": false
 },
 "속보": {
-"n30": 5,
-"base": 0.6,
-"spike": true
+"n30": 4,
+"base": 0.7,
+"spike": false
 },
 "지하철": {
 "n30": 0,
@@ -2488,12 +2488,12 @@
 },
 "사고": {
 "n30": 1,
-"base": 0.4,
+"base": 0.5,
 "spike": false
 },
 "실종": {
 "n30": 0,
-"base": 0.7,
+"base": 0.6,
 "spike": false
 },
 "단수": {
@@ -2795,28 +2795,20 @@
 "url": "https://www.youtube.com/watch?v=ZU7wGSifD38"
 }
 ],
-"spikes": [
-{
-"term": "속보",
-"n30": 5,
-"base": 0.6,
-"spike": true,
-"since": "2026-11-18T19:05:38.475672+00:00"
-}
-],
+"spikes": [],
 "baseline": {
-"지진": 6.96,
+"지진": 6.76,
 "화재": 0.05,
 "불났": 0.05,
-"정전": 0.3,
+"정전": 0.27,
 "폭발": 0.05,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.68,
+"속보": 0.71,
 "지하철": 0.05,
-"사고": 0.49,
-"실종": 0.6,
+"사고": 0.54,
+"실종": 0.54,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -3086,14 +3078,14 @@
 "time": "2026-11-18T17:00:00+00:00",
 "news": [
 {
-"title": "한화시스템, 미국 방산기업에 레이다 첫 수출…\"대량 공급 협의\"",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261118046200003"
+"title": "한화비전, 한화세미텍 매각설에 \"사실무근…기술 강화 힘쓸 것\"",
+"source": "마켓인",
+"link": "https://marketin.edaily.co.kr/News/ReadE?newsId=03548966645647032"
 },
 {
-"title": "한화시스템, 드론 잡는 'AI 레이다' 美 첫 수출",
-"source": "한국경제",
-"link": "https://www.hankyung.com/article/202611184776i"
+"title": "[한화세미텍의 민낯] 호실적에도 매각설…TC 본더 성장세 '물음표'",
+"source": "딜사이트",
+"link": "https://dealsite.co.kr/articles/172804"
 }
 ],
 "new": false
@@ -3150,7 +3142,7 @@
 "link": "https://www.kihoilbo.co.kr/news/articleView.html?idxno=3041247"
 }
 ],
-"new": true
+"new": false
 },
 {
 "term": "ps5 pro",
