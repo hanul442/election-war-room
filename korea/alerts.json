@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-18T19:14:57.101190+00:00",
+"updated": "2026-11-18T19:17:16.004288+00:00",
 "errors": [],
 "events": [
 {
@@ -2437,8 +2437,8 @@
 "sns": {
 "terms": {
 "지진": {
-"n30": 2,
-"base": 6.0,
+"n30": 3,
+"base": 5.6,
 "spike": false
 },
 "화재": {
@@ -2477,8 +2477,8 @@
 "spike": false
 },
 "속보": {
-"n30": 12,
-"base": 0.7,
+"n30": 11,
+"base": 0.6,
 "spike": true
 },
 "지하철": {
@@ -2488,7 +2488,7 @@
 },
 "사고": {
 "n30": 1,
-"base": 0.6,
+"base": 0.7,
 "spike": false
 },
 "실종": {
@@ -2518,6 +2518,16 @@
 }
 },
 "posts": [
+{
+"text": "【지진 정보】일본 시간 11월 19일 04:11경\n진원: Amakusa and Ashikita Region, Kumamoto Prefecture (M2.4, 깊이 약 10km)\n최대 진도: 1\n진도 1: 구마모토현\n이 지진으로 인한 쓰나미 걱정은 없습니다.\n(일본 기상청 발표)\n#일본 #지진 #방재",
+"handle": "ko.soramoyou.yk-planning.jp",
+"name": "Soramoyou 한국어",
+"time": "2026-11-18T19:15:35.548Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/ko.soramoyou.yk-planning.jp/post/3n2mbeygyxh2d",
+"term": "지진"
+},
 {
 "platform": "YouTube",
 "text": "[SK하이닉스 주가전망] *장전 속보* 다 끝난 줄 알았는데 아래꼬리 달고 뒤집었네요. 오늘 개장 전 “이 자리” 꼭 확인하세요.",
@@ -2780,29 +2790,29 @@
 "n30": 8,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-18T19:14:57.101190+00:00"
+"since": "2026-11-18T19:17:16.004288+00:00"
 },
 {
 "term": "속보",
-"n30": 12,
-"base": 0.7,
+"n30": 11,
+"base": 0.6,
 "spike": true,
-"since": "2026-11-18T19:14:57.101190+00:00"
+"since": "2026-11-18T19:17:16.004288+00:00"
 }
 ],
 "baseline": {
-"지진": 5.63,
+"지진": 5.37,
 "화재": 0.05,
 "불났": 0.05,
-"정전": 0.2,
+"정전": 0.18,
 "폭발": 0.05,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.6,
+"속보": 0.54,
 "지하철": 0.05,
-"사고": 0.67,
-"실종": 0.4,
+"사고": 0.7,
+"실종": 0.36,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -3050,9 +3060,9 @@
 "link": "https://www.chosun.com/international/international_general/2026/11/18/HB7CW2IV6BG3FJCBMRDVBHFA4E/"
 },
 {
-"title": "[속보] \"미중러 정상, APEC 환영만찬서 첫 인사 나눠\" AFP",
-"source": "JTBC",
-"link": "https://news.jtbc.co.kr/article/NB12328748"
+"title": "미중러 정상회담일, 유럽은 ’의지의 연합’ 정상회의",
+"source": "연합뉴스TV",
+"link": "https://www.yonhapnewstv.co.kr/news/AKR20261119040138wAU"
 }
 ],
 "new": true
