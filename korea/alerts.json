@@ -1,7 +1,40 @@
 {
-"updated": "2026-11-18T21:28:24.054388+00:00",
+"updated": "2026-11-18T21:30:36.559985+00:00",
 "errors": [],
 "events": [
+{
+"id": "wNISX20261119_00038741362127",
+"first": "2026-11-18T21:27:27+00:00",
+"last": "2026-11-18T21:27:27+00:00",
+"updated": "2026-11-18T21:30:36.559985+00:00",
+"headline": "부산, 가끔 구름 많고 강풍…낮 최고기온 10도",
+"cat": "재난",
+"regions": [
+"부산"
+],
+"sources": [
+"뉴시스"
+],
+"updates": [
+{
+"title": "부산, 가끔 구름 많고 강풍…낮 최고기온 10도",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261119_0003874136",
+"time": "2026-11-18T21:27:27+00:00",
+"stage": "1보"
+}
+],
+"level": "ALERT",
+"latest": "부산, 가끔 구름 많고 강풍…낮 최고기온 10도",
+"tok": [
+"가끔",
+"강풍",
+"구름",
+"많고",
+"부산",
+"최고기온"
+]
+},
 {
 "id": "zhjcW1nUm90bDRpV1NCdwoc52058",
 "first": "2026-11-18T20:58:11+00:00",
@@ -2611,46 +2644,6 @@
 "스토킹범",
 "주소"
 ]
-},
-{
-"id": "drcDc2NllCWTRveGZ2V2soc51530",
-"first": "2026-11-18T15:30:00+00:00",
-"last": "2026-11-18T15:30:00+00:00",
-"updated": "2026-11-18T15:45:30.925266+00:00",
-"headline": "에버노스 홀딩스 주가 7.48달러로 반등…리플과 온도차 눈길",
-"cat": "경제",
-"regions": [],
-"sources": [
-"CBC뉴스"
-],
-"updates": [
-{
-"title": "[속보] 에버노스 홀딩스 주가 7.48달러로 반등…리플과 온도차 눈길",
-"source": "CBC뉴스",
-"link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8taU50QlV3bzlXa0JVS3lQWWptZ1BjVmF6YTJXVWtHMUxadVhMZWtwWEVMRmpqdl9QMFY2dXk3Z0lwMnY1SjhkMEtEaXhtanhCU0hoTDFDNHdrcDc2NllCWTRveGZ2V2s?oc=5",
-"time": "2026-11-18T15:30:00+00:00",
-"stage": "얼럿"
-},
-{
-"title": "[속보] 에버노스 홀딩스 주가 7.48달러로 반등…리플과 온도차 눈길",
-"source": "CBC뉴스",
-"link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBiSW0zVXBnOVp1VEpTVURfZ0VSTTlFdUZmYWtySnQ1Mk9zWFFkNXBFbjN4SExMS3lfZlBzZGotT3phSG5YLVFkWHVkMkhSVFNaRUpjTERkdG12UHBXSWhwbXRNNEt0LWVQ?oc=5",
-"time": "2026-11-18T15:30:00+00:00",
-"stage": "속보"
-}
-],
-"level": "URGENT",
-"latest": "에버노스 홀딩스 주가 7.48달러로 반등…리플과 온도차 눈길",
-"tok": [
-"48달러",
-"눈길",
-"리플",
-"반등",
-"에버노스",
-"온도차",
-"주가",
-"홀딩스"
-]
 }
 ],
 "sns": {
@@ -2676,12 +2669,12 @@
 "spike": false
 },
 "폭발": {
-"n30": 10,
+"n30": 4,
 "base": 0.2,
-"spike": true
+"spike": false
 },
 "붕괴": {
-"n30": 2,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -2691,18 +2684,18 @@
 "spike": false
 },
 "미사일": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
 "속보": {
-"n30": 7,
+"n30": 5,
 "base": 0.1,
 "spike": true
 },
 "지하철": {
 "n30": 2,
-"base": 0.5,
+"base": 0.6,
 "spike": false
 },
 "사고": {
@@ -2968,36 +2961,29 @@
 ],
 "spikes": [
 {
-"term": "폭발",
-"n30": 10,
-"base": 0.2,
-"spike": true,
-"since": "2026-11-18T21:28:24.054388+00:00"
-},
-{
 "term": "속보",
-"n30": 7,
+"n30": 5,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-18T21:28:24.054388+00:00"
+"since": "2026-11-18T21:30:36.559985+00:00"
 }
 ],
 "baseline": {
-"지진": 0.72,
+"지진": 0.75,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.18,
+"폭발": 0.16,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.56,
+"지하철": 0.6,
 "사고": 0.05,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
-"먹통": 0.6,
+"먹통": 0.64,
 "산불": 0.05
 },
 "errors": [],
