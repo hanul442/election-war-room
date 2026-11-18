@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-18T18:14:31.867143+00:00",
+"updated": "2026-11-18T18:16:49.775396+00:00",
 "errors": [],
 "events": [
 {
@@ -2906,45 +2906,12 @@
 "파이낸스",
 "회복"
 ]
-},
-{
-"id": "wNISX20261118_00038740341215",
-"first": "2026-11-18T12:15:20+00:00",
-"last": "2026-11-18T12:15:20+00:00",
-"updated": "2026-11-18T12:18:09.429064+00:00",
-"headline": "피지, 엘니뇨로 인한 장기 가뭄과 물부족으로 국가재난사태 선포",
-"cat": "재난",
-"regions": [],
-"sources": [
-"뉴시스"
-],
-"updates": [
-{
-"title": "피지, 엘니뇨로 인한 장기 가뭄과 물부족으로 국가재난사태 선포",
-"source": "뉴시스",
-"link": "https://www.newsis.com/view/NISX20261118_0003874034",
-"time": "2026-11-18T12:15:20+00:00",
-"stage": "1보"
-}
-],
-"level": "ALERT",
-"latest": "피지, 엘니뇨로 인한 장기 가뭄과 물부족으로 국가재난사태 선포",
-"tok": [
-"가뭄",
-"국가재난사태",
-"물부족으",
-"선포",
-"엘니뇨",
-"인한",
-"장기",
-"피지"
-]
 }
 ],
 "sns": {
 "terms": {
 "지진": {
-"n30": 7,
+"n30": 6,
 "base": 6.2,
 "spike": false
 },
@@ -2964,7 +2931,7 @@
 "spike": false
 },
 "폭발": {
-"n30": 9,
+"n30": 7,
 "base": 0.1,
 "spike": true
 },
@@ -2984,7 +2951,7 @@
 "spike": false
 },
 "속보": {
-"n30": 7,
+"n30": 6,
 "base": 0.1,
 "spike": true
 },
@@ -3025,6 +2992,16 @@
 }
 },
 "posts": [
+{
+"text": "【지진 정보】일본 시간 11월 19일 03:10경\n진원: Off the Coast of Miyagi Prefecture (M3.9, 깊이 약 50km)\n최대 진도: 1\n진도 1: 미야기현\n이 지진으로 인한 쓰나미 걱정은 없습니다.\n(일본 기상청 발표)\n#일본 #지진 #방재",
+"handle": "ko.soramoyou.yk-planning.jp",
+"name": "Soramoyou 한국어",
+"time": "2026-11-18T18:14:34.058Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/ko.soramoyou.yk-planning.jp/post/3n2m5xukdmn2j",
+"term": "지진"
+},
 {
 "text": "구마모토에 또 진도 5약짜리 지진인가. 요즘 정말 많네...",
 "handle": "rivian.bsky.social",
@@ -3192,16 +3169,6 @@
 "url": "https://www.youtube.com/watch?v=OUPpqijkoZQ"
 },
 {
-"text": "【지진 정보】일본 시간 11월 19일 02:46경\n진원: Amakusa and Ashikita Region, Kumamoto Prefecture (M3.1, 매우 얕음)\n최대 진도: 2\n진도 2: 구마모토현\n진도 1: 가고시마현\n이 지진으로 인한 쓰나미 걱정은 없습니다.\n(일본 기상청 발표)\n#일본 #지진 #방재",
-"handle": "ko.soramoyou.yk-planning.jp",
-"name": "Soramoyou 한국어",
-"time": "2026-11-18T17:51:58.946Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/ko.soramoyou.yk-planning.jp/post/3n2m4pht7vi2z",
-"term": "지진"
-},
-{
 "platform": "YouTube",
 "text": "왜 이제 샀을까! 후기 폭발 줄자 자동 스토퍼 꿀조합: 원터치·2종·조앤뉴 총정리",
 "handle": "UCxtOrziUCX6sTbdPA7IN56w",
@@ -3286,35 +3253,35 @@
 "spikes": [
 {
 "term": "폭발",
-"n30": 9,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-18T18:14:31.867143+00:00"
-},
-{
-"term": "속보",
 "n30": 7,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-18T18:14:31.867143+00:00"
+"since": "2026-11-18T18:16:49.775396+00:00"
+},
+{
+"term": "속보",
+"n30": 6,
+"base": 0.1,
+"spike": true,
+"since": "2026-11-18T18:16:49.775396+00:00"
 }
 ],
 "baseline": {
-"지진": 6.17,
+"지진": 6.15,
 "화재": 0.05,
 "불났": 0.05,
-"정전": 0.15,
+"정전": 0.24,
 "폭발": 0.05,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
 "지하철": 0.05,
-"사고": 0.66,
+"사고": 0.59,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
-"먹통": 0.09,
+"먹통": 0.08,
 "산불": 0.05
 },
 "errors": [],
