@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-18T02:51:23.457613+00:00",
+"updated": "2026-11-18T02:53:36.233963+00:00",
 "errors": [],
 "events": [
 {
@@ -3779,7 +3779,7 @@
 "terms": {
 "지진": {
 "n30": 2,
-"base": 3.1,
+"base": 2.9,
 "spike": false
 },
 "화재": {
@@ -3814,7 +3814,7 @@
 },
 "미사일": {
 "n30": 2,
-"base": 0.4,
+"base": 0.5,
 "spike": false
 },
 "속보": {
@@ -3829,7 +3829,7 @@
 },
 "사고": {
 "n30": 2,
-"base": 1.6,
+"base": 1.7,
 "spike": false
 },
 "실종": {
@@ -4102,19 +4102,19 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 2.94,
+"지진": 2.75,
 "화재": 0.05,
 "불났": 0.05,
-"정전": 0.07,
-"폭발": 1.18,
+"정전": 0.06,
+"폭발": 1.16,
 "붕괴": 0.05,
 "대피": 0.05,
-"미사일": 0.45,
+"미사일": 0.51,
 "속보": 0.05,
-"지하철": 0.92,
-"사고": 1.66,
+"지하철": 0.93,
+"사고": 1.69,
 "실종": 0.05,
-"단수": 0.11,
+"단수": 0.1,
 "통신 장애": 0.05,
 "먹통": 0.05,
 "산불": 0.05
@@ -4306,6 +4306,60 @@
 },
 "trends": [
 {
+"term": "삼전닉스",
+"traffic": "5000+",
+"time": "2026-11-18T01:50:00+00:00",
+"news": [
+{
+"title": "엔비디아 훈풍에…코스피 5,000선 탈환",
+"source": "연합뉴스TV",
+"link": "https://www.yonhapnewstv.co.kr/news/MYH20261118102206Qaf"
+},
+{
+"title": "[특징주] 두산, 최근 급락 딛고 14%대 반등⋯계열사도 동반 강세",
+"source": "브릿지경제",
+"link": "https://www.viva100.com/article/20261118500393"
+}
+],
+"new": true
+},
+{
+"term": "한화 이글스",
+"traffic": "2000+",
+"time": "2026-11-18T01:50:00+00:00",
+"news": [
+{
+"title": "한화 역사에 남을 트레이드 성공작인데…하필 FA 앞두고 부상→1할7푼 시련, 그런데 실망은 아직 이르다",
+"source": "SPOTV NEWS",
+"link": "https://www.spotvnews.co.kr/news/articleView.html?idxno=1020415"
+},
+{
+"title": "류지현 감독의 생각을 깬 한화 선수가 있다! → 도대체 누구야 \"솔직히 열정적으로 하는 선수로 보이지는 않았다\"",
+"source": "조선일보",
+"link": "https://www.chosun.com/sports/baseball/2026/11/18/GU2DGZLFGRTGIYJSMY2TGNRYMM/"
+}
+],
+"new": false
+},
+{
+"term": "혼인",
+"traffic": "200+",
+"time": "2026-11-18T01:50:00+00:00",
+"news": [
+{
+"title": "김해시, 혼인신고 기념 포토존 운영… “부부의 첫걸음, 특별한 추억으로”",
+"source": "이뉴스투데이",
+"link": "http://www.enewstoday.co.kr/news/articleView.html?idxno=2493971"
+},
+{
+"title": "화려한 개청식 뒤엔 '하도급의 눈물' 순천 신청사, 상처뿐인 영광",
+"source": "한국NGO신문",
+"link": "https://www.ngonews.kr/news/articleView.html?idxno=243427"
+}
+],
+"new": true
+},
+{
 "term": "정치",
 "traffic": "100+",
 "time": "2026-11-18T01:40:00+00:00",
@@ -4430,64 +4484,9 @@
 }
 ],
 "new": true
-},
-{
-"term": "argentina vs kosta rika",
-"traffic": "100+",
-"time": "2026-11-18T00:40:00+00:00",
-"news": [
-{
-"title": "Argentina Crush Costa Rica 7-0 Without Messi",
-"source": "news.sbs.co.kr",
-"link": "https://news.sbs.co.kr/english/article.do?news_id=N1008851462"
-},
-{
-"title": "Licensable picture: International Friendly - Argentina v Costa Rica",
-"source": "Reuters Connect",
-"link": "https://www.reutersconnect.com/item/international-friendly-argentina-v-costa-rica/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX1VQMUVNQkgxUkQ1VEE"
-}
-],
-"new": true
-},
-{
-"term": "음료",
-"traffic": "1000+",
-"time": "2026-11-18T00:10:00+00:00",
-"news": [
-{
-"title": "이마트24, '옐로우' 차음료 2종 출시…헬시 플레저 수요 공략",
-"source": "전자신문",
-"link": "https://www.etnews.com/20261118000110"
-},
-{
-"title": "이마트24, 겨울 음료 1000원대로 즐긴다…자허블·배도라지로 상품군 확대",
-"source": "뉴시스",
-"link": "https://www.newsis.com/view/NISX20261118_0003872444"
-}
-],
-"new": true
-},
-{
-"term": "금양",
-"traffic": "500+",
-"time": "2026-11-18T00:10:00+00:00",
-"news": [
-{
-"title": "금양, 분기보고서 미제출로 상장폐지 사유 추가…가처분 결과까지 절차 보류",
-"source": "CBC뉴스",
-"link": "https://www.cbci.co.kr/news/articleView.html?idxno=627441"
-},
-{
-"title": "[상폐 호흡기] 120억 떼먹고 \"할말 없다\"…류광지 금양, 끝없는 추락",
-"source": "한스경제",
-"link": "https://www.hansbiz.co.kr/news/articleView.html?idxno=884225"
-}
-],
-"new": true
 }
 ],
 "trendSeen": [
-"진쓰레블 사망",
 "진양곤",
 "진중권",
 "진학사",
@@ -4762,6 +4761,7 @@
 "혜리",
 "호나우지뉴",
 "호날두",
+"혼인",
 "홈런",
 "홈플러스",
 "홍라희",
