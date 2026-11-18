@@ -1,19 +1,22 @@
 {
-"updated": "2026-11-18T13:12:59.694480+00:00",
+"updated": "2026-11-18T13:15:17.425871+00:00",
 "errors": [],
 "events": [
 {
 "id": "viewAKR202611181838000011154",
 "first": "2026-11-18T11:54:34+00:00",
-"last": "2026-11-18T13:09:36+00:00",
-"updated": "2026-11-18T13:12:59.694480+00:00",
+"last": "2026-11-18T13:12:11+00:00",
+"updated": "2026-11-18T13:15:17.425871+00:00",
 "headline": "정부, 수능 부정행위 제보 1억 포상금 즉시 적용 추진",
 "cat": "정치",
 "regions": [],
 "sources": [
+"KBC광주방송",
 "KBS 뉴스",
 "www.dt.co.kr",
+"경향신문",
 "국민일보",
+"뉴시스",
 "대전일보",
 "서울경제",
 "스페셜타임스",
@@ -108,6 +111,13 @@
 "stage": "속보"
 },
 {
+"title": "[속보]정부, 내일 수능부터 부정행위 제보 '1억 포상' 즉시 적용 추진",
+"source": "KBC광주방송",
+"link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9Tek5DVGFKUzQ0N1Z3d09YeVdjTUtYVjlQc1ROZEEwYmJDZGQzbUVCNi1PXy1GUzVYN1doTlUyRGZ2Q0lHM3c0OGgxVHJsWVJ4MXA1U01wTVFtek5nSUM3WW5n?oc=5",
+"time": "2026-11-18T12:51:49+00:00",
+"stage": "속보"
+},
+{
 "title": "정부, 내일 수능부터 '부정행위 제보시 1억 포상금' 지급 추진(종합)",
 "source": "연합뉴스",
 "link": "https://www.yna.co.kr/view/AKR20261118185451001",
@@ -120,10 +130,24 @@
 "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9NOGVjS29mYjgzOHFPSjFuRkxTN0JvTndNcV91TnRubHVyY3Q2QmFKWFl0LWVCakcwWXhIRFRkc1BGeHRzdWlsZjlrVGl2VE5yWXAyU1NWTmpQMXZRZzNBaWFhd3BDX2w4UmNFa3V1VFVZZw?oc=5",
 "time": "2026-11-18T13:09:36+00:00",
 "stage": "후속"
+},
+{
+"title": "“부정행위 신고하면 최대 1억원” 정부, 내일 수능부터 포상금 지급 추진",
+"source": "경향신문",
+"link": "https://www.khan.co.kr/article/202611182212001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
+"time": "2026-11-18T13:12:00+00:00",
+"stage": "후속"
+},
+{
+"title": "정부, 이번 수능부터 '부정행위 신고포상금 최대 1억원' 즉시 적용 추진(종합)",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261118_0003874066",
+"time": "2026-11-18T13:12:11+00:00",
+"stage": "종합"
 }
 ],
 "level": "URGENT",
-"latest": "정부, 내일 수능부터 부정행위 제보 1억 포상금 지급 추진",
+"latest": "정부, 이번 수능부터 '부정행위 신고포상금 최대 1억원' 즉시 적용 추진",
 "tok": [
 "1억",
 "1억원",
@@ -132,6 +156,8 @@
 "수능",
 "수능부터",
 "신고",
+"신고포상금",
+"신고하면",
 "적용",
 "제보",
 "제보시",
@@ -139,6 +165,7 @@
 "지급",
 "최대",
 "추진",
+"포상",
 "포상금"
 ]
 },
@@ -4274,7 +4301,7 @@
 },
 "화재": {
 "n30": 0,
-"base": 0.2,
+"base": 0.1,
 "spike": false
 },
 "불났": {
@@ -4289,7 +4316,7 @@
 },
 "폭발": {
 "n30": 5,
-"base": 0.7,
+"base": 0.6,
 "spike": true
 },
 "붕괴": {
@@ -4518,7 +4545,7 @@
 "handle": "iwont10cm.bsky.social",
 "name": "10cm만 주세요",
 "time": "2026-11-18T12:45:33.253Z",
-"likes": 11,
+"likes": 12,
 "reposts": 0,
 "url": "https://bsky.app/profile/iwont10cm.bsky.social/post/3n2llljj3sc2o",
 "term": "지하철"
@@ -4528,23 +4555,23 @@
 {
 "term": "폭발",
 "n30": 5,
-"base": 0.7,
+"base": 0.6,
 "spike": true,
-"since": "2026-11-18T13:12:59.694480+00:00"
+"since": "2026-11-18T13:15:17.425871+00:00"
 }
 ],
 "baseline": {
-"지진": 0.26,
-"화재": 0.14,
+"지진": 0.23,
+"화재": 0.13,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.6,
+"폭발": 0.54,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 1.36,
-"사고": 2.18,
+"지하철": 1.32,
+"사고": 2.16,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -4811,7 +4838,7 @@
 },
 {
 "term": "gta5",
-"traffic": "200+",
+"traffic": "500+",
 "time": "2026-11-18T11:00:00+00:00",
 "news": [
 {
@@ -4846,24 +4873,6 @@
 "new": true
 },
 {
-"term": "gta6 출시",
-"traffic": "100+",
-"time": "2026-11-18T11:00:00+00:00",
-"news": [
-{
-"title": "펄어비스 ‘붉은사막’, 더게임어워드 1개 부문 후보 올라",
-"source": "경향신문",
-"link": "https://www.khan.co.kr/article/202611180744001"
-},
-{
-"title": "‘GTA6’ 출시도 전에 TGA 올해의 게임 후보로",
-"source": "지디넷코리아",
-"link": "https://zdnet.co.kr/view/?no=20261118090703"
-}
-],
-"new": true
-},
-{
 "term": "헝거게임",
 "traffic": "200+",
 "time": "2026-11-18T10:50:00+00:00",
@@ -4880,6 +4889,24 @@
 }
 ],
 "new": false
+},
+{
+"term": "유칼",
+"traffic": "500+",
+"time": "2026-11-18T10:40:00+00:00",
+"news": [
+{
+"title": "[오피셜] '유칼' 손우현, 7년 만에 DN 복귀...'두두'-'커즈'와 함께 상체 구축",
+"source": "미주중앙일보",
+"link": "https://www.koreadaily.com/article/20261118031442027"
+},
+{
+"title": "kt 롤스터, '지우' 정지우ㆍ'에포트' 이상호 등 선수 5명 계약 종료 [공식]",
+"source": "이투데이",
+"link": "https://www.etoday.co.kr/news/view/2649076"
+}
+],
+"new": true
 }
 ],
 "trendSeen": [
