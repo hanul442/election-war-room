@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-18T19:31:16.858616+00:00",
+"updated": "2026-11-18T19:33:34.048842+00:00",
 "errors": [],
 "events": [
 {
@@ -2461,7 +2461,7 @@
 "terms": {
 "지진": {
 "n30": 6,
-"base": 4.3,
+"base": 4.5,
 "spike": false
 },
 "화재": {
@@ -2480,9 +2480,9 @@
 "spike": false
 },
 "폭발": {
-"n30": 5,
+"n30": 3,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "붕괴": {
 "n30": 0,
@@ -2511,7 +2511,7 @@
 },
 "사고": {
 "n30": 0,
-"base": 0.6,
+"base": 0.5,
 "spike": false
 },
 "실종": {
@@ -2807,28 +2807,20 @@
 "url": "https://www.youtube.com/watch?v=9AqNec3V1hw"
 }
 ],
-"spikes": [
-{
-"term": "폭발",
-"n30": 5,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-18T19:31:16.858616+00:00"
-}
-],
+"spikes": [],
 "baseline": {
-"지진": 4.51,
+"지진": 4.66,
 "화재": 0.05,
 "불났": 0.05,
-"정전": 0.1,
+"정전": 0.09,
 "폭발": 0.05,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.29,
+"속보": 0.26,
 "지하철": 0.05,
-"사고": 0.5,
-"실종": 0.19,
+"사고": 0.45,
+"실종": 0.17,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -3066,6 +3058,24 @@
 },
 "trends": [
 {
+"term": "한화오션",
+"traffic": "200+",
+"time": "2026-11-18T18:30:00+00:00",
+"news": [
+{
+"title": "거제 바다숲 조성, 민·관 업무협약…4년간 1.59㎢ 규모",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261118_0003873559"
+},
+{
+"title": "해수부·한화오션, 거제 해역에 바다숲 조성 추진",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261117033200030"
+}
+],
+"new": false
+},
+{
 "term": "자영업",
 "traffic": "100+",
 "time": "2026-11-18T18:00:00+00:00",
@@ -3143,14 +3153,14 @@
 "time": "2026-11-18T16:50:00+00:00",
 "news": [
 {
-"title": "LCK 스토브리그 개장 첫날 기인·캐니언 FA…하루 새 주전 10명 시장행",
-"source": "중부매일",
-"link": "https://www.jbnews.com/news/articleView.html?idxno=1516224"
+"title": "'기인·제우스·캐니언' FA 시장으로…LCK 스토브리그 개막",
+"source": "진일보 | 전남일보",
+"link": "https://www.jnilbo.com/news/articleView.html?idxno=90000083824"
 },
 {
-"title": "롤드컵 끝나자 LCK 스토브리그…한화 ‘모글리’, DK 해체설 진화",
-"source": "진일보 | 전남일보",
-"link": "https://www.jnilbo.com/news/articleView.html?idxno=90000083816"
+"title": "젠지, '기인' 김기인ㆍ'캐니언' 김건부 계약 종료 [공식]",
+"source": "이투데이",
+"link": "https://www.etoday.co.kr/news/view/2649030"
 }
 ],
 "new": true
@@ -3223,24 +3233,6 @@
 "title": "Grand Theft Auto VI Uses AMD FSR 4 On Xbox Series S, Upscaling 720p To 1080p While Still Running Ray Traced Global Illumination",
 "source": "Wccftech",
 "link": "https://wccftech.com/grand-theft-auto-vi-amd-fsr-4-xbox-series-s-ray-tracing/"
-}
-],
-"new": true
-},
-{
-"term": "수능 재난문자 시간",
-"traffic": "5000+",
-"time": "2026-11-18T14:40:00+00:00",
-"news": [
-{
-"title": "이 대통령 \"수능 문제지 AI 업로드 전수조사…부정행위 철저히 엄단\"",
-"source": "대한민국 정책브리핑",
-"link": "https://www.korea.kr/news/policyNewsView.do?newsId=148975944"
-},
-{
-"title": "\"딱 한 문제 틀렸다?\"...세무사 의혹 파고든 누리꾼들",
-"source": "YTN",
-"link": "https://www.ytn.co.kr/_ln/0106_202611190229218044"
 }
 ],
 "new": true
