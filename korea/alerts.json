@@ -1,7 +1,44 @@
 {
-"updated": "2026-11-18T14:58:53.941593+00:00",
+"updated": "2026-11-18T15:01:13.092449+00:00",
 "errors": [],
 "events": [
+{
+"id": "wNISX20261118_00038740511500",
+"first": "2026-11-18T15:00:00+00:00",
+"last": "2026-11-18T15:00:00+00:00",
+"updated": "2026-11-18T15:01:13.092449+00:00",
+"headline": "수능 당일 전국 영하권 '한파'…충남·전라 등엔 눈비[오늘날씨]",
+"cat": "재난",
+"regions": [
+"충남"
+],
+"sources": [
+"뉴시스"
+],
+"updates": [
+{
+"title": "수능 당일 전국 영하권 '한파'…충남·전라 등엔 눈비[오늘날씨]",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261118_0003874051",
+"time": "2026-11-18T15:00:00+00:00",
+"stage": "1보"
+}
+],
+"level": "ALERT",
+"latest": "수능 당일 전국 영하권 '한파'…충남·전라 등엔 눈비[오늘날씨]",
+"tok": [
+"눈비",
+"당일",
+"등엔",
+"수능",
+"영하권",
+"오늘날씨",
+"전국",
+"전라",
+"충남",
+"한파"
+]
+},
 {
 "id": "wNISX20261118_00038740931442",
 "first": "2026-11-18T14:42:26+00:00",
@@ -4171,49 +4208,18 @@
 "증거인멸",
 "피의자"
 ]
-},
-{
-"id": "viewAKR202611181716005270906",
-"first": "2026-11-18T09:06:04+00:00",
-"last": "2026-11-18T09:06:04+00:00",
-"updated": "2026-11-18T09:13:26.575024+00:00",
-"headline": "태백 등 강원 12곳 강풍주의보",
-"cat": "재난",
-"regions": [
-"강원"
-],
-"sources": [
-"연합뉴스"
-],
-"updates": [
-{
-"title": "태백 등 강원 12곳 강풍주의보",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261118171600527",
-"time": "2026-11-18T09:06:04+00:00",
-"stage": "1보"
-}
-],
-"level": "ALERT",
-"latest": "태백 등 강원 12곳 강풍주의보",
-"tok": [
-"12곳",
-"강원",
-"강풍주의보",
-"태백"
-]
 }
 ],
 "sns": {
 "terms": {
 "지진": {
 "n30": 2,
-"base": 0.2,
+"base": 0.4,
 "spike": false
 },
 "화재": {
 "n30": 1,
-"base": 0.1,
+"base": 0.2,
 "spike": false
 },
 "불났": {
@@ -4232,8 +4238,8 @@
 "spike": false
 },
 "붕괴": {
-"n30": 1,
-"base": 1.1,
+"n30": 0,
+"base": 1.0,
 "spike": false
 },
 "대피": {
@@ -4247,18 +4253,18 @@
 "spike": false
 },
 "속보": {
-"n30": 3,
+"n30": 2,
 "base": 0.1,
 "spike": false
 },
 "지하철": {
 "n30": 4,
-"base": 2.4,
+"base": 2.5,
 "spike": false
 },
 "사고": {
 "n30": 6,
-"base": 3.9,
+"base": 4.1,
 "spike": false
 },
 "실종": {
@@ -4571,17 +4577,17 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 0.43,
-"화재": 0.24,
+"지진": 0.59,
+"화재": 0.32,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.67,
-"붕괴": 0.99,
+"폭발": 0.6,
+"붕괴": 0.89,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.1,
-"지하철": 2.46,
-"사고": 4.08,
+"속보": 0.09,
+"지하철": 2.51,
+"사고": 4.27,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -4852,14 +4858,14 @@
 "time": "2026-11-18T12:20:00+00:00",
 "news": [
 {
-"title": "KAG 22/1 (3.3) vs CHR 204/4 (William Bosisto 14(8) Sam Heazlett 1(7)) | Kathmandu Gorkhas vs Chitwan Rhinos, Eliminator, Nepal Premier League 2026 Live Cricket Stream, live scores, ball-by-ball commentary, highlights, videos, news, and more in USA &",
-"source": "Cricbuzz",
-"link": "https://www.cricbuzz.com/live-cricket-scores/177821/kag-vs-chr-eliminator-nepal-premier-league-2026"
+"title": "Sri Lankan Batter Kamil Mishara Sets New Record in Nepal Premier League",
+"source": "Ratopati",
+"link": "https://english.ratopati.com/story/87187/kamil-breaks-mark-watts-record-in-npl"
 },
 {
-"title": "Chitwan Rhinos to bat first against Kathmandu Gorkhas",
-"source": "Nepalnews.com",
-"link": "https://english.nepalnews.com/s/sports/chitwan-rhinos-to-bat-first-against-kathmandu-gorkhas/"
+"title": "Chitwan Rhinos and Kathmandu Gurkhas to Compete in NPL Eliminator",
+"source": "Ratopati",
+"link": "https://english.ratopati.com/story/87126/chitwan-and-kathmandu-in-the-eliminator-today-why-is-the-npl-pitch-slow-video"
 }
 ],
 "new": true
