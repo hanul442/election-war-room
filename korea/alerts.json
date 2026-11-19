@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-19T06:11:20.820263+00:00",
+"updated": "2026-11-19T06:13:35.079090+00:00",
 "errors": [],
 "events": [
 {
@@ -185,8 +185,8 @@
 {
 "id": "WSEhfVjVKU2paTFd0d0ZUoc50402",
 "first": "2026-11-19T04:02:00+00:00",
-"last": "2026-11-19T06:03:38+00:00",
-"updated": "2026-11-19T06:09:08.700344+00:00",
+"last": "2026-11-19T06:06:18+00:00",
+"updated": "2026-11-19T06:13:35.079090+00:00",
 "headline": "\"오후 2시 21분, 2차 위급재난문자 발송\" [2027 수능]",
 "cat": "재난",
 "regions": [],
@@ -329,10 +329,24 @@
 "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFA2cm9LalQ3bTFWS2dCMk80RDZnamRFUTYwZXh4V2o3MXBrUzNBV01MbDBUZzNTazRDOGRZT2lEVWxwVTVvWmtCR1NMQzJhQjd1V0IyWmc3V0RFZw?oc=5",
 "time": "2026-11-19T06:03:38+00:00",
 "stage": "속보"
+},
+{
+"title": "[수능] 전국에 세차례 10.5초 경보음…시험도중에도 위급재난문자(종합2보)",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261119024352530",
+"time": "2026-11-19T06:06:16+00:00",
+"stage": "후속"
+},
+{
+"title": "[속보] 수능 3차 위급재난문자 오후 2시 57분 발송",
+"source": "한국대학신문",
+"link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5MdGtNSHp1VGRDWkRnUnNjZHdsTjE3aUN4MkVmaFMzbWxGV05hcVZvS21FcVJhTjZWM002ekZ5OFRVMFJtTHZmTHdobm9UbkJYWGJOeTBUNXlUaDNEa09PZVctQ2g3UQ?oc=5",
+"time": "2026-11-19T06:06:18+00:00",
+"stage": "속보"
 }
 ],
 "level": "URGENT",
-"latest": "수능 위급재난문자 3차 발송…오후 2시 57분 불시 경보",
+"latest": "수능 3차 위급재난문자 오후 2시 57분 발송",
 "tok": [
 "21분",
 "2시",
@@ -351,7 +365,9 @@
 "불시",
 "사상",
 "사전안내",
+"세차례",
 "수능",
+"시험도중에",
 "영어",
 "오후",
 "위급",
@@ -359,6 +375,7 @@
 "재난문자",
 "전국",
 "종료",
+"종합2보",
 "직후",
 "처음",
 "추가"
@@ -5473,7 +5490,7 @@
 "terms": {
 "지진": {
 "n30": 7,
-"base": 3.3,
+"base": 3.2,
 "spike": false
 },
 "화재": {
@@ -5517,13 +5534,13 @@
 "spike": true
 },
 "지하철": {
-"n30": 1,
+"n30": 2,
 "base": 0.9,
 "spike": false
 },
 "사고": {
 "n30": 1,
-"base": 2.5,
+"base": 2.3,
 "spike": false
 },
 "실종": {
@@ -5553,6 +5570,16 @@
 }
 },
 "posts": [
+{
+"text": "내일부터 서울지하철 준법투쟁이구나",
+"handle": "darce.bsky.social",
+"name": "D’arce 🎗️",
+"time": "2026-11-19T06:13:22.440Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/darce.bsky.social/post/3n2ng563rs22k",
+"term": "지하철"
+},
 {
 "text": "아니 다 알려주고 보내는 문자가 효과가 있으려나 싶었는데 울리는 족족 걸리고 있다는 뉴스속보 보면서 이 모든 상황이 개웃김\n앞으로 수능도 이렇게 하죠? 하루종일 잼컨 무한공급되고 있는데",
 "handle": "tipsyoncola.bsky.social",
@@ -5810,29 +5837,29 @@
 "n30": 5,
 "base": 0.3,
 "spike": true,
-"since": "2026-11-19T06:11:20.820263+00:00"
+"since": "2026-11-19T06:13:35.079090+00:00"
 },
 {
 "term": "속보",
 "n30": 7,
 "base": 1.2,
 "spike": true,
-"since": "2026-11-19T06:11:20.820263+00:00"
+"since": "2026-11-19T06:13:35.079090+00:00"
 }
 ],
 "baseline": {
-"지진": 3.23,
+"지진": 3.21,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.3,
+"폭발": 0.27,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 1.25,
-"지하철": 0.95,
-"사고": 2.31,
-"실종": 0.14,
+"속보": 1.32,
+"지하철": 1.05,
+"사고": 2.18,
+"실종": 0.13,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -6025,6 +6052,24 @@
 },
 "trends": [
 {
+"term": "리트 만점자 천호동",
+"traffic": "100000+",
+"time": "2026-11-19T05:10:00+00:00",
+"news": [
+{
+"title": "[단독] ’리트 만점자’ 이진우 유서 추정 메모 발견…부정행위 인정·사과는 없어",
+"source": "연합뉴스TV",
+"link": "https://www.yonhapnewstv.co.kr/news/AKR202611191410192QN"
+},
+{
+"title": "리트 만점자 발견된 모텔서 ‘5줄 글’ 발견…수사 관련 언급은 없어",
+"source": "JTBC",
+"link": "https://news.jtbc.co.kr/article/NB12328841"
+}
+],
+"new": true
+},
+{
 "term": "의장대",
 "traffic": "100+",
 "time": "2026-11-19T05:00:00+00:00",
@@ -6138,14 +6183,14 @@
 "time": "2026-11-19T04:10:00+00:00",
 "news": [
 {
-"title": "하남 아파트 헌옷수거함에 숨진 아기 버린 30대 친모 체포",
-"source": "경기일보",
-"link": "https://www.kyeonggi.com/article/20261119580003"
-},
-{
 "title": "[단독]하남시 아파트 헌옷수거함에서 신생아 시신 발견···경찰 수사",
 "source": "경향신문",
 "link": "https://www.khan.co.kr/article/202611181856001"
+},
+{
+"title": "하남 아파트 헌옷수거함에 숨진 아기 버린 30대 친모 체포",
+"source": "경기일보",
+"link": "https://www.kyeonggi.com/article/20261119580003"
 }
 ],
 "new": false
@@ -6170,7 +6215,7 @@
 },
 {
 "term": "내란죄",
-"traffic": "200+",
+"traffic": "500+",
 "time": "2026-11-19T04:10:00+00:00",
 "news": [
 {
@@ -6182,24 +6227,6 @@
 "title": "김건희·한덕수 '운명의 날'...YTN 선고 생중계",
 "source": "YTN",
 "link": "https://www.ytn.co.kr/_ln/0103_202611191426420609"
-}
-],
-"new": true
-},
-{
-"term": "박찬종",
-"traffic": "2000+",
-"time": "2026-11-19T03:20:00+00:00",
-"news": [
-{
-"title": "‘14대 대선 후보’ 지낸 5선 박찬종 前의원 별세…조문 없이 시신 기증",
-"source": "동아일보",
-"link": "https://www.donga.com/news/Politics/article/all/20261119/135053704/1"
-},
-{
-"title": "'무균질 정치인' 박찬종 별세, 향년 87세…세브란스병원에 시신 기증 - 머니투데이",
-"source": "머니투데이",
-"link": "https://www.mt.co.kr/politics/2026/11/19/2026111913504123181"
 }
 ],
 "new": true
