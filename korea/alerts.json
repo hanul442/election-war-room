@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-19T18:50:29.594078+00:00",
+"updated": "2026-11-19T18:52:44.670374+00:00",
 "errors": [],
 "events": [
 {
@@ -4744,7 +4744,7 @@
 "sns": {
 "terms": {
 "지진": {
-"n30": 0,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
@@ -4759,12 +4759,12 @@
 "spike": false
 },
 "정전": {
-"n30": 0,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
 "폭발": {
-"n30": 11,
+"n30": 10,
 "base": 0.1,
 "spike": true
 },
@@ -4825,6 +4825,26 @@
 }
 },
 "posts": [
+{
+"text": "뭐\n무ㅜ야?\n뭐지?\n벼락?\n정전?",
+"handle": "celuli.bsky.social",
+"name": "변경의 세루리.@흡혈귀 저택",
+"time": "2026-11-19T18:51:14.849Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/celuli.bsky.social/post/3n2oqie4ejk2f",
+"term": "정전"
+},
+{
+"text": "【지진 정보】일본 시간 11월 20일 03:43경\n진원: Joetsu, Niigata Prefecture (M2.4, 깊이 약 20km)\n최대 진도: 2\n진도 2: 니가타현\n이 지진으로 인한 쓰나미 걱정은 없습니다.\n(일본 기상청 발표)\n#일본 #지진 #방재",
+"handle": "ko.soramoyou.yk-planning.jp",
+"name": "Soramoyou 한국어",
+"time": "2026-11-19T18:50:33.352Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/ko.soramoyou.yk-planning.jp/post/3n2oqh5bkai26",
+"term": "지진"
+},
 {
 "platform": "YouTube",
 "text": "왜 이제 샀을까! 후기 폭발 그릴 팬 삼겹살불판 꿀조합: 대형·불판새로나·새로나불판 총정리",
@@ -5054,24 +5074,24 @@
 "spikes": [
 {
 "term": "폭발",
-"n30": 11,
+"n30": 10,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-19T18:50:29.594078+00:00"
+"since": "2026-11-19T18:52:44.670374+00:00"
 },
 {
 "term": "속보",
 "n30": 7,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-19T18:50:29.594078+00:00"
+"since": "2026-11-19T18:52:44.670374+00:00"
 }
 ],
 "baseline": {
-"지진": 0.05,
+"지진": 0.15,
 "화재": 0.05,
 "불났": 0.05,
-"정전": 0.05,
+"정전": 0.15,
 "폭발": 0.05,
 "붕괴": 0.05,
 "대피": 0.05,
@@ -5453,9 +5473,9 @@
 "link": "https://m.joongdo.co.kr/view.php?key=20261118010006399"
 },
 {
-"title": "호남대 앵커사업단, ‘2026 호남 e스포츠 시리즈’ 성료",
+"title": "호남대 e스포츠산업학과, 초등생 e스포츠 진로체험 교육 성료",
 "source": "톡톡뉴스",
-"link": "http://m.newstoktok.com/article.php?aid=27184892173"
+"link": "http://newstoktok.com/article.php?aid=27315247155"
 }
 ],
 "new": false
