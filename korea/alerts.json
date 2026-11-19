@@ -1,12 +1,12 @@
 {
-"updated": "2026-11-19T10:23:05.452832+00:00",
+"updated": "2026-11-19T10:25:22.828088+00:00",
 "errors": [],
 "events": [
 {
 "id": "wNISX20261119_00038757791000",
 "first": "2026-11-19T10:00:00+00:00",
 "last": "2026-11-19T10:21:29+00:00",
-"updated": "2026-11-19T10:23:05.452832+00:00",
+"updated": "2026-11-19T10:25:22.828088+00:00",
 "headline": "교육부 \"수능 부정행위자 98명…스마트기기 활용 5건 확인\"",
 "cat": "기타",
 "regions": [
@@ -24,6 +24,7 @@
 "뉴스핌",
 "뉴시스",
 "스페셜타임스",
+"아시아투데이",
 "아주경제",
 "연합뉴스",
 "연합뉴스TV",
@@ -31,6 +32,7 @@
 "조선일보",
 "천지일보",
 "파이낸셜뉴스",
+"프레시안",
 "한국경제",
 "한국대학신문",
 "헤럴드경제"
@@ -62,6 +64,13 @@
 "source": "조선일보",
 "link": "https://www.chosun.com/national/education/2026/11/19/AZNE5JFHYBHP3FJTTT4PY4CCQI/",
 "time": "2026-11-19T10:00:44+00:00",
+"stage": "속보"
+},
+{
+"title": "[속보] 수능 부정행위 98명 적발, AI부정행위 5명…교육부, 엄중처벌",
+"source": "아시아투데이",
+"link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBETnBBeFVmblh5eEdNWGpraHZXd0NLUEJFVnJXY0FVRWQtZ1V4NHRaaXdMaGMwUWMwZmdELTRPRnhYa3EyUjFLbjUtNXdVN09kZ04wQXVfRmFUcUJVVG5PNkxIUkJzRFJZOFd4U3hn?oc=5",
+"time": "2026-11-19T10:00:46+00:00",
 "stage": "속보"
 },
 {
@@ -219,6 +228,13 @@
 "stage": "후속"
 },
 {
+"title": "[속보] 전날 경고에도…수능서 부정행위자 총 98명 적발",
+"source": "프레시안",
+"link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1QVlF4Mnc0MU54MmNzcV9HcXU4S0U3UUdkMUVrUVNFQlpaUzgzMmFsNThXbExLT2lTODlzZEUyZDRTVmI5dEpmbTZUTVRFUkI4OEF6Wkc0VEpfMVhNYzdzOE1lMWpMZDBGd25nQXVDYXBPWUpvWVR4V3c1ekhMODQ?oc=5",
+"time": "2026-11-19T10:17:23+00:00",
+"stage": "속보"
+},
+{
 "title": "[속보] 교육부 “수능 부정행위자 98명 적발, ‘스마트기기 활용’에 더 엄중한 책임 물을 것”",
 "source": "국제신문",
 "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPRXFrXzZEMkg1MDBuLXVCOHBxT3hFeFprc2NYX1VIWTRLSVNiZ0JWeDEtZnlUenVkSkdycTJJa1U5V1FxQzdmcXVkbXVnZW9FaGNhaGI3czNPUFRXUUpIZGFOOE1tYkczVTVIdlFEazlaRnRYTWNHejdvR3hOQ0N4UTRheVlzMWtPNXpsN2Z3?oc=5",
@@ -244,9 +260,12 @@
 "49명",
 "4교시까지",
 "5건",
+"5명",
 "98건",
 "98명",
 "AI",
+"AI부정행위",
+"경고에",
 "경남서",
 "교욱부",
 "교육부",
@@ -270,12 +289,9 @@
 "시험장서",
 "시험중",
 "안경",
+"엄중처벌",
 "엄중한",
-"위급재난문자",
-"위급재난문자로",
-"인원",
-"일반사례",
-"잡았다"
+"위급재난문자"
 ]
 },
 {
@@ -5133,7 +5149,7 @@
 "terms": {
 "지진": {
 "n30": 1,
-"base": 1.0,
+"base": 0.9,
 "spike": false
 },
 "화재": {
@@ -5152,9 +5168,9 @@
 "spike": false
 },
 "폭발": {
-"n30": 5,
-"base": 1.4,
-"spike": true
+"n30": 4,
+"base": 1.5,
+"spike": false
 },
 "붕괴": {
 "n30": 3,
@@ -5178,12 +5194,12 @@
 },
 "지하철": {
 "n30": 2,
-"base": 2.0,
+"base": 1.9,
 "spike": false
 },
 "사고": {
 "n30": 3,
-"base": 3.6,
+"base": 3.5,
 "spike": false
 },
 "실종": {
@@ -5392,8 +5408,8 @@
 "handle": "zasoza.bsky.social",
 "name": "(양짱)재소자",
 "time": "2026-11-19T09:58:22.246Z",
-"likes": 9,
-"reposts": 0,
+"likes": 11,
+"reposts": 1,
 "url": "https://bsky.app/profile/zasoza.bsky.social/post/3n2nspf4ikc2q",
 "term": "지하철"
 },
@@ -5408,16 +5424,6 @@
 "term": "폭발"
 },
 {
-"text": "아니면 걍 의안 빼고 안대를 착용하는건 어때\n장발드레드+안대+뿔 조합으로 간지가 폭발해나가는 대공님 좋잖음....",
-"handle": "jjaso-game.bsky.social",
-"name": "짜소🎮",
-"time": "2026-11-19T09:53:50.352Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/jjaso-game.bsky.social/post/3n2nsherihc2m",
-"term": "폭발"
-},
-{
 "platform": "YouTube",
 "text": "[속보] AI 커닝 우려 현실로?…수능장 초소형 카메라·이어폰 발견 [이슈PLAY] /JTBC News",
 "handle": "UCsU-I-vHLiaMfV_ceaYz5rQ",
@@ -5429,32 +5435,25 @@
 ],
 "spikes": [
 {
-"term": "폭발",
-"n30": 5,
-"base": 1.4,
-"spike": true,
-"since": "2026-11-19T10:23:05.452832+00:00"
-},
-{
 "term": "속보",
 "n30": 8,
 "base": 0.8,
 "spike": true,
-"since": "2026-11-19T10:23:05.452832+00:00"
+"since": "2026-11-19T10:25:22.828088+00:00"
 }
 ],
 "baseline": {
-"지진": 0.86,
+"지진": 0.77,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 1.48,
+"폭발": 1.43,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.82,
-"지하철": 1.89,
-"사고": 3.55,
+"속보": 0.84,
+"지하철": 1.8,
+"사고": 3.5,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -5621,6 +5620,24 @@
 },
 "trends": [
 {
+"term": "국어 시험지",
+"traffic": "500+",
+"time": "2026-11-19T09:20:00+00:00",
+"news": [
+{
+"title": "“수능 국영수 풀어라” AI 명령하니…챗GPT 10분도 안돼 만점 [팩플]",
+"source": "중앙일보",
+"link": "https://www.joongang.co.kr/article/25480229"
+},
+{
+"title": "\"이게 오늘 수능 국어야, 풀어봐\" 시켰더니…AI, 2분 만에 100점",
+"source": "JTBC",
+"link": "https://news.jtbc.co.kr/article/NB12328837"
+}
+],
+"new": true
+},
+{
 "term": "셀트리온",
 "traffic": "200+",
 "time": "2026-11-19T09:00:00+00:00",
@@ -5711,6 +5728,24 @@
 "new": true
 },
 {
+"term": "시험장",
+"traffic": "1000+",
+"time": "2026-11-19T07:50:00+00:00",
+"news": [
+{
+"title": "따뜻한 응원 속 수험생들 입실...경찰·소방 구조도",
+"source": "YTN 사이언스",
+"link": "https://science.ytn.co.kr/program/program_view.php?s_mcd=0082&key=202611191600559677&s_hcd="
+},
+{
+"title": "[수능] 전북소방본부, 건강 이상 수험생 52명 현장 응급처치",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261119167400055"
+}
+],
+"new": true
+},
+{
 "term": "수능 답지",
 "traffic": "50000+",
 "time": "2026-11-19T07:40:00+00:00",
@@ -5760,42 +5795,6 @@
 "title": "유아인 마약에 3년 기다렸는데... 라미란, 고경표 음주운전에 차기작 날벼락",
 "source": "조선일보",
 "link": "https://www.chosun.com/entertainments/broadcast/2026/11/18/MVRTEMZXMQZGMZTFGQ2GMOJWGU/"
-}
-],
-"new": true
-},
-{
-"term": "이병철",
-"traffic": "100+",
-"time": "2026-11-19T07:10:00+00:00",
-"news": [
-{
-"title": "이병철 창업 회장 39주기, 범삼성가 선영 참배",
-"source": "동아일보",
-"link": "https://www.donga.com/news/Economy/article/all/20261119/135054236/1"
-},
-{
-"title": "이병철 삼성 창업회장 39주기… 범삼성家 용인서 추도식",
-"source": "조선일보",
-"link": "https://www.chosun.com/economy/industry-company/2026/11/19/MTYMXXQ5DVEJDOUZDPRMHKWE2Q/"
-}
-],
-"new": true
-},
-{
-"term": "lg 임원인사",
-"traffic": "500+",
-"time": "2026-11-19T07:10:00+00:00",
-"news": [
-{
-"title": "LG, CEO 대부분 유임 속 임원 승진 35% 늘려…미래 기술 인재 발탁",
-"source": "조선일보",
-"link": "https://www.chosun.com/economy/industry-company/2026/11/19/UPFYN7S6RRFNREBAPODNAH3QWY/"
-},
-{
-"title": "이상우 LG전자 MS사업본부장 겸 디스플레이사업부장",
-"source": "마켓인",
-"link": "https://marketin.edaily.co.kr/News/ReadE?newsId=04198406645647360"
 }
 ],
 "new": true
