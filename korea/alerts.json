@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-19T04:22:00.488272+00:00",
+"updated": "2026-11-19T04:24:16.047354+00:00",
 "errors": [],
 "events": [
 {
@@ -3893,7 +3893,7 @@
 },
 "대피": {
 "n30": 1,
-"base": 0.4,
+"base": 0.5,
 "spike": false
 },
 "미사일": {
@@ -3903,13 +3903,13 @@
 },
 "속보": {
 "n30": 4,
-"base": 0.3,
+"base": 0.2,
 "spike": false
 },
 "지하철": {
-"n30": 4,
+"n30": 5,
 "base": 1.6,
-"spike": false
+"spike": true
 },
 "사고": {
 "n30": 4,
@@ -3917,8 +3917,8 @@
 "spike": false
 },
 "실종": {
-"n30": 1,
-"base": 1.8,
+"n30": 2,
+"base": 1.7,
 "spike": false
 },
 "단수": {
@@ -3944,12 +3944,32 @@
 },
 "posts": [
 {
+"text": "….. 음 그래 어쩐지 실종이래서 이럴거 같더라",
+"handle": "huoguoparty.bsky.social",
+"name": "🎃🍠훠박고곰아🍎🌽",
+"time": "2026-11-19T04:23:27.744Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/huoguoparty.bsky.social/post/3n2n7ynlec22b",
+"term": "실종"
+},
+{
+"text": "아 지하철은 아니도 걍 철도\n암튼 뭐라도 있으면 다행임",
+"handle": "mmuuv00.bsky.social",
+"name": "뭅",
+"time": "2026-11-19T04:22:17.044Z",
+"likes": 1,
+"reposts": 0,
+"url": "https://bsky.app/profile/mmuuv00.bsky.social/post/3n2n7wj5suc2d",
+"term": "지하철"
+},
+{
 "text": "[COP31, 정치와 삶 사이①] 국내 재난에 무책임했던 정부가 국제 협상에서 책임을 다할까\nwww.khan.co.kr/article/2026...\n\n\"현지 단체들은 산불 피해 주민들의 지원 요구에 제대로 응답하지 않았던 정부가 국제사회에서 확보한 재원을 주민들을 위해 사용할 수 있을지 의문을 제기한다. 활동가들은 정부의 대책이 현실과 동떨어져 있다며 COP의 재원이 정부가 아닌 사람들에게 ",
 "handle": "boknews.bsky.social",
 "name": "복설 뉴스",
 "time": "2026-11-19T04:21:38.544Z",
-"likes": 0,
-"reposts": 0,
+"likes": 1,
+"reposts": 1,
 "url": "https://bsky.app/profile/boknews.bsky.social/post/3n2n7vdcm3227",
 "term": "산불"
 },
@@ -4259,26 +4279,33 @@
 "n30": 5,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-19T04:22:00.488272+00:00"
+"since": "2026-11-19T04:24:16.047354+00:00"
+},
+{
+"term": "지하철",
+"n30": 5,
+"base": 1.6,
+"spike": true,
+"since": "2026-11-19T04:24:16.047354+00:00"
 }
 ],
 "baseline": {
-"지진": 0.21,
+"지진": 0.19,
 "화재": 0.05,
 "불났": 0.05,
-"정전": 1.19,
+"정전": 1.17,
 "폭발": 0.05,
-"붕괴": 0.6,
-"대피": 0.45,
-"미사일": 0.71,
-"속보": 0.24,
-"지하철": 1.62,
-"사고": 3.65,
-"실종": 1.74,
-"단수": 0.08,
+"붕괴": 0.64,
+"대피": 0.51,
+"미사일": 0.74,
+"속보": 0.22,
+"지하철": 1.76,
+"사고": 3.69,
+"실종": 1.77,
+"단수": 0.07,
 "통신 장애": 0.05,
 "먹통": 0.05,
-"산불": 0.15
+"산불": 0.24
 },
 "errors": [],
 "ytPosts": [
@@ -4476,6 +4503,24 @@
 },
 "trends": [
 {
+"term": "박찬종",
+"traffic": "200+",
+"time": "2026-11-19T03:20:00+00:00",
+"news": [
+{
+"title": "박찬종 전 의원 별세…세브란스병원에 주검 기증",
+"source": "한겨레",
+"link": "https://www.hani.co.kr/arti/politics/assembly/1288101.html"
+},
+{
+"title": "'14대 대선출마' 박찬종 前의원 별세…생전 약속대로 시신기증",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261119083700001"
+}
+],
+"new": true
+},
+{
 "term": "전국삼성전자노동조합",
 "traffic": "200+",
 "time": "2026-11-19T03:10:00+00:00",
@@ -4622,24 +4667,6 @@
 "title": "‘집행유예 중 음주운전’ 위너 남태현, 항소심도 징역...법정구속",
 "source": "조선일보",
 "link": "https://www.chosun.com/national/national_general/2026/11/19/U3C7ITUVGVGSHJDOHMQ7ZRQVNI/"
-}
-],
-"new": true
-},
-{
-"term": "전역",
-"traffic": "2000+",
-"time": "2026-11-19T01:20:00+00:00",
-"news": [
-{
-"title": "군 떠나는 간부 줄었다…육군 희망전역 작년보다 17％ 감소",
-"source": "KBS 뉴스",
-"link": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8716929"
-},
-{
-"title": "떠나던 부사관 붙잡았다…육군 희망전역 5년 만에 첫 감소",
-"source": "헤럴드경제",
-"link": "https://biz.heraldcorp.com/article/10942043"
 }
 ],
 "new": true
