@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-19T13:01:52.938678+00:00",
+"updated": "2026-11-19T13:04:09.272579+00:00",
 "errors": [],
 "events": [
 {
@@ -5867,8 +5867,8 @@
 "spike": true
 },
 "붕괴": {
-"n30": 3,
-"base": 0.4,
+"n30": 2,
+"base": 0.5,
 "spike": false
 },
 "대피": {
@@ -5877,7 +5877,7 @@
 "spike": false
 },
 "미사일": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -5893,7 +5893,7 @@
 },
 "사고": {
 "n30": 2,
-"base": 1.6,
+"base": 1.7,
 "spike": false
 },
 "실종": {
@@ -5918,7 +5918,7 @@
 },
 "산불": {
 "n30": 1,
-"base": 0.2,
+"base": 0.3,
 "spike": false
 }
 },
@@ -5968,7 +5968,7 @@
 "name": "[랜선효도] 제주감귤🍊",
 "time": "2026-11-19T12:56:03.754Z",
 "likes": 1,
-"reposts": 1,
+"reposts": 2,
 "url": "https://bsky.app/profile/jejuorange.bsky.social/post/3n2o4n5fqoc2u",
 "term": "산불"
 },
@@ -6189,33 +6189,33 @@
 "n30": 6,
 "base": 0.4,
 "spike": true,
-"since": "2026-11-19T13:01:52.938678+00:00"
+"since": "2026-11-19T13:04:09.272579+00:00"
 },
 {
 "term": "속보",
 "n30": 6,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-19T13:01:52.938678+00:00"
+"since": "2026-11-19T13:04:09.272579+00:00"
 }
 ],
 "baseline": {
-"지진": 2.13,
-"화재": 0.07,
+"지진": 2.12,
+"화재": 0.06,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.36,
-"붕괴": 0.49,
+"폭발": 0.32,
+"붕괴": 0.54,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.12,
-"사고": 1.66,
-"실종": 0.51,
+"지하철": 0.11,
+"사고": 1.69,
+"실종": 0.56,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
-"산불": 0.32
+"산불": 0.39
 },
 "errors": [],
 "ytPosts": [
@@ -6414,7 +6414,7 @@
 "trends": [
 {
 "term": "하나로마트",
-"traffic": "100+",
+"traffic": "200+",
 "time": "2026-11-19T11:50:00+00:00",
 "news": [
 {
@@ -6431,19 +6431,37 @@
 "new": false
 },
 {
+"term": "thời tiết ngày mai",
+"traffic": "5000+",
+"time": "2026-11-19T11:40:00+00:00",
+"news": [
+{
+"title": "Không khí lạnh tăng cường, dự báo khu vực có mưa rất to trên 250mm",
+"source": "Laodong.vn",
+"link": "https://laodong.vn/video/khong-khi-lanh-tang-cuong-du-bao-khu-vuc-co-mua-rat-to-tren-250mm-1803318.ldo"
+},
+{
+"title": "Thời tiết đêm 19 ngày 20-11: Không khí lạnh tăng cường, Bắc Bộ rét đậm, Trung Bộ chuyển lạnh",
+"source": "Báo Tuổi Trẻ",
+"link": "https://tuoitre.vn/video/thoi-tiet-dem-19-ngay-20-11-khong-khi-lanh-tang-cuong-bac-bo-ret-dam-trung-bo-chuyen-lanh-204531.htm"
+}
+],
+"new": true
+},
+{
 "term": "cuaca besok",
 "traffic": "500+",
 "time": "2026-11-19T11:40:00+00:00",
 "news": [
 {
-"title": "BMKG: Cuaca Jakarta Besok, Hujan Ringan Berpotensi Turun di 6 Wilayah",
-"source": "Kompas.com",
-"link": "https://megapolitan.kompas.com/read/2026/11/19/18184651/bmkg-cuaca-jakarta-besok-hujan-ringan-berpotensi-turun-di-6-wilayah"
+"title": "BMKG Peringatkan Hujan Lebat di 19 Wilayah, Cek Daftarnya!",
+"source": "detikNews",
+"link": "https://news.detik.com/berita/d-8759247/bmkg-peringatkan-hujan-lebat-di-19-wilayah-cek-daftarnya"
 },
 {
-"title": "Hari Ini Jakarta Diprediksi Hujan Ringan Hingga Petir",
-"source": "TVRI News",
-"link": "https://metropolitan.tvrinews.com/berita/tk5la8m-hari-ini-jakarta-diprediksi-hujan-ringan-hingga-petir"
+"title": "Prakiraan Cuaca Ibu Kota Provinsi Indonesia Hari Ini",
+"source": "CaraPandang",
+"link": "https://carapandang.com/news/read/prakiraan-cuaca-ibu-kota-provinsi-indonesia-hari-ini"
 }
 ],
 "new": true
@@ -6562,24 +6580,6 @@
 }
 ],
 "new": true
-},
-{
-"term": "한국수력원자력",
-"traffic": "200+",
-"time": "2026-11-19T10:30:00+00:00",
-"news": [
-{
-"title": "한수원, 동료가 동료 지키는 ‘마인드키퍼’ 출범",
-"source": "전기신문",
-"link": "https://www.electimes.com/news/articleView.html?idxno=375030"
-},
-{
-"title": "한수원, 발전소 동료가 지키는 마음건강 안전망…'마인드키퍼' 출범",
-"source": "전자신문",
-"link": "https://www.etnews.com/20261119000455"
-}
-],
-"new": false
 }
 ],
 "trendSeen": [
