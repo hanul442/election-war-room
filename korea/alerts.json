@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-19T00:44:04.730651+00:00",
+"updated": "2026-11-19T00:46:19.604810+00:00",
 "errors": [],
 "events": [
 {
@@ -4279,13 +4279,13 @@
 "spike": false
 },
 "폭발": {
-"n30": 6,
-"base": 0.1,
+"n30": 5,
+"base": 0.3,
 "spike": true
 },
 "붕괴": {
 "n30": 2,
-"base": 0.1,
+"base": 0.2,
 "spike": false
 },
 "대피": {
@@ -4300,22 +4300,22 @@
 },
 "속보": {
 "n30": 1,
-"base": 0.8,
+"base": 0.7,
 "spike": false
 },
 "지하철": {
-"n30": 3,
-"base": 3.5,
+"n30": 1,
+"base": 3.2,
 "spike": false
 },
 "사고": {
 "n30": 4,
-"base": 2.3,
+"base": 2.5,
 "spike": false
 },
 "실종": {
 "n30": 0,
-"base": 0.8,
+"base": 0.7,
 "spike": false
 },
 "단수": {
@@ -4345,7 +4345,7 @@
 "handle": "saemaeulcap.bsky.social",
 "name": "Subsistence",
 "time": "2026-11-19T00:43:08.751Z",
-"likes": 0,
+"likes": 1,
 "reposts": 0,
 "url": "https://bsky.app/profile/saemaeulcap.bsky.social/post/3n2mtonbbas2e",
 "term": "붕괴"
@@ -4365,7 +4365,7 @@
 "handle": "saemaeulcap.bsky.social",
 "name": "Subsistence",
 "time": "2026-11-19T00:42:04.250Z",
-"likes": 0,
+"likes": 1,
 "reposts": 0,
 "url": "https://bsky.app/profile/saemaeulcap.bsky.social/post/3n2mtmpvs722e",
 "term": "붕괴"
@@ -4375,7 +4375,7 @@
 "handle": "totovo95.bsky.social",
 "name": "K",
 "time": "2026-11-19T00:41:44.244Z",
-"likes": 0,
+"likes": 1,
 "reposts": 0,
 "url": "https://bsky.app/profile/totovo95.bsky.social/post/3n2mtm4potc2f",
 "term": "폭발"
@@ -4643,25 +4643,25 @@
 "spikes": [
 {
 "term": "폭발",
-"n30": 6,
-"base": 0.1,
+"n30": 5,
+"base": 0.3,
 "spike": true,
-"since": "2026-11-19T00:44:04.730651+00:00"
+"since": "2026-11-19T00:46:19.604810+00:00"
 }
 ],
 "baseline": {
-"지진": 1.06,
-"화재": 0.64,
+"지진": 1.05,
+"화재": 0.68,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.34,
-"붕괴": 0.25,
-"대피": 0.63,
-"미사일": 0.12,
-"속보": 0.68,
-"지하철": 3.22,
-"사고": 2.5,
-"실종": 0.69,
+"폭발": 0.51,
+"붕괴": 0.43,
+"대피": 0.67,
+"미사일": 0.11,
+"속보": 0.61,
+"지하철": 3.0,
+"사고": 2.65,
+"실종": 0.62,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
