@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-19T04:15:22.629580+00:00",
+"updated": "2026-11-19T04:17:34.062671+00:00",
 "errors": [],
 "events": [
 {
@@ -121,13 +121,14 @@
 {
 "id": "uX3V3V2NyRnJqY3FybGp3oc50404",
 "first": "2026-11-19T04:04:00+00:00",
-"last": "2026-11-19T04:04:00+00:00",
-"updated": "2026-11-19T04:15:22.629580+00:00",
+"last": "2026-11-19T04:04:52+00:00",
+"updated": "2026-11-19T04:17:34.062671+00:00",
 "headline": "리트 만점자, 천호동 모텔 옥상 올라가…에어매트 설치중",
 "cat": "기타",
 "regions": [],
 "sources": [
-"미주중앙일보"
+"미주중앙일보",
+"중앙일보"
 ],
 "updates": [
 {
@@ -136,6 +137,13 @@
 "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1TanhCYTNfTHE5aXlndjJhSF95NTZyTVNvcC1xV2xReFVtZjZvVEJhQlY5c1ExYTZILXgzNEUtcURuaWltUnR6ZTdNanhQb2NQajJuX3V3V2NyRnJqY3FybGp3?oc=5",
 "time": "2026-11-19T04:04:00+00:00",
 "stage": "얼럿"
+},
+{
+"title": "[속보] 리트 만점자, 천호동 모텔 옥상 올라가…에어매트 설치중",
+"source": "중앙일보",
+"link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE11eGVGbDZpXzZYQW9FdkxTUDhsM0VqeEdNSFV0NkhpZGg5Qk11c29Dc2lEaFUwa0JTNnJodnBvNEpyd1FoRFo3M3luWUJRenFEaFlodGpn?oc=5",
+"time": "2026-11-19T04:04:52+00:00",
+"stage": "속보"
 }
 ],
 "level": "URGENT",
@@ -3834,13 +3842,13 @@
 "spike": true
 },
 "붕괴": {
-"n30": 2,
+"n30": 1,
 "base": 0.4,
 "spike": false
 },
 "대피": {
 "n30": 1,
-"base": 0.1,
+"base": 0.2,
 "spike": false
 },
 "미사일": {
@@ -3849,23 +3857,23 @@
 "spike": false
 },
 "속보": {
-"n30": 5,
-"base": 0.4,
-"spike": true
+"n30": 4,
+"base": 0.3,
+"spike": false
 },
 "지하철": {
-"n30": 3,
+"n30": 4,
 "base": 1.5,
 "spike": false
 },
 "사고": {
-"n30": 5,
-"base": 3.2,
+"n30": 4,
+"base": 3.4,
 "spike": false
 },
 "실종": {
 "n30": 2,
-"base": 2.1,
+"base": 2.0,
 "spike": false
 },
 "단수": {
@@ -3890,6 +3898,16 @@
 }
 },
 "posts": [
+{
+"text": "속초까지 지하철 뚫는다는 소리 듣기는 했는데....그거라도 제발임",
+"handle": "mmuuv00.bsky.social",
+"name": "뭅",
+"time": "2026-11-19T04:16:15.549Z",
+"likes": 1,
+"reposts": 0,
+"url": "https://bsky.app/profile/mmuuv00.bsky.social/post/3n2n7lqrjh22x",
+"term": "지하철"
+},
 {
 "text": "대피해랏!!!",
 "handle": "dhdlsdb12.bsky.social",
@@ -4094,7 +4112,7 @@
 "name": "처음엔 멍머미란개",
 "time": "2026-11-19T03:50:07.649Z",
 "likes": 4,
-"reposts": 8,
+"reposts": 9,
 "url": "https://bsky.app/profile/retriever0-0.bsky.social/post/3n2n64z2l6s2h",
 "term": "사고"
 },
@@ -4186,30 +4204,23 @@
 "n30": 5,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-19T04:15:22.629580+00:00"
-},
-{
-"term": "속보",
-"n30": 5,
-"base": 0.4,
-"spike": true,
-"since": "2026-11-19T04:15:22.629580+00:00"
+"since": "2026-11-19T04:17:34.062671+00:00"
 }
 ],
 "baseline": {
-"지진": 0.29,
+"지진": 0.26,
 "화재": 0.05,
 "불났": 0.05,
-"정전": 1.26,
+"정전": 1.23,
 "폭발": 0.05,
-"붕괴": 0.44,
-"대피": 0.24,
-"미사일": 0.6,
-"속보": 0.33,
-"지하철": 1.48,
-"사고": 3.39,
-"실종": 2.01,
-"단수": 0.11,
+"붕괴": 0.5,
+"대피": 0.32,
+"미사일": 0.64,
+"속보": 0.3,
+"지하철": 1.53,
+"사고": 3.45,
+"실종": 1.91,
+"단수": 0.1,
 "통신 장애": 0.05,
 "먹통": 0.05,
 "산불": 0.05
@@ -4438,9 +4449,9 @@
 "link": "https://www.etnews.com/20261118000364"
 },
 {
-"title": "지문없이 문제만 보여줬는데도…AI, 수능 문제 다 맞혀냈다",
-"source": "헤럴드경제 미주판",
-"link": "https://www.heraldk.com/article/2026111718270877030"
+"title": "수능 국어 만점, 2024년 64명→2026년 261명 급증…AI 부정행위 의혹 소환?",
+"source": "에듀프레스",
+"link": "https://www.edupress.kr/news/articleView.html?idxno=30632"
 }
 ],
 "new": true
