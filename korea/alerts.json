@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-19T00:12:28.640501+00:00",
+"updated": "2026-11-19T00:14:41.029992+00:00",
 "errors": [],
 "events": [
 {
@@ -486,7 +486,7 @@
 "id": "KN1RPUzh2YktkZ1V2RGt3oc52305",
 "first": "2026-11-18T23:05:13+00:00",
 "last": "2026-11-19T00:03:34+00:00",
-"updated": "2026-11-19T00:12:28.640501+00:00",
+"updated": "2026-11-19T00:14:41.029992+00:00",
 "headline": "‘LEET 만점자’ 이진우, 수능 생중계 검증 현장에 아직 안 나타나",
 "cat": "기타",
 "regions": [
@@ -502,6 +502,7 @@
 "문화일보",
 "미주중앙일보",
 "부산일보",
+"서울신문",
 "스타뉴스",
 "스포츠경향",
 "시사저널",
@@ -566,6 +567,13 @@
 "source": "인사이트",
 "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1wcUNXSFNoSVE1ZlpPcXRxRnNJb1AtbkpkUlR0YU9XX2o0Nnp6TjB1LXVkYUR1YVNxbzk5Rm1sMHBzQlN3enozSm84dmc4Zw?oc=5",
 "time": "2026-11-18T23:40:49+00:00",
+"stage": "속보"
+},
+{
+"title": "[속보] ‘리트 만점’ 이진우씨 잠적… 공개 검증 무산",
+"source": "서울신문",
+"link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9BSGc1M0ZLMWNHWHJwYWNNYUthc3lqMjVFMEZSVHZvNXAzaGtCLWg5VDZZUFpyaWRIR19MeGdGaEdCY1d3RnBWNHZxc2k2R0VVMjhVeXRwbFRCbkRXSlJWelV5UmVLb3lhdW1QNUVmWVA1V0psdDdMc2xGaw?oc=5",
+"time": "2026-11-18T23:41:18+00:00",
 "stage": "속보"
 },
 {
@@ -4649,7 +4657,7 @@
 "terms": {
 "지진": {
 "n30": 2,
-"base": 1.2,
+"base": 1.3,
 "spike": false
 },
 "화재": {
@@ -4679,32 +4687,32 @@
 },
 "대피": {
 "n30": 0,
-"base": 1.0,
+"base": 0.9,
 "spike": false
 },
 "미사일": {
 "n30": 0,
-"base": 0.6,
+"base": 0.5,
 "spike": false
 },
 "속보": {
-"n30": 6,
-"base": 2.2,
+"n30": 3,
+"base": 2.3,
 "spike": false
 },
 "지하철": {
-"n30": 7,
-"base": 9.1,
+"n30": 6,
+"base": 8.8,
 "spike": false
 },
 "사고": {
-"n30": 2,
+"n30": 1,
 "base": 2.6,
 "spike": false
 },
 "실종": {
 "n30": 1,
-"base": 0.4,
+"base": 0.5,
 "spike": false
 },
 "단수": {
@@ -4855,26 +4863,6 @@
 "time": "2026-11-18T23:46:20Z",
 "term": "지하철",
 "url": "https://www.youtube.com/watch?v=fiGzqzEtrVI"
-},
-{
-"text": "이딴게 속보? 이거야말로 싱벙갤 핫토픽깜 아니냐 ㅡㅡ",
-"handle": "celuli.bsky.social",
-"name": "변경의 세루리.@흡혈귀 저택",
-"time": "2026-11-18T23:44:37.441Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/celuli.bsky.social/post/3n2mqfzue222f",
-"term": "속보"
-},
-{
-"text": "기록을 안 보고 하는 말이긴 하지만, 그런 식으로 일을 하다보니 환경단체의 공포 전략에 국토부가 대응을 제대로 못한 것 아닐까 싶기도. 게다가 제주항공 사고로, 버드스트라이크가 발생했을 때 국토부가 그 위험을 잘 통제할 능력이 없다는 강한 의심도 생긴 상태. (아직 사고조사보고서는 안 나온 상태이지만)",
-"handle": "ainomsg.bsky.social",
-"name": "달빛은 사랑의 메시지",
-"time": "2026-11-18T23:43:11.443Z",
-"likes": 0,
-"reposts": 1,
-"url": "https://bsky.app/profile/ainomsg.bsky.social/post/3n2mqdhjz7k2f",
-"term": "사고"
 },
 {
 "platform": "YouTube",
@@ -5059,18 +5047,18 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 1.3,
+"지진": 1.37,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
 "폭발": 0.05,
 "붕괴": 0.05,
-"대피": 0.94,
-"미사일": 0.5,
-"속보": 2.3,
-"지하철": 8.81,
-"사고": 2.56,
-"실종": 0.47,
+"대피": 0.85,
+"미사일": 0.45,
+"속보": 2.27,
+"지하철": 8.43,
+"사고": 2.4,
+"실종": 0.52,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -5290,6 +5278,60 @@
 },
 "trends": [
 {
+"term": "관광",
+"traffic": "5000+",
+"time": "2026-11-18T23:10:00+00:00",
+"news": [
+{
+"title": "(11월 20일~22일) 역대 최대 규모 ‘2026 대한민국 관광기념품 박람회’ 개최! : 네이버 블로그",
+"source": "Naver Blog",
+"link": "https://blog.naver.com/PostView.naver?blogId=mcstkorea&logNo=224481901157&redirect=Dlog"
+},
+{
+"title": "한국 상징하는 K굿즈 한자리에…'역대급' 규모로 찾아온다 - 머니투데이",
+"source": "머니투데이",
+"link": "https://www.mt.co.kr/culture/2026/11/18/2026111812000182421"
+}
+],
+"new": true
+},
+{
+"term": "리트",
+"traffic": "5000+",
+"time": "2026-11-18T23:10:00+00:00",
+"news": [
+{
+"title": "[속보] ‘리트 만점자’ 이진우씨, 공개 검증장 약속 시간에 안 나타나",
+"source": "조선일보",
+"link": "https://www.chosun.com/national/incident/2026/11/19/NJ42GV6P2ZENFACW4VOA4OLMB4/"
+},
+{
+"title": "[속보] ‘리트만점자’ 이진우, 약속 시간에 안 나타나…\"어제부터 연락 안 돼\"",
+"source": "JTBC",
+"link": "https://news.jtbc.co.kr/article/NB12328782"
+}
+],
+"new": true
+},
+{
+"term": "2027 수능",
+"traffic": "500+",
+"time": "2026-11-18T23:10:00+00:00",
+"news": [
+{
+"title": "2027학년도 대학수학능력시험 시작…출제 경향 주목",
+"source": "YTN",
+"link": "https://www.ytn.co.kr/replay/view.php?idx=21&key=202611190842561960"
+},
+{
+"title": "[수능] \"AI 커닝 대책 스트레스도 받지만 모든 것 쏟아부을 것\"",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261119029000064"
+}
+],
+"new": true
+},
+{
 "term": "제미나이 네온",
 "traffic": "200+",
 "time": "2026-11-18T22:50:00+00:00",
@@ -5308,19 +5350,37 @@
 "new": true
 },
 {
-"term": "leet 시험",
-"traffic": "2000+",
+"term": "수능일",
+"traffic": "1000+",
 "time": "2026-11-18T22:50:00+00:00",
 "news": [
 {
-"title": "[속보] ‘리트 만점자’ 이진우씨, 공개 검증장 약속 시간에 안 나타나",
-"source": "조선일보",
-"link": "https://www.chosun.com/national/incident/2026/11/19/NJ42GV6P2ZENFACW4VOA4OLMB4/"
+"title": "“10시까지 출근 아니었어요?”…대기업 직장인이 수능날 지각한 까닭",
+"source": "매일경제",
+"link": "https://www.mk.co.kr/news/business/12213210"
 },
 {
-"title": "[속보] ‘리트만점자’ 이진우, 약속 시간에 안 나타나…\"어제부터 연락 안 돼\"",
-"source": "JTBC",
-"link": "https://news.jtbc.co.kr/article/NB12328782"
+"title": "오늘 수능시험으로 증시 1시간 늦게 개장",
+"source": "KBS 뉴스",
+"link": "https://news.kbs.co.kr/news/view.do?ncd=8716754"
+}
+],
+"new": true
+},
+{
+"term": "nz vs ind",
+"traffic": "500+",
+"time": "2026-11-18T22:40:00+00:00",
+"news": [
+{
+"title": "In windy Wellington, India begin new era with history and form against them",
+"source": "Cricinfo",
+"link": "https://www.cricinfo.com/series/india-in-new-zealand-2026-27-1539421/new-zealand-vs-india-1st-test-1539442/match-preview"
+},
+{
+"title": "New Zealand vs India: Gill wins toss to bowl first at Basin Reserve",
+"source": "Sport Nation",
+"link": "https://sportnation.nz/article/blackcaps-vs-india-gill-wins-toss-to-bowl-first-at-basin-reserve"
 }
 ],
 "new": true
@@ -5349,32 +5409,14 @@
 "time": "2026-11-18T22:30:00+00:00",
 "news": [
 {
-"title": "‘Nothing I can do about it’: North Country woman made most of FAA ground stop",
-"source": "WWNY",
-"link": "https://www.wwnytv.com/2026/11/17/nothing-i-can-do-about-it-north-country-woman-made-most-faa-ground-stop/"
+"title": "Watch: Widespread flooding in South Florida after heavy rainfall",
+"source": "BBC",
+"link": "https://www.bbc.com/news/videos/crgj3205jv98o"
 },
 {
-"title": "U.S. Ground Stop Exposes Aging Air Traffic Control Systems as Extreme Weather Risk Grows Ahead of Thanksgiving",
-"source": "Avi-Go",
-"link": "https://avi-go.com/news/articles/cc2900568bd0e3e5dbcf3708e8f9df67"
-}
-],
-"new": true
-},
-{
-"term": "new zealand vs india",
-"traffic": "500+",
-"time": "2026-11-18T22:10:00+00:00",
-"news": [
-{
-"title": "In windy Wellington, India begin new era with history and form against them",
-"source": "Cricinfo",
-"link": "https://www.cricinfo.com/series/india-in-new-zealand-2026-27-1539421/new-zealand-vs-india-1st-test-1539442/match-preview"
-},
-{
-"title": "New Zealand vs India: Gill wins toss to bowl first at Basin Reserve",
-"source": "Sport Nation",
-"link": "https://sportnation.nz/article/blackcaps-vs-india-gill-wins-toss-to-bowl-first-at-basin-reserve"
+"title": "‘We'll come back stronger than ever': Part of roof at Temple Sinai collapses",
+"source": "NBC 6 South Florida",
+"link": "https://www.nbcmiami.com/video/nbc-6-news/part-of-roof-at-temple-sinai-collapses/3890079/"
 }
 ],
 "new": true
@@ -5398,42 +5440,6 @@
 "new": true
 },
 {
-"term": "겨울",
-"traffic": "200+",
-"time": "2026-11-18T22:10:00+00:00",
-"news": [
-{
-"title": "마포구, 겨울철 종합대책 가동…8천가구에 월동대책비",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261118076400004"
-},
-{
-"title": "청양군 ‘폭설 고립·한파 피해 막는다’…260명 마을 제설단·쉼터 340곳 가동",
-"source": "녹색경제신문",
-"link": "https://www.greened.kr/news/articleView.html?idxno=354995"
-}
-],
-"new": true
-},
-{
-"term": "nvda",
-"traffic": "200+",
-"time": "2026-11-18T22:10:00+00:00",
-"news": [
-{
-"title": "Same 0.5% risk, different position size: ADR% on NVDA for NASDAQ:NVDA by vishalreddy247",
-"source": "TradingView",
-"link": "https://www.tradingview.com/chart/NVDA/8xHBvsZa-Same-0-5-risk-different-position-size-ADR-on-NVDA/"
-},
-{
-"title": "CHART OF THE DAY: Nvidia, $NVDA, Needs To Be Up +26% Today Just To Recapture TRADE Support",
-"source": "Hedgeye",
-"link": "https://app.hedgeye.com/insights/190030-chart-of-the-day-nvidia-nvda-needs-to-be-up-26-today-just-to-rec?type=macro%2Cmarket-insights"
-}
-],
-"new": true
-},
-{
 "term": "kb금융그룹",
 "traffic": "100+",
 "time": "2026-11-18T22:10:00+00:00",
@@ -5447,24 +5453,6 @@
 "title": "KB금융, 부문장직 폐지하나…이재근式 '시스템·분권화' 지배구조는",
 "source": "연합인포맥스",
 "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4445371"
-}
-],
-"new": true
-},
-{
-"term": "미역국",
-"traffic": "2000+",
-"time": "2026-11-18T22:00:00+00:00",
-"news": [
-{
-"title": "수능 날 미역국 먹어도 된다면서…고3 딸 둔 의사가 말리는 이유 [29면]",
-"source": "세계일보",
-"link": "https://www.segye.com/newsView/20261117513101"
-},
-{
-"title": "\"1년 간 기다려온 시험\"...수험생 곧 입실 마감",
-"source": "YTN",
-"link": "https://www.ytn.co.kr/_cs/_ln_0103_202611190756474671_005.html"
 }
 ],
 "new": true
