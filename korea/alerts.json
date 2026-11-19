@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-19T14:27:06.240874+00:00",
+"updated": "2026-11-19T14:29:28.396546+00:00",
 "errors": [],
 "events": [
 {
@@ -5579,9 +5579,9 @@
 "spike": false
 },
 "폭발": {
-"n30": 8,
+"n30": 4,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "붕괴": {
 "n30": 1,
@@ -5595,22 +5595,22 @@
 },
 "미사일": {
 "n30": 0,
-"base": 0.6,
+"base": 0.5,
 "spike": false
 },
 "속보": {
-"n30": 3,
+"n30": 2,
 "base": 0.7,
 "spike": false
 },
 "지하철": {
 "n30": 5,
-"base": 2.6,
+"base": 2.7,
 "spike": false
 },
 "사고": {
 "n30": 4,
-"base": 2.6,
+"base": 2.7,
 "spike": false
 },
 "실종": {
@@ -5705,7 +5705,7 @@
 "handle": "yunihi.bsky.social",
 "name": "𝑌𝑢𝑛𝑖",
 "time": "2026-11-19T14:03:08.540Z",
-"likes": 39,
+"likes": 41,
 "reposts": 5,
 "url": "https://bsky.app/profile/yunihi.bsky.social/post/3n2oaf7hajs2w",
 "term": "지하철"
@@ -5937,27 +5937,19 @@
 "url": "https://www.youtube.com/watch?v=pZxb6NgKnio"
 }
 ],
-"spikes": [
-{
-"term": "폭발",
-"n30": 8,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-19T14:27:06.240874+00:00"
-}
-],
+"spikes": [],
 "baseline": {
-"지진": 0.37,
+"지진": 0.33,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
 "폭발": 0.05,
-"붕괴": 0.29,
+"붕괴": 0.26,
 "대피": 0.05,
-"미사일": 0.5,
-"속보": 0.66,
-"지하철": 2.74,
-"사고": 2.72,
+"미사일": 0.45,
+"속보": 0.59,
+"지하철": 2.87,
+"사고": 2.85,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -6289,9 +6281,9 @@
 "time": "2026-11-19T11:40:00+00:00",
 "news": [
 {
-"title": "Dự báo thời tiết đêm nay, ngày mai - 20/11/2026: Không khí lạnh tăng cường nhiệt độ giảm sâu hơn",
-"source": "Báo và Phát thanh, Truyền hình Nghệ An",
-"link": "https://truyenhinhnghean.vn/media/chuyen-muc/ban-tin-thoi-tiet/202611/du-bao-thoi-tiet-dem-nay-ngay-mai-20112026-khong-khi-lanh-tang-cuong-nhiet-do-giam-sau-hon-0e23669/"
+"title": "[Video] Dự báo thời tiết đêm nay và ngày mai 20/11/2026: Bắc Bộ tiếp tục rét, miền Trung mưa lớn có nơi trên 150mm",
+"source": "Báo Nhân Dân điện tử",
+"link": "https://nhandan.vn/video-du-bao-thoi-tiet-dem-nay-va-ngay-mai-20112026-bac-bo-tiep-tuc-ret-mien-trung-mua-lon-co-noi-tren-150mm-post1003997.html"
 },
 {
 "title": "Không khí lạnh tăng cường, dự báo khu vực có mưa rất to trên 250mm",
