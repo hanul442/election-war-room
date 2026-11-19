@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-19T15:26:05.568413+00:00",
+"updated": "2026-11-19T15:28:21.263984+00:00",
 "errors": [],
 "events": [
 {
@@ -5560,7 +5560,7 @@
 },
 "폭발": {
 "n30": 4,
-"base": 0.9,
+"base": 0.8,
 "spike": false
 },
 "붕괴": {
@@ -5579,18 +5579,18 @@
 "spike": false
 },
 "속보": {
-"n30": 8,
+"n30": 9,
 "base": 0.1,
 "spike": true
 },
 "지하철": {
-"n30": 6,
-"base": 7.3,
+"n30": 7,
+"base": 6.9,
 "spike": false
 },
 "사고": {
 "n30": 0,
-"base": 1.4,
+"base": 1.2,
 "spike": false
 },
 "실종": {
@@ -5620,6 +5620,26 @@
 }
 },
 "posts": [
+{
+"text": "[속보]여자프로배구 관람 중 쓰러진 남성 끝내 숨져\nn.news.naver.com/article/021/...\n\nKOVO 관계자는 “기저질환 등 사망 원인은 아직 정확하게 파악되지 않았다”며 “연맹 차원의 공식적인 애도문 발표와 같은 후속 조치는 내일쯤 이뤄질 것으로 보인다”고 밝혔다.",
+"handle": "pirippom.bsky.social",
+"name": "이현!!",
+"time": "2026-11-19T15:26:37.056Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/pirippom.bsky.social/post/3n2of2gqpu224",
+"term": "속보"
+},
+{
+"text": "지하철은 서울 살면 무한으로 탈 수 있는 줄 알았는데 지금의 난 10정거장 이상 탈수가 없음. 계단도 쥐약이고 전철이 무쟈게 흔들리는데 선 상태로 대롱대롱 흔들려서 사람들이 화내.",
+"handle": "hirmeyrabbit.bsky.social",
+"name": "혦",
+"time": "2026-11-19T15:26:14.741Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/hirmeyrabbit.bsky.social/post/3n2oezsfsqs2b",
+"term": "지하철"
+},
 {
 "text": "헉 대전에 지하철 있었구나",
 "handle": "penett.bsky.social",
@@ -5826,10 +5846,10 @@
 "spikes": [
 {
 "term": "속보",
-"n30": 8,
+"n30": 9,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-19T15:26:05.568413+00:00"
+"since": "2026-11-19T15:28:21.263984+00:00"
 }
 ],
 "baseline": {
@@ -5837,13 +5857,13 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.83,
-"붕괴": 0.6,
-"대피": 0.3,
+"폭발": 0.75,
+"붕괴": 0.64,
+"대피": 0.27,
 "미사일": 0.05,
-"속보": 0.05,
-"지하철": 6.87,
-"사고": 1.25,
+"속보": 0.15,
+"지하철": 6.58,
+"사고": 1.12,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -6085,7 +6105,7 @@
 {
 "title": "[오피셜] '쇼메이커', '스매쉬' 그리고 김대호 감독, DK와 함께",
 "source": "인벤",
-"link": "https://www.inven.co.kr/webzine/news/?news=323623"
+"link": "https://www.inven.co.kr/webzine/news/?news=323623&site=lol"
 }
 ],
 "new": true
