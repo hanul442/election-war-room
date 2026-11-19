@@ -1,7 +1,39 @@
 {
-"updated": "2026-11-19T00:19:13.332575+00:00",
+"updated": "2026-11-19T00:21:30.659422+00:00",
 "errors": [],
 "events": [
+{
+"id": "UlTWXNCU1RwZ2h6SGdOQQoc50018",
+"first": "2026-11-19T00:18:09+00:00",
+"last": "2026-11-19T00:18:09+00:00",
+"updated": "2026-11-19T00:21:30.659422+00:00",
+"headline": "싸이커스, 1월 20일 일본 신곡 ‘조이!’ 발매",
+"cat": "국제",
+"regions": [],
+"sources": [
+"스페셜타임스"
+],
+"updates": [
+{
+"title": "[속보] 싸이커스, 1월 20일 일본 신곡 ‘조이!’ 발매",
+"source": "스페셜타임스",
+"link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5CZENDNFkzenJjY1REOTB6ODlwV0NhU3NfQkpzZFVoTVhkVDh0eEVTQUQzLWFQQV9jRU9RbERPaF96VDQ0bDBmTVVVV1Z3SnhWQjJZR015VGZpNDZMMWUzbW5GaUlTWXNCU1RwZ2h6SGdOQQ?oc=5",
+"time": "2026-11-19T00:18:09+00:00",
+"stage": "얼럿"
+}
+],
+"level": "URGENT",
+"latest": "싸이커스, 1월 20일 일본 신곡 ‘조이!’ 발매",
+"tok": [
+"1월",
+"20일",
+"발매",
+"신곡",
+"싸이커스",
+"일본",
+"조이"
+]
+},
 {
 "id": "viewAKR202611190243005302330",
 "first": "2026-11-18T23:30:12+00:00",
@@ -4393,59 +4425,13 @@
 "흑인",
 "흑인의장"
 ]
-},
-{
-"id": "jNCY0xNTWZ5V0x0eG5qQQoc52000",
-"first": "2026-11-18T20:00:00+00:00",
-"last": "2026-11-18T22:40:00+00:00",
-"updated": "2026-11-18T22:42:35.809546+00:00",
-"headline": "[기상속보]수능일 오늘날씨 곳곳에 비·눈 영하권 한파 서울 낮 4도...주말,주간예보",
-"cat": "재난",
-"regions": [
-"서울"
-],
-"sources": [
-"경향신문",
-"퍼블릭타임스"
-],
-"updates": [
-{
-"title": "[기상속보]수능일 오늘날씨 곳곳에 비·눈 영하권 한파 서울 낮 4도...주말,주간예보",
-"source": "퍼블릭타임스",
-"link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBQUUphRHZQa2xmcVdQeXBTVWtsdGwyRU1pdUM0eGdpRV84RVRLbldHa1U2SmI3MkctTVFUcUdrMEE3ME5xcGlwazhSQzkzbk83OWZPaEF1c3pHWW1oT1dTekNiekxUTXExSnfSAW5BVV95cUxOSVRweDFBNVhBdUc4ZTZpZjBKZzlMOVJ3Z1AweERaNWR2SWdCaUJjdXBDTDNMSkhGZ3paRXJvZllFVnB0TGlVYVRNZzBnQ3ZLUzFPbW94a01WSk9MRm1fcjNCY0xNTWZ5V0x0eG5qQQ?oc=5",
-"time": "2026-11-18T20:00:00+00:00",
-"stage": "1보"
-},
-{
-"title": "수능일 아침 영하권 ‘한파’···곳곳에 눈·비",
-"source": "경향신문",
-"link": "https://www.khan.co.kr/article/202611190740001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
-"time": "2026-11-18T22:40:00+00:00",
-"stage": "후속"
-}
-],
-"level": "ALERT",
-"latest": "수능일 아침 영하권 ‘한파’···곳곳에 눈·비",
-"tok": [
-"4도",
-"곳곳",
-"기상속보",
-"서울",
-"수능일",
-"아침",
-"영하권",
-"오늘날씨",
-"주간예보",
-"주말",
-"한파"
-]
 }
 ],
 "sns": {
 "terms": {
 "지진": {
 "n30": 2,
-"base": 1.4,
+"base": 1.5,
 "spike": false
 },
 "화재": {
@@ -4464,7 +4450,7 @@
 "spike": false
 },
 "폭발": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -4475,7 +4461,7 @@
 },
 "대피": {
 "n30": 0,
-"base": 0.8,
+"base": 0.7,
 "spike": false
 },
 "미사일": {
@@ -4484,18 +4470,18 @@
 "spike": false
 },
 "속보": {
-"n30": 2,
-"base": 2.1,
+"n30": 1,
+"base": 2.0,
 "spike": false
 },
 "지하철": {
-"n30": 3,
-"base": 8.0,
+"n30": 1,
+"base": 7.5,
 "spike": false
 },
 "사고": {
-"n30": 0,
-"base": 2.3,
+"n30": 1,
+"base": 2.0,
 "spike": false
 },
 "실종": {
@@ -4525,6 +4511,16 @@
 }
 },
 "posts": [
+{
+"text": "그리고 새만금 공항이 새 때문에 위험하다는 주장에 대해서... 여러가지 이유로, 국토부가 '제주항공 사고에서는 새가 아니라 사실 공항시설이 문제였습니다.'라고 말할 수도 없었겠고(...)",
+"handle": "ainomsg.bsky.social",
+"name": "달빛은 사랑의 메시지",
+"time": "2026-11-19T00:20:26.647Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/ainomsg.bsky.social/post/3n2msg32myk23",
+"term": "사고"
+},
 {
 "text": "재난문자야 이미 실종자 신고 들어오면 막 날리던 건데 새삼스레...",
 "handle": "rivian.bsky.social",
@@ -4561,7 +4557,7 @@
 "name": "감상실🌈⚜️📚",
 "time": "2026-11-18T23:54:58.849Z",
 "likes": 2,
-"reposts": 1,
+"reposts": 2,
 "url": "https://bsky.app/profile/mosocosmos.bsky.social/post/3n2mqyk6zts2f",
 "term": "지진"
 },
@@ -4574,16 +4570,6 @@
 "reposts": 0,
 "url": "https://bsky.app/profile/mediapark.bsky.social/post/3n2mqujqzdk2s",
 "term": "속보"
-},
-{
-"text": "수능 알림 문자를 지하철에서 받고 싶지 않아서 빠른 출근을 함. \n원치않는 이른 기상에 피곤한 뇌는 나의 고딩시절을 떠올렸다가 도시락으로 생각을 옮겨감. \n\n그시절 엄마는 3년터울 자식으로 인해 무려 9년을 도시락을 싸셨는데 어케 하셨지. \n나 고딩땐 도시락 두개씩 받아서 다녔는데. \n반찬이 내 맘에 안들때는 많았어도 도시락을 못 받고 학교에 간 기억이 없다. \n정말 어케 하셨나 모르겠다. ",
-"handle": "greenflower.bsky.social",
-"name": "연두풀꽃",
-"time": "2026-11-18T23:51:13.245Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/greenflower.bsky.social/post/3n2mqrt7uzs2c",
-"term": "지하철"
 },
 {
 "platform": "YouTube",
@@ -4602,16 +4588,6 @@
 "time": "2026-11-18T23:50:12Z",
 "term": "폭발",
 "url": "https://www.youtube.com/watch?v=IrRwqz1GjMQ"
-},
-{
-"text": "그러고보니 오늘 지하철이 좀 한가했엉... 수능생들이 빠져서 그런간 아닐테고 ( ´△｀)",
-"handle": "rosemelda.co.kr",
-"name": "𝔐𝔢𝔩𝔇𝔞✨",
-"time": "2026-11-18T23:49:52.149Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/rosemelda.co.kr/post/3n2mqpfrjg22i",
-"term": "지하철"
 },
 {
 "platform": "YouTube",
@@ -4805,18 +4781,18 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 1.49,
+"지진": 1.54,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
 "폭발": 0.05,
 "붕괴": 0.05,
-"대피": 0.69,
-"미사일": 0.37,
-"속보": 2.03,
-"지하철": 7.49,
-"사고": 2.03,
-"실종": 0.61,
+"대피": 0.62,
+"미사일": 0.33,
+"속보": 1.93,
+"지하철": 6.84,
+"사고": 1.93,
+"실종": 0.65,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
