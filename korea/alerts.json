@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-19T23:42:21.696785+00:00",
+"updated": "2026-11-19T23:44:36.155347+00:00",
 "errors": [],
 "events": [
 {
@@ -3747,7 +3747,7 @@
 },
 "화재": {
 "n30": 1,
-"base": 0.1,
+"base": 0.2,
 "spike": false
 },
 "불났": {
@@ -3787,12 +3787,12 @@
 },
 "지하철": {
 "n30": 3,
-"base": 1.0,
+"base": 0.9,
 "spike": false
 },
 "사고": {
-"n30": 0,
-"base": 0.7,
+"n30": 1,
+"base": 0.6,
 "spike": false
 },
 "실종": {
@@ -3802,7 +3802,7 @@
 },
 "단수": {
 "n30": 0,
-"base": 0.5,
+"base": 0.4,
 "spike": false
 },
 "통신 장애": {
@@ -3822,6 +3822,16 @@
 }
 },
 "posts": [
+{
+"text": "근데 왤케 무리하냐 왜 숨기지? 가오? 어른스러워지는거랑 숨기는거는 다르지않나 스톨 배려해준건가 네 가족이 화해하는동안 여기는 깨져서?같은 느낌일려나 근데 거기에 바사고가 결정타였던거임? 아~~~~ 아무것도 못하고 자꾸 떠나가고 필요없는 존재같아져서? 쩝........정신병원가자!!!",
+"handle": "omememem.bsky.social",
+"name": "몽",
+"time": "2026-11-19T23:42:59.443Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/omememem.bsky.social/post/3n2pas22ia22n",
+"term": "사고"
+},
 {
 "text": "5호선 김포공항역 화재 경보\n오작동이래",
 "handle": "newnewman.bsky.social",
@@ -4037,30 +4047,30 @@
 "n30": 7,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-19T23:42:21.696785+00:00"
+"since": "2026-11-19T23:44:36.155347+00:00"
 },
 {
 "term": "속보",
 "n30": 8,
 "base": 0.3,
 "spike": true,
-"since": "2026-11-19T23:42:21.696785+00:00"
+"since": "2026-11-19T23:44:36.155347+00:00"
 }
 ],
 "baseline": {
-"지진": 0.45,
-"화재": 0.24,
+"지진": 0.41,
+"화재": 0.32,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.13,
+"폭발": 0.12,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.27,
-"지하철": 0.93,
-"사고": 0.61,
+"속보": 0.24,
+"지하철": 0.84,
+"사고": 0.65,
 "실종": 0.05,
-"단수": 0.41,
+"단수": 0.37,
 "통신 장애": 0.05,
 "먹통": 0.05,
 "산불": 0.05
@@ -4270,8 +4280,26 @@
 },
 "trends": [
 {
-"term": "중산층",
+"term": "tqqq",
 "traffic": "200+",
+"time": "2026-11-19T22:40:00+00:00",
+"news": [
+{
+"title": "Hawkish Fed unsettles indices, Anthropic is set to go public—how to collect income from TQQQ amid high volatility?",
+"source": "富途牛牛",
+"link": "https://news.futunn.com/en/post/1005007027/options-income-hawkish-fed-unsettles-indices-anthropic-is-set-to"
+},
+{
+"title": "TQQQ Rises 3.68% in 24 Hours but Stays Below Its 50-Day Average",
+"source": "www.tokenpost.com",
+"link": "https://www.tokenpost.com/news/investing/61551"
+}
+],
+"new": true
+},
+{
+"term": "중산층",
+"traffic": "500+",
 "time": "2026-11-19T22:30:00+00:00",
 "news": [
 {
@@ -4293,14 +4321,14 @@
 "time": "2026-11-19T22:30:00+00:00",
 "news": [
 {
-"title": "Bitcoin drops 2.6% amid major U.S. stock market sell-off and rising volatility index",
-"source": "Pluang",
-"link": "https://pluang.com/en/news-feed/bitcoin-turun-dow-jatuh-vix-mencapai-28-21-pembaruan-pasar-19-nov"
+"title": "It’s Getting More and More Volatile for Stocks",
+"source": "Barron's",
+"link": "https://www.barrons.com/livecoverage/stock-market-news-today-111926/card/it-s-getting-more-and-more-volatile-for-stocks-ROSooZcFbkLpYiu56lWF"
 },
 {
-"title": "VIX drops 32% since November peak as Bitcoin cr...",
-"source": "Pluang",
-"link": "https://pluang.com/en/news-feed/vix-turun-32-persen-puncak-november-bitcoin-jatuh-62k"
+"title": "AAPL 261120 395.00C (AAPL261120C395000) Stock Options Chain | Quotes & News",
+"source": "Moomoo",
+"link": "https://www.moomoo.com/options/AAPL261120C395000-US?chain_id=Name1K9-3FXPhg.1kse6g0&global_content=%7B%22promote_id%22%3A13643,%22sub_promote_id%22%3A62,%22f%22%3A%22www.moomoocn.com%2Foptions%2FTSLA260327C495000-US%22%7D"
 }
 ],
 "new": true
@@ -4352,9 +4380,9 @@
 "link": "https://health.chosun.com/site/data/html_dir/2026/11/17/2026111701777.html"
 },
 {
-"title": "“나이 들면 심장 어디가 가장 많이 늙을까?”…노화 더 집중된 부위 보니",
-"source": "코메디닷컴",
-"link": "https://kormedi.com/2907340/"
+"title": "100세 넘긴 장수인 '장내 미생물' 달랐다…노화 늦추는 비밀?",
+"source": "약사공론",
+"link": "https://www.kpanews.co.kr/news/articleView.html?idxno=549370"
 }
 ],
 "new": true
@@ -4415,7 +4443,7 @@
 },
 {
 "term": "미스터트롯",
-"traffic": "500+",
+"traffic": "1000+",
 "time": "2026-11-19T21:40:00+00:00",
 "news": [
 {
@@ -4427,24 +4455,6 @@
 "title": "‘미스터트롯3’ TOP7 콘서트 성료…서울서 투어 마무리 : 연예",
 "source": "재경일보",
 "link": "https://news.jkn.co.kr/post/1108804"
-}
-],
-"new": true
-},
-{
-"term": "기아",
-"traffic": "2000+",
-"time": "2026-11-19T21:40:00+00:00",
-"news": [
-{
-"title": "기아 노사, 사회복지 단체에 레이·장학금 기부",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261119030900003"
-},
-{
-"title": "기아 노사, 14년째 소외계층에 온정…복지차량 22대·기부금 전달",
-"source": "마켓인",
-"link": "https://marketin.edaily.co.kr/News/ReadE?newsId=02092646645647360"
 }
 ],
 "new": true
