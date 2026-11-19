@@ -1,16 +1,17 @@
 {
-"updated": "2026-11-19T23:12:46.873966+00:00",
+"updated": "2026-11-19T23:15:03.839003+00:00",
 "errors": [],
 "events": [
 {
 "id": "viewAKR202611200188000042250",
 "first": "2026-11-19T22:50:34+00:00",
 "last": "2026-11-19T23:09:56+00:00",
-"updated": "2026-11-19T23:12:46.873966+00:00",
+"updated": "2026-11-19T23:15:03.839003+00:00",
 "headline": "경찰, 10대 소녀 살해한 50대 남성 공소청 송치",
 "cat": "사회",
 "regions": [],
 "sources": [
+"뉴스1",
 "뉴시스",
 "연합뉴스",
 "한국경제"
@@ -28,6 +29,13 @@
 "source": "한국경제",
 "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE95Tlo1Ynk4dDRPN0FSZHFXZnJOSGhVbFRaOFVvbmdTeUk2MkdyRTZELVYxMFY4QUVsaXIyRHBlekNqODlaZ0ZhVXFoZHVIZVJEeFNYOFhpV2V4UQ?oc=5",
 "time": "2026-11-19T22:52:03+00:00",
+"stage": "속보"
+},
+{
+"title": "[속보] 경찰 '성북 10대 살인' 50대 남성 공소청 송치",
+"source": "뉴스1",
+"link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5TSnhHRW5hQkZYTGFrUFpRdXQ4dGVtajdCMThVTFFmaUlJWExKbWVQOEx4UGVSQ2c5VHN1VUprVWNIb3VtamdwQnF3UUR0U3RDR2NBOERoOERHMjVHMUtGQXF4d1E?oc=5",
+"time": "2026-11-19T23:02:28+00:00",
 "stage": "속보"
 },
 {
@@ -57,8 +65,10 @@
 "구속송치",
 "남성",
 "묵묵부답",
+"살인",
 "살해",
 "살해한",
+"성북",
 "소녀",
 "송치"
 ]
@@ -256,7 +266,7 @@
 "id": "wNISX20261119_00038759131430",
 "first": "2026-11-19T14:30:58+00:00",
 "last": "2026-11-19T22:44:32+00:00",
-"updated": "2026-11-19T22:47:33.878168+00:00",
+"updated": "2026-11-19T23:15:03.839003+00:00",
 "headline": "뉴욕증시, 앤트로픽 상장 기대에 상승 출발…나스닥 1.55%↑",
 "cat": "경제",
 "regions": [],
@@ -267,6 +277,7 @@
 "문화일보",
 "블록미디어",
 "연합뉴스",
+"연합인포맥스",
 "이투데이",
 "조선일보",
 "토큰포스트"
@@ -392,6 +403,13 @@
 "stage": "후속"
 },
 {
+"title": "[뉴욕증시] 앤트로픽 상장은 매도 신호였나…2%대 급락 마감",
+"source": "연합인포맥스",
+"link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBsM1UySkQ1YmdONUNYZV82VjczODNrVU1GZVVKa3pKSGJ6Ym1COGdFaUJjOUpMb0RQVF81X0o1QjlaZGZnYWM4RlVrNmt4aG5VVFUwdkF5U2tJT3JQamxuR0FoQ0N0aF9FRGwyaTBFemQ?oc=5",
+"time": "2026-11-19T21:53:18+00:00",
+"stage": "후속"
+},
+{
 "title": "[오늘의 증시]앤트로픽 상장에 美 AI주 약세…코스피 위기감 고조",
 "source": "뉴시스",
 "link": "https://www.newsis.com/view/NISX20261120_0003875985",
@@ -422,11 +440,13 @@
 "다우지수",
 "데뷔",
 "마감",
+"매도",
 "머니투데",
 "붕괴",
 "상승",
 "상장",
 "속도",
+"신호였나",
 "앞두고",
 "앤트로픽",
 "약세",
@@ -439,9 +459,7 @@
 "첫날",
 "체결",
 "최대",
-"출발",
-"코스피",
-"하락"
+"출발"
 ]
 },
 {
@@ -3561,7 +3579,7 @@
 },
 "폭발": {
 "n30": 8,
-"base": 0.6,
+"base": 0.5,
 "spike": true
 },
 "붕괴": {
@@ -3581,17 +3599,17 @@
 },
 "속보": {
 "n30": 3,
-"base": 0.6,
+"base": 0.7,
 "spike": false
 },
 "지하철": {
 "n30": 4,
-"base": 1.6,
+"base": 1.7,
 "spike": false
 },
 "사고": {
 "n30": 1,
-"base": 1.4,
+"base": 1.3,
 "spike": false
 },
 "실종": {
@@ -3875,16 +3893,16 @@
 {
 "term": "폭발",
 "n30": 8,
-"base": 0.6,
+"base": 0.5,
 "spike": true,
-"since": "2026-11-19T23:12:46.873966+00:00"
+"since": "2026-11-19T23:15:03.839003+00:00"
 },
 {
 "term": "붕괴",
 "n30": 5,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-19T23:12:46.873966+00:00"
+"since": "2026-11-19T23:15:03.839003+00:00"
 }
 ],
 "baseline": {
@@ -3892,15 +3910,15 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.5,
+"폭발": 0.45,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.68,
-"지하철": 1.68,
-"사고": 1.32,
+"속보": 0.71,
+"지하철": 1.71,
+"사고": 1.29,
 "실종": 0.05,
-"단수": 0.51,
+"단수": 0.56,
 "통신 장애": 0.05,
 "먹통": 0.05,
 "산불": 0.05
@@ -4102,7 +4120,7 @@
 "trends": [
 {
 "term": "대학 순위",
-"traffic": "100+",
+"traffic": "200+",
 "time": "2026-11-19T22:00:00+00:00",
 "news": [
 {
@@ -4124,14 +4142,14 @@
 "time": "2026-11-19T21:50:00+00:00",
 "news": [
 {
-"title": "Watch the 'Always Lalisa' documentary with YouTube Premium on November 18",
-"source": "YouTube Official Blog",
-"link": "https://blog.youtube/culture-and-trends/youtube-premium-always-lalisa-documentary/"
+"title": "LISA Drops Emotional New Single ‘Leave With Me’ From ‘Always Lalisa’ Movie: Listen",
+"source": "Billboard",
+"link": "https://www.billboard.com/music/pop/lisa-new-single-leave-with-me-always-lalisa-movie-watch-video-1236384860/"
 },
 {
-"title": "LISA – Leave With Me",
-"source": "Voxtrendy",
-"link": "https://web.voxtrendy.net/new-songs/lisa-leave-with-me/"
+"title": "BLACKPINK’s Lisa’s New Song Thanks Former Lover for Letting Her Go",
+"source": "ZAPZEE",
+"link": "https://zapzee.net/2026/11/19/lisas-leave-with-me-sparks-breakup-song-buzz/"
 }
 ],
 "new": true
@@ -4165,9 +4183,9 @@
 "link": "https://www.montereyherald.com/2026/11/19/the-worst-weather-in-monterey-county-may-be-over-but-rain-will-continue/"
 },
 {
-"title": "Rocks, debris block Hwy. 1 through Big Sur after storm pounds Central Coast",
-"source": "San Luis Obispo Tribune",
-"link": "https://www.sanluisobispo.com/news/weather-news/article318158203.html"
+"title": "Big Sur Hwy 1, SR 9 in Santa Cruz closed",
+"source": "KTVU",
+"link": "https://www.ktvu.com/video/fmc-qy3zmqo68lzubtrj"
 }
 ],
 "new": true
@@ -4196,14 +4214,14 @@
 "time": "2026-11-19T21:20:00+00:00",
 "news": [
 {
-"title": "北, 라오스와 경제·무역·과학 협력 논의…당·정 교류 이어",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261120015000504"
+"title": "\"기업 이익, R&D 재투자 우선\"... 국민 55.7% 성과급보다 성장 [시장경제-리얼미터 여론조사]",
+"source": "시장경제신문",
+"link": "https://www.meconomynews.com/news/articleView.html?idxno=203918"
 },
 {
-"title": "[AI로 읽는 노동신문] 11월 20일(금)",
-"source": "뉴스핌",
-"link": "https://www.newspim.com/news/view/20261120000053"
+"title": "대전창조경제혁신센터, 스타트업 6개사 우즈베키스탄 시장 진출 지원…중앙아시아 진출 교두보 마련",
+"source": "전자신문",
+"link": "https://www.etnews.com/20261119000140"
 }
 ],
 "new": true
@@ -4214,14 +4232,14 @@
 "time": "2026-11-19T21:10:00+00:00",
 "news": [
 {
-"title": "\"시공사 먼저 본다\"…분양가 뛰자 청약통장 70% 대형 건설사로",
-"source": "뉴시스",
-"link": "https://www.newsis.com/view/NISX20261118_0003873039"
+"title": "‘한강벨트’ 용산·동작도 집값 하락",
+"source": "경향신문",
+"link": "https://www.khan.co.kr/article/202611192049035"
 },
 {
-"title": "지방 분양시장 브랜드 대단지에 관심… 888세대 ‘고창 데시앙’ 공급 예정",
-"source": "헤럴드경제",
-"link": "https://biz.heraldcorp.com/article/10942233"
+"title": "아파트값 하락세 '한강벨트'로‥외곽은 엇갈려",
+"source": "MBC 뉴스",
+"link": "https://imnews.imbc.com/replay/2026/nwtoday/article/6867135_37012.html"
 }
 ],
 "new": true
@@ -4250,9 +4268,9 @@
 "time": "2026-11-19T20:50:00+00:00",
 "news": [
 {
-"title": "포체티노, 맨체스터 도착해 맨유 감독 업무 시작…\"영광·특권\"",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261119020100007"
+"title": "표류하는 맨유… 퍼거슨 이후 감독한테만 1700억 썼다",
+"source": "조선일보",
+"link": "https://www.chosun.com/sports/world-football/2026/11/20/LKLFPOHWQZARJLO45OWBXBZGGA/"
 },
 {
 "title": "축구의 묘미는 역시 ‘바이시클킥’",
