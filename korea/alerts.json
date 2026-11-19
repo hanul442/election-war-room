@@ -1,7 +1,38 @@
 {
-"updated": "2026-11-19T19:09:05.140196+00:00",
+"updated": "2026-11-19T19:11:29.604243+00:00",
 "errors": [],
 "events": [
+{
+"id": "viewAKR202611200060005271904",
+"first": "2026-11-19T19:04:41+00:00",
+"last": "2026-11-19T19:04:41+00:00",
+"updated": "2026-11-19T19:11:29.604243+00:00",
+"headline": "충남 보령시(도서제외)에 대설주의보",
+"cat": "재난",
+"regions": [
+"충남"
+],
+"sources": [
+"연합뉴스"
+],
+"updates": [
+{
+"title": "충남 보령시(도서제외)에 대설주의보",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261120006000527",
+"time": "2026-11-19T19:04:41+00:00",
+"stage": "1보"
+}
+],
+"level": "ALERT",
+"latest": "충남 보령시(도서제외)에 대설주의보",
+"tok": [
+"대설주의보",
+"도서제외",
+"보령시",
+"충남"
+]
+},
 {
 "id": "viewAKR202611200059005271903",
 "first": "2026-11-19T19:03:33+00:00",
@@ -3798,7 +3829,7 @@
 "sns": {
 "terms": {
 "지진": {
-"n30": 1,
+"n30": 2,
 "base": 0.6,
 "spike": false
 },
@@ -3818,7 +3849,7 @@
 "spike": false
 },
 "폭발": {
-"n30": 4,
+"n30": 3,
 "base": 0.1,
 "spike": false
 },
@@ -3838,7 +3869,7 @@
 "spike": false
 },
 "속보": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -3879,6 +3910,16 @@
 }
 },
 "posts": [
+{
+"text": "【지진 정보】일본 시간 11월 20일 04:04경\n진원: Amakusa and Ashikita Region, Kumamoto Prefecture (M2.7, 매우 얕음)\n최대 진도: 1\n진도 1: 구마모토현\n이 지진으로 인한 쓰나미 걱정은 없습니다.\n(일본 기상청 발표)\n#일본 #지진 #방재",
+"handle": "ko.soramoyou.yk-planning.jp",
+"name": "Soramoyou 한국어",
+"time": "2026-11-19T19:09:35.745Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/ko.soramoyou.yk-planning.jp/post/3n2orj6q6eh2d",
+"term": "지진"
+},
 {
 "text": "뭐\n무ㅜ야?\n뭐지?\n벼락?\n정전?",
 "handle": "celuli.bsky.social",
@@ -4127,10 +4168,10 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 0.6,
+"지진": 0.74,
 "화재": 0.05,
 "불났": 0.05,
-"정전": 0.6,
+"정전": 0.64,
 "폭발": 0.05,
 "붕괴": 0.05,
 "대피": 0.05,
@@ -4386,9 +4427,9 @@
 "link": "https://www.chosun.com/sports/sports_general/2026/11/19/MVQTCNTDGYYDOYZSME2DONDDGA/"
 },
 {
-"title": "안세영·야마구치 모두 없는데, '中 대굴욕' 여자 단식 줄줄이 탈락... 벌써 왕즈이 혼자 남았다 - 머니투데이",
-"source": "머니투데이",
-"link": "https://www.mt.co.kr/sports/2026/11/19/2026111920591363907"
+"title": "[오늘의 영상] 언제나 어디서나 월드 클래스!",
+"source": "KBS 뉴스",
+"link": "https://news.kbs.co.kr/news/mobile/view/view.do?ncd=8714321"
 }
 ],
 "new": true
@@ -4512,9 +4553,9 @@
 "link": "https://m.joongdo.co.kr/view.php?key=20261118010006399"
 },
 {
-"title": "호남대 앵커사업단, ‘2026 호남 e스포츠 시리즈’ 성료",
+"title": "호남대 e스포츠산업학과, 초등생 e스포츠 진로체험 교육 성료",
 "source": "톡톡뉴스",
-"link": "http://m.newstoktok.com/article.php?aid=27184892173"
+"link": "http://newstoktok.com/article.php?aid=27315247155"
 }
 ],
 "new": false
@@ -4543,14 +4584,14 @@
 "time": "2026-11-19T14:20:00+00:00",
 "news": [
 {
-"title": "앤트로픽 ‘108조원’ IPO 최대어로 나스닥 상장",
-"source": "경향신문",
-"link": "https://www.khan.co.kr/article/202611192045005"
+"title": "창업 5년새 기업가치 2000조원... 앤스로픽 상장, AI 불씨 살릴까",
+"source": "조선일보",
+"link": "https://www.chosun.com/economy/int_economy/2026/11/19/727FDBQ3VRCT7DRNM5EJFH4MWM/"
 },
 {
-"title": "상장식 무대 오른 앤트로픽 CEO \"AI안전 집착은 회사의 DNA\"",
+"title": "앤트로픽, 111.5달러에 거래 시작…시총 2조달러 달성",
 "source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261120001300091"
+"link": "https://www.yna.co.kr/view/AKR20261120003100091"
 }
 ],
 "new": true
