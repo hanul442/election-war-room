@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-19T17:55:48.052517+00:00",
+"updated": "2026-11-19T17:58:04.555072+00:00",
 "errors": [],
 "events": [
 {
@@ -4852,42 +4852,6 @@
 "한복",
 "한파"
 ]
-},
-{
-"id": "tTXdpOFJlN0wxOUI2ZGF6oc51150",
-"first": "2026-11-19T11:50:00+00:00",
-"last": "2026-11-19T11:56:23+00:00",
-"updated": "2026-11-19T11:59:50.576091+00:00",
-"headline": "2027 수능 예상 등급컷 공개",
-"cat": "기타",
-"regions": [],
-"sources": [
-"금강일보"
-],
-"updates": [
-{
-"title": "[속보] 2027 수능 예상 등급컷 공개",
-"source": "금강일보",
-"link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBqNzNvMVdPbDJNXzRMdml3aVNKWmU3WjRTMjhkVWlIV1hFRVlaTktLSWI3WGFucENUUmJTdHV1UnViTmJ4cWZ6MlRnTDhHbkJMdnNQTmFrcjQtTXdpOFJlN0wxOUI2ZGF6?oc=5",
-"time": "2026-11-19T11:50:00+00:00",
-"stage": "얼럿"
-},
-{
-"title": "[속보] 2027 수능 예상 등급컷 공개",
-"source": "금강일보",
-"link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE13aTNOVUJNY2JNM3lxaHZ6d3hqbllyV3VNMFZTOUFYWGRoeUZKVzhMRkxaeGwzbEJ0T3c0WTVMODZ3WVVQMFdSazA2RjVMM0N6XzgyRWxTdEFmU3hVUi1lMGRVSWFMcHloVEE?oc=5",
-"time": "2026-11-19T11:56:23+00:00",
-"stage": "속보"
-}
-],
-"level": "URGENT",
-"latest": "2027 수능 예상 등급컷 공개",
-"tok": [
-"공개",
-"등급컷",
-"수능",
-"예상"
-]
 }
 ],
 "sns": {
@@ -4913,7 +4877,7 @@
 "spike": false
 },
 "폭발": {
-"n30": 2,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
@@ -4933,9 +4897,9 @@
 "spike": false
 },
 "속보": {
-"n30": 5,
+"n30": 4,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "지하철": {
 "n30": 0,
@@ -5164,15 +5128,7 @@
 "url": "https://www.youtube.com/watch?v=m_ogUCjaGVM"
 }
 ],
-"spikes": [
-{
-"term": "속보",
-"n30": 5,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-19T17:55:48.052517+00:00"
-}
-],
+"spikes": [],
 "baseline": {
 "지진": 0.05,
 "화재": 0.05,
@@ -5184,7 +5140,7 @@
 "미사일": 0.05,
 "속보": 0.05,
 "지하철": 0.05,
-"사고": 0.19,
+"사고": 0.17,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
