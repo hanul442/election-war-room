@@ -1,7 +1,42 @@
 {
-"updated": "2026-11-19T12:02:07.507717+00:00",
+"updated": "2026-11-19T12:04:25.866645+00:00",
 "errors": [],
 "events": [
+{
+"id": "VpSEh0QWhzSEFsYkJJdkUoc51201",
+"first": "2026-11-19T12:01:11+00:00",
+"last": "2026-11-19T12:01:11+00:00",
+"updated": "2026-11-19T12:04:25.866645+00:00",
+"headline": "서울지하철 노조, 20일 아침부터 준법투쟁…출퇴근길 지연 우려",
+"cat": "교통",
+"regions": [
+"서울"
+],
+"sources": [
+"경기일보"
+],
+"updates": [
+{
+"title": "[속보] 서울지하철 노조, 20일 아침부터 준법투쟁…출퇴근길 지연 우려",
+"source": "경기일보",
+"link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9UWmxPSm9jd2trMFFHaV9pRFFYVDZCMGptenhsbDg1ekpkdVBhZjJ0dU1JMUZyV0N5NWhZdWtzNzdCM1pjMUZ1ck82bmVpSEh0QWhzSEFsYkJJdkU?oc=5",
+"time": "2026-11-19T12:01:11+00:00",
+"stage": "얼럿"
+}
+],
+"level": "URGENT",
+"latest": "서울지하철 노조, 20일 아침부터 준법투쟁…출퇴근길 지연 우려",
+"tok": [
+"20일",
+"노조",
+"서울지하철",
+"아침부터",
+"우려",
+"준법투쟁",
+"지연",
+"출퇴근길"
+]
+},
 {
 "id": "tTXdpOFJlN0wxOUI2ZGF6oc51150",
 "first": "2026-11-19T11:50:00+00:00",
@@ -5746,51 +5781,18 @@
 "재난경보음",
 "출신"
 ]
-},
-{
-"id": "zNGcUYtT2dBdGsxcmVoNAoc50918",
-"first": "2026-11-19T09:18:30+00:00",
-"last": "2026-11-19T09:18:30+00:00",
-"updated": "2026-11-19T09:53:19.849725+00:00",
-"headline": "속보 | 리플 CEO \"앤트로픽 상장 이후 암호화폐 시장 반등할 것\"",
-"cat": "기타",
-"regions": [],
-"sources": [
-"CoinNess"
-],
-"updates": [
-{
-"title": "속보 | 리플 CEO \"앤트로픽 상장 이후 암호화폐 시장 반등할 것\"",
-"source": "CoinNess",
-"link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE0xTThWMFBpcGFOMmc2UllZLThCQnd5djZUQk5OdW55UGhOMEcyRlh1RXdUTW5GTEVrTzNGcUYtT2dBdGsxcmVoNA?oc=5",
-"time": "2026-11-19T09:18:30+00:00",
-"stage": "1보"
-}
-],
-"level": "ALERT",
-"latest": "속보 | 리플 CEO \"앤트로픽 상장 이후 암호화폐 시장 반등할 것\"",
-"tok": [
-"CEO",
-"리플",
-"반등할",
-"상장",
-"시장",
-"암호화폐",
-"앤트로픽",
-"이후"
-]
 }
 ],
 "sns": {
 "terms": {
 "지진": {
-"n30": 2,
+"n30": 3,
 "base": 1.5,
 "spike": false
 },
 "화재": {
 "n30": 1,
-"base": 0.6,
+"base": 0.7,
 "spike": false
 },
 "불났": {
@@ -5810,7 +5812,7 @@
 },
 "붕괴": {
 "n30": 4,
-"base": 1.9,
+"base": 2.0,
 "spike": false
 },
 "대피": {
@@ -5824,12 +5826,12 @@
 "spike": false
 },
 "속보": {
-"n30": 5,
+"n30": 4,
 "base": 0.4,
-"spike": true
+"spike": false
 },
 "지하철": {
-"n30": 3,
+"n30": 2,
 "base": 0.6,
 "spike": false
 },
@@ -5865,6 +5867,16 @@
 }
 },
 "posts": [
+{
+"text": "【지진 정보】일본 시간 11월 19일 20:58경\n진원: Amakusa and Ashikita Region, Kumamoto Prefecture (M2.5, 깊이 약 10km)\n최대 진도: 1\n진도 1: 구마모토현\n이 지진으로 인한 쓰나미 걱정은 없습니다.\n(일본 기상청 발표)\n#일본 #지진 #방재",
+"handle": "ko.soramoyou.yk-planning.jp",
+"name": "Soramoyou 한국어",
+"time": "2026-11-19T12:03:32.844Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/ko.soramoyou.yk-planning.jp/post/3n2nzpdxmju2d",
+"term": "지진"
+},
 {
 "platform": "YouTube",
 "text": "[알테오젠 주가전망] 11-19(목) 늦은밤속보! 결국 또 터졌다! 이제 난리났습니다! 필수시청!",
@@ -6147,28 +6159,20 @@
 "url": "https://www.youtube.com/watch?v=ysd-9CoccoU"
 }
 ],
-"spikes": [
-{
-"term": "속보",
-"n30": 5,
-"base": 0.4,
-"spike": true,
-"since": "2026-11-19T12:02:07.507717+00:00"
-}
-],
+"spikes": [],
 "baseline": {
-"지진": 1.53,
-"화재": 0.68,
+"지진": 1.68,
+"화재": 0.71,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.48,
-"붕괴": 2.0,
+"폭발": 0.43,
+"붕괴": 2.1,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.37,
-"지하철": 0.62,
-"사고": 4.82,
-"실종": 0.14,
+"속보": 0.33,
+"지하철": 0.66,
+"사고": 4.84,
+"실종": 0.13,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -6352,6 +6356,24 @@
 },
 "trends": [
 {
+"term": "이재시",
+"traffic": "200+",
+"time": "2026-11-19T11:00:00+00:00",
+"news": [
+{
+"title": "이동국 딸 이재시 메기 효과 터졌다, “예뻐서 몸 반응” (내새끼의연애3)",
+"source": "스포츠동아",
+"link": "https://sports.donga.com/ent/article/all/20261119/135051749/1"
+},
+{
+"title": "최수린 아들, 185㎝ 메기남 등판 \"짝사랑 해본 적 없어…결국 다 사귀더라\"",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261119_0003874149"
+}
+],
+"new": true
+},
+{
 "term": "김지훈",
 "traffic": "200+",
 "time": "2026-11-19T10:50:00+00:00",
@@ -6483,9 +6505,9 @@
 "time": "2026-11-19T10:00:00+00:00",
 "news": [
 {
-"title": "'중꺾마' 주인공 '데프트' 김혁규가 돌아왔다… 농심 입단",
-"source": "데일리e스포츠",
-"link": "https://www.dailyesports.com/view.php?ud=20261119191919733974bcc1e038_27"
+"title": "[오피셜] 전설의 귀환 '데프트' 김혁규, 농심 합류… '표식'-'안딜'과 동행",
+"source": "OSEN",
+"link": "https://www.osen.co.kr/article/G1112912352"
 },
 {
 "title": "[단독] '데프트' 김혁규 \"농심의 진심에 합류 결심, 독기 품고 할 것\" (인터뷰)",
@@ -6509,24 +6531,6 @@
 "title": "Harmer, Rabada help South Africa thump Bangladesh to go 1-0 up",
 "source": "Cricinfo",
 "link": "https://www.cricinfo.com/series/bangladesh-in-south-africa-2026-27-1525637/south-africa-vs-bangladesh-1st-test-1525662/match-report-5"
-}
-],
-"new": true
-},
-{
-"term": "안양 정관장 대 부산 kcc",
-"traffic": "1000+",
-"time": "2026-11-19T09:50:00+00:00",
-"news": [
-{
-"title": "[핌in안양] KCC전 홈 8연승 도전, 정관장 유도훈 감독 \"변준형 발목, 박지훈 허리 부담\"",
-"source": "뉴스핌",
-"link": "https://www.newspim.com/news/view/20261119001422"
-},
-{
-"title": "[부상] ‘감기 증세’ 정관장 문유현, DB전 이어 KCC전도 결장···男대표팀은 정상 합류",
-"source": "점프볼",
-"link": "http://www.jumpball.co.kr/news/newsview.php?ncode=1065602737425283"
 }
 ],
 "new": true
