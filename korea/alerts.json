@@ -1,7 +1,57 @@
 {
-"updated": "2026-11-19T20:32:00.064988+00:00",
+"updated": "2026-11-19T20:34:17.734254+00:00",
 "errors": [],
 "events": [
+{
+"id": "viewAKR202611200060005271904",
+"first": "2026-11-19T19:04:41+00:00",
+"last": "2026-11-19T20:28:11+00:00",
+"updated": "2026-11-19T20:34:17.734254+00:00",
+"headline": "충남 보령시(도서제외)에 대설주의보",
+"cat": "재난",
+"regions": [
+"충남"
+],
+"sources": [
+"연합뉴스"
+],
+"updates": [
+{
+"title": "충남 보령시(도서제외)에 대설주의보",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261120006000527",
+"time": "2026-11-19T19:04:41+00:00",
+"stage": "1보"
+},
+{
+"title": "서산 등 충남 3곳 대설주의보",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261120006300527",
+"time": "2026-11-19T19:16:44+00:00",
+"stage": "후속"
+},
+{
+"title": "충남 아산·서천에 대설주의보…서산 등 대설주의보 유지",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261120007700527",
+"time": "2026-11-19T20:28:11+00:00",
+"stage": "후속"
+}
+],
+"level": "ALERT",
+"latest": "충남 아산·서천에 대설주의보…서산 등 대설주의보 유지",
+"tok": [
+"3곳",
+"대설주의보",
+"도서제외",
+"보령시",
+"서산",
+"서천",
+"아산",
+"유지",
+"충남"
+]
+},
 {
 "id": "EQzYwQVFMZUlMbWlHdlVYoc51928",
 "first": "2026-11-19T19:28:00+00:00",
@@ -431,46 +481,6 @@
 "풀리나",
 "한파",
 "한한령"
-]
-},
-{
-"id": "viewAKR202611200060005271904",
-"first": "2026-11-19T19:04:41+00:00",
-"last": "2026-11-19T19:16:44+00:00",
-"updated": "2026-11-19T19:25:36.230477+00:00",
-"headline": "충남 보령시(도서제외)에 대설주의보",
-"cat": "재난",
-"regions": [
-"충남"
-],
-"sources": [
-"연합뉴스"
-],
-"updates": [
-{
-"title": "충남 보령시(도서제외)에 대설주의보",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261120006000527",
-"time": "2026-11-19T19:04:41+00:00",
-"stage": "1보"
-},
-{
-"title": "서산 등 충남 3곳 대설주의보",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261120006300527",
-"time": "2026-11-19T19:16:44+00:00",
-"stage": "후속"
-}
-],
-"level": "ALERT",
-"latest": "서산 등 충남 3곳 대설주의보",
-"tok": [
-"3곳",
-"대설주의보",
-"도서제외",
-"보령시",
-"서산",
-"충남"
 ]
 },
 {
@@ -3216,7 +3226,7 @@
 "spike": false
 },
 "화재": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -3231,9 +3241,9 @@
 "spike": false
 },
 "폭발": {
-"n30": 5,
+"n30": 4,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "붕괴": {
 "n30": 1,
@@ -3251,7 +3261,7 @@
 "spike": false
 },
 "속보": {
-"n30": 7,
+"n30": 6,
 "base": 0.1,
 "spike": true
 },
@@ -3512,22 +3522,15 @@
 ],
 "spikes": [
 {
-"term": "폭발",
-"n30": 5,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-19T20:32:00.064988+00:00"
-},
-{
 "term": "속보",
-"n30": 7,
+"n30": 6,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-19T20:32:00.064988+00:00"
+"since": "2026-11-19T20:34:17.734254+00:00"
 }
 ],
 "baseline": {
-"지진": 1.22,
+"지진": 1.2,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
@@ -3537,7 +3540,7 @@
 "미사일": 0.05,
 "속보": 0.05,
 "지하철": 0.05,
-"사고": 0.3,
+"사고": 0.27,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -3884,22 +3887,22 @@
 "new": true
 },
 {
-"term": "ant stock",
-"traffic": "2000+",
-"time": "2026-11-19T14:30:00+00:00",
+"term": "회계사",
+"traffic": "500+",
+"time": "2026-11-19T14:40:00+00:00",
 "news": [
 {
-"title": "Anthropic IPO live: Anthropic stock begins trading in record $81B raise with $1.5T valuation",
-"source": "Yahoo Finance",
-"link": "https://finance.yahoo.com/technology/live/anthropic-ipo-live-anthropic-stock-begins-trading-in-record-81b-raise-with-15t-valuation-192410598.html"
+"title": "A Hunt for Test Cheats With Phone Alerts and Eyeglasses Checks",
+"source": "The New York Times",
+"link": "https://www.nytimes.com/2026/11/18/world/asia/south-korea-cheating-college-exam-suneung.html"
 },
 {
-"title": "Stocks making the biggest moves Thursday: Anthropic, CoreWeave, Coherent, AMD & more",
-"source": "CNBC",
-"link": "https://www.cnbc.com/2026/11/19/stocks-moving-the-most-today-live-updates.html"
+"title": "In South Korea's make-or-break college exam, even a shirt button can raise suspicion",
+"source": "Reuters",
+"link": "https://www.reuters.com/world/asia-pacific/south-koreas-make-or-break-college-exam-even-shirt-button-can-raise-suspicion-2026-11-19/"
 }
 ],
-"new": true
+"new": false
 },
 {
 "term": "프로게이머",
@@ -3912,9 +3915,9 @@
 "link": "https://m.joongdo.co.kr/view.php?key=20261118010006399"
 },
 {
-"title": "호남대 앵커사업단, ‘2026 호남 e스포츠 시리즈’ 성료",
+"title": "호남대 e스포츠산업학과, 초등생 e스포츠 진로체험 교육 성료",
 "source": "톡톡뉴스",
-"link": "http://m.newstoktok.com/article.php?aid=27184892173"
+"link": "http://newstoktok.com/article.php?aid=27315247155"
 }
 ],
 "new": false
