@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-19T19:59:57.619571+00:00",
+"updated": "2026-11-19T20:02:15.317748+00:00",
 "errors": [],
 "events": [
 {
@@ -3003,38 +3003,6 @@
 "서부",
 "제주시"
 ]
-},
-{
-"id": "k5QmhkUlNxT2laaTRjd1koc51400",
-"first": "2026-11-19T14:00:00+00:00",
-"last": "2026-11-19T14:00:00+00:00",
-"updated": "2026-11-19T14:40:47.158609+00:00",
-"headline": "교육부 \"수능 부정행위 절반 '위급재난문자' 알림에 적발\"",
-"cat": "재난",
-"regions": [],
-"sources": [
-"사이렌스"
-],
-"updates": [
-{
-"title": "교육부 \"수능 부정행위 절반 '위급재난문자' 알림에 적발\"",
-"source": "사이렌스",
-"link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1fekdSSU43U1pfNzlLZWVfUEJJb0hGWGFON3poNnd5b0ZjVnFqdU5ac3B1cHJEZVVnTmRrMkZScHk5QmhkUlNxT2laaTRjd1k?oc=5",
-"time": "2026-11-19T14:00:00+00:00",
-"stage": "1보"
-}
-],
-"level": "ALERT",
-"latest": "교육부 \"수능 부정행위 절반 '위급재난문자' 알림에 적발\"",
-"tok": [
-"교육부",
-"부정행위",
-"수능",
-"알림",
-"위급재난문자",
-"적발",
-"절반"
-]
 }
 ],
 "sns": {
@@ -3060,9 +3028,9 @@
 "spike": false
 },
 "폭발": {
-"n30": 6,
+"n30": 4,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "붕괴": {
 "n30": 0,
@@ -3080,9 +3048,9 @@
 "spike": false
 },
 "속보": {
-"n30": 5,
+"n30": 4,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "지하철": {
 "n30": 2,
@@ -3172,7 +3140,7 @@
 "handle": "haruarona.lily.rs",
 "name": "🌈청야🌠",
 "time": "2026-11-19T19:42:49.454Z",
-"likes": 0,
+"likes": 1,
 "reposts": 0,
 "url": "https://bsky.app/profile/haruarona.lily.rs/post/3n2oteldcgc2o",
 "term": "사고"
@@ -3349,34 +3317,19 @@
 "url": "https://www.youtube.com/watch?v=bvwSULR2_h8"
 }
 ],
-"spikes": [
-{
-"term": "폭발",
-"n30": 6,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-19T19:59:57.619571+00:00"
-},
-{
-"term": "속보",
-"n30": 5,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-19T19:59:57.619571+00:00"
-}
-],
+"spikes": [],
 "baseline": {
-"지진": 1.23,
+"지진": 1.21,
 "화재": 0.05,
 "불났": 0.05,
-"정전": 0.13,
+"정전": 0.12,
 "폭발": 0.05,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
 "지하철": 0.05,
-"사고": 0.6,
+"사고": 0.64,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
