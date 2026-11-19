@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-19T13:32:37.627857+00:00",
+"updated": "2026-11-19T13:34:55.786931+00:00",
 "errors": [],
 "events": [
 {
@@ -5912,7 +5912,7 @@
 "terms": {
 "지진": {
 "n30": 1,
-"base": 1.3,
+"base": 1.1,
 "spike": false
 },
 "화재": {
@@ -5936,8 +5936,8 @@
 "spike": false
 },
 "붕괴": {
-"n30": 2,
-"base": 0.7,
+"n30": 3,
+"base": 0.6,
 "spike": false
 },
 "대피": {
@@ -5951,7 +5951,7 @@
 "spike": false
 },
 "속보": {
-"n30": 11,
+"n30": 10,
 "base": 0.1,
 "spike": true
 },
@@ -5962,12 +5962,12 @@
 },
 "사고": {
 "n30": 2,
-"base": 2.5,
+"base": 2.4,
 "spike": false
 },
 "실종": {
 "n30": 0,
-"base": 0.5,
+"base": 0.4,
 "spike": false
 },
 "단수": {
@@ -5992,6 +5992,16 @@
 }
 },
 "posts": [
+{
+"text": "위조지폐범은 사회적 신뢰와 거래 안정을 붕괴시킬 수 있다는 명분하에 최대 무기징역이라는 기묘하게 강한 처벌조항을 달고 있는데 수능에 대한 도전도 비슷한 수준에서 관리되는듯함",
+"handle": "amuluckena.bsky.social",
+"name": "amuluckena.bsky.social",
+"time": "2026-11-19T13:34:22.145Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/amuluckena.bsky.social/post/3n2o6rqmvu225",
+"term": "붕괴"
+},
 {
 "platform": "YouTube",
 "text": "꿈에서 매일 지하철을 타 역 이름이 사람 이름이야",
@@ -6233,29 +6243,29 @@
 "spikes": [
 {
 "term": "속보",
-"n30": 11,
+"n30": 10,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-19T13:32:37.627857+00:00"
+"since": "2026-11-19T13:34:55.786931+00:00"
 }
 ],
 "baseline": {
-"지진": 1.13,
+"지진": 1.02,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.1,
-"붕괴": 0.6,
+"폭발": 0.09,
+"붕괴": 0.64,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.15,
-"사고": 2.41,
-"실종": 0.41,
+"지하철": 0.24,
+"사고": 2.37,
+"실종": 0.37,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
-"산불": 0.56
+"산불": 0.5
 },
 "errors": [],
 "ytPosts": [
@@ -6471,6 +6481,24 @@
 },
 "trends": [
 {
+"term": "변상일",
+"traffic": "100+",
+"time": "2026-11-19T12:30:00+00:00",
+"news": [
+{
+"title": "변상일, 삼성화재배 결승 2국 리친청에 불계승…승부 원점",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261119134500007"
+},
+{
+"title": "바둑 변상일, 삼성화재배 2국서 리친청에 반격 성공…내일 최종국",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261119_0003875403"
+}
+],
+"new": true
+},
+{
 "term": "금오산",
 "traffic": "200+",
 "time": "2026-11-19T12:20:00+00:00",
@@ -6548,14 +6576,14 @@
 "time": "2026-11-19T11:40:00+00:00",
 "news": [
 {
-"title": "BMKG Peringatkan Hujan Lebat di 19 Wilayah, Cek Daftarnya!",
-"source": "detikNews",
-"link": "https://news.detik.com/berita/d-8759247/bmkg-peringatkan-hujan-lebat-di-19-wilayah-cek-daftarnya"
+"title": "Peringatan Dini Cuaca Kalimantan Barat: Hujan Lebat Disertai Petir Sore Ini, Mulai Pukul 16.10 WIB",
+"source": "Databoks",
+"link": "https://databoks.katadata.co.id/demografi/statistik/61975d5a9a7d537/peringatan-dini-cuaca-kalimantan-barat-hujan-lebat-disertai-petir-sore-ini-mulai-pukul-16-10-wib"
 },
 {
-"title": "Prakiraan Cuaca Ibu Kota Provinsi Indonesia Hari Ini",
-"source": "CaraPandang",
-"link": "https://carapandang.com/news/read/prakiraan-cuaca-ibu-kota-provinsi-indonesia-hari-ini"
+"title": "Peringatan Dini BMKG 20-21 November 2026: Ini Rincian Wilayah yang Awas dan Siaga",
+"source": "Kompas.tv",
+"link": "https://www.kompas.tv/info-publik/702471/peringatan-dini-bmkg-20-21-november-2026-ini-rincian-wilayah-yang-awas-dan-siaga"
 }
 ],
 "new": true
@@ -6620,24 +6648,6 @@
 }
 ],
 "new": false
-},
-{
-"term": "김지훈",
-"traffic": "500+",
-"time": "2026-11-19T10:50:00+00:00",
-"news": [
-{
-"title": "LG헬로비전 신임 CEO에 김지훈 사업총괄",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261119146700017?section=people/personnel"
-},
-{
-"title": "LG헬로비전, 7년 만에 수장 교체…김지훈의 과제는 ‘수익성 회복’",
-"source": "동아일보",
-"link": "https://www.donga.com/news/Economy/article/all/20261119/135056326/1"
-}
-],
-"new": true
 }
 ],
 "trendSeen": [
