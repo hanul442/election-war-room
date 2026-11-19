@@ -1,7 +1,43 @@
 {
-"updated": "2026-11-19T23:28:43.216005+00:00",
+"updated": "2026-11-19T23:31:00.326684+00:00",
 "errors": [],
 "events": [
+{
+"id": "wNISX20261120_00038760892329",
+"first": "2026-11-19T23:29:20+00:00",
+"last": "2026-11-19T23:29:20+00:00",
+"updated": "2026-11-19T23:31:00.326684+00:00",
+"headline": "제주 밤사이 강풍·결빙 신고 잇따라…소방 안전조치 3건",
+"cat": "재난",
+"regions": [
+"제주"
+],
+"sources": [
+"뉴시스"
+],
+"updates": [
+{
+"title": "제주 밤사이 강풍·결빙 신고 잇따라…소방 안전조치 3건",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261120_0003876089",
+"time": "2026-11-19T23:29:20+00:00",
+"stage": "1보"
+}
+],
+"level": "ALERT",
+"latest": "제주 밤사이 강풍·결빙 신고 잇따라…소방 안전조치 3건",
+"tok": [
+"3건",
+"강풍",
+"결빙",
+"밤사",
+"소방",
+"신고",
+"안전조치",
+"잇따라",
+"제주"
+]
+},
 {
 "id": "uXzJWeThHdmZsQV8yR19Boc52321",
 "first": "2026-11-19T23:21:00+00:00",
@@ -672,6 +708,43 @@
 "주택",
 "중경상",
 "화재"
+]
+},
+{
+"id": "DRYVW1zVE5ROXVoTkszQQoc52241",
+"first": "2026-11-19T22:41:00+00:00",
+"last": "2026-11-19T22:41:00+00:00",
+"updated": "2026-11-19T23:31:00.326684+00:00",
+"headline": "태안 국도 77호선 재선충병 방제 벌채목 반출 의혹…\"파쇄했다\" 어디로 갔나",
+"cat": "기타",
+"regions": [
+"충남"
+],
+"sources": [
+"뉴데일리 충청세종"
+],
+"updates": [
+{
+"title": "[속보] 태안 국도 77호선 재선충병 방제 벌채목 반출 의혹…\"파쇄했다\" 어디로 갔나",
+"source": "뉴데일리 충청세종",
+"link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFA5a1UtWVQ4SEVHcmJwM2lvTl9fQTY5ck95QnNpeFJ0M0dCV2UycXVRazhlVm5EdFB5alRRLV9fNzdHcElSNHdRazZwVlBlcS1fc19HYzBKWXlzZG9KdkJqNi0xTDUtek9MR3RCVWIzb0VxcEktMVdjNUFB0gF_QVVfeXFMTUlEbHJlcms0aVB2eGJKRUpFUTdKbHh4Y1pWV2ZKMEkxVmpZclRzNkVwcDgydFBiNG1LNnU5Y3RPRURKQU44aTR4cXJDazNya1o4RjhfOUJPak9xZjVibVVlRi1OdHQ0UGtqbnVYS3BKWDRYVW1zVE5ROXVoTkszQQ?oc=5",
+"time": "2026-11-19T22:41:00+00:00",
+"stage": "얼럿"
+}
+],
+"level": "URGENT",
+"latest": "태안 국도 77호선 재선충병 방제 벌채목 반출 의혹…\"파쇄했다\" 어디로 갔나",
+"tok": [
+"77호선",
+"갔나",
+"국도",
+"반출",
+"방제",
+"벌채목",
+"어디",
+"재선충병",
+"태안",
+"파쇄했다"
 ]
 },
 {
@@ -3611,12 +3684,12 @@
 "sns": {
 "terms": {
 "지진": {
-"n30": 1,
-"base": 0.9,
+"n30": 0,
+"base": 0.8,
 "spike": false
 },
 "화재": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -3626,17 +3699,17 @@
 "spike": false
 },
 "정전": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
 "폭발": {
-"n30": 8,
-"base": 0.3,
-"spike": true
+"n30": 0,
+"base": 0.2,
+"spike": false
 },
 "붕괴": {
-"n30": 4,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -3651,18 +3724,18 @@
 "spike": false
 },
 "속보": {
-"n30": 2,
-"base": 0.6,
+"n30": 0,
+"base": 0.5,
 "spike": false
 },
 "지하철": {
-"n30": 3,
+"n30": 1,
 "base": 1.4,
 "spike": false
 },
 "사고": {
-"n30": 1,
-"base": 1.2,
+"n30": 0,
+"base": 1.1,
 "spike": false
 },
 "실종": {
@@ -3671,8 +3744,8 @@
 "spike": false
 },
 "단수": {
-"n30": 1,
-"base": 0.7,
+"n30": 0,
+"base": 0.8,
 "spike": false
 },
 "통신 장애": {
@@ -3701,16 +3774,6 @@
 "reposts": 0,
 "url": "https://bsky.app/profile/husukki.bsky.social/post/3n2p6sk3ju22n",
 "term": "지하철"
-},
-{
-"text": "무언가를 계속 더해야 잘 사는 것처럼 생각할 때가 있습니다.\n더 많이 벌고, 더 많이 사고, 더 많은 사람을 만나고, 더 많은 경험을 쌓아야 한다고 말입니다.\n그런데 어느 순간 알게 됩니다.\n많이 가지고 있다고 반드시 마음이 편한 것은 아니라는 걸.",
-"handle": "trendpick.bsky.social",
-"name": "Trend Pick",
-"time": "2026-11-19T23:00:59.855Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/trendpick.bsky.social/post/3n2p6gv2hjk2p",
-"term": "사고"
 },
 {
 "platform": "YouTube",
@@ -3812,16 +3875,6 @@
 "url": "https://www.youtube.com/watch?v=E-dpjre3NHg"
 },
 {
-"text": "세계 정복은커녕 수도 요금도 못 내서 단수 위기에 놓인 마왕성에 발을 들인 용사.\n\n그런데 이 용사, 마왕을 처치할 생각이 없어 보인다?\n\n👉 posty.pe/pwz2octc 🔞 수위는 조금\n\n#국뷔 #국뷔연성 #환장로코 #빚쟁이마왕",
-"handle": "moonmellow80.bsky.social",
-"name": "moonmellow",
-"time": "2026-11-19T23:00:21.241Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/moonmellow80.bsky.social/post/3n2p6fp6wxs26",
-"term": "단수"
-},
-{
 "platform": "YouTube",
 "text": "강남·츠키가 입을 열자… 여기가 지하철이야?ㅋㅋ",
 "handle": "UCot4ZgTgRQDDmZcUTd6Uh1w",
@@ -3912,29 +3965,21 @@
 "url": "https://www.youtube.com/watch?v=y-6ppuOxAR4"
 }
 ],
-"spikes": [
-{
-"term": "폭발",
-"n30": 8,
-"base": 0.3,
-"spike": true,
-"since": "2026-11-19T23:28:43.216005+00:00"
-}
-],
+"spikes": [],
 "baseline": {
-"지진": 0.85,
+"지진": 0.77,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.24,
+"폭발": 0.22,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.5,
-"지하철": 1.38,
-"사고": 1.15,
+"속보": 0.45,
+"지하철": 1.34,
+"사고": 1.03,
 "실종": 0.05,
-"단수": 0.77,
+"단수": 0.69,
 "통신 장애": 0.05,
 "먹통": 0.05,
 "산불": 0.05
