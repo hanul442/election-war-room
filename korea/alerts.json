@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-19T22:42:54.877264+00:00",
+"updated": "2026-11-19T22:45:12.807168+00:00",
 "errors": [],
 "events": [
 {
@@ -3469,7 +3469,7 @@
 "terms": {
 "지진": {
 "n30": 2,
-"base": 0.4,
+"base": 0.5,
 "spike": false
 },
 "화재": {
@@ -3488,8 +3488,8 @@
 "spike": false
 },
 "폭발": {
-"n30": 2,
-"base": 0.3,
+"n30": 1,
+"base": 0.4,
 "spike": false
 },
 "붕괴": {
@@ -3514,12 +3514,12 @@
 },
 "지하철": {
 "n30": 5,
-"base": 1.0,
+"base": 1.1,
 "spike": true
 },
 "사고": {
 "n30": 2,
-"base": 0.8,
+"base": 0.9,
 "spike": false
 },
 "실종": {
@@ -3813,28 +3813,28 @@
 "n30": 5,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-19T22:42:54.877264+00:00"
+"since": "2026-11-19T22:45:12.807168+00:00"
 },
 {
 "term": "지하철",
 "n30": 5,
-"base": 1.0,
+"base": 1.1,
 "spike": true,
-"since": "2026-11-19T22:42:54.877264+00:00"
+"since": "2026-11-19T22:45:12.807168+00:00"
 }
 ],
 "baseline": {
-"지진": 0.45,
+"지진": 0.51,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.39,
+"폭발": 0.45,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 1.12,
-"사고": 0.9,
+"지하철": 1.21,
+"사고": 1.01,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -4055,19 +4055,91 @@
 },
 "trends": [
 {
+"term": "미스터트롯",
+"traffic": "200+",
+"time": "2026-11-19T21:40:00+00:00",
+"news": [
+{
+"title": "[강일홍의 이슈토크] 트롯 오디션도 베끼기 경쟁? '미트4' 원조의 위기",
+"source": "더팩트",
+"link": "https://news.tf.co.kr/read/entertain/2390694.htm"
+},
+{
+"title": "‘미스터트롯4′ 12월 17일 첫 방송... “어린 최백호를 만났다”",
+"source": "조선일보",
+"link": "https://www.chosun.com/culture-life/culture_general/2026/11/17/GUGJEOEOZBCWTLDHBJGLBBRFAI/"
+}
+],
+"new": true
+},
+{
+"term": "thời tiết",
+"traffic": "2000+",
+"time": "2026-11-19T21:40:00+00:00",
+"news": [
+{
+"title": "Dự báo thời tiết 10 ngày tới từ đêm 19.11 đến 29.11 trên cả nước",
+"source": "Laodong.vn",
+"link": "https://laodong.vn/moi-truong/du-bao-thoi-tiet-10-ngay-toi-tu-dem-1911-den-2911-tren-ca-nuoc-1802897.ldo"
+},
+{
+"title": "[Video]Không khí lạnh tăng cường, miền trung mưa lớn, có nơi trên 250mm",
+"source": "Báo Nhân Dân điện tử",
+"link": "https://nhandan.vn/videokhong-khi-lanh-tang-cuong-mien-trung-mua-lon-co-noi-tren-250mm-post1004052.html"
+}
+],
+"new": true
+},
+{
+"term": "weather",
+"traffic": "2000+",
+"time": "2026-11-19T21:40:00+00:00",
+"news": [
+{
+"title": "Weather outlook points to snowy winter in Colorado, per NOAA mapping",
+"source": "Denver Gazette",
+"link": "https://www.denvergazette.com/outtherecolorado/2026/11/19/weather-outlook-points-to-snowy-winter-in-colorado-per-noaa-mapping/"
+},
+{
+"title": "‘We’ve really liked what we’ve gotten so far’: Snowpack in southwest Colorado sees significant increase from last year, according to USDA",
+"source": "KKTV",
+"link": "https://www.kktv.com/2026/11/13/weve-really-liked-what-weve-gotten-so-far-snowpack-southwest-colorado-sees-significant-increase-last-year-according-usda/"
+}
+],
+"new": true
+},
+{
+"term": "육아휴직",
+"traffic": "100+",
+"time": "2026-11-19T21:30:00+00:00",
+"news": [
+{
+"title": "임현주, 육아휴직 후 퇴사 논란에 \"내 자리에서 최선 다해\"",
+"source": "YTN",
+"link": "https://www.ytn.co.kr/_sn/0117_202611171034289308"
+},
+{
+"title": "'노브라 방송' '안경 뉴스' 임현주 아나, 13년 만에 MBC 떠난다 - 머니투데이",
+"source": "머니투데이",
+"link": "https://www.mt.co.kr/entertainment/2026/11/16/2026111618310346981"
+}
+],
+"new": true
+},
+{
 "term": "경제",
 "traffic": "500+",
 "time": "2026-11-19T21:20:00+00:00",
 "news": [
 {
-"title": "北, 라오스와 경제·무역·과학 협력 논의…당·정 교류 이어",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261120015000504"
+"title": "KDI \"올해 성장률 3.8%, 내년엔 3.9%...내년 수출액 1조4천억 달러\"",
+"source": "YTN 사이언스",
+"link": "https://m.science.ytn.co.kr/program/view_today.php?s_mcd=0082&key=202611191105320724"
 },
 {
-"title": "[AI로 읽는 노동신문] 11월 20일(금)",
-"source": "뉴스핌",
-"link": "https://www.newspim.com/news/view/20261120000053"
+"title": "'반도체 산유국' 현실 되나…내년 GDP의 3분의 1 육박 전망도",
+"source": "마켓인",
+"link": "https://marketin.edaily.co.kr/News/ReadE?newsId=04001606645647360"
 }
 ],
 "new": true
@@ -4161,78 +4233,6 @@
 }
 ],
 "new": false
-},
-{
-"term": "김연경",
-"traffic": "2000+",
-"time": "2026-11-19T20:10:00+00:00",
-"news": [
-{
-"title": "[포토]'다시 시작한 배구, 살맛납니다!' 표승주 - 머니투데이",
-"source": "머니투데이",
-"link": "https://www.mt.co.kr/sports/2026/11/19/2026111918234413089"
-},
-{
-"title": "[한번에쓱]인생역전은 지금부터 '거미같은 리베로의 수비력을 보여줄게요!' 흥국 고민지 - 머니투데이",
-"source": "머니투데이",
-"link": "https://www.mt.co.kr/sports/2026/11/19/2026111918543178586"
-}
-],
-"new": true
-},
-{
-"term": "알렉산더 즈베레프",
-"traffic": "1000+",
-"time": "2026-11-19T20:10:00+00:00",
-"news": [
-{
-"title": "즈베레프, 셸턴 꺾고 ATP 파이널스 준결승 진출",
-"source": "뉴시스",
-"link": "https://mobile.newsis.com/photo/NISI20261118_0002294924"
-},
-{
-"title": "테니스 세계 1위 츠베레프, 셸턴 꺾고 ATP 파이널스 4강 선착",
-"source": "뉴스1",
-"link": "https://www.news1.kr/sports/general-sport/6357509"
-}
-],
-"new": true
-},
-{
-"term": "축구 감독",
-"traffic": "200+",
-"time": "2026-11-19T19:50:00+00:00",
-"news": [
-{
-"title": "손흥민의 무뎌진 발끝… 찬스에도 골이 안 터진다",
-"source": "조선일보",
-"link": "https://www.chosun.com/sports/football/2026/11/19/IMTHHH2XRBGUDDXWFULQ65XX6I/"
-},
-{
-"title": "동행? 결별? 운명의 일주일…모레노 감독 거취, 27일 전에 결정",
-"source": "동아일보",
-"link": "https://www.donga.com/news/Sports/article/all/20261120/135058164/1"
-}
-],
-"new": false
-},
-{
-"term": "이정현",
-"traffic": "200+",
-"time": "2026-11-19T19:40:00+00:00",
-"news": [
-{
-"title": "이정현, 가수로 13년 만에 돌아온다…'테크노 여전사' 내년 초 컴백 예고",
-"source": "조선일보",
-"link": "https://www.chosun.com/entertainments/broadcast/2026/11/19/GYZWMY3EMFSWIODEGM2WEODGGA/"
-},
-{
-"title": "이정현, 13년 만의 신곡 녹음 돌입…‘테크노 여전사’도 돌아올까",
-"source": "스포츠경향",
-"link": "https://sports.khan.co.kr/article/202611191728003"
-}
-],
-"new": true
 }
 ],
 "trendSeen": [
