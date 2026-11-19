@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-19T22:38:21.738343+00:00",
+"updated": "2026-11-19T22:40:38.523231+00:00",
 "errors": [],
 "events": [
 {
@@ -55,7 +55,7 @@
 "id": "MTE55NGRRTGZPX1J3NzVBoc52150",
 "first": "2026-11-19T21:50:00+00:00",
 "last": "2026-11-19T22:24:03+00:00",
-"updated": "2026-11-19T22:29:18.743216+00:00",
+"updated": "2026-11-19T22:40:38.523231+00:00",
 "headline": "서울 지하철 2호선 용답역 선로전환기 장애 발생",
 "cat": "교통",
 "regions": [
@@ -187,6 +187,13 @@
 "title": "[속보] 2호선 성수지선 양방향 운행 중지…용답역 선로전환기 장애",
 "source": "공감신문",
 "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9CSG00VVpjY0JMd2I5ZGJsZGJnalpfNnFRalF0U2I1RGRKcGdRTS1lcXJxLXhmN05vZ1BtVGFoUFVOaEhkcmo4aVN6cjBqSUNpaGo5UzB4M3RYd3RjVE44SHQzbk8tclU?oc=5",
+"time": "2026-11-19T22:24:03+00:00",
+"stage": "속보"
+},
+{
+"title": "[속보] 2호선 성수지선 양방향 운행 중지…용답역 선로전환기 장애",
+"source": "공감신문",
+"link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5TM1JrT0N4dVM5eVBKSzFuamgtVFQ2QTNuNXp6ZDBGZVdnR2xSNm9hRk5weWpqOGY3bUNqRnlfTGxITDlSS2VtZFNXR3lvN2VvUnFnTEY2VTZMVFYzSG5OUmR5VGc1ZTJG?oc=5",
 "time": "2026-11-19T22:24:03+00:00",
 "stage": "속보"
 }
@@ -3443,7 +3450,7 @@
 "terms": {
 "지진": {
 "n30": 2,
-"base": 0.2,
+"base": 0.3,
 "spike": false
 },
 "화재": {
@@ -3462,8 +3469,8 @@
 "spike": false
 },
 "폭발": {
-"n30": 3,
-"base": 0.1,
+"n30": 2,
+"base": 0.2,
 "spike": false
 },
 "붕괴": {
@@ -3482,18 +3489,18 @@
 "spike": false
 },
 "속보": {
-"n30": 6,
+"n30": 5,
 "base": 0.1,
 "spike": true
 },
 "지하철": {
 "n30": 5,
-"base": 0.8,
+"base": 0.9,
 "spike": true
 },
 "사고": {
 "n30": 2,
-"base": 0.5,
+"base": 0.6,
 "spike": false
 },
 "실종": {
@@ -3784,31 +3791,31 @@
 "spikes": [
 {
 "term": "속보",
-"n30": 6,
+"n30": 5,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-19T22:38:21.738343+00:00"
+"since": "2026-11-19T22:40:38.523231+00:00"
 },
 {
 "term": "지하철",
 "n30": 5,
-"base": 0.8,
+"base": 0.9,
 "spike": true,
-"since": "2026-11-19T22:38:21.738343+00:00"
+"since": "2026-11-19T22:40:38.523231+00:00"
 }
 ],
 "baseline": {
-"지진": 0.32,
+"지진": 0.39,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.24,
+"폭발": 0.32,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.91,
-"사고": 0.64,
+"지하철": 1.02,
+"사고": 0.78,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
