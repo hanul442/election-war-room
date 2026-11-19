@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-19T15:48:55.692204+00:00",
+"updated": "2026-11-19T15:51:10.062845+00:00",
 "errors": [],
 "events": [
 {
@@ -5518,7 +5518,7 @@
 "spike": false
 },
 "화재": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -5533,12 +5533,12 @@
 "spike": false
 },
 "폭발": {
-"n30": 5,
+"n30": 2,
 "base": 0.3,
-"spike": true
+"spike": false
 },
 "붕괴": {
-"n30": 2,
+"n30": 1,
 "base": 0.5,
 "spike": false
 },
@@ -5554,17 +5554,17 @@
 },
 "속보": {
 "n30": 3,
-"base": 0.6,
+"base": 0.7,
 "spike": false
 },
 "지하철": {
 "n30": 4,
-"base": 4.5,
+"base": 4.4,
 "spike": false
 },
 "사고": {
 "n30": 4,
-"base": 1.6,
+"base": 1.9,
 "spike": false
 },
 "실종": {
@@ -5594,6 +5594,16 @@
 }
 },
 "posts": [
+{
+"text": "대전쪽은 선이 너무 위쪽으로 올라가있다고 생각해요\n산단이나 연구단지는 윗동네에 많은데, 지하철은 강 아래쪽만 주구장창 다니거든요\n체감상 원 중간까지만 올라와야할 것입니다",
+"handle": "youn853.bsky.social",
+"name": "Lūmen",
+"time": "2026-11-19T15:49:07.145Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/youn853.bsky.social/post/3n2ogco6qrc2t",
+"term": "지하철"
+},
 {
 "text": "사실 모니터는 차고 넘치는데\n항상 그렇듯 새 장비병 때문에...\n\n사실 마우스도 사야하고 마우스 패드도 바꿀 때가 되어서\n아마 심레휠까지 사고 나면 그 둘을 먼저 살거 같지만...",
 "handle": "summerwolf93.bsky.social",
@@ -5728,16 +5738,6 @@
 "url": "https://www.youtube.com/watch?v=nFrdosPz4zI"
 },
 {
-"text": "이거볼때마다 잘만들었다고 생각함\n\n사유: 실제로 부산지하철타면 울산을갈수있다",
-"handle": "pirippom.bsky.social",
-"name": "이현!!",
-"time": "2026-11-19T15:20:10.849Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/pirippom.bsky.social/post/3n2oeowjs5c24",
-"term": "지하철"
-},
-{
 "platform": "YouTube",
 "text": "[SK이노베이션 주가전망] 심상치 않습니다!! 10만 원 붕괴, 8월과 다른 결정적 신호! 외국인이 산 뒤 남은 가격이 답입니다",
 "handle": "UCnqDszC1AZY71vk3TB1zmpw",
@@ -5855,27 +5855,19 @@
 "url": "https://www.youtube.com/watch?v=MpNcxtFj_8s"
 }
 ],
-"spikes": [
-{
-"term": "폭발",
-"n30": 5,
-"base": 0.3,
-"spike": true,
-"since": "2026-11-19T15:48:55.692204+00:00"
-}
-],
+"spikes": [],
 "baseline": {
 "지진": 0.05,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.3,
-"붕괴": 0.45,
-"대피": 0.11,
+"폭발": 0.27,
+"붕괴": 0.41,
+"대피": 0.1,
 "미사일": 0.05,
-"속보": 0.68,
-"지하철": 4.39,
-"사고": 1.86,
+"속보": 0.71,
+"지하철": 4.25,
+"사고": 2.07,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
