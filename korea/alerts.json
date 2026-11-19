@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-19T18:52:44.670374+00:00",
+"updated": "2026-11-19T18:55:03.658795+00:00",
 "errors": [],
 "events": [
 {
@@ -4764,7 +4764,7 @@
 "spike": false
 },
 "폭발": {
-"n30": 10,
+"n30": 8,
 "base": 0.1,
 "spike": true
 },
@@ -5074,24 +5074,24 @@
 "spikes": [
 {
 "term": "폭발",
-"n30": 10,
+"n30": 8,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-19T18:52:44.670374+00:00"
+"since": "2026-11-19T18:55:03.658795+00:00"
 },
 {
 "term": "속보",
 "n30": 7,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-19T18:52:44.670374+00:00"
+"since": "2026-11-19T18:55:03.658795+00:00"
 }
 ],
 "baseline": {
-"지진": 0.15,
+"지진": 0.24,
 "화재": 0.05,
 "불났": 0.05,
-"정전": 0.15,
+"정전": 0.24,
 "폭발": 0.05,
 "붕괴": 0.05,
 "대피": 0.05,
@@ -5445,24 +5445,6 @@
 "new": true
 },
 {
-"term": "회계사",
-"traffic": "100+",
-"time": "2026-11-19T14:40:00+00:00",
-"news": [
-{
-"title": "한국만의 독특한 감사인 지정제…감사품질 높였나",
-"source": "아시아경제",
-"link": "https://core.asiae.co.kr/article/2026111915554393113"
-},
-{
-"title": "최운열 한공회장 “지정감사 끝나자 가격경쟁 재점화…품질로 경쟁해야” [시그널]",
-"source": "서울경제",
-"link": "https://www.sedaily.com/article/20116635"
-}
-],
-"new": false
-},
-{
 "term": "프로게이머",
 "traffic": "200+",
 "time": "2026-11-19T14:30:00+00:00",
@@ -5512,6 +5494,24 @@
 "title": "앤트로픽 CEO \"9천억弗 컴퓨팅 지출 크지 않아\"…부채 조달도 시사",
 "source": "연합인포맥스",
 "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4445633"
+}
+],
+"new": true
+},
+{
+"term": "anthropic stock",
+"traffic": "2000+",
+"time": "2026-11-19T14:20:00+00:00",
+"news": [
+{
+"title": "Anthropic IPO live: Anthropic stock begins trading in record $81B raise with $1.5T valuation",
+"source": "Yahoo Finance",
+"link": "https://finance.yahoo.com/technology/live/anthropic-ipo-live-company-said-to-price-stock-at-83-begin-trading-thursday-212656452.html"
+},
+{
+"title": "Protesters Demand Halt to Anthropic IPO Amid AI Bubble Fears",
+"source": "조선일보",
+"link": "https://www.chosun.com/english/industry-en/2026/11/20/WXYOSMIO2VD2XGCZR5JZDLXTP4/"
 }
 ],
 "new": true
