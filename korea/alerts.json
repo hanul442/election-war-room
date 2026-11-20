@@ -1,12 +1,12 @@
 {
-"updated": "2026-11-20T22:53:32.620184+00:00",
+"updated": "2026-11-20T22:55:44.840147+00:00",
 "errors": [],
 "events": [
 {
 "id": "viewAKR202611210124000612201",
 "first": "2026-11-20T22:01:57+00:00",
 "last": "2026-11-20T22:52:00+00:00",
-"updated": "2026-11-20T22:53:32.620184+00:00",
+"updated": "2026-11-20T22:55:44.840147+00:00",
 "headline": "평택 소정리역서 화물열차 탈선…경부선 열차 운행 지장",
 "cat": "교통",
 "regions": [
@@ -86,6 +86,13 @@
 "title": "[속보]평택 소정리역서 화물열차 탈선…경부선 천안~소정리역 구간 운행 중지",
 "source": "뉴시스",
 "link": "https://www.newsis.com/view/NISX20261121_0003877528",
+"time": "2026-11-20T22:22:04+00:00",
+"stage": "속보"
+},
+{
+"title": "[속보]평택 소정리역서 화물열차 탈선…경부선 천안~소정리역 구간 운행 중지",
+"source": "뉴시스",
+"link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1xRTQxeWN0cjZORGZjRGI0OFBScnV5YVV4OWxnYnVSbjlIdVdJam5OSlE1Mm0wUkNlZUtMOVRkUk5RczhfcEJUSUo1QXhwSnJtSTVUWC1vdjMxY2R6eVRERdIBeEFVX3lxTE12NTJycEx4VDVKcDk1Qkg2aDNfYjJHQXNfaThSb1NIYjJVZ1hvaWtQcGZOTUxZSGJOV1RYNVhzTHRvMUdlcTBUSGNyUGgwVXBfcmhzc0dFdmRSd3o0MWVvRlVuYWlEZE13MzhmRUU2Uld4X0QxUTFuTA?oc=5",
 "time": "2026-11-20T22:22:04+00:00",
 "stage": "속보"
 },
@@ -1629,7 +1636,7 @@
 "spike": false
 },
 "붕괴": {
-"n30": 4,
+"n30": 3,
 "base": 0.1,
 "spike": false
 },
@@ -1650,12 +1657,12 @@
 },
 "지하철": {
 "n30": 6,
-"base": 1.0,
+"base": 1.1,
 "spike": true
 },
 "사고": {
 "n30": 3,
-"base": 1.9,
+"base": 2.0,
 "spike": false
 },
 "실종": {
@@ -1912,23 +1919,23 @@
 {
 "term": "지하철",
 "n30": 6,
-"base": 1.0,
+"base": 1.1,
 "spike": true,
-"since": "2026-11-20T22:53:32.620184+00:00"
+"since": "2026-11-20T22:55:44.840147+00:00"
 }
 ],
 "baseline": {
 "지진": 0.05,
-"화재": 0.15,
+"화재": 0.24,
 "불났": 0.05,
-"정전": 0.15,
+"정전": 0.24,
 "폭발": 0.05,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 1.12,
-"사고": 1.99,
+"지하철": 1.21,
+"사고": 2.09,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -2119,7 +2126,7 @@
 "link": "https://www.ytn.co.kr/_cs/_ln_0103_202611210520235754_005.html"
 }
 ],
-"new": true
+"new": false
 },
 {
 "term": "항공",
@@ -2138,6 +2145,24 @@
 }
 ],
 "new": false
+},
+{
+"term": "주가순자산비율",
+"traffic": "100+",
+"time": "2026-11-20T21:40:00+00:00",
+"news": [
+{
+"title": "정부는 '베어허그' 띄우지만…저평가 상장사 570곳 경영권은 '철옹성'",
+"source": "마켓인",
+"link": "https://marketin.edaily.co.kr/News/ReadE?newsId=01394006645647360"
+},
+{
+"title": "[취재후일담] 밸류업 앞장섰더니 저PBR 낙인…누가 정책 따르겠나",
+"source": "아시아투데이",
+"link": "https://www.asiatoday.co.kr/kn/view.php?key=20261119010007708"
+}
+],
+"new": true
 },
 {
 "term": "띠별 운세",
@@ -2171,24 +2196,6 @@
 "title": "서울지하철 노조, 오늘부터 준법투쟁…출퇴근 열차 지연 예상",
 "source": "KBS 뉴스",
 "link": "https://news.kbs.co.kr/news/view.do?ncd=8718152"
-}
-],
-"new": true
-},
-{
-"term": "김민재",
-"traffic": "1000+",
-"time": "2026-11-20T21:20:00+00:00",
-"news": [
-{
-"title": "'기분 좋은 방출설' 김민재, EPL 빅클럽+유벤투스+튀르키예 \"러브콜 폭주\"... 뮌헨은 이미 대체자 물색 \"여름에 떠나나\" - 머니투데이",
-"source": "머니투데이",
-"link": "https://www.mt.co.kr/sports/2026/11/20/2026112008255895599"
-},
-{
-"title": "‘韓 괴물 CB’ 김민재, 어떤 명문 구단이 품을까···“바이에른 뮌헨과 재계약 불투명” 튀르키예·이탈리아 구단...",
-"source": "스포츠경향",
-"link": "https://sports.khan.co.kr/article/202611200707003"
 }
 ],
 "new": true
@@ -2253,14 +2260,14 @@
 "time": "2026-11-20T21:00:00+00:00",
 "news": [
 {
-"title": "해운대구 재송1동 지역사회보장협의체, 취약계층 50세대에 `사랑의 김장김치` 전달",
-"source": "국제신문",
-"link": "https://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0300&key=20261120.99099006534"
+"title": "대신증권, '사람 살리는 금융' 릴레이 캠페인 동참",
+"source": "전자신문",
+"link": "https://www.etnews.com/20261120000020"
 },
 {
-"title": "해운대구 반여1·4동 MG새마을금고, 반여1동에 MG희망나눔 김치 전달",
-"source": "부산일보",
-"link": "https://www.busan.com/view/busan/view.php?code=2026112010070745549"
+"title": "[게시판] 황병우 iM금융 회장, 불법사금융 피해 예방 캠페인 동참",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261119108700053"
 }
 ],
 "new": true
