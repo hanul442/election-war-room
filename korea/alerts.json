@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-20T09:35:49.492803+00:00",
+"updated": "2026-11-20T09:38:04.162946+00:00",
 "errors": [],
 "events": [
 {
@@ -3999,7 +3999,7 @@
 "terms": {
 "지진": {
 "n30": 2,
-"base": 0.1,
+"base": 0.2,
 "spike": false
 },
 "화재": {
@@ -4019,7 +4019,7 @@
 },
 "폭발": {
 "n30": 6,
-"base": 0.5,
+"base": 0.4,
 "spike": true
 },
 "붕괴": {
@@ -4043,12 +4043,12 @@
 "spike": false
 },
 "지하철": {
-"n30": 7,
-"base": 3.4,
+"n30": 8,
+"base": 3.7,
 "spike": false
 },
 "사고": {
-"n30": 5,
+"n30": 4,
 "base": 4.8,
 "spike": false
 },
@@ -4080,6 +4080,16 @@
 },
 "posts": [
 {
+"text": "오늘 서울에 무슨 행사 있나? 지하철이 이런적이 없었는데 너무 심하게 붐비네?",
+"handle": "bbutterffly.bsky.social",
+"name": "나비",
+"time": "2026-11-20T09:37:19.852Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/bbutterffly.bsky.social/post/3n2qbyrobyc2f",
+"term": "지하철"
+},
+{
 "text": "한국사 작년보다 약간 어려운 것 같지만 소거법 쓰면 금방 풀릴 수준이네~ 싶었는데 불지옥이라는 평을 보고 동공지진 상태 됨(...)",
 "handle": "animusura.bsky.social",
 "name": "Crocus",
@@ -4104,7 +4114,7 @@
 "handle": "saltnyam.bsky.social",
 "name": "       🌋 소금 🌋",
 "time": "2026-11-20T09:34:16.648Z",
-"likes": 0,
+"likes": 1,
 "reposts": 0,
 "url": "https://bsky.app/profile/saltnyam.bsky.social/post/3n2qbteibb224",
 "term": "사고"
@@ -4169,7 +4179,7 @@
 "handle": "jyoti808.bsky.social",
 "name": "𝚓𝚢𝚘𝚝𝚒 𝚝𝚑𝚎 𝚐𝚘𝚛𝚘𝚔𝚎 𝚖𝚞𝚗𝚐",
 "time": "2026-11-20T09:24:38.643Z",
-"likes": 2,
+"likes": 3,
 "reposts": 0,
 "url": "https://bsky.app/profile/jyoti808.bsky.social/post/3n2qbc4nqyk2c",
 "term": "지하철"
@@ -4260,16 +4270,6 @@
 "url": "https://www.youtube.com/watch?v=mz1UCKj2JuM"
 },
 {
-"text": "하루종일 지하철타니 기빨리네 집에 가고 싶다 벌써 ㅠㅠ",
-"handle": "nomp.bsky.social",
-"name": "Not enough MP.",
-"time": "2026-11-20T09:14:18.441Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/nomp.bsky.social/post/3n2qapn7s5225",
-"term": "지하철"
-},
-{
 "platform": "YouTube",
 "text": "세계와 한국의 지하철역사",
 "handle": "UCzkSv9qnS0b9JwbJf8QgT6A",
@@ -4310,23 +4310,23 @@
 {
 "term": "폭발",
 "n30": 6,
-"base": 0.5,
+"base": 0.4,
 "spike": true,
-"since": "2026-11-20T09:35:49.492803+00:00"
+"since": "2026-11-20T09:38:04.162946+00:00"
 }
 ],
 "baseline": {
-"지진": 0.25,
+"지진": 0.43,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.41,
+"폭발": 0.37,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 3.67,
-"사고": 4.78,
+"지하철": 4.0,
+"사고": 4.7,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -4633,14 +4633,14 @@
 "time": "2026-11-20T07:20:00+00:00",
 "news": [
 {
+"title": "Рязанский облдсуд утвердил приговор экс-чиновнику, сбившему подростка",
+"source": "riazan.top24.news",
+"link": "https://riazan.top24.news/obshestvo/ryazanskij-obldsud-utverdil-prigovor-eks-chinovniku-sbivshemu-podrostka/"
+},
+{
 "title": "Бывший рыбновский депутат Исаев ответит по закону за гибель подростка",
 "source": "Областная Рязанская Газета",
 "link": "https://rg62.info/2026/11/20/byvshij-rybnovskij-deputat-isaev-otvetit-po-zakonu-za-gibel-podrostka/"
-},
-{
-"title": "Рязанский областной суд оставил в силе приговор экс-главе Алёшинского поселения Исаеву, который насмерть сбил подростка",
-"source": "Рязанские Новости",
-"link": "https://ryazannews.ru/fn_1998733.html"
 }
 ],
 "new": true
