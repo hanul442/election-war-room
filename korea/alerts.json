@@ -1,7 +1,38 @@
 {
-"updated": "2026-11-20T17:38:22.477919+00:00",
+"updated": "2026-11-20T17:40:43.041119+00:00",
 "errors": [],
 "events": [
+{
+"id": "wNISX20261121_00038775031736",
+"first": "2026-11-20T17:36:57+00:00",
+"last": "2026-11-20T17:36:57+00:00",
+"updated": "2026-11-20T17:40:43.041119+00:00",
+"headline": "트럼프 \"美 자동차산업, 한국 등에 도둑맞아…돌아오는중\"",
+"cat": "국제",
+"regions": [],
+"sources": [
+"뉴시스"
+],
+"updates": [
+{
+"title": "[속보]트럼프 \"美 자동차산업, 한국 등에 도둑맞아…돌아오는중\"",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261121_0003877503",
+"time": "2026-11-20T17:36:57+00:00",
+"stage": "얼럿"
+}
+],
+"level": "URGENT",
+"latest": "트럼프 \"美 자동차산업, 한국 등에 도둑맞아…돌아오는중\"",
+"tok": [
+"도둑맞아",
+"돌아오는중",
+"등에",
+"자동차산업",
+"트럼프",
+"한국"
+]
+},
 {
 "id": "viewAKR202611201803005271422",
 "first": "2026-11-20T14:22:52+00:00",
@@ -1852,7 +1883,7 @@
 "spike": false
 },
 "폭발": {
-"n30": 8,
+"n30": 6,
 "base": 0.2,
 "spike": true
 },
@@ -1878,12 +1909,12 @@
 },
 "지하철": {
 "n30": 1,
-"base": 0.1,
+"base": 0.2,
 "spike": false
 },
 "사고": {
 "n30": 0,
-"base": 0.7,
+"base": 0.6,
 "spike": false
 },
 "실종": {
@@ -2162,31 +2193,31 @@
 "spikes": [
 {
 "term": "폭발",
-"n30": 8,
+"n30": 6,
 "base": 0.2,
 "spike": true,
-"since": "2026-11-20T17:38:22.477919+00:00"
+"since": "2026-11-20T17:40:43.041119+00:00"
 },
 {
 "term": "속보",
 "n30": 6,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-20T17:38:22.477919+00:00"
+"since": "2026-11-20T17:40:43.041119+00:00"
 }
 ],
 "baseline": {
-"지진": 0.6,
+"지진": 0.64,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.22,
+"폭발": 0.2,
 "붕괴": 0.05,
-"대피": 0.2,
+"대피": 0.18,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.24,
-"사고": 0.61,
+"지하철": 0.32,
+"사고": 0.55,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -2430,14 +2461,14 @@
 "time": "2026-11-20T16:10:00+00:00",
 "news": [
 {
+"title": "Prince, Rana rout Nepal for 26 after Tilak, Kushagra tons",
+"source": "Cricinfo",
+"link": "https://www.cricinfo.com/series/asia-cup-rising-stars-50-overs-2026-27-1562333/india-a-vs-nepal-4th-match-group-b-1562345/match-report"
+},
+{
 "title": "Nepal bowled out for 26 by India A: Why it won't be the lowest ODI total ever",
 "source": "Yahoo Sports",
 "link": "https://sports.yahoo.com/articles/nepal-bowled-26-india-why-160544669.html"
-},
-{
-"title": "India A vs Nepal Highlights, ACC Men's Asia Cup Rising Stars 2026: India bowl out Nepal for 26, clinch 306-run win",
-"source": "The Times of India",
-"link": "https://timesofindia.indiatimes.com/sports/cricket/india-a-vs-nepal-acc-mens-asia-cup-rising-stars-2026-live-score-match-today-scorecard-result-west-end-park-international-cricket-stadium/liveblog/136018863.cms"
 }
 ],
 "new": true
