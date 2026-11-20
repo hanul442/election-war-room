@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-20T10:40:57.629424+00:00",
+"updated": "2026-11-20T10:43:12.334718+00:00",
 "errors": [],
 "events": [
 {
@@ -4072,7 +4072,7 @@
 },
 "폭발": {
 "n30": 2,
-"base": 0.5,
+"base": 0.4,
 "spike": false
 },
 "붕괴": {
@@ -4091,18 +4091,18 @@
 "spike": false
 },
 "속보": {
-"n30": 5,
+"n30": 4,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "지하철": {
-"n30": 2,
-"base": 2.4,
+"n30": 1,
+"base": 2.3,
 "spike": false
 },
 "사고": {
 "n30": 5,
-"base": 3.2,
+"base": 3.4,
 "spike": false
 },
 "실종": {
@@ -4147,7 +4147,7 @@
 "handle": "hangin1.bsky.social",
 "name": "나무2",
 "time": "2026-11-20T10:38:25.049Z",
-"likes": 1,
+"likes": 2,
 "reposts": 0,
 "url": "https://bsky.app/profile/hangin1.bsky.social/post/3n2qffzxytc2i",
 "term": "지하철"
@@ -4264,16 +4264,6 @@
 "url": "https://www.youtube.com/watch?v=VJYl12BDU7c"
 },
 {
-"text": "나진짜지하철에서사람죽이는거이해함\n오늘도한다섯명살린듯 난 사람을구했다",
-"handle": "ossacranii.bsky.social",
-"name": "🔒Ossa",
-"time": "2026-11-20T10:11:11.141Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/ossacranii.bsky.social/post/3n2qdvcxp2c25",
-"term": "지하철"
-},
-{
 "platform": "YouTube",
 "text": "심텍 주가전망, [11월 20일 긴급속보] \"이 가격\" 상승 전 마지막 바닥 기회!",
 "handle": "UCFYSMs4opfwXI39PKlycYWQ",
@@ -4355,27 +4345,19 @@
 "url": "https://www.youtube.com/watch?v=InDlNZpq8ec"
 }
 ],
-"spikes": [
-{
-"term": "속보",
-"n30": 5,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-20T10:40:57.629424+00:00"
-}
-],
+"spikes": [],
 "baseline": {
-"지진": 0.27,
+"지진": 0.24,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.42,
+"폭발": 0.38,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 2.34,
-"사고": 3.37,
+"지하철": 2.21,
+"사고": 3.53,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -4551,6 +4533,60 @@
 },
 "trends": [
 {
+"term": "토마스 뮐러",
+"traffic": "200+",
+"time": "2026-11-20T09:40:00+00:00",
+"news": [
+{
+"title": "이러면 손흥민은 뭐가 되나…MLS 직접 경험한 뮐러의 작심 발언 “강등도 없고 큰 압박감도 없다, 선수들은 90분 동안 집중력 부족”",
+"source": "인터풋볼",
+"link": "https://www.interfootball.co.kr/news/articleView.html?idxno=698852"
+},
+{
+"title": "손흥민·메시 뛰는 MLS 수준 충격 평가...레전드 뮐러 작심 고백 \"강등 없고 압박도 없어! 수비는 안일해\"",
+"source": "포포투",
+"link": "https://www.fourfourtwo.co.kr/news/articleView.html?idxno=101056"
+}
+],
+"new": true
+},
+{
+"term": "스타벅스",
+"traffic": "200+",
+"time": "2026-11-20T09:40:00+00:00",
+"news": [
+{
+"title": "스타벅스, ’부드러운 생크림 카스텔라’ 700원 인상…11년 만",
+"source": "연합뉴스TV",
+"link": "https://www.yonhapnewstv.co.kr/news/AKR202611201453244Qv"
+},
+{
+"title": "스타벅스 디저트 ‘부생카’ 11년 만에 첫 가격 인상… 700원 오른다",
+"source": "천지일보",
+"link": "https://www.newscj.com/news/articleView.html?idxno=3450737"
+}
+],
+"new": true
+},
+{
+"term": "굿파트너2",
+"traffic": "500+",
+"time": "2026-11-20T09:40:00+00:00",
+"news": [
+{
+"title": "'굿파트너2'서 로펌대표 된 장나라 \"전작 재미 유지하려 애썼죠\"",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261120147300005"
+},
+{
+"title": "스튜디오앤뉴, '굿파트너2' 제작 참여…메가 히트 IP로 연타석 흥행 노린다",
+"source": "조선일보",
+"link": "https://www.chosun.com/entertainments/broadcast/2026/11/20/MY2GMYLEHFQWCYZVMY3DOYJRMY/"
+}
+],
+"new": true
+},
+{
 "term": "김장",
 "traffic": "1000+",
 "time": "2026-11-20T09:30:00+00:00",
@@ -4579,9 +4615,9 @@
 "link": "https://www.afaqs.com/news/mktg/excitel-becomes-global-sponsor-of-dp-world-asia-cup-rising-stars-2026-12823784"
 },
 {
-"title": "India A vs Nepal Live Score: All eyes on Abhishek, Vaibhav as India begin title chase",
-"source": "India Today",
-"link": "https://www.indiatoday.in/sports/cricket/story/india-a-vs-nepal-live-score-rising-stars-asia-cup-2026-ind-a-nep-match-3043062-2026-11-20"
+"title": "Nepal begin Rising Stars campaign against formidable India A",
+"source": "The Kathmandu Post",
+"link": "https://kathmandupost.com/cricket/2026/11/20/nepal-begin-rising-stars-campaign-against-formidable-india-a"
 }
 ],
 "new": true
@@ -4675,64 +4711,9 @@
 }
 ],
 "new": true
-},
-{
-"term": "헝거게임",
-"traffic": "100+",
-"time": "2026-11-20T08:40:00+00:00",
-"news": [
-{
-"title": "캣니스의 스승은 어떻게 살아남았나…24년 전으로 돌아간 '헝거게임'",
-"source": "뉴시스",
-"link": "https://www.newsis.com/view/NISX20261120_0003876553"
-},
-{
-"title": "잔인한 생존 게임, 판을 뒤집어라…'헝거게임 50번째 추첨의 날'",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261114033700005"
-}
-],
-"new": false
-},
-{
-"term": "푸른길",
-"traffic": "500+",
-"time": "2026-11-20T08:10:00+00:00",
-"news": [
-{
-"title": "[문화연예 플러스] 손석구, '푸른길'서 또 형사 역할 도전",
-"source": "MBC 뉴스",
-"link": "https://imnews.imbc.com/replay/2026/nwtoday/article/6866494_37012.html"
-},
-{
-"title": "집요한 추적 끝에 마주한 긴장감…'푸른길'의 서늘한 스릴 [영화있슈] - 머니투데이",
-"source": "머니투데이",
-"link": "https://www.mt.co.kr/culture/2026/11/19/2026111808472621758"
-}
-],
-"new": false
-},
-{
-"term": "정유라",
-"traffic": "200+",
-"time": "2026-11-20T08:10:00+00:00",
-"news": [
-{
-"title": "\"장기라도 팔고 싶어\" 무릎 꿇었던 정유라…최순실 병원비 재차 호소 - 머니투데이",
-"source": "머니투데이",
-"link": "https://www.mt.co.kr/society/2026/11/19/2026111823270936147"
-},
-{
-"title": "\"최후의 순간까지 박 대통령 편이었던 엄마 외면 말라\"…정유라, 병원비 지원 재차 호소",
-"source": "부산파이낸셜뉴스",
-"link": "https://busan.fnnews.com/news/202611190635493105"
-}
-],
-"new": true
 }
 ],
 "trendSeen": [
-"초등학교",
 "총기 난사",
 "총파업",
 "최동석",
@@ -4832,6 +4813,7 @@
 "테일즈위버 모바일",
 "텍사스 주지사",
 "텔레그램",
+"토마스 뮐러",
 "토마토",
 "토스",
 "토스증권",
