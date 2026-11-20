@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-20T21:44:15.173719+00:00",
+"updated": "2026-11-20T21:46:27.628206+00:00",
 "errors": [],
 "events": [
 {
@@ -54,12 +54,13 @@
 {
 "id": "lNUFkMDNVN2lTWW5IeER3oc52105",
 "first": "2026-11-20T21:05:00+00:00",
-"last": "2026-11-20T21:32:16+00:00",
-"updated": "2026-11-20T21:41:59.966028+00:00",
+"last": "2026-11-20T21:39:24+00:00",
+"updated": "2026-11-20T21:46:27.628206+00:00",
 "headline": "뉴욕증시, 기술주 매도에 나스닥 5.3%↓…다우·S&P500도 조정 진입",
 "cat": "경제",
 "regions": [],
 "sources": [
+"뉴스1",
 "서울파이낸스",
 "연합뉴스",
 "이투데이",
@@ -107,10 +108,17 @@
 "link": "https://www.chosun.com/international/international_general/2026/11/21/GAYDAMDBMQ4TMNBUMYYDSZRTMI/",
 "time": "2026-11-20T21:32:16+00:00",
 "stage": "후속"
+},
+{
+"title": "[속보] 기술주 매도에 나스닥 5.3% 폭락…앤트로픽 상장 상승세 반납",
+"source": "뉴스1",
+"link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBkQTRUMklfWkNaV1I5M0tNV0xnbDlFbWhZNHR5SFJPZXdzcGlkU3FWTUtDQ21PLTgyWlo1NTZsTTM0azJoTnRTSW45cm9NU19DLWRMTFYzZGduMHhRalgwZGVoNl9zb1k?oc=5",
+"time": "2026-11-20T21:39:24+00:00",
+"stage": "속보"
 }
 ],
 "level": "URGENT",
-"latest": "뉴욕증시, 기술주 투매에 일제히 흔들…나스닥 5.3% 급락",
+"latest": "기술주 매도에 나스닥 5.3% 폭락…앤트로픽 상장 상승세 반납",
 "tok": [
 "P500",
 "급락",
@@ -119,7 +127,11 @@
 "뉴욕증시",
 "다우",
 "매도",
+"반납",
+"상승세",
+"상장",
 "앤스로픽",
+"앤트로픽",
 "일제히",
 "조정",
 "진입",
@@ -1457,7 +1469,7 @@
 "terms": {
 "지진": {
 "n30": 1,
-"base": 0.5,
+"base": 0.6,
 "spike": false
 },
 "화재": {
@@ -1476,7 +1488,7 @@
 "spike": false
 },
 "폭발": {
-"n30": 3,
+"n30": 2,
 "base": 0.1,
 "spike": false
 },
@@ -1757,7 +1769,7 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 0.56,
+"지진": 0.6,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
@@ -1771,7 +1783,7 @@
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
-"먹통": 0.06,
+"먹통": 0.05,
 "산불": 0.05
 },
 "errors": [],
