@@ -1,7 +1,38 @@
 {
-"updated": "2026-11-20T10:54:21.725174+00:00",
+"updated": "2026-11-20T10:56:35.186913+00:00",
 "errors": [],
 "events": [
+{
+"id": "nkRSSLINKcooperRSSREADER1053",
+"first": "2026-11-20T10:53:57+00:00",
+"last": "2026-11-20T10:53:57+00:00",
+"updated": "2026-11-20T10:56:35.186913+00:00",
+"headline": "속옷에 숨겼다가 화장실에 버렸다…111명 적발",
+"cat": "기타",
+"regions": [],
+"sources": [
+"SBS"
+],
+"updates": [
+{
+"title": "[단독] 속옷에 숨겼다가 화장실에 버렸다…111명 적발",
+"source": "SBS",
+"link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008856369&plink=RSSLINK&cooper=RSSREADER",
+"time": "2026-11-20T10:53:57+00:00",
+"stage": "단독"
+}
+],
+"level": "URGENT",
+"latest": "속옷에 숨겼다가 화장실에 버렸다…111명 적발",
+"tok": [
+"111명",
+"버렸다",
+"속옷",
+"숨겼다",
+"적발",
+"화장실"
+]
+},
 {
 "id": "9MVG1vLVIxenRuRDdLWUEoc50959",
 "first": "2026-11-20T09:59:07+00:00",
@@ -93,13 +124,14 @@
 "id": "XgzdVhqYWNGUGtmNU93Zwoc50953",
 "first": "2026-11-20T09:53:00+00:00",
 "last": "2026-11-20T10:10:01+00:00",
-"updated": "2026-11-20T10:54:21.725174+00:00",
+"updated": "2026-11-20T10:56:35.186913+00:00",
 "headline": "이 대통령, 김종철 경찰청장 임명 재가",
 "cat": "정치",
 "regions": [],
 "sources": [
 "KBS 뉴스",
 "MBC 뉴스",
+"edaily.co.kr",
 "뉴스1",
 "뉴스핌",
 "뉴시스",
@@ -169,6 +201,13 @@
 "source": "세계일보",
 "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBpM3RRSC1vamVFUHNqTWNlY25YdDdZekZhS3lqdm83R0Y5dk5jUUFrQWJGZFpjYnN6cnZjOXc0cktlS0daNG8yRVFCU0trUW530gFUQVVfeXFMTWFQWlhXUzROZUNRRGFxU3JfRlJpTnc5ZnU0TzB3NnRjTnRyVTYtZmNjWkZKWkpJdVlwQlloQi00akhmeFgzd2NrZ19mVy1TR0F3UEpS?oc=5",
 "time": "2026-11-20T10:05:54+00:00",
+"stage": "속보"
+},
+{
+"title": "[속보] 李대통령, 김종철 경찰청장 임명안 재가",
+"source": "edaily.co.kr",
+"link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNVFpiSDRJbjA2N2IyYVBzT2hKY2xDd1d1Uk9ZYjZMNnYyb2dpV2hnNEF0RThzc21WQWFjdXd3UGNXazVvMkNoTXdEZXBwOUtJdlpJTmRXSmZjblkwdkpTcmFsSnZ1NWZWdS1lZlhSbjV4RmE5SV9fNUxkVXZtTnp6Sw?oc=5",
+"time": "2026-11-20T10:08:33+00:00",
 "stage": "속보"
 },
 {
@@ -4018,48 +4057,13 @@
 "지진",
 "캘리포니아주"
 ]
-},
-{
-"id": "ssutm_campaigntotal_news0705",
-"first": "2026-11-20T07:05:00+00:00",
-"last": "2026-11-20T07:05:00+00:00",
-"updated": "2026-11-20T07:07:52.059521+00:00",
-"headline": "‘검은 금요일’ 코스피·코스닥 5%대 폭락…앤트로픽 기대감 꺾이며 4900선 붕괴",
-"cat": "재난",
-"regions": [],
-"sources": [
-"경향신문"
-],
-"updates": [
-{
-"title": "‘검은 금요일’ 코스피·코스닥 5%대 폭락…앤트로픽 기대감 꺾이며 4900선 붕괴",
-"source": "경향신문",
-"link": "https://www.khan.co.kr/article/202611201605001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
-"time": "2026-11-20T07:05:00+00:00",
-"stage": "1보"
-}
-],
-"level": "ALERT",
-"latest": "‘검은 금요일’ 코스피·코스닥 5%대 폭락…앤트로픽 기대감 꺾이며 4900선 붕괴",
-"tok": [
-"4900선",
-"검은",
-"금요일",
-"기대감",
-"꺾이며",
-"붕괴",
-"앤트로픽",
-"코스닥",
-"코스피",
-"폭락"
-]
 }
 ],
 "sns": {
 "terms": {
 "지진": {
 "n30": 1,
-"base": 0.2,
+"base": 0.1,
 "spike": false
 },
 "화재": {
@@ -4079,7 +4083,7 @@
 },
 "폭발": {
 "n30": 1,
-"base": 0.5,
+"base": 0.6,
 "spike": false
 },
 "붕괴": {
@@ -4104,12 +4108,12 @@
 },
 "지하철": {
 "n30": 1,
-"base": 1.8,
+"base": 1.7,
 "spike": false
 },
 "사고": {
 "n30": 4,
-"base": 3.9,
+"base": 4.0,
 "spike": false
 },
 "실종": {
@@ -4364,17 +4368,17 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 0.14,
+"지진": 0.13,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.57,
+"폭발": 0.61,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 1.71,
-"사고": 3.95,
+"지하철": 1.64,
+"사고": 3.96,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -4663,14 +4667,14 @@
 "time": "2026-11-20T09:30:00+00:00",
 "news": [
 {
-"title": "이더리움 가스 개편안에 계약 오작동 신고 4건…19일 재점검",
-"source": "코인리더스",
-"link": "https://www.coinreaders.com/271415"
-},
-{
 "title": "ETH 뉴스: 이더리움 차기 대규모 업그레이드, 앱 호환성 문제로 2027년으로 연기",
 "source": "CoinDesk",
 "link": "https://www.coindesk.com/ko/tech/2026/11/20/ethereum-s-next-big-upgrade-is-pushed-into-2027-by-apps-it-would-break"
+},
+{
+"title": "이더리움 '글램스테르담' 업데이트, 내년 5월까지 늦춰질 수도",
+"source": "블루밍비트",
+"link": "https://bloomingbit.io/feed/news/124834"
 }
 ],
 "new": true
@@ -4712,22 +4716,22 @@
 "new": false
 },
 {
-"term": "한성숙",
-"traffic": "2000+",
+"term": "김치의 날",
+"traffic": "100+",
 "time": "2026-11-20T08:40:00+00:00",
 "news": [
 {
-"title": "수능 끝나자 교육장관 공개행보‥\"사퇴 생각 없나?\" 대놓고 묻자 [현장영상]",
-"source": "MBC 뉴스",
-"link": "https://imnews.imbc.com/news/2026/society/article/6867309_36918.html"
+"title": "김혜경 여사, 제7회 김치의 날 기념식 - 포토 | 멀티미디어",
+"source": "대한민국 정책브리핑",
+"link": "https://www.korea.kr/multi/policyPhotoView.do?bbsKey=74425&pageIndex=1"
 },
 {
-"title": "신발 깔창에 핸드폰 숨겨 반입한 수험생, 경찰 수사 받는다",
-"source": "조선일보",
-"link": "https://www.chosun.com/national/national_general/2026/11/20/J7X3ZHGVJBAU7GCQNAPLP5PV2Y/"
+"title": "김장 양념 질문받은 김혜경 여사 “이건 기밀인데…”",
+"source": "동아일보",
+"link": "https://www.donga.com/news/Politics/article/all/20261120/135060404/2"
 }
 ],
-"new": false
+"new": true
 }
 ],
 "trendSeen": [
