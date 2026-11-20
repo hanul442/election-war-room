@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-20T18:36:02.238618+00:00",
+"updated": "2026-11-20T18:38:16.916091+00:00",
 "errors": [],
 "events": [
 {
@@ -1142,51 +1142,12 @@
 "최동석이었다",
 "혐의"
 ]
-},
-{
-"id": "zJreHhSNzFERXR2NzZvdwoc51236",
-"first": "2026-11-20T12:36:40+00:00",
-"last": "2026-11-20T12:36:40+00:00",
-"updated": "2026-11-20T12:58:32.707604+00:00",
-"headline": "이브, 다섯 번째 EP ‘큐트 앤 앵자이어티’ 발매",
-"cat": "기타",
-"regions": [],
-"sources": [
-"스페셜타임스"
-],
-"updates": [
-{
-"title": "[속보] 이브, 다섯 번째 EP ‘큐트 앤 앵자이어티’ 발매",
-"source": "스페셜타임스",
-"link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9NNjd5LVNONDB3TTQwczExeHdSR21LNGwwREpzRE93WjlzSm1FUGtjTnJ1OHRVNXhPY0VCdkQ1d0FpcV81amRTYVVsZXZNWDhPdHlzMldUeVU2YjVFTFBJV0ctZzJreHhSNzFERXR2NzZvdw?oc=5",
-"time": "2026-11-20T12:36:40+00:00",
-"stage": "얼럿"
-},
-{
-"title": "[속보] 이브, 다섯 번째 EP ‘큐트 앤 앵자이어티’ 발매",
-"source": "스페셜타임스",
-"link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1ValJvenNmeXI3OEJLQVJWaGNFeEZJTkh1M0dOeGRRYkU0RXJwYm9GY0NsTVJrZXptWWx2Wm9FbXE4OU0wLVZfSV9mZW5HaEZvb3I4aDE0bVpkS1FQeVlMeGRZRm9XdlZ6cUNSVW1OQV90WUU?oc=5",
-"time": "2026-11-20T12:36:40+00:00",
-"stage": "속보"
-}
-],
-"level": "URGENT",
-"latest": "이브, 다섯 번째 EP ‘큐트 앤 앵자이어티’ 발매",
-"tok": [
-"EP",
-"다섯",
-"발매",
-"번째",
-"앵자이어티",
-"이브",
-"큐트"
-]
 }
 ],
 "sns": {
 "terms": {
 "지진": {
-"n30": 1,
+"n30": 2,
 "base": 0.1,
 "spike": false
 },
@@ -1206,7 +1167,7 @@
 "spike": false
 },
 "폭발": {
-"n30": 6,
+"n30": 5,
 "base": 0.3,
 "spike": true
 },
@@ -1226,7 +1187,7 @@
 "spike": false
 },
 "속보": {
-"n30": 6,
+"n30": 5,
 "base": 0.1,
 "spike": true
 },
@@ -1267,6 +1228,16 @@
 }
 },
 "posts": [
+{
+"text": "그치만 나는 데블스홀열대송사리가 멸종하지 않았으면 함.\n뭐 지진이 일어나서 데블스 홀이 통째로 없어져버렸다…이거는 어쩔 수 없지(실제로 이 친구들의 존속을 위협하는 가장 큰 요인임).\n근데 어느 집안에 저 동네에 7백만 달러 들여서 목장 열면서 지하수를 다 끌어다 쓰는 바람에 멸종했다(70년대에 실제로 일어날 뻔한 일임) 이거는 좀 그렇잖아.",
+"handle": "sanhwa-lee.com",
+"name": "이산화",
+"time": "2026-11-20T18:36:58.241Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/sanhwa-lee.com/post/3n2ra5pkh7c2n",
+"term": "지진"
+},
 {
 "platform": "YouTube",
 "text": "왜 이제 샀을까! 후기 폭발 차량용 방향제 디퓨저 꿀조합: 차량용·120ml·피오브 총정리",
@@ -1479,30 +1450,30 @@
 "spikes": [
 {
 "term": "폭발",
-"n30": 6,
+"n30": 5,
 "base": 0.3,
 "spike": true,
-"since": "2026-11-20T18:36:02.238618+00:00"
+"since": "2026-11-20T18:38:16.916091+00:00"
 },
 {
 "term": "속보",
-"n30": 6,
+"n30": 5,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-20T18:36:02.238618+00:00"
+"since": "2026-11-20T18:38:16.916091+00:00"
 }
 ],
 "baseline": {
-"지진": 0.1,
+"지진": 0.19,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.28,
-"붕괴": 0.71,
+"폭발": 0.25,
+"붕괴": 0.74,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.18,
+"지하철": 0.16,
 "사고": 0.05,
 "실종": 0.05,
 "단수": 0.05,
