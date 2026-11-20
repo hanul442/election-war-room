@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-20T05:46:32.306166+00:00",
+"updated": "2026-11-20T05:48:47.490995+00:00",
 "errors": [],
 "events": [
 {
@@ -930,7 +930,7 @@
 "id": "viewAKR202611201026000010510",
 "first": "2026-11-20T05:10:34+00:00",
 "last": "2026-11-20T05:19:28+00:00",
-"updated": "2026-11-20T05:37:37.099154+00:00",
+"updated": "2026-11-20T05:48:47.490995+00:00",
 "headline": "李대통령 \"AI 부정 등 환경 변화 맞춰 국가시험제도 전면 개편\"",
 "cat": "정치",
 "regions": [],
@@ -946,6 +946,7 @@
 "스페셜타임스",
 "아주경제",
 "연합뉴스",
+"연합뉴스TV",
 "조선일보",
 "한국경제"
 ],
@@ -1004,6 +1005,13 @@
 "source": "매일경제",
 "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9fdTk4bzY5Ym5tUWcxZGJqM2ZhM2FsMDNlY3hVRWlZbGowZ0l6eWtuWW5YY3B3RnNzRGg1OTczcFBta2Rua053SUpJc2tkMkp0ak13aUJB?oc=5",
 "time": "2026-11-20T05:14:36+00:00",
+"stage": "속보"
+},
+{
+"title": "[속보] 이 대통령 \"AI 부정 등 환경 변화 맞춰 국가시험제도 전면 개편\"",
+"source": "연합뉴스TV",
+"link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9BOEJ6LWxnaFRvVFRKM3ZnVEI5UHNmbGpOck5oUEYzWWVCcWlleXczSVJZNi1MM2kydnZwMXpHeEllOFhHYlE4NlNQbld1YV9jZTFEWDZralpzWnJMcmhoSkxyT2NYWjg?oc=5",
+"time": "2026-11-20T05:15:00+00:00",
 "stage": "속보"
 },
 {
@@ -3981,12 +3989,12 @@
 },
 "정전": {
 "n30": 0,
-"base": 0.6,
+"base": 0.5,
 "spike": false
 },
 "폭발": {
-"n30": 1,
-"base": 0.9,
+"n30": 0,
+"base": 0.8,
 "spike": false
 },
 "붕괴": {
@@ -3995,7 +4003,7 @@
 "spike": false
 },
 "대피": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -4006,7 +4014,7 @@
 },
 "속보": {
 "n30": 2,
-"base": 1.0,
+"base": 1.1,
 "spike": false
 },
 "지하철": {
@@ -4016,7 +4024,7 @@
 },
 "사고": {
 "n30": 1,
-"base": 2.5,
+"base": 2.3,
 "spike": false
 },
 "실종": {
@@ -4278,22 +4286,22 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 0.3,
+"지진": 0.27,
 "화재": 0.05,
 "불났": 0.05,
-"정전": 0.52,
-"폭발": 0.85,
+"정전": 0.47,
+"폭발": 0.77,
 "붕괴": 0.05,
 "대피": 0.05,
-"미사일": 0.16,
-"속보": 1.14,
-"지하철": 0.3,
-"사고": 2.34,
-"실종": 0.61,
+"미사일": 0.14,
+"속보": 1.23,
+"지하철": 0.27,
+"사고": 2.21,
+"실종": 0.65,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
-"산불": 0.08
+"산불": 0.07
 },
 "errors": [],
 "ytPosts": [
