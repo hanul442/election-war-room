@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-20T09:44:51.400164+00:00",
+"updated": "2026-11-20T09:47:04.917248+00:00",
 "errors": [],
 "events": [
 {
@@ -3999,7 +3999,7 @@
 "terms": {
 "지진": {
 "n30": 2,
-"base": 0.7,
+"base": 0.9,
 "spike": false
 },
 "화재": {
@@ -4018,12 +4018,12 @@
 "spike": false
 },
 "폭발": {
-"n30": 5,
+"n30": 4,
 "base": 0.3,
-"spike": true
+"spike": false
 },
 "붕괴": {
-"n30": 2,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
@@ -4038,7 +4038,7 @@
 "spike": false
 },
 "속보": {
-"n30": 3,
+"n30": 2,
 "base": 0.1,
 "spike": false
 },
@@ -4048,8 +4048,8 @@
 "spike": false
 },
 "사고": {
-"n30": 4,
-"base": 4.6,
+"n30": 3,
+"base": 4.5,
 "spike": false
 },
 "실종": {
@@ -4124,7 +4124,7 @@
 "handle": "saltnyam.bsky.social",
 "name": "       🌋 소금 🌋",
 "time": "2026-11-20T09:34:16.648Z",
-"likes": 1,
+"likes": 2,
 "reposts": 0,
 "url": "https://bsky.app/profile/saltnyam.bsky.social/post/3n2qbteibb224",
 "term": "사고"
@@ -4233,16 +4233,6 @@
 "term": "사고"
 },
 {
-"text": "동대구역 KTX 고장으로 경부선 열차 81편 연쇄 지연…최대 110분 차질\n\n2026년 11월 20일 오전 동대구역 인근에서 부산행 KTX가 고장으로 멈춰 경부선 81편이 최대 110분 지연됐습니다. 사고 경위와 코레일 대응, 배상 절차, 향후 과제를 정리했습니다.\n\nm.blog.naver.com/hampi2/22448...",
-"handle": "hampi2.bsky.social",
-"name": "hampi2.bsky.social",
-"time": "2026-11-20T09:16:47.650Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/hampi2.bsky.social/post/3n2qatxtsbs2y",
-"term": "사고"
-},
-{
 "platform": "YouTube",
 "text": "[노랑풍선 주가 전망] 11/20 5분전 속보 '5480억' 대형 호재! 역대급 사태 난리났다! / 주주 필수 시청 영상 #노랑풍선주가전망 #노랑풍선 #노랑풍선주가 #노랑풍선전망",
 "handle": "UCup1s6C6fn1zb79KCkjkj0g",
@@ -4306,27 +4296,19 @@
 "url": "https://www.youtube.com/watch?v=DgwAMbK8J-8"
 }
 ],
-"spikes": [
-{
-"term": "폭발",
-"n30": 5,
-"base": 0.3,
-"spike": true,
-"since": "2026-11-20T09:44:51.400164+00:00"
-}
-],
+"spikes": [],
 "baseline": {
-"지진": 0.86,
+"지진": 0.97,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.27,
+"폭발": 0.24,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 4.61,
-"사고": 4.51,
+"지하철": 4.65,
+"사고": 4.36,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
