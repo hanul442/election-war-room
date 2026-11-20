@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-20T03:30:46.605377+00:00",
+"updated": "2026-11-20T03:33:01.528950+00:00",
 "errors": [],
 "events": [
 {
@@ -4259,12 +4259,12 @@
 "terms": {
 "지진": {
 "n30": 1,
-"base": 0.8,
+"base": 0.9,
 "spike": false
 },
 "화재": {
 "n30": 1,
-"base": 0.2,
+"base": 0.3,
 "spike": false
 },
 "불났": {
@@ -4278,7 +4278,7 @@
 "spike": false
 },
 "폭발": {
-"n30": 2,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -4298,7 +4298,7 @@
 "spike": false
 },
 "속보": {
-"n30": 2,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
@@ -4309,7 +4309,7 @@
 },
 "사고": {
 "n30": 4,
-"base": 1.4,
+"base": 1.7,
 "spike": false
 },
 "실종": {
@@ -4565,17 +4565,17 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 0.86,
-"화재": 0.32,
+"지진": 0.87,
+"화재": 0.39,
 "불났": 0.05,
 "정전": 0.05,
 "폭발": 0.05,
 "붕괴": 0.05,
-"대피": 0.71,
+"대피": 0.74,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 1.37,
-"사고": 1.66,
+"지하철": 1.33,
+"사고": 1.89,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -4742,6 +4742,42 @@
 },
 "trends": [
 {
+"term": "배치표",
+"traffic": "1000+",
+"time": "2026-11-20T02:30:00+00:00",
+"news": [
+{
+"title": "‘불수능’ 사라지자 SKY 문턱 껑충… 서울대 의예 298점·경영 287점 전망",
+"source": "동아일보",
+"link": "https://www.donga.com/news/Society/article/all/20261120/135059516/1"
+},
+{
+"title": "[단독][2027수능 가채점배치표] 빅5 의대, 고대 의대 298점 '최고' (종로)",
+"source": "베리타스알파",
+"link": "https://www.veritas-a.com/news/articleView.html?idxno=638289"
+}
+],
+"new": true
+},
+{
+"term": "ราคาทองวันนี้",
+"traffic": "100+",
+"time": "2026-11-20T02:30:00+00:00",
+"news": [
+{
+"title": "ทองไทยดิ่งแรง 2,850 บาท ตามทองโลก ตลาดหวั่นเฟดขึ้นดอกเบี้ย ธ.ค.นี้ เตือนระวังราคาลงต่อ",
+"source": "efin.finance",
+"link": "https://www.efin.finance/th/stock/news/detail/ryp1AA"
+},
+{
+"title": "ราคาทองคำวันนี้ 20 พฤศจิกายน: ราคาทองคำโลกปรับตัวลดลงมาอยู่ที่ 3,631 ดอลลาร์สหรัฐฯ ราคาทองคำ SJC จะยังคงลดลงต่อไปหรือไม่?",
+"source": "Vietnam.vn",
+"link": "https://www.vietnam.vn/th/gia-vang-hom-nay-20-11-the-gioi-xuong-3-631-usd-vang-sjc-con-giam-tiep"
+}
+],
+"new": true
+},
+{
 "term": "시애틀 사운더스 대 솔트레이크",
 "traffic": "1000+",
 "time": "2026-11-20T02:10:00+00:00",
@@ -4824,9 +4860,9 @@
 "link": "https://www.khan.co.kr/article/202611200923001"
 },
 {
-"title": "제네시스, LA 오토쇼서 G80 하이브리드 최초 공개... 북미 고급 하이브리드 시장 첫발",
-"source": "조선일보",
-"link": "https://www.chosun.com/economy/industry-company/2026/11/20/DESJLW7PAJHYZEWBJMUWCZCCQY/"
+"title": "\"주유소 사장님, 저 당분간 못 와요\"…확 달라진 국산차 정체",
+"source": "한국경제",
+"link": "https://www.hankyung.com/article/202611209146g"
 }
 ],
 "new": true
@@ -4855,14 +4891,14 @@
 "time": "2026-11-20T01:00:00+00:00",
 "news": [
 {
-"title": "Clippers vs. Spurs Prediction, Odds and Best NBA Prop Bets for Thursday, Nov. 19",
-"source": "Sports Illustrated",
-"link": "https://www.si.com/betting/clippers-vs-spurs-prediction-odds-and-best-nba-prop-bets-for-thursday-nov-19-2026"
+"title": "How to Watch Clippers vs. Spurs for Free: TV Channels, Live Stream Options",
+"source": "Yahoo Sports",
+"link": "https://sports.yahoo.com/articles/watch-clippers-vs-spurs-free-000000389.html"
 },
 {
-"title": "Game Preview: San Antonio Spurs vs. Los Angeles Clippers",
+"title": "It’s time for Basketball: San Antonio Spurs vs Los Angeles Clippers",
 "source": "Pounding The Rock",
-"link": "https://www.poundingtherock.com/spurs-game-previews/110399/game-preview-san-antonio-spurs-vs-los-angeles-clippers"
+"link": "https://www.poundingtherock.com/spurs-discussion-threads/110410/its-time-for-basketball-san-antonio-spurs-vs-los-angeles-clippers"
 }
 ],
 "new": true
@@ -4881,42 +4917,6 @@
 "title": "한국, 유엔 전자정부평가서 12년 만에 세계 1위 탈환",
 "source": "경향신문",
 "link": "https://www.khan.co.kr/article/202611200956001"
-}
-],
-"new": true
-},
-{
-"term": "fc 포항 스틸러스",
-"traffic": "200+",
-"time": "2026-11-20T01:00:00+00:00",
-"news": [
-{
-"title": "[공식발표] 5년 만에 파이널B 추락→팬들은 ‘응원 보이콧’ 선언…위기의 포항, 변화 약속 “말이 아닌 행동·결과로 보여드리겠다”",
-"source": "Goal.com",
-"link": "https://www.goal.com/kr/%EB%89%B4%EC%8A%A4/%E1%84%80%E1%85%A9%E1%86%BC%E1%84%89%E1%85%B5%E1%86%A8%E1%84%87%E1%85%A1%E1%86%AF%E1%84%91%E1%85%AD-5%E1%84%82%E1%85%A7%E1%86%AB-%E1%84%86%E1%85%A1%E1%86%AB%E1%84%8B%E1%85%A6-%E1%84%91%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%82%E1%85%A5%E1%86%AFb-%E1%84%8E%E1%85%AE%E1%84%85%E1%85%A1%E1%86%A8%E2%86%92%E1%84%91%E1%85%A2%E1%86%AB%E1%84%83%E1%85%B3%E1%86%AF%E1%84%8B%E1%85%B3%E1%86%AB-%E1%84%8B%E1%85%B3%E1%86%BC%E1%84%8B%E1%85%AF%E1%86%AB-%E1%84%87%E1%85%A9%E1%84%8B%E1%85%B5%E1%84%8F%E1%85%A9%E1%86%BA-%E1%84%89%E1%85%A5%E1%86%AB%E1%84%8B%E1%85%A5%E1%86%AB--%E1%84%8B%E1%85%B1%E1%84%80%E1%85%B5%E1%84%8B%E1%85%B4-%E1%84%91%E1%85%A9%E1%84%92%E1%85%A1%E1%86%BC-%E1%84%87%E1%85%A7%E1%86%AB%E1%84%92%E1%85%AA-%E1%84%8B%E1%85%A3%E1%86%A8%E1%84%89%E1%85%A9%E1%86%A8-%E1%84%86%E1%85%A1%E1%86%AF%E1%84%8B%E1%85%B5-%E1%84%8B%E1%85%A1%E1%84%82%E1%85%B5%E1%86%AB-%E1%84%92%E1%85%A2%E1%86%BC%E1%84%83%E1%85%A9%E1%86%BC-%E1%84%80%E1%85%A7%E1%86%AF%E1%84%80%E1%85%AA%E1%84%85%E1%85%A9-%E1%84%87%E1%85%A9%E1%84%8B%E1%85%A7%E1%84%83%E1%85%B3%E1%84%85%E1%85%B5%E1%84%80%E1%85%A6%E1%86%BB%E1%84%83%E1%85%A1/blt0db667d3c5b727e8"
-},
-{
-"title": "포항스틸러스 \"달라지는 모습 보여주겠습니다\"",
-"source": "매일신문",
-"link": "https://www.imaeil.com/page/view/2026111911042341782"
-}
-],
-"new": true
-},
-{
-"term": "영장",
-"traffic": "20000+",
-"time": "2026-11-20T00:50:00+00:00",
-"news": [
-{
-"title": "교육부 \"수능 전자기기 부정행위 111건 적발…재난문자로 54건\"",
-"source": "JTBC",
-"link": "https://news.jtbc.co.kr/article/NB12329012"
-},
-{
-"title": "스마트안경 적발된 수험생, 주머니에 일반 뿔테안경 갖고 있었다",
-"source": "동아일보",
-"link": "https://www.donga.com/news/Society/article/all/20261120/135058753/1"
 }
 ],
 "new": true
