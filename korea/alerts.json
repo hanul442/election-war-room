@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-20T11:23:39.371038+00:00",
+"updated": "2026-11-20T11:26:04.829656+00:00",
 "errors": [],
 "events": [
 {
@@ -4153,7 +4153,7 @@
 },
 "폭발": {
 "n30": 4,
-"base": 0.6,
+"base": 0.7,
 "spike": false
 },
 "붕괴": {
@@ -4178,12 +4178,12 @@
 },
 "지하철": {
 "n30": 5,
-"base": 1.2,
+"base": 1.1,
 "spike": true
 },
 "사고": {
 "n30": 7,
-"base": 5.6,
+"base": 5.8,
 "spike": false
 },
 "실종": {
@@ -4248,7 +4248,7 @@
 "handle": "c0ralsnake.bsky.social",
 "name": "산호뱀𓆙",
 "time": "2026-11-20T11:21:18.149Z",
-"likes": 0,
+"likes": 1,
 "reposts": 0,
 "url": "https://bsky.app/profile/c0ralsnake.bsky.social/post/3n2qhsoy7qc2u",
 "term": "폭발"
@@ -4432,23 +4432,23 @@
 {
 "term": "지하철",
 "n30": 5,
-"base": 1.2,
+"base": 1.1,
 "spike": true,
-"since": "2026-11-20T11:23:39.371038+00:00"
+"since": "2026-11-20T11:26:04.829656+00:00"
 }
 ],
 "baseline": {
-"지진": 0.15,
+"지진": 0.24,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.65,
+"폭발": 0.69,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 1.14,
-"사고": 5.75,
+"지하철": 1.13,
+"사고": 5.88,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -4672,35 +4672,17 @@
 "time": "2026-11-20T09:50:00+00:00",
 "news": [
 {
-"title": "\"내년 심을 벼종자 신청하세요\"…국립종자원, 정부보급종 보급",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261119055100030"
+"title": "벼 수매대금 미지급 논란…농가 피해액 20억원 넘어",
+"source": "농업인신문",
+"link": "https://www.nongupin.co.kr/news/articleView.html?idxno=208975"
 },
 {
-"title": "내년 벼농사 준비 시작…정부보급종 1만8000t 신청 접수",
-"source": "기호일보",
-"link": "https://www.kihoilbo.co.kr/news/articleView.html?idxno=3041502"
+"title": "벼 수매대금 미지급 사태 대처할 보호대책 마련해야",
+"source": "농업인신문",
+"link": "https://www.nongupin.co.kr/news/articleView.html?idxno=208916"
 }
 ],
 "new": true
-},
-{
-"term": "토마스 뮐러",
-"traffic": "200+",
-"time": "2026-11-20T09:40:00+00:00",
-"news": [
-{
-"title": "이러면 손흥민은 뭐가 되나…MLS 직접 경험한 뮐러의 작심 발언 “강등도 없고 큰 압박감도 없다, 선수들은 90분 동안 집중력 부족”",
-"source": "인터풋볼",
-"link": "https://www.interfootball.co.kr/news/articleView.html?idxno=698852"
-},
-{
-"title": "손흥민·메시 뛰는 MLS 수준 충격 평가...레전드 뮐러 작심 고백 \"강등 없고 압박도 없어! 수비는 안일해\"",
-"source": "포포투",
-"link": "https://www.fourfourtwo.co.kr/news/articleView.html?idxno=101056"
-}
-],
-"new": false
 },
 {
 "term": "스타벅스",
@@ -4719,6 +4701,24 @@
 }
 ],
 "new": true
+},
+{
+"term": "토마스 뮐러",
+"traffic": "200+",
+"time": "2026-11-20T09:40:00+00:00",
+"news": [
+{
+"title": "이러면 손흥민은 뭐가 되나…MLS 직접 경험한 뮐러의 작심 발언 “강등도 없고 큰 압박감도 없다, 선수들은 90분 동안 집중력 부족”",
+"source": "인터풋볼",
+"link": "https://www.interfootball.co.kr/news/articleView.html?idxno=698852"
+},
+{
+"title": "손흥민과 생각 달랐다…뮐러 소신 발언 “강등 없는 MLS, 목숨 걸고 싸우는 유럽과 수준 달라”",
+"source": "포포투",
+"link": "https://www.fourfourtwo.co.kr/news/articleView.html?idxno=101041"
+}
+],
+"new": false
 },
 {
 "term": "굿파트너2",
@@ -4744,14 +4744,14 @@
 "time": "2026-11-20T09:30:00+00:00",
 "news": [
 {
-"title": "김혜경 여사, 제7회 김치의 날 기념식 - 포토 | 멀티미디어",
-"source": "대한민국 정책브리핑",
-"link": "https://www.korea.kr/multi/policyPhotoView.do?bbsKey=74425&pageIndex=1"
+"title": "해운대구 좌2동 새마을부녀회, 따뜻한 겨울나기를 위한‘사랑의 김장나누기’ 행사 개최",
+"source": "국제신문",
+"link": "https://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0300&key=20261120.99099006422"
 },
 {
-"title": "[현장영상] 김혜경 여사에게 ‘김장 비법’ 물었더니…“이건 기밀인데”",
-"source": "KBS 뉴스",
-"link": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8718573"
+"title": "한성대 ESG센터, 삼선동 저소득 180가구에 김장 김치 전달",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261120_0003876956"
 }
 ],
 "new": true
@@ -4762,14 +4762,14 @@
 "time": "2026-11-20T09:30:00+00:00",
 "news": [
 {
-"title": "64% 폭락에도 이더리움 담는다…미 기고자가 꼽은 세 가지 이유",
-"source": "글로벌이코노믹",
-"link": "https://www.g-enews.com/article/Securities/2026/11/202611200300385870e7e8286d56_1"
+"title": "비트코인·금도 와르르 … 글로벌 자산시장 패닉",
+"source": "매일경제 마켓",
+"link": "https://stock.mk.co.kr/news/view/1203359"
 },
 {
-"title": "[시세] 이더리움(ETH) 연준 우려에 눌렸다…1,712달러 시험대",
-"source": "코인리더스",
-"link": "https://www.coinreaders.com/271644"
+"title": "비트코인 8439만 원대 하락, 금리인상 부담에 투심 악화 '1차 방어선' 6만 달러",
+"source": "비즈니스포스트",
+"link": "https://www.businesspost.co.kr/BP?command=article_view&num=452467"
 }
 ],
 "new": true
