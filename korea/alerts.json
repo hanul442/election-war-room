@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-20T20:19:48.620714+00:00",
+"updated": "2026-11-20T20:22:07.385241+00:00",
 "errors": [],
 "events": [
 {
@@ -1197,7 +1197,7 @@
 "terms": {
 "지진": {
 "n30": 0,
-"base": 0.9,
+"base": 0.8,
 "spike": false
 },
 "화재": {
@@ -1217,7 +1217,7 @@
 },
 "폭발": {
 "n30": 8,
-"base": 0.1,
+"base": 0.2,
 "spike": true
 },
 "붕괴": {
@@ -1266,7 +1266,7 @@
 "spike": false
 },
 "먹통": {
-"n30": 0,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
@@ -1277,6 +1277,16 @@
 }
 },
 "posts": [
+{
+"text": "키보드는 zmk를 쓰는 것이었고 리매핑을 위해서는 물리적 리셋 후 빌드를 마친 펌웨어를 플래싱 하기를 매번 해줘야 하는 것이었으며... 설정 리셋은 좌우 키보드 모두 해주지 않고 한 쪽만 한 상태에서는 영원히 그쪽 키보드는 먹통이 되는 것이었으며... 빈 키는 리매핑이 안 되는 zmk studio는 펌웨어 매핑이 뭐든 우선하는 것이었으며... 이 모든 것은 매뉴얼에 없고 클로드가 어느 정도 ",
+"handle": "penryn.bsky.social",
+"name": "김펜린",
+"time": "2026-11-20T20:20:44.750Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/penryn.bsky.social/post/3n2rfxc2br226",
+"term": "먹통"
+},
 {
 "text": "적자 기업인데 최소 3년 그 적자가 지속될 거라는게 명확한 회사가 세계 기업 TOP 20에 두 개가 생기면 당연히 그게 보통은 역사적 버블이라고 하겠지...... \n\n트럼프 꼬라지보면 금융 시장 폭발하면 TSMC, 삼전닉스한테 너네 돈 많이 벌었으니까 캐시백해서 미국 회사 살리라고 할 것임. 우리 집 제일 비싼 귤 두 박스를 걸겠음.",
 "handle": "jejuorange.bsky.social",
@@ -1481,24 +1491,24 @@
 {
 "term": "폭발",
 "n30": 8,
-"base": 0.1,
+"base": 0.2,
 "spike": true,
-"since": "2026-11-20T20:19:48.620714+00:00"
+"since": "2026-11-20T20:22:07.385241+00:00"
 },
 {
 "term": "속보",
 "n30": 12,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-20T20:19:48.620714+00:00"
+"since": "2026-11-20T20:22:07.385241+00:00"
 }
 ],
 "baseline": {
-"지진": 0.78,
+"지진": 0.7,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.24,
+"폭발": 0.32,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
@@ -1508,7 +1518,7 @@
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
-"먹통": 0.05,
+"먹통": 0.15,
 "산불": 0.05
 },
 "errors": [],
@@ -1789,9 +1799,9 @@
 "link": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-breaks-below-60k-crypto-163559501.html"
 },
 {
-"title": "Caleb Franzen: CNN Fear & Greed Index remained in fear for past year",
-"source": "Traders Union",
-"link": "https://tradersunion.com/news/market-voices/show/4292945-cnn-fear-greed-index/"
+"title": "Fear & Greed Index falls to 14 as extreme fear grips markets",
+"source": "Crypto Briefing",
+"link": "https://cryptobriefing.com/fear-greed-index-falls-to-14-extreme-fear/"
 }
 ],
 "new": true
