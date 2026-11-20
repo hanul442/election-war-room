@@ -1,12 +1,12 @@
 {
-"updated": "2026-11-20T22:13:15.344072+00:00",
+"updated": "2026-11-20T22:15:29.784423+00:00",
 "errors": [],
 "events": [
 {
 "id": "viewAKR202611210124000612201",
 "first": "2026-11-20T22:01:57+00:00",
-"last": "2026-11-20T22:05:13+00:00",
-"updated": "2026-11-20T22:11:01.250292+00:00",
+"last": "2026-11-20T22:08:39+00:00",
+"updated": "2026-11-20T22:15:29.784423+00:00",
 "headline": "평택 소정리역서 화물열차 탈선…경부선 열차 운행 지장",
 "cat": "교통",
 "regions": [
@@ -45,15 +45,26 @@
 "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1lZmt5S2Npak12d0pha1NkQ0NpclZSQ0J6VjlibTcxdGZPUVdzWUdWdWVmWHZrSTQ4TUY0VG44alFPcHItTXQ0X2tVWk1NblJuNHFOZUpmakFyaV9EcWg4RVAxejA?oc=5",
 "time": "2026-11-20T22:05:13+00:00",
 "stage": "속보"
+},
+{
+"title": "[2보] 경부선 소정리역서 화물열차 탈선…전차선 단전·일반열차 지연",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261121012700061",
+"time": "2026-11-20T22:08:39+00:00",
+"stage": "2보"
 }
 ],
 "level": "URGENT",
-"latest": "평택 소정리역서 화물열차 탈선…경부선 운행 차질",
+"latest": "경부선 소정리역서 화물열차 탈선…전차선 단전·일반열차 지연",
 "tok": [
 "경부선",
+"단전",
 "소정리역서",
 "열차",
 "운행",
+"일반열차",
+"전차선",
+"지연",
 "지장",
 "차질",
 "탈선",
@@ -1646,11 +1657,11 @@
 "n30": 5,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-20T22:13:15.344072+00:00"
+"since": "2026-11-20T22:15:29.784423+00:00"
 }
 ],
 "baseline": {
-"지진": 0.37,
+"지진": 0.33,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
@@ -1873,39 +1884,57 @@
 },
 {
 "term": "비트코인",
-"traffic": "1000+",
+"traffic": "500+",
 "time": "2026-11-20T21:00:00+00:00",
 "news": [
 {
-"title": "비트코인 4달만에 도로 6만달러 아래로…2022년 이후 최장 약세",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261121005500091"
+"title": "[영상] 젠슨 황 쇼크에 AI 투심 ‘휘청’…주식·코인·금 동반 급락",
+"source": "서울경제",
+"link": "https://www.sedaily.com/article/20115807"
 },
 {
-"title": "휘청이는 비트코인…NH증권 \"디베이스먼트 재부각 필요\"",
-"source": "연합인포맥스",
-"link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4445655"
+"title": "코인셰어스 CEO, AI로 비트코인 하락 설명…AI주도 하락",
+"source": "BeInCrypto",
+"link": "https://kr.beincrypto.com/coinshares-ceo-ai-bitcoin-slide/"
 }
 ],
 "new": true
 },
 {
 "term": "포스코",
+"traffic": "200+",
+"time": "2026-11-20T21:00:00+00:00",
+"news": [
+{
+"title": "포스코 노사, 1차 합의안 부결 13일 만에 임금교섭 잠정합의(종합)",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261120166151053"
+},
+{
+"title": "포스코, 임단협 잠정합의안 재도출…\"철강 위기 극복 뜻 모아\" - 머니투데이",
+"source": "머니투데이",
+"link": "https://www.mt.co.kr/industry/2026/11/20/2026112018233126305"
+}
+],
+"new": false
+},
+{
+"term": "새마을금고",
 "traffic": "100+",
 "time": "2026-11-20T21:00:00+00:00",
 "news": [
 {
-"title": "포스코1%나눔재단, 국가유공자·제복 근무자에 첨단보조기구 전달",
-"source": "마켓인",
-"link": "https://marketin.edaily.co.kr/News/ReadE?newsId=03171766645647688"
+"title": "해운대구 재송1동 지역사회보장협의체, 취약계층 50세대에 `사랑의 김장김치` 전달",
+"source": "국제신문",
+"link": "https://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0300&key=20261120.99099006534"
 },
 {
-"title": "보훈부·포스코, 상이 국가유공자 첨단 보조기구 지원",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261120027900504"
+"title": "해운대구 반여1·4동 MG새마을금고, 반여1동에 MG희망나눔 김치 전달",
+"source": "부산일보",
+"link": "https://www.busan.com/view/busan/view.php?code=2026112010070745549"
 }
 ],
-"new": false
+"new": true
 },
 {
 "term": "생계",
@@ -1963,7 +1992,7 @@
 },
 {
 "term": "카리나",
-"traffic": "1000+",
+"traffic": "2000+",
 "time": "2026-11-20T20:40:00+00:00",
 "news": [
 {
@@ -2011,24 +2040,6 @@
 "title": "엔비디아 호실적도 못 막았다…나스닥, 기술주 매도에 5.3% 폭락",
 "source": "매일경제 마켓",
 "link": "https://stock.mk.co.kr/news/view/1203533"
-}
-],
-"new": true
-},
-{
-"term": "어선",
-"traffic": "500+",
-"time": "2026-11-20T20:30:00+00:00",
-"news": [
-{
-"title": "태안 연락두절 어선 해경 부실 관제 논란 보도에 대해 다음과 같이 설명 드립니다.",
-"source": "대한민국 정책브리핑",
-"link": "https://www.korea.kr/briefing/actuallyView.do?newsId=148976208"
-},
-{
-"title": "해광호 나흘째 소식 없어…“두 차례 위치 확인에 무응답”",
-"source": "KBS 뉴스",
-"link": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8718853"
 }
 ],
 "new": true
