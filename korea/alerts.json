@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-20T11:32:48.373994+00:00",
+"updated": "2026-11-20T11:35:11.787684+00:00",
 "errors": [],
 "events": [
 {
@@ -4140,7 +4140,7 @@
 "terms": {
 "지진": {
 "n30": 2,
-"base": 0.4,
+"base": 0.6,
 "spike": false
 },
 "화재": {
@@ -4160,7 +4160,7 @@
 },
 "폭발": {
 "n30": 2,
-"base": 0.8,
+"base": 1.0,
 "spike": false
 },
 "붕괴": {
@@ -4225,7 +4225,7 @@
 "handle": "soyee-milk.bsky.social",
 "name": "조하윤",
 "time": "2026-11-20T11:31:31.746Z",
-"likes": 0,
+"likes": 1,
 "reposts": 0,
 "url": "https://bsky.app/profile/soyee-milk.bsky.social/post/3n2qidler2s26",
 "term": "지진"
@@ -4457,17 +4457,17 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 0.55,
+"지진": 0.7,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.97,
+"폭발": 1.07,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 1.1,
-"사고": 5.83,
+"지하철": 1.09,
+"사고": 5.85,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -4625,10 +4625,39 @@
 },
 "trends": [
 {
+"term": "이진우 부검",
+"traffic": "1000+",
+"time": "2026-11-20T10:30:00+00:00",
+"news": [
+{
+"title": "‘리트 만점자’ 사망에…서울대 교수 \"열광하다가 사냥개처럼 몰아붙여\"",
+"source": "JTBC",
+"link": "https://news.jtbc.co.kr/article/NB12329002"
+},
+{
+"title": "‘LEET 만점자’ 고발 변호사 “사건 종결 말고 끝까지 수사해야”",
+"source": "경기일보",
+"link": "https://www.kyeonggi.com/article/20261120580283"
+}
+],
+"new": true
+},
+{
 "term": "2027 수능 만점자",
 "traffic": "500+",
 "time": "2026-11-20T10:10:00+00:00",
-"news": [],
+"news": [
+{
+"title": "[단독] 2027수능 자연계 만점자 1명 확인.. 시흥 신천고 출신 삼수생 최씨 '서울대 의대 지망'",
+"source": "베리타스알파",
+"link": "https://www.veritas-a.com/news/articleView.html?idxno=638431"
+},
+{
+"title": "[단독]전남광주 수능 만점자의 당부 \"‘AI 커닝’에 불안해 말길\"",
+"source": "남도일보",
+"link": "https://www.namdonews.com/news/articleView.html?idxno=929621"
+}
+],
 "new": true
 },
 {
@@ -4691,32 +4720,14 @@
 "time": "2026-11-20T09:50:00+00:00",
 "news": [
 {
-"title": "벼 수매대금 미지급 논란…농가 피해액 20억원 넘어",
-"source": "농업인신문",
-"link": "https://www.nongupin.co.kr/news/articleView.html?idxno=208975"
+"title": "\"내년 심을 벼종자 신청하세요\"…국립종자원, 정부보급종 보급",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261119055100030"
 },
 {
-"title": "벼 수매대금 미지급 사태 대처할 보호대책 마련해야",
-"source": "농업인신문",
-"link": "https://www.nongupin.co.kr/news/articleView.html?idxno=208916"
-}
-],
-"new": true
-},
-{
-"term": "스타벅스",
-"traffic": "500+",
-"time": "2026-11-20T09:40:00+00:00",
-"news": [
-{
-"title": "스타벅스, ’부드러운 생크림 카스텔라’ 700원 인상…11년 만",
-"source": "연합뉴스TV",
-"link": "https://www.yonhapnewstv.co.kr/news/AKR202611201453244Qv"
-},
-{
-"title": "스타벅스 디저트 ‘부생카’ 11년 만에 첫 가격 인상… 700원 오른다",
-"source": "천지일보",
-"link": "https://www.newscj.com/news/articleView.html?idxno=3450737"
+"title": "내년 벼농사 준비 시작…정부보급종 1만8000t 신청 접수",
+"source": "기호일보",
+"link": "https://www.kihoilbo.co.kr/news/articleView.html?idxno=3041502"
 }
 ],
 "new": true
@@ -4738,6 +4749,24 @@
 }
 ],
 "new": false
+},
+{
+"term": "스타벅스",
+"traffic": "500+",
+"time": "2026-11-20T09:40:00+00:00",
+"news": [
+{
+"title": "스타벅스, ’부드러운 생크림 카스텔라’ 700원 인상…11년 만",
+"source": "연합뉴스TV",
+"link": "https://www.yonhapnewstv.co.kr/news/AKR202611201453244Qv"
+},
+{
+"title": "스타벅스 디저트 ‘부생카’ 11년 만에 첫 가격 인상… 700원 오른다",
+"source": "천지일보",
+"link": "https://www.newscj.com/news/articleView.html?idxno=3450737"
+}
+],
+"new": true
 },
 {
 "term": "굿파트너2",
@@ -4771,24 +4800,6 @@
 "title": "한성대 ESG센터, 삼선동 저소득 180가구에 김장 김치 전달",
 "source": "뉴시스",
 "link": "https://www.newsis.com/view/NISX20261120_0003876956"
-}
-],
-"new": true
-},
-{
-"term": "이더리움",
-"traffic": "200+",
-"time": "2026-11-20T09:30:00+00:00",
-"news": [
-{
-"title": "비트코인·금도 와르르 … 글로벌 자산시장 패닉",
-"source": "매일경제 마켓",
-"link": "https://stock.mk.co.kr/news/view/1203359"
-},
-{
-"title": "비트코인 8439만 원대 하락, 금리인상 부담에 투심 악화 '1차 방어선' 6만 달러",
-"source": "비즈니스포스트",
-"link": "https://www.businesspost.co.kr/BP?command=article_view&num=452467"
 }
 ],
 "new": true
