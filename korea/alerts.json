@@ -1,12 +1,12 @@
 {
-"updated": "2026-11-20T22:35:35.506877+00:00",
+"updated": "2026-11-20T22:37:49.346272+00:00",
 "errors": [],
 "events": [
 {
 "id": "viewAKR202611210124000612201",
 "first": "2026-11-20T22:01:57+00:00",
-"last": "2026-11-20T22:28:27+00:00",
-"updated": "2026-11-20T22:35:35.506877+00:00",
+"last": "2026-11-20T22:33:00+00:00",
+"updated": "2026-11-20T22:37:49.346272+00:00",
 "headline": "평택 소정리역서 화물열차 탈선…경부선 열차 운행 지장",
 "cat": "교통",
 "regions": [
@@ -21,6 +21,7 @@
 "연합뉴스",
 "연합뉴스TV",
 "이투데이",
+"채널A",
 "파이낸셜뉴스",
 "한국경제"
 ],
@@ -101,10 +102,17 @@
 "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFAyNHJ4MnRjX1RYTUhvYTBfYXVldFM0VVZHT0lfRm5jR2gzSmVwOGlrQjQ4ZmoyNWkwVFpod1dFT05FSnRuR3Q2THBJNXdyOUNRQ01tMkJXOUI0QQ?oc=5",
 "time": "2026-11-20T22:28:27+00:00",
 "stage": "속보"
+},
+{
+"title": "[속보]경부선 소정리역서 화물열차 탈선…일반열차 지연",
+"source": "채널A",
+"link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1jZl9rM2pYaXZsczZVSlFjaUowSXRNNzhsTEFrQnM5cDF0WkI5bjhHMS15RlBLUUpvcTRpdkdSQzdPY0N5Tk05YWZHTF9zNDJUUk1hRlM0cV81Tml3ZnfSAWNBVV95cUxNaGRnMlU2Z09Jd253OGY1ZEZUUFN4TGtMWC0zTDBTUGJXNC13Q2pDOTJRX1I2MkwtOWV5SlNOTFV5OGZPVGZiN2lrOTdEQ2NfS3l5eHJVZ3lBcHZXTGk2ekZhM3c?oc=5",
+"time": "2026-11-20T22:33:00+00:00",
+"stage": "속보"
 }
 ],
 "level": "URGENT",
-"latest": "평택 소정리역서 화물열차 탈선…경부선 열차 운행 지장",
+"latest": "경부선 소정리역서 화물열차 탈선…일반열차 지연",
 "tok": [
 "경부선",
 "구간",
@@ -1498,7 +1506,7 @@
 "spike": false
 },
 "붕괴": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -1513,18 +1521,18 @@
 "spike": false
 },
 "속보": {
-"n30": 2,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
 "지하철": {
-"n30": 0,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
 "사고": {
 "n30": 3,
-"base": 0.4,
+"base": 0.7,
 "spike": false
 },
 "실종": {
@@ -1554,6 +1562,16 @@
 }
 },
 "posts": [
+{
+"text": "4~50대 아저씨 한테 지하철 치안 한번 당해봐야지",
+"handle": "spheres154.bsky.social",
+"name": "3분요리",
+"time": "2026-11-20T22:35:11.248Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/spheres154.bsky.social/post/3n2rnhpcai222",
+"term": "지하철"
+},
 {
 "text": "오늘 집에가서 오일파스타 머거야지 (특: 소스 저거 상할까봐 빨리 다 머거야됨\n운동할라햇는디 괜히 또 나댓다가 몸살 가라앉아가는거 덧나면 안되므로... 집에 가면서 다이소 가서 캠핑용품 사고...\n음식은... 가서 먹을 마라탕에 넣을 고기 잇음 좋겟는디 출발전에 사는게 좋겟지...?\n그라믄 오늘은 캠핑용풍 쇼핑하고 집에와서 남은 고기 때려넣은 오일팬파스타 머거야지이\n내일은 만두꿉자 희희",
 "handle": "noisily.bsky.social",
@@ -1767,7 +1785,7 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 0.13,
+"지진": 0.12,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
@@ -1776,8 +1794,8 @@
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.05,
-"사고": 0.65,
+"지하철": 0.15,
+"사고": 0.89,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -2040,7 +2058,7 @@
 "link": "https://www.newspim.com/news/view/20261120000613"
 }
 ],
-"new": true
+"new": false
 },
 {
 "term": "박은정",
