@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-20T13:28:23.410877+00:00",
+"updated": "2026-11-20T13:30:39.286513+00:00",
 "errors": [],
 "events": [
 {
@@ -4233,7 +4233,7 @@
 "terms": {
 "지진": {
 "n30": 2,
-"base": 1.5,
+"base": 1.4,
 "spike": false
 },
 "화재": {
@@ -4247,19 +4247,19 @@
 "spike": false
 },
 "정전": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
 "폭발": {
-"n30": 6,
-"base": 1.8,
-"spike": true
+"n30": 4,
+"base": 1.9,
+"spike": false
 },
 "붕괴": {
-"n30": 5,
+"n30": 3,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "대피": {
 "n30": 0,
@@ -4268,11 +4268,11 @@
 },
 "미사일": {
 "n30": 1,
-"base": 0.6,
+"base": 0.5,
 "spike": false
 },
 "속보": {
-"n30": 7,
+"n30": 5,
 "base": 0.1,
 "spike": true
 },
@@ -4283,7 +4283,7 @@
 },
 "사고": {
 "n30": 2,
-"base": 2.8,
+"base": 2.7,
 "spike": false
 },
 "실종": {
@@ -4556,43 +4556,29 @@
 ],
 "spikes": [
 {
-"term": "폭발",
-"n30": 6,
-"base": 1.8,
-"spike": true,
-"since": "2026-11-20T13:28:23.410877+00:00"
-},
-{
-"term": "붕괴",
+"term": "속보",
 "n30": 5,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-20T13:28:23.410877+00:00"
-},
-{
-"term": "속보",
-"n30": 7,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-20T13:28:23.410877+00:00"
+"since": "2026-11-20T13:30:39.286513+00:00"
 }
 ],
 "baseline": {
-"지진": 1.43,
+"지진": 1.39,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 1.89,
+"폭발": 2.0,
 "붕괴": 0.05,
 "대피": 0.05,
-"미사일": 0.54,
+"미사일": 0.49,
 "속보": 0.05,
-"지하철": 0.21,
-"사고": 2.69,
+"지하철": 0.19,
+"사고": 2.62,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
-"먹통": 0.47,
+"먹통": 0.42,
 "산불": 0.05
 },
 "errors": [],
@@ -4943,9 +4929,9 @@
 "link": "https://timesofindia.indiatimes.com/sports/cricket/india-a-vs-nepal-acc-mens-asia-cup-rising-stars-2026-live-score-match-today-scorecard-result-west-end-park-international-cricket-stadium/liveblog/136018863.cms"
 },
 {
-"title": "Excitel Broadband steps up as Global Sponsor of the DP World Asia Cup Rising Stars 2026",
-"source": "MediaNews4U",
-"link": "https://www.medianews4u.com/excitel-broadband-steps-up-as-global-sponsor-of-the-dp-world-asia-cup-rising-stars-2026/"
+"title": "PAKA vs UAE, 3rd Match, Group B, ACC Men's Asia Cup Rising Stars 2026 - Player Highlights",
+"source": "Cricbuzz",
+"link": "https://www.cricbuzz.com/player-match-highlights/177148/1/1448181/bowling"
 }
 ],
 "new": true
