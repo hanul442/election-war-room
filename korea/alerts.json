@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-20T04:06:56.300167+00:00",
+"updated": "2026-11-20T04:09:15.204112+00:00",
 "errors": [],
 "events": [
 {
@@ -4256,7 +4256,7 @@
 },
 "화재": {
 "n30": 0,
-"base": 0.5,
+"base": 0.4,
 "spike": false
 },
 "불났": {
@@ -4265,18 +4265,18 @@
 "spike": false
 },
 "정전": {
-"n30": 0,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
 "폭발": {
 "n30": 1,
-"base": 0.1,
+"base": 0.2,
 "spike": false
 },
 "붕괴": {
-"n30": 1,
-"base": 0.7,
+"n30": 0,
+"base": 0.8,
 "spike": false
 },
 "대피": {
@@ -4295,17 +4295,17 @@
 "spike": false
 },
 "지하철": {
-"n30": 2,
+"n30": 1,
 "base": 2.0,
 "spike": false
 },
 "사고": {
 "n30": 0,
-"base": 1.9,
+"base": 1.8,
 "spike": false
 },
 "실종": {
-"n30": 1,
+"n30": 2,
 "base": 0.6,
 "spike": false
 },
@@ -4331,6 +4331,26 @@
 }
 },
 "posts": [
+{
+"text": "리) 이거 잘 쓰는 건 실종자 찾을 때라는 거만 떠오름...",
+"handle": "caelumcorvus.bsky.social",
+"name": "까막까막",
+"time": "2026-11-20T04:08:16.347Z",
+"likes": 1,
+"reposts": 0,
+"url": "https://bsky.app/profile/caelumcorvus.bsky.social/post/3n2ppmez2a22q",
+"term": "실종"
+},
+{
+"text": "지하주차장 정전났는데 백룸분위기 난다",
+"handle": "coolcooluumm.bsky.social",
+"name": "gree",
+"time": "2026-11-20T04:08:04.146Z",
+"likes": 2,
+"reposts": 0,
+"url": "https://bsky.app/profile/coolcooluumm.bsky.social/post/3n2pplwlbuc2g",
+"term": "정전"
+},
 {
 "text": "어제 딸이 아빠(나) 닮아서 슬프다며 진심으로 통곡 하는걸 보는데 이거 뭐 어떻게 해야될지를 모르겠는. 지 오빠가 맨날 인자강이라고 불렀는데 그게 쌓이다 폭발한듯. 평소 셀카를 웃기게 찍는것도 그렇게 찍어야 (실제론 아닌데)일부러 못나게 찍었다는 자기위안이 생겨서란다. 그러게 나도 그런게 왜 너한테 갔는지는 모른다 뼈대와 단단한 살성같은 그딴게..정작 운동신경은 그닥이고. 장난처럼 툴툴대는건",
 "handle": "joockher.bsky.social",
@@ -4406,26 +4426,6 @@
 "time": "2026-11-20T03:41:05Z",
 "term": "속보",
 "url": "https://www.youtube.com/watch?v=080bc37O8y4"
-},
-{
-"text": "그 모든 구상이 붕괴된 뒤 파편을 그러모아 어거지로 만든 게 5편이라는 사실을 생각하면 본인은 이런 현대복장 잘만 그리면서 5편 딸한테는 무슨 이세계에서 주워온 거적데기만 입힌 만행도 뭐 수긍이 안 가는 건 아니지만 그건 그거고 게임 내의 요소가 게임 몰입을 방해하는 어처구니없는 경험이 짜증난다는 것도 사실이지\n게임의 시스템이 스트레스를 유발하면 시각적인 즐거움이라도 줘야 하는데 5편은 솔직",
-"handle": "illoube.planet.moe.ap.brid.gy",
-"name": "르베",
-"time": "2026-11-20T03:38:03.247Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/illoube.planet.moe.ap.brid.gy/post/3n2pnw7pwvxc2",
-"term": "붕괴"
-},
-{
-"text": "지하철 휠체어 자리에 기대있는 사람이 많네...",
-"handle": "0bbe.bsky.social",
-"name": "훙냐삐푸린",
-"time": "2026-11-20T03:37:53.040Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/0bbe.bsky.social/post/3n2pnvzpfck2k",
-"term": "지하철"
 },
 {
 "platform": "YouTube",
@@ -4565,18 +4565,18 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 0.18,
-"화재": 0.41,
+"지진": 0.16,
+"화재": 0.37,
 "불났": 0.05,
-"정전": 0.05,
-"폭발": 0.24,
-"붕괴": 0.77,
-"대피": 0.88,
+"정전": 0.15,
+"폭발": 0.32,
+"붕괴": 0.69,
+"대피": 0.89,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 1.98,
-"사고": 1.75,
-"실종": 0.64,
+"지하철": 1.88,
+"사고": 1.57,
+"실종": 0.78,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -4788,9 +4788,9 @@
 "link": "https://www.yna.co.kr/view/AKR20261120018100007"
 },
 {
-"title": "유해란, 투어 챔피언십 첫날 공동 4위",
+"title": "퍼트 준비하는 이소미",
 "source": "뉴시스",
-"link": "https://mobile.newsis.com/photo_view.html?pict_id=NISI20261120_0002297379&provider_id=&cID=&type=Main&catg=&idx=7"
+"link": "https://mobile.newsis.com/photo/NISI20261120_0002297377"
 }
 ],
 "new": true
