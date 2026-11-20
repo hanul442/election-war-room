@@ -1,7 +1,42 @@
 {
-"updated": "2026-11-20T23:07:00.335672+00:00",
+"updated": "2026-11-20T23:09:22.468798+00:00",
 "errors": [],
 "events": [
+{
+"id": "viewAKR202611201276000622300",
+"first": "2026-11-20T23:00:05+00:00",
+"last": "2026-11-20T23:00:05+00:00",
+"updated": "2026-11-20T23:09:22.468798+00:00",
+"headline": "원주문화재단, 애국심과 의사 윤리 갈등 뮤지컬 '몬스터' 공연",
+"cat": "재난",
+"regions": [
+"강원"
+],
+"sources": [
+"연합뉴스"
+],
+"updates": [
+{
+"title": "원주문화재단, 애국심과 의사 윤리 갈등 뮤지컬 '몬스터' 공연",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261120127600062",
+"time": "2026-11-20T23:00:05+00:00",
+"stage": "1보"
+}
+],
+"level": "ALERT",
+"latest": "원주문화재단, 애국심과 의사 윤리 갈등 뮤지컬 '몬스터' 공연",
+"tok": [
+"갈등",
+"공연",
+"몬스터",
+"뮤지컬",
+"애국심",
+"원주문화재단",
+"윤리",
+"의사"
+]
+},
 {
 "id": "viewAKR202611201463000532300",
 "first": "2026-11-20T23:00:03+00:00",
@@ -43,7 +78,7 @@
 "id": "viewAKR202611210124000612201",
 "first": "2026-11-20T22:01:57+00:00",
 "last": "2026-11-20T22:52:00+00:00",
-"updated": "2026-11-20T23:00:12.020427+00:00",
+"updated": "2026-11-20T23:09:22.468798+00:00",
 "headline": "평택 소정리역서 화물열차 탈선…경부선 열차 운행 지장",
 "cat": "교통",
 "regions": [
@@ -56,6 +91,7 @@
 "KBS 뉴스",
 "SK브로드밴드 회사소개",
 "www.bntnews.co.kr",
+"경기일보",
 "경향신문",
 "금강일보",
 "뉴시스",
@@ -68,6 +104,7 @@
 "이투데이",
 "조선일보",
 "채널A",
+"충청투데이",
 "파이낸셜뉴스",
 "한국경제"
 ],
@@ -115,6 +152,13 @@
 "stage": "후속"
 },
 {
+"title": "[속보] 평택 소정리역 화물열차 탈선 사고…경부선 운행 차질",
+"source": "경기일보",
+"link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE03RG5FZHVxV2xLSVFUbExWTFp5YXl5bUs1Z1gxR09jUnpzY1U1T2NPZ2dLSVlZYl9zZTd4eHU5ZkoxNFpBd3pJVnlxNDAtbkx0dExqOHloNktWeEU?oc=5",
+"time": "2026-11-20T22:19:41+00:00",
+"stage": "속보"
+},
+{
 "title": "[속보]평택 소정리역서 화물열차 탈선…경부선 열차 운행 차질",
 "source": "파이낸셜뉴스",
 "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE04WENuS3A0NDJobnQxdTFISGdXMXp1aGxzOEd2OXk5MnVLWEdrbHBLcm1xM00zQkc5Nms4WWFIM2FQcW9Cczc4U0FUZU96NU9Cek1sYTVpWWQ3UQ?oc=5",
@@ -154,6 +198,13 @@
 "source": "한국경제",
 "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFAyNHJ4MnRjX1RYTUhvYTBfYXVldFM0VVZHT0lfRm5jR2gzSmVwOGlrQjQ4ZmoyNWkwVFpod1dFT05FSnRuR3Q2THBJNXdyOUNRQ01tMkJXOUI0QQ?oc=5",
 "time": "2026-11-20T22:28:27+00:00",
+"stage": "속보"
+},
+{
+"title": "[속보] 평택서 화물열차 탈선…경부선 열차 운행 지장",
+"source": "충청투데이",
+"link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE43d2tLc045QTVFclJoM2tpeVlVcmNjS1RVQi0wTDdzY3pEbUh2czBKeDJvZFpSckhQNnBGR2dfcUZEbGhOREk2MmlRX2MyREhud2k1dHpqLWFBRnlBQklmNjRKZDBPMW1WbEx0dnZ3?oc=5",
+"time": "2026-11-20T22:31:39+00:00",
 "stage": "속보"
 },
 {
@@ -252,6 +303,7 @@
 "머니투데",
 "무궁화",
 "무궁화호",
+"사고",
 "새마",
 "세종",
 "세종시",
@@ -273,6 +325,7 @@
 "천안",
 "탈선",
 "평택",
+"평택서",
 "화물열차"
 ]
 },
@@ -1713,7 +1766,7 @@
 },
 "화재": {
 "n30": 1,
-"base": 0.5,
+"base": 0.6,
 "spike": false
 },
 "불났": {
@@ -1723,16 +1776,16 @@
 },
 "정전": {
 "n30": 1,
-"base": 0.5,
+"base": 0.6,
 "spike": false
 },
 "폭발": {
 "n30": 2,
-"base": 0.2,
+"base": 0.3,
 "spike": false
 },
 "붕괴": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -1752,13 +1805,13 @@
 "spike": false
 },
 "지하철": {
-"n30": 2,
-"base": 1.8,
+"n30": 1,
+"base": 1.9,
 "spike": false
 },
 "사고": {
 "n30": 0,
-"base": 1.9,
+"base": 1.7,
 "spike": false
 },
 "실종": {
@@ -1826,16 +1879,6 @@
 "time": "2026-11-20T22:39:23Z",
 "term": "폭발",
 "url": "https://www.youtube.com/watch?v=g4nKABVrlBw"
-},
-{
-"text": "퇴근길 지하철에서 갑자기 손놀림당하는데 저항못하고 느끼다 골목으로 끌려가서 강간당한뒤 노예로 지하철에서 기다려지기",
-"handle": "minshim.bsky.social",
-"name": "minshim.bsky.social",
-"time": "2026-11-20T22:39:16.644Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/minshim.bsky.social/post/3n2rnoyuwvs2r",
-"term": "지하철"
 },
 {
 "platform": "YouTube",
@@ -1994,16 +2037,16 @@
 "spikes": [],
 "baseline": {
 "지진": 0.05,
-"화재": 0.56,
+"화재": 0.6,
 "불났": 0.05,
-"정전": 0.56,
-"폭발": 0.32,
+"정전": 0.6,
+"폭발": 0.39,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 1.85,
-"사고": 1.67,
+"지하철": 1.77,
+"사고": 1.5,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
