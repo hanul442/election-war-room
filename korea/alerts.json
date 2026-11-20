@@ -1,18 +1,19 @@
 {
-"updated": "2026-11-20T11:53:06.261978+00:00",
+"updated": "2026-11-20T11:55:21.043162+00:00",
 "errors": [],
 "events": [
 {
 "id": "viewAKR202611201396510601143",
 "first": "2026-11-20T11:43:07+00:00",
-"last": "2026-11-20T11:43:07+00:00",
-"updated": "2026-11-20T11:48:38.116147+00:00",
+"last": "2026-11-20T11:52:13+00:00",
+"updated": "2026-11-20T11:55:21.043162+00:00",
 "headline": "연천 양돈농장 화재 4시간 만에 완진…번진 산불도 진화",
 "cat": "재난",
 "regions": [
 "경기"
 ],
 "sources": [
+"스페셜타임스",
 "연합뉴스"
 ],
 "updates": [
@@ -22,18 +23,27 @@
 "link": "https://www.yna.co.kr/view/AKR20261120139651060",
 "time": "2026-11-20T11:43:07+00:00",
 "stage": "종합"
+},
+{
+"title": "연천 양돈농장 화재 4시간 만에 진화, 인근 산불도 소멸",
+"source": "스페셜타임스",
+"link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBQbk0waXphU09PTzltTm9qRTdiQ05ISTB3V0FfZ0Z6bnI2Qy05SUFJb0Uzc0ZiU1Q0cktaREFsMlR4LXRuZ0txZUU1MHcwMWxTY2E0bXZFWkN4LTllRmhsV1NQTXdkVkFXZmVrYTVyTXBwZw?oc=5",
+"time": "2026-11-20T11:52:13+00:00",
+"stage": "후속"
 }
 ],
 "level": "URGENT",
-"latest": "연천 양돈농장 화재 4시간 만에 완진…번진 산불도 진화",
+"latest": "연천 양돈농장 화재 4시간 만에 진화, 인근 산불도 소멸",
 "tok": [
 "4시간",
 "만에",
 "번진",
 "산불",
+"소멸",
 "양돈농장",
 "연천",
 "완진",
+"인근",
 "진화",
 "화재"
 ]
@@ -4101,7 +4111,7 @@
 "terms": {
 "지진": {
 "n30": 4,
-"base": 1.6,
+"base": 1.7,
 "spike": false
 },
 "화재": {
@@ -4120,9 +4130,9 @@
 "spike": false
 },
 "폭발": {
-"n30": 4,
-"base": 1.6,
-"spike": false
+"n30": 5,
+"base": 1.5,
+"spike": true
 },
 "붕괴": {
 "n30": 1,
@@ -4145,13 +4155,13 @@
 "spike": false
 },
 "지하철": {
-"n30": 4,
+"n30": 2,
 "base": 1.4,
 "spike": false
 },
 "사고": {
 "n30": 4,
-"base": 4.9,
+"base": 4.8,
 "spike": false
 },
 "실종": {
@@ -4181,6 +4191,16 @@
 }
 },
 "posts": [
+{
+"text": "인간의 비극은 인간의 뇌가 장기적 비전을 계획하기에 턱없이 부족하고 단기적인 보상자극에 최적화 되어 있는데도 자기 자신이 장기적인 혜안이 있다 믿는 것이다. 그리고 동시에 인간은 종말이 굉장히 멀리 있다고 생각한다. \n\n그렇다 생각하는 것이다. 생각과 현실은 다르며 앞서 인간은 긴 미래를 볼 능력이 있지 않다 말했다.\n\n종말은 한 순간에 찾아올거다. 우리가 먼 미래라고 미루고 미뤄온 현실들이",
+"handle": "raccoondaxter.bsky.social",
+"name": "라쿤 덱스터",
+"time": "2026-11-20T11:52:38.540Z",
+"likes": 1,
+"reposts": 0,
+"url": "https://bsky.app/profile/raccoondaxter.bsky.social/post/3n2qjkqhp3c2v",
+"term": "폭발"
+},
 {
 "text": "아맞네 희귀혈액형이엇지!!!! 헌혈은 진짜 못 할 듯요... 워낙 운동도 잘 안 하고 왜소해서 \n먼가 일 때문에 바빠서 밥도 잘 거를 것 같은\n그러면 헌혈은 물론이고 큰 사고 났을 때 수혈 받기도 힘들겟네 ㅁㅊ... 아 벉튽 혈액형도 궁금하다",
 "handle": "180x152.bsky.social",
@@ -4406,16 +4426,6 @@
 "url": "https://www.youtube.com/watch?v=Fhz3cW3l5Dg"
 },
 {
-"text": "지하철 반대로 탓다",
-"handle": "0bbe.bsky.social",
-"name": "훙냐삐푸린",
-"time": "2026-11-20T11:23:13.245Z",
-"likes": 3,
-"reposts": 0,
-"url": "https://bsky.app/profile/0bbe.bsky.social/post/3n2qhw5ssx22f",
-"term": "지하철"
-},
-{
 "platform": "YouTube",
 "text": "사우디 80층 빌딩에 후티 미사일 ‘쾅’ / 채널A / 뉴스A",
 "handle": "UCfq4V1DAuaojnr2ryvWNysw",
@@ -4461,19 +4471,27 @@
 "url": "https://www.youtube.com/watch?v=WZHmddEhl2I"
 }
 ],
-"spikes": [],
+"spikes": [
+{
+"term": "폭발",
+"n30": 5,
+"base": 1.5,
+"spike": true,
+"since": "2026-11-20T11:55:21.043162+00:00"
+}
+],
 "baseline": {
-"지진": 1.68,
+"지진": 1.71,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 1.5,
+"폭발": 1.55,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 1.44,
-"사고": 4.81,
+"지하철": 1.4,
+"사고": 4.73,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -4695,7 +4713,7 @@
 },
 {
 "term": "국민연금공단",
-"traffic": "500+",
+"traffic": "1000+",
 "time": "2026-11-20T10:40:00+00:00",
 "news": [
 {
@@ -4731,7 +4749,7 @@
 },
 {
 "term": "이진우 부검",
-"traffic": "1000+",
+"traffic": "2000+",
 "time": "2026-11-20T10:30:00+00:00",
 "news": [
 {
@@ -4751,18 +4769,7 @@
 "term": "2027 수능 만점자",
 "traffic": "500+",
 "time": "2026-11-20T10:10:00+00:00",
-"news": [
-{
-"title": "[단독] 2027수능 자연계 만점자 1명 확인.. 시흥 신천고 출신 삼수생 최씨 '서울대 의대 지망'",
-"source": "베리타스알파",
-"link": "https://www.veritas-a.com/news/articleView.html?idxno=638431"
-},
-{
-"title": "[단독]전남광주 수능 만점자의 당부 \"‘AI 커닝’에 불안해 말길\"",
-"source": "남도일보",
-"link": "https://www.namdonews.com/news/articleView.html?idxno=929621"
-}
-],
+"news": [],
 "new": true
 },
 {
@@ -4771,9 +4778,9 @@
 "time": "2026-11-20T10:00:00+00:00",
 "news": [
 {
-"title": "IND vs PAK in Asia Cup Rising Stars 2026: Start time, date, venue and how to watch India-Pakistan clash globally",
-"source": "Yahoo Sports",
-"link": "https://sports.yahoo.com/articles/ind-vs-pak-asia-cup-092428434.html"
+"title": "India v Pakistan: How to watch Rising Stars Asia Cup showdown in UAE?",
+"source": "www.thenationalnews.com",
+"link": "https://www.thenationalnews.com/sport/cricket/2026/11/20/india-v-pakistan-how-to-watch-rising-stars-asia-cup-showdown-in-uae/"
 },
 {
 "title": "India A vs Nepal Asia Cup Rising Stars 2026: Vaibhav Sooryavanshi Included in Playing XI as Nepal Opts to Bowl",
@@ -4825,21 +4832,21 @@
 "time": "2026-11-20T09:50:00+00:00",
 "news": [
 {
-"title": "\"내년 심을 벼종자 신청하세요\"…국립종자원, 정부보급종 보급",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261119055100030"
+"title": "벼 수매대금 미지급 논란…농가 피해액 20억원 넘어",
+"source": "농업인신문",
+"link": "https://www.nongupin.co.kr/news/articleView.html?idxno=208975"
 },
 {
-"title": "내년 벼농사 준비 시작…정부보급종 1만8000t 신청 접수",
-"source": "기호일보",
-"link": "https://www.kihoilbo.co.kr/news/articleView.html?idxno=3041502"
+"title": "벼 수매대금 미지급 사태 대처할 보호대책 마련해야",
+"source": "농업인신문",
+"link": "https://www.nongupin.co.kr/news/articleView.html?idxno=208916"
 }
 ],
 "new": true
 },
 {
 "term": "토마스 뮐러",
-"traffic": "200+",
+"traffic": "500+",
 "time": "2026-11-20T09:40:00+00:00",
 "news": [
 {
