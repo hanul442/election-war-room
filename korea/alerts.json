@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-20T23:00:12.020427+00:00",
+"updated": "2026-11-20T23:02:28.433033+00:00",
 "errors": [],
 "events": [
 {
@@ -243,7 +243,7 @@
 "id": "wNISX20261121_00038775061821",
 "first": "2026-11-20T18:21:58+00:00",
 "last": "2026-11-20T22:51:24+00:00",
-"updated": "2026-11-20T23:00:12.020427+00:00",
+"updated": "2026-11-20T23:02:28.433033+00:00",
 "headline": "트럼프 \"젠슨 황, 진심으로 사과하고 두번째 기회 받기를\"",
 "cat": "국제",
 "regions": [],
@@ -251,7 +251,8 @@
 "KBC광주방송",
 "뉴시스",
 "연합뉴스",
-"조선일보"
+"조선일보",
+"한경매거진"
 ],
 "updates": [
 {
@@ -281,6 +282,13 @@
 "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5sQmtRaU5ESURuUE4wdG11NWNBc053ZmVOSy1PWFkyLWZKSXNIY2JiTmV6VDdxTERhTkFkaXZxVEJlUGNCXzczblRnY3JuWWt6c2lZa3Nfc0xuajZiUGhhOFVR?oc=5",
 "time": "2026-11-20T22:04:47+00:00",
 "stage": "후속"
+},
+{
+"title": "[속보]트럼프, 젠슨 황 복귀 촉구",
+"source": "한경매거진",
+"link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1xd2V0cHBaZ1BlTmE0UXJZcHNfbDRZWDU5Y0cxbG5NVG51clkyN3pQY2RMaFFaeUNOUVdIMlQtdk1STkdvbUZuSDVQVktMTzlLcmgxVVlTVHQzWFNnaG5EX2lkX1ZMSnF3SFFfSA?oc=5",
+"time": "2026-11-20T22:49:00+00:00",
+"stage": "속보"
 },
 {
 "title": "트럼프, 젠슨 황 또 옹호…“두 번째 기회 줘야”",
@@ -1668,7 +1676,7 @@
 },
 "화재": {
 "n30": 1,
-"base": 0.3,
+"base": 0.4,
 "spike": false
 },
 "불났": {
@@ -1678,11 +1686,11 @@
 },
 "정전": {
 "n30": 1,
-"base": 0.3,
+"base": 0.4,
 "spike": false
 },
 "폭발": {
-"n30": 1,
+"n30": 2,
 "base": 0.1,
 "spike": false
 },
@@ -1697,19 +1705,19 @@
 "spike": false
 },
 "미사일": {
-"n30": 3,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
 "속보": {
-"n30": 2,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
 "지하철": {
-"n30": 6,
-"base": 1.4,
-"spike": true
+"n30": 4,
+"base": 1.6,
+"spike": false
 },
 "사고": {
 "n30": 2,
@@ -1743,6 +1751,16 @@
 }
 },
 "posts": [
+{
+"text": "와 옆집 엘리베이터 시공 거의 끝나가는데 간지 폭발한다",
+"handle": "28to1.bsky.social",
+"name": "토즈",
+"time": "2026-11-20T23:01:00.342Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/28to1.bsky.social/post/3n2rovvfink2f",
+"term": "폭발"
+},
 {
 "text": "음 지하철 빵집 냄새 마케팅 대박\n냄새 먹는건 공짜 소화도 안시켜도 되는 배부름이로다",
 "handle": "28to1.bsky.social",
@@ -1966,27 +1984,19 @@
 "url": "https://www.youtube.com/watch?v=YsayC98GWRU"
 }
 ],
-"spikes": [
-{
-"term": "지하철",
-"n30": 6,
-"base": 1.4,
-"spike": true,
-"since": "2026-11-20T23:00:12.020427+00:00"
-}
-],
+"spikes": [],
 "baseline": {
 "지진": 0.05,
-"화재": 0.39,
+"화재": 0.45,
 "불났": 0.05,
-"정전": 0.39,
-"폭발": 0.05,
+"정전": 0.45,
+"폭발": 0.15,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 1.55,
-"사고": 2.07,
+"지하철": 1.7,
+"사고": 2.06,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
