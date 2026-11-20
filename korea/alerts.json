@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-20T23:13:49.245572+00:00",
+"updated": "2026-11-20T23:16:05.766753+00:00",
 "errors": [],
 "events": [
 {
@@ -78,7 +78,7 @@
 "id": "viewAKR202611210124000612201",
 "first": "2026-11-20T22:01:57+00:00",
 "last": "2026-11-20T22:52:00+00:00",
-"updated": "2026-11-20T23:11:35.932590+00:00",
+"updated": "2026-11-20T23:16:05.766753+00:00",
 "headline": "평택 소정리역서 화물열차 탈선…경부선 열차 운행 지장",
 "cat": "교통",
 "regions": [
@@ -99,6 +99,7 @@
 "대전일보",
 "동아일보",
 "머니투데이",
+"서울Pn",
 "세계일보",
 "연합뉴스",
 "연합뉴스TV",
@@ -213,6 +214,13 @@
 "source": "채널A",
 "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1jZl9rM2pYaXZsczZVSlFjaUowSXRNNzhsTEFrQnM5cDF0WkI5bjhHMS15RlBLUUpvcTRpdkdSQzdPY0N5Tk05YWZHTF9zNDJUUk1hRlM0cV81Tml3ZnfSAWNBVV95cUxNaGRnMlU2Z09Jd253OGY1ZEZUUFN4TGtMWC0zTDBTUGJXNC13Q2pDOTJRX1I2MkwtOWV5SlNOTFV5OGZPVGZiN2lrOTdEQ2NfS3l5eHJVZ3lBcHZXTGk2ekZhM3c?oc=5",
 "time": "2026-11-20T22:33:00+00:00",
+"stage": "속보"
+},
+{
+"title": "[속보] 경부선 소정리역서 화물열차 5량 탈선…“일반열차 운행 중지”",
+"source": "서울Pn",
+"link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA2VTRTZ2ZOZHVMNXBad3VsMms3anFFZUs1SG8xNFJpek5YS19uUTZqNXAwQW9qVHR2ai1xQmNJZE1BNzFFRjF2VVhPMWJfS2FSY3kzWWtUYnhXSG5IWTQ2UWgwU05qOENHTTZyS2RJLW0?oc=5",
+"time": "2026-11-20T22:35:12+00:00",
 "stage": "속보"
 },
 {
@@ -1774,7 +1782,7 @@
 },
 "화재": {
 "n30": 3,
-"base": 0.6,
+"base": 0.7,
 "spike": false
 },
 "불났": {
@@ -1784,7 +1792,7 @@
 },
 "정전": {
 "n30": 2,
-"base": 0.6,
+"base": 0.7,
 "spike": false
 },
 "폭발": {
@@ -1814,12 +1822,12 @@
 },
 "지하철": {
 "n30": 2,
-"base": 1.7,
+"base": 1.6,
 "spike": false
 },
 "사고": {
 "n30": 0,
-"base": 1.4,
+"base": 1.2,
 "spike": false
 },
 "실종": {
@@ -2093,28 +2101,28 @@
 "n30": 8,
 "base": 0.5,
 "spike": true,
-"since": "2026-11-20T23:13:49.245572+00:00"
+"since": "2026-11-20T23:16:05.766753+00:00"
 },
 {
 "term": "속보",
 "n30": 5,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-20T23:13:49.245572+00:00"
+"since": "2026-11-20T23:16:05.766753+00:00"
 }
 ],
 "baseline": {
 "지진": 0.05,
-"화재": 0.68,
+"화재": 0.71,
 "불났": 0.05,
-"정전": 0.68,
-"폭발": 0.51,
+"정전": 0.71,
+"폭발": 0.56,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 1.62,
-"사고": 1.22,
+"지하철": 1.56,
+"사고": 1.1,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -2358,32 +2366,14 @@
 "time": "2026-11-20T22:10:00+00:00",
 "news": [
 {
-"title": "GTX-A 구성역 ‘고속열차 환승거점’ 추진…이언주, 국토부에 2복선화 건의",
-"source": "데일리스포츠한국",
-"link": "https://www.dailysportshankook.co.kr/news/articleView.html?idxno=435766"
+"title": "[사설]거래 절벽 속 쌓이는 아파트 매물… 공급 적기 놓치지 말아야",
+"source": "동아일보",
+"link": "https://www.donga.com/news/Opinion/article/all/20261120/135063785/2"
 },
 {
-"title": "‘위례~삼동선’·‘지하철 8호선 판교연장’ 예타 결과 내년으로 넘어가",
-"source": "경인일보",
-"link": "https://www.kyeongin.com/article/1774732"
-}
-],
-"new": true
-},
-{
-"term": "공매도",
-"traffic": "200+",
-"time": "2026-11-20T22:10:00+00:00",
-"news": [
-{
-"title": "“주식 어디가 바닥인데요?” 외국인은 이미 탈출…이건 7.4조 샀다는데",
-"source": "매일경제 마켓",
-"link": "https://stock.mk.co.kr/news/view/1203507"
-},
-{
-"title": "외국인, 지난달 우리나라 주식 26조 원 '팔자'‥두 달 연속 순매도",
-"source": "MBC 뉴스",
-"link": "https://imnews.imbc.com/news/2026/econo/article/6867106_36932.html"
+"title": "강남 넘어 한강벨트까지…‘서울 집값 정말 잡히나요’",
+"source": "마켓인",
+"link": "https://marketin.edaily.co.kr/News/ReadE?newsId=01252966645648016"
 }
 ],
 "new": true
@@ -2407,8 +2397,26 @@
 "new": true
 },
 {
+"term": "공매도",
+"traffic": "200+",
+"time": "2026-11-20T22:10:00+00:00",
+"news": [
+{
+"title": "“주식 어디가 바닥인데요?” 외국인은 이미 탈출…이건 7.4조 샀다는데",
+"source": "매일경제 마켓",
+"link": "https://stock.mk.co.kr/news/view/1203507"
+},
+{
+"title": "외국인, 지난달 우리나라 주식 26조 원 '팔자'‥두 달 연속 순매도",
+"source": "MBC 뉴스",
+"link": "https://imnews.imbc.com/news/2026/econo/article/6867106_36932.html"
+}
+],
+"new": true
+},
+{
 "term": "부고",
-"traffic": "100+",
+"traffic": "200+",
 "time": "2026-11-20T22:00:00+00:00",
 "news": [
 {
@@ -2425,6 +2433,13 @@
 "new": true
 },
 {
+"term": "대전광역시",
+"traffic": "100+",
+"time": "2026-11-20T22:00:00+00:00",
+"news": [],
+"new": true
+},
+{
 "term": "al-ahli saudi fc vs al-nassr standings",
 "traffic": "100+",
 "time": "2026-11-20T22:00:00+00:00",
@@ -2438,6 +2453,24 @@
 "title": "Al-Ahli 3-1 Al-Nassr: Galeno shines as Ronaldo hits the post",
 "source": "Sofascore",
 "link": "https://www.sofascore.com/news/al-ahli-3-1-al-nassr-galeno-shines-as-ronaldo-hits-the-post"
+}
+],
+"new": true
+},
+{
+"term": "코레일",
+"traffic": "1000+",
+"time": "2026-11-20T22:00:00+00:00",
+"news": [
+{
+"title": "서울 지하철 준법투쟁 첫날…철도노조도 23일 합류",
+"source": "전기신문",
+"link": "https://www.electimes.com/news/articleView.html?idxno=375076"
+},
+{
+"title": "서울지하철 노조, 오늘부터 준법투쟁…출퇴근 열차 지연 예상",
+"source": "KBS 뉴스",
+"link": "https://news.kbs.co.kr/news/view.do?ncd=8718152"
 }
 ],
 "new": true
@@ -2477,46 +2510,9 @@
 }
 ],
 "new": true
-},
-{
-"term": "항공",
-"traffic": "100+",
-"time": "2026-11-20T21:40:00+00:00",
-"news": [
-{
-"title": "한중 FTA 후속 협상 실질 타결에…K-콘텐츠 업계 “환영”",
-"source": "KBS 뉴스",
-"link": "https://news.kbs.co.kr/news/view.do?ncd=8718493"
-},
-{
-"title": "한한령 풀리나…중소기업 \"中시장 열리면 숨통\"",
-"source": "뉴시스",
-"link": "https://www.newsis.com/view/NISX20261120_0003877198"
-}
-],
-"new": false
-},
-{
-"term": "주가순자산비율",
-"traffic": "100+",
-"time": "2026-11-20T21:40:00+00:00",
-"news": [
-{
-"title": "정부는 '베어허그' 띄우지만…저평가 상장사 570곳 경영권은 '철옹성'",
-"source": "마켓인",
-"link": "https://marketin.edaily.co.kr/News/ReadE?newsId=01394006645647360"
-},
-{
-"title": "[취재후일담] 밸류업 앞장섰더니 저PBR 낙인…누가 정책 따르겠나",
-"source": "아시아투데이",
-"link": "https://www.asiatoday.co.kr/kn/view.php?key=20261119010007708"
-}
-],
-"new": true
 }
 ],
 "trendSeen": [
-"최원호",
 "최인호",
 "최일언",
 "최저임금",
@@ -2567,6 +2563,7 @@
 "케빈 홀랜드",
 "케이조선",
 "케일라 해리슨",
+"코레일",
 "코리아 그랜드 뮤직 어워즈",
 "코리아 패싱",
 "코리아오픈 배드민턴",
