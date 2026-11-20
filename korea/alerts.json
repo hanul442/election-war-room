@@ -1,18 +1,20 @@
 {
-"updated": "2026-11-20T04:34:04.810676+00:00",
+"updated": "2026-11-20T04:36:19.874295+00:00",
 "errors": [],
 "events": [
 {
 "id": "drV0UzWjAyTFF2MG5aSzcoc50052",
 "first": "2026-11-20T00:52:54+00:00",
 "last": "2026-11-20T04:31:22+00:00",
-"updated": "2026-11-20T04:34:04.810676+00:00",
+"updated": "2026-11-20T04:36:19.874295+00:00",
 "headline": "코스피, 외국인·기관 매도에 4%대 급락…4900선 붕괴",
 "cat": "재난",
 "regions": [],
 "sources": [
 "Chosunbiz",
+"MTN 머니투데이방송",
 "SBS",
+"뉴스1",
 "뉴스퀘스트",
 "뉴스투데이",
 "뉴스핌",
@@ -201,10 +203,24 @@
 "stage": "속보"
 },
 {
+"title": "[속보] 코스피 이어 코스닥 매도 사이드카 발동…지수 4.8%↓",
+"source": "뉴스1",
+"link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9NUF9IOC1RMGQyRldYbGNVMmhMVEFZWHNTdDhFM1c4eDMyTTg1QV9mUDhZTWppZUxSVUZra0JrSU54VTBiVXVLS1dlT18yRjV2VlpTbG9vVnVhTHhZVkVB?oc=5",
+"time": "2026-11-20T04:28:05+00:00",
+"stage": "속보"
+},
+{
 "title": "[속보] 코스닥 매도 사이드카…지수 650선 위태 - 머니투데이",
 "source": "머니투데이",
 "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5JN1daTHZRbkdUOEw3S1J0OExFRElaU0t4YVNrUnhtcTdYSnlHOTVWZ0F4UDJ2ZzF0UFFZWmR4ZDZkOElhYkMzYlNnakFHY2d2b2NydGhFWnpWWkFNMXY5eThKYS1xWko5SUQwN1FSUE5abFJMV3fSAXtBVV95cUxPOEZPUE9USVQxUjFfY3ZmQzJxdndqV0dFMzdhUy1FdnFrek5Kc1p3MzJqbzRvVTcyYnBQOUtqWGtwazhEOGFGOWRkcTlNR2g0SUloUzMtZUJvYzNEb1hGdkVBYS1JaFA3M3BiSjlFbTgyTXZxZzVRZFMyNVk?oc=5",
 "time": "2026-11-20T04:28:08+00:00",
+"stage": "속보"
+},
+{
+"title": "[속보] 급락장에 코스피 이어 코스닥서도 매도 사이드카",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261120091800008",
+"time": "2026-11-20T04:29:02+00:00",
 "stage": "속보"
 },
 {
@@ -219,6 +235,13 @@
 "source": "뉴시스",
 "link": "https://www.newsis.com/view/NISX20261120_0003876711",
 "time": "2026-11-20T04:30:34+00:00",
+"stage": "속보"
+},
+{
+"title": "[속보] 코스피, 5%대 급락에 매도 사이드카 발동",
+"source": "MTN 머니투데이방송",
+"link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5tZ2ZzLTEyR0J2QW9henpkZTBTa2dDSTdQempQbmhCUXdEdzBaSEhrUV9BSS03Umw5NmxzLUc2TW9mcWtrR3JxUHFXZEpQUUV2UnExMWlpaWd4YzJuUm5j?oc=5",
+"time": "2026-11-20T04:31:16+00:00",
 "stage": "속보"
 },
 {
@@ -4157,11 +4180,11 @@
 "terms": {
 "지진": {
 "n30": 1,
-"base": 0.3,
+"base": 0.4,
 "spike": false
 },
 "화재": {
-"n30": 2,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
@@ -4187,7 +4210,7 @@
 },
 "대피": {
 "n30": 0,
-"base": 0.8,
+"base": 0.7,
 "spike": false
 },
 "미사일": {
@@ -4196,18 +4219,18 @@
 "spike": false
 },
 "속보": {
-"n30": 5,
+"n30": 4,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "지하철": {
-"n30": 1,
-"base": 1.2,
+"n30": 2,
+"base": 1.1,
 "spike": false
 },
 "사고": {
 "n30": 5,
-"base": 1.9,
+"base": 2.2,
 "spike": false
 },
 "실종": {
@@ -4232,11 +4255,21 @@
 },
 "산불": {
 "n30": 1,
-"base": 0.2,
+"base": 0.3,
 "spike": false
 }
 },
 "posts": [
+{
+"text": "지하철에서 봤다는 황당한 이야기는 보통 실화인 듯하다.\n\n나 고딩 때 본 거: 전도하는 사람이 또 예수천국 불신지옥 이럼. 그런데 그 칸에 새로운 전도하는 사람이 옴. 그러더니 둘이 서로 뭐라고 함. 한 5분 지나니까\n\n\"내 예수가 더 쎄다.\"\n\"내 예수가 옳다.\"\n\n이걸 시전함.\n\n예수는 하나 아니냐고.\n둘이 될 수 없지 않냐고.",
+"handle": "tsuta.bsky.social",
+"name": "츠타蔦_漸龑",
+"time": "2026-11-20T04:34:47.942Z",
+"likes": 1,
+"reposts": 0,
+"url": "https://bsky.app/profile/tsuta.bsky.social/post/3n2pr3tanz22e",
+"term": "지하철"
+},
 {
 "text": "합사와 연사의 차이로 추측함. 어제는 합사한 캐시+울 혼방 콘사고, 오늘은 그냥 메리노 볼실",
 "handle": "goldenpigeons.bsky.social",
@@ -4252,8 +4285,8 @@
 "handle": "hermion2.bsky.social",
 "name": "혜림이언니",
 "time": "2026-11-20T04:27:13.643Z",
-"likes": 2,
-"reposts": 7,
+"likes": 4,
+"reposts": 8,
 "url": "https://bsky.app/profile/hermion2.bsky.social/post/3n2pqoc2nngb5",
 "term": "산불"
 },
@@ -4517,32 +4550,24 @@
 "url": "https://www.youtube.com/watch?v=8B93mR6L6rk"
 }
 ],
-"spikes": [
-{
-"term": "속보",
-"n30": 5,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-20T04:34:04.810676+00:00"
-}
-],
+"spikes": [],
 "baseline": {
-"지진": 0.4,
-"화재": 0.12,
+"지진": 0.46,
+"화재": 0.11,
 "불났": 0.05,
-"정전": 0.74,
-"폭발": 1.21,
-"붕괴": 0.22,
-"대피": 0.69,
+"정전": 0.77,
+"폭발": 1.19,
+"붕괴": 0.2,
+"대피": 0.62,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 1.09,
-"사고": 2.18,
+"지하철": 1.08,
+"사고": 2.46,
 "실종": 1.05,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
-"산불": 0.32
+"산불": 0.39
 },
 "errors": [],
 "ytPosts": [
@@ -4781,9 +4806,9 @@
 "time": "2026-11-20T03:20:00+00:00",
 "news": [
 {
-"title": "여자배구 경기 중 쓰러진 관중 사망…KOVO·홈팀 흥국생명 추모",
-"source": "KBS 뉴스",
-"link": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8718206"
+"title": "여자배구 경기중 관중석서 쓰러진 남성, 끝내 숨져",
+"source": "동아일보",
+"link": "https://www.donga.com/news/Society/article/all/20261120/135058979/2"
 },
 {
 "title": "KOVO, 흥국생명-현대건설 사망 사고 애도 “사고 매우 엄중하게 받아들여, 경기장 안전·관중 보호 노력”",
