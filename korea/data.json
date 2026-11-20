@@ -1,6 +1,8 @@
 {
-"updated": "2026-11-20T13:14:18.725402+00:00",
-"errors": [],
+"updated": "2026-11-20T13:16:38.761776+00:00",
+"errors": [
+"구글뉴스: HTTPError"
+],
 "news": [
 {
 "title": "서류상 '없는 아이'?…'제도 밖' 국적 없는 아이들",
@@ -131,6 +133,16 @@
 "time": "2026-11-20T13:05:59+00:00",
 "regions": [],
 "cat": "기타",
+"breaking": false,
+"warn": null
+},
+{
+"title": "유조차 약 25대 정황…이라크 원유 밀수 수사, KRG와 충돌",
+"source": "토큰포스트",
+"link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBjandTcElHM0d0SkJsR3d6RDM4TnFsUkwzT19pODVoLVk5OTJQanYyamN0NUtqX201UEtBcTRHTUsxWVZyS2VKUEJkVEthX2tGREF0STFTTjJCX2wxWHBF0gFkQVVfeXFMUFdTWGItemhGUkNVX3dvZUVjYm5DNHU2N0JpaWFDOFliUFJVTzIwWnRtUnpOek9GN2U5U011M19tMmo5emE2ZDd4cThVNkliOG03S0hJWVdxbTJlQVpUT3NOR0RYTw?oc=5",
+"time": "2026-11-20T13:05:32+00:00",
+"regions": [],
+"cat": "사회",
 "breaking": false,
 "warn": null
 },
@@ -961,16 +973,6 @@
 "warn": null
 },
 {
-"title": "로스트아크, 성장 시스템 전면 개편...아이템 레벨보다 전투력",
-"source": "인벤",
-"link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE01SmtBWjF3UzJqeGtyUmxnUHRuMGswekg0Q0stdjdMYno1bjdZWm5vMDMzbG90a1pEc01hdzhKLTA1UVk5cV91Tm04bFpvUk5wTlAta255NVpfcnROaW5qMzdKME9aLWQyUXBxRVkySQ?oc=5",
-"time": "2026-11-20T12:16:20+00:00",
-"regions": [],
-"cat": "기타",
-"breaking": false,
-"warn": null
-},
-{
 "title": "’성당서 지지 호소' 천기옥 울산동구청장, 선거법 위반 혐의 송치",
 "source": "연합뉴스",
 "link": "https://www.yna.co.kr/view/AKR20261120176300057",
@@ -989,16 +991,6 @@
 "time": "2026-11-20T12:13:25+00:00",
 "regions": [],
 "cat": "정치",
-"breaking": false,
-"warn": null
-},
-{
-"title": "일본 득점왕 제쳤다! 이강인, 사상 첫 ‘국제선수상’ 2연패",
-"source": "JTBC",
-"link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBqNGdRNTZFR0hMVzJGUjAzb0M0emE3ZWxIQTQ0ei1BWUZmLTlHWlNmNDdKWjl0RmxqcDFiU1czeFRNbkE2dXZ5Uy0xM0todFgwR3V4dg?oc=5",
-"time": "2026-11-20T12:13:00+00:00",
-"regions": [],
-"cat": "국제",
 "breaking": false,
 "warn": null
 },
@@ -1219,16 +1211,6 @@
 "source": "조선일보",
 "link": "https://www.chosun.com/jp/politics-national-jp/2026/11/20/S335GFUCIBDZPDNWG7UK65CRZI/",
 "time": "2026-11-20T11:58:33+00:00",
-"regions": [],
-"cat": "기타",
-"breaking": false,
-"warn": null
-},
-{
-"title": "’민주유공자법’ 26년만 통과…野 “운동권 특혜법“ 반발",
-"source": "연합뉴스TV",
-"link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE16Nzd5bWNibTlLQmpmY3pDcU1KUi1CWWh3TEtiUzNUaTR3cl82R3JQcTkxWEhaSDlvWXBjWllaY2VJdTMtWDMzQkctMkljaGo3Ny1HTnc3d2dpUUZsSGxLNGRBTGNhdlk?oc=5",
-"time": "2026-11-20T11:58:00+00:00",
 "regions": [],
 "cat": "기타",
 "breaking": false,
@@ -1605,16 +1587,6 @@
 "warn": null
 },
 {
-"title": "축구협회 \"쿠팡플레이 특혜 의혹 사실 아냐‥규정 따른 투명한 절차\"",
-"source": "MBC 뉴스",
-"link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1vaUh1cG9WM2hScVlqNEZ5S0NKTURBbVhBcFEyY3NJd0dENGwtZEJ0VGlGLWpXdmxQQk9fMTlRb0FKd2txbGdvdDZtNlB3cl9tMVRYWFN3YVBoQmJRM1ZYb0t1S05yR1M3WDRKNXRuVE5QMG9FRHfSAXZBVV95cUxPY25vVEQ5aF9YSkxBNFRLbXRYaFFVRWhlM3paNjFFeGhJM3RyY1M4M1gtYWpjaDctWVdQX0dmUWhKR3FNY0hqUUtjQVBxNEgzcjJCakdWckJLT2NfdGF0dHlxb3R3dEVzYV9Nb0ZWTzBObmVWbzJB?oc=5",
-"time": "2026-11-20T11:24:24+00:00",
-"regions": [],
-"cat": "기타",
-"breaking": false,
-"warn": null
-},
-{
 "title": "\"Y대 앞 카페 알바→학생 팬 많았다\" 엄정화, 얼마나 예뻤길래..",
 "source": "조선일보",
 "link": "https://www.chosun.com/entertainments/broadcast/2026/11/20/MRSDCMRTGJSDOZTFHBQWMZLGHA/",
@@ -1791,16 +1763,6 @@
 "source": "조선일보",
 "link": "https://www.chosun.com/jp/culture-life-jp/2026/11/20/RC3CVB2IGBFQXLOOM5NLMVNOOQ/",
 "time": "2026-11-20T11:06:00+00:00",
-"regions": [],
-"cat": "기타",
-"breaking": false,
-"warn": null
-},
-{
-"title": "삼전닉스만 닷새간 7.6조…외국인, 두 달 새 국내 주식 45조 순매도",
-"source": "마켓인",
-"link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9wVmt4NHBkVFBpQ1ZYQkIxQUdXUm5FT2FWQ19BaUVxTExPNlROQTVObnJUVWhtN3JXT0NQM2kzV190YkFwNUt4dnF3MzBkUUZUYzdaU0lMc1pIbUFOYXdNR2Nma3g3ZkJubVMtdFZHaEVwTHM?oc=5",
-"time": "2026-11-20T11:01:56+00:00",
 "regions": [],
 "cat": "기타",
 "breaking": false,
@@ -2103,16 +2065,6 @@
 "warn": null
 },
 {
-"title": "'2026 MAMA' 간 김혜수, 볼륨 강조한 드레스 자태…'시선 강탈' - 머니투데이",
-"source": "머니투데이",
-"link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE8xZFFoT0Z3MEFhenNKYVk3VHhSWlZtR1dlQk16STRzb1FuYlpCLUF4eUxOM2pXSS0zcTU2VHZwODNjMXg4OEUwR19WUTlRdHdtS0duVUtMd1V4OHYxbEcySVdHa21TandLM1F5RTAtOHozNEHSAXhBVV95cUxOMkVCT2JkQlZMODN4b3N2cWJRWEdoTGZTX3ZlSElDcnZ4YTlWSmRyeUpSdGw2SFZ5X283S3lYUm92Uy1hbi1ud3JHYzRNZEVfNGZwbUtWR0ZHc3oyZFpCOWJROHNTNWpWZG1YQmpiTWtpVXNUdWM4SUw?oc=5",
-"time": "2026-11-20T10:32:31+00:00",
-"regions": [],
-"cat": "기타",
-"breaking": false,
-"warn": null
-},
-{
 "title": "오늘의 SBS 8뉴스 예고 (11월 20일)",
 "source": "SBS",
 "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008856085&plink=RSSLINK&cooper=RSSREADER",
@@ -2197,16 +2149,6 @@
 "warn": null
 },
 {
-"title": "[카드뉴스] 어린이 독감 접종은 14세까지 무료... 9세 미만 처음 접종이면 2번 맞아야",
-"source": "베이비뉴스",
-"link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFAwZy1xWFA2bWNHQXp3QUlBV2N3VDFKTEVHTEQ4RTQ5ZGVPbTdCVGtDWHFtWklMZms1WXA3RW1mdlUtMzZLQnA3NXM3OFBRU1p4TXpJS2xnZXgyVHZKZl93eUk5anBLekh0YVg4Zg?oc=5",
-"time": "2026-11-20T10:14:23+00:00",
-"regions": [],
-"cat": "기타",
-"breaking": false,
-"warn": null
-},
-{
 "title": "[게시판] 대한주택관리사협회 신임 회장에 박병남 서울시회장",
 "source": "연합뉴스",
 "link": "https://www.yna.co.kr/view/AKR20261120169500003",
@@ -2249,6 +2191,68 @@
 "cat": "기타",
 "breaking": false,
 "warn": null
+},
+{
+"title": "ICJ 미얀마 집단학살 판결에 로힝야족 \"전율\"…대통령 향하는 책임론",
+"source": "SBS",
+"link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008856415&plink=RSSLINK&cooper=RSSREADER",
+"time": "2026-11-20T10:09:04+00:00",
+"regions": [],
+"cat": "정치",
+"breaking": false,
+"warn": null
+},
+{
+"title": "'리트 만점자' 고발 변호사 \"수법 파악해야 대안 찾아\" 수사 촉구",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261120_0003877401",
+"time": "2026-11-20T10:06:12+00:00",
+"regions": [],
+"cat": "사회",
+"breaking": false,
+"warn": null
+},
+{
+"title": "李대통령, 김종철 경찰청장 후보자 임명안 재가",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261120168500001",
+"time": "2026-11-20T10:03:16+00:00",
+"regions": [],
+"cat": "정치",
+"breaking": false,
+"warn": null
+},
+{
+"title": "한국문화진흥 신임 대표이사에 염주립씨 선임",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261120_0003877397",
+"time": "2026-11-20T10:02:33+00:00",
+"regions": [],
+"cat": "기타",
+"breaking": false,
+"warn": null
+},
+{
+"title": "성남시의회, 올해 마지막 정례회 개회…시정 전반 점검",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261120_0003877400",
+"time": "2026-11-20T10:02:27+00:00",
+"regions": [
+"경기"
+],
+"cat": "기타",
+"breaking": false,
+"warn": null
+},
+{
+"title": "김세의 '명예훼손·모욕 혐의' 또 기소…피해자 13명",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261120167900004",
+"time": "2026-11-20T10:01:49+00:00",
+"regions": [],
+"cat": "기타",
+"breaking": false,
+"warn": null
 }
 ],
 "regionCounts": {
@@ -2260,7 +2264,7 @@
 "대전": 0,
 "울산": 1,
 "세종": 0,
-"경기": 7,
+"경기": 8,
 "강원": 0,
 "충북": 0,
 "충남": 0,
@@ -2366,8 +2370,8 @@
 ],
 "weather": {
 "서울": {
-"temp": -1.7,
-"feels": -5.6,
+"temp": -1.8,
+"feels": -5.7,
 "hum": 52,
 "rain": 0.0,
 "wind": 4.7,
@@ -2382,11 +2386,11 @@
 "pm25g": "보통"
 },
 "부산": {
-"temp": 2.3,
+"temp": 2.2,
 "feels": -1.5,
-"hum": 62,
+"hum": 63,
 "rain": 0.0,
-"wind": 7.1,
+"wind": 6.6,
 "code": 0,
 "sky": "맑음",
 "max": 6.8,
@@ -2398,7 +2402,7 @@
 "pm25g": "좋음"
 },
 "대구": {
-"temp": 0.8,
+"temp": 0.7,
 "feels": -3.0,
 "hum": 63,
 "rain": 0.0,
@@ -2415,12 +2419,12 @@
 },
 "인천": {
 "temp": -1.4,
-"feels": -6.0,
+"feels": -6.1,
 "hum": 65,
 "rain": 0.0,
 "wind": 11.6,
-"code": 1,
-"sky": "대체로 맑음",
+"code": 0,
+"sky": "맑음",
 "max": 1.9,
 "min": -2.5,
 "pop": 0,
@@ -2430,13 +2434,13 @@
 "pm25g": "보통"
 },
 "광주": {
-"temp": 2.2,
-"feels": -0.2,
+"temp": 2.1,
+"feels": -0.3,
 "hum": 91,
 "rain": 0.0,
-"wind": 2.8,
-"code": 1,
-"sky": "대체로 맑음",
+"wind": 3.1,
+"code": 2,
+"sky": "구름 조금",
 "max": 4.7,
 "min": 0.8,
 "pop": 100,
@@ -2446,9 +2450,9 @@
 "pm25g": "좋음"
 },
 "대전": {
-"temp": -0.5,
-"feels": -3.7,
-"hum": 67,
+"temp": -0.6,
+"feels": -3.8,
+"hum": 66,
 "rain": 0.0,
 "wind": 1.8,
 "code": 1,
@@ -2462,11 +2466,11 @@
 "pm25g": "보통"
 },
 "울산": {
-"temp": 0.4,
-"feels": -3.4,
-"hum": 69,
+"temp": 0.3,
+"feels": -3.5,
+"hum": 70,
 "rain": 0.0,
-"wind": 7.6,
+"wind": 7.3,
 "code": 0,
 "sky": "맑음",
 "max": 5.8,
@@ -2478,8 +2482,8 @@
 "pm25g": "좋음"
 },
 "세종": {
-"temp": -0.1,
-"feels": -3.5,
+"temp": -0.2,
+"feels": -3.6,
 "hum": 75,
 "rain": 0.0,
 "wind": 4.8,
@@ -2494,9 +2498,9 @@
 "pm25g": "보통"
 },
 "경기": {
-"temp": -4.0,
+"temp": -4.1,
 "feels": -7.9,
-"hum": 76,
+"hum": 77,
 "rain": 0.0,
 "wind": 5.8,
 "code": 0,
@@ -2510,11 +2514,11 @@
 "pm25g": "보통"
 },
 "강원": {
-"temp": -4.9,
-"feels": -9.2,
+"temp": -5.0,
+"feels": -9.4,
 "hum": 56,
 "rain": 0.0,
-"wind": 6.2,
+"wind": 6.1,
 "code": 0,
 "sky": "맑음",
 "max": -0.3,
@@ -2526,11 +2530,11 @@
 "pm25g": "좋음"
 },
 "충북": {
-"temp": -0.8,
-"feels": -4.7,
+"temp": -0.9,
+"feels": -4.8,
 "hum": 56,
 "rain": 0.0,
-"wind": 5.1,
+"wind": 4.8,
 "code": 0,
 "sky": "맑음",
 "max": 2.4,
@@ -2542,13 +2546,13 @@
 "pm25g": "좋음"
 },
 "충남": {
-"temp": 0.0,
-"feels": -3.1,
-"hum": 86,
-"rain": 0.0,
-"wind": 4.7,
-"code": 3,
-"sky": "흐림",
+"temp": -0.1,
+"feels": -3.3,
+"hum": 88,
+"rain": 0.3,
+"wind": 5.4,
+"code": 75,
+"sky": "많은 눈",
 "max": 3.5,
 "min": -1.7,
 "pop": 98,
@@ -2560,9 +2564,9 @@
 "전북": {
 "temp": 1.1,
 "feels": -1.8,
-"hum": 83,
+"hum": 82,
 "rain": 0.0,
-"wind": 3.9,
+"wind": 4.2,
 "code": 2,
 "sky": "구름 조금",
 "max": 4.2,
@@ -2575,12 +2579,12 @@
 },
 "전남": {
 "temp": 3.9,
-"feels": 0.2,
+"feels": 0.3,
 "hum": 91,
-"rain": 0.4,
-"wind": 14.3,
-"code": 61,
-"sky": "비",
+"rain": 0.1,
+"wind": 13.5,
+"code": 51,
+"sky": "이슬비",
 "max": 7.6,
 "min": 3.8,
 "pop": 100,
@@ -2590,11 +2594,11 @@
 "pm25g": "좋음"
 },
 "경북": {
-"temp": -2.0,
-"feels": -6.3,
+"temp": -2.1,
+"feels": -6.4,
 "hum": 67,
 "rain": 0.0,
-"wind": 8.8,
+"wind": 8.7,
 "code": 0,
 "sky": "맑음",
 "max": 2.8,
@@ -2606,11 +2610,11 @@
 "pm25g": "좋음"
 },
 "경남": {
-"temp": 0.3,
-"feels": -3.3,
+"temp": 0.2,
+"feels": -3.4,
 "hum": 74,
 "rain": 0.0,
-"wind": 6.9,
+"wind": 7.1,
 "code": 0,
 "sky": "맑음",
 "max": 6.5,
@@ -2626,7 +2630,7 @@
 "feels": 2.7,
 "hum": 64,
 "rain": 0.0,
-"wind": 34.0,
+"wind": 34.5,
 "code": 3,
 "sky": "흐림",
 "max": 9.6,
