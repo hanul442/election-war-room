@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-20T22:02:07.073885+00:00",
+"updated": "2026-11-20T22:04:20.654425+00:00",
 "errors": [],
 "events": [
 {
@@ -1317,7 +1317,7 @@
 "terms": {
 "지진": {
 "n30": 0,
-"base": 0.7,
+"base": 0.6,
 "spike": false
 },
 "화재": {
@@ -1331,7 +1331,7 @@
 "spike": false
 },
 "정전": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -1341,7 +1341,7 @@
 "spike": false
 },
 "붕괴": {
-"n30": 2,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -1607,7 +1607,7 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 0.62,
+"지진": 0.56,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
@@ -1838,6 +1838,42 @@
 },
 "trends": [
 {
+"term": "비트코인",
+"traffic": "1000+",
+"time": "2026-11-20T21:00:00+00:00",
+"news": [
+{
+"title": "비트코인 4달만에 도로 6만달러 아래로…2022년 이후 최장 약세",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261121005500091"
+},
+{
+"title": "휘청이는 비트코인…NH증권 \"디베이스먼트 재부각 필요\"",
+"source": "연합인포맥스",
+"link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4445655"
+}
+],
+"new": true
+},
+{
+"term": "포스코",
+"traffic": "100+",
+"time": "2026-11-20T21:00:00+00:00",
+"news": [
+{
+"title": "포스코1%나눔재단, 국가유공자·제복 근무자에 첨단보조기구 전달",
+"source": "마켓인",
+"link": "https://marketin.edaily.co.kr/News/ReadE?newsId=03171766645647688"
+},
+{
+"title": "보훈부·포스코, 상이 국가유공자 첨단 보조기구 지원",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261120027900504"
+}
+],
+"new": false
+},
+{
 "term": "생계",
 "traffic": "2000+",
 "time": "2026-11-20T20:50:00+00:00",
@@ -1910,6 +1946,24 @@
 "new": false
 },
 {
+"term": "빙하",
+"traffic": "200+",
+"time": "2026-11-20T20:40:00+00:00",
+"news": [
+{
+"title": "“배 돌려요” 태아 살려낸 빙하 녹인 물…‘종말의 날’ 울린 태동 [.txt]",
+"source": "한겨레",
+"link": "https://www.hani.co.kr/arti/culture/book/1288258.html"
+},
+{
+"title": "[책의 향기]지구의 종말 앞에서 탄생을 논하다",
+"source": "동아일보",
+"link": "https://www.donga.com/news/Culture/article/all/20261120/135063004/2"
+}
+],
+"new": true
+},
+{
 "term": "나스닥",
 "traffic": "200+",
 "time": "2026-11-20T20:40:00+00:00",
@@ -1959,60 +2013,6 @@
 "title": "알카라스 \"ATP 파이널스 우승은 엄청난 성공…전 코치 페레로 만나면 크게 안아줄 것”",
 "source": "테니스코리아",
 "link": "https://www.tennis.co.kr/news/articleView.html?idxno=54298"
-}
-],
-"new": true
-},
-{
-"term": "당구",
-"traffic": "500+",
-"time": "2026-11-20T20:20:00+00:00",
-"news": [
-{
-"title": "‘대학 자퇴하고 당구선수 데뷔’ LPBA 이선영 “반대하던 부모님 4강 진출하자 기뻐하셔”",
-"source": "mkbn.mk.co.kr",
-"link": "https://mkbn.mk.co.kr/news/sports/12214637"
-},
-{
-"title": "제16회 중구청장배·제17회 연맹회장배 당구대회 개최",
-"source": "중구신문",
-"link": "https://www.junggunews.com/news/articleView.html?idxno=42979"
-}
-],
-"new": true
-},
-{
-"term": "황유민",
-"traffic": "2000+",
-"time": "2026-11-20T20:20:00+00:00",
-"news": [
-{
-"title": "김아림, LPGA 시즌 최종전 투어 챔피언십 첫날 공동 선두",
-"source": "KBS 뉴스",
-"link": "https://news.kbs.co.kr/news/view.do?ncd=8718205"
-},
-{
-"title": "유해란, 투어 챔피언십 첫날 공동 4위",
-"source": "뉴시스",
-"link": "https://mobile.newsis.com/photo_view.html?pict_id=NISI20261120_0002297379&provider_id=&cID=&type=Main&catg=&idx=7"
-}
-],
-"new": false
-},
-{
-"term": "김호령",
-"traffic": "1000+",
-"time": "2026-11-20T20:10:00+00:00",
-"news": [
-{
-"title": "‘중견수 대어’ 최지훈 SSG 잔류…FA C등급 김호령 거취에 촉각",
-"source": "동아일보",
-"link": "https://www.donga.com/news/Sports/article/all/20261120/135062951/1"
-},
-{
-"title": "[프로야구] 외야 남은 FA 최대어, KIA 김호령 두산 정수빈 행선지는",
-"source": "뉴스핌",
-"link": "https://www.newspim.com/news/view/20261119001002"
 }
 ],
 "new": true
