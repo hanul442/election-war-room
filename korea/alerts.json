@@ -1,7 +1,42 @@
 {
-"updated": "2026-11-20T07:05:23.291425+00:00",
+"updated": "2026-11-20T07:07:52.059521+00:00",
 "errors": [],
 "events": [
+{
+"id": "ssutm_campaigntotal_news0705",
+"first": "2026-11-20T07:05:00+00:00",
+"last": "2026-11-20T07:05:00+00:00",
+"updated": "2026-11-20T07:07:52.059521+00:00",
+"headline": "‘검은 금요일’ 코스피·코스닥 5%대 폭락…앤트로픽 기대감 꺾이며 4900선 붕괴",
+"cat": "재난",
+"regions": [],
+"sources": [
+"경향신문"
+],
+"updates": [
+{
+"title": "‘검은 금요일’ 코스피·코스닥 5%대 폭락…앤트로픽 기대감 꺾이며 4900선 붕괴",
+"source": "경향신문",
+"link": "https://www.khan.co.kr/article/202611201605001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
+"time": "2026-11-20T07:05:00+00:00",
+"stage": "1보"
+}
+],
+"level": "ALERT",
+"latest": "‘검은 금요일’ 코스피·코스닥 5%대 폭락…앤트로픽 기대감 꺾이며 4900선 붕괴",
+"tok": [
+"4900선",
+"검은",
+"금요일",
+"기대감",
+"꺾이며",
+"붕괴",
+"앤트로픽",
+"코스닥",
+"코스피",
+"폭락"
+]
+},
 {
 "id": "SWk44QUF1RHpXWjRMeEF3oc50700",
 "first": "2026-11-20T07:00:37+00:00",
@@ -4379,49 +4414,13 @@
 "친구",
 "판단"
 ]
-},
-{
-"id": "JRkZLbmUydGVMTWpUR2tOoc50427",
-"first": "2026-11-20T04:27:54+00:00",
-"last": "2026-11-20T04:27:54+00:00",
-"updated": "2026-11-20T04:34:04.810676+00:00",
-"headline": "비트코인 61000달러선…리플 전일대비 하락, 주말 앞두고 코인 시세 전반 약세",
-"cat": "기타",
-"regions": [],
-"sources": [
-"CBC뉴스"
-],
-"updates": [
-{
-"title": "[속보] 비트코인 61000달러선…리플 전일대비 하락, 주말 앞두고 코인 시세 전반 약세",
-"source": "CBC뉴스",
-"link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE91Z1hSSmM1c0VJVFNuNzlKc3dVcFVIRWJRTFF3RUpQRHVueWRyV2plUGtOalcyRGpNZFNUSWdiX1pheEYwV2ttazNBRHBCWGxzT2xOb2VJUm9JRkZLbmUydGVMTWpUR2tO?oc=5",
-"time": "2026-11-20T04:27:54+00:00",
-"stage": "얼럿"
-}
-],
-"level": "URGENT",
-"latest": "비트코인 61000달러선…리플 전일대비 하락, 주말 앞두고 코인 시세 전반 약세",
-"tok": [
-"61000달러선",
-"리플",
-"비트코인",
-"시세",
-"앞두고",
-"약세",
-"전반",
-"전일대비",
-"주말",
-"코인",
-"하락"
-]
 }
 ],
 "sns": {
 "terms": {
 "지진": {
-"n30": 1,
-"base": 0.7,
+"n30": 0,
+"base": 0.8,
 "spike": false
 },
 "화재": {
@@ -4440,12 +4439,12 @@
 "spike": false
 },
 "폭발": {
-"n30": 4,
+"n30": 3,
 "base": 0.6,
 "spike": false
 },
 "붕괴": {
-"n30": 2,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
@@ -4465,7 +4464,7 @@
 "spike": false
 },
 "지하철": {
-"n30": 3,
+"n30": 2,
 "base": 0.7,
 "spike": false
 },
@@ -4630,16 +4629,6 @@
 "url": "https://www.youtube.com/watch?v=yBVORk3umcQ"
 },
 {
-"text": "【지진 정보】일본 시간 11월 20일 15:31경\n진원: Amakusa and Ashikita Region, Kumamoto Prefecture (M2.5, 매우 얕음)\n최대 진도: 1\n진도 1: 구마모토현\n이 지진으로 인한 쓰나미 걱정은 없습니다.\n(일본 기상청 발표)\n#일본 #지진 #방재",
-"handle": "ko.soramoyou.yk-planning.jp",
-"name": "Soramoyou 한국어",
-"time": "2026-11-20T06:37:37.445Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/ko.soramoyou.yk-planning.jp/post/3n2pxxhskzi2e",
-"term": "지진"
-},
-{
 "platform": "YouTube",
 "text": "블록 하나 부수면 마을이 통째로 붕괴… 마크에 '진짜 물리' 켜봤더니 | Minecraft Real Physics #Shorts",
 "handle": "UCmoyzJK-uihMq4guy2fowrg",
@@ -4732,17 +4721,17 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 0.77,
+"지진": 0.69,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.57,
-"붕괴": 0.1,
+"폭발": 0.51,
+"붕괴": 0.09,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.09,
-"지하철": 0.71,
-"사고": 0.88,
+"속보": 0.08,
+"지하철": 0.74,
+"사고": 0.89,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -5054,9 +5043,9 @@
 "link": "https://www.khan.co.kr/article/202611201044001"
 },
 {
-"title": "빅뱅·씨엘, 같은 날 4시간 차 신곡 컴백…그 시절 'YG 패밀리' 소환[SC초점]",
-"source": "조선일보",
-"link": "https://www.chosun.com/entertainments/enter_general/2026/11/20/GU3WKZRYMMYTKNZWGJQTONZRG4/"
+"title": "20주년 빅뱅, 신곡 '기립' 깜짝 발표…GD 작사·작곡(종합)",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261120036851005"
 }
 ],
 "new": true
