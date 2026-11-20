@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-20T23:02:28.433033+00:00",
+"updated": "2026-11-20T23:04:44.077478+00:00",
 "errors": [],
 "events": [
 {
@@ -1676,7 +1676,7 @@
 },
 "화재": {
 "n30": 1,
-"base": 0.4,
+"base": 0.5,
 "spike": false
 },
 "불났": {
@@ -1686,7 +1686,7 @@
 },
 "정전": {
 "n30": 1,
-"base": 0.4,
+"base": 0.5,
 "spike": false
 },
 "폭발": {
@@ -1705,7 +1705,7 @@
 "spike": false
 },
 "미사일": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -1716,11 +1716,11 @@
 },
 "지하철": {
 "n30": 4,
-"base": 1.6,
+"base": 1.7,
 "spike": false
 },
 "사고": {
-"n30": 2,
+"n30": 0,
 "base": 2.1,
 "spike": false
 },
@@ -1836,26 +1836,6 @@
 "time": "2026-11-20T22:34:02Z",
 "term": "미사일",
 "url": "https://www.youtube.com/watch?v=X_VGSGNvEJs"
-},
-{
-"text": "오늘 집에가서 오일파스타 머거야지 (특: 소스 저거 상할까봐 빨리 다 머거야됨\n운동할라햇는디 괜히 또 나댓다가 몸살 가라앉아가는거 덧나면 안되므로... 집에 가면서 다이소 가서 캠핑용품 사고...\n음식은... 가서 먹을 마라탕에 넣을 고기 잇음 좋겟는디 출발전에 사는게 좋겟지...?\n그라믄 오늘은 캠핑용풍 쇼핑하고 집에와서 남은 고기 때려넣은 오일팬파스타 머거야지이\n내일은 만두꿉자 희희",
-"handle": "noisily.bsky.social",
-"name": "비형",
-"time": "2026-11-20T22:33:27.450Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/noisily.bsky.social/post/3n2rnewqgtk2y",
-"term": "사고"
-},
-{
-"text": "나 저런 75구관 사이즈에 한복 가지고 싶었던 거라서....\n안 사고(5년은 된 것 같은데) 버티기....\nx.com/cpy3237/stat...",
-"handle": "s-ppyong.bsky.social",
-"name": "새뿅",
-"time": "2026-11-20T22:32:56.245Z",
-"likes": 1,
-"reposts": 0,
-"url": "https://bsky.app/profile/s-ppyong.bsky.social/post/3n2rndnrpi225",
-"term": "사고"
 },
 {
 "platform": "YouTube",
@@ -1987,16 +1967,16 @@
 "spikes": [],
 "baseline": {
 "지진": 0.05,
-"화재": 0.45,
+"화재": 0.51,
 "불났": 0.05,
-"정전": 0.45,
-"폭발": 0.15,
+"정전": 0.51,
+"폭발": 0.24,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 1.7,
-"사고": 2.06,
+"지하철": 1.83,
+"사고": 1.85,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -2172,8 +2152,26 @@
 },
 "trends": [
 {
+"term": "부고",
+"traffic": "100+",
+"time": "2026-11-20T22:00:00+00:00",
+"news": [
+{
+"title": "[부음] 심원보(금호건설 홍보IR팀 팀장)씨 부친상",
+"source": "IT조선",
+"link": "https://it.chosun.com/news/articleView.html?idxno=3000000001551"
+},
+{
+"title": "[부고] 심원보 금호건설 홍보IR팀 팀장 부친상",
+"source": "이투데이",
+"link": "https://www.etoday.co.kr/news/view/2651080"
+}
+],
+"new": true
+},
+{
 "term": "파기 환송",
-"traffic": "1000+",
+"traffic": "2000+",
 "time": "2026-11-20T21:50:00+00:00",
 "news": [
 {
@@ -2188,6 +2186,24 @@
 }
 ],
 "new": false
+},
+{
+"term": "최가온",
+"traffic": "100+",
+"time": "2026-11-20T21:50:00+00:00",
+"news": [
+{
+"title": "‘45층 높이’ 번지점프도 \"자유롭던데요?\" 강심장 최가온",
+"source": "JTBC",
+"link": "https://news.jtbc.co.kr/article/NB12327995"
+},
+{
+"title": "“아이돌인 줄 알았는데 금메달리스트?”…18세 최가온, 미모보다 더 놀라운 세계 최초 기록",
+"source": "FT스포츠",
+"link": "https://www.ftimes.kr/news/articleView.html?idxno=41239"
+}
+],
+"new": true
 },
 {
 "term": "항공",
@@ -2314,42 +2330,6 @@
 }
 ],
 "new": true
-},
-{
-"term": "새마을금고",
-"traffic": "100+",
-"time": "2026-11-20T21:00:00+00:00",
-"news": [
-{
-"title": "대신증권, '사람 살리는 금융' 릴레이 캠페인 동참",
-"source": "전자신문",
-"link": "https://www.etnews.com/20261120000020"
-},
-{
-"title": "[게시판] 황병우 iM금융 회장, 불법사금융 피해 예방 캠페인 동참",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261119108700053"
-}
-],
-"new": true
-},
-{
-"term": "포스코",
-"traffic": "200+",
-"time": "2026-11-20T21:00:00+00:00",
-"news": [
-{
-"title": "장인화號 포스코홀딩스 'AX 가속'…철강 특화 AI 자체 개발 가동",
-"source": "뉴시스",
-"link": "https://www.newsis.com/view/NISX20261120_0003876502"
-},
-{
-"title": "‘AI 제철소’ 넘어 사무실까지…포스코, 전사적 AX 가속도",
-"source": "에너지경제신문",
-"link": "https://m.ekn.kr/view.php?key=20261120028342682"
-}
-],
-"new": false
 }
 ],
 "trendSeen": [
