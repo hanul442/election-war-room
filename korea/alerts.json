@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-20T04:54:20.469959+00:00",
+"updated": "2026-11-20T04:56:34.408301+00:00",
 "errors": [],
 "events": [
 {
@@ -4312,8 +4312,8 @@
 "sns": {
 "terms": {
 "지진": {
-"n30": 3,
-"base": 0.7,
+"n30": 2,
+"base": 0.9,
 "spike": false
 },
 "화재": {
@@ -4328,7 +4328,7 @@
 },
 "정전": {
 "n30": 0,
-"base": 0.4,
+"base": 0.3,
 "spike": false
 },
 "폭발": {
@@ -4348,22 +4348,22 @@
 },
 "미사일": {
 "n30": 3,
-"base": 0.4,
+"base": 0.5,
 "spike": false
 },
 "속보": {
 "n30": 15,
-"base": 0.3,
+"base": 0.4,
 "spike": true
 },
 "지하철": {
 "n30": 4,
-"base": 1.4,
+"base": 1.5,
 "spike": false
 },
 "사고": {
-"n30": 5,
-"base": 4.3,
+"n30": 4,
+"base": 4.4,
 "spike": false
 },
 "실종": {
@@ -4393,6 +4393,16 @@
 }
 },
 "posts": [
+{
+"text": "사실 섀하는 기본만 사고 베이직까지는 생각 없었는데.... 섀하가 밤난초를 들고 있는 거야.... 그럼 어째.... 사야지.....",
+"handle": "mongmongwal.bsky.social",
+"name": "🐕(더11a)몽몽",
+"time": "2026-11-20T04:54:41.848Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/mongmongwal.bsky.social/post/3n2ps7ghpjs2m",
+"term": "사고"
+},
 {
 "text": "【지진 정보】일본 시간 11월 20일 13:50경\n진원: 진원 조사 중\n최대 진도: 3\n진도 3: 구마모토현\n(일본 기상청 발표)\n#일본 #지진 #방재",
 "handle": "ko.soramoyou.yk-planning.jp",
@@ -4437,7 +4447,7 @@
 "name": "치니 Chinie",
 "time": "2026-11-20T04:46:07.648Z",
 "likes": 1,
-"reposts": 0,
+"reposts": 1,
 "url": "https://bsky.app/profile/chinie.bsky.social/post/3n2prq2nrbk2j",
 "term": "속보"
 },
@@ -4699,54 +4709,34 @@
 "reposts": 11,
 "url": "https://bsky.app/profile/hermion2.bsky.social/post/3n2pqoc2nngb5",
 "term": "산불"
-},
-{
-"text": "【지진 정보】일본 시간 11월 20일 13:22경\n진원: Amakusa and Ashikita Region, Kumamoto Prefecture (M2.3, 매우 얕음)\n최대 진도: 1\n진도 1: 구마모토현\n이 지진으로 인한 쓰나미 걱정은 없습니다.\n(일본 기상청 발표)\n#일본 #지진 #방재",
-"handle": "ko.soramoyou.yk-planning.jp",
-"name": "Soramoyou 한국어",
-"time": "2026-11-20T04:26:32.446Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/ko.soramoyou.yk-planning.jp/post/3n2pqn3fptj2e",
-"term": "지진"
-},
-{
-"text": "이 팬덤에서 \n캐릭터를 진짜 전통적인 사고방식으로 재단하는 거 \n이 쇼를 왜 덕질하고 있지? 이런 생각밖에 안들어\n\n특히 헬루바는 계급 차별, 성적 억압, 동성애적 관계, 가부장적인 결혼 제도와 그 안에서 발생하는 폭력까지 다루는 작품인데. 정작 캐릭터를 해석할 때는 전통적인 연애 규범이나 성 역할을 그대로 적용하는 경우가 있다는 게 아이러니하지",
-"handle": "sepforgie.bsky.social",
-"name": "❤️‍🔥Sepforgie",
-"time": "2026-11-20T04:26:14.651Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/sepforgie.bsky.social/post/3n2pqmjw6ps2k",
-"term": "사고"
 }
 ],
 "spikes": [
 {
 "term": "속보",
 "n30": 15,
-"base": 0.3,
+"base": 0.4,
 "spike": true,
-"since": "2026-11-20T04:54:20.469959+00:00"
+"since": "2026-11-20T04:56:34.408301+00:00"
 }
 ],
 "baseline": {
-"지진": 0.87,
+"지진": 0.88,
 "화재": 0.05,
 "불났": 0.05,
-"정전": 0.33,
-"폭발": 1.16,
-"붕괴": 0.09,
-"대피": 0.27,
-"미사일": 0.45,
-"속보": 0.39,
-"지하철": 1.5,
-"사고": 4.4,
-"실종": 0.45,
+"정전": 0.3,
+"폭발": 1.14,
+"붕괴": 0.08,
+"대피": 0.24,
+"미사일": 0.51,
+"속보": 0.45,
+"지하철": 1.55,
+"사고": 4.36,
+"실종": 0.41,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
-"산불": 0.74
+"산불": 0.77
 },
 "errors": [],
 "ytPosts": [
