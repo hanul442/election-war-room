@@ -1,19 +1,53 @@
 {
-"updated": "2026-11-20T08:13:09.863341+00:00",
+"updated": "2026-11-20T08:15:23.775927+00:00",
 "errors": [],
 "events": [
 {
+"id": "nkRSSLINKcooperRSSREADER0812",
+"first": "2026-11-20T08:12:52+00:00",
+"last": "2026-11-20T08:12:52+00:00",
+"updated": "2026-11-20T08:15:23.775927+00:00",
+"headline": "정동영 \"판문점 연결과 협력의 공간으로\"…브런슨 \"정전협정 준수\"",
+"cat": "재난",
+"regions": [],
+"sources": [
+"SBS"
+],
+"updates": [
+{
+"title": "정동영 \"판문점 연결과 협력의 공간으로\"…브런슨 \"정전협정 준수\"",
+"source": "SBS",
+"link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008856246&plink=RSSLINK&cooper=RSSREADER",
+"time": "2026-11-20T08:12:52+00:00",
+"stage": "1보"
+}
+],
+"level": "ALERT",
+"latest": "정동영 \"판문점 연결과 협력의 공간으로\"…브런슨 \"정전협정 준수\"",
+"tok": [
+"공간으",
+"브런슨",
+"연결",
+"정동영",
+"정전협정",
+"준수",
+"판문점",
+"협력"
+]
+},
+{
 "id": "F3LWlyaHItd1B3OG9oMEEoc50758",
 "first": "2026-11-20T07:58:48+00:00",
-"last": "2026-11-20T08:08:26+00:00",
-"updated": "2026-11-20T08:13:09.863341+00:00",
+"last": "2026-11-20T08:11:18+00:00",
+"updated": "2026-11-20T08:15:23.775927+00:00",
 "headline": "靑 '시험 공정성 회복 TF' 구성…단장에 임광현 비서실장",
 "cat": "기타",
 "regions": [],
 "sources": [
 "뉴스1",
 "뉴시스",
-"매일경제"
+"매일경제",
+"파이낸셜뉴스"
 ],
 "updates": [
 {
@@ -36,10 +70,17 @@
 "link": "https://www.newsis.com/view/NISX20261120_0003877247",
 "time": "2026-11-20T08:08:26+00:00",
 "stage": "후속"
+},
+{
+"title": "[속보] 청와대, '시험 공정성 회복을 위한 TF' 구성…단장에 임광현",
+"source": "파이낸셜뉴스",
+"link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE96UlJqVFR1Y3FIVllPNlJvUkpQck1TWEpKTzd5ZkVxcXA4RXNtVkZiNGlHVXlSVjN4ZldkVUJhMTM5TmE3VFpFbzJ2cTlKcHJiXzZ6SHR3WjlTZw?oc=5",
+"time": "2026-11-20T08:11:18+00:00",
+"stage": "속보"
 }
 ],
 "level": "URGENT",
-"latest": "靑, 수능 AI부정행위 TF 확대…'시험 공정성 회복 TF' 가동",
+"latest": "청와대, '시험 공정성 회복을 위한 TF' 구성…단장에 임광현",
 "tok": [
 "AI부정행위",
 "TF",
@@ -50,6 +91,7 @@
 "비서실장",
 "수능",
 "시험",
+"위한",
 "임광현",
 "청와대",
 "확대",
@@ -4101,48 +4143,13 @@
 "행정",
 "李대통령"
 ]
-},
-{
-"id": "wNISX20261120_00038768410534",
-"first": "2026-11-20T05:34:09+00:00",
-"last": "2026-11-20T05:34:09+00:00",
-"updated": "2026-11-20T05:35:15.084315+00:00",
-"headline": "김재준 군산시장, 폭설 현장 점검…\"겨울 재난 대비\"",
-"cat": "재난",
-"regions": [
-"전북"
-],
-"sources": [
-"뉴시스"
-],
-"updates": [
-{
-"title": "김재준 군산시장, 폭설 현장 점검…\"겨울 재난 대비\"",
-"source": "뉴시스",
-"link": "https://www.newsis.com/view/NISX20261120_0003876841",
-"time": "2026-11-20T05:34:09+00:00",
-"stage": "1보"
-}
-],
-"level": "ALERT",
-"latest": "김재준 군산시장, 폭설 현장 점검…\"겨울 재난 대비\"",
-"tok": [
-"겨울",
-"군산시장",
-"김재준",
-"대비",
-"재난",
-"점검",
-"폭설",
-"현장"
-]
 }
 ],
 "sns": {
 "terms": {
 "지진": {
 "n30": 0,
-"base": 0.7,
+"base": 0.6,
 "spike": false
 },
 "화재": {
@@ -4166,7 +4173,7 @@
 "spike": false
 },
 "붕괴": {
-"n30": 3,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -4177,22 +4184,22 @@
 },
 "미사일": {
 "n30": 1,
-"base": 0.6,
+"base": 0.5,
 "spike": false
 },
 "속보": {
 "n30": 2,
-"base": 0.4,
+"base": 0.3,
 "spike": false
 },
 "지하철": {
 "n30": 2,
-"base": 1.1,
+"base": 1.2,
 "spike": false
 },
 "사고": {
 "n30": 5,
-"base": 2.4,
+"base": 2.7,
 "spike": false
 },
 "실종": {
@@ -4248,7 +4255,7 @@
 "name": "이진서🕯️",
 "time": "2026-11-20T08:04:38.041Z",
 "likes": 0,
-"reposts": 0,
+"reposts": 1,
 "url": "https://bsky.app/profile/jinnys0.bsky.social/post/3n2q4sz7gis2z",
 "term": "사고"
 },
@@ -4257,8 +4264,8 @@
 "handle": "jinnys0.bsky.social",
 "name": "이진서🕯️",
 "time": "2026-11-20T08:02:57.243Z",
-"likes": 0,
-"reposts": 5,
+"likes": 1,
+"reposts": 6,
 "url": "https://bsky.app/profile/jinnys0.bsky.social/post/3n2q4py2g7s2z",
 "term": "사고"
 },
@@ -4474,17 +4481,17 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 0.6,
+"지진": 0.54,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.77,
+"폭발": 0.69,
 "붕괴": 0.05,
 "대피": 0.05,
-"미사일": 0.5,
-"속보": 0.34,
-"지하철": 1.21,
-"사고": 2.69,
+"미사일": 0.45,
+"속보": 0.31,
+"지하철": 1.29,
+"사고": 2.92,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -4688,7 +4695,7 @@
 "trends": [
 {
 "term": "임지열",
-"traffic": "2000+",
+"traffic": "5000+",
 "time": "2026-11-20T07:00:00+00:00",
 "news": [
 {
@@ -4697,9 +4704,9 @@
 "link": "https://www.chosun.com/sports/baseball/2026/11/20/I2N6ST2ZT5DCPL6OBCMWR64OGQ/"
 },
 {
-"title": "프로야구 롯데-키움, 투수 정철원-외야수 임지열 트레이드",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261120137300007"
+"title": "롯데, 키움과 깜짝 트레이드…정철원 내주고 외야수 임지열 영입",
+"source": "KBS 뉴스",
+"link": "https://news.kbs.co.kr/news/view.do?ncd=8718522"
 }
 ],
 "new": true
@@ -4733,16 +4740,16 @@
 "link": "https://www.yna.co.kr/view/AKR20261120124400073"
 },
 {
-"title": "[사진]문상민-유인나 '자체발광 선남선녀'",
+"title": "[사진]엔하이픈 정원 '퍼스널 컬러가 시상식'",
 "source": "조선일보",
-"link": "https://www.chosun.com/entertainments/entertain_photo/2026/11/20/HBSTAN3EGUZWIZBVGI4TGZTDHE/"
+"link": "https://www.chosun.com/entertainments/entertain_photo/2026/11/20/GE4DOYLEG4ZTEZRUGQZTSZBTMI/"
 }
 ],
 "new": true
 },
 {
 "term": "fifa u-17 월드컵",
-"traffic": "100+",
+"traffic": "200+",
 "time": "2026-11-20T07:00:00+00:00",
 "news": [
 {
