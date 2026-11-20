@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-20T18:51:47.166304+00:00",
+"updated": "2026-11-20T18:54:00.460288+00:00",
 "errors": [],
 "events": [
 {
@@ -357,11 +357,12 @@
 "id": "1NkYTJ3WFlZLUlpMmRwVQoc51621",
 "first": "2026-11-20T16:21:00+00:00",
 "last": "2026-11-20T16:21:00+00:00",
-"updated": "2026-11-20T18:01:34.998145+00:00",
+"updated": "2026-11-20T18:54:00.460288+00:00",
 "headline": "변상일, AI ‘승률 1%’ 예측 뒤집고 삼성화재배 우승",
 "cat": "재난",
 "regions": [],
 "sources": [
+"중앙일보",
 "천지일보",
 "한겨레"
 ],
@@ -374,6 +375,13 @@
 "stage": "후속"
 },
 {
+"title": "‘승률 1%’ 뚫고 대역전극…변상일 삼성화재배 우승",
+"source": "중앙일보",
+"link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBwSHA2d3ZxbDN5VEJDUWRnNkstY3FnMUlEekZLa0NiTkxnVTIxZ05ySGp0Ujgzc3ZEREs0ZTlBY1d2QjBDcUhidzVxT21HalR5SlpMUExR?oc=5",
+"time": "2026-11-20T16:04:05+00:00",
+"stage": "후속"
+},
+{
 "title": "변상일, AI ‘승률 1%’ 예측 뒤집고 삼성화재배 우승",
 "source": "한겨레",
 "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE55alp4dmh2cFVrbVFiNXFFOURmSm53cXlmeWNNOG8wVjBFa1ZzRk9zVVotd0ZNYTVmVUFqcUY4STJ6a1pTU255ckJQTWRPMFR2ZUt1Q1NkYTJ3WFlZLUlpMmRwVQ?oc=5",
@@ -381,12 +389,14 @@
 "stage": "1보"
 }
 ],
-"level": "ALERT",
+"level": "URGENT",
 "latest": "변상일, AI ‘승률 1%’ 예측 뒤집고 삼성화재배 우승",
 "tok": [
 "3억원",
 "AI",
+"대역전극",
 "뒤집고",
+"뚫고",
 "변상일",
 "삼성화재배",
 "상금",
@@ -1009,7 +1019,7 @@
 "terms": {
 "지진": {
 "n30": 2,
-"base": 0.5,
+"base": 0.6,
 "spike": false
 },
 "화재": {
@@ -1300,16 +1310,16 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 0.57,
+"지진": 0.61,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.14,
-"붕괴": 0.45,
+"폭발": 0.13,
+"붕괴": 0.41,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.09,
+"지하철": 0.08,
 "사고": 0.05,
 "실종": 0.05,
 "단수": 0.05,
@@ -1594,6 +1604,24 @@
 "new": true
 },
 {
+"term": "리만가설 증명",
+"traffic": "1000+",
+"time": "2026-11-20T15:40:00+00:00",
+"news": [
+{
+"title": "앤트로픽 연구원 \"클로드 활용해 리만 가설 증명 발견한 것으로 판단\"",
+"source": "블루밍비트",
+"link": "https://bloomingbit.io/feed/news/124896"
+},
+{
+"title": "[AI스토리] 앤트로픽 나스닥 데뷔 하루 만에 '리만 가설' 증명 공개…암호학 새 지평 주목",
+"source": "이코노미트리뷴",
+"link": "https://www.economytribune.co.kr/news/articleView.html?idxno=3904496"
+}
+],
+"new": true
+},
+{
 "term": "세계사 2 번",
 "traffic": "100+",
 "time": "2026-11-20T15:30:00+00:00",
@@ -1679,24 +1707,6 @@
 "title": "Lịch thi đấu U.17 Việt Nam và U.17 New Zealand mới nhất: Nỗ lực tột độ để chiến thắng",
 "source": "Báo Thanh Niên",
 "link": "https://thanhnien.vn/lich-thi-dau-u17-viet-nam-moi-nhat-dau-u17-new-zealand-co-hoi-thang-la-day-185261120221110968.htm"
-}
-],
-"new": true
-},
-{
-"term": "오현민",
-"traffic": "200+",
-"time": "2026-11-20T14:00:00+00:00",
-"news": [
-{
-"title": "'데블스 플랜3' 오현민, 장동민 옆 눈물.. 탈락 심경 \"많이 부족했다\" [전문]",
-"source": "조선일보",
-"link": "https://www.chosun.com/entertainments/broadcast/2026/11/19/GRTDKZJYMQZWIM3EHFTDCODCMQ/"
-},
-{
-"title": "'데블스플랜3' 탈락 오현민 \"누구 하나 못된 사람 없어…비난 말아달라\"",
-"source": "뉴스1",
-"link": "https://www.news1.kr/entertain/broadcast-tv/6359461"
 }
 ],
 "new": true
