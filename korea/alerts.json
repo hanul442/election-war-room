@@ -1,12 +1,12 @@
 {
-"updated": "2026-11-20T23:29:31.269768+00:00",
+"updated": "2026-11-20T23:31:45.761216+00:00",
 "errors": [],
 "events": [
 {
 "id": "viewAKR202611210124000612201",
 "first": "2026-11-20T22:01:57+00:00",
 "last": "2026-11-20T23:22:06+00:00",
-"updated": "2026-11-20T23:22:47.188841+00:00",
+"updated": "2026-11-20T23:31:45.761216+00:00",
 "headline": "평택 소정리역서 화물열차 탈선…경부선 열차 운행 지장",
 "cat": "교통",
 "regions": [
@@ -171,6 +171,13 @@
 "title": "[속보] 화물열차 탈선…경부선 열차 운행 지장",
 "source": "세계일보",
 "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9RZ24yclBhYXFtNGR6MTNaWDFqN2ozMTBUQUJ3R2FIT1RoR0lOSG9CemZNSEZaREN4XzFHRkVvXzl4OHkwUjJPSHdqbElUYnNQSFFPcERBbEM5OXB1SkJCcFFNR3c3R19DbVc40gFUQVVfeXFMTkUtcEJhNWZ0b3F6dTlPZW1OWmp2Zjg0Mk9rYURVNE5xRnd3eWFnRmxzbGp3Rk5fclozN3NKcWhoblg0enBpQ2JNVTl0T0U2UE0wbFhB?oc=5",
+"time": "2026-11-20T22:37:05+00:00",
+"stage": "속보"
+},
+{
+"title": "[속보] 화물열차 탈선…경부선 열차 운행 지장",
+"source": "세계일보",
+"link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE4zTzJWWndUMEdvZFQ0ZGpXTUd1cmdmWmtXN1c3bXlJMW1mRUQyS2lMLVg4VXVheURPWEF3a082MWFUOFhJaHloWGxadVdYNWZ5cnFpeE93?oc=5",
 "time": "2026-11-20T22:37:05+00:00",
 "stage": "속보"
 },
@@ -1832,13 +1839,13 @@
 "sns": {
 "terms": {
 "지진": {
-"n30": 2,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
 "화재": {
-"n30": 2,
-"base": 0.6,
+"n30": 0,
+"base": 0.5,
 "spike": false
 },
 "불났": {
@@ -1847,14 +1854,14 @@
 "spike": false
 },
 "정전": {
-"n30": 1,
-"base": 0.6,
+"n30": 0,
+"base": 0.5,
 "spike": false
 },
 "폭발": {
-"n30": 8,
-"base": 0.7,
-"spike": true
+"n30": 2,
+"base": 0.8,
+"spike": false
 },
 "붕괴": {
 "n30": 4,
@@ -1868,17 +1875,17 @@
 },
 "미사일": {
 "n30": 2,
-"base": 0.4,
+"base": 0.5,
 "spike": false
 },
 "속보": {
-"n30": 5,
+"n30": 2,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "지하철": {
 "n30": 1,
-"base": 1.2,
+"base": 1.1,
 "spike": false
 },
 "사고": {
@@ -2033,16 +2040,6 @@
 "url": "https://www.youtube.com/watch?v=Nv565f5MdV8"
 },
 {
-"text": "와 옆집 엘리베이터 시공 거의 끝나가는데 간지 폭발한다",
-"handle": "28to1.bsky.social",
-"name": "토즈",
-"time": "2026-11-20T23:01:00.342Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/28to1.bsky.social/post/3n2rovvfink2f",
-"term": "폭발"
-},
-{
 "platform": "YouTube",
 "text": "가성비 폭발! 소고기 할인부터 1만 원대 플리스까지 핫딜 TOP 5 | 11월 21일 오전 발행",
 "handle": "UCDOF5WVkgvJ2Q_90Fwhu_Lw",
@@ -2151,33 +2148,18 @@
 "url": "https://www.youtube.com/watch?v=pbgwRGJ3jDk"
 }
 ],
-"spikes": [
-{
-"term": "폭발",
-"n30": 8,
-"base": 0.7,
-"spike": true,
-"since": "2026-11-20T23:29:31.269768+00:00"
-},
-{
-"term": "속보",
-"n30": 5,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-20T23:29:31.269768+00:00"
-}
-],
+"spikes": [],
 "baseline": {
 "지진": 0.05,
-"화재": 0.5,
+"화재": 0.45,
 "불났": 0.05,
-"정전": 0.5,
-"폭발": 0.77,
+"정전": 0.45,
+"폭발": 0.69,
 "붕괴": 0.05,
 "대피": 0.05,
-"미사일": 0.45,
+"미사일": 0.51,
 "속보": 0.05,
-"지하철": 1.11,
+"지하철": 1.0,
 "사고": 0.99,
 "실종": 0.05,
 "단수": 0.05,
