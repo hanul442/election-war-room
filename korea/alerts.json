@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-20T20:31:15.256489+00:00",
+"updated": "2026-11-20T20:33:28.359061+00:00",
 "errors": [],
 "events": [
 {
@@ -1157,40 +1157,6 @@
 "지한파",
 "특파원"
 ]
-},
-{
-"id": "yS1BWWm8xRGxfZlNOMU12oc51432",
-"first": "2026-11-20T14:32:17+00:00",
-"last": "2026-11-20T14:32:17+00:00",
-"updated": "2026-11-20T15:26:42.532199+00:00",
-"headline": "앤트로픽 주가 주말 앞두고 장초반 약세 9%↓…상장 첫날 17% 급등했지만",
-"cat": "경제",
-"regions": [],
-"sources": [
-"CBC뉴스"
-],
-"updates": [
-{
-"title": "[속보] 앤트로픽 주가 주말 앞두고 장초반 약세 9%↓…상장 첫날 17% 급등했지만",
-"source": "CBC뉴스",
-"link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1kOENzVzVkLW5kQVYzaXQzeDlBRUxLVURrcHJTNkNpa09MN1loZWpyUDlaQzJaRXJDTDFSSklneDRXeHNMRnl4X1Y1TE9CZ3J5NFQ3TzhJNE4yS1BWWm8xRGxfZlNOMU12?oc=5",
-"time": "2026-11-20T14:32:17+00:00",
-"stage": "얼럿"
-}
-],
-"level": "URGENT",
-"latest": "앤트로픽 주가 주말 앞두고 장초반 약세 9%↓…상장 첫날 17% 급등했지만",
-"tok": [
-"급등했지",
-"상장",
-"앞두고",
-"앤트로픽",
-"약세",
-"장초반",
-"주가",
-"주말",
-"첫날"
-]
 }
 ],
 "sns": {
@@ -1217,7 +1183,7 @@
 },
 "폭발": {
 "n30": 1,
-"base": 0.5,
+"base": 0.6,
 "spike": false
 },
 "붕괴": {
@@ -1236,7 +1202,7 @@
 "spike": false
 },
 "속보": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -1267,7 +1233,7 @@
 },
 "먹통": {
 "n30": 1,
-"base": 0.4,
+"base": 0.5,
 "spike": false
 },
 "산불": {
@@ -1489,11 +1455,11 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 0.46,
+"지진": 0.41,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.56,
+"폭발": 0.6,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
@@ -1503,7 +1469,7 @@
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
-"먹통": 0.45,
+"먹통": 0.51,
 "산불": 0.05
 },
 "errors": [],
@@ -1702,6 +1668,42 @@
 },
 "trends": [
 {
+"term": "장윤정",
+"traffic": "500+",
+"time": "2026-11-20T19:30:00+00:00",
+"news": [
+{
+"title": "\"딸 장윤정 도움 못받아\"…구속된 母, 사기혐의 항소심서 눈물 호소[종합]",
+"source": "조선일보",
+"link": "https://www.chosun.com/entertainments/enter_general/2026/11/20/GVTGCZDGG43GGMLEMQ2WGODFMI/"
+},
+{
+"title": "“3100만원 투자 사기”…장윤정 母 “딸·가족 도움 못받아”, 항소심서 눈물로 호소",
+"source": "헤럴드경제",
+"link": "https://biz.heraldcorp.com/article/10944021"
+}
+],
+"new": true
+},
+{
+"term": "며느리",
+"traffic": "200+",
+"time": "2026-11-20T19:30:00+00:00",
+"news": [
+{
+"title": "젖 먹이는 며느리에게 홈캠 영상 보내라는 시부…\"기저귀 가는 것도 요구\"",
+"source": "뉴스1",
+"link": "https://www.news1.kr/society/general-society/6359313"
+},
+{
+"title": "수유 중인 며느리에게 홈캠 공유 요구한 시아버지…육아 간섭 하소연",
+"source": "스페셜타임스",
+"link": "https://www.specialtimes.co.kr/news/articleView.html?idxno=487917"
+}
+],
+"new": true
+},
+{
 "term": "한파",
 "traffic": "200+",
 "time": "2026-11-20T18:50:00+00:00",
@@ -1748,9 +1750,9 @@
 "link": "https://www.scientificamerican.com/article/anthropic-mathematician-claims-to-prove-riemann-hypothesis-most-famous-problem-in-all-of-math/"
 },
 {
-"title": "Anthropic Mathematician Says AI Has Solved the Most Famous Problem in Math",
-"source": "WSJ",
-"link": "https://www.wsj.com/tech/ai/anthropic-mathematician-says-claude-has-solved-the-most-famous-problem-in-math-9361920b"
+"title": "Anthropic mathematician Levent Alpoge claims Claude helped prove the Riemann Hypothesis",
+"source": "RuntimeWire",
+"link": "https://runtimewire.com/article/alpoge-claims-claude-riemann-hypothesis-proof"
 }
 ],
 "new": true
@@ -1841,42 +1843,6 @@
 "title": "앤트로픽 연구원 \"클로드 활용해 리만 가설 증명 발견한 것으로 판단\"",
 "source": "블루밍비트",
 "link": "https://bloomingbit.io/feed/news/124896"
-}
-],
-"new": true
-},
-{
-"term": "세계사 2 번",
-"traffic": "100+",
-"time": "2026-11-20T15:30:00+00:00",
-"news": [
-{
-"title": "수험생 90% 틀린 세계사 2번…“진시황이 아니라고?”",
-"source": "동아일보",
-"link": "https://www.donga.com/news/Society/article/all/20261120/135061386/1"
-},
-{
-"title": "“챗GPT도 2번이라는데”…수능 세계사 이의 폭주한 ‘이 문항’",
-"source": "경기일보",
-"link": "https://www.kyeonggi.com/article/20261120580287"
-}
-],
-"new": true
-},
-{
-"term": "공포지수",
-"traffic": "200+",
-"time": "2026-11-20T15:30:00+00:00",
-"news": [
-{
-"title": "엔비디아, AI 테마 투매에 '와르르'…알파벳에 밀려 시총 4위로",
-"source": "연합인포맥스",
-"link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4445831"
-},
-{
-"title": "엔비디아 호실적도 못 넘은 금리 인상 우려, 뉴욕증시 혼조",
-"source": "네이버페이 머니스토리",
-"link": "https://story.pay.naver.com/content/3999_2_C1"
 }
 ],
 "new": true
