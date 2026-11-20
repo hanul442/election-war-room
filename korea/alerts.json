@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-20T09:42:33.507781+00:00",
+"updated": "2026-11-20T09:44:51.400164+00:00",
 "errors": [],
 "events": [
 {
@@ -3999,7 +3999,7 @@
 "terms": {
 "지진": {
 "n30": 2,
-"base": 0.6,
+"base": 0.7,
 "spike": false
 },
 "화재": {
@@ -4043,8 +4043,8 @@
 "spike": false
 },
 "지하철": {
-"n30": 7,
-"base": 4.3,
+"n30": 5,
+"base": 4.6,
 "spike": false
 },
 "사고": {
@@ -4079,6 +4079,16 @@
 }
 },
 "posts": [
+{
+"text": "개~꽉끼는 지하철이였다 병걸릴거같음",
+"handle": "dsweekly.bsky.social",
+"name": "ପ꒰ •⩊•꒱오아지",
+"time": "2026-11-20T09:42:57.045Z",
+"likes": 1,
+"reposts": 0,
+"url": "https://bsky.app/profile/dsweekly.bsky.social/post/3n2qccut66s2t",
+"term": "지하철"
+},
 {
 "text": "오늘 서울에 무슨 행사 있나? 지하철이 이런적이 없었는데 너무 심하게 붐비네?",
 "handle": "bbutterffly.bsky.social",
@@ -4124,7 +4134,7 @@
 "handle": "caut10n.bsky.social",
 "name": "ㄹㄷㅎㅇ...🍲여론",
 "time": "2026-11-20T09:31:23.844Z",
-"likes": 5,
+"likes": 6,
 "reposts": 0,
 "url": "https://bsky.app/profile/caut10n.bsky.social/post/3n2qbo6wwmc27",
 "term": "지하철"
@@ -4192,16 +4202,6 @@
 "time": "2026-11-20T09:23:18Z",
 "term": "속보",
 "url": "https://www.youtube.com/watch?v=xz4yX_Y6KME"
-},
-{
-"text": "그냥 지하철 좀 돌아가는거 타고 독서챌린지 브이로그를 하는게 일년정도는 버텨질것같기도 해",
-"handle": "sarisayolk.bsky.social",
-"name": "여울",
-"time": "2026-11-20T09:20:59.442Z",
-"likes": 1,
-"reposts": 0,
-"url": "https://bsky.app/profile/sarisayolk.bsky.social/post/3n2qb3kjk6s24",
-"term": "지하철"
 },
 {
 "text": "나도 다 생각하는 바가 있는데(...)비엘판을 떠난지 너무 오래되어서 갖고있는 1차비엘책은 책장 한두칸 정도이고,  뭔 영화건 소설이건 봤을때 <캐릭터들을 커플로 엮는 사고>가 자연스럽게 나오지가 않아요!!! 그쪽 신경 회로가 굳었다고! 남들이 푸는  썰을 보면 \"하하, 쟤네가 그럴리가 없잖아 \" 하는 말이 먼저 나오고! 이정도면 그 판을 은퇴했다고 봐야함. 그렇다고 그런 캐해가 싫다는건 아",
@@ -4312,21 +4312,21 @@
 "n30": 5,
 "base": 0.3,
 "spike": true,
-"since": "2026-11-20T09:42:33.507781+00:00"
+"since": "2026-11-20T09:44:51.400164+00:00"
 }
 ],
 "baseline": {
-"지진": 0.73,
+"지진": 0.86,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.3,
+"폭발": 0.27,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 4.57,
-"사고": 4.57,
+"지하철": 4.61,
+"사고": 4.51,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -4466,6 +4466,42 @@
 },
 "trends": [
 {
+"term": "김치의 날",
+"traffic": "100+",
+"time": "2026-11-20T08:40:00+00:00",
+"news": [
+{
+"title": "김혜경 여사, 제7회 김치의 날 기념식 - 포토 | 멀티미디어",
+"source": "대한민국 정책브리핑",
+"link": "https://www.korea.kr/multi/policyPhotoView.do?bbsKey=74425&pageIndex=1"
+},
+{
+"title": "김장 양념 질문받은 김혜경 여사 “이건 기밀인데…”",
+"source": "동아일보",
+"link": "https://www.donga.com/news/Politics/article/all/20261120/135060404/2"
+}
+],
+"new": true
+},
+{
+"term": "헝거게임",
+"traffic": "100+",
+"time": "2026-11-20T08:40:00+00:00",
+"news": [
+{
+"title": "캣니스의 스승은 어떻게 살아남았나…24년 전으로 돌아간 '헝거게임'",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261120_0003876553"
+},
+{
+"title": "잔인한 생존 게임, 판을 뒤집어라…'헝거게임 50번째 추첨의 날'",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261114033700005"
+}
+],
+"new": false
+},
+{
 "term": "푸른길",
 "traffic": "500+",
 "time": "2026-11-20T08:10:00+00:00",
@@ -4566,9 +4602,9 @@
 "link": "https://www.dt.co.kr/article/12096157"
 },
 {
-"title": "앤트로픽 쏠림·대중규제 우려 … 반도체株 곤두박질",
-"source": "매일경제 마켓",
-"link": "https://stock.mk.co.kr/news/view/1203358"
+"title": "소프트뱅크 장중 16% 폭락‥닛케이 3천 포인트 빠져",
+"source": "MBC 뉴스",
+"link": "https://imnews.imbc.com/news/2026/world/article/6867318_36925.html"
 }
 ],
 "new": true
@@ -4605,42 +4641,6 @@
 "title": "\"큰일 났네\"…'수능 3분 컷' 이지영, 올해 문제 풀더니",
 "source": "한국경제",
 "link": "https://www.hankyung.com/article/202611209605H"
-}
-],
-"new": true
-},
-{
-"term": "교수",
-"traffic": "500+",
-"time": "2026-11-20T07:20:00+00:00",
-"news": [
-{
-"title": "엄애선 한양대 교수팀, 딸기 독소 생성 미생물 규명…농산물 위생관리 연구",
-"source": "한국영농신문",
-"link": "https://www.youngnong.co.kr/news/articleView.html?idxno=72114"
-},
-{
-"title": "부산외대, 금정구청과 손잡고 지역 청년 대상 맞춤형 취업 특강 성료",
-"source": "국제신문",
-"link": "https://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0300&key=20261120.99099006482"
-}
-],
-"new": true
-},
-{
-"term": "приговор",
-"traffic": "200+",
-"time": "2026-11-20T07:20:00+00:00",
-"news": [
-{
-"title": "Рязанский облдсуд утвердил приговор экс-чиновнику, сбившему подростка",
-"source": "riazan.top24.news",
-"link": "https://riazan.top24.news/obshestvo/ryazanskij-obldsud-utverdil-prigovor-eks-chinovniku-sbivshemu-podrostka/"
-},
-{
-"title": "Бывший рыбновский депутат Исаев ответит по закону за гибель подростка",
-"source": "Областная Рязанская Газета",
-"link": "https://rg62.info/2026/11/20/byvshij-rybnovskij-deputat-isaev-otvetit-po-zakonu-za-gibel-podrostka/"
 }
 ],
 "new": true
