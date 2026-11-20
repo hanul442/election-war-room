@@ -1,7 +1,44 @@
 {
-"updated": "2026-11-20T23:04:44.077478+00:00",
+"updated": "2026-11-20T23:07:00.335672+00:00",
 "errors": [],
 "events": [
+{
+"id": "viewAKR202611201463000532300",
+"first": "2026-11-20T23:00:03+00:00",
+"last": "2026-11-20T23:00:03+00:00",
+"updated": "2026-11-20T23:07:00.335672+00:00",
+"headline": "[르포] \"산불 알림 오면 몸이 먼저 움직여\"…진화 헬기팀의 하루",
+"cat": "재난",
+"regions": [
+"대구"
+],
+"sources": [
+"연합뉴스"
+],
+"updates": [
+{
+"title": "[르포] \"산불 알림 오면 몸이 먼저 움직여\"…진화 헬기팀의 하루",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261120146300053",
+"time": "2026-11-20T23:00:03+00:00",
+"stage": "1보"
+}
+],
+"level": "ALERT",
+"latest": "[르포] \"산불 알림 오면 몸이 먼저 움직여\"…진화 헬기팀의 하루",
+"tok": [
+"르포",
+"먼저",
+"몸이",
+"산불",
+"알림",
+"오면",
+"움직여",
+"진화",
+"하루",
+"헬기팀"
+]
+},
 {
 "id": "viewAKR202611210124000612201",
 "first": "2026-11-20T22:01:57+00:00",
@@ -1691,7 +1728,7 @@
 },
 "폭발": {
 "n30": 2,
-"base": 0.1,
+"base": 0.2,
 "spike": false
 },
 "붕괴": {
@@ -1715,13 +1752,13 @@
 "spike": false
 },
 "지하철": {
-"n30": 4,
-"base": 1.7,
+"n30": 2,
+"base": 1.8,
 "spike": false
 },
 "사고": {
 "n30": 0,
-"base": 2.1,
+"base": 1.9,
 "spike": false
 },
 "실종": {
@@ -1817,16 +1854,6 @@
 "time": "2026-11-20T22:36:06Z",
 "term": "지하철",
 "url": "https://www.youtube.com/watch?v=c6fkMGLhKfw"
-},
-{
-"text": "4~50대 아저씨 한테 지하철 치안 한번 당해봐야지",
-"handle": "spheres154.bsky.social",
-"name": "3분요리",
-"time": "2026-11-20T22:35:11.248Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/spheres154.bsky.social/post/3n2rnhpcai222",
-"term": "지하철"
 },
 {
 "platform": "YouTube",
@@ -1967,16 +1994,16 @@
 "spikes": [],
 "baseline": {
 "지진": 0.05,
-"화재": 0.51,
+"화재": 0.56,
 "불났": 0.05,
-"정전": 0.51,
-"폭발": 0.24,
+"정전": 0.56,
+"폭발": 0.32,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 1.83,
-"사고": 1.85,
+"지하철": 1.85,
+"사고": 1.67,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -2170,14 +2197,32 @@
 "new": true
 },
 {
+"term": "al-ahli saudi fc vs al-nassr standings",
+"traffic": "100+",
+"time": "2026-11-20T22:00:00+00:00",
+"news": [
+{
+"title": "Cristiano Ronaldo scores and misses a penalty as he closes in on 1,000 career goals",
+"source": "Goal.com",
+"link": "https://www.goal.com/en/news/cristiano-ronaldo-moves-within-14-of-1-000-career-goals-then-misses-a-penalty-and-loses-to-ibanez-and-demiral/bltb763f54c7f6edf52"
+},
+{
+"title": "Al-Ahli 3-1 Al-Nassr: Galeno shines as Ronaldo hits the post",
+"source": "Sofascore",
+"link": "https://www.sofascore.com/news/al-ahli-3-1-al-nassr-galeno-shines-as-ronaldo-hits-the-post"
+}
+],
+"new": true
+},
+{
 "term": "파기 환송",
 "traffic": "2000+",
 "time": "2026-11-20T21:50:00+00:00",
 "news": [
 {
-"title": "임기 7개월 남은 조희대… 與 탄핵안 노림수는 ‘퇴임까지 직무 정지’",
-"source": "조선일보",
-"link": "https://www.chosun.com/politics/politics_general/2026/11/21/FECS55Z5CJGV3IQPENEDRIWDPM/"
+"title": "[사설]‘12·3은 내란’ 대법관 전원 만장일치 판결에 눈감는 與野",
+"source": "동아일보",
+"link": "https://www.donga.com/news/Opinion/article/all/20261120/135063781/2"
 },
 {
 "title": "'계엄은 내란·한덕수 파기환송'...남은 재판 영향은?",
@@ -2309,24 +2354,6 @@
 "title": "박은정 대덕구의원, 교섭단체 운영지원 위한 제도적 근거 마련",
 "source": "더팩트",
 "link": "https://news.tf.co.kr/read/national/2391669.htm"
-}
-],
-"new": true
-},
-{
-"term": "비트코인",
-"traffic": "2000+",
-"time": "2026-11-20T21:00:00+00:00",
-"news": [
-{
-"title": "비트코인 4달만에 도로 6만달러 아래로…2022년 이후 최장 약세",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261121005500091"
-},
-{
-"title": "보름 만에 23% 떨어진 비트코인…바닥은 어디일까[코인현미경]",
-"source": "뉴스1",
-"link": "https://www.news1.kr/finance/blockchain-fintech/6361286"
 }
 ],
 "new": true
