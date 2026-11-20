@@ -1,12 +1,12 @@
 {
-"updated": "2026-11-20T01:41:54.560833+00:00",
+"updated": "2026-11-20T01:44:09.282574+00:00",
 "errors": [],
 "events": [
 {
 "id": "wNISX20261120_00038763770133",
 "first": "2026-11-20T01:33:39+00:00",
-"last": "2026-11-20T01:39:00+00:00",
-"updated": "2026-11-20T01:41:54.560833+00:00",
+"last": "2026-11-20T01:41:42+00:00",
+"updated": "2026-11-20T01:44:09.282574+00:00",
 "headline": "'SM 시세조종 의혹' 카카오 김범수, 2심도 무죄",
 "cat": "기타",
 "regions": [],
@@ -16,11 +16,13 @@
 "뉴시스",
 "데일리안",
 "머니투데이",
+"아이뉴스24",
 "연합뉴스",
 "연합뉴스TV",
 "이투데이",
 "조선일보",
-"지디넷코리아"
+"지디넷코리아",
+"헤럴드경제"
 ],
 "updates": [
 {
@@ -87,15 +89,29 @@
 "stage": "속보"
 },
 {
+"title": "[속보] ‘SM 주가조작 의혹’ 카카오 창업자 김범수 2심도 무죄",
+"source": "헤럴드경제",
+"link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE40aUdTdTRyMG1qam1nejlheDQzRld4T0FCcko1TUlxYjd2M2RycDctVFpCbmppOFdnZ1NpREszc2JOQnFwbWNFT3d3ZlJlYnRUejNOeUN3?oc=5",
+"time": "2026-11-20T01:37:48+00:00",
+"stage": "속보"
+},
+{
 "title": "[속보] 카카오 김범수 'SM 주가조작' 항소심도 무죄",
 "source": "데일리안",
 "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNSUFHRzlVejZSUlRNbElTNURqYmdMNGhzVGZYTjNBMTYwVG1lNTk5ZGJyOUlSZDRIZnI3VWZQX1pnbS1SeXhfX2t1OG5zcDFzdHF5ME5ZQk5WU25zVEp2Q0dYQnFGWFphVG05amVJYm9HdmdPVDJYQ0ZmaWpKSUhnR0EtMnpHOUMwSGRxVlgza2twbmlVdFo2eVA2QWR2U0JqVjdMOF9kRFAyS0Q4c1JCdEhKUzMyNnBHQ0ZReC00RWkwd3VHS2psVEFiMlVXdmJ6ajUycGRVcW04VURNcFhxSzh5TXlYUHUxYUR1UmZsSDZtMEZoQzV2WFRyRDJITkN3R3M4?oc=5",
 "time": "2026-11-20T01:39:00+00:00",
 "stage": "속보"
+},
+{
+"title": "[속보]SM 시세조종' 카카오 김범수, 2심도 무죄",
+"source": "아이뉴스24",
+"link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5FblRhQzVHUlVGY1dYb0R2TWpXakQ4dW94bWhfWl9iNmRPZzZENWhOcTBfTzl5dmNhZ01oM203bHBjN0VCc1dpQkFFdw?oc=5",
+"time": "2026-11-20T01:41:42+00:00",
+"stage": "속보"
 }
 ],
 "level": "URGENT",
-"latest": "카카오 김범수 'SM 주가조작' 항소심도 무죄",
+"latest": "SM 시세조종' 카카오 김범수, 2심도 무죄",
 "tok": [
 "2심",
 "SM",
@@ -4070,7 +4086,7 @@
 },
 "화재": {
 "n30": 2,
-"base": 0.2,
+"base": 0.3,
 "spike": false
 },
 "불났": {
@@ -4085,7 +4101,7 @@
 },
 "폭발": {
 "n30": 5,
-"base": 0.4,
+"base": 0.5,
 "spike": true
 },
 "붕괴": {
@@ -4110,7 +4126,7 @@
 },
 "지하철": {
 "n30": 3,
-"base": 1.5,
+"base": 1.4,
 "spike": false
 },
 "사고": {
@@ -4120,7 +4136,7 @@
 },
 "실종": {
 "n30": 1,
-"base": 0.3,
+"base": 0.4,
 "spike": false
 },
 "단수": {
@@ -4362,31 +4378,31 @@
 {
 "term": "폭발",
 "n30": 5,
-"base": 0.4,
+"base": 0.5,
 "spike": true,
-"since": "2026-11-20T01:41:54.560833+00:00"
+"since": "2026-11-20T01:44:09.282574+00:00"
 },
 {
 "term": "속보",
 "n30": 8,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-20T01:41:54.560833+00:00"
+"since": "2026-11-20T01:44:09.282574+00:00"
 }
 ],
 "baseline": {
-"지진": 0.2,
-"화재": 0.32,
+"지진": 0.18,
+"화재": 0.39,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.45,
+"폭발": 0.51,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 1.41,
+"지하철": 1.37,
 "사고": 0.95,
-"실종": 0.39,
+"실종": 0.45,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -4561,6 +4577,42 @@
 },
 "trends": [
 {
+"term": "물수리",
+"traffic": "500+",
+"time": "2026-11-20T00:40:00+00:00",
+"news": [
+{
+"title": "멸종위기 물수리 포착…물고기 사냥 ‘생생’",
+"source": "KBS 뉴스",
+"link": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8717803"
+},
+{
+"title": "멸종위기 야생생물 ‘물수리’···울주군 하천서 사냥하는 모습 포착",
+"source": "경향신문",
+"link": "https://www.khan.co.kr/article/202611191400001"
+}
+],
+"new": true
+},
+{
+"term": "경기도교육청",
+"traffic": "1000+",
+"time": "2026-11-20T00:40:00+00:00",
+"news": [
+{
+"title": "[수능] 전북 'AI부정행위' 없어…응시방법 위반 등은 적발(종합)",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261119068751055"
+},
+{
+"title": "수능 1교시 응시자 49만 1천 명‥결시율 작년보다 높아",
+"source": "MBC 뉴스",
+"link": "https://imnews.imbc.com/news/2026/society/article/6866952_36918.html"
+}
+],
+"new": true
+},
+{
 "term": "논현동",
 "traffic": "5000+",
 "time": "2026-11-20T00:10:00+00:00",
@@ -4598,7 +4650,7 @@
 },
 {
 "term": "유니클로",
-"traffic": "500+",
+"traffic": "1000+",
 "time": "2026-11-20T00:10:00+00:00",
 "news": [
 {
@@ -4700,42 +4752,6 @@
 "title": "서울지하철 노조, 준법투쟁 돌입…출퇴근길 일부 지연 가능성",
 "source": "경향신문",
 "link": "https://www.khan.co.kr/article/202611200739001"
-}
-],
-"new": true
-},
-{
-"term": "새만금",
-"traffic": "200+",
-"time": "2026-11-19T23:10:00+00:00",
-"news": [
-{
-"title": "새만금·신공항·올림픽…전북 거대 프로젝트 쉽게 풀리는 게 없네",
-"source": "한겨레",
-"link": "https://www.hani.co.kr/arti/area/honam/1288246.html"
-},
-{
-"title": "[해설] 또 반복된 ‘하늘길 잔혹사’…환경·안전에 가로 막힌 전북 타개책 고심",
-"source": "전북일보 인터넷신문",
-"link": "https://www.jjan.kr/article/20261118500448"
-}
-],
-"new": true
-},
-{
-"term": "오상욱",
-"traffic": "200+",
-"time": "2026-11-19T23:00:00+00:00",
-"news": [
-{
-"title": "오상욱♥하루카 토요다, 열애설 다시 점화…日 데이트 인증?",
-"source": "스포츠동아",
-"link": "https://sports.donga.com/ent/article/all/20261118/135044966/1"
-},
-{
-"title": "오상욱, 한일 혼혈 모델 하루카 토요다와 열애설 재점화…日 데이트 사진 관심↑",
-"source": "뉴스1",
-"link": "https://www.news1.kr/entertain/celebrity-topic/6358067"
 }
 ],
 "new": true
