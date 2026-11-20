@@ -1,16 +1,17 @@
 {
-"updated": "2026-11-20T15:03:49.395055+00:00",
+"updated": "2026-11-20T15:06:05.375445+00:00",
 "errors": [],
 "events": [
 {
 "id": "wNISX20261120_00038774881414",
 "first": "2026-11-20T14:14:42+00:00",
-"last": "2026-11-20T14:59:19+00:00",
-"updated": "2026-11-20T15:03:49.395055+00:00",
+"last": "2026-11-20T15:00:00+00:00",
+"updated": "2026-11-20T15:06:05.375445+00:00",
 "headline": "뉴욕증시 하락 출발…다우 2.19%↓·나스닥 2.25%↓",
 "cat": "경제",
 "regions": [],
 "sources": [
+"CBC뉴스",
 "뉴시스",
 "연합뉴스"
 ],
@@ -42,22 +43,31 @@
 "link": "https://www.yna.co.kr/view/AKR20261120181500009",
 "time": "2026-11-20T14:59:19+00:00",
 "stage": "후속"
+},
+{
+"title": "[속보] 뉴욕증시 혼조세…다우 0.50% 상승에도 나스닥 1.42% 하락",
+"source": "CBC뉴스",
+"link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5RdVdEVG5YSUhDaEJraVVubTlwQm1leVliQlFhTm9pb2VzYnBNX25qY0RRcGE5V2tuSGo1YUJrSU9iWHlkaDFqMmt5OXZlNkJsai1sR2dfbkx0VE1VU1NtLXFBY2NONkE?oc=5",
+"time": "2026-11-20T15:00:00+00:00",
+"stage": "속보"
 }
 ],
 "level": "URGENT",
-"latest": "뉴욕증시, 기술주 투심 위축 속 혼조 출발",
+"latest": "뉴욕증시 혼조세…다우 0.50% 상승에도 나스닥 1.42% 하락",
 "tok": [
 "AI주",
 "기술주",
 "나스닥",
 "뉴욕증시",
 "다우",
+"상승에",
 "약세",
 "위축",
 "출발",
 "투심",
 "하락",
-"혼조"
+"혼조",
+"혼조세"
 ]
 },
 {
@@ -3210,45 +3220,12 @@
 "풍랑주의보",
 "해제"
 ]
-},
-{
-"id": "kNncFczUlhpTzZWMTlPSQoc50904",
-"first": "2026-11-20T09:04:40+00:00",
-"last": "2026-11-20T09:04:40+00:00",
-"updated": "2026-11-20T09:06:37.535666+00:00",
-"headline": "고작 세번 만났는데…일본인 여성 살해 30대男, 구속기소",
-"cat": "국제",
-"regions": [],
-"sources": [
-"아이뉴스24"
-],
-"updates": [
-{
-"title": "[속보] 고작 세번 만났는데…일본인 여성 살해 30대男, 구속기소",
-"source": "아이뉴스24",
-"link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBNX0xJeDJaSElBaTB5VkNXZlRTb3BVSGJhTElVTFM2Q3g3TFZoWVY2YWp0YUZQaFFZVGRCdkNncFczUlhpTzZWMTlPSQ?oc=5",
-"time": "2026-11-20T09:04:40+00:00",
-"stage": "얼럿"
-}
-],
-"level": "BULLETIN",
-"latest": "고작 세번 만났는데…일본인 여성 살해 30대男, 구속기소",
-"tok": [
-"30대男",
-"고작",
-"구속기소",
-"만났는데",
-"살해",
-"세번",
-"여성",
-"일본인"
-]
 }
 ],
 "sns": {
 "terms": {
 "지진": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -3284,7 +3261,7 @@
 },
 "미사일": {
 "n30": 1,
-"base": 0.6,
+"base": 0.7,
 "spike": false
 },
 "속보": {
@@ -3564,21 +3541,21 @@
 "n30": 5,
 "base": 0.5,
 "spike": true,
-"since": "2026-11-20T15:03:49.395055+00:00"
+"since": "2026-11-20T15:06:05.375445+00:00"
 }
 ],
 "baseline": {
-"지진": 0.06,
+"지진": 0.05,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.48,
+"폭발": 0.43,
 "붕괴": 0.05,
 "대피": 0.05,
-"미사일": 0.68,
+"미사일": 0.71,
 "속보": 0.05,
-"지하철": 0.13,
-"사고": 2.08,
+"지하철": 0.12,
+"사고": 2.07,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -3847,18 +3824,7 @@
 "term": "미국 반도체 수출 통제로 인한 삼성전자와 tsmc의 중국 출하 중단 뉴스 알려줘",
 "traffic": "500+",
 "time": "2026-11-20T13:30:00+00:00",
-"news": [
-{
-"title": "FT “TSMC, 中 첨단 칩 출하 중단 통보”…美 '우회 수출 원천 봉쇄' 여파",
-"source": "전자신문",
-"link": "https://www.etnews.com/20261120000030"
-},
-{
-"title": "美, 중국 기업에 AI칩 88만개 수출 승인, 실제 선적은 미지수",
-"source": "뉴스핌",
-"link": "https://www.newspim.com/news/view/20261120001224"
-}
-],
+"news": [],
 "new": true
 },
 {
@@ -3921,14 +3887,14 @@
 "time": "2026-11-20T12:50:00+00:00",
 "news": [
 {
-"title": "1R MVP 이해란 26점 폭발…여자농구 삼성생명, 4연승·단독 선두",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261120176400007"
+"title": "‘AG 3X3 농구 금메달리스트’ 이동근, 프로농구 드래프트 1순위로 kt행",
+"source": "KBS 뉴스",
+"link": "https://news.kbs.co.kr/news/view.do?ncd=8718511"
 },
 {
-"title": "‘삼성생명 돌풍의 핵심’ 이해란, 데뷔 첫 라운드 MVP 수상",
-"source": "KBS 뉴스",
-"link": "https://news.kbs.co.kr/news/view.do?ncd=8718495"
+"title": "KT, 이동근 1순위 지명…AG 금메달리스트 모두 프로행",
+"source": "연합뉴스TV",
+"link": "https://www.yonhapnewstv.co.kr/news/MYH20261120232343RF2"
 }
 ],
 "new": true
