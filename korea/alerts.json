@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-20T16:32:26.540519+00:00",
+"updated": "2026-11-20T16:34:42.664835+00:00",
 "errors": [],
 "events": [
 {
@@ -2826,12 +2826,12 @@
 },
 "폭발": {
 "n30": 5,
-"base": 0.9,
+"base": 0.8,
 "spike": true
 },
 "붕괴": {
 "n30": 3,
-"base": 0.6,
+"base": 0.5,
 "spike": false
 },
 "대피": {
@@ -2855,7 +2855,7 @@
 "spike": false
 },
 "사고": {
-"n30": 3,
+"n30": 2,
 "base": 3.3,
 "spike": false
 },
@@ -3069,16 +3069,6 @@
 "url": "https://www.youtube.com/watch?v=Rq0Cc-wt3iM"
 },
 {
-"text": "그 뿐 아니라 여러 범죄(교통사고 공갈협박, 스토킹, 공연음란죄)도 파묘되어서… 이름을 두번이나 바꾼 이유가 았었더라고요",
-"handle": "jinnys0.bsky.social",
-"name": "이진서🕯️",
-"time": "2026-11-20T16:04:06.247Z",
-"likes": 0,
-"reposts": 1,
-"url": "https://bsky.app/profile/jinnys0.bsky.social/post/3n2qxmflusk2i",
-"term": "사고"
-},
-{
 "platform": "YouTube",
 "text": "속보 | 비트코인 6만 달러 붕괴 59,765달러 — 청산 지도·고래 포지션 #Shorts",
 "handle": "UCZTknAobYDYV9ox9TG8wMrw",
@@ -3110,30 +3100,30 @@
 {
 "term": "폭발",
 "n30": 5,
-"base": 0.9,
+"base": 0.8,
 "spike": true,
-"since": "2026-11-20T16:32:26.540519+00:00"
+"since": "2026-11-20T16:34:42.664835+00:00"
 },
 {
 "term": "속보",
 "n30": 10,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-20T16:32:26.540519+00:00"
+"since": "2026-11-20T16:34:42.664835+00:00"
 }
 ],
 "baseline": {
 "지진": 0.05,
-"화재": 0.07,
+"화재": 0.06,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.85,
-"붕괴": 0.5,
+"폭발": 0.77,
+"붕괴": 0.45,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.56,
-"사고": 3.29,
+"지하철": 0.5,
+"사고": 3.16,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -3336,6 +3326,24 @@
 },
 "trends": [
 {
+"term": "공포지수",
+"traffic": "200+",
+"time": "2026-11-20T15:30:00+00:00",
+"news": [
+{
+"title": "엔비디아 호실적도 못 넘은 금리 인상 우려, 뉴욕증시 혼조",
+"source": "네이버페이 머니스토리",
+"link": "https://story.pay.naver.com/content/3999_2_C1"
+},
+{
+"title": "닷컴버블·리먼사태 한꺼번에 온다?…AI 거품론에 더 거세진 '닥터둠'의 경고",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261119_0003874497"
+}
+],
+"new": true
+},
+{
 "term": "연준",
 "traffic": "200+",
 "time": "2026-11-20T15:20:00+00:00",
@@ -3426,24 +3434,6 @@
 "new": true
 },
 {
-"term": "india a cricket team vs nepal national cricket team match scorecard",
-"traffic": "200+",
-"time": "2026-11-20T13:40:00+00:00",
-"news": [
-{
-"title": "Live Cricket Score, Schedule, Latest News, Stats & Videos",
-"source": "Cricbuzz",
-"link": "https://www.cricbuzz.com/player-match-performance/match/177152/player/11290/bowling?inningsId=1"
-},
-{
-"title": "Live Cricket Score, Schedule, Latest News, Stats & Videos",
-"source": "Cricbuzz",
-"link": "https://m.cricbuzz.com/player-match-performance/match/177152/player/11158/bowling"
-}
-],
-"new": true
-},
-{
 "term": "펍지",
 "traffic": "500+",
 "time": "2026-11-20T13:30:00+00:00",
@@ -3465,7 +3455,18 @@
 "term": "미국 반도체 수출 통제로 인한 삼성전자와 tsmc의 중국 출하 중단 뉴스 알려줘",
 "traffic": "5000+",
 "time": "2026-11-20T13:30:00+00:00",
-"news": [],
+"news": [
+{
+"title": "FT “TSMC, 中 첨단 칩 출하 중단 통보”…美 '우회 수출 원천 봉쇄' 여파",
+"source": "전자신문",
+"link": "https://www.etnews.com/20261120000030"
+},
+{
+"title": "중국행 반도체 막는다더니…미국, 엔비디아·AMD 칩 88만개 수출 허가 - 머니투데이",
+"source": "머니투데이",
+"link": "https://www.mt.co.kr/world/2026/11/20/2026112009474380780"
+}
+],
 "new": true
 },
 {
