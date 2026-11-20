@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-20T23:47:41.906588+00:00",
+"updated": "2026-11-20T23:50:00.316185+00:00",
 "errors": [],
 "events": [
 {
@@ -1974,7 +1974,7 @@
 "spike": false
 },
 "붕괴": {
-"n30": 2,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
@@ -1984,13 +1984,13 @@
 "spike": false
 },
 "미사일": {
-"n30": 3,
-"base": 0.7,
+"n30": 2,
+"base": 0.8,
 "spike": false
 },
 "속보": {
 "n30": 8,
-"base": 0.4,
+"base": 0.5,
 "spike": true
 },
 "지하철": {
@@ -1999,7 +1999,7 @@
 "spike": false
 },
 "사고": {
-"n30": 1,
+"n30": 0,
 "base": 1.0,
 "spike": false
 },
@@ -2186,26 +2186,6 @@
 "url": "https://www.youtube.com/watch?v=e8FD9lpdIGA"
 },
 {
-"text": "꼭지가 완전 미사일이네요!",
-"handle": "akwldrk.bsky.social",
-"name": "크어어",
-"time": "2026-11-20T23:19:16.448Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/akwldrk.bsky.social/post/3n2rpwk3blc24",
-"term": "미사일"
-},
-{
-"text": "제주특별자치도는 본토와 철도로 연결이 안된 곳이고\n강원특별자치도는 철도 연결이 사고구간과 전혀 상관이 없는 곳이라서 안보내도 상관이 없겠지만\n인천광역시는 일반철도가 전혀 없어서 아예 안보낸 것인지...",
-"handle": "140416-sewol.bsky.social",
-"name": "aka SilverHaus",
-"time": "2026-11-20T23:19:11.145Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/140416-sewol.bsky.social/post/3n2rpwctkk22g",
-"term": "사고"
-},
-{
 "platform": "YouTube",
 "text": "검은 금요일, 5천피 붕괴",
 "handle": "UC_L9NvKJclnsIVfRaE_k9QQ",
@@ -2246,23 +2226,23 @@
 {
 "term": "속보",
 "n30": 8,
-"base": 0.4,
+"base": 0.5,
 "spike": true,
-"since": "2026-11-20T23:47:41.906588+00:00"
+"since": "2026-11-20T23:50:00.316185+00:00"
 }
 ],
 "baseline": {
 "지진": 0.05,
-"화재": 0.22,
+"화재": 0.2,
 "불났": 0.05,
-"정전": 0.22,
-"폭발": 0.52,
+"정전": 0.2,
+"폭발": 0.57,
 "붕괴": 0.05,
 "대피": 0.05,
-"미사일": 0.77,
-"속보": 0.45,
-"지하철": 0.48,
-"사고": 0.99,
+"미사일": 0.69,
+"속보": 0.51,
+"지하철": 0.43,
+"사고": 0.89,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -2585,14 +2565,14 @@
 "time": "2026-11-20T22:10:00+00:00",
 "news": [
 {
-"title": "'모두의카드' 반값 할인, 내년 연중 상시화 - 머니투데이",
-"source": "머니투데이",
-"link": "https://www.mt.co.kr/index.php/estate/2026/11/20/2026111920143897539"
-},
-{
 "title": "가덕도신공항 내년 예산, 2200억 원 더해져 총 6511억 원으로 늘어",
 "source": "국제신문",
 "link": "https://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0200&key=20261120.99099006399"
+},
+{
+"title": "'모두의카드' 반값 할인, 내년 연중 상시화 - 머니투데이",
+"source": "머니투데이",
+"link": "https://www.mt.co.kr/index.php/estate/2026/11/20/2026111920143897539"
 }
 ],
 "new": true
