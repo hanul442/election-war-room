@@ -1,12 +1,12 @@
 {
-"updated": "2026-11-20T01:39:31.813129+00:00",
+"updated": "2026-11-20T01:41:54.560833+00:00",
 "errors": [],
 "events": [
 {
 "id": "wNISX20261120_00038763770133",
 "first": "2026-11-20T01:33:39+00:00",
-"last": "2026-11-20T01:37:46+00:00",
-"updated": "2026-11-20T01:39:31.813129+00:00",
+"last": "2026-11-20T01:39:00+00:00",
+"updated": "2026-11-20T01:41:54.560833+00:00",
 "headline": "'SM 시세조종 의혹' 카카오 김범수, 2심도 무죄",
 "cat": "기타",
 "regions": [],
@@ -14,8 +14,10 @@
 "Chosunbiz",
 "뉴스워치",
 "뉴시스",
+"데일리안",
 "머니투데이",
 "연합뉴스",
+"연합뉴스TV",
 "이투데이",
 "조선일보",
 "지디넷코리아"
@@ -57,6 +59,13 @@
 "stage": "속보"
 },
 {
+"title": "[속보] ’SM 시세조종’ 카카오 김범수 항소심도 무죄",
+"source": "연합뉴스TV",
+"link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1TWnd1NUs5a1Vhekl3WmlDYzJjNFNKbnJmejBfRHNLeE1RbkRBVW52UDJZSFpqWHAxWkFNT1hINkhVbC1yMVFnaHNBalFtWHliZTJMNVN0VmlUWHpOdnRPczhZYTZZOVE?oc=5",
+"time": "2026-11-20T01:36:00+00:00",
+"stage": "속보"
+},
+{
 "title": "[속보] 2심 재판부, 김범수 카카오 의장에 '무죄'",
 "source": "지디넷코리아",
 "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBnN1FQc3ZPRVp0YnpQa25jaGk3RktpNndhUDB5TWVUYXZZYVRwTkt0bm04ZnVuRTkwdVhHUWFaTnVSb1RBdVg5NFA1Q3hMNE1aUWZLcDZB?oc=5",
@@ -76,10 +85,17 @@
 "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9DZ3Faai04bXNEWDJGbzdET05vTDNIQURrMWs3LUE3MHBwUVdKMXlBVjBZaU51WVNWall3cXAtZlI5M0ZUalg5OUdWejBDdDJrWHlkd3A2UUpmb19uVjBVLWNhSlhKVUhN?oc=5",
 "time": "2026-11-20T01:37:46+00:00",
 "stage": "속보"
+},
+{
+"title": "[속보] 카카오 김범수 'SM 주가조작' 항소심도 무죄",
+"source": "데일리안",
+"link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNSUFHRzlVejZSUlRNbElTNURqYmdMNGhzVGZYTjNBMTYwVG1lNTk5ZGJyOUlSZDRIZnI3VWZQX1pnbS1SeXhfX2t1OG5zcDFzdHF5ME5ZQk5WU25zVEp2Q0dYQnFGWFphVG05amVJYm9HdmdPVDJYQ0ZmaWpKSUhnR0EtMnpHOUMwSGRxVlgza2twbmlVdFo2eVA2QWR2U0JqVjdMOF9kRFAyS0Q4c1JCdEhKUzMyNnBHQ0ZReC00RWkwd3VHS2psVEFiMlVXdmJ6ajUycGRVcW04VURNcFhxSzh5TXlYUHUxYUR1UmZsSDZtMEZoQzV2WFRyRDJITkN3R3M4?oc=5",
+"time": "2026-11-20T01:39:00+00:00",
+"stage": "속보"
 }
 ],
 "level": "URGENT",
-"latest": "카카오 김범수, 'SM 시세조종' 2심도 무죄",
+"latest": "카카오 김범수 'SM 주가조작' 항소심도 무죄",
 "tok": [
 "2심",
 "SM",
@@ -4054,7 +4070,7 @@
 },
 "화재": {
 "n30": 2,
-"base": 0.1,
+"base": 0.2,
 "spike": false
 },
 "불났": {
@@ -4069,7 +4085,7 @@
 },
 "폭발": {
 "n30": 5,
-"base": 0.3,
+"base": 0.4,
 "spike": true
 },
 "붕괴": {
@@ -4104,7 +4120,7 @@
 },
 "실종": {
 "n30": 1,
-"base": 0.2,
+"base": 0.3,
 "spike": false
 },
 "단수": {
@@ -4346,31 +4362,31 @@
 {
 "term": "폭발",
 "n30": 5,
-"base": 0.3,
+"base": 0.4,
 "spike": true,
-"since": "2026-11-20T01:39:31.813129+00:00"
+"since": "2026-11-20T01:41:54.560833+00:00"
 },
 {
 "term": "속보",
 "n30": 8,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-20T01:39:31.813129+00:00"
+"since": "2026-11-20T01:41:54.560833+00:00"
 }
 ],
 "baseline": {
-"지진": 0.22,
-"화재": 0.24,
+"지진": 0.2,
+"화재": 0.32,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.39,
+"폭발": 0.45,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 1.46,
+"지하철": 1.41,
 "사고": 0.95,
-"실종": 0.32,
+"실종": 0.39,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -4627,9 +4643,9 @@
 "link": "https://news.hada.io/topic?id=37452"
 },
 {
-"title": "AI 해킹으로 불안한데…PHP서 또 치명적 취약점 발견",
-"source": "국제신문",
-"link": "https://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0800&key=20261120.99099006370"
+"title": "PHP 치명적 결함 패치...특정 웹서버 설정 시 코드 실행 가능",
+"source": "보안뉴스",
+"link": "https://www.boannews.com/news/articleView.html?idxno=147402"
 }
 ],
 "new": true
