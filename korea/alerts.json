@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-20T14:52:31.398339+00:00",
+"updated": "2026-11-20T14:54:47.582231+00:00",
 "errors": [],
 "events": [
 {
@@ -3336,74 +3336,6 @@
 "폐차장",
 "화재"
 ]
-},
-{
-"id": "oNC04Y3NxMGQyOGYtZkgxoc50711",
-"first": "2026-11-20T07:11:29+00:00",
-"last": "2026-11-20T08:54:00+00:00",
-"updated": "2026-11-20T09:20:10.253513+00:00",
-"headline": "한동훈 \"국힘 제명 과정에 기획·공작 있을거라 예상했어…결국 진실 드러나\"",
-"cat": "기타",
-"regions": [],
-"sources": [
-"JTBC",
-"SBS",
-"부산일보",
-"프레시안"
-],
-"updates": [
-{
-"title": "제명 조작 의혹에…한동훈 \"결국 진실 드러나는 듯\"",
-"source": "SBS",
-"link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008856100&plink=RSSLINK&cooper=RSSREADER",
-"time": "2026-11-20T07:06:28+00:00",
-"stage": "후속"
-},
-{
-"title": "[속보] 한동훈 \"국힘 제명 과정에 기획·공작 있을거라 예상했어…결국 진실 드러나\"",
-"source": "부산일보",
-"link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5UdEFaT1NIYzJrZ0hXRno3N3ktemlyMThKSmhUeEtqa0VBM25SVWNpRmhaUzVvU0NQY2NXS1RZVjdpRlcyM0JZelVDaEtCQWQ1UG9aZ1VCUkhfYU5sMlB3RmxpZTNoNC04Y3NxMGQyOGYtZkgx?oc=5",
-"time": "2026-11-20T07:11:29+00:00",
-"stage": "얼럿"
-},
-{
-"title": "[속보] 한동훈 \"날 제명한 것, 기획과 공작 있었을 것 예상…결국 진실 드러나\"",
-"source": "프레시안",
-"link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9NdTZPNGJVUE02c3YyMzNiU3c3NjYyeThxUnpHOVB4dUR2c1ppNlVzUG9Uc3pCc2M2ZGxtU1dGR1hnR0RfZlZWQ2hCQ3kxVkdXc2tsVmNIbTdXbHI0cnlNcDNoeWlReURlQmVjWC1wR0t5Y2dEN2dESlN3UQ?oc=5",
-"time": "2026-11-20T07:49:38+00:00",
-"stage": "속보"
-},
-{
-"title": "한동훈, 제명 징계 조작 의혹에 \"진실 드러나\"…장동혁엔 \"과거 돌아보라\"",
-"source": "JTBC",
-"link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5Fdkh0WVRYVlpDejFFN3FndUtrT0ZqZDRnLTJLQUFqRnExWFl2ZjBlV3d0WE82UXRkTl9ocVZxVXdGajdEbHV6UjY2ZUltTll3X2s5aQ?oc=5",
-"time": "2026-11-20T08:54:00+00:00",
-"stage": "후속"
-}
-],
-"level": "URGENT",
-"latest": "한동훈, 제명 징계 조작 의혹에 \"진실 드러나\"…장동혁엔 \"과거 돌아보라\"",
-"tok": [
-"결국",
-"공작",
-"과거",
-"과정",
-"국힘",
-"기획",
-"돌아보라",
-"드러나",
-"예상",
-"예상했어",
-"있었",
-"있을거라",
-"장동혁엔",
-"제명",
-"제명한",
-"조작",
-"진실",
-"징계",
-"한동훈"
-]
 }
 ],
 "sns": {
@@ -3430,7 +3362,7 @@
 },
 "폭발": {
 "n30": 8,
-"base": 0.9,
+"base": 0.8,
 "spike": true
 },
 "붕괴": {
@@ -3445,7 +3377,7 @@
 },
 "미사일": {
 "n30": 1,
-"base": 0.4,
+"base": 0.5,
 "spike": false
 },
 "속보": {
@@ -3723,30 +3655,30 @@
 {
 "term": "폭발",
 "n30": 8,
-"base": 0.9,
+"base": 0.8,
 "spike": true,
-"since": "2026-11-20T14:52:31.398339+00:00"
+"since": "2026-11-20T14:54:47.582231+00:00"
 },
 {
 "term": "속보",
 "n30": 6,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-20T14:52:31.398339+00:00"
+"since": "2026-11-20T14:54:47.582231+00:00"
 }
 ],
 "baseline": {
-"지진": 0.11,
+"지진": 0.1,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.8,
+"폭발": 0.72,
 "붕괴": 0.05,
 "대피": 0.05,
-"미사일": 0.45,
+"미사일": 0.51,
 "속보": 0.05,
-"지하철": 0.21,
-"사고": 2.13,
+"지하철": 0.19,
+"사고": 2.12,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -3963,32 +3895,14 @@
 "time": "2026-11-20T13:40:00+00:00",
 "news": [
 {
-"title": "FT “TSMC, 中 첨단 칩 출하 중단 통보”…美 '우회 수출 원천 봉쇄' 여파",
-"source": "전자신문",
-"link": "https://www.etnews.com/20261120000030"
+"title": "젠슨 황 딸 폭언까지 터졌다…\"직원에 '금붕어' 호칭\" 논란",
+"source": "한국경제",
+"link": "https://www.hankyung.com/article/2026111982051"
 },
 {
-"title": "美, 중국 기업에 AI칩 88만개 수출 승인, 실제 선적은 미지수",
-"source": "뉴스핌",
-"link": "https://www.newspim.com/news/view/20261120001224"
-}
-],
-"new": true
-},
-{
-"term": "india a cricket team vs nepal national cricket team match scorecard",
-"traffic": "100+",
-"time": "2026-11-20T13:40:00+00:00",
-"news": [
-{
-"title": "IND-A skipper Tilak Varma hammers his 7th List A hundred",
-"source": "NewsBytes",
-"link": "https://www.newsbytesapp.com/news/sports/tilak-varma-slams-solid-107-versus-nepal-in-50-over-format/story"
-},
-{
-"title": "India vs Nepal ACC Men's Asia Cup Rising Stars score, toss winner, winning probability, result and highlights from Doha",
-"source": "Yahoo Sports",
-"link": "https://sports.yahoo.com/articles/india-vs-nepal-acc-mens-101517630.html"
+"title": "엔비디아, 6거래일새 시총 893조원 증발…\"하락 안끝났다\"",
+"source": "마켓인",
+"link": "https://marketin.edaily.co.kr/News/ReadE?newsId=01882726645647688"
 }
 ],
 "new": true
@@ -4010,6 +3924,24 @@
 }
 ],
 "new": false
+},
+{
+"term": "미국 반도체 수출 통제로 인한 삼성전자와 tsmc의 중국 출하 중단 뉴스 알려줘",
+"traffic": "500+",
+"time": "2026-11-20T13:30:00+00:00",
+"news": [
+{
+"title": "FT “TSMC, 中 첨단 칩 출하 중단 통보”…美 '우회 수출 원천 봉쇄' 여파",
+"source": "전자신문",
+"link": "https://www.etnews.com/20261120000030"
+},
+{
+"title": "美, 중국 기업에 AI칩 88만개 수출 승인, 실제 선적은 미지수",
+"source": "뉴스핌",
+"link": "https://www.newspim.com/news/view/20261120001224"
+}
+],
+"new": true
 },
 {
 "term": "컴포즈",
