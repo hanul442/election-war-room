@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-20T19:02:55.069055+00:00",
+"updated": "2026-11-20T19:05:07.681673+00:00",
 "errors": [],
 "events": [
 {
@@ -981,49 +981,17 @@
 "주말",
 "첫날"
 ]
-},
-{
-"id": "viewAKR202611201785005271303",
-"first": "2026-11-20T13:03:36+00:00",
-"last": "2026-11-20T13:03:36+00:00",
-"updated": "2026-11-20T13:09:54.859975+00:00",
-"headline": "동해남부 먼바다에 21일 0시 풍랑주의보",
-"cat": "재난",
-"regions": [
-"전남"
-],
-"sources": [
-"연합뉴스"
-],
-"updates": [
-{
-"title": "동해남부 먼바다에 21일 0시 풍랑주의보",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261120178500527",
-"time": "2026-11-20T13:03:36+00:00",
-"stage": "1보"
-}
-],
-"level": "ALERT",
-"latest": "동해남부 먼바다에 21일 0시 풍랑주의보",
-"tok": [
-"0시",
-"21일",
-"동해남부",
-"먼바다",
-"풍랑주의보"
-]
 }
 ],
 "sns": {
 "terms": {
 "지진": {
 "n30": 1,
-"base": 0.7,
+"base": 0.8,
 "spike": false
 },
 "화재": {
-"n30": 2,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
@@ -1038,7 +1006,7 @@
 "spike": false
 },
 "폭발": {
-"n30": 9,
+"n30": 8,
 "base": 0.1,
 "spike": true
 },
@@ -1329,26 +1297,26 @@
 "spikes": [
 {
 "term": "폭발",
-"n30": 9,
+"n30": 8,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-20T19:02:55.069055+00:00"
+"since": "2026-11-20T19:05:07.681673+00:00"
 },
 {
 "term": "속보",
 "n30": 8,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-20T19:02:55.069055+00:00"
+"since": "2026-11-20T19:05:07.681673+00:00"
 }
 ],
 "baseline": {
-"지진": 0.75,
+"지진": 0.78,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.09,
-"붕괴": 0.27,
+"폭발": 0.08,
+"붕괴": 0.24,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
@@ -1755,9 +1723,9 @@
 "link": "https://www.vietnam.vn/nhung-tinh-huong-tranh-cai-cua-u17-viet-nam-duoc-phan-xu-boi-cong-nghe-moi"
 },
 {
-"title": "Truyền thông Thái Lan ngạc nhiên trước màn trình diễn của U.17 Việt Nam tại World Cup",
+"title": "Lịch thi đấu U.17 Việt Nam và U.17 New Zealand mới nhất: Nỗ lực tột độ để chiến thắng",
 "source": "Báo Thanh Niên",
-"link": "https://thanhnien.vn/truyen-thong-thai-lan-ngac-nhien-truoc-man-trinh-dien-cua-u17-viet-nam-tai-world-cup-185261120233809135.htm"
+"link": "https://thanhnien.vn/lich-thi-dau-u17-viet-nam-moi-nhat-dau-u17-new-zealand-co-hoi-thang-la-day-185261120221110968.htm"
 }
 ],
 "new": true
