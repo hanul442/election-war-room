@@ -1,7 +1,56 @@
 {
-"updated": "2026-11-20T21:41:59.966028+00:00",
+"updated": "2026-11-20T21:44:15.173719+00:00",
 "errors": [],
 "events": [
+{
+"id": "viewAKR202611210108000622125",
+"first": "2026-11-20T21:25:17+00:00",
+"last": "2026-11-20T21:40:27+00:00",
+"updated": "2026-11-20T21:44:15.173719+00:00",
+"headline": "강원 대체로 맑고 쌀쌀…영동 대기 건조·산불 주의",
+"cat": "재난",
+"regions": [
+"강원",
+"울산",
+"충북"
+],
+"sources": [
+"뉴시스",
+"연합뉴스"
+],
+"updates": [
+{
+"title": "강원 대체로 맑고 쌀쌀…영동 대기 건조·산불 주의",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261121010800062",
+"time": "2026-11-20T21:25:17+00:00",
+"stage": "1보"
+},
+{
+"title": "울산 대체로 맑고 쌀쌀…아침엔 영하권",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261120_0003877197",
+"time": "2026-11-20T21:40:27+00:00",
+"stage": "후속"
+}
+],
+"level": "ALERT",
+"latest": "울산 대체로 맑고 쌀쌀…아침엔 영하권",
+"tok": [
+"강원",
+"건조",
+"대기",
+"대체",
+"맑고",
+"산불",
+"쌀쌀",
+"아침엔",
+"영동",
+"영하권",
+"울산",
+"주의"
+]
+},
 {
 "id": "lNUFkMDNVN2lTWW5IeER3oc52105",
 "first": "2026-11-20T21:05:00+00:00",
@@ -208,43 +257,6 @@
 "최고액",
 "큰일났다",
 "투수"
-]
-},
-{
-"id": "viewAKR202611210108000622125",
-"first": "2026-11-20T21:25:17+00:00",
-"last": "2026-11-20T21:25:17+00:00",
-"updated": "2026-11-20T21:30:46.501169+00:00",
-"headline": "강원 대체로 맑고 쌀쌀…영동 대기 건조·산불 주의",
-"cat": "재난",
-"regions": [
-"강원",
-"충북"
-],
-"sources": [
-"연합뉴스"
-],
-"updates": [
-{
-"title": "강원 대체로 맑고 쌀쌀…영동 대기 건조·산불 주의",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261121010800062",
-"time": "2026-11-20T21:25:17+00:00",
-"stage": "1보"
-}
-],
-"level": "ALERT",
-"latest": "강원 대체로 맑고 쌀쌀…영동 대기 건조·산불 주의",
-"tok": [
-"강원",
-"건조",
-"대기",
-"대체",
-"맑고",
-"산불",
-"쌀쌀",
-"영동",
-"주의"
 ]
 },
 {
@@ -1439,44 +1451,6 @@
 "탄핵추진",
 "탄핵추진단"
 ]
-},
-{
-"id": "PWSG33MJA6TPOTUT2HBM3DNQ1542",
-"first": "2026-11-20T15:42:00+00:00",
-"last": "2026-11-20T15:42:00+00:00",
-"updated": "2026-11-20T15:44:51.506657+00:00",
-"headline": "화재 현장서 외국인 16명 대피 도운 박진용씨 ‘용감한 의인’ 서울시 표창",
-"cat": "재난",
-"regions": [
-"서울"
-],
-"sources": [
-"조선일보"
-],
-"updates": [
-{
-"title": "화재 현장서 외국인 16명 대피 도운 박진용씨 ‘용감한 의인’ 서울시 표창",
-"source": "조선일보",
-"link": "https://www.chosun.com/national/national_general/2026/11/21/EGPWSG33MJA6TPOTUT2HBM3DNQ/",
-"time": "2026-11-20T15:42:00+00:00",
-"stage": "1보"
-}
-],
-"level": "ALERT",
-"latest": "화재 현장서 외국인 16명 대피 도운 박진용씨 ‘용감한 의인’ 서울시 표창",
-"tok": [
-"16명",
-"대피",
-"도운",
-"박진용씨",
-"서울시",
-"외국인",
-"용감한",
-"의인",
-"표창",
-"현장서",
-"화재"
-]
 }
 ],
 "sns": {
@@ -1507,9 +1481,9 @@
 "spike": false
 },
 "붕괴": {
-"n30": 5,
+"n30": 4,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "대피": {
 "n30": 0,
@@ -1781,17 +1755,9 @@
 "url": "https://www.youtube.com/watch?v=Cf5dwwuqQtM"
 }
 ],
-"spikes": [
-{
-"term": "붕괴",
-"n30": 5,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-20T21:41:59.966028+00:00"
-}
-],
+"spikes": [],
 "baseline": {
-"지진": 0.51,
+"지진": 0.56,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
@@ -1805,7 +1771,7 @@
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
-"먹통": 0.07,
+"먹통": 0.06,
 "산불": 0.05
 },
 "errors": [],
@@ -2022,8 +1988,26 @@
 },
 "trends": [
 {
+"term": "카리나",
+"traffic": "10000+",
+"time": "2026-11-20T20:40:00+00:00",
+"news": [
+{
+"title": "“이래서 카리나”…드레스 자태부터 탄탄한 복근 관리까지",
+"source": "동아일보",
+"link": "https://www.donga.com/news/Culture/article/all/20261119/135051121/1"
+},
+{
+"title": "[포토] 카리나 '순백의 여신'",
+"source": "세계일보",
+"link": "https://www.segye.com/newsView/20261118514116"
+}
+],
+"new": false
+},
+{
 "term": "어선",
-"traffic": "200+",
+"traffic": "500+",
 "time": "2026-11-20T20:30:00+00:00",
 "news": [
 {
@@ -2171,27 +2155,9 @@
 "link": "https://etfdb.com/innovative-etfs-content-hub/inside-qqq-low-volatility-sibling/"
 },
 {
-"title": "The Nasdaq-100 Is Doing Something It Did Only in 2000 and 2018. Here's What Happened Next Both Times",
-"source": "24/7 Wall St.",
-"link": "https://247wallst.com/investing/2026/11/17/the-nasdaq-100-is-doing-something-it-did-only-in-2000-and-2018-heres-what-happened-next-both-times/"
-}
-],
-"new": true
-},
-{
-"term": "tqqq",
-"traffic": "200+",
-"time": "2026-11-20T19:40:00+00:00",
-"news": [
-{
-"title": "EXCLUSIVE: Tesla Still Rules Leveraged ETFs, but Anthropic IPO and Micron’s Rise Signal What’s Next",
-"source": "Yahoo Finance",
-"link": "https://finance.yahoo.com/technology/ai/articles/exclusive-tesla-still-rules-leveraged-033004009.html"
-},
-{
-"title": "Pain in TQQQ, SOXL may offer silver lining for tech stocks - SocGen",
-"source": "Seeking Alpha",
-"link": "https://seekingalpha.com/news/4674377-pain-in-tqqq-soxl-may-offer-silver-lining-for-tech-stocks-socgen"
+"title": "Invesco QQQ Price Today | QQQON Price 2026",
+"source": "KuCoin",
+"link": "https://www.kucoin.com/price/QQQON"
 }
 ],
 "new": true
