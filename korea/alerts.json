@@ -1,7 +1,40 @@
 {
-"updated": "2026-11-20T09:02:10.667108+00:00",
+"updated": "2026-11-20T09:04:24.566616+00:00",
 "errors": [],
 "events": [
+{
+"id": "viewAKR202611200632005300900",
+"first": "2026-11-20T09:00:02+00:00",
+"last": "2026-11-20T09:00:02+00:00",
+"updated": "2026-11-20T09:04:24.566616+00:00",
+"headline": "행안장관, 도로 살얼음 안전점검…재난특교세 90억원 추가 지원",
+"cat": "재난",
+"regions": [],
+"sources": [
+"연합뉴스"
+],
+"updates": [
+{
+"title": "행안장관, 도로 살얼음 안전점검…재난특교세 90억원 추가 지원",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261120063200530",
+"time": "2026-11-20T09:00:02+00:00",
+"stage": "1보"
+}
+],
+"level": "ALERT",
+"latest": "행안장관, 도로 살얼음 안전점검…재난특교세 90억원 추가 지원",
+"tok": [
+"90억원",
+"도로",
+"살얼음",
+"안전점검",
+"재난특교세",
+"지원",
+"추가",
+"행안장관"
+]
+},
 {
 "id": "F3LWlyaHItd1B3OG9oMEEoc50758",
 "first": "2026-11-20T07:58:48+00:00",
@@ -4053,54 +4086,6 @@
 "총리",
 "출범"
 ]
-},
-{
-"id": "90UUkydzAyRF9ZSEZGWTgoc50630",
-"first": "2026-11-20T06:30:00+00:00",
-"last": "2026-11-20T06:30:21+00:00",
-"updated": "2026-11-20T06:47:36.041273+00:00",
-"headline": "韓총리 \"수능 부정행위 대응 TF 출범…정부 역량 총동원해 부정행위 적발\"",
-"cat": "정치",
-"regions": [],
-"sources": [
-"뉴스1",
-"조선일보"
-],
-"updates": [
-{
-"title": "[속보] 韓총리 \"수능 부정행위 대응 TF 출범…정부 역량 총동원해 부정행위 적발\"",
-"source": "뉴스1",
-"link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1QcG1pbGJwcnllQW52N1JOejJQVm1KdmVVQWd1ZXk5aEV6Tk1oODl5X2dwQUxyd0hDeUczTHUxQUJ2RkxQMTFTVWZram90UUkydzAyRF9ZSEZGWTg?oc=5",
-"time": "2026-11-20T06:30:00+00:00",
-"stage": "얼럿"
-},
-{
-"title": "정부 ‘수능 부정행위 대응 TF’ 출범… 응시 제한 최대 10년 확대 추진",
-"source": "조선일보",
-"link": "https://www.chosun.com/economy/economy_general/2026/11/20/HFRWKMZQGA2DONRQMU4GKZDCGE/",
-"time": "2026-11-20T06:30:21+00:00",
-"stage": "후속"
-}
-],
-"level": "URGENT",
-"latest": "정부 ‘수능 부정행위 대응 TF’ 출범… 응시 제한 최대 10년 확대 추진",
-"tok": [
-"10년",
-"TF",
-"韓총리",
-"대응",
-"부정행위",
-"수능",
-"역량",
-"응시",
-"적발",
-"제한",
-"총동원해",
-"최대",
-"추진",
-"출범",
-"확대"
-]
 }
 ],
 "sns": {
@@ -4152,7 +4137,7 @@
 },
 "지하철": {
 "n30": 5,
-"base": 1.4,
+"base": 1.5,
 "spike": true
 },
 "사고": {
@@ -4398,28 +4383,28 @@
 "n30": 5,
 "base": 0.4,
 "spike": true,
-"since": "2026-11-20T09:02:10.667108+00:00"
+"since": "2026-11-20T09:04:24.566616+00:00"
 },
 {
 "term": "지하철",
 "n30": 5,
-"base": 1.4,
+"base": 1.5,
 "spike": true,
-"since": "2026-11-20T09:02:10.667108+00:00"
+"since": "2026-11-20T09:04:24.566616+00:00"
 }
 ],
 "baseline": {
-"지진": 0.06,
+"지진": 0.05,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.42,
+"폭발": 0.48,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 1.5,
-"사고": 2.81,
+"지하철": 1.55,
+"사고": 2.83,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -4577,6 +4562,24 @@
 },
 "trends": [
 {
+"term": "조국",
+"traffic": "200+",
+"time": "2026-11-20T08:00:00+00:00",
+"news": [
+{
+"title": "민주, 의총서 ‘조희대 대법원장 탄핵 추진’ 당론 결정",
+"source": "조선일보",
+"link": "https://www.chosun.com/politics/assembly/2026/11/20/JCC32DKLRFDENO4HJG7UKCNCHM/"
+},
+{
+"title": "與 탄핵추진단 “’한덕수 판결’도 조희대 탄핵 사유로 검토“",
+"source": "연합뉴스TV",
+"link": "https://www.yonhapnewstv.co.kr/news/AKR202611201746477bv"
+}
+],
+"new": true
+},
+{
 "term": "황재균",
 "traffic": "500+",
 "time": "2026-11-20T07:50:00+00:00",
@@ -4690,20 +4693,20 @@
 "time": "2026-11-20T07:20:00+00:00",
 "news": [
 {
-"title": "Валил вину на пассажира: гражданин КНР получил срок за смертельное ДТП",
-"source": "Newsler.ru",
-"link": "https://www.newsler.ru/society/2026/11/19/valil-vinu-na-passazhira-grazhdanin-knr-poluchil-srok-za-smertelnoe-dtp"
+"title": "Суд оценил острый «аргумент» в драке на заправке в Петербурге",
+"source": "ФОНТАНКА.ру",
+"link": "https://www.fontanka.ru/2026/11/20/76778774/"
 },
 {
-"title": "Гражданину КНР вынесли приговор за смертельное ДТП в Котельничском районе",
-"source": "1istochnik",
-"link": "https://1istochnik.ru/news/179782"
+"title": "Условный срок получил водитель, ударивший незнакомца ножом на АЗС «Роснефти» в Петербурге",
+"source": "Мойка78.ру",
+"link": "https://moika78.ru/news/2026-11-20/1381404-uslovnyj-srok-poluchil-voditel-udarivshij-neznakomcza-nozhom-na-azs-rosnefti-v-peterburge/"
 }
 ],
 "new": true
 },
 {
-"term": "임지열",
+"term": "정철원",
 "traffic": "5000+",
 "time": "2026-11-20T07:00:00+00:00",
 "news": [
@@ -4734,24 +4737,6 @@
 "title": "'이범호, 이제 1년 남았다' KIA, 2027년 우승 못 하면 재계약 장담 못 해…김도영도 2028시즌 후 미국으로 날아갈 수도",
 "source": "마니아타임즈",
 "link": "https://www.maniareport.com/view.php?ud=20261119154111499691b55a0d56_19"
-}
-],
-"new": true
-},
-{
-"term": "fifa u-17 월드컵",
-"traffic": "200+",
-"time": "2026-11-20T07:00:00+00:00",
-"news": [
-{
-"title": "U-17 축구대표팀, 월드컵 첫 경기서 우간다 3대 0 대승",
-"source": "KBS 뉴스",
-"link": "https://news.kbs.co.kr/news/view.do?ncd=8718341"
-},
-{
-"title": "골도 없는데 '결승골' 김지호보다 평점 높았다... '양민혁보다 일찍 강원 데뷔' 최재혁, 미친 패스에 태클 7회 - 머니투데이",
-"source": "머니투데이",
-"link": "https://www.mt.co.kr/sports/2026/11/20/2026112012594098527"
 }
 ],
 "new": true
