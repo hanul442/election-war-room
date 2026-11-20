@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-20T14:43:23.738844+00:00",
+"updated": "2026-11-20T14:45:39.161640+00:00",
 "errors": [],
 "events": [
 {
@@ -3428,48 +3428,12 @@
 "적발된",
 "화장실"
 ]
-},
-{
-"id": "wNISX20261120_00038773000843",
-"first": "2026-11-20T08:43:55+00:00",
-"last": "2026-11-20T08:43:55+00:00",
-"updated": "2026-11-20T08:46:33.751763+00:00",
-"headline": "지붕 처마 떨어지고, 분리대 파손…강풍·결빙 덮친 제주",
-"cat": "재난",
-"regions": [
-"제주"
-],
-"sources": [
-"뉴시스"
-],
-"updates": [
-{
-"title": "지붕 처마 떨어지고, 분리대 파손…강풍·결빙 덮친 제주(종합)",
-"source": "뉴시스",
-"link": "https://www.newsis.com/view/NISX20261120_0003877300",
-"time": "2026-11-20T08:43:55+00:00",
-"stage": "종합"
-}
-],
-"level": "URGENT",
-"latest": "지붕 처마 떨어지고, 분리대 파손…강풍·결빙 덮친 제주",
-"tok": [
-"강풍",
-"결빙",
-"덮친",
-"떨어지고",
-"분리대",
-"제주",
-"지붕",
-"처마",
-"파손"
-]
 }
 ],
 "sns": {
 "terms": {
 "지진": {
-"n30": 1,
+"n30": 0,
 "base": 0.2,
 "spike": false
 },
@@ -3490,7 +3454,7 @@
 },
 "폭발": {
 "n30": 1,
-"base": 0.8,
+"base": 0.9,
 "spike": false
 },
 "붕괴": {
@@ -3509,18 +3473,18 @@
 "spike": false
 },
 "속보": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
 "지하철": {
 "n30": 0,
-"base": 0.4,
+"base": 0.3,
 "spike": false
 },
 "사고": {
-"n30": 0,
-"base": 2.6,
+"n30": 1,
+"base": 2.3,
 "spike": false
 },
 "실종": {
@@ -3550,6 +3514,16 @@
 }
 },
 "posts": [
+{
+"text": "두분 다 꺽꺽꺽 저걸로 웃고있는데\n셋 다 피곤하고 정신없는 게 보여서 또 다른 사고 칠까 봐 약간 불안해짐",
+"handle": "ohdamnit2.bsky.social",
+"name": "🔒 밀키스정식",
+"time": "2026-11-20T14:43:21.847Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/ohdamnit2.bsky.social/post/3n2qt3zniok2t",
+"term": "사고"
+},
 {
 "text": "아니 기록을 찾아야된다고 미사일은 안 쏘는데 나노섬유로 다 조사놓는다구...? 기록이 갈갈되면 우짤라고.. 기록이 무슨형태인지도모르면서",
 "handle": "wooda.bsky.social",
@@ -3726,17 +3700,17 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 0.16,
+"지진": 0.14,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.86,
+"폭발": 0.87,
 "붕괴": 0.05,
 "대피": 0.05,
-"미사일": 0.15,
+"미사일": 0.24,
 "속보": 0.05,
-"지하철": 0.32,
-"사고": 2.3,
+"지하철": 0.29,
+"사고": 2.17,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -4029,24 +4003,6 @@
 "new": true
 },
 {
-"term": "kumar kushagra",
-"traffic": "200+",
-"time": "2026-11-20T12:50:00+00:00",
-"news": [
-{
-"title": "Kumar Kushagra Family: Father, Mother, Coach And Career",
-"source": "Flickonclick",
-"link": "https://www.flickonclick.com/kumar-kushagra-family/"
-},
-{
-"title": "IND vs NEP, Emerging Stars Asia Cup: Who Is Kumar Kushagra? Jharkhand Batter's 117 Rescues India A",
-"source": "Asianet Newsable",
-"link": "https://newsable.asianetnews.com/sports/cricket-ind-vs-nepemerging-stars-asia-cup-who-is-kumar-kushagra-jharkhand-batters-117-rescues-india-a-articleshow-9nr2bos"
-}
-],
-"new": true
-},
-{
 "term": "비정규직",
 "traffic": "100+",
 "time": "2026-11-20T12:40:00+00:00",
@@ -4070,6 +4026,24 @@
 }
 ],
 "new": true
+},
+{
+"term": "홍진경",
+"traffic": "200+",
+"time": "2026-11-20T12:10:00+00:00",
+"news": [
+{
+"title": "‘180cm·47kg’ 홍진경, 식단 관리 비법 공개..“과식 줄일 수 있어” (공부왕찐천재)",
+"source": "조선일보",
+"link": "https://www.chosun.com/entertainments/broadcast/2026/11/19/GY2TOZLEMY3DSYZTHBSDIYTEGQ/"
+},
+{
+"title": "“14시간 수면” 홍진경, 멜라토닌 과다 복용..김숙 “두들겨 맞았냐” (공부왕찐천재 홍진경)",
+"source": "미주중앙일보",
+"link": "https://www.koreadaily.com/article/20261119025005183"
+}
+],
+"new": false
 }
 ],
 "trendSeen": [
