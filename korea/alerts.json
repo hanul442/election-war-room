@@ -1,46 +1,12 @@
 {
-"updated": "2026-11-20T04:52:06.318420+00:00",
+"updated": "2026-11-20T04:54:20.469959+00:00",
 "errors": [],
 "events": [
 {
-"id": "wNISX20261120_00038767310447",
-"first": "2026-11-20T04:47:10+00:00",
-"last": "2026-11-20T04:47:10+00:00",
-"updated": "2026-11-20T04:49:52.202282+00:00",
-"headline": "보령해경, 23~30일 연안 안전사고 위험 예보 '주의보'",
-"cat": "재난",
-"regions": [
-"충남"
-],
-"sources": [
-"뉴시스"
-],
-"updates": [
-{
-"title": "보령해경, 23~30일 연안 안전사고 위험 예보 '주의보'",
-"source": "뉴시스",
-"link": "https://www.newsis.com/view/NISX20261120_0003876731",
-"time": "2026-11-20T04:47:10+00:00",
-"stage": "1보"
-}
-],
-"level": "ALERT",
-"latest": "보령해경, 23~30일 연안 안전사고 위험 예보 '주의보'",
-"tok": [
-"30일",
-"보령해경",
-"안전사고",
-"연안",
-"예보",
-"위험",
-"주의보"
-]
-},
-{
 "id": "drV0UzWjAyTFF2MG5aSzcoc50052",
 "first": "2026-11-20T00:52:54+00:00",
-"last": "2026-11-20T04:46:37+00:00",
-"updated": "2026-11-20T04:52:06.318420+00:00",
+"last": "2026-11-20T04:51:51+00:00",
+"updated": "2026-11-20T04:54:20.469959+00:00",
 "headline": "코스피, 외국인·기관 매도에 4%대 급락…4900선 붕괴",
 "cat": "재난",
 "regions": [],
@@ -366,10 +332,17 @@
 "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5XR0dzc1dOOC1Sd0I5LVN3OW1WRW91RVZSS2szdTRqS1lqeGF1SWRTNGFmclpyb3U1em82a011bmhxM3ljai1zTG5pdFY0eE9sMnNGclN3SFY2dEJ3MEtzRnhJbGNYOERFY1pr0gFUQVVfeXFMTVNXX28zbjBVTW8zRU1GMVg5X2YzUHdvM19ILTVvTDdiRFZRUXh4WktiWFpSbE0wYVZMbmUybDRyWmx0Sk15Y2djOGM0X2R4Q1hmdV92?oc=5",
 "time": "2026-11-20T04:46:37+00:00",
 "stage": "속보"
+},
+{
+"title": "'검은 금요일' 코스피, 4900선 밑으로…코스닥까지 동반 '매도 사이드카'",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261120_0003876739",
+"time": "2026-11-20T04:51:51+00:00",
+"stage": "후속"
 }
 ],
 "level": "BULLETIN",
-"latest": "코스피 이어 코스닥도 매도 사이드카 발동…삼전닉스 급락",
+"latest": "'검은 금요일' 코스피, 4900선 밑으로…코스닥까지 동반 '매도 사이드카'",
 "tok": [
 "1조원",
 "4900선",
@@ -392,6 +365,7 @@
 "만에",
 "매도",
 "머니투데",
+"밑으",
 "발동",
 "붕괴",
 "비상벨",
@@ -405,11 +379,45 @@
 "장중",
 "지수",
 "코스닥",
+"코스닥까지",
 "코스닥서",
 "코스피",
 "팔자",
-"하락세",
-"하루"
+"하락세"
+]
+},
+{
+"id": "wNISX20261120_00038767310447",
+"first": "2026-11-20T04:47:10+00:00",
+"last": "2026-11-20T04:47:10+00:00",
+"updated": "2026-11-20T04:49:52.202282+00:00",
+"headline": "보령해경, 23~30일 연안 안전사고 위험 예보 '주의보'",
+"cat": "재난",
+"regions": [
+"충남"
+],
+"sources": [
+"뉴시스"
+],
+"updates": [
+{
+"title": "보령해경, 23~30일 연안 안전사고 위험 예보 '주의보'",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261120_0003876731",
+"time": "2026-11-20T04:47:10+00:00",
+"stage": "1보"
+}
+],
+"level": "ALERT",
+"latest": "보령해경, 23~30일 연안 안전사고 위험 예보 '주의보'",
+"tok": [
+"30일",
+"보령해경",
+"안전사고",
+"연안",
+"예보",
+"위험",
+"주의보"
 ]
 },
 {
@@ -4304,7 +4312,7 @@
 "sns": {
 "terms": {
 "지진": {
-"n30": 2,
+"n30": 3,
 "base": 0.7,
 "spike": false
 },
@@ -4340,12 +4348,12 @@
 },
 "미사일": {
 "n30": 3,
-"base": 0.3,
+"base": 0.4,
 "spike": false
 },
 "속보": {
 "n30": 15,
-"base": 0.2,
+"base": 0.3,
 "spike": true
 },
 "지하철": {
@@ -4354,13 +4362,13 @@
 "spike": false
 },
 "사고": {
-"n30": 6,
-"base": 4.1,
+"n30": 5,
+"base": 4.3,
 "spike": false
 },
 "실종": {
 "n30": 0,
-"base": 0.6,
+"base": 0.5,
 "spike": false
 },
 "단수": {
@@ -4385,6 +4393,16 @@
 }
 },
 "posts": [
+{
+"text": "【지진 정보】일본 시간 11월 20일 13:50경\n진원: 진원 조사 중\n최대 진도: 3\n진도 3: 구마모토현\n(일본 기상청 발표)\n#일본 #지진 #방재",
+"handle": "ko.soramoyou.yk-planning.jp",
+"name": "Soramoyou 한국어",
+"time": "2026-11-20T04:53:31.843Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/ko.soramoyou.yk-planning.jp/post/3n2ps5dohdp2o",
+"term": "지진"
+},
 {
 "platform": "YouTube",
 "text": "후티 미사일이 사우디 국부펀드 80층 타워 뚫었다 #shorts",
@@ -4707,28 +4725,28 @@
 {
 "term": "속보",
 "n30": 15,
-"base": 0.2,
+"base": 0.3,
 "spike": true,
-"since": "2026-11-20T04:52:06.318420+00:00"
+"since": "2026-11-20T04:54:20.469959+00:00"
 }
 ],
 "baseline": {
-"지진": 0.74,
+"지진": 0.87,
 "화재": 0.05,
 "불났": 0.05,
-"정전": 0.37,
-"폭발": 1.18,
-"붕괴": 0.1,
-"대피": 0.3,
-"미사일": 0.39,
-"속보": 0.32,
-"지하철": 1.44,
-"사고": 4.33,
-"실종": 0.5,
+"정전": 0.33,
+"폭발": 1.16,
+"붕괴": 0.09,
+"대피": 0.27,
+"미사일": 0.45,
+"속보": 0.39,
+"지하철": 1.5,
+"사고": 4.4,
+"실종": 0.45,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
-"산불": 0.71
+"산불": 0.74
 },
 "errors": [],
 "ytPosts": [
@@ -4944,15 +4962,44 @@
 },
 "trends": [
 {
-"term": "홍의정",
+"term": "리야드",
 "traffic": "100+",
-"time": "2026-11-20T03:40:00+00:00",
-"news": [],
-"new": false
+"time": "2026-11-20T03:50:00+00:00",
+"news": [
+{
+"title": "사우디 리야드 80층 빌딩 후티 미사일에 파손…'비전2030' 상징(종합)",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261119155051079"
+},
+{
+"title": "[이 시각 세계] 후티 반군, 사우디 80층 빌딩에 미사일 공격",
+"source": "MBC 뉴스",
+"link": "https://imnews.imbc.com/replay/2026/nwtoday/article/6867150_37012.html"
+}
+],
+"new": true
+},
+{
+"term": "라이어",
+"traffic": "200+",
+"time": "2026-11-20T03:50:00+00:00",
+"news": [
+{
+"title": "'라이어' 빌런 유연석, 경찰에게도 악행…결국 덜미 잡힐까",
+"source": "MBC",
+"link": "https://m.imbc.com/enews/view/525326"
+},
+{
+"title": "'라이어' 서현진, 믿었던 사람들 거짓말에 충격 - 머니투데이",
+"source": "머니투데이",
+"link": "https://www.mt.co.kr/entertainment/2026/11/19/2026111915157247121"
+}
+],
+"new": true
 },
 {
 "term": "사이드카",
-"traffic": "100+",
+"traffic": "200+",
 "time": "2026-11-20T03:40:00+00:00",
 "news": [
 {
@@ -4967,6 +5014,13 @@
 }
 ],
 "new": true
+},
+{
+"term": "홍의정",
+"traffic": "200+",
+"time": "2026-11-20T03:40:00+00:00",
+"news": [],
+"new": false
 },
 {
 "term": "시진핑",
@@ -5005,24 +5059,6 @@
 "new": true
 },
 {
-"term": "금값",
-"traffic": "200+",
-"time": "2026-11-20T03:20:00+00:00",
-"news": [
-{
-"title": "국제 금값, 14개월만에 최저…달러는 19개월 최고 수준",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261120083400009"
-},
-{
-"title": "[뉴욕 금가격] 연준 긴축 우려·강달러에 1.4%↓…14개월來 최저",
-"source": "연합인포맥스",
-"link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4445634"
-}
-],
-"new": true
-},
-{
 "term": "배구",
 "traffic": "1000+",
 "time": "2026-11-20T03:20:00+00:00",
@@ -5036,6 +5072,24 @@
 "title": "KOVO, 흥국생명-GS칼텍스 사망 사고 애도 “사고 매우 엄중하게 받아들여, 경기장 안전·관중 보호 노력” - 머니투데이",
 "source": "머니투데이",
 "link": "https://www.mt.co.kr/sports/2026/11/20/202611201225775665O"
+}
+],
+"new": true
+},
+{
+"term": "금값",
+"traffic": "200+",
+"time": "2026-11-20T03:20:00+00:00",
+"news": [
+{
+"title": "국제 금값, 14개월만에 최저…달러는 19개월 최고 수준",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261120083400009"
+},
+{
+"title": "[뉴욕 금가격] 연준 긴축 우려·강달러에 1.4%↓…14개월來 최저",
+"source": "연합인포맥스",
+"link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4445634"
 }
 ],
 "new": true
@@ -5063,42 +5117,6 @@
 "traffic": "100+",
 "time": "2026-11-20T03:10:00+00:00",
 "news": [],
-"new": true
-},
-{
-"term": "이만수",
-"traffic": "100+",
-"time": "2026-11-20T02:50:00+00:00",
-"news": [
-{
-"title": "[헐크 이만수의 힘] 루앙프라방에 심은 희망, 김한근 선배님의 헌신에 감사",
-"source": "내외경제TV",
-"link": "https://www.nbntv.co.kr/news/articleView.html?idxno=4027706"
-},
-{
-"title": "‘45홈런’ 김도영, 3루 수비도 1위…데뷔 첫 KBO 수비상",
-"source": "KBS 뉴스",
-"link": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8716061"
-}
-],
-"new": true
-},
-{
-"term": "김아림",
-"traffic": "500+",
-"time": "2026-11-20T02:40:00+00:00",
-"news": [
-{
-"title": "김아림, LPGA 시즌 최종전 투어 챔피언십 첫날 공동 선두",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261120018100007"
-},
-{
-"title": "퍼트 준비하는 이소미",
-"source": "뉴시스",
-"link": "https://mobile.newsis.com/photo/NISI20261120_0002297377"
-}
-],
 "new": true
 }
 ],
