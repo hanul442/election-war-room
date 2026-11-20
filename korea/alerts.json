@@ -1,7 +1,60 @@
 {
-"updated": "2026-11-20T10:32:01.303382+00:00",
+"updated": "2026-11-20T10:34:14.987755+00:00",
 "errors": [],
 "events": [
+{
+"id": "9MVG1vLVIxenRuRDdLWUEoc50959",
+"first": "2026-11-20T09:59:07+00:00",
+"last": "2026-11-20T10:27:20+00:00",
+"updated": "2026-11-20T10:34:14.987755+00:00",
+"headline": "포스코 노사, 임금안 재합의",
+"cat": "기타",
+"regions": [
+"경북"
+],
+"sources": [
+"연합뉴스",
+"영남일보"
+],
+"updates": [
+{
+"title": "포스코 노사, 1차 합의안 부결 13일 만에 임금교섭 잠정합의",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261120166100053",
+"time": "2026-11-20T09:38:25+00:00",
+"stage": "후속"
+},
+{
+"title": "[속보]포스코 노사, 임금안 재합의",
+"source": "영남일보",
+"link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1YWUpyZXlvbTBJZzVFNXpWT201dWZLbnFTSVV4SFB0WVlXSDJ3SXJ3N2t6dWtlOEc1SER0Q1AxeURqdFdlVWlsbUZPZ2wtd2JScHpLLVVsNUZlV29MVG1vLVIxenRuRDdLWUE?oc=5",
+"time": "2026-11-20T09:59:07+00:00",
+"stage": "얼럿"
+},
+{
+"title": "포스코 노사, 1차 합의안 부결 13일 만에 임금교섭 잠정합의(종합)",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261120166151053",
+"time": "2026-11-20T10:27:20+00:00",
+"stage": "종합"
+}
+],
+"level": "URGENT",
+"latest": "포스코 노사, 1차 합의안 부결 13일 만에 임금교섭 잠정합의",
+"tok": [
+"13일",
+"1차",
+"노사",
+"만에",
+"부결",
+"임금교섭",
+"임금안",
+"잠정합",
+"재합",
+"포스코",
+"합의안"
+]
+},
 {
 "id": "jNTVnMxbElPZTdGNmZ6agoc51012",
 "first": "2026-11-20T10:12:19+00:00",
@@ -217,52 +270,6 @@
 "전광훈",
 "피해자",
 "혐의"
-]
-},
-{
-"id": "9MVG1vLVIxenRuRDdLWUEoc50959",
-"first": "2026-11-20T09:59:07+00:00",
-"last": "2026-11-20T09:59:07+00:00",
-"updated": "2026-11-20T10:14:05.898968+00:00",
-"headline": "포스코 노사, 임금안 재합의",
-"cat": "기타",
-"regions": [
-"경북"
-],
-"sources": [
-"연합뉴스",
-"영남일보"
-],
-"updates": [
-{
-"title": "포스코 노사, 1차 합의안 부결 13일 만에 임금교섭 잠정합의",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261120166100053",
-"time": "2026-11-20T09:38:25+00:00",
-"stage": "후속"
-},
-{
-"title": "[속보]포스코 노사, 임금안 재합의",
-"source": "영남일보",
-"link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1YWUpyZXlvbTBJZzVFNXpWT201dWZLbnFTSVV4SFB0WVlXSDJ3SXJ3N2t6dWtlOEc1SER0Q1AxeURqdFdlVWlsbUZPZ2wtd2JScHpLLVVsNUZlV29MVG1vLVIxenRuRDdLWUE?oc=5",
-"time": "2026-11-20T09:59:07+00:00",
-"stage": "얼럿"
-}
-],
-"level": "URGENT",
-"latest": "포스코 노사, 임금안 재합의",
-"tok": [
-"13일",
-"1차",
-"노사",
-"만에",
-"부결",
-"임금교섭",
-"임금안",
-"잠정합",
-"재합",
-"포스코",
-"합의안"
 ]
 },
 {
@@ -4045,7 +4052,7 @@
 "terms": {
 "지진": {
 "n30": 0,
-"base": 0.5,
+"base": 0.4,
 "spike": false
 },
 "화재": {
@@ -4065,7 +4072,7 @@
 },
 "폭발": {
 "n30": 0,
-"base": 0.7,
+"base": 0.6,
 "spike": false
 },
 "붕괴": {
@@ -4090,7 +4097,7 @@
 },
 "지하철": {
 "n30": 2,
-"base": 2.6,
+"base": 2.5,
 "spike": false
 },
 "사고": {
@@ -4340,17 +4347,17 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 0.41,
+"지진": 0.37,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.64,
+"폭발": 0.58,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 2.52,
-"사고": 2.87,
+"지하철": 2.47,
+"사고": 2.88,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -4526,6 +4533,78 @@
 },
 "trends": [
 {
+"term": "김장",
+"traffic": "1000+",
+"time": "2026-11-20T09:30:00+00:00",
+"news": [
+{
+"title": "경기도북부회 지역 사랑 나눔…의정부서 ‘김장나누기 행복곱하기’ 행사",
+"source": "전기신문",
+"link": "https://www.electimes.com/news/articleView.html?idxno=375019"
+},
+{
+"title": "해운대구 좌2동 새마을부녀회, 따뜻한 겨울나기를 위한‘사랑의 김장나누기’ 행사 개최",
+"source": "국제신문",
+"link": "https://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0300&key=20261120.99099006422"
+}
+],
+"new": true
+},
+{
+"term": "acc emerging teams asia cup",
+"traffic": "100+",
+"time": "2026-11-20T09:30:00+00:00",
+"news": [
+{
+"title": "Excitel becomes Global Sponsor of DP World Asia Cup Rising Stars 2026",
+"source": "afaqs!",
+"link": "https://www.afaqs.com/news/mktg/excitel-becomes-global-sponsor-of-dp-world-asia-cup-rising-stars-2026-12823784"
+},
+{
+"title": "India A vs Nepal Live Score: All eyes on Abhishek, Vaibhav as India begin title chase",
+"source": "India Today",
+"link": "https://www.indiatoday.in/sports/cricket/story/india-a-vs-nepal-live-score-rising-stars-asia-cup-2026-ind-a-nep-match-3043062-2026-11-20"
+}
+],
+"new": true
+},
+{
+"term": "이더리움",
+"traffic": "200+",
+"time": "2026-11-20T09:30:00+00:00",
+"news": [
+{
+"title": "비트코인·금도 와르르 … 글로벌 자산시장 패닉",
+"source": "매일경제",
+"link": "https://www.mk.co.kr/news/stock/12214869"
+},
+{
+"title": "비트코인 8439만 원대 하락, 금리인상 부담에 투심 악화 '1차 방어선' 6만 달러",
+"source": "비즈니스포스트",
+"link": "https://www.businesspost.co.kr/BP?command=article_view&num=452467"
+}
+],
+"new": true
+},
+{
+"term": "설인아",
+"traffic": "100+",
+"time": "2026-11-20T09:30:00+00:00",
+"news": [
+{
+"title": "[사진]설인아-카니 '잘생쁨과 황후님' - 머니투데이",
+"source": "머니투데이",
+"link": "https://www.mt.co.kr/sports/2026/11/20/202611201602770982O"
+},
+{
+"title": "[사진]설인아, '달달한 하트로 출국 인사'",
+"source": "조선일보",
+"link": "https://www.chosun.com/entertainments/entertain_photo/2026/11/19/MMYWINLDG4YDEYJRMM2TCZDGGE/"
+}
+],
+"new": true
+},
+{
 "term": "캐시워크 정답",
 "traffic": "100+",
 "time": "2026-11-20T09:20:00+00:00",
@@ -4567,14 +4646,14 @@
 "time": "2026-11-20T08:40:00+00:00",
 "news": [
 {
+"title": "김혜경 여사, 제7회 김치의 날 기념식 - 포토 | 멀티미디어",
+"source": "대한민국 정책브리핑",
+"link": "https://www.korea.kr/multi/policyPhotoView.do?bbsKey=74425&pageIndex=1"
+},
+{
 "title": "김장 양념 질문받은 김혜경 여사 “이건 기밀인데…”",
 "source": "동아일보",
 "link": "https://www.donga.com/news/Politics/article/all/20261120/135060404/2"
-},
-{
-"title": "김장체험 나선 金여사…\"김치, 세계인의 식탁에 오래 머물길\"",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261120118200001"
 }
 ],
 "new": true
@@ -4621,86 +4700,14 @@
 "time": "2026-11-20T08:10:00+00:00",
 "news": [
 {
+"title": "\"장기라도 팔고 싶어\" 무릎 꿇었던 정유라…최순실 병원비 재차 호소 - 머니투데이",
+"source": "머니투데이",
+"link": "https://www.mt.co.kr/society/2026/11/19/2026111823270936147"
+},
+{
 "title": "\"최후의 순간까지 박 대통령 편이었던 엄마 외면 말라\"…정유라, 병원비 지원 재차 호소",
 "source": "부산파이낸셜뉴스",
 "link": "https://busan.fnnews.com/news/202611190635493105"
-},
-{
-"title": "정유라 “박근혜 대통령 편이었던 어머니 살려 달라”…병원비 다시 호소",
-"source": "경기일보",
-"link": "https://www.kyeonggi.com/article/20261118580642"
-}
-],
-"new": true
-},
-{
-"term": "황재균",
-"traffic": "1000+",
-"time": "2026-11-20T07:50:00+00:00",
-"news": [
-{
-"title": "전현무, 마당발인 줄 알았더니 “사적으로 만나는 사람 5명도 안돼”(‘현무로드’)",
-"source": "조선일보",
-"link": "https://www.chosun.com/entertainments/broadcast/2026/11/20/G4ZWCOJUGVTGEYTFME3DMZBQME/"
-},
-{
-"title": "전현무 \"밖서 만나는 사람 다섯…한 명이 황재균\"",
-"source": "뉴시스",
-"link": "https://www.newsis.com/view/NISX20261120_0003876691"
-}
-],
-"new": false
-},
-{
-"term": "디플러스기아",
-"traffic": "200+",
-"time": "2026-11-20T07:50:00+00:00",
-"news": [
-{
-"title": "[단독] T1 떠난 '도란' 최현준, 차기 행선지는 디플러스 기아 유력",
-"source": "www.xportsnews.com",
-"link": "https://www.xportsnews.com/article/2221545"
-},
-{
-"title": "[오피셜] ‘도란’ 최현준, T1과 2년 동행 끝내고 FA 시장으로",
-"source": "미주중앙일보",
-"link": "https://www.koreadaily.com/article/20261119041710118"
-}
-],
-"new": true
-},
-{
-"term": "ktx 지연",
-"traffic": "100+",
-"time": "2026-11-20T07:50:00+00:00",
-"news": [
-{
-"title": "부산행 KTX 고장에 450명 환승…16개 열차 지연",
-"source": "연합뉴스TV",
-"link": "https://www.yonhapnewstv.co.kr/news/AKR20261120115059aNB"
-},
-{
-"title": "부산행 KTX 동대구역 부근서 고장…잦은 지연에 승객 불만",
-"source": "국제신문",
-"link": "https://www.kookje.co.kr/news2011/asp/newsbody.asp?code=00&key=20261120.99099006577"
-}
-],
-"new": true
-},
-{
-"term": "닛케이 평균주가",
-"traffic": "200+",
-"time": "2026-11-20T07:40:00+00:00",
-"news": [
-{
-"title": "앤트로픽 쏠림·대중규제 우려 … 반도체株 곤두박질",
-"source": "매일경제",
-"link": "https://www.mk.co.kr/news/stock/12214868"
-},
-{
-"title": "[기획] 손정의도 “그때 투자할 걸”… 앤트로픽 IPO 흥행 신기록",
-"source": "www.dt.co.kr",
-"link": "https://www.dt.co.kr/article/12096157"
 }
 ],
 "new": true
