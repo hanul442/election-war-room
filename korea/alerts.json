@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-20T15:24:29.052216+00:00",
+"updated": "2026-11-20T15:26:42.532199+00:00",
 "errors": [],
 "events": [
 {
@@ -153,6 +153,40 @@
 "일인",
 "지한파",
 "특파원"
+]
+},
+{
+"id": "yS1BWWm8xRGxfZlNOMU12oc51432",
+"first": "2026-11-20T14:32:17+00:00",
+"last": "2026-11-20T14:32:17+00:00",
+"updated": "2026-11-20T15:26:42.532199+00:00",
+"headline": "앤트로픽 주가 주말 앞두고 장초반 약세 9%↓…상장 첫날 17% 급등했지만",
+"cat": "경제",
+"regions": [],
+"sources": [
+"CBC뉴스"
+],
+"updates": [
+{
+"title": "[속보] 앤트로픽 주가 주말 앞두고 장초반 약세 9%↓…상장 첫날 17% 급등했지만",
+"source": "CBC뉴스",
+"link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1kOENzVzVkLW5kQVYzaXQzeDlBRUxLVURrcHJTNkNpa09MN1loZWpyUDlaQzJaRXJDTDFSSklneDRXeHNMRnl4X1Y1TE9CZ3J5NFQ3TzhJNE4yS1BWWm8xRGxfZlNOMU12?oc=5",
+"time": "2026-11-20T14:32:17+00:00",
+"stage": "얼럿"
+}
+],
+"level": "URGENT",
+"latest": "앤트로픽 주가 주말 앞두고 장초반 약세 9%↓…상장 첫날 17% 급등했지만",
+"tok": [
+"급등했지",
+"상장",
+"앞두고",
+"앤트로픽",
+"약세",
+"장초반",
+"주가",
+"주말",
+"첫날"
 ]
 },
 {
@@ -2850,42 +2884,12 @@
 "올공",
 "점거"
 ]
-},
-{
-"id": "3WKMZXGAYGCNBWGNSDQM3FMU0925",
-"first": "2026-11-20T09:25:00+00:00",
-"last": "2026-11-20T09:25:00+00:00",
-"updated": "2026-11-20T09:35:49.492803+00:00",
-"headline": "[사진]베이비몬스터 '강풍에 웃음 활짝'",
-"cat": "재난",
-"regions": [],
-"sources": [
-"조선일보"
-],
-"updates": [
-{
-"title": "[사진]베이비몬스터 '강풍에 웃음 활짝'",
-"source": "조선일보",
-"link": "https://www.chosun.com/entertainments/entertain_photo/2026/11/20/MQ3WKMZXGAYGCNBWGNSDQM3FMU/",
-"time": "2026-11-20T09:25:00+00:00",
-"stage": "1보"
-}
-],
-"level": "ALERT",
-"latest": "[사진]베이비몬스터 '강풍에 웃음 활짝'",
-"tok": [
-"강풍",
-"베이비몬스터",
-"사진",
-"웃음",
-"활짝"
-]
 }
 ],
 "sns": {
 "terms": {
 "지진": {
-"n30": 0,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
@@ -2921,7 +2925,7 @@
 },
 "미사일": {
 "n30": 0,
-"base": 0.5,
+"base": 0.4,
 "spike": false
 },
 "속보": {
@@ -2936,7 +2940,7 @@
 },
 "사고": {
 "n30": 4,
-"base": 2.5,
+"base": 2.6,
 "spike": false
 },
 "실종": {
@@ -2966,6 +2970,16 @@
 }
 },
 "posts": [
+{
+"text": "새벽에 지진 났었나본데 세상 모르고 잤다 ㅎㅎ\n#미국 생활 미국 일상",
+"handle": "gyedo.threads.net.ap.brid.gy",
+"name": "Gyedo Jeon",
+"time": "2026-11-20T15:25:42.952Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/gyedo.threads.net.ap.brid.gy/post/3n2qvgfif5eq2",
+"term": "지진"
+},
 {
 "platform": "YouTube",
 "text": "서울지하철 준법투쟁에 \"일부 지연\"…총파업 예고 / 연합뉴스TV (YonhapnewsTV)",
@@ -3212,28 +3226,28 @@
 "n30": 5,
 "base": 0.5,
 "spike": true,
-"since": "2026-11-20T15:24:29.052216+00:00"
+"since": "2026-11-20T15:26:42.532199+00:00"
 },
 {
 "term": "폭발",
 "n30": 8,
 "base": 0.2,
 "spike": true,
-"since": "2026-11-20T15:24:29.052216+00:00"
+"since": "2026-11-20T15:26:42.532199+00:00"
 }
 ],
 "baseline": {
-"지진": 0.05,
-"화재": 0.51,
+"지진": 0.15,
+"화재": 0.56,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.19,
+"폭발": 0.17,
 "붕괴": 0.05,
 "대피": 0.05,
-"미사일": 0.41,
+"미사일": 0.37,
 "속보": 0.05,
 "지하철": 0.05,
-"사고": 2.6,
+"사고": 2.74,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -3477,14 +3491,14 @@
 "time": "2026-11-20T13:40:00+00:00",
 "news": [
 {
-"title": "Live Cricket Score, Schedule, Latest News, Stats & Videos",
-"source": "Cricbuzz",
-"link": "https://www.cricbuzz.com/player-match-performance/match/177152/player/11290/bowling?inningsId=1"
+"title": "4th Match, Group B (D/N), Asia Cup Rising Stars (50 Overs) at Doha, Nov 20 2026",
+"source": "ESPN",
+"link": "https://www.espn.com/cricket/series/1562333/commentary/1562345/india-a-vs-nepal-4th-match-group-b-asia-cup-rising-stars-50-overs-2026-27"
 },
 {
 "title": "Live Cricket Score, Schedule, Latest News, Stats & Videos",
 "source": "Cricbuzz",
-"link": "https://www.cricbuzz.com/player-match-performance/match/177152/player/12144/bowling?inningsId=1"
+"link": "https://www.cricbuzz.com/player-match-performance/match/177152/player/11290/bowling?inningsId=1"
 }
 ],
 "new": true
@@ -3570,7 +3584,7 @@
 },
 {
 "term": "농구",
-"traffic": "200+",
+"traffic": "500+",
 "time": "2026-11-20T12:50:00+00:00",
 "news": [
 {
@@ -3597,9 +3611,9 @@
 "link": "https://newsable.asianetnews.com/sports/tilak-varma-and-kumar-kushagra-hit-centuries-to-propel-india-a-total-articleshow-16b1lhq"
 },
 {
-"title": "IND vs PAK in Asia Cup Rising Stars 2026: Start time, date, venue and how to watch India-Pakistan clash globally",
+"title": "India A vs Nepal live streaming: When and where to watch Rising Stars Asia Cup 2026 match?",
 "source": "Yahoo Sports",
-"link": "https://sports.yahoo.com/articles/ind-vs-pak-asia-cup-092428434.html"
+"link": "https://sports.yahoo.com/articles/india-vs-nepal-live-streaming-172600133.html"
 }
 ],
 "new": true
