@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-20T19:34:50.623438+00:00",
+"updated": "2026-11-20T19:37:03.599076+00:00",
 "errors": [],
 "events": [
 {
@@ -1110,7 +1110,7 @@
 "sns": {
 "terms": {
 "지진": {
-"n30": 2,
+"n30": 1,
 "base": 0.9,
 "spike": false
 },
@@ -1130,9 +1130,9 @@
 "spike": false
 },
 "폭발": {
-"n30": 5,
+"n30": 4,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "붕괴": {
 "n30": 1,
@@ -1309,16 +1309,6 @@
 "url": "https://www.youtube.com/watch?v=otziEnN2lpI"
 },
 {
-"text": "【지진 정보】일본 시간 11월 21일 04:01경\n진원: Amakusa and Ashikita Region, Kumamoto Prefecture (M2.2, 깊이 약 10km)\n최대 진도: 1\n진도 1: 구마모토현\n이 지진으로 인한 쓰나미 걱정은 없습니다.\n(일본 기상청 발표)\n#일본 #지진 #방재",
-"handle": "ko.soramoyou.yk-planning.jp",
-"name": "Soramoyou 한국어",
-"time": "2026-11-20T19:06:34.359Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/ko.soramoyou.yk-planning.jp/post/3n2rbsp6i7a26",
-"term": "지진"
-},
-{
 "platform": "YouTube",
 "text": "김연자 전국노래자랑 열정🔥폭발무대 3 #김연자 #십분내로 #김연자노래",
 "handle": "UCWUqoUq8Z3QUBmZGPNNhBXQ",
@@ -1375,27 +1365,20 @@
 ],
 "spikes": [
 {
-"term": "폭발",
-"n30": 5,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-20T19:34:50.623438+00:00"
-},
-{
 "term": "속보",
 "n30": 6,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-20T19:34:50.623438+00:00"
+"since": "2026-11-20T19:37:03.599076+00:00"
 }
 ],
 "baseline": {
-"지진": 0.95,
+"지진": 0.85,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
 "폭발": 0.05,
-"붕괴": 0.06,
+"붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
