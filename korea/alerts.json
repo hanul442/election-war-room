@@ -1,55 +1,24 @@
 {
-"updated": "2026-11-20T22:22:13.894250+00:00",
+"updated": "2026-11-20T22:24:26.811544+00:00",
 "errors": [],
 "events": [
 {
-"id": "wNISX20261121_00038775232218",
-"first": "2026-11-20T22:18:48+00:00",
-"last": "2026-11-20T22:18:48+00:00",
-"updated": "2026-11-20T22:22:13.894250+00:00",
-"headline": "서천공주고속도로 달리던 SUV 차량 화재…1700만원 피해",
-"cat": "재난",
-"regions": [
-"충남"
-],
-"sources": [
-"뉴시스"
-],
-"updates": [
-{
-"title": "서천공주고속도로 달리던 SUV 차량 화재…1700만원 피해",
-"source": "뉴시스",
-"link": "https://www.newsis.com/view/NISX20261121_0003877523",
-"time": "2026-11-20T22:18:48+00:00",
-"stage": "1보"
-}
-],
-"level": "ALERT",
-"latest": "서천공주고속도로 달리던 SUV 차량 화재…1700만원 피해",
-"tok": [
-"1700만원",
-"SUV",
-"달리던",
-"서천공주고속도",
-"차량",
-"피해",
-"화재"
-]
-},
-{
 "id": "viewAKR202611210124000612201",
 "first": "2026-11-20T22:01:57+00:00",
-"last": "2026-11-20T22:12:36+00:00",
-"updated": "2026-11-20T22:17:45.489198+00:00",
+"last": "2026-11-20T22:22:04+00:00",
+"updated": "2026-11-20T22:24:26.811544+00:00",
 "headline": "평택 소정리역서 화물열차 탈선…경부선 열차 운행 지장",
 "cat": "교통",
 "regions": [
-"경기"
+"경기",
+"충남"
 ],
 "sources": [
 "www.bntnews.co.kr",
+"뉴시스",
 "연합뉴스",
-"이투데이"
+"이투데이",
+"파이낸셜뉴스"
 ],
 "updates": [
 {
@@ -93,24 +62,76 @@
 "link": "https://www.yna.co.kr/view/AKR20261121012900061",
 "time": "2026-11-20T22:12:36+00:00",
 "stage": "후속"
+},
+{
+"title": "[속보]평택 소정리역서 화물열차 탈선…경부선 열차 운행 차질",
+"source": "파이낸셜뉴스",
+"link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE04WENuS3A0NDJobnQxdTFISGdXMXp1aGxzOEd2OXk5MnVLWEdrbHBLcm1xM00zQkc5Nms4WWFIM2FQcW9Cczc4U0FUZU96NU9Cek1sYTVpWWQ3UQ?oc=5",
+"time": "2026-11-20T22:20:06+00:00",
+"stage": "속보"
+},
+{
+"title": "[속보]평택 소정리역서 화물열차 탈선…경부선 천안~소정리역 구간 운행 중지",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261121_0003877528",
+"time": "2026-11-20T22:22:04+00:00",
+"stage": "속보"
 }
 ],
 "level": "URGENT",
-"latest": "평택 소정리역서 화물열차 탈선…경부선 열차 운행 지장",
+"latest": "평택 소정리역서 화물열차 탈선…경부선 천안~소정리역 구간 운행 중지",
 "tok": [
 "경부선",
+"구간",
 "단전",
+"소정리역",
 "소정리역서",
 "열차",
 "운행",
 "일반열차",
 "전차선",
+"중지",
 "지연",
 "지장",
 "차질",
+"천안",
 "탈선",
 "평택",
 "화물열차"
+]
+},
+{
+"id": "wNISX20261121_00038775232218",
+"first": "2026-11-20T22:18:48+00:00",
+"last": "2026-11-20T22:18:48+00:00",
+"updated": "2026-11-20T22:22:13.894250+00:00",
+"headline": "서천공주고속도로 달리던 SUV 차량 화재…1700만원 피해",
+"cat": "재난",
+"regions": [
+"충남"
+],
+"sources": [
+"뉴시스"
+],
+"updates": [
+{
+"title": "서천공주고속도로 달리던 SUV 차량 화재…1700만원 피해",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261121_0003877523",
+"time": "2026-11-20T22:18:48+00:00",
+"stage": "1보"
+}
+],
+"level": "ALERT",
+"latest": "서천공주고속도로 달리던 SUV 차량 화재…1700만원 피해",
+"tok": [
+"1700만원",
+"SUV",
+"달리던",
+"서천공주고속도",
+"차량",
+"피해",
+"화재"
 ]
 },
 {
@@ -1386,7 +1407,7 @@
 "terms": {
 "지진": {
 "n30": 3,
-"base": 0.3,
+"base": 0.2,
 "spike": false
 },
 "화재": {
@@ -1653,11 +1674,11 @@
 "n30": 5,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-20T22:22:13.894250+00:00"
+"since": "2026-11-20T22:24:26.811544+00:00"
 }
 ],
 "baseline": {
-"지진": 0.24,
+"지진": 0.22,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
@@ -1861,6 +1882,24 @@
 },
 "trends": [
 {
+"term": "김민재",
+"traffic": "500+",
+"time": "2026-11-20T21:20:00+00:00",
+"news": [
+{
+"title": "'기분 좋은 방출설' 김민재, EPL 빅클럽+유벤투스+튀르키예 \"러브콜 폭주\"... 뮌헨은 이미 대체자 물색 \"여름에 떠나나\" - 머니투데이",
+"source": "머니투데이",
+"link": "https://www.mt.co.kr/sports/2026/11/20/2026112008255895599"
+},
+{
+"title": "‘韓 괴물 CB’ 김민재, 어떤 명문 구단이 품을까···“바이에른 뮌헨과 재계약 불투명” 튀르키예·이탈리아 구단...",
+"source": "스포츠경향",
+"link": "https://sports.khan.co.kr/article/202611200707003"
+}
+],
+"new": true
+},
+{
 "term": "박은정",
 "traffic": "100+",
 "time": "2026-11-20T21:10:00+00:00",
@@ -1880,18 +1919,18 @@
 },
 {
 "term": "비트코인",
-"traffic": "500+",
+"traffic": "2000+",
 "time": "2026-11-20T21:00:00+00:00",
 "news": [
 {
-"title": "[영상] 젠슨 황 쇼크에 AI 투심 ‘휘청’…주식·코인·금 동반 급락",
-"source": "서울경제",
-"link": "https://www.sedaily.com/article/20115807"
+"title": "비트코인 4달만에 도로 6만달러 아래로…2022년 이후 최장 약세",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261121005500091"
 },
 {
-"title": "코인셰어스 CEO, AI로 비트코인 하락 설명…AI주도 하락",
-"source": "BeInCrypto",
-"link": "https://kr.beincrypto.com/coinshares-ceo-ai-bitcoin-slide/"
+"title": "보름 만에 23% 떨어진 비트코인…바닥은 어디일까[코인현미경]",
+"source": "뉴스1",
+"link": "https://www.news1.kr/finance/blockchain-fintech/6361286"
 }
 ],
 "new": true
@@ -1907,9 +1946,9 @@
 "link": "https://www.yna.co.kr/view/AKR20261120166151053"
 },
 {
-"title": "포스코, 임단협 잠정합의안 재도출…\"철강 위기 극복 뜻 모아\" - 머니투데이",
-"source": "머니투데이",
-"link": "https://www.mt.co.kr/industry/2026/11/20/2026112018233126305"
+"title": "포스코 노사, 임금 협상 다시 잠정 합의…28일 찬반투표",
+"source": "조선일보",
+"link": "https://www.chosun.com/economy/industry-company/2026/11/20/E5L6SOMGQBA5ZFKA6N5CH2PYIA/"
 }
 ],
 "new": false
@@ -1952,18 +1991,18 @@
 },
 {
 "term": "김연경",
-"traffic": "2000+",
+"traffic": "1000+",
 "time": "2026-11-20T20:50:00+00:00",
 "news": [
 {
-"title": "오사카 달군 '2026 마마 어워즈'…첫날 대상에 BTS·엔하이픈",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261120179200005"
+"title": "김연경 ‘필승 원더독스’, 첫 해외원정…베트남 프로 최강팀 라오까이와 맞대결(‘신인감독2’)",
+"source": "조선일보",
+"link": "https://www.chosun.com/entertainments/broadcast/2026/11/20/HFTDCZJYGA2WKOJTMYZTIZRSGA/"
 },
 {
-"title": "시상의 아이콘 김혜수, MAMA에서도 빛나는 존재감 [O! STAR 숏폼]",
-"source": "조선일보",
-"link": "https://www.chosun.com/entertainments/music/2026/11/20/GRRWIZJRMQ3TQZRVGU4DSY3EGY/"
+"title": "코트 위의 매버릭, ‘꽃사슴’ 황연주의 위대한 귀환 [예능 뜯어보기] - 머니투데이",
+"source": "머니투데이",
+"link": "https://www.mt.co.kr/entertainment/2026/11/20/2026112008307243652"
 }
 ],
 "new": true
@@ -2018,24 +2057,6 @@
 "title": "[책의 향기]지구의 종말 앞에서 탄생을 논하다",
 "source": "동아일보",
 "link": "https://www.donga.com/news/Culture/article/all/20261120/135063004/2"
-}
-],
-"new": true
-},
-{
-"term": "나스닥",
-"traffic": "200+",
-"time": "2026-11-20T20:40:00+00:00",
-"news": [
-{
-"title": "뉴욕증시, 기술주 투심 위축 속 혼조 출발",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261120181500009"
-},
-{
-"title": "엔비디아 호실적도 못 막았다…나스닥, 기술주 매도에 5.3% 폭락",
-"source": "매일경제 마켓",
-"link": "https://stock.mk.co.kr/news/view/1203533"
 }
 ],
 "new": true
