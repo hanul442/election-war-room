@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-20T23:11:35.932590+00:00",
+"updated": "2026-11-20T23:13:49.245572+00:00",
 "errors": [],
 "events": [
 {
@@ -1789,7 +1789,7 @@
 },
 "폭발": {
 "n30": 8,
-"base": 0.4,
+"base": 0.5,
 "spike": true
 },
 "붕괴": {
@@ -1814,12 +1814,12 @@
 },
 "지하철": {
 "n30": 2,
-"base": 1.8,
+"base": 1.7,
 "spike": false
 },
 "사고": {
 "n30": 0,
-"base": 1.5,
+"base": 1.4,
 "spike": false
 },
 "실종": {
@@ -2091,30 +2091,30 @@
 {
 "term": "폭발",
 "n30": 8,
-"base": 0.4,
+"base": 0.5,
 "spike": true,
-"since": "2026-11-20T23:11:35.932590+00:00"
+"since": "2026-11-20T23:13:49.245572+00:00"
 },
 {
 "term": "속보",
 "n30": 5,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-20T23:11:35.932590+00:00"
+"since": "2026-11-20T23:13:49.245572+00:00"
 }
 ],
 "baseline": {
 "지진": 0.05,
-"화재": 0.64,
+"화재": 0.68,
 "불났": 0.05,
-"정전": 0.64,
-"폭발": 0.45,
+"정전": 0.68,
+"폭발": 0.51,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 1.69,
-"사고": 1.35,
+"지하철": 1.62,
+"사고": 1.22,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -2335,6 +2335,78 @@
 },
 "trends": [
 {
+"term": "연예인",
+"traffic": "2000+",
+"time": "2026-11-20T22:10:00+00:00",
+"news": [
+{
+"title": "한고은♥신영수, 알고 보니 ‘무당♥스님’ 궁합…“자식 없는 사주”",
+"source": "스포츠경향",
+"link": "https://sports.khan.co.kr/article/202611201444003"
+},
+{
+"title": "'파묘' 자문 고춘자, 한고은에게 \"연예인 안 했으면 무속인 됐을 것\"",
+"source": "뉴스1",
+"link": "https://www.news1.kr/entertain/celebrity-topic/6360587"
+}
+],
+"new": true
+},
+{
+"term": "경기남부",
+"traffic": "200+",
+"time": "2026-11-20T22:10:00+00:00",
+"news": [
+{
+"title": "GTX-A 구성역 ‘고속열차 환승거점’ 추진…이언주, 국토부에 2복선화 건의",
+"source": "데일리스포츠한국",
+"link": "https://www.dailysportshankook.co.kr/news/articleView.html?idxno=435766"
+},
+{
+"title": "‘위례~삼동선’·‘지하철 8호선 판교연장’ 예타 결과 내년으로 넘어가",
+"source": "경인일보",
+"link": "https://www.kyeongin.com/article/1774732"
+}
+],
+"new": true
+},
+{
+"term": "공매도",
+"traffic": "200+",
+"time": "2026-11-20T22:10:00+00:00",
+"news": [
+{
+"title": "“주식 어디가 바닥인데요?” 외국인은 이미 탈출…이건 7.4조 샀다는데",
+"source": "매일경제 마켓",
+"link": "https://stock.mk.co.kr/news/view/1203507"
+},
+{
+"title": "외국인, 지난달 우리나라 주식 26조 원 '팔자'‥두 달 연속 순매도",
+"source": "MBC 뉴스",
+"link": "https://imnews.imbc.com/news/2026/econo/article/6867106_36932.html"
+}
+],
+"new": true
+},
+{
+"term": "나스닥 100",
+"traffic": "200+",
+"time": "2026-11-20T22:10:00+00:00",
+"news": [
+{
+"title": "나스닥 100, 사상 최고치 대비 약 20% 하락: 과거 데이터상 60거래일 후 상승 확률 80%",
+"source": "TradingKey",
+"link": "https://www.tradingkey.com/kr/analysis/stocks/us-stocks/262316128-nasdaq-100-drawdown-20-percent-intraday-15-percent-backtest-tradingkey"
+},
+{
+"title": "나스닥 선물, 한때 26,280.5포인트로 밀려 4월 중순 이후 최저",
+"source": "토큰포스트",
+"link": "https://www.tokenpost.kr/news/breaking/441375"
+}
+],
+"new": true
+},
+{
 "term": "부고",
 "traffic": "100+",
 "time": "2026-11-20T22:00:00+00:00",
@@ -2438,78 +2510,6 @@
 "title": "[취재후일담] 밸류업 앞장섰더니 저PBR 낙인…누가 정책 따르겠나",
 "source": "아시아투데이",
 "link": "https://www.asiatoday.co.kr/kn/view.php?key=20261119010007708"
-}
-],
-"new": true
-},
-{
-"term": "띠별 운세",
-"traffic": "500+",
-"time": "2026-11-20T21:30:00+00:00",
-"news": [
-{
-"title": "[오늘의 운세] 11월 21일 토요일 (음력 10월 13일) 띠별 운세",
-"source": "경기일보",
-"link": "https://www.kyeonggi.com/article/20261113580348"
-},
-{
-"title": "[오늘의 운세] 2026년 11월 21일 별자리 운세",
-"source": "YTN",
-"link": "https://www.ytn.co.kr/_ln/0121_202611210000000002"
-}
-],
-"new": true
-},
-{
-"term": "노동조합",
-"traffic": "1000+",
-"time": "2026-11-20T21:30:00+00:00",
-"news": [
-{
-"title": "서울 지하철 준법투쟁 첫날…철도노조도 23일 합류",
-"source": "전기신문",
-"link": "https://www.electimes.com/news/articleView.html?idxno=375076"
-},
-{
-"title": "서울지하철 노조, 오늘부터 준법투쟁…출퇴근 열차 지연 예상",
-"source": "KBS 뉴스",
-"link": "https://news.kbs.co.kr/news/view.do?ncd=8718152"
-}
-],
-"new": true
-},
-{
-"term": "태양광 발전",
-"traffic": "100+",
-"time": "2026-11-20T21:20:00+00:00",
-"news": [
-{
-"title": "\"농지 임대 수익 10배\"…석탄발전소 지원금으로 일군 '햇빛 배당'[넷제로케이스스터디] - 머니투데이",
-"source": "머니투데이",
-"link": "https://www.mt.co.kr/industry/2026/11/21/2026112011482364196"
-},
-{
-"title": "나주시, ‘햇빛소득마을’ 공모 대비 12개 마을 찾아가는 사전컨설팅",
-"source": "녹색경제신문",
-"link": "https://www.greened.kr/news/articleView.html?idxno=355135"
-}
-],
-"new": false
-},
-{
-"term": "박은정",
-"traffic": "100+",
-"time": "2026-11-20T21:10:00+00:00",
-"news": [
-{
-"title": "'원구성 122일 파행' 대덕구의회, 업무추진비 지원 여야 한통속",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261120128400063"
-},
-{
-"title": "박은정 대덕구의원, 교섭단체 운영지원 위한 제도적 근거 마련",
-"source": "더팩트",
-"link": "https://news.tf.co.kr/read/national/2391669.htm"
 }
 ],
 "new": true
