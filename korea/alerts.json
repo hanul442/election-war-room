@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-20T20:42:33.592278+00:00",
+"updated": "2026-11-20T20:44:46.861320+00:00",
 "errors": [],
 "events": [
 {
@@ -1252,7 +1252,7 @@
 },
 "먹통": {
 "n30": 1,
-"base": 0.6,
+"base": 0.7,
 "spike": false
 },
 "산불": {
@@ -1496,22 +1496,22 @@
 "n30": 8,
 "base": 0.7,
 "spike": true,
-"since": "2026-11-20T20:42:33.592278+00:00"
+"since": "2026-11-20T20:44:46.861320+00:00"
 },
 {
 "term": "속보",
 "n30": 7,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-20T20:42:33.592278+00:00"
+"since": "2026-11-20T20:44:46.861320+00:00"
 }
 ],
 "baseline": {
-"지진": 0.27,
+"지진": 0.24,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.74,
+"폭발": 0.77,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
@@ -1521,7 +1521,7 @@
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
-"먹통": 0.68,
+"먹통": 0.71,
 "산불": 0.05
 },
 "errors": [],
@@ -1738,6 +1738,24 @@
 },
 "trends": [
 {
+"term": "tqqq",
+"traffic": "200+",
+"time": "2026-11-20T19:40:00+00:00",
+"news": [
+{
+"title": "EXCLUSIVE: Tesla Still Rules Leveraged ETFs, but Anthropic IPO and Micron’s Rise Signal What’s Next",
+"source": "Yahoo Finance",
+"link": "https://finance.yahoo.com/technology/ai/articles/exclusive-tesla-still-rules-leveraged-033004009.html"
+},
+{
+"title": "Pain in TQQQ, SOXL may offer silver lining for tech stocks - SocGen",
+"source": "Seeking Alpha",
+"link": "https://seekingalpha.com/news/4674377-pain-in-tqqq-soxl-may-offer-silver-lining-for-tech-stocks-socgen"
+}
+],
+"new": true
+},
+{
 "term": "장윤정",
 "traffic": "1000+",
 "time": "2026-11-20T19:30:00+00:00",
@@ -1757,7 +1775,7 @@
 },
 {
 "term": "며느리",
-"traffic": "200+",
+"traffic": "500+",
 "time": "2026-11-20T19:30:00+00:00",
 "news": [
 {
@@ -1779,14 +1797,14 @@
 "time": "2026-11-20T18:50:00+00:00",
 "news": [
 {
-"title": "'수능 한파' 주말까지 더 심해진다...호남·제주 대설주의보",
-"source": "YTN 사이언스",
-"link": "https://m.science.ytn.co.kr/program/view_today.php?s_mcd=0082&key=202611201102112705"
+"title": "‘이른 한파에 대설’ 성층권도 흔들…이번 겨울은?",
+"source": "KBS 뉴스",
+"link": "https://news.kbs.co.kr/news/view.do?ncd=8718770"
 },
 {
-"title": "[내일날씨] 아침 최저 영하 6도 추위…충청·전라 곳곳 눈",
-"source": "기후에너지데이터뱅크",
-"link": "https://edata.ekn.kr/article/view/ekn202611190008"
+"title": "북극 한파 막아주던 '바람벽' 무너졌다‥'따뜻한 겨울' 전망 흔들리나",
+"source": "MBC 뉴스",
+"link": "https://imnews.imbc.com/replay/2026/nwdesk/article/6866083_37004.html"
 }
 ],
 "new": false
@@ -1797,14 +1815,14 @@
 "time": "2026-11-20T18:50:00+00:00",
 "news": [
 {
-"title": "Licensable picture: Saudi Pro League - Al Ahli v Al Nassr",
-"source": "Reuters Connect",
-"link": "https://www.reutersconnect.com/item/saudi-pro-league-al-ahli-v-al-nassr/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX1VQMUVNQksxRTI0Tkk"
+"title": "Video: a flag and a rare award as Demiral wins his battle with Al-Nassr fans",
+"source": "Goal.com",
+"link": "https://www.goal.com/en/news/video-a-flag-and-a-rare-award-as-demiral-wins-his-battle-with-al-nassr-fans/bltf47224a846f3f8b5"
 },
 {
-"title": "Al-Ahli Jeddah vs Al-Nassr - Prediction, where to watch, kick-off time and line-ups 15-10-2026",
-"source": "OneFootball",
-"link": "https://onefootball.com/en/betting/predictions/al-ahli-jeddah-vs-al-nassr-15-10-2026"
+"title": "Video: refereeing controversy, were Al-Ahli denied a legitimate goal in the Clasico against Al-Nassr?",
+"source": "Goal.com",
+"link": "https://www.goal.com/en/news/video-refereeing-controversy-were-al-ahli-denied-a-legitimate-goal-in-the-clasico-against-al-nassr/blt9834fa69180dd64d"
 }
 ],
 "new": true
@@ -1856,9 +1874,9 @@
 "link": "https://www.scientificamerican.com/article/anthropic-mathematician-claims-to-prove-riemann-hypothesis-most-famous-problem-in-all-of-math/"
 },
 {
-"title": "Anthropic mathematician Levent Alpoge claims Claude helped prove the Riemann Hypothesis",
-"source": "RuntimeWire",
-"link": "https://runtimewire.com/article/alpoge-claims-claude-riemann-hypothesis-proof"
+"title": "Anthropic mathematician says Claude helped solve the 'biggest problem in math'",
+"source": "Business Insider",
+"link": "https://www.businessinsider.com/reimann-hypothesis-anthropic-claude-solved-biggest-problem-in-math-2026-11"
 }
 ],
 "new": true
@@ -1895,24 +1913,6 @@
 "title": "Fear & Greed Index falls to 14 as extreme fear grips markets",
 "source": "Crypto Briefing",
 "link": "https://cryptobriefing.com/fear-greed-index-falls-to-14-extreme-fear/"
-}
-],
-"new": true
-},
-{
-"term": "india a cricket team vs nepal national cricket team standings",
-"traffic": "5000+",
-"time": "2026-11-20T16:10:00+00:00",
-"news": [
-{
-"title": "India A beat Nepal, India A won by 306 runs",
-"source": "Cricinfo",
-"link": "https://www.cricinfo.com/series/asia-cup-rising-stars-50-overs-2026-27-1562333/india-a-vs-nepal-4th-match-group-b-1562345/live-cricket-score"
-},
-{
-"title": "Nepal bowled out for 26 by India A: Why it won't be the lowest ODI total ever",
-"source": "Yahoo Sports",
-"link": "https://sports.yahoo.com/articles/nepal-bowled-26-india-why-160544669.html"
 }
 ],
 "new": true
