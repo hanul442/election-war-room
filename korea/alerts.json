@@ -1,17 +1,20 @@
 {
-"updated": "2026-11-20T20:49:15.674525+00:00",
+"updated": "2026-11-20T20:52:50.440922+00:00",
 "errors": [],
 "events": [
 {
 "id": "TZRQnl1NmpqRm55Zl9oQQoc51750",
 "first": "2026-11-20T17:50:39+00:00",
 "last": "2026-11-20T20:47:40+00:00",
-"updated": "2026-11-20T20:49:15.674525+00:00",
+"updated": "2026-11-20T20:52:50.440922+00:00",
 "headline": "트럼프 \"美 기업, 해외 데이터센터 건설 금지\"",
 "cat": "경제",
 "regions": [],
 "sources": [
+"SBS",
+"경향신문",
 "뉴시스",
+"연합뉴스",
 "파이낸셜뉴스"
 ],
 "updates": [
@@ -21,6 +24,27 @@
 "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBfSGI3eW9RYUFrRDk0bW1YV0RnLU9ZcjFkOG12OFZHbDJQRHpONUNMU0dKOUFXdEpVRGtiQl9QVGUtV3BJcF92aFE3eTZRQnl1NmpqRm55Zl9oQQ?oc=5",
 "time": "2026-11-20T17:50:39+00:00",
 "stage": "얼럿"
+},
+{
+"title": "트럼프 \"美기업, 다른 나라에 데이터센터 지으면 엄청난 세금 부과\"",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261121006000071",
+"time": "2026-11-20T18:56:43+00:00",
+"stage": "후속"
+},
+{
+"title": "트럼프 \"미기업, 다른 나라에 데이터센터 지으면 엄청난 세금 부과\"",
+"source": "SBS",
+"link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008856563&plink=RSSLINK&cooper=RSSREADER",
+"time": "2026-11-20T19:22:38+00:00",
+"stage": "후속"
+},
+{
+"title": "트럼프 ““다른 나라에 데이터센터 지으면 엄청난 세금 부과”",
+"source": "경향신문",
+"link": "https://www.khan.co.kr/article/202611210445001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
+"time": "2026-11-20T19:45:00+00:00",
+"stage": "후속"
 },
 {
 "title": "트럼프 \"美기업, 해외 데이터센터 지으면 막대한 세금 부과\"(종합)",
@@ -37,10 +61,14 @@
 "건설",
 "금지",
 "기업",
+"나라",
+"다른",
 "데이터센터",
 "막대한",
+"미기업",
 "부과",
 "세금",
+"엄청난",
 "지으면",
 "트럼프",
 "해외"
@@ -1216,12 +1244,12 @@
 "spike": false
 },
 "폭발": {
-"n30": 6,
-"base": 0.7,
-"spike": true
+"n30": 4,
+"base": 0.6,
+"spike": false
 },
 "붕괴": {
-"n30": 2,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
@@ -1266,8 +1294,8 @@
 "spike": false
 },
 "먹통": {
-"n30": 1,
-"base": 0.7,
+"n30": 0,
+"base": 0.8,
 "spike": false
 },
 "산불": {
@@ -1386,16 +1414,6 @@
 "url": "https://www.youtube.com/watch?v=bET3kzybG5Q"
 },
 {
-"text": "키보드는 zmk를 쓰는 것이었고 리매핑을 위해서는 물리적 리셋 후 빌드를 마친 펌웨어를 플래싱 하기를 매번 해줘야 하는 것이었으며... 설정 리셋은 좌우 키보드 모두 해주지 않고 한 쪽만 한 상태에서는 영원히 그쪽 키보드는 먹통이 되는 것이었으며... 빈 키는 리매핑이 안 되는 zmk studio는 펌웨어 매핑이 뭐든 우선하는 것이었으며... 이 모든 것은 매뉴얼에 없고 클로드가 어느 정도 ",
-"handle": "penryn.bsky.social",
-"name": "김펜린",
-"time": "2026-11-20T20:20:44.750Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/penryn.bsky.social/post/3n2rfxc2br226",
-"term": "먹통"
-},
-{
 "platform": "YouTube",
 "text": "이해란 26점 폭발… 꼴찌 후보 삼성생명, 여자농구 단독 1위 등극 #shorts",
 "handle": "UCm-Mmqq9GdKRv6tbMG5OMvA",
@@ -1497,26 +1515,19 @@
 ],
 "spikes": [
 {
-"term": "폭발",
-"n30": 6,
-"base": 0.7,
-"spike": true,
-"since": "2026-11-20T20:49:15.674525+00:00"
-},
-{
 "term": "속보",
 "n30": 5,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-20T20:49:15.674525+00:00"
+"since": "2026-11-20T20:52:50.440922+00:00"
 }
 ],
 "baseline": {
-"지진": 0.2,
+"지진": 0.18,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.62,
+"폭발": 0.56,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
@@ -1526,7 +1537,7 @@
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
-"먹통": 0.77,
+"먹통": 0.69,
 "산불": 0.05
 },
 "errors": [],
