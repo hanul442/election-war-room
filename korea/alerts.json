@@ -1,7 +1,44 @@
 {
-"updated": "2026-11-20T21:28:29.070470+00:00",
+"updated": "2026-11-20T21:30:46.501169+00:00",
 "errors": [],
 "events": [
+{
+"id": "viewAKR202611210108000622125",
+"first": "2026-11-20T21:25:17+00:00",
+"last": "2026-11-20T21:25:17+00:00",
+"updated": "2026-11-20T21:30:46.501169+00:00",
+"headline": "강원 대체로 맑고 쌀쌀…영동 대기 건조·산불 주의",
+"cat": "재난",
+"regions": [
+"강원",
+"충북"
+],
+"sources": [
+"연합뉴스"
+],
+"updates": [
+{
+"title": "강원 대체로 맑고 쌀쌀…영동 대기 건조·산불 주의",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261121010800062",
+"time": "2026-11-20T21:25:17+00:00",
+"stage": "1보"
+}
+],
+"level": "ALERT",
+"latest": "강원 대체로 맑고 쌀쌀…영동 대기 건조·산불 주의",
+"tok": [
+"강원",
+"건조",
+"대기",
+"대체",
+"맑고",
+"산불",
+"쌀쌀",
+"영동",
+"주의"
+]
+},
 {
 "id": "k0dDRaN2hhNUNzY3JiTXcoc51811",
 "first": "2026-11-20T18:11:41+00:00",
@@ -1346,7 +1383,7 @@
 "sns": {
 "terms": {
 "지진": {
-"n30": 2,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
@@ -1366,12 +1403,12 @@
 "spike": false
 },
 "폭발": {
-"n30": 3,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
 "붕괴": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -1381,17 +1418,17 @@
 "spike": false
 },
 "미사일": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
 "속보": {
-"n30": 6,
+"n30": 1,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "지하철": {
-"n30": 4,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -1427,6 +1464,16 @@
 }
 },
 "posts": [
+{
+"text": "【지진 정보】일본 시간 11월 21일 06:22경\n진원: Amakusa and Ashikita Region, Kumamoto Prefecture (M2.3, 매우 얕음)\n최대 진도: 1\n진도 1: 구마모토현\n이 지진으로 인한 쓰나미 걱정은 없습니다.\n(일본 기상청 발표)\n#일본 #지진 #방재",
+"handle": "ko.soramoyou.yk-planning.jp",
+"name": "Soramoyou 한국어",
+"time": "2026-11-20T21:28:35.144Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/ko.soramoyou.yk-planning.jp/post/3n2rjqn7r3l22",
+"term": "지진"
+},
 {
 "platform": "YouTube",
 "text": "[삼성전자 주가 전망]*8분전추가속보* 다음주 월요일 완전히 판 뒤집힌다! 어제 빠졌다고 주말 내내 걱정 마세요. \"이렇게\" 됩니다 #삼성전자 #삼성전자주가전망",
@@ -1581,21 +1628,13 @@
 "url": "https://www.youtube.com/watch?v=69iJGANkwGY"
 }
 ],
-"spikes": [
-{
-"term": "속보",
-"n30": 6,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-20T21:28:29.070470+00:00"
-}
-],
+"spikes": [],
 "baseline": {
-"지진": 0.05,
+"지진": 0.15,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.11,
+"폭발": 0.1,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
@@ -1605,7 +1644,7 @@
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
-"먹통": 0.13,
+"먹통": 0.12,
 "산불": 0.05
 },
 "errors": [],
@@ -1832,9 +1871,9 @@
 "link": "https://www.yna.co.kr/view/AKR20261120149251004"
 },
 {
-"title": "김수현 측, 광고주에 또 거액 물어준다…쿠쿠에 8.7억 배상 판결",
-"source": "주간조선",
-"link": "https://weekly.chosun.com/news/articleView.html?idxno=57328"
+"title": "법원 “‘사생활 의혹’ 김수현 소속사가 쿠쿠에 8억 원 배상”",
+"source": "KBS 뉴스",
+"link": "https://news.kbs.co.kr/news/view.do?ncd=8718583"
 }
 ],
 "new": true
