@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-20T03:53:19.147088+00:00",
+"updated": "2026-11-20T03:55:36.760246+00:00",
 "errors": [],
 "events": [
 {
@@ -356,6 +356,37 @@
 "주택",
 "체포",
 "침입하려다"
+]
+},
+{
+"id": "kQXRwb28wMXM4dTJaNTNnoc50339",
+"first": "2026-11-20T03:39:00+00:00",
+"last": "2026-11-20T03:39:00+00:00",
+"updated": "2026-11-20T03:55:36.760246+00:00",
+"headline": "국제신문 기업회생 인가 결정…정상화 길 열린다",
+"cat": "경제",
+"regions": [],
+"sources": [
+"국제신문"
+],
+"updates": [
+{
+"title": "[속보]국제신문 기업회생 인가 결정…정상화 길 열린다",
+"source": "국제신문",
+"link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPdWZKNVh2S0hjTjI4MUZlSVEwR2pMd0tCMm9CZ1YxcjZCQVVRQjRiX0w1SUVYdFg3RFNuSlBPRmRtTWloOUVFdng3Nk8wTFlKZ2htSWdLMzk4NlJ0VTUwWlFpZTZQZFlzTHRxUllaRXk5MERpNFRTeGp0SnJWRk5kQXRwb28wMXM4dTJaNTNn?oc=5",
+"time": "2026-11-20T03:39:00+00:00",
+"stage": "얼럿"
+}
+],
+"level": "URGENT",
+"latest": "국제신문 기업회생 인가 결정…정상화 길 열린다",
+"tok": [
+"결정",
+"국제신문",
+"기업회생",
+"열린다",
+"인가",
+"정상화"
 ]
 },
 {
@@ -4210,75 +4241,18 @@
 "피해",
 "한라산"
 ]
-},
-{
-"id": "RHTUdHdW1rYWphWE5JRVEoc50101",
-"first": "2026-11-20T01:01:14+00:00",
-"last": "2026-11-20T01:01:14+00:00",
-"updated": "2026-11-20T01:21:08.662941+00:00",
-"headline": "여자 배구 경기 도중 쓰러진 관중 끝내 숨져",
-"cat": "기타",
-"regions": [
-"경기"
-],
-"sources": [
-"SBS",
-"강원도민일보",
-"한겨레"
-],
-"updates": [
-{
-"title": "여자배구 경기 중 쓰러진 관중, 병원 옮겨졌지만 숨져",
-"source": "한겨레",
-"link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1Kd0lpNWNzdmVDbmZzcGZLdFRhZzM3ZWltbW5lWEdTMnZIbWdDcS1yYUFKWkx0YnJNYzRKSVJ6WGNhUzlJZFJUallWOUNHbUJPbU5kR2Fad3J5aDlxSVJWakpOTUJ0M1E4dThZMURadEpKdw?oc=5",
-"time": "2026-11-20T00:39:00+00:00",
-"stage": "후속"
-},
-{
-"title": "여자 프로배구 관람하다 '심정지'…끝내 숨져",
-"source": "SBS",
-"link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008854877&plink=RSSLINK&cooper=RSSREADER",
-"time": "2026-11-20T00:56:14+00:00",
-"stage": "후속"
-},
-{
-"title": "[속보] 여자 배구 경기 도중 쓰러진 관중 끝내 숨져",
-"source": "강원도민일보",
-"link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1nekthZkp0N2YwYndSMnFMN3FLUzRSd25NaXZ4MXZCcGJWN3dHWG9RbjN5T01CVDV3TmU4VFNjZTVFMWhWcmw4NHlNSHltY21kWVFrMUFpV3RHTUdHdW1rYWphWE5JRVE?oc=5",
-"time": "2026-11-20T01:01:14+00:00",
-"stage": "얼럿"
-}
-],
-"level": "BULLETIN",
-"latest": "여자 배구 경기 도중 쓰러진 관중 끝내 숨져",
-"tok": [
-"경기",
-"관람하다",
-"관중",
-"끝내",
-"도중",
-"배구",
-"병원",
-"숨져",
-"심정지",
-"쓰러진",
-"여자",
-"여자배구",
-"옮겨졌지",
-"프로배구"
-]
 }
 ],
 "sns": {
 "terms": {
 "지진": {
 "n30": 0,
-"base": 0.4,
+"base": 0.3,
 "spike": false
 },
 "화재": {
-"n30": 2,
-"base": 0.7,
+"n30": 1,
+"base": 0.8,
 "spike": false
 },
 "불났": {
@@ -4298,11 +4272,11 @@
 },
 "붕괴": {
 "n30": 1,
-"base": 0.5,
+"base": 0.6,
 "spike": false
 },
 "대피": {
-"n30": 1,
+"n30": 0,
 "base": 0.9,
 "spike": false
 },
@@ -4323,12 +4297,12 @@
 },
 "사고": {
 "n30": 2,
-"base": 2.9,
+"base": 2.8,
 "spike": false
 },
 "실종": {
 "n30": 1,
-"base": 0.2,
+"base": 0.3,
 "spike": false
 },
 "단수": {
@@ -4583,16 +4557,6 @@
 "time": "2026-11-20T03:27:17Z",
 "term": "속보",
 "url": "https://www.youtube.com/watch?v=2eqSl6eV76k"
-},
-{
-"text": "퇴근해서 쉬려니까 화재 경보가 울려서 일단 대피 중",
-"handle": "wolhayong.bsky.social",
-"name": "월하용",
-"time": "2026-11-20T03:24:19.644Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/wolhayong.bsky.social/post/3n2pn5usfas2o",
-"term": "화재"
 }
 ],
 "spikes": [
@@ -4601,22 +4565,22 @@
 "n30": 12,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-20T03:53:19.147088+00:00"
+"since": "2026-11-20T03:55:36.760246+00:00"
 }
 ],
 "baseline": {
-"지진": 0.33,
-"화재": 0.77,
+"지진": 0.3,
+"화재": 0.69,
 "불났": 0.05,
 "정전": 0.05,
 "폭발": 0.05,
-"붕괴": 0.56,
-"대피": 0.89,
+"붕괴": 0.6,
+"대피": 0.8,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 1.65,
-"사고": 2.81,
-"실종": 0.32,
+"지하철": 1.68,
+"사고": 2.73,
+"실종": 0.39,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -4819,7 +4783,7 @@
 },
 {
 "term": "김아림",
-"traffic": "200+",
+"traffic": "500+",
 "time": "2026-11-20T02:40:00+00:00",
 "news": [
 {
@@ -4945,7 +4909,7 @@
 },
 {
 "term": "손흥민",
-"traffic": "10000+",
+"traffic": "20000+",
 "time": "2026-11-20T01:40:00+00:00",
 "news": [
 {
