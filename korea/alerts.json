@@ -1,18 +1,19 @@
 {
-"updated": "2026-11-20T22:08:47.312391+00:00",
+"updated": "2026-11-20T22:11:01.250292+00:00",
 "errors": [],
 "events": [
 {
 "id": "viewAKR202611210124000612201",
 "first": "2026-11-20T22:01:57+00:00",
-"last": "2026-11-20T22:05:00+00:00",
-"updated": "2026-11-20T22:08:47.312391+00:00",
+"last": "2026-11-20T22:05:13+00:00",
+"updated": "2026-11-20T22:11:01.250292+00:00",
 "headline": "평택 소정리역서 화물열차 탈선…경부선 열차 운행 지장",
 "cat": "교통",
 "regions": [
 "경기"
 ],
 "sources": [
+"www.bntnews.co.kr",
 "연합뉴스",
 "이투데이"
 ],
@@ -30,16 +31,31 @@
 "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9ySk1xRUZkd2lOM1gtS3B5WC1rMjJKVGRJcFJtRkVMLVo2aFdna2JLOUExczBrZVltcU1SamQ2aDJPd2FxSXlneXJCMThOUERWeENSUVItbGpRdkIwQjBLMEEtQmdFN0Z0cW5ITlU3MTl3YXd3?oc=5",
 "time": "2026-11-20T22:05:00+00:00",
 "stage": "속보"
+},
+{
+"title": "[속보] 평택 소정리역서 화물열차 탈선…경부선 열차 운행 지장",
+"source": "이투데이",
+"link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5JOTNPU3pMUUlYeW8wRE14Snc4a2JucVRzaG5TbTZjNmYtdzBMMXpldVJ6OU9NcldnWXE4aHQ2ZFBLeFBQLUphQkJlcEZIai1yekZINQ?oc=5",
+"time": "2026-11-20T22:05:00+00:00",
+"stage": "속보"
+},
+{
+"title": "[속보] 평택 소정리역서 화물열차 탈선…경부선 운행 차질",
+"source": "www.bntnews.co.kr",
+"link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1lZmt5S2Npak12d0pha1NkQ0NpclZSQ0J6VjlibTcxdGZPUVdzWUdWdWVmWHZrSTQ4TUY0VG44alFPcHItTXQ0X2tVWk1NblJuNHFOZUpmakFyaV9EcWg4RVAxejA?oc=5",
+"time": "2026-11-20T22:05:13+00:00",
+"stage": "속보"
 }
 ],
 "level": "URGENT",
-"latest": "평택 소정리역서 화물열차 탈선…경부선 열차 운행 지장",
+"latest": "평택 소정리역서 화물열차 탈선…경부선 운행 차질",
 "tok": [
 "경부선",
 "소정리역서",
 "열차",
 "운행",
 "지장",
+"차질",
 "탈선",
 "평택",
 "화물열차"
@@ -1357,38 +1373,6 @@
 "예측",
 "우승"
 ]
-},
-{
-"id": "FINW5xTE9mOWJvWUN5Wncoc51610",
-"first": "2026-11-20T16:10:55+00:00",
-"last": "2026-11-20T16:10:55+00:00",
-"updated": "2026-11-20T16:14:19.503016+00:00",
-"headline": "[2026 선전 APEC 미·중·러 3자 정상회담] 11월 19일 (목) 뉴스특보",
-"cat": "재난",
-"regions": [],
-"sources": [
-"JTBC"
-],
-"updates": [
-{
-"title": "[2026 선전 APEC 미·중·러 3자 정상회담] 11월 19일 (목) 뉴스특보",
-"source": "JTBC",
-"link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5pU0taUHFhT1lnVkxINHRLVnc0eHZmTlROZThWYXI4RXFJZnh6aDFfYnNSQ05ZbmJZOVV2RGV5eGE5R2FINW5xTE9mOWJvWUN5Wnc?oc=5",
-"time": "2026-11-20T16:10:55+00:00",
-"stage": "1보"
-}
-],
-"level": "ALERT",
-"latest": "[2026 선전 APEC 미·중·러 3자 정상회담] 11월 19일 (목) 뉴스특보",
-"tok": [
-"11월",
-"19일",
-"3자",
-"APEC",
-"뉴스특보",
-"선전",
-"정상회담"
-]
 }
 ],
 "sns": {
@@ -1662,11 +1646,11 @@
 "n30": 5,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-20T22:08:47.312391+00:00"
+"since": "2026-11-20T22:11:01.250292+00:00"
 }
 ],
 "baseline": {
-"지진": 0.45,
+"지진": 0.41,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
