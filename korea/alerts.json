@@ -1,12 +1,44 @@
 {
-"updated": "2026-11-20T02:22:31.972761+00:00",
+"updated": "2026-11-20T02:24:47.995456+00:00",
 "errors": [],
 "events": [
+{
+"id": "KU2UxbGNoeFZqeUR3U1pnoc50220",
+"first": "2026-11-20T02:20:00+00:00",
+"last": "2026-11-20T02:20:00+00:00",
+"updated": "2026-11-20T02:24:47.995456+00:00",
+"headline": "이 대통령 지지율 40%...부정 평가 '경제·민생' 18% [한국갤럽]",
+"cat": "정치",
+"regions": [],
+"sources": [
+"이코노미스트"
+],
+"updates": [
+{
+"title": "[속보] 이 대통령 지지율 40%...부정 평가 '경제·민생' 18% [한국갤럽]",
+"source": "이코노미스트",
+"link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9PUzVKZTFUeFpFYlVtbm92YlNDNjBoUmxzZkVWal85M0NxSWx5bU5fcE1yVmN3SHEwS2NlYWtGVE81Z25uYnpqUURQTVpJRkFzNmdKU2UxbGNoeFZqeUR3U1pn?oc=5",
+"time": "2026-11-20T02:20:00+00:00",
+"stage": "얼럿"
+}
+],
+"level": "URGENT",
+"latest": "이 대통령 지지율 40%...부정 평가 '경제·민생' 18% [한국갤럽]",
+"tok": [
+"경제",
+"대통령",
+"민생",
+"부정",
+"지지율",
+"평가",
+"한국갤럽"
+]
+},
 {
 "id": "wNISX20261120_00038763770133",
 "first": "2026-11-20T01:33:39+00:00",
 "last": "2026-11-20T02:19:00+00:00",
-"updated": "2026-11-20T02:22:31.972761+00:00",
+"updated": "2026-11-20T02:24:47.995456+00:00",
 "headline": "'SM 시세조종 의혹' 카카오 김범수, 2심도 무죄",
 "cat": "기타",
 "regions": [],
@@ -16,6 +48,7 @@
 "SBS",
 "YTN",
 "경기일보",
+"경향신문",
 "뉴스워치",
 "뉴스핌",
 "뉴시스",
@@ -231,6 +264,13 @@
 "link": "https://www.yna.co.kr/view/AKR20261120066051004",
 "time": "2026-11-20T02:10:52+00:00",
 "stage": "종합"
+},
+{
+"title": "[속보]‘SM엔터 주가조작’ 혐의 카카오 김범수 2심도 무죄…“카카오 불확실성 해소”",
+"source": "경향신문",
+"link": "https://www.khan.co.kr/article/202611201115011/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
+"time": "2026-11-20T02:15:01+00:00",
+"stage": "속보"
 },
 {
 "title": "[바로이뉴스] 김범수, 'SM 주가조작' 2심 무죄…\"카카오 불확실성 해소\"",
@@ -4011,42 +4051,6 @@
 "전북",
 "체감"
 ]
-},
-{
-"id": "viewAKR202611200455000620034",
-"first": "2026-11-20T00:34:07+00:00",
-"last": "2026-11-20T00:34:07+00:00",
-"updated": "2026-11-20T00:39:49.079882+00:00",
-"headline": "강원 고성문화재단 출범 5년…주민 참여형 지역문화 포럼 개최",
-"cat": "재난",
-"regions": [
-"강원"
-],
-"sources": [
-"연합뉴스"
-],
-"updates": [
-{
-"title": "강원 고성문화재단 출범 5년…주민 참여형 지역문화 포럼 개최",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261120045500062",
-"time": "2026-11-20T00:34:07+00:00",
-"stage": "1보"
-}
-],
-"level": "ALERT",
-"latest": "강원 고성문화재단 출범 5년…주민 참여형 지역문화 포럼 개최",
-"tok": [
-"5년",
-"강원",
-"개최",
-"고성문화재단",
-"주민",
-"지역문화",
-"참여형",
-"출범",
-"포럼"
-]
 }
 ],
 "sns": {
@@ -4058,7 +4062,7 @@
 },
 "화재": {
 "n30": 3,
-"base": 0.4,
+"base": 0.3,
 "spike": false
 },
 "불났": {
@@ -4072,7 +4076,7 @@
 "spike": false
 },
 "폭발": {
-"n30": 4,
+"n30": 3,
 "base": 1.0,
 "spike": false
 },
@@ -4098,12 +4102,12 @@
 },
 "지하철": {
 "n30": 7,
-"base": 2.3,
-"spike": true
+"base": 2.6,
+"spike": false
 },
 "사고": {
 "n30": 2,
-"base": 0.8,
+"base": 0.9,
 "spike": false
 },
 "실종": {
@@ -4138,7 +4142,7 @@
 "handle": "inspektor.bsky.social",
 "name": "국철진",
 "time": "2026-11-20T02:21:35.253Z",
-"likes": 0,
+"likes": 1,
 "reposts": 0,
 "url": "https://bsky.app/profile/inspektor.bsky.social/post/3n2pjnpgkm22j",
 "term": "사고"
@@ -4373,16 +4377,6 @@
 "time": "2026-11-20T01:58:37Z",
 "term": "폭발",
 "url": "https://www.youtube.com/watch?v=N7B_pIvQya0"
-},
-{
-"text": "예례밴드 [청춘] <소금 별>\n\n\"록 밴드로 활동하는 예례밴드의 음악은 보컬을 분출하거나 연주력을 폭발시키는 쪽이 아니다. 그보다는 보편적인 노래의 힘으로 감응하는 쪽이다. 네 곡만 담아 13분이면 다 들을 수 있는 EP를 풀어가는 방식은 곡마다 조금씩 다르지만 대체로 투명하다. 어쿠스틱한 질감이 도드라진 음악의 가사 역시 정직한 고백의 연속이다. 자신을 속이지 않는 음악은 그 솔직함으로 마",
-"handle": "bandobyul.bsky.social",
-"name": "별이",
-"time": "2026-11-20T01:54:12.641Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/bandobyul.bsky.social/post/3n2pi4iwaqs2p",
-"term": "폭발"
 }
 ],
 "spikes": [
@@ -4391,29 +4385,22 @@
 "n30": 6,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-20T02:22:31.972761+00:00"
-},
-{
-"term": "지하철",
-"n30": 7,
-"base": 2.3,
-"spike": true,
-"since": "2026-11-20T02:22:31.972761+00:00"
+"since": "2026-11-20T02:24:47.995456+00:00"
 }
 ],
 "baseline": {
-"지진": 1.46,
-"화재": 0.33,
+"지진": 1.41,
+"화재": 0.3,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 1.04,
+"폭발": 0.94,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 2.61,
-"사고": 0.95,
-"실종": 0.3,
+"지하철": 2.85,
+"사고": 1.05,
+"실종": 0.27,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -4597,6 +4584,24 @@
 },
 "trends": [
 {
+"term": "검찰",
+"traffic": "100+",
+"time": "2026-11-20T01:20:00+00:00",
+"news": [
+{
+"title": "\"검사 200명 수사 부담된다\" 손사래… 與 조작기소 특검 구인난",
+"source": "조선일보",
+"link": "https://www.chosun.com/politics/assembly/2026/11/20/3EKVMEIAVBBZLNHCPBUU6JEQO4/"
+},
+{
+"title": "이재명 탈옥법 폐지 촉구 규탄사 하는 정점식",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISI20261120_0021539949"
+}
+],
+"new": true
+},
+{
 "term": "샌안토니오 대 la 클리퍼스",
 "traffic": "500+",
 "time": "2026-11-20T01:00:00+00:00",
@@ -4610,24 +4615,6 @@
 "title": "Spurs player who lost breakout star opportunity to Dylan Harper showing why he’s still championship X-factor",
 "source": "Yahoo Sports",
 "link": "https://sports.yahoo.com/articles/spurs-player-lost-breakout-star-001118651.html"
-}
-],
-"new": true
-},
-{
-"term": "서울 지하철 2호선",
-"traffic": "500+",
-"time": "2026-11-20T01:00:00+00:00",
-"news": [
-{
-"title": "서울 지하철 2호선 성수지선 양방향 운행 중지",
-"source": "연합뉴스TV",
-"link": "https://www.yonhapnewstv.co.kr/news/AKR20261120071423Cpd"
-},
-{
-"title": "'운행 중지' 2호선 성수지선 3시간 만에 복구...한 때 운행 중단",
-"source": "YTN",
-"link": "https://www.ytn.co.kr/_ln/0103_202611201037141370"
 }
 ],
 "new": true
