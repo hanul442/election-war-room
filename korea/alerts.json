@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-20T13:53:22.619830+00:00",
+"updated": "2026-11-20T13:55:39.681273+00:00",
 "errors": [],
 "events": [
 {
@@ -4033,12 +4033,12 @@
 "spike": false
 },
 "폭발": {
-"n30": 3,
-"base": 2.2,
+"n30": 2,
+"base": 2.1,
 "spike": false
 },
 "붕괴": {
-"n30": 4,
+"n30": 2,
 "base": 0.1,
 "spike": false
 },
@@ -4059,12 +4059,12 @@
 },
 "지하철": {
 "n30": 5,
-"base": 0.9,
+"base": 1.0,
 "spike": true
 },
 "사고": {
-"n30": 4,
-"base": 2.0,
+"n30": 5,
+"base": 2.2,
 "spike": false
 },
 "실종": {
@@ -4084,7 +4084,7 @@
 },
 "먹통": {
 "n30": 0,
-"base": 0.2,
+"base": 0.1,
 "spike": false
 },
 "산불": {
@@ -4094,6 +4094,16 @@
 }
 },
 "posts": [
+{
+"text": "음??그러고보니 밧사고도 스톨 첫사랑 블쵸도 피지가 첫사랑 이거 빌드업인거임?",
+"handle": "omememem.bsky.social",
+"name": "몽",
+"time": "2026-11-20T13:55:10.443Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/omememem.bsky.social/post/3n2qqfu5lwc2u",
+"term": "사고"
+},
 {
 "text": "첫사랑도 그렇고(근데 이건 눈새톨이 어릴때 블릿초 보고 느낀걸 사랑이라고 판단하기에 너무 어렸음 그리고 쟤가 그걸 눈치채겠냐?임) 사탄때도 그렇고(엥 너 거기있었음?)뭔가 안맞잖아 걍 스똘이 밧사고 안중에도 없었던거니 아니면 잊고싶었던거니 싶어질정도로 뭔가 이상하잖아ㅋㅋ;;",
 "handle": "omememem.bsky.social",
@@ -4170,16 +4180,6 @@
 "time": "2026-11-20T13:40:19Z",
 "term": "지하철",
 "url": "https://www.youtube.com/watch?v=6IrRpwDCILc"
-},
-{
-"text": "사실 AI 안경은 사고 싶었는데 가격이 비싸서 주저하고 있었습니다. 그런데 지금은 되게 사기 애매한 분위기가 되었군요.\n\n참고로 제가 관심 가지고 있던건 카메라 없는 제품. 카메라 달린 건 법으로 제한해야하지 않을까 싶습니다. 페북 같은 놈들이 뭔 짓을 할지 어떻게 알고…",
-"handle": "ringmaster.cloud",
-"name": "曲馬團主",
-"time": "2026-11-20T13:39:26.543Z",
-"likes": 2,
-"reposts": 0,
-"url": "https://bsky.app/profile/ringmaster.cloud/post/3n2qpjptj322x",
-"term": "사고"
 },
 {
 "platform": "YouTube",
@@ -4291,16 +4291,6 @@
 "url": "https://www.youtube.com/watch?v=cOUhxfbgTYc"
 },
 {
-"text": "아니 저는 그냥 2호시나 더 맛나게먹고시픈 망상력폭발에 분이이기지못하고 막 이차저차하면서 ㅋㅋ 마힛네 이러고잇엇는데 이게 일케까지 탐라안에 퍼질줄 몰랏어요 에유로까지 될줄 정말몰랏어요ㅜㅜ",
-"handle": "name0142.bsky.social",
-"name": "넴",
-"time": "2026-11-20T13:24:03.146Z",
-"likes": 2,
-"reposts": 0,
-"url": "https://bsky.app/profile/name0142.bsky.social/post/3n2qooewtjc2o",
-"term": "폭발"
-},
-{
 "platform": "YouTube",
 "text": "코스피 5,000선 붕괴 후 진짜 기회는 어디에 있을까｜내일 먼저 움직일 강세주와 단기 유망주 #코스피 #급등주 #강세주 #유망주 #주식전망",
 "handle": "UCvPOs5KWRRYkBldTniiWlbQ",
@@ -4370,32 +4360,32 @@
 "n30": 5,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-20T13:53:22.619830+00:00"
+"since": "2026-11-20T13:55:39.681273+00:00"
 },
 {
 "term": "지하철",
 "n30": 5,
-"base": 0.9,
+"base": 1.0,
 "spike": true,
-"since": "2026-11-20T13:53:22.619830+00:00"
+"since": "2026-11-20T13:55:39.681273+00:00"
 }
 ],
 "baseline": {
-"지진": 1.18,
+"지진": 1.16,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 2.09,
+"폭발": 1.88,
 "붕괴": 0.05,
 "대피": 0.05,
-"미사일": 0.17,
+"미사일": 0.15,
 "속보": 0.05,
-"지하철": 1.01,
-"사고": 2.2,
+"지하철": 1.11,
+"사고": 2.48,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
-"먹통": 0.15,
+"먹통": 0.14,
 "산불": 0.05
 },
 "errors": [],
@@ -4630,6 +4620,13 @@
 "new": true
 },
 {
+"term": "비정규직",
+"traffic": "100+",
+"time": "2026-11-20T12:40:00+00:00",
+"news": [],
+"new": true
+},
+{
 "term": "대구 fc",
 "traffic": "100+",
 "time": "2026-11-20T12:20:00+00:00",
@@ -4671,14 +4668,14 @@
 "time": "2026-11-20T12:00:00+00:00",
 "news": [
 {
-"title": "Constitución Básquetbol tiene nuevo desafío en Liga de Desarrollo",
-"source": "Gigantedeportivo.cl",
-"link": "https://gigantedeportivo.cl/constitucion-basquetbol-tiene-nuevo-desafio-en-liga-de-desarrollo/"
+"title": "Agricultores Unidos advierten que granizos \"del porte de una moneda\" destruyen siembras en Malleco",
+"source": "Araucanía Diario",
+"link": "https://araucaniadiario.cl/contenido/36040/agricultores-unidos-advierten-que-granizos-del-porte-de-una-moneda-destruyen-sie"
 },
 {
-"title": "Cierran planta envasadora de agua en Calama: Hallan bidones en contacto con tierra y suciedad en su elaboración",
-"source": "El Nortero",
-"link": "https://www.elnortero.cl/noticia/sociedad/cierran-planta-envasadora-de-agua-en-calama-hallan-bidones-en-contacto-con-tierra-y"
+"title": "Granizada golpea la agricultura de Malleco: Agricultores Unidos advierten graves daños en cultivos y frutales",
+"source": "Alerta Noticias Temuco.cl",
+"link": "https://alertanoticiastemuco.cl/granizada-en-malleco-danos-agricultura/"
 }
 ],
 "new": true
@@ -4707,14 +4704,14 @@
 "time": "2026-11-20T11:50:00+00:00",
 "news": [
 {
-"title": "BMKG Ingatkan Waspada Saat di Luar Rumah, Awas Efek MJO Cs Tanggal Ini",
-"source": "CNBC Indonesia",
-"link": "https://www.cnbcindonesia.com/news/20261120183003-4-787111/bmkg-ingatkan-waspada-saat-di-luar-rumah-awas-efek-mjo-cs-tanggal-ini"
+"title": "BMKG Ingatkan Potensi Hujan dan Cuaca Ekstrem di Sulsel hingga 26 November",
+"source": "SulawesiPos",
+"link": "https://www.sulawesipos.com/sulsel/2026/11/20/bmkg-ingatkan-potensi-hujan-dan-cuaca-ekstrem-di-sulsel-hingga-26-november/"
 },
 {
-"title": "Waspada Wilayah Potensi Hujan Lebat Hari Ini, Cek Daftarnya",
-"source": "CNN Indonesia",
-"link": "https://www.cnnindonesia.com/teknologi/20261120044518-641-1429231/bmkg-ungkap-36-wilayah-indonesia-berpotensi-diguyur-hujan-hari-ini"
+"title": "BPBD Sulsel antisipasi bencana di musim hujan",
+"source": "ANTARA News Makassar",
+"link": "https://makassar.antaranews.com/berita/643939/bpbd-sulsel-antisipasi-bencana-di-musim-hujan"
 }
 ],
 "new": true
@@ -4754,24 +4751,6 @@
 }
 ],
 "new": true
-},
-{
-"term": "최미나수",
-"traffic": "100+",
-"time": "2026-11-20T10:40:00+00:00",
-"news": [
-{
-"title": "[사진]윤경호 '대세 배우'",
-"source": "Chosunbiz",
-"link": "https://biz.chosun.com/entertainment/entertainment_photo/2026/11/20/GZQWENZTMFSGMZDEHFQWKOLCGQ/"
-},
-{
-"title": "'2026 MAMA' 간 김혜수, 볼륨 강조한 드레스 자태…'시선 강탈' - 머니투데이",
-"source": "머니투데이",
-"link": "https://www.mt.co.kr/entertainment/2026/11/20/2026112019044436645"
-}
-],
-"new": false
 }
 ],
 "trendSeen": [
