@@ -1,12 +1,12 @@
 {
-"updated": "2026-11-20T04:36:19.874295+00:00",
+"updated": "2026-11-20T04:38:34.750984+00:00",
 "errors": [],
 "events": [
 {
 "id": "drV0UzWjAyTFF2MG5aSzcoc50052",
 "first": "2026-11-20T00:52:54+00:00",
-"last": "2026-11-20T04:31:22+00:00",
-"updated": "2026-11-20T04:36:19.874295+00:00",
+"last": "2026-11-20T04:36:08+00:00",
+"updated": "2026-11-20T04:38:34.750984+00:00",
 "headline": "코스피, 외국인·기관 매도에 4%대 급락…4900선 붕괴",
 "cat": "재난",
 "regions": [],
@@ -23,6 +23,7 @@
 "데일리안",
 "머니투데이",
 "서울신문",
+"아이뉴스24",
 "아주경제",
 "연합뉴스",
 "연합뉴스TV",
@@ -231,6 +232,13 @@
 "stage": "속보"
 },
 {
+"title": "[속보] 코스닥, 매도 사이드카 발동",
+"source": "이투데이",
+"link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1jOVB1MENISS0yWENkT21qQkU0V1pTTDBQbmJxak5seE1KVTlVX0JjS0lXb1ZkLURJNUkxejF0R2dLbXE4cmNHMm9TTTV2VjlEMEpEVA?oc=5",
+"time": "2026-11-20T04:30:00+00:00",
+"stage": "속보"
+},
+{
 "title": "[속보]코스피 이어 코스닥도 '매도 사이드카' 발동",
 "source": "뉴시스",
 "link": "https://www.newsis.com/view/NISX20261120_0003876711",
@@ -250,10 +258,24 @@
 "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008855699&plink=RSSLINK&cooper=RSSREADER",
 "time": "2026-11-20T04:31:22+00:00",
 "stage": "속보"
+},
+{
+"title": "[속보] 코스피 이어 코스닥 매도 사이드카",
+"source": "MTN 머니투데이방송",
+"link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE4zdkV1Z2E4THJwRGZ0dHNJMXJldkxMZDdhRmdrWW5hdWRMeVdqbk5FdjMwRllNQUNRajJfMDhqWVFJMjhtblJ4a2gwd3F5dk5yVHFPb1JkX04tVFhjOW0w?oc=5",
+"time": "2026-11-20T04:31:40+00:00",
+"stage": "속보"
+},
+{
+"title": "[속보] 코스닥 4.7% 급락 '매도 사이드카' 발동",
+"source": "아이뉴스24",
+"link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5VclNhczZyRGY5em5oQ1FRM3FzSEQyUzFYblNac0hjN0R4MFBqRmh6cGt1WGZtdUluTC10cDFQYmgzRVZ2Q1d5eQ?oc=5",
+"time": "2026-11-20T04:36:08+00:00",
+"stage": "속보"
 }
 ],
 "level": "BULLETIN",
-"latest": "급락장에 코스피 이어 코스닥서도 매도 사이드카",
+"latest": "코스닥 4.7% 급락 '매도 사이드카' 발동",
 "tok": [
 "1조원",
 "4900선",
@@ -4180,7 +4202,7 @@
 "terms": {
 "지진": {
 "n30": 1,
-"base": 0.4,
+"base": 0.5,
 "spike": false
 },
 "화재": {
@@ -4194,23 +4216,23 @@
 "spike": false
 },
 "정전": {
-"n30": 1,
-"base": 0.7,
+"n30": 0,
+"base": 0.8,
 "spike": false
 },
 "폭발": {
-"n30": 4,
+"n30": 3,
 "base": 1.2,
 "spike": false
 },
 "붕괴": {
-"n30": 1,
+"n30": 0,
 "base": 0.2,
 "spike": false
 },
 "대피": {
 "n30": 0,
-"base": 0.7,
+"base": 0.6,
 "spike": false
 },
 "미사일": {
@@ -4219,7 +4241,7 @@
 "spike": false
 },
 "속보": {
-"n30": 4,
+"n30": 3,
 "base": 0.1,
 "spike": false
 },
@@ -4230,11 +4252,11 @@
 },
 "사고": {
 "n30": 5,
-"base": 2.2,
+"base": 2.5,
 "spike": false
 },
 "실종": {
-"n30": 1,
+"n30": 0,
 "base": 1.1,
 "spike": false
 },
@@ -4255,7 +4277,7 @@
 },
 "산불": {
 "n30": 1,
-"base": 0.3,
+"base": 0.4,
 "spike": false
 }
 },
@@ -4265,8 +4287,8 @@
 "handle": "tsuta.bsky.social",
 "name": "츠타蔦_漸龑",
 "time": "2026-11-20T04:34:47.942Z",
-"likes": 1,
-"reposts": 0,
+"likes": 3,
+"reposts": 1,
 "url": "https://bsky.app/profile/tsuta.bsky.social/post/3n2pr3tanz22e",
 "term": "지하철"
 },
@@ -4413,26 +4435,6 @@
 "url": "https://www.youtube.com/watch?v=f6stVAKtZpU"
 },
 {
-"text": "리) 이거 잘 쓰는 건 실종자 찾을 때라는 거만 떠오름...",
-"handle": "caelumcorvus.bsky.social",
-"name": "까막까막",
-"time": "2026-11-20T04:08:16.347Z",
-"likes": 1,
-"reposts": 0,
-"url": "https://bsky.app/profile/caelumcorvus.bsky.social/post/3n2ppmez2a22q",
-"term": "실종"
-},
-{
-"text": "지하주차장 정전났는데 백룸분위기 난다",
-"handle": "coolcooluumm.bsky.social",
-"name": "gree",
-"time": "2026-11-20T04:08:04.146Z",
-"likes": 4,
-"reposts": 0,
-"url": "https://bsky.app/profile/coolcooluumm.bsky.social/post/3n2pplwlbuc2g",
-"term": "정전"
-},
-{
 "platform": "YouTube",
 "text": "[속보] 코스피 매도 사이드카 발동… 장중 −5% 4,900선 붕괴, 외국인 1조 매도 #shorts",
 "handle": "UCPkLyn_pNm-Ug6vvlBybgVw",
@@ -4552,22 +4554,22 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 0.46,
-"화재": 0.11,
+"지진": 0.51,
+"화재": 0.1,
 "불났": 0.05,
-"정전": 0.77,
-"폭발": 1.19,
-"붕괴": 0.2,
-"대피": 0.62,
+"정전": 0.69,
+"폭발": 1.17,
+"붕괴": 0.18,
+"대피": 0.56,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 1.08,
-"사고": 2.46,
-"실종": 1.05,
+"지하철": 1.07,
+"사고": 2.71,
+"실종": 0.95,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
-"산불": 0.39
+"산불": 0.45
 },
 "errors": [],
 "ytPosts": [
