@@ -1,7 +1,38 @@
 {
-"updated": "2026-11-20T14:36:30.321112+00:00",
+"updated": "2026-11-20T14:38:49.344013+00:00",
 "errors": [],
 "events": [
+{
+"id": "OFMQREHBDQFLWTHIJ5MUMMAI1435",
+"first": "2026-11-20T14:35:00+00:00",
+"last": "2026-11-20T14:35:00+00:00",
+"updated": "2026-11-20T14:38:49.344013+00:00",
+"headline": "[특파원 리포트] 지한파 낙선이 반가울 일인가",
+"cat": "재난",
+"regions": [],
+"sources": [
+"조선일보"
+],
+"updates": [
+{
+"title": "[특파원 리포트] 지한파 낙선이 반가울 일인가",
+"source": "조선일보",
+"link": "https://www.chosun.com/opinion/correspondent_column/2026/11/20/HKOFMQREHBDQFLWTHIJ5MUMMAI/",
+"time": "2026-11-20T14:35:00+00:00",
+"stage": "1보"
+}
+],
+"level": "ALERT",
+"latest": "[특파원 리포트] 지한파 낙선이 반가울 일인가",
+"tok": [
+"낙선",
+"리포트",
+"반가울",
+"일인",
+"지한파",
+"특파원"
+]
+},
 {
 "id": "viewAKR202611201803005271422",
 "first": "2026-11-20T14:22:52+00:00",
@@ -39,7 +70,7 @@
 "id": "wNISX20261120_00038774881414",
 "first": "2026-11-20T14:14:42+00:00",
 "last": "2026-11-20T14:14:42+00:00",
-"updated": "2026-11-20T14:18:22.204064+00:00",
+"updated": "2026-11-20T14:38:49.344013+00:00",
 "headline": "뉴욕증시 하락 출발…다우 2.19%↓·나스닥 2.25%↓",
 "cat": "경제",
 "regions": [],
@@ -53,6 +84,13 @@
 "link": "https://www.newsis.com/view/NISX20261120_0003877488",
 "time": "2026-11-20T14:14:42+00:00",
 "stage": "얼럿"
+},
+{
+"title": "[속보] 뉴욕증시 하락 출발…다우 2.19%↓·나스닥 2.25%↓",
+"source": "뉴시스",
+"link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1tRFJQQ19Ea281VDFwYy1aMlVnRVJvV2NkN3RmSERpbEpZLVVBZ0FuN3hmQ1M3RWs3TmxCYmswMEF2V2VZU1Q0aEs3TjQ4dlFHTnIzdUNFcXZudjFSNDRrWNIBeEFVX3lxTE12eWRCZWlKeUI1RnZEbmIteWxUNWVXUWlsclZINE1pTS1OeUlHcGc5aVdiSU1nRWg3NW1jdDBUOHZldVF5X241cmxVX1Z3LWlCVG83MERydkg3S3hFVDFXem4zX3cyTXBueWg2ZGFjcWJuQ19XejA4QQ?oc=5",
+"time": "2026-11-20T14:14:42+00:00",
+"stage": "속보"
 }
 ],
 "level": "URGENT",
@@ -3499,7 +3537,7 @@
 "spike": false
 },
 "붕괴": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -3520,12 +3558,12 @@
 },
 "지하철": {
 "n30": 2,
-"base": 0.5,
+"base": 0.4,
 "spike": false
 },
 "사고": {
-"n30": 1,
-"base": 3.4,
+"n30": 0,
+"base": 3.2,
 "spike": false
 },
 "실종": {
@@ -3609,16 +3647,6 @@
 "time": "2026-11-20T14:10:10Z",
 "term": "폭발",
 "url": "https://www.youtube.com/watch?v=2JnE4S5_VU4"
-},
-{
-"text": "현대au \n클라우스 - 교통사고로 아내와 딸을 한꺼번에 잃고 몸과 마음 모두 곪아 치료를 받고 있음 원래는 중학교 음악선생님이었는데 교통사고 이후 그만 둠 약 타고 집에 가는 중에 불량배들이랑 부딪혀서 얻어맞기 직전에 윌이 구해줌 \n윌 - 경찰서장 얼더 레이븐가드의 외아들 모종의 이유로 범죄조직과 연루되었다는 누명을 쓰고 아버지와 사이 멀어짐 현재는 대학 기숙사에서 지내고 있음 기숙사로 돌아",
-"handle": "jjaso-game.bsky.social",
-"name": "짜소🎮",
-"time": "2026-11-20T14:08:41.243Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/jjaso-game.bsky.social/post/3n2qr5xtouc27",
-"term": "사고"
 },
 {
 "platform": "YouTube",
@@ -3731,17 +3759,17 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 0.22,
+"지진": 0.2,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.8,
+"폭발": 0.82,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.44,
-"사고": 3.16,
+"지하철": 0.4,
+"사고": 2.84,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -3961,9 +3989,9 @@
 "link": "https://www.mk.co.kr/news/broadcasting-service/12213967"
 },
 {
-"title": "[선공개] 태성♥효영 클레이 사격장 데이트! 효영은 자물쇠 보이 태성의 마음을 열고 한 걸음 더 가까워질 수 있을까?",
+"title": "두 사람이 키스했던 장소?! 일이 아닌 데이트로 다시 온 촬영 장소에서의 설렘♥",
 "source": "채널A",
-"link": "https://ichannela.com/program/clip/000000560730.do"
+"link": "https://ichannela.com/program/clip/000000560996.do"
 }
 ],
 "new": true
