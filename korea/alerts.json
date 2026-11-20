@@ -1,12 +1,12 @@
 {
-"updated": "2026-11-20T04:56:34.408301+00:00",
+"updated": "2026-11-20T04:58:54.367156+00:00",
 "errors": [],
 "events": [
 {
 "id": "drV0UzWjAyTFF2MG5aSzcoc50052",
 "first": "2026-11-20T00:52:54+00:00",
 "last": "2026-11-20T04:51:51+00:00",
-"updated": "2026-11-20T04:54:20.469959+00:00",
+"updated": "2026-11-20T04:58:54.367156+00:00",
 "headline": "코스피, 외국인·기관 매도에 4%대 급락…4900선 붕괴",
 "cat": "재난",
 "regions": [],
@@ -23,6 +23,7 @@
 "데일리25",
 "데일리안",
 "머니투데이",
+"서울경제",
 "서울신문",
 "세계일보",
 "신아일보",
@@ -268,6 +269,13 @@
 "source": "MTN 머니투데이방송",
 "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE4zdkV1Z2E4THJwRGZ0dHNJMXJldkxMZDdhRmdrWW5hdWRMeVdqbk5FdjMwRllNQUNRajJfMDhqWVFJMjhtblJ4a2gwd3F5dk5yVHFPb1JkX04tVFhjOW0w?oc=5",
 "time": "2026-11-20T04:31:40+00:00",
+"stage": "속보"
+},
+{
+"title": "[속보] 급락장에 코스피 이어 코스닥 매도 사이드카",
+"source": "서울경제",
+"link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9fenV1U1dhaW1aMUtxazJhTkZyaG5jckE5d0g5SE1MRjBiVXVRVXRxYjBmSWdvcV9HT3B6X2RtOFFsUGsyVnE3REE2VlZpSUMzdFHSAVNBVV95cUxPdzNrUUVwMDVDYWNIZlpwcEhWM2VuVWNpZW5mT0pSd0FzMU44VmVnRm1qMHd0eXpPd0FZRWQ4S2lmMmpQeTE1RzdUM2doc0NOTEtSMA?oc=5",
+"time": "2026-11-20T04:31:47+00:00",
 "stage": "속보"
 },
 {
@@ -4333,7 +4341,7 @@
 },
 "폭발": {
 "n30": 4,
-"base": 1.2,
+"base": 1.1,
 "spike": false
 },
 "붕괴": {
@@ -4343,7 +4351,7 @@
 },
 "대피": {
 "n30": 0,
-"base": 0.3,
+"base": 0.2,
 "spike": false
 },
 "미사일": {
@@ -4353,12 +4361,12 @@
 },
 "속보": {
 "n30": 15,
-"base": 0.4,
+"base": 0.5,
 "spike": true
 },
 "지하철": {
 "n30": 4,
-"base": 1.5,
+"base": 1.6,
 "spike": false
 },
 "사고": {
@@ -4368,7 +4376,7 @@
 },
 "실종": {
 "n30": 0,
-"base": 0.5,
+"base": 0.4,
 "spike": false
 },
 "단수": {
@@ -4387,8 +4395,8 @@
 "spike": false
 },
 "산불": {
-"n30": 1,
-"base": 0.7,
+"n30": 0,
+"base": 0.8,
 "spike": false
 }
 },
@@ -4699,44 +4707,34 @@
 "time": "2026-11-20T04:29:29Z",
 "term": "속보",
 "url": "https://www.youtube.com/watch?v=P25OwnZnO1o"
-},
-{
-"text": "산불이 난 경북 영양 숲에 주민들과 국립생태원이 인공둥지를 달았는데, 거기서 하늘다람쥐가 번식했대. 평소엔 딱따구리가 뚫어 놓은 나무 구멍을 집으로 쓴다고. 숲이 다시 자라려면 오래 걸리는데, 그사이 새끼 키울 방부터 달아줬다는 게 좋다.",
-"handle": "hermion2.bsky.social",
-"name": "혜림이언니",
-"time": "2026-11-20T04:27:13.643Z",
-"likes": 7,
-"reposts": 11,
-"url": "https://bsky.app/profile/hermion2.bsky.social/post/3n2pqoc2nngb5",
-"term": "산불"
 }
 ],
 "spikes": [
 {
 "term": "속보",
 "n30": 15,
-"base": 0.4,
+"base": 0.5,
 "spike": true,
-"since": "2026-11-20T04:56:34.408301+00:00"
+"since": "2026-11-20T04:58:54.367156+00:00"
 }
 ],
 "baseline": {
-"지진": 0.88,
+"지진": 0.89,
 "화재": 0.05,
 "불났": 0.05,
-"정전": 0.3,
-"폭발": 1.14,
-"붕괴": 0.08,
-"대피": 0.24,
-"미사일": 0.51,
-"속보": 0.45,
-"지하철": 1.55,
-"사고": 4.36,
-"실종": 0.41,
+"정전": 0.27,
+"폭발": 1.13,
+"붕괴": 0.07,
+"대피": 0.22,
+"미사일": 0.56,
+"속보": 0.51,
+"지하철": 1.59,
+"사고": 4.32,
+"실종": 0.37,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
-"산불": 0.77
+"산불": 0.69
 },
 "errors": [],
 "ytPosts": [
