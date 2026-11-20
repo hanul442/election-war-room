@@ -1,12 +1,12 @@
 {
-"updated": "2026-11-20T22:51:18.811147+00:00",
+"updated": "2026-11-20T22:53:32.620184+00:00",
 "errors": [],
 "events": [
 {
 "id": "viewAKR202611210124000612201",
 "first": "2026-11-20T22:01:57+00:00",
-"last": "2026-11-20T22:48:25+00:00",
-"updated": "2026-11-20T22:51:18.811147+00:00",
+"last": "2026-11-20T22:52:00+00:00",
+"updated": "2026-11-20T22:53:32.620184+00:00",
 "headline": "평택 소정리역서 화물열차 탈선…경부선 열차 운행 지장",
 "cat": "교통",
 "regions": [
@@ -18,6 +18,7 @@
 "CWN",
 "KBS 뉴스",
 "www.bntnews.co.kr",
+"경향신문",
 "금강일보",
 "뉴시스",
 "대전일보",
@@ -164,11 +165,26 @@
 "link": "https://www.chosun.com/national/2026/11/21/7LKAASTUI5DS7GYZE4VLEQUIU4/",
 "time": "2026-11-20T22:48:25+00:00",
 "stage": "후속"
+},
+{
+"title": "경부선 소정리역서 화물열차 5량 탈선…\"일반열차 운행 중지\" (종합)",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261121012752061",
+"time": "2026-11-20T22:48:59+00:00",
+"stage": "종합"
+},
+{
+"title": "경부선 소정리역서 화물열차 탈선…경부선 일반열차 운행 차질",
+"source": "경향신문",
+"link": "https://www.khan.co.kr/article/202611210752001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
+"time": "2026-11-20T22:52:00+00:00",
+"stage": "후속"
 }
 ],
 "level": "URGENT",
-"latest": "평택 소정리역서 화물열차 탈선…경부선 열차 운행 차질",
+"latest": "경부선 소정리역서 화물열차 탈선…경부선 일반열차 운행 차질",
 "tok": [
+"5량",
 "경부선",
 "고장",
 "구간",
@@ -1603,7 +1619,7 @@
 "spike": false
 },
 "정전": {
-"n30": 0,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
@@ -1613,9 +1629,9 @@
 "spike": false
 },
 "붕괴": {
-"n30": 5,
+"n30": 4,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "대피": {
 "n30": 0,
@@ -1634,12 +1650,12 @@
 },
 "지하철": {
 "n30": 6,
-"base": 0.9,
+"base": 1.0,
 "spike": true
 },
 "사고": {
 "n30": 3,
-"base": 1.8,
+"base": 1.9,
 "spike": false
 },
 "실종": {
@@ -1669,6 +1685,16 @@
 }
 },
 "posts": [
+{
+"text": "首里城 - Shuri Catsle\n・しゅりじょう(Shurijo) in Japanese\n・すいぐしく(Sui-gushiku) in Ryukyuan\n\nIt is said that the main hall which burned down on fire on 2019 rebuilded again and it will be opned from Novemeber 23.\n火災で消失した正殿の再建が完了し、11",
+"handle": "claviercontinuo.bsky.social",
+"name": "clavier_continuo",
+"time": "2026-11-20T22:51:19.452Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/claviercontinuo.bsky.social/post/3n2roeesnok2z",
+"term": "화재"
+},
 {
 "platform": "YouTube",
 "text": "[하이브 주가전망] 136,500 바닥 찍고 +34% 폭발, 거래량 터졌다 월요일 전 필독",
@@ -1884,32 +1910,25 @@
 ],
 "spikes": [
 {
-"term": "붕괴",
-"n30": 5,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-20T22:51:18.811147+00:00"
-},
-{
 "term": "지하철",
 "n30": 6,
-"base": 0.9,
+"base": 1.0,
 "spike": true,
-"since": "2026-11-20T22:51:18.811147+00:00"
+"since": "2026-11-20T22:53:32.620184+00:00"
 }
 ],
 "baseline": {
-"지진": 0.06,
-"화재": 0.05,
+"지진": 0.05,
+"화재": 0.15,
 "불났": 0.05,
-"정전": 0.05,
+"정전": 0.15,
 "폭발": 0.05,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 1.02,
-"사고": 1.88,
+"지하철": 1.12,
+"사고": 1.99,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -2085,6 +2104,24 @@
 },
 "trends": [
 {
+"term": "파기 환송",
+"traffic": "1000+",
+"time": "2026-11-20T21:50:00+00:00",
+"news": [
+{
+"title": "임기 7개월 남은 조희대… 與 탄핵안 노림수는 ‘퇴임까지 직무 정지’",
+"source": "조선일보",
+"link": "https://www.chosun.com/politics/politics_general/2026/11/21/FECS55Z5CJGV3IQPENEDRIWDPM/"
+},
+{
+"title": "'계엄은 내란·한덕수 파기환송'...남은 재판 영향은?",
+"source": "YTN",
+"link": "https://www.ytn.co.kr/_cs/_ln_0103_202611210520235754_005.html"
+}
+],
+"new": true
+},
+{
 "term": "항공",
 "traffic": "100+",
 "time": "2026-11-20T21:40:00+00:00",
@@ -2245,28 +2282,9 @@
 }
 ],
 "new": false
-},
-{
-"term": "생계",
-"traffic": "2000+",
-"time": "2026-11-20T20:50:00+00:00",
-"news": [
-{
-"title": "구청 실수로 줬다 뺏은 생계급여…매년 800건꼴",
-"source": "KBS 뉴스",
-"link": "https://news.kbs.co.kr/news/view.do?ncd=8718769"
-},
-{
-"title": "구청 실수로 줬다 뺏은 생계급여…매년 800건꼴",
-"source": "KBS 뉴스",
-"link": "https://news.kbs.co.kr/news/view.do?ncd=8718646"
-}
-],
-"new": true
 }
 ],
 "trendSeen": [
-"최원태",
 "최원호",
 "최인호",
 "최일언",
@@ -2383,6 +2401,7 @@
 "티머니",
 "티비",
 "티빙",
+"파기 환송",
 "파라타항공",
 "파업",
 "파운드리",
