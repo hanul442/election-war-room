@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-20T07:48:34.449445+00:00",
+"updated": "2026-11-20T07:50:47.493311+00:00",
 "errors": [],
 "events": [
 {
@@ -648,7 +648,7 @@
 "id": "YxWFRkWWFZZjVObU92S28oc50730",
 "first": "2026-11-20T07:30:02+00:00",
 "last": "2026-11-20T07:30:02+00:00",
-"updated": "2026-11-20T07:37:25.254502+00:00",
+"updated": "2026-11-20T07:50:47.493311+00:00",
 "headline": "제주반도체, 베트남 반도체 후공정 법인 설립에 259억5645만원 출자…지분 65% 확보 예정",
 "cat": "경제",
 "regions": [
@@ -664,6 +664,13 @@
 "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9UclZTLVJOVFJ6UENUZnROM0l2SDJuS250M0c4emFxYUE3T1Y4VEhsc2ZNWHV5amRyWnJyeEl1SGZaSWh1VDNjY3JSVmwtSE96QTEtTjFVTTYxWFRkWWFZZjVObU92S28?oc=5",
 "time": "2026-11-20T07:30:02+00:00",
 "stage": "얼럿"
+},
+{
+"title": "[속보] 제주반도체, 베트남 반도체 후공정 법인 설립에 259억5645만원 출자…지분 65% 확보 예정",
+"source": "CBC뉴스",
+"link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9wOTRWQ3JoZndQXzZfeFFMM2NkM2pfaERMNW04OEs2VDVpMHlpREpwbFdscWQtNmZoWHhTNnNBaGJDSlYzS3Q5MlBrYWhwMENqaUlvcUVkUlJ0QTU3SHNXNk1rNXNFVHpY?oc=5",
+"time": "2026-11-20T07:30:02+00:00",
+"stage": "속보"
 }
 ],
 "level": "URGENT",
@@ -4141,7 +4148,7 @@
 "terms": {
 "지진": {
 "n30": 1,
-"base": 0.5,
+"base": 0.6,
 "spike": false
 },
 "화재": {
@@ -4161,7 +4168,7 @@
 },
 "폭발": {
 "n30": 1,
-"base": 1.2,
+"base": 1.1,
 "spike": false
 },
 "붕괴": {
@@ -4180,18 +4187,18 @@
 "spike": false
 },
 "속보": {
-"n30": 5,
+"n30": 2,
 "base": 0.7,
-"spike": true
+"spike": false
 },
 "지하철": {
-"n30": 3,
+"n30": 2,
 "base": 0.8,
 "spike": false
 },
 "사고": {
-"n30": 2,
-"base": 1.1,
+"n30": 3,
+"base": 1.2,
 "spike": false
 },
 "실종": {
@@ -4215,12 +4222,22 @@
 "spike": false
 },
 "산불": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 }
 },
 "posts": [
+{
+"text": "지금도 크루즈 컨트롤 쓰다 내는 사고가 그렇게 많다는데 (테슬라 제외허고도) 자율주행 이름 달고 허용해주면 얼마나 더 개판일지 알고싶지 않음 그런 차들이랑 도로를 공유하고싶지 않음",
+"handle": "jinnys0.bsky.social",
+"name": "이진서🕯️",
+"time": "2026-11-20T07:50:18.243Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/jinnys0.bsky.social/post/3n2q3zgf4uk2z",
+"term": "사고"
+},
 {
 "text": "모 자사고에서 있던 얘기\n\n시험마다 컨닝하는 애 있었는데\n사실 모든 학생들이 걔 컨닝하는거 알았고 모든 선생들도 걔 컨닝하는거 알았음",
 "handle": "xiaoyama.bsky.social",
@@ -4463,27 +4480,19 @@
 "url": "https://www.youtube.com/watch?v=nbN_BdPbZh4"
 }
 ],
-"spikes": [
-{
-"term": "속보",
-"n30": 5,
-"base": 0.7,
-"spike": true,
-"since": "2026-11-20T07:48:34.449445+00:00"
-}
-],
+"spikes": [],
 "baseline": {
-"지진": 0.58,
+"지진": 0.62,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 1.14,
+"폭발": 1.13,
 "붕괴": 0.05,
 "대피": 0.05,
-"미사일": 0.51,
-"속보": 0.71,
-"지하철": 0.82,
-"사고": 1.23,
+"미사일": 0.56,
+"속보": 0.74,
+"지하철": 0.84,
+"사고": 1.41,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -4768,7 +4777,7 @@
 "link": "https://www.hani.co.kr/arti/politics/politics_general/1288349.html"
 },
 {
-"title": "[속보] 민주당, 민주유공자법 무제한토론 종결 후 강행 처리",
+"title": "민주당, 민주유공자법 무제한토론 종결 후 강행 처리",
 "source": "조선일보",
 "link": "https://www.chosun.com/politics/assembly/2026/11/20/OYPWO5I6Y5EKBFVTL3IRUXNJYY/"
 }
