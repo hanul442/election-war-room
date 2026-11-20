@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-20T02:54:09.088241+00:00",
+"updated": "2026-11-20T02:56:24.004408+00:00",
 "errors": [],
 "events": [
 {
@@ -319,14 +319,22 @@
 "id": "dDdzIxc0JVNXFXY3RvNEEoc50245",
 "first": "2026-11-20T02:45:00+00:00",
 "last": "2026-11-20T02:45:00+00:00",
-"updated": "2026-11-20T02:54:09.088241+00:00",
+"updated": "2026-11-20T02:56:24.004408+00:00",
 "headline": "‘리트 만점자’ 부검 타살 정황 없어…AI 부정시험 의혹 수사 계속",
 "cat": "사회",
 "regions": [],
 "sources": [
-"강원도민일보"
+"강원도민일보",
+"연합뉴스"
 ],
 "updates": [
+{
+"title": "LEET 만점자 부검 결과 타살 흔적 없어…고발사건 수사 계속",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261120081600004",
+"time": "2026-11-20T02:39:18+00:00",
+"stage": "후속"
+},
 {
 "title": "[속보] ‘리트 만점자’ 부검 타살 정황 없어…AI 부정시험 의혹 수사 계속",
 "source": "강원도민일보",
@@ -339,7 +347,9 @@
 "latest": "‘리트 만점자’ 부검 타살 정황 없어…AI 부정시험 의혹 수사 계속",
 "tok": [
 "AI",
+"LEET",
 "계속",
+"고발사건",
 "리트",
 "만점자",
 "부검",
@@ -347,7 +357,8 @@
 "수사",
 "없어",
 "정황",
-"타살"
+"타살",
+"흔적"
 ]
 },
 {
@@ -4225,11 +4236,11 @@
 },
 "폭발": {
 "n30": 4,
-"base": 0.3,
+"base": 0.2,
 "spike": false
 },
 "붕괴": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -4244,13 +4255,13 @@
 "spike": false
 },
 "속보": {
-"n30": 6,
+"n30": 5,
 "base": 0.1,
 "spike": true
 },
 "지하철": {
-"n30": 3,
-"base": 2.4,
+"n30": 2,
+"base": 2.3,
 "spike": false
 },
 "사고": {
@@ -4508,25 +4519,25 @@
 "spikes": [
 {
 "term": "속보",
-"n30": 6,
+"n30": 5,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-20T02:54:09.088241+00:00"
+"since": "2026-11-20T02:56:24.004408+00:00"
 }
 ],
 "baseline": {
-"지진": 0.77,
-"화재": 0.08,
+"지진": 0.69,
+"화재": 0.07,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.24,
+"폭발": 0.22,
 "붕괴": 0.05,
-"대피": 0.15,
+"대피": 0.24,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 2.28,
+"지하철": 2.15,
 "사고": 0.99,
-"실종": 0.07,
+"실종": 0.06,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -4756,9 +4767,9 @@
 "link": "https://www.khan.co.kr/article/202611200923001"
 },
 {
-"title": "'SUV 다음은 세단' 제네시스의 승부수…G80 하이브리드 공개 - 머니투데이",
-"source": "머니투데이",
-"link": "https://www.mt.co.kr/industry/2026/11/20/2026112009033343209"
+"title": "제네시스, LA 오토쇼서 G80 하이브리드 최초 공개... 북미 고급 하이브리드 시장 첫발",
+"source": "조선일보",
+"link": "https://www.chosun.com/economy/industry-company/2026/11/20/DESJLW7PAJHYZEWBJMUWCZCCQY/"
 }
 ],
 "new": true
@@ -4788,8 +4799,8 @@
 "news": [
 {
 "title": "It’s time for Basketball: San Antonio Spurs vs Los Angeles Clippers",
-"source": "Pounding The Rock",
-"link": "https://www.poundingtherock.com/spurs-discussion-threads/110410/its-time-for-basketball-san-antonio-spurs-vs-los-angeles-clippers"
+"source": "Yahoo Sports",
+"link": "https://sports.yahoo.com/articles/time-basketball-san-antonio-spurs-003000885.html"
 },
 {
 "title": "Clippers vs. Spurs Prediction, Odds and Best NBA Prop Bets for Thursday, Nov. 19",
