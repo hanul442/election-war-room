@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-20T04:04:41.446102+00:00",
+"updated": "2026-11-20T04:06:56.300167+00:00",
 "errors": [],
 "events": [
 {
@@ -4290,18 +4290,18 @@
 "spike": false
 },
 "속보": {
-"n30": 5,
+"n30": 4,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "지하철": {
-"n30": 3,
-"base": 1.9,
+"n30": 2,
+"base": 2.0,
 "spike": false
 },
 "사고": {
 "n30": 0,
-"base": 2.1,
+"base": 1.9,
 "spike": false
 },
 "실종": {
@@ -4425,16 +4425,6 @@
 "likes": 0,
 "reposts": 0,
 "url": "https://bsky.app/profile/0bbe.bsky.social/post/3n2pnvzpfck2k",
-"term": "지하철"
-},
-{
-"text": "너에게한정거장씩가까워진다지하철의속도로",
-"handle": "haemeong831.bsky.social",
-"name": "해멍",
-"time": "2026-11-20T03:36:52.150Z",
-"likes": 1,
-"reposts": 0,
-"url": "https://bsky.app/profile/haemeong831.bsky.social/post/3n2pnuap5dc2v",
 "term": "지하철"
 },
 {
@@ -4573,28 +4563,20 @@
 "url": "https://www.youtube.com/watch?v=2eqSl6eV76k"
 }
 ],
-"spikes": [
-{
-"term": "속보",
-"n30": 5,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-20T04:04:41.446102+00:00"
-}
-],
+"spikes": [],
 "baseline": {
-"지진": 0.2,
-"화재": 0.45,
+"지진": 0.18,
+"화재": 0.41,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.15,
-"붕괴": 0.74,
-"대피": 0.87,
+"폭발": 0.24,
+"붕괴": 0.77,
+"대피": 0.88,
 "미사일": 0.05,
 "속보": 0.05,
 "지하철": 1.98,
-"사고": 1.94,
-"실종": 0.6,
+"사고": 1.75,
+"실종": 0.64,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
