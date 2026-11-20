@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-20T11:50:52.449317+00:00",
+"updated": "2026-11-20T11:53:06.261978+00:00",
 "errors": [],
 "events": [
 {
@@ -4100,9 +4100,9 @@
 "sns": {
 "terms": {
 "지진": {
-"n30": 5,
-"base": 1.5,
-"spike": true
+"n30": 4,
+"base": 1.6,
+"spike": false
 },
 "화재": {
 "n30": 2,
@@ -4120,9 +4120,9 @@
 "spike": false
 },
 "폭발": {
-"n30": 5,
-"base": 1.5,
-"spike": true
+"n30": 4,
+"base": 1.6,
+"spike": false
 },
 "붕괴": {
 "n30": 1,
@@ -4146,12 +4146,12 @@
 },
 "지하철": {
 "n30": 4,
-"base": 1.3,
+"base": 1.4,
 "spike": false
 },
 "사고": {
 "n30": 4,
-"base": 5.0,
+"base": 4.9,
 "spike": false
 },
 "실종": {
@@ -4181,6 +4181,16 @@
 }
 },
 "posts": [
+{
+"text": "아맞네 희귀혈액형이엇지!!!! 헌혈은 진짜 못 할 듯요... 워낙 운동도 잘 안 하고 왜소해서 \n먼가 일 때문에 바빠서 밥도 잘 거를 것 같은\n그러면 헌혈은 물론이고 큰 사고 났을 때 수혈 받기도 힘들겟네 ㅁㅊ... 아 벉튽 혈액형도 궁금하다",
+"handle": "180x152.bsky.social",
+"name": "R.I.P.PaBey.🔒",
+"time": "2026-11-20T11:51:57.547Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/180x152.bsky.social/post/3n2qjjjrvpc2q",
+"term": "사고"
+},
 {
 "text": "사실 글을 쓰다가 이런 일이 있었음직하다 싶어 집어넣는 경우가 많은데요 이런 식으로 직접 나올 때마다 내가 상상력 ㅈㅉ 없구나 하는 걸 깨닫게 됨 걍.. 그 머라고 해야하지 나는 상상력이라기보단 당대 사람들 사고를 흡수해서 그거 기반으로 쓰는 게 가능한 쪽에 가까움 솔직히 이거는 상상력이라기보단 재현능력이죠",
 "handle": "wongoji.bsky.social",
@@ -4406,36 +4416,6 @@
 "term": "지하철"
 },
 {
-"text": "싸이버거를 먹을 수 있다구요?(동공지진)\n매운 염지를 금지해주세요…….",
-"handle": "hirmeyrabbit.bsky.social",
-"name": "혦",
-"time": "2026-11-20T11:21:51.444Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/hirmeyrabbit.bsky.social/post/3n2qhtpdnjk26",
-"term": "지진"
-},
-{
-"text": "로스사가 향수 사고 싶지만 평생 써도 다 못 쓸 용량이라 문제...차라리 저용량으로 12명 세트를 팔아주세요😂",
-"handle": "cosmobbattazo.bsky.social",
-"name": "세세구독계 미상",
-"time": "2026-11-20T11:21:37.447Z",
-"likes": 1,
-"reposts": 0,
-"url": "https://bsky.app/profile/cosmobbattazo.bsky.social/post/3n2qhtcd3h22g",
-"term": "사고"
-},
-{
-"text": "뭐랄까 자꾸 쳐지니까 반동으로 도파민 대폭발로 뽑고싶어서 겜을 늦게까지 하다가 자 자꾸....",
-"handle": "c0ralsnake.bsky.social",
-"name": "산호뱀𓆙",
-"time": "2026-11-20T11:21:18.149Z",
-"likes": 1,
-"reposts": 0,
-"url": "https://bsky.app/profile/c0ralsnake.bsky.social/post/3n2qhsoy7qc2u",
-"term": "폭발"
-},
-{
 "platform": "YouTube",
 "text": "사우디 80층 빌딩에 후티 미사일 ‘쾅’ / 채널A / 뉴스A",
 "handle": "UCfq4V1DAuaojnr2ryvWNysw",
@@ -4481,34 +4461,19 @@
 "url": "https://www.youtube.com/watch?v=WZHmddEhl2I"
 }
 ],
-"spikes": [
-{
-"term": "지진",
-"n30": 5,
-"base": 1.5,
-"spike": true,
-"since": "2026-11-20T11:50:52.449317+00:00"
-},
-{
-"term": "폭발",
-"n30": 5,
-"base": 1.5,
-"spike": true,
-"since": "2026-11-20T11:50:52.449317+00:00"
-}
-],
+"spikes": [],
 "baseline": {
-"지진": 1.65,
+"지진": 1.68,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 1.55,
+"폭발": 1.5,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 1.38,
-"사고": 4.9,
+"지하철": 1.44,
+"사고": 4.81,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -4711,6 +4676,24 @@
 },
 "trends": [
 {
+"term": "신영수",
+"traffic": "200+",
+"time": "2026-11-20T10:50:00+00:00",
+"news": [
+{
+"title": "'파묘' 자문 고춘자, 한고은에게 \"연예인 안 했으면 무속인 됐을 것\"",
+"source": "뉴스1",
+"link": "https://www.news1.kr/entertain/celebrity-topic/6360587"
+},
+{
+"title": "“자식 없는 팔자”…‘파묘’ 무속인, 한고은♥신영수 부부에 충격 신점",
+"source": "매일경제",
+"link": "https://www.mk.co.kr/news/hot-issues/12214276"
+}
+],
+"new": true
+},
+{
 "term": "국민연금공단",
 "traffic": "500+",
 "time": "2026-11-20T10:40:00+00:00",
@@ -4788,12 +4771,12 @@
 "time": "2026-11-20T10:00:00+00:00",
 "news": [
 {
-"title": "India v Pakistan: How to watch Rising Stars Asia Cup showdown in UAE?",
-"source": "www.thenationalnews.com",
-"link": "https://www.thenationalnews.com/sport/cricket/2026/11/20/india-v-pakistan-how-to-watch-rising-stars-asia-cup-showdown-in-uae/"
+"title": "IND vs PAK in Asia Cup Rising Stars 2026: Start time, date, venue and how to watch India-Pakistan clash globally",
+"source": "Yahoo Sports",
+"link": "https://sports.yahoo.com/articles/ind-vs-pak-asia-cup-092428434.html"
 },
 {
-"title": "India A vs Nepal Toss Result, Playing XI Today",
+"title": "India A vs Nepal Asia Cup Rising Stars 2026: Vaibhav Sooryavanshi Included in Playing XI as Nepal Opts to Bowl",
 "source": "Jagran Josh",
 "link": "https://www.jagranjosh.com/general-knowledge/india-a-vs-nepal-toss-result-playing-xi-asia-cup-rising-stars-2026-vaibhav-sooryavanshi-abhishek-sharma-1820013990-1"
 }
@@ -4871,24 +4854,6 @@
 }
 ],
 "new": false
-},
-{
-"term": "스타벅스",
-"traffic": "500+",
-"time": "2026-11-20T09:40:00+00:00",
-"news": [
-{
-"title": "스타벅스, ’부드러운 생크림 카스텔라’ 700원 인상…11년 만",
-"source": "연합뉴스TV",
-"link": "https://www.yonhapnewstv.co.kr/news/AKR202611201453244Qv"
-},
-{
-"title": "스타벅스 디저트 ‘부생카’ 11년 만에 첫 가격 인상… 700원 오른다",
-"source": "천지일보",
-"link": "https://www.newscj.com/news/articleView.html?idxno=3450737"
-}
-],
-"new": true
 }
 ],
 "trendSeen": [
