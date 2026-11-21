@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-21T22:31:12.475170+00:00",
+"updated": "2026-11-21T22:33:39.103266+00:00",
 "errors": [],
 "events": [
 {
@@ -826,7 +826,7 @@
 },
 "지하철": {
 "n30": 0,
-"base": 0.7,
+"base": 0.6,
 "spike": false
 },
 "사고": {
@@ -1057,7 +1057,7 @@
 "n30": 5,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-21T22:31:12.475170+00:00"
+"since": "2026-11-21T22:33:39.103266+00:00"
 }
 ],
 "baseline": {
@@ -1070,8 +1070,8 @@
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.6,
-"사고": 0.56,
+"지하철": 0.54,
+"사고": 0.5,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -1274,6 +1274,24 @@
 },
 "trends": [
 {
+"term": "젠슨 황",
+"traffic": "2000+",
+"time": "2026-11-21T21:30:00+00:00",
+"news": [
+{
+"title": "“불륜 아니다” “너의 뇌에 오줌 누겠다”···젠슨 황 퇴출 부른 건 거짓말과 상습 폭언",
+"source": "경향신문",
+"link": "https://www.khan.co.kr/article/202611211444001"
+},
+{
+"title": "“낙태했어야” “머리 열어 소변” “금붕어”…안하무인 젠슨황 父女",
+"source": "동아일보",
+"link": "https://www.donga.com/news/Inter/article/all/20261121/135065038/2"
+}
+],
+"new": true
+},
+{
 "term": "kbs",
 "traffic": "100+",
 "time": "2026-11-21T21:20:00+00:00",
@@ -1419,7 +1437,7 @@
 },
 {
 "term": "real madrid vs celta",
-"traffic": "500+",
+"traffic": "1000+",
 "time": "2026-11-21T20:20:00+00:00",
 "news": [
 {
@@ -1431,24 +1449,6 @@
 "title": "Pese al mal inicio y al fallo de Mbappé, el Real Madrid sigue ganando",
 "source": "OneFootball",
 "link": "https://onefootball.com/es/noticias/pese-al-mal-inicio-y-al-fallo-de-mbappe-el-real-madrid-sigue-ganando-43816122"
-}
-],
-"new": true
-},
-{
-"term": "알렉산더 즈베레프",
-"traffic": "500+",
-"time": "2026-11-21T20:20:00+00:00",
-"news": [
-{
-"title": "라파엘 호다르, 니토 ATP 파이널서 벤 셸턴 상대 포핸드",
-"source": "국제뉴스",
-"link": "https://www.gukjenews.com/news/articleView.html?idxno=3758896"
-},
-{
-"title": "테니스 셸턴, 생애 첫 ATP 파이널스 4강 진출…알카라스와 대결",
-"source": "뉴스1",
-"link": "https://www.news1.kr/sports/general-sport/6360430"
 }
 ],
 "new": true
