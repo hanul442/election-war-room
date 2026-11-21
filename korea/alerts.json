@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-21T01:23:10.891195+00:00",
+"updated": "2026-11-21T01:25:26.520426+00:00",
 "errors": [],
 "events": [
 {
@@ -2515,12 +2515,12 @@
 },
 "속보": {
 "n30": 8,
-"base": 0.6,
+"base": 0.7,
 "spike": true
 },
 "지하철": {
 "n30": 2,
-"base": 0.8,
+"base": 0.7,
 "spike": false
 },
 "사고": {
@@ -2743,23 +2743,23 @@
 {
 "term": "속보",
 "n30": 8,
-"base": 0.6,
+"base": 0.7,
 "spike": true,
-"since": "2026-11-21T01:23:10.891195+00:00"
+"since": "2026-11-21T01:25:26.520426+00:00"
 }
 ],
 "baseline": {
 "지진": 0.05,
-"화재": 0.1,
+"화재": 0.09,
 "불났": 0.05,
 "정전": 0.05,
 "폭발": 0.05,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.68,
-"지하철": 0.69,
-"사고": 1.62,
+"속보": 0.71,
+"지하철": 0.62,
+"사고": 1.66,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -2927,7 +2927,7 @@
 "trends": [
 {
 "term": "패딩",
-"traffic": "5000+",
+"traffic": "10000+",
 "time": "2026-11-21T00:10:00+00:00",
 "news": [
 {
@@ -3023,24 +3023,6 @@
 "new": true
 },
 {
-"term": "공인회계사",
-"traffic": "200+",
-"time": "2026-11-20T23:40:00+00:00",
-"news": [
-{
-"title": "“14살이 회계사 시험 합격?”…日서 나온 놀라운 기록",
-"source": "마켓인",
-"link": "https://marketin.edaily.co.kr/News/ReadE?newsId=04487046645647688"
-},
-{
-"title": "14세에 일본 공인회계사 시험 합격…역대 최연소 기록 경신",
-"source": "뉴스1",
-"link": "https://www.news1.kr/world/northeast-asia/6361423"
-}
-],
-"new": true
-},
-{
 "term": "브루노 마스",
 "traffic": "200+",
 "time": "2026-11-20T23:40:00+00:00",
@@ -3054,6 +3036,24 @@
 "title": "Bruno Mars is grieving the death of his dad: ‘I Love you, Pops’",
 "source": "Los Angeles Times",
 "link": "https://www.latimes.com/entertainment-arts/story/2026-11-19/bruno-mars-is-grieving-death-of-his-dad-i-love-you-pops"
+}
+],
+"new": true
+},
+{
+"term": "공인회계사",
+"traffic": "200+",
+"time": "2026-11-20T23:40:00+00:00",
+"news": [
+{
+"title": "“14살이 회계사 시험 합격?”…日서 나온 놀라운 기록",
+"source": "마켓인",
+"link": "https://marketin.edaily.co.kr/News/ReadE?newsId=04487046645647688"
+},
+{
+"title": "14세에 일본 공인회계사 시험 합격…역대 최연소 기록 경신",
+"source": "뉴스1",
+"link": "https://www.news1.kr/world/northeast-asia/6361423"
 }
 ],
 "new": true
