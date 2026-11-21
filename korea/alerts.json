@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-21T19:41:08.674150+00:00",
+"updated": "2026-11-21T19:43:22.960803+00:00",
 "errors": [],
 "events": [
 {
@@ -532,7 +532,7 @@
 "terms": {
 "지진": {
 "n30": 0,
-"base": 0.7,
+"base": 0.6,
 "spike": false
 },
 "화재": {
@@ -566,14 +566,14 @@
 "spike": false
 },
 "미사일": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
 "속보": {
-"n30": 5,
+"n30": 4,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "지하철": {
 "n30": 0,
@@ -839,17 +839,9 @@
 "url": "https://www.youtube.com/watch?v=eHDb24jw1D0"
 }
 ],
-"spikes": [
-{
-"term": "속보",
-"n30": 5,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-21T19:41:08.674150+00:00"
-}
-],
+"spikes": [],
 "baseline": {
-"지진": 0.62,
+"지진": 0.56,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
@@ -858,8 +850,8 @@
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.07,
-"사고": 0.61,
+"지하철": 0.06,
+"사고": 0.65,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -1225,9 +1217,9 @@
 "link": "https://www.tennis.co.kr/news/articleView.html?idxno=54344"
 },
 {
-"title": "권순우, 프리즈미치 잡고 메츠 챌린저 4강 진출",
+"title": "권순우, 프랑스 메츠 챌린저 결승 진출…2시간 7분 혈투 뒤 역전승",
 "source": "테니스피플",
-"link": "http://www.tennispeople.kr/news/articleView.html?idxno=19875"
+"link": "http://m.tennispeople.kr/news/articleView.html?idxno=19876"
 }
 ],
 "new": true
