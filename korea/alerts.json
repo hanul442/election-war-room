@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-21T02:38:08.985898+00:00",
+"updated": "2026-11-21T02:40:24.236639+00:00",
 "errors": [],
 "events": [
 {
@@ -2880,51 +2880,12 @@
 "트럼프",
 "해외"
 ]
-},
-{
-"id": "LeWE1NjY1Y3J1NnpvcHlKoc51644",
-"first": "2026-11-20T16:44:00+00:00",
-"last": "2026-11-20T20:39:00+00:00",
-"updated": "2026-11-20T20:42:33.592278+00:00",
-"headline": "나스닥지수, 장중 낙폭 3%대로 확대",
-"cat": "기타",
-"regions": [],
-"sources": [
-"뉴스핌"
-],
-"updates": [
-{
-"title": "[속보] 나스닥지수, 장중 낙폭 3%대로 확대",
-"source": "뉴스핌",
-"link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE4tRGVvclQwTjZWSjU2dTRQd19NbC1sMDIyWlh3Q2E0dW8wd1h0Sm5vUkhaSkhjWDhrVkJTcEdUV0s0R3VSR1FVN0M1XzZLeWE1NjY1Y3J1NnpvcHlK?oc=5",
-"time": "2026-11-20T16:44:00+00:00",
-"stage": "얼럿"
-},
-{
-"title": "[속보] 나스닥지수, AI 투매에 낙폭 5%대로 확대",
-"source": "뉴스핌",
-"link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1jMzBzY0lzMkROUXF4RWtkb0tRYkoyRDBZb284YTNxQlpPeFBmNUQtejdVN0dOcnhVOS1OYy1wUkdneXBhUXZ0VHl2a2hCMi1YNXg0LXRJbGg4bmVM?oc=5",
-"time": "2026-11-20T20:39:00+00:00",
-"stage": "속보"
-}
-],
-"level": "URGENT",
-"latest": "나스닥지수, AI 투매에 낙폭 5%대로 확대",
-"tok": [
-"AI",
-"나스닥지수",
-"낙폭",
-"대로",
-"장중",
-"투매",
-"확대"
-]
 }
 ],
 "sns": {
 "terms": {
 "지진": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -2944,13 +2905,13 @@
 "spike": false
 },
 "폭발": {
-"n30": 5,
+"n30": 3,
 "base": 1.0,
-"spike": true
+"spike": false
 },
 "붕괴": {
 "n30": 2,
-"base": 0.4,
+"base": 0.5,
 "spike": false
 },
 "대피": {
@@ -2964,13 +2925,13 @@
 "spike": false
 },
 "속보": {
-"n30": 4,
+"n30": 3,
 "base": 0.1,
 "spike": false
 },
 "지하철": {
-"n30": 2,
-"base": 1.4,
+"n30": 1,
+"base": 1.3,
 "spike": false
 },
 "사고": {
@@ -3254,28 +3215,20 @@
 "url": "https://www.youtube.com/watch?v=-EFB1GBb-d4"
 }
 ],
-"spikes": [
-{
-"term": "폭발",
-"n30": 5,
-"base": 1.0,
-"spike": true,
-"since": "2026-11-21T02:38:08.985898+00:00"
-}
-],
+"spikes": [],
 "baseline": {
 "지진": 0.05,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
 "폭발": 1.04,
-"붕괴": 0.45,
+"붕괴": 0.51,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 1.34,
-"사고": 1.64,
-"실종": 0.22,
+"지하철": 1.31,
+"사고": 1.68,
+"실종": 0.2,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -3624,14 +3577,14 @@
 "time": "2026-11-21T00:00:00+00:00",
 "news": [
 {
-"title": "[게임위드인] AI로 외연 확장 노린 지스타…관람객은 게임에 몰렸다",
+"title": "초겨울 추위에도 밤샘 대기…게임 열기 뜨거운 지스타 2026",
 "source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261120169900017"
+"link": "https://www.yna.co.kr/view/AKR20261121029700017"
 },
 {
-"title": "'지스타 2026' 첫 주말, 벡스코에 관람객 북적…게임 축제 열기 고조",
+"title": "원작 속 전장을 직접 지휘하다…웹젠 ‘디겜폭: 라스트 스테이지’ 시연해보니",
 "source": "지디넷코리아",
-"link": "https://zdnet.co.kr/view/?no=20261121102326"
+"link": "https://zdnet.co.kr/view/?no=20261121112733"
 }
 ],
 "new": true
@@ -3642,14 +3595,14 @@
 "time": "2026-11-21T00:00:00+00:00",
 "news": [
 {
-"title": "공군사관학교 부정행위 신고 뒤…시험지 폰으로 찍은 생도 퇴교",
-"source": "한겨레",
-"link": "https://www.hani.co.kr/arti/society/society_general/1288405.html"
+"title": "공사 생도 '명예시험' 중 스마트폰으로 시험지 촬영…퇴교 처분",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261120176600504"
 },
 {
-"title": "감독관 없는 ‘명예시험’서 스마트폰 부정행위…공사 3학년 생도 퇴교",
-"source": "경기일보",
-"link": "https://www.kyeonggi.com/article/20261120580310"
+"title": "공군사관학교도 6월에 시험문제 불법촬영…3학년 생도 퇴교",
+"source": "동아일보",
+"link": "https://www.donga.com/news/Society/article/all/20261120/135063726/1"
 }
 ],
 "new": true
