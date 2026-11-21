@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-21T09:31:53.511452+00:00",
+"updated": "2026-11-21T09:34:05.316892+00:00",
 "errors": [],
 "events": [
 {
@@ -122,7 +122,7 @@
 "id": "RzWGh4M2Z2c0dzZFN3N2Yoc50629",
 "first": "2026-11-21T06:29:21+00:00",
 "last": "2026-11-21T09:24:24+00:00",
-"updated": "2026-11-21T09:29:40.581275+00:00",
+"updated": "2026-11-21T09:34:05.316892+00:00",
 "headline": "충북 진천서 50대 성범죄자 전자발찌 끊고 도주…당국 추적 중",
 "cat": "기타",
 "regions": [
@@ -132,6 +132,7 @@
 "sources": [
 "SBS",
 "강원도민일보",
+"강원일보",
 "경기일보",
 "뉴시스",
 "부산일보",
@@ -211,6 +212,13 @@
 "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008857035&plink=RSSLINK&cooper=RSSREADER",
 "time": "2026-11-21T07:34:14+00:00",
 "stage": "후속"
+},
+{
+"title": "[속보]충북 진천서 50대 성범죄자 전자발찌 훼손 후 도주…당국 추적",
+"source": "강원일보",
+"link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5KTnhIdWJ1RXJ3clNxRk9SZm56Tzk3dTkwbGNzTXVOb3BOWllQbUZ0czlIRXVlVmpMdmNCU3gwM2g0dWtkTm0xYVcyWkFXaHZ6VElaV0o0d3Zwc0E?oc=5",
+"time": "2026-11-21T09:18:15+00:00",
+"stage": "속보"
 },
 {
 "title": "[속보] 50대 성범죄자 전자발찌 끊고 달아나…당국 추적 중",
@@ -3034,13 +3042,13 @@
 "sns": {
 "terms": {
 "지진": {
-"n30": 2,
-"base": 0.7,
+"n30": 1,
+"base": 0.8,
 "spike": false
 },
 "화재": {
-"n30": 1,
-"base": 0.7,
+"n30": 0,
+"base": 0.8,
 "spike": false
 },
 "불났": {
@@ -3080,12 +3088,12 @@
 },
 "지하철": {
 "n30": 3,
-"base": 3.0,
+"base": 2.8,
 "spike": false
 },
 "사고": {
-"n30": 4,
-"base": 3.6,
+"n30": 3,
+"base": 3.7,
 "spike": false
 },
 "실종": {
@@ -3168,7 +3176,7 @@
 "handle": "mumumu04.bsky.social",
 "name": "오지콤정병임니다",
 "time": "2026-11-21T09:05:48.744Z",
-"likes": 28,
+"likes": 30,
 "reposts": 0,
 "url": "https://bsky.app/profile/mumumu04.bsky.social/post/3n2sqpb46vc26",
 "term": "폭발"
@@ -3219,36 +3227,6 @@
 "reposts": 0,
 "url": "https://bsky.app/profile/strider514.bsky.social/post/3n2sqmkd4ok2r",
 "term": "지하철"
-},
-{
-"text": "ㅎ하...킹받게 우리애들 나오는데 화재경보 울려가지고 😠제대로 다 못보고",
-"handle": "pioromantica.bsky.social",
-"name": "P",
-"time": "2026-11-21T09:03:46.141Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/pioromantica.bsky.social/post/3n2sqlplujc24",
-"term": "화재"
-},
-{
-"text": "떡갈비가 밥강도가 아니었다고?! (동공지진)",
-"handle": "dehett.bsky.social",
-"name": "돌아온 데헷@퍼렁하늘",
-"time": "2026-11-21T09:03:15.940Z",
-"likes": 1,
-"reposts": 0,
-"url": "https://bsky.app/profile/dehett.bsky.social/post/3n2sqksvit22l",
-"term": "지진"
-},
-{
-"text": "... 그저께 수능에서 111명이 적발되는 꼴을 보고도 '나는 달라'라고 생각하고 실행에 옮기다니.\n\n그런 사고방식으로는 시험에 붙었어도 업무에 투입되면 일을 제대로 못할 것 같습니다.",
-"handle": "mediapark.bsky.social",
-"name": "홍릉아재",
-"time": "2026-11-21T09:02:58.142Z",
-"likes": 5,
-"reposts": 3,
-"url": "https://bsky.app/profile/mediapark.bsky.social/post/3n2sqkamg6225",
-"term": "사고"
 },
 {
 "platform": "YouTube",
@@ -3379,17 +3357,17 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 0.77,
-"화재": 0.77,
+"지진": 0.69,
+"화재": 0.69,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 1.45,
+"폭발": 1.5,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.1,
-"지하철": 2.83,
-"사고": 3.69,
+"속보": 0.09,
+"지하철": 2.65,
+"사고": 3.62,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -3574,6 +3552,24 @@
 },
 "trends": [
 {
+"term": "성리",
+"traffic": "200+",
+"time": "2026-11-21T08:30:00+00:00",
+"news": [
+{
+"title": "성리→장한별 출연 '무명전설' 전국투어, 대구서 앵콜",
+"source": "비즈엔터",
+"link": "https://enter.etoday.co.kr/news/view/305549"
+},
+{
+"title": "[단독]가수 하루, MBN '무명전설' 대구 앵콜콘 전석 매진",
+"source": "더퍼블릭",
+"link": "https://www.thepublic.kr/news/articleView.html?idxno=327894"
+}
+],
+"new": true
+},
+{
 "term": "굴",
 "traffic": "200+",
 "time": "2026-11-21T08:20:00+00:00",
@@ -3731,24 +3727,6 @@
 "title": "AMD, 中 수출 규제 위반 의혹·AI 투자심리 악화에 주가 13%↓",
 "source": "마켓인",
 "link": "https://marketin.edaily.co.kr/News/ReadE?newsId=01226726645648016"
-}
-],
-"new": true
-},
-{
-"term": "신성일",
-"traffic": "100+",
-"time": "2026-11-21T06:40:00+00:00",
-"news": [
-{
-"title": "신성일기념관 개관 1주년 음악회, 21일 영천서 개최",
-"source": "뉴스1",
-"link": "https://www.news1.kr/local/daegu-gyeongbuk/6359296"
-},
-{
-"title": "벌써 7만명 다녀간 중장년 ‘추억 성지’…주말엔 박해미 뜬다",
-"source": "미주중앙일보",
-"link": "https://www.koreadaily.com/article/20261120130053831"
 }
 ],
 "new": true
