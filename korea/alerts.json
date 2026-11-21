@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-21T01:00:24.027021+00:00",
+"updated": "2026-11-21T01:02:45.799406+00:00",
 "errors": [],
 "events": [
 {
@@ -2353,7 +2353,7 @@
 "spike": false
 },
 "폭발": {
-"n30": 3,
+"n30": 2,
 "base": 0.1,
 "spike": false
 },
@@ -2368,18 +2368,18 @@
 "spike": false
 },
 "미사일": {
-"n30": 2,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
 "속보": {
-"n30": 6,
+"n30": 7,
 "base": 0.1,
 "spike": true
 },
 "지하철": {
 "n30": 2,
-"base": 0.3,
+"base": 0.4,
 "spike": false
 },
 "사고": {
@@ -2414,6 +2414,16 @@
 }
 },
 "posts": [
+{
+"text": "#광고\n오늘의 뉴스\n[속보] 李대통령 \"이미 치러진 시험 부정도 엄중히 단죄…일벌백계\"\n기사 보기: https://dailyissue.net/Sd1GWb",
+"handle": "todaypicknews.bsky.social",
+"name": "todaypicknews.bsky.social",
+"time": "2026-11-21T01:00:07.948Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/todaypicknews.bsky.social/post/3n2rvkvkrpl2p",
+"term": "속보"
+},
 {
 "text": "지하철 같이 타자♡",
 "handle": "koreanmonster777.bsky.social",
@@ -2627,24 +2637,24 @@
 "spikes": [
 {
 "term": "속보",
-"n30": 6,
+"n30": 7,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-21T01:00:24.027021+00:00"
+"since": "2026-11-21T01:02:45.799406+00:00"
 }
 ],
 "baseline": {
 "지진": 0.05,
-"화재": 0.27,
+"화재": 0.24,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.1,
+"폭발": 0.09,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.06,
-"지하철": 0.39,
-"사고": 1.13,
+"속보": 0.15,
+"지하철": 0.45,
+"사고": 1.12,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -2847,6 +2857,78 @@
 },
 "trends": [
 {
+"term": "lpga",
+"traffic": "200+",
+"time": "2026-11-21T00:00:00+00:00",
+"news": [
+{
+"title": "Kim A-lim Ties for Lead on First Day of LPGA Season Finale Tour Championship",
+"source": "news.sbs.co.kr",
+"link": "https://news.sbs.co.kr/english/article.do?news_id=N1008855007"
+},
+{
+"title": "Kim Arim Fires a 7-Under... 'Going for the Season Finale Win~'",
+"source": "아시아경제",
+"link": "https://www.asiae.co.kr/en/article/2026112008090075847"
+}
+],
+"new": true
+},
+{
+"term": "공군사관학교",
+"traffic": "100+",
+"time": "2026-11-21T00:00:00+00:00",
+"news": [
+{
+"title": "공군사관학교 부정행위 신고 뒤…시험지 폰으로 찍은 생도 퇴교",
+"source": "한겨레",
+"link": "https://www.hani.co.kr/arti/society/society_general/1288405.html"
+},
+{
+"title": "감독관 없는 ‘명예시험’서 스마트폰 부정행위…공사 3학년 생도 퇴교",
+"source": "경기일보",
+"link": "https://www.kyeonggi.com/article/20261120580310"
+}
+],
+"new": true
+},
+{
+"term": "지스타",
+"traffic": "200+",
+"time": "2026-11-21T00:00:00+00:00",
+"news": [
+{
+"title": "[해보니] 눈앞에 펼쳐진 거대한 전쟁…'토탈 워: 워해머 40,000'",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261120133000017"
+},
+{
+"title": "'지스타 2026'으로 보는 게임산업 변화는?",
+"source": "매일경제 마켓",
+"link": "https://stock.mk.co.kr/news/view/1203323"
+}
+],
+"new": true
+},
+{
+"term": "ราคาทองวันนี้",
+"traffic": "200+",
+"time": "2026-11-21T00:00:00+00:00",
+"news": [
+{
+"title": "ทองคำปี 69 โหดจัด! จากยอดดอยสู่ก้นเหว มูลค่าหาย 30.8% . อ่านเพิ่มเติม คลิก https://thunhoon.com/gold-in-69-absolutely-brutal-211126 . #thunhoon #ทองคำ #สมาคมค้าทองคำ",
+"source": "Facebook",
+"link": "https://www.facebook.com/thunhoonnews/posts/%E0%B8%97%E0%B8%AD%E0%B8%87%E0%B8%84%E0%B8%B3%E0%B8%9B%E0%B8%B5-69-%E0%B9%82%E0%B8%AB%E0%B8%94%E0%B8%88%E0%B8%B1%E0%B8%94-%E0%B8%88%E0%B8%B2%E0%B8%81%E0%B8%A2%E0%B8%AD%E0%B8%94%E0%B8%94%E0%B8%AD%E0%B8%A2%E0%B8%AA%E0%B8%B9%E0%B9%88%E0%B8%81%E0%B9%89%E0%B8%99%E0%B9%80%E0%B8%AB%E0%B8%A7-%E0%B8%A1%E0%B8%B9%E0%B8%A5%E0%B8%84%E0%B9%88%E0%B8%B2%E0%B8%AB%E0%B8%B2%E0%B8%A2-308%E0%B8%AD%E0%B9%88%E0%B8%B2%E0%B8%99%E0%B9%80%E0%B8%9E%E0%B8%B4%E0%B9%88%E0%B8%A1%E0%B9%80%E0%B8%95%E0%B8%B4%E0%B8%A1-%E0%B8%84%E0%B8%A5%E0%B8%B4%E0%B8%81-thunhoon-%E0%B8%97%E0%B8%AD/122222007086766798/"
+},
+{
+"title": "อัลบั้มภาพ ทองลงเพราะอะไร 7 สาเหตุราคาทองร่วง ทองจะขึ้นอีกไหม (6 ภาพ)",
+"source": "kapook.com",
+"link": "https://money.kapook.com/gallery/500114"
+}
+],
+"new": true
+},
+{
 "term": "공인회계사",
 "traffic": "200+",
 "time": "2026-11-20T23:40:00+00:00",
@@ -2950,78 +3032,6 @@
 "title": "수백억 ‘플라스틱 열분해’…줄줄이 ‘포기’",
 "source": "KBS 뉴스",
 "link": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8715850"
-}
-],
-"new": true
-},
-{
-"term": "추성훈",
-"traffic": "500+",
-"time": "2026-11-20T23:10:00+00:00",
-"news": [
-{
-"title": "추성훈, 은퇴전 D-1 앞두고 무슨 일? \"불안해 보여, 울 것 같아\" 걱정",
-"source": "조선일보",
-"link": "https://www.chosun.com/entertainments/broadcast/2026/11/20/G4ZDMN3FMI4DSZJXMNSGKMJWGE/"
-},
-{
-"title": "'20년 격투 인생' 마침표 찍는 추성훈 \"이기는 것이 진짜 의리\"",
-"source": "뉴시스",
-"link": "https://www.newsis.com/view/NISX20261119_0003875201"
-}
-],
-"new": false
-},
-{
-"term": "로보택시",
-"traffic": "100+",
-"time": "2026-11-20T23:00:00+00:00",
-"news": [
-{
-"title": "[Why&Next] 웨이모엔 차 공급, 모셔널엔 투자…현대차 '투트랙' 승부수",
-"source": "아시아경제",
-"link": "https://www.asiae.co.kr/realtime/sokbo_viewNew.htm?idxno=2026111909131263385"
-},
-{
-"title": "모셔널, SAE 레벨 4 로보택시 상용 서비스 위한 안전 프레임워크 공개",
-"source": "https://www.autoelectronics.co.kr/",
-"link": "https://www.autoelectronics.co.kr/article/articleView.asp?idx=7208"
-}
-],
-"new": true
-},
-{
-"term": "베냐민 네타냐후",
-"traffic": "100+",
-"time": "2026-11-20T23:00:00+00:00",
-"news": [
-{
-"title": "\"한번 더 이란 공격\" 美 설득나선 네타냐후",
-"source": "조선일보",
-"link": "https://www.chosun.com/international/mideast-africa-latin/2026/11/21/EVQQJ6DDLNBHXF57ORXIRF6RHY/"
-},
-{
-"title": "트럼프 \"이란, 합의 원하지만 내 방식 원하지 않아\"",
-"source": "YTN",
-"link": "https://www.ytn.co.kr/_cs/_ln_0104_202611210651271910_005.html"
-}
-],
-"new": true
-},
-{
-"term": "hlb생명과학",
-"traffic": "100+",
-"time": "2026-11-20T22:40:00+00:00",
-"news": [
-{
-"title": "HLB·HLB생명과학, 합병 재추진…경쟁력 강화·기업가치 제고 - 머니투데이",
-"source": "머니투데이",
-"link": "https://www.mt.co.kr/stock/2026/11/20/2026111917524929164"
-},
-{
-"title": "[장중수급포착] HLB생명과학, 기관 6일 연속 순매수행진... 주가 +12.91%",
-"source": "뉴스핌",
-"link": "https://www.newspim.com/news/view/20261120000373"
 }
 ],
 "new": true
