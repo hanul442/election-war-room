@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-21T12:57:52.434734+00:00",
+"updated": "2026-11-21T13:00:03.703103+00:00",
 "errors": [],
 "events": [
 {
@@ -3546,9 +3546,9 @@
 "spike": false
 },
 "붕괴": {
-"n30": 5,
-"base": 0.9,
-"spike": true
+"n30": 0,
+"base": 0.8,
+"spike": false
 },
 "대피": {
 "n30": 0,
@@ -3571,8 +3571,8 @@
 "spike": false
 },
 "사고": {
-"n30": 2,
-"base": 3.5,
+"n30": 3,
+"base": 3.3,
 "spike": false
 },
 "실종": {
@@ -3602,6 +3602,16 @@
 }
 },
 "posts": [
+{
+"text": "아니구나 전자책으로 전집을 사고 싶어서 종이책이 없는 거구나 😂",
+"handle": "dottwinial.bsky.social",
+"name": "Dott Winial",
+"time": "2026-11-21T12:59:32.751Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/dottwinial.bsky.social/post/3n2t5rcfbr22l",
+"term": "사고"
+},
 {
 "text": " 좌의식과잉 자기중심적사고 혼자만의세상에사는사람임 셀카 존나많아",
 "handle": "vyron-my-husband.bsky.social",
@@ -3776,27 +3786,19 @@
 "url": "https://www.youtube.com/watch?v=MvaylQAYUDE"
 }
 ],
-"spikes": [
-{
-"term": "붕괴",
-"n30": 5,
-"base": 0.9,
-"spike": true,
-"since": "2026-11-21T12:57:52.434734+00:00"
-}
-],
+"spikes": [],
 "baseline": {
-"지진": 0.31,
+"지진": 0.28,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
 "폭발": 0.05,
-"붕괴": 0.82,
+"붕괴": 0.74,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
 "지하철": 0.05,
-"사고": 3.31,
+"사고": 3.28,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
