@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-21T15:31:31.035500+00:00",
+"updated": "2026-11-21T15:33:44.426798+00:00",
 "errors": [],
 "events": [
 {
@@ -2623,7 +2623,7 @@
 },
 "폭발": {
 "n30": 10,
-"base": 0.2,
+"base": 0.3,
 "spike": true
 },
 "붕괴": {
@@ -2647,13 +2647,13 @@
 "spike": false
 },
 "지하철": {
-"n30": 2,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
 "사고": {
 "n30": 1,
-"base": 2.5,
+"base": 2.3,
 "spike": false
 },
 "실종": {
@@ -2917,9 +2917,9 @@
 {
 "term": "폭발",
 "n30": 10,
-"base": 0.2,
+"base": 0.3,
 "spike": true,
-"since": "2026-11-21T15:31:31.035500+00:00"
+"since": "2026-11-21T15:33:44.426798+00:00"
 }
 ],
 "baseline": {
@@ -2927,13 +2927,13 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.32,
-"붕괴": 1.83,
+"폭발": 0.39,
+"붕괴": 1.85,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
 "지하철": 0.05,
-"사고": 2.31,
+"사고": 2.18,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -3136,8 +3136,44 @@
 },
 "trends": [
 {
-"term": "쇼메이커",
+"term": "코번트리 대 크리스털 팰리스",
+"traffic": "500+",
+"time": "2026-11-21T14:30:00+00:00",
+"news": [
+{
+"title": "Man City 1-1 Fulham (Nov 21, 2026) Game Analysis",
+"source": "ESPN",
+"link": "https://www.espn.com/soccer/report/_/gameId/401879233"
+},
+{
+"title": "Man City vs. Fulham (Nov 21, 2026) Team Stats",
+"source": "ESPN",
+"link": "https://www.espn.com/soccer/team-stats/_/gameId/401879233/league/eng.1"
+}
+],
+"new": true
+},
+{
+"term": "장동민",
 "traffic": "100+",
+"time": "2026-11-21T14:30:00+00:00",
+"news": [
+{
+"title": "‘독박투어’ 김재원 “역사 잘 알면 사람이 삐딱해져”",
+"source": "iMBC 연예",
+"link": "https://enews.imbc.com/News/RetrieveNewsInfo/525580"
+},
+{
+"title": "인기 여행 예능프로그램, 김해 소개한다",
+"source": "경남매일",
+"link": "http://www.gnmaeil.com/news/articleView.html?idxno=599140"
+}
+],
+"new": true
+},
+{
+"term": "쇼메이커",
+"traffic": "200+",
 "time": "2026-11-21T14:20:00+00:00",
 "news": [
 {
@@ -3149,24 +3185,6 @@
 "title": "[단독] ‘카나비’ 서진혁, ‘씨맥’ 품으로 가나… DK행 유력, 최종 협상 진행 중",
 "source": "OSEN",
 "link": "https://www.osen.co.kr/article/G1112912801"
-}
-],
-"new": true
-},
-{
-"term": "맨시티 풀럼",
-"traffic": "100+",
-"time": "2026-11-21T14:20:00+00:00",
-"news": [
-{
-"title": "엔조 마레스카 감독, \"핵심은 꾸준함\"",
-"source": "Manchester City FC",
-"link": "https://kr.mancity.com/news/mens/manchester-city-v-fulham-enzo-maresca-preview-written-20-nov-63930792"
-},
-{
-"title": "Nhận định, dự đoán trận đấu Man City vs Fulham: Ai sẽ thoát khỏi khủng hoảng",
-"source": "Vietnam.vn",
-"link": "https://www.vietnam.vn/ko/nhan-dinh-du-doan-tran-dau-man-city-vs-fulham-ai-se-thoat-khoi-khung-hoang"
 }
 ],
 "new": true
@@ -3272,9 +3290,9 @@
 "link": "https://twaslnews1.twaslnews.com/8072840/"
 },
 {
-"title": "Lumbini lost wicket of Aasif",
-"source": "The Rising Nepal",
-"link": "https://risingnepaldaily.com/news/88865"
+"title": "Live Cricket Score, Schedule, Latest News, Stats & Videos",
+"source": "Cricbuzz",
+"link": "https://www.cricbuzz.com/player-match-performance/match/177841/player/7884/batting?inningsId=1"
 }
 ],
 "new": true
@@ -3296,28 +3314,9 @@
 }
 ],
 "new": true
-},
-{
-"term": "김혜윤",
-"traffic": "100+",
-"time": "2026-11-21T13:40:00+00:00",
-"news": [
-{
-"title": "김혜윤 능력 알아본 장나라…'굿파트너2' 8.4% 출발",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261121023000005"
-},
-{
-"title": "“인생은 타이밍입니다?” 박해진, 김혜윤에게 파격 조건으로 영입 시도♨",
-"source": "programs.sbs.co.kr",
-"link": "https://programs.sbs.co.kr/drama/goodpartner2/clip/88592/OC483964180"
-}
-],
-"new": true
 }
 ],
 "trendSeen": [
-"최해천 교수",
 "최혜진",
 "최희",
 "쵸비",
@@ -3365,6 +3364,7 @@
 "코리아 패싱",
 "코리아오픈 배드민턴",
 "코리안투어",
+"코번트리 대 크리스털 팰리스",
 "코스피",
 "코스피 11% 급락 원인과 정부의 반대매매 완화 조치 내용 알려줘",
 "코스피 200",
