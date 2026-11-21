@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-21T09:49:34.682869+00:00",
+"updated": "2026-11-21T09:51:48.663655+00:00",
 "errors": [],
 "events": [
 {
@@ -3076,12 +3076,12 @@
 "terms": {
 "지진": {
 "n30": 1,
-"base": 0.4,
+"base": 0.3,
 "spike": false
 },
 "화재": {
-"n30": 1,
-"base": 0.4,
+"n30": 0,
+"base": 0.3,
 "spike": false
 },
 "불났": {
@@ -3110,18 +3110,18 @@
 "spike": false
 },
 "미사일": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
 "속보": {
-"n30": 4,
+"n30": 3,
 "base": 0.1,
 "spike": false
 },
 "지하철": {
 "n30": 2,
-"base": 1.6,
+"base": 1.5,
 "spike": false
 },
 "사고": {
@@ -3131,7 +3131,7 @@
 },
 "실종": {
 "n30": 1,
-"base": 0.1,
+"base": 0.2,
 "spike": false
 },
 "단수": {
@@ -3161,8 +3161,8 @@
 "handle": "noinoiee.bsky.social",
 "name": "노이",
 "time": "2026-11-21T09:46:03.247Z",
-"likes": 0,
-"reposts": 0,
+"likes": 1,
+"reposts": 1,
 "url": "https://bsky.app/profile/noinoiee.bsky.social/post/3n2ssx7mmdc2j",
 "term": "실종"
 },
@@ -3181,7 +3181,7 @@
 "handle": "starstory0924.bsky.social",
 "name": "노피",
 "time": "2026-11-21T09:43:07.045Z",
-"likes": 0,
+"likes": 1,
 "reposts": 0,
 "url": "https://bsky.app/profile/starstory0924.bsky.social/post/3n2ssrzy72c2j",
 "term": "지하철"
@@ -3408,8 +3408,8 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 0.33,
-"화재": 0.33,
+"지진": 0.3,
+"화재": 0.3,
 "불났": 0.05,
 "정전": 0.05,
 "폭발": 0.99,
@@ -3417,9 +3417,9 @@
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 1.54,
-"사고": 3.72,
-"실종": 0.24,
+"지하철": 1.49,
+"사고": 3.75,
+"실종": 0.32,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
