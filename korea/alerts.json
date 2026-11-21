@@ -1,12 +1,12 @@
 {
-"updated": "2026-11-21T11:02:49.517136+00:00",
+"updated": "2026-11-21T11:05:01.772878+00:00",
 "errors": [],
 "events": [
 {
 "id": "phWUpPS2o3UDNOS2NHWWMoc50410",
 "first": "2026-11-21T04:10:00+00:00",
 "last": "2026-11-21T10:56:10+00:00",
-"updated": "2026-11-21T11:02:49.517136+00:00",
+"updated": "2026-11-21T11:05:01.772878+00:00",
 "headline": "코레일, 소정리역 화물열차 탈선에 임시열차 15대 투입",
 "cat": "교통",
 "regions": [
@@ -18,6 +18,7 @@
 "경향신문",
 "뉴스1",
 "대전일보",
+"더팩트",
 "연합뉴스",
 "연합뉴스TV",
 "조선일보",
@@ -85,6 +86,13 @@
 "source": "경향신문",
 "link": "https://www.khan.co.kr/article/202611211947001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
 "time": "2026-11-21T10:47:00+00:00",
+"stage": "속보"
+},
+{
+"title": "[속보] 코레일 \"경부선 일반열차 22일 첫차부터 운행 재개\"",
+"source": "더팩트",
+"link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBPeklqTlEyd1I4ZWJKdzRxU1Z6c19xMUtrVVdMM3VwM0RmX0RvM3VqX2hyS3hDQWFYbXZ1a1Z3ak96dzBOVG5Ba3JzczBhZnFHSDdOd3VR0gFQQVVfeXFMUEFuQzBNLTcxQi1xOWVzeTZQQmVjb1pISXctT0k3bTdHTTViTjMtMlIzU3J4d0hFcDUwVTFIZlJETWt6aGpFZW0zbGpwQU1uTnA?oc=5",
+"time": "2026-11-21T10:47:09+00:00",
 "stage": "속보"
 },
 {
@@ -3470,7 +3478,7 @@
 "terms": {
 "지진": {
 "n30": 0,
-"base": 0.5,
+"base": 0.4,
 "spike": false
 },
 "화재": {
@@ -3489,8 +3497,8 @@
 "spike": false
 },
 "폭발": {
-"n30": 2,
-"base": 0.9,
+"n30": 1,
+"base": 0.8,
 "spike": false
 },
 "붕괴": {
@@ -3504,7 +3512,7 @@
 "spike": false
 },
 "미사일": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -3514,12 +3522,12 @@
 "spike": false
 },
 "지하철": {
-"n30": 1,
-"base": 0.9,
+"n30": 0,
+"base": 0.8,
 "spike": false
 },
 "사고": {
-"n30": 2,
+"n30": 3,
 "base": 2.1,
 "spike": false
 },
@@ -3550,6 +3558,16 @@
 }
 },
 "posts": [
+{
+"text": "- 반복 추론을 통해 100B 미만 오픈 가중치 모델 중 에이전트 코딩/도구 활용/장기 문맥 처리와 전력 대비 지능(0.703)에서 최상위권 성능을 달성했으며, 파라미터 크기에 비례하는 단순 사실 지식의 한계는 효율적인 검색과 도구 사용으로 극복\n\n- 연구 개방을 위해 함께 공개한 가변 루프 모델의 검증 결과, 루프 횟수가 늘어날수록 시행착오가 줄어 사고 사슬이 절반 이하로 압축되면서도 인간",
+"handle": "lunamoth.bsky.social",
+"name": "lunamoth",
+"time": "2026-11-21T11:03:25.757Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/lunamoth.bsky.social/post/3n2sxbohd522u",
+"term": "사고"
+},
 {
 "text": "친구가 엄청나게 큰 빵을 사고, 블스 최고 개그 황제 칭호를 얻었다ㅋㅋㅋ",
 "handle": "minamonaca.bsky.social",
@@ -3736,18 +3754,18 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 0.43,
+"지진": 0.39,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.79,
+"폭발": 0.71,
 "붕괴": 0.05,
-"대피": 0.64,
+"대피": 0.68,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.85,
-"사고": 2.13,
-"실종": 0.08,
+"지하철": 0.77,
+"사고": 2.22,
+"실종": 0.07,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -3999,6 +4017,24 @@
 "new": true
 },
 {
+"term": "빅뱅 마마",
+"traffic": "200+",
+"time": "2026-11-21T09:10:00+00:00",
+"news": [
+{
+"title": "오사카 달군 '2026 마마 어워즈'…첫날 대상에 BTS·엔하이픈",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261120179200005"
+},
+{
+"title": "트레저, 'MAMA' 본상 포함 2관왕..\"자랑스러운 가수 될 것\"",
+"source": "조선일보",
+"link": "https://www.chosun.com/entertainments/music/2026/11/21/GU2TEYTBHBSWINTFGNTGMZTDG4/"
+}
+],
+"new": true
+},
+{
 "term": "중일 관계",
 "traffic": "500+",
 "time": "2026-11-21T09:00:00+00:00",
@@ -4048,24 +4084,6 @@
 "title": "[단독]가수 하루, MBN '무명전설' 대구 앵콜콘 전석 매진",
 "source": "더퍼블릭",
 "link": "https://www.thepublic.kr/news/articleView.html?idxno=327894"
-}
-],
-"new": true
-},
-{
-"term": "굴",
-"traffic": "1000+",
-"time": "2026-11-21T08:20:00+00:00",
-"news": [
-{
-"title": "부안군, 홍합양식장에 연승식 굴 양식 성공…10t 수확 성과",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261120109300055"
-},
-{
-"title": "'연승식 굴 10t 첫 수확'…부안군 대체 양식품종 시범사업 결실",
-"source": "뉴시스",
-"link": "https://www.newsis.com/view/NISX20261120_0003876715"
 }
 ],
 "new": true
