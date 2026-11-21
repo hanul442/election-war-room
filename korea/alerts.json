@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-21T01:05:01.098368+00:00",
+"updated": "2026-11-21T01:07:16.263107+00:00",
 "errors": [],
 "events": [
 {
@@ -2258,47 +2258,6 @@
 "지진",
 "진동"
 ]
-},
-{
-"id": "viewAKR202611210026005271638",
-"first": "2026-11-20T16:38:58+00:00",
-"last": "2026-11-20T19:05:02+00:00",
-"updated": "2026-11-20T19:09:48.025715+00:00",
-"headline": "보령시·서천에 대설주의보",
-"cat": "재난",
-"regions": [
-"충남"
-],
-"sources": [
-"연합뉴스"
-],
-"updates": [
-{
-"title": "보령시·서천에 대설주의보",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261121002600527",
-"time": "2026-11-20T16:38:58+00:00",
-"stage": "1보"
-},
-{
-"title": "보령시(도서제외) 등 충남 3곳 대설주의보 해제",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261121006400527",
-"time": "2026-11-20T19:05:02+00:00",
-"stage": "후속"
-}
-],
-"level": "ALERT",
-"latest": "보령시(도서제외) 등 충남 3곳 대설주의보 해제",
-"tok": [
-"3곳",
-"대설주의보",
-"도서제외",
-"보령시",
-"서천",
-"충남",
-"해제"
-]
 }
 ],
 "sns": {
@@ -2329,7 +2288,7 @@
 "spike": false
 },
 "붕괴": {
-"n30": 2,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
@@ -2344,9 +2303,9 @@
 "spike": false
 },
 "속보": {
-"n30": 5,
-"base": 0.1,
-"spike": true
+"n30": 4,
+"base": 0.2,
+"spike": false
 },
 "지하철": {
 "n30": 2,
@@ -2354,7 +2313,7 @@
 "spike": false
 },
 "사고": {
-"n30": 1,
+"n30": 2,
 "base": 1.1,
 "spike": false
 },
@@ -2385,6 +2344,16 @@
 }
 },
 "posts": [
+{
+"text": "솔직히 QHD 사고는 싶은데, 지금 내가 가진 기기로 QHD까지는 무리고. 그냥 24인치 FHD듀얼이 적합하지 싶음. HDR은 어두워서 뭐가 안보이고.",
+"handle": "raccoondaxter.bsky.social",
+"name": "라쿤 덱스터",
+"time": "2026-11-21T01:06:55.942Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/raccoondaxter.bsky.social/post/3n2rvwzi7322r",
+"term": "사고"
+},
 {
 "text": "#광고\n오늘의 뉴스\n[속보] 李대통령 \"이미 치러진 시험 부정도 엄중히 단죄…일벌백계\"\n기사 보기: https://dailyissue.net/Sd1GWb",
 "handle": "todaypicknews.bsky.social",
@@ -2605,27 +2574,19 @@
 "url": "https://www.youtube.com/watch?v=pTgdGCrbBR0"
 }
 ],
-"spikes": [
-{
-"term": "속보",
-"n30": 5,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-21T01:05:01.098368+00:00"
-}
-],
+"spikes": [],
 "baseline": {
 "지진": 0.05,
-"화재": 0.22,
+"화재": 0.2,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.08,
+"폭발": 0.07,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.24,
-"지하철": 0.51,
-"사고": 1.11,
+"속보": 0.32,
+"지하철": 0.56,
+"사고": 1.2,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -3002,7 +2963,7 @@
 {
 "title": "수백억 ‘플라스틱 열분해’…줄줄이 ‘포기’",
 "source": "KBS 뉴스",
-"link": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8715405"
+"link": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8715850"
 }
 ],
 "new": true
