@@ -1,12 +1,12 @@
 {
-"updated": "2026-11-21T04:09:23.808144+00:00",
+"updated": "2026-11-21T04:11:38.731091+00:00",
 "errors": [],
 "events": [
 {
 "id": "viewAKR202611210289000630202",
 "first": "2026-11-21T02:02:53+00:00",
-"last": "2026-11-21T04:05:56+00:00",
-"updated": "2026-11-21T04:09:23.808144+00:00",
+"last": "2026-11-21T04:07:45+00:00",
+"updated": "2026-11-21T04:11:38.731091+00:00",
 "headline": "코레일 \"천안∼조치원∼대전·서대전 구간 버스로 연계 수송\"",
 "cat": "기타",
 "regions": [
@@ -26,6 +26,7 @@
 "연합뉴스TV",
 "진일보 | 전남일보",
 "톱스타뉴스",
+"파이낸셜뉴스",
 "한국경제",
 "헤럴드경제"
 ],
@@ -115,6 +116,13 @@
 "stage": "후속"
 },
 {
+"title": "경부선 탈선 불똥…광주~용산 ITX-새마을 멈춰",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261121_0003877658",
+"time": "2026-11-21T03:34:13+00:00",
+"stage": "후속"
+},
+{
 "title": "화물열차 탈선 사고로 일부 일반열차 운행 중지",
 "source": "뉴스1",
 "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE92UHZtVGZtejBtN3U3Rzg5WEFPOF92cmphOWh5TVpuaUNVUGY4LXZDOHdKZUthbDFsZXFXZG1kS2RyVlRCN045U01Icw?oc=5",
@@ -148,22 +156,32 @@
 "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9VTEpBTURwbDVUMEZIU0Y4bmhLbnNVNm9GVW84bXF5UUUxcWlfYUR1Z1djejJ0RFZRYU04MXRfMktjU01zb0VxeTV6eEJDeGJfbmludG1UUVNuUQ?oc=5",
 "time": "2026-11-21T04:05:56+00:00",
 "stage": "속보"
+},
+{
+"title": "[속보]일반열차 중단 '천안∼대전'에 KTX·ITX-새마을 등 임시열 차 15대 투입",
+"source": "파이낸셜뉴스",
+"link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9iS2xkNmFEOXFKTkRpUXZha0tudGlvS25uOHltRGtlNm1Db0VMbGdiazliWXU1R3ZZUGlic2xoWGZMRkkzaTN0TmdWcFl2VlprU3I5WUVsNGhhdw?oc=5",
+"time": "2026-11-21T04:07:45+00:00",
+"stage": "속보"
 }
 ],
 "level": "URGENT",
-"latest": "일반열차 중단 '천안∼대전'에 KTX·ITX-새마을 등 임시열차 15대 투입",
+"latest": "일반열차 중단 '천안∼대전'에 KTX·ITX-새마을 등 임시열 차 15대 투입",
 "tok": [
 "15대",
 "5량",
 "ITX",
 "KTX",
 "경부선",
+"광주",
 "광주발",
 "구간",
 "궤도이탈",
 "대전",
+"멈춰",
 "민원",
 "버스",
+"불똥",
 "불편",
 "사고",
 "새마",
@@ -178,21 +196,18 @@
 "연계",
 "연계수송",
 "열차",
+"용산",
 "용산행",
 "운행",
 "운행중지",
 "일반열차",
 "일부",
+"임시열",
 "임시열차",
 "조치원",
 "종합3보",
 "중단",
-"중지",
-"천안",
-"코레일",
-"탈선",
-"투입",
-"화물열차"
+"중지"
 ]
 },
 {
@@ -2823,7 +2838,7 @@
 "terms": {
 "지진": {
 "n30": 0,
-"base": 0.4,
+"base": 0.3,
 "spike": false
 },
 "화재": {
@@ -2847,7 +2862,7 @@
 "spike": false
 },
 "붕괴": {
-"n30": 1,
+"n30": 2,
 "base": 0.1,
 "spike": false
 },
@@ -2862,18 +2877,18 @@
 "spike": false
 },
 "속보": {
-"n30": 2,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
 "지하철": {
 "n30": 0,
-"base": 0.8,
+"base": 0.7,
 "spike": false
 },
 "사고": {
-"n30": 7,
-"base": 5.4,
+"n30": 8,
+"base": 5.5,
 "spike": false
 },
 "실종": {
@@ -2892,7 +2907,7 @@
 "spike": false
 },
 "먹통": {
-"n30": 0,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
@@ -2903,6 +2918,46 @@
 }
 },
 "posts": [
+{
+"text": "전포대로 한복판을 겨우 차지하고 조촐하게 열리는 게 좀 눈물겹네요.\n\n그래도 있을 건 다 있다. 리허설이지만 드랙퀸 공연도 잠깐이나마 보고.\n\n자지쿠키 보지쿠키 같은 건 없었고 에이즈 예방 부스에서 콘돔 러브젤 파는 게 끝이었어요. 굿즈는 프라이드플래그 좀 사고 끝냈슴다.\n\n전교조 노동당 대학교퀴어동아리 기타 협동조합 등등 발도장 찍으러 온 것 아주 칭찬해.",
+"handle": "mill9363.bsky.social",
+"name": "가좌동토마스",
+"time": "2026-11-21T04:10:58.043Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/mill9363.bsky.social/post/3n2sa7p4nl22y",
+"term": "사고"
+},
+{
+"text": "어차피 각성한 이라고 써도 쓰임도 좀 다르니까 그냥 쓰는게 좋겠지. 딱히 번역할 일은 없지만 지금 woke 소리 많이 들었더니 게슈탈트 붕괴 와서 그래요",
+"handle": "onseamil.bsky.social",
+"name": "온새밀 🆓️🇵🇸",
+"time": "2026-11-21T04:10:41.844Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/onseamil.bsky.social/post/3n2sa7nuej22b",
+"term": "붕괴"
+},
+{
+"text": "사실 GPS가 먹통이 된다는 점에서는 텔아비브 공항과 같다고 하죠… 🫠 (수천피트 고도를 날고 있는데 뜬금없이 지상충돌 경고가 난다거나… 다 들은 말이지만)",
+"handle": "ainomsg.bsky.social",
+"name": "달빛은 사랑의 메시지",
+"time": "2026-11-21T04:10:25.642Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/ainomsg.bsky.social/post/3n2sa75zno22n",
+"term": "먹통"
+},
+{
+"text": "가짜만두는 그럼 \n\n만두가 아니다?\n\n그렇지만 많은 이들이 인식하면 만두?\n\n만두탈트 붕괴 와요.",
+"handle": "tsuta.bsky.social",
+"name": "츠타蔦_漸龑",
+"time": "2026-11-21T04:09:36.341Z",
+"likes": 0,
+"reposts": 1,
+"url": "https://bsky.app/profile/tsuta.bsky.social/post/3n2sa5p7cfk26",
+"term": "붕괴"
+},
 {
 "text": "아무거나 먹더니 결국 사고칩니까 ㅋㅋ 좀있다 들어갈개여 !",
 "handle": "fithele.bsky.social",
@@ -2931,16 +2986,6 @@
 "likes": 0,
 "reposts": 0,
 "url": "https://bsky.app/profile/hubak.bsky.social/post/3n2s7qfk4hs2m",
-"term": "사고"
-},
-{
-"text": "그래서 여자입장엔 임신이 무서워\n낙태 가 많지\n\n노콘이 그렇다\n사고 쳐서 애 낳아 일찍 결혼 한 \n주변 친구들 보면\n하아.. ㅋㅋ",
-"handle": "luckboykomp09.bsky.social",
-"name": "꧁나쁜늑대꧂",
-"time": "2026-11-21T03:52:07.146Z",
-"likes": 1,
-"reposts": 0,
-"url": "https://bsky.app/profile/luckboykomp09.bsky.social/post/3n2s76g2drs25",
 "term": "사고"
 },
 {
@@ -3083,21 +3128,21 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 0.33,
+"지진": 0.3,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.64,
-"붕괴": 0.05,
-"대피": 0.71,
+"폭발": 0.68,
+"붕괴": 0.25,
+"대피": 0.74,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.7,
-"사고": 5.55,
+"지하철": 0.63,
+"사고": 5.79,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
-"먹통": 0.05,
+"먹통": 0.15,
 "산불": 0.05
 },
 "errors": [],
@@ -3313,9 +3358,9 @@
 "link": "https://dbr.donga.com/kfocus/view/en/article_no/3965"
 },
 {
-"title": "POSCO Group signs lithium supply deal with China's CATL through 2028",
-"source": "Chosunbiz",
-"link": "https://biz.chosun.com/en/en-industry/2026/11/18/MCEZ7PPJ7FDULBNLQNNY3CGDS4/"
+"title": "“Lands China’s Battery Giant CATL” ... POSCO to Supply Large Volumes of Lithium for Three Years",
+"source": "매일경제",
+"link": "https://www.mk.co.kr/en/business/12212530"
 }
 ],
 "new": true
@@ -3332,8 +3377,8 @@
 },
 {
 "title": "MLB 다저스, 내야수 로이스 트레이드 영입…김혜성 비상",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261121025600007"
+"source": "KBS 뉴스",
+"link": "https://news.kbs.co.kr/news/view.do?ncd=8719102"
 }
 ],
 "new": true
