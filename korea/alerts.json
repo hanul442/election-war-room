@@ -1,12 +1,12 @@
 {
-"updated": "2026-11-21T04:45:28.510085+00:00",
+"updated": "2026-11-21T04:47:42.548295+00:00",
 "errors": [],
 "events": [
 {
 "id": "viewAKR202611210289000630202",
 "first": "2026-11-21T02:02:53+00:00",
-"last": "2026-11-21T04:26:00+00:00",
-"updated": "2026-11-21T04:38:41.800346+00:00",
+"last": "2026-11-21T04:40:55+00:00",
+"updated": "2026-11-21T04:47:42.548295+00:00",
 "headline": "코레일 \"천안∼조치원∼대전·서대전 구간 버스로 연계 수송\"",
 "cat": "기타",
 "regions": [
@@ -192,10 +192,17 @@
 "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8tOXM0VURFVEpfZDJvQi1sY3ItZmNsRHNCOWdETUdLRXBZRWJ5d0hXbXZtYlpJczN0S1k2TU45a2ZpeDhhSXBhc05OaktJNm5IVU13NnNOYm1ZeFRkc2VIT2JjZ2ozRDA?oc=5",
 "time": "2026-11-21T04:26:00+00:00",
 "stage": "속보"
+},
+{
+"title": "화물열차 이탈·일반열차 중단에 KTX·ITX-새마을 등 15대 임시 투입",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261121033600063",
+"time": "2026-11-21T04:40:55+00:00",
+"stage": "후속"
 }
 ],
 "level": "URGENT",
-"latest": "일반열차 중단 천안~대전에 KTX 등 15대 투입",
+"latest": "화물열차 이탈·일반열차 중단에 KTX·ITX-새마을 등 15대 임시 투입",
 "tok": [
 "15대",
 "5량",
@@ -229,14 +236,14 @@
 "용산행",
 "운행",
 "운행중지",
+"이탈",
 "일반열차",
 "일부",
+"임시",
 "임시열",
 "임시열차",
 "조치원",
-"종합3보",
-"중단",
-"중지"
+"종합3보"
 ]
 },
 {
@@ -274,6 +281,38 @@
 "코인",
 "하회",
 "향방"
+]
+},
+{
+"id": "phWUpPS2o3UDNOS2NHWWMoc50410",
+"first": "2026-11-21T04:10:00+00:00",
+"last": "2026-11-21T04:10:00+00:00",
+"updated": "2026-11-21T04:47:42.548295+00:00",
+"headline": "코레일, 소정리역 화물열차 탈선에 임시열차 15대 투입",
+"cat": "교통",
+"regions": [],
+"sources": [
+"대전일보"
+],
+"updates": [
+{
+"title": "[속보] 코레일, 소정리역 화물열차 탈선에 임시열차 15대 투입",
+"source": "대전일보",
+"link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE84bmlvYWdhbHcxTVhsZlJYS0d0cFY2aU5LTzF1YlF4T2MtUTd2U3JSc0RzRVpHUHl0Ym9HRl83ckVPdUU5QVlfd3dpbHU0VXpnU1RzWERFTl8zTDgtamZ6TURLVUFtQW9fd3J4QXpSa9IBc0FVX3lxTE5WMVhHeW05SzFOU3d1YkZOUURMdUlrb3laYUJaU2JrSXI4dzVoTnZSbzRjT1dXVzRqMWpXYy1WQlJ3cEZRWkxfWkJiejVTalBTX3h0Z2VsUkk3dmdieTVMNkFBTHphWUpPS2o3UDNOS2NHWWM?oc=5",
+"time": "2026-11-21T04:10:00+00:00",
+"stage": "얼럿"
+}
+],
+"level": "URGENT",
+"latest": "코레일, 소정리역 화물열차 탈선에 임시열차 15대 투입",
+"tok": [
+"15대",
+"소정리역",
+"임시열차",
+"코레일",
+"탈선",
+"투입",
+"화물열차"
 ]
 },
 {
@@ -2895,7 +2934,7 @@
 },
 "붕괴": {
 "n30": 1,
-"base": 1.2,
+"base": 1.1,
 "spike": false
 },
 "대피": {
@@ -2920,7 +2959,7 @@
 },
 "사고": {
 "n30": 5,
-"base": 5.8,
+"base": 5.7,
 "spike": false
 },
 "실종": {
@@ -3156,21 +3195,21 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 0.06,
+"지진": 0.05,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.22,
-"붕괴": 1.1,
-"대피": 0.18,
+"폭발": 0.2,
+"붕괴": 0.99,
+"대피": 0.16,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.54,
-"사고": 5.7,
+"지하철": 0.59,
+"사고": 5.63,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
-"먹통": 0.56,
+"먹통": 0.5,
 "산불": 0.05
 },
 "errors": [],
