@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-21T23:01:11.579430+00:00",
+"updated": "2026-11-21T23:03:30.046130+00:00",
 "errors": [],
 "events": [
 {
@@ -38,10 +38,11 @@
 "id": "3M3NCdnFoS1VhcjJWZlMxoc51025",
 "first": "2026-11-21T10:25:00+00:00",
 "last": "2026-11-21T22:59:02+00:00",
-"updated": "2026-11-21T23:01:11.579430+00:00",
+"updated": "2026-11-21T23:03:30.046130+00:00",
 "headline": "내일 아침 전국 대부분 영하권…최저 ‘영하 9도’",
 "cat": "기타",
 "regions": [
+"강원",
 "경기",
 "경남",
 "광주",
@@ -139,6 +140,13 @@
 "stage": "후속"
 },
 {
+"title": "일요일 강원 아침 '꽁꽁'…평창 봉평 -13.9도",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261122003800062",
+"time": "2026-11-21T21:24:23+00:00",
+"stage": "후속"
+},
+{
 "title": "부산, 대체로 맑은 날씨…낮 최고기온 9도·첫 얼음 관측",
 "source": "뉴시스",
 "link": "https://www.newsis.com/view/NISX20261122_0003877874",
@@ -182,6 +190,7 @@
 "7도",
 "8도",
 "9도",
+"강원",
 "강추위",
 "경기남부",
 "경남",
@@ -204,6 +213,7 @@
 "맑음",
 "맑지",
 "받아",
+"봉평",
 "부산",
 "살얼음",
 "소설",
@@ -214,9 +224,7 @@
 "영향",
 "오늘날씨",
 "오전부터",
-"온다",
-"울산",
-"일요일"
+"온다"
 ]
 },
 {
@@ -886,7 +894,7 @@
 "spike": false
 },
 "폭발": {
-"n30": 3,
+"n30": 2,
 "base": 0.1,
 "spike": false
 },
@@ -912,12 +920,12 @@
 },
 "지하철": {
 "n30": 0,
-"base": 0.2,
+"base": 0.1,
 "spike": false
 },
 "사고": {
 "n30": 0,
-"base": 0.2,
+"base": 0.1,
 "spike": false
 },
 "실종": {
@@ -1130,8 +1138,8 @@
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.15,
-"사고": 0.14,
+"지하철": 0.14,
+"사고": 0.13,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -1316,6 +1324,42 @@
 },
 "trends": [
 {
+"term": "реал мадрид – сельта",
+"traffic": "100+",
+"time": "2026-11-21T22:00:00+00:00",
+"news": [
+{
+"title": "Реал - Сельта. Чемпионат Испании. Тур 13",
+"source": "Sportbox",
+"link": "https://news.sportbox.ru/Vidy_sporta/Futbol/Evropejskie_chempionaty/Ispaniya/spbvideo_NI2385175_translation_Real___Selta_Chempionat_Ispanii_Tur_13"
+},
+{
+"title": "Итурральде о пенальти «Реала»: «На тоненького. ВАР не вмешался, потому что это эпизод на усмотрение судьи»",
+"source": "Спорт Mail",
+"link": "https://sportmail.ru/news/others/72990025/"
+}
+],
+"new": true
+},
+{
+"term": "real madrid đấu với celta",
+"traffic": "100+",
+"time": "2026-11-21T22:00:00+00:00",
+"news": [
+{
+"title": "Nhận định bóng đá Real Madrid vs Celta Vigo, 03h00 ngày 22/11: Chiến thắng chật vật cho chủ nhà!",
+"source": "Tạp chí Bóng đá",
+"link": "https://bongdaplus.vn/la-liga/nhan-dinh-bong-da-real-madrid-vs-celta-vigo-03h00-ngay-22-11-chien-thang-chat-vat-cho-chu-nha-5294742611.html"
+},
+{
+"title": "Mourinho thắng nhờ Vinicius và Carlos Espi",
+"source": "Znews",
+"link": "https://znews.vn/mourinho-thang-nho-vinicius-va-carlos-espi-post1698191.html"
+}
+],
+"new": true
+},
+{
 "term": "구자욱",
 "traffic": "5000+",
 "time": "2026-11-21T21:50:00+00:00",
@@ -1444,42 +1488,6 @@
 "title": "'첫 금' 신동민, 男쇼트트랙 위기 평가에 \"조금만 기다려주세요\"",
 "source": "연합뉴스",
 "link": "https://www.yna.co.kr/view/AKR20261121047400007"
-}
-],
-"new": true
-},
-{
-"term": "지수",
-"traffic": "1000+",
-"time": "2026-11-21T20:40:00+00:00",
-"news": [
-{
-"title": "골드만삭스 패닉지수 최고치 근접…다음주도 매도세 지속 경고",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261122000800072"
-},
-{
-"title": "골드만삭스 ‘패닉지수’ 10점 만점에 9점…다음주도 매도 압력 지속 경고",
-"source": "KBS 뉴스",
-"link": "https://news.kbs.co.kr/news/view.do?ncd=8719291"
-}
-],
-"new": true
-},
-{
-"term": "강사",
-"traffic": "500+",
-"time": "2026-11-21T20:40:00+00:00",
-"news": [
-{
-"title": "일타 강사인가 ‘일탈’ 강사인가",
-"source": "조선일보",
-"link": "https://www.chosun.com/national/weekend/2026/11/21/PHM6NQOYUBHKJCLZ4YT3S5R234/"
-},
-{
-"title": "“너는 못 쓰게 되지 않았다”…수능 뒤 일타강사 위로에 ‘울컥’",
-"source": "이데일리",
-"link": "https://www.edaily.co.kr/News/Read?newsId=04241046645647688&mediaCodeNo=257"
 }
 ],
 "new": true
