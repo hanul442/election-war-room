@@ -1,12 +1,12 @@
 {
-"updated": "2026-11-21T04:07:08.584365+00:00",
+"updated": "2026-11-21T04:09:23.808144+00:00",
 "errors": [],
 "events": [
 {
 "id": "viewAKR202611210289000630202",
 "first": "2026-11-21T02:02:53+00:00",
-"last": "2026-11-21T04:04:06+00:00",
-"updated": "2026-11-21T04:07:08.584365+00:00",
+"last": "2026-11-21T04:05:56+00:00",
+"updated": "2026-11-21T04:09:23.808144+00:00",
 "headline": "코레일 \"천안∼조치원∼대전·서대전 구간 버스로 연계 수송\"",
 "cat": "기타",
 "regions": [
@@ -26,6 +26,7 @@
 "연합뉴스TV",
 "진일보 | 전남일보",
 "톱스타뉴스",
+"한국경제",
 "헤럴드경제"
 ],
 "updates": [
@@ -133,14 +134,29 @@
 "link": "https://www.newsis.com/view/NISX20261121_0003877671",
 "time": "2026-11-21T04:04:06+00:00",
 "stage": "후속"
+},
+{
+"title": "[속보] 일반열차 중단 '천안∼대전'에 KTX·ITX-새마을 등 15대 투입",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261121033300063",
+"time": "2026-11-21T04:04:20+00:00",
+"stage": "속보"
+},
+{
+"title": "[속보] 일반열차 중단 '천안∼대전'에 KTX·ITX-새마을 등 임시열차 15대 투입",
+"source": "한국경제",
+"link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9VTEpBTURwbDVUMEZIU0Y4bmhLbnNVNm9GVW84bXF5UUUxcWlfYUR1Z1djejJ0RFZRYU04MXRfMktjU01zb0VxeTV6eEJDeGJfbmludG1UUVNuUQ?oc=5",
+"time": "2026-11-21T04:05:56+00:00",
+"stage": "속보"
 }
 ],
 "level": "URGENT",
-"latest": "경부선 화물열차 궤도이탈 여파…코레일, 임시열차 15대 투입",
+"latest": "일반열차 중단 '천안∼대전'에 KTX·ITX-새마을 등 임시열차 15대 투입",
 "tok": [
 "15대",
 "5량",
 "ITX",
+"KTX",
 "경부선",
 "광주발",
 "구간",
@@ -150,6 +166,7 @@
 "버스",
 "불편",
 "사고",
+"새마",
 "새마을",
 "서대전",
 "세종",
@@ -2836,7 +2853,7 @@
 },
 "대피": {
 "n30": 1,
-"base": 0.6,
+"base": 0.7,
 "spike": false
 },
 "미사일": {
@@ -2850,13 +2867,13 @@
 "spike": false
 },
 "지하철": {
-"n30": 1,
+"n30": 0,
 "base": 0.8,
 "spike": false
 },
 "사고": {
-"n30": 6,
-"base": 5.3,
+"n30": 7,
+"base": 5.4,
 "spike": false
 },
 "실종": {
@@ -2887,6 +2904,16 @@
 },
 "posts": [
 {
+"text": "아무거나 먹더니 결국 사고칩니까 ㅋㅋ 좀있다 들어갈개여 !",
+"handle": "fithele.bsky.social",
+"name": "피델🎻🫖📚👾👽",
+"time": "2026-11-21T04:08:02.841Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/fithele.bsky.social/post/3n2sa2vla3c2z",
+"term": "사고"
+},
+{
 "text": "사고를 계기로 침대를 사게 되는게 슬픔",
 "handle": "akindsilver.bsky.social",
 "name": "고냑",
@@ -2914,16 +2941,6 @@
 "likes": 1,
 "reposts": 0,
 "url": "https://bsky.app/profile/luckboykomp09.bsky.social/post/3n2s76g2drs25",
-"term": "사고"
-},
-{
-"text": "그래서 부모님은 내가 순하게 클 거라 예상하셨으나 겉으로 사고만 안 치지 내면이 존나 고집쟁이에 비관주의자라 후에 고민좀 하셨을거. (하지만 안바뀜)",
-"handle": "lyingdownbear.bsky.social",
-"name": "널부렁🎗️",
-"time": "2026-11-21T03:51:50.960Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/lyingdownbear.bsky.social/post/3n2s75wzj2s24",
 "term": "사고"
 },
 {
@@ -2972,16 +2989,6 @@
 "time": "2026-11-21T03:40:17Z",
 "term": "속보",
 "url": "https://www.youtube.com/watch?v=y3u_IwFT9EU"
-},
-{
-"text": "걍...지하철 타요...",
-"handle": "coorats.bsky.social",
-"name": "연탄",
-"time": "2026-11-21T03:38:10.350Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/coorats.bsky.social/post/3n2s6fiqghs2q",
-"term": "지하철"
 },
 {
 "platform": "YouTube",
@@ -3076,17 +3083,17 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 0.37,
+"지진": 0.33,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.6,
+"폭발": 0.64,
 "붕괴": 0.05,
-"대피": 0.68,
+"대피": 0.71,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.78,
-"사고": 5.39,
+"지하철": 0.7,
+"사고": 5.55,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -3306,9 +3313,9 @@
 "link": "https://dbr.donga.com/kfocus/view/en/article_no/3965"
 },
 {
-"title": "“Lands China’s Battery Giant CATL” ... POSCO to Supply Large Volumes of Lithium for Three Years",
-"source": "매일경제",
-"link": "https://www.mk.co.kr/en/business/12212530"
+"title": "POSCO Group signs lithium supply deal with China's CATL through 2028",
+"source": "Chosunbiz",
+"link": "https://biz.chosun.com/en/en-industry/2026/11/18/MCEZ7PPJ7FDULBNLQNNY3CGDS4/"
 }
 ],
 "new": true
@@ -3325,8 +3332,8 @@
 },
 {
 "title": "MLB 다저스, 내야수 로이스 트레이드 영입…김혜성 비상",
-"source": "KBS 뉴스",
-"link": "https://news.kbs.co.kr/news/view.do?ncd=8719102"
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261121025600007"
 }
 ],
 "new": true
