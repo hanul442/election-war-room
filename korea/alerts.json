@@ -1,40 +1,12 @@
 {
-"updated": "2026-11-21T10:53:57.309754+00:00",
+"updated": "2026-11-21T10:56:10.131131+00:00",
 "errors": [],
 "events": [
 {
-"id": "yOGxKRFFIWjVVQ0t5bnBRoc51040",
-"first": "2026-11-21T10:40:11+00:00",
-"last": "2026-11-21T10:40:11+00:00",
-"updated": "2026-11-21T10:45:07.478980+00:00",
-"headline": "속보) ai 리만가설 증명",
-"cat": "기타",
-"regions": [],
-"sources": [
-"이슈에디코"
-],
-"updates": [
-{
-"title": "속보) ai 리만가설 증명",
-"source": "이슈에디코",
-"link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQeWRQY3Z0X3E2OWdjSlhyYW5rUGRnblJlUmFnZ0xjZ3c3ekRuQ21RVFE5TkNzMUtPWGdLN2ZSWk9vajJmd2JQLVJ5blJQaTZ6QnFoQjU5SmtvQmRRS3VpRUNHQm15Q1k5VjZkQWI4SlNTS2lSejJYMktrQnh1ek9yOGxKRFFIWjVVQ0t5bnBR?oc=5",
-"time": "2026-11-21T10:40:11+00:00",
-"stage": "1보"
-}
-],
-"level": "ALERT",
-"latest": "속보) ai 리만가설 증명",
-"tok": [
-"ai",
-"리만가설",
-"증명"
-]
-},
-{
 "id": "phWUpPS2o3UDNOS2NHWWMoc50410",
 "first": "2026-11-21T04:10:00+00:00",
-"last": "2026-11-21T10:39:41+00:00",
-"updated": "2026-11-21T10:45:07.478980+00:00",
+"last": "2026-11-21T10:49:50+00:00",
+"updated": "2026-11-21T10:56:10.131131+00:00",
 "headline": "코레일, 소정리역 화물열차 탈선에 임시열차 15대 투입",
 "cat": "교통",
 "regions": [
@@ -44,6 +16,7 @@
 "sources": [
 "SBS",
 "경향신문",
+"뉴스1",
 "대전일보",
 "연합뉴스",
 "연합뉴스TV",
@@ -106,10 +79,17 @@
 "link": "https://www.yna.co.kr/view/AKR20261121048300063",
 "time": "2026-11-21T10:39:41+00:00",
 "stage": "속보"
+},
+{
+"title": "[속보] 경부선 일반열차, 22일 첫차부터 정상 운행",
+"source": "뉴스1",
+"link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE0xS2VpblNCaUdNS2k3ZWFnQkR3UXdndm1JR2puemVrR1FHY1lqYnFxUWdWUnRmTHhjMmdoWkV5bDRGem1KTlBnUkRUZW9zOFJ1YlJOUFlzSGFCX0U2ZDVNcw?oc=5",
+"time": "2026-11-21T10:49:50+00:00",
+"stage": "속보"
 }
 ],
 "level": "URGENT",
-"latest": "코레일 \"22일 첫차부터 경부선 일반열차 운행 재개\"",
+"latest": "경부선 일반열차, 22일 첫차부터 정상 운행",
 "tok": [
 "15대",
 "15편",
@@ -127,12 +107,41 @@
 "임시열차",
 "자막뉴스",
 "재개",
+"정상",
 "천안",
 "첫차부터",
 "코레일",
 "탈선",
 "투입",
 "화물열차"
+]
+},
+{
+"id": "yOGxKRFFIWjVVQ0t5bnBRoc51040",
+"first": "2026-11-21T10:40:11+00:00",
+"last": "2026-11-21T10:40:11+00:00",
+"updated": "2026-11-21T10:45:07.478980+00:00",
+"headline": "속보) ai 리만가설 증명",
+"cat": "기타",
+"regions": [],
+"sources": [
+"이슈에디코"
+],
+"updates": [
+{
+"title": "속보) ai 리만가설 증명",
+"source": "이슈에디코",
+"link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQeWRQY3Z0X3E2OWdjSlhyYW5rUGRnblJlUmFnZ0xjZ3c3ekRuQ21RVFE5TkNzMUtPWGdLN2ZSWk9vajJmd2JQLVJ5blJQaTZ6QnFoQjU5SmtvQmRRS3VpRUNHQm15Q1k5VjZkQWI4SlNTS2lSejJYMktrQnh1ek9yOGxKRFFIWjVVQ0t5bnBR?oc=5",
+"time": "2026-11-21T10:40:11+00:00",
+"stage": "1보"
+}
+],
+"level": "ALERT",
+"latest": "속보) ai 리만가설 증명",
+"tok": [
+"ai",
+"리만가설",
+"증명"
 ]
 },
 {
@@ -3538,7 +3547,7 @@
 },
 "대피": {
 "n30": 1,
-"base": 0.4,
+"base": 0.5,
 "spike": false
 },
 "미사일": {
@@ -3552,7 +3561,7 @@
 "spike": false
 },
 "지하철": {
-"n30": 3,
+"n30": 2,
 "base": 1.3,
 "spike": false
 },
@@ -3701,16 +3710,6 @@
 "url": "https://www.youtube.com/watch?v=lE5Dtvo0Ahc"
 },
 {
-"text": "지하철 맞은 자리에 먹고 싶은 년이 셋이나 앉아 있다.",
-"handle": "knubear.bsky.social",
-"name": "knubear.bsky.social",
-"time": "2026-11-21T10:24:23.444Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/knubear.bsky.social/post/3n2sv3ujxv22f",
-"term": "지하철"
-},
-{
 "platform": "YouTube",
 "text": "(속보) 탄핵 꺼낸 민주당에 한동훈, 미쳐도 곱게 미쳐라 #Shorts #정치 #민주당",
 "handle": "UC_AXA--DtjtTQczbK_qShFw",
@@ -3794,18 +3793,18 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 0.66,
+"지진": 0.59,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.84,
+"폭발": 0.86,
 "붕괴": 0.05,
-"대피": 0.45,
+"대피": 0.51,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 1.29,
-"사고": 2.19,
-"실종": 0.12,
+"지하철": 1.16,
+"사고": 2.17,
+"실종": 0.11,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
