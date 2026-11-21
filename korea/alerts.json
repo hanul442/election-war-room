@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-21T20:43:44.360183+00:00",
+"updated": "2026-11-21T20:45:58.393420+00:00",
 "errors": [],
 "events": [
 {
@@ -508,8 +508,8 @@
 "sns": {
 "terms": {
 "지진": {
-"n30": 0,
-"base": 0.6,
+"n30": 1,
+"base": 0.5,
 "spike": false
 },
 "화재": {
@@ -554,7 +554,7 @@
 },
 "지하철": {
 "n30": 1,
-"base": 0.2,
+"base": 0.3,
 "spike": false
 },
 "사고": {
@@ -589,6 +589,16 @@
 }
 },
 "posts": [
+{
+"text": "【지진 정보】일본 시간 11월 22일 05:39경\n진원: Amakusa and Ashikita Region, Kumamoto Prefecture (M2.3, 깊이 약 10km)\n최대 진도: 1\n진도 1: 구마모토현\n이 지진으로 인한 쓰나미 걱정은 없습니다.\n(일본 기상청 발표)\n#일본 #지진 #방재",
+"handle": "ko.soramoyou.yk-planning.jp",
+"name": "Soramoyou 한국어",
+"time": "2026-11-21T20:44:38.245Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/ko.soramoyou.yk-planning.jp/post/3n2txqxwcso2e",
+"term": "지진"
+},
 {
 "text": "지하철 역까지 같이 걸으면서 배웅해주고 버스를 타고 돌아오는 길이 피로했다. 하지만 식사를 하고 난 후에 전혀 걷지 않으면 오히려 컨디션이 더 나빠지는 것 같아 힘들어도 최대한 걸으려 한다. 귀가하자마자 대충 씻고, 고양이들 밥 주고, 물그릇 세척해주고, 간단한 청소를 한 다음 전기장판을 가장 약하게 틀어 몸을 뉘자마자 기절하듯 잠에 빠져 들었다. 그리고 세 시간쯤 후에 갑작스럽게 눈을 떴는",
 "handle": "chinook07.bsky.social",
@@ -777,11 +787,11 @@
 "n30": 8,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-21T20:43:44.360183+00:00"
+"since": "2026-11-21T20:45:58.393420+00:00"
 }
 ],
 "baseline": {
-"지진": 0.54,
+"지진": 0.59,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
@@ -790,8 +800,8 @@
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.32,
-"사고": 0.1,
+"지하철": 0.39,
+"사고": 0.09,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -999,14 +1009,14 @@
 "time": "2026-11-21T19:20:00+00:00",
 "news": [
 {
+"title": "Real Madrid legend spotted in attendance at Celta Vigo clash",
+"source": "Yahoo Sports",
+"link": "https://sports.yahoo.com/articles/real-madrid-legend-spotted-attendance-202500077.html"
+},
+{
 "title": "How to watch Real Madrid vs. Celta Vigo online for free",
 "source": "Mashable",
 "link": "https://mashable.com/entertainment/real-madrid-celta-vigo-la-liga-2026-live-stream-for-free"
-},
-{
-"title": "Real Madrid vs. Celta Vigo Predictions: Vinicius Junior Returns As Madrid Seek Ninth Consecutive Win",
-"source": "Sports Illustrated",
-"link": "https://www.si.com/soccer/real-madrid-vs-celta-vigo-predictions-vinicius-junior-returns-madrid-ninth-consecutive-win"
 }
 ],
 "new": true
@@ -1040,9 +1050,9 @@
 "link": "https://www.bbc.com/sport/football/live/cqd01ey009rxt"
 },
 {
-"title": "Newcastle news: Analysis - Boos for ex-hero Bruno",
-"source": "BBC",
-"link": "https://www.bbc.co.uk/sport/football/articles/ck0jxz989z01o"
+"title": "Analysis: Boos for ex-hero Bruno",
+"source": "Yahoo Sports",
+"link": "https://sports.yahoo.com/articles/analysis-boos-ex-hero-bruno-193724091.html"
 }
 ],
 "new": true
@@ -1103,7 +1113,7 @@
 },
 {
 "term": "뉴캐슬 대 아스널",
-"traffic": "2000+",
+"traffic": "5000+",
 "time": "2026-11-21T16:40:00+00:00",
 "news": [
 {
