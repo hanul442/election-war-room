@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-21T18:33:24.399495+00:00",
+"updated": "2026-11-21T18:35:39.539488+00:00",
 "errors": [],
 "events": [
 {
@@ -935,7 +935,7 @@
 "spike": false
 },
 "폭발": {
-"n30": 6,
+"n30": 5,
 "base": 0.7,
 "spike": true
 },
@@ -1237,31 +1237,31 @@
 "spikes": [
 {
 "term": "폭발",
-"n30": 6,
+"n30": 5,
 "base": 0.7,
 "spike": true,
-"since": "2026-11-21T18:33:24.399495+00:00"
+"since": "2026-11-21T18:35:39.539488+00:00"
 },
 {
 "term": "속보",
 "n30": 6,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-21T18:33:24.399495+00:00"
+"since": "2026-11-21T18:35:39.539488+00:00"
 }
 ],
 "baseline": {
-"지진": 0.2,
+"지진": 0.18,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.72,
+"폭발": 0.75,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.51,
-"사고": 1.47,
+"지하철": 0.56,
+"사고": 1.42,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -1500,6 +1500,42 @@
 "new": true
 },
 {
+"term": "psg",
+"traffic": "100+",
+"time": "2026-11-21T17:20:00+00:00",
+"news": [
+{
+"title": "Grosse inquiétude pour Désiré Doué, sorti sur civière",
+"source": "SO FOOT.com",
+"link": "https://www.sofoot.com/breves/nice-psg-desire-doue-evacue-sur-civiere-apres-une-torsion-du-genou"
+},
+{
+"title": "Nice renversé, le PSG profite d'un penalty litigieux",
+"source": "Foot01",
+"link": "https://www.foot01.com/paris/nice-renverse-le-psg-profite-dun-penalty-litigieux"
+}
+],
+"new": true
+},
+{
+"term": "arsenal",
+"traffic": "100+",
+"time": "2026-11-21T16:50:00+00:00",
+"news": [
+{
+"title": "Match Summary",
+"source": "BBC",
+"link": "https://www.bbc.com/sport/football/live/ck3r530w3vd3t"
+},
+{
+"title": "Williams-Barnett scores and assists on debut as Tottenham beat Ipswich 2-0",
+"source": "Chosunbiz",
+"link": "https://biz.chosun.com/en/en-sports/2026/11/22/HMHOMQIGR5DI5HSJZELJP3T2JM/"
+}
+],
+"new": true
+},
+{
 "term": "뉴캐슬 대 아스널",
 "traffic": "2000+",
 "time": "2026-11-21T16:40:00+00:00",
@@ -1612,42 +1648,6 @@
 "traffic": "500+",
 "time": "2026-11-21T15:00:00+00:00",
 "news": [],
-"new": true
-},
-{
-"term": "장동혁",
-"traffic": "200+",
-"time": "2026-11-21T14:50:00+00:00",
-"news": [
-{
-"title": "이 대통령 \"5500억 환수가 배임이면…\" 대장동 업자 인터뷰 SNS에 공유",
-"source": "JTBC",
-"link": "https://news.jtbc.co.kr/article/NB12329146"
-},
-{
-"title": "장동혁 \"억울하면 재판 받아라\"…민주 \"크게 착각\"",
-"source": "연합뉴스TV",
-"link": "https://www.yonhapnewstv.co.kr/news/AKR20261121165813814"
-}
-],
-"new": true
-},
-{
-"term": "chelsea vs leeds",
-"traffic": "500+",
-"time": "2026-11-21T14:50:00+00:00",
-"news": [
-{
-"title": "Chelsea 1-4 Leeds: Noah Okafor scores twice as visitors win",
-"source": "BBC",
-"link": "https://www.bbc.com/sport/football/live/c3dx19jxx15zt"
-},
-{
-"title": "Leeds overturn Chelsea lead with 4-1 win as Alonso suffers fifth league defeat",
-"source": "Chosunbiz",
-"link": "https://biz.chosun.com/en/en-sports/2026/11/22/NJOCZG4RBJDSVBE4EYNBHKBMSE/"
-}
-],
 "new": true
 }
 ],
