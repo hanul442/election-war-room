@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-21T17:03:20.148983+00:00",
+"updated": "2026-11-21T17:05:35.631128+00:00",
 "errors": [],
 "events": [
 {
@@ -2062,7 +2062,7 @@
 },
 "폭발": {
 "n30": 3,
-"base": 0.2,
+"base": 0.3,
 "spike": false
 },
 "붕괴": {
@@ -2097,7 +2097,7 @@
 },
 "실종": {
 "n30": 0,
-"base": 0.4,
+"base": 0.3,
 "spike": false
 },
 "단수": {
@@ -2386,7 +2386,7 @@
 "n30": 6,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-21T17:03:20.148983+00:00"
+"since": "2026-11-21T17:05:35.631128+00:00"
 }
 ],
 "baseline": {
@@ -2394,14 +2394,14 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.32,
+"폭발": 0.39,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.17,
-"사고": 3.78,
-"실종": 0.33,
+"지하철": 0.15,
+"사고": 3.8,
+"실종": 0.3,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -2621,24 +2621,6 @@
 },
 "trends": [
 {
-"term": "토트넘 입스위치",
-"traffic": "200+",
-"time": "2026-11-21T15:40:00+00:00",
-"news": [
-{
-"title": "Tottenham vs Ipswich LIVE! Premier League match updates, news and score",
-"source": "Sky Sports",
-"link": "https://www.skysports.com/football/live-blog/13610687/tottenham-vs-ipswich-live-premier-league-match-updates-news-and-score"
-},
-{
-"title": "Confirmed line-ups: Spurs vs Ipswich Town",
-"source": "Tottenham Hotspur",
-"link": "https://www.tottenhamhotspur.com/news/1266934/confirmed-line-ups-spurs-vs-ipswich-town-premier-league-november-2026"
-}
-],
-"new": false
-},
-{
 "term": "como vs cagliari",
 "traffic": "100+",
 "time": "2026-11-21T15:30:00+00:00",
@@ -2675,6 +2657,24 @@
 "new": true
 },
 {
+"term": "루카 윌리엄스 바넷",
+"traffic": "1000+",
+"time": "2026-11-21T15:10:00+00:00",
+"news": [
+{
+"title": "손흥민 \"내 자리 그냥 물려줄 생각 없어\" 예언이었나...'벨기에에서도 벤치' 양민혁, 초대형 경쟁자 호평 등장 \"올 시즌 도약 가능성 크다\"",
+"source": "스포츠조선",
+"link": "https://www.sportschosun.com/football/2026-11-19/202611190100121670011269"
+},
+{
+"title": "양민혁 절망! \"여기 양민혁 같은 선수 많다\" 손흥민 경고, 정확한 팩트였다…18세 경쟁자, EPL 첫 선발 '1G 1AS' 펄펄→토트넘 최연소 득점 3위",
+"source": "www.xportsnews.com",
+"link": "https://www.xportsnews.com/article/2221858"
+}
+],
+"new": true
+},
+{
 "term": "엑셀방송",
 "traffic": "200+",
 "time": "2026-11-21T15:10:00+00:00",
@@ -2701,7 +2701,7 @@
 },
 {
 "term": "첼시",
-"traffic": "500+",
+"traffic": "1000+",
 "time": "2026-11-21T14:50:00+00:00",
 "news": [
 {
@@ -2719,18 +2719,18 @@
 },
 {
 "term": "chelsea vs leeds",
-"traffic": "200+",
+"traffic": "500+",
 "time": "2026-11-21T14:50:00+00:00",
 "news": [
+{
+"title": "Teenager Williams-Barnett inspires Spurs to Ipswich win",
+"source": "BBC",
+"link": "https://www.bbc.com/sport/football/live/c699exk99z54t"
+},
 {
 "title": "Chelsea fans’ preferred lineup against Leeds United: Back four and Mike Penders",
 "source": "We Ain't Got No History",
 "link": "https://weaintgotnohistory.sbnation.com/premier-league/174205/chelsea-fans-preferred-lineup-against-leeds-united-back-four-and-mike-penders"
-},
-{
-"title": "Daniel Farke provides fitness updates on Stach, Okafor and Calvert-Lewin ahead of Chelsea",
-"source": "Leeds United | Official Website",
-"link": "https://www.leedsunited.com/en/news/daniel-farke-provides-fitness-updates-on-stach-okafor-and-calvert-lewin-ahead-of-chelsea"
 }
 ],
 "new": true
@@ -2777,14 +2777,14 @@
 "time": "2026-11-21T14:30:00+00:00",
 "news": [
 {
-"title": "Coventry City vs Crystal Palace: Premier League preview, team news, stats & head-to-head",
+"title": "Premier League: Leeds thrash Chelsea, plus wins for Spurs, Bournemouth and Coventry",
 "source": "BBC",
-"link": "https://www.bbc.com/sport/football/live/c6pw42nwwgvjt"
+"link": "https://www.bbc.com/sport/football/live/ck3r530w3vd3t"
 },
 {
-"title": "Chelsea v Leeds, Tottenham v Ipswich, and more: football clockwatch – live",
-"source": "The Guardian",
-"link": "https://www.theguardian.com/football/live/2026/nov/21/chelsea-v-leeds-tottenham-v-ipswich-and-more-football-clockwatch-live"
+"title": "Team news for Black Cats battle",
+"source": "Aston Villa",
+"link": "https://www.avfc.co.uk/news/2026/november/20/prematch-team-news-for-black-cats-battle/"
 }
 ],
 "new": false
