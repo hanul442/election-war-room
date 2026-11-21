@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-21T07:50:00.994387+00:00",
+"updated": "2026-11-21T07:52:14.157499+00:00",
 "errors": [],
 "events": [
 {
@@ -3509,9 +3509,9 @@
 "spike": false
 },
 "폭발": {
-"n30": 5,
-"base": 0.8,
-"spike": true
+"n30": 4,
+"base": 0.7,
+"spike": false
 },
 "붕괴": {
 "n30": 3,
@@ -3520,7 +3520,7 @@
 },
 "대피": {
 "n30": 0,
-"base": 0.5,
+"base": 0.4,
 "spike": false
 },
 "미사일": {
@@ -3529,18 +3529,18 @@
 "spike": false
 },
 "속보": {
-"n30": 6,
+"n30": 8,
 "base": 0.1,
 "spike": true
 },
 "지하철": {
 "n30": 3,
-"base": 3.4,
+"base": 3.1,
 "spike": false
 },
 "사고": {
 "n30": 1,
-"base": 3.4,
+"base": 3.1,
 "spike": false
 },
 "실종": {
@@ -3564,12 +3564,32 @@
 "spike": false
 },
 "산불": {
-"n30": 1,
+"n30": 0,
 "base": 0.8,
 "spike": false
 }
 },
 "posts": [
+{
+"text": "속보 - 미국 농무부가 사이버 공격을 받아 시스템이 마비되었습니다.\n\n해커들이 농무부의 농민들에게 자금을 지급하는 시스템을 해킹하여, 미국의 식량 안전을 책임지는 기관의 민감한 데이터에 접근할 수 있다는 우려가 제기되고 있습니다.",
+"handle": "newsky144th.bsky.social",
+"name": "하통시대",
+"time": "2026-11-21T07:51:37.048Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/newsky144th.bsky.social/post/3n2smkp3ujs2k",
+"term": "속보"
+},
+{
+"text": "속보 - FBI가 또 다시 해킹당했습니다. 이번에는 전국적인 범죄 정보 데이터베이스에 대한 것으로 보입니다.",
+"handle": "newsky144th.bsky.social",
+"name": "하통시대",
+"time": "2026-11-21T07:50:28.345Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/newsky144th.bsky.social/post/3n2smimx3a22k",
+"term": "속보"
+},
 {
 "platform": "YouTube",
 "text": "끝까지 손흔드는 김혜경 여사🖐️ #정치 #이슈 #정치이슈 #속보  #정치브리핑",
@@ -3778,32 +3798,15 @@
 "time": "2026-11-21T07:22:14Z",
 "term": "폭발",
 "url": "https://www.youtube.com/watch?v=BH-mp4ycrAc"
-},
-{
-"text": "안동은 버스 이동권, 골프장, 산불, 수자원 문제가 서로 얽혀있어서 이쪽이 확실히 더 수월하다 싶던.. (그래서 한명 뽑혔고요)",
-"handle": "raventree90.bsky.social",
-"name": "Thumbelina",
-"time": "2026-11-21T07:20:57.643Z",
-"likes": 1,
-"reposts": 0,
-"url": "https://bsky.app/profile/raventree90.bsky.social/post/3n2sktqzfzk2e",
-"term": "산불"
 }
 ],
 "spikes": [
 {
-"term": "폭발",
-"n30": 5,
-"base": 0.8,
-"spike": true,
-"since": "2026-11-21T07:50:00.994387+00:00"
-},
-{
 "term": "속보",
-"n30": 6,
+"n30": 8,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-21T07:50:00.994387+00:00"
+"since": "2026-11-21T07:52:14.157499+00:00"
 }
 ],
 "baseline": {
@@ -3811,18 +3814,18 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.71,
+"폭발": 0.64,
 "붕괴": 0.05,
-"대피": 0.41,
+"대피": 0.37,
 "미사일": 0.05,
-"속보": 0.05,
-"지하철": 3.13,
-"사고": 3.15,
+"속보": 0.25,
+"지하철": 2.92,
+"사고": 2.94,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
-"산불": 0.79
+"산불": 0.71
 },
 "errors": [],
 "ytPosts": [
