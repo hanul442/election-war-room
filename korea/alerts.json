@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-21T01:29:56.838741+00:00",
+"updated": "2026-11-21T01:32:13.929070+00:00",
 "errors": [],
 "events": [
 {
@@ -2438,7 +2438,7 @@
 "spike": false
 },
 "화재": {
-"n30": 2,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
@@ -2453,7 +2453,7 @@
 "spike": false
 },
 "폭발": {
-"n30": 4,
+"n30": 2,
 "base": 0.1,
 "spike": false
 },
@@ -2473,13 +2473,13 @@
 "spike": false
 },
 "속보": {
-"n30": 7,
-"base": 0.7,
+"n30": 6,
+"base": 0.8,
 "spike": true
 },
 "지하철": {
-"n30": 2,
-"base": 0.6,
+"n30": 1,
+"base": 0.5,
 "spike": false
 },
 "사고": {
@@ -2652,16 +2652,6 @@
 "url": "https://www.youtube.com/watch?v=3ztEvKCAzUc"
 },
 {
-"text": "#광고\n오늘의 뉴스\n[속보] 李대통령 \"이미 치러진 시험 부정도 엄중히 단죄…일벌백계\"\n기사 보기: https://dailyissue.net/Sd1GWb",
-"handle": "todaypicknews.bsky.social",
-"name": "todaypicknews.bsky.social",
-"time": "2026-11-21T01:00:07.948Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/todaypicknews.bsky.social/post/3n2rvkvkrpl2p",
-"term": "속보"
-},
-{
 "platform": "YouTube",
 "text": "만약 초신성이 지금 밤하늘에서 폭발한다면, 서울은 어떻게 될까?",
 "handle": "UC06izZondO9YJjpBNKJ7MxA",
@@ -2701,24 +2691,24 @@
 "spikes": [
 {
 "term": "속보",
-"n30": 7,
-"base": 0.7,
+"n30": 6,
+"base": 0.8,
 "spike": true,
-"since": "2026-11-21T01:29:56.838741+00:00"
+"since": "2026-11-21T01:32:13.929070+00:00"
 }
 ],
 "baseline": {
 "지진": 0.05,
-"화재": 0.07,
+"화재": 0.06,
 "불났": 0.05,
 "정전": 0.05,
 "폭발": 0.05,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.77,
-"지하철": 0.5,
-"사고": 1.72,
+"속보": 0.69,
+"지하철": 0.45,
+"사고": 1.75,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
