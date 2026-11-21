@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-21T02:22:17.084603+00:00",
+"updated": "2026-11-21T02:24:32.976152+00:00",
 "errors": [],
 "events": [
 {
@@ -141,7 +141,7 @@
 "id": "viewAKR202611210289000630202",
 "first": "2026-11-21T02:02:53+00:00",
 "last": "2026-11-21T02:16:00+00:00",
-"updated": "2026-11-21T02:22:17.084603+00:00",
+"updated": "2026-11-21T02:24:32.976152+00:00",
 "headline": "코레일 \"천안∼조치원∼대전·서대전 구간 버스로 연계 수송\"",
 "cat": "기타",
 "regions": [
@@ -150,6 +150,7 @@
 ],
 "sources": [
 "경향신문",
+"더팩트",
 "연합뉴스",
 "연합뉴스TV",
 "톱스타뉴스"
@@ -174,6 +175,13 @@
 "source": "톱스타뉴스",
 "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBFSmtqOUs4WndvV0ttTDZPTk0xS001Nk1BYVVtUXJhUF9aY0xQbnpxLXdYbmJpaW8ydm1fQ0cxUUpiTkFnTkxvUUNnWjFDaTd2UjNtYlVqVVdrV2RPMW81YWlUbGhCRDJhNDZkRXJUd0xRQQ?oc=5",
 "time": "2026-11-21T02:11:33+00:00",
+"stage": "속보"
+},
+{
+"title": "[속보] 코레일, 열차 중단 천안~대전 구간 버스 연계수송",
+"source": "더팩트",
+"link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5JcXd4eExJNG9aMlFZRFNCOGtKaFNmQzlNN2p1XzJDUFNpLWh0ekJLN2JOamRWXzEwRDQzNlVYSUpfT3gtTWJTdkxUTjhOTDRBMGpfeWdB0gFQQVVfeXFMTzg3MlQtc0NFTlptUnpMM0pVMHFDcjZCYUdrVUpUZDFrUmdRSmNWc3JaT3hRNmRkc3dDX2VjSnE5RkVDRW5nN1k4a2k5SjQwNzk?oc=5",
+"time": "2026-11-21T02:11:51+00:00",
 "stage": "속보"
 },
 {
@@ -206,6 +214,7 @@
 "열차",
 "운행중지",
 "조치원",
+"중단",
 "천안",
 "코레일",
 "탈선",
@@ -2978,8 +2987,8 @@
 "spike": false
 },
 "폭발": {
-"n30": 10,
-"base": 0.6,
+"n30": 11,
+"base": 0.7,
 "spike": true
 },
 "붕괴": {
@@ -3004,12 +3013,12 @@
 },
 "지하철": {
 "n30": 3,
-"base": 0.7,
+"base": 0.8,
 "spike": false
 },
 "사고": {
 "n30": 2,
-"base": 1.3,
+"base": 1.4,
 "spike": false
 },
 "실종": {
@@ -3039,6 +3048,16 @@
 }
 },
 "posts": [
+{
+"text": "아시잘 5,6번에서 알티수 폭발",
+"handle": "heartmindandsoul.bsky.social",
+"name": "슈퍼똘이짱",
+"time": "2026-11-21T02:24:19.441Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/heartmindandsoul.bsky.social/post/3n2s2beu4xc22",
+"term": "폭발"
+},
 {
 "platform": "YouTube",
 "text": "비행기 너무 띄운다.적당히 해라. #뉴스 #속보 #이슈 #탄핵",
@@ -3291,17 +3310,17 @@
 "spikes": [
 {
 "term": "폭발",
-"n30": 10,
-"base": 0.6,
+"n30": 11,
+"base": 0.7,
 "spike": true,
-"since": "2026-11-21T02:22:17.084603+00:00"
+"since": "2026-11-21T02:24:32.976152+00:00"
 },
 {
 "term": "속보",
 "n30": 7,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-21T02:22:17.084603+00:00"
+"since": "2026-11-21T02:24:32.976152+00:00"
 }
 ],
 "baseline": {
@@ -3309,14 +3328,14 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.68,
+"폭발": 0.81,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.07,
-"지하철": 0.84,
-"사고": 1.38,
-"실종": 0.45,
+"속보": 0.06,
+"지하철": 0.96,
+"사고": 1.44,
+"실종": 0.41,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -3528,7 +3547,7 @@
 "trends": [
 {
 "term": "편의점",
-"traffic": "200+",
+"traffic": "500+",
 "time": "2026-11-21T01:10:00+00:00",
 "news": [
 {
