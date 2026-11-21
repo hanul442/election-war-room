@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-21T18:31:10.738598+00:00",
+"updated": "2026-11-21T18:33:24.399495+00:00",
 "errors": [],
 "events": [
 {
@@ -935,7 +935,7 @@
 "spike": false
 },
 "폭발": {
-"n30": 7,
+"n30": 6,
 "base": 0.7,
 "spike": true
 },
@@ -961,12 +961,12 @@
 },
 "지하철": {
 "n30": 1,
-"base": 0.4,
+"base": 0.5,
 "spike": false
 },
 "사고": {
 "n30": 1,
-"base": 1.6,
+"base": 1.5,
 "spike": false
 },
 "실종": {
@@ -1237,31 +1237,31 @@
 "spikes": [
 {
 "term": "폭발",
-"n30": 7,
+"n30": 6,
 "base": 0.7,
 "spike": true,
-"since": "2026-11-21T18:31:10.738598+00:00"
+"since": "2026-11-21T18:33:24.399495+00:00"
 },
 {
 "term": "속보",
 "n30": 6,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-21T18:31:10.738598+00:00"
+"since": "2026-11-21T18:33:24.399495+00:00"
 }
 ],
 "baseline": {
-"지진": 0.22,
+"지진": 0.2,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.69,
+"폭발": 0.72,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.45,
-"사고": 1.52,
+"지하철": 0.51,
+"사고": 1.47,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -1482,6 +1482,24 @@
 },
 "trends": [
 {
+"term": "newcastle vs arsenal",
+"traffic": "200+",
+"time": "2026-11-21T17:30:00+00:00",
+"news": [
+{
+"title": "Team news: Eze in, Guimaraes starts at Newcastle",
+"source": "Arsenal.com",
+"link": "https://www.arsenal.com/news/team-news-eze-in-guimaraes-starts-at-newcastle-a2H2M7O1LIFA"
+},
+{
+"title": "Latest. Confirmed line-up: Miley and Willock in for Gunners game",
+"source": "Newcastle United",
+"link": "https://www.newcastleunited.com/en/news/arsenal-h-team-news-26-27"
+}
+],
+"new": true
+},
+{
 "term": "뉴캐슬 대 아스널",
 "traffic": "2000+",
 "time": "2026-11-21T16:40:00+00:00",
@@ -1628,24 +1646,6 @@
 "title": "Leeds overturn Chelsea lead with 4-1 win as Alonso suffers fifth league defeat",
 "source": "Chosunbiz",
 "link": "https://biz.chosun.com/en/en-sports/2026/11/22/NJOCZG4RBJDSVBE4EYNBHKBMSE/"
-}
-],
-"new": true
-},
-{
-"term": "민효린",
-"traffic": "100+",
-"time": "2026-11-21T14:50:00+00:00",
-"news": [
-{
-"title": "지드래곤도 감당 안되는 5대5 긴 생머리 '파격'..수상소감 방해하자 '대성 투입' [핫피플]",
-"source": "조선일보",
-"link": "https://www.chosun.com/entertainments/music/2026/11/21/MNSDAYTCGBRWKOBYMJRTSNZUHA/"
-},
-{
-"title": "빅뱅 태양, 무대를 지배하는 자",
-"source": "뉴스1",
-"link": "https://www.news1.kr/photos/8226435"
 }
 ],
 "new": true
