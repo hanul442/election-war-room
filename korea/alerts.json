@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-21T11:31:51.149047+00:00",
+"updated": "2026-11-21T11:34:03.786387+00:00",
 "errors": [],
 "events": [
 {
@@ -997,6 +997,63 @@
 ]
 },
 {
+"id": "3M3NCdnFoS1VhcjJWZlMxoc51025",
+"first": "2026-11-21T10:25:00+00:00",
+"last": "2026-11-21T11:00:01+00:00",
+"updated": "2026-11-21T11:34:03.786387+00:00",
+"headline": "내일 아침 전국 대부분 영하권…최저 ‘영하 9도’",
+"cat": "기타",
+"regions": [],
+"sources": [
+"뉴시스",
+"연합뉴스",
+"한겨레"
+],
+"updates": [
+{
+"title": "첫눈 내린다는 '소설'…아침 최저 영하 9도 '강추위'[내일날씨]",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261121_0003877779",
+"time": "2026-11-21T08:34:51+00:00",
+"stage": "후속"
+},
+{
+"title": "내일 아침 전국 대부분 영하권…최저 ‘영하 9도’",
+"source": "한겨레",
+"link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE14c1F5LXBXWFAwWmNLMUZfMjZBaE5yMnVOMUN2RmlwbGVlWlVSUzdJeDhsMjZUMEtHTEEtamlPbEo2X01EZGg2b3RNeWI3ZUkxNDJ5R21sSS1wYnFsdWQyUnZNQXg3M3NCdnFoS1VhcjJWZlMx?oc=5",
+"time": "2026-11-21T10:25:00+00:00",
+"stage": "1보"
+},
+{
+"title": "[날씨] 첫눈 온다는 '소설'…전국 아침 기온 영하권 '꽁꽁'",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261121045200004",
+"time": "2026-11-21T11:00:01+00:00",
+"stage": "후속"
+}
+],
+"level": "URGENT",
+"latest": "[날씨] 첫눈 온다는 '소설'…전국 아침 기온 영하권 '꽁꽁'",
+"tok": [
+"9도",
+"강추위",
+"기온",
+"꽁꽁",
+"날씨",
+"내린다",
+"내일날씨",
+"대부분",
+"소설",
+"아침",
+"영하",
+"영하권",
+"온다",
+"전국",
+"첫눈",
+"최저"
+]
+},
+{
 "id": "yOGxKRFFIWjVVQ0t5bnBRoc51040",
 "first": "2026-11-21T10:40:11+00:00",
 "last": "2026-11-21T10:40:11+00:00",
@@ -1629,38 +1686,6 @@
 "청주",
 "화재",
 "흡입"
-]
-},
-{
-"id": "3M3NCdnFoS1VhcjJWZlMxoc51025",
-"first": "2026-11-21T10:25:00+00:00",
-"last": "2026-11-21T10:25:00+00:00",
-"updated": "2026-11-21T11:31:51.149047+00:00",
-"headline": "내일 아침 전국 대부분 영하권…최저 ‘영하 9도’",
-"cat": "기타",
-"regions": [],
-"sources": [
-"한겨레"
-],
-"updates": [
-{
-"title": "내일 아침 전국 대부분 영하권…최저 ‘영하 9도’",
-"source": "한겨레",
-"link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE14c1F5LXBXWFAwWmNLMUZfMjZBaE5yMnVOMUN2RmlwbGVlWlVSUzdJeDhsMjZUMEtHTEEtamlPbEo2X01EZGg2b3RNeWI3ZUkxNDJ5R21sSS1wYnFsdWQyUnZNQXg3M3NCdnFoS1VhcjJWZlMx?oc=5",
-"time": "2026-11-21T10:25:00+00:00",
-"stage": "1보"
-}
-],
-"level": "ALERT",
-"latest": "내일 아침 전국 대부분 영하권…최저 ‘영하 9도’",
-"tok": [
-"9도",
-"대부분",
-"아침",
-"영하",
-"영하권",
-"전국",
-"최저"
 ]
 },
 {
@@ -3702,12 +3727,12 @@
 },
 "붕괴": {
 "n30": 1,
-"base": 0.3,
+"base": 0.4,
 "spike": false
 },
 "대피": {
 "n30": 0,
-"base": 0.4,
+"base": 0.3,
 "spike": false
 },
 "미사일": {
@@ -3722,12 +3747,12 @@
 },
 "지하철": {
 "n30": 2,
-"base": 0.2,
+"base": 0.3,
 "spike": false
 },
 "사고": {
-"n30": 4,
-"base": 3.3,
+"n30": 3,
+"base": 3.4,
 "spike": false
 },
 "실종": {
@@ -3772,7 +3797,7 @@
 "handle": "pakescone.bsky.social",
 "name": "가짜빵",
 "time": "2026-11-21T11:26:25.940Z",
-"likes": 1,
+"likes": 2,
 "reposts": 0,
 "url": "https://bsky.app/profile/pakescone.bsky.social/post/3n2syksfbos2q",
 "term": "사고"
@@ -3842,16 +3867,6 @@
 "time": "2026-11-21T11:06:08Z",
 "term": "폭발",
 "url": "https://www.youtube.com/watch?v=uZNLm9C10P4"
-},
-{
-"text": "- 반복 추론을 통해 100B 미만 오픈 가중치 모델 중 에이전트 코딩/도구 활용/장기 문맥 처리와 전력 대비 지능(0.703)에서 최상위권 성능을 달성했으며, 파라미터 크기에 비례하는 단순 사실 지식의 한계는 효율적인 검색과 도구 사용으로 극복\n\n- 연구 개방을 위해 함께 공개한 가변 루프 모델의 검증 결과, 루프 횟수가 늘어날수록 시행착오가 줄어 사고 사슬이 절반 이하로 압축되면서도 인간",
-"handle": "lunamoth.bsky.social",
-"name": "lunamoth",
-"time": "2026-11-21T11:03:25.757Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/lunamoth.bsky.social/post/3n2sxbohd522u",
-"term": "사고"
 },
 {
 "platform": "YouTube",
@@ -3955,17 +3970,17 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 0.12,
+"지진": 0.11,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.21,
-"붕괴": 0.39,
-"대피": 0.34,
+"폭발": 0.19,
+"붕괴": 0.45,
+"대피": 0.31,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.32,
-"사고": 3.36,
+"지하철": 0.39,
+"사고": 3.32,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -4114,8 +4129,26 @@
 },
 "trends": [
 {
+"term": "이정후",
+"traffic": "200+",
+"time": "2026-11-21T10:30:00+00:00",
+"news": [
+{
+"title": "\"1513억 투자했는데 기대에 못 미친다\" 이정후 향한 美 현지의 냉정한 평가…2027년이 중요하다",
+"source": "조선일보",
+"link": "https://www.chosun.com/sports/world-baseball/2026/11/21/MQ3TMZTGMNRDQMJQMFSTQMJVME/"
+},
+{
+"title": "'타율 0.366→0.223' 이정후 충격 기복, 美 일침 \"맞히는 것만으론 부족해, 장타자 될 필욘 없어\" - 머니투데이",
+"source": "머니투데이",
+"link": "https://www.mt.co.kr/sports/2026/11/21/2026112111230199053"
+}
+],
+"new": true
+},
+{
 "term": "마타",
-"traffic": "100+",
+"traffic": "200+",
 "time": "2026-11-21T10:20:00+00:00",
 "news": [
 {
@@ -4249,24 +4282,6 @@
 "title": "GameNative just fixed PC gaming on Pixels and Exynos-powered Galaxy phones",
 "source": "Android Authority",
 "link": "https://www.androidauthority.com/gamenative-update-pixels-exynos-galaxy-phones-3737053/"
-}
-],
-"new": true
-},
-{
-"term": "빅뱅 마마",
-"traffic": "200+",
-"time": "2026-11-21T09:10:00+00:00",
-"news": [
-{
-"title": "Hearts2Hearts Community Post - 하멍쭈멍 - YU",
-"source": "Weverse",
-"link": "https://weverse.io/hearts2hearts/artist/1-181704583"
-},
-{
-"title": "BTS·코르티스, 마마 둘째날 대상…3관왕 빅뱅, 신곡 무대 첫선",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261121047200005"
 }
 ],
 "new": true
