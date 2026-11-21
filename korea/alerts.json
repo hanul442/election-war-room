@@ -1,7 +1,42 @@
 {
-"updated": "2026-11-21T00:19:31.792779+00:00",
+"updated": "2026-11-21T00:21:47.861197+00:00",
 "errors": [],
 "events": [
+{
+"id": "wNISX20261121_00038775710020",
+"first": "2026-11-21T00:20:02+00:00",
+"last": "2026-11-21T00:20:02+00:00",
+"updated": "2026-11-21T00:21:47.861197+00:00",
+"headline": "백령도 다가구 화재…1세대 전소·60대 2명 부상",
+"cat": "재난",
+"regions": [
+"인천"
+],
+"sources": [
+"뉴시스"
+],
+"updates": [
+{
+"title": "백령도 다가구 화재…1세대 전소·60대 2명 부상",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261121_0003877571",
+"time": "2026-11-21T00:20:02+00:00",
+"stage": "1보"
+}
+],
+"level": "ALERT",
+"latest": "백령도 다가구 화재…1세대 전소·60대 2명 부상",
+"tok": [
+"1세대",
+"2명",
+"60대",
+"다가구",
+"백령",
+"부상",
+"전소",
+"화재"
+]
+},
 {
 "id": "WlzNkVydHdGVzRjN0NxdQoc52101",
 "first": "2026-11-20T21:01:06+00:00",
@@ -83,7 +118,7 @@
 "id": "viewAKR202611210124000612201",
 "first": "2026-11-20T22:01:57+00:00",
 "last": "2026-11-21T00:12:23+00:00",
-"updated": "2026-11-21T00:14:53.631796+00:00",
+"updated": "2026-11-21T00:21:47.861197+00:00",
 "headline": "평택 소정리역서 화물열차 탈선…경부선 열차 운행 지장",
 "cat": "교통",
 "regions": [
@@ -115,6 +150,7 @@
 "이투데이",
 "조선일보",
 "채널A",
+"충청신문",
 "충청투데이",
 "파이낸셜뉴스",
 "한겨레",
@@ -364,6 +400,13 @@
 "source": "한겨레",
 "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5ZVXk1Qlo5cm41N2IzSElGdXlPb0gtbUFTWHB5S1dqMnRPd2syRXprWTdEM0ExNk1zeVRFR2ZrMUgwLXJXazV0Ti1POXpNQmFTSUdZbDAtWm8wU192Zm5GX0xrTWlsMDVOOHpUUVRnRmNPdw?oc=5",
 "time": "2026-11-20T23:29:00+00:00",
+"stage": "속보"
+},
+{
+"title": "[속보] 경부선 소정리역서 화물열차 탈선…천안~대전 일반열차 운행 중단",
+"source": "충청신문",
+"link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE56ZGVrNlBneHZYZ1ljd1FyQnVTTzZJbzlnSS1PLWlEbFFPU1o0WGM3V2h1d19tbVhzMVdTQ2MtVjNweXpHdVhraHNVeWRFRmhocVlrUFdUU0EzNGEyZDR1YldGYXRfOU9GbmJmRnNB0gFuQVVfeXFMTnpkZWs2UGd4dlhnWWN3UXJCdVNPNklvOWdJLU8taURsUU9TWjRYYzdXaHV3X21tWHMxV1NDYy1WM3B5ekd1WGtoc1V5ZEVGaGhxWWtQV1RTQTM0YTJkNHViV0ZhdF85T0ZuYmZGc0E?oc=5",
+"time": "2026-11-20T23:36:29+00:00",
 "stage": "속보"
 },
 {
@@ -2182,7 +2225,7 @@
 },
 "화재": {
 "n30": 3,
-"base": 0.4,
+"base": 0.5,
 "spike": false
 },
 "불났": {
@@ -2197,7 +2240,7 @@
 },
 "폭발": {
 "n30": 8,
-"base": 0.7,
+"base": 0.6,
 "spike": true
 },
 "붕괴": {
@@ -2217,7 +2260,7 @@
 },
 "속보": {
 "n30": 5,
-"base": 0.5,
+"base": 0.4,
 "spike": true
 },
 "지하철": {
@@ -2482,30 +2525,30 @@
 {
 "term": "폭발",
 "n30": 8,
-"base": 0.7,
+"base": 0.6,
 "spike": true,
-"since": "2026-11-21T00:19:31.792779+00:00"
+"since": "2026-11-21T00:21:47.861197+00:00"
 },
 {
 "term": "속보",
 "n30": 5,
-"base": 0.5,
+"base": 0.4,
 "spike": true,
-"since": "2026-11-21T00:19:31.792779+00:00"
+"since": "2026-11-21T00:21:47.861197+00:00"
 }
 ],
 "baseline": {
 "지진": 0.05,
-"화재": 0.46,
+"화재": 0.51,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.62,
+"폭발": 0.56,
 "붕괴": 0.05,
 "대피": 0.05,
-"미사일": 0.18,
-"속보": 0.41,
-"지하철": 0.12,
-"사고": 2.15,
+"미사일": 0.16,
+"속보": 0.37,
+"지하철": 0.11,
+"사고": 2.24,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
