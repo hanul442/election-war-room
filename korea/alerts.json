@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-21T22:42:47.410964+00:00",
+"updated": "2026-11-21T22:45:05.294929+00:00",
 "errors": [],
 "events": [
 {
@@ -777,39 +777,6 @@
 "의심",
 "촉구"
 ]
-},
-{
-"id": "qc0sxV2RVUjl2R2pic0lBoc51644",
-"first": "2026-11-21T16:44:02+00:00",
-"last": "2026-11-21T16:44:02+00:00",
-"updated": "2026-11-21T16:47:13.432113+00:00",
-"headline": "속보: 이란이 미군 F-16 전투기를 격추시켜 비상 착륙을 시켰다고 주장했습니다.",
-"cat": "기타",
-"regions": [],
-"sources": [
-"Vietnam.vn"
-],
-"updates": [
-{
-"title": "속보: 이란이 미군 F-16 전투기를 격추시켜 비상 착륙을 시켰다고 주장했습니다.",
-"source": "Vietnam.vn",
-"link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPMGNkV2xsNWR6S3AwU1g4NktQcUg2Q1dsaFpBR1VENXl5RnRCZklzemkzWFFTbWRST3l2MVp1UEJnalZ5dmRYTXZaRjF2VkM0bmFHUzk3RllYbXcteEZzN1BLQ3UyOUE2X29sUEVWTDZTSHR0MG8xM0VmVjRmQkxqc0sxV2RVUjl2R2pic0lB?oc=5",
-"time": "2026-11-21T16:44:02+00:00",
-"stage": "1보"
-}
-],
-"level": "ALERT",
-"latest": "속보: 이란이 미군 F-16 전투기를 격추시켜 비상 착륙을 시켰다고 주장했습니다.",
-"tok": [
-"격추시켜",
-"미군",
-"비상",
-"시켰다고",
-"이란",
-"전투기",
-"주장했습니다",
-"착륙"
-]
 }
 ],
 "sns": {
@@ -866,7 +833,7 @@
 },
 "사고": {
 "n30": 0,
-"base": 0.4,
+"base": 0.3,
 "spike": false
 },
 "실종": {
@@ -1074,7 +1041,7 @@
 "n30": 9,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-21T22:42:47.410964+00:00"
+"since": "2026-11-21T22:45:05.294929+00:00"
 }
 ],
 "baseline": {
@@ -1087,8 +1054,8 @@
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.36,
-"사고": 0.33,
+"지하철": 0.32,
+"사고": 0.3,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -1273,8 +1240,26 @@
 },
 "trends": [
 {
+"term": "ai 데이터 센터",
+"traffic": "1000+",
+"time": "2026-11-21T21:40:00+00:00",
+"news": [
+{
+"title": "산업화의 중심 울산, AI 시대 새로운 도약을 기대합니다.",
+"source": "대한민국 청와대",
+"link": "https://www.president.go.kr/social-media/2iOowGQS"
+},
+{
+"title": "李대통령, 울산 전통시장 두 곳 방문…\"내년엔 좀 더 좋아질 것\"",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261121045100001"
+}
+],
+"new": true
+},
+{
 "term": "젠슨 황",
-"traffic": "2000+",
+"traffic": "5000+",
 "time": "2026-11-21T21:30:00+00:00",
 "news": [
 {
@@ -1294,23 +1279,12 @@
 "term": "kbs",
 "traffic": "200+",
 "time": "2026-11-21T21:20:00+00:00",
-"news": [
-{
-"title": "Heo Gak Reveals 24kg Weight Loss Journey on KBS Show",
-"source": "조선일보",
-"link": "https://www.chosun.com/english/kpop-culture-en/2026/11/21/I462DOD54RGM5LWIEHN7QDZSEM/"
-},
-{
-"title": "Huh Gak Sheds 24 kg → Someday’s First Terrestrial Music Show Stage in 17 Years... ‘The Seasons’ Packed With Performances",
-"source": "매일경제",
-"link": "https://www.mk.co.kr/en/hot-issues/12215248"
-}
-],
+"news": [],
 "new": true
 },
 {
 "term": "최미나수",
-"traffic": "100+",
+"traffic": "200+",
 "time": "2026-11-21T21:00:00+00:00",
 "news": [
 {
@@ -1364,18 +1338,18 @@
 },
 {
 "term": "강사",
-"traffic": "1000+",
+"traffic": "500+",
 "time": "2026-11-21T20:40:00+00:00",
 "news": [
 {
-"title": "[단독] '리트 만점자' 지난해 수능시험지에 비정상적 풀이 정황",
-"source": "MBC 뉴스",
-"link": "https://imnews.imbc.com/replay/2026/nwdesk/article/6867366_37004.html"
+"title": "일타 강사인가 ‘일탈’ 강사인가",
+"source": "조선일보",
+"link": "https://www.chosun.com/national/weekend/2026/11/21/PHM6NQOYUBHKJCLZ4YT3S5R234/"
 },
 {
-"title": "리트 만점자, 사망 당일 새벽 짐정리... 이틀전엔 집주인에 \"탈출 도와달라\"",
-"source": "조선일보",
-"link": "https://www.chosun.com/national/national_general/2026/11/21/PNCS6ZRIYVHNTDQ2KAYP2OXJRY/"
+"title": "“너는 못 쓰게 되지 않았다”…수능 뒤 일타강사 위로에 ‘울컥’",
+"source": "이데일리",
+"link": "https://www.edaily.co.kr/News/Read?newsId=04241046645647688&mediaCodeNo=257"
 }
 ],
 "new": true
@@ -1430,24 +1404,6 @@
 "title": "농어촌 기본소득, 지역 일자리로 이어질까…송미령 장관, 현장 의견 청취",
 "source": "마켓인",
 "link": "https://marketin.edaily.co.kr/News/ReadE?newsId=04024566645647688"
-}
-],
-"new": true
-},
-{
-"term": "real madrid vs celta",
-"traffic": "1000+",
-"time": "2026-11-21T20:20:00+00:00",
-"news": [
-{
-"title": "Pablo Durán adelanta al Celta en el Bernabéu a los seis minutos",
-"source": "Tu Futbolero",
-"link": "https://www.tufutbolero.com/novedades/pablo-duran-adelanta-al-celta-en-el-bernabeu-a-los-seis-minu-216a7b"
-},
-{
-"title": "2-1. Vuelve el Madrid de las remontadas",
-"source": "Yahoo",
-"link": "https://es-us.noticias.yahoo.com/deportes/2-1-vuelve-madrid-remontadas-220919478.html"
 }
 ],
 "new": true
