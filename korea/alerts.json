@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-21T16:11:30.487444+00:00",
+"updated": "2026-11-21T16:13:42.417428+00:00",
 "errors": [],
 "events": [
 {
@@ -2655,18 +2655,18 @@
 "spike": false
 },
 "지하철": {
-"n30": 2,
+"n30": 1,
 "base": 0.5,
 "spike": false
 },
 "사고": {
-"n30": 1,
+"n30": 2,
 "base": 1.9,
 "spike": false
 },
 "실종": {
 "n30": 0,
-"base": 0.6,
+"base": 0.5,
 "spike": false
 },
 "단수": {
@@ -2691,6 +2691,16 @@
 }
 },
 "posts": [
+{
+"text": "오티스 당신의 동생과 사고를 치고 왔어",
+"handle": "geowl.bsky.social",
+"name": "게오데스카토르",
+"time": "2026-11-21T16:11:14.243Z",
+"likes": 1,
+"reposts": 0,
+"url": "https://bsky.app/profile/geowl.bsky.social/post/3n2tii2suqs2b",
+"term": "사고"
+},
 {
 "text": "이준석이 새누리당 시절 그래도 어르신 표 많이 받았을 텐데 개혁신당 만들고 나서 그 당 명의로 노인 지하철 무임승차 폐지도 못하면서 연금개혁은 어떻게 할 거냐는 현수막을 해당 지역구에 숱하게 달았더라고요..\n\n원래도 그랬지만 진짜 악랄한 놈이라 생각했어요",
 "handle": "public15894466.bsky.social",
@@ -2925,7 +2935,7 @@
 "n30": 5,
 "base": 0.4,
 "spike": true,
-"since": "2026-11-21T16:11:30.487444+00:00"
+"since": "2026-11-21T16:13:42.417428+00:00"
 }
 ],
 "baseline": {
@@ -2933,14 +2943,14 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.38,
-"붕괴": 0.37,
+"폭발": 0.34,
+"붕괴": 0.33,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.51,
-"사고": 1.85,
-"실종": 0.5,
+"지하철": 0.56,
+"사고": 1.86,
+"실종": 0.45,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -3160,10 +3170,46 @@
 },
 "trends": [
 {
+"term": "엑셀방송",
+"traffic": "200+",
+"time": "2026-11-21T15:10:00+00:00",
+"news": [
+{
+"title": "성노예→학대 사이버 룸살롱 ‘엑셀’ 파헤친다 (그것이 알고싶다)",
+"source": "스포츠동아",
+"link": "https://sports.donga.com/ent/article/all/20261120/135062142/1"
+},
+{
+"title": "'그것이 알고싶다'(그알) 딸의 방송 본 아버지 제보로 드러난 '엑셀 방송' 실태",
+"source": "국제뉴스",
+"link": "https://www.gukjenews.com/news/articleView.html?idxno=3759174"
+}
+],
+"new": true
+},
+{
 "term": "채령",
 "traffic": "200+",
 "time": "2026-11-21T15:00:00+00:00",
 "news": [],
+"new": true
+},
+{
+"term": "man city vs fulham f.c. standings",
+"traffic": "2000+",
+"time": "2026-11-21T15:00:00+00:00",
+"news": [
+{
+"title": "Manchester City 1-1 Fulham: Anderson rescues point for hosts",
+"source": "BBC",
+"link": "https://www.bbc.com/sport/football/live/c3kgdxnggq7pt"
+},
+{
+"title": "Manchester City draw with Fulham to extend winless Premier League run to 4 games",
+"source": "Chosunbiz",
+"link": "https://biz.chosun.com/en/en-sports/2026/11/22/WXUCUY7ADNAVPITNTGAQUTRDDM/"
+}
+],
 "new": true
 },
 {
@@ -3288,42 +3334,6 @@
 "title": "첼시와 알론소 감독이 직면한 어려운 딜레마.",
 "source": "Vietnam.vn",
 "link": "https://www.vietnam.vn/ko/chelsea-va-bai-toan-nan-giai-cho-hlv-alonso"
-}
-],
-"new": true
-},
-{
-"term": "우니온 베를린 대 라이프치히",
-"traffic": "200+",
-"time": "2026-11-21T14:10:00+00:00",
-"news": [
-{
-"title": "Confirmed lineups: 1.FC Union Berlin vs. RB Leipzig",
-"source": "Yahoo Sports",
-"link": "https://sports.yahoo.com/articles/confirmed-lineups-1-fc-union-133000412.html"
-},
-{
-"title": "Union Berlin vs RB Leipzig: German Bundesliga stats & head-to-head",
-"source": "BBC",
-"link": "https://www.bbc.com/sport/football/live/c6vg2pxggjzpt"
-}
-],
-"new": true
-},
-{
-"term": "ai 버블",
-"traffic": "2000+",
-"time": "2026-11-21T14:10:00+00:00",
-"news": [
-{
-"title": "개미들 덮친 170조 폭탄…패닉셀 부른 '숨은 리스크' 있었다",
-"source": "한국경제",
-"link": "https://www.hankyung.com/article/202611211559i"
-},
-{
-"title": "나스닥 5.3% 폭락 '검은 금요일'‥올해 상승분 모두 반납",
-"source": "MBC 뉴스",
-"link": "https://imnews.imbc.com/replay/2026/nwdesk/article/6867504_37004.html"
 }
 ],
 "new": true
