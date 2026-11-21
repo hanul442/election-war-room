@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-21T10:14:06.642536+00:00",
+"updated": "2026-11-21T10:16:20.765773+00:00",
 "errors": [],
 "events": [
 {
@@ -3120,9 +3120,9 @@
 "sns": {
 "terms": {
 "지진": {
-"n30": 4,
-"base": 0.6,
-"spike": false
+"n30": 5,
+"base": 0.7,
+"spike": true
 },
 "화재": {
 "n30": 2,
@@ -3140,7 +3140,7 @@
 "spike": false
 },
 "폭발": {
-"n30": 4,
+"n30": 3,
 "base": 1.0,
 "spike": false
 },
@@ -3170,13 +3170,13 @@
 "spike": true
 },
 "사고": {
-"n30": 3,
-"base": 3.8,
+"n30": 2,
+"base": 3.7,
 "spike": false
 },
 "실종": {
-"n30": 1,
-"base": 0.7,
+"n30": 0,
+"base": 0.8,
 "spike": false
 },
 "단수": {
@@ -3201,6 +3201,16 @@
 }
 },
 "posts": [
+{
+"text": "【지진 정보】일본 시간 11월 21일 19:09경\n진원: Off the south Coast of Boso Peninsula (M4.9, 깊이 약 20km)\n최대 진도: 2\n진도 2: 도쿄도\n진도 1: 지바현, 시즈오카현\n이 지진으로 인한 쓰나미 걱정은 없습니다.\n(일본 기상청 발표)\n#일본 #지진 #방재",
+"handle": "ko.soramoyou.yk-planning.jp",
+"name": "Soramoyou 한국어",
+"time": "2026-11-21T10:14:32.740Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/ko.soramoyou.yk-planning.jp/post/3n2sukbthvp2p",
+"term": "지진"
+},
 {
 "platform": "YouTube",
 "text": "[속보] 동티모르 인근 규모 6.8 지진 #Shorts",
@@ -3411,50 +3421,37 @@
 "reposts": 0,
 "url": "https://bsky.app/profile/reniarbon.bsky.social/post/3n2stfp4ih22f",
 "term": "사고"
-},
-{
-"text": "머리실종",
-"handle": "noinoiee.bsky.social",
-"name": "노이",
-"time": "2026-11-21T09:46:03.247Z",
-"likes": 1,
-"reposts": 1,
-"url": "https://bsky.app/profile/noinoiee.bsky.social/post/3n2ssx7mmdc2j",
-"term": "실종"
-},
-{
-"text": "이라크 가스 파이프라인 폭발 사고로 4명이 사망하고 35명이 부상당했으며, 사고 원인은 아직 밝혀지지 않았습니다. - Ynet",
-"handle": "newsky144th.bsky.social",
-"name": "하통시대",
-"time": "2026-11-21T09:44:26.344Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/newsky144th.bsky.social/post/3n2ssuf66b226",
-"term": "폭발"
 }
 ],
 "spikes": [
+{
+"term": "지진",
+"n30": 5,
+"base": 0.7,
+"spike": true,
+"since": "2026-11-21T10:16:20.765773+00:00"
+},
 {
 "term": "지하철",
 "n30": 6,
 "base": 1.3,
 "spike": true,
-"since": "2026-11-21T10:14:06.642536+00:00"
+"since": "2026-11-21T10:16:20.765773+00:00"
 }
 ],
 "baseline": {
-"지진": 0.68,
-"화재": 0.11,
+"지진": 0.81,
+"화재": 0.1,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.99,
+"폭발": 0.89,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 1.26,
-"사고": 3.72,
-"실종": 0.77,
+"지하철": 1.23,
+"사고": 3.55,
+"실종": 0.69,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -3657,7 +3654,7 @@
 },
 {
 "term": "england vs australia",
-"traffic": "100+",
+"traffic": "200+",
 "time": "2026-11-21T09:00:00+00:00",
 "news": [
 {
@@ -3693,7 +3690,7 @@
 },
 {
 "term": "굴",
-"traffic": "500+",
+"traffic": "1000+",
 "time": "2026-11-21T08:20:00+00:00",
 "news": [
 {
