@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-21T10:02:52.386609+00:00",
+"updated": "2026-11-21T10:05:06.370098+00:00",
 "errors": [],
 "events": [
 {
@@ -3068,7 +3068,7 @@
 "terms": {
 "지진": {
 "n30": 1,
-"base": 0.4,
+"base": 0.5,
 "spike": false
 },
 "화재": {
@@ -3112,13 +3112,13 @@
 "spike": false
 },
 "지하철": {
-"n30": 2,
+"n30": 1,
 "base": 1.3,
 "spike": false
 },
 "사고": {
 "n30": 4,
-"base": 3.8,
+"base": 3.9,
 "spike": false
 },
 "실종": {
@@ -3410,8 +3410,8 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 0.45,
-"화재": 0.18,
+"지진": 0.51,
+"화재": 0.16,
 "불났": 0.05,
 "정전": 0.05,
 "폭발": 0.99,
@@ -3419,9 +3419,9 @@
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 1.29,
-"사고": 3.85,
-"실종": 0.6,
+"지하철": 1.26,
+"사고": 3.87,
+"실종": 0.64,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -3623,6 +3623,42 @@
 },
 "trends": [
 {
+"term": "중일 관계",
+"traffic": "200+",
+"time": "2026-11-21T09:00:00+00:00",
+"news": [
+{
+"title": "일본 국민 61% “한국에 친근감”…86% “중국에 친근감 없어”",
+"source": "경향신문",
+"link": "https://www.khan.co.kr/article/202611211158001"
+},
+{
+"title": "일본인 극과 극…‘한국에 친근감’ 62%, ‘중일관계 나쁘다’ 93%",
+"source": "한겨레",
+"link": "https://www.hani.co.kr/arti/international/international_general/1288434.html"
+}
+],
+"new": true
+},
+{
+"term": "england vs australia",
+"traffic": "100+",
+"time": "2026-11-21T09:00:00+00:00",
+"news": [
+{
+"title": "Australia vs England LIVE: First T20, MCG, Melbourne - cricket score, commentary & updates",
+"source": "BBC",
+"link": "https://www.bbc.com/sport/cricket/live/c30y48pz38qt"
+},
+{
+"title": "Harper's Australia debut a much-needed good story",
+"source": "Cricinfo",
+"link": "https://www.cricinfo.com/story/sam-harper-s-australia-debut-a-much-needed-good-story-1563295"
+}
+],
+"new": true
+},
+{
 "term": "성리",
 "traffic": "500+",
 "time": "2026-11-21T08:30:00+00:00",
@@ -3700,14 +3736,14 @@
 "time": "2026-11-21T08:10:00+00:00",
 "news": [
 {
-"title": "Sri Lanka A vs Hong Kong and Bangladesh A vs Afghanistan A match predictions – Asia Cup Rising Stars 2026",
-"source": "Cricket World",
-"link": "https://www.cricketworld.com/match-predictions-acc-mens-asia-cup-rising-stars-2026-5th-6th-match-sri-lanka-a-vs-hong-kong-bangladesh-a-vs-afghanistan-a-november-21st/114454.htm"
+"title": "Sri Lanka A begin title bid against Afghanistan today",
+"source": "Ceylon Daily News",
+"link": "https://dailynews.lk/2026/11/19/sports/1051826/sri-lanka-a-begin-title-bid-against-afghanistan-today/"
 },
 {
-"title": "Sri Lanka A vs Hong Kong LIVE Streaming: When And Where To Watch Rising Stars Asia Cup",
-"source": "NDTV Profit",
-"link": "https://www.ndtvprofit.com/sports/sri-lanka-a-vs-hong-kong-live-streaming-when-and-where-to-watch-rising-stars-asia-cup-12356449"
+"title": "Sri Lanka A Bats First Against Hong Kong China in Doha",
+"source": "cwibc.co.id",
+"link": "https://cwibc.co.id/en/sri-lanka-hong-kong-doha"
 }
 ],
 "new": true
@@ -3762,42 +3798,6 @@
 "title": "종묘 앞 재개발, 내년 3월 착공 사실상 무산",
 "source": "조선일보",
 "link": "https://www.chosun.com/culture-life/culture_general/2026/11/21/UCC22HIS5BG5XDAMM5FAVFUVCM/"
-}
-],
-"new": true
-},
-{
-"term": "산불",
-"traffic": "1000+",
-"time": "2026-11-21T07:20:00+00:00",
-"news": [
-{
-"title": "불길 속 머리만 겨우 보였다…산불 진화한 배우 김민의 아찔한 모습",
-"source": "주간조선",
-"link": "http://weekly.chosun.com/news/articleView.html?idxno=57337"
-},
-{
-"title": "외투 타들어 가는데…촬영 간 김민, 몸 던져 '고성 대형 산불' 막았다",
-"source": "뉴스1",
-"link": "https://www.news1.kr/society/general-society/6360933"
-}
-],
-"new": true
-},
-{
-"term": "삼성전자 tsmc 중국 반도체 출하 중단 및 국내 증시 영향 최신 뉴스 알려줘",
-"traffic": "200+",
-"time": "2026-11-21T07:00:00+00:00",
-"news": [
-{
-"title": "엔비디아 이어 AMD도 '중국 리스크'?...제재 기업에 기술 유출 의혹",
-"source": "YTN 사이언스",
-"link": "https://m.science.ytn.co.kr/program/view.php?s_mcd=0082&key=202611201104357456"
-},
-{
-"title": "AMD, 中 수출 규제 위반 의혹·AI 투자심리 악화에 주가 13%↓",
-"source": "마켓인",
-"link": "https://marketin.edaily.co.kr/News/ReadE?newsId=01226726645648016"
 }
 ],
 "new": true
