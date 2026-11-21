@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-21T10:22:58.304073+00:00",
+"updated": "2026-11-21T10:25:10.040548+00:00",
 "errors": [],
 "events": [
 {
@@ -1266,8 +1266,8 @@
 {
 "id": "wNISX20261121_00038776870712",
 "first": "2026-11-21T07:12:32+00:00",
-"last": "2026-11-21T08:18:30+00:00",
-"updated": "2026-11-21T08:25:21.265806+00:00",
+"last": "2026-11-21T08:19:00+00:00",
+"updated": "2026-11-21T10:25:10.040548+00:00",
 "headline": "'호키 36득점' 삼성화재, OK저축은행 4연패 몰아넣고 3연승",
 "cat": "재난",
 "regions": [
@@ -1290,6 +1290,13 @@
 "source": "조선일보",
 "link": "https://www.chosun.com/sports/volleyball/2026/11/21/GZSTGOJYME3TEYRSMVTGENBWGM/",
 "time": "2026-11-21T08:18:30+00:00",
+"stage": "후속"
+},
+{
+"title": "'호키 36점' 삼성화재 3연승 → OK저축, 곽명우 복귀 속 4연패 [대전 현장]",
+"source": "조선일보",
+"link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxORFZsM3JpZmtwRDlkV01lWDVFeVYyc0wwX2VIa3JybEhBaTJrWm93MXZrRjlFY1M5Vy1jWE16MUVuUDE3RkpzcTFrVHpXaEJfOEhvbmN6dDdmeDJseG94d2Jud1BjNzlnQUxYMTdFRnFiWlluME1wRkM5RFhLYnd1R2s5aUlHZw?oc=5",
+"time": "2026-11-21T08:19:00+00:00",
 "stage": "후속"
 }
 ],
@@ -3092,7 +3099,7 @@
 "terms": {
 "지진": {
 "n30": 5,
-"base": 1.0,
+"base": 1.1,
 "spike": true
 },
 "화재": {
@@ -3136,18 +3143,18 @@
 "spike": false
 },
 "지하철": {
-"n30": 6,
+"n30": 7,
 "base": 1.2,
 "spike": true
 },
 "사고": {
-"n30": 3,
-"base": 3.3,
+"n30": 2,
+"base": 3.2,
 "spike": false
 },
 "실종": {
 "n30": 0,
-"base": 0.6,
+"base": 0.5,
 "spike": false
 },
 "단수": {
@@ -3173,11 +3180,21 @@
 },
 "posts": [
 {
+"text": "지하철 맞은 자리에 먹고 싶은 년이 셋이나 앉아 있다.",
+"handle": "knubear.bsky.social",
+"name": "knubear.bsky.social",
+"time": "2026-11-21T10:24:23.444Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/knubear.bsky.social/post/3n2sv3ujxv22f",
+"term": "지하철"
+},
+{
 "text": "너무 서러워서 오프뷰티 뛰어가서 헤어에센스 사고 올영가서 고데기랑 드라이기 사옴 흑흑흑흑\nㄴ고데기랑 드라이기는 왜요\nㄴ드라이기가 고장났어\nㄴ그럼 고데기는 왜\nㄴ나도 c컬 드라이 좀 해보자",
 "handle": "sh0uramen.bsky.social",
 "name": "쇼우라멘",
 "time": "2026-11-21T10:22:13.640Z",
-"likes": 0,
+"likes": 1,
 "reposts": 0,
 "url": "https://bsky.app/profile/sh0uramen.bsky.social/post/3n2suxz4wqk2d",
 "term": "사고"
@@ -3392,47 +3409,37 @@
 "reposts": 0,
 "url": "https://bsky.app/profile/ko.soramoyou.yk-planning.jp/post/3n2stk6bmuw2o",
 "term": "지진"
-},
-{
-"text": "블프라~♬ 사고 싶은건 ~ ♪ 많은데 ~ ♩ 돈은 없구나~ ♬",
-"handle": "reniarbon.bsky.social",
-"name": "reniarbon",
-"time": "2026-11-21T09:53:58.147Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/reniarbon.bsky.social/post/3n2stfp4ih22f",
-"term": "사고"
 }
 ],
 "spikes": [
 {
 "term": "지진",
 "n30": 5,
-"base": 1.0,
+"base": 1.1,
 "spike": true,
-"since": "2026-11-21T10:22:58.304073+00:00"
+"since": "2026-11-21T10:25:10.040548+00:00"
 },
 {
 "term": "지하철",
-"n30": 6,
+"n30": 7,
 "base": 1.2,
 "spike": true,
-"since": "2026-11-21T10:22:58.304073+00:00"
+"since": "2026-11-21T10:25:10.040548+00:00"
 }
 ],
 "baseline": {
-"지진": 1.14,
-"화재": 0.07,
+"지진": 1.23,
+"화재": 0.06,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.65,
+"폭발": 0.59,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 1.17,
-"사고": 3.23,
-"실종": 0.5,
+"지하철": 1.25,
+"사고": 3.11,
+"실종": 0.45,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -3634,8 +3641,26 @@
 "new": true
 },
 {
+"term": "삼성 엑시노스",
+"traffic": "100+",
+"time": "2026-11-21T09:10:00+00:00",
+"news": [
+{
+"title": "GameNative's new update brings reliable PC gaming to Pixels and Samsung Exynos",
+"source": "Yahoo Tech",
+"link": "https://tech.yahoo.com/gaming/articles/gamenatives-brings-reliable-pc-gaming-124728335.html"
+},
+{
+"title": "GameNative just fixed PC gaming on Pixels and Exynos-powered Galaxy phones",
+"source": "Android Authority",
+"link": "https://www.androidauthority.com/gamenative-update-pixels-exynos-galaxy-phones-3737053/"
+}
+],
+"new": true
+},
+{
 "term": "중일 관계",
-"traffic": "200+",
+"traffic": "500+",
 "time": "2026-11-21T09:00:00+00:00",
 "news": [
 {
@@ -3693,14 +3718,14 @@
 "time": "2026-11-21T08:20:00+00:00",
 "news": [
 {
-"title": "'노로바이러스' 미리 알고, 더 건강하게 다녀오세요 - 전체 | 카드/한컷 | 멀티미디어",
-"source": "대한민국 정책브리핑",
-"link": "https://www.korea.kr/multi/visualNewsView.do?newsId=148976154"
+"title": "부안군, 홍합양식장에 연승식 굴 양식 성공…10t 수확 성과",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261120109300055"
 },
 {
-"title": "노로바이러스 식중독 절반이 겨울철…“가열용 굴 생식 주의” [헬시타임]",
-"source": "서울경제",
-"link": "https://www.sedaily.com/article/20116855"
+"title": "'연승식 굴 10t 첫 수확'…부안군 대체 양식품종 시범사업 결실",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261120_0003876715"
 }
 ],
 "new": true
@@ -3725,7 +3750,7 @@
 },
 {
 "term": "광주공항",
-"traffic": "100+",
+"traffic": "200+",
 "time": "2026-11-21T08:10:00+00:00",
 "news": [
 {
@@ -3773,24 +3798,6 @@
 "title": "“오빠 이제 집에 못 간다니까?” 태성을 납치한 용감한 그녀 효영?!",
 "source": "채널A",
 "link": "https://ichannela.com/program/clip/000000560995.do"
-}
-],
-"new": true
-},
-{
-"term": "은지원",
-"traffic": "200+",
-"time": "2026-11-21T07:40:00+00:00",
-"news": [
-{
-"title": "'살림남' 환희, 28년 만에 브라이언 성대 모사 도전! 또다시 앙숙되나? - 머니투데이",
-"source": "머니투데이",
-"link": "https://www.mt.co.kr/entertainment/2026/11/21/2026112115257285737"
-},
-{
-"title": "은지원, 탈퇴 고지용·강성훈 생각났나..플투에 \"너희는 완전체 되기 쉽네\"",
-"source": "조선일보",
-"link": "https://www.chosun.com/entertainments/broadcast/2026/11/21/MNSTMNLGG43GKNBUGVRDGYZYMY/"
 }
 ],
 "new": true
