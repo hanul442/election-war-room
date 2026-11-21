@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-21T02:35:51.015777+00:00",
+"updated": "2026-11-21T02:38:08.985898+00:00",
 "errors": [],
 "events": [
 {
@@ -2944,13 +2944,13 @@
 "spike": false
 },
 "폭발": {
-"n30": 8,
+"n30": 5,
 "base": 1.0,
 "spike": true
 },
 "붕괴": {
 "n30": 2,
-"base": 0.3,
+"base": 0.4,
 "spike": false
 },
 "대피": {
@@ -2964,23 +2964,23 @@
 "spike": false
 },
 "속보": {
-"n30": 5,
+"n30": 4,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "지하철": {
-"n30": 3,
-"base": 1.3,
+"n30": 2,
+"base": 1.4,
 "spike": false
 },
 "사고": {
-"n30": 3,
-"base": 1.4,
+"n30": 2,
+"base": 1.6,
 "spike": false
 },
 "실종": {
 "n30": 0,
-"base": 0.3,
+"base": 0.2,
 "spike": false
 },
 "단수": {
@@ -3191,16 +3191,6 @@
 "url": "https://www.youtube.com/watch?v=h1q5EScc-9I"
 },
 {
-"text": "지하철에 사람 많다~",
-"handle": "solinsol.bsky.social",
-"name": "Sol",
-"time": "2026-11-21T02:07:11.548Z",
-"likes": 1,
-"reposts": 0,
-"url": "https://bsky.app/profile/solinsol.bsky.social/post/3n2rzct6uzk2r",
-"term": "지하철"
-},
-{
 "platform": "YouTube",
 "text": "응원 열기 폭발! 사랑으로 가득 채워진 현장",
 "handle": "UCkdF0uOFoI1ZZ6__8L7iAYg",
@@ -3217,16 +3207,6 @@
 "time": "2026-11-21T02:06:40Z",
 "term": "폭발",
 "url": "https://www.youtube.com/watch?v=8n8z8WSuaqk"
-},
-{
-"text": "사장님이 칠수있는 사고는 얼려서 박살낸다음 퍼즐을 맞추는 것 뿐이네요...",
-"handle": "chikimaki.bsky.social",
-"name": "작가 치키마키",
-"time": "2026-11-21T02:06:35.842Z",
-"likes": 1,
-"reposts": 0,
-"url": "https://bsky.app/profile/chikimaki.bsky.social/post/3n2rzbr656k2m",
-"term": "사고"
 },
 {
 "platform": "YouTube",
@@ -3277,17 +3257,10 @@
 "spikes": [
 {
 "term": "폭발",
-"n30": 8,
+"n30": 5,
 "base": 1.0,
 "spike": true,
-"since": "2026-11-21T02:35:51.015777+00:00"
-},
-{
-"term": "속보",
-"n30": 5,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-21T02:35:51.015777+00:00"
+"since": "2026-11-21T02:38:08.985898+00:00"
 }
 ],
 "baseline": {
@@ -3296,13 +3269,13 @@
 "불났": 0.05,
 "정전": 0.05,
 "폭발": 1.04,
-"붕괴": 0.39,
+"붕괴": 0.45,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 1.38,
-"사고": 1.6,
-"실종": 0.24,
+"지하철": 1.34,
+"사고": 1.64,
+"실종": 0.22,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
