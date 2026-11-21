@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-21T18:04:10.836590+00:00",
+"updated": "2026-11-21T18:06:26.989946+00:00",
 "errors": [],
 "events": [
 {
@@ -1401,8 +1401,8 @@
 "sns": {
 "terms": {
 "지진": {
-"n30": 1,
-"base": 0.7,
+"n30": 0,
+"base": 0.8,
 "spike": false
 },
 "화재": {
@@ -1441,9 +1441,9 @@
 "spike": false
 },
 "속보": {
-"n30": 5,
+"n30": 4,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "지하철": {
 "n30": 1,
@@ -1452,7 +1452,7 @@
 },
 "사고": {
 "n30": 1,
-"base": 4.2,
+"base": 3.9,
 "spike": false
 },
 "실종": {
@@ -1563,16 +1563,6 @@
 "time": "2026-11-21T17:36:19Z",
 "term": "속보",
 "url": "https://www.youtube.com/watch?v=T92NIC9PX-g"
-},
-{
-"text": "【지진 정보】일본 시간 11월 22일 02:30경\n진원: Off the south Coast of Boso Peninsula (M4.6, 깊이 약 20km)\n최대 진도: 2\n진도 2: 도쿄도\n이 지진으로 인한 쓰나미 걱정은 없습니다.\n(일본 기상청 발표)\n#일본 #지진 #방재",
-"handle": "ko.soramoyou.yk-planning.jp",
-"name": "Soramoyou 한국어",
-"time": "2026-11-21T17:35:34.816Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/ko.soramoyou.yk-planning.jp/post/3n2tn6vicui2p",
-"term": "지진"
 },
 {
 "platform": "YouTube",
@@ -1701,27 +1691,19 @@
 "url": "https://www.youtube.com/watch?v=0HLtyyEGmeA"
 }
 ],
-"spikes": [
-{
-"term": "속보",
-"n30": 5,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-21T18:04:10.836590+00:00"
-}
-],
+"spikes": [],
 "baseline": {
-"지진": 0.77,
+"지진": 0.69,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.13,
+"폭발": 0.12,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
 "지하철": 0.05,
-"사고": 3.92,
+"사고": 3.63,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -2071,14 +2053,14 @@
 "time": "2026-11-21T14:50:00+00:00",
 "news": [
 {
-"title": "Chelsea 1-4 Leeds: Noah Okafor scores twice as visitors win",
-"source": "BBC",
-"link": "https://www.bbc.com/sport/football/live/c3dx19jxx15zt"
-},
-{
 "title": "Leeds overturn Chelsea lead with 4-1 win as Alonso suffers fifth league defeat",
 "source": "Chosunbiz",
 "link": "https://biz.chosun.com/en/en-sports/2026/11/22/NJOCZG4RBJDSVBE4EYNBHKBMSE/"
+},
+{
+"title": "Chelsea 1-4 Leeds, Tottenham 2-0 Ipswich, and more: football clockwatch – as it happened",
+"source": "The Guardian",
+"link": "https://www.theguardian.com/football/live/2026/nov/21/chelsea-v-leeds-tottenham-v-ipswich-and-more-football-clockwatch-live"
 }
 ],
 "new": true
