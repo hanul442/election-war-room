@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-21T18:44:37.291836+00:00",
+"updated": "2026-11-21T18:46:54.288023+00:00",
 "errors": [],
 "events": [
 {
@@ -905,7 +905,7 @@
 "spike": false
 },
 "붕괴": {
-"n30": 3,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
@@ -920,9 +920,9 @@
 "spike": false
 },
 "속보": {
-"n30": 5,
+"n30": 3,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "지하철": {
 "n30": 1,
@@ -1189,27 +1189,19 @@
 "url": "https://www.youtube.com/watch?v=vCzYZEsEY5g"
 }
 ],
-"spikes": [
-{
-"term": "속보",
-"n30": 5,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-21T18:44:37.291836+00:00"
-}
-],
+"spikes": [],
 "baseline": {
-"지진": 0.12,
+"지진": 0.11,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.65,
+"폭발": 0.59,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.71,
-"사고": 1.28,
+"지하철": 0.74,
+"사고": 1.25,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -1435,14 +1427,14 @@
 "time": "2026-11-21T17:30:00+00:00",
 "news": [
 {
+"title": "Chelsea 1-4 Leeds, Tottenham 2-0 Ipswich, and more: football clockwatch – as it happened",
+"source": "The Guardian",
+"link": "https://www.theguardian.com/football/live/2026/nov/21/chelsea-v-leeds-tottenham-v-ipswich-and-more-football-clockwatch-live"
+},
+{
 "title": "Team news: Eze in, Guimaraes starts at Newcastle",
 "source": "Arsenal.com",
 "link": "https://www.arsenal.com/news/team-news-eze-in-guimaraes-starts-at-newcastle-a2H2M7O1LIFA"
-},
-{
-"title": "Latest. Confirmed line-up: Miley and Willock in for Gunners game",
-"source": "Newcastle United",
-"link": "https://www.newcastleunited.com/en/news/arsenal-h-team-news-26-27"
 }
 ],
 "new": true
@@ -1453,14 +1445,14 @@
 "time": "2026-11-21T17:20:00+00:00",
 "news": [
 {
-"title": "Grosse inquiétude pour Désiré Doué, sorti sur civière",
-"source": "SO FOOT.com",
-"link": "https://www.sofoot.com/breves/nice-psg-desire-doue-evacue-sur-civiere-apres-une-torsion-du-genou"
-},
-{
 "title": "Nice renversé, le PSG profite d'un penalty litigieux",
 "source": "Foot01",
 "link": "https://www.foot01.com/paris/nice-renverse-le-psg-profite-dun-penalty-litigieux"
+},
+{
+"title": "PSG - La réaction de Ferran Torres, buteur, après la victoire du PSG face à l'OGC Nice",
+"source": "MadeInFoot",
+"link": "https://madeinfoot.ouest-france.fr/infos/article-psg-la-reaction-de-ferran-torres-buteur-apres-la-victoire-du-psg-face-a-l-ogc-nice-546534.html"
 }
 ],
 "new": true
