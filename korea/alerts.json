@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-21T09:09:40.614768+00:00",
+"updated": "2026-11-21T09:11:54.683670+00:00",
 "errors": [],
 "events": [
 {
@@ -2909,12 +2909,12 @@
 "terms": {
 "지진": {
 "n30": 4,
-"base": 0.2,
+"base": 0.3,
 "spike": false
 },
 "화재": {
 "n30": 3,
-"base": 0.2,
+"base": 0.3,
 "spike": false
 },
 "불났": {
@@ -2929,7 +2929,7 @@
 },
 "폭발": {
 "n30": 6,
-"base": 0.2,
+"base": 0.4,
 "spike": true
 },
 "붕괴": {
@@ -2949,16 +2949,16 @@
 },
 "속보": {
 "n30": 2,
-"base": 0.3,
+"base": 0.2,
 "spike": false
 },
 "지하철": {
-"n30": 10,
+"n30": 9,
 "base": 4.4,
 "spike": false
 },
 "사고": {
-"n30": 3,
+"n30": 4,
 "base": 3.0,
 "spike": false
 },
@@ -2990,6 +2990,16 @@
 },
 "posts": [
 {
+"text": "왜 난리인가 했더니 경부선에서 탈선사고가 났구나… 정말 난리였겠네.",
+"handle": "limobserver.bsky.social",
+"name": "제한적관찰자",
+"time": "2026-11-21T09:10:36.949Z",
+"likes": 1,
+"reposts": 1,
+"url": "https://bsky.app/profile/limobserver.bsky.social/post/3n2sqxwd5ycyn",
+"term": "사고"
+},
+{
 "platform": "YouTube",
 "text": "귀여움 폭발! 염유리의 오라버니~ 관객들 난리 났다!\"",
 "handle": "UChDbxo3HUm1zBcoppKxV_4w",
@@ -3012,7 +3022,7 @@
 "handle": "mumumu04.bsky.social",
 "name": "오지콤정병임니다",
 "time": "2026-11-21T09:05:48.744Z",
-"likes": 6,
+"likes": 10,
 "reposts": 0,
 "url": "https://bsky.app/profile/mumumu04.bsky.social/post/3n2sqpb46vc26",
 "term": "폭발"
@@ -3235,7 +3245,7 @@
 "handle": "chajangmyon.eurosky.social",
 "name": "짜장을 드세요",
 "time": "2026-11-21T08:53:43.247Z",
-"likes": 5,
+"likes": 6,
 "reposts": 0,
 "url": "https://bsky.app/profile/chajangmyon.eurosky.social/post/3n2spzoyyrs2e",
 "term": "지하철"
@@ -3275,23 +3285,23 @@
 {
 "term": "폭발",
 "n30": 6,
-"base": 0.2,
+"base": 0.4,
 "spike": true,
-"since": "2026-11-21T09:09:40.614768+00:00"
+"since": "2026-11-21T09:11:54.683670+00:00"
 }
 ],
 "baseline": {
-"지진": 0.32,
-"화재": 0.32,
+"지진": 0.39,
+"화재": 0.39,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.43,
+"폭발": 0.59,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.25,
-"지하철": 4.43,
-"사고": 2.96,
+"속보": 0.23,
+"지하철": 4.39,
+"사고": 3.06,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -3535,14 +3545,14 @@
 "time": "2026-11-21T07:20:00+00:00",
 "news": [
 {
-"title": "‘동두천 자연인’ 김민, 산불 초기 진화…외투 타는 와중에 큰불 막았다",
-"source": "문화일보",
-"link": "https://www.munhwa.com/article/11632986"
-},
-{
 "title": "불길 속 머리만 겨우 보였다…산불 진화한 배우 김민의 아찔한 모습",
 "source": "주간조선",
 "link": "https://weekly.chosun.com/news/articleView.html?idxno=57337"
+},
+{
+"title": "외투 타들어 가는데…촬영 간 김민, 몸 던져 '고성 대형 산불' 막았다",
+"source": "뉴스1",
+"link": "https://www.news1.kr/society/general-society/6360933"
 }
 ],
 "new": true
