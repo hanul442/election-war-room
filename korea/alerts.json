@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-21T13:44:37.532787+00:00",
+"updated": "2026-11-21T13:46:48.952880+00:00",
 "errors": [],
 "events": [
 {
@@ -837,7 +837,7 @@
 "id": "LQ0pGUi1OQzJnMURiMzZ3oc51107",
 "first": "2026-11-21T11:07:38+00:00",
 "last": "2026-11-21T11:49:25+00:00",
-"updated": "2026-11-21T12:46:51.275585+00:00",
+"updated": "2026-11-21T13:46:48.952880+00:00",
 "headline": "홍대입구역서 버스 인도 돌진",
 "cat": "기타",
 "regions": [
@@ -851,7 +851,8 @@
 "뉴시스",
 "부산일보",
 "아시아경제",
-"연합뉴스"
+"연합뉴스",
+"연합뉴스TV"
 ],
 "updates": [
 {
@@ -904,6 +905,13 @@
 "stage": "속보"
 },
 {
+"title": "홍대입구역서 버스 인도 돌진…6명 다쳐",
+"source": "연합뉴스TV",
+"link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE40dFU4SDRqeTdfOGgwZjNUOXROYWlUY09KN1NaaWRjaVY5MHpoWENob1RkczB5ZW9xVXUxTUdqQmpGaVR6ZHpMbFBiaGpTNFo5NmhUSmFOSzdtUnhscGtKXzk0NEN1cFU?oc=5",
+"time": "2026-11-21T11:17:00+00:00",
+"stage": "후속"
+},
+{
 "title": "홍대입구역 인근서 3중 추돌로 버스 인도 돌진…6명 경상",
 "source": "뉴시스",
 "link": "https://www.newsis.com/view/NISX20261121_0003877817",
@@ -934,6 +942,7 @@
 "6명",
 "경상",
 "경차",
+"다쳐",
 "돌진",
 "매장",
 "버스",
@@ -3129,61 +3138,13 @@
 "추돌",
 "쾅쾅쾅"
 ]
-},
-{
-"id": "A1ZTg4R0p5aXVyQ3puejQoc50732",
-"first": "2026-11-21T07:32:28+00:00",
-"last": "2026-11-21T07:44:46+00:00",
-"updated": "2026-11-21T08:03:14.641401+00:00",
-"headline": "아버지 흉기 공격 이어 어머니까지 협박·폭행…집행유예 중 범행 20대 실형",
-"cat": "기타",
-"regions": [],
-"sources": [
-"SBS",
-"강원일보"
-],
-"updates": [
-{
-"title": "[속보] 아버지 흉기 공격 이어 어머니까지 협박·폭행…집행유예 중 범행 20대 실형",
-"source": "강원일보",
-"link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1MOGxnaWhXbGNrZURHd1A1SjM5TE42WkxTak9fR1J4eXROY25xNkhrS254VmZKWkN0azZIVFM3QmJDVFhqVFRKQ0duN1A1ZTg4R0p5aXVyQ3puejQ?oc=5",
-"time": "2026-11-21T07:32:28+00:00",
-"stage": "얼럿"
-},
-{
-"title": "아버지 공격해 집행유예 중에 어머니도 흉기 위협한 20대 딸 실형",
-"source": "SBS",
-"link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008857011&plink=RSSLINK&cooper=RSSREADER",
-"time": "2026-11-21T07:44:46+00:00",
-"stage": "후속"
-}
-],
-"level": "URGENT",
-"latest": "아버지 공격해 집행유예 중에 어머니도 흉기 위협한 20대 딸 실형",
-"tok": [
-"20대",
-"공격",
-"공격해",
-"범행",
-"실형",
-"아버지",
-"어머니",
-"어머니까지",
-"위협한",
-"이어",
-"중에",
-"집행유예",
-"폭행",
-"협박",
-"흉기"
-]
 }
 ],
 "sns": {
 "terms": {
 "지진": {
 "n30": 0,
-"base": 0.5,
+"base": 0.4,
 "spike": false
 },
 "화재": {
@@ -3207,7 +3168,7 @@
 "spike": false
 },
 "붕괴": {
-"n30": 2,
+"n30": 1,
 "base": 0.6,
 "spike": false
 },
@@ -3222,12 +3183,12 @@
 "spike": false
 },
 "속보": {
-"n30": 5,
+"n30": 0,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "지하철": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -3482,27 +3443,19 @@
 "url": "https://www.youtube.com/watch?v=HhXuA2bgYBE"
 }
 ],
-"spikes": [
-{
-"term": "속보",
-"n30": 5,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-21T13:44:37.532787+00:00"
-}
-],
+"spikes": [],
 "baseline": {
-"지진": 0.43,
+"지진": 0.39,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
 "폭발": 0.05,
-"붕괴": 0.61,
+"붕괴": 0.65,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
 "지하철": 0.05,
-"사고": 1.39,
+"사고": 1.35,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -3765,7 +3718,7 @@
 "link": "https://www.chosun.com/sports/baseball/2026/11/21/MQ4WGYRWMY2TEYRYMFTGEYJYGM/"
 }
 ],
-"new": true
+"new": false
 },
 {
 "term": "김세의",
