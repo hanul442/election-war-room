@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-21T08:27:34.294691+00:00",
+"updated": "2026-11-21T08:29:46.772348+00:00",
 "errors": [],
 "events": [
 {
@@ -2930,7 +2930,7 @@
 "spike": false
 },
 "폭발": {
-"n30": 6,
+"n30": 5,
 "base": 0.1,
 "spike": true
 },
@@ -2950,18 +2950,18 @@
 "spike": false
 },
 "속보": {
-"n30": 8,
-"base": 1.9,
+"n30": 6,
+"base": 1.8,
 "spike": true
 },
 "지하철": {
-"n30": 8,
-"base": 2.3,
+"n30": 9,
+"base": 2.6,
 "spike": true
 },
 "사고": {
 "n30": 4,
-"base": 1.0,
+"base": 1.3,
 "spike": false
 },
 "실종": {
@@ -2991,6 +2991,16 @@
 }
 },
 "posts": [
+{
+"text": "요즘 너무 웹툰을 많이 봤나봐..\n지하철인데 이상한 생각만 들어\n#섹트 #섹블",
+"handle": "hwas4095.bsky.social",
+"name": "유화",
+"time": "2026-11-21T08:28:40.552Z",
+"likes": 2,
+"reposts": 0,
+"url": "https://bsky.app/profile/hwas4095.bsky.social/post/3n2somxaa2s2w",
+"term": "지하철"
+},
 {
 "text": "링라이트가 사고 싶다",
 "handle": "within-crystal.bsky.social",
@@ -3059,16 +3069,6 @@
 "likes": 0,
 "reposts": 0,
 "url": "https://bsky.app/profile/simyes22.bsky.social/post/3n2snvtlkm22e",
-"term": "지하철"
-},
-{
-"text": "나 잘못된 지하철 탄걸까\n괜찮은걸까 나...",
-"handle": "mediumwelldonelife.bsky.social",
-"name": "키말",
-"time": "2026-11-21T08:09:33.147Z",
-"likes": 6,
-"reposts": 0,
-"url": "https://bsky.app/profile/mediumwelldonelife.bsky.social/post/3n2snjw3s622j",
 "term": "지하철"
 },
 {
@@ -3232,39 +3232,29 @@
 "time": "2026-11-21T07:59:05Z",
 "term": "폭발",
 "url": "https://www.youtube.com/watch?v=q4KSAb06Jbs"
-},
-{
-"text": "속보 - 앤트로픽(Anthropic)의 한 수학자가 AI 모델인 클로드(Claude)의 도움을 받아 수학 분야에서 가장 유명한 미해결 문제 중 하나인 리만 가설을 증명했다고 주장했습니다.\n\n자세한 내용은 여기에서 확인하세요: www.disclose.tv/id/b89awfhfdn/",
-"handle": "newsky144th.bsky.social",
-"name": "하통시대",
-"time": "2026-11-21T07:58:22.744Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/newsky144th.bsky.social/post/3n2smwpwoqs2k",
-"term": "속보"
 }
 ],
 "spikes": [
 {
 "term": "폭발",
-"n30": 6,
+"n30": 5,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-21T08:27:34.294691+00:00"
+"since": "2026-11-21T08:29:46.772348+00:00"
 },
 {
 "term": "속보",
-"n30": 8,
-"base": 1.9,
+"n30": 6,
+"base": 1.8,
 "spike": true,
-"since": "2026-11-21T08:27:34.294691+00:00"
+"since": "2026-11-21T08:29:46.772348+00:00"
 },
 {
 "term": "지하철",
-"n30": 8,
-"base": 2.3,
+"n30": 9,
+"base": 2.6,
 "spike": true,
-"since": "2026-11-21T08:27:34.294691+00:00"
+"since": "2026-11-21T08:29:46.772348+00:00"
 }
 ],
 "baseline": {
@@ -3272,18 +3262,18 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.13,
+"폭발": 0.12,
 "붕괴": 0.05,
-"대피": 0.07,
+"대피": 0.06,
 "미사일": 0.05,
-"속보": 1.84,
-"지하철": 2.59,
-"사고": 1.29,
+"속보": 1.66,
+"지하철": 2.93,
+"사고": 1.56,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
-"산불": 0.14
+"산불": 0.13
 },
 "errors": [],
 "ytPosts": [
