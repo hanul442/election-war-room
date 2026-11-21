@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-21T19:36:38.186494+00:00",
+"updated": "2026-11-21T19:38:53.564400+00:00",
 "errors": [],
 "events": [
 {
@@ -565,8 +565,8 @@
 "sns": {
 "terms": {
 "지진": {
-"n30": 1,
-"base": 0.7,
+"n30": 0,
+"base": 0.8,
 "spike": false
 },
 "화재": {
@@ -605,7 +605,7 @@
 "spike": false
 },
 "속보": {
-"n30": 6,
+"n30": 5,
 "base": 0.1,
 "spike": true
 },
@@ -756,16 +756,6 @@
 "url": "https://www.youtube.com/watch?v=n9sdD7ebu2Q"
 },
 {
-"text": "【지진 정보】일본 시간 11월 22일 04:03경\n진원: Amakusa and Ashikita Region, Kumamoto Prefecture (M2.3, 깊이 약 10km)\n최대 진도: 1\n진도 1: 구마모토현\n이 지진으로 인한 쓰나미 걱정은 없습니다.\n(일본 기상청 발표)\n#일본 #지진 #방재",
-"handle": "ko.soramoyou.yk-planning.jp",
-"name": "Soramoyou 한국어",
-"time": "2026-11-21T19:08:33.647Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/ko.soramoyou.yk-planning.jp/post/3n2tsf6gfqd2h",
-"term": "지진"
-},
-{
 "platform": "YouTube",
 "text": "[코리아써키트 주가전망] *주말 속보* 소캠2 호재에도 10% 급락 만든 \"진짜 이유\", 다음 장 \"이 흐름\" 모르면 계좌 흔들립니다.",
 "handle": "UCs-VUSOSWP22YuJHoDWTz_w",
@@ -886,24 +876,24 @@
 "spikes": [
 {
 "term": "속보",
-"n30": 6,
+"n30": 5,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-21T19:36:38.186494+00:00"
+"since": "2026-11-21T19:38:53.564400+00:00"
 }
 ],
 "baseline": {
-"지진": 0.77,
+"지진": 0.69,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.06,
+"폭발": 0.05,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.09,
-"사고": 0.52,
+"지하철": 0.08,
+"사고": 0.57,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
