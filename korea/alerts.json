@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-21T08:58:36.403058+00:00",
+"updated": "2026-11-21T09:00:47.545223+00:00",
 "errors": [],
 "events": [
 {
@@ -162,6 +162,43 @@
 "탄핵",
 "탄핵만",
 "특검법"
+]
+},
+{
+"id": "M5STBLRU0takk1QmNlUVUoc50835",
+"first": "2026-11-21T08:35:10+00:00",
+"last": "2026-11-21T08:35:10+00:00",
+"updated": "2026-11-21T09:00:47.545223+00:00",
+"headline": "기상청 \"21일 오후 6시부터 강원 속초·고성에 건조경보 발효\"[날씨]",
+"cat": "기타",
+"regions": [
+"강원"
+],
+"sources": [
+"사이렌스"
+],
+"updates": [
+{
+"title": "[속보] 기상청 \"21일 오후 6시부터 강원 속초·고성에 건조경보 발효\"[날씨]",
+"source": "사이렌스",
+"link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5mUXl2N1hyMWowdmlTUF9oVnd6SDlaTDE2aEwzUS1taWUzRlcyWTJOSzYzd1RsTUVuSG9tMk4tT2M5STBLRU0takk1QmNlUVU?oc=5",
+"time": "2026-11-21T08:35:10+00:00",
+"stage": "얼럿"
+}
+],
+"level": "URGENT",
+"latest": "기상청 \"21일 오후 6시부터 강원 속초·고성에 건조경보 발효\"[날씨]",
+"tok": [
+"21일",
+"6시부터",
+"강원",
+"건조경보",
+"고성",
+"기상청",
+"날씨",
+"발효",
+"속초",
+"오후"
 ]
 },
 {
@@ -2818,7 +2855,7 @@
 "spike": false
 },
 "화재": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -2833,12 +2870,12 @@
 "spike": false
 },
 "폭발": {
-"n30": 5,
+"n30": 2,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "붕괴": {
-"n30": 4,
+"n30": 2,
 "base": 0.1,
 "spike": false
 },
@@ -2853,18 +2890,18 @@
 "spike": false
 },
 "속보": {
-"n30": 3,
-"base": 0.5,
+"n30": 0,
+"base": 0.4,
 "spike": false
 },
 "지하철": {
-"n30": 6,
-"base": 4.2,
+"n30": 5,
+"base": 4.3,
 "spike": false
 },
 "사고": {
 "n30": 2,
-"base": 3.3,
+"base": 3.2,
 "spike": false
 },
 "실종": {
@@ -2909,7 +2946,7 @@
 "handle": "chajangmyon.eurosky.social",
 "name": "짜장을 드세요",
 "time": "2026-11-21T08:53:43.247Z",
-"likes": 2,
+"likes": 3,
 "reposts": 0,
 "url": "https://bsky.app/profile/chajangmyon.eurosky.social/post/3n2spzoyyrs2e",
 "term": "지하철"
@@ -3144,15 +3181,7 @@
 "url": "https://www.youtube.com/watch?v=7-TYbPQPjMg"
 }
 ],
-"spikes": [
-{
-"term": "폭발",
-"n30": 5,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-21T08:58:36.403058+00:00"
-}
-],
+"spikes": [],
 "baseline": {
 "지진": 0.05,
 "화재": 0.05,
@@ -3162,9 +3191,9 @@
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.42,
-"지하철": 4.27,
-"사고": 3.17,
+"속보": 0.38,
+"지하철": 4.24,
+"사고": 3.05,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
