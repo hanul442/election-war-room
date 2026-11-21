@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-21T00:30:54.252238+00:00",
+"updated": "2026-11-21T00:33:14.956420+00:00",
 "errors": [],
 "events": [
 {
@@ -2224,8 +2224,8 @@
 "spike": false
 },
 "화재": {
-"n30": 3,
-"base": 0.6,
+"n30": 2,
+"base": 0.7,
 "spike": false
 },
 "불났": {
@@ -2239,9 +2239,9 @@
 "spike": false
 },
 "폭발": {
-"n30": 5,
+"n30": 2,
 "base": 0.4,
-"spike": true
+"spike": false
 },
 "붕괴": {
 "n30": 1,
@@ -2259,8 +2259,8 @@
 "spike": false
 },
 "속보": {
-"n30": 3,
-"base": 0.3,
+"n30": 2,
+"base": 0.2,
 "spike": false
 },
 "지하철": {
@@ -2270,7 +2270,7 @@
 },
 "사고": {
 "n30": 1,
-"base": 2.0,
+"base": 1.9,
 "spike": false
 },
 "실종": {
@@ -2501,27 +2501,19 @@
 "url": "https://www.youtube.com/watch?v=fuZCt7jAJBA"
 }
 ],
-"spikes": [
-{
-"term": "폭발",
-"n30": 5,
-"base": 0.4,
-"spike": true,
-"since": "2026-11-21T00:30:54.252238+00:00"
-}
-],
+"spikes": [],
 "baseline": {
 "지진": 0.05,
-"화재": 0.68,
+"화재": 0.71,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.37,
+"폭발": 0.33,
 "붕괴": 0.05,
 "대피": 0.05,
-"미사일": 0.11,
-"속보": 0.24,
-"지하철": 0.07,
-"사고": 1.89,
+"미사일": 0.1,
+"속보": 0.22,
+"지하철": 0.06,
+"사고": 1.8,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -2715,6 +2707,60 @@
 },
 "trends": [
 {
+"term": "반도체",
+"traffic": "2000+",
+"time": "2026-11-20T23:30:00+00:00",
+"news": [
+{
+"title": "4년 만에 대중 무역흑자 돌아섰지만…반도체 빼면 적자 확대",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261120164900003"
+},
+{
+"title": "10대 수출시장 중 8곳서 흑자…잘 팔고도 눈치 보는 한국",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261117_0003871235"
+}
+],
+"new": true
+},
+{
+"term": "데이터 센터",
+"traffic": "200+",
+"time": "2026-11-20T23:30:00+00:00",
+"news": [
+{
+"title": "트럼프 \"美기업, 다른 나라에 데이터센터 지으면 엄청난 세금 부과\"",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261121006000071"
+},
+{
+"title": "미국인들이 데이터센터 결사반대한 진짜 이유…'전기요금 폭탄'의 실체",
+"source": "스브스프리미엄",
+"link": "https://premium.sbs.co.kr/article/PvP_h_E3J"
+}
+],
+"new": true
+},
+{
+"term": "문경시",
+"traffic": "200+",
+"time": "2026-11-20T23:30:00+00:00",
+"news": [
+{
+"title": "문경시 내년 예산 1조710억원 편성…올해보다 1.5%↑",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261120_0003876291"
+},
+{
+"title": "문경시, 내년 예산안 1조 710억 편성…올해보다 160억 늘어",
+"source": "뉴스1",
+"link": "https://www.news1.kr/local/daegu-gyeongbuk/6360777"
+}
+],
+"new": true
+},
+{
 "term": "추성훈",
 "traffic": "500+",
 "time": "2026-11-20T23:10:00+00:00",
@@ -2828,60 +2874,6 @@
 "time": "2026-11-20T22:20:00+00:00",
 "news": [],
 "new": false
-},
-{
-"term": "연예인",
-"traffic": "2000+",
-"time": "2026-11-20T22:10:00+00:00",
-"news": [
-{
-"title": "‘성폭행 유죄’ 강지환, 틱톡 복귀 시동 걸었지만…‘하루 만에’ 퇴출",
-"source": "동아일보",
-"link": "https://www.donga.com/news/Society/article/all/20261120/135063902/1"
-},
-{
-"title": "'성폭행 유죄' 강지환도 고영욱처럼…틱톡 하루 만에 '삭제' 굴욕 - 머니투데이",
-"source": "머니투데이",
-"link": "https://www.mt.co.kr/entertainment/2026/11/20/2026112020104015314"
-}
-],
-"new": true
-},
-{
-"term": "경기남부",
-"traffic": "500+",
-"time": "2026-11-20T22:10:00+00:00",
-"news": [
-{
-"title": "\"오를 곳은 더 오른다\"…경기 남부 집값 고공행진 속 공급 급감",
-"source": "파이낸셜뉴스",
-"link": "https://www.fnnews.com/news/202611201430139857"
-},
-{
-"title": "경기 남부 아파트값 고공행진…광교 22억 신고가에 서울 외곽 추월",
-"source": "서울뉴스통신",
-"link": "http://www.snakorea.com/news/articleView.html?idxno=1065174"
-}
-],
-"new": true
-},
-{
-"term": "나스닥 100",
-"traffic": "200+",
-"time": "2026-11-20T22:10:00+00:00",
-"news": [
-{
-"title": "나스닥 100, 사상 최고치 대비 약 20% 하락: 과거 데이터상 60거래일 후 상승 확률 80%",
-"source": "TradingKey",
-"link": "https://www.tradingkey.com/kr/analysis/stocks/us-stocks/262316128-nasdaq-100-drawdown-20-percent-intraday-15-percent-backtest-tradingkey"
-},
-{
-"title": "나스닥 선물, 한때 26,280.5포인트로 밀려 4월 중순 이후 최저",
-"source": "토큰포스트",
-"link": "https://www.tokenpost.kr/news/breaking/441375"
-}
-],
-"new": true
 }
 ],
 "trendSeen": [
