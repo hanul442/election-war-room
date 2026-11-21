@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-21T06:48:07.450550+00:00",
+"updated": "2026-11-21T06:50:20.062930+00:00",
 "errors": [],
 "events": [
 {
@@ -3303,9 +3303,9 @@
 "spike": false
 },
 "붕괴": {
-"n30": 5,
+"n30": 3,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "대피": {
 "n30": 0,
@@ -3318,18 +3318,18 @@
 "spike": false
 },
 "속보": {
-"n30": 5,
+"n30": 4,
 "base": 0.7,
-"spike": true
+"spike": false
 },
 "지하철": {
-"n30": 5,
-"base": 2.3,
+"n30": 6,
+"base": 2.6,
 "spike": false
 },
 "사고": {
 "n30": 6,
-"base": 5.2,
+"base": 5.3,
 "spike": false
 },
 "실종": {
@@ -3360,6 +3360,16 @@
 },
 "posts": [
 {
+"text": "지하철 버스 사람 꽉 찼을때 툭툭",
+"handle": "axnfoeyvqo0.bsky.social",
+"name": "qwertyzex",
+"time": "2026-11-21T06:48:02.442Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/axnfoeyvqo0.bsky.social/post/3n2siyygz222f",
+"term": "지하철"
+},
+{
 "text": "??? ...??????? 아즈씨 나중에 지하철에 갇혀도 난 몰라요",
 "handle": "marapapiyas.bsky.social",
 "name": "장수말벌",
@@ -3374,7 +3384,7 @@
 "handle": "ffggga236.bsky.social",
 "name": "🔒🔒RT = Block🔒🔒",
 "time": "2026-11-21T06:45:05.546Z",
-"likes": 0,
+"likes": 1,
 "reposts": 0,
 "url": "https://bsky.app/profile/ffggga236.bsky.social/post/3n2sitpu3ds2d",
 "term": "사고"
@@ -3428,16 +3438,6 @@
 "reposts": 0,
 "url": "https://bsky.app/profile/whyimsogreat.bsky.social/post/3n2si6engu22g",
 "term": "사고"
-},
-{
-"text": "지방 지하철  < 골프장 인건가요\n뭐지 이거\n이 나라 어떻게 80살 넘었지",
-"handle": "boiledsquid.bsky.social",
-"name": "SALMO/살모",
-"time": "2026-11-21T06:32:56.247Z",
-"likes": 1,
-"reposts": 0,
-"url": "https://bsky.app/profile/boiledsquid.bsky.social/post/3n2si5xotbk26",
-"term": "지하철"
 },
 {
 "platform": "YouTube",
@@ -3539,16 +3539,6 @@
 "url": "https://www.youtube.com/watch?v=yvyvBsi18iI"
 },
 {
-"text": "#광고\n오늘의 뉴스\n[속보] 李대통령 \"AI 부정 등 환경 변화 맞춰 국가시험제도 전면 개편\"\n기사 보기: https://dailyissue.net/S0aAdd",
-"handle": "todaypicknews.bsky.social",
-"name": "todaypicknews.bsky.social",
-"time": "2026-11-21T06:20:08.045Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/todaypicknews.bsky.social/post/3n2shh44fgg2t",
-"term": "속보"
-},
-{
 "platform": "YouTube",
 "text": "삼전 17만원 붕괴 지금 사면 '개미지옥' (이슬이 전문가)",
 "handle": "UCjmhD4Wo08o6X2KuyoXSjsg",
@@ -3648,34 +3638,19 @@
 "url": "https://www.youtube.com/watch?v=y2gC4F6Q238"
 }
 ],
-"spikes": [
-{
-"term": "붕괴",
-"n30": 5,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-21T06:48:07.450550+00:00"
-},
-{
-"term": "속보",
-"n30": 5,
-"base": 0.7,
-"spike": true,
-"since": "2026-11-21T06:48:07.450550+00:00"
-}
-],
+"spikes": [],
 "baseline": {
 "지진": 0.05,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.17,
+"폭발": 0.15,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.74,
-"지하철": 2.6,
-"사고": 5.29,
+"속보": 0.67,
+"지하철": 2.94,
+"사고": 5.36,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
