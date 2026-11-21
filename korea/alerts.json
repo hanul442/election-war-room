@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-21T11:36:15.099961+00:00",
+"updated": "2026-11-21T11:38:27.814937+00:00",
 "errors": [],
 "events": [
 {
@@ -613,7 +613,7 @@
 "id": "phWUpPS2o3UDNOS2NHWWMoc50410",
 "first": "2026-11-21T04:10:00+00:00",
 "last": "2026-11-21T11:11:00+00:00",
-"updated": "2026-11-21T11:20:48.770602+00:00",
+"updated": "2026-11-21T11:38:27.814937+00:00",
 "headline": "코레일, 소정리역 화물열차 탈선에 임시열차 15대 투입",
 "cat": "교통",
 "regions": [
@@ -693,6 +693,13 @@
 "title": "[속보]코레일 “22일 첫차부터 경부선 일반열차 운행 정상화”",
 "source": "경향신문",
 "link": "https://www.khan.co.kr/article/202611211947001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
+"time": "2026-11-21T10:47:00+00:00",
+"stage": "속보"
+},
+{
+"title": "[속보] 코레일 \"경부선 일반열차 22일 첫차부터 운행 재개\"",
+"source": "더팩트",
+"link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBBbkMwTS03MUItcTllc3k2UEJlY29aSEl3LU9JN203R001Yk4zLTJSM1NyeHdIRXA1MFUxSGZSRE1remhqRWVtM2xqcEFNbk5w0gFQQVVfeXFMUEFuQzBNLTcxQi1xOWVzeTZQQmVjb1pISXctT0k3bTdHTTViTjMtMlIzU3J4d0hFcDUwVTFIZlJETWt6aGpFZW0zbGpwQU1uTnA?oc=5",
 "time": "2026-11-21T10:47:00+00:00",
 "stage": "속보"
 },
@@ -3662,40 +3669,6 @@
 "폭행",
 "흉기"
 ]
-},
-{
-"id": "BTQWVLODliV3hPTHhoRVkoc50537",
-"first": "2026-11-21T05:37:52+00:00",
-"last": "2026-11-21T05:37:52+00:00",
-"updated": "2026-11-21T06:37:04.832734+00:00",
-"headline": "AI 성능도 낮았는데 반년 만에 고득점?…故 이진우 둘러싼 의문들",
-"cat": "기타",
-"regions": [],
-"sources": [
-"경기일보"
-],
-"updates": [
-{
-"title": "[속보] AI 성능도 낮았는데 반년 만에 고득점?…故 이진우 둘러싼 의문들",
-"source": "경기일보",
-"link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5SYzBKNm9UVHFVWmEyYndDdXpuYlJ0bk5SU3RhbDVwQXVyRXYwUU15eldxNXJWQmFDd21CcVp5MXNfVFFXNWNBWFRndTBTQWVLODliV3hPTHhoRVk?oc=5",
-"time": "2026-11-21T05:37:52+00:00",
-"stage": "얼럿"
-}
-],
-"level": "URGENT",
-"latest": "AI 성능도 낮았는데 반년 만에 고득점?…故 이진우 둘러싼 의문들",
-"tok": [
-"AI",
-"고득점",
-"낮았는데",
-"둘러싼",
-"만에",
-"반년",
-"성능",
-"의문들",
-"이진우"
-]
 }
 ],
 "sns": {
@@ -3747,11 +3720,11 @@
 },
 "지하철": {
 "n30": 2,
-"base": 0.4,
+"base": 0.5,
 "spike": false
 },
 "사고": {
-"n30": 3,
+"n30": 2,
 "base": 3.3,
 "spike": false
 },
@@ -3848,16 +3821,6 @@
 "time": "2026-11-21T11:10:21Z",
 "term": "속보",
 "url": "https://www.youtube.com/watch?v=DAUmxBxEFoc"
-},
-{
-"text": "- 반복 추론을 통해 100B 미만 오픈 가중치 모델 중 에이전트 코딩/도구 활용/장기 문맥 처리와 전력 대비 지능(0.703)에서 최상위권 성능을 달성했으며, 파라미터 크기에 비례하는 단순 사실 지식의 한계는 효율적인 검색과 도구 사용으로 극복\n\n- 연구 개방을 위해 함께 공개한 가변 루프 모델의 검증 결과, 루프 횟수가 늘어날수록 시행착오가 줄어 사고 사슬이 절반 이하로 압축되면서도 인간",
-"handle": "lunamothryu.bsky.social",
-"name": "lunamoth",
-"time": "2026-11-21T11:06:57.145Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/lunamothryu.bsky.social/post/3n2sxhxy4hk2a",
-"term": "사고"
 },
 {
 "platform": "YouTube",
@@ -3970,17 +3933,17 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 0.1,
+"지진": 0.09,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.17,
-"붕괴": 0.51,
-"대피": 0.28,
+"폭발": 0.15,
+"붕괴": 0.56,
+"대피": 0.25,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.45,
-"사고": 3.29,
+"지하철": 0.51,
+"사고": 3.16,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
