@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-21T22:33:39.103266+00:00",
+"updated": "2026-11-21T22:35:56.175351+00:00",
 "errors": [],
 "events": [
 {
@@ -800,9 +800,9 @@
 "spike": false
 },
 "폭발": {
-"n30": 5,
+"n30": 3,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "붕괴": {
 "n30": 0,
@@ -815,23 +815,23 @@
 "spike": false
 },
 "미사일": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
 "속보": {
-"n30": 3,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
 "지하철": {
 "n30": 0,
-"base": 0.6,
+"base": 0.5,
 "spike": false
 },
 "사고": {
 "n30": 0,
-"base": 0.6,
+"base": 0.5,
 "spike": false
 },
 "실종": {
@@ -1051,15 +1051,7 @@
 "url": "https://www.youtube.com/watch?v=7s-0RhDzmAc"
 }
 ],
-"spikes": [
-{
-"term": "폭발",
-"n30": 5,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-21T22:33:39.103266+00:00"
-}
-],
+"spikes": [],
 "baseline": {
 "지진": 0.05,
 "화재": 0.05,
@@ -1070,8 +1062,8 @@
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.54,
-"사고": 0.5,
+"지하철": 0.49,
+"사고": 0.45,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -1293,7 +1285,7 @@
 },
 {
 "term": "kbs",
-"traffic": "100+",
+"traffic": "200+",
 "time": "2026-11-21T21:20:00+00:00",
 "news": [
 {
@@ -1347,7 +1339,7 @@
 },
 {
 "term": "지수",
-"traffic": "500+",
+"traffic": "1000+",
 "time": "2026-11-21T20:40:00+00:00",
 "news": [
 {
@@ -1359,24 +1351,6 @@
 "title": "블랙핑크 지수가 다녀간 방콕 여행 명소 6곳",
 "source": "하퍼스 바자 코리아",
 "link": "https://www.harpersbazaar.co.kr/article/1913142"
-}
-],
-"new": true
-},
-{
-"term": "경제",
-"traffic": "500+",
-"time": "2026-11-21T20:40:00+00:00",
-"news": [
-{
-"title": "中 경제에 ‘장기불황의 그림자’ 짙어졌다",
-"source": "데일리안",
-"link": "https://www.dailian.co.kr/news/view/1717961/%E4%B8%AD-%EA%B2%BD%EC%A0%9C-%E2%80%98%EC%9E%A5%EA%B8%B0%EB%B6%88%ED%99%A9-%EA%B7%B8%EB%A6%BC%EC%9E%90%E2%80%99-%EC%A7%99%EC%96%B4%EC%A1%8C%EB%8B%A4-2026"
-},
-{
-"title": "2026년 10월까지 중국 고정자산투자 감소폭 확대 - 뉴스 및 통계",
-"source": "IndexBox",
-"link": "https://www.indexbox.io/ko/blog/china-fixed-asset-investment-falls-81-in-january-october-2026/"
 }
 ],
 "new": true
@@ -1395,6 +1369,24 @@
 "title": "[단독] '리트 만점자' 지난해 수능시험지에 비정상적 풀이 정황",
 "source": "MBC 뉴스",
 "link": "https://imnews.imbc.com/replay/2026/nwdesk/article/6867366_37004.html"
+}
+],
+"new": true
+},
+{
+"term": "경제",
+"traffic": "500+",
+"time": "2026-11-21T20:40:00+00:00",
+"news": [
+{
+"title": "中 경제에 ‘장기불황의 그림자’ 짙어졌다",
+"source": "데일리안",
+"link": "https://www.dailian.co.kr/news/view/1717961/%E4%B8%AD-%EA%B2%BD%EC%A0%9C-%E2%80%98%EC%9E%A5%EA%B8%B0%EB%B6%88%ED%99%A9-%EA%B7%B8%EB%A6%BC%EC%9E%90%E2%80%99-%EC%A7%99%EC%96%B4%EC%A1%8C%EB%8B%A4-2026"
+},
+{
+"title": "2026년 10월까지 중국 고정자산투자 감소폭 확대 - 뉴스 및 통계",
+"source": "IndexBox",
+"link": "https://www.indexbox.io/ko/blog/china-fixed-asset-investment-falls-81-in-january-october-2026/"
 }
 ],
 "new": true
@@ -1446,9 +1438,9 @@
 "link": "https://www.tufutbolero.com/novedades/pablo-duran-adelanta-al-celta-en-el-bernabeu-a-los-seis-minu-216a7b"
 },
 {
-"title": "Pese al mal inicio y al fallo de Mbappé, el Real Madrid sigue ganando",
-"source": "OneFootball",
-"link": "https://onefootball.com/es/noticias/pese-al-mal-inicio-y-al-fallo-de-mbappe-el-real-madrid-sigue-ganando-43816122"
+"title": "2-1. Vuelve el Madrid de las remontadas",
+"source": "Yahoo",
+"link": "https://es-us.noticias.yahoo.com/deportes/2-1-vuelve-madrid-remontadas-220919478.html"
 }
 ],
 "new": true
