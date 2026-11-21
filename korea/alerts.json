@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-21T06:15:48.594319+00:00",
+"updated": "2026-11-21T06:18:28.403854+00:00",
 "errors": [],
 "events": [
 {
@@ -3054,49 +3054,6 @@
 "전소",
 "화재"
 ]
-},
-{
-"id": "WlzNkVydHdGVzRjN0NxdQoc52101",
-"first": "2026-11-20T21:01:06+00:00",
-"last": "2026-11-21T00:18:05+00:00",
-"updated": "2026-11-21T00:19:31.792779+00:00",
-"headline": "AI주 투매에 나스닥 5%대 급락…올해 상승분 반납",
-"cat": "기타",
-"regions": [],
-"sources": [
-"edaily.co.kr",
-"뉴시스"
-],
-"updates": [
-{
-"title": "[속보]AI주 투매에 나스닥 5%대 급락…올해 상승분 반납",
-"source": "edaily.co.kr",
-"link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQOHJVMFlOWEJWZDdGWTVSS1BBOHdDLS1IQjB3X0E3M3M5QVpBLTJYbXhKOWU1SDcwOUx3UE1DMTROSW1NNF9JYmVTcjZ6UVBRekt6YzVuVmMwQnBkWkUwSnRJQzI4QnN5YTJHcWJLNWg3VWlzNkVydHdGVzRjN0NxdQ?oc=5",
-"time": "2026-11-20T21:01:06+00:00",
-"stage": "얼럿"
-},
-{
-"title": "AI 공포에 나스닥 올해 상승분 반납…뉴욕증시 최악의 한 주",
-"source": "뉴시스",
-"link": "https://www.newsis.com/view/NISX20261121_0003877556",
-"time": "2026-11-21T00:18:05+00:00",
-"stage": "후속"
-}
-],
-"level": "URGENT",
-"latest": "AI 공포에 나스닥 올해 상승분 반납…뉴욕증시 최악의 한 주",
-"tok": [
-"AI",
-"AI주",
-"공포",
-"급락",
-"나스닥",
-"뉴욕증시",
-"반납",
-"상승분",
-"최악",
-"투매"
-]
 }
 ],
 "sns": {
@@ -3123,7 +3080,7 @@
 },
 "폭발": {
 "n30": 11,
-"base": 0.7,
+"base": 0.6,
 "spike": true
 },
 "붕괴": {
@@ -3148,11 +3105,11 @@
 },
 "지하철": {
 "n30": 3,
-"base": 1.7,
+"base": 1.6,
 "spike": false
 },
 "사고": {
-"n30": 3,
+"n30": 4,
 "base": 3.0,
 "spike": false
 },
@@ -3183,6 +3140,16 @@
 }
 },
 "posts": [
+{
+"text": "이번 탈선 영상 보다 깨진 차륜이 나온거 같은데, 간만에 차륜파손 사고인가... 전라선처럼 고속주행구간 벗어나면서 한번씩 터지고 그랬는데, 부산신항발 열차가 이런건 거의 십년만에 난거같운.",
+"handle": "inspektor.bsky.social",
+"name": "국철진",
+"time": "2026-11-21T06:16:08.540Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/inspektor.bsky.social/post/3n2sh7xxtd22h",
+"term": "사고"
+},
 {
 "text": "흠 기다리던 블돌 샘플 잘 나온 거 같은디 양산에선 좀 바뀔 거 같고 묘하게 안 사고 싶다 특히 위시였던 것들이 좀 별로라고 느껴지는데 왜지.. 양산샘플 따로 안 보여주면 생각을 해봐야쓰것서",
 "handle": "ykkubee.bsky.social",
@@ -3399,16 +3366,16 @@
 {
 "term": "폭발",
 "n30": 11,
-"base": 0.7,
+"base": 0.6,
 "spike": true,
-"since": "2026-11-21T06:15:48.594319+00:00"
+"since": "2026-11-21T06:18:28.403854+00:00"
 },
 {
 "term": "속보",
 "n30": 5,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-21T06:15:48.594319+00:00"
+"since": "2026-11-21T06:18:28.403854+00:00"
 }
 ],
 "baseline": {
@@ -3416,13 +3383,13 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.64,
-"붕괴": 0.22,
+"폭발": 0.58,
+"붕괴": 0.2,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 1.61,
-"사고": 3.01,
+"지하철": 1.55,
+"사고": 3.11,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -3750,9 +3717,9 @@
 "link": "https://imnews.imbc.com/news/2026/society/article/6867466_36918.html"
 },
 {
-"title": "논술·면접 시험 봐야하는데…수험생 경부선 탈선에 어쩌나 ‘발동동’",
-"source": "한겨레",
-"link": "https://www.hani.co.kr/arti/society/society_general/1288427.html"
+"title": "’경부선 탈선’에 일반열차 중지…“복구에 시간 소요“",
+"source": "연합뉴스TV",
+"link": "https://www.yonhapnewstv.co.kr/news/MYH20261121150218mes"
 }
 ],
 "new": false
