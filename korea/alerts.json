@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-21T19:05:11.272080+00:00",
+"updated": "2026-11-21T19:07:24.985796+00:00",
 "errors": [],
 "events": [
 {
@@ -936,7 +936,7 @@
 "spike": true
 },
 "붕괴": {
-"n30": 3,
+"n30": 2,
 "base": 0.1,
 "spike": false
 },
@@ -962,7 +962,7 @@
 },
 "사고": {
 "n30": 0,
-"base": 0.7,
+"base": 0.6,
 "spike": false
 },
 "실종": {
@@ -1206,14 +1206,14 @@
 "n30": 5,
 "base": 0.3,
 "spike": true,
-"since": "2026-11-21T19:05:11.272080+00:00"
+"since": "2026-11-21T19:07:24.985796+00:00"
 },
 {
 "term": "속보",
 "n30": 9,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-21T19:05:11.272080+00:00"
+"since": "2026-11-21T19:07:24.985796+00:00"
 }
 ],
 "baseline": {
@@ -1221,13 +1221,13 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.26,
+"폭발": 0.23,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.37,
-"사고": 0.64,
+"지하철": 0.33,
+"사고": 0.58,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -1538,6 +1538,24 @@
 "new": true
 },
 {
+"term": "토트넘 홋스퍼 fc 대 입스위치 타운 fc 라인업",
+"traffic": "100+",
+"time": "2026-11-21T16:20:00+00:00",
+"news": [
+{
+"title": "Match commentary and highlights: Tottenham 2-0 Ipswich",
+"source": "Sky Sports",
+"link": "https://www.skysports.com/football/live-blog/13610687/tottenham-vs-ipswich-live-premier-league-match-updates-news-and-score"
+},
+{
+"title": "Team news | Bergvall, Savio, Udogie available, Tel and Tosin out of Ipswich clash",
+"source": "Tottenham Hotspur",
+"link": "https://www.tottenhamhotspur.com/news/1234486/team-news-bergvall-savio-udogie-available-tel-and-tosin-out-of-ipswich-clash"
+}
+],
+"new": false
+},
+{
 "term": "เชลซี พบ ลีดส์",
 "traffic": "100+",
 "time": "2026-11-21T16:10:00+00:00",
@@ -1607,13 +1625,6 @@
 "link": "https://www.gukjenews.com/news/articleView.html?idxno=3759174"
 }
 ],
-"new": true
-},
-{
-"term": "채령",
-"traffic": "500+",
-"time": "2026-11-21T15:00:00+00:00",
-"news": [],
 "new": true
 }
 ],
