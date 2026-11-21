@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-21T16:13:42.417428+00:00",
+"updated": "2026-11-21T16:15:58.088122+00:00",
 "errors": [],
 "events": [
 {
@@ -2631,13 +2631,13 @@
 },
 "폭발": {
 "n30": 1,
-"base": 0.4,
+"base": 0.3,
 "spike": false
 },
 "붕괴": {
-"n30": 5,
-"base": 0.4,
-"spike": true
+"n30": 4,
+"base": 0.3,
+"spike": false
 },
 "대피": {
 "n30": 0,
@@ -2650,22 +2650,22 @@
 "spike": false
 },
 "속보": {
-"n30": 2,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
 "지하철": {
 "n30": 1,
-"base": 0.5,
+"base": 0.6,
 "spike": false
 },
 "사고": {
-"n30": 2,
+"n30": 1,
 "base": 1.9,
 "spike": false
 },
 "실종": {
-"n30": 0,
+"n30": 1,
 "base": 0.5,
 "spike": false
 },
@@ -2691,6 +2691,16 @@
 }
 },
 "posts": [
+{
+"text": "Kia> 작전중 사망 \nMia> 작전중 실종 \n\n카츠라기는 mia전과가 있습니다 (골든타임 지나서 사망처리했는데..!!)",
+"handle": "kuch01.bsky.social",
+"name": "Aku.C",
+"time": "2026-11-21T16:14:10.941Z",
+"likes": 1,
+"reposts": 0,
+"url": "https://bsky.app/profile/kuch01.bsky.social/post/3n2tine4srk2n",
+"term": "실종"
+},
 {
 "text": "오티스 당신의 동생과 사고를 치고 왔어",
 "handle": "geowl.bsky.social",
@@ -2791,16 +2801,6 @@
 "time": "2026-11-21T15:45:01Z",
 "term": "속보",
 "url": "https://www.youtube.com/watch?v=tJ_JdjYzLo8"
-},
-{
-"text": "남이 뭘 더 아는 것과 지적 사고 능력은 별개로 보면 된다던데 내 사고 픽스가 5w6이나 7w8이랄 땐 내 사고 능력이 더 좋다고 말할 확증도 없어서 그랬는데, 5w4라 하니깐 애초에 사고력을 공상 쪽으로 쓰고 있었다고 설명이 되니까 말이지.",
-"handle": "radd3v1l.bsky.social",
-"name": "독태성",
-"time": "2026-11-21T15:43:51.955Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/radd3v1l.bsky.social/post/3n2tgx4nvlk2k",
-"term": "사고"
 },
 {
 "platform": "YouTube",
@@ -2929,28 +2929,20 @@
 "url": "https://www.youtube.com/watch?v=u_3PIOEocqQ"
 }
 ],
-"spikes": [
-{
-"term": "붕괴",
-"n30": 5,
-"base": 0.4,
-"spike": true,
-"since": "2026-11-21T16:13:42.417428+00:00"
-}
-],
+"spikes": [],
 "baseline": {
 "지진": 0.05,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.34,
-"붕괴": 0.33,
+"폭발": 0.31,
+"붕괴": 0.3,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.56,
-"사고": 1.86,
-"실종": 0.45,
+"지하철": 0.6,
+"사고": 1.77,
+"실종": 0.51,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -3189,27 +3181,9 @@
 },
 {
 "term": "채령",
-"traffic": "200+",
+"traffic": "500+",
 "time": "2026-11-21T15:00:00+00:00",
 "news": [],
-"new": true
-},
-{
-"term": "man city vs fulham f.c. standings",
-"traffic": "2000+",
-"time": "2026-11-21T15:00:00+00:00",
-"news": [
-{
-"title": "Manchester City 1-1 Fulham: Anderson rescues point for hosts",
-"source": "BBC",
-"link": "https://www.bbc.com/sport/football/live/c3kgdxnggq7pt"
-},
-{
-"title": "Manchester City draw with Fulham to extend winless Premier League run to 4 games",
-"source": "Chosunbiz",
-"link": "https://biz.chosun.com/en/en-sports/2026/11/22/WXUCUY7ADNAVPITNTGAQUTRDDM/"
-}
-],
 "new": true
 },
 {
@@ -3334,6 +3308,24 @@
 "title": "첼시와 알론소 감독이 직면한 어려운 딜레마.",
 "source": "Vietnam.vn",
 "link": "https://www.vietnam.vn/ko/chelsea-va-bai-toan-nan-giai-cho-hlv-alonso"
+}
+],
+"new": true
+},
+{
+"term": "우니온 베를린 대 라이프치히",
+"traffic": "200+",
+"time": "2026-11-21T14:10:00+00:00",
+"news": [
+{
+"title": "Confirmed lineups: 1.FC Union Berlin vs. RB Leipzig",
+"source": "Yahoo Sports",
+"link": "https://sports.yahoo.com/articles/confirmed-lineups-1-fc-union-133000412.html"
+},
+{
+"title": "Union Berlin vs RB Leipzig: German Bundesliga stats & head-to-head",
+"source": "BBC",
+"link": "https://www.bbc.com/sport/football/live/c6vg2pxggjzpt"
 }
 ],
 "new": true
