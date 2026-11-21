@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-21T23:42:30.780174+00:00",
+"updated": "2026-11-21T23:44:49.628538+00:00",
 "errors": [],
 "events": [
 {
@@ -1193,7 +1193,7 @@
 "spike": false
 },
 "화재": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -1239,7 +1239,7 @@
 },
 "사고": {
 "n30": 2,
-"base": 1.0,
+"base": 1.1,
 "spike": false
 },
 "실종": {
@@ -1259,7 +1259,7 @@
 },
 "먹통": {
 "n30": 1,
-"base": 0.2,
+"base": 0.3,
 "spike": false
 },
 "산불": {
@@ -1269,6 +1269,16 @@
 }
 },
 "posts": [
+{
+"text": "아 옷 안 벗고 뻐팅기다가 땀폭발",
+"handle": "noomyung.bsky.social",
+"name": "noomyung",
+"time": "2026-11-21T23:43:30.752Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/noomyung.bsky.social/post/3n2ubqt4w5s2h",
+"term": "폭발"
+},
 {
 "text": "그나저나 나이스는 또 먹통이네 😡",
 "handle": "sikh.bsky.social",
@@ -1317,16 +1327,6 @@
 "time": "2026-11-21T23:14:36Z",
 "term": "화재",
 "url": "https://www.youtube.com/watch?v=519WwX8IBe8"
-},
-{
-"text": "주말아침부터 폭발이네~\n텔에서 주말 내도록 도파민 폭발욕구가 생기네",
-"handle": "fgrrrr.bsky.social",
-"name": "fgrrrr.bsky.social",
-"time": "2026-11-21T23:13:46.243Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/fgrrrr.bsky.social/post/3n2ua3ncq2c2r",
-"term": "폭발"
 },
 {
 "platform": "YouTube",
@@ -1497,17 +1497,17 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 1.37,
-"붕괴": 0.6,
+"폭발": 1.33,
+"붕괴": 0.64,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.6,
-"사고": 1.12,
+"지하철": 0.64,
+"사고": 1.21,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
-"먹통": 0.32,
+"먹통": 0.39,
 "산불": 0.05
 },
 "errors": [],
@@ -1688,8 +1688,26 @@
 },
 "trends": [
 {
+"term": "부동산",
+"traffic": "1000+",
+"time": "2026-11-21T22:40:00+00:00",
+"news": [
+{
+"title": "'경기 안심 부동산' 참여 중개사무소에 스티커…온라인 표시도",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261122_0003877896"
+},
+{
+"title": "평택시 송탄출장소, 공인중개사 대상 AI 기반 부동산 거래 지원 교육 실시",
+"source": "웹이코노미",
+"link": "https://www.webeconomy.co.kr/news/articleView.html?idxno=2382351"
+}
+],
+"new": true
+},
+{
 "term": "인터 마이애미 대 콜럼버스 크루",
-"traffic": "500+",
+"traffic": "1000+",
 "time": "2026-11-21T22:30:00+00:00",
 "news": [
 {
@@ -1747,14 +1765,14 @@
 "time": "2026-11-21T22:10:00+00:00",
 "news": [
 {
-"title": "르세라핌, 3년 만의 'MAMA' 출격..70인 메가 크루로 압도",
-"source": "조선일보",
-"link": "https://www.chosun.com/entertainments/music/2026/11/22/MVSGIMRRHBSDANZWGU4DOYZVGQ/"
+"title": "“코스닥 살리려다 양극화 키울라”…상장사 44%의 경고",
+"source": "쿠키뉴스",
+"link": "https://www.kukinews.com/article/view/kuk202611200168"
 },
 {
-"title": "[뉴스1 ★] 르세라핌 허윤진, 어깨부터 팔까지 하얀 뱀 칭칭…역대급 파격 드레스",
-"source": "뉴스1",
-"link": "https://www.news1.kr/entertain/celebrity-topic/6361771"
+"title": "기업은행, 코스닥 활성화 설문…기업들 “기관투자자 유입 시급”",
+"source": "에너지경제신문",
+"link": "https://m.ekn.kr/view.php?key=20261119025422070"
 }
 ],
 "new": true
@@ -1779,7 +1797,7 @@
 },
 {
 "term": "편지",
-"traffic": "100+",
+"traffic": "200+",
 "time": "2026-11-21T22:00:00+00:00",
 "news": [
 {
@@ -1848,24 +1866,6 @@
 }
 ],
 "new": true
-},
-{
-"term": "추미애",
-"traffic": "200+",
-"time": "2026-11-21T21:50:00+00:00",
-"news": [
-{
-"title": "추미애 “한덕수 판결 순억지···조희대 탄핵, 좌고우면하면 안 돼”",
-"source": "경향신문",
-"link": "https://www.khan.co.kr/article/202611211912001"
-},
-{
-"title": "여 “사법정의 바로세워야”…야 “친위쿠데타 심판”",
-"source": "KBS 뉴스",
-"link": "https://news.kbs.co.kr/news/view.do?ncd=8719307"
-}
-],
-"new": false
 }
 ],
 "trendSeen": [
