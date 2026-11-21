@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-21T16:09:16.473262+00:00",
+"updated": "2026-11-21T16:11:30.487444+00:00",
 "errors": [],
 "events": [
 {
@@ -2625,18 +2625,18 @@
 "spike": false
 },
 "정전": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
 "폭발": {
 "n30": 1,
-"base": 0.5,
+"base": 0.4,
 "spike": false
 },
 "붕괴": {
-"n30": 7,
-"base": 0.5,
+"n30": 5,
+"base": 0.4,
 "spike": true
 },
 "대피": {
@@ -2656,12 +2656,12 @@
 },
 "지하철": {
 "n30": 2,
-"base": 0.4,
+"base": 0.5,
 "spike": false
 },
 "사고": {
 "n30": 1,
-"base": 2.0,
+"base": 1.9,
 "spike": false
 },
 "실종": {
@@ -2922,10 +2922,10 @@
 "spikes": [
 {
 "term": "붕괴",
-"n30": 7,
-"base": 0.5,
+"n30": 5,
+"base": 0.4,
 "spike": true,
-"since": "2026-11-21T16:09:16.473262+00:00"
+"since": "2026-11-21T16:11:30.487444+00:00"
 }
 ],
 "baseline": {
@@ -2933,14 +2933,14 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.42,
-"붕괴": 0.41,
+"폭발": 0.38,
+"붕괴": 0.37,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.45,
-"사고": 1.94,
-"실종": 0.56,
+"지하철": 0.51,
+"사고": 1.85,
+"실종": 0.5,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -3226,14 +3226,14 @@
 "time": "2026-11-21T14:30:00+00:00",
 "news": [
 {
-"title": "Coventry City vs Crystal Palace: Premier League preview, team news, stats & head-to-head",
-"source": "BBC",
-"link": "https://www.bbc.com/sport/football/live/c6pw42nwwgvjt"
-},
-{
 "title": "Coventry vs Crystal Palace LIVE! Premier League match updates, news and score",
 "source": "Sky Sports",
 "link": "https://www.skysports.com/football/live-blog/13610683/coventry-vs-crystal-palace-live-premier-league-match-updates-news-and-score"
+},
+{
+"title": "Chelsea vs Leeds United: Premier League preview, team news, stats & head-to-head",
+"source": "BBC",
+"link": "https://www.bbc.com/sport/football/live/c3dx19jxx15zt"
 }
 ],
 "new": false
