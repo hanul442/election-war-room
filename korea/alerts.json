@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-21T05:43:31.759117+00:00",
+"updated": "2026-11-21T05:46:15.288432+00:00",
 "errors": [],
 "events": [
 {
@@ -3110,9 +3110,9 @@
 "spike": false
 },
 "붕괴": {
-"n30": 6,
+"n30": 3,
 "base": 0.8,
-"spike": true
+"spike": false
 },
 "대피": {
 "n30": 0,
@@ -3120,22 +3120,22 @@
 "spike": false
 },
 "미사일": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
 "속보": {
-"n30": 7,
+"n30": 3,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "지하철": {
-"n30": 4,
-"base": 1.9,
+"n30": 2,
+"base": 2.0,
 "spike": false
 },
 "사고": {
-"n30": 2,
+"n30": 3,
 "base": 1.8,
 "spike": false
 },
@@ -3166,6 +3166,26 @@
 }
 },
 "posts": [
+{
+"text": "ㅋㅋㅋㅋㅋㅋ자주가는카페있으세료?\n와아 뭐 자주 시켜드세요?\n헉 그거만드시는이유가?! 알러지있으세요?\n아이구... 그럼 카페인은 못드시는구나 혹시 다른것고 알러지같은거잇으세요? ㅠㅠ\n→ 알러지위장사고사",
+"handle": "musang.bsky.social",
+"name": "무상(상태:바바몽!)",
+"time": "2026-11-21T05:45:07.146Z",
+"likes": 1,
+"reposts": 0,
+"url": "https://bsky.app/profile/musang.bsky.social/post/3n2sfihvsts2q",
+"term": "사고"
+},
+{
+"text": "아 XX 암컷은 아주 큰 생물이 아니면 공격성을 보이지 않는 지점까지 스케일임 (폭발!)",
+"handle": "scalie-sea.bsky.social",
+"name": "←🧿S케일🦈🏳️‍🌈🏳️‍⚧️→",
+"time": "2026-11-21T05:44:44.545Z",
+"likes": 1,
+"reposts": 0,
+"url": "https://bsky.app/profile/scalie-sea.bsky.social/post/3n2sfhqseqc22",
+"term": "폭발"
+},
 {
 "text": "아니 저도 이번달에 갑자기 타이어 : 뒤질게\n이러고 가버려서 지출 장난아니에요 연말에 뭐있나봐요 진짜 흑흑 사고없으셨다니 다행이에요 😭😭😭😭",
 "handle": "plz-fillblank.bsky.social",
@@ -3288,16 +3308,6 @@
 "url": "https://www.youtube.com/watch?v=e02wx19d5wU"
 },
 {
-"text": "요즘 7부 넷플에서 하니까 보고 있는데 7부 모르는 케이한테 사람을 죽이는 죠나단 vs 엄마가 사랑으로 키운 디오 라고 하니까 밸런스붕괴 아니냐고 했던 거 생각날 때마다 깔깔웃음",
-"handle": "9tikkle.bsky.social",
-"name": "미9마눌🔒️",
-"time": "2026-11-21T05:15:49.850Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/9tikkle.bsky.social/post/3n2sdu4cbnk2o",
-"term": "붕괴"
-},
-{
 "platform": "YouTube",
 "text": "지하철이 연착되는 진짜 이유?! | 10,800원",
 "handle": "UCJIEnJj8ib4oo4_3cnSEUuQ",
@@ -3314,16 +3324,6 @@
 "time": "2026-11-21T05:15:35Z",
 "term": "속보",
 "url": "https://www.youtube.com/watch?v=CPRcojkrnPc"
-},
-{
-"text": "지금 지하철 안내스크린이 고장나서 어느역인지 모르는 사태가 발생함",
-"handle": "bambru178.bsky.social",
-"name": "밤부루",
-"time": "2026-11-21T05:15:34.943Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/bambru178.bsky.social/post/3n2sdto5jek2k",
-"term": "지하철"
 },
 {
 "platform": "YouTube",
@@ -3434,34 +3434,19 @@
 "url": "https://www.youtube.com/watch?v=Ty7tJJDD3Dk"
 }
 ],
-"spikes": [
-{
-"term": "붕괴",
-"n30": 6,
-"base": 0.8,
-"spike": true,
-"since": "2026-11-21T05:43:31.759117+00:00"
-},
-{
-"term": "속보",
-"n30": 7,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-21T05:43:31.759117+00:00"
-}
-],
+"spikes": [],
 "baseline": {
 "지진": 0.05,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.05,
-"붕괴": 0.78,
+"폭발": 0.15,
+"붕괴": 0.7,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 2.05,
-"사고": 1.81,
+"지하철": 2.04,
+"사고": 1.93,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -3683,7 +3668,7 @@
 "trends": [
 {
 "term": "피겨스케이팅",
-"traffic": "100+",
+"traffic": "200+",
 "time": "2026-11-21T04:30:00+00:00",
 "news": [
 {
@@ -3754,24 +3739,6 @@
 "new": false
 },
 {
-"term": "2026 mama - 오사카 (11/20)",
-"traffic": "2000+",
-"time": "2026-11-21T03:50:00+00:00",
-"news": [
-{
-"title": "오사카 달군 '2026 마마 어워즈'…첫날 대상에 BTS·엔하이픈",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261120179200005"
-},
-{
-"title": "시상의 아이콘 김혜수, MAMA에서도 빛나는 존재감 [O! STAR 숏폼]",
-"source": "조선일보",
-"link": "https://www.chosun.com/entertainments/music/2026/11/20/GRRWIZJRMQ3TQZRVGU4DSY3EGY/"
-}
-],
-"new": true
-},
-{
 "term": "보이저 1호",
 "traffic": "200+",
 "time": "2026-11-21T03:50:00+00:00",
@@ -3809,7 +3776,7 @@
 },
 {
 "term": "맥도날드",
-"traffic": "200+",
+"traffic": "500+",
 "time": "2026-11-21T03:40:00+00:00",
 "news": [
 {
@@ -3857,6 +3824,24 @@
 "title": "퍼즐 맞춘 키움·스텝 꼬인 한화… 외인시장 ‘요동’",
 "source": "세계일보",
 "link": "https://www.segye.com/newsView/20261119515089"
+}
+],
+"new": true
+},
+{
+"term": "이현중",
+"traffic": "500+",
+"time": "2026-11-21T03:00:00+00:00",
+"news": [
+{
+"title": "'하승진 이후 22년 만에 NBA 무대 밟을까' 이현중의 미친 상승세...20점 11리바운드, G리그 첫 더블더블 폭발 - 머니투데이",
+"source": "머니투데이",
+"link": "https://www.mt.co.kr/sports/2026/11/21/202611211303779841O"
+},
+{
+"title": "‘4쿼터에만 3점 5방’ 이현중, 25득점 G리그 개인 최다득점",
+"source": "KBS 뉴스",
+"link": "https://news.kbs.co.kr/news/mobile/view/view.do?ncd=8713824"
 }
 ],
 "new": true
