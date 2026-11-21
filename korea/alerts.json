@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-21T12:44:37.837471+00:00",
+"updated": "2026-11-21T12:46:51.275585+00:00",
 "errors": [],
 "events": [
 {
@@ -421,13 +421,14 @@
 "id": "LQ0pGUi1OQzJnMURiMzZ3oc51107",
 "first": "2026-11-21T11:07:38+00:00",
 "last": "2026-11-21T11:49:25+00:00",
-"updated": "2026-11-21T11:58:17.915327+00:00",
+"updated": "2026-11-21T12:46:51.275585+00:00",
 "headline": "홍대입구역서 버스 인도 돌진",
 "cat": "기타",
 "regions": [
 "서울"
 ],
 "sources": [
+"MBC 뉴스",
 "SBS",
 "경향신문",
 "노컷뉴스",
@@ -494,6 +495,13 @@
 "stage": "후속"
 },
 {
+"title": "홍대입구역 인근서 버스 2대·경차 1대 추돌‥6명 부상",
+"source": "MBC 뉴스",
+"link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1pZFdDZkFQcDZVZUc1ODBKUWdkaDViSDNYVDUteWRJNkJGVEo1cWNWSnpPZFNFT21qbmJ2LXVQNWl0a0ZHLUFDcXl5bEJxVmZPTVBtOWhHMG9SaHhnd3I4bzJnTmc5NDJ5MERWWU52Z0dCTHFwZVk40gF3QVVfeXFMTm1TQy1LZ2NjanpnTnJXTElBZEJYRTJSZXFOal9Xejh3RklWRTM5VUJpdFRfVDd0a2VyRVJnODNJOHFLWFR1TkRpazM3dV9Vc3BlWWg4Xzh2Y0hSMEVMX0lGNXpOZnZXZHVKTTJMRmYwZU9aVUtnT2s?oc=5",
+"time": "2026-11-21T11:33:37+00:00",
+"stage": "후속"
+},
+{
 "title": "홍대입구역에서 3중 추돌사고로 버스 인도 돌진…6명 경상(종합)",
 "source": "연합뉴스",
 "link": "https://www.yna.co.kr/view/AKR20261121049151004",
@@ -504,9 +512,12 @@
 "level": "URGENT",
 "latest": "홍대입구역에서 3중 추돌사고로 버스 인도 돌진…6명 경상",
 "tok": [
+"1대",
+"2대",
 "3중",
 "6명",
 "경상",
+"경차",
 "돌진",
 "매장",
 "버스",
@@ -3574,12 +3585,12 @@
 "sns": {
 "terms": {
 "지진": {
-"n30": 1,
+"n30": 0,
 "base": 0.6,
 "spike": false
 },
 "화재": {
-"n30": 0,
+"n30": 2,
 "base": 0.1,
 "spike": false
 },
@@ -3599,9 +3610,9 @@
 "spike": false
 },
 "붕괴": {
-"n30": 1,
-"base": 0.8,
-"spike": false
+"n30": 8,
+"base": 0.9,
+"spike": true
 },
 "대피": {
 "n30": 0,
@@ -3609,17 +3620,17 @@
 "spike": false
 },
 "미사일": {
-"n30": 0,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
 "속보": {
-"n30": 0,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
 "지하철": {
-"n30": 0,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
@@ -3670,10 +3681,82 @@
 "handle": "labyrinthos.bsky.social",
 "name": "라비린토스, 디지털 주화입마를 곁들인",
 "time": "2026-11-21T12:37:33.343Z",
-"likes": 0,
+"likes": 1,
 "reposts": 0,
 "url": "https://bsky.app/profile/labyrinthos.bsky.social/post/3n2t4jwg2w22t",
 "term": "사고"
+},
+{
+"platform": "YouTube",
+"text": "[🔴이슈를 켜라] [LIVE] [속보] 민주당 '조희대 탄핵'에 곽상언 \"반대 의견 많았다…숙고 간청한다\" / 채널A",
+"handle": "UCfq4V1DAuaojnr2ryvWNysw",
+"name": "채널A News",
+"time": "2026-11-21T12:34:10Z",
+"term": "속보",
+"url": "https://www.youtube.com/watch?v=qJCRX2pYZnQ"
+},
+{
+"platform": "YouTube",
+"text": "화재 대피 후 할 일 | \"다 나왔다\" 한마디가 소방관을 살립니다 | 30년 소방관 #Shorts",
+"handle": "UC4VcHDobpZLDChI9LAHY9Fw",
+"name": "소방관 30년 송재빈의 안전교실",
+"time": "2026-11-21T12:31:09Z",
+"term": "화재",
+"url": "https://www.youtube.com/watch?v=EFW83q33Sdw"
+},
+{
+"platform": "YouTube",
+"text": "\"불 끄고 침대에 누워 스마트폰 보고 잤더니\" 안압 폭발해 녹내장 오고 실명 위기 겪은 이유",
+"handle": "UC9FiE8b1bAnCgFj0P0ilrkA",
+"name": "은퇴연구소",
+"time": "2026-11-21T12:30:10Z",
+"term": "폭발",
+"url": "https://www.youtube.com/watch?v=z9_mW9r4Uc8"
+},
+{
+"platform": "YouTube",
+"text": "코스피 5,000선 붕괴 후 진짜 기회는 어디에 있을까｜내일 먼저 움직일 강세주와 단기 유망주 #코스피 #급등주 #강세주 #유망주 #주식전망",
+"handle": "UC0f3QU9mPAi_O1fwOB7UQCg",
+"name": "부자의투자",
+"time": "2026-11-21T12:29:56Z",
+"term": "붕괴",
+"url": "https://www.youtube.com/watch?v=3hSooMUR46Y"
+},
+{
+"platform": "YouTube",
+"text": "코스피 5,000선 붕괴 후 진짜 기회는 어디에 있을까｜내일 먼저 움직일 강세주와 단기 유망주 #코스피 #급등주 #강세주 #유망주 #주식전망",
+"handle": "UC2eIGiuKPrsQWKMFxyrs9xg",
+"name": "주식시그널",
+"time": "2026-11-21T12:29:42Z",
+"term": "붕괴",
+"url": "https://www.youtube.com/watch?v=ORBFPeWQbwU"
+},
+{
+"platform": "YouTube",
+"text": "코스피 5,000선 붕괴 후 진짜 기회는 어디에 있을까｜내일 먼저 움직일 강세주와 단기 유망주 #코스피 #급등주 #강세주 #유망주 #주식전망",
+"handle": "UC0yD-T3SMEX064Ws2B7peBA",
+"name": "투자자의노트",
+"time": "2026-11-21T12:29:26Z",
+"term": "붕괴",
+"url": "https://www.youtube.com/watch?v=3cPQhT-cidk"
+},
+{
+"platform": "YouTube",
+"text": "SHORT001 제목9명 숨진 붕괴, 굴착기 기사는 실형·현대산업개발 직원 3명은 모두 집행유예",
+"handle": "UC-zy4XSKagzZgRFTxaUVe8g",
+"name": "검은장부",
+"time": "2026-11-21T12:29:03Z",
+"term": "붕괴",
+"url": "https://www.youtube.com/watch?v=Lajh1og-rqY"
+},
+{
+"platform": "YouTube",
+"text": "코스피 5,000선 붕괴 후 진짜 기회는 어디에 있을까｜내일 먼저 움직일 강세주와 단기 유망주 #코스피 #급등주 #강세주 #유망주 #주식전망",
+"handle": "UCOGC6B6GoygjLfk_gaA8JEg",
+"name": "투자백서",
+"time": "2026-11-21T12:29:01Z",
+"term": "붕괴",
+"url": "https://www.youtube.com/watch?v=aXXrkAnxF3s"
 },
 {
 "text": "인세인 개정이 꽤 다듬어졌네. ORPG 얘기랑 실제 사고 피해자 구성원에 대한 배려 등이 있다. \n그리고 데이터는 정말 호환이 안 되서 바꿔야 하네.",
@@ -3690,10 +3773,28 @@
 "handle": "578-dngl.bsky.social",
 "name": "히우",
 "time": "2026-11-21T12:25:40.650Z",
-"likes": 1,
+"likes": 2,
 "reposts": 0,
 "url": "https://bsky.app/profile/578-dngl.bsky.social/post/3n2t3uqnawc2j",
 "term": "붕괴"
+},
+{
+"platform": "YouTube",
+"text": "[삼성SDI 주가전망] 40만원 붕괴! 다음 지지선까지 긴장 37만원 방어 전쟁 #삼성sdi #삼성sdi주가 #삼성sdi주가전망",
+"handle": "UCd_mwPVtB5BOB38t3t-XQwA",
+"name": "Mdi World",
+"time": "2026-11-21T12:25:20Z",
+"term": "붕괴",
+"url": "https://www.youtube.com/watch?v=3_Q2cyMhYI8"
+},
+{
+"platform": "YouTube",
+"text": "지하철 통화 공감!🚇Phone Etiquette on the Subway#지하철 #통화 #공감 #공익영상제작클럽",
+"handle": "UCDZu0wx4Rhdr4G_s11RfWvQ",
+"name": "공익영상제작클럽",
+"time": "2026-11-21T12:23:26Z",
+"term": "지하철",
+"url": "https://www.youtube.com/watch?v=e46emnnGPJY"
 },
 {
 "text": "밤 되면 자동 사고 같은 건데 나가기 귀찮다는 핑계로 참아보겠습니다 ㅋㅋ",
@@ -3707,6 +3808,33 @@
 },
 {
 "platform": "YouTube",
+"text": "민주 이재명 극약 처방/ 조희대 탄핵/역풍 터지면 정권 붕괴",
+"handle": "UCKRBsup_e3Yxo3s4_nE8GVQ",
+"name": "누리PD-TV ",
+"time": "2026-11-21T12:21:00Z",
+"term": "붕괴",
+"url": "https://www.youtube.com/watch?v=1BTbHDDcmfI"
+},
+{
+"platform": "YouTube",
+"text": "[🔴이슈를 켜라] [LIVE] [속보]폴란드 \"러 미사일 영공 넘어와 추락…의도적 도발\" / 채널A",
+"handle": "UCfq4V1DAuaojnr2ryvWNysw",
+"name": "채널A News",
+"time": "2026-11-21T12:19:31Z",
+"term": "미사일",
+"url": "https://www.youtube.com/watch?v=CJl8tL_LNDs"
+},
+{
+"platform": "YouTube",
+"text": "삼성화재 3연승 2위‥'야구·축구·농구 이어 배구도 명가재건' (2026.11.21/뉴스데스크/MBC)",
+"handle": "UCF4Wxdo3inmxP-Y59wXDsFw",
+"name": "MBCNEWS",
+"time": "2026-11-21T12:18:08Z",
+"term": "화재",
+"url": "https://www.youtube.com/watch?v=HhXuA2bgYBE"
+},
+{
+"platform": "YouTube",
 "text": "일본 호텔 지진 대피 요령 3가지｜절대 하면 안 되는 행동 (문 열기·신발·욕조 물) #일본여행 #지진 #shorts",
 "handle": "UCwQRqnaDOw5bmeey59cuxUg",
 "name": "일본여행가이드",
@@ -3740,165 +3868,29 @@
 "time": "2026-11-21T12:12:58Z",
 "term": "붕괴",
 "url": "https://www.youtube.com/watch?v=MvaylQAYUDE"
-},
-{
-"platform": "YouTube",
-"text": "북한 미사일 AI 탑재, 실체는? #북한 #인공지능 #shorts",
-"handle": "UCkBR6f6t3KEB8jwfzkRhFNw",
-"name": "정치스코프",
-"time": "2026-11-21T12:12:37Z",
-"term": "미사일",
-"url": "https://www.youtube.com/watch?v=yAqsQPAIPU0"
-},
-{
-"platform": "YouTube",
-"text": "[SK텔레콤 주가전망] *마감 속보* 설마했던 외인·기관 동반 투매 터졌습니다, 지금 던지면 평생 후회하는 진짜 이유",
-"handle": "UCMmuzj7cMUVSmqJgzjBht1A",
-"name": "명품차트백화점",
-"time": "2026-11-21T12:10:07Z",
-"term": "속보",
-"url": "https://www.youtube.com/watch?v=S_xY8xzf6Jg"
-},
-{
-"platform": "YouTube",
-"text": "대형 악재 터졌다!!삼성전자,난리났다!!충격 폭발 터졌다!!",
-"handle": "UCgaR4MxS4ZNOxUk5au12HUA",
-"name": "삼전불패",
-"time": "2026-11-21T12:10:04Z",
-"term": "폭발",
-"url": "https://www.youtube.com/watch?v=BmkfBNzFKN8"
-},
-{
-"platform": "YouTube",
-"text": "코스피 5,000선 붕괴 후 진짜 기회는 어디에 있을까｜내일 먼저 움직일 강세주와 단기 유망주 #코스피 #급등주 #강세주 #유망주 #주식전망",
-"handle": "UCmcidG6iM__U1-cASaRFbjw",
-"name": "자산연구소",
-"time": "2026-11-21T12:10:02Z",
-"term": "붕괴",
-"url": "https://www.youtube.com/watch?v=mjvquKTDL9s"
-},
-{
-"platform": "YouTube",
-"text": "코스피 5,000선 붕괴 후 진짜 기회는 어디에 있을까｜내일 먼저 움직일 강세주와 단기 유망주 #코스피 #급등주 #강세주 #유망주 #주식전망",
-"handle": "UCaOHwBkMe1lkS1IEeizdxJA",
-"name": "나를위한시간",
-"time": "2026-11-21T12:09:49Z",
-"term": "붕괴",
-"url": "https://www.youtube.com/watch?v=li0KMj9Vwm0"
-},
-{
-"platform": "YouTube",
-"text": "코스피 5,000선 붕괴 후 진짜 기회는 어디에 있을까｜내일 먼저 움직일 강세주와 단기 유망주 #코스피 #급등주 #강세주 #유망주 #주식전망",
-"handle": "UCjmY5Olp0MDBxW_LgFEhQqw",
-"name": "일상속의여유",
-"time": "2026-11-21T12:09:42Z",
-"term": "붕괴",
-"url": "https://www.youtube.com/watch?v=S79C7Qy5HnQ"
-},
-{
-"platform": "YouTube",
-"text": "코스피 5,000선 붕괴 후 진짜 기회는 어디에 있을까｜내일 먼저 움직일 강세주와 단기 유망주 #코스피 #급등주 #강세주 #유망주 #주식전망",
-"handle": "UC94XJkipwem8glWV9iwFxOw",
-"name": "부자의투자",
-"time": "2026-11-21T12:09:37Z",
-"term": "붕괴",
-"url": "https://www.youtube.com/watch?v=yiR9JS5_dps"
-},
-{
-"platform": "YouTube",
-"text": "[알테오젠] 반도체 수급 붕괴를 기회로 | 숏 포지션 닫고 있는 월가 투자자들 [김민성 전문가]",
-"handle": "UCTC2Y27aW1dX3iioSnk-t4g",
-"name": "모아경제TV",
-"time": "2026-11-21T12:06:39Z",
-"term": "붕괴",
-"url": "https://www.youtube.com/watch?v=S2wyA8rD0do"
-},
-{
-"platform": "YouTube",
-"text": "아카시 해협 대교, 완성 전에 지진으로 약 1m 길어졌습니다",
-"handle": "UCEWc5QcyzFuD-vede6lrqNA",
-"name": "건축의비밀",
-"time": "2026-11-21T12:06:13Z",
-"term": "지진",
-"url": "https://www.youtube.com/watch?v=tM2wL6FxHu0"
-},
-{
-"platform": "YouTube",
-"text": "겨울철 화재 예방법 💚",
-"handle": "UC1H1VM1sck21V-Or8UkG3RQ",
-"name": "매일정보 팁 구독하세요",
-"time": "2026-11-21T12:06:02Z",
-"term": "화재",
-"url": "https://www.youtube.com/watch?v=OzUI_ttCrD0"
-},
-{
-"platform": "YouTube",
-"text": "니트 안에 이것 입으면 | 우아함 200 폭발",
-"handle": "UCrdmUEbamPRH_qBTfO74IWw",
-"name": "귀티가 넘치는 세련된 스타일 l 혜리스초이스",
-"time": "2026-11-21T12:00:38Z",
-"term": "폭발",
-"url": "https://www.youtube.com/watch?v=qBJcZl7SNEk"
-},
-{
-"platform": "YouTube",
-"text": "조희대 탄핵 당론 채택하냐 묻자… 방송 중 속보 \"질문하자마자 답을 주네\"",
-"handle": "UC9-1sDsVLmBdJwNdpkDmKRw",
-"name": "정치말풍선",
-"time": "2026-11-21T12:00:33Z",
-"term": "속보",
-"url": "https://www.youtube.com/watch?v=u-2xcdxjIm4"
-},
-{
-"platform": "YouTube",
-"text": "서울 지하철에서 혼자 민폐였던 교수",
-"handle": "UC5i_ZtbmypvGrxIYh4tXbBg",
-"name": "태극냥",
-"time": "2026-11-21T12:00:30Z",
-"term": "지하철",
-"url": "https://www.youtube.com/watch?v=jdbHcI-oTDI"
-},
-{
-"platform": "YouTube",
-"text": "삼성전자 - 필수시청!! [속보] 5분전 중대발표 떴습니다 ! 밤 9시 긴급속보 떴습니다 ! #삼성전자주가전망 #삼성전자주가 #삼성전자 #삼성전자대응전략",
-"handle": "UCU0a9y-4dKhFjUUXH3q2t6w",
-"name": "여의도 경제연구소TV",
-"time": "2026-11-21T12:00:19Z",
-"term": "속보",
-"url": "https://www.youtube.com/watch?v=00A3RjbAUiE"
-},
-{
-"platform": "YouTube",
-"text": "빛을 따라 더 높이, 한계를 넘어 폭발하는 Zalpha Pop 에너지 ⚡ | A2O LITE - NEON Cover",
-"handle": "UCpOd7sl4el9_OsjwxgW9utQ",
-"name": "외국인방구석노래방",
-"time": "2026-11-21T12:00:18Z",
-"term": "폭발",
-"url": "https://www.youtube.com/watch?v=MXq4Jh1PJiA"
-},
-{
-"platform": "YouTube",
-"text": "비트코인, 8천만 원 뚫렸다.. 6만 달러 붕괴·7주 연속 하락, 새 물때표 입질 88,778,260원",
-"handle": "UCEO3zJjM5s96Xex6bMmyc5g",
-"name": "코인 강태공",
-"time": "2026-11-21T12:00:01Z",
-"term": "붕괴",
-"url": "https://www.youtube.com/watch?v=eIrYlW96L54"
 }
 ],
-"spikes": [],
+"spikes": [
+{
+"term": "붕괴",
+"n30": 8,
+"base": 0.9,
+"spike": true,
+"since": "2026-11-21T12:46:51.275585+00:00"
+}
+],
 "baseline": {
-"지진": 0.58,
+"지진": 0.52,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
 "폭발": 0.05,
-"붕괴": 0.86,
+"붕괴": 0.87,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.1,
-"사고": 3.53,
+"지하철": 0.09,
+"사고": 3.58,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -3909,6 +3901,123 @@
 "ytPosts": [
 {
 "platform": "YouTube",
+"text": "[🔴이슈를 켜라] [LIVE] [속보] 민주당 '조희대 탄핵'에 곽상언 \"반대 의견 많았다…숙고 간청한다\" / 채널A",
+"handle": "UCfq4V1DAuaojnr2ryvWNysw",
+"name": "채널A News",
+"time": "2026-11-21T12:34:10Z",
+"term": "속보",
+"url": "https://www.youtube.com/watch?v=qJCRX2pYZnQ"
+},
+{
+"platform": "YouTube",
+"text": "\"불 끄고 침대에 누워 스마트폰 보고 잤더니\" 안압 폭발해 녹내장 오고 실명 위기 겪은 이유",
+"handle": "UC9FiE8b1bAnCgFj0P0ilrkA",
+"name": "은퇴연구소",
+"time": "2026-11-21T12:30:10Z",
+"term": "폭발",
+"url": "https://www.youtube.com/watch?v=z9_mW9r4Uc8"
+},
+{
+"platform": "YouTube",
+"text": "화재 대피 후 할 일 | \"다 나왔다\" 한마디가 소방관을 살립니다 | 30년 소방관 #Shorts",
+"handle": "UC4VcHDobpZLDChI9LAHY9Fw",
+"name": "소방관 30년 송재빈의 안전교실",
+"time": "2026-11-21T12:31:09Z",
+"term": "화재",
+"url": "https://www.youtube.com/watch?v=EFW83q33Sdw"
+},
+{
+"platform": "YouTube",
+"text": "코스피 5,000선 붕괴 후 진짜 기회는 어디에 있을까｜내일 먼저 움직일 강세주와 단기 유망주 #코스피 #급등주 #강세주 #유망주 #주식전망",
+"handle": "UC0f3QU9mPAi_O1fwOB7UQCg",
+"name": "부자의투자",
+"time": "2026-11-21T12:29:56Z",
+"term": "붕괴",
+"url": "https://www.youtube.com/watch?v=3hSooMUR46Y"
+},
+{
+"platform": "YouTube",
+"text": "코스피 5,000선 붕괴 후 진짜 기회는 어디에 있을까｜내일 먼저 움직일 강세주와 단기 유망주 #코스피 #급등주 #강세주 #유망주 #주식전망",
+"handle": "UCOGC6B6GoygjLfk_gaA8JEg",
+"name": "투자백서",
+"time": "2026-11-21T12:29:01Z",
+"term": "붕괴",
+"url": "https://www.youtube.com/watch?v=aXXrkAnxF3s"
+},
+{
+"platform": "YouTube",
+"text": "SHORT001 제목9명 숨진 붕괴, 굴착기 기사는 실형·현대산업개발 직원 3명은 모두 집행유예",
+"handle": "UC-zy4XSKagzZgRFTxaUVe8g",
+"name": "검은장부",
+"time": "2026-11-21T12:29:03Z",
+"term": "붕괴",
+"url": "https://www.youtube.com/watch?v=Lajh1og-rqY"
+},
+{
+"platform": "YouTube",
+"text": "코스피 5,000선 붕괴 후 진짜 기회는 어디에 있을까｜내일 먼저 움직일 강세주와 단기 유망주 #코스피 #급등주 #강세주 #유망주 #주식전망",
+"handle": "UC0yD-T3SMEX064Ws2B7peBA",
+"name": "투자자의노트",
+"time": "2026-11-21T12:29:26Z",
+"term": "붕괴",
+"url": "https://www.youtube.com/watch?v=3cPQhT-cidk"
+},
+{
+"platform": "YouTube",
+"text": "코스피 5,000선 붕괴 후 진짜 기회는 어디에 있을까｜내일 먼저 움직일 강세주와 단기 유망주 #코스피 #급등주 #강세주 #유망주 #주식전망",
+"handle": "UC2eIGiuKPrsQWKMFxyrs9xg",
+"name": "주식시그널",
+"time": "2026-11-21T12:29:42Z",
+"term": "붕괴",
+"url": "https://www.youtube.com/watch?v=ORBFPeWQbwU"
+},
+{
+"platform": "YouTube",
+"text": "[삼성SDI 주가전망] 40만원 붕괴! 다음 지지선까지 긴장 37만원 방어 전쟁 #삼성sdi #삼성sdi주가 #삼성sdi주가전망",
+"handle": "UCd_mwPVtB5BOB38t3t-XQwA",
+"name": "Mdi World",
+"time": "2026-11-21T12:25:20Z",
+"term": "붕괴",
+"url": "https://www.youtube.com/watch?v=3_Q2cyMhYI8"
+},
+{
+"platform": "YouTube",
+"text": "지하철 통화 공감!🚇Phone Etiquette on the Subway#지하철 #통화 #공감 #공익영상제작클럽",
+"handle": "UCDZu0wx4Rhdr4G_s11RfWvQ",
+"name": "공익영상제작클럽",
+"time": "2026-11-21T12:23:26Z",
+"term": "지하철",
+"url": "https://www.youtube.com/watch?v=e46emnnGPJY"
+},
+{
+"platform": "YouTube",
+"text": "[🔴이슈를 켜라] [LIVE] [속보]폴란드 \"러 미사일 영공 넘어와 추락…의도적 도발\" / 채널A",
+"handle": "UCfq4V1DAuaojnr2ryvWNysw",
+"name": "채널A News",
+"time": "2026-11-21T12:19:31Z",
+"term": "미사일",
+"url": "https://www.youtube.com/watch?v=CJl8tL_LNDs"
+},
+{
+"platform": "YouTube",
+"text": "민주 이재명 극약 처방/ 조희대 탄핵/역풍 터지면 정권 붕괴",
+"handle": "UCKRBsup_e3Yxo3s4_nE8GVQ",
+"name": "누리PD-TV ",
+"time": "2026-11-21T12:21:00Z",
+"term": "붕괴",
+"url": "https://www.youtube.com/watch?v=1BTbHDDcmfI"
+},
+{
+"platform": "YouTube",
+"text": "삼성화재 3연승 2위‥'야구·축구·농구 이어 배구도 명가재건' (2026.11.21/뉴스데스크/MBC)",
+"handle": "UCF4Wxdo3inmxP-Y59wXDsFw",
+"name": "MBCNEWS",
+"time": "2026-11-21T12:18:08Z",
+"term": "화재",
+"url": "https://www.youtube.com/watch?v=HhXuA2bgYBE"
+},
+{
+"platform": "YouTube",
 "text": "일본 호텔 지진 대피 요령 3가지｜절대 하면 안 되는 행동 (문 열기·신발·욕조 물) #일본여행 #지진 #shorts",
 "handle": "UCwQRqnaDOw5bmeey59cuxUg",
 "name": "일본여행가이드",
@@ -3942,153 +4051,9 @@
 "time": "2026-11-21T12:14:00Z",
 "term": "폭발",
 "url": "https://www.youtube.com/watch?v=03226z3qZSA"
-},
-{
-"platform": "YouTube",
-"text": "북한 미사일 AI 탑재, 실체는? #북한 #인공지능 #shorts",
-"handle": "UCkBR6f6t3KEB8jwfzkRhFNw",
-"name": "정치스코프",
-"time": "2026-11-21T12:12:37Z",
-"term": "미사일",
-"url": "https://www.youtube.com/watch?v=yAqsQPAIPU0"
-},
-{
-"platform": "YouTube",
-"text": "코스피 5,000선 붕괴 후 진짜 기회는 어디에 있을까｜내일 먼저 움직일 강세주와 단기 유망주 #코스피 #급등주 #강세주 #유망주 #주식전망",
-"handle": "UCmcidG6iM__U1-cASaRFbjw",
-"name": "자산연구소",
-"time": "2026-11-21T12:10:02Z",
-"term": "붕괴",
-"url": "https://www.youtube.com/watch?v=mjvquKTDL9s"
-},
-{
-"platform": "YouTube",
-"text": "코스피 5,000선 붕괴 후 진짜 기회는 어디에 있을까｜내일 먼저 움직일 강세주와 단기 유망주 #코스피 #급등주 #강세주 #유망주 #주식전망",
-"handle": "UCaOHwBkMe1lkS1IEeizdxJA",
-"name": "나를위한시간",
-"time": "2026-11-21T12:09:49Z",
-"term": "붕괴",
-"url": "https://www.youtube.com/watch?v=li0KMj9Vwm0"
-},
-{
-"platform": "YouTube",
-"text": "대형 악재 터졌다!!삼성전자,난리났다!!충격 폭발 터졌다!!",
-"handle": "UCgaR4MxS4ZNOxUk5au12HUA",
-"name": "삼전불패",
-"time": "2026-11-21T12:10:04Z",
-"term": "폭발",
-"url": "https://www.youtube.com/watch?v=BmkfBNzFKN8"
-},
-{
-"platform": "YouTube",
-"text": "코스피 5,000선 붕괴 후 진짜 기회는 어디에 있을까｜내일 먼저 움직일 강세주와 단기 유망주 #코스피 #급등주 #강세주 #유망주 #주식전망",
-"handle": "UCjmY5Olp0MDBxW_LgFEhQqw",
-"name": "일상속의여유",
-"time": "2026-11-21T12:09:42Z",
-"term": "붕괴",
-"url": "https://www.youtube.com/watch?v=S79C7Qy5HnQ"
-},
-{
-"platform": "YouTube",
-"text": "코스피 5,000선 붕괴 후 진짜 기회는 어디에 있을까｜내일 먼저 움직일 강세주와 단기 유망주 #코스피 #급등주 #강세주 #유망주 #주식전망",
-"handle": "UC94XJkipwem8glWV9iwFxOw",
-"name": "부자의투자",
-"time": "2026-11-21T12:09:37Z",
-"term": "붕괴",
-"url": "https://www.youtube.com/watch?v=yiR9JS5_dps"
-},
-{
-"platform": "YouTube",
-"text": "[SK텔레콤 주가전망] *마감 속보* 설마했던 외인·기관 동반 투매 터졌습니다, 지금 던지면 평생 후회하는 진짜 이유",
-"handle": "UCMmuzj7cMUVSmqJgzjBht1A",
-"name": "명품차트백화점",
-"time": "2026-11-21T12:10:07Z",
-"term": "속보",
-"url": "https://www.youtube.com/watch?v=S_xY8xzf6Jg"
-},
-{
-"platform": "YouTube",
-"text": "[알테오젠] 반도체 수급 붕괴를 기회로 | 숏 포지션 닫고 있는 월가 투자자들 [김민성 전문가]",
-"handle": "UCTC2Y27aW1dX3iioSnk-t4g",
-"name": "모아경제TV",
-"time": "2026-11-21T12:06:39Z",
-"term": "붕괴",
-"url": "https://www.youtube.com/watch?v=S2wyA8rD0do"
-},
-{
-"platform": "YouTube",
-"text": "아카시 해협 대교, 완성 전에 지진으로 약 1m 길어졌습니다",
-"handle": "UCEWc5QcyzFuD-vede6lrqNA",
-"name": "건축의비밀",
-"time": "2026-11-21T12:06:13Z",
-"term": "지진",
-"url": "https://www.youtube.com/watch?v=tM2wL6FxHu0"
-},
-{
-"platform": "YouTube",
-"text": "겨울철 화재 예방법 💚",
-"handle": "UC1H1VM1sck21V-Or8UkG3RQ",
-"name": "매일정보 팁 구독하세요",
-"time": "2026-11-21T12:06:02Z",
-"term": "화재",
-"url": "https://www.youtube.com/watch?v=OzUI_ttCrD0"
-},
-{
-"platform": "YouTube",
-"text": "서울 지하철에서 혼자 민폐였던 교수",
-"handle": "UC5i_ZtbmypvGrxIYh4tXbBg",
-"name": "태극냥",
-"time": "2026-11-21T12:00:30Z",
-"term": "지하철",
-"url": "https://www.youtube.com/watch?v=jdbHcI-oTDI"
-},
-{
-"platform": "YouTube",
-"text": "비트코인, 8천만 원 뚫렸다.. 6만 달러 붕괴·7주 연속 하락, 새 물때표 입질 88,778,260원",
-"handle": "UCEO3zJjM5s96Xex6bMmyc5g",
-"name": "코인 강태공",
-"time": "2026-11-21T12:00:01Z",
-"term": "붕괴",
-"url": "https://www.youtube.com/watch?v=eIrYlW96L54"
-},
-{
-"platform": "YouTube",
-"text": "조희대 탄핵 당론 채택하냐 묻자… 방송 중 속보 \"질문하자마자 답을 주네\"",
-"handle": "UC9-1sDsVLmBdJwNdpkDmKRw",
-"name": "정치말풍선",
-"time": "2026-11-21T12:00:33Z",
-"term": "속보",
-"url": "https://www.youtube.com/watch?v=u-2xcdxjIm4"
-},
-{
-"platform": "YouTube",
-"text": "니트 안에 이것 입으면 | 우아함 200 폭발",
-"handle": "UCrdmUEbamPRH_qBTfO74IWw",
-"name": "귀티가 넘치는 세련된 스타일 l 혜리스초이스",
-"time": "2026-11-21T12:00:38Z",
-"term": "폭발",
-"url": "https://www.youtube.com/watch?v=qBJcZl7SNEk"
-},
-{
-"platform": "YouTube",
-"text": "빛을 따라 더 높이, 한계를 넘어 폭발하는 Zalpha Pop 에너지 ⚡ | A2O LITE - NEON Cover",
-"handle": "UCpOd7sl4el9_OsjwxgW9utQ",
-"name": "외국인방구석노래방",
-"time": "2026-11-21T12:00:18Z",
-"term": "폭발",
-"url": "https://www.youtube.com/watch?v=MXq4Jh1PJiA"
-},
-{
-"platform": "YouTube",
-"text": "삼성전자 - 필수시청!! [속보] 5분전 중대발표 떴습니다 ! 밤 9시 긴급속보 떴습니다 ! #삼성전자주가전망 #삼성전자주가 #삼성전자 #삼성전자대응전략",
-"handle": "UCU0a9y-4dKhFjUUXH3q2t6w",
-"name": "여의도 경제연구소TV",
-"time": "2026-11-21T12:00:19Z",
-"term": "속보",
-"url": "https://www.youtube.com/watch?v=00A3RjbAUiE"
 }
 ],
-"ytAt": "2026-11-21T12:15:59.612126+00:00"
+"ytAt": "2026-11-21T12:46:51.275585+00:00"
 },
 "trends": [
 {
