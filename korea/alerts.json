@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-21T17:34:44.265072+00:00",
+"updated": "2026-11-21T17:37:00.329756+00:00",
 "errors": [],
 "events": [
 {
@@ -1565,7 +1565,7 @@
 "sns": {
 "terms": {
 "지진": {
-"n30": 0,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
@@ -1586,7 +1586,7 @@
 },
 "폭발": {
 "n30": 1,
-"base": 0.6,
+"base": 0.5,
 "spike": false
 },
 "붕괴": {
@@ -1605,7 +1605,7 @@
 "spike": false
 },
 "속보": {
-"n30": 8,
+"n30": 5,
 "base": 0.1,
 "spike": true
 },
@@ -1616,7 +1616,7 @@
 },
 "사고": {
 "n30": 8,
-"base": 6.7,
+"base": 6.8,
 "spike": false
 },
 "실종": {
@@ -1646,6 +1646,16 @@
 }
 },
 "posts": [
+{
+"text": "【지진 정보】일본 시간 11월 22일 02:30경\n진원: Off the south Coast of Boso Peninsula (M4.6, 깊이 약 20km)\n최대 진도: 2\n진도 2: 도쿄도\n이 지진으로 인한 쓰나미 걱정은 없습니다.\n(일본 기상청 발표)\n#일본 #지진 #방재",
+"handle": "ko.soramoyou.yk-planning.jp",
+"name": "Soramoyou 한국어",
+"time": "2026-11-21T17:35:34.816Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/ko.soramoyou.yk-planning.jp/post/3n2tn6vicui2p",
+"term": "지진"
+},
 {
 "text": "사실 버드스트라이크 위험성도 좀 과도하게 부풀려진게\n실제로 운영하던 군산공항 바로옆인데 갑자기 수백배로 수치가 뛴다는게 너무 황당함, 이건 국토부의 잘못이 맞고, 그럼에도 수치통계는 군산공항것을 그대로 갖다쓰면 법원에선 이상한 판결을 줄수밖에 없는것 또한 사실이라서\n법원도 유도리를 가져야하지만 항공사고 때문에 이런 판결을 냇다면 이해는 됨\n하지만, 이게 일을 해본사람들이면 알겠지만(트위터에서",
 "handle": "gryphus01.bsky.social",
@@ -1897,25 +1907,25 @@
 "spikes": [
 {
 "term": "속보",
-"n30": 8,
+"n30": 5,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-21T17:34:44.265072+00:00"
+"since": "2026-11-21T17:37:00.329756+00:00"
 }
 ],
 "baseline": {
-"지진": 0.05,
+"지진": 0.15,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.5,
+"폭발": 0.45,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
 "지하철": 0.05,
-"사고": 6.81,
-"실종": 0.08,
+"사고": 6.93,
+"실종": 0.07,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -2150,7 +2160,7 @@
 "link": "https://www.spurs-web.com/spurs-news/roberto-de-zerbi-reveals-how-long-mathys-tel-will-be-missing-for-tottenham/"
 }
 ],
-"new": true
+"new": false
 },
 {
 "term": "เชลซี พบ ลีดส์",
@@ -2255,14 +2265,14 @@
 "time": "2026-11-21T14:50:00+00:00",
 "news": [
 {
-"title": "국힘, 대구서 장외 집회… \"조희대 탄핵 땐 정권 붕괴\"",
-"source": "조선일보",
-"link": "https://www.chosun.com/politics/politics_general/2026/11/21/CJUVIRF2TRGYZMKZ4LDPRCMCRM/"
+"title": "이 대통령 \"5500억 환수가 배임이면…\" 대장동 업자 인터뷰 SNS에 공유",
+"source": "JTBC",
+"link": "https://news.jtbc.co.kr/article/NB12329146"
 },
 {
-"title": "이번엔 대구 집결한 국힘 \"몽땅 교도소에\"‥민주 \"그럴 자격 있나\"",
-"source": "MBC 뉴스",
-"link": "https://imnews.imbc.com/replay/2026/nwdesk/article/6867508_37004.html"
+"title": "장동혁 \"억울하면 재판 받아라\"…민주 \"크게 착각\"",
+"source": "연합뉴스TV",
+"link": "https://www.yonhapnewstv.co.kr/news/AKR20261121165813814"
 }
 ],
 "new": true
