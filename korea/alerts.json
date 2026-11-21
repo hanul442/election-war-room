@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-21T14:02:25.560309+00:00",
+"updated": "2026-11-21T14:04:39.674561+00:00",
 "errors": [],
 "events": [
 {
@@ -3096,57 +3096,6 @@
 "재밌어해",
 "하는"
 ]
-},
-{
-"id": "0tZTWtNbkc1eTFxZ2YwdAoc50802",
-"first": "2026-11-21T08:02:55+00:00",
-"last": "2026-11-21T08:02:55+00:00",
-"updated": "2026-11-21T08:07:39.013943+00:00",
-"headline": "중부고속도로 진천나들목 인근서 차량 3대 추돌⋯3명 부상",
-"cat": "교통",
-"regions": [
-"충북"
-],
-"sources": [
-"뉴시스",
-"아이뉴스24"
-],
-"updates": [
-{
-"title": "중부고속도로 진천나들목 인근서 차량 '쾅쾅쾅'…3명 부상",
-"source": "뉴시스",
-"link": "https://www.newsis.com/view/NISX20261121_0003877725",
-"time": "2026-11-21T06:25:34+00:00",
-"stage": "후속"
-},
-{
-"title": "[속보] 중부고속도로 진천나들목 인근서 차량 3대 추돌⋯3명 부상",
-"source": "아이뉴스24",
-"link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1ZYzN4ZG5uc2hGQkFkUFdRem9HRWszcHMwMWNOQ3dXVnVFR01hWWFEcHY5QzR4NXNkZ0tZTWtNbkc1eTFxZ2YwdA?oc=5",
-"time": "2026-11-21T08:02:55+00:00",
-"stage": "얼럿"
-},
-{
-"title": "[속보] 중부고속도로 진천나들목 인근서 차량 3대 추돌⋯3명 부상",
-"source": "아이뉴스24",
-"link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE90Z21hZThrV1NrWEppa2Y5QjlHSEsydjNqVU9DcWtVNjd4TU4yWW0yTW9LUnI2VThsZGFtQjE3eEx0Q0hjbjBqMUFNWQ?oc=5",
-"time": "2026-11-21T08:02:55+00:00",
-"stage": "속보"
-}
-],
-"level": "URGENT",
-"latest": "중부고속도로 진천나들목 인근서 차량 3대 추돌⋯3명 부상",
-"tok": [
-"3대",
-"3명",
-"부상",
-"인근서",
-"중부고속도",
-"진천나들목",
-"차량",
-"추돌",
-"쾅쾅쾅"
-]
 }
 ],
 "sns": {
@@ -3173,13 +3122,13 @@
 },
 "폭발": {
 "n30": 1,
-"base": 0.5,
+"base": 0.6,
 "spike": false
 },
 "붕괴": {
-"n30": 6,
-"base": 0.8,
-"spike": true
+"n30": 4,
+"base": 0.7,
+"spike": false
 },
 "대피": {
 "n30": 0,
@@ -3452,27 +3401,19 @@
 "url": "https://www.youtube.com/watch?v=PQgEGdPuKL8"
 }
 ],
-"spikes": [
-{
-"term": "붕괴",
-"n30": 6,
-"base": 0.8,
-"spike": true,
-"since": "2026-11-21T14:02:25.560309+00:00"
-}
-],
+"spikes": [],
 "baseline": {
-"지진": 0.19,
+"지진": 0.17,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.56,
-"붕괴": 0.74,
+"폭발": 0.6,
+"붕괴": 0.67,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
 "지하철": 0.05,
-"사고": 1.39,
+"사고": 1.35,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -3684,6 +3625,24 @@
 },
 "trends": [
 {
+"term": "노동 시장",
+"traffic": "100+",
+"time": "2026-11-21T13:00:00+00:00",
+"news": [
+{
+"title": "정부, 노동시장 이중구조 개선과제 발굴 착수…\"원점에서 재점검\"",
+"source": "대한민국 정책브리핑",
+"link": "https://www.korea.kr/news/policyNewsView.do?newsId=148976181"
+},
+{
+"title": "(참고) 모두의 성장으로 대전환을 위해 전 부처 역량 결집 - 양극화 대응 TF 「노동시장 이중구조 개선반」 1차 회의 개최",
+"source": "서울Pn",
+"link": "https://go.seoul.co.kr/news/prnewsView.php?id=458012"
+}
+],
+"new": true
+},
+{
 "term": "манчестер сити – фулхэм",
 "traffic": "200+",
 "time": "2026-11-21T12:40:00+00:00",
@@ -3820,9 +3779,9 @@
 "link": "https://www.24h.com.vn/bong-da/truc-tiep-bong-da-man-city-fulham-khong-duoc-phep-say-chan-ngoai-hang-anh-c48a1812819.html"
 },
 {
-"title": "Man City quyết chặn đứng chuỗi 3 trận thua",
-"source": "Laodong.vn",
-"link": "https://laodong.vn/bong-da-quoc-te/man-city-quyet-chan-dung-chuoi-3-tran-thua-1804129.ldo"
+"title": "Álvaro Arbeloa: Chúng tôi phải tin vào kế hoạch của mình, Man City vẫn là một trong những đội mạnh nhất‍‍‌⁠‌‌‍‌​​‌‌​⁠​‌​⁠​​​⁠​​​⁠​​​⁠​‌‌",
+"source": "AllFootball",
+"link": "https://www.allfootballapp.com/vi/articles/6019928-alvaro-arbeloa-chung-toi-phai-tin"
 }
 ],
 "new": true
@@ -3833,32 +3792,14 @@
 "time": "2026-11-21T11:40:00+00:00",
 "news": [
 {
+"title": "Manchester City vs Fulham: Premier League preview, team news, stats & head-to-head",
+"source": "BBC",
+"link": "https://www.bbc.com/sport/football/live/c3kgdxnggq7pt"
+},
+{
 "title": "Premier League predictions & Jones Knows' best bets: Newcastle vs Arsenal, Liverpool vs Manchester United and much more!",
 "source": "Sky Sports",
 "link": "https://www.skysports.com/football/news/13611640/premier-league-predictions-and-jones-knows-best-bets-newcastle-vs-arsenal-liverpool-vs-manchester-united-and-much-more"
-},
-{
-"title": "O'Reilly, Bouaddi, Foden start as City make three changes",
-"source": "Manchester City FC",
-"link": "https://www.mancity.com/news/mens/man-city-v-fulham-team-news-and-tactics-premier-league-21-november-63930856"
-}
-],
-"new": true
-},
-{
-"term": "npl",
-"traffic": "500+",
-"time": "2026-11-21T11:10:00+00:00",
-"news": [
-{
-"title": "Match Predictions: Nepal Premier League 2026 - Final - Lumbini Lions vs Sudurpaschim Royals - 21st November",
-"source": "Cricket World",
-"link": "https://www.cricketworld.com/match-predictions-nepal-premier-league-2026-final-lumbini-lions-vs-sudurpaschim-royals-21st-november/114455.htm"
-},
-{
-"title": "Nepal Premier League final 2026 live stream, TV channel and start time for Sudur Paschim Royals vs. Lumbini Lions",
-"source": "Sporting News",
-"link": "https://www.sportingnews.com/in/cricket/news/nepal-premier-league-final-2026-live-stream-tv-channel-start-time-royals-lions/518ead895a8cfd7eba5f8d91"
 }
 ],
 "new": true
