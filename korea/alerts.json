@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-21T09:45:10.736487+00:00",
+"updated": "2026-11-21T09:47:22.691028+00:00",
 "errors": [],
 "events": [
 {
@@ -3067,12 +3067,12 @@
 "terms": {
 "지진": {
 "n30": 1,
-"base": 0.5,
+"base": 0.4,
 "spike": false
 },
 "화재": {
 "n30": 1,
-"base": 0.5,
+"base": 0.4,
 "spike": false
 },
 "불났": {
@@ -3086,7 +3086,7 @@
 "spike": false
 },
 "폭발": {
-"n30": 3,
+"n30": 2,
 "base": 1.0,
 "spike": false
 },
@@ -3106,9 +3106,9 @@
 "spike": false
 },
 "속보": {
-"n30": 5,
+"n30": 4,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "지하철": {
 "n30": 2,
@@ -3116,12 +3116,12 @@
 "spike": false
 },
 "사고": {
-"n30": 5,
-"base": 3.5,
+"n30": 4,
+"base": 3.7,
 "spike": false
 },
 "실종": {
-"n30": 0,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
@@ -3147,6 +3147,16 @@
 }
 },
 "posts": [
+{
+"text": "머리실종",
+"handle": "noinoiee.bsky.social",
+"name": "노이",
+"time": "2026-11-21T09:46:03.247Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/noinoiee.bsky.social/post/3n2ssx7mmdc2j",
+"term": "실종"
+},
 {
 "text": "이라크 가스 파이프라인 폭발 사고로 4명이 사망하고 35명이 부상당했으며, 사고 원인은 아직 밝혀지지 않았습니다. - Ynet",
 "handle": "newsky144th.bsky.social",
@@ -3387,18 +3397,10 @@
 "url": "https://www.youtube.com/watch?v=otz8QiDVaSw"
 }
 ],
-"spikes": [
-{
-"term": "속보",
-"n30": 5,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-21T09:45:10.736487+00:00"
-}
-],
+"spikes": [],
 "baseline": {
-"지진": 0.41,
-"화재": 0.41,
+"지진": 0.37,
+"화재": 0.37,
 "불났": 0.05,
 "정전": 0.05,
 "폭발": 0.99,
@@ -3406,9 +3408,9 @@
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 1.67,
-"사고": 3.66,
-"실종": 0.05,
+"지하철": 1.6,
+"사고": 3.69,
+"실종": 0.15,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -3633,14 +3635,14 @@
 "time": "2026-11-21T08:20:00+00:00",
 "news": [
 {
-"title": "'노로바이러스' 미리 알고, 더 건강하게 다녀오세요 - 전체 | 카드/한컷 | 멀티미디어",
-"source": "대한민국 정책브리핑",
-"link": "https://www.korea.kr/multi/visualNewsView.do?newsId=148976154&pWise=sub&pWiseSub=C4"
+"title": "“겨울철 식중독 조심하세요” 식약처, 노로바이러스 감염 주의 당부",
+"source": "동아일보",
+"link": "https://www.donga.com/news/Society/article/all/20261120/135059575/1"
 },
 {
-"title": "노로바이러스 식중독 절반이 겨울철…“가열용 굴 생식 주의” [헬시타임]",
-"source": "서울경제",
-"link": "https://www.sedaily.com/article/20116855"
+"title": "김장 후 굴보쌈 꿀맛…\"포장지 안 보고 먹었다간\" 무서운 경고",
+"source": "한국경제",
+"link": "https://www.hankyung.com/article/2026112091177"
 }
 ],
 "new": true
@@ -3761,7 +3763,7 @@
 {
 "title": "불길 속 머리만 겨우 보였다…산불 진화한 배우 김민의 아찔한 모습",
 "source": "주간조선",
-"link": "http://weekly.chosun.com/news/articleView.html?idxno=57337"
+"link": "https://weekly.chosun.com/news/articleView.html?idxno=57337"
 },
 {
 "title": "외투 타들어 가는데…촬영 간 김민, 몸 던져 '고성 대형 산불' 막았다",
@@ -3782,9 +3784,9 @@
 "link": "https://m.science.ytn.co.kr/program/view.php?s_mcd=0082&key=202611201104357456"
 },
 {
-"title": "AMD, 中 수출 규제 위반 의혹·AI 투자심리 악화에 주가 13%↓",
-"source": "마켓인",
-"link": "https://marketin.edaily.co.kr/News/ReadE?newsId=01226726645648016"
+"title": "美서 터진 또 하나의 ‘칩 불륜’ 스캔들 … 주가 작전세력의 음모론인가",
+"source": "매일경제",
+"link": "https://www.mk.co.kr/news/business/12214398"
 }
 ],
 "new": true
