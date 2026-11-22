@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-22T17:41:00.962660+00:00",
+"updated": "2026-11-22T17:43:14.753635+00:00",
 "errors": [],
 "events": [
 {
@@ -2151,7 +2151,7 @@
 "sns": {
 "terms": {
 "지진": {
-"n30": 2,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
@@ -2171,12 +2171,12 @@
 "spike": false
 },
 "폭발": {
-"n30": 3,
+"n30": 1,
 "base": 0.2,
 "spike": false
 },
 "붕괴": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -2202,12 +2202,12 @@
 },
 "사고": {
 "n30": 0,
-"base": 0.7,
+"base": 0.6,
 "spike": false
 },
 "실종": {
 "n30": 0,
-"base": 0.3,
+"base": 0.2,
 "spike": false
 },
 "단수": {
@@ -2446,14 +2446,14 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.16,
+"폭발": 0.14,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
 "지하철": 0.05,
-"사고": 0.62,
-"실종": 0.24,
+"사고": 0.56,
+"실종": 0.22,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -2673,6 +2673,24 @@
 },
 "trends": [
 {
+"term": "liverpool đấu với man utd",
+"traffic": "200+",
+"time": "2026-11-22T16:40:00+00:00",
+"news": [
+{
+"title": "Trực tiếp bóng đá Liverpool - MU: Fernandes hết lời khen Pochettino (Ngoại hạng Anh)",
+"source": "Tin tức 24h",
+"link": "https://www.24h.com.vn/bong-da/truc-tiep-bong-da-liverpool-mu-ruc-lua-derby-nuoc-anh-ngoai-hang-anh-c48a1813227.html"
+},
+{
+"title": "Tin nóng bóng đá 22.11: Chờ màn lột xác tức thì của MU ở trận đại chiến với Liverpool",
+"source": "Laodong.vn",
+"link": "https://laodong.vn/video-the-thao/tin-nong-bong-da-2211-cho-man-lot-xac-tuc-thi-cua-mu-o-tran-dai-chien-voi-liverpool-1804242.ldo"
+}
+],
+"new": true
+},
+{
 "term": "맨유",
 "traffic": "1000+",
 "time": "2026-11-22T16:30:00+00:00",
@@ -2819,24 +2837,6 @@
 "title": "Barcelona Shuffles Defense for Villarreal Clash to Protect La Liga Lead : Sports : JKN",
 "source": "재경일보",
 "link": "https://news.jkn.co.kr/editions/english/post/1114598"
-}
-],
-"new": true
-},
-{
-"term": "u17 월드컵",
-"traffic": "100+",
-"time": "2026-11-22T15:20:00+00:00",
-"news": [
-{
-"title": "베트남 U-17 대 뉴질랜드 U-17 경기를 주재한 카메룬 심판의 신원이 밝혀졌습니다.",
-"source": "Vietnam.vn",
-"link": "https://www.vietnam.vn/ko/lo-danh-tinh-trong-tai-nguoi-cameroon-bat-chinh-tran-u-17-viet-nam-vs-u-17-new-zealand"
-},
-{
-"title": "2026 U17 월드컵 U17 베트남 대 U17 뉴질랜드 축구 경기 일정",
-"source": "Laodong.vn",
-"link": "https://ko.laodong.vn/lich-thi-dau/lich-thi-dau-bong-da-u17-viet-nam-vs-u17-new-zealand-tai-giai-u17-world-cup-2026-1804795.ldo"
 }
 ],
 "new": true
