@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-22T11:52:59.568550+00:00",
+"updated": "2026-11-22T11:55:15.735011+00:00",
 "errors": [],
 "events": [
 {
@@ -157,7 +157,7 @@
 "id": "09ySnpybUk5YzVfOVBqcwoc51020",
 "first": "2026-11-22T10:20:07+00:00",
 "last": "2026-11-22T11:51:00+00:00",
-"updated": "2026-11-22T11:52:59.568550+00:00",
+"updated": "2026-11-22T11:55:15.735011+00:00",
 "headline": "계좌·카드·주민번호까지 털렸다… 한전 고객 등 150만명 개인정보 유출",
 "cat": "기타",
 "regions": [],
@@ -237,6 +237,13 @@
 "stage": "종합"
 },
 {
+"title": "직원 정보 유출 한 달여 만에 또… 한전, 고객 등 152만명분 개인정보 털려",
+"source": "조선일보",
+"link": "https://www.chosun.com/economy/industry-company/2026/11/22/MU3DEYJWHA2TCODEGY2GIMDFGU/",
+"time": "2026-11-22T10:24:40+00:00",
+"stage": "후속"
+},
+{
 "title": "한전, 고객 주민번호 포함 개인정보 150만 건 유출",
 "source": "YTN",
 "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5NdXEzM0hWbGhCdTVNMFQ0RUlQSDQ4Z09RSmVJakxmdWJUekRTenBJbDJad2VTeGhSREdXVjdhUGdOM0pSZGF1TG1zVWoxaUwzMlhRdEt3cmFxWHYxekE?oc=5",
@@ -285,25 +292,29 @@
 "기업",
 "김동철",
 "깊이",
+"달여",
+"만에",
 "사과",
 "사장",
 "유출",
 "전자조달시스템",
 "전화",
+"정보",
 "주민",
 "주민번호",
 "주민번호까지",
+"직원",
 "카드",
 "카드번호",
 "카드번호까지",
+"털려",
 "털렸다",
 "포함",
 "한전",
 "한전ON",
 "한전서",
 "해킹",
-"해킹당했다",
-"확인"
+"해킹당했다"
 ]
 },
 {
@@ -4027,8 +4038,8 @@
 "spike": false
 },
 "폭발": {
-"n30": 8,
-"base": 0.6,
+"n30": 6,
+"base": 0.7,
 "spike": true
 },
 "붕괴": {
@@ -4048,17 +4059,17 @@
 },
 "속보": {
 "n30": 9,
-"base": 0.5,
+"base": 0.6,
 "spike": true
 },
 "지하철": {
 "n30": 3,
-"base": 0.6,
+"base": 0.7,
 "spike": false
 },
 "사고": {
 "n30": 4,
-"base": 3.3,
+"base": 3.4,
 "spike": false
 },
 "실종": {
@@ -4088,6 +4099,16 @@
 }
 },
 "posts": [
+{
+"text": "아직요 홀홀..\n이번에도 사고 내지 않고 무사히 책이 나오도록 하겠어요",
+"handle": "dodumi-fla.bsky.social",
+"name": "발9)듬듬_林",
+"time": "2026-11-22T11:53:21.940Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/dodumi-fla.bsky.social/post/3n2vkjwulik27",
+"term": "사고"
+},
 {
 "text": "저번에 엄마랑 서울 갈 일이 있었는데\n엄마는 혼자 가면 서울 지하철이 정신사납고 어지러워서 걱정된다고 했단 말임\n근데 나랑 가니까 내 에너지가 차분하고 편안해서 괜찮았대\n근데 이런 말을 나한테 한 사람이 몇명 더 있었는데 대체 왜 이렇게 느끼는 건지 모르겠음",
 "handle": "cloud-verse.bsky.social",
@@ -4151,16 +4172,6 @@
 "time": "2026-11-22T11:45:02Z",
 "term": "폭발",
 "url": "https://www.youtube.com/watch?v=ZlRTcM1TDQY"
-},
-{
-"text": "존나 사고하기 싫어진다. 그냥 되냐 안되냐심 잡고 들이박는 게 최고의 효율인 거 같기도 하다.",
-"handle": "radd3v1l.bsky.social",
-"name": "독태성",
-"time": "2026-11-22T11:44:21.746Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/radd3v1l.bsky.social/post/3n2vjzrvres2y",
-"term": "사고"
 },
 {
 "platform": "YouTube",
@@ -4369,31 +4380,31 @@
 "spikes": [
 {
 "term": "폭발",
-"n30": 8,
-"base": 0.6,
+"n30": 6,
+"base": 0.7,
 "spike": true,
-"since": "2026-11-22T11:52:59.568550+00:00"
+"since": "2026-11-22T11:55:15.735011+00:00"
 },
 {
 "term": "속보",
 "n30": 9,
-"base": 0.5,
+"base": 0.6,
 "spike": true,
-"since": "2026-11-22T11:52:59.568550+00:00"
+"since": "2026-11-22T11:55:15.735011+00:00"
 }
 ],
 "baseline": {
-"지진": 0.27,
+"지진": 0.24,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.66,
+"폭발": 0.69,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.56,
-"지하철": 0.66,
-"사고": 3.35,
+"속보": 0.6,
+"지하철": 0.69,
+"사고": 3.42,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -4714,9 +4725,9 @@
 "link": "https://sports.donga.com/ent/article/all/20261120/135060769/1"
 },
 {
-"title": "런닝맨 : [선공개] ‘힘캐’ 송지효, 주현영과 방석 두고 시작된 육탄전♨ (ft. 지예은)",
-"source": "programs.sbs.co.kr",
-"link": "https://programs.sbs.co.kr/enter/runningman/clip/52880/OC483929951"
+"title": "김종국 결혼 1년만에..'대역' 신부설 휘말렸다! 믿었던 유재석까지 ('런닝맨')",
+"source": "Chosunbiz",
+"link": "https://biz.chosun.com/entertainment/enter_general/2026/11/22/MFQWCMJXGVSTIOBZGM4TAMJSMU/"
 }
 ],
 "new": true
@@ -4759,7 +4770,7 @@
 },
 {
 "term": "남진",
-"traffic": "2000+",
+"traffic": "5000+",
 "time": "2026-11-22T10:10:00+00:00",
 "news": [
 {
@@ -4777,7 +4788,7 @@
 },
 {
 "term": "수능 부정행위",
-"traffic": "1000+",
+"traffic": "5000+",
 "time": "2026-11-22T10:10:00+00:00",
 "news": [
 {
