@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-22T17:34:12.537656+00:00",
+"updated": "2026-11-22T17:36:30.531311+00:00",
 "errors": [],
 "events": [
 {
@@ -2171,9 +2171,9 @@
 "spike": false
 },
 "폭발": {
-"n30": 5,
+"n30": 4,
 "base": 0.2,
-"spike": true
+"spike": false
 },
 "붕괴": {
 "n30": 1,
@@ -2196,18 +2196,18 @@
 "spike": false
 },
 "지하철": {
-"n30": 2,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
 "사고": {
 "n30": 0,
-"base": 1.0,
+"base": 0.9,
 "spike": false
 },
 "실종": {
 "n30": 0,
-"base": 0.4,
+"base": 0.3,
 "spike": false
 },
 "단수": {
@@ -2440,28 +2440,20 @@
 "url": "https://www.youtube.com/watch?v=pIki6F9qeSs"
 }
 ],
-"spikes": [
-{
-"term": "폭발",
-"n30": 5,
-"base": 0.2,
-"spike": true,
-"since": "2026-11-22T17:34:12.537656+00:00"
-}
-],
+"spikes": [],
 "baseline": {
 "지진": 0.05,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.22,
+"폭발": 0.2,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
 "지하철": 0.05,
-"사고": 0.86,
-"실종": 0.33,
+"사고": 0.77,
+"실종": 0.3,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -2819,9 +2811,9 @@
 "time": "2026-11-22T15:30:00+00:00",
 "news": [
 {
-"title": "Barcelona vs Villarreal Confirmed Lineups",
-"source": "WhoScored.com",
-"link": "https://www.whoscored.com/news/UYwB3kUYiU2gZN87H5q8SA/show/cng112-20261122-barcelona-vs-villarreal-confirmed-lineup-1795348094"
+"title": "Barcelona Shuffles Defense for Villarreal Clash to Protect La Liga Lead : Sports : JKN",
+"source": "재경일보",
+"link": "https://news.jkn.co.kr/editions/english/post/1114598"
 },
 {
 "title": "Licensable picture: Soccer 2026: LaLiga: FC Barcelona - Villarreal CF",
