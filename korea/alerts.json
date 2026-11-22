@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-22T16:42:20.274355+00:00",
+"updated": "2026-11-22T16:44:34.914612+00:00",
 "errors": [],
 "events": [
 {
@@ -2507,9 +2507,9 @@
 "spike": false
 },
 "폭발": {
-"n30": 5,
+"n30": 4,
 "base": 1.3,
-"spike": true
+"spike": false
 },
 "붕괴": {
 "n30": 16,
@@ -2797,16 +2797,6 @@
 "term": "사고"
 },
 {
-"text": "아 피상인 만낫더니 치명적인 폭발은 자기로 족하대요 아",
-"handle": "tan-yyaa.bsky.social",
-"name": "탄야",
-"time": "2026-11-22T16:14:17.754Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/tan-yyaa.bsky.social/post/3n2vz37aqo22u",
-"term": "폭발"
-},
-{
 "platform": "YouTube",
 "text": "[속보] 최교진 교육부 장관 사의 \"책임 통감\"... 이 대통령 수락 靑 \"후임 인선 절차대로\" - [MBC뉴스속보] MBC뉴스 2026년 11월 22일",
 "handle": "UCF4Wxdo3inmxP-Y59wXDsFw",
@@ -2818,18 +2808,11 @@
 ],
 "spikes": [
 {
-"term": "폭발",
-"n30": 5,
-"base": 1.3,
-"spike": true,
-"since": "2026-11-22T16:42:20.274355+00:00"
-},
-{
 "term": "붕괴",
 "n30": 16,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-22T16:42:20.274355+00:00"
+"since": "2026-11-22T16:44:34.914612+00:00"
 }
 ],
 "baseline": {
@@ -2837,14 +2820,14 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 1.34,
+"폭발": 1.31,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
 "지하철": 0.05,
 "사고": 1.96,
-"실종": 0.56,
+"실종": 0.5,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -3064,8 +3047,26 @@
 },
 "trends": [
 {
+"term": "liverpool vs man utd",
+"traffic": "500+",
+"time": "2026-11-22T15:40:00+00:00",
+"news": [
+{
+"title": "Liverpool vs Manchester United LIVE: Premier League build-up, team news, stats & updates",
+"source": "BBC",
+"link": "https://www.bbc.com/sport/football/live/cm62pqqw6d29t"
+},
+{
+"title": "Andoni Iraola programme notes | Why Liverpool need to be 'all in' from the off today",
+"source": "Liverpool FC",
+"link": "https://www.liverpoolfc.com/news/andoni-iraola-programme-notes-liverpool-all-in-manchester-united"
+}
+],
+"new": true
+},
+{
 "term": "리버풀 대 맨유",
-"traffic": "5000+",
+"traffic": "10000+",
 "time": "2026-11-22T15:30:00+00:00",
 "news": [
 {
@@ -3105,21 +3106,21 @@
 "time": "2026-11-22T15:20:00+00:00",
 "news": [
 {
-"title": "U-17 축구대표팀, 월드컵 첫 경기서 우간다 3대 0 대승",
-"source": "KBS 뉴스",
-"link": "https://news.kbs.co.kr/news/view.do?ncd=8718341"
+"title": "베트남 U-17 대 뉴질랜드 U-17 경기를 주재한 카메룬 심판의 신원이 밝혀졌습니다.",
+"source": "Vietnam.vn",
+"link": "https://www.vietnam.vn/ko/lo-danh-tinh-trong-tai-nguoi-cameroon-bat-chinh-tran-u-17-viet-nam-vs-u-17-new-zealand"
 },
 {
-"title": "韓 축구 새 재능 탄생…2009년생 '잘츠부르크 이적 확정' 김지호, U-17 월드컵 뉴칼레도니아전 '기대감'",
-"source": "조선일보",
-"link": "https://www.chosun.com/sports/football/2026/11/22/GI2TKZDCMJTDCYLCGNSDKOJXMQ/"
+"title": "2026 U17 월드컵 U17 베트남 대 U17 뉴질랜드 축구 경기 일정",
+"source": "Laodong.vn",
+"link": "https://ko.laodong.vn/lich-thi-dau/lich-thi-dau-bong-da-u17-viet-nam-vs-u17-new-zealand-tai-giai-u17-world-cup-2026-1804795.ldo"
 }
 ],
 "new": true
 },
 {
 "term": "브라이튼",
-"traffic": "100+",
+"traffic": "200+",
 "time": "2026-11-22T14:30:00+00:00",
 "news": [
 {
@@ -3212,13 +3213,6 @@
 "link": "https://www.chosun.com/entertainments/music/2026/11/22/MQYDOZRQGBRTGYRTGJSWINTFMY/"
 }
 ],
-"new": true
-},
-{
-"term": "persib bandung vs bali united",
-"traffic": "100+",
-"time": "2026-11-22T13:30:00+00:00",
-"news": [],
 "new": true
 }
 ],
