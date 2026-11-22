@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-22T18:01:15.817981+00:00",
+"updated": "2026-11-22T18:03:33.627423+00:00",
 "errors": [],
 "events": [
 {
@@ -2188,7 +2188,7 @@
 "terms": {
 "지진": {
 "n30": 2,
-"base": 0.6,
+"base": 0.8,
 "spike": false
 },
 "화재": {
@@ -2238,7 +2238,7 @@
 },
 "사고": {
 "n30": 0,
-"base": 0.3,
+"base": 0.2,
 "spike": false
 },
 "실종": {
@@ -2498,18 +2498,18 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 0.78,
+"지진": 0.9,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.06,
+"폭발": 0.05,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
 "지하철": 0.05,
-"사고": 0.24,
-"실종": 0.1,
+"사고": 0.22,
+"실종": 0.09,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -2729,6 +2729,24 @@
 },
 "trends": [
 {
+"term": "밀란 대 프로시노네",
+"traffic": "200+",
+"time": "2026-11-22T17:00:00+00:00",
+"news": [
+{
+"title": "Liverpool vs. Man Utd (Nov 22, 2026) Team Stats",
+"source": "ESPN",
+"link": "https://www.espn.com/soccer/team-stats/_/gameId/401878755"
+},
+{
+"title": "Arizona 35-28 Kansas State (Nov 21, 2026) Game Recap",
+"source": "ESPN",
+"link": "https://www.espn.com/college-football/recap/_/gameId/401856865"
+}
+],
+"new": true
+},
+{
 "term": "liverpool đấu với man utd",
 "traffic": "200+",
 "time": "2026-11-22T16:40:00+00:00",
@@ -2875,24 +2893,6 @@
 "title": "리버풀은 안필드에서 맨체스터 유나이티드를 상대로 전력을 회복해야 합니다.",
 "source": "Vietnam.vn",
 "link": "https://www.vietnam.vn/ko/liverpool-can-lay-lai-suc-manh-tai-anfield-truoc-man-united"
-}
-],
-"new": true
-},
-{
-"term": "fc barcelona vs villarreal cf standings",
-"traffic": "1000+",
-"time": "2026-11-22T15:30:00+00:00",
-"news": [
-{
-"title": "Barcelona 3-2 Villarreal: Barca score three in 10 minutes to return to top of La Liga",
-"source": "BBC",
-"link": "https://www.bbc.com/sport/football/live/cqe87553peegt"
-},
-{
-"title": "Licensable picture: Soccer 2026: LaLiga: FC Barcelona - Villarreal CF",
-"source": "Reuters Connect",
-"link": "https://www.reutersconnect.com/item/soccer-2026-laliga-fc-barcelona-villarreal-cf/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX01UMVpVTUEwMDBPWlVWMVg"
 }
 ],
 "new": true
