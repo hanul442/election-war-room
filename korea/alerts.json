@@ -1,7 +1,39 @@
 {
-"updated": "2026-11-22T03:58:48.226353+00:00",
+"updated": "2026-11-22T04:01:05.956575+00:00",
 "errors": [],
 "events": [
+{
+"id": "wNISX20261122_00038780940400",
+"first": "2026-11-22T04:00:00+00:00",
+"last": "2026-11-22T04:00:00+00:00",
+"updated": "2026-11-22T04:01:05.956575+00:00",
+"headline": "'산불 진화' 배우 김민 \"많은 감정 올라와\"",
+"cat": "재난",
+"regions": [],
+"sources": [
+"뉴시스"
+],
+"updates": [
+{
+"title": "'산불 진화' 배우 김민 \"많은 감정 올라와\"",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261122_0003878094",
+"time": "2026-11-22T04:00:00+00:00",
+"stage": "1보"
+}
+],
+"level": "ALERT",
+"latest": "'산불 진화' 배우 김민 \"많은 감정 올라와\"",
+"tok": [
+"감정",
+"김민",
+"많은",
+"배우",
+"산불",
+"올라",
+"진화"
+]
+},
 {
 "id": "viewAKR202611220215000520245",
 "first": "2026-11-22T02:45:23+00:00",
@@ -3084,61 +3116,6 @@
 "캐나다",
 "회원국"
 ]
-},
-{
-"id": "1WFVISG1Xd25iV20wYWZBoc52329",
-"first": "2026-11-21T23:29:53+00:00",
-"last": "2026-11-21T23:29:53+00:00",
-"updated": "2026-11-21T23:35:36.695958+00:00",
-"headline": "`우리 잠깐 같이 돌까?` CNN \"12월까지 지구에 두번째 달 생겨\"",
-"cat": "기타",
-"regions": [],
-"sources": [
-"국제신문",
-"연합뉴스",
-"전파신문"
-],
-"updates": [
-{
-"title": "지구에 잠시 '두번째 달' 생겼다…지름2ｍ 소행성 12월까지 동행",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261122004300009",
-"time": "2026-11-21T21:52:11+00:00",
-"stage": "후속"
-},
-{
-"title": "지구에 잠시 '두번째 달' 생겼다",
-"source": "전파신문",
-"link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA2bzFkQlphaXFjUFNzcWFKZWdQMVZfdE9WN08tM0xJak9nNUtnLVpGYUgwQ201VElJOTh4Y2FVVDI4MmI1NHpNQUJGbEVXcmVZYXc0UF9rMnNpck9oLUhrbjR5T1lZUUZvS3c?oc=5",
-"time": "2026-11-21T22:54:00+00:00",
-"stage": "후속"
-},
-{
-"title": "[속보]`우리 잠깐 같이 돌까?` CNN \"12월까지 지구에 두번째 달 생겨\"",
-"source": "국제신문",
-"link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOamlFYWpQVGVneURzeFRFRWwzSnZ6RXI3SUdIM0h3QWlTb2FwZG8yaEFubVFMOU8xNnR3S0o5RU9BeTFCTjFfY2hIRHJnRldHUGx2R3o4aENKQ0JzcUlfaDBwMUpJUkVYVTNWWmVtMUV2cUpKYURRU2F0c3k3TFJ1WFVISG1Xd25iV20wYWZB?oc=5",
-"time": "2026-11-21T23:29:53+00:00",
-"stage": "얼럿"
-}
-],
-"level": "URGENT",
-"latest": "`우리 잠깐 같이 돌까?` CNN \"12월까지 지구에 두번째 달 생겨\"",
-"tok": [
-"12월까지",
-"CNN",
-"같이",
-"돌까",
-"동행",
-"두번째",
-"생겨",
-"생겼다",
-"소행성",
-"우리",
-"잠깐",
-"잠시",
-"지구",
-"지름2ｍ"
-]
 }
 ],
 "sns": {
@@ -3165,11 +3142,11 @@
 },
 "폭발": {
 "n30": 2,
-"base": 0.2,
+"base": 0.3,
 "spike": false
 },
 "붕괴": {
-"n30": 3,
+"n30": 2,
 "base": 0.1,
 "spike": false
 },
@@ -3184,18 +3161,18 @@
 "spike": false
 },
 "속보": {
-"n30": 7,
+"n30": 6,
 "base": 0.7,
 "spike": true
 },
 "지하철": {
-"n30": 2,
+"n30": 1,
 "base": 0.2,
 "spike": false
 },
 "사고": {
 "n30": 4,
-"base": 1.6,
+"base": 1.9,
 "spike": false
 },
 "실종": {
@@ -3451,29 +3428,29 @@
 "spikes": [
 {
 "term": "속보",
-"n30": 7,
+"n30": 6,
 "base": 0.7,
 "spike": true,
-"since": "2026-11-22T03:58:48.226353+00:00"
+"since": "2026-11-22T04:01:05.956575+00:00"
 }
 ],
 "baseline": {
-"지진": 0.12,
+"지진": 0.11,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.32,
+"폭발": 0.39,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.71,
-"지하철": 0.17,
-"사고": 1.88,
+"속보": 0.74,
+"지하철": 0.15,
+"사고": 2.09,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
-"산불": 0.22
+"산불": 0.2
 },
 "errors": [],
 "ytPosts": [
