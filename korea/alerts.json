@@ -1,7 +1,85 @@
 {
-"updated": "2026-11-22T09:20:31.983971+00:00",
+"updated": "2026-11-22T09:22:44.916468+00:00",
 "errors": [],
 "events": [
+{
+"id": "ssutm_campaigntotal_news0921",
+"first": "2026-11-22T09:21:00+00:00",
+"last": "2026-11-22T09:21:00+00:00",
+"updated": "2026-11-22T09:22:44.916468+00:00",
+"headline": "정부, 증시안정펀드 가동 준비 착수…자사주 매입 한도 3개월 완화",
+"cat": "정치",
+"regions": [],
+"sources": [
+"경향신문"
+],
+"updates": [
+{
+"title": "[속보]정부, 증시안정펀드 가동 준비 착수…자사주 매입 한도 3개월 완화",
+"source": "경향신문",
+"link": "https://www.khan.co.kr/article/202611221821001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
+"time": "2026-11-22T09:21:00+00:00",
+"stage": "얼럿"
+}
+],
+"level": "URGENT",
+"latest": "정부, 증시안정펀드 가동 준비 착수…자사주 매입 한도 3개월 완화",
+"tok": [
+"3개월",
+"가동",
+"매입",
+"완화",
+"자사주",
+"준비",
+"증시안정펀드",
+"착수",
+"한도"
+]
+},
+{
+"id": "3Flc3JnMGVBTTNiZ1pMUQoc50918",
+"first": "2026-11-22T09:18:08+00:00",
+"last": "2026-11-22T09:19:34+00:00",
+"updated": "2026-11-22T09:22:44.916468+00:00",
+"headline": "'검은 월요일' 우려에…정부, 증안펀드 가동 필요조치 착수",
+"cat": "정치",
+"regions": [],
+"sources": [
+"뉴시스",
+"머니투데이"
+],
+"updates": [
+{
+"title": "[속보]'검은 월요일' 우려에…정부, 증안펀드 가동 필요조치 착수 - 머니투데이",
+"source": "머니투데이",
+"link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBmdHpSb3FWaUI3Uk9hNlZFVWJoU3pucERvTGY0cy0xS0RqYVV4c3UwTElzWUtRbWdpQ0c3RFZqVHIwQTFveDVTdzNieDlLc3l2VTdfaFhqZ2ZhMHF2VG1WdlpzT3ltOTBZZEhxdWVmQ0taNTdmd1QwcNIBfkFVX3lxTE5sOHI5bWxnMGVIWno2N21SRnZfY1c3MEp6WllrbERUb05Qa2pSdkhPVDZKMFo5d1VXczQ1bUhKM3hnX190eEllSmk1QzJwTVZPZllJQ3NDUUtTU2pReDUwcjNoQTFVMVlHLVJDd1Q1a3Flc3JnMGVBTTNiZ1pMUQ?oc=5",
+"time": "2026-11-22T09:18:08+00:00",
+"stage": "얼럿"
+},
+{
+"title": "[속보]정부·당국, 증안펀드 가동 준비작업 즉시 착수",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261122_0003878296",
+"time": "2026-11-22T09:19:34+00:00",
+"stage": "속보"
+}
+],
+"level": "URGENT",
+"latest": "정부·당국, 증안펀드 가동 준비작업 즉시 착수",
+"tok": [
+"가동",
+"검은",
+"당국",
+"머니투데",
+"우려",
+"월요일",
+"준비작업",
+"즉시",
+"증안펀드",
+"착수",
+"필요조치"
+]
+},
 {
 "id": "JmQ0ZNWmxNa3d2UllCanMoc50459",
 "first": "2026-11-22T04:59:16+00:00",
@@ -3567,7 +3645,7 @@
 },
 "지하철": {
 "n30": 5,
-"base": 1.2,
+"base": 1.3,
 "spike": true
 },
 "사고": {
@@ -3577,7 +3655,7 @@
 },
 "실종": {
 "n30": 2,
-"base": 0.7,
+"base": 0.9,
 "spike": false
 },
 "단수": {
@@ -3879,19 +3957,19 @@
 "n30": 6,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-22T09:20:31.983971+00:00"
+"since": "2026-11-22T09:22:44.916468+00:00"
 },
 {
 "term": "지하철",
 "n30": 5,
-"base": 1.2,
+"base": 1.3,
 "spike": true,
-"since": "2026-11-22T09:20:31.983971+00:00"
+"since": "2026-11-22T09:22:44.916468+00:00"
 }
 ],
 "baseline": {
 "지진": 0.05,
-"화재": 0.74,
+"화재": 0.77,
 "불났": 0.05,
 "정전": 0.05,
 "폭발": 1.0,
@@ -3899,9 +3977,9 @@
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 1.28,
-"사고": 2.62,
-"실종": 0.87,
+"지하철": 1.35,
+"사고": 2.66,
+"실종": 0.98,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
