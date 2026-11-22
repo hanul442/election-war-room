@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-22T20:13:54.279530+00:00",
+"updated": "2026-11-22T20:16:09.821028+00:00",
 "errors": [],
 "events": [
 {
@@ -931,7 +931,7 @@
 "terms": {
 "지진": {
 "n30": 0,
-"base": 1.4,
+"base": 1.3,
 "spike": false
 },
 "화재": {
@@ -1198,11 +1198,11 @@
 "n30": 11,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-22T20:13:54.279530+00:00"
+"since": "2026-11-22T20:16:09.821028+00:00"
 }
 ],
 "baseline": {
-"지진": 1.28,
+"지진": 1.15,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
@@ -1213,7 +1213,7 @@
 "속보": 0.05,
 "지하철": 0.05,
 "사고": 0.05,
-"실종": 0.37,
+"실종": 0.33,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -1421,7 +1421,7 @@
 "link": "https://news.tf.co.kr/read/soccer/2391760.htm"
 }
 ],
-"new": true
+"new": false
 },
 {
 "term": "카를로스 알카라스",
@@ -1442,8 +1442,26 @@
 "new": false
 },
 {
+"term": "휴게소",
+"traffic": "100+",
+"time": "2026-11-22T19:10:00+00:00",
+"news": [
+{
+"title": "[단독] 전관 천국, 휴게소… 납품대금 18억원 떼먹어도 ‘이상 없음’",
+"source": "한겨레21",
+"link": "https://h21.hani.co.kr/arti/society/society_general/60193.html"
+},
+{
+"title": "[주목 e-기관] \"\"수수료 33%→8%로\" 韓도로공사, 공공 직계약 휴게소 8곳 첫 도입…\"중간 운영업체 구조 개편 본격\"",
+"source": "이코노미톡뉴스",
+"link": "http://www.economytalk.kr/news/articleView.html?idxno=425385"
+}
+],
+"new": true
+},
+{
 "term": "통장",
-"traffic": "500+",
+"traffic": "1000+",
 "time": "2026-11-22T19:00:00+00:00",
 "news": [
 {
@@ -1461,7 +1479,7 @@
 },
 {
 "term": "집",
-"traffic": "200+",
+"traffic": "500+",
 "time": "2026-11-22T18:40:00+00:00",
 "news": [
 {
@@ -1473,6 +1491,24 @@
 "title": "2023년 전세 계약한 서울 6만4000가구…내년 이사 땐 보증금 평균 36% 더 필요",
 "source": "경향신문",
 "link": "https://www.khan.co.kr/article/202611222116015"
+}
+],
+"new": true
+},
+{
+"term": "수색영장",
+"traffic": "100+",
+"time": "2026-11-22T18:40:00+00:00",
+"news": [
+{
+"title": "[단독] 중수청 첫 기업 수사부터 ‘별건’ 의혹…공소청·법원 ‘줄기각’",
+"source": "JTBC",
+"link": "https://news.jtbc.co.kr/article/NB12329266"
+},
+{
+"title": "'서울중수청 1호 강제수사' 명륜당 회장 추가 압수수색영장 기각",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261122036400004"
 }
 ],
 "new": true
@@ -1548,46 +1584,9 @@
 }
 ],
 "new": true
-},
-{
-"term": "라싱 산탄데르 대 레알 소시에다드",
-"traffic": "100+",
-"time": "2026-11-22T16:20:00+00:00",
-"news": [
-{
-"title": "Racing de Santander vs Real Sociedad: Spanish La Liga stats & head-to-head",
-"source": "BBC",
-"link": "https://www.bbc.com/sport/football/live/c6kgr004pl7rt"
-},
-{
-"title": "Racing Santander vs. Real Sociedad - Game Highlights",
-"source": "ESPN",
-"link": "https://www.espn.com/video/clip/_/id/50563056/racing-santander-vs-real-sociedad-game-highlights"
-}
-],
-"new": true
-},
-{
-"term": "ลิเวอร์พูล พบ แมนยู",
-"traffic": "500+",
-"time": "2026-11-22T16:10:00+00:00",
-"news": [
-{
-"title": "การถ่ายทอดสดการแข่งขันระหว่างลิเวอร์พูลกับแมนยูฯ 2-0 (ครึ่งแรก): ลิเวอร์พูลยิงสองประตูอย่างรวดเร็ว",
-"source": "Vietnam.vn",
-"link": "https://www.vietnam.vn/th/truc-tiep-liverpool-vs-mu-2-0-hiep-1-liverpool-ghi-2-ban-chong-vanh"
-},
-{
-"title": "โปเช็ตติโน รับผีแดงต้องปรับตัว - ลั่นเปลี่ยนความโกรธให้เป็นพลัง | Khaosod",
-"source": "LINE TODAY",
-"link": "https://today.line.me/th/v3/article/aGpk5M2"
-}
-],
-"new": true
 }
 ],
 "trendSeen": [
-"치지직",
 "친선경기",
 "카광",
 "카르다노",
@@ -1880,6 +1879,7 @@
 "후티",
 "훈련",
 "휘발유",
+"휴게소",
 "휴대 전화",
 "휴머노이드",
 "휴온스 lpba 챔피언십",
