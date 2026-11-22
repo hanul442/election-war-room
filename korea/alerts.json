@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-22T06:40:56.932198+00:00",
+"updated": "2026-11-22T06:43:09.766339+00:00",
 "errors": [],
 "events": [
 {
@@ -3651,12 +3651,12 @@
 },
 "지하철": {
 "n30": 5,
-"base": 1.7,
+"base": 1.8,
 "spike": false
 },
 "사고": {
 "n30": 6,
-"base": 3.0,
+"base": 3.3,
 "spike": false
 },
 "실종": {
@@ -3961,11 +3961,11 @@
 "n30": 12,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-22T06:40:56.932198+00:00"
+"since": "2026-11-22T06:43:09.766339+00:00"
 }
 ],
 "baseline": {
-"지진": 0.13,
+"지진": 0.12,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
@@ -3974,8 +3974,8 @@
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 1.84,
-"사고": 3.26,
+"지하철": 1.96,
+"사고": 3.53,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -4187,6 +4187,42 @@
 },
 "trends": [
 {
+"term": "외교",
+"traffic": "500+",
+"time": "2026-11-22T05:40:00+00:00",
+"news": [
+{
+"title": "李 “돼지 눈엔 돼지만…해외 순방, 치아 흔들리고 코피 터지는 일”",
+"source": "동아일보",
+"link": "https://www.donga.com/news/Politics/article/all/20261122/135066467/1"
+},
+{
+"title": "아 대통령 “치아 흔들리고 코피 터지지만 임기 초 순방은 국정과제…돼지 눈엔 돼지만 보여”",
+"source": "경향신문",
+"link": "https://www.khan.co.kr/article/202611221525001"
+}
+],
+"new": true
+},
+{
+"term": "오픈ai",
+"traffic": "100+",
+"time": "2026-11-22T05:40:00+00:00",
+"news": [
+{
+"title": "\"오픈AI 기업문화 무너져\"…퇴사 직원, AI 폭주 경고",
+"source": "마켓인",
+"link": "https://marketin.edaily.co.kr/News/ReadE?newsId=01361206645648344"
+},
+{
+"title": "[월가 톡톡] 올트먼 \"인간이 AI의 '리트리버' 되는 미래 원치 않아\"",
+"source": "연합인포맥스",
+"link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4445783"
+}
+],
+"new": true
+},
+{
 "term": "uae vs nep",
 "traffic": "500+",
 "time": "2026-11-22T05:30:00+00:00",
@@ -4218,6 +4254,24 @@
 "title": "OFFICIAL GRID: Who starts where for the Las Vegas Grand Prix",
 "source": "Formula 1",
 "link": "https://www.formula1.com/en/latest/article/official-grid-who-starts-where-in-las-vegas-after-multiple-penalties.1PRdR9E7qYRjHoRh1NlDR4"
+}
+],
+"new": true
+},
+{
+"term": "대구fc",
+"traffic": "100+",
+"time": "2026-11-22T05:30:00+00:00",
+"news": [
+{
+"title": "김해FC, 리그 4위 대구 원정서 설기현 감독 부임 첫 승 도전",
+"source": "뉴스타운",
+"link": "https://www.newstown.co.kr/news/articleView.html?idxno=722619"
+},
+{
+"title": "김해FC, 설기현식 속도 축구로 대구FC 겨눈다",
+"source": "쿠키뉴스",
+"link": "https://www.kukinews.com/article/view/kuk202611190113"
 }
 ],
 "new": true
@@ -4308,49 +4362,6 @@
 "title": "남태평양 피지·통가, '슈퍼 엘니뇨' 가뭄에 비상사태 선언",
 "source": "연합뉴스",
 "link": "https://www.yna.co.kr/view/AKR20261119138200084"
-}
-],
-"new": true
-},
-{
-"term": "로또",
-"traffic": "20000+",
-"time": "2026-11-22T03:40:00+00:00",
-"news": [
-{
-"title": "제1251회 로또 1등 14명···당첨금 20억6884만원",
-"source": "경향신문",
-"link": "https://www.khan.co.kr/article/202611212105001"
-},
-{
-"title": "로또 1251회 당첨번호 '14·18·19·29·40·45'…보너스 '1'",
-"source": "마켓인",
-"link": "https://marketin.edaily.co.kr/News/ReadE?newsId=02154966645648016"
-}
-],
-"new": true
-},
-{
-"term": "최예나",
-"traffic": "500+",
-"time": "2026-11-22T03:40:00+00:00",
-"news": [],
-"new": true
-},
-{
-"term": "무시알라",
-"traffic": "100+",
-"time": "2026-11-22T03:40:00+00:00",
-"news": [
-{
-"title": "[오피셜] “바이에른 뮌헨은 선수를 보호하라”… 국제축구선수협회 성명 발표, 무시알라 향해 연봉 삭감 압박하는 구단 수뇌부 겨냥",
-"source": "베스트일레븐",
-"link": "https://www.besteleven.com/news/articleView.html?idxno=314233"
-},
-{
-"title": "로마노: 바이에른 뮌헨, 크리스마스 전후로 겨울 이적시장 전략 결정... 자말 무시알라 여전히 최선을 다하고 싶어 해",
-"source": "AllFootball",
-"link": "https://www.allfootballapp.com/ko/articles/6032901"
 }
 ],
 "new": true
