@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-22T01:42:25.520691+00:00",
+"updated": "2026-11-22T01:44:43.433779+00:00",
 "errors": [],
 "events": [
 {
@@ -70,10 +70,45 @@
 ]
 },
 {
+"id": "viewAKR202611201038000570136",
+"first": "2026-11-22T01:36:00+00:00",
+"last": "2026-11-22T01:36:00+00:00",
+"updated": "2026-11-22T01:44:43.433779+00:00",
+"headline": "화재 대피부터 응급처치까지…울산서 외국인 주민 안전 체험",
+"cat": "재난",
+"regions": [
+"울산"
+],
+"sources": [
+"연합뉴스"
+],
+"updates": [
+{
+"title": "화재 대피부터 응급처치까지…울산서 외국인 주민 안전 체험",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261120103800057",
+"time": "2026-11-22T01:36:00+00:00",
+"stage": "1보"
+}
+],
+"level": "ALERT",
+"latest": "화재 대피부터 응급처치까지…울산서 외국인 주민 안전 체험",
+"tok": [
+"대피부터",
+"안전",
+"외국인",
+"울산서",
+"응급처치까지",
+"주민",
+"체험",
+"화재"
+]
+},
+{
 "id": "2WUR3NFR3MkwwMkJTVUxEoc50131",
 "first": "2026-11-22T01:31:53+00:00",
 "last": "2026-11-22T01:31:53+00:00",
-"updated": "2026-11-22T01:42:25.520691+00:00",
+"updated": "2026-11-22T01:44:43.433779+00:00",
 "headline": "비트코인 시세 6만달러 회복, 한때 5만5000달러까지 밀려…리플 등 주요 코인 흐름은?",
 "cat": "기타",
 "regions": [],
@@ -87,6 +122,13 @@
 "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE56bXg1WU1QcDJkd0p0bVhZRUdJUFFvOVdFY3pzZnJQN1hGaWsydUJjMURDa19XXzY4Y1lsSFpUZ256R3VzYXFyaERYQm9rc1dXdDE0TjhVamF2WUR3NFR3MkwwMkJTVUxE?oc=5",
 "time": "2026-11-22T01:31:53+00:00",
 "stage": "얼럿"
+},
+{
+"title": "[속보] 비트코인 시세 6만달러 회복, 한때 5만5000달러까지 밀려…리플 등 주요 코인 흐름은?",
+"source": "CBC뉴스",
+"link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBjRzRPVlZvWFZ5a29PaGNTZTFUOTlCbFdxSGlPeVlfN2lERzdNaWtkQ3NJWnMwUWxWMVN3R19oeG9NdUI2dHk5OEJ1QTZqNWt3YVdlbWpmWDA2ZTZRMDJRc2tIdDFYZDQ?oc=5",
+"time": "2026-11-22T01:31:53+00:00",
+"stage": "속보"
 }
 ],
 "level": "URGENT",
@@ -2033,12 +2075,12 @@
 },
 "지하철": {
 "n30": 1,
-"base": 0.7,
+"base": 0.8,
 "spike": false
 },
 "사고": {
 "n30": 1,
-"base": 0.4,
+"base": 0.5,
 "spike": false
 },
 "실종": {
@@ -2275,14 +2317,14 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.38,
-"붕괴": 0.06,
+"폭발": 0.34,
+"붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.77,
-"사고": 0.46,
-"실종": 0.12,
+"지하철": 0.79,
+"사고": 0.51,
+"실종": 0.11,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -2475,6 +2517,24 @@
 },
 "trends": [
 {
+"term": "도경완",
+"traffic": "1000+",
+"time": "2026-11-22T00:40:00+00:00",
+"news": [
+{
+"title": "'한강뷰 120억' 도경완, 자차는 1억 후반대 외체자('도장TV')",
+"source": "조선일보",
+"link": "https://www.chosun.com/entertainments/broadcast/2026/11/21/MQ2TIMZSGQ4GMMBTMNQTQM3DMI/"
+},
+{
+"title": "통장 ‘25만원’에 발목 잡힌 도경완…120억 집과 ‘가난 코스프레’의 무한소환",
+"source": "스포츠서울",
+"link": "https://www.sportsseoul.com/news/read/1651358"
+}
+],
+"new": true
+},
+{
 "term": "담보 대출",
 "traffic": "500+",
 "time": "2026-11-22T00:30:00+00:00",
@@ -2488,6 +2548,24 @@
 "title": "②빚 1200조 시대, 주담대 금리↑...차주도 은행도 ‘한숨’ [머니+]",
 "source": "에너지경제신문",
 "link": "https://m.ekn.kr/view.php?key=20261119024551856"
+}
+],
+"new": true
+},
+{
+"term": "김호영",
+"traffic": "200+",
+"time": "2026-11-22T00:30:00+00:00",
+"news": [
+{
+"title": "'카톡 친구 5000명' 김호영, 길에서 카드 주웠는데 \"아는 사람 거\" - 머니투데이",
+"source": "머니투데이",
+"link": "https://www.mt.co.kr/entertainment/2026/11/21/2026112119565318710"
+},
+{
+"title": "'지인 5천명' 김호영 소름..길에서 주운 신용카드까지 '호연지기' ('김호영')",
+"source": "Chosunbiz",
+"link": "https://biz.chosun.com/entertainment/enter_general/2026/11/20/HEYTGNLBMYYDAZJQHFQWGY3CGA/"
 }
 ],
 "new": true
@@ -2511,19 +2589,19 @@
 "new": true
 },
 {
-"term": "김호영",
-"traffic": "100+",
+"term": "나경원",
+"traffic": "200+",
 "time": "2026-11-22T00:30:00+00:00",
 "news": [
 {
-"title": "'카톡 친구 5000명' 김호영, 길에서 카드 주웠는데 \"아는 사람 거\" - 머니투데이",
-"source": "머니투데이",
-"link": "https://www.mt.co.kr/entertainment/2026/11/21/2026112119565318710"
+"title": "국힘 “코스피 3500조 증발…잔치는 정권이, 피눈물은 국민에 떠넘겨”",
+"source": "동아일보",
+"link": "https://www.donga.com/news/Politics/article/all/20261121/135064676/1"
 },
 {
-"title": "'지인 5천명' 김호영 소름..길에서 주운 신용카드까지 '호연지기' ('김호영')",
-"source": "Chosunbiz",
-"link": "https://biz.chosun.com/entertainment/enter_general/2026/11/20/HEYTGNLBMYYDAZJQHFQWGY3CGA/"
+"title": "정점식 \"블랙먼데이 긴급 대응해야…역대급 버블 붕괴\"",
+"source": "연합뉴스TV",
+"link": "https://www.yonhapnewstv.co.kr/news/AKR20261122100541j5E"
 }
 ],
 "new": true
@@ -2565,8 +2643,26 @@
 "new": true
 },
 {
+"term": "수험",
+"traffic": "2000+",
+"time": "2026-11-21T23:10:00+00:00",
+"news": [
+{
+"title": "AI 의혹 리트 만점자 5줄 유서서 “죽어도 가서 죽으려 했는데…”",
+"source": "문화일보",
+"link": "https://www.munhwa.com/article/11633008"
+},
+{
+"title": "'리트 만점' 이진우 수사 계속...진실규명 쟁점은?",
+"source": "YTN",
+"link": "https://www.ytn.co.kr/_cs/_ln_0103_202611220954387265_005.html"
+}
+],
+"new": true
+},
+{
 "term": "인공지능",
-"traffic": "500+",
+"traffic": "1000+",
 "time": "2026-11-21T23:10:00+00:00",
 "news": [
 {
@@ -2578,24 +2674,6 @@
 "title": "LGU+ 조직개편...AI 조직 재편으로 성과 속도전",
 "source": "지디넷코리아",
 "link": "https://zdnet.co.kr/view/?no=20261122085359"
-}
-],
-"new": true
-},
-{
-"term": "군인",
-"traffic": "200+",
-"time": "2026-11-21T23:10:00+00:00",
-"news": [
-{
-"title": "'삐삐삐' AI가 30초 만에 껐다…'재난문자' 감독도 빈틈?",
-"source": "SBS 뉴스",
-"link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008857095"
-},
-{
-"title": "부정행위 막으려 세 차례 울린 경보음...시민 반응은? [자막뉴스]",
-"source": "YTN",
-"link": "https://www.ytn.co.kr/_ln/0134_202611201616010571"
 }
 ],
 "new": true
@@ -2617,42 +2695,6 @@
 }
 ],
 "new": false
-},
-{
-"term": "수험",
-"traffic": "2000+",
-"time": "2026-11-21T23:10:00+00:00",
-"news": [
-{
-"title": "AI 의혹 리트 만점자 5줄 유서서 “죽어도 가서 죽으려 했는데…”",
-"source": "문화일보",
-"link": "https://www.munhwa.com/article/11633008"
-},
-{
-"title": "'리트 만점' 이진우 수사 계속...진실규명 쟁점은?",
-"source": "YTN",
-"link": "https://www.ytn.co.kr/_cs/_ln_0103_202611220954387265_005.html"
-}
-],
-"new": true
-},
-{
-"term": "알테오젠",
-"traffic": "1000+",
-"time": "2026-11-21T23:10:00+00:00",
-"news": [
-{
-"title": "알테오젠 파트너 MSD, 할로자임 美 특허심판 14건 모두 승리",
-"source": "팜이데일리",
-"link": "https://pharm.edaily.co.kr/news/read?newsId=02371446645647360"
-},
-{
-"title": "알테오젠 기술 적용 항암제, 獨서 판매금지 가처분 풀려…할로자임 본안소송 예고",
-"source": "Chosunbiz",
-"link": "https://biz.chosun.com/science-chosun/bio/2026/11/20/TP4CLPMHPZEPFJOH7G6LJ2KJWU/"
-}
-],
-"new": true
 }
 ],
 "trendSeen": [
