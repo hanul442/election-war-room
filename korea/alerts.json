@@ -1,12 +1,12 @@
 {
-"updated": "2026-11-22T16:31:03.007452+00:00",
+"updated": "2026-11-22T16:33:20.275666+00:00",
 "errors": [],
 "events": [
 {
 "id": "viewAKR202611220504001091153",
 "first": "2026-11-22T11:53:42+00:00",
-"last": "2026-11-22T16:08:10+00:00",
-"updated": "2026-11-22T16:10:50.131561+00:00",
+"last": "2026-11-22T16:26:14+00:00",
+"updated": "2026-11-22T16:33:20.275666+00:00",
 "headline": "유엔기후총회, 화석연료 이견에 결렬…합의문 채택 불발",
 "cat": "국제",
 "regions": [],
@@ -51,15 +51,24 @@
 "link": "https://www.newsis.com/view/NISX20261123_0003878383",
 "time": "2026-11-22T16:08:10+00:00",
 "stage": "종합"
+},
+{
+"title": "유엔기후총회 17년만에 합의 실패…화석연료 놓고 극한대립(종합)",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261122050452109",
+"time": "2026-11-22T16:26:14+00:00",
+"stage": "종합"
 }
 ],
 "level": "URGENT",
-"latest": "유엔 기후총회, 화석연료 전환 이견…17년 만에 합의문 채택 실패",
+"latest": "유엔기후총회 17년만에 합의 실패…화석연료 놓고 극한대립",
 "tok": [
 "17년",
+"17년만",
 "31차",
 "갈라진",
 "결렬",
+"극한대립",
 "기후총회",
 "놓고",
 "만에",
@@ -72,6 +81,7 @@
 "전환",
 "채택",
 "퇴출",
+"합의",
 "합의문",
 "화석연료"
 ]
@@ -2742,7 +2752,7 @@
 },
 "폭발": {
 "n30": 5,
-"base": 0.8,
+"base": 0.9,
 "spike": true
 },
 "붕괴": {
@@ -3064,16 +3074,16 @@
 {
 "term": "폭발",
 "n30": 5,
-"base": 0.8,
+"base": 0.9,
 "spike": true,
-"since": "2026-11-22T16:31:03.007452+00:00"
+"since": "2026-11-22T16:33:20.275666+00:00"
 },
 {
 "term": "붕괴",
 "n30": 16,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-22T16:31:03.007452+00:00"
+"since": "2026-11-22T16:33:20.275666+00:00"
 }
 ],
 "baseline": {
@@ -3081,14 +3091,14 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.89,
+"폭발": 1.0,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
 "지하철": 0.05,
 "사고": 1.96,
-"실종": 0.71,
+"실종": 0.74,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -3308,6 +3318,42 @@
 },
 "trends": [
 {
+"term": "리버풀 대 맨유",
+"traffic": "5000+",
+"time": "2026-11-22T15:30:00+00:00",
+"news": [
+{
+"title": "“새 감독 선임한 맨유가 어떤 축구를 할지 모르겠다”… 노스웨스트 더비 앞두고 경계심 드러낸 리버풀 감독, “경기 초반이 중요”",
+"source": "베스트일레븐",
+"link": "https://www.besteleven.com/news/articleView.html?idxno=314241"
+},
+{
+"title": "리버풀은 안필드에서 맨체스터 유나이티드를 상대로 전력을 회복해야 합니다.",
+"source": "Vietnam.vn",
+"link": "https://www.vietnam.vn/ko/liverpool-can-lay-lai-suc-manh-tai-anfield-truoc-man-united"
+}
+],
+"new": true
+},
+{
+"term": "fc barcelona vs villarreal cf standings",
+"traffic": "500+",
+"time": "2026-11-22T15:30:00+00:00",
+"news": [
+{
+"title": "Barcelona vs Villarreal Confirmed Lineups",
+"source": "WhoScored.com",
+"link": "https://www.whoscored.com/news/UYwB3kUYiU2gZN87H5q8SA/show/cng112-20261122-barcelona-vs-villarreal-confirmed-lineup-1795348094"
+},
+{
+"title": "Licensable picture: Soccer 2026: LaLiga: FC Barcelona - Villarreal CF",
+"source": "Reuters Connect",
+"link": "https://www.reutersconnect.com/item/soccer-2026-laliga-fc-barcelona-villarreal-cf/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX01UMVpVTUEwMDBPWlVWNUQ"
+}
+],
+"new": true
+},
+{
 "term": "u17 월드컵",
 "traffic": "100+",
 "time": "2026-11-22T15:20:00+00:00",
@@ -3321,24 +3367,6 @@
 "title": "2026 U17 월드컵 U17 베트남 대 U17 뉴질랜드 축구 경기 일정",
 "source": "Laodong.vn",
 "link": "https://ko.laodong.vn/lich-thi-dau/lich-thi-dau-bong-da-u17-viet-nam-vs-u17-new-zealand-tai-giai-u17-world-cup-2026-1804795.ldo"
-}
-],
-"new": true
-},
-{
-"term": "la liga",
-"traffic": "500+",
-"time": "2026-11-22T14:50:00+00:00",
-"news": [
-{
-"title": "Barcelona vs Villarreal Confirmed Lineups",
-"source": "WhoScored.com",
-"link": "https://www.whoscored.com/news/UYwB3kUYiU2gZN87H5q8SA/show/cng112-20261122-barcelona-vs-villarreal-confirmed-lineup-1795348094"
-},
-{
-"title": "Licensable picture: Soccer 2026: LaLiga: FC Barcelona - Villarreal CF",
-"source": "Reuters Connect",
-"link": "https://www.reutersconnect.com/item/soccer-2026-laliga-fc-barcelona-villarreal-cf/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX01UMVpVTUEwMDBPWlVWNUQ"
 }
 ],
 "new": true
@@ -3393,24 +3421,6 @@
 "title": "Augsburg vs Mainz: Lineups, Prediction, Odds & Bet Builder Tip",
 "source": "WhoScored.com",
 "link": "https://www.whoscored.com/articles/76EV5VgUbEabgIS_hOmiqA/show/cng111-20261122-augsburg-vs-mainz-prediction-1795329263"
-}
-],
-"new": true
-},
-{
-"term": "맨유 리버풀",
-"traffic": "500+",
-"time": "2026-11-22T13:50:00+00:00",
-"news": [
-{
-"title": "“새 감독 선임한 맨유가 어떤 축구를 할지 모르겠다”… 노스웨스트 더비 앞두고 경계심 드러낸 리버풀 감독, “경기 초반이 중요”",
-"source": "베스트일레븐",
-"link": "https://www.besteleven.com/news/articleView.html?idxno=314241"
-},
-{
-"title": "리버풀은 안필드에서 맨체스터 유나이티드를 상대로 전력을 회복해야 합니다.",
-"source": "Vietnam.vn",
-"link": "https://www.vietnam.vn/ko/liverpool-can-lay-lai-suc-manh-tai-anfield-truoc-man-united"
 }
 ],
 "new": true
