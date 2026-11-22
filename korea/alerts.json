@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-22T07:27:53.147613+00:00",
+"updated": "2026-11-22T07:30:05.923658+00:00",
 "errors": [],
 "events": [
 {
@@ -3724,62 +3724,6 @@
 "회복",
 "흐름"
 ]
-},
-{
-"id": "viewAKR202611220147000510042",
-"first": "2026-11-22T00:42:11+00:00",
-"last": "2026-11-22T01:27:56+00:00",
-"updated": "2026-11-22T01:33:11.421753+00:00",
-"headline": "부산 기장군 농장서 화재…1천800만원 재산 피해",
-"cat": "재난",
-"regions": [
-"부산",
-"전북"
-],
-"sources": [
-"SBS",
-"연합뉴스"
-],
-"updates": [
-{
-"title": "부산 기장군 농장서 화재…1천800만원 재산 피해",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261122014700051",
-"time": "2026-11-22T00:42:11+00:00",
-"stage": "1보"
-},
-{
-"title": "부산 기장군 농장서 불…2시간 만에 꺼져",
-"source": "SBS",
-"link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008857479&plink=RSSLINK&cooper=RSSREADER",
-"time": "2026-11-22T01:05:47+00:00",
-"stage": "후속"
-},
-{
-"title": "진안 축사 화재로 4천만원 재산 피해",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261122017200055",
-"time": "2026-11-22T01:27:56+00:00",
-"stage": "후속"
-}
-],
-"level": "ALERT",
-"latest": "진안 축사 화재로 4천만원 재산 피해",
-"tok": [
-"1천800만원",
-"2시간",
-"4천만원",
-"기장군",
-"꺼져",
-"농장서",
-"만에",
-"부산",
-"재산",
-"진안",
-"축사",
-"피해",
-"화재"
-]
 }
 ],
 "sns": {
@@ -3800,18 +3744,18 @@
 "spike": false
 },
 "정전": {
-"n30": 2,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
 "폭발": {
 "n30": 5,
-"base": 0.6,
+"base": 0.5,
 "spike": true
 },
 "붕괴": {
 "n30": 2,
-"base": 0.6,
+"base": 0.5,
 "spike": false
 },
 "대피": {
@@ -3825,7 +3769,7 @@
 "spike": false
 },
 "속보": {
-"n30": 7,
+"n30": 6,
 "base": 0.1,
 "spike": true
 },
@@ -3835,8 +3779,8 @@
 "spike": false
 },
 "사고": {
-"n30": 4,
-"base": 3.1,
+"n30": 3,
+"base": 3.2,
 "spike": false
 },
 "실종": {
@@ -3871,7 +3815,7 @@
 "handle": "greens.bsky.social",
 "name": "그린의 블루스카이",
 "time": "2026-11-22T07:27:27.843Z",
-"likes": 1,
+"likes": 2,
 "reposts": 1,
 "url": "https://bsky.app/profile/greens.bsky.social/post/3n2v3ofdasc22",
 "term": "사고"
@@ -4084,32 +4028,22 @@
 "time": "2026-11-22T07:00:00Z",
 "term": "정전",
 "url": "https://www.youtube.com/watch?v=j4pV5XGQ0TE"
-},
-{
-"text": "운전하는데~~사고날뻔했습니다~😍\n\n차~세우고 밖으로 뛰처나가서 ㅈㅇ~🥰\n\n하고싶어질정도로 ~~~~섹시하십니다~^^",
-"handle": "happytime8282.bsky.social",
-"name": "💋나라는브랜드💋",
-"time": "2026-11-22T06:58:13.046Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/happytime8282.bsky.social/post/3n2v224njkk2o",
-"term": "사고"
 }
 ],
 "spikes": [
 {
 "term": "폭발",
 "n30": 5,
-"base": 0.6,
+"base": 0.5,
 "spike": true,
-"since": "2026-11-22T07:27:53.147613+00:00"
+"since": "2026-11-22T07:30:05.923658+00:00"
 },
 {
 "term": "속보",
-"n30": 7,
+"n30": 6,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-22T07:27:53.147613+00:00"
+"since": "2026-11-22T07:30:05.923658+00:00"
 }
 ],
 "baseline": {
@@ -4117,15 +4051,15 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.5,
-"붕괴": 0.5,
+"폭발": 0.45,
+"붕괴": 0.45,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.45,
-"사고": 3.21,
+"지하철": 0.41,
+"사고": 3.19,
 "실종": 0.05,
-"단수": 0.45,
+"단수": 0.41,
 "통신 장애": 0.05,
 "먹통": 0.05,
 "산불": 0.05
@@ -4470,24 +4404,6 @@
 "new": true
 },
 {
-"term": "f1",
-"traffic": "500+",
-"time": "2026-11-22T05:30:00+00:00",
-"news": [
-{
-"title": "Verstappen wins exhilarating Las Vegas Grand Prix from Norris and Piastri",
-"source": "Formula 1",
-"link": "https://www.formula1.com/en/latest/article/verstappen-wins-exhilarating-las-vegas-grand-prix-from-norris-and-piastri.2eeBWqekZdir9mdDVK9YVX"
-},
-{
-"title": "F1 LIVE: Las Vegas Grand Prix 2026 reaction & result as Verstappen wins again",
-"source": "BBC",
-"link": "https://www.bbc.com/sport/formula1/live/c62ke5vgxxnt"
-}
-],
-"new": true
-},
-{
 "term": "대구fc",
 "traffic": "200+",
 "time": "2026-11-22T05:30:00+00:00",
@@ -4501,6 +4417,24 @@
 "title": "‘승리 버튼 딸깍’ 대구, 일단 ‘3위’ 등극...K리그1 승격 싸움 끝까지 간다[대구에서]",
 "source": "스포츠한국",
 "link": "https://sports.hankooki.com/news/articleView.html?idxno=6944002"
+}
+],
+"new": true
+},
+{
+"term": "f1",
+"traffic": "500+",
+"time": "2026-11-22T05:30:00+00:00",
+"news": [
+{
+"title": "Verstappen wins exhilarating Las Vegas Grand Prix from Norris and Piastri",
+"source": "Formula 1",
+"link": "https://www.formula1.com/en/latest/article/verstappen-wins-exhilarating-las-vegas-grand-prix-from-norris-and-piastri.2eeBWqekZdir9mdDVK9YVX"
+},
+{
+"title": "F1 LIVE: Las Vegas Grand Prix 2026 reaction & result as Verstappen wins again",
+"source": "BBC",
+"link": "https://www.bbc.com/sport/formula1/live/c62ke5vgxxnt"
 }
 ],
 "new": true
