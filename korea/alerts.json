@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-22T06:56:31.135671+00:00",
+"updated": "2026-11-22T06:58:45.615429+00:00",
 "errors": [],
 "events": [
 {
@@ -40,7 +40,7 @@
 "id": "Fc2JzeDM4QkNrN0FHRm9Coc50619",
 "first": "2026-11-22T06:19:40+00:00",
 "last": "2026-11-22T06:19:40+00:00",
-"updated": "2026-11-22T06:29:48.111651+00:00",
+"updated": "2026-11-22T06:58:45.615429+00:00",
 "headline": "민주 “조희대 대법원, 공화국 질서 무너뜨려… 탄핵은 역사적 책무”",
 "cat": "정치",
 "regions": [],
@@ -54,6 +54,13 @@
 "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9Ed0xVVU0yVEtURHFyb3NNU0FIM3M3OXppVHBQbUEtc0hkRGlseGVkN3Roand1dU1DX1UzUHBXZnZZRzdhVm43QlpxWTFRWGVvZlV3RG8xTFpfZ3BiZFBIYXlYbzk2SlNVMGQw0gFUQVVfeXFMTmdrT04yQXQ4aEVUbi0xTXk0TDFGSkl3UWdJZTgzX3ZVaWpTTk1KaS1Yb0ZhZk1VWGpYbUJURkd6dXhDdExFc2JzeDM4QkNrN0FHRm9C?oc=5",
 "time": "2026-11-22T06:19:40+00:00",
 "stage": "얼럿"
+},
+{
+"title": "[속보] 민주 “조희대 대법원, 공화국 질서 무너뜨려… 탄핵은 역사적 책무”",
+"source": "세계일보",
+"link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBJUVNPQzJULVBOQ1NRcTlGbHFtRVpBb0dmYXFLaE5obTQtSzFRazBfLW9JbkYwd3ZHa3dCYTNYYWRxLUpnMU1fSDVmTWVxNm5wYUFaTmFOUTfSAVRBVV95cUxOZ2tPTjJBdDhoRVRuLTFNeTRMMUZKSXdRZ0llODNfdlVpalNOTUppLVhvRmFmTVVYalhtQlRGR3p1eEN0TEVzYnN4MzhCQ2s3QUdGb0I?oc=5",
+"time": "2026-11-22T06:19:40+00:00",
+"stage": "속보"
 }
 ],
 "level": "BULLETIN",
@@ -3651,12 +3658,12 @@
 },
 "폭발": {
 "n30": 1,
-"base": 0.2,
+"base": 0.3,
 "spike": false
 },
 "붕괴": {
 "n30": 1,
-"base": 0.2,
+"base": 0.3,
 "spike": false
 },
 "대피": {
@@ -3670,17 +3677,17 @@
 "spike": false
 },
 "속보": {
-"n30": 4,
+"n30": 3,
 "base": 0.1,
 "spike": false
 },
 "지하철": {
-"n30": 2,
-"base": 1.8,
+"n30": 1,
+"base": 1.7,
 "spike": false
 },
 "사고": {
-"n30": 5,
+"n30": 6,
 "base": 4.4,
 "spike": false
 },
@@ -3691,7 +3698,7 @@
 },
 "단수": {
 "n30": 1,
-"base": 0.3,
+"base": 0.4,
 "spike": false
 },
 "통신 장애": {
@@ -3711,6 +3718,16 @@
 }
 },
 "posts": [
+{
+"text": "운전하는데~~사고날뻔했습니다~😍\n\n차~세우고 밖으로 뛰처나가서 ㅈㅇ~🥰\n\n하고싶어질정도로 ~~~~섹시하십니다~^^",
+"handle": "happytime8282.bsky.social",
+"name": "💋나라는브랜드💋",
+"time": "2026-11-22T06:58:13.046Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/happytime8282.bsky.social/post/3n2v224njkk2o",
+"term": "사고"
+},
 {
 "text": "아닛ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ\n흐악 돌이켜보니 그렇네요 ㅌㅋㅋㅋ\n그래도 연초연중 그림방황이 있었으니 연말에 폭발적으로 터질 수 있었던 거였겠죠..!?",
 "handle": "psudots.bsky.social",
@@ -3769,16 +3786,6 @@
 "likes": 0,
 "reposts": 0,
 "url": "https://bsky.app/profile/nonzerokcal.bsky.social/post/3n2uyx6lh4k2q",
-"term": "사고"
-},
-{
-"text": "내 이름에도 있고 엄지 양 이름에도 있는 이응을 사고 싶다",
-"handle": "mowoch.bsky.social",
-"name": "몿",
-"time": "2026-11-22T06:38:21.848Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/mowoch.bsky.social/post/3n2uywndh2k2w",
 "term": "사고"
 },
 {
@@ -3992,19 +3999,19 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 0.06,
+"지진": 0.05,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.32,
-"붕괴": 0.32,
+"폭발": 0.39,
+"붕괴": 0.39,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 1.69,
-"사고": 4.44,
+"지하철": 1.62,
+"사고": 4.6,
 "실종": 0.05,
-"단수": 0.39,
+"단수": 0.45,
 "통신 장애": 0.05,
 "먹통": 0.05,
 "산불": 0.05
