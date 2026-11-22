@@ -1,12 +1,12 @@
 {
-"updated": "2026-11-22T07:54:44.094253+00:00",
+"updated": "2026-11-22T07:56:57.226559+00:00",
 "errors": [],
 "events": [
 {
 "id": "WFlUWNRRHdOaUxkYk8xSAoc50750",
 "first": "2026-11-22T07:50:10+00:00",
 "last": "2026-11-22T07:50:10+00:00",
-"updated": "2026-11-22T07:54:44.094253+00:00",
+"updated": "2026-11-22T07:56:57.226559+00:00",
 "headline": "태안 해저서 발견된 어선, 실종 '해광호'로 최종 확인",
 "cat": "기타",
 "regions": [
@@ -22,6 +22,13 @@
 "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE42OFo3TnBnLUcwaEFRYUxQWl9NdFhEdjNJNk15YnNmbGI5UlRkVTlhNkkzSjRoXzlCQzVCX1oyMXZIWDFNenBBak8yeGtrUFhHcWFlUWNRRHdOaUxkYk8xSA?oc=5",
 "time": "2026-11-22T07:50:10+00:00",
 "stage": "얼럿"
+},
+{
+"title": "[속보]태안 해저서 발견된 어선, 실종 '해광호'로 최종 확인",
+"source": "KBC광주방송",
+"link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1mT0xrRmVXejdfNlAwWjUzR3RJb0w2MWlhQW0wSC1TQm1UQnp4a281Q3g0OVJoQk5sNy1GdzloelpwNXI4UEI3dWd3WEpJLTctYTlXUTd4a1NwZVJaY2dTTll3?oc=5",
+"time": "2026-11-22T07:50:10+00:00",
+"stage": "속보"
 }
 ],
 "level": "URGENT",
@@ -310,6 +317,40 @@
 "우려",
 "자산",
 "피같"
+]
+},
+{
+"id": "xoc0ZteVd0bTNSN2hZVXcoc50737",
+"first": "2026-11-22T07:37:41+00:00",
+"last": "2026-11-22T07:37:41+00:00",
+"updated": "2026-11-22T07:56:57.226559+00:00",
+"headline": "이용철 후보, ‘닭백숙집 포커’ 의혹에 “육식 전혀 못해”…“‘대장동’ 잘 모른다”",
+"cat": "기타",
+"regions": [],
+"sources": [
+"www.dt.co.kr"
+],
+"updates": [
+{
+"title": "[속보] 이용철 후보, ‘닭백숙집 포커’ 의혹에 “육식 전혀 못해”…“‘대장동’ 잘 모른다”",
+"source": "www.dt.co.kr",
+"link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1TcC1nbWhOTlZmRC1aN3gyRjY4YjJ1el8xUDFVUVFGc2pQVWYtTVZHWkk0NXJ3OWdvZzBBLTAzUFlWaVRaRmFxQjZkVExoc0ZteVd0bTNSN2hZVXc?oc=5",
+"time": "2026-11-22T07:37:41+00:00",
+"stage": "얼럿"
+}
+],
+"level": "URGENT",
+"latest": "이용철 후보, ‘닭백숙집 포커’ 의혹에 “육식 전혀 못해”…“‘대장동’ 잘 모른다”",
+"tok": [
+"닭백숙집",
+"대장동",
+"모른다",
+"못해",
+"육식",
+"이용철",
+"전혀",
+"포커",
+"후보"
 ]
 },
 {
@@ -3786,13 +3827,13 @@
 "spike": false
 },
 "폭발": {
-"n30": 5,
-"base": 0.6,
-"spike": true
+"n30": 4,
+"base": 0.7,
+"spike": false
 },
 "붕괴": {
-"n30": 1,
-"base": 0.2,
+"n30": 0,
+"base": 0.1,
 "spike": false
 },
 "대피": {
@@ -3811,12 +3852,12 @@
 "spike": false
 },
 "지하철": {
-"n30": 4,
+"n30": 3,
 "base": 0.1,
 "spike": false
 },
 "사고": {
-"n30": 4,
+"n30": 3,
 "base": 3.9,
 "spike": false
 },
@@ -3996,16 +4037,6 @@
 "url": "https://www.youtube.com/watch?v=TEYRKYOUWpc"
 },
 {
-"text": "사고가 많구려",
-"handle": "48694869.bsky.social",
-"name": "S2",
-"time": "2026-11-22T07:26:40.946Z",
-"likes": 1,
-"reposts": 0,
-"url": "https://bsky.app/profile/48694869.bsky.social/post/3n2v3mzufxk2d",
-"term": "사고"
-},
-{
 "platform": "YouTube",
 "text": "서울 지하철 파업 25일 멈추나? 24일 마지막 교섭 | 출근길 비상 #지하철파업 #Shorts",
 "handle": "UCpntnZDPn0ZGD-yPRq_i30Q",
@@ -4078,29 +4109,21 @@
 "url": "https://www.youtube.com/watch?v=t6CRUHgVpsA"
 }
 ],
-"spikes": [
-{
-"term": "폭발",
-"n30": 5,
-"base": 0.6,
-"spike": true,
-"since": "2026-11-22T07:54:44.094253+00:00"
-}
-],
+"spikes": [],
 "baseline": {
 "지진": 0.05,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.67,
-"붕괴": 0.14,
+"폭발": 0.7,
+"붕괴": 0.13,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.13,
-"사고": 3.93,
+"지하철": 0.12,
+"사고": 3.84,
 "실종": 0.05,
-"단수": 0.13,
+"단수": 0.12,
 "통신 장애": 0.05,
 "먹통": 0.05,
 "산불": 0.05
