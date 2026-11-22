@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-22T06:54:18.064357+00:00",
+"updated": "2026-11-22T06:56:31.135671+00:00",
 "errors": [],
 "events": [
 {
@@ -3651,12 +3651,12 @@
 },
 "폭발": {
 "n30": 1,
-"base": 0.1,
+"base": 0.2,
 "spike": false
 },
 "붕괴": {
 "n30": 1,
-"base": 0.1,
+"base": 0.2,
 "spike": false
 },
 "대피": {
@@ -3670,18 +3670,18 @@
 "spike": false
 },
 "속보": {
-"n30": 8,
+"n30": 4,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "지하철": {
 "n30": 2,
-"base": 1.9,
+"base": 1.8,
 "spike": false
 },
 "사고": {
 "n30": 5,
-"base": 4.3,
+"base": 4.4,
 "spike": false
 },
 "실종": {
@@ -3691,7 +3691,7 @@
 },
 "단수": {
 "n30": 1,
-"base": 0.2,
+"base": 0.3,
 "spike": false
 },
 "통신 장애": {
@@ -3990,29 +3990,21 @@
 "url": "https://www.youtube.com/watch?v=EjvlJZhvQk0"
 }
 ],
-"spikes": [
-{
-"term": "속보",
-"n30": 8,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-22T06:54:18.064357+00:00"
-}
-],
+"spikes": [],
 "baseline": {
-"지진": 0.07,
+"지진": 0.06,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.24,
-"붕괴": 0.24,
+"폭발": 0.32,
+"붕괴": 0.32,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 1.77,
-"사고": 4.38,
+"지하철": 1.69,
+"사고": 4.44,
 "실종": 0.05,
-"단수": 0.32,
+"단수": 0.39,
 "통신 장애": 0.05,
 "먹통": 0.05,
 "산불": 0.05
@@ -4250,9 +4242,9 @@
 "link": "https://www.donga.com/news/Politics/article/all/20261122/135066467/1"
 },
 {
-"title": "아 대통령 “치아 흔들리고 코피 터지지만 임기 초 순방은 국정과제…돼지 눈엔 돼지만 보여”",
-"source": "경향신문",
-"link": "https://www.khan.co.kr/article/202611221525001"
+"title": "‘순방 잦다’ 야당 비판에…청와대 \"해외 정상들의 숨가쁜 외교 보라\"",
+"source": "JTBC",
+"link": "https://news.jtbc.co.kr/article/NB12329232"
 }
 ],
 "new": true
@@ -4304,9 +4296,9 @@
 "link": "https://www.bbc.com/sport/formula1/live/c62ke5vgxxnt"
 },
 {
-"title": "Max Verstappen holds nerve in Sin City as Mercedes fades",
-"source": "https://novanews.co.za/",
-"link": "https://novanews.co.za/max-verstappen-wins-las-vegas-grand-prix-75th-career-victory/"
+"title": "Verstappen wins exhilarating Las Vegas Grand Prix from Norris and Piastri",
+"source": "Formula 1",
+"link": "https://www.formula1.com/en/latest/article/verstappen-wins-exhilarating-las-vegas-grand-prix-from-norris-and-piastri.2eeBWqekZdir9mdDVK9YVX"
 }
 ],
 "new": true
