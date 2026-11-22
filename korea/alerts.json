@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-22T14:40:58.497952+00:00",
+"updated": "2026-11-22T14:43:11.133369+00:00",
 "errors": [],
 "events": [
 {
@@ -2932,7 +2932,7 @@
 "terms": {
 "지진": {
 "n30": 0,
-"base": 0.5,
+"base": 0.4,
 "spike": false
 },
 "화재": {
@@ -2951,8 +2951,8 @@
 "spike": false
 },
 "폭발": {
-"n30": 4,
-"base": 0.6,
+"n30": 3,
+"base": 0.5,
 "spike": false
 },
 "붕괴": {
@@ -2971,13 +2971,13 @@
 "spike": false
 },
 "속보": {
-"n30": 6,
+"n30": 5,
 "base": 0.1,
 "spike": true
 },
 "지하철": {
 "n30": 1,
-"base": 0.4,
+"base": 0.5,
 "spike": false
 },
 "사고": {
@@ -2987,7 +2987,7 @@
 },
 "실종": {
 "n30": 0,
-"base": 0.6,
+"base": 0.5,
 "spike": false
 },
 "단수": {
@@ -3216,25 +3216,25 @@
 "spikes": [
 {
 "term": "속보",
-"n30": 6,
+"n30": 5,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-22T14:40:58.497952+00:00"
+"since": "2026-11-22T14:43:11.133369+00:00"
 }
 ],
 "baseline": {
-"지진": 0.43,
+"지진": 0.39,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.52,
-"붕괴": 0.27,
+"폭발": 0.47,
+"붕괴": 0.24,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.1,
-"지하철": 0.45,
-"사고": 2.76,
-"실종": 0.53,
+"속보": 0.09,
+"지하철": 0.51,
+"사고": 2.68,
+"실종": 0.48,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -3427,6 +3427,24 @@
 },
 "trends": [
 {
+"term": "총파업",
+"traffic": "200+",
+"time": "2026-11-22T13:40:00+00:00",
+"news": [
+{
+"title": "[속보] 철도노조 \"안전운행 투쟁 26일로 연기…사고 복구가 먼저\"",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261122044400063"
+},
+{
+"title": "철도노조, 26일부터 준법투쟁...지하철 노사는 최종교섭",
+"source": "YTN",
+"link": "https://www.ytn.co.kr/_ln/0115_202611222301041147"
+}
+],
+"new": true
+},
+{
 "term": "지드래곤",
 "traffic": "1000+",
 "time": "2026-11-22T13:30:00+00:00",
@@ -3498,9 +3516,9 @@
 "link": "https://www.cricinfo.com/story/ind-vs-pak-asia-cup-rising-stars-pakistan-a-opt-to-bat-against-india-a-both-sides-unchanged-1563603"
 },
 {
-"title": "IND vs PAK Asia Cup Rising Stars toss 'cheating' controversy: Abdul Samad questions match referee's call as Tilak Varma watches",
-"source": "Yahoo Sports",
-"link": "https://sports.yahoo.com/articles/ind-vs-pak-asia-cup-103413698.html"
+"title": "Live Cricket Score, Schedule, Latest News, Stats & Videos",
+"source": "Cricbuzz",
+"link": "https://m.cricbuzz.com/player-match-performance/match/177178/player/24729/bowling?inningsId=1"
 }
 ],
 "new": true
@@ -3562,24 +3580,6 @@
 "title": "明天的天氣/2波冷空氣來了！全台降溫變天「這3天最濕冷」低溫下探15度， 一周氣象一次看",
 "source": "風傳媒",
 "link": "https://www.storm.mg/lifestyle/11183974"
-}
-],
-"new": true
-},
-{
-"term": "바르셀로나 대 비야레알",
-"traffic": "10000+",
-"time": "2026-11-22T12:10:00+00:00",
-"news": [
-{
-"title": "라리가 바르셀로나 대 비야레알 축구 예측",
-"source": "Laodong.vn",
-"link": "https://ko.laodong.vn/bong-da-quoc-te/nhan-dinh-bong-da-barcelona-vs-villarreal-tai-la-liga-1804488.ldo"
-},
-{
-"title": "축구 생중계: 바르셀로나 vs 비야레알: 공격적인 경기가 예상됩니다.",
-"source": "Vietnam.vn",
-"link": "https://www.vietnam.vn/ko/truc-tiep-bong-da-barca-vs-villarreal-cho-tiec-tan-cong"
 }
 ],
 "new": true
