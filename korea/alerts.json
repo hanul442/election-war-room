@@ -1,21 +1,63 @@
 {
-"updated": "2026-11-22T00:00:50.861811+00:00",
+"updated": "2026-11-22T00:03:07.688688+00:00",
 "errors": [],
 "events": [
+{
+"id": "viewAKR202611210398000640000",
+"first": "2026-11-22T00:00:04+00:00",
+"last": "2026-11-22T00:00:04+00:00",
+"updated": "2026-11-22T00:03:07.688688+00:00",
+"headline": "청주시, 공장·창고 3천677동 화재안전 실태조사…내년까지",
+"cat": "재난",
+"regions": [
+"충북"
+],
+"sources": [
+"연합뉴스"
+],
+"updates": [
+{
+"title": "청주시, 공장·창고 3천677동 화재안전 실태조사…내년까지",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261121039800064",
+"time": "2026-11-22T00:00:04+00:00",
+"stage": "1보"
+}
+],
+"level": "ALERT",
+"latest": "청주시, 공장·창고 3천677동 화재안전 실태조사…내년까지",
+"tok": [
+"3천677동",
+"공장",
+"내년까지",
+"실태조사",
+"창고",
+"청주시",
+"화재안전"
+]
+},
 {
 "id": "wNISX20261122_00038779212359",
 "first": "2026-11-21T23:59:14+00:00",
 "last": "2026-11-21T23:59:14+00:00",
-"updated": "2026-11-22T00:00:50.861811+00:00",
+"updated": "2026-11-22T00:03:07.688688+00:00",
 "headline": "가스 누출 시도·흉기 협박 50대 집행유예",
 "cat": "재난",
 "regions": [
 "경남"
 ],
 "sources": [
+"SBS",
 "뉴시스"
 ],
 "updates": [
+{
+"title": "아내·주민들 노리고 \"가스 방출 시도\"…50대 집행유예",
+"source": "SBS",
+"link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008857384&plink=RSSLINK&cooper=RSSREADER",
+"time": "2026-11-21T23:32:55+00:00",
+"stage": "후속"
+},
 {
 "title": "가스 누출 시도·흉기 협박 50대 집행유예",
 "source": "뉴시스",
@@ -29,8 +71,12 @@
 "tok": [
 "50대",
 "가스",
+"노리고",
 "누출",
+"방출",
 "시도",
+"아내",
+"주민들",
 "집행유예",
 "협박",
 "흉기"
@@ -1274,7 +1320,7 @@
 "spike": false
 },
 "폭발": {
-"n30": 3,
+"n30": 2,
 "base": 1.2,
 "spike": false
 },
@@ -1299,13 +1345,13 @@
 "spike": false
 },
 "지하철": {
-"n30": 0,
+"n30": 1,
 "base": 0.6,
 "spike": false
 },
 "사고": {
-"n30": 0,
-"base": 1.2,
+"n30": 1,
+"base": 1.1,
 "spike": false
 },
 "실종": {
@@ -1335,6 +1381,26 @@
 }
 },
 "posts": [
+{
+"text": "비 오는 밤 보행자 사고에서 전치 9주 피해자와 5,000만 원에 합의한 사례입니다.\n\nhttps://habi24.com/5091",
+"handle": "habi24news.bsky.social",
+"name": "habi24news.bsky.social",
+"time": "2026-11-22T00:00:59.842Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/habi24news.bsky.social/post/3n2ucq32mxi2y",
+"term": "사고"
+},
+{
+"text": "물론 예전부터 양극단성을 가지고 글로 여론을 호도해왔다가 시내 지하철 칼부림사건 전후로 사람들이 성별따지지않는 범죄 그 자체에 경각심을 갖고 논의하기 시작하니까 대중속에 숨어서 이미지세탁한 것들은 덧글로는 찾을수없겠지만.",
+"handle": "ty4n.bsky.social",
+"name": "웃수저지망생",
+"time": "2026-11-22T00:00:47.550Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/ty4n.bsky.social/post/3n2ucpouaq22e",
+"term": "지하철"
+},
 {
 "text": "나의 엘엘엠 사용처\n해류가 붕괴하면 적도 용승에 작용하던 코리올리의 힘은? 이런 거 갑자기 어디서 물어 답을 얻겠음.\n자전에 의한 전향력도 움직이는 물체의 속도에 비례하므로 해류가 멈추면 작용이 무화된다고 함. 세상에 ㅠ\n원래 인터넷에 있거나 추론 가능한 정보였겠으나 나는 못찾았을 것 같음. 편의성이 다름.",
 "handle": "radicalradish.bsky.social",
@@ -1552,17 +1618,17 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 1.16,
+"폭발": 1.14,
 "붕괴": 0.96,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.56,
+"지하철": 0.6,
 "사고": 1.05,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
-"먹통": 0.71,
+"먹통": 0.74,
 "산불": 0.05
 },
 "errors": [],
@@ -1752,6 +1818,42 @@
 },
 "trends": [
 {
+"term": "삼전 닉스",
+"traffic": "2000+",
+"time": "2026-11-21T23:00:00+00:00",
+"news": [
+{
+"title": "‘7만전자·20만닉스’ 말한 전문가... “본격 폭락, 아직 시작도 안했다”",
+"source": "조선일보",
+"link": "https://www.chosun.com/economy/real_estate/2026/11/21/LI5ICO4QQBFGHJ6EKJWZVZCIGA/"
+},
+{
+"title": "\"월요일엔 또 무슨 악몽이\"…삼전닉스 개미들 멘탈도 '바닥' [분석+]",
+"source": "한국경제",
+"link": "https://www.hankyung.com/article/2026112004446"
+}
+],
+"new": true
+},
+{
+"term": "real madrid vs rc celta de vigo standings",
+"traffic": "200+",
+"time": "2026-11-21T23:00:00+00:00",
+"news": [
+{
+"title": "Real Madrid defeats Celta Vigo 2-1 to secure 11th win of the season : 라리가 : JKN",
+"source": "재경일보",
+"link": "https://news.jkn.co.kr/editions/english/post/1113445"
+},
+{
+"title": "Licensable picture: REAL MADRID C.F. Vs. REAL CLUB CELTA DE VIGO - 2026/27 National League 11.21.26",
+"source": "Reuters Connect",
+"link": "https://www.reutersconnect.com/item/real-madrid-cf-vs-real-club-celta-de-vigo-202627-national-league-112126/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX01UMVpVTUEwMDBXMUxVWDE"
+}
+],
+"new": true
+},
+{
 "term": "부동산",
 "traffic": "2000+",
 "time": "2026-11-21T22:40:00+00:00",
@@ -1824,24 +1926,6 @@
 "new": true
 },
 {
-"term": "공군사관학교",
-"traffic": "500+",
-"time": "2026-11-21T22:20:00+00:00",
-"news": [
-{
-"title": "공사 생도 '명예시험' 중 스마트폰으로 시험지 촬영…퇴교 처분",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261120176600504"
-},
-{
-"title": "공군사관학교도 6월에 시험문제 불법촬영…3학년 생도 퇴교",
-"source": "동아일보",
-"link": "https://www.donga.com/news/Society/article/all/20261120/135063726/1"
-}
-],
-"new": true
-},
-{
 "term": "뉴스",
 "traffic": "1000+",
 "time": "2026-11-21T22:10:00+00:00",
@@ -1909,24 +1993,6 @@
 "title": "Nhận định bóng đá Real Madrid vs Celta Vigo, 03h00 ngày 22/11: Chiến thắng chật vật cho chủ nhà!",
 "source": "Tạp chí Bóng đá",
 "link": "https://bongdaplus.vn/la-liga/nhan-dinh-bong-da-real-madrid-vs-celta-vigo-03h00-ngay-22-11-chien-thang-chat-vat-cho-chu-nha-5294742611.html"
-}
-],
-"new": true
-},
-{
-"term": "laliga",
-"traffic": "100+",
-"time": "2026-11-21T22:00:00+00:00",
-"news": [
-{
-"title": "Real Madrid defeats Celta Vigo 2-1 to secure 11th win of the season : 라리가 : JKN",
-"source": "재경일보",
-"link": "https://news.jkn.co.kr/editions/english/post/1113445"
-},
-{
-"title": "Licensable picture: REAL MADRID C.F. Vs. REAL CLUB CELTA DE VIGO - 2026/27 National League 11.21.26",
-"source": "Reuters Connect",
-"link": "https://www.reutersconnect.com/item/real-madrid-cf-vs-real-club-celta-de-vigo-202627-national-league-112126/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX01UMVpVTUEwMDBXMUxVWDE"
 }
 ],
 "new": true
