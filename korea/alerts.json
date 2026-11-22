@@ -1,12 +1,47 @@
 {
-"updated": "2026-11-22T10:11:16.955945+00:00",
+"updated": "2026-11-22T10:13:29.434986+00:00",
 "errors": [],
 "events": [
 {
+"id": "xakZMSkxXdmRGQkdMck1Roc51008",
+"first": "2026-11-22T10:08:00+00:00",
+"last": "2026-11-22T10:08:00+00:00",
+"updated": "2026-11-22T10:13:29.434986+00:00",
+"headline": "영월서 차박 여성 숨져…일산화탄소 중독 추정",
+"cat": "기타",
+"regions": [
+"경기",
+"강원"
+],
+"sources": [
+"국제신문"
+],
+"updates": [
+{
+"title": "[속보] 영월서 차박 여성 숨져…일산화탄소 중독 추정",
+"source": "국제신문",
+"link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQMGt1X1ctWmVzLTlvMDE1YmY4N1ZXY184YUxpS0UxeWNtYlBsZjRqbEg1Nmt5TkJyay1WLS1NN0R6Qkg2NDEwd0RWZkNyX2xHRl81VS14UGZoMlUxT2NNa2RCZFdIMFA5T1gxVkNrcERndV9iZVBQTG5KZzJmODRxakZMSkxXdmRGQkdMck1R?oc=5",
+"time": "2026-11-22T10:08:00+00:00",
+"stage": "얼럿"
+}
+],
+"level": "BULLETIN",
+"latest": "영월서 차박 여성 숨져…일산화탄소 중독 추정",
+"tok": [
+"숨져",
+"여성",
+"영월서",
+"일산화탄소",
+"중독",
+"차박",
+"추정"
+]
+},
+{
 "id": "wNISX20261122_00038783120940",
 "first": "2026-11-22T09:40:25+00:00",
-"last": "2026-11-22T10:06:20+00:00",
-"updated": "2026-11-22T10:09:02.963602+00:00",
+"last": "2026-11-22T10:06:59+00:00",
+"updated": "2026-11-22T10:13:29.434986+00:00",
 "headline": "철도노조, 파업 26일로 연기…화물열차 사고 복구가 먼저",
 "cat": "교통",
 "regions": [
@@ -18,6 +53,7 @@
 "매일신문",
 "연합뉴스",
 "중앙일보",
+"천지일보",
 "헤럴드경제"
 ],
 "updates": [
@@ -78,26 +114,43 @@
 "stage": "후속"
 },
 {
+"title": "[속보] 철도노조 “안전운행 투쟁 26일로 연기… 사고 복구부터”",
+"source": "천지일보",
+"link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBpRGF1enprTDVMUEZ4TE9faWUwRUlLWXdrV3JEbFN1RTdUNl9ZWFBkdzctZlFUMUZxbDBGVUV1ZGV4b2hsWWR6S2dLbUlUbEpFZzZfTzJDQzE2bmZmOU5ZcmZPX1dkNzdLUWc?oc=5",
+"time": "2026-11-22T10:06:12+00:00",
+"stage": "속보"
+},
+{
 "title": "[속보] 철도노조, 안전운행투쟁 26일로 연기…화물열차 사고 복구 우선",
 "source": "경기일보",
 "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9EVlpPcXRzYTh3bV9WV3ZxZVliNXBVM2NpZ1lOaFRQV3hkN3VyNjRxTkVGX01DMGxpV29GOHNKVlNXZkpzUHg0SzV4WlVfd2x6a1l3dXJvZUhld28?oc=5",
 "time": "2026-11-22T10:06:20+00:00",
 "stage": "속보"
+},
+{
+"title": "철도노조, 23일 예정됐던 쟁의행위 26일로 연기…\"사고 복구 먼저\"(종합)",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261122021351063",
+"time": "2026-11-22T10:06:59+00:00",
+"stage": "종합"
 }
 ],
 "level": "URGENT",
-"latest": "철도노조, 안전운행투쟁 26일로 연기…화물열차 사고 복구 우선",
+"latest": "철도노조, 23일 예정됐던 쟁의행위 26일로 연기…\"사고 복구 먼저\"",
 "tok": [
 "23일",
 "26일",
 "먼저",
 "멈춘",
 "복구",
+"복구부터",
 "사고",
 "안전운행",
 "안전운행투쟁",
 "연기",
+"예정됐던",
 "우선",
+"쟁의행위",
 "준법투쟁",
 "철도노조",
 "탈선",
@@ -3849,7 +3902,7 @@
 },
 "사고": {
 "n30": 4,
-"base": 2.9,
+"base": 3.0,
 "spike": false
 },
 "실종": {
@@ -4077,17 +4130,17 @@
 "spikes": [],
 "baseline": {
 "지진": 0.05,
-"화재": 0.09,
+"화재": 0.08,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.14,
+"폭발": 0.13,
 "붕괴": 0.05,
 "대피": 0.05,
-"미사일": 0.64,
+"미사일": 0.68,
 "속보": 0.05,
-"지하철": 0.22,
-"사고": 3.03,
-"실종": 0.37,
+"지하철": 0.2,
+"사고": 3.13,
+"실종": 0.33,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -4244,6 +4297,60 @@
 },
 "trends": [
 {
+"term": "무신사",
+"traffic": "500+",
+"time": "2026-11-22T09:10:00+00:00",
+"news": [
+{
+"title": "SKT, 무신사 블랙프라이데이서 '에어' 요금제 할인",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261122012200017"
+},
+{
+"title": "무신사, 롯데리아와 수험생 응원 '버거트럭' 이벤트 실시",
+"source": "전자신문",
+"link": "https://www.etnews.com/20261122000047"
+}
+],
+"new": true
+},
+{
+"term": "회계사",
+"traffic": "200+",
+"time": "2026-11-22T09:10:00+00:00",
+"news": [
+{
+"title": "회계사 시험 합격이 끝 아니다…업무수행 역량 확인 강화",
+"source": "동아일보",
+"link": "https://www.donga.com/news/Economy/article/all/20261122/135066588/1"
+},
+{
+"title": "내년 회계사시험 'AI 부정' 대책 골몰…인원축소 전망",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261121044700002"
+}
+],
+"new": false
+},
+{
+"term": "김혜윤",
+"traffic": "100+",
+"time": "2026-11-22T09:10:00+00:00",
+"news": [
+{
+"title": "김혜윤 능력 알아본 장나라…'굿파트너2' 8.4% 출발",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261121023000005"
+},
+{
+"title": "베테랑 사무장 떴다! 차유진, '굿파트너2' 첫 등장",
+"source": "전자신문",
+"link": "https://www.etnews.com/20261122000028"
+}
+],
+"new": true
+},
+{
 "term": "금융위기",
 "traffic": "1000+",
 "time": "2026-11-22T09:00:00+00:00",
@@ -4365,60 +4472,6 @@
 "title": "F4 \"시장 상황 따라 증안펀드 바로 가동할 수 있게 준비 착수\"",
 "source": "연합뉴스",
 "link": "https://www.yna.co.kr/view/AKR20261122044300002"
-}
-],
-"new": true
-},
-{
-"term": "인수 합병",
-"traffic": "200+",
-"time": "2026-11-22T07:20:00+00:00",
-"news": [
-{
-"title": "인텔, 클래식 인수에 … 삼성·미래에셋 '웃음'",
-"source": "매일경제 마켓",
-"link": "https://stock.mk.co.kr/news/view/1203777"
-},
-{
-"title": "인텔, 클래시크 인수에 성과 연동 3.5억 달러 추가 지급한다",
-"source": "스타트업레시피",
-"link": "https://startuprecipe.co.kr/archives/5840722"
-}
-],
-"new": true
-},
-{
-"term": "류효영",
-"traffic": "100+",
-"time": "2026-11-22T06:40:00+00:00",
-"news": [
-{
-"title": "이러다 결혼하나…류효영, 이태성에 직진 \"요리 해줄게\"",
-"source": "뉴시스",
-"link": "https://www.newsis.com/view/NISX20261121_0003877731"
-},
-{
-"title": "'류화영 쌍둥이 언니' 류효영, 이태성에 적극 호감 표시…\"마음 더 확실해져\"",
-"source": "뉴스1",
-"link": "https://www.news1.kr/entertain/broadcast-tv/6361576"
-}
-],
-"new": true
-},
-{
-"term": "소년 소녀 가장",
-"traffic": "100+",
-"time": "2026-11-22T06:30:00+00:00",
-"news": [
-{
-"title": "100만원 든 봉투 겉엔…‘소년 소녀 가장을 위해 써주세요’",
-"source": "동아일보",
-"link": "https://www.donga.com/news/Society/article/all/20261120/135062120/2"
-},
-{
-"title": "복지센터에 전달된 ‘현금 100만원’…봉투에는 “소년소녀가장 위해 써주세요”",
-"source": "세계일보",
-"link": "https://www.segye.com/newsView/20261120513885"
 }
 ],
 "new": true
