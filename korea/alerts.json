@@ -1,18 +1,54 @@
 {
-"updated": "2026-11-22T02:13:33.751701+00:00",
+"updated": "2026-11-22T02:15:51.261964+00:00",
 "errors": [],
 "events": [
 {
+"id": "viewAKR202611201371000620212",
+"first": "2026-11-22T02:12:00+00:00",
+"last": "2026-11-22T02:12:00+00:00",
+"updated": "2026-11-22T02:15:51.261964+00:00",
+"headline": "태백시, 도심 재해위험지역 정비…침수·경사지 붕괴 예방",
+"cat": "재난",
+"regions": [
+"강원"
+],
+"sources": [
+"연합뉴스"
+],
+"updates": [
+{
+"title": "태백시, 도심 재해위험지역 정비…침수·경사지 붕괴 예방",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261120137100062",
+"time": "2026-11-22T02:12:00+00:00",
+"stage": "1보"
+}
+],
+"level": "ALERT",
+"latest": "태백시, 도심 재해위험지역 정비…침수·경사지 붕괴 예방",
+"tok": [
+"경사지",
+"도심",
+"붕괴",
+"예방",
+"재해위험지역",
+"정비",
+"침수",
+"태백시"
+]
+},
+{
 "id": "wNISX20261122_00038780160136",
 "first": "2026-11-22T01:36:37+00:00",
-"last": "2026-11-22T02:09:31+00:00",
-"updated": "2026-11-22T02:13:33.751701+00:00",
+"last": "2026-11-22T02:10:18+00:00",
+"updated": "2026-11-22T02:15:51.261964+00:00",
 "headline": "민주당 \"12월 가기 전 국회서 조희대 탄핵소추안 의결\"",
 "cat": "정치",
 "regions": [],
 "sources": [
 "뉴시스",
 "더팩트",
+"동아일보",
 "매일신문",
 "조선일보",
 "중앙일보",
@@ -68,10 +104,17 @@
 "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1YcGk1cG9sc1EweVo2ZHdfUEoyQ05MZTAtcjhULWo4TzNJa19HUnQwMnhScDlBSThPTXlOXzl4YkxGODhwS0JIdXJyeFNYNFlQQzdMQWJzSFUtMTFvZ0VZaEdn?oc=5",
 "time": "2026-11-22T02:09:31+00:00",
 "stage": "속보"
+},
+{
+"title": "[속보]與 “12월 가기 전 국회서 조희대 탄핵소추안 의결”",
+"source": "동아일보",
+"link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE04cVY5UmpNUmgxSmRhS3VlME1QM09fdzhhem85dGlUbTJzOGVjSXlJOTFfR0o5QkJWWTR3RFJQdXkycTFwazBNRW9JNzh4bldza0RUR0EzSllvU2plUzdrbHo0M2F3SE1GcHBv?oc=5",
+"time": "2026-11-22T02:10:18+00:00",
+"stage": "속보"
 }
 ],
 "level": "BULLETIN",
-"latest": "민주당 \"12월 안에 조희대 대법원장 탄핵소추안 의결\"",
+"latest": "與 “12월 가기 전 국회서 조희대 탄핵소추안 의결”",
 "tok": [
 "12월",
 "가기",
@@ -566,6 +609,41 @@
 "축사",
 "피해",
 "화재"
+]
+},
+{
+"id": "0pnSFN4NEozNjM0ZUlfQwoc50126",
+"first": "2026-11-22T01:26:56+00:00",
+"last": "2026-11-22T01:26:56+00:00",
+"updated": "2026-11-22T02:15:51.261964+00:00",
+"headline": "성기홍 수석 “눈을 들어 시야를 넓히라”…야당의 순방 지적에 반박",
+"cat": "정치",
+"regions": [],
+"sources": [
+"세계일보"
+],
+"updates": [
+{
+"title": "[속보] 성기홍 수석 “눈을 들어 시야를 넓히라”…야당의 순방 지적에 반박",
+"source": "세계일보",
+"link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE80S0RaS0dlUERDMTI1OEhUdjhYUHl0aklEQ3ZBN0tDUEd3MWpWa1Y4bGZFNVYzZklHZ1pxdjd1S1hwTmhjN0pnSFN4NEozNjM0ZUlfQ9IBVEFVX3lxTE80S0RaS0dlUERDMTI1OEhUdjhYUHl0aklEQ3ZBN0tDUEd3MWpWa1Y4bGZFNVYzZklHZ1pxdjd1S1hwTmhjN0pnSFN4NEozNjM0ZUlfQw?oc=5",
+"time": "2026-11-22T01:26:56+00:00",
+"stage": "얼럿"
+}
+],
+"level": "URGENT",
+"latest": "성기홍 수석 “눈을 들어 시야를 넓히라”…야당의 순방 지적에 반박",
+"tok": [
+"넓히라",
+"눈을",
+"들어",
+"반박",
+"성기홍",
+"수석",
+"순방",
+"시야",
+"야당",
+"지적"
 ]
 },
 {
@@ -2254,12 +2332,12 @@
 "spike": false
 },
 "지하철": {
-"n30": 2,
+"n30": 1,
 "base": 0.6,
 "spike": false
 },
 "사고": {
-"n30": 2,
+"n30": 3,
 "base": 1.7,
 "spike": false
 },
@@ -2290,6 +2368,16 @@
 }
 },
 "posts": [
+{
+"text": "사업은 거하고 사고는 맥시멈이라구?",
+"handle": "geowl.bsky.social",
+"name": "게오데스카토르",
+"time": "2026-11-22T02:13:43.942Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/geowl.bsky.social/post/3n2uk5fzrts2b",
+"term": "사고"
+},
 {
 "text": "위의 조건 빼고 그냥 살고싶은 동네를 고르자면…? 삿포로일지도\n\n그러나 신축 1DK이상, 방한방온설비유, 삿포로 중에서도 집이 역앞 도보 5분이내, 관리있는 맨션(내가 눈 안치움), 도심이 지하철로 15분이내\n이러면 그냥 이케부쿠로 집값나오죠",
 "handle": "duoub.bsky.social",
@@ -2517,13 +2605,13 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.11,
-"붕괴": 0.51,
+"폭발": 0.1,
+"붕괴": 0.56,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.6,
-"사고": 1.71,
+"지하철": 0.64,
+"사고": 1.84,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -2736,7 +2824,7 @@
 },
 {
 "term": "도경완",
-"traffic": "1000+",
+"traffic": "2000+",
 "time": "2026-11-22T00:40:00+00:00",
 "news": [
 {
@@ -2754,7 +2842,7 @@
 },
 {
 "term": "담보 대출",
-"traffic": "500+",
+"traffic": "1000+",
 "time": "2026-11-22T00:30:00+00:00",
 "news": [
 {
@@ -2790,18 +2878,18 @@
 },
 {
 "term": "마마 어워즈",
-"traffic": "500+",
+"traffic": "200+",
 "time": "2026-11-22T00:30:00+00:00",
 "news": [
 {
-"title": "BTS·코르티스, 마마 둘째날 대상…3관왕 빅뱅, 신곡 무대 첫선",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261121047200005"
+"title": "지드래곤도 감당 안되는 5대5 긴 생머리 '파격'..수상소감 방해하자 '대성 투입' [핫피플]",
+"source": "미주중앙일보",
+"link": "https://www.koreadaily.com/article/20261121034550373"
 },
 {
-"title": "빅뱅부터 엔하이픈까지…‘2026 MAMA’가 펼쳐낸 K팝의 과거와 현재",
-"source": "동아일보",
-"link": "https://www.donga.com/news/Entertainment/article/all/20261122/135065684/1"
+"title": "빅뱅, 신곡 ‘기립’ 최초 공개..‘2026 MAMA’ 빛낸 ‘레전드’의 위엄",
+"source": "조선일보",
+"link": "https://www.chosun.com/entertainments/music/2026/11/22/MQYDOZRQGBRTGYRTGJSWINTFMY/"
 }
 ],
 "new": true
