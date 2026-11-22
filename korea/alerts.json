@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-22T18:21:42.704130+00:00",
+"updated": "2026-11-22T18:23:59.939227+00:00",
 "errors": [],
 "events": [
 {
@@ -1546,7 +1546,7 @@
 "sns": {
 "terms": {
 "지진": {
-"n30": 2,
+"n30": 3,
 "base": 1.9,
 "spike": false
 },
@@ -1571,7 +1571,7 @@
 "spike": false
 },
 "붕괴": {
-"n30": 2,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
@@ -1627,6 +1627,16 @@
 }
 },
 "posts": [
+{
+"text": "【지진 정보】일본 시간 11월 23일 03:19경\n진원: Hida, Gifu Prefecture (M3.0, 깊이 약 10km)\n최대 진도: 1\n진도 1: 나가노현, 기후현\n이 지진으로 인한 쓰나미 걱정은 없습니다.\n(일본 기상청 발표)\n#일본 #지진 #방재",
+"handle": "ko.soramoyou.yk-planning.jp",
+"name": "Soramoyou 한국어",
+"time": "2026-11-22T18:23:34.253Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/ko.soramoyou.yk-planning.jp/post/3n2wadnkllu2w",
+"term": "지진"
+},
 {
 "text": "【지진 정보】일본 시간 11월 23일 03:03경\n진원: Amakusa and Ashikita Region, Kumamoto Prefecture (M2.7, 깊이 약 10km)\n최대 진도: 1\n진도 1: 구마모토현\n이 지진으로 인한 쓰나미 걱정은 없습니다.\n(일본 기상청 발표)\n#일본 #지진 #방재",
 "handle": "ko.soramoyou.yk-planning.jp",
@@ -1866,7 +1876,7 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 1.89,
+"지진": 2.0,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
@@ -1876,7 +1886,7 @@
 "미사일": 0.05,
 "속보": 0.05,
 "지하철": 0.05,
-"사고": 0.1,
+"사고": 0.09,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
