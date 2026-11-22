@@ -1,7 +1,38 @@
 {
-"updated": "2026-11-22T11:59:41.667851+00:00",
+"updated": "2026-11-22T12:01:53.894570+00:00",
 "errors": [],
 "events": [
+{
+"id": "ssutm_campaigntotal_news1159",
+"first": "2026-11-22T11:59:00+00:00",
+"last": "2026-11-22T11:59:00+00:00",
+"updated": "2026-11-22T12:01:53.894570+00:00",
+"headline": "COP31, 폐막일 넘기고도 끝내 ‘합의 불발’",
+"cat": "기타",
+"regions": [],
+"sources": [
+"경향신문"
+],
+"updates": [
+{
+"title": "[속보] COP31, 폐막일 넘기고도 끝내 ‘합의 불발’",
+"source": "경향신문",
+"link": "https://www.khan.co.kr/article/202611222059001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
+"time": "2026-11-22T11:59:00+00:00",
+"stage": "얼럿"
+}
+],
+"level": "URGENT",
+"latest": "COP31, 폐막일 넘기고도 끝내 ‘합의 불발’",
+"tok": [
+"COP31",
+"끝내",
+"넘기고",
+"불발",
+"폐막일",
+"합의"
+]
+},
 {
 "id": "ssutm_campaigntotal_news0921",
 "first": "2026-11-22T09:21:00+00:00",
@@ -4008,50 +4039,6 @@
 "해킹",
 "확대"
 ]
-},
-{
-"id": "ROWg0d2JqT25vNVlwYXF3oc50601",
-"first": "2026-11-22T06:01:35+00:00",
-"last": "2026-11-22T06:01:35+00:00",
-"updated": "2026-11-22T06:18:36.531025+00:00",
-"headline": "윤상현 ``비상계엄은 내란` 대법원 판결 존중…당 입장 정리해야`",
-"cat": "사회",
-"regions": [],
-"sources": [
-"경향신문",
-"매일신문"
-],
-"updates": [
-{
-"title": "국민의힘 윤상현 “비상계엄은 내란이라는 대법원 판결 존중…당도 입장 정리해야”",
-"source": "경향신문",
-"link": "https://www.khan.co.kr/article/202611221426001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
-"time": "2026-11-22T05:26:00+00:00",
-"stage": "후속"
-},
-{
-"title": "[속보]윤상현 ``비상계엄은 내란` 대법원 판결 존중…당 입장 정리해야`",
-"source": "매일신문",
-"link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFB4STd4aDR0eFJoZnJkUlY1dTBXSDZlM2MxRUx5Ty1BalRNeThJQU5uOUhvU2dwMnNTcVVJV0NITjNXMnlSX0F0cGpBMFU0ODY5a19ROWg0d2JqT25vNVlwYXF3?oc=5",
-"time": "2026-11-22T06:01:35+00:00",
-"stage": "얼럿"
-}
-],
-"level": "FLASH",
-"latest": "윤상현 ``비상계엄은 내란` 대법원 판결 존중…당 입장 정리해야`",
-"tok": [
-"국민의힘",
-"내란",
-"내란이라",
-"당도",
-"대법원",
-"비상계엄",
-"윤상현",
-"입장",
-"정리해야",
-"존중",
-"판결"
-]
 }
 ],
 "sns": {
@@ -4077,13 +4064,13 @@
 "spike": false
 },
 "폭발": {
-"n30": 5,
-"base": 0.7,
-"spike": true
+"n30": 4,
+"base": 0.8,
+"spike": false
 },
 "붕괴": {
-"n30": 2,
-"base": 0.1,
+"n30": 1,
+"base": 0.2,
 "spike": false
 },
 "대피": {
@@ -4097,18 +4084,18 @@
 "spike": false
 },
 "속보": {
-"n30": 8,
-"base": 0.6,
+"n30": 6,
+"base": 0.7,
 "spike": true
 },
 "지하철": {
 "n30": 3,
-"base": 0.7,
+"base": 0.8,
 "spike": false
 },
 "사고": {
 "n30": 3,
-"base": 3.4,
+"base": 3.3,
 "spike": false
 },
 "실종": {
@@ -4418,32 +4405,25 @@
 ],
 "spikes": [
 {
-"term": "폭발",
-"n30": 5,
+"term": "속보",
+"n30": 6,
 "base": 0.7,
 "spike": true,
-"since": "2026-11-22T11:59:41.667851+00:00"
-},
-{
-"term": "속보",
-"n30": 8,
-"base": 0.6,
-"spike": true,
-"since": "2026-11-22T11:59:41.667851+00:00"
+"since": "2026-11-22T12:01:53.894570+00:00"
 }
 ],
 "baseline": {
-"지진": 0.2,
+"지진": 0.18,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.75,
-"붕괴": 0.24,
+"폭발": 0.78,
+"붕괴": 0.32,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.68,
-"지하철": 0.75,
-"사고": 3.34,
+"속보": 0.71,
+"지하철": 0.78,
+"사고": 3.31,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -4836,9 +4816,9 @@
 "link": "https://www.korea.kr/news/policyNewsView.do?newsId=148976210"
 },
 {
-"title": "\"제각각 지침 불편\"...교육 수장 없는 입시관리 우려",
-"source": "YTN",
-"link": "https://www.ytn.co.kr/_cs/_ln_0103_202611221647062898_005.html"
+"title": "기술개발, 감독 강화부터 시험체계 개편까지…수능 ‘AI 커닝’이 남긴 과제",
+"source": "경기일보",
+"link": "https://www.kyeonggi.com/article/20261122580313"
 }
 ],
 "new": true
