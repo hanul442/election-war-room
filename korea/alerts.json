@@ -1,16 +1,17 @@
 {
-"updated": "2026-11-22T11:24:04.520171+00:00",
+"updated": "2026-11-22T11:26:16.183425+00:00",
 "errors": [],
 "events": [
 {
 "id": "09ySnpybUk5YzVfOVBqcwoc51020",
 "first": "2026-11-22T10:20:07+00:00",
 "last": "2026-11-22T11:18:35+00:00",
-"updated": "2026-11-22T11:24:04.520171+00:00",
+"updated": "2026-11-22T11:26:16.183425+00:00",
 "headline": "계좌·카드·주민번호까지 털렸다… 한전 고객 등 150만명 개인정보 유출",
 "cat": "기타",
 "regions": [],
 "sources": [
+"KBS 뉴스",
 "MBC 뉴스",
 "SBS",
 "경향신문",
@@ -32,6 +33,13 @@
 "source": "뉴시스",
 "link": "https://www.newsis.com/view/NISX20261122_0003878304",
 "time": "2026-11-22T09:42:28+00:00",
+"stage": "후속"
+},
+{
+"title": "‘한전ON’ 고객 및 전자조달시스템 기업 개인정보 150여만건 유출",
+"source": "KBS 뉴스",
+"link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9CM3hfMVpRLTNJZ3hQWHc2anpTQ0hScG5iSFlKUGRkRE1mZTBzX0tkWFJqTkFRUFJ0d3AxR2VxV0JDTFNSVEtsLUZUeE1rMG0wYUVJSWVQdXJuZ0U?oc=5",
+"time": "2026-11-22T09:47:00+00:00",
 "stage": "후속"
 },
 {
@@ -112,6 +120,7 @@
 "사과",
 "사장",
 "유출",
+"전자조달시스템",
 "전화",
 "주민",
 "주민번호",
@@ -121,6 +130,7 @@
 "털렸다",
 "포함",
 "한전",
+"한전ON",
 "한전서",
 "해킹당했다",
 "확인"
@@ -3922,7 +3932,7 @@
 "terms": {
 "지진": {
 "n30": 1,
-"base": 1.1,
+"base": 1.0,
 "spike": false
 },
 "화재": {
@@ -3942,7 +3952,7 @@
 },
 "폭발": {
 "n30": 7,
-"base": 0.4,
+"base": 0.3,
 "spike": true
 },
 "붕괴": {
@@ -3967,11 +3977,11 @@
 },
 "지하철": {
 "n30": 1,
-"base": 0.2,
+"base": 0.3,
 "spike": false
 },
 "사고": {
-"n30": 2,
+"n30": 1,
 "base": 1.9,
 "spike": false
 },
@@ -4210,46 +4220,36 @@
 "time": "2026-11-22T11:00:20Z",
 "term": "폭발",
 "url": "https://www.youtube.com/watch?v=r8cPqUVydoU"
-},
-{
-"text": "그것은 사고 싶은 사람 마음 아니여유~(?)",
-"handle": "mumuhandle.bsky.social",
-"name": "무쨩(ムちゃん)(D-5)",
-"time": "2026-11-22T10:56:14.645Z",
-"likes": 1,
-"reposts": 0,
-"url": "https://bsky.app/profile/mumuhandle.bsky.social/post/3n2vhdpy7sc2i",
-"term": "사고"
 }
 ],
 "spikes": [
 {
 "term": "폭발",
 "n30": 7,
-"base": 0.4,
+"base": 0.3,
 "spike": true,
-"since": "2026-11-22T11:24:04.520171+00:00"
+"since": "2026-11-22T11:26:16.183425+00:00"
 },
 {
 "term": "속보",
 "n30": 6,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-22T11:24:04.520171+00:00"
+"since": "2026-11-22T11:26:16.183425+00:00"
 }
 ],
 "baseline": {
-"지진": 1.03,
+"지진": 0.93,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.33,
+"폭발": 0.3,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.32,
-"사고": 1.86,
+"지하철": 0.39,
+"사고": 1.77,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -4467,7 +4467,7 @@
 "link": "https://www.yonhapnewstv.co.kr/news/MYH20261122201408agC"
 }
 ],
-"new": true
+"new": false
 },
 {
 "term": "쇼메이커",
