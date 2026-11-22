@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-22T15:39:01.526336+00:00",
+"updated": "2026-11-22T15:41:15.790340+00:00",
 "errors": [],
 "events": [
 {
@@ -69,7 +69,7 @@
 "id": "09ySnpybUk5YzVfOVBqcwoc51020",
 "first": "2026-11-22T10:20:07+00:00",
 "last": "2026-11-22T14:23:42+00:00",
-"updated": "2026-11-22T14:25:21.240136+00:00",
+"updated": "2026-11-22T15:41:15.790340+00:00",
 "headline": "계좌·카드·주민번호까지 털렸다… 한전 고객 등 150만명 개인정보 유출",
 "cat": "기타",
 "regions": [
@@ -213,6 +213,13 @@
 "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9HSjJWejMxcEE0NmtOM1FjaVVXMjA0V0tNejZzTnNLbHBuZEY4djluSnp6SUZrNUZSVC1UWTdJaElvbktZNnFFTFh4SExmWUo5ejdGQlN0d2F4NGNzd2t1eW5EQTBmNUY4dzI4?oc=5",
 "time": "2026-11-22T12:51:38+00:00",
 "stage": "속보"
+},
+{
+"title": "한전, 고객 주민번호 포함 개인정보 150만 건 유출",
+"source": "YTN",
+"link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFB3RWVPbHVhRV90WFhBRGdRMjd0RG1JWm9hakpvc2VvVVRrVWJ3dnB6b3lkQzFiOUp4aTZjUEFSd21IaXdxSktGQlFSRExRcXlhUk9XLUZlRXM3eXVsYmc?oc=5",
+"time": "2026-11-22T14:06:00+00:00",
+"stage": "후속"
 },
 {
 "title": "한전, 사이버 침해로 고객 개인정보 유출…대국민 사과",
@@ -2833,7 +2840,7 @@
 "sns": {
 "terms": {
 "지진": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -2848,13 +2855,13 @@
 "spike": false
 },
 "정전": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
 "폭발": {
 "n30": 3,
-"base": 0.1,
+"base": 0.2,
 "spike": false
 },
 "붕괴": {
@@ -2883,8 +2890,8 @@
 "spike": false
 },
 "사고": {
-"n30": 3,
-"base": 2.2,
+"n30": 4,
+"base": 2.3,
 "spike": false
 },
 "실종": {
@@ -2914,6 +2921,16 @@
 }
 },
 "posts": [
+{
+"text": "안 그래도 그래서 ADD 의심하고 병원 갔었다고. 으윽⋯⋯ 제미나이 4 쯤 되니까 사고하는 수준이 비슷해지려고 하는구만. 다음 세대 때는 나 같은 건 밀리겠는걸.",
+"handle": "radd3v1l.bsky.social",
+"name": "독태성",
+"time": "2026-11-22T15:40:11.047Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/radd3v1l.bsky.social/post/3n2vx7h5dls2r",
+"term": "사고"
+},
 {
 "text": "ㄱㄷ 이제 돌이켜보면 그것도 심쿵이라기보다는 서사가 폭발할 때 대개 로맨스기류도 폭발하니까 그걸 느낀거같음",
 "handle": "achtree.bsky.social",
@@ -3141,13 +3158,13 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.24,
+"폭발": 0.32,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.14,
-"사고": 2.31,
+"지하철": 0.13,
+"사고": 2.48,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
