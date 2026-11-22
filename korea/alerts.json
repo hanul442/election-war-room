@@ -1,7 +1,41 @@
 {
-"updated": "2026-11-22T21:42:28.390453+00:00",
+"updated": "2026-11-22T21:44:43.989753+00:00",
 "errors": [],
 "events": [
+{
+"id": "viewAKR202611230069000552140",
+"first": "2026-11-22T21:40:51+00:00",
+"last": "2026-11-22T21:40:51+00:00",
+"updated": "2026-11-22T21:44:43.989753+00:00",
+"headline": "순창 창고용 비닐하우스 화재…불 끄려던 80대 화상",
+"cat": "재난",
+"regions": [
+"전북"
+],
+"sources": [
+"연합뉴스"
+],
+"updates": [
+{
+"title": "순창 창고용 비닐하우스 화재…불 끄려던 80대 화상",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261123006900055",
+"time": "2026-11-22T21:40:51+00:00",
+"stage": "1보"
+}
+],
+"level": "ALERT",
+"latest": "순창 창고용 비닐하우스 화재…불 끄려던 80대 화상",
+"tok": [
+"80대",
+"끄려던",
+"비닐하우스",
+"순창",
+"창고용",
+"화상",
+"화재"
+]
+},
 {
 "id": "viewAKR202611230034000342030",
 "first": "2026-11-22T20:30:48+00:00",
@@ -833,50 +867,6 @@
 "의장",
 "행동"
 ]
-},
-{
-"id": "wNISX20261122_00038783221052",
-"first": "2026-11-22T10:52:39+00:00",
-"last": "2026-11-22T15:44:00+00:00",
-"updated": "2026-11-22T15:50:35.039216+00:00",
-"headline": "러시아 화물선, 우크라 드론 공격에 화재…핀란드 영해서 불타는 중",
-"cat": "재난",
-"regions": [],
-"sources": [
-"뉴시스",
-"조선일보"
-],
-"updates": [
-{
-"title": "러시아 화물선, 우크라 드론 공격에 화재…핀란드 영해서 불타는 중",
-"source": "뉴시스",
-"link": "https://www.newsis.com/view/NISX20261122_0003878322",
-"time": "2026-11-22T10:52:39+00:00",
-"stage": "1보"
-},
-{
-"title": "러시아 화물선, 핀란드만서 드론에 피격돼 화재",
-"source": "조선일보",
-"link": "https://www.chosun.com/international/europe/2026/11/23/AGD34OEWGBH7NDWEBLURASSQH4/",
-"time": "2026-11-22T15:44:00+00:00",
-"stage": "후속"
-}
-],
-"level": "ALERT",
-"latest": "러시아 화물선, 핀란드만서 드론에 피격돼 화재",
-"tok": [
-"공격",
-"드론",
-"러시아",
-"불타",
-"영해서",
-"우크라",
-"피격돼",
-"핀란드",
-"핀란드만서",
-"화물선",
-"화재"
-]
 }
 ],
 "sns": {
@@ -903,7 +893,7 @@
 },
 "폭발": {
 "n30": 4,
-"base": 0.3,
+"base": 0.4,
 "spike": false
 },
 "붕괴": {
@@ -927,7 +917,7 @@
 "spike": false
 },
 "지하철": {
-"n30": 2,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
@@ -968,7 +958,7 @@
 "handle": "xiaoyama.bsky.social",
 "name": "小山道",
 "time": "2026-11-22T21:41:06.553Z",
-"likes": 0,
+"likes": 1,
 "reposts": 0,
 "url": "https://bsky.app/profile/xiaoyama.bsky.social/post/3n2wlet5dzs2z",
 "term": "사고"
@@ -1203,17 +1193,17 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 0.15,
+"지진": 0.24,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.39,
+"폭발": 0.45,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
 "지하철": 0.05,
-"사고": 0.15,
+"사고": 0.24,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -1434,6 +1424,60 @@
 },
 "trends": [
 {
+"term": "엔비디아",
+"traffic": "500+",
+"time": "2026-11-22T20:40:00+00:00",
+"news": [
+{
+"title": "미 재무 “엔비디아 수출통제 준수 여부가 핵심”…젠슨 황 복귀 가능성 배제 안 해",
+"source": "KBS 뉴스",
+"link": "https://news.kbs.co.kr/news/view.do?ncd=8719528"
+},
+{
+"title": "베센트 \"트럼프 행정부, Nvidia에 답변 요구\"",
+"source": "Investing.com 한국어",
+"link": "https://kr.investing.com/news/company-news/article-2186398"
+}
+],
+"new": true
+},
+{
+"term": "김다현",
+"traffic": "200+",
+"time": "2026-11-22T20:40:00+00:00",
+"news": [
+{
+"title": "[ET포토] 권은진. '돋보이는 비율'",
+"source": "전자신문",
+"link": "https://www.etnews.com/20261123000044"
+},
+{
+"title": "[ET포토] 블랙스완, '글로벌 스타 어워드 수상'",
+"source": "전자신문",
+"link": "https://www.etnews.com/20261123000033"
+}
+],
+"new": true
+},
+{
+"term": "임영웅",
+"traffic": "200+",
+"time": "2026-11-22T20:40:00+00:00",
+"news": [
+{
+"title": "임영웅, 스크린서도 통했다…공연 영화 티켓 매출 10억 돌파",
+"source": "이데일리",
+"link": "https://www.edaily.co.kr/News/Read?newsId=01334966645648344&mediaCodeNo=257"
+},
+{
+"title": "‘임영웅ㅣ아임 히어로 더 스타디움 2’ 5일 만에 매출 17억 돌파…14일 연속 예매 매출 1위",
+"source": "ER 이코노믹리뷰",
+"link": "https://www.econovill.com/news/articleView.html?idxno=758096"
+}
+],
+"new": true
+},
+{
 "term": "버스",
 "traffic": "200+",
 "time": "2026-11-22T20:30:00+00:00",
@@ -1453,7 +1497,7 @@
 },
 {
 "term": "경제",
-"traffic": "200+",
+"traffic": "500+",
 "time": "2026-11-22T20:30:00+00:00",
 "news": [
 {
@@ -1513,24 +1557,6 @@
 "new": true
 },
 {
-"term": "아틀레티코 마드리드",
-"traffic": "100+",
-"time": "2026-11-22T19:50:00+00:00",
-"news": [
-{
-"title": "모레노 감독에게 기회를 더 줘야 하는 이유",
-"source": "주간조선",
-"link": "http://weekly.chosun.com/news/articleView.html?idxno=57304"
-},
-{
-"title": "“죄송한 마음이 크다” 손흥민, 한국 대표팀 1년 돌아보고 밝힌 소감 “사랑해주시는 팬분들한테 감사드린다”",
-"source": "스포츠경향",
-"link": "https://sports.khan.co.kr/article/202611222025003"
-}
-],
-"new": true
-},
-{
 "term": "잠수함",
 "traffic": "2000+",
 "time": "2026-11-22T19:30:00+00:00",
@@ -1565,42 +1591,6 @@
 }
 ],
 "new": true
-},
-{
-"term": "평택시장",
-"traffic": "200+",
-"time": "2026-11-22T19:30:00+00:00",
-"news": [
-{
-"title": "집 늘리려니 길·물도 '숙제'…경기 7개 시, 총리에 '맞춤 지원' 요청",
-"source": "전자신문",
-"link": "https://www.etnews.com/20261122000092"
-},
-{
-"title": "구리시, 정부에 ‘공공주택지구 현안 건의서’ 전달…교통·자족 기능 확충 촉구",
-"source": "경기일보",
-"link": "https://www.kyeonggi.com/article/20261122580147"
-}
-],
-"new": false
-},
-{
-"term": "코스피",
-"traffic": "10000+",
-"time": "2026-11-22T19:20:00+00:00",
-"news": [
-{
-"title": "개미들 563조 잃고 빚더미… 외국인은 224조 팔아 수익",
-"source": "조선일보",
-"link": "https://www.chosun.com/economy/stock-finance/2026/11/23/V5DLSBKXWRFCDNI522LM3JQFUM/"
-},
-{
-"title": "같은 4,800선인데도…코스피 ’1조클럽’ 11% 감소",
-"source": "연합뉴스TV",
-"link": "https://www.yonhapnewstv.co.kr/news/MYH20261123060115kak"
-}
-],
-"new": false
 }
 ],
 "trendSeen": [
