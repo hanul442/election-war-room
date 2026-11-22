@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-22T17:11:34.530459+00:00",
+"updated": "2026-11-22T17:13:49.535237+00:00",
 "errors": [],
 "events": [
 {
@@ -2371,7 +2371,7 @@
 },
 "폭발": {
 "n30": 3,
-"base": 0.7,
+"base": 0.6,
 "spike": false
 },
 "붕괴": {
@@ -2406,7 +2406,7 @@
 },
 "실종": {
 "n30": 1,
-"base": 0.8,
+"base": 0.9,
 "spike": false
 },
 "단수": {
@@ -2674,14 +2674,14 @@
 "n30": 5,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-22T17:11:34.530459+00:00"
+"since": "2026-11-22T17:13:49.535237+00:00"
 },
 {
 "term": "속보",
 "n30": 6,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-22T17:11:34.530459+00:00"
+"since": "2026-11-22T17:13:49.535237+00:00"
 }
 ],
 "baseline": {
@@ -2689,14 +2689,14 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.62,
+"폭발": 0.56,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
 "지하철": 0.05,
-"사고": 1.39,
-"실종": 0.86,
+"사고": 1.35,
+"실종": 0.87,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -2925,6 +2925,24 @@
 },
 "trends": [
 {
+"term": "ลิเวอร์พูล พบ แมนยู",
+"traffic": "200+",
+"time": "2026-11-22T16:10:00+00:00",
+"news": [
+{
+"title": "การถ่ายทอดสดการแข่งขันระหว่างลิเวอร์พูลกับแมนยูฯ 2-0 (ครึ่งแรก): ลิเวอร์พูลยิงสองประตูอย่างรวดเร็ว",
+"source": "Vietnam.vn",
+"link": "https://www.vietnam.vn/th/truc-tiep-liverpool-vs-mu-2-0-hiep-1-liverpool-ghi-2-ban-chong-vanh"
+},
+{
+"title": "ทุกสิ่งที่ควรรู้ : ก่อนแดงจะเดือดครั้งที่219",
+"source": "แนวหน้า",
+"link": "https://www.naewna.com/n/sports/186865/"
+}
+],
+"new": true
+},
+{
 "term": "리버풀 맨유",
 "traffic": "200+",
 "time": "2026-11-22T15:50:00+00:00",
@@ -2996,9 +3014,9 @@
 "link": "https://www.besteleven.com/news/articleView.html?idxno=314241"
 },
 {
-"title": "11월 22일 23시 30분, 프리미어 리그 11라운드 리버풀 대 맨체스터 유나이티드 경기 생중계 링크입니다.",
+"title": "리버풀은 안필드에서 맨체스터 유나이티드를 상대로 전력을 회복해야 합니다.",
 "source": "Vietnam.vn",
-"link": "https://www.vietnam.vn/ko/link-xem-truc-tiep-liverpool-vs-man-united-23h30-ngay-22-11-vong-11-ngoai-hang-anh"
+"link": "https://www.vietnam.vn/ko/liverpool-can-lay-lai-suc-manh-tai-anfield-truoc-man-united"
 }
 ],
 "new": true
@@ -3071,24 +3089,6 @@
 "title": "기능성 농산물 표시제 놓고 식약처·농식품부 충돌…법사위 제동",
 "source": "푸드투데이",
 "link": "https://www.foodtoday.or.kr/news/article.html?no=209942"
-}
-],
-"new": true
-},
-{
-"term": "아우크스부르크 대 마인츠 05",
-"traffic": "1000+",
-"time": "2026-11-22T13:50:00+00:00",
-"news": [
-{
-"title": "Augsburg vs Mainz 05: German Bundesliga stats & head-to-head",
-"source": "BBC",
-"link": "https://www.bbc.com/sport/football/live/cwkgmrrdpzzmt"
-},
-{
-"title": "Rieder Wins Swiss Showdown Against Widmer",
-"source": "blue News",
-"link": "https://www.bluewin.ch/en/sport/football/rieder-wins-swiss-showdown-against-widmer-li.3683025"
 }
 ],
 "new": true
