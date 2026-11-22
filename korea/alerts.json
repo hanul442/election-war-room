@@ -1,12 +1,12 @@
 {
-"updated": "2026-11-22T09:33:53.533977+00:00",
+"updated": "2026-11-22T09:36:06.006231+00:00",
 "errors": [],
 "events": [
 {
 "id": "ssutm_campaigntotal_news0921",
 "first": "2026-11-22T09:21:00+00:00",
-"last": "2026-11-22T09:27:23+00:00",
-"updated": "2026-11-22T09:33:53.533977+00:00",
+"last": "2026-11-22T09:31:47+00:00",
+"updated": "2026-11-22T09:36:06.006231+00:00",
 "headline": "정부, 증시안정펀드 가동 준비 착수…자사주 매입 한도 3개월 완화",
 "cat": "정치",
 "regions": [],
@@ -14,6 +14,7 @@
 "Chosunbiz",
 "경향신문",
 "뉴스1",
+"매일신문",
 "부산일보",
 "서울신문",
 "이데일리",
@@ -83,10 +84,17 @@
 "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFA5TXdqaHhrRmRZTVp5dVVSYmhNeHpVQWdOTDJEX005RDhNd3JpbWd0eG16Q2hpVlMzbU5QZjhmM1Q1RjFERE9tbWZTR20wNEFLMjI5WXQzOGtBd3NoVndUSGZ6MDdFOG01d01lS3NZZ3JleERl?oc=5",
 "time": "2026-11-22T09:27:23+00:00",
 "stage": "속보"
+},
+{
+"title": "[속보] 정부 `증안펀드` 즉시 가동 준비·자사주 매수 한도 3개월 완화",
+"source": "매일신문",
+"link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9NWWVXOW1xdFVpQjNBSFlDX3lVd0owZEdjNm41M2VaNEp4N1JHZnJpSzlqNG05SXl2Q3F0M1ZmMUliWjQ2c0RsRXNnXzloT1dXN0VGTXpoSXV2OWg0TV9USUFn?oc=5",
+"time": "2026-11-22T09:31:47+00:00",
+"stage": "속보"
 }
 ],
 "level": "URGENT",
-"latest": "정부, 증권시장안정펀드 가동 준비 착수…상장기업 자기주식 매수 제한 완화",
+"latest": "정부 `증안펀드` 즉시 가동 준비·자사주 매수 한도 3개월 완화",
 "tok": [
 "3개월",
 "F4",
@@ -108,6 +116,7 @@
 "자사주",
 "제한",
 "준비",
+"즉시",
 "증권시장안정펀드",
 "증시",
 "증시안정펀드",
@@ -120,7 +129,7 @@
 "id": "3Flc3JnMGVBTTNiZ1pMUQoc50918",
 "first": "2026-11-22T09:18:08+00:00",
 "last": "2026-11-22T09:24:43+00:00",
-"updated": "2026-11-22T09:27:13.549576+00:00",
+"updated": "2026-11-22T09:36:06.006231+00:00",
 "headline": "'검은 월요일' 우려에…정부, 증안펀드 가동 필요조치 착수",
 "cat": "정치",
 "regions": [],
@@ -148,6 +157,13 @@
 "title": "[속보]정부, 증시 폭락에…\"증안펀드 가동 준비작업 즉시 착수\"",
 "source": "아시아경제",
 "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1jZ0ZIRjNSa1oyNUppTThGWWRQYVlGc2QxSDF4aFVkY2xpZ0ppWnVkY0NYNkFIbUdQY041UzVDVkFJQXk3bjlyWmlCdHhMVmtnbFJSRmdhQzVCRUNrMVBoeTNweUtBOTNxeEd4ZXhLRVZNQkNwenBj?oc=5",
+"time": "2026-11-22T09:24:43+00:00",
+"stage": "속보"
+},
+{
+"title": "[속보]정부, 증시 폭락에…\"증안펀드 가동 준비작업 즉시 착수\"",
+"source": "아시아경제",
+"link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE00aFZ4MEdHXzM5MTdrT09iYlpRRTBNNHhTd1BMbVZtRmJNbkZkMnNVS1RvbHFHbTdta3dxQjJWamQ3Tm9tdVhuM0NPSEtkQWY3Um9wNExjX3RXT2pVM3Zxcw?oc=5",
 "time": "2026-11-22T09:24:43+00:00",
 "stage": "속보"
 }
@@ -3759,7 +3775,7 @@
 "spike": false
 },
 "화재": {
-"n30": 1,
+"n30": 0,
 "base": 0.5,
 "spike": false
 },
@@ -3774,8 +3790,8 @@
 "spike": false
 },
 "폭발": {
-"n30": 1,
-"base": 0.8,
+"n30": 0,
+"base": 0.7,
 "spike": false
 },
 "붕괴": {
@@ -3800,17 +3816,17 @@
 },
 "지하철": {
 "n30": 0,
-"base": 1.3,
+"base": 1.2,
 "spike": false
 },
 "사고": {
 "n30": 4,
-"base": 2.9,
+"base": 3.0,
 "spike": false
 },
 "실종": {
-"n30": 2,
-"base": 1.3,
+"n30": 1,
+"base": 1.4,
 "spike": false
 },
 "단수": {
@@ -3902,16 +3918,6 @@
 "time": "2026-11-22T09:05:17Z",
 "term": "화재",
 "url": "https://www.youtube.com/watch?v=rFkQ8K4U7EM"
-},
-{
-"text": "항공수송은 말 그대로 급송해야 하는 물건들을 보내는 용도죠. 반도체나 GPU모듈 같이 단가가 어마무시하고 배태웠다가 공작당해 실종될 가능성이 있다던가, 화훼나 고급 과일처럼 상하는데 단가가 꽤 쎈 것들, 또는 원메이크로 쓰는 고가격의 발주품 같은것들을 태우죠. 뭐 고오오급 스포츠카도 단골입니다. 근래 플뤼그스캄 때문에 탄소싸개차를 항공으로 쳐받는 셀레브는 유럽에서 커리어 매장각이 나온다던가 ",
-"handle": "inspektor.bsky.social",
-"name": "국철진",
-"time": "2026-11-22T09:04:31.945Z",
-"likes": 0,
-"reposts": 1,
-"url": "https://bsky.app/profile/inspektor.bsky.social/post/3n2vb3xnwik24",
-"term": "실종"
 },
 {
 "platform": "YouTube",
@@ -4079,17 +4085,17 @@
 "spikes": [],
 "baseline": {
 "지진": 0.05,
-"화재": 0.45,
+"화재": 0.41,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.73,
+"폭발": 0.66,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 1.18,
-"사고": 2.99,
-"실종": 1.39,
+"지하철": 1.06,
+"사고": 3.09,
+"실종": 1.35,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -4328,9 +4334,9 @@
 "link": "https://imnews.imbc.com/news/2026/econo/article/6867594_36932.html"
 },
 {
-"title": "'블랙 먼데이' 공포…韓 금리·美 물가가 증시 향방 가른다 - 머니투데이",
-"source": "머니투데이",
-"link": "https://www.mt.co.kr/stock/2026/11/22/2026112217351612948"
+"title": "[속보] 정부, 국내외 증시 급락에 ‘증시안정펀드’ 가동 준비",
+"source": "조선일보",
+"link": "https://www.chosun.com/economy/economy_general/2026/11/22/3FVYB6T4YZBKFEZH5OYZ4N5LKI/"
 }
 ],
 "new": true
@@ -4355,7 +4361,7 @@
 },
 {
 "term": "검은 월요일",
-"traffic": "200+",
+"traffic": "500+",
 "time": "2026-11-22T07:20:00+00:00",
 "news": [
 {
@@ -4377,14 +4383,14 @@
 "time": "2026-11-22T07:20:00+00:00",
 "news": [
 {
-"title": "인텔, 클래식 인수에 … 삼성·미래에셋 '웃음'",
-"source": "매일경제 마켓",
-"link": "https://stock.mk.co.kr/news/view/1203777"
+"title": "이탈리아 우니크레디트, 독일 2위 은행 인수 눈앞",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261119174800082"
 },
 {
-"title": "인텔, 클래시크 인수에 성과 연동 3.5억 달러 추가 지급한다",
-"source": "스타트업레시피",
-"link": "https://startuprecipe.co.kr/archives/5840722"
+"title": "“말단 직원 놔두고 관리직부터 쳐내라”…윗사람 안 만들겠다는 이 은행",
+"source": "매일경제",
+"link": "https://www.mk.co.kr/news/world/12214362"
 }
 ],
 "new": true
