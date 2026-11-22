@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-22T23:05:10.322699+00:00",
+"updated": "2026-11-22T23:07:27.974880+00:00",
 "errors": [],
 "events": [
 {
@@ -31,6 +31,40 @@
 "삼성전자",
 "출발",
 "프리마켓서"
+]
+},
+{
+"id": "viewAKR202611230183005272301",
+"first": "2026-11-22T23:01:56+00:00",
+"last": "2026-11-22T23:01:56+00:00",
+"updated": "2026-11-22T23:07:27.974880+00:00",
+"headline": "인천 백령도·대청도에 강풍주의보…서해에 풍랑주의보",
+"cat": "재난",
+"regions": [
+"인천",
+"경북"
+],
+"sources": [
+"연합뉴스"
+],
+"updates": [
+{
+"title": "인천 백령도·대청도에 강풍주의보…서해에 풍랑주의보",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261123018300527",
+"time": "2026-11-22T23:01:56+00:00",
+"stage": "1보"
+}
+],
+"level": "ALERT",
+"latest": "인천 백령도·대청도에 강풍주의보…서해에 풍랑주의보",
+"tok": [
+"강풍주의보",
+"대청도",
+"백령",
+"서해",
+"인천",
+"풍랑주의보"
 ]
 },
 {
@@ -112,6 +146,36 @@
 ]
 },
 {
+"id": "Xc2d0MkU1b1JfQTRuR0lBoc52300",
+"first": "2026-11-22T23:00:27+00:00",
+"last": "2026-11-22T23:00:27+00:00",
+"updated": "2026-11-22T23:07:27.974880+00:00",
+"headline": "이 대통령 지지율 37.3%…민주 35.6%·국힘 42.5% [리얼미터]",
+"cat": "정치",
+"regions": [],
+"sources": [
+"매일경제"
+],
+"updates": [
+{
+"title": "[속보] 이 대통령 지지율 37.3%…민주 35.6%·국힘 42.5% [리얼미터]",
+"source": "매일경제",
+"link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9ieG9nUUZjVy0zajJsMkhuaFg3REljNUl3cHN2NkVSaVkzMHFta3M5ckhxQWs2NF9ZQmt5OVk0VjUtdFhUcVhXc2d0MkU1b1JfQTRuR0lB?oc=5",
+"time": "2026-11-22T23:00:27+00:00",
+"stage": "얼럿"
+}
+],
+"level": "URGENT",
+"latest": "이 대통령 지지율 37.3%…민주 35.6%·국힘 42.5% [리얼미터]",
+"tok": [
+"국힘",
+"대통령",
+"리얼미터",
+"민주",
+"지지율"
+]
+},
+{
 "id": "lWVB5b2U4ZmFmZ2NYcHo2oc52249",
 "first": "2026-11-22T22:49:28+00:00",
 "last": "2026-11-22T22:49:28+00:00",
@@ -148,7 +212,7 @@
 "id": "kI2LUVFaGYxaDZPdGE3UQoc52249",
 "first": "2026-11-22T22:49:20+00:00",
 "last": "2026-11-22T22:49:20+00:00",
-"updated": "2026-11-22T22:53:39.681671+00:00",
+"updated": "2026-11-22T23:07:27.974880+00:00",
 "headline": "평택제천고속도로 승용차관련 사고처리중",
 "cat": "교통",
 "regions": [
@@ -165,6 +229,13 @@
 "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9OOGZtU1hLWi1adEZwRlBnYVhET0NVUUxULWM2N0RyM0E4RW9ZTktVRUJHRXpXUXp3MXFENWVFU1RwdzN2WHUxa0FhdkM4a0hEQXJ5REx6U2d2N3I1ZE1oZ3JMMkI2LUVFaGYxaDZPdGE3UQ?oc=5",
 "time": "2026-11-22T22:49:20+00:00",
 "stage": "얼럿"
+},
+{
+"title": "[속보] 평택제천고속도로 승용차관련 사고처리중",
+"source": "스페셜타임스",
+"link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1GbmxLa21IN0g4dFF2THdwblRVck9BQTRiMjY5Rk1ob3hZNml5aTE4WF96RXFxemYzeG1rckxhd2lyWlRXY0hHX0N2azlxT3NUQm5vdWNWcG1mOWlFQlc5cUZMNWVPVHhpTlpoWGVJX0l0OGM?oc=5",
+"time": "2026-11-22T22:49:20+00:00",
+"stage": "속보"
 }
 ],
 "level": "URGENT",
@@ -1282,7 +1353,7 @@
 "terms": {
 "지진": {
 "n30": 1,
-"base": 0.4,
+"base": 0.5,
 "spike": false
 },
 "화재": {
@@ -1327,7 +1398,7 @@
 },
 "지하철": {
 "n30": 3,
-"base": 0.4,
+"base": 0.6,
 "spike": false
 },
 "사고": {
@@ -1612,17 +1683,17 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 0.47,
+"지진": 0.52,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.13,
+"폭발": 0.12,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.63,
-"사고": 0.06,
+"지하철": 0.87,
+"사고": 0.05,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -1922,14 +1993,14 @@
 "time": "2026-11-22T21:40:00+00:00",
 "news": [
 {
-"title": "Bruce Willis Seen in New Photo with Daughter Tallulah amid His Dementia Diagnosis",
-"source": "People.com",
-"link": "https://people.com/bruce-willis-seen-in-new-photo-shared-by-daughter-tallulah-12270959"
-},
-{
 "title": "Tallulah Willis apologizes for sharing ‘intimate’ photo with dad Bruce: ‘I can do better’",
 "source": "Yahoo",
 "link": "https://www.yahoo.com/entertainment/celebrity/articles/tallulah-willis-apologizes-sharing-intimate-190631378.html"
+},
+{
+"title": "Bruce Willis Seen in New Photo with Daughter Tallulah amid His Dementia Diagnosis",
+"source": "People.com",
+"link": "https://people.com/bruce-willis-seen-in-new-photo-shared-by-daughter-tallulah-12270959"
 }
 ],
 "new": true
