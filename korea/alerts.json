@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-22T01:23:53.613260+00:00",
+"updated": "2026-11-22T01:26:12.973471+00:00",
 "errors": [],
 "events": [
 {
@@ -1864,7 +1864,7 @@
 },
 "폭발": {
 "n30": 6,
-"base": 0.7,
+"base": 0.8,
 "spike": true
 },
 "붕괴": {
@@ -1888,13 +1888,13 @@
 "spike": true
 },
 "지하철": {
-"n30": 0,
+"n30": 1,
 "base": 0.5,
 "spike": false
 },
 "사고": {
 "n30": 0,
-"base": 0.7,
+"base": 0.6,
 "spike": false
 },
 "실종": {
@@ -1924,6 +1924,16 @@
 }
 },
 "posts": [
+{
+"text": "지하철이 늦게 오네... 또 늦으려나...",
+"handle": "lilybellstar.bsky.social",
+"name": "은방울별",
+"time": "2026-11-22T01:24:21.045Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/lilybellstar.bsky.social/post/3n2uhf5323c2v",
+"term": "지하철"
+},
 {
 "platform": "YouTube",
 "text": "길동철물점 😂 군부대 외상값 확인하다 손님들 폭발!",
@@ -2119,31 +2129,31 @@
 {
 "term": "폭발",
 "n30": 6,
-"base": 0.7,
+"base": 0.8,
 "spike": true,
-"since": "2026-11-22T01:23:53.613260+00:00"
+"since": "2026-11-22T01:26:12.973471+00:00"
 },
 {
 "term": "속보",
 "n30": 6,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-22T01:23:53.613260+00:00"
+"since": "2026-11-22T01:26:12.973471+00:00"
 }
 ],
 "baseline": {
-"지진": 0.13,
+"지진": 0.12,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.77,
-"붕괴": 0.14,
+"폭발": 0.79,
+"붕괴": 0.13,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.45,
-"사고": 0.63,
-"실종": 0.27,
+"지하철": 0.51,
+"사고": 0.57,
+"실종": 0.24,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -2336,6 +2346,24 @@
 },
 "trends": [
 {
+"term": "inter miami vs columbus",
+"traffic": "200+",
+"time": "2026-11-21T23:40:00+00:00",
+"news": [
+{
+"title": "Columbus secures 3-0 shutout victory over Inter Miami on the road : MLS : JKN",
+"source": "재경일보",
+"link": "https://news.jkn.co.kr/editions/english/post/1113811"
+},
+{
+"title": "Messi chases another impossible feat: back-to-back MLS titles",
+"source": "BeSoccer Livescore",
+"link": "https://www.besoccer.com/new/messi-chases-another-impossible-feat-back-to-back-mls-titles-1442577"
+}
+],
+"new": true
+},
+{
 "term": "수출규제",
 "traffic": "1000+",
 "time": "2026-11-21T23:10:00+00:00",
@@ -2496,24 +2524,6 @@
 }
 ],
 "new": true
-},
-{
-"term": "화석연료",
-"traffic": "100+",
-"time": "2026-11-21T22:40:00+00:00",
-"news": [
-{
-"title": "기후총회 합의 난항…화석연료 퇴출·기후재원 놓고 결렬 위기",
-"source": "KBS 뉴스",
-"link": "https://news.kbs.co.kr/news/view.do?ncd=8719299"
-},
-{
-"title": "글로벌 전력기업 연합, 전력망 신설 역대 최대...투자규모 연 1560억달러로 상향",
-"source": "전기신문",
-"link": "https://www.electimes.com/news/articleView.html?idxno=374992"
-}
-],
-"new": false
 }
 ],
 "trendSeen": [
