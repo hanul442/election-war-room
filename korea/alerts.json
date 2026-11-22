@@ -1,12 +1,12 @@
 {
-"updated": "2026-11-22T23:55:32.016191+00:00",
+"updated": "2026-11-22T23:57:50.794290+00:00",
 "errors": [],
 "events": [
 {
 "id": "FRzT2RMLWcyT2lmLUpsUQoc52234",
 "first": "2026-11-22T22:34:14+00:00",
 "last": "2026-11-22T23:50:33+00:00",
-"updated": "2026-11-22T23:55:32.016191+00:00",
+"updated": "2026-11-22T23:57:50.794290+00:00",
 "headline": "세종포천고속도로 사고 처리중",
 "cat": "교통",
 "regions": [
@@ -40,9 +40,23 @@
 "stage": "속보"
 },
 {
+"title": "[속보] 경부고속도로 사고 처리중",
+"source": "스페셜타임스",
+"link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5ZemlNVkhtMXZaQUt1TElkMDBpbEY1djFGYVB2VUFXRXRETzA4SFZQSG5UZEVTWFE3ajB5WUhrTDh3QWIydmgwYllGVXVNZkJMSHhHWUZRMnZaX0N6S0VKZk9WaWhNdjhxa3I5d1d0bGU0RVE?oc=5",
+"time": "2026-11-22T23:34:19+00:00",
+"stage": "속보"
+},
+{
 "title": "[속보] 남해고속도로(순천-부산) 승용차 관련 사고 처리중",
 "source": "스페셜타임스",
 "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBkZm1MS0FYX2czazNEQkVYSG9HWDdDX0Vta05DT2pCcGdydlg2OHZEbVlib2ZvUUtqXzlHcDhYcnNoVzJZR2w2ZUxzalltRXRGLUJzMzRpeS1TUGc4QXJ3UVlNSGtRdHJvVFJZdE8xVW5oUQ?oc=5",
+"time": "2026-11-22T23:34:25+00:00",
+"stage": "속보"
+},
+{
+"title": "[속보] 남해고속도로(순천-부산) 승용차 관련 사고 처리중",
+"source": "스페셜타임스",
+"link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE44UEhWV1plWkczWV80eUxVNlZKRHF5UEtVNklraW5jT1liV3hPSFM3MUFmTzR3QW5ocmRab1ppNG16cmtoLWdWRm1XYVNCV2cwOUJiOW9kOEZJa0hucVFCWFRkOW12U0tNVHZBVVNoYlJ6S2s?oc=5",
 "time": "2026-11-22T23:34:25+00:00",
 "stage": "속보"
 },
@@ -73,7 +87,7 @@
 "id": "2ttNzVtR1gtb0U3QWZNQQoc52349",
 "first": "2026-11-22T23:49:45+00:00",
 "last": "2026-11-22T23:49:45+00:00",
-"updated": "2026-11-22T23:53:15.555655+00:00",
+"updated": "2026-11-22T23:57:50.794290+00:00",
 "headline": "중앙고속도로 승용차 단독사고 처리 중",
 "cat": "교통",
 "regions": [],
@@ -87,6 +101,13 @@
 "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5LLUlkN054U0VzQTI4cDMtV1d6cjFsTmxNZWN1aUkycUxXdFRwM29GQzl6Q19MWWFrU2FvcEFEa0k0VURrUUVBZllxYmRjbm0zTXllSkNITlVxbnF2VVl6TUs3T2ttNzVtR1gtb0U3QWZNQQ?oc=5",
 "time": "2026-11-22T23:49:45+00:00",
 "stage": "얼럿"
+},
+{
+"title": "[속보] 중앙고속도로 승용차 단독사고 처리 중",
+"source": "스페셜타임스",
+"link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE12M18zTGVYVDU1ZmVWTjdiQlZUYkNINmxlcWU4V3ItNzJKQzFsZVM2VHJwUXJxRUFZRWo1ZFIzNnRkZDg1djNRbV83Mzg2WVBCazNzYWFwVXAxRVZsTUFPN21nM0pBNVhaMkFYVlVBQUM4UU0?oc=5",
+"time": "2026-11-22T23:49:45+00:00",
+"stage": "속보"
 }
 ],
 "level": "URGENT",
@@ -1929,13 +1950,13 @@
 "sns": {
 "terms": {
 "지진": {
-"n30": 1,
+"n30": 2,
 "base": 0.9,
 "spike": false
 },
 "화재": {
 "n30": 1,
-"base": 0.3,
+"base": 0.4,
 "spike": false
 },
 "불났": {
@@ -1975,7 +1996,7 @@
 },
 "지하철": {
 "n30": 0,
-"base": 1.2,
+"base": 1.1,
 "spike": false
 },
 "사고": {
@@ -2010,6 +2031,16 @@
 }
 },
 "posts": [
+{
+"text": "【지진 정보】일본 시간 11월 23일 08:50경\n진원: Adjacent Sea of Okinawa Main Island (M3.5, 깊이 약 50km)\n최대 진도: 1\n진도 1: 오키나와현\n이 지진으로 인한 쓰나미 걱정은 없습니다.\n(일본 기상청 발표)\n#일본 #지진 #방재",
+"handle": "ko.soramoyou.yk-planning.jp",
+"name": "Soramoyou 한국어",
+"time": "2026-11-22T23:55:34.691Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/ko.soramoyou.yk-planning.jp/post/3n2wsvcgq5e27",
+"term": "지진"
+},
 {
 "text": "이 건은 SK에코플랜트가 1조짜리 독박쓰는걸로 가닥이 잡히는 모양. 공기를 너무 촉박하게 잡은 것도 있을거고, 초연약지반 지대에 터널굴착이라는 좀 무리한 공사계획이던것도 있긴 하겠지만서도. \n\n이후 수습에서도 정부가 화재리스크를 자기들이 감당할 자신이 없으니 이도저도 못하고 있어서 지연되고 있는 중인데, 저길 또 까서 탈출터널 파는건 누가봐도 엄두가 안나는 건이라 어케 결론이 날지 모르겠음.",
 "handle": "inspektor.bsky.social",
@@ -2260,8 +2291,8 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 0.87,
-"화재": 0.39,
+"지진": 0.98,
+"화재": 0.45,
 "불났": 0.05,
 "정전": 0.05,
 "폭발": 0.05,
@@ -2269,8 +2300,8 @@
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 1.1,
-"사고": 2.78,
+"지하철": 0.99,
+"사고": 2.8,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -2601,24 +2632,6 @@
 "new": true
 },
 {
-"term": "thứ hạng của barcelona gặp villarreal",
-"traffic": "500+",
-"time": "2026-11-22T22:20:00+00:00",
-"news": [
-{
-"title": "Video bóng đá Barcelona - Villarreal: Ngược dòng không tưởng (La Liga)",
-"source": "Tin tức 24h",
-"link": "https://www.24h.com.vn/bong-da/video-bong-da-barcelona-villarreal-choang-vang-2-phut-2-ban-la-liga-c48a1813207.html"
-},
-{
-"title": "Chuyên gia tố trọng tài dung túng cho HLV Real và Barca",
-"source": "bongda.com.vn",
-"link": "https://bongda.com.vn/chuyen-gia-to-trong-tai-dung-tung-cho-hlv-real-va-barca-d856007.html"
-}
-],
-"new": true
-},
-{
 "term": "메디게이트뉴스",
 "traffic": "100+",
 "time": "2026-11-22T22:10:00+00:00",
@@ -2671,6 +2684,24 @@
 }
 ],
 "new": false
+},
+{
+"term": "getafe vs atlético",
+"traffic": "200+",
+"time": "2026-11-22T21:50:00+00:00",
+"news": [
+{
+"title": "Baena sostiene la llama de un buen Atlético en su victoria en Getafe",
+"source": "EL PAÍS",
+"link": "https://elpais.com/deportes/futbol/2026-11-22/baena-sostiene-la-llama-de-un-buen-atletico-en-su-victoria-en-getafe.html"
+},
+{
+"title": "'Kill pass → PK + provocación de expulsión': Lee Kang-in brilló sin puntos ofensivos... El Atlético, victoria aplastante 3-0 ante el Getafe",
+"source": "스타뉴스",
+"link": "https://www.starnewskorea.com/es/sports/2026/11/23/2026112305521469120"
+}
+],
+"new": true
 }
 ],
 "trendSeen": [
