@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-22T04:36:42.793377+00:00",
+"updated": "2026-11-22T04:38:55.628883+00:00",
 "errors": [],
 "events": [
 {
@@ -780,7 +780,7 @@
 "id": "wNISX20261122_00038780870334",
 "first": "2026-11-22T03:34:02+00:00",
 "last": "2026-11-22T04:20:00+00:00",
-"updated": "2026-11-22T04:34:28.642075+00:00",
+"updated": "2026-11-22T04:38:55.628883+00:00",
 "headline": "이 대통령, 최교진 교육부 장관 사의 표명 수락…靑 \"후임 인선 절차 진행\"",
 "cat": "정치",
 "regions": [],
@@ -984,6 +984,13 @@
 "source": "MBC 뉴스",
 "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1DY3pzNFFlY09vSmtMd2sxRm9XUFJQd0tyeUM3d2MxdFlsV1lwN2NSdmhwZjMzVXFaN0ZNcXZqSGNlVUI2UWRDa1QyUktGWXJaUThlc3BzYl95Y2x1YVlTOWtCMjdEOVB3RldjNzNjT1lHR09LTWJEX9IBeEFVX3lxTE5rbWpLWlA1WGIwVHh1Qjd1Mk9xb1Fqak90NjVhWlh3QkFnWHVMZ3V0OEFNZU0yakxHN3RKZWlOQlJ1X0owLUdaS2tTeEdaWEdVTVFhQXNEZFp3U2dqM0pLRmI0dE5VRjdKdU5YMzJUeHo3MmVJNjZSeA?oc=5",
 "time": "2026-11-22T03:46:24+00:00",
+"stage": "속보"
+},
+{
+"title": "[속보] 李 대통령, 최교진 교육부 장관 사의 수락",
+"source": "대전일보",
+"link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9TekhDV0NJMEpoQmhUcENIMFhSSHlIWThzRjg3VllPd3FUNGI1SnlJYjNvVGROano3Z0xxRFljMEo1ckQ0NVRDejBLNGtHMnN0Q05GZmhiSmpCQ1hqSUxWVlF5RVByU0JGV3JJZ3FCWUNOR3fSAXNBVV95cUxPU3pIQ1dDSTBKaEJoVHBDSDBYUkh5SFk4c0Y4N1ZZT3dxVDRiNUp5SWIzb1RkTmp6N2dMcURZYzBKNXJENDVUQ3owSzRrRzJzdENORmZoYkpqQkNYaklMVlZReUVQclNCRldySWdxQllDTkd3?oc=5",
+"time": "2026-11-22T03:53:51+00:00",
 "stage": "속보"
 },
 {
@@ -3298,7 +3305,7 @@
 },
 "폭발": {
 "n30": 2,
-"base": 0.5,
+"base": 0.4,
 "spike": false
 },
 "붕괴": {
@@ -3317,9 +3324,9 @@
 "spike": false
 },
 "속보": {
-"n30": 5,
-"base": 0.4,
-"spike": true
+"n30": 4,
+"base": 0.3,
+"spike": false
 },
 "지하철": {
 "n30": 3,
@@ -3532,26 +3539,18 @@
 "url": "https://www.youtube.com/watch?v=Ie-B02iISYI"
 }
 ],
-"spikes": [
-{
-"term": "속보",
-"n30": 5,
-"base": 0.4,
-"spike": true,
-"since": "2026-11-22T04:36:42.793377+00:00"
-}
-],
+"spikes": [],
 "baseline": {
 "지진": 0.05,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.41,
+"폭발": 0.37,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.33,
-"지하철": 0.56,
+"속보": 0.3,
+"지하철": 0.5,
 "사고": 2.04,
 "실종": 0.05,
 "단수": 0.05,
