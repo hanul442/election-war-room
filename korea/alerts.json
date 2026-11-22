@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-22T11:35:14.111387+00:00",
+"updated": "2026-11-22T11:37:26.812243+00:00",
 "errors": [],
 "events": [
 {
@@ -44,6 +44,40 @@
 "일감",
 "정조준",
 "총수"
+]
+},
+{
+"id": "BSQjhmR2VnWVhmajA2TWEoc51130",
+"first": "2026-11-22T11:30:00+00:00",
+"last": "2026-11-22T11:30:00+00:00",
+"updated": "2026-11-22T11:37:26.812243+00:00",
+"headline": "11월 22일 축구 속보: 리버풀과의 빅 매치에서 MU의 즉각적인 변신을 기다립니다",
+"cat": "기타",
+"regions": [],
+"sources": [
+"Laodong.vn"
+],
+"updates": [
+{
+"title": "11월 22일 축구 속보: 리버풀과의 빅 매치에서 MU의 즉각적인 변신을 기다립니다",
+"source": "Laodong.vn",
+"link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQdkRRRFVEMDdlZmdSdk15ODdNYlB2UlhEUTNzNFhzWmJqUE5kbF9LT2VNanB0b1NlWUZrZFJDdmt3ME50VEEydnpyYzVyMTc0Nm1aWkRfWFBTWm5mMWloNFdwbGl6dnAzeVhJWVNkTTdoTXhaS04yN05sdFdZVjlBRHNkU2QzdmxZS0xzdE1tU0JjOENuUUJKV1ZnRDhYa0dqR2pYNmpfZGhiaVVjQXNwTkt3WER3MWZ6ZDZLUnBSQjhmR2VnWVhmajA2TWE?oc=5",
+"time": "2026-11-22T11:30:00+00:00",
+"stage": "1보"
+}
+],
+"level": "ALERT",
+"latest": "11월 22일 축구 속보: 리버풀과의 빅 매치에서 MU의 즉각적인 변신을 기다립니다",
+"tok": [
+"11월",
+"22일",
+"MU",
+"기다립니다",
+"리버풀과",
+"매치에서",
+"변신",
+"즉각적인",
+"축구"
 ]
 },
 {
@@ -4010,7 +4044,7 @@
 "terms": {
 "지진": {
 "n30": 1,
-"base": 0.7,
+"base": 0.6,
 "spike": false
 },
 "화재": {
@@ -4029,12 +4063,12 @@
 "spike": false
 },
 "폭발": {
-"n30": 4,
+"n30": 5,
 "base": 0.2,
-"spike": false
+"spike": true
 },
 "붕괴": {
-"n30": 2,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
@@ -4059,8 +4093,8 @@
 "spike": false
 },
 "사고": {
-"n30": 3,
-"base": 1.8,
+"n30": 4,
+"base": 1.9,
 "spike": false
 },
 "실종": {
@@ -4090,6 +4124,26 @@
 }
 },
 "posts": [
+{
+"text": "진짜 한참동안 찌글거리다가 설거지 반쯤 했을 때가 되서야 겨우 말할 수가 있어짐.\n\n나 : 새콤하다 싶으면서도 단맛이 올라오는거 같길래 그래도 달달한 맛이 올라오네~라고 하고 싶었는데 말하는 도중에 다시 새콤한 맛이 올라와서 침이 폭발해버렸어.\n동생 : 다행이네^^)\n나 : 너무,.,. 셔,.,.",
+"handle": "krkshe.bsky.social",
+"name": "26일 시험결과 발표_카토",
+"time": "2026-11-22T11:36:37.445Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/krkshe.bsky.social/post/3n2vjkst7as2z",
+"term": "폭발"
+},
+{
+"text": "김수영 작가님이라고 아주 예전부터 블로그 보고 책도 사고 근황을 체크하던 분이 계신데\n흙수저에 왕따당하고 비행소녀였고 당시 컴백홈 듣고 돌아와서 골든벨 나가고 연세대 가신 분이다.\n외국에서 일하다가 지금은 돌아오셔서 창업하셨는데\n흙수저여서 어려워 보이긴 했는데, 최근 1년사이 올라온 글들 보면서 참..\n흙수저 부모가 개념까지 없으면 이렇게까지 사람 발목을 잡는구나 싶다.\n집 매매까지 제동이 ",
+"handle": "zxb.bsky.social",
+"name": "린 lin",
+"time": "2026-11-22T11:36:29.343Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/zxb.bsky.social/post/3n2vjlpu5ss2m",
+"term": "사고"
+},
 {
 "text": "건강이 최우선이죠.\n\n김치 때문에 저희는 기장에 가서 멸치젖국도 사고 새우젓이랑 이것저것 잔뜩 준비해 두었죠",
 "handle": "jayouloun.bsky.social",
@@ -4320,19 +4374,27 @@
 "url": "https://www.youtube.com/watch?v=r8cPqUVydoU"
 }
 ],
-"spikes": [],
+"spikes": [
+{
+"term": "폭발",
+"n30": 5,
+"base": 0.2,
+"spike": true,
+"since": "2026-11-22T11:37:26.812243+00:00"
+}
+],
 "baseline": {
-"지진": 0.61,
+"지진": 0.55,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.2,
+"폭발": 0.28,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.6,
-"사고": 1.95,
+"지하철": 0.64,
+"사고": 2.15,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
