@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-22T11:39:39.172091+00:00",
+"updated": "2026-11-22T11:41:52.886163+00:00",
 "errors": [],
 "events": [
 {
@@ -3985,78 +3985,17 @@
 "케네디",
 "홍역"
 ]
-},
-{
-"id": "N4U25nTjdydmhBaWdTOEUoc50509",
-"first": "2026-11-22T05:09:18+00:00",
-"last": "2026-11-22T05:39:44+00:00",
-"updated": "2026-11-22T05:47:11.647454+00:00",
-"headline": "노동장관 “정년연장, 27일 노사합의 안 될 땐 정부가 나설 시점”",
-"cat": "정치",
-"regions": [],
-"sources": [
-"강원도민일보",
-"연합뉴스",
-"조선일보"
-],
-"updates": [
-{
-"title": "정년연장 논의 재개 앞두고…김영훈 “합의 안 되면 정부가 나설 것”",
-"source": "조선일보",
-"link": "https://www.chosun.com/national/labor/2026/11/22/4ENU5B5NBFH2NE3ME22UYORJPY/",
-"time": "2026-11-22T04:35:12+00:00",
-"stage": "후속"
-},
-{
-"title": "[속보] 노동장관 “정년연장, 27일 노사합의 안 될 땐 정부가 나설 시점”",
-"source": "강원도민일보",
-"link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBJTmt0UXB6aUNnVDFmVGVpNzRJbTgtZGxBOTFHTmJPZnZoa1V0YXlwZUFZR2F0NHY3akNwNWpNREVGSU9BNk8yU3dpbElrcnJ3QzA4ZlVHMVN4U25nTjdydmhBaWdTOEU?oc=5",
-"time": "2026-11-22T05:09:18+00:00",
-"stage": "얼럿"
-},
-{
-"title": "[속보] 노동장관 “정년연장, 27일 노사합의 안 될 땐 정부가 나설 시점”",
-"source": "강원도민일보",
-"link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFAxakdkbnMwUDVxb2lMM1R2TlluY3hreEE3bC0yTTNfSUlTODdteFdjODNpQ0tyTE9tcDhENUZsV0lOOFg5OThWc3VlS0lNMEJQOWtqN3JTMnExTFAxcVhQSG5tOVdENEx5?oc=5",
-"time": "2026-11-22T05:09:18+00:00",
-"stage": "속보"
-},
-{
-"title": "노동장관 \"정년연장, 27일 與특위 합의 안 되면 정부 나설 것\"(종합)",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261122019051530",
-"time": "2026-11-22T05:39:44+00:00",
-"stage": "종합"
-}
-],
-"level": "URGENT",
-"latest": "노동장관 \"정년연장, 27일 與특위 합의 안 되면 정부 나설 것\"",
-"tok": [
-"27일",
-"與특위",
-"김영훈",
-"나설",
-"노동장관",
-"노사합",
-"논의",
-"되면",
-"시점",
-"앞두고",
-"재개",
-"정년연장",
-"합의"
-]
 }
 ],
 "sns": {
 "terms": {
 "지진": {
 "n30": 1,
-"base": 0.6,
+"base": 0.5,
 "spike": false
 },
 "화재": {
-"n30": 2,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
@@ -4066,14 +4005,14 @@
 "spike": false
 },
 "정전": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
 "폭발": {
-"n30": 5,
+"n30": 4,
 "base": 0.3,
-"spike": true
+"spike": false
 },
 "붕괴": {
 "n30": 1,
@@ -4097,12 +4036,12 @@
 },
 "지하철": {
 "n30": 1,
-"base": 0.6,
+"base": 0.7,
 "spike": false
 },
 "사고": {
 "n30": 4,
-"base": 2.1,
+"base": 2.3,
 "spike": false
 },
 "실종": {
@@ -4392,27 +4331,19 @@
 "url": "https://www.youtube.com/watch?v=r8cPqUVydoU"
 }
 ],
-"spikes": [
-{
-"term": "폭발",
-"n30": 5,
-"base": 0.3,
-"spike": true,
-"since": "2026-11-22T11:39:39.172091+00:00"
-}
-],
+"spikes": [],
 "baseline": {
-"지진": 0.5,
+"지진": 0.45,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.35,
+"폭발": 0.42,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.15,
-"지하철": 0.68,
-"사고": 2.33,
+"속보": 0.24,
+"지하철": 0.71,
+"사고": 2.5,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
