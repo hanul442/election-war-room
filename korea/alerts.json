@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-22T09:51:40.487210+00:00",
+"updated": "2026-11-22T09:54:26.231733+00:00",
 "errors": [],
 "events": [
 {
@@ -1489,7 +1489,7 @@
 "id": "hYVFXd1pyX0pIMkowQ1FRoc50141",
 "first": "2026-11-22T01:41:33+00:00",
 "last": "2026-11-22T07:57:47+00:00",
-"updated": "2026-11-22T08:10:27.683642+00:00",
+"updated": "2026-11-22T09:54:26.231733+00:00",
 "headline": "해광호 수색, 수심 52ｍ 해저에서 선박추정체 발견",
 "cat": "교통",
 "regions": [
@@ -1666,6 +1666,13 @@
 "title": "태안 서격렬비열도 인근서 침몰 ‘해광호’ 선체 확인···선체 내외부 실종자 수색",
 "source": "경향신문",
 "link": "https://www.khan.co.kr/article/202611221635001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
+"time": "2026-11-22T07:35:00+00:00",
+"stage": "후속"
+},
+{
+"title": "태안 서격렬비열도 인근서 침몰 ‘해광호’ 선체 확인···선체 내외부 실종자 수색",
+"source": "경향신문",
+"link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE0tdTlXT0w0bnVHMllOaWVUc3lpaEx2QjJkMzZucldxTUFuSFdpNEVodVpTaXVqU2JiTjhCdTZSZ3ZQVElUSUFPVnpGVlZxM2ZRUUdLQTFOcUpKQdIBX0FVX3lxTE4zcExsVlBCajlUck9YLVl1SURQM0ZpQ0dCUFJ6YWlhT0ZPWUhlbmZSM1VJYk9kRDFJSW8zbGh6bTJ4Z0JZY1ZKRkpTdkVmVGpLVld5cmREMTV2WGRnMWpV?oc=5",
 "time": "2026-11-22T07:35:00+00:00",
 "stage": "후속"
 },
@@ -3682,36 +3689,6 @@
 "진화",
 "화재"
 ]
-},
-{
-"id": "nkRSSLINKcooperRSSREADER0353",
-"first": "2026-11-22T03:53:25+00:00",
-"last": "2026-11-22T03:53:25+00:00",
-"updated": "2026-11-22T03:54:14.034427+00:00",
-"headline": "'펑' 건물 2층까지 솟구쳐…도로 침수",
-"cat": "재난",
-"regions": [],
-"sources": [
-"SBS"
-],
-"updates": [
-{
-"title": "'펑' 건물 2층까지 솟구쳐…도로 침수",
-"source": "SBS",
-"link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008857611&plink=RSSLINK&cooper=RSSREADER",
-"time": "2026-11-22T03:53:25+00:00",
-"stage": "1보"
-}
-],
-"level": "ALERT",
-"latest": "'펑' 건물 2층까지 솟구쳐…도로 침수",
-"tok": [
-"2층까지",
-"건물",
-"도로",
-"솟구쳐",
-"침수"
-]
 }
 ],
 "sns": {
@@ -3742,7 +3719,7 @@
 "spike": false
 },
 "붕괴": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -3757,23 +3734,23 @@
 "spike": false
 },
 "속보": {
-"n30": 5,
+"n30": 4,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "지하철": {
 "n30": 0,
-"base": 0.6,
+"base": 0.5,
 "spike": false
 },
 "사고": {
 "n30": 2,
-"base": 2.8,
+"base": 2.7,
 "spike": false
 },
 "실종": {
 "n30": 0,
-"base": 0.9,
+"base": 0.8,
 "spike": false
 },
 "단수": {
@@ -3973,28 +3950,20 @@
 "url": "https://www.youtube.com/watch?v=Cj2LVqo3dqE"
 }
 ],
-"spikes": [
-{
-"term": "속보",
-"n30": 5,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-22T09:51:40.487210+00:00"
-}
-],
+"spikes": [],
 "baseline": {
 "지진": 0.05,
-"화재": 0.2,
+"화재": 0.18,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.32,
+"폭발": 0.29,
 "붕괴": 0.05,
 "대피": 0.05,
-"미사일": 0.15,
+"미사일": 0.24,
 "속보": 0.05,
-"지하철": 0.5,
-"사고": 2.71,
-"실종": 0.83,
+"지하철": 0.45,
+"사고": 2.64,
+"실종": 0.75,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -4210,14 +4179,14 @@
 "time": "2026-11-22T07:30:00+00:00",
 "news": [
 {
-"title": "증시 급락에 정부 긴급 F4 회의‥시장 안정 대책 논의",
-"source": "MBC 뉴스",
-"link": "https://imnews.imbc.com/news/2026/econo/article/6867594_36932.html"
-},
-{
 "title": "[속보] 정부, 국내외 증시 급락에 ‘증시안정펀드’ 가동 준비",
 "source": "조선일보",
 "link": "https://www.chosun.com/economy/economy_general/2026/11/22/3FVYB6T4YZBKFEZH5OYZ4N5LKI/"
+},
+{
+"title": "[속보] 정부, 증시 급락에 '증권시장안정펀드' 가동 준비 착수",
+"source": "뉴스1",
+"link": "https://www.news1.kr/economy/trend/6362106"
 }
 ],
 "new": true
@@ -4228,9 +4197,9 @@
 "time": "2026-11-22T07:30:00+00:00",
 "news": [
 {
-"title": "코스닥 시총 상위 10등에 2곳…이젠 '로봇' 시대",
-"source": "매일경제 마켓",
-"link": "https://stock.mk.co.kr/news/view/1203782"
+"title": "급락장에서도 로봇주는 약진…반도체 장비주 시총 제치기도",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261121027600008"
 },
 {
 "title": "찬 바람이 쌩쌩 불 때, 핫한 로보틱스…CES·테슬라 이벤트 주목[주末머니]",
