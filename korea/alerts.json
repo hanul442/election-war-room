@@ -1,34 +1,61 @@
 {
-"updated": "2026-11-22T03:35:57.380945+00:00",
+"updated": "2026-11-22T03:38:13.931162+00:00",
 "errors": [],
 "events": [
 {
 "id": "wNISX20261122_00038780870334",
 "first": "2026-11-22T03:34:02+00:00",
-"last": "2026-11-22T03:34:02+00:00",
-"updated": "2026-11-22T03:35:57.380945+00:00",
+"last": "2026-11-22T03:35:00+00:00",
+"updated": "2026-11-22T03:38:13.931162+00:00",
 "headline": "이 대통령, 최교진 교육부 장관 사의 표명 수락…靑 \"후임 인선 절차 진행\"",
 "cat": "정치",
 "regions": [],
 "sources": [
-"뉴시스"
+"뉴스1",
+"뉴시스",
+"아시아경제",
+"한겨레"
 ],
 "updates": [
+{
+"title": "[속보]李대통령, 최교진 교육부 장관 사의표명 수용",
+"source": "뉴스1",
+"link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBoU3V1bVYxRUtLeFVXa180alYtVkpCYl9YQ3FTekxPOGtBSzNQcThrN3ZsMXJlUnlDQTE4UURZT0lFNkFqckJlN0JsTzFfdUlrS2FNMTRjRkMzRHM?oc=5",
+"time": "2026-11-22T03:33:28+00:00",
+"stage": "속보"
+},
 {
 "title": "[속보]이 대통령, 최교진 교육부 장관 사의 표명 수락…靑 \"후임 인선 절차 진행\"",
 "source": "뉴시스",
 "link": "https://www.newsis.com/view/NISX20261122_0003878087",
 "time": "2026-11-22T03:34:02+00:00",
 "stage": "얼럿"
+},
+{
+"title": "[속보]靑 \"이 대통령, 최교진 교육부 장관 사의 수락\"",
+"source": "아시아경제",
+"link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE42NmZUamEtaU9SNE8xWjdkWmx0NktnREhGNzNocHdtdU9VUzdFbWg5WDRQUE9xWE5vZG5CSHZ3dFdZYmRweWZydTlpOVhoRXBGN193NWNhNXRzNEQtYTVGYw?oc=5",
+"time": "2026-11-22T03:34:21+00:00",
+"stage": "속보"
+},
+{
+"title": "[속보] 이 대통령, 최교진 장관 사의 수락",
+"source": "한겨레",
+"link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9QbjBKMFhHb2xlQnVTWEZ1RUlNU0RIRnBOVTk2U3hrWkU1eHQtb2UyQjZXMFZ0OVZ3UUFRQ0hIak1SR3FwMnpOTV8yZk1jM3FpNGlsNDBmZUNYa29oVXpFZVp6VmRtVm10Wld3?oc=5",
+"time": "2026-11-22T03:35:00+00:00",
+"stage": "속보"
 }
 ],
 "level": "URGENT",
-"latest": "이 대통령, 최교진 교육부 장관 사의 표명 수락…靑 \"후임 인선 절차 진행\"",
+"latest": "이 대통령, 최교진 장관 사의 수락",
 "tok": [
+"李대통령",
 "교육부",
 "대통령",
 "사의",
+"사의표명",
 "수락",
+"수용",
 "인선",
 "장관",
 "절차",
@@ -3029,7 +3056,7 @@
 "terms": {
 "지진": {
 "n30": 0,
-"base": 0.4,
+"base": 0.3,
 "spike": false
 },
 "화재": {
@@ -3053,7 +3080,7 @@
 "spike": false
 },
 "붕괴": {
-"n30": 2,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
@@ -3063,23 +3090,23 @@
 "spike": false
 },
 "미사일": {
-"n30": 2,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
 "속보": {
-"n30": 5,
+"n30": 3,
 "base": 0.7,
-"spike": true
+"spike": false
 },
 "지하철": {
-"n30": 2,
+"n30": 1,
 "base": 0.5,
 "spike": false
 },
 "사고": {
 "n30": 0,
-"base": 1.2,
+"base": 1.1,
 "spike": false
 },
 "실종": {
@@ -3104,7 +3131,7 @@
 },
 "산불": {
 "n30": 0,
-"base": 0.7,
+"base": 0.6,
 "spike": false
 }
 },
@@ -3264,17 +3291,9 @@
 "url": "https://www.youtube.com/watch?v=yyteG2pq5ag"
 }
 ],
-"spikes": [
-{
-"term": "속보",
-"n30": 5,
-"base": 0.7,
-"spike": true,
-"since": "2026-11-22T03:35:57.380945+00:00"
-}
-],
+"spikes": [],
 "baseline": {
-"지진": 0.33,
+"지진": 0.3,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
@@ -3282,14 +3301,14 @@
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.74,
-"지하철": 0.48,
-"사고": 1.12,
+"속보": 0.77,
+"지하철": 0.43,
+"사고": 1.01,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
-"산불": 0.62
+"산불": 0.56
 },
 "errors": [],
 "ytPosts": [
