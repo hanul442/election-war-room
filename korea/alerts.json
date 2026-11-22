@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-22T10:54:59.717281+00:00",
+"updated": "2026-11-22T10:57:11.572752+00:00",
 "errors": [],
 "events": [
 {
@@ -3743,9 +3743,9 @@
 "spike": false
 },
 "폭발": {
-"n30": 5,
+"n30": 4,
 "base": 0.6,
-"spike": true
+"spike": false
 },
 "붕괴": {
 "n30": 2,
@@ -3773,8 +3773,8 @@
 "spike": false
 },
 "사고": {
-"n30": 1,
-"base": 2.9,
+"n30": 2,
+"base": 2.7,
 "spike": false
 },
 "실종": {
@@ -3805,6 +3805,16 @@
 },
 "posts": [
 {
+"text": "그것은 사고 싶은 사람 마음 아니여유~(?)",
+"handle": "mumuhandle.bsky.social",
+"name": "무쨩(ムちゃん)(D-5)",
+"time": "2026-11-22T10:56:14.645Z",
+"likes": 1,
+"reposts": 0,
+"url": "https://bsky.app/profile/mumuhandle.bsky.social/post/3n2vhdpy7sc2i",
+"term": "사고"
+},
+{
 "platform": "YouTube",
 "text": "드디어 조교는 폭발했다(?) #좋아요댓글 #추천 #구독부탁합니다 #로블록스 #눌러주세용 #동굴부대 #조교",
 "handle": "UCKJ2qKQ498yMdxWOmb9o2cQ",
@@ -3818,7 +3828,7 @@
 "handle": "danijetemia.bsky.social",
 "name": "스피닝강밥",
 "time": "2026-11-22T10:43:42.343Z",
-"likes": 0,
+"likes": 1,
 "reposts": 0,
 "url": "https://bsky.app/profile/danijetemia.bsky.social/post/3n2vgnbocxs2r",
 "term": "지진"
@@ -4018,32 +4028,25 @@
 ],
 "spikes": [
 {
-"term": "폭발",
-"n30": 5,
-"base": 0.6,
-"spike": true,
-"since": "2026-11-22T10:54:59.717281+00:00"
-},
-{
 "term": "속보",
 "n30": 5,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-22T10:54:59.717281+00:00"
+"since": "2026-11-22T10:57:11.572752+00:00"
 }
 ],
 "baseline": {
-"지진": 1.63,
+"지진": 1.67,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.6,
+"폭발": 0.64,
 "붕괴": 0.05,
 "대피": 0.05,
-"미사일": 0.14,
+"미사일": 0.13,
 "속보": 0.05,
 "지하철": 0.05,
-"사고": 2.67,
+"사고": 2.6,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
