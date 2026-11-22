@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-22T12:13:05.728020+00:00",
+"updated": "2026-11-22T12:15:35.727317+00:00",
 "errors": [],
 "events": [
 {
@@ -4098,7 +4098,7 @@
 },
 "화재": {
 "n30": 2,
-"base": 0.1,
+"base": 0.2,
 "spike": false
 },
 "불났": {
@@ -4107,13 +4107,13 @@
 "spike": false
 },
 "정전": {
-"n30": 0,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
 "폭발": {
-"n30": 2,
-"base": 0.6,
+"n30": 1,
+"base": 0.5,
 "spike": false
 },
 "붕괴": {
@@ -4132,18 +4132,18 @@
 "spike": false
 },
 "속보": {
-"n30": 2,
+"n30": 0,
 "base": 0.6,
 "spike": false
 },
 "지하철": {
-"n30": 3,
+"n30": 2,
 "base": 0.9,
 "spike": false
 },
 "사고": {
 "n30": 1,
-"base": 2.7,
+"base": 2.5,
 "spike": false
 },
 "실종": {
@@ -4173,6 +4173,16 @@
 }
 },
 "posts": [
+{
+"text": "ㅇㄴ 천장 전등에서 물이 떨어지는데 이거 맞아?\n이러다 전체 정전나진 않겠디...",
+"handle": "sol-baram.bsky.social",
+"name": "솔",
+"time": "2026-11-22T12:13:57.241Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/sol-baram.bsky.social/post/3n2vloi23w227",
+"term": "정전"
+},
 {
 "text": "참고로 이여자 총리로 있던 2017년에 런던 아파트 화재 났을 때도 현장에 코빼기도 안 비치다가 하루 지나서야 나타나고(그나마도 경호 핑계 대고 안 가다가 여왕이 현장에 가니까 그제서야 급하게 쫓아온거) 그나마도 삐딱하게 서서 대충 불탄 건물 보다가 주민들 면담도 거부하고 런해버려서 욕 바가지로 쳐먹은 전과가 있음 :aru_25:",
 "handle": "iryu0428.pointless.chat.ap.brid.gy",
@@ -4423,17 +4433,17 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 0.11,
-"화재": 0.24,
+"지진": 0.1,
+"화재": 0.32,
 "불났": 0.05,
-"정전": 0.05,
-"폭발": 0.53,
-"붕괴": 0.6,
+"정전": 0.15,
+"폭발": 0.48,
+"붕괴": 0.64,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.56,
-"지하철": 0.87,
-"사고": 2.5,
+"속보": 0.5,
+"지하철": 0.88,
+"사고": 2.35,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -4709,7 +4719,7 @@
 },
 {
 "term": "무디스",
-"traffic": "2000+",
+"traffic": "200+",
 "time": "2026-11-22T10:50:00+00:00",
 "news": [
 {
@@ -4772,9 +4782,9 @@
 "link": "https://sports.donga.com/ent/article/all/20261120/135060769/1"
 },
 {
-"title": "김종국 결혼 1년만에..'대역' 신부설 휘말렸다! 믿었던 유재석까지 ('런닝맨')",
-"source": "Chosunbiz",
-"link": "https://biz.chosun.com/entertainment/enter_general/2026/11/22/MFQWCMJXGVSTIOBZGM4TAMJSMU/"
+"title": "“장모님 개인 갤러리서 결혼식” 유재석, 강기영 ‘금수저 아내’ 언급 (‘런닝맨’)",
+"source": "매일경제",
+"link": "https://www.mk.co.kr/news/broadcasting-service/12215740"
 }
 ],
 "new": true
@@ -4828,7 +4838,7 @@
 {
 "title": "미운 우리 새끼 : 설운도, 허경환의 처참한 부추전 요리에 도움 나선 후 빠른 손절",
 "source": "programs.sbs.co.kr",
-"link": "https://programs.sbs.co.kr/enter/woori/clip/52019/OC483367571"
+"link": "https://programs.sbs.co.kr/enter/woori/clip/52019/OC483367571?div=live_end"
 }
 ],
 "new": true
