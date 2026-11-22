@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-22T19:35:27.460775+00:00",
+"updated": "2026-11-22T19:37:41.102746+00:00",
 "errors": [],
 "events": [
 {
@@ -1046,67 +1046,12 @@
 "판사들",
 "행동"
 ]
-},
-{
-"id": "mWDc4SGU2WlhXYzhDRnVwoc51337",
-"first": "2026-11-22T13:37:00+00:00",
-"last": "2026-11-22T13:37:00+00:00",
-"updated": "2026-11-22T13:45:27.058707+00:00",
-"headline": "아파트서 엄마와 5개월 아기 추락…안고있던 아기만 무사",
-"cat": "경제",
-"regions": [],
-"sources": [
-"SBS",
-"문화일보",
-"조선일보"
-],
-"updates": [
-{
-"title": "5개월 된 아이 안고 추락… 엄마는 숨지고 딸은 살았다",
-"source": "조선일보",
-"link": "https://www.chosun.com/national/2026/11/22/VDDA67YAPRHTRNU5SUTF7VAUFY/",
-"time": "2026-11-22T11:05:51+00:00",
-"stage": "후속"
-},
-{
-"title": "아기 살았지만 엄마는…아파트서 5개월 딸 안고 추락사",
-"source": "SBS",
-"link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008857823&plink=RSSLINK&cooper=RSSREADER",
-"time": "2026-11-22T13:14:41+00:00",
-"stage": "후속"
-},
-{
-"title": "[속보]아파트서 엄마와 5개월 아기 추락…안고있던 아기만 무사",
-"source": "문화일보",
-"link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE4tTTVOdnVOaDNTZm9yNGhwX24yanFORmJmVFRSVWthclUtNDJxdTBuTUhTWUZrRG9yQ2YzdDM4QUZmWDc4SGU2WlhXYzhDRnVw?oc=5",
-"time": "2026-11-22T13:37:00+00:00",
-"stage": "얼럿"
-}
-],
-"level": "BULLETIN",
-"latest": "아파트서 엄마와 5개월 아기 추락…안고있던 아기만 무사",
-"tok": [
-"5개월",
-"딸은",
-"무사",
-"살았다",
-"살았지",
-"숨지고",
-"아기",
-"아이",
-"아파트서",
-"안고",
-"안고있던",
-"엄마",
-"추락",
-"추락사"
-]
 }
 ],
 "sns": {
 "terms": {
 "지진": {
-"n30": 1,
+"n30": 2,
 "base": 0.8,
 "spike": false
 },
@@ -1146,7 +1091,7 @@
 "spike": false
 },
 "속보": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -1162,7 +1107,7 @@
 },
 "실종": {
 "n30": 1,
-"base": 0.2,
+"base": 0.3,
 "spike": false
 },
 "단수": {
@@ -1187,6 +1132,16 @@
 }
 },
 "posts": [
+{
+"text": "【지진 정보】일본 시간 11월 23일 04:31경\n진원: Kumamoto Region, Kumamoto Prefecture (M3.0, 깊이 약 10km)\n최대 진도: 1\n진도 1: 나가사키현, 구마모토현\n이 지진으로 인한 쓰나미 걱정은 없습니다.\n(일본 기상청 발표)\n#일본 #지진 #방재",
+"handle": "ko.soramoyou.yk-planning.jp",
+"name": "Soramoyou 한국어",
+"time": "2026-11-22T19:36:35.950Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/ko.soramoyou.yk-planning.jp/post/3n2weg7wv5b2j",
+"term": "지진"
+},
 {
 "text": "회천에서 쿄샤가 실종된건... 사야카의 기억에서 자신이 마녀가 되고 쿄코가 자신을 위해서 희생한 기억이 사라져서 라고 생각하니까 너무슬퍼... \n없던일이 된건 다행이지만... 그 기억까지 사라져도 되는걸까? 다시돌려줘 엉엉",
 "handle": "hlepdowoom.bsky.social",
@@ -1426,7 +1381,7 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 0.79,
+"지진": 0.91,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
@@ -1436,8 +1391,8 @@
 "미사일": 0.05,
 "속보": 0.05,
 "지하철": 0.05,
-"사고": 0.2,
-"실종": 0.32,
+"사고": 0.18,
+"실종": 0.39,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -1804,14 +1759,14 @@
 "time": "2026-11-22T15:40:00+00:00",
 "news": [
 {
-"title": "Liverpool 4-0 Manchester United: Nightmare start to Mauricio Pochettino's reign after Anfield hammering",
-"source": "BBC",
-"link": "https://www.bbc.com/sport/football/live/cm62pqqw6d29t"
-},
-{
-"title": "Liverpool v Manchester United: Premier League – live",
+"title": "Liverpool 4-0 Manchester United: Premier League – as it happened",
 "source": "The Guardian",
 "link": "https://www.theguardian.com/football/live/2026/nov/22/liverpool-v-manchester-united-premier-league-live"
+},
+{
+"title": "Liverpool: Was Man Utd red card for Leny Yoro in Premier League the correct decision?",
+"source": "BBC",
+"link": "https://www.bbc.com/sport/football/articles/cq7827p8emmxo"
 }
 ],
 "new": true
@@ -1822,14 +1777,14 @@
 "time": "2026-11-22T15:30:00+00:00",
 "news": [
 {
-"title": "리버풀, 맨체스터 유나이티드에 4-0 완승…비르츠 1골 1도움 활약 : EPL",
-"source": "재경일보",
-"link": "https://news.jkn.co.kr/post/1114743"
+"title": "리버풀, 맨유에 4-0 완승… 포체티노 감독 데뷔전부터 굴욕",
+"source": "대경일보",
+"link": "https://www.dkilbo.com/news/articleView.html?idxno=561705"
 },
 {
-"title": "'충격 대참사' 포체티노도 맨유 추락 막지 못했다...전반 8분 만에 요로 퇴장→데뷔전부터 리버풀에 0-4 참패, 리그 19위 추락",
-"source": "MHN스포츠",
-"link": "https://mhnse.com/news/articleView.html?idxno=1706713"
+"title": "리버풀은 안필드에서 맨체스터 유나이티드를 상대로 전력을 회복해야 합니다.",
+"source": "Vietnam.vn",
+"link": "https://www.vietnam.vn/ko/liverpool-can-lay-lai-suc-manh-tai-anfield-truoc-man-united"
 }
 ],
 "new": true
