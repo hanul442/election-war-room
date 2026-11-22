@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-22T18:53:26.338583+00:00",
+"updated": "2026-11-22T18:55:40.990227+00:00",
 "errors": [],
 "events": [
 {
@@ -1316,7 +1316,7 @@
 "sns": {
 "terms": {
 "지진": {
-"n30": 1,
+"n30": 0,
 "base": 1.5,
 "spike": false
 },
@@ -1341,7 +1341,7 @@
 "spike": true
 },
 "붕괴": {
-"n30": 2,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
@@ -1525,16 +1525,6 @@
 "url": "https://www.youtube.com/watch?v=hOEiFxvLno8"
 },
 {
-"text": "【지진 정보】일본 시간 11월 23일 03:19경\n진원: Hida, Gifu Prefecture (M3.0, 깊이 약 10km)\n최대 진도: 1\n진도 1: 나가노현, 기후현\n이 지진으로 인한 쓰나미 걱정은 없습니다.\n(일본 기상청 발표)\n#일본 #지진 #방재",
-"handle": "ko.soramoyou.yk-planning.jp",
-"name": "Soramoyou 한국어",
-"time": "2026-11-22T18:23:34.253Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/ko.soramoyou.yk-planning.jp/post/3n2wadnkllu2w",
-"term": "지진"
-},
-{
 "platform": "YouTube",
 "text": "[효성중공업 주가전망] *7분전 속보* 177만원 재돌파 실패에 흔들리셨죠? 숨겨진 바닥 흐름, 이렇게 될겁니다",
 "handle": "UC2nCdx_osQqV62wyIs9CbpQ",
@@ -1613,11 +1603,11 @@
 "n30": 8,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-22T18:53:26.338583+00:00"
+"since": "2026-11-22T18:55:40.990227+00:00"
 }
 ],
 "baseline": {
-"지진": 1.48,
+"지진": 1.33,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
@@ -1627,7 +1617,7 @@
 "미사일": 0.05,
 "속보": 0.05,
 "지하철": 0.05,
-"사고": 0.6,
+"사고": 0.64,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -1830,55 +1820,19 @@
 },
 "trends": [
 {
-"term": "epl",
-"traffic": "500+",
-"time": "2026-11-22T17:30:00+00:00",
-"news": [
-{
-"title": "Premier League recap: Newcastle draw Arsenal, Leeds upset Chelsea",
-"source": "ESPN",
-"link": "https://www.espn.com/soccer/story/_/id/50532558/premier-league-live-updates-man-city-chelsea-arsenal"
-},
-{
-"title": "Football results and schedule for November 22nd: Chelsea suffers heavy defeat to Leeds United, Nam Dinh consolidates top spot.",
-"source": "Vietnam.vn",
-"link": "https://www.vietnam.vn/en/ket-qua-lich-thi-dau-bong-da-ngay-22-11-chelsea-thua-dam-leeds-united-nam-dinh-cung-co-ngoi-dau"
-}
-],
-"new": true
-},
-{
 "term": "밀란 대 프로시노네",
 "traffic": "500+",
 "time": "2026-11-22T17:00:00+00:00",
 "news": [
 {
-"title": "Liverpool vs. Man Utd (Nov 22, 2026) Team Stats",
+"title": "Germany 5-0 Netherlands (Nov 16, 2026) Game Analysis",
 "source": "ESPN",
-"link": "https://www.espn.com/soccer/team-stats/_/gameId/401878755"
+"link": "https://www.espn.com/soccer/report/_/gameId/401861185"
 },
 {
-"title": "Hull 2-0 Brighton (Nov 22, 2026) Team Stats",
-"source": "ESPN",
-"link": "https://www.espn.com/soccer/team-stats/_/gameId/401879234"
-}
-],
-"new": true
-},
-{
-"term": "리버풀",
-"traffic": "500+",
-"time": "2026-11-22T17:00:00+00:00",
-"news": [
-{
-"title": "엔터 업계 역사 새로 쓴 ‘GTA6’... 출시 첫날 매출 5조원",
-"source": "조선일보",
-"link": "https://www.chosun.com/economy/tech_it/2026/11/22/RMP5LT4KTBHGRBCZOQTQ2XWEOM/"
-},
-{
-"title": "'GTA6' 하루 만에 5조원대 팔렸다... 게임 넘어 엔터테인먼트 흥행史 새로 써",
-"source": "전자신문",
-"link": "https://www.etnews.com/20261122000083"
+"title": "Klopp's Germany Routs Xavi's Netherlands To Book Nations League Quarterfinals",
+"source": "FOX Sports",
+"link": "https://www.foxsports.com/stories/soccer/germany-routs-the-netherlands-50-in-nations-league-to-confirm-renaissance-under-klopp"
 }
 ],
 "new": true
@@ -1921,18 +1875,18 @@
 },
 {
 "term": "빗썸",
-"traffic": "100+",
+"traffic": "200+",
 "time": "2026-11-22T16:30:00+00:00",
 "news": [
+{
+"title": "업비트·빗썸 사상 처음 적자, 뒤따르는 시장 침체의 신호 | 엠블록",
+"source": "매일경제",
+"link": "https://www.mk.co.kr/newsletter/page/3575"
+},
 {
 "title": "업비트·빗썸, 사이버 CYBER 입출금 동시 중단…거래는 열고 송금은 막았다",
 "source": "위키트리",
 "link": "https://www.wikitree.co.kr/articles/1176751"
-},
-{
-"title": "빗썸, 사이버(CYBER) 입출금 일시 중지 안내",
-"source": "코인리더스",
-"link": "https://www.coinreaders.com/272321"
 }
 ],
 "new": true
@@ -1994,6 +1948,42 @@
 "title": "‘스페인 월드컵 개최 포기?’ 불타는 의지, 바르셀로나-레알 마드리드 안방에서? “챔피언이잖아...그렇게 될 것”",
 "source": "Goal.com",
 "link": "https://www.goal.com/kr/%EB%89%B4%EC%8A%A4/%E1%84%89%E1%85%B3%E1%84%91%E1%85%A6%E1%84%8B%E1%85%B5%E1%86%AB-%E1%84%8B%E1%85%AF%E1%86%AF%E1%84%83%E1%85%B3%E1%84%8F%E1%85%A5%E1%86%B8-%E1%84%80%E1%85%A2%E1%84%8E%E1%85%AC-%E1%84%91%E1%85%A9%E1%84%80%E1%85%B5-%E1%84%8B%E1%85%B5%E1%86%B8%E1%84%8C%E1%85%A1%E1%86%BC-%E1%84%91%E1%85%B5%E1%84%85%E1%85%A7%E1%86%A8-%E1%84%87%E1%85%AE%E1%86%AF%E1%84%90%E1%85%A1%E1%84%82%E1%85%B3%E1%86%AB-%E1%84%8B%E1%85%B4%E1%84%8C%E1%85%B5-%E1%84%87%E1%85%A1%E1%84%85%E1%85%B3%E1%84%89%E1%85%A6%E1%86%AF%E1%84%85%E1%85%A9%E1%84%82%E1%85%A1-%E1%84%85%E1%85%A6%E1%84%8B%E1%85%A1%E1%86%AF-%E1%84%86%E1%85%A1%E1%84%83%E1%85%B3%E1%84%85%E1%85%B5%E1%84%83%E1%85%B3-%E1%84%8B%E1%85%A1%E1%86%AB%E1%84%87%E1%85%A1%E1%86%BC%E1%84%8B%E1%85%A6%E1%84%89%E1%85%A5--%E1%84%8E%E1%85%A2%E1%86%B7%E1%84%91%E1%85%B5%E1%84%8B%E1%85%A5%E1%86%AB%E1%84%8B%E1%85%B5%E1%84%8C%E1%85%A1%E1%86%AD%E1%84%8B%E1%85%A1--%E1%84%80%E1%85%B3%E1%84%85%E1%85%A5%E1%87%82%E1%84%80%E1%85%A6-%E1%84%83%E1%85%AC%E1%86%AF-%E1%84%80%E1%85%A5%E1%86%BA/bltd770ea97e8d68e28"
+}
+],
+"new": true
+},
+{
+"term": "liverpool vs man utd",
+"traffic": "2000+",
+"time": "2026-11-22T15:40:00+00:00",
+"news": [
+{
+"title": "Liverpool 4-0 Manchester United: Nightmare start to Mauricio Pochettino's reign after Anfield hammering",
+"source": "BBC",
+"link": "https://www.bbc.com/sport/football/live/cm62pqqw6d29t"
+},
+{
+"title": "Liverpool v Manchester United: Premier League – live",
+"source": "The Guardian",
+"link": "https://www.theguardian.com/football/live/2026/nov/22/liverpool-v-manchester-united-premier-league-live"
+}
+],
+"new": true
+},
+{
+"term": "리버풀 대 맨유",
+"traffic": "10000+",
+"time": "2026-11-22T15:30:00+00:00",
+"news": [
+{
+"title": "“새 감독 선임한 맨유가 어떤 축구를 할지 모르겠다”… 노스웨스트 더비 앞두고 경계심 드러낸 리버풀 감독, “경기 초반이 중요”",
+"source": "베스트일레븐",
+"link": "https://www.besteleven.com/news/articleView.html?idxno=314241"
+},
+{
+"title": "리버풀은 안필드에서 맨체스터 유나이티드를 상대로 전력을 회복해야 합니다.",
+"source": "Vietnam.vn",
+"link": "https://www.vietnam.vn/ko/liverpool-can-lay-lai-suc-manh-tai-anfield-truoc-man-united"
 }
 ],
 "new": true
