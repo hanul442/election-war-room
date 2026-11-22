@@ -1,7 +1,40 @@
 {
-"updated": "2026-11-22T10:59:26.798776+00:00",
+"updated": "2026-11-22T11:01:43.361180+00:00",
 "errors": [],
 "events": [
+{
+"id": "RTCZJRGY2TCNTCMQYWKYRUGE1055",
+"first": "2026-11-22T10:55:00+00:00",
+"last": "2026-11-22T10:55:00+00:00",
+"updated": "2026-11-22T11:01:43.361180+00:00",
+"headline": "고현정, 뼈마름 어쩌나···제주도 강풍에 스러지겠네",
+"cat": "재난",
+"regions": [
+"제주"
+],
+"sources": [
+"조선일보"
+],
+"updates": [
+{
+"title": "고현정, 뼈마름 어쩌나···제주도 강풍에 스러지겠네",
+"source": "조선일보",
+"link": "https://www.chosun.com/entertainments/broadcast/2026/11/22/GZRTCZJRGY2TCNTCMQYWKYRUGE/",
+"time": "2026-11-22T10:55:00+00:00",
+"stage": "1보"
+}
+],
+"level": "ALERT",
+"latest": "고현정, 뼈마름 어쩌나···제주도 강풍에 스러지겠네",
+"tok": [
+"강풍",
+"고현정",
+"뼈마름",
+"스러지겠네",
+"어쩌나",
+"제주"
+]
+},
 {
 "id": "wNISX20261122_00038783221052",
 "first": "2026-11-22T10:52:39+00:00",
@@ -1195,6 +1228,40 @@
 "전북교육청",
 "통학버스",
 "해킹"
+]
+},
+{
+"id": "4bGo5UDZncVlJdXVVRkdRoc51002",
+"first": "2026-11-22T10:02:01+00:00",
+"last": "2026-11-22T10:02:01+00:00",
+"updated": "2026-11-22T11:01:43.361180+00:00",
+"headline": "李대통령 '대장동 의혹' 또 반박…\"업자와 결탁한 시장이라면 할 수 있는 행동 아냐\"",
+"cat": "정치",
+"regions": [],
+"sources": [
+"KBC광주방송"
+],
+"updates": [
+{
+"title": "[속보]李대통령 '대장동 의혹' 또 반박…\"업자와 결탁한 시장이라면 할 수 있는 행동 아냐\"",
+"source": "KBC광주방송",
+"link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE55OGtna1hxS21tMUhQb0RwbU9VcE1QYzEtcnpLU0ktQ295VnR4akl6cnd1cGkzWXp1TWFINGZIN3Jvay1DRmQzWS0yanh4aXFGZnI4bGo5UDZncVlJdXVVRkdR?oc=5",
+"time": "2026-11-22T10:02:01+00:00",
+"stage": "얼럿"
+}
+],
+"level": "URGENT",
+"latest": "李대통령 '대장동 의혹' 또 반박…\"업자와 결탁한 시장이라면 할 수 있는 행동 아냐\"",
+"tok": [
+"李대통령",
+"결탁한",
+"대장동",
+"반박",
+"시장이라면",
+"아냐",
+"업자",
+"있는",
+"행동"
 ]
 },
 {
@@ -3743,12 +3810,12 @@
 "spike": false
 },
 "폭발": {
-"n30": 4,
-"base": 0.6,
+"n30": 2,
+"base": 0.7,
 "spike": false
 },
 "붕괴": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -3758,14 +3825,14 @@
 "spike": false
 },
 "미사일": {
-"n30": 2,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
 "속보": {
-"n30": 5,
+"n30": 1,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "지하철": {
 "n30": 2,
@@ -3774,7 +3841,7 @@
 },
 "사고": {
 "n30": 2,
-"base": 2.6,
+"base": 2.5,
 "spike": false
 },
 "실종": {
@@ -4026,27 +4093,19 @@
 "url": "https://www.youtube.com/watch?v=IyT2e2dCC3k"
 }
 ],
-"spikes": [
-{
-"term": "속보",
-"n30": 5,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-22T10:59:26.798776+00:00"
-}
-],
+"spikes": [],
 "baseline": {
-"지진": 1.7,
+"지진": 1.73,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.68,
+"폭발": 0.71,
 "붕괴": 0.05,
 "대피": 0.05,
-"미사일": 0.12,
+"미사일": 0.11,
 "속보": 0.05,
 "지하철": 0.05,
-"사고": 2.54,
+"사고": 2.49,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -4290,14 +4349,14 @@
 "time": "2026-11-22T09:10:00+00:00",
 "news": [
 {
-"title": "내년 회계사시험 'AI 부정' 대책 골몰…인원축소 전망",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261121044700002"
-},
-{
 "title": "회계사 시험 합격이 끝 아니다…업무수행 역량 확인 강화",
 "source": "동아일보",
 "link": "https://www.donga.com/news/Economy/article/all/20261122/135066588/1"
+},
+{
+"title": "내년 회계사시험 'AI 부정' 대책 골몰…인원축소 전망",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261121044700002"
 }
 ],
 "new": false
