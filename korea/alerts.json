@@ -1,12 +1,12 @@
 {
-"updated": "2026-11-22T01:05:27.991014+00:00",
+"updated": "2026-11-22T01:07:45.862777+00:00",
 "errors": [],
 "events": [
 {
 "id": "FHM2NkekxMd09Pd2N6Nm8oc50100",
 "first": "2026-11-22T01:00:00+00:00",
 "last": "2026-11-22T01:00:00+00:00",
-"updated": "2026-11-22T01:03:07.432568+00:00",
+"updated": "2026-11-22T01:07:45.862777+00:00",
 "headline": "FBI까지 해킹당해, 트럼프 \"알수 없던 일 알게될지도, 긍정적으로 본다\" 뜬금없어",
 "cat": "국제",
 "regions": [],
@@ -20,6 +20,13 @@
 "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNVzFiUXJCa2dkSGplMkVPWWdMZWhYUmYzSU9Ca0tUZmZfWUR6NzRIOGtzM0h1NmdqSF9JUDFWR3Nxc0gyaUF3TEhteE5ya3ZVQmVBQTVEV2s0cGdiRS1ScGpWVHllU2lOajZET0kteGg5OWpYUHBtMDlGTTJEeU1RR28xc2FHM2NkekxMd09Pd2N6Nm8?oc=5",
 "time": "2026-11-22T01:00:00+00:00",
 "stage": "얼럿"
+},
+{
+"title": "[속보]FBI까지 해킹당해, 트럼프 \"알수 없던 일 알게될지도, 긍정적으로 본다\" 뜬금없어",
+"source": "국제신문",
+"link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOdVRkSzhLX2Yxc0QtS3lVUEVGaU5MaVFUZHBHRWF2em1HODYxNDM2WWpBbjNOeDZ4X1VkdUZhMVZodk96czZjbEd0Uy1aTWV6V3R5Q29IVXVkazFZY2o5Sm84RW12SVVDcjFURW9odUdVRE94OHFFaW5tQU9WQ09kb2JJYXpXY2NSb0Zxdg?oc=5",
+"time": "2026-11-22T01:00:00+00:00",
+"stage": "속보"
 }
 ],
 "level": "URGENT",
@@ -1732,7 +1739,7 @@
 },
 "폭발": {
 "n30": 2,
-"base": 0.4,
+"base": 0.5,
 "spike": false
 },
 "붕괴": {
@@ -1757,7 +1764,7 @@
 },
 "지하철": {
 "n30": 2,
-"base": 1.1,
+"base": 1.0,
 "spike": false
 },
 "사고": {
@@ -1767,7 +1774,7 @@
 },
 "실종": {
 "n30": 0,
-"base": 0.7,
+"base": 0.6,
 "spike": false
 },
 "단수": {
@@ -2004,18 +2011,18 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 0.29,
+"지진": 0.26,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.45,
-"붕괴": 0.31,
+"폭발": 0.51,
+"붕괴": 0.28,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 1.02,
-"사고": 0.79,
-"실종": 0.62,
+"지하철": 0.92,
+"사고": 0.81,
+"실종": 0.56,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
