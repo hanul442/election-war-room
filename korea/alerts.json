@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-22T14:52:02.269663+00:00",
+"updated": "2026-11-22T14:54:14.911309+00:00",
 "errors": [],
 "events": [
 {
@@ -2951,7 +2951,7 @@
 "spike": false
 },
 "폭발": {
-"n30": 2,
+"n30": 0,
 "base": 0.3,
 "spike": false
 },
@@ -2971,18 +2971,18 @@
 "spike": false
 },
 "속보": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
 "지하철": {
 "n30": 1,
-"base": 0.6,
+"base": 0.7,
 "spike": false
 },
 "사고": {
 "n30": 1,
-"base": 2.3,
+"base": 2.2,
 "spike": false
 },
 "실종": {
@@ -3205,18 +3205,18 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 0.26,
+"지진": 0.23,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.31,
-"붕괴": 0.16,
+"폭발": 0.28,
+"붕괴": 0.14,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.68,
-"사고": 2.18,
-"실종": 0.32,
+"지하철": 0.71,
+"사고": 2.06,
+"실종": 0.29,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -3409,6 +3409,42 @@
 },
 "trends": [
 {
+"term": "아우크스부르크 대 마인츠 05",
+"traffic": "500+",
+"time": "2026-11-22T13:50:00+00:00",
+"news": [
+{
+"title": "Sassuolo vs. Napoli (Nov 29, 2026) Odds and Spread",
+"source": "ESPN",
+"link": "https://www.espn.com/soccer/odds/_/gameId/401874992"
+},
+{
+"title": "Picked! Darrell Sweeting hauls in the interception",
+"source": "ESPN",
+"link": "https://www.espn.com/video/clip/_/id/50557603/picked-darrell-sweeting-hauls-interception"
+}
+],
+"new": true
+},
+{
+"term": "맨유 리버풀",
+"traffic": "500+",
+"time": "2026-11-22T13:50:00+00:00",
+"news": [
+{
+"title": "“새 감독 선임한 맨유가 어떤 축구를 할지 모르겠다”… 노스웨스트 더비 앞두고 경계심 드러낸 리버풀 감독, “경기 초반이 중요”",
+"source": "베스트일레븐",
+"link": "https://www.besteleven.com/news/articleView.html?idxno=314241"
+},
+{
+"title": "리버풀은 안필드에서 맨체스터 유나이티드를 상대로 전력을 회복해야 합니다.",
+"source": "Vietnam.vn",
+"link": "https://www.vietnam.vn/ko/liverpool-can-lay-lai-suc-manh-tai-anfield-truoc-man-united"
+}
+],
+"new": true
+},
+{
 "term": "총파업",
 "traffic": "200+",
 "time": "2026-11-22T13:40:00+00:00",
@@ -3480,27 +3516,9 @@
 "link": "https://www.24h.com.vn/bong-da/truc-tiep-bong-da-barcelona-villarreal-diem-tua-san-nha-la-liga-c48a1813129.html"
 },
 {
-"title": "Trực tiếp bóng đá hôm nay 22/11: Lịch phát sóng và tỷ số",
-"source": "Thể Thao 247",
-"link": "https://thethao247.vn/63-truc-tiep-bong-da-hom-nay-22-11-lich-phat-song-va-ty-so-c1-d446640.html"
-}
-],
-"new": true
-},
-{
-"term": "pakistan a vs india a",
-"traffic": "500+",
-"time": "2026-11-22T13:10:00+00:00",
-"news": [
-{
-"title": "Pakistan A opt to bat against India A; both teams unchanged",
-"source": "Cricinfo",
-"link": "https://www.cricinfo.com/story/ind-vs-pak-asia-cup-rising-stars-pakistan-a-opt-to-bat-against-india-a-both-sides-unchanged-1563603"
-},
-{
-"title": "Tilak Varma injury scare: Will India A captain bat in 314-run chase against Pakistan A in Asia Cup Rising Stars?",
-"source": "Yahoo Sports",
-"link": "https://sports.yahoo.com/articles/tilak-varma-injury-scare-india-141845571.html"
+"title": "סיכום משחק: ברצלונה נגד ויאריאל, 20:00, 22 בנובמבר: שמירה על מקומם בפסגה.",
+"source": "Vietnam.vn",
+"link": "https://www.vietnam.vn/he/nhan-dinh-tran-dau-barcelona-vs-villarreal-20h00-ngay-22-11-vung-vang-giu-ngoi-dau"
 }
 ],
 "new": true
@@ -3524,6 +3542,24 @@
 "new": true
 },
 {
+"term": "pakistan a vs india a",
+"traffic": "100+",
+"time": "2026-11-22T13:10:00+00:00",
+"news": [
+{
+"title": "Pakistan A opt to bat against India A; both teams unchanged",
+"source": "Cricinfo",
+"link": "https://www.cricinfo.com/story/ind-vs-pak-asia-cup-rising-stars-pakistan-a-opt-to-bat-against-india-a-both-sides-unchanged-1563603"
+},
+{
+"title": "Tilak Varma injury scare: Will India A captain bat in 314-run chase against Pakistan A in Asia Cup Rising Stars?",
+"source": "Yahoo Sports",
+"link": "https://sports.yahoo.com/articles/tilak-varma-injury-scare-india-141845571.html"
+}
+],
+"new": true
+},
+{
 "term": "barcelona vs villarreal",
 "traffic": "2000+",
 "time": "2026-11-22T12:20:00+00:00",
@@ -3537,31 +3573,6 @@
 "title": "El Villareal anota el segundo",
 "source": "TUDN",
 "link": "https://www.tudn.com/futbol/la-liga/el-villareal-anota-el-segundo-video"
-}
-],
-"new": true
-},
-{
-"term": "이혜영",
-"traffic": "200+",
-"time": "2026-11-22T12:20:00+00:00",
-"news": [],
-"new": true
-},
-{
-"term": "明天的天氣",
-"traffic": "100+",
-"time": "2026-11-22T12:20:00+00:00",
-"news": [
-{
-"title": "白天轉晴早晚冷下週二起另一波",
-"source": "氣象應用推廣基金會",
-"link": "http://www.metapp.org.tw/pages/post-bacd70f1e44fcf4c2752.html"
-},
-{
-"title": "明天的天氣/2波冷空氣來了！全台降溫變天「這3天最濕冷」低溫下探15度， 一周氣象一次看",
-"source": "風傳媒",
-"link": "https://www.storm.mg/lifestyle/11183974"
 }
 ],
 "new": true
