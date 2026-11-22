@@ -1,7 +1,41 @@
 {
-"updated": "2026-11-22T11:17:16.903975+00:00",
+"updated": "2026-11-22T11:19:28.640986+00:00",
 "errors": [],
 "events": [
+{
+"id": "wNISX20261122_00038783451116",
+"first": "2026-11-22T11:16:52+00:00",
+"last": "2026-11-22T11:16:52+00:00",
+"updated": "2026-11-22T11:19:28.640986+00:00",
+"headline": "목동6단지 아파트 정전, 승강기 갇힌 1명 구조…20분 안 돼 복구",
+"cat": "재난",
+"regions": [],
+"sources": [
+"뉴시스"
+],
+"updates": [
+{
+"title": "목동6단지 아파트 정전, 승강기 갇힌 1명 구조…20분 안 돼 복구",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261122_0003878345",
+"time": "2026-11-22T11:16:52+00:00",
+"stage": "1보"
+}
+],
+"level": "ALERT",
+"latest": "목동6단지 아파트 정전, 승강기 갇힌 1명 구조…20분 안 돼 복구",
+"tok": [
+"1명",
+"20분",
+"갇힌",
+"구조",
+"목동6단지",
+"복구",
+"승강기",
+"아파트",
+"정전"
+]
+},
 {
 "id": "WFlUWNRRHdOaUxkYk8xSAoc50750",
 "first": "2026-11-22T07:50:10+00:00",
@@ -360,7 +394,7 @@
 "id": "wNISX20261122_00038780870334",
 "first": "2026-11-22T03:34:02+00:00",
 "last": "2026-11-22T11:05:47+00:00",
-"updated": "2026-11-22T11:10:34.963524+00:00",
+"updated": "2026-11-22T11:19:28.640986+00:00",
 "headline": "이 대통령, 최교진 교육부 장관 사의 표명 수락…靑 \"후임 인선 절차 진행\"",
 "cat": "정치",
 "regions": [],
@@ -742,6 +776,13 @@
 "link": "https://www.yna.co.kr/view/AKR20261122024052001",
 "time": "2026-11-22T10:34:21+00:00",
 "stage": "후속"
+},
+{
+"title": "[속보] 李 대통령, 최교진 교육부 장관 면직안 재가",
+"source": "더팩트",
+"link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5tZ1VXOXJzWjZGd2tVQUh4MW83Mkx0TlJxN0pxUlg3OEd6UUFuNFpya2czS0VyZWhQOUJNVTY2Q3BrWXNxbU9NbkdaTHdvamViUE930gFTQVVfeXFMTm1nVVc5cnNaNkZ3a1VBSHgxbzcyTHROUnE3SnFSWDc4R3pRQW40WnJrZzNLRXJlaFA5Qk1VNjZDcGtZc3FtT01uR1pMd29qZWJQT3c?oc=5",
+"time": "2026-11-22T10:39:00+00:00",
+"stage": "속보"
 },
 {
 "title": "[속보] 李 대통령, 최교진 교육부 장관 면직안 재가",
@@ -3809,7 +3850,7 @@
 "terms": {
 "지진": {
 "n30": 1,
-"base": 1.6,
+"base": 1.4,
 "spike": false
 },
 "화재": {
@@ -3853,13 +3894,13 @@
 "spike": true
 },
 "지하철": {
-"n30": 0,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
 "사고": {
 "n30": 1,
-"base": 2.2,
+"base": 2.0,
 "spike": false
 },
 "실종": {
@@ -3889,6 +3930,16 @@
 }
 },
 "posts": [
+{
+"text": "아샤갈 지하철 파업한다고?",
+"handle": "tiredturtle0115.bsky.social",
+"name": "피곤한 거북이",
+"time": "2026-11-22T11:18:24.243Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/tiredturtle0115.bsky.social/post/3n2vilf7n5s2d",
+"term": "지하철"
+},
 {
 "platform": "YouTube",
 "text": "비트코인 6만 달러 붕괴, 7월 이후 처음",
@@ -4095,28 +4146,28 @@
 "n30": 7,
 "base": 0.5,
 "spike": true,
-"since": "2026-11-22T11:17:16.903975+00:00"
+"since": "2026-11-22T11:19:28.640986+00:00"
 },
 {
 "term": "속보",
 "n30": 6,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-22T11:17:16.903975+00:00"
+"since": "2026-11-22T11:19:28.640986+00:00"
 }
 ],
 "baseline": {
-"지진": 1.41,
+"지진": 1.27,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.45,
+"폭발": 0.41,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.05,
-"사고": 2.04,
+"지하철": 0.15,
+"사고": 1.94,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
