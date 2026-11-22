@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-22T22:42:07.724150+00:00",
+"updated": "2026-11-22T22:44:25.697267+00:00",
 "errors": [],
 "events": [
 {
@@ -1147,7 +1147,7 @@
 "terms": {
 "지진": {
 "n30": 0,
-"base": 0.2,
+"base": 0.1,
 "spike": false
 },
 "화재": {
@@ -1192,7 +1192,7 @@
 },
 "지하철": {
 "n30": 0,
-"base": 0.8,
+"base": 0.7,
 "spike": false
 },
 "사고": {
@@ -1437,17 +1437,17 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 0.15,
+"지진": 0.14,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.37,
+"폭발": 0.33,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.69,
-"사고": 0.18,
+"지하철": 0.62,
+"사고": 0.16,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -1670,8 +1670,62 @@
 },
 "trends": [
 {
-"term": "weather",
+"term": "날씨",
+"traffic": "500000+",
+"time": "2026-11-22T21:40:00+00:00",
+"news": [
+{
+"title": "[날씨] 월요일 아침 영하권 추위…전국에 비·눈 소식",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261122040000004"
+},
+{
+"title": "전국 눈·비…출근길 살얼음 주의보",
+"source": "KBS 뉴스",
+"link": "https://news.kbs.co.kr/news/view.do?ncd=8719531"
+}
+],
+"new": true
+},
+{
+"term": "치매",
 "traffic": "2000+",
+"time": "2026-11-22T21:40:00+00:00",
+"news": [
+{
+"title": "Bruce Willis Seen in New Photo with Daughter Tallulah amid His Dementia Diagnosis",
+"source": "People.com",
+"link": "https://people.com/bruce-willis-seen-in-new-photo-shared-by-daughter-tallulah-12270959"
+},
+{
+"title": "Tallulah Willis apologizes for sharing ‘intimate’ photo with dad Bruce: ‘I can do better’",
+"source": "Yahoo",
+"link": "https://www.yahoo.com/entertainment/celebrity/articles/tallulah-willis-apologizes-sharing-intimate-190631378.html"
+}
+],
+"new": true
+},
+{
+"term": "레임덕",
+"traffic": "100+",
+"time": "2026-11-22T21:40:00+00:00",
+"news": [
+{
+"title": "시동 걸린 트럼프 레임덕…공화당發 국방부 고위직 인준 제동",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261123001000071"
+},
+{
+"title": "트럼프 지명 인사·예산, 여당도 반대...'레임덕' 시작됐다",
+"source": "YTN",
+"link": "https://www.ytn.co.kr/_ln/0104_202611230638428387"
+}
+],
+"new": true
+},
+{
+"term": "weather",
+"traffic": "5000+",
 "time": "2026-11-22T21:30:00+00:00",
 "news": [
 {
@@ -1693,57 +1747,21 @@
 "time": "2026-11-22T21:30:00+00:00",
 "news": [
 {
-"title": "Прогноз погоды в Хабаровске и крае на субботу, 21 ноября",
-"source": "Новости Хабаровска",
-"link": "https://www.dvnovosti.ru/khab/2026/11/21/199580/"
+"title": "Снег ожидается в Амурской области: прогноз погоды",
+"source": "Amur.life",
+"link": "https://www.amur.life/news/2026/11/22/sneg-ozhidaetsya-v-amurskoy-oblasti-prognoz-pogody"
 },
 {
-"title": "Утро в Хабаровске",
-"source": "AmurMedia",
-"link": "https://amurmedia.ru/news/2689742/"
-}
-],
-"new": true
-},
-{
-"term": "thời tiết",
-"traffic": "5000+",
-"time": "2026-11-22T21:30:00+00:00",
-"news": [
-{
-"title": "Dự báo thời tiết Hà Tĩnh ngày 23/11: Phổ biến không mưa",
-"source": "Báo Hà Tĩnh",
-"link": "https://baohatinh.vn/du-bao-thoi-tiet-ha-tinh-ngay-2311-pho-bien-khong-mua-post320729.html"
-},
-{
-"title": "Thời tiết hôm nay 23-11: Cả nước nắng, đêm nay Bắc Bộ đón không khí lạnh tăng cường",
-"source": "Báo Tuổi Trẻ",
-"link": "https://tuoitre.vn/thoi-tiet-hom-nay-23-11-ca-nuoc-nang-dem-nay-bac-bo-don-khong-khi-lanh-tang-cuong-100261122154634887.htm"
-}
-],
-"new": true
-},
-{
-"term": "สภาพอากาศ",
-"traffic": "1000+",
-"time": "2026-11-22T21:30:00+00:00",
-"news": [
-{
-"title": "📌อัปเดตข้อมูล ณ วันที่ 22 พ.ย. 69 เวลา 06.00 น. 📌พื้นที่เสี่ยงฝนตกหนัก - หนักมาก ⛈️ ❄️ ไทยตอนบนมีอากาศเย็นในตอนเช้า แต่ภาคเหนือตอนบนยังมีฝนบางแห่ง 🌡️ 24–25 พ.ย. มวลอากาศเย็นระลอกใหม่จากจีนจะแผ่เสริมลงมา ทำให้ไทยตอนบนมีอากาศเย็นลงและมีลมแรง ⛈️ ภาคใต้เริ่ม",
-"source": "Facebook",
-"link": "https://www.facebook.com/tmd.go.th/photos/%E0%B8%AD%E0%B8%B1%E0%B8%9B%E0%B9%80%E0%B8%94%E0%B8%95%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5-%E0%B8%93-%E0%B8%A7%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%B5%E0%B9%88-22-%E0%B8%9E%E0%B8%A2-69-%E0%B9%80%E0%B8%A7%E0%B8%A5%E0%B8%B2-0600-%E0%B8%99-%E0%B8%9E%E0%B8%B7%E0%B9%89%E0%B8%99%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B9%80%E0%B8%AA%E0%B8%B5%E0%B9%88%E0%B8%A2%E0%B8%87%E0%B8%9D%E0%B8%99%E0%B8%95%E0%B8%81%E0%B8%AB%E0%B8%99%E0%B8%B1%E0%B8%81-%E0%B8%AB%E0%B8%99%E0%B8%B1%E0%B8%81%E0%B8%A1%E0%B8%B2%E0%B8%81-%E0%B9%84%E0%B8%97%E0%B8%A2%E0%B8%95%E0%B8%AD%E0%B8%99%E0%B8%9A/1621163963389066/"
-},
-{
-"title": "สภาพอากาศวันนี้ -28 พ.ย.ใต้ฝนตกต่อเนื่อง ไทยตอนบนอากาศเย็น หมอกตอนเช้า",
-"source": "Thansettakij",
-"link": "https://www.thansettakij.com/general-news/674377"
+"title": "На севере Приамурья снег: прогноз погоды на воскресенье",
+"source": "amur.info",
+"link": "https://amur.info/2026/11/21/na-severe-priamurya-sneg-prognoz-pogody-na-voskresene/"
 }
 ],
 "new": true
 },
 {
 "term": "天气",
-"traffic": "500+",
+"traffic": "1000+",
 "time": "2026-11-22T21:30:00+00:00",
 "news": [
 {
@@ -1761,21 +1779,39 @@
 },
 {
 "term": "klasemen liverpool vs manchester united f.c.",
-"traffic": "100+",
+"traffic": "200+",
 "time": "2026-11-22T21:30:00+00:00",
 "news": [],
 "new": true
 },
 {
+"term": "สภาพอากาศ",
+"traffic": "1000+",
+"time": "2026-11-22T21:30:00+00:00",
+"news": [
+{
+"title": "กรมอุตุนิยมวิทยา. . 🥶 หนาวกว่านี้ยังมีอีกไหม??? หนาวแน่แค่ไหน มาดูกัน! ❄️ ใครเพิ่งเริ่มสัมผัสลมหนาว อย่าเพิ่งคิดว่านี่คือช่วงที่หนาวที่สุดนะคะ เพราะความหนาวยังมีให้ติดตามกันอีก! 🌡️ รอบแรกยังไม่ใช่ช่วงที่หนาวที่สุด! ❄️ ช่วงที่คาดว่าจะหนาวที่สุด คือ ธ.ค. 69 – ม.ค. 70 โดยเฉพาะภาคเห",
+"source": "Facebook",
+"link": "https://www.facebook.com/tmd.go.th/videos/%E0%B8%AB%E0%B8%99%E0%B8%B2%E0%B8%A7%E0%B8%81%E0%B8%A7%E0%B9%88%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B9%89%E0%B8%A2%E0%B8%B1%E0%B8%87%E0%B8%A1%E0%B8%B5%E0%B8%AD%E0%B8%B5%E0%B8%81%E0%B9%84%E0%B8%AB%E0%B8%A1-%E0%B8%AB%E0%B8%99%E0%B8%B2%E0%B8%A7%E0%B9%81%E0%B8%99%E0%B9%88%E0%B9%81%E0%B8%84%E0%B9%88%E0%B9%84%E0%B8%AB%E0%B8%99-%E0%B8%A1%E0%B8%B2%E0%B8%94%E0%B8%B9%E0%B8%81%E0%B8%B1%E0%B8%99-%E0%B9%83%E0%B8%84%E0%B8%A3%E0%B9%80%E0%B8%9E%E0%B8%B4%E0%B9%88%E0%B8%87%E0%B9%80%E0%B8%A3%E0%B8%B4%E0%B9%88%E0%B8%A1%E0%B8%AA%E0%B8%B1%E0%B8%A1%E0%B8%9C%E0%B8%B1%E0%B8%AA%E0%B8%A5%E0%B8%A1%E0%B8%AB%E0%B8%99%E0%B8%B2%E0%B8%A7-%E0%B8%AD%E0%B8%A2%E0%B9%88%E0%B8%B2%E0%B9%80%E0%B8%9E%E0%B8%B4%E0%B9%88/2296469520936159/"
+},
+{
+"title": "สภาพอากาศวันนี้ -28 พ.ย.ใต้ฝนตกต่อเนื่อง ไทยตอนบนอากาศเย็น หมอกตอนเช้า",
+"source": "Thansettakij",
+"link": "https://www.thansettakij.com/general-news/674377"
+}
+],
+"new": true
+},
+{
 "term": "양산시",
-"traffic": "100+",
+"traffic": "200+",
 "time": "2026-11-22T21:00:00+00:00",
 "news": [],
 "new": true
 },
 {
 "term": "홍창기",
-"traffic": "1000+",
+"traffic": "2000+",
 "time": "2026-11-22T20:50:00+00:00",
 "news": [
 {
@@ -1790,42 +1826,6 @@
 }
 ],
 "new": false
-},
-{
-"term": "교장",
-"traffic": "200+",
-"time": "2026-11-22T20:50:00+00:00",
-"news": [
-{
-"title": "\"지우개 없어? 반으로 잘라!\" 감독관이 전한 ‘초유의 수능’",
-"source": "JTBC",
-"link": "https://news.jtbc.co.kr/video/NB12329097"
-},
-{
-"title": "수능날 지우개가 안왔다…“반으로 잘라, 내가 책임” 기지 발휘한 교장",
-"source": "동아일보",
-"link": "https://www.donga.com/news/Society/article/all/20261122/135065591/1"
-}
-],
-"new": true
-},
-{
-"term": "삼성전자",
-"traffic": "5000+",
-"time": "2026-11-22T20:50:00+00:00",
-"news": [
-{
-"title": "\"삼전 30만원·하닉 200만원 이상에 물린 사람…3년은 마음 비워야\"",
-"source": "뉴시스",
-"link": "https://www.newsis.com/view/NISX20261118_0003873510"
-},
-{
-"title": "'7만전자·20만닉스' 전망한 전문가...\"AI 거품, 폭락 시작도 안 했다\" - 머니투데이",
-"source": "머니투데이",
-"link": "https://www.mt.co.kr/society/2026/11/21/2026112110581031975"
-}
-],
-"new": true
 }
 ],
 "trendSeen": [
