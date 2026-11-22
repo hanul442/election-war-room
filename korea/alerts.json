@@ -1,7 +1,40 @@
 {
-"updated": "2026-11-22T12:22:19.569992+00:00",
+"updated": "2026-11-22T12:24:36.273252+00:00",
 "errors": [],
 "events": [
+{
+"id": "wNISX20261122_00038781191221",
+"first": "2026-11-22T12:21:00+00:00",
+"last": "2026-11-22T12:21:00+00:00",
+"updated": "2026-11-22T12:24:36.273252+00:00",
+"headline": "은퇴 후 무너지는 중산층…노후 붕괴 부르는 '5가지 행동'",
+"cat": "재난",
+"regions": [],
+"sources": [
+"뉴시스"
+],
+"updates": [
+{
+"title": "은퇴 후 무너지는 중산층…노후 붕괴 부르는 '5가지 행동'",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261122_0003878119",
+"time": "2026-11-22T12:21:00+00:00",
+"stage": "1보"
+}
+],
+"level": "ALERT",
+"latest": "은퇴 후 무너지는 중산층…노후 붕괴 부르는 '5가지 행동'",
+"tok": [
+"5가지",
+"노후",
+"무너지",
+"부르",
+"붕괴",
+"은퇴",
+"중산층",
+"행동"
+]
+},
 {
 "id": "wNISX20261122_00038780870334",
 "first": "2026-11-22T03:34:02+00:00",
@@ -4085,12 +4118,12 @@
 },
 "정전": {
 "n30": 2,
-"base": 0.5,
+"base": 0.7,
 "spike": false
 },
 "폭발": {
 "n30": 3,
-"base": 0.4,
+"base": 0.3,
 "spike": false
 },
 "붕괴": {
@@ -4115,11 +4148,11 @@
 },
 "지하철": {
 "n30": 3,
-"base": 0.9,
+"base": 0.8,
 "spike": false
 },
 "사고": {
-"n30": 2,
+"n30": 1,
 "base": 2.2,
 "spike": false
 },
@@ -4379,16 +4412,6 @@
 "reposts": 0,
 "url": "https://bsky.app/profile/purple3green.bsky.social/post/3n2vknisw4c25",
 "term": "붕괴"
-},
-{
-"text": "아직요 홀홀..\n이번에도 사고 내지 않고 무사히 책이 나오도록 하겠어요",
-"handle": "dodumi-fla.bsky.social",
-"name": "발9)듬듬_林",
-"time": "2026-11-22T11:53:21.940Z",
-"likes": 1,
-"reposts": 0,
-"url": "https://bsky.app/profile/dodumi-fla.bsky.social/post/3n2vkjwulik27",
-"term": "사고"
 }
 ],
 "spikes": [
@@ -4397,21 +4420,21 @@
 "n30": 5,
 "base": 0.4,
 "spike": true,
-"since": "2026-11-22T12:22:19.569992+00:00"
+"since": "2026-11-22T12:24:36.273252+00:00"
 }
 ],
 "baseline": {
-"지진": 0.07,
-"화재": 0.51,
+"지진": 0.06,
+"화재": 0.56,
 "불났": 0.05,
-"정전": 0.66,
-"폭발": 0.35,
-"붕괴": 0.74,
+"정전": 0.79,
+"폭발": 0.32,
+"붕괴": 0.77,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.37,
-"지하철": 0.81,
-"사고": 2.18,
+"속보": 0.33,
+"지하철": 0.73,
+"사고": 2.06,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -4605,6 +4628,24 @@
 },
 "trends": [
 {
+"term": "weather tomorrow",
+"traffic": "5000+",
+"time": "2026-11-22T11:20:00+00:00",
+"news": [
+{
+"title": "Precipitation observed in a number of regions of Azerbaijan, snow fell at times on Shahdag",
+"source": "1News.az",
+"link": "https://1news.az/en/news/20261122115007430-Precipitation-observed-in-a-number-of-regions-of-Azerbaijan-snow-fell-at-times-on-Shahdag"
+},
+{
+"title": "Temperatures to reach 18°C on Sunday",
+"source": "Report.az",
+"link": "https://report.az/en/ecology/temperatures-to-reach-18-c-on-sunday"
+}
+],
+"new": true
+},
+{
 "term": "유벤투스 대 베네치아",
 "traffic": "500+",
 "time": "2026-11-22T10:50:00+00:00",
@@ -4731,7 +4772,7 @@
 "new": true
 },
 {
-"term": "한전on",
+"term": "한전",
 "traffic": "1000+",
 "time": "2026-11-22T10:20:00+00:00",
 "news": [
@@ -4746,7 +4787,7 @@
 "link": "https://imnews.imbc.com/replay/2026/nwdesk/article/6867650_37004.html"
 }
 ],
-"new": false
+"new": true
 },
 {
 "term": "쇼메이커",
@@ -4765,28 +4806,9 @@
 }
 ],
 "new": true
-},
-{
-"term": "남진",
-"traffic": "5000+",
-"time": "2026-11-22T10:10:00+00:00",
-"news": [
-{
-"title": "남진, 46세·42세 미혼 미모의 두 딸 공개… \"첫째는 김주하 닮아\"",
-"source": "조선일보",
-"link": "https://www.chosun.com/entertainments/broadcast/2026/11/22/MI4TQNRVME4TSZLBGAYTAMRWMQ/"
-},
-{
-"title": "미운 우리 새끼 : 설운도, 허경환의 처참한 부추전 요리에 도움 나선 후 빠른 손절",
-"source": "programs.sbs.co.kr",
-"link": "https://programs.sbs.co.kr/enter/woori/clip/52019/OC483367571?div=live_end"
-}
-],
-"new": true
 }
 ],
 "trendSeen": [
-"축제",
 "충청투데이",
 "치매",
 "치어리더",
@@ -4995,6 +5017,7 @@
 "한소희",
 "한수아",
 "한일전",
+"한전",
 "한전on",
 "한지민",
 "한진칼",
