@@ -1,7 +1,43 @@
 {
-"updated": "2026-11-23T03:41:39.025604+00:00",
+"updated": "2026-11-23T03:44:10.855641+00:00",
 "errors": [],
 "events": [
+{
+"id": "qWHNITEloQ0VHMGRDWDUyoc50337",
+"first": "2026-11-23T03:37:05+00:00",
+"last": "2026-11-23T03:37:05+00:00",
+"updated": "2026-11-23T03:44:10.855641+00:00",
+"headline": "춘천 신동면 팔미리교차로 강촌방향 다중교통사고 발생…교통통제에 우회 당부",
+"cat": "교통",
+"regions": [
+"강원"
+],
+"sources": [
+"CBC뉴스"
+],
+"updates": [
+{
+"title": "[속보] 춘천 신동면 팔미리교차로 강촌방향 다중교통사고 발생…교통통제에 우회 당부",
+"source": "CBC뉴스",
+"link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1nOGpVVE9TRjA5Mmh6ekkyZFhpR3pvTWM1LTZWMjJjN2Z3RWx0amRqdFpjY2JxaFpWdmFBNkV5SFVhbzJBOVZRRHVCc1N4U3FhbGlSTkR2cXpqWHNITEloQ0VHMGRDWDUy?oc=5",
+"time": "2026-11-23T03:37:05+00:00",
+"stage": "얼럿"
+}
+],
+"level": "URGENT",
+"latest": "춘천 신동면 팔미리교차로 강촌방향 다중교통사고 발생…교통통제에 우회 당부",
+"tok": [
+"강촌방향",
+"교통통제",
+"다중교통사고",
+"당부",
+"발생",
+"신동면",
+"우회",
+"춘천",
+"팔미리교차"
+]
+},
 {
 "id": "FRzT2RMLWcyT2lmLUpsUQoc52234",
 "first": "2026-11-22T22:34:14+00:00",
@@ -3404,42 +3440,6 @@
 "직무집행",
 "해제"
 ]
-},
-{
-"id": "pWRUkzSjFWOFU4MTF5V1Eoc50109",
-"first": "2026-11-23T01:09:58+00:00",
-"last": "2026-11-23T01:09:58+00:00",
-"updated": "2026-11-23T01:32:02.416163+00:00",
-"headline": "장동혁 “조 대법원장 탄핵의 최종 목표는 이재명 탈옥⋯탄핵안 처리하면 이 정권 끝장”",
-"cat": "정치",
-"regions": [],
-"sources": [
-"강원일보"
-],
-"updates": [
-{
-"title": "[속보] 장동혁 “조 대법원장 탄핵의 최종 목표는 이재명 탈옥⋯탄핵안 처리하면 이 정권 끝장”",
-"source": "강원일보",
-"link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1LbUQtYXBQSUE5dE9mN25HZEpMZUg4VF9tSEVoZkpaVG5Sb3RGSXpsNlhjREtRcm9ObFU4YW9Lb1hWaVBOYzNVbVhvd1pWRUkzSjFWOFU4MTF5V1E?oc=5",
-"time": "2026-11-23T01:09:58+00:00",
-"stage": "얼럿"
-}
-],
-"level": "BULLETIN",
-"latest": "장동혁 “조 대법원장 탄핵의 최종 목표는 이재명 탈옥⋯탄핵안 처리하면 이 정권 끝장”",
-"tok": [
-"끝장",
-"대법원장",
-"목표",
-"이재명",
-"장동혁",
-"정권",
-"처리하면",
-"최종",
-"탄핵",
-"탄핵안",
-"탈옥"
-]
 }
 ],
 "sns": {
@@ -3466,7 +3466,7 @@
 },
 "폭발": {
 "n30": 0,
-"base": 0.2,
+"base": 0.1,
 "spike": false
 },
 "붕괴": {
@@ -3496,8 +3496,8 @@
 },
 "사고": {
 "n30": 6,
-"base": 1.9,
-"spike": true
+"base": 2.3,
+"spike": false
 },
 "실종": {
 "n30": 0,
@@ -3730,27 +3730,19 @@
 "url": "https://www.youtube.com/watch?v=jZiYkJFk36g"
 }
 ],
-"spikes": [
-{
-"term": "사고",
-"n30": 6,
-"base": 1.9,
-"spike": true,
-"since": "2026-11-23T03:41:39.025604+00:00"
-}
-],
+"spikes": [],
 "baseline": {
 "지진": 0.05,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.14,
-"붕괴": 0.12,
-"대피": 0.18,
+"폭발": 0.13,
+"붕괴": 0.11,
+"대피": 0.16,
 "미사일": 0.05,
-"속보": 0.1,
-"지하철": 1.19,
-"사고": 2.27,
+"속보": 0.09,
+"지하철": 1.17,
+"사고": 2.64,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -3919,6 +3911,24 @@
 },
 "trends": [
 {
+"term": "삼성물산",
+"traffic": "200+",
+"time": "2026-11-23T02:40:00+00:00",
+"news": [
+{
+"title": "삼성물산 건설부문장에 최영재 사장 승진 임명",
+"source": "전기신문",
+"link": "https://www.electimes.com/news/articleView.html?idxno=375138"
+},
+{
+"title": "삼성물산 건설부문 사장에 최영재 부사장 승진",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261123039000003"
+}
+],
+"new": true
+},
+{
 "term": "사채",
 "traffic": "500+",
 "time": "2026-11-23T02:30:00+00:00",
@@ -4068,24 +4078,6 @@
 }
 ],
 "new": true
-},
-{
-"term": "화이트캡스 대 솔트레이크",
-"traffic": "2000+",
-"time": "2026-11-23T00:50:00+00:00",
-"news": [
-{
-"title": "Vancouver Whitecaps 2 - 0 Real Salt Lake: 90'+3'",
-"source": "Yahoo Sports",
-"link": "https://sports.yahoo.com/soccer/mls/real-salt-lake-vancouver-whitecaps-13620476/"
-},
-{
-"title": "PREVIEW: 'Caps host Real Salt Lake in Game 1 of Round One, Best-Of-3 Series | Watch on Apple TV, TSN",
-"source": "www.whitecapsfc.com",
-"link": "https://www.whitecapsfc.com/news/preview-caps-host-real-salt-lake-in-game-1"
-}
-],
-"new": false
 }
 ],
 "trendSeen": [
