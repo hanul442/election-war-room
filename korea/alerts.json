@@ -1,12 +1,12 @@
 {
-"updated": "2026-11-23T10:11:24.417820+00:00",
+"updated": "2026-11-23T10:13:36.614225+00:00",
 "errors": [],
 "events": [
 {
 "id": "JTLUlycTNZV2hVUjFya3Moc50818",
 "first": "2026-11-23T08:18:01+00:00",
-"last": "2026-11-23T10:07:00+00:00",
-"updated": "2026-11-23T10:09:12.492638+00:00",
+"last": "2026-11-23T10:10:31+00:00",
+"updated": "2026-11-23T10:13:36.614225+00:00",
 "headline": "'음주운전' 고경표, 오늘(23일) 경찰 출석…사고 9일만",
 "cat": "사회",
 "regions": [
@@ -131,10 +131,17 @@
 "link": "https://www.khan.co.kr/article/202611231907001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
 "time": "2026-11-23T10:07:00+00:00",
 "stage": "속보"
+},
+{
+"title": "'만취 음주사고' 고경표, 경찰 출석…\"무책임한 모습, 죄송하다\"",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261123_0003879979",
+"time": "2026-11-23T10:10:31+00:00",
+"stage": "후속"
 }
 ],
 "level": "URGENT",
-"latest": "음주운전 사고 고경표, 경찰 출석···사고 9일 만",
+"latest": "'만취 음주사고' 고경표, 경찰 출석…\"무책임한 모습, 죄송하다\"",
 "tok": [
 "23일",
 "7시",
@@ -4745,12 +4752,12 @@
 },
 "지하철": {
 "n30": 10,
-"base": 2.6,
+"base": 2.7,
 "spike": true
 },
 "사고": {
 "n30": 0,
-"base": 2.1,
+"base": 1.9,
 "spike": false
 },
 "실종": {
@@ -5000,29 +5007,29 @@
 "n30": 5,
 "base": 0.6,
 "spike": true,
-"since": "2026-11-23T10:11:24.417820+00:00"
+"since": "2026-11-23T10:13:36.614225+00:00"
 },
 {
 "term": "지하철",
 "n30": 10,
-"base": 2.6,
+"base": 2.7,
 "spike": true,
-"since": "2026-11-23T10:11:24.417820+00:00"
+"since": "2026-11-23T10:13:36.614225+00:00"
 }
 ],
 "baseline": {
 "지진": 0.05,
 "화재": 0.05,
 "불났": 0.05,
-"정전": 0.74,
-"폭발": 0.64,
-"붕괴": 0.65,
-"대피": 0.09,
+"정전": 0.77,
+"폭발": 0.68,
+"붕괴": 0.59,
+"대피": 0.08,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 2.74,
-"사고": 1.85,
-"실종": 0.07,
+"지하철": 2.87,
+"사고": 1.67,
+"실종": 0.06,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -5188,6 +5195,24 @@
 },
 "trends": [
 {
+"term": "fc서울",
+"traffic": "100+",
+"time": "2026-11-23T09:10:00+00:00",
+"news": [
+{
+"title": "FC서울 우승턱 쏜다! 다자녀 가족 100가구 무료 초청…25일 신청",
+"source": "서울특별시",
+"link": "https://mediahub.seoul.go.kr/archives/2020139"
+},
+{
+"title": "서울시, FC서울 홈경기에 다자녀 100가구 초청…25일 신청",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261122028600004"
+}
+],
+"new": true
+},
+{
 "term": "고규필",
 "traffic": "1000+",
 "time": "2026-11-23T08:20:00+00:00",
@@ -5234,9 +5259,9 @@
 "link": "https://www.cricinfo.com/story/aiden-markram-says-it-s-quite-a-smooth-transition-to-be-leading-south-africa-again-1563619"
 },
 {
-"title": "South Africa vs Bangladesh, 2nd Test: Injuries won't take the sting out of Centurion Test",
-"source": "Cricbuzz",
-"link": "https://www.cricbuzz.com/cricket-news/141019/south-africa-vs-bangladesh-2nd-test-injuries-wont-take-the-sting-out-of-centurion-test-cricbuzzcom"
+"title": "Proteas confirm stand-in captain for second Bangladesh Test",
+"source": "ICC",
+"link": "https://www.icc-cricket.com/tournaments/world-test-championship/news/proteas-confirm-stand-in-captain-for-second-bangladesh-test"
 }
 ],
 "new": true
@@ -5345,24 +5370,6 @@
 "title": "\"친일 남주? 죽어도 옹호 안 돼\"…'100일의 거짓말' 시청자 반발 - 머니투데이",
 "source": "머니투데이",
 "link": "https://www.mt.co.kr/culture/2026/11/23/2026112316121982924"
-}
-],
-"new": true
-},
-{
-"term": "심진화",
-"traffic": "1000+",
-"time": "2026-11-23T07:00:00+00:00",
-"news": [
-{
-"title": "심진화, 김원효 ‘트랜스젠더 바’ 논란에 \"후배 만나러 갔다\"",
-"source": "YTN",
-"link": "https://www.ytn.co.kr/_ln/0117_202611231012432150"
-},
-{
-"title": "‘심진화♥’ 김원효, 1억 재산 오해…영화관 결혼식 비하인드 (개세모2)",
-"source": "스포츠동아",
-"link": "https://sports.donga.com/ent/article/all/20261123/135071040/1"
 }
 ],
 "new": true
