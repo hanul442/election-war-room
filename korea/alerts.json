@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-23T16:01:08.838154+00:00",
+"updated": "2026-11-23T16:03:21.616962+00:00",
 "errors": [],
 "events": [
 {
@@ -5216,8 +5216,8 @@
 "spike": false
 },
 "폭발": {
-"n30": 1,
-"base": 0.2,
+"n30": 0,
+"base": 0.1,
 "spike": false
 },
 "붕괴": {
@@ -5236,7 +5236,7 @@
 "spike": false
 },
 "속보": {
-"n30": 3,
+"n30": 2,
 "base": 0.4,
 "spike": false
 },
@@ -5247,7 +5247,7 @@
 },
 "사고": {
 "n30": 4,
-"base": 5.2,
+"base": 5.0,
 "spike": false
 },
 "실종": {
@@ -5267,7 +5267,7 @@
 },
 "먹통": {
 "n30": 1,
-"base": 0.4,
+"base": 0.5,
 "spike": false
 },
 "산불": {
@@ -5532,17 +5532,17 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.15,
+"폭발": 0.14,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.4,
-"지하철": 0.07,
-"사고": 5.05,
+"속보": 0.36,
+"지하철": 0.06,
+"사고": 4.95,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
-"먹통": 0.45,
+"먹통": 0.51,
 "산불": 0.05
 },
 "errors": [],
@@ -5750,6 +5750,24 @@
 },
 "trends": [
 {
+"term": "샌디스크 주가",
+"traffic": "100+",
+"time": "2026-11-23T15:00:00+00:00",
+"news": [
+{
+"title": "샌디스크 주가, 오늘 왜 급등하나?",
+"source": "Investing.com 한국어",
+"link": "https://kr.investing.com/news/stock-market-news/article-93CH-2187519"
+},
+{
+"title": "SanDisk Corporation (SNDK) 주식 움직였습니다 하락 3.30%에 11월18일: 변동을 뒷받침하는 사실",
+"source": "TradingKey",
+"link": "https://www.tradingkey.com/kr/news/market-movers/262311708-market-movers-sndk-20261118"
+}
+],
+"new": true
+},
+{
 "term": "to me my x men",
 "traffic": "200+",
 "time": "2026-11-23T14:40:00+00:00",
@@ -5886,9 +5904,9 @@
 "link": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8719555"
 },
 {
-"title": "\"분산 투자할 곳이 없다\"…1년 만에 '에브리씽 랠리'에서 '에브리씽 크래시'",
-"source": "한국경제",
-"link": "https://www.hankyung.com/article/202611233526i"
+"title": "비트코인 반등에 스트래티지 등 동반 상승",
+"source": "마켓인",
+"link": "https://marketin.edaily.co.kr/News/ReadE?newsId=01118486645649000"
 }
 ],
 "new": false
@@ -5907,24 +5925,6 @@
 "title": "Stock Market Today: Nvidia Stock Surges as Investors Cheer Jensen Huang's Return as CEO",
 "source": "WSJ",
 "link": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-23-2026"
-}
-],
-"new": true
-},
-{
-"term": "둠스데이",
-"traffic": "1000+",
-"time": "2026-11-23T14:00:00+00:00",
-"news": [
-{
-"title": "1000만 열광했던 마블 재도약? ‘어벤져스5’, 로다주 앞세운 흥행 전망은",
-"source": "동아일보",
-"link": "https://www.donga.com/news/Entertainment/article/all/20261122/135065402/1"
-},
-{
-"title": "로다주, '어벤져스: 둠스데이' 빌런으로 컴백..\"상상보다 10배 강력\" 소감",
-"source": "조선일보",
-"link": "https://www.chosun.com/entertainments/movie/2026/11/23/G44DGYJVGVRDONTFGYYDANBYGQ/"
 }
 ],
 "new": true
