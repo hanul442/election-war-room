@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-23T10:15:47.629219+00:00",
+"updated": "2026-11-23T10:18:00.575206+00:00",
 "errors": [],
 "events": [
 {
@@ -4743,18 +4743,18 @@
 "spike": false
 },
 "정전": {
-"n30": 1,
+"n30": 0,
 "base": 0.8,
 "spike": false
 },
 "폭발": {
 "n30": 6,
-"base": 0.7,
+"base": 0.8,
 "spike": true
 },
 "붕괴": {
 "n30": 2,
-"base": 0.6,
+"base": 0.5,
 "spike": false
 },
 "대피": {
@@ -4779,7 +4779,7 @@
 },
 "사고": {
 "n30": 0,
-"base": 1.7,
+"base": 1.5,
 "spike": false
 },
 "실종": {
@@ -4824,7 +4824,7 @@
 "handle": "nirreadthebooks.bsky.social",
 "name": "니르니르🍵☕🧶🪡",
 "time": "2026-11-23T10:08:09.040Z",
-"likes": 2,
+"likes": 3,
 "reposts": 0,
 "url": "https://bsky.app/profile/nirreadthebooks.bsky.social/post/3n2xv4nppak2r",
 "term": "지하철"
@@ -5011,46 +5011,36 @@
 "reposts": 0,
 "url": "https://bsky.app/profile/cupthecup.bsky.social/post/3n2xu3z4ids2a",
 "term": "지하철"
-},
-{
-"text": "타이타닉에 맞춰 정전과 은행불능은 예고되었다 (참고만)\n\nblog.naver.com/newsky144th/...",
-"handle": "newsky144th.bsky.social",
-"name": "하통시대",
-"time": "2026-11-23T09:46:53.641Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/newsky144th.bsky.social/post/3n2xtwm5ed22v",
-"term": "정전"
 }
 ],
 "spikes": [
 {
 "term": "폭발",
 "n30": 6,
-"base": 0.7,
+"base": 0.8,
 "spike": true,
-"since": "2026-11-23T10:15:47.629219+00:00"
+"since": "2026-11-23T10:18:00.575206+00:00"
 },
 {
 "term": "지하철",
 "n30": 9,
 "base": 2.9,
 "spike": true,
-"since": "2026-11-23T10:15:47.629219+00:00"
+"since": "2026-11-23T10:18:00.575206+00:00"
 }
 ],
 "baseline": {
 "지진": 0.05,
 "화재": 0.05,
 "불났": 0.05,
-"정전": 0.79,
-"폭발": 0.81,
-"붕괴": 0.53,
-"대피": 0.07,
+"정전": 0.71,
+"폭발": 0.93,
+"붕괴": 0.48,
+"대피": 0.06,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 2.88,
-"사고": 1.5,
+"지하철": 2.89,
+"사고": 1.35,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
