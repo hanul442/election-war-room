@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-23T11:48:18.691643+00:00",
+"updated": "2026-11-23T11:50:30.649671+00:00",
 "errors": [],
 "events": [
 {
@@ -280,7 +280,7 @@
 "id": "JTLUlycTNZV2hVUjFya3Moc50818",
 "first": "2026-11-23T08:18:01+00:00",
 "last": "2026-11-23T11:38:56+00:00",
-"updated": "2026-11-23T11:48:18.691643+00:00",
+"updated": "2026-11-23T11:50:30.649671+00:00",
 "headline": "'음주운전' 고경표, 오늘(23일) 경찰 출석…사고 9일만",
 "cat": "사회",
 "regions": [
@@ -393,6 +393,13 @@
 "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9zX2JMZVBCWTk2bnNBUWR0aDNfRVlqYTc5cGVhakFEM2tJSE9hZTlzX201aWdfd1ZyMWVmWk9jWjgtMFZDSmQ0Q0hHTVFRRVNuR0dzMTBwV1UtMXhWb2JhYWxxUEQ?oc=5",
 "time": "2026-11-23T09:58:16+00:00",
 "stage": "속보"
+},
+{
+"title": "'음주운전 혐의' 배우 고경표 경찰 출석",
+"source": "연합뉴스",
+"link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9scjZKcG9JVW5RelJ5WldubmYwUkRobFJ0WU9COGxIbS1jaDl2V0puT3I3M2xDSEZHUklic0d3eTZzaEpfNjZaVnc5V3JGY21PdmpKaHlKS2JSWXM?oc=5",
+"time": "2026-11-23T09:59:53+00:00",
+"stage": "후속"
 },
 {
 "title": "[속보] ’만취 운전사고’ 고경표, 9일 만에 경찰 출석…“죄송하다“",
@@ -4760,7 +4767,7 @@
 "terms": {
 "지진": {
 "n30": 0,
-"base": 0.3,
+"base": 0.2,
 "spike": false
 },
 "화재": {
@@ -4784,7 +4791,7 @@
 "spike": false
 },
 "붕괴": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -4799,9 +4806,9 @@
 "spike": false
 },
 "속보": {
-"n30": 5,
+"n30": 3,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "지하철": {
 "n30": 2,
@@ -4810,7 +4817,7 @@
 },
 "사고": {
 "n30": 4,
-"base": 4.9,
+"base": 4.8,
 "spike": false
 },
 "실종": {
@@ -4883,7 +4890,7 @@
 "name": "이적행위🎗🏳️‍🌈🌹☂️🇵🇸",
 "time": "2026-11-23T11:28:49.841Z",
 "likes": 5,
-"reposts": 12,
+"reposts": 14,
 "url": "https://bsky.app/profile/yijuckhangwe.bsky.social/post/3n2xzmv24yk2x",
 "term": "사고"
 },
@@ -5052,28 +5059,20 @@
 "url": "https://www.youtube.com/watch?v=KrftsOeQkLs"
 }
 ],
-"spikes": [
-{
-"term": "속보",
-"n30": 5,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-23T11:48:18.691643+00:00"
-}
-],
+"spikes": [],
 "baseline": {
-"지진": 0.24,
+"지진": 0.22,
 "화재": 0.05,
 "불났": 0.05,
-"정전": 0.07,
+"정전": 0.06,
 "폭발": 0.05,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.08,
-"사고": 4.79,
-"실종": 0.29,
+"지하철": 0.07,
+"사고": 4.71,
+"실종": 0.26,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -5316,14 +5315,14 @@
 "time": "2026-11-23T10:10:00+00:00",
 "news": [
 {
-"title": "경찰 \"이진우 강제수사 가능‥기기 사용 여부 확인해야\"",
-"source": "MBC 뉴스",
-"link": "https://imnews.imbc.com/news/2026/society/article/6867850_36918.html"
+"title": "리트 만점자 유족 경찰 출석...\"증거제출 의사 확인\"",
+"source": "YTN",
+"link": "https://www.ytn.co.kr/_cs/_ln_0103_202611231745093682_005.html"
 },
 {
-"title": "'리트 만점' 진상규명 첫 고비...유족, 수사 협조할까?",
-"source": "YTN",
-"link": "https://www.ytn.co.kr/_cs/_ln_0103_202611231856261603_005.html"
+"title": "\"필요시 수능도 수사\"‥이진우 유족·과외교사도 부른다",
+"source": "MBC 뉴스",
+"link": "https://imnews.imbc.com/replay/2026/nwdesk/article/6867927_37004.html"
 }
 ],
 "new": true
