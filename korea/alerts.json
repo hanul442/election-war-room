@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-23T22:11:27.291816+00:00",
+"updated": "2026-11-23T22:13:45.786193+00:00",
 "errors": [],
 "events": [
 {
@@ -431,6 +431,35 @@
 "시총",
 "실리콘밸리",
 "엔비디아"
+]
+},
+{
+"id": "jNUNWVLcVIwcWE1QTZkdwoc52204",
+"first": "2026-11-23T22:04:43+00:00",
+"last": "2026-11-23T22:04:43+00:00",
+"updated": "2026-11-23T22:13:45.786193+00:00",
+"headline": "서해안고속도로 승용차관련 사고 처리중",
+"cat": "교통",
+"regions": [],
+"sources": [
+"스페셜타임스"
+],
+"updates": [
+{
+"title": "[속보] 서해안고속도로 승용차관련 사고 처리중",
+"source": "스페셜타임스",
+"link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1wTURqSl9LZWpYX3AwVjBJdS1jamdGQ29fSE1kdEVqVkVhMktnS1ZHVWNuSU5zS0VKZElrX0N6dk9lNWdOcXJVcDVYZ2tZYUVVU3Z4OWNUYXdLSEZmOURLUXpYZjNUNWVLcVIwcWE1QTZkdw?oc=5",
+"time": "2026-11-23T22:04:43+00:00",
+"stage": "얼럿"
+}
+],
+"level": "URGENT",
+"latest": "서해안고속도로 승용차관련 사고 처리중",
+"tok": [
+"사고",
+"서해안고속도",
+"승용차관련",
+"처리중"
 ]
 },
 {
@@ -3453,7 +3482,7 @@
 "spike": false
 },
 "정전": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -3478,7 +3507,7 @@
 "spike": false
 },
 "속보": {
-"n30": 7,
+"n30": 6,
 "base": 0.1,
 "spike": true
 },
@@ -3489,7 +3518,7 @@
 },
 "사고": {
 "n30": 0,
-"base": 1.4,
+"base": 1.2,
 "spike": false
 },
 "실종": {
@@ -3748,14 +3777,14 @@
 "spikes": [
 {
 "term": "속보",
-"n30": 7,
+"n30": 6,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-23T22:11:27.291816+00:00"
+"since": "2026-11-23T22:13:45.786193+00:00"
 }
 ],
 "baseline": {
-"지진": 0.13,
+"지진": 0.12,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
@@ -3765,7 +3794,7 @@
 "미사일": 0.05,
 "속보": 0.05,
 "지하철": 0.05,
-"사고": 1.24,
+"사고": 1.12,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -4004,6 +4033,24 @@
 },
 "trends": [
 {
+"term": "김혜수",
+"traffic": "1000+",
+"time": "2026-11-23T21:10:00+00:00",
+"news": [
+{
+"title": "송혜교도 반한 김혜수 미모…“너무 아름다우시다”",
+"source": "매일경제",
+"link": "https://www.mk.co.kr/news/hot-issues/12215811"
+},
+{
+"title": "MAMA 김혜수, 56세에 또 리즈 경신…인어공주 스타일링 통했다",
+"source": "스포츠경향",
+"link": "https://sports.khan.co.kr/article/202611221425003"
+}
+],
+"new": true
+},
+{
 "term": "ai 에이전트",
 "traffic": "100+",
 "time": "2026-11-23T21:00:00+00:00",
@@ -4150,24 +4197,6 @@
 "title": "부부 모두 내도 배우자 사망하면 깎이는 국민연금...‘중복급여 조정’ 논란",
 "source": "경기일보",
 "link": "https://www.kyeonggi.com/article/20261123580009"
-}
-],
-"new": true
-},
-{
-"term": "박지윤",
-"traffic": "500+",
-"time": "2026-11-23T20:10:00+00:00",
-"news": [
-{
-"title": "\"애미가 드럽게 키워\" 박지윤, '시모 비방' 카톡…이혼 불씨였나 - 머니투데이",
-"source": "머니투데이",
-"link": "https://www.mt.co.kr/society/2026/11/22/2026112216160193284"
-},
-{
-"title": "박지윤 악플러, 잡고 보니 전남편 최동석…명예훼손 혐의 송치",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261120126400004"
 }
 ],
 "new": true
