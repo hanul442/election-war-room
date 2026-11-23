@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-23T13:53:05.523330+00:00",
+"updated": "2026-11-23T13:55:17.365307+00:00",
 "errors": [],
 "events": [
 {
@@ -4966,40 +4966,6 @@
 "탄핵",
 "토론회"
 ]
-},
-{
-"id": "TFtbGx6Sk9lUUYwZGhsVQoc50755",
-"first": "2026-11-23T07:55:04+00:00",
-"last": "2026-11-23T07:55:04+00:00",
-"updated": "2026-11-23T08:03:04.406751+00:00",
-"headline": "현직 판사 \"조희대=수령? 판사는 조직원 아냐…\"판사 행동해야\" 글에 반박글",
-"cat": "기타",
-"regions": [],
-"sources": [
-"프레시안"
-],
-"updates": [
-{
-"title": "[속보] 현직 판사 \"조희대=수령? 판사는 조직원 아냐…\"판사 행동해야\" 글에 반박글",
-"source": "프레시안",
-"link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5FVExab1JmYWxleDJ0MWpVdktDbnZmdkIzclhId2t1b2k5NWxqNGUtV2Z4Rk5iRFg3X1FobXE1eXRpVV9VT2FmZUNBZS1lajlHM0h1MmRwd2pJenBGd3JIVkFQN0V2a3JZbXhhTTFtbGx6Sk9lUUYwZGhsVQ?oc=5",
-"time": "2026-11-23T07:55:04+00:00",
-"stage": "얼럿"
-}
-],
-"level": "URGENT",
-"latest": "현직 판사 \"조희대=수령? 판사는 조직원 아냐…\"판사 행동해야\" 글에 반박글",
-"tok": [
-"글에",
-"반박글",
-"수령",
-"아냐",
-"조직원",
-"조희대",
-"판사",
-"행동해야",
-"현직"
-]
 }
 ],
 "sns": {
@@ -5010,7 +4976,7 @@
 "spike": false
 },
 "화재": {
-"n30": 3,
+"n30": 2,
 "base": 0.1,
 "spike": false
 },
@@ -5025,12 +4991,12 @@
 "spike": false
 },
 "폭발": {
-"n30": 5,
-"base": 1.1,
-"spike": true
+"n30": 4,
+"base": 1.0,
+"spike": false
 },
 "붕괴": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -5045,9 +5011,9 @@
 "spike": false
 },
 "속보": {
-"n30": 5,
+"n30": 4,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "지하철": {
 "n30": 2,
@@ -5055,13 +5021,13 @@
 "spike": false
 },
 "사고": {
-"n30": 1,
-"base": 3.0,
+"n30": 2,
+"base": 2.8,
 "spike": false
 },
 "실종": {
 "n30": 0,
-"base": 0.5,
+"base": 0.4,
 "spike": false
 },
 "단수": {
@@ -5086,6 +5052,16 @@
 }
 },
 "posts": [
+{
+"text": "정치인의 흥망성쇠 이야기인데\n중요한부분 이외의 디테일을 굳이안보여주는걸 넘어 모호하게 부패가있었다 하고 상황만 제시하니까\n그래서 어떤 일이있었길래 인물들이 이렇게 반응했을까하고 생각하게 됐네요\n다들 스캔들에 대한 이야기는 안하고 무마하고 덮고 자살하면서 도망가기만해서..\n\n폭력과 압제로 공공 사업과 복지를 운영하는 부패 정치인이라는 상황 자체가 좋은일이라면 어떤 수단을 써도 상관없을까 하고 ",
+"handle": "niknemnn.bsky.social",
+"name": "닉넴",
+"time": "2026-11-23T13:53:46.347Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/niknemnn.bsky.social/post/3n2ybq4ai7227",
+"term": "사고"
+},
 {
 "platform": "YouTube",
 "text": "[속보] 엔비디아의 충격적 반전? 실적 대박 속 리더십 위기 진실 #Shorts",
@@ -5297,36 +5273,21 @@
 "url": "https://www.youtube.com/watch?v=_NqfrCPpGTY"
 }
 ],
-"spikes": [
-{
-"term": "폭발",
-"n30": 5,
-"base": 1.1,
-"spike": true,
-"since": "2026-11-23T13:53:05.523330+00:00"
-},
-{
-"term": "속보",
-"n30": 5,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-23T13:53:05.523330+00:00"
-}
-],
+"spikes": [],
 "baseline": {
-"지진": 0.74,
+"지진": 0.77,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 1.01,
+"폭발": 0.91,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.6,
-"사고": 2.81,
-"실종": 0.41,
-"단수": 0.08,
+"지하철": 0.64,
+"사고": 2.73,
+"실종": 0.37,
+"단수": 0.07,
 "통신 장애": 0.05,
 "먹통": 0.05,
 "산불": 0.05
@@ -5523,9 +5484,9 @@
 "time": "2026-11-23T11:50:00+00:00",
 "news": [
 {
-"title": "Honda and Toyota recall 1.6 million vehicles over Takata airbag rupture risk",
-"source": "NBC News",
-"link": "https://www.nbcnews.com/business/autos/takata-airbag-recall-rcna610576"
+"title": "Honda recalls 810K vehicles over dangerous Takata airbag inflator rupture risk",
+"source": "Fox Business",
+"link": "https://www.foxbusiness.com/economy/honda-recalls-810k-vehicles-over-dangerous-takata-airbag-inflator-rupture-risk"
 },
 {
 "title": "Honda recalls over 810,000 vehicles. See the affected models",
@@ -5591,7 +5552,7 @@
 },
 {
 "term": "반도체 메모리",
-"traffic": "200+",
+"traffic": "500+",
 "time": "2026-11-23T10:40:00+00:00",
 "news": [
 {
