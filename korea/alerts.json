@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-23T15:52:17.346966+00:00",
+"updated": "2026-11-23T15:54:30.265187+00:00",
 "errors": [],
 "events": [
 {
@@ -2459,8 +2459,8 @@
 {
 "id": "mxzR2ZyWTR0S2NRUlVzdwoc51422",
 "first": "2026-11-23T14:22:24+00:00",
-"last": "2026-11-23T14:48:34+00:00",
-"updated": "2026-11-23T15:21:13.870355+00:00",
+"last": "2026-11-23T14:58:25+00:00",
+"updated": "2026-11-23T15:54:30.265187+00:00",
 "headline": "진천서 전자발찌 훼손하고 달아난 정영모, 세종서 검거",
 "cat": "기타",
 "regions": [
@@ -2531,10 +2531,17 @@
 "link": "https://www.chosun.com/national/court_law/2026/11/23/US6GKGV2CBANNE7Y2ODK66AOUM/",
 "time": "2026-11-23T14:48:34+00:00",
 "stage": "후속"
+},
+{
+"title": "[속보] 전자발찌 끊고 도주한 성범죄자 정영모, 이틀만에 세종서 검거",
+"source": "대전일보",
+"link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE95V1FjU2hiLVI2RXJsLVpDbGdKYUt4d1pFY2pYYXV0d0VXNHBkdENweDRzZkZzVkF6NjhXa2NuQjFzOHZ5ZjhPdmRWTHlYZ2otMEhseGNQYnZyd3dtMkpRaTdEc2VCbUxYVWFPMU9HTXJwSHPSAXNBVV95cUxPeVdRY1NoYi1SNkVybC1aQ2xnSmFLeHdaRWNqWGF1dHdFVzRwZHRDcHg0c2ZGc1ZBejY4V2tjbkIxczh2eWY4T3ZkVkx5WGdqLTBIbHhjUGJ2cnd3bTJKUWk3RHNlQm1MWFVhTzFPR01ycEhz?oc=5",
+"time": "2026-11-23T14:58:25+00:00",
+"stage": "속보"
 }
 ],
 "level": "URGENT",
-"latest": "전자발찌 끊고 달아난 성범죄자, 도주 이틀 만에 검거",
+"latest": "전자발찌 끊고 도주한 성범죄자 정영모, 이틀만에 세종서 검거",
 "tok": [
 "56살",
 "검거",
@@ -5209,8 +5216,8 @@
 "spike": false
 },
 "폭발": {
-"n30": 4,
-"base": 0.3,
+"n30": 3,
+"base": 0.2,
 "spike": false
 },
 "붕괴": {
@@ -5230,7 +5237,7 @@
 },
 "속보": {
 "n30": 5,
-"base": 0.7,
+"base": 0.6,
 "spike": true
 },
 "지하철": {
@@ -5239,8 +5246,8 @@
 "spike": false
 },
 "사고": {
-"n30": 7,
-"base": 4.8,
+"n30": 6,
+"base": 5.0,
 "spike": false
 },
 "실종": {
@@ -5523,9 +5530,9 @@
 {
 "term": "속보",
 "n30": 5,
-"base": 0.7,
+"base": 0.6,
 "spike": true,
-"since": "2026-11-23T15:52:17.346966+00:00"
+"since": "2026-11-23T15:54:30.265187+00:00"
 }
 ],
 "baseline": {
@@ -5533,17 +5540,17 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.23,
+"폭발": 0.21,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.6,
-"지하철": 0.11,
-"사고": 5.01,
+"속보": 0.54,
+"지하철": 0.1,
+"사고": 5.11,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
-"먹통": 0.15,
+"먹통": 0.24,
 "산불": 0.05
 },
 "errors": [],
@@ -5823,6 +5830,24 @@
 "new": true
 },
 {
+"term": "엔디비아",
+"traffic": "200+",
+"time": "2026-11-23T14:20:00+00:00",
+"news": [
+{
+"title": "\"인신매매 조직이 앤비디아칩 운반\" 수단방법 안 가린 중국‥트럼프는 \"젠슨 황이 최선\"",
+"source": "MBC 뉴스",
+"link": "https://imnews.imbc.com/replay/2026/nwdesk/article/6867925_37004.html"
+},
+{
+"title": "정보기관의 ‘섹스피오나지’[정일천의 정보전과 스파이]",
+"source": "동아일보",
+"link": "https://www.donga.com/news/Opinion/article/all/20261123/135077207/2"
+}
+],
+"new": true
+},
+{
 "term": "옆자리 프란체스카",
 "traffic": "200+",
 "time": "2026-11-23T14:20:00+00:00",
@@ -5887,9 +5912,9 @@
 "link": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director"
 },
 {
-"title": "Stock market today: Nvidia stock soars after company reinstates Jensen Huang as CEO; Dow, S&P 500, Nasdaq surge",
-"source": "Yahoo Finance",
-"link": "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-23-dow-sp-500-nasdaq-nvidia-reinstates-jensen-huang-141511975.html"
+"title": "Stock Market Today: Nvidia Stock Surges as Investors Cheer Jensen Huang's Return as CEO",
+"source": "WSJ",
+"link": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-23-2026"
 }
 ],
 "new": true
@@ -5908,24 +5933,6 @@
 "title": "로다주, '어벤져스: 둠스데이' 빌런으로 컴백..\"상상보다 10배 강력\" 소감",
 "source": "조선일보",
 "link": "https://www.chosun.com/entertainments/movie/2026/11/23/G44DGYJVGVRDONTFGYYDANBYGQ/"
-}
-],
-"new": true
-},
-{
-"term": "박준형",
-"traffic": "200+",
-"time": "2026-11-23T14:00:00+00:00",
-"news": [
-{
-"title": "박준형, god 데뷔 전 8년간 직장 생활…\"초코하임 CF도 내가 했어\"",
-"source": "뉴스1",
-"link": "https://www.news1.kr/entertain/celebrity-topic/6362608"
-},
-{
-"title": "1997년 노포 삼계탕부터 스페인 꿀대구까지... 신용산역 직장인 성지 ‘미식 골목’",
-"source": "인사이트",
-"link": "https://www.insight.co.kr/news/583155"
 }
 ],
 "new": true
