@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-23T13:26:33.225309+00:00",
+"updated": "2026-11-23T13:28:47.317269+00:00",
 "errors": [],
 "events": [
 {
@@ -4995,7 +4995,7 @@
 "sns": {
 "terms": {
 "지진": {
-"n30": 1,
+"n30": 2,
 "base": 0.1,
 "spike": false
 },
@@ -5016,7 +5016,7 @@
 },
 "폭발": {
 "n30": 9,
-"base": 0.7,
+"base": 0.8,
 "spike": true
 },
 "붕괴": {
@@ -5046,17 +5046,17 @@
 },
 "사고": {
 "n30": 4,
-"base": 2.9,
+"base": 3.0,
 "spike": false
 },
 "실종": {
 "n30": 1,
-"base": 0.5,
+"base": 0.6,
 "spike": false
 },
 "단수": {
 "n30": 0,
-"base": 0.3,
+"base": 0.2,
 "spike": false
 },
 "통신 장애": {
@@ -5076,6 +5076,16 @@
 }
 },
 "posts": [
+{
+"text": "【지진 정보】일본 시간 11월 23일 22:22경\n진원: Amakusa and Ashikita Region, Kumamoto Prefecture (M2.2, 깊이 약 10km)\n최대 진도: 1\n진도 1: 구마모토현\n이 지진으로 인한 쓰나미 걱정은 없습니다.\n(일본 기상청 발표)\n#일본 #지진 #방재",
+"handle": "ko.soramoyou.yk-planning.jp",
+"name": "Soramoyou 한국어",
+"time": "2026-11-23T13:26:32.648Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/ko.soramoyou.yk-planning.jp/post/3n2ya7h2xgq2z",
+"term": "지진"
+},
 {
 "text": "라후왜어 하네스 일체형 외투 사고 싶은데..\n원가 주긴 싫구.... 중고 찾아볼까...\n하근데 얘네도 색상 진짜 ㅠㅋ 놀라울정도로 ...\nㅠㅠ사람들이 써니라임 왜 사제끼는지 알겟음 (나도 삿음..)",
 "handle": "2onnoznad.bsky.social",
@@ -5358,32 +5368,32 @@
 {
 "term": "폭발",
 "n30": 9,
-"base": 0.7,
+"base": 0.8,
 "spike": true,
-"since": "2026-11-23T13:26:33.225309+00:00"
+"since": "2026-11-23T13:28:47.317269+00:00"
 },
 {
 "term": "붕괴",
 "n30": 6,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-23T13:26:33.225309+00:00"
+"since": "2026-11-23T13:28:47.317269+00:00"
 }
 ],
 "baseline": {
-"지진": 0.05,
+"지진": 0.15,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.83,
+"폭발": 0.95,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
 "지하철": 0.05,
-"사고": 3.05,
-"실종": 0.56,
-"단수": 0.25,
+"사고": 3.15,
+"실종": 0.6,
+"단수": 0.23,
 "통신 장애": 0.05,
 "먹통": 0.05,
 "산불": 0.05
@@ -5648,9 +5658,9 @@
 "link": "https://www.espn.com/mlb/story/_/id/50565674/sources-mets-skubal-agree-9-year-450m-contract"
 },
 {
-"title": "Tarik Skubal's $450 Million Mets Deal Puts MLB Salary Cap Fight in Focus",
+"title": "Kansas City Royals news: Tarik Skubal gets paid",
 "source": "Yahoo Sports",
-"link": "https://sports.yahoo.com/videos/tarik-skubals-450-million-mets-123035955.html"
+"link": "https://sports.yahoo.com/articles/kansas-city-royals-news-tarik-130000884.html"
 }
 ],
 "new": true
