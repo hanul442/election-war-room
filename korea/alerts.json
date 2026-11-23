@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-23T15:34:35.527068+00:00",
+"updated": "2026-11-23T15:36:49.350190+00:00",
 "errors": [],
 "events": [
 {
@@ -5249,41 +5249,6 @@
 "주민",
 "학부모"
 ]
-},
-{
-"id": "FhZeWdTanMtT0lJanAxdwoc50935",
-"first": "2026-11-23T09:35:52+00:00",
-"last": "2026-11-23T09:35:52+00:00",
-"updated": "2026-11-23T10:00:23.770667+00:00",
-"headline": "호남고속도로 승용차 관련 사고처리중",
-"cat": "교통",
-"regions": [],
-"sources": [
-"스페셜타임스"
-],
-"updates": [
-{
-"title": "[속보] 호남고속도로 승용차 관련 사고처리중",
-"source": "스페셜타임스",
-"link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBnbzFGWDRZVHlQd1c4c19hRDItSEpFUzBxbmhaUGxHZWwwQzZvdXVRVVFMangtc2VUa1h5TDhfRkExMHZ6OFBuMDdzMGFFVWhFZk1Xam1NRFhSRkttXzlmYmdvOFhZeWdTanMtT0lJanAxdw?oc=5",
-"time": "2026-11-23T09:35:52+00:00",
-"stage": "얼럿"
-},
-{
-"title": "[속보] 호남고속도로 승용차 관련 사고처리중",
-"source": "스페셜타임스",
-"link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9ybk5aS2pQUFVVelF5bXI1YUR5dlBLSWF6bGZ1WFFlVWFPSXZ0UmZOQ090V29lVVlmVDh3c0pza21FY1RsR0o5UkMweVJ3VjlEVUtuWXlxVHRVMGY2VFNOd1FOM2tRWXVxMzRubTgyWTVkc2s?oc=5",
-"time": "2026-11-23T09:35:52+00:00",
-"stage": "속보"
-}
-],
-"level": "URGENT",
-"latest": "호남고속도로 승용차 관련 사고처리중",
-"tok": [
-"사고처리중",
-"승용차",
-"호남고속도"
-]
 }
 ],
 "sns": {
@@ -5310,7 +5275,7 @@
 },
 "폭발": {
 "n30": 1,
-"base": 0.6,
+"base": 0.5,
 "spike": false
 },
 "붕괴": {
@@ -5329,18 +5294,18 @@
 "spike": false
 },
 "속보": {
-"n30": 7,
+"n30": 4,
 "base": 1.0,
-"spike": true
+"spike": false
 },
 "지하철": {
 "n30": 1,
-"base": 0.3,
+"base": 0.2,
 "spike": false
 },
 "사고": {
-"n30": 5,
-"base": 2.9,
+"n30": 6,
+"base": 3.1,
 "spike": false
 },
 "실종": {
@@ -5371,6 +5336,16 @@
 },
 "posts": [
 {
+"text": "너 지금 분위기 못익어?\n내가 소설 ㄱ사고 싶다잔아",
+"handle": "somegreatday.bsky.social",
+"name": "누룽지우개",
+"time": "2026-11-23T15:35:46.044Z",
+"likes": 3,
+"reposts": 0,
+"url": "https://bsky.app/profile/somegreatday.bsky.social/post/3n2yhgibju22y",
+"term": "사고"
+},
+{
 "text": "아무튼 오늘 가서 몇 가지 타건해 보았는데, 노멀 프로파일 풀알루 진짜 좋았다. 스위치 이름만 물어보고 왔는데(스위치는 아이큐닉스에서 특주한 것이라고)\n\n아무튼 선생님...\n키보드가 사고 싶어요...\n\n집에 토끼같은 앨리스 듀오가 나를 기다리고 있는데! 정신차려라, 김이소!",
 "handle": "lisao.bsky.social",
 "name": "이소",
@@ -5398,16 +5373,6 @@
 "likes": 0,
 "reposts": 0,
 "url": "https://bsky.app/profile/lisao.bsky.social/post/3n2ygwv5lcs2z",
-"term": "사고"
-},
-{
-"text": "대충 와장창!!!! 보라돌이가 사고를 쳣따!!!!! 조땟다!!!!! 헤인이가 그걸 꼬라봤다. 저 미친인외를 어쩌지.... 했다.\n\n이꼬라지로 쓰면 안 되나......",
-"handle": "tiger0304.bsky.social",
-"name": "백호랭",
-"time": "2026-11-23T15:23:37.147Z",
-"likes": 1,
-"reposts": 0,
-"url": "https://bsky.app/profile/tiger0304.bsky.social/post/3n2ygqquk5k2q",
 "term": "사고"
 },
 {
@@ -5646,27 +5611,19 @@
 "url": "https://www.youtube.com/watch?v=OHVxG8C-Gi0"
 }
 ],
-"spikes": [
-{
-"term": "속보",
-"n30": 7,
-"base": 1.0,
-"spike": true,
-"since": "2026-11-23T15:34:35.527068+00:00"
-}
-],
+"spikes": [],
 "baseline": {
 "지진": 0.05,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.53,
+"폭발": 0.48,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 1.01,
-"지하철": 0.23,
-"사고": 3.15,
+"지하철": 0.21,
+"사고": 3.44,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -5905,6 +5862,24 @@
 },
 "trends": [
 {
+"term": "qqq",
+"traffic": "200+",
+"time": "2026-11-23T14:30:00+00:00",
+"news": [
+{
+"title": "‘Anyone forecasting 2027 is forecasting data centers’: The Fed is about to hike into an AI boom it can’t cool, and Main Street gets the bill",
+"source": "Yahoo Finance",
+"link": "https://finance.yahoo.com/economy/policy/articles/anyone-forecasting-2027-forecasting-data-154459270.html"
+},
+{
+"title": "AI surge could strain US capacity and overheat economy, Fed's Goolsbee says",
+"source": "Reuters",
+"link": "https://www.reuters.com/business/feds-goolsbee-says-ai-surge-could-strain-us-capacity-overheat-economy-2026-11-19/"
+}
+],
+"new": true
+},
+{
 "term": "qld",
 "traffic": "100+",
 "time": "2026-11-23T14:30:00+00:00",
@@ -5915,9 +5890,9 @@
 "link": "https://www.ntnews.com.au/news/queensland/queensland-critical-minerals-to-power-us-fighter-jets-after-far-north-mine-expansion/news-story/f0d84e9c4337875a8f07c0207db662d6"
 },
 {
-"title": "Lot 5 Muller Road, Baffle Creek, Qld 4674",
-"source": "Real Estate",
-"link": "https://www.realestate.com.au/property-lifestyle-qld-baffle+creek-700432860"
+"title": "Storms to hit south-western Qld as heatwave lingers in far north",
+"source": "ABC News & Headlines – Australian Broadcasting Corporation",
+"link": "https://www.abc.net.au/news/2026-11-23/storms-south-western-queensland-heatwave-far-north/107414108"
 }
 ],
 "new": true
@@ -5936,24 +5911,6 @@
 "title": "A revolta das máquinas pode acontecer de maneira diferente daquela que o cinema mostrou",
 "source": "Estadão",
 "link": "https://www.estadao.com.br/brasil/macaco-eletrico/a-revolta-das-maquinas-pode-acontecer-de-maneira-diferente-daquela-que-o-cinema-mostrou/"
-}
-],
-"new": true
-},
-{
-"term": "qqq",
-"traffic": "200+",
-"time": "2026-11-23T14:30:00+00:00",
-"news": [
-{
-"title": "iPhone, iPad targeted by massive website malware attack",
-"source": "AppleInsider",
-"link": "https://appleinsider.com/articles/26/11/17/iphone-ipad-targeted-by-massive-website-malware-attack"
-},
-{
-"title": "Cyberattack targets BBC, Zoom and Ikea as 178 websites hacked",
-"source": "The Times",
-"link": "https://www.thetimes.com/uk/technology-uk/article/cyberattack-bbc-zoom-ikea-websites-hacked-5lm75zjdm"
 }
 ],
 "new": true
