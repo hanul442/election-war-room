@@ -1,7 +1,85 @@
 {
-"updated": "2026-11-23T23:00:16.791053+00:00",
+"updated": "2026-11-23T23:02:29.566463+00:00",
 "errors": [],
 "events": [
+{
+"id": "1cXdsMFNxWl80bk5IRFVRoc52258",
+"first": "2026-11-23T22:58:53+00:00",
+"last": "2026-11-23T22:58:53+00:00",
+"updated": "2026-11-23T23:02:29.566463+00:00",
+"headline": "울릉군지역 오전 한때 경계경보…러시아 항공기 `영공 침범`",
+"cat": "국제",
+"regions": [
+"경북"
+],
+"sources": [
+"매일신문"
+],
+"updates": [
+{
+"title": "[속보] 울릉군지역 오전 한때 경계경보…러시아 항공기 `영공 침범`",
+"source": "매일신문",
+"link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFAySjlMT3BkNWZSa2NhU1NfOHEtTFFOM0dxOGwzanJwazlTcDhiOHhITkN6SlFZbWdhN1p0a3BvZjE2WGIwcVJhMTEwMjRGMDg5SlJ1cXdsMFNxWl80bk5IRFVR?oc=5",
+"time": "2026-11-23T22:58:53+00:00",
+"stage": "얼럿"
+}
+],
+"level": "URGENT",
+"latest": "울릉군지역 오전 한때 경계경보…러시아 항공기 `영공 침범`",
+"tok": [
+"경계경보",
+"러시아",
+"영공",
+"오전",
+"울릉군지역",
+"침범",
+"한때",
+"항공기"
+]
+},
+{
+"id": "3YtMTNwLTFwMUE3cVRtdwoc52257",
+"first": "2026-11-23T22:57:11+00:00",
+"last": "2026-11-23T22:58:00+00:00",
+"updated": "2026-11-23T23:02:29.566463+00:00",
+"headline": "07:52 경계경보 발령, 울릉 지역",
+"cat": "재난",
+"regions": [
+"경북"
+],
+"sources": [
+"이투데이",
+"인사이트"
+],
+"updates": [
+{
+"title": "[속보] 07:52 경계경보 발령, 울릉 지역",
+"source": "인사이트",
+"link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBRLUlYTnFXeVBER19CYXlITm1NSXk4X1dmRmQwOHVodTNCNFZRX1lXNlRuSzlUeVpmaU1xWUlpS3YtMTNwLTFwMUE3cVRtdw?oc=5",
+"time": "2026-11-23T22:57:11+00:00",
+"stage": "얼럿"
+},
+{
+"title": "[속보] “러시아 항공기 영공침범”…울릉군 경계경보 발령",
+"source": "이투데이",
+"link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9oVUNGYkNlQzBVeUtySlk3VEZNbDZRTmxNUVIxcThoUi15dlMyWjFZMWRQUkNfclFoZXNGblNMTG84blJkVXMySlowOXhuQTlFQWxVcUMzMzE2WjZnRVpsS0NlVVpWRXlNSUhEODlR?oc=5",
+"time": "2026-11-23T22:58:00+00:00",
+"stage": "속보"
+}
+],
+"level": "BULLETIN",
+"latest": "“러시아 항공기 영공침범”…울릉군 경계경보 발령",
+"tok": [
+"경계경보",
+"러시아",
+"발령",
+"영공침범",
+"울릉",
+"울릉군",
+"지역",
+"항공기"
+]
+},
 {
 "id": "nkRSSLINKcooperRSSREADER2250",
 "first": "2026-11-23T22:50:35+00:00",
@@ -3675,12 +3753,12 @@
 },
 "붕괴": {
 "n30": 2,
-"base": 0.5,
+"base": 0.6,
 "spike": false
 },
 "대피": {
 "n30": 1,
-"base": 0.2,
+"base": 0.3,
 "spike": false
 },
 "미사일": {
@@ -3964,21 +4042,21 @@
 "n30": 8,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-23T23:00:16.791053+00:00"
+"since": "2026-11-23T23:02:29.566463+00:00"
 },
 {
 "term": "속보",
 "n30": 7,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-23T23:00:16.791053+00:00"
+"since": "2026-11-23T23:02:29.566463+00:00"
 },
 {
 "term": "지하철",
 "n30": 6,
 "base": 0.5,
 "spike": true,
-"since": "2026-11-23T23:00:16.791053+00:00"
+"since": "2026-11-23T23:02:29.566463+00:00"
 }
 ],
 "baseline": {
@@ -3987,12 +4065,12 @@
 "불났": 0.05,
 "정전": 0.05,
 "폭발": 0.05,
-"붕괴": 0.56,
-"대피": 0.32,
+"붕괴": 0.6,
+"대피": 0.39,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.45,
-"사고": 0.13,
+"지하철": 0.41,
+"사고": 0.12,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
