@@ -1,12 +1,12 @@
 {
-"updated": "2026-11-23T23:35:46.936870+00:00",
+"updated": "2026-11-23T23:37:59.373430+00:00",
 "errors": [],
 "events": [
 {
 "id": "E9Gc1liZFN0a0xuYnJXUQoc52323",
 "first": "2026-11-23T23:23:16+00:00",
-"last": "2026-11-23T23:31:00+00:00",
-"updated": "2026-11-23T23:35:46.936870+00:00",
+"last": "2026-11-23T23:35:00+00:00",
+"updated": "2026-11-23T23:37:59.373430+00:00",
 "headline": "軍 \"북한 항공기 아닌 러 군용기 수대 동해 KADIZ 진입\"",
 "cat": "정치",
 "regions": [
@@ -15,12 +15,14 @@
 "sources": [
 "KBS 뉴스",
 "SBS",
+"경향신문",
 "뉴시스",
 "매일신문",
 "머니투데이",
 "스페셜타임스",
 "연합뉴스",
 "연합뉴스TV",
+"파이낸셜뉴스",
 "한겨레",
 "한국경제",
 "헤럴드경제"
@@ -102,17 +104,40 @@
 "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1taFFZTWk4SWdNamMtRzAtUnV1OUpMTkNLX3hwaC1uOThBTmhEbVY4UDlReXVHeEpIQUFlenBDdW5xUHRNRER2d3pEbG96aXZQN0o0VnBqaV84Q29yN1lzUU5ZallzT3hqZmlYUDhUd2Uzc1ZB?oc=5",
 "time": "2026-11-23T23:31:00+00:00",
 "stage": "속보"
+},
+{
+"title": "[속보] 군 “러시아 군용기 여러 대, 동해 카디즈 진입…영공 침범은 없어”",
+"source": "KBS 뉴스",
+"link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE84Zk5Ya0FfQWFLUE9zMEllZjlaOUNRb0FDby1xbGVxMmpOMGIwcUNIbVpaZWZUTkVTbEc0WnhlWk0tOEZ3Ry1OSVFQU2tRMzNSWGlzWE5zeXlwOEE?oc=5",
+"time": "2026-11-23T23:32:00+00:00",
+"stage": "속보"
+},
+{
+"title": "[속보] 軍 \"러 군용기 울릉도 근접에 경계경보 발령…영공침범 없어\"",
+"source": "파이낸셜뉴스",
+"link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE12WHVHNXRlTnZ6TFdacXEyOWRzT2doVlJ5cjl2RVRETGUtVk5IUWlqaDZTaHdnbkVkWW9CRDZSbWpUSnV6dm4wOVBCZGhSOVRHRWJ3LUhEYkN0UQ?oc=5",
+"time": "2026-11-23T23:32:41+00:00",
+"stage": "속보"
+},
+{
+"title": "[속보] 러시아 군용기 수 대 KADIZ 진입…영공 침범 없어",
+"source": "경향신문",
+"link": "https://www.khan.co.kr/article/202611240835001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
+"time": "2026-11-23T23:35:00+00:00",
+"stage": "속보"
 }
 ],
-"level": "URGENT",
-"latest": "러시아 군용기 여러대 울릉도 근접 KADIZ 진입…합참 “영공 침범은 없어”",
+"level": "BULLETIN",
+"latest": "러시아 군용기 수 대 KADIZ 진입…영공 침범 없어",
 "tok": [
 "KADIZ",
+"경계경보",
 "군용기",
 "근접",
 "동해",
 "러시아",
 "머니투데",
+"발령",
 "북한",
 "북한기",
 "수대",
@@ -4129,17 +4154,17 @@
 },
 "속보": {
 "n30": 15,
-"base": 0.3,
+"base": 0.4,
 "spike": true
 },
 "지하철": {
 "n30": 6,
-"base": 0.9,
+"base": 1.0,
 "spike": true
 },
 "사고": {
 "n30": 2,
-"base": 0.1,
+"base": 0.2,
 "spike": false
 },
 "실종": {
@@ -4440,30 +4465,30 @@
 {
 "term": "속보",
 "n30": 15,
-"base": 0.3,
+"base": 0.4,
 "spike": true,
-"since": "2026-11-23T23:35:46.936870+00:00"
+"since": "2026-11-23T23:37:59.373430+00:00"
 },
 {
 "term": "지하철",
 "n30": 6,
-"base": 0.9,
+"base": 1.0,
 "spike": true,
-"since": "2026-11-23T23:35:46.936870+00:00"
+"since": "2026-11-23T23:37:59.373430+00:00"
 }
 ],
 "baseline": {
-"지진": 0.08,
+"지진": 0.07,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
 "폭발": 0.05,
-"붕괴": 0.27,
-"대피": 0.47,
+"붕괴": 0.24,
+"대피": 0.42,
 "미사일": 0.05,
-"속보": 0.39,
-"지하철": 1.02,
-"사고": 0.25,
+"속보": 0.45,
+"지하철": 1.12,
+"사고": 0.43,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
