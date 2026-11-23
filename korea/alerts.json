@@ -1,16 +1,17 @@
 {
-"updated": "2026-11-23T05:44:24.321062+00:00",
+"updated": "2026-11-23T05:46:38.556339+00:00",
 "errors": [],
 "events": [
 {
 "id": "wNISX20261123_00038793690518",
 "first": "2026-11-23T05:18:15+00:00",
 "last": "2026-11-23T05:40:08+00:00",
-"updated": "2026-11-23T05:44:24.321062+00:00",
+"updated": "2026-11-23T05:46:38.556339+00:00",
 "headline": "특검, '사전투표용지 발급기 특혜' 외국계 기업 압수수색",
 "cat": "경제",
 "regions": [],
 "sources": [
+"YTN",
 "뉴스1",
 "뉴스웍스",
 "뉴스핌",
@@ -45,6 +46,13 @@
 "source": "파이낸셜뉴스",
 "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBHTFAwckkzVG5fandla1ZMTVFOckNUbHU2XzhIandpbXVGcTdmSzBQOU12YU0zTG9aRklJR1lkTEJKYTZ2RHQwR3V1ZncyZDZOOUVJMy10VWpGZw?oc=5",
 "time": "2026-11-23T05:22:28+00:00",
+"stage": "속보"
+},
+{
+"title": "[속보] 선관위 특검, '수의계약 특혜' 외국계 중견기업 압수수색",
+"source": "YTN",
+"link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1lSzJSam80Q21CM2RTTERVcmhWakM2MUQ0MHJXejhwRmdvc0dTcFA1M1dHczhudDdFWlRjN0Zka0ZhZWY5MDN0QXU5MTltN0R3c3JBWUdCWUwzSzRSaDhkWHJTQmZNYTN1WmxxMFFtUQ?oc=5",
+"time": "2026-11-23T05:23:00+00:00",
 "stage": "속보"
 },
 {
@@ -83,10 +91,12 @@
 "사전투표지",
 "선관위",
 "선관위특검",
+"수의계약",
 "압수수색",
 "업체",
 "외국계",
 "제작사",
+"중견기업",
 "추가",
 "특검",
 "특혜"
@@ -3653,7 +3663,7 @@
 },
 "정전": {
 "n30": 1,
-"base": 0.2,
+"base": 0.3,
 "spike": false
 },
 "폭발": {
@@ -3663,7 +3673,7 @@
 },
 "붕괴": {
 "n30": 1,
-"base": 0.7,
+"base": 0.8,
 "spike": false
 },
 "대피": {
@@ -3687,8 +3697,8 @@
 "spike": false
 },
 "사고": {
-"n30": 4,
-"base": 3.0,
+"n30": 5,
+"base": 3.1,
 "spike": false
 },
 "실종": {
@@ -3718,6 +3728,16 @@
 }
 },
 "posts": [
+{
+"text": "메아 ASAP 시너지드링크 콜라보 트윗하면서 (메아님의 의견도 부디 들려주셨으면 좋겠습니다) 라고 괄호치고 써놓은 부분까지 그대로 복붙한거 개웃기네 ㅋㅋ\n다른 V가 이랬으면 사고인데 원래 이런 캐릭터라서 유쾌하게 느껴진다.\n\nx.com/KaguraMea_Vo...",
+"handle": "fie.bsky.social",
+"name": "fie🎀🐾⚓️🎗️",
+"time": "2026-11-23T05:44:10.148Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/fie.bsky.social/post/3n2xgekiam22z",
+"term": "사고"
+},
 {
 "text": "ㅇ ㅏ!!!!!! 메쉬수모 사고 싶어",
 "handle": "nicechestnut.bsky.social",
@@ -3777,16 +3797,6 @@
 "reposts": 0,
 "url": "https://bsky.app/profile/ko.soramoyou.yk-planning.jp/post/3n2xeyno4wf2t",
 "term": "지진"
-},
-{
-"text": "덥크는 어케\n입문해야되는걸까\n아는거(맞나)라고는 옛날에 비행기가 있었고 여기 뭔 바이러스 (레니어쩌고)가 있었고 사고가 났고 사람들이 막 이래저래해서 이게 또 침식되면 뭐냐 졈? 같은거라든가..... 뿐이다\n책을 사야겠지....",
-"handle": "lhoevlep.bsky.social",
-"name": "플랑",
-"time": "2026-11-23T05:19:29.145Z",
-"likes": 2,
-"reposts": 0,
-"url": "https://bsky.app/profile/lhoevlep.bsky.social/post/3n2xeyiywws2h",
-"term": "사고"
 },
 {
 "platform": "YouTube",
@@ -3944,18 +3954,18 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 0.72,
+"지진": 0.75,
 "화재": 0.05,
 "불났": 0.05,
-"정전": 0.32,
+"정전": 0.39,
 "폭발": 0.05,
-"붕괴": 0.76,
+"붕괴": 0.78,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.29,
-"사고": 3.1,
-"실종": 0.09,
+"지하철": 0.26,
+"사고": 3.29,
+"실종": 0.08,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -4236,14 +4246,14 @@
 "time": "2026-11-23T03:50:00+00:00",
 "news": [
 {
-"title": "차병원, 송도 국제병원 부지에 3천 가구 주상복합아파트 요구",
+"title": "반도체 품은 경기도내 지자체들 ‘곳간 넉넉’",
 "source": "기호일보",
-"link": "https://www.kihoilbo.co.kr/news/articleView.html?idxno=3041673"
+"link": "https://www.kihoilbo.co.kr/news/articleView.html?idxno=3041721"
 },
 {
-"title": "인천 배다리 관통도로 내년 전 구간 개통 ‘순항’",
-"source": "기호일보",
-"link": "https://www.kihoilbo.co.kr/news/articleView.html?idxno=3041722"
+"title": "반도체 호황에 평택시 살림 4조원 시대…재정안정화기금 3천520억원 적립",
+"source": "경기일보",
+"link": "https://www.kyeonggi.com/article/20261122580203"
 }
 ],
 "new": true
@@ -4254,14 +4264,14 @@
 "time": "2026-11-23T03:40:00+00:00",
 "news": [
 {
-"title": "단독 교육청, 이진우 '수능 시험지' 반출 법리검토 경찰에 요청",
-"source": "YTN",
-"link": "https://www.ytn.co.kr/_ln/0103_202611231120309984"
+"title": "‘리트 만점자’ 유족 경찰 출석…노트북 등 전자기기 확보되나",
+"source": "JTBC",
+"link": "https://news.jtbc.co.kr/article/NB12329355"
 },
 {
-"title": "‘리트 만점자’ 유족 경찰 출석…수능 3주 전 과외 수업 대학생도 조사 예정",
-"source": "한겨레",
-"link": "https://www.hani.co.kr/arti/society/society_general/1288627.html"
+"title": "경찰, '부정시험 의혹' 리트 만점자 유족 면담‥과외 교사도 조사 예정",
+"source": "MBC 뉴스",
+"link": "https://imnews.imbc.com/news/2026/society/article/6867833_36918.html?1795411511982"
 }
 ],
 "new": true
@@ -4290,14 +4300,14 @@
 "time": "2026-11-23T03:10:00+00:00",
 "news": [
 {
-"title": "\"삼전 30만원·하닉 200만원 이상에 물린 사람…3년은 마음 비워야\"",
-"source": "뉴시스",
-"link": "https://www.newsis.com/view/NISX20261118_0003873510"
-},
-{
 "title": "삼전닉스 싸다고 줍줍했다간…증권가 '서늘한 경고' [머니팁]",
 "source": "한국경제",
 "link": "https://www.hankyung.com/article/202611233663v"
+},
+{
+"title": "\"삼전 30만원·하닉 200만원 이상에 물린 사람…3년은 마음 비워야\"",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261118_0003873510"
 }
 ],
 "new": false
