@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-23T13:30:59.899568+00:00",
+"updated": "2026-11-23T13:33:12.150587+00:00",
 "errors": [],
 "events": [
 {
@@ -4996,7 +4996,7 @@
 "terms": {
 "지진": {
 "n30": 2,
-"base": 0.1,
+"base": 0.2,
 "spike": false
 },
 "화재": {
@@ -5015,9 +5015,9 @@
 "spike": false
 },
 "폭발": {
-"n30": 5,
-"base": 0.9,
-"spike": true
+"n30": 4,
+"base": 1.1,
+"spike": false
 },
 "붕괴": {
 "n30": 2,
@@ -5030,7 +5030,7 @@
 "spike": false
 },
 "미사일": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -5040,13 +5040,13 @@
 "spike": false
 },
 "지하철": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
 "사고": {
 "n30": 4,
-"base": 3.1,
+"base": 3.2,
 "spike": false
 },
 "실종": {
@@ -5121,7 +5121,7 @@
 "handle": "rome-is-me.bsky.social",
 "name": "로메",
 "time": "2026-11-23T13:12:54.741Z",
-"likes": 4,
+"likes": 5,
 "reposts": 2,
 "url": "https://bsky.app/profile/rome-is-me.bsky.social/post/3n2y7gx46vs2y",
 "term": "사고"
@@ -5364,29 +5364,21 @@
 "url": "https://www.youtube.com/watch?v=GE66Tajle_8"
 }
 ],
-"spikes": [
-{
-"term": "폭발",
-"n30": 5,
-"base": 0.9,
-"spike": true,
-"since": "2026-11-23T13:30:59.899568+00:00"
-}
-],
+"spikes": [],
 "baseline": {
-"지진": 0.24,
+"지진": 0.32,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 1.05,
+"폭발": 1.15,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
 "지하철": 0.05,
-"사고": 3.23,
-"실종": 0.64,
-"단수": 0.21,
+"사고": 3.31,
+"실종": 0.68,
+"단수": 0.19,
 "통신 장애": 0.05,
 "먹통": 0.05,
 "산불": 0.05
@@ -5743,7 +5735,7 @@
 {
 "title": "결국은 \"돈 더 내라\"...미 데이터센터 규제의 진짜 속내",
 "source": "YTN 사이언스",
-"link": "https://m.science.ytn.co.kr/program/view_today.php?s_mcd=0082&key=202611231601194035"
+"link": "https://science.ytn.co.kr/program/view.php?mcd=0082&key=202611231601194035"
 }
 ],
 "new": true
