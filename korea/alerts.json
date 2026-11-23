@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-23T20:38:39.149061+00:00",
+"updated": "2026-11-23T20:40:51.328942+00:00",
 "errors": [],
 "events": [
 {
@@ -3831,38 +3831,6 @@
 "젠슨",
 "회복"
 ]
-},
-{
-"id": "Uwb2JEQjV3SllycUthd2Eoc51439",
-"first": "2026-11-23T14:39:00+00:00",
-"last": "2026-11-23T14:39:00+00:00",
-"updated": "2026-11-23T14:45:42.297263+00:00",
-"headline": "젠슨 황 \"엔비디아 복귀 영광…새 각오로 책임 받아들여\"",
-"cat": "기타",
-"regions": [],
-"sources": [
-"뉴스1"
-],
-"updates": [
-{
-"title": "[속보] 젠슨 황 \"엔비디아 복귀 영광…새 각오로 책임 받아들여\"",
-"source": "뉴스1",
-"link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE92U2ZrN2pMMndBNjhfcTdMeFFLZDJKaXRObFI3bEMybXJTU0NoeDV5SmFaYkJCdF9ULWd6RTQzOUw1MjIzcVZTVVUwb2JEQjV3SllycUthd2E?oc=5",
-"time": "2026-11-23T14:39:00+00:00",
-"stage": "얼럿"
-}
-],
-"level": "URGENT",
-"latest": "젠슨 황 \"엔비디아 복귀 영광…새 각오로 책임 받아들여\"",
-"tok": [
-"각오",
-"받아들여",
-"복귀",
-"엔비디아",
-"영광",
-"젠슨",
-"책임"
-]
 }
 ],
 "sns": {
@@ -3888,7 +3856,7 @@
 "spike": false
 },
 "폭발": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -3908,9 +3876,9 @@
 "spike": false
 },
 "속보": {
-"n30": 5,
-"base": 0.2,
-"spike": true
+"n30": 4,
+"base": 0.3,
+"spike": false
 },
 "지하철": {
 "n30": 1,
@@ -4158,15 +4126,7 @@
 "url": "https://www.youtube.com/watch?v=HSfWM5QyWJY"
 }
 ],
-"spikes": [
-{
-"term": "속보",
-"n30": 5,
-"base": 0.2,
-"spike": true,
-"since": "2026-11-23T20:38:39.149061+00:00"
-}
-],
+"spikes": [],
 "baseline": {
 "지진": 0.05,
 "화재": 0.05,
@@ -4176,7 +4136,7 @@
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.32,
+"속보": 0.39,
 "지하철": 0.05,
 "사고": 0.05,
 "실종": 0.05,
