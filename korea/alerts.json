@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-23T18:27:23.820861+00:00",
+"updated": "2026-11-23T18:29:37.389125+00:00",
 "errors": [],
 "events": [
 {
@@ -4149,7 +4149,7 @@
 },
 "붕괴": {
 "n30": 3,
-"base": 0.4,
+"base": 0.3,
 "spike": false
 },
 "대피": {
@@ -4163,9 +4163,9 @@
 "spike": false
 },
 "속보": {
-"n30": 6,
+"n30": 4,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "지하철": {
 "n30": 1,
@@ -4421,27 +4421,19 @@
 "url": "https://www.youtube.com/watch?v=JdccsA49Ebk"
 }
 ],
-"spikes": [
-{
-"term": "속보",
-"n30": 6,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-23T18:27:23.820861+00:00"
-}
-],
+"spikes": [],
 "baseline": {
 "지진": 0.05,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
 "폭발": 0.05,
-"붕괴": 0.34,
+"붕괴": 0.31,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
 "지하철": 0.05,
-"사고": 0.09,
+"사고": 0.08,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -4838,14 +4830,14 @@
 "time": "2026-11-23T14:30:00+00:00",
 "news": [
 {
-"title": "‘Proud’: Gold Coast public school named among the state’s Top 100",
-"source": "The Mercury",
-"link": "https://www.themercury.com.au/education/regions/queensland/benowa-state-high-school-named-gold-coasts-top-public-high-school-in-national-rankings/news-story/088e33236dcb8480ead5a68a06f99325"
+"title": "Victoria’s Top 100 Public High Schools revealed: See the full list",
+"source": "Herald Sun",
+"link": "https://www.heraldsun.com.au/education/regions/victoria/top-100-public-high-schools-2026-nossal-high-crowned-victorias-best/news-story/7d3208177d23fc69cedd5b2bcfdcc813"
 },
 {
-"title": "Top 100 Public High Schools: Geelong school named one of the state’s best",
+"title": "Top 100 Public High Schools: Search the list to find the very best",
 "source": "Adelaide Now",
-"link": "https://www.adelaidenow.com.au/education/regions/victoria/victorias-top-100-public-high-schools-see-the-geelong-school-that-made-the-list-in-2026/news-story/2c7f9124e47db1471ae185f257694390"
+"link": "https://www.adelaidenow.com.au/education/schools-hub/secondary/australias-top-100-public-high-schools-where-your-kids-will-get-the-best-education/news-story/6a95c1ba9549c0db8f928e1fcf3a29d0"
 }
 ],
 "new": true
