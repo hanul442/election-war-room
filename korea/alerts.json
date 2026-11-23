@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-23T19:29:51.024150+00:00",
+"updated": "2026-11-23T19:32:02.520732+00:00",
 "errors": [],
 "events": [
 {
@@ -4138,58 +4138,13 @@
 "화재",
 "회담"
 ]
-},
-{
-"id": "YQkZoMXk5VTkxZEl2YWhroc51130",
-"first": "2026-11-23T11:30:00+00:00",
-"last": "2026-11-23T13:31:33+00:00",
-"updated": "2026-11-23T13:37:37.226166+00:00",
-"headline": "11월 23일 축구 속보: U17 베트남, U17 뉴질랜드전 승점 획득 목표 설정",
-"cat": "기타",
-"regions": [],
-"sources": [
-"Laodong.vn"
-],
-"updates": [
-{
-"title": "11월 23일 축구 속보: U17 베트남, U17 뉴질랜드전 승점 획득 목표 설정",
-"source": "Laodong.vn",
-"link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPMmFWYjdMeEF5T3VHcFYwU19FRXFTa00tSTNZVnBJVGRaYXVKVEp1Sm9WY0lpenFkRU9MWlNuMEZPRXFoSTdQWjJZUk1uTFBPWjFtaUp6bFVfczBoLWZsbWRwdGN5c0FZNXRtOGlGQmhqSlBRc2NsQzBXMk9EQ0Y2RnJKS0UzR2gzUHF4SnR4ZHpqUGhHSkRnYUR2S19XR3kxTlo1NS1zWjhTYlJ2VG1CRVVtTjZYQkZoMXk5VTkxZEl2YWhr?oc=5",
-"time": "2026-11-23T11:30:00+00:00",
-"stage": "1보"
-},
-{
-"title": "2026 U17 월드컵 U17 베트남 대 U17 뉴질랜드 축구 생중계",
-"source": "Laodong.vn",
-"link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQbllEYjBEdXhxZXZTZnBHbmpranhHRV9rY1Mta0Q2ZlNqWUxjSDdtYS1PNEhZMWFyTnhuWDR1UW4tN1Z0UjY4OUdMdUVoN1pOTEFjTEplMkdJN3Ffdmc3SG1xd210QWRBOWV3MFRSNnVqWGpvMmpEU3VaNHRQdDhsYWdBTzJWVkl2N091bzBVT1NTdU9YbnVEaDg2VlBnRHljaUl5aXFfQlJUWDRBYm8tckdWSGI?oc=5",
-"time": "2026-11-23T13:31:33+00:00",
-"stage": "후속"
-}
-],
-"level": "ALERT",
-"latest": "2026 U17 월드컵 U17 베트남 대 U17 뉴질랜드 축구 생중계",
-"tok": [
-"11월",
-"23일",
-"U17",
-"뉴질랜드",
-"뉴질랜드전",
-"목표",
-"베트남",
-"생중계",
-"설정",
-"승점",
-"월드컵",
-"축구",
-"획득"
-]
 }
 ],
 "sns": {
 "terms": {
 "지진": {
 "n30": 1,
-"base": 0.3,
+"base": 0.2,
 "spike": false
 },
 "화재": {
@@ -4203,12 +4158,12 @@
 "spike": false
 },
 "정전": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
 "폭발": {
-"n30": 2,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
@@ -4228,12 +4183,12 @@
 "spike": false
 },
 "속보": {
-"n30": 10,
+"n30": 6,
 "base": 0.1,
 "spike": true
 },
 "지하철": {
-"n30": 3,
+"n30": 2,
 "base": 0.1,
 "spike": false
 },
@@ -4489,14 +4444,14 @@
 "spikes": [
 {
 "term": "속보",
-"n30": 10,
+"n30": 6,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-23T19:29:51.024150+00:00"
+"since": "2026-11-23T19:32:02.520732+00:00"
 }
 ],
 "baseline": {
-"지진": 0.24,
+"지진": 0.22,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
