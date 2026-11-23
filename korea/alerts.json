@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-23T08:56:25.251446+00:00",
+"updated": "2026-11-23T08:58:37.610642+00:00",
 "errors": [],
 "events": [
 {
@@ -4597,7 +4597,7 @@
 "terms": {
 "지진": {
 "n30": 0,
-"base": 0.2,
+"base": 0.1,
 "spike": false
 },
 "화재": {
@@ -4626,7 +4626,7 @@
 "spike": false
 },
 "대피": {
-"n30": 0,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
@@ -4646,13 +4646,13 @@
 "spike": false
 },
 "사고": {
-"n30": 3,
-"base": 2.0,
+"n30": 2,
+"base": 2.1,
 "spike": false
 },
 "실종": {
 "n30": 2,
-"base": 1.2,
+"base": 1.3,
 "spike": false
 },
 "단수": {
@@ -4677,6 +4677,16 @@
 }
 },
 "posts": [
+{
+"text": "앙대여 저 지금 호다닥 화장실로 대피했다구요 주세요주세요 포이피쿠면 되지 않을까요?",
+"handle": "susu1x11.bsky.social",
+"name": "수수🐌",
+"time": "2026-11-23T08:56:48.940Z",
+"likes": 2,
+"reposts": 0,
+"url": "https://bsky.app/profile/susu1x11.bsky.social/post/3n2xr53qgvs23",
+"term": "대피"
+},
 {
 "text": "사실 저번에 그 밑줄 메모지? 길다란거 그거 사고 싶었는데 뭔 7700원이나 해서\n씅나서 다이소말고 다 법규하는거 맞음",
 "handle": "popping-boba.bsky.social",
@@ -4791,16 +4801,6 @@
 "url": "https://www.youtube.com/watch?v=4IiYExB4FuM"
 },
 {
-"text": "이게 정말 구금지 막힌 게 큰 거 같음 예전에 일본 행사 참가할 때는 이왕 일본 가니까 열심히 해야해;;; 이런 생각 안 했음 심지어 걍 아 안 떠올라 안 그려져 바빠~ 이럼서 펑크도 냈음(미친 사람 같나요? 다행히 뱅기표는 안 끊어서 행사 참가하는 지인에게 책상에 석고대죄 페이퍼 만든 것만 올려달라 부탁함) \n그리고 난 정말 이런 상황에 놓이면 넘 불안해하는군...(네거티브 사고가 아니라 ",
-"handle": "uaelanq.bsky.social",
-"name": "우애란",
-"time": "2026-11-23T08:26:47.541Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/uaelanq.bsky.social/post/3n2xphgmc3k27",
-"term": "사고"
-},
-{
 "platform": "YouTube",
 "text": "주가 오를 땐 자신만만...폭락하자 “각자가 알아서” #대한민국 #한국 #정치 #이슈 #정치이슈 #속보 #뉴스 #논란 #자유 #윤석열 #주식 #주가 #코스피 #코스닥 #국민연금",
 "handle": "UCou5GEHyk2z7oQ8xLUzU-bg",
@@ -4884,19 +4884,19 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 0.14,
+"지진": 0.13,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
 "폭발": 0.05,
-"붕괴": 0.82,
-"대피": 0.05,
+"붕괴": 0.84,
+"대피": 0.15,
 "미사일": 0.05,
 "속보": 0.05,
 "지하철": 0.05,
-"사고": 2.11,
-"실종": 1.32,
-"단수": 0.31,
+"사고": 2.1,
+"실종": 1.39,
+"단수": 0.28,
 "통신 장애": 0.05,
 "먹통": 0.05,
 "산불": 0.05
@@ -5075,9 +5075,9 @@
 "time": "2026-11-23T07:40:00+00:00",
 "news": [
 {
-"title": "김태규 \"2시간짜리 내란이 어디 있나 지X 지X\"‥민주당에 막말",
+"title": "\"내란 왜 인정? 지X\"‥판결 다음날 김태규 껄껄 웃으며 방송 '막말'",
 "source": "MBC 뉴스",
-"link": "https://imnews.imbc.com/news/2026/politics/article/6867870_36911.html"
+"link": "https://imnews.imbc.com/news/2026/politics/article/6867878_36911.html"
 },
 {
 "title": "“내란 인정하라고 지X 지X”…국힘 김태규, 민주당에 막말",
@@ -5147,14 +5147,14 @@
 "time": "2026-11-23T07:00:00+00:00",
 "news": [
 {
-"title": "김원효 '트랜스젠더 바' 대신 해명한 심진화 \"오른쪽 사람이…\" - 머니투데이",
-"source": "머니투데이",
-"link": "https://www.mt.co.kr/entertainment/2026/11/22/2026112215225582798"
-},
-{
 "title": "심진화♥김원효, 유흥업소 방문 논란 후 보란 듯 가족 사진…공연 '연습' 열중 [핫피플]",
 "source": "조선일보",
 "link": "https://www.chosun.com/entertainments/broadcast/2026/11/23/MJRDGZTGGM2WEN3BGFRGEMDFGU/"
+},
+{
+"title": "심진화, 김원효 ‘트랜스젠더 바’ 논란에 \"후배 만나러 갔다\"",
+"source": "YTN",
+"link": "https://www.ytn.co.kr/_ln/0117_202611231012432150"
 }
 ],
 "new": true
@@ -5188,9 +5188,9 @@
 "link": "https://www.mt.co.kr/stock/2026/11/23/2026112308413335800"
 },
 {
-"title": "휴림로봇 주가 장중 상한가, 삼성전기 자동화 장비로봇 공급 본계약 체결",
-"source": "비즈니스포스트",
-"link": "https://www.businesspost.co.kr/BP?command=article_view&num=452641"
+"title": "현림로봇, 삼성전기 공급 계약 체결에 주가 30% 급등",
+"source": "Investing.com 한국어",
+"link": "https://kr.investing.com/news/stock-market-news/article-2186567"
 }
 ],
 "new": false
