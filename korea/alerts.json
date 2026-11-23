@@ -1,16 +1,17 @@
 {
-"updated": "2026-11-23T16:41:07.001090+00:00",
+"updated": "2026-11-23T16:43:20.371373+00:00",
 "errors": [],
 "events": [
 {
 "id": "wNISX20261123_00038798791622",
 "first": "2026-11-23T16:22:54+00:00",
-"last": "2026-11-23T16:26:10+00:00",
-"updated": "2026-11-23T16:34:28.794652+00:00",
+"last": "2026-11-23T16:36:59+00:00",
+"updated": "2026-11-23T16:43:20.371373+00:00",
 "headline": "'투표록 위변조 의혹' 선관위 직원 1명 구속·7명 기각",
 "cat": "기타",
 "regions": [],
 "sources": [
+"MBC 뉴스",
 "SBS",
 "뉴스1",
 "뉴시스",
@@ -44,13 +45,21 @@
 "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008859847&plink=RSSLINK&cooper=RSSREADER",
 "time": "2026-11-23T16:26:10+00:00",
 "stage": "속보"
+},
+{
+"title": "[속보] '투표율 허위입력' 선관위 직원 8명 중 1명 구속‥7명 기각",
+"source": "MBC 뉴스",
+"link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBlR1MzbjhQUTRpU2g2NFdER2xqSWtKWjJ1Ukp6bkh3dXFWQ25sLXAzclFEYm9tSEN3dFB0NzRJajFrOUtsd1VCazlBbjZ2QXFaLW1sdXZTN0p3NjRqM0Z0ZTVua0FDbDdlYXFYYTA0Y3lrdmdXMHdB0gF3QVVfeXFMTVFNaE81S1dZWTdZdWhKLTlscy1SN1hGemcxMHg4U1pnbUlJOXg3Rkl0NWZrN016bXZTVUFIOE1Jek5aUGxBRmlXNXZmV2NKOFI3WUMzMVViOWVfY2lwSzQ5aEt0Z2pYbDNHaExlY1R3dDA3ZmpScDA?oc=5",
+"time": "2026-11-23T16:36:59+00:00",
+"stage": "속보"
 }
 ],
 "level": "BULLETIN",
-"latest": "'투표율 허위 입력' 선관위 직원 1명 구속·7명 기각",
+"latest": "'투표율 허위입력' 선관위 직원 8명 중 1명 구속‥7명 기각",
 "tok": [
 "1명",
 "7명",
+"8명",
 "관계자",
 "구속",
 "기각",
@@ -63,7 +72,8 @@
 "직원",
 "투표록",
 "투표율",
-"허위"
+"허위",
+"허위입력"
 ]
 },
 {
@@ -4763,43 +4773,6 @@
 "중단",
 "지정"
 ]
-},
-{
-"id": "5paGV2ODU1WVRfZGt1TzAoc51042",
-"first": "2026-11-23T10:42:54+00:00",
-"last": "2026-11-23T10:42:54+00:00",
-"updated": "2026-11-23T10:46:35.975389+00:00",
-"headline": "고경표, 데뷔 16년만 첫 경찰 포토라인 '나락 행보'..\"다친 미화원, 오히려 내 걱정\" 90도 사과",
-"cat": "사회",
-"regions": [],
-"sources": [
-"스타뉴스"
-],
-"updates": [
-{
-"title": "[속보] 고경표, 데뷔 16년만 첫 경찰 포토라인 '나락 행보'..\"다친 미화원, 오히려 내 걱정\" 90도 사과",
-"source": "스타뉴스",
-"link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5TdW82Nk9IQ1ZoOENqYm5FcDVfRkJQd2ZaTG9NU1FyV0FsQlg1SzhKVlhucHdkNGFZTVdYMXhYS2s4WF9ocmtWeXRDNVdRVkVFVW5FNzZiYzdoeEdQTFdnR2FIWE5paGV2ODU1WVRfZGt1TzA?oc=5",
-"time": "2026-11-23T10:42:54+00:00",
-"stage": "얼럿"
-}
-],
-"level": "URGENT",
-"latest": "고경표, 데뷔 16년만 첫 경찰 포토라인 '나락 행보'..\"다친 미화원, 오히려 내 걱정\" 90도 사과",
-"tok": [
-"16년",
-"걱정",
-"경찰",
-"고경표",
-"나락",
-"다친",
-"데뷔",
-"미화원",
-"사과",
-"오히려",
-"포토라인",
-"행보"
-]
 }
 ],
 "sns": {
@@ -4826,7 +4799,7 @@
 },
 "폭발": {
 "n30": 1,
-"base": 0.3,
+"base": 0.4,
 "spike": false
 },
 "붕괴": {
@@ -4851,12 +4824,12 @@
 },
 "지하철": {
 "n30": 1,
-"base": 0.2,
+"base": 0.3,
 "spike": false
 },
 "사고": {
 "n30": 1,
-"base": 1.9,
+"base": 1.8,
 "spike": false
 },
 "실종": {
@@ -5100,21 +5073,21 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 0.74,
+"지진": 0.77,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.39,
+"폭발": 0.45,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.06,
-"지하철": 0.32,
-"사고": 1.8,
+"속보": 0.05,
+"지하철": 0.39,
+"사고": 1.72,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
-"먹통": 0.31,
+"먹통": 0.28,
 "산불": 0.05
 },
 "errors": [],
@@ -5359,9 +5332,9 @@
 "link": "https://gizmodo.com/a-new-avengers-doomsday-trailer-heralds-a-crisis-on-all-earths-2000843702"
 },
 {
-"title": "Marvel Reportedly Has a Cinema-Exclusive 'Avengers: Doomsday' Clip Heading to Theaters",
-"source": "Comic Basics",
-"link": "https://www.comicbasics.com/marvel-reportedly-has-a-cinema-exclusive-avengers-doomsday-clip-heading-to-theaters/"
+"title": "New Avengers: Doomsday Trailer Teases Epic Showdown Between Robert Downey Jr. and Marvel Heroes, Reveals Captain America’s Child",
+"source": "People.com",
+"link": "https://people.com/robert-downey-jr-chris-evans-avengers-doomsday-trailer-12274339"
 }
 ],
 "new": true
