@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-23T15:03:27.790483+00:00",
+"updated": "2026-11-23T15:05:40.730029+00:00",
 "errors": [],
 "events": [
 {
@@ -38,13 +38,14 @@
 "id": "pDSDdPalVJOEx5TUFGQ3Moc51417",
 "first": "2026-11-23T14:17:52+00:00",
 "last": "2026-11-23T15:00:00+00:00",
-"updated": "2026-11-23T15:03:27.790483+00:00",
+"updated": "2026-11-23T15:05:40.730029+00:00",
 "headline": "젠슨 황, 퇴진 2주도 안 돼 엔비디아 CEO 복귀…주가 27% 넘게 급등｜Global Money Club",
 "cat": "경제",
 "regions": [],
 "sources": [
 "CBC뉴스",
 "SBS",
+"www.twig24.com",
 "금강일보",
 "뉴시스",
 "매일경제",
@@ -119,6 +120,13 @@
 "source": "스페셜타임스",
 "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBkMUtzd3pYalBGQVc2Mjhla0NSOVRTdm5xd1VVSlY1U3J3UFRWaXJvRmlJUUIzcHpQUi1nLWpBM2FmWWtTN2pFLTJCUWxFM0RwanRVY2hhZHFRbmxDbk9LY0FXejQ5Z3dtVWFKbVFIazVjZw?oc=5",
 "time": "2026-11-23T14:50:01+00:00",
+"stage": "속보"
+},
+{
+"title": "[속보] 젠슨 황 복귀에 엔비디아 33% 폭등…나스닥도 7% 급등 출발",
+"source": "www.twig24.com",
+"link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1UV1doMFVheGlvWHZ5TGllVTZCYmo5WXAtdnBfN1RpZmdjTTdRT3NadnpHTmJ5UFRxd0pPV1dqMVBZcU03QVoxWTJ4QXNsNGEzQ01zc1pUZGZEYS15cmJZZ0Q5S21vMWgzdmRr?oc=5",
+"time": "2026-11-23T14:53:14+00:00",
 "stage": "속보"
 },
 {
@@ -5462,62 +5470,6 @@
 "이종석",
 "임웅순"
 ]
-},
-{
-"id": "ml2aWZjN1l3d3ZOUkVBUQoc50901",
-"first": "2026-11-23T09:01:25+00:00",
-"last": "2026-11-23T09:04:41+00:00",
-"updated": "2026-11-23T09:14:03.697071+00:00",
-"headline": "인천서 음주운전 30대 해경 간부 적발 “면허정지 수준”… 직위 해제",
-"cat": "기타",
-"regions": [
-"인천"
-],
-"sources": [
-"뉴시스",
-"서울신문",
-"연합뉴스"
-],
-"updates": [
-{
-"title": "현직 해경 간부, 인천서 음주운전 적발…직위 해제",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261123155000065",
-"time": "2026-11-23T08:42:09+00:00",
-"stage": "후속"
-},
-{
-"title": "[속보] 인천서 음주운전 30대 해경 간부 적발 “면허정지 수준”… 직위 해제",
-"source": "서울신문",
-"link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBacDdPNE55ZG9PWkdxVm1XVFdXYXFBMVVoTHg3aTM1dFFpX2s5VUhOU2JpOE84LUFhcnh0TjRJNlBGNTFJc25HYlFtRnFOckpJYjdrTG50N1FOeEVqdm1zdGszMmZuVWZ3eG41Rml2aWZjN1l3d3ZOUkVBUQ?oc=5",
-"time": "2026-11-23T09:01:25+00:00",
-"stage": "얼럿"
-},
-{
-"title": "현직 해경 경위, 인천서 음주운전하다 적발…직위 해제",
-"source": "뉴시스",
-"link": "https://www.newsis.com/view/NISX20261123_0003879931",
-"time": "2026-11-23T09:04:41+00:00",
-"stage": "후속"
-}
-],
-"level": "URGENT",
-"latest": "현직 해경 경위, 인천서 음주운전하다 적발…직위 해제",
-"tok": [
-"30대",
-"간부",
-"경위",
-"면허정지",
-"수준",
-"음주운전",
-"음주운전하다",
-"인천서",
-"적발",
-"직위",
-"해경",
-"해제",
-"현직"
-]
 }
 ],
 "sns": {
@@ -5544,7 +5496,7 @@
 },
 "폭발": {
 "n30": 3,
-"base": 1.7,
+"base": 1.6,
 "spike": false
 },
 "붕괴": {
@@ -5563,18 +5515,18 @@
 "spike": false
 },
 "속보": {
-"n30": 2,
-"base": 1.5,
+"n30": 1,
+"base": 1.4,
 "spike": false
 },
 "지하철": {
 "n30": 1,
-"base": 0.7,
+"base": 0.8,
 "spike": false
 },
 "사고": {
 "n30": 2,
-"base": 3.1,
+"base": 3.0,
 "spike": false
 },
 "실종": {
@@ -5864,16 +5816,16 @@
 "spikes": [],
 "baseline": {
 "지진": 0.05,
-"화재": 0.16,
+"화재": 0.14,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 1.59,
+"폭발": 1.53,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 1.38,
-"지하철": 0.77,
-"사고": 2.96,
+"속보": 1.24,
+"지하철": 0.79,
+"사고": 2.86,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -6198,14 +6150,14 @@
 "time": "2026-11-23T13:50:00+00:00",
 "news": [
 {
-"title": "엔비디아 “이사회 만장일치로 젠슨 황 최고경영자로 복귀”",
-"source": "KBS 뉴스",
-"link": "https://news.kbs.co.kr/news/view.do?ncd=8720606"
+"title": "[속보] 엔비디아 이사회, 젠슨 황 CEO 복귀 결정",
+"source": "조선일보",
+"link": "https://www.chosun.com/economy/tech_it/2026/11/23/HDJ3H6MZZ5GT7A4ETBWRHVQR3E/"
 },
 {
-"title": "[속보]‘불륜 스캔들’ 젠슨 황, 다시 엔비디아 CEO로···불명예 퇴진 11일만",
+"title": "트럼프 “젠슨 황 엔비디아 CEO 복귀는 올바른 결정…국가안보 위험 없어”",
 "source": "경향신문",
-"link": "https://www.khan.co.kr/article/202611232329001"
+"link": "https://www.khan.co.kr/article/202611232352001"
 }
 ],
 "new": true
