@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-23T15:32:21.966704+00:00",
+"updated": "2026-11-23T15:34:35.527068+00:00",
 "errors": [],
 "events": [
 {
@@ -5284,48 +5284,6 @@
 "승용차",
 "호남고속도"
 ]
-},
-{
-"id": "4c3JnVHhwVzF4SDkwUFFFoc50933",
-"first": "2026-11-23T09:33:10+00:00",
-"last": "2026-11-23T09:33:10+00:00",
-"updated": "2026-11-23T09:45:02.233755+00:00",
-"headline": "AI 매도세 딛고 반등?…美나스닥 선물 2.8%↑",
-"cat": "기타",
-"regions": [],
-"sources": [
-"뉴시스",
-"문화일보"
-],
-"updates": [
-{
-"title": "亞증시 하락 속 美나스닥 선물 2.8%↑…AI 매도세 딛고 반등 기대",
-"source": "뉴시스",
-"link": "https://www.newsis.com/view/NISX20261123_0003879801",
-"time": "2026-11-23T08:22:44+00:00",
-"stage": "후속"
-},
-{
-"title": "[속보]AI 매도세 딛고 반등?…美나스닥 선물 2.8%↑",
-"source": "문화일보",
-"link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE01UEpnUHYwbW5iemxVV0NQN0xsVHQzYkM1Vk9NZVd0dzBWYWdvZnY1LVlDdzczdlE5XzZnaXM4VlV4c3JnVHhwVzF4SDkwUFFF?oc=5",
-"time": "2026-11-23T09:33:10+00:00",
-"stage": "얼럿"
-}
-],
-"level": "URGENT",
-"latest": "AI 매도세 딛고 반등?…美나스닥 선물 2.8%↑",
-"tok": [
-"AI",
-"亞증시",
-"美나스닥",
-"기대",
-"딛고",
-"매도세",
-"반등",
-"선물",
-"하락"
-]
 }
 ],
 "sns": {
@@ -5351,8 +5309,8 @@
 "spike": false
 },
 "폭발": {
-"n30": 2,
-"base": 0.7,
+"n30": 1,
+"base": 0.6,
 "spike": false
 },
 "붕괴": {
@@ -5371,7 +5329,7 @@
 "spike": false
 },
 "속보": {
-"n30": 9,
+"n30": 7,
 "base": 1.0,
 "spike": true
 },
@@ -5382,7 +5340,7 @@
 },
 "사고": {
 "n30": 5,
-"base": 2.7,
+"base": 2.9,
 "spike": false
 },
 "실종": {
@@ -5691,10 +5649,10 @@
 "spikes": [
 {
 "term": "속보",
-"n30": 9,
+"n30": 7,
 "base": 1.0,
 "spike": true,
-"since": "2026-11-23T15:32:21.966704+00:00"
+"since": "2026-11-23T15:34:35.527068+00:00"
 }
 ],
 "baseline": {
@@ -5702,13 +5660,13 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.59,
+"폭발": 0.53,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 1.01,
-"지하철": 0.26,
-"사고": 2.94,
+"지하철": 0.23,
+"사고": 3.15,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -5947,19 +5905,55 @@
 },
 "trends": [
 {
-"term": "nvda",
-"traffic": "500+",
-"time": "2026-11-23T14:20:00+00:00",
+"term": "qld",
+"traffic": "100+",
+"time": "2026-11-23T14:30:00+00:00",
 "news": [
 {
-"title": "Live updates: Bitcoin trades near $65,000 as Nasdaq closes with 2.5% loss",
-"source": "CoinDesk",
-"link": "https://www.coindesk.com/tech/2026/11/16/live-news-bitcoin-posts-sixth-weekly-loss-as-tech-stocks-and-metals-slide"
+"title": "Qld critical mineral to supply fighter jets, subs, smartphones",
+"source": "NT News",
+"link": "https://www.ntnews.com.au/news/queensland/queensland-critical-minerals-to-power-us-fighter-jets-after-far-north-mine-expansion/news-story/f0d84e9c4337875a8f07c0207db662d6"
 },
 {
-"title": "Crypto Week Ahead: Fed Inflation Data, Strategy’s MSCI Removal, Binance Blockchain Week",
-"source": "The Crypto Times",
-"link": "https://www.cryptotimes.io/2026/11/23/crypto-week-ahead-fed-inflation-data-strategys-msci-removal-binance-blockchain-week/"
+"title": "Lot 5 Muller Road, Baffle Creek, Qld 4674",
+"source": "Real Estate",
+"link": "https://www.realestate.com.au/property-lifestyle-qld-baffle+creek-700432860"
+}
+],
+"new": true
+},
+{
+"term": "voo",
+"traffic": "100+",
+"time": "2026-11-23T14:30:00+00:00",
+"news": [
+{
+"title": "Da aviação nos EUA à Justiça brasileira, apagões digitais expõem dependências invisíveis",
+"source": "Instituto Humanitas Unisinos - IHU",
+"link": "https://ihu.unisinos.br/categorias/673454-da-aviacao-nos-eua-a-justica-brasileira-apagoes-digitais-expoem-dependencias-invisiveis"
+},
+{
+"title": "A revolta das máquinas pode acontecer de maneira diferente daquela que o cinema mostrou",
+"source": "Estadão",
+"link": "https://www.estadao.com.br/brasil/macaco-eletrico/a-revolta-das-maquinas-pode-acontecer-de-maneira-diferente-daquela-que-o-cinema-mostrou/"
+}
+],
+"new": true
+},
+{
+"term": "qqq",
+"traffic": "200+",
+"time": "2026-11-23T14:30:00+00:00",
+"news": [
+{
+"title": "iPhone, iPad targeted by massive website malware attack",
+"source": "AppleInsider",
+"link": "https://appleinsider.com/articles/26/11/17/iphone-ipad-targeted-by-massive-website-malware-attack"
+},
+{
+"title": "Cyberattack targets BBC, Zoom and Ikea as 178 websites hacked",
+"source": "The Times",
+"link": "https://www.thetimes.com/uk/technology-uk/article/cyberattack-bbc-zoom-ikea-websites-hacked-5lm75zjdm"
 }
 ],
 "new": true
@@ -6086,42 +6080,6 @@
 "title": "1997년 노포 삼계탕부터 스페인 꿀대구까지... 신용산역 직장인 성지 ‘미식 골목’",
 "source": "인사이트",
 "link": "https://www.insight.co.kr/news/583155"
-}
-],
-"new": true
-},
-{
-"term": "오정태",
-"traffic": "100+",
-"time": "2026-11-23T14:00:00+00:00",
-"news": [
-{
-"title": "[선공개] ‘국민 바보 아빠’ 오정태×정준하, 떡잎부터 남다른 딸과 아들의 재능 자랑↗ (ft. 최초 공개)",
-"source": "programs.sbs.co.kr",
-"link": "https://programs.sbs.co.kr/enter/dongsang2/clip/52007/OC484216900"
-},
-{
-"title": "“첫째 딸 과학고 조기 졸업, 명문대 조기 입학”…오정태, 합격증 이마에 붙이고 ‘활짝’",
-"source": "매일경제",
-"link": "https://www.mk.co.kr/news/broadcasting-service/12216077"
-}
-],
-"new": true
-},
-{
-"term": "젠슨황 복귀",
-"traffic": "20000+",
-"time": "2026-11-23T13:50:00+00:00",
-"news": [
-{
-"title": "[속보] 젠슨 황 CEO 즉시 복귀, 엔비디아 이사회 결정",
-"source": "조선일보",
-"link": "https://www.chosun.com/economy/tech_it/2026/11/23/HDJ3H6MZZ5GT7A4ETBWRHVQR3E/"
-},
-{
-"title": "트럼프, 젠슨 황 복귀에 “올바르고 적절한 결정···황은 위대한 애국자”",
-"source": "경향신문",
-"link": "https://www.khan.co.kr/article/202611232350001"
 }
 ],
 "new": true
