@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-23T01:45:48.548849+00:00",
+"updated": "2026-11-23T01:48:05.091538+00:00",
 "errors": [],
 "events": [
 {
@@ -324,7 +324,7 @@
 "id": "wNISX20261123_00038788450112",
 "first": "2026-11-23T01:12:57+00:00",
 "last": "2026-11-23T01:31:13+00:00",
-"updated": "2026-11-23T01:43:32.229243+00:00",
+"updated": "2026-11-23T01:48:05.091538+00:00",
 "headline": "삼성증권 '고객의 소리' 뚫렸다…8241명 개인정보 유출",
 "cat": "경제",
 "regions": [],
@@ -345,6 +345,7 @@
 "매일경제",
 "머니투데이",
 "서울경제",
+"서울신문",
 "신아일보",
 "연합뉴스",
 "이투데이",
@@ -436,6 +437,13 @@
 "source": "신아일보",
 "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5pQ1NudGNrZ1pBV09hMEF1WTBzaDAwRWlTTUpXMmZfcUY5WERncnRlbkdnS0JmU203MmpCbkJUcTZRTWpBUzdUclVVOVRtMnRGR0RqSUFNOTB6enhFa3hqanBYRlF2SHVheEs4UXhnWFo?oc=5",
 "time": "2026-11-23T01:18:15+00:00",
+"stage": "속보"
+},
+{
+"title": "[속보] 삼성증권 ‘고객의소리’ 뚫려…8000여명 개인정보 유출",
+"source": "서울신문",
+"link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBBMmNGd3p1LWR0MUJIb3JNZy1na2YxTk1sUUVwUzFVNWRwRVB4NzBXbnQ2ZlpObHhVZFdWTkFxTDJBS3pwUTNfckE3WGZBTi1xeUZqbmg0Z1pINHAxU3ZzRWJGQlRkV1hkT0N3WEdYTDZwOE9KbVlQclNNaUNqdw?oc=5",
+"time": "2026-11-23T01:18:22+00:00",
 "stage": "속보"
 },
 {
@@ -3947,7 +3955,7 @@
 },
 "폭발": {
 "n30": 0,
-"base": 1.1,
+"base": 1.0,
 "spike": false
 },
 "붕괴": {
@@ -3971,13 +3979,13 @@
 "spike": false
 },
 "지하철": {
-"n30": 2,
+"n30": 1,
 "base": 2.1,
 "spike": false
 },
 "사고": {
-"n30": 2,
-"base": 3.1,
+"n30": 1,
+"base": 3.0,
 "spike": false
 },
 "실종": {
@@ -4025,26 +4033,6 @@
 "likes": 0,
 "reposts": 0,
 "url": "https://bsky.app/profile/schprachenicht.bsky.social/post/3n2wy7azkr22f",
-"term": "사고"
-},
-{
-"text": "아니, 내가 항저우에서 이 체인 호텔 다른 데서도 자봤다구;;; 물론 그 호텔은 1분 거리에 좋은 노선의 지하철이 있긴 했지만 추웠고... 세탁기도 하나 뿐이었고... 방도 좁았다고...\n위치도 거기는 여기서 지하철 세 정거장 정도 떨어진 곳이라\n지금 들어온 데가 지하철 타려면 좀 걸어야 하지만\n그래도 위치가 압도적으로 좋은 서호가인데\n\n왜 더 싸고 넓고 시설 좋지?\n나는 지난번에 왜 거기서",
-"handle": "lisao.bsky.social",
-"name": "이소",
-"time": "2026-11-23T01:17:10.647Z",
-"likes": 1,
-"reposts": 0,
-"url": "https://bsky.app/profile/lisao.bsky.social/post/3n2wxh7ra422p",
-"term": "지하철"
-},
-{
-"text": "하지만 부자로메니까 보드게임도 막 사고 위스키도 막 사고 할 수 있으니까 좋았쓰..?",
-"handle": "elvenwhite.bsky.social",
-"name": "elvenwhite",
-"time": "2026-11-23T01:16:02.349Z",
-"likes": 1,
-"reposts": 0,
-"url": "https://bsky.app/profile/elvenwhite.bsky.social/post/3n2wxf6j6ps2h",
 "term": "사고"
 },
 {
@@ -4216,13 +4204,13 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.99,
+"폭발": 0.89,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 2.11,
-"사고": 2.95,
+"지하철": 2.0,
+"사고": 2.76,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
