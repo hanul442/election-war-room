@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-23T09:33:57.801054+00:00",
+"updated": "2026-11-23T09:36:11.462137+00:00",
 "errors": [],
 "events": [
 {
@@ -37,10 +37,44 @@
 ]
 },
 {
+"id": "lYxYVBhMzhKTHNfLVh1Zwoc50929",
+"first": "2026-11-23T09:29:00+00:00",
+"last": "2026-11-23T09:29:00+00:00",
+"updated": "2026-11-23T09:36:11.462137+00:00",
+"headline": "10·11월 비피해 ‘제주 콩·메밀·녹두’ 농업재해 인정",
+"cat": "기타",
+"regions": [
+"제주"
+],
+"sources": [
+"농민신문"
+],
+"updates": [
+{
+"title": "[속보] 10·11월 비피해 ‘제주 콩·메밀·녹두’ 농업재해 인정",
+"source": "농민신문",
+"link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1IOWdGRGh3dk83TUh5VFI3S29lb19kVkhIRFdmUDJjeTdtVG1DVkY5UUg0R3JKV2VadkFqWW5oR200bXY2cmZaSWJFRlYxYVBhMzhKTHNfLVh1Zw?oc=5",
+"time": "2026-11-23T09:29:00+00:00",
+"stage": "얼럿"
+}
+],
+"level": "URGENT",
+"latest": "10·11월 비피해 ‘제주 콩·메밀·녹두’ 농업재해 인정",
+"tok": [
+"11월",
+"녹두",
+"농업재해",
+"메밀",
+"비피해",
+"인정",
+"제주"
+]
+},
+{
 "id": "E5yREpQamdkaGVscmNKUQoc50804",
 "first": "2026-11-23T08:04:38+00:00",
 "last": "2026-11-23T09:20:25+00:00",
-"updated": "2026-11-23T09:25:04.789521+00:00",
+"updated": "2026-11-23T09:36:11.462137+00:00",
 "headline": "경부고속도로 사고처리중",
 "cat": "교통",
 "regions": [],
@@ -54,6 +88,13 @@
 "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5WTTB5VnlQQ2c2Q0JZQVNEaXRidDhJaVFwWjVxeTVKRHRFZ3RBOTNhY3ZVek82a1p1MmFEQzBtUkV2QmVOTEFxMXdVdGxqcmUtQ2d4bFJwNXh5dlQ0ZG1XbnEtbE5yREpQamdkaGVscmNKUQ?oc=5",
 "time": "2026-11-23T08:04:38+00:00",
 "stage": "얼럿"
+},
+{
+"title": "[속보] 경부고속도로 사고처리중",
+"source": "스페셜타임스",
+"link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBpNTd5SEpxX3FrUmlreGFtTDUtTHpKc05uZ1k1Z3FWdlJveHJHSkpvZWRWZ0VQUFV5d2ZOZG84cVFoZ1Y2eHJ4NjQ3Ujc0SUZ2Rjc3dkZ4TGhXdTBwdmpXR0tCMjVWSGI1UlBBSjhuOEVFdw?oc=5",
+"time": "2026-11-23T09:20:07+00:00",
+"stage": "속보"
 },
 {
 "title": "[속보] 경부고속도로 사고처리중",
@@ -4606,38 +4647,6 @@
 "징계결",
 "편안히"
 ]
-},
-{
-"id": "viewAKR202611231194005300623",
-"first": "2026-11-23T06:23:51+00:00",
-"last": "2026-11-23T06:23:51+00:00",
-"updated": "2026-11-23T06:31:01.631543+00:00",
-"headline": "\"집중호우 때 사망위험 17%↑…산불후 6개월 사망 최대 24% 기여\"",
-"cat": "재난",
-"regions": [],
-"sources": [
-"연합뉴스"
-],
-"updates": [
-{
-"title": "\"집중호우 때 사망위험 17%↑…산불후 6개월 사망 최대 24% 기여\"",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261123119400530",
-"time": "2026-11-23T06:23:51+00:00",
-"stage": "1보"
-}
-],
-"level": "ALERT",
-"latest": "\"집중호우 때 사망위험 17%↑…산불후 6개월 사망 최대 24% 기여\"",
-"tok": [
-"6개월",
-"기여",
-"사망",
-"사망위험",
-"산불후",
-"집중호우",
-"최대"
-]
 }
 ],
 "sns": {
@@ -4669,12 +4678,12 @@
 },
 "붕괴": {
 "n30": 2,
-"base": 1.2,
+"base": 1.3,
 "spike": false
 },
 "대피": {
 "n30": 0,
-"base": 0.6,
+"base": 0.5,
 "spike": false
 },
 "미사일": {
@@ -4683,23 +4692,23 @@
 "spike": false
 },
 "속보": {
-"n30": 4,
+"n30": 3,
 "base": 0.1,
 "spike": false
 },
 "지하철": {
 "n30": 4,
-"base": 1.7,
+"base": 1.8,
 "spike": false
 },
 "사고": {
 "n30": 5,
-"base": 3.5,
+"base": 3.6,
 "spike": false
 },
 "실종": {
 "n30": 0,
-"base": 0.5,
+"base": 0.4,
 "spike": false
 },
 "단수": {
@@ -4939,13 +4948,13 @@
 "불났": 0.05,
 "정전": 0.05,
 "폭발": 0.05,
-"붕괴": 1.3,
-"대피": 0.5,
+"붕괴": 1.37,
+"대피": 0.45,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 1.79,
-"사고": 3.65,
-"실종": 0.41,
+"지하철": 1.91,
+"사고": 3.79,
+"실종": 0.37,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -5121,9 +5130,9 @@
 "link": "https://www.cricinfo.com/story/aiden-markram-says-it-s-quite-a-smooth-transition-to-be-leading-south-africa-again-1563619"
 },
 {
-"title": "South Africa vs Bangladesh, 2nd Test: Injuries won't take the sting out of Centurion Test",
-"source": "Cricbuzz",
-"link": "https://www.cricbuzz.com/cricket-news/141019/south-africa-vs-bangladesh-2nd-test-injuries-wont-take-the-sting-out-of-centurion-test-cricbuzzcom"
+"title": "Proteas confirm stand-in captain for second Bangladesh Test",
+"source": "ICC",
+"link": "https://www.icc-cricket.com/tournaments/world-test-championship/news/proteas-confirm-stand-in-captain-for-second-bangladesh-test"
 }
 ],
 "new": true
