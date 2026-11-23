@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-23T15:16:48.153193+00:00",
+"updated": "2026-11-23T15:19:01.618262+00:00",
 "errors": [],
 "events": [
 {
@@ -773,17 +773,19 @@
 {
 "id": "PYzdNQzhVckExc1FhQ0FWoc51412",
 "first": "2026-11-23T14:12:48+00:00",
-"last": "2026-11-23T14:49:00+00:00",
-"updated": "2026-11-23T15:14:33.502133+00:00",
+"last": "2026-11-23T14:51:00+00:00",
+"updated": "2026-11-23T15:19:01.618262+00:00",
 "headline": "젠슨 황, 엔비디아 CEO·이사회 복귀 전격 확정… 사임 11일 만의 ‘극적 귀환’",
 "cat": "기타",
 "regions": [],
 "sources": [
+"Investing.com 한국어",
 "MBC 뉴스",
 "www.xportsnews.com",
 "강원도민일보",
 "글로벌이코노믹",
 "대구MBC",
+"부산일보",
 "서울신문",
 "연합뉴스 한민족센터",
 "조선일보",
@@ -878,19 +880,35 @@
 "stage": "속보"
 },
 {
+"title": "[속보] 엔비디아 이사회, 젠슨 황 CEO 복귀 결정",
+"source": "부산일보",
+"link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9zdlRxNTVHUHpmVnJYcUxuRjFHQ1ZVSUNuNkVTTlkwXzl0b1pFSjBWZlZfQjNGSmREeTNDYXJnNlk3SkRVRTBZTTFQNkF5dndVVmY5dGZtWjdKOG9rT3o4ZEdSd3JfdUdWRVB3SW5nWnE0VmxZ?oc=5",
+"time": "2026-11-23T14:27:31+00:00",
+"stage": "속보"
+},
+{
 "title": "[속보] 엔비디아 젠슨 황, 사임 11일 만에 CEO 전격 복귀…이사회 만장일치",
 "source": "조선일보",
 "link": "https://www.chosun.com/entertainments/broadcast/2026/11/23/GNRTQOBTMVQWIZTFGE2TANDGGA/",
 "time": "2026-11-23T14:49:00+00:00",
 "stage": "속보"
+},
+{
+"title": "[속보] 엔비디아 이사회 만장일치로 젠슨 황 CEO 복귀 결정 By FinancialPost",
+"source": "Investing.com 한국어",
+"link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE8yOXFUYjBZVXFBd1ltUlUzSmVDRXBMdDJ3R1RaLWdiM1gxYlJwOFhBdU01Q1hpQlBOcGtRRmRPY0ItYi1ZQ05iYm45X0twUjMxYVJteXNza3Z6ZVI0TnRMX2hJQkJmYWdZRjZ2Y0ZuOWY?oc=5",
+"time": "2026-11-23T14:51:00+00:00",
+"stage": "속보"
 }
 ],
 "level": "URGENT",
-"latest": "엔비디아 젠슨 황, 사임 11일 만에 CEO 전격 복귀…이사회 만장일치",
+"latest": "엔비디아 이사회 만장일치로 젠슨 황 CEO 복귀 결정 By FinancialPost",
 "tok": [
 "11일",
 "12일",
+"By",
 "CEO",
+"FinancialPost",
 "거리뒀던",
 "결정",
 "귀환",
@@ -5278,7 +5296,7 @@
 },
 "폭발": {
 "n30": 6,
-"base": 1.4,
+"base": 1.2,
 "spike": true
 },
 "붕괴": {
@@ -5303,12 +5321,12 @@
 },
 "지하철": {
 "n30": 2,
-"base": 0.6,
+"base": 0.5,
 "spike": false
 },
 "사고": {
 "n30": 2,
-"base": 2.5,
+"base": 2.4,
 "spike": false
 },
 "실종": {
@@ -5598,30 +5616,30 @@
 {
 "term": "폭발",
 "n30": 6,
-"base": 1.4,
+"base": 1.2,
 "spike": true,
-"since": "2026-11-23T15:16:48.153193+00:00"
+"since": "2026-11-23T15:19:01.618262+00:00"
 },
 {
 "term": "속보",
 "n30": 13,
 "base": 1.0,
 "spike": true,
-"since": "2026-11-23T15:16:48.153193+00:00"
+"since": "2026-11-23T15:19:01.618262+00:00"
 }
 ],
 "baseline": {
 "지진": 0.05,
-"화재": 0.09,
+"화재": 0.08,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 1.22,
+"폭발": 1.1,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 1.01,
-"지하철": 0.53,
-"사고": 2.44,
+"지하철": 0.48,
+"사고": 2.4,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -5991,14 +6009,14 @@
 "time": "2026-11-23T13:50:00+00:00",
 "news": [
 {
-"title": "[속보] 엔비디아 이사회, 젠슨 황 CEO 복귀 결정",
+"title": "[속보] 젠슨 황 CEO 즉시 복귀, 엔비디아 이사회 결정",
 "source": "조선일보",
 "link": "https://www.chosun.com/economy/tech_it/2026/11/23/HDJ3H6MZZ5GT7A4ETBWRHVQR3E/"
 },
 {
-"title": "트럼프 “젠슨 황 엔비디아 CEO 복귀는 올바른 결정…국가안보 위험 없어”",
+"title": "트럼프, 젠슨 황 복귀에 “올바르고 적절한 결정···황은 위대한 애국자”",
 "source": "경향신문",
-"link": "https://www.khan.co.kr/article/202611232352001"
+"link": "https://www.khan.co.kr/article/202611232350001"
 }
 ],
 "new": true
@@ -6009,7 +6027,7 @@
 "time": "2026-11-23T13:50:00+00:00",
 "news": [
 {
-"title": "“50대 이상 나가면 3년치 월급”…SKT, 희망퇴직 받는다",
+"title": "SKT, 50대 이상 희망퇴직…평균 3년치 급여 준다",
 "source": "이데일리",
 "link": "https://www.edaily.co.kr/News/Read?newsId=03493206645648672&mediaCodeNo=257"
 },
