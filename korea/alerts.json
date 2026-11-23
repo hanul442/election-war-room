@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-23T15:12:20.069437+00:00",
+"updated": "2026-11-23T15:14:33.502133+00:00",
 "errors": [],
 "events": [
 {
@@ -752,7 +752,7 @@
 "id": "PYzdNQzhVckExc1FhQ0FWoc51412",
 "first": "2026-11-23T14:12:48+00:00",
 "last": "2026-11-23T14:49:00+00:00",
-"updated": "2026-11-23T14:56:50.099938+00:00",
+"updated": "2026-11-23T15:14:33.502133+00:00",
 "headline": "젠슨 황, 엔비디아 CEO·이사회 복귀 전격 확정… 사임 11일 만의 ‘극적 귀환’",
 "cat": "기타",
 "regions": [],
@@ -763,8 +763,10 @@
 "글로벌이코노믹",
 "대구MBC",
 "서울신문",
+"연합뉴스 한민족센터",
 "조선일보",
 "중앙이코노미뉴스",
+"초이스스탁US",
 "쿠키뉴스",
 "한겨레"
 ],
@@ -798,6 +800,13 @@
 "stage": "속보"
 },
 {
+"title": "[속보] 엔비디아 이사회, 젠슨 황 CEO 복귀 결정",
+"source": "연합뉴스 한민족센터",
+"link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1iLXlnRFZvTUY0am9uWE5kRWNNM1ktTTJreTNoOGpFTDBwS01KcEM0akZpYU1ZT2hJQ190SjdxMVExNzVvLXZzMk1KOFlwUVVkMEluTm9KSXVMaUdTOG5sbE5vMU5XUXd4ZzZWbEZ5ZmdGSmk5?oc=5",
+"time": "2026-11-23T14:17:52+00:00",
+"stage": "속보"
+},
+{
 "title": "젠슨 황, 엔비디아 CEO 복귀",
 "source": "조선일보",
 "link": "https://www.chosun.com/economy/market_trend/2026/11/23/PGENFDTCAZFLZCRQGXT64EBQJU/",
@@ -809,6 +818,13 @@
 "source": "한겨레",
 "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE13MlJSeWJKaFpHN2R6VHVxdnVDcDJZZ1BLNFozcWNZRndJZTdFZENsTjlfWDB3dE96Z01YMWlPZlN5RDhTNnlDanV1eHR6djZOcFktTFFMT3RFMkxOTEV2QWRDTlIwSDZMSHExNDFaTQ?oc=5",
 "time": "2026-11-23T14:19:00+00:00",
+"stage": "속보"
+},
+{
+"title": "[속보] 젠슨 황, 엔비디아 CEO·이사회 복귀 전격 확정… 사임 11일 만의 ‘극적 귀환’",
+"source": "초이스스탁US",
+"link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9WUzJQLWdRbVRnUVAtNV81eU1SNmlkM0pfVFJ2a3dLSThWUnlWQWpESDJJMkFhRm1CVzBJM1FHLWk0b0FuSHF3YUNneXlSU214R2kxRmpicWJvTWhLeXFMQ1BqaEV4WEU?oc=5",
+"time": "2026-11-23T14:20:23+00:00",
 "stage": "속보"
 },
 {
@@ -5214,50 +5230,17 @@
 "캐시닥",
 "퀴즈"
 ]
-},
-{
-"id": "ssutm_campaigntotal_news0913",
-"first": "2026-11-23T09:13:00+00:00",
-"last": "2026-11-23T09:13:00+00:00",
-"updated": "2026-11-23T09:16:16.686900+00:00",
-"headline": "한국체육산업개발, ‘올공 무단 점거’ 시위대 업무방해 혐의로 고소",
-"cat": "기타",
-"regions": [],
-"sources": [
-"경향신문"
-],
-"updates": [
-{
-"title": "[단독]한국체육산업개발, ‘올공 무단 점거’ 시위대 업무방해 혐의로 고소",
-"source": "경향신문",
-"link": "https://www.khan.co.kr/article/202611231813001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
-"time": "2026-11-23T09:13:00+00:00",
-"stage": "단독"
-}
-],
-"level": "URGENT",
-"latest": "한국체육산업개발, ‘올공 무단 점거’ 시위대 업무방해 혐의로 고소",
-"tok": [
-"고소",
-"무단",
-"시위대",
-"업무방해",
-"올공",
-"점거",
-"한국체육산업개발",
-"혐의"
-]
 }
 ],
 "sns": {
 "terms": {
 "지진": {
-"n30": 0,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
 "화재": {
-"n30": 0,
+"n30": 2,
 "base": 0.1,
 "spike": false
 },
@@ -5267,14 +5250,14 @@
 "spike": false
 },
 "정전": {
-"n30": 0,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
 "폭발": {
-"n30": 1,
+"n30": 7,
 "base": 1.4,
-"spike": false
+"spike": true
 },
 "붕괴": {
 "n30": 0,
@@ -5292,18 +5275,18 @@
 "spike": false
 },
 "속보": {
-"n30": 1,
+"n30": 13,
 "base": 1.0,
-"spike": false
+"spike": true
 },
 "지하철": {
-"n30": 0,
+"n30": 2,
 "base": 0.7,
 "spike": false
 },
 "사고": {
 "n30": 2,
-"base": 2.6,
+"base": 2.5,
 "spike": false
 },
 "실종": {
@@ -5344,6 +5327,42 @@
 "term": "속보"
 },
 {
+"platform": "YouTube",
+"text": "젠슨 황, 사임 11일 만에 전격 복귀! 엔비디아 주가 30% 급등? #젠슨황 #엔비디아 #속보",
+"handle": "UCFzq_B2-o0DruCS2HgZcfPg",
+"name": "뉴스 한입",
+"time": "2026-11-23T15:11:29Z",
+"term": "속보",
+"url": "https://www.youtube.com/watch?v=kVcRHkXNBqE"
+},
+{
+"platform": "YouTube",
+"text": "한국어공부 / 지하철에서",
+"handle": "UCrp_bZMJJdTbrSSJty3m8PA",
+"name": "neroyun",
+"time": "2026-11-23T15:10:59Z",
+"term": "지하철",
+"url": "https://www.youtube.com/watch?v=ejbX56ccoes"
+},
+{
+"platform": "YouTube",
+"text": "[스카이프로토콜 코인] 긴급속보 재단 사기쳤다 다 팔고 나오세요 탈출공개 #스카이프로토콜 코인",
+"handle": "UCGSC3erLLf5omT4ppBJDphA",
+"name": "Crazy Rider Official",
+"time": "2026-11-23T15:10:36Z",
+"term": "속보",
+"url": "https://www.youtube.com/watch?v=Qdy_Xz1mbts"
+},
+{
+"platform": "YouTube",
+"text": "웃던 살인범에 폭발한 나가야마 에이타",
+"handle": "UCsxOj-azDQleQjEfOcJGe4g",
+"name": "씬의 속사정",
+"time": "2026-11-23T15:08:59Z",
+"term": "폭발",
+"url": "https://www.youtube.com/watch?v=CABBnFDqykM"
+},
+{
 "text": "브라가 너무많음\n맨날 입는것만 입는것같은데\n너무너무많아서 사고남;;ㅠ",
 "handle": "jei-2.bsky.social",
 "name": "제이",
@@ -5352,6 +5371,186 @@
 "reposts": 0,
 "url": "https://bsky.app/profile/jei-2.bsky.social/post/3n2yfuqntfk2b",
 "term": "사고"
+},
+{
+"platform": "YouTube",
+"text": "[속보] 젠슨황의 복귀, 엔비디아 32% 급등 - 이사회 만장일치 승인 및 즉시발효 [즉시분석]",
+"handle": "UC3pfEoxaRDT6hvZZjpHu7Tg",
+"name": "경제 읽어주는 남자(김광석TV)",
+"time": "2026-11-23T15:07:36Z",
+"term": "속보",
+"url": "https://www.youtube.com/watch?v=dKuLLBlY9Ug"
+},
+{
+"platform": "YouTube",
+"text": "🚨 [속보] 젠슨 황 복귀, 엔비디아 33%↑ 📈 #Shorts",
+"handle": "UC2OM3oMjQfUR2z1gprn9xxQ",
+"name": "오늘한입",
+"time": "2026-11-23T15:06:25Z",
+"term": "속보",
+"url": "https://www.youtube.com/watch?v=Szf2FAEaX2g"
+},
+{
+"platform": "YouTube",
+"text": "[속보] 젠슨 황, 사임 11일 만에 엔비디아 CEO 복귀…주가 급등 #shorts",
+"handle": "UCpmRCdjPT8XZdipi9OXri0w",
+"name": "중도시선 3분",
+"time": "2026-11-23T15:04:58Z",
+"term": "속보",
+"url": "https://www.youtube.com/watch?v=6uGMbJM1Vds"
+},
+{
+"platform": "YouTube",
+"text": "속보 | 젠슨 황 11일 만에 엔비디아 CEO 복귀…뉴욕증시 나스닥 6% 급등 출발",
+"handle": "UCaEXvwcmKfDpimYPR98PIgw",
+"name": "zerosum",
+"time": "2026-11-23T15:04:55Z",
+"term": "속보",
+"url": "https://www.youtube.com/watch?v=aJc3M7aNOTM"
+},
+{
+"platform": "YouTube",
+"text": "[속보] 젠슨 황, 11일 만에 엔비디아 CEO 복귀…주가 개장 전 급등 #속보 #엔비디아",
+"handle": "UCr3wJRR-ys72VFPjEcFlwxA",
+"name": "비담시황",
+"time": "2026-11-23T15:04:11Z",
+"term": "속보",
+"url": "https://www.youtube.com/watch?v=ZBTTOALrFog"
+},
+{
+"platform": "YouTube",
+"text": "[속보]젠슨 황 전격 복귀!",
+"handle": "UCDMvEcwLM7Vth4h-lWFurAQ",
+"name": "아주ABC",
+"time": "2026-11-23T15:03:52Z",
+"term": "속보",
+"url": "https://www.youtube.com/watch?v=Vqz9aFzRo-c"
+},
+{
+"platform": "YouTube",
+"text": "[김장룩폭발] 루벤루 강아지 김장조끼 2세대 튼튼D링",
+"handle": "UCDgV3xN4YbIgIK-rU8bGVNg",
+"name": "루벤루 세상을 더 편하게 더 아름답게",
+"time": "2026-11-23T15:02:59Z",
+"term": "폭발",
+"url": "https://www.youtube.com/watch?v=TvWBFHNz-S8"
+},
+{
+"platform": "YouTube",
+"text": "🤣 할머니 인기 폭발ㅋㅋ 고양이 두 마리가 몰려든 이유는? 🐱💕 #shorts #parrot #앵무새 #cute #새삼스럽개 #귀여운동물 #귀여운동물",
+"handle": "UCe-j-E5pmQWFf_uN9oytu2A",
+"name": "새삼스럽개",
+"time": "2026-11-23T15:00:39Z",
+"term": "폭발",
+"url": "https://www.youtube.com/watch?v=ZfM_9jNn2aU"
+},
+{
+"platform": "YouTube",
+"text": "[유에스디에스 코인] 긴급속보 상장폐지 재단 불법거래 사기쳤다 #유에스디에스 코인",
+"handle": "UCGSC3erLLf5omT4ppBJDphA",
+"name": "Crazy Rider Official",
+"time": "2026-11-23T15:00:38Z",
+"term": "속보",
+"url": "https://www.youtube.com/watch?v=DA8apYJFswM"
+},
+{
+"platform": "YouTube",
+"text": "[삼성전자 주가전망] \"새벽 긴급속보\" 화요일 현재 00:00분 \"핵폭탄급\" 속보 발생했습니다! 출근길 필수시청! 화요일 대응 전략 무조건 확인하세요! #삼성전자주가",
+"handle": "UC51rChN-hNU1ZBjA2-MjAGg",
+"name": "급등포착훈련소",
+"time": "2026-11-23T15:00:35Z",
+"term": "속보",
+"url": "https://www.youtube.com/watch?v=Flx19sCpJ0k"
+},
+{
+"platform": "YouTube",
+"text": "지하철에서 철학책 읽던 그 여자…회사에 나타났다 ㅋㅋㅋ",
+"handle": "UCs3Dz5YYjR7w3xJYWlNvMxg",
+"name": "그르릉크르릉",
+"time": "2026-11-23T15:00:33Z",
+"term": "지하철",
+"url": "https://www.youtube.com/watch?v=qva0k1odUzk"
+},
+{
+"platform": "YouTube",
+"text": "전기장판 위에 이것 두면 위험합니다 (온열기구 화재)",
+"handle": "UCMkq_caGHQP0E2pmLYuWR8g",
+"name": "100만쇼츠",
+"time": "2026-11-23T15:00:27Z",
+"term": "화재",
+"url": "https://www.youtube.com/watch?v=kRj1gnxg2NM"
+},
+{
+"platform": "YouTube",
+"text": "끼폭발한 박서진 #박서진",
+"handle": "UC76ffQmtD_oxB-pT7Lbev9g",
+"name": "트로트로트",
+"time": "2026-11-23T15:00:25Z",
+"term": "폭발",
+"url": "https://www.youtube.com/watch?v=Q5toYAQnyjA"
+},
+{
+"platform": "YouTube",
+"text": "[속보] 젠슨 황, 사임 11일 만에 엔비디아 CEO 복귀",
+"handle": "UCDmIg8N83N0_qdJGDSQnNew",
+"name": "광주 변호사황준홍법률사무소",
+"time": "2026-11-23T15:00:22Z",
+"term": "속보",
+"url": "https://www.youtube.com/watch?v=37FbtI3Ub9o"
+},
+{
+"platform": "YouTube",
+"text": "세상에서 가장 멋진 지각 사유 1위 #배려 #학생영웅 #화재진압",
+"handle": "UCIlWdRHmFQMYnJYtWSz4Eog",
+"name": "마음한컷 따숨",
+"time": "2026-11-23T15:00:21Z",
+"term": "화재",
+"url": "https://www.youtube.com/watch?v=ohWojD8nsTI"
+},
+{
+"platform": "YouTube",
+"text": "속보) 영월 차박 70대 여성 숨진 채 발견…난방기구 켠 밀폐 차량 '일산화탄소 중독' #shorts",
+"handle": "UCRJo6_bARJhs7eI0dhMVmcA",
+"name": "M 17",
+"time": "2026-11-23T15:00:21Z",
+"term": "속보",
+"url": "https://www.youtube.com/watch?v=nqBTur-x9cE"
+},
+{
+"platform": "YouTube",
+"text": "규모 7과 규모 9는 에너지가 천 배 차이 난다! 바닷물을 통째로 들어 올리는 괴물 지진",
+"handle": "UCTZ95j0S173Pxl6xxYvAdFg",
+"name": "사이언스 오디세이(Science Odyssey)",
+"time": "2026-11-23T15:00:15Z",
+"term": "지진",
+"url": "https://www.youtube.com/watch?v=-l__Lep7qyU"
+},
+{
+"platform": "YouTube",
+"text": "픽토.부부싸움18, 부부싸움 중 말투 때문에 감정이 폭발하는 이유",
+"handle": "UCjxzauusTIdHZLNwXlC2TaQ",
+"name": "픽토",
+"time": "2026-11-23T15:00:04Z",
+"term": "폭발",
+"url": "https://www.youtube.com/watch?v=EQHthAmMcJw"
+},
+{
+"platform": "YouTube",
+"text": "한겨울 영하 13도에서 1주일 정전이 된다면? 지금 당장 집에 '이것'있나 확인하세요",
+"handle": "UCXjFDQsodWz1wCJ9_GdHdIw",
+"name": "네모난지식",
+"time": "2026-11-23T15:00:04Z",
+"term": "정전",
+"url": "https://www.youtube.com/watch?v=e7Qh_IN4dNE"
+},
+{
+"platform": "YouTube",
+"text": "나메크성이 텅 비었다… 손오공이 폭발했다 #드래곤볼 #나메크성 #손오공",
+"handle": "UCisUYZbvKjITgZrHqFRSEKw",
+"name": "J_ani",
+"time": "2026-11-23T15:00:02Z",
+"term": "폭발",
+"url": "https://www.youtube.com/watch?v=U9bPMmzedmo"
 },
 {
 "text": "이렇게 당연하게 무쥬라 맡겨놓은양 사고하면 안되는데\n하지만\n내놓으쇼\n최대한빨리",
@@ -5375,234 +5574,42 @@
 },
 {
 "platform": "YouTube",
-"text": "댓글 반응 폭발 리브의 '나와 난' 극락",
-"handle": "UCahrckqAbmKSbMxm3RFkAGA",
-"name": "hhha",
-"time": "2026-11-23T14:40:39Z",
-"term": "폭발",
-"url": "https://www.youtube.com/watch?v=Bq7i1bmAJNw"
-},
-{
-"platform": "YouTube",
-"text": "결국 폭발한 메시 이게 퇴장이 아니라고?#메시#축구",
-"handle": "UCCcx6P8Y66hJ-t3v4zaO59Q",
-"name": "주벨링",
-"time": "2026-11-23T14:38:14Z",
-"term": "폭발",
-"url": "https://www.youtube.com/watch?v=MVv_uWDRRRg"
-},
-{
-"platform": "YouTube",
-"text": "속보 | 엔비디아 젠슨 황 CEO 복직 — 비트코인·이더리움 지금 시세 #Shorts",
-"handle": "UCZTknAobYDYV9ox9TG8wMrw",
-"name": "밤사이한눈",
-"time": "2026-11-23T14:36:20Z",
-"term": "속보",
-"url": "https://www.youtube.com/watch?v=BaZ1rcc2IBo"
-},
-{
-"platform": "YouTube",
-"text": "속보] #젠슨황 #엔디비아 CEO 복귀 #Jensenhuang  #NVIDIA",
-"handle": "UC0WpTZ6q0mViylBqqMq8LcQ",
-"name": "지금은휴일",
-"time": "2026-11-23T14:33:38Z",
-"term": "속보",
-"url": "https://www.youtube.com/watch?v=IM5rco3wKks"
-},
-{
-"platform": "YouTube",
-"text": "[리플 XRP 엑스알피] 리플 긴급속보 !! 젠슨황 복귀대박 !!",
-"handle": "UCDBniJtWmmDbGiJ68UbBrUw",
-"name": "오늘의 코인뉴스",
-"time": "2026-11-23T14:33:19Z",
-"term": "속보",
-"url": "https://www.youtube.com/watch?v=fER0UaUXPk8"
-},
-{
-"platform": "YouTube",
-"text": "[속보] 강승식은 테토남이다",
-"handle": "UCHd1ys86v9GGWgMj30bs2tQ",
-"name": "빅톤이보고싶은앨리스",
-"time": "2026-11-23T14:31:57Z",
-"term": "속보",
-"url": "https://www.youtube.com/watch?v=bB1rfztGaDw"
-},
-{
-"platform": "YouTube",
-"text": "🚨 \"복귀 없다\"더니 6일 만에 대반전! 젠슨 황, 엔비디아 CEO 전격 복귀! 미국 정부까지 움직였다? #엔비디아 #젠슨황 #속보",
-"handle": "UCyz6yvsV50kB4grPkwDni4A",
-"name": "Chip Signal",
-"time": "2026-11-23T14:31:52Z",
-"term": "속보",
-"url": "https://www.youtube.com/watch?v=UXvZSJkGdy4"
-},
-{
-"platform": "YouTube",
 "text": "[속보] 젠슨 황, 엔비디아 CEO 전격 복귀…이사회 만장일치 결정 - [MBC뉴스속보] MBC뉴스 2026년 11월 23일",
 "handle": "UCF4Wxdo3inmxP-Y59wXDsFw",
 "name": "MBCNEWS",
 "time": "2026-11-23T14:29:37Z",
 "term": "속보",
 "url": "https://www.youtube.com/watch?v=OHVxG8C-Gi0"
-},
-{
-"platform": "YouTube",
-"text": "[속보] 젠슨 황 11일 만에 복귀…엔비디아 +30% 폭등",
-"handle": "UCP51VJT0S24LtJFe84QqBLA",
-"name": "1분 증시",
-"time": "2026-11-23T14:29:14Z",
-"term": "속보",
-"url": "https://www.youtube.com/watch?v=gSHDzaRCzXM"
-},
-{
-"platform": "YouTube",
-"text": "[속보] 젠슨 황 엔비디아 CEO 복귀",
-"handle": "UC6dN6Rilzh9KmzymxnZGslg",
-"name": "센서스튜디오",
-"time": "2026-11-23T14:28:19Z",
-"term": "속보",
-"url": "https://www.youtube.com/watch?v=1fEqZAm_vyQ"
-},
-{
-"platform": "YouTube",
-"text": "[속보] 엔비디아 젠슨 황 CEO 전격 복귀! 프리마켓 주가 27% 폭등 #엔비디아 #젠슨황 #미국주식 #쇼츠",
-"handle": "UC9z9d3Oiqir--l26KlX3GYQ",
-"name": "나니쨩",
-"time": "2026-11-23T14:27:23Z",
-"term": "속보",
-"url": "https://www.youtube.com/watch?v=26HA5V87WSo"
-},
-{
-"platform": "YouTube",
-"text": "리플 XRP 긴급속보 드디어 하락장 끝?! 젠슨황 복귀에 시장폭발!! 상승 어디까지?! 리플차트분석 코인폭락 리플전망 리플코인 엑스알피 리플코인전망실시간 리플코인실시간 알트코인추천",
-"handle": "UCIU9Qu6_6lVZJXjVPKD50Aw",
-"name": "스타코인",
-"time": "2026-11-23T14:27:20Z",
-"term": "폭발",
-"url": "https://www.youtube.com/watch?v=Gigcy_3wSl0"
-},
-{
-"platform": "YouTube",
-"text": "속보2)  월가통신 11/23 | 젠슨 황, 사임 11일 만에 엔비디아 CEO 복귀…주가 +28%",
-"handle": "UCn9p5wd_VTQMucTysmJewHA",
-"name": "알데바란 밸류랩",
-"time": "2026-11-23T14:26:11Z",
-"term": "속보",
-"url": "https://www.youtube.com/watch?v=D7u5BpMn5nQ"
-},
-{
-"platform": "YouTube",
-"text": "불난 아파트 벽면 살리는 세척법 #화재청소 #그을음제거 #화재복구",
-"handle": "UCaTJQ470dMR4GRrBqremA_w",
-"name": "새삥화재청소",
-"time": "2026-11-23T14:25:03Z",
-"term": "화재",
-"url": "https://www.youtube.com/watch?v=TNLy1Cx6HHU"
-},
-{
-"platform": "YouTube",
-"text": "[속보] 젠슨 황 복귀, 나스닥, 야간선물 폭등 중!! 낼 시초가 추격은 위험",
-"handle": "UCGXjU3nOuIzhfRI9MZgl4TA",
-"name": "로그온 경제 이야기",
-"time": "2026-11-23T14:23:25Z",
-"term": "속보",
-"url": "https://www.youtube.com/watch?v=n_2z8qMHw-U"
-},
-{
-"platform": "YouTube",
-"text": "[속보] 젠슨황 CEO 복귀 이사회 결정났다",
-"handle": "UCAaC0F5koPhnvrcLHDVlf2w",
-"name": "IT부시기",
-"time": "2026-11-23T14:23:11Z",
-"term": "속보",
-"url": "https://www.youtube.com/watch?v=71ZDN3f5rKc"
-},
-{
-"platform": "YouTube",
-"text": "부산 지하철 안에서 승객이 큰 소리로 계속 말하고 있어 불편합니다. 다른 승객들에게 피해가 발생하고 있으니 역무원께서 확인하고 조치해 주시기 바랍니다.",
-"handle": "UCHyWwUBMyCteONVqi3TgToA",
-"name": "어린양 연애인",
-"time": "2026-11-23T14:23:02Z",
-"term": "지하철",
-"url": "https://www.youtube.com/watch?v=qlZIaGMH1Z4"
-},
-{
-"platform": "YouTube",
-"text": "출퇴근길 지하철 대란 오나…서울지하철 파업 앞두고 내일 최종 교섭 돌입 [이슈ZIP] / 연합뉴스TV(YonhapnewsTV)",
-"handle": "UCTHCOPwqNfZ0uiKOvFyhGwg",
-"name": "연합뉴스TV",
-"time": "2026-11-23T14:23:01Z",
-"term": "지하철",
-"url": "https://www.youtube.com/watch?v=aQNCAquOzI4"
-},
-{
-"platform": "YouTube",
-"text": "[속보] 쫓겨났던 젠슨 황, 11일 만에 복귀!! 엔비디아 25% 폭등",
-"handle": "UCJ4m6pvajrjHEkaK9CyzM5A",
-"name": "삐뽀이슈",
-"time": "2026-11-23T14:22:19Z",
-"term": "속보",
-"url": "https://www.youtube.com/watch?v=HlmzXGb4f1Y"
-},
-{
-"platform": "YouTube",
-"text": "[속보] 트럼프 “젠슨 황 엔비디아 CEO 복귀, 올바른 결정”",
-"handle": "UCs8ngXeIbNRf8HLpDUTPQZQ",
-"name": "오늘뜸",
-"time": "2026-11-23T14:21:58Z",
-"term": "속보",
-"url": "https://www.youtube.com/watch?v=43cSTEvz3Hs"
-},
-{
-"platform": "YouTube",
-"text": "[속보] 젠슨 황 앤비디아 CEO 복귀 [뉴스플레이리스트] / 채널A",
-"handle": "UCfq4V1DAuaojnr2ryvWNysw",
-"name": "채널A News",
-"time": "2026-11-23T14:21:37Z",
-"term": "속보",
-"url": "https://www.youtube.com/watch?v=WLtj_yYLUsA"
-},
-{
-"platform": "YouTube",
-"text": "등원했다가 콧물폭발이슈로 병원갔다가 재등원ㅋ콧물 얼마전에 끝났었는데😤얼른 떨어져라 콧물아!! #가율은축복 #협찬환영 #콧물 #아기콧물 #자라하울 #zara #아기옷 #순두부찌개",
-"handle": "UCmxzv8rM2t72DKss7qgUt6w",
-"name": "0GKIM",
-"time": "2026-11-23T14:19:27Z",
-"term": "폭발",
-"url": "https://www.youtube.com/watch?v=s41em8AvuJ8"
-},
-{
-"platform": "YouTube",
-"text": "속보! 젠슨 황, 엔비디아 이사회 만장일치 복귀— 즉시 발효, 주가 30% 폭등 #서학개미뉴스 #속보 #젠슨황 #엔비디아 #재신임 #복귀 #미국주식 #AI주식 #서학개미 #미국증시",
-"handle": "UCfnKVtXj5nNas18KWQjmeYg",
-"name": "서학개미뉴스",
-"time": "2026-11-23T14:19:13Z",
-"term": "속보",
-"url": "https://www.youtube.com/watch?v=mNF_zwWjFAg"
-},
-{
-"platform": "YouTube",
-"text": "[속보] 젠슨 황 복귀! 엔비디아 한때 +31%, SOXL +45%… 어디까지 갈까?",
-"handle": "UC1nfK3OYQIH9-TTg7q1nt0A",
-"name": "어제의 투자이야기",
-"time": "2026-11-23T14:18:46Z",
-"term": "속보",
-"url": "https://www.youtube.com/watch?v=Hz7wHjalZJ0"
 }
 ],
-"spikes": [],
+"spikes": [
+{
+"term": "폭발",
+"n30": 7,
+"base": 1.4,
+"spike": true,
+"since": "2026-11-23T15:14:33.502133+00:00"
+},
+{
+"term": "속보",
+"n30": 13,
+"base": 1.0,
+"spike": true,
+"since": "2026-11-23T15:14:33.502133+00:00"
+}
+],
 "baseline": {
 "지진": 0.05,
-"화재": 0.11,
+"화재": 0.1,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 1.39,
+"폭발": 1.35,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 1.01,
-"지하철": 0.66,
-"사고": 2.54,
+"지하철": 0.59,
+"사고": 2.49,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -5613,66 +5620,219 @@
 "ytPosts": [
 {
 "platform": "YouTube",
-"text": "댓글 반응 폭발 리브의 '나와 난' 극락",
-"handle": "UCahrckqAbmKSbMxm3RFkAGA",
-"name": "hhha",
-"time": "2026-11-23T14:40:39Z",
+"text": "[스카이프로토콜 코인] 긴급속보 재단 사기쳤다 다 팔고 나오세요 탈출공개 #스카이프로토콜 코인",
+"handle": "UCGSC3erLLf5omT4ppBJDphA",
+"name": "Crazy Rider Official",
+"time": "2026-11-23T15:10:36Z",
+"term": "속보",
+"url": "https://www.youtube.com/watch?v=Qdy_Xz1mbts"
+},
+{
+"platform": "YouTube",
+"text": "한국어공부 / 지하철에서",
+"handle": "UCrp_bZMJJdTbrSSJty3m8PA",
+"name": "neroyun",
+"time": "2026-11-23T15:10:59Z",
+"term": "지하철",
+"url": "https://www.youtube.com/watch?v=ejbX56ccoes"
+},
+{
+"platform": "YouTube",
+"text": "젠슨 황, 사임 11일 만에 전격 복귀! 엔비디아 주가 30% 급등? #젠슨황 #엔비디아 #속보",
+"handle": "UCFzq_B2-o0DruCS2HgZcfPg",
+"name": "뉴스 한입",
+"time": "2026-11-23T15:11:29Z",
+"term": "속보",
+"url": "https://www.youtube.com/watch?v=kVcRHkXNBqE"
+},
+{
+"platform": "YouTube",
+"text": "웃던 살인범에 폭발한 나가야마 에이타",
+"handle": "UCsxOj-azDQleQjEfOcJGe4g",
+"name": "씬의 속사정",
+"time": "2026-11-23T15:08:59Z",
 "term": "폭발",
-"url": "https://www.youtube.com/watch?v=Bq7i1bmAJNw"
+"url": "https://www.youtube.com/watch?v=CABBnFDqykM"
 },
 {
 "platform": "YouTube",
-"text": "결국 폭발한 메시 이게 퇴장이 아니라고?#메시#축구",
-"handle": "UCCcx6P8Y66hJ-t3v4zaO59Q",
-"name": "주벨링",
-"time": "2026-11-23T14:38:14Z",
+"text": "🚨 [속보] 젠슨 황 복귀, 엔비디아 33%↑ 📈 #Shorts",
+"handle": "UC2OM3oMjQfUR2z1gprn9xxQ",
+"name": "오늘한입",
+"time": "2026-11-23T15:06:25Z",
+"term": "속보",
+"url": "https://www.youtube.com/watch?v=Szf2FAEaX2g"
+},
+{
+"platform": "YouTube",
+"text": "[속보] 젠슨황의 복귀, 엔비디아 32% 급등 - 이사회 만장일치 승인 및 즉시발효 [즉시분석]",
+"handle": "UC3pfEoxaRDT6hvZZjpHu7Tg",
+"name": "경제 읽어주는 남자(김광석TV)",
+"time": "2026-11-23T15:07:36Z",
+"term": "속보",
+"url": "https://www.youtube.com/watch?v=dKuLLBlY9Ug"
+},
+{
+"platform": "YouTube",
+"text": "[속보] 젠슨 황, 사임 11일 만에 엔비디아 CEO 복귀…주가 급등 #shorts",
+"handle": "UCpmRCdjPT8XZdipi9OXri0w",
+"name": "중도시선 3분",
+"time": "2026-11-23T15:04:58Z",
+"term": "속보",
+"url": "https://www.youtube.com/watch?v=6uGMbJM1Vds"
+},
+{
+"platform": "YouTube",
+"text": "속보 | 젠슨 황 11일 만에 엔비디아 CEO 복귀…뉴욕증시 나스닥 6% 급등 출발",
+"handle": "UCaEXvwcmKfDpimYPR98PIgw",
+"name": "zerosum",
+"time": "2026-11-23T15:04:55Z",
+"term": "속보",
+"url": "https://www.youtube.com/watch?v=aJc3M7aNOTM"
+},
+{
+"platform": "YouTube",
+"text": "[속보] 젠슨 황, 11일 만에 엔비디아 CEO 복귀…주가 개장 전 급등 #속보 #엔비디아",
+"handle": "UCr3wJRR-ys72VFPjEcFlwxA",
+"name": "비담시황",
+"time": "2026-11-23T15:04:11Z",
+"term": "속보",
+"url": "https://www.youtube.com/watch?v=ZBTTOALrFog"
+},
+{
+"platform": "YouTube",
+"text": "[속보]젠슨 황 전격 복귀!",
+"handle": "UCDMvEcwLM7Vth4h-lWFurAQ",
+"name": "아주ABC",
+"time": "2026-11-23T15:03:52Z",
+"term": "속보",
+"url": "https://www.youtube.com/watch?v=Vqz9aFzRo-c"
+},
+{
+"platform": "YouTube",
+"text": "[김장룩폭발] 루벤루 강아지 김장조끼 2세대 튼튼D링",
+"handle": "UCDgV3xN4YbIgIK-rU8bGVNg",
+"name": "루벤루 세상을 더 편하게 더 아름답게",
+"time": "2026-11-23T15:02:59Z",
 "term": "폭발",
-"url": "https://www.youtube.com/watch?v=MVv_uWDRRRg"
+"url": "https://www.youtube.com/watch?v=TvWBFHNz-S8"
 },
 {
 "platform": "YouTube",
-"text": "속보 | 엔비디아 젠슨 황 CEO 복직 — 비트코인·이더리움 지금 시세 #Shorts",
-"handle": "UCZTknAobYDYV9ox9TG8wMrw",
-"name": "밤사이한눈",
-"time": "2026-11-23T14:36:20Z",
-"term": "속보",
-"url": "https://www.youtube.com/watch?v=BaZ1rcc2IBo"
+"text": "🤣 할머니 인기 폭발ㅋㅋ 고양이 두 마리가 몰려든 이유는? 🐱💕 #shorts #parrot #앵무새 #cute #새삼스럽개 #귀여운동물 #귀여운동물",
+"handle": "UCe-j-E5pmQWFf_uN9oytu2A",
+"name": "새삼스럽개",
+"time": "2026-11-23T15:00:39Z",
+"term": "폭발",
+"url": "https://www.youtube.com/watch?v=ZfM_9jNn2aU"
 },
 {
 "platform": "YouTube",
-"text": "속보] #젠슨황 #엔디비아 CEO 복귀 #Jensenhuang  #NVIDIA",
-"handle": "UC0WpTZ6q0mViylBqqMq8LcQ",
-"name": "지금은휴일",
-"time": "2026-11-23T14:33:38Z",
+"text": "[속보] 젠슨 황, 사임 11일 만에 엔비디아 CEO 복귀",
+"handle": "UCDmIg8N83N0_qdJGDSQnNew",
+"name": "광주 변호사황준홍법률사무소",
+"time": "2026-11-23T15:00:22Z",
 "term": "속보",
-"url": "https://www.youtube.com/watch?v=IM5rco3wKks"
+"url": "https://www.youtube.com/watch?v=37FbtI3Ub9o"
 },
 {
 "platform": "YouTube",
-"text": "🚨 \"복귀 없다\"더니 6일 만에 대반전! 젠슨 황, 엔비디아 CEO 전격 복귀! 미국 정부까지 움직였다? #엔비디아 #젠슨황 #속보",
-"handle": "UCyz6yvsV50kB4grPkwDni4A",
-"name": "Chip Signal",
-"time": "2026-11-23T14:31:52Z",
-"term": "속보",
-"url": "https://www.youtube.com/watch?v=UXvZSJkGdy4"
+"text": "지하철에서 철학책 읽던 그 여자…회사에 나타났다 ㅋㅋㅋ",
+"handle": "UCs3Dz5YYjR7w3xJYWlNvMxg",
+"name": "그르릉크르릉",
+"time": "2026-11-23T15:00:33Z",
+"term": "지하철",
+"url": "https://www.youtube.com/watch?v=qva0k1odUzk"
 },
 {
 "platform": "YouTube",
-"text": "[리플 XRP 엑스알피] 리플 긴급속보 !! 젠슨황 복귀대박 !!",
-"handle": "UCDBniJtWmmDbGiJ68UbBrUw",
-"name": "오늘의 코인뉴스",
-"time": "2026-11-23T14:33:19Z",
-"term": "속보",
-"url": "https://www.youtube.com/watch?v=fER0UaUXPk8"
+"text": "세상에서 가장 멋진 지각 사유 1위 #배려 #학생영웅 #화재진압",
+"handle": "UCIlWdRHmFQMYnJYtWSz4Eog",
+"name": "마음한컷 따숨",
+"time": "2026-11-23T15:00:21Z",
+"term": "화재",
+"url": "https://www.youtube.com/watch?v=ohWojD8nsTI"
 },
 {
 "platform": "YouTube",
-"text": "[속보] 강승식은 테토남이다",
-"handle": "UCHd1ys86v9GGWgMj30bs2tQ",
-"name": "빅톤이보고싶은앨리스",
-"time": "2026-11-23T14:31:57Z",
+"text": "속보) 영월 차박 70대 여성 숨진 채 발견…난방기구 켠 밀폐 차량 '일산화탄소 중독' #shorts",
+"handle": "UCRJo6_bARJhs7eI0dhMVmcA",
+"name": "M 17",
+"time": "2026-11-23T15:00:21Z",
 "term": "속보",
-"url": "https://www.youtube.com/watch?v=bB1rfztGaDw"
+"url": "https://www.youtube.com/watch?v=nqBTur-x9cE"
+},
+{
+"platform": "YouTube",
+"text": "픽토.부부싸움18, 부부싸움 중 말투 때문에 감정이 폭발하는 이유",
+"handle": "UCjxzauusTIdHZLNwXlC2TaQ",
+"name": "픽토",
+"time": "2026-11-23T15:00:04Z",
+"term": "폭발",
+"url": "https://www.youtube.com/watch?v=EQHthAmMcJw"
+},
+{
+"platform": "YouTube",
+"text": "규모 7과 규모 9는 에너지가 천 배 차이 난다! 바닷물을 통째로 들어 올리는 괴물 지진",
+"handle": "UCTZ95j0S173Pxl6xxYvAdFg",
+"name": "사이언스 오디세이(Science Odyssey)",
+"time": "2026-11-23T15:00:15Z",
+"term": "지진",
+"url": "https://www.youtube.com/watch?v=-l__Lep7qyU"
+},
+{
+"platform": "YouTube",
+"text": "[유에스디에스 코인] 긴급속보 상장폐지 재단 불법거래 사기쳤다 #유에스디에스 코인",
+"handle": "UCGSC3erLLf5omT4ppBJDphA",
+"name": "Crazy Rider Official",
+"time": "2026-11-23T15:00:38Z",
+"term": "속보",
+"url": "https://www.youtube.com/watch?v=DA8apYJFswM"
+},
+{
+"platform": "YouTube",
+"text": "나메크성이 텅 비었다… 손오공이 폭발했다 #드래곤볼 #나메크성 #손오공",
+"handle": "UCisUYZbvKjITgZrHqFRSEKw",
+"name": "J_ani",
+"time": "2026-11-23T15:00:02Z",
+"term": "폭발",
+"url": "https://www.youtube.com/watch?v=U9bPMmzedmo"
+},
+{
+"platform": "YouTube",
+"text": "전기장판 위에 이것 두면 위험합니다 (온열기구 화재)",
+"handle": "UCMkq_caGHQP0E2pmLYuWR8g",
+"name": "100만쇼츠",
+"time": "2026-11-23T15:00:27Z",
+"term": "화재",
+"url": "https://www.youtube.com/watch?v=kRj1gnxg2NM"
+},
+{
+"platform": "YouTube",
+"text": "[삼성전자 주가전망] \"새벽 긴급속보\" 화요일 현재 00:00분 \"핵폭탄급\" 속보 발생했습니다! 출근길 필수시청! 화요일 대응 전략 무조건 확인하세요! #삼성전자주가",
+"handle": "UC51rChN-hNU1ZBjA2-MjAGg",
+"name": "급등포착훈련소",
+"time": "2026-11-23T15:00:35Z",
+"term": "속보",
+"url": "https://www.youtube.com/watch?v=Flx19sCpJ0k"
+},
+{
+"platform": "YouTube",
+"text": "끼폭발한 박서진 #박서진",
+"handle": "UC76ffQmtD_oxB-pT7Lbev9g",
+"name": "트로트로트",
+"time": "2026-11-23T15:00:25Z",
+"term": "폭발",
+"url": "https://www.youtube.com/watch?v=Q5toYAQnyjA"
+},
+{
+"platform": "YouTube",
+"text": "한겨울 영하 13도에서 1주일 정전이 된다면? 지금 당장 집에 '이것'있나 확인하세요",
+"handle": "UCXjFDQsodWz1wCJ9_GdHdIw",
+"name": "네모난지식",
+"time": "2026-11-23T15:00:04Z",
+"term": "정전",
+"url": "https://www.youtube.com/watch?v=e7Qh_IN4dNE"
 },
 {
 "platform": "YouTube",
@@ -5682,155 +5842,47 @@
 "time": "2026-11-23T14:29:37Z",
 "term": "속보",
 "url": "https://www.youtube.com/watch?v=OHVxG8C-Gi0"
-},
-{
-"platform": "YouTube",
-"text": "리플 XRP 긴급속보 드디어 하락장 끝?! 젠슨황 복귀에 시장폭발!! 상승 어디까지?! 리플차트분석 코인폭락 리플전망 리플코인 엑스알피 리플코인전망실시간 리플코인실시간 알트코인추천",
-"handle": "UCIU9Qu6_6lVZJXjVPKD50Aw",
-"name": "스타코인",
-"time": "2026-11-23T14:27:20Z",
-"term": "폭발",
-"url": "https://www.youtube.com/watch?v=Gigcy_3wSl0"
-},
-{
-"platform": "YouTube",
-"text": "[속보] 젠슨 황 11일 만에 복귀…엔비디아 +30% 폭등",
-"handle": "UCP51VJT0S24LtJFe84QqBLA",
-"name": "1분 증시",
-"time": "2026-11-23T14:29:14Z",
-"term": "속보",
-"url": "https://www.youtube.com/watch?v=gSHDzaRCzXM"
-},
-{
-"platform": "YouTube",
-"text": "[속보] 젠슨 황 엔비디아 CEO 복귀",
-"handle": "UC6dN6Rilzh9KmzymxnZGslg",
-"name": "센서스튜디오",
-"time": "2026-11-23T14:28:19Z",
-"term": "속보",
-"url": "https://www.youtube.com/watch?v=1fEqZAm_vyQ"
-},
-{
-"platform": "YouTube",
-"text": "[속보] 엔비디아 젠슨 황 CEO 전격 복귀! 프리마켓 주가 27% 폭등 #엔비디아 #젠슨황 #미국주식 #쇼츠",
-"handle": "UC9z9d3Oiqir--l26KlX3GYQ",
-"name": "나니쨩",
-"time": "2026-11-23T14:27:23Z",
-"term": "속보",
-"url": "https://www.youtube.com/watch?v=26HA5V87WSo"
-},
-{
-"platform": "YouTube",
-"text": "속보2)  월가통신 11/23 | 젠슨 황, 사임 11일 만에 엔비디아 CEO 복귀…주가 +28%",
-"handle": "UCn9p5wd_VTQMucTysmJewHA",
-"name": "알데바란 밸류랩",
-"time": "2026-11-23T14:26:11Z",
-"term": "속보",
-"url": "https://www.youtube.com/watch?v=D7u5BpMn5nQ"
-},
-{
-"platform": "YouTube",
-"text": "불난 아파트 벽면 살리는 세척법 #화재청소 #그을음제거 #화재복구",
-"handle": "UCaTJQ470dMR4GRrBqremA_w",
-"name": "새삥화재청소",
-"time": "2026-11-23T14:25:03Z",
-"term": "화재",
-"url": "https://www.youtube.com/watch?v=TNLy1Cx6HHU"
-},
-{
-"platform": "YouTube",
-"text": "출퇴근길 지하철 대란 오나…서울지하철 파업 앞두고 내일 최종 교섭 돌입 [이슈ZIP] / 연합뉴스TV(YonhapnewsTV)",
-"handle": "UCTHCOPwqNfZ0uiKOvFyhGwg",
-"name": "연합뉴스TV",
-"time": "2026-11-23T14:23:01Z",
-"term": "지하철",
-"url": "https://www.youtube.com/watch?v=aQNCAquOzI4"
-},
-{
-"platform": "YouTube",
-"text": "[속보] 젠슨 황 복귀, 나스닥, 야간선물 폭등 중!! 낼 시초가 추격은 위험",
-"handle": "UCGXjU3nOuIzhfRI9MZgl4TA",
-"name": "로그온 경제 이야기",
-"time": "2026-11-23T14:23:25Z",
-"term": "속보",
-"url": "https://www.youtube.com/watch?v=n_2z8qMHw-U"
-},
-{
-"platform": "YouTube",
-"text": "부산 지하철 안에서 승객이 큰 소리로 계속 말하고 있어 불편합니다. 다른 승객들에게 피해가 발생하고 있으니 역무원께서 확인하고 조치해 주시기 바랍니다.",
-"handle": "UCHyWwUBMyCteONVqi3TgToA",
-"name": "어린양 연애인",
-"time": "2026-11-23T14:23:02Z",
-"term": "지하철",
-"url": "https://www.youtube.com/watch?v=qlZIaGMH1Z4"
-},
-{
-"platform": "YouTube",
-"text": "[속보] 젠슨황 CEO 복귀 이사회 결정났다",
-"handle": "UCAaC0F5koPhnvrcLHDVlf2w",
-"name": "IT부시기",
-"time": "2026-11-23T14:23:11Z",
-"term": "속보",
-"url": "https://www.youtube.com/watch?v=71ZDN3f5rKc"
-},
-{
-"platform": "YouTube",
-"text": "[속보] 트럼프 “젠슨 황 엔비디아 CEO 복귀, 올바른 결정”",
-"handle": "UCs8ngXeIbNRf8HLpDUTPQZQ",
-"name": "오늘뜸",
-"time": "2026-11-23T14:21:58Z",
-"term": "속보",
-"url": "https://www.youtube.com/watch?v=43cSTEvz3Hs"
-},
-{
-"platform": "YouTube",
-"text": "[속보] 쫓겨났던 젠슨 황, 11일 만에 복귀!! 엔비디아 25% 폭등",
-"handle": "UCJ4m6pvajrjHEkaK9CyzM5A",
-"name": "삐뽀이슈",
-"time": "2026-11-23T14:22:19Z",
-"term": "속보",
-"url": "https://www.youtube.com/watch?v=HlmzXGb4f1Y"
-},
-{
-"platform": "YouTube",
-"text": "[속보] 젠슨 황 앤비디아 CEO 복귀 [뉴스플레이리스트] / 채널A",
-"handle": "UCfq4V1DAuaojnr2ryvWNysw",
-"name": "채널A News",
-"time": "2026-11-23T14:21:37Z",
-"term": "속보",
-"url": "https://www.youtube.com/watch?v=WLtj_yYLUsA"
-},
-{
-"platform": "YouTube",
-"text": "등원했다가 콧물폭발이슈로 병원갔다가 재등원ㅋ콧물 얼마전에 끝났었는데😤얼른 떨어져라 콧물아!! #가율은축복 #협찬환영 #콧물 #아기콧물 #자라하울 #zara #아기옷 #순두부찌개",
-"handle": "UCmxzv8rM2t72DKss7qgUt6w",
-"name": "0GKIM",
-"time": "2026-11-23T14:19:27Z",
-"term": "폭발",
-"url": "https://www.youtube.com/watch?v=s41em8AvuJ8"
-},
-{
-"platform": "YouTube",
-"text": "[속보] 젠슨 황 복귀! 엔비디아 한때 +31%, SOXL +45%… 어디까지 갈까?",
-"handle": "UC1nfK3OYQIH9-TTg7q1nt0A",
-"name": "어제의 투자이야기",
-"time": "2026-11-23T14:18:46Z",
-"term": "속보",
-"url": "https://www.youtube.com/watch?v=Hz7wHjalZJ0"
-},
-{
-"platform": "YouTube",
-"text": "속보! 젠슨 황, 엔비디아 이사회 만장일치 복귀— 즉시 발효, 주가 30% 폭등 #서학개미뉴스 #속보 #젠슨황 #엔비디아 #재신임 #복귀 #미국주식 #AI주식 #서학개미 #미국증시",
-"handle": "UCfnKVtXj5nNas18KWQjmeYg",
-"name": "서학개미뉴스",
-"time": "2026-11-23T14:19:13Z",
-"term": "속보",
-"url": "https://www.youtube.com/watch?v=mNF_zwWjFAg"
 }
 ],
-"ytAt": "2026-11-23T14:43:29.279432+00:00"
+"ytAt": "2026-11-23T15:14:33.502133+00:00"
 },
 "trends": [
+{
+"term": "코스피 야간선물",
+"traffic": "1000+",
+"time": "2026-11-23T14:10:00+00:00",
+"news": [
+{
+"title": "증시 변동성 확대에 정부, 증시안정펀드 즉시 가동 준비",
+"source": "대한민국 정책브리핑",
+"link": "https://www.korea.kr/news/policyNewsView.do?newsId=148976310&pWise=sub&pWiseSub=C4"
+},
+{
+"title": "이형일 \"추가 비상계획 있어...공매도, 추가 규제보다 감시\"",
+"source": "YTN",
+"link": "https://www.ytn.co.kr/_ln/0102_202611232242473417"
+}
+],
+"new": true
+},
+{
+"term": "코인니스",
+"traffic": "200+",
+"time": "2026-11-23T14:10:00+00:00",
+"news": [
+{
+"title": "\"분산 투자할 곳이 없다\"…1년 만에 '에브리씽 랠리'에서 '에브리씽 크래시'",
+"source": "한국경제",
+"link": "https://www.hankyung.com/article/202611233526i"
+},
+{
+"title": "“코인·금 동반 폭락”…수익률 꼴찌인데, 지금이 가장 싸다? [잇슈 머니]",
+"source": "KBS 뉴스",
+"link": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8719555"
+}
+],
+"new": false
+},
 {
 "term": "jensen huang",
 "traffic": "2000+",
@@ -5909,21 +5961,21 @@
 "time": "2026-11-23T14:00:00+00:00",
 "news": [
 {
-"title": "US Army to detonate tonnes of unstable explosives in Iowa despite court order",
-"source": "BBC",
-"link": "https://www.bbc.com/news/articles/cvglrx764gdxo"
+"title": "Agriculture Department breached by hackers, sources say",
+"source": "NBC News",
+"link": "https://www.nbcnews.com/politics/national-security/agriculture-department-breached-hackers-sources-say-rcna610497"
 },
 {
-"title": "US Army delays detonation of bomb-making chemicals in Iowa after public safety concerns raised",
-"source": "AP News",
-"link": "https://apnews.com/article/iowa-army-ammunition-lead-detonation-2d2d7bfaf8ceacddcbea10ed97b097ce"
+"title": "Amid a series of computer accidents at U.S. federal agencies, major airlines, and large banks, even",
+"source": "매일경제",
+"link": "https://www.mk.co.kr/en/world/12215733"
 }
 ],
 "new": true
 },
 {
 "term": "젠슨황 복귀",
-"traffic": "10000+",
+"traffic": "20000+",
 "time": "2026-11-23T13:50:00+00:00",
 "news": [
 {
@@ -5974,46 +6026,9 @@
 }
 ],
 "new": false
-},
-{
-"term": "상장",
-"traffic": "5000+",
-"time": "2026-11-23T11:00:00+00:00",
-"news": [
-{
-"title": "카카오, TPG와 1.5조원 국제중재 분쟁…모빌리티 美상장 갈등",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261123100000017"
-},
-{
-"title": "카카오T 2대 주주 TPG, 美상장 반대한 카카오에 1.5조 소송",
-"source": "동아일보",
-"link": "https://www.donga.com/news/Economy/article/all/20261123/135075976/1"
-}
-],
-"new": true
-},
-{
-"term": "m",
-"traffic": "100+",
-"time": "2026-11-23T11:00:00+00:00",
-"news": [
-{
-"title": "Sources - Mets, Skubal agree to record 9-year, $450M contract",
-"source": "ESPN",
-"link": "https://www.espn.com/mlb/story/_/id/50565674/sources-mets-skubal-agree-9-year-450m-contract"
-},
-{
-"title": "Mets projected 2027 lineup, rotation after blockbuster Tarik Skubal signing",
-"source": "Yahoo Sports",
-"link": "https://sports.yahoo.com/articles/mets-projected-2027-lineup-rotation-141008542.html"
-}
-],
-"new": true
 }
 ],
 "trendSeen": [
-"카타르 축구 국가대표팀",
 "카페",
 "캄보디아",
 "캐릭",
@@ -6038,6 +6053,7 @@
 "코스피",
 "코스피 11% 급락 원인과 정부의 반대매매 완화 조치 내용 알려줘",
 "코스피 200",
+"코스피 야간선물",
 "코어위브",
 "코어위브 실적",
 "코어위브 주가",
