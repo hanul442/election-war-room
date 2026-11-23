@@ -1,12 +1,12 @@
 {
-"updated": "2026-11-23T00:41:27.182399+00:00",
+"updated": "2026-11-23T00:43:47.261407+00:00",
 "errors": [],
 "events": [
 {
 "id": "xM2NyTHR5aFQ3aFBTS01Ooc50001",
 "first": "2026-11-23T00:01:00+00:00",
 "last": "2026-11-23T00:36:37+00:00",
-"updated": "2026-11-23T00:41:27.182399+00:00",
+"updated": "2026-11-23T00:43:47.261407+00:00",
 "headline": "코스피 135.06p(2.77%) 내린 4734.90(개장)",
 "cat": "경제",
 "regions": [],
@@ -112,6 +112,13 @@
 "stage": "속보"
 },
 {
+"title": "\"증안펀드 효과?\"…코스피, '블랙먼데이' 공포에도 낙폭 제한",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261123_0003878711",
+"time": "2026-11-23T00:35:54+00:00",
+"stage": "후속"
+},
+{
 "title": "코스피 2∼3% 하락 4,700대로 밀려…우려보다는 낙폭 제한(종합)",
 "source": "연합뉴스",
 "link": "https://www.yna.co.kr/view/AKR20261123032251008",
@@ -128,6 +135,7 @@
 "75p",
 "75포인트",
 "개장",
+"공포에",
 "낙폭",
 "내린",
 "떨어져",
@@ -135,6 +143,7 @@
 "블랙먼데",
 "우려보다",
 "제한",
+"증안펀드",
 "최악",
 "출발",
 "출발해",
@@ -143,7 +152,8 @@
 "피한",
 "하락",
 "하락한",
-"하락해"
+"하락해",
+"효과"
 ]
 },
 {
@@ -531,7 +541,7 @@
 "id": "JXLTNyM0h4bHlGR0NzQkkoc50029",
 "first": "2026-11-23T00:29:22+00:00",
 "last": "2026-11-23T00:29:22+00:00",
-"updated": "2026-11-23T00:34:35.287455+00:00",
+"updated": "2026-11-23T00:43:47.261407+00:00",
 "headline": "휴림로봇 장초반 VI 두 차례 발동, 주가 21% 급등…양대지수 약세 속 '역주행'",
 "cat": "경제",
 "regions": [],
@@ -545,6 +555,13 @@
 "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE85dC1tdWlZRVVVYzB6SW1za0x5dHpJMG5Bc2tTTU1HSktTVDN2NWl1SFM0MDZDZlZlZU1aaE9yVXVPSmk4U0g0aTNHWHFJRGJFcGNYWlpvZXJXLTNyM0h4bHlGR0NzQkk?oc=5",
 "time": "2026-11-23T00:29:22+00:00",
 "stage": "얼럿"
+},
+{
+"title": "[속보] 휴림로봇 장초반 VI 두 차례 발동, 주가 21% 급등…양대지수 약세 속 '역주행'",
+"source": "CBC뉴스",
+"link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1xSEhaR1oxYklrSmpNbmw2bFhvbzVvdDByUnJLeVRERloxN09OTmNXcE5GRGZPdU1WdWI2cEFuYlNlNGxNN2xWZjdzS2daRUNKTXk0VllKVWltWm41VkhVZm1sV045UDdP?oc=5",
+"time": "2026-11-23T00:29:22+00:00",
+"stage": "속보"
 }
 ],
 "level": "URGENT",
@@ -2916,12 +2933,12 @@
 "terms": {
 "지진": {
 "n30": 0,
-"base": 0.6,
+"base": 0.5,
 "spike": false
 },
 "화재": {
 "n30": 0,
-"base": 0.3,
+"base": 0.2,
 "spike": false
 },
 "불났": {
@@ -2960,9 +2977,9 @@
 "spike": false
 },
 "지하철": {
-"n30": 4,
+"n30": 5,
 "base": 0.1,
-"spike": false
+"spike": true
 },
 "사고": {
 "n30": 4,
@@ -2996,6 +3013,16 @@
 }
 },
 "posts": [
+{
+"text": "지하철만 타면 왜캐 다 죽여버리고 싶지\n오늘은 놀러가는 지하철인데도..",
+"handle": "dooree.bsky.social",
+"name": "두리😉",
+"time": "2026-11-23T00:43:15.751Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/dooree.bsky.social/post/3n2wvkkqiok2q",
+"term": "지하철"
+},
 {
 "text": "하 징짜 머리하러 가야 하는데... 머리가 완전 폭발 상태여...",
 "handle": "rapier.bsky.social",
@@ -3209,19 +3236,27 @@
 "url": "https://www.youtube.com/watch?v=CEBSPiSkd-A"
 }
 ],
-"spikes": [],
+"spikes": [
+{
+"term": "지하철",
+"n30": 5,
+"base": 0.1,
+"spike": true,
+"since": "2026-11-23T00:43:47.261407+00:00"
+}
+],
 "baseline": {
-"지진": 0.5,
-"화재": 0.24,
+"지진": 0.45,
+"화재": 0.22,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.15,
+"폭발": 0.24,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.14,
-"사고": 3.15,
+"지하철": 0.23,
+"사고": 3.23,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -3397,6 +3432,24 @@
 },
 "trends": [
 {
+"term": "스쿠발",
+"traffic": "200+",
+"time": "2026-11-22T23:40:00+00:00",
+"news": [
+{
+"title": "스쿠발, 메츠와 6059억원 계약… 투수 역대 최고 몸값",
+"source": "조선일보",
+"link": "https://www.chosun.com/sports/world-baseball/2026/11/23/BESCBPSK7FHFVA7TMW26CJNTBY/"
+},
+{
+"title": "\"코헨에게는 푼돈, 스쿠발 영입에 걸림돌 아냐\" 신인 외야수와 1280억 연장 계약? 스쿠발 영입전 시작도 안했다 - 머니투데이",
+"source": "머니투데이",
+"link": "https://www.mt.co.kr/sports/2026/11/22/202611220954773835O"
+}
+],
+"new": true
+},
+{
 "term": "정유라",
 "traffic": "1000+",
 "time": "2026-11-22T23:20:00+00:00",
@@ -3543,24 +3596,6 @@
 "title": "\"日 사토보단 싸다\" 한화 노시환, ML 정말 가나! 주전 3루수 판 캔자스시티 급부상 - 머니투데이",
 "source": "머니투데이",
 "link": "https://www.mt.co.kr/sports/2026/11/22/2026112215404271386"
-}
-],
-"new": true
-},
-{
-"term": "김호령",
-"traffic": "2000+",
-"time": "2026-11-22T22:20:00+00:00",
-"news": [
-{
-"title": "구자욱-홍창기-김호령 시장에 남아있다…'170억 악성계약 끝' 외야 보강 원하는 롯데, FA 시장 참전 가능성은?",
-"source": "SPOTV NEWS",
-"link": "https://www.spotvnews.co.kr/news/articleView.html?idxno=1021199"
-},
-{
-"title": "김호령 오버페이 없다? '자매구단 출신' 日 외야수 테스트…롯데 외야 FA 셈범 달라지나 - 머니투데이",
-"source": "머니투데이",
-"link": "https://www.mt.co.kr/sports/2026/11/23/202611222016774634O"
 }
 ],
 "new": true
