@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-23T22:42:33.150158+00:00",
+"updated": "2026-11-23T22:44:45.853661+00:00",
 "errors": [],
 "events": [
 {
@@ -3555,7 +3555,7 @@
 "spike": false
 },
 "미사일": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -3566,7 +3566,7 @@
 },
 "지하철": {
 "n30": 3,
-"base": 0.6,
+"base": 0.7,
 "spike": false
 },
 "사고": {
@@ -3771,7 +3771,7 @@
 "n30": 6,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-23T22:42:33.150158+00:00"
+"since": "2026-11-23T22:44:45.853661+00:00"
 }
 ],
 "baseline": {
@@ -3784,8 +3784,8 @@
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.68,
-"사고": 0.29,
+"지하철": 0.71,
+"사고": 0.26,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -3952,6 +3952,24 @@
 },
 "trends": [
 {
+"term": "국방백서",
+"traffic": "100+",
+"time": "2026-11-23T21:40:00+00:00",
+"news": [
+{
+"title": "‘북한군은 적’ 李정부 첫 국방백서에도 유지될 듯",
+"source": "동아일보",
+"link": "https://www.donga.com/news/Politics/article/all/20261124/135077518/2"
+},
+{
+"title": "[단독] 李 정부도 ‘북한은 적’… 北 적대적 두 국가론, DMZ 지뢰 폭발 영향",
+"source": "서울신문",
+"link": "https://www.seoul.co.kr/news/politics/diplomacy/2026/11/24/20261124003004"
+}
+],
+"new": true
+},
+{
 "term": "투수",
 "traffic": "1000+",
 "time": "2026-11-23T21:30:00+00:00",
@@ -3980,9 +3998,9 @@
 "link": "https://imnews.imbc.com/replay/2026/nwtoday/article/6867724_37012.html"
 },
 {
-"title": "\"손흥민 있어도 탈락\" vs \"결국 손흥민이 뒤집는다\"… 美 언론 정면충돌, 운명의 PO 개막",
-"source": "파이낸셜뉴스",
-"link": "https://www.fnnews.com/news/202611230238089643"
+"title": "‘코리안 더비’ 손흥민, 24일 세인트루이스와 MLS컵 16강 1차전 출격",
+"source": "스포츠동아",
+"link": "https://sports.donga.com/sports/article/all/20261123/135075871/1"
 }
 ],
 "new": true
@@ -4109,24 +4127,6 @@
 "title": "한국 수능 재난문자에 놀란 '파친코' 작가…\"AI 발전하는데 학생은 퇴화\"",
 "source": "주간조선",
 "link": "https://weekly.chosun.com/news/articleView.html?idxno=57367"
-}
-],
-"new": true
-},
-{
-"term": "스페이스x",
-"traffic": "100+",
-"time": "2026-11-23T20:40:00+00:00",
-"news": [
-{
-"title": "스페이스X, 경쟁사보다 10년 앞서...‘아웃 퍼폼’-번스타인",
-"source": "마켓인",
-"link": "https://marketin.edaily.co.kr/News/ReadE?newsId=03663766645648672"
-},
-{
-"title": "씨티그룹 \"스페이스X 기술 우위 20년 수준\"…스타링크 수익성도 개선",
-"source": "제민일보",
-"link": "http://www.jemin.com/news/articleView.html?idxno=848116"
 }
 ],
 "new": true
