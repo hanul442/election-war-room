@@ -1,7 +1,37 @@
 {
-"updated": "2026-11-23T23:02:29.566463+00:00",
+"updated": "2026-11-23T23:04:41.363007+00:00",
 "errors": [],
 "events": [
+{
+"id": "wNISX20261124_00038801752301",
+"first": "2026-11-23T23:01:18+00:00",
+"last": "2026-11-23T23:01:18+00:00",
+"updated": "2026-11-23T23:04:41.363007+00:00",
+"headline": "美 증시 폭등에 프리마켓서 삼성전자 10%↑SK하이닉스 11%↑",
+"cat": "경제",
+"regions": [],
+"sources": [
+"뉴시스"
+],
+"updates": [
+{
+"title": "[속보]美 증시 폭등에 프리마켓서 삼성전자 10%↑SK하이닉스 11%↑",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261124_0003880175",
+"time": "2026-11-23T23:01:18+00:00",
+"stage": "얼럿"
+}
+],
+"level": "URGENT",
+"latest": "美 증시 폭등에 프리마켓서 삼성전자 10%↑SK하이닉스 11%↑",
+"tok": [
+"SK하이닉스",
+"삼성전자",
+"증시",
+"폭등",
+"프리마켓서"
+]
+},
 {
 "id": "1cXdsMFNxWl80bk5IRFVRoc52258",
 "first": "2026-11-23T22:58:53+00:00",
@@ -3758,7 +3788,7 @@
 },
 "대피": {
 "n30": 1,
-"base": 0.3,
+"base": 0.4,
 "spike": false
 },
 "미사일": {
@@ -3773,7 +3803,7 @@
 },
 "지하철": {
 "n30": 6,
-"base": 0.5,
+"base": 0.4,
 "spike": true
 },
 "사고": {
@@ -4042,21 +4072,21 @@
 "n30": 8,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-23T23:02:29.566463+00:00"
+"since": "2026-11-23T23:04:41.363007+00:00"
 },
 {
 "term": "속보",
 "n30": 7,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-23T23:02:29.566463+00:00"
+"since": "2026-11-23T23:04:41.363007+00:00"
 },
 {
 "term": "지하철",
 "n30": 6,
-"base": 0.5,
+"base": 0.4,
 "spike": true,
-"since": "2026-11-23T23:02:29.566463+00:00"
+"since": "2026-11-23T23:04:41.363007+00:00"
 }
 ],
 "baseline": {
@@ -4065,12 +4095,12 @@
 "불났": 0.05,
 "정전": 0.05,
 "폭발": 0.05,
-"붕괴": 0.6,
-"대피": 0.39,
+"붕괴": 0.64,
+"대피": 0.45,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.41,
-"사고": 0.12,
+"지하철": 0.37,
+"사고": 0.11,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -4291,6 +4321,60 @@
 },
 "trends": [
 {
+"term": "skhy",
+"traffic": "1000+",
+"time": "2026-11-23T22:00:00+00:00",
+"news": [
+{
+"title": "(LEAD) SK hynix's U.S.-traded shares surge over 20 pct in Mon. morning trading after Nvidia CEO's reinstatement",
+"source": "Yonhap News Agency",
+"link": "https://en.yna.co.kr/view/AEN20261124000251315"
+},
+{
+"title": "SK Hynix shares are trading below the KRW 1.1 million mark in early trading on the 23rd. The stock p..",
+"source": "매일경제",
+"link": "https://www.mk.co.kr/en/stock/12215849"
+}
+],
+"new": true
+},
+{
+"term": "박정환",
+"traffic": "100+",
+"time": "2026-11-23T22:00:00+00:00",
+"news": [
+{
+"title": "박정환 9단, 승률 1%서 뒤집기…신진서 꺾고 명인전 기선제압",
+"source": "뉴스1",
+"link": "https://www.news1.kr/sports/general-sport/6363432"
+},
+{
+"title": "끝난 줄 알았던 이야기…박정환, 결승 첫판서 대역전승",
+"source": "사이버오로",
+"link": "https://www.cyberoro.com/news/news_view.oro?num=532968"
+}
+],
+"new": true
+},
+{
+"term": "brentford vs everton",
+"traffic": "100+",
+"time": "2026-11-23T22:00:00+00:00",
+"news": [
+{
+"title": "Brentford 4-0 Everton - James Tarkowski sees red as Toffees thrashed",
+"source": "BBC",
+"link": "https://www.bbc.com/sport/football/live/c64gnwyv7kvjt"
+},
+{
+"title": "Analysis: Misery for Moyes on record-breaking night",
+"source": "Yahoo Sports",
+"link": "https://sports.yahoo.com/articles/analysis-misery-moyes-record-breaking-222401190.html"
+}
+],
+"new": true
+},
+{
 "term": "개인정보",
 "traffic": "100+",
 "time": "2026-11-23T21:50:00+00:00",
@@ -4337,9 +4421,9 @@
 "link": "https://www.mt.co.kr/sports/2026/11/24/202611231016775710O"
 },
 {
-"title": "9년 총액 4억5000만달러… 투수 최고 몸값, 스쿠벌",
-"source": "동아일보",
-"link": "https://www.donga.com/news/Sports/article/all/20261124/135077429/2"
+"title": "'사장님이 미쳤어요' 메츠, 6047억 쓰고 107억 또 썼다…MVP 1루수 영입 \"기량 뿐만 아니라 경험 풍부해\"",
+"source": "조선일보",
+"link": "https://www.chosun.com/sports/world-baseball/2026/11/24/HFRDAOLEME4DKZRUGEYGCZJRG4/"
 }
 ],
 "new": false
@@ -4412,60 +4496,6 @@
 "title": "\"남친 갈 병원 찾아줘\" 했더니…허락도 없이 황당한 일",
 "source": "SBS 뉴스",
 "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008859612"
-}
-],
-"new": true
-},
-{
-"term": "노시환",
-"traffic": "500+",
-"time": "2026-11-23T21:00:00+00:00",
-"news": [
-{
-"title": "'이제부터 진짜다!' 노시환 포스팅 분수령 진입 \"깜짝 발표는 잘 없어→현지 링크 떠야 청신호\" - 머니투데이",
-"source": "머니투데이",
-"link": "https://www.mt.co.kr/sports/2026/11/24/2026112314432578677"
-},
-{
-"title": "\"4년간 116홈런에 강한 어깨까지\" 양키스 3루수 후보 노시환, 美 현지 매체가 짚은 약점은?",
-"source": "조선일보",
-"link": "https://www.chosun.com/sports/baseball/2026/11/22/MZQTGODGGQZDIZDDMEZGMYJZMI/"
-}
-],
-"new": true
-},
-{
-"term": "전원주",
-"traffic": "2000+",
-"time": "2026-11-23T20:50:00+00:00",
-"news": [
-{
-"title": "\"괜찮으신 거 맞나\"…핼쑥한 전원주, 레드카펫서 휘청 - 머니투데이",
-"source": "머니투데이",
-"link": "https://www.mt.co.kr/entertainment/2026/11/22/2026112219483031404"
-},
-{
-"title": "[잇슈 컬처] 전원주 공식 석상 참석에 누리꾼 “건강 응원”",
-"source": "KBS 뉴스",
-"link": "https://news.kbs.co.kr/news/view.do?ncd=8719550"
-}
-],
-"new": true
-},
-{
-"term": "대한민국 축구 국가대표팀",
-"traffic": "500+",
-"time": "2026-11-23T20:50:00+00:00",
-"news": [
-{
-"title": "나란히 K리그 1부 복귀하는 ‘수원 형제’…큰물에서 다시 생존경쟁",
-"source": "경향신문",
-"link": "https://www.khan.co.kr/article/202611232009015"
-},
-{
-"title": "‘승격 청부사’ 증명, 1년이면 충분했다",
-"source": "조선일보",
-"link": "https://www.chosun.com/national/people/2026/11/23/27M7J7W5ZRCYZKWGGPNXVAMMDI/"
 }
 ],
 "new": true
