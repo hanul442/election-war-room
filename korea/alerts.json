@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-24T23:12:48.002872+00:00",
+"updated": "2026-11-24T23:15:01.783197+00:00",
 "errors": [],
 "events": [
 {
@@ -2649,13 +2649,13 @@
 "spike": false
 },
 "지하철": {
-"n30": 5,
+"n30": 6,
 "base": 1.0,
 "spike": true
 },
 "사고": {
 "n30": 1,
-"base": 2.1,
+"base": 2.0,
 "spike": false
 },
 "실종": {
@@ -2686,11 +2686,21 @@
 },
 "posts": [
 {
+"text": "아니오늘대체왜이래지하철에서 내렸는데도 지나가는 사람 향수테러받음 아악",
+"handle": "koodb.bsky.social",
+"name": "콸콸 뚫어드립니다",
+"time": "2026-11-24T23:12:42.551Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/koodb.bsky.social/post/3n33rghe44c2m",
+"term": "지하철"
+},
+{
 "text": "목도리에서 합성섬유냄새 남....\n왜지.... 서랍에 처박아둬서 그런가\n지금 지하철냄새랑 섞여서 더 죽을거 같음 ㅁㅊ 죽여줘",
 "handle": "koodb.bsky.social",
 "name": "콸콸 뚫어드립니다",
 "time": "2026-11-24T23:10:23.647Z",
-"likes": 0,
+"likes": 1,
 "reposts": 0,
 "url": "https://bsky.app/profile/koodb.bsky.social/post/3n33rcdgais2m",
 "term": "지하철"
@@ -2874,25 +2884,25 @@
 "n30": 6,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-24T23:12:48.002872+00:00"
+"since": "2026-11-24T23:15:01.783197+00:00"
 },
 {
 "term": "붕괴",
 "n30": 5,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-24T23:12:48.002872+00:00"
+"since": "2026-11-24T23:15:01.783197+00:00"
 },
 {
 "term": "지하철",
-"n30": 5,
+"n30": 6,
 "base": 1.0,
 "spike": true,
-"since": "2026-11-24T23:12:48.002872+00:00"
+"since": "2026-11-24T23:15:01.783197+00:00"
 }
 ],
 "baseline": {
-"지진": 0.37,
+"지진": 0.33,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
@@ -2901,8 +2911,8 @@
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 1.03,
-"사고": 1.97,
+"지하철": 1.13,
+"사고": 1.87,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -3078,6 +3088,42 @@
 },
 "trends": [
 {
+"term": "skhy",
+"traffic": "500+",
+"time": "2026-11-24T22:10:00+00:00",
+"news": [
+{
+"title": "Federal Judge Rejects Memory Makers’ Defense To Advance Class-Action Antitrust Lawsuit; Samsung, Micron & SK hynix Must Face The Music Over Artificial DRAM Shortage",
+"source": "Wccftech",
+"link": "https://wccftech.com/federal-judge-rejects-memory-makers-defense-samsung-micron-sk-hynix-dram-shortage-lawsuit/"
+},
+{
+"title": "A 700% Price Hike on A Key Component in Gaming Consoles? Blame A 25-Year Cartel.",
+"source": "BIG by Matt Stoller",
+"link": "https://www.thebignewsletter.com/p/a-700-price-hike-on-a-key-component"
+}
+],
+"new": true
+},
+{
+"term": "schd",
+"traffic": "100+",
+"time": "2026-11-24T22:10:00+00:00",
+"news": [
+{
+"title": "I Own SCHD. Here’s Why I Also Own This 7%-Yielding Income ETF.",
+"source": "The Globe and Mail",
+"link": "https://www.theglobeandmail.com/investing/markets/stocks/SCHD-A/pressreleases/8983443/i-own-schd-heres-why-i-also-own-this-7-yielding-income-etf/"
+},
+{
+"title": "3 Dividend ETFs Offering Steadier Footing in a Shaky Market",
+"source": "MarketBeat",
+"link": "https://www.marketbeat.com/articles/3-dividend-etfs-offering-steadier-footing-in-a-shaky-market/"
+}
+],
+"new": true
+},
+{
 "term": "나스닥 100",
 "traffic": "2000+",
 "time": "2026-11-24T22:00:00+00:00",
@@ -3088,9 +3134,9 @@
 "link": "https://imnews.imbc.com/news/2026/world/article/6868324_36925.html"
 },
 {
-"title": "“진짜 승자는 트럼프?”…젠슨 황 복귀에 누가 웃고 울었나 [잇슈 머니]",
+"title": "미 법무, 젠슨 황 의혹에 즉답 피해…발 빼는 트럼프 참모들",
 "source": "KBS 뉴스",
-"link": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8721736"
+"link": "https://news.kbs.co.kr/news/view.do?ncd=8721711"
 }
 ],
 "new": true
@@ -3101,14 +3147,14 @@
 "time": "2026-11-24T22:00:00+00:00",
 "news": [
 {
-"title": "예멘 정부 임시수도 아덴 함락되나‥후티, 60㎞ 앞까지 진격",
-"source": "MBC 뉴스",
-"link": "https://imnews.imbc.com/news/2026/world/article/6868303_36925.html"
+"title": "중동 유력 방산매체 \"사우디아라비아, 내년부터 韓 천궁-II 도입 전망\" By The Guru",
+"source": "Investing.com 한국어",
+"link": "https://kr.investing.com/news/stock-market-news/article-2188014"
 },
 {
-"title": "사우디 랜드마크 80층 건물 또 피격...후티, 예멘 임시 수도 위협",
-"source": "YTN",
-"link": "https://www.ytn.co.kr/_ln/0104_202611250725318338"
+"title": "요격미사일 소진에 급해진 사우디…美 벗어나 韓·우크라 등 다변화",
+"source": "뉴스1",
+"link": "https://www.news1.kr/world/middleeast-africa/6363050"
 }
 ],
 "new": true
@@ -3151,7 +3197,7 @@
 },
 {
 "term": "신인감독 김연경 2",
-"traffic": "100+",
+"traffic": "200+",
 "time": "2026-11-24T21:50:00+00:00",
 "news": [
 {
@@ -3191,14 +3237,14 @@
 "time": "2026-11-24T21:40:00+00:00",
 "news": [
 {
-"title": "미 국무부, 김주애 고가 스키 장비에 “대북 반입 금지 사치품”",
-"source": "경향신문",
-"link": "https://www.khan.co.kr/article/202611250722001"
+"title": "위성곤, 제주도지사 선거법 위반 '31년 악연' 끊었다",
+"source": "뉴스1",
+"link": "https://www.news1.kr/local/jeju/6364564"
 },
 {
-"title": "국무부, 김주애 스키 사진에 “스키 장비, 대북 반입 금지 사치품”",
-"source": "VOA 한국어 홈페이지",
-"link": "https://www.voakorea.com/a/us-state-department-dprk-ski-gear-sanctions-112326/8226946.html"
+"title": "\"시진핑 경제 구상까지 흔들릴 수도\"…中 AI 버블에 '섬뜩한 경고'",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261123_0003879282"
 }
 ],
 "new": true
@@ -3217,42 +3263,6 @@
 "title": "맨유 4-1로 박살 낸 이유가 있었다...'코모 감독' 파브레가스 \"선수들이 받는 압박감 매우 커, 잘 관리하는 게 우리의 일\"",
 "source": "인터풋볼",
 "link": "https://www.interfootball.co.kr/news/articleView.html?idxno=699170"
-}
-],
-"new": false
-},
-{
-"term": "real madrid đấu với psv",
-"traffic": "100+",
-"time": "2026-11-24T21:40:00+00:00",
-"news": [
-{
-"title": "Nhận định bóng đá Real Madrid vs PSV, 03h00 ngày 25/11: Thiên đường thứ 10",
-"source": "Tạp chí Bóng đá",
-"link": "https://bongdaplus.vn/champions-league-cup-c1/nhan-dinh-bong-da-real-madrid-vs-psv-03h00-ngay-25-11-thien-duong-thu-10-5297622611.html"
-},
-{
-"title": "Bùng nổ trong hiệp 2, Real Madrid lại ngược dòng ở Champions League",
-"source": "Tuổi Trẻ",
-"link": "https://tuoitre.vn/bung-no-trong-hiep-2-real-madrid-lai-nguoc-dong-o-champions-league-100261125052639936.htm"
-}
-],
-"new": true
-},
-{
-"term": "테슬라",
-"traffic": "500+",
-"time": "2026-11-24T21:30:00+00:00",
-"news": [
-{
-"title": "[EV 트렌드] \"리얼리티 뷰에 주행 판단까지\" 테슬라, FSD v15 전면 개편",
-"source": "다나와 자동차",
-"link": "https://auto.danawa.com/news/?Work=detail&no=6085340&Tab=N1&p=&NewsGroup=M"
-},
-{
-"title": "“뒤에서는 즉각 조치 준비 필요, 앞에서는 고령 운전자 환영?”…테슬라의 위험한 홍보전략",
-"source": "경향신문",
-"link": "https://www.khan.co.kr/article/202611241423001"
 }
 ],
 "new": false
