@@ -1,12 +1,43 @@
 {
-"updated": "2026-11-24T13:22:50.840782+00:00",
+"updated": "2026-11-24T13:25:06.352239+00:00",
 "errors": [],
 "events": [
 {
+"id": "viewAKR202611241828000711320",
+"first": "2026-11-24T13:20:02+00:00",
+"last": "2026-11-24T13:20:02+00:00",
+"updated": "2026-11-24T13:25:06.352239+00:00",
+"headline": "\"美USTR, 이르면 이번주 '과잉생산 관세' 조사결과 발표\"",
+"cat": "기타",
+"regions": [],
+"sources": [
+"연합뉴스"
+],
+"updates": [
+{
+"title": "[속보] \"美USTR, 이르면 이번주 '과잉생산 관세' 조사결과 발표\"",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261124182800071",
+"time": "2026-11-24T13:20:02+00:00",
+"stage": "얼럿"
+}
+],
+"level": "URGENT",
+"latest": "\"美USTR, 이르면 이번주 '과잉생산 관세' 조사결과 발표\"",
+"tok": [
+"美USTR",
+"과잉생산",
+"관세",
+"이르면",
+"이번주",
+"조사결"
+]
+},
+{
 "id": "QTANDCMEYWEMBUHA3DEYLFHA0903",
 "first": "2026-11-24T09:03:57+00:00",
-"last": "2026-11-24T13:10:00+00:00",
-"updated": "2026-11-24T13:18:20.181868+00:00",
+"last": "2026-11-24T13:14:00+00:00",
+"updated": "2026-11-24T13:25:06.352239+00:00",
 "headline": "[포토] 세븐틴 조슈아, 설렘 주의보",
 "cat": "재난",
 "regions": [
@@ -505,10 +536,31 @@
 "link": "https://www.chosun.com/entertainments/entertain_photo/2026/11/24/MYYDQNLDMEZTKZJTMFSGCZBVGQ/",
 "time": "2026-11-24T13:10:00+00:00",
 "stage": "후속"
+},
+{
+"title": "[사진]남지현,'싱그러운 미소'",
+"source": "조선일보",
+"link": "https://www.chosun.com/entertainments/entertain_photo/2026/11/24/ME2TCMRXMJRWKMRSMIYTCMRZGQ/",
+"time": "2026-11-24T13:14:00+00:00",
+"stage": "후속"
+},
+{
+"title": "[사진]남지현,'사랑스러운 미소'",
+"source": "조선일보",
+"link": "https://www.chosun.com/entertainments/entertain_photo/2026/11/24/MIYDGZDBGNSGMY3EMI3TCZBQGU/",
+"time": "2026-11-24T13:14:00+00:00",
+"stage": "후속"
+},
+{
+"title": "[사진]남지현,'러블리 하트'",
+"source": "조선일보",
+"link": "https://www.chosun.com/entertainments/entertain_photo/2026/11/24/HA3WMZJWGQ2GEMJQHBSDKNRXHA/",
+"time": "2026-11-24T13:14:00+00:00",
+"stage": "후속"
 }
 ],
 "level": "ALERT",
-"latest": "[사진]성리,'달달한 하트'",
+"latest": "[사진]남지현,'러블리 하트'",
 "tok": [
 "OST",
 "감미로운",
@@ -4684,7 +4736,7 @@
 "terms": {
 "지진": {
 "n30": 3,
-"base": 0.4,
+"base": 0.5,
 "spike": false
 },
 "화재": {
@@ -4704,12 +4756,12 @@
 },
 "폭발": {
 "n30": 6,
-"base": 0.7,
+"base": 0.6,
 "spike": true
 },
 "붕괴": {
 "n30": 7,
-"base": 1.1,
+"base": 1.3,
 "spike": true
 },
 "대피": {
@@ -4728,18 +4780,18 @@
 "spike": false
 },
 "지하철": {
-"n30": 1,
+"n30": 2,
 "base": 0.8,
 "spike": false
 },
 "사고": {
 "n30": 5,
-"base": 3.9,
+"base": 4.0,
 "spike": false
 },
 "실종": {
-"n30": 1,
-"base": 1.7,
+"n30": 0,
+"base": 1.6,
 "spike": false
 },
 "단수": {
@@ -4765,6 +4817,16 @@
 },
 "posts": [
 {
+"text": "으아악 지하철에 사람 너무 많아",
+"handle": "siot-afkj.bsky.social",
+"name": "시옷",
+"time": "2026-11-24T13:23:37.741Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/siot-afkj.bsky.social/post/3n32qj5eeks2r",
+"term": "지하철"
+},
+{
 "text": "카오스 실장이라니 이거 설정 붕괴 아닌ㄱ (아무말",
 "handle": "ziuappend.bsky.social",
 "name": "지우",
@@ -4789,7 +4851,7 @@
 "handle": "riguaa.bsky.social",
 "name": "치즈🧀",
 "time": "2026-11-24T13:15:32.945Z",
-"likes": 1,
+"likes": 2,
 "reposts": 0,
 "url": "https://bsky.app/profile/riguaa.bsky.social/post/3n32q2nlo7s2q",
 "term": "사고"
@@ -4996,48 +5058,38 @@
 "time": "2026-11-24T12:59:46Z",
 "term": "폭발",
 "url": "https://www.youtube.com/watch?v=u1IEVWu4HYk"
-},
-{
-"text": "몇 십년이라고 특정할 수 있는 이유 : 저도 알고싶ry\n심지어 그때도 실종신고 한다고 바로 알려주는 거 아니라는 거 다들 알았음.",
-"handle": "2d6enough.bsky.social",
-"name": "모든 것을 파괴할 황희정승",
-"time": "2026-11-24T12:53:08.942Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/2d6enough.bsky.social/post/3n32osmk2d224",
-"term": "실종"
 }
 ],
 "spikes": [
 {
 "term": "폭발",
 "n30": 6,
-"base": 0.7,
+"base": 0.6,
 "spike": true,
-"since": "2026-11-24T13:22:50.840782+00:00"
+"since": "2026-11-24T13:25:06.352239+00:00"
 },
 {
 "term": "붕괴",
 "n30": 7,
-"base": 1.1,
+"base": 1.3,
 "spike": true,
-"since": "2026-11-24T13:22:50.840782+00:00"
+"since": "2026-11-24T13:25:06.352239+00:00"
 }
 ],
 "baseline": {
-"지진": 0.46,
+"지진": 0.51,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.63,
-"붕괴": 1.31,
+"폭발": 0.57,
+"붕괴": 1.48,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.77,
-"사고": 3.99,
-"실종": 1.63,
-"단수": 0.1,
+"지하철": 0.79,
+"사고": 4.09,
+"실종": 1.47,
+"단수": 0.09,
 "통신 장애": 0.05,
 "먹통": 0.05,
 "산불": 0.05
@@ -5203,7 +5255,7 @@
 "trends": [
 {
 "term": "치안감",
-"traffic": "100+",
+"traffic": "200+",
 "time": "2026-11-24T12:10:00+00:00",
 "news": [
 {
