@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-24T21:23:36.198776+00:00",
+"updated": "2026-11-24T21:25:51.402603+00:00",
 "errors": [],
 "events": [
 {
@@ -2329,7 +2329,7 @@
 "terms": {
 "지진": {
 "n30": 2,
-"base": 0.4,
+"base": 0.3,
 "spike": false
 },
 "화재": {
@@ -2349,7 +2349,7 @@
 },
 "폭발": {
 "n30": 9,
-"base": 0.1,
+"base": 0.2,
 "spike": true
 },
 "붕괴": {
@@ -2642,30 +2642,30 @@
 {
 "term": "폭발",
 "n30": 9,
-"base": 0.1,
+"base": 0.2,
 "spike": true,
-"since": "2026-11-24T21:23:36.198776+00:00"
+"since": "2026-11-24T21:25:51.402603+00:00"
 },
 {
 "term": "지하철",
 "n30": 6,
 "base": 0.5,
 "spike": true,
-"since": "2026-11-24T21:23:36.198776+00:00"
+"since": "2026-11-24T21:25:51.402603+00:00"
 }
 ],
 "baseline": {
-"지진": 0.33,
+"지진": 0.3,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.24,
-"붕괴": 0.1,
+"폭발": 0.32,
+"붕괴": 0.09,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.51,
-"사고": 0.64,
+"지하철": 0.56,
+"사고": 0.68,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -2878,7 +2878,7 @@
 "trends": [
 {
 "term": "배당",
-"traffic": "500+",
+"traffic": "1000+",
 "time": "2026-11-24T20:20:00+00:00",
 "news": [
 {
@@ -2890,24 +2890,6 @@
 "title": "[그래픽] 금융지주 계열 저축은행 순이익",
 "source": "CEO스코어데일리",
 "link": "https://www.ceoscoredaily.com/page/view/2026112310440920985"
-}
-],
-"new": true
-},
-{
-"term": "건설",
-"traffic": "100+",
-"time": "2026-11-24T20:20:00+00:00",
-"news": [
-{
-"title": "반도체·주택 건설 인력난 대응…민관 전문인력 협의체 구성",
-"source": "전기신문",
-"link": "https://www.electimes.com/news/articleView.html?idxno=375208"
-},
-{
-"title": "[단독]속도 관건인 반도체 팹, 건설 인력난… “전역 軍간부 활용 검토”",
-"source": "동아일보",
-"link": "https://www.donga.com/news/Economy/article/all/20261125/135084271/2"
 }
 ],
 "new": true
@@ -2931,6 +2913,24 @@
 "new": true
 },
 {
+"term": "건설",
+"traffic": "100+",
+"time": "2026-11-24T20:20:00+00:00",
+"news": [
+{
+"title": "반도체·주택 건설 인력난 대응…민관 전문인력 협의체 구성",
+"source": "전기신문",
+"link": "https://www.electimes.com/news/articleView.html?idxno=375208"
+},
+{
+"title": "[단독]속도 관건인 반도체 팹, 건설 인력난… “전역 軍간부 활용 검토”",
+"source": "동아일보",
+"link": "https://www.donga.com/news/Economy/article/all/20261125/135084271/2"
+}
+],
+"new": true
+},
+{
 "term": "한동훈",
 "traffic": "100+",
 "time": "2026-11-24T20:20:00+00:00",
@@ -2946,7 +2946,7 @@
 "link": "https://www.donga.com/news/Politics/article/all/20261125/135084474/2"
 }
 ],
-"new": true
+"new": false
 },
 {
 "term": "수성구",
@@ -2967,24 +2967,6 @@
 "new": true
 },
 {
-"term": "원자력 잠수함",
-"traffic": "2000+",
-"time": "2026-11-24T20:10:00+00:00",
-"news": [
-{
-"title": "핵잠 수주 관건은 '원자로 연계-모함·도크 정비인프라'",
-"source": "파이낸셜뉴스",
-"link": "https://www.fnnews.com/news/202611201621574680"
-},
-{
-"title": "한화오션 '17척 건조 경험'⋯HD현대重 '수상함ㆍ원자력' 기술 강조 [핵잠의 청구서]",
-"source": "이투데이",
-"link": "https://www.etoday.co.kr/news/view/2651376"
-}
-],
-"new": true
-},
-{
 "term": "조선민주주의인민공화국",
 "traffic": "200+",
 "time": "2026-11-24T20:10:00+00:00",
@@ -2998,6 +2980,24 @@
 "title": "북 김여정, 스위스 제재에 \"평양 외교사무소 철수 검토\"...스위스 \"외교는 별개\"",
 "source": "VOA 한국어 홈페이지",
 "link": "https://www.voakorea.com/a/8227504.html"
+}
+],
+"new": true
+},
+{
+"term": "원자력 잠수함",
+"traffic": "2000+",
+"time": "2026-11-24T20:10:00+00:00",
+"news": [
+{
+"title": "핵잠 수주 관건은 '원자로 연계-모함·도크 정비인프라'",
+"source": "파이낸셜뉴스",
+"link": "https://www.fnnews.com/news/202611201621574680"
+},
+{
+"title": "한화오션 '17척 건조 경험'⋯HD현대重 '수상함ㆍ원자력' 기술 강조 [핵잠의 청구서]",
+"source": "이투데이",
+"link": "https://www.etoday.co.kr/news/view/2651376"
 }
 ],
 "new": true
@@ -3026,14 +3026,14 @@
 "time": "2026-11-24T20:00:00+00:00",
 "news": [
 {
-"title": "[‘난임 전문의’ 조정현 원장의 자자손손] 임신을 위해 직장을 그만둬야 할까요?",
-"source": "스포츠동아",
-"link": "https://sports.donga.com/life/article/all/20261124/135083143/1"
+"title": "“그냥 나온 배 아냐” 서인영, 혼전임신 의심에 “XX 오래됐다”",
+"source": "스포츠경향",
+"link": "https://sports.khan.co.kr/article/202611231406003"
 },
 {
-"title": "“딸아, 힘내! 사랑해!”…출산 전날까지 매일 1만원 모은 친정엄마에 ‘뭉클’",
-"source": "경기일보",
-"link": "https://www.kyeonggi.com/article/20261123580551"
+"title": "서인영, 재혼 앞두고 ‘임신 의혹’…“진짜 아니라니까” 적극 해명",
+"source": "매일경제",
+"link": "https://www.mk.co.kr/news/broadcasting-service/12215888"
 }
 ],
 "new": true
