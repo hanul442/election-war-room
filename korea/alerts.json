@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-24T04:22:47.203855+00:00",
+"updated": "2026-11-24T04:25:03.542382+00:00",
 "errors": [],
 "events": [
 {
@@ -116,6 +116,57 @@
 "합동감식",
 "호텔",
 "화재"
+]
+},
+{
+"id": "viewAKR202611240963005300259",
+"first": "2026-11-24T02:59:21+00:00",
+"last": "2026-11-24T04:17:30+00:00",
+"updated": "2026-11-24T04:25:03.542382+00:00",
+"headline": "기상청 \"제주 제주 서쪽 바다서 규모 2.4 지진…피해 없을 듯\"",
+"cat": "재난",
+"regions": [
+"제주"
+],
+"sources": [
+"뉴시스",
+"연합뉴스"
+],
+"updates": [
+{
+"title": "기상청 \"제주 제주 서쪽 바다서 규모 2.4 지진…피해 없을 듯\"",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261124096300530",
+"time": "2026-11-24T02:59:21+00:00",
+"stage": "1보"
+},
+{
+"title": "제주 서쪽 90㎞ 해역서 규모 2.4 지진…기상청 \"피해 없을 것\"",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261124_0003880888",
+"time": "2026-11-24T03:10:16+00:00",
+"stage": "후속"
+},
+{
+"title": "기상청 \"제주 서쪽 바다서 규모 2.4 지진…피해 없을 듯\"(종합)",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261124096351530",
+"time": "2026-11-24T04:17:30+00:00",
+"stage": "종합"
+}
+],
+"level": "BULLETIN",
+"latest": "기상청 \"제주 서쪽 바다서 규모 2.4 지진…피해 없을 듯\"",
+"tok": [
+"규모",
+"기상청",
+"바다서",
+"서쪽",
+"없을",
+"제주",
+"지진",
+"피해",
+"해역서"
 ]
 },
 {
@@ -1635,50 +1686,6 @@
 "체포",
 "현금",
 "훔쳐"
-]
-},
-{
-"id": "viewAKR202611240963005300259",
-"first": "2026-11-24T02:59:21+00:00",
-"last": "2026-11-24T03:10:16+00:00",
-"updated": "2026-11-24T03:14:03.568585+00:00",
-"headline": "기상청 \"제주 제주 서쪽 바다서 규모 2.4 지진…피해 없을 듯\"",
-"cat": "재난",
-"regions": [
-"제주"
-],
-"sources": [
-"뉴시스",
-"연합뉴스"
-],
-"updates": [
-{
-"title": "기상청 \"제주 제주 서쪽 바다서 규모 2.4 지진…피해 없을 듯\"",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261124096300530",
-"time": "2026-11-24T02:59:21+00:00",
-"stage": "1보"
-},
-{
-"title": "제주 서쪽 90㎞ 해역서 규모 2.4 지진…기상청 \"피해 없을 것\"",
-"source": "뉴시스",
-"link": "https://www.newsis.com/view/NISX20261124_0003880888",
-"time": "2026-11-24T03:10:16+00:00",
-"stage": "후속"
-}
-],
-"level": "BULLETIN",
-"latest": "제주 서쪽 90㎞ 해역서 규모 2.4 지진…기상청 \"피해 없을 것\"",
-"tok": [
-"규모",
-"기상청",
-"바다서",
-"서쪽",
-"없을",
-"제주",
-"지진",
-"피해",
-"해역서"
 ]
 },
 {
@@ -3933,7 +3940,7 @@
 },
 "붕괴": {
 "n30": 1,
-"base": 1.2,
+"base": 1.1,
 "spike": false
 },
 "대피": {
@@ -3958,12 +3965,12 @@
 },
 "사고": {
 "n30": 2,
-"base": 0.9,
+"base": 1.0,
 "spike": false
 },
 "실종": {
 "n30": 1,
-"base": 0.6,
+"base": 0.7,
 "spike": false
 },
 "단수": {
@@ -4215,29 +4222,29 @@
 "n30": 6,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-24T04:22:47.203855+00:00"
+"since": "2026-11-24T04:25:03.542382+00:00"
 },
 {
 "term": "지하철",
 "n30": 5,
 "base": 0.6,
 "spike": true,
-"since": "2026-11-24T04:22:47.203855+00:00"
+"since": "2026-11-24T04:25:03.542382+00:00"
 }
 ],
 "baseline": {
-"지진": 0.26,
-"화재": 0.56,
+"지진": 0.23,
+"화재": 0.5,
 "불났": 0.05,
-"정전": 0.3,
+"정전": 0.27,
 "폭발": 0.05,
-"붕괴": 1.12,
+"붕괴": 1.01,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.63,
-"사고": 1.01,
-"실종": 0.68,
+"지하철": 0.67,
+"사고": 1.11,
+"실종": 0.71,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -4430,8 +4437,80 @@
 },
 "trends": [
 {
-"term": "미사일",
+"term": "중고",
 "traffic": "500+",
+"time": "2026-11-24T03:20:00+00:00",
+"news": [
+{
+"title": "중고나라, 지도 기반 상품 탐색 기능 도입",
+"source": "전자신문",
+"link": "https://www.etnews.com/20261124000048"
+},
+{
+"title": "중고나라, 지도 기반 검색 도입⋯ 고가 시계 거래 편의성 강화",
+"source": "브릿지경제",
+"link": "https://www.viva100.com/article/20261124500349"
+}
+],
+"new": true
+},
+{
+"term": "장학금",
+"traffic": "200+",
+"time": "2026-11-24T03:20:00+00:00",
+"news": [
+{
+"title": "계룡장학재단, 전국체전 대전 우수입상자 장학금 수여…“체육 인재 성장 응원\"",
+"source": "뉴데일리 충청세종",
+"link": "https://cc.newdaily.co.kr/site/data/html/2026/11/23/2026112350377.html"
+},
+{
+"title": "계룡장학재단, 전국체전 대전 우수선수에 2130만원 장학금",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261123_0003879900"
+}
+],
+"new": true
+},
+{
+"term": "삼성전자 임원 인사",
+"traffic": "2000+",
+"time": "2026-11-24T03:20:00+00:00",
+"news": [
+{
+"title": "삼성전자 2027년 정기 임원 인사 명단",
+"source": "지디넷코리아",
+"link": "https://zdnet.co.kr/view/?no=20261124090704"
+},
+{
+"title": "“AI·반도체 웃고 세트 울었다”",
+"source": "IT조선",
+"link": "https://it.chosun.com/news/articleView.html?idxno=3000000001711"
+}
+],
+"new": true
+},
+{
+"term": "반포자이",
+"traffic": "100+",
+"time": "2026-11-24T03:20:00+00:00",
+"news": [
+{
+"title": "반포자이 보유세, 올해 1809만원→내년 2641만원",
+"source": "동아일보",
+"link": "https://www.donga.com/news/Economy/article/all/20261123/135076417/2"
+},
+{
+"title": "이헌욱 부동산원장, 공시가격 조사 현장 방문… 정확성·객관성 당부",
+"source": "Chosunbiz",
+"link": "https://biz.chosun.com/real_estate/real_estate_general/2026/11/23/VSJL6CEGMJDQBEM5PXBL5NUUMQ/"
+}
+],
+"new": true
+},
+{
+"term": "미사일",
+"traffic": "1000+",
 "time": "2026-11-24T03:10:00+00:00",
 "news": [
 {
@@ -4467,7 +4546,7 @@
 },
 {
 "term": "사고",
-"traffic": "200+",
+"traffic": "500+",
 "time": "2026-11-24T03:10:00+00:00",
 "news": [
 {
@@ -4520,91 +4599,19 @@
 "new": true
 },
 {
-"term": "посольство",
-"traffic": "200+",
+"term": "mls",
+"traffic": "1000+",
 "time": "2026-11-24T02:40:00+00:00",
 "news": [
 {
-"title": "Захарова назвала саморазоблачением признание Destinus об атаке на Крымский мост",
-"source": "Ведомости",
-"link": "https://www.vedomosti.ru/politics/news/2026/11/20/1413595-nazvala-samorazoblacheniem"
+"title": "St. Louis leads Son Heung-min’s LAFC 1-0 at halftime in MLS playoff opener",
+"source": "Chosunbiz",
+"link": "https://biz.chosun.com/en/en-sports/2026/11/24/6KBFDTGZV5GNVKXIN5UMJC3PYE/"
 },
 {
-"title": "WSJ ⟩ Русский эмигрант, который помог разрушить Крымский мост",
-"source": "Rus.Postimees.ee",
-"link": "https://rus.postimees.ee/8588185/wsj-russkiy-emigrant-kotoryy-pomog-razrushit-krymskiy-most"
-}
-],
-"new": true
-},
-{
-"term": "순항 미사일",
-"traffic": "200+",
-"time": "2026-11-24T02:30:00+00:00",
-"news": [
-{
-"title": "“레이저 맞고 ‘뚝’ 떨어진 순항미사일”…한국 대공 방어 레이저 수준은? [밀리터리+]",
-"source": "나우뉴스",
-"link": "https://nownews.seoul.co.kr/news/newsView.php?id=20261122601010"
-},
-{
-"title": "300kW 레이저로 순항미사일 첫 격추, 록히드마틴 '발키리'",
-"source": "데일리방산",
-"link": "https://www.dailydefense.co.kr/news/articleView.html?idxno=3037"
-}
-],
-"new": true
-},
-{
-"term": "호세 수아레즈",
-"traffic": "1000+",
-"time": "2026-11-24T02:30:00+00:00",
-"news": [
-{
-"title": "[공식발표] '와' 두산도 현역 빅리거 데려왔다! 13억에 '154km 좌완' 수아레즈 영입 \"최상급 구속 보유한 완성형 투수\" - 머니투데이",
-"source": "머니투데이",
-"link": "https://www.mt.co.kr/sports/2026/11/24/202611241059777700O"
-},
-{
-"title": "[프로야구] 두산, '빅리그 통산 23승' 좌완 파이어볼러 수아레즈 영입",
-"source": "뉴스핌",
-"link": "https://www.newspim.com/news/view/20261124000655"
-}
-],
-"new": false
-},
-{
-"term": "월드컵",
-"traffic": "200+",
-"time": "2026-11-24T02:30:00+00:00",
-"news": [
-{
-"title": "중국 신났다 ‘아프리카 챔피언과 무승부’에 흥분···U-17 월드컵 모로코전 2-2 ‘골 넣고는 시우 세리머니’",
-"source": "스포츠경향",
-"link": "https://sports.khan.co.kr/article/202611241027003"
-},
-{
-"title": "'21년 만에 월드컵 나갔는데 0-5 대참사!' 중국, 일본인 감독한테 발등 찍혔다! 스페인에 완패…후반 막판 와르르 무너졌다",
-"source": "SPOTV NEWS",
-"link": "https://www.spotvnews.co.kr/news/articleView.html?idxno=1021196"
-}
-],
-"new": true
-},
-{
-"term": "카카오",
-"traffic": "1000+",
-"time": "2026-11-24T02:20:00+00:00",
-"news": [
-{
-"title": "카카오, 프로모션 진행",
-"source": "카카오",
-"link": "https://www.kakaocorp.com/page/detail/12203"
-},
-{
-"title": "[테크스냅] 카카오, AI 닮은꼴 캐릭터 '쬬르디타운 입주자' 모집",
-"source": "매일경제 마켓",
-"link": "https://stock.mk.co.kr/news/view/1204760"
+"title": "Jeong Sang-bin Shines Against Son Heung-min with 1 Goal and 1 Assist, Leading St. Louis to Playoff Victory",
+"source": "news.sbs.co.kr",
+"link": "https://news.sbs.co.kr/english/article.do?news_id=N1008860861"
 }
 ],
 "new": true
