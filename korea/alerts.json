@@ -1,12 +1,12 @@
 {
-"updated": "2026-11-24T17:57:47.326012+00:00",
+"updated": "2026-11-24T18:00:00.870730+00:00",
 "errors": [],
 "events": [
 {
 "id": "viewAKR202611250040000041742",
 "first": "2026-11-24T17:42:55+00:00",
-"last": "2026-11-24T17:55:03+00:00",
-"updated": "2026-11-24T17:57:47.326012+00:00",
+"last": "2026-11-24T17:57:12+00:00",
+"updated": "2026-11-24T18:00:00.870730+00:00",
 "headline": "서울 지하철 1노조 협상 타결…2·3노조는 교섭 중",
 "cat": "교통",
 "regions": [
@@ -17,7 +17,8 @@
 "뉴시스",
 "스페셜타임스",
 "아주경제",
-"연합뉴스"
+"연합뉴스",
+"조선일보"
 ],
 "updates": [
 {
@@ -61,10 +62,17 @@
 "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5zU3NIQVdxY3lvRjNzdnlUQnBXR3hESkdfcUp3ZHhNUjk5cnRTblFFSHZxTjJDZGR1ZzJYYXZ0THdpdXBEcmFsc0hCcy12ZVY3bnNUQ0s5Q1NzVUE2bmZVbnBObUhPLXBxc3o1RW5FSGRIdw?oc=5",
 "time": "2026-11-24T17:55:03+00:00",
 "stage": "속보"
+},
+{
+"title": "[속보] 서울지하철 노사 교섭 타결… 총파업 철회",
+"source": "조선일보",
+"link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNMVRDS1g5NUlvVEE0Yi1zX0RkVFZoV2xJd1ZwMTZFLVdBUFo5cmJMeXdrNVJNUjV0eWxrWi1CRmpwZWVPVF9ENzhMQmZYQVdTdHMyR2JnQVdnZWgyUDh6UXRQU0lYX3MzVGZud1RxTXN4Ul94RlhUTXpMM1JKX2pKSnBFdWMwSVljR181b3NIRWY?oc=5",
+"time": "2026-11-24T17:57:12+00:00",
+"stage": "속보"
 }
 ],
 "level": "URGENT",
-"latest": "서울 지하철 1노조 협상 타결…2·3노조 교섭 계속",
+"latest": "서울지하철 노사 교섭 타결… 총파업 철회",
 "tok": [
 "1노조",
 "3노조",
@@ -78,6 +86,8 @@
 "없다",
 "임단협",
 "지하철",
+"철회",
+"총파업",
 "출근길",
 "타결",
 "협상"
@@ -3276,7 +3286,7 @@
 "spike": false
 },
 "폭발": {
-"n30": 6,
+"n30": 5,
 "base": 0.1,
 "spike": true
 },
@@ -3306,13 +3316,13 @@
 "spike": false
 },
 "사고": {
-"n30": 2,
-"base": 0.9,
+"n30": 1,
+"base": 1.0,
 "spike": false
 },
 "실종": {
 "n30": 0,
-"base": 0.2,
+"base": 0.1,
 "spike": false
 },
 "단수": {
@@ -3456,16 +3466,6 @@
 "url": "https://www.youtube.com/watch?v=U_TRVeCsxPY"
 },
 {
-"text": "콘텐츠 업계에선 '초반 n분을 잡아라' 이런 이야기가 많이 돌고, 그래서 일단 시작하자마자 누구 머리통에 총을 쏜다던가 반려자가 교통사고를 당한다던가 베넷이 요트에 탄 채 죽는다던가 이렇게 초반 도파민을 자극하는 설계가 많은데. (아직 안 해봤지만) 구타6은 그렇지 않은 듯 해서 흥미로워.",
-"handle": "nimishel.bsky.social",
-"name": "Nimishel(ニミ) Lee",
-"time": "2026-11-24T17:29:44.153Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/nimishel.bsky.social/post/3n336b7pxgk24",
-"term": "사고"
-},
-{
 "platform": "YouTube",
 "text": "😭💖【미스터트롯4 감동 폭발】박효정, 오빠 박서진이 만든 신곡 열창! 심사위원들까지 눈물 흘린 남매의 가슴 아픈 사연… 😢🎤",
 "handle": "UC6nsy5-yfsCM_qihyGJGbSw",
@@ -3577,21 +3577,21 @@
 "spikes": [
 {
 "term": "폭발",
-"n30": 6,
+"n30": 5,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-24T17:57:47.326012+00:00"
+"since": "2026-11-24T18:00:00.870730+00:00"
 },
 {
 "term": "속보",
 "n30": 6,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-24T17:57:47.326012+00:00"
+"since": "2026-11-24T18:00:00.870730+00:00"
 }
 ],
 "baseline": {
-"지진": 0.12,
+"지진": 0.11,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
@@ -3602,7 +3602,7 @@
 "속보": 0.05,
 "지하철": 0.05,
 "사고": 0.99,
-"실종": 0.15,
+"실종": 0.14,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
