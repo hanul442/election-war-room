@@ -1,7 +1,42 @@
 {
-"updated": "2026-11-24T02:32:36.653397+00:00",
+"updated": "2026-11-24T02:34:54.066320+00:00",
 "errors": [],
 "events": [
+{
+"id": "wNISX20261124_00038808370233",
+"first": "2026-11-24T02:33:50+00:00",
+"last": "2026-11-24T02:33:50+00:00",
+"updated": "2026-11-24T02:34:54.066320+00:00",
+"headline": "LH대전충남본부, AI 활용 재난관리 시스템 '눈비ON다' 구축",
+"cat": "재난",
+"regions": [
+"대전",
+"충남"
+],
+"sources": [
+"뉴시스"
+],
+"updates": [
+{
+"title": "LH대전충남본부, AI 활용 재난관리 시스템 '눈비ON다' 구축",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261124_0003880837",
+"time": "2026-11-24T02:33:50+00:00",
+"stage": "1보"
+}
+],
+"level": "ALERT",
+"latest": "LH대전충남본부, AI 활용 재난관리 시스템 '눈비ON다' 구축",
+"tok": [
+"AI",
+"LH대전충남본부",
+"구축",
+"눈비ON다",
+"시스템",
+"재난관리",
+"활용"
+]
+},
 {
 "id": "Uk2b21ZUkhCc2oteTlrVAoc50052",
 "first": "2026-11-24T00:52:00+00:00",
@@ -3989,41 +4024,6 @@
 "종교단체",
 "해산절차"
 ]
-},
-{
-"id": "VVsOGlzdDVwdGlrd3ZIQQoc50112",
-"first": "2026-11-24T01:12:58+00:00",
-"last": "2026-11-24T01:12:58+00:00",
-"updated": "2026-11-24T01:17:25.858908+00:00",
-"headline": "李대통령 \"종료 빙자해 불법행위 단체, 실효적 조치 검토할 때 됐다\"",
-"cat": "정치",
-"regions": [],
-"sources": [
-"머니투데이"
-],
-"updates": [
-{
-"title": "[속보]李대통령 \"종료 빙자해 불법행위 단체, 실효적 조치 검토할 때 됐다\" - 머니투데이",
-"source": "머니투데이",
-"link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5zWVg3RFNseFp3al9Ha2hEdDVwdmNTc3h3WTM5eWNUMEpualhmSFNmQzZRaEg3a2NzbF9iQXVUWHlTWDdoUks3MjZhWXNOOENDS0UzYlU3cXE0VExfZTdLNnJoNml3X25YRjR4cFpkQTNiRzhwZ1dFaW530gF_QVVfeXFMTkRHZnNqYWNLN2ZfMXhPVjdkNzhEd29aRE5Hc3ZVOXdMOVBINkg1YkJMb0ZlN2RmdlF6b255UGtueHdLODJYTU5USEI3M3lHdE9ZRi1VcENaUzJVbEZDRjdMQVIwajl0TUl1aFg5dWVtdVVsOGlzdDVwdGlrd3ZIQQ?oc=5",
-"time": "2026-11-24T01:12:58+00:00",
-"stage": "얼럿"
-}
-],
-"level": "URGENT",
-"latest": "李대통령 \"종료 빙자해 불법행위 단체, 실효적 조치 검토할 때 됐다\"",
-"tok": [
-"李대통령",
-"검토할",
-"단체",
-"됐다",
-"머니투데",
-"불법행위",
-"빙자해",
-"실효적",
-"조치",
-"종료"
-]
 }
 ],
 "sns": {
@@ -4045,12 +4045,12 @@
 },
 "정전": {
 "n30": 0,
-"base": 0.8,
+"base": 0.7,
 "spike": false
 },
 "폭발": {
-"n30": 2,
-"base": 0.5,
+"n30": 1,
+"base": 0.4,
 "spike": false
 },
 "붕괴": {
@@ -4059,7 +4059,7 @@
 "spike": false
 },
 "대피": {
-"n30": 3,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
@@ -4074,7 +4074,7 @@
 "spike": false
 },
 "지하철": {
-"n30": 2,
+"n30": 1,
 "base": 0.8,
 "spike": false
 },
@@ -4324,18 +4324,18 @@
 "spikes": [],
 "baseline": {
 "지진": 0.05,
-"화재": 0.13,
+"화재": 0.12,
 "불났": 0.05,
-"정전": 0.69,
-"폭발": 0.41,
+"정전": 0.62,
+"폭발": 0.37,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 1.04,
-"지하철": 0.75,
-"사고": 2.13,
+"지하철": 0.68,
+"사고": 2.12,
 "실종": 0.05,
-"단수": 0.27,
+"단수": 0.24,
 "통신 장애": 0.05,
 "먹통": 0.05,
 "산불": 0.05
@@ -4546,7 +4546,7 @@
 },
 {
 "term": "김호중",
-"traffic": "5000+",
+"traffic": "10000+",
 "time": "2026-11-24T01:10:00+00:00",
 "news": [
 {
@@ -4683,14 +4683,14 @@
 "time": "2026-11-24T00:30:00+00:00",
 "news": [
 {
-"title": "화성시, 송산그린시티 국가산단 9필지 우선분양 추천기업 공모",
-"source": "아시아경제",
-"link": "https://view.asiae.co.kr/article/2026112407205949677"
+"title": "대전 유성구 영상 홍보 '상복'…공무원이 직접 기획·편집",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261124047400063"
 },
 {
-"title": "화성 제조업, 미래차·바이오로 산업 전환 기회…SNS 행정소통 경쟁력 입증",
-"source": "중도일보",
-"link": "https://www.joongdo.co.kr/web/view.php?key=20261124010008297"
+"title": "‘소통왕 안산시’ SNS 4개 부문 2년 연속 최우수상",
+"source": "기호일보",
+"link": "https://www.kihoilbo.co.kr/news/articleView.html?idxno=3041891"
 }
 ],
 "new": false
