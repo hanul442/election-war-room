@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-24T05:10:49.056910+00:00",
+"updated": "2026-11-24T05:13:05.982537+00:00",
 "errors": [],
 "events": [
 {
@@ -244,6 +244,37 @@
 "처리중",
 "평택제천고속도",
 "화물차관련"
+]
+},
+{
+"id": "JHMXlQWUd3bmtKanl4Q1Uoc50505",
+"first": "2026-11-24T05:05:09+00:00",
+"last": "2026-11-24T05:05:09+00:00",
+"updated": "2026-11-24T05:13:05.982537+00:00",
+"headline": "특검, 선거장비 납품비리 업체 등 5곳 압수수색",
+"cat": "정치",
+"regions": [],
+"sources": [
+"뉴스1"
+],
+"updates": [
+{
+"title": "[속보] 특검, 선거장비 납품비리 업체 등 5곳 압수수색",
+"source": "뉴스1",
+"link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFAtTEpoZ215cWZxTVRoT2x0UjdqY1NIQ1FSY181YVFWbkFmN0NERmZmajNlb1hwTTVlLWZ1bEV0RElBYVFXYWg0TmlhSzNnNUMyY0l0V0JHMXlQWUd3bmtKanl4Q1U?oc=5",
+"time": "2026-11-24T05:05:09+00:00",
+"stage": "얼럿"
+}
+],
+"level": "URGENT",
+"latest": "특검, 선거장비 납품비리 업체 등 5곳 압수수색",
+"tok": [
+"5곳",
+"납품비리",
+"선거장비",
+"압수수색",
+"업체",
+"특검"
 ]
 },
 {
@@ -4128,40 +4159,6 @@
 "찬양한",
 "철회하라"
 ]
-},
-{
-"id": "viewAKR202611240751000530206",
-"first": "2026-11-24T02:06:54+00:00",
-"last": "2026-11-24T02:06:54+00:00",
-"updated": "2026-11-24T02:11:33.448026+00:00",
-"headline": "러시아기를 북한기로, 훈련을 실제로…반복되는 재난문자 오류",
-"cat": "재난",
-"regions": [
-"대구"
-],
-"sources": [
-"연합뉴스"
-],
-"updates": [
-{
-"title": "러시아기를 북한기로, 훈련을 실제로…반복되는 재난문자 오류",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261124075100053",
-"time": "2026-11-24T02:06:54+00:00",
-"stage": "1보"
-}
-],
-"level": "ALERT",
-"latest": "러시아기를 북한기로, 훈련을 실제로…반복되는 재난문자 오류",
-"tok": [
-"러시아기",
-"반복되",
-"북한기",
-"실제",
-"오류",
-"재난문자",
-"훈련"
-]
 }
 ],
 "sns": {
@@ -4188,7 +4185,7 @@
 },
 "폭발": {
 "n30": 1,
-"base": 0.1,
+"base": 0.2,
 "spike": false
 },
 "붕괴": {
@@ -4207,18 +4204,18 @@
 "spike": false
 },
 "속보": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
 "지하철": {
-"n30": 1,
-"base": 0.9,
+"n30": 0,
+"base": 0.8,
 "spike": false
 },
 "사고": {
-"n30": 3,
-"base": 2.1,
+"n30": 2,
+"base": 2.2,
 "spike": false
 },
 "실종": {
@@ -4238,7 +4235,7 @@
 },
 "먹통": {
 "n30": 1,
-"base": 0.6,
+"base": 0.7,
 "spike": false
 },
 "산불": {
@@ -4297,16 +4294,6 @@
 "reposts": 0,
 "url": "https://bsky.app/profile/jinnys0.bsky.social/post/3n2ztju3izc2i",
 "term": "산불"
-},
-{
-"text": "아무래도 중국의 미신도 저런 기능이겠지\n말 하면 사람들이 안 믿으니까...\n맨홀 뚜껑이 약해서 추락사고가 많다라고 하면 그럼에도 불구하고 사람들이 조심해 하지 않음\n하지만 음기가 저축되어 있어 재수없어진다라고 하면 아무도 밟지 않듯이\n\n그리고 결혼 행진에도 붉은 종이로 가려놓는....\n이건 산동특이라고 들음, 모두가 이런건줄\n(근데 칭다오는 4짤마냥 저런 핑크색이고, 크기는 쫌 더 크게해서 ",
-"handle": "mmuuv00.bsky.social",
-"name": "뭅",
-"time": "2026-11-24T04:42:40.148Z",
-"likes": 1,
-"reposts": 2,
-"url": "https://bsky.app/profile/mmuuv00.bsky.social/post/3n2ztfhztwk2x",
-"term": "사고"
 },
 {
 "platform": "YouTube",
@@ -4474,21 +4461,21 @@
 "spikes": [],
 "baseline": {
 "지진": 0.05,
-"화재": 0.06,
+"화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.24,
-"붕괴": 0.13,
+"폭발": 0.32,
+"붕괴": 0.12,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.84,
-"사고": 2.23,
-"실종": 0.12,
+"지하철": 0.76,
+"사고": 2.21,
+"실종": 0.11,
 "단수": 0.05,
 "통신 장애": 0.05,
-"먹통": 0.68,
-"산불": 0.74
+"먹통": 0.71,
+"산불": 0.77
 },
 "errors": [],
 "ytPosts": [
@@ -4659,6 +4646,78 @@
 },
 "trends": [
 {
+"term": "치이카와 클리닉",
+"traffic": "500+",
+"time": "2026-11-24T04:10:00+00:00",
+"news": [
+{
+"title": "'치이카와 클리닉' 팝업 1차 사전예약 하루 연기된 이유",
+"source": "국제뉴스",
+"link": "https://www.gukjenews.com/news/articleView.html?idxno=3760308"
+},
+{
+"title": "치이카와 팝업 1차 예약 하루 연기…사이트 정비",
+"source": "제주교통복지신문",
+"link": "https://www.jejutwn.com/news/article.html?no=464852"
+}
+],
+"new": true
+},
+{
+"term": "팝콘",
+"traffic": "200+",
+"time": "2026-11-24T04:10:00+00:00",
+"news": [
+{
+"title": "백억커피, LG유플러스 멤버십 제휴…아메리카노·팝콘 무료 제공",
+"source": "신아일보",
+"link": "https://www.shinailbo.co.kr/news/articleView.html?idxno=5086044"
+},
+{
+"title": "다시 만난 최승윤 대표",
+"source": "일요시사",
+"link": "https://www.ilyosisa.co.kr/news/article.html?no=258940"
+}
+],
+"new": false
+},
+{
+"term": "강호동",
+"traffic": "200+",
+"time": "2026-11-24T04:10:00+00:00",
+"news": [
+{
+"title": "강호동, 무대 보다가 대성통곡…손수건 꺼내 눈물 닦았다 (천만기인쇼)",
+"source": "스포츠동아",
+"link": "https://sports.donga.com/ent/article/all/20261124/135078139/1"
+},
+{
+"title": "[TV조선] 기인들의 왕중왕전",
+"source": "조선일보",
+"link": "https://www.chosun.com/entertainments/broadcast/2026/11/24/7U6PKLVL7NFM5PWLTYD4V6EJPY/"
+}
+],
+"new": true
+},
+{
+"term": "과즙 세연 방시혁",
+"traffic": "200+",
+"time": "2026-11-24T04:10:00+00:00",
+"news": [
+{
+"title": "과즙세연 “아무리 아니라고 해도 계속 묻더라”…방시혁 루머에 선 그어",
+"source": "동아일보",
+"link": "https://www.donga.com/news/Culture/article/all/20261123/135073886/2"
+},
+{
+"title": "'식사권 700만원' 과즙세연 \"돈 때문에 방시혁과 잤냐고? 안잤다\" - 머니투데이",
+"source": "머니투데이",
+"link": "https://www.mt.co.kr/entertainment/2026/11/22/2026112213582556520"
+}
+],
+"new": true
+},
+{
 "term": "대전 서남부 종합스포츠타운",
 "traffic": "200+",
 "time": "2026-11-24T03:40:00+00:00",
@@ -4705,9 +4764,9 @@
 "link": "https://www.donga.com/news/Politics/article/all/20261124/135079161/1"
 },
 {
-"title": "12월 3일 국가기념일 됐다...정부·국회 첫 공동 기념식",
-"source": "파이낸셜뉴스",
-"link": "https://www.fnnews.com/news/202611241318423850"
+"title": "‘12·3 국민주권의 날’ 기념일 지정···내달 3일 정부·국회 주관 첫 기념식",
+"source": "경향신문",
+"link": "https://www.khan.co.kr/article/202611241353001"
 }
 ],
 "new": true
@@ -4741,9 +4800,9 @@
 "link": "https://www.chosun.com/economy/tech_it/2026/11/24/23GDZCZG5FCWJMDHVSMS6G77AQ/"
 },
 {
-"title": "'갤럭시 사령탑 7년' 내려놓은 노태문…\"부품값 폭등 위기도 뚫은 저력\"",
-"source": "뉴시스",
-"link": "https://www.newsis.com/view/NISX20261124_0003880254"
+"title": "삼성전자 2027년 정기 임원 인사 – 삼성전자 뉴스룸",
+"source": "samsung.com",
+"link": "https://news.samsung.com/kr/%EC%82%BC%EC%84%B1%EC%A0%84%EC%9E%90-2027%EB%85%84-%EC%A0%95%EA%B8%B0-%EC%9E%84%EC%9B%90-%EC%9D%B8%EC%82%AC"
 }
 ],
 "new": true
@@ -4759,70 +4818,9 @@
 "link": "https://www.donga.com/news/Economy/article/all/20261123/135076417/2"
 },
 {
-"title": "이헌욱 부동산원장, 공시가 조사 현장 찾아…\"신뢰할 수 있는 업무 구현\"",
-"source": "연합인포맥스",
-"link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4446056"
-}
-],
-"new": true
-},
-{
-"term": "윤하정",
-"traffic": "100+",
-"time": "2026-11-24T03:20:00+00:00",
-"news": [],
-"new": true
-},
-{
-"term": "k9 자주포",
-"traffic": "5000+",
-"time": "2026-11-24T03:10:00+00:00",
-"news": [
-{
-"title": "[단독] K-9 자주포 베트남에 추가 수출",
-"source": "아시아경제",
-"link": "https://view.asiae.co.kr/article/2026112408492883586"
-},
-{
-"title": "한화에어로, 베트남에 'K-9' 자주포 추가 수출 전망",
-"source": "뉴스저널리즘",
-"link": "https://www.ngetnews.com/news/articleView.html?idxno=556249"
-}
-],
-"new": true
-},
-{
-"term": "농업",
-"traffic": "500+",
-"time": "2026-11-24T03:10:00+00:00",
-"news": [
-{
-"title": "파주 미래농업 혁신타운 조성 본격화…경기일보, 농업기술센터 이전 토론회",
-"source": "경기일보",
-"link": "https://www.kyeonggi.com/article/20261124580108"
-},
-{
-"title": "파주시, 미래농업 혁신타운 조성 연구용역 착수보고회 개최",
-"source": "중도일보",
-"link": "https://www.joongdo.co.kr/web/view.php?key=20261124010008190"
-}
-],
-"new": true
-},
-{
-"term": "미사일",
-"traffic": "1000+",
-"time": "2026-11-24T03:10:00+00:00",
-"news": [
-{
-"title": "나토, 러 미사일 낙하에 폴란드에 조기경보기 전진 배치",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261124083900009"
-},
-{
-"title": "러 미사일·드론 추락에 폴란드 발칵…트럼프는 \"실수일 뿐\"",
-"source": "뉴스1",
-"link": "https://www.news1.kr/videos/25453"
+"title": "이헌욱 부동산원장, 공시가격 조사 현장 방문… 정확성·객관성 당부",
+"source": "Chosunbiz",
+"link": "https://biz.chosun.com/real_estate/real_estate_general/2026/11/23/VSJL6CEGMJDQBEM5PXBL5NUUMQ/"
 }
 ],
 "new": true
