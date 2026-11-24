@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-24T14:31:56.693427+00:00",
+"updated": "2026-11-24T14:34:12.152780+00:00",
 "errors": [],
 "events": [
 {
@@ -3684,53 +3684,18 @@
 "전문",
 "한달"
 ]
-},
-{
-"id": "viewAKR202611241639000610833",
-"first": "2026-11-24T08:33:07+00:00",
-"last": "2026-11-24T08:33:07+00:00",
-"updated": "2026-11-24T08:36:57.821966+00:00",
-"headline": "경기교육청, 대설·한파 대비 학교 안전관리 체계 강화",
-"cat": "재난",
-"regions": [
-"경기"
-],
-"sources": [
-"연합뉴스"
-],
-"updates": [
-{
-"title": "경기교육청, 대설·한파 대비 학교 안전관리 체계 강화",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261124163900061",
-"time": "2026-11-24T08:33:07+00:00",
-"stage": "1보"
-}
-],
-"level": "ALERT",
-"latest": "경기교육청, 대설·한파 대비 학교 안전관리 체계 강화",
-"tok": [
-"강화",
-"경기교육청",
-"대비",
-"대설",
-"안전관리",
-"체계",
-"학교",
-"한파"
-]
 }
 ],
 "sns": {
 "terms": {
 "지진": {
-"n30": 2,
+"n30": 1,
 "base": 1.8,
 "spike": false
 },
 "화재": {
 "n30": 2,
-"base": 0.8,
+"base": 0.7,
 "spike": false
 },
 "불났": {
@@ -3744,13 +3709,13 @@
 "spike": false
 },
 "폭발": {
-"n30": 4,
-"base": 0.1,
+"n30": 3,
+"base": 0.2,
 "spike": false
 },
 "붕괴": {
 "n30": 2,
-"base": 0.4,
+"base": 0.5,
 "spike": false
 },
 "대피": {
@@ -3774,8 +3739,8 @@
 "spike": false
 },
 "사고": {
-"n30": 9,
-"base": 7.4,
+"n30": 10,
+"base": 7.5,
 "spike": false
 },
 "실종": {
@@ -3805,6 +3770,16 @@
 }
 },
 "posts": [
+{
+"text": "스톨라스가 그렇게 바라던 사랑이 저런거 아닌가?싶은 바사고가 주는 사랑에 만족할까싶기도하고 쟤도 꽤나 얌전한 취향이 아니라서",
+"handle": "omememem.bsky.social",
+"name": "몽",
+"time": "2026-11-24T14:33:07.352Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/omememem.bsky.social/post/3n32uffw4qs2w",
+"term": "사고"
+},
 {
 "text": "예전 마봉춘에서 했던 타임머신이란 방송에서 나왔던 에피소드 중에 치질 고친다고 오만 민간요법을 다 시도하다가 요강까지 폭발했다는 사연이 :blobcatfrustration2:",
 "handle": "iryu0428.pointless.chat.ap.brid.gy",
@@ -3866,21 +3841,11 @@
 "term": "사고"
 },
 {
-"text": "요즘 자차사고 영상 계속 보는데 와... 포르ㅅ 타면서 자차보험 안드는 인간도 있구나",
-"handle": "koogoong.bsky.social",
-"name": "쿠궁",
-"time": "2026-11-24T14:20:43.148Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/koogoong.bsky.social/post/3n32tp7sels26",
-"term": "사고"
-},
-{
 "text": "내일서울가는데 지하철 파업할수있다니ㅜㅜ\n택시비는 너무비싸고 버스는 너무오래걸리는데...\n뚜벅이는 슬프다ㅜㅜ",
 "handle": "check-042.bsky.social",
 "name": "크와앙",
 "time": "2026-11-24T14:17:22.354Z",
-"likes": 5,
+"likes": 6,
 "reposts": 0,
 "url": "https://bsky.app/profile/check-042.bsky.social/post/3n32tjaaq5s2v",
 "term": "지하철"
@@ -3956,16 +3921,6 @@
 "time": "2026-11-24T14:07:10Z",
 "term": "붕괴",
 "url": "https://www.youtube.com/watch?v=t1f_xNBVf_I"
-},
-{
-"text": "근데 이토노코는 미츠루기의 지진공포증을 알고 있네\n왠지 오래 전에 생겻을거같다는 느낌인데 둘이도 오래 알던 사이인가",
-"handle": "gudockbb.bsky.social",
-"name": "구독",
-"time": "2026-11-24T14:03:26.941Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/gudockbb.bsky.social/post/3n32spsrm2s2y",
-"term": "지진"
 },
 {
 "platform": "YouTube",
@@ -4060,18 +4015,18 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 1.79,
-"화재": 0.69,
+"지진": 1.71,
+"화재": 0.62,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.24,
-"붕괴": 0.47,
-"대피": 0.22,
+"폭발": 0.32,
+"붕괴": 0.52,
+"대피": 0.2,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.88,
-"사고": 7.53,
-"실종": 0.06,
+"지하철": 0.89,
+"사고": 7.78,
+"실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -4337,7 +4292,7 @@
 },
 {
 "term": "치안감",
-"traffic": "100+",
+"traffic": "200+",
 "time": "2026-11-24T12:10:00+00:00",
 "news": [
 {
