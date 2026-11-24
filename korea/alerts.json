@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-24T13:20:36.950815+00:00",
+"updated": "2026-11-24T13:22:50.840782+00:00",
 "errors": [],
 "events": [
 {
@@ -4678,51 +4678,13 @@
 "총력",
 "한파"
 ]
-},
-{
-"id": "viewAKR202611241484000630720",
-"first": "2026-11-24T07:20:39+00:00",
-"last": "2026-11-24T07:20:39+00:00",
-"updated": "2026-11-24T07:24:01.425703+00:00",
-"headline": "충주댐 치수 능력 증대 사업 준공…\"극한 호우 대응 기능 향상\"",
-"cat": "재난",
-"regions": [
-"충북"
-],
-"sources": [
-"연합뉴스"
-],
-"updates": [
-{
-"title": "충주댐 치수 능력 증대 사업 준공…\"극한 호우 대응 기능 향상\"",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261124148400063",
-"time": "2026-11-24T07:20:39+00:00",
-"stage": "1보"
-}
-],
-"level": "ALERT",
-"latest": "충주댐 치수 능력 증대 사업 준공…\"극한 호우 대응 기능 향상\"",
-"tok": [
-"극한",
-"기능",
-"능력",
-"대응",
-"사업",
-"준공",
-"증대",
-"충주댐",
-"치수",
-"향상",
-"호우"
-]
 }
 ],
 "sns": {
 "terms": {
 "지진": {
 "n30": 3,
-"base": 0.3,
+"base": 0.4,
 "spike": false
 },
 "화재": {
@@ -4742,12 +4704,12 @@
 },
 "폭발": {
 "n30": 6,
-"base": 0.8,
+"base": 0.7,
 "spike": true
 },
 "붕괴": {
 "n30": 7,
-"base": 0.9,
+"base": 1.1,
 "spike": true
 },
 "대피": {
@@ -4767,16 +4729,16 @@
 },
 "지하철": {
 "n30": 1,
-"base": 0.9,
+"base": 0.8,
 "spike": false
 },
 "사고": {
 "n30": 5,
-"base": 3.8,
+"base": 3.9,
 "spike": false
 },
 "실종": {
-"n30": 2,
+"n30": 1,
 "base": 1.7,
 "spike": false
 },
@@ -4827,7 +4789,7 @@
 "handle": "riguaa.bsky.social",
 "name": "치즈🧀",
 "time": "2026-11-24T13:15:32.945Z",
-"likes": 0,
+"likes": 1,
 "reposts": 0,
 "url": "https://bsky.app/profile/riguaa.bsky.social/post/3n32q2nlo7s2q",
 "term": "사고"
@@ -5044,48 +5006,38 @@
 "reposts": 0,
 "url": "https://bsky.app/profile/2d6enough.bsky.social/post/3n32osmk2d224",
 "term": "실종"
-},
-{
-"text": "이거 하도 이런 일 많아서 나이 좀 찼다 싶으면 일단 연락해서 확인한 다음 연락한 지가 몇십년 넘었습니다. 실종신고로 주소를 아는게 아니고, 직계가족(부모자식. 형제는 안됨)이 등본을 떼 볼 수 있는 게 문제예요.",
-"handle": "2d6enough.bsky.social",
-"name": "모든 것을 파괴할 황희정승",
-"time": "2026-11-24T12:52:17.153Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/2d6enough.bsky.social/post/3n32or3xsxs24",
-"term": "실종"
 }
 ],
 "spikes": [
 {
 "term": "폭발",
 "n30": 6,
-"base": 0.8,
+"base": 0.7,
 "spike": true,
-"since": "2026-11-24T13:20:36.950815+00:00"
+"since": "2026-11-24T13:22:50.840782+00:00"
 },
 {
 "term": "붕괴",
 "n30": 7,
-"base": 0.9,
+"base": 1.1,
 "spike": true,
-"since": "2026-11-24T13:20:36.950815+00:00"
+"since": "2026-11-24T13:22:50.840782+00:00"
 }
 ],
 "baseline": {
-"지진": 0.4,
+"지진": 0.46,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.7,
-"붕괴": 1.12,
+"폭발": 0.63,
+"붕괴": 1.31,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.85,
-"사고": 3.88,
-"실종": 1.7,
-"단수": 0.11,
+"지하철": 0.77,
+"사고": 3.99,
+"실종": 1.63,
+"단수": 0.1,
 "통신 장애": 0.05,
 "먹통": 0.05,
 "산불": 0.05
@@ -5278,9 +5230,9 @@
 "link": "https://programs.sbs.co.kr/enter/teum/clip/82063/OC484383944"
 },
 {
-"title": "김재욱, 서울예대 ‘실용음악과’ 출신..데뷔 전 밴드 활동까지 (‘틈만나면’)",
-"source": "조선일보",
-"link": "https://www.chosun.com/entertainments/broadcast/2026/11/24/HEYWMYLCMYZWENRXGQZDSZRTMY/"
+"title": "'김태희♥' 비, 뜻밖의 '지방간' 고백…알고보니 고칼로리 음식 러버 (틈만나면)",
+"source": "Chosunbiz",
+"link": "https://biz.chosun.com/entertainment/tv/2026/11/24/MM4TENTEMY3GCZTEMQ4WKOBUGE/"
 }
 ],
 "new": true
@@ -5363,14 +5315,14 @@
 "time": "2026-11-24T10:50:00+00:00",
 "news": [
 {
-"title": "INDA vs UAE, 11th Match, Group B, ACC Men's Asia Cup Rising Stars 2026 - Commentary",
-"source": "Cricbuzz",
-"link": "https://m.cricbuzz.com/live-cricket-scores/177203/uae-vs-inda-11th-match-group-b-acc-mens-asia-cup-rising-stars-2026"
+"title": "28 Balls Of Pure Carnage: 15-Year-Old Vaibhav Sooryavanshi Shatters World Record Against UAE",
+"source": "Sportscape Magazine",
+"link": "https://www.sportscapemagazine.com/blog/28-balls-of-pure-carnage-15-year-old-vaibhav-sooryavanshi-shatters-world-record-against-uae"
 },
 {
-"title": "Fastest centuries in List A cricket: Vaibhav Sooryavanshi breaks world record",
-"source": "Yahoo Sports",
-"link": "https://sports.yahoo.com/articles/fastest-centuries-list-cricket-vaibhav-111526669.html"
+"title": "India A Crush UAE in Record 14.2 Over Chase in Doha",
+"source": "cwibc.co.id",
+"link": "https://cwibc.co.id/en/india-a-crush-uae-record-chase"
 }
 ],
 "new": true
