@@ -1,7 +1,42 @@
 {
-"updated": "2026-11-24T22:12:32.850466+00:00",
+"updated": "2026-11-24T22:14:48.283658+00:00",
 "errors": [],
 "events": [
+{
+"id": "wNISX20261125_00038818832211",
+"first": "2026-11-24T22:11:19+00:00",
+"last": "2026-11-24T22:11:19+00:00",
+"updated": "2026-11-24T22:14:48.283658+00:00",
+"headline": "'아침 -8.4도' 충북 춥다, 한낮에도 4~8도…강풍도 '쌩쌩'",
+"cat": "재난",
+"regions": [
+"충북"
+],
+"sources": [
+"뉴시스"
+],
+"updates": [
+{
+"title": "'아침 -8.4도' 충북 춥다, 한낮에도 4~8도…강풍도 '쌩쌩'",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261125_0003881883",
+"time": "2026-11-24T22:11:19+00:00",
+"stage": "1보"
+}
+],
+"level": "ALERT",
+"latest": "'아침 -8.4도' 충북 춥다, 한낮에도 4~8도…강풍도 '쌩쌩'",
+"tok": [
+"4도",
+"8도",
+"강풍",
+"쌩쌩",
+"아침",
+"춥다",
+"충북",
+"한낮에"
+]
+},
 {
 "id": "TBGVjYxVGp2WF9VSUZVawoc52108",
 "first": "2026-11-24T21:08:17+00:00",
@@ -287,7 +322,7 @@
 "id": "W9MQzBnaDR1Nm9tUThTdwoc52204",
 "first": "2026-11-24T22:04:45+00:00",
 "last": "2026-11-24T22:04:45+00:00",
-"updated": "2026-11-24T22:08:03.939000+00:00",
+"updated": "2026-11-24T22:14:48.283658+00:00",
 "headline": "영동고속도로 승용차 단독 사고처리중",
 "cat": "교통",
 "regions": [
@@ -303,6 +338,13 @@
 "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFB0aFpUd01RMUNjMTJ1MTZxYWp1TzJMZUxhbU43SDRleVBKTktXRUtWeXh4UWRSX2tsajRqTENlallnUjhpZlpybU9KYUFTOEJkbnowZnJHMzd5Q25TYkIxWkVLeW9MQzBnaDR1Nm9tUThTdw?oc=5",
 "time": "2026-11-24T22:04:45+00:00",
 "stage": "얼럿"
+},
+{
+"title": "[속보] 영동고속도로 승용차 단독 사고처리중",
+"source": "스페셜타임스",
+"link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5HYjQyY2hFYTdfRXdSSnRhRG4zQWlydkFXTjBGZ3VjMDJoQ1JfNmxmTmJXcGgyZkY4b1Y4Zmhvb1JGdGFoaEJPR1JBYVVtclNLYWdrODMtRm1yc2FNNUVWcS02dGZGREZfRU8tTkpxdVI5Ujg?oc=5",
+"time": "2026-11-24T22:04:45+00:00",
+"stage": "속보"
 }
 ],
 "level": "URGENT",
@@ -2046,12 +2088,12 @@
 },
 "지하철": {
 "n30": 9,
-"base": 0.2,
+"base": 0.3,
 "spike": true
 },
 "사고": {
 "n30": 1,
-"base": 0.5,
+"base": 0.6,
 "spike": false
 },
 "실종": {
@@ -2307,28 +2349,28 @@
 "n30": 9,
 "base": 0.3,
 "spike": true,
-"since": "2026-11-24T22:12:32.850466+00:00"
+"since": "2026-11-24T22:14:48.283658+00:00"
 },
 {
 "term": "지하철",
 "n30": 9,
-"base": 0.2,
+"base": 0.3,
 "spike": true,
-"since": "2026-11-24T22:12:32.850466+00:00"
+"since": "2026-11-24T22:14:48.283658+00:00"
 }
 ],
 "baseline": {
-"지진": 0.69,
+"지진": 0.72,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.28,
+"폭발": 0.25,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.29,
-"사고": 0.59,
+"지하철": 0.36,
+"사고": 0.63,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -2531,8 +2573,98 @@
 },
 "trends": [
 {
-"term": "국민연금연구원",
+"term": "컨테이너선",
+"traffic": "200+",
+"time": "2026-11-24T21:10:00+00:00",
+"news": [
+{
+"title": "머스크, 헝리조선에 2만4000TEU급 LNG 이중연료 컨테이너선 24척 발주",
+"source": "해사신문",
+"link": "http://www.haesanews.com/news/articleView.html?idxno=153207"
+},
+{
+"title": "\"머스크, 헝리重에 2만4000TEU급 컨선 20척 발주\"",
+"source": "해양통신",
+"link": "https://www.oceanpress.co.kr/news/article.html?no=31877"
+}
+],
+"new": true
+},
+{
+"term": "реал мадрид – псв",
 "traffic": "100+",
+"time": "2026-11-24T21:10:00+00:00",
+"news": [
+{
+"title": "Матч Реал Мадрид - ПСВ: смотреть онлайн прямую трансляцию матча",
+"source": "fclmnews",
+"link": "https://fclm.news/online/138544-real-madrid-psv-video.html"
+},
+{
+"title": "Эспен Эскас назначен главным арбитром матча «Реал Мадрид» – «ПСВ»",
+"source": "Fondo Ruso",
+"link": "https://fondoruso.ru/news/26665-espen-eskas-naznachen-glavnyim-arbitrom-matcha-real-madrid-psv/"
+}
+],
+"new": true
+},
+{
+"term": "real madrid",
+"traffic": "100+",
+"time": "2026-11-24T21:10:00+00:00",
+"news": [
+{
+"title": "VIDEO: Golazo de Federico Valvede para Real Madrid ante PSV Eindhoven por la Champions League",
+"source": "ESPN Deportes",
+"link": "https://espndeportes.espn.com/futbol/champions-league/nota/_/id/17557281/video-gol-federico-valverde-real-madrid-vs-psv-eindhoven-uefa-champions-league"
+},
+{
+"title": "Vinícius vuelve al once, Bellingham, al banquillo, y Wanner sustituye a Mauro Júnior",
+"source": "Yahoo",
+"link": "https://es-us.noticias.yahoo.com/deportes/vin%C3%ADcius-vuelve-once-titular-bellingham-185528389.html"
+}
+],
+"new": true
+},
+{
+"term": "소정리역",
+"traffic": "500+",
+"time": "2026-11-24T21:10:00+00:00",
+"news": [
+{
+"title": "잇단 열차 탈선…4대 중 3대 ‘감지 제동장치’ 없어",
+"source": "KBS 뉴스",
+"link": "https://news.kbs.co.kr/news/view.do?ncd=8720226"
+},
+{
+"title": "\"철도노조 준법투쟁 일단 연기했지만\"…국토부·코레일 수장 시험대 - 머니투데이",
+"source": "머니투데이",
+"link": "https://www.mt.co.kr/estate/2026/11/24/2026112315265225128"
+}
+],
+"new": true
+},
+{
+"term": "안경",
+"traffic": "100+",
+"time": "2026-11-24T21:10:00+00:00",
+"news": [
+{
+"title": "[단독] “안걸리면 수석, 걸리면 군대”…‘커닝장비’ 텔레방 21만명 구독중",
+"source": "매일경제",
+"link": "https://www.mk.co.kr/news/society/12216437"
+},
+{
+"title": "4만 원에 뚫린 시험 공정성...중국 AI 안경 써보니",
+"source": "YTN 사이언스",
+"link": "https://m.science.ytn.co.kr/program/view_today.php?s_mcd=0082&key=202611241104078994"
+}
+],
+"new": true
+},
+{
+"term": "국민연금연구원",
+"traffic": "200+",
 "time": "2026-11-24T21:00:00+00:00",
 "news": [
 {
@@ -2604,7 +2736,7 @@
 },
 {
 "term": "노화",
-"traffic": "100+",
+"traffic": "200+",
 "time": "2026-11-24T20:50:00+00:00",
 "news": [
 {
@@ -2616,96 +2748,6 @@
 "title": "수명 늘리려면 걷기·달리기 섞어라... 사망 위험 절반 줄이는 운동법",
 "source": "인사이트",
 "link": "https://www.insight.co.kr/news/583182"
-}
-],
-"new": true
-},
-{
-"term": "arsenal vs dortmund",
-"traffic": "200+",
-"time": "2026-11-24T20:40:00+00:00",
-"news": [
-{
-"title": "Arsenal Fails to Hold Lead, Draws 1-1 with Borussia Dortmund",
-"source": "조선일보",
-"link": "https://www.chosun.com/english/sports-en/2026/11/25/II7PWJ4K4BHM5BWTEJR6I3A3FQ/"
-},
-{
-"title": "Paddy Power Enhanced Odds Offer: Get 50/1 for a Goal to be Scored in Arsenal v Dortmund",
-"source": "Andy's Bet Club",
-"link": "https://andysbetclub.co.uk/bookmaker-offers/paddy-power-goal-to-be-scored-in-arsenal-v-dortmund-enhanced-odds/"
-}
-],
-"new": true
-},
-{
-"term": "정철원",
-"traffic": "200+",
-"time": "2026-11-24T20:40:00+00:00",
-"news": [
-{
-"title": "키움 히어로즈 임지열 받고 정철원 내준 롯데…외야 보강 첫 단추",
-"source": "국제신문",
-"link": "https://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0600&key=20261123.22018006747"
-},
-{
-"title": "신인왕 내준 롯데·주장 보낸 키움…트레이드 속사정은",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261120159200007"
-}
-],
-"new": true
-},
-{
-"term": "치어리더",
-"traffic": "200+",
-"time": "2026-11-24T20:40:00+00:00",
-"news": [
-{
-"title": "친구 대타로 고깃집 서빙하다 고2 때 치어리더로 스카웃된 꿀벅지 여신",
-"source": "Daum",
-"link": "https://v.daum.net/v/yDgp3Mb03t"
-},
-{
-"title": "하지원, 적나라한 속옷 노출…파격 시스루에 팬들 \"패왕색\"",
-"source": "엑스포츠뉴스",
-"link": "https://www.xportsnews.com/article/2216650"
-}
-],
-"new": true
-},
-{
-"term": "레알마드리드",
-"traffic": "100+",
-"time": "2026-11-24T20:40:00+00:00",
-"news": [
-{
-"title": "\"이강인이 3번이나 떠먹여 줬는데!\" 스페인도 폭발했다...쇠를로트 '끔찍' 골 결정력에 분통→\"겨울에 어떻게든 매각해야\" - 머니투데이",
-"source": "머니투데이",
-"link": "https://www.mt.co.kr/sports/2026/11/24/202611242141770861O"
-},
-{
-"title": "이강인 후반 교체 출전…아틀레티코, 헤타페에 3대 0 완승",
-"source": "KBS 뉴스",
-"link": "https://news.kbs.co.kr/news/view.do?ncd=8719908"
-}
-],
-"new": true
-},
-{
-"term": "real madrid vs psv",
-"traffic": "1000+",
-"time": "2026-11-24T20:30:00+00:00",
-"news": [
-{
-"title": "Real Madrid vs PSV Eindhoven Confirmed Lineups",
-"source": "WhoScored.com",
-"link": "https://www.whoscored.com/news/TfaadpG4Mk6Gvf__1ya9sQ/show/cng112-20261124-real-madrid-vs-psv-eindhoven-confirmed-lineup-1795546605"
-},
-{
-"title": "Licensable picture: REAL MADRID C.F. Vs. PSV EINDHOVEN 11.24.26",
-"source": "Reuters Connect",
-"link": "https://www.reutersconnect.com/item/real-madrid-cf-vs-psv-eindhoven-112426/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX01UMVpVTUEwMDA2WU01RzA"
 }
 ],
 "new": true
