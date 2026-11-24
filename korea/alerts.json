@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-24T15:05:27.462613+00:00",
+"updated": "2026-11-24T15:07:39.494208+00:00",
 "errors": [],
 "events": [
 {
@@ -3617,13 +3617,13 @@
 "sns": {
 "terms": {
 "지진": {
-"n30": 1,
-"base": 0.9,
+"n30": 0,
+"base": 0.8,
 "spike": false
 },
 "화재": {
 "n30": 0,
-"base": 0.2,
+"base": 0.1,
 "spike": false
 },
 "불났": {
@@ -3637,9 +3637,9 @@
 "spike": false
 },
 "폭발": {
-"n30": 5,
+"n30": 4,
 "base": 0.7,
-"spike": true
+"spike": false
 },
 "붕괴": {
 "n30": 0,
@@ -3668,7 +3668,7 @@
 },
 "사고": {
 "n30": 6,
-"base": 7.4,
+"base": 7.2,
 "spike": false
 },
 "실종": {
@@ -3920,27 +3920,19 @@
 "url": "https://www.youtube.com/watch?v=MDXXIXzWQ-c"
 }
 ],
-"spikes": [
-{
-"term": "폭발",
-"n30": 5,
-"base": 0.7,
-"spike": true,
-"since": "2026-11-24T15:05:27.462613+00:00"
-}
-],
+"spikes": [],
 "baseline": {
-"지진": 0.82,
-"화재": 0.14,
+"지진": 0.74,
+"화재": 0.13,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.69,
-"붕괴": 0.55,
+"폭발": 0.72,
+"붕괴": 0.5,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.37,
-"사고": 7.25,
+"지하철": 0.33,
+"사고": 7.12,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -4189,9 +4181,9 @@
 "link": "https://www.kbs.co.kr/index.html?source=smr&sname=vod&stype=vod&contents_id=K02_PS-2026202815-01-000_MFSC2&program_code=T2018-0562&program_id=PS-2026202815-01-000&section_code=04&broadcast_complete_yn=N&section_id=25328"
 },
 {
-"title": "역시 코미디언들 의리…양세찬, 강재준에 1억 빌려줬다",
-"source": "뉴시스",
-"link": "https://www.newsis.com/view/NISX20261124_0003880179"
+"title": "주우재, 허경환 과거 태도 폭로 \"인기 없다고 깔보고 무시해\" - 머니투데이",
+"source": "머니투데이",
+"link": "https://www.mt.co.kr/entertainment/2026/11/24/2026112423374016469"
 }
 ],
 "new": true
@@ -4297,9 +4289,9 @@
 "link": "https://programs.sbs.co.kr/enter/teum/vod/82255/22000640176"
 },
 {
-"title": "틈만나면, : 비×유연석, 김재욱의 자리 이동 제안에 즉각 움직이며 틈 미션 도전",
-"source": "programs.sbs.co.kr",
-"link": "https://programs.sbs.co.kr/enter/teum/clip/82063/OC484401985"
+"title": "김재욱, 서울예대 ‘실용음악과’ 출신..데뷔 전 밴드 활동까지 (‘틈만나면’)",
+"source": "Chosunbiz",
+"link": "https://biz.chosun.com/entertainment/enter_general/2026/11/24/GBSWEZBVGBSTGMZZG5RWMY3BG4/"
 }
 ],
 "new": true
