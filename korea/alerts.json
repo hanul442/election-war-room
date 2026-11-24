@@ -1,22 +1,30 @@
 {
-"updated": "2026-11-24T20:54:45.197605+00:00",
+"updated": "2026-11-24T20:56:57.721672+00:00",
 "errors": [],
 "events": [
 {
 "id": "viewAKR202611250094000532049",
 "first": "2026-11-24T20:49:07+00:00",
 "last": "2026-11-24T20:49:07+00:00",
-"updated": "2026-11-24T20:54:45.197605+00:00",
+"updated": "2026-11-24T20:56:57.721672+00:00",
 "headline": "대구·경북 아침 영하권, 낮기온 3∼11도…동해안 건조 산불유의",
 "cat": "재난",
 "regions": [
-"대구",
-"경북"
+"경북",
+"대구"
 ],
 "sources": [
+"뉴시스",
 "연합뉴스"
 ],
 "updates": [
+{
+"title": "대구·경북 아침 영하권 추위…강한 바람에 체감온도 '뚝'",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261124_0003881690",
+"time": "2026-11-24T19:01:00+00:00",
+"stage": "후속"
+},
 {
 "title": "대구·경북 아침 영하권, 낮기온 3∼11도…동해안 건조 산불유의",
 "source": "연합뉴스",
@@ -28,14 +36,18 @@
 "level": "ALERT",
 "latest": "대구·경북 아침 영하권, 낮기온 3∼11도…동해안 건조 산불유의",
 "tok": [
+"강한",
 "건조",
 "경북",
 "낮기온",
 "대구",
 "동해안",
+"바람",
 "산불유",
 "아침",
-"영하권"
+"영하권",
+"체감온",
+"추위"
 ]
 },
 {
@@ -2114,56 +2126,6 @@
 "혐의",
 "확인"
 ]
-},
-{
-"id": "ssutm_campaigntotal_news1040",
-"first": "2026-11-24T10:40:00+00:00",
-"last": "2026-11-24T14:56:00+00:00",
-"updated": "2026-11-24T15:00:59.873043+00:00",
-"headline": "‘리트 만점자’ 생명과학 과외 교사, 내일 경찰에서 참고인 조사",
-"cat": "사회",
-"regions": [],
-"sources": [
-"경향신문",
-"뉴시스"
-],
-"updates": [
-{
-"title": "[단독]‘리트 만점자’ 생명과학 과외 교사, 내일 경찰에서 참고인 조사",
-"source": "경향신문",
-"link": "https://www.khan.co.kr/article/202611241940001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
-"time": "2026-11-24T10:40:00+00:00",
-"stage": "단독"
-},
-{
-"title": "'리트 만점자' 생명과학 과외 교사, 25일 경찰 참고인 조사",
-"source": "뉴시스",
-"link": "https://www.newsis.com/view/NISX20261124_0003881803",
-"time": "2026-11-24T12:53:04+00:00",
-"stage": "후속"
-},
-{
-"title": "[단독]‘리트 만점자’ 생명과학 과외 교사, 내일 경찰 참고인 조사",
-"source": "경향신문",
-"link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9hc201c2pNOWhqN2ZTN2ppYjhjaDJDZXNWamhUcUN2eXlULTNHNFRoRFdiR0hHTDBSQlAyVkxyU2ZIV3VpQnp2ZnJRS3BCVkVTSVBLczduOE9HZ9IBX0FVX3lxTFBtQnZCNG0xR3lsZzM0Z2ZqLWpjX3JwMjduRV9WM1N1bGVVX2J3NmtMMWtyVzlGSGRnWlhHS1ZYcWpSOEwyY1pKZ25iVU9zdmkwOV9Ma3FIU2lHRDFYUVZB?oc=5",
-"time": "2026-11-24T14:56:00+00:00",
-"stage": "단독"
-}
-],
-"level": "URGENT",
-"latest": "‘리트 만점자’ 생명과학 과외 교사, 내일 경찰 참고인 조사",
-"tok": [
-"25일",
-"경찰",
-"경찰에서",
-"과외",
-"교사",
-"리트",
-"만점자",
-"생명과학",
-"조사",
-"참고인"
-]
 }
 ],
 "sns": {
@@ -2209,7 +2171,7 @@
 "spike": false
 },
 "속보": {
-"n30": 2,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
@@ -2479,12 +2441,12 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 0.62,
+"지진": 0.66,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
 "폭발": 0.05,
-"붕괴": 0.37,
+"붕괴": 0.33,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
@@ -2720,18 +2682,18 @@
 "trends": [
 {
 "term": "농지",
-"traffic": "500+",
+"traffic": "1000+",
 "time": "2026-11-24T19:50:00+00:00",
 "news": [
 {
-"title": "이격거리 없애니 진입로·면적 옥죄기…태양광 인허가는 여전히 ‘규제 역주행’",
-"source": "전기신문",
-"link": "https://www.electimes.com/news/articleView.html?idxno=375146"
+"title": "군산시의회 “농사짓는 농민이 직불금 받아야”… 농지 임대차 제도 전면 개선 촉구",
+"source": "전민일보",
+"link": "http://www.jeonmin.co.kr/news/articleView.html?idxno=450982"
 },
 {
-"title": "꿀벌 사라지고 농지는 쓰레기밭…주민 내쫓는 태양광 사업",
+"title": "[요즘에] 농지법 개정, 정쟁보다 정책 본질 살펴야",
 "source": "강원도민일보",
-"link": "https://www.kado.net/news/articleView.html?idxno=2086780"
+"link": "https://www.kado.net/news/curationView.html?idxno=2086706"
 }
 ],
 "new": true
