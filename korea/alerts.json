@@ -1,7 +1,48 @@
 {
-"updated": "2026-11-24T03:25:25.924086+00:00",
+"updated": "2026-11-24T03:27:43.665532+00:00",
 "errors": [],
 "events": [
+{
+"id": "wNISX20261124_00038805960236",
+"first": "2026-11-24T02:36:47+00:00",
+"last": "2026-11-24T03:26:01+00:00",
+"updated": "2026-11-24T03:27:43.665532+00:00",
+"headline": "MLS컵 PO 1R 세인트루이스 2-0 LAFC(후반 6분 정상빈)",
+"cat": "기타",
+"regions": [],
+"sources": [
+"뉴시스"
+],
+"updates": [
+{
+"title": "[속보]MLS컵 PO 1R 세인트루이스 2-0 LAFC(후반 6분 정상빈)",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261124_0003880596",
+"time": "2026-11-24T02:36:47+00:00",
+"stage": "얼럿"
+},
+{
+"title": "[속보]MLS컵 PO 1R 세인트루이스 3-2 LAFC(후반 종료)",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261124_0003880597",
+"time": "2026-11-24T03:26:01+00:00",
+"stage": "속보"
+}
+],
+"level": "URGENT",
+"latest": "MLS컵 PO 1R 세인트루이스 3-2 LAFC(후반 종료)",
+"tok": [
+"1R",
+"6분",
+"LAFC",
+"MLS컵",
+"PO",
+"세인트루이스",
+"정상빈",
+"종료",
+"후반"
+]
+},
 {
 "id": "3VjOHE3Ylo2U0p3LUdrSQoc50300",
 "first": "2026-11-24T03:00:01+00:00",
@@ -536,12 +577,13 @@
 "id": "dkanFHRmlxODhxYko0ZDUoc50313",
 "first": "2026-11-24T03:13:08+00:00",
 "last": "2026-11-24T03:13:08+00:00",
-"updated": "2026-11-24T03:25:25.924086+00:00",
+"updated": "2026-11-24T03:27:43.665532+00:00",
 "headline": "베트남 손님 가방에 있던 ‘현금 2억’ 훔쳐 도주한 쌀국수집 사장 체포",
 "cat": "기타",
 "regions": [],
 "sources": [
-"서울Pn"
+"서울Pn",
+"서울신문"
 ],
 "updates": [
 {
@@ -550,6 +592,13 @@
 "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE16QWNKanI3b0J0a3dhR1MxTFhPdmk3NndSUkNkUmJ1dkJfbzNVVG5Hc2NRMkg0dEZRbl9iZ2V1dlp2M01GVTFVNjdJVU95dVo2ZFFVQU1UWkY3NkZnU25rbVdkanFHRmlxODhxYko0ZDU?oc=5",
 "time": "2026-11-24T03:13:08+00:00",
 "stage": "얼럿"
+},
+{
+"title": "[속보] 베트남 손님 가방에 있던 ‘현금 2억’ 훔쳐 도주한 쌀국수집 사장 체포",
+"source": "서울신문",
+"link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1PR2FBTUV2ZUhSUDFabVBROWo0NUZ3QWoxc0pjZ01UY0NaNGJiY0NGYlJoTFE1RTVpX2JrMDZOcml4RmhqR3g4MGoySnNDeVlHSlU5RjgxUVVpaVBMVHFwXzZKQ1E0RG5pd19tcVkwdw?oc=5",
+"time": "2026-11-24T03:13:08+00:00",
+"stage": "속보"
 }
 ],
 "level": "URGENT",
@@ -2184,39 +2233,6 @@
 ]
 },
 {
-"id": "wNISX20261124_00038805960236",
-"first": "2026-11-24T02:36:47+00:00",
-"last": "2026-11-24T02:36:47+00:00",
-"updated": "2026-11-24T02:39:32.507299+00:00",
-"headline": "MLS컵 PO 1R 세인트루이스 2-0 LAFC(후반 6분 정상빈)",
-"cat": "기타",
-"regions": [],
-"sources": [
-"뉴시스"
-],
-"updates": [
-{
-"title": "[속보]MLS컵 PO 1R 세인트루이스 2-0 LAFC(후반 6분 정상빈)",
-"source": "뉴시스",
-"link": "https://www.newsis.com/view/NISX20261124_0003880596",
-"time": "2026-11-24T02:36:47+00:00",
-"stage": "얼럿"
-}
-],
-"level": "URGENT",
-"latest": "MLS컵 PO 1R 세인트루이스 2-0 LAFC(후반 6분 정상빈)",
-"tok": [
-"1R",
-"6분",
-"LAFC",
-"MLS컵",
-"PO",
-"세인트루이스",
-"정상빈",
-"후반"
-]
-},
-{
 "id": "viewAKR202611240884000630234",
 "first": "2026-11-24T02:34:02+00:00",
 "last": "2026-11-24T02:34:02+00:00",
@@ -3766,7 +3782,7 @@
 "terms": {
 "지진": {
 "n30": 6,
-"base": 1.7,
+"base": 1.9,
 "spike": true
 },
 "화재": {
@@ -3806,17 +3822,17 @@
 },
 "속보": {
 "n30": 2,
-"base": 0.2,
+"base": 0.1,
 "spike": false
 },
 "지하철": {
 "n30": 4,
-"base": 0.9,
+"base": 1.1,
 "spike": false
 },
 "사고": {
 "n30": 0,
-"base": 3.3,
+"base": 3.0,
 "spike": false
 },
 "실종": {
@@ -4082,30 +4098,30 @@
 {
 "term": "지진",
 "n30": 6,
-"base": 1.7,
+"base": 1.9,
 "spike": true,
-"since": "2026-11-24T03:25:25.924086+00:00"
+"since": "2026-11-24T03:27:43.665532+00:00"
 },
 {
 "term": "폭발",
 "n30": 5,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-24T03:25:25.924086+00:00"
+"since": "2026-11-24T03:27:43.665532+00:00"
 }
 ],
 "baseline": {
-"지진": 1.86,
+"지진": 1.97,
 "화재": 0.05,
 "불났": 0.05,
-"정전": 0.06,
+"정전": 0.05,
 "폭발": 0.05,
-"붕괴": 0.64,
+"붕괴": 0.68,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.14,
-"지하철": 1.05,
-"사고": 2.98,
+"속보": 0.13,
+"지하철": 1.15,
+"사고": 2.68,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -4374,7 +4390,7 @@
 {
 "title": "[연합뉴스TV 스페셜-수어] 헬로로봇",
 "source": "연합뉴스TV",
-"link": "https://m.yonhapnewstv.co.kr/program/vod/11111"
+"link": "https://www.yonhapnewstv.co.kr/program/view/11111"
 }
 ],
 "new": false
