@@ -1,12 +1,12 @@
 {
-"updated": "2026-11-24T18:38:11.250322+00:00",
+"updated": "2026-11-24T18:40:25.016680+00:00",
 "errors": [],
 "events": [
 {
 "id": "viewAKR202611250040000041742",
 "first": "2026-11-24T17:42:55+00:00",
-"last": "2026-11-24T18:21:05+00:00",
-"updated": "2026-11-24T18:24:37.983721+00:00",
+"last": "2026-11-24T18:35:19+00:00",
+"updated": "2026-11-24T18:40:25.016680+00:00",
 "headline": "서울 지하철 1노조 협상 타결…2·3노조는 교섭 중",
 "cat": "교통",
 "regions": [
@@ -128,10 +128,17 @@
 "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5TbTFYSFhHN2RMUGxueHFvN3JCZ3dSWUMybDNGUU5WT001RFRyRndZbXlrekhpTFBBT3A0X05ZcDdOYXMxcWZnYnlJalA5c211S3hGT2lkWURCZw?oc=5",
 "time": "2026-11-24T18:21:05+00:00",
 "stage": "속보"
+},
+{
+"title": "서울 지하철 1·2노조 임단협 타결…파업 철회 수순(종합)",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261125004251004",
+"time": "2026-11-24T18:35:19+00:00",
+"stage": "종합"
 }
 ],
 "level": "URGENT",
-"latest": "서울 지하철 파업 철회 수순…1·2노조 협상 타결",
+"latest": "서울 지하철 1·2노조 임단협 타결…파업 철회 수순",
 "tok": [
 "1노조",
 "2노조",
@@ -3013,9 +3020,9 @@
 "spike": false
 },
 "폭발": {
-"n30": 5,
+"n30": 4,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "붕괴": {
 "n30": 0,
@@ -3033,13 +3040,13 @@
 "spike": false
 },
 "속보": {
-"n30": 3,
+"n30": 2,
 "base": 0.1,
 "spike": false
 },
 "지하철": {
 "n30": 3,
-"base": 1.0,
+"base": 1.1,
 "spike": false
 },
 "사고": {
@@ -3312,15 +3319,7 @@
 "url": "https://www.youtube.com/watch?v=N1Ix7aw_Sz4"
 }
 ],
-"spikes": [
-{
-"term": "폭발",
-"n30": 5,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-24T18:38:11.250322+00:00"
-}
-],
+"spikes": [],
 "baseline": {
 "지진": 0.05,
 "화재": 0.05,
@@ -3331,8 +3330,8 @@
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 1.08,
-"사고": 1.75,
+"지하철": 1.17,
+"사고": 1.68,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -3581,9 +3580,9 @@
 "link": "https://www.cricinfo.com/series/asia-cup-rising-stars-50-overs-2026-27-1562333/pakistan-a-vs-nepal-11th-match-group-b-1562352/match-report"
 },
 {
-"title": "Pakistan vs Nepal Full Score, Asia Cup Rising Stars Highlights: Pakistan Thrash Nepal, Top Group",
-"source": "NDTV Sports",
-"link": "https://sports.ndtv.com/cricket/pakistan-vs-nepal-live-score-asia-cup-rising-stars-live-updates-12370170"
+"title": "Rohail Nazir's unbeaten half-century guides Pakistan Shaheens to a 96-run win over Nepal",
+"source": "Pakistan Cricket Board (PCB)",
+"link": "https://www.pcb.com.pk/news-detail/rohail-nazir-s-unbeaten-half-century-guides-pakistan-shaheens-to-a-96-run-win-over-nepal.html"
 }
 ],
 "new": true
