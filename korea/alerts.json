@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-24T03:23:09.536728+00:00",
+"updated": "2026-11-24T03:25:25.924086+00:00",
 "errors": [],
 "events": [
 {
@@ -530,6 +530,42 @@
 "이탈",
 "전화연결",
 "정정"
+]
+},
+{
+"id": "dkanFHRmlxODhxYko0ZDUoc50313",
+"first": "2026-11-24T03:13:08+00:00",
+"last": "2026-11-24T03:13:08+00:00",
+"updated": "2026-11-24T03:25:25.924086+00:00",
+"headline": "베트남 손님 가방에 있던 ‘현금 2억’ 훔쳐 도주한 쌀국수집 사장 체포",
+"cat": "기타",
+"regions": [],
+"sources": [
+"서울Pn"
+],
+"updates": [
+{
+"title": "[속보] 베트남 손님 가방에 있던 ‘현금 2억’ 훔쳐 도주한 쌀국수집 사장 체포",
+"source": "서울Pn",
+"link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE16QWNKanI3b0J0a3dhR1MxTFhPdmk3NndSUkNkUmJ1dkJfbzNVVG5Hc2NRMkg0dEZRbl9iZ2V1dlp2M01GVTFVNjdJVU95dVo2ZFFVQU1UWkY3NkZnU25rbVdkanFHRmlxODhxYko0ZDU?oc=5",
+"time": "2026-11-24T03:13:08+00:00",
+"stage": "얼럿"
+}
+],
+"level": "URGENT",
+"latest": "베트남 손님 가방에 있던 ‘현금 2억’ 훔쳐 도주한 쌀국수집 사장 체포",
+"tok": [
+"2억",
+"가방",
+"도주한",
+"베트남",
+"사장",
+"손님",
+"쌀국수집",
+"있던",
+"체포",
+"현금",
+"훔쳐"
 ]
 },
 {
@@ -3724,58 +3760,13 @@
 "적극",
 "지원"
 ]
-},
-{
-"id": "kIxMGM3YkVTMXZnOGdkegoc50046",
-"first": "2026-11-24T00:46:00+00:00",
-"last": "2026-11-24T01:36:38+00:00",
-"updated": "2026-11-24T01:39:34.131925+00:00",
-"headline": "목동역 인근 고층건물 화재 발생…목동로 3개차로 통제",
-"cat": "재난",
-"regions": [],
-"sources": [
-"이투데이",
-"조선일보"
-],
-"updates": [
-{
-"title": "[속보] 목동역 인근 고층건물 화재 발생…목동로 3개차로 통제",
-"source": "이투데이",
-"link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5pQXREWFdmUFYxcTROSmxiOG1WTHdBOEs1VFV4dTBUd1czdTk5dno4Q20xcTlXdUlnUHQ2S3lHYVpZQjhBbkIxMGM3YkVTMXZnOGdkeg?oc=5",
-"time": "2026-11-24T00:46:00+00:00",
-"stage": "얼럿"
-},
-{
-"title": "[속보] 목동역 인근 고층 건물 화재...목동로 3개 차로 통제 중",
-"source": "조선일보",
-"link": "https://www.chosun.com/national/national_general/2026/11/24/MM7FBJRSG5CCHNXPLYKGLBOHZA/",
-"time": "2026-11-24T01:36:38+00:00",
-"stage": "속보"
-}
-],
-"level": "URGENT",
-"latest": "목동역 인근 고층 건물 화재...목동로 3개 차로 통제 중",
-"tok": [
-"3개",
-"3개차",
-"건물",
-"고층",
-"고층건물",
-"목동",
-"목동역",
-"발생",
-"인근",
-"차로",
-"통제",
-"화재"
-]
 }
 ],
 "sns": {
 "terms": {
 "지진": {
 "n30": 6,
-"base": 1.6,
+"base": 1.7,
 "spike": true
 },
 "화재": {
@@ -3820,12 +3811,12 @@
 },
 "지하철": {
 "n30": 4,
-"base": 0.8,
+"base": 0.9,
 "spike": false
 },
 "사고": {
 "n30": 0,
-"base": 3.7,
+"base": 3.3,
 "spike": false
 },
 "실종": {
@@ -4091,30 +4082,30 @@
 {
 "term": "지진",
 "n30": 6,
-"base": 1.6,
+"base": 1.7,
 "spike": true,
-"since": "2026-11-24T03:23:09.536728+00:00"
+"since": "2026-11-24T03:25:25.924086+00:00"
 },
 {
 "term": "폭발",
 "n30": 5,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-24T03:23:09.536728+00:00"
+"since": "2026-11-24T03:25:25.924086+00:00"
 }
 ],
 "baseline": {
-"지진": 1.73,
+"지진": 1.86,
 "화재": 0.05,
 "불났": 0.05,
-"정전": 0.07,
+"정전": 0.06,
 "폭발": 0.05,
-"붕괴": 0.6,
+"붕괴": 0.64,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.16,
-"지하철": 0.95,
-"사고": 3.31,
+"속보": 0.14,
+"지하철": 1.05,
+"사고": 2.98,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -4336,7 +4327,7 @@
 },
 {
 "term": "경마공원",
-"traffic": "100+",
+"traffic": "200+",
 "time": "2026-11-24T02:10:00+00:00",
 "news": [
 {
@@ -4354,7 +4345,7 @@
 },
 {
 "term": "성남시",
-"traffic": "100+",
+"traffic": "200+",
 "time": "2026-11-24T02:10:00+00:00",
 "news": [
 {
