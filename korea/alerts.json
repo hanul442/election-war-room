@@ -1,12 +1,56 @@
 {
-"updated": "2026-11-24T19:31:58.129249+00:00",
+"updated": "2026-11-24T19:34:12.545548+00:00",
 "errors": [],
 "events": [
 {
+"id": "wNISX20261125_00038818501744",
+"first": "2026-11-24T17:44:27+00:00",
+"last": "2026-11-24T19:32:15+00:00",
+"updated": "2026-11-24T19:34:12.545548+00:00",
+"headline": "서울 지하철 제1노조 임단협 타결…파업 철회",
+"cat": "교통",
+"regions": [
+"서울"
+],
+"sources": [
+"뉴시스",
+"스페셜타임스"
+],
+"updates": [
+{
+"title": "[속보]서울 지하철 제1노조 임단협 타결…파업 철회",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261125_0003881850",
+"time": "2026-11-24T17:44:27+00:00",
+"stage": "얼럿"
+},
+{
+"title": "[속보] 서울 지하철 1·2·3호선 노조 임단협 타결…파업 철회",
+"source": "스페셜타임스",
+"link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9IdldjeFE0UFJ6RVJ6MEhHcFlpblFLWUZOWkZFQjlGbGlNcGlQT1pNbl9WbXJ5bXBpajBXbGlGbXRYQXdnR2RadGJEN0EzUEQxWWhnZ0sxcHFxTWlhZ1dCYVFsLUpCOG1NVE5sOWx0Zk1sUQ?oc=5",
+"time": "2026-11-24T19:32:15+00:00",
+"stage": "속보"
+}
+],
+"level": "URGENT",
+"latest": "서울 지하철 1·2·3호선 노조 임단협 타결…파업 철회",
+"tok": [
+"3호선",
+"노조",
+"서울",
+"임단협",
+"제1노조",
+"지하철",
+"철회",
+"타결",
+"파업"
+]
+},
+{
 "id": "viewAKR202611250040000041742",
 "first": "2026-11-24T17:42:55+00:00",
-"last": "2026-11-24T19:19:53+00:00",
-"updated": "2026-11-24T19:25:17.522983+00:00",
+"last": "2026-11-24T19:31:53+00:00",
+"updated": "2026-11-24T19:34:12.545548+00:00",
 "headline": "서울 지하철 1노조 협상 타결…2·3노조는 교섭 중",
 "cat": "교통",
 "regions": [
@@ -164,10 +208,17 @@
 "link": "https://www.newsis.com/view/NISX20261125_0003881853",
 "time": "2026-11-24T19:19:53+00:00",
 "stage": "속보"
+},
+{
+"title": "서울 지하철 노사 임단협 극적 타결…출근길 정상운행",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261125_0003881855",
+"time": "2026-11-24T19:31:53+00:00",
+"stage": "후속"
 }
 ],
 "level": "URGENT",
-"latest": "서울 지하철 1·2·3노조 임단협 타결…오늘 정상운행",
+"latest": "서울 지하철 노사 임단협 극적 타결…출근길 정상운행",
 "tok": [
 "1노조",
 "2노조",
@@ -434,40 +485,6 @@
 "최종교섭",
 "타결",
 "합의"
-]
-},
-{
-"id": "wNISX20261125_00038818501744",
-"first": "2026-11-24T17:44:27+00:00",
-"last": "2026-11-24T17:44:27+00:00",
-"updated": "2026-11-24T17:48:49.061315+00:00",
-"headline": "서울 지하철 제1노조 임단협 타결…파업 철회",
-"cat": "교통",
-"regions": [
-"서울"
-],
-"sources": [
-"뉴시스"
-],
-"updates": [
-{
-"title": "[속보]서울 지하철 제1노조 임단협 타결…파업 철회",
-"source": "뉴시스",
-"link": "https://www.newsis.com/view/NISX20261125_0003881850",
-"time": "2026-11-24T17:44:27+00:00",
-"stage": "얼럿"
-}
-],
-"level": "URGENT",
-"latest": "서울 지하철 제1노조 임단협 타결…파업 철회",
-"tok": [
-"서울",
-"임단협",
-"제1노조",
-"지하철",
-"철회",
-"타결",
-"파업"
 ]
 },
 {
@@ -2869,7 +2886,7 @@
 "terms": {
 "지진": {
 "n30": 2,
-"base": 0.3,
+"base": 0.4,
 "spike": false
 },
 "화재": {
@@ -2888,7 +2905,7 @@
 "spike": false
 },
 "폭발": {
-"n30": 7,
+"n30": 6,
 "base": 0.1,
 "spike": true
 },
@@ -2919,7 +2936,7 @@
 },
 "사고": {
 "n30": 0,
-"base": 1.2,
+"base": 1.1,
 "spike": false
 },
 "실종": {
@@ -3152,21 +3169,21 @@
 "spikes": [
 {
 "term": "폭발",
-"n30": 7,
+"n30": 6,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-24T19:31:58.129249+00:00"
+"since": "2026-11-24T19:34:12.545548+00:00"
 },
 {
 "term": "속보",
 "n30": 5,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-24T19:31:58.129249+00:00"
+"since": "2026-11-24T19:34:12.545548+00:00"
 }
 ],
 "baseline": {
-"지진": 0.39,
+"지진": 0.45,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
@@ -3175,8 +3192,8 @@
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.22,
-"사고": 1.12,
+"지하철": 0.2,
+"사고": 1.01,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -3379,6 +3396,24 @@
 },
 "trends": [
 {
+"term": "알나스르 대 알사드",
+"traffic": "100+",
+"time": "2026-11-24T18:30:00+00:00",
+"news": [
+{
+"title": "Al-Nassr handed gifts by Al-Sadd: five absences hit the Qatari side",
+"source": "Goal.com",
+"link": "https://www.goal.com/en/news/al-nassr-handed-gifts-by-al-sadd-five-absences-hit-the-qatari-side/bltbe8bd5dac117f3d0"
+},
+{
+"title": "Licensable picture: AFC Champions League Elite - Al Nassr v Al Sadd",
+"source": "Reuters Connect",
+"link": "https://www.reutersconnect.com/item/afc-champions-league-elite-al-nassr-v-al-sadd/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX1VQMUVNQk8xRzJFUjY"
+}
+],
+"new": true
+},
+{
 "term": "galatasaray vs aston villa",
 "traffic": "200+",
 "time": "2026-11-24T18:00:00+00:00",
@@ -3470,7 +3505,7 @@
 },
 {
 "term": "pakistan a vs nepal national cricket team standings",
-"traffic": "2000+",
+"traffic": "5000+",
 "time": "2026-11-24T15:50:00+00:00",
 "news": [
 {
@@ -3536,24 +3571,6 @@
 "title": "[센터엔터] ’시그널2’ 첫 티저 공개…이제훈·김혜수 목소리만 外",
 "source": "연합뉴스TV",
 "link": "https://www.yonhapnewstv.co.kr/news/MYH20261124133245at3"
-}
-],
-"new": true
-},
-{
-"term": "주진우",
-"traffic": "200+",
-"time": "2026-11-24T14:30:00+00:00",
-"news": [
-{
-"title": "\"무리한 지휘권 행사 않을 것\"‥공소취소 '여지'는 남겼다",
-"source": "MBC 뉴스",
-"link": "https://imnews.imbc.com/replay/2026/nwdesk/article/6868259_37004.html"
-},
-{
-"title": "유동규와 ‘닭백숙집 포커’ 의혹에… 이용철 “난 육식 못한다” 부인",
-"source": "조선일보",
-"link": "https://www.chosun.com/national/court_law/2026/11/24/OUQIZJON75AVZG54TTGQRMJXPQ/"
 }
 ],
 "new": true
