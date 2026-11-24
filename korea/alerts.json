@@ -1,7 +1,43 @@
 {
-"updated": "2026-11-24T20:52:31.023501+00:00",
+"updated": "2026-11-24T20:54:45.197605+00:00",
 "errors": [],
 "events": [
+{
+"id": "viewAKR202611250094000532049",
+"first": "2026-11-24T20:49:07+00:00",
+"last": "2026-11-24T20:49:07+00:00",
+"updated": "2026-11-24T20:54:45.197605+00:00",
+"headline": "대구·경북 아침 영하권, 낮기온 3∼11도…동해안 건조 산불유의",
+"cat": "재난",
+"regions": [
+"대구",
+"경북"
+],
+"sources": [
+"연합뉴스"
+],
+"updates": [
+{
+"title": "대구·경북 아침 영하권, 낮기온 3∼11도…동해안 건조 산불유의",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261125009400053",
+"time": "2026-11-24T20:49:07+00:00",
+"stage": "1보"
+}
+],
+"level": "ALERT",
+"latest": "대구·경북 아침 영하권, 낮기온 3∼11도…동해안 건조 산불유의",
+"tok": [
+"건조",
+"경북",
+"낮기온",
+"대구",
+"동해안",
+"산불유",
+"아침",
+"영하권"
+]
+},
 {
 "id": "viewAKR202611250040000041742",
 "first": "2026-11-24T17:42:55+00:00",
@@ -2134,7 +2170,7 @@
 "terms": {
 "지진": {
 "n30": 1,
-"base": 0.5,
+"base": 0.6,
 "spike": false
 },
 "화재": {
@@ -2159,7 +2195,7 @@
 },
 "붕괴": {
 "n30": 0,
-"base": 0.5,
+"base": 0.4,
 "spike": false
 },
 "대피": {
@@ -2173,7 +2209,7 @@
 "spike": false
 },
 "속보": {
-"n30": 3,
+"n30": 2,
 "base": 0.1,
 "spike": false
 },
@@ -2443,12 +2479,12 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 0.58,
+"지진": 0.62,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
 "폭발": 0.05,
-"붕괴": 0.41,
+"붕괴": 0.37,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
@@ -2683,6 +2719,42 @@
 },
 "trends": [
 {
+"term": "농지",
+"traffic": "500+",
+"time": "2026-11-24T19:50:00+00:00",
+"news": [
+{
+"title": "이격거리 없애니 진입로·면적 옥죄기…태양광 인허가는 여전히 ‘규제 역주행’",
+"source": "전기신문",
+"link": "https://www.electimes.com/news/articleView.html?idxno=375146"
+},
+{
+"title": "꿀벌 사라지고 농지는 쓰레기밭…주민 내쫓는 태양광 사업",
+"source": "강원도민일보",
+"link": "https://www.kado.net/news/articleView.html?idxno=2086780"
+}
+],
+"new": true
+},
+{
+"term": "불계승",
+"traffic": "100+",
+"time": "2026-11-24T19:50:00+00:00",
+"news": [
+{
+"title": "승률 1%에서 뒤집은 변상일, 삼성화재배 4연속 중국잔치 막았다",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261123138800007"
+},
+{
+"title": "뒤바뀐 대국결과...반집승인가? 불계승인가?",
+"source": "사이버오로",
+"link": "https://www.cyberoro.com/news/N_news_view.oro?div_no=A1&num=532971&pageNo=1&cmt_n=0"
+}
+],
+"new": true
+},
+{
 "term": "한국농어민신문",
 "traffic": "200+",
 "time": "2026-11-24T19:30:00+00:00",
@@ -2706,14 +2778,14 @@
 "time": "2026-11-24T19:30:00+00:00",
 "news": [
 {
-"title": "BASF Begins Battery Materials Supply for CATL Production",
-"source": "Fuel Cells Works",
-"link": "https://fuelcellsworks.com/2026/11/24/battery/from-europe-for-europe-basf-starts-battery-materials-supply-to-catl"
+"title": "BASF begins shipping cathode materials to CATL from its Schwarzheide plant",
+"source": "MLQ.ai",
+"link": "https://mlq.ai/news/basf-begins-shipping-cathode-materials-to-catl-from-its-schwarzheide-plant/"
 },
 {
-"title": "cylib signs agreement to acquire BASF’s battery recycling business",
-"source": "chemeurope.com",
-"link": "https://www.chemeurope.com/en/news/1190409/cylib-signs-agreement-to-acquire-basfs-battery-recycling-business.html"
+"title": "BASF Sells Battery Recycling Business To cylib",
+"source": "TaiyangNews",
+"link": "https://taiyangnews.info/storage/basf-sells-battery-recycling-business-cylib"
 }
 ],
 "new": true
@@ -2810,7 +2882,7 @@
 },
 {
 "term": "정치",
-"traffic": "200+",
+"traffic": "500+",
 "time": "2026-11-24T18:50:00+00:00",
 "news": [
 {
@@ -2822,42 +2894,6 @@
 "title": "“컨설팅비 10억 요구 거부에 허위 폭로” 장동혁 측 징계 논란 역공… 갈등 확산",
 "source": "동아일보",
 "link": "https://www.donga.com/news/Politics/article/all/20261125/135084474/2"
-}
-],
-"new": true
-},
-{
-"term": "에코프로비엠",
-"traffic": "200+",
-"time": "2026-11-24T18:50:00+00:00",
-"news": [
-{
-"title": "에코프로비엠, 싱가포르 종속회사 주식 6222억 취득",
-"source": "마켓인",
-"link": "https://marketin.edaily.co.kr/News/ReadE?newsId=04211526645649000"
-},
-{
-"title": "에코프로비엠",
-"source": "매일경제 마켓",
-"link": "https://stock.mk.co.kr/news/view/1205120"
-}
-],
-"new": true
-},
-{
-"term": "체포",
-"traffic": "100+",
-"time": "2026-11-24T18:40:00+00:00",
-"news": [
-{
-"title": "손님 가방 속 현금 다발 슬쩍…2억 들고 도주한 쌀국숫집 사장 검거",
-"source": "연합뉴스TV",
-"link": "https://www.yonhapnewstv.co.kr/news/AKR20261124135815Ibl"
-},
-{
-"title": "“환전 맡기러 왔는데…” 베트남 손님 현금 2억 들고 튄 쌀국수집 사장",
-"source": "경향신문",
-"link": "https://www.khan.co.kr/article/202611241101011"
 }
 ],
 "new": true
