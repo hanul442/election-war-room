@@ -1,7 +1,42 @@
 {
-"updated": "2026-11-24T23:32:56.568210+00:00",
+"updated": "2026-11-24T23:35:10.022380+00:00",
 "errors": [],
 "events": [
+{
+"id": "wNISX20261125_00038819922332",
+"first": "2026-11-24T23:32:52+00:00",
+"last": "2026-11-24T23:32:52+00:00",
+"updated": "2026-11-24T23:35:10.022380+00:00",
+"headline": "기둥 기울고, 눈길 오토바이 정체…제주서 강풍·눈 피해",
+"cat": "재난",
+"regions": [
+"제주"
+],
+"sources": [
+"뉴시스"
+],
+"updates": [
+{
+"title": "기둥 기울고, 눈길 오토바이 정체…제주서 강풍·눈 피해",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261125_0003881992",
+"time": "2026-11-24T23:32:52+00:00",
+"stage": "1보"
+}
+],
+"level": "ALERT",
+"latest": "기둥 기울고, 눈길 오토바이 정체…제주서 강풍·눈 피해",
+"tok": [
+"강풍",
+"기둥",
+"기울고",
+"눈길",
+"오토바",
+"정체",
+"제주서",
+"피해"
+]
+},
 {
 "id": "FAyek1DcUs5QU5qeEFFWQoc52232",
 "first": "2026-11-24T22:32:02+00:00",
@@ -2756,7 +2791,7 @@
 "terms": {
 "지진": {
 "n30": 0,
-"base": 0.2,
+"base": 0.1,
 "spike": false
 },
 "화재": {
@@ -2780,7 +2815,7 @@
 "spike": false
 },
 "붕괴": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -2790,7 +2825,7 @@
 "spike": false
 },
 "미사일": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -2806,7 +2841,7 @@
 },
 "사고": {
 "n30": 0,
-"base": 1.1,
+"base": 1.0,
 "spike": false
 },
 "실종": {
@@ -3031,8 +3066,8 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 0.14,
-"화재": 0.15,
+"지진": 0.13,
+"화재": 0.24,
 "불났": 0.05,
 "정전": 0.05,
 "폭발": 0.05,
@@ -3040,8 +3075,8 @@
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 1.63,
-"사고": 1.03,
+"지하철": 1.67,
+"사고": 0.93,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -3217,6 +3252,49 @@
 },
 "trends": [
 {
+"term": "채무",
+"traffic": "1000+",
+"time": "2026-11-24T22:30:00+00:00",
+"news": [
+{
+"title": "베네수엘라, 정부 빚만 320조원…채무 구조조정 시동",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261125003700087"
+},
+{
+"title": "베네수엘라, 정부·국영기업 빚만 GDP 2배 넘어…\"채무 구조조정\"",
+"source": "news.sbs.co.kr",
+"link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008861966&plink=RSSLINK&cooper=GSTAND"
+}
+],
+"new": true
+},
+{
+"term": "al-nassr vs al sadd sc standings",
+"traffic": "200+",
+"time": "2026-11-24T22:30:00+00:00",
+"news": [
+{
+"title": "Ronaldo needs one goal to pass Hamdallah, and Al-Nassr host an Al Sadd side with two points from four games",
+"source": "SportsAdda",
+"link": "https://www.sportsadda.asia/football/news-football/ronaldo-needs-one-goal-to-pass-hamdallah-and-al-nassr-host-an-al-sadd-side-with-two-points-from-four-games/"
+},
+{
+"title": "Licensable picture: AFC Champions League Elite - Al Nassr v Al Sadd",
+"source": "Reuters Connect",
+"link": "https://www.reutersconnect.com/item/afc-champions-league-elite-al-nassr-v-al-sadd/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX1VQMUVNQk8xRkxVUVY%3D?utm_medium=rcom-article-media&utm_campaign=rcom-rcp-lead"
+}
+],
+"new": true
+},
+{
+"term": "김포시",
+"traffic": "100+",
+"time": "2026-11-24T22:30:00+00:00",
+"news": [],
+"new": true
+},
+{
 "term": "real madrid vs psv eindhoven standings",
 "traffic": "2000+",
 "time": "2026-11-24T22:20:00+00:00",
@@ -3258,21 +3336,21 @@
 "time": "2026-11-24T22:20:00+00:00",
 "news": [
 {
-"title": "KT “골목상권 살리기·돌봄 서비스 개선도 AI로”",
-"source": "경향신문",
-"link": "https://www.khan.co.kr/article/202611232019005"
-},
-{
 "title": "[경영전략] AX 영토 넓히는 KT 박윤영, 연말 인사로 ’2027 재도약’ 시동 By FinancialPost",
 "source": "Investing.com 한국어",
 "link": "https://kr.investing.com/news/stock-market-news/article-2188156"
+},
+{
+"title": "KT-행안부 “AI로 지역 문제 해결”… 강원 춘천-경북 청도서 시범사업",
+"source": "동아일보",
+"link": "https://www.donga.com/news/Economy/article/all/20261123/135076264/2"
 }
 ],
 "new": true
 },
 {
 "term": "skhy",
-"traffic": "500+",
+"traffic": "1000+",
 "time": "2026-11-24T22:10:00+00:00",
 "news": [
 {
@@ -3338,60 +3416,6 @@
 "title": "사우디 최고층 또 피격‥과감해진 후티 공세",
 "source": "MBC 뉴스",
 "link": "https://imnews.imbc.com/replay/2026/nwtoday/article/6868311_37012.html"
-}
-],
-"new": true
-},
-{
-"term": "소송",
-"traffic": "200+",
-"time": "2026-11-24T22:00:00+00:00",
-"news": [
-{
-"title": "\"구질구질 지 엄마 닮아\"…박지윤, 소송 중 시부모 아파트 처분 재조명 - 머니투데이",
-"source": "머니투데이",
-"link": "https://www.mt.co.kr/society/2026/11/23/2026112314082771907"
-},
-{
-"title": "박지윤, 단톡방서 최동석·시모 비하 논란…이혼사유 될까",
-"source": "뉴시스",
-"link": "https://www.newsis.com/view/NISX20261124_0003881375"
-}
-],
-"new": true
-},
-{
-"term": "강사",
-"traffic": "2000+",
-"time": "2026-11-24T21:50:00+00:00",
-"news": [
-{
-"title": "\"선생님이 뭐 이리 예쁘냐\"…수능 영어 강사 미모 '화제'",
-"source": "뉴시스",
-"link": "https://www.newsis.com/view/NISX20261123_0003878585"
-},
-{
-"title": "\"34번 문제 보러 왔다가, 얼굴만 34번 보고 간다\"…수능 영어 강사 ‘AI급 미모’ 화제",
-"source": "JTBC",
-"link": "https://news.jtbc.co.kr/article/NB12329530"
-}
-],
-"new": true
-},
-{
-"term": "신인감독 김연경 2",
-"traffic": "200+",
-"time": "2026-11-24T21:50:00+00:00",
-"news": [
-{
-"title": "MBC '신인감독 김연경2', 6주 연속 TV비드라마 화제성 1위",
-"source": "iMBC 연예",
-"link": "https://enews.imbc.com/News/RetrieveNewsInfo/525785"
-},
-{
-"title": "'신인감독' 김연경 사단 '필승원더독스', 베트남 프로 최강팀과 한판 승부",
-"source": "Chosunbiz",
-"link": "https://biz.chosun.com/entertainment/tv/2026/11/22/GQ3WKNDGGI4DSOJZGVSWCODEMU/"
 }
 ],
 "new": true
