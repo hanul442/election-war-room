@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-24T02:16:12.247499+00:00",
+"updated": "2026-11-24T02:18:30.497299+00:00",
 "errors": [],
 "events": [
 {
@@ -1790,7 +1790,7 @@
 "id": "zeHpVd194c3M3YkF3NDlMoc50150",
 "first": "2026-11-24T01:50:23+00:00",
 "last": "2026-11-24T01:50:23+00:00",
-"updated": "2026-11-24T01:55:31.727283+00:00",
+"updated": "2026-11-24T02:18:30.497299+00:00",
 "headline": "이용철 \"새 형사사법 체계, 오직 국민 보호 위한 것...개혁 완성할 것\"",
 "cat": "기타",
 "regions": [],
@@ -1804,6 +1804,13 @@
 "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5UUkZTZzc1bVpkOUs5TkQ4UWItcTBkVWk4TmxZTGxWbWxiRTlDanAwbExkYU9rclZBLWVybTdobEpFNzZpdkdzOHpJakVEeTVtb1lueFhLSUF3MkphME1Ta3VRbVRzeHpVd194c3M3YkF3NDlM?oc=5",
 "time": "2026-11-24T01:50:23+00:00",
 "stage": "얼럿"
+},
+{
+"title": "[속보] 이용철 \"새 형사사법 체계, 오직 국민 보호 위한 것...개혁 완성할 것\"",
+"source": "조세일보",
+"link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1vaE0wc1IxdmlMVWJpZk9YcHU5MkF2NEhOM21rVS11NWViZTEwMEpHTkFTdEpzSW9LWnpKc1R3N2RGUTlUMGdBRXBFeEZkRF9SZGJuRVNUNWtOaHJ2eF8xZk5Zc05Qb3Ixa19LcmVGSQ?oc=5",
+"time": "2026-11-24T01:50:23+00:00",
+"stage": "속보"
 }
 ],
 "level": "URGENT",
@@ -4383,7 +4390,7 @@
 },
 "정전": {
 "n30": 1,
-"base": 0.5,
+"base": 0.6,
 "spike": false
 },
 "폭발": {
@@ -4408,12 +4415,12 @@
 },
 "속보": {
 "n30": 4,
-"base": 0.7,
+"base": 0.8,
 "spike": false
 },
 "지하철": {
 "n30": 6,
-"base": 1.4,
+"base": 1.3,
 "spike": true
 },
 "사고": {
@@ -4705,30 +4712,30 @@
 "n30": 8,
 "base": 0.7,
 "spike": true,
-"since": "2026-11-24T02:16:12.247499+00:00"
+"since": "2026-11-24T02:18:30.497299+00:00"
 },
 {
 "term": "지하철",
 "n30": 6,
-"base": 1.4,
+"base": 1.3,
 "spike": true,
-"since": "2026-11-24T02:16:12.247499+00:00"
+"since": "2026-11-24T02:18:30.497299+00:00"
 }
 ],
 "baseline": {
 "지진": 0.05,
-"화재": 0.27,
+"화재": 0.24,
 "불났": 0.05,
-"정전": 0.56,
-"폭발": 0.74,
+"정전": 0.6,
+"폭발": 0.77,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.81,
-"지하철": 1.32,
-"사고": 2.4,
+"속보": 0.93,
+"지하철": 1.29,
+"사고": 2.36,
 "실종": 0.05,
-"단수": 0.57,
+"단수": 0.51,
 "통신 장애": 0.05,
 "먹통": 0.05,
 "산불": 0.05
