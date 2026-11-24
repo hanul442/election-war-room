@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-24T12:04:58.320192+00:00",
+"updated": "2026-11-24T12:07:15.598157+00:00",
 "errors": [],
 "events": [
 {
@@ -4661,7 +4661,7 @@
 },
 "화재": {
 "n30": 0,
-"base": 0.4,
+"base": 0.3,
 "spike": false
 },
 "불났": {
@@ -4676,7 +4676,7 @@
 },
 "폭발": {
 "n30": 1,
-"base": 0.7,
+"base": 0.8,
 "spike": false
 },
 "붕괴": {
@@ -4696,16 +4696,16 @@
 },
 "속보": {
 "n30": 0,
-"base": 0.5,
+"base": 0.4,
 "spike": false
 },
 "지하철": {
-"n30": 1,
+"n30": 2,
 "base": 0.9,
 "spike": false
 },
 "사고": {
-"n30": 3,
+"n30": 5,
 "base": 2.7,
 "spike": false
 },
@@ -4736,6 +4736,36 @@
 }
 },
 "posts": [
+{
+"text": "코스트코에서 가장 사고 싶은 것: 모 50% 이상 함유 울양말. 이번에 품절돼서 같이 못 샀음 🥲",
+"handle": "ellisonthebunny.bsky.social",
+"name": "할미새팔촌",
+"time": "2026-11-24T12:06:20.350Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/ellisonthebunny.bsky.social/post/3n32m6wjjb22x",
+"term": "사고"
+},
+{
+"text": "수도권 한국인들 국내여행은 제주나 부산대전 이렇게 지하철 뚫린데로 주로 가니까 잘 모르는것 같은데 지하철 없는 지역 한번만 가보면 소름돋을 정도…몇년 전에 등산 맛들려서 주말에 등산 다녔는데 지방으로 가면 사람이 없어 기차역 버스터미널 그 근처도 낡고 낙후됐는데 레알 한블럭 뒤 뒷골목으로 가면 좁고 낡고 빛바랜 건물 뿐에 공실 텅텅…",
+"handle": "endian-ota.bsky.social",
+"name": "ed🔒",
+"time": "2026-11-24T12:06:16.144Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/endian-ota.bsky.social/post/3n32m6rt6pk2u",
+"term": "지하철"
+},
+{
+"text": "와 눈물사고 존/////나 웃김",
+"handle": "zzzradish.bsky.social",
+"name": "무",
+"time": "2026-11-24T12:05:39.440Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/zzzradish.bsky.social/post/3n32m5orxsk2q",
+"term": "사고"
+},
 {
 "text": "【지진 정보】일본 시간 11월 24일 20:58경\n진원: Amakusa and Ashikita Region, Kumamoto Prefecture (M3.4, 깊이 약 10km)\n최대 진도: 2\n진도 2: 구마모토현, 가고시마현\n진도 1: 나가사키현\n이 지진으로 인한 쓰나미 걱정은 없습니다.\n(일본 기상청 발표)\n#일본 #지진 #방재",
 "handle": "ko.soramoyou.yk-planning.jp",
@@ -4805,16 +4835,6 @@
 "reposts": 0,
 "url": "https://bsky.app/profile/liolseeds.bsky.social/post/3n32kqd743227",
 "term": "대피"
-},
-{
-"text": "Anthropic, OpenAI employees fear models are too unsafe to release\n\nwww.axios.com/2026/11/24/a...\n\n- 앤트로픽과 OpenAI의 미공개 AI 모델이 난제를 풀고 해킹 사고에 연루될 만큼 급격히 강력해지자, 많은 내부 직원이 안전성을 담보할 수 없다며 대외 공개 및 신규 학습 중단을 논의 중 (🧵1/2)",
-"handle": "lunamoth.bsky.social",
-"name": "lunamoth",
-"time": "2026-11-24T11:38:17.746Z",
-"likes": 0,
-"reposts": 2,
-"url": "https://bsky.app/profile/lunamoth.bsky.social/post/3n32kmrod2e2b",
-"term": "사고"
 },
 {
 "platform": "YouTube",
@@ -5017,18 +5037,18 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 0.15,
-"화재": 0.33,
+"지진": 0.24,
+"화재": 0.3,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.75,
-"붕괴": 0.11,
-"대피": 0.71,
+"폭발": 0.78,
+"붕괴": 0.1,
+"대피": 0.74,
 "미사일": 0.05,
-"속보": 0.41,
-"지하철": 0.89,
-"사고": 2.73,
-"실종": 0.71,
+"속보": 0.37,
+"지하철": 1.0,
+"사고": 2.96,
+"실종": 0.74,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
