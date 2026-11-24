@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-24T20:43:37.463624+00:00",
+"updated": "2026-11-24T20:45:52.167446+00:00",
 "errors": [],
 "events": [
 {
@@ -2166,7 +2166,7 @@
 "terms": {
 "지진": {
 "n30": 1,
-"base": 0.3,
+"base": 0.4,
 "spike": false
 },
 "화재": {
@@ -2185,13 +2185,13 @@
 "spike": false
 },
 "폭발": {
-"n30": 6,
+"n30": 2,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "붕괴": {
-"n30": 1,
-"base": 0.7,
+"n30": 0,
+"base": 0.6,
 "spike": false
 },
 "대피": {
@@ -2473,22 +2473,14 @@
 "url": "https://www.youtube.com/watch?v=UAlmUgu8AUo"
 }
 ],
-"spikes": [
-{
-"term": "폭발",
-"n30": 6,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-24T20:43:37.463624+00:00"
-}
-],
+"spikes": [],
 "baseline": {
-"지진": 0.36,
+"지진": 0.42,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.09,
-"붕괴": 0.62,
+"폭발": 0.08,
+"붕괴": 0.56,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
@@ -2724,7 +2716,7 @@
 "trends": [
 {
 "term": "한국농어민신문",
-"traffic": "100+",
+"traffic": "200+",
 "time": "2026-11-24T19:30:00+00:00",
 "news": [
 {
@@ -2741,8 +2733,26 @@
 "new": false
 },
 {
+"term": "catl",
+"traffic": "100+",
+"time": "2026-11-24T19:30:00+00:00",
+"news": [
+{
+"title": "BASF begins shipping cathode materials to CATL from its Schwarzheide plant",
+"source": "MLQ.ai",
+"link": "https://mlq.ai/news/basf-begins-shipping-cathode-materials-to-catl-from-its-schwarzheide-plant/"
+},
+{
+"title": "BASF Sells Battery Recycling Business To cylib",
+"source": "TaiyangNews",
+"link": "https://taiyangnews.info/storage/basf-sells-battery-recycling-business-cylib"
+}
+],
+"new": true
+},
+{
 "term": "레알 마드리드 대 에인트호번",
-"traffic": "1000+",
+"traffic": "2000+",
 "time": "2026-11-24T19:10:00+00:00",
 "news": [
 {
@@ -2880,24 +2890,6 @@
 "title": "“환전 맡기러 왔는데…” 베트남 손님 현금 2억 들고 튄 쌀국수집 사장",
 "source": "경향신문",
 "link": "https://www.khan.co.kr/article/202611241101011"
-}
-],
-"new": true
-},
-{
-"term": "알나스르 대 알사드",
-"traffic": "200+",
-"time": "2026-11-24T18:30:00+00:00",
-"news": [
-{
-"title": "Cristiano Ronaldo moves closer to 1,000 goals with penalty vs Al-Sadd",
-"source": "USA Today",
-"link": "https://www.usatoday.com/story/sports/soccer/2026/11/24/cristiano-ronaldo-goals-1000-al-nassr-al-sadd/92945415007/"
-},
-{
-"title": "Video: Evoking memories of Brahim Díaz, Al-Deayea reveals Mendy's role in Ronaldo's missed penalty",
-"source": "Yardbarker",
-"link": "https://www.yardbarker.com/soccer/articles/video_evoking_memories_of_brahim_daz_al_deayea_reveals_mendys_role_in_ronaldos_missed_penalty/s1_17790_44596929"
 }
 ],
 "new": true
