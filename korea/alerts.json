@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-24T23:41:53.563602+00:00",
+"updated": "2026-11-24T23:44:05.738254+00:00",
 "errors": [],
 "events": [
 {
@@ -2853,7 +2853,7 @@
 },
 "화재": {
 "n30": 2,
-"base": 0.4,
+"base": 0.5,
 "spike": false
 },
 "불났": {
@@ -2887,12 +2887,12 @@
 "spike": false
 },
 "속보": {
-"n30": 5,
+"n30": 4,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "지하철": {
-"n30": 9,
+"n30": 8,
 "base": 1.7,
 "spike": true
 },
@@ -3109,37 +3109,20 @@
 "time": "2026-11-24T23:13:11Z",
 "term": "속보",
 "url": "https://www.youtube.com/watch?v=40jNVYwa1B0"
-},
-{
-"text": "아니오늘대체왜이래지하철에서 내렸는데도 지나가는 사람 향수테러받음 아악",
-"handle": "koodb.bsky.social",
-"name": "콸콸 뚫어드립니다",
-"time": "2026-11-24T23:12:42.551Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/koodb.bsky.social/post/3n33rghe44c2m",
-"term": "지하철"
 }
 ],
 "spikes": [
 {
-"term": "속보",
-"n30": 5,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-24T23:41:53.563602+00:00"
-},
-{
 "term": "지하철",
-"n30": 9,
+"n30": 8,
 "base": 1.7,
 "spike": true,
-"since": "2026-11-24T23:41:53.563602+00:00"
+"since": "2026-11-24T23:44:05.738254+00:00"
 }
 ],
 "baseline": {
-"지진": 0.1,
-"화재": 0.45,
+"지진": 0.09,
+"화재": 0.51,
 "불났": 0.05,
 "정전": 0.05,
 "폭발": 0.05,
@@ -3147,8 +3130,8 @@
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 1.66,
-"사고": 0.78,
+"지하철": 1.49,
+"사고": 0.8,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -3324,8 +3307,44 @@
 },
 "trends": [
 {
+"term": "필라델피아 반도체 지수",
+"traffic": "500+",
+"time": "2026-11-24T22:40:00+00:00",
+"news": [
+{
+"title": "‘젠슨황 효과’ 의문에 반도체지수 8% 급반락",
+"source": "KBS 뉴스",
+"link": "https://news.kbs.co.kr/news/view.do?ncd=8721729"
+},
+{
+"title": "뉴욕증시, 엔비디아 급등 후 차익실현에 혼조…나스닥 1.5%↓",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261125011200072"
+}
+],
+"new": false
+},
+{
+"term": "교수",
+"traffic": "200+",
+"time": "2026-11-24T22:40:00+00:00",
+"news": [
+{
+"title": "[새얼굴] 함성득 경기대 총장직무대행",
+"source": "경기일보",
+"link": "https://www.kyeonggi.com/article/20261124580412"
+},
+{
+"title": "경기대, 총장직무대행에 함성득 서울부총장 임명",
+"source": "경인일보",
+"link": "https://www.kyeongin.com/article/1775307"
+}
+],
+"new": true
+},
+{
 "term": "채무",
-"traffic": "1000+",
+"traffic": "2000+",
 "time": "2026-11-24T22:30:00+00:00",
 "news": [
 {
@@ -3452,42 +3471,6 @@
 "title": "3 Dividend ETFs Offering Steadier Footing in a Shaky Market",
 "source": "MarketBeat",
 "link": "https://www.marketbeat.com/articles/3-dividend-etfs-offering-steadier-footing-in-a-shaky-market/"
-}
-],
-"new": true
-},
-{
-"term": "나스닥 100",
-"traffic": "2000+",
-"time": "2026-11-24T22:00:00+00:00",
-"news": [
-{
-"title": "“진짜 승자는 트럼프?”…젠슨 황 복귀에 누가 웃고 울었나 [잇슈 머니]",
-"source": "KBS 뉴스",
-"link": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8721736"
-},
-{
-"title": "젠슨 황, 엔비디아 전사회의 열고 사과‥\"심리치료 받고 있다\"",
-"source": "MBC 뉴스",
-"link": "https://imnews.imbc.com/news/2026/world/article/6868324_36925.html"
-}
-],
-"new": true
-},
-{
-"term": "사우디아라비아",
-"traffic": "200+",
-"time": "2026-11-24T22:00:00+00:00",
-"news": [
-{
-"title": "사우디 수도 최고층 빌딩, 경보도 없이 또 피격‥11명 부상",
-"source": "MBC 뉴스",
-"link": "https://imnews.imbc.com/news/2026/world/article/6868304_36925.html"
-},
-{
-"title": "예멘 정부 임시수도 아덴 함락되나…후티, 60㎞ 앞까지 진격",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261125000800079"
 }
 ],
 "new": true
