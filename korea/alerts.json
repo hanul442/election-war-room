@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-24T04:29:37.674766+00:00",
+"updated": "2026-11-24T04:31:53.672679+00:00",
 "errors": [],
 "events": [
 {
@@ -451,7 +451,7 @@
 "id": "viewAKR202611240954000570250",
 "first": "2026-11-24T02:50:35+00:00",
 "last": "2026-11-24T04:04:29+00:00",
-"updated": "2026-11-24T04:29:37.674766+00:00",
+"updated": "2026-11-24T04:31:53.672679+00:00",
 "headline": "신세계백화점 폭파 협박범 검거, 울산 사는 중학생으로 확인",
 "cat": "기타",
 "regions": [
@@ -460,6 +460,7 @@
 "sources": [
 "Chosunbiz",
 "SBS",
+"www.dt.co.kr",
 "www.twig24.com",
 "국제신문",
 "뉴시스",
@@ -558,6 +559,13 @@
 "stage": "후속"
 },
 {
+"title": "[속보] “신세계백화점 폭파” 경찰로 보낸 ‘협박 팩스’ 추적하니…울산 중3 학생",
+"source": "www.dt.co.kr",
+"link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9DRHZVcXZ0dkZGcnd4cUpDZDJSM0Vfb2QybjF6dUgyQ09KQzhzMnRPV1Q1eU9WMmlNMUVoOHZVUlpWODQ1NEZfenNRWXdJZw?oc=5",
+"time": "2026-11-24T03:32:55+00:00",
+"stage": "속보"
+},
+{
 "title": "신세계백화점 폭파 협박범은 울산 중학생…경찰에 범행 시인(종합)",
 "source": "연합뉴스",
 "link": "https://www.yna.co.kr/view/AKR20261124097151057",
@@ -600,6 +608,7 @@
 "경찰",
 "범행",
 "보내",
+"보낸",
 "보냈다",
 "붙잡았더니",
 "사는",
@@ -609,12 +618,15 @@
 "신세계백화점",
 "울산",
 "잡혔다",
+"중3",
 "중학생",
 "중학생으",
+"추적하니",
 "패스",
 "팩스",
 "폭발물",
 "폭파",
+"학생",
 "협박",
 "협박범",
 "확인"
@@ -3935,8 +3947,8 @@
 "spike": false
 },
 "화재": {
-"n30": 3,
-"base": 0.5,
+"n30": 0,
+"base": 0.4,
 "spike": false
 },
 "불났": {
@@ -3945,18 +3957,18 @@
 "spike": false
 },
 "정전": {
-"n30": 1,
+"n30": 0,
 "base": 0.2,
 "spike": false
 },
 "폭발": {
-"n30": 3,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
 "붕괴": {
 "n30": 1,
-"base": 0.9,
+"base": 0.8,
 "spike": false
 },
 "대피": {
@@ -3965,28 +3977,28 @@
 "spike": false
 },
 "미사일": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
 "속보": {
-"n30": 5,
+"n30": 2,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "지하철": {
-"n30": 5,
+"n30": 2,
 "base": 0.7,
-"spike": true
+"spike": false
 },
 "사고": {
 "n30": 3,
-"base": 1.2,
+"base": 1.4,
 "spike": false
 },
 "실종": {
-"n30": 1,
-"base": 0.7,
+"n30": 0,
+"base": 0.8,
 "spike": false
 },
 "단수": {
@@ -4214,16 +4226,6 @@
 "url": "https://www.youtube.com/watch?v=yUS2U6tejWQ"
 },
 {
-"text": "팩우유샀는데 빨대가실종ㄷ앚찾앗다",
-"handle": "c0ralsnake.bsky.social",
-"name": "산호뱀𓆙",
-"time": "2026-11-24T03:59:43.251Z",
-"likes": 1,
-"reposts": 0,
-"url": "https://bsky.app/profile/c0ralsnake.bsky.social/post/3n2zqyrmgqc2l",
-"term": "실종"
-},
-{
 "platform": "YouTube",
 "text": "[금호건설 주가전망] *7분전 속보* 와..목표가 1만1000원 상향에도 왜 꺾일까요? 호재에 눌린 \"진짜 이유\"",
 "handle": "UCs-VUSOSWP22YuJHoDWTz_w",
@@ -4242,35 +4244,20 @@
 "url": "https://www.youtube.com/watch?v=bBbhEJvqY2U"
 }
 ],
-"spikes": [
-{
-"term": "속보",
-"n30": 5,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-24T04:29:37.674766+00:00"
-},
-{
-"term": "지하철",
-"n30": 5,
-"base": 0.7,
-"spike": true,
-"since": "2026-11-24T04:29:37.674766+00:00"
-}
-],
+"spikes": [],
 "baseline": {
-"지진": 0.19,
-"화재": 0.41,
+"지진": 0.17,
+"화재": 0.37,
 "불났": 0.05,
-"정전": 0.22,
+"정전": 0.2,
 "폭발": 0.05,
-"붕괴": 0.82,
+"붕괴": 0.74,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.73,
-"사고": 1.38,
-"실종": 0.77,
+"지하철": 0.76,
+"사고": 1.54,
+"실종": 0.69,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
