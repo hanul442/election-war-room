@@ -1,12 +1,12 @@
 {
-"updated": "2026-11-24T21:54:40.854797+00:00",
+"updated": "2026-11-24T21:56:52.636004+00:00",
 "errors": [],
 "events": [
 {
 "id": "TBGVjYxVGp2WF9VSUZVawoc52108",
 "first": "2026-11-24T21:08:17+00:00",
-"last": "2026-11-24T21:35:25+00:00",
-"updated": "2026-11-24T21:45:51.926830+00:00",
+"last": "2026-11-24T21:50:58+00:00",
+"updated": "2026-11-24T21:56:52.636004+00:00",
 "headline": "'젠슨황 랠리' 하루 만에 식었다…엔비디아 5.9%·나스닥 1.5%↓",
 "cat": "기타",
 "regions": [],
@@ -19,6 +19,7 @@
 "데일리안",
 "문화일보",
 "이데일리",
+"조선일보",
 "한국경제"
 ],
 "updates": [
@@ -98,11 +99,19 @@
 "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9oVVE1SG9yeThHVE0wVUgtSDRHRldoNWNyNEhEVEIwX1N5ZzIzSnA0RlNjRUZaLVJ0LVlvaUVqeWVFdGVKaGRLTVlzOHBLRkJD?oc=5",
 "time": "2026-11-24T21:35:25+00:00",
 "stage": "속보"
+},
+{
+"title": "엔비디아 하루 만에 6% 하락… 나스닥 1.5%↓, 다우는 5만선 회복",
+"source": "조선일보",
+"link": "https://www.chosun.com/economy/int_economy/2026/11/25/LG673FRRTNAZFK3TYYPFL6YSG4/",
+"time": "2026-11-24T21:50:58+00:00",
+"stage": "후속"
 }
 ],
 "level": "URGENT",
-"latest": "31.5% 폭등했던 엔비디아, 하루 만에 급락…뉴욕증시 다시 ‘불안’",
+"latest": "엔비디아 하루 만에 6% 하락… 나스닥 1.5%↓, 다우는 5만선 회복",
 "tok": [
+"5만선",
 "공화당",
 "급등",
 "급락",
@@ -110,6 +119,7 @@
 "나스닥",
 "뉴욕증시",
 "다시",
+"다우",
 "랠리",
 "만에",
 "반도체지수",
@@ -130,7 +140,8 @@
 "필라델피아",
 "하락",
 "하루",
-"혼조"
+"혼조",
+"회복"
 ]
 },
 {
@@ -1737,7 +1748,7 @@
 "terms": {
 "지진": {
 "n30": 1,
-"base": 0.2,
+"base": 0.3,
 "spike": false
 },
 "화재": {
@@ -1757,7 +1768,7 @@
 },
 "폭발": {
 "n30": 0,
-"base": 0.7,
+"base": 0.6,
 "spike": false
 },
 "붕괴": {
@@ -1781,9 +1792,9 @@
 "spike": false
 },
 "지하철": {
-"n30": 5,
-"base": 0.5,
-"spike": true
+"n30": 4,
+"base": 0.4,
+"spike": false
 },
 "사고": {
 "n30": 0,
@@ -2044,27 +2055,19 @@
 "url": "https://www.youtube.com/watch?v=ZUEg3nQXTwY"
 }
 ],
-"spikes": [
-{
-"term": "지하철",
-"n30": 5,
-"base": 0.5,
-"spike": true,
-"since": "2026-11-24T21:54:40.854797+00:00"
-}
-],
+"spikes": [],
 "baseline": {
-"지진": 0.27,
+"지진": 0.34,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.64,
+"폭발": 0.58,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.42,
-"사고": 0.27,
+"지하철": 0.38,
+"사고": 0.24,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -2358,9 +2361,9 @@
 "link": "https://www.arsenal.com/news/team-news-gyokeres-starts-against-dortmund-aaNmK8K8cy91"
 },
 {
-"title": "Party atmosphere at London's BVB embassy: Don't Stop Believin'",
-"source": "Yahoo Sports",
-"link": "https://sports.yahoo.com/articles/party-atmosphere-londons-bvb-embassy-175600260.html"
+"title": "1-1 AND MADUEKE WON'T GO DOWN!",
+"source": "BeSoccer Livescore",
+"link": "https://www.besoccer.com/new/live-arsenal-v-borussia-dortmund-1443216"
 }
 ],
 "new": true
