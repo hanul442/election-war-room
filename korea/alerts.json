@@ -1,7 +1,42 @@
 {
-"updated": "2026-11-24T22:14:48.283658+00:00",
+"updated": "2026-11-24T22:17:03.107585+00:00",
 "errors": [],
 "events": [
+{
+"id": "1ZOUlEcmR6cnM0ZWNsUVUoc52213",
+"first": "2026-11-24T22:13:57+00:00",
+"last": "2026-11-24T22:13:57+00:00",
+"updated": "2026-11-24T22:17:03.107585+00:00",
+"headline": "'젠슨 황 복귀 효과' 하루만 증발…AI 기술주 일제 하락세 전환",
+"cat": "기타",
+"regions": [],
+"sources": [
+"프레시안"
+],
+"updates": [
+{
+"title": "[속보] '젠슨 황 복귀 효과' 하루만 증발…AI 기술주 일제 하락세 전환",
+"source": "프레시안",
+"link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE91dlFFZEhDNmlTalVKQnpzVEFmSldmaDRqU011Snhzc3hOQkVhZU5RYkk3T3dYVFFrWHJRbl9PY2hNbU80dVU0WEhxWi13ZV9Tbk9tQWllVm12X2FNNkVnVlBJRE1ua2FjMmRWZHlmTi1ZOUlEcmR6cnM0ZWNsUVU?oc=5",
+"time": "2026-11-24T22:13:57+00:00",
+"stage": "얼럿"
+}
+],
+"level": "URGENT",
+"latest": "'젠슨 황 복귀 효과' 하루만 증발…AI 기술주 일제 하락세 전환",
+"tok": [
+"AI",
+"기술주",
+"복귀",
+"일제",
+"전환",
+"젠슨",
+"증발",
+"하락세",
+"하루",
+"효과"
+]
+},
 {
 "id": "wNISX20261125_00038818832211",
 "first": "2026-11-24T22:11:19+00:00",
@@ -359,7 +394,7 @@
 "id": "ktpbnRQbzlCY0ZuLXBDZwoc52204",
 "first": "2026-11-24T22:04:33+00:00",
 "last": "2026-11-24T22:04:33+00:00",
-"updated": "2026-11-24T22:08:03.939000+00:00",
+"updated": "2026-11-24T22:17:03.107585+00:00",
 "headline": "남해고속도로(순천-부산) 화물차 관련 사고처리중",
 "cat": "교통",
 "regions": [
@@ -376,6 +411,13 @@
 "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBRREUxek8wNkhMZklTUDF4TVdJeXZGdmFDVmFQbl9yNk0ydS1JVzQtN0UwczBrc0NFOHRYdzZNNUF6V1RMTGFrSWxFZ2FpbmNUNGs5eEZza2RZWll4MVhCU0RtWktpbnRQbzlCY0ZuLXBDZw?oc=5",
 "time": "2026-11-24T22:04:33+00:00",
 "stage": "얼럿"
+},
+{
+"title": "[속보] 남해고속도로(순천-부산) 화물차 관련 사고처리중",
+"source": "스페셜타임스",
+"link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9oNUN5OHJfbVlncjVBcUhBbjJiVzB1aUozc0RYRU45YmxSd3RkREx2Y1dPOUo4TU1uN2pPZWJKMEs2ZTM4TmhtZVV1MU9lUHdOdVJncjgzaHpxODM0dkVMeXlRV1NvRFhmX09mRGVYMlJ5RTA?oc=5",
+"time": "2026-11-24T22:04:33+00:00",
+"stage": "속보"
 }
 ],
 "level": "URGENT",
@@ -2063,7 +2105,7 @@
 },
 "폭발": {
 "n30": 9,
-"base": 0.3,
+"base": 0.2,
 "spike": true
 },
 "붕괴": {
@@ -2088,7 +2130,7 @@
 },
 "지하철": {
 "n30": 9,
-"base": 0.3,
+"base": 0.4,
 "spike": true
 },
 "사고": {
@@ -2347,30 +2389,30 @@
 {
 "term": "폭발",
 "n30": 9,
-"base": 0.3,
+"base": 0.2,
 "spike": true,
-"since": "2026-11-24T22:14:48.283658+00:00"
+"since": "2026-11-24T22:17:03.107585+00:00"
 },
 {
 "term": "지하철",
 "n30": 9,
-"base": 0.3,
+"base": 0.4,
 "spike": true,
-"since": "2026-11-24T22:14:48.283658+00:00"
+"since": "2026-11-24T22:17:03.107585+00:00"
 }
 ],
 "baseline": {
-"지진": 0.72,
+"지진": 0.75,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.25,
+"폭발": 0.23,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.36,
-"사고": 0.63,
+"지하철": 0.42,
+"사고": 0.67,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
