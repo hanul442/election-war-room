@@ -1,18 +1,19 @@
 {
-"updated": "2026-11-24T05:22:14.635277+00:00",
+"updated": "2026-11-24T05:24:37.047079+00:00",
 "errors": [],
 "events": [
 {
 "id": "JYTEZrcXJJdDJFNWc3OUEoc50508",
 "first": "2026-11-24T05:08:00+00:00",
-"last": "2026-11-24T05:16:40+00:00",
-"updated": "2026-11-24T05:19:57.639649+00:00",
+"last": "2026-11-24T05:17:54+00:00",
+"updated": "2026-11-24T05:24:37.047079+00:00",
 "headline": "속보 선관위 특검, '투표지 분류기 납품 비리' 관련 압수수색",
 "cat": "기타",
 "regions": [],
 "sources": [
 "YTN",
-"조선일보"
+"조선일보",
+"티제이비"
 ],
 "updates": [
 {
@@ -28,10 +29,17 @@
 "link": "https://www.chosun.com/national/court_law/2026/11/24/AOM3N2EMRZHJ3GYWS3DSBP5VFU/",
 "time": "2026-11-24T05:16:40+00:00",
 "stage": "후속"
+},
+{
+"title": "[속보] 선관위 특검, '투표지 분류기 납품 비리' 업체 압수수색",
+"source": "티제이비",
+"link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9xemtPckt4RUJlS2xMUllNQlhSZWowM0VIaHFoU3BnUkR2akhRbFZsVTRKRHBpQ1ptVGoxTEJwY0lHSEMxOXFwZnBPY3NJekZjVFZrS24zblJVOXds?oc=5",
+"time": "2026-11-24T05:17:54+00:00",
+"stage": "속보"
 }
 ],
-"level": "ALERT",
-"latest": "투표지 분류기 ‘성능 미달’에도 전량 납품…선관위 특검, 업체 압수수색",
+"level": "URGENT",
+"latest": "선관위 특검, '투표지 분류기 납품 비리' 업체 압수수색",
 "tok": [
 "납품",
 "미달",
@@ -139,7 +147,7 @@
 "id": "jNUNWVLcVIwcWE1QTZkdwoc52204",
 "first": "2026-11-23T22:04:43+00:00",
 "last": "2026-11-24T05:07:47+00:00",
-"updated": "2026-11-24T05:22:14.635277+00:00",
+"updated": "2026-11-24T05:24:37.047079+00:00",
 "headline": "서해안고속도로 승용차관련 사고 처리중",
 "cat": "교통",
 "regions": [
@@ -307,6 +315,13 @@
 "stage": "속보"
 },
 {
+"title": "[속보] 영동고속도로 승용차 사고확인중",
+"source": "스페셜타임스",
+"link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1QZjlsWHFwc3VnRkZHdl9Nd1duaEV4SXVSTTlSLTZUeDVOQTdjU0RfT3J2Z1lRbjFtX0hQTHpoMmdZVmtKYTJPQV81UG4zRHZwUTFMcjRIWlZLWmt6X2pFODFNT2c1M2VRVGcyUHRUMGRsaEU?oc=5",
+"time": "2026-11-24T05:07:35+00:00",
+"stage": "속보"
+},
+{
 "title": "[속보] 서해안고속도로 승용차 관련 사고 처리중",
 "source": "스페셜타임스",
 "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9UMndpVU9jTzgtVXNUOW9uVnFaUFVXejlJZmlaSHktR1F2Q1BqWGgyOTJCNk9vbTUybUJOVUhVTG1YSFJ6YmF5VkRBblZfOWlJNlhCcGtEREdCbnVlaFZTSVd6YnRrYjNjbHZkOU03VjZ1UQ?oc=5",
@@ -329,6 +344,7 @@
 "부산",
 "사고",
 "사고처리중",
+"사고확인중",
 "서해안고속도",
 "세종포천고속도",
 "수도권제1순환고속도",
@@ -4201,7 +4217,7 @@
 },
 "폭발": {
 "n30": 6,
-"base": 0.5,
+"base": 0.6,
 "spike": true
 },
 "붕괴": {
@@ -4221,12 +4237,12 @@
 },
 "속보": {
 "n30": 7,
-"base": 0.1,
+"base": 0.2,
 "spike": true
 },
 "지하철": {
 "n30": 4,
-"base": 0.6,
+"base": 0.5,
 "spike": false
 },
 "사고": {
@@ -4251,12 +4267,12 @@
 },
 "먹통": {
 "n30": 0,
-"base": 0.7,
+"base": 0.6,
 "spike": false
 },
 "산불": {
 "n30": 0,
-"base": 0.6,
+"base": 0.5,
 "spike": false
 }
 },
@@ -4495,16 +4511,16 @@
 {
 "term": "폭발",
 "n30": 6,
-"base": 0.5,
+"base": 0.6,
 "spike": true,
-"since": "2026-11-24T05:22:14.635277+00:00"
+"since": "2026-11-24T05:24:37.047079+00:00"
 },
 {
 "term": "속보",
 "n30": 7,
-"base": 0.1,
+"base": 0.2,
 "spike": true,
-"since": "2026-11-24T05:22:14.635277+00:00"
+"since": "2026-11-24T05:24:37.047079+00:00"
 }
 ],
 "baseline": {
@@ -4512,18 +4528,18 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.56,
-"붕괴": 0.08,
+"폭발": 0.6,
+"붕괴": 0.07,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.24,
-"지하철": 0.5,
-"사고": 2.14,
-"실종": 0.07,
+"속보": 0.32,
+"지하철": 0.45,
+"사고": 2.13,
+"실종": 0.06,
 "단수": 0.05,
 "통신 장애": 0.05,
-"먹통": 0.62,
-"산불": 0.5
+"먹통": 0.56,
+"산불": 0.45
 },
 "errors": [],
 "ytPosts": [
@@ -4721,8 +4737,87 @@
 },
 "trends": [
 {
-"term": "치이카와 클리닉",
+"term": "퇴직",
+"traffic": "2000+",
+"time": "2026-11-24T04:20:00+00:00",
+"news": [
+{
+"title": "NH농협은행·보험 등 명퇴 실시…최대 40개월치 임금 지급",
+"source": "연합인포맥스",
+"link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4446262"
+},
+{
+"title": "NH농협은행, 만 40세부터 희망퇴직 실시…최대 40개월치 임금 지급",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261124_0003880931"
+}
+],
+"new": false
+},
+{
+"term": "12 월 3 일",
 "traffic": "500+",
+"time": "2026-11-24T04:20:00+00:00",
+"news": [
+{
+"title": "12월 3일 국가기념일 된다…李 “계엄 맞선 ‘국민 주권의 날’ 기려야”",
+"source": "동아일보",
+"link": "https://www.donga.com/news/Politics/article/all/20261124/135079161/1"
+},
+{
+"title": "[속보] 나경원 “‘12·3 국민주권의 날’ 지정, 자화자찬 굿판에 세금 탕진”",
+"source": "경기일보",
+"link": "https://www.kyeonggi.com/article/20261124580214"
+}
+],
+"new": true
+},
+{
+"term": "지방세",
+"traffic": "200+",
+"time": "2026-11-24T04:20:00+00:00",
+"news": [
+{
+"title": "제천시, 2026년 지방세정 연찬회 개최",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/RPR20261123001000353"
+},
+{
+"title": "울산지역 첫 지방세 발전포럼 행안부장관상…남구 수상",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261124_0003880869"
+}
+],
+"new": true
+},
+{
+"term": "김서형",
+"traffic": "500+",
+"time": "2026-11-24T04:20:00+00:00",
+"news": [
+{
+"title": "김서형, 건강 악화로 촬영 중 드라마 하차…박보경 긴급 투입",
+"source": "매일경제",
+"link": "https://www.mk.co.kr/news/hot-issues/12216766"
+},
+{
+"title": "박보경, 김서형 하차한 SBS 드라마 '대시' 합류",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261124074700005"
+}
+],
+"new": true
+},
+{
+"term": "트롯 데스매치 금타는 금요일",
+"traffic": "100+",
+"time": "2026-11-24T04:20:00+00:00",
+"news": [],
+"new": true
+},
+{
+"term": "치이카와 클리닉",
+"traffic": "1000+",
 "time": "2026-11-24T04:10:00+00:00",
 "news": [
 {
@@ -4739,26 +4834,8 @@
 "new": true
 },
 {
-"term": "팝콘",
-"traffic": "200+",
-"time": "2026-11-24T04:10:00+00:00",
-"news": [
-{
-"title": "백억커피, LG유플러스 멤버십 제휴…아메리카노·팝콘 무료 제공",
-"source": "신아일보",
-"link": "https://www.shinailbo.co.kr/news/articleView.html?idxno=5086044"
-},
-{
-"title": "다시 만난 최승윤 대표",
-"source": "일요시사",
-"link": "https://www.ilyosisa.co.kr/news/article.html?no=258940"
-}
-],
-"new": false
-},
-{
 "term": "강호동",
-"traffic": "200+",
+"traffic": "500+",
 "time": "2026-11-24T04:10:00+00:00",
 "news": [
 {
@@ -4773,6 +4850,24 @@
 }
 ],
 "new": true
+},
+{
+"term": "팝콘",
+"traffic": "500+",
+"time": "2026-11-24T04:10:00+00:00",
+"news": [
+{
+"title": "백억커피, LG유플러스 멤버십 제휴…아메리카노·팝콘 무료 제공",
+"source": "신아일보",
+"link": "https://www.shinailbo.co.kr/news/articleView.html?idxno=5086044"
+},
+{
+"title": "다시 만난 최승윤 대표",
+"source": "일요시사",
+"link": "https://www.ilyosisa.co.kr/news/article.html?no=258940"
+}
+],
+"new": false
 },
 {
 "term": "과즙 세연 방시혁",
@@ -4809,89 +4904,9 @@
 }
 ],
 "new": true
-},
-{
-"term": "그랜드 테프트 오토 vi",
-"traffic": "1000+",
-"time": "2026-11-24T03:30:00+00:00",
-"news": [
-{
-"title": "GTA 6가 증명한 30프레임의 가치",
-"source": "www.itworld.co.kr",
-"link": "https://www.itworld.co.kr/article/4251830/gta-6%EA%B0%80-%EC%A6%9D%EB%AA%85%ED%95%9C-30%ED%94%84%EB%A0%88%EC%9E%84%EC%9D%98-%EA%B0%80%EC%B9%98.html"
-},
-{
-"title": "테이크투, 상승…GTA6 공개 뒤 목표가 줄상향",
-"source": "마켓인",
-"link": "https://marketin.edaily.co.kr/News/ReadE?newsId=01154566645649000"
-}
-],
-"new": true
-},
-{
-"term": "12월 3일",
-"traffic": "200+",
-"time": "2026-11-24T03:30:00+00:00",
-"news": [
-{
-"title": "12월 3일 국가기념일 된다…李 “계엄 맞선 ‘국민 주권의 날’ 기려야”",
-"source": "동아일보",
-"link": "https://www.donga.com/news/Politics/article/all/20261124/135079161/1"
-},
-{
-"title": "[속보] 나경원 “‘12·3 국민주권의 날’ 지정, 자화자찬 굿판에 세금 탕진”",
-"source": "경기일보",
-"link": "https://www.kyeonggi.com/article/20261124580214"
-}
-],
-"new": true
-},
-{
-"term": "중고",
-"traffic": "1000+",
-"time": "2026-11-24T03:20:00+00:00",
-"news": [
-{
-"title": "중고나라, '지도 기반 상품 탐색' 기능 도입",
-"source": "지디넷코리아",
-"link": "https://zdnet.co.kr/view/?no=20261124132656"
-},
-{
-"title": "중고나라, 지도 기반 상품 탐색 기능 도입",
-"source": "전자신문",
-"link": "https://www.etnews.com/20261124000048"
-}
-],
-"new": true
-},
-{
-"term": "삼성전자 임원 인사",
-"traffic": "5000+",
-"time": "2026-11-24T03:20:00+00:00",
-"news": [
-{
-"title": "삼성전자, 임원 131명 승진 인사…HBM·로봇 핵심 인재 중용",
-"source": "조선일보",
-"link": "https://www.chosun.com/economy/tech_it/2026/11/24/23GDZCZG5FCWJMDHVSMS6G77AQ/"
-},
-{
-"title": "삼성전자 2027년 정기 임원 인사 – 삼성전자 뉴스룸",
-"source": "samsung.com",
-"link": "https://news.samsung.com/kr/%EC%82%BC%EC%84%B1%EC%A0%84%EC%9E%90-2027%EB%85%84-%EC%A0%95%EA%B8%B0-%EC%9E%84%EC%9B%90-%EC%9D%B8%EC%82%AC"
-}
-],
-"new": true
-},
-{
-"term": "장학금",
-"traffic": "500+",
-"time": "2026-11-24T03:20:00+00:00",
-"news": [],
-"new": true
 }
 ],
 "trendSeen": [
-"커피",
 "컬리",
 "컴포즈",
 "케빈 홀랜드",
@@ -4971,6 +4986,7 @@
 "투자신탁",
 "트럼프",
 "트로이 왓슨",
+"트롯 데스매치 금타는 금요일",
 "트리플스타",
 "트립닷컴 메가세일",
 "트와이스",
