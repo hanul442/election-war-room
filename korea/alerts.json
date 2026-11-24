@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-24T10:01:30.346429+00:00",
+"updated": "2026-11-24T10:03:45.942664+00:00",
 "errors": [],
 "events": [
 {
@@ -429,7 +429,7 @@
 "id": "wNISX20261124_00038804340540",
 "first": "2026-11-24T05:40:00+00:00",
 "last": "2026-11-24T09:42:00+00:00",
-"updated": "2026-11-24T09:50:07.803349+00:00",
+"updated": "2026-11-24T10:03:45.942664+00:00",
 "headline": "김병기, 1년2개월만에 불구속 송치…'차남 특혜' 등 7개 의혹",
 "cat": "기타",
 "regions": [],
@@ -437,6 +437,7 @@
 "Chosunbiz",
 "SBS",
 "YTN",
+"뉴스타파",
 "뉴스핌",
 "뉴시스",
 "더팩트",
@@ -593,6 +594,13 @@
 "stage": "후속"
 },
 {
+"title": "경찰, 김병기 송치... 뉴스타파 보도 1년 2개월 만",
+"source": "뉴스타파",
+"link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9NN296VjV6R0REdVRKb3VSLVdOVlJRTzlIYW96YXB4WTRzUXZLLWNnVEd3eU1tVlVpYjFwTmZzbFpheExzSTExdmJn?oc=5",
+"time": "2026-11-24T09:20:00+00:00",
+"stage": "후속"
+},
+{
 "title": "’차남 특혜’ 김병기 송치…수사 1년 2개월만",
 "source": "연합뉴스TV",
 "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5XZVA3Q1NVbnNiRU9USXAxX1hOMXZIaE93SEpFS0VSZUwzRDRVTWJCTHk2dzZsYzN3T3VVTEYzMGYySnlYTkJpdS1lX2pRcFlTODNEdEIyUDIxdlVpaXBaQ0pvd1hqeHc?oc=5",
@@ -617,7 +625,9 @@
 "김병기",
 "남겨",
 "뇌물",
+"뉴스타파",
 "만에",
+"보도",
 "불구속",
 "송치",
 "수사",
@@ -4661,7 +4671,7 @@
 },
 "폭발": {
 "n30": 5,
-"base": 0.7,
+"base": 0.6,
 "spike": true
 },
 "붕괴": {
@@ -4671,12 +4681,12 @@
 },
 "대피": {
 "n30": 3,
-"base": 0.5,
+"base": 0.6,
 "spike": false
 },
 "미사일": {
 "n30": 0,
-"base": 0.3,
+"base": 0.2,
 "spike": false
 },
 "속보": {
@@ -4686,12 +4696,12 @@
 },
 "지하철": {
 "n30": 4,
-"base": 0.1,
+"base": 0.2,
 "spike": false
 },
 "사고": {
 "n30": 0,
-"base": 1.7,
+"base": 1.5,
 "spike": false
 },
 "실종": {
@@ -4807,7 +4817,7 @@
 "handle": "neistisott.bsky.social",
 "name": "소뜨Sott",
 "time": "2026-11-24T09:59:25.047Z",
-"likes": 0,
+"likes": 1,
 "reposts": 0,
 "url": "https://bsky.app/profile/neistisott.bsky.social/post/3n32f3ylbss2z",
 "term": "지하철"
@@ -4844,8 +4854,8 @@
 "handle": "flattenstream.bsky.social",
 "name": "평면",
 "time": "2026-11-24T09:56:04.940Z",
-"likes": 0,
-"reposts": 0,
+"likes": 2,
+"reposts": 1,
 "url": "https://bsky.app/profile/flattenstream.bsky.social/post/3n32ew22nzc2t",
 "term": "실종"
 },
@@ -4928,31 +4938,31 @@
 {
 "term": "폭발",
 "n30": 5,
-"base": 0.7,
+"base": 0.6,
 "spike": true,
-"since": "2026-11-24T10:01:30.346429+00:00"
+"since": "2026-11-24T10:03:45.942664+00:00"
 },
 {
 "term": "속보",
 "n30": 5,
 "base": 0.3,
 "spike": true,
-"since": "2026-11-24T10:01:30.346429+00:00"
+"since": "2026-11-24T10:03:45.942664+00:00"
 }
 ],
 "baseline": {
-"지진": 0.09,
+"지진": 0.08,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.61,
-"붕괴": 0.89,
-"대피": 0.56,
-"미사일": 0.24,
-"속보": 0.3,
-"지하철": 0.22,
-"사고": 1.52,
-"실종": 0.54,
+"폭발": 0.55,
+"붕괴": 0.9,
+"대피": 0.6,
+"미사일": 0.22,
+"속보": 0.27,
+"지하철": 0.3,
+"사고": 1.37,
+"실종": 0.59,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -5127,8 +5137,44 @@
 },
 "trends": [
 {
-"term": "카카오모빌리티",
+"term": "스테이블코인",
+"traffic": "200+",
+"time": "2026-11-24T09:00:00+00:00",
+"news": [
+{
+"title": "‘은행 주도’ 원화 코인 길 열렸다... 정부, 9년 만에 국내 발행 추진",
+"source": "조선일보",
+"link": "https://www.chosun.com/economy/economy_general/2026/11/24/PWWPU27V2VGUNPVBWFCWLDLNUY/"
+},
+{
+"title": "9년 만에 국내 코인발행 허용… 업비트-빗썸 등 거래소 지배구조 조정 압력",
+"source": "동아일보",
+"link": "https://www.donga.com/news/Economy/article/all/20261124/135083167/1"
+}
+],
+"new": true
+},
+{
+"term": "australia vs england",
 "traffic": "100+",
+"time": "2026-11-24T09:00:00+00:00",
+"news": [
+{
+"title": "Australia vs England LIVE: Second T20, Carrara, Queensland - cricket score, commentary & updates",
+"source": "BBC",
+"link": "https://www.bbc.com/sport/cricket/live/cly85gv8qpet"
+},
+{
+"title": "AUS vs ENG 2026/27, AUS vs ENG 2nd T20I Match Preview - Last-over MCG finish suggests a series of fine margins",
+"source": "Cricinfo",
+"link": "https://www.cricinfo.com/series/england-in-australia-2026-27-1528677/australia-vs-england-2nd-t20i-1528707/match-preview"
+}
+],
+"new": true
+},
+{
+"term": "카카오모빌리티",
+"traffic": "200+",
 "time": "2026-11-24T08:50:00+00:00",
 "news": [
 {
@@ -5253,24 +5299,6 @@
 "new": true
 },
 {
-"term": "고양시",
-"traffic": "200+",
-"time": "2026-11-24T07:50:00+00:00",
-"news": [
-{
-"title": "금천구, 인공지능(AI) 영상 '다시 한걸음'으로 청년 취업정책 알렸다",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/RPR20261124000600353"
-},
-{
-"title": "충주 홍보 역량 입증... 2026년 대한민국 지자체 홍보대상’관광 부문 수상",
-"source": "뉴데일리 충청세종",
-"link": "https://cc.newdaily.co.kr/site/data/html/2026/11/24/2026112450280.html"
-}
-],
-"new": true
-},
-{
 "term": "몸매",
 "traffic": "200+",
 "time": "2026-11-24T07:50:00+00:00",
@@ -5287,24 +5315,6 @@
 }
 ],
 "new": true
-},
-{
-"term": "화장실",
-"traffic": "500+",
-"time": "2026-11-24T07:40:00+00:00",
-"news": [
-{
-"title": "아내 운영 어린이집 화장실 불법촬영'…40대 항소심 집유로 감형",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261124133900061"
-},
-{
-"title": "여교사 12명 '화장실 몰카' 찍은 원장 남편…합의금 2억원으로 실형 면해 - 머니투데이",
-"source": "머니투데이",
-"link": "https://www.mt.co.kr/society/2026/11/24/2026112415445655478"
-}
-],
-"new": false
 }
 ],
 "trendSeen": [
