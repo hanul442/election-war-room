@@ -1,12 +1,12 @@
 {
-"updated": "2026-11-24T22:17:03.107585+00:00",
+"updated": "2026-11-24T22:19:18.957555+00:00",
 "errors": [],
 "events": [
 {
 "id": "1ZOUlEcmR6cnM0ZWNsUVUoc52213",
 "first": "2026-11-24T22:13:57+00:00",
 "last": "2026-11-24T22:13:57+00:00",
-"updated": "2026-11-24T22:17:03.107585+00:00",
+"updated": "2026-11-24T22:19:18.957555+00:00",
 "headline": "'젠슨 황 복귀 효과' 하루만 증발…AI 기술주 일제 하락세 전환",
 "cat": "기타",
 "regions": [],
@@ -20,6 +20,13 @@
 "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE91dlFFZEhDNmlTalVKQnpzVEFmSldmaDRqU011Snhzc3hOQkVhZU5RYkk3T3dYVFFrWHJRbl9PY2hNbU80dVU0WEhxWi13ZV9Tbk9tQWllVm12X2FNNkVnVlBJRE1ua2FjMmRWZHlmTi1ZOUlEcmR6cnM0ZWNsUVU?oc=5",
 "time": "2026-11-24T22:13:57+00:00",
 "stage": "얼럿"
+},
+{
+"title": "[속보] '젠슨 황 복귀 효과' 하루만 증발…AI 기술주 일제 하락세 전환",
+"source": "프레시안",
+"link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9KVHNzcFRuSXVqZUo1M0ZZZEIwakxKN3pjakdBMF9qY3h6R0JVOHBsNk5MdE1ZNXR0SzlGSDNrQ3EzWk5SdWU0eFZGd0YyNVFYRk9tQ3ZreW5lNG5ES1Q2TlUxTElVdzhCT21Z?oc=5",
+"time": "2026-11-24T22:13:57+00:00",
+"stage": "속보"
 }
 ],
 "level": "URGENT",
@@ -2085,7 +2092,7 @@
 "terms": {
 "지진": {
 "n30": 1,
-"base": 0.7,
+"base": 0.8,
 "spike": false
 },
 "화재": {
@@ -2129,13 +2136,13 @@
 "spike": false
 },
 "지하철": {
-"n30": 9,
+"n30": 10,
 "base": 0.4,
 "spike": true
 },
 "사고": {
 "n30": 1,
-"base": 0.6,
+"base": 0.7,
 "spike": false
 },
 "실종": {
@@ -2165,6 +2172,16 @@
 }
 },
 "posts": [
+{
+"text": "서울 지하철 1~8호선 노사가 25일 새벽 임단협을 타결하고 예고됐던 총파업을 철회했습니다. 3개 노조 모두 협상을 마무리해 출근길 대란은 피하게 됐고, 신규 채용 규모 등을 두고 하룻밤 교섭이 이어졌습니다.\n\n#서울지하철 #출근길 #임단협",
+"handle": "storyhana.bsky.social",
+"name": "storyhana.bsky.social",
+"time": "2026-11-24T22:18:44.751Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/storyhana.bsky.social/post/3n33ofyvnbi2w",
+"term": "지하철"
+},
 {
 "text": "지하철 파업 한다해서 일찍 일어났는데 새벽에 협상 타결됬다고해서 그냥 일찍 출근한 사람됨\nmusic.youtube.com/watch?v=Y4JQ...",
 "handle": "j5games.bsky.social",
@@ -2391,28 +2408,28 @@
 "n30": 9,
 "base": 0.2,
 "spike": true,
-"since": "2026-11-24T22:17:03.107585+00:00"
+"since": "2026-11-24T22:19:18.957555+00:00"
 },
 {
 "term": "지하철",
-"n30": 9,
+"n30": 10,
 "base": 0.4,
 "spike": true,
-"since": "2026-11-24T22:17:03.107585+00:00"
+"since": "2026-11-24T22:19:18.957555+00:00"
 }
 ],
 "baseline": {
-"지진": 0.75,
+"지진": 0.78,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.23,
+"폭발": 0.21,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.42,
-"사고": 0.67,
+"지하철": 0.58,
+"사고": 0.7,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
