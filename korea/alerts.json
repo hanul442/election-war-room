@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-24T22:43:58.119402+00:00",
+"updated": "2026-11-24T22:46:12.816803+00:00",
 "errors": [],
 "events": [
 {
@@ -2330,7 +2330,7 @@
 "spike": false
 },
 "폭발": {
-"n30": 6,
+"n30": 5,
 "base": 0.1,
 "spike": true
 },
@@ -2355,13 +2355,13 @@
 "spike": false
 },
 "지하철": {
-"n30": 10,
+"n30": 9,
 "base": 1.8,
 "spike": true
 },
 "사고": {
 "n30": 3,
-"base": 1.7,
+"base": 1.9,
 "spike": false
 },
 "실종": {
@@ -2396,7 +2396,7 @@
 "handle": "gamamdo.bsky.social",
 "name": "걈안안도⏳",
 "time": "2026-11-24T22:35:12.148Z",
-"likes": 1,
+"likes": 2,
 "reposts": 0,
 "url": "https://bsky.app/profile/gamamdo.bsky.social/post/3n33pdgryxc2q",
 "term": "지하철"
@@ -2626,31 +2626,31 @@
 "spikes": [
 {
 "term": "폭발",
-"n30": 6,
+"n30": 5,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-24T22:43:58.119402+00:00"
+"since": "2026-11-24T22:46:12.816803+00:00"
 },
 {
 "term": "지하철",
-"n30": 10,
+"n30": 9,
 "base": 1.8,
 "spike": true,
-"since": "2026-11-24T22:43:58.119402+00:00"
+"since": "2026-11-24T22:46:12.816803+00:00"
 }
 ],
 "baseline": {
-"지진": 0.89,
+"지진": 0.9,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.07,
+"폭발": 0.06,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 1.8,
-"사고": 1.85,
+"지하철": 1.82,
+"사고": 1.97,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -2840,14 +2840,14 @@
 "time": "2026-11-24T21:40:00+00:00",
 "news": [
 {
-"title": "앤트로픽 상장 나흘 만에 공모가 밑으로",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261125017300009"
+"title": "미 국무부, 김주애 고가 스키 장비에 “대북 반입 금지 사치품”",
+"source": "경향신문",
+"link": "https://www.khan.co.kr/article/202611250722001"
 },
 {
-"title": "앤트로픽, 상장 4거래일 만에 공모가 하회… 기업가치 고평가 우려",
-"source": "IT조선",
-"link": "https://it.chosun.com/news/articleView.html?idxno=3000000001749"
+"title": "美국무부, 김주애 '200만원' 스키복에 \"반입 금지 사치품\"",
+"source": "YTN",
+"link": "https://www.ytn.co.kr/_ln/0104_202611250717415865"
 }
 ],
 "new": true
@@ -2868,7 +2868,7 @@
 "link": "https://www.interfootball.co.kr/news/articleView.html?idxno=699170"
 }
 ],
-"new": true
+"new": false
 },
 {
 "term": "real madrid đấu với psv",
@@ -2890,7 +2890,7 @@
 },
 {
 "term": "슬로반 브라티슬라바 대 레알 베티스",
-"traffic": "100+",
+"traffic": "200+",
 "time": "2026-11-24T21:30:00+00:00",
 "news": [
 {
@@ -2920,24 +2920,6 @@
 "new": false
 },
 {
-"term": "인천광역시",
-"traffic": "100+",
-"time": "2026-11-24T21:30:00+00:00",
-"news": [
-{
-"title": "인천시교육청, AI 시대 맞춤 독서교육 실천 방안 모색",
-"source": "뉴스타운",
-"link": "https://www.newstown.co.kr/news/articleView.html?idxno=723138"
-},
-{
-"title": "인천광역시교육청, 독서교육 전문적학습공동체 15팀 연구 성과 공유",
-"source": "일간투데이",
-"link": "https://www.dtoday.co.kr/news/articleView.html?idxno=806042"
-}
-],
-"new": true
-},
-{
 "term": "박지현",
 "traffic": "100+",
 "time": "2026-11-24T21:30:00+00:00",
@@ -2951,6 +2933,24 @@
 "title": "제54회 국제 에미상 시상식 도착한 박지현",
 "source": "뉴시스",
 "link": "https://mobile.newsis.com/photo_view.html?pict_id=NISI20261124_0002300518&pID=1&cID=&sID=1&type=Main&idx=6"
+}
+],
+"new": true
+},
+{
+"term": "인천광역시",
+"traffic": "200+",
+"time": "2026-11-24T21:30:00+00:00",
+"news": [
+{
+"title": "인천시교육청, AI 시대 맞춤 독서교육 실천 방안 모색",
+"source": "뉴스타운",
+"link": "https://www.newstown.co.kr/news/articleView.html?idxno=723138"
+},
+{
+"title": "인천광역시교육청, 독서교육 전문적학습공동체 15팀 연구 성과 공유",
+"source": "일간투데이",
+"link": "https://www.dtoday.co.kr/news/articleView.html?idxno=806042"
 }
 ],
 "new": true
