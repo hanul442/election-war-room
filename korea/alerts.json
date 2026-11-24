@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-24T08:07:25.129866+00:00",
+"updated": "2026-11-24T08:09:42.109838+00:00",
 "errors": [],
 "events": [
 {
@@ -346,7 +346,7 @@
 "id": "FCR1VFb054MUF0NXNEOTgoc50803",
 "first": "2026-11-24T08:03:13+00:00",
 "last": "2026-11-24T08:03:13+00:00",
-"updated": "2026-11-24T08:07:25.129866+00:00",
+"updated": "2026-11-24T08:09:42.109838+00:00",
 "headline": "에코프로비엠, 6221억원 규모 싱가포르 종속회사 출자…자기자본 대비 24.7%",
 "cat": "기타",
 "regions": [],
@@ -360,6 +360,13 @@
 "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1FdmhObkhoVjd5QUdNZzMwalFtMEtpM3JibzJraUJWUFdhVzlJZkg0d1U3YzZuNGhNMm5PLUNacVpza1NtNkFUQnpST1F2VF9XSWlaTjlZWjFCR1VFb054MUF0NXNEOTg?oc=5",
 "time": "2026-11-24T08:03:13+00:00",
 "stage": "얼럿"
+},
+{
+"title": "[속보] 에코프로비엠, 6221억원 규모 싱가포르 종속회사 출자…자기자본 대비 24.7%",
+"source": "CBC뉴스",
+"link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9FaHVoQVRLa3lhc3psd3Brd19UUERzLW0xa0hLcXFwRzRnVF85VmVjN1BVYTdpMktiOGgtc3dGcWdYY2oxanpJbTYtMzVSZ0J3RDVWak5ITkV3OFhObHRMYWgzRU9YRS13?oc=5",
+"time": "2026-11-24T08:03:13+00:00",
+"stage": "속보"
 }
 ],
 "level": "URGENT",
@@ -4032,7 +4039,7 @@
 "sns": {
 "terms": {
 "지진": {
-"n30": 2,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
@@ -4052,9 +4059,9 @@
 "spike": false
 },
 "폭발": {
-"n30": 6,
+"n30": 4,
 "base": 0.2,
-"spike": true
+"spike": false
 },
 "붕괴": {
 "n30": 0,
@@ -4343,29 +4350,21 @@
 "url": "https://www.youtube.com/watch?v=knH_8a416G8"
 }
 ],
-"spikes": [
-{
-"term": "폭발",
-"n30": 6,
-"base": 0.2,
-"spike": true,
-"since": "2026-11-24T08:07:25.129866+00:00"
-}
-],
+"spikes": [],
 "baseline": {
 "지진": 0.05,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.16,
+"폭발": 0.14,
 "붕괴": 0.05,
 "대피": 0.05,
-"미사일": 0.07,
-"속보": 0.09,
+"미사일": 0.06,
+"속보": 0.08,
 "지하철": 1.04,
-"사고": 2.87,
+"사고": 2.88,
 "실종": 0.05,
-"단수": 0.2,
+"단수": 0.18,
 "통신 장애": 0.05,
 "먹통": 0.05,
 "산불": 0.05
@@ -4738,9 +4737,9 @@
 "link": "https://imnews.imbc.com/news/2026/society/article/6868128_36918.html"
 },
 {
-"title": "'12·3 국민주권의 날' 기념일 지정…정부·국회 첫 공동 기념식",
+"title": "빛의위원장 \"국민주권의날 4월 4일 의견도…12월 3일로 뜻 모아\"",
 "source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261124079200530"
+"link": "https://www.yna.co.kr/view/AKR20261124150000530"
 }
 ],
 "new": true
