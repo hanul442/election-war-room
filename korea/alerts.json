@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-24T22:32:45.871323+00:00",
+"updated": "2026-11-24T22:34:58.989126+00:00",
 "errors": [],
 "events": [
 {
@@ -32,6 +32,37 @@
 "사망",
 "아들",
 "화재"
+]
+},
+{
+"id": "nkRSSLINKcooperRSSREADER2228",
+"first": "2026-11-24T22:28:53+00:00",
+"last": "2026-11-24T22:28:53+00:00",
+"updated": "2026-11-24T22:34:58.989126+00:00",
+"headline": "새집에서 단 4분…신상 숨기려는 성범죄자 꼼수?",
+"cat": "기타",
+"regions": [],
+"sources": [
+"SBS"
+],
+"updates": [
+{
+"title": "[단독] 새집에서 단 4분…신상 숨기려는 성범죄자 꼼수?",
+"source": "SBS",
+"link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008861618&plink=RSSLINK&cooper=RSSREADER",
+"time": "2026-11-24T22:28:53+00:00",
+"stage": "단독"
+}
+],
+"level": "URGENT",
+"latest": "새집에서 단 4분…신상 숨기려는 성범죄자 꼼수?",
+"tok": [
+"4분",
+"꼼수",
+"새집에서",
+"성범죄자",
+"숨기려",
+"신상"
 ]
 },
 {
@@ -69,11 +100,12 @@
 "id": "TBGVjYxVGp2WF9VSUZVawoc52108",
 "first": "2026-11-24T21:08:17+00:00",
 "last": "2026-11-24T22:27:53+00:00",
-"updated": "2026-11-24T22:30:25.261558+00:00",
+"updated": "2026-11-24T22:34:58.989126+00:00",
 "headline": "'젠슨황 랠리' 하루 만에 식었다…엔비디아 5.9%·나스닥 1.5%↓",
 "cat": "기타",
 "regions": [],
 "sources": [
+"CBC뉴스",
 "SBS",
 "SBS Biz",
 "www.edaily.co.kr",
@@ -192,6 +224,13 @@
 "stage": "후속"
 },
 {
+"title": "[속보]뉴욕증시 혼조 마감…나스닥 1.48% 하락, 젠슨 황 추가 논란·관세 부담",
+"source": "CBC뉴스",
+"link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5hcFpGSjJTWF9MTWxsdWljUTY2MXhLdS1qRnlsZHdDdnpXM2gwWFpEWWlNVkpzbjVid2dNWlk4TTF2RGt2VW5LRmk4OFhpeTJ1blB4dUE2UGdsazhjZ2EtR0dFRnZORDZ0?oc=5",
+"time": "2026-11-24T22:25:00+00:00",
+"stage": "속보"
+},
+{
 "title": "[오늘의 증시]'오천피' 회복 하루 만에 다시 위태…美 반도체주 급락에 하락 출발 전망",
 "source": "뉴시스",
 "link": "https://www.newsis.com/view/NISX20261125_0003881882",
@@ -205,6 +244,7 @@
 "5만선",
 "NYT",
 "공화당",
+"관세",
 "급등",
 "급락",
 "꺾여",
@@ -213,6 +253,7 @@
 "다시",
 "다우",
 "랠리",
+"마감",
 "만에",
 "반도체주",
 "반도체지수",
@@ -220,6 +261,7 @@
 "반락",
 "반발",
 "복귀",
+"부담",
 "불안",
 "사회주",
 "식었다",
@@ -231,16 +273,14 @@
 "젠슨",
 "젠슨황",
 "증시",
+"추가",
 "출발",
 "트럼프식",
 "폭등",
 "폭등했다",
 "폭등했던",
 "필라델피아",
-"하락",
-"하루",
-"혼조",
-"회복"
+"하락"
 ]
 },
 {
@@ -2203,37 +2243,6 @@
 "제주도산지",
 "해제"
 ]
-},
-{
-"id": "nkRSSLINKcooperRSSREADER1633",
-"first": "2026-11-24T16:33:41+00:00",
-"last": "2026-11-24T16:33:41+00:00",
-"updated": "2026-11-24T18:26:52.629319+00:00",
-"headline": "새집에서 단 4분…신상 숨기려는 성범죄자 꼼수?",
-"cat": "기타",
-"regions": [],
-"sources": [
-"SBS"
-],
-"updates": [
-{
-"title": "[단독] 새집에서 단 4분…신상 숨기려는 성범죄자 꼼수?",
-"source": "SBS",
-"link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008861618&plink=RSSLINK&cooper=RSSREADER",
-"time": "2026-11-24T16:33:41+00:00",
-"stage": "단독"
-}
-],
-"level": "URGENT",
-"latest": "새집에서 단 4분…신상 숨기려는 성범죄자 꼼수?",
-"tok": [
-"4분",
-"꼼수",
-"새집에서",
-"성범죄자",
-"숨기려",
-"신상"
-]
 }
 ],
 "sns": {
@@ -2254,14 +2263,14 @@
 "spike": false
 },
 "정전": {
-"n30": 0,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
 "폭발": {
-"n30": 0,
+"n30": 6,
 "base": 0.1,
-"spike": false
+"spike": true
 },
 "붕괴": {
 "n30": 0,
@@ -2279,18 +2288,18 @@
 "spike": false
 },
 "속보": {
-"n30": 1,
+"n30": 4,
 "base": 0.1,
 "spike": false
 },
 "지하철": {
-"n30": 3,
+"n30": 10,
 "base": 1.2,
-"spike": false
+"spike": true
 },
 "사고": {
 "n30": 3,
-"base": 0.8,
+"base": 1.0,
 "spike": false
 },
 "실종": {
@@ -2341,6 +2350,60 @@
 "term": "사고"
 },
 {
+"platform": "YouTube",
+"text": "서울 지하철 파업 철회 🚇 새벽 3시 극적 타결, 뭐가 바뀌나 #지하철파업 #팩트한컷 #Shorts",
+"handle": "UClSgR0FHgazQmHAamfN-SqA",
+"name": "팩트한컷",
+"time": "2026-11-24T22:30:55Z",
+"term": "지하철",
+"url": "https://www.youtube.com/watch?v=WsaI4yiTRVs"
+},
+{
+"platform": "YouTube",
+"text": "[현대모비스 주가전망] 11월 25일(수) 장전 속보! 오늘 급등·기관 8일 연속 매수, 내일 더 갈까",
+"handle": "UCOFAbHFMC3xUYhtwvB2N84w",
+"name": "New Magic VFX",
+"time": "2026-11-24T22:30:36Z",
+"term": "속보",
+"url": "https://www.youtube.com/watch?v=kCRdqepBROg"
+},
+{
+"platform": "YouTube",
+"text": "\"소리가 이상해요\" 미국 대기업 공장 폭발 직전, 한국인 직원 딸이 기적을 일으켰다 l 오디오북",
+"handle": "UC0TQOScKwWRvoaPQcCO1cYQ",
+"name": "Leah Hall",
+"time": "2026-11-24T22:30:31Z",
+"term": "폭발",
+"url": "https://www.youtube.com/watch?v=xZQeHnj1Hqg"
+},
+{
+"platform": "YouTube",
+"text": "지하철 노약자석에서 훈장 단 할아버지를 비웃던 청년, 10초 뒤 열차 칸 전체가 얼어붙은 이유 #shorts, #참전용사, #반전드라마",
+"handle": "UCmSbkfvA196Iri0Q3QJKc-g",
+"name": "복지대세",
+"time": "2026-11-24T22:30:22Z",
+"term": "지하철",
+"url": "https://www.youtube.com/watch?v=K-hqqua8EAE"
+},
+{
+"platform": "YouTube",
+"text": "[삼성SDI 주가전망] 개장 전 충격 속보! 결국 터질게 터졌다!",
+"handle": "UCuLN9Mh9aVEWGlNIBakgcTw",
+"name": "오늘의급등주식",
+"time": "2026-11-24T22:30:22Z",
+"term": "속보",
+"url": "https://www.youtube.com/watch?v=x78ICkfQxcs"
+},
+{
+"platform": "YouTube",
+"text": "[화제 폭발] 강금실 법무장관시절 검사들에게 보낸  '눈사람'  편지 전문!/2026.11.25",
+"handle": "UC-qSipf88NifyK3Q-gZ8JBw",
+"name": "양영태 박사TV",
+"time": "2026-11-24T22:30:21Z",
+"term": "폭발",
+"url": "https://www.youtube.com/watch?v=UrewTjEB2PM"
+},
+{
 "text": "ㅈㅅ사고랑 무기력이 심했어서 퇴근하고 정말 누워만 있다가 울고 그랬는데 저때는 머리가맑아지는걸 확 느낌(ㅈㅅ사고가 줄고 뭔가 할 기력이 생김)\n근데 지금은 그냥저냥임 기분 별로일땐 여전히 별로고 그래도 안먹는것보단 낫겠지 같은 생각으로 먹음",
 "handle": "ttrashunter.bsky.social",
 "name": "🐚🫲",
@@ -2349,6 +2412,60 @@
 "reposts": 0,
 "url": "https://bsky.app/profile/ttrashunter.bsky.social/post/3n33p2qinbk2i",
 "term": "사고"
+},
+{
+"platform": "YouTube",
+"text": "정전협정에 없던 서해의 경계선! 70년 동안 누가 지켰나?",
+"handle": "UC0jkGAVYP34l7j6PrgWt2Aw",
+"name": "꺼리디펜스",
+"time": "2026-11-24T22:30:17Z",
+"term": "정전",
+"url": "https://www.youtube.com/watch?v=hBmG8-ZlmV8"
+},
+{
+"platform": "YouTube",
+"text": "🚉 지하철 계단 손잡이 끝이 벽 쪽으로 꺾여 있는 이유 (30cm 연장과 점자표지판)",
+"handle": "UCCP6jofZMOGrJ8mHV7Td5jg",
+"name": "꿈꾸는건축가",
+"time": "2026-11-24T22:30:09Z",
+"term": "지하철",
+"url": "https://www.youtube.com/watch?v=n7XyaltzWhk"
+},
+{
+"platform": "YouTube",
+"text": "뉴욕 지하철 출입방법이 다르다",
+"handle": "UCuIacTPcap8aHQlVrigrq6A",
+"name": "지식섬",
+"time": "2026-11-24T22:30:04Z",
+"term": "지하철",
+"url": "https://www.youtube.com/watch?v=J6I9sxPmGDM"
+},
+{
+"platform": "YouTube",
+"text": "길동철물점 😂 60대 어머니 사장님 폭발! 도매업체 전화 좀 그만해!",
+"handle": "UCEET66oBI3cE37GTIZz2oVw",
+"name": "여치83 ai군데리아-만물상",
+"time": "2026-11-24T22:26:57Z",
+"term": "폭발",
+"url": "https://www.youtube.com/watch?v=Sk7KZXvwHZ8"
+},
+{
+"platform": "YouTube",
+"text": "지하철 파업 철회, 끝까지 남은 조건 알고 보니 역 전화번호 #지하철파업 #서울지하철 #shorts",
+"handle": "UCIkA4DYzoPqj8Wtv6tI0A9A",
+"name": "세모이",
+"time": "2026-11-24T22:26:35Z",
+"term": "지하철",
+"url": "https://www.youtube.com/watch?v=FTzevWih9OU"
+},
+{
+"platform": "YouTube",
+"text": "서울 지하철 제1노조 임단협 타결…총파업 철회",
+"handle": "UC26TMZTJaoD1a02lCg_sOJw",
+"name": "PPN 뉴스",
+"time": "2026-11-24T22:25:06Z",
+"term": "지하철",
+"url": "https://www.youtube.com/watch?v=79TMnfXtlYE"
 },
 {
 "text": "【지진 정보】일본 시간 11월 25일 07:20경\n진원: Aizu, Fukushima Prefecture (M3.4, 깊이 약 10km)\n최대 진도: 1\n진도 1: 후쿠시마현\n이 지진으로 인한 쓰나미 걱정은 없습니다.\n(일본 기상청 발표)\n#일본 #지진 #방재",
@@ -2361,6 +2478,42 @@
 "term": "지진"
 },
 {
+"platform": "YouTube",
+"text": "서울 지하철 협상 타결로 파업 철회…출근대란 없어 / 연합뉴스TV (YonhapnewsTV)",
+"handle": "UCTHCOPwqNfZ0uiKOvFyhGwg",
+"name": "연합뉴스TV",
+"time": "2026-11-24T22:23:36Z",
+"term": "지하철",
+"url": "https://www.youtube.com/watch?v=ZspL7u0jyLM"
+},
+{
+"platform": "YouTube",
+"text": "이화영의 꺼드럭 태도가 모든걸 말해준다.민주의원들의 굽신댄 이유도. #이화영부지사 #대북송금 #보수 #속보 #정치쇼츠  #국민의힘 #국회 #뉴스  #쇼츠 #우파 #이재명  #정치",
+"handle": "UCeS4xKlFFJ-UWyQ1XRrCW_A",
+"name": "정치박스",
+"time": "2026-11-24T22:23:23Z",
+"term": "속보",
+"url": "https://www.youtube.com/watch?v=4MQU8yh-_xw"
+},
+{
+"platform": "YouTube",
+"text": "이루네, 신성의 밤 퍼포에 여왕들 웃음폭발~  #이루네 #신성 #전설의사내",
+"handle": "UCKJsBmL_7X--PZeYDSKZihw",
+"name": "chsk121",
+"time": "2026-11-24T22:20:41Z",
+"term": "폭발",
+"url": "https://www.youtube.com/watch?v=2Pez-MxLPcQ"
+},
+{
+"platform": "YouTube",
+"text": "(속보) 강금실 국정원장·한준호 행안부 중폭 개각…'인재 풀 좁아졌다' 친중 논란까지",
+"handle": "UCQb6bwZKzBrnC7FGi1mfZRg",
+"name": "보수판독",
+"time": "2026-11-24T22:20:11Z",
+"term": "속보",
+"url": "https://www.youtube.com/watch?v=l2RGdajuXOw"
+},
+{
 "text": "서울 지하철 1~8호선 노사가 25일 새벽 임단협을 타결하고 예고됐던 총파업을 철회했습니다. 3개 노조 모두 협상을 마무리해 출근길 대란은 피하게 됐고, 신규 채용 규모 등을 두고 하룻밤 교섭이 이어졌습니다.\n\n#서울지하철 #출근길 #임단협",
 "handle": "storyhana.bsky.social",
 "name": "storyhana.bsky.social",
@@ -2371,6 +2524,33 @@
 "term": "지하철"
 },
 {
+"platform": "YouTube",
+"text": "임영웅 첫차｜흥겨움 폭발하는 신나는 무대",
+"handle": "UC5N03oPE_zrH-Ei_hEEOocQ",
+"name": "생활톡톡",
+"time": "2026-11-24T22:16:32Z",
+"term": "폭발",
+"url": "https://www.youtube.com/watch?v=oFZ2-eLMKSQ"
+},
+{
+"platform": "YouTube",
+"text": "시베리아 숲 2,150㎢가 쓰러졌다 | 퉁구스카 폭발 [미스터리]",
+"handle": "UCIiqYzWrWsWP3Av0h8t9pig",
+"name": "미스터리 사료관",
+"time": "2026-11-24T22:15:28Z",
+"term": "폭발",
+"url": "https://www.youtube.com/watch?v=GapWngiM9X8"
+},
+{
+"platform": "YouTube",
+"text": "출근길 지하철에서 5분만 눈 감은 직장인의 최후",
+"handle": "UCIEYKIZcCrRSc3fVUvaBUEg",
+"name": "동기부여 나라",
+"time": "2026-11-24T22:14:47Z",
+"term": "지하철",
+"url": "https://www.youtube.com/watch?v=JVV0AChY-0E"
+},
+{
 "text": "지하철 파업 한다해서 일찍 일어났는데 새벽에 협상 타결됬다고해서 그냥 일찍 출근한 사람됨\nmusic.youtube.com/watch?v=Y4JQ...",
 "handle": "j5games.bsky.social",
 "name": "J5",
@@ -2379,210 +2559,36 @@
 "reposts": 0,
 "url": "https://bsky.app/profile/j5games.bsky.social/post/3n33o27aads2r",
 "term": "지하철"
-},
-{
-"platform": "YouTube",
-"text": "(속보) '탄핵만이 답입니다' 취임 반년 만에 꺼낸 탄핵 선언, 대구 도심 피꺼솟",
-"handle": "UCZK5MyWyaNVgvuj5bdfMJiA",
-"name": "애국시민TV",
-"time": "2026-11-24T22:03:18Z",
-"term": "속보",
-"url": "https://www.youtube.com/watch?v=HCf0MCt2ZJo"
-},
-{
-"platform": "YouTube",
-"text": "서울지하철 총파업 철회...출근길 대란 피해 / YTN",
-"handle": "UChlgI3UHCOnwUGzWzbJ3H5w",
-"name": " YTN",
-"time": "2026-11-24T22:02:46Z",
-"term": "지하철",
-"url": "https://www.youtube.com/watch?v=_ZyeePu1VaI"
-},
-{
-"platform": "YouTube",
-"text": "[월가속보]🚨엔비디아 급락, 월가 왜 돌아섰나? 젠슨 황 복귀 다음 날 -7%, 월가 영상 5편 해설]#3.1경제독립tv",
-"handle": "UCNlQ2wMsg_mR7brbvOkHrwQ",
-"name": "3.1경제독립tv",
-"time": "2026-11-24T22:00:38Z",
-"term": "속보",
-"url": "https://www.youtube.com/watch?v=zWQw-KEz-fg"
-},
-{
-"platform": "YouTube",
-"text": "서울 지하철 파업 철회…3개 노조 타결로 1~8호선 정상 운행",
-"handle": "UCFvKWzKb3OJAKKAl5Oul4Ag",
-"name": "중립뉴스",
-"time": "2026-11-24T22:00:34Z",
-"term": "지하철",
-"url": "https://www.youtube.com/watch?v=g-RFl-BXhaY"
-},
-{
-"platform": "YouTube",
-"text": "붕괴: 넥서스 아니마 최종 베타｜아니마 포획·진화부터 넥서스 아레나까지",
-"handle": "UCxO5ycDyvxq0o-yguwne5Mw",
-"name": "GAME PICK!!",
-"time": "2026-11-24T22:00:32Z",
-"term": "붕괴",
-"url": "https://www.youtube.com/watch?v=y8uV-kJ57uo"
-},
-{
-"platform": "YouTube",
-"text": "리센느닷없이 텐션 폭발 모음 ㅋㅋ",
-"handle": "UCPVwb1yxnj17LmPQRcYA5lg",
-"name": "감자전",
-"time": "2026-11-24T22:00:32Z",
-"term": "폭발",
-"url": "https://www.youtube.com/watch?v=-3Qwy6BwKkE"
-},
-{
-"platform": "YouTube",
-"text": "지하철 노조가 총파업을 한다는데, 왜 출근길 지하철은 100% 그대로 달리고 낮과 밤에만 열차가 줄어들까? #Shorts",
-"handle": "UCPyclaEi89f9neBAWB0BhQA",
-"name": "이상한 이유 사전",
-"time": "2026-11-24T22:00:28Z",
-"term": "지하철",
-"url": "https://www.youtube.com/watch?v=GM8RXQbsE5o"
-},
-{
-"platform": "YouTube",
-"text": "추미애 \"그래서 어쨌다는 겁니까?\"에 폭발한 김태흠",
-"handle": "UCdt2bGCLW_gajXavstsJKTQ",
-"name": "정치뒷담",
-"time": "2026-11-24T22:00:27Z",
-"term": "폭발",
-"url": "https://www.youtube.com/watch?v=NiFCZcfVvU4"
-},
-{
-"platform": "YouTube",
-"text": "엄살 폭발ㅋ 댕댕이들 반응",
-"handle": "UCXIxn0UKP2lxz2POTjixqqw",
-"name": "숏랭크어",
-"time": "2026-11-24T22:00:25Z",
-"term": "폭발",
-"url": "https://www.youtube.com/watch?v=P1VrDaJwS7I"
-},
-{
-"platform": "YouTube",
-"text": "폭발 직전 멈춘 셔틀, 러시아 우주인이 나선 이유 | 아마겟돈",
-"handle": "UCUyaJVXIf5_doKSGeno3y_A",
-"name": "G리는무비",
-"time": "2026-11-24T22:00:25Z",
-"term": "폭발",
-"url": "https://www.youtube.com/watch?v=PILZBvePuk4"
-},
-{
-"platform": "YouTube",
-"text": "[PlayList] 퇴근길, 지하철·버스에서 혼자 듣는 노래 | 복잡한 마음을 정리하며 듣는 감성 팝",
-"handle": "UCtEybLioc68Rt-vRJ4-pLRQ",
-"name": "길 위의 플레이리스트",
-"time": "2026-11-24T22:00:25Z",
-"term": "지하철",
-"url": "https://www.youtube.com/watch?v=5ThrabnvqSk"
-},
-{
-"platform": "YouTube",
-"text": "(속보) 2차 가해 하는 겁니까, 한민수 격분...",
-"handle": "UCDwEkmLt93dP9wYvboJjo2g",
-"name": "꿀잼영화",
-"time": "2026-11-24T22:00:24Z",
-"term": "속보",
-"url": "https://www.youtube.com/watch?v=ZFb9zu2fZwQ"
-},
-{
-"platform": "YouTube",
-"text": "11월 25일 01 | 서울지하철 3개 노조 모두 타결·1~8호선 첫차부터 정상 운행",
-"handle": "UCL7BukOoanL_M9wK6SxMxCw",
-"name": "MDIR NEWS",
-"time": "2026-11-24T22:00:23Z",
-"term": "지하철",
-"url": "https://www.youtube.com/watch?v=rltBTOCreHI"
-},
-{
-"platform": "YouTube",
-"text": "🎵첫곡부터 감성폭발 케이팝♥️2026년 11월 4주차 | 인기차트 | 멜론차트 X | 노동요 | 𝐊-𝐏𝐎𝐏 | 에스파 베몬 키키 아이브 아일릿 엔믹스 미야오 하츠투하츠 A20",
-"handle": "UCwJReOG1PPTruGsYVIaok8A",
-"name": "IDoL_Archive",
-"time": "2026-11-24T22:00:16Z",
-"term": "폭발",
-"url": "https://www.youtube.com/watch?v=_0XEKjmrNUM"
-},
-{
-"platform": "YouTube",
-"text": "재구름에 22명 숨졌다. 화이트섬 화산폭발, 안 알린 건 뭘까",
-"handle": "UC4d4rMXGy5U79VRlwLdzefw",
-"name": "최악의사고",
-"time": "2026-11-24T22:00:14Z",
-"term": "폭발",
-"url": "https://www.youtube.com/watch?v=4Lwv1euHkiA"
-},
-{
-"platform": "YouTube",
-"text": "지하철 노약자석서 할머니 밀치던 남자, 옆자리 군인이 일으키자 얼어붙은 이유 #사이다 #참교육#Shorts",
-"handle": "UCn64PUlWYALy1UrsuuduOZA",
-"name": "썰 풀어 주는 맨",
-"time": "2026-11-24T22:00:09Z",
-"term": "지하철",
-"url": "https://www.youtube.com/watch?v=nTb3LHCilts"
-},
-{
-"platform": "YouTube",
-"text": "\"왜 말을 못 합니까!\" 박형수 폭발",
-"handle": "UCgBznaeqkllLzKLZ0L8Tvfw",
-"name": "할말은한다",
-"time": "2026-11-24T22:00:07Z",
-"term": "폭발",
-"url": "https://www.youtube.com/watch?v=1H3xsO0sJ2c"
-},
-{
-"platform": "YouTube",
-"text": "유치원 마술공연 | 공중에 떠오르는 테이블에 아이들 함성 폭발",
-"handle": "UCPrwSp5_mNAdOSDSfNzN-0w",
-"name": "예술더하기예술",
-"time": "2026-11-24T22:00:07Z",
-"term": "폭발",
-"url": "https://www.youtube.com/watch?v=D25CPlwEkBA"
-},
-{
-"platform": "YouTube",
-"text": "🔥 와~ 이 노래 뭐야?! 첫 곡부터 흥이 폭발하는 신나는 트로트 메들리 🎶 운전할 때 일할 때 듣기 좋은 최신트로트 디스코뽕짝 1시간",
-"handle": "UCSfw1BmG16j0TOvhGW8RodQ",
-"name": "트롯메들리티비",
-"time": "2026-11-24T22:00:06Z",
-"term": "폭발",
-"url": "https://www.youtube.com/watch?v=rT3XFRzuVeQ"
-},
-{
-"platform": "YouTube",
-"text": "서울 지하철 파업 직전 극적 타결… 오늘 뉴스 3",
-"handle": "UCK4hlcDfDkWKrmfhbJ1xBLQ",
-"name": "알쓸잡학",
-"time": "2026-11-24T22:00:06Z",
-"term": "지하철",
-"url": "https://www.youtube.com/watch?v=pYjLC-7H0u8"
-},
-{
-"platform": "YouTube",
-"text": "지하철 파업 없던 일 된 이유 🚇 #shorts",
-"handle": "UCTCujN_xI84AW7MHqKbFptQ",
-"name": "1분 출근뉴스",
-"time": "2026-11-24T22:00:00Z",
-"term": "지하철",
-"url": "https://www.youtube.com/watch?v=GZArX2x_iWU"
 }
 ],
-"spikes": [],
+"spikes": [
+{
+"term": "폭발",
+"n30": 6,
+"base": 0.1,
+"spike": true,
+"since": "2026-11-24T22:34:58.989126+00:00"
+},
+{
+"term": "지하철",
+"n30": 10,
+"base": 1.2,
+"spike": true,
+"since": "2026-11-24T22:34:58.989126+00:00"
+}
+],
 "baseline": {
-"지진": 0.82,
+"지진": 0.84,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.12,
+"폭발": 0.11,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 1.24,
-"사고": 1.04,
+"지하철": 1.32,
+"사고": 1.24,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -2593,200 +2599,267 @@
 "ytPosts": [
 {
 "platform": "YouTube",
-"text": "서울지하철 총파업 철회...출근길 대란 피해 / YTN",
-"handle": "UChlgI3UHCOnwUGzWzbJ3H5w",
-"name": " YTN",
-"time": "2026-11-24T22:02:46Z",
-"term": "지하철",
-"url": "https://www.youtube.com/watch?v=_ZyeePu1VaI"
+"text": "[화제 폭발] 강금실 법무장관시절 검사들에게 보낸  '눈사람'  편지 전문!/2026.11.25",
+"handle": "UC-qSipf88NifyK3Q-gZ8JBw",
+"name": "양영태 박사TV",
+"time": "2026-11-24T22:30:21Z",
+"term": "폭발",
+"url": "https://www.youtube.com/watch?v=UrewTjEB2PM"
 },
 {
 "platform": "YouTube",
-"text": "(속보) '탄핵만이 답입니다' 취임 반년 만에 꺼낸 탄핵 선언, 대구 도심 피꺼솟",
-"handle": "UCZK5MyWyaNVgvuj5bdfMJiA",
-"name": "애국시민TV",
-"time": "2026-11-24T22:03:18Z",
+"text": "지하철 노약자석에서 훈장 단 할아버지를 비웃던 청년, 10초 뒤 열차 칸 전체가 얼어붙은 이유 #shorts, #참전용사, #반전드라마",
+"handle": "UCmSbkfvA196Iri0Q3QJKc-g",
+"name": "복지대세",
+"time": "2026-11-24T22:30:22Z",
+"term": "지하철",
+"url": "https://www.youtube.com/watch?v=K-hqqua8EAE"
+},
+{
+"platform": "YouTube",
+"text": "[현대모비스 주가전망] 11월 25일(수) 장전 속보! 오늘 급등·기관 8일 연속 매수, 내일 더 갈까",
+"handle": "UCOFAbHFMC3xUYhtwvB2N84w",
+"name": "New Magic VFX",
+"time": "2026-11-24T22:30:36Z",
 "term": "속보",
-"url": "https://www.youtube.com/watch?v=HCf0MCt2ZJo"
+"url": "https://www.youtube.com/watch?v=kCRdqepBROg"
 },
 {
 "platform": "YouTube",
-"text": "엄살 폭발ㅋ 댕댕이들 반응",
-"handle": "UCXIxn0UKP2lxz2POTjixqqw",
-"name": "숏랭크어",
-"time": "2026-11-24T22:00:25Z",
-"term": "폭발",
-"url": "https://www.youtube.com/watch?v=P1VrDaJwS7I"
-},
-{
-"platform": "YouTube",
-"text": "폭발 직전 멈춘 셔틀, 러시아 우주인이 나선 이유 | 아마겟돈",
-"handle": "UCUyaJVXIf5_doKSGeno3y_A",
-"name": "G리는무비",
-"time": "2026-11-24T22:00:25Z",
-"term": "폭발",
-"url": "https://www.youtube.com/watch?v=PILZBvePuk4"
-},
-{
-"platform": "YouTube",
-"text": "지하철 노조가 총파업을 한다는데, 왜 출근길 지하철은 100% 그대로 달리고 낮과 밤에만 열차가 줄어들까? #Shorts",
-"handle": "UCPyclaEi89f9neBAWB0BhQA",
-"name": "이상한 이유 사전",
-"time": "2026-11-24T22:00:28Z",
+"text": "뉴욕 지하철 출입방법이 다르다",
+"handle": "UCuIacTPcap8aHQlVrigrq6A",
+"name": "지식섬",
+"time": "2026-11-24T22:30:04Z",
 "term": "지하철",
-"url": "https://www.youtube.com/watch?v=GM8RXQbsE5o"
+"url": "https://www.youtube.com/watch?v=J6I9sxPmGDM"
 },
 {
 "platform": "YouTube",
-"text": "추미애 \"그래서 어쨌다는 겁니까?\"에 폭발한 김태흠",
-"handle": "UCdt2bGCLW_gajXavstsJKTQ",
-"name": "정치뒷담",
-"time": "2026-11-24T22:00:27Z",
+"text": "정전협정에 없던 서해의 경계선! 70년 동안 누가 지켰나?",
+"handle": "UC0jkGAVYP34l7j6PrgWt2Aw",
+"name": "꺼리디펜스",
+"time": "2026-11-24T22:30:17Z",
+"term": "정전",
+"url": "https://www.youtube.com/watch?v=hBmG8-ZlmV8"
+},
+{
+"platform": "YouTube",
+"text": "\"소리가 이상해요\" 미국 대기업 공장 폭발 직전, 한국인 직원 딸이 기적을 일으켰다 l 오디오북",
+"handle": "UC0TQOScKwWRvoaPQcCO1cYQ",
+"name": "Leah Hall",
+"time": "2026-11-24T22:30:31Z",
 "term": "폭발",
-"url": "https://www.youtube.com/watch?v=NiFCZcfVvU4"
+"url": "https://www.youtube.com/watch?v=xZQeHnj1Hqg"
 },
 {
 "platform": "YouTube",
-"text": "[월가속보]🚨엔비디아 급락, 월가 왜 돌아섰나? 젠슨 황 복귀 다음 날 -7%, 월가 영상 5편 해설]#3.1경제독립tv",
-"handle": "UCNlQ2wMsg_mR7brbvOkHrwQ",
-"name": "3.1경제독립tv",
-"time": "2026-11-24T22:00:38Z",
+"text": "서울 지하철 파업 철회 🚇 새벽 3시 극적 타결, 뭐가 바뀌나 #지하철파업 #팩트한컷 #Shorts",
+"handle": "UClSgR0FHgazQmHAamfN-SqA",
+"name": "팩트한컷",
+"time": "2026-11-24T22:30:55Z",
+"term": "지하철",
+"url": "https://www.youtube.com/watch?v=WsaI4yiTRVs"
+},
+{
+"platform": "YouTube",
+"text": "[삼성SDI 주가전망] 개장 전 충격 속보! 결국 터질게 터졌다!",
+"handle": "UCuLN9Mh9aVEWGlNIBakgcTw",
+"name": "오늘의급등주식",
+"time": "2026-11-24T22:30:22Z",
 "term": "속보",
-"url": "https://www.youtube.com/watch?v=zWQw-KEz-fg"
+"url": "https://www.youtube.com/watch?v=x78ICkfQxcs"
 },
 {
 "platform": "YouTube",
-"text": "🔥 와~ 이 노래 뭐야?! 첫 곡부터 흥이 폭발하는 신나는 트로트 메들리 🎶 운전할 때 일할 때 듣기 좋은 최신트로트 디스코뽕짝 1시간",
-"handle": "UCSfw1BmG16j0TOvhGW8RodQ",
-"name": "트롯메들리티비",
-"time": "2026-11-24T22:00:06Z",
+"text": "🚉 지하철 계단 손잡이 끝이 벽 쪽으로 꺾여 있는 이유 (30cm 연장과 점자표지판)",
+"handle": "UCCP6jofZMOGrJ8mHV7Td5jg",
+"name": "꿈꾸는건축가",
+"time": "2026-11-24T22:30:09Z",
+"term": "지하철",
+"url": "https://www.youtube.com/watch?v=n7XyaltzWhk"
+},
+{
+"platform": "YouTube",
+"text": "지하철 파업 철회, 끝까지 남은 조건 알고 보니 역 전화번호 #지하철파업 #서울지하철 #shorts",
+"handle": "UCIkA4DYzoPqj8Wtv6tI0A9A",
+"name": "세모이",
+"time": "2026-11-24T22:26:35Z",
+"term": "지하철",
+"url": "https://www.youtube.com/watch?v=FTzevWih9OU"
+},
+{
+"platform": "YouTube",
+"text": "서울 지하철 제1노조 임단협 타결…총파업 철회",
+"handle": "UC26TMZTJaoD1a02lCg_sOJw",
+"name": "PPN 뉴스",
+"time": "2026-11-24T22:25:06Z",
+"term": "지하철",
+"url": "https://www.youtube.com/watch?v=79TMnfXtlYE"
+},
+{
+"platform": "YouTube",
+"text": "길동철물점 😂 60대 어머니 사장님 폭발! 도매업체 전화 좀 그만해!",
+"handle": "UCEET66oBI3cE37GTIZz2oVw",
+"name": "여치83 ai군데리아-만물상",
+"time": "2026-11-24T22:26:57Z",
 "term": "폭발",
-"url": "https://www.youtube.com/watch?v=rT3XFRzuVeQ"
+"url": "https://www.youtube.com/watch?v=Sk7KZXvwHZ8"
 },
 {
 "platform": "YouTube",
-"text": "서울 지하철 파업 철회…3개 노조 타결로 1~8호선 정상 운행",
-"handle": "UCFvKWzKb3OJAKKAl5Oul4Ag",
-"name": "중립뉴스",
-"time": "2026-11-24T22:00:34Z",
+"text": "서울 지하철 협상 타결로 파업 철회…출근대란 없어 / 연합뉴스TV (YonhapnewsTV)",
+"handle": "UCTHCOPwqNfZ0uiKOvFyhGwg",
+"name": "연합뉴스TV",
+"time": "2026-11-24T22:23:36Z",
 "term": "지하철",
-"url": "https://www.youtube.com/watch?v=g-RFl-BXhaY"
+"url": "https://www.youtube.com/watch?v=ZspL7u0jyLM"
 },
 {
 "platform": "YouTube",
-"text": "[PlayList] 퇴근길, 지하철·버스에서 혼자 듣는 노래 | 복잡한 마음을 정리하며 듣는 감성 팝",
-"handle": "UCtEybLioc68Rt-vRJ4-pLRQ",
-"name": "길 위의 플레이리스트",
-"time": "2026-11-24T22:00:25Z",
-"term": "지하철",
-"url": "https://www.youtube.com/watch?v=5ThrabnvqSk"
-},
-{
-"platform": "YouTube",
-"text": "붕괴: 넥서스 아니마 최종 베타｜아니마 포획·진화부터 넥서스 아레나까지",
-"handle": "UCxO5ycDyvxq0o-yguwne5Mw",
-"name": "GAME PICK!!",
-"time": "2026-11-24T22:00:32Z",
-"term": "붕괴",
-"url": "https://www.youtube.com/watch?v=y8uV-kJ57uo"
-},
-{
-"platform": "YouTube",
-"text": "(속보) 2차 가해 하는 겁니까, 한민수 격분...",
-"handle": "UCDwEkmLt93dP9wYvboJjo2g",
-"name": "꿀잼영화",
-"time": "2026-11-24T22:00:24Z",
+"text": "이화영의 꺼드럭 태도가 모든걸 말해준다.민주의원들의 굽신댄 이유도. #이화영부지사 #대북송금 #보수 #속보 #정치쇼츠  #국민의힘 #국회 #뉴스  #쇼츠 #우파 #이재명  #정치",
+"handle": "UCeS4xKlFFJ-UWyQ1XRrCW_A",
+"name": "정치박스",
+"time": "2026-11-24T22:23:23Z",
 "term": "속보",
-"url": "https://www.youtube.com/watch?v=ZFb9zu2fZwQ"
+"url": "https://www.youtube.com/watch?v=4MQU8yh-_xw"
 },
 {
 "platform": "YouTube",
-"text": "\"왜 말을 못 합니까!\" 박형수 폭발",
-"handle": "UCgBznaeqkllLzKLZ0L8Tvfw",
-"name": "할말은한다",
-"time": "2026-11-24T22:00:07Z",
+"text": "이루네, 신성의 밤 퍼포에 여왕들 웃음폭발~  #이루네 #신성 #전설의사내",
+"handle": "UCKJsBmL_7X--PZeYDSKZihw",
+"name": "chsk121",
+"time": "2026-11-24T22:20:41Z",
 "term": "폭발",
-"url": "https://www.youtube.com/watch?v=1H3xsO0sJ2c"
+"url": "https://www.youtube.com/watch?v=2Pez-MxLPcQ"
 },
 {
 "platform": "YouTube",
-"text": "🎵첫곡부터 감성폭발 케이팝♥️2026년 11월 4주차 | 인기차트 | 멜론차트 X | 노동요 | 𝐊-𝐏𝐎𝐏 | 에스파 베몬 키키 아이브 아일릿 엔믹스 미야오 하츠투하츠 A20",
-"handle": "UCwJReOG1PPTruGsYVIaok8A",
-"name": "IDoL_Archive",
-"time": "2026-11-24T22:00:16Z",
+"text": "(속보) 강금실 국정원장·한준호 행안부 중폭 개각…'인재 풀 좁아졌다' 친중 논란까지",
+"handle": "UCQb6bwZKzBrnC7FGi1mfZRg",
+"name": "보수판독",
+"time": "2026-11-24T22:20:11Z",
+"term": "속보",
+"url": "https://www.youtube.com/watch?v=l2RGdajuXOw"
+},
+{
+"platform": "YouTube",
+"text": "임영웅 첫차｜흥겨움 폭발하는 신나는 무대",
+"handle": "UC5N03oPE_zrH-Ei_hEEOocQ",
+"name": "생활톡톡",
+"time": "2026-11-24T22:16:32Z",
 "term": "폭발",
-"url": "https://www.youtube.com/watch?v=_0XEKjmrNUM"
+"url": "https://www.youtube.com/watch?v=oFZ2-eLMKSQ"
 },
 {
 "platform": "YouTube",
-"text": "지하철 파업 없던 일 된 이유 🚇 #shorts",
-"handle": "UCTCujN_xI84AW7MHqKbFptQ",
-"name": "1분 출근뉴스",
-"time": "2026-11-24T22:00:00Z",
+"text": "시베리아 숲 2,150㎢가 쓰러졌다 | 퉁구스카 폭발 [미스터리]",
+"handle": "UCIiqYzWrWsWP3Av0h8t9pig",
+"name": "미스터리 사료관",
+"time": "2026-11-24T22:15:28Z",
+"term": "폭발",
+"url": "https://www.youtube.com/watch?v=GapWngiM9X8"
+},
+{
+"platform": "YouTube",
+"text": "출근길 지하철에서 5분만 눈 감은 직장인의 최후",
+"handle": "UCIEYKIZcCrRSc3fVUvaBUEg",
+"name": "동기부여 나라",
+"time": "2026-11-24T22:14:47Z",
 "term": "지하철",
-"url": "https://www.youtube.com/watch?v=GZArX2x_iWU"
-},
-{
-"platform": "YouTube",
-"text": "11월 25일 01 | 서울지하철 3개 노조 모두 타결·1~8호선 첫차부터 정상 운행",
-"handle": "UCL7BukOoanL_M9wK6SxMxCw",
-"name": "MDIR NEWS",
-"time": "2026-11-24T22:00:23Z",
-"term": "지하철",
-"url": "https://www.youtube.com/watch?v=rltBTOCreHI"
-},
-{
-"platform": "YouTube",
-"text": "리센느닷없이 텐션 폭발 모음 ㅋㅋ",
-"handle": "UCPVwb1yxnj17LmPQRcYA5lg",
-"name": "감자전",
-"time": "2026-11-24T22:00:32Z",
-"term": "폭발",
-"url": "https://www.youtube.com/watch?v=-3Qwy6BwKkE"
-},
-{
-"platform": "YouTube",
-"text": "서울 지하철 파업 직전 극적 타결… 오늘 뉴스 3",
-"handle": "UCK4hlcDfDkWKrmfhbJ1xBLQ",
-"name": "알쓸잡학",
-"time": "2026-11-24T22:00:06Z",
-"term": "지하철",
-"url": "https://www.youtube.com/watch?v=pYjLC-7H0u8"
-},
-{
-"platform": "YouTube",
-"text": "재구름에 22명 숨졌다. 화이트섬 화산폭발, 안 알린 건 뭘까",
-"handle": "UC4d4rMXGy5U79VRlwLdzefw",
-"name": "최악의사고",
-"time": "2026-11-24T22:00:14Z",
-"term": "폭발",
-"url": "https://www.youtube.com/watch?v=4Lwv1euHkiA"
-},
-{
-"platform": "YouTube",
-"text": "지하철 노약자석서 할머니 밀치던 남자, 옆자리 군인이 일으키자 얼어붙은 이유 #사이다 #참교육#Shorts",
-"handle": "UCn64PUlWYALy1UrsuuduOZA",
-"name": "썰 풀어 주는 맨",
-"time": "2026-11-24T22:00:09Z",
-"term": "지하철",
-"url": "https://www.youtube.com/watch?v=nTb3LHCilts"
-},
-{
-"platform": "YouTube",
-"text": "유치원 마술공연 | 공중에 떠오르는 테이블에 아이들 함성 폭발",
-"handle": "UCPrwSp5_mNAdOSDSfNzN-0w",
-"name": "예술더하기예술",
-"time": "2026-11-24T22:00:07Z",
-"term": "폭발",
-"url": "https://www.youtube.com/watch?v=D25CPlwEkBA"
+"url": "https://www.youtube.com/watch?v=JVV0AChY-0E"
 }
 ],
-"ytAt": "2026-11-24T22:03:35.720837+00:00"
+"ytAt": "2026-11-24T22:34:58.989126+00:00"
 },
 "trends": [
 {
-"term": "마녀",
+"term": "슬로반 브라티슬라바 대 레알 베티스",
+"traffic": "100+",
+"time": "2026-11-24T21:30:00+00:00",
+"news": [
+{
+"title": "슬로반 브라티슬라바 vs 레알 베티스 예측: 좋은 컨디션을 유지하고 있는 두 팀의 맞대결입니다.",
+"source": "Vietnam.vn",
+"link": "https://www.vietnam.vn/ko/nhan-dinh-slovan-bratislava-vs-real-betis-man-so-tai-cua-hai-doi-vao-phom"
+}
+],
+"new": true
+},
+{
+"term": "테슬라",
 "traffic": "200+",
+"time": "2026-11-24T21:30:00+00:00",
+"news": [
+{
+"title": "테슬라-스페이스X 합병 '본격' 시작되나...특별위원회 구성",
+"source": "마켓인",
+"link": "https://marketin.edaily.co.kr/News/ReadE?newsId=01613766645649328"
+},
+{
+"title": "스페이스X·테슬라 합병특위 이사 5명 결정…역대급 합병 시동 - 머니투데이",
+"source": "머니투데이",
+"link": "https://www.mt.co.kr/world/2026/11/24/2026112416594231003"
+}
+],
+"new": true
+},
+{
+"term": "인천광역시",
+"traffic": "100+",
+"time": "2026-11-24T21:30:00+00:00",
+"news": [
+{
+"title": "인천시교육청, AI 시대 맞춤 독서교육 실천 방안 모색",
+"source": "뉴스타운",
+"link": "https://www.newstown.co.kr/news/articleView.html?idxno=723138"
+},
+{
+"title": "인천광역시교육청, 독서교육 전문적학습공동체 15팀 연구 성과 공유",
+"source": "일간투데이",
+"link": "https://www.dtoday.co.kr/news/articleView.html?idxno=806042"
+}
+],
+"new": true
+},
+{
+"term": "박지현",
+"traffic": "100+",
+"time": "2026-11-24T21:30:00+00:00",
+"news": [
+{
+"title": "‘한국 여배우 최초 후보’ 박지현, 국제에미상 수상 불발···‘하이퍼나이프’도 고배",
+"source": "경향신문",
+"link": "https://www.khan.co.kr/article/202611242206001"
+},
+{
+"title": "제54회 국제 에미상 시상식 도착한 박지현",
+"source": "뉴시스",
+"link": "https://mobile.newsis.com/photo_view.html?pict_id=NISI20261124_0002300518&pID=1&cID=&sID=1&type=Main&idx=6"
+}
+],
+"new": true
+},
+{
+"term": "미들즈브러 대 스완지 시티",
+"traffic": "100+",
+"time": "2026-11-24T21:30:00+00:00",
+"news": [
+{
+"title": "Middlesbrough 2-1 Swansea City: Myles Peart-Harris and Will Lankshear strike as leaders win",
+"source": "BBC",
+"link": "https://www.bbc.com/sport/football/live/cmkgd1j51wx1t"
+},
+{
+"title": "Ashley Williams | We know the size of the task, and it will need our full focus",
+"source": "Swansea City",
+"link": "https://www.swanseacity.com/news/ashley-williams-we-know-size-task-and-it-will-need-our-full-focus"
+}
+],
+"new": true
+},
+{
+"term": "마녀",
+"traffic": "500+",
 "time": "2026-11-24T21:20:00+00:00",
 "news": [
 {
@@ -2822,7 +2895,7 @@
 },
 {
 "term": "알테오젠",
-"traffic": "100+",
+"traffic": "200+",
 "time": "2026-11-24T21:20:00+00:00",
 "news": [
 {
@@ -2873,100 +2946,9 @@
 }
 ],
 "new": true
-},
-{
-"term": "реал мадрид – псв",
-"traffic": "200+",
-"time": "2026-11-24T21:10:00+00:00",
-"news": [
-{
-"title": "У «Реала» ни одного удара в створ в 1-м тайме матча с ПСВ. Винисиус пробил в крестовину на 11-й минуте",
-"source": "Спорт Mail",
-"link": "https://sportmail.ru/news/others/72990871/"
-},
-{
-"title": "Матч Реал Мадрид - ПСВ: смотреть онлайн прямую трансляцию матча",
-"source": "fclmnews",
-"link": "https://fclm.news/online/138544-real-madrid-psv-video.html"
-}
-],
-"new": true
-},
-{
-"term": "real madrid",
-"traffic": "200+",
-"time": "2026-11-24T21:10:00+00:00",
-"news": [
-{
-"title": "5-1. Güler y Bellingham entierran los fantasmas de 1988",
-"source": "Qué Pasa Noticias - Raleigh",
-"link": "https://quepasamedia.com/deportes/5-1-guler-y-bellingham-entierran-los-fantasmas-de-1988/"
-},
-{
-"title": "VIDEO: Golazo de Federico Valvede para Real Madrid ante PSV Eindhoven por la Champions League",
-"source": "ESPN Deportes",
-"link": "https://espndeportes.espn.com/futbol/champions-league/nota/_/id/17557281/video-gol-federico-valverde-real-madrid-vs-psv-eindhoven-uefa-champions-league"
-}
-],
-"new": true
-},
-{
-"term": "소정리역",
-"traffic": "500+",
-"time": "2026-11-24T21:10:00+00:00",
-"news": [
-{
-"title": "잇단 열차 탈선…4대 중 3대 ‘감지 제동장치’ 없어",
-"source": "KBS 뉴스",
-"link": "https://news.kbs.co.kr/news/view.do?ncd=8720226"
-},
-{
-"title": "\"철도노조 준법투쟁 일단 연기했지만\"…국토부·코레일 수장 시험대 - 머니투데이",
-"source": "머니투데이",
-"link": "https://www.mt.co.kr/estate/2026/11/24/2026112315265225128"
-}
-],
-"new": true
-},
-{
-"term": "안경",
-"traffic": "100+",
-"time": "2026-11-24T21:10:00+00:00",
-"news": [
-{
-"title": "[단독] “안걸리면 수석, 걸리면 군대”…‘커닝장비’ 텔레방 21만명 구독중",
-"source": "매일경제",
-"link": "https://www.mk.co.kr/news/society/12216437"
-},
-{
-"title": "4만 원에 뚫린 시험 공정성...중국 AI 안경 써보니",
-"source": "YTN 사이언스",
-"link": "https://m.science.ytn.co.kr/program/view_today.php?s_mcd=0082&key=202611241104078994"
-}
-],
-"new": true
-},
-{
-"term": "국민연금연구원",
-"traffic": "200+",
-"time": "2026-11-24T21:00:00+00:00",
-"news": [
-{
-"title": "“노인 일자리·국민연금 연계, 노후소득 보장 강화 필요”",
-"source": "이투데이",
-"link": "https://bravo.etoday.co.kr/view/atc_view/20560"
-},
-{
-"title": "국민연금-노인인력개발원, 노후소득보장·노인일자리 협력방안 모색",
-"source": "브릿지경제",
-"link": "https://www.viva100.com/article/20261123501397"
-}
-],
-"new": true
 }
 ],
 "trendSeen": [
-"코레일",
 "코리아 그랜드 뮤직 어워즈",
 "코리아 패싱",
 "코리아오픈 배드민턴",
@@ -3009,6 +2991,7 @@
 "털",
 "테니스",
 "테니스 선수",
+"테슬라",
 "테슬라 모델 y",
 "테슬라 사이버캡",
 "테슬라 사이버트럭",
