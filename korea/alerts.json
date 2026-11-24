@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-24T15:03:13.823538+00:00",
+"updated": "2026-11-24T15:05:27.462613+00:00",
 "errors": [],
 "events": [
 {
@@ -3618,7 +3618,7 @@
 "terms": {
 "지진": {
 "n30": 1,
-"base": 1.0,
+"base": 0.9,
 "spike": false
 },
 "화재": {
@@ -3637,13 +3637,13 @@
 "spike": false
 },
 "폭발": {
-"n30": 6,
-"base": 0.6,
+"n30": 5,
+"base": 0.7,
 "spike": true
 },
 "붕괴": {
-"n30": 1,
-"base": 0.7,
+"n30": 0,
+"base": 0.6,
 "spike": false
 },
 "대피": {
@@ -3663,12 +3663,12 @@
 },
 "지하철": {
 "n30": 1,
-"base": 0.5,
+"base": 0.4,
 "spike": false
 },
 "사고": {
 "n30": 6,
-"base": 7.5,
+"base": 7.4,
 "spike": false
 },
 "실종": {
@@ -3923,24 +3923,24 @@
 "spikes": [
 {
 "term": "폭발",
-"n30": 6,
-"base": 0.6,
+"n30": 5,
+"base": 0.7,
 "spike": true,
-"since": "2026-11-24T15:03:13.823538+00:00"
+"since": "2026-11-24T15:05:27.462613+00:00"
 }
 ],
 "baseline": {
-"지진": 0.91,
-"화재": 0.16,
+"지진": 0.82,
+"화재": 0.14,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.66,
-"붕괴": 0.61,
+"폭발": 0.69,
+"붕괴": 0.55,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.41,
-"사고": 7.39,
+"지하철": 0.37,
+"사고": 7.25,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -4140,7 +4140,7 @@
 "link": "https://www.mt.co.kr/sports/2026/11/24/2026112416370949378"
 }
 ],
-"new": true
+"new": false
 },
 {
 "term": "추성훈 은퇴전",
@@ -4233,6 +4233,24 @@
 "new": false
 },
 {
+"term": "cricbuzz",
+"traffic": "200+",
+"time": "2026-11-24T12:30:00+00:00",
+"news": [
+{
+"title": "INDA vs UAE, 11th Match, Group B, ACC Men's Asia Cup Rising Stars 2026 - Commentary",
+"source": "Cricbuzz",
+"link": "https://www.cricbuzz.com/live-cricket-scores/177203/uae-vs-inda-11th-match-group-b-acc-mens-asia-cup-rising-stars-2026"
+},
+{
+"title": "India A Retains Semi Final Hopes Despite Pakistan Defeat",
+"source": "cwibc.co.id",
+"link": "https://cwibc.co.id/en/india-a-semifinal-qualification-scenarios"
+}
+],
+"new": true
+},
+{
 "term": "대전 하나 시티즌 대 베이징 궈안 순위",
 "traffic": "20000+",
 "time": "2026-11-24T12:10:00+00:00",
@@ -4261,9 +4279,9 @@
 "link": "https://www.donga.com/news/Society/article/all/20261124/135080013/1"
 },
 {
-"title": "함영욱 경기남부청 광역수사단장, 치안감 승진 내정",
-"source": "경인일보",
-"link": "https://www.kyeongin.com/article/1775292"
+"title": "함영욱 경기남부청 광역수사단장 치안감 승진 내정",
+"source": "인천일보",
+"link": "https://www.incheonilbo.com/news/articleView.html?idxno=1337655"
 }
 ],
 "new": true
@@ -4282,24 +4300,6 @@
 "title": "틈만나면, : 비×유연석, 김재욱의 자리 이동 제안에 즉각 움직이며 틈 미션 도전",
 "source": "programs.sbs.co.kr",
 "link": "https://programs.sbs.co.kr/enter/teum/clip/82063/OC484401985"
-}
-],
-"new": true
-},
-{
-"term": "최재훈",
-"traffic": "1000+",
-"time": "2026-11-24T11:50:00+00:00",
-"news": [
-{
-"title": "밀양시, 공공비축미곡 매입으로 농업인 소득 안정화 추진",
-"source": "브릿지경제",
-"link": "https://www.viva100.com/article/20261124500737"
-},
-{
-"title": "[동정] 최재훈 달성군수",
-"source": "아시아뉴스통신",
-"link": "https://m.anewsa.com/article_sub3.php?number=3221182&type=&mobile="
 }
 ],
 "new": true
