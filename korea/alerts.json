@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-24T08:52:59.086476+00:00",
+"updated": "2026-11-24T08:55:17.345546+00:00",
 "errors": [],
 "events": [
 {
@@ -487,7 +487,7 @@
 "id": "VJOMFk5QmF4TUthYnZ5dwoc50832",
 "first": "2026-11-24T08:32:22+00:00",
 "last": "2026-11-24T08:32:22+00:00",
-"updated": "2026-11-24T08:36:57.821966+00:00",
+"updated": "2026-11-24T08:55:17.345546+00:00",
 "headline": "호남고속도로 승용차 관련 추돌사고 치리중",
 "cat": "교통",
 "regions": [],
@@ -501,6 +501,13 @@
 "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBqUURnaFlMSWdSRFFhSVNTTE9vNGFYQlI3Y2Z6c3NnZU5EcTFsMEZ5Q3F0RGhvQzQzbW9pQ21VbWlfWUNJTW9lMll1UkY3QVVGS0J1T2NIdEVlT3NlaGVCUFRVOVJOMFk5QmF4TUthYnZ5dw?oc=5",
 "time": "2026-11-24T08:32:22+00:00",
 "stage": "얼럿"
+},
+{
+"title": "[속보] 호남고속도로 승용차 관련 추돌사고 치리중",
+"source": "스페셜타임스",
+"link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBoOXpxMHhnNDI3UVBUc040WVdhZUU2OW8zZTk5MWptTTdnellnRTNHb1UzUEsxSWdjblFHbzdhNUJpb1hhR0hLeDdyYUgxbDladzJ3dTRVcElhQW1sa1VBaWFfRXFnWlJMZlBIVlZDb0h2bTA?oc=5",
+"time": "2026-11-24T08:32:22+00:00",
+"stage": "속보"
 }
 ],
 "level": "URGENT",
@@ -4093,7 +4100,7 @@
 "terms": {
 "지진": {
 "n30": 2,
-"base": 1.3,
+"base": 1.4,
 "spike": false
 },
 "화재": {
@@ -4113,7 +4120,7 @@
 },
 "폭발": {
 "n30": 2,
-"base": 1.5,
+"base": 1.6,
 "spike": false
 },
 "붕괴": {
@@ -4132,18 +4139,18 @@
 "spike": false
 },
 "속보": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
 "지하철": {
 "n30": 1,
-"base": 0.3,
+"base": 0.4,
 "spike": false
 },
 "사고": {
 "n30": 5,
-"base": 3.7,
+"base": 3.8,
 "spike": false
 },
 "실종": {
@@ -4438,17 +4445,17 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 1.35,
+"지진": 1.42,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 1.55,
-"붕괴": 0.64,
+"폭발": 1.59,
+"붕괴": 0.68,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.39,
-"사고": 3.83,
+"지하철": 0.45,
+"사고": 3.95,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -4660,6 +4667,24 @@
 "new": true
 },
 {
+"term": "화장실",
+"traffic": "500+",
+"time": "2026-11-24T07:40:00+00:00",
+"news": [
+{
+"title": "아내 운영 어린이집 화장실 불법촬영'…40대 항소심 집유로 감형",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261124133900061"
+},
+{
+"title": "여교사 12명 '화장실 몰카' 찍은 원장 남편…합의금 2억원으로 실형 면해 - 머니투데이",
+"source": "머니투데이",
+"link": "https://www.mt.co.kr/society/2026/11/24/2026112415445655478"
+}
+],
+"new": false
+},
+{
 "term": "이관희",
 "traffic": "1000+",
 "time": "2026-11-24T07:40:00+00:00",
@@ -4678,37 +4703,19 @@
 "new": true
 },
 {
-"term": "화장실",
-"traffic": "200+",
-"time": "2026-11-24T07:40:00+00:00",
-"news": [
-{
-"title": "아내 운영 어린이집 화장실 불법촬영'…40대 항소심 집유로 감형",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261124133900061"
-},
-{
-"title": "어린이집 화장실 몰카 40대, 2심서 집행유예로 감형",
-"source": "조선일보",
-"link": "https://www.chosun.com/national/court_law/2026/11/24/V7RD7YXQY5COBF3HXFRYBMCBME/"
-}
-],
-"new": false
-},
-{
 "term": "로치",
-"traffic": "200+",
+"traffic": "500+",
 "time": "2026-11-24T07:40:00+00:00",
 "news": [
 {
-"title": "T1 새 사령탑에 '로치' 김강희 선임… 코치진 인선 완료",
-"source": "데일리e스포츠",
-"link": "https://www.dailyesports.com/view.php?ud=20261124170001510874bcc1e038_27"
+"title": "T1, 2027시즌 LCK 코치진 완성 [공식]",
+"source": "이투데이",
+"link": "https://www.etoday.co.kr/news/view/2652441"
 },
 {
-"title": "[단독] '엄티' 엄성현, 2027 시즌 T1 코치진 합류 유력",
-"source": "엑스포츠뉴스",
-"link": "https://www.xportsnews.com/article/2220350"
+"title": "T1 코칭스태프 전면 교체…‘로치’ 김강희·‘제우스’ 최우제가 새 사령탑 후보로 거론",
+"source": "위키트리",
+"link": "https://www.wikitree.co.kr/articles/1176768"
 }
 ],
 "new": true
