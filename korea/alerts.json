@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-24T15:29:59.064265+00:00",
+"updated": "2026-11-24T15:32:15.540196+00:00",
 "errors": [],
 "events": [
 {
@@ -3618,7 +3618,7 @@
 "spike": false
 },
 "화재": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -3633,7 +3633,7 @@
 "spike": false
 },
 "폭발": {
-"n30": 10,
+"n30": 5,
 "base": 0.9,
 "spike": true
 },
@@ -3648,23 +3648,23 @@
 "spike": false
 },
 "미사일": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
 "속보": {
-"n30": 4,
+"n30": 2,
 "base": 0.1,
 "spike": false
 },
 "지하철": {
-"n30": 3,
+"n30": 2,
 "base": 0.1,
 "spike": false
 },
 "사고": {
 "n30": 4,
-"base": 5.0,
+"base": 4.9,
 "spike": false
 },
 "실종": {
@@ -3729,7 +3729,7 @@
 "handle": "0u0.bsky.social",
 "name": "에이",
 "time": "2026-11-24T15:21:58.052Z",
-"likes": 1,
+"likes": 3,
 "reposts": 0,
 "url": "https://bsky.app/profile/0u0.bsky.social/post/3n32x4qtcyc2t",
 "term": "사고"
@@ -3835,16 +3835,6 @@
 "url": "https://www.youtube.com/watch?v=g_4VQjsy6Os"
 },
 {
-"text": "스틴킹로즈 두번째 세션! PL이나 PC나 사회생활은 힘듭니다 폭발해라 직장직장\n#ssgtamya_TRPG",
-"handle": "ssgtamya.bsky.social",
-"name": "타먀/소세지",
-"time": "2026-11-24T15:02:14.349Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/ssgtamya.bsky.social/post/3n32vzfj3ck2x",
-"term": "폭발"
-},
-{
 "platform": "YouTube",
 "text": "내일 첫차부터 서울지하철 파업?! 오전 7~9시 100% 운행, 퇴근길은 주의! #Shorts",
 "handle": "UCX4kgI6T7c5klMzm_usk3bQ",
@@ -3929,24 +3919,24 @@
 "spikes": [
 {
 "term": "폭발",
-"n30": 10,
+"n30": 5,
 "base": 0.9,
 "spike": true,
-"since": "2026-11-24T15:29:59.064265+00:00"
+"since": "2026-11-24T15:32:15.540196+00:00"
 }
 ],
 "baseline": {
-"지진": 0.53,
+"지진": 0.58,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.9,
-"붕괴": 0.18,
+"폭발": 0.81,
+"붕괴": 0.16,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.12,
-"사고": 4.93,
+"지하철": 0.11,
+"사고": 4.84,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
