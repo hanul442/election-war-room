@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-24T09:40:55.822599+00:00",
+"updated": "2026-11-24T09:43:12.717850+00:00",
 "errors": [],
 "events": [
 {
@@ -572,10 +572,12 @@
 "id": "QTANDCMEYWEMBUHA3DEYLFHA0903",
 "first": "2026-11-24T09:03:57+00:00",
 "last": "2026-11-24T09:29:00+00:00",
-"updated": "2026-11-24T09:40:55.822599+00:00",
+"updated": "2026-11-24T09:43:12.717850+00:00",
 "headline": "[포토] 세븐틴 조슈아, 설렘 주의보",
 "cat": "재난",
-"regions": [],
+"regions": [
+"경기"
+],
 "sources": [
 "조선일보"
 ],
@@ -784,10 +786,31 @@
 "stage": "후속"
 },
 {
+"title": "[포토] 미야오 나린, 볼 콕",
+"source": "조선일보",
+"link": "https://www.chosun.com/entertainments/entertain_photo/2026/11/24/GFRWIOJRHBRDSYJQGM4GMNDEMU/",
+"time": "2026-11-24T09:20:49+00:00",
+"stage": "후속"
+},
+{
 "title": "[포토] 이나영, 볼 콕",
 "source": "조선일보",
 "link": "https://www.chosun.com/entertainments/entertain_photo/2026/11/24/GI2TINLGGY4GKM3EGYYTENJRMM/",
 "time": "2026-11-24T09:20:54+00:00",
+"stage": "후속"
+},
+{
+"title": "[포토] 미야오 나린, 강추위 속 아찔한 미모",
+"source": "조선일보",
+"link": "https://www.chosun.com/entertainments/entertain_photo/2026/11/24/GE2GKMRVG4ZTEZRTGAZDCNBRGQ/",
+"time": "2026-11-24T09:21:04+00:00",
+"stage": "후속"
+},
+{
+"title": "[포토] 미야오 나린, 귀엽게 고양이",
+"source": "조선일보",
+"link": "https://www.chosun.com/entertainments/entertain_photo/2026/11/24/MY4TONJTMEZWGYRWMY4TENBTG4/",
+"time": "2026-11-24T09:21:45+00:00",
 "stage": "후속"
 },
 {
@@ -826,6 +849,34 @@
 "stage": "후속"
 },
 {
+"title": "[사진]미야오 나린,'우아한 발걸음'",
+"source": "조선일보",
+"link": "https://www.chosun.com/entertainments/entertain_photo/2026/11/24/GUYWIMZUMNRTENZSGE4DMNRQMU/",
+"time": "2026-11-24T09:28:00+00:00",
+"stage": "후속"
+},
+{
+"title": "[사진]미야오 나린,'화이트 여신'",
+"source": "조선일보",
+"link": "https://www.chosun.com/entertainments/entertain_photo/2026/11/24/GQ2GEYJSMY2WGZBZMYZTCMRTMM/",
+"time": "2026-11-24T09:28:00+00:00",
+"stage": "후속"
+},
+{
+"title": "[사진]미야오 나린,'바람도 질투하는 미모'",
+"source": "조선일보",
+"link": "https://www.chosun.com/entertainments/entertain_photo/2026/11/24/GEZWCYJRG4YTGMBVHFSGGZRYGE/",
+"time": "2026-11-24T09:28:00+00:00",
+"stage": "후속"
+},
+{
+"title": "[사진]미야오 나린,'달콤한 인사'",
+"source": "조선일보",
+"link": "https://www.chosun.com/entertainments/entertain_photo/2026/11/24/MQ2WKZRUGVTDGZBUMQ3GKZJWGM/",
+"time": "2026-11-24T09:28:00+00:00",
+"stage": "후속"
+},
+{
 "title": "[사진]미야오 나린,'화이트 엔젤'",
 "source": "조선일보",
 "link": "https://www.chosun.com/entertainments/entertain_photo/2026/11/24/G44TKZJVMM2WENRXMZSWCMDEGM/",
@@ -858,7 +909,10 @@
 "latest": "[사진]미야오 나린,'러블리'",
 "tok": [
 "감미로운",
+"강추위",
+"고양",
 "공주님",
+"귀엽게",
 "나린",
 "남신",
 "넘치",
@@ -866,6 +920,7 @@
 "눈빛",
 "다리",
 "달달한",
+"달콤한",
 "도도한",
 "러블리",
 "매력",
@@ -873,6 +928,7 @@
 "미모",
 "미소",
 "미야오",
+"바람",
 "발걸음",
 "볼콕",
 "볼하트",
@@ -888,15 +944,10 @@
 "심쿵",
 "아름다운",
 "아름다워",
+"아찔한",
 "엔젤",
-"옆라인",
-"완벽",
-"완벽한",
-"왕자님",
-"우도환",
-"우아한",
-"이나영",
-"인사"
+"여신",
+"옆라인"
 ]
 },
 {
@@ -4549,8 +4600,8 @@
 "spike": false
 },
 "폭발": {
-"n30": 3,
-"base": 1.4,
+"n30": 2,
+"base": 1.3,
 "spike": false
 },
 "붕괴": {
@@ -4564,28 +4615,28 @@
 "spike": false
 },
 "미사일": {
-"n30": 1,
-"base": 0.7,
+"n30": 0,
+"base": 0.6,
 "spike": false
 },
 "속보": {
-"n30": 5,
-"base": 0.7,
-"spike": true
+"n30": 4,
+"base": 0.8,
+"spike": false
 },
 "지하철": {
-"n30": 3,
+"n30": 2,
 "base": 0.3,
 "spike": false
 },
 "사고": {
 "n30": 1,
-"base": 2.8,
+"base": 2.6,
 "spike": false
 },
 "실종": {
 "n30": 0,
-"base": 0.8,
+"base": 0.7,
 "spike": false
 },
 "단수": {
@@ -4749,16 +4800,6 @@
 "url": "https://www.youtube.com/watch?v=9hP33CEjyQM"
 },
 {
-"text": "소소한 일상 속에서 느끼는 행복이 은근히 크더라고 😊 🔗 x.gd/HsUJP\n#일상 속보로 만나는 오늘의 소식 #여자방구 #부평 #발정",
-"handle": "anyhuedr.bsky.social",
-"name": "코리아섹스비디오",
-"time": "2026-11-24T09:11:04.344Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/anyhuedr.bsky.social/post/3n32cfjzvf22c",
-"term": "속보"
-},
-{
 "platform": "YouTube",
 "text": "심텍 주가전망, [11월 24일 긴급속보] \"이 구간\" 저항 오면 마지막 기회!",
 "handle": "UCFYSMs4opfwXI39PKlycYWQ",
@@ -4804,28 +4845,20 @@
 "url": "https://www.youtube.com/watch?v=OHVxG8C-Gi0"
 }
 ],
-"spikes": [
-{
-"term": "속보",
-"n30": 5,
-"base": 0.7,
-"spike": true,
-"since": "2026-11-24T09:40:55.822599+00:00"
-}
-],
+"spikes": [],
 "baseline": {
-"지진": 0.22,
+"지진": 0.2,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 1.33,
-"붕괴": 0.74,
+"폭발": 1.3,
+"붕괴": 0.77,
 "대피": 0.05,
-"미사일": 0.62,
-"속보": 0.77,
-"지하철": 0.29,
-"사고": 2.59,
-"실종": 0.69,
+"미사일": 0.56,
+"속보": 0.69,
+"지하철": 0.26,
+"사고": 2.43,
+"실종": 0.62,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
