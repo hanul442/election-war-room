@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-24T18:02:14.693515+00:00",
+"updated": "2026-11-24T18:04:27.757582+00:00",
 "errors": [],
 "events": [
 {
@@ -3293,9 +3293,9 @@
 "spike": false
 },
 "폭발": {
-"n30": 5,
+"n30": 4,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "붕괴": {
 "n30": 0,
@@ -3318,13 +3318,13 @@
 "spike": false
 },
 "지하철": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
 "사고": {
 "n30": 2,
-"base": 1.0,
+"base": 1.1,
 "spike": false
 },
 "실종": {
@@ -3591,17 +3591,9 @@
 "url": "https://www.youtube.com/watch?v=U7-6TGXZjTI"
 }
 ],
-"spikes": [
-{
-"term": "폭발",
-"n30": 5,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-24T18:02:14.693515+00:00"
-}
-],
+"spikes": [],
 "baseline": {
-"지진": 0.1,
+"지진": 0.09,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
@@ -3611,8 +3603,8 @@
 "미사일": 0.05,
 "속보": 0.05,
 "지하철": 0.05,
-"사고": 1.09,
-"실종": 0.13,
+"사고": 1.18,
+"실종": 0.12,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -3864,14 +3856,14 @@
 "time": "2026-11-24T15:50:00+00:00",
 "news": [
 {
-"title": "Pakistan vs Nepal Full Score, Asia Cup Rising Stars Highlights: Pakistan Thrash Nepal, Top Group",
-"source": "NDTV Sports",
-"link": "https://sports.ndtv.com/cricket/pakistan-vs-nepal-live-score-asia-cup-rising-stars-live-updates-12370170"
-},
-{
 "title": "Pakistan A defend 168 to survive Nepal scare",
 "source": "Cricinfo",
 "link": "https://www.cricinfo.com/series/asia-cup-rising-stars-50-overs-2026-27-1562333/pakistan-a-vs-nepal-11th-match-group-b-1562352/match-report"
+},
+{
+"title": "Pakistan vs Nepal Full Score, Asia Cup Rising Stars Highlights: Pakistan Thrash Nepal, Top Group",
+"source": "NDTV Sports",
+"link": "https://sports.ndtv.com/cricket/pakistan-vs-nepal-live-score-asia-cup-rising-stars-live-updates-12370170"
 }
 ],
 "new": true
@@ -3918,14 +3910,14 @@
 "time": "2026-11-24T14:30:00+00:00",
 "news": [
 {
+"title": "김은희 작가의 '시그널2', 조진웅 복귀 무대 되나",
+"source": "YTN",
+"link": "https://www.ytn.co.kr/_ln/0117_202611240841278214"
+},
+{
 "title": "[센터엔터] ’시그널2’ 첫 티저 공개…이제훈·김혜수 목소리만 外",
 "source": "연합뉴스TV",
 "link": "https://www.yonhapnewstv.co.kr/news/MYH20261124133245at3"
-},
-{
-"title": "'조진웅 논란'에도 12월 방송 확정…'두 번째 시그널' 포스터 공개 - 머니투데이",
-"source": "머니투데이",
-"link": "https://www.mt.co.kr/entertainment/2026/11/24/2026112410143352396"
 }
 ],
 "new": true
