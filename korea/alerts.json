@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-24T11:51:14.383137+00:00",
+"updated": "2026-11-24T11:53:32.897309+00:00",
 "errors": [],
 "events": [
 {
@@ -4636,7 +4636,7 @@
 },
 "화재": {
 "n30": 0,
-"base": 0.7,
+"base": 0.6,
 "spike": false
 },
 "불났": {
@@ -4650,9 +4650,9 @@
 "spike": false
 },
 "폭발": {
-"n30": 5,
+"n30": 4,
 "base": 0.5,
-"spike": true
+"spike": false
 },
 "붕괴": {
 "n30": 0,
@@ -4661,7 +4661,7 @@
 },
 "대피": {
 "n30": 1,
-"base": 0.4,
+"base": 0.5,
 "spike": false
 },
 "미사일": {
@@ -4670,23 +4670,23 @@
 "spike": false
 },
 "속보": {
-"n30": 7,
-"base": 0.7,
+"n30": 5,
+"base": 0.8,
 "spike": true
 },
 "지하철": {
 "n30": 1,
-"base": 1.1,
+"base": 1.0,
 "spike": false
 },
 "사고": {
 "n30": 3,
-"base": 2.1,
+"base": 2.2,
 "spike": false
 },
 "실종": {
 "n30": 0,
-"base": 0.8,
+"base": 0.7,
 "spike": false
 },
 "단수": {
@@ -4716,7 +4716,7 @@
 "handle": "dailyewdream.bsky.social",
 "name": "은원",
 "time": "2026-11-24T11:51:01.945Z",
-"likes": 0,
+"likes": 1,
 "reposts": 0,
 "url": "https://bsky.app/profile/dailyewdream.bsky.social/post/3n32ldju6a224",
 "term": "폭발"
@@ -4861,16 +4861,6 @@
 "url": "https://www.youtube.com/watch?v=HW0aMVE0FQY"
 },
 {
-"text": "<속보>케냐가 공식적으로 WHO에서 탈퇴했다. 이번 조치는 mRNA ‘백신’속에 생식 능력을 파괴하는 불임 유발 물질이 첨가된 사실이 밝혀진 데 따른 것이다.\n\nblog.naver.com/goodozone/22...",
-"handle": "newsky144th.bsky.social",
-"name": "하통시대",
-"time": "2026-11-24T11:22:24.745Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/newsky144th.bsky.social/post/3n32jqd6ehk2u",
-"term": "속보"
-},
-{
 "platform": "YouTube",
 "text": "직원들 근무 태도에 제대로 폭발한 이수지",
 "handle": "UC773o-FwQGP0nm8aMfJ8xOQ",
@@ -4972,33 +4962,26 @@
 ],
 "spikes": [
 {
-"term": "폭발",
-"n30": 5,
-"base": 0.5,
-"spike": true,
-"since": "2026-11-24T11:51:14.383137+00:00"
-},
-{
 "term": "속보",
-"n30": 7,
-"base": 0.7,
+"n30": 5,
+"base": 0.8,
 "spike": true,
-"since": "2026-11-24T11:51:14.383137+00:00"
+"since": "2026-11-24T11:53:32.897309+00:00"
 }
 ],
 "baseline": {
 "지진": 0.05,
-"화재": 0.62,
+"화재": 0.56,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.53,
-"붕괴": 0.2,
-"대피": 0.45,
+"폭발": 0.58,
+"붕괴": 0.18,
+"대피": 0.51,
 "미사일": 0.05,
-"속보": 0.77,
-"지하철": 1.03,
-"사고": 2.2,
-"실종": 0.69,
+"속보": 0.69,
+"지하철": 0.93,
+"사고": 2.28,
+"실종": 0.62,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -5209,6 +5192,42 @@
 },
 "trends": [
 {
+"term": "부천시",
+"traffic": "100+",
+"time": "2026-11-24T10:50:00+00:00",
+"news": [
+{
+"title": "부천 지역화폐 캐시백, 내년부터 충전 아닌 결제 때 지급",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261124054900065"
+},
+{
+"title": "매달 초 ‘충전 경쟁’ 사라질까…부천시, ‘부천페이’ 인센티브 지급 방식 바꾼다",
+"source": "한겨레",
+"link": "https://www.hani.co.kr/arti/area/chungcheong/1288914.html"
+}
+],
+"new": true
+},
+{
+"term": "전광훈",
+"traffic": "100+",
+"time": "2026-11-24T10:50:00+00:00",
+"news": [
+{
+"title": "경찰, '불법 정치자금 의혹' 전광훈 구속영장 신청",
+"source": "MBC 뉴스",
+"link": "https://imnews.imbc.com/news/2026/society/article/6868056_36918.html"
+},
+{
+"title": "\"교회 돈 102억 자유통일당에\"…전광훈 목사 내일 공소청 면담(종합)",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261124069851004"
+}
+],
+"new": true
+},
+{
 "term": "무안국제공항",
 "traffic": "100+",
 "time": "2026-11-24T10:20:00+00:00",
@@ -5273,9 +5292,9 @@
 "link": "https://www.mk.co.kr/news/hot-issues/12217066"
 },
 {
-"title": "배용준·박수진, 4년 하와이 생활 마치고 한국행",
-"source": "스포츠동아",
-"link": "https://sports.donga.com/ent/article/all/20261124/135081710/1"
+"title": "[단독] '배우 은퇴' 배용준♥박수진, 하와이 떠나 귀국..자녀들과 50억↑ 반포아파트 정착(종합)",
+"source": "조선일보",
+"link": "https://www.chosun.com/entertainments/broadcast/2026/11/24/GAYTCOBXHAYTEZRQGY2GCOLDGE/"
 }
 ],
 "new": true
@@ -5348,42 +5367,6 @@
 "title": "리플 CEO \"XRP는 리플의 나침반… 가상화폐 시장 반등할 것\"",
 "source": "글로벌이코노믹",
 "link": "https://www.g-enews.com/article/Securities/2026/11/202611231510231143e250e8e188_1"
-}
-],
-"new": true
-},
-{
-"term": "지폐",
-"traffic": "200+",
-"time": "2026-11-24T09:10:00+00:00",
-"news": [
-{
-"title": "화폐 부산물 활용한 '돈빛 조명' 출시…와디즈 펀딩 진행",
-"source": "뉴시스",
-"link": "https://www.newsis.com/view/NISX20261124_0003881094"
-},
-{
-"title": "조폐공사, 화폐 부산물 활용 '돈빛 조명' 공개…화폐굿즈 신제품",
-"source": "뉴스1",
-"link": "https://www.news1.kr/local/daejeon-chungnam/6364176"
-}
-],
-"new": true
-},
-{
-"term": "스테이블코인",
-"traffic": "1000+",
-"time": "2026-11-24T09:00:00+00:00",
-"news": [
-{
-"title": "‘은행 주도’ 원화 코인 길 열렸다... 정부, 9년 만에 국내 발행 추진",
-"source": "조선일보",
-"link": "https://www.chosun.com/economy/economy_general/2026/11/24/PWWPU27V2VGUNPVBWFCWLDLNUY/"
-},
-{
-"title": "해킹 발생한 디지털자산업자에 무과실 손해배상책임·징벌적 과징금 물린다",
-"source": "MBC 뉴스",
-"link": "https://imnews.imbc.com/news/2026/econo/article/6868154_36932.html"
 }
 ],
 "new": true
