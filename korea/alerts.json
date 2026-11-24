@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-24T22:41:44.962416+00:00",
+"updated": "2026-11-24T22:43:58.119402+00:00",
 "errors": [],
 "events": [
 {
@@ -2355,13 +2355,13 @@
 "spike": false
 },
 "지하철": {
-"n30": 11,
-"base": 1.6,
+"n30": 10,
+"base": 1.8,
 "spike": true
 },
 "사고": {
 "n30": 3,
-"base": 1.6,
+"base": 1.7,
 "spike": false
 },
 "실종": {
@@ -2621,16 +2621,6 @@
 "time": "2026-11-24T22:14:47Z",
 "term": "지하철",
 "url": "https://www.youtube.com/watch?v=JVV0AChY-0E"
-},
-{
-"text": "지하철 파업 한다해서 일찍 일어났는데 새벽에 협상 타결됬다고해서 그냥 일찍 출근한 사람됨\nmusic.youtube.com/watch?v=Y4JQ...",
-"handle": "j5games.bsky.social",
-"name": "J5",
-"time": "2026-11-24T22:12:12.847Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/j5games.bsky.social/post/3n33o27aads2r",
-"term": "지하철"
 }
 ],
 "spikes": [
@@ -2639,28 +2629,28 @@
 "n30": 6,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-24T22:41:44.962416+00:00"
+"since": "2026-11-24T22:43:58.119402+00:00"
 },
 {
 "term": "지하철",
-"n30": 11,
-"base": 1.6,
+"n30": 10,
+"base": 1.8,
 "spike": true,
-"since": "2026-11-24T22:41:44.962416+00:00"
+"since": "2026-11-24T22:43:58.119402+00:00"
 }
 ],
 "baseline": {
-"지진": 0.88,
+"지진": 0.89,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.08,
+"폭발": 0.07,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 1.78,
-"사고": 1.72,
+"지하철": 1.8,
+"사고": 1.85,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -2845,6 +2835,60 @@
 },
 "trends": [
 {
+"term": "뉴스",
+"traffic": "500+",
+"time": "2026-11-24T21:40:00+00:00",
+"news": [
+{
+"title": "앤트로픽 상장 나흘 만에 공모가 밑으로",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261125017300009"
+},
+{
+"title": "앤트로픽, 상장 4거래일 만에 공모가 하회… 기업가치 고평가 우려",
+"source": "IT조선",
+"link": "https://it.chosun.com/news/articleView.html?idxno=3000000001749"
+}
+],
+"new": true
+},
+{
+"term": "코모 대 aek",
+"traffic": "100+",
+"time": "2026-11-24T21:40:00+00:00",
+"news": [
+{
+"title": "코모 1907 : 인구 8만 소도시 축구팀, 관광객을 팬으로 빨아들인 비결",
+"source": "롱블랙 LongBlack",
+"link": "https://longblack.co/note/2184"
+},
+{
+"title": "맨유 4-1로 박살 낸 이유가 있었다...'코모 감독' 파브레가스 \"선수들이 받는 압박감 매우 커, 잘 관리하는 게 우리의 일\"",
+"source": "인터풋볼",
+"link": "https://www.interfootball.co.kr/news/articleView.html?idxno=699170"
+}
+],
+"new": true
+},
+{
+"term": "real madrid đấu với psv",
+"traffic": "100+",
+"time": "2026-11-24T21:40:00+00:00",
+"news": [
+{
+"title": "Trực tiếp bóng đá Real Madrid - PSV: Perisic mở tỷ số (Cúp C1)",
+"source": "Tin tức 24h",
+"link": "https://www.24h.com.vn/bong-da/truc-tiep-bong-da-real-madrid-psv-bernabeu-cho-dai-tiec-cup-c1-c48a1813752.html"
+},
+{
+"title": "Nhận định bóng đá Real Madrid vs PSV, 03h00 ngày 25/11: Thiên đường thứ 10",
+"source": "Tạp chí Bóng đá",
+"link": "https://bongdaplus.vn/champions-league-cup-c1/nhan-dinh-bong-da-real-madrid-vs-psv-03h00-ngay-25-11-thien-duong-thu-10-5297622611.html"
+}
+],
+"new": true
+},
+{
 "term": "슬로반 브라티슬라바 대 레알 베티스",
 "traffic": "100+",
 "time": "2026-11-24T21:30:00+00:00",
@@ -2964,67 +3008,13 @@
 }
 ],
 "new": true
-},
-{
-"term": "알테오젠",
-"traffic": "200+",
-"time": "2026-11-24T21:20:00+00:00",
-"news": [
-{
-"title": "알테오젠, 전환가액 15% 낮춰…잠재 매물 9만주 증가 By EBN",
-"source": "Investing.com 한국어",
-"link": "https://kr.investing.com/news/stock-market-news/article-2184781"
-},
-{
-"title": "알테오젠 4.27% 조정…ALT-B4 후속 개발 일정에 무게",
-"source": "잡포스트",
-"link": "https://www.job-post.co.kr/news/articleView.html?idxno=240514"
-}
-],
-"new": true
-},
-{
-"term": "이용철",
-"traffic": "200+",
-"time": "2026-11-24T21:20:00+00:00",
-"news": [
-{
-"title": "야 “공소취소 지휘 않겠단 얘기 못하나”…이용철 “예, 그렇다”",
-"source": "경향신문",
-"link": "https://www.khan.co.kr/article/202611242140015"
-},
-{
-"title": "'공소취소' 묻자‥이용철 \"무리한 지휘 않을 것\"",
-"source": "MBC 뉴스",
-"link": "https://imnews.imbc.com/replay/2026/nwtoday/article/6868318_37012.html"
-}
-],
-"new": true
-},
-{
-"term": "컨테이너선",
-"traffic": "500+",
-"time": "2026-11-24T21:10:00+00:00",
-"news": [
-{
-"title": "머스크, 헝리조선에 2만4000TEU급 LNG 이중연료 컨테이너선 24척 발주",
-"source": "해사신문",
-"link": "http://www.haesanews.com/news/articleView.html?idxno=153207"
-},
-{
-"title": "\"머스크, 헝리重에 2만4000TEU급 컨선 20척 발주\"",
-"source": "해양통신",
-"link": "https://www.oceanpress.co.kr/news/article.html?no=31877"
-}
-],
-"new": true
 }
 ],
 "trendSeen": [
-"코리아 그랜드 뮤직 어워즈",
 "코리아 패싱",
 "코리아오픈 배드민턴",
 "코리안투어",
+"코모 대 aek",
 "코번트리 대 크리스털 팰리스",
 "코스닥",
 "코스피",
