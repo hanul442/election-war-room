@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-24T10:26:32.725762+00:00",
+"updated": "2026-11-24T10:28:49.965589+00:00",
 "errors": [],
 "events": [
 {
@@ -4690,9 +4690,9 @@
 "spike": false
 },
 "폭발": {
-"n30": 5,
+"n30": 4,
 "base": 0.5,
-"spike": true
+"spike": false
 },
 "붕괴": {
 "n30": 1,
@@ -4700,7 +4700,7 @@
 "spike": false
 },
 "대피": {
-"n30": 2,
+"n30": 1,
 "base": 0.5,
 "spike": false
 },
@@ -4716,11 +4716,11 @@
 },
 "지하철": {
 "n30": 6,
-"base": 1.4,
+"base": 1.6,
 "spike": true
 },
 "사고": {
-"n30": 0,
+"n30": 1,
 "base": 0.5,
 "spike": false
 },
@@ -4751,6 +4751,16 @@
 }
 },
 "posts": [
+{
+"text": "알바 끝나고 진심 걷기 힘들 정도로 허리아프고 죽을 것 같았는데 자고 일어나니 어느정도 회복되어 괜찮아진걸 보면 인간에게 수면이란 얼마나 신비로운 시스템인지\n\n그러면 이제 이 잠이라는걸 영원히 하게 되면 완전한 치유가..(극단적 사고)",
+"handle": "ankyung.bsky.social",
+"name": "안경",
+"time": "2026-11-24T10:27:48.747Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/ankyung.bsky.social/post/3n32goqovmc2h",
+"term": "사고"
+},
 {
 "text": "샌즈쿤\n귀국편인 이 사진을 마지막으로 사라짐... 공항이나 지하철역사 분실물센터 이잡듯 뒤져도 안나옴\n뉘신지는 모르겠지만 전국 어디든 분실물센터에 전달해주시면 감사하겠으며... 전달 안할경우 끔.찍.한.연말되시길바랍니더 토리엘마망은 자식 그렇게 안길렀다",
 "handle": "portalgun.bsky.social",
@@ -4956,18 +4966,11 @@
 ],
 "spikes": [
 {
-"term": "폭발",
-"n30": 5,
-"base": 0.5,
-"spike": true,
-"since": "2026-11-24T10:26:32.725762+00:00"
-},
-{
 "term": "지하철",
 "n30": 6,
-"base": 1.4,
+"base": 1.6,
 "spike": true,
-"since": "2026-11-24T10:26:32.725762+00:00"
+"since": "2026-11-24T10:28:49.965589+00:00"
 }
 ],
 "baseline": {
@@ -4975,14 +4978,14 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.54,
-"붕괴": 0.7,
-"대피": 0.45,
-"미사일": 0.08,
-"속보": 0.1,
-"지하철": 1.55,
-"사고": 0.48,
-"실종": 0.76,
+"폭발": 0.59,
+"붕괴": 0.73,
+"대피": 0.41,
+"미사일": 0.07,
+"속보": 0.09,
+"지하철": 1.7,
+"사고": 0.53,
+"실종": 0.68,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -5180,14 +5183,14 @@
 "time": "2026-11-24T09:00:00+00:00",
 "news": [
 {
-"title": "스테이블코인, 은행 과반 지분 컨소시엄부터 발행 허용 추진",
-"source": "대한민국 정책브리핑",
-"link": "https://www.korea.kr/news/policyNewsView.do?newsId=148976382"
-},
-{
 "title": "‘은행 주도’ 원화 코인 길 열렸다... 정부, 9년 만에 국내 발행 추진",
 "source": "조선일보",
 "link": "https://www.chosun.com/economy/economy_general/2026/11/24/PWWPU27V2VGUNPVBWFCWLDLNUY/"
+},
+{
+"title": "디지털자산업자, 앞으로 금융회사 수준의 안전성 확보해야",
+"source": "SBS 뉴스",
+"link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008861647"
 }
 ],
 "new": true
@@ -5203,7 +5206,7 @@
 "link": "https://www.bbc.com/sport/cricket/live/cly85gv8qpet"
 },
 {
-"title": "AUS vs ENG 2026/27, AUS vs ENG 2nd T20I Match Preview - Last-over MCG finish suggests a series of fine margins",
+"title": "Last-over MCG finish suggests a series of fine margins",
 "source": "Cricinfo",
 "link": "https://www.cricinfo.com/series/england-in-australia-2026-27-1528677/australia-vs-england-2nd-t20i-1528707/match-preview"
 }
