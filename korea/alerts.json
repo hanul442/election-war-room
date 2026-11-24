@@ -1,7 +1,40 @@
 {
-"updated": "2026-11-24T15:32:15.540196+00:00",
+"updated": "2026-11-24T15:34:29.769602+00:00",
 "errors": [],
 "events": [
+{
+"id": "ExuQmVkS29xZjBBdVkxRAoc51519",
+"first": "2026-11-24T15:19:24+00:00",
+"last": "2026-11-24T15:19:24+00:00",
+"updated": "2026-11-24T15:34:29.769602+00:00",
+"headline": "이란, 겨울 가스난에 계획 정전…이틀에 최대 2시간",
+"cat": "재난",
+"regions": [],
+"sources": [
+"토큰포스트"
+],
+"updates": [
+{
+"title": "이란, 겨울 가스난에 계획 정전…이틀에 최대 2시간",
+"source": "토큰포스트",
+"link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFB2Rm1EcmhxNUlWMEdWS2xnV3RtbEVyZEVyeHdWU2thSXdNVzEteXVlYzBDSW0wd29lcWRhVlVwclNnNnlGamhZN0tCQi1VdGZ2dnBlcHBINlR1ZkdWaDh30gFkQVVfeXFMTllmSURpNFNnQzF4aFpJLTUtLWhzaDdGODQxTVJ6LUpvWW5CUGFFak5FTi1TVzlOTFNuaWRROUhVaXZiUFl6Qm9MTmpFcER3YmxLLUFpNExuQmVkS29xZjBBdVkxRA?oc=5",
+"time": "2026-11-24T15:19:24+00:00",
+"stage": "1보"
+}
+],
+"level": "ALERT",
+"latest": "이란, 겨울 가스난에 계획 정전…이틀에 최대 2시간",
+"tok": [
+"2시간",
+"가스난",
+"겨울",
+"계획",
+"이란",
+"이틀",
+"정전",
+"최대"
+]
+},
 {
 "id": "V6dkRQVU9DdDZzTFpFM2soc51517",
 "first": "2026-11-24T15:17:00+00:00",
@@ -3614,7 +3647,7 @@
 "terms": {
 "지진": {
 "n30": 1,
-"base": 0.5,
+"base": 0.6,
 "spike": false
 },
 "화재": {
@@ -3634,7 +3667,7 @@
 },
 "폭발": {
 "n30": 5,
-"base": 0.9,
+"base": 0.8,
 "spike": true
 },
 "붕괴": {
@@ -3664,7 +3697,7 @@
 },
 "사고": {
 "n30": 4,
-"base": 4.9,
+"base": 4.8,
 "spike": false
 },
 "실종": {
@@ -3920,23 +3953,23 @@
 {
 "term": "폭발",
 "n30": 5,
-"base": 0.9,
+"base": 0.8,
 "spike": true,
-"since": "2026-11-24T15:32:15.540196+00:00"
+"since": "2026-11-24T15:34:29.769602+00:00"
 }
 ],
 "baseline": {
-"지진": 0.58,
+"지진": 0.62,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.81,
-"붕괴": 0.16,
+"폭발": 0.73,
+"붕괴": 0.14,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.11,
-"사고": 4.84,
+"지하철": 0.1,
+"사고": 4.76,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -4121,6 +4154,42 @@
 },
 "trends": [
 {
+"term": "시그널2",
+"traffic": "100+",
+"time": "2026-11-24T14:30:00+00:00",
+"news": [
+{
+"title": "“소년범이 TV에 나와도 되나요?”…‘시그널2’ 첫 티저에 싸늘한 반응",
+"source": "스포츠경향",
+"link": "https://sports.khan.co.kr/article/202611240740003"
+},
+{
+"title": "'조진웅 논란'에도 12월 방송 확정…'두 번째 시그널' 포스터 공개 - 머니투데이",
+"source": "머니투데이",
+"link": "https://www.mt.co.kr/entertainment/2026/11/24/2026112410143352396"
+}
+],
+"new": true
+},
+{
+"term": "주진우",
+"traffic": "100+",
+"time": "2026-11-24T14:30:00+00:00",
+"news": [
+{
+"title": "‘공소 취소’ 즉답 피한 이용철 “국민 납득 어려운 지휘권 행사 안 해”",
+"source": "한겨레",
+"link": "https://www.hani.co.kr/arti/society/society_general/1288851.html"
+},
+{
+"title": "이용철 \"저강도 내란 상태\"...'조희대 탄핵'엔 말 아껴",
+"source": "YTN",
+"link": "https://www.ytn.co.kr/_ln/0103_202611242334054477"
+}
+],
+"new": true
+},
+{
 "term": "황영묵",
 "traffic": "200+",
 "time": "2026-11-24T14:00:00+00:00",
@@ -4251,42 +4320,6 @@
 "traffic": "1000+",
 "time": "2026-11-24T12:10:00+00:00",
 "news": [],
-"new": true
-},
-{
-"term": "치안감",
-"traffic": "200+",
-"time": "2026-11-24T12:10:00+00:00",
-"news": [
-{
-"title": "‘경찰 2인자’ 치안정감에 김병기-송영호…치안감 4명도 승진",
-"source": "동아일보",
-"link": "https://www.donga.com/news/Society/article/all/20261124/135080013/1"
-},
-{
-"title": "함영욱 경기남부청 광역수사단장 치안감 승진 내정",
-"source": "인천일보",
-"link": "https://www.incheonilbo.com/news/articleView.html?idxno=1337655"
-}
-],
-"new": true
-},
-{
-"term": "비",
-"traffic": "500+",
-"time": "2026-11-24T12:00:00+00:00",
-"news": [
-{
-"title": "틈만나면, 67회 다시보기 : 브런치와 바이크를 넘나드는 찐친들! 비X김재욱의 신촌 틈새 공략!",
-"source": "programs.sbs.co.kr",
-"link": "https://programs.sbs.co.kr/enter/teum/vod/82255/22000640176"
-},
-{
-"title": "김재욱, 서울예대 ‘실용음악과’ 출신..데뷔 전 밴드 활동까지 (‘틈만나면’)",
-"source": "Chosunbiz",
-"link": "https://biz.chosun.com/entertainment/enter_general/2026/11/24/GBSWEZBVGBSTGMZZG5RWMY3BG4/"
-}
-],
 "new": true
 }
 ],
