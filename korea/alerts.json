@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-24T18:26:52.629319+00:00",
+"updated": "2026-11-24T18:29:06.996717+00:00",
 "errors": [],
 "events": [
 {
@@ -3130,39 +3130,6 @@
 "좋은",
 "커플"
 ]
-},
-{
-"id": "nkRSSLINKcooperRSSREADER1228",
-"first": "2026-11-24T12:28:04+00:00",
-"last": "2026-11-24T12:28:04+00:00",
-"updated": "2026-11-24T12:34:35.995600+00:00",
-"headline": "[날씨/XR] 내일 아침까지 추위…해안·산지 강풍 유의",
-"cat": "재난",
-"regions": [],
-"sources": [
-"SBS"
-],
-"updates": [
-{
-"title": "[날씨/XR] 내일 아침까지 추위…해안·산지 강풍 유의",
-"source": "SBS",
-"link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008861627&plink=RSSLINK&cooper=RSSREADER",
-"time": "2026-11-24T12:28:04+00:00",
-"stage": "1보"
-}
-],
-"level": "ALERT",
-"latest": "[날씨/XR] 내일 아침까지 추위…해안·산지 강풍 유의",
-"tok": [
-"XR",
-"강풍",
-"날씨",
-"산지",
-"아침까지",
-"유의",
-"추위",
-"해안"
-]
 }
 ],
 "sns": {
@@ -3208,14 +3175,14 @@
 "spike": false
 },
 "속보": {
-"n30": 6,
+"n30": 5,
 "base": 0.1,
 "spike": true
 },
 "지하철": {
-"n30": 4,
-"base": 0.4,
-"spike": false
+"n30": 5,
+"base": 0.5,
+"spike": true
 },
 "사고": {
 "n30": 2,
@@ -3249,6 +3216,16 @@
 }
 },
 "posts": [
+{
+"text": "서울지하철 파업 철회한다는듯?",
+"handle": "silver01.bsky.social",
+"name": "실버",
+"time": "2026-11-24T18:28:00.743Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/silver01.bsky.social/post/3n33bjthx522i",
+"term": "지하철"
+},
 {
 "platform": "YouTube",
 "text": "여름 등산용 수건 추천 TOP10! 땀 폭발하는 날 꼭 챙기세요 (2026년)",
@@ -3493,14 +3470,21 @@
 "n30": 5,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-24T18:26:52.629319+00:00"
+"since": "2026-11-24T18:29:06.996717+00:00"
 },
 {
 "term": "속보",
-"n30": 6,
+"n30": 5,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-24T18:26:52.629319+00:00"
+"since": "2026-11-24T18:29:06.996717+00:00"
+},
+{
+"term": "지하철",
+"n30": 5,
+"base": 0.5,
+"spike": true,
+"since": "2026-11-24T18:29:06.996717+00:00"
 }
 ],
 "baseline": {
@@ -3513,8 +3497,8 @@
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.45,
-"사고": 2.14,
+"지하철": 0.6,
+"사고": 2.13,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -3889,9 +3873,9 @@
 "link": "https://marketin.edaily.co.kr/News/ReadE?newsId=02728966645649000"
 },
 {
-"title": "백팩, 美 파생상품 거래·청산 인가 확보…토큰 42% 급등",
-"source": "블루밍비트",
-"link": "https://bloomingbit.io/feed/news/124591"
+"title": "CFTC, 코인 운영재원 인정…6개월치는 ‘코인 불가’",
+"source": "코인리더스",
+"link": "https://www.coinreaders.com/272901"
 }
 ],
 "new": true
