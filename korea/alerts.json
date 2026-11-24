@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-24T18:56:23.563827+00:00",
+"updated": "2026-11-24T18:58:37.787704+00:00",
 "errors": [],
 "events": [
 {
@@ -173,6 +173,43 @@
 "타결",
 "파업",
 "협상"
+]
+},
+{
+"id": "0xbFhZRVRkRVkxQ1o2VDMoc51838",
+"first": "2026-11-24T18:38:38+00:00",
+"last": "2026-11-24T18:38:38+00:00",
+"updated": "2026-11-24T18:58:37.787704+00:00",
+"headline": "김하성 깜짝 계약, 누가 키움 간댔나… 디트로이트와 1년 600만 달러 계약, 명예회복 기회 얻었다",
+"cat": "기타",
+"regions": [],
+"sources": [
+"SPOTV NEWS"
+],
+"updates": [
+{
+"title": "[속보] 김하성 깜짝 계약, 누가 키움 간댔나… 디트로이트와 1년 600만 달러 계약, 명예회복 기회 얻었다",
+"source": "SPOTV NEWS",
+"link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBaWG96cExib1hkYjZXXzdvNlY5UUNvOEN6Y19kajZuRWVTUUFJdnNmWTdFbEtacmNNZVlUa2Z2WkJFamxhWGdkT1U0amhleU1kMHBvWThERlBoVDYtbXBlWU0xbFhZRVRkRVkxQ1o2VDM?oc=5",
+"time": "2026-11-24T18:38:38+00:00",
+"stage": "얼럿"
+}
+],
+"level": "URGENT",
+"latest": "김하성 깜짝 계약, 누가 키움 간댔나… 디트로이트와 1년 600만 달러 계약, 명예회복 기회 얻었다",
+"tok": [
+"1년",
+"간댔나",
+"계약",
+"기회",
+"김하성",
+"깜짝",
+"누가",
+"달러",
+"디트로이트",
+"명예회복",
+"얻었다",
+"키움"
 ]
 },
 {
@@ -2993,12 +3030,12 @@
 "spike": false
 },
 "폭발": {
-"n30": 4,
+"n30": 3,
 "base": 0.1,
 "spike": false
 },
 "붕괴": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -3013,18 +3050,18 @@
 "spike": false
 },
 "속보": {
-"n30": 10,
+"n30": 8,
 "base": 0.1,
 "spike": true
 },
 "지하철": {
-"n30": 2,
+"n30": 1,
 "base": 1.2,
 "spike": false
 },
 "사고": {
 "n30": 3,
-"base": 1.9,
+"base": 2.0,
 "spike": false
 },
 "실종": {
@@ -3238,16 +3275,6 @@
 "url": "https://www.youtube.com/watch?v=JZBmF0sH72I"
 },
 {
-"text": "서울지하철 파업 철회한다는듯?",
-"handle": "silver01.bsky.social",
-"name": "실버",
-"time": "2026-11-24T18:28:00.743Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/silver01.bsky.social/post/3n33bjthx522i",
-"term": "지하철"
-},
-{
 "platform": "YouTube",
 "text": "한미 정보라인 신뢰 깨졌다 신뢰붕괴",
 "handle": "UCHUxxr0-zqPSY2CSZKTt3tQ",
@@ -3314,10 +3341,10 @@
 "spikes": [
 {
 "term": "속보",
-"n30": 10,
+"n30": 8,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-24T18:56:23.563827+00:00"
+"since": "2026-11-24T18:58:37.787704+00:00"
 }
 ],
 "baseline": {
@@ -3330,8 +3357,8 @@
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 1.19,
-"사고": 2.03,
+"지하철": 1.07,
+"사고": 2.13,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
