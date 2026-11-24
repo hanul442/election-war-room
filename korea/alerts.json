@@ -1,12 +1,12 @@
 {
-"updated": "2026-11-24T10:58:43.568601+00:00",
+"updated": "2026-11-24T11:00:59.978511+00:00",
 "errors": [],
 "events": [
 {
 "id": "QTANDCMEYWEMBUHA3DEYLFHA0903",
 "first": "2026-11-24T09:03:57+00:00",
 "last": "2026-11-24T10:53:00+00:00",
-"updated": "2026-11-24T10:58:43.568601+00:00",
+"updated": "2026-11-24T11:00:59.978511+00:00",
 "headline": "[포토] 세븐틴 조슈아, 설렘 주의보",
 "cat": "재난",
 "regions": [
@@ -339,10 +339,59 @@
 "stage": "후속"
 },
 {
+"title": "[사진]김나영,'귀여운 하트'",
+"source": "조선일보",
+"link": "https://www.chosun.com/entertainments/entertain_photo/2026/11/24/MMYWMOJWMJQTGOBTGBRGGMDEGA/",
+"time": "2026-11-24T09:59:00+00:00",
+"stage": "후속"
+},
+{
+"title": "[사진]헤니,'귀여운 하트'",
+"source": "조선일보",
+"link": "https://www.chosun.com/entertainments/entertain_photo/2026/11/24/GA3TGNBXGVSDGNZSGU4WIZBYGQ/",
+"time": "2026-11-24T10:02:00+00:00",
+"stage": "후속"
+},
+{
+"title": "[사진]원팩트,'달콤 하트'",
+"source": "조선일보",
+"link": "https://www.chosun.com/entertainments/entertain_photo/2026/11/24/MQ3GINZXHA3TMNBSGMZWEMTFGE/",
+"time": "2026-11-24T10:05:00+00:00",
+"stage": "후속"
+},
+{
+"title": "[사진]엄지윤,'귀여운 하트'",
+"source": "조선일보",
+"link": "https://www.chosun.com/entertainments/entertain_photo/2026/11/24/G5TDINRRGFTDGYTGG42DGOJQG4/",
+"time": "2026-11-24T10:29:00+00:00",
+"stage": "후속"
+},
+{
+"title": "[사진]엄지윤,'상 받았어요'",
+"source": "조선일보",
+"link": "https://www.chosun.com/entertainments/entertain_photo/2026/11/24/GRSTKNJVMI2DCMLCHEYTMMZZGI/",
+"time": "2026-11-24T10:29:00+00:00",
+"stage": "후속"
+},
+{
 "title": "[사진]이준혁,'멋진 손키스'",
 "source": "조선일보",
 "link": "https://www.chosun.com/entertainments/entertain_photo/2026/11/24/GRTGKZDDHEZTANTCGFTDQMBQHE/",
 "time": "2026-11-24T10:38:00+00:00",
+"stage": "후속"
+},
+{
+"title": "[사진]허경환,'하트 받으세요'",
+"source": "조선일보",
+"link": "https://www.chosun.com/entertainments/entertain_photo/2026/11/24/HEYDSYZQGRSTAZRWG4ZDCZLCGM/",
+"time": "2026-11-24T10:45:00+00:00",
+"stage": "후속"
+},
+{
+"title": "[사진]진선규,'드라마 밖에선 귀여운 미소'",
+"source": "조선일보",
+"link": "https://www.chosun.com/entertainments/entertain_photo/2026/11/24/MUZDONBVHE3DOOLFGA3TGMDFHA/",
+"time": "2026-11-24T10:46:00+00:00",
 "stage": "후속"
 },
 {
@@ -362,6 +411,7 @@
 "공주님",
 "귀여운",
 "귀엽게",
+"김나영",
 "나린",
 "남신",
 "넘치",
@@ -369,8 +419,10 @@
 "눈빛",
 "다리",
 "달달한",
+"달콤",
 "달콤한",
 "도도한",
+"드라마",
 "러블리",
 "매력",
 "멋진",
@@ -378,6 +430,9 @@
 "미소",
 "미야오",
 "바람",
+"밖에선",
+"받았어요",
+"받으세요",
 "발걸음",
 "볼콕",
 "볼하트",
@@ -389,13 +444,7 @@
 "세븐틴",
 "손인사",
 "손키스",
-"시크하게",
-"심쿵",
-"아름다운",
-"아름다워",
-"아찔한",
-"아프아",
-"엔젤"
+"시크하게"
 ]
 },
 {
@@ -4707,7 +4756,7 @@
 "spike": false
 },
 "붕괴": {
-"n30": 2,
+"n30": 1,
 "base": 0.9,
 "spike": false
 },
@@ -4728,17 +4777,17 @@
 },
 "지하철": {
 "n30": 1,
-"base": 1.5,
+"base": 1.4,
 "spike": false
 },
 "사고": {
 "n30": 0,
-"base": 0.9,
+"base": 0.8,
 "spike": false
 },
 "실종": {
 "n30": 2,
-"base": 0.8,
+"base": 0.9,
 "spike": false
 },
 "단수": {
@@ -4798,8 +4847,8 @@
 "handle": "parouru.bsky.social",
 "name": "공파스",
 "time": "2026-11-24T10:40:22.143Z",
-"likes": 5,
-"reposts": 7,
+"likes": 7,
+"reposts": 8,
 "url": "https://bsky.app/profile/parouru.bsky.social/post/3n32hf6tpe226",
 "term": "실종"
 },
@@ -4918,14 +4967,14 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.49,
-"붕괴": 0.93,
-"대피": 0.11,
+"폭발": 0.44,
+"붕괴": 0.94,
+"대피": 0.1,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 1.41,
-"사고": 0.78,
-"실종": 0.94,
+"지하철": 1.37,
+"사고": 0.7,
+"실종": 1.05,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
