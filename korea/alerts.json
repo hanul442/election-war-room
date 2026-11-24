@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-24T03:20:53.863887+00:00",
+"updated": "2026-11-24T03:23:09.536728+00:00",
 "errors": [],
 "events": [
 {
@@ -705,12 +705,13 @@
 "id": "wNISX20261124_00038803490003",
 "first": "2026-11-24T00:03:19+00:00",
 "last": "2026-11-24T03:07:13+00:00",
-"updated": "2026-11-24T03:09:31.474256+00:00",
+"updated": "2026-11-24T03:23:09.536728+00:00",
 "headline": "코스피, 장 초반 6%대 급등…5000선 회복",
 "cat": "경제",
 "regions": [],
 "sources": [
 "Chosunbiz",
+"KBS 뉴스",
 "SBS",
 "ebn.co.kr",
 "경향신문",
@@ -877,6 +878,13 @@
 "stage": "후속"
 },
 {
+"title": "젠슨황 복귀에 반도체주 급등…코스피·코스닥 매수 사이드카",
+"source": "KBS 뉴스",
+"link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1KU2IxWmduRmFGM1pVcEc5aTFfcXFjUmMzVWswaWJmNWVlWlRiOVpfQlNyME54TW5wRzBBdmcwY2c5Njh3NFA1YVlGUjVSSDg1bjZSLUxsazBvazg?oc=5",
+"time": "2026-11-24T03:07:00+00:00",
+"stage": "후속"
+},
+{
 "title": "젠슨 황 복귀에 '5천피 회복'…매수 사이드카 발동",
 "source": "SBS",
 "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008860749&plink=RSSLINK&cooper=RSSREADER",
@@ -899,6 +907,7 @@
 "급반등",
 "도달",
 "매수",
+"반도체주",
 "발동",
 "복귀",
 "사이드카",
@@ -3766,7 +3775,7 @@
 "terms": {
 "지진": {
 "n30": 6,
-"base": 1.4,
+"base": 1.6,
 "spike": true
 },
 "화재": {
@@ -3791,7 +3800,7 @@
 },
 "붕괴": {
 "n30": 1,
-"base": 0.5,
+"base": 0.6,
 "spike": false
 },
 "대피": {
@@ -3811,12 +3820,12 @@
 },
 "지하철": {
 "n30": 4,
-"base": 0.7,
+"base": 0.8,
 "spike": false
 },
 "사고": {
 "n30": 0,
-"base": 4.1,
+"base": 3.7,
 "spike": false
 },
 "실종": {
@@ -3891,7 +3900,7 @@
 "handle": "jejuorange.bsky.social",
 "name": "[랜선효도] 제주감귤🍊",
 "time": "2026-11-24T03:03:38.944Z",
-"likes": 1,
+"likes": 2,
 "reposts": 0,
 "url": "https://bsky.app/profile/jejuorange.bsky.social/post/3n2znui2tn22g",
 "term": "지진"
@@ -4082,30 +4091,30 @@
 {
 "term": "지진",
 "n30": 6,
-"base": 1.4,
+"base": 1.6,
 "spike": true,
-"since": "2026-11-24T03:20:53.863887+00:00"
+"since": "2026-11-24T03:23:09.536728+00:00"
 },
 {
 "term": "폭발",
 "n30": 5,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-24T03:20:53.863887+00:00"
+"since": "2026-11-24T03:23:09.536728+00:00"
 }
 ],
 "baseline": {
-"지진": 1.59,
+"지진": 1.73,
 "화재": 0.05,
 "불났": 0.05,
-"정전": 0.08,
+"정전": 0.07,
 "폭발": 0.05,
-"붕괴": 0.56,
+"붕괴": 0.6,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.18,
-"지하철": 0.83,
-"사고": 3.68,
+"속보": 0.16,
+"지하철": 0.95,
+"사고": 3.31,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -4290,6 +4299,24 @@
 },
 "trends": [
 {
+"term": "카카오",
+"traffic": "500+",
+"time": "2026-11-24T02:20:00+00:00",
+"news": [
+{
+"title": "스타벅스서도 3% 할인…카카오페이 굿딜, 제휴 111곳으로 확대",
+"source": "매일경제 마켓",
+"link": "https://stock.mk.co.kr/news/view/1204772"
+},
+{
+"title": "카카오페이 '굿딜'에 스타벅스 입점",
+"source": "전자신문",
+"link": "https://www.etnews.com/20261124000212"
+}
+],
+"new": true
+},
+{
 "term": "정상빈",
 "traffic": "2000+",
 "time": "2026-11-24T02:10:00+00:00",
@@ -4436,24 +4463,6 @@
 "title": "국가자격시험 'AI 부정행위' 차단‥꺼진 기기 탐지·부정행위 징역 5년 확대 추진",
 "source": "MBC 뉴스",
 "link": "https://imnews.imbc.com/news/2026/society/article/6868098_36918.html"
-}
-],
-"new": true
-},
-{
-"term": "김호중",
-"traffic": "10000+",
-"time": "2026-11-24T01:10:00+00:00",
-"news": [
-{
-"title": "'가석방' 김호중, 오늘(24일) 보호관찰 종료…복귀 여부 '관심' - 머니투데이",
-"source": "머니투데이",
-"link": "https://www.mt.co.kr/society/2026/11/24/2026112408081669041"
-},
-{
-"title": "'가석방 147일' 김호중, 오늘 형기 만료일 … 무대 다시 설까",
-"source": "뉴데일리",
-"link": "https://www.newdaily.co.kr/site/data/html/2026/11/24/2026112450145.html"
 }
 ],
 "new": true
