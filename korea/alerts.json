@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-24T21:32:31.183098+00:00",
+"updated": "2026-11-24T21:34:45.340930+00:00",
 "errors": [],
 "events": [
 {
@@ -2355,12 +2355,12 @@
 },
 "지하철": {
 "n30": 12,
-"base": 0.6,
+"base": 0.7,
 "spike": true
 },
 "사고": {
-"n30": 1,
-"base": 0.7,
+"n30": 0,
+"base": 0.8,
 "spike": false
 },
 "실종": {
@@ -2625,39 +2625,29 @@
 "time": "2026-11-24T21:07:08Z",
 "term": "미사일",
 "url": "https://www.youtube.com/watch?v=ZUEg3nQXTwY"
-},
-{
-"text": " 존재,말투,취향,특정 의제과 논쟁,사고방식,약탈,취약함,익명성,음침함 모든게 시간이 꽤 지난 음식물쓰레기 마주한 것 마냥 트라우마처럼 보면 심장이 덜컹 거리고 몸서리칠 정도로 싫음...🤮\n하지만 좋아하는 마음은 그대로고 이루고 싶은 것은 그대로인\n무대가 변하질 않는 나의 불행...\n\n가장 큰 문제는\n나 자신의 컨트롤 난이도...",
-"handle": "whyimsogreat.bsky.social",
-"name": "짱고",
-"time": "2026-11-24T21:03:59.351Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/whyimsogreat.bsky.social/post/3n33kadimcs2o",
-"term": "사고"
 }
 ],
 "spikes": [
 {
 "term": "지하철",
 "n30": 12,
-"base": 0.6,
+"base": 0.7,
 "spike": true,
-"since": "2026-11-24T21:32:31.183098+00:00"
+"since": "2026-11-24T21:34:45.340930+00:00"
 }
 ],
 "baseline": {
-"지진": 0.22,
+"지진": 0.2,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.51,
-"붕괴": 0.06,
+"폭발": 0.56,
+"붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.68,
-"사고": 0.77,
+"지하철": 0.71,
+"사고": 0.69,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -2887,6 +2877,42 @@
 },
 "trends": [
 {
+"term": "real madrid vs psv",
+"traffic": "500+",
+"time": "2026-11-24T20:30:00+00:00",
+"news": [
+{
+"title": "Real Madrid vs PSV Eindhoven Confirmed Lineups",
+"source": "WhoScored.com",
+"link": "https://www.whoscored.com/news/TfaadpG4Mk6Gvf__1ya9sQ/show/cng112-20261124-real-madrid-vs-psv-eindhoven-confirmed-lineup-1795546605"
+},
+{
+"title": "Licensable picture: REAL MADRID C.F. Vs. PSV EINDHOVEN 11.24.26",
+"source": "Reuters Connect",
+"link": "https://www.reutersconnect.com/item/real-madrid-cf-vs-psv-eindhoven-112426/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX01UMVpVTUEwMDA2WU01RzA"
+}
+],
+"new": true
+},
+{
+"term": "로스앤젤레스 다저스",
+"traffic": "200+",
+"time": "2026-11-24T20:30:00+00:00",
+"news": [
+{
+"title": "Might LA deal Teo to give De Paula a longer look in '27?",
+"source": "MLB.com",
+"link": "https://www.mlb.com/news/josue-de-paula-arrival-creates-left-field-question-for-dodgers-with-teoscar-hernandez"
+},
+{
+"title": "Dodgers Trade Pitch Lands Royals Pitcher in Teoscar Hernandez Blockbuster",
+"source": "Yahoo Sports",
+"link": "https://sports.yahoo.com/articles/dodgers-trade-pitch-lands-royals-205147750.html"
+}
+],
+"new": true
+},
+{
 "term": "배당",
 "traffic": "1000+",
 "time": "2026-11-24T20:20:00+00:00",
@@ -2900,6 +2926,24 @@
 "title": "[그래픽] 금융지주 계열 저축은행 순이익",
 "source": "CEO스코어데일리",
 "link": "https://www.ceoscoredaily.com/page/view/2026112310440920985"
+}
+],
+"new": true
+},
+{
+"term": "건설",
+"traffic": "200+",
+"time": "2026-11-24T20:20:00+00:00",
+"news": [
+{
+"title": "반도체·주택 건설 인력난 대응…민관 전문인력 협의체 구성",
+"source": "전기신문",
+"link": "https://www.electimes.com/news/articleView.html?idxno=375208"
+},
+{
+"title": "[단독]속도 관건인 반도체 팹, 건설 인력난… “전역 軍간부 활용 검토”",
+"source": "동아일보",
+"link": "https://www.donga.com/news/Economy/article/all/20261125/135084271/2"
 }
 ],
 "new": true
@@ -2923,19 +2967,19 @@
 "new": true
 },
 {
-"term": "건설",
+"term": "한진그룹",
 "traffic": "100+",
 "time": "2026-11-24T20:20:00+00:00",
 "news": [
 {
-"title": "반도체·주택 건설 인력난 대응…민관 전문인력 협의체 구성",
-"source": "전기신문",
-"link": "https://www.electimes.com/news/articleView.html?idxno=375208"
+"title": "\"서울·부산 양대 허브\" 통합 진에어 승부수 - 머니투데이",
+"source": "머니투데이",
+"link": "https://www.mt.co.kr/industry/2026/11/25/2026112419411058506"
 },
 {
-"title": "[단독]속도 관건인 반도체 팹, 건설 인력난… “전역 軍간부 활용 검토”",
-"source": "동아일보",
-"link": "https://www.donga.com/news/Economy/article/all/20261125/135084271/2"
+"title": "김해공항 노선 확대 약속한 통합 LCC…본사 위치는 빠져",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261124_0003881242"
 }
 ],
 "new": true
@@ -2959,6 +3003,24 @@
 "new": false
 },
 {
+"term": "국가기술자격",
+"traffic": "100+",
+"time": "2026-11-24T20:20:00+00:00",
+"news": [
+{
+"title": "죽었는데 회사에 새로 등록됐다?…정부가 칼 빼든 이유",
+"source": "한국경제",
+"link": "https://www.hankyung.com/article/202611222136i"
+},
+{
+"title": "국가기술자격증 불법 대여, 정부 합동단속으로 뿌리 뽑는다",
+"source": "서울Pn",
+"link": "https://go.seoul.co.kr/news/prnewsView.php?id=458213"
+}
+],
+"new": true
+},
+{
 "term": "수성구",
 "traffic": "100+",
 "time": "2026-11-24T20:10:00+00:00",
@@ -2972,24 +3034,6 @@
 "title": "수성국제비엔날레, 2026 아시아도시경관상 수상",
 "source": "헤럴드경제",
 "link": "https://biz.heraldcorp.com/article/10946690"
-}
-],
-"new": true
-},
-{
-"term": "조선민주주의인민공화국",
-"traffic": "200+",
-"time": "2026-11-24T20:10:00+00:00",
-"news": [
-{
-"title": "스위스, 북한의 외교사무소 철수 위협에도 “제재 유지” 입장",
-"source": "KBS 뉴스",
-"link": "https://news.kbs.co.kr/news/view.do?ncd=8721682"
-},
-{
-"title": "북 김여정, 스위스 제재에 \"평양 외교사무소 철수 검토\"...스위스 \"외교는 별개\"",
-"source": "VOA 한국어 홈페이지",
-"link": "https://www.voakorea.com/a/8227504.html"
 }
 ],
 "new": true
@@ -3011,64 +3055,9 @@
 }
 ],
 "new": true
-},
-{
-"term": "울브스 대 더비 카운티",
-"traffic": "500+",
-"time": "2026-11-24T20:00:00+00:00",
-"news": [
-{
-"title": "Wolverhampton Wanderers v Derby County: Championship stats & head-to-head",
-"source": "BBC",
-"link": "https://www.bbc.com/sport/football/live/cm9q84xw47z5t"
-},
-{
-"title": "Wolves vs. Derby County Lineups, Live Streaming, How and Where to Watch on TV",
-"source": "Yahoo Sports",
-"link": "https://sports.yahoo.com/articles/wolves-vs-derby-county-lineups-171200812.html"
-}
-],
-"new": true
-},
-{
-"term": "임신",
-"traffic": "200+",
-"time": "2026-11-24T20:00:00+00:00",
-"news": [
-{
-"title": "“그냥 나온 배 아냐” 서인영, 혼전임신 의심에 “XX 오래됐다”",
-"source": "스포츠경향",
-"link": "https://sports.khan.co.kr/article/202611231406003"
-},
-{
-"title": "서인영, 재혼 앞두고 ‘임신 의혹’…“진짜 아니라니까” 적극 해명",
-"source": "매일경제",
-"link": "https://www.mk.co.kr/news/broadcasting-service/12215888"
-}
-],
-"new": true
-},
-{
-"term": "농지",
-"traffic": "2000+",
-"time": "2026-11-24T19:50:00+00:00",
-"news": [
-{
-"title": "군산시의회 “농사짓는 농민이 직불금 받아야”… 농지 임대차 제도 전면 개선 촉구",
-"source": "전민일보",
-"link": "http://www.jeonmin.co.kr/news/articleView.html?idxno=450982"
-},
-{
-"title": "[요즘에] 농지법 개정, 정쟁보다 정책 본질 살펴야",
-"source": "강원도민일보",
-"link": "https://www.kado.net/news/curationView.html?idxno=2086706"
-}
-],
-"new": true
 }
 ],
 "trendSeen": [
-"코디 폰세",
 "코레일",
 "코리아 그랜드 뮤직 어워즈",
 "코리아 패싱",
@@ -3267,6 +3256,7 @@
 "한전",
 "한전on",
 "한지민",
+"한진그룹",
 "한진칼",
 "한파",
 "한푸",
