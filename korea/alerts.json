@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-24T22:59:36.700511+00:00",
+"updated": "2026-11-24T23:01:48.220120+00:00",
 "errors": [],
 "events": [
 {
@@ -2416,7 +2416,7 @@
 "terms": {
 "지진": {
 "n30": 0,
-"base": 0.8,
+"base": 0.7,
 "spike": false
 },
 "화재": {
@@ -2430,12 +2430,12 @@
 "spike": false
 },
 "정전": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
 "폭발": {
-"n30": 2,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -2455,18 +2455,18 @@
 "spike": false
 },
 "속보": {
-"n30": 2,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
 "지하철": {
-"n30": 5,
-"base": 1.6,
-"spike": true
+"n30": 1,
+"base": 1.5,
+"spike": false
 },
 "사고": {
-"n30": 4,
-"base": 2.6,
+"n30": 2,
+"base": 2.7,
 "spike": false
 },
 "실종": {
@@ -2527,16 +2527,6 @@
 "term": "사고"
 },
 {
-"text": "남해고속도로 연쇄 추돌 3명 심정지, 진례분기점 트레일러 전도 사고 전말\n\n2026년 11월 25일 새벽 경남 김해시 남해고속도로 진례분기점에서 트레일러 전도로 시작된 연쇄 추돌 사고로 3명이 심정지 상태로 이송됐습니다. 차량 6대 얽힌 사고 경위와 교통 통제 현황을 정리했습니다.\n\nm.blog.naver.com/hampi2/22449...",
-"handle": "hampi2.bsky.social",
-"name": "hampi2.bsky.social",
-"time": "2026-11-24T22:30:58.655Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/hampi2.bsky.social/post/3n33p3szsj222",
-"term": "사고"
-},
-{
 "platform": "YouTube",
 "text": "서울 지하철 파업 철회 🚇 새벽 3시 극적 타결, 뭐가 바뀌나 #지하철파업 #팩트한컷 #Shorts",
 "handle": "UClSgR0FHgazQmHAamfN-SqA",
@@ -2589,16 +2579,6 @@
 "time": "2026-11-24T22:30:21Z",
 "term": "폭발",
 "url": "https://www.youtube.com/watch?v=UrewTjEB2PM"
-},
-{
-"text": "ㅈㅅ사고랑 무기력이 심했어서 퇴근하고 정말 누워만 있다가 울고 그랬는데 저때는 머리가맑아지는걸 확 느낌(ㅈㅅ사고가 줄고 뭔가 할 기력이 생김)\n근데 지금은 그냥저냥임 기분 별로일땐 여전히 별로고 그래도 안먹는것보단 낫겠지 같은 생각으로 먹음",
-"handle": "ttrashunter.bsky.social",
-"name": "🐚🫲",
-"time": "2026-11-24T22:30:20.656Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/ttrashunter.bsky.social/post/3n33p2qinbk2i",
-"term": "사고"
 },
 {
 "platform": "YouTube",
@@ -2718,17 +2698,9 @@
 "url": "https://www.youtube.com/watch?v=JVV0AChY-0E"
 }
 ],
-"spikes": [
-{
-"term": "지하철",
-"n30": 5,
-"base": 1.6,
-"spike": true,
-"since": "2026-11-24T22:59:36.700511+00:00"
-}
-],
+"spikes": [],
 "baseline": {
-"지진": 0.68,
+"지진": 0.61,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
@@ -2737,8 +2709,8 @@
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 1.5,
-"사고": 2.72,
+"지하철": 1.45,
+"사고": 2.65,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
