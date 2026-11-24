@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-24T06:58:43.047433+00:00",
+"updated": "2026-11-24T07:01:00.092556+00:00",
 "errors": [],
 "events": [
 {
@@ -443,6 +443,42 @@
 "오른",
 "장종료",
 "장중"
+]
+},
+{
+"id": "WN0pnTm1DUDlQLVR6Y0dKoc50649",
+"first": "2026-11-24T06:49:37+00:00",
+"last": "2026-11-24T06:49:37+00:00",
+"updated": "2026-11-24T07:01:00.092556+00:00",
+"headline": "뒤에서 갑자기 ‘와락’…광교 카페·서점서 여성들 추행한 30대 남성 ‘집유’",
+"cat": "기타",
+"regions": [],
+"sources": [
+"서울신문"
+],
+"updates": [
+{
+"title": "[속보] 뒤에서 갑자기 ‘와락’…광교 카페·서점서 여성들 추행한 30대 남성 ‘집유’",
+"source": "서울신문",
+"link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5FY0h1TmxOUVo3RWxxUlZQdXdxaGZYSzdCb2JUdEpkcGh2WXBVZFJQSU1qVVJQMUpORTlGV0c2cnNRcko4bW1iUGQ5ZmRoa1BzY3JtdmlrdVdpRlhLcFRrU2xuOTdWN0pnTm1DUDlQLVR6Y0dK?oc=5",
+"time": "2026-11-24T06:49:37+00:00",
+"stage": "얼럿"
+}
+],
+"level": "URGENT",
+"latest": "뒤에서 갑자기 ‘와락’…광교 카페·서점서 여성들 추행한 30대 남성 ‘집유’",
+"tok": [
+"30대",
+"갑자기",
+"광교",
+"남성",
+"뒤에서",
+"서점서",
+"여성들",
+"와락",
+"집유",
+"추행한",
+"카페"
 ]
 },
 {
@@ -3750,40 +3786,6 @@
 "투표지",
 "특검"
 ]
-},
-{
-"id": "viewAKR202611241182000520524",
-"first": "2026-11-24T05:24:13+00:00",
-"last": "2026-11-24T05:24:13+00:00",
-"updated": "2026-11-24T05:31:40.469842+00:00",
-"headline": "노동부 창원지청, 한파 대비 옥외사업장 20여곳 점검",
-"cat": "재난",
-"regions": [
-"경남"
-],
-"sources": [
-"연합뉴스"
-],
-"updates": [
-{
-"title": "노동부 창원지청, 한파 대비 옥외사업장 20여곳 점검",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261124118200052",
-"time": "2026-11-24T05:24:13+00:00",
-"stage": "1보"
-}
-],
-"level": "ALERT",
-"latest": "노동부 창원지청, 한파 대비 옥외사업장 20여곳 점검",
-"tok": [
-"20여곳",
-"노동부",
-"대비",
-"옥외사업장",
-"점검",
-"창원지청",
-"한파"
-]
 }
 ],
 "sns": {
@@ -3794,7 +3796,7 @@
 "spike": false
 },
 "화재": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -3809,8 +3811,8 @@
 "spike": false
 },
 "폭발": {
-"n30": 5,
-"base": 1.2,
+"n30": 6,
+"base": 1.1,
 "spike": true
 },
 "붕괴": {
@@ -3829,9 +3831,9 @@
 "spike": false
 },
 "속보": {
-"n30": 8,
-"base": 2.2,
-"spike": true
+"n30": 5,
+"base": 2.0,
+"spike": false
 },
 "지하철": {
 "n30": 1,
@@ -3840,7 +3842,7 @@
 },
 "사고": {
 "n30": 5,
-"base": 3.4,
+"base": 3.6,
 "spike": false
 },
 "실종": {
@@ -3871,12 +3873,22 @@
 },
 "posts": [
 {
+"text": "요즘 또 물욕폭발하는 기분,,,",
+"handle": "yeonnok.bsky.social",
+"name": "연녹🍀",
+"time": "2026-11-24T06:58:26.144Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/yeonnok.bsky.social/post/3n322ydz6rc2v",
+"term": "폭발"
+},
+{
 "text": "심지어 한국 극우의 망상조차도 \"시발 전쟁 열리면 어쩌지? 우리가 먼저 치자!\"라는 느낌으로, 신경질적 사고가 망상으로 뻗친거지",
 "handle": "xiaoyama.bsky.social",
 "name": "小山道",
 "time": "2026-11-24T06:57:29.142Z",
-"likes": 0,
-"reposts": 2,
+"likes": 2,
+"reposts": 4,
 "url": "https://bsky.app/profile/xiaoyama.bsky.social/post/3n322wmkaw22u",
 "term": "사고"
 },
@@ -4095,17 +4107,10 @@
 "spikes": [
 {
 "term": "폭발",
-"n30": 5,
-"base": 1.2,
+"n30": 6,
+"base": 1.1,
 "spike": true,
-"since": "2026-11-24T06:58:43.047433+00:00"
-},
-{
-"term": "속보",
-"n30": 8,
-"base": 2.2,
-"spike": true,
-"since": "2026-11-24T06:58:43.047433+00:00"
+"since": "2026-11-24T07:01:00.092556+00:00"
 }
 ],
 "baseline": {
@@ -4116,10 +4121,10 @@
 "폭발": 1.05,
 "붕괴": 0.05,
 "대피": 0.05,
-"미사일": 0.74,
-"속보": 2.02,
-"지하철": 0.22,
-"사고": 3.57,
+"미사일": 0.77,
+"속보": 1.82,
+"지하철": 0.2,
+"사고": 3.71,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -4399,14 +4404,14 @@
 "time": "2026-11-24T04:20:00+00:00",
 "news": [
 {
-"title": "12월 3일 국가기념일 된다…李 “계엄 맞선 ‘국민 주권의 날’ 기려야”",
-"source": "동아일보",
-"link": "https://www.donga.com/news/Politics/article/all/20261124/135079161/1"
+"title": "'12·3 그날' 정부기념일로‥\"헌법 수호 국민 기념\"",
+"source": "MBC 뉴스",
+"link": "https://imnews.imbc.com/news/2026/society/article/6868128_36918.html"
 },
 {
-"title": "매년 12월 3일 '국민주권의 날'로‥다음 달 첫 기념식",
-"source": "MBC 뉴스",
-"link": "https://imnews.imbc.com/replay/2026/nw1400/article/6868171_36974.html"
+"title": "[속보] 매년 12월 3일 `12·3국민주권의 날` 기념일 지정…공휴일은 아냐",
+"source": "부산일보",
+"link": "https://www.busan.com/view/busan/view.php?code=2026112414360638605"
 }
 ],
 "new": true
