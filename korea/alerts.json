@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-24T20:12:09.696155+00:00",
+"updated": "2026-11-24T20:14:24.059657+00:00",
 "errors": [],
 "events": [
 {
@@ -2263,7 +2263,7 @@
 "terms": {
 "지진": {
 "n30": 0,
-"base": 0.4,
+"base": 0.3,
 "spike": false
 },
 "화재": {
@@ -2572,17 +2572,17 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 0.34,
+"지진": 0.31,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.37,
-"붕괴": 0.15,
+"폭발": 0.33,
+"붕괴": 0.24,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
 "지하철": 0.05,
-"사고": 0.17,
+"사고": 0.15,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -2812,19 +2812,91 @@
 },
 "trends": [
 {
+"term": "레알 마드리드 대 에인트호번",
+"traffic": "1000+",
+"time": "2026-11-24T19:10:00+00:00",
+"news": [
+{
+"title": "레알 마드리드 vs PSV 아인트호벤 예측: 선두 자리를 노릴 기회",
+"source": "Vietnam.vn",
+"link": "https://www.vietnam.vn/ko/nhan-dinh-real-madrid-vs-psv-eindhoven-co-hoi-bam-duoi-ngoi-dau"
+},
+{
+"title": "챔피언스 리그 5차전 경기 일정: 무리뉴 감독이 조 1위에 오를 수 있을까?",
+"source": "Vietnam.vn",
+"link": "https://www.vietnam.vn/ko/lich-thi-dau-luot-5-champions-league-hlv-mourinho-chiem-ngoi-dau"
+}
+],
+"new": true
+},
+{
+"term": "아스널 대 도르트문트",
+"traffic": "500+",
+"time": "2026-11-24T19:10:00+00:00",
+"news": [
+{
+"title": "'2026-27시즌 UCL 파워랭킹 TOP 10' … 이강인 10위·김민재 5위, '3연패' 도전 PSG 1위",
+"source": "뉴데일리",
+"link": "https://www.newdaily.co.kr/site/data/html/2026/11/24/2026112450098.html"
+},
+{
+"title": "무패 아스널, 위기의 맨시티… UCL 5라운드 새벽 빅매치 프리뷰",
+"source": "금강일보",
+"link": "https://www.ggilbo.com/news/articleView.html?idxno=1195217"
+}
+],
+"new": true
+},
+{
+"term": "al-nassr vs al sadd",
+"traffic": "100+",
+"time": "2026-11-24T19:10:00+00:00",
+"news": [
+{
+"title": "Ronaldo needs one goal to pass Hamdallah, and Al-Nassr host an Al Sadd side with two points from four games",
+"source": "SportsAdda",
+"link": "https://www.sportsadda.asia/football/news-football/ronaldo-needs-one-goal-to-pass-hamdallah-and-al-nassr-host-an-al-sadd-side-with-two-points-from-four-games/"
+},
+{
+"title": "Licensable picture: AFC Champions League Elite - Al Nassr v Al Sadd",
+"source": "Reuters Connect",
+"link": "https://www.reutersconnect.com/item/afc-champions-league-elite-al-nassr-v-al-sadd/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX1VQMUVNQk8xRzJFUjY"
+}
+],
+"new": true
+},
+{
+"term": "의대생",
+"traffic": "100+",
+"time": "2026-11-24T19:00:00+00:00",
+"news": [
+{
+"title": "수다 떨며 풀고도 97점…‘찐 실력’ 인증한 서울대 의대생들 [잇슈#태그]",
+"source": "KBS 뉴스",
+"link": "https://news.kbs.co.kr/news/view.do?ncd=8721046"
+},
+{
+"title": "[횡설수설/신광영]“커닝 안 했다” 인증 행렬",
+"source": "동아일보",
+"link": "https://www.donga.com/news/Opinion/article/all/20261123/135077402/1"
+}
+],
+"new": true
+},
+{
 "term": "중앙일보",
 "traffic": "2000+",
 "time": "2026-11-24T18:50:00+00:00",
 "news": [
 {
-"title": "어떻게 평가했나…32개 지표, 연구 질·성과 따져 선정 [2026 대학평가]",
-"source": "중앙일보",
-"link": "https://www.joongang.co.kr/article/25481316"
+"title": "중앙일보 품는 다우키움…커진 존재감, 매서워진 시장 감시",
+"source": "인베스트조선",
+"link": "https://www.investchosun.com/site/data/html_dir/2026/11/22/2026112280036.html"
 },
 {
-"title": "인천대, 전국 55개 대학 중 종합 21위…대학평가 2년 연속 순위 상승",
-"source": "경기일보",
-"link": "https://www.kyeonggi.com/article/20261124580442"
+"title": "5200억으로 빚 다 갚는다… 채권단, 중앙일보 ‘매각형 워크아웃 졸업’ 승인",
+"source": "Chosunbiz",
+"link": "https://biz.chosun.com/stock/stock_general/2026/11/24/WLESJOLK5FCA3P62DUOV7E5HHE/"
 }
 ],
 "new": true
@@ -2915,78 +2987,6 @@
 "title": "한화생명, 카나비 떠난 자리에 ‘캐니언’ 김건부 영입",
 "source": "쿠키뉴스",
 "link": "https://www.kukinews.com/article/view/kuk202611240240"
-}
-],
-"new": true
-},
-{
-"term": "경원선",
-"traffic": "100+",
-"time": "2026-11-24T17:50:00+00:00",
-"news": [
-{
-"title": "[시론] 경인선 지하화는 인천 미래의 지하화다",
-"source": "인천일보",
-"link": "https://www.incheonilbo.com/news/articleView.html?idxno=1337721"
-},
-{
-"title": "조건부 반영까지 16년…최대호 시장 뚝심이 만든 '안양 경부선 지하화' - 머니투데이",
-"source": "머니투데이",
-"link": "https://www.mt.co.kr/policy/2026/11/24/2026112413544742258"
-}
-],
-"new": true
-},
-{
-"term": "에릭 페디",
-"traffic": "1000+",
-"time": "2026-11-24T16:40:00+00:00",
-"news": [
-{
-"title": "\"죄송합니다. 미국에 남겠습니다\" 20승 투수 또 한국행 불발, 대체 왜 거절했나",
-"source": "조선일보",
-"link": "https://www.chosun.com/sports/baseball/2026/11/24/MFSGIZBVHAZWKNBXGNTGEYTCMY/"
-},
-{
-"title": "NC 다이노스 복귀 제안 거절한 페디…미국 잔류 결정 : 스포츠",
-"source": "재경일보",
-"link": "https://news.jkn.co.kr/post/1120179"
-}
-],
-"new": true
-},
-{
-"term": "무시알라",
-"traffic": "100+",
-"time": "2026-11-24T16:30:00+00:00",
-"news": [
-{
-"title": "충격 '김민재 동료' 아침에 의식 잃고, 저녁에 레알전 뛰었다 \"발작 은폐 의혹\"... 뮌헨 고위층 '분노 폭발' - 머니투데이",
-"source": "머니투데이",
-"link": "https://www.mt.co.kr/sports/2026/11/24/2026112421302892400"
-},
-{
-"title": "1850억 공중분해 위기! 재계약 후 60경기 결장+발작 증세, 독일 최고 유망주 어쩌나…뮌헨 고민 깊다 \"이전 수준까지 올라오기 어려워\"",
-"source": "엑스포츠뉴스",
-"link": "https://www.xportsnews.com/article/2222152"
-}
-],
-"new": true
-},
-{
-"term": "pakistan a vs nepal national cricket team standings",
-"traffic": "5000+",
-"time": "2026-11-24T15:50:00+00:00",
-"news": [
-{
-"title": "Ball by Ball Commentary & Live Score - PAK-A vs NEP, 11th Match, Group B",
-"source": "Cricinfo",
-"link": "https://www.cricinfo.com/series/asia-cup-rising-stars-50-overs-2026-27-1562333/pakistan-a-vs-nepal-11th-match-group-b-1562352/ball-by-ball-commentary"
-},
-{
-"title": "Rohail Nazir's fifty books Asia Cup Rising Stars semi-finals spot for Pakistan Shaheens",
-"source": "Dawn",
-"link": "https://www.dawn.com/news/2046798/rohail-nazir-fifty-books-asia-cup-rising-stars-semi-finals-spot-for-pakistan-shaheens"
 }
 ],
 "new": true
