@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-24T22:25:59.087918+00:00",
+"updated": "2026-11-24T22:28:11.450903+00:00",
 "errors": [],
 "events": [
 {
@@ -2165,7 +2165,7 @@
 "terms": {
 "지진": {
 "n30": 1,
-"base": 0.7,
+"base": 0.8,
 "spike": false
 },
 "화재": {
@@ -2185,7 +2185,7 @@
 },
 "폭발": {
 "n30": 9,
-"base": 0.2,
+"base": 0.1,
 "spike": true
 },
 "붕괴": {
@@ -2210,7 +2210,7 @@
 },
 "지하철": {
 "n30": 10,
-"base": 0.8,
+"base": 1.0,
 "spike": true
 },
 "사고": {
@@ -2479,30 +2479,30 @@
 {
 "term": "폭발",
 "n30": 9,
-"base": 0.2,
+"base": 0.1,
 "spike": true,
-"since": "2026-11-24T22:25:59.087918+00:00"
+"since": "2026-11-24T22:28:11.450903+00:00"
 },
 {
 "term": "지하철",
 "n30": 10,
-"base": 0.8,
+"base": 1.0,
 "spike": true,
-"since": "2026-11-24T22:25:59.087918+00:00"
+"since": "2026-11-24T22:28:11.450903+00:00"
 }
 ],
 "baseline": {
-"지진": 0.75,
+"지진": 0.78,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.15,
+"폭발": 0.14,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.97,
-"사고": 0.78,
+"지하철": 1.07,
+"사고": 0.8,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -2818,14 +2818,14 @@
 "time": "2026-11-24T21:10:00+00:00",
 "news": [
 {
+"title": "5-1. Güler y Bellingham entierran los fantasmas de 1988",
+"source": "Qué Pasa Noticias - Raleigh",
+"link": "https://quepasamedia.com/deportes/5-1-guler-y-bellingham-entierran-los-fantasmas-de-1988/"
+},
+{
 "title": "VIDEO: Golazo de Federico Valvede para Real Madrid ante PSV Eindhoven por la Champions League",
 "source": "ESPN Deportes",
 "link": "https://espndeportes.espn.com/futbol/champions-league/nota/_/id/17557281/video-gol-federico-valverde-real-madrid-vs-psv-eindhoven-uefa-champions-league"
-},
-{
-"title": "Vinícius vuelve al once, Bellingham, al banquillo, y Wanner sustituye a Mauro Júnior",
-"source": "Yahoo",
-"link": "https://es-us.noticias.yahoo.com/deportes/vin%C3%ADcius-vuelve-once-titular-bellingham-185528389.html"
 }
 ],
 "new": true
