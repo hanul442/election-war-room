@@ -1,12 +1,12 @@
 {
-"updated": "2026-11-24T11:16:54.599723+00:00",
+"updated": "2026-11-24T11:19:11.163137+00:00",
 "errors": [],
 "events": [
 {
 "id": "QTANDCMEYWEMBUHA3DEYLFHA0903",
 "first": "2026-11-24T09:03:57+00:00",
-"last": "2026-11-24T11:10:00+00:00",
-"updated": "2026-11-24T11:16:54.599723+00:00",
+"last": "2026-11-24T11:14:00+00:00",
+"updated": "2026-11-24T11:19:11.163137+00:00",
 "headline": "[포토] 세븐틴 조슈아, 설렘 주의보",
 "cat": "재난",
 "regions": [
@@ -463,10 +463,24 @@
 "link": "https://www.chosun.com/entertainments/entertain_photo/2026/11/24/GM4DMY3GHBSTIZLDMI2GMYLCGM/",
 "time": "2026-11-24T11:10:00+00:00",
 "stage": "후속"
+},
+{
+"title": "[사진]김현주,'아름다운 발걸음'",
+"source": "조선일보",
+"link": "https://www.chosun.com/entertainments/entertain_photo/2026/11/24/GVQTAYTCMU3DIYLCGIYGKNRTME/",
+"time": "2026-11-24T11:14:00+00:00",
+"stage": "후속"
+},
+{
+"title": "[사진]김현주,'상큼한 미소'",
+"source": "조선일보",
+"link": "https://www.chosun.com/entertainments/entertain_photo/2026/11/24/HBSWKNTBGE2DKNJTGZRDQYTEGQ/",
+"time": "2026-11-24T11:14:00+00:00",
+"stage": "후속"
 }
 ],
 "level": "ALERT",
-"latest": "[사진]김현주,'소녀 미소'",
+"latest": "[사진]김현주,'상큼한 미소'",
 "tok": [
 "OST",
 "감미로운",
@@ -506,8 +520,8 @@
 "비주얼",
 "사랑스러운",
 "사진",
-"설렘",
-"설운"
+"상큼한",
+"설렘"
 ]
 },
 {
@@ -4600,7 +4614,7 @@
 "spike": false
 },
 "화재": {
-"n30": 1,
+"n30": 2,
 "base": 0.1,
 "spike": false
 },
@@ -4616,11 +4630,11 @@
 },
 "폭발": {
 "n30": 2,
-"base": 0.4,
+"base": 0.5,
 "spike": false
 },
 "붕괴": {
-"n30": 2,
+"n30": 1,
 "base": 0.9,
 "spike": false
 },
@@ -4646,12 +4660,12 @@
 },
 "사고": {
 "n30": 1,
-"base": 0.6,
+"base": 0.7,
 "spike": false
 },
 "실종": {
 "n30": 2,
-"base": 1.6,
+"base": 1.7,
 "spike": false
 },
 "단수": {
@@ -4676,6 +4690,16 @@
 }
 },
 "posts": [
+{
+"text": "아 세상이 나를 억까하네\n화재경보기에서 배터리 교체하라고 소리나;;;",
+"handle": "48694869.bsky.social",
+"name": "S2",
+"time": "2026-11-24T11:17:12.142Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/48694869.bsky.social/post/3n32jh2dcqc2p",
+"term": "화재"
+},
 {
 "text": "서울은 지하철 먼 2분 3분마다 서는데 멀어지면 멀어질수록 10분..15분..마다 서.....",
 "handle": "c0ralsnake.bsky.social",
@@ -4711,8 +4735,8 @@
 "handle": "labyrinthos.bsky.social",
 "name": "라비린토스, 디지털 주화입마를 곁들인",
 "time": "2026-11-24T11:06:08.444Z",
-"likes": 2,
-"reposts": 0,
+"likes": 3,
+"reposts": 1,
 "url": "https://bsky.app/profile/labyrinthos.bsky.social/post/3n32itbwepc2a",
 "term": "실종"
 },
@@ -4881,16 +4905,6 @@
 "term": "실종"
 },
 {
-"text": "살아있는 평범한 사람은 평범하게 만날 수 없는 기운이 느껴지네요. 힘부러 범접할 수 없어. 이 죽음의 천사를 만나려면 내 시야가 붕괴되고 차원이 뒤틀려 생과 사의 경계를 열지 않으면 아니될 것이다...\n\n그래도 따라가고 싶은 고전적인 미인!",
-"handle": "selossnovel.bsky.social",
-"name": "세로",
-"time": "2026-11-24T10:47:52.941Z",
-"likes": 2,
-"reposts": 0,
-"url": "https://bsky.app/profile/selossnovel.bsky.social/post/3n32hsmfuck2j",
-"term": "붕괴"
-},
-{
 "platform": "YouTube",
 "text": "[현장연결] 서울 지하철 노사 교섭 중…결렬 시 내일(25일) 총파업 / KBS 2026.11.24.",
 "handle": "UCcQTRi69dsVYHN3exePtZ1A",
@@ -4906,22 +4920,22 @@
 "n30": 5,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-24T11:16:54.599723+00:00"
+"since": "2026-11-24T11:19:11.163137+00:00"
 }
 ],
 "baseline": {
 "지진": 0.05,
-"화재": 0.05,
+"화재": 0.15,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.48,
-"붕괴": 0.95,
+"폭발": 0.53,
+"붕괴": 0.85,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 1.73,
-"사고": 0.68,
-"실종": 1.68,
+"지하철": 1.76,
+"사고": 0.71,
+"실종": 1.71,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
