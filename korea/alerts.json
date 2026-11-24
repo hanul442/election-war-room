@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-24T23:48:30.065227+00:00",
+"updated": "2026-11-24T23:50:43.080822+00:00",
 "errors": [],
 "events": [
 {
@@ -2914,7 +2914,7 @@
 "terms": {
 "지진": {
 "n30": 2,
-"base": 0.1,
+"base": 0.2,
 "spike": false
 },
 "화재": {
@@ -2953,13 +2953,13 @@
 "spike": false
 },
 "속보": {
-"n30": 4,
+"n30": 3,
 "base": 0.1,
 "spike": false
 },
 "지하철": {
-"n30": 6,
-"base": 1.3,
+"n30": 5,
+"base": 1.2,
 "spike": true
 },
 "사고": {
@@ -3190,15 +3190,15 @@
 "spikes": [
 {
 "term": "지하철",
-"n30": 6,
-"base": 1.3,
+"n30": 5,
+"base": 1.2,
 "spike": true,
-"since": "2026-11-24T23:48:30.065227+00:00"
+"since": "2026-11-24T23:50:43.080822+00:00"
 }
 ],
 "baseline": {
-"지진": 0.17,
-"화재": 0.6,
+"지진": 0.25,
+"화재": 0.64,
 "불났": 0.05,
 "정전": 0.05,
 "폭발": 0.05,
@@ -3206,8 +3206,8 @@
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 1.21,
-"사고": 0.84,
+"지하철": 1.09,
+"사고": 0.86,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -3503,14 +3503,14 @@
 "time": "2026-11-24T22:10:00+00:00",
 "news": [
 {
+"title": "Federal Judge Rejects Memory Makers’ Defense To Advance Class-Action Antitrust Lawsuit; Samsung, Micron & SK hynix Must Face The Music Over Artificial DRAM Shortage",
+"source": "Wccftech",
+"link": "https://wccftech.com/federal-judge-rejects-memory-makers-defense-samsung-micron-sk-hynix-dram-shortage-lawsuit/"
+},
+{
 "title": "A 700% Price Hike on A Key Component in Gaming Consoles? Blame A 25-Year Cartel.",
 "source": "BIG by Matt Stoller",
 "link": "https://www.thebignewsletter.com/p/a-700-price-hike-on-a-key-component"
-},
-{
-"title": "Judge essentially says, \"No, I don't think I will,\" after RAM manufacturers file a motion to dismiss the price-fixing lawsuit against them",
-"source": "GamesRadar+",
-"link": "https://www.gamesradar.com/hardware/desktop-pc/judge-essentially-says-no-i-dont-think-i-will-after-ram-manufacturers-file-a-motion-to-dismiss-the-price-fixing-lawsuit-against-them/"
 }
 ],
 "new": true
@@ -3539,14 +3539,14 @@
 "time": "2026-11-24T22:00:00+00:00",
 "news": [
 {
-"title": "젠슨 황, 엔비디아 전사회의 열고 사과‥\"심리치료 받고 있다\"",
-"source": "MBC 뉴스",
-"link": "https://imnews.imbc.com/news/2026/world/article/6868324_36925.html"
+"title": "‘젠슨황 복귀’ 트럼프 개입에 비판 고조…엔비디아 주가는 하락",
+"source": "KBS 뉴스",
+"link": "https://news.kbs.co.kr/news/view.do?ncd=8721706"
 },
 {
-"title": "“진짜 승자는 트럼프?”…젠슨 황 복귀에 누가 웃고 울었나 [잇슈 머니]",
-"source": "KBS 뉴스",
-"link": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8721736"
+"title": "한숨 돌린 코스피…추세 전환이냐, 단기 반등이냐",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261124_0003881177"
 }
 ],
 "new": true
