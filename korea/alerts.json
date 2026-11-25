@@ -1,7 +1,65 @@
 {
-"updated": "2026-11-25T01:39:23.618542+00:00",
+"updated": "2026-11-25T01:41:41.069351+00:00",
 "errors": [],
 "events": [
+{
+"id": "wNISX20261125_00038822110040",
+"first": "2026-11-25T00:40:07+00:00",
+"last": "2026-11-25T01:35:37+00:00",
+"updated": "2026-11-25T01:41:41.069351+00:00",
+"headline": "중국, 유인우주선 선저우24호 발사에 성공",
+"cat": "국제",
+"regions": [],
+"sources": [
+"뉴시스",
+"연합뉴스"
+],
+"updates": [
+{
+"title": "[속보] 중국, 유인우주선 선저우24호 발사에 성공",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261125_0003882211",
+"time": "2026-11-25T00:40:07+00:00",
+"stage": "얼럿"
+},
+{
+"title": "[속보] 중국, 유인우주선 선저우24호 발사에 성공",
+"source": "뉴시스",
+"link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1hX1RaekxQN0h6dVRKY285SjFBMDF0NnlhUHVlZkVQZEFXTTBhWFAzQzNucW9GZTlFZ0RaUVF5SXp6dWlpQmJsMFZhTzc4bjVvMUtzRHNIYlhKNzJwRzRoQXdR?oc=5",
+"time": "2026-11-25T00:40:07+00:00",
+"stage": "속보"
+},
+{
+"title": "中, 유인우주선 선저우 24호 발사 성공…첫 외국인 우주인 탑승",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261125_0003882217",
+"time": "2026-11-25T01:12:06+00:00",
+"stage": "후속"
+},
+{
+"title": "中, 유인우주선 선저우 24호 발사 성공…사상 첫 외국인 탑승",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261125067200083",
+"time": "2026-11-25T01:35:37+00:00",
+"stage": "후속"
+}
+],
+"level": "URGENT",
+"latest": "中, 유인우주선 선저우 24호 발사 성공…사상 첫 외국인 탑승",
+"tok": [
+"24호",
+"발사",
+"사상",
+"선저우",
+"선저우24호",
+"성공",
+"외국인",
+"우주인",
+"유인우주선",
+"중국",
+"탑승"
+]
+},
 {
 "id": "oYXJiSXJPazJnUjBFdUtmoc50130",
 "first": "2026-11-25T01:30:45+00:00",
@@ -1418,55 +1476,6 @@
 "우주외교",
 "중국",
 "톈궁"
-]
-},
-{
-"id": "wNISX20261125_00038822110040",
-"first": "2026-11-25T00:40:07+00:00",
-"last": "2026-11-25T01:12:06+00:00",
-"updated": "2026-11-25T01:16:36.177225+00:00",
-"headline": "중국, 유인우주선 선저우24호 발사에 성공",
-"cat": "국제",
-"regions": [],
-"sources": [
-"뉴시스"
-],
-"updates": [
-{
-"title": "[속보] 중국, 유인우주선 선저우24호 발사에 성공",
-"source": "뉴시스",
-"link": "https://www.newsis.com/view/NISX20261125_0003882211",
-"time": "2026-11-25T00:40:07+00:00",
-"stage": "얼럿"
-},
-{
-"title": "[속보] 중국, 유인우주선 선저우24호 발사에 성공",
-"source": "뉴시스",
-"link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1hX1RaekxQN0h6dVRKY285SjFBMDF0NnlhUHVlZkVQZEFXTTBhWFAzQzNucW9GZTlFZ0RaUVF5SXp6dWlpQmJsMFZhTzc4bjVvMUtzRHNIYlhKNzJwRzRoQXdR?oc=5",
-"time": "2026-11-25T00:40:07+00:00",
-"stage": "속보"
-},
-{
-"title": "中, 유인우주선 선저우 24호 발사 성공…첫 외국인 우주인 탑승",
-"source": "뉴시스",
-"link": "https://www.newsis.com/view/NISX20261125_0003882217",
-"time": "2026-11-25T01:12:06+00:00",
-"stage": "후속"
-}
-],
-"level": "URGENT",
-"latest": "中, 유인우주선 선저우 24호 발사 성공…첫 외국인 우주인 탑승",
-"tok": [
-"24호",
-"발사",
-"선저우",
-"선저우24호",
-"성공",
-"외국인",
-"우주인",
-"유인우주선",
-"중국",
-"탑승"
 ]
 },
 {
@@ -4111,7 +4120,7 @@
 "sns": {
 "terms": {
 "지진": {
-"n30": 0,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
@@ -4131,8 +4140,8 @@
 "spike": false
 },
 "폭발": {
-"n30": 1,
-"base": 0.5,
+"n30": 2,
+"base": 0.6,
 "spike": false
 },
 "붕괴": {
@@ -4157,7 +4166,7 @@
 },
 "지하철": {
 "n30": 0,
-"base": 0.4,
+"base": 0.3,
 "spike": false
 },
 "사고": {
@@ -4167,7 +4176,7 @@
 },
 "실종": {
 "n30": 0,
-"base": 1.0,
+"base": 0.9,
 "spike": false
 },
 "단수": {
@@ -4192,6 +4201,26 @@
 }
 },
 "posts": [
+{
+"text": "【지진 정보】일본 시간 11월 25일 10:35경\n진원: Amakusa and Ashikita Region, Kumamoto Prefecture (M2.9, 깊이 약 10km)\n최대 진도: 1\n진도 1: 구마모토현\n이 지진으로 인한 쓰나미 걱정은 없습니다.\n(일본 기상청 발표)\n#일본 #지진 #방재",
+"handle": "ko.soramoyou.yk-planning.jp",
+"name": "Soramoyou 한국어",
+"time": "2026-11-25T01:40:32.848Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/ko.soramoyou.yk-planning.jp/post/3n33zougcxr25",
+"term": "지진"
+},
+{
+"text": "안카노의 존나 에로한 뚱한 표정. \n\n그 삐쭉 뚱한 표정이 진짜.\n\n진짜 내 리비도를 폭발시킴.",
+"handle": "celrcana.bsky.social",
+"name": "stollro",
+"time": "2026-11-25T01:39:30.150Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/celrcana.bsky.social/post/3n33zmyznlk2q",
+"term": "폭발"
+},
 {
 "text": "치이카와 판은 팬+모방소비+업자+되팔이 뒤엉켜서 난장판이라 그냥 소소하게 굿즈 사고 싶은 사람은 진짜 발도 못들이겠음..\n너무 무서워",
 "handle": "labyrinthos.bsky.social",
@@ -4450,18 +4479,18 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 0.05,
+"지진": 0.15,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.56,
+"폭발": 0.7,
 "붕괴": 0.05,
-"대피": 0.08,
+"대피": 0.07,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.33,
-"사고": 1.79,
-"실종": 0.89,
+"지하철": 0.3,
+"사고": 1.81,
+"실종": 0.8,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
