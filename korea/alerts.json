@@ -1,17 +1,18 @@
 {
-"updated": "2026-11-25T02:43:55.361983+00:00",
+"updated": "2026-11-25T02:46:12.778719+00:00",
 "errors": [],
 "events": [
 {
 "id": "wNISX20261125_00038825040213",
 "first": "2026-11-25T02:13:31+00:00",
-"last": "2026-11-25T02:38:45+00:00",
-"updated": "2026-11-25T02:43:55.361983+00:00",
+"last": "2026-11-25T02:43:00+00:00",
+"updated": "2026-11-25T02:46:12.778719+00:00",
 "headline": "노소영 측 \"최태원, 상고취하 하라\"…화해권고 거부",
 "cat": "기타",
 "regions": [],
 "sources": [
 "강원도민일보",
+"경향신문",
 "뉴시스",
 "동아일보",
 "매일일보",
@@ -152,10 +153,17 @@
 "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1JSi1GWUxJWndoZktyX2NXUTZMS3hvLTVRWU8yajUyQkVyZ2RCQlB1cVdNQ3llbHVONUNaWlltN0N6UnRLaHpQM0R5X29KZzdCX1F1T0Fqdw?oc=5",
 "time": "2026-11-25T02:38:45+00:00",
 "stage": "속보"
+},
+{
+"title": "노소영 측, 최태원 ‘화해권고’ 요청 거부…“조기 해결 진정성 있다면 상고 취하하라”",
+"source": "경향신문",
+"link": "https://www.khan.co.kr/article/202611251143001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
+"time": "2026-11-25T02:43:00+00:00",
+"stage": "후속"
 }
 ],
 "level": "URGENT",
-"latest": "노소영 “최태원 ‘화해권고 요청’ 거부…상고취하 하라”",
+"latest": "노소영 측, 최태원 ‘화해권고’ 요청 거부…“조기 해결 진정성 있다면 상고 취하하라”",
 "tok": [
 "9440억원",
 "거부",
@@ -171,6 +179,7 @@
 "있다면",
 "있으면",
 "재산분할",
+"조기",
 "조기해결",
 "즉시",
 "지급",
@@ -179,6 +188,7 @@
 "취하하라",
 "취하해야",
 "하라",
+"해결",
 "해야",
 "화해",
 "화해권고"
@@ -4187,7 +4197,7 @@
 "spike": false
 },
 "화재": {
-"n30": 0,
+"n30": 2,
 "base": 0.1,
 "spike": false
 },
@@ -4202,12 +4212,12 @@
 "spike": false
 },
 "폭발": {
-"n30": 0,
-"base": 0.9,
-"spike": false
+"n30": 5,
+"base": 0.8,
+"spike": true
 },
 "붕괴": {
-"n30": 0,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
@@ -4222,17 +4232,17 @@
 "spike": false
 },
 "속보": {
-"n30": 0,
+"n30": 6,
 "base": 0.1,
-"spike": false
+"spike": true
 },
 "지하철": {
-"n30": 1,
-"base": 0.8,
+"n30": 2,
+"base": 0.7,
 "spike": false
 },
 "사고": {
-"n30": 2,
+"n30": 1,
 "base": 2.0,
 "spike": false
 },
@@ -4264,6 +4274,141 @@
 },
 "posts": [
 {
+"platform": "YouTube",
+"text": "정치판 싸움에 지하철이 파업하는 이유",
+"handle": "UCx1LxEXa3mMqFEIvvTKl5ug",
+"name": "투자랩 l 종합경영보고서",
+"time": "2026-11-25T02:45:18Z",
+"term": "지하철",
+"url": "https://www.youtube.com/watch?v=tf7LhF8V2Fc"
+},
+{
+"platform": "YouTube",
+"text": "청량감 폭발 골프웨어 핏 ✨ 명랑골퍼의 깔끔한 아이언 피니시 모음 #명랑골프 #golf #골프스타",
+"handle": "UCDJcYob1T9p4jISt1-HYtOg",
+"name": "오늘도 명랑골프",
+"time": "2026-11-25T02:45:13Z",
+"term": "폭발",
+"url": "https://www.youtube.com/watch?v=T81a0wW52UE"
+},
+{
+"platform": "YouTube",
+"text": "샬럿 공주의 특별한 브로치에 카밀라 질투 폭발! 엘리자베스 여왕의 선물이 밝혀낸 왕실의 비밀",
+"handle": "UCjXmhRWiomzRrQ5TfqS0tnw",
+"name": "영국 왕실 기록",
+"time": "2026-11-25T02:43:17Z",
+"term": "폭발",
+"url": "https://www.youtube.com/watch?v=SY3ReW6GRO0"
+},
+{
+"platform": "YouTube",
+"text": "[속보] 노소영, 최태원 '화해' 거부 / 연합뉴스TV(YonhapnewsTV)",
+"handle": "UCTHCOPwqNfZ0uiKOvFyhGwg",
+"name": "연합뉴스TV",
+"time": "2026-11-25T02:42:53Z",
+"term": "속보",
+"url": "https://www.youtube.com/watch?v=shY6GFKP6g8"
+},
+{
+"platform": "YouTube",
+"text": "결국 폭발해버린 임수정",
+"handle": "UCUMp4QVipw--B-KkNlHeqsw",
+"name": "무비왓",
+"time": "2026-11-25T02:42:48Z",
+"term": "폭발",
+"url": "https://www.youtube.com/watch?v=RlsXh2xnug8"
+},
+{
+"platform": "YouTube",
+"text": "[분석]두산에너빌리티 4만 원 붕괴 위기! 직전 저점 38,000원 깨지기 전 지금 당장 확인하세요  #두산에너빌리티 #두산에너빌리티주가",
+"handle": "UCJKnjF9a-nbJcIeBNSFwczg",
+"name": "골든차트분석",
+"time": "2026-11-25T02:40:25Z",
+"term": "붕괴",
+"url": "https://www.youtube.com/watch?v=0hmQ6qx1N6Y"
+},
+{
+"platform": "YouTube",
+"text": "[알테오젠 주가전망] *장중 속보* 임상 우려에 또 흔들린 줄 아셨죠? 거래량 뒤에 숨은 “이 흔적”부터 보세요",
+"handle": "UC2nCdx_osQqV62wyIs9CbpQ",
+"name": "수급추적24시",
+"time": "2026-11-25T02:38:03Z",
+"term": "속보",
+"url": "https://www.youtube.com/watch?v=c_-qQB_jXis"
+},
+{
+"platform": "YouTube",
+"text": "‘후반에만 4골 폭발!’ 치열한 난타전 펼친 맨시티와 나폴리 #SPOTIME #UCL",
+"handle": "UCnXNukjRxXGD8aeZGRV-lYg",
+"name": "스포타임",
+"time": "2026-11-25T02:35:43Z",
+"term": "폭발",
+"url": "https://www.youtube.com/watch?v=io63Si68FjA"
+},
+{
+"platform": "YouTube",
+"text": "강서구 명지동 무인세차장에서 화재..500만원 피해",
+"handle": "UCYv6OdjenbbDHRKTLCB5kdw",
+"name": "부산MBC뉴스",
+"time": "2026-11-25T02:35:26Z",
+"term": "화재",
+"url": "https://www.youtube.com/watch?v=f-PQUB3YS8g"
+},
+{
+"platform": "YouTube",
+"text": "엄마 특: 집 오면 잔소리 폭발 #shorts",
+"handle": "UCgpXz2DWmLC08b99-yIT4mg",
+"name": "이집저집",
+"time": "2026-11-25T02:35:16Z",
+"term": "폭발",
+"url": "https://www.youtube.com/watch?v=ClD6QZJkMDk"
+},
+{
+"platform": "YouTube",
+"text": "지하철 천원빵, 6개월 지나도 안 썩는 빵?",
+"handle": "UCsZOzy-7j0uCb2ollAyDdSg",
+"name": "의사딸약사아빠",
+"time": "2026-11-25T02:33:08Z",
+"term": "지하철",
+"url": "https://www.youtube.com/watch?v=OlFlGOFJ2X4"
+},
+{
+"platform": "YouTube",
+"text": "[속보] 노소영 측 \"최태원 재산분할 화해 권고 동의 안해\" / YTN",
+"handle": "UChlgI3UHCOnwUGzWzbJ3H5w",
+"name": " YTN",
+"time": "2026-11-25T02:32:08Z",
+"term": "속보",
+"url": "https://www.youtube.com/watch?v=SAsjI5HEmBI"
+},
+{
+"platform": "YouTube",
+"text": "[속보] 노소영 측 \"최태원, 진정성 있다면 상고 취하하길…화해권고 동의 안해\" [뉴스플레이리스트] / 채널A",
+"handle": "UCfq4V1DAuaojnr2ryvWNysw",
+"name": "채널A News",
+"time": "2026-11-25T02:32:00Z",
+"term": "속보",
+"url": "https://www.youtube.com/watch?v=bxwgM3O7bLs"
+},
+{
+"platform": "YouTube",
+"text": "[한미반도체 주가전망][긴급속보]11월25일 코스피 공매도 1위 전저점 이탈 \"위기\" 발생 주주님들 꼭 확인하세요",
+"handle": "UCWXMWO6UTvjQQa_VealK1BA",
+"name": "코코무아COCOMUA",
+"time": "2026-11-25T02:30:12Z",
+"term": "속보",
+"url": "https://www.youtube.com/watch?v=O9Bb4TqSMnY"
+},
+{
+"platform": "YouTube",
+"text": "공기관식 감지기는 어떻게 화재를 알아챌까",
+"handle": "UCPmzKIyIjJyG3fJQI7UC8lw",
+"name": "이누기 가라사대",
+"time": "2026-11-25T02:29:26Z",
+"term": "화재",
+"url": "https://www.youtube.com/watch?v=AoLDM-leaIM"
+},
+{
 "text": "나아니면 못하는거 연성하지만 그래도 마트가서 남이 만든 밀키트 사고 싶다고",
 "handle": "kuch01.bsky.social",
 "name": "Aku.C",
@@ -4274,227 +4419,52 @@
 "term": "사고"
 },
 {
-"text": "교통사고로 입원한지 두 달이 다 되어가는데 가해자에겐 문자 한 번 오지 않고 전부 가해자 보험 담당자하고만 처리되고 있다. \n요즘은 이런 건가. 걍 접촉할 일이 아예 없는 건가. 내가 가해자였으면 아무리 그래도 내가 낸 사고로 다친 사람에게 사과 한 번은 하고 싶을 것 같은데.",
-"handle": "laystall.bsky.social",
-"name": "laystall 🇵🇸🌺🎗️",
-"time": "2026-11-25T02:15:25.547Z",
-"likes": 1,
-"reposts": 0,
-"url": "https://bsky.app/profile/laystall.bsky.social/post/3n343n7ow5k27",
-"term": "사고"
-},
-{
 "platform": "YouTube",
-"text": "한국엔 지하철도 없던 \"1958년에 바닷속을 걸어서\" 건넌 미친 나라",
-"handle": "UCak4cNustC35lCTjuylVTDg",
-"name": "저놈 Jeune Homme",
-"time": "2026-11-25T02:15:21Z",
-"term": "지하철",
-"url": "https://www.youtube.com/watch?v=t08KodSzlRk"
-},
-{
-"platform": "YouTube",
-"text": "총파업 30분 전… 서울 지하철 18시간 밤샘 협상 타결",
-"handle": "UCilRBvVwi2IGiUtdpe1x5OQ",
-"name": "가장최근의뉴스",
-"time": "2026-11-25T02:13:43Z",
-"term": "지하철",
-"url": "https://www.youtube.com/watch?v=bfSYAovTjXs"
-},
-{
-"platform": "YouTube",
-"text": "【긴급속보】 미인 배우와 결혼한 국회의원 TOP3, 1위는 정치권도 예상 못한 인물 #shorts #연예계이슈 #스타스토리 #트로트 #연예뉴스 #이재영 #박정숙 #김한길 #최명길",
-"handle": "UCDbqCzTjykfJiB_mqf-kA5w",
-"name": "K-스타 해설소",
-"time": "2026-11-25T02:12:24Z",
+"text": "🚨 긴급속보! 안산 고잔동, 솥뚜껑 닭볶음탕(소) 3만 원.  네이버에서 자리를 확인해 보세요.#캠핑고래다이닝 #안산고잔동맛집 #솥뚜껑닭볶음탕 #안산실내캠핑식당 #안산저녁모임",
+"handle": "UCKPJbCotjL85bRbEypdVnQw",
+"name": "캠핑고래 다이닝",
+"time": "2026-11-25T02:28:17Z",
 "term": "속보",
-"url": "https://www.youtube.com/watch?v=xX_K2pDczKc"
+"url": "https://www.youtube.com/watch?v=LlPT4xlF3YE"
 },
 {
 "platform": "YouTube",
-"text": "'이재명' 12·3 국가기념일 추진… '빛의혁명' #대한민국 #정치 #이슈 #정치이슈 #한국 #속보 #논란 #뉴스 #자유 #대통령 #윤석열 #이재명 #국민의힘 #민주당 #역사",
-"handle": "UCou5GEHyk2z7oQ8xLUzU-bg",
-"name": "브리핑코리아",
-"time": "2026-11-25T02:10:29Z",
-"term": "속보",
-"url": "https://www.youtube.com/watch?v=9V19cfK_7ps"
-},
-{
-"platform": "YouTube",
-"text": "[영풍 주가 전망] 9월 거래량 폭발 그 후 두 달, 반토막 넘게 빠진 지금 세력은 어디에 있나",
-"handle": "UC-SmR0g0iDfIC8r7a1mEtEQ",
-"name": "개미대장",
-"time": "2026-11-25T02:10:18Z",
+"text": "[이슈] '용왕의 분노' 바다 속 화산 폭발 '콸콸'/도쿄돔 10개 크기 땅 '불쑥'...기현상 발칵/2026년 11월 24일(화)/KBS",
+"handle": "UCcQTRi69dsVYHN3exePtZ1A",
+"name": "KBS News",
+"time": "2026-11-25T02:13:18Z",
 "term": "폭발",
-"url": "https://www.youtube.com/watch?v=_j1iGIgZzKc"
-},
-{
-"platform": "YouTube",
-"text": "#지하철노사 #코스피",
-"handle": "UCNBmbZwOi1uO2ZuhWaTF_hA",
-"name": "던망던망",
-"time": "2026-11-25T02:09:48Z",
-"term": "지하철",
-"url": "https://www.youtube.com/watch?v=FNvjdwz4EKM"
-},
-{
-"platform": "YouTube",
-"text": "서울 3배 면적을 날려버린 정체불명의 폭발",
-"handle": "UCR7tbezGmVn5a2hUeLQgHGg",
-"name": "cupiens",
-"time": "2026-11-25T02:08:55Z",
-"term": "폭발",
-"url": "https://www.youtube.com/watch?v=xhM4CzNOqzY"
-},
-{
-"platform": "YouTube",
-"text": "서울 지하철 총파업 철회…첫차부터 정상 운행 #Shorts",
-"handle": "UCCgEw8K5caYbBt1DF82hBdg",
-"name": "양군 ",
-"time": "2026-11-25T02:07:08Z",
-"term": "지하철",
-"url": "https://www.youtube.com/watch?v=dTRLCUYVFPM"
-},
-{
-"platform": "YouTube",
-"text": "[긴급속보] 전 국회의장 \"대통령 참 잘 뽑았다\" 이재명 대통령 극찬에 결국 터졌다 #정치 #이재명 #조희대 #속보 #한동훈 #검찰개혁 #정치이슈 #정치뉴스",
-"handle": "UCDOWmXiY6pKegag_XKW2ZXw",
-"name": "파란날개",
-"time": "2026-11-25T02:06:05Z",
-"term": "속보",
-"url": "https://www.youtube.com/watch?v=rJjuJEamXjI"
-},
-{
-"platform": "YouTube",
-"text": "조용하고 깨끗한 서울 지하철에 깜짝 놀란 외국인들",
-"handle": "UCdCIPZZK-4-2mhYa_UBETCw",
-"name": "bam",
-"time": "2026-11-25T02:06:01Z",
-"term": "지하철",
-"url": "https://www.youtube.com/watch?v=aOpOE5RLMKY"
-},
-{
-"platform": "YouTube",
-"text": "영공 침범은 없었다… 울릉도에 대피 문자가 울린 이유",
-"handle": "UCIlqIw3WrDUhs6jpy0e8JuA",
-"name": "클릭톡톡 매거진",
-"time": "2026-11-25T02:05:41Z",
-"term": "대피",
-"url": "https://www.youtube.com/watch?v=BX-GQABRrGo"
-},
-{
-"platform": "YouTube",
-"text": "서울에도 정면이 보이는 지하철이 있다 🚇",
-"handle": "UCTvPRkHX-crSvHpW6v31AGQ",
-"name": "김피디의 한정거장",
-"time": "2026-11-25T02:05:06Z",
-"term": "지하철",
-"url": "https://www.youtube.com/watch?v=EbICtzEQWwM"
-},
-{
-"platform": "YouTube",
-"text": "[속보 🔴]한동훈과 떨거지들 저질 공작 #속보 #뉴스#긴급속보 #장동혁 #신동욱 #주진우#김태규#국민의힘 #윤석열 #전한길#더불어민주당 #김어준 #정청래 #한동훈#이재명##이준석",
-"handle": "UCDEhd_Fo4TXtAv2HwnJNPQQ",
-"name": "김선애 박사TV",
-"time": "2026-11-25T02:04:40Z",
-"term": "속보",
-"url": "https://www.youtube.com/watch?v=GiqkPYhG82E"
-},
-{
-"platform": "YouTube",
-"text": "BTS 정국 샤넬 뷰티 × 보그 코리아 12월호 6종 커버 폭발?! 파리 화보 #shorts",
-"handle": "UCpKoTazktbwt_ve1bajAcLQ",
-"name": "오늘우리하루",
-"time": "2026-11-25T02:01:48Z",
-"term": "폭발",
-"url": "https://www.youtube.com/watch?v=bcVdzeU7Haw"
-},
-{
-"platform": "YouTube",
-"text": "서울 지하철 파업, 첫차 직전 극적 타결…오늘 정상 운행",
-"handle": "UCQEQgsd6XckvV2g_aSBe4iA",
-"name": "이슈쾅",
-"time": "2026-11-25T02:01:39Z",
-"term": "지하철",
-"url": "https://www.youtube.com/watch?v=fkxeReQdD14"
-},
-{
-"platform": "YouTube",
-"text": "레알 마드리드의 대역전극! 음바페 멀티골 폭발하며 PSV 제압",
-"handle": "UCBFUfYy9F4kNwQqdwpd6Jhw",
-"name": "라이픽뉴스",
-"time": "2026-11-25T02:01:33Z",
-"term": "폭발",
-"url": "https://www.youtube.com/watch?v=BYB1xVObnNk"
-},
-{
-"platform": "YouTube",
-"text": "(속보)니가 그만둔다고? 아니 도데체 무슨일이 벌어지고 있는거냐? 한동훈 의원직 내놓겠다",
-"handle": "UCuDVP_3ImJ9rIW184cUWObg",
-"name": "얼음공장의 반백수 프로젝트",
-"time": "2026-11-25T02:01:01Z",
-"term": "속보",
-"url": "https://www.youtube.com/watch?v=tqsDT92cd_c"
-},
-{
-"platform": "YouTube",
-"text": "[005] 지하철에서 20장 PDF, 폰으로 30초 컷",
-"handle": "UCjNbu1ZmBTaMXi79TBkw8Bg",
-"name": "30초 AI 실무소",
-"time": "2026-11-25T02:00:46Z",
-"term": "지하철",
-"url": "https://www.youtube.com/watch?v=fQ0zyOacrOA"
-},
-{
-"platform": "YouTube",
-"text": "찬바람 싹 날리는 텐션 폭발 K-트로트 댄스 믹스 🔥 2시간 풀버전은 아래 링크! #쇼츠 #신나는노래 #드라이브음악",
-"handle": "UCLhSHW-9T3BvzbQ__aCIn2A",
-"name": "life_acts",
-"time": "2026-11-25T02:00:20Z",
-"term": "폭발",
-"url": "https://www.youtube.com/watch?v=t88CZsuyXq8"
-},
-{
-"platform": "YouTube",
-"text": "\"대장동을 몰랐다고요?\" 문건 꺼내자 박형수 의원 결국 폭발",
-"handle": "UCxIOEjLE1NFvdQEeVwfEXpw",
-"name": "대한우표",
-"time": "2026-11-25T02:00:03Z",
-"term": "폭발",
-"url": "https://www.youtube.com/watch?v=UT1TFLFX9LU"
-},
-{
-"platform": "YouTube",
-"text": "(속보) 코스피 폭락에 김민수 최고위원 \"국민연금 잔고 얼마나 남았는지 국민들께 상세히 공개하길 촉구합니다\"",
-"handle": "UC92NvAYOELbxnnBwEjjEGHQ",
-"name": "우파쇼토리",
-"time": "2026-11-25T02:00:00Z",
-"term": "속보",
-"url": "https://www.youtube.com/watch?v=ufNdM-9yhcQ"
-},
-{
-"platform": "YouTube",
-"text": "[자막] 최민희 징계 심의 앞두고 폭발한 이성윤…“김민석 당대표 징계부터 심의해야”",
-"handle": "UCBnUdp-4hIKkGlz8MVL7s3g",
-"name": "춘천MBC뉴스",
-"time": "2026-11-25T01:59:16Z",
-"term": "폭발",
-"url": "https://www.youtube.com/watch?v=M0ELANLwWBU"
+"url": "https://www.youtube.com/watch?v=bRnA8glhizw"
 }
 ],
-"spikes": [],
+"spikes": [
+{
+"term": "폭발",
+"n30": 5,
+"base": 0.8,
+"spike": true,
+"since": "2026-11-25T02:46:12.778719+00:00"
+},
+{
+"term": "속보",
+"n30": 6,
+"base": 0.1,
+"spike": true,
+"since": "2026-11-25T02:46:12.778719+00:00"
+}
+],
 "baseline": {
-"지진": 0.4,
+"지진": 0.36,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.83,
+"폭발": 0.75,
 "붕괴": 0.05,
-"대피": 0.18,
+"대피": 0.16,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.69,
-"사고": 2.04,
+"지하철": 0.62,
+"사고": 1.94,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -4505,209 +4475,164 @@
 "ytPosts": [
 {
 "platform": "YouTube",
-"text": "한국엔 지하철도 없던 \"1958년에 바닷속을 걸어서\" 건넌 미친 나라",
-"handle": "UCak4cNustC35lCTjuylVTDg",
-"name": "저놈 Jeune Homme",
-"time": "2026-11-25T02:15:21Z",
+"text": "정치판 싸움에 지하철이 파업하는 이유",
+"handle": "UCx1LxEXa3mMqFEIvvTKl5ug",
+"name": "투자랩 l 종합경영보고서",
+"time": "2026-11-25T02:45:18Z",
 "term": "지하철",
-"url": "https://www.youtube.com/watch?v=t08KodSzlRk"
+"url": "https://www.youtube.com/watch?v=tf7LhF8V2Fc"
 },
 {
 "platform": "YouTube",
-"text": "총파업 30분 전… 서울 지하철 18시간 밤샘 협상 타결",
-"handle": "UCilRBvVwi2IGiUtdpe1x5OQ",
-"name": "가장최근의뉴스",
-"time": "2026-11-25T02:13:43Z",
-"term": "지하철",
-"url": "https://www.youtube.com/watch?v=bfSYAovTjXs"
+"text": "샬럿 공주의 특별한 브로치에 카밀라 질투 폭발! 엘리자베스 여왕의 선물이 밝혀낸 왕실의 비밀",
+"handle": "UCjXmhRWiomzRrQ5TfqS0tnw",
+"name": "영국 왕실 기록",
+"time": "2026-11-25T02:43:17Z",
+"term": "폭발",
+"url": "https://www.youtube.com/watch?v=SY3ReW6GRO0"
 },
 {
 "platform": "YouTube",
-"text": "【긴급속보】 미인 배우와 결혼한 국회의원 TOP3, 1위는 정치권도 예상 못한 인물 #shorts #연예계이슈 #스타스토리 #트로트 #연예뉴스 #이재영 #박정숙 #김한길 #최명길",
-"handle": "UCDbqCzTjykfJiB_mqf-kA5w",
-"name": "K-스타 해설소",
-"time": "2026-11-25T02:12:24Z",
+"text": "청량감 폭발 골프웨어 핏 ✨ 명랑골퍼의 깔끔한 아이언 피니시 모음 #명랑골프 #golf #골프스타",
+"handle": "UCDJcYob1T9p4jISt1-HYtOg",
+"name": "오늘도 명랑골프",
+"time": "2026-11-25T02:45:13Z",
+"term": "폭발",
+"url": "https://www.youtube.com/watch?v=T81a0wW52UE"
+},
+{
+"platform": "YouTube",
+"text": "[속보] 노소영, 최태원 '화해' 거부 / 연합뉴스TV(YonhapnewsTV)",
+"handle": "UCTHCOPwqNfZ0uiKOvFyhGwg",
+"name": "연합뉴스TV",
+"time": "2026-11-25T02:42:53Z",
 "term": "속보",
-"url": "https://www.youtube.com/watch?v=xX_K2pDczKc"
+"url": "https://www.youtube.com/watch?v=shY6GFKP6g8"
 },
 {
 "platform": "YouTube",
-"text": "'이재명' 12·3 국가기념일 추진… '빛의혁명' #대한민국 #정치 #이슈 #정치이슈 #한국 #속보 #논란 #뉴스 #자유 #대통령 #윤석열 #이재명 #국민의힘 #민주당 #역사",
-"handle": "UCou5GEHyk2z7oQ8xLUzU-bg",
-"name": "브리핑코리아",
-"time": "2026-11-25T02:10:29Z",
+"text": "결국 폭발해버린 임수정",
+"handle": "UCUMp4QVipw--B-KkNlHeqsw",
+"name": "무비왓",
+"time": "2026-11-25T02:42:48Z",
+"term": "폭발",
+"url": "https://www.youtube.com/watch?v=RlsXh2xnug8"
+},
+{
+"platform": "YouTube",
+"text": "[분석]두산에너빌리티 4만 원 붕괴 위기! 직전 저점 38,000원 깨지기 전 지금 당장 확인하세요  #두산에너빌리티 #두산에너빌리티주가",
+"handle": "UCJKnjF9a-nbJcIeBNSFwczg",
+"name": "골든차트분석",
+"time": "2026-11-25T02:40:25Z",
+"term": "붕괴",
+"url": "https://www.youtube.com/watch?v=0hmQ6qx1N6Y"
+},
+{
+"platform": "YouTube",
+"text": "[알테오젠 주가전망] *장중 속보* 임상 우려에 또 흔들린 줄 아셨죠? 거래량 뒤에 숨은 “이 흔적”부터 보세요",
+"handle": "UC2nCdx_osQqV62wyIs9CbpQ",
+"name": "수급추적24시",
+"time": "2026-11-25T02:38:03Z",
 "term": "속보",
-"url": "https://www.youtube.com/watch?v=9V19cfK_7ps"
+"url": "https://www.youtube.com/watch?v=c_-qQB_jXis"
 },
 {
 "platform": "YouTube",
-"text": "[영풍 주가 전망] 9월 거래량 폭발 그 후 두 달, 반토막 넘게 빠진 지금 세력은 어디에 있나",
-"handle": "UC-SmR0g0iDfIC8r7a1mEtEQ",
-"name": "개미대장",
-"time": "2026-11-25T02:10:18Z",
+"text": "엄마 특: 집 오면 잔소리 폭발 #shorts",
+"handle": "UCgpXz2DWmLC08b99-yIT4mg",
+"name": "이집저집",
+"time": "2026-11-25T02:35:16Z",
 "term": "폭발",
-"url": "https://www.youtube.com/watch?v=_j1iGIgZzKc"
+"url": "https://www.youtube.com/watch?v=ClD6QZJkMDk"
 },
 {
 "platform": "YouTube",
-"text": "#지하철노사 #코스피",
-"handle": "UCNBmbZwOi1uO2ZuhWaTF_hA",
-"name": "던망던망",
-"time": "2026-11-25T02:09:48Z",
-"term": "지하철",
-"url": "https://www.youtube.com/watch?v=FNvjdwz4EKM"
+"text": "강서구 명지동 무인세차장에서 화재..500만원 피해",
+"handle": "UCYv6OdjenbbDHRKTLCB5kdw",
+"name": "부산MBC뉴스",
+"time": "2026-11-25T02:35:26Z",
+"term": "화재",
+"url": "https://www.youtube.com/watch?v=f-PQUB3YS8g"
 },
 {
 "platform": "YouTube",
-"text": "서울 지하철 총파업 철회…첫차부터 정상 운행 #Shorts",
-"handle": "UCCgEw8K5caYbBt1DF82hBdg",
-"name": "양군 ",
-"time": "2026-11-25T02:07:08Z",
-"term": "지하철",
-"url": "https://www.youtube.com/watch?v=dTRLCUYVFPM"
-},
-{
-"platform": "YouTube",
-"text": "서울 3배 면적을 날려버린 정체불명의 폭발",
-"handle": "UCR7tbezGmVn5a2hUeLQgHGg",
-"name": "cupiens",
-"time": "2026-11-25T02:08:55Z",
+"text": "‘후반에만 4골 폭발!’ 치열한 난타전 펼친 맨시티와 나폴리 #SPOTIME #UCL",
+"handle": "UCnXNukjRxXGD8aeZGRV-lYg",
+"name": "스포타임",
+"time": "2026-11-25T02:35:43Z",
 "term": "폭발",
-"url": "https://www.youtube.com/watch?v=xhM4CzNOqzY"
+"url": "https://www.youtube.com/watch?v=io63Si68FjA"
 },
 {
 "platform": "YouTube",
-"text": "서울에도 정면이 보이는 지하철이 있다 🚇",
-"handle": "UCTvPRkHX-crSvHpW6v31AGQ",
-"name": "김피디의 한정거장",
-"time": "2026-11-25T02:05:06Z",
+"text": "지하철 천원빵, 6개월 지나도 안 썩는 빵?",
+"handle": "UCsZOzy-7j0uCb2ollAyDdSg",
+"name": "의사딸약사아빠",
+"time": "2026-11-25T02:33:08Z",
 "term": "지하철",
-"url": "https://www.youtube.com/watch?v=EbICtzEQWwM"
+"url": "https://www.youtube.com/watch?v=OlFlGOFJ2X4"
 },
 {
 "platform": "YouTube",
-"text": "영공 침범은 없었다… 울릉도에 대피 문자가 울린 이유",
-"handle": "UCIlqIw3WrDUhs6jpy0e8JuA",
-"name": "클릭톡톡 매거진",
-"time": "2026-11-25T02:05:41Z",
-"term": "대피",
-"url": "https://www.youtube.com/watch?v=BX-GQABRrGo"
-},
-{
-"platform": "YouTube",
-"text": "[긴급속보] 전 국회의장 \"대통령 참 잘 뽑았다\" 이재명 대통령 극찬에 결국 터졌다 #정치 #이재명 #조희대 #속보 #한동훈 #검찰개혁 #정치이슈 #정치뉴스",
-"handle": "UCDOWmXiY6pKegag_XKW2ZXw",
-"name": "파란날개",
-"time": "2026-11-25T02:06:05Z",
+"text": "[속보] 노소영 측 \"최태원, 진정성 있다면 상고 취하하길…화해권고 동의 안해\" [뉴스플레이리스트] / 채널A",
+"handle": "UCfq4V1DAuaojnr2ryvWNysw",
+"name": "채널A News",
+"time": "2026-11-25T02:32:00Z",
 "term": "속보",
-"url": "https://www.youtube.com/watch?v=rJjuJEamXjI"
+"url": "https://www.youtube.com/watch?v=bxwgM3O7bLs"
 },
 {
 "platform": "YouTube",
-"text": "조용하고 깨끗한 서울 지하철에 깜짝 놀란 외국인들",
-"handle": "UCdCIPZZK-4-2mhYa_UBETCw",
-"name": "bam",
-"time": "2026-11-25T02:06:01Z",
-"term": "지하철",
-"url": "https://www.youtube.com/watch?v=aOpOE5RLMKY"
-},
-{
-"platform": "YouTube",
-"text": "[속보 🔴]한동훈과 떨거지들 저질 공작 #속보 #뉴스#긴급속보 #장동혁 #신동욱 #주진우#김태규#국민의힘 #윤석열 #전한길#더불어민주당 #김어준 #정청래 #한동훈#이재명##이준석",
-"handle": "UCDEhd_Fo4TXtAv2HwnJNPQQ",
-"name": "김선애 박사TV",
-"time": "2026-11-25T02:04:40Z",
+"text": "[속보] 노소영 측 \"최태원 재산분할 화해 권고 동의 안해\" / YTN",
+"handle": "UChlgI3UHCOnwUGzWzbJ3H5w",
+"name": " YTN",
+"time": "2026-11-25T02:32:08Z",
 "term": "속보",
-"url": "https://www.youtube.com/watch?v=GiqkPYhG82E"
+"url": "https://www.youtube.com/watch?v=SAsjI5HEmBI"
 },
 {
 "platform": "YouTube",
-"text": "서울 지하철 파업, 첫차 직전 극적 타결…오늘 정상 운행",
-"handle": "UCQEQgsd6XckvV2g_aSBe4iA",
-"name": "이슈쾅",
-"time": "2026-11-25T02:01:39Z",
-"term": "지하철",
-"url": "https://www.youtube.com/watch?v=fkxeReQdD14"
-},
-{
-"platform": "YouTube",
-"text": "레알 마드리드의 대역전극! 음바페 멀티골 폭발하며 PSV 제압",
-"handle": "UCBFUfYy9F4kNwQqdwpd6Jhw",
-"name": "라이픽뉴스",
-"time": "2026-11-25T02:01:33Z",
-"term": "폭발",
-"url": "https://www.youtube.com/watch?v=BYB1xVObnNk"
-},
-{
-"platform": "YouTube",
-"text": "[005] 지하철에서 20장 PDF, 폰으로 30초 컷",
-"handle": "UCjNbu1ZmBTaMXi79TBkw8Bg",
-"name": "30초 AI 실무소",
-"time": "2026-11-25T02:00:46Z",
-"term": "지하철",
-"url": "https://www.youtube.com/watch?v=fQ0zyOacrOA"
-},
-{
-"platform": "YouTube",
-"text": "(속보)니가 그만둔다고? 아니 도데체 무슨일이 벌어지고 있는거냐? 한동훈 의원직 내놓겠다",
-"handle": "UCuDVP_3ImJ9rIW184cUWObg",
-"name": "얼음공장의 반백수 프로젝트",
-"time": "2026-11-25T02:01:01Z",
+"text": "[한미반도체 주가전망][긴급속보]11월25일 코스피 공매도 1위 전저점 이탈 \"위기\" 발생 주주님들 꼭 확인하세요",
+"handle": "UCWXMWO6UTvjQQa_VealK1BA",
+"name": "코코무아COCOMUA",
+"time": "2026-11-25T02:30:12Z",
 "term": "속보",
-"url": "https://www.youtube.com/watch?v=tqsDT92cd_c"
+"url": "https://www.youtube.com/watch?v=O9Bb4TqSMnY"
 },
 {
 "platform": "YouTube",
-"text": "BTS 정국 샤넬 뷰티 × 보그 코리아 12월호 6종 커버 폭발?! 파리 화보 #shorts",
-"handle": "UCpKoTazktbwt_ve1bajAcLQ",
-"name": "오늘우리하루",
-"time": "2026-11-25T02:01:48Z",
-"term": "폭발",
-"url": "https://www.youtube.com/watch?v=bcVdzeU7Haw"
+"text": "공기관식 감지기는 어떻게 화재를 알아챌까",
+"handle": "UCPmzKIyIjJyG3fJQI7UC8lw",
+"name": "이누기 가라사대",
+"time": "2026-11-25T02:29:26Z",
+"term": "화재",
+"url": "https://www.youtube.com/watch?v=AoLDM-leaIM"
 },
 {
 "platform": "YouTube",
-"text": "[자막] 최민희 징계 심의 앞두고 폭발한 이성윤…“김민석 당대표 징계부터 심의해야”",
-"handle": "UCBnUdp-4hIKkGlz8MVL7s3g",
-"name": "춘천MBC뉴스",
-"time": "2026-11-25T01:59:16Z",
-"term": "폭발",
-"url": "https://www.youtube.com/watch?v=M0ELANLwWBU"
-},
-{
-"platform": "YouTube",
-"text": "찬바람 싹 날리는 텐션 폭발 K-트로트 댄스 믹스 🔥 2시간 풀버전은 아래 링크! #쇼츠 #신나는노래 #드라이브음악",
-"handle": "UCLhSHW-9T3BvzbQ__aCIn2A",
-"name": "life_acts",
-"time": "2026-11-25T02:00:20Z",
-"term": "폭발",
-"url": "https://www.youtube.com/watch?v=t88CZsuyXq8"
-},
-{
-"platform": "YouTube",
-"text": "(속보) 코스피 폭락에 김민수 최고위원 \"국민연금 잔고 얼마나 남았는지 국민들께 상세히 공개하길 촉구합니다\"",
-"handle": "UC92NvAYOELbxnnBwEjjEGHQ",
-"name": "우파쇼토리",
-"time": "2026-11-25T02:00:00Z",
+"text": "🚨 긴급속보! 안산 고잔동, 솥뚜껑 닭볶음탕(소) 3만 원.  네이버에서 자리를 확인해 보세요.#캠핑고래다이닝 #안산고잔동맛집 #솥뚜껑닭볶음탕 #안산실내캠핑식당 #안산저녁모임",
+"handle": "UCKPJbCotjL85bRbEypdVnQw",
+"name": "캠핑고래 다이닝",
+"time": "2026-11-25T02:28:17Z",
 "term": "속보",
-"url": "https://www.youtube.com/watch?v=ufNdM-9yhcQ"
+"url": "https://www.youtube.com/watch?v=LlPT4xlF3YE"
 },
 {
 "platform": "YouTube",
-"text": "\"대장동을 몰랐다고요?\" 문건 꺼내자 박형수 의원 결국 폭발",
-"handle": "UCxIOEjLE1NFvdQEeVwfEXpw",
-"name": "대한우표",
-"time": "2026-11-25T02:00:03Z",
+"text": "[이슈] '용왕의 분노' 바다 속 화산 폭발 '콸콸'/도쿄돔 10개 크기 땅 '불쑥'...기현상 발칵/2026년 11월 24일(화)/KBS",
+"handle": "UCcQTRi69dsVYHN3exePtZ1A",
+"name": "KBS News",
+"time": "2026-11-25T02:13:18Z",
 "term": "폭발",
-"url": "https://www.youtube.com/watch?v=UT1TFLFX9LU"
+"url": "https://www.youtube.com/watch?v=bRnA8glhizw"
 }
 ],
-"ytAt": "2026-11-25T02:16:02.677549+00:00"
+"ytAt": "2026-11-25T02:46:12.778719+00:00"
 },
 "trends": [
 {
 "term": "3기 신도시",
-"traffic": "100+",
+"traffic": "200+",
 "time": "2026-11-25T01:30:00+00:00",
 "news": [
 {
@@ -4804,18 +4729,18 @@
 },
 {
 "term": "atp 월드 투어",
-"traffic": "200+",
+"traffic": "500+",
 "time": "2026-11-25T00:40:00+00:00",
 "news": [
 {
-"title": "Jodar: From 'watching Alcaraz on TV' to becoming teammates & rivals",
+"title": "Jodar breaks Agassi’s 28-year record with year-end Top 10 jump",
 "source": "ATP Tour",
-"link": "https://www.atptour.com/en/unlocked/articles/jodar-locker-room-code-2026"
+"link": "https://www.atptour.com/en/news/jodar-year-end-top-10-record-2026"
 },
 {
-"title": "Men’s tennis is changing in 2028. From money to the calendar, here’s what to know",
-"source": "The New York Times",
-"link": "https://www.nytimes.com/athletic/7797722/2026/11/21/tennis-atp-tour-prize-money-bonuses-rankings-calendar/"
+"title": "Every ATP player who won their first title this year including Rafael Jodar as the 2026 season ends",
+"source": "Tennishead",
+"link": "https://tennishead.net/every-atp-player-who-won-their-first-title-this-year-including-rafael-jodar-as-the-2026-season-ends/"
 }
 ],
 "new": true
