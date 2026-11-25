@@ -1,7 +1,37 @@
 {
-"updated": "2026-11-25T00:39:59.197390+00:00",
+"updated": "2026-11-25T00:42:16.718756+00:00",
 "errors": [],
 "events": [
+{
+"id": "wNISX20261125_00038822110040",
+"first": "2026-11-25T00:40:07+00:00",
+"last": "2026-11-25T00:40:07+00:00",
+"updated": "2026-11-25T00:42:16.718756+00:00",
+"headline": "중국, 유인우주선 선저우24호 발사에 성공",
+"cat": "국제",
+"regions": [],
+"sources": [
+"뉴시스"
+],
+"updates": [
+{
+"title": "[속보] 중국, 유인우주선 선저우24호 발사에 성공",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261125_0003882211",
+"time": "2026-11-25T00:40:07+00:00",
+"stage": "얼럿"
+}
+],
+"level": "URGENT",
+"latest": "중국, 유인우주선 선저우24호 발사에 성공",
+"tok": [
+"발사",
+"선저우24호",
+"성공",
+"유인우주선",
+"중국"
+]
+},
 {
 "id": "lp3SkRZOUplNkFOYnJNNwoc50036",
 "first": "2026-11-25T00:36:00+00:00",
@@ -468,7 +498,7 @@
 "id": "jdaQ2VsTjZ4RkRMUWNRZgoc50008",
 "first": "2026-11-25T00:08:48+00:00",
 "last": "2026-11-25T00:30:14+00:00",
-"updated": "2026-11-25T00:37:42.118249+00:00",
+"updated": "2026-11-25T00:42:16.718756+00:00",
 "headline": "코스피 4%대 하락에 매도 사이드카 발동",
 "cat": "경제",
 "regions": [],
@@ -485,6 +515,7 @@
 "뉴스1",
 "뉴스웍스",
 "뉴시스",
+"대전일보",
 "더팩트",
 "데일리안",
 "동아일보",
@@ -819,6 +850,13 @@
 "stage": "속보"
 },
 {
+"title": "[속보] '젠슨 황 효과' 반등 무색… '4800선 붕괴' 코스피, 매도 사이드카",
+"source": "대전일보",
+"link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBSQ0xnUEZLcjNSS2JVUHE1WjltZUw3TUFRWGpySmJZbUhtcWotZlp5aHp1cUlfbTE5N3NOSzZWRnJCY1hwZFQ1aW9sMW9VSlhNQk1OYk90a0JFNW16MW5VNTFTdkdqWTU1a1F0UkFpRdIBc0FVX3lxTE41TnBFOU15eUd3dEwzTS0tcU1CZDFnUmJFQmlsZ3YzZ09zUVRpRHE3WWEzdEZSUXN5c0dUZF80NWF5c2E3Yy03THJpY18zYlRheUNsZUdGam92c1lmNHhYUlhFX3MydjltYlVNRGhiV1JEVnc?oc=5",
+"time": "2026-11-25T00:30:00+00:00",
+"stage": "속보"
+},
+{
 "title": "코스피, 4~5%대 급락 하루만에 '5천피' 반납…코스닥 3%대↓(종합)",
 "source": "연합뉴스",
 "link": "https://www.yna.co.kr/view/AKR20261125036751008",
@@ -844,6 +882,7 @@
 "매도사이드카",
 "매수",
 "머니투데",
+"무색",
 "반납",
 "반도체",
 "반등",
@@ -853,6 +892,7 @@
 "삼전닉스",
 "선물",
 "아래",
+"젠슨",
 "지수",
 "초반",
 "추락",
@@ -864,7 +904,8 @@
 "하락",
 "하루만",
 "하회",
-"확대"
+"확대",
+"효과"
 ]
 },
 {
@@ -3781,47 +3822,13 @@
 "요청",
 "전파사용료"
 ]
-},
-{
-"id": "wNISX20261124_00038816062001",
-"first": "2026-11-24T20:01:00+00:00",
-"last": "2026-11-24T20:01:00+00:00",
-"updated": "2026-11-24T20:03:15.483210+00:00",
-"headline": "제주, 아침기온 전날보다 3~5도↓…\"산지 눈·강풍 유의\"",
-"cat": "재난",
-"regions": [
-"제주"
-],
-"sources": [
-"뉴시스"
-],
-"updates": [
-{
-"title": "제주, 아침기온 전날보다 3~5도↓…\"산지 눈·강풍 유의\"",
-"source": "뉴시스",
-"link": "https://www.newsis.com/view/NISX20261124_0003881606",
-"time": "2026-11-24T20:01:00+00:00",
-"stage": "1보"
-}
-],
-"level": "ALERT",
-"latest": "제주, 아침기온 전날보다 3~5도↓…\"산지 눈·강풍 유의\"",
-"tok": [
-"5도",
-"강풍",
-"산지",
-"아침기온",
-"유의",
-"전날보다",
-"제주"
-]
 }
 ],
 "sns": {
 "terms": {
 "지진": {
 "n30": 0,
-"base": 0.3,
+"base": 0.2,
 "spike": false
 },
 "화재": {
@@ -4129,29 +4136,29 @@
 "n30": 5,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-25T00:39:59.197390+00:00"
+"since": "2026-11-25T00:42:16.718756+00:00"
 },
 {
 "term": "지하철",
 "n30": 7,
 "base": 1.2,
 "spike": true,
-"since": "2026-11-25T00:39:59.197390+00:00"
+"since": "2026-11-25T00:42:16.718756+00:00"
 }
 ],
 "baseline": {
-"지진": 0.24,
-"화재": 0.14,
+"지진": 0.22,
+"화재": 0.13,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.6,
+"폭발": 0.64,
 "붕괴": 0.05,
-"대피": 0.64,
+"대피": 0.68,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 1.16,
-"사고": 0.34,
-"실종": 0.74,
+"지하철": 1.14,
+"사고": 0.41,
+"실종": 0.77,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -4484,14 +4491,14 @@
 "time": "2026-11-24T22:50:00+00:00",
 "news": [
 {
-"title": "Video bóng đá Real Madrid - PSV: Trút cơn thịnh nộ (Cúp C1)",
-"source": "Tin tức 24h",
-"link": "https://www.24h.com.vn/bong-da/video-bong-da-real-madrid-psv-buoc-ngoat-phat-den-cup-c1-c48a1813830.html"
+"title": "Nhận định bóng đá Real Madrid vs PSV, 03h00 ngày 25/11: Thiên đường thứ 10",
+"source": "Tạp chí Bóng đá",
+"link": "https://bongdaplus.vn/champions-league-cup-c1/nhan-dinh-bong-da-real-madrid-vs-psv-03h00-ngay-25-11-thien-duong-thu-10-5297622611.html"
 },
 {
-"title": "लाइव रियल मैड्रिड बनाम पीएसवी आइंडहोवन: रियल मैड्रिड ने 1-1 से बराबरी की",
-"source": "Vietnam.vn",
-"link": "https://www.vietnam.vn/hi/truc-tieptruc-tiep-real-madrid-vs-psv-eindhoven-real-madrid-go-hoa-1-1"
+"title": "Mbappe ghi bàn vượt 'Người ngoài hành tinh' Ronaldo",
+"source": "Znews",
+"link": "https://znews.vn/mbappe-ghi-ban-vuot-nguoi-ngoai-hanh-tinh-ronaldo-post1698886.html"
 }
 ],
 "new": true
