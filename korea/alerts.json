@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-25T01:34:49.468273+00:00",
+"updated": "2026-11-25T01:37:06.122414+00:00",
 "errors": [],
 "events": [
 {
@@ -984,7 +984,7 @@
 "id": "WxvaFRrd3VUX2tXQVpXUQoc50122",
 "first": "2026-11-25T01:22:05+00:00",
 "last": "2026-11-25T01:22:05+00:00",
-"updated": "2026-11-25T01:25:42.181594+00:00",
+"updated": "2026-11-25T01:37:06.122414+00:00",
 "headline": "평택제천고속도로 중형화물차관련 사고처리중",
 "cat": "교통",
 "regions": [
@@ -1001,6 +1001,13 @@
 "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5BSnQ2bHdFekItYTVwU19rR3puOFN6UEMtUDZfRFhaRG1wOHJiVjdQQ3hUVUc5TVR3TEF2SjRqM3dVVFhoOEZ2VWZMX3RNVWxWNi12OGpDbGR2RzF4ZURxUHhMRWxvaFRrd3VUX2tXQVpXUQ?oc=5",
 "time": "2026-11-25T01:22:05+00:00",
 "stage": "얼럿"
+},
+{
+"title": "[속보] 평택제천고속도로 중형화물차관련 사고처리중",
+"source": "스페셜타임스",
+"link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1TRUpFSVhYeURNek91Wm9wV1loSnk5LW13cldwRGxidEZNTnNONXZ5VExNSzdRdHJ5aG85UkZ0eHMtQnNJbnAxdzhfcVVjR2RsOGZxSS1zLWFMcW1JZWJrcUhWM1h4UGxsbTdwZlk1YS1VUEE?oc=5",
+"time": "2026-11-25T01:22:05+00:00",
+"stage": "속보"
 }
 ],
 "level": "URGENT",
@@ -1015,7 +1022,7 @@
 "id": "FI5SmZmazRzTlUzN19SQQoc51904",
 "first": "2026-11-24T19:04:34+00:00",
 "last": "2026-11-25T01:21:23+00:00",
-"updated": "2026-11-25T01:25:42.181594+00:00",
+"updated": "2026-11-25T01:37:06.122414+00:00",
 "headline": "경부고속도로 사고 처리중",
 "cat": "교통",
 "regions": [],
@@ -1055,6 +1062,13 @@
 "title": "[속보] 서해안고속도로 승용차 관련 사고 처리중",
 "source": "스페셜타임스",
 "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBDdEhTclJ1LXRqM1p3NHozVWlua1RvOTNidjlJSDFGMHBrclVXMi1QMkJzdFhDcW5oVzJWdUxnclhSNnVVcnVOMUloVm84RVJqVmxTaWhCbUg0WUtPT185dWtWWG9vR015SHRKZEdnUUhkQQ?oc=5",
+"time": "2026-11-25T01:21:23+00:00",
+"stage": "속보"
+},
+{
+"title": "[속보] 서해안고속도로 승용차 관련 사고 처리중",
+"source": "스페셜타임스",
+"link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1tOEIwYlVocmtpN05KbUR1RG5Zc3JodUdPTXZEdHhrYmZIVV9FQm9yU09RaGtBdWFfWjVzUzgyVmpBOVlxY01nWS1JNDcwWnRrdzBlbTdwczdQcXFUS25iTG9sODBnelMzUExMTk1YMnVJcVE?oc=5",
 "time": "2026-11-25T01:21:23+00:00",
 "stage": "속보"
 }
@@ -4117,8 +4131,8 @@
 "spike": false
 },
 "폭발": {
-"n30": 2,
-"base": 0.4,
+"n30": 1,
+"base": 0.5,
 "spike": false
 },
 "붕괴": {
@@ -4142,8 +4156,8 @@
 "spike": false
 },
 "지하철": {
-"n30": 1,
-"base": 0.5,
+"n30": 0,
+"base": 0.4,
 "spike": false
 },
 "사고": {
@@ -4153,7 +4167,7 @@
 },
 "실종": {
 "n30": 0,
-"base": 1.2,
+"base": 1.1,
 "spike": false
 },
 "단수": {
@@ -4430,14 +4444,14 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.45,
+"폭발": 0.51,
 "붕괴": 0.05,
-"대피": 0.1,
+"대피": 0.09,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.41,
-"사고": 1.85,
-"실종": 1.1,
+"지하철": 0.37,
+"사고": 1.77,
+"실종": 0.99,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
