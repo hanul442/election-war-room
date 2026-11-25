@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-25T18:40:29.557452+00:00",
+"updated": "2026-11-25T18:42:44.051901+00:00",
 "errors": [],
 "events": [
 {
@@ -2024,9 +2024,9 @@
 "spike": false
 },
 "폭발": {
-"n30": 6,
+"n30": 4,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "붕괴": {
 "n30": 2,
@@ -2054,7 +2054,7 @@
 "spike": false
 },
 "사고": {
-"n30": 0,
+"n30": 1,
 "base": 0.2,
 "spike": false
 },
@@ -2085,6 +2085,16 @@
 }
 },
 "posts": [
+{
+"text": "메트로 사고방식 ㄹㅇ 꼴이다 ",
+"handle": "eeeraserrr.bsky.social",
+"name": "🍖 독고우개 🍖",
+"time": "2026-11-25T18:42:13.042Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/eeeraserrr.bsky.social/post/3n35srpzcvkmd",
+"term": "사고"
+},
 {
 "platform": "YouTube",
 "text": "[SK하이닉스 주가전망] *새벽 속보* 와..100조 주주환원 공시 뜨고도 왜 이럴까, 오늘 \"이 흐름\" 모르면 크게 당합니다",
@@ -2257,15 +2267,7 @@
 "url": "https://www.youtube.com/watch?v=uQBIpdNnTb0"
 }
 ],
-"spikes": [
-{
-"term": "폭발",
-"n30": 6,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-25T18:40:29.557452+00:00"
-}
-],
+"spikes": [],
 "baseline": {
 "지진": 0.05,
 "화재": 0.05,
@@ -2277,7 +2279,7 @@
 "미사일": 0.05,
 "속보": 0.05,
 "지하철": 0.05,
-"사고": 0.22,
+"사고": 0.3,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
