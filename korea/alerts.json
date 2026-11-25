@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-25T03:02:18.116625+00:00",
+"updated": "2026-11-25T03:04:36.717067+00:00",
 "errors": [],
 "events": [
 {
@@ -4255,7 +4255,7 @@
 },
 "화재": {
 "n30": 2,
-"base": 0.2,
+"base": 0.3,
 "spike": false
 },
 "불났": {
@@ -4265,7 +4265,7 @@
 },
 "정전": {
 "n30": 1,
-"base": 0.5,
+"base": 0.6,
 "spike": false
 },
 "폭발": {
@@ -4294,13 +4294,13 @@
 "spike": false
 },
 "지하철": {
-"n30": 4,
-"base": 1.0,
+"n30": 3,
+"base": 1.1,
 "spike": false
 },
 "사고": {
 "n30": 1,
-"base": 1.8,
+"base": 1.7,
 "spike": false
 },
 "실종": {
@@ -4365,8 +4365,8 @@
 "handle": "paransaeb.bsky.social",
 "name": "새벽",
 "time": "2026-11-25T02:51:10.947Z",
-"likes": 1,
-"reposts": 0,
+"likes": 2,
+"reposts": 1,
 "url": "https://bsky.app/profile/paransaeb.bsky.social/post/3n345n5pyt22f",
 "term": "지하철"
 },
@@ -4540,21 +4540,21 @@
 "n30": 5,
 "base": 0.4,
 "spike": true,
-"since": "2026-11-25T03:02:18.116625+00:00"
+"since": "2026-11-25T03:04:36.717067+00:00"
 }
 ],
 "baseline": {
-"지진": 0.17,
-"화재": 0.32,
+"지진": 0.15,
+"화재": 0.39,
 "불났": 0.05,
-"정전": 0.56,
-"폭발": 0.37,
+"정전": 0.6,
+"폭발": 0.33,
 "붕괴": 0.05,
-"대피": 0.08,
+"대피": 0.07,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 1.12,
-"사고": 1.68,
+"지하철": 1.21,
+"사고": 1.61,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -4721,6 +4721,24 @@
 },
 "trends": [
 {
+"term": "서훈",
+"traffic": "500+",
+"time": "2026-11-25T02:00:00+00:00",
+"news": [
+{
+"title": "5·18 진압 경찰 포상 취소…이 대통령 \"당연한 조치, 마지막 한 명까지 역사 교정\"",
+"source": "JTBC",
+"link": "https://news.jtbc.co.kr/article/NB12329695"
+},
+{
+"title": "이 대통령 “반인권범죄 가담·내란범죄 수행자 서훈 박탈 당연…역사 교정 계속”",
+"source": "KBS 뉴스",
+"link": "https://news.kbs.co.kr/news/view.do?ncd=8721808"
+}
+],
+"new": true
+},
+{
 "term": "연금 개혁",
 "traffic": "2000+",
 "time": "2026-11-25T01:50:00+00:00",
@@ -4803,9 +4821,9 @@
 "link": "https://www.chosun.com/sports/world-baseball/2026/11/25/GYGJHEHQ35B4ROA3TGRE3XHHTU/"
 },
 {
-"title": "김하성, MLB 새출발 기회 얻었다…디트로이트와 1년 67억원에 계약",
+"title": "‘MLB 생존’ 김하성, 디트로이트와 1년 최대 80억원 계약 합의",
 "source": "동아일보",
-"link": "https://www.donga.com/news/Sports/article/all/20261125/135086270/1"
+"link": "https://www.donga.com/news/Sports/article/all/20261125/135085978/1"
 }
 ],
 "new": true
@@ -4830,7 +4848,7 @@
 },
 {
 "term": "급여 지원",
-"traffic": "200+",
+"traffic": "500+",
 "time": "2026-11-25T00:50:00+00:00",
 "news": [],
 "new": true
@@ -4841,14 +4859,14 @@
 "time": "2026-11-25T00:40:00+00:00",
 "news": [
 {
-"title": "Jodar breaks Agassi’s 28-year record with year-end Top 10 jump",
-"source": "ATP Tour",
-"link": "https://www.atptour.com/en/news/jodar-year-end-top-10-record-2026"
+"title": "Consistent Zverev earns final No. 1 ATP ranking despite loss to Alcaraz",
+"source": "ESPN",
+"link": "https://www.espn.com/tennis/story/_/id/50572011/zverev-earns-final-no-1-atp-ranking-loss-alcaraz"
 },
 {
-"title": "Every ATP player who won their first title this year including Rafael Jodar as the 2026 season ends",
+"title": "Andy Roddick slams Alexander Zverev’s critics after ATP Finals loss, ‘This is so stupid’",
 "source": "Tennishead",
-"link": "https://tennishead.net/every-atp-player-who-won-their-first-title-this-year-including-rafael-jodar-as-the-2026-season-ends/"
+"link": "https://tennishead.net/andy-roddick-slams-alexander-zverevs-critics-after-atp-finals-loss-this-is-so-stupid/"
 }
 ],
 "new": true
@@ -4864,27 +4882,9 @@
 "link": "https://www.yna.co.kr/view/AKR20261124132800002"
 },
 {
-"title": "[금융소식] 신한카드·BC카드·KB국민카드·여신금융협회·NH농협캐피탈",
-"source": "천지일보",
-"link": "https://www.newscj.com/news/articleView.html?idxno=3451559"
-}
-],
-"new": true
-},
-{
-"term": "국민은행",
-"traffic": "500+",
-"time": "2026-11-25T00:40:00+00:00",
-"news": [
-{
-"title": "KB국민은행 \"서울시 11개 구금고 유치…점유율 1위\"",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261125034800002"
-},
-{
-"title": "KB국민은행, 서울 11개 자치구 금고 확보…시중은행 중 최다",
-"source": "헤럴드경제",
-"link": "https://biz.heraldcorp.com/article/10948417"
+"title": "[여전사 풍향계] ‘아디다스 신한카드’ 출시…스토어 10% 할인 外",
+"source": "에너지경제신문",
+"link": "https://m.ekn.kr/view.php?key=20261124024274089"
 }
 ],
 "new": true
