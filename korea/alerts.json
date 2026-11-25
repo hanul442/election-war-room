@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-25T02:53:07.355031+00:00",
+"updated": "2026-11-25T02:55:24.701730+00:00",
 "errors": [],
 "events": [
 {
@@ -205,7 +205,7 @@
 "id": "wNISX20261125_00038825040213",
 "first": "2026-11-25T02:13:31+00:00",
 "last": "2026-11-25T02:47:52+00:00",
-"updated": "2026-11-25T02:50:48.126228+00:00",
+"updated": "2026-11-25T02:55:24.701730+00:00",
 "headline": "노소영 측 \"최태원, 상고취하 하라\"…화해권고 거부",
 "cat": "기타",
 "regions": [],
@@ -350,6 +350,13 @@
 "title": "[속보] 노소영 “최태원 ‘화해권고 요청’ 거부…상고취하 하라”",
 "source": "헤럴드경제",
 "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1JSi1GWUxJWndoZktyX2NXUTZMS3hvLTVRWU8yajUyQkVyZ2RCQlB1cVdNQ3llbHVONUNaWlltN0N6UnRLaHpQM0R5X29KZzdCX1F1T0Fqdw?oc=5",
+"time": "2026-11-25T02:38:45+00:00",
+"stage": "속보"
+},
+{
+"title": "[속보] 노소영 “최태원 ‘화해권고 요청’ 거부…상고취하 하라”",
+"source": "헤럴드경제",
+"link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE8wTWVENDJNeS1RVU55cW5naDJSQVBzNWp6X2wtVEl3YnNtUzRHMHNzY2ctMi01UGhkYUtYZzNvbEVVdzR1YzVhaXFrNzh2am5JM0ltNW5R?oc=5",
 "time": "2026-11-25T02:38:45+00:00",
 "stage": "속보"
 },
@@ -4232,7 +4239,7 @@
 },
 "정전": {
 "n30": 1,
-"base": 0.2,
+"base": 0.3,
 "spike": false
 },
 "폭발": {
@@ -4262,7 +4269,7 @@
 },
 "지하철": {
 "n30": 4,
-"base": 0.5,
+"base": 0.7,
 "spike": false
 },
 "사고": {
@@ -4507,28 +4514,28 @@
 "n30": 5,
 "base": 0.6,
 "spike": true,
-"since": "2026-11-25T02:53:07.355031+00:00"
+"since": "2026-11-25T02:55:24.701730+00:00"
 },
 {
 "term": "속보",
 "n30": 6,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-25T02:53:07.355031+00:00"
+"since": "2026-11-25T02:55:24.701730+00:00"
 }
 ],
 "baseline": {
-"지진": 0.26,
+"지진": 0.23,
 "화재": 0.05,
 "불났": 0.05,
-"정전": 0.32,
-"폭발": 0.55,
+"정전": 0.39,
+"폭발": 0.5,
 "붕괴": 0.05,
-"대피": 0.12,
+"대피": 0.11,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.65,
-"사고": 1.79,
+"지하철": 0.79,
+"사고": 1.81,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
