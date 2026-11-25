@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-25T21:52:00.574998+00:00",
+"updated": "2026-11-25T21:54:13.287571+00:00",
 "errors": [],
 "events": [
 {
@@ -2590,14 +2590,14 @@
 "n30": 5,
 "base": 0.6,
 "spike": true,
-"since": "2026-11-25T21:52:00.574998+00:00"
+"since": "2026-11-25T21:54:13.287571+00:00"
 },
 {
 "term": "속보",
 "n30": 12,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-25T21:52:00.574998+00:00"
+"since": "2026-11-25T21:54:13.287571+00:00"
 }
 ],
 "baseline": {
@@ -2605,11 +2605,11 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.61,
+"폭발": 0.65,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.07,
+"속보": 0.06,
 "지하철": 0.05,
 "사고": 0.05,
 "실종": 0.05,
@@ -2832,6 +2832,96 @@
 },
 "trends": [
 {
+"term": "sporting vs man utd",
+"traffic": "200+",
+"time": "2026-11-25T20:50:00+00:00",
+"news": [
+{
+"title": "Champions League LIVE: Sporting vs Man Utd & Club Brugge vs Liverpool score & updates from seven other games",
+"source": "BBC",
+"link": "https://www.bbc.com/sport/football/live/cx98zmzyn0y7t"
+},
+{
+"title": "Licensable picture: UEFA Champions League - Sporting CP v Manchester United",
+"source": "Reuters Connect",
+"link": "https://www.reutersconnect.com/item/uefa-champions-league-sporting-cp-v-manchester-united/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX1VQMUVNQlAxTzEzT0k"
+}
+],
+"new": true
+},
+{
+"term": "공공",
+"traffic": "200+",
+"time": "2026-11-25T20:50:00+00:00",
+"news": [
+{
+"title": "이 대통령 \"공적주택, 주거사다리·주거안전매트…공급 최대한 확대\"",
+"source": "대한민국 정책브리핑",
+"link": "https://www.korea.kr/news/policyNewsView.do?newsId=148976503"
+},
+{
+"title": "이 대통령 \"중산층 사다리 돼야\"‥공적주택 방문",
+"source": "MBC 뉴스",
+"link": "https://imnews.imbc.com/replay/2026/nwtoday/article/6868638_37012.html"
+}
+],
+"new": true
+},
+{
+"term": "에코프로비엠",
+"traffic": "200+",
+"time": "2026-11-25T20:50:00+00:00",
+"news": [
+{
+"title": "‘4명 사상’ 에코프로비엠 폭발 사고 전 대표 징역형 집유",
+"source": "KBS 뉴스",
+"link": "https://news.kbs.co.kr/news/view.do?ncd=8722255"
+},
+{
+"title": "\"위험 경고 여러 번 무시해\"…'4명 사상' 에코프로비엠 전 대표 집유 - 머니투데이",
+"source": "머니투데이",
+"link": "https://www.mt.co.kr/society/2026/11/25/2026112518074672423"
+}
+],
+"new": true
+},
+{
+"term": "교사",
+"traffic": "200+",
+"time": "2026-11-25T20:50:00+00:00",
+"news": [
+{
+"title": "[속보]‘리트 만점자’ 생명과학 과외선생 “죽음이 범죄 도주처 되면 안돼···그래서 경찰 출석”",
+"source": "경향신문",
+"link": "https://www.khan.co.kr/article/202611251415001"
+},
+{
+"title": "AI로 되살아난 고인...조롱의 도구된 딥페이크 [앵커리포트]",
+"source": "YTN",
+"link": "https://www.ytn.co.kr/_ln/0103_202611251911244877"
+}
+],
+"new": true
+},
+{
+"term": "경마",
+"traffic": "100+",
+"time": "2026-11-25T20:50:00+00:00",
+"news": [
+{
+"title": "경마노동자 620명 청와대 앞 집결…“경마공원 이전 정부가 책임져야”",
+"source": "경기일보",
+"link": "https://www.kyeonggi.com/article/20261125580461"
+},
+{
+"title": "마사회 노동조합, 총력투쟁 결의대회",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/PYH20261125125000013"
+}
+],
+"new": true
+},
+{
 "term": "맨유",
 "traffic": "200+",
 "time": "2026-11-25T20:40:00+00:00",
@@ -2887,7 +2977,7 @@
 },
 {
 "term": "종합부동산세",
-"traffic": "200+",
+"traffic": "500+",
 "time": "2026-11-25T20:30:00+00:00",
 "news": [
 {
@@ -2909,96 +2999,6 @@
 "time": "2026-11-25T20:30:00+00:00",
 "news": [],
 "new": false
-},
-{
-"term": "생계",
-"traffic": "5000+",
-"time": "2026-11-25T20:20:00+00:00",
-"news": [
-{
-"title": "‘자녀가 있어 못받은 생계급여’ 기준 폐지 추진",
-"source": "이투데이",
-"link": "https://bravo.etoday.co.kr/view/atc_view/20544"
-},
-{
-"title": "생계·의료·주거·교육, 기본생활 보장이 더 두터워집니다 - 카드/한컷 | 멀티미디어",
-"source": "대한민국 정책브리핑",
-"link": "https://www.korea.kr/multi/visualNewsView.do?newsId=148976354"
-}
-],
-"new": true
-},
-{
-"term": "สปอร์ติงลิสบอน พบ แมนยู",
-"traffic": "500+",
-"time": "2026-11-25T20:20:00+00:00",
-"news": [
-{
-"title": "โค้ชทีมกีฬา: การวิเคราะห์แท็กติกของแมนเชสเตอร์ ยูไนเต็ดนั้นเป็นเรื่องยาก",
-"source": "Vietnam.vn",
-"link": "https://www.vietnam.vn/th/hlv-sporting-that-kho-de-phan-tich-chien-thuat-cua-man-united"
-},
-{
-"title": "BIG MATCH ยูฟ่า แชมเปียนส์ลีก คืนนี้! สปอร์ติง ลิสบอน พบ แมนฯ ยูไนเต็ด แพ็กเดียว คุ้มสุด! สมัครวันนี้ ดูฟรี 2 เดือน! ดูบอลยาวครบจบทุกลีก ตลอดฤดูกาล 2026/27 สมัครครั้งเดียวดูบอลสดจนถึงนัดชิงชนะเลิศฟุตบอลถ้วยยุโรป พร้อมจัดเต็มความมันส์กับฟุตบอลลีกและถ้วยดังระดับโลก รวมไว้ใน",
-"source": "Facebook",
-"link": "https://www.facebook.com/Truevisions/videos/big-match-%E0%B8%A2%E0%B8%B9%E0%B8%9F%E0%B9%88%E0%B8%B2-%E0%B9%81%E0%B8%8A%E0%B8%A1%E0%B9%80%E0%B8%9B%E0%B8%B5%E0%B8%A2%E0%B8%99%E0%B8%AA%E0%B9%8C%E0%B8%A5%E0%B8%B5%E0%B8%81-%E0%B8%84%E0%B8%B7%E0%B8%99%E0%B8%99%E0%B8%B5%E0%B9%89-%E0%B8%AA%E0%B8%9B%E0%B8%AD%E0%B8%A3%E0%B9%8C%E0%B8%95%E0%B8%B4%E0%B8%87-%E0%B8%A5%E0%B8%B4%E0%B8%AA%E0%B8%9A%E0%B8%AD%E0%B8%99-%E0%B8%9E%E0%B8%9A-%E0%B9%81%E0%B8%A1%E0%B8%99%E0%B8%AF-%E0%B8%A2%E0%B8%B9%E0%B9%84%E0%B8%99%E0%B9%80%E0%B8%95%E0%B9%87%E0%B8%94-%E0%B9%81%E0%B8%9E%E0%B9%87%E0%B8%81%E0%B9%80%E0%B8%94%E0%B8%B5%E0%B8%A2%E0%B8%A7/29951377491122007/"
-}
-],
-"new": true
-},
-{
-"term": "사직",
-"traffic": "200+",
-"time": "2026-11-25T20:20:00+00:00",
-"news": [
-{
-"title": "사직 거부하자 거래처에 '팀장 해제' 통보…\"2000만원 내라\"",
-"source": "동행미디어 시대",
-"link": "https://www.sidae.com/article/2026112314545021907"
-},
-{
-"title": "단독 검찰청 폐지에 '허리급' 평검사 잇단 사직인사...\"자괴감 느껴\"",
-"source": "YTN",
-"link": "https://www.ytn.co.kr/_ln/0103_202611251504258738"
-}
-],
-"new": true
-},
-{
-"term": "새만금",
-"traffic": "200+",
-"time": "2026-11-25T20:20:00+00:00",
-"news": [
-{
-"title": "새만금개발청, 고군산군도 새만금사업지역 면적 80.8% 해제",
-"source": "전자신문",
-"link": "https://www.etnews.com/20261125000510"
-},
-{
-"title": "18년 묶인 재산권 풀린다…고군산군도 새만금구역 80.8% 해제",
-"source": "뉴시스",
-"link": "https://www.newsis.com/view/NISX20261125_0003883314"
-}
-],
-"new": true
-},
-{
-"term": "세무사",
-"traffic": "2000+",
-"time": "2026-11-25T20:10:00+00:00",
-"news": [
-{
-"title": "“육아휴직 하고 세무사 합격”…워킹맘 합격 후기에 발칵",
-"source": "중앙일보",
-"link": "https://www.joongang.co.kr/article/25482046"
-},
-{
-"title": "[자막뉴스] '세무냥이' 그 시험 합격 수기가 또 논란…\"육휴 상태로 공부\" 놓고 '부정수급' 맹공",
-"source": "SBS 뉴스",
-"link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008862978"
-}
-],
-"new": true
 }
 ],
 "trendSeen": [
