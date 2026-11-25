@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-25T10:49:37.645952+00:00",
+"updated": "2026-11-25T10:51:52.779111+00:00",
 "errors": [],
 "events": [
 {
@@ -101,7 +101,7 @@
 "id": "lQlRtdHg1WGFWV2VpeUpBoc51037",
 "first": "2026-11-25T10:37:02+00:00",
 "last": "2026-11-25T10:37:02+00:00",
-"updated": "2026-11-25T10:42:50.331484+00:00",
+"updated": "2026-11-25T10:51:52.779111+00:00",
 "headline": "버스터미널 인근서 20cm 흉기 꺼내 든 50대 현행범 체포",
 "cat": "기타",
 "regions": [
@@ -133,6 +133,13 @@
 "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBhbmp0S05TcEZBMUhQOW8wU3dCUHkxWHlfRENLczhYOU1EckNER3hxbGRUTXRfZUJ5U0VRX0dBQnRNY29fTHluNVRpZy00aHU2amtlQlRtdHg1WGFWV2VpeUpB?oc=5",
 "time": "2026-11-25T10:37:02+00:00",
 "stage": "얼럿"
+},
+{
+"title": "[속보]버스터미널 인근서 20cm 흉기 꺼내 든 50대 현행범 체포",
+"source": "KBC광주방송",
+"link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9Qb3lTTlVjdGF0SjBoTEs0ZUVxZllKZ0RtZHZ4TENEeHVMQ2JZUjJGMVRSbDNCbzBNQ25qd0xGTzU4b0dyQzk3MzFTTEQ0Tk1CQVhVeHM2Vm9MdXFuSWF0LQ?oc=5",
+"time": "2026-11-25T10:37:02+00:00",
+"stage": "속보"
 }
 ],
 "level": "URGENT",
@@ -3659,7 +3666,7 @@
 },
 "폭발": {
 "n30": 5,
-"base": 0.6,
+"base": 0.7,
 "spike": true
 },
 "붕괴": {
@@ -3689,12 +3696,12 @@
 },
 "사고": {
 "n30": 3,
-"base": 2.1,
+"base": 2.2,
 "spike": false
 },
 "실종": {
 "n30": 3,
-"base": 0.9,
+"base": 1.1,
 "spike": false
 },
 "단수": {
@@ -3966,16 +3973,16 @@
 {
 "term": "폭발",
 "n30": 5,
-"base": 0.6,
+"base": 0.7,
 "spike": true,
-"since": "2026-11-25T10:49:37.645952+00:00"
+"since": "2026-11-25T10:51:52.779111+00:00"
 },
 {
 "term": "속보",
 "n30": 5,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-25T10:49:37.645952+00:00"
+"since": "2026-11-25T10:51:52.779111+00:00"
 }
 ],
 "baseline": {
@@ -3983,17 +3990,17 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.68,
-"붕괴": 0.3,
+"폭발": 0.71,
+"붕괴": 0.27,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
 "지하철": 0.95,
-"사고": 2.23,
-"실종": 1.1,
-"단수": 0.06,
+"사고": 2.31,
+"실종": 1.29,
+"단수": 0.05,
 "통신 장애": 0.05,
-"먹통": 0.18,
+"먹통": 0.16,
 "산불": 0.05
 },
 "errors": [],
@@ -4249,14 +4256,14 @@
 "time": "2026-11-25T09:00:00+00:00",
 "news": [
 {
+"title": "철도노조 26일부터 준법투쟁…수도권 전철·KTX 지연 우려",
+"source": "뉴스1",
+"link": "https://www.news1.kr/realestate/general/6365935"
+},
+{
 "title": "철도노조, 내일(26일)부터 ‘안전운행 투쟁’… 일부 열차 운행 차질 예상",
 "source": "KBS 뉴스",
 "link": "https://news.kbs.co.kr/news/view.do?ncd=8722349"
-},
-{
-"title": "철도노조, 26일부터 준법투쟁 돌입…수도권 전철·KTX 운행 지연 우려",
-"source": "경기일보",
-"link": "https://www.kyeonggi.com/article/20261125580504"
 }
 ],
 "new": true
