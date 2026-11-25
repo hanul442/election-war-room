@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-25T10:51:52.779111+00:00",
+"updated": "2026-11-25T10:54:09.917044+00:00",
 "errors": [],
 "events": [
 {
@@ -3690,18 +3690,18 @@
 "spike": true
 },
 "지하철": {
-"n30": 1,
+"n30": 0,
 "base": 0.9,
 "spike": false
 },
 "사고": {
 "n30": 3,
-"base": 2.2,
+"base": 2.3,
 "spike": false
 },
 "실종": {
 "n30": 3,
-"base": 1.1,
+"base": 1.3,
 "spike": false
 },
 "단수": {
@@ -3914,16 +3914,6 @@
 "url": "https://www.youtube.com/watch?v=pAmLFfJQ7Ik"
 },
 {
-"text": "내가 지하철에서도 책을 읽었었다니 이제 걍 대중교통 모든게 지겹다\n자차타면서 코노 2시간 불러제꼈더니",
-"handle": "60prcnt.bsky.social",
-"name": "60prcnt.bsky.social",
-"time": "2026-11-25T10:21:56.044Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/60prcnt.bsky.social/post/3n34wt5giwc2u",
-"term": "지하철"
-},
-{
 "platform": "YouTube",
 "text": "[하이브 주가전망] *마감 속보* 와..코스피 6% 폭락에도 버텨냈네요, '이 자리' 지켜낸 진짜 이유 곧 터집니다",
 "handle": "UCtEg_LyuNhbFWvhwV4DZAoQ",
@@ -3975,14 +3965,14 @@
 "n30": 5,
 "base": 0.7,
 "spike": true,
-"since": "2026-11-25T10:51:52.779111+00:00"
+"since": "2026-11-25T10:54:09.917044+00:00"
 },
 {
 "term": "속보",
 "n30": 5,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-25T10:51:52.779111+00:00"
+"since": "2026-11-25T10:54:09.917044+00:00"
 }
 ],
 "baseline": {
@@ -3990,17 +3980,17 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.71,
-"붕괴": 0.27,
+"폭발": 0.74,
+"붕괴": 0.24,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.95,
-"사고": 2.31,
-"실종": 1.29,
+"지하철": 0.85,
+"사고": 2.38,
+"실종": 1.46,
 "단수": 0.05,
 "통신 장애": 0.05,
-"먹통": 0.16,
+"먹통": 0.14,
 "산불": 0.05
 },
 "errors": [],
@@ -4172,8 +4162,62 @@
 },
 "trends": [
 {
+"term": "숲",
+"traffic": "2000+",
+"time": "2026-11-25T09:50:00+00:00",
+"news": [
+{
+"title": "담양군 대덕면 무월마을, 한국산림복지진흥원장상 수상 - 보도자료 | 기사",
+"source": "더팩트",
+"link": "https://news.tf.co.kr/read/releasecopy/2393128.htm"
+},
+{
+"title": "담양 무월마을, 산촌 숲여행 특화사업 평가 '한국산림복지진흥원장상'",
+"source": "프레시안",
+"link": "https://www.pressian.com/pages/articles/2026112516105361564"
+}
+],
+"new": true
+},
+{
+"term": "티원",
+"traffic": "200+",
+"time": "2026-11-25T09:50:00+00:00",
+"news": [
+{
+"title": "T1 2027시즌 기자회견 SOOP 생중계",
+"source": "국민일보",
+"link": "https://www.kmib.co.kr/article/20261125501220"
+},
+{
+"title": "[오피셜] ‘이지훈’ 코치 잔류 T1, ‘로치’ 감독·‘엄티’ 코치 선임…2027시즌 코칭스태프 발표",
+"source": "OSEN",
+"link": "https://www.osen.co.kr/article/G1112914744"
+}
+],
+"new": true
+},
+{
+"term": "검사",
+"traffic": "200+",
+"time": "2026-11-25T09:50:00+00:00",
+"news": [
+{
+"title": "[사설] 대북송금 수사 검사 징계 못푸는 이유, 조작기소 근거 사라질까봐",
+"source": "조선일보",
+"link": "https://www.chosun.com/opinion/editorial/2026/11/25/ST6EEKK3R5HRBFEGXT7JEZ5JJM/"
+},
+{
+"title": "[단독] '7개월 직무정지' 박상용 검사, 해제 거부에 징계까지 미루면 법무부 상대 취소소송 검토",
+"source": "뉴데일리",
+"link": "https://www.newdaily.co.kr/site/data/html/2026/11/25/2026112550182.html"
+}
+],
+"new": true
+},
+{
 "term": "고경표 음주 운전",
-"traffic": "1000+",
+"traffic": "2000+",
 "time": "2026-11-25T09:30:00+00:00",
 "news": [
 {
@@ -4234,7 +4278,7 @@
 },
 {
 "term": "슈퍼문",
-"traffic": "200+",
+"traffic": "500+",
 "time": "2026-11-25T09:00:00+00:00",
 "news": [
 {
@@ -4285,64 +4329,9 @@
 }
 ],
 "new": true
-},
-{
-"term": "태국",
-"traffic": "500+",
-"time": "2026-11-25T08:30:00+00:00",
-"news": [
-{
-"title": "Chula Experts Outline Thailand’s Path to Quantum Computing Opportunities",
-"source": "Cincinnati Enquirer",
-"link": "https://www.cincinnati.com/press-release/story/155762/chula-experts-outline-thailands-path-to-quantum-computing-opportunities/"
-},
-{
-"title": "Chula Experts Urge Thailand To Build Quantum Skills And Research",
-"source": "Quantum Zeitgeist",
-"link": "https://quantumzeitgeist.com/chulalongkorn-university-chula-experts-urge-thailand/"
-}
-],
-"new": false
-},
-{
-"term": "검찰청",
-"traffic": "1000+",
-"time": "2026-11-25T08:20:00+00:00",
-"news": [
-{
-"title": "단독 검찰청 폐지에 '허리급' 평검사 잇단 사직인사...\"자괴감 느껴\"",
-"source": "YTN",
-"link": "https://www.ytn.co.kr/_ln/0103_202611251504258738"
-},
-{
-"title": "올해 퇴직·휴직 검사 347명…\"파견 축소·법무부 겸직 인원 조정해야\"",
-"source": "파이낸셜뉴스",
-"link": "https://www.fnnews.com/news/202611162235519376"
-}
-],
-"new": true
-},
-{
-"term": "루카 윌리엄스 바넷",
-"traffic": "2000+",
-"time": "2026-11-25T07:50:00+00:00",
-"news": [
-{
-"title": "[오피셜]제2의 손흥민 지켰다! 토트넘, 선발 데뷔전서 1골-1도움 '18세 원더키드' 윌리엄스-바넷과 재계약 \"위대한 선수 되겠다\"...데 제르비도 \"내가 정말 높이 평가하는 선수\"",
-"source": "조선일보",
-"link": "https://www.chosun.com/sports/world-football/2026/11/25/GMYTIOJVGFQTGOBYMQZWIOJZMU/"
-},
-{
-"title": "“군 면제만 보고 뛰었다” 망언으로 국민적 공분 산 양민혁은 임대만 전전하는데…2008년생 ‘특급 신예’ 활약에 마음 사로잡힌 토트넘 장기 재계약 임박",
-"source": "Goal.com",
-"link": "https://www.goal.com/kr/%EB%89%B4%EC%8A%A4/%E1%84%80%E1%85%AE%E1%86%AB-%E1%84%86%E1%85%A7%E1%86%AB%E1%84%8C%E1%85%A6%E1%84%86%E1%85%A1%E1%86%AB-%E1%84%87%E1%85%A9%E1%84%80%E1%85%A9-%E1%84%84%E1%85%B1%E1%84%8B%E1%85%A5%E1%86%BB%E1%84%83%E1%85%A1-%E1%84%86%E1%85%A1%E1%86%BC%E1%84%8B%E1%85%A5%E1%86%AB%E1%84%8B%E1%85%B3%E1%84%85%E1%85%A9-%E1%84%80%E1%85%AE%E1%86%A8%E1%84%86%E1%85%B5%E1%86%AB%E1%84%8C%E1%85%A5%E1%86%A8-%E1%84%80%E1%85%A9%E1%86%BC%E1%84%87%E1%85%AE%E1%86%AB-%E1%84%89%E1%85%A1%E1%86%AB-%E1%84%8B%E1%85%A3%E1%86%BC%E1%84%86%E1%85%B5%E1%86%AB%E1%84%92%E1%85%A7%E1%86%A8%E1%84%8B%E1%85%B3%E1%86%AB-%E1%84%8B%E1%85%B5%E1%86%B7%E1%84%83%E1%85%A2%E1%84%86%E1%85%A1%E1%86%AB-%E1%84%8C%E1%85%A5%E1%86%AB%E1%84%8C%E1%85%A5%E1%86%AB%E1%84%92%E1%85%A1%E1%84%82%E1%85%B3%E1%86%AB%E1%84%83%E1%85%A6--2008%E1%84%82%E1%85%A7%E1%86%AB%E1%84%89%E1%85%A2%E1%86%BC-%E1%84%90%E1%85%B3%E1%86%A8%E1%84%80%E1%85%B3%E1%86%B8-%E1%84%89%E1%85%B5%E1%86%AB%E1%84%8B%E1%85%A8-%E1%84%92%E1%85%AA%E1%86%AF%E1%84%8B%E1%85%A3%E1%86%A8%E1%84%8B%E1%85%A6-%E1%84%86%E1%85%A1%E1%84%8B%E1%85%B3%E1%86%B7-%E1%84%89%E1%85%A1%E1%84%85%E1%85%A9%E1%84%8C%E1%85%A1%E1%86%B8%E1%84%92%E1%85%B5%E1%86%AB-%E1%84%90%E1%85%A9%E1%84%90%E1%85%B3%E1%84%82%E1%85%A5%E1%86%B7-%E1%84%8C%E1%85%A1%E1%86%BC%E1%84%80%E1%85%B5-%E1%84%8C%E1%85%A2%E1%84%80%E1%85%A8%E1%84%8B%E1%85%A3%E1%86%A8-%E1%84%8B%E1%85%B5%E1%86%B7%E1%84%87%E1%85%A1%E1%86%A8/blt3b6118c681b68cf0"
-}
-],
-"new": true
 }
 ],
 "trendSeen": [
-"코스피 11% 급락 원인과 정부의 반대매매 완화 조치 내용 알려줘",
 "코스피 200",
 "코스피 야간선물",
 "코어위브",
@@ -4416,6 +4405,7 @@
 "티머니",
 "티비",
 "티빙",
+"티원",
 "티켓링크",
 "파기 환송",
 "파라타항공",
