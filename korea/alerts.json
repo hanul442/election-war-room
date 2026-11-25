@@ -1,12 +1,12 @@
 {
-"updated": "2026-11-25T16:37:26.881509+00:00",
+"updated": "2026-11-25T16:39:40.991840+00:00",
 "errors": [],
 "events": [
 {
 "id": "viewAKR202611251839000711319",
 "first": "2026-11-25T13:19:25+00:00",
-"last": "2026-11-25T16:26:42+00:00",
-"updated": "2026-11-25T16:30:38.925062+00:00",
+"last": "2026-11-25T16:36:40+00:00",
+"updated": "2026-11-25T16:39:40.991840+00:00",
 "headline": "美, 한국 등 14개 경제주체에 '과잉생산 관세' 예고",
 "cat": "기타",
 "regions": [
@@ -241,10 +241,17 @@
 "link": "https://www.newsis.com/view/NISX20261126_0003883585",
 "time": "2026-11-25T16:26:42+00:00",
 "stage": "후속"
+},
+{
+"title": "美, 과잉생산 관세 15% 제안…정부 \"최종 관세 긴밀히 협의할 것\"",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261126_0003883590",
+"time": "2026-11-25T16:36:40+00:00",
+"stage": "후속"
 }
 ],
 "level": "URGENT",
-"latest": "美, 과잉생산 빌미 14개국 또 관세…\"한국 15% 상한 유지\"(종합2보)",
+"latest": "美, 과잉생산 관세 15% 제안…정부 \"최종 관세 긴밀히 협의할 것\"",
 "tok": [
 "14개",
 "14개국",
@@ -260,6 +267,7 @@
 "과잉생산",
 "관세",
 "교역",
+"긴밀히",
 "등에",
 "무역대표부",
 "미국",
@@ -280,19 +288,18 @@
 "중국",
 "지켜질까",
 "최대",
+"최종",
 "추가",
 "추진",
 "포함",
-"한국",
-"한미",
-"합의"
+"한국"
 ]
 },
 {
 "id": "ZNDRNYm5EQTAwVkVWakdQoc51433",
 "first": "2026-11-25T14:33:00+00:00",
 "last": "2026-11-25T16:21:29+00:00",
-"updated": "2026-11-25T16:37:26.881509+00:00",
+"updated": "2026-11-25T16:39:40.991840+00:00",
 "headline": "뉴욕증시 하락 출발...나스닥 3.5% 급락",
 "cat": "경제",
 "regions": [],
@@ -359,6 +366,13 @@
 "title": "나스닥 25일 장중 4.1% 급락…물가·AI 우려 겹쳐",
 "source": "토큰포스트",
 "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9HN0o0TFZYZ0dlWTlsMktNRThtZWk2YUNwb3NfVFd0VTJTZjVPaFNLME5qbEU5Zkd2NllFaXY5bFdVd25aNXg2M3luVTJvaHZfTEFrUGlOV3HSAV5BVV95cUxQTDdmTFZqMmtpQ2dMTF8tdFg4RmpaX09BWDNhT0MyYXJEUUZKaE9HWHZXbXlrSjF0REtxbEEyTHJKakZqUGlyY1dvV2pLd1dHLUs5NlVKbEN0RTAxeDhR?oc=5",
+"time": "2026-11-25T16:21:29+00:00",
+"stage": "후속"
+},
+{
+"title": "나스닥 25일 장중 4.1% 급락…물가·AI 우려 겹쳐",
+"source": "토큰포스트",
+"link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9HN0o0TFZYZ0dlWTlsMktNRThtZWk2YUNwb3NfVFd0VTJTZjVPaFNLME5qbEU5Zkd2NllFaXY5bFdVd25aNXg2M3luVTJvaHZfTEFrUGlOV3E?oc=5",
 "time": "2026-11-25T16:21:29+00:00",
 "stage": "후속"
 }
@@ -2716,11 +2730,11 @@
 "terms": {
 "지진": {
 "n30": 1,
-"base": 0.3,
+"base": 0.4,
 "spike": false
 },
 "화재": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -2735,12 +2749,12 @@
 "spike": false
 },
 "폭발": {
-"n30": 7,
+"n30": 6,
 "base": 0.1,
 "spike": true
 },
 "붕괴": {
-"n30": 2,
+"n30": 3,
 "base": 0.4,
 "spike": false
 },
@@ -2755,17 +2769,17 @@
 "spike": false
 },
 "속보": {
-"n30": 6,
+"n30": 4,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "지하철": {
 "n30": 0,
-"base": 1.2,
+"base": 1.1,
 "spike": false
 },
 "사고": {
-"n30": 2,
+"n30": 3,
 "base": 2.0,
 "spike": false
 },
@@ -2796,6 +2810,26 @@
 }
 },
 "posts": [
+{
+"text": "비록 다른 붕괴이긴 하지만 그래도 오랜만에 의식이 보니까 좋더라 그래서 언제 신캐 내줄거니",
+"handle": "wnxyumxik.bsky.social",
+"name": "냠냠옹씌",
+"time": "2026-11-25T16:38:06.149Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/wnxyumxik.bsky.social/post/3n35ltrz2ts2e",
+"term": "붕괴"
+},
+{
+"text": "우리 중혁이 효묘인지 똥오줌 쌀거라고 예고하고 사고를 쳤네... 화장실에 안싸고 컴퓨터 책상 밑 방구석탱... 전선에는 안쌋네... 똥도 물을 너무 안마셨던건지 딱똥이구만... 설사가 아니라 다행이라고 해야할지... 오줌범벅이라 냥빨에 대한 마음을 더 굳건하게 만드네...",
+"handle": "b1ue1ine.bsky.social",
+"name": "청선 🔞",
+"time": "2026-11-25T16:38:04.650Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/b1ue1ine.bsky.social/post/3n35ltqctik2i",
+"term": "사고"
+},
 {
 "platform": "YouTube",
 "text": "왜 이제 샀을까! 후기 폭발 항균 TPU 도마 꿀조합: 모도리·TPU·대형 총정리",
@@ -3010,32 +3044,25 @@
 "spikes": [
 {
 "term": "폭발",
-"n30": 7,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-25T16:37:26.881509+00:00"
-},
-{
-"term": "속보",
 "n30": 6,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-25T16:37:26.881509+00:00"
+"since": "2026-11-25T16:39:40.991840+00:00"
 }
 ],
 "baseline": {
-"지진": 0.39,
+"지진": 0.45,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
 "폭발": 0.05,
-"붕괴": 0.37,
-"대피": 0.06,
+"붕괴": 0.43,
+"대피": 0.05,
 "미사일": 0.05,
-"속보": 0.06,
-"지하철": 1.1,
-"사고": 1.99,
-"실종": 0.3,
+"속보": 0.05,
+"지하철": 0.99,
+"사고": 2.09,
+"실종": 0.27,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
