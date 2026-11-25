@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-25T22:58:54.177734+00:00",
+"updated": "2026-11-25T23:01:06.634728+00:00",
 "errors": [],
 "events": [
 {
@@ -632,6 +632,43 @@
 "추자현",
 "피라밋",
 "호흡"
+]
+},
+{
+"id": "ssutm_campaigntotal_news2227",
+"first": "2026-11-25T22:27:00+00:00",
+"last": "2026-11-25T22:27:00+00:00",
+"updated": "2026-11-25T23:01:06.634728+00:00",
+"headline": "미국서 유독성 군 폭발물 4.5t 폭발 폐기…인근 대피령에 중금속 납오염 우려 확산",
+"cat": "재난",
+"regions": [],
+"sources": [
+"경향신문"
+],
+"updates": [
+{
+"title": "미국서 유독성 군 폭발물 4.5t 폭발 폐기…인근 대피령에 중금속 납오염 우려 확산",
+"source": "경향신문",
+"link": "https://www.khan.co.kr/article/202611260727001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
+"time": "2026-11-25T22:27:00+00:00",
+"stage": "1보"
+}
+],
+"level": "FLASH",
+"latest": "미국서 유독성 군 폭발물 4.5t 폭발 폐기…인근 대피령에 중금속 납오염 우려 확산",
+"tok": [
+"5t",
+"납오염",
+"대피령",
+"미국서",
+"우려",
+"유독성",
+"인근",
+"중금속",
+"폐기",
+"폭발",
+"폭발물",
+"확산"
 ]
 },
 {
@@ -2649,40 +2686,6 @@
 "절반",
 "지분"
 ]
-},
-{
-"id": "LYzdRYWVoOGZVNU1jaXNloc51700",
-"first": "2026-11-25T17:00:29+00:00",
-"last": "2026-11-25T17:00:29+00:00",
-"updated": "2026-11-25T17:02:22.140414+00:00",
-"headline": "속보: 베트남 U17 대표팀, 월드컵 32강 진출 확정 소식 접해…",
-"cat": "기타",
-"regions": [],
-"sources": [
-"Vietnam.vn"
-],
-"updates": [
-{
-"title": "속보: 베트남 U17 대표팀, 월드컵 32강 진출 확정 소식 접해…",
-"source": "Vietnam.vn",
-"link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOMWJ2ZVI4RjBXS2V1dmU5S28wWVFiZklOdXVfcE4tSHYwcTByVkR0dTRtNXR5RnRERmJhMWx4Wm5GUmx1Mm9WZ3lHOUF6WV81ZDJVMjFDZ1c2OUdob2tVQ20tZi1LdGpVUzdLZ0dRRWprRGpOcVI2UU1SWlN5ZEJHT3Z6WXhLYzdRYWVoOGZVNU1jaXNl?oc=5",
-"time": "2026-11-25T17:00:29+00:00",
-"stage": "1보"
-}
-],
-"level": "ALERT",
-"latest": "속보: 베트남 U17 대표팀, 월드컵 32강 진출 확정 소식 접해…",
-"tok": [
-"32강",
-"U17",
-"대표팀",
-"베트남",
-"소식",
-"월드컵",
-"접해",
-"진출",
-"확정"
-]
 }
 ],
 "sns": {
@@ -2708,12 +2711,12 @@
 "spike": false
 },
 "폭발": {
-"n30": 2,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
 "붕괴": {
-"n30": 4,
+"n30": 3,
 "base": 0.1,
 "spike": false
 },
@@ -2728,7 +2731,7 @@
 "spike": false
 },
 "속보": {
-"n30": 10,
+"n30": 7,
 "base": 0.1,
 "spike": true
 },
@@ -2963,10 +2966,10 @@
 "spikes": [
 {
 "term": "속보",
-"n30": 10,
+"n30": 7,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-25T22:58:54.177734+00:00"
+"since": "2026-11-25T23:01:06.634728+00:00"
 }
 ],
 "baseline": {
@@ -2974,13 +2977,13 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.1,
+"폭발": 0.09,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
 "지하철": 0.05,
-"사고": 0.74,
+"사고": 0.77,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
