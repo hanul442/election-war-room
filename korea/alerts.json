@@ -1,12 +1,12 @@
 {
-"updated": "2026-11-25T10:17:59.077684+00:00",
+"updated": "2026-11-25T10:20:16.933661+00:00",
 "errors": [],
 "events": [
 {
 "id": "UbE4xdWM4bVZFNGw1ZXN6oc50938",
 "first": "2026-11-25T09:38:08+00:00",
 "last": "2026-11-25T10:09:51+00:00",
-"updated": "2026-11-25T10:11:02.870569+00:00",
+"updated": "2026-11-25T10:20:16.933661+00:00",
 "headline": "이 대통령 \"청해부대, 임무 넓히되 전쟁불개입 원칙 지킬 것\"",
 "cat": "정치",
 "regions": [],
@@ -46,6 +46,13 @@
 "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9iM01XWE5IRHNpZ3NKTUxHOUlGSTE0UFp3NGVwWDh4WTRjM1JNRU84WTI2TDhpRlI1V2UxSXVKczRfOWZ0QTcteUxocTRvOEZtWk9sSnNfNUV4a3RHU1hwcjlHRi1UbE4xdWM4bVZFNGw1ZXN6?oc=5",
 "time": "2026-11-25T09:38:08+00:00",
 "stage": "얼럿"
+},
+{
+"title": "[속보] 이 대통령 \"청해부대, 임무 넓히되 전쟁불개입 원칙 지킬 것\"",
+"source": "부산일보",
+"link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBRbkJ4ZE1ZRXlvZjVaZk0tRlgxSHNYM2VMS3ZnY2xGcVVXZDl5dUJ5WUxPVVRMcXB6VncyelZxdVhwY3Nha05mZUM0RnAtZmJaN2luRlBFSFlzSDNMTllyUFVkSmM4T0x1aTc3ZldDc0RoZHJnRFJieFdQTQ?oc=5",
+"time": "2026-11-25T09:38:08+00:00",
+"stage": "속보"
 },
 {
 "title": "李대통령 \"청해부대 전쟁불개입 원칙…호르무즈 활동범위 제외\"",
@@ -3704,7 +3711,7 @@
 },
 "폭발": {
 "n30": 3,
-"base": 0.8,
+"base": 0.7,
 "spike": false
 },
 "붕괴": {
@@ -3729,12 +3736,12 @@
 },
 "지하철": {
 "n30": 3,
-"base": 1.1,
+"base": 1.0,
 "spike": false
 },
 "사고": {
-"n30": 3,
-"base": 2.1,
+"n30": 2,
+"base": 2.2,
 "spike": false
 },
 "실종": {
@@ -3744,7 +3751,7 @@
 },
 "단수": {
 "n30": 0,
-"base": 0.3,
+"base": 0.2,
 "spike": false
 },
 "통신 장애": {
@@ -3753,8 +3760,8 @@
 "spike": false
 },
 "먹통": {
-"n30": 1,
-"base": 0.7,
+"n30": 0,
+"base": 0.8,
 "spike": false
 },
 "산불": {
@@ -3946,26 +3953,6 @@
 "reposts": 0,
 "url": "https://bsky.app/profile/simraniyo.bsky.social/post/3n34v2wrqjc2d",
 "term": "사고"
-},
-{
-"text": "이 마스코트 사고 싶은데 품절이라 하염없이 메루카리만 봄... 플미 붙어있어서 떨어지는 것만 존버중... ㅠㅠ",
-"handle": "muhae.bsky.social",
-"name": "무해",
-"time": "2026-11-25T09:48:28.641Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/muhae.bsky.social/post/3n34uxbbnbk2m",
-"term": "사고"
-},
-{
-"text": "오늘 출 정산서 나오는 날인데 사이트가 먹통임",
-"handle": "darling8605.bsky.social",
-"name": "✨️해양생물🐯",
-"time": "2026-11-25T09:47:59.246Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/darling8605.bsky.social/post/3n34uwi4vd22v",
-"term": "먹통"
 }
 ],
 "spikes": [
@@ -3974,7 +3961,7 @@
 "n30": 5,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-25T10:17:59.077684+00:00"
+"since": "2026-11-25T10:20:16.933661+00:00"
 }
 ],
 "baseline": {
@@ -3982,17 +3969,17 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.69,
-"붕괴": 0.78,
-"대피": 0.2,
+"폭발": 0.62,
+"붕괴": 0.8,
+"대피": 0.18,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 1.03,
-"사고": 2.16,
+"지하철": 0.93,
+"사고": 2.14,
 "실종": 0.05,
-"단수": 0.25,
+"단수": 0.23,
 "통신 장애": 0.05,
-"먹통": 0.77,
+"먹통": 0.69,
 "산불": 0.05
 },
 "errors": [],
