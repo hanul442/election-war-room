@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-25T23:55:42.352890+00:00",
+"updated": "2026-11-25T23:57:59.941713+00:00",
 "errors": [],
 "events": [
 {
@@ -3086,7 +3086,7 @@
 "spike": false
 },
 "폭발": {
-"n30": 10,
+"n30": 11,
 "base": 0.1,
 "spike": true
 },
@@ -3111,8 +3111,8 @@
 "spike": true
 },
 "지하철": {
-"n30": 5,
-"base": 0.4,
+"n30": 6,
+"base": 0.6,
 "spike": true
 },
 "사고": {
@@ -3147,6 +3147,26 @@
 }
 },
 "posts": [
+{
+"text": "나 일찍 나왔는디 왜 지하철 연착...?",
+"handle": "cookyrin.bsky.social",
+"name": "쿠키한입",
+"time": "2026-11-25T23:57:10.845Z",
+"likes": 1,
+"reposts": 0,
+"url": "https://bsky.app/profile/cookyrin.bsky.social/post/3n36eewxvqc2w",
+"term": "지하철"
+},
+{
+"text": "🤔 소제목 좀 약간 불길한데 폭발은 예술이다< 할건가",
+"handle": "ciplerine.bsky.social",
+"name": "시플리네",
+"time": "2026-11-25T23:56:03.047Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/ciplerine.bsky.social/post/3n36ecveus22r",
+"term": "폭발"
+},
 {
 "text": "대전 지하철 공사때문에 막히는거 생각하면 도로 더 좁은 청주는 지하철 공사하면 그냥 도심 마비될듯..",
 "handle": "kirakirayume.bsky.social",
@@ -3390,24 +3410,24 @@
 "spikes": [
 {
 "term": "폭발",
-"n30": 10,
+"n30": 11,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-25T23:55:42.352890+00:00"
+"since": "2026-11-25T23:57:59.941713+00:00"
 },
 {
 "term": "속보",
 "n30": 6,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-25T23:55:42.352890+00:00"
+"since": "2026-11-25T23:57:59.941713+00:00"
 },
 {
 "term": "지하철",
-"n30": 5,
-"base": 0.4,
+"n30": 6,
+"base": 0.6,
 "spike": true,
-"since": "2026-11-25T23:55:42.352890+00:00"
+"since": "2026-11-25T23:57:59.941713+00:00"
 }
 ],
 "baseline": {
@@ -3415,13 +3435,13 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.05,
-"붕괴": 0.74,
+"폭발": 0.15,
+"붕괴": 0.77,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.59,
-"사고": 1.72,
+"지하철": 0.83,
+"사고": 1.75,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -3683,9 +3703,9 @@
 "time": "2026-11-25T22:30:00+00:00",
 "news": [
 {
-"title": "QUICK SPARK: Micron Stock Eyes Worst 2-Month Drop Since September 2001",
-"source": "Benzinga",
-"link": "https://www.benzinga.com/markets/equities/26/11/63637521/micron-stock-worst-two-month-drop-since-2001"
+"title": "Micron Stock Just Got a Brutal Downgrade -- BNP Paribas Slashes Price Target 54%",
+"source": "TradingView",
+"link": "https://www.tradingview.com/news/gurufocus:4291b523c094b:0-micron-stock-just-got-a-brutal-downgrade-bnp-paribas-slashes-price-target-54/"
 },
 {
 "title": "Micron: This Is A Fire Sale (NASDAQ:MU)",
@@ -3737,9 +3757,9 @@
 "time": "2026-11-25T22:10:00+00:00",
 "news": [
 {
-"title": "Miami Heat vs Philadelphia 76ers Nov 25, 2026 Box Scores",
+"title": "Dallas Mavericks vs Denver Nuggets Nov 24, 2026 Box Scores",
 "source": "NBA.com",
-"link": "https://www.nba.com/game/mia-vs-phi-0022600055/box-score"
+"link": "https://www.nba.com/game/dal-vs-den-0022600054/box-score"
 },
 {
 "title": "Dallas Mavericks vs Denver Nuggets Nov 24, 2026 Play-by-Play",
