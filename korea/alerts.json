@@ -1,7 +1,40 @@
 {
-"updated": "2026-11-25T23:53:23.577361+00:00",
+"updated": "2026-11-25T23:55:42.352890+00:00",
 "errors": [],
 "events": [
+{
+"id": "wNISX20261125_00038835752353",
+"first": "2026-11-25T23:53:31+00:00",
+"last": "2026-11-25T23:53:31+00:00",
+"updated": "2026-11-25T23:55:42.352890+00:00",
+"headline": "\"산불·교통사고 등 각종 재난대비\"…군포소방, 합동훈련",
+"cat": "재난",
+"regions": [
+"경기"
+],
+"sources": [
+"뉴시스"
+],
+"updates": [
+{
+"title": "\"산불·교통사고 등 각종 재난대비\"…군포소방, 합동훈련",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261125_0003883575",
+"time": "2026-11-25T23:53:31+00:00",
+"stage": "1보"
+}
+],
+"level": "ALERT",
+"latest": "\"산불·교통사고 등 각종 재난대비\"…군포소방, 합동훈련",
+"tok": [
+"각종",
+"교통사고",
+"군포소방",
+"산불",
+"재난대비",
+"합동훈련"
+]
+},
 {
 "id": "npsMUh2T21JV1lwbEFGMAoc52341",
 "first": "2026-11-25T23:41:07+00:00",
@@ -3079,7 +3112,7 @@
 },
 "지하철": {
 "n30": 5,
-"base": 0.2,
+"base": 0.4,
 "spike": true
 },
 "사고": {
@@ -3360,21 +3393,21 @@
 "n30": 10,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-25T23:53:23.577361+00:00"
+"since": "2026-11-25T23:55:42.352890+00:00"
 },
 {
 "term": "속보",
 "n30": 6,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-25T23:53:23.577361+00:00"
+"since": "2026-11-25T23:55:42.352890+00:00"
 },
 {
 "term": "지하철",
 "n30": 5,
-"base": 0.2,
+"base": 0.4,
 "spike": true,
-"since": "2026-11-25T23:53:23.577361+00:00"
+"since": "2026-11-25T23:55:42.352890+00:00"
 }
 ],
 "baseline": {
@@ -3383,12 +3416,12 @@
 "불났": 0.05,
 "정전": 0.05,
 "폭발": 0.05,
-"붕괴": 0.71,
+"붕괴": 0.74,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.43,
-"사고": 1.69,
+"지하철": 0.59,
+"사고": 1.72,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -3591,6 +3624,24 @@
 },
 "trends": [
 {
+"term": "sporting cp vs manchester united f.c. standings",
+"traffic": "1000+",
+"time": "2026-11-25T22:40:00+00:00",
+"news": [
+{
+"title": "Sporting CP vs Manchester United: UEFA Champions League stats & head-to-head",
+"source": "BBC",
+"link": "https://www.bbc.com/sport/football/live/crkgv8v0gdwkt"
+},
+{
+"title": "Bruno Fernandes Scores Double vs Former Club, Wins UEFA POTM",
+"source": "조선일보",
+"link": "https://www.chosun.com/english/sports-en/2026/11/26/IVQLWQBP4ZCFBCLKG3SFOCOHF4/"
+}
+],
+"new": true
+},
+{
 "term": "thứ hạng của sporting gặp man utd",
 "traffic": "200+",
 "time": "2026-11-25T22:40:00+00:00",
@@ -3601,9 +3652,27 @@
 "link": "https://www.24h.com.vn/bong-da/video-bong-da-sporting-lisbon-mu-man-nhan-man-ruot-duoi-ti-so-cup-c1-c48a1814104.html"
 },
 {
-"title": "Man Utd rơi chiến thắng trong trận cầu nhiều tranh cãi",
-"source": "VnExpress",
-"link": "https://vnexpress.net/man-utd-roi-chien-thang-trong-tran-cau-nhieu-tranh-cai-5148943.html"
+"title": "Tội đồ Lammens khiến MU rơi chiến thắng ở Champions League",
+"source": "Znews",
+"link": "https://znews.vn/toi-do-lammens-khien-mu-roi-chien-thang-o-champions-league-post1699060.html"
+}
+],
+"new": true
+},
+{
+"term": "주한 중국 대사",
+"traffic": "100+",
+"time": "2026-11-25T22:40:00+00:00",
+"news": [
+{
+"title": "주한中대사, 李대통령 '친중' 비판에 \"中과 잘 지내면 불리한가\"",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261125151300504"
+},
+{
+"title": "다이빙 중국대사 “어떤 것이 중국에 들어올지는 결정은 중국 주권 문제”…한·중 문화교류 관련",
+"source": "경향신문",
+"link": "https://www.khan.co.kr/article/202611251819001"
 }
 ],
 "new": true
@@ -3632,14 +3701,14 @@
 "time": "2026-11-25T22:20:00+00:00",
 "news": [
 {
-"title": "[금주의인물] ‘닮고 싶은 상사?’ 이찬진 금융감독원장…‘李대통령 변호인’ 꼬리표 떼나",
-"source": "주간한국",
-"link": "https://weekly.hankooki.com/news/articleView.html?idxno=7194930"
+"title": "AI 금융사기 어떻게 막나…KT·금감원, 여의도서 체험관 운영",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261125140600017"
 },
 {
-"title": "이찬진, 금감원 직원 '닮고 싶은 상사'로 뽑혀…총 19명 선정",
-"source": "파이낸셜뉴스",
-"link": "https://www.fnnews.com/news/202611191800013352"
+"title": "금감원, '2026 세계투자자주간'…\"AI 금융사기 대응 강화\"",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261125_0003882882"
 }
 ],
 "new": true
@@ -3730,42 +3799,6 @@
 "title": "IonQ (NYSE:IONQ) Shares Climb 5.1% - Here's What Happened",
 "source": "MarketBeat",
 "link": "https://www.marketbeat.com/instant-alerts/price-ionq-nyse-ionq-shares-climb-51-heres-what-happened-2026-11-25/"
-}
-],
-"new": true
-},
-{
-"term": "tqqq",
-"traffic": "200+",
-"time": "2026-11-25T22:10:00+00:00",
-"news": [
-{
-"title": "Wall Street piles into TQQQ ETF, dumps SQQQ as AI bubble fears escalate",
-"source": "Invezz",
-"link": "https://invezz.com/sg/news/2026/11/25/wall-street-piles-into-tqqq-etf-dumps-sqqq-as-ai-bubble-fears-escalate/"
-},
-{
-"title": "SQQQ ETF Shares Rebound, Rise Over 6% After Key Trading Signal",
-"source": "Benzinga",
-"link": "https://www.benzinga.com/opinion/26/11/63559066/sqqq-etf-shares-rebound-rise-over-6-percent-after-key-trading-signal"
-}
-],
-"new": true
-},
-{
-"term": "kb국민은행",
-"traffic": "100+",
-"time": "2026-11-25T22:00:00+00:00",
-"news": [
-{
-"title": "KB국민은행, '2026-2차 공동구매정기예금'…최고 연 3.9%",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261125103500002"
-},
-{
-"title": "KB국민은행, 공동구매 정기예금 출시…최고 연 3.9% 금리",
-"source": "뉴시스",
-"link": "https://nwww.newsis.com/view/NISX20261125_0003882844"
 }
 ],
 "new": true
