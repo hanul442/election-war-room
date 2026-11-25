@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-25T05:01:30.641534+00:00",
+"updated": "2026-11-25T05:03:49.830349+00:00",
 "errors": [],
 "events": [
 {
@@ -4188,7 +4188,7 @@
 "terms": {
 "지진": {
 "n30": 0,
-"base": 1.1,
+"base": 1.0,
 "spike": false
 },
 "화재": {
@@ -4207,7 +4207,7 @@
 "spike": false
 },
 "폭발": {
-"n30": 3,
+"n30": 4,
 "base": 0.1,
 "spike": false
 },
@@ -4227,18 +4227,18 @@
 "spike": false
 },
 "속보": {
-"n30": 4,
+"n30": 3,
 "base": 0.1,
 "spike": false
 },
 "지하철": {
 "n30": 3,
-"base": 0.6,
+"base": 0.8,
 "spike": false
 },
 "사고": {
-"n30": 0,
-"base": 1.2,
+"n30": 1,
+"base": 1.1,
 "spike": false
 },
 "실종": {
@@ -4268,6 +4268,26 @@
 }
 },
 "posts": [
+{
+"text": "되게 N같은 사고방식이다ㅋㅋㅋ",
+"handle": "nuroong080.bsky.social",
+"name": "누룽밥",
+"time": "2026-11-25T05:02:40.244Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/nuroong080.bsky.social/post/3n34ey7lohs2d",
+"term": "사고"
+},
+{
+"text": "고양이 어제까지만 해도 없던 비듬 폭발하길래 기겁해서 쓸고 닦고(?)함",
+"handle": "2d6enough.bsky.social",
+"name": "모든 것을 파괴할 황희정승",
+"time": "2026-11-25T05:02:32.945Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/2d6enough.bsky.social/post/3n34ey2cjf22h",
+"term": "폭발"
+},
 {
 "text": "너무배고파서지하철에서쫓겨남",
 "handle": "asagirigenhatsukoi.bsky.social",
@@ -4490,17 +4510,17 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 1.03,
+"지진": 0.93,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.05,
-"붕괴": 0.77,
+"폭발": 0.15,
+"붕괴": 0.69,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.84,
-"사고": 1.09,
+"지하철": 1.06,
+"사고": 1.08,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -4703,8 +4723,26 @@
 },
 "trends": [
 {
+"term": "트레킹",
+"traffic": "500+",
+"time": "2026-11-25T04:00:00+00:00",
+"news": [
+{
+"title": "‘거북이는오른다’, 북한산 둘레길 21코스 완주",
+"source": "DWBNEWS",
+"link": "https://www.dwbnews.kr/news/articleView.html?idxno=125981"
+},
+{
+"title": "\"해발 1,614m 정상까지 37분이면 도착하네\"... 시니어도 편히 정상 오르는 곤도라·트레킹 코스",
+"source": "아던트뉴스",
+"link": "https://www.ardentnews.co.kr/news/articleView.html?idxno=21994"
+}
+],
+"new": true
+},
+{
 "term": "술",
-"traffic": "2000+",
+"traffic": "5000+",
 "time": "2026-11-25T03:50:00+00:00",
 "news": [
 {
@@ -4852,28 +4890,9 @@
 }
 ],
 "new": true
-},
-{
-"term": "한국대학신문",
-"traffic": "100+",
-"time": "2026-11-25T02:20:00+00:00",
-"news": [
-{
-"title": "전북대, QS 세계대학 평가 국내 12위 ‘쾌거’",
-"source": "새전북신문",
-"link": "https://sjbnews.com/news/news.php?number=893393&year=2026"
-},
-{
-"title": "서울대, 2년 연속 아시아 1위… 국내 100위권은 서울대·고려대뿐[2027 QS 세계대학 지속가능성 평가]",
-"source": "한국대학신문",
-"link": "https://news.unn.net/news/articleView.html?idxno=600953"
-}
-],
-"new": false
 }
 ],
 "trendSeen": [
-"코리안투어",
 "코모 대 aek",
 "코번트리 대 크리스털 팰리스",
 "코스닥",
@@ -4942,6 +4961,7 @@
 "투자",
 "투자신탁",
 "트럼프",
+"트레킹",
 "트로이 왓슨",
 "트롯 데스매치 금타는 금요일",
 "트리플스타",
