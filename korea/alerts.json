@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-25T05:31:23.004021+00:00",
+"updated": "2026-11-25T05:33:39.229555+00:00",
 "errors": [],
 "events": [
 {
@@ -4253,7 +4253,7 @@
 },
 "화재": {
 "n30": 3,
-"base": 0.1,
+"base": 0.2,
 "spike": false
 },
 "불났": {
@@ -4267,8 +4267,8 @@
 "spike": false
 },
 "폭발": {
-"n30": 6,
-"base": 0.7,
+"n30": 5,
+"base": 0.8,
 "spike": true
 },
 "붕괴": {
@@ -4288,16 +4288,16 @@
 },
 "속보": {
 "n30": 12,
-"base": 0.6,
+"base": 1.0,
 "spike": true
 },
 "지하철": {
 "n30": 6,
-"base": 2.0,
+"base": 1.8,
 "spike": true
 },
 "사고": {
-"n30": 2,
+"n30": 1,
 "base": 1.7,
 "spike": false
 },
@@ -4594,63 +4594,43 @@
 "time": "2026-11-25T05:04:10Z",
 "term": "속보",
 "url": "https://www.youtube.com/watch?v=NJf4Rjda1cI"
-},
-{
-"text": "되게 N같은 사고방식이다ㅋㅋㅋ",
-"handle": "nuroong080.bsky.social",
-"name": "누룽밥",
-"time": "2026-11-25T05:02:40.244Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/nuroong080.bsky.social/post/3n34ey7lohs2d",
-"term": "사고"
-},
-{
-"text": "고양이 어제까지만 해도 없던 비듬 폭발하길래 기겁해서 쓸고 닦고(?)함",
-"handle": "2d6enough.bsky.social",
-"name": "모든 것을 파괴할 황희정승",
-"time": "2026-11-25T05:02:32.945Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/2d6enough.bsky.social/post/3n34ey2cjf22h",
-"term": "폭발"
 }
 ],
 "spikes": [
 {
 "term": "폭발",
-"n30": 6,
-"base": 0.7,
+"n30": 5,
+"base": 0.8,
 "spike": true,
-"since": "2026-11-25T05:31:23.004021+00:00"
+"since": "2026-11-25T05:33:39.229555+00:00"
 },
 {
 "term": "속보",
 "n30": 12,
-"base": 0.6,
+"base": 1.0,
 "spike": true,
-"since": "2026-11-25T05:31:23.004021+00:00"
+"since": "2026-11-25T05:33:39.229555+00:00"
 },
 {
 "term": "지하철",
 "n30": 6,
-"base": 2.0,
+"base": 1.8,
 "spike": true,
-"since": "2026-11-25T05:31:23.004021+00:00"
+"since": "2026-11-25T05:33:39.229555+00:00"
 }
 ],
 "baseline": {
-"지진": 0.27,
-"화재": 0.24,
+"지진": 0.24,
+"화재": 0.32,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.77,
-"붕괴": 0.2,
+"폭발": 0.69,
+"붕괴": 0.18,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.96,
-"지하철": 1.8,
-"사고": 1.73,
+"속보": 1.26,
+"지하철": 1.62,
+"사고": 1.66,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -4871,6 +4851,67 @@
 },
 "trends": [
 {
+"term": "재산세",
+"traffic": "500+",
+"time": "2026-11-25T04:30:00+00:00",
+"news": [
+{
+"title": "오래 비어있던 노후주택을 '폐가'로 보아 '과세대상'에서 뺄 수 있나 [부동산 절세시대]",
+"source": "한국경제",
+"link": "https://www.hankyung.com/article/202611018074Q"
+},
+{
+"title": "\"상속주택 종부세, 신고기한 기준으로 납세의무·과세표준 확정해야\"",
+"source": "파이낸셜뉴스",
+"link": "https://www.fnnews.com/news/202611201100424666"
+}
+],
+"new": true
+},
+{
+"term": "은퇴요원+관리팀",
+"traffic": "200+",
+"time": "2026-11-25T04:30:00+00:00",
+"news": [
+{
+"title": "차승원·김도훈, 브로맨스 꽃피울까?…'은퇴요원+관리팀', 포스터 공개",
+"source": "YTN",
+"link": "https://www.ytn.co.kr/_ln/0117_202611250906393953"
+},
+{
+"title": "차승원 은퇴→세차장 차렸다…김도훈과 비밀 공조 (은퇴요원+관리팀)",
+"source": "스포츠동아",
+"link": "https://sports.donga.com/ent/article/all/20261125/135085168/1"
+}
+],
+"new": true
+},
+{
+"term": "대만",
+"traffic": "200+",
+"time": "2026-11-25T04:30:00+00:00",
+"news": [
+{
+"title": "반도체 호황에 전국민 보너스…조건 없이 '1인당 80만원' 지급",
+"source": "한국경제",
+"link": "https://www.hankyung.com/article/202611258309H"
+},
+{
+"title": "\"반도체 세수 국민에 환원\"…대만선 1인당 81만원 준다",
+"source": "마켓인",
+"link": "https://marketin.edaily.co.kr/News/ReadE?newsId=01935206645649328"
+}
+],
+"new": true
+},
+{
+"term": "안랩",
+"traffic": "100+",
+"time": "2026-11-25T04:30:00+00:00",
+"news": [],
+"new": true
+},
+{
 "term": "산호세 대 휴스턴 다이너모",
 "traffic": "100+",
 "time": "2026-11-25T04:20:00+00:00",
@@ -4976,67 +5017,6 @@
 "link": "https://mydaily.co.kr/page/view/2026112314492476641"
 }
 ],
-"new": true
-},
-{
-"term": "에디차",
-"traffic": "500+",
-"time": "2026-11-25T03:30:00+00:00",
-"news": [
-{
-"title": "'코리안 좀비' 정찬성 스승 에디 차 사망설 확산…MMA계 애도 물결",
-"source": "위키트리",
-"link": "https://www.wikitree.co.kr/articles/1177635"
-},
-{
-"title": "정찬성 지도했던 한국계 UFC 코치 별세 비보…UFC 파이터도 해설위원도 애도",
-"source": "SPOTV NEWS",
-"link": "https://www.spotvnews.co.kr/news/articleView.html?idxno=1021708"
-}
-],
-"new": true
-},
-{
-"term": "공휴일",
-"traffic": "1000+",
-"time": "2026-11-25T03:20:00+00:00",
-"news": [
-{
-"title": "12·3 국민주권의 날이 “자화자찬 굿판”이라는 나경원",
-"source": "한겨레",
-"link": "https://www.hani.co.kr/arti/politics/politics_general/1288879.html"
-},
-{
-"title": "'12·3 국민주권의 날' 정부기념일 지정…국민 용기와 행동 기린다",
-"source": "대한민국 정책브리핑",
-"link": "https://www.korea.kr/news/policyNewsView.do?newsId=148976397&pWise=sub&pWiseSub=R4"
-}
-],
-"new": true
-},
-{
-"term": "채권",
-"traffic": "100+",
-"time": "2026-11-25T03:20:00+00:00",
-"news": [
-{
-"title": "한화투자증권, 채권 순입고 이벤트…최대 50만원 혜택",
-"source": "뉴시스",
-"link": "https://www.newsis.com/view/NISX20261125_0003882422"
-},
-{
-"title": "삼성증권, IRP·연금저축 절세 페스타 행사 실시",
-"source": "전자신문",
-"link": "https://www.etnews.com/20261125000189"
-}
-],
-"new": true
-},
-{
-"term": "대전광역시",
-"traffic": "1000+",
-"time": "2026-11-25T03:10:00+00:00",
-"news": [],
 "new": true
 }
 ],
