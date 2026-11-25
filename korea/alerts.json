@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-25T19:12:10.490683+00:00",
+"updated": "2026-11-25T19:14:26.184097+00:00",
 "errors": [],
 "events": [
 {
@@ -2039,12 +2039,12 @@
 "spike": false
 },
 "폭발": {
-"n30": 5,
+"n30": 4,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "붕괴": {
-"n30": 2,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
@@ -2065,11 +2065,11 @@
 },
 "지하철": {
 "n30": 4,
-"base": 0.5,
+"base": 0.6,
 "spike": false
 },
 "사고": {
-"n30": 1,
+"n30": 0,
 "base": 0.8,
 "spike": false
 },
@@ -2273,16 +2273,6 @@
 "url": "https://www.youtube.com/watch?v=oEkuOzCD5oQ"
 },
 {
-"text": "메트로 사고방식 ㄹㅇ 꼴이다 ",
-"handle": "eeeraserrr.bsky.social",
-"name": "🍖 독고우개 🍖",
-"time": "2026-11-25T18:42:13.042Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/eeeraserrr.bsky.social/post/3n35srpzcvkmd",
-"term": "사고"
-},
-{
 "platform": "YouTube",
 "text": "[삼성전자 주가 전망] 속보 시총 1000조 하루 만에 붕괴…외국인 1조 투매 \"이거 모르면 후회\"…'진짜 이유'와 '이 자리' 전부 공개",
 "handle": "UCkYvhDxarMHSsHf_s11xECw",
@@ -2339,18 +2329,11 @@
 ],
 "spikes": [
 {
-"term": "폭발",
-"n30": 5,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-25T19:12:10.490683+00:00"
-},
-{
 "term": "속보",
 "n30": 8,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-25T19:12:10.490683+00:00"
+"since": "2026-11-25T19:14:26.184097+00:00"
 }
 ],
 "baseline": {
@@ -2363,8 +2346,8 @@
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.56,
-"사고": 0.82,
+"지하철": 0.6,
+"사고": 0.74,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -2617,7 +2600,7 @@
 "time": "2026-11-25T17:10:00+00:00",
 "news": [
 {
-"title": "Sabah - FC Barcelona, en directo, el partido de la Champions League en vivo | Gordon amplia la ventaja para el Barça",
+"title": "Sabah - FC Barcelona, en directo, el partido de la Champions League en vivo |Gabriel Jesus sella la goleada para los azulgrana",
 "source": "EL PAÍS",
 "link": "https://elpais.com/deportes/futbol/2026-11-25/sabah-fc-barcelona-en-directo-el-partido-de-la-champions-league-en-vivo.html"
 },
@@ -2720,6 +2703,24 @@
 "new": true
 },
 {
+"term": "대한광통신",
+"traffic": "500+",
+"time": "2026-11-25T15:40:00+00:00",
+"news": [
+{
+"title": "대한광통신, 종속회사 티에프오네트웍스 흡수합병",
+"source": "마켓인",
+"link": "https://marketin.edaily.co.kr/News/ReadE?newsId=03791686645649328"
+},
+{
+"title": "대한광통신, 자회사 티에프오네트웍스 흡수합병 결정",
+"source": "데이터투자",
+"link": "https://www.datatooza.com/article/20261125165640402552ef3a5986_80"
+}
+],
+"new": true
+},
+{
 "term": "qqq",
 "traffic": "200+",
 "time": "2026-11-25T15:20:00+00:00",
@@ -2751,24 +2752,6 @@
 "title": "[잇슈 컬처] 장성규·최수영·문상민, ‘2026 KBS 연기대상’ MC 호흡",
 "source": "KBS 뉴스",
 "link": "https://news.kbs.co.kr/news/view.do?ncd=8719552"
-}
-],
-"new": true
-},
-{
-"term": "시그널",
-"traffic": "1000+",
-"time": "2026-11-25T14:50:00+00:00",
-"news": [
-{
-"title": "김은희 작가의 '시그널2', 조진웅 복귀 무대 되나",
-"source": "YTN",
-"link": "https://www.ytn.co.kr/_ln/0117_202611240841278214"
-},
-{
-"title": "’시그널2’ 첫 티저 공개…이제훈·김혜수 목소리만",
-"source": "연합뉴스TV",
-"link": "https://www.yonhapnewstv.co.kr/news/MYH202611250516386A8"
 }
 ],
 "new": true
