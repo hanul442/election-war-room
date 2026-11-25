@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-25T12:31:57.917828+00:00",
+"updated": "2026-11-25T12:34:15.640514+00:00",
 "errors": [],
 "events": [
 {
@@ -3752,7 +3752,7 @@
 "terms": {
 "지진": {
 "n30": 1,
-"base": 0.3,
+"base": 0.4,
 "spike": false
 },
 "화재": {
@@ -3771,12 +3771,12 @@
 "spike": false
 },
 "폭발": {
-"n30": 9,
-"base": 1.1,
+"n30": 6,
+"base": 1.3,
 "spike": true
 },
 "붕괴": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -3792,7 +3792,7 @@
 },
 "속보": {
 "n30": 7,
-"base": 2.3,
+"base": 2.0,
 "spike": true
 },
 "지하철": {
@@ -3802,7 +3802,7 @@
 },
 "사고": {
 "n30": 3,
-"base": 4.9,
+"base": 4.7,
 "spike": false
 },
 "실종": {
@@ -3812,7 +3812,7 @@
 },
 "단수": {
 "n30": 0,
-"base": 0.7,
+"base": 0.6,
 "spike": false
 },
 "통신 장애": {
@@ -3847,7 +3847,7 @@
 "handle": "laurelinan.bsky.social",
 "name": "숲숲 ❤️❤️➕🛅🛸",
 "time": "2026-11-25T12:25:50.740Z",
-"likes": 0,
+"likes": 1,
 "reposts": 0,
 "url": "https://bsky.app/profile/laurelinan.bsky.social/post/3n355qq24z22d",
 "term": "폭발"
@@ -4105,33 +4105,33 @@
 "spikes": [
 {
 "term": "폭발",
-"n30": 9,
-"base": 1.1,
+"n30": 6,
+"base": 1.3,
 "spike": true,
-"since": "2026-11-25T12:31:57.917828+00:00"
+"since": "2026-11-25T12:34:15.640514+00:00"
 },
 {
 "term": "속보",
 "n30": 7,
-"base": 2.3,
+"base": 2.0,
 "spike": true,
-"since": "2026-11-25T12:31:57.917828+00:00"
+"since": "2026-11-25T12:34:15.640514+00:00"
 }
 ],
 "baseline": {
-"지진": 0.39,
+"지진": 0.45,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 1.26,
+"폭발": 1.43,
 "붕괴": 0.05,
-"대피": 0.3,
+"대피": 0.27,
 "미사일": 0.05,
-"속보": 2.04,
-"지하철": 0.88,
-"사고": 4.7,
-"실종": 0.18,
-"단수": 0.62,
+"속보": 1.84,
+"지하철": 0.89,
+"사고": 4.53,
+"실종": 0.16,
+"단수": 0.56,
 "통신 장애": 0.05,
 "먹통": 0.05,
 "산불": 0.05
@@ -4332,6 +4332,42 @@
 },
 "trends": [
 {
+"term": "해군",
+"traffic": "200+",
+"time": "2026-11-25T11:30:00+00:00",
+"news": [
+{
+"title": "'최대 4조 규모' 태국 호위함 사업 다시 원점 '재입찰', 한화오션-HD현대중공업 재격돌 예고",
+"source": "비즈니스포스트",
+"link": "https://www.businesspost.co.kr/BP?command=article_view&num=452801"
+},
+{
+"title": "한화오션, 태국 해군 호위함 사업 우선협상자 지위 상실 [주목 e공시]",
+"source": "한국경제",
+"link": "https://www.hankyung.com/article/2026112504376"
+}
+],
+"new": false
+},
+{
+"term": "백화점",
+"traffic": "200+",
+"time": "2026-11-25T11:30:00+00:00",
+"news": [
+{
+"title": "\"판타지 세상 거닐어봐요\"…롯데百, 잠실점서 이색 아트 콘텐츠",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261124157000030"
+},
+{
+"title": "롯데백화점 잠실 에비뉴엘에서 체험형 전시 개최, 추리게임부터 관람객 교류 행사까지",
+"source": "비즈니스포스트",
+"link": "https://www.businesspost.co.kr/BP?command=article_view&num=452873"
+}
+],
+"new": true
+},
+{
 "term": "강남",
 "traffic": "200+",
 "time": "2026-11-25T11:20:00+00:00",
@@ -4345,6 +4381,24 @@
 "title": "강남구, 내달 정비사업아카데미서 조합원 지위 양도기준 강의",
 "source": "매일경제 마켓",
 "link": "https://stock.mk.co.kr/news/view/1204555"
+}
+],
+"new": true
+},
+{
+"term": "은퇴 요원 관리팀",
+"traffic": "2000+",
+"time": "2026-11-25T10:50:00+00:00",
+"news": [
+{
+"title": "차승원·김도훈, 브로맨스 꽃피울까?…'은퇴요원+관리팀', 포스터 공개",
+"source": "YTN",
+"link": "https://www.ytn.co.kr/_ln/0117_202611250906393953"
+},
+{
+"title": "전직·좌천 블랙요원의 은밀한 공조… 차승원ⅹ김도훈 ‘은퇴요원+관리팀’, 새해 첫 포문",
+"source": "브릿지경제",
+"link": "https://www.viva100.com/article/20261125500792"
 }
 ],
 "new": true
@@ -4453,60 +4507,6 @@
 "title": "'친정' 돌아온 제우스 \"T1, 좋은 가치·비전 제시했다\"",
 "source": "연합뉴스",
 "link": "https://www.yna.co.kr/view/AKR20261125176800017"
-}
-],
-"new": true
-},
-{
-"term": "검사",
-"traffic": "1000+",
-"time": "2026-11-25T09:50:00+00:00",
-"news": [
-{
-"title": "[사설] 대북송금 수사 검사 징계 못푸는 이유, 조작기소 근거 사라질까봐",
-"source": "조선일보",
-"link": "https://www.chosun.com/opinion/editorial/2026/11/25/ST6EEKK3R5HRBFEGXT7JEZ5JJM/"
-},
-{
-"title": "[단독] '7개월 직무정지' 박상용 검사, 해제 거부에 징계까지 미루면 법무부 상대 취소소송 검토",
-"source": "뉴데일리",
-"link": "https://www.newdaily.co.kr/site/data/html/2026/11/25/2026112550182.html"
-}
-],
-"new": true
-},
-{
-"term": "숲",
-"traffic": "5000+",
-"time": "2026-11-25T09:50:00+00:00",
-"news": [
-{
-"title": "\"홍강 삼각주 맹그로브 숲 복원 및 지속 가능한 관리\" 프로젝트 결과 요약 및 인수인계",
-"source": "Vietnam.vn",
-"link": "https://www.vietnam.vn/ko/tong-ket-va-ban-giao-ket-qua-du-an-phuc-hoi-va-quan-ly-ben-vung-rung-ngap-man-vung-dong-bang-song-hong"
-},
-{
-"title": "울산 남구, 건강한 산림환경 조성 위한 ‘숲가꾸기 행사’",
-"source": "울산종합일보",
-"link": "https://www.ujnews.co.kr/news/newsview.php?ncode=1065595357579221"
-}
-],
-"new": true
-},
-{
-"term": "고경표 음주 운전",
-"traffic": "2000+",
-"time": "2026-11-25T09:30:00+00:00",
-"news": [
-{
-"title": "“하…” 음주운전 고경표, 다친 미화원께 연락드렸냐 물었더니",
-"source": "한겨레",
-"link": "https://www.hani.co.kr/arti/society/society_general/1288790.html"
-},
-{
-"title": "“팁만 5만원” 고경표, 과거엔 대리 불렀다 ‘목격담 등장’",
-"source": "스포츠경향",
-"link": "https://sports.khan.co.kr/article/202611251039003"
 }
 ],
 "new": true
