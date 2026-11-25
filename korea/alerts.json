@@ -1,16 +1,17 @@
 {
-"updated": "2026-11-25T21:31:50.532982+00:00",
+"updated": "2026-11-25T21:34:04.412562+00:00",
 "errors": [],
 "events": [
 {
 "id": "viewAKR202611260102005042114",
 "first": "2026-11-25T21:14:53+00:00",
-"last": "2026-11-25T21:24:28+00:00",
-"updated": "2026-11-25T21:27:18.832776+00:00",
+"last": "2026-11-25T21:31:47+00:00",
+"updated": "2026-11-25T21:34:04.412562+00:00",
 "headline": "김정은, 핵시설 현지지도…\"전술핵 다영역 활용화 주목해야\"",
 "cat": "기타",
 "regions": [],
 "sources": [
+"뉴시스",
 "연합뉴스",
 "파이낸셜뉴스"
 ],
@@ -28,17 +29,30 @@
 "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE93bVIxM0VzazFWaEZ0Yll5U0EzRUFKNThGOWRvZkFJNHZwc3pmdWNTckxzWkdzZHBaNjAtZktESG91dDd6Z21vb1dNaVVzejBUalU4T2FBWl9kUQ?oc=5",
 "time": "2026-11-25T21:24:28+00:00",
 "stage": "속보"
+},
+{
+"title": "[속보]김정은, 핵시설 현지지도…\"전술핵 활용화, 적국과 국경 마주한 현실로 인한 과제\"",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261126_0003883620",
+"time": "2026-11-25T21:31:47+00:00",
+"stage": "속보"
 }
 ],
 "level": "URGENT",
-"latest": "김정은, 핵시설 현장지도..다영역 전술핵 활용화 주목",
+"latest": "김정은, 핵시설 현지지도…\"전술핵 활용화, 적국과 국경 마주한 현실로 인한 과제\"",
 "tok": [
+"과제",
+"국경",
 "김정",
 "다영역",
+"마주한",
+"인한",
+"적국",
 "전술핵",
 "주목",
 "주목해야",
 "핵시설",
+"현실",
 "현장지",
 "현지지",
 "활용화"
@@ -2299,37 +2313,6 @@
 "터졌다",
 "한국"
 ]
-},
-{
-"id": "nkRSSLINKcooperRSSREADER1532",
-"first": "2026-11-25T15:32:09+00:00",
-"last": "2026-11-25T15:32:09+00:00",
-"updated": "2026-11-25T15:35:42.501062+00:00",
-"headline": "[날씨] 전날보다 10도 '껑충' 영상권…동해안 건조특보",
-"cat": "재난",
-"regions": [],
-"sources": [
-"SBS"
-],
-"updates": [
-{
-"title": "[날씨] 전날보다 10도 '껑충' 영상권…동해안 건조특보",
-"source": "SBS",
-"link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008863794&plink=RSSLINK&cooper=RSSREADER",
-"time": "2026-11-25T15:32:09+00:00",
-"stage": "1보"
-}
-],
-"level": "ALERT",
-"latest": "[날씨] 전날보다 10도 '껑충' 영상권…동해안 건조특보",
-"tok": [
-"건조특보",
-"껑충",
-"날씨",
-"동해안",
-"영상권",
-"전날보다"
-]
 }
 ],
 "sns": {
@@ -2355,9 +2338,9 @@
 "spike": false
 },
 "폭발": {
-"n30": 5,
-"base": 0.8,
-"spike": true
+"n30": 4,
+"base": 0.7,
+"spike": false
 },
 "붕괴": {
 "n30": 0,
@@ -2375,9 +2358,9 @@
 "spike": false
 },
 "속보": {
-"n30": 5,
+"n30": 3,
 "base": 0.2,
-"spike": true
+"spike": false
 },
 "지하철": {
 "n30": 0,
@@ -2606,32 +2589,17 @@
 "url": "https://www.youtube.com/watch?v=JXxliuUrPQw"
 }
 ],
-"spikes": [
-{
-"term": "폭발",
-"n30": 5,
-"base": 0.8,
-"spike": true,
-"since": "2026-11-25T21:31:50.532982+00:00"
-},
-{
-"term": "속보",
-"n30": 5,
-"base": 0.2,
-"spike": true,
-"since": "2026-11-25T21:31:50.532982+00:00"
-}
-],
+"spikes": [],
 "baseline": {
 "지진": 0.05,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.69,
+"폭발": 0.62,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.18,
+"속보": 0.16,
 "지하철": 0.05,
 "사고": 0.05,
 "실종": 0.05,
@@ -2836,8 +2804,80 @@
 },
 "trends": [
 {
+"term": "คลับ บรูกก์ พบ ลิเวอร์พูล",
+"traffic": "200+",
+"time": "2026-11-25T20:30:00+00:00",
+"news": [
+{
+"title": "การทำนายผลการแข่งขันระหว่างคลับบรูจจ์กับลิเวอร์พูล เวลา 03:00 น. วันที่ 26 พฤศจิกายน: พบกับคู่ต่อสู้ที่แข็งแกร่ง",
+"source": "Vietnam.vn",
+"link": "https://www.vietnam.vn/th/nhan-dinh-club-brugge-vs-liverpool-03h00-ngay-26-11-gap-ke-cung-dau"
+},
+{
+"title": "LIVE : ดูบอลสด คลับ บรูซ พบ ลิเวอร์พูล ฟุตบอลยูฟ่า แชมเปียนส์ลีก เวลา 03.00 น.",
+"source": "Sporting News",
+"link": "https://www.sportingnews.com/th/football/news/live-watch-club-brugge-vs-liverpool-uefa-champions-league-2026-27/7db35d119bab03b194f8909c"
+}
+],
+"new": true
+},
+{
+"term": "종합부동산세",
+"traffic": "200+",
+"time": "2026-11-25T20:30:00+00:00",
+"news": [
+{
+"title": "'5627만원' 종부세 고지서 인증에…\"도대체 얼마짜리 집\" 반응 극과 극",
+"source": "땅집고",
+"link": "https://realty.chosun.com/site/data/html_dir/2026/11/25/2026112502482.html"
+},
+{
+"title": "올해 종부세 대상 82만명…세금만 6조원대",
+"source": "데일리안",
+"link": "https://www.dailian.co.kr/news/view/1719614/%EC%98%AC%ED%95%B4-%EC%A2%85%EB%B6%80%EC%84%B8-%EB%8C%80%EC%83%81-82%EB%A7%8C%EB%AA%85%EC%84%B8%EA%B8%88-6%EC%A1%B0%EC%9B%90-2026"
+}
+],
+"new": true
+},
+{
+"term": "3기 신도시 부천대장지구",
+"traffic": "500+",
+"time": "2026-11-25T20:30:00+00:00",
+"news": [
+{
+"title": "부천대장 A2 548세대 청약 청구서 — 59㎡ 6.13억, 계약부터 입주까지 내 돈과 「미정」인 중도금 집단대출",
+"source": "네이버 프리미엄콘텐츠",
+"link": "https://contents.premium.naver.com/plaform/bg/contents/261124235935226yz"
+},
+{
+"title": "82세대 모집에 1만건… ‘부천대장 하우스토리 디센트’, 1순위 최고 156.31대 1",
+"source": "www.dt.co.kr",
+"link": "https://www.dt.co.kr/article/12097182"
+}
+],
+"new": true
+},
+{
+"term": "편의점",
+"traffic": "200+",
+"time": "2026-11-25T20:30:00+00:00",
+"news": [
+{
+"title": "[단독] “편의점 한다던 남편 뜯어말렸는데”…매출이 늘고 있다는 점주들",
+"source": "매일경제 마켓",
+"link": "https://stock.mk.co.kr/news/view/1205926"
+},
+{
+"title": "편의점 점포 처음 줄었다…1586곳 닫고 채소 들였다",
+"source": "자본시장뉴스",
+"link": "https://www.jabon.co.kr/news/articleView.html?idxno=9014"
+}
+],
+"new": false
+},
+{
 "term": "생계",
-"traffic": "2000+",
+"traffic": "5000+",
 "time": "2026-11-25T20:20:00+00:00",
 "news": [
 {
@@ -2864,7 +2904,7 @@
 "link": "https://www.vietnam.vn/th/hlv-sporting-that-kho-de-phan-tich-chien-thuat-cua-man-united"
 },
 {
-"title": "BIG MATCH ยูฟ่า แชมเปียนส์ลีก คืนนี้! สปอร์ติง ลิสบอน พบ แมนฯ ยูไนเต็ด แพ็กเดียว คุ้มสุด! สมัครวันนี้ ดูฟรี 2 เดือน! ดูบอลยาวครบจบทุกลีก ตลอดฤดูกาล 2026/27 สมัครครั้งเดียวดูบอลสดจนถึงนัดชิงชนะเลิศฟุตบอลถ้วยยุโรป พร้อมจัดเต็มความมันส์กับฟุตบอลลีกและถ้วยดังระดับโลก รวมไว้ใน",
+"title": "BIG MATCH ยูฟ่า แชมเปียนส์ลีก คืนนี้! สปอร์ติง ลิสบอน พบ แมนฯ ยูไนเต็ด\n\n แพ็กเดียว คุ้มสุด! สมัครวันนี้ ดูฟรี 2 เดือน! ดูบอลยาวครบจบทุกลีก ตลอดฤดูกาล 2026/27 \nสมัครครั้งเดียวดูบอลสดจนถึงนัดชิงชนะเลิศฟุตบอลถ้วยยุโรป พร้อมจัดเต็มความมันส์กับฟุตบอลลีกและถ้วยดังระดับโลก รวมไว้ในแพ็กเดียว\nNOW FOOTBALL END SEASON เพียง 999 บาท/ฤดูกาล ประหยัดสูงสุด 394 บาท*\n สมัครเลย : https://truevisions-now.onelink.me/RQwi/shc6e6rk \n\n- สามารถชำระเงินได้ผ่านบัตรเครดิต,ทรูมันนี่ วอลเล็ท และบิลทรู\n- ดูได้พร้อมกัน 1 จอ (ล็อกอินได้ 10 อุปกรณ์)\n- เต็มอรรถรสกับเสียงพากย์ไทย จากทีมพากย์ทรูวิชั่นส์ ระดับแถวหน้าของประเทศ\n- รับชมรายการได้ทุกอุปกรณ์ของคุณทั้ง มือถือ, แท็บเลต, Apple TV, Android TV, Smart TV\n*สมัครแพ็กเกจได้ถึง 31 ธันวาคม 2569\n*รับชมได้ถึงวันที่ 13 มิถุนายน 2570\n*รายละเอียดและเงื่อนไขเป็นไปตามที่บริษัทฯ กำหนด\n#TrueVisionsNow #NowFootball #UCL #UEL #UEFAChampionsLeague #Laliga #SerieA #Football #TrueVisionsNowSports",
 "source": "Facebook",
 "link": "https://www.facebook.com/Truevisions/videos/big-match-%E0%B8%A2%E0%B8%B9%E0%B8%9F%E0%B9%88%E0%B8%B2-%E0%B9%81%E0%B8%8A%E0%B8%A1%E0%B9%80%E0%B8%9B%E0%B8%B5%E0%B8%A2%E0%B8%99%E0%B8%AA%E0%B9%8C%E0%B8%A5%E0%B8%B5%E0%B8%81-%E0%B8%84%E0%B8%B7%E0%B8%99%E0%B8%99%E0%B8%B5%E0%B9%89-%E0%B8%AA%E0%B8%9B%E0%B8%AD%E0%B8%A3%E0%B9%8C%E0%B8%95%E0%B8%B4%E0%B8%87-%E0%B8%A5%E0%B8%B4%E0%B8%AA%E0%B8%9A%E0%B8%AD%E0%B8%99-%E0%B8%9E%E0%B8%9A-%E0%B9%81%E0%B8%A1%E0%B8%99%E0%B8%AF-%E0%B8%A2%E0%B8%B9%E0%B9%84%E0%B8%99%E0%B9%80%E0%B8%95%E0%B9%87%E0%B8%94-%E0%B9%81%E0%B8%9E%E0%B9%87%E0%B8%81%E0%B9%80%E0%B8%94%E0%B8%B5%E0%B8%A2%E0%B8%A7/29951377491122007/"
 }
@@ -2872,8 +2912,26 @@
 "new": true
 },
 {
+"term": "사직",
+"traffic": "200+",
+"time": "2026-11-25T20:20:00+00:00",
+"news": [
+{
+"title": "사직 거부하자 거래처에 '팀장 해제' 통보…\"2000만원 내라\"",
+"source": "동행미디어 시대",
+"link": "https://www.sidae.com/article/2026112314545021907"
+},
+{
+"title": "단독 검찰청 폐지에 '허리급' 평검사 잇단 사직인사...\"자괴감 느껴\"",
+"source": "YTN",
+"link": "https://www.ytn.co.kr/_ln/0103_202611251504258738"
+}
+],
+"new": true
+},
+{
 "term": "새만금",
-"traffic": "100+",
+"traffic": "200+",
 "time": "2026-11-25T20:20:00+00:00",
 "news": [
 {
@@ -2921,96 +2979,6 @@
 "title": "영암군, 어르신 기초연금 사각지대 줄였다…전국 우수기관 선정",
 "source": "스포츠동아",
 "link": "https://sports.donga.com/region/article/all/20261124/135078638/1"
-}
-],
-"new": true
-},
-{
-"term": "고양시",
-"traffic": "100+",
-"time": "2026-11-25T20:00:00+00:00",
-"news": [
-{
-"title": "고양시 공공기관장 첫 청문회 ‘지명 철회’ 촉구",
-"source": "기호일보",
-"link": "https://www.kihoilbo.co.kr/news/articleView.html?idxno=3042100"
-},
-{
-"title": "고양시의회 국민의힘 시의원 16명, 고양연구원장·고양문화재단 대표 지명철회 촉구",
-"source": "인천일보",
-"link": "https://www.incheonilbo.com/news/articleView.html?idxno=1337756"
-}
-],
-"new": true
-},
-{
-"term": "간호사",
-"traffic": "100+",
-"time": "2026-11-25T20:00:00+00:00",
-"news": [
-{
-"title": "병원간호사회·의학바이오기자협회, 간호 인력 심포지엄",
-"source": "간호사신문",
-"link": "https://www.nursenews.co.kr/news/articleView.html?idxno=47299"
-},
-{
-"title": "간호사 교대제 개선 2차 시범사업 본격화…대체간호사 팀제 도입",
-"source": "후생신보",
-"link": "http://www.whosaeng.com/175597"
-}
-],
-"new": true
-},
-{
-"term": "아틀레티코 마드리드",
-"traffic": "2000+",
-"time": "2026-11-25T20:00:00+00:00",
-"news": [
-{
-"title": "'27위 추락' 아틀레티코 구할 이강인 출격! 시메오네 선택받았다...비킹전 선발, UCL 시즌 첫 골 정조준 - 머니투데이",
-"source": "머니투데이",
-"link": "https://www.mt.co.kr/sports/2026/11/26/202611260446778645O"
-},
-{
-"title": "'공격포인트 가뭄' ATM 이강인, 내일 UCL서 갈증 풀까",
-"source": "뉴시스",
-"link": "https://www.newsis.com/view/NISX20261125_0003882798"
-}
-],
-"new": true
-},
-{
-"term": "사과",
-"traffic": "5000+",
-"time": "2026-11-25T19:40:00+00:00",
-"news": [
-{
-"title": "포천사과, 경기 품평회서 농가 3곳 수상",
-"source": "경기일보",
-"link": "https://www.kyeonggi.com/article/20261125580398"
-},
-{
-"title": "포천 사과 2026년 경기도 사과·배 품평회서 우수한 품질 입증",
-"source": "기호일보",
-"link": "https://www.kihoilbo.co.kr/news/articleView.html?idxno=3042063"
-}
-],
-"new": true
-},
-{
-"term": "김가영",
-"traffic": "200+",
-"time": "2026-11-25T19:40:00+00:00",
-"news": [
-{
-"title": "산체스, 2009년생 한민준 완파…PBA 6차 투어 64강 진출",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261125044600007"
-},
-{
-"title": "'NH농협카드 듀오' 정수빈-김보미, '우승 기운'으로 동반 16강... 김민아도 장가연에 승부치기 신승 [PBA] - 머니투데이",
-"source": "머니투데이",
-"link": "https://www.mt.co.kr/sports/2026/11/25/2026112422172689895"
 }
 ],
 "new": true
