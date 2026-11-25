@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-25T04:31:48.957002+00:00",
+"updated": "2026-11-25T04:34:05.791418+00:00",
 "errors": [],
 "events": [
 {
@@ -4164,7 +4164,7 @@
 "terms": {
 "지진": {
 "n30": 2,
-"base": 0.5,
+"base": 0.7,
 "spike": false
 },
 "화재": {
@@ -4188,8 +4188,8 @@
 "spike": false
 },
 "붕괴": {
-"n30": 2,
-"base": 0.9,
+"n30": 1,
+"base": 1.0,
 "spike": false
 },
 "대피": {
@@ -4203,18 +4203,18 @@
 "spike": false
 },
 "속보": {
-"n30": 6,
+"n30": 5,
 "base": 0.1,
 "spike": true
 },
 "지하철": {
 "n30": 0,
-"base": 1.2,
+"base": 1.1,
 "spike": false
 },
 "사고": {
-"n30": 2,
-"base": 2.8,
+"n30": 1,
+"base": 2.7,
 "spike": false
 },
 "실종": {
@@ -4348,26 +4348,6 @@
 "url": "https://www.youtube.com/watch?v=OSkxwRPeRDg"
 },
 {
-"text": "사고 싶은 신발이 생겼는데 블프할인도 하던데.. 예쁘네 하고 쳐다만 봣어.. 흑",
-"handle": "hwaso.bsky.social",
-"name": "화소",
-"time": "2026-11-25T04:03:46.450Z",
-"likes": 1,
-"reposts": 0,
-"url": "https://bsky.app/profile/hwaso.bsky.social/post/3n34boxfzrk2u",
-"term": "사고"
-},
-{
-"text": "오래된 비-서울 교통 요충지들이 그나마 나은 꼴을 영위하고 있는 건 교통요충지가 있어서가 아님 그 반대라고 오랫동안(그리고 지금보다 덜 서울집중적일때) 그게 사람들을 끌어모아놔서 지금 그 기능이 붕괴하는 중이어도 상대적으로 괜찮아 보이는것일 뿐이라고\n심하게 말하자면 지금 그것도 없는 지역은 이제와서 만들어봤자 기대하는 효과가 나올 리 없단 얘기고 그놈의 인프라 확충은 서울을 째지 않으면 시작",
-"handle": "sd3l5.bsky.social",
-"name": "심달",
-"time": "2026-11-25T04:03:38.043Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/sd3l5.bsky.social/post/3n34bop6swc2w",
-"term": "붕괴"
-},
-{
 "platform": "YouTube",
 "text": "외국인이 한국 지하철에서 감탄한 것 6가지",
 "handle": "UCAiqqA2iWt2IdoYVYvzazig",
@@ -4425,14 +4405,14 @@
 "spikes": [
 {
 "term": "속보",
-"n30": 6,
+"n30": 5,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-25T04:31:48.957002+00:00"
+"since": "2026-11-25T04:34:05.791418+00:00"
 }
 ],
 "baseline": {
-"지진": 0.66,
+"지진": 0.79,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
@@ -4441,8 +4421,8 @@
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 1.09,
-"사고": 2.69,
+"지하철": 0.98,
+"사고": 2.52,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -4572,6 +4552,24 @@
 "ytAt": "2026-11-25T04:22:36.621452+00:00"
 },
 "trends": [
+{
+"term": "에디차",
+"traffic": "200+",
+"time": "2026-11-25T03:30:00+00:00",
+"news": [
+{
+"title": "정찬성 지도했던 한국계 UFC 코치 별세 비보…UFC 파이터도 해설위원도 애도",
+"source": "SPOTV NEWS",
+"link": "https://www.spotvnews.co.kr/news/articleView.html?idxno=1021708"
+},
+{
+"title": "'코리안 좀비' 정찬성 스승 에디 차 사망설 확산…MMA계 애도 물결",
+"source": "위키트리",
+"link": "https://www.wikitree.co.kr/articles/1177635"
+}
+],
+"new": true
+},
 {
 "term": "공휴일",
 "traffic": "5000+",
@@ -4719,24 +4717,6 @@
 "title": "\"국민연금 3년 더 늦게 받는다?\"…정은경, 직접 반박",
 "source": "이데일리",
 "link": "https://www.edaily.co.kr/News/Read?newsId=01958166645649328&mediaCodeNo=257"
-}
-],
-"new": true
-},
-{
-"term": "3기 신도시",
-"traffic": "500+",
-"time": "2026-11-25T01:30:00+00:00",
-"news": [
-{
-"title": "부천대장 A2 548세대 청약 청구서 — 59㎡ 6.13억, 계약부터 입주까지 내 돈과 「미정」인 중도금 집단대출",
-"source": "네이버 프리미엄콘텐츠",
-"link": "https://contents.premium.naver.com/plaform/bg/contents/261124235935226yz"
-},
-{
-"title": "공공분양도 '고급화'...운동·여가 넘어 돌봄시설까지",
-"source": "마켓인",
-"link": "https://marketin.edaily.co.kr/News/ReadE?newsId=01751526645648344"
 }
 ],
 "new": true
