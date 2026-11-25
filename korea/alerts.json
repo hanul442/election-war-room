@@ -1,12 +1,12 @@
 {
-"updated": "2026-11-25T14:09:26.499349+00:00",
+"updated": "2026-11-25T14:11:44.081206+00:00",
 "errors": [],
 "events": [
 {
 "id": "viewAKR202611251839000711319",
 "first": "2026-11-25T13:19:25+00:00",
 "last": "2026-11-25T14:02:00+00:00",
-"updated": "2026-11-25T14:09:26.499349+00:00",
+"updated": "2026-11-25T14:11:44.081206+00:00",
 "headline": "美, 한국 등 14개 경제주체에 '과잉생산 관세' 예고",
 "cat": "기타",
 "regions": [
@@ -63,6 +63,13 @@
 "title": "[속보] 미국, 한국 등 14개 경제주체에 `과잉생산 관세` 예고",
 "source": "부산일보",
 "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5aVWJUeENxYXNkdzBJNWRHd1hSMm9peHFYLXlIUWxHU09TcG5PTlY3QlJNRFEzb2lucy13TU1fMkE2SnZqeW10MjNpbU1odnVIWUt1aWptTWJmSmkyclBkN09MUUo4ZG01Wmo3SmlPQ3JJc1pt?oc=5",
+"time": "2026-11-25T13:21:43+00:00",
+"stage": "속보"
+},
+{
+"title": "[속보] 미국, 한국 등 14개 경제주체에 `과잉생산 관세` 예고",
+"source": "부산일보",
+"link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1mYjR5WFJCX1piOUNXRmVnWGN5RVFkdGh0c3RVdXBWcjMxY0s1c1JSa08yMFRvYWY4LXlmM1E3N2luc3daeU9Bb21RdktiSkhLaWYwUnJaQmVqWi1QdUtNUWhxTFlycHA1QkU4aFM2UlltX1J1bzlGd0p5WQ?oc=5",
 "time": "2026-11-25T13:21:43+00:00",
 "stage": "속보"
 },
@@ -4028,7 +4035,7 @@
 "sns": {
 "terms": {
 "지진": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -4048,9 +4055,9 @@
 "spike": false
 },
 "폭발": {
-"n30": 5,
+"n30": 4,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "붕괴": {
 "n30": 1,
@@ -4074,12 +4081,12 @@
 },
 "지하철": {
 "n30": 2,
-"base": 1.4,
+"base": 1.3,
 "spike": false
 },
 "사고": {
 "n30": 4,
-"base": 3.1,
+"base": 3.2,
 "spike": false
 },
 "실종": {
@@ -4089,7 +4096,7 @@
 },
 "단수": {
 "n30": 1,
-"base": 0.3,
+"base": 0.4,
 "spike": false
 },
 "통신 장애": {
@@ -4134,7 +4141,7 @@
 "handle": "massoutbreak.bsky.social",
 "name": "대량발생",
 "time": "2026-11-25T13:58:28.343Z",
-"likes": 2,
+"likes": 3,
 "reposts": 0,
 "url": "https://bsky.app/profile/massoutbreak.bsky.social/post/3n35cwehezs2c",
 "term": "사고"
@@ -4172,8 +4179,8 @@
 "handle": "sfbd553.bsky.social",
 "name": "정인",
 "time": "2026-11-25T13:51:40.942Z",
-"likes": 6,
-"reposts": 0,
+"likes": 8,
+"reposts": 1,
 "url": "https://bsky.app/profile/sfbd553.bsky.social/post/3n35ckckgzc2b",
 "term": "사고"
 },
@@ -4369,31 +4376,23 @@
 "url": "https://www.youtube.com/watch?v=gdHxdH-Z0s4"
 }
 ],
-"spikes": [
-{
-"term": "폭발",
-"n30": 5,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-25T14:09:26.499349+00:00"
-}
-],
+"spikes": [],
 "baseline": {
 "지진": 0.05,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.07,
-"붕괴": 0.94,
+"폭발": 0.06,
+"붕괴": 0.95,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 1.33,
-"사고": 3.2,
+"지하철": 1.3,
+"사고": 3.28,
 "실종": 0.05,
-"단수": 0.39,
+"단수": 0.45,
 "통신 장애": 0.05,
-"먹통": 0.09,
+"먹통": 0.08,
 "산불": 0.05
 },
 "errors": [],
@@ -4651,9 +4650,9 @@
 "time": "2026-11-25T12:30:00+00:00",
 "news": [
 {
-"title": "베트남 U17 대표팀은 2026년 U17 월드컵 다음 라운드에 진출하는 팀 중 하나입니다.",
+"title": "U17 월드컵 3위 팀 순위: 베트남은 12개국 중 7위를 기록했습니다.",
 "source": "Vietnam.vn",
-"link": "https://www.vietnam.vn/ko/u17-viet-nam-nam-trong-nhom-di-tiep-tai-u17-world-cup-2026"
+"link": "https://www.vietnam.vn/ko/bang-xep-hang-doi-dung-thu-ba-tai-u17-world-cup-viet-nam-hang-7-12"
 },
 {
 "title": "2026 U17 월드컵 U17 베트남 대 U17 말리 축구 경기 일정",
