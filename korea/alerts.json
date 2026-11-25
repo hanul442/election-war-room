@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-25T10:31:35.835417+00:00",
+"updated": "2026-11-25T10:33:52.352185+00:00",
 "errors": [],
 "events": [
 {
@@ -203,7 +203,7 @@
 "id": "XFKdGJiRm9mM3c5ak9ZOAoc51011",
 "first": "2026-11-25T10:11:32+00:00",
 "last": "2026-11-25T10:29:50+00:00",
-"updated": "2026-11-25T10:31:35.835417+00:00",
+"updated": "2026-11-25T10:33:52.352185+00:00",
 "headline": "“흉기 들고 돌아다닌다” 광주 버스터미널서 20㎝ 과도 들고 배회한 50대男 체포",
 "cat": "기타",
 "regions": [
@@ -225,6 +225,13 @@
 "title": "[속보] 광주 터미널서 20cm 흉기 들고…체포 과정에서 저항",
 "source": "아이뉴스24",
 "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5XcVJZLU9MUHV5Z291dkxGWXdiNTc0a0h3MmdfcUhmQl8wQnVNZGx4Y2RlcGYtdU5seThuNHV3TmFWZ0pDdzh0NTRkWTQ?oc=5",
+"time": "2026-11-25T10:29:50+00:00",
+"stage": "속보"
+},
+{
+"title": "[속보] 광주 터미널서 20cm 흉기 들고…체포 과정에서 저항",
+"source": "아이뉴스24",
+"link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9sSFZZeU82anJMWkJ6a1RxenY3VG9WYk5mSWJIdnZpdkR3dWd3MDdrZUlISHdxbk5CZGJiZ01DMVJRYXRkcDlveWdEQQ?oc=5",
 "time": "2026-11-25T10:29:50+00:00",
 "stage": "속보"
 }
@@ -3632,13 +3639,13 @@
 "spike": false
 },
 "폭발": {
-"n30": 1,
+"n30": 0,
 "base": 0.4,
 "spike": false
 },
 "붕괴": {
 "n30": 1,
-"base": 0.8,
+"base": 0.7,
 "spike": false
 },
 "대피": {
@@ -3652,7 +3659,7 @@
 "spike": false
 },
 "속보": {
-"n30": 2,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
@@ -3683,7 +3690,7 @@
 },
 "먹통": {
 "n30": 0,
-"base": 0.5,
+"base": 0.4,
 "spike": false
 },
 "산불": {
@@ -3893,17 +3900,17 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.37,
-"붕괴": 0.69,
-"대피": 0.11,
+"폭발": 0.33,
+"붕괴": 0.62,
+"대피": 0.1,
 "미사일": 0.05,
 "속보": 0.05,
 "지하철": 0.95,
-"사고": 1.78,
-"실종": 0.15,
-"단수": 0.14,
+"사고": 1.8,
+"실종": 0.24,
+"단수": 0.13,
 "통신 장애": 0.05,
-"먹통": 0.41,
+"먹통": 0.37,
 "산불": 0.05
 },
 "errors": [],
@@ -4066,6 +4073,42 @@
 },
 "trends": [
 {
+"term": "고경표 음주 운전",
+"traffic": "1000+",
+"time": "2026-11-25T09:30:00+00:00",
+"news": [
+{
+"title": "“팁만 5만원” 고경표, 과거엔 대리 불렀다 ‘목격담 등장’",
+"source": "스포츠경향",
+"link": "https://sports.khan.co.kr/article/202611251039003"
+},
+{
+"title": "“하…” 음주운전 고경표, 다친 미화원께 연락드렸냐 물었더니",
+"source": "한겨레",
+"link": "https://www.hani.co.kr/arti/society/society_general/1288790.html"
+}
+],
+"new": true
+},
+{
+"term": "하사",
+"traffic": "200+",
+"time": "2026-11-25T09:30:00+00:00",
+"news": [
+{
+"title": "진주 저수지서 여성 공군 하사 숨진 채 발견···군, 가혹행위 여부 수사",
+"source": "경향신문",
+"link": "https://www.khan.co.kr/article/202611251607001"
+},
+{
+"title": "진주서 공군 20대 여군 중사 숨진 채 발견…군 당국 수사",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261125124700052"
+}
+],
+"new": true
+},
+{
 "term": "가시마 앤틀러스 대 전북",
 "traffic": "5000+",
 "time": "2026-11-25T09:10:00+00:00",
@@ -4197,46 +4240,9 @@
 }
 ],
 "new": true
-},
-{
-"term": "최명길",
-"traffic": "200+",
-"time": "2026-11-25T07:40:00+00:00",
-"news": [
-{
-"title": "배우 최명길, 한국브리지협회 명예 홍보대사 위촉",
-"source": "이투데이",
-"link": "https://bravo.etoday.co.kr/view/atc_view/20590"
-},
-{
-"title": "한국브리지협회, 배우 최명길 ‘브리지 명예홍보대사’로 위촉",
-"source": "동아일보",
-"link": "https://www.donga.com/news/Culture/article/all/20261125/135090216/1"
-}
-],
-"new": true
-},
-{
-"term": "임차인",
-"traffic": "2000+",
-"time": "2026-11-25T07:30:00+00:00",
-"news": [
-{
-"title": "잔금 보낸 날 집주인 ‘연락 두절’…경기주택도시공사도 당했다, 추미애 ‘전수조사’ 지시",
-"source": "JTBC",
-"link": "https://news.jtbc.co.kr/article/NB12329778"
-},
-{
-"title": "추미애, GH 전세사기 피해에 긴급 조사 지시…“잔금 선지급 비상식적”",
-"source": "경기일보",
-"link": "https://www.kyeonggi.com/article/20261125580205"
-}
-],
-"new": true
 }
 ],
 "trendSeen": [
-"코스피",
 "코스피 11% 급락 원인과 정부의 반대매매 완화 조치 내용 알려줘",
 "코스피 200",
 "코스피 야간선물",
@@ -4378,6 +4384,7 @@
 "하남시",
 "하리수",
 "하마",
+"하사",
 "하석진",
 "하이닉스",
 "하이닉스 주가",
