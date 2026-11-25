@@ -1,7 +1,39 @@
 {
-"updated": "2026-11-25T13:23:51.062064+00:00",
+"updated": "2026-11-25T13:26:07.995423+00:00",
 "errors": [],
 "events": [
+{
+"id": "mdKamJHM3lfRHY3WjZHUQoc51323",
+"first": "2026-11-25T13:23:04+00:00",
+"last": "2026-11-25T13:23:04+00:00",
+"updated": "2026-11-25T13:26:07.995423+00:00",
+"headline": "美 USTR \"한국, 일본, EU 등 관세 15% 상한 유지\"",
+"cat": "국제",
+"regions": [],
+"sources": [
+"한국경제"
+],
+"updates": [
+{
+"title": "[속보] 美 USTR \"한국, 일본, EU 등 관세 15% 상한 유지\"",
+"source": "한국경제",
+"link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1HdklncHlpUUhmRzNMSlZPcTE4dVhTM282UkJ1YUVDYVlEUEplUm1WUnFqNDF4ZHV3SjBJbE1SX0haclFuXy1hVTNUUmdKamJHM3lfRHY3WjZHUQ?oc=5",
+"time": "2026-11-25T13:23:04+00:00",
+"stage": "얼럿"
+}
+],
+"level": "URGENT",
+"latest": "美 USTR \"한국, 일본, EU 등 관세 15% 상한 유지\"",
+"tok": [
+"EU",
+"USTR",
+"관세",
+"상한",
+"유지",
+"일본",
+"한국"
+]
+},
 {
 "id": "tLVdXbUhnb1hGZWVBZGEyoc51321",
 "first": "2026-11-25T13:21:00+00:00",
@@ -39,16 +71,24 @@
 "id": "viewAKR202611251839000711319",
 "first": "2026-11-25T13:19:25+00:00",
 "last": "2026-11-25T13:19:25+00:00",
-"updated": "2026-11-25T13:23:51.062064+00:00",
+"updated": "2026-11-25T13:26:07.995423+00:00",
 "headline": "美, 한국 등 14개 경제주체에 '과잉생산 관세' 예고",
 "cat": "기타",
 "regions": [
 "제주"
 ],
 "sources": [
+"경향신문",
 "연합뉴스"
 ],
 "updates": [
+{
+"title": "‘한국 관세 15% 상한’ 지켜질까…미 ‘과잉생산 조사’ 곧 발표",
+"source": "경향신문",
+"link": "https://www.khan.co.kr/article/202611252121015/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
+"time": "2026-11-25T12:21:01+00:00",
+"stage": "후속"
+},
 {
 "title": "[속보] 美, 한국 등 14개 경제주체에 '과잉생산 관세' 예고",
 "source": "연합뉴스",
@@ -64,7 +104,10 @@
 "경제주체",
 "과잉생산",
 "관세",
+"상한",
 "예고",
+"조사",
+"지켜질까",
 "한국"
 ]
 },
@@ -3677,42 +3720,6 @@
 "퀴즈",
 "확인"
 ]
-},
-{
-"id": "nkRSSLINKcooperRSSREADER0813",
-"first": "2026-11-25T08:13:02+00:00",
-"last": "2026-11-25T08:13:02+00:00",
-"updated": "2026-11-25T08:15:23.343621+00:00",
-"headline": "[날씨] 강원 중·북부 눈…영동 강풍 산불·화재 주의",
-"cat": "재난",
-"regions": [
-"강원",
-"충북"
-],
-"sources": [
-"SBS"
-],
-"updates": [
-{
-"title": "[날씨] 강원 중·북부 눈…영동 강풍 산불·화재 주의",
-"source": "SBS",
-"link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008863089&plink=RSSLINK&cooper=RSSREADER",
-"time": "2026-11-25T08:13:02+00:00",
-"stage": "1보"
-}
-],
-"level": "ALERT",
-"latest": "[날씨] 강원 중·북부 눈…영동 강풍 산불·화재 주의",
-"tok": [
-"강원",
-"강풍",
-"날씨",
-"북부",
-"산불",
-"영동",
-"주의",
-"화재"
-]
 }
 ],
 "sns": {
@@ -3744,7 +3751,7 @@
 },
 "붕괴": {
 "n30": 2,
-"base": 0.1,
+"base": 0.2,
 "spike": false
 },
 "대피": {
@@ -3769,7 +3776,7 @@
 },
 "사고": {
 "n30": 1,
-"base": 2.6,
+"base": 2.4,
 "spike": false
 },
 "실종": {
@@ -3789,7 +3796,7 @@
 },
 "먹통": {
 "n30": 0,
-"base": 0.8,
+"base": 0.7,
 "spike": false
 },
 "산불": {
@@ -4016,32 +4023,32 @@
 "n30": 10,
 "base": 0.6,
 "spike": true,
-"since": "2026-11-25T13:23:51.062064+00:00"
+"since": "2026-11-25T13:26:07.995423+00:00"
 },
 {
 "term": "속보",
 "n30": 6,
 "base": 0.2,
 "spike": true,
-"since": "2026-11-25T13:23:51.062064+00:00"
+"since": "2026-11-25T13:26:07.995423+00:00"
 }
 ],
 "baseline": {
-"지진": 0.18,
+"지진": 0.16,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.56,
-"붕괴": 0.24,
+"폭발": 0.5,
+"붕괴": 0.32,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.19,
-"지하철": 1.2,
-"사고": 2.43,
+"속보": 0.17,
+"지하철": 1.18,
+"사고": 2.29,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
-"먹통": 0.69,
+"먹통": 0.62,
 "산불": 0.05
 },
 "errors": [],
@@ -4354,7 +4361,7 @@
 },
 {
 "term": "강남",
-"traffic": "500+",
+"traffic": "1000+",
 "time": "2026-11-25T11:20:00+00:00",
 "news": [
 {
@@ -4363,9 +4370,9 @@
 "link": "https://www.hankyung.com/article/202611250217H"
 },
 {
-"title": "김태희는 좋겠네…'빌딩 부자' 비, 강남대로 1400억+신사동 159억",
-"source": "뉴스1",
-"link": "https://www.news1.kr/entertain/celebrity-topic/6365298"
+"title": "김태희·비, 이러니까 부동산 투자하지... 알고보니 ‘1550억’ 빌딩 부자",
+"source": "조선일보",
+"link": "https://www.chosun.com/entertainments/broadcast/2026/11/25/GBQWEZTCHEZWKNBRMFQWMN3BMU/"
 }
 ],
 "new": true
