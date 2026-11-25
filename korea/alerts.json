@@ -1,12 +1,12 @@
 {
-"updated": "2026-11-25T13:44:12.591815+00:00",
+"updated": "2026-11-25T13:46:28.939480+00:00",
 "errors": [],
 "events": [
 {
 "id": "viewAKR202611251839000711319",
 "first": "2026-11-25T13:19:25+00:00",
-"last": "2026-11-25T13:35:52+00:00",
-"updated": "2026-11-25T13:39:42.827363+00:00",
+"last": "2026-11-25T13:44:00+00:00",
+"updated": "2026-11-25T13:46:28.939480+00:00",
 "headline": "美, 한국 등 14개 경제주체에 '과잉생산 관세' 예고",
 "cat": "기타",
 "regions": [
@@ -16,6 +16,7 @@
 "경향신문",
 "뉴스1",
 "연합뉴스",
+"연합뉴스TV",
 "이데일리",
 "파이낸셜뉴스"
 ],
@@ -54,10 +55,17 @@
 "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQR1lpSWR6QUJKT1RPeXJacHRzQnItcHRaM0dGa3JkbDlKRm5kZC1nUGxRTWFFelJZcV9KalJrcGlJRzlRSUQ5XzN6ZmNzVDdJZGIyOUtkLWs4SWRDZzVWbGdsSDBZTEprTkcwaWx3alluWEhEVUM5Rk04VkZzR2pSWg?oc=5",
 "time": "2026-11-25T13:35:52+00:00",
 "stage": "속보"
+},
+{
+"title": "[속보] 美, 한국 등에 ’과잉생산 관세’ 예고…“15% 상한 유지“",
+"source": "연합뉴스TV",
+"link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1zWkxIQkdSZTBqRzJTVTZabG9FazlBYXR4MWpmS2E1NllRUHRJTjdST25ESGp1SzFJNzc3cFc2TVI4LUFITUVQRVVPWGV3akNHbjNGeDFqYzVMRFBjeXFlYmtzSWNQcUk?oc=5",
+"time": "2026-11-25T13:44:00+00:00",
+"stage": "속보"
 }
 ],
 "level": "URGENT",
-"latest": "美, 한국에 15% '과잉생산 관세' 예고…중국 20%·EU 15%",
+"latest": "美, 한국 등에 ’과잉생산 관세’ 예고…“15% 상한 유지“",
 "tok": [
 "14개",
 "EU",
@@ -69,6 +77,7 @@
 "무역대표부",
 "상한",
 "예고",
+"유지",
 "제안",
 "조사",
 "중국",
@@ -81,7 +90,7 @@
 "id": "mdKamJHM3lfRHY3WjZHUQoc51323",
 "first": "2026-11-25T13:23:04+00:00",
 "last": "2026-11-25T13:35:38+00:00",
-"updated": "2026-11-25T13:39:42.827363+00:00",
+"updated": "2026-11-25T13:46:28.939480+00:00",
 "headline": "美 USTR \"한국, 일본, EU 등 관세 15% 상한 유지\"",
 "cat": "국제",
 "regions": [],
@@ -89,6 +98,7 @@
 "SBS",
 "경향신문",
 "뉴시스",
+"대전일보",
 "머니투데이",
 "연합뉴스",
 "연합뉴스TV",
@@ -116,6 +126,13 @@
 "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1HdklncHlpUUhmRzNMSlZPcTE4dVhTM282UkJ1YUVDYVlEUEplUm1WUnFqNDF4ZHV3SjBJbE1SX0haclFuXy1hVTNUUmdKamJHM3lfRHY3WjZHUQ?oc=5",
 "time": "2026-11-25T13:23:04+00:00",
 "stage": "얼럿"
+},
+{
+"title": "[속보] 미국 USTR \"한국, 일본, EU 등 관세 15% 상한 유지\"",
+"source": "대전일보",
+"link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFB2VEl3LVJnNW5fME1iOTc0TUVGRkdDMEdWQmdxNXdrLXFwcFJzUHd6eGtuWEZuTUNJbGJ1cVVCVVNCeTdmcGVFRWRaY09xRnZzamVFaUYxMVhkMUxBcFQ3NmJ1ZEZEYTdFZzN3MEE1NA?oc=5",
+"time": "2026-11-25T13:24:00+00:00",
+"stage": "속보"
 },
 {
 "title": "[속보]美 USTR \"한국·일본 등 관세 15% 상한 유지\"",
@@ -175,6 +192,7 @@
 "과잉",
 "관세",
 "머니투데",
+"미국",
 "상한",
 "생산",
 "유지",
@@ -3841,13 +3859,13 @@
 "spike": false
 },
 "폭발": {
-"n30": 1,
+"n30": 0,
 "base": 0.2,
 "spike": false
 },
 "붕괴": {
 "n30": 2,
-"base": 1.0,
+"base": 1.1,
 "spike": false
 },
 "대피": {
@@ -3867,11 +3885,11 @@
 },
 "지하철": {
 "n30": 1,
-"base": 1.5,
+"base": 1.4,
 "spike": false
 },
 "사고": {
-"n30": 2,
+"n30": 3,
 "base": 1.9,
 "spike": false
 },
@@ -3902,6 +3920,16 @@
 }
 },
 "posts": [
+{
+"text": "뇌 녹아서 정상적인 사고, 사람다운 삶 불가능하고 머리에 든 건 좆물밖에 없는 년\n인생 바치고 망가져서 광대짓하고 알몸 상납하고 신상으로 협박 당하면서 가축되고 싶는 병신년이면 그냥 눌러\n\ntele: t.me/flwyua\n\n시그널 :\nsignal.me#eu/JrBDTpaGd...\n\n#노예 #암캐 #조련 #광대플  #섹트 #섹블 #능욕 #변녀 #걸레  #육변기 #미션  #상납 #조교 #협박플 ",
+"handle": "a-bys.bsky.social",
+"name": "Abys",
+"time": "2026-11-25T13:44:49.651Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/a-bys.bsky.social/post/3n35c5vvhac2g",
+"term": "사고"
+},
 {
 "text": "한국투자저축은행 개인정보 유출 8만 6천명…저축은행 역대 최대 규모 해킹\n\n한국투자저축은행에서 고객 8만 6천여 명의 개인정보가 유출된 사고가 발생했습니다. 저축은행업권 역대 최대 규모로, 종전 최대였던 예가람저축은행의 약 2배에 달합니다. 2차 금융사기 피해 우려와 금융당국 제재 가능성을 상세히 분석합니다.\n\nm.blog.naver.com/hampi2/22449...",
 "handle": "hampi2.bsky.social",
@@ -4135,21 +4163,21 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 0.07,
+"지진": 0.06,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.22,
-"붕괴": 1.12,
+"폭발": 0.2,
+"붕괴": 1.21,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.08,
-"지하철": 1.45,
-"사고": 1.89,
+"속보": 0.07,
+"지하철": 1.41,
+"사고": 2.0,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
-"먹통": 0.27,
+"먹통": 0.24,
 "산불": 0.05
 },
 "errors": [],
