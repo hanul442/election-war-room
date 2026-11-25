@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-25T07:41:31.050507+00:00",
+"updated": "2026-11-25T07:43:45.412787+00:00",
 "errors": [],
 "events": [
 {
@@ -4233,18 +4233,18 @@
 "spike": false
 },
 "폭발": {
-"n30": 6,
+"n30": 5,
 "base": 1.3,
 "spike": true
 },
 "붕괴": {
-"n30": 2,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
 "대피": {
 "n30": 3,
-"base": 0.6,
+"base": 0.7,
 "spike": false
 },
 "미사일": {
@@ -4253,7 +4253,7 @@
 "spike": false
 },
 "속보": {
-"n30": 6,
+"n30": 5,
 "base": 0.1,
 "spike": true
 },
@@ -4263,7 +4263,7 @@
 "spike": false
 },
 "사고": {
-"n30": 2,
+"n30": 1,
 "base": 2.3,
 "spike": false
 },
@@ -4516,16 +4516,6 @@
 "url": "https://www.youtube.com/watch?v=a_aiXkFBwzY"
 },
 {
-"text": "사고 친 거 있어서 연락해야 하는데 너무 하기 싫다 회피형 발현함",
-"handle": "perrphecy.bsky.social",
-"name": "페르",
-"time": "2026-11-25T07:12:11.343Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/perrphecy.bsky.social/post/3n34m7u4ztc2v",
-"term": "사고"
-},
-{
 "platform": "YouTube",
 "text": "삼성전자 시총 1000조 붕괴, 방아쇠는 마이크론 목표가 반토막… 낸드·D램 전망은 갈렸다",
 "handle": "UCzjTWZyQNfu-0hsPhwM2n-w",
@@ -4547,17 +4537,17 @@
 "spikes": [
 {
 "term": "폭발",
-"n30": 6,
+"n30": 5,
 "base": 1.3,
 "spike": true,
-"since": "2026-11-25T07:41:31.050507+00:00"
+"since": "2026-11-25T07:43:45.412787+00:00"
 },
 {
 "term": "속보",
-"n30": 6,
+"n30": 5,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-25T07:41:31.050507+00:00"
+"since": "2026-11-25T07:43:45.412787+00:00"
 }
 ],
 "baseline": {
@@ -4565,13 +4555,13 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 1.31,
-"붕괴": 0.09,
-"대피": 0.68,
+"폭발": 1.28,
+"붕괴": 0.08,
+"대피": 0.71,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 2.09,
-"사고": 2.3,
+"지하철": 2.08,
+"사고": 2.17,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -4774,6 +4764,24 @@
 },
 "trends": [
 {
+"term": "대한민국 법무부",
+"traffic": "500+",
+"time": "2026-11-25T06:40:00+00:00",
+"news": [
+{
+"title": "코리아넷뉴스 - 법무부, 전자여행허가제 한시 면제 조치 2027년까지 연장",
+"source": "문화체육관광부 한국문화원",
+"link": "https://www.korean-culture.org/koreanet/view.do?seq=1056161&page=1&pageSize=10&photoPageSize=6&totalCount=0&searchType=null&searchText=&searchCondition=1&cateCode="
+},
+{
+"title": "국적회복 심사 13개월→9개월 단축…처리 건수는 7배로 늘려",
+"source": "동아일보",
+"link": "https://www.donga.com/news/Society/article/all/20261125/135086262/1"
+}
+],
+"new": true
+},
+{
 "term": "sk하이닉스 채용",
 "traffic": "1000+",
 "time": "2026-11-25T06:10:00+00:00",
@@ -4864,9 +4872,9 @@
 "time": "2026-11-25T05:40:00+00:00",
 "news": [
 {
-"title": "후티 예고 없는 공습에 80층 사우디 건물 피해···‘레드라인’ 아덴 진격 코앞",
-"source": "경향신문",
-"link": "https://www.khan.co.kr/article/202611251503011"
+"title": "예멘서 공습에 26명 사망…사우디 고층 건물 또 피격",
+"source": "KBS 뉴스",
+"link": "https://news.kbs.co.kr/news/view.do?ncd=8721708"
 },
 {
 "title": "후티, 예멘 임시수도 아덴 턱밑까지 진격…국제유가 급등 우려",
@@ -4887,9 +4895,9 @@
 "link": "https://www.mt.co.kr/society/2026/11/25/2026112514003999234"
 },
 {
-"title": "‘불륜 의혹’ 래퍼 양홍원, 결혼식 1달 만에 파경…원현주 “이혼 절차 마쳐”",
-"source": "헤럴드경제",
-"link": "https://biz.heraldcorp.com/article/10947773"
+"title": "결혼식 닷새 만에 불륜 의혹 터지더니…양홍원·원현주, 결국 이혼",
+"source": "SBS 뉴스",
+"link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008861287"
 }
 ],
 "new": true
@@ -4929,24 +4937,6 @@
 }
 ],
 "new": true
-},
-{
-"term": "핫트랙스",
-"traffic": "200+",
-"time": "2026-11-25T04:50:00+00:00",
-"news": [
-{
-"title": "[단독] ‘음반 사려 장사진’ 이제 못 본다… 교보문고 음반 사업 철수",
-"source": "조선일보",
-"link": "https://www.chosun.com/culture-life/culture_general/2026/11/25/CTRN3ZMS35DATFMSUBQSYHS24Q/"
-},
-{
-"title": "비틀스·아이돌 팬들 줄 세우던 광화문 음반 명소 ‘핫트랙스’ 문닫는다",
-"source": "동아일보",
-"link": "https://www.donga.com/news/Society/article/all/20261125/135088551/1"
-}
-],
-"new": false
 }
 ],
 "trendSeen": [
