@@ -1,17 +1,18 @@
 {
-"updated": "2026-11-25T01:16:36.177225+00:00",
+"updated": "2026-11-25T01:18:51.809679+00:00",
 "errors": [],
 "events": [
 {
 "id": "lp3SkRZOUplNkFOYnJNNwoc50036",
 "first": "2026-11-25T00:36:00+00:00",
 "last": "2026-11-25T01:13:00+00:00",
-"updated": "2026-11-25T01:14:14.139988+00:00",
+"updated": "2026-11-25T01:18:51.809679+00:00",
 "headline": "교육부 \"수능 시험지 5년 보관 추진…2026학년도 82% 보관\"",
 "cat": "기타",
 "regions": [],
 "sources": [
 "KBC광주방송",
+"KBS 뉴스",
 "경향신문",
 "뉴시스",
 "연합뉴스",
@@ -52,6 +53,13 @@
 "source": "연합뉴스",
 "link": "https://www.yna.co.kr/view/AKR20261125052100530",
 "time": "2026-11-25T00:47:56+00:00",
+"stage": "후속"
+},
+{
+"title": "지난해 수능 시험장 233곳, 시험지 폐기…보관 5년으로 연장 추진",
+"source": "KBS 뉴스",
+"link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9Oa0V5VGl1MzM4XzBpeGdDaWViY3p2Y1FWdmtWVTN4Vklvamlkb3lKMEN6Z1M4WThpMjhxRERpNTY0SFF2Wnd3S05xQ3JxZnNVU2dyQXZHZE40SGc?oc=5",
+"time": "2026-11-25T00:48:00+00:00",
 "stage": "후속"
 },
 {
@@ -96,6 +104,7 @@
 "1년",
 "2026학년",
 "233개교에서",
+"233곳",
 "5년",
 "5년으",
 "AI커닝",
@@ -4047,7 +4056,7 @@
 },
 "폭발": {
 "n30": 6,
-"base": 0.3,
+"base": 0.2,
 "spike": true
 },
 "붕괴": {
@@ -4072,12 +4081,12 @@
 },
 "지하철": {
 "n30": 8,
-"base": 1.0,
+"base": 0.9,
 "spike": true
 },
 "사고": {
 "n30": 3,
-"base": 1.9,
+"base": 2.0,
 "spike": false
 },
 "실종": {
@@ -4112,7 +4121,7 @@
 "handle": "wineguitar4.bsky.social",
 "name": "WineGuitar",
 "time": "2026-11-25T01:12:06.448Z",
-"likes": 1,
+"likes": 3,
 "reposts": 0,
 "url": "https://bsky.app/profile/wineguitar4.bsky.social/post/3n33y3x2fdk23",
 "term": "사고"
@@ -4339,7 +4348,7 @@
 "handle": "parouru.bsky.social",
 "name": "공파스",
 "time": "2026-11-25T00:59:49.744Z",
-"likes": 0,
+"likes": 1,
 "reposts": 0,
 "url": "https://bsky.app/profile/parouru.bsky.social/post/3n33xfzko6s27",
 "term": "실종"
@@ -4387,23 +4396,23 @@
 {
 "term": "폭발",
 "n30": 6,
-"base": 0.3,
+"base": 0.2,
 "spike": true,
-"since": "2026-11-25T01:16:36.177225+00:00"
+"since": "2026-11-25T01:18:51.809679+00:00"
 },
 {
 "term": "속보",
 "n30": 8,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-25T01:16:36.177225+00:00"
+"since": "2026-11-25T01:18:51.809679+00:00"
 },
 {
 "term": "지하철",
 "n30": 8,
-"base": 1.0,
+"base": 0.9,
 "spike": true,
-"since": "2026-11-25T01:16:36.177225+00:00"
+"since": "2026-11-25T01:18:51.809679+00:00"
 }
 ],
 "baseline": {
@@ -4411,14 +4420,14 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.24,
+"폭발": 0.22,
 "붕괴": 0.05,
-"대피": 0.22,
+"대피": 0.2,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.93,
-"사고": 2.05,
-"실종": 1.33,
+"지하철": 0.84,
+"사고": 2.15,
+"실종": 1.4,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
