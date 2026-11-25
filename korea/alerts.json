@@ -1,18 +1,19 @@
 {
-"updated": "2026-11-25T14:02:38.395217+00:00",
+"updated": "2026-11-25T14:04:54.307640+00:00",
 "errors": [],
 "events": [
 {
 "id": "viewAKR202611251839000711319",
 "first": "2026-11-25T13:19:25+00:00",
-"last": "2026-11-25T14:00:00+00:00",
-"updated": "2026-11-25T14:02:38.395217+00:00",
+"last": "2026-11-25T14:02:00+00:00",
+"updated": "2026-11-25T14:04:54.307640+00:00",
 "headline": "美, 한국 등 14개 경제주체에 '과잉생산 관세' 예고",
 "cat": "기타",
 "regions": [
 "제주"
 ],
 "sources": [
+"KBS 뉴스",
 "MBC 뉴스",
 "경향신문",
 "뉴스1",
@@ -23,6 +24,7 @@
 "연합뉴스 한민족센터",
 "연합뉴스TV",
 "이데일리",
+"인벤",
 "파이낸셜뉴스",
 "한겨레"
 ],
@@ -84,6 +86,13 @@
 "stage": "속보"
 },
 {
+"title": "[속보] 미국, 한국 등 14곳에 ‘과잉생산 관세’ 예고…“합의국은 15% 상한”",
+"source": "KBS 뉴스",
+"link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBoTGV6TXFTclVPVVd6LVZpUlUzUDFGQ1RkTEhvRE5BQklVeXJORUFuSjBqTy1kM25TYktTcW9OUWxNTGR6UlphUGpWZ19jMlhSdlFjeFg2dGFVV00?oc=5",
+"time": "2026-11-25T13:44:00+00:00",
+"stage": "속보"
+},
+{
 "title": "[속보] 美, 한국 등에 '과잉생산 관세' 예고…\"15% 상한 유지\"",
 "source": "연합뉴스 한민족센터",
 "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5YNTdBVWt0RGkzZVJhYm83bC0wcC1yVFhVZ01ZWldJWEZCRnVTS19Vdk5fbnZHLVYtU3kxcmQwclB4NzBsMnZ0ZFJ1ZFk0bS0yRmNZU3l4VnVIT2xrcVRkQ19YTnQyTjgxblJmQU5iRlBvR1ot?oc=5",
@@ -105,6 +114,13 @@
 "stage": "속보"
 },
 {
+"title": "[잡담] 속보) 미국 한국에 과잉생산 관세 예고",
+"source": "인벤",
+"link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBELUdlaVdLRlNtRURIX2l6My1hMldlbEl4YTEybUZuLUk0OWJZNHg0cnh6LWVnd3NfQ0VPVENnem93alBMQjFtRHdCTGZYX1ZNajNJWTB1Rkh0bmlI?oc=5",
+"time": "2026-11-25T13:51:37+00:00",
+"stage": "후속"
+},
+{
 "title": "美, 한국·일본 등 관세 15% 상한 유지…中에는 추가 20% 제안",
 "source": "뉴시스",
 "link": "https://www.newsis.com/view/NISX20261125_0003883563",
@@ -124,12 +140,20 @@
 "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNcV9RZkpTUTZrYkdsMlFod0dza0l3NHdxdlFxZjlwT2ZhWVFuNlplMDUtbm9jUGwwZkc1Q2ZOdDBvVG1JTFQwMDdJU3JXZ09YTFJaMjVXRnd2Um9XQzFodTNTcklpRUhvY2JwZ2JiR0tjcE9lLW5FekFhX1F0bzIzOGhn?oc=5",
 "time": "2026-11-25T14:00:00+00:00",
 "stage": "속보"
+},
+{
+"title": "미 USTR “한국 관세 15% 상한 유지”",
+"source": "경향신문",
+"link": "https://www.khan.co.kr/article/202611252302005/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
+"time": "2026-11-25T14:02:00+00:00",
+"stage": "후속"
 }
 ],
 "level": "URGENT",
-"latest": "미 USTR, 14개 경제주체에 과잉생산 관세…“한국 15% 상한 유지”",
+"latest": "미 USTR “한국 관세 15% 상한 유지”",
 "tok": [
 "14개",
+"14곳",
 "EU",
 "USTR",
 "中에",
@@ -148,13 +172,15 @@
 "유지",
 "유지할",
 "일본",
+"잡담",
 "제안",
 "조사",
 "중국",
 "지켜질까",
 "최대",
 "추가",
-"한국"
+"한국",
+"합의국"
 ]
 },
 {
@@ -3991,8 +4017,8 @@
 "spike": true
 },
 "붕괴": {
-"n30": 2,
-"base": 1.2,
+"n30": 0,
+"base": 1.1,
 "spike": false
 },
 "대피": {
@@ -4006,18 +4032,18 @@
 "spike": false
 },
 "속보": {
-"n30": 5,
+"n30": 2,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "지하철": {
-"n30": 3,
-"base": 1.5,
+"n30": 2,
+"base": 1.4,
 "spike": false
 },
 "사고": {
 "n30": 5,
-"base": 2.5,
+"base": 2.8,
 "spike": false
 },
 "실종": {
@@ -4052,7 +4078,7 @@
 "handle": "fithele.bsky.social",
 "name": "피델🎻🫖📚👾👽",
 "time": "2026-11-25T14:02:10.142Z",
-"likes": 0,
+"likes": 1,
 "reposts": 0,
 "url": "https://bsky.app/profile/fithele.bsky.social/post/3n35d4wfemk2l",
 "term": "단수"
@@ -4100,7 +4126,7 @@
 "handle": "sfbd553.bsky.social",
 "name": "정인",
 "time": "2026-11-25T13:51:40.942Z",
-"likes": 3,
+"likes": 6,
 "reposts": 0,
 "url": "https://bsky.app/profile/sfbd553.bsky.social/post/3n35ckckgzc2b",
 "term": "사고"
@@ -4234,16 +4260,6 @@
 "url": "https://www.youtube.com/watch?v=vh09UHjXgZQ"
 },
 {
-"text": "반려동물을 보고 싶다고 자기소개 써두신 분이 나를 팔로우하셨다.\n나도 맞팔로우했다.\n\n그런데 키우는 동물은 없다.\n우짜지.\n저는 날개돼지 행복 이런 걸 바라는 사람인데.\n\n*참고자료: 실시간 서비스 중인 게임 «붕괴: 스타레일»의 한정캐릭터 '히아킨티아'의 '기억정령'인 날개 환수 '이카'.\n츠타 타임라인 통칭, '날개돼지'.",
-"handle": "tsuta.bsky.social",
-"name": "츠타蔦_漸龑",
-"time": "2026-11-25T13:33:37.658Z",
-"likes": 1,
-"reposts": 1,
-"url": "https://bsky.app/profile/tsuta.bsky.social/post/3n35bjuru7k2u",
-"term": "붕괴"
-},
-{
 "platform": "YouTube",
 "text": "코스피 6% 폭락, 삼성전자 1000조 붕괴! 사이드카 발동 속 안랩이 상한가 간 이유 [11월 25일 시황]#삼성전자 #안랩 #APR #매도사이드카 #주식초보",
 "handle": "UCIyEdaUIoKct3S-XGz7ILLg",
@@ -4313,14 +4329,7 @@
 "n30": 5,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-25T14:02:38.395217+00:00"
-},
-{
-"term": "속보",
-"n30": 5,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-25T14:02:38.395217+00:00"
+"since": "2026-11-25T14:04:54.307640+00:00"
 }
 ],
 "baseline": {
@@ -4328,17 +4337,17 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.1,
-"붕괴": 1.15,
+"폭발": 0.09,
+"붕괴": 1.03,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 1.45,
-"사고": 2.79,
+"지하철": 1.41,
+"사고": 3.01,
 "실종": 0.05,
-"단수": 0.15,
+"단수": 0.24,
 "통신 장애": 0.05,
-"먹통": 0.12,
+"먹통": 0.11,
 "산불": 0.05
 },
 "errors": [],
@@ -4700,7 +4709,7 @@
 },
 {
 "term": "난방",
-"traffic": "1000+",
+"traffic": "2000+",
 "time": "2026-11-25T11:50:00+00:00",
 "news": [
 {
