@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-25T23:30:54.290277+00:00",
+"updated": "2026-11-25T23:33:08.653812+00:00",
 "errors": [],
 "events": [
 {
@@ -2972,18 +2972,18 @@
 "spike": false
 },
 "속보": {
-"n30": 7,
+"n30": 4,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "지하철": {
-"n30": 2,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
 "사고": {
 "n30": 1,
-"base": 0.7,
+"base": 0.8,
 "spike": false
 },
 "실종": {
@@ -3232,27 +3232,19 @@
 "url": "https://www.youtube.com/watch?v=LVSsFahBMSg"
 }
 ],
-"spikes": [
-{
-"term": "속보",
-"n30": 7,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-25T23:30:54.290277+00:00"
-}
-],
+"spikes": [],
 "baseline": {
 "지진": 0.05,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
 "폭발": 0.05,
-"붕괴": 0.15,
+"붕괴": 0.24,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
 "지하철": 0.05,
-"사고": 0.77,
+"사고": 0.79,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -3464,6 +3456,24 @@
 },
 "trends": [
 {
+"term": "mu",
+"traffic": "200+",
+"time": "2026-11-25T22:30:00+00:00",
+"news": [
+{
+"title": "QUICK SPARK: Micron Stock Eyes Worst 2-Month Drop Since September 2001",
+"source": "Benzinga",
+"link": "https://www.benzinga.com/markets/equities/26/11/63637521/micron-stock-worst-two-month-drop-since-2001"
+},
+{
+"title": "Micron: This Is A Fire Sale (NASDAQ:MU)",
+"source": "Seeking Alpha",
+"link": "https://seekingalpha.com/article/4972001-micron-this-is-a-fire-sale"
+}
+],
+"new": true
+},
+{
 "term": "나스닥 100",
 "traffic": "200+",
 "time": "2026-11-25T22:20:00+00:00",
@@ -3621,24 +3631,6 @@
 "title": "Injuries sideline Kane and Olise as Kim starts 3rd straight Champions League match",
 "source": "Chosunbiz",
 "link": "https://biz.chosun.com/en/en-sports/2026/11/26/QOSC7ZW7WFBZ5AJFDCBQBUNGNQ/"
-}
-],
-"new": true
-},
-{
-"term": "삼성중공업",
-"traffic": "100+",
-"time": "2026-11-25T21:40:00+00:00",
-"news": [
-{
-"title": "삼성중공업 정기 임원인사…부사장 3명·상무 6명 승진",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261125064600003"
-},
-{
-"title": "‘이왕근號’ 삼성重, 해양사업 고삐⋯ FLNG·다각화 ‘정조준’",
-"source": "브릿지경제",
-"link": "https://www.viva100.com/article/20261125500916"
 }
 ],
 "new": true
