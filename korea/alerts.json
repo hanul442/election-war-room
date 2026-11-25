@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-25T13:30:38.117714+00:00",
+"updated": "2026-11-25T13:32:52.065631+00:00",
 "errors": [],
 "events": [
 {
@@ -3816,13 +3816,13 @@
 "spike": false
 },
 "폭발": {
-"n30": 7,
-"base": 0.5,
+"n30": 6,
+"base": 0.4,
 "spike": true
 },
 "붕괴": {
 "n30": 1,
-"base": 0.4,
+"base": 0.5,
 "spike": false
 },
 "대피": {
@@ -3847,7 +3847,7 @@
 },
 "사고": {
 "n30": 1,
-"base": 2.2,
+"base": 2.0,
 "spike": false
 },
 "실종": {
@@ -3867,7 +3867,7 @@
 },
 "먹통": {
 "n30": 0,
-"base": 0.6,
+"base": 0.5,
 "spike": false
 },
 "산불": {
@@ -4101,35 +4101,35 @@
 "spikes": [
 {
 "term": "폭발",
-"n30": 7,
-"base": 0.5,
+"n30": 6,
+"base": 0.4,
 "spike": true,
-"since": "2026-11-25T13:30:38.117714+00:00"
+"since": "2026-11-25T13:32:52.065631+00:00"
 },
 {
 "term": "속보",
 "n30": 5,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-25T13:30:38.117714+00:00"
+"since": "2026-11-25T13:32:52.065631+00:00"
 }
 ],
 "baseline": {
-"지진": 0.13,
+"지진": 0.12,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.41,
-"붕괴": 0.45,
+"폭발": 0.37,
+"붕괴": 0.51,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.14,
-"지하철": 1.33,
-"사고": 2.04,
+"속보": 0.13,
+"지하철": 1.4,
+"사고": 1.94,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
-"먹통": 0.5,
+"먹통": 0.45,
 "산불": 0.05
 },
 "errors": [],
@@ -4319,6 +4319,78 @@
 },
 "trends": [
 {
+"term": "u17 월드컵",
+"traffic": "100+",
+"time": "2026-11-25T12:30:00+00:00",
+"news": [
+{
+"title": "U17 월드컵 3위 팀 순위: 베트남은 12개국 중 7위를 기록했습니다.",
+"source": "Vietnam.vn",
+"link": "https://www.vietnam.vn/ko/bang-xep-hang-doi-dung-thu-ba-tai-u17-world-cup-viet-nam-hang-7-12"
+},
+{
+"title": "2026 U17 월드컵 U17 베트남 대 U17 말리 축구 경기 일정",
+"source": "Laodong.vn",
+"link": "https://ko.laodong.vn/lich-thi-dau/lich-thi-dau-bong-da-u17-viet-nam-vs-u17-mali-tai-giai-u17-world-cup-2026-1806352.ldo"
+}
+],
+"new": true
+},
+{
+"term": "신민아",
+"traffic": "100+",
+"time": "2026-11-25T12:30:00+00:00",
+"news": [
+{
+"title": "[ET포토] 신민아, '아름다움이란 단어로는 모자라'",
+"source": "전자신문",
+"link": "https://www.etnews.com/20261125000604"
+},
+{
+"title": "[포토]'청룡영화상' 정호연, 강렬한 레드",
+"source": "브릿지경제",
+"link": "https://www.viva100.com/article/20261125501413"
+}
+],
+"new": true
+},
+{
+"term": "bangladesh vs south africa",
+"traffic": "100+",
+"time": "2026-11-25T12:30:00+00:00",
+"news": [
+{
+"title": "Ball by Ball Commentary & Live Score - SA vs BAN, 2nd Test",
+"source": "Cricinfo",
+"link": "https://www.cricinfo.com/series/bangladesh-in-south-africa-2026-27-1525637/south-africa-vs-bangladesh-2nd-test-1525663/ball-by-ball-commentary"
+},
+{
+"title": "Ackerman goes where others fear to tread",
+"source": "Cricbuzz",
+"link": "https://www.cricbuzz.com/cricket-news/141047/ackerman-goes-where-others-fear-to-tread-cricbuzzcom"
+}
+],
+"new": true
+},
+{
+"term": "캐시워크 정답",
+"traffic": "100+",
+"time": "2026-11-25T12:30:00+00:00",
+"news": [
+{
+"title": "[캐시워크 종합] 11월 25일 수요일 오후 2시 현재 출제되고 있는 모든 문제들의 정답은?",
+"source": "비즈월드",
+"link": "https://www.bizwnews.com/news/articleView.html?idxno=153137"
+},
+{
+"title": "픽스 파워소닉 드라이기 캐시워크 돈 버는 퀴즈, 정답은?",
+"source": "아주경제",
+"link": "https://www.ajunews.com/view/20261123062453527"
+}
+],
+"new": true
+},
+{
 "term": "pce 발표",
 "traffic": "100+",
 "time": "2026-11-25T12:20:00+00:00",
@@ -4400,78 +4472,6 @@
 "title": "종영 앞둔 ‘재혼황후’ 신민아·이봉련...황후와 시녀장의 깊은 신뢰",
 "source": "YTN",
 "link": "https://www.ytn.co.kr/_sn/0117_202611241515092481"
-}
-],
-"new": true
-},
-{
-"term": "백화점",
-"traffic": "500+",
-"time": "2026-11-25T11:30:00+00:00",
-"news": [
-{
-"title": "\"판타지 세상 거닐어봐요\"…롯데百, 잠실점서 이색 아트 콘텐츠",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261124157000030"
-},
-{
-"title": "롯데백화점 잠실 에비뉴엘에서 체험형 전시 개최, 추리게임부터 관람객 교류 행사까지",
-"source": "비즈니스포스트",
-"link": "https://www.businesspost.co.kr/BP?command=article_view&num=452873"
-}
-],
-"new": true
-},
-{
-"term": "해군",
-"traffic": "500+",
-"time": "2026-11-25T11:30:00+00:00",
-"news": [
-{
-"title": "한화오션 \"태국 해군 호위함 우선협상대상자 지위 상실\"",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261125179800003"
-},
-{
-"title": "'최대 4조 규모' 태국 호위함 사업 다시 원점 '재입찰', 한화오션-HD현대중공업 재격돌 예고",
-"source": "비즈니스포스트",
-"link": "https://www.businesspost.co.kr/BP?command=article_view&num=452801"
-}
-],
-"new": false
-},
-{
-"term": "강남",
-"traffic": "1000+",
-"time": "2026-11-25T11:20:00+00:00",
-"news": [
-{
-"title": "가수 비, 920억에 강남 빌딩 샀는데 5년 만에 가격이…'깜짝'",
-"source": "한국경제",
-"link": "https://www.hankyung.com/article/202611250217H"
-},
-{
-"title": "김태희·비, 이러니까 부동산 투자하지... 알고보니 ‘1550억’ 빌딩 부자",
-"source": "조선일보",
-"link": "https://www.chosun.com/entertainments/broadcast/2026/11/25/GBQWEZTCHEZWKNBRMFQWMN3BMU/"
-}
-],
-"new": true
-},
-{
-"term": "은퇴 요원 관리팀",
-"traffic": "2000+",
-"time": "2026-11-25T10:50:00+00:00",
-"news": [
-{
-"title": "차승원·김도훈, 브로맨스 꽃피울까?…'은퇴요원+관리팀', 포스터 공개",
-"source": "YTN",
-"link": "https://www.ytn.co.kr/_ln/0117_202611250906393953"
-},
-{
-"title": "전직·좌천 블랙요원의 은밀한 공조… 차승원ⅹ김도훈 ‘은퇴요원+관리팀’, 새해 첫 포문",
-"source": "브릿지경제",
-"link": "https://www.viva100.com/article/20261125500792"
 }
 ],
 "new": true
