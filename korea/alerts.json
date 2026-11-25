@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-25T16:21:39.759119+00:00",
+"updated": "2026-11-25T16:23:55.146435+00:00",
 "errors": [],
 "events": [
 {
@@ -2839,7 +2839,7 @@
 "spike": false
 },
 "화재": {
-"n30": 2,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
@@ -2854,13 +2854,13 @@
 "spike": false
 },
 "폭발": {
-"n30": 6,
+"n30": 5,
 "base": 0.1,
 "spike": true
 },
 "붕괴": {
-"n30": 2,
-"base": 0.7,
+"n30": 1,
+"base": 0.8,
 "spike": false
 },
 "대피": {
@@ -2880,7 +2880,7 @@
 },
 "지하철": {
 "n30": 1,
-"base": 2.0,
+"base": 1.9,
 "spike": false
 },
 "사고": {
@@ -2890,7 +2890,7 @@
 },
 "실종": {
 "n30": 0,
-"base": 0.7,
+"base": 0.6,
 "spike": false
 },
 "단수": {
@@ -3063,16 +3063,6 @@
 "url": "https://www.youtube.com/watch?v=EdmUIKXrQmk"
 },
 {
-"text": "\"1조 달러 AI 거인의 공모가 붕괴 vs 첫날 37.9억 달러 잭팟 GTA VI\"… 같은 날 충돌한 증시와 게이머 지갑\n\n역대 두 번째 규모로 상장한 앤트로픽이 상장 직후 공모가 밑으로 밀려난 반면, 테이크투 인터랙티브 주가는 5% 넘게 뛰며 초반 판정승을 거둔 내막.\nwww.aipostkorea.com/news/article...\n#앤트로픽IPO #GTAVI #테이크투인터랙티브 #락스타게",
-"handle": "aipostkorea.bsky.social",
-"name": "AI포스트(AIPOST) | 인공지능 전문언론",
-"time": "2026-11-25T15:53:08.742Z",
-"likes": 1,
-"reposts": 0,
-"url": "https://bsky.app/profile/aipostkorea.bsky.social/post/3n35jd4vja22c",
-"term": "붕괴"
-},
-{
 "platform": "YouTube",
 "text": "불이 붙고 30초 뒤 | 스테이션 화재 참사",
 "handle": "UC4xH93DvpAskvBRN2U1XW6w",
@@ -3148,17 +3138,17 @@
 "spikes": [
 {
 "term": "폭발",
-"n30": 6,
+"n30": 5,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-25T16:21:39.759119+00:00"
+"since": "2026-11-25T16:23:55.146435+00:00"
 },
 {
 "term": "속보",
 "n30": 5,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-25T16:21:39.759119+00:00"
+"since": "2026-11-25T16:23:55.146435+00:00"
 }
 ],
 "baseline": {
@@ -3167,13 +3157,13 @@
 "불났": 0.05,
 "정전": 0.05,
 "폭발": 0.05,
-"붕괴": 0.77,
-"대피": 0.13,
+"붕괴": 0.69,
+"대피": 0.12,
 "미사일": 0.05,
-"속보": 0.13,
-"지하철": 1.91,
+"속보": 0.12,
+"지하철": 1.82,
 "사고": 1.99,
-"실종": 0.62,
+"실종": 0.56,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -3375,6 +3365,24 @@
 },
 "trends": [
 {
+"term": "qqq",
+"traffic": "200+",
+"time": "2026-11-25T15:20:00+00:00",
+"news": [
+{
+"title": "QQQ traded across nearly $5. Why was Balance of Power near zero? for NASDAQ:QQQ by Investrade",
+"source": "TradingView",
+"link": "https://www.tradingview.com/chart/QQQ/5vID1i4D-QQQ-traded-across-nearly-5-Why-was-Balance-of-Power-near-zero/"
+},
+{
+"title": "US Sector Performance: Technology Leads Broad-Based Momentum Rebound as Nine Sectors Advance",
+"source": "kalkine.com",
+"link": "https://kalkine.com/news/premium/us-sector-performance-technology-leads-broad-based-momentum-rebound-as-nine-sectors-advance"
+}
+],
+"new": true
+},
+{
 "term": "성시경",
 "traffic": "200+",
 "time": "2026-11-25T15:00:00+00:00",
@@ -3521,24 +3529,6 @@
 "title": "김정화, 남편과 뉴욕서 첫 부부싸움…경찰까지 출동했다",
 "source": "뉴시스",
 "link": "https://www.newsis.com/view/NISX20261125_0003882970"
-}
-],
-"new": true
-},
-{
-"term": "추미애",
-"traffic": "500+",
-"time": "2026-11-25T13:30:00+00:00",
-"news": [
-{
-"title": "추미애 \"공직자의 판단 기준은 상부 지시 아닌 헌법\"... 새내기 공무원에 강조",
-"source": "OhmyNews",
-"link": "https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0003288477"
-},
-{
-"title": "추미애 지사, 신규 공직자에게 \"상부 지시에 익숙해질 때면 헌법을 기준 삼으세요\"",
-"source": "아시아경제",
-"link": "https://view.asiae.co.kr/article/2026112517290794068"
 }
 ],
 "new": true
