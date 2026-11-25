@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-25T18:24:38.960593+00:00",
+"updated": "2026-11-25T18:26:53.553626+00:00",
 "errors": [],
 "events": [
 {
@@ -2049,9 +2049,9 @@
 "spike": false
 },
 "폭발": {
-"n30": 5,
+"n30": 4,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "붕괴": {
 "n30": 0,
@@ -2300,15 +2300,7 @@
 "url": "https://www.youtube.com/watch?v=LDV4DKBf2jY"
 }
 ],
-"spikes": [
-{
-"term": "폭발",
-"n30": 5,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-25T18:24:38.960593+00:00"
-}
-],
+"spikes": [],
 "baseline": {
 "지진": 0.05,
 "화재": 0.05,
@@ -2320,7 +2312,7 @@
 "미사일": 0.05,
 "속보": 0.05,
 "지하철": 0.05,
-"사고": 0.45,
+"사고": 0.41,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -2524,18 +2516,18 @@
 "trends": [
 {
 "term": "sabah vs barcelona",
-"traffic": "200+",
+"traffic": "500+",
 "time": "2026-11-25T17:10:00+00:00",
 "news": [
 {
-"title": "Pronóstico Sabah FA vs Barcelona: ¿Continuarán los visitantes con su racha ganadora?",
-"source": "Vietnam.vn",
-"link": "https://www.vietnam.vn/es/nhan-dinh-sabah-fa-vs-barcelona-khach-tiep-tuc-bay-cao"
+"title": "El Barça viaja a los confines de la UEFA para enfrentarse al Sabah en Champions",
+"source": "RFI",
+"link": "https://www.rfi.fr/es/m%C3%A1s-noticias/20261125-el-bar%C3%A7a-viaja-a-los-confines-de-la-uefa-para-enfrentarse-al-sabah-en-champions"
 },
 {
-"title": "De '¿Quién quiere ser millonario?' a enfrentarse al Barça en Champions",
-"source": "MARCA",
-"link": "https://www.marca.com/futbol/champions-league/2026/11/25/quiere-millonario-enfrentarse-barca-champions.html"
+"title": "Joan García salvó al Barcelona de una chance clara del Sabah",
+"source": "Yahoo",
+"link": "https://es-us.noticias.yahoo.com/deportes/joan-garc%C3%ADa-salv%C3%B3-barcelona-chance-180100391.html"
 }
 ],
 "new": true
@@ -2613,6 +2605,24 @@
 "new": true
 },
 {
+"term": "데이비스컵",
+"traffic": "100+",
+"time": "2026-11-25T15:50:00+00:00",
+"news": [
+{
+"title": "랭킹은 숫자일 뿐… ‘이변의 주인공’ 꿈꾸는 韓 테니스",
+"source": "조선일보",
+"link": "https://www.chosun.com/sports/sports_general/2026/11/25/LQJT3FYE55CGFJLZ4UWTZA2C5U/"
+},
+{
+"title": "\"정현 조심하라\" 이탈리아가 콕 찍은 '韓의 복병'... 실제로 기자회견서도 정현에게 질문 쏟아졌다 - 머니투데이",
+"source": "머니투데이",
+"link": "https://www.mt.co.kr/sports/2026/11/24/2026112416181685671"
+}
+],
+"new": true
+},
+{
 "term": "qqq",
 "traffic": "200+",
 "time": "2026-11-25T15:20:00+00:00",
@@ -2680,24 +2690,6 @@
 "title": "성유리, 중학교 성적표 공개…전 과목 '수' 받은 모범생",
 "source": "뉴시스",
 "link": "https://www.newsis.com/view/NISX20261125_0003882889"
-}
-],
-"new": true
-},
-{
-"term": "양준혁",
-"traffic": "100+",
-"time": "2026-11-25T14:40:00+00:00",
-"news": [
-{
-"title": "이벤트 원조 ‘자선야구대회’ 왜 멈춰섰나",
-"source": "미주중앙일보",
-"link": "https://www.koreadaily.com/article/20261125070147086"
-},
-{
-"title": "양준혁, 자선야구대회 취소 입장문…“준비 부족해”",
-"source": "헤럴드경제",
-"link": "https://biz.heraldcorp.com/article/10948394"
 }
 ],
 "new": true
