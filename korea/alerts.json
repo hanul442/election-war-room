@@ -1,7 +1,37 @@
 {
-"updated": "2026-11-25T12:52:19.644703+00:00",
+"updated": "2026-11-25T12:54:35.312211+00:00",
 "errors": [],
 "events": [
+{
+"id": "Q5UmN1RlpERUtpRi10dkEoc51243",
+"first": "2026-11-25T12:43:21+00:00",
+"last": "2026-11-25T12:43:21+00:00",
+"updated": "2026-11-25T12:54:35.312211+00:00",
+"headline": "제39대 세종총학에 선본 ‘FLOW’ 당선",
+"cat": "기타",
+"regions": [],
+"sources": [
+"고대신문"
+],
+"updates": [
+{
+"title": "[속보] 제39대 세종총학에 선본 ‘FLOW’ 당선",
+"source": "고대신문",
+"link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9CWklIR3BUS3dnVXhHQWVjQjVLYWpFZzNUcGpWbnUxeHlzVFRRMXltczB2a1pJa1RZOXdCWTdVVWxvN1B6bWVVTm1nOFo2U1o3SVZadWF0RXBwRkQ5UmN1RlpERUtpRi10dkE?oc=5",
+"time": "2026-11-25T12:43:21+00:00",
+"stage": "얼럿"
+}
+],
+"level": "URGENT",
+"latest": "제39대 세종총학에 선본 ‘FLOW’ 당선",
+"tok": [
+"FLOW",
+"당선",
+"선본",
+"세종총학",
+"제39대"
+]
+},
 {
 "id": "3UG1GX0pfWno5T0FUR2p3oc51232",
 "first": "2026-11-25T12:32:48+00:00",
@@ -3698,48 +3728,13 @@
 "지급",
 "편성"
 ]
-},
-{
-"id": "ZBUXFjeV9wUnR6dHFmNVEoc50805",
-"first": "2026-11-25T08:05:16+00:00",
-"last": "2026-11-25T08:05:16+00:00",
-"updated": "2026-11-25T08:17:38.411121+00:00",
-"headline": "중앙고속도로 승합차 사고처리중",
-"cat": "교통",
-"regions": [],
-"sources": [
-"스페셜타임스"
-],
-"updates": [
-{
-"title": "[속보] 중앙고속도로 승합차 사고처리중",
-"source": "스페셜타임스",
-"link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1PZTNyckxpSXNUM0VWenFtOXBnSEMzSnN1V0Joa2JPbWV3VEJRM2RXRVRPLTdiUzRDV2ZQMTlGR2RKa0RMR2NBWlFhc0x3aGF5UWVLQXJXTy1QdW9od2M4dWMtMEZBUXFjeV9wUnR6dHFmNVE?oc=5",
-"time": "2026-11-25T08:05:16+00:00",
-"stage": "얼럿"
-},
-{
-"title": "[속보] 중앙고속도로 승합차 사고처리중",
-"source": "스페셜타임스",
-"link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5oeHI3M0l1UmFHVlJfZkw1dlZtc1MxUW50VjR0YkVPeTl5S0lKeHRCOTV4Q0xuSkNOUHk1N3BZa2hZWDdRME5Hak5aWXpXMHpDOTU3eDl3V2hhd2RNRXpySXZiQVJBdF92dzVPTUZ2QVhDUQ?oc=5",
-"time": "2026-11-25T08:05:16+00:00",
-"stage": "속보"
-}
-],
-"level": "URGENT",
-"latest": "중앙고속도로 승합차 사고처리중",
-"tok": [
-"사고처리중",
-"승합차",
-"중앙고속도"
-]
 }
 ],
 "sns": {
 "terms": {
 "지진": {
-"n30": 1,
-"base": 0.7,
+"n30": 0,
+"base": 0.8,
 "spike": false
 },
 "화재": {
@@ -3758,9 +3753,9 @@
 "spike": false
 },
 "폭발": {
-"n30": 9,
-"base": 2.2,
-"spike": true
+"n30": 5,
+"base": 2.3,
+"spike": false
 },
 "붕괴": {
 "n30": 5,
@@ -3778,18 +3773,18 @@
 "spike": false
 },
 "속보": {
-"n30": 7,
-"base": 0.9,
+"n30": 6,
+"base": 0.8,
 "spike": true
 },
 "지하철": {
 "n30": 2,
-"base": 0.6,
+"base": 0.7,
 "spike": false
 },
 "사고": {
 "n30": 4,
-"base": 3.5,
+"base": 3.6,
 "spike": false
 },
 "실종": {
@@ -3799,7 +3794,7 @@
 },
 "단수": {
 "n30": 0,
-"base": 0.3,
+"base": 0.2,
 "spike": false
 },
 "통신 장애": {
@@ -3808,7 +3803,7 @@
 "spike": false
 },
 "먹통": {
-"n30": 0,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
@@ -3819,6 +3814,16 @@
 }
 },
 "posts": [
+{
+"text": "dgkim은, 오늘 아침에 실험하던게, hdmi capture usb로 서울방송을 ubuntu에서 vlc로 보는데, bluetooth speaker에 재생을 하면, 수십초~몇분내에 소리가 버벅버벅 거리다가, 심지어 먹통까지 가는 증상이 있어서,\n\nvlc command로 achan 1, achan 7을 순환시키는 걸 shell script로 반복시키까 고민하지..\n\n더 근본적인 해결책을 알면 ",
+"handle": "deokgonkimdgkim.bsky.social",
+"name": "Deokgon Kim",
+"time": "2026-11-25T12:52:38.252Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/deokgonkimdgkim.bsky.social/post/3n357anivns2f",
+"term": "먹통"
+},
 {
 "text": "생존을 위해 도라지생강청 스틱 사고 온열 데스크 매트 파티션 난로 사기",
 "handle": "seongbaek.bsky.social",
@@ -4085,77 +4090,40 @@
 "time": "2026-11-25T12:24:02Z",
 "term": "속보",
 "url": "https://www.youtube.com/watch?v=KHlK3iIPsEg"
-},
-{
-"text": "우린 우리의 길을 가련다🤣\n야함 대폭발 하고싶다~",
-"handle": "rexfanny0223.bsky.social",
-"name": "렉스앤파니",
-"time": "2026-11-25T12:23:57.747Z",
-"likes": 1,
-"reposts": 0,
-"url": "https://bsky.app/profile/rexfanny0223.bsky.social/post/3n355nep62s2x",
-"term": "폭발"
-},
-{
-"text": "아왜이렇게자증이나지진자 ㅋㅋㅋㅋㅋㅋㅋㅋ",
-"handle": "hoschief.bsky.social",
-"name": "🕳️",
-"time": "2026-11-25T12:22:47.752Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/hoschief.bsky.social/post/3n355lbz6xc2h",
-"term": "지진"
-},
-{
-"text": "엥\n폭발이라기에는 피해자가 쓰러진 방향이랑 문에 남은 탄흔이 안 맞지 않아?",
-"handle": "gudockbb.bsky.social",
-"name": "구독",
-"time": "2026-11-25T12:22:46.654Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/gudockbb.bsky.social/post/3n355kp3cbs2u",
-"term": "폭발"
 }
 ],
 "spikes": [
-{
-"term": "폭발",
-"n30": 9,
-"base": 2.2,
-"spike": true,
-"since": "2026-11-25T12:52:19.644703+00:00"
-},
 {
 "term": "붕괴",
 "n30": 5,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-25T12:52:19.644703+00:00"
+"since": "2026-11-25T12:54:35.312211+00:00"
 },
 {
 "term": "속보",
-"n30": 7,
-"base": 0.9,
+"n30": 6,
+"base": 0.8,
 "spike": true,
-"since": "2026-11-25T12:52:19.644703+00:00"
+"since": "2026-11-25T12:54:35.312211+00:00"
 }
 ],
 "baseline": {
-"지진": 0.77,
+"지진": 0.69,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 2.32,
+"폭발": 2.19,
 "붕괴": 0.05,
-"대피": 0.12,
+"대피": 0.11,
 "미사일": 0.05,
-"속보": 0.79,
-"지하철": 0.65,
-"사고": 3.59,
-"실종": 0.07,
-"단수": 0.24,
+"속보": 0.71,
+"지하철": 0.69,
+"사고": 3.63,
+"실종": 0.06,
+"단수": 0.22,
 "통신 장애": 0.05,
-"먹통": 0.05,
+"먹통": 0.15,
 "산불": 0.05
 },
 "errors": [],
@@ -4372,6 +4340,31 @@
 },
 "trends": [
 {
+"term": "난방",
+"traffic": "500+",
+"time": "2026-11-25T11:50:00+00:00",
+"news": [
+{
+"title": "[쏙쏙뉴스] 난방비 폭탄 맞을라, 은퇴 부부는 11월부터 대비합니다",
+"source": "OhmyNews",
+"link": "https://www.ohmynews.com/NWS_Web/View/mov_pg.aspx?CNTN_CD=ME000116758"
+},
+{
+"title": "\"보일러 적정온도는 '이 온도'로 맞추세요\"... 겨울철 난방비 줄이는 비결입니다",
+"source": "아던트뉴스",
+"link": "https://www.ardentnews.co.kr/news/articleView.html?idxno=22022"
+}
+],
+"new": true
+},
+{
+"term": "조이현",
+"traffic": "100+",
+"time": "2026-11-25T11:50:00+00:00",
+"news": [],
+"new": true
+},
+{
 "term": "persib bandung vs fc seoul",
 "traffic": "200+",
 "time": "2026-11-25T11:40:00+00:00",
@@ -4380,7 +4373,7 @@
 },
 {
 "term": "재혼황후",
-"traffic": "200+",
+"traffic": "500+",
 "time": "2026-11-25T11:40:00+00:00",
 "news": [
 {
@@ -4434,7 +4427,7 @@
 },
 {
 "term": "강남",
-"traffic": "200+",
+"traffic": "500+",
 "time": "2026-11-25T11:20:00+00:00",
 "news": [
 {
@@ -4503,42 +4496,6 @@
 }
 ],
 "new": true
-},
-{
-"term": "청룡영화상",
-"traffic": "1000+",
-"time": "2026-11-25T10:40:00+00:00",
-"news": [
-{
-"title": "'왕사남' 박지훈, 청룡영화상 신인남우상 수상",
-"source": "뉴시스",
-"link": "https://www.newsis.com/view/NISX20261125_0003883514"
-},
-{
-"title": "신인여우상 서수빈, 정호연·장다아 제쳤다 \"세계의 주인의 '주인'\"('청룡영화상')",
-"source": "조선일보",
-"link": "https://www.chosun.com/entertainments/movie/2026/11/25/G43TSYZRMU3GIMTDGVSTGYRQGQ/"
-}
-],
-"new": true
-},
-{
-"term": "페이즈",
-"traffic": "200+",
-"time": "2026-11-25T10:40:00+00:00",
-"news": [
-{
-"title": "‘판독 논란’ OK저축은행, KOVO에 ‘사후 판독’ 요청…KOVO “정독”",
-"source": "KBS 뉴스",
-"link": "https://news.kbs.co.kr/news/view.do?ncd=8722248"
-},
-{
-"title": "케트진스키의 강력한 스파이크",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/PYH20261124187100051"
-}
-],
-"new": false
 }
 ],
 "trendSeen": [
