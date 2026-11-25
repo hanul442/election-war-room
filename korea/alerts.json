@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-25T16:46:21.958682+00:00",
+"updated": "2026-11-25T16:48:35.927551+00:00",
 "errors": [],
 "events": [
 {
@@ -2654,13 +2654,13 @@
 "spike": false
 },
 "폭발": {
-"n30": 4,
+"n30": 5,
 "base": 0.1,
-"spike": false
+"spike": true
 },
 "붕괴": {
 "n30": 2,
-"base": 0.5,
+"base": 0.6,
 "spike": false
 },
 "대피": {
@@ -2674,13 +2674,13 @@
 "spike": false
 },
 "속보": {
-"n30": 3,
+"n30": 2,
 "base": 0.1,
 "spike": false
 },
 "지하철": {
 "n30": 0,
-"base": 0.8,
+"base": 0.7,
 "spike": false
 },
 "사고": {
@@ -2715,6 +2715,16 @@
 }
 },
 "posts": [
+{
+"text": "갑자기 생각나거 루카스 그레이엄꺼 7years 뮤비 보는데 아 역시 저 딱 공책 떨어지고 나서 뒤로 폭발 펑 하는데 팔 저렇게 하는거 와 진짜 너무 뻔한데 그게 너무 좋아 ㅅㅂ\n저 부분은 저 장면을 보면서 같이 들어야 희열이 느껴진다",
+"handle": "niteo.bsky.social",
+"name": "Niteo*COMMS OPEN",
+"time": "2026-11-25T16:47:41.049Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/niteo.bsky.social/post/3n35mevelw22g",
+"term": "폭발"
+},
 {
 "text": "아주 그냥 효모라서 귀찮아 미루던 대청소를 하게 만드는구나... 얌전하게 사고를 쳐... 승질난리 안치고 1일차에  알아서 집으로 들어간건 대견하다만...",
 "handle": "b1ue1ine.bsky.social",
@@ -2786,7 +2796,7 @@
 "handle": "blm-myhome.bsky.social",
 "name": "전국 흑마도사 내 집 찾기 운동본부",
 "time": "2026-11-25T16:29:35.342Z",
-"likes": 0,
+"likes": 1,
 "reposts": 0,
 "url": "https://bsky.app/profile/blm-myhome.bsky.social/post/3n35lekmvp2mt",
 "term": "지진"
@@ -2936,20 +2946,28 @@
 "url": "https://www.youtube.com/watch?v=uetnz0ezhYE"
 }
 ],
-"spikes": [],
+"spikes": [
+{
+"term": "폭발",
+"n30": 5,
+"base": 0.1,
+"spike": true,
+"since": "2026-11-25T16:48:35.927551+00:00"
+}
+],
 "baseline": {
-"지진": 0.6,
+"지진": 0.64,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.05,
-"붕괴": 0.59,
+"폭발": 0.15,
+"붕괴": 0.63,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.72,
-"사고": 2.23,
-"실종": 0.2,
+"지하철": 0.65,
+"사고": 2.21,
+"실종": 0.18,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
