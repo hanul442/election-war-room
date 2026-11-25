@@ -1,7 +1,43 @@
 {
-"updated": "2026-11-25T04:54:37.213518+00:00",
+"updated": "2026-11-25T04:56:54.495160+00:00",
 "errors": [],
 "events": [
+{
+"id": "wNISX20261125_00038826030455",
+"first": "2026-11-25T04:55:43+00:00",
+"last": "2026-11-25T04:55:43+00:00",
+"updated": "2026-11-25T04:56:54.495160+00:00",
+"headline": "횡성군, 취약가구 겨울 안전 챙긴다…화재 예방·한파 돌봄",
+"cat": "재난",
+"regions": [
+"강원"
+],
+"sources": [
+"뉴시스"
+],
+"updates": [
+{
+"title": "횡성군, 취약가구 겨울 안전 챙긴다…화재 예방·한파 돌봄",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261125_0003882603",
+"time": "2026-11-25T04:55:43+00:00",
+"stage": "1보"
+}
+],
+"level": "ALERT",
+"latest": "횡성군, 취약가구 겨울 안전 챙긴다…화재 예방·한파 돌봄",
+"tok": [
+"겨울",
+"돌봄",
+"안전",
+"예방",
+"챙긴다",
+"취약가구",
+"한파",
+"화재",
+"횡성군"
+]
+},
 {
 "id": "iV2xDMkh3cF9hYmdjbm5Moc50210",
 "first": "2026-11-25T02:10:41+00:00",
@@ -4137,66 +4173,6 @@
 "재난",
 "전수점검"
 ]
-},
-{
-"id": "fRnc2ZkhPMl9qYW9pZGh3oc52314",
-"first": "2026-11-24T23:14:08+00:00",
-"last": "2026-11-25T01:27:13+00:00",
-"updated": "2026-11-25T01:30:16.164124+00:00",
-"headline": "한동훈 “조희대 탄핵 ‘100%’라는 서영교, 의원직 걸라”",
-"cat": "정치",
-"regions": [],
-"sources": [
-"경기일보",
-"뉴시스",
-"문화일보",
-"조선일보"
-],
-"updates": [
-{
-"title": "[속보]한동훈 “조희대 탄핵 ‘100%’라는 서영교, 의원직 걸라”",
-"source": "문화일보",
-"link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE44aXBtOHg1VE1GYWIwd0s1U2dIVFh4cWpteVVpUW9FQmhLcDBIQ29CbER6Mkw2bzRvUFFua0FHSnVfRnc2ZkhPMl9qYW9pZGh3?oc=5",
-"time": "2026-11-24T23:14:08+00:00",
-"stage": "얼럿"
-},
-{
-"title": "한동훈 “조희대 탄핵, 인용되면 의원직 사퇴...與 서영교·박선원도 직 걸어라\"",
-"source": "조선일보",
-"link": "https://www.chosun.com/politics/assembly/2026/11/25/5UZFQACYLVAPBMNDO6V7SQS5Y4/",
-"time": "2026-11-25T00:43:38+00:00",
-"stage": "후속"
-},
-{
-"title": "한동훈 \"조희대 탄핵 인용되면 의원직 사퇴…서영교·박선원도 의원직 걸어라\"",
-"source": "뉴시스",
-"link": "https://www.newsis.com/view/NISX20261125_0003882273",
-"time": "2026-11-25T01:00:41+00:00",
-"stage": "후속"
-},
-{
-"title": "[속보] 한동훈 “조희대 탄핵 ‘100%’라는 서영교, 의원직 걸어라”",
-"source": "경기일보",
-"link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB4MzFjWXI0b0hRekhEUW5CTmhNcllPa29nR29NNWx2d20zb1phdzNXbGpXOV9nNTZxaDlwT0Z0aFlGY1d3ZVNQVkVwbXBxS3V4VE5WVVo4LWpUTFk?oc=5",
-"time": "2026-11-25T01:27:13+00:00",
-"stage": "속보"
-}
-],
-"level": "BULLETIN",
-"latest": "한동훈 “조희대 탄핵 ‘100%’라는 서영교, 의원직 걸어라”",
-"tok": [
-"걸라",
-"걸어라",
-"라는",
-"박선원",
-"사퇴",
-"서영교",
-"의원직",
-"인용되면",
-"조희대",
-"탄핵",
-"한동훈"
-]
 }
 ],
 "sns": {
@@ -4222,12 +4198,12 @@
 "spike": false
 },
 "폭발": {
-"n30": 5,
+"n30": 3,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "붕괴": {
-"n30": 1,
+"n30": 0,
 "base": 1.0,
 "spike": false
 },
@@ -4242,18 +4218,18 @@
 "spike": false
 },
 "속보": {
-"n30": 7,
+"n30": 6,
 "base": 0.1,
 "spike": true
 },
 "지하철": {
-"n30": 1,
+"n30": 2,
 "base": 0.4,
 "spike": false
 },
 "사고": {
 "n30": 1,
-"base": 1.7,
+"base": 1.5,
 "spike": false
 },
 "실종": {
@@ -4283,6 +4259,16 @@
 }
 },
 "posts": [
+{
+"text": "너무배고파서지하철의자뜯어먹음",
+"handle": "asagirigenhatsukoi.bsky.social",
+"name": "나는귀여운것이에요",
+"time": "2026-11-25T04:54:43.142Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/asagirigenhatsukoi.bsky.social/post/3n34ejygofc2g",
+"term": "지하철"
+},
 {
 "platform": "YouTube",
 "text": "비주얼 폭발하는 용산 아이파크몰 과일 크림 찹쌀떡 🍓 #shorts #mochi #dessert",
@@ -4402,16 +4388,6 @@
 "url": "https://www.youtube.com/watch?v=wwbM9LG9gTo"
 },
 {
-"text": "리) 적어도 문명 붕괴는 있긴 해야..하니까 갑자기 누군가에게는 몰락한 로마제국 소도시가 던전일 수도 있었겠군.\n...",
-"handle": "caelumcorvus.bsky.social",
-"name": "까막까막",
-"time": "2026-11-25T04:25:55.344Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/caelumcorvus.bsky.social/post/3n34cwkap3c2j",
-"term": "붕괴"
-},
-{
 "platform": "YouTube",
 "text": "긴급속보 매장정리 #세일 #최고급 #핸드백 #925은 #은쥬얼리 #은목걸이 #은팔찌 #은반지 #원피스 #여름신상 #여성의류 #만원의행복 #인터넷쇼핑몰 #fashion #웃기는동영상",
 "handle": "UCNi2r8Jvj_3P78rkvt8cp2A",
@@ -4495,32 +4471,25 @@
 ],
 "spikes": [
 {
-"term": "폭발",
-"n30": 5,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-25T04:54:37.213518+00:00"
-},
-{
 "term": "속보",
-"n30": 7,
+"n30": 6,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-25T04:54:37.213518+00:00"
+"since": "2026-11-25T04:56:54.495160+00:00"
 }
 ],
 "baseline": {
-"지진": 1.19,
+"지진": 1.17,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
 "폭발": 0.05,
-"붕괴": 1.04,
+"붕괴": 0.94,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.38,
-"사고": 1.49,
+"지하철": 0.44,
+"사고": 1.34,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
