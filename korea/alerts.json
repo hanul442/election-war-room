@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-25T23:23:55.408899+00:00",
+"updated": "2026-11-25T23:26:23.831448+00:00",
 "errors": [],
 "events": [
 {
@@ -2973,7 +2973,7 @@
 },
 "사고": {
 "n30": 1,
-"base": 0.6,
+"base": 0.7,
 "spike": false
 },
 "실종": {
@@ -3218,14 +3218,14 @@
 "n30": 6,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-25T23:23:55.408899+00:00"
+"since": "2026-11-25T23:26:23.831448+00:00"
 },
 {
 "term": "속보",
 "n30": 7,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-25T23:23:55.408899+00:00"
+"since": "2026-11-25T23:26:23.831448+00:00"
 }
 ],
 "baseline": {
@@ -3239,7 +3239,7 @@
 "미사일": 0.05,
 "속보": 0.05,
 "지하철": 0.05,
-"사고": 0.68,
+"사고": 0.71,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -3469,6 +3469,24 @@
 "new": true
 },
 {
+"term": "금융감독원",
+"traffic": "100+",
+"time": "2026-11-25T22:20:00+00:00",
+"news": [
+{
+"title": "[금주의인물] ‘닮고 싶은 상사?’ 이찬진 금융감독원장…‘李대통령 변호인’ 꼬리표 떼나",
+"source": "주간한국",
+"link": "https://weekly.hankooki.com/news/articleView.html?idxno=7194930"
+},
+{
+"title": "이찬진, 금감원 직원 '닮고 싶은 상사'로 뽑혀…총 19명 선정",
+"source": "파이낸셜뉴스",
+"link": "https://www.fnnews.com/news/202611191800013352"
+}
+],
+"new": true
+},
+{
 "term": "필라데피아 대 마이애미",
 "traffic": "500+",
 "time": "2026-11-25T22:10:00+00:00",
@@ -3528,14 +3546,14 @@
 "time": "2026-11-25T22:10:00+00:00",
 "news": [
 {
-"title": "IonQ Stock: A Long-Term Quantum Bet With Near-Term Risks",
-"source": "Clearance Jobs",
-"link": "https://news.clearancejobs.com/2026/11/25/ionq-stock-a-long-term-quantum-bet-with-near-term-risks/"
-},
-{
 "title": "Ionq stock hits 52-week low at 20.51 USD",
 "source": "Investing.com",
 "link": "https://www.investing.com/news/company-news/ionq-stock-hits-52week-low-at-2051-usd-93CH-5051051"
+},
+{
+"title": "IonQ (NYSE:IONQ) Shares Down 3.8% - What's Next?",
+"source": "MarketBeat",
+"link": "https://www.marketbeat.com/instant-alerts/price-ionq-nyse-ionq-shares-down-38-whats-next-2026-11-24/"
 }
 ],
 "new": true
@@ -3611,24 +3629,6 @@
 }
 ],
 "new": true
-},
-{
-"term": "한국대학신문",
-"traffic": "200+",
-"time": "2026-11-25T21:40:00+00:00",
-"news": [
-{
-"title": "최교진 사퇴에 교원단체들 “수능 AI 부정 대비 부족…리더십 한계”",
-"source": "KBS 뉴스",
-"link": "https://news.kbs.co.kr/news/view.do?ncd=8719643"
-},
-{
-"title": "[이수정칼럼] 장관 사직으로 해결될 수 없다",
-"source": "중부일보",
-"link": "https://www.joongboo.com/news/articleView.html?idxno=363743535"
-}
-],
-"new": false
 }
 ],
 "trendSeen": [
