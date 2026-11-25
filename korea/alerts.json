@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-25T15:52:03.506787+00:00",
+"updated": "2026-11-25T15:54:18.510624+00:00",
 "errors": [],
 "events": [
 {
@@ -3407,18 +3407,18 @@
 "spike": false
 },
 "폭발": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
 "붕괴": {
-"n30": 0,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
 "대피": {
 "n30": 0,
-"base": 0.6,
+"base": 0.5,
 "spike": false
 },
 "미사일": {
@@ -3428,12 +3428,12 @@
 },
 "속보": {
 "n30": 0,
-"base": 0.6,
+"base": 0.5,
 "spike": false
 },
 "지하철": {
 "n30": 2,
-"base": 0.3,
+"base": 0.5,
 "spike": false
 },
 "사고": {
@@ -3443,7 +3443,7 @@
 },
 "실종": {
 "n30": 1,
-"base": 0.1,
+"base": 0.2,
 "spike": false
 },
 "단수": {
@@ -3468,6 +3468,16 @@
 }
 },
 "posts": [
+{
+"text": "\"1조 달러 AI 거인의 공모가 붕괴 vs 첫날 37.9억 달러 잭팟 GTA VI\"… 같은 날 충돌한 증시와 게이머 지갑\n\n역대 두 번째 규모로 상장한 앤트로픽이 상장 직후 공모가 밑으로 밀려난 반면, 테이크투 인터랙티브 주가는 5% 넘게 뛰며 초반 판정승을 거둔 내막.\nwww.aipostkorea.com/news/article...\n#앤트로픽IPO #GTAVI #테이크투인터랙티브 #락스타게",
+"handle": "aipostkorea.bsky.social",
+"name": "AI포스트(AIPOST) | 인공지능 전문언론",
+"time": "2026-11-25T15:53:08.742Z",
+"likes": 1,
+"reposts": 0,
+"url": "https://bsky.app/profile/aipostkorea.bsky.social/post/3n35jd4vja22c",
+"term": "붕괴"
+},
 {
 "text": "아니에요, 두분이나 찾았는데 오늘 만날 인연이 아니었던거죠 뭐…\n\n지난번에 지하철도 놓치긴 했는데 천호도 가까우니까 계속 노려볼게요.. \n\n1대 1 단독으로 유진님 만나서 해보고 싶었던거 다 해보는 그날까지 \n\n일탈 자주 해줘요 유진님만 기다리니까",
 "handle": "dallasbasketball.bsky.social",
@@ -3707,13 +3717,13 @@
 "불났": 0.05,
 "정전": 0.05,
 "폭발": 0.05,
-"붕괴": 0.05,
-"대피": 0.5,
+"붕괴": 0.15,
+"대피": 0.45,
 "미사일": 0.05,
-"속보": 0.5,
-"지하철": 0.52,
-"사고": 2.78,
-"실종": 0.24,
+"속보": 0.45,
+"지하철": 0.67,
+"사고": 2.8,
+"실종": 0.32,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -3897,8 +3907,26 @@
 },
 "trends": [
 {
+"term": "시그널",
+"traffic": "1000+",
+"time": "2026-11-25T14:50:00+00:00",
+"news": [
+{
+"title": "“소년범이 TV에 나와도 되나요?”…‘시그널2’ 첫 티저에 싸늘한 반응",
+"source": "스포츠경향",
+"link": "https://sports.khan.co.kr/article/202611240740003"
+},
+{
+"title": "김은희 작가의 '시그널2', 조진웅 복귀 무대 되나",
+"source": "YTN",
+"link": "https://www.ytn.co.kr/_ln/0117_202611240841278214"
+}
+],
+"new": true
+},
+{
 "term": "성유리",
-"traffic": "500+",
+"traffic": "1000+",
 "time": "2026-11-25T14:40:00+00:00",
 "news": [
 {
@@ -3916,7 +3944,7 @@
 },
 {
 "term": "공포탐욕지수",
-"traffic": "100+",
+"traffic": "200+",
 "time": "2026-11-25T14:40:00+00:00",
 "news": [
 {
@@ -3959,7 +3987,7 @@
 },
 {
 "term": "금연",
-"traffic": "100+",
+"traffic": "200+",
 "time": "2026-11-25T13:40:00+00:00",
 "news": [
 {
@@ -4043,24 +4071,6 @@
 "title": "The Cong team was eliminated early in the Asian Cup.",
 "source": "Vietnam.vn",
 "link": "https://www.vietnam.vn/en/the-cong-bi-loai-som-o-cup-chau-a"
-}
-],
-"new": true
-},
-{
-"term": "일조권",
-"traffic": "200+",
-"time": "2026-11-25T12:50:00+00:00",
-"news": [
-{
-"title": "[단독] 한강 품고 햇볕 놓친 압구정 … 분양가 또 다른 변수된 '일조권'",
-"source": "매일경제",
-"link": "https://www.mk.co.kr/news/realestate/12218429"
-},
-{
-"title": "한강뷰의 그늘 … 압구정 재건축 절반 일조량 부족",
-"source": "매일경제",
-"link": "https://www.mk.co.kr/news/realestate/12218455"
 }
 ],
 "new": true
