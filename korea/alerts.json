@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-26T10:57:44.561252+00:00",
+"updated": "2026-11-26T11:00:05.691991+00:00",
 "errors": [],
 "events": [
 {
@@ -4215,13 +4215,13 @@
 "sns": {
 "terms": {
 "지진": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
 "화재": {
 "n30": 1,
-"base": 0.3,
+"base": 0.2,
 "spike": false
 },
 "불났": {
@@ -4235,13 +4235,13 @@
 "spike": false
 },
 "폭발": {
-"n30": 4,
+"n30": 3,
 "base": 0.1,
 "spike": false
 },
 "붕괴": {
-"n30": 2,
-"base": 1.2,
+"n30": 3,
+"base": 1.3,
 "spike": false
 },
 "대피": {
@@ -4251,22 +4251,22 @@
 },
 "미사일": {
 "n30": 0,
-"base": 0.6,
+"base": 0.5,
 "spike": false
 },
 "속보": {
-"n30": 6,
-"base": 0.3,
+"n30": 5,
+"base": 0.4,
 "spike": true
 },
 "지하철": {
 "n30": 1,
-"base": 0.5,
+"base": 0.4,
 "spike": false
 },
 "사고": {
-"n30": 7,
-"base": 4.1,
+"n30": 5,
+"base": 4.4,
 "spike": false
 },
 "실종": {
@@ -4296,6 +4296,16 @@
 }
 },
 "posts": [
+{
+"text": "아니 보이스 메인스만 받아놓고 다른 거 안 받아두다가 이번에 받았는데... 이 부분 듣고 붕괴됐어",
+"handle": "bluemucha.bsky.social",
+"name": "뭄챠",
+"time": "2026-11-26T10:59:20.244Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/bluemucha.bsky.social/post/3n37jew6dus2i",
+"term": "붕괴"
+},
 {
 "text": "이놈의 아깽이는 좀 쉴만하면 사고를 쳐... 아니 또 화장실에 안싸고 왜 발매트에 싸니....... 내가 내일 진짜 작은방 물건 먼저 빼버릴테다. 작은방에서 활보치게 해야지... 온 물건에 다 지리것서...",
 "handle": "b1ue1ine.bsky.social",
@@ -4541,26 +4551,26 @@
 "spikes": [
 {
 "term": "속보",
-"n30": 6,
-"base": 0.3,
+"n30": 5,
+"base": 0.4,
 "spike": true,
-"since": "2026-11-26T10:57:44.561252+00:00"
+"since": "2026-11-26T11:00:05.691991+00:00"
 }
 ],
 "baseline": {
 "지진": 0.05,
-"화재": 0.24,
+"화재": 0.22,
 "불났": 0.05,
 "정전": 0.05,
 "폭발": 0.05,
-"붕괴": 1.32,
+"붕괴": 1.49,
 "대피": 0.05,
-"미사일": 0.54,
-"속보": 0.39,
-"지하철": 0.41,
-"사고": 4.36,
+"미사일": 0.49,
+"속보": 0.45,
+"지하철": 0.37,
+"사고": 4.42,
 "실종": 0.05,
-"단수": 0.12,
+"단수": 0.11,
 "통신 장애": 0.05,
 "먹통": 0.05,
 "산불": 0.05
@@ -4748,14 +4758,14 @@
 "time": "2026-11-26T09:50:00+00:00",
 "news": [
 {
-"title": "India A vs Sri Lanka A ACC Men's Asia Cup Rising Stars live score, toss winner, winning probability, result and highlights from Doha",
-"source": "Yahoo Sports",
-"link": "https://sports.yahoo.com/cricket/articles/india-vs-sri-lanka-acc-070001370.html"
+"title": "India A Open Strongly Against Sri Lanka A in Asia Cup Semifinal",
+"source": "cwibc.co.id",
+"link": "https://cwibc.co.id/en/india-a-sri-lanka-semifinal-start"
 },
 {
-"title": "Vaibhav Sooryavanshi Looks To Maintain Form As IND A Face SL A In Rising Stars Asia Cup 2026 Semi Final",
-"source": "Sportscape Magazine",
-"link": "https://www.sportscapemagazine.com/blog/vaibhav-sooryavanshi-looks-to-maintain-form-as-ind-a-face-sl-a-in-rising-stars-asia-cup-2026-semi-final"
+"title": "Sony Sports Network, Sony LIV to air India A vs Sri Lanka A semi-final",
+"source": "MediaBrief",
+"link": "https://mediabrief.com/sony-sports-network-sony-liv-to-air-india-a-vs-sri-lanka-a-semi-final/"
 }
 ],
 "new": true
