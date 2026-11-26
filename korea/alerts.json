@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-26T17:59:40.870094+00:00",
+"updated": "2026-11-26T18:01:58.731759+00:00",
 "errors": [],
 "events": [
 {
@@ -2743,73 +2743,6 @@
 "헌재",
 "현행법"
 ]
-},
-{
-"id": "ssutm_campaigntotal_news1201",
-"first": "2026-11-26T12:01:01+00:00",
-"last": "2026-11-26T12:01:01+00:00",
-"updated": "2026-11-26T12:09:00.254727+00:00",
-"headline": "대설 재난문자는 ‘전국’…한파 영향예보 ‘이틀 전’에",
-"cat": "재난",
-"regions": [],
-"sources": [
-"경향신문"
-],
-"updates": [
-{
-"title": "대설 재난문자는 ‘전국’…한파 영향예보 ‘이틀 전’에",
-"source": "경향신문",
-"link": "https://www.khan.co.kr/article/202611262101015/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
-"time": "2026-11-26T12:01:01+00:00",
-"stage": "1보"
-}
-],
-"level": "ALERT",
-"latest": "대설 재난문자는 ‘전국’…한파 영향예보 ‘이틀 전’에",
-"tok": [
-"대설",
-"영향예보",
-"이틀",
-"재난문자",
-"전국",
-"한파"
-]
-},
-{
-"id": "ZSC2KIG5GLLJIMXSF3PHDS5A1200",
-"first": "2026-11-26T12:00:00+00:00",
-"last": "2026-11-26T12:00:00+00:00",
-"updated": "2026-11-26T12:02:08.939192+00:00",
-"headline": "서울대, 수시 면접서 AI 부정행위 전담 ‘스마트 감독관’ 배치",
-"cat": "기타",
-"regions": [
-"서울"
-],
-"sources": [
-"조선일보"
-],
-"updates": [
-{
-"title": "[단독] 서울대, 수시 면접서 AI 부정행위 전담 ‘스마트 감독관’ 배치",
-"source": "조선일보",
-"link": "https://www.chosun.com/national/national_general/2026/11/26/OFZSC2KIG5GLLJIMXSF3PHDS5A/",
-"time": "2026-11-26T12:00:00+00:00",
-"stage": "단독"
-}
-],
-"level": "URGENT",
-"latest": "서울대, 수시 면접서 AI 부정행위 전담 ‘스마트 감독관’ 배치",
-"tok": [
-"AI",
-"감독관",
-"면접서",
-"배치",
-"부정행위",
-"서울대",
-"수시",
-"스마트",
-"전담"
-]
 }
 ],
 "sns": {
@@ -2830,7 +2763,7 @@
 "spike": false
 },
 "정전": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -2855,9 +2788,9 @@
 "spike": false
 },
 "속보": {
-"n30": 5,
-"base": 0.4,
-"spike": true
+"n30": 3,
+"base": 0.3,
+"spike": false
 },
 "지하철": {
 "n30": 1,
@@ -3095,27 +3028,19 @@
 "url": "https://www.youtube.com/watch?v=TdjShXdkwPc"
 }
 ],
-"spikes": [
-{
-"term": "속보",
-"n30": 5,
-"base": 0.4,
-"spike": true,
-"since": "2026-11-26T17:59:40.870094+00:00"
-}
-],
+"spikes": [],
 "baseline": {
 "지진": 0.05,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
 "폭발": 0.05,
-"붕괴": 0.07,
+"붕괴": 0.06,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.33,
+"속보": 0.3,
 "지하철": 0.05,
-"사고": 0.13,
+"사고": 0.12,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -3373,9 +3298,9 @@
 "link": "https://www.etnews.com/20261126000018"
 },
 {
-"title": "[포토] 배우 이우태, 청담동 나들이",
+"title": "[영상] 박하선, 꿀피부",
 "source": "뉴데일리",
-"link": "https://www.newdaily.co.kr/site/data/html/2026/11/26/2026112650229.html"
+"link": "https://www.newdaily.co.kr/site/data/html/2026/11/26/2026112650158.html"
 }
 ],
 "new": true
@@ -3476,14 +3401,14 @@
 "time": "2026-11-26T13:40:00+00:00",
 "news": [
 {
+"title": "“머스크 ‘삼성전자 칩 장기구매’ 제안에···이재용 ‘뭐 더 해줄 건데’”",
+"source": "경향신문",
+"link": "https://www.khan.co.kr/article/202611262008001"
+},
+{
 "title": "\"이재용, '반도체 장기구매할게' 머스크에 '그럼 뭘 해줄건데'\"",
 "source": "연합뉴스",
 "link": "https://www.yna.co.kr/view/AKR20261126188000009"
-},
-{
-"title": "삼성전자·SK하이닉스 장기공급계약 '물음표'…장부에 받은 돈이 없다",
-"source": "연합인포맥스",
-"link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4446775"
 }
 ],
 "new": true
