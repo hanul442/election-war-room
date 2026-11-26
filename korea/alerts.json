@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-26T11:39:13.941137+00:00",
+"updated": "2026-11-26T11:41:30.745793+00:00",
 "errors": [],
 "events": [
 {
@@ -4219,7 +4219,7 @@
 },
 "붕괴": {
 "n30": 1,
-"base": 0.8,
+"base": 0.7,
 "spike": false
 },
 "대피": {
@@ -4229,13 +4229,13 @@
 },
 "미사일": {
 "n30": 0,
-"base": 0.7,
+"base": 0.6,
 "spike": false
 },
 "속보": {
-"n30": 5,
+"n30": 4,
 "base": 0.3,
-"spike": true
+"spike": false
 },
 "지하철": {
 "n30": 0,
@@ -4248,7 +4248,7 @@
 "spike": false
 },
 "실종": {
-"n30": 0,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
@@ -4274,6 +4274,26 @@
 }
 },
 "posts": [
+{
+"text": "ㄷㅇㅅ에 크리스마스 스티커 나왔다고 해서 사러 갔는데 우리 동네는 없어. 회사 동료 분이 사서 자랑 해서 예뻐서 사고 싶었는데 없어",
+"handle": "cookyrin.bsky.social",
+"name": "쿠키한입",
+"time": "2026-11-26T11:40:01.846Z",
+"likes": 1,
+"reposts": 0,
+"url": "https://bsky.app/profile/cookyrin.bsky.social/post/3n37lnpxj2c2m",
+"term": "사고"
+},
+{
+"text": "- 이에 대중은 소수 빅테크의 이윤 추구와 일방적인 기술 강요에 반발하여 데이터 센터 건립 저지, 청소년 SNS 규제, 반 빅테크 정치인 지지 등 실질적인 사회적, 정치적 저항에 나서고 있음\n\n- 한편 실리콘밸리 내부에서조차 문명의 통제권을 AI에 넘기는 '이양주의'가 거론될 만큼 인간 중심적 목표가 실종되었으며, 일부 기술자들은 폭주를 스스로 멈출 수 없어 대중의 반발이 자신들을 제지해 주",
+"handle": "lunamoth.bsky.social",
+"name": "lunamoth",
+"time": "2026-11-26T11:39:19.749Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/lunamoth.bsky.social/post/3n37lmhvmk22n",
+"term": "실종"
+},
 {
 "text": "지금 주로 쓰고 있는 AI구독 서비스에 넣어보면 사고 패턴을 분석해 준다는 프롬프트.. 라 함:\n\n\"내가 너와 상호작용한 모든 내용을 바탕으로 내 사고 패턴과 의사 결정 방식, 무의식적인 편향, 반복적으로 드러나는 '약점'이나 '맹점'을 상세히 분석해 줘. 그리고 각 항목에 대해 나에게 필요한 조언을 구체적으로 적어줘. 5000자 이상.\"",
 "handle": "saehwan-kr.bsky.social",
@@ -4386,16 +4406,6 @@
 "url": "https://www.youtube.com/watch?v=9ilJ4kEGBUw"
 },
 {
-"text": "공유기 나가서 그거 교체하고 네트워크 다시 구성하고 컴 먼지 청소하다가 안에 배치랑 컴 위치 바꾼다고 난리치다 책상 밑에 붙여둔 멀티탭 떨어졌길래 전선 정리 다시하려고 다른거 뜯다가 책상 코팅 뜯어먹어서 퍼티 사다 발랐더니 색상 잘못 사고, 책상이 흔들리길래 수평 맞췄더니 계속 덜걱 거려서 한참 난리 치다 뭐지 하고 수평계 바닥에 내려놨더니 바닥이 수평이 안 맞고.. 그치.. 옥탑방이 수평이",
-"handle": "otherplace.bsky.social",
-"name": "Otherplace ",
-"time": "2026-11-26T11:10:33.044Z",
-"likes": 1,
-"reposts": 0,
-"url": "https://bsky.app/profile/otherplace.bsky.social/post/3n37jyyr6mk2l",
-"term": "사고"
-},
-{
 "platform": "YouTube",
 "text": "지니언스 주가전망, [11월 26일 긴급속보] \"이 가격\" 지켜주면 다시금 돌파!",
 "handle": "UCFYSMs4opfwXI39PKlycYWQ",
@@ -4504,28 +4514,20 @@
 "url": "https://www.youtube.com/watch?v=pXLYUwFUFwA"
 }
 ],
-"spikes": [
-{
-"term": "속보",
-"n30": 5,
-"base": 0.3,
-"spike": true,
-"since": "2026-11-26T11:39:13.941137+00:00"
-}
-],
+"spikes": [],
 "baseline": {
 "지진": 0.05,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.56,
-"붕괴": 0.74,
+"폭발": 0.5,
+"붕괴": 0.67,
 "대피": 0.05,
-"미사일": 0.62,
-"속보": 0.3,
-"지하철": 0.06,
-"사고": 3.93,
-"실종": 0.05,
+"미사일": 0.56,
+"속보": 0.27,
+"지하철": 0.05,
+"사고": 3.94,
+"실종": 0.15,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -4768,14 +4770,14 @@
 "time": "2026-11-26T09:50:00+00:00",
 "news": [
 {
-"title": "India A vs Sri Lanka A Live Score: IND-A (140/1 in 18.1 ov), Abhishek, Tilak put India in control",
+"title": "India A vs Sri Lanka A Live Score: IND-A (159/2 in 21.5 ov), Abhishek departs for 78, Tilak Varma steady",
 "source": "India Today",
 "link": "https://www.indiatoday.in/sports/cricket/story/india-a-vs-sri-lanka-a-live-score-rising-stars-asia-cup-2026-semi-final-ind-a-vs-sl-a-match-3047337-2026-11-26"
 },
 {
-"title": "Vaibhav Sooryavanshi dismissed for 40 off 27 balls in Asia Cup Rising Stars 2026 semifinal against Sri Lanka A",
+"title": "Abhishek Sharma scores 37-ball fifty against Sri Lanka A in Asia Cup Rising Stars 2026 semifinal",
 "source": "Sportstar",
-"link": "https://sportstar.thehindu.com/cricket/vaibhav-sooryavanshi-score-asia-cup-rising-stars-2026-semifinal-india-a-vs-sri-lanka-a/article71746121.ece"
+"link": "https://sportstar.thehindu.com/cricket/abhishek-sharma-fifty-vs-sri-lanka-a-asia-cup-rising-stars-2026-semifinal/article71746203.ece"
 }
 ],
 "new": true
@@ -4876,9 +4878,9 @@
 "time": "2026-11-26T08:10:00+00:00",
 "news": [
 {
-"title": "사이다 종영 ‘재혼 황후‘, 신민아라 가능했던 ‘K-황후’의 품격",
+"title": "종영 앞둔 ‘재혼황후’ 신민아·이봉련...황후와 시녀장의 깊은 신뢰",
 "source": "YTN",
-"link": "https://www.ytn.co.kr/_ln/0117_202611261658540241"
+"link": "https://www.ytn.co.kr/_sn/0117_202611241515092481"
 },
 {
 "title": "‘새종석’ 도쿄로 날아갔다",
