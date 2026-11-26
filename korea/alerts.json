@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-26T03:28:59.826670+00:00",
+"updated": "2026-11-26T03:31:15.692610+00:00",
 "errors": [],
 "events": [
 {
@@ -85,7 +85,7 @@
 "id": "5YlNMallGbFhWbXFJNWE0oc50040",
 "first": "2026-11-26T00:40:00+00:00",
 "last": "2026-11-26T03:18:39+00:00",
-"updated": "2026-11-26T03:19:50.633664+00:00",
+"updated": "2026-11-26T03:31:15.692610+00:00",
 "headline": "＇계엄 국무회의 위증＇ 尹 오늘 대법 선고…1·2심은 무죄",
 "cat": "기타",
 "regions": [],
@@ -96,6 +96,7 @@
 "MBC 뉴스",
 "SBS",
 "YTN",
+"www.ainews1.co.kr",
 "강원도민일보",
 "경기일보",
 "경향신문",
@@ -359,6 +360,13 @@
 "stage": "속보"
 },
 {
+"title": "[속보] 대법, 尹 '한덕수 재판 위증 혐의' 무죄 확정…특검의 기소 명분 흔들",
+"source": "www.ainews1.co.kr",
+"link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1XLVZveHdkd1lNaUFxek5zbk9wcXYtNU9JWFVSNF9lMXowcDNwbDB3U0JPaXN4ZU5zTGFTWmlLZXMtYUxQXzZ6WnREeTRQY0hYdDU0aDlsSE94U0dQWHA4X0FJU3NvZkpkam40?oc=5",
+"time": "2026-11-26T03:14:57+00:00",
+"stage": "속보"
+},
+{
 "title": "한덕수 재판서 위증 혐의…윤석열, 대법에서 '무죄' 확정",
 "source": "SBS",
 "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008864709&plink=RSSLINK&cooper=RSSREADER",
@@ -374,6 +382,7 @@
 "계획",
 "국무회",
 "기각",
+"기소",
 "내란",
 "내란재판",
 "대법",
@@ -382,6 +391,7 @@
 "대법원",
 "대통령",
 "머니투데",
+"명분",
 "무죄",
 "부족",
 "상고",
@@ -401,7 +411,8 @@
 "했다",
 "허위",
 "혐의",
-"확정"
+"확정",
+"흔들"
 ]
 },
 {
@@ -459,7 +470,7 @@
 "id": "9YYnUxak5iU2UzZ184VEUoc50203",
 "first": "2026-11-26T02:03:00+00:00",
 "last": "2026-11-26T03:17:49+00:00",
-"updated": "2026-11-26T03:19:50.633664+00:00",
+"updated": "2026-11-26T03:31:15.692610+00:00",
 "headline": "경찰, ’리트 만점자’ 주거지·수능 시험지 보관 학교 압수수색",
 "cat": "사회",
 "regions": [],
@@ -472,6 +483,7 @@
 "경향신문",
 "노컷뉴스",
 "뉴시스",
+"독립신문",
 "매일경제",
 "머니투데이",
 "아시아경제",
@@ -645,6 +657,13 @@
 "stage": "속보"
 },
 {
+"title": "[속보] 경찰, '리트 만점자' 이진우 자택·영훈고 압수수색…AI 부정행위 의혹 규명 속도",
+"source": "독립신문",
+"link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5fQkt2b3prVWZuWGUwdkpRZ2lDV01FeWJ5YjVVaGZXZEhnQjRZOW5wNHV6TFN4OEtzU3cyMzhYc3RBNUFyN3lUMEZ3TXJVbk52MnFCM2FmVlB2d2NoekNQdU1vdHU3V20yQzJZ?oc=5",
+"time": "2026-11-26T03:14:54+00:00",
+"stage": "속보"
+},
+{
 "title": "'리트 만점자' 고 이진우 생전 집·영훈고등학교 압수수색",
 "source": "SBS",
 "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008864708&plink=RSSLINK&cooper=RSSREADER",
@@ -655,11 +674,13 @@
 "level": "URGENT",
 "latest": "'리트 만점자' 고 이진우 생전 집·영훈고등학교 압수수색",
 "tok": [
+"AI",
 "故이진우",
 "강제수사",
 "경찰",
 "고교",
 "고등학교",
+"규명",
 "나서",
 "리트",
 "리트냥",
@@ -675,6 +696,7 @@
 "보관학교",
 "부정행위",
 "생전",
+"속도",
 "수능",
 "수능시험지",
 "수사",
@@ -691,8 +713,7 @@
 "존재",
 "주거지",
 "착수",
-"학교",
-"확대"
+"학교"
 ]
 },
 {
@@ -4520,12 +4541,12 @@
 "sns": {
 "terms": {
 "지진": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
 "화재": {
-"n30": 4,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
@@ -4540,9 +4561,9 @@
 "spike": false
 },
 "폭발": {
-"n30": 7,
+"n30": 2,
 "base": 1.8,
-"spike": true
+"spike": false
 },
 "붕괴": {
 "n30": 0,
@@ -4555,7 +4576,7 @@
 "spike": false
 },
 "미사일": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -4565,13 +4586,13 @@
 "spike": false
 },
 "지하철": {
-"n30": 2,
+"n30": 0,
 "base": 0.4,
 "spike": false
 },
 "사고": {
-"n30": 3,
-"base": 1.5,
+"n30": 4,
+"base": 1.6,
 "spike": false
 },
 "실종": {
@@ -4602,6 +4623,16 @@
 },
 "posts": [
 {
+"text": "전기요금이 오른 건가? 난방도 냉방도 안 한 달인데 삼만원 가까이 나왔다 예전에는 이만원 초반대였던 것 같은데?? 근데 쭉 살펴보니 올해 내내 그렇긴 해 아 이거 설마 출근 안 하고 집에서 일하고 모니터 하나 더 사고 그래서 그런가 😂",
+"handle": "hae3.bsky.social",
+"name": "김해삼",
+"time": "2026-11-26T03:29:22.841Z",
+"likes": 1,
+"reposts": 0,
+"url": "https://bsky.app/profile/hae3.bsky.social/post/3n36qaemvfk27",
+"term": "사고"
+},
+{
 "text": "다이어트 한다면서 애플파이 사고 마르게리따 먹어버렸지만\n그래도 칼로리는 세고 있으니까 음음....",
 "handle": "hitowa0806.bsky.social",
 "name": "WA",
@@ -4616,7 +4647,7 @@
 "handle": "khamsin25.bsky.social",
 "name": "캄신",
 "time": "2026-11-26T03:19:30.755Z",
-"likes": 0,
+"likes": 1,
 "reposts": 0,
 "url": "https://bsky.app/profile/khamsin25.bsky.social/post/3n36popolk22n",
 "term": "폭발"
@@ -4779,28 +4810,20 @@
 "url": "https://www.youtube.com/watch?v=OfrK592iLJ8"
 }
 ],
-"spikes": [
-{
-"term": "폭발",
-"n30": 7,
-"base": 1.8,
-"spike": true,
-"since": "2026-11-26T03:28:59.826670+00:00"
-}
-],
+"spikes": [],
 "baseline": {
 "지진": 0.05,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 1.84,
+"폭발": 1.86,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.39,
-"사고": 1.65,
-"실종": 0.78,
+"지하철": 0.35,
+"사고": 1.88,
+"실종": 0.8,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -5030,9 +5053,9 @@
 "link": "https://www.yna.co.kr/view/AKR20261125113300051"
 },
 {
-"title": "트리니티항공, 국제선 탑승률 90%… SNS 팔로워 확대에 최대 10만 원 할인",
-"source": "한국일보",
-"link": "https://www.hankookilbo.com/news/article/A2026112516420004191"
+"title": "에어부산, 겨울맞이 국제선 특가… 일본 편도 8만6900원부터",
+"source": "국제신문",
+"link": "https://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0200&key=20261125.99099007927"
 }
 ],
 "new": true
