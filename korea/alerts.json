@@ -1,12 +1,12 @@
 {
-"updated": "2026-11-26T10:34:13.956576+00:00",
+"updated": "2026-11-26T10:36:31.369273+00:00",
 "errors": [],
 "events": [
 {
 "id": "dNX053dkZjUW1hWThjYjEoc50956",
 "first": "2026-11-26T09:56:57+00:00",
-"last": "2026-11-26T10:26:53+00:00",
-"updated": "2026-11-26T10:34:13.956576+00:00",
+"last": "2026-11-26T10:30:14+00:00",
+"updated": "2026-11-26T10:36:31.369273+00:00",
 "headline": "경찰 'AI 커닝' 세무사 수석 사전 구속영장 신청…\"사회적 파급력 커\"",
 "cat": "사회",
 "regions": [],
@@ -17,8 +17,10 @@
 "경향신문",
 "국민일보",
 "국제신문",
+"뉴데일리",
 "뉴스1",
 "뉴시스",
+"매일신문",
 "스페셜타임스",
 "아이뉴스24",
 "연합뉴스",
@@ -27,6 +29,13 @@
 "조선일보"
 ],
 "updates": [
+{
+"title": "[속보] 경찰, '세무냥이' 구속영장 신청 … \"증거인멸 시도\"",
+"source": "뉴데일리",
+"link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE14TDdrOTRCdnNFWUpQTTVnd3B4Y0hHY2g2NUJzem4xY1pmdUlzZjd2YWJqVzg4RjEzWGJWVDFmNmJ4UDVjZ2F3bjAtbHdDNHpDbWItNUpDaFR3a0NXaDJjVHBQV2ZLMFVabmV4V1NXMjUtSUMtVTh1RFU3NNIBgAFBVV95cUxNRENBeUpad0hrejBma1I5RkdPdmdtVUpKbkZkZ1J4ZDBCTEJFbW84WTQ3NWtxcmg1Z0g1aXp6YnpWQjRuRjVveHFSaVVESUFmNTJlVFFTaXBXdjVvMXJ0eDZZdERxMVJsQ2tiMTRwM3RTN1RWOGVyOHdpVWVZUEZQMQ?oc=5",
+"time": "2026-11-26T09:47:00+00:00",
+"stage": "속보"
+},
 {
 "title": "[속보] 경찰 'AI 커닝' 세무사 수석 사전 구속영장 신청…\"사회적 파급력 커\"",
 "source": "뉴스1",
@@ -145,10 +154,17 @@
 "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1DUUNfOGplRGlNMjBkWHpLWlVERmxZeDNNcWlZMmNVckpkcU5hZzE1bklvLTEwa1FoaEg4RV9tcDJxb1JDU0RNUVh2OA?oc=5",
 "time": "2026-11-26T10:26:53+00:00",
 "stage": "속보"
+},
+{
+"title": "[속보] 경찰, `AI 커닝` 세무사 수석 구속영장 신청…`증거인멸 시도`",
+"source": "매일신문",
+"link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5yNERCdWpubGxNWlQwZkVERjEzU0xBaVhLTWZXTlIwdjVLWmViZ2ZRRTJfeC1TNmhuQWptZ3RYbWZpY21hb0d6amNZY3dlMWdUUlhENTFnU1ZpUFpzYmh4ZldR?oc=5",
+"time": "2026-11-26T10:30:14+00:00",
+"stage": "속보"
 }
 ],
 "level": "BULLETIN",
-"latest": "'세무사 수석'에 구속영장 신청돼…\"범죄 중대성 고려\"",
+"latest": "경찰, `AI 커닝` 세무사 수석 구속영장 신청…`증거인멸 시도`",
 "tok": [
 "AI",
 "AI커닝",
@@ -167,6 +183,7 @@
 "세무사시험",
 "수석",
 "수석합격자",
+"시도",
 "시험",
 "신청",
 "신청돼",
@@ -174,6 +191,7 @@
 "우려",
 "자수",
 "중대성",
+"증거인멸",
 "커닝",
 "파급력",
 "합격자"
@@ -4157,7 +4175,7 @@
 },
 "화재": {
 "n30": 0,
-"base": 0.8,
+"base": 0.7,
 "spike": false
 },
 "불났": {
@@ -4171,12 +4189,12 @@
 "spike": false
 },
 "폭발": {
-"n30": 2,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
 "붕괴": {
-"n30": 1,
+"n30": 3,
 "base": 0.1,
 "spike": false
 },
@@ -4186,8 +4204,8 @@
 "spike": false
 },
 "미사일": {
-"n30": 2,
-"base": 0.4,
+"n30": 1,
+"base": 0.5,
 "spike": false
 },
 "속보": {
@@ -4202,7 +4220,7 @@
 },
 "사고": {
 "n30": 5,
-"base": 2.4,
+"base": 2.7,
 "spike": false
 },
 "실종": {
@@ -4212,7 +4230,7 @@
 },
 "단수": {
 "n30": 0,
-"base": 0.4,
+"base": 0.3,
 "spike": false
 },
 "통신 장애": {
@@ -4232,6 +4250,26 @@
 }
 },
 "posts": [
+{
+"text": "난 서울도 붕괴중이라고 생각한다 개발어쩌구 야부리를 털어대지만 지방에서 빨아 올 인구가 없어지면? 다 붕괴죠 그게 뭐 수백년 후의 일 같음? 그럴 리가…",
+"handle": "sd3l5.bsky.social",
+"name": "심달",
+"time": "2026-11-26T10:35:59.943Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/sd3l5.bsky.social/post/3n37i37wbhk2t",
+"term": "붕괴"
+},
+{
+"text": "트위터리안들 활동가 농업인들은 그렇게 공격하면서 지방소멸은 안되고 사람은 없지만 인프라는 필요하다고 하고… 그래요… 어차피 한국은 이미 시한부입니다… 지금 장노년층 노동력이 사라지면 붕괴할 분야가 한둘이 아닌데 서울이 모든걸 흡수하는 블랙홀이 되어서 마치 건재할 것 같이 구는 것 뿐이지 모두가 다 소멸을 향해 저벅저벅 걸어가고 있습니다 네 외국인 혐오도 지금 실컷 하세요… 어차피 다 금방 무",
+"handle": "sd3l5.bsky.social",
+"name": "심달",
+"time": "2026-11-26T10:33:48.045Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/sd3l5.bsky.social/post/3n37hxc2jrc2t",
+"term": "붕괴"
+},
 {
 "text": "뇌 녹아서 정상적인 사고, 사람다운 삶 불가능하고 머리에 든 건 좆물밖에 없는 년\n인생 바치고 망가져서 광대짓하고 알몸 상납하고 신상으로 협박 당하면서 가축되고 싶는 병신년이면 그냥 눌러\n\ntele: t.me/flwyua\n\n시그널 :\nsignal.me#eu/JrBDTpaGd...\n\n#노예 #암캐 #조련 #광대플  #섹트 #섹블 #능욕 #변녀 #걸레  #육변기 #미션  #상납 #조교 #협박플 ",
 "handle": "a-bys.bsky.social",
@@ -4449,18 +4487,18 @@
 "spikes": [],
 "baseline": {
 "지진": 0.05,
-"화재": 0.69,
+"화재": 0.62,
 "불났": 0.05,
 "정전": 0.05,
 "폭발": 0.05,
-"붕괴": 0.05,
+"붕괴": 0.25,
 "대피": 0.05,
-"미사일": 0.45,
+"미사일": 0.51,
 "속보": 0.05,
 "지하철": 1.05,
-"사고": 2.66,
-"실종": 0.08,
-"단수": 0.33,
+"사고": 2.89,
+"실종": 0.07,
+"단수": 0.3,
 "통신 장애": 0.05,
 "먹통": 0.05,
 "산불": 0.05
@@ -4630,14 +4668,14 @@
 "time": "2026-11-26T09:20:00+00:00",
 "news": [
 {
-"title": "홈플러스 \"인수희망자, 유통사업 운영이 목적\" - 머니투데이",
-"source": "머니투데이",
-"link": "https://www.mt.co.kr/living/2026/11/26/2026112614030735788"
+"title": "홈플러스 새 주인 찾나…\"유통업 운영 목적 인수의향서 접수\"",
+"source": "연합뉴스TV",
+"link": "https://www.yonhapnewstv.co.kr/news/AKR20261126160841LM0"
 },
 {
-"title": "다시 벼랑 끝…홈플러스, 결국 영업 중단",
-"source": "연합뉴스TV",
-"link": "https://www.yonhapnewstv.co.kr/news/MYH20261126185344vsq"
+"title": "홈플러스 휴업 전 마지막 영업...'컨소시엄' 관심에 우려도",
+"source": "YTN",
+"link": "https://www.ytn.co.kr/_ln/0102_202611261918123638"
 }
 ],
 "new": true
