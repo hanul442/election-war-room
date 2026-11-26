@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-26T14:40:46.439527+00:00",
+"updated": "2026-11-26T14:43:03.863252+00:00",
 "errors": [],
 "events": [
 {
@@ -4330,48 +4330,6 @@
 "접근권한",
 "필요"
 ]
-},
-{
-"id": "VX04xR1JUeTJjT0pZZmxBoc50841",
-"first": "2026-11-26T08:41:00+00:00",
-"last": "2026-11-26T08:41:00+00:00",
-"updated": "2026-11-26T08:44:08.384388+00:00",
-"headline": "최태원 \"일주일 내 재산분할금 9440억·5% 지연이자 지급\" 제안",
-"cat": "기타",
-"regions": [],
-"sources": [
-"국제신문",
-"연합뉴스"
-],
-"updates": [
-{
-"title": "최태원 \"일주일내 재산분할금 9천440억 지급·5% 지연이자\" 제안",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261126170700004",
-"time": "2026-11-26T08:21:23+00:00",
-"stage": "후속"
-},
-{
-"title": "[속보] 최태원 \"일주일 내 재산분할금 9440억·5% 지연이자 지급\" 제안",
-"source": "국제신문",
-"link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOU0NXb1dpRzRmNmdubjJ0cWdyZ1JoVFFSdVZKWl9pU0dyVzlDVUVabDJ2ZF9MNTRKQW1PRm5IQmhXYmlGZEZMU1pPT1ZHd1hJU3g5QWFiZGt1U0JnTEMwNlRRbVozSVIyN1g4aTRVdC1UWlRFQlVpOVlJeFdCRE9VX04xR1JUeTJjT0pZZmxB?oc=5",
-"time": "2026-11-26T08:41:00+00:00",
-"stage": "얼럿"
-}
-],
-"level": "URGENT",
-"latest": "최태원 \"일주일 내 재산분할금 9440억·5% 지연이자 지급\" 제안",
-"tok": [
-"9440억",
-"9천440억",
-"일주일",
-"일주일내",
-"재산분할금",
-"제안",
-"지급",
-"지연이자",
-"최태원"
-]
 }
 ],
 "sns": {
@@ -4403,7 +4361,7 @@
 },
 "붕괴": {
 "n30": 5,
-"base": 1.4,
+"base": 1.5,
 "spike": true
 },
 "대피": {
@@ -4423,7 +4381,7 @@
 },
 "지하철": {
 "n30": 2,
-"base": 0.9,
+"base": 0.8,
 "spike": false
 },
 "사고": {
@@ -4713,35 +4671,35 @@
 "n30": 7,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-26T14:40:46.439527+00:00"
+"since": "2026-11-26T14:43:03.863252+00:00"
 },
 {
 "term": "붕괴",
 "n30": 5,
-"base": 1.4,
+"base": 1.5,
 "spike": true,
-"since": "2026-11-26T14:40:46.439527+00:00"
+"since": "2026-11-26T14:43:03.863252+00:00"
 },
 {
 "term": "속보",
 "n30": 5,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-26T14:40:46.439527+00:00"
+"since": "2026-11-26T14:43:03.863252+00:00"
 }
 ],
 "baseline": {
 "지진": 0.05,
 "화재": 0.05,
 "불났": 0.05,
-"정전": 0.6,
+"정전": 0.64,
 "폭발": 0.05,
-"붕괴": 1.53,
+"붕괴": 1.68,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.8,
-"사고": 1.38,
+"지하철": 0.72,
+"사고": 1.34,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -4953,6 +4911,60 @@
 },
 "trends": [
 {
+"term": "반도체 메모리",
+"traffic": "5000+",
+"time": "2026-11-26T13:40:00+00:00",
+"news": [
+{
+"title": "\"이재용, '반도체 장기구매할게' 머스크에 '그럼 뭘 해줄건데'\"",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261126188000009"
+},
+{
+"title": "삼성전자·SK하이닉스 장기공급계약 '물음표'…장부에 받은 돈이 없다",
+"source": "연합인포맥스",
+"link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4446775"
+}
+],
+"new": true
+},
+{
+"term": "송파구",
+"traffic": "200+",
+"time": "2026-11-26T13:40:00+00:00",
+"news": [
+{
+"title": "李대통령이 옳았나…송파 집값, 4년만에 역대급 추락했다",
+"source": "매일경제",
+"link": "https://www.mk.co.kr/news/realestate/12219258"
+},
+{
+"title": "서울 아파트값 떨어지나? 한강벨트까지 하락세 전환",
+"source": "한겨레",
+"link": "https://www.hani.co.kr/arti/economy/property/1289263.html"
+}
+],
+"new": true
+},
+{
+"term": "u17 việt nam",
+"traffic": "100+",
+"time": "2026-11-26T13:40:00+00:00",
+"news": [
+{
+"title": "TRỰC TIẾP bóng đá U17 Việt Nam vs U17 Mali - U17 World Cup 2026",
+"source": "Báo VietNamNet",
+"link": "https://vietnamnet.vn/truc-tiep-bong-da-u17-viet-nam-vs-u17-mali-u17-world-cup-2026-2578759.html"
+},
+{
+"title": "Việt Nam - Mali: Hy vọng làm nên lịch sử",
+"source": "VnExpress",
+"link": "https://vnexpress.net/truc-tiep-u17-world-cup-viet-nam-mali-5149345.html"
+}
+],
+"new": true
+},
+{
 "term": "đội tuyển bóng đá u-17 quốc gia việt nam đấu với u-17 mali",
 "traffic": "100+",
 "time": "2026-11-26T13:20:00+00:00",
@@ -5017,9 +5029,9 @@
 "link": "https://m.ekn.kr/view.php?key=20261126024275133"
 },
 {
-"title": "뒤늦게 상가 통합 재건축?…행정 혼선에 올림픽선수촌 주민 ‘반발’",
-"source": "MTN 머니투데이방송",
-"link": "https://news.mtn.co.kr/article/2026112616143175948"
+"title": "\"상가 쏙 빼고 짓자\" 올림픽선수촌 재건축에 송파구 제동, 내년 결판난다",
+"source": "땅집고",
+"link": "https://realty.chosun.com/site/data/html_dir/2026/11/19/2026111902059.html"
 }
 ],
 "new": true
@@ -5076,49 +5088,6 @@
 "link": "https://www.newspim.com/news/view/20261126000413"
 }
 ],
-"new": true
-},
-{
-"term": "weather tomorrow",
-"traffic": "5000+",
-"time": "2026-11-26T11:50:00+00:00",
-"news": [
-{
-"title": "UAE weather: Red alert issued for fog; chance of rain in some areas",
-"source": "Khaleej Times",
-"link": "https://www.khaleejtimes.com/uae/weather/november-26-2026"
-},
-{
-"title": "UAE weather forecast: Scattered showers in some island, coastal and western areas, with fog expected overnight",
-"source": "Emirates 24|7",
-"link": "https://www.emirates247.com/uae/uae-weather-forecast-scattered-showers-in-some-island-coastal-and-western-areas-with-fog-expected-overnight/8128"
-}
-],
-"new": true
-},
-{
-"term": "박장범",
-"traffic": "100+",
-"time": "2026-11-26T11:40:00+00:00",
-"news": [
-{
-"title": "KBS ‘BBQ 정·관계 티켓 로비’ 보도 막혔다…“초청 명단에 박장범 사장도”",
-"source": "미디어오늘",
-"link": "https://www.mediatoday.co.kr/news/articleView.html?idxno=338727"
-},
-{
-"title": "국힘 충북도당 \"축구경기 공짜 관람 이강일, 명확히 해명하라\"",
-"source": "파이낸셜뉴스",
-"link": "https://www.fnnews.com/news/202611191444474509"
-}
-],
-"new": true
-},
-{
-"term": "погода завтра",
-"traffic": "1000+",
-"time": "2026-11-26T11:40:00+00:00",
-"news": [],
 "new": true
 }
 ],
