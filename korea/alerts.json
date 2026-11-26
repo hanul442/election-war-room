@@ -1,12 +1,12 @@
 {
-"updated": "2026-11-26T07:51:49.927720+00:00",
+"updated": "2026-11-26T07:54:07.235868+00:00",
 "errors": [],
 "events": [
 {
 "id": "wNISX20261126_00038849510714",
 "first": "2026-11-26T07:14:01+00:00",
-"last": "2026-11-26T07:48:17+00:00",
-"updated": "2026-11-26T07:51:49.927720+00:00",
+"last": "2026-11-26T07:51:00+00:00",
+"updated": "2026-11-26T07:54:07.235868+00:00",
 "headline": "\"남동산단 공장 화재 실종자, 2~3층에 있을 가능성\"",
 "cat": "재난",
 "regions": [
@@ -14,6 +14,7 @@
 ],
 "sources": [
 "뉴시스",
+"데일리안",
 "이데일리"
 ],
 "updates": [
@@ -51,10 +52,17 @@
 "link": "https://www.newsis.com/view/NISX20261126_0003885045",
 "time": "2026-11-26T07:48:17+00:00",
 "stage": "후속"
+},
+{
+"title": "[속보] 인천 남동공단 화재 실종자, 심정지 상태로 발견",
+"source": "데일리안",
+"link": "https://news.google.com/rss/articles/CBMimAJBVV95cUxPSlJXRllabU1lY214RTlKNUgwVHk5SENsU0M1endyZjFKd1UxUWZFLUNuQVAtZEpTb0kzWE9QTmNjdjN1UHljN2dCNjgzMGxoX1BxT3owamozRzYwVXA0bTFGel9MREZDNHp1NDRVSXlzblVMMFV0V3ptY0h0VFczaUk1X3JkXzZoZ3hVNHoyRE5yNnZ6TDhXRzlKc2hrNHhQWk0yVUhGc3ctYkRWaVpQazkwSTVLdTU2LXUtc2lsVkU3cVh6ZXBNaE1lSTlZQ3FraTh6aVV0eG55Yl93eGFPa2JIR1Z0bWxJX0YtTktjaDRHV3BPaEY1YkVoMTZ6WUV0UTduQjJsNnplNVlDV0tEZVNmWW1XOWlN?oc=5",
+"time": "2026-11-26T07:51:00+00:00",
+"stage": "속보"
 }
 ],
 "level": "BULLETIN",
-"latest": "인천 남동산단 화재 공장서 사망자 발견…\"신원 파악 중\"",
+"latest": "인천 남동공단 화재 실종자, 심정지 상태로 발견",
 "tok": [
 "1구",
 "3층",
@@ -62,20 +70,53 @@
 "가능성",
 "공장",
 "공장서",
+"남동공단",
 "남동산단",
 "만에",
 "못해",
 "발견",
 "사망자",
+"상태",
 "시신",
 "신원",
 "실종자",
+"심정지",
 "완진",
 "인천",
 "있을",
 "파악",
 "화재",
 "확인"
+]
+},
+{
+"id": "viewAKR202611261631000020750",
+"first": "2026-11-26T07:50:10+00:00",
+"last": "2026-11-26T07:50:10+00:00",
+"updated": "2026-11-26T07:54:07.235868+00:00",
+"headline": "삼성화재 부사장에 조번형·황상민 선임",
+"cat": "재난",
+"regions": [],
+"sources": [
+"연합뉴스"
+],
+"updates": [
+{
+"title": "삼성화재 부사장에 조번형·황상민 선임",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261126163100002",
+"time": "2026-11-26T07:50:10+00:00",
+"stage": "1보"
+}
+],
+"level": "ALERT",
+"latest": "삼성화재 부사장에 조번형·황상민 선임",
+"tok": [
+"부사장",
+"삼성화재",
+"선임",
+"조번형",
+"황상민"
 ]
 },
 {
@@ -4750,38 +4791,6 @@
 "이란",
 "최종승소"
 ]
-},
-{
-"id": "wNISX20261126_00038846430605",
-"first": "2026-11-26T06:05:32+00:00",
-"last": "2026-11-26T06:05:32+00:00",
-"updated": "2026-11-26T06:08:27.108153+00:00",
-"headline": "태백시의회 \"산나물축제 문화재단 이관 재검토해야\"",
-"cat": "재난",
-"regions": [
-"강원"
-],
-"sources": [
-"뉴시스"
-],
-"updates": [
-{
-"title": "태백시의회 \"산나물축제 문화재단 이관 재검토해야\"",
-"source": "뉴시스",
-"link": "https://www.newsis.com/view/NISX20261126_0003884643",
-"time": "2026-11-26T06:05:32+00:00",
-"stage": "1보"
-}
-],
-"level": "ALERT",
-"latest": "태백시의회 \"산나물축제 문화재단 이관 재검토해야\"",
-"tok": [
-"문화재단",
-"산나물축제",
-"이관",
-"재검토해야",
-"태백시의회"
-]
 }
 ],
 "sns": {
@@ -4803,11 +4812,11 @@
 },
 "정전": {
 "n30": 0,
-"base": 0.3,
+"base": 0.2,
 "spike": false
 },
 "폭발": {
-"n30": 4,
+"n30": 3,
 "base": 0.1,
 "spike": false
 },
@@ -4827,23 +4836,23 @@
 "spike": false
 },
 "속보": {
-"n30": 10,
+"n30": 9,
 "base": 0.1,
 "spike": true
 },
 "지하철": {
-"n30": 3,
-"base": 1.0,
+"n30": 2,
+"base": 1.1,
 "spike": false
 },
 "사고": {
 "n30": 6,
-"base": 3.5,
+"base": 3.7,
 "spike": false
 },
 "실종": {
 "n30": 3,
-"base": 1.3,
+"base": 1.5,
 "spike": false
 },
 "단수": {
@@ -4873,8 +4882,8 @@
 "handle": "tiger0304.bsky.social",
 "name": "백호랭",
 "time": "2026-11-26T07:47:23.744Z",
-"likes": 1,
-"reposts": 0,
+"likes": 2,
+"reposts": 1,
 "url": "https://bsky.app/profile/tiger0304.bsky.social/post/3n376nqhhj22u",
 "term": "사고"
 },
@@ -4902,7 +4911,7 @@
 "handle": "anonymousbird.bsky.social",
 "name": "구구",
 "time": "2026-11-26T07:44:04.245Z",
-"likes": 5,
+"likes": 7,
 "reposts": 0,
 "url": "https://bsky.app/profile/anonymousbird.bsky.social/post/3n376hsk5us2y",
 "term": "지하철"
@@ -5111,16 +5120,6 @@
 "url": "https://www.youtube.com/watch?v=i0cUyYoPDyA"
 },
 {
-"text": "제발나에게도이런일이생기길.. (헴철은 지하철에 앉아잇을 때 바로 앞에 선 초딩이 철과 눈마주쳣다가 눈을 깐 경험이 잇다..) x.com/woottiz/stat...",
-"handle": "freeforpizzaperson.bsky.social",
-"name": "않갈건데",
-"time": "2026-11-26T07:23:37.841Z",
-"likes": 2,
-"reposts": 1,
-"url": "https://bsky.app/profile/freeforpizzaperson.bsky.social/post/3n375d6wao22k",
-"term": "지하철"
-},
-{
 "platform": "YouTube",
 "text": "'아는 게 뭐야?' 이진숙, KBS사장 후보에 분노폭발",
 "handle": "UCdad6SO_YFhGqOuE8ZskzJg",
@@ -5142,26 +5141,26 @@
 "spikes": [
 {
 "term": "속보",
-"n30": 10,
+"n30": 9,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-26T07:51:49.927720+00:00"
+"since": "2026-11-26T07:54:07.235868+00:00"
 }
 ],
 "baseline": {
-"지진": 0.2,
+"지진": 0.18,
 "화재": 0.05,
 "불났": 0.05,
-"정전": 0.24,
+"정전": 0.22,
 "폭발": 0.05,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 1.11,
-"사고": 3.71,
-"실종": 1.51,
-"단수": 0.17,
+"지하철": 1.1,
+"사고": 3.94,
+"실종": 1.66,
+"단수": 0.15,
 "통신 장애": 0.05,
 "먹통": 0.05,
 "산불": 0.05
@@ -5353,6 +5352,24 @@
 },
 "trends": [
 {
+"term": "골든글러브",
+"traffic": "100+",
+"time": "2026-11-26T06:50:00+00:00",
+"news": [
+{
+"title": "[IS 포커스] '닌자'의 다음 은신처는 한국? NPB 골든글러브 야노, KBO행 가능성 타진",
+"source": "일간스포츠",
+"link": "https://isplus.com/article/view/isp202611240034"
+},
+{
+"title": "\"사과 안 하면 고소하겠다\" 결국 진흙탕 싸움 가나...'좀비 담배 파문' 히로시마 도요 카프 前 선수 3인, 구단 일방적 방출에 '법적 대응 불사'",
+"source": "스포탈코리아",
+"link": "https://www.sportalkorea.com/news/articleView.html?idxno=2025052909553708771"
+}
+],
+"new": true
+},
+{
 "term": "빅쇼트",
 "traffic": "500+",
 "time": "2026-11-26T06:40:00+00:00",
@@ -5366,6 +5383,24 @@
 "title": "‘빅쇼트’ 버리, 나스닥 하락 베팅 청산…엔비디아 재매도 예고",
 "source": "글로벌이코노믹",
 "link": "https://www.g-enews.com/article/Global-Biz/2026/11/2026112608153972229a1f309431_1"
+}
+],
+"new": true
+},
+{
+"term": "kbo mvp",
+"traffic": "200+",
+"time": "2026-11-26T06:40:00+00:00",
+"news": [
+{
+"title": "Kim Do-yeong wins second KBO MVP after leading league in home runs",
+"source": "Chosunbiz",
+"link": "https://biz.chosun.com/en/en-sports/2026/11/26/EECVILMVRVDGPNOZBVJSAPCUIE/"
+},
+{
+"title": "Tigers superstar Kim Do-yeong claims 2nd KBO MVP award",
+"source": "Yonhap News Agency",
+"link": "https://en.yna.co.kr/view/AEN20261126008100315"
 }
 ],
 "new": true
@@ -5387,24 +5422,6 @@
 }
 ],
 "new": false
-},
-{
-"term": "kbo mvp",
-"traffic": "200+",
-"time": "2026-11-26T06:40:00+00:00",
-"news": [
-{
-"title": "Kim Do-yeong wins second KBO MVP after leading league in home runs",
-"source": "Chosunbiz",
-"link": "https://biz.chosun.com/en/en-sports/2026/11/26/EECVILMVRVDGPNOZBVJSAPCUIE/"
-},
-{
-"title": "Tigers superstar Kim Do-yeong claims 2nd KBO MVP award",
-"source": "Yonhap News Agency",
-"link": "https://en.yna.co.kr/view/AEN20261126008100315"
-}
-],
-"new": true
 },
 {
 "term": "김민석",
@@ -5496,30 +5513,12 @@
 "link": "https://imnews.imbc.com/news/2026/society/article/6868810_36918.html"
 },
 {
-"title": "[속보] 인천 남동공단에 큰불...소방당국 진화 작업",
+"title": "속보 인천 남동공단에 큰불...소방당국 진화 작업",
 "source": "YTN",
-"link": "https://www.ytn.co.kr/_cs/_ln_0103_202611261258083122_005.html"
+"link": "https://www.ytn.co.kr/_ln/0103_202611261258083122"
 }
 ],
 "new": true
-},
-{
-"term": "태안해양경찰서",
-"traffic": "200+",
-"time": "2026-11-26T05:40:00+00:00",
-"news": [
-{
-"title": "담보금 30억원 미납한 중국어선 선장 등 2명 구속",
-"source": "KBS 뉴스",
-"link": "https://news.kbs.co.kr/news/view.do?ncd=8723367"
-},
-{
-"title": "경계선 2.8㎞ 안쪽서 까나리 8t···무허가 조업 중국어선 2척 나포",
-"source": "경향신문",
-"link": "https://www.khan.co.kr/article/202611261412001"
-}
-],
-"new": false
 }
 ],
 "trendSeen": [
