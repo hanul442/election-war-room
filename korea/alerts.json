@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-26T17:07:42.328678+00:00",
+"updated": "2026-11-26T17:09:57.225595+00:00",
 "errors": [],
 "events": [
 {
@@ -3066,7 +3066,7 @@
 "spike": false
 },
 "정전": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -3076,8 +3076,8 @@
 "spike": false
 },
 "붕괴": {
-"n30": 1,
-"base": 0.7,
+"n30": 0,
+"base": 0.8,
 "spike": false
 },
 "대피": {
@@ -3091,9 +3091,9 @@
 "spike": false
 },
 "속보": {
-"n30": 8,
-"base": 0.7,
-"spike": true
+"n30": 3,
+"base": 0.8,
+"spike": false
 },
 "지하철": {
 "n30": 0,
@@ -3102,7 +3102,7 @@
 },
 "사고": {
 "n30": 0,
-"base": 1.5,
+"base": 1.4,
 "spike": false
 },
 "실종": {
@@ -3178,16 +3178,6 @@
 "time": "2026-11-26T16:39:56Z",
 "term": "속보",
 "url": "https://www.youtube.com/watch?v=yd_EfeTseQs"
-},
-{
-"text": "엔딩곡인\n원자붕괴(멜트다우너) 커버\n새콤한 느낌이네",
-"handle": "bsjelly.bsky.social",
-"name": "젤리",
-"time": "2026-11-26T16:39:49.759Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/bsjelly.bsky.social/post/3n3a4fqu5is23",
-"term": "붕괴"
 },
 {
 "platform": "YouTube",
@@ -3379,27 +3369,19 @@
 "url": "https://www.youtube.com/watch?v=tbb-mpffqUk"
 }
 ],
-"spikes": [
-{
-"term": "속보",
-"n30": 8,
-"base": 0.7,
-"spike": true,
-"since": "2026-11-26T17:07:42.328678+00:00"
-}
-],
+"spikes": [],
 "baseline": {
 "지진": 0.05,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
 "폭발": 0.05,
-"붕괴": 0.77,
+"붕괴": 0.69,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.81,
+"속보": 0.93,
 "지하철": 0.05,
-"사고": 1.37,
+"사고": 1.23,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
