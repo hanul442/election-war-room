@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-26T18:57:52.867595+00:00",
+"updated": "2026-11-26T19:00:08.812961+00:00",
 "errors": [],
 "events": [
 {
@@ -1113,43 +1113,6 @@
 "풍랑주의보",
 "해제"
 ]
-},
-{
-"id": "NZdnNkdENiRER0MGRMMHUoc51259",
-"first": "2026-11-26T12:59:09+00:00",
-"last": "2026-11-26T12:59:09+00:00",
-"updated": "2026-11-26T13:11:16.678700+00:00",
-"headline": "올리브영도 뚫렸다…해킹으로 개인정보 유출",
-"cat": "기타",
-"regions": [],
-"sources": [
-"서울신문"
-],
-"updates": [
-{
-"title": "[속보] 올리브영도 뚫렸다…해킹으로 개인정보 유출",
-"source": "서울신문",
-"link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPb2w0My0wVEtpUTdEVnhBSVpYdk8wczB4QVVxeEZ3bHNuZzQ5NVplOWM2RklveXhvYXZQUFY5SjlicFBkWnR5TWMzeVowWjRrbTZZSEhPRWRNU1RVX0NUYzFEZHhpMGFteHptanVFbDN6V0NsWkNZdnNkdENiRER0MGRMMHU?oc=5",
-"time": "2026-11-26T12:59:09+00:00",
-"stage": "얼럿"
-},
-{
-"title": "[속보] 올리브영도 뚫렸다…해킹으로 개인정보 유출",
-"source": "서울신문",
-"link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE40R0gtd0QtTHBvcTdfb2RSa3A1YVdXZVdzZGVneFZCRnZWNkxSYndDVVZobWxINldfOHdQMU5ORGhsWWdabFNHbEFuTkZtQkltVkVjdHdMZm1CVHM1eEUxbDVxcFRUUk5GMGdnbFk1WQ?oc=5",
-"time": "2026-11-26T12:59:09+00:00",
-"stage": "속보"
-}
-],
-"level": "URGENT",
-"latest": "올리브영도 뚫렸다…해킹으로 개인정보 유출",
-"tok": [
-"개인정보",
-"뚫렸다",
-"올리브영",
-"유출",
-"해킹으"
-]
 }
 ],
 "sns": {
@@ -1175,9 +1138,9 @@
 "spike": false
 },
 "폭발": {
-"n30": 6,
+"n30": 4,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "붕괴": {
 "n30": 2,
@@ -1195,7 +1158,7 @@
 "spike": false
 },
 "속보": {
-"n30": 6,
+"n30": 5,
 "base": 0.1,
 "spike": true
 },
@@ -1206,7 +1169,7 @@
 },
 "사고": {
 "n30": 0,
-"base": 0.8,
+"base": 0.7,
 "spike": false
 },
 "실종": {
@@ -1455,18 +1418,11 @@
 ],
 "spikes": [
 {
-"term": "폭발",
-"n30": 6,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-26T18:57:52.867595+00:00"
-},
-{
 "term": "속보",
-"n30": 6,
+"n30": 5,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-26T18:57:52.867595+00:00"
+"since": "2026-11-26T19:00:08.812961+00:00"
 }
 ],
 "baseline": {
@@ -1480,7 +1436,7 @@
 "미사일": 0.05,
 "속보": 0.05,
 "지하철": 0.05,
-"사고": 0.69,
+"사고": 0.62,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
