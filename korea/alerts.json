@@ -1,7 +1,49 @@
 {
-"updated": "2026-11-26T15:17:31.497556+00:00",
+"updated": "2026-11-26T15:19:53.926901+00:00",
 "errors": [],
 "events": [
+{
+"id": "nkRSSLINKcooperRSSREADER1129",
+"first": "2026-11-26T11:29:12+00:00",
+"last": "2026-11-26T15:18:40+00:00",
+"updated": "2026-11-26T15:19:53.926901+00:00",
+"headline": "텔레그램서 \"건당 500원\"…해커 손에 '한전 정보'",
+"cat": "기타",
+"regions": [],
+"sources": [
+"SBS"
+],
+"updates": [
+{
+"title": "[단독] 텔레그램서 \"건당 500원\"…해커 손에 '한전 정보'",
+"source": "SBS",
+"link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008865645&plink=RSSLINK&cooper=RSSREADER",
+"time": "2026-11-26T11:29:12+00:00",
+"stage": "단독"
+},
+{
+"title": "[단독] 한전 유출 개인정보 텔레그램서 거래…\"건당 500원\"",
+"source": "SBS",
+"link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008865831&plink=RSSLINK&cooper=RSSREADER",
+"time": "2026-11-26T15:18:40+00:00",
+"stage": "단독"
+}
+],
+"level": "URGENT",
+"latest": "한전 유출 개인정보 텔레그램서 거래…\"건당 500원\"",
+"tok": [
+"500원",
+"개인정보",
+"거래",
+"건당",
+"손에",
+"유출",
+"정보",
+"텔레그램서",
+"한전",
+"해커"
+]
+},
 {
 "id": "QTOYJSG44GGZRQMQ4DQMDBG41505",
 "first": "2026-11-26T15:05:00+00:00",
@@ -2679,38 +2721,6 @@
 ]
 },
 {
-"id": "nkRSSLINKcooperRSSREADER1129",
-"first": "2026-11-26T11:29:12+00:00",
-"last": "2026-11-26T11:29:12+00:00",
-"updated": "2026-11-26T11:34:39.360698+00:00",
-"headline": "텔레그램서 \"건당 500원\"…해커 손에 '한전 정보'",
-"cat": "기타",
-"regions": [],
-"sources": [
-"SBS"
-],
-"updates": [
-{
-"title": "[단독] 텔레그램서 \"건당 500원\"…해커 손에 '한전 정보'",
-"source": "SBS",
-"link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008865645&plink=RSSLINK&cooper=RSSREADER",
-"time": "2026-11-26T11:29:12+00:00",
-"stage": "단독"
-}
-],
-"level": "URGENT",
-"latest": "텔레그램서 \"건당 500원\"…해커 손에 '한전 정보'",
-"tok": [
-"500원",
-"건당",
-"손에",
-"정보",
-"텔레그램서",
-"한전",
-"해커"
-]
-},
-{
 "id": "nkRSSLINKcooperRSSREADER1119",
 "first": "2026-11-26T11:19:47+00:00",
 "last": "2026-11-26T11:19:47+00:00",
@@ -3799,43 +3809,6 @@
 "이별통보한",
 "찾아"
 ]
-},
-{
-"id": "pZMXo2QTM2LXpXVW5ocVUoc50918",
-"first": "2026-11-26T09:18:14+00:00",
-"last": "2026-11-26T09:18:14+00:00",
-"updated": "2026-11-26T09:23:06.112247+00:00",
-"headline": "충청북도 보은군 산외면 원평리 산34-11임 산불… 인근 도로 주의",
-"cat": "재난",
-"regions": [
-"충북"
-],
-"sources": [
-"스페셜타임스"
-],
-"updates": [
-{
-"title": "[속보] 충청북도 보은군 산외면 원평리 산34-11임 산불… 인근 도로 주의",
-"source": "스페셜타임스",
-"link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE85cE9BbGQ3WG5EaklfdVZ5ZkVnYWZuVng3Uzd0MzRrRFVNSkxRcndLdTdiNzlsZDdlU1dPSUhTaTZsZ2RXZk9FTmg0ajRJQkxjMzVCVVZpRFAwWWZ2VWxkTTlfNnpZMXo2QTM2LXpXVW5ocVU?oc=5",
-"time": "2026-11-26T09:18:14+00:00",
-"stage": "얼럿"
-}
-],
-"level": "URGENT",
-"latest": "충청북도 보은군 산외면 원평리 산34-11임 산불… 인근 도로 주의",
-"tok": [
-"11임",
-"도로",
-"보은군",
-"산34",
-"산불",
-"산외면",
-"원평리",
-"인근",
-"주의",
-"충청북"
-]
 }
 ],
 "sns": {
@@ -3861,13 +3834,13 @@
 "spike": false
 },
 "폭발": {
-"n30": 8,
-"base": 0.8,
+"n30": 9,
+"base": 0.9,
 "spike": true
 },
 "붕괴": {
 "n30": 2,
-"base": 0.9,
+"base": 0.8,
 "spike": false
 },
 "대피": {
@@ -3887,17 +3860,17 @@
 },
 "지하철": {
 "n30": 5,
-"base": 0.4,
+"base": 0.5,
 "spike": true
 },
 "사고": {
-"n30": 0,
+"n30": 3,
 "base": 0.6,
 "spike": false
 },
 "실종": {
 "n30": 0,
-"base": 0.7,
+"base": 0.6,
 "spike": false
 },
 "단수": {
@@ -3922,6 +3895,46 @@
 }
 },
 "posts": [
+{
+"text": "그러니까 면역이 이상해서 오류가 발생 오류 안 멈춤 오류 씨발 으악 미친 끄아악—! 아아악 안 그래도 자체 오류인데 추가로 약물 투여하지 마——!! 오류 대폭발 자체 디돗.공격 으아아악!\n←이것이었으니\n\n면역 펌웨어 패치 완료.\n면역 오류 재검토 중.\n면역 오류 재발 요인을 확인했습니다.\n나우 로딩.\n분석 중.\n최적화 중…….\n약물 투여 확인. 정상 가동 중.\n←이쯤만 돼도 오류 빈도가 잦아",
+"handle": "tsuta.bsky.social",
+"name": "츠타蔦_漸龑",
+"time": "2026-11-26T15:17:59.552Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/tsuta.bsky.social/post/3n37xtgdxr224",
+"term": "폭발"
+},
+{
+"text": "자살사고가 없으면 안락사를 하러 가겟냐??? 어떤 새끼가 만든 규정이야",
+"handle": "syruu.bsky.social",
+"name": "챠챠",
+"time": "2026-11-26T15:17:51.843Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/syruu.bsky.social/post/3n37xtaobck22",
+"term": "사고"
+},
+{
+"text": "오늘 천궁탑도 오랜만에 완등했는데 진짜 잼잇었어요 ^////////^\n\n사고 몇 번 터졌는데 제일 웃겼던 거 탱 커님의 교통 사 고 . 너무웃겨서 영상 저장하고 싶었는데 그 후로 저도 몹들한테 두들겨 맞아서 못 찍은 게 아쉬버어",
+"handle": "fan-jjang.bsky.social",
+"name": "짱 호태",
+"time": "2026-11-26T15:17:42.753Z",
+"likes": 1,
+"reposts": 0,
+"url": "https://bsky.app/profile/fan-jjang.bsky.social/post/3n37xsvfdis2k",
+"term": "사고"
+},
+{
+"text": "아니 자살사고만 잇다고 하면 걍 바로 우울증 땅땅 때릴텐데 우울증 잇으면 안락사 안된다는게 대체 무슨 말이냐고 시발",
+"handle": "syruu.bsky.social",
+"name": "챠챠",
+"time": "2026-11-26T15:17:37.140Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/syruu.bsky.social/post/3n37xssmnmc22",
+"term": "사고"
+},
 {
 "text": "강호, 멀리 있지 않다... 지하철 타면 간다.. 오이도.. .",
 "handle": "rosemelda.co.kr",
@@ -4082,32 +4095,32 @@
 "spikes": [
 {
 "term": "폭발",
-"n30": 8,
-"base": 0.8,
+"n30": 9,
+"base": 0.9,
 "spike": true,
-"since": "2026-11-26T15:17:31.497556+00:00"
+"since": "2026-11-26T15:19:53.926901+00:00"
 },
 {
 "term": "지하철",
 "n30": 5,
-"base": 0.4,
+"base": 0.5,
 "spike": true,
-"since": "2026-11-26T15:17:31.497556+00:00"
+"since": "2026-11-26T15:19:53.926901+00:00"
 }
 ],
 "baseline": {
 "지진": 0.05,
 "화재": 0.05,
 "불났": 0.05,
-"정전": 0.21,
-"폭발": 0.91,
-"붕괴": 0.83,
+"정전": 0.19,
+"폭발": 1.12,
+"붕괴": 0.75,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.5,
-"사고": 0.55,
-"실종": 0.62,
+"지하철": 0.55,
+"사고": 0.8,
+"실종": 0.56,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
