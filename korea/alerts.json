@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-26T19:58:18.872358+00:00",
+"updated": "2026-11-26T20:00:31.721391+00:00",
 "errors": [],
 "events": [
 {
@@ -1108,9 +1108,9 @@
 "spike": false
 },
 "폭발": {
-"n30": 5,
+"n30": 4,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "붕괴": {
 "n30": 1,
@@ -1128,7 +1128,7 @@
 "spike": false
 },
 "속보": {
-"n30": 7,
+"n30": 5,
 "base": 0.1,
 "spike": true
 },
@@ -1388,18 +1388,11 @@
 ],
 "spikes": [
 {
-"term": "폭발",
+"term": "속보",
 "n30": 5,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-26T19:58:18.872358+00:00"
-},
-{
-"term": "속보",
-"n30": 7,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-26T19:58:18.872358+00:00"
+"since": "2026-11-26T20:00:31.721391+00:00"
 }
 ],
 "baseline": {
@@ -1774,14 +1767,14 @@
 "time": "2026-11-26T17:30:00+00:00",
 "news": [
 {
+"title": "Brighton 4-0 CSU Craiova (Nov 26, 2026) Game Analysis",
+"source": "ESPN",
+"link": "https://www.espn.com/soccer/report/_/gameId/401915814"
+},
+{
 "title": "Brighton news: Jack Hinshelwood on using the Conference League to 'push on' this season",
 "source": "BBC",
 "link": "https://www.bbc.com/sport/football/articles/cr15el38q3deo"
-},
-{
-"title": "Licensable picture: UEFA Conference League - Brighton & Hove Albion v Universitatea Craiova",
-"source": "Reuters Connect",
-"link": "https://www.reutersconnect.com/item/uefa-conference-league-brighton-hove-albion-v-universitatea-craiova/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX1VQMUVNQlExSEhOQkc"
 }
 ],
 "new": true
