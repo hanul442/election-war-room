@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-26T20:29:58.322553+00:00",
+"updated": "2026-11-26T20:32:12.175446+00:00",
 "errors": [],
 "events": [
 {
@@ -1169,7 +1169,7 @@
 "spike": false
 },
 "화재": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -1189,7 +1189,7 @@
 "spike": false
 },
 "붕괴": {
-"n30": 4,
+"n30": 2,
 "base": 0.1,
 "spike": false
 },
@@ -1199,17 +1199,17 @@
 "spike": false
 },
 "미사일": {
-"n30": 2,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
 "속보": {
-"n30": 9,
+"n30": 4,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "지하철": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -1444,15 +1444,7 @@
 "url": "https://www.youtube.com/watch?v=vPx_g2CKdbg"
 }
 ],
-"spikes": [
-{
-"term": "속보",
-"n30": 9,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-26T20:29:58.322553+00:00"
-}
-],
+"spikes": [],
 "baseline": {
 "지진": 0.05,
 "화재": 0.05,
