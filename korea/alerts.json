@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-26T15:22:12.740997+00:00",
+"updated": "2026-11-26T15:24:31.450894+00:00",
 "errors": [],
 "events": [
 {
@@ -3835,12 +3835,12 @@
 },
 "폭발": {
 "n30": 9,
-"base": 1.1,
+"base": 1.3,
 "spike": true
 },
 "붕괴": {
 "n30": 2,
-"base": 0.8,
+"base": 0.7,
 "spike": false
 },
 "대피": {
@@ -3865,12 +3865,12 @@
 },
 "사고": {
 "n30": 3,
-"base": 0.8,
+"base": 1.0,
 "spike": false
 },
 "실종": {
 "n30": 0,
-"base": 0.6,
+"base": 0.5,
 "spike": false
 },
 "단수": {
@@ -3910,7 +3910,7 @@
 "handle": "syruu.bsky.social",
 "name": "챠챠",
 "time": "2026-11-26T15:17:51.843Z",
-"likes": 0,
+"likes": 1,
 "reposts": 0,
 "url": "https://bsky.app/profile/syruu.bsky.social/post/3n37xtaobck22",
 "term": "사고"
@@ -3930,7 +3930,7 @@
 "handle": "syruu.bsky.social",
 "name": "챠챠",
 "time": "2026-11-26T15:17:37.140Z",
-"likes": 0,
+"likes": 1,
 "reposts": 0,
 "url": "https://bsky.app/profile/syruu.bsky.social/post/3n37xssmnmc22",
 "term": "사고"
@@ -4096,31 +4096,31 @@
 {
 "term": "폭발",
 "n30": 9,
-"base": 1.1,
+"base": 1.3,
 "spike": true,
-"since": "2026-11-26T15:22:12.740997+00:00"
+"since": "2026-11-26T15:24:31.450894+00:00"
 },
 {
 "term": "지하철",
 "n30": 5,
 "base": 0.6,
 "spike": true,
-"since": "2026-11-26T15:22:12.740997+00:00"
+"since": "2026-11-26T15:24:31.450894+00:00"
 }
 ],
 "baseline": {
 "지진": 0.05,
 "화재": 0.05,
 "불났": 0.05,
-"정전": 0.17,
-"폭발": 1.31,
-"붕괴": 0.68,
+"정전": 0.15,
+"폭발": 1.48,
+"붕괴": 0.61,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.6,
-"사고": 1.02,
-"실종": 0.5,
+"지하철": 0.64,
+"사고": 1.22,
+"실종": 0.45,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -4259,8 +4259,26 @@
 },
 "trends": [
 {
+"term": "회계사",
+"traffic": "200+",
+"time": "2026-11-26T14:20:00+00:00",
+"news": [
+{
+"title": "중고생 담배·음주 줄고 고강도 신체활동↑",
+"source": "YTN 사이언스",
+"link": "https://m.science.ytn.co.kr/program/view_today.php?s_mcd=0082&key=202611261603312920"
+},
+{
+"title": "회계사 선발 중장기 계획 세운다더니 제외…업계 후폭풍",
+"source": "마켓인",
+"link": "https://marketin.edaily.co.kr/News/ReadE?newsId=03739206645649656"
+}
+],
+"new": false
+},
+{
 "term": "스파이",
-"traffic": "100+",
+"traffic": "200+",
 "time": "2026-11-26T14:10:00+00:00",
 "news": [
 {
@@ -4272,6 +4290,24 @@
 "title": "No Evidence China Orchestrated Jensen Huang’s Affair, Officials Brief Congress",
 "source": "WSJ",
 "link": "https://www.wsj.com/politics/national-security/no-evidence-china-orchestrated-jensen-huangs-affair-officials-brief-congress-00228bb7"
+}
+],
+"new": true
+},
+{
+"term": "크리스 리벤",
+"traffic": "100+",
+"time": "2026-11-26T14:10:00+00:00",
+"news": [
+{
+"title": "“용돈 괜찮으니 아프지 마”…폭풍성장 사랑이 ‘은퇴’ 추성훈 응원",
+"source": "중앙일보",
+"link": "https://www.joongang.co.kr/article/25481707"
+},
+{
+"title": "'15세' 추사랑, 벌써 키 172cm..유창한 영어로 국제학교 친구들 소개 ('편스토랑')",
+"source": "조선일보",
+"link": "https://www.chosun.com/entertainments/broadcast/2026/11/26/MVSTMOLGHE2TQMLGHFRTMNTCG4/"
 }
 ],
 "new": true
@@ -4313,24 +4349,6 @@
 "new": true
 },
 {
-"term": "송파구",
-"traffic": "200+",
-"time": "2026-11-26T13:40:00+00:00",
-"news": [
-{
-"title": "李대통령이 옳았나…송파 집값, 4년만에 역대급 추락했다",
-"source": "매일경제",
-"link": "https://www.mk.co.kr/news/realestate/12219258"
-},
-{
-"title": "서울 아파트값 떨어지나? 한강벨트까지 하락세 전환",
-"source": "한겨레",
-"link": "https://www.hani.co.kr/arti/economy/property/1289263.html"
-}
-],
-"new": true
-},
-{
 "term": "u17 việt nam",
 "traffic": "200+",
 "time": "2026-11-26T13:40:00+00:00",
@@ -4344,6 +4362,24 @@
 "title": "HLV Mali gọi U17 Việt Nam là \"đội bóng mạnh\", yêu cầu đội nhà cảnh giác",
 "source": "Tin tức 24h",
 "link": "https://www.24h.com.vn/bong-da/hlv-mali-goi-u17-viet-nam-la-doi-bong-manh-yeu-cau-doi-nha-canh-giac-c48a1814068.html"
+}
+],
+"new": true
+},
+{
+"term": "송파구",
+"traffic": "200+",
+"time": "2026-11-26T13:40:00+00:00",
+"news": [
+{
+"title": "李대통령이 옳았나…송파 집값, 4년만에 역대급 추락했다",
+"source": "매일경제",
+"link": "https://www.mk.co.kr/news/realestate/12219258"
+},
+{
+"title": "서울 아파트값 떨어지나? 한강벨트까지 하락세 전환",
+"source": "한겨레",
+"link": "https://www.hani.co.kr/arti/economy/property/1289263.html"
 }
 ],
 "new": true
@@ -4390,49 +4426,13 @@
 }
 ],
 "new": true
-},
-{
-"term": "김아현 주식 눈물",
-"traffic": "2000+",
-"time": "2026-11-26T12:20:00+00:00",
-"news": [
-{
-"title": "“삼성전자 15% 폭락 차트 보더니 결국 눈물”…생방송 중 무너진 증시 진행자, 무슨 일이",
-"source": "전자신문",
-"link": "https://www.etnews.com/20261126000530"
-},
-{
-"title": "“주가 빠질 땐 왜 대통령 탓 못 하나”…‘李 사심’ 이광수도 폭발",
-"source": "마켓인",
-"link": "https://marketin.edaily.co.kr/News/ReadE?newsId=02440326645649656"
-}
-],
-"new": true
-},
-{
-"term": "나인투식스",
-"traffic": "5000+",
-"time": "2026-11-26T12:10:00+00:00",
-"news": [
-{
-"title": "\"피 철철 흘리고 구급차까지\" 박민영, 촬영 중 쓰러져…무슨 질환이길래 [헬스톡]",
-"source": "파이낸셜뉴스",
-"link": "https://www.fnnews.com/news/202611252205108656"
-},
-{
-"title": "나인 투 식스 : 육성재×박민영, 매콤한 불짬뽕 회식으로 회사에서 쌓인 스트레스 화끈하게 해소",
-"source": "programs.sbs.co.kr",
-"link": "https://programs.sbs.co.kr/drama/ninetosix/clip/90025/OC484431497?div=live_end"
-}
-],
-"new": true
 }
 ],
 "trendSeen": [
-"쿠칭시티",
 "쿠팡플레이",
 "쿠플",
 "크러쉬 조이",
+"크리스 리벤",
 "크리스 페덱",
 "크리스털 팰리스 대 리버풀",
 "크보",
