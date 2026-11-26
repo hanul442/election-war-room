@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-26T06:26:46.041503+00:00",
+"updated": "2026-11-26T06:29:03.085892+00:00",
 "errors": [],
 "events": [
 {
@@ -496,7 +496,7 @@
 "id": "ssutm_campaigntotal_news0620",
 "first": "2026-11-26T06:20:00+00:00",
 "last": "2026-11-26T06:20:00+00:00",
-"updated": "2026-11-26T06:22:11.055190+00:00",
+"updated": "2026-11-26T06:29:03.085892+00:00",
 "headline": "언론사 허위조작정보 판결엔 정부광고 최대 1년 중단 등 ‘언론4법’ 소위 통과",
 "cat": "정치",
 "regions": [],
@@ -510,6 +510,13 @@
 "link": "https://www.khan.co.kr/article/202611261520001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
 "time": "2026-11-26T06:20:00+00:00",
 "stage": "얼럿"
+},
+{
+"title": "[속보]언론사 허위조작정보 판결엔 정부광고 최대 1년 중단 등 ‘언론4법’ 소위 통과",
+"source": "경향신문",
+"link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9Wc1NSUjY0TmFzLUtzclpnYWQ5cWh1MWJuTm1mRjBkOWFiNE1oOGdIZWprOXJxaEo3cHNxaE1CYnRNSGcxdjA3VXBZaEgtcUthXzh3TGhoZVNHZ9IBX0FVX3lxTFBTSjlWSkoxdnlQMWhBcGg5MW9ndmlLRXBfWHNBX011RW5wV2JZamh5VTNud0FYY3U0aEJRQTNteUc1ejJxQjlCdXY2bEE1SzhENVU0STlsaEwzSDNzVm9r?oc=5",
+"time": "2026-11-26T06:20:00+00:00",
+"stage": "속보"
 }
 ],
 "level": "URGENT",
@@ -4324,12 +4331,12 @@
 },
 "정전": {
 "n30": 1,
-"base": 0.5,
+"base": 0.4,
 "spike": false
 },
 "폭발": {
 "n30": 8,
-"base": 0.1,
+"base": 0.2,
 "spike": true
 },
 "붕괴": {
@@ -4349,7 +4356,7 @@
 },
 "속보": {
 "n30": 6,
-"base": 0.2,
+"base": 0.1,
 "spike": true
 },
 "지하철": {
@@ -4358,8 +4365,8 @@
 "spike": false
 },
 "사고": {
-"n30": 0,
-"base": 1.9,
+"n30": 1,
+"base": 1.8,
 "spike": false
 },
 "실종": {
@@ -4368,8 +4375,8 @@
 "spike": false
 },
 "단수": {
-"n30": 1,
-"base": 0.7,
+"n30": 0,
+"base": 0.8,
 "spike": false
 },
 "통신 장애": {
@@ -4389,6 +4396,16 @@
 }
 },
 "posts": [
+{
+"text": "흑흑 솔직히 못 받으면 사고인 수준이긴 햇는데ㅋㅋ 넘넘 기쁘네요...",
+"handle": "pomme-alien.bsky.social",
+"name": "뽐",
+"time": "2026-11-26T06:28:19.941Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/pomme-alien.bsky.social/post/3n372af7qok2a",
+"term": "사고"
+},
 {
 "text": "이집트 문명이나 로마 문명 등\n지금은 계승되지 않는 문명들은\n퀄리티가 형편없어서 무너진 게 아니라\n서로 먹고 먹히는 정복전쟁이나\n폼페이 화산폭발 등의 자연재해 등이\n겹쳐서 생긴 결과물이기도 함.\n\n그래서 지금의 문명은\n인류사상 최고로 뛰어난 문명이 아니라\n살아남은 문명이다라는 시각이 있음.",
 "handle": "thx.mustard.blog.ap.brid.gy",
@@ -4590,16 +4607,6 @@
 "url": "https://www.youtube.com/watch?v=lk_kH1BvJlc"
 },
 {
-"text": "엘니뇨 가뭄으로 재난사태를 선포한 지역이 전국 106개 시·군으로 늘었어요. 피해 주민 약 38만 8천 명, 농업 손실 약 55억 페소. 보홀·이사벨라는 주 전역이 포함됐어요. 비사야 교민은 생수·단수 공지 확인하세요.\nhttps://philcok.online/p/415\n💬 교민 오픈채팅방 https://open.kakao.com/o/gtd2YcYi",
-"handle": "philcok.bsky.social",
-"name": "필콕 | PHILCOK",
-"time": "2026-11-26T05:57:22.242Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/philcok.bsky.social/post/3n36yiyqs2r2y",
-"term": "단수"
-},
-{
 "platform": "YouTube",
 "text": "[속보] 대법, 윤석열 '한덕수 재판 위증' 무죄 확정 [이슈PLAY] /JTBC News",
 "handle": "UCsU-I-vHLiaMfV_ceaYz5rQ",
@@ -4613,32 +4620,32 @@
 {
 "term": "폭발",
 "n30": 8,
-"base": 0.1,
+"base": 0.2,
 "spike": true,
-"since": "2026-11-26T06:26:46.041503+00:00"
+"since": "2026-11-26T06:29:03.085892+00:00"
 },
 {
 "term": "속보",
 "n30": 6,
-"base": 0.2,
+"base": 0.1,
 "spike": true,
-"since": "2026-11-26T06:26:46.041503+00:00"
+"since": "2026-11-26T06:29:03.085892+00:00"
 }
 ],
 "baseline": {
 "지진": 0.05,
 "화재": 0.05,
 "불났": 0.05,
-"정전": 0.41,
-"폭발": 0.24,
-"붕괴": 0.71,
+"정전": 0.37,
+"폭발": 0.32,
+"붕괴": 0.74,
 "대피": 0.05,
-"미사일": 0.26,
-"속보": 0.14,
-"지하철": 0.1,
-"사고": 1.75,
+"미사일": 0.23,
+"속보": 0.13,
+"지하철": 0.09,
+"사고": 1.68,
 "실종": 0.05,
-"단수": 0.77,
+"단수": 0.69,
 "통신 장애": 0.05,
 "먹통": 0.05,
 "산불": 0.05
