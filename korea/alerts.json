@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-26T14:43:03.863252+00:00",
+"updated": "2026-11-26T14:45:21.977701+00:00",
 "errors": [],
 "events": [
 {
@@ -4355,14 +4355,14 @@
 "spike": false
 },
 "폭발": {
-"n30": 7,
+"n30": 6,
 "base": 0.1,
 "spike": true
 },
 "붕괴": {
 "n30": 5,
-"base": 1.5,
-"spike": true
+"base": 1.7,
+"spike": false
 },
 "대피": {
 "n30": 0,
@@ -4381,16 +4381,16 @@
 },
 "지하철": {
 "n30": 2,
-"base": 0.8,
+"base": 0.7,
 "spike": false
 },
 "사고": {
 "n30": 1,
-"base": 1.4,
+"base": 1.3,
 "spike": false
 },
 "실종": {
-"n30": 0,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
@@ -4416,6 +4416,16 @@
 }
 },
 "posts": [
+{
+"text": "완전 아기일 때 실종되거나 하면 정말 중요한 단서라고 했다.",
+"handle": "tsuta.bsky.social",
+"name": "츠타蔦_漸龑",
+"time": "2026-11-26T14:45:11.443Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/tsuta.bsky.social/post/3n37vytefgk2q",
+"term": "실종"
+},
 {
 "platform": "YouTube",
 "text": "붕괴: 넥서스 아니마 키아나 서브 퀘스트 -『고독하지 않은 미식가』",
@@ -4668,39 +4678,32 @@
 "spikes": [
 {
 "term": "폭발",
-"n30": 7,
+"n30": 6,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-26T14:43:03.863252+00:00"
-},
-{
-"term": "붕괴",
-"n30": 5,
-"base": 1.5,
-"spike": true,
-"since": "2026-11-26T14:43:03.863252+00:00"
+"since": "2026-11-26T14:45:21.977701+00:00"
 },
 {
 "term": "속보",
 "n30": 5,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-26T14:43:03.863252+00:00"
+"since": "2026-11-26T14:45:21.977701+00:00"
 }
 ],
 "baseline": {
 "지진": 0.05,
 "화재": 0.05,
 "불났": 0.05,
-"정전": 0.64,
+"정전": 0.68,
 "폭발": 0.05,
-"붕괴": 1.68,
+"붕괴": 1.81,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.72,
-"사고": 1.34,
-"실종": 0.05,
+"지하철": 0.65,
+"사고": 1.31,
+"실종": 0.15,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -4912,7 +4915,7 @@
 "trends": [
 {
 "term": "반도체 메모리",
-"traffic": "5000+",
+"traffic": "1000+",
 "time": "2026-11-26T13:40:00+00:00",
 "news": [
 {
@@ -4948,7 +4951,7 @@
 },
 {
 "term": "u17 việt nam",
-"traffic": "100+",
+"traffic": "200+",
 "time": "2026-11-26T13:40:00+00:00",
 "news": [
 {
@@ -4960,24 +4963,6 @@
 "title": "Việt Nam - Mali: Hy vọng làm nên lịch sử",
 "source": "VnExpress",
 "link": "https://vnexpress.net/truc-tiep-u17-world-cup-viet-nam-mali-5149345.html"
-}
-],
-"new": true
-},
-{
-"term": "đội tuyển bóng đá u-17 quốc gia việt nam đấu với u-17 mali",
-"traffic": "100+",
-"time": "2026-11-26T13:20:00+00:00",
-"news": [
-{
-"title": "Việt Nam nhận tin không vui ở World Cup U17",
-"source": "Tuổi Trẻ",
-"link": "https://tuoitre.vn/viet-nam-nhan-tin-khong-vui-o-world-cup-u17-100261125220901641.htm"
-},
-{
-"title": "Xác định 18 đội bóng giành quyền đi tiếp ở U17 World Cup 2026",
-"source": "Báo Dân trí",
-"link": "https://dantri.com.vn/the-thao/xac-dinh-18-doi-bong-gianh-quyen-di-tiep-o-u17-world-cup-2026-20261126080303628.htm"
 }
 ],
 "new": true
@@ -5086,6 +5071,24 @@
 "title": "'무쇠소녀단3', 아파트 100층 높이 극한 훈련…쇼트트랙 도전 시작",
 "source": "뉴스핌",
 "link": "https://www.newspim.com/news/view/20261126000413"
+}
+],
+"new": true
+},
+{
+"term": "weather tomorrow",
+"traffic": "5000+",
+"time": "2026-11-26T11:50:00+00:00",
+"news": [
+{
+"title": "UAE weather: Red alert issued for fog; chance of rain in some areas",
+"source": "Khaleej Times",
+"link": "https://www.khaleejtimes.com/uae/weather/november-26-2026"
+},
+{
+"title": "UAE weather forecast: Scattered showers in some island, coastal and western areas, with fog expected overnight",
+"source": "Emirates 24|7",
+"link": "https://www.emirates247.com/uae/uae-weather-forecast-scattered-showers-in-some-island-coastal-and-western-areas-with-fog-expected-overnight/8128"
 }
 ],
 "new": true
