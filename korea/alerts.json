@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-26T23:45:46.742617+00:00",
+"updated": "2026-11-26T23:47:59.633320+00:00",
 "errors": [],
 "events": [
 {
@@ -170,7 +170,7 @@
 "id": "UFxMjc5T3k0dUt1RnJFUQoc51903",
 "first": "2026-11-26T19:03:15+00:00",
 "last": "2026-11-26T23:20:36+00:00",
-"updated": "2026-11-26T23:25:38.184939+00:00",
+"updated": "2026-11-26T23:47:59.633320+00:00",
 "headline": "남해고속도로(순천-부산) 승용차 단독사고 처리중",
 "cat": "교통",
 "regions": [
@@ -199,6 +199,13 @@
 "title": "[속보] 서해안고속도로 단독사고 처리중(화재)",
 "source": "스페셜타임스",
 "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1RejB4NEJ0Z3pIUWdLOVpUeGVGczdwWUV3U0tUbHNOT0FvUWEtT1lRQUppcUZreFNaYkVWS0daay1rUXY3dzN4RFB2OGhuem1WaW9VQmU4azdKekxuWW81SVVmcmlvclViR0tQVnRQTVN3QQ?oc=5",
+"time": "2026-11-26T23:20:36+00:00",
+"stage": "속보"
+},
+{
+"title": "[속보] 서해안고속도로 단독사고 처리중(화재)",
+"source": "스페셜타임스",
+"link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBQZEoyV3hTQzFOZWgwM1E2aHZERjEtUXBlcTFESWVjU1IzcjZhZk1OOXNkWWNZdnV0aml2T3h6bmJzeFQxY2tpSU9iWGU2OTFIaW9IWkFSN0NneXh1Y0kxVjZBZHlQYUl0bGVlWXVpYmVOS1k?oc=5",
 "time": "2026-11-26T23:20:36+00:00",
 "stage": "속보"
 }
@@ -1752,12 +1759,12 @@
 "spike": false
 },
 "폭발": {
-"n30": 5,
+"n30": 4,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "붕괴": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -1778,12 +1785,12 @@
 },
 "지하철": {
 "n30": 3,
-"base": 0.8,
+"base": 0.9,
 "spike": false
 },
 "사고": {
 "n30": 4,
-"base": 2.6,
+"base": 2.8,
 "spike": false
 },
 "실종": {
@@ -2047,32 +2054,25 @@
 ],
 "spikes": [
 {
-"term": "폭발",
-"n30": 5,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-26T23:45:46.742617+00:00"
-},
-{
 "term": "속보",
 "n30": 5,
 "base": 0.2,
 "spike": true,
-"since": "2026-11-26T23:45:46.742617+00:00"
+"since": "2026-11-26T23:47:59.633320+00:00"
 }
 ],
 "baseline": {
 "지진": 0.05,
-"화재": 0.1,
+"화재": 0.09,
 "불났": 0.05,
 "정전": 0.05,
 "폭발": 0.05,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.18,
-"지하철": 0.9,
-"사고": 2.77,
+"속보": 0.16,
+"지하철": 1.01,
+"사고": 2.89,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
