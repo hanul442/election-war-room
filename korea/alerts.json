@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-26T17:23:31.098183+00:00",
+"updated": "2026-11-26T17:25:45.234191+00:00",
 "errors": [],
 "events": [
 {
@@ -3071,7 +3071,7 @@
 "spike": false
 },
 "속보": {
-"n30": 13,
+"n30": 12,
 "base": 1.0,
 "spike": true
 },
@@ -3318,14 +3318,14 @@
 "n30": 5,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-26T17:23:31.098183+00:00"
+"since": "2026-11-26T17:25:45.234191+00:00"
 },
 {
 "term": "속보",
-"n30": 13,
+"n30": 12,
 "base": 1.0,
 "spike": true,
-"since": "2026-11-26T17:23:31.098183+00:00"
+"since": "2026-11-26T17:25:45.234191+00:00"
 }
 ],
 "baseline": {
@@ -3334,12 +3334,12 @@
 "불났": 0.05,
 "정전": 0.05,
 "폭발": 0.05,
-"붕괴": 0.37,
+"붕괴": 0.33,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 1.04,
 "지하철": 0.05,
-"사고": 0.66,
+"사고": 0.59,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -3614,6 +3614,24 @@
 "new": true
 },
 {
+"term": "노동쟁의",
+"traffic": "100+",
+"time": "2026-11-26T14:10:00+00:00",
+"news": [
+{
+"title": "헌재 “다른 노조 파업 지원했다고 처벌한 옛 노동법은 위헌”",
+"source": "KBS 뉴스",
+"link": "https://news.kbs.co.kr/news/view.do?ncd=8723445"
+},
+{
+"title": "신군부가 범죄로 규정한 노동자들의 ‘연대’…헌재, 36년 만에 위헌 결정",
+"source": "경향신문",
+"link": "https://www.khan.co.kr/article/202611261644001"
+}
+],
+"new": true
+},
+{
 "term": "크리스 리벤",
 "traffic": "200+",
 "time": "2026-11-26T14:10:00+00:00",
@@ -3699,24 +3717,6 @@
 "title": "[클릭! 자치뉴스] 서울 송파구, 'AI 교육·창업 지원' 청년센터 개관",
 "source": "한국일보",
 "link": "https://www.hankookilbo.com/news/article/A2026112609590000892"
-}
-],
-"new": true
-},
-{
-"term": "u17 việt nam",
-"traffic": "200+",
-"time": "2026-11-26T13:40:00+00:00",
-"news": [
-{
-"title": "Kết quả bóng đá U17 Việt Nam vs U17 Mali: Cái kết nghiệt ngã",
-"source": "Thể Thao 247",
-"link": "https://thethao247.vn/190556-ket-qua-bong-da-u17-viet-nam-vs-u17-mali-20h00-hom-nay-26-11-c1-d447313.html"
-},
-{
-"title": "HLV Mali gọi U17 Việt Nam là \"đội bóng mạnh\", yêu cầu đội nhà cảnh giác",
-"source": "Tin tức 24h",
-"link": "https://www.24h.com.vn/bong-da/hlv-mali-goi-u17-viet-nam-la-doi-bong-manh-yeu-cau-doi-nha-canh-giac-c48a1814068.html"
 }
 ],
 "new": true
