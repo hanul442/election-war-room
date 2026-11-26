@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-26T14:22:21.315372+00:00",
+"updated": "2026-11-26T14:24:39.691242+00:00",
 "errors": [],
 "events": [
 {
@@ -4498,7 +4498,7 @@
 "spike": false
 },
 "정전": {
-"n30": 0,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
@@ -4508,7 +4508,7 @@
 "spike": true
 },
 "붕괴": {
-"n30": 2,
+"n30": 3,
 "base": 0.1,
 "spike": false
 },
@@ -4529,12 +4529,12 @@
 },
 "지하철": {
 "n30": 1,
-"base": 1.7,
+"base": 1.6,
 "spike": false
 },
 "사고": {
 "n30": 0,
-"base": 2.7,
+"base": 2.4,
 "spike": false
 },
 "실종": {
@@ -4564,6 +4564,26 @@
 }
 },
 "posts": [
+{
+"text": "올해 참 많은 일이 있었고 많은 생활패턴이 또 붕괴됐습니다...\n다시 재배열 시켜야지 🥲",
+"handle": "delranoah.bsky.social",
+"name": "델라노아 delranoah",
+"time": "2026-11-26T14:24:07.442Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/delranoah.bsky.social/post/3n37ut5fdek2d",
+"term": "붕괴"
+},
+{
+"text": "아Q 정전 같은 이야기들이 있는 책인\nㅋㅋ",
+"handle": "ojm9204.bsky.social",
+"name": "ojm9204",
+"time": "2026-11-26T14:22:08.048Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/ojm9204.bsky.social/post/3n37upm6frk2k",
+"term": "정전"
+},
 {
 "platform": "YouTube",
 "text": "#코미디 #웃긴영상 #개그영상 #재미있는영상 #웃음폭발 #유머 #인기영상",
@@ -4734,21 +4754,21 @@
 "n30": 7,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-26T14:22:21.315372+00:00"
+"since": "2026-11-26T14:24:39.691242+00:00"
 }
 ],
 "baseline": {
 "지진": 0.05,
-"화재": 0.12,
+"화재": 0.11,
 "불났": 0.05,
-"정전": 0.05,
+"정전": 0.15,
 "폭발": 0.05,
-"붕괴": 0.05,
+"붕괴": 0.15,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 1.61,
-"사고": 2.42,
+"지하철": 1.55,
+"사고": 2.18,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -4915,6 +4935,24 @@
 },
 "trends": [
 {
+"term": "đội tuyển bóng đá u-17 quốc gia việt nam đấu với u-17 mali",
+"traffic": "100+",
+"time": "2026-11-26T13:20:00+00:00",
+"news": [
+{
+"title": "Trực tiếp bóng đá U17 Việt Nam vs U17 Mali, 20h00 hôm nay 26/11",
+"source": "Thể Thao 247",
+"link": "https://thethao247.vn/190556-truc-tiep-bong-da-u17-viet-nam-vs-u17-mali-20h00-hom-nay-26-11-c1-d447313.html"
+},
+{
+"title": "HLV Mali gọi U17 Việt Nam là \"đội bóng mạnh\", yêu cầu đội nhà cảnh giác",
+"source": "Tin tức 24h",
+"link": "https://www.24h.com.vn/bong-da/hlv-mali-goi-u17-viet-nam-la-doi-bong-manh-yeu-cau-doi-nha-canh-giac-c48a1814068.html"
+}
+],
+"new": true
+},
+{
 "term": "수디르만컵",
 "traffic": "200+",
 "time": "2026-11-26T13:00:00+00:00",
@@ -4952,20 +4990,9 @@
 },
 {
 "term": "이데일리",
-"traffic": "2000+",
+"traffic": "500+",
 "time": "2026-11-26T12:40:00+00:00",
-"news": [
-{
-"title": "수능 만점 최소 3명이라는데…모두 \"공개 싫다\" 이유가",
-"source": "한국경제",
-"link": "https://www.hankyung.com/article/202611261522H"
-},
-{
-"title": "수능 만점 받고도 숨는다…AI 부정행위 논란에 ‘쉬쉬’",
-"source": "JTBC",
-"link": "https://news.jtbc.co.kr/article/NB12329904"
-}
-],
+"news": [],
 "new": true
 },
 {
@@ -5074,13 +5101,6 @@
 "link": "https://www.fnnews.com/news/202611191444474509"
 }
 ],
-"new": true
-},
-{
-"term": "погода завтра",
-"traffic": "1000+",
-"time": "2026-11-26T11:40:00+00:00",
-"news": [],
 "new": true
 }
 ],
