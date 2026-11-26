@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-26T17:21:17.228808+00:00",
+"updated": "2026-11-26T17:23:31.098183+00:00",
 "errors": [],
 "events": [
 {
@@ -3057,7 +3057,7 @@
 },
 "붕괴": {
 "n30": 1,
-"base": 0.5,
+"base": 0.4,
 "spike": false
 },
 "대피": {
@@ -3071,7 +3071,7 @@
 "spike": false
 },
 "속보": {
-"n30": 14,
+"n30": 13,
 "base": 1.0,
 "spike": true
 },
@@ -3082,7 +3082,7 @@
 },
 "사고": {
 "n30": 0,
-"base": 0.8,
+"base": 0.7,
 "spike": false
 },
 "실종": {
@@ -3318,14 +3318,14 @@
 "n30": 5,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-26T17:21:17.228808+00:00"
+"since": "2026-11-26T17:23:31.098183+00:00"
 },
 {
 "term": "속보",
-"n30": 14,
+"n30": 13,
 "base": 1.0,
 "spike": true,
-"since": "2026-11-26T17:21:17.228808+00:00"
+"since": "2026-11-26T17:23:31.098183+00:00"
 }
 ],
 "baseline": {
@@ -3334,12 +3334,12 @@
 "불났": 0.05,
 "정전": 0.05,
 "폭발": 0.05,
-"붕괴": 0.41,
+"붕괴": 0.37,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 1.04,
 "지하철": 0.05,
-"사고": 0.73,
+"사고": 0.66,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -3542,6 +3542,24 @@
 },
 "trends": [
 {
+"term": "아마존",
+"traffic": "100+",
+"time": "2026-11-26T16:20:00+00:00",
+"news": [
+{
+"title": "I found the 86 best Amazon Black Friday deals on AirPods, Dyson vacuums and more",
+"source": "CNN",
+"link": "https://www.cnn.com/cnn-underscored/deals/amazon-black-friday-2026-11-25"
+},
+{
+"title": "Amazon Black Friday deals: Live updates on the biggest sales from Apple, Yeti, Ninja, Ring, KitchenAid and more during Cyber Week 2026",
+"source": "Yahoo",
+"link": "https://shopping.yahoo.com/deals/breaking-news/live/amazon-black-friday-deals-live-updates-on-the-biggest-sales-from-apple-yeti-ninja-ring-kitchenaid-and-more-during-cyber-week-2026-153217857.html"
+}
+],
+"new": true
+},
+{
 "term": "정연",
 "traffic": "100+",
 "time": "2026-11-26T15:40:00+00:00",
@@ -3699,24 +3717,6 @@
 "title": "HLV Mali gọi U17 Việt Nam là \"đội bóng mạnh\", yêu cầu đội nhà cảnh giác",
 "source": "Tin tức 24h",
 "link": "https://www.24h.com.vn/bong-da/hlv-mali-goi-u17-viet-nam-la-doi-bong-manh-yeu-cau-doi-nha-canh-giac-c48a1814068.html"
-}
-],
-"new": true
-},
-{
-"term": "수디르만컵",
-"traffic": "500+",
-"time": "2026-11-26T13:00:00+00:00",
-"news": [
-{
-"title": "'꿈은 이뤄졌다'배드민턴 메이저대회 '수디르만컵' 한국서 열린다…2029년 대회 개최 확정, 한국 셔틀콕 오랜 숙원 해결 '쾌거'",
-"source": "조선일보",
-"link": "https://www.chosun.com/sports/sports_general/2026/11/26/HBRTQZLFMY2WEZBTG5QTOYRTGU/"
-},
-{
-"title": "'안세영 독주 견제하려는 것 아닌가' 15점제가 끝이 아니었다…BWF 대격변 공식발표! 세계선수권+국가대항전 싹 바뀐다→\"근거 없는 억측\"",
-"source": "SPOTV NEWS",
-"link": "https://www.spotvnews.co.kr/news/articleView.html?idxno=1021959"
 }
 ],
 "new": true
