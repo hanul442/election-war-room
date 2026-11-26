@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-26T15:29:06.004265+00:00",
+"updated": "2026-11-26T15:31:24.957955+00:00",
 "errors": [],
 "events": [
 {
@@ -3833,22 +3833,22 @@
 "spike": false
 },
 "폭발": {
-"n30": 9,
-"base": 1.6,
+"n30": 6,
+"base": 1.8,
 "spike": true
 },
 "붕괴": {
-"n30": 2,
-"base": 0.6,
+"n30": 0,
+"base": 0.5,
 "spike": false
 },
 "대피": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
 "미사일": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -3858,13 +3858,13 @@
 "spike": false
 },
 "지하철": {
-"n30": 5,
+"n30": 3,
 "base": 0.7,
-"spike": true
+"spike": false
 },
 "사고": {
 "n30": 3,
-"base": 1.4,
+"base": 1.6,
 "spike": false
 },
 "실종": {
@@ -3919,7 +3919,7 @@
 "handle": "fan-jjang.bsky.social",
 "name": "짱 호태",
 "time": "2026-11-26T15:17:42.753Z",
-"likes": 1,
+"likes": 2,
 "reposts": 0,
 "url": "https://bsky.app/profile/fan-jjang.bsky.social/post/3n37xsvfdis2k",
 "term": "사고"
@@ -4094,32 +4094,25 @@
 "spikes": [
 {
 "term": "폭발",
-"n30": 9,
-"base": 1.6,
+"n30": 6,
+"base": 1.8,
 "spike": true,
-"since": "2026-11-26T15:29:06.004265+00:00"
-},
-{
-"term": "지하철",
-"n30": 5,
-"base": 0.7,
-"spike": true,
-"since": "2026-11-26T15:29:06.004265+00:00"
+"since": "2026-11-26T15:31:24.957955+00:00"
 }
 ],
 "baseline": {
 "지진": 0.05,
 "화재": 0.05,
 "불났": 0.05,
-"정전": 0.13,
-"폭발": 1.77,
-"붕괴": 0.5,
+"정전": 0.12,
+"폭발": 1.89,
+"붕괴": 0.45,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.71,
-"사고": 1.56,
-"실종": 0.37,
+"지하철": 0.74,
+"사고": 1.7,
+"실종": 0.33,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -4335,9 +4328,9 @@
 "time": "2026-11-26T13:40:00+00:00",
 "news": [
 {
-"title": "머스크도 퇴짜 맞은 메모리… 이재용 \"뭘 더 해줄 건데?\"",
-"source": "조선일보",
-"link": "https://www.chosun.com/economy/tech_it/2026/11/26/3UELRQCP2RGPFJQN2TKPBFHSIU/"
+"title": "\"이재용, '반도체 장기구매할게' 머스크에 '그럼 뭘 해줄건데'\"",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261126188000009"
 },
 {
 "title": "“장기 구매할게” 머스크에 이재용 “뭘 더 해줄 건데”⋯메모리 쟁탈전",
@@ -4353,9 +4346,9 @@
 "time": "2026-11-26T13:40:00+00:00",
 "news": [
 {
-"title": "TRỰC TIẾP bóng đá U17 Việt Nam vs U17 Mali - U17 World Cup 2026",
-"source": "Báo VietNamNet",
-"link": "https://vietnamnet.vn/truc-tiep-bong-da-u17-viet-nam-vs-u17-mali-u17-world-cup-2026-2578759.html"
+"title": "Kết quả bóng đá U17 Việt Nam vs U17 Mali: Cái kết nghiệt ngã",
+"source": "Thể Thao 247",
+"link": "https://thethao247.vn/190556-ket-qua-bong-da-u17-viet-nam-vs-u17-mali-20h00-hom-nay-26-11-c1-d447313.html"
 },
 {
 "title": "HLV Mali gọi U17 Việt Nam là \"đội bóng mạnh\", yêu cầu đội nhà cảnh giác",
