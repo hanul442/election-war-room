@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-26T12:50:38.630896+00:00",
+"updated": "2026-11-26T12:52:55.813827+00:00",
 "errors": [],
 "events": [
 {
@@ -4359,7 +4359,7 @@
 },
 "화재": {
 "n30": 2,
-"base": 1.0,
+"base": 1.1,
 "spike": false
 },
 "불났": {
@@ -4373,12 +4373,12 @@
 "spike": false
 },
 "폭발": {
-"n30": 4,
+"n30": 3,
 "base": 0.1,
 "spike": false
 },
 "붕괴": {
-"n30": 1,
+"n30": 0,
 "base": 0.9,
 "spike": false
 },
@@ -4399,12 +4399,12 @@
 },
 "지하철": {
 "n30": 1,
-"base": 0.1,
+"base": 0.2,
 "spike": false
 },
 "사고": {
 "n30": 1,
-"base": 3.0,
+"base": 2.8,
 "spike": false
 },
 "실종": {
@@ -4520,16 +4520,6 @@
 "url": "https://www.youtube.com/watch?v=4q2Cyl0gwKY"
 },
 {
-"text": "李대통령 “세세하다는 지적 있는데 국민의 생명·안전, 국정 최고 책임자가 살피는 건 당연”\n\n이 대통령은 제설 관련 장비·인력의 탄력적 운영, 농축산 시설물 붕괴 막기 위한 안전 대책, 블랙 아이스 대책 등 지시와 관련해 “이런 이야기 하면 대통령이 뭐 그런 이야기까지 세세하게 하느냐 이런 지적들이 있을 수도 있다”며 “그렇긴 하지만 국민의 생명과 안전을 지키는 것은 국가의 가장 중요한 책무",
-"handle": "leejaemyung-news.bsky.social",
-"name": "이재명 정부 뉴스",
-"time": "2026-11-26T12:21:06.141Z",
-"likes": 1,
-"reposts": 0,
-"url": "https://bsky.app/profile/leejaemyung-news.bsky.social/post/3n37nx4dxzk2x",
-"term": "붕괴"
-},
-{
 "platform": "YouTube",
 "text": "[미래에셋벤처투자 주가전망] 거래대금 1,755억 폭발하며 120일선 돌파! 2만 원 저항벽 앞 단기 매도폭탄 라인 조심하세요",
 "handle": "UCI_JpCN33lSVsX9FhngiNbA",
@@ -4632,17 +4622,17 @@
 "spikes": [],
 "baseline": {
 "지진": 0.05,
-"화재": 1.07,
+"화재": 1.16,
 "불났": 0.05,
 "정전": 0.05,
 "폭발": 0.05,
-"붕괴": 0.95,
+"붕괴": 0.85,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.24,
-"사고": 2.8,
-"실종": 0.37,
+"지하철": 0.32,
+"사고": 2.62,
+"실종": 0.33,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -4799,6 +4789,42 @@
 },
 "trends": [
 {
+"term": "내일 날씨",
+"traffic": "100000+",
+"time": "2026-11-26T11:50:00+00:00",
+"news": [
+{
+"title": "12월 날씨였다 10월 날씨로…기온 ‘급반전’",
+"source": "KBS 뉴스",
+"link": "https://news.kbs.co.kr/news/view.do?ncd=8722988"
+},
+{
+"title": "[날씨] 내일도 한낮 포근 ’서울 16도’…중부 약한 비",
+"source": "연합뉴스TV",
+"link": "https://www.yonhapnewstv.co.kr/news/MYH20261126212819Z4K"
+}
+],
+"new": true
+},
+{
+"term": "weather tomorrow",
+"traffic": "2000+",
+"time": "2026-11-26T11:50:00+00:00",
+"news": [
+{
+"title": "Weather Tomorrow November 27, 2026: Rain in Tamil Nadu, dry and sunny conditions in Delhi, Bihar, Odisha;",
+"source": "The Economic Times",
+"link": "https://m.economictimes.com/news/new-updates/weather-tomorrow-november-27-2026-rain-in-tamil-nadu-dry-and-sunny-conditions-in-delhi-bihar-odisha-check-state-wise-forecast/articleshow/136190343.cms"
+},
+{
+"title": "Weather Tomorrow, November 22, 2026: Showers in Bihar and West Bengal, sunny skies in Delhi and Tamil Nadu",
+"source": "The Economic Times",
+"link": "https://m.economictimes.com/news/new-updates/weather-tomorrow-november-22-2026-showers-in-bihar-and-west-bengal-sunny-skies-in-delhi-and-tamil-nadu-check-full-forecast/articleshow/136054580.cms"
+}
+],
+"new": true
+},
+{
 "term": "погода завтра",
 "traffic": "1000+",
 "time": "2026-11-26T11:40:00+00:00",
@@ -4927,42 +4953,6 @@
 "title": "이지훈 아내 아야네, 둘째 득녀...2주 1500만원 산후조리원 입소",
 "source": "헤럴드경제",
 "link": "https://biz.heraldcorp.com/article/10949941"
-}
-],
-"new": true
-},
-{
-"term": "한국보건의료인국가시험원",
-"traffic": "500+",
-"time": "2026-11-26T10:10:00+00:00",
-"news": [
-{
-"title": "의사·간호사 국시 일부 과목 만점자 급증···복지부 “AI 부정행위 단정 어려워”",
-"source": "경향신문",
-"link": "https://www.khan.co.kr/article/202611261620001"
-},
-{
-"title": "[보도설명자료][11.26.목 중앙일보] 의사냥이·간호냥이도 있나…국시 과목 만점자 7배 뛰었다 관련",
-"source": "대한민국 정책브리핑",
-"link": "https://www.korea.kr/briefing/actuallyView.do?newsId=148976573"
-}
-],
-"new": false
-},
-{
-"term": "india a vs sri lanka a",
-"traffic": "500+",
-"time": "2026-11-26T09:50:00+00:00",
-"news": [
-{
-"title": "India A Open Strongly Against Sri Lanka A in Asia Cup Semifinal",
-"source": "cwibc.co.id",
-"link": "https://cwibc.co.id/en/india-a-sri-lanka-semifinal-start"
-},
-{
-"title": "Cricket match player highlights | SLA vs INDA, 1st Semi-Final (A1 v B2), ACC Men's Asia Cup Rising Stars 2026",
-"source": "Cricbuzz",
-"link": "https://www.cricbuzz.com/player-match-highlights/177210/1/12086/batting"
 }
 ],
 "new": true
