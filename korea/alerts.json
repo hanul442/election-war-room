@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-26T14:26:55.939851+00:00",
+"updated": "2026-11-26T14:29:14.054528+00:00",
 "errors": [],
 "events": [
 {
@@ -4499,18 +4499,18 @@
 },
 "정전": {
 "n30": 1,
-"base": 0.1,
+"base": 0.2,
 "spike": false
 },
 "폭발": {
-"n30": 7,
+"n30": 5,
 "base": 0.1,
 "spike": true
 },
 "붕괴": {
-"n30": 3,
-"base": 0.1,
-"spike": false
+"n30": 5,
+"base": 0.2,
+"spike": true
 },
 "대피": {
 "n30": 0,
@@ -4528,13 +4528,13 @@
 "spike": false
 },
 "지하철": {
-"n30": 1,
-"base": 1.6,
+"n30": 0,
+"base": 1.5,
 "spike": false
 },
 "사고": {
 "n30": 0,
-"base": 2.2,
+"base": 2.0,
 "spike": false
 },
 "실종": {
@@ -4564,6 +4564,26 @@
 }
 },
 "posts": [
+{
+"text": "어째서 나만 비참해지는가. 이건 밸런스 붕괴다. 그러면 불이 내 눈 앞에서 얼어버릴 수 있…고는 엔탈피 붕괴고 바보야",
+"handle": "twice-spring.mustard.blog.ap.brid.gy",
+"name": "Twice Spring",
+"time": "2026-11-26T14:27:42.245Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/twice-spring.mustard.blog.ap.brid.gy/post/3n37uzgxthkk2",
+"term": "붕괴"
+},
+{
+"text": "어째서 나만 비참해지는가. 이건 밸런스 붕괴다. 그러면 불이 내 눈 앞에서 얼어버릴 수 있…고는 엔탈피 붕괴고 바보야",
+"handle": "twicespring.bsky.social",
+"name": "Twice Spring",
+"time": "2026-11-26T14:27:09.744Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/twicespring.bsky.social/post/3n37uym35fc2j",
+"term": "붕괴"
+},
 {
 "text": "올해 참 많은 일이 있었고 많은 생활패턴이 또 붕괴됐습니다...\n다시 재배열 시켜야지 🥲",
 "handle": "delranoah.bsky.social",
@@ -4711,16 +4731,6 @@
 "url": "https://www.youtube.com/watch?v=bRH_XYpg8fQ"
 },
 {
-"text": "치한플 야노플 야외플 능욕플\n관심있는 발정기 여자 연락줘요\n초보자도 환영\n\n광역버스 지하철 도서관 스카 공원\n영화관 서점 카페 등등\n사람 많은 곳에서 안전하면서도\n느껴보지 못했던 스릴 넘지는 일탈\n\n이야기 나누면서 플 수위 조절 가능\n스릴 넘치는 로망을 실현해봐요\n\n라인 : edd379\n\n#능욕플 #치한플 #치한 #야노 \n#야외플 #암캐 #능욕 #발정 #섹블",
-"handle": "ddjj15.bsky.social",
-"name": "ddjj15.bsky.social",
-"time": "2026-11-26T13:59:00.440Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/ddjj15.bsky.social/post/3n37tgatafk26",
-"term": "지하철"
-},
-{
 "platform": "YouTube",
 "text": "'남대문 스카프 🎶 흥 폭발 쇼츠'#트로트 #남대문스카프#신나는음악",
 "handle": "UC3kguvQ6diJxS_M-xrcnzPw",
@@ -4751,24 +4761,31 @@
 "spikes": [
 {
 "term": "폭발",
-"n30": 7,
+"n30": 5,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-26T14:26:55.939851+00:00"
+"since": "2026-11-26T14:29:14.054528+00:00"
+},
+{
+"term": "붕괴",
+"n30": 5,
+"base": 0.2,
+"spike": true,
+"since": "2026-11-26T14:29:14.054528+00:00"
 }
 ],
 "baseline": {
 "지진": 0.05,
-"화재": 0.1,
+"화재": 0.09,
 "불났": 0.05,
-"정전": 0.24,
+"정전": 0.32,
 "폭발": 0.05,
-"붕괴": 0.24,
+"붕괴": 0.52,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 1.5,
-"사고": 1.96,
+"지하철": 1.35,
+"사고": 1.76,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
