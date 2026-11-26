@@ -1,12 +1,12 @@
 {
-"updated": "2026-11-26T03:42:29.543893+00:00",
+"updated": "2026-11-26T03:44:43.680472+00:00",
 "errors": [],
 "events": [
 {
 "id": "llBOHFMN3ZsSklEdzBsQQoc50339",
 "first": "2026-11-26T03:39:05+00:00",
 "last": "2026-11-26T03:39:05+00:00",
-"updated": "2026-11-26T03:40:14.473710+00:00",
+"updated": "2026-11-26T03:44:43.680472+00:00",
 "headline": "서천공주고속도로 소형화물차 관련 사고처리중",
 "cat": "교통",
 "regions": [
@@ -22,6 +22,13 @@
 "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE8tbTF6QkR2ak1WYm5aSTByVVgxOFFhUlNBZUp6dFNLT25vSzVpTnFlOHBieVVEcmpzSjFnTTBOdzFZdFFNNGFZNkdYaEdVVlE4dFIyTEZvY2pFQnN3TWdrejhJdllBOHFMN3ZsSklEdzBsQQ?oc=5",
 "time": "2026-11-26T03:39:05+00:00",
 "stage": "얼럿"
+},
+{
+"title": "[속보] 서천공주고속도로 소형화물차 관련 사고처리중",
+"source": "스페셜타임스",
+"link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1LSFozTlpDWkNabk5mQWZULXpINUc3S0pjMXplZGlqamxIWFdsbmNRQnhVeUkxbkxtZU9FdTBLTHk2d0VTX0FIOXJmdFJadVJ6VDNCRTNiU1RvM3N2OS1nRk1KejdOMlBmVVRMMThOV0h2ekE?oc=5",
+"time": "2026-11-26T03:39:05+00:00",
+"stage": "속보"
 }
 ],
 "level": "URGENT",
@@ -4532,12 +4539,12 @@
 },
 "폭발": {
 "n30": 3,
-"base": 1.6,
+"base": 1.5,
 "spike": false
 },
 "붕괴": {
 "n30": 1,
-"base": 0.2,
+"base": 0.3,
 "spike": false
 },
 "대피": {
@@ -4562,12 +4569,12 @@
 },
 "사고": {
 "n30": 4,
-"base": 2.6,
+"base": 2.7,
 "spike": false
 },
 "실종": {
 "n30": 0,
-"base": 0.7,
+"base": 0.6,
 "spike": false
 },
 "단수": {
@@ -4831,22 +4838,22 @@
 "n30": 5,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-26T03:42:29.543893+00:00"
+"since": "2026-11-26T03:44:43.680472+00:00"
 }
 ],
 "baseline": {
 "지진": 0.05,
 "화재": 0.05,
-"불났": 0.15,
+"불났": 0.24,
 "정전": 0.05,
-"폭발": 1.5,
-"붕괴": 0.32,
+"폭발": 1.45,
+"붕괴": 0.39,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.21,
-"사고": 2.74,
-"실종": 0.61,
+"지하철": 0.19,
+"사고": 2.87,
+"실종": 0.55,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -5021,8 +5028,44 @@
 },
 "trends": [
 {
-"term": "미스 유니버스",
+"term": "이정재",
+"traffic": "1000+",
+"time": "2026-11-26T02:40:00+00:00",
+"news": [
+{
+"title": "'사익 추구 의혹' 이정재, 수척한 얼굴로 청룡 무대…\"많이 망설였다\" - 머니투데이",
+"source": "머니투데이",
+"link": "https://www.mt.co.kr/entertainment/2026/11/26/2026112607173970598"
+},
+{
+"title": "“배우 안성기와 함께해주셔서 고맙습니다” 아들이 전한 청룡 공로상 소감 [이런뉴스]",
+"source": "KBS 뉴스",
+"link": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8723214"
+}
+],
+"new": true
+},
+{
+"term": "광고",
 "traffic": "100+",
+"time": "2026-11-26T02:40:00+00:00",
+"news": [
+{
+"title": "공정위, 애플 ‘AI 기능 허위 광고’ 혐의 심의 착수…수백억 과징금 나올까?",
+"source": "KBS 뉴스",
+"link": "https://news.kbs.co.kr/news/view.do?ncd=8723278"
+},
+{
+"title": "애플, ‘아이폰 AI 시리’ 기만광고 혐의…역대급 과징금 예고",
+"source": "마켓인",
+"link": "https://marketin.edaily.co.kr/News/ReadE?newsId=02797846645649656"
+}
+],
+"new": true
+},
+{
+"term": "미스 유니버스",
+"traffic": "200+",
 "time": "2026-11-26T02:30:00+00:00",
 "news": [
 {
@@ -5040,7 +5083,7 @@
 },
 {
 "term": "불꽃야구",
-"traffic": "100+",
+"traffic": "200+",
 "time": "2026-11-26T02:30:00+00:00",
 "news": [
 {
@@ -5082,7 +5125,7 @@
 {
 "title": "[ET포토] 문가영, '새하얀 아름다움'",
 "source": "전자신문",
-"link": "http://www.etnews.com/20261126000038"
+"link": "https://www.etnews.com/20261126000038"
 },
 {
 "title": "문가영, 긴 생머리 휘날리는 '국민 구여친'…과감해진 튜브톱 [포토]",
@@ -5129,24 +5172,6 @@
 "new": true
 },
 {
-"term": "육아휴직",
-"traffic": "500+",
-"time": "2026-11-26T01:50:00+00:00",
-"news": [
-{
-"title": "\"직원 출산하면 1000만원\"…파격 복지 내걸자 '놀라운 결과'",
-"source": "한국경제",
-"link": "https://www.hankyung.com/article/202611261128g"
-},
-{
-"title": "[게시판] NS홈쇼핑, '일·생활 균형 우수기업' 선정",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261126034100030"
-}
-],
-"new": true
-},
-{
 "term": "안민석",
 "traffic": "200+",
 "time": "2026-11-26T01:50:00+00:00",
@@ -5180,13 +5205,6 @@
 "link": "https://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0200&key=20261125.99099007927"
 }
 ],
-"new": true
-},
-{
-"term": "민원24",
-"traffic": "200+",
-"time": "2026-11-26T01:50:00+00:00",
-"news": [],
 "new": true
 }
 ],
