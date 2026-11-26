@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-26T00:29:32.668479+00:00",
+"updated": "2026-11-26T00:31:47.652011+00:00",
 "errors": [],
 "events": [
 {
@@ -3502,9 +3502,9 @@
 "spike": false
 },
 "붕괴": {
-"n30": 5,
+"n30": 3,
 "base": 0.2,
-"spike": true
+"spike": false
 },
 "대피": {
 "n30": 1,
@@ -3517,18 +3517,18 @@
 "spike": false
 },
 "속보": {
-"n30": 8,
+"n30": 7,
 "base": 0.1,
 "spike": true
 },
 "지하철": {
 "n30": 1,
-"base": 1.7,
+"base": 1.5,
 "spike": false
 },
 "사고": {
 "n30": 5,
-"base": 3.2,
+"base": 3.4,
 "spike": false
 },
 "실종": {
@@ -3794,18 +3794,11 @@
 ],
 "spikes": [
 {
-"term": "붕괴",
-"n30": 5,
-"base": 0.2,
-"spike": true,
-"since": "2026-11-26T00:29:32.668479+00:00"
-},
-{
 "term": "속보",
-"n30": 8,
+"n30": 7,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-26T00:29:32.668479+00:00"
+"since": "2026-11-26T00:31:47.652011+00:00"
 }
 ],
 "baseline": {
@@ -3813,17 +3806,17 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.81,
-"붕괴": 0.18,
-"대피": 0.71,
-"미사일": 0.64,
+"폭발": 0.83,
+"붕괴": 0.16,
+"대피": 0.74,
+"미사일": 0.68,
 "속보": 0.05,
-"지하철": 1.5,
-"사고": 3.36,
+"지하철": 1.35,
+"사고": 3.52,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
-"먹통": 0.51,
+"먹통": 0.56,
 "산불": 0.05
 },
 "errors": [],
@@ -4122,9 +4115,9 @@
 "link": "https://www.bbc.com/sport/football/live/crkgv8v0gdwkt"
 },
 {
-"title": "Bruno Fernandes Scores Double vs Former Club, Wins UEFA POTM",
+"title": "Fernandes Defends Lammens, Stresses Team Responsibility",
 "source": "조선일보",
-"link": "https://www.chosun.com/english/sports-en/2026/11/26/IVQLWQBP4ZCFBCLKG3SFOCOHF4/"
+"link": "https://www.chosun.com/english/sports-en/2026/11/26/33J6XD5K6FFGTLJBVCBFR45DO4/"
 }
 ],
 "new": true
@@ -4153,14 +4146,14 @@
 "time": "2026-11-25T22:40:00+00:00",
 "news": [
 {
+"title": "Video bóng đá Sporting Lisbon - MU: Mãn nhãn màn rượt đuổi tỉ số (Cúp C1)",
+"source": "Tin tức 24h",
+"link": "https://www.24h.com.vn/bong-da/video-bong-da-sporting-lisbon-mu-man-nhan-man-ruot-duoi-ti-so-cup-c1-c48a1814104.html"
+},
+{
 "title": "Tội đồ Lammens khiến MU rơi chiến thắng ở Champions League",
 "source": "Znews",
 "link": "https://znews.vn/toi-do-lammens-khien-mu-roi-chien-thang-o-champions-league-post1699060.html"
-},
-{
-"title": "5 dấu ấn của Man Utd trong đêm hỗn loạn tại Lisbon",
-"source": "yeuthethao.net.vn",
-"link": "https://yeuthethao.net.vn/5-dau-an-cua-man-utd-trong-dem-hon-loan-tai-lisbon-d903905.html"
 }
 ],
 "new": true
