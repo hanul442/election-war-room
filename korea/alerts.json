@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-26T12:48:22.112545+00:00",
+"updated": "2026-11-26T12:50:38.630896+00:00",
 "errors": [],
 "events": [
 {
@@ -4359,7 +4359,7 @@
 },
 "화재": {
 "n30": 2,
-"base": 0.9,
+"base": 1.0,
 "spike": false
 },
 "불났": {
@@ -4373,9 +4373,9 @@
 "spike": false
 },
 "폭발": {
-"n30": 5,
+"n30": 4,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "붕괴": {
 "n30": 1,
@@ -4403,13 +4403,13 @@
 "spike": false
 },
 "사고": {
-"n30": 2,
-"base": 3.1,
+"n30": 1,
+"base": 3.0,
 "spike": false
 },
 "실종": {
 "n30": 0,
-"base": 0.5,
+"base": 0.4,
 "spike": false
 },
 "단수": {
@@ -4440,7 +4440,7 @@
 "name": "이적행위🎗🏳️‍🌈🌹☂️🇵🇸",
 "time": "2026-11-26T12:47:20.243Z",
 "likes": 0,
-"reposts": 0,
+"reposts": 1,
 "url": "https://bsky.app/profile/yijuckhangwe.bsky.social/post/3n37pfyi5ss27",
 "term": "지하철"
 },
@@ -4539,16 +4539,6 @@
 "url": "https://www.youtube.com/watch?v=GDadhHA5rQM"
 },
 {
-"text": "그림그리는 블친 말하기 하자\n\n프로그램 : 클튜 5.0v\n도구 : 데탑, 판타\n주로 그리는것 : 커미션, 자캐\n그림 그릴때 즐기는 노동요 : 괴담, 사건사고, 노래(믹스)",
-"handle": "magnolia3.bsky.social",
-"name": "박셤",
-"time": "2026-11-26T12:18:28.849Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/magnolia3.bsky.social/post/3n37nsir74k2z",
-"term": "사고"
-},
-{
 "platform": "YouTube",
 "text": "버블 붕괴? 조정? 2400조 운용사에 물은 4가지 #경제단신#공포지수 #VIX #버블붕괴 #엔비디아 #코스피 #비즈파인더파트너스",
 "handle": "UCy_vzFZwEqy-D_RUcfvlqLg",
@@ -4639,18 +4629,10 @@
 "url": "https://www.youtube.com/watch?v=nc5Aw_BTJn4"
 }
 ],
-"spikes": [
-{
-"term": "폭발",
-"n30": 5,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-26T12:48:22.112545+00:00"
-}
-],
+"spikes": [],
 "baseline": {
 "지진": 0.05,
-"화재": 0.97,
+"화재": 1.07,
 "불났": 0.05,
 "정전": 0.05,
 "폭발": 0.05,
@@ -4658,9 +4640,9 @@
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.15,
-"사고": 3.0,
-"실종": 0.41,
+"지하철": 0.24,
+"사고": 2.8,
+"실종": 0.37,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
