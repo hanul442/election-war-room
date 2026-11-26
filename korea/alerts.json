@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-26T21:06:10.695822+00:00",
+"updated": "2026-11-26T21:08:24.107048+00:00",
 "errors": [],
 "events": [
 {
@@ -1200,9 +1200,9 @@
 "spike": false
 },
 "속보": {
-"n30": 5,
+"n30": 4,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "지하철": {
 "n30": 2,
@@ -1458,15 +1458,7 @@
 "url": "https://www.youtube.com/watch?v=F_0ot54ZLBs"
 }
 ],
-"spikes": [
-{
-"term": "속보",
-"n30": 5,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-26T21:06:10.695822+00:00"
-}
-],
+"spikes": [],
 "baseline": {
 "지진": 0.05,
 "화재": 0.05,
