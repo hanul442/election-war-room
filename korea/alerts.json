@@ -1,12 +1,12 @@
 {
-"updated": "2026-11-26T00:04:47.114629+00:00",
+"updated": "2026-11-26T00:07:02.367530+00:00",
 "errors": [],
 "events": [
 {
 "id": "TM4TVExZTI4UW1Wd2tFMgoc50001",
 "first": "2026-11-26T00:01:13+00:00",
 "last": "2026-11-26T00:02:19+00:00",
-"updated": "2026-11-26T00:04:47.114629+00:00",
+"updated": "2026-11-26T00:07:02.367530+00:00",
 "headline": "코스피 1.01% 오른 4745.10…코스닥도 1%대↑",
 "cat": "경제",
 "regions": [],
@@ -18,6 +18,13 @@
 "한국경제"
 ],
 "updates": [
+{
+"title": "[속보] 코스닥 7.82p(1.20%) 오른 658.46(개장)",
+"source": "이투데이",
+"link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE0wZDNuVzJBTXRuOWFNVjhDbEdsQ3RNT2tNWEk5UlJ2TjA0QzhaZUdCREpMcGRsY05LcVpVQTVyYVVmbmtPZW5yV28yaUJ5czhSTEstd1V3T2RBVFotV0J3WEY0VDlrREd0T3pWUURvdHBqY1ZM?oc=5",
+"time": "2026-11-26T00:01:00+00:00",
+"stage": "속보"
+},
 {
 "title": "[속보]코스피 1.01% 오른 4745.10…코스닥도 1%대↑",
 "source": "edaily.co.kr",
@@ -47,6 +54,13 @@
 "stage": "속보"
 },
 {
+"title": "[속보] 코스피 47.59p(1.01%) 오른 4745.10(개장)",
+"source": "이투데이",
+"link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9Wd1o3cG95T3AwR21faDZoZGg2eldrYTMtUDVEVUl0Nkt2Sjdndlh4SXZQRkJpNUU2TENFRk5JTnREQ0N1aHJvczFDRDZNcUZmTVJ4MA?oc=5",
+"time": "2026-11-26T00:02:00+00:00",
+"stage": "속보"
+},
+{
 "title": "[속보]코스닥, 7.82포인트(1.20%) 오른 658.46 개장",
 "source": "뉴시스",
 "link": "https://www.newsis.com/view/NISX20261126_0003883863",
@@ -66,6 +80,7 @@
 "tok": [
 "4700선",
 "59p",
+"82p",
 "82포인트",
 "개장",
 "반등",
@@ -76,6 +91,71 @@
 "코스닥",
 "코스피",
 "회복하며"
+]
+},
+{
+"id": "wNISX20261126_00038838640002",
+"first": "2026-11-26T00:02:14+00:00",
+"last": "2026-11-26T00:02:14+00:00",
+"updated": "2026-11-26T00:07:02.367530+00:00",
+"headline": "삼성전자 1.11%↑·SK하이닉스 2.14%↑…동반 상승 개장",
+"cat": "경제",
+"regions": [],
+"sources": [
+"뉴시스"
+],
+"updates": [
+{
+"title": "[속보]삼성전자 1.11%↑·SK하이닉스 2.14%↑…동반 상승 개장",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261126_0003883864",
+"time": "2026-11-26T00:02:14+00:00",
+"stage": "얼럿"
+}
+],
+"level": "URGENT",
+"latest": "삼성전자 1.11%↑·SK하이닉스 2.14%↑…동반 상승 개장",
+"tok": [
+"SK하이닉스",
+"개장",
+"동반",
+"삼성전자",
+"상승"
+]
+},
+{
+"id": "viewAKR202611251755000570001",
+"first": "2026-11-26T00:01:01+00:00",
+"last": "2026-11-26T00:01:01+00:00",
+"updated": "2026-11-26T00:07:02.367530+00:00",
+"headline": "재난 안전 협력 플랫폼 '세이프 커넥트 2026 울산' 개최",
+"cat": "재난",
+"regions": [
+"울산"
+],
+"sources": [
+"연합뉴스"
+],
+"updates": [
+{
+"title": "재난 안전 협력 플랫폼 '세이프 커넥트 2026 울산' 개최",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261125175500057",
+"time": "2026-11-26T00:01:01+00:00",
+"stage": "1보"
+}
+],
+"level": "ALERT",
+"latest": "재난 안전 협력 플랫폼 '세이프 커넥트 2026 울산' 개최",
+"tok": [
+"개최",
+"세이프",
+"안전",
+"울산",
+"재난",
+"커넥트",
+"플랫폼",
+"협력"
 ]
 },
 {
@@ -3226,7 +3306,7 @@
 },
 "폭발": {
 "n30": 7,
-"base": 0.3,
+"base": 0.4,
 "spike": true
 },
 "붕괴": {
@@ -3235,7 +3315,7 @@
 "spike": false
 },
 "대피": {
-"n30": 0,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
@@ -3245,13 +3325,13 @@
 "spike": false
 },
 "속보": {
-"n30": 3,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
 "지하철": {
-"n30": 6,
-"base": 1.2,
+"n30": 5,
+"base": 1.4,
 "spike": true
 },
 "사고": {
@@ -3287,12 +3367,32 @@
 },
 "posts": [
 {
+"text": "70대 노인이 되었을 때, 100의 지식으로 영맥의 맥박을 재서 몇 년 안에 터질 것임을 알아챔. 쌓아온 관계와 건강의 힘으로 주민들 대피시킴.",
+"handle": "123plus.bsky.social",
+"name": "츄밍",
+"time": "2026-11-26T00:05:54.367Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/123plus.bsky.social/post/3n36euk65jc2v",
+"term": "대피"
+},
+{
+"text": "나는 지식이 100인 좀 쩌는 아저씨였고, 협회에 순종적이었음. 돈 주고 기록 사겠다는 제안에도, 나는 기록이나마 남기려 했던건데 협회 이 싸가지없는 것들이 내 이름도 안 남겨주고 번호나 붙이고, 내가 자발적으로 보고한 것도 쓸데없이 돈에 더해 침묵 서약서 따위나 보내고. 시구르드와의 추억을 괜한 곳에 팔아넘긴 것 같이 되어 기분이 좋지 않았음.\n에필로그에서도 착해보이는 관계 쪽 선택지를 계",
+"handle": "123plus.bsky.social",
+"name": "츄밍",
+"time": "2026-11-26T00:05:54.363Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/123plus.bsky.social/post/3n36euk5yn22v",
+"term": "사고"
+},
+{
 "text": "자동제면기라는 게 보이길래 25만원짜리를 사고 밀가루 1kg를 써서 면을 뽑는다 치고 3500원 소면 1킬로랑 비교하면. 104번 이상은 뽑아야 원금 회수는 된다는 결론이 나온다.\n\n요리는 비싸구만.",
 "handle": "dsscrolls.bsky.social",
 "name": "사해문서",
 "time": "2026-11-26T00:04:09.344Z",
 "likes": 0,
-"reposts": 0,
+"reposts": 1,
 "url": "https://bsky.app/profile/dsscrolls.bsky.social/post/3n36erewuc22z",
 "term": "사고"
 },
@@ -3436,16 +3536,6 @@
 "url": "https://www.youtube.com/watch?v=Xp6oaLkjuIM"
 },
 {
-"text": "절대 차려고 찬 게 아니고 둘이서 십자로처럼 부딪혔는데 둘째가 압도적으로 작기 때문에 찬 꼴이 되었습니다… 만약 둘째가 십킬로라도 됐다면 같이 넘어졌을 사고예요… 아줌마 의도를 믿어줘",
-"handle": "rengjee.bsky.social",
-"name": "reng",
-"time": "2026-11-25T23:35:26.141Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/rengjee.bsky.social/post/3n36d62clnk2y",
-"term": "사고"
-},
-{
 "platform": "YouTube",
 "text": "(속보)'공소취소하겠다는 말로 들리네요' 이용철 추궁한 주진우",
 "handle": "UCrH05X7Eu8iMXWLjst8wjtA",
@@ -3540,16 +3630,16 @@
 {
 "term": "폭발",
 "n30": 7,
-"base": 0.3,
+"base": 0.4,
 "spike": true,
-"since": "2026-11-26T00:04:47.114629+00:00"
+"since": "2026-11-26T00:07:02.367530+00:00"
 },
 {
 "term": "지하철",
-"n30": 6,
-"base": 1.2,
+"n30": 5,
+"base": 1.4,
 "spike": true,
-"since": "2026-11-26T00:04:47.114629+00:00"
+"since": "2026-11-26T00:07:02.367530+00:00"
 }
 ],
 "baseline": {
@@ -3557,13 +3647,13 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.39,
-"붕괴": 0.56,
-"대피": 0.05,
+"폭발": 0.45,
+"붕괴": 0.5,
+"대피": 0.15,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 1.43,
-"사고": 1.81,
+"지하철": 1.59,
+"사고": 1.83,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
