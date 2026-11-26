@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-26T10:53:08.656219+00:00",
+"updated": "2026-11-26T10:55:26.864182+00:00",
 "errors": [],
 "events": [
 {
@@ -704,7 +704,7 @@
 "id": "JFVDRCUHhMdVl4bDZrcjAoc50956",
 "first": "2026-11-26T09:56:18+00:00",
 "last": "2026-11-26T10:19:00+00:00",
-"updated": "2026-11-26T10:25:03.634247+00:00",
+"updated": "2026-11-26T10:55:26.864182+00:00",
 "headline": "李대통령, 한준호 행정안전부 장관 후보자 인사청문요구서 재가",
 "cat": "정치",
 "regions": [],
@@ -742,6 +742,13 @@
 "source": "뉴스1",
 "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9sbEpNeHlPQXYwTk9lZ1Q0SUtNUnNLaThCSDNYTU5FUTNkOXFTR09jZ3pvMWpaNVZIVEhNb3U0bFpLMDBJZ2RLU1AtUl9QUUR1a3dfaThpR2wydUk?oc=5",
 "time": "2026-11-26T09:55:48+00:00",
+"stage": "속보"
+},
+{
+"title": "[속보] 李대통령, 홍익표 통일부 장관 후보자 인사청문요구서 재가",
+"source": "아주경제",
+"link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5VcFAtMlBpOHpQTWZna0VhZTZ6QmU3ZFhQMlI0VnU0cmdVNW5NYk03ejFpb2FHRUc1UktnMmZuQmJJQXNPdHlib2l4RktodnJQOGJlaHEzU1diUdIBWEFVX3lxTE51MnNTUUtLd2VnbEMxVUJqd3d5dm5YUlpmSWtISjFhdDVNd2xiWFZOYUZSaHlkcVFnbFBWS1Y2aEhPWGRjLU5vRTZxVmsxamFiMUhlNzVHX1U?oc=5",
+"time": "2026-11-26T09:55:59+00:00",
 "stage": "속보"
 },
 {
@@ -846,6 +853,7 @@
 "임웅순",
 "장관",
 "재가",
+"통일부",
 "포함",
 "한준호",
 "행정안전부",
@@ -4225,7 +4233,7 @@
 },
 "붕괴": {
 "n30": 2,
-"base": 1.1,
+"base": 1.2,
 "spike": false
 },
 "대피": {
@@ -4240,17 +4248,17 @@
 },
 "속보": {
 "n30": 1,
-"base": 0.1,
+"base": 0.2,
 "spike": false
 },
 "지하철": {
 "n30": 0,
-"base": 0.6,
+"base": 0.5,
 "spike": false
 },
 "사고": {
 "n30": 5,
-"base": 3.9,
+"base": 4.0,
 "spike": false
 },
 "실종": {
@@ -4260,7 +4268,7 @@
 },
 "단수": {
 "n30": 0,
-"base": 0.2,
+"base": 0.1,
 "spike": false
 },
 "통신 장애": {
@@ -4507,18 +4515,18 @@
 "spikes": [],
 "baseline": {
 "지진": 0.05,
-"화재": 0.3,
+"화재": 0.27,
 "불났": 0.05,
 "정전": 0.05,
 "폭발": 0.05,
-"붕괴": 1.16,
+"붕괴": 1.24,
 "대피": 0.05,
-"미사일": 0.67,
-"속보": 0.24,
-"지하철": 0.5,
-"사고": 3.97,
+"미사일": 0.6,
+"속보": 0.32,
+"지하철": 0.45,
+"사고": 4.07,
 "실종": 0.05,
-"단수": 0.14,
+"단수": 0.13,
 "통신 장애": 0.05,
 "먹통": 0.05,
 "산불": 0.05
@@ -4688,14 +4696,32 @@
 "time": "2026-11-26T09:50:00+00:00",
 "news": [
 {
-"title": "India A vs Sri Lanka A ACC Men's Asia Cup Rising Stars live score, toss winner, winning probability, result and highlights from Doha",
-"source": "Yahoo Sports",
-"link": "https://sports.yahoo.com/cricket/articles/india-vs-sri-lanka-acc-070001370.html"
+"title": "India A Open Strongly Against Sri Lanka A in Asia Cup Semifinal",
+"source": "cwibc.co.id",
+"link": "https://cwibc.co.id/en/india-a-sri-lanka-semifinal-start"
 },
 {
-"title": "Vaibhav Sooryavanshi Looks To Maintain Form As IND A Face SL A In Rising Stars Asia Cup 2026 Semi Final",
-"source": "Sportscape Magazine",
-"link": "https://www.sportscapemagazine.com/blog/vaibhav-sooryavanshi-looks-to-maintain-form-as-ind-a-face-sl-a-in-rising-stars-asia-cup-2026-semi-final"
+"title": "Sony Sports Network, Sony LIV to air India A vs Sri Lanka A semi-final",
+"source": "MediaBrief",
+"link": "https://mediabrief.com/sony-sports-network-sony-liv-to-air-india-a-vs-sri-lanka-a-semi-final/"
+}
+],
+"new": true
+},
+{
+"term": "구미역",
+"traffic": "200+",
+"time": "2026-11-26T09:40:00+00:00",
+"news": [
+{
+"title": "동구미역 밑그림 나왔다…구미역과 연결은 어떻게",
+"source": "영남일보",
+"link": "https://www.yeongnam.com/web/view.php?key=20261125028262890"
+},
+{
+"title": "'대구·경북 1시간 생활권' 광역철도·국도 확충에 속도",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261125035000053"
 }
 ],
 "new": true
@@ -4714,24 +4740,6 @@
 "title": "검찰총장 후보 초유의 ‘추가 천거’⋯ “靑 새 인물 염두” 분분",
 "source": "국민일보",
 "link": "https://www.kmib.co.kr/article/20261126501680"
-}
-],
-"new": true
-},
-{
-"term": "구미역",
-"traffic": "100+",
-"time": "2026-11-26T09:40:00+00:00",
-"news": [
-{
-"title": "동구미역 밑그림 나왔다…구미역과 연결은 어떻게",
-"source": "영남일보",
-"link": "https://www.yeongnam.com/web/view.php?key=20261125028262890"
-},
-{
-"title": "'대구·경북 1시간 생활권' 광역철도·국도 확충에 속도",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261125035000053"
 }
 ],
 "new": true
@@ -4837,9 +4845,9 @@
 "link": "http://www.e-patentnews.com/15988"
 },
 {
-"title": "나쁜 일자리라도 줄 테니 시간과 삶 내놓으라? [왜냐면]",
-"source": "한겨레",
-"link": "https://www.hani.co.kr/arti/opinion/because/1289160.html"
+"title": "[단독] “퇴사 2주 전 3378개 파일 USB로 복사”...영업비밀 유출한 40대 ‘징역 2년’",
+"source": "세계일보",
+"link": "https://www.segye.com/newsView/20261126507723"
 }
 ],
 "new": true
