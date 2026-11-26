@@ -1,7 +1,50 @@
 {
-"updated": "2026-11-26T17:12:13.198445+00:00",
+"updated": "2026-11-26T17:14:32.095943+00:00",
 "errors": [],
 "events": [
+{
+"id": "viewAKR202611270010000721557",
+"first": "2026-11-26T15:57:09+00:00",
+"last": "2026-11-26T17:10:20+00:00",
+"updated": "2026-11-26T17:14:32.095943+00:00",
+"headline": "美 추수감사절 덮친 폭풍에 30만곳 정전…항공편 수백편 결항",
+"cat": "재난",
+"regions": [],
+"sources": [
+"SBS",
+"연합뉴스"
+],
+"updates": [
+{
+"title": "美 추수감사절 덮친 폭풍에 30만곳 정전…항공편 수백편 결항",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261127001000072",
+"time": "2026-11-26T15:57:09+00:00",
+"stage": "1보"
+},
+{
+"title": "미국 추수감사절 덮친 폭풍에 30만 곳 정전…항공편 수백 편 결항",
+"source": "SBS",
+"link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008865868&plink=RSSLINK&cooper=RSSREADER",
+"time": "2026-11-26T17:10:20+00:00",
+"stage": "후속"
+}
+],
+"level": "ALERT",
+"latest": "미국 추수감사절 덮친 폭풍에 30만 곳 정전…항공편 수백 편 결항",
+"tok": [
+"30만곳",
+"결항",
+"덮친",
+"미국",
+"수백",
+"수백편",
+"정전",
+"추수감사절",
+"폭풍",
+"항공편"
+]
+},
 {
 "id": "0V2VtZnlVRzU4YUhVSjFZoc51130",
 "first": "2026-11-26T11:30:00+00:00",
@@ -44,39 +87,6 @@
 "조건",
 "진출",
 "축구"
-]
-},
-{
-"id": "viewAKR202611270010000721557",
-"first": "2026-11-26T15:57:09+00:00",
-"last": "2026-11-26T15:57:09+00:00",
-"updated": "2026-11-26T16:03:50.549294+00:00",
-"headline": "美 추수감사절 덮친 폭풍에 30만곳 정전…항공편 수백편 결항",
-"cat": "재난",
-"regions": [],
-"sources": [
-"연합뉴스"
-],
-"updates": [
-{
-"title": "美 추수감사절 덮친 폭풍에 30만곳 정전…항공편 수백편 결항",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261127001000072",
-"time": "2026-11-26T15:57:09+00:00",
-"stage": "1보"
-}
-],
-"level": "ALERT",
-"latest": "美 추수감사절 덮친 폭풍에 30만곳 정전…항공편 수백편 결항",
-"tok": [
-"30만곳",
-"결항",
-"덮친",
-"수백편",
-"정전",
-"추수감사절",
-"폭풍",
-"항공편"
 ]
 },
 {
@@ -3077,7 +3087,7 @@
 },
 "붕괴": {
 "n30": 0,
-"base": 0.7,
+"base": 0.6,
 "spike": false
 },
 "대피": {
@@ -3091,8 +3101,8 @@
 "spike": false
 },
 "속보": {
-"n30": 2,
-"base": 0.9,
+"n30": 1,
+"base": 1.0,
 "spike": false
 },
 "지하철": {
@@ -3102,7 +3112,7 @@
 },
 "사고": {
 "n30": 0,
-"base": 1.2,
+"base": 1.1,
 "spike": false
 },
 "실종": {
@@ -3140,16 +3150,6 @@
 "likes": 0,
 "reposts": 0,
 "url": "https://bsky.app/profile/jejuorange.bsky.social/post/3n3a5vqls6k2g",
-"term": "속보"
-},
-{
-"text": "다리 벌리며 스트레칭 하다가 졸아서 속보 바닥에 도끼해버림",
-"handle": "gongnyongee.bsky.social",
-"name": "공뇽",
-"time": "2026-11-26T16:42:47.244Z",
-"likes": 2,
-"reposts": 0,
-"url": "https://bsky.app/profile/gongnyongee.bsky.social/post/3n3a4l3vgz22f",
 "term": "속보"
 },
 {
@@ -3376,12 +3376,12 @@
 "불났": 0.05,
 "정전": 0.05,
 "폭발": 0.05,
-"붕괴": 0.62,
+"붕괴": 0.56,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 1.04,
 "지하철": 0.05,
-"사고": 1.11,
+"사고": 1.0,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -3621,9 +3621,9 @@
 "link": "https://www.mt.co.kr/entertainment/2026/11/26/2026112618425270556"
 },
 {
-"title": "몬스타엑스 주헌 \"트와이스 정연과 데뷔 동기, 강단있게 하는 모습 멋있었다\"",
-"source": "Chosunbiz",
-"link": "https://biz.chosun.com/entertainment/tv/2026/11/26/GY2TONDEMNTGMMLEGQZGEOLDME/"
+"title": "‘80세’ 김용건, 허리 수술 받았는데 “하루에 만보 걸어..병원 부지런히 다닌다” (‘그사친’)",
+"source": "조선일보",
+"link": "https://www.chosun.com/entertainments/broadcast/2026/11/26/MUZDCMDEMVQWGYZTG5STGZJQGQ/"
 }
 ],
 "new": true
@@ -3645,24 +3645,6 @@
 }
 ],
 "new": true
-},
-{
-"term": "회계사",
-"traffic": "1000+",
-"time": "2026-11-26T14:20:00+00:00",
-"news": [
-{
-"title": "중고생 담배·음주 줄고 고강도 신체활동↑",
-"source": "YTN 사이언스",
-"link": "https://m.science.ytn.co.kr/program/view_today.php?s_mcd=0082&key=202611261603312920"
-},
-{
-"title": "회계사 선발 중장기 계획 세운다더니 제외…업계 후폭풍",
-"source": "마켓인",
-"link": "https://marketin.edaily.co.kr/News/ReadE?newsId=03739206645649656"
-}
-],
-"new": false
 },
 {
 "term": "스파이",
@@ -3786,6 +3768,24 @@
 "title": "HLV Mali gọi U17 Việt Nam là \"đội bóng mạnh\", yêu cầu đội nhà cảnh giác",
 "source": "Tin tức 24h",
 "link": "https://www.24h.com.vn/bong-da/hlv-mali-goi-u17-viet-nam-la-doi-bong-manh-yeu-cau-doi-nha-canh-giac-c48a1814068.html"
+}
+],
+"new": true
+},
+{
+"term": "수디르만컵",
+"traffic": "500+",
+"time": "2026-11-26T13:00:00+00:00",
+"news": [
+{
+"title": "'꿈은 이뤄졌다'배드민턴 메이저대회 '수디르만컵' 한국서 열린다…2029년 대회 개최 확정, 한국 셔틀콕 오랜 숙원 해결 '쾌거'",
+"source": "조선일보",
+"link": "https://www.chosun.com/sports/sports_general/2026/11/26/HBRTQZLFMY2WEZBTG5QTOYRTGU/"
+},
+{
+"title": "'안세영 독주 견제하려는 것 아닌가' 15점제가 끝이 아니었다…BWF 대격변 공식발표! 세계선수권+국가대항전 싹 바뀐다→\"근거 없는 억측\"",
+"source": "SPOTV NEWS",
+"link": "https://www.spotvnews.co.kr/news/articleView.html?idxno=1021959"
 }
 ],
 "new": true
