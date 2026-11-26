@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-26T00:45:40.992144+00:00",
+"updated": "2026-11-26T00:47:56.545885+00:00",
 "errors": [],
 "events": [
 {
@@ -75,7 +75,7 @@
 "id": "VBHbWVRaklqVE1WbW9jUQoc50039",
 "first": "2026-11-26T00:39:14+00:00",
 "last": "2026-11-26T00:39:14+00:00",
-"updated": "2026-11-26T00:43:06.568244+00:00",
+"updated": "2026-11-26T00:47:56.545885+00:00",
 "headline": "호남고속도로 승용차 관련 추돌사고 처리중",
 "cat": "교통",
 "regions": [],
@@ -89,6 +89,13 @@
 "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1BTHlkQm1zN2Y4ZGxlWl9sdVlSc1U2U3BJbV9pdnRzUExpaUJLeDRGLS04XzZGSk9xbTlEdndOYXBuR1ZYcXZ6dDZNLXZROFhQVmEzeVc3LXBDcXVYaVZXeTFaLVBHbWVRaklqVE1WbW9jUQ?oc=5",
 "time": "2026-11-26T00:39:14+00:00",
 "stage": "얼럿"
+},
+{
+"title": "[속보] 호남고속도로 승용차 관련 추돌사고 처리중",
+"source": "스페셜타임스",
+"link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9SUE5XaGhCS01qaHpJUWdXRHJKTXIxaktMTm5yVmRGa01mOEpCeEFhbHR6b08yUlNPWXRVOUdTOGNmUDFzam1Ia0hsNUtZWUNjZEZLMUxfNEItZVhqTHdLOGJsS2hPODZyY3puOFY2aWtzR0U?oc=5",
+"time": "2026-11-26T00:39:14+00:00",
+"stage": "속보"
 }
 ],
 "level": "URGENT",
@@ -3578,7 +3585,7 @@
 },
 "폭발": {
 "n30": 2,
-"base": 1.0,
+"base": 1.1,
 "spike": false
 },
 "붕괴": {
@@ -3592,7 +3599,7 @@
 "spike": false
 },
 "미사일": {
-"n30": 1,
+"n30": 0,
 "base": 0.6,
 "spike": false
 },
@@ -3603,11 +3610,11 @@
 },
 "지하철": {
 "n30": 0,
-"base": 0.8,
+"base": 0.7,
 "spike": false
 },
 "사고": {
-"n30": 4,
+"n30": 3,
 "base": 3.8,
 "spike": false
 },
@@ -3627,8 +3634,8 @@
 "spike": false
 },
 "먹통": {
-"n30": 1,
-"base": 0.7,
+"n30": 0,
+"base": 0.8,
 "spike": false
 },
 "산불": {
@@ -3643,7 +3650,7 @@
 "handle": "161cm0309.bsky.social",
 "name": "미야🌱",
 "time": "2026-11-26T00:43:08.649Z",
-"likes": 0,
+"likes": 1,
 "reposts": 0,
 "url": "https://bsky.app/profile/161cm0309.bsky.social/post/3n36gx52jtk2u",
 "term": "사고"
@@ -3673,7 +3680,7 @@
 "handle": "blabla00.bsky.social",
 "name": "YJ🍓윤주",
 "time": "2026-11-26T00:25:27.451Z",
-"likes": 7,
+"likes": 9,
 "reposts": 0,
 "url": "https://bsky.app/profile/blabla00.bsky.social/post/3n36fxhz6ek2u",
 "term": "폭발"
@@ -3714,26 +3721,6 @@
 "time": "2026-11-26T00:20:38Z",
 "term": "속보",
 "url": "https://www.youtube.com/watch?v=KIE4AUU5CMU"
-},
-{
-"text": "[ainet] [글로벌 테크·AI] “역대 최악의 24시간 먹통”… 마이크로소프트 ‘적색 경보’ 발령, 해법은 ‘AI 에이전트’ 추가 투입?\nwww.ainet.link/30218",
-"handle": "youngsook.bsky.social",
-"name": "박영숙AGI에듀",
-"time": "2026-11-26T00:17:47.143Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/youngsook.bsky.social/post/3n36fjp3nic2v",
-"term": "먹통"
-},
-{
-"text": "신라시대 화랑 둘이 어쩌다 정신을 차렸는지 이제 사고치지 말고 공부 제대로 하기로 맹세하고 그걸 돌에 적어놓은 겁니다.",
-"handle": "dsscrolls.bsky.social",
-"name": "사해문서",
-"time": "2026-11-26T00:16:33.548Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/dsscrolls.bsky.social/post/3n36fhkwph22z",
-"term": "사고"
 },
 {
 "platform": "YouTube",
@@ -3868,17 +3855,17 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 1.09,
-"붕괴": 0.09,
-"대피": 0.45,
-"미사일": 0.56,
+"폭발": 1.18,
+"붕괴": 0.08,
+"대피": 0.41,
+"미사일": 0.5,
 "속보": 0.05,
-"지하철": 0.72,
-"사고": 3.77,
+"지하철": 0.65,
+"사고": 3.69,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
-"먹통": 0.77,
+"먹통": 0.69,
 "산불": 0.05
 },
 "errors": [],
