@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-26T23:47:59.633320+00:00",
+"updated": "2026-11-26T23:50:11.659768+00:00",
 "errors": [],
 "events": [
 {
@@ -1744,7 +1744,7 @@
 "spike": false
 },
 "화재": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -1779,18 +1779,18 @@
 "spike": false
 },
 "속보": {
-"n30": 5,
+"n30": 3,
 "base": 0.2,
-"spike": true
+"spike": false
 },
 "지하철": {
 "n30": 3,
-"base": 0.9,
+"base": 1.0,
 "spike": false
 },
 "사고": {
-"n30": 4,
-"base": 2.8,
+"n30": 3,
+"base": 2.9,
 "spike": false
 },
 "실종": {
@@ -1961,16 +1961,6 @@
 "url": "https://www.youtube.com/watch?v=4vwXmX3ekD0"
 },
 {
-"text": "그리고 이 미친 조선 불개미들은 미국가서 3x 레버리지 ETF를 사고 있습니다.\n\n\"한국예탁결제원 세이브로를 보면 지난 23∼25일(조회일 기준) 서학개미가 가장 많이 순매수한 미국 종목은 미국 반도체 지수의 일일 수익률을 3배로 추종하는 SOXL 4억8천556만달러(6천521억원)였다.\"",
-"handle": "hybrideconomics.bsky.social",
-"name": "백화선생",
-"time": "2026-11-26T23:19:08.343Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/hybrideconomics.bsky.social/post/3n3aspm5lok27",
-"term": "사고"
-},
-{
 "platform": "YouTube",
 "text": "[현대차 주가전망] *7분전 속보* 와..이틀 전 급등 다 반납한 줄 알았죠? 차트에 딱 찍힌 매집 흔적 보셨나요?",
 "handle": "UC2nCdx_osQqV62wyIs9CbpQ",
@@ -2052,27 +2042,19 @@
 "url": "https://www.youtube.com/watch?v=QMr6kUjLMok"
 }
 ],
-"spikes": [
-{
-"term": "속보",
-"n30": 5,
-"base": 0.2,
-"spike": true,
-"since": "2026-11-26T23:47:59.633320+00:00"
-}
-],
+"spikes": [],
 "baseline": {
 "지진": 0.05,
-"화재": 0.09,
+"화재": 0.08,
 "불났": 0.05,
 "정전": 0.05,
 "폭발": 0.05,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.16,
-"지하철": 1.01,
-"사고": 2.89,
+"속보": 0.14,
+"지하철": 1.11,
+"사고": 2.9,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
