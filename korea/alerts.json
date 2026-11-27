@@ -1,12 +1,12 @@
 {
-"updated": "2026-11-27T23:46:17.353370+00:00",
+"updated": "2026-11-27T23:48:31.521426+00:00",
 "errors": [],
 "events": [
 {
 "id": "2hYRzV6THQwVDdEM25qZwoc52315",
 "first": "2026-11-27T23:15:45+00:00",
 "last": "2026-11-27T23:30:37+00:00",
-"updated": "2026-11-27T23:32:47.349421+00:00",
+"updated": "2026-11-27T23:48:31.521426+00:00",
 "headline": "새만금전주고속도로 승용차 단독 사고 처리중",
 "cat": "교통",
 "regions": [
@@ -35,6 +35,13 @@
 "title": "[속보] 서천공주고속도로 승용차관련 사고 처리중",
 "source": "스페셜타임스",
 "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE01LTJhb3AxcDQ0U2dYMjh6ZjlqaUNKTzY3RXlNTW50cXN4MU50emlOaEc3TVZvZFZmbjN1MmREVDkxWF95X2J2S3Y0OTRqYW9ibW9PUjUwa3JnUzdIQmw1alo4N09OUUFxbE5rZngtY2Jzdw?oc=5",
+"time": "2026-11-27T23:30:37+00:00",
+"stage": "속보"
+},
+{
+"title": "[속보] 서천공주고속도로 승용차관련 사고 처리중",
+"source": "스페셜타임스",
+"link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1zeXFlVmwwbGRYWWxhSTBtWUU5QXhBdXg3LVI0TWNWMS1VUzVfUWNhUS03QkJSUF95Z2hTYjZaZkFUbWxXM3lmQkd0TW94a1NpTjY4ZDMzVGJENjNaeXNGTVdvZWxUSVNZNXA3RG43U3JoTXc?oc=5",
 "time": "2026-11-27T23:30:37+00:00",
 "stage": "속보"
 }
@@ -1451,12 +1458,12 @@
 "spike": false
 },
 "정전": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
 "폭발": {
-"n30": 4,
+"n30": 3,
 "base": 0.1,
 "spike": false
 },
@@ -1481,18 +1488,18 @@
 "spike": true
 },
 "지하철": {
-"n30": 2,
+"n30": 1,
 "base": 0.7,
 "spike": false
 },
 "사고": {
 "n30": 0,
-"base": 0.2,
+"base": 0.1,
 "spike": false
 },
 "실종": {
 "n30": 1,
-"base": 0.5,
+"base": 0.6,
 "spike": false
 },
 "단수": {
@@ -1742,7 +1749,7 @@
 "n30": 5,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-27T23:46:17.353370+00:00"
+"since": "2026-11-27T23:48:31.521426+00:00"
 }
 ],
 "baseline": {
@@ -1755,9 +1762,9 @@
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.71,
-"사고": 0.14,
-"실종": 0.56,
+"지하철": 0.74,
+"사고": 0.13,
+"실종": 0.6,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
