@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-27T14:57:01.683776+00:00",
+"updated": "2026-11-27T14:59:18.640563+00:00",
 "errors": [],
 "events": [
 {
@@ -4110,7 +4110,7 @@
 "spike": false
 },
 "폭발": {
-"n30": 2,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
@@ -4130,18 +4130,18 @@
 "spike": false
 },
 "속보": {
-"n30": 4,
-"base": 0.2,
-"spike": false
+"n30": 5,
+"base": 0.1,
+"spike": true
 },
 "지하철": {
 "n30": 5,
-"base": 2.8,
+"base": 3.0,
 "spike": false
 },
 "사고": {
-"n30": 5,
-"base": 4.0,
+"n30": 4,
+"base": 4.1,
 "spike": false
 },
 "실종": {
@@ -4171,6 +4171,16 @@
 }
 },
 "posts": [
+{
+"text": "‎속보: 벨기에 당국, 구글 데이터 센터 건설 중단 명령\n‎\n‎자세히 보기: insiderpaper.com/belgian-auth...",
+"handle": "newsky144th.bsky.social",
+"name": "하통시대",
+"time": "2026-11-27T14:59:01.843Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/newsky144th.bsky.social/post/3n3chafuc3k2m",
+"term": "속보"
+},
 {
 "text": "아. 그리고 듄은 책만 사고 읽지 않았는데 그런 것치고는 설정같은 거 알기쉽게 이해한 걸 봐서는 각색하느라 많이 힘들었을 거 같다는 생각이 들었음.",
 "handle": "caelumcorvus.bsky.social",
@@ -4405,19 +4415,27 @@
 "url": "https://www.youtube.com/watch?v=7mMVFu1ttnw"
 }
 ],
-"spikes": [],
+"spikes": [
+{
+"term": "속보",
+"n30": 5,
+"base": 0.1,
+"spike": true,
+"since": "2026-11-27T14:59:18.640563+00:00"
+}
+],
 "baseline": {
 "지진": 0.05,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
 "폭발": 0.05,
-"붕괴": 0.13,
+"붕괴": 0.12,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.14,
-"지하철": 2.95,
-"사고": 4.12,
+"속보": 0.23,
+"지하철": 3.06,
+"사고": 4.11,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
