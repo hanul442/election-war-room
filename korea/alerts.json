@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-27T23:52:59.291477+00:00",
+"updated": "2026-11-27T23:55:25.171496+00:00",
 "errors": [],
 "events": [
 {
@@ -1483,23 +1483,23 @@
 "spike": false
 },
 "속보": {
-"n30": 5,
+"n30": 4,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "지하철": {
 "n30": 0,
-"base": 0.8,
+"base": 0.7,
 "spike": false
 },
 "사고": {
-"n30": 0,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
 "실종": {
 "n30": 1,
-"base": 0.6,
+"base": 0.7,
 "spike": false
 },
 "단수": {
@@ -1524,6 +1524,16 @@
 }
 },
 "posts": [
+{
+"text": "생각나서\n쓰담이 캐해(?) 도 덧붙여봅니다 ㅋㅋㅋㅋㅋ\n\n공주님 같은 얼굴에 장군이나 기사의 기개....\n제가 정말 좋아하는 옛날 만화들 여주인공 캐릭터랍니다 ㅋㅋㅋㅋㅋ\n\n자고로 주인공은 항상 말괄량이 사고뭉치 장난꾸러기에 주위를 우당탕탕 휩쓸고 다니지만... 마음은 따스하고 사건 해결에도 앞장서는 용감함까지 갖춘 법이죠. 지금 딱 생각나는 주인공들은 레 샤르휘나랑 히카루~~ \n\n그래서 드레스",
+"handle": "kkaeong.bsky.social",
+"name": "깨옹",
+"time": "2026-11-27T23:53:00.853Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/kkaeong.bsky.social/post/3n3df3d5xt22h",
+"term": "사고"
+},
 {
 "platform": "YouTube",
 "text": "⛳️💃 골프장 화장실에서부터 흥 폭발🔥🤣",
@@ -1733,15 +1743,7 @@
 "url": "https://www.youtube.com/watch?v=5A2TEnrYRxc"
 }
 ],
-"spikes": [
-{
-"term": "속보",
-"n30": 5,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-27T23:52:59.291477+00:00"
-}
-],
+"spikes": [],
 "baseline": {
 "지진": 0.05,
 "화재": 0.05,
@@ -1752,9 +1754,9 @@
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.69,
-"사고": 0.11,
-"실종": 0.68,
+"지하철": 0.62,
+"사고": 0.2,
+"실종": 0.71,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -2037,8 +2039,26 @@
 "new": true
 },
 {
-"term": "mu",
+"term": "단체교섭",
 "traffic": "100+",
+"time": "2026-11-27T22:40:00+00:00",
+"news": [
+{
+"title": "경남 7개 정당 “한화오션, 하청노동자 교섭 나서야”",
+"source": "KBS 뉴스",
+"link": "https://news.kbs.co.kr/news/view.do?ncd=8722724"
+},
+{
+"title": "한화오션 하청노조 \"정규직 80% 수준 임금·차별없는 성과금 달라\"",
+"source": "뉴스1",
+"link": "https://www.news1.kr/local/busan-gyeongnam/6367992"
+}
+],
+"new": true
+},
+{
+"term": "mu",
+"traffic": "200+",
 "time": "2026-11-27T22:40:00+00:00",
 "news": [
 {
@@ -2073,6 +2093,24 @@
 "new": true
 },
 {
+"term": "휴온스 pba 챔피언십",
+"traffic": "100+",
+"time": "2026-11-27T22:40:00+00:00",
+"news": [
+{
+"title": "“우승횟수 14회 토종강호 대거 탈락” 조재호 강동궁 조건휘 최성원 64강서 고배[휴온스배PBA]",
+"source": "mkbn.mk.co.kr",
+"link": "https://mkbn.mk.co.kr/news/sports/12218901"
+},
+{
+"title": "산체스, 2009년생 한민준 완파…PBA 6차 투어 64강 진출",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261125044600007"
+}
+],
+"new": true
+},
+{
 "term": "김정화",
 "traffic": "200+",
 "time": "2026-11-27T22:20:00+00:00",
@@ -2086,24 +2124,6 @@
 "title": "“위험하다고 제보” 배우♥가수 부부싸움에 경찰 출동",
 "source": "TWIG",
 "link": "https://www.twig24.com/news/entertainments/broadcasting/2026/11/26/20261126500010"
-}
-],
-"new": true
-},
-{
-"term": "보편적 기본소득",
-"traffic": "200+",
-"time": "2026-11-27T22:20:00+00:00",
-"news": [
-{
-"title": "백승주 전남광주시 부시장, 농어촌 기본소득 예산 논란에 사과",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261127135400054"
-},
-{
-"title": "경남 농어촌 기본소득 혹시 이번엔…",
-"source": "경남매일",
-"link": "https://www.gnmaeil.com/news/articleView.html?idxno=599578"
 }
 ],
 "new": true
@@ -2125,28 +2145,9 @@
 }
 ],
 "new": true
-},
-{
-"term": "이승엽",
-"traffic": "1000+",
-"time": "2026-11-27T22:10:00+00:00",
-"news": [
-{
-"title": "고작 26살인데 은퇴 충격! 이승엽이 극찬했던 좌완 유망주, 전역→방출→지도자 변신 “두산 지명 순간 아직도 생생한데…” - 머니투데이",
-"source": "머니투데이",
-"link": "https://www.mt.co.kr/sports/2026/11/28/202611271651772099O"
-},
-{
-"title": "‘왕의 귀환’ 김도영, 2년 만의 MVP…“내년엔 따로 받고픈 상이…”",
-"source": "KBS 뉴스",
-"link": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8724133"
-}
-],
-"new": true
 }
 ],
 "trendSeen": [
-"타케마루",
 "탁구",
 "탁재훈",
 "탄도 미사일",
@@ -2440,6 +2441,7 @@
 "휴림로봇",
 "휴머노이드",
 "휴온스 lpba 챔피언십",
+"휴온스 pba 챔피언십",
 "흡연",
 "흥국생명",
 "흰수마자",
