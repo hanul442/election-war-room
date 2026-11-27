@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-27T12:44:23.967521+00:00",
+"updated": "2026-11-27T12:46:38.813268+00:00",
 "errors": [],
 "events": [
 {
@@ -4880,7 +4880,7 @@
 },
 "폭발": {
 "n30": 7,
-"base": 0.9,
+"base": 1.1,
 "spike": true
 },
 "붕괴": {
@@ -4899,18 +4899,18 @@
 "spike": false
 },
 "속보": {
-"n30": 7,
+"n30": 6,
 "base": 0.1,
 "spike": true
 },
 "지하철": {
 "n30": 11,
-"base": 3.5,
-"spike": true
+"base": 3.8,
+"spike": false
 },
 "사고": {
 "n30": 4,
-"base": 2.8,
+"base": 2.9,
 "spike": false
 },
 "실종": {
@@ -4955,7 +4955,7 @@
 "handle": "hyunn69.bsky.social",
 "name": "hyunn69.bsky.social",
 "time": "2026-11-27T12:40:35.646Z",
-"likes": 1,
+"likes": 2,
 "reposts": 0,
 "url": "https://bsky.app/profile/hyunn69.bsky.social/post/3n3c7ixfuwc2o",
 "term": "지하철"
@@ -5235,38 +5235,31 @@
 {
 "term": "폭발",
 "n30": 7,
-"base": 0.9,
+"base": 1.1,
 "spike": true,
-"since": "2026-11-27T12:44:23.967521+00:00"
+"since": "2026-11-27T12:46:38.813268+00:00"
 },
 {
 "term": "속보",
-"n30": 7,
+"n30": 6,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-27T12:44:23.967521+00:00"
-},
-{
-"term": "지하철",
-"n30": 11,
-"base": 3.5,
-"spike": true,
-"since": "2026-11-27T12:44:23.967521+00:00"
+"since": "2026-11-27T12:46:38.813268+00:00"
 }
 ],
 "baseline": {
-"지진": 0.51,
+"지진": 0.56,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 1.05,
-"붕괴": 0.12,
+"폭발": 1.15,
+"붕괴": 0.11,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 3.79,
-"사고": 2.89,
-"실종": 0.13,
+"지하철": 4.01,
+"사고": 3.0,
+"실종": 0.12,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -5631,9 +5624,9 @@
 "link": "https://www.bbc.com/sport/cricket/articles/cm9d704g26z4o"
 },
 {
-"title": "England go 2-1 up after Jamie Overton's five-fer dismantles Australia",
-"source": "Cricbuzz",
-"link": "https://www.cricbuzz.com/cricket-news/141085/england-go-2-1-up-after-jamie-overtons-five-fer-dismantles-australia"
+"title": "Jamie Overton tears through Australia as England claim emphatic win in third T20",
+"source": "Yahoo Sports",
+"link": "https://sports.yahoo.com/cricket/articles/jamie-overton-tears-australia-england-121347753.html"
 }
 ],
 "new": true
