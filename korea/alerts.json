@@ -1,16 +1,17 @@
 {
-"updated": "2026-11-27T01:54:01.403396+00:00",
+"updated": "2026-11-27T01:56:16.337442+00:00",
 "errors": [],
 "events": [
 {
 "id": "wNISX20261127_00038858850147",
 "first": "2026-11-27T01:47:24+00:00",
 "last": "2026-11-27T01:51:00+00:00",
-"updated": "2026-11-27T01:54:01.403396+00:00",
+"updated": "2026-11-27T01:56:16.337442+00:00",
 "headline": "'尹 관저 의혹' 1심 이상민 무죄…김대기 징역형 집유",
 "cat": "기타",
 "regions": [],
 "sources": [
+"JTBC",
 "MBC 뉴스",
 "경향신문",
 "뉴시스",
@@ -78,6 +79,13 @@
 "source": "조선일보",
 "link": "https://www.chosun.com/national/court_law/2026/11/27/ISSFVWOQUJDNVI2HT3B6TF4DNU/",
 "time": "2026-11-27T01:48:14+00:00",
+"stage": "속보"
+},
+{
+"title": "[속보] ‘윤석열 관저이전 예산전용’ 김대기 전 비서실장 1심 징역형 집유",
+"source": "JTBC",
+"link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE8tTkRQbml3SHhXdUdRUjdjRmtfY1VFNlNKcjR3ZzRCcUpCUUJNdEhYQ1VHVDViTHhyYjZsRWpCdEtidVA2RWtVRGNKTVJ1Z2Vfdm4wY0V6WEYtbkh6RC1ESGo4ZEZhYWFPWHc?oc=5",
+"time": "2026-11-27T01:49:00+00:00",
 "stage": "속보"
 },
 {
@@ -3127,7 +3135,7 @@
 "terms": {
 "지진": {
 "n30": 1,
-"base": 0.3,
+"base": 0.4,
 "spike": false
 },
 "화재": {
@@ -3166,13 +3174,13 @@
 "spike": false
 },
 "속보": {
-"n30": 6,
+"n30": 7,
 "base": 0.1,
 "spike": true
 },
 "지하철": {
 "n30": 2,
-"base": 0.7,
+"base": 0.6,
 "spike": false
 },
 "사고": {
@@ -3207,6 +3215,16 @@
 }
 },
 "posts": [
+{
+"text": "[속보] 윤석열 정부 ‘관저 이전 예산 전용’ 김대기 1심 징역형 집유…이상민 무죄\nwww.khan.co.kr/article/2026...\n\n“함께 재판에 넘겨진 윤재순 전 대통령실 총무비서관, 김오진 전 관리비서관은 각각 징역 1년에 집행유예 2년을 선고받았다. 이상민 전 행정안전부 장관은 무죄가 선고됐다. 이들은 2022년 대통령 관저 이전 공사 당시 무자격 업체인 21그램에 공사비를 지",
+"handle": "boknews.bsky.social",
+"name": "복설 뉴스",
+"time": "2026-11-27T01:54:41.041Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/boknews.bsky.social/post/3n3b3fvsak22m",
+"term": "속보"
+},
 {
 "text": "매해 강아지 기념일 케이크를 사던 가게의 온라인스토어가 닫혔다…\n동공지진하며 급하게 멍케잌을 수배하다, 디자인값을 할 것 같은 스토어를 발견하여 빠르게 주문하였다.\n괜찮기를(1) 화요일까지 도착할 수 있기를(2) 격하게 기원하며!\n(N사 포인트를 탈탈 털어 다 씀 ㅋㅋㅋ)",
 "handle": "mahapadma770.bsky.social",
@@ -3432,14 +3450,14 @@
 "spikes": [
 {
 "term": "속보",
-"n30": 6,
+"n30": 7,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-27T01:54:01.403396+00:00"
+"since": "2026-11-27T01:56:16.337442+00:00"
 }
 ],
 "baseline": {
-"지진": 0.39,
+"지진": 0.45,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
@@ -3447,9 +3465,9 @@
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.05,
-"지하철": 0.61,
-"사고": 3.88,
+"속보": 0.15,
+"지하철": 0.55,
+"사고": 3.89,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
