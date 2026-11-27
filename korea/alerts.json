@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-27T03:22:02.398951+00:00",
+"updated": "2026-11-27T03:24:18.358860+00:00",
 "errors": [],
 "events": [
 {
@@ -3635,12 +3635,12 @@
 },
 "지하철": {
 "n30": 7,
-"base": 2.4,
+"base": 2.5,
 "spike": false
 },
 "사고": {
 "n30": 1,
-"base": 2.1,
+"base": 2.0,
 "spike": false
 },
 "실종": {
@@ -3879,7 +3879,7 @@
 "n30": 5,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-27T03:22:02.398951+00:00"
+"since": "2026-11-27T03:24:18.358860+00:00"
 }
 ],
 "baseline": {
@@ -3889,11 +3889,11 @@
 "정전": 0.05,
 "폭발": 0.05,
 "붕괴": 0.05,
-"대피": 0.09,
+"대피": 0.08,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 2.46,
-"사고": 2.01,
+"지하철": 2.51,
+"사고": 1.91,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -4069,6 +4069,60 @@
 },
 "trends": [
 {
+"term": "죽도시장",
+"traffic": "500+",
+"time": "2026-11-27T02:20:00+00:00",
+"news": [
+{
+"title": "[여기는 포항] 포항 죽도시장 상인, 골목형 상가 해법 찾아 외",
+"source": "KBS 뉴스",
+"link": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8723692"
+},
+{
+"title": "증평군, 골목형상점가 3곳 신규 지정…\"상권 활성화 기대\"",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261127017000064"
+}
+],
+"new": true
+},
+{
+"term": "모리야스 하지메",
+"traffic": "200+",
+"time": "2026-11-27T02:20:00+00:00",
+"news": [
+{
+"title": "前 일본 대표팀 감독 모리야스, K리그 올까",
+"source": "조선일보",
+"link": "https://www.chosun.com/sports/world-football/2026/11/27/4MZ2IJTV5RB6DHAVJY7DHDM4HA/"
+},
+{
+"title": "모리야스, 일본 대표팀 8년 마무리…다음 행선지로 유럽 거론",
+"source": "스포츠경향",
+"link": "https://sports.khan.co.kr/article/202611261316003"
+}
+],
+"new": true
+},
+{
+"term": "2026",
+"traffic": "100+",
+"time": "2026-11-27T02:20:00+00:00",
+"news": [
+{
+"title": "Global Digital Health Forum 2026",
+"source": "World Health Organization (WHO)",
+"link": "https://www.who.int/news-room/events/detail/2026/12/02/default-calendar/global-digital-health-forum-2026"
+},
+{
+"title": "26 things Sarah Langs is thankful for from the 2026 baseball season (which was the best!)",
+"source": "MLB.com",
+"link": "https://www.mlb.com/news/things-to-be-thankful-for-from-2026-mlb-season"
+}
+],
+"new": true
+},
+{
 "term": "이동욱",
 "traffic": "200+",
 "time": "2026-11-27T01:50:00+00:00",
@@ -4179,60 +4233,6 @@
 "title": "네이버·카카오, '실행형' AI 에이전트 내달 출시…피클 돌풍 잠재울까",
 "source": "연합인포맥스",
 "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4446918"
-}
-],
-"new": true
-},
-{
-"term": "유한양행",
-"traffic": "200+",
-"time": "2026-11-27T01:00:00+00:00",
-"news": [
-{
-"title": "유한양행 '버들장터', 건기식·생활용품 할인…최대 10만원 쿠폰 지급",
-"source": "전자신문",
-"link": "https://www.etnews.com/20261127000053"
-},
-{
-"title": "유한양행, ‘버들장터’서 30일까지 블랙프라이데이 행사 진행",
-"source": "주간한국",
-"link": "https://weekly.hankooki.com/news/articleView.html?idxno=7196061"
-}
-],
-"new": true
-},
-{
-"term": "lg에너지솔루션",
-"traffic": "1000+",
-"time": "2026-11-27T00:50:00+00:00",
-"news": [
-{
-"title": "[단독] 3차 ESS 중앙계약시장, 삼성SDI가 웃었다",
-"source": "전기신문",
-"link": "https://www.electimes.com/news/articleView.html?idxno=375356"
-},
-{
-"title": "LG에너지솔루션, 북미 ESS 시장 공략…AI 에너지 플랫폼 기업 도약",
-"source": "전자신문",
-"link": "https://www.etnews.com/20261126000087"
-}
-],
-"new": true
-},
-{
-"term": "병무청",
-"traffic": "500+",
-"time": "2026-11-27T00:50:00+00:00",
-"news": [
-{
-"title": "병무청, '병역면탈 의심' 질병 조기전역자 자료확보 근거 마련",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261127068900504"
-},
-{
-"title": "병무청, 질병 전역자 병역면탈 사후관리 강화 : 정치",
-"source": "재경일보",
-"link": "https://news.jkn.co.kr/post/1127004"
 }
 ],
 "new": true
