@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-27T16:22:16.472175+00:00",
+"updated": "2026-11-27T16:24:53.951901+00:00",
 "errors": [],
 "events": [
 {
@@ -3531,13 +3531,13 @@
 "spike": false
 },
 "폭발": {
-"n30": 16,
+"n30": 13,
 "base": 0.1,
 "spike": true
 },
 "붕괴": {
-"n30": 1,
-"base": 0.3,
+"n30": 2,
+"base": 0.4,
 "spike": false
 },
 "대피": {
@@ -3551,13 +3551,13 @@
 "spike": false
 },
 "속보": {
-"n30": 6,
+"n30": 5,
 "base": 0.1,
 "spike": true
 },
 "지하철": {
 "n30": 1,
-"base": 1.6,
+"base": 1.4,
 "spike": false
 },
 "사고": {
@@ -3592,6 +3592,16 @@
 }
 },
 "posts": [
+{
+"text": "단풍 대인도 남자가 식솔 거느리고 폴리아모리해서 간 걸 수도 있음. 그게 붕괴의 논리임.\n\n단풍 대인 여자였으면?\n흠?\n잘 살았겠지 뭐.\n남자니까 사랑 감당 못하고 시스템 에러 뜬 거다. 그릇 작아서.",
+"handle": "tsuta.bsky.social",
+"name": "츠타蔦_漸龑",
+"time": "2026-11-27T16:22:25.147Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/tsuta.bsky.social/post/3n3clvlkhsk2j",
+"term": "붕괴"
+},
 {
 "platform": "YouTube",
 "text": "손호영, 하루의 폭발 다음은 #롯데자이언츠",
@@ -3833,17 +3843,17 @@
 "spikes": [
 {
 "term": "폭발",
-"n30": 16,
+"n30": 13,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-27T16:22:16.472175+00:00"
+"since": "2026-11-27T16:24:53.951901+00:00"
 },
 {
 "term": "속보",
-"n30": 6,
+"n30": 5,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-27T16:22:16.472175+00:00"
+"since": "2026-11-27T16:24:53.951901+00:00"
 }
 ],
 "baseline": {
@@ -3852,13 +3862,13 @@
 "불났": 0.05,
 "정전": 0.05,
 "폭발": 0.05,
-"붕괴": 0.39,
+"붕괴": 0.55,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.07,
-"지하철": 1.41,
+"속보": 0.06,
+"지하철": 1.27,
 "사고": 1.95,
-"실종": 0.16,
+"실종": 0.14,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -4078,6 +4088,24 @@
 },
 "trends": [
 {
+"term": "파기환송",
+"traffic": "2000+",
+"time": "2026-11-27T15:20:00+00:00",
+"news": [
+{
+"title": "윤석열 ‘계엄 국무회의 위증’ 무죄 확정…대법 “허위 진술 입증 부족”",
+"source": "KBS 뉴스",
+"link": "https://news.kbs.co.kr/news/view.do?ncd=8723131"
+},
+{
+"title": "“12·3 계엄은 내란 아니다” 31%, 2년 새 내란인식 14%P 줄어···조희대 탄핵 찬성 35%·반대 42%[한국갤럽]",
+"source": "경향신문",
+"link": "https://www.khan.co.kr/article/202611271047001"
+}
+],
+"new": true
+},
+{
 "term": "연애남매2",
 "traffic": "100+",
 "time": "2026-11-27T14:50:00+00:00",
@@ -4091,6 +4119,24 @@
 "title": "‘연애남매2’ 한층 솔직하고 거침없어진 로맨스…27일 첫 공개",
 "source": "매일경제",
 "link": "https://www.mk.co.kr/news/hot-issues/12218686"
+}
+],
+"new": true
+},
+{
+"term": "신지아",
+"traffic": "100+",
+"time": "2026-11-27T14:10:00+00:00",
+"news": [
+{
+"title": "피겨 신지아, 개인 최고 75.31점으로 시니어 GP 6차 쇼트 2위",
+"source": "KBS 뉴스",
+"link": "https://news.kbs.co.kr/news/view.do?ncd=8724677"
+},
+{
+"title": "개인 최고점 쇼트 2위…시니어 첫 메달 보인다",
+"source": "SBS 뉴스",
+"link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008867290"
 }
 ],
 "new": true
@@ -4114,24 +4160,6 @@
 "new": true
 },
 {
-"term": "신지아",
-"traffic": "100+",
-"time": "2026-11-27T14:10:00+00:00",
-"news": [
-{
-"title": "피겨 신지아, 개인 최고 75.31점으로 시니어 그랑프리 2위",
-"source": "MBC 뉴스",
-"link": "https://imnews.imbc.com/news/2026/sports/article/6869179_36946.html"
-},
-{
-"title": "개인 최고점 쇼트 2위…시니어 첫 메달 보인다",
-"source": "SBS 뉴스",
-"link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008867290"
-}
-],
-"new": true
-},
-{
 "term": "박서진",
 "traffic": "1000+",
 "time": "2026-11-27T14:00:00+00:00",
@@ -4150,6 +4178,19 @@
 "new": true
 },
 {
+"term": "온두라스 u-17 대 일본 u-17",
+"traffic": "1000+",
+"time": "2026-11-27T12:40:00+00:00",
+"news": [
+{
+"title": "Watch Honduras U17 vs Japan U17 live today: Who is broadcasting the match on TV and via live stream?",
+"source": "Goal.com",
+"link": "https://www.goal.com/en-gb/news/live-stream-online-tv-where-to-watch-honduras-u17-v-japan-u17/blt378838225c754e2c"
+}
+],
+"new": true
+},
+{
 "term": "강지영",
 "traffic": "200+",
 "time": "2026-11-27T12:40:00+00:00",
@@ -4163,19 +4204,6 @@
 "title": "이문세·배철수·안영미, 하루 동안 자리 교체…'MBC FM4U 패밀리데이'",
 "source": "뉴시스",
 "link": "https://www.newsis.com/view/NISX20261127_0003886153"
-}
-],
-"new": true
-},
-{
-"term": "온두라스 u-17 대 일본 u-17",
-"traffic": "1000+",
-"time": "2026-11-27T12:40:00+00:00",
-"news": [
-{
-"title": "Watch Honduras U17 vs Japan U17 live today: Who is broadcasting the match on TV and via live stream?",
-"source": "Goal.com",
-"link": "https://www.goal.com/en-gb/news/live-stream-online-tv-where-to-watch-honduras-u17-v-japan-u17/blt378838225c754e2c"
 }
 ],
 "new": true
@@ -4233,28 +4261,9 @@
 }
 ],
 "new": true
-},
-{
-"term": "그냥사람친구",
-"traffic": "1000+",
-"time": "2026-11-27T12:00:00+00:00",
-"news": [
-{
-"title": "이서진, 11살 어린 한지민에 \"갱년기 중년 女\"…막말 비하 논란 - 머니투데이",
-"source": "머니투데이",
-"link": "https://www.mt.co.kr/entertainment/2026/11/26/2026112618425270556"
-},
-{
-"title": "[ET포토] 김용건, '건강한 모습으로 인사'",
-"source": "전자신문",
-"link": "https://www.etnews.com/20261126000480"
-}
-],
-"new": true
 }
 ],
 "trendSeen": [
-"타래",
 "타릭 스쿠발",
 "타케마루",
 "탁구",
@@ -4312,6 +4321,7 @@
 "티원",
 "티켓링크",
 "파기 환송",
+"파기환송",
 "파라타항공",
 "파업",
 "파운드리",
