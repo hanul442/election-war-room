@@ -1,7 +1,69 @@
 {
-"updated": "2026-11-27T10:02:57.083939+00:00",
+"updated": "2026-11-27T10:05:13.490125+00:00",
 "errors": [],
 "events": [
+{
+"id": "wNISX20261127_00038867930910",
+"first": "2026-11-27T09:10:48+00:00",
+"last": "2026-11-27T10:02:00+00:00",
+"updated": "2026-11-27T10:05:13.490125+00:00",
+"headline": "선관위 특검, 노태악 휴대전화 압수수색 집행 종료",
+"cat": "기타",
+"regions": [
+"대전"
+],
+"sources": [
+"경향신문",
+"뉴시스",
+"연합뉴스"
+],
+"updates": [
+{
+"title": "[속보]선관위 특검, 노태악 휴대전화 압수수색 집행 종료",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261127_0003886793",
+"time": "2026-11-27T09:10:48+00:00",
+"stage": "얼럿"
+},
+{
+"title": "선관위특검, 노태악 추가 압수수색…공추비 부당 지급 의혹",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261127156700004",
+"time": "2026-11-27T09:33:33+00:00",
+"stage": "후속"
+},
+{
+"title": "선관위 특검, '공추비 부당 지급 의혹' 노태악 압수수색",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261127_0003886817",
+"time": "2026-11-27T09:41:33+00:00",
+"stage": "후속"
+},
+{
+"title": "선관위 특검, ‘공추비 부당 지급 의혹’ 노태악 휴대전화 압수수색",
+"source": "경향신문",
+"link": "https://www.khan.co.kr/article/202611271902001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=total_news",
+"time": "2026-11-27T10:02:00+00:00",
+"stage": "후속"
+}
+],
+"level": "URGENT",
+"latest": "선관위 특검, ‘공추비 부당 지급 의혹’ 노태악 휴대전화 압수수색",
+"tok": [
+"공추비",
+"노태악",
+"부당",
+"선관위",
+"선관위특검",
+"압수수색",
+"종료",
+"지급",
+"집행",
+"추가",
+"특검",
+"휴대전화"
+]
+},
 {
 "id": "VdZcl9PNi13RHdXbV9UUQoc51903",
 "first": "2026-11-26T19:03:00+00:00",
@@ -1487,60 +1549,6 @@
 "지연",
 "철도노조",
 "투쟁"
-]
-},
-{
-"id": "wNISX20261127_00038867930910",
-"first": "2026-11-27T09:10:48+00:00",
-"last": "2026-11-27T09:41:33+00:00",
-"updated": "2026-11-27T09:47:15.949969+00:00",
-"headline": "선관위 특검, 노태악 휴대전화 압수수색 집행 종료",
-"cat": "기타",
-"regions": [
-"대전"
-],
-"sources": [
-"뉴시스",
-"연합뉴스"
-],
-"updates": [
-{
-"title": "[속보]선관위 특검, 노태악 휴대전화 압수수색 집행 종료",
-"source": "뉴시스",
-"link": "https://www.newsis.com/view/NISX20261127_0003886793",
-"time": "2026-11-27T09:10:48+00:00",
-"stage": "얼럿"
-},
-{
-"title": "선관위특검, 노태악 추가 압수수색…공추비 부당 지급 의혹",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261127156700004",
-"time": "2026-11-27T09:33:33+00:00",
-"stage": "후속"
-},
-{
-"title": "선관위 특검, '공추비 부당 지급 의혹' 노태악 압수수색",
-"source": "뉴시스",
-"link": "https://www.newsis.com/view/NISX20261127_0003886817",
-"time": "2026-11-27T09:41:33+00:00",
-"stage": "후속"
-}
-],
-"level": "URGENT",
-"latest": "선관위 특검, '공추비 부당 지급 의혹' 노태악 압수수색",
-"tok": [
-"공추비",
-"노태악",
-"부당",
-"선관위",
-"선관위특검",
-"압수수색",
-"종료",
-"지급",
-"집행",
-"추가",
-"특검",
-"휴대전화"
 ]
 },
 {
@@ -4719,7 +4727,7 @@
 },
 "폭발": {
 "n30": 7,
-"base": 1.5,
+"base": 1.4,
 "spike": true
 },
 "붕괴": {
@@ -4738,7 +4746,7 @@
 "spike": false
 },
 "속보": {
-"n30": 8,
+"n30": 7,
 "base": 0.1,
 "spike": true
 },
@@ -4749,7 +4757,7 @@
 },
 "사고": {
 "n30": 5,
-"base": 3.0,
+"base": 3.2,
 "spike": false
 },
 "실종": {
@@ -4774,7 +4782,7 @@
 },
 "산불": {
 "n30": 2,
-"base": 1.8,
+"base": 1.9,
 "spike": false
 }
 },
@@ -5054,35 +5062,35 @@
 {
 "term": "폭발",
 "n30": 7,
-"base": 1.5,
+"base": 1.4,
 "spike": true,
-"since": "2026-11-27T10:02:57.083939+00:00"
+"since": "2026-11-27T10:05:13.490125+00:00"
 },
 {
 "term": "속보",
-"n30": 8,
+"n30": 7,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-27T10:02:57.083939+00:00"
+"since": "2026-11-27T10:05:13.490125+00:00"
 }
 ],
 "baseline": {
-"지진": 0.74,
+"지진": 0.77,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 1.43,
+"폭발": 1.39,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 1.71,
-"사고": 3.19,
+"지하철": 1.74,
+"사고": 3.37,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
-"산불": 1.85
+"산불": 1.86
 },
 "errors": [],
 "ytPosts": [
@@ -5271,6 +5279,24 @@
 },
 "trends": [
 {
+"term": "australia vs england",
+"traffic": "200+",
+"time": "2026-11-27T09:00:00+00:00",
+"news": [
+{
+"title": "Australia vs England, third T20 international, The Gabba",
+"source": "Sky Sports",
+"link": "https://www.skysports.com/cricket/live-blog/13617030/australia-vs-england-third-t20-live-latest-cricket-score-and-updates-from-the-gabba-in-brisbane-as-harry-brooks-side-target-series-lead"
+},
+{
+"title": "England return to the Gabbatoir with onus on Australia to bounce back",
+"source": "Cricinfo",
+"link": "https://www.cricinfo.com/series/england-in-australia-2026-27-1528677/australia-vs-england-3rd-t20i-1528708/match-preview"
+}
+],
+"new": true
+},
+{
 "term": "오세훈",
 "traffic": "500+",
 "time": "2026-11-27T08:40:00+00:00",
@@ -5310,18 +5336,7 @@
 "term": "홍민기",
 "traffic": "1000+",
 "time": "2026-11-27T08:20:00+00:00",
-"news": [
-{
-"title": "[단독] '사생활 논란' 홍민기 前 여자친구 실종…마포대교서 마지막 확인",
-"source": "파이낸셜뉴스",
-"link": "https://www.fnnews.com/news/202611271650017461"
-},
-{
-"title": "‘홍민기 폭행 폭로’ 전 여자친구 실종…마지막 행적은 마포대교",
-"source": "스포츠경향",
-"link": "https://sports.khan.co.kr/article/202611271742003"
-}
-],
+"news": [],
 "new": false
 },
 {
@@ -5335,9 +5350,9 @@
 "link": "https://imnews.imbc.com/news/2026/politics/article/6869160_36911.html"
 },
 {
-"title": "민주, 최민희 당원권 2년 정지…확정땐 차기 총선서 공천 불가(종합)",
-"source": "국제신문",
-"link": "https://www.kookje.co.kr/news2011/asp/newsbody.asp?code=00&key=20261127.99099008928"
+"title": "[속보] 최민희, ‘당원 자격정지 2년’ 중징계에 “수용 어려워…재심 신청”",
+"source": "경향신문",
+"link": "https://www.khan.co.kr/article/202611271819001"
 }
 ],
 "new": true
@@ -5417,24 +5432,6 @@
 "title": "서영교에 목청 높인 박홍근 “법사위 그동안 제대로 작동 안돼”",
 "source": "동아일보",
 "link": "https://www.donga.com/news/Politics/article/all/20261127/135103674/1"
-}
-],
-"new": true
-},
-{
-"term": "디에이치 반포124",
-"traffic": "100+",
-"time": "2026-11-27T06:40:00+00:00",
-"news": [
-{
-"title": "12월 서울 일반분양 2725가구…'최대어' 디에이치 반포124 주목 - 머니투데이",
-"source": "머니투데이",
-"link": "https://www.mt.co.kr/estate/2026/11/27/2026112711184216078"
-},
-{
-"title": "연말 분양시장 -최초·최고·최대- 단지 잇따라 공급",
-"source": "매일경제",
-"link": "https://re.mk.co.kr/news/news_detail.php?no=12220203"
 }
 ],
 "new": true
