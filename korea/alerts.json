@@ -1,12 +1,12 @@
 {
-"updated": "2026-11-27T04:19:08.840174+00:00",
+"updated": "2026-11-27T04:21:19.995009+00:00",
 "errors": [],
 "events": [
 {
 "id": "lF3a3hDUEs0c2JnVC12OAoc50202",
 "first": "2026-11-27T02:02:34+00:00",
-"last": "2026-11-27T04:10:00+00:00",
-"updated": "2026-11-27T04:16:58.414807+00:00",
+"last": "2026-11-27T04:16:00+00:00",
+"updated": "2026-11-27T04:21:19.995009+00:00",
 "headline": "'제자 성폭행 혐의' 남경주, 굳은 표정으로 법정 출석…배심원 선정 완료",
 "cat": "기타",
 "regions": [
@@ -51,10 +51,38 @@
 "link": "https://www.chosun.com/entertainments/entertain_photo/2026/11/27/GFSGMNBQGRQTCZBRHA4TKYRXG4/",
 "time": "2026-11-27T04:10:00+00:00",
 "stage": "후속"
+},
+{
+"title": "[사진]여제자 성폭행 혐의 남경주, 오늘 국민참여재판",
+"source": "조선일보",
+"link": "https://www.chosun.com/entertainments/entertain_photo/2026/11/27/G44WENLFGYZWEYZWGBTDKMZVHE/",
+"time": "2026-11-27T04:15:00+00:00",
+"stage": "후속"
+},
+{
+"title": "[사진]여제자 성폭행 혐의 남경주, 국민참여재판 신청",
+"source": "조선일보",
+"link": "https://www.chosun.com/entertainments/entertain_photo/2026/11/27/GRSTEOBQGFTDMNJVGAYTQNZSMU/",
+"time": "2026-11-27T04:15:00+00:00",
+"stage": "후속"
+},
+{
+"title": "[사진]뮤지컬 배우 남경주, 국민참여재판 휴정으로 잠시 퇴정",
+"source": "조선일보",
+"link": "https://www.chosun.com/entertainments/entertain_photo/2026/11/27/GYYTGYZZMU4GGNJQGU4DMZTDMU/",
+"time": "2026-11-27T04:16:00+00:00",
+"stage": "후속"
+},
+{
+"title": "[사진]제자 성폭행 혐의 남경주, 국민참여재판 시작",
+"source": "조선일보",
+"link": "https://www.chosun.com/entertainments/entertain_photo/2026/11/27/MZSDMNBUGU4TIMZSG5QWKYZVMI/",
+"time": "2026-11-27T04:16:00+00:00",
+"stage": "후속"
 }
 ],
 "level": "URGENT",
-"latest": "[사진]국민참여재판 법원 나서는 남경주",
+"latest": "[사진]제자 성폭행 혐의 남경주, 국민참여재판 시작",
 "tok": [
 "국민참여재판",
 "굳은",
@@ -69,6 +97,8 @@
 "사진",
 "선정",
 "성폭행",
+"시작",
+"신청",
 "여제자",
 "완료",
 "잠시",
@@ -76,10 +106,12 @@
 "참석",
 "출석",
 "퇴장",
+"퇴정",
 "표정으",
 "피감독자간음",
 "혐의",
-"휴정"
+"휴정",
+"휴정으"
 ]
 },
 {
@@ -3718,12 +3750,12 @@
 },
 "폭발": {
 "n30": 6,
-"base": 0.6,
+"base": 0.7,
 "spike": true
 },
 "붕괴": {
 "n30": 1,
-"base": 0.3,
+"base": 0.2,
 "spike": false
 },
 "대피": {
@@ -3732,7 +3764,7 @@
 "spike": false
 },
 "미사일": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -3743,12 +3775,12 @@
 },
 "지하철": {
 "n30": 0,
-"base": 1.0,
+"base": 0.9,
 "spike": false
 },
 "사고": {
 "n30": 3,
-"base": 2.3,
+"base": 2.4,
 "spike": false
 },
 "실종": {
@@ -4003,16 +4035,16 @@
 {
 "term": "폭발",
 "n30": 6,
-"base": 0.6,
+"base": 0.7,
 "spike": true,
-"since": "2026-11-27T04:19:08.840174+00:00"
+"since": "2026-11-27T04:21:19.995009+00:00"
 },
 {
 "term": "속보",
 "n30": 11,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-27T04:19:08.840174+00:00"
+"since": "2026-11-27T04:21:19.995009+00:00"
 }
 ],
 "baseline": {
@@ -4020,13 +4052,13 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.68,
-"붕괴": 0.24,
+"폭발": 0.71,
+"붕괴": 0.22,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.9,
-"사고": 2.38,
+"지하철": 0.81,
+"사고": 2.44,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -4366,7 +4398,7 @@
 {
 "title": "펩트론, 릴리 이어 페링과 공동연구…비만 넘어 항암·난임 가나",
 "source": "팜이데일리",
-"link": "https://pharm.edaily.co.kr/News/Read?newsId=01210326645649984&mediaCodeNo=257"
+"link": "https://pharm.edaily.co.kr/News/Read?newsId=01210326645649984"
 },
 {
 "title": "[특징주] 펩트론, 스위스 제약사와 기술평가 계약…강세",
