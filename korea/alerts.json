@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-27T10:50:07.795010+00:00",
+"updated": "2026-11-27T10:52:22.699621+00:00",
 "errors": [],
 "events": [
 {
@@ -1566,6 +1566,40 @@
 "추가",
 "특검",
 "휴대전화"
+]
+},
+{
+"id": "wUGNUUzloQU1wd0RWa0Nuoc50957",
+"first": "2026-11-27T09:57:09+00:00",
+"last": "2026-11-27T09:57:09+00:00",
+"updated": "2026-11-27T10:52:22.699621+00:00",
+"headline": "파두, 204억원 규모 기업용 SSD 컨트롤러 공급계약…매출액 대비 22.10%",
+"cat": "경제",
+"regions": [],
+"sources": [
+"CBC뉴스"
+],
+"updates": [
+{
+"title": "[속보] 파두, 204억원 규모 기업용 SSD 컨트롤러 공급계약…매출액 대비 22.10%",
+"source": "CBC뉴스",
+"link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBDZEtrdUlueENDWGlhRE9tYjZvT24tY0lxazhnUHprSXNXeGt0emNOTUFOdjRwVnBtV2l6NUpqZFJ2U25wYVVqS3VhUmh6dXl5NnR3X0VIWEYwUGNUUzloQU1wd0RWa0Nu?oc=5",
+"time": "2026-11-27T09:57:09+00:00",
+"stage": "얼럿"
+}
+],
+"level": "URGENT",
+"latest": "파두, 204억원 규모 기업용 SSD 컨트롤러 공급계약…매출액 대비 22.10%",
+"tok": [
+"204억원",
+"SSD",
+"공급계약",
+"규모",
+"기업용",
+"대비",
+"매출액",
+"컨트롤러",
+"파두"
 ]
 },
 {
@@ -4828,43 +4862,6 @@
 "항소심서",
 "혐의"
 ]
-},
-{
-"id": "wNISX20261127_00038854820730",
-"first": "2026-11-27T07:30:00+00:00",
-"last": "2026-11-27T07:30:00+00:00",
-"updated": "2026-11-27T07:30:46.790356+00:00",
-"headline": "농식품부, 화성 딸기·포도 농가 폭설 복구·겨울 대비 점검",
-"cat": "재난",
-"regions": [
-"경기"
-],
-"sources": [
-"뉴시스"
-],
-"updates": [
-{
-"title": "농식품부, 화성 딸기·포도 농가 폭설 복구·겨울 대비 점검",
-"source": "뉴시스",
-"link": "https://www.newsis.com/view/NISX20261127_0003885482",
-"time": "2026-11-27T07:30:00+00:00",
-"stage": "1보"
-}
-],
-"level": "ALERT",
-"latest": "농식품부, 화성 딸기·포도 농가 폭설 복구·겨울 대비 점검",
-"tok": [
-"겨울",
-"농가",
-"농식품부",
-"대비",
-"딸기",
-"복구",
-"점검",
-"포도",
-"폭설",
-"화성"
-]
 }
 ],
 "sns": {
@@ -4910,7 +4907,7 @@
 "spike": false
 },
 "속보": {
-"n30": 1,
+"n30": 2,
 "base": 0.1,
 "spike": false
 },
@@ -4926,12 +4923,12 @@
 },
 "실종": {
 "n30": 1,
-"base": 0.4,
+"base": 0.5,
 "spike": false
 },
 "단수": {
 "n30": 2,
-"base": 1.1,
+"base": 1.2,
 "spike": false
 },
 "통신 장애": {
@@ -4946,11 +4943,21 @@
 },
 "산불": {
 "n30": 1,
-"base": 0.8,
+"base": 0.9,
 "spike": false
 }
 },
 "posts": [
+{
+"text": "[속보] 아산, 키우던 고양이에게 복수당해 숨쉰채 발견",
+"handle": "ma6aron.bsky.social",
+"name": "마카롱💎",
+"time": "2026-11-27T10:49:40.443Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/ma6aron.bsky.social/post/3n3bzclq5ic2r",
+"term": "속보"
+},
 {
 "text": "척추딸내미 천사고 레바테인님 아름다우시고",
 "handle": "lingonberry.bsky.social",
@@ -5036,7 +5043,7 @@
 "handle": "omija.bsky.social",
 "name": "OMIJA",
 "time": "2026-11-27T10:34:17.947Z",
-"likes": 7,
+"likes": 8,
 "reposts": 0,
 "url": "https://bsky.app/profile/omija.bsky.social/post/3n3byh3s2vc2r",
 "term": "지하철"
@@ -5227,22 +5234,22 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 0.51,
+"지진": 0.56,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.17,
+"폭발": 0.15,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.05,
-"지하철": 2.62,
-"사고": 3.87,
-"실종": 0.45,
-"단수": 1.16,
+"속보": 0.15,
+"지하철": 2.66,
+"사고": 3.88,
+"실종": 0.51,
+"단수": 1.24,
 "통신 장애": 0.05,
 "먹통": 0.05,
-"산불": 0.86
+"산불": 0.87
 },
 "errors": [],
 "ytPosts": [
