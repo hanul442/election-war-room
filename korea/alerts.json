@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-27T03:31:03.103709+00:00",
+"updated": "2026-11-27T03:33:16.095702+00:00",
 "errors": [],
 "events": [
 {
@@ -1130,13 +1130,14 @@
 "id": "aUHl2U2tPekoxYkpXU2Nnoc50103",
 "first": "2026-11-27T01:03:25+00:00",
 "last": "2026-11-27T02:53:00+00:00",
-"updated": "2026-11-27T03:19:47.854803+00:00",
+"updated": "2026-11-27T03:33:16.095702+00:00",
 "headline": "이 대통령 지지율 41%…민주 37%·국힘 30% [한국갤럽]",
 "cat": "정치",
 "regions": [
 "전북"
 ],
 "sources": [
+"MBC 뉴스",
 "뉴시스",
 "매일경제",
 "세계일보",
@@ -1212,6 +1213,13 @@
 "stage": "후속"
 },
 {
+"title": "李 지지율 소폭 상승 41%‥민주 37%·국힘 30% [갤럽]",
+"source": "MBC 뉴스",
+"link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9QWUg2dGR5SjhUeDM2eG14WUI1MVdiSFpmSGVHclcxaWFyOW9QQzJwb0pPOXFGSUpmQjFvZ0JYVnFpb19TLVBMNGpxdVhiSFJBQkxvYzFRcjZyZXJ3cVFPUEVsVFNna0xjU1cxTnljRUU5N3h3RjRKbtIBeEFVX3lxTE81Z0tueTNtSkNISkVQTkNhd2V1SGphLTlqNkUwYnBJdl9kY0Y0UVRqVWQ0YkhnaWxFcFlIYjNodUNmTm9NeUpOZTIwZ045Q1RmTjNHVGZMOXZGUmFsbWY5cmFyU0dpV3Y3emF5dFpDdExDSjRDYUVsUA?oc=5",
+"time": "2026-11-27T02:27:39+00:00",
+"stage": "후속"
+},
+{
 "title": "[속보]李 대통령 국정 지지율 '긍정' 41%·'부정' 56%…부정 평가 이유 1위 '경제·민생(22%)' [한국갤럽]",
 "source": "이코노미스트",
 "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE0xT2dPSGtSeEl2MVlIQU95S3IzajlYYkRjTDhYWnE0c1VsZzhfLVliSk9NdUZxb0YtQ1JhSHV5Sld6OE16SGZTRWhEamF2YWZvM2FfNzU4SlVQNnFQVy0wVjln?oc=5",
@@ -1242,6 +1250,8 @@
 "민주",
 "부정",
 "부정평가",
+"상승",
+"소폭",
 "오른",
 "이유",
 "전주",
@@ -3634,7 +3644,7 @@
 },
 "붕괴": {
 "n30": 1,
-"base": 0.2,
+"base": 0.3,
 "spike": false
 },
 "대피": {
@@ -3653,8 +3663,8 @@
 "spike": false
 },
 "지하철": {
-"n30": 5,
-"base": 2.6,
+"n30": 2,
+"base": 2.5,
 "spike": false
 },
 "사고": {
@@ -3792,16 +3802,6 @@
 "url": "https://www.youtube.com/watch?v=UuSqZ1pPBZA"
 },
 {
-"text": "어제 나는······27년간 살아온 동네에서 항상 안경을 맞춰온 안경점이 있는 골목을 못 찾아 30분 가량 헤맸다. \n\n지하철 나오면 바로 나오는 골목인데 왜 그랬는지 나도 몰라. ㅠㅠ",
-"handle": "theatreq.bsky.social",
-"name": "奎圓 🏳️‍🌈🎗️🇵🇸",
-"time": "2026-11-27T03:01:46.145Z",
-"likes": 3,
-"reposts": 2,
-"url": "https://bsky.app/profile/theatreq.bsky.social/post/3n3b75wqv622r",
-"term": "지하철"
-},
-{
 "platform": "YouTube",
 "text": "[웜홀 코인전망] 긴급속보! 1년 고점 대비 85% 빠진 크로스체인 코인, 장중 8% 넘게 반등하며 넘어야 할 선",
 "handle": "UCkdpsa-5_6JHyQd98zBKYng",
@@ -3899,12 +3899,12 @@
 "불났": 0.05,
 "정전": 0.05,
 "폭발": 0.05,
-"붕괴": 0.32,
+"붕괴": 0.39,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 2.54,
-"사고": 1.67,
+"지하철": 2.39,
+"사고": 1.6,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -4080,6 +4080,60 @@
 },
 "trends": [
 {
+"term": "대만",
+"traffic": "200+",
+"time": "2026-11-27T02:30:00+00:00",
+"news": [
+{
+"title": "“소득 관계없이 1인당 81만원”, 대만 전국민에 AI보너스",
+"source": "주간경향",
+"link": "https://weekly.khan.co.kr/article/202611261831001"
+},
+{
+"title": "반도체 호황에 전국민 보너스…조건 없이 '1인당 80만원' 지급",
+"source": "한국경제",
+"link": "https://www.hankyung.com/article/202611258309H"
+}
+],
+"new": true
+},
+{
+"term": "별자리",
+"traffic": "500+",
+"time": "2026-11-27T02:30:00+00:00",
+"news": [
+{
+"title": "[오늘의 운세] 2026년 11월 27일 띠별 운세",
+"source": "YTN",
+"link": "https://www.ytn.co.kr/_ln/0121_202611270000000001"
+},
+{
+"title": "[속보] ‘표류’ 北어선, 24일만에 돌아갔다…1명 남고 6명 송환",
+"source": "매일경제",
+"link": "https://www.mk.co.kr/news/politics/12220024"
+}
+],
+"new": true
+},
+{
+"term": "더바이오",
+"traffic": "100+",
+"time": "2026-11-27T02:30:00+00:00",
+"news": [
+{
+"title": "펩트론, 릴리 이어 페링과 공동연구…비만 넘어 항암·난임 가나",
+"source": "팜이데일리",
+"link": "https://pharm.edaily.co.kr/News/Read?newsId=01210326645649984"
+},
+{
+"title": "[특징주] 펩트론, 스위스 제약사와 기술평가 계약…강세",
+"source": "에너지경제신문",
+"link": "https://m.ekn.kr/view.php?key=20261127028215596"
+}
+],
+"new": true
+},
+{
 "term": "죽도시장",
 "traffic": "500+",
 "time": "2026-11-27T02:20:00+00:00",
@@ -4190,60 +4244,6 @@
 "title": "코스닥 5% 급등에 ‘매수 사이드카’...코스피도 1.7% 상승세",
 "source": "조선일보",
 "link": "https://www.chosun.com/economy/money/2026/11/27/ZRXWI6FSPFCXBPIF4THL4E5KKU/"
-}
-],
-"new": true
-},
-{
-"term": "국시원",
-"traffic": "500+",
-"time": "2026-11-27T01:20:00+00:00",
-"news": [
-{
-"title": "[보도설명자료][11.26.목 중앙일보] 의사냥이·간호냥이도 있나…국시 과목 만점자 7배 뛰었다 관련",
-"source": "대한민국 정책브리핑",
-"link": "https://www.korea.kr/briefing/actuallyView.do?newsId=148976573"
-},
-{
-"title": "\"이례적인 수치\"...7배 늘어난 의사 국가시험 일부 과목 '만점자' [Y녹취록]",
-"source": "YTN",
-"link": "https://www.ytn.co.kr/_ln/0134_202611270951249146"
-}
-],
-"new": true
-},
-{
-"term": "sema",
-"traffic": "200+",
-"time": "2026-11-27T01:20:00+00:00",
-"news": [
-{
-"title": "SEMA’s wildest builds show where car customization is heading",
-"source": "WSAV-TV",
-"link": "https://www.wsav.com/news/semas-wildest-builds-show-where-car-customization-is-heading/"
-},
-{
-"title": "Editorial: Notes From the SEMA Show",
-"source": "Modern Tire Dealer",
-"link": "https://www.moderntiredealer.com/suppliers/news/55421356/editorial-notes-from-the-sema-show"
-}
-],
-"new": true
-},
-{
-"term": "ai 에이전트",
-"traffic": "1000+",
-"time": "2026-11-27T01:00:00+00:00",
-"news": [
-{
-"title": "'피클'이 촉발한 AI 비서 규율 논의…정부, 법 개정 만지작",
-"source": "지디넷코리아",
-"link": "https://zdnet.co.kr/view/?no=20261125140053"
-},
-{
-"title": "네이버·카카오, '실행형' AI 에이전트 내달 출시…피클 돌풍 잠재울까",
-"source": "연합인포맥스",
-"link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4446918"
 }
 ],
 "new": true
