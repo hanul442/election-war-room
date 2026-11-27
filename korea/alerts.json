@@ -1,7 +1,36 @@
 {
-"updated": "2026-11-27T04:01:35.806039+00:00",
+"updated": "2026-11-27T04:03:47.984323+00:00",
 "errors": [],
 "events": [
+{
+"id": "viewAKR202611270806005270358",
+"first": "2026-11-27T03:58:41+00:00",
+"last": "2026-11-27T03:58:41+00:00",
+"updated": "2026-11-27T04:03:47.984323+00:00",
+"headline": "추자도에 해일주의보",
+"cat": "재난",
+"regions": [
+"제주"
+],
+"sources": [
+"연합뉴스"
+],
+"updates": [
+{
+"title": "추자도에 해일주의보",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261127080600527",
+"time": "2026-11-27T03:58:41+00:00",
+"stage": "1보"
+}
+],
+"level": "ALERT",
+"latest": "추자도에 해일주의보",
+"tok": [
+"추자도",
+"해일주의보"
+]
+},
 {
 "id": "wNISX20261127_00038858600354",
 "first": "2026-11-27T03:54:01+00:00",
@@ -3606,40 +3635,6 @@
 "태풍급",
 "혹한"
 ]
-},
-{
-"id": "ZWCM3GHE3TSNLBMQ4WGMRRMM0059",
-"first": "2026-11-27T00:59:00+00:00",
-"last": "2026-11-27T00:59:00+00:00",
-"updated": "2026-11-27T01:09:16.116170+00:00",
-"headline": "강호동 아들 강시후, 전국 골프대회 준우승 '쾌거'..아빠 피 물려받았네",
-"cat": "기타",
-"regions": [],
-"sources": [
-"조선일보"
-],
-"updates": [
-{
-"title": "[단독] 강호동 아들 강시후, 전국 골프대회 준우승 '쾌거'..아빠 피 물려받았네",
-"source": "조선일보",
-"link": "https://www.chosun.com/entertainments/broadcast/2026/11/27/MQZWCM3GHE3TSNLBMQ4WGMRRMM/",
-"time": "2026-11-27T00:59:00+00:00",
-"stage": "단독"
-}
-],
-"level": "URGENT",
-"latest": "강호동 아들 강시후, 전국 골프대회 준우승 '쾌거'..아빠 피 물려받았네",
-"tok": [
-"강시후",
-"강호동",
-"골프대회",
-"물려받았네",
-"아들",
-"아빠",
-"전국",
-"준우승",
-"쾌거"
-]
 }
 ],
 "sns": {
@@ -3666,7 +3661,7 @@
 },
 "폭발": {
 "n30": 1,
-"base": 0.1,
+"base": 0.2,
 "spike": false
 },
 "붕괴": {
@@ -3696,7 +3691,7 @@
 },
 "사고": {
 "n30": 3,
-"base": 1.6,
+"base": 1.8,
 "spike": false
 },
 "실종": {
@@ -3751,8 +3746,8 @@
 "handle": "s-ppyong.bsky.social",
 "name": "새뿅",
 "time": "2026-11-27T03:53:29.246Z",
-"likes": 3,
-"reposts": 0,
+"likes": 4,
+"reposts": 1,
 "url": "https://bsky.app/profile/s-ppyong.bsky.social/post/3n3bc22trvc2h",
 "term": "사고"
 },
@@ -3918,13 +3913,13 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.24,
-"붕괴": 0.56,
+"폭발": 0.32,
+"붕괴": 0.5,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 1.2,
-"사고": 1.75,
+"지하철": 1.18,
+"사고": 1.88,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -4073,6 +4068,55 @@
 },
 "trends": [
 {
+"term": "jyp 엔터테인먼트",
+"traffic": "500+",
+"time": "2026-11-27T03:00:00+00:00",
+"news": [
+{
+"title": "JYP 보이그룹 오브더블루, 4인 멤버 비주얼 최초 공개…1월 11일 데뷔",
+"source": "뉴스핌",
+"link": "https://www.newspim.com/news/view/20261126000060"
+},
+{
+"title": "확신의 JYP상..오브더블루, 내년 1월 데뷔 앞두고 자기소개 - 머니투데이",
+"source": "머니투데이",
+"link": "https://www.mt.co.kr/entertainment/2026/11/27/2026112708457227418"
+}
+],
+"new": true
+},
+{
+"term": "엘니뇨",
+"traffic": "500+",
+"time": "2026-11-27T03:00:00+00:00",
+"news": [
+{
+"title": "‘슈퍼엘니뇨’에 폭설?…시간당 5cm 눈 오면 문자 온다",
+"source": "KBS 뉴스",
+"link": "https://news.kbs.co.kr/news/view.do?ncd=8724042"
+},
+{
+"title": "따뜻한 겨울? 하지만 대설 주의!",
+"source": "대한민국 정책브리핑",
+"link": "https://www.korea.kr/multi/visualNewsView.do?newsId=148976635&pWise=sub&pWiseSub=C3"
+}
+],
+"new": true
+},
+{
+"term": "pet the horse",
+"traffic": "100+",
+"time": "2026-11-27T03:00:00+00:00",
+"news": [
+{
+"title": "How PET Scans Are Changing Lameness Diagnosis in Horses",
+"source": "The Horse – Your Guide to Equine Health Care",
+"link": "https://thehorse.com/1141343/how-pet-scans-are-changing-lameness-diagnosis-in-horses/"
+}
+],
+"new": true
+},
+{
 "term": "남편",
 "traffic": "2000+",
 "time": "2026-11-27T02:50:00+00:00",
@@ -4173,9 +4217,9 @@
 "link": "https://pharm.edaily.co.kr/News/Read?newsId=01210326645649984"
 },
 {
-"title": "[특징주] 펩트론, 스위스 제약사와 기술평가 계약…강세",
-"source": "에너지경제신문",
-"link": "https://m.ekn.kr/view.php?key=20261127028215596"
+"title": "펩트론, 페링과 장기지속형 주사제 기술평가 계약 체결",
+"source": "뉴스타운",
+"link": "https://www.newstown.co.kr/news/articleView.html?idxno=723605"
 }
 ],
 "new": true
@@ -4194,60 +4238,6 @@
 "title": "증평군, 골목형상점가 3곳 신규 지정…\"상권 활성화 기대\"",
 "source": "연합뉴스",
 "link": "https://www.yna.co.kr/view/AKR20261127017000064"
-}
-],
-"new": true
-},
-{
-"term": "모리야스 하지메",
-"traffic": "500+",
-"time": "2026-11-27T02:20:00+00:00",
-"news": [
-{
-"title": "前 일본 대표팀 감독 모리야스, K리그 올까",
-"source": "조선일보",
-"link": "https://www.chosun.com/sports/world-football/2026/11/27/4MZ2IJTV5RB6DHAVJY7DHDM4HA/"
-},
-{
-"title": "모리야스, 일본 대표팀 8년 마무리…다음 행선지로 유럽 거론",
-"source": "스포츠경향",
-"link": "https://sports.khan.co.kr/article/202611261316003"
-}
-],
-"new": true
-},
-{
-"term": "2026",
-"traffic": "100+",
-"time": "2026-11-27T02:20:00+00:00",
-"news": [
-{
-"title": "Global Digital Health Forum 2026",
-"source": "World Health Organization (WHO)",
-"link": "https://www.who.int/news-room/events/detail/2026/12/02/default-calendar/global-digital-health-forum-2026"
-},
-{
-"title": "26 things Sarah Langs is thankful for from the 2026 baseball season (which was the best!)",
-"source": "MLB.com",
-"link": "https://www.mlb.com/news/things-to-be-thankful-for-from-2026-mlb-season"
-}
-],
-"new": true
-},
-{
-"term": "이동욱",
-"traffic": "200+",
-"time": "2026-11-27T01:50:00+00:00",
-"news": [
-{
-"title": "서른 셋에 MLB 도전 구자욱 “4년전엔 부족하다고 생각… 지금은 때릴 자신 생겼다”",
-"source": "동아일보",
-"link": "https://www.donga.com/news/Sports/article/all/20261127/135099420/2"
-},
-{
-"title": "12년 만에 1군 타격왕 오른 구자욱 \"포기하지 않으면 이 자리에\"",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261126151600007"
 }
 ],
 "new": true
