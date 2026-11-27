@@ -1,12 +1,12 @@
 {
-"updated": "2026-11-27T07:08:43.265062+00:00",
+"updated": "2026-11-27T07:10:55.745250+00:00",
 "errors": [],
 "events": [
 {
 "id": "wNISX20261127_00038862550653",
 "first": "2026-11-27T06:53:11+00:00",
-"last": "2026-11-27T07:03:59+00:00",
-"updated": "2026-11-27T07:08:43.265062+00:00",
+"last": "2026-11-27T07:07:00+00:00",
+"updated": "2026-11-27T07:10:55.745250+00:00",
 "headline": "법사위, 與 주도 이용철 법무장관 후보자 인사청문보고서 채택",
 "cat": "정치",
 "regions": [
@@ -27,6 +27,7 @@
 "이데일리",
 "조선일보",
 "중앙일보",
+"한겨레",
 "헤럴드경제"
 ],
 "updates": [
@@ -155,10 +156,17 @@
 "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9nQW4tMUxHVm5yc2pnM2RNcV9kekJJZEVOdVpuU29BNVMwc1pHVHUtS3RJd2NMQUd1NGJUaDhEd19tMzlIbWc3clNhQXJvUXh6T2lWMnZkYjMtbDhvMHltLUtEQWt1X0JSX21r0gFUQVVfeXFMT2hIOGhGVE16dUxVSjlkY2pXazc4WERPb2FVVXlxWmV5NHlpelNRdVBkU0NRcFozeEtQaDVWN2xjM09ERFp2Tmkxemt0NnBveGZWbGxV?oc=5",
 "time": "2026-11-27T07:03:59+00:00",
 "stage": "속보"
+},
+{
+"title": "[속보] 이용철 법무 장관 후보자 인사청문보고서 채택…국힘 퇴장",
+"source": "한겨레",
+"link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBacWlYZjJERDgtTGR0TURfTm1DbWYtZlUtUjV0c2h0YWdXUlZqUDRPN2RvY1NEZDlfQnlJOVpBOHY0LVQ0OGd5R2JkMkprRDMxQVJ3Y1hRaUdZOGl2RkRzSkRPUFVqSnJSSUZkOEdkdVlqaGc3?oc=5",
+"time": "2026-11-27T07:07:00+00:00",
+"stage": "속보"
 }
 ],
 "level": "URGENT",
-"latest": "법사위, 이용철 법무장관 후보 인사청문보고서 채택",
+"latest": "이용철 법무 장관 후보자 인사청문보고서 채택…국힘 퇴장",
 "tok": [
 "與주도",
 "국민의힘",
@@ -167,6 +175,7 @@
 "머니투데",
 "반발",
 "범여권",
+"법무",
 "법무부장관",
 "법무장관",
 "법사위",
@@ -180,6 +189,7 @@
 "인사청문경과보고서",
 "인사청문보고서",
 "인청보고서",
+"장관",
 "적격",
 "주도",
 "채택",
@@ -4695,12 +4705,12 @@
 "sns": {
 "terms": {
 "지진": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
 "화재": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -4715,12 +4725,12 @@
 "spike": false
 },
 "폭발": {
-"n30": 5,
+"n30": 4,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "붕괴": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -4746,7 +4756,7 @@
 },
 "사고": {
 "n30": 2,
-"base": 1.4,
+"base": 1.5,
 "spike": false
 },
 "실종": {
@@ -4771,7 +4781,7 @@
 },
 "산불": {
 "n30": 0,
-"base": 0.6,
+"base": 0.5,
 "spike": false
 }
 },
@@ -4781,7 +4791,7 @@
 "handle": "scalie-sea.bsky.social",
 "name": "←🧿S케일🦈🏳️‍🌈🏳️‍⚧️→",
 "time": "2026-11-27T07:07:19.441Z",
-"likes": 1,
+"likes": 2,
 "reposts": 0,
 "url": "https://bsky.app/profile/scalie-sea.bsky.social/post/3n3bmux2zq22d",
 "term": "사고"
@@ -4988,18 +4998,11 @@
 ],
 "spikes": [
 {
-"term": "폭발",
-"n30": 5,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-27T07:08:43.265062+00:00"
-},
-{
 "term": "속보",
 "n30": 7,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-27T07:08:43.265062+00:00"
+"since": "2026-11-27T07:10:55.745250+00:00"
 }
 ],
 "baseline": {
@@ -5012,13 +5015,13 @@
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.77,
-"사고": 1.46,
+"지하철": 0.69,
+"사고": 1.51,
 "실종": 0.05,
-"단수": 0.07,
+"단수": 0.06,
 "통신 장애": 0.05,
 "먹통": 0.05,
-"산불": 0.5
+"산불": 0.45
 },
 "errors": [],
 "ytPosts": [
