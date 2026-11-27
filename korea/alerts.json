@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-27T00:48:57.579514+00:00",
+"updated": "2026-11-27T00:51:12.751070+00:00",
 "errors": [],
 "events": [
 {
@@ -108,7 +108,7 @@
 "id": "jdOclRLWk9qNzdJRXI3dwoc50043",
 "first": "2026-11-27T00:43:14+00:00",
 "last": "2026-11-27T00:45:37+00:00",
-"updated": "2026-11-27T00:48:57.579514+00:00",
+"updated": "2026-11-27T00:51:12.751070+00:00",
 "headline": "경찰, '한동훈 자료유출 의혹' 법무부·공소청 등 압수수색",
 "cat": "사회",
 "regions": [],
@@ -116,6 +116,7 @@
 "뉴시스",
 "연합뉴스",
 "이데일리",
+"조선일보",
 "파이낸셜뉴스"
 ],
 "updates": [
@@ -141,6 +142,13 @@
 "stage": "속보"
 },
 {
+"title": "[속보] 경찰, ‘한동훈 공무상 비밀 누설’ 고발 관련 법무부·공소청 압수수색",
+"source": "조선일보",
+"link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxORDU4ME45ZmhhQzBPMlB4U2VtQ08wSEZwVlgxVWV6SUJNQnF5N1k1RXRMQ19qdnBGNVpEVnRVb2VhYmFyTjR3UldSR1BBS0tqR2VNM21CeDZEdTFXVzFSRmUzZjhNazRpMWhaLUVNWkJGZjM0NUxyaEw1cDAweWdnVXF6MC1OeW94M1BDY2xPVmw?oc=5",
+"time": "2026-11-27T00:45:00+00:00",
+"stage": "속보"
+},
+{
 "title": "[속보]경찰, '한동훈 수사자료 유출 의혹' 법무부·공소청 압수수색",
 "source": "이데일리",
 "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQalpaMGFac0U2M1JvRmVfc2ExMm40Zjh2RWNLdC1BazVHVVptYy1pS3BPeXlMdE10Y2tvNE9TYU9BNFhSU1EwUDJ6QmJwR2NyQ0ZkMGVTLUdMTzBTRzl1cC1kbE5rUWlxb21KSTRZRkNzbGxCNzVkVC1Edm1JS0ZkdQ?oc=5",
@@ -152,8 +160,12 @@
 "latest": "경찰, '한동훈 수사자료 유출 의혹' 법무부·공소청 압수수색",
 "tok": [
 "경찰",
+"고발",
+"공무상",
 "공소청",
+"누설",
 "법무부",
+"비밀",
 "서부지공",
 "수사",
 "수사자료",
@@ -2614,7 +2626,7 @@
 },
 "폭발": {
 "n30": 4,
-"base": 0.4,
+"base": 0.3,
 "spike": false
 },
 "붕괴": {
@@ -2628,23 +2640,23 @@
 "spike": false
 },
 "미사일": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
 "속보": {
-"n30": 4,
+"n30": 3,
 "base": 0.1,
 "spike": false
 },
 "지하철": {
-"n30": 3,
-"base": 0.5,
+"n30": 2,
+"base": 0.4,
 "spike": false
 },
 "사고": {
 "n30": 0,
-"base": 1.9,
+"base": 1.7,
 "spike": false
 },
 "실종": {
@@ -2843,13 +2855,13 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.33,
+"폭발": 0.3,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.41,
-"사고": 1.72,
+"지하철": 0.37,
+"사고": 1.55,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -3174,14 +3186,14 @@
 "time": "2026-11-26T23:10:00+00:00",
 "news": [
 {
-"title": "‘李대통령 주문’ 자본시장 개혁기구 수장에 메리츠 김용범 부회장",
-"source": "경향신문",
-"link": "https://www.khan.co.kr/article/202611261926001"
+"title": "자본시장개혁기구 수장에 메리츠 김용범…민간에 전권 부여(종합)",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261126171651002"
 },
 {
-"title": "'메리츠 뜯어고친' 김용범…韓 자본시장 바꿀까",
+"title": "박현주 이어 김용범…李정부, 자본시장 '빅샷'에 키 맡긴 까닭",
 "source": "연합인포맥스",
-"link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4446863"
+"link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4446864"
 }
 ],
 "new": true
