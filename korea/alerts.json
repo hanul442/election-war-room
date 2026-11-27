@@ -1,7 +1,39 @@
 {
-"updated": "2026-11-27T11:43:49.068981+00:00",
+"updated": "2026-11-27T11:46:04.676007+00:00",
 "errors": [],
 "events": [
+{
+"id": "nkRSSLINKcooperRSSREADER1139",
+"first": "2026-11-27T11:39:51+00:00",
+"last": "2026-11-27T11:39:51+00:00",
+"updated": "2026-11-27T11:46:04.676007+00:00",
+"headline": "대규모 정전·결항…'100년 전통' 무너뜨린 폭풍",
+"cat": "재난",
+"regions": [],
+"sources": [
+"SBS"
+],
+"updates": [
+{
+"title": "대규모 정전·결항…'100년 전통' 무너뜨린 폭풍",
+"source": "SBS",
+"link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008867282&plink=RSSLINK&cooper=RSSREADER",
+"time": "2026-11-27T11:39:51+00:00",
+"stage": "1보"
+}
+],
+"level": "FLASH",
+"latest": "대규모 정전·결항…'100년 전통' 무너뜨린 폭풍",
+"tok": [
+"100년",
+"결항",
+"대규모",
+"무너뜨린",
+"전통",
+"정전",
+"폭풍"
+]
+},
 {
 "id": "nkRSSLINKcooperRSSREADER1136",
 "first": "2026-11-27T11:36:53+00:00",
@@ -4735,45 +4767,12 @@
 "최대",
 "확대"
 ]
-},
-{
-"id": "lNkktV3VuOHA0M0RCai1Roc50810",
-"first": "2026-11-27T08:10:00+00:00",
-"last": "2026-11-27T08:10:00+00:00",
-"updated": "2026-11-27T08:12:40.588147+00:00",
-"headline": "中 마카오, 내년부터 밀수의심자 AI 스마트 안경으로 한눈에 가려낸다",
-"cat": "기타",
-"regions": [],
-"sources": [
-"국제신문"
-],
-"updates": [
-{
-"title": "[속보]中 마카오, 내년부터 밀수의심자 AI 스마트 안경으로 한눈에 가려낸다",
-"source": "국제신문",
-"link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNX3ZqbC1WVWItcjJmZ1RsYUtHVlZKbXFaTFR1SWxmQ1o3dVBSTGNVcUFRRWlXbk92MGFTbGtHVDFMVEtxdEVvVXA4Tld0VU40UFdrUXNJaWYwek1xd1JoR2pYUTdXbkVjTVlsUWdaWFpwZUNjWkJjdXc4SWphMzBlNkktV3VuOHA0M0RCai1R?oc=5",
-"time": "2026-11-27T08:10:00+00:00",
-"stage": "얼럿"
-}
-],
-"level": "URGENT",
-"latest": "中 마카오, 내년부터 밀수의심자 AI 스마트 안경으로 한눈에 가려낸다",
-"tok": [
-"AI",
-"가려낸다",
-"내년부터",
-"마카오",
-"밀수의심자",
-"스마트",
-"안경으",
-"한눈"
-]
 }
 ],
 "sns": {
 "terms": {
 "지진": {
-"n30": 2,
+"n30": 1,
 "base": 0.2,
 "spike": false
 },
@@ -4793,13 +4792,13 @@
 "spike": false
 },
 "폭발": {
-"n30": 6,
+"n30": 4,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "붕괴": {
 "n30": 2,
-"base": 0.3,
+"base": 0.4,
 "spike": false
 },
 "대피": {
@@ -4813,8 +4812,8 @@
 "spike": false
 },
 "속보": {
-"n30": 6,
-"base": 0.3,
+"n30": 5,
+"base": 0.2,
 "spike": true
 },
 "지하철": {
@@ -4829,7 +4828,7 @@
 },
 "실종": {
 "n30": 1,
-"base": 0.4,
+"base": 0.5,
 "spike": false
 },
 "단수": {
@@ -5096,37 +5095,30 @@
 ],
 "spikes": [
 {
-"term": "폭발",
-"n30": 6,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-27T11:43:49.068981+00:00"
-},
-{
 "term": "속보",
-"n30": 6,
-"base": 0.3,
+"n30": 5,
+"base": 0.2,
 "spike": true,
-"since": "2026-11-27T11:43:49.068981+00:00"
+"since": "2026-11-27T11:46:04.676007+00:00"
 }
 ],
 "baseline": {
-"지진": 0.17,
+"지진": 0.15,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
 "폭발": 0.05,
-"붕괴": 0.39,
+"붕괴": 0.45,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.24,
-"지하철": 0.37,
-"사고": 3.17,
-"실종": 0.49,
-"단수": 0.22,
+"속보": 0.22,
+"지하철": 0.33,
+"사고": 3.15,
+"실종": 0.54,
+"단수": 0.2,
 "통신 장애": 0.05,
 "먹통": 0.05,
-"산불": 0.13
+"산불": 0.12
 },
 "errors": [],
 "ytPosts": [
@@ -5480,14 +5472,14 @@
 "time": "2026-11-27T08:20:00+00:00",
 "news": [
 {
-"title": "[단독] 민주 윤리심판원, 최민희 중징계 의결 '당원권 2년 정지'",
-"source": "MBC 뉴스",
-"link": "https://imnews.imbc.com/news/2026/politics/article/6869160_36911.html"
+"title": "[속보] 최민희, ‘당원 자격정지 2년’ 중징계에 “수용 어려워…재심 신청”",
+"source": "경향신문",
+"link": "https://www.khan.co.kr/article/202611271819001"
 },
 {
-"title": "최민희 ‘당원 자격정지 2년’ 확정 땐 28년 총선 출마 불가능···계파갈등 전면전 치닫나",
-"source": "경향신문",
-"link": "https://www.khan.co.kr/article/202611272005001"
+"title": "민주당 윤리심판원, 최민희 중징계 의결…최소 당직 자격 정지",
+"source": "JTBC",
+"link": "https://news.jtbc.co.kr/article/NB12330238"
 }
 ],
 "new": true
