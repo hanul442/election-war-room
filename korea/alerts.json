@@ -1,7 +1,41 @@
 {
-"updated": "2026-11-27T20:01:32.398042+00:00",
+"updated": "2026-11-27T20:04:09.219862+00:00",
 "errors": [],
 "events": [
+{
+"id": "OPDP2WBRFDZFLOPRM6O7J6B42000",
+"first": "2026-11-27T20:00:00+00:00",
+"last": "2026-11-27T20:00:00+00:00",
+"updated": "2026-11-27T20:04:09.219862+00:00",
+"headline": "포상금 1억원 효과? 수능 부정행위 신고 일주일 만에 306건",
+"cat": "기타",
+"regions": [],
+"sources": [
+"조선일보"
+],
+"updates": [
+{
+"title": "[단독] 포상금 1억원 효과? 수능 부정행위 신고 일주일 만에 306건",
+"source": "조선일보",
+"link": "https://www.chosun.com/national/education/2026/11/28/GGOPDP2WBRFDZFLOPRM6O7J6B4/",
+"time": "2026-11-27T20:00:00+00:00",
+"stage": "단독"
+}
+],
+"level": "URGENT",
+"latest": "포상금 1억원 효과? 수능 부정행위 신고 일주일 만에 306건",
+"tok": [
+"1억원",
+"306건",
+"만에",
+"부정행위",
+"수능",
+"신고",
+"일주일",
+"포상금",
+"효과"
+]
+},
 {
 "id": "wNISX20261127_00038866652000",
 "first": "2026-11-27T20:00:00+00:00",
@@ -1865,36 +1899,6 @@
 "탄핵",
 "후폭풍"
 ]
-},
-{
-"id": "l9MS045OW9VcGdQdDBLQQoc51401",
-"first": "2026-11-27T14:01:46+00:00",
-"last": "2026-11-27T14:01:46+00:00",
-"updated": "2026-11-27T14:18:38.295305+00:00",
-"headline": "[수다] 속보) 캐시워크로 편의점 5천원 쌀먹성공",
-"cat": "기타",
-"regions": [],
-"sources": [
-"인벤"
-],
-"updates": [
-{
-"title": "[수다] 속보) 캐시워크로 편의점 5천원 쌀먹성공",
-"source": "인벤",
-"link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1uaG40N3N3bVZWTlYzOExlSWFFUkx2dDhJQ3R0NHN0cFA1SnFmTkgtcF9Gcy1fdG5KaTU2Mk91aWhxRmdVRjRWOWhBUl9MS045OW9VcGdQdDBLQQ?oc=5",
-"time": "2026-11-27T14:01:46+00:00",
-"stage": "1보"
-}
-],
-"level": "ALERT",
-"latest": "[수다] 속보) 캐시워크로 편의점 5천원 쌀먹성공",
-"tok": [
-"5천원",
-"수다",
-"쌀먹성공",
-"캐시워크",
-"편의점"
-]
 }
 ],
 "sns": {
@@ -1921,7 +1925,7 @@
 },
 "폭발": {
 "n30": 5,
-"base": 0.4,
+"base": 0.3,
 "spike": true
 },
 "붕괴": {
@@ -2067,7 +2071,7 @@
 "handle": "seoha14.bsky.social",
 "name": "🕸",
 "time": "2026-11-27T19:42:58.644Z",
-"likes": 5,
+"likes": 6,
 "reposts": 0,
 "url": "https://bsky.app/profile/seoha14.bsky.social/post/3n3cx44kgfc2c",
 "term": "지하철"
@@ -2194,9 +2198,9 @@
 {
 "term": "폭발",
 "n30": 5,
-"base": 0.4,
+"base": 0.3,
 "spike": true,
-"since": "2026-11-27T20:01:32.398042+00:00"
+"since": "2026-11-27T20:04:09.219862+00:00"
 }
 ],
 "baseline": {
@@ -2204,13 +2208,13 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.33,
+"폭발": 0.3,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.6,
-"사고": 0.1,
+"지하철": 0.64,
+"사고": 0.09,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -2458,15 +2462,8 @@
 "new": false
 },
 {
-"term": "국군간호사관학교",
-"traffic": "200+",
-"time": "2026-11-27T18:00:00+00:00",
-"news": [],
-"new": true
-},
-{
 "term": "김승원",
-"traffic": "100+",
+"traffic": "200+",
 "time": "2026-11-27T18:00:00+00:00",
 "news": [
 {
@@ -2480,6 +2477,13 @@
 "link": "https://news.jtbc.co.kr/article/NB12330134"
 }
 ],
+"new": true
+},
+{
+"term": "국군간호사관학교",
+"traffic": "200+",
+"time": "2026-11-27T18:00:00+00:00",
+"news": [],
 "new": true
 },
 {
@@ -2506,14 +2510,14 @@
 "time": "2026-11-27T15:40:00+00:00",
 "news": [
 {
-"title": "교실서 담임 머리채 폭행…\"누가 유출\" 학부모 진정 결국",
-"source": "SBS 뉴스",
-"link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008866807"
+"title": "'초등생이 교사 머리채 폭행' 영상 유출…학부모 진정 내사 종결",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261127073400064"
 },
 {
-"title": "‘교사 머리채 잡은 초등생’ 영상 유출…경찰 “혐의 없음” 종결",
-"source": "경기일보",
-"link": "https://www.kyeonggi.com/article/20261127580141"
+"title": "교사 폭행한 자녀 영상 퍼지자...‘명예훼손’ 진정 낸 학부모",
+"source": "JTBC",
+"link": "https://news.jtbc.co.kr/article/NB12330181"
 }
 ],
 "new": true
