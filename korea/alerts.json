@@ -1,16 +1,17 @@
 {
-"updated": "2026-11-27T06:24:31.934031+00:00",
+"updated": "2026-11-27T06:26:46.042656+00:00",
 "errors": [],
 "events": [
 {
 "id": "wNISX20261127_00038860590619",
 "first": "2026-11-27T06:19:50+00:00",
-"last": "2026-11-27T06:21:46+00:00",
-"updated": "2026-11-27T06:24:31.934031+00:00",
+"last": "2026-11-27T06:23:38+00:00",
+"updated": "2026-11-27T06:26:46.042656+00:00",
 "headline": "공소청, '대장동 민간업자' 2심서 항소기각 요청",
 "cat": "기타",
 "regions": [],
 "sources": [
+"SBS",
 "뉴시스",
 "연합뉴스 한민족센터",
 "조선일보"
@@ -36,10 +37,17 @@
 "link": "https://www.chosun.com/national/court_law/2026/11/27/H62VK2BL7FFS7K6L63QDQRNAEE/",
 "time": "2026-11-27T06:21:46+00:00",
 "stage": "속보"
+},
+{
+"title": "[속보] 공소청, '대장동 비리' 민간업자들 항소 기각 요청",
+"source": "SBS",
+"link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008866915&plink=RSSLINK&cooper=RSSREADER",
+"time": "2026-11-27T06:23:38+00:00",
+"stage": "속보"
 }
 ],
 "level": "URGENT",
-"latest": "공소청, ‘대장동 개발’ 민간업자들 2심서 항소 기각 요청",
+"latest": "공소청, '대장동 비리' 민간업자들 항소 기각 요청",
 "tok": [
 "2심서",
 "개발",
@@ -52,6 +60,40 @@
 "요청",
 "항소",
 "항소기각"
+]
+},
+{
+"id": "wNISX20261127_00038864150623",
+"first": "2026-11-27T06:23:08+00:00",
+"last": "2026-11-27T06:23:08+00:00",
+"updated": "2026-11-27T06:26:46.042656+00:00",
+"headline": "통영 서호시장 노점상인들, 수해 재난 지원 받는다",
+"cat": "재난",
+"regions": [
+"경남"
+],
+"sources": [
+"뉴시스"
+],
+"updates": [
+{
+"title": "통영 서호시장 노점상인들, 수해 재난 지원 받는다",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261127_0003886415",
+"time": "2026-11-27T06:23:08+00:00",
+"stage": "1보"
+}
+],
+"level": "ALERT",
+"latest": "통영 서호시장 노점상인들, 수해 재난 지원 받는다",
+"tok": [
+"노점상인들",
+"받는다",
+"서호시장",
+"수해",
+"재난",
+"지원",
+"통영"
 ]
 },
 {
@@ -4246,39 +4288,6 @@
 "주식",
 "추가"
 ]
-},
-{
-"id": "NsdkhINHlBWjZmbHYtcE0oc50223",
-"first": "2026-11-27T02:23:00+00:00",
-"last": "2026-11-27T02:23:00+00:00",
-"updated": "2026-11-27T02:34:46.747147+00:00",
-"headline": "전도연·김민희 나란히 중국 간다···본토 스크린 출격",
-"cat": "국제",
-"regions": [],
-"sources": [
-"스포츠경향"
-],
-"updates": [
-{
-"title": "[속보] 전도연·김민희 나란히 중국 간다···본토 스크린 출격",
-"source": "스포츠경향",
-"link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBtdU9ZMWNMYzZyZmVTSnJ1NElUTVdfYWNHNDVrTVRVb2FCbTJJSXNzUjVxSDVsZXRtWDdJTTdsNU9GeTJZWTFHaW44WWRIeDAzaWhPcU9vbGUybFFpX1HSAWNBVV95cUxNSVRBMERHUWVGZUZHMVZvXzRRaUNDektTb09FM2VhdDFHd2pJWUlyX3hJcjdnc3hNZ1ZKRkEyTzlTREx2WTJXRDgxN1dQdDdfR1c5TXNsdkhINHlBWjZmbHYtcE0?oc=5",
-"time": "2026-11-27T02:23:00+00:00",
-"stage": "얼럿"
-}
-],
-"level": "URGENT",
-"latest": "전도연·김민희 나란히 중국 간다···본토 스크린 출격",
-"tok": [
-"간다",
-"김민희",
-"나란히",
-"본토",
-"스크린",
-"전도연",
-"중국",
-"출격"
-]
 }
 ],
 "sns": {
@@ -4305,7 +4314,7 @@
 },
 "폭발": {
 "n30": 5,
-"base": 0.4,
+"base": 0.3,
 "spike": true
 },
 "붕괴": {
@@ -4330,12 +4339,12 @@
 },
 "지하철": {
 "n30": 1,
-"base": 1.4,
+"base": 1.2,
 "spike": false
 },
 "사고": {
 "n30": 0,
-"base": 1.6,
+"base": 1.4,
 "spike": false
 },
 "실종": {
@@ -4559,16 +4568,16 @@
 {
 "term": "폭발",
 "n30": 5,
-"base": 0.4,
+"base": 0.3,
 "spike": true,
-"since": "2026-11-27T06:24:31.934031+00:00"
+"since": "2026-11-27T06:26:46.042656+00:00"
 },
 {
 "term": "속보",
 "n30": 6,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-27T06:24:31.934031+00:00"
+"since": "2026-11-27T06:26:46.042656+00:00"
 }
 ],
 "baseline": {
@@ -4576,15 +4585,15 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.33,
+"폭발": 0.3,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 1.22,
-"사고": 1.42,
+"지하철": 1.1,
+"사고": 1.28,
 "실종": 0.05,
-"단수": 0.56,
+"단수": 0.5,
 "통신 장애": 0.05,
 "먹통": 0.05,
 "산불": 0.05
@@ -4952,14 +4961,14 @@
 "time": "2026-11-27T04:20:00+00:00",
 "news": [
 {
+"title": "이 대통령 “연 50조 R&D 성과 국가환수 필요…욕먹어도 할 일 해야”",
+"source": "한겨레",
+"link": "https://www.hani.co.kr/arti/politics/bluehouse/1289434.html"
+},
+{
 "title": "이 대통령 \"7대 SEED 프로젝트 더 속도…맞춤형 추진전략 마련\"",
 "source": "대한민국 정책브리핑",
 "link": "https://www.korea.kr/news/policyNewsView.do?newsId=148976591&pWise=sub&pWiseSub=R4"
-},
-{
-"title": "[정책 인사이트] 유망기업 투자자 되겠단 정부… 先 투자·後 지분 정산 방안도 검토",
-"source": "Chosunbiz",
-"link": "https://biz.chosun.com/policy/policy_sub/2026/11/27/LN3BLLX53VBDZKT5WTNYAHK5QA/"
 }
 ],
 "new": false
