@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-27T10:32:13.614865+00:00",
+"updated": "2026-11-27T10:34:27.613529+00:00",
 "errors": [],
 "events": [
 {
@@ -4862,7 +4862,7 @@
 "spike": false
 },
 "폭발": {
-"n30": 2,
+"n30": 0,
 "base": 0.4,
 "spike": false
 },
@@ -4893,7 +4893,7 @@
 },
 "사고": {
 "n30": 3,
-"base": 4.8,
+"base": 4.6,
 "spike": false
 },
 "실종": {
@@ -4918,7 +4918,7 @@
 },
 "산불": {
 "n30": 1,
-"base": 0.6,
+"base": 0.7,
 "spike": false
 }
 },
@@ -5153,26 +5153,26 @@
 "n30": 5,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-27T10:32:13.614865+00:00"
+"since": "2026-11-27T10:34:27.613529+00:00"
 }
 ],
 "baseline": {
-"지진": 0.22,
+"지진": 0.2,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.4,
+"폭발": 0.36,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 2.23,
-"사고": 4.58,
+"지하철": 2.21,
+"사고": 4.42,
 "실종": 0.05,
-"단수": 0.15,
+"단수": 0.24,
 "통신 장애": 0.05,
 "먹통": 0.05,
-"산불": 0.66
+"산불": 0.69
 },
 "errors": [],
 "ytPosts": [
@@ -5334,19 +5334,37 @@
 },
 "trends": [
 {
+"term": "서울교통공사 채용",
+"traffic": "1000+",
+"time": "2026-11-27T09:30:00+00:00",
+"news": [
+{
+"title": "철도노조 투쟁 첫날...무궁화호 멈추고 전철 무더기 지연",
+"source": "YTN",
+"link": "https://www.ytn.co.kr/_ln/0102_202611270503025651"
+},
+{
+"title": "철도노조 준법 투쟁으로 열차 4백여 대 지연·2대 운행 중지",
+"source": "KBS 뉴스",
+"link": "https://news.kbs.co.kr/news/view.do?ncd=8724652"
+}
+],
+"new": true
+},
+{
 "term": "australia vs england",
 "traffic": "200+",
 "time": "2026-11-27T09:00:00+00:00",
 "news": [
 {
-"title": "Australia vs England, third T20 international, The Gabba",
-"source": "Sky Sports",
-"link": "https://www.skysports.com/cricket/live-blog/13617030/australia-vs-england-third-t20-live-latest-cricket-score-and-updates-from-the-gabba-in-brisbane-as-harry-brooks-side-target-series-lead"
-},
-{
 "title": "England return to the Gabbatoir with onus on Australia to bounce back",
 "source": "Cricinfo",
 "link": "https://www.cricinfo.com/series/england-in-australia-2026-27-1528677/australia-vs-england-3rd-t20i-1528708/match-preview"
+},
+{
+"title": "Australia v England: third men’s Twenty20 international – live",
+"source": "The Guardian",
+"link": "https://www.theguardian.com/sport/live/2026/nov/27/australia-v-england-third-mens-twenty20-international-live?page=with:block-6b0957338f08ae6ebce67f89"
 }
 ],
 "new": true
@@ -5391,23 +5409,12 @@
 "term": "홍민기",
 "traffic": "1000+",
 "time": "2026-11-27T08:20:00+00:00",
-"news": [
-{
-"title": "[단독] '사생활 논란' 홍민기 前 여자친구 실종…마포대교서 마지막 확인",
-"source": "파이낸셜뉴스",
-"link": "https://www.fnnews.com/news/202611271650017461"
-},
-{
-"title": "‘홍민기 폭행 폭로’ 전 여자친구 실종…마지막 행적은 마포대교",
-"source": "스포츠경향",
-"link": "https://sports.khan.co.kr/article/202611271742003"
-}
-],
+"news": [],
 "new": false
 },
 {
 "term": "최민희",
-"traffic": "5000+",
+"traffic": "2000+",
 "time": "2026-11-27T08:20:00+00:00",
 "news": [
 {
@@ -5436,35 +5443,17 @@
 "time": "2026-11-27T07:50:00+00:00",
 "news": [
 {
+"title": "보수정당 출신 허은아 비서관, 청와대 사직…이 대통령, 아쉬움 표해",
+"source": "경향신문",
+"link": "https://www.khan.co.kr/article/202611271607001"
+},
+{
 "title": "허은아 청와대 국민통합비서관 사표 수리…1년1개월 만에 퇴임",
 "source": "중앙일보",
 "link": "https://www.joongang.co.kr/article/25482584"
-},
-{
-"title": "'보수 출신' 허은아 청와대 국민통합비서관 사직‥1년1개월 만에 퇴임",
-"source": "MBC 뉴스",
-"link": "https://imnews.imbc.com/news/2026/politics/article/6869136_36911.html"
 }
 ],
 "new": false
-},
-{
-"term": "코레일",
-"traffic": "1000+",
-"time": "2026-11-27T07:30:00+00:00",
-"news": [
-{
-"title": "철도노조 투쟁 첫날...무궁화호 멈추고 전철 무더기 지연",
-"source": "YTN",
-"link": "https://www.ytn.co.kr/_ln/0102_202611270503025651"
-},
-{
-"title": "철도노조 준법 투쟁으로 열차 4백여 대 지연·2대 운행 중지",
-"source": "KBS 뉴스",
-"link": "https://news.kbs.co.kr/news/view.do?ncd=8724652"
-}
-],
-"new": true
 },
 {
 "term": "대장동 개발 논란",
