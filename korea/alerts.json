@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-27T14:59:18.640563+00:00",
+"updated": "2026-11-27T15:01:36.464398+00:00",
 "errors": [],
 "events": [
 {
@@ -4050,41 +4050,6 @@
 "제압",
 "질주"
 ]
-},
-{
-"id": "XFsNzJjT1Y0T015MmJHdwoc50901",
-"first": "2026-11-27T09:01:00+00:00",
-"last": "2026-11-27T09:01:00+00:00",
-"updated": "2026-11-27T09:25:19.433104+00:00",
-"headline": "중앙고속도로 승요차 관련 사고처리 중",
-"cat": "교통",
-"regions": [],
-"sources": [
-"스페셜타임스"
-],
-"updates": [
-{
-"title": "[속보] 중앙고속도로 승요차 관련 사고처리 중",
-"source": "스페셜타임스",
-"link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBIRVJNdDlnUFRjMk1pWU5YaDZHT3dreEVqbkJ5S180dEptNnIzRlY4eDNaWFRtdnl0YS1QTzhBRWNESUgyOW9SSDhRV1VRNVY0a0haMXpqR09ZUnlGTmNyQURGLXFsNzJjT1Y0T015MmJHdw?oc=5",
-"time": "2026-11-27T09:01:00+00:00",
-"stage": "얼럿"
-},
-{
-"title": "[속보] 중앙고속도로 승요차 관련 사고처리 중",
-"source": "스페셜타임스",
-"link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBxN0dsNzY2ZHhJVm5MZmVpb1BOWGZYcjEzdUllSlZTTEpydHZWTWp2NzVhaTJfeDdqRE1WZzZINVZjRDh4Wml3N3NpMmZzWGdYUXdBWVBleGhQMy10b2Z5RmVOSmx5YnF3aVR6VUhxaWNVTW8?oc=5",
-"time": "2026-11-27T09:01:00+00:00",
-"stage": "속보"
-}
-],
-"level": "URGENT",
-"latest": "중앙고속도로 승요차 관련 사고처리 중",
-"tok": [
-"사고처리",
-"승요차",
-"중앙고속도"
-]
 }
 ],
 "sns": {
@@ -4095,7 +4060,7 @@
 "spike": false
 },
 "화재": {
-"n30": 2,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
@@ -4130,13 +4095,13 @@
 "spike": false
 },
 "속보": {
-"n30": 5,
-"base": 0.1,
-"spike": true
+"n30": 3,
+"base": 0.2,
+"spike": false
 },
 "지하철": {
 "n30": 5,
-"base": 3.0,
+"base": 3.1,
 "spike": false
 },
 "사고": {
@@ -4415,27 +4380,19 @@
 "url": "https://www.youtube.com/watch?v=7mMVFu1ttnw"
 }
 ],
-"spikes": [
-{
-"term": "속보",
-"n30": 5,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-27T14:59:18.640563+00:00"
-}
-],
+"spikes": [],
 "baseline": {
 "지진": 0.05,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
 "폭발": 0.05,
-"붕괴": 0.12,
+"붕괴": 0.11,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.23,
-"지하철": 3.06,
-"사고": 4.11,
+"속보": 0.31,
+"지하철": 3.15,
+"사고": 4.1,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
