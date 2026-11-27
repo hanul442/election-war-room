@@ -1,12 +1,12 @@
 {
-"updated": "2026-11-27T18:57:51.486449+00:00",
+"updated": "2026-11-27T19:00:20.843443+00:00",
 "errors": [],
 "events": [
 {
 "id": "wNISX20261127_00038869421436",
 "first": "2026-11-27T14:36:21+00:00",
-"last": "2026-11-27T18:28:24+00:00",
-"updated": "2026-11-27T18:37:36.563812+00:00",
+"last": "2026-11-27T18:56:24+00:00",
+"updated": "2026-11-27T19:00:20.843443+00:00",
 "headline": "뉴욕증시, 기술주 상승세 확산에 상승 출발…나스닥 1.5%↑",
 "cat": "경제",
 "regions": [],
@@ -51,12 +51,20 @@
 "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBKLTd0YWozMlVWaTBJZDBCMHMxRnQ2ak1iaExoeFl0d1dZOS1KVEdFdnk2OE1oS1ZwakpsYmZhcEF3NWU2U1BvWHRyQnY2Tl9CbGZ6X0hB0gFbQVVfeXFMT2dmOEVUbklYRDc2WW9oWWNLWEhYNmFvTENyZkpNckxOcVFVTmcwSlJEcHY0SDRULUtfZ1JlQ2dqU2RRNU9rRzRCZy1MUFBiWTdrSEtBWjZuOWNOTQ?oc=5",
 "time": "2026-11-27T18:28:24+00:00",
 "stage": "후속"
+},
+{
+"title": "뉴욕증시, 기술주 강세에 상승 마감…나스닥, 주간 6%↑",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261128_0003886952",
+"time": "2026-11-27T18:56:24+00:00",
+"stage": "후속"
 }
 ],
 "level": "URGENT",
-"latest": "뉴욕증시, 나스닥 하루 2.31% 상승 마감",
+"latest": "뉴욕증시, 기술주 강세에 상승 마감…나스닥, 주간 6%↑",
 "tok": [
 "AI",
+"강세",
 "관련주",
 "기술주",
 "나스닥",
@@ -66,6 +74,7 @@
 "상승",
 "상승세",
 "일제히",
+"주간",
 "출발",
 "하루",
 "확산"
@@ -2435,9 +2444,9 @@
 "spike": false
 },
 "폭발": {
-"n30": 6,
+"n30": 4,
 "base": 1.1,
-"spike": true
+"spike": false
 },
 "붕괴": {
 "n30": 0,
@@ -2455,7 +2464,7 @@
 "spike": false
 },
 "속보": {
-"n30": 8,
+"n30": 6,
 "base": 0.1,
 "spike": true
 },
@@ -2708,18 +2717,11 @@
 ],
 "spikes": [
 {
-"term": "폭발",
-"n30": 6,
-"base": 1.1,
-"spike": true,
-"since": "2026-11-27T18:57:51.486449+00:00"
-},
-{
 "term": "속보",
-"n30": 8,
+"n30": 6,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-27T18:57:51.486449+00:00"
+"since": "2026-11-27T19:00:20.843443+00:00"
 }
 ],
 "baseline": {
@@ -2733,7 +2735,7 @@
 "미사일": 0.05,
 "속보": 0.05,
 "지하철": 0.05,
-"사고": 0.51,
+"사고": 0.56,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
