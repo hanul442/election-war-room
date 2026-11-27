@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-27T23:12:39.718288+00:00",
+"updated": "2026-11-27T23:14:52.871856+00:00",
 "errors": [],
 "events": [
 {
@@ -1403,7 +1403,7 @@
 },
 "사고": {
 "n30": 0,
-"base": 0.8,
+"base": 0.7,
 "spike": false
 },
 "실종": {
@@ -1602,7 +1602,7 @@
 "n30": 6,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-27T23:12:39.718288+00:00"
+"since": "2026-11-27T23:14:52.871856+00:00"
 }
 ],
 "baseline": {
@@ -1616,7 +1616,7 @@
 "미사일": 0.05,
 "속보": 0.05,
 "지하철": 0.05,
-"사고": 0.68,
+"사고": 0.61,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -1792,6 +1792,60 @@
 },
 "trends": [
 {
+"term": "이승엽",
+"traffic": "500+",
+"time": "2026-11-27T22:10:00+00:00",
+"news": [
+{
+"title": "승부 그 이상의 가치…'국민타자' 이승엽이 선사한 꿈나무들의 특별한 사흘 - 머니투데이",
+"source": "머니투데이",
+"link": "https://www.mt.co.kr/sports/2026/11/27/202611271337774812O"
+},
+{
+"title": "대한민국 초등 야구 최강자 가린다…2026 이승엽 파운데이션 인비테이셔널 27일 개막",
+"source": "OSEN",
+"link": "https://www.osen.co.kr/article/G1112914139"
+}
+],
+"new": true
+},
+{
+"term": "s&p 500",
+"traffic": "200+",
+"time": "2026-11-27T22:10:00+00:00",
+"news": [
+{
+"title": "Dow rallies nearly 600 points to close out best week since 2022: Live updates",
+"source": "CNBC",
+"link": "https://www.cnbc.com/2026/11/26/stock-market-today-live-updates.html"
+},
+{
+"title": "US Futures Rally as Tech Rebound Gains Momentum: Markets Wrap",
+"source": "Bloomberg.com",
+"link": "https://www.bloomberg.com/news/articles/2026-11-26/asian-stock-futures-signal-gains-oil-climbs-again-markets-wrap"
+}
+],
+"new": true
+},
+{
+"term": "포포투",
+"traffic": "200+",
+"time": "2026-11-27T22:00:00+00:00",
+"news": [
+{
+"title": "울산HD, 전북 잡고 ACLE 직행 굳힌다",
+"source": "경상일보",
+"link": "https://www.ksilbo.co.kr/news/articleView.html?idxno=1073736"
+},
+{
+"title": "K리그1 울산, 전북과 현대가더비…맞대결 5연패 끊을까[주목! 이 종목]",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261126_0003885242"
+}
+],
+"new": true
+},
+{
 "term": "대한간호협회",
 "traffic": "100+",
 "time": "2026-11-27T22:00:00+00:00",
@@ -1810,6 +1864,42 @@
 "new": true
 },
 {
+"term": "서울경제",
+"traffic": "200+",
+"time": "2026-11-27T22:00:00+00:00",
+"news": [
+{
+"title": "美, 동맹국 반도체 장비 수출까지 규제 추진… 네덜란드 반발, ASML CEO도 역효과 경고",
+"source": "조선일보",
+"link": "https://www.chosun.com/economy/tech_it/2026/11/27/WPV75LIKOBD5BB2OEMZA7727ZQ/"
+},
+{
+"title": "켄들러 “대중국 반도체 수출통제 강화 ‘매치법’ 통과 유력, 동맹국 압박…한국에 상당히 까다로운 법안 될 것”",
+"source": "경향신문",
+"link": "https://www.khan.co.kr/article/202611262121005"
+}
+],
+"new": true
+},
+{
+"term": "이상민",
+"traffic": "100+",
+"time": "2026-11-27T22:00:00+00:00",
+"news": [
+{
+"title": "'윤석열 관저 이전 예산 전용' 김대기 전 비서실장, 1심서 징역형 집행유예",
+"source": "MBC 뉴스",
+"link": "https://imnews.imbc.com/news/2026/society/article/6869043_36918.html"
+},
+{
+"title": "\"청와대 이전 공약 이행 서두르다 예산 원칙 위반\"…김대기 1심 징역형 집유",
+"source": "JTBC",
+"link": "https://news.jtbc.co.kr/article/NB12330129"
+}
+],
+"new": true
+},
+{
 "term": "skhy",
 "traffic": "200+",
 "time": "2026-11-27T22:00:00+00:00",
@@ -1823,24 +1913,6 @@
 "title": "SK hynix Doubles Daily Share Buy Orders to Boost Shareholder Value",
 "source": "아시아경제",
 "link": "https://www.asiae.co.kr/en/article/2026112720411413850"
-}
-],
-"new": true
-},
-{
-"term": "서울경제",
-"traffic": "100+",
-"time": "2026-11-27T22:00:00+00:00",
-"news": [
-{
-"title": "美, 동맹국 반도체 장비 수출까지 규제 추진… 네덜란드 반발, ASML CEO도 역효과 경고",
-"source": "조선일보",
-"link": "https://www.chosun.com/economy/tech_it/2026/11/27/WPV75LIKOBD5BB2OEMZA7727ZQ/"
-},
-{
-"title": "켄들러 “대중국 반도체 수출통제 강화 ‘매치법’ 통과 유력, 동맹국 압박…한국에 상당히 까다로운 법안 될 것”",
-"source": "경향신문",
-"link": "https://www.khan.co.kr/article/202611262121005"
 }
 ],
 "new": true
@@ -1898,82 +1970,9 @@
 }
 ],
 "new": false
-},
-{
-"term": "나스닥 100",
-"traffic": "200+",
-"time": "2026-11-27T21:50:00+00:00",
-"news": [
-{
-"title": "AI 거품이라던 '빅쇼트' 주인공의 변심…엔비디아 상승에 돈 걸었다",
-"source": "주간조선",
-"link": "https://weekly.chosun.com/news/articleView.html?idxno=60140"
-},
-{
-"title": "마이클 버리도 '롱'으로 돌아섰다…AI 노이즈 걷히면 3개월 내 낙폭 만회할까",
-"source": "한국경제",
-"link": "https://www.hankyung.com/article/202611274074i"
-}
-],
-"new": true
-},
-{
-"term": "ob-havo",
-"traffic": "100+",
-"time": "2026-11-27T21:50:00+00:00",
-"news": [
-{
-"title": "Weather forecast for tomorrow",
-"source": "Qalampir.uz",
-"link": "https://qalampir.uz/en/news/ertaga-ob-%D2%B3avo-k-anday-buladi-33-147074"
-},
-{
-"title": "Will temperatures rise in Uzbekistan before winter?",
-"source": "Zamin.uz",
-"link": "https://zamin.uz/en/uzbekistan/227807-will-temperatures-rise-in-uzbekistan-before-winter.html"
-}
-],
-"new": true
-},
-{
-"term": "래미안원베일리",
-"traffic": "200+",
-"time": "2026-11-27T21:30:00+00:00",
-"news": [
-{
-"title": "\"나도 낸다고?\" 종부세 고지서에 깜짝…내년 더 오를라 집주인 초긴장 - 머니투데이",
-"source": "머니투데이",
-"link": "https://www.mt.co.kr/economy/2026/11/27/2026112620433475661"
-},
-{
-"title": "[부동산사용설명서] 현실화율 동결했는데…종부세 대상 '쑥'",
-"source": "뉴스1",
-"link": "https://www.news1.kr/realestate/general/6368853"
-}
-],
-"new": true
-},
-{
-"term": "마운자로",
-"traffic": "200+",
-"time": "2026-11-27T21:30:00+00:00",
-"news": [
-{
-"title": "한국인 ‘스시자로’ 구매 행렬에… 대마도 택배영업소 보관·수령 중단",
-"source": "Chosunbiz",
-"link": "https://biz.chosun.com/topics/topics_social/2026/11/27/ILEQTWBKNFHB5MVU4R4EJS52P4/"
-},
-{
-"title": "배편까지 매진시킨 ‘반값 마운자로’…한·일 약값 차이의 비밀",
-"source": "한겨레",
-"link": "https://www.hani.co.kr/arti/society/health/1289515.html"
-}
-],
-"new": true
 }
 ],
 "trendSeen": [
-"타릭 스쿠발",
 "타케마루",
 "탁구",
 "탁재훈",
@@ -2061,6 +2060,7 @@
 "포체티노",
 "포틀랜드 대 오클라호마시티",
 "포티나이너스 대 레이더스",
+"포포투",
 "포항 지진",
 "폭발",
 "폭설",
