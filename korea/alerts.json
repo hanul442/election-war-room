@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-27T22:40:24.396319+00:00",
+"updated": "2026-11-27T22:43:02.291396+00:00",
 "errors": [],
 "events": [
 {
@@ -1168,12 +1168,12 @@
 },
 "사고": {
 "n30": 1,
-"base": 0.3,
+"base": 0.4,
 "spike": false
 },
 "실종": {
 "n30": 0,
-"base": 0.3,
+"base": 0.2,
 "spike": false
 },
 "단수": {
@@ -1203,7 +1203,7 @@
 "handle": "morununsaram.bsky.social",
 "name": "모르는사람",
 "time": "2026-11-27T22:39:18.746Z",
-"likes": 0,
+"likes": 1,
 "reposts": 0,
 "url": "https://bsky.app/profile/morununsaram.bsky.social/post/3n3daxkg2m22m",
 "term": "사고"
@@ -1413,14 +1413,14 @@
 "n30": 7,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-27T22:40:24.396319+00:00"
+"since": "2026-11-27T22:43:02.291396+00:00"
 },
 {
 "term": "속보",
 "n30": 8,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-27T22:40:24.396319+00:00"
+"since": "2026-11-27T22:43:02.291396+00:00"
 }
 ],
 "baseline": {
@@ -1434,8 +1434,8 @@
 "미사일": 0.05,
 "속보": 0.05,
 "지하철": 0.05,
-"사고": 0.4,
-"실종": 0.24,
+"사고": 0.46,
+"실종": 0.22,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -1646,6 +1646,24 @@
 },
 "trends": [
 {
+"term": "thời tiết",
+"traffic": "1000+",
+"time": "2026-11-27T21:40:00+00:00",
+"news": [
+{
+"title": "Dự báo thời tiết ngày 28/11: Miền Trung mưa lớn, nguy cơ ngập úng và sạt lở đất",
+"source": "VTC News",
+"link": "https://vtcnews.vn/du-bao-thoi-tiet-ngay-28-11-mien-trung-mua-lon-nguy-co-ngap-ung-va-sat-lo-dat-ar1054035.html"
+},
+{
+"title": "Dự báo thời tiết 10 ngày tới từ đêm 27.11 đến 7.12 trên cả nước",
+"source": "Laodong.vn",
+"link": "https://laodong.vn/moi-truong/du-bao-thoi-tiet-10-ngay-toi-tu-dem-2711-den-712-tren-ca-nuoc-1807562.ldo"
+}
+],
+"new": true
+},
+{
 "term": "마운자로",
 "traffic": "200+",
 "time": "2026-11-27T21:30:00+00:00",
@@ -1695,24 +1713,6 @@
 "title": "FIFA·AFC 대표단 내달 방한…한국 축구 수장 선출 해법 모색",
 "source": "제민일보",
 "link": "http://www.jemin.com/news/articleView.html?idxno=848673"
-}
-],
-"new": true
-},
-{
-"term": "정의선",
-"traffic": "200+",
-"time": "2026-11-27T21:10:00+00:00",
-"news": [
-{
-"title": "현대차, 무뇨스·송호성 체제 유지…모비스 백철승",
-"source": "연합뉴스TV",
-"link": "https://www.yonhapnewstv.co.kr/news/MYH20261127051555g88"
-},
-{
-"title": "복합위기 속 'CEO 유임' 택했다…불확실성에 내실 다지기 [인사로 본 재계 코어①]",
-"source": "뉴시스",
-"link": "https://www.newsis.com/view/NISX20261127_0003886031"
 }
 ],
 "new": true
@@ -1795,14 +1795,14 @@
 "time": "2026-11-27T20:50:00+00:00",
 "news": [
 {
-"title": "Nottm Forest 3-2 Chelsea (Nov 27, 2026) Game Analysis",
-"source": "ESPN",
-"link": "https://www.espn.com/soccer/report/_/gameId/401879225"
+"title": "Nottingham Forest 3-2 Chelsea: Morgan Gibbs-White scores twice in Forest win",
+"source": "BBC",
+"link": "https://www.bbc.com/sport/football/live/cme3d91zygp8t"
 },
 {
-"title": "Gibbs-White and Igor Jesus fire Nottingham Forest past shaky Chelsea",
-"source": "The Guardian",
-"link": "https://www.theguardian.com/football/2026/nov/27/nottingham-forest-chelsea-premier-league-match-report"
+"title": "Nottingham Forest 3-2 Chelsea: How the players rated",
+"source": "Yahoo Sports",
+"link": "https://sports.yahoo.com/soccer/articles/nottingham-forest-3-2-chelsea-220836663.html"
 }
 ],
 "new": true
