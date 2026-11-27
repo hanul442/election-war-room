@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-27T13:42:39.676421+00:00",
+"updated": "2026-11-27T13:44:52.725810+00:00",
 "errors": [],
 "events": [
 {
@@ -4952,7 +4952,7 @@
 "spike": false
 },
 "미사일": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -4963,7 +4963,7 @@
 },
 "지하철": {
 "n30": 2,
-"base": 2.3,
+"base": 2.2,
 "spike": false
 },
 "사고": {
@@ -5246,33 +5246,33 @@
 "n30": 7,
 "base": 0.2,
 "spike": true,
-"since": "2026-11-27T13:42:39.676421+00:00"
+"since": "2026-11-27T13:44:52.725810+00:00"
 },
 {
 "term": "속보",
 "n30": 5,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-27T13:42:39.676421+00:00"
+"since": "2026-11-27T13:44:52.725810+00:00"
 }
 ],
 "baseline": {
-"지진": 0.13,
-"화재": 0.6,
+"지진": 0.12,
+"화재": 0.64,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.19,
+"폭발": 0.17,
 "붕괴": 0.05,
-"대피": 0.6,
+"대피": 0.64,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 2.21,
-"사고": 3.61,
+"지하철": 2.09,
+"사고": 3.65,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
-"산불": 0.74
+"산불": 0.77
 },
 "errors": [],
 "ytPosts": [
@@ -5452,6 +5452,42 @@
 },
 "trends": [
 {
+"term": "굿파트너2",
+"traffic": "200+",
+"time": "2026-11-27T12:40:00+00:00",
+"news": [
+{
+"title": "‘굿파트너2’ 장나라·박해진, 수임 경쟁 불붙었다…김혜윤의 위기 돌파는?",
+"source": "제민일보",
+"link": "http://www.jemin.com/news/articleView.html?idxno=848665"
+},
+{
+"title": "스튜디오앤뉴표 이혼쇼 '굿파트너2'…2회 순간 최고 10% 돌파",
+"source": "파이낸셜뉴스",
+"link": "https://www.fnnews.com/news/202611271045327409"
+}
+],
+"new": true
+},
+{
+"term": "강지영",
+"traffic": "100+",
+"time": "2026-11-27T12:40:00+00:00",
+"news": [
+{
+"title": "[방송소식] MBC라디오, 다음 달 1일 'FM4U 패밀리데이'",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261127082100005"
+},
+{
+"title": "이문세·배철수·안영미, 하루 동안 자리 교체…'MBC FM4U 패밀리데이'",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261127_0003886153"
+}
+],
+"new": true
+},
+{
 "term": "명서현",
 "traffic": "100+",
 "time": "2026-11-27T12:30:00+00:00",
@@ -5483,24 +5519,6 @@
 "title": "SOOP, 'LoL 멸망전' 자체 점수제 정식 도입",
 "source": "지디넷코리아",
 "link": "https://zdnet.co.kr/view/?no=20261127162559"
-}
-],
-"new": true
-},
-{
-"term": "jyp엔터테인먼트",
-"traffic": "2000+",
-"time": "2026-11-27T11:40:00+00:00",
-"news": [
-{
-"title": "'1월 11일 데뷔' 오브더블루, 멤버 4人 비주얼 공개…자유로운 청춘의 아우라",
-"source": "Chosunbiz",
-"link": "https://biz.chosun.com/entertainment/enter_general/2026/11/27/GI3TOYZYGQ3GCMRQMVRDIYJRMM/"
-},
-{
-"title": "JYP 보이그룹 오브더블루, 4인 멤버 비주얼 최초 공개…1월 11일 데뷔",
-"source": "뉴스핌",
-"link": "https://www.newspim.com/news/view/20261126000060"
 }
 ],
 "new": true
@@ -5612,24 +5630,6 @@
 }
 ],
 "new": false
-},
-{
-"term": "bangladesh a vs pakistan a",
-"traffic": "200+",
-"time": "2026-11-27T10:30:00+00:00",
-"news": [
-{
-"title": "PAKA vs BANA, 2nd Semi-Final (B1 v A2), ACC Men's Asia Cup Rising Stars 2026 - Commentary",
-"source": "Cricbuzz",
-"link": "https://www.cricbuzz.com/live-cricket-scores/177214/bana-vs-paka-2nd-semi-final-b1-v-a2-acc-mens-asia-cup-rising-stars-2026"
-},
-{
-"title": "Pakistan Shaheens Face Bangladesh A in Rising Stars Semifinal",
-"source": "cwibc.co.id",
-"link": "https://cwibc.co.id/en/pakistan-bangladesh-rising-stars-semifinal"
-}
-],
-"new": true
 }
 ],
 "trendSeen": [
