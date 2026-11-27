@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-27T12:46:38.813268+00:00",
+"updated": "2026-11-27T12:48:53.547396+00:00",
 "errors": [],
 "events": [
 {
@@ -4860,11 +4860,11 @@
 "terms": {
 "지진": {
 "n30": 1,
-"base": 0.5,
+"base": 0.6,
 "spike": false
 },
 "화재": {
-"n30": 2,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
@@ -4879,9 +4879,9 @@
 "spike": false
 },
 "폭발": {
-"n30": 7,
+"n30": 4,
 "base": 1.1,
-"spike": true
+"spike": false
 },
 "붕괴": {
 "n30": 0,
@@ -4899,18 +4899,18 @@
 "spike": false
 },
 "속보": {
-"n30": 6,
+"n30": 4,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "지하철": {
 "n30": 11,
-"base": 3.8,
+"base": 4.0,
 "spike": false
 },
 "사고": {
-"n30": 4,
-"base": 2.9,
+"n30": 3,
+"base": 3.0,
 "spike": false
 },
 "실종": {
@@ -4975,7 +4975,7 @@
 "handle": "co-o0.bsky.social",
 "name": "유진",
 "time": "2026-11-27T12:39:18.146Z",
-"likes": 0,
+"likes": 1,
 "reposts": 0,
 "url": "https://bsky.app/profile/co-o0.bsky.social/post/3n3c7gmnjb22n",
 "term": "지하철"
@@ -5143,7 +5143,7 @@
 "handle": "fdfoxyy.bsky.social",
 "name": "FD foxy",
 "time": "2026-11-27T12:20:43.946Z",
-"likes": 14,
+"likes": 15,
 "reposts": 0,
 "url": "https://bsky.app/profile/fdfoxyy.bsky.social/post/3n3c6fegemc2m",
 "term": "폭발"
@@ -5185,16 +5185,6 @@
 "url": "https://www.youtube.com/watch?v=NVq5iUbnZ9Q"
 },
 {
-"text": "난 요즘 심각함 뭐 사고 싶은 것도 없고 그냥 자고 싶음",
-"handle": "cupthecup.bsky.social",
-"name": "컵 드시기 바랍니다",
-"time": "2026-11-27T12:18:12.842Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/cupthecup.bsky.social/post/3n3c6awoxsc2h",
-"term": "사고"
-},
-{
 "platform": "YouTube",
 "text": "[🔴이슈를 켜라] [LIVE] [속보] 특검, '내란선동' 황교안 징역 10년 구형 / 채널A",
 "handle": "UCfq4V1DAuaojnr2ryvWNysw",
@@ -5231,35 +5221,20 @@
 "url": "https://www.youtube.com/watch?v=uE7X2fCYlk0"
 }
 ],
-"spikes": [
-{
-"term": "폭발",
-"n30": 7,
-"base": 1.1,
-"spike": true,
-"since": "2026-11-27T12:46:38.813268+00:00"
-},
-{
-"term": "속보",
-"n30": 6,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-27T12:46:38.813268+00:00"
-}
-],
+"spikes": [],
 "baseline": {
-"지진": 0.56,
+"지진": 0.6,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 1.15,
-"붕괴": 0.11,
+"폭발": 1.23,
+"붕괴": 0.1,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 4.01,
+"지하철": 4.21,
 "사고": 3.0,
-"실종": 0.12,
+"실종": 0.11,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -5570,9 +5545,9 @@
 "link": "https://www.bbc.com/sport/football/live/cm0evldn2xvlt"
 },
 {
-"title": "Brann vs AGF: Where to Watch, Live Stream, TV Channel and Kick-off Time",
-"source": "Goal.com",
-"link": "https://www.goal.com/en/news/live-stream-online-tv-where-to-watch-brann-v-agf/blt634afba619910fdc"
+"title": "Aarhus thrash Brann to secure first Conference League win of term",
+"source": "TribalFootball",
+"link": "https://www.tribalfootball.com/article/aarhus-thrash-brann-to-secure-first-conference-league-win-of-term-65915a83-00c0-41ed-b481-4c727db56277"
 }
 ],
 "new": true
@@ -5624,9 +5599,9 @@
 "link": "https://www.bbc.com/sport/cricket/articles/cm9d704g26z4o"
 },
 {
-"title": "Jamie Overton tears through Australia as England claim emphatic win in third T20",
-"source": "Yahoo Sports",
-"link": "https://sports.yahoo.com/cricket/articles/jamie-overton-tears-australia-england-121347753.html"
+"title": "England go 2-1 up after Jamie Overton's five-fer dismantles Australia",
+"source": "Cricbuzz",
+"link": "https://www.cricbuzz.com/cricket-news/141085/england-go-2-1-up-after-jamie-overtons-five-fer-dismantles-australia"
 }
 ],
 "new": true
