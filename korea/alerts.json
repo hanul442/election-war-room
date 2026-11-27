@@ -1,7 +1,42 @@
 {
-"updated": "2026-11-27T08:14:54.381556+00:00",
+"updated": "2026-11-27T08:17:05.894639+00:00",
 "errors": [],
 "events": [
+{
+"id": "wNISX20261127_00038866990815",
+"first": "2026-11-27T08:15:31+00:00",
+"last": "2026-11-27T08:15:31+00:00",
+"updated": "2026-11-27T08:17:05.894639+00:00",
+"headline": "부산 건축물 63%가 30년 이상…\"지진 연쇄 피해 대비해야\"",
+"cat": "재난",
+"regions": [
+"부산"
+],
+"sources": [
+"뉴시스"
+],
+"updates": [
+{
+"title": "부산 건축물 63%가 30년 이상…\"지진 연쇄 피해 대비해야\"",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261127_0003886699",
+"time": "2026-11-27T08:15:31+00:00",
+"stage": "1보"
+}
+],
+"level": "ALERT",
+"latest": "부산 건축물 63%가 30년 이상…\"지진 연쇄 피해 대비해야\"",
+"tok": [
+"30년",
+"건축물",
+"대비해야",
+"부산",
+"연쇄",
+"이상",
+"지진",
+"피해"
+]
+},
 {
 "id": "lNkktV3VuOHA0M0RCai1Roc50810",
 "first": "2026-11-27T08:10:00+00:00",
@@ -4884,63 +4919,6 @@
 "해야",
 "환수"
 ]
-},
-{
-"id": "kt2X3hLX2d5WUtxdjhoUQoc50405",
-"first": "2026-11-27T04:05:55+00:00",
-"last": "2026-11-27T06:05:58+00:00",
-"updated": "2026-11-27T06:17:54.576711+00:00",
-"headline": "익산시 여산면 산불… 인근 도로 주의",
-"cat": "재난",
-"regions": [
-"강원",
-"전북"
-],
-"sources": [
-"스페셜타임스"
-],
-"updates": [
-{
-"title": "[속보] 익산시 여산면 산불… 인근 도로 주의",
-"source": "스페셜타임스",
-"link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5OX3ZLS0lmYklLRUU3Sks1c3c4U2ItOXJ5R01NXzFmU05pdElNejY2SjRzUExlRHo2bE5XVUg0NzVBZ2JYeGlvMlpDQURianhKcUFkWGpIbkRVaHItVUtOQ01wbkt2X3hLX2d5WUtxdjhoUQ?oc=5",
-"time": "2026-11-27T04:05:55+00:00",
-"stage": "얼럿"
-},
-{
-"title": "[속보] 익산시 여산면 산불… 인근 도로 주의",
-"source": "스페셜타임스",
-"link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBBcjI1VDhNbFBtMHI0UFVHYlFsVHR4bmJ0Ry1adWhUbmg4S1NFc2RPUi01ZWoxWEEweHJHc3FBblpmU3A5SWlBejhIYVJQck5DR1k0Nlo1ZnpHR2xNcXllTWJIRWFvZk5wZXVIeHJzQXNWUXc?oc=5",
-"time": "2026-11-27T04:05:55+00:00",
-"stage": "속보"
-},
-{
-"title": "[속보] 춘천시 동면 산불… 인근 도로 주의",
-"source": "스페셜타임스",
-"link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1VVXROTGVZTTdrZWY0cjJuOVlNN0wxblhYUWVYeVktellXSWxOQWNwSzRIZVBLYVJoS1ZEaVlXcHR2Sy1tUGhxNTlpTGMtV2RzeGp1TTRjM2VBWGFkU3lvQmx3QTMtVEltdGRWLXRibmlmZw?oc=5",
-"time": "2026-11-27T06:05:58+00:00",
-"stage": "속보"
-},
-{
-"title": "[속보] 춘천시 동면 산불… 인근 도로 주의",
-"source": "스페셜타임스",
-"link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9wMlFaTDNqdTg4UmNBdXl5bmJmdFFCUkg5MV9zdUpMUUZjX21MTTlDa1FLWFliTHg3ZGdCcTZkQ0FWMVMyQnI4SjJKbXJaNkdwQ2FVNmNBV3drR0Njc2E2TWQxcFZpSm4teGdYQmlOUnljZms?oc=5",
-"time": "2026-11-27T06:05:58+00:00",
-"stage": "속보"
-}
-],
-"level": "URGENT",
-"latest": "춘천시 동면 산불… 인근 도로 주의",
-"tok": [
-"도로",
-"동면",
-"산불",
-"여산면",
-"익산시",
-"인근",
-"주의",
-"춘천시"
-]
 }
 ],
 "sns": {
@@ -4971,8 +4949,8 @@
 "spike": false
 },
 "붕괴": {
-"n30": 2,
-"base": 0.6,
+"n30": 1,
+"base": 0.7,
 "spike": false
 },
 "대피": {
@@ -4991,13 +4969,13 @@
 "spike": false
 },
 "지하철": {
-"n30": 4,
-"base": 1.2,
+"n30": 3,
+"base": 1.4,
 "spike": false
 },
 "사고": {
 "n30": 2,
-"base": 3.5,
+"base": 3.3,
 "spike": false
 },
 "실종": {
@@ -5032,8 +5010,8 @@
 "handle": "cloud-verse.bsky.social",
 "name": "구 름",
 "time": "2026-11-27T08:14:00.848Z",
-"likes": 0,
-"reposts": 0,
+"likes": 1,
+"reposts": 1,
 "url": "https://bsky.app/profile/cloud-verse.bsky.social/post/3n3bqmay4s22n",
 "term": "사고"
 },
@@ -5042,7 +5020,7 @@
 "handle": "yunablueberry.bsky.social",
 "name": "유나",
 "time": "2026-11-27T08:12:59.443Z",
-"likes": 0,
+"likes": 2,
 "reposts": 0,
 "url": "https://bsky.app/profile/yunablueberry.bsky.social/post/3n3bqkexyhc2a",
 "term": "지하철"
@@ -5294,12 +5272,12 @@
 "불났": 0.05,
 "정전": 0.05,
 "폭발": 0.05,
-"붕괴": 0.68,
-"대피": 0.74,
+"붕괴": 0.71,
+"대피": 0.77,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 1.37,
-"사고": 3.32,
+"지하철": 1.53,
+"사고": 3.19,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -5597,14 +5575,14 @@
 "time": "2026-11-27T06:00:00+00:00",
 "news": [
 {
-"title": "최민희 징계 심사 돌입‥민주당 긴장 고조",
+"title": "최민희, 징계심의 전 김민석 조준 \"마타도어 방지책 마련해야\"",
 "source": "MBC 뉴스",
-"link": "https://imnews.imbc.com/replay/2026/nw1200/article/6869061_36967.html"
+"link": "https://imnews.imbc.com/news/2026/politics/article/6869054_36911.html"
 },
 {
-"title": "최민희 ‘운명의 날’…윤리심판원 중징계 전망 속 ‘전운’ 감도는 민주당",
-"source": "경향신문",
-"link": "https://www.khan.co.kr/article/202611271602001"
+"title": "[여의도1번지] 징계 심판대 오른 최민희…민주당 계파갈등 분수령",
+"source": "연합뉴스TV",
+"link": "https://www.yonhapnewstv.co.kr/news/MYH20261127161611T87"
 }
 ],
 "new": true
