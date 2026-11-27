@@ -1,17 +1,19 @@
 {
-"updated": "2026-11-27T07:13:08.467604+00:00",
+"updated": "2026-11-27T07:15:21.226074+00:00",
 "errors": [],
 "events": [
 {
 "id": "XRYTk92cHV2Mmk1dGZudwoc50708",
 "first": "2026-11-27T07:08:36+00:00",
-"last": "2026-11-27T07:11:07+00:00",
-"updated": "2026-11-27T07:13:08.467604+00:00",
+"last": "2026-11-27T07:13:59+00:00",
+"updated": "2026-11-27T07:15:21.226074+00:00",
 "headline": "특검, 황교안 '내란 선동 혐의' 징역 10년 구형",
 "cat": "기타",
 "regions": [],
 "sources": [
+"SBS",
 "뉴시스",
+"머니투데이",
 "중앙일보",
 "파이낸셜뉴스"
 ],
@@ -36,18 +38,35 @@
 "link": "https://www.newsis.com/view/NISX20261127_0003886572",
 "time": "2026-11-27T07:11:07+00:00",
 "stage": "속보"
+},
+{
+"title": "[속보]특검, '내란 선동' 황교안 전 총리에 1심 징역 10년 구형 - 머니투데이",
+"source": "머니투데이",
+"link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9OSTl0Tkt1TnhIWVEzY29FMEhnbFR4VlNqa1hILXdpaGNoeUJKVXhIenNDX01aTzZJcDhLeV9ZOWhBalV0MWY5TVZZaDVUdm1pU1ZBNHJ0XzJhWXBVdlg4bG1vWW05T2wtTWZn0gFwQVVfeXFMT3ZMaEhwOTYzSG96dE5VT05MMXFnekl2ai1vd0pIYW1TbTdYbXhrOE9CU1QzeGN4WTJHSVpsQVFrOVdIOG9TVzlIR0pWcFNCRnM2Mlo0N2h3Y2syc25UaWpFSlg3cGs5SDZGbmlNM2pjTw?oc=5",
+"time": "2026-11-27T07:11:08+00:00",
+"stage": "속보"
+},
+{
+"title": "[속보] 특검, 'SNS 내란선동 혐의' 황교안에 징역 10년 구형",
+"source": "SBS",
+"link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008867036&plink=RSSLINK&cooper=RSSREADER",
+"time": "2026-11-27T07:13:59+00:00",
+"stage": "속보"
 }
 ],
 "level": "URGENT",
-"latest": "특검, '내란 선동 혐의' 황교안 징역 10년 구형",
+"latest": "특검, 'SNS 내란선동 혐의' 황교안에 징역 10년 구형",
 "tok": [
 "10년",
+"1심",
 "SNS",
 "구형",
 "내란",
 "내란선동",
+"머니투데",
 "선동",
 "징역",
+"총리",
 "특검",
 "혐의",
 "황교안"
@@ -56,8 +75,8 @@
 {
 "id": "wNISX20261127_00038862550653",
 "first": "2026-11-27T06:53:11+00:00",
-"last": "2026-11-27T07:07:00+00:00",
-"updated": "2026-11-27T07:10:55.745250+00:00",
+"last": "2026-11-27T07:11:50+00:00",
+"updated": "2026-11-27T07:15:21.226074+00:00",
 "headline": "법사위, 與 주도 이용철 법무장관 후보자 인사청문보고서 채택",
 "cat": "정치",
 "regions": [
@@ -66,6 +85,7 @@
 "sources": [
 "JTBC",
 "KBS 뉴스",
+"SBS",
 "YTN",
 "뉴데일리",
 "뉴시스",
@@ -214,10 +234,17 @@
 "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBacWlYZjJERDgtTGR0TURfTm1DbWYtZlUtUjV0c2h0YWdXUlZqUDRPN2RvY1NEZDlfQnlJOVpBOHY0LVQ0OGd5R2JkMkprRDMxQVJ3Y1hRaUdZOGl2RkRzSkRPUFVqSnJSSUZkOEdkdVlqaGc3?oc=5",
 "time": "2026-11-27T07:07:00+00:00",
 "stage": "속보"
+},
+{
+"title": "[속보] 법사위, 이용철 법무장관 후보 인사청문보고서 채택…국힘 퇴장",
+"source": "SBS",
+"link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008867015&plink=RSSLINK&cooper=RSSREADER",
+"time": "2026-11-27T07:11:50+00:00",
+"stage": "속보"
 }
 ],
 "level": "URGENT",
-"latest": "이용철 법무 장관 후보자 인사청문보고서 채택…국힘 퇴장",
+"latest": "법사위, 이용철 법무장관 후보 인사청문보고서 채택…국힘 퇴장",
 "tok": [
 "與주도",
 "국민의힘",
@@ -4744,7 +4771,7 @@
 "spike": false
 },
 "폭발": {
-"n30": 4,
+"n30": 3,
 "base": 0.1,
 "spike": false
 },
@@ -4764,18 +4791,18 @@
 "spike": false
 },
 "속보": {
-"n30": 6,
+"n30": 4,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "지하철": {
 "n30": 1,
-"base": 0.7,
+"base": 0.6,
 "spike": false
 },
 "사고": {
 "n30": 2,
-"base": 1.5,
+"base": 1.6,
 "spike": false
 },
 "실종": {
@@ -4800,7 +4827,7 @@
 },
 "산불": {
 "n30": 0,
-"base": 0.5,
+"base": 0.4,
 "spike": false
 }
 },
@@ -5015,15 +5042,7 @@
 "url": "https://www.youtube.com/watch?v=nvuRZC_SnHE"
 }
 ],
-"spikes": [
-{
-"term": "속보",
-"n30": 6,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-27T07:13:08.467604+00:00"
-}
-],
+"spikes": [],
 "baseline": {
 "지진": 0.05,
 "화재": 0.05,
@@ -5034,13 +5053,13 @@
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.62,
-"사고": 1.56,
+"지하철": 0.56,
+"사고": 1.6,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
-"산불": 0.41
+"산불": 0.37
 },
 "errors": [],
 "ytPosts": [
@@ -5238,6 +5257,24 @@
 },
 "trends": [
 {
+"term": "최민희 징계",
+"traffic": "100+",
+"time": "2026-11-27T06:00:00+00:00",
+"news": [
+{
+"title": "최민희 징계 심사 돌입‥민주당 긴장 고조",
+"source": "MBC 뉴스",
+"link": "https://imnews.imbc.com/replay/2026/nw1200/article/6869061_36967.html"
+},
+{
+"title": "정청래, 김민석 겨냥 \"당대표라도 징계 앞에 예외일 수 없어\" - 머니투데이",
+"source": "머니투데이",
+"link": "https://www.mt.co.kr/politics/2026/11/27/2026112714421510820"
+}
+],
+"new": true
+},
+{
 "term": "경남 fc",
 "traffic": "100+",
 "time": "2026-11-27T06:00:00+00:00",
@@ -5251,6 +5288,24 @@
 "title": "'필사즉생' 서울 이랜드, 경남 잡고 3위로 PO 간다!",
 "source": "조선일보",
 "link": "https://www.chosun.com/sports/football/2026/11/27/HBSGKN3GMQ2WCMRWHA3DGZLBHA/"
+}
+],
+"new": true
+},
+{
+"term": "롯데그룹",
+"traffic": "500+",
+"time": "2026-11-27T05:50:00+00:00",
+"news": [
+{
+"title": "신유열 ‘바이오’ 구본규 ‘전력 인프라’…",
+"source": "매일경제",
+"link": "https://www.mk.co.kr/news/economy/12220096"
+},
+{
+"title": "6년만에 단 사장 명패…롯데 예비 '오너' 신유열이 넘어야 할 진짜 벽",
+"source": "인베스트조선",
+"link": "https://www.investchosun.com/site/data/html_dir/2026/11/23/2026112380129.html"
 }
 ],
 "new": true
@@ -5274,19 +5329,19 @@
 "new": true
 },
 {
-"term": "롯데그룹",
-"traffic": "500+",
+"term": "신달자",
+"traffic": "100+",
 "time": "2026-11-27T05:50:00+00:00",
 "news": [
 {
-"title": "신유열 ‘바이오’ 구본규 ‘전력 인프라’…",
-"source": "매일경제",
-"link": "https://www.mk.co.kr/news/economy/12220096"
+"title": "신달자 \"'니는 될 끼다'…빌딩보다 값진 어머니의 유언이었죠\"",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261126192400005"
 },
 {
-"title": "6년만에 단 사장 명패…롯데 예비 '오너' 신유열이 넘어야 할 진짜 벽",
-"source": "인베스트조선",
-"link": "https://www.investchosun.com/site/data/html_dir/2026/11/23/2026112380129.html"
+"title": "어머니가 남긴 사랑, 딸이 써 내려간 답장 [신간 소개]",
+"source": "경기일보",
+"link": "https://www.kyeonggi.com/article/20261125580086"
 }
 ],
 "new": true
@@ -5377,42 +5432,6 @@
 "title": "대구시, 12월부터 배출가스 5등급 차량 평일 운행 제한",
 "source": "연합뉴스",
 "link": "https://www.yna.co.kr/view/AKR20261127103200053"
-}
-],
-"new": true
-},
-{
-"term": "신상출시 편스토랑",
-"traffic": "100+",
-"time": "2026-11-27T04:50:00+00:00",
-"news": [
-{
-"title": "[선공개] 찬원 VS 아버지(윤성 아빠)의 숨막히는 칼질 대결! 고수들의 격돌, 그승자는? (황윤성 1열 관전) | KBS 방송",
-"source": "대한민국 대표 공영미디어 KBS",
-"link": "https://www.kbs.co.kr/index.html?source=smr&sname=vod&stype=vod&contents_id=K02_LS-20191010142020-01-000_20261125_TECH001&program_code=T2019-0286&program_id=LS-20191010142020-01-000&section_code=04&broadcast_complete_yn=N&section_id=10742"
-},
-{
-"title": "황윤성, 알고보니 도련님? 절친 이찬원도 놀랐다 (편스토랑)",
-"source": "스포츠동아",
-"link": "https://sports.donga.com/ent/article/all/20261127/135101062/1"
-}
-],
-"new": true
-},
-{
-"term": "교통",
-"traffic": "200+",
-"time": "2026-11-27T04:40:00+00:00",
-"news": [
-{
-"title": "“현장에서 듣고 혁신으로 답했다”···남양주시, 지방정부 혁신 공모전 최우수상",
-"source": "경기일보",
-"link": "https://www.kyeonggi.com/article/20261127580032"
-},
-{
-"title": "농어촌공사, 지방정부·공공기관 혁신 우수사례 ‘대상’",
-"source": "녹색경제신문",
-"link": "https://www.greened.kr/news/articleView.html?idxno=355775"
 }
 ],
 "new": true
