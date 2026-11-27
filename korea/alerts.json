@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-27T12:42:11.238054+00:00",
+"updated": "2026-11-27T12:44:23.967521+00:00",
 "errors": [],
 "events": [
 {
@@ -4860,7 +4860,7 @@
 "terms": {
 "지진": {
 "n30": 1,
-"base": 0.4,
+"base": 0.5,
 "spike": false
 },
 "화재": {
@@ -4880,7 +4880,7 @@
 },
 "폭발": {
 "n30": 7,
-"base": 0.8,
+"base": 0.9,
 "spike": true
 },
 "붕괴": {
@@ -4904,13 +4904,13 @@
 "spike": true
 },
 "지하철": {
-"n30": 13,
-"base": 3.0,
+"n30": 11,
+"base": 3.5,
 "spike": true
 },
 "사고": {
 "n30": 4,
-"base": 2.6,
+"base": 2.8,
 "spike": false
 },
 "실종": {
@@ -4955,7 +4955,7 @@
 "handle": "hyunn69.bsky.social",
 "name": "hyunn69.bsky.social",
 "time": "2026-11-27T12:40:35.646Z",
-"likes": 0,
+"likes": 1,
 "reposts": 0,
 "url": "https://bsky.app/profile/hyunn69.bsky.social/post/3n3c7ixfuwc2o",
 "term": "지하철"
@@ -5235,38 +5235,38 @@
 {
 "term": "폭발",
 "n30": 7,
-"base": 0.8,
+"base": 0.9,
 "spike": true,
-"since": "2026-11-27T12:42:11.238054+00:00"
+"since": "2026-11-27T12:44:23.967521+00:00"
 },
 {
 "term": "속보",
 "n30": 7,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-27T12:42:11.238054+00:00"
+"since": "2026-11-27T12:44:23.967521+00:00"
 },
 {
 "term": "지하철",
-"n30": 13,
-"base": 3.0,
+"n30": 11,
+"base": 3.5,
 "spike": true,
-"since": "2026-11-27T12:42:11.238054+00:00"
+"since": "2026-11-27T12:44:23.967521+00:00"
 }
 ],
 "baseline": {
-"지진": 0.45,
+"지진": 0.51,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.95,
-"붕괴": 0.13,
+"폭발": 1.05,
+"붕괴": 0.12,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 3.54,
-"사고": 2.77,
-"실종": 0.14,
+"지하철": 3.79,
+"사고": 2.89,
+"실종": 0.13,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -5459,19 +5459,37 @@
 },
 "trends": [
 {
+"term": "jyp엔터테인먼트",
+"traffic": "2000+",
+"time": "2026-11-27T11:40:00+00:00",
+"news": [
+{
+"title": "'1월 11일 데뷔' 오브더블루, 멤버 4人 비주얼 공개…자유로운 청춘의 아우라",
+"source": "Chosunbiz",
+"link": "https://biz.chosun.com/entertainment/enter_general/2026/11/27/GI3TOYZYGQ3GCMRQMVRDIYJRMM/"
+},
+{
+"title": "JYP 보이그룹 오브더블루, 4인 멤버 비주얼 최초 공개…1월 11일 데뷔",
+"source": "뉴스핌",
+"link": "https://www.newspim.com/news/view/20261126000060"
+}
+],
+"new": true
+},
+{
 "term": "농협은행",
 "traffic": "1000+",
 "time": "2026-11-27T11:10:00+00:00",
 "news": [
 {
-"title": "씨지인사이드, NH농협은행 오픈이노베이션 최우수상 수상…금융상품 광고 Compliance AI 선보여",
-"source": "전자신문",
-"link": "https://www.etnews.com/20261127000225"
+"title": "‘지역사회에 돈 얼마나 풀었는지’ 은행 평가에 더 반영한다",
+"source": "경향신문",
+"link": "https://www.khan.co.kr/article/202611271430011"
 },
 {
-"title": "NH농협은행, 비정형데이터 품질 최고 등급…AI 경쟁력 강화",
-"source": "에너지경제신문",
-"link": "https://m.ekn.kr/view.php?key=20261127023445945"
+"title": "금융위 은행권 지역재투자 평가 상대평가로 바꾼다, 최우수 은행 7곳에서 1곳으로",
+"source": "비즈니스포스트",
+"link": "https://www.businesspost.co.kr/BP?command=article_view&num=453172"
 }
 ],
 "new": true
@@ -5500,14 +5518,14 @@
 "time": "2026-11-27T10:50:00+00:00",
 "news": [
 {
+"title": "특검, ‘SNS 내란선동 혐의’ 황교안 징역 10년 구형",
+"source": "KBS 뉴스",
+"link": "https://news.kbs.co.kr/news/view.do?ncd=8724597"
+},
+{
 "title": "‘이석기 판례’로 황교안 징역 10년 구형…황, 13년 전 체포요청 당사자",
 "source": "한겨레",
 "link": "https://www.hani.co.kr/arti/society/society_general/1289471.html"
-},
-{
-"title": "특검, “윤석열 방해하는 한동훈 체포하라”던 황교안 ‘SNS 내란선동 혐의’로 징역 10년 구형",
-"source": "주간경향",
-"link": "https://weekly.khan.co.kr/article/202611272052001"
 }
 ],
 "new": false
@@ -5523,9 +5541,9 @@
 "link": "https://www.mk.co.kr/news/society/12220205"
 },
 {
-"title": "블랙프라이데이 세일 시작한 런던 상점",
+"title": "블랙프라이데이 쇼핑하는 마드리드 사람들",
 "source": "뉴시스",
-"link": "https://www.newsis.com/view/NISI20261127_0002304237"
+"link": "https://www.newsis.com/view/NISI20261127_0002304235"
 }
 ],
 "new": true
@@ -5603,9 +5621,9 @@
 "new": true
 },
 {
-"term": "aus vs eng",
-"traffic": "100+",
-"time": "2026-11-27T09:30:00+00:00",
+"term": "australia vs england",
+"traffic": "500+",
+"time": "2026-11-27T09:00:00+00:00",
 "news": [
 {
 "title": "England in Australia: Jamie Overton claims five as tourists take series lead in Brisbane",
@@ -5613,27 +5631,9 @@
 "link": "https://www.bbc.com/sport/cricket/articles/cm9d704g26z4o"
 },
 {
-"title": "Jamie Overton tears through Australia as England claim emphatic win in third T20",
-"source": "Yahoo Sports",
-"link": "https://sports.yahoo.com/cricket/articles/jamie-overton-tears-australia-england-121347753.html"
-}
-],
-"new": true
-},
-{
-"term": "australia vs england",
-"traffic": "200+",
-"time": "2026-11-27T09:00:00+00:00",
-"news": [
-{
-"title": "Australia vs England LIVE: Third T20, Brisbane - cricket score, commentary & updates",
-"source": "BBC",
-"link": "https://www.bbc.com/sport/cricket/live/cwylrwj2zd9t"
-},
-{
-"title": "Billy Stanlake: Aneurin Donald and Phil Salt make history as first Wales-born England opening pair",
-"source": "شبكة تواصل الإخبارية",
-"link": "https://twaslnews1.twaslnews.com/8385320/"
+"title": "England go 2-1 up after Jamie Overton's five-fer dismantles Australia",
+"source": "Cricbuzz",
+"link": "https://www.cricbuzz.com/cricket-news/141085/england-go-2-1-up-after-jamie-overtons-five-fer-dismantles-australia"
 }
 ],
 "new": true
