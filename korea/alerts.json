@@ -1,16 +1,17 @@
 {
-"updated": "2026-11-27T01:29:22.444596+00:00",
+"updated": "2026-11-27T01:31:36.531095+00:00",
 "errors": [],
 "events": [
 {
 "id": "3SndjaWpCeVMta0dzUW1Boc50123",
 "first": "2026-11-27T01:23:00+00:00",
 "last": "2026-11-27T01:28:03+00:00",
-"updated": "2026-11-27T01:29:22.444596+00:00",
+"updated": "2026-11-27T01:31:36.531095+00:00",
 "headline": "코스닥 5%대 급등…매수 사이드카 발동",
 "cat": "경제",
 "regions": [],
 "sources": [
+"MBC 뉴스",
 "뉴시스",
 "머니투데이",
 "아시아경제",
@@ -32,9 +33,23 @@
 "stage": "얼럿"
 },
 {
+"title": "[속보] 코스닥 장중 5% 급등‥'매수 사이드카' 발동",
+"source": "MBC 뉴스",
+"link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE05VlE3MzJxZ0JTdUUtbW5ITXFzdERHc3NkQy1DR0pQSENGUGhGNU80cXlrSWZaVm5MZzdiaVk0Rk9tZ3V3bzZNMXk3dVlmZ2MxUFJzUU5ZVGQ2Tmp5MVRZZmU0RHVqdHRsNmpsclpSdTk4ajVQ0gF0QVVfeXFMUFh2bk13Q0FDU3FRdndkY2wxS2xaamZtanBzWF91alA4QWxybmV5cUEzSlQ0RkZ1aGRqWmg2UzBSSTJRQzdZb2ZLSl92cVIwTUhtWDF1WGRUNmlNeHlBTmtJaUpsVThPY0ZCS3ExczJ5MDNPZ1c?oc=5",
+"time": "2026-11-27T01:25:04+00:00",
+"stage": "속보"
+},
+{
 "title": "[속보] 코스닥 매수 사이드카 발동…장중 급반등 - 머니투데이",
 "source": "머니투데이",
 "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5meGZtMnNyajRGSXh5ZWRscEJ0ZmlyLWk1NG5vRDFzNE9VekJ6N3ZRRzNOdEVXdjV2cFRoR1lhY3dvQXFWVDU0Xy1vMWhhSTl5ODJVMHhWY3NzUlVUOFh2T3RtVWFqcXRt0gFuQVVfeXFMTXkzMlAyVjJtaXFrZEEzVThEQm9vQTBTS2hNYkMxdzhNZ2ZMOG41SFQ2WENtZWtmcHU2LU9aTDVrNGVfcUNvbkozMFNWbV9hcjBQXzh1OHN6UEFLa2JMc0xiUjdydlg2aUM1ZWlXRUE?oc=5",
+"time": "2026-11-27T01:26:04+00:00",
+"stage": "속보"
+},
+{
+"title": "[속보] 코스닥 매수 사이드카 발동…장중 급반등 - 머니투데이",
+"source": "머니투데이",
+"link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5iQk1qS0duUHl2ckl4UzRyeVJjOU15TXdDTGpuYVNWUnlrRHd5NnVaTkFMNmh4R0t3UGdFZV81VGZuQVFyX2tqM0hoX3dOUDNsWm5xTzlvNk56RDUyNlFCc3NNWnMxeTNHenRvQmVVOHpwVHJCeWfSAXtBVV95cUxOWW14akxad1RoR3BqQk1KMjRFUWZEZ1FsZlJ2anR2MmxQSE1XTDN0YXFlUTFyVTF3MWkwUlIxUEdDdHdEeGpUVjg5QVlOTWlJdVZDcTBHM1JmWnBSczJOSmNOaHZQbDRXOGVNU1JXd0RpQUVLbk9laHBKYUk?oc=5",
 "time": "2026-11-27T01:26:04+00:00",
 "stage": "속보"
 },
@@ -2819,7 +2834,7 @@
 "spike": false
 },
 "화재": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -2829,17 +2844,17 @@
 "spike": false
 },
 "정전": {
-"n30": 3,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
 "폭발": {
-"n30": 5,
+"n30": 0,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "붕괴": {
-"n30": 2,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -2849,19 +2864,19 @@
 "spike": false
 },
 "미사일": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
 "속보": {
-"n30": 6,
+"n30": 3,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "지하철": {
-"n30": 5,
+"n30": 2,
 "base": 1.4,
-"spike": true
+"spike": false
 },
 "사고": {
 "n30": 4,
@@ -3099,16 +3114,6 @@
 "url": "https://www.youtube.com/watch?v=DdKQ87juw0Q"
 },
 {
-"text": "하 동네에 피부과 없어서 지하철 타고 옆동네까지 오는데 여기도 솔직히 별로임 ... 응대도 너무 불친절하고 (미용목적 아닌) 피부과라고는 여기 밖에 없어서 사람은 너무 많아서 오래 기다려야 되고",
-"handle": "kxrmx.bsky.social",
-"name": "WAYNE",
-"time": "2026-11-27T01:00:16.544Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/kxrmx.bsky.social/post/3n3ayeo3spc2c",
-"term": "지하철"
-},
-{
 "platform": "YouTube",
 "text": "진해성, 팬들의 사랑빛 지하철 광고 보러 갔다가…기다림 끝에 전한 감사",
 "handle": "UC3IFO-KqBWI3LCSLNsGEOBA",
@@ -3154,29 +3159,7 @@
 "url": "https://www.youtube.com/watch?v=2DFw1231FyU"
 }
 ],
-"spikes": [
-{
-"term": "폭발",
-"n30": 5,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-27T01:29:22.444596+00:00"
-},
-{
-"term": "속보",
-"n30": 6,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-27T01:29:22.444596+00:00"
-},
-{
-"term": "지하철",
-"n30": 5,
-"base": 1.4,
-"spike": true,
-"since": "2026-11-27T01:29:22.444596+00:00"
-}
-],
+"spikes": [],
 "baseline": {
 "지진": 0.05,
 "화재": 0.05,
@@ -3187,8 +3170,8 @@
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 1.42,
-"사고": 3.42,
+"지하철": 1.38,
+"사고": 3.48,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -3507,9 +3490,9 @@
 "link": "https://weekly.chosun.com/news/articleView.html?idxno=60139"
 },
 {
-"title": "'제자 성폭행 혐의' 뮤지컬 배우 남경주 오늘 국민참여재판",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261126189600004"
+"title": "법정 향하는 뮤지컬 배우 남경주",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISI20261127_0021547115"
 }
 ],
 "new": true
