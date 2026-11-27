@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-27T03:59:24.961210+00:00",
+"updated": "2026-11-27T04:01:35.806039+00:00",
 "errors": [],
 "events": [
 {
@@ -3650,7 +3650,7 @@
 "spike": false
 },
 "화재": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -3670,8 +3670,8 @@
 "spike": false
 },
 "붕괴": {
-"n30": 1,
-"base": 0.7,
+"n30": 0,
+"base": 0.6,
 "spike": false
 },
 "대피": {
@@ -3685,9 +3685,9 @@
 "spike": false
 },
 "속보": {
-"n30": 6,
+"n30": 4,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "지하철": {
 "n30": 2,
@@ -3696,7 +3696,7 @@
 },
 "사고": {
 "n30": 3,
-"base": 1.5,
+"base": 1.6,
 "spike": false
 },
 "실종": {
@@ -3741,7 +3741,7 @@
 "handle": "lehawin.bsky.social",
 "name": "레하윈",
 "time": "2026-11-27T03:56:47.047Z",
-"likes": 0,
+"likes": 1,
 "reposts": 0,
 "url": "https://bsky.app/profile/lehawin.bsky.social/post/3n3bcac5bxs24",
 "term": "폭발"
@@ -3912,27 +3912,19 @@
 "url": "https://www.youtube.com/watch?v=LnUX6K_JENU"
 }
 ],
-"spikes": [
-{
-"term": "속보",
-"n30": 6,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-27T03:59:24.961210+00:00"
-}
-],
+"spikes": [],
 "baseline": {
 "지진": 0.05,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.15,
-"붕괴": 0.62,
+"폭발": 0.24,
+"붕괴": 0.56,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 1.22,
-"사고": 1.61,
+"지하철": 1.2,
+"사고": 1.75,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -4181,9 +4173,9 @@
 "link": "https://pharm.edaily.co.kr/News/Read?newsId=01210326645649984"
 },
 {
-"title": "펩트론, 페링과 장기지속형 주사제 기술평가 계약 체결",
-"source": "뉴스타운",
-"link": "https://www.newstown.co.kr/news/articleView.html?idxno=723605"
+"title": "[특징주] 펩트론, 스위스 제약사와 기술평가 계약…강세",
+"source": "에너지경제신문",
+"link": "https://m.ekn.kr/view.php?key=20261127028215596"
 }
 ],
 "new": true
