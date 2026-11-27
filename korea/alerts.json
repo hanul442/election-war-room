@@ -1,12 +1,12 @@
 {
-"updated": "2026-11-27T22:52:01.814592+00:00",
+"updated": "2026-11-27T22:54:16.635450+00:00",
 "errors": [],
 "events": [
 {
 "id": "viewAKR202611280094510532247",
 "first": "2026-11-27T22:47:46+00:00",
 "last": "2026-11-27T22:47:46+00:00",
-"updated": "2026-11-27T22:52:01.814592+00:00",
+"updated": "2026-11-27T22:54:16.635450+00:00",
 "headline": "경북 성주 야산서 산불 2시간여만에 진화…0.5㏊ 피해",
 "cat": "재난",
 "regions": [
@@ -16,6 +16,13 @@
 "연합뉴스"
 ],
 "updates": [
+{
+"title": "경북 성주 야산서 불…산림당국 진화 나서",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261128009400053",
+"time": "2026-11-27T21:34:55+00:00",
+"stage": "후속"
+},
 {
 "title": "경북 성주 야산서 산불 2시간여만에 진화…0.5㏊ 피해(종합)",
 "source": "연합뉴스",
@@ -29,6 +36,8 @@
 "tok": [
 "2시간여만",
 "경북",
+"나서",
+"산림당국",
 "산불",
 "성주",
 "야산서",
@@ -1202,12 +1211,12 @@
 "spike": false
 },
 "속보": {
-"n30": 6,
+"n30": 5,
 "base": 0.1,
 "spike": true
 },
 "지하철": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -1218,7 +1227,7 @@
 },
 "실종": {
 "n30": 0,
-"base": 0.2,
+"base": 0.1,
 "spike": false
 },
 "단수": {
@@ -1458,14 +1467,14 @@
 "n30": 7,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-27T22:52:01.814592+00:00"
+"since": "2026-11-27T22:54:16.635450+00:00"
 },
 {
 "term": "속보",
-"n30": 6,
+"n30": 5,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-27T22:52:01.814592+00:00"
+"since": "2026-11-27T22:54:16.635450+00:00"
 }
 ],
 "baseline": {
@@ -1479,8 +1488,8 @@
 "미사일": 0.05,
 "속보": 0.05,
 "지하철": 0.05,
-"사고": 0.64,
-"실종": 0.14,
+"사고": 0.68,
+"실종": 0.13,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -1691,19 +1700,91 @@
 },
 "trends": [
 {
-"term": "thời tiết",
-"traffic": "1000+",
-"time": "2026-11-27T21:40:00+00:00",
+"term": "필라델피아 반도체 지수",
+"traffic": "500+",
+"time": "2026-11-27T21:50:00+00:00",
 "news": [
 {
-"title": "Dự báo thời tiết ngày 28/11: Miền Trung mưa lớn, nguy cơ ngập úng và sạt lở đất",
-"source": "VTC News",
-"link": "https://vtcnews.vn/du-bao-thoi-tiet-ngay-28-11-mien-trung-mua-lon-nguy-co-ngap-ung-va-sat-lo-dat-ar1054035.html"
+"title": "[포토] 봄같은 제주 날씨",
+"source": "한국경제",
+"link": "https://www.hankyung.com/article/2026112753691"
 },
 {
-"title": "Dự báo thời tiết 10 ngày tới từ đêm 27.11 đến 7.12 trên cả nước",
-"source": "Laodong.vn",
-"link": "https://laodong.vn/moi-truong/du-bao-thoi-tiet-10-ngay-toi-tu-dem-2711-den-712-tren-ca-nuoc-1807562.ldo"
+"title": "[속보] 앤트로픽 6.54% 급락…상장 4거래일 만에 공모가 하회",
+"source": "한국경제",
+"link": "https://www.hankyung.com/article/2026112581447"
+}
+],
+"new": false
+},
+{
+"term": "나스닥 100",
+"traffic": "200+",
+"time": "2026-11-27T21:50:00+00:00",
+"news": [
+{
+"title": "AI 거품이라던 '빅쇼트' 주인공의 변심…엔비디아 상승에 돈 걸었다",
+"source": "주간조선",
+"link": "https://weekly.chosun.com/news/articleView.html?idxno=60140"
+},
+{
+"title": "[굿모닝 오늘의 증시] '빅쇼트' 버리도 롱에 걸었다? 월가 '경계 VS 기회' 논쟁 격화",
+"source": "매일경제TV",
+"link": "https://mbnmoney.mbn.co.kr/news/view?news_no=MM1005971492"
+}
+],
+"new": true
+},
+{
+"term": "표절",
+"traffic": "100+",
+"time": "2026-11-27T21:50:00+00:00",
+"news": [
+{
+"title": "홍익표, 자기표절 의혹에 \"현 규정 부합 않지만 심각한 위반 아냐\"",
+"source": "MBC 뉴스",
+"link": "https://imnews.imbc.com/news/2026/politics/article/6868825_36911.html"
+},
+{
+"title": "\"홍익표 후보자 박사논문과 연구보고서 겹쳐…재사용 가능성\"",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261125183700504"
+}
+],
+"new": false
+},
+{
+"term": "ob-havo",
+"traffic": "100+",
+"time": "2026-11-27T21:50:00+00:00",
+"news": [
+{
+"title": "Temperatures to drop over weekend",
+"source": "Qalampir.uz",
+"link": "https://qalampir.uz/en/news/dam-olish-kunlari-%D2%B3avo-soviydi-147069"
+},
+{
+"title": "Weather forecast for November 27th",
+"source": "yuz.uz",
+"link": "https://yuz.uz/en/news/prognoz-pogod-na-den-27-noyabrya-"
+}
+],
+"new": true
+},
+{
+"term": "래미안원베일리",
+"traffic": "200+",
+"time": "2026-11-27T21:30:00+00:00",
+"news": [
+{
+"title": "\"나도 낸다고?\" 종부세 고지서에 깜짝…내년 더 오를라 집주인 초긴장 - 머니투데이",
+"source": "머니투데이",
+"link": "https://www.mt.co.kr/economy/2026/11/27/2026112620433475661"
+},
+{
+"title": "[부동산사용설명서] 현실화율 동결했는데…종부세 대상 '쑥'",
+"source": "뉴스1",
+"link": "https://www.news1.kr/realestate/general/6368853"
 }
 ],
 "new": true
@@ -1727,22 +1808,22 @@
 "new": true
 },
 {
-"term": "한지민",
-"traffic": "1000+",
+"term": "nottm forest đấu với chelsea",
+"traffic": "100+",
 "time": "2026-11-27T21:20:00+00:00",
 "news": [
 {
-"title": "이서진, 11살 어린 한지민에 \"갱년기 중년 女\"…막말 비하 논란 - 머니투데이",
-"source": "머니투데이",
-"link": "https://www.mt.co.kr/entertainment/2026/11/26/2026112618425270556"
+"title": "Lịch thi đấu bóng đá hôm nay ngày 27/11 - 28/11: Nhiều trận cầu hấp dẫn",
+"source": "Báo Sức khỏe & Đời sống",
+"link": "https://suckhoedoisong.vn/lich-thi-dau-bong-da-hom-nay-ngay-27-11-28-11-nhieu-tran-cau-hap-dan-169261127161959477.htm"
 },
 {
-"title": "김용건, 주헌·정연에 현실 조언..“명품 파는데 기웃거리면 안돼” (‘그냥사람친구’)",
-"source": "조선일보",
-"link": "https://www.chosun.com/entertainments/broadcast/2026/11/27/GAYGMYZYGNTGIMJQGVTDQYZUGU/"
+"title": "Chelsea thua Nottingham Forest vì toan tính sai lầm của Xabi Alonso",
+"source": "bongda.com.vn",
+"link": "https://bongda.com.vn/chelsea-thua-nottingham-forest-vi-toan-tinh-sai-lam-cua-xabi-alonso-d856688.html"
 }
 ],
-"new": false
+"new": true
 },
 {
 "term": "시장",
@@ -1786,86 +1867,14 @@
 "time": "2026-11-27T21:00:00+00:00",
 "news": [
 {
-"title": "\"나도 낸다고?\" 종부세 고지서에 깜짝…내년 더 오를라 집주인 초긴장 - 머니투데이",
-"source": "머니투데이",
-"link": "https://www.mt.co.kr/economy/2026/11/27/2026112620433475661"
+"title": "\"부동산 불패는 끝났어요…고금리·공실 리스크에 자산 분산이 답\"",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261127_0003885708"
 },
 {
-"title": "[부동산사용설명서] 현실화율 동결했는데…종부세 대상 '쑥'",
-"source": "뉴스1",
-"link": "https://www.news1.kr/realestate/general/6368853"
-}
-],
-"new": true
-},
-{
-"term": "한국은행 기준금리",
-"traffic": "100+",
-"time": "2026-11-27T21:00:00+00:00",
-"news": [
-{
-"title": "‘통화긴축-확장재정 충돌’ 지적에… 靑 “엇박자 아닌 정교한 조합”",
-"source": "동아일보",
-"link": "https://www.donga.com/news/Politics/article/all/20261127/135106503/2"
-},
-{
-"title": "내년 성장률 4.1% 깜짝 상향...반도체 호황이 이끌어",
-"source": "YTN 사이언스",
-"link": "https://m.science.ytn.co.kr/program/view_today.php?s_mcd=0082&key=202611271601012461"
-}
-],
-"new": false
-},
-{
-"term": "베르더 대 묀헨글라트바흐",
-"traffic": "100+",
-"time": "2026-11-27T21:00:00+00:00",
-"news": [
-{
-"title": "묀헨글라트바흐, 브레멘과 3-3 무승부…카스트로프 선발 출전 : 해외축구",
-"source": "재경일보",
-"link": "https://news.jkn.co.kr/post/1128668"
-},
-{
-"title": "“순위표만 봐선 소용없다!”… 부상 털고 돌아온 ‘韓 혼혈 국가대표’ 옌스의 포부!→ ‘분데스리가 최하위’ 묀헨글라트바흐에 반등 주문 “우리는 우리를 믿는다”",
-"source": "베스트일레븐",
-"link": "https://www.besteleven.com/news/articleView.html?idxno=314347"
-}
-],
-"new": true
-},
-{
-"term": "연금",
-"traffic": "10000+",
-"time": "2026-11-27T20:50:00+00:00",
-"news": [
-{
-"title": "국민연금, 석달 새 적립금 202조 줄어",
-"source": "경향신문",
-"link": "https://www.khan.co.kr/article/202611271805001"
-},
-{
-"title": "국민연금 적립금 석 달 만에 202조 '증발'...수익률 '반 토막'",
-"source": "YTN",
-"link": "https://www.ytn.co.kr/_ln/0103_202611280437508744"
-}
-],
-"new": true
-},
-{
-"term": "nottm forest vs chelsea",
-"traffic": "500+",
-"time": "2026-11-27T20:50:00+00:00",
-"news": [
-{
-"title": "Nottingham Forest 3-2 Chelsea: Morgan Gibbs-White scores twice in Forest win",
-"source": "BBC",
-"link": "https://www.bbc.com/sport/football/live/cme3d91zygp8t"
-},
-{
-"title": "Nottingham Forest 3-2 Chelsea: How the players rated",
-"source": "Yahoo Sports",
-"link": "https://sports.yahoo.com/soccer/articles/nottingham-forest-3-2-chelsea-220836663.html"
+"title": "투자 펀드들이 부동산 주식 보유 구조를 재조정하고 있다.",
+"source": "Vietnam.vn",
+"link": "https://www.vietnam.vn/ko/cac-quy-dau-tu-tai-co-cau-co-phieu-bat-dong-san"
 }
 ],
 "new": true
