@@ -1,7 +1,57 @@
 {
-"updated": "2026-11-27T12:15:23.449576+00:00",
+"updated": "2026-11-27T12:17:38.018538+00:00",
 "errors": [],
 "events": [
+{
+"id": "viewAKR202611271627005271028",
+"first": "2026-11-27T10:28:26+00:00",
+"last": "2026-11-27T12:13:14+00:00",
+"updated": "2026-11-27T12:17:38.018538+00:00",
+"headline": "경기 북부 8개 시·군 초미세먼지주의보 발령",
+"cat": "재난",
+"regions": [
+"경기"
+],
+"sources": [
+"연합뉴스"
+],
+"updates": [
+{
+"title": "경기 북부 8개 시·군 초미세먼지주의보 발령",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261127162700527",
+"time": "2026-11-27T10:28:26+00:00",
+"stage": "1보"
+},
+{
+"title": "경기 중부 초미세먼지주의보…북부 주의보 유지",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261127164800527",
+"time": "2026-11-27T11:15:57+00:00",
+"stage": "후속"
+},
+{
+"title": "경기 동부 초미세먼지주의보…중부·북부 주의보 유지",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261127167000527",
+"time": "2026-11-27T12:13:14+00:00",
+"stage": "후속"
+}
+],
+"level": "ALERT",
+"latest": "경기 동부 초미세먼지주의보…중부·북부 주의보 유지",
+"tok": [
+"8개",
+"경기",
+"동부",
+"발령",
+"북부",
+"유지",
+"주의보",
+"중부",
+"초미세먼지주의보"
+]
+},
 {
 "id": "kRCYWpObUNrWU5HWF9nVAoc50403",
 "first": "2026-11-27T04:03:35+00:00",
@@ -1173,48 +1223,6 @@
 "행적",
 "홍민기",
 "휴대전화"
-]
-},
-{
-"id": "viewAKR202611271627005271028",
-"first": "2026-11-27T10:28:26+00:00",
-"last": "2026-11-27T11:15:57+00:00",
-"updated": "2026-11-27T11:21:32.828744+00:00",
-"headline": "경기 북부 8개 시·군 초미세먼지주의보 발령",
-"cat": "재난",
-"regions": [
-"경기"
-],
-"sources": [
-"연합뉴스"
-],
-"updates": [
-{
-"title": "경기 북부 8개 시·군 초미세먼지주의보 발령",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261127162700527",
-"time": "2026-11-27T10:28:26+00:00",
-"stage": "1보"
-},
-{
-"title": "경기 중부 초미세먼지주의보…북부 주의보 유지",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261127164800527",
-"time": "2026-11-27T11:15:57+00:00",
-"stage": "후속"
-}
-],
-"level": "ALERT",
-"latest": "경기 중부 초미세먼지주의보…북부 주의보 유지",
-"tok": [
-"8개",
-"경기",
-"발령",
-"북부",
-"유지",
-"주의보",
-"중부",
-"초미세먼지주의보"
 ]
 },
 {
@@ -4863,12 +4871,12 @@
 },
 "지하철": {
 "n30": 4,
-"base": 1.2,
+"base": 1.4,
 "spike": false
 },
 "사고": {
 "n30": 2,
-"base": 2.5,
+"base": 2.4,
 "spike": false
 },
 "실종": {
@@ -4940,7 +4948,7 @@
 "handle": "jvesuet.bsky.social",
 "name": "Jve",
 "time": "2026-11-27T12:02:00.741Z",
-"likes": 0,
+"likes": 1,
 "reposts": 0,
 "url": "https://bsky.app/profile/jvesuet.bsky.social/post/3n3c5dxkbec2j",
 "term": "지하철"
@@ -5098,7 +5106,7 @@
 "n30": 7,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-27T12:15:23.449576+00:00"
+"since": "2026-11-27T12:17:38.018538+00:00"
 }
 ],
 "baseline": {
@@ -5107,13 +5115,13 @@
 "불났": 0.05,
 "정전": 0.05,
 "폭발": 0.05,
-"붕괴": 0.45,
+"붕괴": 0.41,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 1.4,
-"사고": 2.38,
-"실종": 0.48,
+"지하철": 1.56,
+"사고": 2.24,
+"실종": 0.43,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -5433,9 +5441,9 @@
 "link": "https://www.ytn.co.kr/_ln/0102_202611270503025651"
 },
 {
-"title": "철도노조 준법 투쟁으로 열차 4백여 대 지연·2대 운행 중지",
-"source": "KBS 뉴스",
-"link": "https://news.kbs.co.kr/news/view.do?ncd=8724652"
+"title": "“이렇게 사람 많은 건 처음” 지하철 1·3·4호선 퇴근길 대란…철도노조 준법투쟁에 시민 불편",
+"source": "문화일보",
+"link": "https://www.munhwa.com/article/11634712"
 }
 ],
 "new": true
@@ -5446,14 +5454,14 @@
 "time": "2026-11-27T09:30:00+00:00",
 "news": [
 {
-"title": "Relive England thrashing Australia by seven wickets at The Gabba to take a 2-1 T20 series lead",
+"title": "Australia vs England LIVE: Third T20, Brisbane - cricket score, commentary & updates",
 "source": "BBC",
-"link": "https://www.bbc.co.uk/sport/cricket/live/cwylrwj2zd9t"
+"link": "https://www.bbc.com/sport/cricket/live/cwylrwj2zd9t"
 },
 {
-"title": "England in Australia: Jamie Overton claims five as tourists take series lead in Brisbane",
-"source": "BBC",
-"link": "https://www.bbc.com/sport/cricket/articles/cm9d704g26z4o"
+"title": "Overton’s fiery five-wicket haul helps England to flip Gabba script against Australia",
+"source": "The Guardian",
+"link": "https://www.theguardian.com/sport/2026/nov/27/overton-england-beat-australia-seven-wickets-third-t20-cricket"
 }
 ],
 "new": true
