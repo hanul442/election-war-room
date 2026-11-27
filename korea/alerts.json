@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-27T00:24:26.912882+00:00",
+"updated": "2026-11-27T00:26:40.679392+00:00",
 "errors": [],
 "events": [
 {
@@ -245,13 +245,14 @@
 {
 "id": "wNISX20261127_00038855960001",
 "first": "2026-11-27T00:01:14+00:00",
-"last": "2026-11-27T00:01:14+00:00",
-"updated": "2026-11-27T00:03:53.422498+00:00",
+"last": "2026-11-27T00:03:50+00:00",
+"updated": "2026-11-27T00:26:40.679392+00:00",
 "headline": "코스피, 17.59포인트(0.37%) 오른 4728.80 출발",
 "cat": "경제",
 "regions": [],
 "sources": [
-"뉴시스"
+"뉴시스",
+"투데이코리아"
 ],
 "updates": [
 {
@@ -260,10 +261,17 @@
 "link": "https://www.newsis.com/view/NISX20261127_0003885596",
 "time": "2026-11-27T00:01:14+00:00",
 "stage": "얼럿"
+},
+{
+"title": "속보 코스피, 17.59포인트 오른 4728.80 출발",
+"source": "투데이코리아",
+"link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE8tdkxpY2wzQXFvNTUyWHRldFpXdWExYzhTUS1peFI3RktmMjJoME14b0N3X1o5N3FSZkdxV2RhZFVnSXhuMW9kaXBUVmxyMnlZdUJuSHNIcmZ3NTZJVDdpOUxNOXRTRloyQmVuTmVlQkE?oc=5",
+"time": "2026-11-27T00:03:50+00:00",
+"stage": "후속"
 }
 ],
 "level": "URGENT",
-"latest": "코스피, 17.59포인트(0.37%) 오른 4728.80 출발",
+"latest": "속보 코스피, 17.59포인트 오른 4728.80 출발",
 "tok": [
 "59포인트",
 "오른",
@@ -2079,7 +2087,7 @@
 "spike": false
 },
 "화재": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -2094,8 +2102,8 @@
 "spike": false
 },
 "폭발": {
-"n30": 8,
-"base": 0.6,
+"n30": 7,
+"base": 0.7,
 "spike": true
 },
 "붕괴": {
@@ -2119,12 +2127,12 @@
 "spike": true
 },
 "지하철": {
-"n30": 6,
+"n30": 5,
 "base": 1.3,
 "spike": true
 },
 "사고": {
-"n30": 4,
+"n30": 3,
 "base": 3.8,
 "spike": false
 },
@@ -2392,49 +2400,29 @@
 "time": "2026-11-26T23:56:34Z",
 "term": "화재",
 "url": "https://www.youtube.com/watch?v=k6ONwT6u4NI"
-},
-{
-"text": "지하철 파업날은 나라가 재택 권고해야하는거 아니냐고. \n지네들은 차 끌고 다니니까 모른다 이거지",
-"handle": "cookyrin.bsky.social",
-"name": "쿠키한입",
-"time": "2026-11-26T23:56:17.747Z",
-"likes": 1,
-"reposts": 0,
-"url": "https://bsky.app/profile/cookyrin.bsky.social/post/3n3ausb7ph22l",
-"term": "지하철"
-},
-{
-"text": "로라 메르시에 매트 래디언스 베이크드 파우더 하이라이트 01\n\n베스트셀러 겸 스테디셀러에는 이유가 있는 듯. 예쁘다. 진짜 예쁨. 너무 과하지 않게, 하지만 예쁨. \n그런데 이거 진짜 평생 써도 못 쓸 것 같다. 이거 1그램씩만 팔아줘도 좋을 텐데. \n이거 단종길 걷는다는 소리 있던데, 이 대표작이 왜 단종길이지? 싶었거든. 사람들이 하나 사면 평생 써서 재구매를 못해서 단종길 가는 거 아닌",
-"handle": "lisao.bsky.social",
-"name": "이소",
-"time": "2026-11-26T23:54:46.455Z",
-"likes": 2,
-"reposts": 0,
-"url": "https://bsky.app/profile/lisao.bsky.social/post/3n3aupjvq7s2e",
-"term": "사고"
 }
 ],
 "spikes": [
 {
 "term": "폭발",
-"n30": 8,
-"base": 0.6,
+"n30": 7,
+"base": 0.7,
 "spike": true,
-"since": "2026-11-27T00:24:26.912882+00:00"
+"since": "2026-11-27T00:26:40.679392+00:00"
 },
 {
 "term": "속보",
 "n30": 5,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-27T00:24:26.912882+00:00"
+"since": "2026-11-27T00:26:40.679392+00:00"
 },
 {
 "term": "지하철",
-"n30": 6,
+"n30": 5,
 "base": 1.3,
 "spike": true,
-"since": "2026-11-27T00:24:26.912882+00:00"
+"since": "2026-11-27T00:26:40.679392+00:00"
 }
 ],
 "baseline": {
@@ -2442,13 +2430,13 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.68,
+"폭발": 0.71,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 1.31,
-"사고": 3.79,
+"지하철": 1.18,
+"사고": 3.71,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -2760,9 +2748,9 @@
 "link": "https://www.khan.co.kr/article/202611261926001"
 },
 {
-"title": "박현주 이어 김용범…李정부, 자본시장 '빅샷'에 키 맡긴 까닭",
+"title": "'메리츠 뜯어고친' 김용범…韓 자본시장 바꿀까",
 "source": "연합인포맥스",
-"link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4446864"
+"link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4446863"
 }
 ],
 "new": true
