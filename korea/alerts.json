@@ -1,7 +1,40 @@
 {
-"updated": "2026-11-27T15:46:21.164432+00:00",
+"updated": "2026-11-27T15:48:36.339549+00:00",
 "errors": [],
 "events": [
+{
+"id": "wNISX20261127_00038869261545",
+"first": "2026-11-27T15:45:45+00:00",
+"last": "2026-11-27T15:45:45+00:00",
+"updated": "2026-11-27T15:48:36.339549+00:00",
+"headline": "추수감사절 美 덮친 폭풍·폭설…90만곳 정전·육해공 '교통대란'",
+"cat": "재난",
+"regions": [],
+"sources": [
+"뉴시스"
+],
+"updates": [
+{
+"title": "추수감사절 美 덮친 폭풍·폭설…90만곳 정전·육해공 '교통대란'",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261127_0003886926",
+"time": "2026-11-27T15:45:45+00:00",
+"stage": "1보"
+}
+],
+"level": "ALERT",
+"latest": "추수감사절 美 덮친 폭풍·폭설…90만곳 정전·육해공 '교통대란'",
+"tok": [
+"90만곳",
+"교통대란",
+"덮친",
+"육해공",
+"정전",
+"추수감사절",
+"폭설",
+"폭풍"
+]
+},
 {
 "id": "qZS11U2ZPTXFnWkZSNnhOoc50825",
 "first": "2026-11-27T08:25:00+00:00",
@@ -4026,60 +4059,6 @@
 "접객원",
 "징역"
 ]
-},
-{
-"id": "VloaXk0QU5JRGo1NXg1UQoc50745",
-"first": "2026-11-27T07:45:58+00:00",
-"last": "2026-11-27T09:47:00+00:00",
-"updated": "2026-11-27T09:54:01.048853+00:00",
-"headline": "대전 건물 옥상서 10대 여학생 추락⋯병원 이송",
-"cat": "사회",
-"regions": [
-"대전"
-],
-"sources": [
-"아이뉴스24",
-"연합뉴스TV"
-],
-"updates": [
-{
-"title": "[속보] 대전 건물 옥상서 10대 여학생 추락⋯병원 이송",
-"source": "아이뉴스24",
-"link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5tM014M0pTcmNhM0RLSGQ5eExlSXZuaTZsT0I5RHE5U1plVjNRSWowcVZ1a0ZmeVh4dVloaXk0QU5JRGo1NXg1UQ?oc=5",
-"time": "2026-11-27T07:45:58+00:00",
-"stage": "얼럿"
-},
-{
-"title": "[속보] 대전 건물 옥상서 10대 여학생 추락⋯병원 이송",
-"source": "아이뉴스24",
-"link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE41cTRnV1Q4VW5KMVBnQkVXZG9ialZCUWlFS3VYMnFjWlZueUxka00xNzFIa2c1Q3lSVUUxbmZ6UXZtNGY1aC1HMXp0TQ?oc=5",
-"time": "2026-11-27T07:45:58+00:00",
-"stage": "속보"
-},
-{
-"title": "대전 건물 옥상서 10대 여학생 투신 소동…에어매트로 떨어져",
-"source": "연합뉴스TV",
-"link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE44NjVIR1NGRElvN1NqbjZIVGo2UUhsSnEwWGhSaGFTVkZwaU8ydFV2OHV2TmVjNENVaGxmNS1LQ2tOTExhSkx4QnFVYnRRWEJWcmtTcDJEc0h0c0hPUG9yYkJ5dXFublU?oc=5",
-"time": "2026-11-27T09:47:00+00:00",
-"stage": "후속"
-}
-],
-"level": "BULLETIN",
-"latest": "대전 건물 옥상서 10대 여학생 투신 소동…에어매트로 떨어져",
-"tok": [
-"10대",
-"건물",
-"대전",
-"떨어져",
-"병원",
-"소동",
-"에어매트",
-"여학생",
-"옥상서",
-"이송",
-"추락",
-"투신"
-]
 }
 ],
 "sns": {
@@ -4105,7 +4084,7 @@
 "spike": false
 },
 "폭발": {
-"n30": 3,
+"n30": 2,
 "base": 0.1,
 "spike": false
 },
@@ -4126,22 +4105,22 @@
 },
 "속보": {
 "n30": 2,
-"base": 0.4,
+"base": 0.3,
 "spike": false
 },
 "지하철": {
 "n30": 5,
-"base": 0.8,
+"base": 0.7,
 "spike": true
 },
 "사고": {
 "n30": 1,
-"base": 1.5,
+"base": 1.4,
 "spike": false
 },
 "실종": {
 "n30": 0,
-"base": 0.9,
+"base": 0.8,
 "spike": false
 },
 "단수": {
@@ -4334,9 +4313,9 @@
 {
 "term": "지하철",
 "n30": 5,
-"base": 0.8,
+"base": 0.7,
 "spike": true,
-"since": "2026-11-27T15:46:21.164432+00:00"
+"since": "2026-11-27T15:48:36.339549+00:00"
 }
 ],
 "baseline": {
@@ -4348,10 +4327,10 @@
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.34,
-"지하철": 0.72,
-"사고": 1.43,
-"실종": 0.84,
+"속보": 0.31,
+"지하철": 0.65,
+"사고": 1.39,
+"실종": 0.76,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
