@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-27T06:02:29.103667+00:00",
+"updated": "2026-11-27T06:04:40.955160+00:00",
 "errors": [],
 "events": [
 {
@@ -4119,7 +4119,7 @@
 "spike": false
 },
 "폭발": {
-"n30": 4,
+"n30": 3,
 "base": 0.9,
 "spike": false
 },
@@ -4145,7 +4145,7 @@
 },
 "지하철": {
 "n30": 4,
-"base": 0.7,
+"base": 0.9,
 "spike": false
 },
 "사고": {
@@ -4321,16 +4321,6 @@
 "url": "https://www.youtube.com/watch?v=x2NZVGw4oNg"
 },
 {
-"text": "자의식 대폭발 강아지",
-"handle": "dongsa87.bsky.social",
-"name": "동사",
-"time": "2026-11-27T05:34:15.044Z",
-"likes": 1,
-"reposts": 0,
-"url": "https://bsky.app/profile/dongsa87.bsky.social/post/3n3bhokf37k2d",
-"term": "폭발"
-},
-{
 "platform": "YouTube",
 "text": "♨️ 운전 안 해도 됩니다! 지하철로 가는 부산 온천 TOP5 #shorts #시니어여행 #겨울온천 #부산온천 #부산여행",
 "handle": "UChSa6ZtBECQQ-FYnvqqs3Jg",
@@ -4409,15 +4399,15 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.92,
+"폭발": 0.83,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.86,
-"사고": 2.37,
+"지하철": 0.97,
+"사고": 2.33,
 "실종": 0.05,
-"단수": 0.51,
+"단수": 0.56,
 "통신 장애": 0.05,
 "먹통": 0.05,
 "산불": 0.05
@@ -4591,19 +4581,37 @@
 },
 "trends": [
 {
-"term": "이재명 정부",
+"term": "전두환",
 "traffic": "200+",
-"time": "2026-11-27T04:40:00+00:00",
+"time": "2026-11-27T05:00:00+00:00",
 "news": [
 {
-"title": "李대통령 “왜 ‘가난하다’는 서류 떼야 하나…복지 ‘자동주의’ 돼야”",
-"source": "경기일보",
-"link": "https://www.kyeonggi.com/article/20261126580566"
+"title": "전두환 단죄를 \"정치 재판\"‥김태규 영상 틀며 \"재심 추진\"",
+"source": "MBC 뉴스",
+"link": "https://imnews.imbc.com/replay/2026/nwdesk/article/6868892_37004.html"
 },
 {
-"title": "신청서 찾고 있었는데, 복지급여가 먼저 찾아왔다 - 영상 | 멀티미디어",
-"source": "대한민국 정책브리핑",
-"link": "https://www.korea.kr/multi/mediaNewsView.do?newsId=148976487"
+"title": "[쏙쏙뉴스] 12·12 주역들이 모인 전두환 추모행사… '재평가'와 '재심 청구'?",
+"source": "OhmyNews",
+"link": "https://www.ohmynews.com/NWS_Web/View/mov_pg.aspx?CNTN_CD=ME000116787"
+}
+],
+"new": true
+},
+{
+"term": "미세먼지",
+"traffic": "100+",
+"time": "2026-11-27T05:00:00+00:00",
+"news": [
+{
+"title": "제8차 미세먼지 계절관리제 석탄발전 최대 18기 가동 중단",
+"source": "K-공감",
+"link": "https://gonggam.korea.kr/newsContentView.es?content=NC002&news_id=95ba8803-3aa3-4f24-84ff-2f32300ef06e&section_id=NCCD_POLICY&mid=a10201000000&code_cd=0101000000"
+},
+{
+"title": "‘배출가스 5등급’ 차량 운행제한···대구, 12월부터 4개월간 단속",
+"source": "경향신문",
+"link": "https://www.khan.co.kr/article/202611271425001"
 }
 ],
 "new": true
@@ -4622,6 +4630,24 @@
 "title": "시내버스 2대 중 1대는 저상버스…국민 3명 중 1명은 교통약자",
 "source": "연합뉴스",
 "link": "https://www.yna.co.kr/view/AKR20261126168500003"
+}
+],
+"new": true
+},
+{
+"term": "이재명 정부",
+"traffic": "200+",
+"time": "2026-11-27T04:40:00+00:00",
+"news": [
+{
+"title": "李대통령 “왜 ‘가난하다’는 서류 떼야 하나…복지 ‘자동주의’ 돼야”",
+"source": "경기일보",
+"link": "https://www.kyeonggi.com/article/20261126580566"
+},
+{
+"title": "신청서 찾고 있었는데, 복지급여가 먼저 찾아왔다 - 영상 | 멀티미디어",
+"source": "대한민국 정책브리핑",
+"link": "https://www.korea.kr/multi/mediaNewsView.do?newsId=148976487"
 }
 ],
 "new": true
@@ -4655,9 +4681,9 @@
 "link": "https://www.mk.co.kr/news/hot-issues/12220064"
 },
 {
-"title": "‘새 생명’ 지키는 데 30억…손연재 부부, 고위험 산모·태아 지원 나선다",
-"source": "경기일보",
-"link": "https://www.kyeonggi.com/article/20261127580059"
+"title": "손연재♥이준효 부부, 고위험 산모·태아 위해 30억 '통큰 기부'[공식]",
+"source": "조선일보",
+"link": "https://www.chosun.com/entertainments/broadcast/2026/11/27/MEYTQOJXGRTGEYTEGAZGGNRQGQ/"
 }
 ],
 "new": true
@@ -4733,42 +4759,6 @@
 }
 ],
 "new": false
-},
-{
-"term": "현대모비스",
-"traffic": "200+",
-"time": "2026-11-27T04:10:00+00:00",
-"news": [
-{
-"title": "현대차그룹, 부품·건설 수장 교체…수익성·SDV 전환 속도 낼 듯",
-"source": "전기신문",
-"link": "https://www.electimes.com/news/articleView.html?idxno=375318"
-},
-{
-"title": "무뇨스·송호성 유임…모비스 사장에 백철승",
-"source": "한국경제",
-"link": "https://www.hankyung.com/article/2026112630911"
-}
-],
-"new": false
-},
-{
-"term": "내란죄",
-"traffic": "100+",
-"time": "2026-11-27T04:10:00+00:00",
-"news": [
-{
-"title": "전두환 단죄를 \"정치 재판\"‥김태규 영상 틀며 \"재심 추진\"",
-"source": "MBC 뉴스",
-"link": "https://imnews.imbc.com/replay/2026/nwdesk/article/6868892_37004.html"
-},
-{
-"title": "[쏙쏙뉴스] 12·12 주역들이 모인 전두환 추모행사… '재평가'와 '재심 청구'?",
-"source": "OhmyNews",
-"link": "https://www.ohmynews.com/NWS_Web/View/mov_pg.aspx?CNTN_CD=ME000116787"
-}
-],
-"new": true
 }
 ],
 "trendSeen": [
