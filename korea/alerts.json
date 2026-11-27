@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-27T05:33:47.958551+00:00",
+"updated": "2026-11-27T05:36:00.772635+00:00",
 "errors": [],
 "events": [
 {
@@ -4076,12 +4076,12 @@
 "spike": false
 },
 "폭발": {
-"n30": 2,
-"base": 0.8,
+"n30": 3,
+"base": 0.7,
 "spike": false
 },
 "붕괴": {
-"n30": 2,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
@@ -4096,18 +4096,18 @@
 "spike": false
 },
 "속보": {
-"n30": 9,
+"n30": 8,
 "base": 0.1,
 "spike": true
 },
 "지하철": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
 "사고": {
 "n30": 2,
-"base": 3.8,
+"base": 3.6,
 "spike": false
 },
 "실종": {
@@ -4137,6 +4137,16 @@
 }
 },
 "posts": [
+{
+"text": "자의식 대폭발 강아지",
+"handle": "dongsa87.bsky.social",
+"name": "동사",
+"time": "2026-11-27T05:34:15.044Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/dongsa87.bsky.social/post/3n3bhokf37k2d",
+"term": "폭발"
+},
 {
 "text": "\"주인이 사고 났다\"는 전화에 케손시티의 헬퍼가 금고를 열어 약 355만 페소어치 귀중품을 넘긴 사건이 있었어요 🚨\n헬퍼·드라이버에게 이런 전화가 오면 고용주 본인에게 먼저 확인하라고 꼭 알려 두세요.\nhttps://philcok.online/p/421\n💬 교민 오픈채팅방 https://open.kakao.com/o/gtd2YcYi",
 "handle": "philcok.bsky.social",
@@ -4377,10 +4387,10 @@
 "spikes": [
 {
 "term": "속보",
-"n30": 9,
+"n30": 8,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-27T05:33:47.958551+00:00"
+"since": "2026-11-27T05:36:00.772635+00:00"
 }
 ],
 "baseline": {
@@ -4388,13 +4398,13 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.69,
+"폭발": 0.72,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
 "지하철": 0.05,
-"사고": 3.59,
+"사고": 3.43,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -4629,14 +4639,14 @@
 "time": "2026-11-27T04:30:00+00:00",
 "news": [
 {
-"title": "우리은행, 법인카드 포인트도 기부…2년간 1억5000만원",
-"source": "브릿지경제",
-"link": "https://www.viva100.com/article/20261127500399"
+"title": "손연재 부부, 30억 통 큰 기부…“산모와 아이들에 작은 힘 되길”",
+"source": "매일경제",
+"link": "https://www.mk.co.kr/news/hot-issues/12220064"
 },
 {
-"title": "우리은행, 법인카드 포인트 모아 2년간 1억5000만원 기부",
-"source": "일간투데이",
-"link": "https://www.dtoday.co.kr/news/articleView.html?idxno=806845"
+"title": "손연재 부부, 연세의료원에 30억원 기부...고위험산모 위한 센터 설립",
+"source": "YTN",
+"link": "https://www.ytn.co.kr/_ln/0103_202611271247164055"
 }
 ],
 "new": true
@@ -4655,24 +4665,6 @@
 "title": "손원일급 잠수함 2척, 잇따른 사고로 파손·수리…\"전력 공백 없을 것\"",
 "source": "뉴시스",
 "link": "https://www.newsis.com/view/NISX20261127_0003885659"
-}
-],
-"new": true
-},
-{
-"term": "손연재",
-"traffic": "200+",
-"time": "2026-11-27T04:30:00+00:00",
-"news": [
-{
-"title": "손연재 부부, 30억 통 큰 기부…“산모와 아이들에 작은 힘 되길”",
-"source": "매일경제",
-"link": "https://www.mk.co.kr/news/hot-issues/12220064"
-},
-{
-"title": "손연재 부부, 연세의료원에 30억원 기부...고위험산모 위한 센터 설립",
-"source": "YTN",
-"link": "https://www.ytn.co.kr/_ln/0103_202611271247164055"
 }
 ],
 "new": true
@@ -4701,21 +4693,21 @@
 "time": "2026-11-27T04:20:00+00:00",
 "news": [
 {
-"title": "\"부업 수익 전부 투자\"…2000만원→4억 만든 직장인 - 머니투데이",
-"source": "머니투데이",
-"link": "https://www.mt.co.kr/stock/2026/11/27/2026112515034542166"
+"title": "경북도, 청년창업기업 25곳·투자기관 연결…성장 지원",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261127093500053"
 },
 {
-"title": "\"고점과 저점, 못 맞히는 게 당연하죠\" 시드 늘리기에 집중해 자산 18억원 달성한 40대 [싱글파이어]",
-"source": "머니투데이",
-"link": "https://www.mt.co.kr/video/channel/475893"
+"title": "경북테크노파크, 청년CEO 20여 곳 투자 활성화 모색",
+"source": "뉴데일리 대구경북",
+"link": "https://tk.newdaily.co.kr/site/data/html/2026/11/26/2026112650428.html"
 }
 ],
 "new": false
 },
 {
 "term": "항소",
-"traffic": "100+",
+"traffic": "200+",
 "time": "2026-11-27T04:20:00+00:00",
 "news": [
 {
@@ -4799,6 +4791,24 @@
 "title": "야구 배트 대신 골프채 잡더니…'강호동 아들' 또 일냈다",
 "source": "한국경제",
 "link": "https://www.hankyung.com/article/202611274345H"
+}
+],
+"new": true
+},
+{
+"term": "수학자",
+"traffic": "200+",
+"time": "2026-11-27T03:30:00+00:00",
+"news": [
+{
+"title": "수학 연구단체, '클로드 리만가설 증명' 검증 완료…\"코드 옳다\"",
+"source": "DongA Science",
+"link": "https://www.dongascience.com/ko/news/81042"
+},
+{
+"title": "AI에 무너지는 난제들…“수학 계속 해도 될까” 수학자들도 계산이 안 선다",
+"source": "한겨레",
+"link": "https://www.hani.co.kr/arti/science/science_general/1289376.html"
 }
 ],
 "new": true
