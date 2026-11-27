@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-27T13:29:13.621213+00:00",
+"updated": "2026-11-27T13:31:27.619174+00:00",
 "errors": [],
 "events": [
 {
@@ -4934,7 +4934,7 @@
 },
 "화재": {
 "n30": 1,
-"base": 0.1,
+"base": 0.2,
 "spike": false
 },
 "불났": {
@@ -4943,43 +4943,43 @@
 "spike": false
 },
 "정전": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
 "폭발": {
-"n30": 3,
+"n30": 0,
 "base": 0.4,
 "spike": false
 },
 "붕괴": {
-"n30": 3,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
 "대피": {
 "n30": 1,
-"base": 0.1,
+"base": 0.2,
 "spike": false
 },
 "미사일": {
-"n30": 2,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
 "속보": {
-"n30": 3,
+"n30": 2,
 "base": 0.1,
 "spike": false
 },
 "지하철": {
-"n30": 5,
+"n30": 2,
 "base": 2.6,
 "spike": false
 },
 "사고": {
-"n30": 5,
-"base": 3.5,
+"n30": 3,
+"base": 3.6,
 "spike": false
 },
 "실종": {
@@ -5024,7 +5024,7 @@
 "handle": "hyunn69.bsky.social",
 "name": "hyunn69.bsky.social",
 "time": "2026-11-27T13:24:40.748Z",
-"likes": 3,
+"likes": 5,
 "reposts": 0,
 "url": "https://bsky.app/profile/hyunn69.bsky.social/post/3n3cbxrmyrs2r",
 "term": "지하철"
@@ -5096,16 +5096,6 @@
 "time": "2026-11-27T13:02:06Z",
 "term": "속보",
 "url": "https://www.youtube.com/watch?v=QiIfNjcg8P4"
-},
-{
-"text": "아아아ㅏ 너무 좋아요ㅠㅠㅠ진짜 귀엽고... 대체 무슨 사고를 쳐서 반성문을 썼을까요. 솔직히 초반 하남자 시절에도 반듯한 대제자(꼰대지만)이었던 것 같은데...",
-"handle": "lelepta00.bsky.social",
-"name": "레레티아",
-"time": "2026-11-27T13:00:46.247Z",
-"likes": 1,
-"reposts": 0,
-"url": "https://bsky.app/profile/lelepta00.bsky.social/post/3n3camvr5uc2y",
-"term": "사고"
 },
 {
 "platform": "YouTube",
@@ -5272,22 +5262,22 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 0.23,
-"화재": 0.24,
+"지진": 0.21,
+"화재": 0.32,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.36,
+"폭발": 0.32,
 "붕괴": 0.05,
-"대피": 0.24,
+"대피": 0.32,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 2.58,
-"사고": 3.65,
+"지하철": 2.52,
+"사고": 3.58,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
-"산불": 0.51
+"산불": 0.56
 },
 "errors": [],
 "ytPosts": [
@@ -5553,14 +5543,14 @@
 "time": "2026-11-27T10:50:00+00:00",
 "news": [
 {
+"title": "특검, ‘SNS 내란선동 혐의’ 황교안 징역 10년 구형",
+"source": "KBS 뉴스",
+"link": "https://news.kbs.co.kr/news/view.do?ncd=8724597"
+},
+{
 "title": "‘이석기 판례’로 황교안 징역 10년 구형…황, 13년 전 체포요청 당사자",
 "source": "한겨레",
 "link": "https://www.hani.co.kr/arti/society/society_general/1289471.html"
-},
-{
-"title": "특검, '내란 선동 혐의' 황교안 징역 10년 구형",
-"source": "YTN",
-"link": "https://www.ytn.co.kr/_cs/_ln_0103_202611271702240619_005.html"
 }
 ],
 "new": false
