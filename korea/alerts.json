@@ -1,7 +1,41 @@
 {
-"updated": "2026-11-28T04:28:41.270971+00:00",
+"updated": "2026-11-28T04:30:54.596798+00:00",
 "errors": [],
 "events": [
+{
+"id": "DeEhwT0lLYl82X05YY1Rnoc50426",
+"first": "2026-11-28T04:26:00+00:00",
+"last": "2026-11-28T04:26:00+00:00",
+"updated": "2026-11-28T04:30:54.596798+00:00",
+"headline": "李대통령 GS AIDC 착공식서 \"AI 선도국 무한한 기회 누릴 것\"",
+"cat": "정치",
+"regions": [],
+"sources": [
+"이코노미스트"
+],
+"updates": [
+{
+"title": "[속보] 李대통령 GS AIDC 착공식서 \"AI 선도국 무한한 기회 누릴 것\"",
+"source": "이코노미스트",
+"link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE84bzlfUks1dEI0TXJFZmlLN2J4a2ExeDBpNm5VT0lYMDFPM1BsM0RhbUI0M1JtSmd4WnZpVXZiSmQ2eGRWQzBnOGhxNHUtR3BmTkpDeEhwT0lLYl82X05YY1Rn?oc=5",
+"time": "2026-11-28T04:26:00+00:00",
+"stage": "얼럿"
+}
+],
+"level": "URGENT",
+"latest": "李대통령 GS AIDC 착공식서 \"AI 선도국 무한한 기회 누릴 것\"",
+"tok": [
+"AI",
+"AIDC",
+"GS",
+"李대통령",
+"기회",
+"누릴",
+"무한한",
+"선도국",
+"착공식서"
+]
+},
 {
 "id": "2hYRzV6THQwVDdEM25qZwoc52315",
 "first": "2026-11-27T23:15:45+00:00",
@@ -2516,46 +2550,12 @@
 "침수위험",
 "해안도시"
 ]
-},
-{
-"id": "4TKZBXHEZWEYTEGM3DCMRZGA2229",
-"first": "2026-11-27T22:29:00+00:00",
-"last": "2026-11-27T22:29:00+00:00",
-"updated": "2026-11-27T22:36:00.608354+00:00",
-"headline": "‘슛돌이’ 지승준 말고 배우 지승준..“전역하면 ‘다 씹어 먹겠다’ 생각“ [인터뷰③]",
-"cat": "기타",
-"regions": [],
-"sources": [
-"조선일보"
-],
-"updates": [
-{
-"title": "[단독] ‘슛돌이’ 지승준 말고 배우 지승준..“전역하면 ‘다 씹어 먹겠다’ 생각“ [인터뷰③]",
-"source": "조선일보",
-"link": "https://www.chosun.com/entertainments/broadcast/2026/11/28/G44TKZBXHEZWEYTEGM3DCMRZGA/",
-"time": "2026-11-27T22:29:00+00:00",
-"stage": "단독"
-}
-],
-"level": "URGENT",
-"latest": "‘슛돌이’ 지승준 말고 배우 지승준..“전역하면 ‘다 씹어 먹겠다’ 생각“ [인터뷰③]",
-"tok": [
-"말고",
-"먹겠다",
-"배우",
-"생각",
-"슛돌",
-"씹어",
-"인터뷰③",
-"전역하면",
-"지승준"
-]
 }
 ],
 "sns": {
 "terms": {
 "지진": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -2571,13 +2571,13 @@
 },
 "정전": {
 "n30": 1,
-"base": 0.6,
+"base": 0.7,
 "spike": false
 },
 "폭발": {
-"n30": 5,
-"base": 0.2,
-"spike": true
+"n30": 3,
+"base": 0.1,
+"spike": false
 },
 "붕괴": {
 "n30": 2,
@@ -2590,19 +2590,19 @@
 "spike": false
 },
 "미사일": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
 "속보": {
-"n30": 6,
+"n30": 4,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "지하철": {
-"n30": 5,
+"n30": 3,
 "base": 0.5,
-"spike": true
+"spike": false
 },
 "사고": {
 "n30": 1,
@@ -2837,41 +2837,19 @@
 "url": "https://www.youtube.com/watch?v=XvzPmHhF0mE"
 }
 ],
-"spikes": [
-{
-"term": "폭발",
-"n30": 5,
-"base": 0.2,
-"spike": true,
-"since": "2026-11-28T04:28:41.270971+00:00"
-},
-{
-"term": "속보",
-"n30": 6,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-28T04:28:41.270971+00:00"
-},
-{
-"term": "지하철",
-"n30": 5,
-"base": 0.5,
-"spike": true,
-"since": "2026-11-28T04:28:41.270971+00:00"
-}
-],
+"spikes": [],
 "baseline": {
 "지진": 0.05,
 "화재": 0.05,
 "불났": 0.05,
-"정전": 0.68,
-"폭발": 0.14,
+"정전": 0.71,
+"폭발": 0.13,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.45,
-"사고": 1.12,
+"지하철": 0.41,
+"사고": 1.11,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
