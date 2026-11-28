@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-28T02:57:56.081393+00:00",
+"updated": "2026-11-28T03:00:13.182226+00:00",
 "errors": [],
 "events": [
 {
@@ -86,7 +86,7 @@
 "id": "F9YcE1tbDNOSDNlSkFJZwoc50250",
 "first": "2026-11-28T02:50:09+00:00",
 "last": "2026-11-28T02:50:09+00:00",
-"updated": "2026-11-28T02:53:29.313310+00:00",
+"updated": "2026-11-28T03:00:13.182226+00:00",
 "headline": "李대통령 \"오늘 아시아 최대 규모 AI 인프라 첫 삽\"",
 "cat": "정치",
 "regions": [],
@@ -100,6 +100,13 @@
 "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBTakRDUTFhTy1iUHBlMDlwRGJiRnllbFdUcDk0SEV1WGpSU0t5OEs3enRBMkhKSlk0TFNBcE42WFZ1blhMT1huM2Raby02aWNSSERITWk0MUNUaS03VGtLSGRETnY0Z0NOTmZlUNIBckFVX3lxTFB3MllRczhNb3hNVmNsdEdpQkJmc2J3QXNGbm5HMVY3a2hPV3ZCbXpjak5aWVRfdnBzN2UtWXU3TWpQX1YwaG1ITG5tMC1yd2QxQVdtYVNURlZORW53OGtXWHFGeF9YcE1tbDNOSDNlSkFJZw?oc=5",
 "time": "2026-11-28T02:50:09+00:00",
 "stage": "얼럿"
+},
+{
+"title": "[속보]李대통령 \"오늘 아시아 최대 규모 AI 인프라 첫 삽\" - 머니투데이",
+"source": "머니투데이",
+"link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5UbGdDb2ZGcFlqSXFWUHpJbGdqMGRBUDJUUmZtQWpMYkxnYlhfbEl0WG5hSC1MS3RUdThoa3lVSUw4R28xVnFsc2lSQURVSV9qSGJXc2luU2w2VlFoU2UtZjNlWHFKQTJlOE95VkNrb082Q010c3pYMkRn0gF_QVVfeXFMT3Z5bUpmT0h0clgwdjVJZll0RnZsTnlUNlZqVXNXZDZhRy1sd194T2tHM08zNHUtRENZTWE0R2dFVV9NV3R3VGZKTGlaZXRCdGRzcF9NOTFleGRnZmExLW9sNklBME5jRWVzUnZiQkJYTFF0TDlRWTdLb2RoaWRzQQ?oc=5",
+"time": "2026-11-28T02:50:09+00:00",
+"stage": "속보"
 }
 ],
 "level": "URGENT",
@@ -2152,7 +2159,7 @@
 "spike": false
 },
 "폭발": {
-"n30": 8,
+"n30": 5,
 "base": 0.9,
 "spike": true
 },
@@ -2168,22 +2175,22 @@
 },
 "미사일": {
 "n30": 3,
-"base": 0.3,
+"base": 0.4,
 "spike": false
 },
 "속보": {
-"n30": 5,
+"n30": 4,
 "base": 0.2,
-"spike": true
+"spike": false
 },
 "지하철": {
-"n30": 3,
-"base": 1.9,
+"n30": 2,
+"base": 1.8,
 "spike": false
 },
 "사고": {
 "n30": 4,
-"base": 2.8,
+"base": 2.9,
 "spike": false
 },
 "실종": {
@@ -2467,17 +2474,10 @@
 "spikes": [
 {
 "term": "폭발",
-"n30": 8,
+"n30": 5,
 "base": 0.9,
 "spike": true,
-"since": "2026-11-28T02:57:56.081393+00:00"
-},
-{
-"term": "속보",
-"n30": 5,
-"base": 0.2,
-"spike": true,
-"since": "2026-11-28T02:57:56.081393+00:00"
+"since": "2026-11-28T03:00:13.182226+00:00"
 }
 ],
 "baseline": {
@@ -2485,17 +2485,17 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.87,
+"폭발": 0.88,
 "붕괴": 0.05,
 "대피": 0.05,
-"미사일": 0.39,
-"속보": 0.2,
-"지하철": 1.82,
-"사고": 2.9,
+"미사일": 0.45,
+"속보": 0.18,
+"지하철": 1.74,
+"사고": 3.01,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
-"먹통": 0.16,
+"먹통": 0.14,
 "산불": 0.05
 },
 "errors": [],
