@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-28T00:11:39.212404+00:00",
+"updated": "2026-11-28T00:13:58.014437+00:00",
 "errors": [],
 "events": [
 {
@@ -1516,7 +1516,7 @@
 },
 "붕괴": {
 "n30": 2,
-"base": 0.1,
+"base": 0.3,
 "spike": false
 },
 "대피": {
@@ -1536,17 +1536,17 @@
 },
 "지하철": {
 "n30": 1,
-"base": 0.3,
+"base": 0.4,
 "spike": false
 },
 "사고": {
 "n30": 3,
-"base": 0.9,
+"base": 1.1,
 "spike": false
 },
 "실종": {
 "n30": 0,
-"base": 0.6,
+"base": 0.5,
 "spike": false
 },
 "단수": {
@@ -1586,7 +1586,7 @@
 "handle": "jsbz.bsky.social",
 "name": "정신병자",
 "time": "2026-11-28T00:09:52.040Z",
-"likes": 0,
+"likes": 1,
 "reposts": 0,
 "url": "https://bsky.app/profile/jsbz.bsky.social/post/3n3dfzejra222",
 "term": "지하철"
@@ -1607,7 +1607,7 @@
 "name": "[랜선효도] 제주감귤🍊",
 "time": "2026-11-28T00:08:14.740Z",
 "likes": 0,
-"reposts": 0,
+"reposts": 1,
 "url": "https://bsky.app/profile/jejuorange.bsky.social/post/3n3dfwg3wyc2e",
 "term": "붕괴"
 },
@@ -1773,14 +1773,14 @@
 "n30": 6,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-28T00:11:39.212404+00:00"
+"since": "2026-11-28T00:13:58.014437+00:00"
 },
 {
 "term": "속보",
 "n30": 5,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-28T00:11:39.212404+00:00"
+"since": "2026-11-28T00:13:58.014437+00:00"
 }
 ],
 "baseline": {
@@ -1789,13 +1789,13 @@
 "불났": 0.05,
 "정전": 0.05,
 "폭발": 0.05,
-"붕괴": 0.34,
+"붕괴": 0.51,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.4,
-"사고": 1.13,
-"실종": 0.52,
+"지하철": 0.46,
+"사고": 1.32,
+"실종": 0.47,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -1943,6 +1943,42 @@
 },
 "trends": [
 {
+"term": "띠별 운세",
+"traffic": "2000+",
+"time": "2026-11-27T23:10:00+00:00",
+"news": [
+{
+"title": "[오늘의 운세] 2026년 11월 28일 띠별 운세",
+"source": "YTN",
+"link": "https://www.ytn.co.kr/_ln/0121_202611280000000001"
+},
+{
+"title": "[오늘의 운세] 11월 28일 토요일 (음력 10월 20일) 띠별 운세",
+"source": "경기일보",
+"link": "https://www.kyeonggi.com/article/20261116580440"
+}
+],
+"new": true
+},
+{
+"term": "공무원 노동조합",
+"traffic": "100+",
+"time": "2026-11-27T23:10:00+00:00",
+"news": [
+{
+"title": "김천시공무원노동조합, 폭언·협박 사건 고발 엄정 수사 촉구",
+"source": "김천내일신문",
+"link": "http://www.gcnaeil.com/default/index_view_page.php?part_idx=266&idx=86505"
+},
+{
+"title": "김천시, 악성 민원인 경찰 고발",
+"source": "김천인터넷뉴스",
+"link": "http://gcinews.com/front/news/view.do?articleId=ARTICLE_00065070&pageIndex=1"
+}
+],
+"new": true
+},
+{
 "term": "삼성 라이온즈",
 "traffic": "500+",
 "time": "2026-11-27T23:00:00+00:00",
@@ -2043,9 +2079,9 @@
 "link": "https://www.bbc.com/sport/football/live/cme3d91zygp8t"
 },
 {
-"title": "Premier League predictions & Jones Knows' best bets: Arsenal vs Manchester City and more!",
-"source": "Sky Sports",
-"link": "https://www.skysports.com/football/news/13616076/premier-league-predictions-and-jones-knows-best-bets-nottingham-forest-vs-chelsea-arsenal-vs-manchester-city-and-more"
+"title": "Analysis: Glasner rewarded for attacking team selection",
+"source": "AOL.com",
+"link": "https://www.aol.com/articles/analysis-glasner-rewarded-attacking-team-223745000.html"
 }
 ],
 "new": true
@@ -2085,42 +2121,6 @@
 }
 ],
 "new": true
-},
-{
-"term": "농심 신라면배 세계바둑 최강전",
-"traffic": "200+",
-"time": "2026-11-27T22:40:00+00:00",
-"news": [
-{
-"title": "변상일의 질주, 삼성화재배 우승에 이어 농심신라면배 2연승",
-"source": "사이버오로",
-"link": "https://www.cyberoro.com/news/N_news_view.oro?num=532984"
-},
-{
-"title": "변상일, 일본 이야마에 불계승…농심신라면배 2연승 질주(종합)",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261127089651007"
-}
-],
-"new": true
-},
-{
-"term": "휴온스 pba 챔피언십",
-"traffic": "100+",
-"time": "2026-11-27T22:40:00+00:00",
-"news": [
-{
-"title": "'Avg. 2.813' 신정주, 사이그너에 1점 차 초접전 승리…'해커 천적' 이충복은 또 해커에 3-0 완승",
-"source": "빌리어즈",
-"link": "https://www.thebilliards.kr/news/articleView.html?idxno=32592"
-},
-{
-"title": "마민캄은 전 세계 랭킹 1위 선수를 꺾고 역전승을 거두며 PBA 투어 16강에 진출했다.",
-"source": "Vietnam.vn",
-"link": "https://www.vietnam.vn/ko/ma-minh-cam-nguoc-dong-danh-bai-cuu-so-1-the-gioi-vao-vong-16-pba-tour"
-}
-],
-"new": false
 }
 ],
 "trendSeen": [
