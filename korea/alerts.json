@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-28T10:21:02.377026+00:00",
+"updated": "2026-11-28T10:23:13.791462+00:00",
 "errors": [],
 "events": [
 {
@@ -244,6 +244,40 @@
 "호남고속도",
 "화물차",
 "화재"
+]
+},
+{
+"id": "SWXBPRVJvNVI0eUZvanhnoc51015",
+"first": "2026-11-28T10:15:17+00:00",
+"last": "2026-11-28T10:15:17+00:00",
+"updated": "2026-11-28T10:23:13.791462+00:00",
+"headline": "`노무현 사위` 곽상언 `사유도 모르겠는 조희대 탄핵, 추진하면 안돼`",
+"cat": "정치",
+"regions": [],
+"sources": [
+"매일신문"
+],
+"updates": [
+{
+"title": "[속보] `노무현 사위` 곽상언 `사유도 모르겠는 조희대 탄핵, 추진하면 안돼`",
+"source": "매일신문",
+"link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1Vb3EteV9KcXVfVHp4SHBuemFzM1J0cVI4MzJDVU5ZTEdCSVFQd3VZaGZ3NkNYYUxhblEwbi14Qzh0STNGbWg5OGhlWmxWT1EyXzJSWXBPRVJvNVI0eUZvanhn?oc=5",
+"time": "2026-11-28T10:15:17+00:00",
+"stage": "얼럿"
+}
+],
+"level": "BULLETIN",
+"latest": "`노무현 사위` 곽상언 `사유도 모르겠는 조희대 탄핵, 추진하면 안돼`",
+"tok": [
+"곽상언",
+"노무현",
+"모르겠",
+"사위",
+"사유",
+"안돼",
+"조희대",
+"추진하면",
+"탄핵"
 ]
 },
 {
@@ -3419,38 +3453,6 @@
 "동해남부먼바다",
 "풍랑주의보"
 ]
-},
-{
-"id": "wNISX20261128_00038871580556",
-"first": "2026-11-28T05:56:39+00:00",
-"last": "2026-11-28T05:56:39+00:00",
-"updated": "2026-11-28T05:58:56.476942+00:00",
-"headline": "동해해경, 풍랑주의보 속에 30대 외국인 선원 이송",
-"cat": "재난",
-"regions": [],
-"sources": [
-"뉴시스"
-],
-"updates": [
-{
-"title": "동해해경, 풍랑주의보 속에 30대 외국인 선원 이송",
-"source": "뉴시스",
-"link": "https://www.newsis.com/view/NISX20261128_0003887158",
-"time": "2026-11-28T05:56:39+00:00",
-"stage": "1보"
-}
-],
-"level": "ALERT",
-"latest": "동해해경, 풍랑주의보 속에 30대 외국인 선원 이송",
-"tok": [
-"30대",
-"동해해경",
-"선원",
-"속에",
-"외국인",
-"이송",
-"풍랑주의보"
-]
 }
 ],
 "sns": {
@@ -3506,13 +3508,13 @@
 "spike": true
 },
 "사고": {
-"n30": 1,
-"base": 1.5,
+"n30": 0,
+"base": 1.4,
 "spike": false
 },
 "실종": {
 "n30": 1,
-"base": 0.3,
+"base": 0.4,
 "spike": false
 },
 "단수": {
@@ -3694,16 +3696,6 @@
 "url": "https://www.youtube.com/watch?v=Uy8X2iqpM68"
 },
 {
-"text": "근데 확실히 윗세대가 사고방식이 다르긴 한 듯... 할아버지가 전쟁 때 피난 가고 다시 돌아오니까 개가 도망 안 가고 있길래 잡아먹었다캄.... ㄷㄷㄷㄷ",
-"handle": "fishreleaser.bsky.social",
-"name": "방생2호",
-"time": "2026-11-28T09:51:03.140Z",
-"likes": 1,
-"reposts": 0,
-"url": "https://bsky.app/profile/fishreleaser.bsky.social/post/3n3egippbsk2r",
-"term": "사고"
-},
-{
 "platform": "YouTube",
 "text": "[에코프로 주가전망] *주말 속보* 미국 국채금리 4.94% 충격.. 12월 FOMC 앞두고 2차전지 이 신호 심상치 않습니다.",
 "handle": "UCDD7F65-TmhV8BIPe0_yDWg",
@@ -3746,14 +3738,14 @@
 "n30": 5,
 "base": 0.7,
 "spike": true,
-"since": "2026-11-28T10:21:02.377026+00:00"
+"since": "2026-11-28T10:23:13.791462+00:00"
 },
 {
 "term": "지하철",
 "n30": 5,
 "base": 0.9,
 "spike": true,
-"since": "2026-11-28T10:21:02.377026+00:00"
+"since": "2026-11-28T10:23:13.791462+00:00"
 }
 ],
 "baseline": {
@@ -3761,14 +3753,14 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.74,
+"폭발": 0.77,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.9,
-"사고": 1.45,
-"실종": 0.39,
+"지하철": 0.91,
+"사고": 1.3,
+"실종": 0.45,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -3943,6 +3935,24 @@
 },
 "trends": [
 {
+"term": "욕망의 덫",
+"traffic": "200+",
+"time": "2026-11-28T09:20:00+00:00",
+"news": [
+{
+"title": "'욕망의 덫' 전혜원, 희귀 혈액형 Rh-A형으로 출생의 비밀 알았다",
+"source": "국제뉴스",
+"link": "https://www.gukjenews.com/news/articleView.html?idxno=3764239"
+},
+{
+"title": "‘욕망의 덫’ 전혜원, 고은설 둘러싼 견제 속 관계 변화",
+"source": "제주교통복지신문",
+"link": "https://www.jejutwn.com/news/article.html?no=464939"
+}
+],
+"new": true
+},
+{
 "term": "서울역",
 "traffic": "1000+",
 "time": "2026-11-28T09:10:00+00:00",
@@ -4095,24 +4105,6 @@
 "title": "'수술 딛고 시즌 첫 골' 강주혁 향한 주승진 감독의 축하...\"시련 겪고 성숙해졌다, 앞으로 더 잘할 것\"[현장 인터뷰]",
 "source": "조선일보",
 "link": "https://www.chosun.com/sports/football/2026/11/28/GIYDKYLGMQ2TSNTFMQZWINRWHA/"
-}
-],
-"new": true
-},
-{
-"term": "최형우",
-"traffic": "500+",
-"time": "2026-11-28T06:40:00+00:00",
-"news": [
-{
-"title": "\"인천 간 적 없고요\" \"기억 안 납니다\"…'FA 최대어' 구자욱의 철벽 인터뷰",
-"source": "SBS 뉴스",
-"link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008866557"
-},
-{
-"title": "최형우는 KIA에서 뛰고 삼성 소속으로 GG 받았다…FA 구자욱은? - 머니투데이",
-"source": "머니투데이",
-"link": "https://www.mt.co.kr/sports/2026/11/28/202611272348779689O"
 }
 ],
 "new": true
