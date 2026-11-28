@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-28T01:52:48.104377+00:00",
+"updated": "2026-11-28T01:55:05.047761+00:00",
 "errors": [],
 "events": [
 {
@@ -1753,7 +1753,7 @@
 "spike": false
 },
 "폭발": {
-"n30": 2,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
@@ -1778,13 +1778,13 @@
 "spike": true
 },
 "지하철": {
-"n30": 4,
-"base": 0.8,
-"spike": false
+"n30": 5,
+"base": 1.1,
+"spike": true
 },
 "사고": {
 "n30": 1,
-"base": 2.1,
+"base": 2.0,
 "spike": false
 },
 "실종": {
@@ -1814,6 +1814,16 @@
 }
 },
 "posts": [
+{
+"text": "지하철에 사람이 점점 많아지고있어\n쪄죽는다",
+"handle": "pomme-alien.bsky.social",
+"name": "뽐",
+"time": "2026-11-28T01:53:43.750Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/pomme-alien.bsky.social/post/3n3dlt6enbc24",
+"term": "지하철"
+},
 {
 "text": "20세기에서 21세기를 걸쳐 대학교/대학원 10년 이상 다니면서 늘상 지하철 갈아타며 다녔는데, 그때는 지하철에서 냄새난다고 생각해 본 적이 없거든요. \n요새는 유독 그런 것 같아서 왜 그럴까 궁금해졌어요. 단순히 사람들이 안씻는다 이상의 다른 이유가 있는게 아닐까 했습니다. 말씀하신 내용도 한 요인이 되겠네요.",
 "handle": "solwind.bsky.social",
@@ -2041,7 +2051,14 @@
 "n30": 7,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-28T01:52:48.104377+00:00"
+"since": "2026-11-28T01:55:05.047761+00:00"
+},
+{
+"term": "지하철",
+"n30": 5,
+"base": 1.1,
+"spike": true,
+"since": "2026-11-28T01:55:05.047761+00:00"
 }
 ],
 "baseline": {
@@ -2054,8 +2071,8 @@
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 1.06,
-"사고": 2.01,
+"지하철": 1.35,
+"사고": 1.91,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -2250,7 +2267,7 @@
 "trends": [
 {
 "term": "대한민국 u-17 축구 국가대표팀",
-"traffic": "100+",
+"traffic": "200+",
 "time": "2026-11-28T00:40:00+00:00",
 "news": [
 {
@@ -2267,19 +2284,37 @@
 "new": true
 },
 {
+"term": "nh농협은행",
+"traffic": "200+",
+"time": "2026-11-28T00:40:00+00:00",
+"news": [
+{
+"title": "농협은행, 개인사업자 대상 연말 이벤트…최대 50만원 지급",
+"source": "마켓인",
+"link": "https://marketin.edaily.co.kr/News/ReadE?newsId=01895846645649984"
+},
+{
+"title": "NH농협은행, 개인사업자에 연말 지원금…최대 50만원",
+"source": "아주경제",
+"link": "https://www.ajunews.com/view/20261127105211015"
+}
+],
+"new": true
+},
+{
 "term": "경상수지",
 "traffic": "100+",
 "time": "2026-11-28T00:30:00+00:00",
 "news": [
 {
-"title": "반도체 경기가 꺾이면, 나랏돈은 어떻게 될까? - 영상 | 멀티미디어",
+"title": "(보도설명) 미래대응기금은 반도체 호황 등에 따른 대규모 세수를 미래세대를 위한 투자에 활용하기 위한 것입니다.",
 "source": "대한민국 정책브리핑",
-"link": "https://www.korea.kr/multi/mediaNewsView.do?newsId=148976653&pWise=sub&pWiseSub=R6"
+"link": "https://www.korea.kr/briefing/actuallyView.do?newsId=148976652&pWise=main&pWiseMain=B2"
 },
 {
-"title": "여야, ‘미래대응기금’ 놓고 공방…“불확실성 대비”·“미래세대에 부담 전가”",
-"source": "KBS 뉴스",
-"link": "https://news.kbs.co.kr/news/view.do?ncd=8725106"
+"title": "예산안 시한 D-4, 미래대응기금 의결 모두 보류‥주말까지 공방",
+"source": "MBC 뉴스",
+"link": "https://imnews.imbc.com/news/2026/politics/article/6869263_36911.html"
 }
 ],
 "new": true
@@ -2322,7 +2357,7 @@
 },
 {
 "term": "이해욱",
-"traffic": "500+",
+"traffic": "1000+",
 "time": "2026-11-28T00:00:00+00:00",
 "news": [
 {
@@ -2406,24 +2441,6 @@
 "title": "\"소방관 퇴사 후 두 번째 공무원\"…원주시 새내기, 수험생활 '꿀팁' 폭발",
 "source": "뉴스1",
 "link": "https://www.news1.kr/society/general-society/6368050"
-}
-],
-"new": true
-},
-{
-"term": "띠별 운세",
-"traffic": "2000+",
-"time": "2026-11-27T23:10:00+00:00",
-"news": [
-{
-"title": "[오늘의 운세] 2026년 11월 28일 띠별 운세",
-"source": "YTN",
-"link": "https://www.ytn.co.kr/_ln/0121_202611280000000001"
-},
-{
-"title": "[오늘의 운세] 11월 28일 토요일 (음력 10월 20일) 띠별 운세",
-"source": "경기일보",
-"link": "https://www.kyeonggi.com/article/20261116580440"
 }
 ],
 "new": true
