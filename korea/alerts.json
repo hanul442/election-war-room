@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-28T15:43:39.135243+00:00",
+"updated": "2026-11-28T15:45:50.074918+00:00",
 "errors": [],
 "events": [
 {
@@ -1922,8 +1922,8 @@
 "sns": {
 "terms": {
 "지진": {
-"n30": 3,
-"base": 0.7,
+"n30": 2,
+"base": 0.8,
 "spike": false
 },
 "화재": {
@@ -1943,17 +1943,17 @@
 },
 "폭발": {
 "n30": 8,
-"base": 0.4,
+"base": 0.5,
 "spike": true
 },
 "붕괴": {
-"n30": 2,
-"base": 0.5,
+"n30": 1,
+"base": 0.6,
 "spike": false
 },
 "대피": {
 "n30": 0,
-"base": 0.4,
+"base": 0.3,
 "spike": false
 },
 "미사일": {
@@ -1962,18 +1962,18 @@
 "spike": false
 },
 "속보": {
-"n30": 4,
+"n30": 3,
 "base": 0.1,
 "spike": false
 },
 "지하철": {
-"n30": 5,
+"n30": 4,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "사고": {
 "n30": 0,
-"base": 1.2,
+"base": 1.0,
 "spike": false
 },
 "실종": {
@@ -2227,30 +2227,23 @@
 {
 "term": "폭발",
 "n30": 8,
-"base": 0.4,
+"base": 0.5,
 "spike": true,
-"since": "2026-11-28T15:43:39.135243+00:00"
-},
-{
-"term": "지하철",
-"n30": 5,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-28T15:43:39.135243+00:00"
+"since": "2026-11-28T15:45:50.074918+00:00"
 }
 ],
 "baseline": {
-"지진": 0.77,
+"지진": 0.79,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.47,
-"붕괴": 0.56,
-"대피": 0.34,
+"폭발": 0.52,
+"붕괴": 0.6,
+"대피": 0.31,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.09,
-"사고": 1.04,
+"지하철": 0.08,
+"사고": 0.94,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -2530,14 +2523,14 @@
 "time": "2026-11-28T14:20:00+00:00",
 "news": [
 {
-"title": "LIVESTREAMS·FREE!TVs] Wrexham vs Portsmouth Live Free Soccer football updates In 28 November 2026",
-"source": "tallahatchienews.ms",
-"link": "https://www.tallahatchienews.ms/node/480598"
+"title": "West Ham: Why Scott Parker is struggling to halt the slide after inheriting a host of problems",
+"source": "Sky Sports",
+"link": "https://www.skysports.com/football/news/13616425/why-scott-parker-has-been-unable-to-halt-west-ham-s-slide-in-the-early-weeks-of-his-tenure-after-inheriting-significant-problems"
 },
 {
-"title": "West Ham United v Stoke City: Championship stats & head-to-head",
+"title": "West Ham fan's view: Hammers must undo mistakes to be successful",
 "source": "BBC",
-"link": "https://www.bbc.com/sport/football/live/cj20qn30ke1nt"
+"link": "https://www.bbc.com/sport/football/articles/c6zxvy970eq5o"
 }
 ],
 "new": true
@@ -2560,7 +2553,7 @@
 "link": "https://biz.chosun.com/en/en-sports/2026/11/28/5WCMDMNS5JAVHBCUH5XCCKTU7A/"
 },
 {
-"title": "Premier League: Fernandes starts as Man Utd host Brentford, Leeds face Coventry",
+"title": "Premier League: Wilson double for Brentford at Man Utd, Leeds lead Coventry",
 "source": "BBC",
 "link": "https://www.bbc.com/sport/football/live/cmz9823qpznet"
 }
@@ -2573,14 +2566,14 @@
 "time": "2026-11-28T14:00:00+00:00",
 "news": [
 {
-"title": "[오피셜]맨체스터 유나이티드 충격 공식발표, '손흥민 스승' 포체티노 또 승리 도전 '적신호'..선수단 대형 악재, '캡틴' 브루노 이탈 \"훈련 불참\"",
-"source": "스포츠조선",
-"link": "https://www.sportschosun.com/football/2026-11-28/202611280100173690016138"
-},
-{
 "title": "‘대위기’ 설마 천하의 맨유가 꼴찌 추락?→‘29일 운명의 브렌트퍼드전’",
 "source": "스포츠동아",
 "link": "https://sports.donga.com/sports/article/all/20261127/135100828/1"
+},
+{
+"title": "[공식발표] 포체티노, 하늘이 밉다...'19위 추락' 맨유 홈 데뷔전 앞두고 4명 이탈→브루노도 훈련 불참 \"브렌트포드전 불투명\" - 머니투데이",
+"source": "머니투데이",
+"link": "https://www.mt.co.kr/sports/2026/11/28/202611281007778010O"
 }
 ],
 "new": true
