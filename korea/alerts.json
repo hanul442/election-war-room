@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-28T06:35:03.113096+00:00",
+"updated": "2026-11-28T06:37:16.695951+00:00",
 "errors": [],
 "events": [
 {
@@ -42,7 +42,7 @@
 "id": "HVTbGtBdmdJZUFCU3AtQQoc50625",
 "first": "2026-11-28T06:25:34+00:00",
 "last": "2026-11-28T06:25:34+00:00",
-"updated": "2026-11-28T06:35:03.113096+00:00",
+"updated": "2026-11-28T06:37:16.695951+00:00",
 "headline": "이 대통령, 강릉 주문진건어물시장서 상인 만나…연말 물가 점검",
 "cat": "정치",
 "regions": [
@@ -74,6 +74,13 @@
 "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9OVkhvWHJoRmZVOUZUcVQ2M2hhUEhoejRKMFRsRHBvNzI1cVJVT0hENGk4NTlVd0tpM3lWR2pYbWM4ZDJNeUJRblNoeEFKZ0lMSHM1QkxrMHVTbGtBdmdJZUFCU3AtQQ?oc=5",
 "time": "2026-11-28T06:25:34+00:00",
 "stage": "얼럿"
+},
+{
+"title": "[속보] 이 대통령, 강릉 주문진건어물시장서 상인 만나…연말 물가 점검",
+"source": "강원도민일보",
+"link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB2cmszeHRDZ2h6eXNldHViYjREWExrQWRUaV9MMTlQNHVWVktsZkRDQmxIVVBNeEloTFdjdzJaWXdON19jY1dVbWpNaGh5cEU1RUxMeWdEYWlDSktLcHZzNl8wcHE0aFk?oc=5",
+"time": "2026-11-28T06:25:34+00:00",
+"stage": "속보"
 }
 ],
 "level": "URGENT",
@@ -3031,7 +3038,7 @@
 "terms": {
 "지진": {
 "n30": 1,
-"base": 0.7,
+"base": 0.6,
 "spike": false
 },
 "화재": {
@@ -3050,8 +3057,8 @@
 "spike": false
 },
 "폭발": {
-"n30": 3,
-"base": 1.7,
+"n30": 2,
+"base": 1.5,
 "spike": false
 },
 "붕괴": {
@@ -3070,18 +3077,18 @@
 "spike": false
 },
 "속보": {
-"n30": 7,
+"n30": 5,
 "base": 0.4,
 "spike": true
 },
 "지하철": {
 "n30": 0,
-"base": 0.5,
+"base": 0.4,
 "spike": false
 },
 "사고": {
-"n30": 5,
-"base": 4.1,
+"n30": 4,
+"base": 4.2,
 "spike": false
 },
 "실종": {
@@ -3101,7 +3108,7 @@
 },
 "먹통": {
 "n30": 0,
-"base": 0.4,
+"base": 0.3,
 "spike": false
 },
 "산불": {
@@ -3353,28 +3360,28 @@
 "spikes": [
 {
 "term": "속보",
-"n30": 7,
+"n30": 5,
 "base": 0.4,
 "spike": true,
-"since": "2026-11-28T06:35:03.113096+00:00"
+"since": "2026-11-28T06:37:16.695951+00:00"
 }
 ],
 "baseline": {
-"지진": 0.62,
+"지진": 0.56,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 1.54,
-"붕괴": 0.18,
+"폭발": 1.39,
+"붕괴": 0.16,
 "대피": 0.05,
-"미사일": 0.1,
-"속보": 0.37,
-"지하철": 0.44,
-"사고": 4.18,
+"미사일": 0.09,
+"속보": 0.33,
+"지하철": 0.4,
+"사고": 4.16,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
-"먹통": 0.33,
+"먹통": 0.3,
 "산불": 0.05
 },
 "errors": [],
