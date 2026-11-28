@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-28T02:28:35.525000+00:00",
+"updated": "2026-11-28T02:31:03.508855+00:00",
 "errors": [],
 "events": [
 {
@@ -1906,7 +1906,7 @@
 "spike": false
 },
 "폭발": {
-"n30": 9,
+"n30": 6,
 "base": 0.7,
 "spike": true
 },
@@ -1921,23 +1921,23 @@
 "spike": false
 },
 "미사일": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
 "속보": {
-"n30": 6,
-"base": 0.7,
-"spike": true
+"n30": 1,
+"base": 0.8,
+"spike": false
 },
 "지하철": {
-"n30": 4,
-"base": 3.1,
+"n30": 3,
+"base": 3.0,
 "spike": false
 },
 "사고": {
 "n30": 2,
-"base": 0.7,
+"base": 0.9,
 "spike": false
 },
 "실종": {
@@ -1957,7 +1957,7 @@
 },
 "먹통": {
 "n30": 0,
-"base": 0.7,
+"base": 0.6,
 "spike": false
 },
 "산불": {
@@ -2089,16 +2089,6 @@
 "term": "폭발"
 },
 {
-"text": "[속보] 바위에 깔림...",
-"handle": "molstre.bsky.social",
-"name": "놈은달린다",
-"time": "2026-11-28T02:00:59.547Z",
-"likes": 1,
-"reposts": 0,
-"url": "https://bsky.app/profile/molstre.bsky.social/post/3n3dma2miw22j",
-"term": "속보"
-},
-{
 "platform": "YouTube",
 "text": "바닷속 1,000기압 폭발을 아파트 5층 밸브로 싹둑 자른다고?",
 "handle": "UCZYaWXqSOfju_xDLCcAGqFA",
@@ -2171,16 +2161,6 @@
 "url": "https://www.youtube.com/watch?v=M_jtAP1LJKs"
 },
 {
-"text": "이유 알았다\n광화문은 지하철쓰기 편한데\n이짝은 뭔얼어죽을9호선(저주하며)",
-"handle": "arusharua.bsky.social",
-"name": "아루샤",
-"time": "2026-11-28T01:58:40.443Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/arusharua.bsky.social/post/3n3dm3zqrwk2d",
-"term": "지하철"
-},
-{
 "platform": "YouTube",
 "text": "[속보] 내란특검, 'SNS 내란 선동 혐의' 황교안 징역 10년 구형..내년 1월 28일 1심 선고- [MBC 뉴스속보] MBC뉴스 2026년 11월 27일",
 "handle": "UCF4Wxdo3inmxP-Y59wXDsFw",
@@ -2193,17 +2173,10 @@
 "spikes": [
 {
 "term": "폭발",
-"n30": 9,
-"base": 0.7,
-"spike": true,
-"since": "2026-11-28T02:28:35.525000+00:00"
-},
-{
-"term": "속보",
 "n30": 6,
 "base": 0.7,
 "spike": true,
-"since": "2026-11-28T02:28:35.525000+00:00"
+"since": "2026-11-28T02:31:03.508855+00:00"
 }
 ],
 "baseline": {
@@ -2211,17 +2184,17 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.74,
+"폭발": 0.77,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.77,
-"지하철": 3.0,
-"사고": 0.87,
+"속보": 0.69,
+"지하철": 2.8,
+"사고": 0.98,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
-"먹통": 0.62,
+"먹통": 0.56,
 "산불": 0.05
 },
 "errors": [],
@@ -2513,14 +2486,14 @@
 "time": "2026-11-28T00:30:00+00:00",
 "news": [
 {
-"title": "(보도설명) 미래대응기금은 반도체 호황 등에 따른 대규모 세수를 미래세대를 위한 투자에 활용하기 위한 것입니다.",
+"title": "반도체 경기가 꺾이면, 나랏돈은 어떻게 될까? - 영상 | 멀티미디어",
 "source": "대한민국 정책브리핑",
-"link": "https://www.korea.kr/briefing/actuallyView.do?newsId=148976652&pWise=main&pWiseMain=B2"
+"link": "https://www.korea.kr/multi/mediaNewsView.do?newsId=148976653&pWise=sub&pWiseSub=R6"
 },
 {
-"title": "예산안 시한 D-4, 미래대응기금 의결 모두 보류‥주말까지 공방",
-"source": "MBC 뉴스",
-"link": "https://imnews.imbc.com/news/2026/politics/article/6869263_36911.html"
+"title": "여야, ‘미래대응기금’ 놓고 공방…“불확실성 대비”·“미래세대에 부담 전가”",
+"source": "KBS 뉴스",
+"link": "https://news.kbs.co.kr/news/view.do?ncd=8725106"
 }
 ],
 "new": true
