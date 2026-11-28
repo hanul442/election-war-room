@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-28T15:37:02.568545+00:00",
+"updated": "2026-11-28T15:39:14.438530+00:00",
 "errors": [],
 "events": [
 {
@@ -1914,89 +1914,13 @@
 "철도노조",
 "투쟁"
 ]
-},
-{
-"id": "JzdUE3UVdWMWZ6MU5xLWcoc50938",
-"first": "2026-11-28T09:38:00+00:00",
-"last": "2026-11-28T09:38:00+00:00",
-"updated": "2026-11-28T09:43:46.613873+00:00",
-"headline": "강금실 국정원장 후보 “中 치치하얼·옌볜특별고문 무보수 명예직”",
-"cat": "기타",
-"regions": [],
-"sources": [
-"국제신문"
-],
-"updates": [
-{
-"title": "[속보]강금실 국정원장 후보 “中 치치하얼·옌볜특별고문 무보수 명예직”",
-"source": "국제신문",
-"link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNVWNvaUh1UmtrTDZuempOVmIzLXpkUDhJSjBabmVlSGZjc0VkY1RNRkNjS1pjcklzNkI5dmdlMXJfYk9hMUdIbXhFWWVhZUpBZHNJU1VLWXJPT3VhQWRQekZwRGkwNjJKOFBPRGt5MmhfUVo0OTB1RlZEZUtTWnFmSENDaEJzdUE3UVdWMWZ6MU5xLWc?oc=5",
-"time": "2026-11-28T09:38:00+00:00",
-"stage": "얼럿"
-},
-{
-"title": "[속보]강금실 국정원장 후보 “中 치치하얼·옌볜특별고문 무보수 명예직”",
-"source": "국제신문",
-"link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOVDBFdFZmd2hmZWZsYUZ3WEZITzU0WlNuWkdiNFlxU1daa2VUVWU1RXlDajFJeTBqd0pKQ19Dd0l4QXhpLThna1kzMlBYU1NiSGpnX2E1cWVNRm13RktuUFFRMXAydG5qMTRFbnRqcXpKdlNwYmRyNDMtRjdVZ1BwdV81UG15SV9PZnpz?oc=5",
-"time": "2026-11-28T09:38:00+00:00",
-"stage": "속보"
-}
-],
-"level": "URGENT",
-"latest": "강금실 국정원장 후보 “中 치치하얼·옌볜특별고문 무보수 명예직”",
-"tok": [
-"강금실",
-"국정원장",
-"명예직",
-"무보수",
-"옌볜특별고문",
-"치치하얼",
-"후보"
-]
-},
-{
-"id": "wNISX20261128_00038872500937",
-"first": "2026-11-28T09:37:15+00:00",
-"last": "2026-11-28T09:37:15+00:00",
-"updated": "2026-11-28T09:39:21.960758+00:00",
-"headline": "'강풍' 제주 항공기 132편 지연·결항…밤사이 피해 확산 우려",
-"cat": "재난",
-"regions": [
-"제주"
-],
-"sources": [
-"뉴시스"
-],
-"updates": [
-{
-"title": "'강풍' 제주 항공기 132편 지연·결항…밤사이 피해 확산 우려(종합)",
-"source": "뉴시스",
-"link": "https://www.newsis.com/view/NISX20261128_0003887250",
-"time": "2026-11-28T09:37:15+00:00",
-"stage": "종합"
-}
-],
-"level": "URGENT",
-"latest": "'강풍' 제주 항공기 132편 지연·결항…밤사이 피해 확산 우려",
-"tok": [
-"132편",
-"강풍",
-"결항",
-"밤사",
-"우려",
-"제주",
-"지연",
-"피해",
-"항공기",
-"확산"
-]
 }
 ],
 "sns": {
 "terms": {
 "지진": {
 "n30": 1,
-"base": 0.6,
+"base": 0.7,
 "spike": false
 },
 "화재": {
@@ -2016,12 +1940,12 @@
 },
 "폭발": {
 "n30": 0,
-"base": 0.6,
+"base": 0.5,
 "spike": false
 },
 "붕괴": {
 "n30": 1,
-"base": 0.3,
+"base": 0.4,
 "spike": false
 },
 "대피": {
@@ -2035,7 +1959,7 @@
 "spike": false
 },
 "속보": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -2046,7 +1970,7 @@
 },
 "사고": {
 "n30": 0,
-"base": 1.6,
+"base": 1.4,
 "spike": false
 },
 "실종": {
@@ -2288,17 +2212,17 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 0.68,
+"지진": 0.71,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.5,
-"붕괴": 0.39,
-"대피": 0.47,
+"폭발": 0.45,
+"붕괴": 0.45,
+"대피": 0.42,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.12,
-"사고": 1.43,
+"지하철": 0.11,
+"사고": 1.29,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -2542,9 +2466,9 @@
 "time": "2026-11-28T14:20:00+00:00",
 "news": [
 {
-"title": "LIVESTREAMS·FREE!TVs] Derby County vs Watford Live Free Soccer football updates In 28 November 2026",
+"title": "LIVESTREAMS·FREE!TVs] Wrexham vs Portsmouth Live Free Soccer football updates In 28 November 2026",
 "source": "tallahatchienews.ms",
-"link": "https://www.tallahatchienews.ms/node/480603"
+"link": "https://www.tallahatchienews.ms/node/480598"
 },
 {
 "title": "West Ham United v Stoke City: Championship stats & head-to-head",
