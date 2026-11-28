@@ -1,15 +1,16 @@
 {
-"updated": "2026-11-28T05:47:41.737008+00:00",
+"updated": "2026-11-28T05:49:55.375879+00:00",
 "errors": [],
 "events": [
 {
 "id": "2hYRzV6THQwVDdEM25qZwoc52315",
 "first": "2026-11-27T23:15:45+00:00",
 "last": "2026-11-28T05:45:51+00:00",
-"updated": "2026-11-28T05:47:41.737008+00:00",
+"updated": "2026-11-28T05:49:55.375879+00:00",
 "headline": "새만금전주고속도로 승용차 단독 사고 처리중",
 "cat": "교통",
 "regions": [
+"경기",
 "전북",
 "충남",
 "충북"
@@ -117,6 +118,13 @@
 "stage": "속보"
 },
 {
+"title": "[속보] 세종포천고속도로 승용차 관련 사고처리중",
+"source": "스페셜타임스",
+"link": "https://news.google.com/rss/articles/CBMickFVX3lxTE01WW1CcUFFbkNuQVRlWnM1OE1GNUphclBKaFQzajdNN2dqLXVSRTZqc2tCVlBjUEItdEZkUDB6clRrTDZFTWk0RjRXc2hVMFhock0tNkVhTEphallDY1dwQS1nQUFxeWlFTVF1Qy1Wb0pTUQ?oc=5",
+"time": "2026-11-28T05:00:45+00:00",
+"stage": "속보"
+},
+{
 "title": "[속보] 새만금전주고속도로 승용차 단독 사고 처리중",
 "source": "스페셜타임스",
 "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE8wcFl2dW1aSFMxdXdyV2lUQkFMN0loNlN2MGJPaTVrTTBHYmthYVJaRzRuRFZZc2ZrdGJMTk8tUjI0eS1hZF9aemdBOVFJd2pjTFRNN29kRGIxdXl5WXRkdjBic1V5ZlpIc2xZSy00eVppQQ?oc=5",
@@ -132,6 +140,7 @@
 "새만금전주고속도",
 "서천공주고속도",
 "서해안고속도",
+"세종포천고속도",
 "승용차",
 "승용차관련",
 "영동고속도",
@@ -3062,12 +3071,12 @@
 "sns": {
 "terms": {
 "지진": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
 "화재": {
-"n30": 2,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
@@ -3083,7 +3092,7 @@
 },
 "폭발": {
 "n30": 1,
-"base": 0.2,
+"base": 0.3,
 "spike": false
 },
 "붕괴": {
@@ -3102,23 +3111,23 @@
 "spike": false
 },
 "속보": {
-"n30": 2,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
 "지하철": {
 "n30": 1,
-"base": 0.8,
+"base": 0.7,
 "spike": false
 },
 "사고": {
 "n30": 5,
-"base": 3.4,
+"base": 3.6,
 "spike": false
 },
 "실종": {
 "n30": 0,
-"base": 0.4,
+"base": 0.3,
 "spike": false
 },
 "단수": {
@@ -3132,7 +3141,7 @@
 "spike": false
 },
 "먹통": {
-"n30": 0,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
@@ -3143,6 +3152,16 @@
 }
 },
 "posts": [
+{
+"text": "어... 공항 전체 시스템먹통... 여유롭게 도착하긴 했는데 살짝 불안.",
+"handle": "torykkw.bsky.social",
+"name": "토리🔒",
+"time": "2026-11-28T05:48:30.642Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/torykkw.bsky.social/post/3n3dywz5i7c2d",
+"term": "먹통"
+},
 {
 "text": "어제... 였나 그제 방송에서 김도가 총구 얘기하면서 '그건 총이 아니라 작살이잖아'라고 했었는데\n\n총구의 무기인 리디머는 무연화약의 폭발력을 추진력으로 활용하는, 소위 gunpowder powered speargun, 즉 작살\"총\"임\n\n따라서 탄자가 작살일 뿐이지, 화약식 총포라는 정의 자체에는 부합함...",
 "handle": "aircon77.bsky.social",
@@ -3391,17 +3410,17 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.29,
-"붕괴": 0.51,
+"폭발": 0.36,
+"붕괴": 0.56,
 "대피": 0.05,
-"미사일": 0.74,
+"미사일": 0.77,
 "속보": 0.05,
-"지하철": 0.72,
-"사고": 3.6,
-"실종": 0.33,
+"지하철": 0.65,
+"사고": 3.74,
+"실종": 0.3,
 "단수": 0.05,
 "통신 장애": 0.05,
-"먹통": 0.05,
+"먹통": 0.15,
 "산불": 0.05
 },
 "errors": [],
@@ -3641,14 +3660,14 @@
 "time": "2026-11-28T04:10:00+00:00",
 "news": [
 {
-"title": "10년 기다린 우승 대관식, 마냥 웃을 수 없는 김기동...선수들 부상 걱정에도 \"오늘은 팬들과 함께하는 특별한 날\" [현장 인터뷰] - 머니투데이",
+"title": "10년을 기다린 순간, 마침내 왕관 쓰는 FC서울...'공식전 3연승' 대전 꺾고 우승 대관식 장식할까 양 팀 선발 공개 [오!쎈 현장] - 머니투데이",
 "source": "머니투데이",
-"link": "https://www.mt.co.kr/sports/2026/11/28/202611281238770584O"
+"link": "https://www.mt.co.kr/sports/2026/11/28/202611281238776624O"
 },
 {
-"title": "\"이런 경기 즐기고 이겨낼 줄 알아야\" 황선홍 대전 감독, '대관식' FC서울 상대 필승 다짐 [현장 인터뷰]",
-"source": "조선일보",
-"link": "https://www.chosun.com/sports/football/2026/11/28/HA4DINBXG5RDKNTCGU4TKNBSGU/"
+"title": "대관식 앞둔 김기동 감독 “좋은 날, 팬들과 멋진 마무리하겠다”",
+"source": "동아일보",
+"link": "https://www.donga.com/news/Sports/article/all/20261128/135107405/1"
 }
 ],
 "new": true
