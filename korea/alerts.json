@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-28T12:52:33.798260+00:00",
+"updated": "2026-11-28T12:54:45.745662+00:00",
 "errors": [],
 "events": [
 {
@@ -1073,6 +1073,42 @@
 "일요일",
 "전국",
 "풍랑"
+]
+},
+{
+"id": "DNrdFdMTVFpSldOTm9mUQoc51047",
+"first": "2026-11-28T10:47:00+00:00",
+"last": "2026-11-28T10:47:00+00:00",
+"updated": "2026-11-28T12:54:45.745662+00:00",
+"headline": "토요일 포근, 일요일 반짝 추위…초겨울 날씨, 슈퍼 엘니뇨 ‘롤코’ 탔다",
+"cat": "기타",
+"regions": [],
+"sources": [
+"한겨레"
+],
+"updates": [
+{
+"title": "토요일 포근, 일요일 반짝 추위…초겨울 날씨, 슈퍼 엘니뇨 ‘롤코’ 탔다",
+"source": "한겨레",
+"link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9PZVhlcEV2QmZadm01ZDdrQUc0cjNUMHREeUJ5MDlsTWhCcTc0ZGZpcS03RjM2ZzZGMEpnNjBDUmtIQzB1Y2d6LXFXaGw0eFd1MmhoMUVaaFZFLW9vV2E3YWR6cDNrdFdMTVFpSldOTm9mUQ?oc=5",
+"time": "2026-11-28T10:47:00+00:00",
+"stage": "1보"
+}
+],
+"level": "ALERT",
+"latest": "토요일 포근, 일요일 반짝 추위…초겨울 날씨, 슈퍼 엘니뇨 ‘롤코’ 탔다",
+"tok": [
+"날씨",
+"롤코",
+"반짝",
+"슈퍼",
+"엘니뇨",
+"일요일",
+"초겨울",
+"추위",
+"탔다",
+"토요일",
+"포근"
 ]
 },
 {
@@ -3295,38 +3331,6 @@
 "삼성전자",
 "섬뜩한"
 ]
-},
-{
-"id": "kdmcWJSdWo1TnUwWlB1WAoc50706",
-"first": "2026-11-28T07:06:00+00:00",
-"last": "2026-11-28T07:06:00+00:00",
-"updated": "2026-11-28T07:57:44.523841+00:00",
-"headline": "장동혁 \"판사들의 무기력이 독재 불러와 … 더불어탄핵당 심판해야\"",
-"cat": "정치",
-"regions": [],
-"sources": [
-"뉴데일리"
-],
-"updates": [
-{
-"title": "[속보] 장동혁 \"판사들의 무기력이 독재 불러와 … 더불어탄핵당 심판해야\"",
-"source": "뉴데일리",
-"link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1wMXdlQkFFWkdxWHNnV3FBVUU4aVNMLVAybjdST1BGRENfVkp3YjVLajRtX2hQanN5UDEzNERYcFMySzgtaEZKM2hqd1BBY3M5bm5jSmxJXzV5c3U2dkNqRDVsdTFETU1BTnhKVW9NcFdsVmdOVTdKeEZLQdIBgAFBVV95cUxNaUpONmFfQnVOclZuRXJBaDgxV3hkTlZJQ2lIV2VDSUFmVEwydnhLcHY5WXNQVzgzZ29xSldtMS1nY1ZLa2hBMkJURnhERGlYa0g0S3YxUE1XLXphakpybkpMTG4yejYyNks4UEdXSUpkWkdmcWJSdWo1TnUwWlB1WA?oc=5",
-"time": "2026-11-28T07:06:00+00:00",
-"stage": "얼럿"
-}
-],
-"level": "BULLETIN",
-"latest": "장동혁 \"판사들의 무기력이 독재 불러와 … 더불어탄핵당 심판해야\"",
-"tok": [
-"더불어탄핵당",
-"독재",
-"무기력",
-"불러",
-"심판해야",
-"장동혁",
-"판사들"
-]
 }
 ],
 "sns": {
@@ -3337,7 +3341,7 @@
 "spike": false
 },
 "화재": {
-"n30": 2,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
@@ -3358,7 +3362,7 @@
 },
 "붕괴": {
 "n30": 2,
-"base": 0.7,
+"base": 0.8,
 "spike": false
 },
 "대피": {
@@ -3372,18 +3376,18 @@
 "spike": false
 },
 "속보": {
-"n30": 4,
+"n30": 3,
 "base": 0.1,
 "spike": false
 },
 "지하철": {
 "n30": 2,
-"base": 0.4,
+"base": 0.5,
 "spike": false
 },
 "사고": {
 "n30": 1,
-"base": 2.2,
+"base": 2.1,
 "spike": false
 },
 "실종": {
@@ -3666,15 +3670,15 @@
 "지진": 0.05,
 "화재": 0.05,
 "불났": 0.05,
-"정전": 0.78,
-"폭발": 0.08,
-"붕괴": 0.75,
+"정전": 0.8,
+"폭발": 0.07,
+"붕괴": 0.78,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.47,
-"사고": 2.1,
-"실종": 0.56,
+"지하철": 0.52,
+"사고": 1.99,
+"실종": 0.5,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -3894,6 +3898,60 @@
 },
 "trends": [
 {
+"term": "링컨 시티 대 울브스",
+"traffic": "1000+",
+"time": "2026-11-28T11:50:00+00:00",
+"news": [
+{
+"title": "Lincoln City v Wolverhampton Wanderers: Championship stats & head-to-head",
+"source": "BBC",
+"link": "https://www.bbc.com/sport/football/live/c3n0lgw017rlt"
+},
+{
+"title": "Peixoto | 'We have to be ready to fight for the three points' | Men's First-Team | Latest News",
+"source": "Wolverhampton Wanderers FC",
+"link": "https://www.wolves.co.uk/news/mens-first-team/20261127-peixoto-we-have-to-be-ready-to-fight-for-the-three-points/"
+}
+],
+"new": true
+},
+{
+"term": "알 하즘 대 알나스르",
+"traffic": "500+",
+"time": "2026-11-28T11:50:00+00:00",
+"news": [
+{
+"title": "[STREAM@TV] How to Watch Al Hazem vs. Al Nassr Online for Free Start Time, Live Streaming & TV Channels in USA and Other Countries",
+"source": "tallahatchienews.ms",
+"link": "https://www.tallahatchienews.ms/node/479441"
+},
+{
+"title": "Postecoglou Starts Ronaldo and Felix Against Al-Hazem",
+"source": "Demokratis.co.id",
+"link": "https://demokratis.co.id/en/postecoglou-ronaldo-felix-al-nassr"
+}
+],
+"new": true
+},
+{
+"term": "무기",
+"traffic": "200+",
+"time": "2026-11-28T11:20:00+00:00",
+"news": [
+{
+"title": "日, 5년간 방위비 362조→474조원으로 대폭 증액",
+"source": "마켓인",
+"link": "https://marketin.edaily.co.kr/News/ReadE?newsId=01846646645649984"
+},
+{
+"title": "“차라리 한국산 무기 사서 쓰자, 세계적 수준”…日 안보전문가, ‘K9’ 극찬한 이유",
+"source": "서울경제",
+"link": "https://www.sedaily.com/article/20118857"
+}
+],
+"new": true
+},
+{
 "term": "근로장려금 신청",
 "traffic": "100+",
 "time": "2026-11-28T10:50:00+00:00",
@@ -3988,60 +4046,6 @@
 "title": "영광군노인복지관 어르신 동아리, \"방한용품 등 560여 점\" 기탁",
 "source": "전라일보",
 "link": "http://www.jeollailbo.com/news/articleView.html?idxno=817658"
-}
-],
-"new": true
-},
-{
-"term": "욕망의 덫",
-"traffic": "500+",
-"time": "2026-11-28T09:20:00+00:00",
-"news": [
-{
-"title": "'욕망의 덫' 전혜원, 희귀 혈액형 Rh-A형으로 출생의 비밀 알았다",
-"source": "국제뉴스",
-"link": "https://www.gukjenews.com/news/articleView.html?idxno=3764239"
-},
-{
-"title": "‘욕망의 덫’ 전혜원, 고은설 둘러싼 견제 속 관계 변화",
-"source": "제주교통복지신문",
-"link": "https://www.jejutwn.com/news/article.html?no=464939"
-}
-],
-"new": true
-},
-{
-"term": "서울역",
-"traffic": "1000+",
-"time": "2026-11-28T09:10:00+00:00",
-"news": [
-{
-"title": "한국 여행 첫발 떼자마자 패닉에 빠졌다… 서울역, 외국인에겐 '거대한 미로' [최주연의 스포 주의]",
-"source": "한국일보",
-"link": "https://www.hankookilbo.com/news/article/A2026112613420001746"
-},
-{
-"title": "[속보] 철도노조 준법투쟁 첫 주말…\"전철 105대 20분 이상 지연\"",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261128046800063"
-}
-],
-"new": true
-},
-{
-"term": "제주공항",
-"traffic": "100+",
-"time": "2026-11-28T09:10:00+00:00",
-"news": [
-{
-"title": "제주 강풍에 피해 잇따라…하늘길·뱃길도 차질",
-"source": "KBS 뉴스",
-"link": "https://news.kbs.co.kr/news/view.do?ncd=8725188"
-},
-{
-"title": "제주시북부에 강풍경보…제주도산지에 대설주의보 유지",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261128045400527"
 }
 ],
 "new": true
