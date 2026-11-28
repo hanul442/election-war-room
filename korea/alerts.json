@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-28T11:40:14.921802+00:00",
+"updated": "2026-11-28T11:42:28.361042+00:00",
 "errors": [],
 "events": [
 {
@@ -1520,7 +1520,7 @@
 "id": "HUEs1Yk8xUVUyVkxnbGMwoc50841",
 "first": "2026-11-28T08:41:00+00:00",
 "last": "2026-11-28T09:17:17+00:00",
-"updated": "2026-11-28T09:37:11.172537+00:00",
+"updated": "2026-11-28T11:42:28.361042+00:00",
 "headline": "韓총리, 삼전닉스에 “신입 채용 많이 해달라”",
 "cat": "정치",
 "regions": [],
@@ -1529,6 +1529,7 @@
 "국제신문",
 "아이뉴스24",
 "연합뉴스",
+"연합인포맥스",
 "조선일보"
 ],
 "updates": [
@@ -1545,6 +1546,13 @@
 "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQNDFvZGsyYUxwMmhjeWMwZlJDejVVaVI4S2dzTEZ2bTBhZHFjZ2RWV2lSN2FwRTlwTlVId1hlWmFkcG0ySFRVMTBIRXJNX0JFd0ZWQUg3ZUZXZWUxY3g4VmptaTNFYk9TSGFQVHNtQnNuOVB4Zi1oQ2JvRGRHUEs1Yk8xUVUyVkxnbGMw?oc=5",
 "time": "2026-11-28T08:41:00+00:00",
 "stage": "얼럿"
+},
+{
+"title": "韓총리, 삼성·SK하이닉스에 \"내년 신입 더 뽑아달라\"",
+"source": "연합인포맥스",
+"link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE94YWZSVG0zaEpEczAwcDNERlNNdzJ5SnNYM0dVVEJYX3VEN2N6MFVISjlKUjFmTkdaRi1IX3pLZDhwQm12LUhLQVlTUGU1MTdPLXNfcHhlS0hCNnpOUjlHU0JLR3Z6RFZlYlNxT2hjUVE?oc=5",
+"time": "2026-11-28T08:56:27+00:00",
+"stage": "후속"
 },
 {
 "title": "한성숙 총리, 삼성전자·SK하이닉스에 “채용 많이 해달라”",
@@ -1580,8 +1588,11 @@
 "tok": [
 "SK하이닉스",
 "韓총리",
+"내년",
 "달라",
 "많이",
+"뽑아달라",
+"삼성",
 "삼성전자",
 "삼전",
 "삼전닉스",
@@ -3367,7 +3378,7 @@
 "terms": {
 "지진": {
 "n30": 3,
-"base": 0.6,
+"base": 0.7,
 "spike": false
 },
 "화재": {
@@ -3392,7 +3403,7 @@
 },
 "붕괴": {
 "n30": 3,
-"base": 0.3,
+"base": 0.5,
 "spike": false
 },
 "대피": {
@@ -3406,14 +3417,14 @@
 "spike": false
 },
 "속보": {
-"n30": 6,
+"n30": 5,
 "base": 0.1,
 "spike": true
 },
 "지하철": {
-"n30": 5,
+"n30": 4,
 "base": 1.3,
-"spike": true
+"spike": false
 },
 "사고": {
 "n30": 4,
@@ -3724,35 +3735,28 @@
 "n30": 5,
 "base": 0.7,
 "spike": true,
-"since": "2026-11-28T11:40:14.921802+00:00"
+"since": "2026-11-28T11:42:28.361042+00:00"
 },
 {
 "term": "속보",
-"n30": 6,
+"n30": 5,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-28T11:40:14.921802+00:00"
-},
-{
-"term": "지하철",
-"n30": 5,
-"base": 1.3,
-"spike": true,
-"since": "2026-11-28T11:40:14.921802+00:00"
+"since": "2026-11-28T11:42:28.361042+00:00"
 }
 ],
 "baseline": {
-"지진": 0.68,
+"지진": 0.71,
 "화재": 0.05,
 "불났": 0.05,
-"정전": 0.15,
-"폭발": 0.69,
-"붕괴": 0.51,
+"정전": 0.24,
+"폭발": 0.72,
+"붕괴": 0.66,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 1.31,
-"사고": 3.62,
+"지하철": 1.28,
+"사고": 3.66,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
