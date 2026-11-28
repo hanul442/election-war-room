@@ -1,7 +1,42 @@
 {
-"updated": "2026-11-28T04:57:49.547378+00:00",
+"updated": "2026-11-28T05:00:05.360461+00:00",
 "errors": [],
 "events": [
+{
+"id": "XTU5aNzRRV3RrYjY2eFdHoc50457",
+"first": "2026-11-28T04:57:59+00:00",
+"last": "2026-11-28T04:57:59+00:00",
+"updated": "2026-11-28T05:00:05.360461+00:00",
+"headline": "밤 10시에 직원 400명 호출한 DL 회장…귀가했던 직원들까지 새벽에야 퇴근",
+"cat": "기타",
+"regions": [],
+"sources": [
+"문화일보"
+],
+"updates": [
+{
+"title": "[속보]밤 10시에 직원 400명 호출한 DL 회장…귀가했던 직원들까지 새벽에야 퇴근",
+"source": "문화일보",
+"link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5icU5GeFZHRHNISnBod3RQc1QyNzllUndBZWhjcUpDWmVJR2Z1UmJlbGNLSHh4Z2NNZ0p5QVpzQlZXTU5aNzRRV3RrYjY2eFdH?oc=5",
+"time": "2026-11-28T04:57:59+00:00",
+"stage": "얼럿"
+}
+],
+"level": "URGENT",
+"latest": "밤 10시에 직원 400명 호출한 DL 회장…귀가했던 직원들까지 새벽에야 퇴근",
+"tok": [
+"10시",
+"400명",
+"DL",
+"귀가했던",
+"새벽에야",
+"직원",
+"직원들까지",
+"퇴근",
+"호출한",
+"회장"
+]
+},
 {
 "id": "1U3VPZWNEdHdqZXFBQXV4oc50453",
 "first": "2026-11-28T04:53:35+00:00",
@@ -2720,39 +2755,6 @@
 "일본",
 "적발"
 ]
-},
-{
-"id": "viewAKR202611271051000172300",
-"first": "2026-11-27T23:00:02+00:00",
-"last": "2026-11-27T23:00:02+00:00",
-"updated": "2026-11-27T23:05:37.240924+00:00",
-"headline": "[이지 사이언스] \"아프리카 해안도시 지반 가라앉는다…침수위험 예상보다 커\"",
-"cat": "재난",
-"regions": [],
-"sources": [
-"연합뉴스"
-],
-"updates": [
-{
-"title": "[이지 사이언스] \"아프리카 해안도시 지반 가라앉는다…침수위험 예상보다 커\"",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261127105100017",
-"time": "2026-11-27T23:00:02+00:00",
-"stage": "1보"
-}
-],
-"level": "ALERT",
-"latest": "[이지 사이언스] \"아프리카 해안도시 지반 가라앉는다…침수위험 예상보다 커\"",
-"tok": [
-"가라앉는다",
-"사이언스",
-"아프리카",
-"예상보다",
-"이지",
-"지반",
-"침수위험",
-"해안도시"
-]
 }
 ],
 "sns": {
@@ -2798,13 +2800,13 @@
 "spike": false
 },
 "속보": {
-"n30": 5,
+"n30": 4,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "지하철": {
 "n30": 4,
-"base": 0.6,
+"base": 0.8,
 "spike": false
 },
 "사고": {
@@ -2900,7 +2902,7 @@
 "handle": "mahapadma770.bsky.social",
 "name": "홍련🪷",
 "time": "2026-11-28T04:44:28.948Z",
-"likes": 0,
+"likes": 1,
 "reposts": 0,
 "url": "https://bsky.app/profile/mahapadma770.bsky.social/post/3n3dvejjih22b",
 "term": "지하철"
@@ -3025,27 +3027,19 @@
 "url": "https://www.youtube.com/watch?v=ZTD25lZHkyM"
 }
 ],
-"spikes": [
-{
-"term": "속보",
-"n30": 5,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-28T04:57:49.547378+00:00"
-}
-],
+"spikes": [],
 "baseline": {
 "지진": 0.05,
 "화재": 0.05,
 "불났": 0.05,
-"정전": 0.27,
-"폭발": 0.72,
+"정전": 0.24,
+"폭발": 0.75,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.78,
-"사고": 1.6,
+"지하철": 0.9,
+"사고": 1.64,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -3294,9 +3288,9 @@
 "link": "https://weekly.chosun.com/news/articleView.html?idxno=60112"
 },
 {
-"title": "중국 단체관광객 무비자 1년 연장…한국인 방중 무비자는 '오리무중'",
-"source": "이데일리",
-"link": "https://www.edaily.co.kr/News/Read?newsId=01872886645649656&mediaCodeNo=257"
+"title": "\"한국인 '중국 무비자' 이대로 끝?\"...여행 앞두고 발동동 - 머니투데이",
+"source": "머니투데이",
+"link": "https://www.mt.co.kr/world/2026/11/25/2026112510213548178"
 }
 ],
 "new": true
