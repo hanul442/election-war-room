@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-28T09:21:51.747365+00:00",
+"updated": "2026-11-28T09:24:02.273950+00:00",
 "errors": [],
 "events": [
 {
@@ -3433,7 +3433,7 @@
 },
 "붕괴": {
 "n30": 0,
-"base": 0.2,
+"base": 0.1,
 "spike": false
 },
 "대피": {
@@ -3453,11 +3453,11 @@
 },
 "지하철": {
 "n30": 5,
-"base": 0.2,
+"base": 0.3,
 "spike": true
 },
 "사고": {
-"n30": 3,
+"n30": 2,
 "base": 2.8,
 "spike": false
 },
@@ -3634,16 +3634,6 @@
 "time": "2026-11-28T09:00:03Z",
 "term": "폭발",
 "url": "https://www.youtube.com/watch?v=Ui-sgPBPHgs"
-},
-{
-"text": "무슨 말 못 하는 반려동물 사고 쳤을 때처럼 ㅋㅋㅋㅋㅋㅋㅋㅋㅋ\nyoutu.be/0nrT5DTrJpE?...",
-"handle": "pyurad.bsky.social",
-"name": "퓨라드",
-"time": "2026-11-28T08:52:28.943Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/pyurad.bsky.social/post/3n3ed7wqeck2t",
-"term": "사고"
 }
 ],
 "spikes": [
@@ -3652,32 +3642,32 @@
 "n30": 7,
 "base": 0.2,
 "spike": true,
-"since": "2026-11-28T09:21:51.747365+00:00"
+"since": "2026-11-28T09:24:02.273950+00:00"
 },
 {
 "term": "지하철",
 "n30": 5,
-"base": 0.2,
+"base": 0.3,
 "spike": true,
-"since": "2026-11-28T09:21:51.747365+00:00"
+"since": "2026-11-28T09:24:02.273950+00:00"
 }
 ],
 "baseline": {
 "지진": 0.05,
 "화재": 0.05,
 "불났": 0.05,
-"정전": 0.13,
-"폭발": 0.19,
-"붕괴": 0.14,
+"정전": 0.12,
+"폭발": 0.17,
+"붕괴": 0.13,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.3,
-"사고": 2.78,
+"지하철": 0.37,
+"사고": 2.7,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
-"먹통": 0.58,
+"먹통": 0.52,
 "산불": 0.05
 },
 "errors": [],
@@ -3804,6 +3794,24 @@
 },
 "trends": [
 {
+"term": "박정우",
+"traffic": "100+",
+"time": "2026-11-28T08:20:00+00:00",
+"news": [
+{
+"title": "KIA 내부 FA 초대형 변수 등장! 'MVP' 韓슈퍼스타 간절히 외쳤다 \"김태군-김호령 꼭 필요한 선배들, 계약해주세요\"",
+"source": "조선일보",
+"link": "https://www.chosun.com/sports/baseball/2026/11/27/GQYDOMZTMQ4WEMRVHA4GCYLDMI/"
+},
+{
+"title": "이범호 계약 기간 마지막 해, FA 선물은 있을까… 이범호가 아닌 KIA를 위해 필요하다",
+"source": "SPOTV NEWS",
+"link": "https://www.spotvnews.co.kr/news/articleView.html?idxno=1022306"
+}
+],
+"new": true
+},
+{
 "term": "fc 서울 대 대전 하나 시티즌 순위",
 "traffic": "10000+",
 "time": "2026-11-28T07:10:00+00:00",
@@ -3845,14 +3853,14 @@
 "time": "2026-11-28T06:50:00+00:00",
 "news": [
 {
-"title": "전현무, 양띠 여성과 결혼?…中 역술가 \"당신 인생 구한다\"",
-"source": "뉴시스",
-"link": "https://www.newsis.com/view/NISX20261128_0003887150"
+"title": "50세 전현무, 이래서 결혼 안하나 “자유가 없는 세계 아니냐”(‘전현무계획4’)",
+"source": "조선일보",
+"link": "https://www.chosun.com/entertainments/broadcast/2026/11/28/GVTGCYRXGYZDOM3EHA2TQZRSMM/"
 },
 {
-"title": "“내년에 결혼할 운명”…이준, 임수향과 핑크빛 기류 (현무로드)",
-"source": "매일경제",
-"link": "https://www.mk.co.kr/news/broadcasting-service/12219921"
+"title": "나윤권, 두 돌 아들 육아 얼마나 힘들길래…“테이보다 간절하게 먹어”",
+"source": "스포츠동아",
+"link": "https://sports.donga.com/ent/article/all/20261128/135106768/1"
 }
 ],
 "new": true
@@ -3961,24 +3969,6 @@
 "title": "신민아 \"K-로판의 출발점, 왕관의 무게 견뎌야 했죠\"",
 "source": "연합뉴스",
 "link": "https://www.yna.co.kr/view/AKR20261127118300005"
-}
-],
-"new": true
-},
-{
-"term": "루친스키",
-"traffic": "100+",
-"time": "2026-11-28T05:40:00+00:00",
-"news": [
-{
-"title": "\"적성 맞으면 저도 이도류를\"…농군패션에 캡틴 마크까지 가내수공업, '엔구행' 중견수? 하고 싶은 거 다 해 [오!쎈 창원] - 머니투데이",
-"source": "머니투데이",
-"link": "https://www.mt.co.kr/sports/2026/11/28/202611281456774105O"
-},
-{
-"title": "[사진] 조영훈(야수부문)과 김한별(투수부문), 경기 MVP 수상",
-"source": "조선일보",
-"link": "https://www.chosun.com/sports/sports_photo/2026/11/28/GY4WGYTFMU3WMMRRMQ4GMMLFMI/"
 }
 ],
 "new": true
