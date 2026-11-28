@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-28T09:43:46.613873+00:00",
+"updated": "2026-11-28T09:45:58.546209+00:00",
 "errors": [],
 "events": [
 {
@@ -210,7 +210,7 @@
 "id": "2hYRzV6THQwVDdEM25qZwoc52315",
 "first": "2026-11-27T23:15:45+00:00",
 "last": "2026-11-28T09:31:21+00:00",
-"updated": "2026-11-28T09:43:46.613873+00:00",
+"updated": "2026-11-28T09:45:58.546209+00:00",
 "headline": "새만금전주고속도로 승용차 단독 사고 처리중",
 "cat": "교통",
 "regions": [
@@ -399,6 +399,13 @@
 "stage": "속보"
 },
 {
+"title": "[속보] 중부고속도로 승용차관련 사고처리중",
+"source": "스페셜타임스",
+"link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1McVp5R3JKSnI0b2tsVm9mcHBXQXdJTWNVQmFjODlJX3pfRHhTanRla1Z0SXFCeW5fcTRZNjlqaHNQNWNfeDA2WTJYbEI4WUF5NkdCeDRPSmQ0aUdYeEtwd0lzQmhHV3cwc29vd1FnaEZNRGc?oc=5",
+"time": "2026-11-28T09:31:15+00:00",
+"stage": "속보"
+},
+{
 "title": "[속보] 경부고속도로 사고처리중",
 "source": "스페셜타임스",
 "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBPdHg4X3d1akE5dnF5Z0F5c1p3aWloM0ZsVDBYLUVpTUp0Rm1YY1h1VkEtdVRlRGxiZGNlRTA5UnhhTVRWWE5Kb190RFdiaW1pVEthQjM0Ry0wNWVwT1VJUE4ydVNyZWljYUlmX3VkTDRwUQ?oc=5",
@@ -426,6 +433,7 @@
 "승용차",
 "승용차관련",
 "영동고속도",
+"중부고속도",
 "중부내륙고속도",
 "처리중",
 "추돌",
@@ -3516,7 +3524,7 @@
 "spike": false
 },
 "폭발": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -3536,13 +3544,13 @@
 "spike": false
 },
 "속보": {
-"n30": 4,
+"n30": 3,
 "base": 0.1,
 "spike": false
 },
 "지하철": {
-"n30": 3,
-"base": 0.7,
+"n30": 1,
+"base": 0.8,
 "spike": false
 },
 "사고": {
@@ -3748,17 +3756,17 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.07,
+"폭발": 0.06,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.76,
-"사고": 1.85,
+"지하철": 0.78,
+"사고": 1.77,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
-"먹통": 0.21,
+"먹통": 0.19,
 "산불": 0.05
 },
 "errors": [],
@@ -3915,7 +3923,13 @@
 "term": "開票",
 "traffic": "200+",
 "time": "2026-11-28T08:30:00+00:00",
-"news": [],
+"news": [
+{
+"title": "PHOTO ESSAY Polling stations across the country welcome early risers",
+"source": "Focus Taiwan",
+"link": "https://focustaiwan.tw/politics/202611285001"
+}
+],
 "new": true
 },
 {
@@ -3974,7 +3988,7 @@
 },
 {
 "term": "이자",
-"traffic": "2000+",
+"traffic": "5000+",
 "time": "2026-11-28T06:50:00+00:00",
 "news": [
 {
@@ -4004,6 +4018,24 @@
 "title": "나윤권, 두 돌 아들 육아 얼마나 힘들길래…“테이보다 간절하게 먹어”",
 "source": "스포츠동아",
 "link": "https://sports.donga.com/ent/article/all/20261128/135106768/1"
+}
+],
+"new": true
+},
+{
+"term": "최형우",
+"traffic": "500+",
+"time": "2026-11-28T06:40:00+00:00",
+"news": [
+{
+"title": "\"인천 간 적 없고요\" \"기억 안 납니다\"…'FA 최대어' 구자욱의 철벽 인터뷰",
+"source": "SBS 뉴스",
+"link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008866557"
+},
+{
+"title": "최형우는 KIA에서 뛰고 삼성 소속으로 GG 받았다…FA 구자욱은? - 머니투데이",
+"source": "머니투데이",
+"link": "https://www.mt.co.kr/sports/2026/11/28/202611272348779689O"
 }
 ],
 "new": true
@@ -4050,35 +4082,17 @@
 "time": "2026-11-28T06:20:00+00:00",
 "news": [
 {
-"title": "아이유 살던 한강변 아파트, 55.9억 현금에 추가 매입한 '국민밴드'의 그 멤버",
-"source": "땅집고",
-"link": "https://realty.chosun.com/site/data/html_dir/2026/11/26/2026112603350.html"
+"title": "\"100억 찍으면 팔겠다\"던 95년생 …SK하닉 팔아 용산 아파트 샀다",
+"source": "이데일리",
+"link": "https://www.edaily.co.kr/News/Read?newsId=01328406645649984&mediaCodeNo=257"
 },
 {
-"title": "데이식스 원필, 래미안첼리투스 55억9000만원 매입 : 부동산",
-"source": "재경일보",
-"link": "https://news.jkn.co.kr/post/1130104"
+"title": "SK하이닉스 고점에 팔아 100억…95년생이 산 용산 아파트는",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261127_0003886422"
 }
 ],
 "new": true
-},
-{
-"term": "한남동",
-"traffic": "200+",
-"time": "2026-11-28T06:20:00+00:00",
-"news": [
-{
-"title": "\"잘 샀다\" 했던 한남동 건물, 새 주인은 '빌보드 1위 가수'",
-"source": "뉴시스",
-"link": "https://www.newsis.com/view/NISX20261125_0003882856"
-},
-{
-"title": "BTS 진, 한남동 꼬마빌딩 96억 원에 전액 현금 매입",
-"source": "기독일보",
-"link": "https://www.christiandaily.co.kr/news/168186"
-}
-],
-"new": false
 }
 ],
 "trendSeen": [
