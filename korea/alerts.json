@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-28T07:42:02.839464+00:00",
+"updated": "2026-11-28T07:44:17.287879+00:00",
 "errors": [],
 "events": [
 {
@@ -3233,18 +3233,18 @@
 "spike": false
 },
 "미사일": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
 "속보": {
-"n30": 4,
+"n30": 3,
 "base": 0.1,
 "spike": false
 },
 "지하철": {
 "n30": 1,
-"base": 0.8,
+"base": 0.7,
 "spike": false
 },
 "사고": {
@@ -3269,7 +3269,7 @@
 },
 "먹통": {
 "n30": 2,
-"base": 0.8,
+"base": 0.9,
 "spike": false
 },
 "산불": {
@@ -3515,17 +3515,17 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.07,
+"폭발": 0.06,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.73,
-"사고": 1.87,
+"지하철": 0.66,
+"사고": 1.88,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
-"먹통": 0.9,
+"먹통": 1.01,
 "산불": 0.05
 },
 "errors": [],
@@ -3724,6 +3724,42 @@
 },
 "trends": [
 {
+"term": "최형우",
+"traffic": "2000+",
+"time": "2026-11-28T06:40:00+00:00",
+"news": [
+{
+"title": "\"인천 간 적 없고요\" \"기억 안 납니다\"…'FA 최대어' 구자욱의 철벽 인터뷰",
+"source": "SBS 뉴스",
+"link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008866557"
+},
+{
+"title": "최형우는 KIA에서 뛰고 삼성 소속으로 GG 받았다…FA 구자욱은? - 머니투데이",
+"source": "머니투데이",
+"link": "https://www.mt.co.kr/sports/2026/11/28/202611272348779689O"
+}
+],
+"new": true
+},
+{
+"term": "남승민",
+"traffic": "100+",
+"time": "2026-11-28T06:40:00+00:00",
+"news": [
+{
+"title": "남승민, 암투병 母와 함께한 무대…결국 오열 (금타는 금요일)",
+"source": "스포츠동아",
+"link": "https://sports.donga.com/ent/article/all/20261128/135106792/1"
+},
+{
+"title": "'금타는 금요일' 손빈아, 주병선 '칠갑산' 열창 후 \"토할 것 같았다\"",
+"source": "국제뉴스",
+"link": "https://www.gukjenews.com/news/articleView.html?idxno=3765521"
+}
+],
+"new": true
+},
+{
 "term": "매매",
 "traffic": "5000+",
 "time": "2026-11-28T06:30:00+00:00",
@@ -3855,50 +3891,14 @@
 "time": "2026-11-28T05:10:00+00:00",
 "news": [
 {
-"title": "'10년 공백' 지나, 얼마나 달라졌길래…외모 변화에 직접 해명 - 머니투데이",
-"source": "머니투데이",
-"link": "https://www.mt.co.kr/entertainment/2026/11/27/2026112717251651089"
-},
-{
-"title": "배우 이어 가수들까지…지나·S.E.S 슈 맞아? 전성기 시절 잊게 한 ‘고속노화’[Oh!쎈 이슈]",
+"title": "\"손절했는데\" 바다·슈, 불화설 종결…유진까지 S.E.S 완전체 뭉쳤다[Oh!쎈 이슈]",
 "source": "조선일보",
-"link": "https://www.chosun.com/entertainments/broadcast/2026/11/28/ME4WGZLBMMYTCZLDMNSTGNRYGQ/"
-}
-],
-"new": true
+"link": "https://www.chosun.com/entertainments/broadcast/2026/11/28/MEYDKM3FGUYTQNRWME4GGZBUMU/"
 },
 {
-"term": "기사",
-"traffic": "500+",
-"time": "2026-11-28T05:00:00+00:00",
-"news": [
-{
-"title": "李 \"거대한 전환점\"‥아시아 최대 AI 데이터센터 동해서 첫 착공",
-"source": "MBC 뉴스",
-"link": "https://imnews.imbc.com/news/2026/politics/article/6869290_36911.html"
-},
-{
-"title": "이 대통령, 강릉 주문진시장 방문…“강원 새로운 성장동력, 골목상권 이어지길”",
-"source": "KBS 뉴스",
-"link": "https://news.kbs.co.kr/news/view.do?ncd=8725150"
-}
-],
-"new": true
-},
-{
-"term": "설인아",
-"traffic": "200+",
-"time": "2026-11-28T04:50:00+00:00",
-"news": [
-{
-"title": "연우 “2달만에 10kg 감량…온몸 두드러기, 많이 울어” (무쇠소녀단3)",
-"source": "스포츠동아",
-"link": "https://sports.donga.com/ent/article/all/20261127/135101202/1"
-},
-{
-"title": "‘무쇠소녀단3’ 한지현, 첫 회부터 ‘지트리버’ 활약… 3천 계단 48분 완주",
-"source": "브릿지경제",
-"link": "https://www.viva100.com/article/20261127500209"
+"title": "“늘 함께해준” S.E.S., 불화설 종식…유진·바다·슈 완전체로 모였다",
+"source": "스포츠경향",
+"link": "https://sports.khan.co.kr/article/202611281555003"
 }
 ],
 "new": true
