@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-28T11:18:19.095196+00:00",
+"updated": "2026-11-28T11:20:29.025432+00:00",
 "errors": [],
 "events": [
 {
@@ -3387,7 +3387,7 @@
 "terms": {
 "지진": {
 "n30": 2,
-"base": 0.5,
+"base": 0.4,
 "spike": false
 },
 "화재": {
@@ -3406,9 +3406,9 @@
 "spike": false
 },
 "폭발": {
-"n30": 5,
+"n30": 4,
 "base": 0.8,
-"spike": true
+"spike": false
 },
 "붕괴": {
 "n30": 1,
@@ -3432,12 +3432,12 @@
 },
 "지하철": {
 "n30": 4,
-"base": 1.3,
+"base": 1.4,
 "spike": false
 },
 "사고": {
-"n30": 5,
-"base": 2.9,
+"n30": 6,
+"base": 3.1,
 "spike": false
 },
 "실종": {
@@ -3467,6 +3467,16 @@
 }
 },
 "posts": [
+{
+"text": "HIVE...라는 시날도 샀다 하 회지도 하나 사고 싶고\n돈 그만 써야지 그만... 다음 주 조금만 더 쪼여야지.",
+"handle": "greathedgehog.bsky.social",
+"name": "가시캐리어",
+"time": "2026-11-28T11:19:07.846Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/greathedgehog.bsky.social/post/3n3elg6sa3c2i",
+"term": "사고"
+},
 {
 "text": "지하철이 있어 다행이고 집에 짐두고 아아 사러가야지......",
 "handle": "48694869.bsky.social",
@@ -3652,16 +3662,6 @@
 "url": "https://www.youtube.com/watch?v=YNNr_hmWtLI"
 },
 {
-"text": "에어팟 맥스 사고 싶다",
-"handle": "shanghaisaurus.bsky.social",
-"name": "ㅅㅎ",
-"time": "2026-11-28T10:59:30.743Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/shanghaisaurus.bsky.social/post/3n3ekd4qnks2u",
-"term": "사고"
-},
-{
 "platform": "YouTube",
 "text": "[긴급속보] ⚡AI 데이터센터 전력망과 ESS를 떠받치는 핵심 3축, 전력밸류체인 新대장주 '이 기업' 미친 듯이 쓸어 담았다 #주식추천 #mlcc #변압기 #2차전지",
 "handle": "UC2vfTZWDZSOlw1aUsWEJ1vw",
@@ -3688,47 +3688,30 @@
 "reposts": 0,
 "url": "https://bsky.app/profile/u-970110.bsky.social/post/3n3eka67uls2v",
 "term": "지하철"
-},
-{
-"text": "아니 인형이 폭발해서 사지가 날아갓는데",
-"handle": "gudockbb.bsky.social",
-"name": "구독",
-"time": "2026-11-28T10:50:06.540Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/gudockbb.bsky.social/post/3n3ejrnawmk2p",
-"term": "폭발"
 }
 ],
 "spikes": [
-{
-"term": "폭발",
-"n30": 5,
-"base": 0.8,
-"spike": true,
-"since": "2026-11-28T11:18:19.095196+00:00"
-},
 {
 "term": "속보",
 "n30": 6,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-28T11:18:19.095196+00:00"
+"since": "2026-11-28T11:20:29.025432+00:00"
 }
 ],
 "baseline": {
-"지진": 0.42,
+"지진": 0.38,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.81,
+"폭발": 0.73,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 1.36,
-"사고": 3.14,
-"실종": 0.13,
+"지하철": 1.42,
+"사고": 3.43,
+"실종": 0.12,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -3936,11 +3919,6 @@
 "title": "영광군노인복지관 어르신 동아리, \"방한용품 등 560여 점\" 기탁",
 "source": "전라일보",
 "link": "http://www.jeollailbo.com/news/articleView.html?idxno=817658"
-},
-{
-"title": "배움에서 나눔으로 이어진 손뜨개 사랑, 종합사회복지관에 따뜻한 온기 전해",
-"source": "중도일보",
-"link": "https://m.joongdo.co.kr/view.php?key=20261120010007261"
 }
 ],
 "new": true
