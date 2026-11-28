@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-28T03:10:01.509415+00:00",
+"updated": "2026-11-28T03:12:15.026770+00:00",
 "errors": [],
 "events": [
 {
@@ -151,13 +151,16 @@
 "id": "F9YcE1tbDNOSDNlSkFJZwoc50250",
 "first": "2026-11-28T02:50:09+00:00",
 "last": "2026-11-28T03:05:00+00:00",
-"updated": "2026-11-28T03:10:01.509415+00:00",
+"updated": "2026-11-28T03:12:15.026770+00:00",
 "headline": "李대통령 \"오늘 아시아 최대 규모 AI 인프라 첫 삽\"",
 "cat": "정치",
 "regions": [],
 "sources": [
+"뉴시스",
 "머니투데이",
-"조선일보"
+"연합뉴스",
+"조선일보",
+"한국경제TV"
 ],
 "updates": [
 {
@@ -175,28 +178,67 @@
 "stage": "속보"
 },
 {
+"title": "1.2GW 규모 동해 AI 데이터센터 착공…국가 메가프로젝트 첫 삽",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261128_0003887080",
+"time": "2026-11-28T02:51:19+00:00",
+"stage": "후속"
+},
+{
+"title": "아시아 최대 규모 동해 GS AI데이터센터 첫 삽…최대 120조원",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261128029800062",
+"time": "2026-11-28T03:03:02+00:00",
+"stage": "후속"
+},
+{
+"title": "[속보] 동해 GS AI데이터센터 첫 삽…李대통령 ＂아시아 최대 규모로＂",
+"source": "한국경제TV",
+"link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFA3U0Q5TVdrZEQ0OGtUdjBUdldiYU1pU1RUZnNUVEh5LU9jM0dYOHE2ZDYtN0JFaGp3eU1vSjhQeF9mSkRjMXV3aW5VZXFmX3gwSHlMSVVoSDZjU00xOGhrWk1EeWpWOW9yclhMeXBReXhKTWh2R0xF?oc=5",
+"time": "2026-11-28T03:04:00+00:00",
+"stage": "속보"
+},
+{
 "title": "GS그룹, 동해 AI 데이터센터 첫 삽...단일 기준 아시아 최대 규모",
 "source": "조선일보",
 "link": "https://www.chosun.com/economy/money/2026/11/28/35KRYMJUWZD7HNESBUB2S6ZTNY/",
 "time": "2026-11-28T03:05:00+00:00",
 "stage": "후속"
+},
+{
+"title": "'1단계만 15조·최대 120조'…허태수號 GS그룹, 동해 1.2GW AI데이터센터 첫 삽",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261127_0003886621",
+"time": "2026-11-28T03:05:00+00:00",
+"stage": "후속"
 }
 ],
 "level": "URGENT",
-"latest": "GS그룹, 동해 AI 데이터센터 첫 삽...단일 기준 아시아 최대 규모",
+"latest": "'1단계만 15조·최대 120조'…허태수號 GS그룹, 동해 1.2GW AI데이터센터 첫 삽",
 "tok": [
+"120조",
+"120조원",
+"15조",
+"1단계",
+"2GW",
 "AI",
+"AI데이터센터",
+"GS",
 "GS그룹",
 "李대통령",
+"국가",
 "규모",
 "기준",
 "단일",
 "데이터센터",
 "동해",
 "머니투데",
+"메가프로젝트",
 "아시아",
 "인프라",
-"최대"
+"착공",
+"최대",
+"허태수號"
 ]
 },
 {
@@ -2194,35 +2236,6 @@
 "없다",
 "주식"
 ]
-},
-{
-"id": "EZGF6VEV0czc5V0t5T1ZNoc52110",
-"first": "2026-11-27T21:10:33+00:00",
-"last": "2026-11-27T21:10:33+00:00",
-"updated": "2026-11-27T21:20:47.882130+00:00",
-"headline": "불교총지종 통리원장 록경정사 원적",
-"cat": "기타",
-"regions": [],
-"sources": [
-"BBS불교방송"
-],
-"updates": [
-{
-"title": "[속보] 불교총지종 통리원장 록경정사 원적",
-"source": "BBS불교방송",
-"link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1uekhsd0laUGxpdmRaTUk0NnhSR1AtVVpBMGs0VU9KYmdscGx2M1lRaU9GSFVER1NUXzQ3UE4wY2J2SDBDZUxDTExERjA0Y2d1a0lOaEd2QlIzUzBEZGF6VEV0czc5V0t5T1ZN?oc=5",
-"time": "2026-11-27T21:10:33+00:00",
-"stage": "얼럿"
-}
-],
-"level": "URGENT",
-"latest": "불교총지종 통리원장 록경정사 원적",
-"tok": [
-"록경정사",
-"불교총지종",
-"원적",
-"통리원장"
-]
 }
 ],
 "sns": {
@@ -2249,7 +2262,7 @@
 },
 "폭발": {
 "n30": 0,
-"base": 0.8,
+"base": 0.7,
 "spike": false
 },
 "붕괴": {
@@ -2273,8 +2286,8 @@
 "spike": false
 },
 "지하철": {
-"n30": 1,
-"base": 1.5,
+"n30": 2,
+"base": 1.4,
 "spike": false
 },
 "사고": {
@@ -2309,6 +2322,16 @@
 }
 },
 "posts": [
+{
+"text": "하여간 불만많은 개코들 외국인들만 바글바글모여있는 지하철에 넣고 종착점까지 치여서 가게해야함 그러고 한국인모여있는데 가면 천국같다 할걸",
+"handle": "ty4n.bsky.social",
+"name": "웃수저지망생",
+"time": "2026-11-28T03:10:13.442Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/ty4n.bsky.social/post/3n3dq3x6hu22k",
+"term": "지하철"
+},
 {
 "text": "하도 한국인들 제대로관리안하냐, 몸에서 꾼내난다,고 지랄쓰하는데 잘씻는 인간도 주거환경 안좋으면 날수있다 그리고 동남아 서아시아에 비하면 체취 거의 안나서 양반인데 개코들이 괜히 인구밀도높은 지하철에서 괴롭다고ㅈㄹ함. 빨래건조만 잘되도 80%는 사라질껄 나도 자취할때 건조문제로 개코들이 빨래안하냐는소리하고 그고생하다가 넓은방들어오고나서 개코 어머니도 냄새없어졋다고 좋아하셨음",
 "handle": "ty4n.bsky.social",
@@ -2546,17 +2569,17 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.73,
+"폭발": 0.66,
 "붕괴": 0.05,
 "대피": 0.05,
-"미사일": 0.64,
-"속보": 0.12,
-"지하철": 1.41,
+"미사일": 0.68,
+"속보": 0.11,
+"지하철": 1.47,
 "사고": 3.01,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
-"먹통": 0.1,
+"먹통": 0.09,
 "산불": 0.05
 },
 "errors": [],
@@ -2902,14 +2925,14 @@
 "time": "2026-11-28T00:30:00+00:00",
 "news": [
 {
-"title": "반도체 경기가 꺾이면, 나랏돈은 어떻게 될까? - 영상 | 멀티미디어",
+"title": "(보도설명) 미래대응기금은 반도체 호황 등에 따른 대규모 세수를 미래세대를 위한 투자에 활용하기 위한 것입니다.",
 "source": "대한민국 정책브리핑",
-"link": "https://www.korea.kr/multi/mediaNewsView.do?newsId=148976653&pWise=sub&pWiseSub=R6"
+"link": "https://www.korea.kr/briefing/actuallyView.do?newsId=148976652&pWise=main&pWiseMain=B2"
 },
 {
-"title": "여야, ‘미래대응기금’ 놓고 공방…“불확실성 대비”·“미래세대에 부담 전가”",
-"source": "KBS 뉴스",
-"link": "https://news.kbs.co.kr/news/view.do?ncd=8725106"
+"title": "예산안 시한 D-4, 미래대응기금 의결 모두 보류‥주말까지 공방",
+"source": "MBC 뉴스",
+"link": "https://imnews.imbc.com/news/2026/politics/article/6869263_36911.html"
 }
 ],
 "new": true
