@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-28T02:21:53.231946+00:00",
+"updated": "2026-11-28T02:24:07.041827+00:00",
 "errors": [],
 "events": [
 {
@@ -1927,17 +1927,17 @@
 },
 "속보": {
 "n30": 6,
-"base": 0.6,
+"base": 0.7,
 "spike": true
 },
 "지하철": {
-"n30": 5,
+"n30": 4,
 "base": 3.4,
 "spike": false
 },
 "사고": {
 "n30": 0,
-"base": 0.9,
+"base": 0.8,
 "spike": false
 },
 "실종": {
@@ -2171,16 +2171,6 @@
 "term": "먹통"
 },
 {
-"text": "지하철에 사람이 점점 많아지고있어\n쪄죽는다",
-"handle": "pomme-alien.bsky.social",
-"name": "뽐",
-"time": "2026-11-28T01:53:43.750Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/pomme-alien.bsky.social/post/3n3dlt6enbc24",
-"term": "지하철"
-},
-{
 "platform": "YouTube",
 "text": "[속보] 내란특검, 'SNS 내란 선동 혐의' 황교안 징역 10년 구형..내년 1월 28일 1심 선고- [MBC 뉴스속보] MBC뉴스 2026년 11월 27일",
 "handle": "UCF4Wxdo3inmxP-Y59wXDsFw",
@@ -2196,14 +2186,14 @@
 "n30": 9,
 "base": 0.6,
 "spike": true,
-"since": "2026-11-28T02:21:53.231946+00:00"
+"since": "2026-11-28T02:24:07.041827+00:00"
 },
 {
 "term": "속보",
 "n30": 6,
-"base": 0.6,
+"base": 0.7,
 "spike": true,
-"since": "2026-11-28T02:21:53.231946+00:00"
+"since": "2026-11-28T02:24:07.041827+00:00"
 }
 ],
 "baseline": {
@@ -2211,17 +2201,17 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.64,
+"폭발": 0.68,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.68,
-"지하철": 3.37,
-"사고": 0.79,
+"속보": 0.71,
+"지하철": 3.23,
+"사고": 0.71,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
-"먹통": 0.74,
+"먹통": 0.77,
 "산불": 0.05
 },
 "errors": [],
@@ -2393,6 +2383,24 @@
 },
 "trends": [
 {
+"term": "타릭 스쿠발",
+"traffic": "100+",
+"time": "2026-11-28T01:20:00+00:00",
+"news": [
+{
+"title": "“동생아, 우리 참 좋았는데…” 6014억에 떠난 스쿠발, 다저스는 계약 제안조차 안 했다 - 머니투데이",
+"source": "머니투데이",
+"link": "https://www.mt.co.kr/sports/2026/11/28/202611280803771727O"
+},
+{
+"title": "[오늘의 MLB] (11/27) 메이저리그에 불어닥친 선발 영입 광풍...남은 FA 중 주목할 선수는?",
+"source": "네이버 프리미엄콘텐츠",
+"link": "https://contents.premium.naver.com/mlbtoday/mlb/contents/261127151641618je"
+}
+],
+"new": true
+},
+{
 "term": "의사",
 "traffic": "2000+",
 "time": "2026-11-28T01:00:00+00:00",
@@ -2411,26 +2419,8 @@
 "new": true
 },
 {
-"term": "도로",
-"traffic": "100+",
-"time": "2026-11-28T01:00:00+00:00",
-"news": [
-{
-"title": "도로 결빙 사고 35% 출근 시간대 집중…도심 도로서 59% 발생",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261127042600062"
-},
-{
-"title": "[특별기고] 보이지 않는 도로 위 위험, 기상정보로 먼저 알린다",
-"source": "기후에너지데이터뱅크",
-"link": "https://edata.ekn.kr/article/view/ekn202611260006"
-}
-],
-"new": true
-},
-{
 "term": "뉴스1",
-"traffic": "100+",
+"traffic": "200+",
 "time": "2026-11-28T01:00:00+00:00",
 "news": [
 {
@@ -2442,6 +2432,24 @@
 "title": "일단 방향 튼 韓증시...'증안펀드 기대감' 수급·심리 바꿀까",
 "source": "연합인포맥스",
 "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4447041"
+}
+],
+"new": true
+},
+{
+"term": "도로",
+"traffic": "100+",
+"time": "2026-11-28T01:00:00+00:00",
+"news": [
+{
+"title": "안동∼영덕 국도 34호선 개량공사 준공…이동시간 10분 단축",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261127028200053"
+},
+{
+"title": "안동~영덕 국도 34호선 22㎞ 개량 완공…이동 10분 단축",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261127_0003885560"
 }
 ],
 "new": true
@@ -2539,24 +2547,6 @@
 "title": "엑시노스, S27 실리나… 퀄컴 최신 칩과 성능 격차 좁혀",
 "source": "디지털포스트",
 "link": "https://www.ilovepc.co.kr/news/articleView.html?idxno=61462"
-}
-],
-"new": true
-},
-{
-"term": "이해욱",
-"traffic": "1000+",
-"time": "2026-11-28T00:00:00+00:00",
-"news": [
-{
-"title": "단독 한밤중 직원들 집합시킨 DL그룹 회장...성과 부진 탓하며 '보직 해임'",
-"source": "YTN",
-"link": "https://www.ytn.co.kr/_ln/0103_202611280721404224"
-},
-{
-"title": "[PPSS 기업인사이트] 실적 부진 책임은 직원 몫인가…DL이앤씨 심야 소집에 갑질 논란",
-"source": "www.ppss.kr",
-"link": "https://www.ppss.kr/news/articleView.html?idxno=323560"
 }
 ],
 "new": true
