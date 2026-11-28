@@ -1,12 +1,12 @@
 {
-"updated": "2026-11-28T08:48:52.624280+00:00",
+"updated": "2026-11-28T08:51:04.145348+00:00",
 "errors": [],
 "events": [
 {
 "id": "nk5Q0VLQ0s5di16emIxbwoc50657",
 "first": "2026-11-28T06:57:00+00:00",
 "last": "2026-11-28T08:47:28+00:00",
-"updated": "2026-11-28T08:48:52.624280+00:00",
+"updated": "2026-11-28T08:51:04.145348+00:00",
 "headline": "장동혁 \"조희대 대법원장 탄핵 전에 이재명 먼저 탄핵해야\"",
 "cat": "정치",
 "regions": [
@@ -23,6 +23,13 @@
 "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9FOUFrbjVOZEZqX1FpV2xELVBKNEJQUll5THNYVkFFR0dFSTlCdlJZMVBEWVhvUzJhX0p4OXNFRVhBbGtVano2Z0pQVkxGSEVjaVBVTldCR1F5NGdxRmpTSHA2LXBXenlCSTZWQ19wWDFwUzJraXlnN0VwY9IBgAFBVV95cUxPMHFVcTlVdHR1TTZtd2hwdjFoeE53UE53bmhuWE1xSHJHdHQxa2pWMUtqR1N4N0ZKMWtmeHdLNUZNRW5SbnJNdnViMUo5NlY5VGhsYkt3QUJWdkFFT1lzNkR1MUhFMWtQdXZHcTg4LXVFcnk5Q0VLQ0s5di16emIxbw?oc=5",
 "time": "2026-11-28T06:57:00+00:00",
 "stage": "얼럿"
+},
+{
+"title": "국힘, 대전서 대규모 규탄 집회…\"조희대보다 李 먼저 탄핵해야\"",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261128_0003887201",
+"time": "2026-11-28T08:02:16+00:00",
+"stage": "후속"
 },
 {
 "title": "국힘, 대전서 대규모 규탄 집회…\"조희대 전에 李 먼저 탄핵\"(종합)",
@@ -45,6 +52,7 @@
 "장동혁",
 "전에",
 "조희대",
+"조희대보다",
 "집회",
 "탄핵",
 "탄핵해야"
@@ -3269,18 +3277,18 @@
 "spike": false
 },
 "정전": {
-"n30": 2,
+"n30": 1,
 "base": 0.6,
 "spike": false
 },
 "폭발": {
-"n30": 6,
-"base": 0.7,
-"spike": true
+"n30": 3,
+"base": 0.8,
+"spike": false
 },
 "붕괴": {
 "n30": 0,
-"base": 0.8,
+"base": 0.7,
 "spike": false
 },
 "대피": {
@@ -3325,7 +3333,7 @@
 },
 "먹통": {
 "n30": 1,
-"base": 0.2,
+"base": 0.3,
 "spike": false
 },
 "산불": {
@@ -3585,31 +3593,23 @@
 "url": "https://www.youtube.com/watch?v=lPgwbKj8GTI"
 }
 ],
-"spikes": [
-{
-"term": "폭발",
-"n30": 6,
-"base": 0.7,
-"spike": true,
-"since": "2026-11-28T08:48:52.624280+00:00"
-}
-],
+"spikes": [],
 "baseline": {
 "지진": 0.05,
 "화재": 0.05,
 "불났": 0.05,
-"정전": 0.58,
-"폭발": 0.77,
-"붕괴": 0.69,
+"정전": 0.52,
+"폭발": 0.79,
+"붕괴": 0.62,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.72,
-"사고": 2.74,
+"지하철": 0.75,
+"사고": 2.77,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
-"먹통": 0.26,
+"먹통": 0.33,
 "산불": 0.05
 },
 "errors": [],
