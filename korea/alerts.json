@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-28T11:09:35.638616+00:00",
+"updated": "2026-11-28T11:11:45.958828+00:00",
 "errors": [],
 "events": [
 {
@@ -600,6 +600,42 @@
 "폭행",
 "혐의",
 "협박"
+]
+},
+{
+"id": "1iOEdtOWEtSEJoalRWMVkoc51029",
+"first": "2026-11-28T10:29:00+00:00",
+"last": "2026-11-28T10:29:00+00:00",
+"updated": "2026-11-28T11:11:45.958828+00:00",
+"headline": "철도노조 안전운행 투쟁 시작 후 첫 주말, 대전역 열차 운행 차질",
+"cat": "교통",
+"regions": [
+"대전"
+],
+"sources": [
+"대전일보"
+],
+"updates": [
+{
+"title": "[속보] 철도노조 안전운행 투쟁 시작 후 첫 주말, 대전역 열차 운행 차질",
+"source": "대전일보",
+"link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE56YTQ3ZlhxMENzdkE4MEhFMEtvSlF3VVdGQmFkdkNmdjl6WWtJRkdvOTg2S25DdVI0TjJ0bGgzcEx4X2Z2N1JNV044cWJlRmlZOTZsckJXOGJfRzEyaVpuZWktZDVTUDhWMnNPa2JQNNIBc0FVX3lxTE5iTm9weDJ0alZYcUtycHRQNnBjakpPVHdpRDI2akRFOFFTbmlFSmt4eFdhWWlNTFZnNlZ0aWt5cDJaTHc2NENsRnR3alZob3E5OGh2QmYwalRYOWZiWjF6bmF4bU1iOEdtOWEtSEJoalRWMVk?oc=5",
+"time": "2026-11-28T10:29:00+00:00",
+"stage": "얼럿"
+}
+],
+"level": "URGENT",
+"latest": "철도노조 안전운행 투쟁 시작 후 첫 주말, 대전역 열차 운행 차질",
+"tok": [
+"대전역",
+"시작",
+"안전운행",
+"열차",
+"운행",
+"주말",
+"차질",
+"철도노조",
+"투쟁"
 ]
 },
 {
@@ -3333,48 +3369,13 @@
 "세계",
 "준비지수"
 ]
-},
-{
-"id": "0tUb2tiUGxXaWMwWG10Sgoc50616",
-"first": "2026-11-28T06:16:00+00:00",
-"last": "2026-11-28T06:16:00+00:00",
-"updated": "2026-11-28T08:37:55.816461+00:00",
-"headline": "기온 7도 ‘뚝’ 곳곳 비·눈 소식…제주·전라 최대 5㎝ 쌓인다",
-"cat": "기타",
-"regions": [
-"제주"
-],
-"sources": [
-"한겨레"
-],
-"updates": [
-{
-"title": "기온 7도 ‘뚝’ 곳곳 비·눈 소식…제주·전라 최대 5㎝ 쌓인다",
-"source": "한겨레",
-"link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBVREN0QUd1azBXM3NIWlhnby03bzZhb1ZkWVJscnV1WmFSMGJUWXV1bFczZ1F0LTRyZGxRSUtyaldlLUZiRHFCTW42aWRWUEZQV2xSclNWWmVkTXlzN0tUb2tiUGxXaWMwWG10Sg?oc=5",
-"time": "2026-11-28T06:16:00+00:00",
-"stage": "1보"
-}
-],
-"level": "ALERT",
-"latest": "기온 7도 ‘뚝’ 곳곳 비·눈 소식…제주·전라 최대 5㎝ 쌓인다",
-"tok": [
-"7도",
-"곳곳",
-"기온",
-"소식",
-"쌓인다",
-"전라",
-"제주",
-"최대"
-]
 }
 ],
 "sns": {
 "terms": {
 "지진": {
 "n30": 2,
-"base": 0.7,
+"base": 0.6,
 "spike": false
 },
 "화재": {
@@ -3419,12 +3420,12 @@
 },
 "지하철": {
 "n30": 4,
-"base": 1.2,
+"base": 1.3,
 "spike": false
 },
 "사고": {
 "n30": 4,
-"base": 2.1,
+"base": 2.3,
 "spike": false
 },
 "실종": {
@@ -3693,29 +3694,29 @@
 "n30": 5,
 "base": 0.7,
 "spike": true,
-"since": "2026-11-28T11:09:35.638616+00:00"
+"since": "2026-11-28T11:11:45.958828+00:00"
 },
 {
 "term": "속보",
 "n30": 6,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-28T11:09:35.638616+00:00"
+"since": "2026-11-28T11:11:45.958828+00:00"
 }
 ],
 "baseline": {
-"지진": 0.64,
+"지진": 0.58,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.71,
+"폭발": 0.74,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 1.29,
-"사고": 2.27,
-"실종": 0.2,
+"지하철": 1.36,
+"사고": 2.44,
+"실종": 0.18,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -3972,9 +3973,9 @@
 "link": "https://news.kbs.co.kr/news/view.do?ncd=8725188"
 },
 {
-"title": "\"제주 하늘길 어쩌나\"…강풍에 항공기 104편 결항·지연 - 머니투데이",
-"source": "머니투데이",
-"link": "https://www.mt.co.kr/society/2026/11/28/2026112819132732688"
+"title": "제주 강풍에 날아간 판넬 50대 덮쳐…항공편 64편 결항",
+"source": "동아일보",
+"link": "https://www.donga.com/news/Society/article/all/20261128/135107854/1"
 }
 ],
 "new": true
