@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-28T14:48:52.855032+00:00",
+"updated": "2026-11-28T14:51:04.819278+00:00",
 "errors": [],
 "events": [
 {
@@ -2684,7 +2684,7 @@
 },
 "폭발": {
 "n30": 5,
-"base": 0.9,
+"base": 1.0,
 "spike": true
 },
 "붕괴": {
@@ -2709,7 +2709,7 @@
 },
 "지하철": {
 "n30": 1,
-"base": 0.7,
+"base": 0.8,
 "spike": false
 },
 "사고": {
@@ -2719,7 +2719,7 @@
 },
 "실종": {
 "n30": 0,
-"base": 0.5,
+"base": 0.4,
 "spike": false
 },
 "단수": {
@@ -2870,7 +2870,7 @@
 "handle": "smadus29.bsky.social",
 "name": "늠연",
 "time": "2026-11-28T14:21:47.647Z",
-"likes": 1,
+"likes": 2,
 "reposts": 0,
 "url": "https://bsky.app/profile/smadus29.bsky.social/post/3n3evmsnoa226",
 "term": "사고"
@@ -2970,16 +2970,16 @@
 {
 "term": "폭발",
 "n30": 5,
-"base": 0.9,
+"base": 1.0,
 "spike": true,
-"since": "2026-11-28T14:48:52.855032+00:00"
+"since": "2026-11-28T14:51:04.819278+00:00"
 },
 {
 "term": "속보",
 "n30": 6,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-28T14:48:52.855032+00:00"
+"since": "2026-11-28T14:51:04.819278+00:00"
 }
 ],
 "baseline": {
@@ -2987,14 +2987,14 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 1.03,
+"폭발": 1.13,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.76,
-"사고": 1.92,
-"실종": 0.42,
+"지하철": 0.78,
+"사고": 1.93,
+"실종": 0.38,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -3281,24 +3281,6 @@
 "new": true
 },
 {
-"term": "원자력 잠수함",
-"traffic": "500+",
-"time": "2026-11-28T12:30:00+00:00",
-"news": [
-{
-"title": "美 \"韓핵잠 검증협상은 IAEA 권한\"…中 '회원국 합의' 주장 반박",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261128048100504"
-},
-{
-"title": "한화오션 ‘굳히기’ vs HD현중 ‘뒤집기’ [맞수맞짱]",
-"source": "매일경제",
-"link": "https://www.mk.co.kr/news/business/12220169"
-}
-],
-"new": true
-},
-{
 "term": "al-hazem vs al-nassr",
 "traffic": "500+",
 "time": "2026-11-28T12:10:00+00:00",
@@ -3348,6 +3330,24 @@
 "title": "17억5천910만원 1등 어디서 나왔나…이번주 로또 명당 정리",
 "source": "경기일보",
 "link": "https://www.kyeonggi.com/article/20261128580147"
+}
+],
+"new": true
+},
+{
+"term": "링컨 시티 대 울브스",
+"traffic": "1000+",
+"time": "2026-11-28T11:50:00+00:00",
+"news": [
+{
+"title": "Lincoln City 0-0 Wolves: Managerless Imp deny Wolves chance to go top of Championship",
+"source": "BBC",
+"link": "https://www.bbc.com/sport/football/live/c3n0lgw017rlt"
+},
+{
+"title": "Licensable picture: Championship - Lincoln City v Wolverhampton Wanderers",
+"source": "Reuters Connect",
+"link": "https://www.reutersconnect.com/item/championship-lincoln-city-v-wolverhampton-wanderers/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX1VQMUVNQlMxMzZJVko"
 }
 ],
 "new": true
