@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-28T15:45:50.074918+00:00",
+"updated": "2026-11-28T15:48:00.584684+00:00",
 "errors": [],
 "events": [
 {
@@ -1922,7 +1922,7 @@
 "sns": {
 "terms": {
 "지진": {
-"n30": 2,
+"n30": 1,
 "base": 0.8,
 "spike": false
 },
@@ -1942,7 +1942,7 @@
 "spike": false
 },
 "폭발": {
-"n30": 8,
+"n30": 7,
 "base": 0.5,
 "spike": true
 },
@@ -1972,8 +1972,8 @@
 "spike": false
 },
 "사고": {
-"n30": 0,
-"base": 1.0,
+"n30": 1,
+"base": 0.9,
 "spike": false
 },
 "실종": {
@@ -2003,6 +2003,16 @@
 }
 },
 "posts": [
+{
+"text": "블친들 싹다 팔로우 안된거보고 무슨 사고친줄 알았는데 걍 드림계정으로 뜬거여서 몰랐던거였음.....",
+"handle": "43-not.bsky.social",
+"name": "43",
+"time": "2026-11-28T15:45:32.846Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/43-not.bsky.social/post/3n3f2cltqs22p",
+"term": "사고"
+},
 {
 "text": "나두 성욕 폭발중. 라인함?",
 "handle": "delaying110.bsky.social",
@@ -2150,16 +2160,6 @@
 "url": "https://www.youtube.com/watch?v=O9-lO1JMpX4"
 },
 {
-"text": "반대로 토욜 휴무 한 번 밖에 없어 (동공지진....)\n\n...그 때 토일 휴무니 마아잇까",
-"handle": "ideadiamandis.bsky.social",
-"name": "🍋 iΔea",
-"time": "2026-11-28T15:17:01.641Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/ideadiamandis.bsky.social/post/3n3eyplk57c2c",
-"term": "지진"
-},
-{
 "platform": "YouTube",
 "text": "왜 이제 샀을까! 후기 폭발 실내 수영복 패킹 꿀조합: 코멧·스포츠·브릿지뷰 총정리",
 "handle": "UCecRENMn8uYqMNK0Q371RXQ",
@@ -2226,24 +2226,24 @@
 "spikes": [
 {
 "term": "폭발",
-"n30": 8,
+"n30": 7,
 "base": 0.5,
 "spike": true,
-"since": "2026-11-28T15:45:50.074918+00:00"
+"since": "2026-11-28T15:48:00.584684+00:00"
 }
 ],
 "baseline": {
-"지진": 0.79,
+"지진": 0.71,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.52,
-"붕괴": 0.6,
-"대피": 0.31,
+"폭발": 0.57,
+"붕괴": 0.64,
+"대피": 0.28,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.08,
-"사고": 0.94,
+"지하철": 0.07,
+"사고": 0.95,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -2505,14 +2505,14 @@
 "time": "2026-11-28T14:20:00+00:00",
 "news": [
 {
+"title": "ถ่ายทอดสด MU vs Brentford 0-0 (ครึ่งแรก): พลาด!!! MU รอดพ้นจากความพ่ายแพ้ไปได้อย่างหวุดหวิด",
+"source": "Vietnam.vn",
+"link": "https://www.vietnam.vn/th/truc-tiep-mu-vs-brentford-0-0-h1-khong-vao-mu-thoat-thua"
+},
+{
 "title": "LIVE ดูบอลสด แมนยู พบ เบรนท์ฟอร์ด บอลวันนี้ (28 พ.ย. 69) 22.00 น. พรีเมียร์ลีก 2026-27",
 "source": "thairath.co.th",
 "link": "https://www.thairath.co.th/sport/eurofootball/premierleague/2973516"
-},
-{
-"title": "\"เต้ยเป๋าตุง\" ฟันธง (28 พ.ย.69) ชี้ 7 คู่เด่น ทีมลุ้นเข้าวิน เน้นๆ 3 บอลเต็ง",
-"source": "สยามรัฐ",
-"link": "https://siamrath.co.th/sports/338522"
 }
 ],
 "new": true
