@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-28T15:28:16.504593+00:00",
+"updated": "2026-11-28T15:30:28.541970+00:00",
 "errors": [],
 "events": [
 {
@@ -1996,7 +1996,7 @@
 "sns": {
 "terms": {
 "지진": {
-"n30": 2,
+"n30": 1,
 "base": 0.5,
 "spike": false
 },
@@ -2011,23 +2011,23 @@
 "spike": false
 },
 "정전": {
-"n30": 3,
+"n30": 2,
 "base": 0.1,
 "spike": false
 },
 "폭발": {
-"n30": 5,
+"n30": 4,
 "base": 0.8,
-"spike": true
+"spike": false
 },
 "붕괴": {
-"n30": 2,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
 "대피": {
 "n30": 0,
-"base": 0.8,
+"base": 0.7,
 "spike": false
 },
 "미사일": {
@@ -2036,18 +2036,18 @@
 "spike": false
 },
 "속보": {
-"n30": 7,
+"n30": 4,
 "base": 0.1,
-"spike": true
+"spike": false
 },
 "지하철": {
-"n30": 2,
+"n30": 1,
 "base": 0.2,
 "spike": false
 },
 "사고": {
 "n30": 1,
-"base": 2.0,
+"base": 1.9,
 "spike": false
 },
 "실종": {
@@ -2077,6 +2077,16 @@
 }
 },
 "posts": [
+{
+"text": "붕괴: 넥서스 아니마\n\nUID: 50009815\n\n#HonkaiNexusAnima",
+"handle": "yae.muri.network.ap.brid.gy",
+"name": "예 웨이",
+"time": "2026-11-28T15:29:19.243Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/yae.muri.network.ap.brid.gy/post/3n3ezfgqcibl2",
+"term": "붕괴"
+},
 {
 "text": "반대로 토욜 휴무 한 번 밖에 없어 (동공지진....)\n\n...그 때 토일 휴무니 마아잇까",
 "handle": "ideadiamandis.bsky.social",
@@ -2287,35 +2297,20 @@
 "url": "https://www.youtube.com/watch?v=OOi8pYelKdw"
 }
 ],
-"spikes": [
-{
-"term": "폭발",
-"n30": 5,
-"base": 0.8,
-"spike": true,
-"since": "2026-11-28T15:28:16.504593+00:00"
-},
-{
-"term": "속보",
-"n30": 7,
-"base": 0.1,
-"spike": true,
-"since": "2026-11-28T15:28:16.504593+00:00"
-}
-],
+"spikes": [],
 "baseline": {
-"지진": 0.51,
+"지진": 0.56,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.77,
-"붕괴": 0.05,
-"대피": 0.71,
+"폭발": 0.69,
+"붕괴": 0.15,
+"대피": 0.64,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.17,
-"사고": 1.95,
-"실종": 0.07,
+"지하철": 0.15,
+"사고": 1.85,
+"실종": 0.06,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -2522,9 +2517,9 @@
 "time": "2026-11-28T14:20:00+00:00",
 "news": [
 {
-"title": "LIVESTREAMS·FREE!TVs] Derby County vs Watford Live Free Soccer football updates In 28 November 2026",
+"title": "LIVESTREAMS·FREE!TVs] Wrexham vs Portsmouth Live Free Soccer football updates In 28 November 2026",
 "source": "tallahatchienews.ms",
-"link": "https://www.tallahatchienews.ms/node/480603"
+"link": "https://www.tallahatchienews.ms/node/480598"
 },
 {
 "title": "West Ham United v Stoke City: Championship stats & head-to-head",
