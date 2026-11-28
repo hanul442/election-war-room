@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-28T11:22:41.425851+00:00",
+"updated": "2026-11-28T11:24:52.943700+00:00",
 "errors": [],
 "events": [
 {
@@ -3387,7 +3387,7 @@
 "terms": {
 "지진": {
 "n30": 2,
-"base": 0.4,
+"base": 0.3,
 "spike": false
 },
 "화재": {
@@ -3432,12 +3432,12 @@
 },
 "지하철": {
 "n30": 4,
-"base": 1.4,
+"base": 1.5,
 "spike": false
 },
 "사고": {
-"n30": 6,
-"base": 3.4,
+"n30": 5,
+"base": 3.7,
 "spike": false
 },
 "실종": {
@@ -3696,22 +3696,22 @@
 "n30": 6,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-28T11:22:41.425851+00:00"
+"since": "2026-11-28T11:24:52.943700+00:00"
 }
 ],
 "baseline": {
-"지진": 0.34,
+"지진": 0.31,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.66,
+"폭발": 0.59,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 1.48,
-"사고": 3.69,
-"실종": 0.11,
+"지하철": 1.53,
+"사고": 3.82,
+"실종": 0.1,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -3886,8 +3886,44 @@
 },
 "trends": [
 {
-"term": "베스킨라빈스",
+"term": "주가",
+"traffic": "1000+",
+"time": "2026-11-28T10:20:00+00:00",
+"news": [
+{
+"title": "“현대차 70만원 때 더 팔걸”…김구라도 아쉬워한 주가, 지금은",
+"source": "이데일리",
+"link": "https://www.edaily.co.kr/News/Read?newsId=01590806645650312&mediaCodeNo=257"
+},
+{
+"title": "김구라, 현대차 투자 고백 \"70만원에 팔아\"",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261127_0003886881"
+}
+],
+"new": true
+},
+{
+"term": "최가온",
 "traffic": "100+",
+"time": "2026-11-28T10:20:00+00:00",
+"news": [
+{
+"title": "135m 번지점프도 훌쩍, 스노보드 천재 최가온의 다음 도전은?",
+"source": "KBS 뉴스",
+"link": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8725037"
+},
+{
+"title": "최가온 \"올림픽 때보다 반 바퀴 더 돈다\"",
+"source": "조선일보",
+"link": "https://www.chosun.com/international/international_general/2026/11/28/EPZD66XHXVHRJKFVBNVZIS6NMI/"
+}
+],
+"new": true
+},
+{
+"term": "베스킨라빈스",
+"traffic": "200+",
 "time": "2026-11-28T10:10:00+00:00",
 "news": [],
 "new": true
@@ -3988,14 +4024,14 @@
 "time": "2026-11-28T08:50:00+00:00",
 "news": [
 {
-"title": "부산보훈청·한전 부울본부, 국가유공자 제146·147호 '보비하우스' 오픈",
-"source": "국제뉴스",
-"link": "https://www.gukjenews.com/news/articleView.html?idxno=3765998"
+"title": "[경북소식]나라사랑 한마음대회, 유공자·가족 위로·감사 등",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261127_0003886513"
 },
 {
-"title": "참전유공자 유족 주택 새 단장…HF `아너하우스` 헌정",
-"source": "매일신문",
-"link": "https://www.imaeil.com/page/view/2026112523472006495"
+"title": "윤종구 울진광복회장 표창패 받아",
+"source": "울진신문",
+"link": "http://www.uljinnews.co.kr/news/articleView.html?idxno=76934"
 }
 ],
 "new": true
@@ -4005,42 +4041,6 @@
 "traffic": "500+",
 "time": "2026-11-28T08:30:00+00:00",
 "news": [],
-"new": true
-},
-{
-"term": "북항친수공원",
-"traffic": "500+",
-"time": "2026-11-28T08:30:00+00:00",
-"news": [
-{
-"title": "‘부캉이’ 재진입 차단시설 12월1일 철거…“따뜻한 남쪽 바다서 잘 지내니”",
-"source": "경향신문",
-"link": "https://www.khan.co.kr/article/202611281006001"
-},
-{
-"title": "부산 북항 친수공원 상어 '부캉이' 차단막 내달 1일 철거",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261127075100051"
-}
-],
-"new": true
-},
-{
-"term": "박정우",
-"traffic": "500+",
-"time": "2026-11-28T08:20:00+00:00",
-"news": [
-{
-"title": "KIA 내부 FA 초대형 변수 등장! 'MVP' 韓슈퍼스타 간절히 외쳤다 \"김태군-김호령 꼭 필요한 선배들, 계약해주세요\"",
-"source": "조선일보",
-"link": "https://www.chosun.com/sports/baseball/2026/11/27/GQYDOMZTMQ4WEMRVHA4GCYLDMI/"
-},
-{
-"title": "이범호 계약 기간 마지막 해, FA 선물은 있을까… 이범호가 아닌 KIA를 위해 필요하다",
-"source": "SPOTV NEWS",
-"link": "https://www.spotvnews.co.kr/news/articleView.html?idxno=1022306"
-}
-],
 "new": true
 }
 ],
