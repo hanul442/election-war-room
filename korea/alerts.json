@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-28T15:32:40.072720+00:00",
+"updated": "2026-11-28T15:34:50.940056+00:00",
 "errors": [],
 "events": [
 {
@@ -1990,40 +1990,6 @@
 "항공기",
 "확산"
 ]
-},
-{
-"id": "wdlpXRWw3M243NWlBQTJnoc50933",
-"first": "2026-11-28T09:33:38+00:00",
-"last": "2026-11-28T09:33:38+00:00",
-"updated": "2026-11-28T09:37:11.172537+00:00",
-"headline": "中고문 이력이 친중? 강금실 \"박근혜 정부때 위촉된 무보수 명예직이다\"",
-"cat": "정치",
-"regions": [],
-"sources": [
-"매일신문"
-],
-"updates": [
-{
-"title": "[속보] 中고문 이력이 친중? 강금실 \"박근혜 정부때 위촉된 무보수 명예직이다\"",
-"source": "매일신문",
-"link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBwVFY2T2YzWktDazU4c3FQM2d1czUzcVhkTjlBM3RuVG5XXzE2UTk5N0ctTlhRWVBuNERBUHdyQ3ZkQlRJY1BqdEh0V1BsMEdOeEswdlpXRWw3M243NWlBQTJn?oc=5",
-"time": "2026-11-28T09:33:38+00:00",
-"stage": "얼럿"
-}
-],
-"level": "URGENT",
-"latest": "中고문 이력이 친중? 강금실 \"박근혜 정부때 위촉된 무보수 명예직이다\"",
-"tok": [
-"中고문",
-"강금실",
-"명예직이다",
-"무보수",
-"박근혜",
-"위촉된",
-"이력",
-"정부때",
-"친중"
-]
 }
 ],
 "sns": {
@@ -2049,13 +2015,13 @@
 "spike": false
 },
 "폭발": {
-"n30": 2,
-"base": 0.7,
+"n30": 1,
+"base": 0.6,
 "spike": false
 },
 "붕괴": {
 "n30": 1,
-"base": 0.1,
+"base": 0.2,
 "spike": false
 },
 "대피": {
@@ -2074,13 +2040,13 @@
 "spike": false
 },
 "지하철": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
 "사고": {
-"n30": 1,
-"base": 1.9,
+"n30": 0,
+"base": 1.8,
 "spike": false
 },
 "실종": {
@@ -2192,16 +2158,6 @@
 "time": "2026-11-28T15:04:43Z",
 "term": "폭발",
 "url": "https://www.youtube.com/watch?v=XZ_su1vm9uE"
-},
-{
-"text": "키보드 가벼운 걸로 사고 싶다 가볍고 조금 더 낮은 거...\n지금 거 깊고 무거워",
-"handle": "greathedgehog.bsky.social",
-"name": "가시캐리어",
-"time": "2026-11-28T15:04:34.145Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/greathedgehog.bsky.social/post/3n3exzclits2b",
-"term": "사고"
 },
 {
 "platform": "YouTube",
@@ -2332,17 +2288,17 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 0.6,
+"지진": 0.64,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.62,
-"붕괴": 0.24,
-"대피": 0.58,
+"폭발": 0.56,
+"붕괴": 0.32,
+"대피": 0.52,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.14,
-"사고": 1.77,
+"지하철": 0.13,
+"사고": 1.59,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -2545,14 +2501,50 @@
 },
 "trends": [
 {
-"term": "웨스트 햄 대 스토크 시티",
+"term": "man utd đấu với brentford",
 "traffic": "200+",
+"time": "2026-11-28T14:30:00+00:00",
+"news": [
+{
+"title": "Previa del partido Manchester United vs. Brentford: Un punto clave en la lucha por el título.",
+"source": "شبكة تواصل الإخبارية",
+"link": "https://twaslnews1.twaslnews.com/8431900/"
+},
+{
+"title": "Bruno Fernandes vượt qua cơn ốm để đá chính cho Man United",
+"source": "Bongda24h",
+"link": "https://bongda24h.vn/bong-da-anh/bruno-fernandes-vuot-qua-con-om-de-da-chinh-cho-man-united-172-465943.html"
+}
+],
+"new": true
+},
+{
+"term": "정수빈",
+"traffic": "2000+",
+"time": "2026-11-28T14:30:00+00:00",
+"news": [
+{
+"title": "'여제' 김가영 vs '대세' 정수빈…LPBA 6차 투어 결승서 격돌",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261128_0003887002"
+},
+{
+"title": "2026-27 프로당구 PBA투어 : 초반 연속득점으로 기선제압 하는 정수빈 [휴온스 LPBA 챔피언십]",
+"source": "programs.sbs.co.kr",
+"link": "https://programs.sbs.co.kr/sports/pbatour2026/clip/89664/22000640532"
+}
+],
+"new": true
+},
+{
+"term": "웨스트 햄 대 스토크 시티",
+"traffic": "500+",
 "time": "2026-11-28T14:20:00+00:00",
 "news": [
 {
-"title": "LIVESTREAMS·FREE!TVs] Derby County vs Watford Live Free Soccer football updates In 28 November 2026",
+"title": "LIVESTREAMS·FREE!TVs] Wrexham vs Portsmouth Live Free Soccer football updates In 28 November 2026",
 "source": "tallahatchienews.ms",
-"link": "https://www.tallahatchienews.ms/node/480603"
+"link": "https://www.tallahatchienews.ms/node/480598"
 },
 {
 "title": "West Ham United v Stoke City: Championship stats & head-to-head",
@@ -2589,31 +2581,13 @@
 },
 {
 "term": "man utd vs brentford",
-"traffic": "1000+",
+"traffic": "2000+",
 "time": "2026-11-28T14:10:00+00:00",
 "news": [
 {
-"title": "West Ham eye January return for former academy ace Wayne Rooney hailed as a 'real coup' - report",
-"source": "West Ham World",
-"link": "https://westhamworld.co.uk/transfer-rumours/west-ham-eye-january-return-for-former-academy-ace-wayne-rooney-hailed-as-a-real-coup-report"
-},
-{
-"title": "Barcelona raid on Man Utd now ‘within reach’ after star worries about Pochettino",
-"source": "TEAMtalk",
-"link": "https://www.teamtalk.com/manchester-united/barcelona-raid-man-utd-within-reach-star-worries-mauricio-pochettino"
-}
-],
-"new": true
-},
-{
-"term": "리즈 유나이티드 대 코번트리",
-"traffic": "1000+",
-"time": "2026-11-28T14:10:00+00:00",
-"news": [
-{
-"title": "Man United vs Brentford LIVE: Premier League score, updates and commentary",
-"source": "ESPN",
-"link": "https://www.espn.com/soccer/story/_/id/50620639/manchester-united-brentford-live-premier-league-updates"
+"title": "Pochettino faces injury concerns ahead of Manchester United home debut",
+"source": "Chosunbiz",
+"link": "https://biz.chosun.com/en/en-sports/2026/11/28/5WCMDMNS5JAVHBCUH5XCCKTU7A/"
 },
 {
 "title": "Premier League: Fernandes starts as Man Utd host Brentford, Leeds face Coventry",
@@ -2691,24 +2665,6 @@
 "title": "어머니 사망 후 예금 인출, 장례비로 썼어도 유죄",
 "source": "로톡",
 "link": "https://www.lawtalk.co.kr/case-lenses/103833"
-}
-],
-"new": true
-},
-{
-"term": "굿파트너2",
-"traffic": "500+",
-"time": "2026-11-28T13:00:00+00:00",
-"news": [
-{
-"title": "‘굿파트너2’ 차은경·박태수, 법정서 격돌…재산 노린 결혼에 분노 폭발",
-"source": "제민일보",
-"link": "http://www.jemin.com/news/articleView.html?idxno=848745"
-},
-{
-"title": "굿파트너2 : [고통 엔딩] 장나라, 지승현 때문에 눈물 흘리는 유나 목격",
-"source": "programs.sbs.co.kr",
-"link": "https://programs.sbs.co.kr/drama/goodpartner2/clip/88592/OC484456781"
 }
 ],
 "new": true
