@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-28T06:55:09.133811+00:00",
+"updated": "2026-11-28T06:57:23.554239+00:00",
 "errors": [],
 "events": [
 {
@@ -570,7 +570,7 @@
 "id": "viewAKR202611280347000630545",
 "first": "2026-11-28T05:45:44+00:00",
 "last": "2026-11-28T06:16:15+00:00",
-"updated": "2026-11-28T06:21:23.500154+00:00",
+"updated": "2026-11-28T06:57:23.554239+00:00",
 "headline": "전국서 잇단 산불에…산림청 \"산불 예방 위한 국민 협조 당부\"",
 "cat": "재난",
 "regions": [
@@ -593,6 +593,13 @@
 "title": "[속보] 전국 잇단 산불…산림청 “산불 예방에 국민 협조 당부”",
 "source": "세계일보",
 "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5IalYteU5pSTRWOUp0U1lvdExEdzRybjJxWEo3UkhxMWMzR0JVekdqR1VwcnkzQ1dEQnNwQkRBc1lDNkhqbk5icnVxckMwcVBYRUdCaEpHcUZsZmdCUEhfWlFzUnlzaU1RZzNJ0gFUQVVfeXFMTXlxS1JtNng3Q01xZF9FOVBPaVlIMHBOSXBWOVhtcEt2UG5zV29rTExIelRJSjBhcXJXWm51Ynl2cmlFQWVzdkZGSmVJSHJHcXM0dFV1?oc=5",
+"time": "2026-11-28T06:03:44+00:00",
+"stage": "속보"
+},
+{
+"title": "[속보] 전국 잇단 산불…산림청 “산불 예방에 국민 협조 당부”",
+"source": "세계일보",
+"link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE15cUtSbTZ4N0NNcWRfRTlQT2lZSDBwTklwVjlYbXBLdlBuc1dva0xMSHpUSUowYXFyV1pudWJ5dnJpRUFlc3ZGRkplSUhyR3FzNHRVddIBVEFVX3lxTE15cUtSbTZ4N0NNcWRfRTlQT2lZSDBwTklwVjlYbXBLdlBuc1dva0xMSHpUSUowYXFyV1pudWJ5dnJpRUFlc3ZGRkplSUhyR3FzNHRVdQ?oc=5",
 "time": "2026-11-28T06:03:44+00:00",
 "stage": "속보"
 },
@@ -3064,11 +3071,11 @@
 "terms": {
 "지진": {
 "n30": 0,
-"base": 0.3,
+"base": 0.2,
 "spike": false
 },
 "화재": {
-"n30": 0,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
@@ -3078,14 +3085,14 @@
 "spike": false
 },
 "정전": {
-"n30": 0,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
 "폭발": {
-"n30": 0,
-"base": 0.7,
-"spike": false
+"n30": 5,
+"base": 0.6,
+"spike": true
 },
 "붕괴": {
 "n30": 0,
@@ -3098,23 +3105,23 @@
 "spike": false
 },
 "미사일": {
-"n30": 0,
+"n30": 2,
 "base": 0.1,
 "spike": false
 },
 "속보": {
-"n30": 0,
-"base": 0.2,
-"spike": false
+"n30": 9,
+"base": 0.1,
+"spike": true
 },
 "지하철": {
-"n30": 3,
-"base": 1.6,
+"n30": 5,
+"base": 1.8,
 "spike": false
 },
 "사고": {
 "n30": 1,
-"base": 3.5,
+"base": 3.2,
 "spike": false
 },
 "실종": {
@@ -3144,6 +3151,115 @@
 }
 },
 "posts": [
+{
+"platform": "YouTube",
+"text": "🌋 용암 아이스크림을 먹는 순간… 화산이 폭발했다! 😱🔥🍦#용암아이스크림 #화산폭발 #아이스크림먹방 #AI영상 #한국여자 #신기한영상 #ViralVideo #Shorts",
+"handle": "UCQdTUUzAFVxBbYBiPauUyCA",
+"name": "MADAN AI",
+"time": "2026-11-28T06:56:21Z",
+"term": "폭발",
+"url": "https://www.youtube.com/watch?v=SmDcOjPtDoA"
+},
+{
+"platform": "YouTube",
+"text": "우체국이 뚫렸다…하루 만에 11만 명 개인정보 유출! #우체국 #개인정보유출 #해킹 #속보",
+"handle": "UCKhQE1pkzKv-3cSUFDASIEg",
+"name": "지금한국",
+"time": "2026-11-28T06:55:33Z",
+"term": "속보",
+"url": "https://www.youtube.com/watch?v=Sdp1Bvw_Bj0"
+},
+{
+"text": "서울도 사실 지하철이 좀 들어가야 할 공간이 있는데, 가디단/구디단 블럭 쪽이죠. 광역전철 신안산선 예정이 있긴 하지만 이게 제대로 긁어주는 형태로 들어가는 느낌이라긴 살짝 어긋난 감도 있고, 의외로 지역 넓이나 통근인구 대비 공급이 많이 후달리죠. 통근시간대에 이동네 걸어다녀 보면 이게 체감이 좀 될겁니다.",
+"handle": "inspektor.bsky.social",
+"name": "국철진",
+"time": "2026-11-28T06:55:21.744Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/inspektor.bsky.social/post/3n3e4ok6hb22g",
+"term": "지하철"
+},
+{
+"platform": "YouTube",
+"text": "[델타포스 모바일] 게임 체인저 : 유도미사일 #Shorts #델타포스 모바일 #Delta Force Mobile #모바일 FPS",
+"handle": "UCj7yHXYtTPLFyPxy2csBRnA",
+"name": "헬스하는 아빠의 델타포스",
+"time": "2026-11-28T06:54:03Z",
+"term": "미사일",
+"url": "https://www.youtube.com/watch?v=N7NXcdAANl4"
+},
+{
+"platform": "YouTube",
+"text": "산업안전기사 실기 7장 · 화재 폭발 헷갈림 셋 #Shorts",
+"handle": "UCdPSUwC2CXlsNYS5xvMjPwQ",
+"name": "한국용접기술학원(주)",
+"time": "2026-11-28T06:50:57Z",
+"term": "화재",
+"url": "https://www.youtube.com/watch?v=tWya8U3u8VU"
+},
+{
+"platform": "YouTube",
+"text": "날아라 슈퍼보드 지하철 안내방송 흉내에 껌 팔았냐는 소리 듣는 저팔계 69편",
+"handle": "UClLyhO7sLYrKY6hu-RG6qAg",
+"name": "장면도감",
+"time": "2026-11-28T06:50:43Z",
+"term": "지하철",
+"url": "https://www.youtube.com/watch?v=XwczT7aOix4"
+},
+{
+"platform": "YouTube",
+"text": "[대한광통신 주가전망]💥\"실시간토요일 긴급속보!! 매매정지해제! +40조확정속보!! 긴급 대차상환했다! 세력긴급정보유출! 물려있는분 역대급정책뜬다!\"💥이렇게대응하세요💥#주식대장",
+"handle": "UCqVJu6SdqRt7M7hy7Z-4v5Q",
+"name": "주식타짜훈련소",
+"time": "2026-11-28T06:48:38Z",
+"term": "속보",
+"url": "https://www.youtube.com/watch?v=E_kd42cLZPQ"
+},
+{
+"platform": "YouTube",
+"text": "[속보] 일론, 운전대 끝났다. 손가락만 대면 간다! 일론의 TESLA FSD 업뎃 예고/독일 핵심 기업 삼킨 테슬라/머스크의 마지막 퍼즐은 옵티머스/Tesla 에너지/테슬라 투자",
+"handle": "UCtQmhtP8Z5asWK-RoHFc_Hw",
+"name": "도군TV 주식으로부자되기",
+"time": "2026-11-28T06:47:40Z",
+"term": "속보",
+"url": "https://www.youtube.com/watch?v=RROEBwoBsMk"
+},
+{
+"platform": "YouTube",
+"text": "속보 BTS 7인 새벽 라스베거스 공연 중 긴급초대받은 시상식 공연도 안하고 최우수상까지 받았다고?! 도대체 한국 사람들은 못하는게 뭐야 거기 또 쓰레기 하나도없지?!",
+"handle": "UC3pWlMXTIa2D2T_cOuj9aKQ",
+"name": "고담",
+"time": "2026-11-28T06:46:11Z",
+"term": "속보",
+"url": "https://www.youtube.com/watch?v=EwNAR9E75O4"
+},
+{
+"platform": "YouTube",
+"text": "[도플러파이낸스 코인] 긴급속보 메가톤급 호재 발표!! 역대급 폭등 나온다 필수시청 #도플러파이낸스 #도플러파이낸스코인 #도플러파이낸스코인전망",
+"handle": "UCTwhs6TaLO3LOeMRqu00TtQ",
+"name": "Face Content",
+"time": "2026-11-28T06:45:32Z",
+"term": "속보",
+"url": "https://www.youtube.com/watch?v=HPRz54XkwCc"
+},
+{
+"platform": "YouTube",
+"text": "[속보] 법관들 동요 확산… 국제변호사협회 \"재고해야\" [뉴스플레이리스트] / 채널A",
+"handle": "UCfq4V1DAuaojnr2ryvWNysw",
+"name": "채널A News",
+"time": "2026-11-28T06:42:25Z",
+"term": "속보",
+"url": "https://www.youtube.com/watch?v=lVwgiAvwpl4"
+},
+{
+"platform": "YouTube",
+"text": "와글링 행성 정전의 이유 ⚡ #와트메이커 #Shorts",
+"handle": "UC22ezSP6lwjwSF3GKCpopgg",
+"name": "와트메이커",
+"time": "2026-11-28T06:42:17Z",
+"term": "정전",
+"url": "https://www.youtube.com/watch?v=yqVSqatE1l4"
+},
 {
 "text": "다포지였군아 다 사고 따로 정리해서 어디에 있내고 하면 어.... 하고 반쯤 틀려요ㅋㅋ",
 "handle": "scalie-sea.bsky.social",
@@ -3175,435 +3291,305 @@
 "term": "지하철"
 },
 {
-"text": "지하철 청소아줌마 막 쓰래기를 던지는거야\n\n역무실가서 항의하니\n장애인이라네\n\n이건머 에혀\n사람이 이리없나",
-"handle": "keitheryn.bsky.social",
-"name": "로아",
-"time": "2026-11-28T06:37:58.940Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/keitheryn.bsky.social/post/3n3e3phps2s2k",
-"term": "지하철"
+"platform": "YouTube",
+"text": "[문틀란 TV]   법조계 폭발!!  이재명, 망했다!  충격 여론 등장!",
+"handle": "UCJzdo0x-J0wRO4SZ6T8A3dA",
+"name": "문틀란TV",
+"time": "2026-11-28T06:39:38Z",
+"term": "폭발",
+"url": "https://www.youtube.com/watch?v=oINT-IzXNCo"
 },
 {
 "platform": "YouTube",
-"text": "대통령 매제까지 끌어들인 금 사재기, 15분 만에 붕괴 | 1869 검은 금요일 실화",
-"handle": "UCdEnwVEXdE1yWapUo_NAWYw",
-"name": "주식 이야기",
-"time": "2026-11-28T06:24:18Z",
-"term": "붕괴",
-"url": "https://www.youtube.com/watch?v=clKG-p0EUbI"
-},
-{
-"platform": "YouTube",
-"text": "건물 화재에서 불꽃보다 더 무서운 '코드 T27'의 정체. #Shorts",
-"handle": "UCiHBtHkRYdlzGB8yBZBmSGA",
-"name": "K-Tap",
-"time": "2026-11-28T06:22:50Z",
-"term": "화재",
-"url": "https://www.youtube.com/watch?v=Y7ZtkHni52w"
-},
-{
-"platform": "YouTube",
-"text": "크루즈 공용실에 화재 감지기가 있는 이유",
-"handle": "UC-4sTlzZPO_ADeHoGRWauVw",
-"name": "trace_kr",
-"time": "2026-11-28T06:20:39Z",
-"term": "화재",
-"url": "https://www.youtube.com/watch?v=Pt2uA5YQEyk"
-},
-{
-"platform": "YouTube",
-"text": "긴급속보!마영애 美백악관 충격상황! 미국에서 이재명 큰일났다! 마,포기하지 않을 것!",
-"handle": "UCPMbkZxA-5Nni-nziJ52AvQ",
-"name": "정치 현장24",
-"time": "2026-11-28T06:20:03Z",
+"text": "[LG전자 주가전망] 1분전속보 초대형호재 주주님들 꼭 보세요! #lg전자 #lg전자주가 #lg전자주가전망",
+"handle": "UCUn9AqOkXhg0A2cM8Onustg",
+"name": "주식천재",
+"time": "2026-11-28T06:38:06Z",
 "term": "속보",
-"url": "https://www.youtube.com/watch?v=CHAo3_eznPs"
+"url": "https://www.youtube.com/watch?v=j_wDBOxdf0I"
 },
 {
 "platform": "YouTube",
-"text": "이재명 대통령 서울 부동산 시장. 붕괴전야. 공포",
-"handle": "UCj2gpUrZ7LMp4Mp1pVMKz0g",
-"name": "박홍기 작가 TV 삶 테크 ",
-"time": "2026-11-28T06:17:19Z",
-"term": "붕괴",
-"url": "https://www.youtube.com/watch?v=q678-FjItYE"
+"text": "종로3가 노포 감성 폭발! 두툼한 대방어와 소금김밥의 환상 조합, 초원식당",
+"handle": "UC00WidTRdOQjY8v2owzeprQ",
+"name": "굥이",
+"time": "2026-11-28T06:33:50Z",
+"term": "폭발",
+"url": "https://www.youtube.com/watch?v=Va-VBP5bfww"
 },
 {
 "platform": "YouTube",
-"text": "원호의 밸런스 붕괴",
-"handle": "UCnjZJWsqcBYc8kSR6xVI0JA",
-"name": "피식주의보",
-"time": "2026-11-28T06:16:16Z",
-"term": "붕괴",
-"url": "https://www.youtube.com/watch?v=sQM2qttffis"
+"text": "한국판 사드? 북한 미사일을 하늘에서 잡는 한국의 L-SAM!#k방산#경제#지형학적경제학",
+"handle": "UCL5z44tA8WEINvTq0bWBkrw",
+"name": "지형학적경제학",
+"time": "2026-11-28T06:31:15Z",
+"term": "미사일",
+"url": "https://www.youtube.com/watch?v=yCAd16-I4WQ"
 },
 {
 "platform": "YouTube",
-"text": "[센트리퓨즈 코인] 긴급속보 세력 7억개 토큰 정리 시작!! 마지막 설거지 필수시청 #센트리퓨즈 #센트리퓨즈코인 #센트리퓨즈코인전망",
+"text": "[엘프 코인] 긴급속보 초대형 호재 대폭발! 역대급 랠리 터진다! 필수시청 #엘프 #엘프코인 #엘프코인전망",
 "handle": "UCTwhs6TaLO3LOeMRqu00TtQ",
 "name": "Face Content",
-"time": "2026-11-28T06:15:24Z",
-"term": "속보",
-"url": "https://www.youtube.com/watch?v=meldFmGdnno"
-},
-{
-"platform": "YouTube",
-"text": "산갈치가 나타나면 지진이 온다? 심해의 사자",
-"handle": "UCzmD-pn19_uIfhZm8_iLyjQ",
-"name": "해양연대기",
-"time": "2026-11-28T06:15:15Z",
-"term": "지진",
-"url": "https://www.youtube.com/watch?v=j3y3ZXDjQyo"
-},
-{
-"platform": "YouTube",
-"text": "화산이 폭발할 때 번개까지 치는 이유 #snake #동물상식 #동물 #자연의신비 #animals #세계지리 #자연의신비 #세계지리 #반려동물 #반려동물 #지리상식 #reptiles",
-"handle": "UCfCKlUUN_NSWCrzxnNepFog",
-"name": "풀자미",
-"time": "2026-11-28T06:14:04Z",
+"time": "2026-11-28T06:30:29Z",
 "term": "폭발",
-"url": "https://www.youtube.com/watch?v=6s-bXDwM7iE"
+"url": "https://www.youtube.com/watch?v=jv0WmsSWvkk"
 },
 {
 "platform": "YouTube",
-"text": "경기 광주 공장 화재...카약 전복돼 물에 빠진 부자 구조 / YTN",
-"handle": "UChlgI3UHCOnwUGzWzbJ3H5w",
-"name": " YTN",
-"time": "2026-11-28T06:12:32Z",
-"term": "화재",
-"url": "https://www.youtube.com/watch?v=5vqRG8Ptfxk"
-},
-{
-"platform": "YouTube",
-"text": "[속보] 이스라엘군 가자 병원 공습으로 국경없는의사회 직원 2명 사망 #Shorts",
-"handle": "UCZG9qxI6LxE5O9EJg4Ltl9w",
-"name": "지금 세계",
-"time": "2026-11-28T06:11:45Z",
+"text": "[미래에셋벤처투자 주가] [속보] 11/28 \"다음주 안 오르는게 오히려 낫다!?\" \"투자주의 + 단기과열 예고\" (월) '이것' 모르고 사면 당한다! [미래에셋벤처투자 주가전망]",
+"handle": "UCEQBTJalqTfal8EJrTPZBzA",
+"name": "찐대표의 올스타주식",
+"time": "2026-11-28T06:30:17Z",
 "term": "속보",
-"url": "https://www.youtube.com/watch?v=MvvTK-JQteM"
+"url": "https://www.youtube.com/watch?v=eCpfZ1Tohv8"
 },
 {
 "platform": "YouTube",
-"text": "텐션폭발💥남희석 깜놀#남희석#전국노래자랑#막춤#댄스",
-"handle": "UC27HMoaGmC2UzhGp0sj-Dbw",
-"name": "in life 살다보니브이로그",
-"time": "2026-11-28T06:11:39Z",
+"text": "[엔켐 주가전망] 긴급속보!! 자회사 티디엘 기업회생절차 오히려 기회일까? 외인이 대량 매수한 이유! #엔켐 #엔켐 주가 #엔케 주가전망 #엔켐 호재",
+"handle": "UCCupuDy8akQiIdJI0JJSiFA",
+"name": "성공주식연구소 - 성주연",
+"time": "2026-11-28T06:30:02Z",
+"term": "속보",
+"url": "https://www.youtube.com/watch?v=bBkjOSCwGRI"
+},
+{
+"platform": "YouTube",
+"text": "일본 지하철 상황극 웃참 ㄷㄷ  #일본예능  #웃음참기",
+"handle": "UCSb60-JyPG8iyGUs9LdVn_g",
+"name": "우당팬",
+"time": "2026-11-28T06:30:01Z",
+"term": "지하철",
+"url": "https://www.youtube.com/watch?v=OFZ6ttdQwi4"
+},
+{
+"platform": "YouTube",
+"text": "[주간증시] 사이드카만 4번! 외인 1.4조 숏커버링 폭발과 코스닥 8% 수직 상승 이유#주간증시브리핑 #코스피4900선회복 #코스닥매수사이드카 #젠슨황복귀 #레인보우로보틱스",
+"handle": "UCIyEdaUIoKct3S-XGz7ILLg",
+"name": "알아이고",
+"time": "2026-11-28T06:30:00Z",
 "term": "폭발",
-"url": "https://www.youtube.com/watch?v=pDpC2haSA7U"
-},
-{
-"platform": "YouTube",
-"text": "[하나에어로 주가전망] *주말 속보* 와..지난주 급락장 버텼는데 또 답답하시죠? 흔들림 끝나는 진짜 기준 짚어드립니다.",
-"handle": "UCDD7F65-TmhV8BIPe0_yDWg",
-"name": "주식대첩TV",
-"time": "2026-11-28T06:08:28Z",
-"term": "속보",
-"url": "https://www.youtube.com/watch?v=jvuPfl_tkEo"
-},
-{
-"platform": "YouTube",
-"text": "[SK스퀘어 주가전망] *주말 속보* 답답하게 흔드는 이유가 있었습니다, 이 음봉의 함정 지금 꼭 보세요.",
-"handle": "UC2nCdx_osQqV62wyIs9CbpQ",
-"name": "수급추적24시",
-"time": "2026-11-28T06:08:06Z",
-"term": "속보",
-"url": "https://www.youtube.com/watch?v=A_rF_iuwS28"
-},
-{
-"platform": "YouTube",
-"text": "[속보] 노태악 전 선관위원장 2차 압수수색… 휴대전화 다 파헤쳤다 [뉴스플레이리스트] / 채널A",
-"handle": "UCfq4V1DAuaojnr2ryvWNysw",
-"name": "채널A News",
-"time": "2026-11-28T06:06:48Z",
-"term": "속보",
-"url": "https://www.youtube.com/watch?v=4dyuNhBaasY"
-},
-{
-"platform": "YouTube",
-"text": "산더미 비주얼 폭발 김해고기집",
-"handle": "UC5B7i1PLf9ZtbsFnqaUMrBw",
-"name": "투하픽",
-"time": "2026-11-28T06:05:48Z",
-"term": "폭발",
-"url": "https://www.youtube.com/watch?v=GI-chqZghqE"
-},
-{
-"platform": "YouTube",
-"text": "[서진시스템 주가전망] 11/28 주말 긴급속보 하루 급등 뒤 과연 더 갈까? 지지선 2곳 점검",
-"handle": "UClBgHFkwWoAGaYpC2fbakWA",
-"name": "주식선구자",
-"time": "2026-11-28T06:05:19Z",
-"term": "속보",
-"url": "https://www.youtube.com/watch?v=jTkib0XS788"
-},
-{
-"platform": "YouTube",
-"text": "이승만 정전협정 서명 거부, 그 대가로 한미상호방위조약이 왔다? #이승만 #한미상호방위조약",
-"handle": "UC3l0fFDzdDQaYCOP1zHEbOw",
-"name": "도깨비사관",
-"time": "2026-11-28T06:05:03Z",
-"term": "정전",
-"url": "https://www.youtube.com/watch?v=Cb4KECv_2lY"
-},
-{
-"platform": "YouTube",
-"text": "[속보] 中, 민간 선박 이어 해상 부교 만들었다… \"섬 신속 점령 연습\" [뉴스플레이리스트] / 채널A",
-"handle": "UCfq4V1DAuaojnr2ryvWNysw",
-"name": "채널A News",
-"time": "2026-11-28T06:04:51Z",
-"term": "속보",
-"url": "https://www.youtube.com/watch?v=0AmDMOIUsx8"
-},
-{
-"platform": "YouTube",
-"text": "(속보) 나경원 \"당나라 군대예요\" 명령 따른 병사부터 수사하자 국방장관에 직격",
-"handle": "UCD6YjlCAf7ycuyjR98wx_9g",
-"name": "우짝",
-"time": "2026-11-28T06:00:28Z",
-"term": "속보",
-"url": "https://www.youtube.com/watch?v=Dte5tD181MI"
-},
-{
-"platform": "YouTube",
-"text": "[정치속보] 45조 3,600억 135개 사업, 이틀 만에 심사…국힘 \"미래 약탈 기금, 일방통행 멈춰라\"",
-"handle": "UCOfvRXly-KHWDRkpH6IR_gA",
-"name": "국힘팩트포커스",
-"time": "2026-11-28T06:00:01Z",
-"term": "속보",
-"url": "https://www.youtube.com/watch?v=MEu9py5pmgk"
-},
-{
-"platform": "YouTube",
-"text": "[🔴 속보] 최민희, '당원권 정지 2년' 중징계에 \"재심 신청\"…정청래 \"납득 못 해\" [이슈PLAY]",
-"handle": "UCWlV3Lz_55UaX4JsMj-z__Q",
-"name": "뉴스TVCHOSUN",
-"time": "2026-11-28T05:55:56Z",
-"term": "속보",
-"url": "https://www.youtube.com/watch?v=5Wb7e4XNX9I"
+"url": "https://www.youtube.com/watch?v=TRZ80Roy7pQ"
 }
 ],
-"spikes": [],
+"spikes": [
+{
+"term": "폭발",
+"n30": 5,
+"base": 0.6,
+"spike": true,
+"since": "2026-11-28T06:57:23.554239+00:00"
+},
+{
+"term": "속보",
+"n30": 9,
+"base": 0.1,
+"spike": true,
+"since": "2026-11-28T06:57:23.554239+00:00"
+}
+],
 "baseline": {
-"지진": 0.24,
+"지진": 0.22,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.6,
-"붕괴": 0.07,
+"폭발": 0.54,
+"붕괴": 0.06,
 "대피": 0.05,
 "미사일": 0.05,
-"속보": 0.14,
-"지하철": 1.78,
-"사고": 3.24,
+"속보": 0.13,
+"지하철": 1.9,
+"사고": 3.02,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
-"먹통": 0.13,
+"먹통": 0.12,
 "산불": 0.05
 },
 "errors": [],
 "ytPosts": [
 {
 "platform": "YouTube",
-"text": "대통령 매제까지 끌어들인 금 사재기, 15분 만에 붕괴 | 1869 검은 금요일 실화",
-"handle": "UCdEnwVEXdE1yWapUo_NAWYw",
-"name": "주식 이야기",
-"time": "2026-11-28T06:24:18Z",
-"term": "붕괴",
-"url": "https://www.youtube.com/watch?v=clKG-p0EUbI"
+"text": "🌋 용암 아이스크림을 먹는 순간… 화산이 폭발했다! 😱🔥🍦#용암아이스크림 #화산폭발 #아이스크림먹방 #AI영상 #한국여자 #신기한영상 #ViralVideo #Shorts",
+"handle": "UCQdTUUzAFVxBbYBiPauUyCA",
+"name": "MADAN AI",
+"time": "2026-11-28T06:56:21Z",
+"term": "폭발",
+"url": "https://www.youtube.com/watch?v=SmDcOjPtDoA"
 },
 {
 "platform": "YouTube",
-"text": "건물 화재에서 불꽃보다 더 무서운 '코드 T27'의 정체. #Shorts",
-"handle": "UCiHBtHkRYdlzGB8yBZBmSGA",
-"name": "K-Tap",
-"time": "2026-11-28T06:22:50Z",
-"term": "화재",
-"url": "https://www.youtube.com/watch?v=Y7ZtkHni52w"
-},
-{
-"platform": "YouTube",
-"text": "크루즈 공용실에 화재 감지기가 있는 이유",
-"handle": "UC-4sTlzZPO_ADeHoGRWauVw",
-"name": "trace_kr",
-"time": "2026-11-28T06:20:39Z",
-"term": "화재",
-"url": "https://www.youtube.com/watch?v=Pt2uA5YQEyk"
-},
-{
-"platform": "YouTube",
-"text": "긴급속보!마영애 美백악관 충격상황! 미국에서 이재명 큰일났다! 마,포기하지 않을 것!",
-"handle": "UCPMbkZxA-5Nni-nziJ52AvQ",
-"name": "정치 현장24",
-"time": "2026-11-28T06:20:03Z",
+"text": "우체국이 뚫렸다…하루 만에 11만 명 개인정보 유출! #우체국 #개인정보유출 #해킹 #속보",
+"handle": "UCKhQE1pkzKv-3cSUFDASIEg",
+"name": "지금한국",
+"time": "2026-11-28T06:55:33Z",
 "term": "속보",
-"url": "https://www.youtube.com/watch?v=CHAo3_eznPs"
+"url": "https://www.youtube.com/watch?v=Sdp1Bvw_Bj0"
 },
 {
 "platform": "YouTube",
-"text": "이재명 대통령 서울 부동산 시장. 붕괴전야. 공포",
-"handle": "UCj2gpUrZ7LMp4Mp1pVMKz0g",
-"name": "박홍기 작가 TV 삶 테크 ",
-"time": "2026-11-28T06:17:19Z",
-"term": "붕괴",
-"url": "https://www.youtube.com/watch?v=q678-FjItYE"
+"text": "[델타포스 모바일] 게임 체인저 : 유도미사일 #Shorts #델타포스 모바일 #Delta Force Mobile #모바일 FPS",
+"handle": "UCj7yHXYtTPLFyPxy2csBRnA",
+"name": "헬스하는 아빠의 델타포스",
+"time": "2026-11-28T06:54:03Z",
+"term": "미사일",
+"url": "https://www.youtube.com/watch?v=N7NXcdAANl4"
 },
 {
 "platform": "YouTube",
-"text": "[센트리퓨즈 코인] 긴급속보 세력 7억개 토큰 정리 시작!! 마지막 설거지 필수시청 #센트리퓨즈 #센트리퓨즈코인 #센트리퓨즈코인전망",
+"text": "산업안전기사 실기 7장 · 화재 폭발 헷갈림 셋 #Shorts",
+"handle": "UCdPSUwC2CXlsNYS5xvMjPwQ",
+"name": "한국용접기술학원(주)",
+"time": "2026-11-28T06:50:57Z",
+"term": "화재",
+"url": "https://www.youtube.com/watch?v=tWya8U3u8VU"
+},
+{
+"platform": "YouTube",
+"text": "날아라 슈퍼보드 지하철 안내방송 흉내에 껌 팔았냐는 소리 듣는 저팔계 69편",
+"handle": "UClLyhO7sLYrKY6hu-RG6qAg",
+"name": "장면도감",
+"time": "2026-11-28T06:50:43Z",
+"term": "지하철",
+"url": "https://www.youtube.com/watch?v=XwczT7aOix4"
+},
+{
+"platform": "YouTube",
+"text": "[대한광통신 주가전망]💥\"실시간토요일 긴급속보!! 매매정지해제! +40조확정속보!! 긴급 대차상환했다! 세력긴급정보유출! 물려있는분 역대급정책뜬다!\"💥이렇게대응하세요💥#주식대장",
+"handle": "UCqVJu6SdqRt7M7hy7Z-4v5Q",
+"name": "주식타짜훈련소",
+"time": "2026-11-28T06:48:38Z",
+"term": "속보",
+"url": "https://www.youtube.com/watch?v=E_kd42cLZPQ"
+},
+{
+"platform": "YouTube",
+"text": "[속보] 일론, 운전대 끝났다. 손가락만 대면 간다! 일론의 TESLA FSD 업뎃 예고/독일 핵심 기업 삼킨 테슬라/머스크의 마지막 퍼즐은 옵티머스/Tesla 에너지/테슬라 투자",
+"handle": "UCtQmhtP8Z5asWK-RoHFc_Hw",
+"name": "도군TV 주식으로부자되기",
+"time": "2026-11-28T06:47:40Z",
+"term": "속보",
+"url": "https://www.youtube.com/watch?v=RROEBwoBsMk"
+},
+{
+"platform": "YouTube",
+"text": "속보 BTS 7인 새벽 라스베거스 공연 중 긴급초대받은 시상식 공연도 안하고 최우수상까지 받았다고?! 도대체 한국 사람들은 못하는게 뭐야 거기 또 쓰레기 하나도없지?!",
+"handle": "UC3pWlMXTIa2D2T_cOuj9aKQ",
+"name": "고담",
+"time": "2026-11-28T06:46:11Z",
+"term": "속보",
+"url": "https://www.youtube.com/watch?v=EwNAR9E75O4"
+},
+{
+"platform": "YouTube",
+"text": "[도플러파이낸스 코인] 긴급속보 메가톤급 호재 발표!! 역대급 폭등 나온다 필수시청 #도플러파이낸스 #도플러파이낸스코인 #도플러파이낸스코인전망",
 "handle": "UCTwhs6TaLO3LOeMRqu00TtQ",
 "name": "Face Content",
-"time": "2026-11-28T06:15:24Z",
+"time": "2026-11-28T06:45:32Z",
 "term": "속보",
-"url": "https://www.youtube.com/watch?v=meldFmGdnno"
+"url": "https://www.youtube.com/watch?v=HPRz54XkwCc"
 },
 {
 "platform": "YouTube",
-"text": "산갈치가 나타나면 지진이 온다? 심해의 사자",
-"handle": "UCzmD-pn19_uIfhZm8_iLyjQ",
-"name": "해양연대기",
-"time": "2026-11-28T06:15:15Z",
-"term": "지진",
-"url": "https://www.youtube.com/watch?v=j3y3ZXDjQyo"
-},
-{
-"platform": "YouTube",
-"text": "원호의 밸런스 붕괴",
-"handle": "UCnjZJWsqcBYc8kSR6xVI0JA",
-"name": "피식주의보",
-"time": "2026-11-28T06:16:16Z",
-"term": "붕괴",
-"url": "https://www.youtube.com/watch?v=sQM2qttffis"
-},
-{
-"platform": "YouTube",
-"text": "화산이 폭발할 때 번개까지 치는 이유 #snake #동물상식 #동물 #자연의신비 #animals #세계지리 #자연의신비 #세계지리 #반려동물 #반려동물 #지리상식 #reptiles",
-"handle": "UCfCKlUUN_NSWCrzxnNepFog",
-"name": "풀자미",
-"time": "2026-11-28T06:14:04Z",
-"term": "폭발",
-"url": "https://www.youtube.com/watch?v=6s-bXDwM7iE"
-},
-{
-"platform": "YouTube",
-"text": "경기 광주 공장 화재...카약 전복돼 물에 빠진 부자 구조 / YTN",
-"handle": "UChlgI3UHCOnwUGzWzbJ3H5w",
-"name": " YTN",
-"time": "2026-11-28T06:12:32Z",
-"term": "화재",
-"url": "https://www.youtube.com/watch?v=5vqRG8Ptfxk"
-},
-{
-"platform": "YouTube",
-"text": "텐션폭발💥남희석 깜놀#남희석#전국노래자랑#막춤#댄스",
-"handle": "UC27HMoaGmC2UzhGp0sj-Dbw",
-"name": "in life 살다보니브이로그",
-"time": "2026-11-28T06:11:39Z",
-"term": "폭발",
-"url": "https://www.youtube.com/watch?v=pDpC2haSA7U"
-},
-{
-"platform": "YouTube",
-"text": "[속보] 이스라엘군 가자 병원 공습으로 국경없는의사회 직원 2명 사망 #Shorts",
-"handle": "UCZG9qxI6LxE5O9EJg4Ltl9w",
-"name": "지금 세계",
-"time": "2026-11-28T06:11:45Z",
-"term": "속보",
-"url": "https://www.youtube.com/watch?v=MvvTK-JQteM"
-},
-{
-"platform": "YouTube",
-"text": "[하나에어로 주가전망] *주말 속보* 와..지난주 급락장 버텼는데 또 답답하시죠? 흔들림 끝나는 진짜 기준 짚어드립니다.",
-"handle": "UCDD7F65-TmhV8BIPe0_yDWg",
-"name": "주식대첩TV",
-"time": "2026-11-28T06:08:28Z",
-"term": "속보",
-"url": "https://www.youtube.com/watch?v=jvuPfl_tkEo"
-},
-{
-"platform": "YouTube",
-"text": "[SK스퀘어 주가전망] *주말 속보* 답답하게 흔드는 이유가 있었습니다, 이 음봉의 함정 지금 꼭 보세요.",
-"handle": "UC2nCdx_osQqV62wyIs9CbpQ",
-"name": "수급추적24시",
-"time": "2026-11-28T06:08:06Z",
-"term": "속보",
-"url": "https://www.youtube.com/watch?v=A_rF_iuwS28"
-},
-{
-"platform": "YouTube",
-"text": "[속보] 노태악 전 선관위원장 2차 압수수색… 휴대전화 다 파헤쳤다 [뉴스플레이리스트] / 채널A",
+"text": "[속보] 법관들 동요 확산… 국제변호사협회 \"재고해야\" [뉴스플레이리스트] / 채널A",
 "handle": "UCfq4V1DAuaojnr2ryvWNysw",
 "name": "채널A News",
-"time": "2026-11-28T06:06:48Z",
+"time": "2026-11-28T06:42:25Z",
 "term": "속보",
-"url": "https://www.youtube.com/watch?v=4dyuNhBaasY"
+"url": "https://www.youtube.com/watch?v=lVwgiAvwpl4"
 },
 {
 "platform": "YouTube",
-"text": "산더미 비주얼 폭발 김해고기집",
-"handle": "UC5B7i1PLf9ZtbsFnqaUMrBw",
-"name": "투하픽",
-"time": "2026-11-28T06:05:48Z",
-"term": "폭발",
-"url": "https://www.youtube.com/watch?v=GI-chqZghqE"
-},
-{
-"platform": "YouTube",
-"text": "이승만 정전협정 서명 거부, 그 대가로 한미상호방위조약이 왔다? #이승만 #한미상호방위조약",
-"handle": "UC3l0fFDzdDQaYCOP1zHEbOw",
-"name": "도깨비사관",
-"time": "2026-11-28T06:05:03Z",
+"text": "와글링 행성 정전의 이유 ⚡ #와트메이커 #Shorts",
+"handle": "UC22ezSP6lwjwSF3GKCpopgg",
+"name": "와트메이커",
+"time": "2026-11-28T06:42:17Z",
 "term": "정전",
-"url": "https://www.youtube.com/watch?v=Cb4KECv_2lY"
+"url": "https://www.youtube.com/watch?v=yqVSqatE1l4"
 },
 {
 "platform": "YouTube",
-"text": "[속보] 中, 민간 선박 이어 해상 부교 만들었다… \"섬 신속 점령 연습\" [뉴스플레이리스트] / 채널A",
-"handle": "UCfq4V1DAuaojnr2ryvWNysw",
-"name": "채널A News",
-"time": "2026-11-28T06:04:51Z",
+"text": "[LG전자 주가전망] 1분전속보 초대형호재 주주님들 꼭 보세요! #lg전자 #lg전자주가 #lg전자주가전망",
+"handle": "UCUn9AqOkXhg0A2cM8Onustg",
+"name": "주식천재",
+"time": "2026-11-28T06:38:06Z",
 "term": "속보",
-"url": "https://www.youtube.com/watch?v=0AmDMOIUsx8"
+"url": "https://www.youtube.com/watch?v=j_wDBOxdf0I"
 },
 {
 "platform": "YouTube",
-"text": "[서진시스템 주가전망] 11/28 주말 긴급속보 하루 급등 뒤 과연 더 갈까? 지지선 2곳 점검",
-"handle": "UClBgHFkwWoAGaYpC2fbakWA",
-"name": "주식선구자",
-"time": "2026-11-28T06:05:19Z",
-"term": "속보",
-"url": "https://www.youtube.com/watch?v=jTkib0XS788"
+"text": "[문틀란 TV]   법조계 폭발!!  이재명, 망했다!  충격 여론 등장!",
+"handle": "UCJzdo0x-J0wRO4SZ6T8A3dA",
+"name": "문틀란TV",
+"time": "2026-11-28T06:39:38Z",
+"term": "폭발",
+"url": "https://www.youtube.com/watch?v=oINT-IzXNCo"
 },
 {
 "platform": "YouTube",
-"text": "(속보) 나경원 \"당나라 군대예요\" 명령 따른 병사부터 수사하자 국방장관에 직격",
-"handle": "UCD6YjlCAf7ycuyjR98wx_9g",
-"name": "우짝",
-"time": "2026-11-28T06:00:28Z",
-"term": "속보",
-"url": "https://www.youtube.com/watch?v=Dte5tD181MI"
+"text": "종로3가 노포 감성 폭발! 두툼한 대방어와 소금김밥의 환상 조합, 초원식당",
+"handle": "UC00WidTRdOQjY8v2owzeprQ",
+"name": "굥이",
+"time": "2026-11-28T06:33:50Z",
+"term": "폭발",
+"url": "https://www.youtube.com/watch?v=Va-VBP5bfww"
 },
 {
 "platform": "YouTube",
-"text": "[정치속보] 45조 3,600억 135개 사업, 이틀 만에 심사…국힘 \"미래 약탈 기금, 일방통행 멈춰라\"",
-"handle": "UCOfvRXly-KHWDRkpH6IR_gA",
-"name": "국힘팩트포커스",
-"time": "2026-11-28T06:00:01Z",
-"term": "속보",
-"url": "https://www.youtube.com/watch?v=MEu9py5pmgk"
+"text": "[엘프 코인] 긴급속보 초대형 호재 대폭발! 역대급 랠리 터진다! 필수시청 #엘프 #엘프코인 #엘프코인전망",
+"handle": "UCTwhs6TaLO3LOeMRqu00TtQ",
+"name": "Face Content",
+"time": "2026-11-28T06:30:29Z",
+"term": "폭발",
+"url": "https://www.youtube.com/watch?v=jv0WmsSWvkk"
 },
 {
 "platform": "YouTube",
-"text": "[🔴 속보] 최민희, '당원권 정지 2년' 중징계에 \"재심 신청\"…정청래 \"납득 못 해\" [이슈PLAY]",
-"handle": "UCWlV3Lz_55UaX4JsMj-z__Q",
-"name": "뉴스TVCHOSUN",
-"time": "2026-11-28T05:55:56Z",
+"text": "[엔켐 주가전망] 긴급속보!! 자회사 티디엘 기업회생절차 오히려 기회일까? 외인이 대량 매수한 이유! #엔켐 #엔켐 주가 #엔케 주가전망 #엔켐 호재",
+"handle": "UCCupuDy8akQiIdJI0JJSiFA",
+"name": "성공주식연구소 - 성주연",
+"time": "2026-11-28T06:30:02Z",
 "term": "속보",
-"url": "https://www.youtube.com/watch?v=5Wb7e4XNX9I"
+"url": "https://www.youtube.com/watch?v=bBkjOSCwGRI"
+},
+{
+"platform": "YouTube",
+"text": "[미래에셋벤처투자 주가] [속보] 11/28 \"다음주 안 오르는게 오히려 낫다!?\" \"투자주의 + 단기과열 예고\" (월) '이것' 모르고 사면 당한다! [미래에셋벤처투자 주가전망]",
+"handle": "UCEQBTJalqTfal8EJrTPZBzA",
+"name": "찐대표의 올스타주식",
+"time": "2026-11-28T06:30:17Z",
+"term": "속보",
+"url": "https://www.youtube.com/watch?v=eCpfZ1Tohv8"
+},
+{
+"platform": "YouTube",
+"text": "일본 지하철 상황극 웃참 ㄷㄷ  #일본예능  #웃음참기",
+"handle": "UCSb60-JyPG8iyGUs9LdVn_g",
+"name": "우당팬",
+"time": "2026-11-28T06:30:01Z",
+"term": "지하철",
+"url": "https://www.youtube.com/watch?v=OFZ6ttdQwi4"
+},
+{
+"platform": "YouTube",
+"text": "[주간증시] 사이드카만 4번! 외인 1.4조 숏커버링 폭발과 코스닥 8% 수직 상승 이유#주간증시브리핑 #코스피4900선회복 #코스닥매수사이드카 #젠슨황복귀 #레인보우로보틱스",
+"handle": "UCIyEdaUIoKct3S-XGz7ILLg",
+"name": "알아이고",
+"time": "2026-11-28T06:30:00Z",
+"term": "폭발",
+"url": "https://www.youtube.com/watch?v=TRZ80Roy7pQ"
+},
+{
+"platform": "YouTube",
+"text": "한국판 사드? 북한 미사일을 하늘에서 잡는 한국의 L-SAM!#k방산#경제#지형학적경제학",
+"handle": "UCL5z44tA8WEINvTq0bWBkrw",
+"name": "지형학적경제학",
+"time": "2026-11-28T06:31:15Z",
+"term": "미사일",
+"url": "https://www.youtube.com/watch?v=yCAd16-I4WQ"
 }
 ],
-"ytAt": "2026-11-28T06:25:52.590355+00:00"
+"ytAt": "2026-11-28T06:57:23.554239+00:00"
 },
 "trends": [
 {
@@ -3761,9 +3747,9 @@
 "link": "https://blog.naver.com/PostView.naver?blogId=cbe_news&logNo=224494475522&redirect=Dlog"
 },
 {
-"title": "서울 중·고등교사 임용시험 6천여 명 응시...감독 강화",
+"title": "교사 임용고시도 \"부정행위 잡아라\"...감독규정 신설",
 "source": "YTN",
-"link": "https://www.ytn.co.kr/_cs/_ln_0103_202611281207351630_005.html"
+"link": "https://www.ytn.co.kr/_cs/_ln_0103_202611281331246449_005.html"
 }
 ],
 "new": true
