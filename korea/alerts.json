@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-28T00:22:50.749473+00:00",
+"updated": "2026-11-28T00:25:04.345846+00:00",
 "errors": [],
 "events": [
 {
@@ -1530,7 +1530,7 @@
 "sns": {
 "terms": {
 "지진": {
-"n30": 0,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
@@ -1556,7 +1556,7 @@
 },
 "붕괴": {
 "n30": 2,
-"base": 0.9,
+"base": 1.0,
 "spike": false
 },
 "대피": {
@@ -1576,12 +1576,12 @@
 },
 "지하철": {
 "n30": 2,
-"base": 0.7,
+"base": 0.8,
 "spike": false
 },
 "사고": {
-"n30": 3,
-"base": 1.8,
+"n30": 2,
+"base": 1.9,
 "spike": false
 },
 "실종": {
@@ -1611,6 +1611,16 @@
 }
 },
 "posts": [
+{
+"text": "테뮈\n옐골-.....피부가 창백해보임\n로골-뭐 그럭저럭.....\n실버-반지가 차가워보임(ㅋ)\n화골-착붙. 로골이 눈에 확 띈다면 화골은 자연스러워 보임.\n샴골-.....좋은데? 어라.....()\n\n템제 반지색을 화골로 해뒀는데.....\n샴골로 바꿔야 하나(동공지진)\n\n제이\n옐골-피부가 약간 누렇게 떠보임.....근데 그럭저럭 ㄱㅊ\n로골-예쁜데 눈에 띔\n실버-반지가 차가워보임22\n화골-예쁨.\n",
+"handle": "danijetemia.bsky.social",
+"name": "스피닝강밥",
+"time": "2026-11-28T00:23:38.158Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/danijetemia.bsky.social/post/3n3dgrysgok25",
+"term": "지진"
+},
 {
 "text": "인천 가는중인데 지하철에서 나만 빨간색임",
 "handle": "knullzero0000.bsky.social",
@@ -1805,16 +1815,6 @@
 "time": "2026-11-28T00:00:00Z",
 "term": "속보",
 "url": "https://www.youtube.com/watch?v=Hv4uI4AQQ9M"
-},
-{
-"text": "생각나서\n쓰담이 캐해(?) 도 덧붙여봅니다 ㅋㅋㅋㅋㅋ\n\n공주님 같은 얼굴에 장군이나 기사의 기개....\n제가 정말 좋아하는 옛날 만화들 여주인공 캐릭터랍니다 ㅋㅋㅋㅋㅋ\n\n자고로 주인공은 항상 말괄량이 사고뭉치 장난꾸러기에 주위를 우당탕탕 휩쓸고 다니지만... 마음은 따스하고 사건 해결에도 앞장서는 용감함까지 갖춘 법이죠. 지금 딱 생각나는 주인공들은 레 샤르휘나랑 히카루~~ \n\n그래서 드레스",
-"handle": "kkaeong.bsky.social",
-"name": "깨옹",
-"time": "2026-11-27T23:53:00.853Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/kkaeong.bsky.social/post/3n3df3d5xt22h",
-"term": "사고"
 }
 ],
 "spikes": [
@@ -1823,29 +1823,29 @@
 "n30": 6,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-28T00:22:50.749473+00:00"
+"since": "2026-11-28T00:25:04.345846+00:00"
 },
 {
 "term": "속보",
 "n30": 5,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-28T00:22:50.749473+00:00"
+"since": "2026-11-28T00:25:04.345846+00:00"
 }
 ],
 "baseline": {
-"지진": 0.05,
+"지진": 0.15,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
 "폭발": 0.05,
-"붕괴": 1.02,
+"붕괴": 1.12,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.83,
-"사고": 1.9,
-"실종": 0.31,
+"지하철": 0.95,
+"사고": 1.91,
+"실종": 0.28,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -1993,6 +1993,24 @@
 },
 "trends": [
 {
+"term": "부산 날씨",
+"traffic": "100+",
+"time": "2026-11-27T23:20:00+00:00",
+"news": [
+{
+"title": "부산·울산·경남 가끔 구름 많고 내륙 비·눈…낮 기온 9∼14도",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261128007600052"
+},
+{
+"title": "부산 울산 경남 가끔 구름 많고 내륙 비·눈…낮 기온 9∼14도",
+"source": "국제신문",
+"link": "https://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0300&key=20261128.99099008934"
+}
+],
+"new": true
+},
+{
 "term": "띠별 운세",
 "traffic": "2000+",
 "time": "2026-11-27T23:10:00+00:00",
@@ -2012,7 +2030,7 @@
 },
 {
 "term": "공무원 노동조합",
-"traffic": "100+",
+"traffic": "200+",
 "time": "2026-11-27T23:10:00+00:00",
 "news": [
 {
@@ -2029,8 +2047,44 @@
 "new": true
 },
 {
+"term": "허웅",
+"traffic": "100+",
+"time": "2026-11-27T23:10:00+00:00",
+"news": [
+{
+"title": "허웅의 마음과 기부, ‘노후된 한 재활원’으로 향하다",
+"source": "바스켓코리아",
+"link": "https://basketkorea.com/news/newsview.php?ncode=1065594607695644"
+},
+{
+"title": "\"저도 같이 참여하고 싶었어요\" 3년 동안 연고지에만 37번 후원... 팬들 따뜻한 마음에 KCC 허웅도 감동했다",
+"source": "루키",
+"link": "http://www.rookie.co.kr/news/articleView.html?idxno=131210"
+}
+],
+"new": true
+},
+{
+"term": "송파구",
+"traffic": "100+",
+"time": "2026-11-27T23:10:00+00:00",
+"news": [
+{
+"title": "서울 아파트 언제쯤 하락 전환할까?",
+"source": "KBS 뉴스",
+"link": "https://news.kbs.co.kr/news/view.do?ncd=8724082"
+},
+{
+"title": "중개업소 창문마다 '급매'…잠실 '엘리트' 30억선 무너졌다[르포]",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261126_0003885013"
+}
+],
+"new": true
+},
+{
 "term": "삼성 라이온즈",
-"traffic": "500+",
+"traffic": "1000+",
 "time": "2026-11-27T23:00:00+00:00",
 "news": [
 {
@@ -2117,64 +2171,9 @@
 }
 ],
 "new": true
-},
-{
-"term": "nottingham forest vs chelsea f.c. standings",
-"traffic": "1000+",
-"time": "2026-11-27T22:40:00+00:00",
-"news": [
-{
-"title": "Nottingham Forest 3-2 Chelsea: Morgan Gibbs-White scores twice in Forest win",
-"source": "BBC",
-"link": "https://www.bbc.com/sport/football/live/cme3d91zygp8t"
-},
-{
-"title": "Alonso sack coming without £60m saviour as Chelsea lose to Forest before kick-off",
-"source": "Football365",
-"link": "https://www.football365.com/news/opinion-alonso-sack-coming-60m-saviour-chelsea-lose-forest-before-kick-off"
-}
-],
-"new": true
-},
-{
-"term": "단체교섭",
-"traffic": "100+",
-"time": "2026-11-27T22:40:00+00:00",
-"news": [
-{
-"title": "경남 7개 정당 “한화오션, 하청노동자 교섭 나서야”",
-"source": "KBS 뉴스",
-"link": "https://news.kbs.co.kr/news/view.do?ncd=8722724"
-},
-{
-"title": "한화오션 하청노조 \"정규직 80% 수준 임금·차별없는 성과금 달라\"",
-"source": "뉴스1",
-"link": "https://www.news1.kr/local/busan-gyeongnam/6367992"
-}
-],
-"new": true
-},
-{
-"term": "농심 신라면배 세계바둑 최강전",
-"traffic": "200+",
-"time": "2026-11-27T22:40:00+00:00",
-"news": [
-{
-"title": "변상일의 질주, 삼성화재배 우승에 이어 농심신라면배 2연승",
-"source": "사이버오로",
-"link": "https://www.cyberoro.com/news/N_news_view.oro?num=532984"
-},
-{
-"title": "변상일, 일본 이야마에 불계승…농심신라면배 2연승 질주(종합)",
-"source": "연합뉴스",
-"link": "https://www.yna.co.kr/view/AKR20261127089651007"
-}
-],
-"new": true
 }
 ],
 "trendSeen": [
-"탁구",
 "탁재훈",
 "탄도 미사일",
 "탄약",
@@ -2395,6 +2394,7 @@
 "허경민",
 "허미미",
 "허영생",
+"허웅",
 "허은아",
 "허인서",
 "허찬미",
