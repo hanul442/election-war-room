@@ -1,7 +1,39 @@
 {
-"updated": "2026-11-28T02:51:13.439970+00:00",
+"updated": "2026-11-28T02:53:29.313310+00:00",
 "errors": [],
 "events": [
+{
+"id": "F9YcE1tbDNOSDNlSkFJZwoc50250",
+"first": "2026-11-28T02:50:09+00:00",
+"last": "2026-11-28T02:50:09+00:00",
+"updated": "2026-11-28T02:53:29.313310+00:00",
+"headline": "李대통령 \"오늘 아시아 최대 규모 AI 인프라 첫 삽\"",
+"cat": "정치",
+"regions": [],
+"sources": [
+"머니투데이"
+],
+"updates": [
+{
+"title": "[속보]李대통령 \"오늘 아시아 최대 규모 AI 인프라 첫 삽\" - 머니투데이",
+"source": "머니투데이",
+"link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBTakRDUTFhTy1iUHBlMDlwRGJiRnllbFdUcDk0SEV1WGpSU0t5OEs3enRBMkhKSlk0TFNBcE42WFZ1blhMT1huM2Raby02aWNSSERITWk0MUNUaS03VGtLSGRETnY0Z0NOTmZlUNIBckFVX3lxTFB3MllRczhNb3hNVmNsdEdpQkJmc2J3QXNGbm5HMVY3a2hPV3ZCbXpjak5aWVRfdnBzN2UtWXU3TWpQX1YwaG1ITG5tMC1yd2QxQVdtYVNURlZORW53OGtXWHFGeF9YcE1tbDNOSDNlSkFJZw?oc=5",
+"time": "2026-11-28T02:50:09+00:00",
+"stage": "얼럿"
+}
+],
+"level": "URGENT",
+"latest": "李대통령 \"오늘 아시아 최대 규모 AI 인프라 첫 삽\"",
+"tok": [
+"AI",
+"李대통령",
+"규모",
+"머니투데",
+"아시아",
+"인프라",
+"최대"
+]
+},
 {
 "id": "3Z1FmR3ZDQTRXQm9SLXproc50247",
 "first": "2026-11-28T02:47:40+00:00",
@@ -34,6 +66,40 @@
 "정점식",
 "졸렬하고",
 "특검"
+]
+},
+{
+"id": "RGdU5aY1JmQ3Fuck5MeGsoc50247",
+"first": "2026-11-28T02:47:17+00:00",
+"last": "2026-11-28T02:47:17+00:00",
+"updated": "2026-11-28T02:53:29.313310+00:00",
+"headline": "“불륜조사 해줘” 200만원 받고 미행·몰래 촬영…30대들, 결국",
+"cat": "기타",
+"regions": [],
+"sources": [
+"경기일보"
+],
+"updates": [
+{
+"title": "[속보] “불륜조사 해줘” 200만원 받고 미행·몰래 촬영…30대들, 결국",
+"source": "경기일보",
+"link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBKYWJxM0plelJ4dk0xTnhZbUFjTWJmci1qMTFBMTY4eV81eUs2MXYzVjk3bUItR0hHYm05SmVaYUduZjJmb19Pd2h1T3RGdU5aY1JmQ3Fuck5MeGs?oc=5",
+"time": "2026-11-28T02:47:17+00:00",
+"stage": "얼럿"
+}
+],
+"level": "URGENT",
+"latest": "“불륜조사 해줘” 200만원 받고 미행·몰래 촬영…30대들, 결국",
+"tok": [
+"200만원",
+"30대들",
+"결국",
+"몰래",
+"미행",
+"받고",
+"불륜조사",
+"촬영",
+"해줘"
 ]
 },
 {
@@ -2082,7 +2148,7 @@
 "spike": true
 },
 "붕괴": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -2103,12 +2169,12 @@
 },
 "지하철": {
 "n30": 3,
-"base": 2.2,
+"base": 2.1,
 "spike": false
 },
 "사고": {
 "n30": 4,
-"base": 2.3,
+"base": 2.5,
 "spike": false
 },
 "실종": {
@@ -2143,7 +2209,7 @@
 "handle": "pyeonjeon.bsky.social",
 "name": "편전",
 "time": "2026-11-28T02:50:43.846Z",
-"likes": 1,
+"likes": 2,
 "reposts": 0,
 "url": "https://bsky.app/profile/pyeonjeon.bsky.social/post/3n3doz4ipac22",
 "term": "미사일"
@@ -2395,14 +2461,14 @@
 "n30": 9,
 "base": 0.8,
 "spike": true,
-"since": "2026-11-28T02:51:13.439970+00:00"
+"since": "2026-11-28T02:53:29.313310+00:00"
 },
 {
 "term": "속보",
 "n30": 6,
 "base": 0.3,
 "spike": true,
-"since": "2026-11-28T02:51:13.439970+00:00"
+"since": "2026-11-28T02:53:29.313310+00:00"
 }
 ],
 "baseline": {
@@ -2410,17 +2476,17 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.82,
+"폭발": 0.84,
 "붕괴": 0.05,
 "대피": 0.05,
-"미사일": 0.15,
-"속보": 0.27,
-"지하철": 2.12,
-"사고": 2.49,
+"미사일": 0.24,
+"속보": 0.24,
+"지하철": 2.01,
+"사고": 2.64,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
-"먹통": 0.22,
+"먹통": 0.2,
 "산불": 0.05
 },
 "errors": [],
@@ -2610,6 +2676,24 @@
 },
 "trends": [
 {
+"term": "브론슨 리드",
+"traffic": "200+",
+"time": "2026-11-28T01:50:00+00:00",
+"news": [
+{
+"title": "WWE 슈퍼스타 브론슨 리드, 합병증으로 사망...38세에 요절",
+"source": "매일경제",
+"link": "https://www.mk.co.kr/news/sports/12220672"
+},
+{
+"title": "WWE 비극…'괴물 레슬러' 브론슨 리드 38세 나이로 사망, 부상 치료 중 비보",
+"source": "SPOTV NEWS",
+"link": "https://www.spotvnews.co.kr/news/articleView.html?idxno=1022341"
+}
+],
+"new": true
+},
+{
 "term": "은평구",
 "traffic": "200+",
 "time": "2026-11-28T01:30:00+00:00",
@@ -2656,9 +2740,9 @@
 "link": "http://www.docdocdoc.co.kr/news/articleView.html?idxno=3044950"
 },
 {
-"title": "서연주 전 젊은의사협의체 대표 \"5년만에 응급실 분위기 바뀌었다…적극적 치료결정 어려워\"",
+"title": "노혜린 교수 “소아응급실 압수수색 이후 후배들에게 필수의료 못 권하겠다”",
 "source": "MEDI:GATE NEWS",
-"link": "https://m.medigatenews.com/news/2795650958"
+"link": "https://www.medigatenews.com/news/3410989566"
 }
 ],
 "new": true
@@ -2730,14 +2814,14 @@
 "time": "2026-11-28T00:30:00+00:00",
 "news": [
 {
-"title": "(보도설명) 미래대응기금은 반도체 호황 등에 따른 대규모 세수를 미래세대를 위한 투자에 활용하기 위한 것입니다.",
-"source": "대한민국 정책브리핑",
-"link": "https://www.korea.kr/briefing/actuallyView.do?newsId=148976652&pWise=main&pWiseMain=B2"
+"title": "학계 \"104조 빚내 재정저수지 만들면 안돼\"",
+"source": "매일경제",
+"link": "https://www.mk.co.kr/news/economy/12220471"
 },
 {
-"title": "예산안 시한 D-4, 미래대응기금 의결 모두 보류‥주말까지 공방",
-"source": "MBC 뉴스",
-"link": "https://imnews.imbc.com/news/2026/politics/article/6869263_36911.html"
+"title": "예산안 처리 시한 D-4…여야 미래대응기금 놓고 '평행선'",
+"source": "연합뉴스",
+"link": "https://www.yna.co.kr/view/AKR20261128027200001"
 }
 ],
 "new": true
@@ -2756,24 +2840,6 @@
 "title": "MLS: Inter Miami CF at Columbus Crew SC",
 "source": "Reuters Connect",
 "link": "https://www.reutersconnect.com/item/mls-inter-miami-cf-at-columbus-crew-sc/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX01UMVVTQVRPREFZMzA0NTg1MDk"
-}
-],
-"new": true
-},
-{
-"term": "삼성 엑시노스",
-"traffic": "100+",
-"time": "2026-11-28T00:10:00+00:00",
-"news": [
-{
-"title": "갤럭시S27 울트라·프로 모형 나란히 포착…후면 디자인 보니",
-"source": "지디넷코리아",
-"link": "https://zdnet.co.kr/view/?no=20261127084258"
-},
-{
-"title": "엑시노스, S27 실리나… 퀄컴 최신 칩과 성능 격차 좁혀",
-"source": "디지털포스트",
-"link": "https://www.ilovepc.co.kr/news/articleView.html?idxno=61462"
 }
 ],
 "new": true
