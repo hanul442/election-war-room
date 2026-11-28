@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-28T13:51:51.938883+00:00",
+"updated": "2026-11-28T13:54:04.596934+00:00",
 "errors": [],
 "events": [
 {
@@ -3105,13 +3105,13 @@
 "spike": false
 },
 "폭발": {
-"n30": 7,
+"n30": 5,
 "base": 0.1,
 "spike": true
 },
 "붕괴": {
 "n30": 1,
-"base": 0.5,
+"base": 0.4,
 "spike": false
 },
 "대피": {
@@ -3136,7 +3136,7 @@
 },
 "사고": {
 "n30": 3,
-"base": 1.5,
+"base": 1.7,
 "spike": false
 },
 "실종": {
@@ -3399,24 +3399,24 @@
 "spikes": [
 {
 "term": "폭발",
-"n30": 7,
+"n30": 5,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-28T13:51:51.938883+00:00"
+"since": "2026-11-28T13:54:04.596934+00:00"
 }
 ],
 "baseline": {
 "지진": 0.05,
 "화재": 0.05,
 "불났": 0.05,
-"정전": 0.06,
+"정전": 0.05,
 "폭발": 0.05,
-"붕괴": 0.41,
+"붕괴": 0.37,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.85,
-"사고": 1.67,
+"지하철": 0.86,
+"사고": 1.8,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -3619,6 +3619,24 @@
 },
 "trends": [
 {
+"term": "sbs",
+"traffic": "100+",
+"time": "2026-11-28T12:50:00+00:00",
+"news": [
+{
+"title": "Coast Guard Rescues Injured Foreign Crewman Off Dokdo Amid Bad Weather",
+"source": "news.sbs.co.kr",
+"link": "https://news.sbs.co.kr/english/article.do?news_id=N1008867973"
+},
+{
+"title": "Sushijaro Teams Flood Tsushima Over Drug Costs",
+"source": "조선일보",
+"link": "https://www.chosun.com/english/national-en/2026/11/28/5UY2FOMOW5G43AETA2UD7ARPZ4/"
+}
+],
+"new": true
+},
+{
 "term": "persija jakarta vs garudayaksa fc",
 "traffic": "200+",
 "time": "2026-11-28T12:30:00+00:00",
@@ -3650,6 +3668,24 @@
 "new": true
 },
 {
+"term": "al-hazem vs al-nassr",
+"traffic": "500+",
+"time": "2026-11-28T12:10:00+00:00",
+"news": [
+{
+"title": "Licensable picture: Saudi Pro League - Al Hazem v Al Nassr",
+"source": "Reuters Connect",
+"link": "https://www.reutersconnect.com/item/saudi-pro-league-al-hazem-v-al-nassr/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX1VQMUVNQlMxMEM5VFg"
+},
+{
+"title": "Postecoglou Starts Ronaldo and Felix Against Al-Hazem",
+"source": "Demokratis.co.id",
+"link": "https://demokratis.co.id/en/postecoglou-ronaldo-felix-al-nassr"
+}
+],
+"new": true
+},
+{
 "term": "로또 당첨번호",
 "traffic": "1000+",
 "time": "2026-11-28T12:00:00+00:00",
@@ -3663,24 +3699,6 @@
 "title": "[속보] 이번주 로또 1등 16명…17억5910만원씩 받는다",
 "source": "경기일보",
 "link": "https://www.kyeonggi.com/article/20261128580147"
-}
-],
-"new": true
-},
-{
-"term": "알 하즘 대 알나스르",
-"traffic": "1000+",
-"time": "2026-11-28T11:50:00+00:00",
-"news": [
-{
-"title": "Licensable picture: Saudi Pro League - Al Hazem v Al Nassr",
-"source": "Reuters Connect",
-"link": "https://www.reutersconnect.com/item/saudi-pro-league-al-hazem-v-al-nassr/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX1VQMUVNQlMxMEM5VFg"
-},
-{
-"title": "Postecoglou Starts Ronaldo and Felix Against Al-Hazem",
-"source": "Demokratis.co.id",
-"link": "https://demokratis.co.id/en/postecoglou-ronaldo-felix-al-nassr"
 }
 ],
 "new": true
@@ -3704,8 +3722,26 @@
 "new": true
 },
 {
+"term": "알 하즘 대 알나스르",
+"traffic": "1000+",
+"time": "2026-11-28T11:50:00+00:00",
+"news": [
+{
+"title": "Historic record: Al-Nassr write their name in gold in the Saudi Pro League",
+"source": "Goal.com",
+"link": "https://www.goal.com/en/news/historic-record-al-nassr-write-their-name-in-gold-in-the-saudi-pro-league/blt503e7ef7ea8f0003"
+},
+{
+"title": "[STREAM@TV] How to Watch Al Hazem vs. Al Nassr Online for Free Start Time, Live Streaming & TV Channels in USA and Other Countries",
+"source": "tallahatchienews.ms",
+"link": "https://www.tallahatchienews.ms/node/479441"
+}
+],
+"new": true
+},
+{
 "term": "심장",
-"traffic": "500+",
+"traffic": "1000+",
 "time": "2026-11-28T11:30:00+00:00",
 "news": [
 {
@@ -3744,31 +3780,6 @@
 "traffic": "100+",
 "time": "2026-11-28T11:20:00+00:00",
 "news": [],
-"new": true
-},
-{
-"term": "근로장려금 신청",
-"traffic": "100+",
-"time": "2026-11-28T10:50:00+00:00",
-"news": [],
-"new": true
-},
-{
-"term": "브래디",
-"traffic": "100+",
-"time": "2026-11-28T10:30:00+00:00",
-"news": [
-{
-"title": "Brady disappointed in Rodgers' McCarthy comments: 'Nobody wins'",
-"source": "ESPN",
-"link": "https://www.espn.com/nfl/story/_/id/50607635/tom-brady-disappointed-aaron-rodgers-mccarthy-comments"
-},
-{
-"title": "‘They took this public’: Aaron Rodgers fires back at Tom Brady after locker room remarks",
-"source": "Yahoo Sports",
-"link": "https://sports.yahoo.com/nfl/articles/took-public-aaron-rodgers-fires-124624851.html"
-}
-],
 "new": true
 }
 ],
