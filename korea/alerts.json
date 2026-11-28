@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-28T04:51:04.032080+00:00",
+"updated": "2026-11-28T04:53:20.973958+00:00",
 "errors": [],
 "events": [
 {
@@ -2670,7 +2670,7 @@
 "spike": false
 },
 "폭발": {
-"n30": 4,
+"n30": 3,
 "base": 0.6,
 "spike": false
 },
@@ -2701,7 +2701,7 @@
 },
 "사고": {
 "n30": 2,
-"base": 1.4,
+"base": 1.5,
 "spike": false
 },
 "실종": {
@@ -2913,21 +2913,21 @@
 "n30": 5,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-28T04:51:04.032080+00:00"
+"since": "2026-11-28T04:53:20.973958+00:00"
 }
 ],
 "baseline": {
 "지진": 0.05,
 "화재": 0.05,
 "불났": 0.05,
-"정전": 0.37,
-"폭발": 0.62,
+"정전": 0.33,
+"폭발": 0.66,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.43,
-"사고": 1.46,
+"지하철": 0.49,
+"사고": 1.51,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
@@ -3076,6 +3076,60 @@
 },
 "trends": [
 {
+"term": "래미안첼리투스아파트",
+"traffic": "200+",
+"time": "2026-11-28T03:50:00+00:00",
+"news": [
+{
+"title": "\"100억 찍으면 팔겠다\"던 95년생…SK하닉 팔아 용산 아파트 샀다",
+"source": "이데일리",
+"link": "https://www.edaily.co.kr/News/Read?newsId=01328406645649984&mediaCodeNo=257"
+},
+{
+"title": "'실화일까'…2000만원→100억 불린 95년생 전업투자자",
+"source": "뉴시스",
+"link": "https://www.newsis.com/view/NISX20261127_0003885634"
+}
+],
+"new": true
+},
+{
+"term": "지하철",
+"traffic": "1000+",
+"time": "2026-11-28T03:50:00+00:00",
+"news": [
+{
+"title": "철도노조 준법투쟁으로 광역전철 445대 지연",
+"source": "KBS 뉴스",
+"link": "https://news.kbs.co.kr/news/view.do?ncd=8724799"
+},
+{
+"title": "1부 오늘의 주요뉴스",
+"source": "MBC 뉴스",
+"link": "https://imnews.imbc.com/replay/2026/nwtoday/article/6869234_37012.html"
+}
+],
+"new": true
+},
+{
+"term": "해커",
+"traffic": "100+",
+"time": "2026-11-28T03:50:00+00:00",
+"news": [
+{
+"title": "'방공레이더 지휘통제' 미 공군 핵심 시스템까지 해킹에 뚫렸다",
+"source": "MBC 뉴스",
+"link": "https://imnews.imbc.com/news/2026/world/article/6869229_36925.html"
+},
+{
+"title": "영국 노동연금부, 사이버 공격 감지…서비스 일부 중단",
+"source": "지디넷코리아",
+"link": "https://zdnet.co.kr/view/?no=20261127223323"
+}
+],
+"new": false
+},
+{
 "term": "이정효",
 "traffic": "200+",
 "time": "2026-11-28T03:40:00+00:00",
@@ -3135,14 +3189,14 @@
 "time": "2026-11-28T03:10:00+00:00",
 "news": [
 {
-"title": "남대문 커뮤니티",
-"source": "톱클래스",
-"link": "http://topclass.chosun.com/news/articleView.html?idxno=37132"
-},
-{
 "title": "“사지 마”… ‘스카프 아저씨’ 돌풍에 세대 불문 발길 이어지는 남대문시장",
 "source": "동아일보",
 "link": "https://www.donga.com/news/Society/article/all/20261128/135106803/1"
+},
+{
+"title": "남대문 커뮤니티",
+"source": "톱클래스",
+"link": "http://topclass.chosun.com/news/articleView.html?idxno=37132"
 }
 ],
 "new": true
@@ -3197,60 +3251,6 @@
 "title": "로버트 다우니 주니어, 아이언맨→닥터 둠 “토니 스타크와 정반대 인물”(‘어벤져스’)",
 "source": "조선일보",
 "link": "https://www.chosun.com/entertainments/movie/2026/11/27/GNSTSOJWGIYDMZLFGQ2WMZLDMI/"
-}
-],
-"new": true
-},
-{
-"term": "샌안토니오 대 la 레이커스",
-"traffic": "2000+",
-"time": "2026-11-28T02:30:00+00:00",
-"news": [
-{
-"title": "It’s time for Basketball: San Antonio Spurs vs Los Angeles Lakers",
-"source": "Yahoo Sports",
-"link": "https://sports.yahoo.com/nba/articles/time-basketball-san-antonio-spurs-023000839.html"
-},
-{
-"title": "Los Angeles Lakers @ San Antonio Spurs Odds",
-"source": "FanDuel Sportsbook",
-"link": "https://sportsbook.fanduel.com/basketball/nba/los-angeles-lakers-@-san-antonio-spurs-36358261"
-}
-],
-"new": true
-},
-{
-"term": "tear gas",
-"traffic": "200+",
-"time": "2026-11-28T02:00:00+00:00",
-"news": [
-{
-"title": "Thousands of girls and women report bleeding and miscarriages after French police use of teargas",
-"source": "The Guardian",
-"link": "https://www.theguardian.com/global-development/2026/nov/27/thousands-of-girls-and-women-report-bleeding-and-miscarriages-after-french-police-use-of-teargas"
-},
-{
-"title": "French activists demand a tear gas suspension over reported menstrual changes",
-"source": "ABC News - Breaking News, Latest News and Videos",
-"link": "https://abcnews.com/International/wireStory/tear-gas-reproductive-health-people-raise-concerns-france-138356698"
-}
-],
-"new": true
-},
-{
-"term": "실업급여",
-"traffic": "100+",
-"time": "2026-11-28T02:00:00+00:00",
-"news": [
-{
-"title": "“월급보다 많으면 누가 일하겠나”…실업급여, 결국 손 본다 [잇슈 머니]",
-"source": "KBS 뉴스",
-"link": "https://news.kbs.co.kr/news/view.do?ncd=8721737"
-},
-{
-"title": "조기재취업수당 월 300만원 이상이면 지급 제외",
-"source": "제주교통복지신문",
-"link": "https://www.jejutwn.com/news/article.html?no=464889"
 }
 ],
 "new": true
