@@ -1,12 +1,12 @@
 {
-"updated": "2026-11-28T05:31:36.117290+00:00",
+"updated": "2026-11-28T05:33:50.182942+00:00",
 "errors": [],
 "events": [
 {
 "id": "TcUJadTZhaEhmWl9PaWxBoc50501",
 "first": "2026-11-28T05:01:00+00:00",
 "last": "2026-11-28T05:25:00+00:00",
-"updated": "2026-11-28T05:27:04.630276+00:00",
+"updated": "2026-11-28T05:33:50.182942+00:00",
 "headline": "DL그룹 회장, 실적 부진 직원 수백명 한밤 호출 '논란'",
 "cat": "경제",
 "regions": [],
@@ -72,6 +72,13 @@
 "title": "[속보] 실적 부진 지적하려고…DL그룹 회장, 한밤중에 직원 수백명 호출",
 "source": "국제신문",
 "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQNnZBYXQ5UEptc2s5dW5aXzAyb0JvenRlM3RVLW5qVk50cnVpaFU1WlVaNVZUbXFrSTk3dmYtVEpXcy0weTJFSFIwVTRId2dOTXNMY25zd3F4MGhYcWJXM1VFSXA4RGdjUjU4WFJZV2R1NU4xVEltbTF1bTByZEFVUGdSMmZkN1JKZnRR?oc=5",
+"time": "2026-11-28T05:25:00+00:00",
+"stage": "속보"
+},
+{
+"title": "[속보] 실적 부진 지적하려고…DL그룹 회장, 한밤중에 직원 수백명 호출",
+"source": "국제신문",
+"link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNaDUxQ3ZWa0NJN3dhUW4xREtoeHBjVmpjQlVhR3VlR2o2ZmtfR1RKd3pKQk5mMlE3a2dvbzB2eG56UW5NOFNjTWhHRUV4WVRJVWYzMnQtYTNlVzRlelc2WUczaDVkdk1BZU5vQ1V6SkxUdkVIOFREc0s5V2F5U29PUEl5ZmxpSjFKQ2hPQzJ3?oc=5",
 "time": "2026-11-28T05:25:00+00:00",
 "stage": "속보"
 }
@@ -2955,7 +2962,7 @@
 },
 "미사일": {
 "n30": 2,
-"base": 0.4,
+"base": 0.5,
 "spike": false
 },
 "속보": {
@@ -2965,17 +2972,17 @@
 },
 "지하철": {
 "n30": 2,
-"base": 1.7,
+"base": 1.5,
 "spike": false
 },
 "사고": {
-"n30": 3,
+"n30": 5,
 "base": 2.7,
 "spike": false
 },
 "실종": {
 "n30": 0,
-"base": 0.8,
+"base": 0.7,
 "spike": false
 },
 "단수": {
@@ -3000,6 +3007,26 @@
 }
 },
 "posts": [
+{
+"text": "가격너무뛰니까 정리를못하겠음 가볍게팔고 살만해질때 다시사고가 활발한게좋은데 죄다 블보르기니됨",
+"handle": "urakarin88123.bsky.social",
+"name": "넉/섷 사담과 인놀계정🔒‬",
+"time": "2026-11-28T05:33:02.446Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/urakarin88123.bsky.social/post/3n3dy3e2k7s2c",
+"term": "사고"
+},
+{
+"text": "오늘은 다이소를 가서 2000원어치만 사고 나오기를 해야겠다",
+"handle": "graycoin.bsky.social",
+"name": "⚔️",
+"time": "2026-11-28T05:32:28.546Z",
+"likes": 0,
+"reposts": 0,
+"url": "https://bsky.app/profile/graycoin.bsky.social/post/3n3dy2csy222b",
+"term": "사고"
+},
 {
 "platform": "YouTube",
 "text": "화재 재산보험 아니다 │ 체육시설업자배상책임보험의 성격",
@@ -3193,16 +3220,6 @@
 "url": "https://www.youtube.com/watch?v=89oivaHDXRg"
 },
 {
-"text": "갑자기 그냥 미친 과학자들의 사고 실험 같잖아~~~~",
-"handle": "cupthecup.bsky.social",
-"name": "컵 드시기 바랍니다",
-"time": "2026-11-28T05:07:33.442Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/cupthecup.bsky.social/post/3n3dwnqc3fc27",
-"term": "사고"
-},
-{
 "platform": "YouTube",
 "text": "찰리 좌속보 굿 #파밀리에승마장 #horse #마장마술 #equestrian #승마체험 #horsejumping #horseriding",
 "handle": "UCN4zGGgIbNOrJuxG7Qw2C6g",
@@ -3218,7 +3235,7 @@
 "n30": 10,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-28T05:31:36.117290+00:00"
+"since": "2026-11-28T05:33:50.182942+00:00"
 }
 ],
 "baseline": {
@@ -3226,14 +3243,14 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.2,
+"폭발": 0.18,
 "붕괴": 0.05,
 "대피": 0.05,
-"미사일": 0.45,
+"미사일": 0.51,
 "속보": 0.05,
-"지하철": 1.51,
-"사고": 2.71,
-"실종": 0.69,
+"지하철": 1.36,
+"사고": 2.94,
+"실종": 0.62,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -3417,6 +3434,24 @@
 },
 "trends": [
 {
+"term": "성시경 쌈디",
+"traffic": "100+",
+"time": "2026-11-28T04:30:00+00:00",
+"news": [
+{
+"title": "연예계 음주운전 파문 속.. \"쌈디, 술자리 후 얌전하게 택시 타고 가\" 눈길 ('고막남친')",
+"source": "조선일보",
+"link": "https://www.chosun.com/entertainments/music/2026/11/27/MU4DCZJTGY4TANTCMIYDIZDCGI/"
+},
+{
+"title": "‘18개월 子 아빠’ 신용재 근황 “앨범 준비 전까진 육아 전념” (고막남친)",
+"source": "스포츠경향",
+"link": "https://sports.khan.co.kr/article/202611281207003"
+}
+],
+"new": true
+},
+{
 "term": "fc 서울 대 대전",
 "traffic": "2000+",
 "time": "2026-11-28T04:10:00+00:00",
@@ -3577,24 +3612,6 @@
 }
 ],
 "new": true
-},
-{
-"term": "한능검 81회 정답",
-"traffic": "200+",
-"time": "2026-11-28T03:10:00+00:00",
-"news": [
-{
-"title": "[속보] 81회 한능검 가답안 정답·답지 공개",
-"source": "국제뉴스",
-"link": "https://www.gukjenews.com/news/articleView.html?idxno=3765984"
-},
-{
-"title": "“컴싸로만 풀라고요?”… 시험 코앞 규정 바뀌자 수험생들 ‘부글부글’",
-"source": "Chosunbiz",
-"link": "https://biz.chosun.com/topics/topics_social/2026/11/25/NQVLYNMOU5DQ3EDNOBGUURYB6U/"
-}
-],
-"new": false
 }
 ],
 "trendSeen": [
