@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-28T00:47:49.650298+00:00",
+"updated": "2026-11-28T00:50:03.119458+00:00",
 "errors": [],
 "events": [
 {
@@ -195,7 +195,7 @@
 "id": "2hYRzV6THQwVDdEM25qZwoc52315",
 "first": "2026-11-27T23:15:45+00:00",
 "last": "2026-11-28T00:30:38+00:00",
-"updated": "2026-11-28T00:36:38.180890+00:00",
+"updated": "2026-11-28T00:50:03.119458+00:00",
 "headline": "새만금전주고속도로 승용차 단독 사고 처리중",
 "cat": "교통",
 "regions": [
@@ -239,6 +239,13 @@
 "title": "[속보] 영동고속도로 사고 처리중",
 "source": "스페셜타임스",
 "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1YTWwwc21sZzJ6b3RwdElBTTczYWQwZU5WZFdDcElydEE0NkNSQUlxVFhLRlJxMnNvb1duamt1SkFnU1B4UTJjVllhejdGRzdjN1pFMk0wQUlBYjY0RFJCS1J4LXZtSXZLUGVNODIxU01EUQ?oc=5",
+"time": "2026-11-28T00:30:38+00:00",
+"stage": "속보"
+},
+{
+"title": "[속보] 영동고속도로 사고 처리중",
+"source": "스페셜타임스",
+"link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBqT0JfVXE0d29SOEQ3bUd2TWo5cUtsR2I5RHRFTXplaHFsSUFvSlVpVHI5R3BNWTVhV0NPNG5LVndjeHlsMm10VXNGb1ppdUxvel9McV91eVQ4RTBJTGw0VVc5LVpZcld2TDNnUEJCR3pCejg?oc=5",
 "time": "2026-11-28T00:30:38+00:00",
 "stage": "속보"
 }
@@ -1635,7 +1642,7 @@
 },
 "붕괴": {
 "n30": 0,
-"base": 1.0,
+"base": 0.9,
 "spike": false
 },
 "대피": {
@@ -1654,13 +1661,13 @@
 "spike": true
 },
 "지하철": {
-"n30": 3,
+"n30": 1,
 "base": 1.3,
 "spike": false
 },
 "사고": {
 "n30": 0,
-"base": 1.2,
+"base": 1.1,
 "spike": false
 },
 "실종": {
@@ -1854,16 +1861,6 @@
 "url": "https://www.youtube.com/watch?v=xzvL_HfKr4A"
 },
 {
-"text": "인천 가는중인데 지하철에서 나만 빨간색임",
-"handle": "knullzero0000.bsky.social",
-"name": "블친소 knullzero⛄",
-"time": "2026-11-28T00:18:05.153Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/knullzero0000.bsky.social/post/3n3dgi62e222o",
-"term": "지하철"
-},
-{
 "platform": "YouTube",
 "text": "[속보] 삼성 외인 3명 재계약 추진, 상한 61억 안에서 퍼즐 맞추기",
 "handle": "UCC599e_VFzMPTn8SpSBNw5A",
@@ -1906,22 +1903,22 @@
 "n30": 11,
 "base": 0.1,
 "spike": true,
-"since": "2026-11-28T00:47:49.650298+00:00"
+"since": "2026-11-28T00:50:03.119458+00:00"
 }
 ],
 "baseline": {
-"지진": 0.71,
+"지진": 0.74,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
 "폭발": 0.05,
-"붕괴": 0.94,
+"붕괴": 0.85,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 1.29,
-"사고": 1.05,
-"실종": 0.11,
+"지하철": 1.16,
+"사고": 0.95,
+"실종": 0.1,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
