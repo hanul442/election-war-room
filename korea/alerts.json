@@ -1,12 +1,12 @@
 {
-"updated": "2026-11-28T11:57:47.426195+00:00",
+"updated": "2026-11-28T11:59:57.495073+00:00",
 "errors": [],
 "events": [
 {
 "id": "lE3YlVsek9MbFdzRnQ4cgoc51139",
 "first": "2026-11-28T11:39:43+00:00",
 "last": "2026-11-28T11:52:25+00:00",
-"updated": "2026-11-28T11:55:36.472532+00:00",
+"updated": "2026-11-28T11:59:57.495073+00:00",
 "headline": "로또 1252회 당첨번호 ‘9·28·23·19·33·44’…보너스 ‘43’",
 "cat": "기타",
 "regions": [],
@@ -74,6 +74,13 @@
 "title": "[속보] 제1252회 당첨번호 ‘9, 19, 23, 28, 33, 44’, 보너스 번호 ‘43’",
 "source": "경향신문",
 "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPdnFnU1I4bER3SHV2ZllyZWhvcG5rMS11cjVTcUQyN2NoXzhqWmQ0a2lKTkdYWExGd3hmQVRlT3JRc3JydGVxclpveXNYd3FkRjVnS0FpV1Q2TXhES3dKemYzamlPaEJjUUc5NDlrNlp3RnE3b1VWSDZfeGJNRzViLWlJS2tEUHM2YnhFRDhrQXJKcFlRMVZCSmREazQxTnZ4MU5WemJHenVkUdIBX0FVX3lxTE9oTDFNT3oweHZSeWdKQnREclFFcE1WY1Y2M2pzd21lZkpBa2tkUy1FUTNoNlVFOEItT3lWQWZXZ3NuX19pRkFROG1oTWU5V0dneXBiSm9PQXBRbWxJMTd3?oc=5",
+"time": "2026-11-28T11:47:00+00:00",
+"stage": "속보"
+},
+{
+"title": "[속보] 제1252회 당첨번호 ‘9, 19, 23, 28, 33, 44’, 보너스 번호 ‘43’",
+"source": "경향신문",
+"link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9mQUZLMTByQUdpSDk1bW15NFhXeVVkaXJPa0xYQVpUS2dTZGYyZHU0OGlvaW1Mc3VLUUJQZmxaMFdab3QzUEJ5RXZMY0MwSFlsWXpqM0NzX3JWZ9IBX0FVX3lxTE9oTDFNT3oweHZSeWdKQnREclFFcE1WY1Y2M2pzd21lZkpBa2tkUy1FUTNoNlVFOEItT3lWQWZXZ3NuX19pRkFROG1oTWU5V0dneXBiSm9PQXBRbWxJMTd3?oc=5",
 "time": "2026-11-28T11:47:00+00:00",
 "stage": "속보"
 },
@@ -3438,11 +3445,11 @@
 "terms": {
 "지진": {
 "n30": 1,
-"base": 0.8,
+"base": 0.7,
 "spike": false
 },
 "화재": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -3457,13 +3464,13 @@
 "spike": false
 },
 "폭발": {
-"n30": 2,
+"n30": 1,
 "base": 0.9,
 "spike": false
 },
 "붕괴": {
 "n30": 4,
-"base": 1.8,
+"base": 1.9,
 "spike": false
 },
 "대피": {
@@ -3477,7 +3484,7 @@
 "spike": false
 },
 "속보": {
-"n30": 2,
+"n30": 1,
 "base": 0.1,
 "spike": false
 },
@@ -3488,7 +3495,7 @@
 },
 "사고": {
 "n30": 6,
-"base": 4.1,
+"base": 4.3,
 "spike": false
 },
 "실종": {
@@ -3801,17 +3808,17 @@
 ],
 "spikes": [],
 "baseline": {
-"지진": 0.68,
+"지진": 0.61,
 "화재": 0.05,
 "불났": 0.05,
-"정전": 0.64,
-"폭발": 0.87,
-"붕괴": 1.88,
+"정전": 0.68,
+"폭발": 0.88,
+"붕괴": 1.99,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 1.14,
-"사고": 4.28,
+"지하철": 1.13,
+"사고": 4.45,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
