@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-28T03:00:13.182226+00:00",
+"updated": "2026-11-28T03:02:26.968038+00:00",
 "errors": [],
 "events": [
 {
@@ -119,6 +119,37 @@
 "아시아",
 "인프라",
 "최대"
+]
+},
+{
+"id": "lA0b0llTDNSZEtaUkpnZwoc50250",
+"first": "2026-11-28T02:50:08+00:00",
+"last": "2026-11-28T02:50:08+00:00",
+"updated": "2026-11-28T03:02:26.968038+00:00",
+"headline": "40대男, 설치기사에 ‘10㎏ 에어컨’ 집어던져…실형 선고",
+"cat": "기타",
+"regions": [],
+"sources": [
+"서울신문"
+],
+"updates": [
+{
+"title": "[속보] 40대男, 설치기사에 ‘10㎏ 에어컨’ 집어던져…실형 선고",
+"source": "서울신문",
+"link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1GdTJmQ2VPZlFQQWZKVk1fTUp2YlJYNktJUEZrVnQ4SlN2QkJFQ1c3bjJQYlRaSGN2YnZGZFdGRHN5ZUl4R2hRRkduTVVHZkdPWUZLREh2RldtajJoX1pwdlA0b0llTDNSZEtaUkpnZw?oc=5",
+"time": "2026-11-28T02:50:08+00:00",
+"stage": "얼럿"
+}
+],
+"level": "URGENT",
+"latest": "40대男, 설치기사에 ‘10㎏ 에어컨’ 집어던져…실형 선고",
+"tok": [
+"40대男",
+"선고",
+"설치기사",
+"실형",
+"에어컨",
+"집어던져"
 ]
 },
 {
@@ -2159,9 +2190,9 @@
 "spike": false
 },
 "폭발": {
-"n30": 5,
+"n30": 4,
 "base": 0.9,
-"spike": true
+"spike": false
 },
 "붕괴": {
 "n30": 0,
@@ -2174,23 +2205,23 @@
 "spike": false
 },
 "미사일": {
-"n30": 3,
-"base": 0.4,
+"n30": 2,
+"base": 0.5,
 "spike": false
 },
 "속보": {
-"n30": 4,
+"n30": 2,
 "base": 0.2,
 "spike": false
 },
 "지하철": {
-"n30": 2,
-"base": 1.8,
+"n30": 1,
+"base": 1.7,
 "spike": false
 },
 "사고": {
-"n30": 4,
-"base": 2.9,
+"n30": 3,
+"base": 3.0,
 "spike": false
 },
 "실종": {
@@ -2210,7 +2241,7 @@
 },
 "먹통": {
 "n30": 0,
-"base": 0.2,
+"base": 0.1,
 "spike": false
 },
 "산불": {
@@ -2334,26 +2365,6 @@
 "url": "https://www.youtube.com/watch?v=U2vOmYNfXWo"
 },
 {
-"text": "최민희 사고 친거 이렇게 보니 ㅈㄴ많네\n\n결혼식 축의금 카드 결제 되는 것도 첨 알았음",
-"handle": "mojito0309.bsky.social",
-"name": "🍹모히또🎗",
-"time": "2026-11-28T02:31:13.248Z",
-"likes": 0,
-"reposts": 1,
-"url": "https://bsky.app/profile/mojito0309.bsky.social/post/3n3dnw5mops2j",
-"term": "사고"
-},
-{
-"text": "지하철탈때뒤에서 보지만져주고싶어",
-"handle": "kihoson77776.bsky.social",
-"name": "kihoson77776.bsky.social",
-"time": "2026-11-28T02:31:08.445Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/kihoson77776.bsky.social/post/3n3dnw3l6zc2f",
-"term": "지하철"
-},
-{
 "platform": "YouTube",
 "text": "“김민석 위한다면 피아식별부터 똑바로!” 이동형 결국 폭발 #shorts #정치이슈",
 "handle": "UCcKOR-LCqXbgSiBtAfnAMvg",
@@ -2471,31 +2482,23 @@
 "url": "https://www.youtube.com/watch?v=ZuFUchdvCy4"
 }
 ],
-"spikes": [
-{
-"term": "폭발",
-"n30": 5,
-"base": 0.9,
-"spike": true,
-"since": "2026-11-28T03:00:13.182226+00:00"
-}
-],
+"spikes": [],
 "baseline": {
 "지진": 0.05,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.88,
+"폭발": 0.89,
 "붕괴": 0.05,
 "대피": 0.05,
-"미사일": 0.45,
-"속보": 0.18,
-"지하철": 1.74,
+"미사일": 0.51,
+"속보": 0.16,
+"지하철": 1.57,
 "사고": 3.01,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
-"먹통": 0.14,
+"먹통": 0.13,
 "산불": 0.05
 },
 "errors": [],
