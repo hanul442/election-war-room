@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-28T10:23:13.791462+00:00",
+"updated": "2026-11-28T10:25:25.631772+00:00",
 "errors": [],
 "events": [
 {
@@ -3478,9 +3478,9 @@
 "spike": false
 },
 "폭발": {
-"n30": 5,
-"base": 0.7,
-"spike": true
+"n30": 4,
+"base": 0.8,
+"spike": false
 },
 "붕괴": {
 "n30": 2,
@@ -3503,18 +3503,18 @@
 "spike": false
 },
 "지하철": {
-"n30": 5,
+"n30": 4,
 "base": 0.9,
-"spike": true
+"spike": false
 },
 "사고": {
 "n30": 0,
-"base": 1.4,
+"base": 1.3,
 "spike": false
 },
 "실종": {
 "n30": 1,
-"base": 0.4,
+"base": 0.5,
 "spike": false
 },
 "단수": {
@@ -3677,16 +3677,6 @@
 "term": "폭발"
 },
 {
-"text": "ㅈㄴ배아픈데 지하철 화장실에서 ㅈㄴ수다따네 도대체왜....",
-"handle": "replayexpert.bsky.social",
-"name": "미스트",
-"time": "2026-11-28T09:55:16.040Z",
-"likes": 0,
-"reposts": 0,
-"url": "https://bsky.app/profile/replayexpert.bsky.social/post/3n3egq7spwc2n",
-"term": "지하철"
-},
-{
 "platform": "YouTube",
 "text": "니가 왜 거기서 나와 역대급 분노 폭발",
 "handle": "UCiCMW6SYuU4WyVkBrMi__WA",
@@ -3732,35 +3722,20 @@
 "url": "https://www.youtube.com/watch?v=AhFoHYcXAXk"
 }
 ],
-"spikes": [
-{
-"term": "폭발",
-"n30": 5,
-"base": 0.7,
-"spike": true,
-"since": "2026-11-28T10:23:13.791462+00:00"
-},
-{
-"term": "지하철",
-"n30": 5,
-"base": 0.9,
-"spike": true,
-"since": "2026-11-28T10:23:13.791462+00:00"
-}
-],
+"spikes": [],
 "baseline": {
 "지진": 0.05,
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.77,
+"폭발": 0.79,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 0.91,
-"사고": 1.3,
-"실종": 0.45,
+"지하철": 0.82,
+"사고": 1.17,
+"실종": 0.51,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
@@ -3963,9 +3938,9 @@
 "link": "https://www.yna.co.kr/view/AKR20261128046800063"
 },
 {
-"title": "[속보] 철도노조 준법투쟁 첫 주말…\"전철 105대 20분 이상 지연\"",
-"source": "매일경제 마켓",
-"link": "https://stock.mk.co.kr/news/view/1207549"
+"title": "철도노조 준법투쟁 후 첫 주말…\"광역전철 105대 지연\"",
+"source": "연합뉴스TV",
+"link": "https://www.yonhapnewstv.co.kr/news/AKR202611281906356Zk"
 }
 ],
 "new": true
@@ -3976,14 +3951,14 @@
 "time": "2026-11-28T08:50:00+00:00",
 "news": [
 {
-"title": "[경북소식]나라사랑 한마음대회, 유공자·가족 위로·감사 등",
-"source": "뉴시스",
-"link": "https://www.newsis.com/view/NISX20261127_0003886513"
+"title": "부산보훈청·한전 부울본부, 국가유공자 제146·147호 '보비하우스' 오픈",
+"source": "국제뉴스",
+"link": "https://www.gukjenews.com/news/articleView.html?idxno=3765998"
 },
 {
-"title": "윤종구 울진광복회장 표창패 받아",
-"source": "울진신문",
-"link": "http://www.uljinnews.co.kr/news/articleView.html?idxno=76934"
+"title": "참전유공자 유족 주택 새 단장…HF `아너하우스` 헌정",
+"source": "매일신문",
+"link": "https://www.imaeil.com/page/view/2026112523472006495"
 }
 ],
 "new": true
@@ -3992,13 +3967,7 @@
 "term": "開票",
 "traffic": "200+",
 "time": "2026-11-28T08:30:00+00:00",
-"news": [
-{
-"title": "PHOTO ESSAY Polling stations across the country welcome early risers",
-"source": "Focus Taiwan",
-"link": "https://focustaiwan.tw/politics/202611285001"
-}
-],
+"news": [],
 "new": true
 },
 {
