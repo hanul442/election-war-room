@@ -1,16 +1,17 @@
 {
-"updated": "2026-11-28T03:59:32.980021+00:00",
+"updated": "2026-11-28T04:01:46.967663+00:00",
 "errors": [],
 "events": [
 {
 "id": "F9YcE1tbDNOSDNlSkFJZwoc50250",
 "first": "2026-11-28T02:50:09+00:00",
 "last": "2026-11-28T03:47:11+00:00",
-"updated": "2026-11-28T03:59:32.980021+00:00",
+"updated": "2026-11-28T04:01:46.967663+00:00",
 "headline": "李대통령 \"오늘 아시아 최대 규모 AI 인프라 첫 삽\"",
 "cat": "정치",
 "regions": [],
 "sources": [
+"KBC광주방송",
 "www.twig24.com",
 "뉴시스",
 "머니투데이",
@@ -84,6 +85,13 @@
 "stage": "속보"
 },
 {
+"title": "[속보]李대통령 \"AI 경쟁 선도국가 위해 총력 지원\"…'메가프로젝트' 동해 데이터센터 착공",
+"source": "KBC광주방송",
+"link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9aZ0x5clVpZGFkOThwSFJHN2h5R1BmYTUwZm5kZGZYbFFVbEl0aDBKSmdxLUNOY1FXM05XaTN3N080VVY4RXRkTVZtdDZHOG9UbjU3RFFwcWxXNlI4ejBtOQ?oc=5",
+"time": "2026-11-28T03:47:06+00:00",
+"stage": "속보"
+},
+{
 "title": "1.2GW급 GS 동해 AI 데이터센터 착공…아시아 최대 규모 ‘첫 삽’",
 "source": "조선일보",
 "link": "https://www.chosun.com/economy/industry-company/2026/11/28/GAZGGNBSHBSTCMLCHEYTCYZYGQ/",
@@ -105,6 +113,7 @@
 "GS",
 "GS그룹",
 "李대통령",
+"경쟁",
 "국가",
 "규모",
 "기준",
@@ -116,10 +125,14 @@
 "머니투데",
 "메가프로젝트",
 "모든",
+"선도국",
 "아시아",
 "역량",
+"위해",
 "인프라",
+"지원",
 "착공",
+"총력",
 "최대",
 "허태수號"
 ]
@@ -2287,50 +2300,12 @@
 "전역하면",
 "지승준"
 ]
-},
-{
-"id": "jFMVXcwM3JSc2F4LUlhQQoc52200",
-"first": "2026-11-27T22:00:44+00:00",
-"last": "2026-11-27T22:00:44+00:00",
-"updated": "2026-11-27T22:22:21.045282+00:00",
-"headline": "통영대전고속도로 승용차 관련 사고처리중",
-"cat": "교통",
-"regions": [
-"경남",
-"대전"
-],
-"sources": [
-"스페셜타임스"
-],
-"updates": [
-{
-"title": "[속보] 통영대전고속도로 승용차 관련 사고처리중",
-"source": "스페셜타임스",
-"link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1wRVhvemtMdjlyV2ZVdDdRVk85NHdKai1ielhJMXN6NERZT2x5MzZUc2x2VzRLWXB1NmhIelk3Ql92LThydmhQVk9rd25wbzZzSUxCSjNTRlVaNWp1UkVaYkhvWjFMVXcwM3JSc2F4LUlhQQ?oc=5",
-"time": "2026-11-27T22:00:44+00:00",
-"stage": "얼럿"
-},
-{
-"title": "[속보] 통영대전고속도로 승용차 관련 사고처리중",
-"source": "스페셜타임스",
-"link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE4yb0VBdE1DR2Q3LTlFdU16Rkd2QzdpNWNxcG5SZ1pxdTdtUUtNVW9fbG43NElMSDZxYldNNUNZUWJHTzFjY3dyZUluUFZ3WWFvWnNFY05PR0dMYkZNdHZvcHpZd0o3TngxTzRIODJwTXFQQ2s?oc=5",
-"time": "2026-11-27T22:00:44+00:00",
-"stage": "속보"
-}
-],
-"level": "URGENT",
-"latest": "통영대전고속도로 승용차 관련 사고처리중",
-"tok": [
-"사고처리중",
-"승용차",
-"통영대전고속도"
-]
 }
 ],
 "sns": {
 "terms": {
 "지진": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -2350,7 +2325,7 @@
 "spike": false
 },
 "폭발": {
-"n30": 2,
+"n30": 1,
 "base": 0.6,
 "spike": false
 },
@@ -2370,18 +2345,18 @@
 "spike": false
 },
 "속보": {
-"n30": 4,
+"n30": 2,
 "base": 0.1,
 "spike": false
 },
 "지하철": {
 "n30": 2,
-"base": 1.3,
+"base": 1.2,
 "spike": false
 },
 "사고": {
 "n30": 0,
-"base": 2.4,
+"base": 2.1,
 "spike": false
 },
 "실종": {
@@ -2581,13 +2556,13 @@
 "화재": 0.05,
 "불났": 0.05,
 "정전": 0.05,
-"폭발": 0.56,
+"폭발": 0.5,
 "붕괴": 0.05,
 "대피": 0.05,
-"미사일": 0.12,
+"미사일": 0.11,
 "속보": 0.05,
-"지하철": 1.23,
-"사고": 2.12,
+"지하철": 1.21,
+"사고": 1.91,
 "실종": 0.05,
 "단수": 0.05,
 "통신 장애": 0.05,
