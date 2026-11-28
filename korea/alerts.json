@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-28T05:18:00.070695+00:00",
+"updated": "2026-11-28T05:20:18.001858+00:00",
 "errors": [],
 "events": [
 {
@@ -298,30 +298,48 @@
 "id": "yd2t6bUdRWWVNcXRQTnljoc50501",
 "first": "2026-11-28T05:01:03+00:00",
 "last": "2026-11-28T05:01:03+00:00",
-"updated": "2026-11-28T05:18:00.070695+00:00",
+"updated": "2026-11-28T05:20:18.001858+00:00",
 "headline": "인터넷우체국 뚫렸다…하루치만 11만명 개인정보 유출",
 "cat": "기타",
 "regions": [],
 "sources": [
-"www.twig24.com"
+"SBS",
+"www.twig24.com",
+"서울신문"
 ],
 "updates": [
+{
+"title": "인터넷우체국도 털렸다…\"하루치만 11만여 명\"",
+"source": "SBS",
+"link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008867795&plink=RSSLINK&cooper=RSSREADER",
+"time": "2026-11-28T03:27:20+00:00",
+"stage": "후속"
+},
 {
 "title": "[속보] 인터넷우체국 뚫렸다…하루치만 11만명 개인정보 유출",
 "source": "www.twig24.com",
 "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9UNHpHSjNLMGMwXzhSeDMxSlBYUkRiVGF1QnVTVGI3Y05BaEpXLTk5Q0xNeVV6NzNxbGRSbUpGY2ZlSzBLZGVLZ0p4Y3ZEVnREdFBseXItVWF4TEUyd2t6bUdRWWVNcXRQTnlj?oc=5",
 "time": "2026-11-28T05:01:03+00:00",
 "stage": "얼럿"
+},
+{
+"title": "[속보] 인터넷우체국 뚫렸다…하루치만 11만명 개인정보 유출",
+"source": "서울신문",
+"link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE14NW5NaERPc0VheFZoNkxCcTlNX3lXLWNzdU4xNlg1Mi1VYXRUOFQ5SFBqalBqd1l2VlpqZ0RmRHBhS1VCOVFpenh4Wk15N0Jua2g3dnhHYUw5YjVQaThaejVka24tcUNpRDhybm91MA?oc=5",
+"time": "2026-11-28T05:01:03+00:00",
+"stage": "속보"
 }
 ],
 "level": "URGENT",
 "latest": "인터넷우체국 뚫렸다…하루치만 11만명 개인정보 유출",
 "tok": [
 "11만명",
+"11만여",
 "개인정보",
 "뚫렸다",
 "유출",
 "인터넷우체국",
+"털렸다",
 "하루치"
 ]
 },
@@ -2902,7 +2920,7 @@
 "spike": false
 },
 "붕괴": {
-"n30": 1,
+"n30": 0,
 "base": 0.1,
 "spike": false
 },
@@ -2922,13 +2940,13 @@
 "spike": false
 },
 "지하철": {
-"n30": 4,
+"n30": 2,
 "base": 1.9,
 "spike": false
 },
 "사고": {
 "n30": 3,
-"base": 2.4,
+"base": 2.5,
 "spike": false
 },
 "실종": {
@@ -3159,15 +3177,15 @@
 "지진": 0.05,
 "화재": 0.05,
 "불났": 0.05,
-"정전": 0.11,
-"폭발": 0.37,
+"정전": 0.1,
+"폭발": 0.33,
 "붕괴": 0.05,
 "대피": 0.05,
 "미사일": 0.05,
 "속보": 0.05,
-"지하철": 1.9,
-"사고": 2.47,
-"실종": 0.6,
+"지하철": 1.91,
+"사고": 2.52,
+"실종": 0.64,
 "단수": 0.05,
 "통신 장애": 0.05,
 "먹통": 0.05,
